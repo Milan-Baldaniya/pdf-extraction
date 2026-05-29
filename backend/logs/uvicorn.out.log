@@ -1,0 +1,175 @@
+2026-05-20 16:24:24 | INFO     | app.main | Starting NCERT PDF Extraction Service
+INFO:     127.0.0.1:55117 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49678 - "GET /api/generate-chapter-ppt HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:51800 - "OPTIONS /api/generate-chapter-ppt HTTP/1.1" 200 OK
+2026-05-20 16:26:04 | INFO     | app.api.routes | Job 5683781e24eb – Starting extraction for https://ncert.nic.in/textbook/pdf/iesc101.pdf
+2026-05-20 16:26:05 | WARNING  | app.services.pdf_service | aiohttp download failed, retrying with urllib: Cannot connect to host ncert.nic.in:443 ssl:default [The specified network name is no longer available]
+2026-05-20 16:26:11 | INFO     | app.services.pdf_service | Download complete via urllib fallback - input.pdf (3.43 MB)
+2026-05-20 16:26:11 | INFO     | app.services.mineru_service | Starting CPU extraction: C:\Users\MILAN\Downloads\pdf extraction\backend\tmp\ncert\5683781e24eb\input.pdf -> C:\Users\MILAN\Downloads\pdf extraction\backend\output\5683781e24eb
+2026-05-20 16:26:11 | INFO     | app.services.mineru_service | Running MinerU CPU CLI: C:\Users\MILAN\Downloads\pdf extraction\backend\venv\Scripts\mineru.exe -p C:\Users\MILAN\Downloads\pdf extraction\backend\tmp\ncert\5683781e24eb\input.pdf -o C:\Users\MILAN\Downloads\pdf extraction\backend\output\5683781e24eb -b pipeline -m auto -l devanagari -f true -t true
+2026-05-20 16:31:01 | INFO     | app.services.mineru_service | MinerU CPU extraction completed with backend=pipeline method=auto.
+2026-05-20 16:31:01 | INFO     | app.services.mineru_service | Found 1 markdown file(s).
+2026-05-20 16:31:01 | INFO     | app.services.mineru_service | Loaded JSON from input_content_list_v2.json
+2026-05-20 16:31:01 | INFO     | app.api.routes | Job 5683781e24eb – Extraction completed in 297.1s  |  markdown=20082 chars  images=16
+2026-05-20 16:31:01 | INFO     | app.utils.file_utils | Cleaned up temp files: tmp\ncert\5683781e24eb
+INFO:     127.0.0.1:51800 - "POST /api/generate-chapter-ppt HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63200 - "GET /api/assets/5683781e24eb/input/auto/images/63ed61669ad060a85636e6a0f9f4020df12cab5dcc3ce80d94a21396ac944576.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51030 - "GET /api/assets/5683781e24eb/input/auto/images/9a8f566dccf49e68c9216cdd98cac557a19ac771d581c050244b9e2ad4272177.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49666 - "GET /api/assets/5683781e24eb/input/auto/images/5ccb04599a7b87b8e6a4185140db2a508458a0234cc1cc3a8e5c9436e9a07e77.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55243 - "GET /api/assets/5683781e24eb/input/auto/images/b357029dd1e0a1babcd7ade2a1bc3ab64987fa933859e74a52b9398a2cec72f6.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65206 - "GET /api/assets/5683781e24eb/input/auto/images/085befc6f48855325cb075f4dbeb1c830f9f1a724225cd02ab7f4bcefd75016a.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50262 - "GET /api/assets/5683781e24eb/input/auto/images/10d8ac684cf514297b5325380222b349d792f19bae62db32f831328bb577cddc.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65206 - "GET /api/assets/5683781e24eb/input/auto/images/81664d4350ae8cdc88442d324d7ffb0c3e2a1eb26c0bc5be5e87276af174f223.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50262 - "GET /api/assets/5683781e24eb/input/auto/images/994764c5e942a3be6207691765609247452ef6c95ed1bc17162059c3dd142c9d.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63200 - "GET /api/assets/5683781e24eb/input/auto/images/10aeccb330ce0b8feed06551c57efca0f9ad55f4460a567d650f2b8f45a77958.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55243 - "GET /api/assets/5683781e24eb/input/auto/images/970edad2750bab0e22d33db5ff714642bd725222b61c2d84ab7b144d6dc7b9f3.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49666 - "GET /api/assets/5683781e24eb/input/auto/images/ac56ded3b01151d60a6d0e5dd5ccec9edc40093104f35f8d86127fdce9b17ba3.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51030 - "GET /api/assets/5683781e24eb/input/auto/images/679af16c801420739211d4834bbadd026ee89e8c5c1bfbc881f39f69c8dc4898.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51030 - "GET /api/assets/5683781e24eb/input/auto/images/7a989c9fd35e423eab4c6aae75d92137207bcaeb7383e82f24dd8cc1db5e758e.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63200 - "GET /api/assets/5683781e24eb/input/auto/images/01b6f596db08ef442c09661e8f964290f392d94ee955576061fea9c972f71079.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50262 - "GET /api/assets/5683781e24eb/input/auto/images/0214b75b06332b9ff3ec7eb2b7a7e1ded6407f8d489f5dcbfeb46d5b6816e078.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49666 - "GET /api/assets/5683781e24eb/input/auto/images/e16fdabd3a785f65ddd453b96a979bbf102915024b5fa9485686afcd04ca6d06.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49217 - "OPTIONS /api/generate-chapter-ppt HTTP/1.1" 200 OK
+2026-05-20 17:08:44 | INFO     | app.api.routes | Job 7e1e18122b1f – Starting extraction for https://ncert.nic.in/textbook/pdf/iesc101.pdf
+2026-05-20 17:08:44 | WARNING  | app.services.pdf_service | aiohttp download failed, retrying with urllib: Cannot connect to host ncert.nic.in:443 ssl:default [The specified network name is no longer available]
+2026-05-20 17:08:46 | INFO     | app.services.pdf_service | Download complete via urllib fallback - input.pdf (3.43 MB)
+2026-05-20 17:08:46 | INFO     | app.services.mineru_service | Starting CPU extraction: C:\Users\MILAN\Downloads\pdf extraction\backend\tmp\ncert\7e1e18122b1f\input.pdf -> C:\Users\MILAN\Downloads\pdf extraction\backend\output\7e1e18122b1f
+2026-05-20 17:08:46 | INFO     | app.services.mineru_service | Running MinerU CPU CLI: C:\Users\MILAN\Downloads\pdf extraction\backend\venv\Scripts\mineru.exe -p C:\Users\MILAN\Downloads\pdf extraction\backend\tmp\ncert\7e1e18122b1f\input.pdf -o C:\Users\MILAN\Downloads\pdf extraction\backend\output\7e1e18122b1f -b pipeline -m auto -l devanagari -f true -t true
+2026-05-20 17:12:37 | INFO     | app.services.mineru_service | MinerU CPU extraction completed with backend=pipeline method=auto.
+2026-05-20 17:12:37 | INFO     | app.services.mineru_service | Found 1 markdown file(s).
+2026-05-20 17:12:37 | INFO     | app.services.mineru_service | Loaded JSON from input_content_list_v2.json
+2026-05-20 17:12:37 | INFO     | app.api.routes | Job 7e1e18122b1f – Extraction completed in 233.2s  |  markdown=20082 chars  images=16
+2026-05-20 17:12:37 | INFO     | app.utils.file_utils | Cleaned up temp files: tmp\ncert\7e1e18122b1f
+INFO:     127.0.0.1:49217 - "POST /api/generate-chapter-ppt HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58524 - "GET /api/assets/7e1e18122b1f/input/auto/images/63ed61669ad060a85636e6a0f9f4020df12cab5dcc3ce80d94a21396ac944576.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53670 - "GET /api/assets/7e1e18122b1f/input/auto/images/9a8f566dccf49e68c9216cdd98cac557a19ac771d581c050244b9e2ad4272177.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59879 - "GET /api/assets/7e1e18122b1f/input/auto/images/5ccb04599a7b87b8e6a4185140db2a508458a0234cc1cc3a8e5c9436e9a07e77.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64773 - "GET /api/assets/7e1e18122b1f/input/auto/images/b357029dd1e0a1babcd7ade2a1bc3ab64987fa933859e74a52b9398a2cec72f6.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49385 - "GET /api/assets/7e1e18122b1f/input/auto/images/085befc6f48855325cb075f4dbeb1c830f9f1a724225cd02ab7f4bcefd75016a.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65435 - "GET /api/assets/7e1e18122b1f/input/auto/images/10d8ac684cf514297b5325380222b349d792f19bae62db32f831328bb577cddc.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64773 - "GET /api/assets/7e1e18122b1f/input/auto/images/81664d4350ae8cdc88442d324d7ffb0c3e2a1eb26c0bc5be5e87276af174f223.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49385 - "GET /api/assets/7e1e18122b1f/input/auto/images/994764c5e942a3be6207691765609247452ef6c95ed1bc17162059c3dd142c9d.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65435 - "GET /api/assets/7e1e18122b1f/input/auto/images/10aeccb330ce0b8feed06551c57efca0f9ad55f4460a567d650f2b8f45a77958.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59879 - "GET /api/assets/7e1e18122b1f/input/auto/images/ac56ded3b01151d60a6d0e5dd5ccec9edc40093104f35f8d86127fdce9b17ba3.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53670 - "GET /api/assets/7e1e18122b1f/input/auto/images/679af16c801420739211d4834bbadd026ee89e8c5c1bfbc881f39f69c8dc4898.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58524 - "GET /api/assets/7e1e18122b1f/input/auto/images/970edad2750bab0e22d33db5ff714642bd725222b61c2d84ab7b144d6dc7b9f3.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65435 - "GET /api/assets/7e1e18122b1f/input/auto/images/7a989c9fd35e423eab4c6aae75d92137207bcaeb7383e82f24dd8cc1db5e758e.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49385 - "GET /api/assets/7e1e18122b1f/input/auto/images/01b6f596db08ef442c09661e8f964290f392d94ee955576061fea9c972f71079.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59879 - "GET /api/assets/7e1e18122b1f/input/auto/images/e16fdabd3a785f65ddd453b96a979bbf102915024b5fa9485686afcd04ca6d06.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53670 - "GET /api/assets/7e1e18122b1f/input/auto/images/0214b75b06332b9ff3ec7eb2b7a7e1ded6407f8d489f5dcbfeb46d5b6816e078.jpg HTTP/1.1" 200 OK
+2026-05-20 17:16:01 | INFO     | app.api.routes | Job afc81d724f1e – Starting extraction for https://ncert.nic.in/textbook/pdf/iemh101.pdf
+2026-05-20 17:16:02 | INFO     | app.services.pdf_service | Download complete – input.pdf (1.43 MB)
+2026-05-20 17:16:02 | INFO     | app.services.mineru_service | Starting CPU extraction: C:\Users\MILAN\Downloads\pdf extraction\backend\tmp\ncert\afc81d724f1e\input.pdf -> C:\Users\MILAN\Downloads\pdf extraction\backend\output\afc81d724f1e
+2026-05-20 17:16:02 | INFO     | app.services.mineru_service | Running MinerU CPU CLI: C:\Users\MILAN\Downloads\pdf extraction\backend\venv\Scripts\mineru.exe -p C:\Users\MILAN\Downloads\pdf extraction\backend\tmp\ncert\afc81d724f1e\input.pdf -o C:\Users\MILAN\Downloads\pdf extraction\backend\output\afc81d724f1e -b pipeline -m auto -l devanagari -f true -t true
+2026-05-20 17:20:34 | INFO     | app.services.mineru_service | MinerU CPU extraction completed with backend=pipeline method=auto.
+2026-05-20 17:20:34 | INFO     | app.services.mineru_service | Found 1 markdown file(s).
+2026-05-20 17:20:34 | INFO     | app.services.mineru_service | Loaded JSON from input_content_list_v2.json
+2026-05-20 17:20:34 | INFO     | app.api.routes | Job afc81d724f1e – Extraction completed in 272.9s  |  markdown=22992 chars  images=18
+2026-05-20 17:20:34 | INFO     | app.utils.file_utils | Cleaned up temp files: tmp\ncert\afc81d724f1e
+INFO:     127.0.0.1:54840 - "POST /api/generate-chapter-ppt HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55274 - "GET /api/assets/afc81d724f1e/input/auto/images/01a9d802fcf246626f18bcc0da89bc0596732d41140ac140a9f9b66c27c545b6.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52976 - "GET /api/assets/afc81d724f1e/input/auto/images/57610e90c6f9e2153511183b935696334a4402299b125d9540ffc5f66ec074d5.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58147 - "GET /api/assets/afc81d724f1e/input/auto/images/4de0d4f88960dfd5da13a8f802e52d3c1d03a88408f24245533fe4e097ccb0eb.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54251 - "GET /api/assets/afc81d724f1e/input/auto/images/d4c3e13a76d23acf17a655e4bf5601ea27992404becb52a0d9c0d74a36ea1c39.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50837 - "GET /api/assets/afc81d724f1e/input/auto/images/0b824b3838059881cd808633ab0e47a3b3ab9bbd3fc9fa74fad742edec129c2b.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58375 - "GET /api/assets/afc81d724f1e/input/auto/images/ace29b11a377cf0238e5f3f754110b623346c18b41ae47187167f86f085e8be6.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58147 - "GET /api/assets/afc81d724f1e/input/auto/images/dfc334c72be700a14c94149edaab6d88c3464902f1b096b8409da58c85e8eadc.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54527 - "GET /api/assets/afc81d724f1e/input/auto/images/b979af1917b143eb9b3081dd78c1eb25773461e746a245edb87e53c96827f29e.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53504 - "GET /api/assets/afc81d724f1e/input/auto/images/4ce91f3157345da10895231f783fc521347249fc9abda8f5cd242352e9d49c27.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64565 - "OPTIONS /api/generate-chapter-ppt HTTP/1.1" 200 OK
+2026-05-20 17:30:39 | INFO     | app.api.routes | Job 8d9da9ef627f – Starting extraction for https://ncert.nic.in/textbook/pdf/iemh101.pdf
+2026-05-20 17:30:39 | WARNING  | app.services.pdf_service | aiohttp download failed, retrying with urllib: Cannot connect to host ncert.nic.in:443 ssl:default [The specified network name is no longer available]
+2026-05-20 17:30:40 | INFO     | app.services.pdf_service | Download complete via urllib fallback - input.pdf (1.43 MB)
+2026-05-20 17:30:40 | INFO     | app.services.mineru_service | Starting CPU extraction: C:\Users\MILAN\Downloads\pdf extraction\backend\tmp\ncert\8d9da9ef627f\input.pdf -> C:\Users\MILAN\Downloads\pdf extraction\backend\output\8d9da9ef627f
+2026-05-20 17:30:40 | INFO     | app.services.mineru_service | Running MinerU CPU CLI: C:\Users\MILAN\Downloads\pdf extraction\backend\venv\Scripts\mineru.exe -p C:\Users\MILAN\Downloads\pdf extraction\backend\tmp\ncert\8d9da9ef627f\input.pdf -o C:\Users\MILAN\Downloads\pdf extraction\backend\output\8d9da9ef627f -b pipeline -m auto -l devanagari -f true -t true
+2026-05-20 17:34:59 | INFO     | app.services.mineru_service | MinerU CPU extraction completed with backend=pipeline method=auto.
+2026-05-20 17:34:59 | INFO     | app.services.mineru_service | Found 1 markdown file(s).
+2026-05-20 17:34:59 | INFO     | app.services.mineru_service | Loaded JSON from input_content_list_v2.json
+2026-05-20 17:34:59 | INFO     | app.api.routes | Job 8d9da9ef627f – Extraction completed in 260.1s  |  markdown=22992 chars  images=18
+2026-05-20 17:34:59 | INFO     | app.utils.file_utils | Cleaned up temp files: tmp\ncert\8d9da9ef627f
+INFO:     127.0.0.1:64565 - "POST /api/generate-chapter-ppt HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63238 - "GET /api/assets/afc81d724f1e/input/auto/images/b979af1917b143eb9b3081dd78c1eb25773461e746a245edb87e53c96827f29e.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50774 - "GET /api/assets/afc81d724f1e/input/auto/images/4ce91f3157345da10895231f783fc521347249fc9abda8f5cd242352e9d49c27.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65415 - "GET /api/assets/8d9da9ef627f/input/auto/images/01a9d802fcf246626f18bcc0da89bc0596732d41140ac140a9f9b66c27c545b6.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56188 - "GET /api/assets/8d9da9ef627f/input/auto/images/57610e90c6f9e2153511183b935696334a4402299b125d9540ffc5f66ec074d5.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56102 - "GET /api/assets/8d9da9ef627f/input/auto/images/4de0d4f88960dfd5da13a8f802e52d3c1d03a88408f24245533fe4e097ccb0eb.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65161 - "GET /api/assets/8d9da9ef627f/input/auto/images/ace29b11a377cf0238e5f3f754110b623346c18b41ae47187167f86f085e8be6.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52620 - "GET /api/assets/8d9da9ef627f/input/auto/images/d4c3e13a76d23acf17a655e4bf5601ea27992404becb52a0d9c0d74a36ea1c39.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65143 - "GET /api/assets/8d9da9ef627f/input/auto/images/0b824b3838059881cd808633ab0e47a3b3ab9bbd3fc9fa74fad742edec129c2b.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65415 - "GET /api/assets/8d9da9ef627f/input/auto/images/dfc334c72be700a14c94149edaab6d88c3464902f1b096b8409da58c85e8eadc.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54580 - "OPTIONS /api/generate-chapter-ppt HTTP/1.1" 200 OK
+2026-05-20 18:03:00 | INFO     | app.api.routes | Job 06415f5d1ccc – Starting extraction for https://ncert.nic.in/textbook/pdf/iesc105.pdf
+2026-05-20 18:03:06 | INFO     | app.services.pdf_service | Download complete – input.pdf (11.19 MB)
+2026-05-20 18:03:06 | INFO     | app.services.mineru_service | Starting CPU extraction: C:\Users\MILAN\Downloads\pdf extraction\backend\tmp\ncert\06415f5d1ccc\input.pdf -> C:\Users\MILAN\Downloads\pdf extraction\backend\output\06415f5d1ccc
+2026-05-20 18:03:06 | INFO     | app.services.mineru_service | Running MinerU CPU CLI: C:\Users\MILAN\Downloads\pdf extraction\backend\venv\Scripts\mineru.exe -p C:\Users\MILAN\Downloads\pdf extraction\backend\tmp\ncert\06415f5d1ccc\input.pdf -o C:\Users\MILAN\Downloads\pdf extraction\backend\output\06415f5d1ccc -b pipeline -m auto -l devanagari -f true -t true
+2026-05-20 18:10:50 | INFO     | app.services.mineru_service | MinerU CPU extraction completed with backend=pipeline method=auto.
+2026-05-20 18:10:50 | INFO     | app.services.mineru_service | Found 1 markdown file(s).
+2026-05-20 18:10:50 | INFO     | app.services.mineru_service | Loaded JSON from input_content_list_v2.json
+2026-05-20 18:10:51 | INFO     | app.api.routes | Job 06415f5d1ccc – Extraction completed in 470.7s  |  markdown=61200 chars  images=73
+2026-05-20 18:10:51 | INFO     | app.utils.file_utils | Cleaned up temp files: tmp\ncert\06415f5d1ccc
+INFO:     127.0.0.1:54580 - "POST /api/generate-chapter-ppt HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/adae48883f06b1c2cc96118711efdfab47ef9071f6de35c1083639dfd8faf921.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/6d96040ff979978c3aa519a3c0242ef2da45d5a359193eeb7eef101245066684.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/2b07d1d3d2074d610e1808d3c6398807599afff218c2b5e9cd29e1c685ee26da.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/6ae1b0cac0b30790b3cf92a9632609bfcb30793b58c24b37712972cd959bb280.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/837ce8cad4aeb668c6c1b1e623a15ed4a1794c9995173ac637bc303e9f826a9b.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/da54bceeac611ff1ea11b1fe794c824a9739efcf86d04fe0b2229c47fc45addf.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/09c84e9ab595bc5b1793ae734930f6d0c99582a51f3767fd7c056c16d5d47315.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/d3b709e847c519e4763147e607aa74c8caf46104dc7d968e7c879fcfa4178531.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/41b423e0238f6890deb61120410f11403535ff871b565987ac63f9dabb38373d.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/789cd945455ffcd7b4a595da1b72413cb055d6e1f57508a0099a7d59e434108a.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/b3115b15ac73db252750fd4035e28c4f135212512aafb25709c62046843e7fdc.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/f92ad0582a775ed9be701fe0caa69215a0be3337330dbdc5a7af965f1702584a.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/46afe01a6f5d4b12e92927129e6e1761ddb98728d05bbd972b9635c3a9ef36a0.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/c6f701b79a9bfe2d14cbdbd8d7af9845f0b5dbcc0ba306c4647f82cc498a7673.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/2af921b84abaac3f75adf81438fecad5e473c23553dcf85aceaa1e4317b21bf2.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/17df13afee5085422cbfa1ad54007f55572ade490875e4b94398cac3238e615b.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/65a61ee57b616f6ed9baeeb0284d06b922e4f7deb48f6e261132f89207c2443e.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/814106b8429e99ad6d9f3bb1244528e46419061ecd99cc4314837573fb62ab34.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/2793e582b6d278016a01811cb7b967eca832d4346e855c342e2812f969e9d1f4.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/d6859c951a7ab6ea13fcb36f57721c655137d312b41f78258e3b8f0e65a68763.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/45823fa4ca761561c2ddcbd49d8ff97dccb85bff3869b86c1dc8948694eb9fe0.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/a49dc05a51b82a2bd3875cb370e41722f311649e9da2e20a8bdb0344204c19bf.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/99ce5b15508c9b5054fae2536cd0bc5a5bced881eb8b6dfe8466a8f9116c1445.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/497bc21c56157c9d1635d232fa1f666c3bc962fa1f3d83e35034655be813c971.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/170d66b2733a642beac4eb2b3ee695c80702efa0721aa829bf9a806c074e5667.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/1fd1b72dd6732d87c89756baca2c9d96d2e2515951e16bd0a3022933cd9f5004.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/9c6bedc2e3f5889d5324f065aa8134ca3c6f02ea6fc503bad004f453b28ecc3b.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/630f9081cb22a0a3fe39539d6154fcd9cff000ba9eb6d0e1403aeb44cabae853.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/035a1937db0d6fe1fcaf25b4fb37d8397d0f1ea57b6893137ca4c65a8b593dcd.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/3a596d3797c6b5b18883e42ad2fecfca65161cad745e75b241353b9457b4a3f9.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/91e58d9ba3d50175e0db1a432c291bb0f8dcd98f929bb563747d71ba5db7b8b9.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/41a1e3d7e97e77c825fa7fd0a476f5a7a8254b4258629f89dc79b473eef1235c.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/d9a73d8a9d6f18f4da8d57b17323d1a55e672f86dddc2b3fec02f2a2872ca670.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/74569abcd41b148253844db8d6b8e879389b6c0c762b777cacfc751d872f9959.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/140b2f34579c0a52fd106c6411209ecae4803cb8edc33b3aa955daa8b90452b8.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/3d935edf8081416e20ac0b6cf80489646f493431365c04f9ef48a23781068f81.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/27f5bdbf9c6a427be065b5ad9cb3e37fe817625522c7001df89a1d649794621a.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/9d5540008251674f6b4c6792a3e793b18bf2fb35fa65b069fc9a9421f4eee638.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/a5aee6c377b8837cfacc194257561e553f3e81e5a29b19c486807f595a85e705.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/0b52f68d0e18b1c03f1d044c55d84a5564e56a130937d5be99bb9ae794626543.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/277fc906b7fdbbdc6ca6ac89d555f3536968a1bd9be42c09158b2846d3a84026.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/3062fe1c302f9819f47fc6c631015ea79c87cffbe76352b96560a3e58aca8ea5.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/b5982660ef11c2bac12fe4860bc061024ec8d07e87f372ce82a6380ffcdf228f.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/cac910f56c0fb54b5564fe79214f2d95367a1a6eefc5b75ac5338e182772267b.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/4e49abc5ebac800e1540df0638195a21b5380c2b68fc999c2c578a75dabbdd26.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/c95a9184247a436a94d566fb6781cbc54a2365d628f1efbe293131bd0dc898e3.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/2a9ec02d64a189c47b8beeb16c22107e203bc77e8b389301bb8705f0d879f46b.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/2324ea4decc27261a04e255be2bbfa563a711620461e5849a9e7b3e4cd9fcb0f.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/036cc0583718a66e013b796ed574f7a4dacd37fd9b28b0b07bec0840395d13c7.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/65fcacdc7e08af933750df1f411025e52a2696e1c7fe909b18821cbf4ad67625.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/16e8cd9b4111c55b4f200a91171999fd0554b4b1f46eae84c84345758ebd4381.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/e5be0eea07c0c0ccdca285bad859d5c82b178274f24d48825d403db7b561aa74.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/ba562210bd055eba5fe781f077b7c4d444a53b951a3157c36e7a185f9352addf.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/847394c1f6973c031347905ee26c5c3d72549c47ea02104c30fe69ed7fac300b.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/66e393893cce37f2596492465c548ec47ba173a29b14f5b5e4830407786c97b5.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/ce4892f53046c70b0eb18f381c9fecdf1de85dc8213757263ed324ca63495913.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/abe331e32331d6587ededc61a93ea165da92f504a22957fda877d45de4bae3e5.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/fcb0af95b8c09b745b7429b66fe8448db52b115867826d08b67b54ecabf5e3ca.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/ba5c1b5ae6b379c476be9bdec3ceede3f6830d70b6d79a50560ee08bb40eb23b.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/425f8d1831fdf6f29bc4f548beb6584d394ef3e16552d71579f8a37bc08d7161.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/1736c336617ec09c796f1dbf4b6bed9a277686247b99d849b4639a3b0aa3b159.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/e120a635d09063fc30ac7de1574c7747cfd0b84296f53b095e73ff45d266155a.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /api/assets/06415f5d1ccc/input/auto/images/4546c3917d9bb7d4769f45bb9eb9248b638f1f7c5302e8ebb4da2c296c79a115.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50809 - "GET /api/assets/06415f5d1ccc/input/auto/images/a74d4d4ab80063e84ba50bc7c3bcfa203187a2c14f39d1b5b87da3ce4cc2c185.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56311 - "GET /api/assets/06415f5d1ccc/input/auto/images/be8ebdc96aed544e8f879e2a5c927ab626bbe7bc7d2eae38e206a0992277e688.jpg HTTP/1.1" 200 OK

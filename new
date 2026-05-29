@@ -1,0 +1,15 @@
+# Navigate to the backend folder
+cd "c:\Users\MILAN\Downloads\pdf extraction\backend"
+
+# Activate the virtual environment
+.\venv\Scripts\activate
+
+# Start the FastAPI server (runs on port 8000)
+uvicorn app.main:app --reload --port 8000
+
+# Navigate to the frontend folder
+cd "c:\Users\MILAN\Downloads\pdf extraction\frontend"
+
+# Start the Next.js development server (runs on port 3000)
+npm run dev
+

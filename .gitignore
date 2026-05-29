@@ -1,0 +1,14 @@
+
+backend/models/
+*.pth
+*.safetensors
+*.bin
+*.pt
+*.pdiparams
+
+backend/models/
+backend/venv/
+backend/output/
+venv/
+.venv/
+__pycache__/

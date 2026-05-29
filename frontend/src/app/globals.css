@@ -122,9 +122,11 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   html {
     @apply font-sans;
   }
@@ -135,13 +137,16 @@
   width: 8px;
   height: 8px;
 }
+
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
   background: oklch(0.35 0.01 270);
   border-radius: 4px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: oklch(0.45 0.015 270);
 }
@@ -149,10 +154,12 @@
 .custom-scrollbar::-webkit-scrollbar {
   width: 5px;
 }
+
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background: rgba(150, 150, 150, 0.3);
   border-radius: 4px;
 }
+
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: rgba(150, 150, 150, 0.5);
 }
@@ -176,7 +183,7 @@
   padding: 0.5rem 0.75rem;
 }
 
-/* ── Subtle grain texture on background ─────────────────────────────────── */
+/* ── Subtle grain texture on background  ─────────────────────────────────── */
 body::before {
   content: "";
   position: fixed;

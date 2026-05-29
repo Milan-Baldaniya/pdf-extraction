@@ -382,8 +382,8 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
   ];
 
   return (
-    <div className="flex h-full flex-col animate-in fade-in slide-in-from-right-4 duration-500">
-      <div className="flex items-start justify-between gap-4 pb-4">
+    <div className="flex h-full flex-col min-h-0 animate-in fade-in slide-in-from-right-4 duration-500">
+      <div className="flex items-start justify-between gap-4 pb-4 shrink-0">
         <div className="flex items-start gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 shadow-lg shadow-primary/10">
             <FileText className="h-5 w-5 text-primary" />
@@ -457,7 +457,7 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
         </div>
       </div>
 
-      <Separator className="bg-border/30" />
+      <Separator className="bg-border/30 shrink-0" />
 
       <Tabs
         value={activeTab}
@@ -500,9 +500,9 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
         </TabsList>
 
         {hasLayout && (
-          <TabsContent value="layout" className="mt-4 min-h-0 flex-1">
-            <Card className="h-full border-border/30 bg-card/50 backdrop-blur-sm">
-              <ScrollArea className="h-[calc(100vh-22rem)]">
+          <TabsContent value="layout" className="mt-4 min-h-0 flex-1 flex flex-col">
+            <Card className="flex-1 border-border/30 bg-card/50 backdrop-blur-sm flex flex-col min-h-0">
+              <ScrollArea className="flex-1 min-h-0">
                 <CardContent className="space-y-6 p-4 lg:p-6">
                   {layoutPages.map((page) => (
                     <div key={page.pageIdx} className="space-y-2">
@@ -532,9 +532,9 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
           </TabsContent>
         )}
 
-        <TabsContent value="markdown" className="mt-4 min-h-0 flex-1">
-          <Card className="h-full border-border/30 bg-card/50 backdrop-blur-sm">
-            <ScrollArea className="h-[calc(100vh-22rem)]">
+        <TabsContent value="markdown" className="mt-4 min-h-0 flex-1 flex flex-col">
+          <Card className="flex-1 border-border/30 bg-card/50 backdrop-blur-sm flex flex-col min-h-0">
+            <ScrollArea className="flex-1 min-h-0">
               <CardContent className="p-6 lg:p-8" ref={viewerRef}>
                 <article className="prose prose-sm max-w-none prose-headings:text-slate-900 prose-p:text-slate-600 prose-p:leading-relaxed prose-a:text-cyan-600 prose-strong:text-slate-900 prose-code:text-amber-700 prose-code:bg-slate-100 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded-md prose-code:text-xs prose-pre:bg-slate-50 prose-pre:border prose-pre:border-slate-200 prose-pre:rounded-xl prose-pre:text-slate-800 prose-table:border-slate-200 prose-th:border-slate-200 prose-td:border-slate-200 prose-hr:border-slate-200 prose-blockquote:border-l-primary/50 prose-blockquote:text-slate-600 prose-li:text-slate-600 prose-img:rounded-lg prose-img:shadow-lg">
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>
@@ -567,9 +567,9 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
           />
         </TabsContent>
 
-        <TabsContent value="semantic" className="mt-4 min-h-0 flex-1">
-          <Card className="h-full border-border/30 bg-card/50 backdrop-blur-sm">
-            <ScrollArea className="h-[calc(100vh-22rem)]">
+        <TabsContent value="semantic" className="mt-4 min-h-0 flex-1 flex flex-col">
+          <Card className="flex-1 border-border/30 bg-card/50 backdrop-blur-sm flex flex-col min-h-0">
+            <ScrollArea className="flex-1 min-h-0">
               <CardContent className="space-y-6 p-6">
                 {!semanticData && !isSemanticLoading && (
                   <div className="flex h-64 flex-col items-center justify-center gap-4 text-center">
@@ -622,9 +622,9 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
           </Card>
         </TabsContent>
 
-        <TabsContent value="teaching" className="mt-4 min-h-0 flex-1">
-          <Card className="h-full border-border/30 bg-card/50 backdrop-blur-sm">
-            <ScrollArea className="h-[calc(100vh-22rem)]">
+        <TabsContent value="teaching" className="mt-4 min-h-0 flex-1 flex flex-col">
+          <Card className="flex-1 border-border/30 bg-card/50 backdrop-blur-sm flex flex-col min-h-0">
+            <ScrollArea className="flex-1 min-h-0">
               <CardContent className="space-y-6 p-6">
                 {!teachingData && !isTeachingLoading && (
                   <div className="flex h-auto flex-col items-center justify-center gap-6 text-center py-8">

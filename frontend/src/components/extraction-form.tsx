@@ -137,8 +137,8 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
   };
 
   return (
-    <div className="flex flex-col gap-6">
-      <div className="space-y-3">
+    <div className="flex flex-col gap-4 h-full min-h-0">
+      <div className="space-y-2 shrink-0">
         <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md px-4 py-1.5 text-sm font-medium text-foreground shadow-sm">
           <Cpu className="h-3.5 w-3.5" />
           CPU Document Intelligence
@@ -148,9 +148,9 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
         </h1>
       </div>
 
-      <Card className="overflow-visible flex flex-col min-h-[calc(100vh-12rem)] border-[0.5px] border-black/5 dark:border-white/10 bg-white/40 dark:bg-black/40 backdrop-blur-[24px] saturate-150 shadow-[0_8px_32px_0_rgba(0,0,0,0.04)] rounded-[24px]">
+      <Card className="overflow-visible flex flex-col flex-1 min-h-0 border-[0.5px] border-black/5 dark:border-white/10 bg-white/40 dark:bg-black/40 backdrop-blur-[24px] saturate-150 shadow-[0_8px_32px_0_rgba(0,0,0,0.04)] rounded-[24px]">
         <Tabs value={activeTab} onValueChange={setActiveTab} className="flex flex-1 flex-col">
-          <CardHeader className="pb-4 flex flex-row items-center justify-between">
+          <CardHeader className="pb-3 shrink-0 flex flex-row items-center justify-between">
             <div className="space-y-1.5">
               <CardTitle className="flex items-center gap-2 text-base">
                 <Globe className="h-4 w-4 text-muted-foreground" />
@@ -165,8 +165,8 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
               <TabsTrigger value="upload">Upload</TabsTrigger>
             </TabsList>
           </CardHeader>
-          <CardContent className="space-y-6 flex flex-1 flex-col">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 animate-in fade-in slide-in-from-bottom-2 duration-500">
+          <CardContent className="space-y-4 flex flex-1 flex-col min-h-0 overflow-y-auto overflow-x-visible custom-scrollbar pb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 shrink-0 animate-in fade-in slide-in-from-bottom-2 duration-500">
               <div className="space-y-1.5 relative z-[60]">
                 <label className="text-xs font-medium text-foreground/80 pl-1">Document Type</label>
                 <CustomSelect
@@ -228,7 +228,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
               </div>
             </div>
 
-            <TabsContent value="url" className="mt-auto pt-6">
+            <TabsContent value="url" className="mt-auto pt-4 shrink-0">
               <form onSubmit={handleUrlSubmit} className="space-y-4">
                 <div className="flex gap-3">
                   <div className="relative min-w-0 flex-1">
@@ -293,7 +293,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
               </form>
             </TabsContent>
             
-            <TabsContent value="upload" className="mt-auto pt-6">
+            <TabsContent value="upload" className="mt-auto pt-4 shrink-0">
               <form onSubmit={handleFileSubmit} className="space-y-4">
                 <div className="flex gap-3">
                   <div className="relative min-w-0 flex-1">

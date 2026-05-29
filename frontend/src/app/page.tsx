@@ -10,7 +10,7 @@ export default function HomePage() {
   const [extraction, setExtraction] = useState<ExtractionResponse | null>(null);
 
   return (
-    <div className="flex min-h-screen flex-col bg-background relative overflow-x-clip">
+    <div className="flex h-[100dvh] max-h-[100dvh] flex-col bg-background relative overflow-hidden">
       {/* iOS Liquid Glass Background */}
       <div className="absolute top-[-15%] left-[-10%] w-[50%] h-[50%] rounded-[100%] bg-blue-500/30 dark:bg-blue-600/20 blur-[140px] mix-blend-normal opacity-80 pointer-events-none animate-pulse" />
       <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] rounded-[100%] bg-purple-500/30 dark:bg-purple-600/20 blur-[140px] mix-blend-normal opacity-80 pointer-events-none animate-pulse" style={{ animationDelay: '2s' }} />
@@ -39,21 +39,19 @@ export default function HomePage() {
         </div>
       </header>
 
-      <main className={`mx-auto flex w-full max-w-screen-2xl flex-1 gap-0 p-4 pt-24 lg:gap-6 lg:p-8 lg:pt-28 relative z-10 ${!extraction ? 'items-center justify-center' : ''}`}>
+      <main className={`mx-auto flex w-full max-w-screen-2xl flex-1 flex-col lg:flex-row gap-0 p-4 pt-24 lg:gap-6 lg:p-6 lg:pt-24 relative z-10 min-h-0 ${!extraction ? 'items-center justify-center' : ''}`}>
         <aside
-          className={`shrink-0 transition-all duration-500 ease-out ${
+          className={`shrink-0 transition-all duration-500 ease-out flex flex-col min-h-0 h-full ${
             extraction
               ? "w-full lg:w-[380px] xl:w-[420px]"
               : "w-full max-w-2xl"
           }`}
         >
-          <div className="sticky top-24">
-            <ExtractionForm onSuccess={(data) => setExtraction(data)} />
-          </div>
+          <ExtractionForm onSuccess={(data) => setExtraction(data)} />
         </aside>
 
         {extraction && (
-          <section className="mt-6 min-w-0 flex-1 lg:mt-0">
+          <section className="mt-6 min-w-0 flex-1 lg:mt-0 flex flex-col min-h-0 h-full">
             <ExtractionViewer
               data={extraction}
               onReset={() => setExtraction(null)}

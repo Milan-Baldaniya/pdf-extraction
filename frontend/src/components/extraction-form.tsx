@@ -148,7 +148,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
         </h1>
       </div>
 
-      <Card className="border-[0.5px] border-black/5 dark:border-white/10 bg-white/40 dark:bg-black/40 backdrop-blur-[24px] saturate-150 shadow-[0_8px_32px_0_rgba(0,0,0,0.04)] rounded-[24px]">
+      <Card className="overflow-visible border-[0.5px] border-black/5 dark:border-white/10 bg-white/40 dark:bg-black/40 backdrop-blur-[24px] saturate-150 shadow-[0_8px_32px_0_rgba(0,0,0,0.04)] rounded-[24px]">
         <Tabs value={activeTab} onValueChange={setActiveTab}>
           <CardHeader className="pb-4 flex flex-row items-center justify-between">
             <div className="space-y-1.5">

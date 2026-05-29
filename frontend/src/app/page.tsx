@@ -16,10 +16,10 @@ export default function HomePage() {
       <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] rounded-[100%] bg-purple-500/30 dark:bg-purple-600/20 blur-[140px] mix-blend-normal opacity-80 pointer-events-none animate-pulse" style={{ animationDelay: '2s' }} />
       <div className="absolute top-[20%] right-[10%] w-[30%] h-[30%] rounded-[100%] bg-pink-500/20 dark:bg-pink-600/20 blur-[120px] mix-blend-normal opacity-60 pointer-events-none animate-pulse" style={{ animationDelay: '4s' }} />
       
-      <header className="sticky top-0 z-50 border-b-[0.5px] border-black/5 dark:border-white/10 bg-white/40 dark:bg-black/40 backdrop-blur-[24px] saturate-150 shadow-[0_4px_30px_rgba(0,0,0,0.05)]">
-        <div className="mx-auto flex h-14 max-w-screen-2xl items-center justify-between px-4 lg:px-8">
-          <div className="flex items-center gap-2.5">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary/10 shadow-md">
+      <header className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[96%] max-w-[1600px] rounded-full border-[0.5px] border-black/10 dark:border-white/20 bg-white/40 dark:bg-black/40 backdrop-blur-[40px] saturate-200 shadow-[0_8px_32px_0_rgba(0,0,0,0.1)] px-5 py-2.5 transition-all hover:bg-white/50 dark:hover:bg-black/50 overflow-hidden before:absolute before:inset-0 before:-z-10 before:rounded-full before:bg-gradient-to-br before:from-white/40 before:to-transparent before:opacity-50 dark:before:from-white/10 dark:before:to-transparent">
+        <div className="flex h-10 items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="flex h-9 w-9 items-center justify-center rounded-full bg-primary/10 shadow-inner border-[0.5px] border-primary/20">
               <FileText className="h-4 w-4 text-primary" />
             </div>
             <span className="text-[17px] font-semibold tracking-tight text-foreground/90">
@@ -31,15 +31,15 @@ export default function HomePage() {
             href="https://github.com/opendatalab/MinerU"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
+            className="flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm font-medium text-foreground/70 bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10 hover:text-foreground transition-all border-[0.5px] border-transparent hover:border-black/10 dark:hover:border-white/10"
           >
-            <ExternalLink className="h-4 w-4" />
-            MinerU
+            MinerU Pipeline
+            <ExternalLink className="h-3.5 w-3.5" />
           </a>
         </div>
       </header>
 
-      <main className={`mx-auto flex w-full max-w-screen-2xl flex-1 gap-0 p-4 lg:gap-6 lg:p-8 relative z-10 ${!extraction ? 'items-center justify-center' : ''}`}>
+      <main className={`mx-auto flex w-full max-w-screen-2xl flex-1 gap-0 p-4 pt-24 lg:gap-6 lg:p-8 lg:pt-28 relative z-10 ${!extraction ? 'items-center justify-center' : ''}`}>
         <aside
           className={`shrink-0 transition-all duration-500 ease-out ${
             extraction

@@ -42,7 +42,7 @@ export function CustomSelect({ value, onChange, options, placeholder }: CustomSe
       </div>
       
       {isOpen && (
-        <div className="absolute z-50 mt-1 max-h-60 w-full overflow-auto rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/70 dark:bg-black/70 p-1.5 text-base shadow-xl backdrop-blur-[24px] saturate-150 animate-in fade-in zoom-in-95 duration-100 ease-out custom-scrollbar">
+        <div className="absolute z-50 mt-1 max-h-60 w-full overflow-auto rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/95 dark:bg-black/95 p-1.5 text-base shadow-xl backdrop-blur-md animate-in fade-in zoom-in-95 duration-100 ease-out custom-scrollbar">
           {options.map((option) => (
             <div
               key={option.value}

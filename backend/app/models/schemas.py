@@ -15,6 +15,13 @@ class ExtractionRequest(BaseModel):
         description="Public URL of the NCERT PDF to extract.",
         examples=["https://ncert.nic.in/textbook/pdf/iesc101.pdf"],
     )
+    document_type: Optional[str] = Field(default=None)
+    document_title: Optional[str] = Field(default=None)
+    chapter_number: Optional[str] = Field(default=None)
+    standard: Optional[str] = Field(default=None)
+    subject_name: Optional[str] = Field(default=None)
+    board: Optional[str] = Field(default="CBSE")
+    syear: Optional[str] = Field(default=None)
 
 
 class HealthResponse(BaseModel):

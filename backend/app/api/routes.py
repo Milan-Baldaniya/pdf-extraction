@@ -9,7 +9,7 @@ import time
 from pathlib import Path
 from typing import Any
 
-from fastapi import APIRouter, File, HTTPException, Request, UploadFile
+from fastapi import APIRouter, File, Form, HTTPException, Request, UploadFile
 from fastapi.responses import FileResponse
 
 from app.extraction.cache import (
@@ -25,7 +25,7 @@ from app.models.schemas import (
     ExtractionResponse,
     HealthResponse,
 )
-from app.semantic_intelligence.gemini_client import extract_pdf_metadata
+
 from app.services.mineru_service import (
     MinerUConfigurationError,
     MinerUExtractionError,
@@ -145,11 +145,7 @@ def _raise_job_error(job_id: str, status_code: int, message: str, exc: Exception
     logger.error("Job %s - %s: %s", job_id, message, exc)
     if supabase and cache_id:
         try:
-            supabase.table("pdf_processing_cache").update({
-                "status": "failed",
-                "error_message": str(exc),
-                "updated_at": "now()"
-            }).eq("id", cache_id).execute()
+            pass
         except Exception:
             pass
     raise HTTPException(status_code=status_code, detail=str(exc)) from exc
@@ -231,12 +227,14 @@ async def extract_ncert_pdf(
     cache_id = None
     if supabase:
         try:
-            res = supabase.table("pdf_processing_cache").insert({
-                "standard_id": 0,
-                "subject_id": 0,
-                "chapter_id": 0,
+            res = supabase.table("document_extractions").insert({
+                "document_type": request.document_type,
+                "document_title": request.document_title,
+                "standard": request.standard,
+                "subject_name": request.subject_name,
+                "board": request.board,
+                "syear": request.syear,
                 "pdf_url": str(request.pdf_url),
-                "status": "processing"
             }).execute()
             if res.data:
                 cache_id = res.data[0]["id"]
@@ -261,18 +259,15 @@ async def extract_ncert_pdf(
             ),
         )
         
-        meta = await extract_pdf_metadata(response.markdown_content)
         
         if supabase and cache_id:
             try:
-                supabase.table("pdf_processing_cache").update({
-                    "status": "completed",
-                    "standard_id": meta["standard_id"],
-                    "subject_id": meta["subject_id"],
-                    "chapter_id": meta["chapter_id"],
-                    "output_markdown_path": "extracted",
-                    "processing_time_seconds": int(time.perf_counter() - start_time),
-                    "updated_at": "now()"
+                supabase.table("document_extractions").update({
+                    "md_content": response.markdown_content,
+                    "json_content": response.json_content,
+                    "page_count": response.page_count,
+                    "image_extracted": response.images_extracted,
+                    "extraction_metadata": response.metadata,
                 }).eq("id", cache_id).execute()
             except Exception:
                 pass
@@ -291,11 +286,7 @@ async def extract_ncert_pdf(
         logger.exception("Job %s - unexpected error", job_id)
         if supabase and cache_id:
             try:
-                supabase.table("pdf_processing_cache").update({
-                    "status": "failed",
-                    "error_message": str(exc),
-                    "updated_at": "now()"
-                }).eq("id", cache_id).execute()
+                pass # Optionally handle failure state in document_extractions if needed
             except Exception:
                 pass
         raise HTTPException(
@@ -319,6 +310,13 @@ async def extract_ncert_pdf(
 async def upload_ncert_pdf(
     http_request: Request,
     file: UploadFile = File(...),
+    document_type: str = Form(None),
+    document_title: str = Form(None),
+    chapter_number: str = Form(None),
+    standard: str = Form(None),
+    subject_name: str = Form(None),
+    board: str = Form("CBSE"),
+    syear: str = Form(None),
 ) -> ExtractionResponse:
     """Accept a local PDF upload and extract structured educational content."""
     job_id = generate_job_id()
@@ -329,12 +327,14 @@ async def upload_ncert_pdf(
     cache_id = None
     if supabase:
         try:
-            res = supabase.table("pdf_processing_cache").insert({
-                "standard_id": 0,
-                "subject_id": 0,
-                "chapter_id": 0,
+            res = supabase.table("document_extractions").insert({
+                "document_type": document_type,
+                "document_title": document_title,
+                "standard": standard,
+                "subject_name": subject_name,
+                "board": board,
+                "syear": syear,
                 "pdf_url": "uploaded",
-                "status": "processing"
             }).execute()
             if res.data:
                 cache_id = res.data[0]["id"]
@@ -361,22 +361,17 @@ async def upload_ncert_pdf(
             ),
         )
         
-        meta = await extract_pdf_metadata(response.markdown_content)
-        
         if supabase and cache_id:
             try:
-                supabase.table("pdf_processing_cache").update({
-                    "status": "completed",
-                    "standard_id": meta["standard_id"],
-                    "subject_id": meta["subject_id"],
-                    "chapter_id": meta["chapter_id"],
-                    "output_markdown_path": "extracted",
-                    "processing_time_seconds": int(time.perf_counter() - start_time),
-                    "updated_at": "now()"
+                supabase.table("document_extractions").update({
+                    "md_content": response.markdown_content,
+                    "json_content": response.json_content,
+                    "page_count": response.page_count,
+                    "image_extracted": response.images_extracted,
+                    "extraction_metadata": response.metadata,
                 }).eq("id", cache_id).execute()
             except Exception:
                 pass
-                
         response.metadata["pdf_cache_id"] = cache_id
         return response
 
@@ -391,11 +386,7 @@ async def upload_ncert_pdf(
         logger.exception("Job %s - unexpected error", job_id)
         if supabase and cache_id:
             try:
-                supabase.table("pdf_processing_cache").update({
-                    "status": "failed",
-                    "error_message": str(exc),
-                    "updated_at": "now()"
-                }).eq("id", cache_id).execute()
+                pass
             except Exception:
                 pass
         raise HTTPException(

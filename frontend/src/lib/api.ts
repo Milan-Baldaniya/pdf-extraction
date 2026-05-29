@@ -20,6 +20,13 @@ export const api = axios.create({
 
 export interface ExtractionRequest {
   pdf_url: string;
+  document_type?: string;
+  document_title?: string;
+  chapter_number?: string;
+  standard?: string;
+  subject_name?: string;
+  board?: string;
+  syear?: string;
 }
 
 export interface ExtractionResponse {
@@ -54,10 +61,16 @@ export async function extractPdf(
 }
 
 export async function uploadPdf(
-  file: File
+  file: File,
+  metadata?: Omit<ExtractionRequest, "pdf_url">
 ): Promise<ExtractionResponse> {
   const formData = new FormData();
   formData.append("file", file);
+  if (metadata) {
+    Object.entries(metadata).forEach(([key, value]) => {
+      if (value) formData.append(key, value);
+    });
+  }
 
   const { data } = await api.post<ExtractionResponse>(
     "/upload-chapter-ppt",

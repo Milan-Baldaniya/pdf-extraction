@@ -46,11 +46,32 @@ const SAMPLE_URLS = [
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Upload } from "lucide-react";
+import { CustomSelect } from "@/components/ui/custom-select";
 
 export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
   const [url, setUrl] = useState("");
   const [file, setFile] = useState<File | null>(null);
   const [activeTab, setActiveTab] = useState("url");
+
+  // Metadata State
+  const [documentType, setDocumentType] = useState("Chapter");
+  const [documentTitle, setDocumentTitle] = useState("");
+  const [chapterNumber, setChapterNumber] = useState("");
+  const [standard, setStandard] = useState("10");
+  const [subjectName, setSubjectName] = useState("Science");
+  const [board, setBoard] = useState("CBSE");
+  const [syear, setSyear] = useState("2024-2025");
+  const [customSubject, setCustomSubject] = useState("");
+
+  const getMetadata = () => ({
+    document_type: documentType,
+    document_title: documentTitle,
+    chapter_number: chapterNumber,
+    standard,
+    subject_name: subjectName === "Others" ? customSubject : subjectName,
+    board,
+    syear,
+  });
 
   const urlMutation = useMutation({
     mutationFn: extractPdf,
@@ -68,9 +89,9 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
   });
 
   const uploadMutation = useMutation({
-    mutationFn: async (f: File) => {
+    mutationFn: async ({ f, meta }: { f: File; meta: any }) => {
       const { uploadPdf } = await import("@/lib/api");
-      return uploadPdf(f);
+      return uploadPdf(f, meta);
     },
     onSuccess: (data) => {
       toast.success("PDF uploaded and extracted successfully.");
@@ -101,7 +122,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
       toast.error("Please enter a valid URL.");
       return;
     }
-    urlMutation.mutate({ pdf_url: pdfUrl });
+    urlMutation.mutate({ pdf_url: pdfUrl, ...getMetadata() });
   };
 
   const handleFileSubmit = (e: React.FormEvent) => {
@@ -112,29 +133,22 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
     }
     // Note: To fully support standard_id/etc for uploads, the backend upload endpoint 
     // needs to accept FormData with these fields. For now we just mutate the file.
-    uploadMutation.mutate(file);
+    uploadMutation.mutate({ f: file, meta: getMetadata() });
   };
 
   return (
     <div className="flex flex-col gap-6">
       <div className="space-y-3">
-        <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-sm font-medium text-primary">
+        <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md px-4 py-1.5 text-sm font-medium text-foreground shadow-sm">
           <Cpu className="h-3.5 w-3.5" />
           CPU Document Intelligence
         </div>
-        <h1 className="text-3xl font-bold tracking-tight lg:text-4xl">
-          NCERT
-          <span className="bg-gradient-to-r from-cyan-300 via-emerald-300 to-amber-200 bg-clip-text text-transparent">
-            {" "}Extractor
-          </span>
+        <h1 className="text-3xl font-bold tracking-tight lg:text-4xl text-foreground">
+          PDF EXTRACTOR
         </h1>
-        <p className="max-w-md leading-relaxed text-muted-foreground">
-          Extract structured NCERT content with MinerU CPU pipeline, OCR,
-          formulas, tables, diagrams, and educational layout diagnostics.
-        </p>
       </div>
 
-      <Card className="border-border/50 bg-card/50 backdrop-blur-sm">
+      <Card className="border-[0.5px] border-black/5 dark:border-white/10 bg-white/40 dark:bg-black/40 backdrop-blur-[24px] saturate-150 shadow-[0_8px_32px_0_rgba(0,0,0,0.04)] rounded-[24px]">
         <Tabs value={activeTab} onValueChange={setActiveTab}>
           <CardHeader className="pb-4 flex flex-row items-center justify-between">
             <div className="space-y-1.5">
@@ -151,8 +165,70 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
               <TabsTrigger value="upload">Upload</TabsTrigger>
             </TabsList>
           </CardHeader>
-          <CardContent>
-            <TabsContent value="url" className="mt-0">
+          <CardContent className="space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 animate-in fade-in slide-in-from-bottom-2 duration-500">
+              <div className="space-y-1.5 relative z-[60]">
+                <label className="text-xs font-medium text-foreground/80 pl-1">Document Type</label>
+                <CustomSelect
+                  value={documentType}
+                  onChange={setDocumentType}
+                  options={[
+                    { label: "Chapter", value: "Chapter" },
+                    { label: "Curriculum", value: "Curriculum" },
+                    { label: "Syllabus", value: "Syllabus" },
+                  ]}
+                />
+              </div>
+              
+              <div className="space-y-1.5">
+                <label className="text-xs font-medium text-foreground/80 pl-1">Document Title</label>
+                <input type="text" value={documentTitle} onChange={e => setDocumentTitle(e.target.value)} placeholder="e.g. Chemical Reactions" className="h-10 w-full rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/50 px-3 text-sm outline-none backdrop-blur-md transition-colors focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 hover:bg-white/60 dark:hover:bg-black/60" />
+              </div>
+
+              <div className="space-y-1.5">
+                <label className="text-xs font-medium text-foreground/80 pl-1">Chapter Number</label>
+                <input type="text" value={chapterNumber} onChange={e => setChapterNumber(e.target.value)} placeholder="e.g. 1" className="h-10 w-full rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/50 px-3 text-sm outline-none backdrop-blur-md transition-colors focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 hover:bg-white/60 dark:hover:bg-black/60" />
+              </div>
+
+              <div className="space-y-1.5 relative z-[50]">
+                <label className="text-xs font-medium text-foreground/80 pl-1">Standard</label>
+                <CustomSelect
+                  value={standard}
+                  onChange={setStandard}
+                  options={["1","2","3","4","5","6","7","8","9","10","11","12"].map(s => ({ label: `Standard ${s}`, value: s }))}
+                />
+              </div>
+
+              <div className="space-y-1.5 relative z-[40]">
+                <label className="text-xs font-medium text-foreground/80 pl-1">Subject Name</label>
+                <div className="flex flex-col gap-2">
+                  <CustomSelect
+                    value={subjectName}
+                    onChange={setSubjectName}
+                    options={["Maths", "Science", "Physics", "Chemistry", "Biology", "History", "Geography", "Civics", "Economics", "English", "Hindi", "Sanskrit", "Accountancy", "Business Studies", "Computer Science", "Information Practices", "Physical Education", "Others"].map(s => ({ label: s, value: s }))}
+                  />
+                  {subjectName === "Others" && (
+                    <input autoFocus type="text" value={customSubject} onChange={e => setCustomSubject(e.target.value)} placeholder="Type custom subject..." className="h-10 w-full rounded-xl border-[0.5px] border-primary/40 bg-primary/5 px-3 text-sm outline-none backdrop-blur-md transition-all focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 animate-in slide-in-from-top-1 fade-in duration-200" />
+                  )}
+                </div>
+              </div>
+
+              <div className="space-y-1.5">
+                <label className="text-xs font-medium text-foreground/80 pl-1">Board</label>
+                <input type="text" value={board} onChange={e => setBoard(e.target.value)} placeholder="CBSE" className="h-10 w-full rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/50 px-3 text-sm outline-none backdrop-blur-md transition-colors focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 hover:bg-white/60 dark:hover:bg-black/60" />
+              </div>
+
+              <div className="space-y-1.5 md:col-span-2 relative z-[30]">
+                <label className="text-xs font-medium text-foreground/80 pl-1">Academic Year</label>
+                <CustomSelect
+                  value={syear}
+                  onChange={setSyear}
+                  options={["2022-2023", "2023-2024", "2024-2025", "2025-2026", "2026-2027", "2027-2028", "2028-2029", "2029-2030", "2030-2031"].map(y => ({ label: y, value: y }))}
+                />
+              </div>
+            </div>
+
+            <TabsContent value="url" className="mt-2">
               <form onSubmit={handleUrlSubmit} className="space-y-4">
                 <div className="flex gap-3">
                   <div className="relative min-w-0 flex-1">
@@ -217,7 +293,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
               </form>
             </TabsContent>
             
-            <TabsContent value="upload" className="mt-0">
+            <TabsContent value="upload" className="mt-2">
               <form onSubmit={handleFileSubmit} className="space-y-4">
                 <div className="flex gap-3">
                   <div className="relative min-w-0 flex-1">
@@ -260,13 +336,13 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
       </Card>
 
       {isPending && (
-        <Card className="animate-in fade-in border-cyan-500/20 bg-cyan-500/5 duration-300">
+        <Card className="animate-in fade-in border-[0.5px] border-black/5 dark:border-white/10 bg-white/40 dark:bg-black/40 backdrop-blur-[24px] saturate-150 shadow-[0_8px_32px_0_rgba(0,0,0,0.04)] rounded-[24px] duration-300">
           <CardContent className="py-8">
             <div className="flex flex-col items-center gap-4">
               <div className="relative">
-                <div className="absolute inset-0 h-16 w-16 rounded-full bg-cyan-500/15 animate-ping" />
-                <div className="relative flex h-16 w-16 items-center justify-center rounded-full bg-cyan-500/20 shadow-lg shadow-cyan-500/20">
-                  <Zap className="h-7 w-7 text-cyan-200 animate-pulse" />
+                <div className="absolute inset-0 h-16 w-16 rounded-full bg-primary/10 animate-ping" />
+                <div className="relative flex h-16 w-16 items-center justify-center rounded-full bg-primary/20 shadow-lg shadow-primary/20">
+                  <Zap className="h-7 w-7 text-primary animate-pulse" />
                 </div>
               </div>
 
@@ -295,7 +371,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
                       animationFillMode: "backwards",
                     }}
                   >
-                    <Loader2 className="h-3.5 w-3.5 shrink-0 animate-spin text-cyan-300" />
+                    <Loader2 className="h-3.5 w-3.5 shrink-0 animate-spin text-primary" />
                     <span className="text-muted-foreground">{step}</span>
                   </div>
                 ))}
@@ -303,41 +379,6 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
             </div>
           </CardContent>
         </Card>
-      )}
-
-      {!isPending && !isSuccess && (
-        <div className="grid grid-cols-1 gap-4 animate-in fade-in duration-500 sm:grid-cols-3">
-          {[
-            {
-              icon: FileText,
-              title: "Markdown + JSON",
-              desc: "Clean content and structured blocks",
-            },
-            {
-              icon: Table2,
-              title: "Tables + Formulas",
-              desc: "MinerU pipeline parsing enabled",
-            },
-            {
-              icon: Sparkles,
-              title: "Education Structure",
-              desc: "Headings, activities, captions, assets",
-            },
-          ].map((feature) => (
-            <div
-              key={feature.title}
-              className="flex items-start gap-3 rounded-lg border border-border/30 bg-card/30 p-4"
-            >
-              <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-primary/10">
-                <feature.icon className="h-4 w-4 text-primary" />
-              </div>
-              <div>
-                <p className="text-sm font-medium">{feature.title}</p>
-                <p className="text-xs text-muted-foreground">{feature.desc}</p>
-              </div>
-            </div>
-          ))}
-        </div>
       )}
     </div>
   );

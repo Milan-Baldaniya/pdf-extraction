@@ -464,7 +464,7 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
         onValueChange={setActiveTab}
         className="mt-4 flex min-h-0 flex-1 flex-col"
       >
-        <TabsList className="w-fit bg-muted/50">
+        <TabsList className="w-full flex h-auto min-h-[44px] flex-wrap items-center bg-white/40 dark:bg-black/40 backdrop-blur-[24px] saturate-150 border-[0.5px] border-black/5 dark:border-white/10 rounded-[16px] p-1 shadow-[0_8px_32px_0_rgba(0,0,0,0.04)]">
           {hasLayout && (
             <TabsTrigger value="layout" className="gap-1.5 text-sm">
               <LayoutPanelTop className="h-3.5 w-3.5" />

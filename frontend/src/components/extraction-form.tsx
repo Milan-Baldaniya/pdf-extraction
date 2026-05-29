@@ -148,8 +148,8 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
         </h1>
       </div>
 
-      <Card className="overflow-visible border-[0.5px] border-black/5 dark:border-white/10 bg-white/40 dark:bg-black/40 backdrop-blur-[24px] saturate-150 shadow-[0_8px_32px_0_rgba(0,0,0,0.04)] rounded-[24px]">
-        <Tabs value={activeTab} onValueChange={setActiveTab}>
+      <Card className="overflow-visible flex flex-col min-h-[calc(100vh-12rem)] border-[0.5px] border-black/5 dark:border-white/10 bg-white/40 dark:bg-black/40 backdrop-blur-[24px] saturate-150 shadow-[0_8px_32px_0_rgba(0,0,0,0.04)] rounded-[24px]">
+        <Tabs value={activeTab} onValueChange={setActiveTab} className="flex flex-1 flex-col">
           <CardHeader className="pb-4 flex flex-row items-center justify-between">
             <div className="space-y-1.5">
               <CardTitle className="flex items-center gap-2 text-base">
@@ -165,7 +165,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
               <TabsTrigger value="upload">Upload</TabsTrigger>
             </TabsList>
           </CardHeader>
-          <CardContent className="space-y-6">
+          <CardContent className="space-y-6 flex flex-1 flex-col">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 animate-in fade-in slide-in-from-bottom-2 duration-500">
               <div className="space-y-1.5 relative z-[60]">
                 <label className="text-xs font-medium text-foreground/80 pl-1">Document Type</label>
@@ -228,7 +228,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
               </div>
             </div>
 
-            <TabsContent value="url" className="mt-2">
+            <TabsContent value="url" className="mt-auto pt-6">
               <form onSubmit={handleUrlSubmit} className="space-y-4">
                 <div className="flex gap-3">
                   <div className="relative min-w-0 flex-1">
@@ -293,7 +293,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
               </form>
             </TabsContent>
             
-            <TabsContent value="upload" className="mt-2">
+            <TabsContent value="upload" className="mt-auto pt-6">
               <form onSubmit={handleFileSubmit} className="space-y-4">
                 <div className="flex gap-3">
                   <div className="relative min-w-0 flex-1">

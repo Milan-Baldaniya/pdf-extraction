@@ -26,6 +26,7 @@ import {
   Loader2,
   Sparkles,
   GraduationCap,
+  Plus,
 } from "lucide-react";
 
 import { generateSemanticIntelligence, generateTeachingIntelligence } from "@/lib/api";
@@ -384,15 +385,15 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
     <div className="flex h-full flex-col animate-in fade-in slide-in-from-right-4 duration-500">
       <div className="flex items-start justify-between gap-4 pb-4">
         <div className="flex items-start gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500/15 shadow-lg shadow-emerald-500/10">
-            <FileText className="h-5 w-5 text-emerald-200" />
+          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 shadow-lg shadow-primary/10">
+            <FileText className="h-5 w-5 text-primary" />
           </div>
           <div>
             <h2 className="text-lg font-semibold">Extraction Result</h2>
             <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
               <Badge
                 variant="outline"
-                className="border-emerald-500/30 py-0 text-xs text-emerald-300"
+                className="border-primary/30 py-0 text-xs text-primary bg-primary/5"
               >
                 Success
               </Badge>
@@ -445,11 +446,12 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
           </Button>
           <Button
             id="new-extraction-button"
-            variant="ghost"
+            variant="outline"
             size="sm"
             onClick={onReset}
-            className="gap-1.5 text-muted-foreground hover:text-foreground"
+            className="gap-1.5 border-border/50 text-muted-foreground hover:text-foreground"
           >
+            <Plus className="h-3.5 w-3.5" />
             New
           </Button>
         </div>

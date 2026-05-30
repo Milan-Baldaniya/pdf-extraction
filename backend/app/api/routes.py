@@ -63,6 +63,14 @@ def _asset_base_url(request: Request, job_id: str) -> str:
     )
     return str(asset_url).removesuffix(f"/{marker}")
 
+def _safe_int(val: Any) -> int | None:
+    try:
+        if val is None or val == "":
+            return None
+        return int(val)
+    except (ValueError, TypeError):
+        return None
+
 
 async def _run_extraction_job(
     *,
@@ -237,7 +245,8 @@ async def extract_ncert_pdf(
             new_doc = DocumentExtraction(
                 document_type=request.document_type,
                 document_tittle=request.document_title,
-                standard=request.standard,
+                chapter_number=_safe_int(request.chapter_number),
+                standard=_safe_int(request.standard),
                 subject_name=request.subject_name,
                 board=request.board,
                 syear=request.syear,
@@ -354,7 +363,8 @@ async def upload_ncert_pdf(
             new_doc = DocumentExtraction(
                 document_type=document_type,
                 document_tittle=document_title,
-                standard=standard,
+                chapter_number=_safe_int(chapter_number),
+                standard=_safe_int(standard),
                 subject_name=subject_name,
                 board=board,
                 syear=syear,

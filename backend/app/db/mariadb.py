@@ -15,8 +15,8 @@ class DocumentExtraction(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     document_type = Column(String(255), nullable=True)
     document_tittle = Column(String(255), nullable=True)  # Kept spelling from user request
-    chapter_number = Column(String(255), nullable=True)
-    standard = Column(String(255), nullable=True)
+    chapter_number = Column(Integer, nullable=True)
+    standard = Column(Integer, nullable=True)
     subject_name = Column(String(255), nullable=True)
     board = Column(String(255), nullable=True)
     syear = Column(String(255), nullable=True)

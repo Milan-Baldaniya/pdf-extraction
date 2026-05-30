@@ -438,22 +438,17 @@ def _build_mineru_command(
     formula: bool,
     table: bool,
 ) -> list[str]:
+    # The new magic-pdf CLI only supports -p, -o, -m, -l
     return [
         mineru_exe,
         "-p",
         str(pdf_path),
         "-o",
         str(output_dir),
-        "-b",
-        backend,
         "-m",
         method,
         "-l",
         lang,
-        "-f",
-        str(formula).lower(),
-        "-t",
-        str(table).lower(),
     ]
 
 

@@ -1,5 +1,5 @@
 # Navigate to the backend folder
-cd "c:\Users\MILAN\Downloads\pdf extraction\backend"
+cd backend
 
 # Activate the virtual environment
 .\venv\Scripts\activate
@@ -8,8 +8,7 @@ cd "c:\Users\MILAN\Downloads\pdf extraction\backend"
 uvicorn app.main:app --reload --port 8000
 
 # Navigate to the frontend folder
-cd "c:\Users\MILAN\Downloads\pdf extraction\frontend"
-
+cd frontend
 # Start the Next.js development server (runs on port 3000)
 npm run dev
 

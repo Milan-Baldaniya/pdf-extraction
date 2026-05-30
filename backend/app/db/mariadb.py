@@ -1,6 +1,7 @@
 import logging
 import json
 from sqlalchemy import create_engine, Column, Integer, String, Text, Boolean, JSON, DateTime
+from sqlalchemy.engine import URL
 from sqlalchemy.orm import declarative_base, sessionmaker
 from sqlalchemy.sql import func
 from app.utils.config import settings
@@ -35,9 +36,15 @@ class DocumentExtraction(Base):
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), onupdate=func.now())
 
-# Create engine and session
-# Default to empty string if not provided so sqlalchemy doesn't break
-MARIADB_URL = f"mysql+pymysql://{settings.mariadb_user}:{settings.mariadb_password}@{settings.mariadb_host}:{settings.mariadb_port}/{settings.mariadb_db}"
+# Create engine and session. URL.create escapes special characters in credentials.
+MARIADB_URL = URL.create(
+    "mysql+pymysql",
+    username=settings.mariadb_user,
+    password=settings.mariadb_password,
+    host=settings.mariadb_host,
+    port=settings.mariadb_port,
+    database=settings.mariadb_db,
+)
 
 engine = None
 SessionLocal = None

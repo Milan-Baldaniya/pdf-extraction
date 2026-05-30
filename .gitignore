@@ -8,7 +8,10 @@ backend/models/
 
 backend/models/
 backend/venv/
+backend/venv*/
 backend/output/
+backend/*.log
+frontend/*.log
 venv/
 .venv/
 __pycache__/

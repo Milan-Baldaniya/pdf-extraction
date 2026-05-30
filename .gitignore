@@ -12,3 +12,7 @@ backend/output/
 venv/
 .venv/
 __pycache__/
+
+.env
+.env.*
+!.env.example

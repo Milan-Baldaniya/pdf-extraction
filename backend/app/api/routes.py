@@ -18,7 +18,7 @@ from app.extraction.cache import (
     set_cached_response,
 )
 from app.extraction.status import get_status, update_status
-from app.db.supabase_client import supabase
+from app.db.mariadb import SessionLocal, DocumentExtraction
 from app.models.schemas import (
     ErrorResponse,
     ExtractionRequest,
@@ -143,11 +143,17 @@ async def _run_extraction_job(
 def _raise_job_error(job_id: str, status_code: int, message: str, exc: Exception, cache_id: int | None = None) -> None:
     update_status(job_id, "failed", message)
     logger.error("Job %s - %s: %s", job_id, message, exc)
-    if supabase and cache_id:
+    if SessionLocal and cache_id:
+        db = SessionLocal()
         try:
-            pass
+            doc = db.query(DocumentExtraction).filter(DocumentExtraction.id == cache_id).first()
+            if doc:
+                doc.extraction_metadata = {"error": message, "exception": str(exc)}
+                db.commit()
         except Exception:
             pass
+        finally:
+            db.close()
     raise HTTPException(status_code=status_code, detail=str(exc)) from exc
 
 
@@ -225,21 +231,27 @@ async def extract_ncert_pdf(
     logger.info("Job %s - starting extraction for %s", job_id, request.pdf_url)
 
     cache_id = None
-    if supabase:
+    if SessionLocal:
+        db = SessionLocal()
         try:
-            res = supabase.table("document_extractions").insert({
-                "document_type": request.document_type,
-                "document_title": request.document_title,
-                "standard": request.standard,
-                "subject_name": request.subject_name,
-                "board": request.board,
-                "syear": request.syear,
-                "pdf_url": str(request.pdf_url),
-            }).execute()
-            if res.data:
-                cache_id = res.data[0]["id"]
+            new_doc = DocumentExtraction(
+                document_type=request.document_type,
+                document_tittle=request.document_title,
+                standard=request.standard,
+                subject_name=request.subject_name,
+                board=request.board,
+                syear=request.syear,
+                pdf_url=str(request.pdf_url)
+            )
+            db.add(new_doc)
+            db.commit()
+            db.refresh(new_doc)
+            cache_id = new_doc.id
         except Exception as e:
-            logger.warning(f"Supabase insert failed: {e}")
+            db.rollback()
+            logger.warning(f"MariaDB insert failed: {e}")
+        finally:
+            db.close()
 
     try:
         pdf_path = get_temp_pdf_path(settings.temp_dir, job_id)
@@ -260,17 +272,22 @@ async def extract_ncert_pdf(
         )
         
         
-        if supabase and cache_id:
+        if SessionLocal and cache_id:
+            db = SessionLocal()
             try:
-                supabase.table("document_extractions").update({
-                    "md_content": response.markdown_content,
-                    "json_content": response.json_content,
-                    "page_count": response.page_count,
-                    "image_extracted": response.images_extracted,
-                    "extraction_metadata": response.metadata,
-                }).eq("id", cache_id).execute()
-            except Exception:
-                pass
+                doc = db.query(DocumentExtraction).filter(DocumentExtraction.id == cache_id).first()
+                if doc:
+                    doc.md_content = response.markdown_content
+                    doc.json_content = response.json_content
+                    doc.page_count = response.page_count
+                    doc.image_extracted = response.images_extracted
+                    doc.extraction_metadata = response.metadata
+                    db.commit()
+            except Exception as e:
+                db.rollback()
+                logger.warning(f"MariaDB update failed: {e}")
+            finally:
+                db.close()
                 
         response.metadata["pdf_cache_id"] = cache_id
         return response
@@ -284,11 +301,17 @@ async def extract_ncert_pdf(
     except Exception as exc:
         update_status(job_id, "failed", f"Unexpected error: {exc}")
         logger.exception("Job %s - unexpected error", job_id)
-        if supabase and cache_id:
+        if SessionLocal and cache_id:
+            db = SessionLocal()
             try:
-                pass # Optionally handle failure state in document_extractions if needed
+                doc = db.query(DocumentExtraction).filter(DocumentExtraction.id == cache_id).first()
+                if doc:
+                    doc.extraction_metadata = {"error": str(exc), "stage": "unexpected"}
+                    db.commit()
             except Exception:
                 pass
+            finally:
+                db.close()
         raise HTTPException(
             status_code=500,
             detail=f"An unexpected error occurred: {exc}",
@@ -325,21 +348,27 @@ async def upload_ncert_pdf(
     logger.info("Job %s - starting extraction for uploaded file %s", job_id, file.filename)
 
     cache_id = None
-    if supabase:
+    if SessionLocal:
+        db = SessionLocal()
         try:
-            res = supabase.table("document_extractions").insert({
-                "document_type": document_type,
-                "document_title": document_title,
-                "standard": standard,
-                "subject_name": subject_name,
-                "board": board,
-                "syear": syear,
-                "pdf_url": "uploaded",
-            }).execute()
-            if res.data:
-                cache_id = res.data[0]["id"]
+            new_doc = DocumentExtraction(
+                document_type=document_type,
+                document_tittle=document_title,
+                standard=standard,
+                subject_name=subject_name,
+                board=board,
+                syear=syear,
+                pdf_url="uploaded"
+            )
+            db.add(new_doc)
+            db.commit()
+            db.refresh(new_doc)
+            cache_id = new_doc.id
         except Exception as e:
-            logger.warning(f"Supabase insert failed: {e}")
+            db.rollback()
+            logger.warning(f"MariaDB insert failed: {e}")
+        finally:
+            db.close()
 
     try:
         pdf_path = get_temp_pdf_path(settings.temp_dir, job_id)
@@ -361,17 +390,22 @@ async def upload_ncert_pdf(
             ),
         )
         
-        if supabase and cache_id:
+        if SessionLocal and cache_id:
+            db = SessionLocal()
             try:
-                supabase.table("document_extractions").update({
-                    "md_content": response.markdown_content,
-                    "json_content": response.json_content,
-                    "page_count": response.page_count,
-                    "image_extracted": response.images_extracted,
-                    "extraction_metadata": response.metadata,
-                }).eq("id", cache_id).execute()
-            except Exception:
-                pass
+                doc = db.query(DocumentExtraction).filter(DocumentExtraction.id == cache_id).first()
+                if doc:
+                    doc.md_content = response.markdown_content
+                    doc.json_content = response.json_content
+                    doc.page_count = response.page_count
+                    doc.image_extracted = response.images_extracted
+                    doc.extraction_metadata = response.metadata
+                    db.commit()
+            except Exception as e:
+                db.rollback()
+                logger.warning(f"MariaDB update failed: {e}")
+            finally:
+                db.close()
         response.metadata["pdf_cache_id"] = cache_id
         return response
 
@@ -384,11 +418,17 @@ async def upload_ncert_pdf(
     except Exception as exc:
         update_status(job_id, "failed", f"Unexpected error: {exc}")
         logger.exception("Job %s - unexpected error", job_id)
-        if supabase and cache_id:
+        if SessionLocal and cache_id:
+            db = SessionLocal()
             try:
-                pass
+                doc = db.query(DocumentExtraction).filter(DocumentExtraction.id == cache_id).first()
+                if doc:
+                    doc.extraction_metadata = {"error": str(exc), "stage": "unexpected"}
+                    db.commit()
             except Exception:
                 pass
+            finally:
+                db.close()
         raise HTTPException(
             status_code=500,
             detail=f"An unexpected error occurred: {exc}",

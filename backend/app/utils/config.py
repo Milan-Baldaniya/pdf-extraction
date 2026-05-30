@@ -56,6 +56,13 @@ class Settings(BaseSettings):
     # Supabase persistence
     supabase_url: str = ""
     supabase_service_key: str = ""
+    
+    # MariaDB
+    mariadb_host: str = "127.0.0.1"
+    mariadb_port: int = 3306
+    mariadb_user: str = "root"
+    mariadb_password: str = ""
+    mariadb_db: str = "pdf_extraction"
 
     @field_validator("debug", mode="before")
     @classmethod

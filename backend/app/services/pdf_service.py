@@ -1,5 +1,5 @@
 """
-PDF download service – async download of remote PDFs to temporary storage.
+PDF download service - async download of remote PDFs to temporary storage.
 """
 
 from __future__ import annotations
@@ -47,7 +47,7 @@ async def download_pdf(url: str, destination: Path) -> Path:
     Raises
     ------
     PDFDownloadError
-        If the download fails for any reason (network, content-type, size …).
+        If the download fails for any reason (network, content-type, size ...).
     """
     logger.info("Downloading PDF from %s -> %s", url, destination)
 
@@ -65,7 +65,7 @@ async def download_pdf(url: str, destination: Path) -> Path:
                 content_type = response.content_type or ""
                 if content_type and content_type not in ALLOWED_CONTENT_TYPES:
                     logger.warning(
-                        "Unexpected content-type '%s' – proceeding anyway.",
+                        "Unexpected content-type '%s' - proceeding anyway.",
                         content_type,
                     )
 
@@ -88,7 +88,7 @@ async def download_pdf(url: str, destination: Path) -> Path:
                         fh.write(chunk)
 
                 logger.info(
-                    "Download complete – %s (%.2f MB)",
+                    "Download complete - %s (%.2f MB)",
                     destination.name,
                     bytes_written / 1024 / 1024,
                 )

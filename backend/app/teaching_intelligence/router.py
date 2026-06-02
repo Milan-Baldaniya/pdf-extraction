@@ -73,7 +73,7 @@ def _validate_style_params(req: GenerateTeachingRequest):
 async def generate_teaching_intelligence(req: GenerateTeachingRequest):
     """Main Phase 3 endpoint.
 
-    Loads Phase 2 JSON from Supabase → calls Gemini → validates → stores result.
+    Loads Phase 2 JSON from Supabase -> calls Gemini -> validates -> stores result.
     """
     db = _require_supabase()
     _validate_style_params(req)

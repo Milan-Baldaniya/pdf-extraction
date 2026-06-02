@@ -9,19 +9,19 @@ You MUST find and extract ALL of the following:
 
 1. LET'S EXPLORE boxes — student inquiry tasks embedded in the chapter.
    These look like: "LET'S EXPLORE" followed by questions or tasks.
-   → Extract every one into chapter_apparatus.lets_explore_questions
+   -> Extract every one into chapter_apparatus.lets_explore_questions
 
-2. DON'T MISS OUT boxes — supplementary important facts the textbook highlights.
-   → Extract every one into chapter_apparatus.dont_miss_out_facts
+3. "Don't Miss Out" / "Did you know?" boxes
+   -> Extract every one into chapter_apparatus.dont_miss_out_facts
 
-3. LET'S REMEMBER boxes — formal definitions the textbook says students must know.
-   → Extract every one into chapter_apparatus.lets_remember_definitions
+4. "Let's Remember" / Definitions
+   -> Extract every one into chapter_apparatus.lets_remember_definitions
 
-4. Questions and Activities section — the numbered questions at the end of the chapter.
-   → Extract all of them into chapter_apparatus.exam_questions
+5. Exercises / Questions at the end of the chapter
+   -> Extract all of them into chapter_apparatus.exam_questions
 
-5. Before we move on / summary section — the bullet-point summary at chapter end.
-   → Extract all bullet points into chapter_apparatus.chapter_summary_points
+6. Chapter Summary / "What we have learnt"
+   -> Extract all bullet points into chapter_apparatus.chapter_summary_points
 
 These boxes are as educationally important as the main text.
 Do NOT skip them. Do NOT summarize them. Extract the exact text.

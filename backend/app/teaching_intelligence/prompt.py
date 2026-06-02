@@ -147,17 +147,17 @@ IMPORTANT RULES:
 3. student_hook must create genuine curiosity. It is the FIRST thing said on the slide.
 4. classroom_activity must be specific and doable in 2 minutes or less.
 5. Use the bloom_level from Phase 2 to guide your teaching approach:
-   Remember → definition + memory trick
-   Understand → analogy + explanation
-   Apply → worked example + activity
-   Analyze → comparison + discussion question
-   Evaluate → debate or judgment prompt
-   Create → design or project challenge
+   Remember -> definition + memory trick
+   Understand -> analogy + explanation
+   Apply -> worked example + activity
+   Analyze -> comparison + discussion question
+   Evaluate -> debate or judgment prompt
+   Create -> design or project challenge
 
 ALSO: If the Phase 2 JSON contains a chapter_apparatus field, use it:
-- lets_explore_questions → use as interaction_points for the relevant slide
-- dont_miss_out_facts → add as memorable wow-facts inside teacher_narration
-- exam_questions → include relevant ones in revision_points
+- lets_explore_questions -> use as interaction_points for the relevant slide
+- dont_miss_out_facts -> add as memorable wow-facts inside teacher_narration
+- exam_questions -> include relevant ones in revision_points
 
 Return ONLY valid JSON. No markdown. No explanation. No code blocks.
 

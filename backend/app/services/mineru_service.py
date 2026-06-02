@@ -90,27 +90,29 @@ def _find_mineru_exe() -> str:
     import os
     from pathlib import Path
     
-    # 1. Try PATH
-    if path := shutil.which("mineru"):
-        return path
-        
-    # 2. Try next to sys.executable
-    candidate = Path(sys.executable).parent / "mineru.exe"
-    if candidate.exists():
-        return str(candidate)
-        
-    # 3. Try common venv locations relative to this file
-    backend_dir = Path(__file__).parent.parent.parent
-    for venv_name in ["venv", ".venv", "env"]:
-        for script_dir in ["Scripts", "bin"]:
-            candidate = backend_dir / venv_name / script_dir / "mineru.exe"
-            candidate_unix = backend_dir / venv_name / script_dir / "mineru"
-            if candidate.exists():
-                return str(candidate)
-            if candidate_unix.exists():
-                return str(candidate_unix)
+    # Check for both 'magic-pdf' and 'mineru'
+    for name in ["magic-pdf", "mineru"]:
+        # 1. Try PATH
+        if path := shutil.which(name):
+            return path
+            
+        # 2. Try next to sys.executable
+        candidate = Path(sys.executable).parent / f"{name}.exe"
+        if candidate.exists():
+            return str(candidate)
+            
+        # 3. Try common venv locations relative to this file
+        backend_dir = Path(__file__).parent.parent.parent
+        for venv_name in ["venv", ".venv", "env"]:
+            for script_dir in ["Scripts", "bin"]:
+                candidate = backend_dir / venv_name / script_dir / f"{name}.exe"
+                candidate_unix = backend_dir / venv_name / script_dir / name
+                if candidate.exists():
+                    return str(candidate)
+                if candidate_unix.exists():
+                    return str(candidate_unix)
                 
-    return str(Path(sys.executable).parent / "mineru.exe")
+    return str(Path(sys.executable).parent / "magic-pdf.exe")
 
 def extract_pdf(
     pdf_path: Path,

@@ -342,6 +342,9 @@ def _run_cpu_extraction_passes(
             continue
 
         markdown = _collect_markdown(pass_output_dir)
+        
+        if not markdown.strip():
+            logger.warning("MinerU finished but produced no markdown. Output was:\nSTDOUT:\n%s\nSTDERR:\n%s", run_result.stdout, run_result.stderr)
         json_content = _collect_json(pass_output_dir)
         images = _collect_images(pass_output_dir)
         diagnostics = _build_quality_diagnostics(markdown, json_content, len(images))

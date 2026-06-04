@@ -2,10 +2,14 @@
 
 from __future__ import annotations
 
+from pathlib import Path
 from typing import Any
 
 from pydantic import field_validator
 from pydantic_settings import BaseSettings
+
+_BACKEND_ROOT = Path(__file__).resolve().parent.parent.parent
+_ENV_FILE = _BACKEND_ROOT / ".env"
 
 
 class Settings(BaseSettings):
@@ -26,12 +30,12 @@ class Settings(BaseSettings):
     # MinerU CPU pipeline
     mineru_backend: str = "pipeline"
     mineru_method: str = "auto"
-    mineru_lang: str = "devanagari"
+    mineru_lang: str = "auto"
     mineru_server_url: str = ""
     mineru_formula: bool = True
     mineru_table: bool = True
     mineru_image_analysis: bool = False
-    mineru_cpu_threads: int = 4
+    mineru_cpu_threads: int = 0
     mineru_timeout_seconds: int = 3600
     mineru_quality_mode: str = "max"
     mineru_ocr_fallback: bool = True
@@ -76,7 +80,7 @@ class Settings(BaseSettings):
         return value
 
     class Config:
-        env_file = ".env"
+        env_file = str(_ENV_FILE) if _ENV_FILE.is_file() else ".env"
         env_file_encoding = "utf-8"
         extra = "ignore"
 

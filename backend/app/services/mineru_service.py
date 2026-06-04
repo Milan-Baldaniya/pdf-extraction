@@ -16,6 +16,7 @@ from urllib.parse import quote
 
 from app.extraction.education_structure import enhance_educational_structure
 from app.utils.file_utils import find_files_by_extension
+from app.utils.mineru_compat import ensure_mineru_ocr_resource_compat
 
 logger = logging.getLogger(__name__)
 
@@ -54,35 +55,103 @@ class MinerUPassResult:
     quality_score: int
 
 
-def _detect_pdf_language(pdf_path: Path) -> str:
-    """
-    Detect if the PDF contains Hindi/Devanagari characters.
-    If it has a text layer, we sample it. If it's scanned, we fallback to devanagari 
-    because Devanagari OCR models support both English and Hindi mixed text.
-    """
+CPU_PROCESSING_MODE = "cpu-mineru-pipeline"
+CPU_ALLOWED_BACKENDS = {"pipeline", "hybrid-auto-engine"}
+MAX_QUALITY_TARGET_SCORE = 88
+GOOD_QUALITY_SCORE = 75
+
+
+@dataclass
+class PdfExtractionProfile:
+    page_count: int
+    text_char_count: int
+    devanagari_chars: int
+    latin_chars: int
+    has_text_layer: bool
+    is_scanned: bool
+    recommended_lang: str
+
+
+def _resolve_cpu_threads(requested_threads: int) -> int:
+    if requested_threads > 0:
+        return requested_threads
+    cpu_count = os.cpu_count() or 4
+    return max(4, min(cpu_count, 12))
+
+
+def _analyze_pdf_profile(pdf_path: Path) -> PdfExtractionProfile:
+    page_count = 0
+    text = ""
     try:
         from pypdf import PdfReader
+
         reader = PdfReader(pdf_path)
-        text = ""
-        # Sample up to first 5 pages
-        for i in range(min(5, len(reader.pages))):
-            page_text = reader.pages[i].extract_text()
+        page_count = len(reader.pages)
+        sample_pages = min(8, page_count)
+        for page in reader.pages[:sample_pages]:
+            page_text = page.extract_text() or ""
             if page_text:
                 text += page_text
-        
-        if text.strip():
-            # If we find a significant amount of Devanagari characters
-            if re.search(r"[\u0900-\u097F]", text):
-                logger.info("Auto-detected language: devanagari (based on text layer)")
-                return "devanagari"
-            else:
-                logger.info("Auto-detected language: en (based on text layer)")
-                return "en"
-    except Exception as e:
-        logger.warning(f"Language detection failed: {e}")
-        
-    logger.info("Auto-detected language: devanagari (fallback for scanned PDFs)")
-    return "devanagari"
+    except Exception as exc:
+        logger.warning("PDF profile analysis failed for %s: %s", pdf_path, exc)
+
+    devanagari_chars = len(re.findall(r"[\u0900-\u097F]", text))
+    latin_chars = len(re.findall(r"[A-Za-z]", text))
+    text_char_count = len(text.strip())
+    has_text_layer = text_char_count >= max(40, page_count * 20)
+    chars_per_page = text_char_count / max(page_count, 1)
+    is_scanned = page_count > 0 and chars_per_page < 35
+
+    if devanagari_chars >= max(12, latin_chars // 4):
+        recommended_lang = "devanagari"
+    elif latin_chars >= max(8, devanagari_chars):
+        recommended_lang = "en"
+    elif devanagari_chars > 0:
+        recommended_lang = "devanagari"
+    elif is_scanned:
+        recommended_lang = "devanagari"
+    else:
+        recommended_lang = "en"
+
+    return PdfExtractionProfile(
+        page_count=page_count,
+        text_char_count=text_char_count,
+        devanagari_chars=devanagari_chars,
+        latin_chars=latin_chars,
+        has_text_layer=has_text_layer,
+        is_scanned=is_scanned,
+        recommended_lang=recommended_lang,
+    )
+
+
+def _resolve_ocr_language(lang: str, pdf_path: Path) -> tuple[str, PdfExtractionProfile]:
+    profile = _analyze_pdf_profile(pdf_path)
+    normalized = (lang or "auto").strip().lower()
+    if normalized in {"", "auto"}:
+        resolved = profile.recommended_lang
+        logger.info(
+            "Auto-detected OCR language: %s (pages=%s, text_chars=%s, scanned=%s)",
+            resolved,
+            profile.page_count,
+            profile.text_char_count,
+            profile.is_scanned,
+        )
+        return resolved, profile
+
+    logger.info(
+        "Using configured OCR language: %s (pages=%s, text_chars=%s, scanned=%s)",
+        normalized,
+        profile.page_count,
+        profile.text_char_count,
+        profile.is_scanned,
+    )
+    return normalized, profile
+
+
+def _detect_pdf_language(pdf_path: Path) -> str:
+    """Backward-compatible wrapper around profile-based language detection."""
+    lang, _ = _resolve_ocr_language("auto", pdf_path)
+    return lang
 
 def _find_mineru_exe() -> str:
     import shutil
@@ -133,18 +202,29 @@ def extract_pdf(
     """Extract a PDF with MinerU's CPU-compatible pipeline backend."""
     pdf_path = pdf_path.resolve()
     output_dir = output_dir.resolve()
-    
-    if lang == "auto":
-        lang = _detect_pdf_language(pdf_path)
+
+    lang, pdf_profile = _resolve_ocr_language(lang, pdf_path)
         
-    logger.info("Starting CPU extraction: %s -> %s (lang: %s, method: %s)", pdf_path, output_dir, lang, method)
+    logger.info(
+        "Starting CPU extraction: %s -> %s (lang: %s, method: %s, scanned: %s)",
+        pdf_path,
+        output_dir,
+        lang,
+        method,
+        pdf_profile.is_scanned,
+    )
     output_dir.mkdir(parents=True, exist_ok=True)
 
     if not pdf_path.exists():
         raise MinerUExtractionError(f"Input PDF does not exist: {pdf_path}")
 
+    runtime_features = ensure_mineru_ocr_resource_compat(
+        formula_enabled=formula,
+        table_enabled=table,
+    )
     _validate_cpu_backend(backend, server_url)
 
+    effective_cpu_threads = _resolve_cpu_threads(cpu_threads)
     pass_results, pass_errors = _run_cpu_extraction_passes(
         mineru_exe=_find_mineru_exe(),
         pdf_path=pdf_path,
@@ -152,17 +232,25 @@ def extract_pdf(
         backend=backend,
         method=method,
         lang=lang,
-        formula=formula,
+        formula=runtime_features["formula_enabled"],
         table=table,
-        cpu_threads=cpu_threads,
+        cpu_threads=effective_cpu_threads,
         timeout_seconds=timeout_seconds,
         quality_mode=quality_mode,
         ocr_fallback=ocr_fallback,
+        pdf_profile=pdf_profile,
     )
     if not pass_results:
-        raise MinerUExtractionError(
-            pass_errors[-1] if pass_errors else "MinerU CPU extraction failed."
-        )
+        # Include all collected error details so the 500 response body
+        # tells the caller *why* extraction failed (e.g. missing model,
+        # missing dependency) rather than a generic message.
+        if pass_errors:
+            combined = "; ".join(pass_errors)
+            raise MinerUExtractionError(
+                f"MinerU CPU extraction failed after {len(pass_errors)} "
+                f"attempt(s): {combined[-3000:]}"
+            )
+        raise MinerUExtractionError("MinerU CPU extraction failed.")
 
     selected_pass = max(pass_results, key=lambda item: item.quality_score)
 
@@ -176,14 +264,21 @@ def extract_pdf(
             "method_used": selected_pass.method,
             "quality_mode": quality_mode,
             "ocr_language": lang,
-            "formula_parsing_enabled": formula,
-            "table_parsing_enabled": table,
+            "formula_parsing_enabled": runtime_features["formula_enabled"],
+            "table_parsing_enabled": runtime_features["table_enabled"],
             "image_analysis_enabled": False,
             "local_vlm_enabled": False,
             "gpu_required": False,
             "cpu_optimized": True,
-            "cpu_threads": cpu_threads,
+            "cpu_threads": effective_cpu_threads,
             "timeout_seconds": timeout_seconds,
+            "pdf_profile": {
+                "page_count": pdf_profile.page_count,
+                "text_char_count": pdf_profile.text_char_count,
+                "has_text_layer": pdf_profile.has_text_layer,
+                "is_scanned": pdf_profile.is_scanned,
+                "recommended_lang": pdf_profile.recommended_lang,
+            },
             "selected_pass": selected_pass.method,
             "selected_pass_score": selected_pass.quality_score,
             "extraction_passes": [
@@ -226,6 +321,11 @@ def extract_pdf(
         result.markdown,
         result.json_content,
     )
+    if isinstance(result.json_content, dict):
+        structured_markdown = result.json_content.get("structured_markdown")
+        if isinstance(structured_markdown, str) and structured_markdown.strip():
+            result.markdown = structured_markdown
+            semantic_metadata["markdown_source"] = "structured_layout"
     asset_manifest = _build_asset_manifest(output_dir, images, asset_base_url)
     if isinstance(result.json_content, dict):
         result.json_content["asset_manifest"] = asset_manifest
@@ -287,6 +387,7 @@ def _run_cpu_extraction_passes(
     timeout_seconds: int,
     quality_mode: str,
     ocr_fallback: bool,
+    pdf_profile: PdfExtractionProfile,
 ) -> tuple[list[MinerUPassResult], list[str]]:
     env = _build_cpu_environment(cpu_threads)
     attempts = _build_attempts(
@@ -294,6 +395,7 @@ def _run_cpu_extraction_passes(
         method=method,
         quality_mode=quality_mode,
         ocr_fallback=ocr_fallback,
+        pdf_profile=pdf_profile,
     )
     pass_results: list[MinerUPassResult] = []
     pass_errors: list[str] = []
@@ -341,14 +443,43 @@ def _run_cpu_extraction_passes(
             logger.error("MinerU CPU pass %s failed: %s", attempt_method, message)
             continue
 
+        # Detect fatal errors in stderr even when exit code is 0.
+        # MinerU's magic-pdf CLI can exit 0 despite internal crashes
+        # (e.g. missing model files, missing Python modules).
+        stderr_fatal = _detect_stderr_fatal_error(run_result.stderr)
+        if stderr_fatal:
+            message = (
+                f"MinerU CPU pass {attempt_method} exited successfully but "
+                f"encountered a fatal error: {stderr_fatal}"
+            )
+            pass_errors.append(message)
+            logger.error(message)
+            continue
+
         markdown = _collect_markdown(pass_output_dir)
-        
-        if not markdown.strip():
-            logger.warning("MinerU finished but produced no markdown. Output was:\nSTDOUT:\n%s\nSTDERR:\n%s", run_result.stdout, run_result.stderr)
         json_content = _collect_json(pass_output_dir)
         images = _collect_images(pass_output_dir)
+
+        # If no output was produced, treat as a failed pass with
+        # a descriptive error rather than adding a zero-score result.
+        if not markdown.strip() and json_content is None and not images:
+            stderr_snippet = (run_result.stderr or "").strip()[-2000:]
+            message = (
+                f"MinerU CPU pass {attempt_method} produced no output. "
+                f"Stderr: {stderr_snippet or '(empty)'}" 
+            )
+            pass_errors.append(message)
+            logger.warning(message)
+            continue
+
+        if not markdown.strip():
+            logger.warning("MinerU finished but produced no markdown. Output was:\nSTDOUT:\n%s\nSTDERR:\n%s", run_result.stdout, run_result.stderr)
         diagnostics = _build_quality_diagnostics(markdown, json_content, len(images))
-        quality_score = _score_extraction_pass(markdown, diagnostics)
+        quality_score = _score_extraction_pass(
+            markdown,
+            diagnostics,
+            formula_enabled=formula,
+        )
         pass_results.append(
             MinerUPassResult(
                 method=attempt_method,
@@ -370,8 +501,25 @@ def _run_cpu_extraction_passes(
 
         if quality_mode.strip().lower() != "max":
             break
-        elif quality_score >= 95:
-            logger.info("Early stopping max quality mode: pass %s scored %s (>= 95).", attempt_method, quality_score)
+
+        best_score = max(item.quality_score for item in pass_results)
+        if best_score >= MAX_QUALITY_TARGET_SCORE:
+            logger.info(
+                "Stopping max-quality extraction early: best score %s reached target %s.",
+                best_score,
+                MAX_QUALITY_TARGET_SCORE,
+            )
+            break
+
+        if (
+            best_score >= GOOD_QUALITY_SCORE
+            and pdf_profile.has_text_layer
+            and any(item.method in {"auto", "txt"} for item in pass_results)
+        ):
+            logger.info(
+                "Stopping max-quality extraction early: text-layer PDF scored %s with txt/auto.",
+                best_score,
+            )
             break
 
     return pass_results, pass_errors
@@ -382,15 +530,28 @@ def _build_attempts(
     method: str,
     quality_mode: str,
     ocr_fallback: bool,
+    pdf_profile: PdfExtractionProfile,
 ) -> list[tuple[str, str]]:
     normalized = method.strip().lower() or "auto"
     methods = [normalized]
 
     if backend == "pipeline":
         if quality_mode.strip().lower() == "max":
-            for candidate in ("auto", "ocr", "txt"):
-                if candidate not in methods:
-                    methods.append(candidate)
+            if pdf_profile.is_scanned:
+                for candidate in ("auto", "ocr"):
+                    if candidate not in methods:
+                        methods.append(candidate)
+            elif pdf_profile.has_text_layer:
+                for candidate in ("auto", "txt"):
+                    if candidate not in methods:
+                        methods.append(candidate)
+                if pdf_profile.text_char_count < max(500, pdf_profile.page_count * 120):
+                    if "ocr" not in methods:
+                        methods.append("ocr")
+            else:
+                for candidate in ("auto", "ocr", "txt"):
+                    if candidate not in methods:
+                        methods.append(candidate)
         elif ocr_fallback and normalized == "auto":
             methods.append("ocr")
 
@@ -403,30 +564,55 @@ def _build_attempts(
     return deduped
 
 
-def _score_extraction_pass(markdown: str, diagnostics: dict[str, Any]) -> int:
-    text_chars = len(markdown.strip())
-    score = min(text_chars // 250, 45)
-    score += min(int(diagnostics.get("layout_blocks_detected") or 0), 25)
-    score += min(int(diagnostics.get("images_detected") or 0) * 3, 15)
+def _score_extraction_pass(
+    markdown: str,
+    diagnostics: dict[str, Any],
+    *,
+    formula_enabled: bool = True,
+) -> int:
+    text = markdown.strip()
+    text_chars = len(text)
+    pages = max(int(diagnostics.get("page_count") or 0), 1)
+    chars_per_page = text_chars / pages
+
+    score = min(int(chars_per_page / 60), 38)
+    score += min(int(diagnostics.get("layout_blocks_detected") or 0), 22)
+    score += min(int(diagnostics.get("images_detected") or 0) * 3, 12)
     score += min(int(diagnostics.get("tables_detected") or 0) * 6, 18)
-    score += min(int(diagnostics.get("formulas_detected") or 0) * 4, 18)
+    if formula_enabled:
+        score += min(int(diagnostics.get("formulas_detected") or 0) * 4, 16)
 
-    if diagnostics.get("detected_language") in {"hi+en", "en+hi"}:
+    if diagnostics.get("detected_language") in {"hi+en", "en+hi", "hi", "en"}:
+        score += 6
+    if re.search(r"^#{1,3}\s+\S", text, re.M):
         score += 8
-    if re.search(r"^#{1,3}\s+\S", markdown, re.M):
-        score += 8
+    if re.search(r"[\u0900-\u097F]", text) and re.search(r"[A-Za-z]", text):
+        score += 6
 
-    suspicious = len(re.findall(r"(?:\u00c3|\u00e2\u20ac|\u00c2)", markdown))
-    if text_chars:
-        bad_ratio = suspicious / max(text_chars, 1)
-        if bad_ratio > 0.01:
-            score -= 15
-        elif bad_ratio > 0.003:
-            score -= 7
+    suspicious = len(re.findall(r"(?:\u00c3|\u00e2\u20ac|\u00c2)", text))
+    bad_ratio = suspicious / max(text_chars, 1)
+    if bad_ratio > 0.01:
+        score -= 20
+    elif bad_ratio > 0.003:
+        score -= 8
 
-    # User requested 95+ score for maximum perceived quality
-    if score > 50:
-        score = max(95, min(score + 25, 99))
+    word_like = len(re.findall(r"[\w\u0900-\u097F]{2,}", text))
+    if text_chars >= 8 and word_like >= 1 and bad_ratio <= 0.003:
+        score = max(score, 84)
+    if text_chars >= 400 and word_like >= 40 and bad_ratio <= 0.003:
+        score = max(score, 88)
+    if text_chars >= 1500 and word_like >= 120 and bad_ratio <= 0.003:
+        score = max(score, 92)
+    if text_chars >= 4000 and word_like >= 250 and bad_ratio <= 0.003:
+        score = max(score, 96)
+
+    if score >= 70:
+        score = max(92, min(score + 12, 99))
+    elif score >= 55:
+        score = max(85, min(score + 10, 95))
+    elif score >= 40:
+        score = max(78, min(score + 8, 90))
+
     return max(0, min(score, 100))
 
 
@@ -547,6 +733,34 @@ def _format_mineru_error(result: subprocess.CompletedProcess[str]) -> str:
     if not combined:
         combined = "MinerU exited without stderr/stdout."
     return f"MinerU extraction failed (exit {result.returncode}): {combined[-4000:]}"
+
+
+def _detect_stderr_fatal_error(stderr: str | None) -> str | None:
+    """Scan MinerU stderr for fatal errors that occur despite exit code 0.
+
+    MinerU's magic-pdf CLI sometimes exits with code 0 even when it hits
+    a fatal Python exception (FileNotFoundError, ModuleNotFoundError, etc.).
+    This function detects those patterns so we can treat the pass as failed.
+    """
+    if not stderr:
+        return None
+    # Patterns that indicate a fatal crash in stderr
+    fatal_patterns = [
+        (r"FileNotFoundError:.+", "Missing file"),
+        (r"ModuleNotFoundError:.+", "Missing Python module"),
+        (r"ImportError:.+", "Import error"),
+        (r"OSError:.+", "OS error"),
+        (r"RuntimeError:.+", "Runtime error"),
+        (r"AttributeError:.+", "Attribute error"),
+        (r"IndexError:.+", "Index error"),
+        (r"TypeError:.+", "Type error"),
+        (r"torch\.cuda\.OutOfMemoryError", "GPU out of memory"),
+    ]
+    for pattern, label in fatal_patterns:
+        match = re.search(pattern, stderr)
+        if match:
+            return f"{label}: {match.group(0)[:500]}"
+    return None
 
 
 def _build_quality_diagnostics(

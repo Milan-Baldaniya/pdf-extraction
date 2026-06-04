@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import asyncio
+import json
 import logging
 import shutil
 import time
@@ -18,7 +19,14 @@ from app.extraction.cache import (
     set_cached_response,
 )
 from app.extraction.status import get_status, update_status
-from app.db.mariadb import SessionLocal, DocumentExtraction
+from app.db.mariadb import (
+    SessionLocal,
+    DocumentExtraction,
+    create_extraction_stub,
+    init_mariadb,
+    mariadb_status,
+    persist_extraction_result,
+)
 from app.models.schemas import (
     ErrorResponse,
     ExtractionRequest,
@@ -148,20 +156,28 @@ async def _run_extraction_job(
     return response
 
 
+def _mark_extraction_failed(cache_id: int | None, payload: dict[str, Any]) -> None:
+    if cache_id is None or not init_mariadb() or SessionLocal is None:
+        return
+    db = SessionLocal()
+    try:
+        doc = db.query(DocumentExtraction).filter(DocumentExtraction.id == cache_id).first()
+        if doc:
+            doc.extraction_metadata = json.dumps(payload, ensure_ascii=False, default=str)
+            db.commit()
+    except Exception:
+        db.rollback()
+    finally:
+        db.close()
+
+
 def _raise_job_error(job_id: str, status_code: int, message: str, exc: Exception, cache_id: int | None = None) -> None:
     update_status(job_id, "failed", message)
     logger.error("Job %s - %s: %s", job_id, message, exc)
-    if SessionLocal and cache_id:
-        db = SessionLocal()
-        try:
-            doc = db.query(DocumentExtraction).filter(DocumentExtraction.id == cache_id).first()
-            if doc:
-                doc.extraction_metadata = {"error": message, "exception": str(exc)}
-                db.commit()
-        except Exception:
-            pass
-        finally:
-            db.close()
+    _mark_extraction_failed(
+        cache_id,
+        {"error": message, "exception": str(exc)},
+    )
     raise HTTPException(status_code=status_code, detail=str(exc)) from exc
 
 
@@ -173,7 +189,7 @@ def _raise_job_error(job_id: str, status_code: int, message: str, exc: Exception
 )
 async def health_check() -> HealthResponse:
     """Return service health status."""
-    return HealthResponse()
+    return HealthResponse(mariadb=mariadb_status())
 
 
 @router.get(
@@ -238,29 +254,16 @@ async def extract_ncert_pdf(
     update_status(job_id, "started", "Extraction job created")
     logger.info("Job %s - starting extraction for %s", job_id, request.pdf_url)
 
-    cache_id = None
-    if SessionLocal:
-        db = SessionLocal()
-        try:
-            new_doc = DocumentExtraction(
-                document_type=request.document_type,
-                document_tittle=request.document_title,
-                chapter_number=_safe_int(request.chapter_number),
-                standard=_safe_int(request.standard),
-                subject_name=request.subject_name,
-                board=request.board,
-                syear=request.syear,
-                pdf_url=str(request.pdf_url)
-            )
-            db.add(new_doc)
-            db.commit()
-            db.refresh(new_doc)
-            cache_id = new_doc.id
-        except Exception as e:
-            db.rollback()
-            logger.warning(f"MariaDB insert failed: {e}")
-        finally:
-            db.close()
+    cache_id = create_extraction_stub(
+        document_type=request.document_type,
+        document_title=request.document_title,
+        chapter_number=_safe_int(request.chapter_number),
+        standard=_safe_int(request.standard),
+        subject_name=request.subject_name,
+        board=request.board,
+        syear=request.syear,
+        pdf_url=str(request.pdf_url),
+    )
 
     try:
         pdf_path = get_temp_pdf_path(settings.temp_dir, job_id)
@@ -280,24 +283,18 @@ async def extract_ncert_pdf(
             ),
         )
         
-        
-        if SessionLocal and cache_id:
-            db = SessionLocal()
-            try:
-                doc = db.query(DocumentExtraction).filter(DocumentExtraction.id == cache_id).first()
-                if doc:
-                    doc.md_content = response.markdown_content
-                    doc.json_content = response.json_content
-                    doc.page_count = response.page_count
-                    doc.image_extracted = response.images_extracted
-                    doc.extraction_metadata = response.metadata
-                    db.commit()
-            except Exception as e:
-                db.rollback()
-                logger.warning(f"MariaDB update failed: {e}")
-            finally:
-                db.close()
-                
+        cache_id = persist_extraction_result(
+            cache_id,
+            response,
+            document_type=request.document_type,
+            document_title=request.document_title,
+            chapter_number=_safe_int(request.chapter_number),
+            standard=_safe_int(request.standard),
+            subject_name=request.subject_name,
+            board=request.board,
+            syear=request.syear,
+            pdf_url=str(request.pdf_url),
+        )
         response.metadata["pdf_cache_id"] = cache_id
         return response
 
@@ -310,17 +307,10 @@ async def extract_ncert_pdf(
     except Exception as exc:
         update_status(job_id, "failed", f"Unexpected error: {exc}")
         logger.exception("Job %s - unexpected error", job_id)
-        if SessionLocal and cache_id:
-            db = SessionLocal()
-            try:
-                doc = db.query(DocumentExtraction).filter(DocumentExtraction.id == cache_id).first()
-                if doc:
-                    doc.extraction_metadata = {"error": str(exc), "stage": "unexpected"}
-                    db.commit()
-            except Exception:
-                pass
-            finally:
-                db.close()
+        _mark_extraction_failed(
+            cache_id,
+            {"error": str(exc), "stage": "unexpected"},
+        )
         raise HTTPException(
             status_code=500,
             detail=f"An unexpected error occurred: {exc}",
@@ -356,29 +346,16 @@ async def upload_ncert_pdf(
     update_status(job_id, "started", "Extraction job created")
     logger.info("Job %s - starting extraction for uploaded file %s", job_id, file.filename)
 
-    cache_id = None
-    if SessionLocal:
-        db = SessionLocal()
-        try:
-            new_doc = DocumentExtraction(
-                document_type=document_type,
-                document_tittle=document_title,
-                chapter_number=_safe_int(chapter_number),
-                standard=_safe_int(standard),
-                subject_name=subject_name,
-                board=board,
-                syear=syear,
-                pdf_url="uploaded"
-            )
-            db.add(new_doc)
-            db.commit()
-            db.refresh(new_doc)
-            cache_id = new_doc.id
-        except Exception as e:
-            db.rollback()
-            logger.warning(f"MariaDB insert failed: {e}")
-        finally:
-            db.close()
+    cache_id = create_extraction_stub(
+        document_type=document_type,
+        document_title=document_title,
+        chapter_number=_safe_int(chapter_number),
+        standard=_safe_int(standard),
+        subject_name=subject_name,
+        board=board,
+        syear=syear,
+        pdf_url="uploaded",
+    )
 
     try:
         pdf_path = get_temp_pdf_path(settings.temp_dir, job_id)
@@ -399,23 +376,18 @@ async def upload_ncert_pdf(
                 "image, and layout extraction"
             ),
         )
-        
-        if SessionLocal and cache_id:
-            db = SessionLocal()
-            try:
-                doc = db.query(DocumentExtraction).filter(DocumentExtraction.id == cache_id).first()
-                if doc:
-                    doc.md_content = response.markdown_content
-                    doc.json_content = response.json_content
-                    doc.page_count = response.page_count
-                    doc.image_extracted = response.images_extracted
-                    doc.extraction_metadata = response.metadata
-                    db.commit()
-            except Exception as e:
-                db.rollback()
-                logger.warning(f"MariaDB update failed: {e}")
-            finally:
-                db.close()
+        cache_id = persist_extraction_result(
+            cache_id,
+            response,
+            document_type=document_type,
+            document_title=document_title,
+            chapter_number=_safe_int(chapter_number),
+            standard=_safe_int(standard),
+            subject_name=subject_name,
+            board=board,
+            syear=syear,
+            pdf_url="uploaded",
+        )
         response.metadata["pdf_cache_id"] = cache_id
         return response
 
@@ -428,17 +400,10 @@ async def upload_ncert_pdf(
     except Exception as exc:
         update_status(job_id, "failed", f"Unexpected error: {exc}")
         logger.exception("Job %s - unexpected error", job_id)
-        if SessionLocal and cache_id:
-            db = SessionLocal()
-            try:
-                doc = db.query(DocumentExtraction).filter(DocumentExtraction.id == cache_id).first()
-                if doc:
-                    doc.extraction_metadata = {"error": str(exc), "stage": "unexpected"}
-                    db.commit()
-            except Exception:
-                pass
-            finally:
-                db.close()
+        _mark_extraction_failed(
+            cache_id,
+            {"error": str(exc), "stage": "unexpected"},
+        )
         raise HTTPException(
             status_code=500,
             detail=f"An unexpected error occurred: {exc}",

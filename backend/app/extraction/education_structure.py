@@ -56,7 +56,17 @@ def enhance_educational_structure(
     outline = build_outline(enhanced_blocks)
     sections = build_sections(enhanced_blocks, outline)
     assets = build_asset_index(enhanced_blocks, markdown)
-    metadata = build_metadata(markdown, enhanced_blocks, outline, sections, assets)
+    structured_markdown = rebuild_structured_markdown(enhanced_pages, enhanced_blocks)
+    metadata = build_metadata(
+        structured_markdown or markdown,
+        enhanced_blocks,
+        outline,
+        sections,
+        assets,
+    )
+    if structured_markdown.strip():
+        metadata["structured_markdown_chars"] = len(structured_markdown)
+        metadata["markdown_rebuilt_from_layout"] = True
 
     enhanced_json = {
         **json_content,
@@ -67,8 +77,275 @@ def enhance_educational_structure(
         "educational_outline": outline,
         "educational_sections": sections,
         "educational_assets": assets,
+        "structured_markdown": structured_markdown,
     }
     return enhanced_json, metadata
+
+
+_SKIP_LAYOUT_ROLES = frozenset({"header", "footer", "page_number"})
+_CALLOUT_ROLES = frozenset(
+    {
+        "activity",
+        "example",
+        "answer",
+        "exercise",
+        "think_reflect",
+        "pause_ponder",
+        "extension_box",
+        "curiosity_box",
+        "biography_box",
+        "activity_prompt",
+    }
+)
+
+
+def rebuild_structured_markdown(
+    pages: list[dict[str, Any]],
+    blocks: list[dict[str, Any]],
+) -> str:
+    """Rebuild reading-order markdown from enriched layout blocks."""
+    if not blocks:
+        return ""
+
+    page_block_map: dict[int, list[dict[str, Any]]] = {}
+    for page in pages:
+        if not isinstance(page, dict):
+            continue
+        page_idx = page.get("page_idx")
+        if not isinstance(page_idx, int):
+            continue
+        page_blocks = page.get("blocks")
+        if isinstance(page_blocks, list) and page_blocks:
+            page_block_map[page_idx] = [dict(block) for block in page_blocks if isinstance(block, dict)]
+
+    if not page_block_map:
+        page_block_map = _group_blocks_by_page(blocks)
+
+    parts: list[str] = []
+    for page_idx in sorted(page_block_map):
+        page_blocks = _merge_fragmented_body_blocks(page_block_map[page_idx])
+        if not page_blocks:
+            continue
+
+        if len(page_block_map) > 1:
+            parts.append(f"## Page {page_idx + 1}")
+            parts.append("")
+
+        for block in page_blocks:
+            rendered = _render_layout_block_markdown(block)
+            if rendered:
+                parts.append(rendered)
+                parts.append("")
+
+    return _normalize_markdown_document("\n\n".join(parts))
+
+
+def _group_blocks_by_page(blocks: list[dict[str, Any]]) -> dict[int, list[dict[str, Any]]]:
+    page_map: dict[int, list[dict[str, Any]]] = {}
+    for block in blocks:
+        page_idx = block.get("page_idx")
+        if not isinstance(page_idx, int):
+            page_idx = 0
+        page_map.setdefault(page_idx, []).append(dict(block))
+    for page_blocks in page_map.values():
+        page_blocks.sort(
+            key=lambda block: (
+                block.get("reading_order", 0),
+                (block.get("bbox") or [0, 0, 0, 0])[1],
+                (block.get("bbox") or [0, 0, 0, 0])[0],
+            )
+        )
+    return page_map
+
+
+def _merge_fragmented_body_blocks(blocks: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    if not blocks:
+        return []
+
+    merged: list[dict[str, Any]] = []
+    for block in blocks:
+        role = str(block.get("educational_role") or block.get("role") or "")
+        if role in _SKIP_LAYOUT_ROLES:
+            continue
+
+        if merged and _should_merge_body_blocks(merged[-1], block):
+            previous = merged[-1]
+            previous_text = clean_text(str(previous.get("text") or ""))
+            current_text = clean_text(str(block.get("text") or ""))
+            if current_text:
+                joiner = "" if previous_text.endswith("-") else " "
+                previous["text"] = f"{previous_text}{joiner}{current_text}".strip()
+            previous_items = previous.get("inline_items")
+            current_items = block.get("inline_items")
+            if isinstance(current_items, list):
+                if isinstance(previous_items, list):
+                    previous_items.extend(current_items)
+                else:
+                    previous["inline_items"] = list(current_items)
+            bbox = block.get("bbox")
+            if isinstance(bbox, list) and len(bbox) == 4:
+                previous["bbox"] = [
+                    min(previous.get("bbox", bbox)[0], bbox[0]),
+                    min(previous.get("bbox", bbox)[1], bbox[1]),
+                    max(previous.get("bbox", bbox)[2], bbox[2]),
+                    max(previous.get("bbox", bbox)[3], bbox[3]),
+                ]
+            continue
+
+        merged.append(dict(block))
+    return merged
+
+
+def _should_merge_body_blocks(previous: dict[str, Any], current: dict[str, Any]) -> bool:
+    if previous.get("page_idx") != current.get("page_idx"):
+        return False
+
+    previous_role = str(previous.get("educational_role") or previous.get("role") or "")
+    current_role = str(current.get("educational_role") or current.get("role") or "")
+    if previous_role not in {"body", "formula_context"} or current_role not in {
+        "body",
+        "formula_context",
+    }:
+        return False
+
+    if previous.get("table_html") or current.get("table_html"):
+        return False
+    if previous.get("img_path") or current.get("img_path"):
+        return False
+
+    previous_bbox = previous.get("bbox")
+    current_bbox = current.get("bbox")
+    if not (
+        isinstance(previous_bbox, list)
+        and isinstance(current_bbox, list)
+        and len(previous_bbox) == 4
+        and len(current_bbox) == 4
+    ):
+        return len(clean_text(str(previous.get("text") or ""))) < 120
+
+    vertical_gap = current_bbox[1] - previous_bbox[3]
+    line_height = max(10, previous_bbox[3] - previous_bbox[1])
+    return vertical_gap <= line_height * 1.25
+
+
+def _render_layout_block_markdown(block: dict[str, Any]) -> str:
+    role = str(block.get("educational_role") or block.get("role") or "body")
+    text = clean_text(str(block.get("text") or ""))
+
+    if role in _SKIP_LAYOUT_ROLES:
+        return ""
+
+    if role == "table":
+        return _render_table_block(block, text)
+    if role in {"figure", "figure_caption"}:
+        return _render_figure_block(block, text)
+    if role in {"formula", "formula_context"}:
+        return _render_formula_block(block, text)
+    if role in _CALLOUT_ROLES:
+        return _render_callout_block(role, text)
+    if role in {"chapter_title", "section_heading", "heading"} or block.get("text_level"):
+        heading = _heading_prefix(block)
+        if heading and text:
+            return f"{heading}{text}"
+        if text:
+            return text
+        return ""
+
+    inline = _render_inline_items(block.get("inline_items"))
+    if inline:
+        return inline
+    return text
+
+
+def _heading_prefix(block: dict[str, Any]) -> str:
+    role = str(block.get("educational_role") or "")
+    hierarchy = block.get("hierarchy_level")
+    text_level = block.get("text_level")
+
+    if role == "chapter_title":
+        level = 1
+    elif role == "section_heading":
+        level = 2
+    elif role == "heading":
+        level = 3
+    elif isinstance(hierarchy, int) and hierarchy > 0:
+        level = max(1, min(hierarchy, 6))
+    elif isinstance(text_level, int) and text_level > 0:
+        level = max(1, min(text_level, 6))
+    else:
+        return ""
+
+    return f"{'#' * level} "
+
+
+def _render_table_block(block: dict[str, Any], text: str) -> str:
+    table_html = str(block.get("table_html") or "").strip()
+    caption = clean_text(str(block.get("caption") or text or ""))
+    parts: list[str] = []
+    if caption:
+        parts.append(f"**{caption}**")
+    if table_html:
+        parts.append(table_html)
+    elif text:
+        parts.append(text)
+    return "\n\n".join(parts)
+
+
+def _render_figure_block(block: dict[str, Any], text: str) -> str:
+    img_path = str(block.get("img_path") or "").strip()
+    caption = clean_text(str(block.get("caption") or block.get("footnote") or text or ""))
+    alt = caption or "Figure"
+    parts: list[str] = []
+    if img_path:
+        parts.append(f"![{alt}]({img_path})")
+    if caption and caption != alt:
+        parts.append(f"*{caption}*")
+    elif text and not img_path:
+        parts.append(f"*{text}*")
+    return "\n\n".join(parts)
+
+
+def _render_formula_block(block: dict[str, Any], text: str) -> str:
+    inline = _render_inline_items(block.get("inline_items"))
+    if inline:
+        return inline
+    if text:
+        stripped = text.strip()
+        if stripped.startswith("$") and stripped.endswith("$"):
+            return stripped
+        return f"$${stripped}$$"
+    return ""
+
+
+def _render_callout_block(role: str, text: str) -> str:
+    if not text:
+        return ""
+    label = role.replace("_", " ").title()
+    return f"> **{label}**\n>\n> {text}"
+
+
+def _render_inline_items(value: Any) -> str:
+    if not isinstance(value, list):
+        return ""
+    parts: list[str] = []
+    for item in value:
+        if not isinstance(item, dict):
+            continue
+        content = clean_text(str(item.get("content") or ""))
+        if not content:
+            continue
+        if item.get("type") == "formula":
+            if not (content.startswith("$") and content.endswith("$")):
+                content = f"${content}$"
+        parts.append(content)
+    return clean_text(" ".join(parts))
+
+
+def _normalize_markdown_document(markdown: str) -> str:
+    lines = [line.rstrip() for line in markdown.splitlines()]
+    cleaned = "\n".join(lines)
+    cleaned = re.sub(r"\n{4,}", "\n\n\n", cleaned)
+    return cleaned.strip()
 
 
 def infer_educational_role(block: dict[str, Any]) -> str:

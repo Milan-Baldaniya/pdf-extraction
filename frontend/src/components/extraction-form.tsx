@@ -48,6 +48,22 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Upload } from "lucide-react";
 import { CustomSelect } from "@/components/ui/custom-select";
 
+const metadataInputClassName =
+  "h-10 w-full rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/50 px-3 text-sm outline-none backdrop-blur-md transition-colors focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 hover:bg-white/60 dark:hover:bg-black/60";
+
+function MetadataInput({
+  className,
+  ...props
+}: React.InputHTMLAttributes<HTMLInputElement>) {
+  return (
+    <input
+      suppressHydrationWarning
+      className={className ?? metadataInputClassName}
+      {...props}
+    />
+  );
+}
+
 export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
   const [url, setUrl] = useState("");
   const [file, setFile] = useState<File | null>(null);
@@ -182,12 +198,12 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
               
               <div className="space-y-1.5">
                 <label className="text-xs font-medium text-foreground/80 pl-1">Document Title</label>
-                <input type="text" value={documentTitle} onChange={e => setDocumentTitle(e.target.value)} placeholder="e.g. Chemical Reactions" className="h-10 w-full rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/50 px-3 text-sm outline-none backdrop-blur-md transition-colors focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 hover:bg-white/60 dark:hover:bg-black/60" />
+                <MetadataInput type="text" value={documentTitle} onChange={e => setDocumentTitle(e.target.value)} placeholder="e.g. Chemical Reactions" />
               </div>
 
               <div className="space-y-1.5">
                 <label className="text-xs font-medium text-foreground/80 pl-1">Chapter Number</label>
-                <input type="text" value={chapterNumber} onChange={e => setChapterNumber(e.target.value)} placeholder="e.g. 1" className="h-10 w-full rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/50 px-3 text-sm outline-none backdrop-blur-md transition-colors focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 hover:bg-white/60 dark:hover:bg-black/60" />
+                <MetadataInput type="text" value={chapterNumber} onChange={e => setChapterNumber(e.target.value)} placeholder="e.g. 1" />
               </div>
 
               <div className="space-y-1.5 relative z-[50]">
@@ -208,14 +224,21 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
                     options={["Maths", "Science", "Physics", "Chemistry", "Biology", "History", "Geography", "Civics", "Economics", "English", "Hindi", "Sanskrit", "Accountancy", "Business Studies", "Computer Science", "Information Practices", "Physical Education", "Others"].map(s => ({ label: s, value: s }))}
                   />
                   {subjectName === "Others" && (
-                    <input autoFocus type="text" value={customSubject} onChange={e => setCustomSubject(e.target.value)} placeholder="Type custom subject..." className="h-10 w-full rounded-xl border-[0.5px] border-primary/40 bg-primary/5 px-3 text-sm outline-none backdrop-blur-md transition-all focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 animate-in slide-in-from-top-1 fade-in duration-200" />
+                    <MetadataInput
+                      autoFocus
+                      type="text"
+                      value={customSubject}
+                      onChange={e => setCustomSubject(e.target.value)}
+                      placeholder="Type custom subject..."
+                      className="h-10 w-full rounded-xl border-[0.5px] border-primary/40 bg-primary/5 px-3 text-sm outline-none backdrop-blur-md transition-all focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 animate-in slide-in-from-top-1 fade-in duration-200"
+                    />
                   )}
                 </div>
               </div>
 
               <div className="space-y-1.5">
                 <label className="text-xs font-medium text-foreground/80 pl-1">Board</label>
-                <input type="text" value={board} onChange={e => setBoard(e.target.value)} placeholder="CBSE" className="h-10 w-full rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/50 px-3 text-sm outline-none backdrop-blur-md transition-colors focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 hover:bg-white/60 dark:hover:bg-black/60" />
+                <MetadataInput type="text" value={board} onChange={e => setBoard(e.target.value)} placeholder="CBSE" />
               </div>
 
               <div className="space-y-1.5 md:col-span-2 relative z-[30]">
@@ -303,6 +326,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
                       accept="application/pdf"
                       onChange={(e) => setFile(e.target.files?.[0] || null)}
                       disabled={isPending}
+                      suppressHydrationWarning
                       className="file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-primary/10 file:text-primary hover:file:bg-primary/20 flex h-12 w-full min-w-0 items-center justify-center rounded-lg border border-border/50 bg-background/50 px-3 text-base outline-none transition-colors focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-primary/30 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50"
                     />
                   </div>

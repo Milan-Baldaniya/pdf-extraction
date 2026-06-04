@@ -30,6 +30,7 @@ class HealthResponse(BaseModel):
     status: str = "ok"
     service: str = "ncert-pdf-extractor"
     version: str = "1.0.0"
+    mariadb: dict[str, Any] = Field(default_factory=dict)
 
 
 class ExtractionResponse(BaseModel):

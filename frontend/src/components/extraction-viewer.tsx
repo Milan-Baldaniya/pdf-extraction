@@ -259,7 +259,11 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
   const assets = useMemo(() => getAssets(data.json_content), [data.json_content]);
   const sections = useMemo(() => getSections(data.json_content), [data.json_content]);
   const assetManifest = useMemo(() => getAssetManifest(data.json_content), [data.json_content]);
-  const [activeTab, setActiveTab] = useState(hasLayout ? "layout" : "markdown");
+  const layoutIsReliable = useMemo(
+    () => layoutPages.some((page) => blocksHaveReliableLayout(page.blocks)),
+    [layoutPages]
+  );
+  const [activeTab, setActiveTab] = useState("markdown");
   const viewerRef = useRef<HTMLDivElement>(null);
   const metadata = data.metadata as Record<string, unknown>;
   const passes = useMemo(() => getPasses(metadata), [metadata]);
@@ -504,26 +508,37 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
             <Card className="flex-1 border-border/30 bg-card/50 backdrop-blur-sm flex flex-col min-h-0">
               <ScrollArea className="flex-1 min-h-0">
                 <CardContent className="space-y-6 p-4 lg:p-6">
+                  {!layoutIsReliable && (
+                    <p className="text-xs text-muted-foreground rounded-lg border border-border/40 bg-muted/30 px-3 py-2">
+                      Visual page overlay is limited for this PDF. Showing reading-order
+                      structure below. Use the <strong>Markdown</strong> tab for the full
+                      formatted document.
+                    </p>
+                  )}
                   {layoutPages.map((page) => (
-                    <div key={page.pageIdx} className="space-y-2">
-                      <div className="text-xs text-muted-foreground">
+                    <div key={page.pageIdx} className="space-y-3">
+                      <div className="text-xs font-medium text-muted-foreground">
                         Page {page.pageIdx + 1}
                       </div>
-                      <div
-                        className="relative mx-auto overflow-hidden rounded-md border border-border/30 bg-white text-black shadow-lg"
-                        style={{
-                          aspectRatio: `${page.width} / ${page.height}`,
-                          maxWidth: "900px",
-                        }}
-                      >
-                        {page.blocks.map((block, index) => (
-                          <LayoutBlockView
-                            key={`${page.pageIdx}-${block.id ?? index}`}
-                            block={block}
-                            page={page}
-                          />
-                        ))}
-                      </div>
+                      {layoutIsReliable ? (
+                        <div
+                          className="relative mx-auto overflow-hidden rounded-md border border-border/30 bg-white text-black shadow-lg"
+                          style={{
+                            aspectRatio: `${page.width} / ${page.height}`,
+                            maxWidth: "900px",
+                          }}
+                        >
+                          {page.blocks.map((block, index) => (
+                            <LayoutBlockView
+                              key={`${page.pageIdx}-${block.id ?? index}`}
+                              block={block}
+                              page={page}
+                            />
+                          ))}
+                        </div>
+                      ) : (
+                        <ReadingOrderPageView blocks={page.blocks} />
+                      )}
                     </div>
                   ))}
                 </CardContent>
@@ -745,6 +760,118 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
           </Card>
         </TabsContent>
       </Tabs>
+    </div>
+  );
+}
+
+function blocksHaveReliableLayout(blocks: LayoutBlock[]): boolean {
+  if (blocks.length < 2) {
+    return blocks.length === 1 && (blocks[0].bbox?.[3] ?? 0) - (blocks[0].bbox?.[1] ?? 0) > 48;
+  }
+
+  const heights = blocks
+    .map((block) => (block.bbox?.[3] ?? 0) - (block.bbox?.[1] ?? 0))
+    .filter((height) => height > 0);
+  const tops = blocks.map((block) => block.bbox?.[1] ?? 0);
+  const uniqueTops = new Set(tops);
+
+  const medianHeight =
+    heights.length > 0
+      ? [...heights].sort((a, b) => a - b)[Math.floor(heights.length / 2)]
+      : 0;
+
+  return uniqueTops.size >= Math.min(blocks.length, 4) && medianHeight > 24;
+}
+
+function ReadingOrderPageView({ blocks }: { blocks: LayoutBlock[] }) {
+  const visibleBlocks = blocks.filter((block) => {
+    const role = block.educational_role ?? block.role ?? "";
+    if (["header", "footer", "page_number"].includes(String(role))) {
+      return false;
+    }
+    return Boolean(
+      block.text?.trim() ||
+        block.img_path ||
+        block.table_html ||
+        (block.inline_items?.length ?? 0) > 0
+    );
+  });
+
+  return (
+    <div className="mx-auto max-w-3xl space-y-3">
+      {visibleBlocks.map((block, index) => (
+        <ReadingOrderBlockCard key={block.id ?? index} block={block} />
+      ))}
+    </div>
+  );
+}
+
+function ReadingOrderBlockCard({ block }: { block: LayoutBlock }) {
+  const role = block.educational_role ?? block.role ?? block.type ?? "body";
+  const isHeading = ["chapter_title", "section_heading", "heading"].includes(role);
+
+  if (block.img_path) {
+    return (
+      <figure className="rounded-xl border border-border/40 bg-card/60 p-4 space-y-2">
+        <Badge variant="outline" className="text-[10px]">
+          {role}
+        </Badge>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={block.img_path}
+          alt={block.caption || "Extracted figure"}
+          className="max-h-80 w-full rounded-lg object-contain"
+        />
+        {(block.caption || block.footnote) && (
+          <figcaption className="text-sm text-muted-foreground">
+            {block.caption || block.footnote}
+          </figcaption>
+        )}
+      </figure>
+    );
+  }
+
+  if (block.table_html) {
+    return (
+      <div className="rounded-xl border border-border/40 bg-card/60 p-4 space-y-2 overflow-x-auto">
+        <Badge variant="outline" className="text-[10px]">
+          table
+        </Badge>
+        <div
+          className="prose prose-sm max-w-none dark:prose-invert"
+          dangerouslySetInnerHTML={{ __html: block.table_html }}
+        />
+      </div>
+    );
+  }
+
+  const text = block.text?.trim() ?? "";
+  if (!text && !block.inline_items?.length) {
+    return null;
+  }
+
+  return (
+    <div
+      className={`rounded-xl border border-border/40 p-4 space-y-2 ${
+        isHeading ? "bg-primary/5 border-primary/20" : "bg-card/60"
+      }`}
+    >
+      <Badge variant="outline" className="text-[10px]">
+        {role}
+      </Badge>
+      {isHeading ? (
+        <h3 className="text-lg font-semibold leading-snug text-foreground">{text}</h3>
+      ) : (
+        <p className="text-sm leading-relaxed text-foreground/90 whitespace-pre-wrap">
+          {text}
+          {block.inline_items?.map((item, index) => (
+            <span key={index} className="font-mono text-xs">
+              {" "}
+              {item.content}
+            </span>
+          ))}
+        </p>
+      )}
     </div>
   );
 }

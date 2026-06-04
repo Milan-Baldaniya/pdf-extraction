@@ -182,12 +182,12 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
               
               <div className="space-y-1.5">
                 <label className="text-xs font-medium text-foreground/80 pl-1">Document Title</label>
-                <input type="text" value={documentTitle} onChange={e => setDocumentTitle(e.target.value)} placeholder="e.g. Chemical Reactions" className="h-10 w-full rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/50 px-3 text-sm outline-none backdrop-blur-md transition-colors focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 hover:bg-white/60 dark:hover:bg-black/60" />
+                <input suppressHydrationWarning type="text" value={documentTitle} onChange={e => setDocumentTitle(e.target.value)} placeholder="e.g. Chemical Reactions" className="h-10 w-full rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/50 px-3 text-sm outline-none backdrop-blur-md transition-colors focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 hover:bg-white/60 dark:hover:bg-black/60" />
               </div>
 
               <div className="space-y-1.5">
                 <label className="text-xs font-medium text-foreground/80 pl-1">Chapter Number</label>
-                <input type="text" value={chapterNumber} onChange={e => setChapterNumber(e.target.value)} placeholder="e.g. 1" className="h-10 w-full rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/50 px-3 text-sm outline-none backdrop-blur-md transition-colors focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 hover:bg-white/60 dark:hover:bg-black/60" />
+                <input suppressHydrationWarning type="text" value={chapterNumber} onChange={e => setChapterNumber(e.target.value)} placeholder="e.g. 1" className="h-10 w-full rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/50 px-3 text-sm outline-none backdrop-blur-md transition-colors focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 hover:bg-white/60 dark:hover:bg-black/60" />
               </div>
 
               <div className="space-y-1.5 relative z-[50]">
@@ -208,14 +208,14 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
                     options={["Maths", "Science", "Physics", "Chemistry", "Biology", "History", "Geography", "Civics", "Economics", "English", "Hindi", "Sanskrit", "Accountancy", "Business Studies", "Computer Science", "Information Practices", "Physical Education", "Others"].map(s => ({ label: s, value: s }))}
                   />
                   {subjectName === "Others" && (
-                    <input autoFocus type="text" value={customSubject} onChange={e => setCustomSubject(e.target.value)} placeholder="Type custom subject..." className="h-10 w-full rounded-xl border-[0.5px] border-primary/40 bg-primary/5 px-3 text-sm outline-none backdrop-blur-md transition-all focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 animate-in slide-in-from-top-1 fade-in duration-200" />
+                    <input suppressHydrationWarning autoFocus type="text" value={customSubject} onChange={e => setCustomSubject(e.target.value)} placeholder="Type custom subject..." className="h-10 w-full rounded-xl border-[0.5px] border-primary/40 bg-primary/5 px-3 text-sm outline-none backdrop-blur-md transition-all focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 animate-in slide-in-from-top-1 fade-in duration-200" />
                   )}
                 </div>
               </div>
 
               <div className="space-y-1.5">
                 <label className="text-xs font-medium text-foreground/80 pl-1">Board</label>
-                <input type="text" value={board} onChange={e => setBoard(e.target.value)} placeholder="CBSE" className="h-10 w-full rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/50 px-3 text-sm outline-none backdrop-blur-md transition-colors focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 hover:bg-white/60 dark:hover:bg-black/60" />
+                <input suppressHydrationWarning type="text" value={board} onChange={e => setBoard(e.target.value)} placeholder="CBSE" className="h-10 w-full rounded-xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/50 px-3 text-sm outline-none backdrop-blur-md transition-colors focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 hover:bg-white/60 dark:hover:bg-black/60" />
               </div>
 
               <div className="space-y-1.5 md:col-span-2 relative z-[30]">
@@ -232,7 +232,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
               <form onSubmit={handleUrlSubmit} className="space-y-4">
                 <div className="flex gap-3">
                   <div className="relative min-w-0 flex-1">
-                    <input
+                    <input suppressHydrationWarning
                       id="pdf-url-input"
                       type="text"
                       inputMode="url"
@@ -297,7 +297,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
               <form onSubmit={handleFileSubmit} className="space-y-4">
                 <div className="flex gap-3">
                   <div className="relative min-w-0 flex-1">
-                    <input
+                    <input suppressHydrationWarning
                       id="pdf-file-input"
                       type="file"
                       accept="application/pdf"

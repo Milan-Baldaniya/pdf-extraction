@@ -7,7 +7,7 @@ from huggingface_hub import snapshot_download
 
 backend_dir = Path(__file__).resolve().parent
 models_dir = backend_dir / "models" / "PDF-Extract-Kit-1.0"
-layoutreader_dir = models_dir / "ReadingOrder" / "layout_reader"
+layoutreader_dir = models_dir / "models" / "ReadingOrder" / "layout_reader"
 
 print(f"Downloading MinerU models to: {models_dir}")
 

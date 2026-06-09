@@ -1,0 +1,224 @@
+import json
+import logging
+from typing import Any, Dict
+from sqlalchemy import text
+from app.db.mariadb import SessionLocal
+from app.semantic_intelligence.gemini_client import call_gemini
+
+logger = logging.getLogger(__name__)
+
+CHAPTER_PROMPT = """You are an expert educational content analyst specializing in Indian school curriculum (NCERT and state boards) for standards 1 to 12, across all subjects including Hindi, Gujarati, English, Sanskrit, Mathematics, Science, Social Science, History, Geography, Civics, Biology, Chemistry, Physics, Computer Science, and any other subject.
+
+Your task is to extract key concepts from a given chapter's content and return ONLY a valid JSON object — no explanation, no markdown, no preamble, no trailing text.
+
+Rules you must follow:
+1. Extract key concepts that are educationally significant for that standard and subject.
+2. Adapt depth and complexity based on the standard level:
+   - Std 1–5 (Primary): simple terms, basic ideas, foundational vocabulary
+   - Std 6–8 (Middle): definitions, processes, relationships between ideas
+   - Std 9–10 (Secondary): principles, laws, theories, formulas, cause-effect
+   - Std 11–12 (Higher Secondary): advanced theories, derivations, analytical concepts
+3. For language subjects (Hindi, Gujarati, English, Sanskrit, etc.), extract grammar topics, literary devices, author/poet concepts, and vocabulary themes.
+4. For Mathematics, include formulas, theorems, and problem-solving techniques.
+5. For Sciences, include laws, definitions, diagrams/processes mentioned, and chemical/biological terms.
+6. Always return concept names in the same language as the chapter content (Hindi concepts in Hindi, Gujarati in Gujarati, etc.), but the JSON keys must always be in English.
+7. Keep each concept name concise (2–6 words). The description should be 1–2 sentences max.
+8. Extract between 5 and 20 key concepts depending on chapter length and complexity.
+9. Output ONLY the JSON object. No other text.
+
+Return the JSON in the following format:
+{
+  "key_concepts": [
+    {
+      "name": "Concept Name",
+      "description": "Concept Description"
+    }
+  ]
+}
+
+Chapter Content:
+{md_content}
+"""
+
+def process_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
+    with SessionLocal() as db:
+        # 1. Fetch the document extraction row
+        row = db.execute(
+            text("SELECT * FROM document_extractions WHERE id = :id"), 
+            {"id": extraction_id}
+        ).mappings().fetchone()
+        
+        if not row:
+            raise ValueError(f"No document_extraction found for id {extraction_id}")
+            
+        if str(row.get("document_type", "")).lower() != "chapter":
+            raise ValueError(f"document_extraction {extraction_id} is not of type 'Chapter'")
+            
+        chapter_name = row.get("document_tittle", "")
+        md_content = row.get("md_content", "")
+        if not md_content:
+            raise ValueError(f"document_extraction {extraction_id} has no md_content")
+            
+        # 2. Call Gemini LLM to extract key concepts
+        prompt = CHAPTER_PROMPT.format(md_content=md_content)
+        gemini_response = call_gemini(prompt)
+        try:
+            # Clean up the response to extract JSON
+            clean_text = gemini_response.strip()
+            if "```json" in clean_text:
+                clean_text = clean_text.split("```json")[1].split("```")[0].strip()
+            elif "```" in clean_text:
+                clean_text = clean_text.split("```")[1].split("```")[0].strip()
+                
+            parsed_data = json.loads(clean_text)
+        except Exception as e:
+            logger.error(f"Failed to parse gemini JSON: {e}")
+            parsed_data = {}
+        
+        # Ensure we have the right structure
+        key_concepts = parsed_data.get("key_concepts", [])
+        key_concepts_json = json.dumps(key_concepts)
+        
+        # 3. Map unit_id from lms_units based on curriculum matches
+        unit_id = None
+        std_id = row.get("standard_id")
+        sub_id = row.get("subject_id")
+        
+        if std_id and sub_id:
+            # Find curriculums matching the same standard and subject
+            curriculums = db.execute(
+                text("SELECT id FROM lms_curriculum WHERE standard_id = :std_id AND subject_id = :sub_id"), 
+                {"std_id": std_id, "sub_id": sub_id}
+            ).fetchall()
+            
+            if curriculums:
+                curr_ids = [c[0] for c in curriculums]
+                # Format IN clause parameters safely
+                in_clause = ",".join(map(str, curr_ids))
+                units = db.execute(
+                    text(f"SELECT id, unit_chapters FROM lms_units WHERE curriculum_id IN ({in_clause})")
+                ).mappings().fetchall()
+                
+                # Check unit_chapters for the chapter name
+                for u in units:
+                    try:
+                        u_chapters_str = u["unit_chapters"]
+                        if not u_chapters_str:
+                            continue
+                        chapters_list = json.loads(u_chapters_str)
+                        # Case insensitive match checking if our extracted chapter_name is in the curriculum's chapter list
+                        if any(chapter_name.lower() in str(c).lower() or str(c).lower() in chapter_name.lower() for c in chapters_list):
+                            unit_id = u["id"]
+                            break
+                    except Exception as e:
+                        logger.warning(f"Failed to parse unit_chapters for unit_id {u['id']}: {e}")
+                        
+        # 4. Insert or Update chapter_master
+        existing = db.execute(
+            text("SELECT id FROM chapter_master WHERE extraction_id = :id"), 
+            {"id": extraction_id}
+        ).fetchone()
+        
+        if existing:
+            db.execute(text("""
+                UPDATE chapter_master SET 
+                    sub_institute_id = :sub_inst,
+                    subject_id = :sub_id,
+                    standard_id = :std_id,
+                    unit_id = :unit_id,
+                    chapter_name = :cname,
+                    key_concepts = :kconcepts,
+                    syear = :syear,
+                    updated_at = NOW()
+                WHERE extraction_id = :id
+            """), {
+                "sub_inst": row.get("sub_institute_id"),
+                "sub_id": row.get("subject_id"),
+                "std_id": row.get("standard_id"),
+                "unit_id": unit_id,
+                "cname": chapter_name,
+                "kconcepts": key_concepts_json,
+                "syear": row.get("syear"),
+                "id": extraction_id
+            })
+            db.commit()
+            return {
+                "status": "success", 
+                "action": "updated", 
+                "chapter_master_id": existing[0], 
+                "unit_id_mapped": unit_id,
+                "key_concepts_extracted": len(key_concepts)
+            }
+        else:
+            res = db.execute(text("""
+                INSERT INTO chapter_master (
+                    sub_institute_id, subject_id, standard_id, extraction_id, unit_id,
+                    chapter_name, key_concepts, syear, created_at, updated_at
+                ) VALUES (
+                    :sub_inst, :sub_id, :std_id, :id, :unit_id,
+                    :cname, :kconcepts, :syear, NOW(), NOW()
+                )
+            """), {
+                "sub_inst": row.get("sub_institute_id"),
+                "sub_id": row.get("subject_id"),
+                "std_id": row.get("standard_id"),
+                "id": extraction_id,
+                "unit_id": unit_id,
+                "cname": chapter_name,
+                "kconcepts": key_concepts_json,
+                "syear": row.get("syear")
+            })
+            db.commit()
+            return {
+                "status": "success", 
+                "action": "inserted", 
+                "chapter_master_id": res.lastrowid, 
+                "unit_id_mapped": unit_id,
+                "key_concepts_extracted": len(key_concepts)
+            }
+
+def get_chapter_data_by_extraction_id(extraction_id: int):
+    with SessionLocal() as db:
+        chp = db.execute(
+            text("SELECT * FROM chapter_master WHERE extraction_id = :id"), 
+            {"id": extraction_id}
+        ).mappings().fetchone()
+        
+        if not chp:
+            return None
+            
+        unit_name = None
+        if chp.get("unit_id"):
+            u = db.execute(text("SELECT name FROM lms_units WHERE id = :uid"), {"uid": chp["unit_id"]}).mappings().fetchone()
+            if u:
+                unit_name = u["name"]
+                
+        # Parse key_concepts back to JSON for frontend
+        concepts = []
+        try:
+            if chp.get("key_concepts"):
+                concepts = json.loads(chp["key_concepts"])
+        except:
+            pass
+            
+        return {
+            "chapter_master_id": chp["id"],
+            "unit_id": chp["unit_id"],
+            "unit_name": unit_name,
+            "chapter_name": chp["chapter_name"],
+            "syear": chp["syear"],
+            "key_concepts": concepts
+        }
+
+def get_all_chapters() -> list[dict[str, Any]]:
+    with SessionLocal() as db:
+        query = text("""
+            SELECT d.id, d.document_tittle, d.subject_name, d.standard, d.syear, d.chapter_number, d.created_at,
+                   IF(c.id IS NOT NULL, TRUE, FALSE) as is_processed
+            FROM document_extractions d
+            LEFT JOIN chapter_master c ON d.id = c.extraction_id
+            WHERE LOWER(d.document_type) = 'chapter'
+            ORDER BY d.id DESC
+        """)
+        rows = db.execute(query).mappings().fetchall()
+        return [dict(row) for row in rows]

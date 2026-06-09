@@ -40,6 +40,7 @@ from app.services.mineru_service import (
     extract_pdf,
 )
 from app.services.curriculum_service import process_curriculum_by_id, get_all_curriculums, get_curriculum_data_by_extraction_id
+from app.services.chapter_service import process_chapter_by_id, get_chapter_data_by_extraction_id, get_all_chapters
 from app.services.pdf_service import PDFDownloadError, download_pdf
 from app.utils.config import settings
 from app.utils.file_utils import (
@@ -417,7 +418,7 @@ async def upload_ncert_pdf(
     tags=["Curriculum Processing"],
     summary="List all curriculums in document_extractions",
 )
-async def list_curriculums() -> list[dict[str, Any]]:
+def list_curriculums() -> list[dict[str, Any]]:
     return get_all_curriculums()
 
 @router.post(
@@ -440,7 +441,7 @@ async def process_curriculum(extraction_id: int) -> dict[str, Any]:
     tags=["Curriculum Processing"],
     summary="Fetch the lms_curriculum and lms_units data for a processed extraction",
 )
-async def get_curriculum_result(extraction_id: int) -> dict[str, Any]:
+def get_curriculum_result(extraction_id: int) -> dict[str, Any]:
     try:
         data = get_curriculum_data_by_extraction_id(extraction_id)
         if not data:
@@ -450,4 +451,45 @@ async def get_curriculum_result(extraction_id: int) -> dict[str, Any]:
         raise
     except Exception as exc:
         logger.exception("Failed to fetch curriculum result")
+        raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}")
+
+
+@router.get(
+    "/chapters",
+    tags=["Chapter Processing"],
+    summary="List all chapters in document_extractions",
+)
+def list_chapters() -> list[dict[str, Any]]:
+    return get_all_chapters()
+
+@router.post(
+    "/chapters/{extraction_id}/process",
+    tags=["Chapter Processing"],
+    summary="Process a chapter using Gemini and populate chapter_master",
+)
+async def process_chapter(extraction_id: int) -> dict[str, Any]:
+    try:
+        result = await asyncio.to_thread(process_chapter_by_id, extraction_id)
+        return result
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    except Exception as exc:
+        logger.exception("Failed to process chapter")
+        raise HTTPException(status_code=500, detail=f"Processing failed: {exc}")
+
+@router.get(
+    "/chapters/{extraction_id}/result",
+    tags=["Chapter Processing"],
+    summary="Fetch the chapter_master data for a processed extraction",
+)
+def get_chapter_result(extraction_id: int) -> dict[str, Any]:
+    try:
+        data = get_chapter_data_by_extraction_id(extraction_id)
+        if not data:
+            raise HTTPException(status_code=404, detail="Chapter data not found")
+        return data
+    except HTTPException:
+        raise
+    except Exception as exc:
+        logger.exception("Failed to fetch chapter result")
         raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}")

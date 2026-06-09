@@ -1,5 +1,7 @@
 import { CurriculumTableFill } from "@/components/curriculum-table-fill"
+import { ChapterTableFill } from "@/components/chapter-table-fill"
 import { ExternalLink, FileText, ArrowLeft } from "lucide-react"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export default function TableFillPage() {
   return (
@@ -33,7 +35,20 @@ export default function TableFillPage() {
       </header>
 
       <main className="mx-auto flex w-full max-w-screen-2xl flex-1 flex-col gap-6 p-4 pt-28 lg:p-6 lg:pt-28 relative z-10">
-        <CurriculumTableFill />
+        <Tabs defaultValue="curriculum" className="w-full">
+          <div className="flex justify-center mb-6">
+            <TabsList className="bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10 rounded-full p-1 inline-flex h-12 items-center justify-center">
+              <TabsTrigger value="curriculum" className="rounded-full px-8 py-2 text-sm font-medium transition-all duration-300 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm">Curriculum Queue</TabsTrigger>
+              <TabsTrigger value="chapter" className="rounded-full px-8 py-2 text-sm font-medium transition-all duration-300 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm">Chapters Queue</TabsTrigger>
+            </TabsList>
+          </div>
+          <TabsContent value="curriculum" className="mt-0 focus-visible:outline-none">
+            <CurriculumTableFill />
+          </TabsContent>
+          <TabsContent value="chapter" className="mt-0 focus-visible:outline-none">
+            <ChapterTableFill />
+          </TabsContent>
+        </Tabs>
       </main>
 
       <footer className="mt-auto border-t-[0.5px] border-black/5 dark:border-white/10 bg-white/30 dark:bg-black/30 backdrop-blur-[24px] saturate-150 py-4 relative z-10 shrink-0">

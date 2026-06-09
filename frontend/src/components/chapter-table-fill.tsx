@@ -14,12 +14,12 @@ interface CurriculumRecord {
   subject_name: string
   standard: number
   syear: string
-  board: string
+  chapter_number: string
   created_at: string
   is_processed: boolean
 }
 
-export function CurriculumTableFill() {
+export function ChapterTableFill() {
   const [records, setRecords] = useState<CurriculumRecord[]>([])
   const [loading, setLoading] = useState(false)
   const [processingId, setProcessingId] = useState<number | null>(null)
@@ -30,7 +30,7 @@ export function CurriculumTableFill() {
   const fetchRecords = async () => {
     setLoading(true)
     try {
-      const res = await fetch("http://localhost:8000/api/curriculums")
+      const res = await fetch("http://localhost:8000/api/chapters")
       if (res.ok) {
         const data = await res.json()
         setRecords(data)
@@ -51,7 +51,7 @@ export function CurriculumTableFill() {
     setProcessingId(extractionId)
     setResult(null)
     try {
-      const res = await fetch(`http://localhost:8000/api/curriculums/${extractionId}/process`, {
+      const res = await fetch(`http://localhost:8000/api/chapters/${extractionId}/process`, {
         method: 'POST'
       })
       const data = await res.json()
@@ -81,13 +81,13 @@ export function CurriculumTableFill() {
     setProcessingId(extractionId)
     setResult(null)
     try {
-      const res = await fetch(`http://localhost:8000/api/curriculums/${extractionId}/result`, { cache: 'no-store' })
+      const res = await fetch(`http://localhost:8000/api/chapters/${extractionId}/result`, { cache: 'no-store' })
       if (res.ok) {
         const data = await res.json()
         setResult({
           status: "view_only",
-          curriculum_id: data.curriculum_id,
-          extracted_data: data.extracted_data
+          chapter_master_id: data.chapter_master_id,
+          chapter_data: data
         })
       } else {
         const data = await res.json()
@@ -109,14 +109,14 @@ export function CurriculumTableFill() {
         <tr className="bg-yellow-50/50 dark:bg-yellow-900/10">
           <td colSpan={7} className="p-6 border-b border-black/5 dark:border-white/5">
             <div className="p-4 bg-yellow-50 text-yellow-800 rounded-md border border-yellow-200">
-              This curriculum was already processed and exists in lms_curriculum (ID: {result.curriculum_id}).
+              This chapter was already processed and exists in chapter_master (ID: {result.chapter_master_id}).
             </div>
           </td>
         </tr>
       )
     }
 
-    const { curriculum_id, extracted_data, status } = result
+    const { chapter_master_id, chapter_data, status } = result
     return (
       <tr className="bg-black/[0.02] dark:bg-white/[0.02] shadow-inner">
         <td colSpan={7} className="p-6 border-b border-black/5 dark:border-white/5">
@@ -124,91 +124,54 @@ export function CurriculumTableFill() {
             {status === "view_only" ? (
               <div className="p-4 bg-blue-50/80 text-blue-800 rounded-md border border-blue-200 font-medium flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
-                Viewing Extracted LMS Data for Curriculum ID: {curriculum_id}
+                Viewing Extracted Chapter Data (ID: {chapter_master_id})
               </div>
             ) : (
               <div className="p-4 bg-green-50/80 text-green-800 rounded-md border border-green-200 flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                Successfully filled lms_curriculum (ID: {curriculum_id}) and lms_units!
+                Successfully filled chapter_master (ID: {result.chapter_master_id})!
               </div>
             )}
 
             <div className="grid grid-cols-1 gap-6 pb-4">
               <div className="rounded-xl border border-black/10 bg-white/60 dark:bg-black/60 overflow-hidden backdrop-blur-md">
-                <div className="bg-black/5 px-4 py-3 font-semibold text-sm border-b border-black/10">LMS Curriculum Overview</div>
+                <div className="bg-black/5 px-4 py-3 font-semibold text-sm border-b border-black/10">Chapter Summary</div>
                 <table className="min-w-full text-sm">
                   <thead className="bg-black/5">
                       <tr>
-                        <th className="border-b border-black/5 p-3 text-left font-medium">Framework</th>
-                        <th className="border-b border-black/5 p-3 text-left font-medium">Total Marks</th>
-                        <th className="border-b border-black/5 p-3 text-left font-medium">Internal Marks</th>
+                        <th className="border-b border-black/5 p-3 text-left font-medium">Mapped Unit</th>
+                        <th className="border-b border-black/5 p-3 text-left font-medium">Chapter Name</th>
+                        <th className="border-b border-black/5 p-3 text-left font-medium">Academic Year</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td className="p-3 font-medium min-w-[120px]">{extracted_data?.framework || "-"}</td>
-                        <td className="p-3 min-w-[100px]">{extracted_data?.total_marks || "-"}</td>
-                        <td className="p-3 min-w-[100px]">{extracted_data?.internal_marks || "-"}</td>
+                        <td className="p-3 font-medium min-w-[120px]">
+                          {chapter_data?.unit_name ? `${chapter_data.unit_name} (ID: ${chapter_data.unit_id})` : <span className="text-amber-600">Unmapped (No Match in Units)</span>}
+                        </td>
+                        <td className="p-3 min-w-[100px] font-semibold">{chapter_data?.chapter_name || "-"}</td>
+                        <td className="p-3 min-w-[100px]">{chapter_data?.syear || "-"}</td>
                       </tr>
                     </tbody>
                 </table>
               </div>
 
               <div className="rounded-xl border border-black/10 bg-white/60 dark:bg-black/60 overflow-hidden backdrop-blur-md">
-                <div className="bg-black/5 px-4 py-3 font-semibold text-sm border-b border-black/10">LMS Units Breakup</div>
-                <table className="min-w-full text-sm">
-                  <thead className="bg-black/5">
-                    <tr>
-                      <th className="border-b border-black/5 p-3 text-left font-medium w-16">Unit No.</th>
-                      <th className="border-b border-black/5 p-3 text-left font-medium w-48">Name / Title</th>
-                      <th className="border-b border-black/5 p-3 text-left font-medium">Chapters Included</th>
-                      <th className="border-b border-black/5 p-3 text-left font-medium w-24">Periods</th>
-                      <th className="border-b border-black/5 p-3 text-left font-medium w-20">Marks</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {extracted_data?.units?.map((u: any, idx: number) => {
-                      // Handle parsing unit_chapters if it's a string from the DB
-                      let chapters: string[] = []
-                      if (Array.isArray(u.unit_chapters)) {
-                        chapters = u.unit_chapters
-                      } else if (typeof u.unit_chapters === 'string') {
-                        try {
-                          chapters = JSON.parse(u.unit_chapters)
-                        } catch (e) {
-                          chapters = []
-                        }
-                      }
-                      
-                      return (
-                        <tr key={idx} className="hover:bg-white/40 border-b border-black/5 last:border-0 transition-colors">
-                          <td className="p-3 font-medium text-foreground/80">{u.unit_number}</td>
-                          <td className="p-3 font-medium">{u.name}</td>
-                          <td className="p-3">
-                            {chapters.length > 0 ? (
-                              <div className="flex flex-wrap gap-1.5">
-                                {chapters.map((chapter, cIdx) => (
-                                  <span key={cIdx} className="inline-flex items-center px-2 py-0.5 rounded-md bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/5 text-xs text-foreground/70">
-                                    {chapter}
-                                  </span>
-                                ))}
-                              </div>
-                            ) : (
-                              <span className="text-muted-foreground/50 text-xs italic">No chapters listed</span>
-                            )}
-                          </td>
-                          <td className="p-3">{u.planned_periods ?? u.planned_period ?? "-"}</td>
-                          <td className="p-3 font-semibold text-foreground/80">{u.total_marks ?? "-"}</td>
-                        </tr>
-                      )
-                    })}
-                    {(!extracted_data?.units || extracted_data.units.length === 0) && (
-                      <tr>
-                        <td colSpan={5} className="p-4 text-center text-muted-foreground/50">No units extracted</td>
-                      </tr>
-                    )}
-                  </tbody>
-                </table>
+                <div className="bg-black/5 px-4 py-3 font-semibold text-sm border-b border-black/10">Extracted Key Concepts</div>
+                <div className="p-4 bg-white/40 dark:bg-black/40">
+                  {chapter_data?.key_concepts && chapter_data.key_concepts.length > 0 ? (
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                      {chapter_data.key_concepts.map((concept: any, idx: number) => (
+                        <div key={idx} className="p-4 rounded-xl border border-black/5 dark:border-white/5 bg-white dark:bg-black/50 shadow-sm hover:shadow-md transition-shadow">
+                          <div className="font-semibold text-foreground/90 mb-1.5">{concept.name}</div>
+                          <div className="text-xs text-foreground/70 leading-relaxed">{concept.description}</div>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="text-center text-muted-foreground/50 py-4 italic">No key concepts extracted.</div>
+                  )}
+                </div>
               </div>
             </div>
           </div>
@@ -221,9 +184,9 @@ export function CurriculumTableFill() {
     <div className="w-full max-w-6xl mx-auto rounded-[2rem] border-[0.5px] border-black/10 dark:border-white/20 bg-white/40 dark:bg-black/40 backdrop-blur-[40px] saturate-200 shadow-[0_8px_32px_0_rgba(0,0,0,0.1)] p-6 md:p-10 relative overflow-hidden before:absolute before:inset-0 before:-z-10 before:rounded-[2rem] before:bg-gradient-to-br before:from-white/40 before:to-transparent before:opacity-50 dark:before:from-white/10 dark:before:to-transparent">
       
       <div className="mb-8">
-        <h2 className="text-3xl font-bold tracking-tight text-foreground/90">LMS Data Filler Module</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-foreground/90">Chapter Data Filler Module</h2>
         <p className="text-muted-foreground/70 mt-2 text-sm max-w-2xl">
-          Process extracted curriculum markdown using Gemini to automatically populate the lms_curriculum and lms_units tables with AI-driven intelligence.
+          Process extracted chapter markdown using Gemini to automatically populate the chapter_master table and map it to units natively.
         </p>
       </div>
 
@@ -241,7 +204,7 @@ export function CurriculumTableFill() {
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
             <h3 className="text-xl font-medium text-foreground/80 flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-blue-500 animate-pulse"></span>
-              Curriculum Documents Queue
+              Chapter Documents Queue
             </h3>
             <Button 
               onClick={fetchRecords} 
@@ -263,7 +226,7 @@ export function CurriculumTableFill() {
                     <th className="px-5 py-4 font-medium border-b border-black/5 dark:border-white/5">Document Title</th>
                     <th className="px-5 py-4 font-medium border-b border-black/5 dark:border-white/5">Subject</th>
                     <th className="px-5 py-4 font-medium border-b border-black/5 dark:border-white/5">Standard</th>
-                    <th className="px-5 py-4 font-medium border-b border-black/5 dark:border-white/5">Board</th>
+                    <th className="px-5 py-4 font-medium border-b border-black/5 dark:border-white/5">Ch. No.</th>
                     <th className="px-5 py-4 font-medium border-b border-black/5 dark:border-white/5">Status</th>
                     <th className="px-5 py-4 font-medium border-b border-black/5 dark:border-white/5 text-right">Action</th>
                   </tr>
@@ -280,7 +243,7 @@ export function CurriculumTableFill() {
                             {r.standard || "-"}
                           </span>
                         </td>
-                        <td className="px-5 py-3 text-foreground/70">{r.board || "-"}</td>
+                        <td className="px-5 py-3 text-foreground/70 font-semibold">{r.chapter_number || "-"}</td>
                         <td className="px-5 py-3">
                           {r.is_processed ? (
                             <Badge variant="secondary" className="bg-green-500/10 text-green-700 dark:text-green-400 border border-green-500/20 hover:bg-green-500/20 rounded-full px-2.5">

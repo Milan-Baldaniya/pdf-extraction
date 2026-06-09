@@ -1,14 +1,7 @@
-"use client";
+import { CurriculumTableFill } from "@/components/curriculum-table-fill"
+import { ExternalLink, FileText, ArrowLeft } from "lucide-react"
 
-import { useState } from "react";
-import type { ExtractionResponse } from "@/lib/api";
-import { ExtractionForm } from "@/components/extraction-form";
-import { ExtractionViewer } from "@/components/extraction-viewer";
-import { Cpu, ExternalLink, FileText } from "lucide-react";
-
-export default function HomePage() {
-  const [extraction, setExtraction] = useState<ExtractionResponse | null>(null);
-
+export default function TableFillPage() {
   return (
     <div className="flex h-[100dvh] max-h-[100dvh] flex-col bg-background relative overflow-hidden">
       {/* iOS Liquid Glass Background */}
@@ -29,51 +22,26 @@ export default function HomePage() {
 
           <div className="flex items-center gap-3">
             <a
-              href="/table-fill"
+              href="/"
               className="flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm font-medium text-foreground/70 bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10 hover:text-foreground transition-all border-[0.5px] border-transparent hover:border-black/10 dark:hover:border-white/10"
             >
-              LMS Table Fill
-            </a>
-            <a
-              href="https://github.com/opendatalab/MinerU"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm font-medium text-foreground/70 bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10 hover:text-foreground transition-all border-[0.5px] border-transparent hover:border-black/10 dark:hover:border-white/10"
-            >
-              MinerU Pipeline
-              <ExternalLink className="h-3.5 w-3.5" />
+              <ArrowLeft className="h-3.5 w-3.5" />
+              Back to Home
             </a>
           </div>
         </div>
       </header>
 
-      <main className={`mx-auto flex w-full max-w-screen-2xl flex-1 flex-col lg:flex-row gap-0 p-4 pt-24 lg:gap-6 lg:p-6 lg:pt-24 relative z-10 min-h-0 ${!extraction ? 'items-center justify-center' : ''}`}>
-        <aside
-          className={`shrink-0 transition-all duration-500 ease-out flex flex-col min-h-0 h-full ${
-            extraction
-              ? "w-full lg:w-[380px] xl:w-[420px]"
-              : "w-full max-w-2xl"
-          }`}
-        >
-          <ExtractionForm onSuccess={(data) => setExtraction(data)} />
-        </aside>
-
-        {extraction && (
-          <section className="mt-6 min-w-0 flex-1 lg:mt-0 flex flex-col min-h-0 h-full">
-            <ExtractionViewer
-              data={extraction}
-              onReset={() => setExtraction(null)}
-            />
-          </section>
-        )}
+      <main className="mx-auto flex w-full max-w-screen-2xl flex-1 flex-col gap-6 p-4 pt-28 lg:p-6 lg:pt-28 relative z-10 min-h-0 overflow-y-auto">
+        <CurriculumTableFill />
       </main>
 
-      <footer className="border-t-[0.5px] border-black/5 dark:border-white/10 bg-white/30 dark:bg-black/30 backdrop-blur-[24px] saturate-150 py-4 relative z-10">
+      <footer className="mt-auto border-t-[0.5px] border-black/5 dark:border-white/10 bg-white/30 dark:bg-black/30 backdrop-blur-[24px] saturate-150 py-4 relative z-10 shrink-0">
         <div className="mx-auto flex max-w-screen-2xl items-center justify-between px-4 text-xs text-muted-foreground/50 lg:px-8">
           <span>Educational PDF Intelligence</span>
           <span>MinerU CPU Pipeline</span>
         </div>
       </footer>
     </div>
-  );
+  )
 }

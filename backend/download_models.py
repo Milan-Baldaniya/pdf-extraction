@@ -35,7 +35,7 @@ home_dir = Path(os.path.expanduser("~"))
 config_path = home_dir / "magic-pdf.json"
 
 config_data = {
-    "models-dir": str(models_dir),
+    "models-dir": str(models_dir / "models"),
     "device-mode": "cpu",
     "layoutreader-model-dir": str(layoutreader_dir),
     "layout-config": {

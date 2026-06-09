@@ -73,9 +73,7 @@ def call_gemini(prompt: str, max_retries: int = 15) -> dict[str, Any]:
         response_mime_type="application/json",
     )
 
-    # dynamically adjust max_retries based on number of available keys to ensure we can try all of them
-    keys_count = len(_get_api_keys())
-    actual_max_retries = max(max_retries, keys_count + 2)
+    actual_max_retries = 2
 
     for attempt in range(actual_max_retries):
         current_model = _get_model()
@@ -100,38 +98,11 @@ def call_gemini(prompt: str, max_retries: int = 15) -> dict[str, Any]:
         except json.JSONDecodeError:
             if attempt == actual_max_retries - 1:
                 raise
-            time.sleep(2 ** attempt)
+            time.sleep(1)
         except Exception as exc:
-            import re
-            error_msg = str(exc)
-            
-            if "429" in error_msg or "quota" in error_msg.lower():
-                # Only attempt to switch keys if we haven't already tried all of them for this request
-                keys_count = len(_get_api_keys())
-                if attempt < keys_count and _switch_api_key(current_model):
-                    print("Retrying immediately with new API key...")
-                    time.sleep(1)
-                    continue
-
-                if attempt == actual_max_retries - 1:
-                    raise RuntimeError(
-                        f"Gemini API call failed after {actual_max_retries} retries: {exc}"
-                    ) from exc
-
-                # Try to parse the suggested retry delay
-                match = re.search(r"retry in (\d+\.?\d*)s", error_msg)
-                if match:
-                    sleep_time = float(match.group(1)) + 1.0
-                else:
-                    sleep_time = 60.0
-                print(f"Rate limit hit on all keys. Retrying in {sleep_time:.1f} seconds...")
-                time.sleep(sleep_time)
-            else:
-                if attempt == actual_max_retries - 1:
-                    raise RuntimeError(
-                        f"Gemini API call failed after {actual_max_retries} retries: {exc}"
-                    ) from exc
-                time.sleep(6)
+            if attempt == actual_max_retries - 1:
+                raise RuntimeError(f"Gemini API call failed: {exc}") from exc
+            time.sleep(1)
 
     raise RuntimeError("Failed to call Gemini")
 

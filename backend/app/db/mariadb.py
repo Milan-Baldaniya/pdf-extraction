@@ -43,6 +43,11 @@ class DocumentExtraction(Base):
     image_extracted = Column(Integer, nullable=True)
     extraction_metadata = Column(LONGTEXT, nullable=True)
 
+    standard_id = Column(Integer, nullable=True)
+    subject_id = Column(Integer, nullable=True)
+    chapter_id = Column(Integer, nullable=True)
+    sub_institute_id = Column(Integer, nullable=True)
+
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), onupdate=func.now())
 
@@ -112,6 +117,32 @@ def _apply_extraction_payload(doc: DocumentExtraction, response: ExtractionRespo
     doc.extraction_metadata = _json_dumps(response.metadata)
 
 
+def _map_ids(db: Session, standard_val: int | None, subject_name_val: str | None, chapter_name_val: str | None, chapter_number_val: int | None) -> tuple[int | None, int | None, int | None]:
+    standard_id = None
+    subject_id = None
+    chapter_id = None
+
+    try:
+        if standard_val is not None:
+            row = db.execute(text("SELECT id FROM standard WHERE name = :name AND subinstitute_id = 1 LIMIT 1"), {"name": str(standard_val)}).fetchone()
+            if row:
+                standard_id = row[0]
+
+        if subject_name_val is not None:
+            row = db.execute(text("SELECT id FROM subject WHERE subject_name = :subject_name AND subinstitute_id = 1 LIMIT 1"), {"subject_name": subject_name_val}).fetchone()
+            if row:
+                subject_id = row[0]
+
+        if chapter_name_val is not None and chapter_number_val is not None:
+            row = db.execute(text("SELECT id FROM chapter_master WHERE chapter_name = :chapter_name AND sort_order = :sort_order AND subinstitute_id = 1 LIMIT 1"), {"chapter_name": chapter_name_val, "sort_order": chapter_number_val}).fetchone()
+            if row:
+                chapter_id = row[0]
+    except Exception as exc:
+        logger.warning("Failed to map IDs: %s", exc)
+
+    return standard_id, subject_id, chapter_id
+
+
 def create_extraction_stub(
     *,
     document_type: str | None,
@@ -129,6 +160,8 @@ def create_extraction_stub(
 
     db = SessionLocal()
     try:
+        standard_id, subject_id, chapter_id = _map_ids(db, standard, subject_name, document_title, chapter_number)
+
         doc = DocumentExtraction(
             document_type=document_type,
             document_tittle=document_title,
@@ -138,6 +171,10 @@ def create_extraction_stub(
             board=board,
             syear=syear,
             pdf_url=pdf_url,
+            standard_id=standard_id,
+            subject_id=subject_id,
+            chapter_id=chapter_id,
+            sub_institute_id=1,
         )
         db.add(doc)
         db.commit()
@@ -179,6 +216,8 @@ def persist_extraction_result(
                 .first()
             )
 
+        standard_id, subject_id, chapter_id = _map_ids(db, standard, subject_name, document_title, chapter_number)
+
         if doc is None:
             doc = DocumentExtraction(
                 document_type=document_type,
@@ -189,8 +228,20 @@ def persist_extraction_result(
                 board=board,
                 syear=syear,
                 pdf_url=pdf_url or "unknown",
+                standard_id=standard_id,
+                subject_id=subject_id,
+                chapter_id=chapter_id,
+                sub_institute_id=1,
             )
             db.add(doc)
+        else:
+            # Update mapped IDs in case they were not mapped during stub creation
+            if standard_id is not None:
+                doc.standard_id = standard_id
+            if subject_id is not None:
+                doc.subject_id = subject_id
+            if chapter_id is not None:
+                doc.chapter_id = chapter_id
 
         _apply_extraction_payload(doc, response)
         db.commit()

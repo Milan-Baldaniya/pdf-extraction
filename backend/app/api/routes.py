@@ -39,6 +39,7 @@ from app.services.mineru_service import (
     MinerUExtractionError,
     extract_pdf,
 )
+from app.services.curriculum_service import process_curriculum_by_id, get_all_curriculums, get_curriculum_data_by_extraction_id
 from app.services.pdf_service import PDFDownloadError, download_pdf
 from app.utils.config import settings
 from app.utils.file_utils import (
@@ -408,6 +409,45 @@ async def upload_ncert_pdf(
             status_code=500,
             detail=f"An unexpected error occurred: {exc}",
         ) from exc
-    finally:
         cleanup_temp_job(settings.temp_dir, job_id)
         await file.close()
+
+@router.get(
+    "/curriculums",
+    tags=["Curriculum Processing"],
+    summary="List all curriculums in document_extractions",
+)
+async def list_curriculums() -> list[dict[str, Any]]:
+    return get_all_curriculums()
+
+@router.post(
+    "/curriculums/{extraction_id}/process",
+    tags=["Curriculum Processing"],
+    summary="Process a curriculum using Gemini and populate lms_curriculum and lms_units",
+)
+async def process_curriculum(extraction_id: int) -> dict[str, Any]:
+    try:
+        result = await asyncio.to_thread(process_curriculum_by_id, extraction_id)
+        return result
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    except Exception as exc:
+        logger.exception("Failed to process curriculum")
+        raise HTTPException(status_code=500, detail=f"Processing failed: {exc}")
+
+@router.get(
+    "/curriculums/{extraction_id}/result",
+    tags=["Curriculum Processing"],
+    summary="Fetch the lms_curriculum and lms_units data for a processed extraction",
+)
+async def get_curriculum_result(extraction_id: int) -> dict[str, Any]:
+    try:
+        data = get_curriculum_data_by_extraction_id(extraction_id)
+        if not data:
+            raise HTTPException(status_code=404, detail="Curriculum data not found")
+        return data
+    except HTTPException:
+        raise
+    except Exception as exc:
+        logger.exception("Failed to fetch curriculum result")
+        raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}")

@@ -3,7 +3,7 @@ import { ExternalLink, FileText, ArrowLeft } from "lucide-react"
 
 export default function TableFillPage() {
   return (
-    <div className="flex h-[100dvh] max-h-[100dvh] flex-col bg-background relative overflow-hidden">
+    <div className="flex min-h-screen flex-col bg-background relative overflow-hidden">
       {/* iOS Liquid Glass Background */}
       <div className="absolute top-[-15%] left-[-10%] w-[50%] h-[50%] rounded-[100%] bg-blue-500/30 dark:bg-blue-600/20 blur-[140px] mix-blend-normal opacity-80 pointer-events-none animate-pulse" />
       <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] rounded-[100%] bg-purple-500/30 dark:bg-purple-600/20 blur-[140px] mix-blend-normal opacity-80 pointer-events-none animate-pulse" style={{ animationDelay: '2s' }} />
@@ -32,7 +32,7 @@ export default function TableFillPage() {
         </div>
       </header>
 
-      <main className="mx-auto flex w-full max-w-screen-2xl flex-1 flex-col gap-6 p-4 pt-28 lg:p-6 lg:pt-28 relative z-10 min-h-0 overflow-y-auto">
+      <main className="mx-auto flex w-full max-w-screen-2xl flex-1 flex-col gap-6 p-4 pt-28 lg:p-6 lg:pt-28 relative z-10">
         <CurriculumTableFill />
       </main>
 

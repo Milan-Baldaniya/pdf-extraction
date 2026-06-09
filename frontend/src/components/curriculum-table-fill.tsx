@@ -255,7 +255,7 @@ export function CurriculumTableFill() {
           </div>
           
           <div className="rounded-2xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/50 backdrop-blur-xl overflow-hidden shadow-inner">
-            <div className="max-h-[70vh] overflow-auto w-full pb-8">
+            <div className="w-full overflow-x-auto pb-8">
               <table className="w-full text-sm text-left">
                 <thead className="bg-black/5 dark:bg-white/5 text-foreground/70 sticky top-0 z-10 backdrop-blur-xl">
                   <tr>

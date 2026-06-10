@@ -25,9 +25,11 @@ Rules you must follow:
 7. Keep each concept name concise (2–6 words). The description should be 1–2 sentences max.
 8. Extract between 5 and 20 key concepts depending on chapter length and complexity.
 9. Output ONLY the JSON object. No other text.
+10. If `Available Units` are provided below, analyze the semantic similarity between the `Chapter Name` / `Chapter Content` and the unit chapters/themes. Return the integer ID of the best matching unit in the `mapped_unit_id` field. If no matching unit is found or the list is empty, return null for `mapped_unit_id`.
 
 Return the JSON in the following format:
 {
+  "mapped_unit_id": 123,
   "key_concepts": [
     {
       "name": "Concept Name",
@@ -35,6 +37,11 @@ Return the JSON in the following format:
     }
   ]
 }
+
+Chapter Name: {chapter_name}
+
+Available Units:
+{available_units}
 
 Chapter Content:
 {md_content}
@@ -59,31 +66,11 @@ def process_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
         if not md_content:
             raise ValueError(f"document_extraction {extraction_id} has no md_content")
             
-        # 2. Call Gemini LLM to extract key concepts
-        prompt = CHAPTER_PROMPT.format(md_content=md_content)
-        gemini_response = call_gemini(prompt)
-        try:
-            # Clean up the response to extract JSON
-            clean_text = gemini_response.strip()
-            if "```json" in clean_text:
-                clean_text = clean_text.split("```json")[1].split("```")[0].strip()
-            elif "```" in clean_text:
-                clean_text = clean_text.split("```")[1].split("```")[0].strip()
-                
-            parsed_data = json.loads(clean_text)
-        except Exception as e:
-            logger.error(f"Failed to parse gemini JSON: {e}")
-            parsed_data = {}
-        
-        # Ensure we have the right structure
-        key_concepts = parsed_data.get("key_concepts", [])
-        key_concepts_json = json.dumps(key_concepts)
-        
-        # 3. Map unit_id from lms_units based on curriculum matches
-        unit_id = None
         std_id = row.get("standard_id")
         sub_id = row.get("subject_id")
         
+        available_units_list = []
+        units = []
         if std_id and sub_id:
             # Find curriculums matching the same standard and subject
             curriculums = db.execute(
@@ -93,25 +80,51 @@ def process_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
             
             if curriculums:
                 curr_ids = [c[0] for c in curriculums]
-                # Format IN clause parameters safely
                 in_clause = ",".join(map(str, curr_ids))
                 units = db.execute(
-                    text(f"SELECT id, unit_chapters FROM lms_units WHERE curriculum_id IN ({in_clause})")
+                    text(f"SELECT id, name, unit_chapters FROM lms_units WHERE curriculum_id IN ({in_clause})")
                 ).mappings().fetchall()
                 
-                # Check unit_chapters for the chapter name
                 for u in units:
                     try:
                         u_chapters_str = u["unit_chapters"]
-                        if not u_chapters_str:
-                            continue
-                        chapters_list = json.loads(u_chapters_str)
-                        # Case insensitive match checking if our extracted chapter_name is in the curriculum's chapter list
-                        if any(chapter_name.lower() in str(c).lower() or str(c).lower() in chapter_name.lower() for c in chapters_list):
-                            unit_id = u["id"]
-                            break
+                        chapters_list = json.loads(u_chapters_str) if u_chapters_str else []
+                        available_units_list.append({
+                            "unit_id": u["id"],
+                            "unit_name": u["name"],
+                            "chapters_in_this_unit": chapters_list
+                        })
                     except Exception as e:
                         logger.warning(f"Failed to parse unit_chapters for unit_id {u['id']}: {e}")
+                        
+        available_units_str = json.dumps(available_units_list, indent=2) if available_units_list else "[]"
+
+        # 2. Call Gemini LLM to extract key concepts and map unit
+        prompt = CHAPTER_PROMPT.replace("{md_content}", md_content).replace("{available_units}", available_units_str).replace("{chapter_name}", chapter_name)
+        gemini_response = call_gemini(prompt)
+        parsed_data = gemini_response
+        
+        # Ensure we have the right structure
+        data_dict = parsed_data.get("data", parsed_data)
+        key_concepts = data_dict.get("key_concepts", [])
+        key_concepts_json = json.dumps(key_concepts)
+        
+        # 3. Map unit_id
+        unit_id = data_dict.get("mapped_unit_id")
+        
+        # fallback to simple string matching if Gemini fails
+        if not unit_id and units:
+            for u in units:
+                try:
+                    u_chapters_str = u["unit_chapters"]
+                    if not u_chapters_str:
+                        continue
+                    chapters_list = json.loads(u_chapters_str)
+                    if any(chapter_name.lower() in str(c).lower() or str(c).lower() in chapter_name.lower() for c in chapters_list):
+                        unit_id = u["id"]
+                        break
+                except Exception:
+                    pass
                         
         # 4. Insert or Update chapter_master
         existing = db.execute(
@@ -147,7 +160,8 @@ def process_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
                 "action": "updated", 
                 "chapter_master_id": existing[0], 
                 "unit_id_mapped": unit_id,
-                "key_concepts_extracted": len(key_concepts)
+                "key_concepts_extracted": len(key_concepts),
+                "chapter_data": get_chapter_data_by_extraction_id(extraction_id)
             }
         else:
             res = db.execute(text("""
@@ -174,7 +188,8 @@ def process_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
                 "action": "inserted", 
                 "chapter_master_id": res.lastrowid, 
                 "unit_id_mapped": unit_id,
-                "key_concepts_extracted": len(key_concepts)
+                "key_concepts_extracted": len(key_concepts),
+                "chapter_data": get_chapter_data_by_extraction_id(extraction_id)
             }
 
 def get_chapter_data_by_extraction_id(extraction_id: int):
@@ -214,9 +229,8 @@ def get_all_chapters() -> list[dict[str, Any]]:
     with SessionLocal() as db:
         query = text("""
             SELECT d.id, d.document_tittle, d.subject_name, d.standard, d.syear, d.chapter_number, d.created_at,
-                   IF(c.id IS NOT NULL, TRUE, FALSE) as is_processed
+                   EXISTS(SELECT 1 FROM chapter_master c WHERE c.extraction_id = d.id) as is_processed
             FROM document_extractions d
-            LEFT JOIN chapter_master c ON d.id = c.extraction_id
             WHERE LOWER(d.document_type) = 'chapter'
             ORDER BY d.id DESC
         """)

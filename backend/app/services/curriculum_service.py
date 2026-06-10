@@ -26,7 +26,7 @@ You are an expert educational data extractor.
 Analyze the following curriculum document text and extract the overall framework and marks, as well as the list of units.
 
 Rules:
-- "framework": e.g., "NCF-2023", "NCF-2005", "CBSE", etc. (string)
+- "framework": e.g., "NCF-2023" etc. (string)
 - "total_marks": overall marks for the curriculum (integer, usually 100 or 80)
 - "internal_marks": internal assessment marks (integer, usually 20)
 - "units": A list of objects representing the chapters/units in the curriculum.
@@ -172,9 +172,8 @@ def get_all_curriculums():
     with SessionLocal() as db:
         query = text("""
             SELECT d.id, d.document_tittle, d.subject_name, d.standard, d.syear, d.board, d.created_at,
-                   IF(c.id IS NOT NULL, TRUE, FALSE) as is_processed
+                   EXISTS(SELECT 1 FROM lms_curriculum c WHERE c.extraction_id = d.id) as is_processed
             FROM document_extractions d
-            LEFT JOIN lms_curriculum c ON d.id = c.extraction_id
             WHERE LOWER(d.document_type) = 'curriculum'
             ORDER BY d.id DESC
         """)

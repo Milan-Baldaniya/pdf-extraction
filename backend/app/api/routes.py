@@ -41,6 +41,7 @@ from app.services.mineru_service import (
 )
 from app.services.curriculum_service import process_curriculum_by_id, get_all_curriculums, get_curriculum_data_by_extraction_id
 from app.services.chapter_service import process_chapter_by_id, get_chapter_data_by_extraction_id, get_all_chapters
+from app.services.semantic_intelligence_service import get_all_semantic_chapters, process_semantic_chapter_by_id, get_semantic_data_by_extraction_id
 from app.services.pdf_service import PDFDownloadError, download_pdf
 from app.utils.config import settings
 from app.utils.file_utils import (
@@ -492,4 +493,44 @@ def get_chapter_result(extraction_id: int) -> dict[str, Any]:
         raise
     except Exception as exc:
         logger.exception("Failed to fetch chapter result")
+        raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}")
+
+@router.get(
+    "/semantic-intelligence",
+    tags=["Semantic Intelligence"],
+    summary="List all chapters for semantic intelligence processing",
+)
+def list_semantic_intelligence() -> list[dict[str, Any]]:
+    return get_all_semantic_chapters()
+
+@router.post(
+    "/semantic-intelligence/{extraction_id}/process",
+    tags=["Semantic Intelligence"],
+    summary="Process a chapter using deep semantic intelligence",
+)
+async def process_semantic_intelligence(extraction_id: int) -> dict[str, Any]:
+    try:
+        result = await process_semantic_chapter_by_id(extraction_id)
+        return result
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    except Exception as exc:
+        logger.exception("Failed to process semantic intelligence")
+        raise HTTPException(status_code=500, detail=f"Processing failed: {exc}")
+
+@router.get(
+    "/semantic-intelligence/{extraction_id}/result",
+    tags=["Semantic Intelligence"],
+    summary="Fetch the semantic intelligence data for a processed extraction",
+)
+def get_semantic_intelligence_result(extraction_id: int) -> dict[str, Any]:
+    try:
+        data = get_semantic_data_by_extraction_id(extraction_id)
+        if not data:
+            raise HTTPException(status_code=404, detail="Semantic data not found")
+        return data
+    except HTTPException:
+        raise
+    except Exception as exc:
+        logger.exception("Failed to fetch semantic intelligence result")
         raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}")

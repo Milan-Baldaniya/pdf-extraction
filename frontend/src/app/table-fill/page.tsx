@@ -1,5 +1,6 @@
 import { CurriculumTableFill } from "@/components/curriculum-table-fill"
 import { ChapterTableFill } from "@/components/chapter-table-fill"
+import { SemanticTableFill } from "@/components/semantic-table-fill"
 import { ExternalLink, FileText, ArrowLeft } from "lucide-react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
@@ -24,6 +25,12 @@ export default function TableFillPage() {
 
           <div className="flex items-center gap-3">
             <a
+              href="/schema"
+              className="flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm font-medium text-purple-600 dark:text-purple-400 bg-purple-500/10 hover:bg-purple-500/20 transition-all border-[0.5px] border-purple-500/20"
+            >
+              Schema Visualizer
+            </a>
+            <a
               href="/"
               className="flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm font-medium text-foreground/70 bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10 hover:text-foreground transition-all border-[0.5px] border-transparent hover:border-black/10 dark:hover:border-white/10"
             >
@@ -40,6 +47,7 @@ export default function TableFillPage() {
             <TabsList className="bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10 rounded-full p-1 inline-flex h-12 items-center justify-center">
               <TabsTrigger value="curriculum" className="rounded-full px-8 py-2 text-sm font-medium transition-all duration-300 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm">Curriculum Queue</TabsTrigger>
               <TabsTrigger value="chapter" className="rounded-full px-8 py-2 text-sm font-medium transition-all duration-300 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm">Chapters Queue</TabsTrigger>
+              <TabsTrigger value="semantic" className="rounded-full px-8 py-2 text-sm font-medium transition-all duration-300 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm">Semantic Intelligence</TabsTrigger>
             </TabsList>
           </div>
           <TabsContent value="curriculum" className="mt-0 focus-visible:outline-none">
@@ -47,6 +55,9 @@ export default function TableFillPage() {
           </TabsContent>
           <TabsContent value="chapter" className="mt-0 focus-visible:outline-none">
             <ChapterTableFill />
+          </TabsContent>
+          <TabsContent value="semantic" className="mt-0 focus-visible:outline-none">
+            <SemanticTableFill />
           </TabsContent>
         </Tabs>
       </main>

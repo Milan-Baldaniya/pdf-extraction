@@ -71,6 +71,8 @@ def call_gemini(prompt: str, max_retries: int = 15) -> dict[str, Any]:
     generation_config = genai.types.GenerationConfig(
         temperature=0.2,
         response_mime_type="application/json",
+        frequency_penalty=0.0,
+        presence_penalty=0.0
     )
 
     actual_max_retries = 2

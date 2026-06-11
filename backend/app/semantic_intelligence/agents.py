@@ -1,6 +1,7 @@
 import os
 import asyncio
 import json
+import random
 import google.generativeai as genai
 from pydantic import BaseModel
 from typing import List
@@ -11,10 +12,10 @@ from .schemas import (
     Concept, KnowledgeItem, AbilityItem, SkillItem, CompetencyItem, 
     BloomMapping, DOKMapping, Prerequisite, Misconception, RealWorldApplication, 
     PedagogyRecommendation, ConceptRelationship, LearningObjective, 
-    LearningOutcome, AssessmentBlueprint, Evidence, ConceptIntelligenceObject
+    LearningOutcome, AssessmentBlueprint, Evidence
 )
 
-load_dotenv()
+load_dotenv(override=True)
 
 # ==========================================================
 # PARTIAL SCHEMAS FOR AGENTS
@@ -52,18 +53,22 @@ class Agent3AssessmentOutput(BaseModel):
 
 class IntelligenceSwarm:
     def __init__(self):
-        # Bind specific keys to specific agents to bypass Free Tier RPM limits
-        # Fallback to main key if specific keys aren't added to .env yet
-        key_1 = os.getenv("GEMINI_API_KEY_AGENT_1") or os.getenv("GEMINI_API_KEY")
-        key_2 = os.getenv("GEMINI_API_KEY_AGENT_2") or os.getenv("GEMINI_API_KEY")
-        key_3 = os.getenv("GEMINI_API_KEY_AGENT_3") or os.getenv("GEMINI_API_KEY")
+        # Reload keys dynamically so live edits to .env take effect immediately
+        load_dotenv(override=True)
+        # Bind exactly one unique key to each agent
+        k1_main = os.getenv("GEMINI_API_KEY_AGENT_1")
+        self.keys_1 = [k1_main] if k1_main else []
 
-        # Initialize isolated client configurations per agent
-        self.client_1 = genai.GenerativeModel("gemini-1.5-pro")
-        self.client_2 = genai.GenerativeModel("gemini-1.5-pro")
-        self.client_3 = genai.GenerativeModel("gemini-1.5-pro")
-        
-        self.keys = {1: key_1, 2: key_2, 3: key_3}
+        k2_main = os.getenv("GEMINI_API_KEY_AGENT_2")
+        self.keys_2 = [k2_main] if k2_main else []
+
+        k3_main = os.getenv("GEMINI_API_KEY_AGENT_3")
+        self.keys_3 = [k3_main] if k3_main else []
+
+        # Ensure high reasoning capable models are used for the deep intelligence layers
+        self.client_1 = genai.GenerativeModel("gemini-2.5-flash")
+        self.client_2 = genai.GenerativeModel("gemini-2.5-flash")
+        self.client_3 = genai.GenerativeModel("gemini-2.5-flash")
         
     def _get_generation_config(self, schema: BaseModel) -> genai.GenerationConfig:
         return genai.GenerationConfig(
@@ -74,8 +79,49 @@ class IntelligenceSwarm:
             presence_penalty=0.0
         )
 
+    async def _generate_with_fallback(self, client, keys: List[str], prompt: str, text_slice: str, schema: BaseModel) -> dict:
+        import time
+        from google.api_core.exceptions import ResourceExhausted, InternalServerError
+        
+        last_error = None
+        max_retries = 3
+        
+        for key in keys:
+            if not key:
+                continue
+            genai.configure(api_key=key)
+            print(f"  [API] Trying with key ending in ...{key[-4:]}")
+            
+            for attempt in range(max_retries):
+                try:
+                    response = await client.generate_content_async(
+                        contents=[prompt, text_slice],
+                        generation_config=self._get_generation_config(schema)
+                    )
+                    return json.loads(response.text)
+                except Exception as e:
+                    last_error = e
+                    err_str = str(e)
+                    print(f"  [WARNING] API Error on key ...{key[-4:]} (Attempt {attempt+1}/{max_retries}): {err_str}")
+                    
+                    if "403" in err_str or "API key not valid" in err_str or "401" in err_str:
+                        # Key is invalid or blocked. Don't retry this key.
+                        break
+                    elif "429" in err_str or "quota" in err_str.lower() or isinstance(e, ResourceExhausted):
+                        if attempt < max_retries - 1:
+                            print(f"  [API] Rate limit hit. Pausing 60 seconds to reset RPM limit...")
+                            await asyncio.sleep(60)
+                        else:
+                            break
+                    else:
+                        # Transient error (500, 503). Wait and try this key again.
+                        await asyncio.sleep(2)
+                        
+        # Return an empty dict if it completely failed so the pipeline doesn't crash
+        print(f"  [CRITICAL WARNING] Returning empty object due to persistent failure. Last error: {last_error}")
+        return {}
+
     async def _run_agent_1_cognitive(self, text_slice: str) -> dict:
-        genai.configure(api_key=self.keys[1])
         
         prompt = """
 ROLE
@@ -288,16 +334,17 @@ No additional fields.
 
 RAW TEXT:
 """
-        response = await self.client_1.generate_content_async(
-            contents=[prompt, text_slice],
-            generation_config=self._get_generation_config(Agent1CognitiveOutput)
+        return await self._generate_with_fallback(
+            client=self.client_1,
+            keys=self.keys_1,
+            prompt=prompt,
+            text_slice=text_slice,
+            schema=Agent1CognitiveOutput
         )
-        return json.loads(response.text)
 
-    async def _run_agent_2_pedagogy(self, text_slice: str) -> dict:
-        genai.configure(api_key=self.keys[2])
+    async def _run_agent_2_pedagogy(self, text_slice: str, agent1_json: dict) -> dict:
         
-        prompt = """
+        prompt = f"""
 ROLE
 
 You are a Master CBSE Teacher, Learning Experience Designer, Instructional Strategist, and Educational Researcher.
@@ -430,20 +477,24 @@ OUTPUT RULES
 
 Return only schema-compliant JSON.
 
-No explanations.
+NO EXPLANATIONS.
+
+PREVIOUS AGENT EXTRACTED KNOWLEDGE (USE THIS AS CONTEXT):
+{json.dumps(agent1_json, indent=2)}
 
 RAW TEXT:
 """
-        response = await self.client_2.generate_content_async(
-            contents=[prompt, text_slice],
-            generation_config=self._get_generation_config(Agent2PedagogyOutput)
+        return await self._generate_with_fallback(
+            client=self.client_2,
+            keys=self.keys_2,
+            prompt=prompt,
+            text_slice=text_slice,
+            schema=Agent2PedagogyOutput
         )
-        return json.loads(response.text)
 
-    async def _run_agent_3_assessment(self, text_slice: str) -> dict:
-        genai.configure(api_key=self.keys[3])
+    async def _run_agent_3_assessment(self, text_slice: str, agent1_json: dict, agent2_json: dict) -> dict:
         
-        prompt = """
+        prompt = f"""
 ROLE
 
 You are a Senior CBSE Assessment Architect, Psychometrician, Examination Designer, and Learning Outcome Specialist.
@@ -575,31 +626,42 @@ OUTPUT RULES
 
 Return only schema-compliant JSON.
 
-No explanations.
+NO EXPLANATIONS.
+
+PREVIOUS AGENT KNOWLEDGE EXTRACTION:
+{json.dumps(agent1_json, indent=2)}
+
+PREVIOUS AGENT PEDAGOGY EXTRACTION:
+{json.dumps(agent2_json, indent=2)}
 
 RAW TEXT:
 """
-        response = await self.client_3.generate_content_async(
-            contents=[prompt, text_slice],
-            generation_config=self._get_generation_config(Agent3AssessmentOutput)
+        return await self._generate_with_fallback(
+            client=self.client_3,
+            keys=self.keys_3,
+            prompt=prompt,
+            text_slice=text_slice,
+            schema=Agent3AssessmentOutput
         )
-        return json.loads(response.text)
 
     async def process_topic_slice(self, text_slice: str) -> dict:
         """
-        The Orchestrator: Fires all 3 expert agents simultaneously using asyncio.
-        Merges their outputs perfectly into the final ConceptIntelligenceObject.
+        The Orchestrator: Fires the 3 expert agents SEQUENTIALLY.
+        Passes outputs of earlier agents into downstream agents for perfect cohesion.
+        Merges their outputs perfectly into the final Topic Intelligence parameters.
         """
-        print("Firing parallel CBSE Expert Swarm...")
+        print("Firing Sequential CBSE Expert Chain...")
         
-        # Run all three LLM calls at the exact same time
-        task1 = self._run_agent_1_cognitive(text_slice)
-        task2 = self._run_agent_2_pedagogy(text_slice)
-        task3 = self._run_agent_3_assessment(text_slice)
+        print("  -> Running Agent 1 (Cognitive Intelligence)...")
+        out1 = await self._run_agent_1_cognitive(text_slice)
         
-        out1, out2, out3 = await asyncio.gather(task1, task2, task3)
+        print("  -> Running Agent 2 (Pedagogy Intelligence)...")
+        out2 = await self._run_agent_2_pedagogy(text_slice, out1)
         
-        print("Swarm complete. Merging Intelligence Dimensions...")
+        print("  -> Running Agent 3 (Assessment Intelligence)...")
+        out3 = await self._run_agent_3_assessment(text_slice, out1, out2)
+        
+        print("Chain complete. Merging Intelligence Dimensions...")
         
         # Merge all evidence arrays
         merged_evidence = out1.get("evidence", []) + out2.get("evidence", []) + out3.get("evidence", [])

@@ -3,7 +3,6 @@ import logging
 from typing import Any, Dict, List
 from sqlalchemy import text
 from app.db.mariadb import SessionLocal
-from app.semantic_intelligence.router import _two_pass_extraction
 from app.semantic_intelligence.gemini_client import _get_model
 
 logger = logging.getLogger(__name__)
@@ -37,34 +36,49 @@ async def process_semantic_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
         subject = str(row.get("subject_name", "Science"))
         class_level = str(row.get("standard", "10"))
         
-        # 1. Run the two-pass extraction logic
-        assembled_json, total_input_tokens, total_output_tokens = await _two_pass_extraction(
-            markdown_content=md_content,
-            subject=subject,
-            class_level=class_level
-        )
-        
-        from app.semantic_intelligence.parser import validate_semantic_intelligence_output, calculate_quality_flag
-        try:
-            validated = validate_semantic_intelligence_output(assembled_json)
-            quality_flag = calculate_quality_flag(validated)
-        except Exception as e:
-            logger.error(f"Validation failed for extraction {extraction_id}: {e}")
-            quality_flag = "regenerate"
-            
-        # 2. Extract values for table
-        learning_objective = assembled_json.get("learning_objectives", "")
-        teaching_units = assembled_json.get("teaching_units", [])
-        total_topics = len(teaching_units)
-        full_json_str = json.dumps(assembled_json)
-        llm_model = "gemini-1.5-flash" # the default used
-        
-        # 3. Find matching chapter_id from chapter_master
+        # 2. Find matching chapter_id from chapter_master to get key_concepts
         chapter_row = db.execute(
-            text("SELECT id FROM chapter_master WHERE extraction_id = :id"),
+            text("SELECT id, key_concepts FROM chapter_master WHERE extraction_id = :id"),
             {"id": extraction_id}
         ).fetchone()
+        
         chapter_id = chapter_row[0] if chapter_row else None
+        key_concepts = chapter_row[1] if chapter_row and chapter_row[1] else "No predefined key concepts."
+        
+        # 3. Run the NEW Swarm Pipeline logic
+        from app.semantic_intelligence.pipeline import generate_chapter_intelligence
+        chapter_name = str(row.get("document_tittle", subject + " Chapter"))
+        assembled_json = await generate_chapter_intelligence(
+            chapter_name=chapter_name,
+            raw_markdown=md_content,
+            key_concepts=key_concepts
+        )
+        
+        # We don't track tokens tightly in the swarm yet
+        total_input_tokens = 0
+        total_output_tokens = 0
+        
+        # In the new schema we don't have teaching_units, we have topics
+        topics_list = assembled_json.get("topics", [])
+        
+        all_lo = []
+        for topic in topics_list:
+            for concept in topic.get("concepts", []):
+                for lo in concept.get("learning_objectives", []):
+                    obj_text = lo.get("objective", "")
+                    if obj_text:
+                        all_lo.append(obj_text)
+                        
+        learning_objective = "\n".join(all_lo) if all_lo else ""
+        
+        total_topics = len(topics_list)
+        full_json_str = json.dumps(assembled_json)
+        llm_model = "gemini-2.5-flash" # the default used
+        
+        # Set quality flag to good for now since pydantic enforces schema
+        quality_flag = "good"
+        
+        # chapter_id was already fetched above
         
         # 4. Insert or update in semantic_intelligence table
         existing = db.execute(

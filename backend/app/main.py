@@ -15,7 +15,6 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.routes import router
-from app.semantic_intelligence.router import router as semantic_intelligence_router
 from app.teaching_intelligence.router import router as teaching_intelligence_router
 from app.utils.config import settings
 from app.utils.file_utils import ensure_directory
@@ -62,8 +61,6 @@ app.add_middleware(
 )
 
 app.include_router(router, prefix="/api")
-app.include_router(semantic_intelligence_router, prefix="/semantic-intelligence")
-app.include_router(semantic_intelligence_router, prefix="/phase2", include_in_schema=False)
 app.include_router(teaching_intelligence_router, prefix="/teaching-intelligence")
 app.include_router(teaching_intelligence_router, prefix="/phase3", include_in_schema=False)
 

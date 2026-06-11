@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/badge"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { CustomSelect } from "@/components/ui/custom-select"
 
+
 interface CurriculumRecord {
   id: number
   document_tittle: string
@@ -86,36 +87,8 @@ export function SemanticTableFill() {
     }
   }
 
-  const handleViewData = async (extractionId: number) => {
-    if (expandedRowId === extractionId) {
-      // Toggle off if already viewing
-      setExpandedRowId(null)
-      setResult(null)
-      return
-    }
-
-    setExpandedRowId(extractionId)
-    setProcessingId(extractionId)
-    setResult(null)
-    try {
-      const res = await fetch(`http://localhost:8000/api/semantic-intelligence/${extractionId}/result`, { cache: 'no-store' })
-      if (res.ok) {
-        const data = await res.json()
-        setResult({
-          status: "view_only",
-          semantic_id: data.id,
-          semantic_data: data
-        })
-      } else {
-        const data = await res.json()
-        alert("Error fetching data: " + data.detail)
-      }
-    } catch (err) {
-      console.error(err)
-      alert("Failed to fetch curriculum data")
-    } finally {
-      setProcessingId(null)
-    }
+  const handleViewData = (extractionId: number) => {
+    window.location.href = `/semantic-intelligence/${extractionId}`
   }
 
   const renderExpandedRow = (r: CurriculumRecord) => {
@@ -144,43 +117,19 @@ export function SemanticTableFill() {
                 Viewing Extracted Semantic Data (ID: {semantic_id})
               </div>
             ) : (
-              <div className="p-4 bg-green-50/80 text-green-800 rounded-md border border-green-200 flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" /></svg>
-                Successfully populated semantic_intelligence (ID: {semantic_id})!
+              <div className="flex flex-col gap-4">
+                <div className="p-4 bg-green-50/80 text-green-800 rounded-md border border-green-200 flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" /></svg>
+                  Successfully populated semantic_intelligence (ID: {semantic_id})!
+                </div>
+                <Button 
+                  onClick={() => handleViewData(semantic_id)}
+                  className="self-start bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-md"
+                >
+                  View Extracted Output in Full Screen
+                </Button>
               </div>
             )}
-
-            <div className="grid grid-cols-1 gap-6 pb-4">
-              <div className="rounded-xl border border-black/10 bg-white/60 dark:bg-black/60 overflow-hidden backdrop-blur-md">
-                <div className="bg-black/5 px-4 py-3 font-semibold text-sm border-b border-black/10">Extraction Metrics</div>
-                <table className="min-w-full text-sm">
-                  <thead className="bg-black/5">
-                    <tr>
-                      <th className="border-b border-black/5 p-3 text-left font-medium">Quality Flag</th>
-                      <th className="border-b border-black/5 p-3 text-left font-medium">Total Topics</th>
-                      <th className="border-b border-black/5 p-3 text-left font-medium">Input Tokens</th>
-                      <th className="border-b border-black/5 p-3 text-left font-medium">Output Tokens</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td className="p-3 font-medium min-w-[120px]">
-                        <Badge variant="outline" className={
-                          semantic_data?.qulity_flag === "good" ? "text-green-600 border-green-600/30" :
-                            semantic_data?.qulity_flag === "regenerate" ? "text-red-600 border-red-600/30" :
-                              "text-yellow-600 border-yellow-600/30"
-                        }>
-                          {semantic_data?.qulity_flag || "Unknown"}
-                        </Badge>
-                      </td>
-                      <td className="p-3 min-w-[100px] font-semibold">{semantic_data?.total_topics || 0}</td>
-                      <td className="p-3 min-w-[100px] font-mono text-muted-foreground">{semantic_data?.input_token || 0}</td>
-                      <td className="p-3 min-w-[100px] font-mono text-muted-foreground">{semantic_data?.output_token || 0}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
           </div>
         </td>
       </tr>
@@ -284,14 +233,10 @@ export function SemanticTableFill() {
                             {!!r.is_processed && (
                               <Button
                                 size="sm"
-                                disabled={processingId === r.id && result === null}
                                 onClick={() => handleViewData(r.id)}
-                                className={`rounded-full transition-all duration-300 border-[0.5px] ${expandedRowId === r.id && result?.status === "view_only"
-                                    ? "bg-blue-600 text-white border-blue-600 shadow-md"
-                                    : "bg-blue-500/10 hover:bg-blue-500/20 text-blue-600 border-blue-500/20"
-                                  }`}
+                                className={`rounded-full transition-all duration-300 border-[0.5px] bg-blue-500/10 hover:bg-blue-500/20 text-blue-600 border-blue-500/20`}
                               >
-                                {expandedRowId === r.id && result?.status === "view_only" ? "Close Output" : "View Output"}
+                                View Output
                               </Button>
                             )}
                             <Button

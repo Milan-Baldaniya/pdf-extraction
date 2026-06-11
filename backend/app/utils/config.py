@@ -51,7 +51,7 @@ class Settings(BaseSettings):
     gemini_api_key6: str = ""
     gemini_api_key7: str = ""
     gemini_api_key8: str = ""
-    gemini_model: str = "gemini-3.5-flash"
+    gemini_model: str = "gemini-2.5-flash"
 
     # Phase 3 — Teaching Intelligence
     phase3_prompt_version: int = 1

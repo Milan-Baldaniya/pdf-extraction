@@ -20,6 +20,7 @@ def get_all_semantic_chapters() -> List[Dict[str, Any]]:
         return [dict(r) for r in rows]
 
 async def process_semantic_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
+    # 1. Fetch all necessary data
     with SessionLocal() as db:
         row = db.execute(
             text("SELECT * FROM document_extractions WHERE id = :id"), 
@@ -45,42 +46,49 @@ async def process_semantic_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
         chapter_id = chapter_row[0] if chapter_row else None
         key_concepts = chapter_row[1] if chapter_row and chapter_row[1] else "No predefined key concepts."
         
-        # 3. Run the NEW Swarm Pipeline logic
-        from app.semantic_intelligence.pipeline import generate_chapter_intelligence
-        chapter_name = str(row.get("document_tittle", subject + " Chapter"))
-        assembled_json = await generate_chapter_intelligence(
-            chapter_name=chapter_name,
-            raw_markdown=md_content,
-            key_concepts=key_concepts
-        )
+        # Save local copies of row fields so we don't need the DB connection
+        standard_id = row.get("standard_id")
+        subject_id = row.get("subject_id")
+        subject_name = row.get("subject_name")
+        standard = row.get("standard")
+        chapter_number = row.get("chapter_number")
+        document_tittle = str(row.get("document_tittle", subject + " Chapter"))
         
-        # We now track tokens accurately through the swarm and pipeline!
-        total_input_tokens = assembled_json.get("total_input_tokens", 0)
-        total_output_tokens = assembled_json.get("total_output_tokens", 0)
-        
-        # In the new schema we don't have teaching_units, we have topics
-        topics_list = assembled_json.get("topics", [])
-        
-        all_lo = []
-        for topic in topics_list:
-            for concept in topic.get("concepts", []):
-                for lo in concept.get("learning_objectives", []):
-                    obj_text = lo.get("objective", "")
-                    if obj_text:
-                        all_lo.append(obj_text)
-                        
-        learning_objective = "\n".join(all_lo) if all_lo else ""
-        
-        total_topics = len(topics_list)
-        full_json_str = json.dumps(assembled_json)
-        llm_model = settings.deepseek_model
-        
-        # Set quality flag to good for now since pydantic enforces schema
-        quality_flag = "good"
-        
-        # chapter_id was already fetched above
-        
-        # 4. Insert or update in semantic_intelligence table
+    # 3. Run the NEW Swarm Pipeline logic (OUTSIDE THE DB SESSION!)
+    from app.semantic_intelligence.pipeline import generate_chapter_intelligence
+    chapter_name = document_tittle
+    assembled_json = await generate_chapter_intelligence(
+        chapter_name=chapter_name,
+        raw_markdown=md_content,
+        key_concepts=key_concepts
+    )
+    
+    # We now track tokens accurately through the swarm and pipeline!
+    total_input_tokens = assembled_json.get("total_input_tokens", 0)
+    total_output_tokens = assembled_json.get("total_output_tokens", 0)
+    
+    # In the new schema we don't have teaching_units, we have topics
+    topics_list = assembled_json.get("topics", [])
+    
+    all_lo = []
+    for topic in topics_list:
+        for concept in topic.get("concepts", []):
+            for lo in concept.get("learning_objectives", []):
+                obj_text = lo.get("objective", "")
+                if obj_text:
+                    all_lo.append(obj_text)
+                    
+    learning_objective = "\n".join(all_lo) if all_lo else ""
+    
+    total_topics = len(topics_list)
+    full_json_str = json.dumps(assembled_json)
+    llm_model = settings.deepseek_model
+    
+    # Set quality flag to good for now since pydantic enforces schema
+    quality_flag = "good"
+    
+    # 4. Insert or update in semantic_intelligence table
+    with SessionLocal() as db:
         existing = db.execute(
             text("SELECT id FROM semantic_intelligence WHERE extraction_id = :id"),
             {"id": extraction_id}
@@ -88,12 +96,12 @@ async def process_semantic_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
         
         params = {
             "ext_id": extraction_id,
-            "std_id": row.get("standard_id"),
-            "sub_id": row.get("subject_id"),
+            "std_id": standard_id,
+            "sub_id": subject_id,
             "ch_id": chapter_id,
-            "sub_name": row.get("subject_name"),
-            "std": row.get("standard"),
-            "ch_num": row.get("chapter_number"),
+            "sub_name": subject_name,
+            "std": standard,
+            "ch_num": chapter_number,
             "lo": learning_objective,
             "topics": total_topics,
             "full_json": full_json_str,

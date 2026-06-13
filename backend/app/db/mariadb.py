@@ -71,7 +71,7 @@ def init_mariadb() -> bool:
         return True
 
     try:
-        _engine = create_engine(_mariadb_url(), pool_recycle=3600)
+        _engine = create_engine(_mariadb_url(), pool_recycle=3600, pool_pre_ping=True)
         with _engine.connect() as connection:
             connection.execute(text("SELECT 1"))
         SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=_engine)

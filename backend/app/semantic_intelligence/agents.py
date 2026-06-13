@@ -51,75 +51,25 @@ class Agent3AssessmentOutput(BaseModel):
 # PHASE 3: THE PARALLEL MICRO-AGENT SWARM
 # ==========================================================
 
+from .deepseek_client import async_call_deepseek
+
 class IntelligenceSwarm:
     def __init__(self):
-        # Reload keys dynamically so live edits to .env take effect immediately
-        load_dotenv(override=True)
-        # Bind exactly one unique key to each agent
-        k1_main = os.getenv("GEMINI_API_KEY_AGENT_1")
-        self.keys_1 = [k1_main] if k1_main else []
+        pass
 
-        k2_main = os.getenv("GEMINI_API_KEY_AGENT_2")
-        self.keys_2 = [k2_main] if k2_main else []
-
-        k3_main = os.getenv("GEMINI_API_KEY_AGENT_3")
-        self.keys_3 = [k3_main] if k3_main else []
-
-        # Ensure high reasoning capable models are used for the deep intelligence layers
-        self.client_1 = genai.GenerativeModel("gemini-2.5-flash")
-        self.client_2 = genai.GenerativeModel("gemini-2.5-flash")
-        self.client_3 = genai.GenerativeModel("gemini-2.5-flash")
-        
-    def _get_generation_config(self, schema: BaseModel) -> genai.GenerationConfig:
-        return genai.GenerationConfig(
-            temperature=0.2,
-            response_mime_type="application/json",
-            response_schema=schema,
-            frequency_penalty=0.0,
-            presence_penalty=0.0
-        )
-
-    async def _generate_with_fallback(self, client, keys: List[str], prompt: str, text_slice: str, schema: BaseModel) -> dict:
+    async def _generate_with_fallback(self, prompt: str, text_slice: str, schema: BaseModel) -> dict:
         import time
-        from google.api_core.exceptions import ResourceExhausted, InternalServerError
+        import asyncio
         
-        last_error = None
-        max_retries = 3
+        system_prompt = f"You are a helpful assistant. You must respond ONLY with valid JSON exactly matching this schema:\n{schema.model_json_schema()}"
+        full_prompt = f"{prompt}\n\nContent:\n{text_slice}"
         
-        for key in keys:
-            if not key:
-                continue
-            genai.configure(api_key=key)
-            print(f"  [API] Trying with key ending in ...{key[-4:]}")
-            
-            for attempt in range(max_retries):
-                try:
-                    response = await client.generate_content_async(
-                        contents=[prompt, text_slice],
-                        generation_config=self._get_generation_config(schema)
-                    )
-                    return json.loads(response.text)
-                except Exception as e:
-                    last_error = e
-                    err_str = str(e)
-                    print(f"  [WARNING] API Error on key ...{key[-4:]} (Attempt {attempt+1}/{max_retries}): {err_str}")
-                    
-                    if "403" in err_str or "API key not valid" in err_str or "401" in err_str:
-                        # Key is invalid or blocked. Don't retry this key.
-                        break
-                    elif "429" in err_str or "quota" in err_str.lower() or isinstance(e, ResourceExhausted):
-                        if attempt < max_retries - 1:
-                            print(f"  [API] Rate limit hit. Pausing 60 seconds to reset RPM limit...")
-                            await asyncio.sleep(60)
-                        else:
-                            break
-                    else:
-                        # Transient error (500, 503). Wait and try this key again.
-                        await asyncio.sleep(2)
-                        
-        # Return an empty dict if it completely failed so the pipeline doesn't crash
-        print(f"  [CRITICAL WARNING] Returning empty object due to persistent failure. Last error: {last_error}")
-        return {}
+        try:
+            result = await async_call_deepseek(full_prompt, system_prompt=system_prompt, response_format={"type": "json_object"})
+            return result["data"]
+        except Exception as e:
+            print(f"  [CRITICAL WARNING] Returning empty object due to persistent failure. Last error: {e}")
+            return {}
 
     async def _run_agent_1_cognitive(self, text_slice: str) -> dict:
         
@@ -334,13 +284,7 @@ No additional fields.
 
 RAW TEXT:
 """
-        return await self._generate_with_fallback(
-            client=self.client_1,
-            keys=self.keys_1,
-            prompt=prompt,
-            text_slice=text_slice,
-            schema=Agent1CognitiveOutput
-        )
+        return await self._generate_with_fallback(prompt=prompt, text_slice=text_slice, schema=Agent1CognitiveOutput)
 
     async def _run_agent_2_pedagogy(self, text_slice: str, agent1_json: dict) -> dict:
         
@@ -484,13 +428,7 @@ PREVIOUS AGENT EXTRACTED KNOWLEDGE (USE THIS AS CONTEXT):
 
 RAW TEXT:
 """
-        return await self._generate_with_fallback(
-            client=self.client_2,
-            keys=self.keys_2,
-            prompt=prompt,
-            text_slice=text_slice,
-            schema=Agent2PedagogyOutput
-        )
+        return await self._generate_with_fallback(prompt=prompt, text_slice=text_slice, schema=Agent2PedagogyOutput)
 
     async def _run_agent_3_assessment(self, text_slice: str, agent1_json: dict, agent2_json: dict) -> dict:
         
@@ -636,13 +574,7 @@ PREVIOUS AGENT PEDAGOGY EXTRACTION:
 
 RAW TEXT:
 """
-        return await self._generate_with_fallback(
-            client=self.client_3,
-            keys=self.keys_3,
-            prompt=prompt,
-            text_slice=text_slice,
-            schema=Agent3AssessmentOutput
-        )
+        return await self._generate_with_fallback(prompt=prompt, text_slice=text_slice, schema=Agent3AssessmentOutput)
 
     async def process_topic_slice(self, text_slice: str) -> dict:
         """

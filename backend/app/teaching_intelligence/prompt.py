@@ -1,4 +1,4 @@
-"""Phase 3 Gemini prompt builder — teaching intelligence generation.
+"""Phase 3 DeepSeek prompt builder — teaching intelligence generation.
 
 Transforms Phase 2 educational JSON into slide-by-slide teaching plans.
 Each subtopic from Phase 2 produces one slide_teaching_plan entry.
@@ -95,7 +95,7 @@ def build_teaching_intelligence_prompt(
     language: str = "english",
     difficulty_level: str = "grade_level",
 ) -> str:
-    """Build the Phase 3 Gemini prompt from Phase 2 intelligence JSON.
+    """Build the Phase 3 DeepSeek prompt from Phase 2 intelligence JSON.
 
     Args:
         phase2_json: The full_intelligence_json from chapter_semantic_intelligence.
@@ -104,7 +104,7 @@ def build_teaching_intelligence_prompt(
         difficulty_level: One of simplified/grade_level/advanced.
 
     Returns:
-        A fully formed Gemini prompt string.
+        A fully formed DeepSeek prompt string.
     """
     style_note = STYLE_INSTRUCTIONS.get(teaching_style, "")
     difficulty_note = DIFFICULTY_INSTRUCTIONS.get(difficulty_level, "")

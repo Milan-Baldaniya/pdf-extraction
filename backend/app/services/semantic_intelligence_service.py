@@ -3,7 +3,7 @@ import logging
 from typing import Any, Dict, List
 from sqlalchemy import text
 from app.db.mariadb import SessionLocal
-from app.semantic_intelligence.gemini_client import _get_model
+from app.utils.config import settings
 
 logger = logging.getLogger(__name__)
 
@@ -73,7 +73,7 @@ async def process_semantic_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
         
         total_topics = len(topics_list)
         full_json_str = json.dumps(assembled_json)
-        llm_model = "gemini-2.5-flash" # the default used
+        llm_model = settings.deepseek_model
         
         # Set quality flag to good for now since pydantic enforces schema
         quality_flag = "good"

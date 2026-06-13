@@ -35,7 +35,7 @@ class SlideTeachingPlan(BaseModel):
 
 
 class TeachingIntelligenceOutput(BaseModel):
-    """Top-level validated structure for Phase 3 Gemini output."""
+    """Top-level validated structure for Phase 3 DeepSeek output."""
 
     chapter_title: str
     teaching_style: str
@@ -47,7 +47,7 @@ class TeachingIntelligenceOutput(BaseModel):
 # ─── Validation ─────────────────────────────────────────────────────────────
 
 def validate_teaching_intelligence_output(raw_json: dict) -> TeachingIntelligenceOutput:
-    """Parse and validate raw Gemini JSON into the Phase 3 Pydantic model."""
+    """Parse and validate raw DeepSeek JSON into the Phase 3 Pydantic model."""
     return TeachingIntelligenceOutput(**raw_json)
 
 

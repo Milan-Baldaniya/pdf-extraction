@@ -56,10 +56,10 @@ async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, ke
             print(f"Error processing topic '{title}': {str(e)}")
             continue
             
-        # 4. Throttle to prevent 429 Too Many Requests (Free Tier Bypass)
+        # 4. Throttle to prevent rate limits
         if index < len(sliced_topics) - 1:
-            print("Throttling for 10 seconds to respect Gemini TPM (Tokens Per Minute) limits...")
-            await asyncio.sleep(10)
+            print("Throttling for 2 seconds to respect DeepSeek limits...")
+            await asyncio.sleep(2)
             
     # 5. Compile Final Chapter Intelligence (CHIO)
     chapter_intelligence = {

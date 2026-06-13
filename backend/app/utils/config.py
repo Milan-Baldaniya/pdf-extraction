@@ -40,18 +40,11 @@ class Settings(BaseSettings):
     mineru_quality_mode: str = "max"
     mineru_ocr_fallback: bool = True
 
-    # Gemini semantic intelligence
+    # DeepSeek semantic intelligence
     semantic_intelligence_prompt_version: int | None = None
     phase2_prompt_version: int | None = None
-    gemini_api_key: str = ""
-    gemini_api_key2: str = ""
-    gemini_api_key3: str = ""
-    gemini_api_key4: str = ""
-    gemini_api_key5: str = ""
-    gemini_api_key6: str = ""
-    gemini_api_key7: str = ""
-    gemini_api_key8: str = ""
-    gemini_model: str = "gemini-2.5-flash"
+    deepseek_api_key: str = ""
+    deepseek_model: str = "deepseek-chat"
 
     # Phase 3 — Teaching Intelligence
     phase3_prompt_version: int = 1

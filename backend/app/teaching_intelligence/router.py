@@ -1,6 +1,6 @@
 """Phase 3 API routes — AI Teaching Intelligence Engine.
 
-Loads Phase 2 semantic JSON from Supabase, calls Gemini to produce
+Loads Phase 2 semantic JSON from Supabase, calls DeepSeek to produce
 slide-by-slide teaching plans, validates them, and persists the result.
 """
 
@@ -14,7 +14,7 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 
 from app.db.supabase_client import supabase
-from app.semantic_intelligence.gemini_client import call_gemini
+from app.semantic_intelligence.deepseek_client import call_deepseek
 from app.teaching_intelligence.prompt import build_teaching_intelligence_prompt
 from app.teaching_intelligence.parser import (
     validate_teaching_intelligence_output,
@@ -73,7 +73,7 @@ def _validate_style_params(req: GenerateTeachingRequest):
 async def generate_teaching_intelligence(req: GenerateTeachingRequest):
     """Main Phase 3 endpoint.
 
-    Loads Phase 2 JSON from Supabase -> calls Gemini -> validates -> stores result.
+    Loads Phase 2 JSON from Supabase -> calls DeepSeek -> validates -> stores result.
     """
     db = _require_supabase()
     _validate_style_params(req)
@@ -144,13 +144,14 @@ async def generate_teaching_intelligence(req: GenerateTeachingRequest):
         difficulty_level=req.difficulty_level,
     )
 
-    # ── STEP 5: Call Gemini ───────────────────────────────────────────────
+    # ── STEP 5: Call DeepSeek ───────────────────────────────────────────────
     try:
-        gemini_result = await asyncio.to_thread(call_gemini, prompt)
+        system_prompt = "You are an expert teaching assistant. Return exactly a JSON object."
+        deepseek_result = await asyncio.to_thread(call_deepseek, prompt, system_prompt, {"type": "json_object"})
     except Exception as exc:
-        raise HTTPException(500, f"Gemini call failed: {exc}") from exc
+        raise HTTPException(500, f"DeepSeek call failed: {exc}") from exc
 
-    raw_json = gemini_result["data"]
+    raw_json = deepseek_result["data"]
 
     # ── STEP 6: Validate response ─────────────────────────────────────────
     try:
@@ -170,10 +171,10 @@ async def generate_teaching_intelligence(req: GenerateTeachingRequest):
         "difficulty_level": req.difficulty_level,
         "full_teaching_json": raw_json,
         "total_slides_planned": len(validated.slide_teaching_plans),
-        "llm_model": settings.gemini_model,
+        "llm_model": settings.deepseek_model,
         "prompt_version": prompt_version,
-        "input_tokens": gemini_result["input_tokens"],
-        "output_tokens": gemini_result["output_tokens"],
+        "input_tokens": deepseek_result["input_tokens"],
+        "output_tokens": deepseek_result["output_tokens"],
     }
 
     try:
@@ -197,8 +198,8 @@ async def generate_teaching_intelligence(req: GenerateTeachingRequest):
         "total_slides_planned": len(validated.slide_teaching_plans),
         "quality_flag": quality_flag,
         "tokens_used": {
-            "input": gemini_result["input_tokens"],
-            "output": gemini_result["output_tokens"],
+            "input": deepseek_result["input_tokens"],
+            "output": deepseek_result["output_tokens"],
         },
         "full_teaching_json": raw_json,
     }

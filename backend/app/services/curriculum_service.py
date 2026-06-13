@@ -2,7 +2,7 @@ import logging
 import json
 from sqlalchemy import text
 from app.db.mariadb import SessionLocal
-from app.semantic_intelligence.gemini_client import call_gemini
+from app.semantic_intelligence.deepseek_client import call_deepseek
 
 logger = logging.getLogger(__name__)
 
@@ -56,7 +56,7 @@ Return exactly a valid JSON object matching this schema:
   ]
 }}
 """
-        response = call_gemini(prompt)
+        response = call_deepseek(prompt, system_prompt="You are a helpful assistant. Return ONLY a JSON object.", response_format={"type": "json_object"})
         data = response.get("data", {})
 
         framework = data.get("framework")

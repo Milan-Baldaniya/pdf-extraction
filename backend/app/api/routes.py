@@ -425,7 +425,7 @@ def list_curriculums() -> list[dict[str, Any]]:
 @router.post(
     "/curriculums/{extraction_id}/process",
     tags=["Curriculum Processing"],
-    summary="Process a curriculum using Gemini and populate lms_curriculum and lms_units",
+    summary="Process a curriculum using DeepSeek and populate lms_curriculum and lms_units",
 )
 async def process_curriculum(extraction_id: int) -> dict[str, Any]:
     try:
@@ -466,7 +466,7 @@ def list_chapters() -> list[dict[str, Any]]:
 @router.post(
     "/chapters/{extraction_id}/process",
     tags=["Chapter Processing"],
-    summary="Process a chapter using Gemini and populate chapter_master",
+    summary="Process a chapter using DeepSeek and populate chapter_master",
 )
 async def process_chapter(extraction_id: int) -> dict[str, Any]:
     try:

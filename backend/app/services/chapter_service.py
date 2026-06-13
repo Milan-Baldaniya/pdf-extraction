@@ -3,7 +3,7 @@ import logging
 from typing import Any, Dict
 from sqlalchemy import text
 from app.db.mariadb import SessionLocal
-from app.semantic_intelligence.gemini_client import call_gemini
+from app.semantic_intelligence.deepseek_client import call_deepseek
 
 logger = logging.getLogger(__name__)
 
@@ -99,10 +99,11 @@ def process_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
                         
         available_units_str = json.dumps(available_units_list, indent=2) if available_units_list else "[]"
 
-        # 2. Call Gemini LLM to extract key concepts and map unit
+        # 2. Call DeepSeek LLM to extract key concepts and map unit
         prompt = CHAPTER_PROMPT.replace("{md_content}", md_content).replace("{available_units}", available_units_str).replace("{chapter_name}", chapter_name)
-        gemini_response = call_gemini(prompt)
-        parsed_data = gemini_response
+        system_prompt = "You are a helpful assistant. Return ONLY a JSON object."
+        deepseek_response = call_deepseek(prompt, system_prompt=system_prompt, response_format={"type": "json_object"})
+        parsed_data = deepseek_response
         
         # Ensure we have the right structure
         data_dict = parsed_data.get("data", parsed_data)
@@ -112,7 +113,7 @@ def process_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
         # 3. Map unit_id
         unit_id = data_dict.get("mapped_unit_id")
         
-        # fallback to simple string matching if Gemini fails
+        # fallback to simple string matching if DeepSeek fails
         if not unit_id and units:
             for u in units:
                 try:
@@ -128,13 +129,32 @@ def process_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
                         
         # 4. Insert or Update chapter_master
         existing = db.execute(
-            text("SELECT id FROM chapter_master WHERE extraction_id = :id"), 
+            text("SELECT id FROM chapter_master WHERE extraction_id = :id LIMIT 1"), 
             {"id": extraction_id}
         ).fetchone()
         
+        if not existing:
+            # Attempt to match an existing ERP chapter record before inserting a duplicate
+            existing = db.execute(
+                text("""SELECT id FROM chapter_master 
+                        WHERE LOWER(TRIM(chapter_name)) = LOWER(TRIM(:cname)) 
+                        AND standard_id = :std_id 
+                        AND subject_id = :sub_id 
+                        AND sub_institute_id = :sub_inst 
+                        ORDER BY id ASC LIMIT 1"""),
+                {
+                    "cname": chapter_name,
+                    "std_id": row.get("standard_id"),
+                    "sub_id": row.get("subject_id"),
+                    "sub_inst": row.get("sub_institute_id")
+                }
+            ).fetchone()
+
         if existing:
+            chapter_master_id = existing[0]
             db.execute(text("""
                 UPDATE chapter_master SET 
+                    extraction_id = :ext_id,
                     sub_institute_id = :sub_inst,
                     subject_id = :sub_id,
                     standard_id = :std_id,
@@ -143,8 +163,9 @@ def process_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
                     key_concepts = :kconcepts,
                     syear = :syear,
                     updated_at = NOW()
-                WHERE extraction_id = :id
+                WHERE id = :cm_id
             """), {
+                "ext_id": extraction_id,
                 "sub_inst": row.get("sub_institute_id"),
                 "sub_id": row.get("subject_id"),
                 "std_id": row.get("standard_id"),
@@ -152,13 +173,13 @@ def process_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
                 "cname": chapter_name,
                 "kconcepts": key_concepts_json,
                 "syear": row.get("syear"),
-                "id": extraction_id
+                "cm_id": chapter_master_id
             })
             db.commit()
             return {
                 "status": "success", 
                 "action": "updated", 
-                "chapter_master_id": existing[0], 
+                "chapter_master_id": chapter_master_id, 
                 "unit_id_mapped": unit_id,
                 "key_concepts_extracted": len(key_concepts),
                 "chapter_data": get_chapter_data_by_extraction_id(extraction_id)

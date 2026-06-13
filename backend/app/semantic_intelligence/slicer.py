@@ -1,28 +1,19 @@
 import os
-import google.generativeai as genai
-from typing import List, Dict
 import time
-from google.api_core.exceptions import ResourceExhausted
-from dotenv import load_dotenv
+import json
+from typing import List, Dict
 
 # Import the Pydantic schema we built in Phase 1
 from .schemas import ChapterSlices, TopicSlice
 
-# Load env variables to ensure we have our Multi-Agent keys (with override so live updates work)
-load_dotenv(override=True)
+from .deepseek_client import call_deepseek
 
 # ==========================================
 # PHASE 2: THE SLICER ENGINE
 # ==========================================
 class SemanticSlicer:
     def __init__(self):
-        # Always reload the keys dynamically so if the user edits .env we catch it instantly!
-        load_dotenv(override=True)
-        k_main = os.getenv("GEMINI_API_KEY_SLICER")
-        self.keys = [k_main] if k_main else []
-        
-        # We use flash for slicing as it follows strict JSON schemas much better
-        self.model = genai.GenerativeModel("gemini-2.5-flash")
+        pass
 
     def analyze_and_slice(self, raw_chapter_markdown: str, key_concepts: str = "No predefined key concepts.") -> Dict:
         """
@@ -31,8 +22,11 @@ class SemanticSlicer:
         Returns a dict with 'chapter_summary' and 'topics'.
         """
         
+        system_prompt = f"""You are an expert curriculum parser. Respond ONLY with valid JSON matching exactly this schema:
+{ChapterSlices.model_json_schema()}"""
+
         prompt = f"""
-        You are an expert curriculum parser. Read the following textbook chapter.
+        Read the following textbook chapter.
         
         We have already identified the primary 'Key Concepts' for this chapter:
         {key_concepts}
@@ -49,50 +43,16 @@ class SemanticSlicer:
            - end_quote: The exact last 5 to 7 words of the topic as they appear in the text.
         
         Do not modify the quotes. They must perfectly match the source text so a Python script can find them.
+        
+        Chapter Content:
+        {raw_chapter_markdown}
         """
         
-        last_error = None
-        response_text = None
-        max_retries = 3
-        
-        for key in self.keys:
-            genai.configure(api_key=key)
-            print(f"[SLICER] Trying API Key ending in ...{key[-4:]}")
-            
-            for attempt in range(max_retries):
-                try:
-                    # We enforce Structured Outputs using response_schema to guarantee formatting
-                    response = self.model.generate_content(
-                        contents=[prompt, raw_chapter_markdown],
-                        generation_config=genai.GenerationConfig(
-                            response_mime_type="application/json",
-                            response_schema=ChapterSlices,
-                            temperature=0.1 # Very low temperature for highly deterministic quote extraction
-                        )
-                    )
-                    response_text = response.text
-                    break
-                except Exception as e:
-                    last_error = e
-                    err_str = str(e)
-                    print(f"[WARNING] [SLICER] API Error on key ...{key[-4:]} (Attempt {attempt+1}/{max_retries}): {err_str}")
-                    
-                    if "403" in err_str or "API key not valid" in err_str or "401" in err_str:
-                        break # Skip to next key
-                    elif "429" in err_str or "quota" in err_str.lower() or isinstance(e, ResourceExhausted):
-                        if attempt < max_retries - 1:
-                            print(f"[SLICER] Rate limit hit. Pausing 60 seconds to reset RPM limit...")
-                            time.sleep(60)
-                        else:
-                            break # Exceeded max retries
-                    else:
-                        time.sleep(2) # Transient error, try same key again
-                        
-            if response_text:
-                break # Successfully got response, stop trying keys
-                
-        if not response_text:
-            print(f"CRITICAL WARNING: Slicer failed across all keys. Last error: {last_error}")
+        try:
+            result = call_deepseek(prompt, system_prompt=system_prompt, response_format={"type": "json_object"}, max_retries=3)
+            llm_output = result["data"]
+        except Exception as e:
+            print(f"CRITICAL WARNING: Slicer failed. Last error: {e}")
             return {
                 "chapter_summary": "Auto-generated intelligence.",
                 "topics": [{
@@ -103,22 +63,6 @@ class SemanticSlicer:
                 }]
             }
 
-        # Gemini returns strict JSON mapping to our Pydantic model
-        import json
-        try:
-            llm_output = json.loads(response_text)
-        except json.JSONDecodeError as e:
-            print(f"CRITICAL WARNING: Slicer returned invalid/truncated JSON: {e}")
-            return {
-                "chapter_summary": "Auto-generated intelligence.",
-                "topics": [{
-                    "topic_title": "Core Concepts",
-                    "topic_summary": "Main chapter concepts.",
-                    "topic_description": "Comprehensive coverage.",
-                    "content": raw_chapter_markdown.strip()
-                }]
-            }
-        
         # Now, Python physically slices the text based on the quotes
         sliced_topics = []
         for topic in llm_output.get("topics", []):

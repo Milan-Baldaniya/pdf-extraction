@@ -1,1 +1,1 @@
-"""Gemini-powered chapter semantic intelligence package."""
+"""DeepSeek-powered chapter semantic intelligence package."""

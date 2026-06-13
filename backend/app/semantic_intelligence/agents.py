@@ -191,7 +191,7 @@ Support every major pedagogical decision. Use direct quotes whenever possible.
 --------------------------------------------------
 OUTPUT RULES
 Return only schema-compliant JSON. NO EXPLANATIONS.
-"""
+
 PREVIOUS AGENT EXTRACTED KNOWLEDGE (USE THIS AS CONTEXT):
 {json.dumps(agent1_json, indent=2)}
 
@@ -243,7 +243,7 @@ Every objective and outcome must be traceable to the source text. Use direct quo
 --------------------------------------------------
 OUTPUT RULES
 Return only schema-compliant JSON. NO EXPLANATIONS.
-"""
+
 PREVIOUS AGENT KNOWLEDGE EXTRACTION:
 {json.dumps(agent1_json, indent=2)}
 

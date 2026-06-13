@@ -68,33 +68,17 @@ class Concept(BaseModel):
 # ==========================================================
 
 class KnowledgeItem(BaseModel):
-    name: str
+    knowledge: str
+    statement: str
     knowledge_type: Literal[
         "Fact",
-        "Concept",
+        "Definition",
         "Principle",
-        "Theory",
-        "Procedure",
-        "Formula",
+        "Law",
+        "Process",
         "Rule",
-        "Terminology"
-    ]
-    description: str
-    importance: Literal[
-        "Core",
-        "Important",
-        "Supporting",
-        "Optional"
-    ]
-    difficulty: Literal[
-        "Easy",
-        "Medium",
-        "Hard"
-    ]
-    retention_priority: Literal[
-        "High",
-        "Medium",
-        "Low"
+        "Relationship",
+        "Classification"
     ]
     confidence: float
 
@@ -103,69 +87,29 @@ class KnowledgeItem(BaseModel):
 # ==========================================================
 
 class AbilityItem(BaseModel):
-    ability_type: Literal[
-        "Identify",
-        "Recall",
-        "Describe",
-        "Explain",
-        "Compare",
-        "Classify",
-        "Interpret",
-        "Calculate",
-        "Analyze",
-        "Evaluate",
-        "Create"
-    ]
-    statement: str
-    complexity: Literal[
-        "Easy",
-        "Medium",
-        "Hard"
-    ]
-    measurable: bool
+    ability: str
+    verb: str
+    description: str
+    knowledge_refs: List[str]
 
 # ==========================================================
 # SKILL INTELLIGENCE
 # ==========================================================
 
 class SkillItem(BaseModel):
-    skill_name: str
-    skill_type: Literal[
-        "Subject Skill",
-        "Cognitive Skill",
-        "Social Skill",
-        "Communication Skill",
-        "Life Skill",
-        "Digital Skill",
-        "Future Skill"
-    ]
-    development_level: Literal[
-        "Low",
-        "Medium",
-        "High"
-    ]
-    transferability: Literal[
-        "Low",
-        "Medium",
-        "High"
-    ]
+    skill: str
+    ability_refs: List[str]
 
 # ==========================================================
 # COMPETENCY INTELLIGENCE
 # ==========================================================
 
 class CompetencyItem(BaseModel):
-    competency_name: Literal[
-        "Conceptual Understanding",
-        "Application",
-        "Reasoning",
-        "Investigation",
-        "Problem Solving",
-        "Communication",
-        "Creativity"
-    ]
-    strength: float
-    evidence: str
+    competency: str
+    statement: str
+    knowledge_refs: List[str]
+    ability_refs: List[str]
+    skill_refs: List[str]
 
 # ==========================================================
 # LEARNING OBJECTIVES
@@ -257,24 +201,9 @@ class Prerequisite(BaseModel):
 
 class Misconception(BaseModel):
     misconception: str
-    frequency: Literal[
-        "Low",
-        "Medium",
-        "High"
-    ]
-    severity: Literal[
-        "Low",
-        "Medium",
-        "High"
-    ]
-    correction_strategy: Literal[
-        "Explanation",
-        "Demonstration",
-        "Activity",
-        "Simulation",
-        "Peer Discussion",
-        "Guided Practice"
-    ]
+    statement: str
+    root_cause: str
+    correction: str
 
 # ==========================================================
 # REAL WORLD APPLICATIONS
@@ -302,24 +231,20 @@ class RealWorldApplication(BaseModel):
 # ==========================================================
 
 class PedagogyRecommendation(BaseModel):
-    pedagogy_type: Literal[
-        "Direct Instruction",
-        "Activity Based Learning",
-        "Inquiry Based Learning",
-        "Project Based Learning",
-        "Experiential Learning",
-        "Collaborative Learning",
-        "Competency Based Learning",
-        "Problem Based Learning",
-        "Flipped Classroom",
-        "Differentiated Learning"
+    strategy: Literal[
+        "Inquiry Based Teaching",
+        "Experiential Based Teaching",
+        "Art Integrated Teaching",
+        "Game Based Teaching",
+        "Activity Based Teaching",
+        "Project Based Teaching",
+        "Flashcard Based / Spaced Repetition Teaching",
+        "Flipped Classroom Teaching",
+        "Scenario Based Teaching",
+        "Skill / Competency Based Teaching"
     ]
-    effectiveness: Literal[
-        "Low",
-        "Medium",
-        "High"
-    ]
-    rationale: str
+    why_effective: str
+    concept_characteristics: List[str]
 
 # ==========================================================
 # ASSESSMENT BLUEPRINT

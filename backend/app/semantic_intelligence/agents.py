@@ -80,208 +80,57 @@ You are a CBSE Curriculum Intelligence Expert, Educational Psychologist, Learnin
 
 Your task is to transform textbook content into structured Concept Intelligence.
 
-You must follow:
-
-- CBSE Competency Based Education Framework
-- NCF 2023
-- NEP 2020
-- Bloom's Taxonomy
-- Webb's Depth of Knowledge (DOK)
-- Learning Sciences
+--------------------------------------------------
+STAGE 1: KNOWLEDGE EXTRACTION
+Definition: Knowledge = facts, principles, theories, laws, definitions, processes, relationships and conceptual understanding directly taught by the concept.
+Instructions:
+1. Extract atomic knowledge statements.
+2. Each statement must be independently understandable.
+3. Avoid learning objectives.
+4. Avoid skills.
+5. Avoid competencies.
+6. Avoid pedagogy.
+7. Avoid applications.
+8. Normalize statements into canonical form.
+Types: Fact, Definition, Principle, Law, Process, Rule, Relationship, Classification.
 
 --------------------------------------------------
-
-OBJECTIVE
-
-Analyze the provided educational text and extract ALL educational intelligence related to the concepts present.
-
-Do NOT summarize.
-
-Do NOT rewrite.
-
-Do NOT generate teaching content.
-
-Extract intelligence only.
+STAGE 2: ABILITY EXTRACTION
+Definition: Ability = capability to apply knowledge in a meaningful context.
+Rules: Abilities must start with action verbs. Use controlled vocabulary only: Explain, Interpret, Classify, Compare, Differentiate, Predict, Analyze, Evaluate, Apply, Model, Design, Solve.
 
 --------------------------------------------------
-
-CONCEPT EXTRACTION RULES
-
-1. Extract ALL concepts present in the text.
-
-2. Do NOT assume a single concept.
-
-3. Identify:
-
-- Core Concepts
-- Supporting Concepts
-- Definitions
-- Facts
-- Principles
-- Rules
-- Formulas
-- Processes
-
-4. The concept selected in the schema must represent the PRIMARY concept of this text slice.
+STAGE 3: SKILL EXTRACTION
+Definition: Skill = trainable capability strengthened through practice.
+Rules:
+1. Do not create subject content.
+2. Create transferable skills.
+3. Use standardized skill vocabulary (e.g., Problem Solving, Scientific Investigation, Observation, Experimentation, Classification, Communication, Reasoning, Data Interpretation, Model Building, Critical Thinking).
 
 --------------------------------------------------
-
-KNOWLEDGE INTELLIGENCE
-
-For every knowledge item:
-
-Determine:
-
-- knowledge_type
-- description
-- importance
-- difficulty
-- retention_priority
-- confidence
-
-Only extract knowledge explicitly present or strongly implied.
+STAGE 4: COMPETENCY GENERATION
+Definition: Competency = Knowledge + Ability + Skill demonstrated in context.
 
 --------------------------------------------------
-
-ABILITY INTELLIGENCE
-
-Identify what students must be able to DO after learning this concept.
-
-Use only:
-
-Identify
-Recall
-Describe
-Explain
-Compare
-Classify
-Interpret
-Calculate
-Analyze
-Evaluate
-Create
-
-Every ability must be measurable.
+STAGE 7: BLOOM CLASSIFICATION
+Classify every ability into: Remember, Understand, Apply, Analyze, Evaluate, Create.
 
 --------------------------------------------------
-
-SKILL INTELLIGENCE
-
-Identify skills developed through this concept.
-
-Possible categories:
-
-- Subject Skill
-- Cognitive Skill
-- Social Skill
-- Communication Skill
-- Life Skill
-- Digital Skill
-- Future Skill
-
-Only extract genuine skills.
-
-Avoid generic skills.
+STAGE 8: DOK CLASSIFICATION
+Classify every ability into:
+Level 1 Recall
+Level 2 Skill and Concept
+Level 3 Strategic Thinking
+Level 4 Extended Thinking
 
 --------------------------------------------------
-
-COMPETENCY INTELLIGENCE
-
-Map concept to CBSE competencies:
-
-- Conceptual Understanding
-- Application
-- Reasoning
-- Investigation
-- Problem Solving
-- Communication
-- Creativity
-
-Assign strength score:
-
-0.0 to 1.0
-
---------------------------------------------------
-
-BLOOM'S INTELLIGENCE
-
-For every concept determine:
-
-Primary Bloom Level
-
-Possible values:
-
-Remember
-Understand
-Apply
-Analyze
-Evaluate
-Create
-
-Provide coverage score.
-
---------------------------------------------------
-
-DOK INTELLIGENCE
-
-Determine depth of learning:
-
-1 Recall and Reproduction
-
-2 Skills and Concepts
-
-3 Strategic Thinking
-
-4 Extended Thinking
-
-Select the dominant DOK level.
-
---------------------------------------------------
-
-CONFIDENCE SCORING
-
-For every extracted item:
-
-Provide confidence score:
-
-0.0 to 1.0
-
-Confidence must represent certainty from source text.
-
---------------------------------------------------
-
 EVIDENCE REQUIREMENTS
-
-Every major extraction must be supported by evidence.
-
-Evidence must contain:
-
-source_type:
-- Textbook
-- Curriculum
-- Both
-- Inferred
-
-source_text:
-
-Use exact text quote whenever possible.
-
-Never invent evidence.
+Every major extraction must be supported by evidence. Use exact text quote whenever possible.
 
 --------------------------------------------------
-
 OUTPUT RULES
-
-Return only data matching the supplied schema.
-
-No markdown.
-
-No explanations.
-
-No commentary.
-
-No additional fields.
-
+Return only data matching the supplied schema. No markdown. No explanations. No commentary.
+"""
 RAW TEXT:
 """
         return await self._generate_with_fallback(prompt=prompt, text_slice=text_slice, schema=Agent1CognitiveOutput)
@@ -295,134 +144,54 @@ You are a Master CBSE Teacher, Learning Experience Designer, Instructional Strat
 
 Your task is to extract Pedagogical Intelligence.
 
-Follow:
-
-- CBSE Competency Based Education
-- NCF 2023
-- NEP 2020
-- Constructivist Learning Theory
-- Experiential Learning
-- Inquiry Based Learning
+--------------------------------------------------
+STAGE 9: MISCONCEPTION EXTRACTION
+Identify common misconceptions associated with the concept.
+Rules:
+1. Extract misconceptions found in: textbooks, classroom observations, assessment literature
+2. For each misconception provide: misconception statement, root cause, corrected understanding.
 
 --------------------------------------------------
-
-OBJECTIVE
-
-Determine:
-
-- Prerequisites
-- Misconceptions
-- Real World Applications
-- Pedagogy Recommendations
-- Concept Relationships
+STAGE 10: REAL-LIFE APPLICATION EXTRACTION
+Identify authentic real-world applications of the concept.
+Classify under: Daily Life, Industry, Environment, Society.
 
 --------------------------------------------------
-
-PREREQUISITE INTELLIGENCE
-
-Identify knowledge required before learning this concept.
-
-Classify as:
-
-Mandatory
-Recommended
-Helpful
-
-Only include genuine dependencies.
+STAGE 11: CONCEPT PREREQUISITE EXTRACTION
+Identify prerequisite concepts required before mastering this concept.
+Rules:
+1. Only conceptual dependencies.
+2. No chapter dependencies.
+3. No curriculum dependencies.
+4. Atomic concepts only.
 
 --------------------------------------------------
-
-MISCONCEPTION INTELLIGENCE
-
-Identify likely student misconceptions.
-
-For every misconception provide:
-
-- misconception
-- frequency
-- severity
-- correction_strategy
-
-Focus on actual learning difficulties.
-
-Avoid generic mistakes.
+STAGE 12: PEDAGOGY RECOMMENDATION GENERATION
+Recommend pedagogical approaches most effective for teaching the concept.
+Choose from:
+- Inquiry Based Teaching
+- Experiential Based Teaching
+- Art Integrated Teaching
+- Game Based Teaching
+- Activity Based Teaching
+- Project Based Teaching
+- Flashcard Based / Spaced Repetition Teaching
+- Flipped Classroom Teaching
+- Scenario Based Teaching
+- Skill / Competency Based Teaching
 
 --------------------------------------------------
-
-REAL WORLD APPLICATIONS
-
-Identify authentic applications.
-
-Possible categories:
-
-Daily Life
-Career
-Industry
-Technology
-Environment
-Research
-Society
-
-Provide realistic examples.
-
---------------------------------------------------
-
-PEDAGOGY RECOMMENDATIONS
-
-Recommend teaching approaches based on:
-
-- Concept nature
-- Bloom level
-- Cognitive complexity
-- Practicality
-- Student engagement
-
-Possible methods:
-
-Direct Instruction
-Activity Based Learning
-Inquiry Based Learning
-Project Based Learning
-Experiential Learning
-Collaborative Learning
-Competency Based Learning
-Problem Based Learning
-Flipped Classroom
-Differentiated Learning
-
-Provide rationale.
-
---------------------------------------------------
-
 CONCEPT RELATIONSHIPS
-
-Extract relationships:
-
-depends_on
-part_of
-causes
-uses
-extends
-related_to
-
-Only create relationships supported by the text.
+Extract relationships: depends_on, part_of, causes, uses, extends, related_to.
 
 --------------------------------------------------
-
 EVIDENCE REQUIREMENTS
-
-Support every major pedagogical decision.
-
-Use direct quotes whenever possible.
+Support every major pedagogical decision. Use direct quotes whenever possible.
 
 --------------------------------------------------
-
 OUTPUT RULES
-
-Return only schema-compliant JSON.
-
-NO EXPLANATIONS.
-
+Return only schema-compliant JSON. NO EXPLANATIONS.
+"""
 PREVIOUS AGENT EXTRACTED KNOWLEDGE (USE THIS AS CONTEXT):
 {json.dumps(agent1_json, indent=2)}
 
@@ -439,139 +208,47 @@ You are a Senior CBSE Assessment Architect, Psychometrician, Examination Designe
 
 Your task is to create Assessment Intelligence.
 
-Follow:
-
-- CBSE Assessment Framework
-- Competency Based Assessment
-- Bloom's Taxonomy
-- Webb DOK
-- Outcome Based Education
+--------------------------------------------------
+STAGE 5: LEARNING OBJECTIVE GENERATION
+Generate measurable learning objectives.
+Rules:
+1. One action verb only.
+2. Must be teachable.
+3. Must be measurable.
+4. Use Bloom action verbs.
 
 --------------------------------------------------
-
-OBJECTIVE
-
-Extract:
-
-- Learning Objectives
-- Learning Outcomes
-- Assessment Blueprint
-
---------------------------------------------------
-
-LEARNING OBJECTIVES
-
-Define what the teacher intends to teach.
-
-Classify:
-
-Knowledge
-Ability
-Skill
-Competency
-
-Assign priority.
+STAGE 6: LEARNING OUTCOME GENERATION
+Generate observable learner outcomes.
+Rules:
+1. Evidence based.
+2. Observable.
+3. Assessable.
+4. Student-centered.
 
 --------------------------------------------------
-
-LEARNING OUTCOMES
-
-Define measurable student achievements.
-
-Every outcome must:
-
-- begin with action verb
-- be measurable
-- be testable
-- be assessment ready
-
---------------------------------------------------
-
 ASSESSMENT BLUEPRINT
-
 Create balanced assessment design.
-
 For every assessment item determine:
-
-assessment_type
-
-Possible values:
-
-MCQ
-Assertion Reason
-Case Study
-Short Answer
-Long Answer
-Numerical
-Practical
-Project
-Viva
-HOTS
-Competency Based Question
-
-difficulty
-
-Easy
-Medium
-Hard
-
-Bloom Level
-
-Remember
-Understand
-Apply
-Analyze
-Evaluate
-Create
-
-DOK Level
-
-1
-2
-3
-4
-
-marks
-
-recommended_question
-
-Question must directly assess the concept.
+assessment_type: MCQ, Assertion Reason, Case Study, Short Answer, Long Answer, Numerical, Practical, Project, Viva, HOTS, Competency Based Question
+difficulty: Easy, Medium, Hard
+Bloom Level: Remember, Understand, Apply, Analyze, Evaluate, Create
+DOK Level: 1, 2, 3, 4
+marks, recommended_question
 
 --------------------------------------------------
-
-ASSESSMENT DESIGN RULES
-
-Ensure coverage of:
-
-Knowledge
-Understanding
-Application
-Reasoning
-
-Prefer competency based questions.
-
---------------------------------------------------
-
 EVIDENCE REQUIREMENTS
-
-Every objective and outcome must be traceable to the source text.
-
-Use direct quotes where possible.
+Every objective and outcome must be traceable to the source text. Use direct quotes where possible.
 
 --------------------------------------------------
-
 OUTPUT RULES
-
-Return only schema-compliant JSON.
-
-NO EXPLANATIONS.
-
+Return only schema-compliant JSON. NO EXPLANATIONS.
+"""
 PREVIOUS AGENT KNOWLEDGE EXTRACTION:
 {json.dumps(agent1_json, indent=2)}
 
 PREVIOUS AGENT PEDAGOGY EXTRACTION:
 {json.dumps(agent2_json, indent=2)}
-
 RAW TEXT:
 """
         return await self._generate_with_fallback(prompt=prompt, text_slice=text_slice, schema=Agent3AssessmentOutput)

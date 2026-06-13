@@ -31,39 +31,43 @@ async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, ke
     total_input_tokens = slicer_result.get("input_tokens", 0)
     total_output_tokens = slicer_result.get("output_tokens", 0)
     
-    # 3. Process each slice through the Swarm (Phase 3 & 4)
-    for index, topic_data in enumerate(sliced_topics):
+    # 3. Process each slice through the Swarm (Phase 3 & 4) in PARALLEL
+    semaphore = asyncio.Semaphore(15)  # Process up to 15 topics concurrently
+    
+    async def process_single_topic(index: int, topic_data: dict):
         title = topic_data["topic_title"]
         topic_summary = topic_data.get("topic_summary", "")
         topic_description = topic_data.get("topic_description", "")
         content = topic_data["content"]
-        print(f"[Topic {index + 1}/{len(sliced_topics)}]: {title}")
+        print(f"[Topic {index + 1}/{len(sliced_topics)}] STARTING: {title}")
         
-        try:
-            # Execute the Sequential Chain Swarm
-            mega_concept_object, t_in, t_out = await swarm.process_topic_slice(content)
-            
-            # Since the user requested the TIO (TopicIntelligenceObject) layer containing Concepts:
-            final_topic_obj = {
-                "topic_name": title,
-                "topic_summary": topic_summary,
-                "topic_description": topic_description,
-                "concepts": [mega_concept_object] 
-            }
-            
-            final_topics.append(final_topic_obj)
+        async with semaphore:
+            try:
+                # Execute the Sequential Chain Swarm
+                mega_concept_object, t_in, t_out = await swarm.process_topic_slice(content)
+                
+                # Since the user requested the TIO (TopicIntelligenceObject) layer containing Concepts:
+                final_topic_obj = {
+                    "topic_name": title,
+                    "topic_summary": topic_summary,
+                    "topic_description": topic_description,
+                    "concepts": [mega_concept_object] 
+                }
+                
+                print(f"Successfully compiled intelligence for: {title}")
+                return final_topic_obj, t_in, t_out
+            except Exception as e:
+                print(f"Error processing topic '{title}': {str(e)}")
+                return None, 0, 0
+
+    # Run all topics through the swarm simultaneously
+    results = await asyncio.gather(*[process_single_topic(i, t) for i, t in enumerate(sliced_topics)])
+    
+    for topic_obj, t_in, t_out in results:
+        if topic_obj:
+            final_topics.append(topic_obj)
             total_input_tokens += t_in
             total_output_tokens += t_out
-            print(f"Successfully compiled intelligence for: {title}")
-            
-        except Exception as e:
-            print(f"Error processing topic '{title}': {str(e)}")
-            continue
-            
-        # 4. Throttle to prevent rate limits
-        if index < len(sliced_topics) - 1:
-            print("Throttling for 2 seconds to respect DeepSeek limits...")
-            await asyncio.sleep(2)
             
     # 5. Compile Final Chapter Intelligence (CHIO)
     chapter_intelligence = {

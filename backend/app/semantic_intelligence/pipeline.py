@@ -28,6 +28,8 @@ async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, ke
     print(f"Slicer identified {len(sliced_topics)} semantic topics.\n")
     
     final_topics = []
+    total_input_tokens = slicer_result.get("input_tokens", 0)
+    total_output_tokens = slicer_result.get("output_tokens", 0)
     
     # 3. Process each slice through the Swarm (Phase 3 & 4)
     for index, topic_data in enumerate(sliced_topics):
@@ -39,7 +41,7 @@ async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, ke
         
         try:
             # Execute the Sequential Chain Swarm
-            mega_concept_object = await swarm.process_topic_slice(content)
+            mega_concept_object, t_in, t_out = await swarm.process_topic_slice(content)
             
             # Since the user requested the TIO (TopicIntelligenceObject) layer containing Concepts:
             final_topic_obj = {
@@ -50,6 +52,8 @@ async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, ke
             }
             
             final_topics.append(final_topic_obj)
+            total_input_tokens += t_in
+            total_output_tokens += t_out
             print(f"Successfully compiled intelligence for: {title}")
             
         except Exception as e:
@@ -65,11 +69,14 @@ async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, ke
     chapter_intelligence = {
         "chapter_name": chapter_name,
         "chapter_summary": chapter_summary,
-        "topics": final_topics
+        "topics": final_topics,
+        "total_input_tokens": total_input_tokens,
+        "total_output_tokens": total_output_tokens
     }
     print(f"\n=======================================================")
     print(f"SEMANTIC INTELLIGENCE GENERATION COMPLETE!")
     print(f"Total Topics Processed: {len(final_topics)}")
+    print(f"Input Tokens: {total_input_tokens} | Output Tokens: {total_output_tokens}")
     print(f"=======================================================\n")
     
     return chapter_intelligence

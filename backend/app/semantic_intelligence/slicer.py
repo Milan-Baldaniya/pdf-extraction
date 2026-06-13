@@ -51,6 +51,8 @@ class SemanticSlicer:
         try:
             result = call_deepseek(prompt, system_prompt=system_prompt, response_format={"type": "json_object"}, max_retries=3)
             llm_output = result["data"]
+            input_tokens = result.get("input_tokens", 0)
+            output_tokens = result.get("output_tokens", 0)
         except Exception as e:
             print(f"CRITICAL WARNING: Slicer failed. Last error: {e}")
             return {
@@ -60,7 +62,9 @@ class SemanticSlicer:
                     "topic_summary": "Main chapter concepts.",
                     "topic_description": "Comprehensive coverage.",
                     "content": raw_chapter_markdown.strip()
-                }]
+                }],
+                "input_tokens": 0,
+                "output_tokens": 0
             }
 
         # Now, Python physically slices the text based on the quotes
@@ -109,5 +113,7 @@ class SemanticSlicer:
                 
         return {
             "chapter_summary": llm_output.get("chapter_summary", ""),
-            "topics": sliced_topics
+            "topics": sliced_topics,
+            "input_tokens": input_tokens,
+            "output_tokens": output_tokens
         }

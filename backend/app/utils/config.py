@@ -44,7 +44,7 @@ class Settings(BaseSettings):
     semantic_intelligence_prompt_version: int | None = None
     phase2_prompt_version: int | None = None
     deepseek_api_key: str = ""
-    deepseek_model: str = "deepseek-chat"
+    deepseek_model: str = "deepseek-v4-pro"
 
     # Phase 3 — Teaching Intelligence
     phase3_prompt_version: int = 1

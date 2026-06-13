@@ -54,9 +54,9 @@ async def process_semantic_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
             key_concepts=key_concepts
         )
         
-        # We don't track tokens tightly in the swarm yet
-        total_input_tokens = 0
-        total_output_tokens = 0
+        # We now track tokens accurately through the swarm and pipeline!
+        total_input_tokens = assembled_json.get("total_input_tokens", 0)
+        total_output_tokens = assembled_json.get("total_output_tokens", 0)
         
         # In the new schema we don't have teaching_units, we have topics
         topics_list = assembled_json.get("topics", [])

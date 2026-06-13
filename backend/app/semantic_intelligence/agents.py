@@ -66,12 +66,12 @@ class IntelligenceSwarm:
         
         try:
             result = await async_call_deepseek(full_prompt, system_prompt=system_prompt, response_format={"type": "json_object"})
-            return result["data"]
+            return result["data"], result.get("input_tokens", 0), result.get("output_tokens", 0)
         except Exception as e:
             print(f"  [CRITICAL WARNING] Returning empty object due to persistent failure. Last error: {e}")
-            return {}
+            return {}, 0, 0
 
-    async def _run_agent_1_cognitive(self, text_slice: str) -> dict:
+    async def _run_agent_1_cognitive(self, text_slice: str) -> tuple[dict, int, int]:
         
         prompt = """
 ROLE
@@ -286,7 +286,7 @@ RAW TEXT:
 """
         return await self._generate_with_fallback(prompt=prompt, text_slice=text_slice, schema=Agent1CognitiveOutput)
 
-    async def _run_agent_2_pedagogy(self, text_slice: str, agent1_json: dict) -> dict:
+    async def _run_agent_2_pedagogy(self, text_slice: str, agent1_json: dict) -> tuple[dict, int, int]:
         
         prompt = f"""
 ROLE
@@ -430,7 +430,7 @@ RAW TEXT:
 """
         return await self._generate_with_fallback(prompt=prompt, text_slice=text_slice, schema=Agent2PedagogyOutput)
 
-    async def _run_agent_3_assessment(self, text_slice: str, agent1_json: dict, agent2_json: dict) -> dict:
+    async def _run_agent_3_assessment(self, text_slice: str, agent1_json: dict, agent2_json: dict) -> tuple[dict, int, int]:
         
         prompt = f"""
 ROLE
@@ -576,22 +576,30 @@ RAW TEXT:
 """
         return await self._generate_with_fallback(prompt=prompt, text_slice=text_slice, schema=Agent3AssessmentOutput)
 
-    async def process_topic_slice(self, text_slice: str) -> dict:
+    async def process_topic_slice(self, text_slice: str) -> tuple[dict, int, int]:
         """
         The Orchestrator: Fires the 3 expert agents SEQUENTIALLY.
         Passes outputs of earlier agents into downstream agents for perfect cohesion.
         Merges their outputs perfectly into the final Topic Intelligence parameters.
         """
         print("Firing Sequential CBSE Expert Chain...")
+        total_in = 0
+        total_out = 0
         
         print("  -> Running Agent 1 (Cognitive Intelligence)...")
-        out1 = await self._run_agent_1_cognitive(text_slice)
+        out1, in1, out_tok1 = await self._run_agent_1_cognitive(text_slice)
+        total_in += in1
+        total_out += out_tok1
         
         print("  -> Running Agent 2 (Pedagogy Intelligence)...")
-        out2 = await self._run_agent_2_pedagogy(text_slice, out1)
+        out2, in2, out_tok2 = await self._run_agent_2_pedagogy(text_slice, out1)
+        total_in += in2
+        total_out += out_tok2
         
         print("  -> Running Agent 3 (Assessment Intelligence)...")
-        out3 = await self._run_agent_3_assessment(text_slice, out1, out2)
+        out3, in3, out_tok3 = await self._run_agent_3_assessment(text_slice, out1, out2)
+        total_in += in3
+        total_out += out_tok3
         
         print("Chain complete. Merging Intelligence Dimensions...")
         
@@ -621,4 +629,4 @@ RAW TEXT:
             "evidence": merged_evidence
         }
         
-        return mega_concept_object
+        return mega_concept_object, total_in, total_out

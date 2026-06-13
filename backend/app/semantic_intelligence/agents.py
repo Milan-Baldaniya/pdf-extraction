@@ -130,7 +130,7 @@ Every major extraction must be supported by evidence. Use exact text quote whene
 --------------------------------------------------
 OUTPUT RULES
 Return only data matching the supplied schema. No markdown. No explanations. No commentary.
-"""
+
 RAW TEXT:
 """
         return await self._generate_with_fallback(prompt=prompt, text_slice=text_slice, schema=Agent1CognitiveOutput)

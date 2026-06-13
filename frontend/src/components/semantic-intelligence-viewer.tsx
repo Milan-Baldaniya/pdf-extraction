@@ -283,14 +283,12 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                         {conceptObj.knowledge_items?.map((k: any, i: number) => (
                           <div key={i} className="p-4 rounded-xl border border-black/5 dark:border-white/5 bg-white/50 dark:bg-black/50">
                             <div className="flex justify-between items-start mb-2">
-                              <span className="font-bold text-lg">{k.name}</span>
+                              <span className="font-bold text-lg">{k.knowledge}</span>
                               <Badge variant="outline">{k.knowledge_type}</Badge>
                             </div>
-                            <p className="text-sm text-muted-foreground mb-3">{k.description}</p>
+                            <p className="text-sm text-muted-foreground mb-3">{k.statement}</p>
                             <div className="flex gap-2 text-xs mt-3">
-                              <InfoTooltip content="Importance: Indicates if this knowledge is core to passing exams or just supporting context."><span className="bg-black/5 px-2 py-1 rounded hover:bg-black/10 transition-colors">Importance: {formatValue(k.importance)}</span></InfoTooltip>
-                              <InfoTooltip content="Difficulty: Defines how hard this concept is for students to grasp initially."><span className="bg-black/5 px-2 py-1 rounded hover:bg-black/10 transition-colors">Difficulty: {formatValue(k.difficulty)}</span></InfoTooltip>
-                              <InfoTooltip content="Retention: Measures how critical it is for the student to remember this long-term."><span className="bg-black/5 px-2 py-1 rounded hover:bg-black/10 transition-colors">Retention: {formatValue(k.retention_priority)}</span></InfoTooltip>
+                              <InfoTooltip content="Confidence score of extraction"><span className="bg-black/5 px-2 py-1 rounded hover:bg-black/10 transition-colors">Confidence: {k.confidence}</span></InfoTooltip>
                             </div>
                           </div>
                         ))}
@@ -301,11 +299,15 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                         {conceptObj.abilities?.map((a: any, i: number) => (
                           <div key={i} className="p-4 rounded-xl border border-blue-500/20 bg-blue-50/30 dark:bg-blue-900/10">
                             <div className="flex items-center gap-2 mb-3">
-                              <InfoTooltip content="Ability Type: The specific cognitive action the student must perform."><Badge className="bg-blue-500 text-white hover:bg-blue-600">{formatValue(a.ability_type)}</Badge></InfoTooltip>
-                              <InfoTooltip content="Complexity: Defines the cognitive load required to perform this ability, helping teachers pace lessons."><span className="text-sm font-medium bg-blue-500/10 px-2 py-0.5 rounded text-blue-800 dark:text-blue-200">Complexity: {formatValue(a.complexity)}</span></InfoTooltip>
-                              {a.measurable && <InfoTooltip content="Measurable: Indicates if a teacher can easily test this ability."><span className="text-xs bg-emerald-500/10 text-emerald-700 px-2 py-0.5 rounded">Measurable</span></InfoTooltip>}
+                              <InfoTooltip content="Action Verb"><Badge className="bg-blue-500 text-white hover:bg-blue-600">{formatValue(a.verb)}</Badge></InfoTooltip>
                             </div>
-                            <p className="text-foreground/90">{a.statement}</p>
+                            <div className="font-bold text-blue-900 dark:text-blue-200 mb-2">{a.ability}</div>
+                            <p className="text-foreground/90 text-sm mb-3">{a.description}</p>
+                            {a.knowledge_refs && a.knowledge_refs.length > 0 && (
+                              <div className="text-xs text-blue-700/70 dark:text-blue-300/70">
+                                <b>Refs:</b> {a.knowledge_refs.join(", ")}
+                              </div>
+                            )}
                           </div>
                         ))}
                       </TabsContent>
@@ -315,12 +317,12 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                           {conceptObj.skills?.map((s: any, i: number) => (
                             <div key={i} className="p-4 rounded-xl border border-teal-500/20 bg-teal-50/30 dark:bg-teal-900/10">
-                              <div className="font-bold mb-1">{s.skill_name}</div>
-                              <InfoTooltip content="Skill Type: Categorizes the skill (e.g., Analytical, Practical)."><Badge variant="outline" className="mb-2 border-teal-500/30 text-teal-700">{formatValue(s.skill_type)}</Badge></InfoTooltip>
-                              <div className="flex gap-2 text-xs text-muted-foreground mt-2">
-                                <InfoTooltip content="Development Level: Indicates whether this is an introductory, intermediate, or advanced skill."><span className="bg-black/5 dark:bg-white/5 px-2 py-1 rounded hover:bg-black/10 transition-colors">Development: {formatValue(s.development_level)}</span></InfoTooltip>
-                                <InfoTooltip content="Transferability: Measures how easily this skill can be applied to other subjects or real-world scenarios."><span className="bg-black/5 dark:bg-white/5 px-2 py-1 rounded hover:bg-black/10 transition-colors">Transferability: {formatValue(s.transferability)}</span></InfoTooltip>
-                              </div>
+                              <div className="font-bold text-teal-800 dark:text-teal-200 mb-2">{s.skill}</div>
+                              {s.ability_refs && s.ability_refs.length > 0 && (
+                                <div className="text-xs text-teal-700/70 dark:text-teal-300/70 mt-2">
+                                  <b>Ability Refs:</b> {s.ability_refs.join(", ")}
+                                </div>
+                              )}
                             </div>
                           ))}
                         </div>
@@ -330,10 +332,12 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                       <TabsContent value="competency" className="space-y-4">
                         {conceptObj.competencies?.map((c: any, i: number) => (
                           <div key={i} className="p-4 rounded-xl border border-indigo-500/20 bg-indigo-50/30 dark:bg-indigo-900/10">
-                            <div className="font-bold text-indigo-800 dark:text-indigo-300 mb-2">{c.competency_name}</div>
-                            {c.evidence && <p className="text-sm text-foreground/80 italic">"{c.evidence}"</p>}
-                            <div className="mt-2 w-full bg-black/10 rounded-full h-1.5">
-                              <div className="bg-indigo-500 h-1.5 rounded-full" style={{ width: `${c.strength * 100}%` }}></div>
+                            <div className="font-bold text-indigo-800 dark:text-indigo-300 mb-2">{c.competency}</div>
+                            <p className="text-sm text-foreground/90 italic mb-3">"{c.statement}"</p>
+                            <div className="flex flex-wrap gap-2 text-[10px] opacity-70">
+                              {c.knowledge_refs && c.knowledge_refs.length > 0 && <span className="bg-indigo-500/10 px-2 py-1 rounded"><b>Knowledge:</b> {c.knowledge_refs.join(", ")}</span>}
+                              {c.ability_refs && c.ability_refs.length > 0 && <span className="bg-indigo-500/10 px-2 py-1 rounded"><b>Ability:</b> {c.ability_refs.join(", ")}</span>}
+                              {c.skill_refs && c.skill_refs.length > 0 && <span className="bg-indigo-500/10 px-2 py-1 rounded"><b>Skill:</b> {c.skill_refs.join(", ")}</span>}
                             </div>
                           </div>
                         ))}
@@ -377,12 +381,21 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                       {/* 8. MISCONCEPTIONS */}
                       <TabsContent value="misconception" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
                         {conceptObj.misconceptions?.map((m: any, i: number) => (
-                          <div key={i} className="p-4 rounded-xl border border-red-500/20 bg-red-50/30 dark:bg-red-900/10">
-                            <div className="font-bold text-red-800 dark:text-red-300 mb-2">⚠ {m.misconception}</div>
-                            <p className="text-sm text-red-700/80 mb-3"><span className="font-semibold">Fix:</span> {m.correction_strategy}</p>
-                            <div className="flex gap-2 mt-3">
-                              <InfoTooltip content="Frequency: How often students typically make this mistake."><Badge variant="outline" className="border-red-500/30 text-red-700 hover:bg-red-500/10">Frequency: {formatValue(m.frequency)}</Badge></InfoTooltip>
-                              <InfoTooltip content="Severity: How badly this misconception damages future learning if not corrected."><Badge variant="outline" className="border-red-500/30 text-red-700 hover:bg-red-500/10">Severity: {formatValue(m.severity)}</Badge></InfoTooltip>
+                          <div key={i} className="p-4 rounded-xl border border-red-500/20 bg-red-50/30 dark:bg-red-900/10 flex flex-col">
+                            <div className="font-bold text-red-800 dark:text-red-300 mb-2 flex gap-1.5 items-start">
+                              <AlertTriangle className="w-4 h-4 mt-0.5" />
+                              <span>{m.misconception}</span>
+                            </div>
+                            <p className="text-sm text-red-700/90 mb-3">{m.statement}</p>
+                            <div className="mt-auto space-y-2 text-xs">
+                              <div className="bg-red-500/10 p-2 rounded-lg">
+                                <span className="font-bold block mb-0.5 text-red-800/80 dark:text-red-300/80">Root Cause</span>
+                                <span className="text-red-900 dark:text-red-100 opacity-90">{m.root_cause}</span>
+                              </div>
+                              <div className="bg-green-500/10 p-2 rounded-lg border border-green-500/20">
+                                <span className="font-bold block mb-0.5 text-green-800 dark:text-green-300">Correction</span>
+                                <span className="text-green-900 dark:text-green-100 opacity-90">{m.correction}</span>
+                              </div>
                             </div>
                           </div>
                         ))}
@@ -405,10 +418,16 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                         {conceptObj.pedagogy_recommendations?.map((p: any, i: number) => (
                           <div key={i} className="p-4 rounded-xl border border-black/5 dark:border-white/5 bg-white/50 dark:bg-black/50">
                             <div className="flex justify-between items-start mb-2">
-                              <span className="font-bold text-lg">{p.pedagogy_type}</span>
-                              <InfoTooltip content="Effectiveness: Rating of how well this teaching method works for this concept."><Badge variant="outline" className="hover:bg-black/5">{p.effectiveness} Effectiveness</Badge></InfoTooltip>
+                              <span className="font-bold text-lg">{p.strategy}</span>
                             </div>
-                            <p className="text-sm text-muted-foreground">{p.rationale}</p>
+                            <p className="text-sm text-muted-foreground mb-3">{p.why_effective}</p>
+                            {p.concept_characteristics && p.concept_characteristics.length > 0 && (
+                              <div className="flex flex-wrap gap-1 mt-2">
+                                {p.concept_characteristics.map((char: string, idx: number) => (
+                                  <Badge key={idx} variant="outline" className="text-[10px] bg-black/5 border-none">{char}</Badge>
+                                ))}
+                              </div>
+                            )}
                           </div>
                         ))}
                       </TabsContent>

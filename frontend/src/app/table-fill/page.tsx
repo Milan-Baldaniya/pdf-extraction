@@ -1,5 +1,6 @@
 import { CurriculumTableFill } from "@/components/curriculum-table-fill"
 import { ChapterTableFill } from "@/components/chapter-table-fill"
+import { ConceptTableFill } from "@/components/concept-table-fill"
 import { SemanticTableFill } from "@/components/semantic-table-fill"
 import { ExternalLink, FileText, ArrowLeft } from "lucide-react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -47,6 +48,7 @@ export default function TableFillPage() {
             <TabsList className="bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10 rounded-full p-1 inline-flex h-12 items-center justify-center">
               <TabsTrigger value="curriculum" className="rounded-full px-8 py-2 text-sm font-medium transition-all duration-300 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm">Curriculum Queue</TabsTrigger>
               <TabsTrigger value="chapter" className="rounded-full px-8 py-2 text-sm font-medium transition-all duration-300 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm">Chapters Queue</TabsTrigger>
+              <TabsTrigger value="concept" className="rounded-full px-8 py-2 text-sm font-medium transition-all duration-300 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm">Concepts Queue</TabsTrigger>
               <TabsTrigger value="semantic" className="rounded-full px-8 py-2 text-sm font-medium transition-all duration-300 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm">Semantic Intelligence</TabsTrigger>
             </TabsList>
           </div>
@@ -55,6 +57,9 @@ export default function TableFillPage() {
           </TabsContent>
           <TabsContent value="chapter" className="mt-0 focus-visible:outline-none">
             <ChapterTableFill />
+          </TabsContent>
+          <TabsContent value="concept" className="mt-0 focus-visible:outline-none">
+            <ConceptTableFill />
           </TabsContent>
           <TabsContent value="semantic" className="mt-0 focus-visible:outline-none">
             <SemanticTableFill />

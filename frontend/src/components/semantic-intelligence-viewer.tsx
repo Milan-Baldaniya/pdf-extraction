@@ -73,18 +73,21 @@ function InfoTooltip({ children, content, className }: any) {
 }
 
 export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerProps) {
-  // Support both new `topics` structure and existing `teaching_units` structure
-  const topicsList = data?.teaching_units || data?.topics;
+  // Support new `concepts` structure, fallback to `topics` or `teaching_units`
+  const isLegacy = !data?.concepts;
+  const itemsList = data?.concepts || data?.topics || data?.teaching_units;
 
-  if (!data || !topicsList) {
+  if (!data || !itemsList || itemsList.length === 0) {
     return <div className="p-4 text-center text-muted-foreground">No Semantic Intelligence data available yet.</div>;
   }
 
-  const [activeTopic, setActiveTopic] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
   const [openConceptIndex, setOpenConceptIndex] = useState<number | null>(0);
+  
+  const activeItem = itemsList[activeIndex];
 
   return (
-    <TooltipProvider delayDuration={100}>
+    <TooltipProvider>
       <div className="w-full flex flex-col gap-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
 
       {/* Chapter Header */}
@@ -95,40 +98,44 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
 
-        {/* Left Sidebar: Topics/Teaching Units */}
+        {/* Left Sidebar: Concepts/Topics */}
         <div className="col-span-1 flex flex-col gap-2">
-          <h3 className="text-sm font-semibold text-foreground/50 uppercase tracking-wider pl-2 mb-2">Teaching Topics</h3>
-          {topicsList.map((topic: any, idx: number) => (
-            <button
-              key={idx}
-              onClick={() => {
-                setActiveTopic(idx);
-                setOpenConceptIndex(0); // Reset accordion on topic change
-              }}
-              className={`text-left p-4 rounded-xl transition-all duration-300 border-[0.5px] ${activeTopic === idx
-                ? "bg-white/80 dark:bg-white/10 border-black/20 dark:border-white/20 shadow-sm"
-                : "bg-transparent border-transparent hover:bg-white/30 dark:hover:bg-white/5"
-                }`}
-            >
-              <div className="font-semibold text-foreground/80 line-clamp-2">{topic.topic_title || topic.topic_name}</div>
-              <div className="text-xs text-muted-foreground mt-1 line-clamp-1">{topic.topic_summary}</div>
-            </button>
-          ))}
+          <h3 className="text-sm font-semibold text-foreground/50 uppercase tracking-wider pl-2 mb-2">{isLegacy ? "Teaching Topics" : "Concepts"}</h3>
+          {itemsList.map((item: any, idx: number) => {
+            const title = item.concept?.concept_name || item.topic_title || item.topic_name;
+            const summary = item.concept?.definition || item.topic_summary;
+            return (
+              <button
+                key={idx}
+                onClick={() => {
+                  setActiveIndex(idx);
+                  setOpenConceptIndex(0); // Reset accordion on change (for legacy)
+                }}
+                className={`text-left p-4 rounded-xl transition-all duration-300 border-[0.5px] ${activeIndex === idx
+                  ? "bg-white/80 dark:bg-white/10 border-black/20 dark:border-white/20 shadow-sm"
+                  : "bg-transparent border-transparent hover:bg-white/30 dark:hover:bg-white/5"
+                  }`}
+              >
+                <div className="font-semibold text-foreground/80 line-clamp-2">{title}</div>
+                <div className="text-xs text-muted-foreground mt-1 line-clamp-1">{summary}</div>
+              </button>
+            );
+          })}
         </div>
 
-        {/* Right Content: Subtopics / 13 Dimensions */}
+        {/* Right Content: Dimensions */}
         <div className="col-span-1 lg:col-span-3">
-          {topicsList[activeTopic] && (
+          {activeItem && (
             <div className="flex flex-col gap-6">
 
               <div className="p-6 rounded-2xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/60 dark:bg-black/60 backdrop-blur-2xl shadow-sm">
-                <h3 className="text-xl font-bold">{topicsList[activeTopic].topic_title || topicsList[activeTopic].topic_name}</h3>
-                <p className="text-sm text-muted-foreground mt-2">{topicsList[activeTopic].topic_summary || topicsList[activeTopic].topic_description}</p>
+                <h3 className="text-xl font-bold">{activeItem.concept?.concept_name || activeItem.topic_title || activeItem.topic_name}</h3>
+                <p className="text-sm text-muted-foreground mt-2">{activeItem.concept?.definition || activeItem.topic_summary || activeItem.topic_description}</p>
               </div>
 
               <div className="w-full flex flex-col">
                 {/* FALLBACK: OLD SCHEMA (with subtopics) */}
-                {topicsList[activeTopic].subtopics && (
+                {isLegacy && activeItem.subtopics && (
                   <div className="mb-6 p-4 rounded-xl border border-yellow-500/30 bg-yellow-500/10 text-yellow-800 dark:text-yellow-200 flex items-start gap-3">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mt-0.5"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" /><path d="M12 9v4" /><path d="M12 17h.01" /></svg>
                     <div>
@@ -137,7 +144,7 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                     </div>
                   </div>
                 )}
-                {topicsList[activeTopic].subtopics && topicsList[activeTopic].subtopics.map((sub: any, cIdx: number) => (
+                {isLegacy && activeItem.subtopics && activeItem.subtopics.map((sub: any, cIdx: number) => (
                   <CustomAccordionItem
                     key={cIdx}
                     isOpen={openConceptIndex === cIdx}
@@ -251,16 +258,9 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                   </CustomAccordionItem>
                 ))}
 
-                {/* NEW SCHEMA: CONCEPT LAYER WITH 15 DIMENSIONS */}
-                {topicsList[activeTopic].concepts && topicsList[activeTopic].concepts.map((conceptObj: any, cIdx: number) => (
-                  <CustomAccordionItem
-                    key={`new-${cIdx}`}
-                    isOpen={openConceptIndex === `new-${cIdx}`}
-                    onClick={() => setOpenConceptIndex(openConceptIndex === `new-${cIdx}` ? null : `new-${cIdx}`)}
-                    title={conceptObj.concept?.concept_name || "Concept"}
-                    badge={conceptObj.concept?.concept_type || "Type"}
-                    subtitle={conceptObj.concept?.definition || ""}
-                  >
+                {/* NEW SCHEMA: FLAT CONCEPT LAYER WITH 13 DIMENSIONS */}
+                {!isLegacy && (
+                  <div className="animate-in fade-in slide-in-from-top-2 duration-300">
                     <Tabs defaultValue="knowledge" className="w-full mt-2">
                       <TabsList className="mb-6 bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10 rounded-xl p-1 inline-flex w-full overflow-x-auto justify-start h-auto flex-wrap gap-1">
                         <TabsTrigger value="knowledge" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Brain className="w-3.5 h-3.5"/> Knowledge</TabsTrigger>
@@ -280,7 +280,7 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
 
                       {/* 1. KNOWLEDGE */}
                       <TabsContent value="knowledge" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-                        {conceptObj.knowledge_items?.map((k: any, i: number) => (
+                        {activeItem.knowledge_items?.map((k: any, i: number) => (
                           <div key={i} className="p-4 rounded-xl border border-black/5 dark:border-white/5 bg-white/50 dark:bg-black/50">
                             <div className="flex justify-between items-start mb-2">
                               <span className="font-bold text-lg">{k.knowledge}</span>
@@ -296,7 +296,7 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
 
                       {/* 2. ABILITY */}
                       <TabsContent value="ability" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-                        {conceptObj.abilities?.map((a: any, i: number) => (
+                        {activeItem.abilities?.map((a: any, i: number) => (
                           <div key={i} className="p-4 rounded-xl border border-blue-500/20 bg-blue-50/30 dark:bg-blue-900/10">
                             <div className="flex items-center gap-2 mb-3">
                               <InfoTooltip content="Action Verb"><Badge className="bg-blue-500 text-white hover:bg-blue-600">{formatValue(a.verb)}</Badge></InfoTooltip>
@@ -313,9 +313,9 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                       </TabsContent>
 
                       {/* 3. SKILL */}
-                      <TabsContent value="skill" className="space-y-4">
+                      <TabsContent value="skill" className="space-y-4 mt-4">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                          {conceptObj.skills?.map((s: any, i: number) => (
+                          {activeItem.skills?.map((s: any, i: number) => (
                             <div key={i} className="p-4 rounded-xl border border-teal-500/20 bg-teal-50/30 dark:bg-teal-900/10">
                               <div className="font-bold text-teal-800 dark:text-teal-200 mb-2">{s.skill}</div>
                               {s.ability_refs && s.ability_refs.length > 0 && (
@@ -329,8 +329,8 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                       </TabsContent>
 
                       {/* 4. COMPETENCY */}
-                      <TabsContent value="competency" className="space-y-4">
-                        {conceptObj.competencies?.map((c: any, i: number) => (
+                      <TabsContent value="competency" className="space-y-4 mt-4">
+                        {activeItem.competencies?.map((c: any, i: number) => (
                           <div key={i} className="p-4 rounded-xl border border-indigo-500/20 bg-indigo-50/30 dark:bg-indigo-900/10">
                             <div className="font-bold text-indigo-800 dark:text-indigo-300 mb-2">{c.competency}</div>
                             <p className="text-sm text-foreground/90 italic mb-3">"{c.statement}"</p>
@@ -344,9 +344,9 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                       </TabsContent>
 
                       {/* 5. BLOOMS */}
-                      <TabsContent value="blooms" className="space-y-4">
+                      <TabsContent value="blooms" className="space-y-4 mt-4">
                         <div className="flex flex-wrap gap-3">
-                          {conceptObj.blooms?.map((b: any, i: number) => (
+                          {activeItem.blooms?.map((b: any, i: number) => (
                             <div key={i} className="px-4 py-2 rounded-xl border border-purple-500/20 bg-purple-50/30 dark:bg-purple-900/10 flex items-center gap-2">
                               <span className="font-bold text-purple-700 dark:text-purple-300">{b.level}</span>
                               <span className="text-xs text-muted-foreground">{Math.round(b.coverage_score * 100)}%</span>
@@ -356,8 +356,8 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                       </TabsContent>
 
                       {/* 6. DOK */}
-                      <TabsContent value="dok" className="space-y-4">
-                        {conceptObj.dok?.map((d: any, i: number) => (
+                      <TabsContent value="dok" className="space-y-4 mt-4">
+                        {activeItem.dok?.map((d: any, i: number) => (
                           <div key={i} className="p-4 rounded-xl border border-amber-500/20 bg-amber-50/30 dark:bg-amber-900/10 flex items-center gap-4">
                             <div className="w-10 h-10 rounded-full bg-amber-500 text-white flex items-center justify-center font-bold text-xl">{d.level}</div>
                             <div className="font-medium text-amber-900 dark:text-amber-200">{d.description}</div>
@@ -366,8 +366,8 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                       </TabsContent>
 
                       {/* 7. PREREQUISITES */}
-                      <TabsContent value="prerequisite" className="space-y-4">
-                        {conceptObj.prerequisites?.map((p: any, i: number) => (
+                      <TabsContent value="prerequisite" className="space-y-4 mt-4">
+                        {activeItem.prerequisites?.map((p: any, i: number) => (
                           <div key={i} className="p-3 rounded-xl border border-black/5 dark:border-white/5 bg-white/50 dark:bg-black/50 flex justify-between items-center">
                             <div className="flex flex-col">
                               <span className="font-bold">{p.concept_name}</span>
@@ -380,7 +380,7 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
 
                       {/* 8. MISCONCEPTIONS */}
                       <TabsContent value="misconception" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-                        {conceptObj.misconceptions?.map((m: any, i: number) => (
+                        {activeItem.misconceptions?.map((m: any, i: number) => (
                           <div key={i} className="p-4 rounded-xl border border-red-500/20 bg-red-50/30 dark:bg-red-900/10 flex flex-col">
                             <div className="font-bold text-red-800 dark:text-red-300 mb-2 flex gap-1.5 items-start">
                               <AlertTriangle className="w-4 h-4 mt-0.5" />
@@ -402,9 +402,9 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                       </TabsContent>
 
                       {/* 9. REAL WORLD */}
-                      <TabsContent value="realworld" className="space-y-4">
+                      <TabsContent value="realworld" className="space-y-4 mt-4">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                          {conceptObj.real_world_applications?.map((r: any, i: number) => (
+                          {activeItem.real_world_applications?.map((r: any, i: number) => (
                             <div key={i} className="p-4 rounded-xl border border-emerald-500/20 bg-emerald-50/30 dark:bg-emerald-900/10">
                               <Badge className="bg-emerald-500/20 text-emerald-800 border-none mb-2 hover:bg-emerald-500/30">{r.application_type}</Badge>
                               <p className="text-sm text-foreground/80">{r.example}</p>
@@ -415,7 +415,7 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
 
                       {/* 10. PEDAGOGY */}
                       <TabsContent value="pedagogy" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-                        {conceptObj.pedagogy_recommendations?.map((p: any, i: number) => (
+                        {activeItem.pedagogy_recommendations?.map((p: any, i: number) => (
                           <div key={i} className="p-4 rounded-xl border border-black/5 dark:border-white/5 bg-white/50 dark:bg-black/50">
                             <div className="flex justify-between items-start mb-2">
                               <span className="font-bold text-lg">{p.strategy}</span>
@@ -434,7 +434,7 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
 
                       {/* 11. OBJECTIVES */}
                       <TabsContent value="objectives" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-                        {conceptObj.learning_objectives?.map((lo: any, i: number) => (
+                        {activeItem.learning_objectives?.map((lo: any, i: number) => (
                           <div key={i} className="p-3 rounded-xl border border-black/5 dark:border-white/5 bg-white/50 dark:bg-black/50 flex items-start gap-3">
                             <div className="mt-1 w-2 h-2 rounded-full bg-blue-500 flex-shrink-0"></div>
                             <div>
@@ -450,7 +450,7 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
 
                       {/* 12. OUTCOMES */}
                       <TabsContent value="outcomes" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-                        {conceptObj.learning_outcomes?.map((lo: any, i: number) => (
+                        {activeItem.learning_outcomes?.map((lo: any, i: number) => (
                           <div key={i} className="p-3 rounded-xl border border-emerald-500/20 bg-emerald-50/10 dark:bg-emerald-900/10 flex items-start gap-3">
                             <div className="mt-0.5 w-5 h-5 rounded-full bg-emerald-500/20 flex items-center justify-center text-emerald-600 flex-shrink-0">✓</div>
                             <div>
@@ -466,7 +466,7 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
 
                       {/* 13. BLUEPRINT */}
                       <TabsContent value="blueprint" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-                        {conceptObj.assessment_blueprint?.map((ab: any, i: number) => (
+                        {activeItem.assessment_blueprint?.map((ab: any, i: number) => (
                           <div key={i} className="p-4 rounded-xl border border-amber-500/20 bg-amber-50/30 dark:bg-amber-900/10">
                             <div className="flex justify-between items-start mb-3 gap-4">
                               <div className="font-medium italic text-foreground/90 text-sm">"{ab.recommended_question}"</div>
@@ -482,8 +482,8 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                         ))}
                       </TabsContent>
                     </Tabs>
-                  </CustomAccordionItem>
-                ))}
+                  </div>
+                )}
               </div>
 
             </div>

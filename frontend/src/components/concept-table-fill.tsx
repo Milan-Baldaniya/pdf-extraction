@@ -18,9 +18,10 @@ interface CurriculumRecord {
   chapter_number: string
   created_at: string
   is_processed: boolean
+  has_chapter: boolean
 }
 
-export function ChapterTableFill() {
+export function ConceptTableFill() {
   const [records, setRecords] = useState<CurriculumRecord[]>([])
   const [loading, setLoading] = useState(false)
   const [processingId, setProcessingId] = useState<number | null>(null)
@@ -47,7 +48,7 @@ export function ChapterTableFill() {
   const fetchRecords = async () => {
     setLoading(true)
     try {
-      const res = await fetch("http://localhost:8000/api/chapters")
+      const res = await fetch("http://localhost:8000/api/concepts")
       if (res.ok) {
         const data = await res.json()
         setRecords(data)
@@ -77,7 +78,7 @@ export function ChapterTableFill() {
     setProcessingId(extractionId)
     setResult(null)
     try {
-      const res = await fetch(`http://localhost:8000/api/chapters/${extractionId}/process${forceQuery}`, {
+      const res = await fetch(`http://localhost:8000/api/concepts/${extractionId}/process${forceQuery}`, {
         method: 'POST'
       })
       const data = await res.json()
@@ -89,7 +90,7 @@ export function ChapterTableFill() {
       }
     } catch (err) {
       console.error(err)
-      alert("Failed to process curriculum")
+      alert("Failed to process concepts")
     } finally {
       setProcessingId(null)
     }
@@ -107,13 +108,13 @@ export function ChapterTableFill() {
     setProcessingId(extractionId)
     setResult(null)
     try {
-      const res = await fetch(`http://localhost:8000/api/chapters/${extractionId}/result`, { cache: 'no-store' })
+      const res = await fetch(`http://localhost:8000/api/concepts/${extractionId}/result`, { cache: 'no-store' })
       if (res.ok) {
         const data = await res.json()
         setResult({
           status: "view_only",
-          chapter_master_id: data.chapter_master_id,
-          chapter_data: data
+          chapter_id: data.chapter_id,
+          concepts: data.concepts
         })
       } else {
         const data = await res.json()
@@ -121,7 +122,7 @@ export function ChapterTableFill() {
       }
     } catch (err) {
       console.error(err)
-      alert("Failed to fetch curriculum data")
+      alert("Failed to fetch concept data")
     } finally {
       setProcessingId(null)
     }
@@ -135,14 +136,14 @@ export function ChapterTableFill() {
         <tr className="bg-yellow-50/50 dark:bg-yellow-900/10">
           <td colSpan={7} className="p-6 border-b border-black/5 dark:border-white/5">
             <div className="p-4 bg-yellow-50 text-yellow-800 rounded-md border border-yellow-200">
-              This chapter was already processed and exists in chapter_master (ID: {result.chapter_master_id}).
+              This chapter's concepts were already processed.
             </div>
           </td>
         </tr>
       )
     }
 
-    const { chapter_master_id, chapter_data, status } = result
+    const { concepts, status } = result
     return (
       <tr className="bg-black/[0.02] dark:bg-white/[0.02] shadow-inner">
         <td colSpan={7} className="p-6 border-b border-black/5 dark:border-white/5">
@@ -150,52 +151,37 @@ export function ChapterTableFill() {
             {status === "view_only" ? (
               <div className="p-4 bg-blue-50/80 text-blue-800 rounded-md border border-blue-200 font-medium flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><path d="M12 16v-4" /><path d="M12 8h.01" /></svg>
-                Viewing Extracted Chapter Data (ID: {chapter_master_id})
+                Viewing Extracted Concepts Data
               </div>
             ) : (
               <div className="p-4 bg-green-50/80 text-green-800 rounded-md border border-green-200 flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" /></svg>
-                Successfully filled chapter_master (ID: {result.chapter_master_id})!
+                Successfully filled lms_concept!
               </div>
             )}
 
             <div className="grid grid-cols-1 gap-6 pb-4">
               <div className="rounded-xl border border-black/10 bg-white/60 dark:bg-black/60 overflow-hidden backdrop-blur-md">
-                <div className="bg-black/5 px-4 py-3 font-semibold text-sm border-b border-black/10">Chapter Summary</div>
-                <table className="min-w-full text-sm">
-                  <thead className="bg-black/5">
-                    <tr>
-                      <th className="border-b border-black/5 p-3 text-left font-medium">Mapped Unit</th>
-                      <th className="border-b border-black/5 p-3 text-left font-medium">Chapter Name</th>
-                      <th className="border-b border-black/5 p-3 text-left font-medium">Academic Year</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td className="p-3 font-medium min-w-[120px]">
-                        {chapter_data?.unit_name ? `${chapter_data.unit_name} (ID: ${chapter_data.unit_id})` : <span className="text-amber-600">Unmapped (No Match in Units)</span>}
-                      </td>
-                      <td className="p-3 min-w-[100px] font-semibold">{chapter_data?.chapter_name || "-"}</td>
-                      <td className="p-3 min-w-[100px]">{chapter_data?.syear || "-"}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-
-              <div className="rounded-xl border border-black/10 bg-white/60 dark:bg-black/60 overflow-hidden backdrop-blur-md">
-                <div className="bg-black/5 px-4 py-3 font-semibold text-sm border-b border-black/10">Extracted Key Concepts</div>
+                <div className="bg-black/5 px-4 py-3 font-semibold text-sm border-b border-black/10">Extracted Concepts ({concepts?.length || 0})</div>
                 <div className="p-4 bg-white/40 dark:bg-black/40">
-                  {chapter_data?.key_concepts && chapter_data.key_concepts.length > 0 ? (
+                  {concepts && concepts.length > 0 ? (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                      {chapter_data.key_concepts.map((concept: any, idx: number) => (
-                        <div key={idx} className="p-4 rounded-xl border border-black/5 dark:border-white/5 bg-white dark:bg-black/50 shadow-sm hover:shadow-md transition-shadow">
-                          <div className="font-semibold text-foreground/90 mb-1.5">{concept.name}</div>
-                          <div className="text-xs text-foreground/70 leading-relaxed">{concept.description}</div>
+                      {concepts.map((concept: any, idx: number) => (
+                        <div key={idx} className="p-4 rounded-xl border border-black/5 dark:border-white/5 bg-white dark:bg-black/50 shadow-sm hover:shadow-md transition-shadow relative">
+                          <div className="absolute top-3 right-3 bg-blue-500/10 text-blue-600 dark:text-blue-400 text-[10px] font-bold px-2 py-0.5 rounded-full">
+                            {concept.mastery_threshold}% Mastery
+                          </div>
+                          <div className="font-semibold text-foreground/90 mb-1.5 pr-16">{concept.name}</div>
+                          <div className="text-xs text-foreground/70 leading-relaxed mb-3">{concept.description}</div>
+                          <div className="flex items-center text-xs text-muted-foreground/80 bg-black/5 dark:bg-white/5 rounded-md px-2 py-1 w-fit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            {concept.estimated_mastery_minutes} min est.
+                          </div>
                         </div>
                       ))}
                     </div>
                   ) : (
-                    <div className="text-center text-muted-foreground/50 py-4 italic">No key concepts extracted.</div>
+                    <div className="text-center text-muted-foreground/50 py-4 italic">No concepts extracted.</div>
                   )}
                 </div>
               </div>
@@ -210,9 +196,9 @@ export function ChapterTableFill() {
     <div className="w-full max-w-6xl mx-auto rounded-[2rem] border-[0.5px] border-black/10 dark:border-white/20 bg-white/40 dark:bg-black/40 backdrop-blur-[40px] saturate-200 shadow-[0_8px_32px_0_rgba(0,0,0,0.1)] p-6 md:p-10 relative overflow-hidden before:absolute before:inset-0 before:-z-10 before:rounded-[2rem] before:bg-gradient-to-br before:from-white/40 before:to-transparent before:opacity-50 dark:before:from-white/10 dark:before:to-transparent">
 
       <div className="mb-8">
-        <h2 className="text-3xl font-bold tracking-tight text-foreground/90">Chapter Data Filler Module</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-foreground/90">Concepts Data Filler Module</h2>
         <p className="text-muted-foreground/70 mt-2 text-sm max-w-2xl">
-          Process extracted chapter markdown using Gemini to automatically populate the chapter_master table and map it to units natively.
+          Process extracted chapter markdown and key concepts to automatically populate the lms_concept table with deep mastery details.
         </p>
       </div>
 
@@ -220,8 +206,6 @@ export function ChapterTableFill() {
         <div className="mt-0">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-
-
               <div className="flex gap-3 z-[60]">
                 <div className="w-[160px]">
                   <CustomSelect
@@ -306,19 +290,20 @@ export function ChapterTableFill() {
                             )}
                             <Button
                               size="sm"
-                              disabled={processingId === r.id && result === null}
+                              disabled={(processingId === r.id && result === null) || !r.has_chapter}
                               onClick={() => handleProcess(r.id)}
-                              className={`rounded-full transition-all duration-300 ${r.is_processed
+                              className={`rounded-full transition-all duration-300 ${!r.has_chapter ? "opacity-50 cursor-not-allowed" : ""} ${r.is_processed
                                 ? "bg-black/5 hover:bg-black/10 text-foreground/70 shadow-none border-[0.5px] border-black/10 dark:bg-white/5 dark:hover:bg-white/10 dark:border-white/10"
                                 : "bg-foreground hover:bg-foreground/90 text-background shadow-md shadow-black/10 dark:shadow-white/10"
                                 }`}
+                              title={!r.has_chapter ? "Must process Chapter first" : ""}
                             >
                               {processingId === r.id && result === null ? (
                                 <span className="flex items-center gap-2">
                                   <span className="h-3 w-3 border-2 border-current border-t-transparent rounded-full animate-spin"></span>
                                   {r.is_processed ? "Working..." : "Processing"}
                                 </span>
-                              ) : (r.is_processed ? "Reprocess" : "Process & Fill")}
+                              ) : (r.is_processed ? "Reprocess" : (!r.has_chapter ? "Need Chapter" : "Process & Fill"))}
                             </Button>
                           </div>
                         </td>

@@ -6,7 +6,7 @@ from app.semantic_intelligence.deepseek_client import call_deepseek
 
 logger = logging.getLogger(__name__)
 
-def process_curriculum_by_id(extraction_id: int):
+def process_curriculum_by_id(extraction_id: int, force: bool = False):
     """Process a curriculum extraction and insert to lms_curriculum and lms_units."""
     with SessionLocal() as db:
         row = db.execute(text("SELECT * FROM document_extractions WHERE id = :id"), {"id": extraction_id}).fetchone()
@@ -17,9 +17,16 @@ def process_curriculum_by_id(extraction_id: int):
         if not md_content.strip():
             raise ValueError(f"No markdown content for extraction ID {extraction_id}.")
 
-        # Check if already processed (we will Upsert instead of returning early)
+        # Check if already processed and skip to save tokens
         existing = db.execute(text("SELECT id FROM lms_curriculum WHERE extraction_id = :id"), {"id": extraction_id}).fetchone()
-        is_update = existing is not None
+        if existing and not force:
+            return {
+                "status": "already_processed",
+                "action": "skipped",
+                "curriculum_id": existing[0],
+                "message": "Curriculum already processed. Skipped to save LLM tokens.",
+                "curriculum_data": get_curriculum_data_by_extraction_id(extraction_id)
+            }
 
         prompt = f"""
 You are an expert educational data extractor.
@@ -36,6 +43,14 @@ Rules:
      - "planned_periods": integer representing periods or hours allocated (e.g., 50). Extract just the number.
      - "total_marks": integer marks allocated to this unit (e.g. 25)
      - "unit_chapters": A list of strings containing the names of all the chapters belonging to this unit. E.g. ["Chemical Reactions", "Acids, Bases and Salts"]. Return empty list if no chapters are found.
+- "curricular_goals": A list of Curricular Goals (e.g., CG 1, CG 2) found in the text.
+   For each goal:
+     - "code": The code of the goal, e.g. "CG 1" (string)
+     - "description": The textual description of the goal (string)
+     - "competencies": A list of competencies that fall under this goal.
+       For each competency:
+         - "code": The code of the competency, e.g. "C 1.1" (string)
+         - "description": The textual description of the competency (string)
 
 Markdown Content:
 {md_content}
@@ -52,6 +67,18 @@ Return exactly a valid JSON object matching this schema:
       "planned_periods": int,
       "total_marks": int,
       "unit_chapters": [str]
+    }}
+  ],
+  "curricular_goals": [
+    {{
+      "code": str,
+      "description": str,
+      "competencies": [
+        {{
+          "code": str,
+          "description": str
+        }}
+      ]
     }}
   ]
 }}
@@ -162,6 +189,62 @@ Return exactly a valid JSON object matching this schema:
                     })
             db.commit()
 
+        # Step 3: Parse and insert curricular goals and competencies
+        curricular_goals = data.get("curricular_goals", [])
+        if curricular_goals and curriculum_id:
+            # Clean up old outcomes for this curriculum to prevent duplicates
+            db.execute(
+                text("DELETE FROM lms_learning_outcomes WHERE curriculum_id = :cid"),
+                {"cid": curriculum_id}
+            )
+            db.commit()
+
+            insert_outcome_sql = text("""
+                INSERT INTO lms_learning_outcomes 
+                (curriculum_id, extraction_id, standard_id, subject_id, parent_id, code, type, description, created_at, updated_at)
+                VALUES 
+                (:curriculum_id, :extraction_id, :standard_id, :subject_id, :parent_id, :code, :type, :description, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
+            """)
+
+            for cg in curricular_goals:
+                # Insert the Curricular Goal
+                res_cg = db.execute(insert_outcome_sql, {
+                    "curriculum_id": curriculum_id,
+                    "extraction_id": extraction_id,
+                    "standard_id": row.standard_id,
+                    "subject_id": row.subject_id,
+                    "parent_id": None,
+                    "code": cg.get("code", ""),
+                    "type": "Curricular Goal",
+                    "description": cg.get("description", "")
+                })
+                
+                # Fetch the ID of the inserted goal directly from cursor's lastrowid
+                cg_id = res_cg.lastrowid
+                
+                # Insert its Competencies
+                for comp in cg.get("competencies", []):
+                    db.execute(insert_outcome_sql, {
+                        "curriculum_id": curriculum_id,
+                        "extraction_id": extraction_id,
+                        "standard_id": row.standard_id,
+                        "subject_id": row.subject_id,
+                        "parent_id": cg_id,
+                        "code": comp.get("code", ""),
+                        "type": "Competency",
+                        "description": comp.get("description", "")
+                    })
+            db.commit()
+
+        # Step 4: Fetch exactly what we just inserted so the response format matches perfectly
+        outcomes = db.execute(
+            text("SELECT * FROM lms_learning_outcomes WHERE curriculum_id = :cid ORDER BY id ASC"), 
+            {"cid": curriculum_id}
+        ).mappings().fetchall()
+
+        # Overwrite the LLM data with the standardized DB response for the frontend
+        data["learning_outcomes"] = [dict(o) for o in outcomes]
+
         return {
             "status": "updated" if is_update else "success",
             "curriculum_id": curriculum_id,
@@ -188,6 +271,8 @@ def get_curriculum_data_by_extraction_id(extraction_id: int):
         
         units = db.execute(text("SELECT * FROM lms_units WHERE curriculum_id = :cid ORDER BY unit_number ASC"), {"cid": curr["id"]}).mappings().fetchall()
         
+        outcomes = db.execute(text("SELECT * FROM lms_learning_outcomes WHERE curriculum_id = :cid ORDER BY id ASC"), {"cid": curr["id"]}).mappings().fetchall()
+        
         # Format the data to perfectly match what the frontend expects in "extracted_data"
         return {
             "curriculum_id": curr["id"],
@@ -195,6 +280,7 @@ def get_curriculum_data_by_extraction_id(extraction_id: int):
                 "framework": curr["framework"],
                 "total_marks": curr["total_marks"],
                 "internal_marks": curr["internal_marks"],
-                "units": [dict(u) for u in units]
+                "units": [dict(u) for u in units],
+                "learning_outcomes": [dict(o) for o in outcomes]
             }
         }

@@ -4,7 +4,7 @@ from typing import Dict, Any
 from .slicer import SemanticSlicer
 from .agents import IntelligenceSwarm
 
-async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, key_concepts: str = "No predefined key concepts.") -> Dict[str, Any]:
+async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, key_concepts: str = "No predefined key concepts.", official_outcomes: str = "") -> Dict[str, Any]:
     """
     Phase 4: The Core Orchestrator
     This function brings together the Slicer and the Micro-Agent Swarm.
@@ -23,49 +23,53 @@ async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, ke
     print("Phase 2: Slicing Chapter via LLM Quote-Matching...")
     slicer_result = slicer.analyze_and_slice(raw_markdown, key_concepts)
     chapter_summary = slicer_result.get("chapter_summary", "Auto-generated educational intelligence graph.")
-    sliced_topics = slicer_result.get("topics", [])
+    sliced_concepts = slicer_result.get("concepts", [])
     
-    print(f"Slicer identified {len(sliced_topics)} semantic topics.\n")
+    print(f"Slicer identified {len(sliced_concepts)} semantic concepts.\n")
     
-    final_topics = []
+    final_concepts = []
     total_input_tokens = slicer_result.get("input_tokens", 0)
     total_output_tokens = slicer_result.get("output_tokens", 0)
     
     # 3. Process each slice through the Swarm (Phase 3 & 4) in PARALLEL
-    semaphore = asyncio.Semaphore(15)  # Process up to 15 topics concurrently
+    semaphore = asyncio.Semaphore(15)  # Process up to 15 concepts concurrently
     
-    async def process_single_topic(index: int, topic_data: dict):
-        title = topic_data["topic_title"]
-        topic_summary = topic_data.get("topic_summary", "")
-        topic_description = topic_data.get("topic_description", "")
-        content = topic_data["content"]
-        print(f"[Topic {index + 1}/{len(sliced_topics)}] STARTING: {title}")
+    async def process_single_concept(index: int, concept_data: dict):
+        title = concept_data.get("concept_title", "Unknown")
+        content = concept_data.get("content", "")
+        print(f"[Concept {index + 1}/{len(sliced_concepts)}] STARTING: {title}")
         
         async with semaphore:
             try:
                 # Execute the Sequential Chain Swarm
-                mega_concept_object, t_in, t_out = await swarm.process_topic_slice(content)
+                mega_concept_object, t_in, t_out = await swarm.process_topic_slice(
+                    text_slice=content,
+                    chapter_name=chapter_name,
+                    chapter_summary=chapter_summary,
+                    concept_name=title,
+                    official_outcomes=official_outcomes
+                )
                 
-                # Since the user requested the TIO (TopicIntelligenceObject) layer containing Concepts:
-                final_topic_obj = {
-                    "topic_name": title,
-                    "topic_summary": topic_summary,
-                    "topic_description": topic_description,
-                    "concepts": [mega_concept_object] 
-                }
+                # Overwrite the generated concept meta with the Slicer's titles just to be consistent
+                if "concept" not in mega_concept_object or not mega_concept_object["concept"]:
+                    mega_concept_object["concept"] = {}
+                mega_concept_object["concept"]["concept_name"] = title
                 
                 print(f"Successfully compiled intelligence for: {title}")
-                return final_topic_obj, t_in, t_out
+                return mega_concept_object, t_in, t_out
             except Exception as e:
-                print(f"Error processing topic '{title}': {str(e)}")
+                import traceback
+                with open("error_log.txt", "a") as f:
+                    f.write(f"Error processing concept '{title}': {str(e)}\n{traceback.format_exc()}\n")
+                print(f"Error processing concept '{title}': {str(e)}")
                 return None, 0, 0
 
-    # Run all topics through the swarm simultaneously
-    results = await asyncio.gather(*[process_single_topic(i, t) for i, t in enumerate(sliced_topics)])
+    # Run all concepts through the swarm simultaneously
+    results = await asyncio.gather(*[process_single_concept(i, c) for i, c in enumerate(sliced_concepts)])
     
-    for topic_obj, t_in, t_out in results:
-        if topic_obj:
-            final_topics.append(topic_obj)
+    for concept_obj, t_in, t_out in results:
+        if concept_obj:
+            final_concepts.append(concept_obj)
             total_input_tokens += t_in
             total_output_tokens += t_out
             
@@ -73,13 +77,13 @@ async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, ke
     chapter_intelligence = {
         "chapter_name": chapter_name,
         "chapter_summary": chapter_summary,
-        "topics": final_topics,
+        "concepts": final_concepts,
         "total_input_tokens": total_input_tokens,
         "total_output_tokens": total_output_tokens
     }
     print(f"\n=======================================================")
     print(f"SEMANTIC INTELLIGENCE GENERATION COMPLETE!")
-    print(f"Total Topics Processed: {len(final_topics)}")
+    print(f"Total Concepts Processed: {len(final_concepts)}")
     print(f"Input Tokens: {total_input_tokens} | Output Tokens: {total_output_tokens}")
     print(f"=======================================================\n")
     

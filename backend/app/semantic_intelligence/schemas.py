@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_validator
 from typing import List, Literal, Optional
 
 # ==========================================================
@@ -18,16 +18,16 @@ class Evidence(BaseModel):
 # CHAPTER STRUCTURE
 # ==========================================================
 
-class TopicSlice(BaseModel):
-    topic_title: str
-    topic_summary: str
-    topic_description: str
+class ConceptSlice(BaseModel):
+    concept_title: str
+    concept_summary: str
+    concept_description: str
     start_quote: str
     end_quote: str
 
 class ChapterSlices(BaseModel):
     chapter_summary: str
-    topics: List[TopicSlice]
+    concepts: List[ConceptSlice]
 
 # ==========================================================
 # CONCEPT LAYER
@@ -156,8 +156,8 @@ class BloomMapping(BaseModel):
         "Analyze",
         "Evaluate",
         "Create"
-    ]
-    coverage_score: float
+    ] = Field(..., description="The Bloom's Taxonomy level. Must be UNIQUE across all items in the list. Do not duplicate.")
+    coverage_score: float = Field(..., description="Percentage of the concept targeting this level (e.g., 40.0). If multiple levels exist, their scores MUST mathematically sum to exactly 100. DO NOT use 100 for all items.")
 
 # ==========================================================
 # DEPTH OF KNOWLEDGE (DOK)
@@ -169,7 +169,7 @@ class DOKMapping(BaseModel):
         "2",
         "3",
         "4"
-    ]
+    ] = Field(..., description="The Depth of Knowledge level. Must be UNIQUE across all items in the list. Do not duplicate levels.")
     description: Literal[
         "Recall and Reproduction",
         "Skills and Concepts",
@@ -182,7 +182,7 @@ class DOKMapping(BaseModel):
 # ==========================================================
 
 class Prerequisite(BaseModel):
-    concept_name: str
+    concept_name: str = Field(..., description="The name of the prerequisite concept. CRITICAL: This MUST NOT be the exact same name as the concept currently being analyzed. It must refer to a previously learned, genuinely distinct concept.")
     prerequisite_type: Literal[
         "Knowledge",
         "Ability",
@@ -314,9 +314,9 @@ class ConceptIntelligenceObject(BaseModel):
     competencies: List[CompetencyItem]
     learning_objectives: List[LearningObjective]
     learning_outcomes: List[LearningOutcome]
-    blooms: List[BloomMapping]
-    dok: List[DOKMapping]
-    prerequisites: List[Prerequisite]
+    blooms: List[BloomMapping] = Field(..., description="List of UNIQUE Bloom's taxonomy levels. DO NOT repeat the same level multiple times. The sum of coverage_score across all items MUST be exactly 100.")
+    dok: List[DOKMapping] = Field(..., description="List of UNIQUE Depth of Knowledge (DOK) levels. DO NOT repeat the same DOK level multiple times.")
+    prerequisites: List[Prerequisite] = Field(..., description="List of required prerequisites. The concept_name of each prerequisite MUST NOT equal the name of the current concept.")
     misconceptions: List[Misconception]
     real_world_applications: List[RealWorldApplication]
     pedagogy_recommendations: List[PedagogyRecommendation]
@@ -324,15 +324,49 @@ class ConceptIntelligenceObject(BaseModel):
     concept_relationships: List[ConceptRelationship]
     evidence: List[Evidence]
 
-# ==========================================================
-# TOPIC INTELLIGENCE OBJECT (TIO)
-# ==========================================================
+    @model_validator(mode='after')
+    def sanitize_and_normalize(self) -> 'ConceptIntelligenceObject':
+        # 1. Deduplicate DOK levels (keep first occurrence)
+        unique_dok = []
+        seen_dok = set()
+        for d in self.dok:
+            if d.level not in seen_dok:
+                unique_dok.append(d)
+                seen_dok.add(d.level)
+        self.dok = unique_dok
 
-class TopicIntelligenceObject(BaseModel):
-    topic_name: str
-    topic_summary: str
-    topic_description: str
-    concepts: List[ConceptIntelligenceObject]
+        # 2. Filter self-referencing prerequisites
+        if self.concept and self.concept.concept_name:
+            concept_name_lower = self.concept.concept_name.lower().strip()
+            filtered_prereqs = []
+            for p in self.prerequisites:
+                if p.concept_name.lower().strip() != concept_name_lower:
+                    filtered_prereqs.append(p)
+            self.prerequisites = filtered_prereqs
+
+        # 3. Deduplicate and Normalize Blooms
+        bloom_dict = {}
+        for b in self.blooms:
+            if b.level in bloom_dict:
+                bloom_dict[b.level].coverage_score += b.coverage_score
+            else:
+                bloom_dict[b.level] = b
+
+        unique_blooms = list(bloom_dict.values())
+        
+        # Normalize to exactly 1.0 (since frontend multiplies by 100)
+        total_score = sum(b.coverage_score for b in unique_blooms)
+        if total_score > 0:
+            for b in unique_blooms:
+                b.coverage_score = round(b.coverage_score / total_score, 2)
+        elif len(unique_blooms) > 0:
+            even_score = round(1.0 / len(unique_blooms), 2)
+            for b in unique_blooms:
+                b.coverage_score = even_score
+                
+        self.blooms = unique_blooms
+
+        return self
 
 # ==========================================================
 # CHAPTER INTELLIGENCE OBJECT (CHIO)
@@ -341,4 +375,4 @@ class TopicIntelligenceObject(BaseModel):
 class ChapterIntelligenceObject(BaseModel):
     chapter_name: str
     chapter_summary: str
-    topics: List[TopicIntelligenceObject]
+    concepts: List[ConceptIntelligenceObject]

@@ -13,6 +13,8 @@ import {
   BackgroundVariant,
   MarkerType,
   Panel,
+  Edge,
+  Node,
 } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 import { Key, Link, Sparkles, Database, FileText, Bot, ArrowRight, BrainCircuit } from 'lucide-react';
@@ -113,7 +115,7 @@ const LLMNode = ({ id, data }: any) => {
   );
 };
 
-const initialNodes = [
+const initialNodes: Node[] = [
   // -----------------------------------------
   // CORE EXTRACTION
   // -----------------------------------------
@@ -221,7 +223,30 @@ const initialNodes = [
       ],
     },
   },
+  {
+    id: 'lms_learning_outcomes',
+    type: 'tableNode',
+    position: { x: 1400, y: 200 },
+    data: {
+      label: 'lms_learning_outcomes',
+      columns: [
+        { name: 'id', type: 'integer', isPrimary: true },
+        { name: 'curriculum_id', type: 'integer', isForeign: true },
+        { name: 'extraction_id', type: 'integer', isForeign: true },
+        { name: 'standard_id', type: 'integer', isForeign: true },
+        { name: 'subject_id', type: 'integer', isForeign: true },
+        { name: 'chapter_id', type: 'integer', isForeign: true },
+        { name: 'parent_id', type: 'integer', isForeign: true },
+        { name: 'code', type: 'varchar' },
+        { name: 'type', type: 'varchar' },
+        { name: 'description', type: 'text' },
+        { name: 'created_at', type: 'datetime' },
+        { name: 'updated_at', type: 'datetime' },
+      ],
+    },
+  },
 
+  // -----------------------------------------
   // -----------------------------------------
   // CHAPTER PIPELINE (Middle)
   // -----------------------------------------
@@ -249,8 +274,47 @@ const initialNodes = [
         { name: 'unit_id', type: 'integer', isForeign: true },
         { name: 'chapter_name', type: 'varchar' },
         { name: 'status', type: 'varchar' },
+        { name: 'key_concepts', type: 'json' },
         { name: 'created_at', type: 'datetime' },
       ],
+    },
+  },
+  {
+    id: 'lms_concept',
+    type: 'tableNode',
+    position: { x: 1400, y: 750 },
+    data: {
+      label: 'lms_concept',
+      columns: [
+        { name: 'id', type: 'integer', isPrimary: true },
+        { name: 'extraction_id', type: 'integer', isForeign: true },
+        { name: 'name', type: 'varchar' },
+        { name: 'description', type: 'text' },
+        { name: 'standard_id', type: 'integer', isForeign: true },
+        { name: 'subject_id', type: 'integer', isForeign: true },
+        { name: 'chapter_id', type: 'integer', isForeign: true },
+        { name: 'sub_institute_id', type: 'integer' },
+        { name: 'mastery_threshold', type: 'integer' },
+        { name: 'estimated_mastery_minutes', type: 'integer' },
+        { name: 'syear', type: 'varchar' },
+        { name: 'created_at', type: 'datetime' },
+      ],
+    },
+  },
+
+  // -----------------------------------------
+  // CONCEPT PIPELINE
+  // -----------------------------------------
+  {
+    id: 'llm_concept',
+    type: 'llmNode',
+    position: { x: 400, y: 600 },
+    data: {
+      label: 'DeepSeek (Pedagogical)',
+      role: 'Mastery & Depth Analysis',
+      description: 'Uses Cognitive Load Theory and Blooms Taxonomy to analyze chapter markdown and generate scientifically-backed mastery thresholds and learning times.',
+      input: 'Markdown & Key Concepts',
+      output: 'JSON Mastery Schema',
     },
   },
 
@@ -295,15 +359,18 @@ const initialNodes = [
   },
 ];
 
-const initialEdges = [
+const initialEdges: Edge[] = [
   // Data Flow to LLMs
   { id: 'e-doc-curr', source: 'doc_extract', sourceHandle: 'md_content', target: 'llm_curriculum', targetHandle: 'in', animated: true, style: { stroke: '#8b5cf6', strokeWidth: 2 } },
   { id: 'e-doc-chap', source: 'doc_extract', sourceHandle: 'md_content', target: 'llm_chapter', targetHandle: 'in', animated: true, style: { stroke: '#8b5cf6', strokeWidth: 2 } },
+  { id: 'e-doc-concept', source: 'doc_extract', sourceHandle: 'md_content', target: 'llm_concept', targetHandle: 'in', animated: true, style: { stroke: '#8b5cf6', strokeWidth: 2 } },
+  { id: 'e-chap-concept-in', source: 'chapter_master', sourceHandle: 'key_concepts', target: 'llm_concept', targetHandle: 'in', animated: true, style: { stroke: '#8b5cf6', strokeWidth: 2, strokeDasharray: '4,4' } },
   { id: 'e-doc-sem', source: 'doc_extract', sourceHandle: 'md_content', target: 'llm_semantic', targetHandle: 'in', animated: true, style: { stroke: '#8b5cf6', strokeWidth: 2 } },
 
   // LLM Outputs to Tables
   { id: 'e-llm-curr', source: 'llm_curriculum', sourceHandle: 'out', target: 'lms_curriculum', targetHandle: 'extraction_id', animated: true, style: { stroke: '#10b981', strokeWidth: 2 } },
   { id: 'e-llm-chap', source: 'llm_chapter', sourceHandle: 'out', target: 'chapter_master', targetHandle: 'extraction_id', animated: true, style: { stroke: '#10b981', strokeWidth: 2 } },
+  { id: 'e-llm-concept', source: 'llm_concept', sourceHandle: 'out', target: 'lms_concept', targetHandle: 'extraction_id', animated: true, style: { stroke: '#10b981', strokeWidth: 2 } },
   { id: 'e-llm-sem', source: 'llm_semantic', sourceHandle: 'out', target: 'semantic_intelligence', targetHandle: 'extraction_id', animated: true, style: { stroke: '#10b981', strokeWidth: 2 } },
 
   // Foreign Key Relationships
@@ -356,6 +423,46 @@ const initialEdges = [
     style: { stroke: '#3b82f6', strokeWidth: 2 }
   },
   {
+    id: 'e-fk-curr-outcomes',
+    source: 'lms_curriculum', sourceHandle: 'id',
+    target: 'lms_learning_outcomes', targetHandle: 'curriculum_id',
+    type: 'smoothstep',
+    markerEnd: { type: MarkerType.ArrowClosed, color: '#3b82f6' },
+    style: { stroke: '#3b82f6', strokeWidth: 2 }
+  },
+  {
+    id: 'e-fk-doc-outcomes',
+    source: 'doc_extract', sourceHandle: 'id',
+    target: 'lms_learning_outcomes', targetHandle: 'extraction_id',
+    type: 'smoothstep',
+    markerEnd: { type: MarkerType.ArrowClosed, color: '#3b82f6' },
+    style: { stroke: '#3b82f6', strokeWidth: 2, strokeDasharray: '5,5' }
+  },
+  {
+    id: 'e-fk-std-outcomes',
+    source: 'standard_master', sourceHandle: 'id',
+    target: 'lms_learning_outcomes', targetHandle: 'standard_id',
+    type: 'smoothstep',
+    markerEnd: { type: MarkerType.ArrowClosed, color: '#3b82f6' },
+    style: { stroke: '#3b82f6', strokeWidth: 2 }
+  },
+  {
+    id: 'e-fk-sub-outcomes',
+    source: 'subject_master', sourceHandle: 'id',
+    target: 'lms_learning_outcomes', targetHandle: 'subject_id',
+    type: 'smoothstep',
+    markerEnd: { type: MarkerType.ArrowClosed, color: '#3b82f6' },
+    style: { stroke: '#3b82f6', strokeWidth: 2 }
+  },
+  {
+    id: 'e-fk-chap-outcomes',
+    source: 'chapter_master', sourceHandle: 'id',
+    target: 'lms_learning_outcomes', targetHandle: 'chapter_id',
+    type: 'smoothstep',
+    markerEnd: { type: MarkerType.ArrowClosed, color: '#3b82f6' },
+    style: { stroke: '#3b82f6', strokeWidth: 2 }
+  },
+  {
     id: 'e-fk-unit-chap',
     source: 'lms_units', sourceHandle: 'id',
     target: 'chapter_master', targetHandle: 'unit_id',
@@ -367,6 +474,38 @@ const initialEdges = [
     id: 'e-fk-chap-sem',
     source: 'chapter_master', sourceHandle: 'id',
     target: 'semantic_intelligence', targetHandle: 'chapter_id',
+    type: 'smoothstep',
+    markerEnd: { type: MarkerType.ArrowClosed, color: '#3b82f6' },
+    style: { stroke: '#3b82f6', strokeWidth: 2 }
+  },
+  {
+    id: 'e-fk-doc-concept',
+    source: 'doc_extract', sourceHandle: 'id',
+    target: 'lms_concept', targetHandle: 'extraction_id',
+    type: 'smoothstep',
+    markerEnd: { type: MarkerType.ArrowClosed, color: '#3b82f6' },
+    style: { stroke: '#3b82f6', strokeWidth: 2, strokeDasharray: '5,5' }
+  },
+  {
+    id: 'e-fk-std-concept',
+    source: 'standard_master', sourceHandle: 'id',
+    target: 'lms_concept', targetHandle: 'standard_id',
+    type: 'smoothstep',
+    markerEnd: { type: MarkerType.ArrowClosed, color: '#3b82f6' },
+    style: { stroke: '#3b82f6', strokeWidth: 2 }
+  },
+  {
+    id: 'e-fk-sub-concept',
+    source: 'subject_master', sourceHandle: 'id',
+    target: 'lms_concept', targetHandle: 'subject_id',
+    type: 'smoothstep',
+    markerEnd: { type: MarkerType.ArrowClosed, color: '#3b82f6' },
+    style: { stroke: '#3b82f6', strokeWidth: 2 }
+  },
+  {
+    id: 'e-fk-chap-concept',
+    source: 'chapter_master', sourceHandle: 'id',
+    target: 'lms_concept', targetHandle: 'chapter_id',
     type: 'smoothstep',
     markerEnd: { type: MarkerType.ArrowClosed, color: '#3b82f6' },
     style: { stroke: '#3b82f6', strokeWidth: 2 }
@@ -406,7 +545,7 @@ export function SchemaVisualizer() {
           strokeOpacity: shouldDim ? 0.1 : 1,
           strokeWidth: shouldHighlight ? Number(e.style?.strokeWidth || 2) + 1 : e.style?.strokeWidth,
         },
-        animated: shouldHighlight ? true : e.animated,
+        animated: shouldHighlight ? true : (e.animated === true),
       };
     });
   }, [edges, hoveredNodeId]);

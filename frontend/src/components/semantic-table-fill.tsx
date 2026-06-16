@@ -65,11 +65,20 @@ export function SemanticTableFill() {
   }, [])
 
   const handleProcess = async (extractionId: number) => {
+    const record = records.find(r => r.id === extractionId)
+    let forceQuery = ""
+    if (record?.is_processed) {
+      if (!window.confirm("This is already processed. Forcing a reprocess will consume LLM tokens and overwrite existing data. Are you sure?")) {
+        return;
+      }
+      forceQuery = "?force=true"
+    }
+
     setExpandedRowId(extractionId)
     setProcessingId(extractionId)
     setResult(null)
     try {
-      const res = await fetch(`http://localhost:8000/api/semantic-intelligence/${extractionId}/process`, {
+      const res = await fetch(`http://localhost:8000/api/semantic-intelligence/${extractionId}/process${forceQuery}`, {
         method: 'POST'
       })
       const data = await res.json()
@@ -146,17 +155,8 @@ export function SemanticTableFill() {
         </p>
       </div>
 
-      <Tabs defaultValue="existing" className="w-full">
-        <TabsList className="mb-6 bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10 rounded-full p-1 inline-flex h-12 items-center justify-center">
-          <TabsTrigger value="existing" className="rounded-full px-6 py-2 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm transition-all duration-300">
-            Existing Database Data
-          </TabsTrigger>
-          <TabsTrigger value="current" className="rounded-full px-6 py-2 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm transition-all duration-300">
-            Process Specific Extraction ID
-          </TabsTrigger>
-        </TabsList>
-
-        <TabsContent value="existing" className="mt-0 focus-visible:outline-none focus-visible:ring-0">
+      <div className="w-full">
+        <div className="mt-0">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
 
@@ -272,46 +272,8 @@ export function SemanticTableFill() {
               </table>
             </div>
           </div>
-        </TabsContent>
-
-        <TabsContent value="current" className="mt-0 focus-visible:outline-none focus-visible:ring-0">
-          <div className="py-8 space-y-6 max-w-lg">
-            <div>
-              <h3 className="text-xl font-medium text-foreground/80 mb-2">Process Specific Extraction</h3>
-              <p className="text-sm text-muted-foreground/70">
-                Instantly process a newly extracted curriculum PDF by entering its Extraction ID (pdf_cache_id) to populate the LMS tables natively.
-              </p>
-            </div>
-
-            <div className="flex space-x-3 bg-white/30 dark:bg-black/30 p-2 rounded-full border-[0.5px] border-black/10 shadow-inner backdrop-blur-md">
-              <Input
-                placeholder="Enter Extraction ID (e.g. 102)"
-                value={manualExtractionId}
-                onChange={(e) => setManualExtractionId(e.target.value)}
-                type="number"
-                className="border-0 bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 px-4 placeholder:text-foreground/30 h-10"
-              />
-              <Button
-                disabled={!manualExtractionId || processingId !== null}
-                onClick={() => handleProcess(parseInt(manualExtractionId))}
-                className="rounded-full bg-foreground hover:bg-foreground/90 text-background shadow-md shadow-black/10 dark:shadow-white/10 px-6 h-10 transition-all"
-              >
-                {processingId !== null ? "Processing..." : "Process Now"}
-              </Button>
-            </div>
-          </div>
-
-          {expandedRowId === parseInt(manualExtractionId) && result && (
-            <div className="mt-8">
-              <table className="w-full">
-                <tbody>
-                  {renderExpandedRow({ id: parseInt(manualExtractionId) } as CurriculumRecord)}
-                </tbody>
-              </table>
-            </div>
-          )}
-        </TabsContent>
-      </Tabs>
+        </div>
+      </div>
     </div>
   )
 }

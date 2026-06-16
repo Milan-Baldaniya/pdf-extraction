@@ -3,7 +3,7 @@ import asyncio
 import json
 import random
 import google.generativeai as genai
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import List
 from dotenv import load_dotenv
 
@@ -12,7 +12,7 @@ from .schemas import (
     Concept, KnowledgeItem, AbilityItem, SkillItem, CompetencyItem, 
     BloomMapping, DOKMapping, Prerequisite, Misconception, RealWorldApplication, 
     PedagogyRecommendation, ConceptRelationship, LearningObjective, 
-    LearningOutcome, AssessmentBlueprint, Evidence
+    LearningOutcome, AssessmentBlueprint, Evidence, ConceptIntelligenceObject
 )
 
 load_dotenv(override=True)
@@ -24,6 +24,7 @@ load_dotenv(override=True)
 # ==========================================================
 
 class Agent1CognitiveOutput(BaseModel):
+    pedagogical_reasoning: str = Field(..., description="Step-by-step reasoning explaining how this concept slice builds cognitive knowledge, why you chose specific Bloom's levels and DOK levels, and how it aligns with the overall chapter goals. Write this before extracting the arrays.")
     concept: Concept
     knowledge_items: List[KnowledgeItem]
     abilities: List[AbilityItem]
@@ -34,6 +35,7 @@ class Agent1CognitiveOutput(BaseModel):
     evidence: List[Evidence]
 
 class Agent2PedagogyOutput(BaseModel):
+    pedagogical_reasoning: str = Field(..., description="Step-by-step reasoning for the chosen prerequisites, misconceptions, and teaching strategies based on the cognitive knowledge extracted previously.")
     prerequisites: List[Prerequisite]
     misconceptions: List[Misconception]
     real_world_applications: List[RealWorldApplication]
@@ -42,6 +44,7 @@ class Agent2PedagogyOutput(BaseModel):
     evidence: List[Evidence]
 
 class Agent3AssessmentOutput(BaseModel):
+    pedagogical_reasoning: str = Field(..., description="Step-by-step reasoning for your blueprint design choices, explaining why specific question types and difficulty levels match the cognitive abilities and teaching strategies of this concept.")
     learning_objectives: List[LearningObjective]
     learning_outcomes: List[LearningOutcome]
     assessment_blueprint: List[AssessmentBlueprint]
@@ -71,12 +74,20 @@ class IntelligenceSwarm:
             print(f"  [CRITICAL WARNING] Returning empty object due to persistent failure. Last error: {e}")
             return {}, 0, 0
 
-    async def _run_agent_1_cognitive(self, text_slice: str) -> tuple[dict, int, int]:
+    async def _run_agent_1_cognitive(self, text_slice: str, chapter_name: str, chapter_summary: str, concept_name: str) -> tuple[dict, int, int]:
         
-        prompt = """
+        prompt = f"""
 ROLE
 
 You are a CBSE Curriculum Intelligence Expert, Educational Psychologist, Learning Scientist, and Knowledge Engineer.
+
+==================================================
+GLOBAL CONTEXT
+Chapter: {chapter_name}
+Chapter Summary: {chapter_summary}
+Target Concept to Extract: {concept_name}
+You must ensure all concepts, abilities, and skills extracted below perfectly align with the broader goals of this chapter.
+==================================================
 
 Your task is to transform textbook content into structured Concept Intelligence.
 
@@ -114,6 +125,7 @@ Definition: Competency = Knowledge + Ability + Skill demonstrated in context.
 --------------------------------------------------
 STAGE 7: BLOOM CLASSIFICATION
 Classify every ability into: Remember, Understand, Apply, Analyze, Evaluate, Create.
+CRITICAL RULE: DO NOT generate duplicate Bloom's levels. Each level in your output array must be UNIQUE. The coverage_scores MUST sum exactly to 100 across all items. DO NOT use 100% for all items unless there is literally only 1 level.
 
 --------------------------------------------------
 STAGE 8: DOK CLASSIFICATION
@@ -122,6 +134,7 @@ Level 1 Recall
 Level 2 Skill and Concept
 Level 3 Strategic Thinking
 Level 4 Extended Thinking
+CRITICAL RULE: DO NOT generate duplicate DOK levels. Each level in your output array must be UNIQUE.
 
 --------------------------------------------------
 EVIDENCE REQUIREMENTS
@@ -130,17 +143,26 @@ Every major extraction must be supported by evidence. Use exact text quote whene
 --------------------------------------------------
 OUTPUT RULES
 Return only data matching the supplied schema. No markdown. No explanations. No commentary.
+CRITICAL RULE FOR REFERENCES: When filling out `knowledge_refs`, `ability_refs`, or `skill_refs`, you MUST write out the EXACT string value of the referenced item. DO NOT use shorthand identifiers like "K1", "K2", "A1", or "S1".
 
 RAW TEXT:
 """
         return await self._generate_with_fallback(prompt=prompt, text_slice=text_slice, schema=Agent1CognitiveOutput)
 
-    async def _run_agent_2_pedagogy(self, text_slice: str, agent1_json: dict) -> tuple[dict, int, int]:
+    async def _run_agent_2_pedagogy(self, text_slice: str, agent1_json: dict, chapter_name: str, chapter_summary: str, concept_name: str) -> tuple[dict, int, int]:
         
         prompt = f"""
 ROLE
 
 You are a Master CBSE Teacher, Learning Experience Designer, Instructional Strategist, and Educational Researcher.
+
+==================================================
+GLOBAL CONTEXT
+Chapter: {chapter_name}
+Chapter Summary: {chapter_summary}
+Target Concept to Extract: {concept_name}
+Align all pedagogical strategies, real-world applications, and prerequisites with the overarching goals of this chapter.
+==================================================
 
 Your task is to extract Pedagogical Intelligence.
 
@@ -164,6 +186,7 @@ Rules:
 2. No chapter dependencies.
 3. No curriculum dependencies.
 4. Atomic concepts only.
+5. CRITICAL RULE FOR PREREQUISITES: The prerequisite concept_name MUST NOT be the exact same as the concept currently being analyzed. It must refer to foundational knowledge required BEFORE learning this concept (e.g. from previous grades or previous chapters).
 
 --------------------------------------------------
 STAGE 12: PEDAGOGY RECOMMENDATION GENERATION
@@ -191,6 +214,7 @@ Support every major pedagogical decision. Use direct quotes whenever possible.
 --------------------------------------------------
 OUTPUT RULES
 Return only schema-compliant JSON. NO EXPLANATIONS.
+CRITICAL RULE FOR REFERENCES: When filling out any reference array, you MUST write out the EXACT string value of the referenced item. DO NOT use shorthand identifiers like "K1", "K2", "A1", or "S1".
 
 PREVIOUS AGENT EXTRACTED KNOWLEDGE (USE THIS AS CONTEXT):
 {json.dumps(agent1_json, indent=2)}
@@ -199,12 +223,25 @@ RAW TEXT:
 """
         return await self._generate_with_fallback(prompt=prompt, text_slice=text_slice, schema=Agent2PedagogyOutput)
 
-    async def _run_agent_3_assessment(self, text_slice: str, agent1_json: dict, agent2_json: dict) -> tuple[dict, int, int]:
+    async def _run_agent_3_assessment(self, text_slice: str, agent1_json: dict, agent2_json: dict, chapter_name: str, chapter_summary: str, concept_name: str, official_outcomes: str) -> tuple[dict, int, int]:
         
         prompt = f"""
 ROLE
 
 You are a Senior CBSE Assessment Architect, Psychometrician, Examination Designer, and Learning Outcome Specialist.
+
+==================================================
+GLOBAL CONTEXT
+Chapter: {chapter_name}
+Chapter Summary: {chapter_summary}
+Target Concept to Extract: {concept_name}
+Ensure all learning objectives, outcomes, and assessment blueprints test the overarching conceptual themes of this chapter.
+
+OFFICIAL CURRICULUM OUTCOMES:
+{official_outcomes}
+
+CRITICAL RULE FOR LEARNING OUTCOMES: When generating learning_outcomes, you MUST strictly align and map the concept to these official outcomes wherever possible. If an outcome directly satisfies an official outcome, you should explicitly reference it.
+==================================================
 
 Your task is to create Assessment Intelligence.
 
@@ -243,6 +280,7 @@ Every objective and outcome must be traceable to the source text. Use direct quo
 --------------------------------------------------
 OUTPUT RULES
 Return only schema-compliant JSON. NO EXPLANATIONS.
+CRITICAL RULE FOR REFERENCES: When filling out any reference array, you MUST write out the EXACT string value of the referenced item. DO NOT use shorthand identifiers like "K1", "K2", "A1", or "S1".
 
 PREVIOUS AGENT KNOWLEDGE EXTRACTION:
 {json.dumps(agent1_json, indent=2)}
@@ -253,7 +291,7 @@ RAW TEXT:
 """
         return await self._generate_with_fallback(prompt=prompt, text_slice=text_slice, schema=Agent3AssessmentOutput)
 
-    async def process_topic_slice(self, text_slice: str) -> tuple[dict, int, int]:
+    async def process_topic_slice(self, text_slice: str, chapter_name: str = "", chapter_summary: str = "", concept_name: str = "", official_outcomes: str = "") -> tuple[dict, int, int]:
         """
         The Orchestrator: Fires the 3 expert agents SEQUENTIALLY.
         Passes outputs of earlier agents into downstream agents for perfect cohesion.
@@ -264,17 +302,17 @@ RAW TEXT:
         total_out = 0
         
         print("  -> Running Agent 1 (Cognitive Intelligence)...")
-        out1, in1, out_tok1 = await self._run_agent_1_cognitive(text_slice)
+        out1, in1, out_tok1 = await self._run_agent_1_cognitive(text_slice, chapter_name, chapter_summary, concept_name)
         total_in += in1
         total_out += out_tok1
         
         print("  -> Running Agent 2 (Pedagogy Intelligence)...")
-        out2, in2, out_tok2 = await self._run_agent_2_pedagogy(text_slice, out1)
+        out2, in2, out_tok2 = await self._run_agent_2_pedagogy(text_slice, out1, chapter_name, chapter_summary, concept_name)
         total_in += in2
         total_out += out_tok2
         
         print("  -> Running Agent 3 (Assessment Intelligence)...")
-        out3, in3, out_tok3 = await self._run_agent_3_assessment(text_slice, out1, out2)
+        out3, in3, out_tok3 = await self._run_agent_3_assessment(text_slice, out1, out2, chapter_name, chapter_summary, concept_name, official_outcomes)
         total_in += in3
         total_out += out_tok3
         
@@ -305,5 +343,50 @@ RAW TEXT:
             
             "evidence": merged_evidence
         }
+        
+        # Override the concept name BEFORE validation to ensure prerequisites self-reference logic matches the canonical name
+        if "concept" not in mega_concept_object or not mega_concept_object["concept"]:
+            mega_concept_object["concept"] = {}
+        if concept_name:
+            mega_concept_object["concept"]["concept_name"] = concept_name
+            
+        # GUARANTEED FILTERING: Filter self-referencing prerequisites explicitly before Pydantic
+        if concept_name and "prerequisites" in mega_concept_object:
+            c_name_lower = concept_name.lower().strip()
+            filtered_prereqs = []
+            for p in mega_concept_object["prerequisites"]:
+                p_name = str(p.get("concept_name", "")).lower().strip()
+                if p_name != c_name_lower:
+                    filtered_prereqs.append(p)
+            mega_concept_object["prerequisites"] = filtered_prereqs
+            
+        # GUARANTEED MATH: Normalize Bloom's percentages explicitly before Pydantic
+        if "blooms" in mega_concept_object:
+            bloom_dict = {}
+            for b in mega_concept_object["blooms"]:
+                level = b.get("level")
+                if level in bloom_dict:
+                    bloom_dict[level]["coverage_score"] += float(b.get("coverage_score", 0))
+                else:
+                    bloom_dict[level] = b.copy()
+                    bloom_dict[level]["coverage_score"] = float(b.get("coverage_score", 0))
+            
+            unique_blooms = list(bloom_dict.values())
+            total_score = sum(b["coverage_score"] for b in unique_blooms)
+            if total_score > 0:
+                for b in unique_blooms:
+                    b["coverage_score"] = round(b["coverage_score"] / total_score, 2)
+            elif len(unique_blooms) > 0:
+                even_score = round(1.0 / len(unique_blooms), 2)
+                for b in unique_blooms:
+                    b["coverage_score"] = even_score
+            mega_concept_object["blooms"] = unique_blooms
+        
+        # ACTIVATE PYDANTIC VALIDATORS
+        try:
+            validated_obj = ConceptIntelligenceObject(**mega_concept_object)
+            mega_concept_object = validated_obj.model_dump()
+        except Exception as e:
+            print(f"  [VALIDATION WARNING] Pydantic validation failed, falling back to raw dict: {e}")
         
         return mega_concept_object, total_in, total_out

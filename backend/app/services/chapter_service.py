@@ -47,7 +47,7 @@ Chapter Content:
 {md_content}
 """
 
-def process_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
+def process_chapter_by_id(extraction_id: int, force: bool = False) -> Dict[str, Any]:
     with SessionLocal() as db:
         # 1. Fetch the document extraction row
         row = db.execute(
@@ -57,6 +57,21 @@ def process_chapter_by_id(extraction_id: int) -> Dict[str, Any]:
         
         if not row:
             raise ValueError(f"No document_extraction found for id {extraction_id}")
+            
+        # 0. Check if already processed to save tokens and preserve downstream integrity
+        existing_chapter = db.execute(
+            text("SELECT id FROM chapter_master WHERE extraction_id = :id LIMIT 1"), 
+            {"id": extraction_id}
+        ).fetchone()
+        
+        if existing_chapter and not force:
+            return {
+                "status": "already_processed", 
+                "action": "skipped",
+                "chapter_master_id": existing_chapter[0],
+                "message": "Chapter already processed. Skipped to save LLM tokens and preserve downstream semantic data.",
+                "chapter_data": get_chapter_data_by_extraction_id(extraction_id)
+            }
             
         if str(row.get("document_type", "")).lower() != "chapter":
             raise ValueError(f"document_extraction {extraction_id} is not of type 'Chapter'")

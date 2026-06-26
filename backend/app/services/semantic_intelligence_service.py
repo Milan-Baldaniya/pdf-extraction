@@ -252,7 +252,12 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
 def get_semantic_data_by_extraction_id(extraction_id: int):
     with SessionLocal() as db:
         res = db.execute(
-            text("SELECT * FROM semantic_intelligence WHERE extraction_id = :id"),
+            text("""
+                SELECT s.*, d.md_content 
+                FROM semantic_intelligence s
+                LEFT JOIN document_extractions d ON s.extraction_id = d.id
+                WHERE s.extraction_id = :id
+            """),
             {"id": extraction_id}
         ).mappings().fetchone()
         

@@ -16,6 +16,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.routes import router
 from app.teaching_intelligence.router import router as teaching_intelligence_router
+from app.lesson_intelligence.router import router as lesson_intelligence_router
 from app.utils.config import settings
 from app.utils.file_utils import ensure_directory
 
@@ -63,6 +64,7 @@ app.add_middleware(
 app.include_router(router, prefix="/api")
 app.include_router(teaching_intelligence_router, prefix="/teaching-intelligence")
 app.include_router(teaching_intelligence_router, prefix="/phase3", include_in_schema=False)
+app.include_router(lesson_intelligence_router, prefix="/lesson-intelligence")
 
 
 if __name__ == "__main__":

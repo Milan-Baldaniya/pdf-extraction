@@ -2,7 +2,6 @@ import os
 import asyncio
 import json
 import random
-import google.generativeai as genai
 from pydantic import BaseModel, Field
 from typing import List
 from dotenv import load_dotenv

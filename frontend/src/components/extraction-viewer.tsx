@@ -592,9 +592,9 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
                       <BrainCircuit className="h-8 w-8 text-primary" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold">Gemini Semantic Intelligence</h3>
+                      <h3 className="text-lg font-semibold">DeepSeek Semantic Intelligence</h3>
                       <p className="max-w-md text-sm text-muted-foreground mt-2">
-                        Pass the extracted MinerU markdown through the Gemini educational pipeline to extract deep semantic topics, Bloom's Taxonomy levels, and learning goals.
+                        Pass the extracted MinerU markdown through the DeepSeek educational pipeline to extract deep semantic topics, Bloom's Taxonomy levels, and learning goals.
                       </p>
                     </div>
                     <div className="mt-4 flex items-center justify-center gap-3">
@@ -608,7 +608,7 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
                 {isSemanticLoading && (
                   <div className="flex h-64 flex-col items-center justify-center gap-4 text-center">
                     <Loader2 className="h-8 w-8 animate-spin text-primary" />
-                    <p className="text-sm text-muted-foreground">Running Gemini model... (This may take a minute)</p>
+                    <p className="text-sm text-muted-foreground">Running DeepSeek model... (This may take a minute)</p>
                   </div>
                 )}
                 {semanticData && !isSemanticLoading && (
@@ -712,7 +712,7 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
                 {isTeachingLoading && (
                   <div className="flex h-64 flex-col items-center justify-center gap-4 text-center">
                     <Loader2 className="h-8 w-8 animate-spin text-amber-400" />
-                    <p className="text-sm text-muted-foreground">Generating teaching plans via Gemini... (This may take a minute)</p>
+                    <p className="text-sm text-muted-foreground">Generating teaching plans via DeepSeek... (This may take a minute)</p>
                   </div>
                 )}
                 {teachingData && !isTeachingLoading && (

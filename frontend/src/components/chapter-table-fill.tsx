@@ -212,7 +212,7 @@ export function ChapterTableFill() {
       <div className="mb-8">
         <h2 className="text-3xl font-bold tracking-tight text-foreground/90">Chapter Data Filler Module</h2>
         <p className="text-muted-foreground/70 mt-2 text-sm max-w-2xl">
-          Process extracted chapter markdown using Gemini to automatically populate the chapter_master table and map it to units natively.
+          Process extracted chapter markdown using DeepSeek to automatically populate the chapter_master table and map it to units natively.
         </p>
       </div>
 

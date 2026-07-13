@@ -40,7 +40,7 @@ or OCR; if that attempt fails, the service retries with `ocr`.
 | GET    | `/api/status/{job_id}`      | In-memory extraction status |
 | GET    | `/api/assets/{job_id}/...`  | Extracted image assets |
 | POST   | `/api/generate-chapter-ppt` | Extract markdown, JSON, assets, metadata |
-| POST   | `/semantic-intelligence/generate` | Generate Gemini educational semantics |
+| POST   | `/semantic-intelligence/generate` | Generate DeepSeek educational semantics |
 | GET    | `/semantic-intelligence/chapter/{chapter_id}` | Read latest chapter semantics |
 
 Legacy `/phase2/...` semantic-intelligence routes are still mounted as hidden
@@ -57,11 +57,11 @@ The response uses `processing_mode: "cpu-mineru-pipeline"` and includes:
 - `json_content.educational_assets`
 - extraction metadata and diagnostics
 
-The architecture is ready for later semantic layers such as Gemini structuring,
+The architecture is ready for later semantic layers such as DeepSeek structuring,
 Gamma presentation generation, lesson planning, quizzes, and knowledge graphs.
 
 ## Semantic Intelligence Module
 
-`app/semantic_intelligence` contains the Gemini prompt, client, parser, and API
+`app/semantic_intelligence` contains the DeepSeek prompt, client, parser, and API
 routes for chapter-level educational semantic intelligence. It replaces the old
 `phase2` package name with a responsibility-based production name.

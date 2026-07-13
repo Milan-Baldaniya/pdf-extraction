@@ -4,7 +4,7 @@ A full-stack document intelligence app for extracting structured educational
 content from NCERT PDFs. The backend runs a CPU-friendly MinerU pipeline for
 OCR, layout, tables, formulas, images, and education-aware diagnostics. The
 frontend provides a Next.js interface for URL extraction, PDF upload, layout
-preview, markdown/JSON inspection, diagnostics, and optional Gemini-powered
+preview, markdown/JSON inspection, diagnostics, and optional DeepSeek-powered
 semantic intelligence.
 
 ## Current Capabilities
@@ -18,7 +18,7 @@ semantic intelligence.
 - Show job status from in-memory status tracking.
 - Normalize output into markdown, layout blocks, educational outline,
   educational sections, assets, and diagnostics.
-- Generate chapter-level semantic intelligence with Gemini and persist it in
+- Generate chapter-level semantic intelligence with DeepSeek and persist it in
   Supabase when configured.
 - Keep legacy `/phase2/...` semantic routes available as hidden aliases for old
   clients.
@@ -33,7 +33,7 @@ pdf extraction/
 |   |   |-- db/supabase_client.py             # Optional Supabase client
 |   |   |-- extraction/                       # Cache, status, education structure
 |   |   |-- models/schemas.py                 # Pydantic API schemas
-|   |   |-- semantic_intelligence/            # Gemini prompts, parser, API routes
+|   |   |-- semantic_intelligence/            # DeepSeek prompts, parser, API routes
 |   |   |-- services/mineru_service.py        # CPU MinerU extraction pipeline
 |   |   |-- services/pdf_service.py           # Async PDF download
 |   |   |-- utils/config.py                   # Environment settings
@@ -63,7 +63,7 @@ Generated/runtime folders such as `backend/venv`, `backend/output`,
 | --- | --- |
 | Backend | FastAPI, Python, Uvicorn, Pydantic |
 | Extraction | MinerU / `magic-pdf[full]`, CPU pipeline backend |
-| Semantic AI | Google Gemini via `google-generativeai` |
+| Semantic AI | DeepSeek via `openai` SDK |
 | Persistence | Optional Supabase table for semantic intelligence |
 | Frontend | Next.js 16, React 19, TypeScript, Tailwind CSS 4 |
 | UI/Data | shadcn-style components, lucide-react, React Query, Axios |
@@ -73,7 +73,7 @@ Generated/runtime folders such as `backend/venv`, `backend/output`,
 - Python 3.10+ or 3.11+
 - Node.js 20+ recommended for the current Next.js version
 - Enough disk space for MinerU dependencies and model weights
-- Optional: Gemini API key and Supabase project for semantic intelligence
+- Optional: DeepSeek API key and Supabase project for semantic intelligence
 
 ## Backend Setup
 
@@ -131,8 +131,8 @@ MINERU_QUALITY_MODE=max
 MINERU_OCR_FALLBACK=true
 
 SEMANTIC_INTELLIGENCE_PROMPT_VERSION=1
-GEMINI_API_KEY=
-GEMINI_MODEL=gemini-2.5-flash
+DEEPSEEK_API_KEY=
+DEEPSEEK_MODEL=deepseek-v4-pro
 SUPABASE_URL=
 SUPABASE_SERVICE_KEY=
 ```
@@ -143,7 +143,7 @@ Notes:
 - `MINERU_SERVER_URL` should stay empty; remote VLM servers are disabled here.
 - `MINERU_LANG=devanagari` is useful for Hindi/mixed NCERT PDFs. Use `en` for
   English-only documents, or `auto` to let the service sample the PDF.
-- Gemini and Supabase values are only required for the Semantic AI tab and
+- DeepSeek and Supabase values are only required for the Semantic AI tab and
   `/semantic-intelligence/*` endpoints.
 
 ## Frontend Setup
@@ -171,7 +171,7 @@ Open `http://localhost:3000`.
 | GET | `/api/assets/{job_id}/{asset_path}` | Serve an extracted image asset |
 | POST | `/api/generate-chapter-ppt` | Download a PDF URL and extract content |
 | POST | `/api/upload-chapter-ppt` | Upload a local PDF and extract content |
-| POST | `/semantic-intelligence/generate` | Generate Gemini semantic intelligence |
+| POST | `/semantic-intelligence/generate` | Generate DeepSeek semantic intelligence |
 | GET | `/semantic-intelligence/chapter/{chapter_id}` | Fetch latest stored chapter intelligence |
 
 Hidden compatibility aliases also exist under `/phase2/generate` and
@@ -228,7 +228,7 @@ Provide either `markdown_content` or `markdown_file_path`.
 }
 ```
 
-The semantic pipeline performs a two-pass Gemini extraction: first it builds a
+The semantic pipeline performs a two-pass DeepSeek extraction: first it builds a
 chapter skeleton, then it extracts each teaching unit in parallel. Output is
 validated with Pydantic, summarized, quality-flagged as `good`, `needs_review`,
 or `regenerate`, and upserted into Supabase.
@@ -246,7 +246,7 @@ Expected Supabase table: `chapter_semantic_intelligence`. The backend upserts on
    - `Raw`: raw markdown.
    - `JSON`: normalized extraction JSON.
    - `Diagnostics`: metadata, outline, sections, assets, and quality passes.
-   - `Semantic AI`: Gemini semantic intelligence, if backend credentials exist.
+   - `Semantic AI`: DeepSeek semantic intelligence, if backend credentials exist.
 4. Copy or download the active result tab.
 
 ## Development Notes

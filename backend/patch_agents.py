@@ -1,3 +1,12 @@
+"""
+DEPRECATED: This script was a one-time migration tool that patched agents.py
+for Gemini multi-key rotation. The project has since migrated to DeepSeek.
+agents.py now uses deepseek_client.py natively — do NOT run this script.
+"""
+import sys
+print("ERROR: This script is DEPRECATED. agents.py already uses DeepSeek. No action needed.")
+sys.exit(1)
+
 import re
 
 with open(r'c:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\agents.py', 'r', encoding='utf-8') as f:

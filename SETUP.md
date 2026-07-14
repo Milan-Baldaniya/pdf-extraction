@@ -70,15 +70,8 @@ The backend processes the PDFs, communicates with MariaDB, and uses MinerU.
    MARIADB_PASSWORD=sonika@sql
    MARIADB_DB=sonika_erp
 
-   # Gemini API Keys
-   GEMINI_API_KEY=your_primary_key_here
-   GEMINI_API_KEY2=your_key_here
-   GEMINI_API_KEY3=your_key_here
-   GEMINI_API_KEY4=your_key_here
-   GEMINI_API_KEY5=your_key_here
-   GEMINI_API_KEY6=your_key_here
-   GEMINI_API_KEY7=your_key_here
-   GEMINI_API_KEY8=your_key_here
+   # DeepSeek API Key
+   DEEPSEEK_API_KEY=your_deepseek_key_here
 
    # MinerU Local Config
    MINERU_BACKEND=pipeline

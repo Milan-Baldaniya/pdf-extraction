@@ -11,7 +11,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent))
 
 from app.utils.config import settings
-from app.semantic_intelligence.gemini_client import call_gemini
+from app.semantic_intelligence.deepseek_client import call_deepseek
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
@@ -74,7 +74,7 @@ Return exactly a valid JSON object matching this schema:
 }}
 """
     try:
-        response = call_gemini(prompt)
+        response = call_deepseek(prompt, system_prompt="You are an expert educational data extractor. Return ONLY a valid JSON object.", response_format={"type": "json_object"})
         data = response.get("data", {})
     except Exception as e:
         logger.error(f"Failed to get LLM response for extraction_id {extraction_id}: {e}")

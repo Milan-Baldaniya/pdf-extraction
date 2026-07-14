@@ -286,7 +286,7 @@ export function CurriculumTableFill() {
       <div className="mb-8">
         <h2 className="text-3xl font-bold tracking-tight text-foreground/90">LMS Data Filler Module</h2>
         <p className="text-muted-foreground/70 mt-2 text-sm max-w-2xl">
-          Process extracted curriculum markdown using Gemini to automatically populate the lms_curriculum and lms_units tables with AI-driven intelligence.
+          Process extracted curriculum markdown using DeepSeek to automatically populate the lms_curriculum and lms_units tables with AI-driven intelligence.
         </p>
       </div>
 

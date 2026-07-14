@@ -24,7 +24,7 @@ def list_chapters() -> list[dict[str, Any]]:
 @router.post(
     "/chapters/{extraction_id}/process",
     tags=["Chapter Processing"],
-    summary="Process a chapter using Gemini and populate chapter_master",
+    summary="Process a chapter using DeepSeek and populate chapter_master",
 )
 async def process_chapter(extraction_id: int) -> dict[str, Any]:
     try:

@@ -183,7 +183,7 @@ const initialNodes: Node[] = [
     type: 'llmNode',
     position: { x: 400, y: -50 },
     data: {
-      label: 'Gemini 2.5 Flash',
+      label: 'DeepSeek',
       role: 'Curriculum Parsing',
       description: 'Extracts the structured framework directly from the raw markdown document. Maps the syllabus into standard units, calculates total marks, and instantly populates the lms_curriculum and lms_units tables.',
       input: 'Markdown Content',
@@ -255,7 +255,7 @@ const initialNodes: Node[] = [
     type: 'llmNode',
     position: { x: 400, y: 350 },
     data: {
-      label: 'Gemini 2.5 Flash',
+      label: 'DeepSeek',
       role: 'Chapter Matching',
       description: 'Scans the extracted curriculum to explicitly identify and isolate individual chapters. It pairs these chapters back to their parent unit_id and generates the core rows for the chapter_master table.',
       input: 'Markdown Content',
@@ -326,7 +326,7 @@ const initialNodes: Node[] = [
     type: 'llmNode',
     position: { x: 400, y: 850 },
     data: {
-      label: 'Gemini 2.5 Flash (Two-Pass)',
+      label: 'DeepSeek (Two-Pass)',
       role: 'Deep Semantic Extraction',
       description: 'Performs deep semantic chunking and learning objective isolation for every single chapter. It processes the text, measures AI token costs, checks quality flags, and creates the massive intelligence payload for the semantic_intelligence table.',
       input: 'Markdown Content',

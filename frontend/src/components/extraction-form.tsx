@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
-import { useMutation } from "@tanstack/react-query";
+import { useState, useEffect, useRef } from "react";
+import { useMutation, useQuery } from "@tanstack/react-query";
 import toast from "react-hot-toast";
-import { extractPdf, type ExtractionResponse } from "@/lib/api";
+import { extractPdf, fetchSubjectsByStandard, createSubject, type ExtractionResponse } from "@/lib/api";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -76,17 +76,60 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
   const [standard, setStandard] = useState("10");
   const [subjectName, setSubjectName] = useState("Science");
   const [board, setBoard] = useState("CBSE");
-  const [syear, setSyear] = useState("2024-2025");
+  const [syear, setSyear] = useState("2024");
   const [customSubject, setCustomSubject] = useState("");
+  const [customSubjectCode, setCustomSubjectCode] = useState("");
+  const [customSubjectType, setCustomSubjectType] = useState("Major");
+  const [customShortName, setCustomShortName] = useState("");
+  const [customDisplayName, setCustomDisplayName] = useState("");
 
-  const getMetadata = () => ({
+  // Subjects Query
+  const { data: standardSubjects, refetch: refetchSubjects } = useQuery({
+    queryKey: ["subjects", standard],
+    queryFn: () => fetchSubjectsByStandard(standard),
+    enabled: !!standard,
+  });
+
+  const subjectOptions = standardSubjects 
+    ? Array.from(new Set(standardSubjects.map(s => s.subject_name))).map(name => ({ label: name, value: name }))
+    : [];
+  subjectOptions.push({ label: "Others", value: "Others" });
+
+  const prevStandardRef = useRef(standard);
+
+  // Reset or adjust subject selection when standard changes
+  useEffect(() => {
+    if (standardSubjects) {
+      if (standard !== prevStandardRef.current) {
+        // Standard changed, always reset the subject to the first one available
+        if (standardSubjects.length > 0) {
+          setSubjectName(standardSubjects[0].subject_name);
+        } else {
+          setSubjectName("Others");
+        }
+        prevStandardRef.current = standard;
+      } else {
+        // Subjects updated but standard is same (e.g., adding custom subject)
+        if (standardSubjects.length > 0) {
+          const exists = standardSubjects.find(s => s.subject_name === subjectName);
+          if (!exists && subjectName !== "Others") {
+            setSubjectName(standardSubjects[0].subject_name);
+          }
+        } else {
+          setSubjectName("Others");
+        }
+      }
+    }
+  }, [standardSubjects, standard, subjectName]);
+
+  const getMetadata = (resolvedSubjectName?: string) => ({
     document_type: documentType,
     document_title: documentTitle,
     chapter_number: chapterNumber,
     standard,
-    subject_name: subjectName === "Others" ? customSubject : subjectName,
+    subject_name: resolvedSubjectName || (subjectName === "Others" ? customSubject : subjectName),
     board,
-    syear,
+    syear: parseInt(syear, 10),
   });
 
   const urlMutation = useMutation({
@@ -125,7 +168,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
   const isPending = urlMutation.isPending || uploadMutation.isPending;
   const isSuccess = urlMutation.isSuccess || uploadMutation.isSuccess;
 
-  const handleUrlSubmit = (e: React.FormEvent) => {
+  const handleUrlSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const pdfUrl = url.trim();
     if (!pdfUrl) {
@@ -138,18 +181,58 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
       toast.error("Please enter a valid URL.");
       return;
     }
-    urlMutation.mutate({ pdf_url: pdfUrl, ...getMetadata() });
+    
+    let finalSubjectName = subjectName;
+    if (subjectName === "Others" && customSubject.trim()) {
+      try {
+        const newSub = await createSubject({
+          standard_name: standard,
+          subject_name: customSubject.trim(),
+          subject_code: customSubjectCode.trim() || undefined,
+          subject_type: customSubjectType.trim() || undefined,
+          short_name: customShortName.trim() || undefined,
+          display_name: customDisplayName.trim() || undefined,
+        });
+        finalSubjectName = newSub.subject_name;
+        refetchSubjects();
+      } catch (err) {
+        toast.error("Failed to add new subject to master table.");
+        finalSubjectName = customSubject.trim();
+      }
+    }
+
+    urlMutation.mutate({ pdf_url: pdfUrl, ...getMetadata(finalSubjectName) });
   };
 
-  const handleFileSubmit = (e: React.FormEvent) => {
+  const handleFileSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!file) {
       toast.error("Please select a PDF file.");
       return;
     }
+    
+    let finalSubjectName = subjectName;
+    if (subjectName === "Others" && customSubject.trim()) {
+      try {
+        const newSub = await createSubject({
+          standard_name: standard,
+          subject_name: customSubject.trim(),
+          subject_code: customSubjectCode.trim() || undefined,
+          subject_type: customSubjectType.trim() || undefined,
+          short_name: customShortName.trim() || undefined,
+          display_name: customDisplayName.trim() || undefined,
+        });
+        finalSubjectName = newSub.subject_name;
+        refetchSubjects();
+      } catch (err) {
+        toast.error("Failed to add new subject to master table.");
+        finalSubjectName = customSubject.trim();
+      }
+    }
+
     // Note: To fully support standard_id/etc for uploads, the backend upload endpoint 
     // needs to accept FormData with these fields. For now we just mutate the file.
-    uploadMutation.mutate({ f: file, meta: getMetadata() });
+    uploadMutation.mutate({ f: file, meta: getMetadata(finalSubjectName) });
   };
 
   return (
@@ -165,7 +248,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
       </div>
 
       <Card className="overflow-visible flex flex-col flex-1 min-h-0 border-[0.5px] border-black/5 dark:border-white/10 bg-white/40 dark:bg-black/40 backdrop-blur-[24px] saturate-150 shadow-[0_8px_32px_0_rgba(0,0,0,0.04)] rounded-[24px]">
-        <Tabs value={activeTab} onValueChange={setActiveTab} className="flex flex-1 flex-col">
+        <Tabs value={activeTab} onValueChange={setActiveTab} className="flex flex-1 flex-col min-h-0">
           <CardHeader className="pb-3 shrink-0 flex flex-row items-center justify-between">
             <div className="space-y-1.5">
               <CardTitle className="flex items-center gap-2 text-base">
@@ -221,18 +304,8 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
                   <CustomSelect
                     value={subjectName}
                     onChange={setSubjectName}
-                    options={["Maths", "Science", "Physics", "Chemistry", "Biology", "History", "Geography", "Civics", "Economics", "English", "Hindi", "Sanskrit", "Accountancy", "Business Studies", "Computer Science", "Information Practices", "Physical Education", "Others"].map(s => ({ label: s, value: s }))}
+                    options={subjectOptions}
                   />
-                  {subjectName === "Others" && (
-                    <MetadataInput
-                      autoFocus
-                      type="text"
-                      value={customSubject}
-                      onChange={e => setCustomSubject(e.target.value)}
-                      placeholder="Type custom subject..."
-                      className="h-10 w-full rounded-xl border-[0.5px] border-primary/40 bg-primary/5 px-3 text-sm outline-none backdrop-blur-md transition-all focus:border-primary focus:ring-1 focus:ring-primary placeholder:text-muted-foreground/50 animate-in slide-in-from-top-1 fade-in duration-200"
-                    />
-                  )}
                 </div>
               </div>
 
@@ -241,12 +314,35 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
                 <MetadataInput type="text" value={board} onChange={e => setBoard(e.target.value)} placeholder="CBSE" />
               </div>
 
+              {subjectName === "Others" && (
+                <div className="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-3 p-4 bg-primary/5 rounded-xl border border-primary/10 animate-in slide-in-from-top-2 fade-in duration-300">
+                  <div className="md:col-span-2">
+                    <label className="text-xs font-semibold text-primary/80 pl-1 mb-1 block">New Subject Details</label>
+                  </div>
+                  <div className="space-y-1.5">
+                    <MetadataInput autoFocus type="text" value={customSubject} onChange={e => setCustomSubject(e.target.value)} placeholder="Subject Name (e.g. History)" />
+                  </div>
+                  <div className="space-y-1.5">
+                    <MetadataInput type="text" value={customSubjectCode} onChange={e => setCustomSubjectCode(e.target.value)} placeholder="Subject Code (e.g. 0004)" />
+                  </div>
+                  <div className="space-y-1.5">
+                    <MetadataInput type="text" value={customSubjectType} onChange={e => setCustomSubjectType(e.target.value)} placeholder="Subject Type (e.g. Major)" />
+                  </div>
+                  <div className="space-y-1.5">
+                    <MetadataInput type="text" value={customShortName} onChange={e => setCustomShortName(e.target.value)} placeholder="Short Name (e.g. HIS-CBSE)" />
+                  </div>
+                  <div className="space-y-1.5 md:col-span-2">
+                    <MetadataInput type="text" value={customDisplayName} onChange={e => setCustomDisplayName(e.target.value)} placeholder="Display Name (e.g. History-10)" />
+                  </div>
+                </div>
+              )}
+
               <div className="space-y-1.5 md:col-span-2 relative z-[30]">
                 <label className="text-xs font-medium text-foreground/80 pl-1">Academic Year</label>
                 <CustomSelect
                   value={syear}
                   onChange={setSyear}
-                  options={["2022-2023", "2023-2024", "2024-2025", "2025-2026", "2026-2027", "2027-2028", "2028-2029", "2029-2030", "2030-2031"].map(y => ({ label: y, value: y }))}
+                  options={["2021", "2022", "2023", "2024", "2025", "2026", "2027", "2028", "2029"].map(y => ({ label: y, value: y }))}
                 />
               </div>
             </div>

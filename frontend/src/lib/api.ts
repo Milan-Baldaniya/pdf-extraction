@@ -26,7 +26,7 @@ export interface ExtractionRequest {
   standard?: string;
   subject_name?: string;
   board?: string;
-  syear?: string;
+  syear?: number;
 }
 
 export interface ExtractionResponse {
@@ -123,6 +123,31 @@ export async function generateTeachingIntelligence(
     request,
     { headers: { "Content-Type": "application/json" } }
   );
+  return data;
+}
+
+
+export interface Subject {
+  id: number;
+  subject_name: string;
+}
+
+export async function fetchSubjectsByStandard(standardName: string): Promise<Subject[]> {
+  const { data } = await api.get<Subject[]>(`/subjects/${encodeURIComponent(standardName)}`);
+  return data;
+}
+
+export interface CreateSubjectPayload {
+  standard_name: string;
+  subject_name: string;
+  subject_code?: string;
+  subject_type?: string;
+  short_name?: string;
+  display_name?: string;
+}
+
+export async function createSubject(payload: CreateSubjectPayload): Promise<Subject> {
+  const { data } = await api.post<Subject>(`/subjects`, payload);
   return data;
 }
 

@@ -575,3 +575,110 @@ def get_semantic_intelligence_result(extraction_id: int) -> dict[str, Any]:
     except Exception as exc:
         logger.exception("Failed to fetch semantic intelligence result")
         raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}")
+
+
+from sqlalchemy import text
+from app.models.schemas import SubjectCreateRequest
+
+@router.get(
+    "/subjects/{standard_name}",
+    tags=["Subjects"],
+    summary="List all subjects for a given standard",
+)
+def get_subjects_by_standard(standard_name: str) -> list[dict[str, Any]]:
+    if not init_mariadb() or SessionLocal is None:
+        raise HTTPException(status_code=500, detail="Database not ready")
+    db = SessionLocal()
+    try:
+        std_row = db.execute(
+            text("SELECT id FROM standard WHERE name = :name AND sub_institute_id = 1 LIMIT 1"),
+            {"name": standard_name}
+        ).fetchone()
+        
+        if not std_row:
+            return []
+            
+        std_id = std_row[0]
+        
+        subjects_row = db.execute(
+            text("""
+                SELECT s.id, s.subject_name 
+                FROM subject s 
+                JOIN sub_std_map map ON s.id = map.subject_id 
+                WHERE map.standard_id = :std_id AND s.sub_institute_id = 1
+            """),
+            {"std_id": std_id}
+        ).fetchall()
+
+        return [{"id": row[0], "subject_name": row[1]} for row in subjects_row]
+    except Exception as exc:
+        logger.exception("Failed to fetch subjects")
+        raise HTTPException(status_code=500, detail=str(exc))
+    finally:
+        db.close()
+
+
+@router.post(
+    "/subjects",
+    tags=["Subjects"],
+    summary="Create a new subject and map it to a standard",
+)
+def create_subject(request: SubjectCreateRequest) -> dict[str, Any]:
+    if not init_mariadb() or SessionLocal is None:
+        raise HTTPException(status_code=500, detail="Database not ready")
+    db = SessionLocal()
+    try:
+        std_row = db.execute(
+            text("SELECT id FROM standard WHERE name = :name AND sub_institute_id = 1 LIMIT 1"),
+            {"name": request.standard_name}
+        ).fetchone()
+        if not std_row:
+            raise HTTPException(status_code=404, detail="Standard not found")
+        std_id = std_row[0]
+
+        sub_row = db.execute(
+            text("SELECT id FROM subject WHERE subject_name = :sname AND sub_institute_id = 1 LIMIT 1"),
+            {"sname": request.subject_name}
+        ).fetchone()
+        
+        if sub_row:
+            sub_id = sub_row[0]
+        else:
+            max_id = db.execute(text("SELECT MAX(id) FROM subject")).scalar() or 0
+            new_code = request.subject_code if request.subject_code else str(max_id + 1).zfill(4)
+            short_name = request.short_name if request.short_name else request.subject_name[:5].capitalize() + "-CBSE"
+            subj_type = request.subject_type if request.subject_type else 'Major'
+            
+            res = db.execute(
+                text("INSERT INTO subject (subject_name, subject_code, subject_type, short_name, status, sub_institute_id) VALUES (:sname, :code, :type, :short, 1, 1)"),
+                {"sname": request.subject_name, "code": new_code, "type": subj_type, "short": short_name}
+            )
+            sub_id = res.lastrowid
+        
+        map_row = db.execute(
+            text("SELECT id FROM sub_std_map WHERE standard_id = :std_id AND subject_id = :sub_id LIMIT 1"),
+            {"std_id": std_id, "sub_id": sub_id}
+        ).fetchone()
+
+        if not map_row:
+            d_name = request.display_name if request.display_name else request.subject_name
+            try:
+                db.execute(
+                    text("INSERT INTO sub_std_map (standard_id, subject_id, sub_institute_id, display_name) VALUES (:std_id, :sub_id, 1, :d_name)"),
+                    {"std_id": std_id, "sub_id": sub_id, "d_name": d_name}
+                )
+            except Exception as e:
+                # Fallback if column is sub_institute_id instead
+                db.execute(
+                    text("INSERT INTO sub_std_map (standard_id, subject_id, sub_institute_id, display_name) VALUES (:std_id, :sub_id, 1, :d_name)"),
+                    {"std_id": std_id, "sub_id": sub_id, "d_name": d_name}
+                )
+
+        db.commit()
+        return {"id": sub_id, "subject_name": request.subject_name}
+    except Exception as exc:
+        db.rollback()
+        logger.exception("Failed to create subject")
+        raise HTTPException(status_code=500, detail=str(exc))
+    finally:
+        db.close()

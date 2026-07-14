@@ -21,7 +21,7 @@ class ExtractionRequest(BaseModel):
     standard: Optional[int] = Field(default=None)
     subject_name: Optional[str] = Field(default=None)
     board: Optional[str] = Field(default="CBSE")
-    syear: Optional[str] = Field(default=None)
+    syear: Optional[int] = Field(default=None)
 
 
 class HealthResponse(BaseModel):
@@ -69,3 +69,12 @@ class ErrorResponse(BaseModel):
     status: str = "error"
     message: str
     detail: Optional[str] = None
+
+
+class SubjectCreateRequest(BaseModel):
+    standard_name: str
+    subject_name: str
+    subject_code: Optional[str] = None
+    subject_type: Optional[str] = None
+    short_name: Optional[str] = None
+    display_name: Optional[str] = None

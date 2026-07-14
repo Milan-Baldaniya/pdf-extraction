@@ -34,8 +34,13 @@ class DocumentExtraction(Base):
     standard = Column(Integer, nullable=True)
     subject_name = Column(String(255), nullable=True)
     board = Column(String(255), nullable=True)
-    syear = Column(String(255), nullable=True)
+    syear = Column(Integer, nullable=True)
     pdf_url = Column(Text, nullable=True)
+    
+    standard_id = Column(Integer, nullable=True)
+    subject_id = Column(Integer, nullable=True)
+    chapter_id = Column(Integer, nullable=True)
+    sub_institute_id = Column(Integer, nullable=True)
 
     md_content = Column(LONGTEXT, nullable=True)
     json_content = Column(LONGTEXT, nullable=True)
@@ -124,17 +129,17 @@ def _map_ids(db: Session, standard_val: int | None, subject_name_val: str | None
 
     try:
         if standard_val is not None:
-            row = db.execute(text("SELECT id FROM standard WHERE name = :name AND subinstitute_id = 1 LIMIT 1"), {"name": str(standard_val)}).fetchone()
+            row = db.execute(text("SELECT id FROM standard WHERE name = :name AND sub_institute_id = 1 LIMIT 1"), {"name": str(standard_val)}).fetchone()
             if row:
                 standard_id = row[0]
 
         if subject_name_val is not None:
-            row = db.execute(text("SELECT id FROM subject WHERE subject_name = :subject_name AND subinstitute_id = 1 LIMIT 1"), {"subject_name": subject_name_val}).fetchone()
+            row = db.execute(text("SELECT id FROM subject WHERE subject_name = :subject_name AND sub_institute_id = 1 LIMIT 1"), {"subject_name": subject_name_val}).fetchone()
             if row:
                 subject_id = row[0]
 
         if chapter_name_val is not None and chapter_number_val is not None:
-            row = db.execute(text("SELECT id FROM chapter_master WHERE chapter_name = :chapter_name AND sort_order = :sort_order AND subinstitute_id = 1 LIMIT 1"), {"chapter_name": chapter_name_val, "sort_order": chapter_number_val}).fetchone()
+            row = db.execute(text("SELECT id FROM chapter_master WHERE chapter_name = :chapter_name AND sort_order = :sort_order AND sub_institute_id = 1 LIMIT 1"), {"chapter_name": chapter_name_val, "sort_order": chapter_number_val}).fetchone()
             if row:
                 chapter_id = row[0]
     except Exception as exc:
@@ -151,7 +156,7 @@ def create_extraction_stub(
     standard: int | None,
     subject_name: str | None,
     board: str | None,
-    syear: str | None,
+    syear: int | None,
     pdf_url: str,
 ) -> int | None:
     """Insert metadata row at job start; returns row id or None."""
@@ -179,6 +184,30 @@ def create_extraction_stub(
         db.add(doc)
         db.commit()
         db.refresh(doc)
+        
+        if chapter_id is None and document_title:
+            try:
+                res = db.execute(
+                    text("""
+                        INSERT INTO chapter_master 
+                        (extraction_id, sub_institute_id, standard_id, subject_id, chapter_name, sort_order) 
+                        VALUES (:ext_id, 1, :std_id, :sub_id, :cname, :sort_order)
+                    """),
+                    {
+                        "ext_id": doc.id,
+                        "std_id": standard_id,
+                        "sub_id": subject_id,
+                        "cname": document_title,
+                        "sort_order": chapter_number
+                    }
+                )
+                new_chapter_id = res.lastrowid
+                doc.chapter_id = new_chapter_id
+                db.commit()
+            except Exception as e:
+                logger.warning("Failed to auto-insert chapter: %s", e)
+                db.rollback()
+
         return doc.id
     except Exception as exc:
         db.rollback()
@@ -198,7 +227,7 @@ def persist_extraction_result(
     standard: int | None = None,
     subject_name: str | None = None,
     board: str | None = None,
-    syear: str | None = None,
+    syear: int | None = None,
     pdf_url: str | None = None,
 ) -> int | None:
     """Save extraction output; updates existing row or inserts a full row."""

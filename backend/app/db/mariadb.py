@@ -122,7 +122,7 @@ def _apply_extraction_payload(doc: DocumentExtraction, response: ExtractionRespo
     doc.extraction_metadata = _json_dumps(response.metadata)
 
 
-def _map_ids(db: Session, standard_val: int | None, subject_name_val: str | None, chapter_name_val: str | None, chapter_number_val: int | None) -> tuple[int | None, int | None, int | None]:
+def _map_ids(db: Session, standard_val: int | None, subject_name_val: str | None, chapter_name_val: str | None, chapter_number_val: int | None, document_type_val: str | None = None) -> tuple[int | None, int | None, int | None]:
     standard_id = None
     subject_id = None
     chapter_id = None
@@ -138,10 +138,11 @@ def _map_ids(db: Session, standard_val: int | None, subject_name_val: str | None
             if row:
                 subject_id = row[0]
 
-        if chapter_name_val is not None and chapter_number_val is not None:
-            row = db.execute(text("SELECT id FROM chapter_master WHERE chapter_name = :chapter_name AND sort_order = :sort_order AND sub_institute_id = 1 LIMIT 1"), {"chapter_name": chapter_name_val, "sort_order": chapter_number_val}).fetchone()
-            if row:
-                chapter_id = row[0]
+        if document_type_val not in ("Curriculum", "Syllabus"):
+            if chapter_name_val is not None and chapter_number_val is not None:
+                row = db.execute(text("SELECT id FROM chapter_master WHERE chapter_name = :chapter_name AND sort_order = :sort_order AND sub_institute_id = 1 LIMIT 1"), {"chapter_name": chapter_name_val, "sort_order": chapter_number_val}).fetchone()
+                if row:
+                    chapter_id = row[0]
     except Exception as exc:
         logger.warning("Failed to map IDs: %s", exc)
 
@@ -165,7 +166,7 @@ def create_extraction_stub(
 
     db = SessionLocal()
     try:
-        standard_id, subject_id, chapter_id = _map_ids(db, standard, subject_name, document_title, chapter_number)
+        standard_id, subject_id, chapter_id = _map_ids(db, standard, subject_name, document_title, chapter_number, document_type)
 
         doc = DocumentExtraction(
             document_type=document_type,
@@ -185,7 +186,7 @@ def create_extraction_stub(
         db.commit()
         db.refresh(doc)
         
-        if chapter_id is None and document_title:
+        if chapter_id is None and document_title and document_type not in ("Curriculum", "Syllabus"):
             try:
                 res = db.execute(
                     text("""
@@ -245,7 +246,7 @@ def persist_extraction_result(
                 .first()
             )
 
-        standard_id, subject_id, chapter_id = _map_ids(db, standard, subject_name, document_title, chapter_number)
+        standard_id, subject_id, chapter_id = _map_ids(db, standard, subject_name, document_title, chapter_number, document_type)
 
         if doc is None:
             doc = DocumentExtraction(

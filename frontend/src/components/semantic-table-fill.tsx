@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React, { useState, useEffect, Fragment } from "react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { CustomSelect } from "@/components/ui/custom-select"
+import { apiUrl } from "@/lib/api-url"
 
 
 interface CurriculumRecord {
@@ -48,7 +49,7 @@ export function SemanticTableFill() {
   const fetchRecords = async () => {
     setLoading(true)
     try {
-      const res = await fetch("http://localhost:8000/api/semantic-intelligence")
+      const res = await fetch(apiUrl("/semantic-intelligence"))
       if (res.ok) {
         const data = await res.json()
         setRecords(data)
@@ -78,7 +79,7 @@ export function SemanticTableFill() {
     setProcessingId(extractionId)
     setResult(null)
     try {
-      const res = await fetch(`http://localhost:8000/api/semantic-intelligence/${extractionId}/process${forceQuery}`, {
+      const res = await fetch(`${apiUrl(`/semantic-intelligence/${extractionId}/process`)}${forceQuery}`, {
         method: 'POST'
       })
       const data = await res.json()
@@ -277,3 +278,5 @@ export function SemanticTableFill() {
     </div>
   )
 }
+
+

@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React, { useState, useEffect, Fragment } from "react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { CustomSelect } from "@/components/ui/custom-select"
+import { apiUrl } from "@/lib/api-url"
 
 interface CurriculumRecord {
   id: number
@@ -48,7 +49,7 @@ export function ConceptTableFill() {
   const fetchRecords = async () => {
     setLoading(true)
     try {
-      const res = await fetch("http://localhost:8000/api/concepts")
+      const res = await fetch(apiUrl("/concepts"))
       if (res.ok) {
         const data = await res.json()
         setRecords(data)
@@ -78,7 +79,7 @@ export function ConceptTableFill() {
     setProcessingId(extractionId)
     setResult(null)
     try {
-      const res = await fetch(`http://localhost:8000/api/concepts/${extractionId}/process${forceQuery}`, {
+      const res = await fetch(`${apiUrl(`/concepts/${extractionId}/process`)}${forceQuery}`, {
         method: 'POST'
       })
       const data = await res.json()
@@ -108,7 +109,7 @@ export function ConceptTableFill() {
     setProcessingId(extractionId)
     setResult(null)
     try {
-      const res = await fetch(`http://localhost:8000/api/concepts/${extractionId}/result`, { cache: 'no-store' })
+      const res = await fetch(apiUrl(`/concepts/${extractionId}/result`), { cache: 'no-store' })
       if (res.ok) {
         const data = await res.json()
         setResult({
@@ -327,3 +328,5 @@ export function ConceptTableFill() {
     </div>
   )
 }
+
+

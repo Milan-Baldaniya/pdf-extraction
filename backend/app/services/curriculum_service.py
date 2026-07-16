@@ -31,26 +31,27 @@ def process_curriculum_by_id(extraction_id: int, force: bool = False):
         prompt = f"""
 You are an expert educational data extractor.
 Analyze the following curriculum document text and extract the overall framework and marks, as well as the list of units.
+IMPORTANT: The document may be in an Indian language (like Sanskrit, Hindi, etc.) or English. Please accurately comprehend the text and extract the units, chapters, and marks in their ORIGINAL language (e.g. Devanagari script for Sanskrit). Treat major sections, themes, or domains (like 'खण्ड' / Khanda, "Work with Life Forms") as units if traditional units are not explicitly listed. Do NOT translate the content to English.
 
 Rules:
 - "framework": e.g., "NCF-2023" etc. (string)
-- "total_marks": overall marks for the curriculum (integer, usually 100 or 80)
-- "internal_marks": internal assessment marks (integer, usually 20)
-- "units": A list of objects representing the chapters/units in the curriculum.
+- "total_marks": overall marks for the curriculum (integer, usually 100 or 80). Set to null if not explicitly found.
+- "internal_marks": internal assessment marks (integer, usually 20). Set to null if not explicitly found.
+- "units": A list of objects representing the chapters/units/sections/themes in the curriculum.
    For each unit:
-     - "unit_number": integer (e.g. 1, 2). Convert roman numerals like "I" to 1.
-     - "name": name of the unit/theme (string)
-     - "planned_periods": integer representing periods or hours allocated (e.g., 50). Extract just the number.
-     - "total_marks": integer marks allocated to this unit (e.g. 25)
-     - "unit_chapters": A list of strings containing the names of all the chapters belonging to this unit. E.g. ["Chemical Reactions", "Acids, Bases and Salts"]. Return empty list if no chapters are found.
-- "curricular_goals": A list of Curricular Goals (e.g., CG 1, CG 2) found in the text.
+     - "unit_number": integer (e.g. 1, 2). Convert roman or regional numerals to integers. If missing, just assign an incrementing integer based on order.
+     - "name": The original name of the unit/section/theme in its native language (string).
+     - "planned_periods": integer representing periods or hours allocated. Extract just the number. Set to null if not found.
+     - "total_marks": integer marks allocated to this unit (e.g. 25). Set to null if not found.
+     - "unit_chapters": A list of strings containing the names of all the chapters/sub-topics/outlines belonging to this unit in their original language. CRITICAL: If traditional chapters are not listed, look for 'Examples' or specific vocations/topics under the theme (e.g., 'Rooftop Gardening', 'Precision Farming', 'Construction', 'Apparel') and extract them as chapters. Return empty list if no chapters/topics/examples are found.
+- "curricular_goals": A list of Curricular Goals or Objectives (e.g., उद्देश्यानि, शिक्षणोद्देश्यानि, CG-1, CG-2) found in the text. Retain descriptions in the original language. If no explicit goals are found, try to extract general objectives mentioned in the introductory text.
    For each goal:
-     - "code": The code of the goal, e.g. "CG 1" (string)
-     - "description": The textual description of the goal (string)
-     - "competencies": A list of competencies that fall under this goal.
+     - "code": The code of the goal, e.g. "CG 1" or "CG-1" (string). Generate a code like "CG-1" if missing.
+     - "description": The textual description of the goal/objective in its original language (string)
+     - "competencies": A list of competencies or skills (e.g., कौशलानि, C-1.1, C-1.2) that fall under this goal.
        For each competency:
-         - "code": The code of the competency, e.g. "C 1.1" (string)
-         - "description": The textual description of the competency (string)
+         - "code": The code of the competency, e.g. "C 1.1" or "C-1.1" (string). Generate a code like "COMP-1" if missing.
+         - "description": The textual description of the competency/skill in its original language (string)
 
 Markdown Content:
 {md_content}
@@ -205,16 +206,30 @@ Return exactly a valid JSON object matching this schema:
                 VALUES 
                 (:curriculum_id, :extraction_id, :standard_id, :subject_id, :parent_id, :code, :type, :description, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
             """)
+            seen_codes = set()
+            def get_unique_code(base_code, prefix="CG"):
+                code = str(base_code).strip()
+                if not code or code in seen_codes:
+                    idx = 1
+                    while True:
+                        new_code = f"{prefix}-{idx}"
+                        if new_code not in seen_codes:
+                            code = new_code
+                            break
+                        idx += 1
+                seen_codes.add(code)
+                return code
 
             for cg in curricular_goals:
                 # Insert the Curricular Goal
+                cg_code = get_unique_code(cg.get("code", ""), "CG")
                 res_cg = db.execute(insert_outcome_sql, {
                     "curriculum_id": curriculum_id,
                     "extraction_id": extraction_id,
                     "standard_id": row.standard_id,
                     "subject_id": row.subject_id,
                     "parent_id": None,
-                    "code": cg.get("code", ""),
+                    "code": cg_code,
                     "type": "Curricular Goal",
                     "description": cg.get("description", "")
                 })
@@ -224,13 +239,14 @@ Return exactly a valid JSON object matching this schema:
                 
                 # Insert its Competencies
                 for comp in cg.get("competencies", []):
+                    comp_code = get_unique_code(comp.get("code", ""), "COMP")
                     db.execute(insert_outcome_sql, {
                         "curriculum_id": curriculum_id,
                         "extraction_id": extraction_id,
                         "standard_id": row.standard_id,
                         "subject_id": row.subject_id,
                         "parent_id": cg_id,
-                        "code": comp.get("code", ""),
+                        "code": comp_code,
                         "type": "Competency",
                         "description": comp.get("description", "")
                     })
@@ -246,7 +262,7 @@ Return exactly a valid JSON object matching this schema:
         data["learning_outcomes"] = [dict(o) for o in outcomes]
 
         return {
-            "status": "updated" if is_update else "success",
+            "status": "success",
             "curriculum_id": curriculum_id,
             "extracted_data": data
         }

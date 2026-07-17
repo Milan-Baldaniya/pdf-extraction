@@ -103,13 +103,20 @@ Return exactly a valid JSON object matching this schema:
         total_marks = _safe_int(data.get("total_marks"))
         internal_marks = _safe_int(data.get("internal_marks"))
 
+        grade_id = None
+        if row.standard_id:
+            grade_row = db.execute(text("SELECT grade_id FROM standard WHERE id = :st_id"), {"st_id": row.standard_id}).fetchone()
+            if grade_row:
+                grade_id = grade_row[0]
+
         insert_curr_sql = text("""
             INSERT INTO lms_curriculum 
-            (extraction_id, subject_id, standard_id, syear, board, framework, total_marks, internal_marks, sub_institute_id, curriculum_name, created_at, updated_at)
+            (extraction_id, subject_id, standard_id, grade_id, syear, board, framework, total_marks, internal_marks, sub_institute_id, curriculum_name, created_at, updated_at)
             VALUES 
-            (:extraction_id, :subject_id, :standard_id, :syear, :board, :framework, :total_marks, :internal_marks, :sub_institute_id, :curriculum_name, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
+            (:extraction_id, :subject_id, :standard_id, :grade_id, :syear, :board, :framework, :total_marks, :internal_marks, :sub_institute_id, :curriculum_name, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
             ON DUPLICATE KEY UPDATE
             extraction_id = VALUES(extraction_id),
+            grade_id = VALUES(grade_id),
             framework = VALUES(framework),
             total_marks = VALUES(total_marks),
             internal_marks = VALUES(internal_marks),
@@ -121,6 +128,7 @@ Return exactly a valid JSON object matching this schema:
             "extraction_id": extraction_id,
             "subject_id": row.subject_id,
             "standard_id": row.standard_id,
+            "grade_id": grade_id,
             "syear": row.syear,
             "board": row.board,
             "framework": framework,

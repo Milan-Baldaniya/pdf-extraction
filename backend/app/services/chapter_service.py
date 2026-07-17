@@ -153,7 +153,14 @@ def process_chapter_by_id(extraction_id: int, force: bool = False) -> Dict[str, 
                 except Exception:
                     pass
                         
-        # 4. Insert or Update chapter_master
+        # 4. Fetch grade_id from standard table
+        grade_id = None
+        if std_id:
+            grade_row = db.execute(text("SELECT grade_id FROM standard WHERE id = :st_id"), {"st_id": std_id}).fetchone()
+            if grade_row:
+                grade_id = grade_row[0]
+
+        # 5. Insert or Update chapter_master
         existing = db.execute(
             text("SELECT id FROM chapter_master WHERE extraction_id = :id LIMIT 1"), 
             {"id": extraction_id}
@@ -184,6 +191,7 @@ def process_chapter_by_id(extraction_id: int, force: bool = False) -> Dict[str, 
                     sub_institute_id = :sub_inst,
                     subject_id = :sub_id,
                     standard_id = :std_id,
+                    grade_id = :grade_id,
                     unit_id = :unit_id,
                     chapter_name = :cname,
                     key_concepts = :kconcepts,
@@ -195,6 +203,7 @@ def process_chapter_by_id(extraction_id: int, force: bool = False) -> Dict[str, 
                 "sub_inst": row.get("sub_institute_id"),
                 "sub_id": row.get("subject_id"),
                 "std_id": row.get("standard_id"),
+                "grade_id": grade_id,
                 "unit_id": unit_id,
                 "cname": chapter_name,
                 "kconcepts": key_concepts_json,
@@ -211,19 +220,17 @@ def process_chapter_by_id(extraction_id: int, force: bool = False) -> Dict[str, 
                 "chapter_data": get_chapter_data_by_extraction_id(extraction_id)
             }
         else:
-            res = db.execute(text("""
-                INSERT INTO chapter_master (
-                    sub_institute_id, subject_id, standard_id, extraction_id, unit_id,
-                    chapter_name, key_concepts, syear, created_at, updated_at
-                ) VALUES (
-                    :sub_inst, :sub_id, :std_id, :id, :unit_id,
-                    :cname, :kconcepts, :syear, NOW(), NOW()
-                )
+            db.execute(text("""
+                INSERT INTO chapter_master 
+                (extraction_id, sub_institute_id, subject_id, standard_id, grade_id, unit_id, chapter_name, key_concepts, syear, created_at, updated_at)
+                VALUES 
+                (:ext_id, :sub_inst, :sub_id, :std_id, :grade_id, :unit_id, :cname, :kconcepts, :syear, NOW(), NOW())
             """), {
+                "ext_id": extraction_id,
                 "sub_inst": row.get("sub_institute_id"),
                 "sub_id": row.get("subject_id"),
                 "std_id": row.get("standard_id"),
-                "id": extraction_id,
+                "grade_id": grade_id,
                 "unit_id": unit_id,
                 "cname": chapter_name,
                 "kconcepts": key_concepts_json,

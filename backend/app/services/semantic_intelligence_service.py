@@ -211,7 +211,7 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
                     misconceptions=:misconceptions, real_world_applications=:real_world_applications,
                     pedagogy=:pedagogy, learning_objectives=:learning_objectives,
                     learning_outcomes=:learning_outcomes, assessment_blueprint=:assessment_blueprint,
-                    updated_at=CURRENT_TIMESTAMP
+                    sub_institute_id=1, updated_at=CURRENT_TIMESTAMP
                 WHERE id=:id
             """), {**params, "id": existing[0]})
             action = "updated"
@@ -219,12 +219,12 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
         else:
             res = db.execute(text("""
                 INSERT INTO semantic_intelligence
-                (extraction_id, standard_id, subject_id, chapter_id, subject_name, standard, chapter_number,
+                (extraction_id, sub_institute_id, standard_id, subject_id, chapter_id, subject_name, standard, chapter_number,
                  learning_objective, total_concepts, full_intelegance_json, llm_model, input_token, output_token, qulity_flag,
                  knowledge, ability, skill, competency, blooms_level, dok, prerequisites, misconceptions,
                  real_world_applications, pedagogy, learning_objectives, learning_outcomes, assessment_blueprint)
                 VALUES
-                (:ext_id, :std_id, :sub_id, :ch_id, :sub_name, :std, :ch_num,
+                (:ext_id, 1, :std_id, :sub_id, :ch_id, :sub_name, :std, :ch_num,
                  :lo, :topics, :full_json, :model, :in_tok, :out_tok, :qf,
                  :knowledge, :ability, :skill, :competency, :blooms_level, :dok, :prerequisites, :misconceptions,
                  :real_world_applications, :pedagogy, :learning_objectives, :learning_outcomes, :assessment_blueprint)

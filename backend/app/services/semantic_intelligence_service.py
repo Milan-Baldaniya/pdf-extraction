@@ -156,7 +156,7 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
     learning_objective = "\n".join(all_lo) if all_lo else ""
     
     total_topics = len(concepts_list) # Still mapping to total_topics column
-    full_json_str = json.dumps(assembled_json)
+    full_json_str = json.dumps(assembled_json, ensure_ascii=False)
     llm_model = settings.deepseek_model
     
     # Set quality flag to good for now since pydantic enforces schema
@@ -184,19 +184,19 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
             "in_tok": total_input_tokens,
             "out_tok": total_output_tokens,
             "qf": quality_flag,
-            "knowledge": json.dumps(agg_knowledge),
-            "ability": json.dumps(agg_ability),
-            "skill": json.dumps(agg_skill),
-            "competency": json.dumps(agg_competency),
-            "blooms_level": json.dumps(agg_blooms),
-            "dok": json.dumps(agg_dok),
-            "prerequisites": json.dumps(agg_prereqs),
-            "misconceptions": json.dumps(agg_misconceptions),
-            "real_world_applications": json.dumps(agg_rwa),
-            "pedagogy": json.dumps(agg_pedagogy),
-            "learning_objectives": json.dumps(agg_lo),
-            "learning_outcomes": json.dumps(agg_outcomes),
-            "assessment_blueprint": json.dumps(agg_blueprint)
+            "knowledge": json.dumps(agg_knowledge, ensure_ascii=False),
+            "ability": json.dumps(agg_ability, ensure_ascii=False),
+            "skill": json.dumps(agg_skill, ensure_ascii=False),
+            "competency": json.dumps(agg_competency, ensure_ascii=False),
+            "blooms_level": json.dumps(agg_blooms, ensure_ascii=False),
+            "dok": json.dumps(agg_dok, ensure_ascii=False),
+            "prerequisites": json.dumps(agg_prereqs, ensure_ascii=False),
+            "misconceptions": json.dumps(agg_misconceptions, ensure_ascii=False),
+            "real_world_applications": json.dumps(agg_rwa, ensure_ascii=False),
+            "pedagogy": json.dumps(agg_pedagogy, ensure_ascii=False),
+            "learning_objectives": json.dumps(agg_lo, ensure_ascii=False),
+            "learning_outcomes": json.dumps(agg_outcomes, ensure_ascii=False),
+            "assessment_blueprint": json.dumps(agg_blueprint, ensure_ascii=False)
         }
         
         if existing:

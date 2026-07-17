@@ -175,7 +175,7 @@ Return exactly a valid JSON object matching this schema:
                         "planned_periods": _safe_int(unit.get("planned_periods") or unit.get("planned_period")),
                         "total_marks": _safe_int(unit.get("total_marks")),
                         "extraction_id": extraction_id,
-                        "unit_chapters": json.dumps(unit.get("unit_chapters", []))
+                        "unit_chapters": json.dumps(unit.get("unit_chapters", []), ensure_ascii=False)
                     })
                 else:
                     # Insert new unit safely
@@ -186,7 +186,7 @@ Return exactly a valid JSON object matching this schema:
                         "name": str(unit.get("name", "")),
                         "planned_periods": _safe_int(unit.get("planned_periods") or unit.get("planned_period")),
                         "total_marks": _safe_int(unit.get("total_marks")),
-                        "unit_chapters": json.dumps(unit.get("unit_chapters", []))
+                        "unit_chapters": json.dumps(unit.get("unit_chapters", []), ensure_ascii=False)
                     })
             db.commit()
 

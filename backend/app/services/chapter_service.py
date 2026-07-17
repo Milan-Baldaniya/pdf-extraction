@@ -134,7 +134,7 @@ def process_chapter_by_id(extraction_id: int, force: bool = False) -> Dict[str, 
         # Ensure we have the right structure
         data_dict = parsed_data.get("data", parsed_data)
         key_concepts = data_dict.get("key_concepts", [])
-        key_concepts_json = json.dumps(key_concepts)
+        key_concepts_json = json.dumps(key_concepts, ensure_ascii=False)
         
         # 3. Map unit_id
         unit_id = data_dict.get("mapped_unit_id")

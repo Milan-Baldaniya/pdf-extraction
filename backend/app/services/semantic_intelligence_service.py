@@ -204,7 +204,7 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
                 UPDATE semantic_intelligence
                 SET standard_id=:std_id, subject_id=:sub_id, chapter_id=:ch_id,
                     subject_name=:sub_name, standard=:std, chapter_number=:ch_num,
-                    learning_objective=:lo, total_topics=:topics, full_intelegance_json=:full_json,
+                    learning_objective=:lo, total_concepts=:topics, full_intelegance_json=:full_json,
                     llm_model=:model, input_token=:in_tok, output_token=:out_tok, qulity_flag=:qf,
                     knowledge=:knowledge, ability=:ability, skill=:skill, competency=:competency,
                     blooms_level=:blooms_level, dok=:dok, prerequisites=:prerequisites,
@@ -220,7 +220,7 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
             res = db.execute(text("""
                 INSERT INTO semantic_intelligence
                 (extraction_id, standard_id, subject_id, chapter_id, subject_name, standard, chapter_number,
-                 learning_objective, total_topics, full_intelegance_json, llm_model, input_token, output_token, qulity_flag,
+                 learning_objective, total_concepts, full_intelegance_json, llm_model, input_token, output_token, qulity_flag,
                  knowledge, ability, skill, competency, blooms_level, dok, prerequisites, misconceptions,
                  real_world_applications, pedagogy, learning_objectives, learning_outcomes, assessment_blueprint)
                 VALUES

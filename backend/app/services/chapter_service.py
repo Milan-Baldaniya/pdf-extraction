@@ -21,7 +21,7 @@ Rules you must follow:
 3. For language subjects (Hindi, Gujarati, English, Sanskrit, etc.), extract grammar topics, literary devices, author/poet concepts, and vocabulary themes.
 4. For Mathematics, include formulas, theorems, and problem-solving techniques.
 5. For Sciences, include laws, definitions, diagrams/processes mentioned, and chemical/biological terms.
-6. Always return concept names in the same language as the chapter content (Hindi concepts in Hindi, Gujarati in Gujarati, etc.), but the JSON keys must always be in English.
+6. CRITICAL INSTRUCTION: ALL extracted text (Concept Names AND Descriptions) MUST strictly remain in the ORIGINAL script/language (e.g., Sanskrit, Hindi, Gujarati, Marathi) found in the chapter content. DO NOT translate any text into English. Only the JSON keys must be in English.
 7. Keep each concept name concise (2–6 words). The description should be 1–2 sentences max.
 8. Extract between 5 and 20 key concepts depending on chapter length and complexity.
 9. Output ONLY the JSON object. No other text.
@@ -87,9 +87,20 @@ def process_chapter_by_id(extraction_id: int, force: bool = False) -> Dict[str, 
         available_units_list = []
         units = []
         if std_id and sub_id:
-            # Find curriculums matching the same standard and subject
+            # Find curriculums matching the same standard and subject (or similar subject name)
             curriculums = db.execute(
-                text("SELECT id FROM lms_curriculum WHERE standard_id = :std_id AND subject_id = :sub_id"), 
+                text("""
+                    SELECT c.id 
+                    FROM lms_curriculum c
+                    LEFT JOIN subject cs ON c.subject_id = cs.id
+                    LEFT JOIN subject ds ON ds.id = :sub_id
+                    WHERE c.standard_id = :std_id 
+                    AND (
+                        c.subject_id = :sub_id 
+                        OR LOWER(ds.subject_name) LIKE CONCAT(LOWER(cs.subject_name), '%')
+                        OR LOWER(cs.subject_name) LIKE CONCAT(LOWER(ds.subject_name), '%')
+                    )
+                """), 
                 {"std_id": std_id, "sub_id": sub_id}
             ).fetchall()
             

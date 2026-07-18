@@ -86,6 +86,16 @@ Chapter: {chapter_name}
 Chapter Summary: {chapter_summary}
 Target Concept to Extract: {concept_name}
 You must ensure all concepts, abilities, and skills extracted below perfectly align with the broader goals of this chapter.
+
+LANGUAGE & TRANSLATION POLICY (CRITICAL):
+Since you are processing content that may be in Hindi or Sanskrit, you must strictly follow this language separation:
+1. MUST BE IN ENGLISH (System Frameworks & Framing): 
+   - The primary language of your responses, sentence structures, and action verbs.
+   - Bloom's Levels, DOK Levels, and standardized Transferable Skills (e.g. "Critical Thinking").
+   - The framing of Abilities/Competencies (e.g. "The student will be able to...").
+2. MUST BE IN THE TARGET TEXT LANGUAGE (Hindi/Sanskrit):
+   - The actual extracted Knowledge facts, formulas, vocabulary, grammar rules, and direct quotes.
+Example of a good ability: "Explain the meaning of the Sanskrit shloka 'विद्या ददाति विनयम्' in daily life."
 ==================================================
 
 Your task is to transform textbook content into structured Concept Intelligence.
@@ -161,6 +171,15 @@ Chapter: {chapter_name}
 Chapter Summary: {chapter_summary}
 Target Concept to Extract: {concept_name}
 Align all pedagogical strategies, real-world applications, and prerequisites with the overarching goals of this chapter.
+
+LANGUAGE & TRANSLATION POLICY (CRITICAL):
+Since you are processing content that may be in Hindi or Sanskrit, you must strictly follow this language separation:
+1. MUST BE IN ENGLISH (System Frameworks & Framing): 
+   - The primary language of your responses, sentence structures, and action verbs.
+   - Pedagogy types, generic prerequisites, and teaching strategies.
+2. MUST BE IN THE TARGET TEXT LANGUAGE (Hindi/Sanskrit):
+   - The actual extracted Misconceptions, root causes, and specific Real-World Applications.
+Example of a good misconception: "Students often confuse the Hindi matras 'इ' and 'ई' when writing."
 ==================================================
 
 Your task is to extract Pedagogical Intelligence.
@@ -240,6 +259,16 @@ OFFICIAL CURRICULUM OUTCOMES:
 {official_outcomes}
 
 CRITICAL RULE FOR LEARNING OUTCOMES: When generating learning_outcomes, you MUST strictly align and map the concept to these official outcomes wherever possible. If an outcome directly satisfies an official outcome, you should explicitly reference it.
+
+LANGUAGE & TRANSLATION POLICY (CRITICAL):
+Since you are processing content that may be in Hindi or Sanskrit, you must strictly follow this language separation:
+1. MUST BE IN ENGLISH (System Frameworks & Framing): 
+   - The primary language of your responses, sentence structures, and action verbs.
+   - Assessment Types (MCQ, Short Answer, etc.), Difficulty Levels, Bloom's Levels, and DOK levels.
+   - The framing of Objectives/Outcomes (e.g. "The student will be able to...").
+2. MUST BE IN THE TARGET TEXT LANGUAGE (Hindi/Sanskrit):
+   - Specific grammar rules, vocabulary, poems, or text references being assessed.
+Example of a good objective: "Conjugate the Sanskrit verb 'पठ्' (to read) in Lrt Lakar (Future Tense)."
 ==================================================
 
 Your task is to create Assessment Intelligence.

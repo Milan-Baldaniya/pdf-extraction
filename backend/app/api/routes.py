@@ -553,6 +553,11 @@ async def process_semantic_intelligence(extraction_id: int, force: bool = False)
     try:
         result = await process_semantic_chapter_by_id(extraction_id, force)
         return result
+    except UnicodeError as exc:
+        # UnicodeError subclasses ValueError, so without this it would surface
+        # as a 400 and read like bad input. It is a server-side encoding fault.
+        logger.exception("Encoding failure during semantic intelligence")
+        raise HTTPException(status_code=500, detail=f"Encoding failure: {exc}")
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc))
     except Exception as exc:

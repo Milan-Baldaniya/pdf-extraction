@@ -90,7 +90,9 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
         chapter_name=chapter_name,
         raw_markdown=md_content,
         key_concepts=key_concepts,
-        official_outcomes=official_outcomes_str
+        official_outcomes=official_outcomes_str,
+        subject_name=subject,
+        class_level=class_level
     )
     
     # We now track tokens accurately through the swarm and pipeline!
@@ -116,7 +118,10 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
     agg_lo = []
     agg_outcomes = []
     agg_blueprint = []
-    
+    # Rubrics stay concept-wise: one block per concept, each holding its own
+    # items and teaching notes, rather than being flattened like the other 12.
+    agg_rubrics = []
+
     for concept_wrapper in concepts_list:
         concept_meta = concept_wrapper.get("concept", {})
         concept_name = concept_meta.get("concept_name", "Unknown Concept")
@@ -147,7 +152,13 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
         agg_lo.extend(inject_meta(concept_wrapper.get("learning_objectives", [])))
         agg_outcomes.extend(inject_meta(concept_wrapper.get("learning_outcomes", [])))
         agg_blueprint.extend(inject_meta(concept_wrapper.get("assessment_blueprint", [])))
-        
+
+        rubric_block = concept_wrapper.get("assessment_rubrics")
+        if isinstance(rubric_block, dict) and rubric_block.get("items"):
+            rubric_block["concept_name"] = concept_name
+            agg_rubrics.append(rubric_block)
+
+
         for lo in concept_wrapper.get("learning_objectives", []):
             obj_text = lo.get("objective", "")
             if obj_text:
@@ -196,7 +207,8 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
             "pedagogy": json.dumps(agg_pedagogy, ensure_ascii=False),
             "learning_objectives": json.dumps(agg_lo, ensure_ascii=False),
             "learning_outcomes": json.dumps(agg_outcomes, ensure_ascii=False),
-            "assessment_blueprint": json.dumps(agg_blueprint, ensure_ascii=False)
+            "assessment_blueprint": json.dumps(agg_blueprint, ensure_ascii=False),
+            "assessment_rubrics": json.dumps(agg_rubrics, ensure_ascii=False)
         }
         
         if existing:
@@ -211,6 +223,7 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
                     misconceptions=:misconceptions, real_world_applications=:real_world_applications,
                     pedagogy=:pedagogy, learning_objectives=:learning_objectives,
                     learning_outcomes=:learning_outcomes, assessment_blueprint=:assessment_blueprint,
+                    assessment_rubrics=:assessment_rubrics,
                     sub_institute_id=1, updated_at=CURRENT_TIMESTAMP
                 WHERE id=:id
             """), {**params, "id": existing[0]})
@@ -222,12 +235,14 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
                 (extraction_id, sub_institute_id, standard_id, subject_id, chapter_id, subject_name, standard, chapter_number,
                  learning_objective, total_concepts, full_intelegance_json, llm_model, input_token, output_token, qulity_flag,
                  knowledge, ability, skill, competency, blooms_level, dok, prerequisites, misconceptions,
-                 real_world_applications, pedagogy, learning_objectives, learning_outcomes, assessment_blueprint)
+                 real_world_applications, pedagogy, learning_objectives, learning_outcomes, assessment_blueprint,
+                 assessment_rubrics)
                 VALUES
                 (:ext_id, 1, :std_id, :sub_id, :ch_id, :sub_name, :std, :ch_num,
                  :lo, :topics, :full_json, :model, :in_tok, :out_tok, :qf,
                  :knowledge, :ability, :skill, :competency, :blooms_level, :dok, :prerequisites, :misconceptions,
-                 :real_world_applications, :pedagogy, :learning_objectives, :learning_outcomes, :assessment_blueprint)
+                 :real_world_applications, :pedagogy, :learning_objectives, :learning_outcomes, :assessment_blueprint,
+                 :assessment_rubrics)
             """), params)
             action = "inserted"
             record_id = res.lastrowid

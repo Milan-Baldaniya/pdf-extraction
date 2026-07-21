@@ -4,7 +4,7 @@ from typing import Dict, Any
 from .slicer import SemanticSlicer
 from .agents import IntelligenceSwarm
 
-async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, key_concepts: str = "No predefined key concepts.", official_outcomes: str = "") -> Dict[str, Any]:
+async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, key_concepts: str = "No predefined key concepts.", official_outcomes: str = "", subject_name: str = "", class_level: str = "") -> Dict[str, Any]:
     """
     Phase 4: The Core Orchestrator
     This function brings together the Slicer and the Micro-Agent Swarm.
@@ -47,7 +47,9 @@ async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, ke
                     chapter_name=chapter_name,
                     chapter_summary=chapter_summary,
                     concept_name=title,
-                    official_outcomes=official_outcomes
+                    official_outcomes=official_outcomes,
+                    subject_name=subject_name,
+                    class_level=class_level
                 )
                 
                 # Overwrite the generated concept meta with the Slicer's titles just to be consistent
@@ -59,7 +61,7 @@ async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, ke
                 return mega_concept_object, t_in, t_out
             except Exception as e:
                 import traceback
-                with open("error_log.txt", "a") as f:
+                with open("error_log.txt", "a", encoding="utf-8") as f:
                     f.write(f"Error processing concept '{title}': {str(e)}\n{traceback.format_exc()}\n")
                 print(f"Error processing concept '{title}': {str(e)}")
                 return None, 0, 0

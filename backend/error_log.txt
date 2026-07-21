@@ -1,0 +1,204 @@
+Error processing concept 'Metallurgy': 3 validation errors for ConceptAssessmentRubric
+teaching_notes.written_evidence_tips
+  Input should be a valid list [type=list_type, input_value="Ensure students use the ...ion to specific metals.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.oral_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Ask students to explain ...xtraction and refining.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.experimental_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Not applicable for this ...einforce understanding.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+Traceback (most recent call last):
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\pipeline.py", line 45, in process_single_concept
+    mega_concept_object, t_in, t_out = await swarm.process_topic_slice(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\agents.py", line 665, in process_topic_slice
+    assembled_rubrics = self._assemble_rubrics(out4, text_slice, concept_name, subject_name, class_level)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\agents.py", line 624, in _assemble_rubrics
+    return ConceptAssessmentRubric(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\venv\Lib\site-packages\pydantic\main.py", line 209, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for ConceptAssessmentRubric
+teaching_notes.written_evidence_tips
+  Input should be a valid list [type=list_type, input_value="Ensure students use the ...ion to specific metals.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.oral_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Ask students to explain ...xtraction and refining.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.experimental_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Not applicable for this ...einforce understanding.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+
+Error processing concept 'Physical Properties of Metals': 3 validation errors for ConceptAssessmentRubric
+teaching_notes.written_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Students should be able ...leability vs ductility.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.oral_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Ask students to predict ...ion of sonorous metals.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.experimental_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Assess ability to set up...ful handling of sodium.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+Traceback (most recent call last):
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\pipeline.py", line 45, in process_single_concept
+    mega_concept_object, t_in, t_out = await swarm.process_topic_slice(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\agents.py", line 665, in process_topic_slice
+    assembled_rubrics = self._assemble_rubrics(out4, text_slice, concept_name, subject_name, class_level)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\agents.py", line 624, in _assemble_rubrics
+    return ConceptAssessmentRubric(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\venv\Lib\site-packages\pydantic\main.py", line 209, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for ConceptAssessmentRubric
+teaching_notes.written_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Students should be able ...leability vs ductility.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.oral_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Ask students to predict ...ion of sonorous metals.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.experimental_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Assess ability to set up...ful handling of sodium.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+
+Error processing concept 'Malleability and Ductility': 3 validation errors for ConceptAssessmentRubric
+teaching_notes.written_evidence_tips
+  Input should be a valid list [type=list_type, input_value="Look for precise definit...cal wiring, gold leaf).", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.oral_evidence_tips
+  Input should be a valid list [type=list_type, input_value='During discussion, ask s...pronunciation of terms.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.experimental_evidence_tips
+  Input should be a valid list [type=list_type, input_value="Assess students' ability...rvations and reasoning.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+Traceback (most recent call last):
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\pipeline.py", line 45, in process_single_concept
+    mega_concept_object, t_in, t_out = await swarm.process_topic_slice(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\agents.py", line 665, in process_topic_slice
+    assembled_rubrics = self._assemble_rubrics(out4, text_slice, concept_name, subject_name, class_level)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\agents.py", line 624, in _assemble_rubrics
+    return ConceptAssessmentRubric(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\venv\Lib\site-packages\pydantic\main.py", line 209, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for ConceptAssessmentRubric
+teaching_notes.written_evidence_tips
+  Input should be a valid list [type=list_type, input_value="Look for precise definit...cal wiring, gold leaf).", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.oral_evidence_tips
+  Input should be a valid list [type=list_type, input_value='During discussion, ask s...pronunciation of terms.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.experimental_evidence_tips
+  Input should be a valid list [type=list_type, input_value="Assess students' ability...rvations and reasoning.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+
+Error processing concept 'Prevention of Corrosion': 3 validation errors for ConceptAssessmentRubric
+teaching_notes.written_evidence_tips
+  Input should be a valid list [type=list_type, input_value="Encourage students to qu...evidence from the text.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.oral_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Ask students to explain ... mentioned in the text.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.experimental_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Design an experiment to ...sacrificial protection.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+Traceback (most recent call last):
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\pipeline.py", line 45, in process_single_concept
+    mega_concept_object, t_in, t_out = await swarm.process_topic_slice(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\agents.py", line 665, in process_topic_slice
+    assembled_rubrics = self._assemble_rubrics(out4, text_slice, concept_name, subject_name, class_level)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\agents.py", line 624, in _assemble_rubrics
+    return ConceptAssessmentRubric(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\venv\Lib\site-packages\pydantic\main.py", line 209, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for ConceptAssessmentRubric
+teaching_notes.written_evidence_tips
+  Input should be a valid list [type=list_type, input_value="Encourage students to qu...evidence from the text.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.oral_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Ask students to explain ... mentioned in the text.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.experimental_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Design an experiment to ...sacrificial protection.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+
+Error processing concept 'Physical States and Conditions': 3 validation errors for ConceptAssessmentRubric
+teaching_notes.written_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Look for correct use of ... dissolved, not liquid.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.oral_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Ask students to explain ...steam vs. liquid water.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.experimental_evidence_tips
+  Input should be a valid list [type=list_type, input_value='During a lab, have stude...heir written equations.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+Traceback (most recent call last):
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\pipeline.py", line 45, in process_single_concept
+    mega_concept_object, t_in, t_out = await swarm.process_topic_slice(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\agents.py", line 704, in process_topic_slice
+    assembled_rubrics = self._assemble_rubrics(out4, text_slice, concept_name, subject_name, class_level)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\agents.py", line 663, in _assemble_rubrics
+    return ConceptAssessmentRubric(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\venv\Lib\site-packages\pydantic\main.py", line 209, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for ConceptAssessmentRubric
+teaching_notes.written_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Look for correct use of ... dissolved, not liquid.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.oral_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Ask students to explain ...steam vs. liquid water.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.experimental_evidence_tips
+  Input should be a valid list [type=list_type, input_value='During a lab, have stude...heir written equations.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+
+Error processing concept 'Balancing Chemical Equations': 3 validation errors for ConceptAssessmentRubric
+teaching_notes.written_evidence_tips
+  Input should be a valid list [type=list_type, input_value='When assessing written r...g compound and element.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.oral_evidence_tips
+  Input should be a valid list [type=list_type, input_value="During oral questioning,...ther than rote answers.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.experimental_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Although balancing is la...ting down observations.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+Traceback (most recent call last):
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\pipeline.py", line 45, in process_single_concept
+    mega_concept_object, t_in, t_out = await swarm.process_topic_slice(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\agents.py", line 704, in process_topic_slice
+    assembled_rubrics = self._assemble_rubrics(out4, text_slice, concept_name, subject_name, class_level)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\app\semantic_intelligence\agents.py", line 663, in _assemble_rubrics
+    return ConceptAssessmentRubric(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MILAN\Downloads\pdf extraction\backend\venv\Lib\site-packages\pydantic\main.py", line 209, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for ConceptAssessmentRubric
+teaching_notes.written_evidence_tips
+  Input should be a valid list [type=list_type, input_value='When assessing written r...g compound and element.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.oral_evidence_tips
+  Input should be a valid list [type=list_type, input_value="During oral questioning,...ther than rote answers.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+teaching_notes.experimental_evidence_tips
+  Input should be a valid list [type=list_type, input_value='Although balancing is la...ting down observations.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/list_type
+

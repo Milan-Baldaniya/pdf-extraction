@@ -14,6 +14,7 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 
 from app.db.supabase_client import supabase
+from app.jobs import accepted, llm_semaphore, submit as submit_job
 from app.semantic_intelligence.deepseek_client import call_deepseek
 from app.teaching_intelligence.prompt import build_teaching_intelligence_prompt
 from app.teaching_intelligence.parser import (
@@ -247,3 +248,20 @@ async def get_all_styles(chapter_id: int):
         .execute()
     )
     return {"chapter_id": chapter_id, "variants": result.data}
+
+
+# ─── Background job variant ─────────────────────────────────────────────────
+#
+# /generate calls DeepSeek for a full slide-by-slide teaching plan, which
+# routinely runs longer than a reverse proxy will hold a request open. This
+# queues the same work and hands back a job id to poll at /api/status/{job_id}.
+
+@router.post("/jobs/generate", status_code=202)
+async def queue_teaching_intelligence(req: GenerateTeachingRequest) -> dict:
+    """Background form of ``/generate``. Poll ``/api/status/{job_id}``."""
+    job_id = submit_job(
+        f"Teaching intelligence for chapter {req.chapter_id}",
+        lambda: generate_teaching_intelligence(req),
+        semaphore=llm_semaphore(),
+    )
+    return accepted(job_id)

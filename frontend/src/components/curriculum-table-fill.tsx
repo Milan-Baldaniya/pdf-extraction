@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/badge"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { CustomSelect } from "@/components/ui/custom-select"
 import { apiUrl } from "@/lib/api-url"
+import { runJob } from "@/lib/api"
 
 interface CurriculumRecord {
   id: number
@@ -25,6 +26,7 @@ export function CurriculumTableFill() {
   const [records, setRecords] = useState<CurriculumRecord[]>([])
   const [loading, setLoading] = useState(false)
   const [processingId, setProcessingId] = useState<number | null>(null)
+  const [processingMessage, setProcessingMessage] = useState<string | null>(null)
   const [result, setResult] = useState<any>(null)
   const [manualExtractionId, setManualExtractionId] = useState("")
   const [expandedRowId, setExpandedRowId] = useState<number | null>(null)
@@ -74,21 +76,19 @@ export function CurriculumTableFill() {
     setProcessingId(extractionId)
     setResult(null)
     try {
-      const res = await fetch(`${apiUrl(`/curriculums/${extractionId}/process`)}${forceQuery}`, {
-        method: 'POST'
-      })
-      const data = await res.json()
-      if (res.ok) {
-        setResult(data)
-        fetchRecords() // Refresh table status
-      } else {
-        alert("Error processing: " + data.detail)
-      }
+      const data = await runJob<any>(
+        `${apiUrl(`/jobs/curriculums/${extractionId}/process`)}${forceQuery}`,
+        undefined,
+        (status) => setProcessingMessage(status.message)
+      )
+      setResult(data)
+      fetchRecords() // Refresh table status
     } catch (err) {
       console.error(err)
-      alert("Failed to process curriculum")
+      alert("Error processing: " + (err as Error).message)
     } finally {
       setProcessingId(null)
+      setProcessingMessage(null)
     }
   }
 
@@ -121,6 +121,7 @@ export function CurriculumTableFill() {
       alert("Failed to fetch curriculum data")
     } finally {
       setProcessingId(null)
+      setProcessingMessage(null)
     }
   }
 
@@ -390,7 +391,7 @@ export function CurriculumTableFill() {
                               {processingId === r.id && result === null ? (
                                 <span className="flex items-center gap-2">
                                   <span className="h-3 w-3 border-2 border-current border-t-transparent rounded-full animate-spin"></span>
-                                  {r.is_processed ? "Working..." : "Processing"}
+                                  {processingMessage || (r.is_processed ? "Working..." : "Processing")}
                                 </span>
                               ) : (r.is_processed ? "Reprocess" : "Process & Fill")}
                             </Button>

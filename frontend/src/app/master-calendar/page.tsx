@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo } from "react";
 import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Clock, AlertCircle, Search, LayoutGrid, CheckSquare, BrainCircuit, Plus, BookOpen, ArrowLeft } from "lucide-react";
 import { CustomSelect } from "@/components/ui/custom-select";
 import Link from "next/link";
+import { API_ROOT } from "@/lib/api-url"
 
 export default function MasterCalendarPage() {
   const [loading, setLoading] = useState(false);
@@ -35,7 +36,7 @@ export default function MasterCalendarPage() {
 
   // Fetch initial dropdowns
   useEffect(() => {
-    fetch("http://localhost:8000/lesson-intelligence/dropdowns")
+    fetch(`${API_ROOT}/lesson-intelligence/dropdowns`)
       .then(res => res.json())
       .then(data => {
         if (data.status === "success") {
@@ -47,7 +48,7 @@ export default function MasterCalendarPage() {
   // Fetch filtered dropdowns when Institute changes
   useEffect(() => {
     if (!instId) return;
-    fetch(`http://localhost:8000/lesson-intelligence/dropdowns/filter?sub_institute_id=${instId}`)
+    fetch(`${API_ROOT}/lesson-intelligence/dropdowns/filter?sub_institute_id=${instId}`)
       .then(res => res.json())
       .then(data => {
         setStandards(data.standards || []);
@@ -61,7 +62,7 @@ export default function MasterCalendarPage() {
     if (!instId || !stdId || !divId || !year) return;
     setLoading(true);
     try {
-      const res = await fetch(`http://localhost:8000/lesson-intelligence/master-calendar/${instId}/${stdId}/${divId}?syear=${year}`);
+      const res = await fetch(`${API_ROOT}/lesson-intelligence/master-calendar/${instId}/${stdId}/${divId}?syear=${year}`);
       const data = await res.json();
       if (data.status === "success") {
         setPeriods(data.periods || []);

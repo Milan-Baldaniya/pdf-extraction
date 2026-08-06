@@ -283,10 +283,13 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
   const handleGenerateSemantic = async () => {
     try {
       setIsSemanticLoading(true);
-      const res = await generateSemanticIntelligence({
-        markdown_content: data.markdown_content,
-        force_regenerate: true
-      });
+      const extractionId = (data.metadata as any)?.pdf_cache_id;
+      if (!extractionId) {
+        throw new Error(
+          "This extraction has no database id yet, so semantic intelligence cannot be generated for it."
+        );
+      }
+      const res = await generateSemanticIntelligence(extractionId, true);
       setSemanticData(res);
       toast.success(`Semantic Intelligence generated!`);
     } catch (err: any) {

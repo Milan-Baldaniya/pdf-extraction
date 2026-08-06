@@ -3,7 +3,13 @@
 import { useState, useEffect, useRef } from "react";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import toast from "react-hot-toast";
-import { extractPdf, fetchSubjectsByStandard, createSubject, type ExtractionResponse } from "@/lib/api";
+import {
+  extractPdf,
+  fetchSubjectsByStandard,
+  createSubject,
+  type ExtractionRequest,
+  type ExtractionResponse,
+} from "@/lib/api";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -122,6 +128,9 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
     }
   }, [standardSubjects, standard, subjectName]);
 
+  // Live stage message from the server while a background extraction runs.
+  const [jobProgress, setJobProgress] = useState<string | null>(null);
+
   const getMetadata = (resolvedSubjectName?: string) => ({
     document_type: documentType,
     document_title: documentTitle,
@@ -133,12 +142,17 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
   });
 
   const urlMutation = useMutation({
-    mutationFn: extractPdf,
+    // Wrapped rather than passed directly: react-query calls mutationFn with a
+    // context object as the second argument, which is not our progress callback.
+    mutationFn: (request: ExtractionRequest) =>
+      extractPdf(request, (status) => setJobProgress(status.message)),
     onSuccess: (data) => {
+      setJobProgress(null);
       toast.success("PDF extracted successfully.");
       onSuccess(data);
     },
     onError: (error: Error & { response?: { data?: { detail?: string } } }) => {
+      setJobProgress(null);
       const message =
         error.response?.data?.detail ||
         error.message ||
@@ -150,13 +164,15 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
   const uploadMutation = useMutation({
     mutationFn: async ({ f, meta }: { f: File; meta: any }) => {
       const { uploadPdf } = await import("@/lib/api");
-      return uploadPdf(f, meta);
+      return uploadPdf(f, meta, (status) => setJobProgress(status.message));
     },
     onSuccess: (data) => {
+      setJobProgress(null);
       toast.success("PDF uploaded and extracted successfully.");
       onSuccess(data);
     },
     onError: (error: Error & { response?: { data?: { detail?: string } } }) => {
+      setJobProgress(null);
       const message =
         error.response?.data?.detail ||
         error.message ||
@@ -474,6 +490,11 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
                   MinerU is running layout analysis, OCR, table parsing,
                   formula extraction, and educational structure enrichment.
                 </p>
+                {jobProgress && (
+                  <p className="text-xs font-medium text-primary">
+                    {jobProgress}
+                  </p>
+                )}
               </div>
 
               <div className="mt-2 w-full max-w-xs space-y-2">

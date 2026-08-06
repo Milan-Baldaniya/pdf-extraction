@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react"
 import { useParams } from "next/navigation"
 import { SemanticIntelligenceViewer } from "@/components/semantic-intelligence-viewer"
 import { FileText, ArrowLeft } from "lucide-react"
+import { API_ROOT } from "@/lib/api-url"
 
 export default function SemanticIntelligencePage() {
   const params = useParams()
@@ -17,7 +18,7 @@ export default function SemanticIntelligencePage() {
 
     const fetchData = async () => {
       try {
-        const res = await fetch(`http://localhost:8000/api/semantic-intelligence/${id}/result`, { cache: 'no-store' })
+        const res = await fetch(`${API_ROOT}/api/semantic-intelligence/${id}/result`, { cache: 'no-store' })
         if (res.ok) {
           const json = await res.json()
           const intelligence = json?.full_intelligence_json?.intelligence || 

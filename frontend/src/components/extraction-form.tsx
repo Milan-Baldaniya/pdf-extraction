@@ -75,7 +75,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
   const [chapterNumber, setChapterNumber] = useState("");
   const [standard, setStandard] = useState("10");
   const [subjectName, setSubjectName] = useState("Science");
-  const [board, setBoard] = useState("CBSE");
+  const [board, setBoard] = useState("CAMBRIDGE");
   const [syear, setSyear] = useState("2024");
   const [customSubject, setCustomSubject] = useState("");
   const [customSubjectCode, setCustomSubjectCode] = useState("");
@@ -311,7 +311,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
 
               <div className="space-y-1.5">
                 <label className="text-xs font-medium text-foreground/80 pl-1">Board</label>
-                <MetadataInput type="text" value={board} onChange={e => setBoard(e.target.value)} placeholder="CBSE" />
+                <MetadataInput type="text" value={board} onChange={e => setBoard(e.target.value)} placeholder="CAMBRIDGE" />
               </div>
 
               {subjectName === "Others" && (

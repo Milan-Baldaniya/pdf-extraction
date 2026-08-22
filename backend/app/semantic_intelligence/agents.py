@@ -94,7 +94,25 @@ class Agent4RubricOutput(BaseModel):
 # PHASE 3: THE PARALLEL MICRO-AGENT SWARM
 # ==========================================================
 
-from .deepseek_client import async_call_deepseek
+from .deepseek_client import async_call_deepseek, DeepSeekUnavailableError
+
+# Fields a downstream agent never needs from an upstream one. `evidence` is
+# verbatim source text it already has in its own slice, and
+# `pedagogical_reasoning` is the upstream model's essay about its own thinking.
+# Re-sending both cost ~40k input tokens per chapter.
+_CONTEXT_DROP = ("evidence", "pedagogical_reasoning")
+
+
+def _context(agent_json: dict) -> str:
+    """Serialise an upstream agent's output for use as downstream context.
+
+    Compact separators rather than indent=2: the pretty-printing was pure
+    whitespace the model is billed for.
+    """
+    if not isinstance(agent_json, dict):
+        return "{}"
+    lean = {k: v for k, v in agent_json.items() if k not in _CONTEXT_DROP}
+    return json.dumps(lean, ensure_ascii=False, separators=(",", ":"))
 
 class IntelligenceSwarm:
     def __init__(self):
@@ -110,6 +128,11 @@ class IntelligenceSwarm:
         try:
             result = await async_call_deepseek(full_prompt, system_prompt=system_prompt, response_format={"type": "json_object"})
             return result["data"], result.get("input_tokens", 0), result.get("output_tokens", 0)
+        except DeepSeekUnavailableError:
+            # Billing / auth / bad-model failures hit every agent of every
+            # concept identically. Absorbing them here is exactly what turns a
+            # dead API into a chapter of null fields, so let them abort the run.
+            raise
         except Exception as e:
             print(f"  [CRITICAL WARNING] Returning empty object due to persistent failure. Last error: {e}")
             return {}, 0, 0
@@ -276,7 +299,7 @@ Return only schema-compliant JSON. NO EXPLANATIONS.
 CRITICAL RULE FOR REFERENCES: When filling out any reference array, you MUST write out the EXACT string value of the referenced item. DO NOT use shorthand identifiers like "K1", "K2", "A1", or "S1".
 
 PREVIOUS AGENT EXTRACTED KNOWLEDGE (USE THIS AS CONTEXT):
-{json.dumps(agent1_json, indent=2)}
+{_context(agent1_json)}
 
 RAW TEXT:
 """
@@ -352,10 +375,10 @@ Return only schema-compliant JSON. NO EXPLANATIONS.
 CRITICAL RULE FOR REFERENCES: When filling out any reference array, you MUST write out the EXACT string value of the referenced item. DO NOT use shorthand identifiers like "K1", "K2", "A1", or "S1".
 
 PREVIOUS AGENT KNOWLEDGE EXTRACTION:
-{json.dumps(agent1_json, indent=2)}
+{_context(agent1_json)}
 
 PREVIOUS AGENT PEDAGOGY EXTRACTION:
-{json.dumps(agent2_json, indent=2)}
+{_context(agent2_json)}
 RAW TEXT:
 """
         return await self._generate_with_fallback(prompt=prompt, text_slice=text_slice, schema=Agent3AssessmentOutput)

@@ -26,6 +26,8 @@ _init_error: str | None = None
 
 class DocumentExtraction(Base):
     __tablename__ = "document_extractions"
+    # create_all() would otherwise inherit the latin1 database default.
+    __table_args__ = {"mysql_charset": "utf8mb4", "mysql_collate": "utf8mb4_unicode_ci"}
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     document_type = Column(String(255), nullable=True)
@@ -65,6 +67,10 @@ def _mariadb_url() -> URL:
         host=settings.mariadb_host,
         port=settings.mariadb_port,
         database=settings.mariadb_db,
+        # The server default charset is latin1; without this the connection
+        # would inherit it and mangle/reject non-cp1252 text (maths symbols,
+        # curly quotes) on the way in.
+        query={"charset": "utf8mb4"},
     )
 
 
@@ -76,11 +82,24 @@ def init_mariadb() -> bool:
         return True
 
     try:
-        _engine = create_engine(_mariadb_url(), pool_recycle=3600, pool_pre_ping=True)
+        _engine = create_engine(
+            _mariadb_url(),
+            # Must stay below the server's wait_timeout (2000s) or the pool
+            # hands out connections the server has already dropped.
+            pool_recycle=1800,
+            pool_pre_ping=True,
+            connect_args={"connect_timeout": 15},
+        )
         with _engine.connect() as connection:
             connection.execute(text("SELECT 1"))
         SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=_engine)
-        Base.metadata.create_all(bind=_engine)
+        try:
+            Base.metadata.create_all(bind=_engine)
+        except Exception as schema_exc:
+            # Reflection/DDL can fail while the server is still fully queryable
+            # (e.g. DESCRIBE needs a temp table and the server tmpdir is full).
+            # The connection is live, so keep the session factory usable.
+            logger.warning("MariaDB schema check skipped: %s", schema_exc)
         _init_error = None
         logger.info(
             "MariaDB ready (%s:%s/%s)",
@@ -129,18 +148,18 @@ def _map_ids(db: Session, standard_val: int | None, subject_name_val: str | None
 
     try:
         if standard_val is not None:
-            row = db.execute(text("SELECT id FROM standard WHERE name = :name AND sub_institute_id = 1 LIMIT 1"), {"name": str(standard_val)}).fetchone()
+            row = db.execute(text("SELECT id FROM standard WHERE name = :name AND sub_institute_id = 341 LIMIT 1"), {"name": str(standard_val)}).fetchone()
             if row:
                 standard_id = row[0]
 
         if subject_name_val is not None:
-            row = db.execute(text("SELECT id FROM subject WHERE subject_name = :subject_name AND sub_institute_id = 1 LIMIT 1"), {"subject_name": subject_name_val}).fetchone()
+            row = db.execute(text("SELECT id FROM subject WHERE subject_name = :subject_name AND sub_institute_id = 341 LIMIT 1"), {"subject_name": subject_name_val}).fetchone()
             if row:
                 subject_id = row[0]
 
         if document_type_val not in ("Curriculum", "Syllabus"):
             if chapter_name_val is not None and chapter_number_val is not None:
-                row = db.execute(text("SELECT id FROM chapter_master WHERE chapter_name = :chapter_name AND sort_order = :sort_order AND sub_institute_id = 1 LIMIT 1"), {"chapter_name": chapter_name_val, "sort_order": chapter_number_val}).fetchone()
+                row = db.execute(text("SELECT id FROM chapter_master WHERE chapter_name = :chapter_name AND sort_order = :sort_order AND sub_institute_id = 341 LIMIT 1"), {"chapter_name": chapter_name_val, "sort_order": chapter_number_val}).fetchone()
                 if row:
                     chapter_id = row[0]
     except Exception as exc:
@@ -180,7 +199,7 @@ def create_extraction_stub(
             standard_id=standard_id,
             subject_id=subject_id,
             chapter_id=chapter_id,
-            sub_institute_id=1,
+            sub_institute_id=341,
         )
         db.add(doc)
         db.commit()
@@ -192,7 +211,7 @@ def create_extraction_stub(
                     text("""
                         INSERT INTO chapter_master 
                         (extraction_id, sub_institute_id, standard_id, subject_id, chapter_name, sort_order) 
-                        VALUES (:ext_id, 1, :std_id, :sub_id, :cname, :sort_order)
+                        VALUES (:ext_id, 341, :std_id, :sub_id, :cname, :sort_order)
                     """),
                     {
                         "ext_id": doc.id,
@@ -261,7 +280,7 @@ def persist_extraction_result(
                 standard_id=standard_id,
                 subject_id=subject_id,
                 chapter_id=chapter_id,
-                sub_institute_id=1,
+                sub_institute_id=341,
             )
             db.add(doc)
         else:

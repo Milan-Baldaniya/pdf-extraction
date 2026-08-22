@@ -6,7 +6,7 @@ from typing import List, Dict
 # Import the Pydantic schema we built in Phase 1
 from .schemas import ChapterSlices, ConceptSlice
 
-from .deepseek_client import call_deepseek
+from .deepseek_client import call_deepseek, DeepSeekUnavailableError
 
 # ==========================================
 # PHASE 2: THE SLICER ENGINE
@@ -52,6 +52,11 @@ class SemanticSlicer:
             llm_output = result["data"]
             input_tokens = result.get("input_tokens", 0)
             output_tokens = result.get("output_tokens", 0)
+        except DeepSeekUnavailableError:
+            # The whole-chapter fallback below is for a slicer that answered
+            # badly. If the API itself is down, that fallback just feeds an
+            # unusable request to the swarm, so surface the real cause instead.
+            raise
         except Exception as e:
             print(f"CRITICAL WARNING: Slicer failed. Last error: {e}")
             return {

@@ -6,10 +6,17 @@ from pathlib import Path
 from typing import Any
 
 from pydantic import field_validator
+from dotenv import load_dotenv
 from pydantic_settings import BaseSettings
 
 _BACKEND_ROOT = Path(__file__).resolve().parent.parent.parent
 _ENV_FILE = _BACKEND_ROOT / ".env"
+
+# Mirror the .env into os.environ as well. Settings covers the declared fields,
+# but the numbered Gemini key pool (GEMINI_API_KEY2..N) is read straight from
+# the environment, and pydantic-settings drops undeclared names.
+if _ENV_FILE.is_file():
+    load_dotenv(_ENV_FILE, override=False)
 
 
 class Settings(BaseSettings):
@@ -40,11 +47,40 @@ class Settings(BaseSettings):
     mineru_quality_mode: str = "max"
     mineru_ocr_fallback: bool = True
 
+    # LLM provider for semantic intelligence. "deepseek" or "gemini".
+    # Both are driven through the OpenAI-compatible chat-completions API, so
+    # switching providers needs no change in the agents or services.
+    llm_provider: str = "deepseek"
+
     # DeepSeek semantic intelligence
     semantic_intelligence_prompt_version: int | None = None
     phase2_prompt_version: int | None = None
     deepseek_api_key: str = ""
     deepseek_model: str = "deepseek-v4-pro"
+
+    # Gemini (via its OpenAI-compatible endpoint). Additional keys are read
+    # straight from the environment as GEMINI_API_KEY2..N and rotated on 429;
+    # see _provider_keys in semantic_intelligence/deepseek_client.py.
+    gemini_api_key: str = ""
+    gemini_model: str = "gemini-2.5-flash"
+
+    # Spend guards for the semantic intelligence swarm.
+    # DeepSeek v4 models are reasoning models: 60-78% of their billed output is
+    # hidden chain-of-thought. One chapter cost ~765k tokens on v4-pro, so an
+    # unattended queue can drain an account before anyone notices. A run that
+    # crosses this ceiling aborts instead of continuing to spend.
+    semantic_max_tokens_per_chapter: int = 1_500_000
+    # Concurrent concepts in flight. Each one fires up to 4 agent calls, so 15
+    # meant ~30 simultaneous requests; billing settles on completion, which is
+    # how a balance overshoots into the negative.
+    semantic_max_concurrency: int = 5
+
+    @property
+    def active_llm_model(self) -> str:
+        """Model name of whichever provider is selected, for audit columns."""
+        if (self.llm_provider or "").strip().lower() == "gemini":
+            return self.gemini_model
+        return self.deepseek_model
 
     # Phase 3 — Teaching Intelligence
     phase3_prompt_version: int = 1

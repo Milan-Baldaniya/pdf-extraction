@@ -78,3 +78,14 @@ class SubjectCreateRequest(BaseModel):
     subject_type: Optional[str] = None
     short_name: Optional[str] = None
     display_name: Optional[str] = None
+
+
+class TabLabelUpdateRequest(BaseModel):
+    """Rename one or more Semantic Intelligence tabs for a single tenant.
+
+    `labels` maps tab_key -> display name. Only the keys present are touched;
+    a blank value clears the override and restores the default label.
+    """
+
+    sub_institute_id: int = 341
+    labels: dict[str, Optional[str]]

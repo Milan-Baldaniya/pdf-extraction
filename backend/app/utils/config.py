@@ -29,10 +29,36 @@ class Settings(BaseSettings):
 
     # CORS
     frontend_url: str = "http://localhost:3000"
+    # Extra allowed origins, comma-separated (e.g. the production Vercel domain).
+    cors_origins: str = ""
+    # Regex for dynamic origins such as Vercel preview deployments,
+    # e.g. https://.*\.vercel\.app
+    cors_origin_regex: str = ""
 
     # Paths
     temp_dir: str = "./tmp/ncert"
     output_dir: str = "./output"
+
+    # Background extraction jobs. MinerU loads several GB of models per run,
+    # so concurrent extractions are the fastest way to OOM a small droplet.
+    max_concurrent_extractions: int = 1
+    # LLM jobs are network-bound rather than memory-bound, so a few can overlap;
+    # the cap exists to stay inside DeepSeek rate limits.
+    max_concurrent_llm_jobs: int = 4
+
+    @property
+    def allowed_origins(self) -> list[str]:
+        """Deduplicated CORS allow-list: frontend_url + extras + local dev."""
+        candidates = [
+            self.frontend_url,
+            *self.cors_origins.split(","),
+            "http://localhost:3000",
+            "http://localhost:3001",
+            "http://127.0.0.1:3000",
+            "http://127.0.0.1:3001",
+        ]
+        cleaned = [origin.strip().rstrip("/") for origin in candidates]
+        return list(dict.fromkeys(origin for origin in cleaned if origin))
 
     # MinerU CPU pipeline
     mineru_backend: str = "pipeline"

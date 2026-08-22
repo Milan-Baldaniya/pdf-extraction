@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { CustomSelect } from "@/components/ui/custom-select"
 import { apiUrl } from "@/lib/api-url"
+import { runJob } from "@/lib/api"
 
 interface ConceptRecord {
   id: number
@@ -42,6 +43,7 @@ export function ConceptTableFill() {
   const [loading, setLoading] = useState(false)
   const [processingId, setProcessingId] = useState<number | null>(null)
   const [retryingTopicId, setRetryingTopicId] = useState<number | null>(null)
+  const [processingMessage, setProcessingMessage] = useState<string | null>(null)
   const [result, setResult] = useState<any>(null)
   const [expandedRowId, setExpandedRowId] = useState<number | null>(null)
 
@@ -104,11 +106,19 @@ export function ConceptTableFill() {
       } else {
         alert("Error processing: " + data.detail)
       }
+      const data = await runJob<any>(
+        `${apiUrl(`/jobs/concepts/${extractionId}/process`)}${forceQuery}`,
+        undefined,
+        (status) => setProcessingMessage(status.message)
+      )
+      setResult(data)
+      fetchRecords() // Refresh table status
     } catch (err) {
       console.error(err)
-      alert("Failed to process concepts")
+      alert("Error processing: " + (err as Error).message)
     } finally {
       setProcessingId(null)
+      setProcessingMessage(null)
     }
   }
 
@@ -158,6 +168,7 @@ export function ConceptTableFill() {
       alert("Failed to fetch concept data")
     } finally {
       setProcessingId(null)
+      setProcessingMessage(null)
     }
   }
 
@@ -408,7 +419,7 @@ export function ConceptTableFill() {
                               {processingId === r.id && result === null ? (
                                 <span className="flex items-center gap-2">
                                   <span className="h-3 w-3 border-2 border-current border-t-transparent rounded-full animate-spin"></span>
-                                  {r.is_processed ? "Working..." : "Processing"}
+                                  {processingMessage || (r.is_processed ? "Working..." : "Processing")}
                                 </span>
                               ) : (r.is_processed ? "Reprocess" : (!r.has_topic ? "Need Topics" : "Process & Fill"))}
                             </Button>

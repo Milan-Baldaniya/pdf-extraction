@@ -14,6 +14,7 @@ from typing import Optional
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel
 
+from app.jobs import accepted, llm_semaphore, submit as submit_job
 from app.lesson_intelligence.service import (
     assemble_school_data,
     compute_capacity,
@@ -814,3 +815,32 @@ async def get_master_calendar(
     except Exception as exc:
         logger.exception("Failed to get master calendar")
         raise HTTPException(500, f"Failed to get master calendar: {exc}") from exc
+
+
+# ─── Background job variants ────────────────────────────────────────────────
+#
+# Macro and meso planning are pure Python and return fast. Micro planning calls
+# the LLM once per period, so a batch of them will outlive a proxy timeout.
+# These queue the same work and hand back a job id to poll at
+# /api/status/{job_id}.
+
+@router.post("/jobs/micro-plan/period/{period_id}", status_code=202)
+async def queue_micro_plan_for_period(period_id: int) -> dict:
+    """Background form of ``/micro-plan/period/{period_id}``."""
+    job_id = submit_job(
+        f"Micro plan for period {period_id}",
+        lambda: create_micro_plan_for_period(period_id),
+        semaphore=llm_semaphore(),
+    )
+    return accepted(job_id)
+
+
+@router.post("/jobs/micro-plan/plan/{plan_id}/batch", status_code=202)
+async def queue_micro_plan_batch(plan_id: int, limit: int = 10) -> dict:
+    """Background form of ``/micro-plan/plan/{plan_id}/batch``."""
+    job_id = submit_job(
+        f"Micro plan batch for plan {plan_id}",
+        lambda: create_micro_plan_batch(plan_id, limit),
+        semaphore=llm_semaphore(),
+    )
+    return accepted(job_id)

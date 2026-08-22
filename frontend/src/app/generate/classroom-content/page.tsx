@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { ArrowLeft, Sparkles, ExternalLink, Presentation, Loader2 } from "lucide-react";
 import Link from "next/link";
 import { CustomSelect } from "@/components/ui/custom-select";
+import { API_ROOT } from "@/lib/api-url"
 
 export default function ClassroomContentGenerator() {
   const [chapters, setChapters] = useState<any[]>([]);
@@ -41,7 +42,7 @@ export default function ClassroomContentGenerator() {
 
   const fetchChapters = async () => {
     try {
-      const res = await fetch("http://localhost:8000/api/semantic-intelligence");
+      const res = await fetch(`${API_ROOT}/api/semantic-intelligence`);
       if (res.ok) {
         const data = await res.json();
         // Only show chapters that are processed
@@ -58,7 +59,7 @@ export default function ClassroomContentGenerator() {
     setLoadingData(true);
     resetGeneration();
     try {
-      const res = await fetch(`http://localhost:8000/api/semantic-intelligence/${id}/result`);
+      const res = await fetch(`${API_ROOT}/api/semantic-intelligence/${id}/result`);
       if (res.ok) {
         const json = await res.json();
         const intelligence = json?.full_intelligence_json?.intelligence || 

@@ -6,6 +6,8 @@ import { CustomSelect } from "@/components/ui/custom-select";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 import * as XLSX from "xlsx";
+import { API_ROOT } from "@/lib/api-url"
+import { runJob } from "@/lib/api"
 
 export default function LessonPlanDashboard() {
   const [loading, setLoading] = useState(false);
@@ -33,7 +35,7 @@ export default function LessonPlanDashboard() {
 
   // Fetch institutes on mount
   useEffect(() => {
-    fetch("http://localhost:8000/lesson-intelligence/dropdowns")
+    fetch(`${API_ROOT}/lesson-intelligence/dropdowns`)
       .then(res => res.json())
       .then(data => {
         if (data.status === "success") {
@@ -59,7 +61,7 @@ export default function LessonPlanDashboard() {
 
     setDropdownLoading(true);
     try {
-      const res = await fetch(`http://localhost:8000/lesson-intelligence/dropdowns/filter?sub_institute_id=${newInstId}`);
+      const res = await fetch(`${API_ROOT}/lesson-intelligence/dropdowns/filter?sub_institute_id=${newInstId}`);
       const data = await res.json();
       if (data.status === "success") {
         setFilteredStandards(data.standards || []);
@@ -85,7 +87,7 @@ export default function LessonPlanDashboard() {
 
     setDropdownLoading(true);
     try {
-      const res = await fetch(`http://localhost:8000/lesson-intelligence/dropdowns/filter?sub_institute_id=${instId}&standard_id=${newStdId}`);
+      const res = await fetch(`${API_ROOT}/lesson-intelligence/dropdowns/filter?sub_institute_id=${instId}&standard_id=${newStdId}`);
       const data = await res.json();
       if (data.status === "success") {
         setFilteredDivisions(data.divisions || []);
@@ -108,7 +110,7 @@ export default function LessonPlanDashboard() {
 
     setDropdownLoading(true);
     try {
-      const res = await fetch(`http://localhost:8000/lesson-intelligence/dropdowns/filter?sub_institute_id=${instId}&standard_id=${stdId}&division_id=${newDivId}`);
+      const res = await fetch(`${API_ROOT}/lesson-intelligence/dropdowns/filter?sub_institute_id=${instId}&standard_id=${stdId}&division_id=${newDivId}`);
       const data = await res.json();
       if (data.status === "success") {
         setFilteredSubjects(data.subjects || []);
@@ -129,7 +131,7 @@ export default function LessonPlanDashboard() {
 
     setDropdownLoading(true);
     try {
-      const res = await fetch(`http://localhost:8000/lesson-intelligence/dropdowns/filter?sub_institute_id=${instId}&standard_id=${stdId}&division_id=${divId}&subject_id=${newSubId}`);
+      const res = await fetch(`${API_ROOT}/lesson-intelligence/dropdowns/filter?sub_institute_id=${instId}&standard_id=${stdId}&division_id=${divId}&subject_id=${newSubId}`);
       const data = await res.json();
       if (data.status === "success") {
         setFilteredYears(data.years || []);
@@ -224,7 +226,7 @@ export default function LessonPlanDashboard() {
     setStep(1);
     try {
       if (forceGenerate) {
-        const genRes = await fetch("http://localhost:8000/lesson-intelligence/macro-plan", {
+        const genRes = await fetch(`${API_ROOT}/lesson-intelligence/macro-plan`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -242,7 +244,7 @@ export default function LessonPlanDashboard() {
       }
 
       const res = await fetch(
-        `http://localhost:8000/lesson-intelligence/macro-plan/${instId}/${stdId}/${subId}?syear=${year}&division_id=${divId}`
+        `${API_ROOT}/lesson-intelligence/macro-plan/${instId}/${stdId}/${subId}?syear=${year}&division_id=${divId}`
       );
 
       if (!res.ok) {
@@ -280,14 +282,14 @@ export default function LessonPlanDashboard() {
     setActivePlan(plan);
     setLoading(true);
     try {
-      const res = await fetch(`http://localhost:8000/lesson-intelligence/meso-plan/${plan.id}/periods`);
+      const res = await fetch(`${API_ROOT}/lesson-intelligence/meso-plan/${plan.id}/periods`);
       if (res.ok) {
         const data = await res.json();
         setPeriods(data.periods || []);
       }
 
       // Fetch Holidays and Exams
-      const evRes = await fetch(`http://localhost:8000/lesson-intelligence/calendar-events/${plan.sub_institute_id}/${plan.standard_id}/${plan.subject_id}?syear=${plan.syear}`);
+      const evRes = await fetch(`${API_ROOT}/lesson-intelligence/calendar-events/${plan.sub_institute_id}/${plan.standard_id}/${plan.subject_id}?syear=${plan.syear}`);
       if (evRes.ok) {
         const evData = await evRes.json();
         setHolidays(evData.holidays || []);
@@ -305,7 +307,7 @@ export default function LessonPlanDashboard() {
     if (!activePlan) return;
     setLoading(true);
     try {
-      const res = await fetch(`http://localhost:8000/lesson-intelligence/meso-plan/${activePlan.id}/teachers`);
+      const res = await fetch(`${API_ROOT}/lesson-intelligence/meso-plan/${activePlan.id}/teachers`);
       if (res.ok) {
         const data = await res.json();
         if (data.teachers && data.teachers.length >= 1) {
@@ -333,7 +335,7 @@ export default function LessonPlanDashboard() {
     setLoading(true);
     try {
       const body = assignments ? JSON.stringify({ teacher_assignments: assignments }) : undefined;
-      const res = await fetch(`http://localhost:8000/lesson-intelligence/meso-plan/${activePlan.id}`, {
+      const res = await fetch(`${API_ROOT}/lesson-intelligence/meso-plan/${activePlan.id}`, {
         method: "POST",
         headers: body ? { "Content-Type": "application/json" } : undefined,
         body
@@ -354,16 +356,15 @@ export default function LessonPlanDashboard() {
   const generateMicroPlan = async (periodId: number) => {
     setLoading(true);
     try {
-      const res = await fetch(`http://localhost:8000/lesson-intelligence/micro-plan/period/${periodId}`, {
-        method: "POST"
-      });
-      if (res.ok) {
-        await selectPlan(activePlan); // Refresh single period is better, but this is fine for now
-      } else {
-        alert("Failed to generate micro plan");
-      }
+      // Queued rather than awaited inline: this calls the LLM and can outlast
+      // a proxy timeout.
+      await runJob(
+        `${API_ROOT}/lesson-intelligence/jobs/micro-plan/period/${periodId}`
+      );
+      await selectPlan(activePlan); // Refresh single period is better, but this is fine for now
     } catch (err) {
       console.error(err);
+      alert("Failed to generate micro plan: " + (err as Error).message);
     } finally {
       setLoading(false);
     }

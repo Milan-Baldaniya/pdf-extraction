@@ -1,6 +1,5 @@
 import axios from "axios";
-
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api";
+import { API_BASE, apiRootUrl, apiUrl } from "./api-url";
 
 export type JsonValue =
   | string
@@ -50,58 +49,172 @@ export async function healthCheck(): Promise<HealthResponse> {
   return data;
 }
 
-export async function extractPdf(
-  request: ExtractionRequest
-): Promise<ExtractionResponse> {
-  const { data } = await api.post<ExtractionResponse>(
-    "/generate-chapter-ppt",
-    request
+export interface JobAccepted {
+  job_id: string;
+  state: string;
+  status_url: string;
+  result_url: string;
+}
+
+export interface JobStatus {
+  job_id: string;
+  state: string;
+  message: string;
+  updated_at: string;
+  metadata: Record<string, JsonValue>;
+  done: boolean;
+  result_ready: boolean;
+}
+
+export type JobProgress = (status: JobStatus) => void;
+
+/** How often to ask the server for job progress. */
+const POLL_INTERVAL_MS = 3000;
+
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
+/** Pull FastAPI's `detail` out of an error response, falling back to the status. */
+async function errorMessage(res: Response, fallback: string): Promise<string> {
+  try {
+    const body = await res.json();
+    if (typeof body?.detail === "string") return body.detail;
+  } catch {
+    // Non-JSON error body; fall through.
+  }
+  return `${fallback} (HTTP ${res.status})`;
+}
+
+export async function getJobStatus(jobId: string): Promise<JobStatus> {
+  const res = await fetch(apiUrl(`/status/${jobId}`), { cache: "no-store" });
+  if (!res.ok) throw new Error(await errorMessage(res, "Could not read job status"));
+  return res.json();
+}
+
+export async function getJobResult<T>(jobId: string): Promise<T> {
+  const res = await fetch(apiUrl(`/jobs/${jobId}/result`), { cache: "no-store" });
+  if (!res.ok) throw new Error(await errorMessage(res, "Could not read job result"));
+  return res.json();
+}
+
+/**
+ * Poll a queued job until it finishes, then return its payload.
+ *
+ * All jobs share one server-side registry, so the polling path is always under
+ * `/api` no matter which router queued the work.
+ */
+export async function waitForJob<T>(
+  jobId: string,
+  onProgress?: JobProgress
+): Promise<T> {
+  for (;;) {
+    let status: JobStatus;
+    try {
+      status = await getJobStatus(jobId);
+    } catch {
+      // A dropped poll (sleeping laptop, brief restart) should not abort a job
+      // that may still be running; back off and try again.
+      await sleep(POLL_INTERVAL_MS);
+      continue;
+    }
+
+    onProgress?.(status);
+
+    if (status.state === "failed") {
+      throw new Error(status.message || "Job failed");
+    }
+    if (status.done && status.result_ready) {
+      return getJobResult<T>(jobId);
+    }
+
+    await sleep(POLL_INTERVAL_MS);
+  }
+}
+
+/**
+ * Start a background job and wait for its result.
+ *
+ * The work these endpoints do — MinerU extraction, the DeepSeek agent swarms —
+ * runs far longer than a proxy or browser will hold one request open, so the
+ * server returns a job id straight away and this issues only short polls.
+ */
+export async function runJob<T>(
+  url: string,
+  init?: RequestInit,
+  onProgress?: JobProgress
+): Promise<T> {
+  const res = await fetch(url, { method: "POST", ...init });
+  if (!res.ok) throw new Error(await errorMessage(res, "Could not start job"));
+  const accepted: JobAccepted = await res.json();
+  return waitForJob<T>(accepted.job_id, onProgress);
+}
+
+/** POST a JSON body as a background job. */
+export function runJsonJob<T>(
+  url: string,
+  body: unknown,
+  onProgress?: JobProgress
+): Promise<T> {
+  return runJob<T>(
+    url,
+    {
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    },
+    onProgress
   );
-  return data;
+}
+
+export async function extractPdf(
+  request: ExtractionRequest,
+  onProgress?: JobProgress
+): Promise<ExtractionResponse> {
+  return runJsonJob<ExtractionResponse>(
+    apiUrl("/jobs/extract"),
+    request,
+    onProgress
+  );
 }
 
 export async function uploadPdf(
   file: File,
-  metadata?: Omit<ExtractionRequest, "pdf_url">
+  metadata?: Omit<ExtractionRequest, "pdf_url">,
+  onProgress?: JobProgress
 ): Promise<ExtractionResponse> {
   const formData = new FormData();
   formData.append("file", file);
   if (metadata) {
     Object.entries(metadata).forEach(([key, value]) => {
-      if (value) formData.append(key, value);
+      // syear arrives as a number; FormData only accepts strings or Blobs.
+      if (value) formData.append(key, String(value));
     });
   }
 
-  const { data } = await api.post<ExtractionResponse>(
-    "/upload-chapter-ppt",
-    formData,
-    {
-      headers: {
-        "Content-Type": "multipart/form-data",
-      },
-    }
+  // No Content-Type header: the browser must set the multipart boundary.
+  return runJob<ExtractionResponse>(
+    apiUrl("/jobs/upload"),
+    { body: formData },
+    onProgress
   );
-  return data;
 }
 
-export interface SemanticIntelligenceRequest {
-  markdown_file_path?: string;
-  markdown_content?: string;
-  pdf_cache_id?: number;
-  force_regenerate?: boolean;
-}
-
+/**
+ * Run the Phase 2 semantic swarm for an extraction.
+ *
+ * Keyed on the extraction id (the `pdf_cache_id` attached to an extraction's
+ * metadata), which is what the backend addresses these by.
+ */
 export async function generateSemanticIntelligence(
-  request: SemanticIntelligenceRequest
+  extractionId: number,
+  force = false,
+  onProgress?: JobProgress
 ) {
-  // Use a separate axios instance or absolute URL because this endpoint is outside /api
-  const base = API_BASE.replace('/api', '');
-  const { data } = await axios.post(
-    `${base}/phase2/generate`,
-    request,
-    { headers: { "Content-Type": "application/json" } }
+  return runJob<unknown>(
+    apiUrl(
+      `/jobs/semantic-intelligence/${extractionId}/process?force=${force}`
+    ),
+    undefined,
+    onProgress
   );
-  return data;
 }
 
 export interface TeachingIntelligenceRequest {
@@ -115,15 +228,15 @@ export interface TeachingIntelligenceRequest {
 }
 
 export async function generateTeachingIntelligence(
-  request: TeachingIntelligenceRequest
+  request: TeachingIntelligenceRequest,
+  onProgress?: JobProgress
 ) {
-  const base = API_BASE.replace('/api', '');
-  const { data } = await axios.post(
-    `${base}/teaching-intelligence/generate`,
+  // Mounted outside /api, so this needs the server root rather than apiUrl().
+  return runJsonJob<unknown>(
+    apiRootUrl("/teaching-intelligence/jobs/generate"),
     request,
-    { headers: { "Content-Type": "application/json" } }
+    onProgress
   );
-  return data;
 }
 
 

@@ -18,7 +18,17 @@ from app.extraction.cache import (
     get_cached_response,
     set_cached_response,
 )
-from app.extraction.status import get_status, update_status
+from app.jobs import (
+    accepted as _accepted,
+    describe as _describe_job,
+    get_result,
+    get_status,
+    llm_semaphore,
+    set_result,
+    spawn as _spawn_job,
+    submit as submit_job,
+    update_status,
+)
 from app.db.mariadb import (
     SessionLocal,
     DocumentExtraction,
@@ -60,6 +70,24 @@ logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
+EXTRACTION_MESSAGE = (
+    "Running MinerU CPU pipeline with OCR, table, formula, "
+    "image, and layout extraction"
+)
+
+# MinerU holds several GB of models in RAM for the duration of a run, so
+# extractions are serialised by default rather than run concurrently.
+_extraction_semaphore: asyncio.Semaphore | None = None
+
+
+def _get_extraction_semaphore() -> asyncio.Semaphore:
+    global _extraction_semaphore
+    if _extraction_semaphore is None:
+        _extraction_semaphore = asyncio.Semaphore(
+            max(1, settings.max_concurrent_extractions)
+        )
+    return _extraction_semaphore
+
 
 def _validate_pdf_header(pdf_path: Path, source_label: str) -> None:
     with pdf_path.open("rb") as file:
@@ -92,7 +120,7 @@ async def _run_extraction_job(
     *,
     job_id: str,
     pdf_path: Path,
-    request: Request,
+    asset_base_url: str,
     start_time: float,
     cache_message: str,
     extraction_message: str,
@@ -127,7 +155,7 @@ async def _run_extraction_job(
         formula=settings.mineru_formula,
         table=settings.mineru_table,
         image_analysis=settings.mineru_image_analysis,
-        asset_base_url=_asset_base_url(request, job_id),
+        asset_base_url=asset_base_url,
         cpu_threads=settings.mineru_cpu_threads,
         timeout_seconds=settings.mineru_timeout_seconds,
         quality_mode=settings.mineru_quality_mode,
@@ -189,6 +217,61 @@ def _raise_job_error(job_id: str, status_code: int, message: str, exc: Exception
     raise HTTPException(status_code=status_code, detail=str(exc)) from exc
 
 
+def _fail_job(job_id: str, message: str, exc: Exception, cache_id: int | None) -> None:
+    """Record a failure for a background job. Never raises."""
+    update_status(job_id, "failed", message, {"error": str(exc)})
+    logger.error("Job %s - %s: %s", job_id, message, exc)
+    try:
+        _mark_extraction_failed(cache_id, {"error": message, "exception": str(exc)})
+    except Exception:
+        logger.exception("Job %s - could not record failure in MariaDB", job_id)
+
+
+async def _background_extraction(
+    *,
+    job_id: str,
+    pdf_path: Path,
+    asset_base_url: str,
+    cache_id: int | None,
+    persist_kwargs: dict[str, Any],
+) -> None:
+    """Run one extraction to completion, recording progress in the job store.
+
+    This is the body of a detached task, so it must never let an exception
+    escape: the only channel back to the client is the job status.
+    """
+    start_time = time.perf_counter()
+    try:
+        async with _get_extraction_semaphore():
+            response = await _run_extraction_job(
+                job_id=job_id,
+                pdf_path=pdf_path,
+                asset_base_url=asset_base_url,
+                start_time=start_time,
+                cache_message="Checking extraction cache",
+                extraction_message=EXTRACTION_MESSAGE,
+            )
+
+        new_cache_id = await asyncio.to_thread(
+            persist_extraction_result, cache_id, response, **persist_kwargs
+        )
+        response.metadata["pdf_cache_id"] = new_cache_id
+        set_result(job_id, response)
+        update_status(job_id, "completed", "Extraction completed", response.metadata)
+
+    except PDFDownloadError as exc:
+        _fail_job(job_id, "Download failed", exc, cache_id)
+    except MinerUConfigurationError as exc:
+        _fail_job(job_id, "MinerU configuration failed", exc, cache_id)
+    except MinerUExtractionError as exc:
+        _fail_job(job_id, "Extraction failed", exc, cache_id)
+    except Exception as exc:
+        logger.exception("Job %s - unexpected error", job_id)
+        _fail_job(job_id, f"Unexpected error: {exc}", exc, cache_id)
+    finally:
+        cleanup_temp_job(settings.temp_dir, job_id)
+
+
 @router.get(
     "/health",
     response_model=HealthResponse,
@@ -228,17 +311,166 @@ async def get_extracted_asset(job_id: str, asset_path: str) -> FileResponse:
     summary="Get extraction job status",
 )
 async def get_extraction_status(job_id: str) -> dict[str, Any]:
-    """Return the latest known status for an extraction job."""
+    """Return the latest known status for any background job."""
     status = get_status(job_id)
     if not status:
         raise HTTPException(status_code=404, detail="Job status not found")
-    return {
-        "job_id": status.job_id,
-        "state": status.state,
-        "message": status.message,
-        "updated_at": status.updated_at,
-        "metadata": status.metadata,
-    }
+    return _describe_job(status)
+
+
+@router.get(
+    "/jobs/{job_id}/result",
+    tags=["Jobs"],
+    summary="Fetch the payload of a completed background job",
+)
+async def get_job_result(job_id: str) -> Any:
+    """Return a job's payload once it has finished.
+
+    Shared by every background job, so the shape of the payload depends on
+    which endpoint queued it.
+    """
+    status = get_status(job_id)
+    if not status:
+        raise HTTPException(status_code=404, detail="Job not found or expired")
+    if status.state == "failed":
+        raise HTTPException(status_code=500, detail=status.message)
+
+    result = get_result(job_id)
+    if result is None:
+        # 202 tells the client to keep polling rather than treat this as an error.
+        raise HTTPException(status_code=202, detail=f"Job is {status.state}")
+    return result
+
+
+@router.post(
+    "/jobs/extract",
+    status_code=202,
+    tags=["Extraction"],
+    summary="Queue an extraction from a PDF URL and return a job id",
+)
+async def queue_extract_from_url(
+    request: ExtractionRequest,
+    http_request: Request,
+) -> dict[str, Any]:
+    """Accept an extraction request and process it in the background.
+
+    Returns immediately with a job id; poll ``/api/status/{job_id}`` and then
+    read ``/api/jobs/{job_id}/result``. Use this instead of the synchronous
+    endpoint whenever a proxy or browser timeout sits in front of the API.
+    """
+    job_id = generate_job_id()
+    update_status(job_id, "queued", "Extraction job created")
+    logger.info("Job %s - queued extraction for %s", job_id, request.pdf_url)
+
+    cache_id = create_extraction_stub(
+        document_type=request.document_type,
+        document_title=request.document_title,
+        chapter_number=_safe_int(request.chapter_number),
+        standard=_safe_int(request.standard),
+        subject_name=request.subject_name,
+        board=request.board,
+        syear=request.syear,
+        pdf_url=str(request.pdf_url),
+    )
+
+    # The PDF is downloaded inside the request so an unreachable URL fails fast
+    # with a 400 instead of surfacing minutes later as a job status.
+    pdf_path = get_temp_pdf_path(settings.temp_dir, job_id)
+    try:
+        update_status(job_id, "downloading", "Downloading source PDF")
+        await download_pdf(str(request.pdf_url), pdf_path)
+        _validate_pdf_header(pdf_path, "downloaded file")
+    except PDFDownloadError as exc:
+        cleanup_temp_job(settings.temp_dir, job_id)
+        _raise_job_error(job_id, 400, "Download failed", exc, cache_id)
+
+    _spawn_job(
+        _background_extraction(
+            job_id=job_id,
+            pdf_path=pdf_path,
+            asset_base_url=_asset_base_url(http_request, job_id),
+            cache_id=cache_id,
+            persist_kwargs={
+                "document_type": request.document_type,
+                "document_title": request.document_title,
+                "chapter_number": _safe_int(request.chapter_number),
+                "standard": _safe_int(request.standard),
+                "subject_name": request.subject_name,
+                "board": request.board,
+                "syear": request.syear,
+                "pdf_url": str(request.pdf_url),
+            },
+        )
+    )
+    return _accepted(job_id)
+
+
+@router.post(
+    "/jobs/upload",
+    status_code=202,
+    tags=["Extraction"],
+    summary="Queue an extraction from an uploaded PDF and return a job id",
+)
+async def queue_extract_from_upload(
+    http_request: Request,
+    file: UploadFile = File(...),
+    document_type: str = Form(None),
+    document_title: str = Form(None),
+    chapter_number: str = Form(None),
+    standard: str = Form(None),
+    subject_name: str = Form(None),
+    board: str = Form("CBSE"),
+    syear: str = Form(None),
+) -> dict[str, Any]:
+    """Accept a PDF upload and extract it in the background."""
+    job_id = generate_job_id()
+    update_status(job_id, "queued", "Extraction job created")
+    logger.info("Job %s - queued extraction for uploaded file %s", job_id, file.filename)
+
+    cache_id = create_extraction_stub(
+        document_type=document_type,
+        document_title=document_title,
+        chapter_number=_safe_int(chapter_number),
+        standard=_safe_int(standard),
+        subject_name=subject_name,
+        board=board,
+        syear=syear,
+        pdf_url="uploaded",
+    )
+
+    # The upload stream is only valid for the lifetime of this request, so the
+    # bytes must reach disk before the background task is handed the path.
+    pdf_path = get_temp_pdf_path(settings.temp_dir, job_id)
+    try:
+        update_status(job_id, "saving_upload", "Saving uploaded PDF")
+        with pdf_path.open("wb") as buffer:
+            shutil.copyfileobj(file.file, buffer)
+        _validate_pdf_header(pdf_path, "uploaded file")
+    except PDFDownloadError as exc:
+        cleanup_temp_job(settings.temp_dir, job_id)
+        _raise_job_error(job_id, 400, "Upload failed", exc, cache_id)
+    finally:
+        await file.close()
+
+    _spawn_job(
+        _background_extraction(
+            job_id=job_id,
+            pdf_path=pdf_path,
+            asset_base_url=_asset_base_url(http_request, job_id),
+            cache_id=cache_id,
+            persist_kwargs={
+                "document_type": document_type,
+                "document_title": document_title,
+                "chapter_number": _safe_int(chapter_number),
+                "standard": _safe_int(standard),
+                "subject_name": subject_name,
+                "board": board,
+                "syear": syear,
+                "pdf_url": "uploaded",
+            },
+        )
+    )
+    return _accepted(job_id)
 
 
 @router.post(
@@ -282,15 +514,12 @@ async def extract_ncert_pdf(
         response = await _run_extraction_job(
             job_id=job_id,
             pdf_path=pdf_path,
-            request=http_request,
+            asset_base_url=_asset_base_url(http_request, job_id),
             start_time=start_time,
             cache_message="Checking extraction cache",
-            extraction_message=(
-                "Running MinerU CPU pipeline with OCR, table, formula, "
-                "image, and layout extraction"
-            ),
+            extraction_message=EXTRACTION_MESSAGE,
         )
-        
+
         cache_id = persist_extraction_result(
             cache_id,
             response,
@@ -376,13 +605,10 @@ async def upload_ncert_pdf(
         response = await _run_extraction_job(
             job_id=job_id,
             pdf_path=pdf_path,
-            request=http_request,
+            asset_base_url=_asset_base_url(http_request, job_id),
             start_time=start_time,
             cache_message="Checking extraction cache",
-            extraction_message=(
-                "Running MinerU CPU pipeline with OCR, table, formula, "
-                "image, and layout extraction"
-            ),
+            extraction_message=EXTRACTION_MESSAGE,
         )
         cache_id = persist_extraction_result(
             cache_id,
@@ -416,6 +642,7 @@ async def upload_ncert_pdf(
             status_code=500,
             detail=f"An unexpected error occurred: {exc}",
         ) from exc
+    finally:
         cleanup_temp_job(settings.temp_dir, job_id)
         await file.close()
 
@@ -659,6 +886,74 @@ async def process_semantic_intelligence(extraction_id: int, force: bool = False)
     except Exception as exc:
         logger.exception("Failed to process semantic intelligence")
         raise HTTPException(status_code=500, detail=f"Processing failed: {exc}")
+
+@router.post(
+    "/jobs/curriculums/{extraction_id}/process",
+    status_code=202,
+    tags=["Jobs"],
+    summary="Queue curriculum processing and return a job id",
+)
+async def queue_curriculum_processing(extraction_id: int, force: bool = False) -> dict[str, Any]:
+    """Background form of ``/curriculums/{id}/process``. See /api/status/{job_id}."""
+    job_id = submit_job(
+        f"Curriculum processing for extraction {extraction_id}",
+        lambda: asyncio.to_thread(process_curriculum_by_id, extraction_id, force),
+        semaphore=llm_semaphore(),
+    )
+    return _accepted(job_id)
+
+
+@router.post(
+    "/jobs/chapters/{extraction_id}/process",
+    status_code=202,
+    tags=["Jobs"],
+    summary="Queue chapter processing and return a job id",
+)
+async def queue_chapter_processing(extraction_id: int, force: bool = False) -> dict[str, Any]:
+    """Background form of ``/chapters/{id}/process``. See /api/status/{job_id}."""
+    job_id = submit_job(
+        f"Chapter processing for extraction {extraction_id}",
+        lambda: asyncio.to_thread(process_chapter_by_id, extraction_id, force),
+        semaphore=llm_semaphore(),
+    )
+    return _accepted(job_id)
+
+
+@router.post(
+    "/jobs/concepts/{extraction_id}/process",
+    status_code=202,
+    tags=["Jobs"],
+    summary="Queue concept processing and return a job id",
+)
+async def queue_concept_processing(extraction_id: int, force: bool = False) -> dict[str, Any]:
+    """Background form of ``/concepts/{id}/process``. See /api/status/{job_id}."""
+    job_id = submit_job(
+        f"Concept processing for extraction {extraction_id}",
+        lambda: asyncio.to_thread(process_concept_by_id, extraction_id, force),
+        semaphore=llm_semaphore(),
+    )
+    return _accepted(job_id)
+
+
+@router.post(
+    "/jobs/semantic-intelligence/{extraction_id}/process",
+    status_code=202,
+    tags=["Jobs"],
+    summary="Queue semantic intelligence processing and return a job id",
+)
+async def queue_semantic_processing(extraction_id: int, force: bool = False) -> dict[str, Any]:
+    """Background form of ``/semantic-intelligence/{id}/process``.
+
+    The swarm chains four DeepSeek agents per concept across every concept in
+    the chapter, so this routinely outlives any proxy timeout.
+    """
+    job_id = submit_job(
+        f"Semantic intelligence for extraction {extraction_id}",
+        lambda: process_semantic_chapter_by_id(extraction_id, force),
+        semaphore=llm_semaphore(),
+    )
+    return _accepted(job_id)
+
 
 @router.get(
     "/semantic-intelligence/{extraction_id}/result",

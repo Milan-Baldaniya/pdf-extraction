@@ -40,7 +40,7 @@ WEEKDAY_LABELS = {
 DEFAULT_PERIOD_DURATION_MIN = 40
 
 # All schools share curriculum content from institute 1 (the master content institute)
-MASTER_CONTENT_INSTITUTE_ID = 1
+MASTER_CONTENT_INSTITUTE_ID = 341
 
 def map_to_master_content_ids(db, school_standard_id: int, school_subject_id: int) -> tuple[int, int]:
     """
@@ -360,7 +360,7 @@ def get_curriculum(
     """
     Fetch the curriculum record for a standard + subject.
 
-    Always reads from MASTER_CONTENT_INSTITUTE_ID (institute 1).
+    Always reads from MASTER_CONTENT_INSTITUTE_ID (institute 341).
     Returns curriculum metadata including objective, board, framework.
     """
     row = db.execute(
@@ -509,7 +509,7 @@ def assemble_school_data(
     actual school's sub_institute_id.
 
     Curriculum content data (chapters, concepts, units, learning outcomes,
-    semantic intelligence) ALWAYS comes from MASTER_CONTENT_INSTITUTE_ID (1)
+    semantic intelligence) ALWAYS comes from MASTER_CONTENT_INSTITUTE_ID (341)
     because all schools share the same curriculum from institute 1.
 
     Returns a complete school-data dict ready for capacity computation.

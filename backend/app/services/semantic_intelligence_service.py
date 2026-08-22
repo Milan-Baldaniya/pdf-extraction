@@ -1,11 +1,18 @@
+import asyncio
 import json
 import logging
 from typing import Any, Dict, List
 from sqlalchemy import text
+from sqlalchemy.exc import OperationalError
 from app.db.mariadb import SessionLocal
 from app.utils.config import settings
 
 logger = logging.getLogger(__name__)
+
+# Retries for the post-swarm write, so a brief DB blip does not throw away
+# a multi-minute LLM run.
+_PERSIST_ATTEMPTS = 4
+_PERSIST_BACKOFF_SEC = 3
 
 def get_all_semantic_chapters() -> List[Dict[str, Any]]:
     with SessionLocal() as db:
@@ -19,6 +26,41 @@ def get_all_semantic_chapters() -> List[Dict[str, Any]]:
         rows = db.execute(query).mappings().fetchall()
         return [dict(r) for r in rows]
 
+def _hierarchy_outline(db, extraction_id: int) -> str:
+    """This chapter's topics and their concepts, as the slicer's concept list.
+
+    Returns "" when the hierarchy has not been generated, so the caller can
+    fall back to the chapter-level key_concepts JSON.
+    """
+    rows = db.execute(
+        text("""
+            SELECT t.id AS topic_id, t.name AS topic_name, t.topic_sort_order,
+                   c.name AS concept_name, c.description AS concept_description
+              FROM topic_master t
+         LEFT JOIN lms_concept c ON c.topic_id = t.id
+             WHERE t.extraction_id = :id AND COALESCE(t.topic_show_hide, 1) = 1
+          ORDER BY t.topic_sort_order ASC, t.id ASC, c.id ASC
+        """),
+        {"id": extraction_id},
+    ).mappings().fetchall()
+
+    if not rows:
+        return ""
+
+    blocks: list[str] = []
+    current = None
+    numbered = 0
+    for row in rows:
+        if row["topic_id"] != current:
+            current = row["topic_id"]
+            numbered += 1
+            blocks.append(f"Topic {numbered}: {row['topic_name']}")
+        if row["concept_name"]:
+            desc = (row["concept_description"] or "").strip()
+            blocks.append(f"  - {row['concept_name']}" + (f" - {desc}" if desc else ""))
+    return "\n".join(blocks).strip()
+
+
 async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False) -> Dict[str, Any]:
     # 1. Fetch all necessary data
     with SessionLocal() as db:
@@ -30,13 +72,27 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
         if not row:
             raise ValueError(f"No document_extraction found for id {extraction_id}")
             
-        # 0. Check if already processed to save tokens
+        # 0. Check if already processed to save tokens.
+        #    A row whose payload columns are all empty JSON arrays is a failed
+        #    run, not a processed chapter. Skipping those would make the failure
+        #    permanent: Process & Fill would keep returning the same null data.
         existing_semantic = db.execute(
-            text("SELECT id FROM semantic_intelligence WHERE extraction_id = :id LIMIT 1"),
+            text("""
+                SELECT id,
+                       GREATEST(
+                           CHAR_LENGTH(COALESCE(knowledge, '')),
+                           CHAR_LENGTH(COALESCE(learning_outcomes, '')),
+                           CHAR_LENGTH(COALESCE(assessment_blueprint, ''))
+                       ) AS payload_len
+                FROM semantic_intelligence WHERE extraction_id = :id LIMIT 1
+            """),
             {"id": extraction_id}
         ).fetchone()
-        
-        if existing_semantic and not force:
+
+        # len(2) is the empty JSON array "[]".
+        has_payload = bool(existing_semantic) and (existing_semantic[1] or 0) > 2
+
+        if existing_semantic and has_payload and not force:
             return {
                 "status": "already_processed",
                 "action": "skipped",
@@ -58,7 +114,17 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
         ).fetchone()
         
         chapter_id = chapter_row[0] if chapter_row else None
-        key_concepts = chapter_row[1] if chapter_row and chapter_row[1] else "No predefined key concepts."
+
+        # Semantic Intelligence analyses the SAME units the extraction
+        # hierarchy defines. Chapter -> Topics -> Concepts already decided what
+        # this chapter teaches; slicing against chapter_master.key_concepts
+        # instead would let the semantic layer invent a second, differently
+        # worded vocabulary for the same chapter, and nothing downstream could
+        # join the two. key_concepts stays as the fallback for a chapter whose
+        # Topic and Concept queues have not run yet.
+        key_concepts = _hierarchy_outline(db, extraction_id)
+        if not key_concepts:
+            key_concepts = chapter_row[1] if chapter_row and chapter_row[1] else "No predefined key concepts."
         
         # Save local copies of row fields so we don't need the DB connection
         standard_id = row.get("standard_id")
@@ -166,103 +232,149 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
                     
     learning_objective = "\n".join(all_lo) if all_lo else ""
     
+    # If every dimension came back empty the swarm did not actually extract
+    # anything. Writing that row marks the chapter processed and hides the
+    # failure behind a screen of null fields, so refuse it.
+    if not any([agg_knowledge, agg_ability, agg_skill, agg_competency, agg_blooms,
+                agg_dok, agg_prereqs, agg_misconceptions, agg_rwa, agg_pedagogy,
+                agg_lo, agg_outcomes, agg_blueprint, agg_rubrics]):
+        raise RuntimeError(
+            f"Semantic intelligence for extraction {extraction_id} came back empty: "
+            f"{len(concepts_list)} concept(s) were processed but every dimension is "
+            f"blank, and {total_input_tokens} input / {total_output_tokens} output "
+            f"tokens were billed. Nothing was saved. Check the backend log for the "
+            f"underlying LLM error."
+        )
+
     total_topics = len(concepts_list) # Still mapping to total_topics column
     full_json_str = json.dumps(assembled_json, ensure_ascii=False)
-    llm_model = settings.deepseek_model
+    llm_model = settings.active_llm_model
+
+    # Pydantic enforces the shape of what the agents returned, but not that
+    # every agent returned anything: flag concepts that came back hollow.
+    hollow = sum(
+        1 for c in concepts_list
+        if not (c.get("knowledge_items") or c.get("abilities") or c.get("learning_outcomes"))
+    )
+    quality_flag = "good" if not hollow else f"partial ({hollow}/{len(concepts_list)} concepts empty)"
+    # A run stopped by the spend ceiling is genuine data, but incomplete - say so
+    # rather than letting it look like the chapter only had this many concepts.
+    if assembled_json.get("budget_exceeded"):
+        attempted = assembled_json.get("concepts_attempted", len(concepts_list))
+        quality_flag = f"budget_capped ({len(concepts_list)}/{attempted} concepts)"
     
-    # Set quality flag to good for now since pydantic enforces schema
-    quality_flag = "good"
-    
-    # 4. Insert or update in semantic_intelligence table
-    with SessionLocal() as db:
-        existing = db.execute(
-            text("SELECT id FROM semantic_intelligence WHERE extraction_id = :id"),
-            {"id": extraction_id}
-        ).fetchone()
+    # 4. Insert or update in semantic_intelligence table.
+    #    The swarm above runs for minutes, so pooled connections have gone
+    #    stale and this write opens a fresh one. A transient connect failure
+    #    here would discard the entire (expensive) LLM result, so retry.
+    last_db_error: OperationalError | None = None
+    for attempt in range(_PERSIST_ATTEMPTS):
+        try:
+            with SessionLocal() as db:
+                existing = db.execute(
+                    text("SELECT id FROM semantic_intelligence WHERE extraction_id = :id"),
+                    {"id": extraction_id}
+                ).fetchone()
         
-        params = {
-            "ext_id": extraction_id,
-            "std_id": standard_id,
-            "sub_id": subject_id,
-            "ch_id": chapter_id,
-            "sub_name": subject_name,
-            "std": standard,
-            "ch_num": chapter_number,
-            "lo": learning_objective,
-            "topics": total_topics,
-            "full_json": full_json_str,
-            "model": llm_model,
-            "in_tok": total_input_tokens,
-            "out_tok": total_output_tokens,
-            "qf": quality_flag,
-            "knowledge": json.dumps(agg_knowledge, ensure_ascii=False),
-            "ability": json.dumps(agg_ability, ensure_ascii=False),
-            "skill": json.dumps(agg_skill, ensure_ascii=False),
-            "competency": json.dumps(agg_competency, ensure_ascii=False),
-            "blooms_level": json.dumps(agg_blooms, ensure_ascii=False),
-            "dok": json.dumps(agg_dok, ensure_ascii=False),
-            "prerequisites": json.dumps(agg_prereqs, ensure_ascii=False),
-            "misconceptions": json.dumps(agg_misconceptions, ensure_ascii=False),
-            "real_world_applications": json.dumps(agg_rwa, ensure_ascii=False),
-            "pedagogy": json.dumps(agg_pedagogy, ensure_ascii=False),
-            "learning_objectives": json.dumps(agg_lo, ensure_ascii=False),
-            "learning_outcomes": json.dumps(agg_outcomes, ensure_ascii=False),
-            "assessment_blueprint": json.dumps(agg_blueprint, ensure_ascii=False),
-            "assessment_rubrics": json.dumps(agg_rubrics, ensure_ascii=False)
-        }
+                params = {
+                    "ext_id": extraction_id,
+                    "std_id": standard_id,
+                    "sub_id": subject_id,
+                    "ch_id": chapter_id,
+                    "sub_name": subject_name,
+                    "std": standard,
+                    "ch_num": chapter_number,
+                    "lo": learning_objective,
+                    "topics": total_topics,
+                    "full_json": full_json_str,
+                    "model": llm_model,
+                    "in_tok": total_input_tokens,
+                    "out_tok": total_output_tokens,
+                    "qf": quality_flag,
+                    "knowledge": json.dumps(agg_knowledge, ensure_ascii=False),
+                    "ability": json.dumps(agg_ability, ensure_ascii=False),
+                    "skill": json.dumps(agg_skill, ensure_ascii=False),
+                    "competency": json.dumps(agg_competency, ensure_ascii=False),
+                    "blooms_level": json.dumps(agg_blooms, ensure_ascii=False),
+                    "dok": json.dumps(agg_dok, ensure_ascii=False),
+                    "prerequisites": json.dumps(agg_prereqs, ensure_ascii=False),
+                    "misconceptions": json.dumps(agg_misconceptions, ensure_ascii=False),
+                    "real_world_applications": json.dumps(agg_rwa, ensure_ascii=False),
+                    "pedagogy": json.dumps(agg_pedagogy, ensure_ascii=False),
+                    "learning_objectives": json.dumps(agg_lo, ensure_ascii=False),
+                    "learning_outcomes": json.dumps(agg_outcomes, ensure_ascii=False),
+                    "assessment_blueprint": json.dumps(agg_blueprint, ensure_ascii=False),
+                    "assessment_rubrics": json.dumps(agg_rubrics, ensure_ascii=False)
+                }
         
-        if existing:
-            db.execute(text("""
-                UPDATE semantic_intelligence
-                SET standard_id=:std_id, subject_id=:sub_id, chapter_id=:ch_id,
-                    subject_name=:sub_name, standard=:std, chapter_number=:ch_num,
-                    learning_objective=:lo, total_concepts=:topics, full_intelegance_json=:full_json,
-                    llm_model=:model, input_token=:in_tok, output_token=:out_tok, qulity_flag=:qf,
-                    knowledge=:knowledge, ability=:ability, skill=:skill, competency=:competency,
-                    blooms_level=:blooms_level, dok=:dok, prerequisites=:prerequisites,
-                    misconceptions=:misconceptions, real_world_applications=:real_world_applications,
-                    pedagogy=:pedagogy, learning_objectives=:learning_objectives,
-                    learning_outcomes=:learning_outcomes, assessment_blueprint=:assessment_blueprint,
-                    assessment_rubrics=:assessment_rubrics,
-                    sub_institute_id=1, updated_at=CURRENT_TIMESTAMP
-                WHERE id=:id
-            """), {**params, "id": existing[0]})
-            action = "updated"
-            record_id = existing[0]
-        else:
-            res = db.execute(text("""
-                INSERT INTO semantic_intelligence
-                (extraction_id, sub_institute_id, standard_id, subject_id, chapter_id, subject_name, standard, chapter_number,
-                 learning_objective, total_concepts, full_intelegance_json, llm_model, input_token, output_token, qulity_flag,
-                 knowledge, ability, skill, competency, blooms_level, dok, prerequisites, misconceptions,
-                 real_world_applications, pedagogy, learning_objectives, learning_outcomes, assessment_blueprint,
-                 assessment_rubrics)
-                VALUES
-                (:ext_id, 1, :std_id, :sub_id, :ch_id, :sub_name, :std, :ch_num,
-                 :lo, :topics, :full_json, :model, :in_tok, :out_tok, :qf,
-                 :knowledge, :ability, :skill, :competency, :blooms_level, :dok, :prerequisites, :misconceptions,
-                 :real_world_applications, :pedagogy, :learning_objectives, :learning_outcomes, :assessment_blueprint,
-                 :assessment_rubrics)
-            """), params)
-            action = "inserted"
-            record_id = res.lastrowid
+                if existing:
+                    db.execute(text("""
+                        UPDATE semantic_intelligence
+                        SET standard_id=:std_id, subject_id=:sub_id, chapter_id=:ch_id,
+                            subject_name=:sub_name, standard=:std, chapter_number=:ch_num,
+                            learning_objective=:lo, total_concepts=:topics, full_intelegance_json=:full_json,
+                            llm_model=:model, input_token=:in_tok, output_token=:out_tok, qulity_flag=:qf,
+                            knowledge=:knowledge, ability=:ability, skill=:skill, competency=:competency,
+                            blooms_level=:blooms_level, dok=:dok, prerequisites=:prerequisites,
+                            misconceptions=:misconceptions, real_world_applications=:real_world_applications,
+                            pedagogy=:pedagogy, learning_objectives=:learning_objectives,
+                            learning_outcomes=:learning_outcomes, assessment_blueprint=:assessment_blueprint,
+                            assessment_rubrics=:assessment_rubrics,
+                            sub_institute_id=341, updated_at=CURRENT_TIMESTAMP
+                        WHERE id=:id
+                    """), {**params, "id": existing[0]})
+                    action = "updated"
+                    record_id = existing[0]
+                else:
+                    res = db.execute(text("""
+                        INSERT INTO semantic_intelligence
+                        (extraction_id, sub_institute_id, standard_id, subject_id, chapter_id, subject_name, standard, chapter_number,
+                         learning_objective, total_concepts, full_intelegance_json, llm_model, input_token, output_token, qulity_flag,
+                         knowledge, ability, skill, competency, blooms_level, dok, prerequisites, misconceptions,
+                         real_world_applications, pedagogy, learning_objectives, learning_outcomes, assessment_blueprint,
+                         assessment_rubrics)
+                        VALUES
+                        (:ext_id, 341, :std_id, :sub_id, :ch_id, :sub_name, :std, :ch_num,
+                         :lo, :topics, :full_json, :model, :in_tok, :out_tok, :qf,
+                         :knowledge, :ability, :skill, :competency, :blooms_level, :dok, :prerequisites, :misconceptions,
+                         :real_world_applications, :pedagogy, :learning_objectives, :learning_outcomes, :assessment_blueprint,
+                         :assessment_rubrics)
+                    """), params)
+                    action = "inserted"
+                    record_id = res.lastrowid
             
-        db.commit()
+                db.commit()
         
-        # Return the data to populate frontend state immediately
-        return {
-            "status": "success",
-            "action": action,
-            "semantic_id": record_id,
-            "semantic_data": {
-                "subject_name": params["sub_name"],
-                "standard": params["std"],
-                "total_topics": params["topics"],
-                "qulity_flag": params["qf"],
-                "input_token": params["in_tok"],
-                "output_token": params["out_tok"]
-            }
-        }
+                # Return the data to populate frontend state immediately
+                return {
+                    "status": "success",
+                    "action": action,
+                    "semantic_id": record_id,
+                    "semantic_data": {
+                        "subject_name": params["sub_name"],
+                        "standard": params["std"],
+                        "total_topics": params["topics"],
+                        "qulity_flag": params["qf"],
+                        "input_token": params["in_tok"],
+                        "output_token": params["out_tok"]
+                    }
+                }
+        except OperationalError as exc:
+            last_db_error = exc
+            if attempt == _PERSIST_ATTEMPTS - 1:
+                break
+            delay = _PERSIST_BACKOFF_SEC * (2 ** attempt)
+            logger.warning(
+                "Semantic persistence attempt %s/%s for extraction %s failed (%s); retrying in %ss",
+                attempt + 1, _PERSIST_ATTEMPTS, extraction_id, exc.orig, delay,
+            )
+            await asyncio.sleep(delay)
+
+    raise RuntimeError(
+        f"Semantic intelligence for extraction {extraction_id} was generated but could "
+        f"not be saved after {_PERSIST_ATTEMPTS} attempts. The LLM output was lost; "
+        f"re-run once the database is reachable. Last error: {last_db_error}"
+    ) from last_db_error
 
 def get_semantic_data_by_extraction_id(extraction_id: int):
     with SessionLocal() as db:

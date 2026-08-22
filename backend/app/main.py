@@ -11,8 +11,9 @@ import logging
 import sys
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 
 from app.api.routes import router
 from app.teaching_intelligence.router import router as teaching_intelligence_router
@@ -56,6 +57,15 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.exception_handler(Exception)
+async def unhandled_exception_handler(request: Request, exc: Exception) -> JSONResponse:
+    """Return JSON for unhandled errors so the CORS middleware still tags the
+    response — a bare 500 has no CORS headers and reaches the browser as the
+    misleading "Failed to fetch"."""
+    logger.exception("Unhandled error on %s %s", request.method, request.url.path)
+    return JSONResponse(status_code=500, content={"detail": str(exc)})
+
 
 app.include_router(router, prefix="/api")
 app.include_router(teaching_intelligence_router, prefix="/teaching-intelligence")

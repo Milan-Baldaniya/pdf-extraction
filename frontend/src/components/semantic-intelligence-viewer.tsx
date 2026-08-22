@@ -1,13 +1,27 @@
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { Brain, Target, Zap, Award, Layers, BarChart, Link as LinkIcon, AlertTriangle, Globe, Lightbulb, Flag, CheckCircle, FileText, ClipboardCheck, Network, Quote, Sparkles } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import {
+  CONCEPT_TAB_KEYS,
+  DEFAULT_SUB_INSTITUTE_ID,
+  DEFAULT_TAB_LABELS,
+  LEGACY_TAB_KEYS,
+  fetchTabLabels,
+  resetTabLabels,
+  saveTabLabels,
+  toLabelMap,
+} from "@/lib/tab-labels";
+import { Brain, Target, Zap, Award, Layers, BarChart, Link as LinkIcon, AlertTriangle, Globe, Lightbulb, Flag, CheckCircle, FileText, ClipboardCheck, Network, Quote, Sparkles, Pencil, RotateCcw, X } from "lucide-react";
 
 interface SemanticIntelligenceViewerProps {
   data: any; // The full JSON from the database
+  /** Tenant whose tab names apply. Falls back to the pipeline-wide default. */
+  subInstituteId?: number;
 }
 
 // Custom simple accordion to avoid missing shadcn component error
@@ -310,18 +324,205 @@ function RubricItemCard({ item }: { item: any }) {
   );
 }
 
-export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerProps) {
+// Icons are fixed per dimension — a tenant renames the label, not the meaning,
+// so the icon keeps the tab recognisable across renames.
+const TAB_ICONS: Record<string, React.ComponentType<{ className?: string }> | undefined> = {
+  knowledge: Brain,
+  ability: Target,
+  skill: Zap,
+  competency: Award,
+  blooms: Layers,
+  dok: BarChart,
+  prerequisite: LinkIcon,
+  misconception: AlertTriangle,
+  realworld: Globe,
+  pedagogy: Lightbulb,
+  objectives: Flag,
+  outcomes: CheckCircle,
+  blueprint: FileText,
+  rubrics: ClipboardCheck,
+  relationships: Network,
+  evidence: Quote,
+  reasoning: Sparkles,
+  activities: undefined,
+};
+
+const tabLabel = (key: string, labels: Record<string, string>) =>
+  labels[key] ?? DEFAULT_TAB_LABELS[key] ?? key;
+
+function TabStrip({
+  tabKeys,
+  labels,
+}: {
+  tabKeys: readonly string[];
+  labels: Record<string, string>;
+}) {
+  return (
+    <TabsList className="mb-6 bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10 rounded-xl p-1 inline-flex w-full overflow-x-auto justify-start h-auto flex-wrap gap-1">
+      {tabKeys.map((key) => {
+        const Icon = TAB_ICONS[key];
+        return (
+          <TabsTrigger
+            key={key}
+            value={key}
+            className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"
+          >
+            {Icon && <Icon className="w-3.5 h-3.5" />} {tabLabel(key, labels)}
+          </TabsTrigger>
+        );
+      })}
+    </TabsList>
+  );
+}
+
+/**
+ * Inline rename panel for the tab strip. Edits a draft copy so an abandoned
+ * edit leaves the live labels untouched; saving writes the whole draft in one
+ * request and the server drops any value equal to the default.
+ */
+function TabLabelEditor({
+  tabKeys,
+  labels,
+  subInstituteId,
+  onSaved,
+  onClose,
+}: {
+  tabKeys: readonly string[];
+  labels: Record<string, string>;
+  subInstituteId: number;
+  onSaved: (labels: Record<string, string>) => void;
+  onClose: () => void;
+}) {
+  const [draft, setDraft] = useState<Record<string, string>>(() =>
+    tabKeys.reduce<Record<string, string>>((acc, key) => {
+      acc[key] = tabLabel(key, labels);
+      return acc;
+    }, {})
+  );
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const run = async (action: () => Promise<any>) => {
+    setBusy(true);
+    setError(null);
+    try {
+      const res = await action();
+      onSaved(toLabelMap(res.tabs));
+      onClose();
+    } catch (err: any) {
+      setError(err?.response?.data?.detail || err?.message || "Could not save tab names");
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  return (
+    <div className="mb-6 p-5 rounded-2xl border border-black/10 dark:border-white/10 bg-white/60 dark:bg-black/50 backdrop-blur-xl">
+      <div className="flex items-start justify-between gap-4 mb-4">
+        <div>
+          <div className="font-semibold text-sm">Rename tabs</div>
+          <p className="text-xs text-muted-foreground mt-1">
+            These names apply to every chapter for institute #{subInstituteId}. Clear a
+            box to restore its default name.
+          </p>
+        </div>
+        <button
+          onClick={onClose}
+          className="rounded-full p-1.5 hover:bg-black/5 dark:hover:bg-white/10 transition-colors cursor-pointer"
+          aria-label="Close rename panel"
+        >
+          <X className="w-4 h-4" />
+        </button>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        {tabKeys.map((key) => {
+          const Icon = TAB_ICONS[key];
+          const fallback = DEFAULT_TAB_LABELS[key] ?? key;
+          return (
+            <label key={key} className="flex flex-col gap-1.5">
+              <span className="text-[11px] uppercase tracking-wider text-muted-foreground flex items-center gap-1.5">
+                {Icon && <Icon className="w-3 h-3" />} {fallback}
+              </span>
+              <Input
+                value={draft[key] ?? ""}
+                placeholder={fallback}
+                maxLength={120}
+                disabled={busy}
+                onChange={(e) => setDraft({ ...draft, [key]: e.target.value })}
+              />
+            </label>
+          );
+        })}
+      </div>
+
+      {error && (
+        <p className="mt-3 text-sm text-red-600 dark:text-red-400">{error}</p>
+      )}
+
+      <div className="flex items-center gap-2 mt-4">
+        <Button
+          size="sm"
+          disabled={busy}
+          onClick={() => run(() => saveTabLabels(subInstituteId, draft))}
+        >
+          {busy ? "Saving…" : "Save names"}
+        </Button>
+        <Button
+          size="sm"
+          variant="ghost"
+          disabled={busy}
+          onClick={() => run(() => resetTabLabels(subInstituteId))}
+          className="gap-1.5"
+        >
+          <RotateCcw className="w-3.5 h-3.5" /> Reset all to default
+        </Button>
+      </div>
+    </div>
+  );
+}
+
+export function SemanticIntelligenceViewer({
+  data,
+  subInstituteId = DEFAULT_SUB_INSTITUTE_ID,
+}: SemanticIntelligenceViewerProps) {
   // Support new `concepts` structure, fallback to `topics` or `teaching_units`
   const isLegacy = !data?.concepts;
   const itemsList = data?.concepts || data?.topics || data?.teaching_units;
 
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [openConceptIndex, setOpenConceptIndex] = useState<number | null>(0);
+  const [labels, setLabels] = useState<Record<string, string>>({});
+  const [renaming, setRenaming] = useState(false);
+
+  // Tab names are per-tenant, so they are fetched rather than baked in. If the
+  // request fails the strip still renders — tabLabel() falls back to the
+  // built-in defaults.
+  useEffect(() => {
+    let cancelled = false;
+    fetchTabLabels(subInstituteId)
+      .then((res) => {
+        if (!cancelled) setLabels(toLabelMap(res.tabs));
+      })
+      .catch((err) => console.warn("Falling back to default tab names:", err));
+    return () => {
+      cancelled = true;
+    };
+  }, [subInstituteId]);
+
+  const handleLabelsSaved = useCallback(
+    (next: Record<string, string>) => setLabels(next),
+    []
+  );
+
+  const tabKeys = isLegacy ? LEGACY_TAB_KEYS : CONCEPT_TAB_KEYS;
+
+  // Below the hooks: bailing out earlier would change the hook count between
+  // renders once data arrives.
   if (!data || !itemsList || itemsList.length === 0) {
     return <div className="p-4 text-center text-muted-foreground">No Semantic Intelligence data available yet.</div>;
   }
 
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [openConceptIndex, setOpenConceptIndex] = useState<number | null>(0);
-  
   const activeItem = itemsList[activeIndex];
 
   return (
@@ -330,9 +531,30 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
 
       {/* Chapter Header */}
       <div className="p-6 rounded-2xl border-[0.5px] border-black/10 dark:border-white/10 bg-white/40 dark:bg-black/40 backdrop-blur-xl shadow-sm">
-        <h2 className="text-2xl font-bold tracking-tight text-foreground/90">{data.chapter_title || data.chapter_name || "Chapter Intelligence"}</h2>
-        <p className="text-muted-foreground mt-2">{data.short_summary || data.chapter_summary}</p>
+        <div className="flex items-start justify-between gap-4">
+          <div className="min-w-0">
+            <h2 className="text-2xl font-bold tracking-tight text-foreground/90">{data.chapter_title || data.chapter_name || "Chapter Intelligence"}</h2>
+            <p className="text-muted-foreground mt-2">{data.short_summary || data.chapter_summary}</p>
+          </div>
+          <button
+            onClick={() => setRenaming((open) => !open)}
+            className="shrink-0 flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-xs font-medium text-foreground/70 bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10 hover:text-foreground transition-all border-[0.5px] border-transparent hover:border-black/10 dark:hover:border-white/10 cursor-pointer"
+          >
+            <Pencil className="w-3.5 h-3.5" />
+            Rename tabs
+          </button>
+        </div>
       </div>
+
+      {renaming && (
+        <TabLabelEditor
+          tabKeys={tabKeys}
+          labels={labels}
+          subInstituteId={subInstituteId}
+          onSaved={handleLabelsSaved}
+          onClose={() => setRenaming(false)}
+        />
+      )}
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
 
@@ -419,14 +641,7 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                     subtitle={sub.subtopic_summary}
                   >
                     <Tabs defaultValue="knowledge" className="w-full mt-2">
-                      <TabsList className="mb-6 bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10 rounded-xl p-1 inline-flex w-full overflow-x-auto justify-start h-auto flex-wrap gap-1">
-                        <TabsTrigger value="knowledge" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Brain className="w-3.5 h-3.5"/> Knowledge</TabsTrigger>
-                        <TabsTrigger value="pedagogy" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Lightbulb className="w-3.5 h-3.5"/> Pedagogy</TabsTrigger>
-                        <TabsTrigger value="misconception" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><AlertTriangle className="w-3.5 h-3.5"/> Misconceptions</TabsTrigger>
-                        <TabsTrigger value="realworld" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Globe className="w-3.5 h-3.5"/> Real World</TabsTrigger>
-                        <TabsTrigger value="activities" className="rounded-lg px-3 py-1.5 text-xs">Activities</TabsTrigger>
-                        <TabsTrigger value="outcomes" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><CheckCircle className="w-3.5 h-3.5"/> Outcomes</TabsTrigger>
-                      </TabsList>
+                      <TabStrip tabKeys={LEGACY_TAB_KEYS} labels={labels} />
 
                       <TabsContent value="knowledge" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
                         {sub.detailed_explanation && (
@@ -527,25 +742,7 @@ export function SemanticIntelligenceViewer({ data }: SemanticIntelligenceViewerP
                 {!isLegacy && (
                   <div className="animate-in fade-in slide-in-from-top-2 duration-300">
                     <Tabs defaultValue="knowledge" className="w-full mt-2">
-                      <TabsList className="mb-6 bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/10 rounded-xl p-1 inline-flex w-full overflow-x-auto justify-start h-auto flex-wrap gap-1">
-                        <TabsTrigger value="knowledge" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Brain className="w-3.5 h-3.5"/> Knowledge</TabsTrigger>
-                        <TabsTrigger value="ability" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Target className="w-3.5 h-3.5"/> Ability</TabsTrigger>
-                        <TabsTrigger value="skill" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Zap className="w-3.5 h-3.5"/> Skill</TabsTrigger>
-                        <TabsTrigger value="competency" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Award className="w-3.5 h-3.5"/> Competency</TabsTrigger>
-                        <TabsTrigger value="blooms" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Layers className="w-3.5 h-3.5"/> Bloom's</TabsTrigger>
-                        <TabsTrigger value="dok" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><BarChart className="w-3.5 h-3.5"/> DOK</TabsTrigger>
-                        <TabsTrigger value="prerequisite" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><LinkIcon className="w-3.5 h-3.5"/> Prerequisites</TabsTrigger>
-                        <TabsTrigger value="misconception" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><AlertTriangle className="w-3.5 h-3.5"/> Misconceptions</TabsTrigger>
-                        <TabsTrigger value="realworld" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Globe className="w-3.5 h-3.5"/> Real World</TabsTrigger>
-                        <TabsTrigger value="pedagogy" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Lightbulb className="w-3.5 h-3.5"/> Pedagogy</TabsTrigger>
-                        <TabsTrigger value="objectives" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Flag className="w-3.5 h-3.5"/> Objectives</TabsTrigger>
-                        <TabsTrigger value="outcomes" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><CheckCircle className="w-3.5 h-3.5"/> Outcomes</TabsTrigger>
-                        <TabsTrigger value="blueprint" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><FileText className="w-3.5 h-3.5"/> Blueprint</TabsTrigger>
-                        <TabsTrigger value="rubrics" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><ClipboardCheck className="w-3.5 h-3.5"/> Rubrics</TabsTrigger>
-                        <TabsTrigger value="relationships" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Network className="w-3.5 h-3.5"/> Relationships</TabsTrigger>
-                        <TabsTrigger value="evidence" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Quote className="w-3.5 h-3.5"/> Evidence</TabsTrigger>
-                        <TabsTrigger value="reasoning" className="rounded-lg px-3 py-1.5 text-xs cursor-pointer flex items-center gap-1.5"><Sparkles className="w-3.5 h-3.5"/> AI Reasoning</TabsTrigger>
-                      </TabsList>
+                      <TabStrip tabKeys={CONCEPT_TAB_KEYS} labels={labels} />
 
                       {/* 1. KNOWLEDGE */}
                       <TabsContent value="knowledge" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">

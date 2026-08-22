@@ -172,7 +172,7 @@ async def generate_teaching_intelligence(req: GenerateTeachingRequest):
         "difficulty_level": req.difficulty_level,
         "full_teaching_json": raw_json,
         "total_slides_planned": len(validated.slide_teaching_plans),
-        "llm_model": settings.deepseek_model,
+        "llm_model": settings.active_llm_model,
         "prompt_version": prompt_version,
         "input_tokens": deepseek_result["input_tokens"],
         "output_tokens": deepseek_result["output_tokens"],

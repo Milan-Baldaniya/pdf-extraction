@@ -51,7 +51,11 @@ from app.services.mineru_service import (
 )
 from app.services.curriculum_service import process_curriculum_by_id, get_all_curriculums, get_curriculum_data_by_extraction_id
 from app.services.chapter_service import process_chapter_by_id, get_chapter_data_by_extraction_id, get_all_chapters
-from app.services.concept_service import process_concept_by_id, get_concept_data_by_extraction_id, get_all_concepts_queue
+from app.services.topic_service import process_topics_by_id, get_topic_data_by_extraction_id, get_all_topics_queue
+from app.services.concept_service import process_concepts_by_id, get_concept_data_by_extraction_id, get_all_concepts_queue
+from app.services.validation_service import validate_extraction
+from app.services import tab_label_service as tab_labels
+from app.semantic_intelligence.deepseek_client import DeepSeekUnavailableError
 from app.services.semantic_intelligence_service import get_all_semantic_chapters, process_semantic_chapter_by_id, get_semantic_data_by_extraction_id
 from app.services.pdf_service import PDFDownloadError, download_pdf
 from app.utils.config import settings
@@ -570,7 +574,7 @@ async def upload_ncert_pdf(
     chapter_number: str = Form(None),
     standard: str = Form(None),
     subject_name: str = Form(None),
-    board: str = Form("CBSE"),
+    board: str = Form("CAMBRIDGE"),
     syear: str = Form(None),
 ) -> ExtractionResponse:
     """Accept a local PDF upload and extract structured educational content."""
@@ -723,6 +727,64 @@ def get_chapter_result(extraction_id: int) -> dict[str, Any]:
         logger.exception("Failed to fetch chapter result")
         raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}")
 
+# The queues below run in hierarchy order: a chapter is extracted first, its
+# topics are generated chapter-wise from that, and its concepts are generated
+# topic-wise from the topics.
+
+@router.get(
+    "/topics",
+    tags=["Topic Processing"],
+    summary="List all chapters ready for topic processing",
+)
+def list_topics() -> list[dict[str, Any]]:
+    return get_all_topics_queue()
+
+@router.post(
+    "/topics/{extraction_id}/process",
+    tags=["Topic Processing"],
+    summary="Find a chapter's main topics in one whole-chapter call and fill topic_master",
+)
+async def process_topics(extraction_id: int, force: bool = False) -> dict[str, Any]:
+    try:
+        return await process_topics_by_id(extraction_id, force)
+    except DeepSeekUnavailableError as exc:
+        # Upstream provider fault (billing/auth/model), not a bad request and
+        # not our bug -- 503 so it reads as "retry once the account is fixed".
+        raise HTTPException(status_code=503, detail=str(exc))
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    except Exception as exc:
+        logger.exception("Failed to process topics")
+        raise HTTPException(status_code=500, detail=f"Processing failed: {exc}")
+
+@router.post(
+    "/topics/{extraction_id}/part/{segment_index}/process",
+    tags=["Topic Processing"],
+    summary="Deprecated: chapters are no longer split into parts; re-runs the whole chapter",
+    include_in_schema=False,
+)
+async def process_topics_for_part(extraction_id: int, segment_index: int) -> dict[str, Any]:
+    # Topic extraction is a single whole-chapter call now, so there is no part
+    # to retry. Kept so an open browser tab does not 404; it just reprocesses.
+    return await process_topics(extraction_id, force=True)
+
+@router.get(
+    "/topics/{extraction_id}/result",
+    tags=["Topic Processing"],
+    summary="Fetch the topic_master data for a processed extraction, in teaching order",
+)
+def get_topic_result(extraction_id: int) -> dict[str, Any]:
+    try:
+        data = get_topic_data_by_extraction_id(extraction_id)
+        if not data:
+            raise HTTPException(status_code=404, detail="Topic data not found")
+        return data
+    except HTTPException:
+        raise
+    except Exception as exc:
+        logger.exception("Failed to fetch topic result")
+        raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}")
+
 @router.get(
     "/concepts",
     tags=["Concept Processing"],
@@ -734,22 +796,56 @@ def list_concepts() -> list[dict[str, Any]]:
 @router.post(
     "/concepts/{extraction_id}/process",
     tags=["Concept Processing"],
-    summary="Process a chapter to populate lms_concept",
+    summary="Break every topic of a chapter into concepts in one whole-chapter call",
 )
-async def process_concept(extraction_id: int, force: bool = False) -> dict[str, Any]:
+async def process_concepts(extraction_id: int, force: bool = False) -> dict[str, Any]:
     try:
-        result = await asyncio.to_thread(process_concept_by_id, extraction_id, force)
-        return result
+        return await process_concepts_by_id(extraction_id, force)
+    except DeepSeekUnavailableError as exc:
+        raise HTTPException(status_code=503, detail=str(exc))
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc))
     except Exception as exc:
         logger.exception("Failed to process concepts")
         raise HTTPException(status_code=500, detail=f"Processing failed: {exc}")
 
+@router.post(
+    "/concepts/{extraction_id}/topic/{topic_id}/process",
+    tags=["Concept Processing"],
+    summary="Re-run concept extraction for one topic, still against the whole chapter",
+)
+async def process_concepts_for_topic(extraction_id: int, topic_id: int) -> dict[str, Any]:
+    # One topic coming back empty should not cost a full reprocess. The retry
+    # still sends the whole chapter -- only the set of topics asked about narrows.
+    try:
+        return await process_concepts_by_id(extraction_id, force=True, topic_id=topic_id)
+    except DeepSeekUnavailableError as exc:
+        raise HTTPException(status_code=503, detail=str(exc))
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    except Exception as exc:
+        logger.exception("Failed to process concepts for topic %s", topic_id)
+        raise HTTPException(status_code=500, detail=f"Processing failed: {exc}")
+
+@router.get(
+    "/validate/{extraction_id}",
+    tags=["Validation"],
+    summary="Audit a chapter's topics and concepts against the chapter content",
+)
+def validate_extraction_result(extraction_id: int) -> dict[str, Any]:
+    # Deterministic and LLM-free, so it is safe to call as often as you like.
+    try:
+        return validate_extraction(extraction_id)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    except Exception as exc:
+        logger.exception("Failed to validate extraction %s", extraction_id)
+        raise HTTPException(status_code=500, detail=f"Validation failed: {exc}")
+
 @router.get(
     "/concepts/{extraction_id}/result",
     tags=["Concept Processing"],
-    summary="Fetch the lms_concept data for a processed extraction",
+    summary="Fetch the lms_concept data for a processed extraction, grouped by topic",
 )
 def get_concept_result(extraction_id: int) -> dict[str, Any]:
     try:
@@ -878,7 +974,7 @@ def get_semantic_intelligence_result(extraction_id: int) -> dict[str, Any]:
 
 
 from sqlalchemy import text
-from app.models.schemas import SubjectCreateRequest
+from app.models.schemas import SubjectCreateRequest, TabLabelUpdateRequest
 
 @router.get(
     "/subjects/{standard_name}",
@@ -891,7 +987,7 @@ def get_subjects_by_standard(standard_name: str) -> list[dict[str, Any]]:
     db = SessionLocal()
     try:
         std_row = db.execute(
-            text("SELECT id FROM standard WHERE name = :name AND sub_institute_id = 1 LIMIT 1"),
+            text("SELECT id FROM standard WHERE name = :name AND sub_institute_id = 341 LIMIT 1"),
             {"name": standard_name}
         ).fetchone()
         
@@ -905,7 +1001,7 @@ def get_subjects_by_standard(standard_name: str) -> list[dict[str, Any]]:
                 SELECT s.id, s.subject_name 
                 FROM subject s 
                 JOIN sub_std_map map ON s.id = map.subject_id 
-                WHERE map.standard_id = :std_id AND s.sub_institute_id = 1
+                WHERE map.standard_id = :std_id AND s.sub_institute_id = 341
             """),
             {"std_id": std_id}
         ).fetchall()
@@ -929,7 +1025,7 @@ def create_subject(request: SubjectCreateRequest) -> dict[str, Any]:
     db = SessionLocal()
     try:
         std_row = db.execute(
-            text("SELECT id FROM standard WHERE name = :name AND sub_institute_id = 1 LIMIT 1"),
+            text("SELECT id FROM standard WHERE name = :name AND sub_institute_id = 341 LIMIT 1"),
             {"name": request.standard_name}
         ).fetchone()
         if not std_row:
@@ -937,7 +1033,7 @@ def create_subject(request: SubjectCreateRequest) -> dict[str, Any]:
         std_id = std_row[0]
 
         sub_row = db.execute(
-            text("SELECT id FROM subject WHERE subject_name = :sname AND sub_institute_id = 1 LIMIT 1"),
+            text("SELECT id FROM subject WHERE subject_name = :sname AND sub_institute_id = 341 LIMIT 1"),
             {"sname": request.subject_name}
         ).fetchone()
         
@@ -950,7 +1046,7 @@ def create_subject(request: SubjectCreateRequest) -> dict[str, Any]:
             subj_type = request.subject_type if request.subject_type else 'Major'
             
             res = db.execute(
-                text("INSERT INTO subject (subject_name, subject_code, subject_type, short_name, status, sub_institute_id) VALUES (:sname, :code, :type, :short, 1, 1)"),
+                text("INSERT INTO subject (subject_name, subject_code, subject_type, short_name, status, sub_institute_id) VALUES (:sname, :code, :type, :short, 1, 341)"),
                 {"sname": request.subject_name, "code": new_code, "type": subj_type, "short": short_name}
             )
             sub_id = res.lastrowid
@@ -964,13 +1060,13 @@ def create_subject(request: SubjectCreateRequest) -> dict[str, Any]:
             d_name = request.display_name if request.display_name else request.subject_name
             try:
                 db.execute(
-                    text("INSERT INTO sub_std_map (standard_id, subject_id, sub_institute_id, display_name) VALUES (:std_id, :sub_id, 1, :d_name)"),
+                    text("INSERT INTO sub_std_map (standard_id, subject_id, sub_institute_id, display_name) VALUES (:std_id, :sub_id, 341, :d_name)"),
                     {"std_id": std_id, "sub_id": sub_id, "d_name": d_name}
                 )
             except Exception as e:
                 # Fallback if column is sub_institute_id instead
                 db.execute(
-                    text("INSERT INTO sub_std_map (standard_id, subject_id, sub_institute_id, display_name) VALUES (:std_id, :sub_id, 1, :d_name)"),
+                    text("INSERT INTO sub_std_map (standard_id, subject_id, sub_institute_id, display_name) VALUES (:std_id, :sub_id, 341, :d_name)"),
                     {"std_id": std_id, "sub_id": sub_id, "d_name": d_name}
                 )
 
@@ -982,3 +1078,61 @@ def create_subject(request: SubjectCreateRequest) -> dict[str, Any]:
         raise HTTPException(status_code=500, detail=str(exc))
     finally:
         db.close()
+
+
+# ---------------------------------------------------------------------------
+# Semantic Intelligence tab labels (tenant-wise renaming)
+# ---------------------------------------------------------------------------
+
+@router.get(
+    "/semantic-intelligence-tabs",
+    tags=["Semantic Intelligence"],
+    summary="Tab display names for a tenant, defaults filled in",
+)
+def get_semantic_tab_labels(
+    sub_institute_id: int = tab_labels.DEFAULT_SUB_INSTITUTE_ID,
+) -> dict[str, Any]:
+    try:
+        return tab_labels.get_tab_labels(sub_institute_id)
+    except tab_labels.TabLabelError as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+    except Exception as exc:
+        logger.exception("Failed to fetch semantic tab labels")
+        raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}")
+
+
+@router.put(
+    "/semantic-intelligence-tabs",
+    tags=["Semantic Intelligence"],
+    summary="Rename Semantic Intelligence tabs for a tenant",
+)
+def update_semantic_tab_labels(request: TabLabelUpdateRequest) -> dict[str, Any]:
+    try:
+        return tab_labels.save_tab_labels(request.sub_institute_id, request.labels)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    except tab_labels.TabLabelError as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+    except Exception as exc:
+        logger.exception("Failed to save semantic tab labels")
+        raise HTTPException(status_code=500, detail=f"Save failed: {exc}")
+
+
+@router.delete(
+    "/semantic-intelligence-tabs",
+    tags=["Semantic Intelligence"],
+    summary="Restore default tab names for a tenant",
+)
+def reset_semantic_tab_labels(
+    sub_institute_id: int = tab_labels.DEFAULT_SUB_INSTITUTE_ID,
+    tab_key: str | None = None,
+) -> dict[str, Any]:
+    try:
+        return tab_labels.reset_tab_labels(sub_institute_id, tab_key)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    except tab_labels.TabLabelError as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+    except Exception as exc:
+        logger.exception("Failed to reset semantic tab labels")
+        raise HTTPException(status_code=500, detail=f"Reset failed: {exc}")

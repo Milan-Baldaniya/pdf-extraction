@@ -220,7 +220,7 @@ def process_chapter_by_id(extraction_id: int, force: bool = False) -> Dict[str, 
                 "chapter_data": get_chapter_data_by_extraction_id(extraction_id)
             }
         else:
-            db.execute(text("""
+            res = db.execute(text("""
                 INSERT INTO chapter_master 
                 (extraction_id, sub_institute_id, subject_id, standard_id, grade_id, unit_id, chapter_name, key_concepts, syear, created_at, updated_at)
                 VALUES 

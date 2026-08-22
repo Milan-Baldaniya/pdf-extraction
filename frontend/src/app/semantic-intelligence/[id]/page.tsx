@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react"
 import { useParams } from "next/navigation"
 import { SemanticIntelligenceViewer } from "@/components/semantic-intelligence-viewer"
+import { DEFAULT_SUB_INSTITUTE_ID } from "@/lib/tab-labels"
 import { FileText, ArrowLeft } from "lucide-react"
 import { API_ROOT } from "@/lib/api-url"
 
@@ -10,6 +11,7 @@ export default function SemanticIntelligencePage() {
   const params = useParams()
   const id = params.id
   const [data, setData] = useState<any>(null)
+  const [subInstituteId, setSubInstituteId] = useState<number>(DEFAULT_SUB_INSTITUTE_ID)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -26,6 +28,9 @@ export default function SemanticIntelligencePage() {
                                json?.full_intelligence_json || 
                                json?.full_intelegance_json
           if (intelligence) {
+            // Tab names are per-tenant; the row's own institute decides which
+            // set this page shows.
+            if (json?.sub_institute_id) setSubInstituteId(Number(json.sub_institute_id))
             setData(intelligence)
           } else {
             setError("No detailed 13-dimensional intelligence JSON found for this extraction.")
@@ -90,7 +95,7 @@ export default function SemanticIntelligencePage() {
             </div>
           </div>
         ) : (
-          <SemanticIntelligenceViewer data={data} />
+          <SemanticIntelligenceViewer data={data} subInstituteId={subInstituteId} />
         )}
       </main>
     </div>

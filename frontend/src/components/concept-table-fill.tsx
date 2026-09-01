@@ -96,16 +96,6 @@ export function ConceptTableFill() {
     setProcessingId(extractionId)
     setResult(null)
     try {
-      const res = await fetch(`${apiUrl(`/concepts/${extractionId}/process`)}${forceQuery}`, {
-        method: 'POST'
-      })
-      const data = await res.json()
-      if (res.ok) {
-        setResult(data)
-        fetchRecords()
-      } else {
-        alert("Error processing: " + data.detail)
-      }
       const data = await runJob<any>(
         `${apiUrl(`/jobs/concepts/${extractionId}/process`)}${forceQuery}`,
         undefined,

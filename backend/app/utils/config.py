@@ -96,10 +96,19 @@ class Settings(BaseSettings):
     # unattended queue can drain an account before anyone notices. A run that
     # crosses this ceiling aborts instead of continuing to spend.
     semantic_max_tokens_per_chapter: int = 1_500_000
-    # Concurrent concepts in flight. Each one fires up to 4 agent calls, so 15
-    # meant ~30 simultaneous requests; billing settles on completion, which is
-    # how a balance overshoots into the negative.
+    # Concurrent TOPICS in flight. Each one fires 4 agent calls covering all of
+    # that topic's concepts, so 15 meant ~60 simultaneous requests; billing
+    # settles on completion, which is how a balance overshoots into the negative.
     semantic_max_concurrency: int = 5
+    # Most concepts one agent call may be asked for. The swarm runs per topic so
+    # the ~9,000 tokens of role prompt and JSON schema are paid once per topic
+    # rather than once per concept, but a topic is not allowed to be unbounded:
+    # Agent 4 writes 4-6 full mark schemes PER concept, so an 11-concept topic
+    # would ask for ~50 of them in one JSON reply. A reply that overruns comes
+    # back unparseable, is retried three times, is billed all three times, and
+    # yields nothing. Topics above this are split into consecutive batches over
+    # the same slice. 8 covers all but a handful of topics in this corpus.
+    semantic_max_concepts_per_call: int = 8
 
     @property
     def active_llm_model(self) -> str:

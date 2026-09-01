@@ -113,6 +113,65 @@ def map_to_master_content_ids(db, school_standard_id: int, school_subject_id: in
     return mapped_std, mapped_sub
 
 
+def resolve_content_source(
+    db, school_standard_id: int, school_subject_id: int
+) -> tuple[int, int, int]:
+    """
+    Decide which (institute, standard, subject) triple actually holds the
+    curriculum content for a school's standard + subject.
+
+    Content normally lives under MASTER_CONTENT_INSTITUTE_ID against that
+    institute's own id space, so the name mapping is tried first. But older
+    subjects were authored under the school's own institute with the school's
+    own ids, and for those the name match still succeeds — it resolves to a
+    master standard/subject that has no chapters at all. Fall back to whichever
+    institute actually holds the chapters for the school's own ids.
+
+    Returns the master coordinates unchanged when neither has chapters, so a
+    genuinely unprocessed subject still reports against the master content set.
+    """
+    mapped_std, mapped_sub = map_to_master_content_ids(
+        db, school_standard_id, school_subject_id
+    )
+
+    master_chapters = db.execute(
+        text("""
+            SELECT COUNT(*) FROM chapter_master
+            WHERE sub_institute_id = :inst
+              AND standard_id = :std
+              AND subject_id = :sub
+              AND availability = 1
+        """),
+        {"inst": MASTER_CONTENT_INSTITUTE_ID, "std": mapped_std, "sub": mapped_sub},
+    ).scalar() or 0
+
+    if master_chapters:
+        return MASTER_CONTENT_INSTITUTE_ID, mapped_std, mapped_sub
+
+    fallback_inst = db.execute(
+        text("""
+            SELECT sub_institute_id
+            FROM chapter_master
+            WHERE standard_id = :std AND subject_id = :sub AND availability = 1
+            GROUP BY sub_institute_id
+            ORDER BY COUNT(*) DESC
+            LIMIT 1
+        """),
+        {"std": school_standard_id, "sub": school_subject_id},
+    ).scalar()
+
+    if fallback_inst is not None:
+        logger.info(
+            "Content for std=%s sub=%s is not under master institute %s "
+            "(mapped to %s/%s); using institute %s with the school's own ids",
+            school_standard_id, school_subject_id, MASTER_CONTENT_INSTITUTE_ID,
+            mapped_std, mapped_sub, fallback_inst,
+        )
+        return int(fallback_inst), school_standard_id, school_subject_id
+
+    return MASTER_CONTENT_INSTITUTE_ID, mapped_std, mapped_sub
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # PHASE 0A: Data Assembly — Read from 5 ERP tables
 # ─────────────────────────────────────────────────────────────────────────────
@@ -355,13 +414,15 @@ def get_concept_time_requirements(
 
 
 def get_curriculum(
-    db, standard_id: int, subject_id: int
+    db, institute_id: int, standard_id: int, subject_id: int
 ) -> dict[str, Any] | None:
     """
     Fetch the curriculum record for a standard + subject.
 
-    Always reads from MASTER_CONTENT_INSTITUTE_ID (institute 341).
-    Returns curriculum metadata including objective, board, framework.
+    Reads from the institute that resolve_content_source picked — normally
+    MASTER_CONTENT_INSTITUTE_ID, but the school's own institute for subjects
+    authored there. Returns curriculum metadata including objective, board,
+    framework.
     """
     row = db.execute(
         text("""
@@ -375,7 +436,7 @@ def get_curriculum(
             ORDER BY id DESC
             LIMIT 1
         """),
-        {"inst": MASTER_CONTENT_INSTITUTE_ID, "std": standard_id, "sub": subject_id},
+        {"inst": institute_id, "std": standard_id, "sub": subject_id},
     ).mappings().fetchone()
 
     return dict(row) if row else None
@@ -465,7 +526,7 @@ def get_semantic_intelligence(
                    blooms_level, dok, pedagogy,
                    misconceptions, real_world_applications,
                    prerequisites, assessment_blueprint,
-                   total_topics
+                   total_concepts AS total_topics
             FROM semantic_intelligence
             WHERE standard_id = :std AND subject_id = :sub
             ORDER BY chapter_number
@@ -509,14 +570,13 @@ def assemble_school_data(
     actual school's sub_institute_id.
 
     Curriculum content data (chapters, concepts, units, learning outcomes,
-    semantic intelligence) ALWAYS comes from MASTER_CONTENT_INSTITUTE_ID (341)
-    because all schools share the same curriculum from institute 1.
+    semantic intelligence) comes from whichever institute actually holds it —
+    normally MASTER_CONTENT_INSTITUTE_ID (341), which all schools share, but
+    subjects authored under a school's own institute are read from there.
+    See resolve_content_source.
 
     Returns a complete school-data dict ready for capacity computation.
     """
-    # Content always comes from institute 1
-    content_inst_id = MASTER_CONTENT_INSTITUTE_ID
-
     with SessionLocal() as db:
         # ── SCHEDULING DATA (from actual school) ──────────────────────
 
@@ -543,11 +603,13 @@ def assemble_school_data(
             db, sub_institute_id, standard_id, subject_id, syear
         )
 
-        # ── CURRICULUM CONTENT (always from institute 1) ──────────────
-        mapped_std, mapped_sub = map_to_master_content_ids(db, standard_id, subject_id)
+        # ── CURRICULUM CONTENT (from wherever this subject was authored) ──
+        content_inst_id, mapped_std, mapped_sub = resolve_content_source(
+            db, standard_id, subject_id
+        )
 
         # 6. Curriculum metadata
-        curriculum = get_curriculum(db, mapped_std, mapped_sub)
+        curriculum = get_curriculum(db, content_inst_id, mapped_std, mapped_sub)
 
         # 7. Units (grouped chapters)
         units = []
@@ -1276,16 +1338,21 @@ def generate_macro_plan(
                 f"std={standard_id} sub={subject_id} year={syear}"
             )
 
-        # 2. Get chapters (always from master content institute 1)
-        mapped_std, mapped_sub = map_to_master_content_ids(db, standard_id, subject_id)
+        # 2. Get chapters from wherever this subject's content lives
+        content_inst_id, mapped_std, mapped_sub = resolve_content_source(
+            db, standard_id, subject_id
+        )
         chapters = _get_chapters_for_subject(
-            db, MASTER_CONTENT_INSTITUTE_ID, mapped_std, mapped_sub
+            db, content_inst_id, mapped_std, mapped_sub
         )
 
         if not chapters:
+            # Report the coordinates actually queried, not the school's own —
+            # they differ whenever the name mapping resolved to another id space.
             raise ValueError(
-                f"No chapters found for inst={sub_institute_id} "
-                f"std={standard_id} sub={subject_id}"
+                f"No chapters found for inst={content_inst_id} "
+                f"std={mapped_std} sub={mapped_sub} "
+                f"(school std={standard_id} sub={subject_id})"
             )
 
         # 3. Build holiday and exam sets
@@ -1565,8 +1632,8 @@ def generate_meso_plan(plan_id: int, manual_teacher_assignments: dict[int, list[
         )
         db.commit()
 
-        # 4. Fetch all concepts for this subject (always from institute 1)
-        mapped_std, mapped_sub = map_to_master_content_ids(db, std_id, sub_id)
+        # 4. Fetch all concepts for this subject
+        content_inst_id, mapped_std, mapped_sub = resolve_content_source(db, std_id, sub_id)
         concepts_rows = db.execute(
             text("""
                 SELECT c.id, c.name, c.estimated_mastery_minutes, cm.id as chapter_id, cm.chapter_name
@@ -1578,7 +1645,7 @@ def generate_meso_plan(plan_id: int, manual_teacher_assignments: dict[int, list[
                   AND cm.availability = 1
                 ORDER BY cm.sort_order, c.id
             """),
-            {"inst": MASTER_CONTENT_INSTITUTE_ID, "std": mapped_std, "sub": mapped_sub}
+            {"inst": content_inst_id, "std": mapped_std, "sub": mapped_sub}
         ).mappings().fetchall()
 
         chapter_concepts = defaultdict(list)

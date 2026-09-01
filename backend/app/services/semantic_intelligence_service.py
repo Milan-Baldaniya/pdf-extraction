@@ -26,15 +26,27 @@ def get_all_semantic_chapters() -> List[Dict[str, Any]]:
         rows = db.execute(query).mappings().fetchall()
         return [dict(r) for r in rows]
 
-def _hierarchy_outline(db, extraction_id: int) -> str:
-    """This chapter's topics and their concepts, as the slicer's concept list.
+def _topic_plan(db, extraction_id: int) -> List[Dict[str, Any]]:
+    """This chapter's topics, each carrying the concepts it teaches.
 
-    Returns "" when the hierarchy has not been generated, so the caller can
-    fall back to the chapter-level key_concepts JSON.
+    Semantic Intelligence analyses the SAME units the extraction hierarchy
+    defines. Chapter -> Topics -> Concepts already decided what this chapter
+    teaches, so the swarm runs over those topics and returns one intelligence
+    object per concept underneath them.
+
+    The shape matters as much as the content. Handing the swarm the flat list
+    of leaf concepts made it fire once per concept - 37 times on a six-topic
+    chapter - and each firing carries ~9,000 tokens of role prompt and JSON
+    schema whatever the slice size. Grouped by topic it fires six times for the
+    same 37 concepts.
+
+    Returns [] when the hierarchy has not been generated, so the caller can fall
+    back to the chapter-level key_concepts JSON and the original slicer.
     """
     rows = db.execute(
         text("""
-            SELECT t.id AS topic_id, t.name AS topic_name, t.topic_sort_order,
+            SELECT t.id AS topic_id, t.name AS topic_name, t.description AS topic_description,
+                   t.topic_sort_order,
                    c.name AS concept_name, c.description AS concept_description
               FROM topic_master t
          LEFT JOIN lms_concept c ON c.topic_id = t.id
@@ -44,20 +56,39 @@ def _hierarchy_outline(db, extraction_id: int) -> str:
         {"id": extraction_id},
     ).mappings().fetchall()
 
-    if not rows:
-        return ""
-
-    blocks: list[str] = []
-    current = None
-    numbered = 0
+    plan: List[Dict[str, Any]] = []
+    index: Dict[Any, Dict[str, Any]] = {}
     for row in rows:
-        if row["topic_id"] != current:
-            current = row["topic_id"]
-            numbered += 1
-            blocks.append(f"Topic {numbered}: {row['topic_name']}")
+        topic = index.get(row["topic_id"])
+        if topic is None:
+            topic = {
+                "topic_id": row["topic_id"],
+                "topic_name": row["topic_name"],
+                "description": (row["topic_description"] or "").strip(),
+                "concepts": [],
+            }
+            index[row["topic_id"]] = topic
+            plan.append(topic)
         if row["concept_name"]:
-            desc = (row["concept_description"] or "").strip()
-            blocks.append(f"  - {row['concept_name']}" + (f" - {desc}" if desc else ""))
+            topic["concepts"].append({
+                "name": row["concept_name"],
+                "description": (row["concept_description"] or "").strip(),
+            })
+
+    # A hierarchy of topics with no concepts under any of them is the Topic
+    # Queue having run without the Concept Queue. There is nothing for the
+    # agents to key their answers to, so fall back rather than fan out blind.
+    return plan if any(t["concepts"] for t in plan) else []
+
+
+def _outline_text(plan: List[Dict[str, Any]]) -> str:
+    """The plan rendered for the slicer fallback, which takes a flat string."""
+    blocks: list[str] = []
+    for number, topic in enumerate(plan, start=1):
+        blocks.append(f"Topic {number}: {topic['topic_name']}")
+        for concept in topic["concepts"]:
+            desc = concept["description"]
+            blocks.append(f"  - {concept['name']}" + (f" - {desc}" if desc else ""))
     return "\n".join(blocks).strip()
 
 
@@ -115,14 +146,14 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
         
         chapter_id = chapter_row[0] if chapter_row else None
 
-        # Semantic Intelligence analyses the SAME units the extraction
-        # hierarchy defines. Chapter -> Topics -> Concepts already decided what
-        # this chapter teaches; slicing against chapter_master.key_concepts
-        # instead would let the semantic layer invent a second, differently
-        # worded vocabulary for the same chapter, and nothing downstream could
-        # join the two. key_concepts stays as the fallback for a chapter whose
-        # Topic and Concept queues have not run yet.
-        key_concepts = _hierarchy_outline(db, extraction_id)
+        # Chapter -> Topics -> Concepts already decided what this chapter
+        # teaches; slicing against chapter_master.key_concepts instead would let
+        # the semantic layer invent a second, differently worded vocabulary for
+        # the same chapter, and nothing downstream could join the two.
+        # key_concepts stays as the fallback for a chapter whose Topic and
+        # Concept queues have not run yet.
+        topic_plan = _topic_plan(db, extraction_id)
+        key_concepts = _outline_text(topic_plan)
         if not key_concepts:
             key_concepts = chapter_row[1] if chapter_row and chapter_row[1] else "No predefined key concepts."
         
@@ -158,7 +189,8 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
         key_concepts=key_concepts,
         official_outcomes=official_outcomes_str,
         subject_name=subject,
-        class_level=class_level
+        class_level=class_level,
+        topic_plan=topic_plan
     )
     
     # We now track tokens accurately through the swarm and pipeline!
@@ -257,11 +289,22 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
         if not (c.get("knowledge_items") or c.get("abilities") or c.get("learning_outcomes"))
     )
     quality_flag = "good" if not hollow else f"partial ({hollow}/{len(concepts_list)} concepts empty)"
+    attempted = assembled_json.get("concepts_attempted", len(concepts_list))
     # A run stopped by the spend ceiling is genuine data, but incomplete - say so
     # rather than letting it look like the chapter only had this many concepts.
     if assembled_json.get("budget_exceeded"):
-        attempted = assembled_json.get("concepts_attempted", len(concepts_list))
         quality_flag = f"budget_capped ({len(concepts_list)}/{attempted} concepts)"
+    # Same for a run the provider cut short. This IS worth saving: the concepts
+    # below were paid for, and discarding them was what turned a mid-run
+    # "insufficient balance" into a chapter that cost money and produced
+    # nothing. The row stays re-runnable via force=true.
+    if assembled_json.get("aborted"):
+        quality_flag = f"aborted ({len(concepts_list)}/{attempted} concepts, provider unavailable)"
+        logger.warning(
+            "Semantic intelligence for extraction %s was cut short after %s/%s concepts: %s. "
+            "Saving what was generated; re-run with force=true once the provider is usable.",
+            extraction_id, len(concepts_list), attempted, assembled_json.get("abort_reason"),
+        )
     
     # 4. Insert or update in semantic_intelligence table.
     #    The swarm above runs for minutes, so pooled connections have gone

@@ -72,6 +72,12 @@ def _slices_from_topics(raw_markdown: str, topic_plan: List[dict]) -> List[dict]
                 "title": topic["topic_name"] + (f" (part {number}/{len(batches)})" if len(batches) > 1 else ""),
                 "content": content,
                 "concepts": batch,
+                # Carried so each concept's intelligence can be stamped with the
+                # topic it came from. Without it the Chapter -> Topic -> Concept
+                # link survives only as concept-name string identity, which is
+                # exactly what breaks the moment a name is reworded.
+                "topic_id": topic.get("topic_id"),
+                "topic_name": topic["topic_name"],
             })
     return slices
 
@@ -202,6 +208,13 @@ async def generate_chapter_intelligence(chapter_name: str, raw_markdown: str, ke
                     subject_name=subject_name,
                     class_level=class_level
                 )
+
+                # Stamp every concept with the topic that produced it, so the
+                # hierarchy is recorded rather than re-derived by name matching
+                # downstream. The slicer fallback has no topic, and leaves None.
+                for concept_object in concept_objects:
+                    concept_object["topic_id"] = slice_data.get("topic_id")
+                    concept_object["topic_name"] = slice_data.get("topic_name") or title
 
                 spent["tokens"] += t_in + t_out
                 if budget and spent["tokens"] > budget:

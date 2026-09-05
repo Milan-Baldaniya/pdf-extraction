@@ -140,11 +140,17 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
         
         # 2. Find matching chapter_id from chapter_master to get key_concepts
         chapter_row = db.execute(
-            text("SELECT id, key_concepts FROM chapter_master WHERE extraction_id = :id"),
+            text("SELECT id, key_concepts, sub_institute_id FROM chapter_master WHERE extraction_id = :id"),
             {"id": extraction_id}
         ).fetchone()
-        
+
         chapter_id = chapter_row[0] if chapter_row else None
+        # The tenant comes from the chapter, exactly as it does for topic_master
+        # and lms_concept. It used to be hardcoded to 341, which wrote the
+        # semantic row into a different tenant from its own chapter whenever the
+        # chapter belonged to anyone else -- and the ERP scopes by
+        # sub_institute_id, so those rows existed but were never listed.
+        sub_institute_id = (chapter_row[2] if chapter_row else None) or row.get("sub_institute_id") or 341
 
         # Chapter -> Topics -> Concepts already decided what this chapter
         # teaches; slicing against chapter_master.key_concepts instead would let
@@ -223,9 +229,14 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
     for concept_wrapper in concepts_list:
         concept_meta = concept_wrapper.get("concept", {})
         concept_name = concept_meta.get("concept_name", "Unknown Concept")
-        
+        # Set by the pipeline from the slice this concept was extracted from.
+        # These 13 columns are flattened lists that lose the concept nesting, so
+        # without the tag an item cannot be traced back past its concept name.
+        topic_id = concept_wrapper.get("topic_id")
+        topic_name = concept_wrapper.get("topic_name")
+
         def inject_meta(items, parent_key="concept_name"):
-            """Tag each item with its parent concept name.
+            """Tag each item with its parent concept, and the topic above it.
             Use parent_key to control which field gets the parent concept name.
             For prerequisites, we use '_parent_concept' to avoid overwriting
             the prerequisite's own 'concept_name' field."""
@@ -233,6 +244,9 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
             for item in items:
                 if isinstance(item, dict):
                     item[parent_key] = concept_name
+                    if topic_id is not None:
+                        item["topic_id"] = topic_id
+                        item["topic_name"] = topic_name
             return items
 
         agg_knowledge.extend(inject_meta(concept_wrapper.get("knowledge_items", [])))
@@ -254,6 +268,9 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
         rubric_block = concept_wrapper.get("assessment_rubrics")
         if isinstance(rubric_block, dict) and rubric_block.get("items"):
             rubric_block["concept_name"] = concept_name
+            if topic_id is not None:
+                rubric_block["topic_id"] = topic_id
+                rubric_block["topic_name"] = topic_name
             agg_rubrics.append(rubric_block)
 
 
@@ -321,6 +338,7 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
         
                 params = {
                     "ext_id": extraction_id,
+                    "inst_id": sub_institute_id,
                     "std_id": standard_id,
                     "sub_id": subject_id,
                     "ch_id": chapter_id,
@@ -363,7 +381,7 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
                             pedagogy=:pedagogy, learning_objectives=:learning_objectives,
                             learning_outcomes=:learning_outcomes, assessment_blueprint=:assessment_blueprint,
                             assessment_rubrics=:assessment_rubrics,
-                            sub_institute_id=341, updated_at=CURRENT_TIMESTAMP
+                            sub_institute_id=:inst_id, updated_at=CURRENT_TIMESTAMP
                         WHERE id=:id
                     """), {**params, "id": existing[0]})
                     action = "updated"
@@ -377,7 +395,7 @@ async def process_semantic_chapter_by_id(extraction_id: int, force: bool = False
                          real_world_applications, pedagogy, learning_objectives, learning_outcomes, assessment_blueprint,
                          assessment_rubrics)
                         VALUES
-                        (:ext_id, 341, :std_id, :sub_id, :ch_id, :sub_name, :std, :ch_num,
+                        (:ext_id, :inst_id, :std_id, :sub_id, :ch_id, :sub_name, :std, :ch_num,
                          :lo, :topics, :full_json, :model, :in_tok, :out_tok, :qf,
                          :knowledge, :ability, :skill, :competency, :blooms_level, :dok, :prerequisites, :misconceptions,
                          :real_world_applications, :pedagogy, :learning_objectives, :learning_outcomes, :assessment_blueprint,

@@ -53,6 +53,10 @@ from app.services.curriculum_service import process_curriculum_by_id, get_all_cu
 from app.services.chapter_service import process_chapter_by_id, get_chapter_data_by_extraction_id, get_all_chapters
 from app.services.topic_service import process_topics_by_id, get_topic_data_by_extraction_id, get_all_topics_queue
 from app.services.concept_service import process_concepts_by_id, get_concept_data_by_extraction_id, get_all_concepts_queue
+from app.services.question_service import (
+    generate_questions_by_extraction,
+    get_questions_by_extraction,
+)
 from app.services.validation_service import validate_extraction
 from app.services import tab_label_service as tab_labels
 from app.semantic_intelligence.deepseek_client import DeepSeekUnavailableError
@@ -859,6 +863,50 @@ def get_concept_result(extraction_id: int) -> dict[str, Any]:
         logger.exception("Failed to fetch concept result")
         raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}")
 
+
+@router.post(
+    "/questions/{extraction_id}/generate",
+    tags=["Question Generation"],
+    summary="Generate concept-wise questions for a chapter from its Semantic Intelligence",
+)
+async def generate_questions(
+    extraction_id: int,
+    total: int = 100,
+    created_by: int = 0,
+    replace: bool = False,
+) -> dict[str, Any]:
+    """Runs for minutes; prefer POST /api/jobs/questions/{id}/generate for the queued form."""
+    try:
+        return await generate_questions_by_extraction(
+            extraction_id, total=total, created_by=created_by, replace=replace
+        )
+    except DeepSeekUnavailableError as exc:
+        raise HTTPException(status_code=503, detail=str(exc))
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    except Exception as exc:
+        logger.exception("Failed to generate questions")
+        raise HTTPException(status_code=500, detail=f"Generation failed: {exc}")
+
+
+@router.get(
+    "/questions/{extraction_id}/result",
+    tags=["Question Generation"],
+    summary="Fetch the generated questions for an extraction, grouped by topic",
+)
+def get_question_result(extraction_id: int) -> dict[str, Any]:
+    try:
+        data = get_questions_by_extraction(extraction_id)
+        if not data:
+            raise HTTPException(status_code=404, detail="Question data not found")
+        return data
+    except HTTPException:
+        raise
+    except Exception as exc:
+        logger.exception("Failed to fetch question result")
+        raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}")
+
+
 @router.get(
     "/semantic-intelligence",
     tags=["Semantic Intelligence"],
@@ -929,7 +977,30 @@ async def queue_concept_processing(extraction_id: int, force: bool = False) -> d
     """Background form of ``/concepts/{id}/process``. See /api/status/{job_id}."""
     job_id = submit_job(
         f"Concept processing for extraction {extraction_id}",
-        lambda: asyncio.to_thread(process_concept_by_id, extraction_id, force),
+        lambda: process_concepts_by_id(extraction_id, force),
+        semaphore=llm_semaphore(),
+    )
+    return _accepted(job_id)
+
+
+@router.post(
+    "/jobs/questions/{extraction_id}/generate",
+    status_code=202,
+    tags=["Jobs"],
+    summary="Queue question generation and return a job id",
+)
+async def queue_question_generation(
+    extraction_id: int,
+    total: int = 100,
+    created_by: int = 0,
+    replace: bool = False,
+) -> dict[str, Any]:
+    """Background form of ``/questions/{id}/generate``. See /api/status/{job_id}."""
+    job_id = submit_job(
+        f"Question generation for extraction {extraction_id}",
+        lambda: generate_questions_by_extraction(
+            extraction_id, total=total, created_by=created_by, replace=replace
+        ),
         semaphore=llm_semaphore(),
     )
     return _accepted(job_id)

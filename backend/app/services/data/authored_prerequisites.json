@@ -1,0 +1,304 @@
+{
+  "_README": [
+    "Hand-authored prerequisite assessment items, keyed extraction_id -> concept_id -> [item].",
+    "",
+    "Agent 4 cannot write these. Its prompt binds every item it produces to 'answerable from",
+    "the supplied source text alone', and a prerequisite is by definition knowledge from an",
+    "earlier chapter or grade, which is not in that text. So the two prerequisite categories",
+    "are the only ones question_service has to source from outside the rubrics.",
+    "",
+    "An entry here pre-empts the LLM call for that concept: _generate_prereq is only asked for",
+    "the entries nothing was authored for. Each item is parsed by _build_prereq_row, which",
+    "rejects anything that is not exactly four options with exactly one correct.",
+    "",
+    "Items are pitched at the EARLIER grade's knowledge, not at the chapter being taught.",
+    "Kept ASCII on purpose so the text survives every charset on the path into the ERP."
+  ],
+  "44": {
+    "7184": [
+      {
+        "question": "Rohan notices that a puddle of water on the school ground has disappeared by the afternoon on a sunny day. Which of these questions about the puddle can he actually investigate by observing and measuring?",
+        "prerequisite_tested": "Curiosity about natural phenomena",
+        "bloom_level": "Understand",
+        "difficulty": "Easy",
+        "dok_level": 2,
+        "estimated_time_seconds": 50,
+        "hint_text": "A question can be investigated only if you can collect observations or measurements that answer it.",
+        "explanation": "Comparing drying on a sunny day with drying on a cloudy day can be answered by observing and timing two puddles. The other three ask for an opinion or for a fact about people, so no measurement can settle them.",
+        "remediation": "Practise sorting everyday questions into 'can be tested by observing or measuring' and 'cannot', using examples from the school ground.",
+        "options": [
+          {"label": "A", "text": "Does the puddle dry faster on a sunny day than on a cloudy day?", "is_correct": true, "rationale": "Both conditions can be observed and timed, so observations decide the answer."},
+          {"label": "B", "text": "Is it wrong for students to step into a puddle on the school ground?", "is_correct": false, "rationale": "This asks for a judgement about behaviour, which no measurement can settle."},
+          {"label": "C", "text": "Which student was the first to notice the puddle this morning?", "is_correct": false, "rationale": "This is a fact about people on one day, not a pattern in nature that can be investigated."},
+          {"label": "D", "text": "Should the school spend money on building a better ground?", "is_correct": false, "rationale": "This is a matter of opinion and cost, not something observing the puddle can answer."}
+        ]
+      }
+    ],
+    "7185": [
+      {
+        "question": "A sample of milk is being checked in the school laboratory. Which one of these observations is made using a sense organ alone, without any instrument?",
+        "prerequisite_tested": "Five senses and everyday perception",
+        "bloom_level": "Remember",
+        "difficulty": "Easy",
+        "dok_level": 1,
+        "estimated_time_seconds": 40,
+        "hint_text": "Ask yourself which of these you could report without picking up any apparatus.",
+        "explanation": "Smell is detected directly by the nose. A temperature in degrees, a mass in grams and a pH value each need an instrument: a thermometer, a balance, and indicator paper or a pH meter.",
+        "remediation": "List everyday observations in two columns: those made with the five senses, and those that need an instrument to give a number.",
+        "options": [
+          {"label": "A", "text": "The milk has a sour smell.", "is_correct": true, "rationale": "Smell is detected directly by the nose, with no apparatus."},
+          {"label": "B", "text": "The milk is at a temperature of 28 degrees Celsius.", "is_correct": false, "rationale": "A reading in degrees can only come from a thermometer."},
+          {"label": "C", "text": "The milk sample has a mass of 250 grams.", "is_correct": false, "rationale": "A mass in grams needs a balance; the hand can only judge heavier or lighter."},
+          {"label": "D", "text": "The milk has a pH value of 6.5.", "is_correct": false, "rationale": "A pH value needs indicator paper or a pH meter, not a sense organ."}
+        ]
+      }
+    ],
+    "7186": [
+      {
+        "question": "A class wants to find out whether plants grow taller in sunlight. Which question is framed well enough to be answered by an experiment?",
+        "prerequisite_tested": "Framing questions for inquiry",
+        "bloom_level": "Understand",
+        "difficulty": "Easy",
+        "dok_level": 2,
+        "estimated_time_seconds": 55,
+        "hint_text": "A testable question says what will be compared, what will be measured, and over what period.",
+        "explanation": "The first question names what is compared (sunlight against darkness), what is measured (the height of bean seedlings) and for how long (two weeks), so an experiment can be set up. The others are too broad or ask for an opinion.",
+        "remediation": "Take a vague question such as 'do plants like sunlight?' and rewrite it naming what you will change, what you will measure and for how long.",
+        "options": [
+          {"label": "A", "text": "Do bean seedlings grow taller in sunlight than in the dark over two weeks?", "is_correct": true, "rationale": "It names the comparison, the measurement and the time, so it can be set up as an experiment."},
+          {"label": "B", "text": "Why is sunlight so important for the whole world?", "is_correct": false, "rationale": "Far too broad; no single classroom experiment could answer it."},
+          {"label": "C", "text": "Are plants better than animals?", "is_correct": false, "rationale": "'Better' is not defined, so there is nothing to measure."},
+          {"label": "D", "text": "Do all living things need sunlight to be happy?", "is_correct": false, "rationale": "'Happy' cannot be measured, and 'all living things' cannot be tested in one experiment."}
+        ]
+      }
+    ],
+    "7187": [
+      {
+        "question": "Four students describe the same burning candle. Which statement is an observation rather than an explanation?",
+        "prerequisite_tested": "Scientific observation",
+        "bloom_level": "Understand",
+        "difficulty": "Medium",
+        "dok_level": 2,
+        "estimated_time_seconds": 55,
+        "hint_text": "An observation reports what your senses actually record. An explanation gives a reason for it.",
+        "explanation": "Seeing solid wax turn into a clear liquid is recorded directly by the eye. The other three give reasons (a fuel, a chemical reaction, oxygen running out), which go beyond what is seen.",
+        "remediation": "For any demonstration, write one sentence beginning 'I see...' and a second beginning 'This happens because...', and name which of them is the observation.",
+        "options": [
+          {"label": "A", "text": "The wax near the flame turns into a clear liquid.", "is_correct": true, "rationale": "This is recorded directly by the eye, with no reason attached."},
+          {"label": "B", "text": "The candle burns because wax is a fuel.", "is_correct": false, "rationale": "The word 'because' signals a reason, so this is an explanation."},
+          {"label": "C", "text": "The flame is hot because a chemical reaction is taking place.", "is_correct": false, "rationale": "The heat can be felt, but the reason given for it is an explanation."},
+          {"label": "D", "text": "The candle will go out once the oxygen around it finishes.", "is_correct": false, "rationale": "This is a prediction resting on a reason, not something being observed now."}
+        ]
+      }
+    ],
+    "7188": [
+      {
+        "question": "A globe is used in a geography class to teach about the Earth. Which statement about the globe is correct?",
+        "prerequisite_tested": "Models as simplified representations",
+        "bloom_level": "Understand",
+        "difficulty": "Easy",
+        "dok_level": 2,
+        "estimated_time_seconds": 50,
+        "hint_text": "Think about what a globe shows well, and what it leaves out on purpose.",
+        "explanation": "A globe keeps the shape of the Earth and the positions of the continents, which is what the lesson needs, and leaves out every hill and river. Leaving those out is a deliberate choice, not a fault.",
+        "remediation": "Compare a globe, a road map and a photograph of the same region, and list what each one keeps and what each one leaves out.",
+        "options": [
+          {"label": "A", "text": "It shows the shape of the Earth and the positions of the continents, but not every hill and river.", "is_correct": true, "rationale": "It keeps what the lesson needs and leaves the rest out on purpose."},
+          {"label": "B", "text": "It shows every detail of the Earth exactly as it is.", "is_correct": false, "rationale": "No globe can carry every detail; a great deal is left out."},
+          {"label": "C", "text": "It should not be used, because the real Earth is very much larger.", "is_correct": false, "rationale": "A difference in size does not make a representation useless."},
+          {"label": "D", "text": "It can be used only by someone who has already visited the places it shows.", "is_correct": false, "rationale": "A globe is useful precisely for places one has never visited."}
+        ]
+      }
+    ],
+    "7189": [
+      {
+        "question": "To work out how long a train takes to travel from Delhi to Agra, a student treats the whole train as a single moving point. Why is this reasonable?",
+        "prerequisite_tested": "Deliberate ignoring of details",
+        "bloom_level": "Apply",
+        "difficulty": "Medium",
+        "dok_level": 2,
+        "estimated_time_seconds": 60,
+        "hint_text": "Compare the length of the train with the distance it has to cover.",
+        "explanation": "A train a few hundred metres long is tiny beside a journey of about 200 km, so its length changes the answer very little and can be left out for this question. It could not be left out when asking how long the train takes to cross a platform.",
+        "remediation": "Work out what fraction of a 200 km journey a 400 m train is, then decide whether that fraction would change your answer.",
+        "options": [
+          {"label": "A", "text": "The length of the train is very small compared with the distance it travels.", "is_correct": true, "rationale": "A few hundred metres is negligible beside about 200 km, so leaving it out barely changes the answer."},
+          {"label": "B", "text": "Trains take the shape of a point whenever they move quickly.", "is_correct": false, "rationale": "Nothing about the train changes; only what the student chooses to include changes."},
+          {"label": "C", "text": "The number of coaches is not known, so it has to be ignored.", "is_correct": false, "rationale": "The detail is left out because it does not matter here, not because it is unknown."},
+          {"label": "D", "text": "A journey can be calculated only if the moving object is drawn as a point.", "is_correct": false, "rationale": "Journeys can be calculated for objects of any size; the simplification is a choice."}
+        ]
+      }
+    ],
+    "7190": [
+      {
+        "question": "A student wants to find out how long a stone takes to fall from the terrace of a building to the ground. Which detail matters most for answering this question?",
+        "prerequisite_tested": "Question decides relevant details",
+        "bloom_level": "Understand",
+        "difficulty": "Easy",
+        "dok_level": 2,
+        "estimated_time_seconds": 45,
+        "hint_text": "Ask of each detail: if this were different, would my answer change?",
+        "explanation": "Change the height and the falling time changes with it, so height is the detail that matters. Change the colour of the stone, who dropped it or the hour of the day, and the falling time stays the same.",
+        "remediation": "For a given question, list four details and ask of each one whether a different value would change the answer.",
+        "options": [
+          {"label": "A", "text": "The height of the terrace above the ground.", "is_correct": true, "rationale": "Change the height and the time of fall changes with it."},
+          {"label": "B", "text": "The colour of the stone.", "is_correct": false, "rationale": "A red stone and a grey stone of the same size fall in the same time."},
+          {"label": "C", "text": "The name of the person who dropped the stone.", "is_correct": false, "rationale": "Who released the stone does not change how long it falls."},
+          {"label": "D", "text": "The time of day at which the stone was dropped.", "is_correct": false, "rationale": "A stone dropped at noon and at dusk takes the same time to fall."}
+        ]
+      }
+    ],
+    "7191": [
+      {
+        "question": "In everyday speech we talk about 'the current news', 'the current in a river' and 'an electric current'. What does this show about the word 'current'?",
+        "prerequisite_tested": "Context-dependent meaning of words in language",
+        "bloom_level": "Understand",
+        "difficulty": "Easy",
+        "dok_level": 2,
+        "estimated_time_seconds": 45,
+        "hint_text": "Look at whether the three sentences are talking about the same thing.",
+        "explanation": "All three sentences are correct English, yet each uses 'current' for something different: recent, a flow of water, a flow of charge. The situation in which a word is used decides which meaning is intended.",
+        "remediation": "Take words such as 'force', 'work' and 'cell' and write two everyday sentences for each, showing how the meaning shifts with the situation.",
+        "options": [
+          {"label": "A", "text": "The same word can carry different meanings depending on the situation in which it is used.", "is_correct": true, "rationale": "All three uses are correct English, yet each names something different."},
+          {"label": "B", "text": "Only one of these three uses of the word is correct.", "is_correct": false, "rationale": "All three are ordinary, correct uses of the word."},
+          {"label": "C", "text": "The word has no fixed meaning in any situation at all.", "is_correct": false, "rationale": "Within each situation the meaning is quite definite."},
+          {"label": "D", "text": "The word means exactly the same thing in all three sentences.", "is_correct": false, "rationale": "Recent news, flowing water and flowing charge are clearly not the same thing."}
+        ]
+      }
+    ],
+    "7192": [
+      {
+        "question": "You are asked to measure the mass of a small stone in the school laboratory. Which instrument would you use?",
+        "prerequisite_tested": "Measuring length, mass and time with simple instruments",
+        "bloom_level": "Remember",
+        "difficulty": "Easy",
+        "dok_level": 1,
+        "estimated_time_seconds": 35,
+        "hint_text": "Match the quantity being measured to the instrument made for it.",
+        "explanation": "Mass is measured with a beam balance. A measuring tape gives length, a stopwatch gives time, and a measuring cylinder gives volume.",
+        "remediation": "Make a table pairing each quantity (length, mass, time, volume) with the instrument used to measure it and the unit it is reported in.",
+        "options": [
+          {"label": "A", "text": "A beam balance", "is_correct": true, "rationale": "A beam balance is the instrument made for measuring mass."},
+          {"label": "B", "text": "A measuring tape", "is_correct": false, "rationale": "A measuring tape gives length, not mass."},
+          {"label": "C", "text": "A stopwatch", "is_correct": false, "rationale": "A stopwatch gives time, not mass."},
+          {"label": "D", "text": "A measuring cylinder", "is_correct": false, "rationale": "A measuring cylinder gives volume, not mass."}
+        ]
+      }
+    ],
+    "7193": [
+      {
+        "question": "Two students measure the same table using their own handspans. One reports 9 handspans and the other reports 11 handspans. What does this show?",
+        "prerequisite_tested": "Measurement using local and non-standard units such as handspan and cubit",
+        "bloom_level": "Understand",
+        "difficulty": "Easy",
+        "dok_level": 2,
+        "estimated_time_seconds": 50,
+        "hint_text": "Both students measured carefully. What is different between the two of them?",
+        "explanation": "A handspan is not the same width for every person, so the same table gives different numbers. Measurements can only be compared when everyone uses a unit of the same fixed size.",
+        "remediation": "Measure one desk with your handspan and with a metre scale, then compare both of your results with a classmate's.",
+        "options": [
+          {"label": "A", "text": "A handspan is not the same size for everyone, so the two results cannot be compared.", "is_correct": true, "rationale": "The unit itself differs between the two students, so the numbers differ."},
+          {"label": "B", "text": "One of the two students must have measured carelessly.", "is_correct": false, "rationale": "Both can measure carefully and still disagree, because their units differ."},
+          {"label": "C", "text": "The table changes its length between the two measurements.", "is_correct": false, "rationale": "The table is unchanged; only the unit used is different."},
+          {"label": "D", "text": "A handspan may be used only for measuring very short lengths.", "is_correct": false, "rationale": "The problem is not the length being measured but that the unit is not fixed."}
+        ]
+      }
+    ],
+    "7194": [
+      {
+        "question": "The speed of light in vacuum is about 3 x 10^8 metres per second. Which statement about this value is correct?",
+        "prerequisite_tested": "The concept of a physical constant such as the speed of light",
+        "bloom_level": "Understand",
+        "difficulty": "Medium",
+        "dok_level": 2,
+        "estimated_time_seconds": 55,
+        "hint_text": "A constant of nature is a value that measurement gives the same answer for, wherever and whenever it is measured.",
+        "explanation": "Every measurement of the speed of light in vacuum gives the same value, anywhere in the world and with any source, which is why it is treated as a constant of nature. It is measured, not voted on, and a brighter lamp does not change it.",
+        "remediation": "List two quantities that stay fixed for everyone, such as the speed of light in vacuum, and two that vary, such as the speed of a bus.",
+        "options": [
+          {"label": "A", "text": "It is the same everywhere in vacuum, which is why it is treated as a constant of nature.", "is_correct": true, "rationale": "Measurements taken anywhere in vacuum give the same value."},
+          {"label": "B", "text": "It has a different value in each country.", "is_correct": false, "rationale": "Measurements in different countries agree; only the unit used to report it could differ."},
+          {"label": "C", "text": "It is fixed by an international committee and could be changed by a vote.", "is_correct": false, "rationale": "The value comes from measuring nature, not from an agreement."},
+          {"label": "D", "text": "It becomes larger when a brighter source of light is used.", "is_correct": false, "rationale": "Brightness changes how much light there is, not how fast it travels."}
+        ]
+      }
+    ],
+    "7195": [
+      {
+        "question": "A car travels at a steady speed of 60 km/h, so the distance it covers is given by d = 60 x t, where t is the time in hours. In this relation, which quantity stays fixed however long the car travels?",
+        "prerequisite_tested": "Variables and constants in simple algebra",
+        "bloom_level": "Understand",
+        "difficulty": "Easy",
+        "dok_level": 2,
+        "estimated_time_seconds": 50,
+        "hint_text": "A variable takes different values in different cases; a constant keeps the same value throughout.",
+        "explanation": "The number 60 is the steady speed and does not change. Both t and d change together, since a longer time gives a greater distance, so both of those are variables.",
+        "remediation": "For relations such as cost = 40 x number of pens, name the constant and the two variables in each.",
+        "options": [
+          {"label": "A", "text": "60", "is_correct": true, "rationale": "It is the steady speed, the same for every value of t."},
+          {"label": "B", "text": "d", "is_correct": false, "rationale": "The distance grows as the journey continues, so it is a variable."},
+          {"label": "C", "text": "t", "is_correct": false, "rationale": "The time is exactly what is being varied."},
+          {"label": "D", "text": "Both d and t", "is_correct": false, "rationale": "These are the two quantities that change; neither of them is fixed."}
+        ]
+      }
+    ],
+    "7196": [
+      {
+        "question": "A student measures the time taken by a pendulum to complete 20 swings, and repeats the measurement five times. Why is the measurement repeated?",
+        "prerequisite_tested": "Scientific observation",
+        "bloom_level": "Understand",
+        "difficulty": "Medium",
+        "dok_level": 2,
+        "estimated_time_seconds": 55,
+        "hint_text": "Think about what can go wrong in a single reading taken by hand with a stopwatch.",
+        "explanation": "A single reading can be thrown off by starting or stopping the stopwatch slightly late. Repeating shows whether the readings agree with one another, and averaging them reduces the effect of such errors.",
+        "remediation": "Time 20 swings of a pendulum five times, write down all five readings, and find their average and their spread.",
+        "options": [
+          {"label": "A", "text": "To reduce the effect of error in any single reading and to check that the readings agree with one another.", "is_correct": true, "rationale": "Repeating exposes stray readings, and averaging reduces their effect."},
+          {"label": "B", "text": "Because a pendulum swings differently on different days.", "is_correct": false, "rationale": "The same pendulum keeps the same period; the variation is in the timing by hand."},
+          {"label": "C", "text": "Because taking only one reading is never permitted in science.", "is_correct": false, "rationale": "There is no such rule; repetition is done for a reason, not by decree."},
+          {"label": "D", "text": "To make the pendulum swing more regularly.", "is_correct": false, "rationale": "Measuring the pendulum does not alter how it swings."}
+        ]
+      }
+    ],
+    "7197": [
+      {
+        "question": "Which of these statements describes a pattern that has been observed to repeat, rather than an explanation of why it happens?",
+        "prerequisite_tested": "Law describes repeated pattern",
+        "bloom_level": "Analyze",
+        "difficulty": "Medium",
+        "dok_level": 2,
+        "estimated_time_seconds": 60,
+        "hint_text": "A pattern says what happens every time. An explanation says why it happens.",
+        "explanation": "That an object released near the Earth falls downwards every time is a pattern anyone can observe repeatedly. The other three each offer a cause (a pull, a bending of space, a push of air), and so are explanations, whether correct or not.",
+        "remediation": "For a familiar event such as ice melting, write one sentence stating the repeated pattern and a second stating a possible reason for it.",
+        "options": [
+          {"label": "A", "text": "An object released near the surface of the Earth falls downwards every time.", "is_correct": true, "rationale": "It states what is observed to happen repeatedly, without giving any cause."},
+          {"label": "B", "text": "Objects fall because the Earth pulls them with a force.", "is_correct": false, "rationale": "This gives a cause, so it is an explanation."},
+          {"label": "C", "text": "Gravity exists because mass bends the space around it.", "is_correct": false, "rationale": "This is a deeper explanation still, not a record of what is observed."},
+          {"label": "D", "text": "Objects fall because the air above them pushes them downwards.", "is_correct": false, "rationale": "This offers a cause, and an incorrect one; either way it is an explanation."}
+        ]
+      }
+    ],
+    "7198": [
+      {
+        "question": "A girl walks up a staircase to the first floor of her school. Which energy change mainly takes place as she climbs?",
+        "prerequisite_tested": "Forms and transformation of energy",
+        "bloom_level": "Understand",
+        "difficulty": "Medium",
+        "dok_level": 2,
+        "estimated_time_seconds": 50,
+        "hint_text": "Where does the energy come from, and what has changed about the girl once she is higher up?",
+        "explanation": "The energy comes from food stored chemically in her muscles, and as she rises her potential energy increases. Energy is transformed from one form into another; it is never created.",
+        "remediation": "Trace the energy changes in two everyday actions, such as a cyclist pedalling uphill and a ball rolling down a slope.",
+        "options": [
+          {"label": "A", "text": "Chemical energy stored in her muscles changes mainly into potential energy.", "is_correct": true, "rationale": "Food energy stored chemically is used to raise her, increasing her potential energy."},
+          {"label": "B", "text": "Potential energy changes into chemical energy.", "is_correct": false, "rationale": "This reverses the direction; her potential energy increases as she climbs."},
+          {"label": "C", "text": "Sound energy changes into potential energy.", "is_correct": false, "rationale": "The sound of footsteps is a small loss, not the source of the energy."},
+          {"label": "D", "text": "New energy is created as she climbs the stairs.", "is_correct": false, "rationale": "Energy is transformed from one form to another; it is never created."}
+        ]
+      }
+    ]
+  }
+}

@@ -3,8 +3,28 @@ import json
 from sqlalchemy import text
 from app.db.mariadb import SessionLocal
 from app.semantic_intelligence.deepseek_client import call_deepseek
+from app.services.chapter_period_service import (
+    store_llm_chapter_periods,
+    sync_chapter_periods_for_curriculum,
+)
 
 logger = logging.getLogger(__name__)
+
+
+def _sync_periods(curriculum_id, db):
+    """Push unit period allocations onto chapter_master; never fail Process."""
+    if not curriculum_id:
+        return {}
+    try:
+        return sync_chapter_periods_for_curriculum(curriculum_id, db=db)
+    except Exception as exc:
+        logger.warning("Chapter period sync failed for curriculum %s: %s", curriculum_id, exc)
+        return {"status": "failed", "error": str(exc)}
+
+
+def _period_stats(result):
+    """Counts only -- the per-chapter rows travel in extracted_data instead."""
+    return {k: v for k, v in (result or {}).items() if k != "assignments"}
 
 def process_curriculum_by_id(extraction_id: int, force: bool = False):
     """Process a curriculum extraction and insert to lms_curriculum and lms_units."""
@@ -20,11 +40,15 @@ def process_curriculum_by_id(extraction_id: int, force: bool = False):
         # Check if already processed and skip to save tokens
         existing = db.execute(text("SELECT id FROM lms_curriculum WHERE extraction_id = :id"), {"id": extraction_id}).fetchone()
         if existing and not force:
+            # The extraction is reused, but the chapter period mapping still
+            # runs: it costs no tokens and chapters extracted since the last
+            # Process would otherwise never pick up their allocation.
             return {
                 "status": "already_processed",
                 "action": "skipped",
                 "curriculum_id": existing[0],
                 "message": "Curriculum already processed. Skipped to save LLM tokens.",
+                "chapter_periods": _period_stats(_sync_periods(existing[0], db)),
                 "curriculum_data": get_curriculum_data_by_extraction_id(extraction_id)
             }
 
@@ -44,6 +68,11 @@ Rules:
      - "planned_periods": integer representing periods or hours allocated. Extract just the number. Set to null if not found.
      - "total_marks": integer marks allocated to this unit (e.g. 25). Set to null if not found.
      - "unit_chapters": A list of strings containing the names of all the chapters/sub-topics/outlines belonging to this unit in their original language. CRITICAL: If traditional chapters are not listed, look for 'Examples' or specific vocations/topics under the theme (e.g., 'Rooftop Gardening', 'Precision Farming', 'Construction', 'Apparel') and extract them as chapters. Return empty list if no chapters/topics/examples are found.
+- "chapter_periods": A list of every CHAPTER that has its own period/hour allocation stated anywhere in the document, separate from the unit totals above. Many syllabi state these per chapter (e.g. a heading or row reading "Tissues No. of Periods: 13", "Motion - 13 periods", "Cell (12 Hours)").
+   For each:
+     - "chapter_name": the chapter's name exactly as written, in its original language (string)
+     - "no_of_periods": the number of periods/hours allocated to THAT chapter (integer)
+   Only include a chapter when the document states a number for the chapter itself. Do NOT copy a unit's total onto its chapters, do NOT divide or estimate, and return an empty list if the document only allocates time per unit.
 - "curricular_goals": A list of Curricular Goals or Objectives (e.g., उद्देश्यानि, शिक्षणोद्देश्यानि, CG-1, CG-2) found in the text. Retain descriptions in the original language. If no explicit goals are found, try to extract general objectives mentioned in the introductory text.
    For each goal:
      - "code": The code of the goal, e.g. "CG 1" or "CG-1" (string). Generate a code like "CG-1" if missing.
@@ -68,6 +97,12 @@ Return exactly a valid JSON object matching this schema:
       "planned_periods": int,
       "total_marks": int,
       "unit_chapters": [str]
+    }}
+  ],
+  "chapter_periods": [
+    {{
+      "chapter_name": str,
+      "no_of_periods": int
     }}
   ],
   "curricular_goals": [
@@ -269,9 +304,24 @@ Return exactly a valid JSON object matching this schema:
         # Overwrite the LLM data with the standardized DB response for the frontend
         data["learning_outcomes"] = [dict(o) for o in outcomes]
 
+        # Step 5: Keep any per-chapter period counts the LLM found, then fill
+        # chapter_master.no_of_periods. The sync re-reads the document's own
+        # headings first and only falls back to these.
+        try:
+            store_llm_chapter_periods(db, curriculum_id, data.get("chapter_periods"))
+        except Exception as exc:
+            logger.warning("Could not store LLM chapter periods for %s: %s", curriculum_id, exc)
+            db.rollback()
+
+        chapter_periods = _sync_periods(curriculum_id, db)
+        # Mirrored into extracted_data so the frontend renders the mapping the
+        # same way whether it just processed or is only viewing.
+        data["chapter_periods"] = chapter_periods.get("assignments", [])
+
         return {
             "status": "success",
             "curriculum_id": curriculum_id,
+            "chapter_periods": _period_stats(chapter_periods),
             "extracted_data": data
         }
 
@@ -296,7 +346,24 @@ def get_curriculum_data_by_extraction_id(extraction_id: int):
         units = db.execute(text("SELECT * FROM lms_units WHERE curriculum_id = :cid ORDER BY unit_number ASC"), {"cid": curr["id"]}).mappings().fetchall()
         
         outcomes = db.execute(text("SELECT * FROM lms_learning_outcomes WHERE curriculum_id = :cid ORDER BY id ASC"), {"cid": curr["id"]}).mappings().fetchall()
-        
+
+        # Chapter-wise periods this curriculum produced, straight from chapter_master.
+        try:
+            chapter_periods = [dict(r) for r in db.execute(text("""
+                SELECT cm.id AS chapter_master_id, cm.chapter_name, cm.no_of_periods,
+                       u.id AS unit_id, u.unit_number, u.name AS unit_name,
+                       u.planned_periods AS unit_planned_periods
+                FROM chapter_master cm
+                JOIN lms_units u ON u.id = cm.unit_id
+                WHERE u.curriculum_id = :cid
+                ORDER BY u.unit_number ASC, cm.sort_order IS NULL, cm.sort_order ASC, cm.id ASC
+            """), {"cid": curr["id"]}).mappings().fetchall()]
+        except Exception as exc:
+            # no_of_periods is added on the first Process; a database that has
+            # not run one yet should still return the rest of the curriculum.
+            logger.warning("Could not read chapter periods for curriculum %s: %s", curr["id"], exc)
+            chapter_periods = []
+
         # Format the data to perfectly match what the frontend expects in "extracted_data"
         return {
             "curriculum_id": curr["id"],
@@ -305,6 +372,7 @@ def get_curriculum_data_by_extraction_id(extraction_id: int):
                 "total_marks": curr["total_marks"],
                 "internal_marks": curr["internal_marks"],
                 "units": [dict(u) for u in units],
+                "chapter_periods": chapter_periods,
                 "learning_outcomes": [dict(o) for o in outcomes]
             }
         }

@@ -51,6 +51,7 @@ from app.services.mineru_service import (
 )
 from app.services.curriculum_service import process_curriculum_by_id, get_all_curriculums, get_curriculum_data_by_extraction_id
 from app.services.chapter_service import process_chapter_by_id, get_chapter_data_by_extraction_id, get_all_chapters
+from app.services.chapter_period_service import sync_chapter_periods_for_extraction, sync_all_chapter_periods
 from app.services.topic_service import process_topics_by_id, get_topic_data_by_extraction_id, get_all_topics_queue
 from app.services.concept_service import process_concepts_by_id, get_concept_data_by_extraction_id, get_all_concepts_queue
 from app.services.question_service import (
@@ -689,6 +690,35 @@ def get_curriculum_result(extraction_id: int) -> dict[str, Any]:
     except Exception as exc:
         logger.exception("Failed to fetch curriculum result")
         raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}")
+
+
+@router.post(
+    "/curriculums/{extraction_id}/chapter-periods/sync",
+    tags=["Curriculum Processing"],
+    summary="Recompute chapter_master.no_of_periods from this curriculum's units",
+)
+async def sync_curriculum_chapter_periods(extraction_id: int) -> dict[str, Any]:
+    """Runs on its own what ``/curriculums/{id}/process`` already does at the
+    end. Uses no LLM tokens, so it is the cheap way to refresh the mapping."""
+    try:
+        return await asyncio.to_thread(sync_chapter_periods_for_extraction, extraction_id)
+    except Exception as exc:
+        logger.exception("Failed to sync chapter periods")
+        raise HTTPException(status_code=500, detail=f"Period sync failed: {exc}")
+
+
+@router.post(
+    "/curriculums/chapter-periods/sync-all",
+    tags=["Curriculum Processing"],
+    summary="Backfill chapter_master.no_of_periods for every processed curriculum",
+)
+async def sync_all_curriculum_chapter_periods() -> dict[str, Any]:
+    """One-shot backfill for curricula processed before the column existed."""
+    try:
+        return await asyncio.to_thread(sync_all_chapter_periods)
+    except Exception as exc:
+        logger.exception("Failed to backfill chapter periods")
+        raise HTTPException(status_code=500, detail=f"Period backfill failed: {exc}")
 
 
 @router.get(

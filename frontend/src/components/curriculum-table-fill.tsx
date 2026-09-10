@@ -133,7 +133,14 @@ export function CurriculumTableFill() {
         <tr className="bg-yellow-50/50 dark:bg-yellow-900/10">
           <td colSpan={7} className="p-6 border-b border-black/5 dark:border-white/5">
             <div className="p-4 bg-yellow-50 text-yellow-800 rounded-md border border-yellow-200">
-              This curriculum was already processed and exists in lms_curriculum (ID: {result.curriculum_id}).
+              <div>This curriculum was already processed and exists in lms_curriculum (ID: {result.curriculum_id}).</div>
+              {result.chapter_periods?.chapters_matched > 0 && (
+                <div className="mt-2 text-sm">
+                  Chapter periods refreshed anyway (no tokens used):{" "}
+                  <strong>{result.chapter_periods.chapters_updated}</strong> of{" "}
+                  <strong>{result.chapter_periods.chapters_matched}</strong> mapped chapters updated in chapter_master.
+                </div>
+              )}
             </div>
           </td>
         </tr>
@@ -233,6 +240,64 @@ export function CurriculumTableFill() {
                     )}
                   </tbody>
                 </table>
+              </div>
+
+              <div className="rounded-xl border border-black/10 bg-white/60 dark:bg-black/60 overflow-hidden backdrop-blur-md">
+                <div className="bg-black/5 px-4 py-3 font-semibold text-sm border-b border-black/10 flex items-center justify-between gap-4">
+                  <span>Chapter-wise Periods (chapter_master)</span>
+                  <span className="text-xs font-normal text-muted-foreground/70">
+                    Each unit&apos;s periods split across its chapters
+                  </span>
+                </div>
+                <div className="max-h-[400px] overflow-y-auto">
+                  <table className="min-w-full text-sm">
+                    <thead className="bg-black/5 sticky top-0 backdrop-blur-md">
+                      <tr>
+                        <th className="border-b border-black/5 p-3 text-left font-medium">Chapter</th>
+                        <th className="border-b border-black/5 p-3 text-left font-medium w-56">Unit</th>
+                        <th className="border-b border-black/5 p-3 text-left font-medium w-28">Unit Periods</th>
+                        <th className="border-b border-black/5 p-3 text-left font-medium w-28">Chapter Periods</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {extracted_data?.chapter_periods?.map((c: any) => (
+                        <tr key={c.chapter_master_id} className="hover:bg-white/40 border-b border-black/5 last:border-0 transition-colors">
+                          <td className="p-3 font-medium">{c.chapter_name}</td>
+                          <td className="p-3 text-foreground/70">{c.unit_name}</td>
+                          <td className="p-3 text-foreground/60">{c.unit_planned_periods ?? "-"}</td>
+                          <td className="p-3">
+                            {c.no_of_periods == null ? (
+                              <span className="text-muted-foreground/50 text-xs italic">Not stated in document</span>
+                            ) : (
+                              <span className="inline-flex items-center gap-1.5">
+                                <span className="inline-flex items-center px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20 font-semibold">
+                                  {c.no_of_periods}
+                                </span>
+                                {c.source === "document_chapter" && (
+                                  <span className="text-[10px] text-muted-foreground/70" title="Stated for this chapter in the curriculum document">
+                                    exact
+                                  </span>
+                                )}
+                                {c.source === "unit_split" && (
+                                  <span className="text-[10px] text-muted-foreground/70" title="Unit allocation split across the unit's chapters">
+                                    from unit
+                                  </span>
+                                )}
+                              </span>
+                            )}
+                          </td>
+                        </tr>
+                      ))}
+                      {(!extracted_data?.chapter_periods || extracted_data.chapter_periods.length === 0) && (
+                        <tr>
+                          <td colSpan={4} className="p-4 text-center text-muted-foreground/50">
+                            No chapters mapped to this curriculum&apos;s units yet.
+                          </td>
+                        </tr>
+                      )}
+                    </tbody>
+                  </table>
+                </div>
               </div>
 
               <div className="rounded-xl border border-black/10 bg-white/60 dark:bg-black/60 overflow-hidden backdrop-blur-md">

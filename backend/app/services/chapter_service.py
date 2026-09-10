@@ -4,8 +4,24 @@ from typing import Any, Dict
 from sqlalchemy import text
 from app.db.mariadb import SessionLocal
 from app.semantic_intelligence.deepseek_client import call_deepseek
+from app.services.chapter_period_service import sync_chapter_periods_for_unit
 
 logger = logging.getLogger(__name__)
+
+
+def _sync_periods_for_unit(unit_id, db):
+    """Re-split the unit's periods now that this chapter belongs to it.
+
+    A new chapter changes how many ways its unit's allocation is divided, so
+    the unit's siblings are recomputed too. Never fails chapter processing.
+    """
+    if not unit_id:
+        return None
+    try:
+        return sync_chapter_periods_for_unit(unit_id, db=db)
+    except Exception as exc:
+        logger.warning("Chapter period sync failed for unit %s: %s", unit_id, exc)
+        return {"status": "failed", "error": str(exc)}
 
 CHAPTER_PROMPT = """You are an expert educational content analyst specializing in Indian school curriculum (NCERT and state boards) for standards 1 to 12, across all subjects including Hindi, Gujarati, English, Sanskrit, Mathematics, Science, Social Science, History, Geography, Civics, Biology, Chemistry, Physics, Computer Science, and any other subject.
 
@@ -211,10 +227,11 @@ def process_chapter_by_id(extraction_id: int, force: bool = False) -> Dict[str, 
                 "cm_id": chapter_master_id
             })
             db.commit()
+            _sync_periods_for_unit(unit_id, db)
             return {
-                "status": "success", 
-                "action": "updated", 
-                "chapter_master_id": chapter_master_id, 
+                "status": "success",
+                "action": "updated",
+                "chapter_master_id": chapter_master_id,
                 "unit_id_mapped": unit_id,
                 "key_concepts_extracted": len(key_concepts),
                 "chapter_data": get_chapter_data_by_extraction_id(extraction_id)
@@ -237,10 +254,11 @@ def process_chapter_by_id(extraction_id: int, force: bool = False) -> Dict[str, 
                 "syear": row.get("syear")
             })
             db.commit()
+            _sync_periods_for_unit(unit_id, db)
             return {
-                "status": "success", 
-                "action": "inserted", 
-                "chapter_master_id": res.lastrowid, 
+                "status": "success",
+                "action": "inserted",
+                "chapter_master_id": res.lastrowid,
                 "unit_id_mapped": unit_id,
                 "key_concepts_extracted": len(key_concepts),
                 "chapter_data": get_chapter_data_by_extraction_id(extraction_id)
@@ -275,6 +293,7 @@ def get_chapter_data_by_extraction_id(extraction_id: int):
             "unit_id": chp["unit_id"],
             "unit_name": unit_name,
             "chapter_name": chp["chapter_name"],
+            "no_of_periods": chp.get("no_of_periods"),
             "syear": chp["syear"],
             "key_concepts": concepts
         }

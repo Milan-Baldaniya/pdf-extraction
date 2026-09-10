@@ -169,6 +169,7 @@ export function ChapterTableFill() {
                     <tr>
                       <th className="border-b border-black/5 p-3 text-left font-medium">Mapped Unit</th>
                       <th className="border-b border-black/5 p-3 text-left font-medium">Chapter Name</th>
+                      <th className="border-b border-black/5 p-3 text-left font-medium">No. of Periods</th>
                       <th className="border-b border-black/5 p-3 text-left font-medium">Academic Year</th>
                     </tr>
                   </thead>
@@ -178,6 +179,15 @@ export function ChapterTableFill() {
                         {chapter_data?.unit_name ? `${chapter_data.unit_name} (ID: ${chapter_data.unit_id})` : <span className="text-amber-600">Unmapped (No Match in Units)</span>}
                       </td>
                       <td className="p-3 min-w-[100px] font-semibold">{chapter_data?.chapter_name || "-"}</td>
+                      <td className="p-3 min-w-[100px]">
+                        {chapter_data?.no_of_periods == null ? (
+                          <span className="text-muted-foreground/50 text-xs italic">Not allocated in curriculum</span>
+                        ) : (
+                          <span className="inline-flex items-center px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20 font-semibold">
+                            {chapter_data.no_of_periods}
+                          </span>
+                        )}
+                      </td>
                       <td className="p-3 min-w-[100px]">{chapter_data?.syear || "-"}</td>
                     </tr>
                   </tbody>

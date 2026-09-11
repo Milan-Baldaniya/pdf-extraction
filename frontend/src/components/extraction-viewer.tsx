@@ -5,6 +5,7 @@ import toast from "react-hot-toast";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { ExtractionResponse } from "@/lib/api";
+import { API_BASE } from "@/lib/api-url";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -83,6 +84,16 @@ interface ExtractionPass {
   tables?: number;
   formulas?: number;
   blocks?: number;
+}
+
+interface ExtractedImageAsset {
+  fileName: string;
+  url: string;
+  width?: number;
+  height?: number;
+  pageIndex?: number;
+  readingOrder?: number;
+  ocrText?: string;
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {
@@ -223,10 +234,65 @@ function getSections(value: unknown): Array<Record<string, unknown>> {
 }
 
 function getAssetManifest(value: unknown): Array<Record<string, unknown>> {
-  if (!isRecord(value)) {
-    return [];
+  if (isRecord(value)) {
+    return asArray(value.asset_manifest).filter(isRecord);
   }
-  return asArray(value.asset_manifest).filter(isRecord);
+
+  // Some asset-only API responses return the manifest as the root JSON array.
+  // Do not treat normal layout-block arrays as assets unless they contain an
+  // actual asset URL or file path.
+  return asArray(value)
+    .filter(isRecord)
+    .filter((item) => typeof item.url === "string" || typeof item.relative_path === "string");
+}
+
+function getExtractedImages(
+  manifest: Array<Record<string, unknown>>
+): ExtractedImageAsset[] {
+  return manifest
+    .map((asset) => ({
+      fileName: asString(asset.file_name, asString(asset.relative_path, "Extracted image")),
+      url: resolveExtractedAssetUrl(asString(asset.url)),
+      width: typeof asset.width === "number" ? asset.width : undefined,
+      height: typeof asset.height === "number" ? asset.height : undefined,
+      pageIndex: typeof asset.page_index === "number"
+        ? asset.page_index
+        : typeof asset.page_idx === "number"
+          ? asset.page_idx
+          : undefined,
+      readingOrder: typeof asset.reading_order === "number" ? asset.reading_order : undefined,
+      ocrText: asString(asset.ocr_text),
+    }))
+    .filter((asset) => asset.url)
+    .sort((a, b) =>
+      (a.pageIndex ?? Number.MAX_SAFE_INTEGER) - (b.pageIndex ?? Number.MAX_SAFE_INTEGER) ||
+      (a.readingOrder ?? Number.MAX_SAFE_INTEGER) - (b.readingOrder ?? Number.MAX_SAFE_INTEGER) ||
+      a.fileName.localeCompare(b.fileName)
+    );
+}
+
+/**
+ * Asset manifests from an earlier run may point at the Laravel port. Extracted
+ * files belong to the Python API, so use the frontend's configured API origin
+ * for local `/api/assets/...` URLs while preserving remote asset URLs.
+ */
+function resolveExtractedAssetUrl(url: string): string {
+  if (!url) {
+    return "";
+  }
+
+  try {
+    const parsed = new URL(url);
+    const isLocalHost = parsed.hostname === "127.0.0.1" || parsed.hostname === "localhost";
+    const assetPathStart = parsed.pathname.indexOf("/api/assets/");
+    if (!isLocalHost || assetPathStart === -1) {
+      return url;
+    }
+
+    return `${API_BASE}${parsed.pathname.slice(assetPathStart + "/api".length)}${parsed.search}${parsed.hash}`;
+  } catch {
+    return url;
+  }
 }
 
 function getPasses(metadata: Record<string, unknown>): ExtractionPass[] {
@@ -259,6 +325,10 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
   const assets = useMemo(() => getAssets(data.json_content), [data.json_content]);
   const sections = useMemo(() => getSections(data.json_content), [data.json_content]);
   const assetManifest = useMemo(() => getAssetManifest(data.json_content), [data.json_content]);
+  const extractedImages = useMemo(
+    () => getExtractedImages(assetManifest),
+    [assetManifest]
+  );
   const layoutIsReliable = useMemo(
     () => layoutPages.some((page) => blocksHaveReliableLayout(page.blocks)),
     [layoutPages]
@@ -478,6 +548,12 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
               Layout
             </TabsTrigger>
           )}
+          {extractedImages.length > 0 && (
+            <TabsTrigger value="images" className="gap-1.5 text-sm">
+              <ImageIcon className="h-3.5 w-3.5" />
+              Images ({extractedImages.length})
+            </TabsTrigger>
+          )}
           <TabsTrigger value="markdown" className="gap-1.5 text-sm">
             <FileText className="h-3.5 w-3.5" />
             Rendered
@@ -547,6 +623,12 @@ export function ExtractionViewer({ data, onReset }: ExtractionViewerProps) {
                 </CardContent>
               </ScrollArea>
             </Card>
+          </TabsContent>
+        )}
+
+        {extractedImages.length > 0 && (
+          <TabsContent value="images" className="mt-4 min-h-0 flex-1 flex flex-col">
+            <ImageGallery images={extractedImages} />
           </TabsContent>
         )}
 
@@ -994,6 +1076,62 @@ function CodePanel({ content, small = false }: { content: string; small?: boolea
           >
             {content}
           </pre>
+        </CardContent>
+      </ScrollArea>
+    </Card>
+  );
+}
+
+function ImageGallery({ images }: { images: ExtractedImageAsset[] }) {
+  return (
+    <Card className="flex-1 border-border/30 bg-card/50 backdrop-blur-sm flex flex-col min-h-0">
+      <ScrollArea className="flex-1 min-h-0">
+        <CardContent className="p-4 lg:p-6">
+          <div className="mb-4 flex items-center gap-2 text-sm text-muted-foreground">
+            <ImageIcon className="h-4 w-4 text-emerald-400" />
+            <span>{images.length} extracted image{images.length === 1 ? "" : "s"}</span>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+            {images.map((image) => (
+              <figure
+                key={image.url}
+                className="overflow-hidden rounded-xl border border-border/40 bg-card/60"
+              >
+                <a
+                  href={image.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block bg-muted/30"
+                  title="Open full-size image"
+                >
+                  {/* The URLs are generated by the extraction API and may be localhost or deployment-specific. */}
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={image.url}
+                    alt={image.ocrText || image.fileName}
+                    width={image.width}
+                    height={image.height}
+                    loading="lazy"
+                    className="h-56 w-full object-contain"
+                  />
+                </a>
+                <figcaption className="space-y-1 border-t border-border/30 p-3">
+                  <div className="truncate text-xs font-medium" title={image.fileName}>
+                    {image.fileName}
+                  </div>
+                  <div className="flex flex-wrap gap-x-2 text-[11px] text-muted-foreground">
+                    {typeof image.pageIndex === "number" && <span>Page {image.pageIndex + 1}</span>}
+                    {image.width && image.height && <span>{image.width} × {image.height}</span>}
+                  </div>
+                  {image.ocrText && (
+                    <p className="line-clamp-3 text-xs leading-relaxed text-muted-foreground">
+                      {image.ocrText}
+                    </p>
+                  )}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
         </CardContent>
       </ScrollArea>
     </Card>

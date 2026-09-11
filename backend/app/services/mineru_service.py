@@ -9,13 +9,14 @@ import re
 import subprocess
 import sys
 from dataclasses import dataclass, field
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 from statistics import median
 from typing import Any, Optional
 from urllib.parse import quote
 
 from app.extraction.education_structure import enhance_educational_structure
 from app.utils.file_utils import find_files_by_extension
+from app.services.image_ocr import enrich_manifest_with_ocr, sha256_file
 from app.utils.mineru_compat import ensure_mineru_ocr_resource_compat
 
 logger = logging.getLogger(__name__)
@@ -326,7 +327,13 @@ def extract_pdf(
         if isinstance(structured_markdown, str) and structured_markdown.strip():
             result.markdown = structured_markdown
             semantic_metadata["markdown_source"] = "structured_layout"
-    asset_manifest = _build_asset_manifest(output_dir, images, asset_base_url)
+    asset_manifest = _build_asset_manifest(
+        output_dir,
+        images,
+        asset_base_url,
+        json_content=result.json_content,
+        ocr_language=lang,
+    )
     if isinstance(result.json_content, dict):
         result.json_content["asset_manifest"] = asset_manifest
     diagnostics = _build_quality_diagnostics(
@@ -677,12 +684,66 @@ def _collect_images(output_dir: Path) -> list[Path]:
     return images
 
 
+def _index_image_blocks(json_content: Any) -> dict[str, dict[str, Any]]:
+    """Map image file name -> its layout position and caption.
+
+    MinerU records each figure as a block carrying `img_path`, `page_idx` and
+    (in the raw content list) a caption. Without this join the manifest knows
+    a file exists but not where on the page it came from, which is what a
+    later pass needs to decide which question the figure belongs to.
+    """
+    index: dict[str, dict[str, Any]] = {}
+    if not isinstance(json_content, dict):
+        return index
+    blocks = json_content.get("blocks")
+    if not isinstance(blocks, list):
+        return index
+    for block in blocks:
+        if not isinstance(block, dict):
+            continue
+        img_path = block.get("img_path")
+        if not isinstance(img_path, str) or not img_path.strip():
+            continue
+        key = PurePosixPath(img_path.replace("\\", "/")).name
+        if not key or key in index:
+            continue
+        entry: dict[str, Any] = {}
+        if isinstance(block.get("page_idx"), int):
+            entry["page_index"] = block["page_idx"]
+            entry["page_number"] = block["page_idx"] + 1
+        if isinstance(block.get("bbox"), list):
+            entry["bbox"] = block["bbox"]
+        if isinstance(block.get("reading_order"), int):
+            entry["reading_order"] = block["reading_order"]
+        captions = [
+            part
+            for caption_key in ("img_caption", "img_footnote")
+            for part in (block.get(caption_key) or [])
+            if str(part).strip()
+        ]
+        if captions:
+            entry["caption"] = " ".join(str(part).strip() for part in captions)
+        index[key] = entry
+    return index
+
+
 def _build_asset_manifest(
     output_root: Path,
     images: list[Path],
     asset_base_url: str | None,
+    json_content: Any = None,
+    ocr_language: str = "en",
 ) -> list[dict[str, Any]]:
+    """Describe every extracted figure well enough to survive this host.
+
+    The URL baked into the markdown points at this machine's asset route, so
+    it breaks the moment the host, port or output directory changes. Recording
+    the content hash and the relative path makes the figure recoverable and
+    lets a re-host be an UPDATE rather than a regex over stored markdown.
+    """
+    block_index = _index_image_blocks(json_content)
     manifest: list[dict[str, Any]] = []
+
     for image in images:
         try:
             relative = image.relative_to(output_root).as_posix()
@@ -700,7 +761,32 @@ def _build_asset_manifest(
         dimensions = _read_image_dimensions(image)
         if dimensions:
             item.update(dimensions)
+
+        # MinerU names images with a 64-hex string, but it is NOT the sha256
+        # of the file bytes (verified). Hash the content ourselves so the
+        # value can be trusted for dedupe and integrity.
+        digest = sha256_file(image)
+        if digest:
+            item["sha256"] = digest
+
+        item.update(block_index.get(image.name, {}))
+        item.setdefault("ocr_text", None)
         manifest.append(item)
+
+    # Recover text printed inside the figures. Non-fatal by construction:
+    # on any failure entries keep ocr_text = None and extraction still wins.
+    try:
+        stats = enrich_manifest_with_ocr(manifest, output_root, lang=ocr_language)
+        if stats.get("ocr_with_text"):
+            logger.info(
+                "Figure OCR read text from %s of %s images (%s skipped as too small).",
+                stats["ocr_with_text"],
+                stats["ocr_attempted"],
+                stats["skipped_small"],
+            )
+    except Exception as exc:
+        logger.warning("Figure OCR pass failed: %s", exc)
+
     return manifest
 
 
@@ -916,6 +1002,10 @@ def _normalize_content_list(blocks: list[Any], source_name: str) -> dict[str, An
         }
         if isinstance(raw_block.get("img_path"), str):
             block["img_path"] = raw_block["img_path"]
+        for caption_key in ("img_caption", "img_footnote", "table_caption", "table_footnote"):
+            caption = raw_block.get(caption_key)
+            if isinstance(caption, list) and caption:
+                block[caption_key] = [str(part) for part in caption if str(part).strip()]
         if isinstance(raw_block.get("text_level"), int):
             block["text_level"] = raw_block["text_level"]
         if isinstance(raw_block.get("table_body"), str):

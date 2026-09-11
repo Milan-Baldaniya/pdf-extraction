@@ -29,6 +29,16 @@ from app.jobs import (
     submit as submit_job,
     update_status,
 )
+from app.services.exam_question_service import (
+    get_exam_questions,
+    process_exam_questions,
+)
+from app.services.publisher_service import (
+    list_publishers,
+    seed_reference_data,
+    type_map as question_type_map,
+)
+from app.services.question_ai_tagger import tag_extraction
 from app.db.mariadb import (
     SessionLocal,
     DocumentExtraction,
@@ -181,6 +191,9 @@ async def _run_extraction_job(
         "processing_time": f"{elapsed:.2f}s",
         "job_id": job_id,
         "cached": False,
+        # _apply_extraction_payload copies this onto content_sha256. Nothing
+        # produced the key before, so that branch had never once run.
+        "source_sha256": file_hash,
     }
     response = ExtractionResponse(
         status="success",
@@ -205,6 +218,11 @@ def _mark_extraction_failed(cache_id: int | None, payload: dict[str, Any]) -> No
         doc = db.query(DocumentExtraction).filter(DocumentExtraction.id == cache_id).first()
         if doc:
             doc.extraction_metadata = json.dumps(payload, ensure_ascii=False, default=str)
+            # Leave the lifecycle column honest. Without this the row keeps the
+            # "extracting" it was stamped with at job start, so a failed run is
+            # indistinguishable from one still in flight -- and the question-bank
+            # queue would offer it to an operator as ready to process.
+            doc.extraction_status = "failed"
             db.commit()
     except Exception:
         db.rollback()
@@ -367,16 +385,11 @@ async def queue_extract_from_url(
     update_status(job_id, "queued", "Extraction job created")
     logger.info("Job %s - queued extraction for %s", job_id, request.pdf_url)
 
-    cache_id = create_extraction_stub(
-        document_type=request.document_type,
-        document_title=request.document_title,
-        chapter_number=_safe_int(request.chapter_number),
-        standard=_safe_int(request.standard),
-        subject_name=request.subject_name,
-        board=request.board,
-        syear=request.syear,
-        pdf_url=str(request.pdf_url),
-    )
+    # The stub cannot be written until the bytes are on disk: it carries the
+    # source SHA-256, and a question bank whose chapter is missing has to be
+    # refused before any row exists to roll back.
+    cache_id: int | None = None
+    tenant = request.sub_institute_id or settings.tenant_for_board(request.board)
 
     # The PDF is downloaded inside the request so an unreachable URL fails fast
     # with a 400 instead of surfacing minutes later as a job status.
@@ -388,6 +401,29 @@ async def queue_extract_from_url(
     except PDFDownloadError as exc:
         cleanup_temp_job(settings.temp_dir, job_id)
         _raise_job_error(job_id, 400, "Download failed", exc, cache_id)
+
+    # Same digest _run_extraction_job uses for its cache key; hashed off the
+    # loop because a large PDF would otherwise stall every other request.
+    content_sha256 = await asyncio.to_thread(file_sha256, pdf_path)
+
+    try:
+        cache_id = create_extraction_stub(
+            document_type=request.document_type,
+            document_title=request.document_title,
+            chapter_number=_safe_int(request.chapter_number),
+            standard=_safe_int(request.standard),
+            subject_name=request.subject_name,
+            board=request.board,
+            syear=request.syear,
+            pdf_url=str(request.pdf_url),
+            sub_institute_id=tenant,
+            content_sha256=content_sha256,
+        )
+    except ValueError as exc:
+        # No chapter matched a question bank -- operator error, so the same
+        # 400/str(exc) shape the processing routes use.
+        cleanup_temp_job(settings.temp_dir, job_id)
+        _raise_job_error(job_id, 400, "No chapter matched this question bank", exc, None)
 
     _spawn_job(
         _background_extraction(
@@ -404,6 +440,7 @@ async def queue_extract_from_url(
                 "board": request.board,
                 "syear": request.syear,
                 "pdf_url": str(request.pdf_url),
+                "sub_institute_id": tenant,
             },
         )
     )
@@ -432,16 +469,8 @@ async def queue_extract_from_upload(
     update_status(job_id, "queued", "Extraction job created")
     logger.info("Job %s - queued extraction for uploaded file %s", job_id, file.filename)
 
-    cache_id = create_extraction_stub(
-        document_type=document_type,
-        document_title=document_title,
-        chapter_number=_safe_int(chapter_number),
-        standard=_safe_int(standard),
-        subject_name=subject_name,
-        board=board,
-        syear=syear,
-        pdf_url="uploaded",
-    )
+    cache_id: int | None = None
+    tenant = settings.tenant_for_board(board)
 
     # The upload stream is only valid for the lifetime of this request, so the
     # bytes must reach disk before the background task is handed the path.
@@ -456,6 +485,25 @@ async def queue_extract_from_upload(
         _raise_job_error(job_id, 400, "Upload failed", exc, cache_id)
     finally:
         await file.close()
+
+    content_sha256 = await asyncio.to_thread(file_sha256, pdf_path)
+
+    try:
+        cache_id = create_extraction_stub(
+            document_type=document_type,
+            document_title=document_title,
+            chapter_number=_safe_int(chapter_number),
+            standard=_safe_int(standard),
+            subject_name=subject_name,
+            board=board,
+            syear=syear,
+            pdf_url="uploaded",
+            sub_institute_id=tenant,
+            content_sha256=content_sha256,
+        )
+    except ValueError as exc:
+        cleanup_temp_job(settings.temp_dir, job_id)
+        _raise_job_error(job_id, 400, "No chapter matched this question bank", exc, None)
 
     _spawn_job(
         _background_extraction(
@@ -472,6 +520,7 @@ async def queue_extract_from_upload(
                 "board": board,
                 "syear": syear,
                 "pdf_url": "uploaded",
+                "sub_institute_id": tenant,
             },
         )
     )
@@ -499,22 +548,32 @@ async def extract_ncert_pdf(
     update_status(job_id, "started", "Extraction job created")
     logger.info("Job %s - starting extraction for %s", job_id, request.pdf_url)
 
-    cache_id = create_extraction_stub(
-        document_type=request.document_type,
-        document_title=request.document_title,
-        chapter_number=_safe_int(request.chapter_number),
-        standard=_safe_int(request.standard),
-        subject_name=request.subject_name,
-        board=request.board,
-        syear=request.syear,
-        pdf_url=str(request.pdf_url),
-    )
+    cache_id: int | None = None
+    tenant = request.sub_institute_id or settings.tenant_for_board(request.board)
 
     try:
         pdf_path = get_temp_pdf_path(settings.temp_dir, job_id)
         update_status(job_id, "downloading", "Downloading source PDF")
         await download_pdf(str(request.pdf_url), pdf_path)
         _validate_pdf_header(pdf_path, "downloaded file")
+
+        # Stub after the download so the row carries the source SHA-256, and
+        # so a question bank with no matching chapter writes no row at all.
+        try:
+            cache_id = create_extraction_stub(
+                document_type=request.document_type,
+                document_title=request.document_title,
+                chapter_number=_safe_int(request.chapter_number),
+                standard=_safe_int(request.standard),
+                subject_name=request.subject_name,
+                board=request.board,
+                syear=request.syear,
+                pdf_url=str(request.pdf_url),
+                sub_institute_id=tenant,
+                content_sha256=await asyncio.to_thread(file_sha256, pdf_path),
+            )
+        except ValueError as exc:
+            _raise_job_error(job_id, 400, "No chapter matched this question bank", exc, None)
 
         response = await _run_extraction_job(
             job_id=job_id,
@@ -536,6 +595,7 @@ async def extract_ncert_pdf(
             board=request.board,
             syear=request.syear,
             pdf_url=str(request.pdf_url),
+            sub_institute_id=tenant,
         )
         response.metadata["pdf_cache_id"] = cache_id
         return response
@@ -546,6 +606,10 @@ async def extract_ncert_pdf(
         _raise_job_error(job_id, 503, "MinerU configuration failed", exc, cache_id)
     except MinerUExtractionError as exc:
         _raise_job_error(job_id, 500, "Extraction failed", exc, cache_id)
+    except HTTPException:
+        # The 400 for an unmatched question bank is raised from inside this
+        # try, so without this the blanket handler below reports it as a 500.
+        raise
     except Exception as exc:
         update_status(job_id, "failed", f"Unexpected error: {exc}")
         logger.exception("Job %s - unexpected error", job_id)
@@ -588,16 +652,8 @@ async def upload_ncert_pdf(
     update_status(job_id, "started", "Extraction job created")
     logger.info("Job %s - starting extraction for uploaded file %s", job_id, file.filename)
 
-    cache_id = create_extraction_stub(
-        document_type=document_type,
-        document_title=document_title,
-        chapter_number=_safe_int(chapter_number),
-        standard=_safe_int(standard),
-        subject_name=subject_name,
-        board=board,
-        syear=syear,
-        pdf_url="uploaded",
-    )
+    cache_id: int | None = None
+    tenant = settings.tenant_for_board(board)
 
     try:
         pdf_path = get_temp_pdf_path(settings.temp_dir, job_id)
@@ -606,6 +662,24 @@ async def upload_ncert_pdf(
         with pdf_path.open("wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
         _validate_pdf_header(pdf_path, "uploaded file")
+
+        # Stub after the save so the row carries the source SHA-256, and so a
+        # question bank with no matching chapter writes no row at all.
+        try:
+            cache_id = create_extraction_stub(
+                document_type=document_type,
+                document_title=document_title,
+                chapter_number=_safe_int(chapter_number),
+                standard=_safe_int(standard),
+                subject_name=subject_name,
+                board=board,
+                syear=syear,
+                pdf_url="uploaded",
+                sub_institute_id=tenant,
+                content_sha256=await asyncio.to_thread(file_sha256, pdf_path),
+            )
+        except ValueError as exc:
+            _raise_job_error(job_id, 400, "No chapter matched this question bank", exc, None)
 
         response = await _run_extraction_job(
             job_id=job_id,
@@ -626,6 +700,7 @@ async def upload_ncert_pdf(
             board=board,
             syear=syear,
             pdf_url="uploaded",
+            sub_institute_id=tenant,
         )
         response.metadata["pdf_cache_id"] = cache_id
         return response
@@ -636,6 +711,10 @@ async def upload_ncert_pdf(
         _raise_job_error(job_id, 503, "MinerU configuration failed", exc, cache_id)
     except MinerUExtractionError as exc:
         _raise_job_error(job_id, 500, "Extraction failed", exc, cache_id)
+    except HTTPException:
+        # The 400 for an unmatched question bank is raised from inside this
+        # try, so without this the blanket handler below reports it as a 500.
+        raise
     except Exception as exc:
         update_status(job_id, "failed", f"Unexpected error: {exc}")
         logger.exception("Job %s - unexpected error", job_id)
@@ -1082,29 +1161,44 @@ from app.models.schemas import SubjectCreateRequest, TabLabelUpdateRequest
     tags=["Subjects"],
     summary="List all subjects for a given standard",
 )
-def get_subjects_by_standard(standard_name: str) -> list[dict[str, Any]]:
+def get_subjects_by_standard(
+    standard_name: str,
+    board: str | None = None,
+    sub_institute_id: int | None = None,
+) -> list[dict[str, Any]]:
+    """Subjects taught at one standard, within one board's shared bank.
+
+    The tenant was hardcoded to 341, which made the CBSE bank invisible to
+    the extraction form. Pass `board` (cbse | cambridge) or an explicit
+    `sub_institute_id`; omitting both falls back to the configured default.
+    """
     if not init_mariadb() or SessionLocal is None:
         raise HTTPException(status_code=500, detail="Database not ready")
+    tenant = (
+        sub_institute_id
+        if sub_institute_id is not None
+        else settings.tenant_for_board(board)
+    )
     db = SessionLocal()
     try:
         std_row = db.execute(
-            text("SELECT id FROM standard WHERE name = :name AND sub_institute_id = 341 LIMIT 1"),
-            {"name": standard_name}
+            text("SELECT id FROM standard WHERE name = :name AND sub_institute_id = :tenant LIMIT 1"),
+            {"name": standard_name, "tenant": tenant}
         ).fetchone()
-        
+
         if not std_row:
             return []
-            
+
         std_id = std_row[0]
-        
+
         subjects_row = db.execute(
             text("""
-                SELECT s.id, s.subject_name 
-                FROM subject s 
-                JOIN sub_std_map map ON s.id = map.subject_id 
-                WHERE map.standard_id = :std_id AND s.sub_institute_id = 341
+                SELECT s.id, s.subject_name
+                FROM subject s
+                JOIN sub_std_map map ON s.id = map.subject_id
+                WHERE map.standard_id = :std_id AND s.sub_institute_id = :tenant
             """),
-            {"std_id": std_id}
+            {"std_id": std_id, "tenant": tenant}
         ).fetchall()
 
         return [{"id": row[0], "subject_name": row[1]} for row in subjects_row]
@@ -1121,58 +1215,68 @@ def get_subjects_by_standard(standard_name: str) -> list[dict[str, Any]]:
     summary="Create a new subject and map it to a standard",
 )
 def create_subject(request: SubjectCreateRequest) -> dict[str, Any]:
+    """Create a subject in one board's shared bank and map it to a standard.
+
+    Every statement here used to write sub_institute_id = 341, so a subject
+    created while the form said CBSE was filed into the Cambridge bank and
+    then never appeared in the CBSE dropdown.
+    """
     if not init_mariadb() or SessionLocal is None:
         raise HTTPException(status_code=500, detail="Database not ready")
+    tenant = (
+        request.sub_institute_id
+        if request.sub_institute_id is not None
+        else settings.tenant_for_board(request.board)
+    )
     db = SessionLocal()
     try:
         std_row = db.execute(
-            text("SELECT id FROM standard WHERE name = :name AND sub_institute_id = 341 LIMIT 1"),
-            {"name": request.standard_name}
+            text("SELECT id FROM standard WHERE name = :name AND sub_institute_id = :tenant LIMIT 1"),
+            {"name": request.standard_name, "tenant": tenant}
         ).fetchone()
         if not std_row:
             raise HTTPException(status_code=404, detail="Standard not found")
         std_id = std_row[0]
 
         sub_row = db.execute(
-            text("SELECT id FROM subject WHERE subject_name = :sname AND sub_institute_id = 341 LIMIT 1"),
-            {"sname": request.subject_name}
+            text("SELECT id FROM subject WHERE subject_name = :sname AND sub_institute_id = :tenant LIMIT 1"),
+            {"sname": request.subject_name, "tenant": tenant}
         ).fetchone()
-        
+
         if sub_row:
             sub_id = sub_row[0]
         else:
             max_id = db.execute(text("SELECT MAX(id) FROM subject")).scalar() or 0
             new_code = request.subject_code if request.subject_code else str(max_id + 1).zfill(4)
-            short_name = request.short_name if request.short_name else request.subject_name[:5].capitalize() + "-CBSE"
+            board_suffix = (request.board or "").strip().upper() or str(tenant)
+            short_name = request.short_name if request.short_name else request.subject_name[:5].capitalize() + f"-{board_suffix}"
             subj_type = request.subject_type if request.subject_type else 'Major'
-            
+
             res = db.execute(
-                text("INSERT INTO subject (subject_name, subject_code, subject_type, short_name, status, sub_institute_id) VALUES (:sname, :code, :type, :short, 1, 341)"),
-                {"sname": request.subject_name, "code": new_code, "type": subj_type, "short": short_name}
+                text("INSERT INTO subject (subject_name, subject_code, subject_type, short_name, status, sub_institute_id) VALUES (:sname, :code, :type, :short, 1, :tenant)"),
+                {"sname": request.subject_name, "code": new_code, "type": subj_type, "short": short_name, "tenant": tenant}
             )
             sub_id = res.lastrowid
-        
+
         map_row = db.execute(
             text("SELECT id FROM sub_std_map WHERE standard_id = :std_id AND subject_id = :sub_id LIMIT 1"),
             {"std_id": std_id, "sub_id": sub_id}
         ).fetchone()
 
         if not map_row:
+            # The old "fallback" re-ran the identical statement inside its own
+            # except, so it could only ever fail twice. Dropped.
             d_name = request.display_name if request.display_name else request.subject_name
-            try:
-                db.execute(
-                    text("INSERT INTO sub_std_map (standard_id, subject_id, sub_institute_id, display_name) VALUES (:std_id, :sub_id, 341, :d_name)"),
-                    {"std_id": std_id, "sub_id": sub_id, "d_name": d_name}
-                )
-            except Exception as e:
-                # Fallback if column is sub_institute_id instead
-                db.execute(
-                    text("INSERT INTO sub_std_map (standard_id, subject_id, sub_institute_id, display_name) VALUES (:std_id, :sub_id, 341, :d_name)"),
-                    {"std_id": std_id, "sub_id": sub_id, "d_name": d_name}
-                )
+            db.execute(
+                text("INSERT INTO sub_std_map (standard_id, subject_id, sub_institute_id, display_name) VALUES (:std_id, :sub_id, :tenant, :d_name)"),
+                {"std_id": std_id, "sub_id": sub_id, "tenant": tenant, "d_name": d_name}
+            )
 
         db.commit()
         return {"id": sub_id, "subject_name": request.subject_name}
+    except HTTPException:
+        db.rollback()
+        raise
     except Exception as exc:
         db.rollback()
         logger.exception("Failed to create subject")
@@ -1237,3 +1341,243 @@ def reset_semantic_tab_labels(
     except Exception as exc:
         logger.exception("Failed to reset semantic tab labels")
         raise HTTPException(status_code=500, detail=f"Reset failed: {exc}")
+
+
+# ---------------------------------------------------------------------------
+# Question bank queue
+# ---------------------------------------------------------------------------
+
+@router.get(
+    "/question-banks",
+    tags=["Question Bank"],
+    summary="List question-bank extractions for the ingestion queue",
+)
+def list_question_banks(
+    sub_institute_id: int | None = None,
+    standard: int | None = None,
+    subject_name: str | None = None,
+) -> list[dict[str, Any]]:
+    """The /semantic-intelligence queue, narrowed to question banks.
+
+    Unlike that one this filters, because question banks are per-board: the
+    CBSE bank (tenant 1) and the Cambridge bank (341) share the table, and an
+    unfiltered list would mix them.
+
+    A question bank always hangs off an existing chapter, so `chapter_id` is
+    part of the row -- a null there is a row written before the no-auto-create
+    rule landed and needs re-mapping before ingestion.
+
+    The document_type set mirrors db.mariadb.is_question_bank exactly; keep
+    the two in step if a spelling is ever added there.
+    """
+    if not init_mariadb() or SessionLocal is None:
+        raise HTTPException(status_code=500, detail="Database not ready")
+    db = SessionLocal()
+    try:
+        rows = db.execute(
+            text("""
+                SELECT d.id, d.document_tittle, d.subject_name, d.standard, d.syear,
+                       d.chapter_number, d.chapter_id, d.board, d.sub_institute_id,
+                       d.content_sha256, d.extraction_status, d.created_at,
+                       (d.extraction_status = 'extracted') AS is_processed
+                  FROM document_extractions d
+                 WHERE LOWER(TRIM(d.document_type))
+                       IN ('question_bank', 'question bank', 'questionbank')
+                   AND (:tenant IS NULL OR d.sub_institute_id = :tenant)
+                   AND (:standard IS NULL OR d.standard = :standard)
+                   AND (:subject_name IS NULL OR d.subject_name = :subject_name)
+                 ORDER BY d.id DESC
+            """),
+            {
+                "tenant": sub_institute_id,
+                "standard": standard,
+                "subject_name": subject_name,
+            },
+        ).mappings().fetchall()
+        return [dict(row) for row in rows]
+    except Exception as exc:
+        logger.exception("Failed to list question banks")
+        raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}")
+    finally:
+        db.close()
+
+
+@router.post(
+    "/exam-questions/{extraction_id}/process",
+    tags=["Question Bank"],
+    summary="Parse a question bank into structured exam items and store them",
+)
+async def process_exam_questions_endpoint(
+    extraction_id: int,
+    created_by: int = 0,
+    replace: bool = False,
+    publish_clean: bool = True,
+    dry_run: bool = False,
+) -> dict[str, Any]:
+    """Synchronous form, for a single chapter and for previews.
+
+    `dry_run=true` parses and validates and writes nothing, which is how the
+    queue screen shows an operator what Proceed is about to do.
+    """
+    try:
+        return await asyncio.to_thread(
+            process_exam_questions,
+            extraction_id,
+            created_by=created_by,
+            replace=replace,
+            publish_clean=publish_clean,
+            dry_run=dry_run,
+        )
+    except LookupError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except ValueError as exc:
+        # Not mapped to a chapter, or nothing extracted yet: operator error.
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except HTTPException:
+        raise
+    except Exception as exc:
+        logger.exception("Question-bank processing failed")
+        raise HTTPException(status_code=500, detail=f"Processing failed: {exc}") from exc
+
+
+@router.post(
+    "/jobs/exam-questions/{extraction_id}/process",
+    status_code=202,
+    tags=["Jobs"],
+    summary="Queue question-bank processing and return a job id",
+)
+async def queue_exam_question_processing(
+    extraction_id: int,
+    created_by: int = 0,
+    replace: bool = False,
+    publish_clean: bool = True,
+) -> dict[str, Any]:
+    """Background form of ``/exam-questions/{id}/process``.
+
+    Parsing is CPU-bound rather than LLM-bound, so this does not take the
+    LLM semaphore -- it would needlessly block concept and semantic jobs.
+    """
+    # submit() takes a factory returning an AWAITABLE. process_exam_questions
+    # is synchronous (regex parsing plus a DB transaction), so it is handed to
+    # a worker thread: returning its dict directly makes the job runner try to
+    # await a dict, and wrapping it keeps the blocking write off the single
+    # event loop this service runs on.
+    job_id = submit_job(
+        f"Question-bank processing for extraction {extraction_id}",
+        lambda: asyncio.to_thread(
+            process_exam_questions,
+            extraction_id,
+            created_by=created_by,
+            replace=replace,
+            publish_clean=publish_clean,
+        ),
+    )
+    return _accepted(job_id)
+
+
+@router.get(
+    "/exam-questions/{extraction_id}/result",
+    tags=["Question Bank"],
+    summary="Read the stored exam items for a chapter, grouped by CBSE section",
+)
+def get_exam_questions_endpoint(extraction_id: int) -> dict[str, Any]:
+    try:
+        data = get_exam_questions(extraction_id)
+        if not data["total"]:
+            raise HTTPException(
+                status_code=404,
+                detail="No stored questions for this extraction. Run Proceed first.",
+            )
+        return data
+    except HTTPException:
+        raise
+    except Exception as exc:
+        logger.exception("Failed to fetch exam questions")
+        raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}") from exc
+
+
+@router.get(
+    "/publishers",
+    tags=["Question Bank"],
+    summary="List known question-bank publishers",
+)
+def list_publishers_endpoint() -> list[dict[str, Any]]:
+    """Populates the publisher picker on the upload form."""
+    try:
+        seed_reference_data()
+        return list_publishers()
+    except Exception as exc:
+        logger.exception("Failed to list publishers")
+        raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}") from exc
+
+
+@router.get(
+    "/question-types",
+    tags=["Question Bank"],
+    summary="List question forms, including publisher-specific ones",
+)
+def list_question_types_endpoint(publisher_id: int | None = None) -> list[dict[str, Any]]:
+    """The vocabulary the bank filters on.
+
+    A publisher's own form wins over the standard entry of the same code, so
+    a house that redefines "case study" gets its own definition back.
+    """
+    try:
+        seed_reference_data()
+        return sorted(question_type_map(publisher_id).values(), key=lambda r: r["code"])
+    except Exception as exc:
+        logger.exception("Failed to list question types")
+        raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}") from exc
+
+
+@router.post(
+    "/exam-questions/{extraction_id}/tag",
+    tags=["Question Bank"],
+    summary="Map stored questions to chapter concepts, Bloom level and DOK",
+)
+async def tag_exam_questions_endpoint(
+    extraction_id: int,
+    provider: str = "auto",
+) -> dict[str, Any]:
+    """Run AFTER Proceed: re-running Proceed with replace clears these tags.
+
+    provider "auto" uses DeepSeek and falls back to the offline lexical
+    matcher when the account is unavailable; "deepseek" fails loudly instead;
+    "offline" skips the model entirely.
+    """
+    try:
+        return await tag_extraction(extraction_id, provider=provider)
+    except LookupError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except DeepSeekUnavailableError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+    except HTTPException:
+        raise
+    except Exception as exc:
+        logger.exception("Concept tagging failed")
+        raise HTTPException(status_code=500, detail=f"Tagging failed: {exc}") from exc
+
+
+@router.post(
+    "/jobs/exam-questions/{extraction_id}/tag",
+    status_code=202,
+    tags=["Jobs"],
+    summary="Queue concept tagging and return a job id",
+)
+async def queue_exam_question_tagging(
+    extraction_id: int,
+    provider: str = "auto",
+) -> dict[str, Any]:
+    """Background form of ``/exam-questions/{id}/tag``.
+
+    Takes the LLM semaphore, because unlike parsing this one really does
+    call the model and must queue behind the other LLM stages.
+    """
+    job_id = submit_job(
+        f"Concept tagging for extraction {extraction_id}",
+        lambda: tag_extraction(extraction_id, provider=provider),
+        semaphore=llm_semaphore(),
+    )
+    return _accepted(job_id)

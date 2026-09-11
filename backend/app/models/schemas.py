@@ -23,6 +23,14 @@ class ExtractionRequest(BaseModel):
     board: Optional[str] = Field(default="CBSE")
     syear: Optional[int] = Field(default=None)
 
+    # Normally derived from `board` via settings.tenant_for_board (cbse -> 1,
+    # cambridge -> 341). Set explicitly only to file a document against a
+    # tenant the board map does not cover.
+    sub_institute_id: Optional[int] = Field(
+        default=None,
+        description="Override the board's shared-bank tenant id.",
+    )
+
 
 class HealthResponse(BaseModel):
     """Health-check response."""
@@ -74,6 +82,8 @@ class ErrorResponse(BaseModel):
 class SubjectCreateRequest(BaseModel):
     standard_name: str
     subject_name: str
+    board: Optional[str] = None
+    sub_institute_id: Optional[int] = None
     subject_code: Optional[str] = None
     subject_type: Optional[str] = None
     short_name: Optional[str] = None

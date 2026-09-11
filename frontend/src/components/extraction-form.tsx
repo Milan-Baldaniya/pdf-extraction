@@ -134,7 +134,8 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
   const getMetadata = (resolvedSubjectName?: string) => ({
     document_type: documentType,
     document_title: documentTitle,
-    chapter_number: chapterNumber,
+    // Optional[int] server-side: "" is a 422, not an empty value.
+    chapter_number: chapterNumber.trim() || undefined,
     standard,
     subject_name: resolvedSubjectName || (subjectName === "Others" ? customSubject : subjectName),
     board,
@@ -291,6 +292,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
                     { label: "Chapter", value: "Chapter" },
                     { label: "Curriculum", value: "Curriculum" },
                     { label: "Syllabus", value: "Syllabus" },
+                    { label: "Question Bank", value: "question_bank" },
                   ]}
                 />
               </div>
@@ -301,7 +303,12 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
               </div>
 
               <div className="space-y-1.5">
-                <label className="text-xs font-medium text-foreground/80 pl-1">Chapter Number</label>
+                <label className="text-xs font-medium text-foreground/80 pl-1">
+                  Chapter Number
+                  {documentType === "question_bank" && (
+                    <span className="ml-1 text-primary">(required — must match an existing chapter)</span>
+                  )}
+                </label>
                 <MetadataInput type="text" value={chapterNumber} onChange={e => setChapterNumber(e.target.value)} placeholder="e.g. 1" />
               </div>
 
@@ -327,7 +334,16 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
 
               <div className="space-y-1.5">
                 <label className="text-xs font-medium text-foreground/80 pl-1">Board</label>
-                <MetadataInput type="text" value={board} onChange={e => setBoard(e.target.value)} placeholder="CAMBRIDGE" />
+                <div className="relative z-[35]">
+                  <CustomSelect
+                    value={board}
+                    onChange={setBoard}
+                    options={[
+                      { label: "CBSE", value: "CBSE" },
+                      { label: "Cambridge", value: "CAMBRIDGE" },
+                    ]}
+                  />
+                </div>
               </div>
 
               {subjectName === "Others" && (

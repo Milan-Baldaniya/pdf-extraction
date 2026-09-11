@@ -152,6 +152,7 @@ def _sync_v5_dict_file(
 
 _UNIMERNET_FORWARD_PATCH_MARKER = "cache_position: Optional[torch.LongTensor] = None,"
 _UNIMERNET_PAST_KV_PATCH_MARKER = "past_key_values_length = _mineru_past_key_values_length(past_key_values)"
+_UNIMERNET_CACHE_PATCH_MARKER = "past_key_values = _mineru_normalize_past_key_values(past_key_values)"
 
 
 def _patch_unimernet_transformers_compat(package_root: Path) -> bool:
@@ -224,6 +225,59 @@ def _mineru_past_key_values_length(past_key_values) -> int:
         )
         changed = True
 
+    if _UNIMERNET_CACHE_PATCH_MARKER not in text:
+        normalizer = '''
+
+def _mineru_normalize_past_key_values(past_key_values):
+    """Return the legacy per-layer tuple format this decoder expects.
+
+    transformers >= 4.54 hands encoder-decoder models an `EncoderDecoderCache`
+    whose `DynamicCache(config=...)` pre-allocates one *un-initialised* layer
+    per `decoder_config.num_hidden_layers`. Indexing it at decode step 0 yields
+    `(None, None, None, None)` instead of `None`, and this decoder then runs
+    `torch.cat([None, key_states])`. Collapse an empty cache to `None`, and a
+    populated one to the legacy tuple the layer loop understands.
+    """
+    if past_key_values is None:
+        return None
+    if isinstance(past_key_values, (tuple, list)):
+        return tuple(past_key_values) or None
+    get_seq_length = getattr(past_key_values, "get_seq_length", None)
+    if callable(get_seq_length):
+        try:
+            if int(get_seq_length()) == 0:
+                return None
+        except (AttributeError, IndexError, TypeError, ValueError):
+            return None
+    to_legacy_cache = getattr(past_key_values, "to_legacy_cache", None)
+    if callable(to_legacy_cache):
+        legacy = tuple(to_legacy_cache())
+        return legacy or None
+    return past_key_values
+
+'''
+        length_line = (
+            "        past_key_values_length = _mineru_past_key_values_length(past_key_values)"
+        )
+        if length_line not in text:
+            logger.warning(
+                "UniMerNet cache-normalisation patch point was not found in %s", modeling_path
+            )
+            return False
+        if "def _mineru_normalize_past_key_values" not in text:
+            text = text.replace(
+                "class UnimerMBartDecoderWrapper(UnimerMBartPreTrainedModel):",
+                normalizer + "class UnimerMBartDecoderWrapper(UnimerMBartPreTrainedModel):",
+                1,
+            )
+        text = text.replace(
+            length_line,
+            "        past_key_values = _mineru_normalize_past_key_values(past_key_values)\n"
+            + length_line,
+            1,
+        )
+        changed = True
+
     if not changed:
         return True
 
@@ -281,15 +335,42 @@ def ensure_mineru_ocr_resource_compat(
         import magic_pdf  # type: ignore
 
         package_root = Path(magic_pdf.__file__).resolve().parent
-        if formula_enabled:
-            logger.warning(
-                "MinerU formula parsing remains disabled in CPU mode because the "
-                "bundled UniMerNet model is incompatible with transformers %s. "
-                "Text, table, and layout extraction are unaffected.",
-                __import__("transformers").__version__,
-            )
     except Exception as exc:
         logger.warning("Unable to import magic_pdf for MinerU compatibility patch: %s", exc)
+
+    if formula_enabled:
+        transformers_version = __import__("transformers").__version__
+        if package_root is None:
+            logger.warning(
+                "MinerU formula parsing stays disabled: magic_pdf could not be "
+                "imported, so the UniMerNet compatibility patch was not applied. "
+                "Text, table, and layout extraction are unaffected."
+            )
+        else:
+            try:
+                patch_applied = _patch_unimernet_transformers_compat(package_root)
+            except OSError as exc:
+                patch_applied = False
+                logger.warning(
+                    "Could not write the UniMerNet compatibility patch under %s: %s",
+                    package_root,
+                    exc,
+                )
+            if patch_applied:
+                effective_formula_enabled = True
+                logger.info(
+                    "MinerU formula parsing enabled: UniMerNet patched for "
+                    "transformers %s. MFD + MFR now run on CPU in fp32 (batch 16, "
+                    "max_new_tokens 1536) and will dominate extraction time.",
+                    transformers_version,
+                )
+            else:
+                logger.warning(
+                    "MinerU formula parsing stays disabled: the UniMerNet "
+                    "compatibility patch for transformers %s could not be applied. "
+                    "Text, table, and layout extraction are unaffected.",
+                    transformers_version,
+                )
 
     desired_runtime_config = {
         "models-dir": str(models_dir),

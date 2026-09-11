@@ -131,6 +131,69 @@ class Settings(BaseSettings):
     mariadb_user: str = "root"
     mariadb_password: str = ""
     mariadb_db: str = "pdf_extraction"
+    # The LMS owns its own schema. Creating tables from this service's models
+    # against that database would produce columns that disagree with the
+    # migrations that actually govern it, so this must stay off in production.
+    mariadb_auto_create_tables: bool = False
+
+    # Tenancy. sub_institute_id identifies the BOARD whose shared content bank
+    # a row belongs to, not a school: 1 = CBSE, 341 = Cambridge. The board
+    # selected on the extraction form resolves through this map, so adding a
+    # board is a config change rather than a code change.
+    #
+    # Held as a STRING, not a dict. pydantic-settings 2.5.2 JSON-decodes
+    # complex field types inside EnvSettingsSource before any validator runs,
+    # so declaring this `dict[str, int]` makes BOARD_TENANT_MAP=cbse=1,...
+    # a hard startup crash (SettingsError) rather than something a validator
+    # can rescue. `NoDecode` would be the clean fix but it landed after 2.5.2.
+    # Accepts either "cbse=1,cambridge=341" or a JSON object.
+    default_sub_institute_id: int = 1
+    board_tenant_map: str = "cbse=1,cambridge=341"
+
+    # Recover text printed inside figures (axis labels, values on a diagram).
+    # MinerU writes figures out as images and does not read them, so without
+    # this a graph-based question loses the numbers it depends on.
+    image_ocr_enabled: bool = True
+    image_ocr_min_pixels: int = 12000  # skip bullets, rules and other furniture
+    image_ocr_max_images: int = 400
+
+    @property
+    def board_tenants(self) -> dict[str, int]:
+        """Board name (lowercased) -> shared-bank tenant id."""
+        raw = (self.board_tenant_map or "").strip()
+        if not raw:
+            return {}
+        if raw.startswith("{"):
+            try:
+                import json
+
+                decoded = json.loads(raw)
+            except ValueError:
+                return {}
+            return {
+                str(name).strip().lower(): int(tenant)
+                for name, tenant in decoded.items()
+                if str(tenant).strip().lstrip("-").isdigit()
+            }
+        parsed: dict[str, int] = {}
+        for pair in raw.split(","):
+            name, sep, tenant = pair.partition("=")
+            if not sep:
+                continue
+            try:
+                parsed[name.strip().lower()] = int(tenant.strip())
+            except ValueError:
+                continue
+        return parsed
+
+    def tenant_for_board(self, board: str | None) -> int:
+        """Resolve a board name to its shared-bank tenant id."""
+        if board:
+            resolved = self.board_tenants.get(board.strip().lower())
+            if resolved is not None:
+                return resolved
+        return self.default_sub_institute_id
+
 
     @field_validator("debug", mode="before")
     @classmethod

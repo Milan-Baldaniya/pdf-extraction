@@ -3,6 +3,7 @@ import { ChapterTableFill } from "@/components/chapter-table-fill"
 import { TopicTableFill } from "@/components/topic-table-fill"
 import { ConceptTableFill } from "@/components/concept-table-fill"
 import { SemanticTableFill } from "@/components/semantic-table-fill"
+import { QuestionBankTableFill } from "@/components/question-bank-table-fill"
 import { ExternalLink, FileText, ArrowLeft } from "lucide-react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
@@ -52,6 +53,7 @@ export default function TableFillPage() {
               <TabsTrigger value="topic" className="rounded-full px-8 py-2 text-sm font-medium transition-all duration-300 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm">Topics Queue</TabsTrigger>
               <TabsTrigger value="concept" className="rounded-full px-8 py-2 text-sm font-medium transition-all duration-300 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm">Concepts Queue</TabsTrigger>
               <TabsTrigger value="semantic" className="rounded-full px-8 py-2 text-sm font-medium transition-all duration-300 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm">Semantic Intelligence</TabsTrigger>
+              <TabsTrigger value="questionbank" className="rounded-full px-8 py-2 text-sm font-medium transition-all duration-300 data-[state=active]:bg-white dark:data-[state=active]:bg-black data-[state=active]:shadow-sm">Question Bank</TabsTrigger>
             </TabsList>
           </div>
           <TabsContent value="curriculum" className="mt-0 focus-visible:outline-none">
@@ -68,6 +70,9 @@ export default function TableFillPage() {
           </TabsContent>
           <TabsContent value="semantic" className="mt-0 focus-visible:outline-none">
             <SemanticTableFill />
+          </TabsContent>
+          <TabsContent value="questionbank" className="mt-0 focus-visible:outline-none">
+            <QuestionBankTableFill />
           </TabsContent>
         </Tabs>
       </main>

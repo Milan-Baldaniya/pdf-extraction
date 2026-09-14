@@ -225,7 +225,14 @@ def _split_options(body: str) -> tuple[str, list[dict[str, Any]]]:
             break
 
     if len(runs) < 2:
-        return body.strip(), []
+        # No option run, so there is no stem/option boundary to cut at -- but
+        # the solution still has to go. Returning `body` here is what put
+        # "... Solutions: (i) Coefficient of t = -25 ..." inside the question
+        # text of every narrative, short, long and case-study item; only MCQs
+        # escaped it, because their stem is sliced out of `region`, which is
+        # already trimmed. The solution is not lost: _extract_answer reads it
+        # off the full body into answer_text.
+        return region.strip(), []
 
     stem = region[: runs[0][0]].strip()
     options: list[dict[str, Any]] = []

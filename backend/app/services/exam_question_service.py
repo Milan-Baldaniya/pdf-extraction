@@ -17,6 +17,7 @@ screen calls for its preview.
 
 from __future__ import annotations
 
+import asyncio
 import json
 import logging
 from typing import Any
@@ -32,6 +33,7 @@ from app.services.publisher_service import (
     type_map,
 )
 from app.services.question_extractor import extract_questions, summarise
+from app.services.question_answer_splitter import repair_items
 
 logger = logging.getLogger(__name__)
 
@@ -182,8 +184,15 @@ def process_exam_questions(
     licence: str | None = None,
     publisher_code: str | None = None,
     publisher_name: str | None = None,
+    split_provider: str = "auto",
 ) -> dict[str, Any]:
-    """Parse, validate and (unless dry_run) persist one chapter's items."""
+    """Parse, validate and (unless dry_run) persist one chapter's items.
+
+    ``split_provider`` controls the question/answer repair pass that runs on
+    items the "Solution:" marker could not split: "auto" tries DeepSeek then
+    falls back to the structural splitter, "deepseek" fails loudly, "offline"
+    never calls the model.
+    """
     record = _load_extraction(extraction_id)
 
     md = record.get("md_content")
@@ -222,6 +231,14 @@ def process_exam_questions(
 
     parsed = extract_questions(md, attribution=source_label, licence=licence)
     items = parsed["items"]
+
+    # Repair pass. The parser cuts at "Solution:"/"Answer:"; this catches the
+    # items that print their answer with no lead-in -- typically a worked table
+    # filled in for the student. It runs BEFORE validation so a repaired item
+    # is judged on its split form, and before the write so the answer never
+    # reaches question_title.
+    split_report = asyncio.run(repair_items(items, provider=split_provider))
+
     reports = validate_items(items)
     failed_ordinals = {k for k, v in reports.items() if v["failed"]}
 
@@ -233,6 +250,7 @@ def process_exam_questions(
         "sub_institute_id": record["sub_institute_id"],
         "dry_run": dry_run,
         "parsed": len(items),
+        "answer_split": split_report,
         "blueprint": summary["blueprint"],
         "sections": {k: v["count"] for k, v in summary["sections"].items()},
         "question_types": summary["question_types"],

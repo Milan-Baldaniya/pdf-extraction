@@ -81,6 +81,13 @@ Rules:
        For each competency:
          - "code": The code of the competency, e.g. "C 1.1" or "C-1.1" (string). Generate a code like "COMP-1" if missing.
          - "description": The textual description of the competency/skill in its original language (string)
+- "chapter_learning_outcomes": A list of objects representing detailed chapter-wise competencies and learning outcomes defined throughout the document (especially under each chapter section/table).
+   For each chapter:
+     - "chapter_name": Core title of the chapter as written in section headings (string)
+     - "competency_outcomes": List of competency-to-learning-outcome mappings for that chapter.
+       For each mapping:
+         - "competency_code": Competency code(s) (e.g. "C-3.1", "C-4.2 and C-5.2", "C-8.2")
+         - "learning_outcomes": List of granular learning outcome statements listed under that competency for this chapter.
 
 Markdown Content:
 {md_content}
@@ -116,11 +123,26 @@ Return exactly a valid JSON object matching this schema:
         }}
       ]
     }}
+  ],
+  "chapter_learning_outcomes": [
+    {{
+      "chapter_name": str,
+      "competency_outcomes": [
+        {{
+          "competency_code": str,
+          "learning_outcomes": [str]
+        }}
+      ]
+    }}
   ]
 }}
 """
-        response = call_deepseek(prompt, system_prompt="You are a helpful assistant. Return ONLY a JSON object.", response_format={"type": "json_object"})
-        data = response.get("data", {})
+        try:
+            response = call_deepseek(prompt, system_prompt="You are a helpful assistant. Return ONLY a JSON object.", response_format={"type": "json_object"})
+            data = response.get("data", {})
+        except Exception as e:
+            logger.warning(f"LLM call failed for extraction {extraction_id}: {e}. Structural fallback will be used.")
+            data = {}
 
         framework = data.get("framework")
 
@@ -233,67 +255,28 @@ Return exactly a valid JSON object matching this schema:
                     })
             db.commit()
 
-        # Step 3: Parse and insert curricular goals and competencies
+        # Step 3: Parse and insert curricular goals, competencies, and chapter-wise learning outcomes
         curricular_goals = data.get("curricular_goals", [])
-        if curricular_goals and curriculum_id:
-            # Clean up old outcomes for this curriculum to prevent duplicates
-            db.execute(
-                text("DELETE FROM lms_learning_outcomes WHERE curriculum_id = :cid"),
-                {"cid": curriculum_id}
+        chapter_learning_outcomes = data.get("chapter_learning_outcomes", [])
+        
+        # If LLM omitted outcomes or failed, run structural fallback parser
+        if not curricular_goals or not chapter_learning_outcomes:
+            fb_goals, fb_chapter_los = parse_curriculum_md_fallback(md_content)
+            if not curricular_goals:
+                curricular_goals = fb_goals
+            if not chapter_learning_outcomes:
+                chapter_learning_outcomes = fb_chapter_los
+
+        if curriculum_id:
+            save_learning_outcomes(
+                db=db,
+                curriculum_id=curriculum_id,
+                extraction_id=extraction_id,
+                standard_id=row.standard_id,
+                subject_id=row.subject_id,
+                curricular_goals=curricular_goals,
+                chapter_learning_outcomes=chapter_learning_outcomes
             )
-            db.commit()
-
-            insert_outcome_sql = text("""
-                INSERT INTO lms_learning_outcomes 
-                (curriculum_id, extraction_id, standard_id, subject_id, parent_id, code, type, description, created_at, updated_at)
-                VALUES 
-                (:curriculum_id, :extraction_id, :standard_id, :subject_id, :parent_id, :code, :type, :description, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
-            """)
-            seen_codes = set()
-            def get_unique_code(base_code, prefix="CG"):
-                code = str(base_code).strip()
-                if not code or code in seen_codes:
-                    idx = 1
-                    while True:
-                        new_code = f"{prefix}-{idx}"
-                        if new_code not in seen_codes:
-                            code = new_code
-                            break
-                        idx += 1
-                seen_codes.add(code)
-                return code
-
-            for cg in curricular_goals:
-                # Insert the Curricular Goal
-                cg_code = get_unique_code(cg.get("code", ""), "CG")
-                res_cg = db.execute(insert_outcome_sql, {
-                    "curriculum_id": curriculum_id,
-                    "extraction_id": extraction_id,
-                    "standard_id": row.standard_id,
-                    "subject_id": row.subject_id,
-                    "parent_id": None,
-                    "code": cg_code,
-                    "type": "Curricular Goal",
-                    "description": cg.get("description", "")
-                })
-                
-                # Fetch the ID of the inserted goal directly from cursor's lastrowid
-                cg_id = res_cg.lastrowid
-                
-                # Insert its Competencies
-                for comp in cg.get("competencies", []):
-                    comp_code = get_unique_code(comp.get("code", ""), "COMP")
-                    db.execute(insert_outcome_sql, {
-                        "curriculum_id": curriculum_id,
-                        "extraction_id": extraction_id,
-                        "standard_id": row.standard_id,
-                        "subject_id": row.subject_id,
-                        "parent_id": cg_id,
-                        "code": comp_code,
-                        "type": "Competency",
-                        "description": comp.get("description", "")
-                    })
-            db.commit()
 
         # Step 4: Fetch exactly what we just inserted so the response format matches perfectly
         outcomes = db.execute(
@@ -376,3 +359,185 @@ def get_curriculum_data_by_extraction_id(extraction_id: int):
                 "learning_outcomes": [dict(o) for o in outcomes]
             }
         }
+
+
+def parse_curriculum_md_fallback(md_content: str):
+    """Fallback structural parser for CGs, Cs, and chapter-wise tables in md_content."""
+    import re, html
+    
+    pos_start = md_content.find("## Page 2")
+    pos_end = md_content.find("COURSE STRUCTURE")
+    cg_text = md_content[pos_start:pos_end] if (pos_start != -1 and pos_end != -1) else md_content
+
+    cg_matches = list(re.finditer(r'(CG\s*\d+)\s*[–-]\s*(.*?)(?=\s*CG\s*\d+|$)', cg_text, re.DOTALL))
+    curricular_goals = []
+
+    for m in cg_matches:
+        code = m.group(1).strip()
+        body = m.group(2).strip()
+        c_pos = re.search(r'C\s*\d+\.\d+', body)
+        desc = body[:c_pos.start()].strip().strip('–-').strip() if c_pos else body.split('\n')[0].strip()
+
+        comps = []
+        comp_matches = list(re.finditer(r'(C\s*\d+\.\d+)\s*[–-]?\s*(.*?)(?=\s*C\s*\d+\.\d+|\s*CG\s*\d+|$)', body, re.DOTALL))
+        for cm in comp_matches:
+            comps.append({"code": cm.group(1).strip(), "description": ' '.join(cm.group(2).split()).strip()})
+
+        curricular_goals.append({"code": code, "description": desc, "competencies": comps})
+
+    def clean_html(raw):
+        return ' '.join(html.unescape(re.sub(r'<[^>]+>', ' ', raw)).split()).strip()
+
+    chapter_sections = re.split(r'\n(?=#\s+)', md_content)
+    chapter_los = []
+
+    for sec in chapter_sections:
+        head_match = re.match(r'#\s+([^\n]+)', sec)
+        if not head_match: continue
+        header = head_match.group(1).strip()
+        if any(ignore in header.upper() for ignore in ['PRACTICALS', 'PRESCRIBED', 'COURSE STRUCTURE', 'SCIENCE SUBJECT CODE']):
+            continue
+
+        chap_title = re.sub(r'No\.\s*of\s*Periods.*', '', header, flags=re.IGNORECASE).strip()
+        tr_matches = re.findall(r'<tr[^>]*>(.*?)</tr>', sec, re.DOTALL | re.IGNORECASE)
+        comp_outcomes = []
+        
+        for tr in tr_matches:
+            td_texts = [clean_html(td) for td in re.findall(r'<td[^>]*>(.*?)</td>', tr, re.DOTALL | re.IGNORECASE)]
+            if len(td_texts) < 2: continue
+            
+            comp_found, lo_text = None, None
+            for i, text_val in enumerate(td_texts):
+                if re.findall(r'C\s*[-–]?\s*\d+\.\d+', text_val):
+                    comp_found = text_val
+                    lo_text = ' '.join(td_texts[i+1:])
+                    break
+            
+            if comp_found and lo_text and not ('Learning Outcomes' in lo_text and len(lo_text) < 30):
+                raw_outcomes = re.split(r'(?=\b(?:Differentiate|Describe|Explain|Demonstrate|Prepare|Identify|Cite|Apply|Discuss|Recognise|Pose|Exhibit|Carry out|Analyse|Formulate|Accurately|Represent|Communicate|Relate|Establish|Illustrate|Classify|Distinguish|Use|Handle|Draw|Display|Correlate|Poses|Calculate|Interpret|State|Name|Write|Derive)\b)', lo_text)
+                cleaned_los = [lo.strip() for lo in raw_outcomes if len(lo.strip()) > 5]
+                if cleaned_los:
+                    comp_outcomes.append({"competency_code": comp_found, "learning_outcomes": cleaned_los})
+        
+        if comp_outcomes:
+            chapter_los.append({"chapter_name": chap_title, "competency_outcomes": comp_outcomes})
+
+    return curricular_goals, chapter_los
+
+
+def save_learning_outcomes(db, curriculum_id: int, extraction_id: int, standard_id: int, subject_id: int, curricular_goals: list, chapter_learning_outcomes: list):
+    """Save Curricular Goals, Competencies, and Chapter Learning Outcomes to lms_learning_outcomes."""
+    import re
+    db.execute(text("DELETE FROM lms_learning_outcomes WHERE curriculum_id = :cid"), {"cid": curriculum_id})
+    db.commit()
+
+    chaps_in_db = db.execute(text("""
+        SELECT cm.id, cm.chapter_name
+        FROM chapter_master cm
+        JOIN lms_units u ON u.id = cm.unit_id
+        WHERE u.curriculum_id = :cid
+    """), {"cid": curriculum_id}).fetchall()
+
+    db_chap_map = {}
+    for c_id, c_name in chaps_in_db:
+        db_chap_map[c_name.lower()] = c_id
+        first_word = c_name.split(':')[0].split()[0].lower()
+        if first_word not in db_chap_map:
+            db_chap_map[first_word] = c_id
+
+    insert_outcome_sql = text("""
+        INSERT INTO lms_learning_outcomes 
+        (curriculum_id, extraction_id, standard_id, subject_id, chapter_id, parent_id, code, type, description, created_at, updated_at)
+        VALUES 
+        (:curriculum_id, :extraction_id, :standard_id, :subject_id, :chapter_id, :parent_id, :code, :type, :description, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
+    """)
+
+    seen_codes = set()
+    def get_unique_code(base_code, prefix="CG"):
+        code = str(base_code).strip().replace('–', '-').replace(' ', '')
+        if not code or code in seen_codes:
+            idx = 1
+            while True:
+                new_code = f"{prefix}-{idx}"
+                if new_code not in seen_codes:
+                    code = new_code
+                    break
+                idx += 1
+        seen_codes.add(code)
+        return code
+
+    comp_code_map = {}
+
+    for cg in curricular_goals:
+        cg_code = get_unique_code(cg.get("code", ""), "CG")
+        res_cg = db.execute(insert_outcome_sql, {
+            "curriculum_id": curriculum_id,
+            "extraction_id": extraction_id,
+            "standard_id": standard_id,
+            "subject_id": subject_id,
+            "chapter_id": 0,
+            "parent_id": None,
+            "code": cg_code,
+            "type": "goal",
+            "description": cg.get("description", "")
+        })
+        cg_id = res_cg.lastrowid
+
+        for comp in cg.get("competencies", []):
+            comp_code = get_unique_code(comp.get("code", ""), "COMP")
+            res_comp = db.execute(insert_outcome_sql, {
+                "curriculum_id": curriculum_id,
+                "extraction_id": extraction_id,
+                "standard_id": standard_id,
+                "subject_id": subject_id,
+                "chapter_id": 0,
+                "parent_id": cg_id,
+                "code": comp_code,
+                "type": "competency",
+                "description": comp.get("description", "")
+            })
+            comp_id = res_comp.lastrowid
+            norm_code = comp_code.lower().replace(' ', '').replace('-', '')
+            comp_code_map[norm_code] = comp_id
+            comp_code_map[comp_code.lower()] = comp_id
+
+    for ch_item in chapter_learning_outcomes:
+        raw_name = ch_item.get("chapter_name", "").lower()
+        target_chap_id = 0
+        for db_name, cid in db_chap_map.items():
+            if db_name in raw_name or raw_name in db_name:
+                target_chap_id = cid
+                break
+        
+        for mapping in ch_item.get("competency_outcomes", []):
+            comp_raw_code = mapping.get("competency_code", "")
+            parsed_codes = re.findall(r'C\s*[-–]?\s*\d+\.\d+', comp_raw_code)
+            if not parsed_codes:
+                parsed_codes = [comp_raw_code]
+
+            for c_code in parsed_codes:
+                norm_c = c_code.lower().replace(' ', '').replace('-', '').replace('–', '')
+                parent_comp_id = comp_code_map.get(norm_c) or comp_code_map.get(c_code.lower())
+                
+                if not parent_comp_id:
+                    cg_prefix = norm_c[:2] if len(norm_c) >= 2 else "c1"
+                    parent_comp_id = next((v for k, v in comp_code_map.items() if k.startswith(cg_prefix)), list(comp_code_map.values())[0] if comp_code_map else None)
+
+                for idx, lo_desc in enumerate(mapping.get("learning_outcomes", [])):
+                    clean_code_base = c_code.upper().replace(' ', '').replace('–', '-')
+                    lo_code = get_unique_code(f"{clean_code_base}-LO-{idx+1}", "LO")
+                    
+                    db.execute(insert_outcome_sql, {
+                        "curriculum_id": curriculum_id,
+                        "extraction_id": extraction_id,
+                        "standard_id": standard_id,
+                        "subject_id": subject_id,
+                        "chapter_id": target_chap_id,
+                        "parent_id": parent_comp_id,
+                        "code": lo_code,
+                        "type": "learning_outcome",
+                        "description": lo_desc
+                    })
+
+    db.commit()
+

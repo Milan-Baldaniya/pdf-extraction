@@ -554,6 +554,12 @@ _DISCRIMINATOR_WORDS = {
     "calculating", "calculate", "rounding", "round",
     "comparing", "ordering", "simplifying", "converting", "solving",
     "factorising", "factorizing", "squaring", "cubing",
+    # negations. A method and the same method done WITHOUT some tool are two
+    # sections, and the negated name is always the longer one, so without these
+    # the general name swallows it outright: std 9 Mathematics chapter 4 lists
+    # "4.5 Factorisation using algebra tiles" and "4.6 Factorisation without
+    # using algebra tiles", and 4.6 was dropped as a repeat of 4.5.
+    "without", "not", "non", "no",
 }
 
 

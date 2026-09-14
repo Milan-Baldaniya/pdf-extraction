@@ -73,7 +73,28 @@ _FORM_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
 _ITEM_RE = re.compile(
     r"(?:(?<=\s)|(?<=^)|(?<=>))(\d{1,3})\s*[.)]\s+(?=[A-Z(\$\\«\"'‘“]|[A-Za-z]{3,})"
 )
-_OPTION_RE = re.compile(r"\(\s*([a-dA-D])\s*\)\s*")
+
+# Several chapters number their items "Q1.", "Q.5", "Q2.Assertion:" instead of
+# "1.". Rather than teach _ITEM_RE four more shapes -- and risk a decimal or a
+# section number like "7.2" opening an item -- the prefix is normalised away
+# once, before any parsing, into the "5. " form the rest of the module expects.
+# The trailing letter requirement is what keeps "Q3 = 40" from being rewritten.
+_Q_PREFIX_RE = re.compile(
+    r"(?:(?<=\s)|(?<=^)|(?<=>))[Qq]\s*\.?\s*(\d{1,3})\s*[.)]?\s*"
+    r"(?=[A-Z(\$\\«\"'‘“]|[A-Za-z]{3,})"
+)
+
+
+def _normalise_item_numbers(text: str) -> str:
+    """Rewrite Q-prefixed item numbers to the plain "5. " form."""
+    return _Q_PREFIX_RE.sub(lambda m: f"{m.group(1)}. ", text)
+
+
+# Options are written "(a) ..." in some chapters and "a) ..." in others, so the
+# opening bracket is optional. A bare "a)" is loose on its own -- "(2, a)"
+# would match -- but _split_options only accepts a run that starts at A and
+# climbs, which prose and coordinate pairs do not do.
+_OPTION_RE = re.compile(r"\(?\s*([a-dA-D])\s*\)\s*")
 _SUBITEM_RE = re.compile(r"\(\s*(i{1,3}|iv|v|vi{0,3})\s*\)", re.IGNORECASE)
 _OR_RE = re.compile(r"(?:(?<=\s)|(?<=^))OR(?=\s)")
 _ASSERT_RE = re.compile(r"Assertion\s*\(?\s*A\s*\)?\s*[:\-–]", re.IGNORECASE)
@@ -174,6 +195,72 @@ def _find_sections(text: str) -> list[dict[str, Any]]:
                 "form": form,
                 "marks": int(marks_match.group(1)) if marks_match else None,
                 "heading": re.sub(r"\s+", " ", text[mark["at"]: mark["end"] + 60]).strip()[:191],
+                "start": mark["end"],
+                "end": marks[i + 1]["at"] if i + 1 < len(marks) else len(text),
+            }
+        )
+    return sections or _synthesise_sections(text)
+
+
+def _synthesise_sections(text: str) -> list[dict[str, Any]]:
+    """Segment a chapter that never writes "Section A".
+
+    Five of the eight chapters in this corpus have no Section headings at all;
+    they head their question runs with the form instead ("MULTIPLE CHOICE
+    QUESTIONS", "Short Type Questions (3 marks each)", "Case Based Study
+    Question"). Without this they yield zero items, because extract_questions
+    iterates sections.
+
+    Like everything else here this works on the STREAM, not on lines: MinerU
+    merges a whole page into one markdown line, so a heading sits mid-line
+    between the previous answer and the next item number and no line-anchored
+    pattern will ever see it.
+
+    The discriminator against prose that merely says "true / false" is that a
+    real heading is immediately followed by the first item number of its run --
+    "LONG ANSWER TYPE QUESTIONS (5 marks each) 31. Find ...". A mention inside
+    an item ("23. TRUE / FALSE ii. The origin ...") is not.
+
+    The form vocabulary is _FORM_PATTERNS -- the same list that labels a real
+    section -- and FORM_TO_SECTION supplies the CBSE section letter and marks,
+    so a synthesised section carries the same fields as a printed one and
+    nothing downstream needs to know the difference.
+    """
+    marks: list[dict[str, Any]] = []
+    for name, pattern in _FORM_PATTERNS:
+        for hit in pattern.finditer(text):
+            # Allow a "(2 marks each)" and a little punctuation to sit between
+            # the heading and the number that opens its first item.
+            window = text[hit.end(): hit.end() + 60]
+            if not _ITEM_RE.search(window):
+                continue
+            marks.append({"at": hit.start(), "end": hit.end(), "form": name})
+
+    marks.sort(key=lambda m: m["at"])
+    # Two forms can match the same heading ("VERY Short Type Questions" hits
+    # both very_short and short). The earlier, more specific one wins.
+    deduped: list[dict[str, Any]] = []
+    for mark in marks:
+        if deduped and mark["at"] - deduped[-1]["at"] < 30:
+            continue
+        deduped.append(mark)
+    marks = deduped
+
+    if not marks:
+        return []
+
+    sections: list[dict[str, Any]] = []
+    for i, mark in enumerate(marks):
+        letter, default_marks = FORM_TO_SECTION.get(mark["form"], ("A", 1))
+        tail = text[mark["end"]: mark["end"] + 120]
+        marks_match = _MARKS_HEADING_RE.search(tail)
+        sections.append(
+            {
+                "letter": letter,
+                "form": mark["form"],
+                # A stated "(2 marks each)" always beats the blueprint default.
+                "marks": int(marks_match.group(1)) if marks_match else default_marks,
+                "heading": re.sub(r"\s+", " ", text[mark["at"]: mark["end"]]).strip()[:191],
                 "start": mark["end"],
                 "end": marks[i + 1]["at"] if i + 1 < len(marks) else len(text),
             }
@@ -304,10 +391,37 @@ def extract_questions(
     if not md_content or not md_content.strip():
         return {"items": [], "answer_key_found": False, "warnings": ["md_content was empty"]}
 
+    # "Q1." / "Q.5" become "1. " before anything else looks at the stream.
+    md_content = _normalise_item_numbers(md_content)
+
     pages = _page_index(md_content)
-    key_match = _ANSWER_BLOCK_RE.search(md_content)
-    region = md_content[: key_match.start()] if key_match else md_content
-    answer_key = _parse_answer_key(md_content[key_match.end():]) if key_match else {}
+    # The LAST answer heading, not the first. Some chapters print a key after
+    # each run of questions rather than one at the end, and cutting at the
+    # first heading throws away every question that follows it -- in chapter 6
+    # that was 34 of 38 items. Cutting at the last one keeps the questions and
+    # still finds the final key; an interleaved earlier key stays in the
+    # question region, where the inline "Answer:" handling picks it up.
+    key_match = None
+    for key_match in _ANSWER_BLOCK_RE.finditer(md_content):
+        pass
+    if key_match:
+        region = md_content[: key_match.start()]
+        answer_key = _parse_answer_key(md_content[key_match.end():])
+    else:
+        # No "ANSWERS" heading and no attempt to guess where an unlabelled key
+        # starts. Guessing was tried and removed: chapter 1 ends with answers
+        # that repeat the question numbers rather than restarting, so there is
+        # no restart to find, and every heuristic that did fire cut mid-question
+        # on a coordinate pair -- "C(2, 1) form an isosceles triangle" reads
+        # exactly like item 1 opening. Losing questions is far worse than
+        # losing answers: an answerless item is held for a teacher, who can add
+        # the answer, while a truncated chapter silently loses its last third.
+        #
+        # The answer block does not become phantom items either: _monotonic_items
+        # only opens an item that continues the run, and a block restating
+        # "38." after the questions reached 39 does not.
+        region = md_content
+        answer_key = {}
 
     items: list[dict[str, Any]] = []
     warnings: list[str] = []

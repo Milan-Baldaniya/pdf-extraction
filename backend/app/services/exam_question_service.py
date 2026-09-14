@@ -18,6 +18,8 @@ screen calls for its preview.
 from __future__ import annotations
 
 import asyncio
+from collections.abc import Coroutine
+from concurrent.futures import ThreadPoolExecutor
 import json
 import logging
 from typing import Any
@@ -173,6 +175,26 @@ def validate_items(items: list[dict[str, Any]]) -> dict[int, dict[str, Any]]:
     return reports
 
 
+def _run_sync(coro: "Coroutine[Any, Any, Any]") -> Any:
+    """Await a coroutine from synchronous code, loop or no loop.
+
+    process_exam_questions is sync by design -- it is regex parsing plus one DB
+    transaction -- but the answer splitter it calls is async. The API reaches
+    here through asyncio.to_thread, where there is no running loop and
+    asyncio.run works; anything calling this function directly from async code
+    is already inside one, and asyncio.run raises there. Hand it to a worker
+    thread in that case rather than making every caller know which world it is
+    in.
+    """
+    try:
+        asyncio.get_running_loop()
+    except RuntimeError:
+        return asyncio.run(coro)
+
+    with ThreadPoolExecutor(max_workers=1) as pool:
+        return pool.submit(asyncio.run, coro).result()
+
+
 def process_exam_questions(
     extraction_id: int,
     *,
@@ -237,7 +259,7 @@ def process_exam_questions(
     # filled in for the student. It runs BEFORE validation so a repaired item
     # is judged on its split form, and before the write so the answer never
     # reaches question_title.
-    split_report = asyncio.run(repair_items(items, provider=split_provider))
+    split_report = _run_sync(repair_items(items, provider=split_provider))
 
     reports = validate_items(items)
     failed_ordinals = {k for k, v in reports.items() if v["failed"]}

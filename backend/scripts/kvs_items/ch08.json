@@ -1,0 +1,201 @@
+{
+  "extraction_id": 188,
+  "chapter": 8,
+  "note": "Item 12's options collapsed into one LaTeX line; they are split back on the printed (a)/(b)/(c)/(d) markers and confirmed by the key, which gives (b). Items 36-38 are case studies whose answers the source does not print; they are stored with the question and held for a teacher.",
+  "items": [
+    {"number": "1", "form": "mcq", "marks": 1, "page": 14, "section_heading": "Questions for Practice - MCQ",
+     "stem": "A sequence is:",
+     "options": [{"label": "A", "text": "a random collection of numbers."}, {"label": "B", "text": "an ordered list of numbers"}, {"label": "C", "text": "a graph"}, {"label": "D", "text": "a table"}],
+     "correct_option": "B"},
+
+    {"number": "2", "form": "mcq", "marks": 1, "page": 15,
+     "stem": "A recursive rule defines:",
+     "options": [{"label": "A", "text": "only the nth term"}, {"label": "B", "text": "first term and relation with previous term"}, {"label": "C", "text": "only common difference"}, {"label": "D", "text": "only sum"}],
+     "correct_option": "B"},
+
+    {"number": "3", "form": "mcq", "marks": 1, "page": 15,
+     "stem": "Write the general term of the sequence: 4, 7, 10, 13, ...",
+     "options": [{"label": "A", "text": "$3n + 1$"}, {"label": "B", "text": "$n + 3$"}, {"label": "C", "text": "$7n + 1$"}, {"label": "D", "text": "$n + 4$"}],
+     "correct_option": "A"},
+
+    {"number": "4", "form": "mcq", "marks": 1, "page": 15,
+     "stem": "If $p - 1$, $p + 3$, $3p - 1$ are in AP, then p is equal to:",
+     "options": [{"label": "A", "text": "2"}, {"label": "B", "text": "3"}, {"label": "C", "text": "4"}, {"label": "D", "text": "5"}],
+     "correct_option": "C"},
+
+    {"number": "5", "form": "mcq", "marks": 1, "page": 15,
+     "stem": "In an AP, if the common difference $(d) = -4$ and the seventh term $(a_{7})$ is 4, then the first term is:",
+     "options": [{"label": "A", "text": "32"}, {"label": "B", "text": "28"}, {"label": "C", "text": "24"}, {"label": "D", "text": "20"}],
+     "correct_option": "B"},
+
+    {"number": "6", "form": "mcq", "marks": 1, "page": 15,
+     "stem": "In the progression 65, 61, 57, ... the first negative term is which term?",
+     "options": [{"label": "A", "text": "18"}, {"label": "B", "text": "19"}, {"label": "C", "text": "20"}, {"label": "D", "text": "17"}],
+     "correct_option": "A"},
+
+    {"number": "7", "form": "mcq", "marks": 1, "page": 15,
+     "stem": "Two APs have the same common difference. The first term of one of these is $-1$ and that of the other is $-8$. Then the difference between their 4th terms is:",
+     "options": [{"label": "A", "text": "9"}, {"label": "B", "text": "1"}, {"label": "C", "text": "8"}, {"label": "D", "text": "7"}],
+     "correct_option": "D"},
+
+    {"number": "8", "form": "mcq", "marks": 1, "page": 15,
+     "stem": "The 9th term of the GP $2, 2\\sqrt{2}, 4, 8\\sqrt{2}, \\ldots$ is:",
+     "options": [{"label": "A", "text": "64"}, {"label": "B", "text": "16"}, {"label": "C", "text": "128"}, {"label": "D", "text": "32"}],
+     "correct_option": "D"},
+
+    {"number": "9", "form": "mcq", "marks": 1, "page": 15,
+     "stem": "Which term of the sequence 3, 6, 12, ... is 768?",
+     "options": [{"label": "A", "text": "6"}, {"label": "B", "text": "10"}, {"label": "C", "text": "8"}, {"label": "D", "text": "9"}],
+     "correct_option": "D"},
+
+    {"number": "10", "form": "mcq", "marks": 1, "page": 15,
+     "stem": "The third term of a geometric progression is 4. The product of the first five terms is:",
+     "options": [{"label": "A", "text": "$4^{5}$"}, {"label": "B", "text": "$4^{6}$"}, {"label": "C", "text": "$4^{3}$"}, {"label": "D", "text": "$4^{4}$"}],
+     "correct_option": "C", "answer": "(c) $4^{5}$ (or 1024) as printed in the source key."},
+
+    {"number": "11", "form": "mcq", "marks": 1, "page": 16,
+     "stem": "In Stage n of the Sierpinski triangle, if Stage 0 has 1 black triangle, how many black triangles are there at Stage n?",
+     "options": [{"label": "A", "text": "$2^{n}$"}, {"label": "B", "text": "$3^{n}$"}, {"label": "C", "text": "$4^{n}$"}, {"label": "D", "text": "$3^{n-1}$"}],
+     "correct_option": "B"},
+
+    {"number": "12", "form": "mcq", "marks": 1, "page": 16,
+     "stem": "If the initial area of Stage 0 of the Sierpinski triangle is 1 square unit, what is the area of the black region at Stage n?",
+     "options": [{"label": "A", "text": "$(1/2)^{n}$"}, {"label": "B", "text": "$(3/4)^{n}$"}, {"label": "C", "text": "$(1/4)^{n}$"}, {"label": "D", "text": "$1 - n/4$"}],
+     "correct_option": "B"},
+
+    {"number": "13", "form": "mcq", "marks": 1, "page": 16,
+     "stem": "What is the sum of all 2-digit numbers divisible by 3?",
+     "options": [{"label": "A", "text": "1655"}, {"label": "B", "text": "1665"}, {"label": "C", "text": "1565"}, {"label": "D", "text": "1680"}],
+     "correct_option": "B"},
+
+    {"number": "14", "form": "mcq", "marks": 1, "page": 16,
+     "stem": "In a Geometric Progression $a, ar, ar^{2}, \\ldots$, the formula for the n-th term is:",
+     "options": [{"label": "A", "text": "$ar^{n}$"}, {"label": "B", "text": "$ar^{n-1}$"}, {"label": "C", "text": "$a + r^{n-1}$"}, {"label": "D", "text": "$(ar)^{n-1}$"}],
+     "correct_option": "B"},
+
+    {"number": "15", "form": "mcq", "marks": 1, "page": 16,
+     "stem": "If $S_{n} = 5n - 2$, why is 471 not a term of this sequence?",
+     "options": [
+       {"label": "A", "text": "because $n = 94$ gives 468"},
+       {"label": "B", "text": "because solving $5n - 2 = 471$ gives $n = 94.6$"},
+       {"label": "C", "text": "because 471 is odd"},
+       {"label": "D", "text": "because the sequence is decreasing"}],
+     "correct_option": "B", "answer": "Solving $5n - 2 = 471$ gives $n = 94.6$, which is not an integer."},
+
+    {"number": "16", "form": "mcq", "marks": 1, "page": 16,
+     "stem": "The recursive formula for the AP 1, 5, 9, 13, ... is:",
+     "options": [
+       {"label": "A", "text": "$t_{1} = 1$, $t_{n} = t_{n-1} + 4$"},
+       {"label": "B", "text": "$t_{1} = 1$, $t_{n} = 4t_{n-1}$"},
+       {"label": "C", "text": "$t_{1} = 5$, $t_{n} = t_{n-1} + 1$"},
+       {"label": "D", "text": "$t_{1} = 1$, $t_{n} = t_{n-1} + 3$"}],
+     "correct_option": "A"},
+
+    {"number": "17", "form": "mcq", "marks": 1, "page": 16,
+     "stem": "In a fractal, the number of elements triples at each step. If the first step has 4 elements then the number of elements in the 4th step is:",
+     "options": [{"label": "A", "text": "87"}, {"label": "B", "text": "108"}, {"label": "C", "text": "99"}, {"label": "D", "text": "101"}],
+     "correct_option": "B"},
+
+    {"number": "18", "form": "mcq", "marks": 1, "page": 16,
+     "stem": "In a square fractal pattern, the number of smaller squares formed at each step follows a GP with first term 1 and common ratio 8. The number of squares in the 5th step is:",
+     "options": [{"label": "A", "text": "512"}, {"label": "B", "text": "4096"}, {"label": "C", "text": "32768"}, {"label": "D", "text": "64"}],
+     "correct_option": "B"},
+
+    {"number": "19", "form": "assertion_reason", "marks": 1, "page": 17,
+     "stem": "Assertion (A): 0 is the 8th term of the progression 21, 18, 15, .... Reason (R): The common difference of the sequence 21, 18, 15, ... is 3.",
+     "assertion": "0 is the 8th term of the progression 21, 18, 15, ....",
+     "reason": "The common difference of the sequence 21, 18, 15, ... is 3.",
+     "options": [
+       {"label": "A", "text": "Both (A) and (R) are true, and (R) is the correct explanation of (A)."},
+       {"label": "B", "text": "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A)."},
+       {"label": "C", "text": "(A) is true, but (R) is false."},
+       {"label": "D", "text": "(A) is false, but (R) is true."}],
+     "correct_option": "C", "answer": "(A) is true, but (R) is false: the common difference is $-3$, not 3."},
+
+    {"number": "20", "form": "assertion_reason", "marks": 1, "page": 17,
+     "stem": "Assertion (A): For the sequence defined by $S_{n} = 5n - 2$, the number 471 is a valid term. Reason (R): A number belongs to a sequence if and only if its calculated term position n is a positive integer.",
+     "assertion": "For the sequence defined by $S_{n} = 5n - 2$, the number 471 is a valid term.",
+     "reason": "A number belongs to a sequence if and only if its calculated term position n is a positive integer.",
+     "options": [
+       {"label": "A", "text": "Both (A) and (R) are true, and (R) is the correct explanation of (A)."},
+       {"label": "B", "text": "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A)."},
+       {"label": "C", "text": "(A) is true, but (R) is false."},
+       {"label": "D", "text": "(A) is false, but (R) is true."}],
+     "correct_option": "D"},
+
+    {"number": "21", "form": "very_short", "marks": 2, "page": 17, "section_heading": "Very Short Answer Questions",
+     "stem": "Find the first four terms of the sequence given by the recursive rule $u_{1} = 1$, $u_{n} = 2u_{n-1} + 3$ for $n \\geq 2$.",
+     "answer": "$u_{1} = 1$, $u_{2} = 2(1) + 3 = 5$, $u_{3} = 2(5) + 3 = 13$, $u_{4} = 2(13) + 3 = 29$. First four terms: 1, 5, 13, 29."},
+
+    {"number": "22", "form": "very_short", "marks": 2, "page": 17,
+     "stem": "Find the explicit formula for the n-th term of the GP: 5, 25, 125, ...",
+     "answer": "First term $a = 5$, common ratio $r = 5$. Explicit formula: $t_{n} = 5 \\times 5^{(n-1)} = 5^{n}$."},
+
+    {"number": "23", "form": "very_short", "marks": 2, "page": 17,
+     "stem": "Consider the sequence given by the explicit rule $t_{n} = 3n - 7$. (i) Find its 12th term. (ii) Which term of the sequence is 332?",
+     "sub_parts": ["i", "ii"],
+     "answer": "(i) $t_{12} = 3(12) - 7 = 29$. (ii) $3n - 7 = 332 \\Rightarrow 3n = 339 \\Rightarrow n = 113$, so 332 is the 113th term."},
+
+    {"number": "24", "form": "very_short", "marks": 2, "page": 17,
+     "stem": "An AP consists of 50 terms in which the 3rd term is 12 and the last term is 106. Find the 29th term.",
+     "answer": "$a + 2d = 12$ and $a + 49d = 106$. Subtracting, $47d = 94$, so $d = 2$ and $a = 8$. Then $a_{29} = 8 + 28(2) = 64$."},
+
+    {"number": "25", "form": "very_short", "marks": 2, "page": 17,
+     "stem": "Determine whether 0 is a term of the AP: 21, 18, 15, ...",
+     "answer": "$a = 21$, $d = -3$. Set $a_{n} = 0$: $21 + (n-1)(-3) = 0 \\Rightarrow 21 = 3(n-1) \\Rightarrow n - 1 = 7 \\Rightarrow n = 8$. Yes, 0 is the 8th term of the AP."},
+
+    {"number": "26", "form": "short", "marks": 3, "page": 18, "section_heading": "Short Answer Questions",
+     "stem": "Find the sum of the first n natural numbers, $S_{n} = 1 + 2 + 3 + \\ldots + n$.",
+     "answer": "Let $S_{n} = 1 + 2 + \\ldots + n$ and reverse the order: $S_{n} = n + (n-1) + \\ldots + 1$. Adding term by term, $2S_{n} = (n+1)$ taken n times, so $2S_{n} = n(n+1)$ and $S_{n} = n(n+1)/2$."},
+
+    {"number": "27", "form": "short", "marks": 3, "page": 18,
+     "stem": "Find the 31st term of an AP whose 11th term is 38 and 16th term is 73.",
+     "answer": "$a + 10d = 38$ and $a + 15d = 73$. Subtracting, $5d = 35$, so $d = 7$ and $a = 38 - 70 = -32$. Then $a_{31} = -32 + 30(7) = 178$."},
+
+    {"number": "28", "form": "short", "marks": 3, "page": 18,
+     "stem": "The sum of the first three terms of a GP is 26, and the sum of their squares is 364. Find the terms of the GP.",
+     "answer": "Let the terms be $a$, $ar$, $ar^{2}$, so $a(1 + r + r^{2}) = 26$ and $a^{2}(1 + r^{2} + r^{4}) = 364$. Dividing the square of the first by the second gives $(1 + r + r^{2})/(1 - r + r^{2}) = 13/7$, leading to $3r^{2} - 10r + 3 = 0$, so $r = 3$ or $r = 1/3$. If $r = 3$: $13a = 26 \\Rightarrow a = 2$, terms 2, 6, 18. If $r = 1/3$: terms 18, 6, 2."},
+
+    {"number": "29", "form": "short", "marks": 3, "page": 18,
+     "stem": "If the first term and the $n^{\\mathrm{th}}$ term of a G.P. are a and b respectively, and P is the product of the first n terms, then prove that $P^{2} = (ab)^{n}$.",
+     "answer": "$P = a \\times (ar) \\times (ar^{2}) \\times \\ldots \\times (ar^{n-1}) = a^{n} \\times r^{(0+1+\\ldots+n-1)}$, and the sum of exponents of r is $n(n-1)/2$. So $P = a^{n} r^{n(n-1)/2}$ and $P^{2} = a^{2n} r^{n(n-1)} = [a^{2}r^{n-1}]^{n} = [a \\times (ar^{n-1})]^{n} = (ab)^{n}$."},
+
+    {"number": "30", "form": "short", "marks": 3, "page": 18,
+     "stem": "The 4th, 6th and last term of a G.P. are 10, 40 and 640 respectively. If the common ratio is positive, find the first term, common ratio and the number of terms of the series.",
+     "answer": "$ar^{3} = 10$ and $ar^{5} = 40$. Dividing, $r^{2} = 4 \\Rightarrow r = 2$ (since $r > 0$). From the first, $8a = 10 \\Rightarrow a = 5/4 = 1.25$. Last term: $(5/4) \\times 2^{n-1} = 640 \\Rightarrow 2^{n-1} = 512 = 2^{9} \\Rightarrow n = 10$. First term $= 5/4$, common ratio $= 2$, number of terms $= 10$."},
+
+    {"number": "31", "form": "short", "marks": 3, "page": 18,
+     "stem": "How many multiples of 4 lie between 10 and 250?",
+     "answer": "Multiples of 4 are 12, 16, 20, ..., 248, with $a = 12$, $d = 4$ and $a_{n} = 248$. Then $248 = 12 + (n-1)4 \\Rightarrow 236 = 4(n-1) \\Rightarrow n = 60$. There are 60 multiples of 4."},
+
+    {"number": "32", "form": "long", "marks": 5, "page": 18, "section_heading": "Long Answer Questions",
+     "stem": "The number of bacteria in a certain culture doubles every hour. If there were 30 bacteria present in the culture originally, how many bacteria will be present at the end of the 2nd hour, 4th hour and $n^{\\mathrm{th}}$ hour?",
+     "answer": "Initial count $a = 30$, common ratio $r = 2$, so the number at the end of hour t is $ar^{t}$. (i) End of 2nd hour $= 30 \\times 2^{2} = 120$. (ii) End of 4th hour $= 30 \\times 2^{4} = 480$. (iii) End of nth hour $= 30 \\times 2^{n}$."},
+
+    {"number": "33", "form": "long", "marks": 5, "page": 19,
+     "stem": "A person books a taxi charging a fixed booking fee of ₹200 plus ₹40 per kilometre travelled. (i) Write the sequence of total fares after travelling 1 km, 2 km, 3 km, etc. (ii) Derive the explicit formula for the n-th term. (iii) Calculate the total fare for 10 km.",
+     "sub_parts": ["i", "ii", "iii"],
+     "answer": "(i) Fare after 1 km $= 200 + 40 = ₹240$; after 2 km $= ₹280$; after 3 km $= ₹320$. Sequence: ₹240, ₹280, ₹320, .... (ii) $t_{n} = 200 + 40n$. (iii) $t_{10} = 200 + 40(10) = ₹600$."},
+
+    {"number": "34", "form": "long", "marks": 5, "page": 19,
+     "stem": "Which term of the A.P. $-7, -12, -17, -22, \\ldots$ will be $-82$? Is $-100$ any term of the A.P.? Give reason for your answer.",
+     "answer": "$a = -7$, $d = -5$. (i) $-7 + (n-1)(-5) = -82 \\Rightarrow -5(n-1) = -75 \\Rightarrow n = 16$, so $-82$ is the 16th term. (ii) $-7 + (n-1)(-5) = -100 \\Rightarrow -5(n-1) = -93 \\Rightarrow n = 19.6$. Since n is not a positive integer, $-100$ is not a term of the A.P."},
+
+    {"number": "35", "form": "long", "marks": 5, "page": 19,
+     "stem": "A ball is dropped from a height of 80 metres. After hitting the ground, it bounces back to 60% of the height from which it fell. It continues bouncing in this way. (i) Write the explicit formula for the height after the n-th bounce. (ii) What height does it reach after the 5th bounce?",
+     "sub_parts": ["i", "ii"],
+     "answer": "(i) The heights form a GP with first term 80 and ratio 0.6, so the height after the n-th bounce is $h_{n} = 80 \\times (0.6)^{n}$. (ii) $h_{5} = 80 \\times (0.6)^{5} = 80 \\times 0.07776 = 6.2208$ metres."},
+
+    {"number": "36", "form": "case_study", "marks": 4, "page": 19, "section_heading": "Case Study Based Questions",
+     "stem": "India is a competitive manufacturing location due to the low cost of manpower and strong technical and engineering capabilities contributing to higher quality production runs. The production of TV sets in a factory increases uniformly by a fixed number every year. It produced 16000 sets in the 6th year and 22600 in the 9th year. (i) Find the production during the first year. (ii) Find the production during the 8th year. (iii)(a) In which year is the production 29,200? OR (iii)(b) Find the difference of the production during the 7th year and the 4th year.",
+     "sub_parts": ["i", "ii", "iii"],
+     "figure_required": true,
+     "images": ["63ba4a46bfe7aab8743dacf95c75a11d00f231c91b3bae40b3a8ab50996e8dfb.jpg"]},
+
+    {"number": "37", "form": "case_study", "marks": 4, "page": 20,
+     "stem": "A school has decided to plant some endangered trees on 51st World Environment Day in the nearest park. They have decided to plant those trees in a few concentric circular rows such that each succeeding row has 20 more trees than the previous one. The first circular row has 50 trees. (i) How many trees will be planted in the 10th row? (ii) How many more trees will be planted in the 8th row than in the 5th row? (iii)(a) If the number of trees planted in the 5th row is 130 and in the 15th row is 330 and the plantation follows an arithmetic progression (AP), find the number of trees planted in the 31st row.",
+     "sub_parts": ["i", "ii", "iii"],
+     "figure_required": true,
+     "images": ["8c8ffbc61bf840274c169aaa6c029d84fd0a26bee0ce55aff38f691b88a7ac3a.jpg"]}
+  ]
+}

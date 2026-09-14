@@ -1,0 +1,200 @@
+{
+  "extraction_id": 184,
+  "chapter": 4,
+  "note": "Q3, Q5 and Q9 had their option lists collapsed into LaTeX arrays, leaving some labels empty. Reconstructed by taking the extra array rows in order for the empty labels; each reconstruction is confirmed by the printed answer key.",
+  "items": [
+    {"number": "1", "form": "mcq", "marks": 1, "page": 10, "section_heading": "MCQ'S",
+     "stem": "What is the main difference between an algebraic equation and an algebraic identity?",
+     "options": [
+       {"label": "A", "text": "An equation is true for all real values of the variables, while an identity is true for only specific values."},
+       {"label": "B", "text": "An identity is true for all values of the variables occurring in it, while an equation need not be true for all values."},
+       {"label": "C", "text": "An equation always involves two variables, while an identity involves only one variable."},
+       {"label": "D", "text": "There is no mathematical difference between an equation and an identity."}],
+     "correct_option": "B"},
+
+    {"number": "2", "form": "mcq", "marks": 1, "page": 10,
+     "stem": "If we take any three consecutive square numbers (e.g. 9, 16, 25), add the smallest and the largest squares, and subtract twice the middle square, what is the result?",
+     "options": [{"label": "A", "text": "0"}, {"label": "B", "text": "1"}, {"label": "C", "text": "2"}, {"label": "D", "text": "4"}],
+     "correct_option": "C"},
+
+    {"number": "3", "form": "mcq", "marks": 1, "page": 11,
+     "stem": "What is the expansion of $(5x + 2y)^{2}$?",
+     "options": [
+       {"label": "A", "text": "$25x^{2} + 4y^{2}$"},
+       {"label": "B", "text": "$25x^{2} + 10xy + 4y^{2}$"},
+       {"label": "C", "text": "$25x^{2} + 20xy + 4y^{2}$"},
+       {"label": "D", "text": "$10x^{2} + 20xy + 4y^{2}$"}],
+     "correct_option": "C"},
+
+    {"number": "4", "form": "mcq", "marks": 1, "page": 11,
+     "stem": "Which of the following expressions represents the expansion of $(a + b + c)^{2}$?",
+     "options": [
+       {"label": "A", "text": "$a^{2} + b^{2} + c^{2} + ab + bc + ca$"},
+       {"label": "B", "text": "$a^{2} + b^{2} + c^{2} + 2ab + 2bc + 2ca$"},
+       {"label": "C", "text": "$a^{3} + b^{3} + c^{3} + 3abc$"},
+       {"label": "D", "text": "$a^{2} + b^{2} + c^{2} - 2ab - 2bc - 2ca$"}],
+     "correct_option": "B"},
+
+    {"number": "5", "form": "mcq", "marks": 1, "page": 11,
+     "stem": "What are the factors of $36x^{2} + 12x + 1$?",
+     "options": [
+       {"label": "A", "text": "$(6x - 1)^{2}$"},
+       {"label": "B", "text": "$(6x + 1)(6x - 1)$"},
+       {"label": "C", "text": "$(6x + 1)^{2}$"},
+       {"label": "D", "text": "$(12x + 1)(3x + 1)$"}],
+     "correct_option": "C"},
+
+    {"number": "6", "form": "mcq", "marks": 1, "page": 11,
+     "stem": "Using the algebraic identity $(a - b)(a + b) = a^{2} - b^{2}$, evaluate $104 \\times 96$.",
+     "options": [{"label": "A", "text": "9984"}, {"label": "B", "text": "9976"}, {"label": "C", "text": "10016"}, {"label": "D", "text": "9996"}],
+     "correct_option": "A"},
+
+    {"number": "7", "form": "mcq", "marks": 1, "page": 11,
+     "stem": "Which linear factors multiply to give the quadratic expression $x^{2} + 7x + 12$?",
+     "options": [
+       {"label": "A", "text": "$(x + 2)(x + 5)$"},
+       {"label": "B", "text": "$(x + 3)(x + 4)$"},
+       {"label": "C", "text": "$(x - 3)(x - 4)$"},
+       {"label": "D", "text": "$(x + 1)(x + 12)$"}],
+     "correct_option": "B"},
+
+    {"number": "8", "form": "mcq", "marks": 1, "page": 11,
+     "stem": "What is the expansion of the cubic binomial $(2n - 5m)^{3}$?",
+     "options": [
+       {"label": "A", "text": "$8n^{3} - 125m^{3}$"},
+       {"label": "B", "text": "$8n^{3} - 60n^{2}m + 150nm^{2} - 125m^{3}$"},
+       {"label": "C", "text": "$8n^{3} + 60n^{2}m + 150nm^{2} + 125m^{3}$"},
+       {"label": "D", "text": "$8n^{3} - 30n^{2}m + 30nm^{2} - 125m^{3}$"}],
+     "correct_option": "B"},
+
+    {"number": "9", "form": "mcq", "marks": 1, "page": 11,
+     "stem": "Simplify the rational algebraic expression: $(x^{2} - 7x + 12)/(5x^{2} + 5x - 100)$ (assuming denominator $\\neq 0$).",
+     "options": [
+       {"label": "A", "text": "$(x-3)/[5(x+5)]$"},
+       {"label": "B", "text": "$(x+3)/[5(x+5)]$"},
+       {"label": "C", "text": "$(x-4)/[5(x-5)]$"},
+       {"label": "D", "text": "$(x-3)/(x+5)$"}],
+     "correct_option": "A"},
+
+    {"number": "10", "form": "mcq", "marks": 1, "page": 11,
+     "stem": "If $x + y + z = 10$, $x^{2} + y^{2} + z^{2} = 38$, and $xyz = 25$, find the value of $x^{3} + y^{3} + z^{3}$.",
+     "options": [{"label": "A", "text": "120"}, {"label": "B", "text": "145"}, {"label": "C", "text": "310"}, {"label": "D", "text": "455"}],
+     "correct_option": "B"},
+
+    {"number": "11", "form": "assertion_reason", "marks": 1, "page": 12, "section_heading": "ASSERTION & REASONING QUESTIONS",
+     "stem": "Assertion (A): The expression $(x + 5)^{2} = x^{2} + 10x + 25$ is an algebraic identity. Reason (R): An algebraic identity is an equality relation that remains true for all real values of the variables involved in it.",
+     "assertion": "The expression $(x + 5)^{2} = x^{2} + 10x + 25$ is an algebraic identity.",
+     "reason": "An algebraic identity is an equality relation that remains true for all real values of the variables involved in it.",
+     "options": [
+       {"label": "A", "text": "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A)."},
+       {"label": "B", "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A)."},
+       {"label": "C", "text": "Assertion (A) is true, but Reason (R) is false."},
+       {"label": "D", "text": "Assertion (A) is false, but Reason (R) is true."}],
+     "correct_option": "A"},
+
+    {"number": "12", "form": "assertion_reason", "marks": 1, "page": 12,
+     "stem": "Assertion (A): If $x + y + z = 0$, then $x^{3} + y^{3} + z^{3} = 3xyz$. Reason (R): The algebraic identity states that $x^{3} + y^{3} + z^{3} - 3xyz = (x + y + z)(x^{2} + y^{2} + z^{2} - xy - yz - zx)$.",
+     "assertion": "If $x + y + z = 0$, then $x^{3} + y^{3} + z^{3} = 3xyz$.",
+     "reason": "The algebraic identity states that $x^{3} + y^{3} + z^{3} - 3xyz = (x + y + z)(x^{2} + y^{2} + z^{2} - xy - yz - zx)$.",
+     "options": [
+       {"label": "A", "text": "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A)."},
+       {"label": "B", "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A)."},
+       {"label": "C", "text": "Assertion (A) is true, but Reason (R) is false."},
+       {"label": "D", "text": "Assertion (A) is false, but Reason (R) is true."}],
+     "correct_option": "A"},
+
+    {"number": "13", "form": "assertion_reason", "marks": 1, "page": 13,
+     "stem": "Assertion (A): The value of $105 \\times 95$ calculated using algebraic identities is 9975. Reason (R): The identity used to solve $105 \\times 95$ is $(a + b)^{2} = a^{2} + 2ab + b^{2}$.",
+     "assertion": "The value of $105 \\times 95$ calculated using algebraic identities is 9975.",
+     "reason": "The identity used to solve $105 \\times 95$ is $(a + b)^{2} = a^{2} + 2ab + b^{2}$.",
+     "options": [
+       {"label": "A", "text": "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A)."},
+       {"label": "B", "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A)."},
+       {"label": "C", "text": "Assertion (A) is true, but Reason (R) is false."},
+       {"label": "D", "text": "Assertion (A) is false, but Reason (R) is true."}],
+     "correct_option": "C"},
+
+    {"number": "14", "form": "assertion_reason", "marks": 1, "page": 13,
+     "stem": "Assertion (A): The factors of $4x^{2} - 12x + 9$ are $(2x - 3)^{2}$. Reason (R): Any quadratic expression of the form $a^{2} - 2ab + b^{2}$ can be factored into $(a - b)^{2}$.",
+     "assertion": "The factors of $4x^{2} - 12x + 9$ are $(2x - 3)^{2}$.",
+     "reason": "Any quadratic expression of the form $a^{2} - 2ab + b^{2}$ can be factored into $(a - b)^{2}$.",
+     "options": [
+       {"label": "A", "text": "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A)."},
+       {"label": "B", "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A)."},
+       {"label": "C", "text": "Assertion (A) is true, but Reason (R) is false."},
+       {"label": "D", "text": "Assertion (A) is false, but Reason (R) is true."}],
+     "correct_option": "A"},
+
+    {"number": "15", "form": "assertion_reason", "marks": 1, "page": 13,
+     "stem": "Assertion (A): The expansion of $(x - y)^{3}$ is $x^{3} - y^{3} - 3xy(x + y)$. Reason (R): The standard identity for the cube of a binomial difference is $(x - y)^{3} = x^{3} - 3x^{2}y + 3xy^{2} - y^{3}$.",
+     "assertion": "The expansion of $(x - y)^{3}$ is $x^{3} - y^{3} - 3xy(x + y)$.",
+     "reason": "The standard identity for the cube of a binomial difference is $(x - y)^{3} = x^{3} - 3x^{2}y + 3xy^{2} - y^{3}$.",
+     "options": [
+       {"label": "A", "text": "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A)."},
+       {"label": "B", "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A)."},
+       {"label": "C", "text": "Assertion (A) is true, but Reason (R) is false."},
+       {"label": "D", "text": "Assertion (A) is false, but Reason (R) is true."}],
+     "correct_option": "D"},
+
+    {"number": "16", "form": "short", "marks": 3, "page": 14, "section_heading": "Practice Questions",
+     "stem": "Expand $(7x + 4y)^{2}$.",
+     "answer": "$(7x + 4y)^{2} = (7x)^{2} + 2(7x)(4y) + (4y)^{2} = 49x^{2} + 56xy + 16y^{2}$."},
+
+    {"number": "17", "form": "short", "marks": 3, "page": 14,
+     "stem": "Find $105^{2}$ using an identity.",
+     "answer": "$105 = 100 + 5$, so $105^{2} = (100 + 5)^{2} = 10000 + 1000 + 25 = 11025$."},
+
+    {"number": "18", "form": "short", "marks": 3, "page": 14,
+     "stem": "Factorise $x^{2} - 5x + 6$.",
+     "answer": "$x^{2} - 5x + 6 = (x - 2)(x - 3)$."},
+
+    {"number": "19", "form": "short", "marks": 3, "page": 14,
+     "stem": "Expand $(p + 3q + 7r)^{2}$.",
+     "answer": "Using $(a + b + c)^{2} = a^{2} + b^{2} + c^{2} + 2ab + 2bc + 2ca$: $(p + 3q + 7r)^{2} = p^{2} + 9q^{2} + 49r^{2} + 6pq + 42qr + 14pr$."},
+
+    {"number": "20", "form": "short", "marks": 3, "page": 15, "section_heading": "Practice Questions - Mixed Revision",
+     "stem": "Expand $(3x - 2y + 4z)^{2}$.",
+     "answer": "$9x^{2} + 4y^{2} + 16z^{2} - 12xy - 16yz + 24xz$."},
+
+    {"number": "21", "form": "short", "marks": 3, "page": 15,
+     "stem": "Find $193^{2}$ using $(a - b)^{2}$.",
+     "answer": "$193^{2} = (200 - 7)^{2} = 200^{2} - 2(200)(7) + 7^{2} = 40000 - 2800 + 49 = 37249$."},
+
+    {"number": "22", "form": "short", "marks": 3, "page": 15,
+     "stem": "Factorise $79^{2} + 149h + h^{2}$.",
+     "answer": "$(79 + h)^{2}$."},
+
+    {"number": "23", "form": "short", "marks": 3, "page": 15,
+     "stem": "Factorise $r^{2} - r - 42$.",
+     "answer": "$(r - 7)(r + 6)$."},
+
+    {"number": "24", "form": "short", "marks": 3, "page": 15,
+     "stem": "Factorise $x^{3} - 27$.",
+     "answer": "$(x - 3)(x^{2} + 3x + 9)$."},
+
+    {"number": "25", "form": "short", "marks": 3, "page": 15,
+     "stem": "Factorise $x^{3} + 8$.",
+     "answer": "$(x + 2)(x^{2} - 2x + 4)$."},
+
+    {"number": "26", "form": "long", "marks": 5, "page": 15,
+     "stem": "Expand $(2a - 3b)^{3}$.",
+     "answer": "$8a^{3} - 36a^{2}b + 54ab^{2} - 27b^{3}$."},
+
+    {"number": "27", "form": "long", "marks": 5, "page": 15,
+     "stem": "Find the side of a cube whose volume is $p^{3} + 6p^{2}q + 12pq^{2} + 8q^{3}$.",
+     "answer": "Side $= p + 2q$."},
+
+    {"number": "28", "form": "long", "marks": 5, "page": 15,
+     "stem": "If $x + y + z = 10$, $xyz = 25$ and $x^{2} + y^{2} + z^{2} = 38$, find $x^{3} + y^{3} + z^{3}$.",
+     "answer": "145."},
+
+    {"number": "29", "form": "long", "marks": 5, "page": 15,
+     "stem": "A square playground has side 40 m and a path of width s m is built around it. Express the area of the path.",
+     "answer": "Outer square side $= 40 + 2s$. Path area $= (40 + 2s)^{2} - 40^{2} = 160s + 4s^{2}$."},
+
+    {"number": "30", "form": "case_study", "marks": 4, "page": 6, "section_heading": "Case Study 1",
+     "stem": "Case Study 1: Architectural Floor Planning & Visualising Identities. An architect is designing a square community hall of total side length $(a + b)$ metres. The floor plan is partitioned into four functional zones: a large square auditorium of side 'a' metres, a small square storage room of side 'b' metres, and two identical rectangular exhibition corridors, each 'a' metres by 'b' metres. (a) Write an algebraic expression for the total area of the community hall in two different ways (as a single square and as the sum of its four partitioned zones). (b) If the dimensions are $a = 20$ metres and $b = 5$ metres, calculate the total area using the identity $(a + b)^{2} = a^{2} + 2ab + b^{2}$. (c) State whether $(a + b)^{2} = a^{2} + b^{2}$ is true. If $a = 10$ and $b = 2$, find by how much $(a + b)^{2}$ exceeds $(a^{2} + b^{2})$. Under what condition will $(a + b)^{2} = a^{2} + b^{2}$?",
+     "sub_parts": ["a", "b", "c"],
+     "answer": "(a) As a single square: Total Area $= (a + b)^{2}$ sq. metres. As the sum of four zones: $a^{2} + b^{2} + 2ab$ sq. metres. Equating gives $(a + b)^{2} = a^{2} + 2ab + b^{2}$. (b) $(20 + 5)^{2} = 25^{2} = 625$ sq. metres; by expansion $400 + 200 + 25 = 625$ sq. metres. (c) FALSE in general, because $(a + b)^{2} - (a^{2} + b^{2}) = 2ab$. For $a = 10$, $b = 2$: $144 - 104 = 40$, which equals $2ab = 40$. Equality holds if and only if $2ab = 0$, i.e. $a = 0$ or $b = 0$."}
+  ]
+}

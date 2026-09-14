@@ -1,0 +1,196 @@
+{
+  "extraction_id": 186,
+  "chapter": 6,
+  "note": "The printed MCQ key survived extraction only from item 15 onward. For items 1-14 the correct option is computed from the mathematics and each answer says so. The method is checked against items 15-18, where the computed answer matches the printed key exactly.",
+  "items": [
+    {"number": "1", "form": "mcq", "marks": 1, "page": 6, "section_heading": "SECTION A",
+     "stem": "The perimeter of a rectangle of length a units and width b units is:",
+     "options": [{"label": "A", "text": "$a + b$"}, {"label": "B", "text": "$2(a + b)$"}, {"label": "C", "text": "ab"}, {"label": "D", "text": "2ab"}],
+     "correct_option": "B", "answer": "Perimeter $= 2(a+b)$. (Key not recovered from the source; computed.)"},
+
+    {"number": "2", "form": "mcq", "marks": 1, "page": 6,
+     "stem": "For all circles, the ratio of circumference C to diameter D is:",
+     "options": [{"label": "A", "text": "variable with radius"}, {"label": "B", "text": "always 2"}, {"label": "C", "text": "a constant called $\\pi$"}, {"label": "D", "text": "always 4"}],
+     "correct_option": "C", "answer": "$C/D$ is the constant $\\pi$. (Key not recovered from the source; computed.)"},
+
+    {"number": "3", "form": "mcq", "marks": 1, "page": 6,
+     "stem": "A circle has diameter 28 cm. Using $\\pi = 22/7$, its circumference is:",
+     "options": [{"label": "A", "text": "44 cm"}, {"label": "B", "text": "88 cm"}, {"label": "C", "text": "176 cm"}, {"label": "D", "text": "616 cm"}],
+     "correct_option": "B", "answer": "$C = \\pi d = (22/7) \\times 28 = 88$ cm. (Key not recovered from the source; computed.)"},
+
+    {"number": "4", "form": "mcq", "marks": 1, "page": 7,
+     "stem": "If the side of a square is doubled, its perimeter becomes:",
+     "options": [{"label": "A", "text": "half"}, {"label": "B", "text": "unchanged"}, {"label": "C", "text": "double"}, {"label": "D", "text": "four times"}],
+     "correct_option": "C", "answer": "Perimeter $= 4s$, so doubling s doubles the perimeter. (Key not recovered from the source; computed.)"},
+
+    {"number": "5", "form": "mcq", "marks": 1, "page": 7,
+     "stem": "Which statement about $\\pi$ is correct according to the chapter?",
+     "options": [{"label": "A", "text": "$\\pi$ is exactly 22/7"}, {"label": "B", "text": "$\\pi$ is a rational number"}, {"label": "C", "text": "$\\pi$ is an irrational number"}, {"label": "D", "text": "$\\pi$ depends on the size of the circle"}],
+     "correct_option": "C", "answer": "$\\pi$ is irrational; 22/7 is only an approximation. (Key not recovered from the source; computed.)"},
+
+    {"number": "6", "form": "mcq", "marks": 1, "page": 7,
+     "stem": "The arc length corresponding to a central angle $\\theta$ in a circle of radius r is:",
+     "options": [{"label": "A", "text": "$(\\theta/180^{\\circ})\\pi r^{2}$"}, {"label": "B", "text": "$(\\theta/360^{\\circ})2\\pi r$"}, {"label": "C", "text": "$2\\pi r\\theta$"}, {"label": "D", "text": "$\\pi r^{2}/\\theta$"}],
+     "correct_option": "B", "answer": "Arc length $= (\\theta/360^{\\circ}) \\times 2\\pi r$. (Key not recovered from the source; computed.)"},
+
+    {"number": "7", "form": "mcq", "marks": 1, "page": 7,
+     "stem": "A sector has radius 14 cm and angle $90^{\\circ}$. Using $\\pi = 22/7$, its arc length is:",
+     "options": [{"label": "A", "text": "11 cm"}, {"label": "B", "text": "22 cm"}, {"label": "C", "text": "44 cm"}, {"label": "D", "text": "88 cm"}],
+     "correct_option": "B", "answer": "$(90/360) \\times 2 \\times (22/7) \\times 14 = (1/4) \\times 88 = 22$ cm. (Key not recovered from the source; computed.)"},
+
+    {"number": "8", "form": "mcq", "marks": 1, "page": 7,
+     "stem": "The area of a parallelogram with base b and height h is:",
+     "options": [{"label": "A", "text": "2bh"}, {"label": "B", "text": "bh"}, {"label": "C", "text": "$\\frac{1}{2}bh$"}, {"label": "D", "text": "$b + h$"}],
+     "correct_option": "B", "answer": "Area $= bh$. (Key not recovered from the source; computed.)"},
+
+    {"number": "9", "form": "mcq", "marks": 1, "page": 7,
+     "stem": "A triangle has base 12 cm and perpendicular height 5 cm. Its area is:",
+     "options": [{"label": "A", "text": "17 cm²"}, {"label": "B", "text": "30 cm²"}, {"label": "C", "text": "60 cm²"}, {"label": "D", "text": "120 cm²"}],
+     "correct_option": "B", "answer": "Area $= \\frac{1}{2} \\times 12 \\times 5 = 30$ cm². (Key not recovered from the source; computed.)"},
+
+    {"number": "10", "form": "mcq", "marks": 1, "page": 8,
+     "stem": "A median of a triangle divides it into two triangles having:",
+     "options": [{"label": "A", "text": "equal perimeters"}, {"label": "B", "text": "equal bases"}, {"label": "C", "text": "equal areas"}, {"label": "D", "text": "equal angles"}],
+     "correct_option": "C", "answer": "A median divides a triangle into two triangles of equal area. (Key not recovered from the source; computed.)"},
+
+    {"number": "11", "form": "mcq", "marks": 1, "page": 8,
+     "stem": "For a triangle with sides a, b and c, the semi-perimeter used in Heron's formula is:",
+     "options": [{"label": "A", "text": "$a + b + c$"}, {"label": "B", "text": "$(a + b + c)/2$"}, {"label": "C", "text": "$2(a + b + c)$"}, {"label": "D", "text": "$abc/2$"}],
+     "correct_option": "B", "answer": "$s = (a+b+c)/2$. (Key not recovered from the source; computed.)"},
+
+    {"number": "12", "form": "mcq", "marks": 1, "page": 8,
+     "stem": "A triangle has sides 3 cm, 4 cm and 5 cm. By Heron's formula, its area is:",
+     "options": [{"label": "A", "text": "5 cm²"}, {"label": "B", "text": "6 cm²"}, {"label": "C", "text": "10 cm²"}, {"label": "D", "text": "12 cm²"}],
+     "correct_option": "B", "answer": "$s = 6$; Area $= \\sqrt{6 \\times 3 \\times 2 \\times 1} = \\sqrt{36} = 6$ cm². (Key not recovered from the source; computed.)"},
+
+    {"number": "13", "form": "mcq", "marks": 1, "page": 8,
+     "stem": "Which pair is correctly matched?",
+     "options": [{"label": "A", "text": "Incircle passes through all three vertices"}, {"label": "B", "text": "Circumcircle touches all three sides"}, {"label": "C", "text": "Circumcircle passes through the three vertices"}, {"label": "D", "text": "Incircle has centre outside the triangle"}],
+     "correct_option": "C", "answer": "The circumcircle passes through the three vertices. (Key not recovered from the source; computed.)"},
+
+    {"number": "14", "form": "mcq", "marks": 1, "page": 8,
+     "stem": "A segment of a circle is the region bounded by:",
+     "options": [{"label": "A", "text": "two radii and an arc"}, {"label": "B", "text": "a chord and an arc"}, {"label": "C", "text": "two chords"}, {"label": "D", "text": "a diameter and two radii only"}],
+     "correct_option": "B", "answer": "A segment is bounded by a chord and the corresponding arc. (Key not recovered from the source; computed.)"},
+
+    {"number": "15", "form": "mcq", "marks": 1, "page": 8,
+     "stem": "The area of a sector of radius r and central angle $\\theta$ is:",
+     "options": [{"label": "A", "text": "$(\\theta/360^{\\circ})\\pi r^{2}$"}, {"label": "B", "text": "$(\\theta/360^{\\circ})2\\pi r$"}, {"label": "C", "text": "$\\pi r/\\theta$"}, {"label": "D", "text": "$2\\pi r^{2}$"}],
+     "correct_option": "A"},
+
+    {"number": "16", "form": "mcq", "marks": 1, "page": 9,
+     "stem": "A circle has radius 7 cm. The area of a $60^{\\circ}$ sector, using $\\pi = 22/7$, is:",
+     "options": [{"label": "A", "text": "77/3 cm²"}, {"label": "B", "text": "154/3 cm²"}, {"label": "C", "text": "44 cm²"}, {"label": "D", "text": "77 cm²"}],
+     "correct_option": "A"},
+
+    {"number": "17", "form": "mcq", "marks": 1, "page": 9,
+     "stem": "Which statement about Brahmagupta's formula is correct?",
+     "options": [{"label": "A", "text": "It applies only to rectangles"}, {"label": "B", "text": "It gives the area of any triangle directly from its angles"}, {"label": "C", "text": "It gives the area of a cyclic quadrilateral from its four sides"}, {"label": "D", "text": "It is unrelated to Heron's formula"}],
+     "correct_option": "C"},
+
+    {"number": "18", "form": "mcq", "marks": 1, "page": 9,
+     "stem": "If all sides of a triangle are multiplied by 3, its area becomes:",
+     "options": [{"label": "A", "text": "3 times"}, {"label": "B", "text": "6 times"}, {"label": "C", "text": "9 times"}, {"label": "D", "text": "unchanged"}],
+     "correct_option": "C"},
+
+    {"number": "19", "form": "assertion_reason", "marks": 1, "page": 9, "section_heading": "ASSERTION AND REASON QUESTIONS",
+     "stem": "Assertion (A): If the diameter of a circle is doubled, its circumference is doubled. Reason (R): The circumference of a circle is $C = \\pi d$.",
+     "assertion": "If the diameter of a circle is doubled, its circumference is doubled.",
+     "reason": "The circumference of a circle is $C = \\pi d$.",
+     "options": [
+       {"label": "A", "text": "Both Assertion(A) and Reason(R) are true and the Reason(R) is the correct explanation of Assertion(A)."},
+       {"label": "B", "text": "Both Assertion(A) and Reason(R) are true but the Reason(R) is not the correct explanation of Assertion(A)."},
+       {"label": "C", "text": "Assertion(A) is true, but Reason(R) is false."},
+       {"label": "D", "text": "Assertion(A) is false, but Reason(R) is true."}],
+     "correct_option": "A"},
+
+    {"number": "20", "form": "assertion_reason", "marks": 1, "page": 9,
+     "stem": "Assertion (A): Heron's formula can be obtained as a special case of Brahmagupta's formula. Reason (R): A triangle can be regarded as a cyclic quadrilateral with its fourth side having zero length.",
+     "assertion": "Heron's formula can be obtained as a special case of Brahmagupta's formula.",
+     "reason": "A triangle can be regarded as a cyclic quadrilateral with its fourth side having zero length.",
+     "options": [
+       {"label": "A", "text": "Both Assertion(A) and Reason(R) are true and the Reason(R) is the correct explanation of Assertion(A)."},
+       {"label": "B", "text": "Both Assertion(A) and Reason(R) are true but the Reason(R) is not the correct explanation of Assertion(A)."},
+       {"label": "C", "text": "Assertion(A) is true, but Reason(R) is false."},
+       {"label": "D", "text": "Assertion(A) is false, but Reason(R) is true."}],
+     "correct_option": "A"},
+
+    {"number": "21", "form": "very_short", "marks": 2, "page": 9, "section_heading": "SECTION B",
+     "stem": "The perimeter of a circle is $44\\,\\mathrm{cm}$. Using $\\pi = 22/7$, find its radius.",
+     "answer": "$C = 2\\pi r \\Rightarrow 44 = 2 \\times (22/7) \\times r \\Rightarrow r = 7$ cm."},
+
+    {"number": "22", "form": "very_short", "marks": 2, "page": 9,
+     "stem": "A circle has radius 7 cm. Find the length of the arc subtending $60^{\\circ}$ at the centre. Use $\\pi = 22/7$.",
+     "answer": "Arc length $= (60/360) \\times 2 \\times (22/7) \\times 7 = 22/3$ cm $\\approx 7.33$ cm."},
+
+    {"number": "23", "form": "very_short", "marks": 2, "page": 10,
+     "stem": "What is the area of a parallelogram whose base is 12 cm and perpendicular height is 5 cm?",
+     "answer": "Area $= $ base $\\times$ height $= 12 \\times 5 = 60$ cm²."},
+
+    {"number": "24", "form": "very_short", "marks": 2, "page": 10,
+     "stem": "A triangle has sides 3 cm, 4 cm and 5 cm. What is its area?",
+     "answer": "By Heron's formula, $s = (3+4+5)/2 = 6$ and Area $= \\sqrt{6(6-3)(6-4)(6-5)} = \\sqrt{36} = 6$ cm²."},
+
+    {"number": "25", "form": "very_short", "marks": 2, "page": 10,
+     "stem": "State the formula for the area of a sector of radius r subtending an angle $\\theta^{\\circ}$ at the centre.",
+     "answer": "Area of sector $= (\\theta/360^{\\circ})\\pi r^{2}$."},
+
+    {"number": "26", "form": "short", "marks": 3, "page": 10, "section_heading": "SECTION C",
+     "stem": "A circular field has circumference $88\\,\\mathrm{m}$. Find its radius and area, taking $\\pi = 22/7$.",
+     "answer": "$C = 2\\pi r \\Rightarrow 88 = 2 \\times (22/7) \\times r \\Rightarrow r = 14$ m. Area $= \\pi r^{2} = (22/7) \\times 14^{2} = 616$ m²."},
+
+    {"number": "27", "form": "short", "marks": 3, "page": 10,
+     "stem": "Find the length of an arc of radius 6.3 m subtending an angle of $120^{\\circ}$ at the centre. Take $\\pi = 22/7$.",
+     "answer": "Arc length $= (120/360) \\times 2 \\times (22/7) \\times 6.3 = 13.2$ m."},
+
+    {"number": "28", "form": "short", "marks": 3, "page": 10,
+     "stem": "The base and perpendicular height of a parallelogram are 18 cm and 7 cm respectively. Find its area.",
+     "answer": "Area $= 18 \\times 7 = 126$ cm²."},
+
+    {"number": "29", "form": "short", "marks": 3, "page": 10,
+     "stem": "The sides of a triangle are 5 cm, 12 cm and 13 cm. Find its area using Heron's formula.",
+     "answer": "$s = (5+12+13)/2 = 15$. Area $= \\sqrt{15(10)(3)(2)} = \\sqrt{900} = 30$ cm²."},
+
+    {"number": "30", "form": "short", "marks": 3, "page": 10,
+     "stem": "State the difference between a sector and a segment of a circle.",
+     "answer": "A sector is the region bounded by two radii and the corresponding arc. A segment is the region bounded by a chord and the corresponding arc."},
+
+    {"number": "31", "form": "long", "marks": 5, "page": 10, "section_heading": "SECTION D",
+     "stem": "A triangular plot has sides 13 m, 14 m and 15 m. Find its area using Heron's formula. If the cost of levelling the plot is ₹25 per square metre, find the total cost.",
+     "answer": "$s = (13+14+15)/2 = 21$ m. Area $= \\sqrt{21(8)(7)(6)} = \\sqrt{7056} = 84$ m². Cost $= 84 \\times ₹25 = ₹2{,}100$."},
+
+    {"number": "32", "form": "long", "marks": 5, "page": 10,
+     "stem": "A sector of a circle has radius 14 cm and central angle $75^{\\circ}$. Find (i) its arc length and (ii) its perimeter. Use $\\pi = 22/7$.",
+     "sub_parts": ["i", "ii"],
+     "answer": "(i) Arc length $= (75/360) \\times 2 \\times (22/7) \\times 14 = 55/3$ cm $= 18\\frac{1}{3}$ cm. (ii) Perimeter of a sector $=$ arc $+$ two radii $= 55/3 + 28 = 139/3$ cm $= 46\\frac{1}{3}$ cm."},
+
+    {"number": "33", "form": "long", "marks": 5, "page": 10,
+     "stem": "A chord of a circle of radius 10 cm subtends $90^{\\circ}$ at the centre. Find the areas of (i) the minor sector and (ii) the major sector. Take $\\pi = 3.14$.",
+     "sub_parts": ["i", "ii"],
+     "answer": "Total area $= \\pi r^{2} = 3.14 \\times 100 = 314$ cm². (i) Minor sector $= (90/360) \\times 314 = 78.5$ cm². (ii) Major sector: angle $= 270^{\\circ}$, area $= (270/360) \\times 314 = 235.5$ cm²."},
+
+    {"number": "34", "form": "long", "marks": 5, "page": 10,
+     "stem": "A cyclic quadrilateral has sides 5 cm, 6 cm, 7 cm and 8 cm. Find its area using Brahmagupta's formula. Then explain how Heron's formula appears as a special case.",
+     "answer": "$s = (5+6+7+8)/2 = 13$. Area $= \\sqrt{(s-a)(s-b)(s-c)(s-d)} = \\sqrt{8 \\times 7 \\times 6 \\times 5} = \\sqrt{1680} = 4\\sqrt{105}$ cm² $\\approx 40.99$ cm². For a triangle take the fourth side $d = 0$; then $s = (a+b+c)/2$ and Brahmagupta's formula becomes $\\sqrt{s(s-a)(s-b)(s-c)}$, which is Heron's formula."},
+
+    {"number": "35", "form": "case_study", "marks": 4, "page": 10, "section_heading": "Case study",
+     "stem": "A school athletics track has two straight portions and two semicircular portions. The two semicircles together make one complete circle. A runner in an outer lane travels farther on the curved portions because the radius is larger. (a) Write the formula for the circumference of a circle. (b) If the radius of one lane is $36.8\\,\\mathrm{m}$, find the curved distance for the two semicircles, taking $\\pi = 3.1416$. (c) If the next lane is $1.22\\,\\mathrm{m}$ farther out, find the additional curved distance travelled. (d) Why is a stagger necessary on an athletics track?",
+     "sub_parts": ["a", "b", "c", "d"],
+     "answer": "(a) $C = 2\\pi r$. (b) The two semicircles form a complete circle: $C = 2(3.1416)(36.8) \\approx 231.22$ m. (c) New radius $= 36.8 + 1.22 = 38.02$ m; additional distance $= 2\\pi(1.22) = 7.6655\\,\\mathrm{m} \\approx 7.67$ m. (d) The outer lane has a larger radius, so its curved path is longer. A stagger ensures that runners cover equal total race distances."},
+
+    {"number": "36", "form": "case_study", "marks": 4, "page": 10,
+     "stem": "The minute hand of a clock is 7 cm long. During a period of 10 minutes, it sweeps through a sector of the circular region. (a) Through what angle does the minute hand turn in 10 minutes? (b) Find the area swept by the minute hand, taking $\\pi = 22/7$. (c) State the formula used for the area of a sector. (d) What fraction of the full circular area is swept?",
+     "sub_parts": ["a", "b", "c", "d"],
+     "answer": "(a) In 60 minutes the hand turns $360^{\\circ}$, so in 10 minutes $\\theta = (10/60) \\times 360^{\\circ} = 60^{\\circ}$. (b) Area $= (60/360) \\times (22/7) \\times 7^{2} = 77/3$ cm² $\\approx 25.67$ cm². (c) Sector area $= (\\theta/360^{\\circ})\\pi r^{2}$. (d) The fraction is $60/360 = 1/6$."},
+
+    {"number": "37", "form": "case_study", "marks": 4, "page": 10,
+     "stem": "A triangular plot has side lengths 8 m, 11 m and 13 m. The owner wants to know its area before planning the plot. (a) Find its semi-perimeter. (b) Which formula is appropriate when all three sides are known? (c) Find the area. (d) If the plot is to be covered at ₹50 per square metre, find the approximate cost.",
+     "sub_parts": ["a", "b", "c", "d"],
+     "answer": "(a) $s = (8+11+13)/2 = 16$ m. (b) Heron's formula. (c) Area $= \\sqrt{16(8)(5)(3)} = \\sqrt{1920} = 8\\sqrt{30}$ m² $\\approx 43.82$ m². (d) Cost $\\approx 43.82 \\times ₹50 \\approx ₹2{,}191$."},
+
+    {"number": "38", "form": "case_study", "marks": 4, "page": 11,
+     "stem": "A car has two non-overlapping wipers. Each wiper blade has length 28 cm and sweeps through $120^{\\circ}$. Each sweep cleans a sector-shaped region. (a) What is the radius of each swept sector? (b) Find the area cleaned by one wiper in one sweep, taking $\\pi = 22/7$. (c) Find the total area cleaned by both wipers. (d) Is the swept region a sector or a segment? Give a reason.",
+     "sub_parts": ["a", "b", "c", "d"],
+     "answer": "(a) Radius $= 28$ cm. (b) Area of one sector $= (120/360) \\times (22/7) \\times 28^{2} = (1/3) \\times (22/7) \\times 784 = 821\\frac{1}{3}$ cm². (c) The wipers do not overlap, so total area $= 2 \\times 821\\frac{1}{3} = 1642\\frac{2}{3}$ cm² $\\approx 1642.67$ cm². (d) It is a sector, because the region is bounded by two radii (the positions of the blade) and the arc swept by its end."}
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "extraction_id": 185,
+  "chapter": 5,
+  "note": "The source prints a key only for MCQ 1-3 and for the assertion-reason set. For MCQ 4-20 the correct option is stated from the mathematics (these are definitional circle-geometry facts) rather than reproduced from the book, and each such answer says so. Q4's option letters were lost in extraction and are restored from the four values printed in order.",
+  "items": [
+    {"number": "1", "form": "mcq", "marks": 1, "page": 3, "section_heading": "Section A (1 Mark)",
+     "stem": "The distance from the centre of a circle to any point on the circle is called:",
+     "options": [{"label": "A", "text": "Chord"}, {"label": "B", "text": "Radius"}, {"label": "C", "text": "Diameter"}, {"label": "D", "text": "Arc"}],
+     "correct_option": "B"},
+
+    {"number": "2", "form": "mcq", "marks": 1, "page": 3,
+     "stem": "A line segment joining any two points on a circle is called:",
+     "options": [{"label": "A", "text": "Radius"}, {"label": "B", "text": "Diameter"}, {"label": "C", "text": "Chord"}, {"label": "D", "text": "Secant"}],
+     "correct_option": "C"},
+
+    {"number": "3", "form": "mcq", "marks": 1, "page": 3,
+     "stem": "The longest chord of a circle is:",
+     "options": [{"label": "A", "text": "Radius"}, {"label": "B", "text": "Diameter"}, {"label": "C", "text": "Arc"}, {"label": "D", "text": "Tangent"}],
+     "correct_option": "B"},
+
+    {"number": "4", "form": "mcq", "marks": 1, "page": 3,
+     "stem": "If the radius of a circle is 7 cm, its diameter is:",
+     "options": [{"label": "A", "text": "3.5 cm"}, {"label": "B", "text": "7 cm"}, {"label": "C", "text": "14 cm"}, {"label": "D", "text": "21 cm"}],
+     "correct_option": "C",
+     "answer": "Diameter = 2 x radius = 14 cm. (The source prints no key for this item; the option letters were also lost in extraction and are restored from the printed order.)"},
+
+    {"number": "5", "form": "mcq", "marks": 1, "page": 3,
+     "stem": "Equal chords of a circle are:",
+     "options": [{"label": "A", "text": "Unequal distances from the centre"}, {"label": "B", "text": "Equidistant from the centre"}, {"label": "C", "text": "Always diameters"}, {"label": "D", "text": "Always perpendicular"}],
+     "correct_option": "B",
+     "answer": "Equal chords are equidistant from the centre. (No key printed in the source.)"},
+
+    {"number": "6", "form": "mcq", "marks": 1, "page": 3,
+     "stem": "Chords equidistant from the centre of a circle are:",
+     "options": [{"label": "A", "text": "Equal"}, {"label": "B", "text": "Unequal"}, {"label": "C", "text": "Diameters"}, {"label": "D", "text": "Tangents"}],
+     "correct_option": "A",
+     "answer": "Chords equidistant from the centre are equal. (No key printed in the source.)"},
+
+    {"number": "7", "form": "mcq", "marks": 1, "page": 4,
+     "stem": "The perpendicular from the centre of a circle to a chord:",
+     "options": [{"label": "A", "text": "Bisects the chord"}, {"label": "B", "text": "Doubles the chord"}, {"label": "C", "text": "Is parallel to the chord"}, {"label": "D", "text": "Has no relation to the chord"}],
+     "correct_option": "A",
+     "answer": "The perpendicular from the centre bisects the chord. (No key printed in the source.)"},
+
+    {"number": "8", "form": "mcq", "marks": 1, "page": 4,
+     "stem": "If a perpendicular is drawn from the centre of a circle to a chord, then the two parts of the chord are:",
+     "options": [{"label": "A", "text": "Unequal"}, {"label": "B", "text": "Equal"}, {"label": "C", "text": "Parallel"}, {"label": "D", "text": "Perpendicular"}],
+     "correct_option": "B",
+     "answer": "The two parts are equal. (No key printed in the source.)"},
+
+    {"number": "9", "form": "mcq", "marks": 1, "page": 4,
+     "stem": "In a circle with centre O, if chord AB is equal to chord CD, then:",
+     "options": [{"label": "A", "text": "AB and CD are equidistant from O"}, {"label": "B", "text": "AB is a diameter"}, {"label": "C", "text": "CD is a diameter"}, {"label": "D", "text": "AB is perpendicular to CD"}],
+     "correct_option": "A",
+     "answer": "Equal chords are equidistant from the centre. (No key printed in the source.)"},
+
+    {"number": "10", "form": "mcq", "marks": 1, "page": 4,
+     "stem": "If two chords of a circle are at the same distance from the centre, then they are:",
+     "options": [{"label": "A", "text": "Perpendicular"}, {"label": "B", "text": "Equal"}, {"label": "C", "text": "Parallel"}, {"label": "D", "text": "Diameters"}],
+     "correct_option": "B",
+     "answer": "They are equal. (No key printed in the source.)"},
+
+    {"number": "11", "form": "mcq", "marks": 1, "page": 4,
+     "stem": "A chord passing through the centre of a circle is called:",
+     "options": [{"label": "A", "text": "Radius"}, {"label": "B", "text": "Arc"}, {"label": "C", "text": "Diameter"}, {"label": "D", "text": "Secant"}],
+     "correct_option": "C",
+     "answer": "It is the diameter. (No key printed in the source.)"},
+
+    {"number": "12", "form": "mcq", "marks": 1, "page": 4,
+     "stem": "If the diameter of a circle is $20\\,\\mathrm{cm}$, its radius is:",
+     "options": [{"label": "A", "text": "5 cm"}, {"label": "B", "text": "10 cm"}, {"label": "C", "text": "20 cm"}, {"label": "D", "text": "40 cm"}],
+     "correct_option": "B",
+     "answer": "Radius = diameter / 2 = 10 cm. (No key printed in the source.)"},
+
+    {"number": "13", "form": "mcq", "marks": 1, "page": 4,
+     "stem": "Two circles having the same centre but different radii are called:",
+     "options": [{"label": "A", "text": "Equal circles"}, {"label": "B", "text": "Concentric circles"}, {"label": "C", "text": "Congruent circles"}, {"label": "D", "text": "Intersecting circles"}],
+     "correct_option": "B",
+     "answer": "They are concentric circles. (No key printed in the source.)"},
+
+    {"number": "14", "form": "mcq", "marks": 1, "page": 4,
+     "stem": "Circles having equal radii are called:",
+     "options": [{"label": "A", "text": "Concentric circles"}, {"label": "B", "text": "Equal circles"}, {"label": "C", "text": "Tangent circles"}, {"label": "D", "text": "Intersecting circles"}],
+     "correct_option": "B",
+     "answer": "They are equal (congruent) circles. (No key printed in the source.)"},
+
+    {"number": "15", "form": "mcq", "marks": 1, "page": 4,
+     "stem": "If two equal chords of a circle subtend angles at the centre, then these angles are:",
+     "options": [{"label": "A", "text": "Unequal"}, {"label": "B", "text": "Equal"}, {"label": "C", "text": "Supplementary"}, {"label": "D", "text": "Complementary"}],
+     "correct_option": "B",
+     "answer": "Equal chords subtend equal angles at the centre. (No key printed in the source.)"},
+
+    {"number": "16", "form": "mcq", "marks": 1, "page": 5,
+     "stem": "In the same circle, if two chords subtend equal angles at the centre, then the chords are:",
+     "options": [{"label": "A", "text": "Equal"}, {"label": "B", "text": "Unequal"}, {"label": "C", "text": "Diameters"}, {"label": "D", "text": "Perpendicular"}],
+     "correct_option": "A",
+     "answer": "The chords are equal. (No key printed in the source.)"},
+
+    {"number": "17", "form": "mcq", "marks": 1, "page": 5,
+     "stem": "A circle has radius 8 cm. The distance between the centre and a chord that is a diameter is:",
+     "options": [{"label": "A", "text": "4 cm"}, {"label": "B", "text": "8 cm"}, {"label": "C", "text": "0 cm"}, {"label": "D", "text": "16 cm"}],
+     "correct_option": "C",
+     "answer": "A diameter passes through the centre, so the distance is 0 cm. (No key printed in the source.)"},
+
+    {"number": "18", "form": "mcq", "marks": 1, "page": 5,
+     "stem": "If a chord is at a distance of 0 cm from the centre, then the chord is:",
+     "options": [{"label": "A", "text": "A radius"}, {"label": "B", "text": "A tangent"}, {"label": "C", "text": "A diameter"}, {"label": "D", "text": "An arc"}],
+     "correct_option": "C",
+     "answer": "It passes through the centre, so it is a diameter. (No key printed in the source.)"},
+
+    {"number": "19", "form": "mcq", "marks": 1, "page": 5,
+     "stem": "If two chords of a circle are equal, then their distances from the centre are:",
+     "options": [{"label": "A", "text": "Equal"}, {"label": "B", "text": "Different"}, {"label": "C", "text": "Zero"}, {"label": "D", "text": "Cannot be determined"}],
+     "correct_option": "A",
+     "answer": "Equal chords are equidistant from the centre. (No key printed in the source.)"},
+
+    {"number": "20", "form": "mcq", "marks": 1, "page": 5,
+     "stem": "The perpendicular bisector of a chord of a circle passes through:",
+     "options": [{"label": "A", "text": "Any point on the circle"}, {"label": "B", "text": "The centre of the circle"}, {"label": "C", "text": "The midpoint of the radius only"}, {"label": "D", "text": "No fixed point"}],
+     "correct_option": "B",
+     "answer": "It passes through the centre. (No key printed in the source.)"},
+
+    {"number": "21", "form": "assertion_reason", "marks": 1, "page": 5, "section_heading": "ASSERTION-REASONING QUESTIONS",
+     "stem": "Assertion: The diameter is the longest chord of a circle. Reason: A diameter passes through the centre of the circle.",
+     "assertion": "The diameter is the longest chord of a circle.",
+     "reason": "A diameter passes through the centre of the circle.",
+     "options": [
+       {"label": "A", "text": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion."},
+       {"label": "B", "text": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion."},
+       {"label": "C", "text": "Assertion is true, but Reason is false."},
+       {"label": "D", "text": "Assertion is false, but Reason is true."}],
+     "correct_option": "A"},
+
+    {"number": "22", "form": "assertion_reason", "marks": 1, "page": 6,
+     "stem": "Assertion: Equal chords of a circle are equidistant from the centre. Reason: The perpendicular from the centre to a chord bisects the chord.",
+     "assertion": "Equal chords of a circle are equidistant from the centre.",
+     "reason": "The perpendicular from the centre to a chord bisects the chord.",
+     "options": [
+       {"label": "A", "text": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion."},
+       {"label": "B", "text": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion."},
+       {"label": "C", "text": "Assertion is true, but Reason is false."},
+       {"label": "D", "text": "Assertion is false, but Reason is true."}],
+     "correct_option": "A"},
+
+    {"number": "23", "form": "long", "marks": 5, "page": 13, "section_heading": "PRACTICE QUESTIONS",
+     "stem": "Prove that equal chords of a circle are equidistant from the centre.",
+     "answer": "Let AB and CD be equal chords of a circle with centre O. Draw perpendiculars OM and ON on AB and CD. OA = OC (radii), AB = CD (given), and AM = AB/2, CN = CD/2 because the perpendicular from the centre bisects a chord, so AM = CN. In right triangles OMA and ONC: OA = OC, AM = CN and angle OMA = angle ONC = 90 degrees. Therefore triangle OMA is congruent to triangle ONC by RHS. Hence OM = ON, so equal chords are equidistant from the centre."},
+
+    {"number": "24", "form": "long", "marks": 5, "page": 13,
+     "stem": "Prove that the perpendicular drawn from the centre of a circle to a chord bisects the chord. Also find the length of each half of a chord of length 18 cm.",
+     "answer": "Let AB be a chord and OM perpendicular to AB. In right triangles OMA and OMB: OA = OB (radii), OM is common, and angle OMA = angle OMB = 90 degrees. By RHS, triangle OMA is congruent to triangle OMB, hence AM = MB. For a chord of length 18 cm, AM = MB = 18/2 = 9 cm each."},
+
+    {"number": "25", "form": "short", "marks": 3, "page": 13,
+     "stem": "A circle has radius 13 cm. A chord is at a distance of 5 cm from the centre. (1) Find the length of the chord. (2) If another chord is equal to this chord, what is its distance from the centre? Give a reason.",
+     "sub_parts": ["1", "2"],
+     "answer": "Using Pythagoras, $AM^{2} = 13^{2} - 5^{2} = 169 - 25 = 144$, so AM = 12 cm and the chord AB = 24 cm. (2) The second chord is equal, and equal chords are equidistant from the centre, so its distance from O is 5 cm."},
+
+    {"number": "26", "form": "short", "marks": 3, "page": 13,
+     "stem": "In a circle with centre O, two chords AB and CD are equal. Perpendiculars OM and ON are drawn from O to AB and CD respectively. (1) Prove that $OM = ON$. (2) If the radius is 10 cm and OM = 6 cm, find AB.",
+     "sub_parts": ["1", "2"],
+     "answer": "(1) Since AB = CD and equal chords of a circle are equidistant from the centre, OM = ON. (2) Using Pythagoras, $AM^{2} = 10^{2} - 6^{2} = 100 - 36 = 64$, so AM = 8 cm and AB = 2 x 8 = 16 cm."},
+
+    {"number": "27", "form": "short", "marks": 3, "page": 14,
+     "stem": "In a circle with centre O, chord $AB = 16$ cm. The perpendicular distance of AB from O is 6 cm. Find the radius of the circle.",
+     "answer": "Half chord $= 16/2 = 8$ cm. Radius $= \\sqrt{8^{2} + 6^{2}} = \\sqrt{100} = 10$ cm."},
+
+    {"number": "28", "form": "short", "marks": 3, "page": 14,
+     "stem": "In a circle with centre O, two chords AB and CD are equal. If the perpendicular distance of AB from O is 5 cm, find the distance of CD from O. Give a reason.",
+     "answer": "The distance of CD from O is 5 cm, because equal chords of a circle are equidistant from the centre."},
+
+    {"number": "29", "form": "short", "marks": 3, "page": 14,
+     "stem": "Two chords AB and CD of a circle are at distances 4 cm and 7 cm respectively from the centre. Which chord is longer? Give a reason.",
+     "answer": "AB is longer, because the chord nearer to the centre is longer."},
+
+    {"number": "30", "form": "short", "marks": 3, "page": 14,
+     "stem": "In a circle with centre O, AB and CD are two equal chords. If OM is perpendicular to AB and ON is perpendicular to CD, prove that $OM = ON$.",
+     "answer": "OA = OC (radii) and AB = CD (given), so their halves AM = CN because the perpendiculars bisect the chords. By RHS congruence of triangles OMA and ONC, OM = ON."},
+
+    {"number": "31", "form": "short", "marks": 3, "page": 14,
+     "stem": "A chord of a circle of radius 13 cm is at a distance of 5 cm from the centre. Find the length of the chord.",
+     "answer": "Half chord $= \\sqrt{13^{2} - 5^{2}} = \\sqrt{144} = 12$ cm. Chord $= 24$ cm."},
+
+    {"number": "32", "form": "short", "marks": 3, "page": 14,
+     "stem": "In a circle with centre O, chord AB is 24 cm long and OM is perpendicular to AB. If $OM = 5\\,\\mathrm{cm}$, find the radius of the circle.",
+     "answer": "$AM = 24/2 = 12$ cm. Radius $= \\sqrt{12^{2} + 5^{2}} = \\sqrt{169} = 13$ cm."},
+
+    {"number": "33", "form": "short", "marks": 3, "page": 14,
+     "stem": "Two equal chords AB and CD of a circle subtend angles $\\angle AOB$ and $\\angle COD$ at the centre. If $\\angle AOB = 80^{\\circ}$, find $\\angle COD$ and state the theorem used.",
+     "answer": "$\\angle COD = 80^{\\circ}$. Theorem: equal chords of a circle subtend equal angles at the centre."},
+
+    {"number": "34", "form": "short", "marks": 3, "page": 14,
+     "stem": "In a circle with centre O, AB is a chord and OM is perpendicular to AB. If $AM = 9$ cm and $OM = 12\\,\\mathrm{cm}$, find the radius of the circle.",
+     "answer": "Radius $= \\sqrt{9^{2} + 12^{2}} = \\sqrt{225} = 15$ cm."},
+
+    {"number": "35", "form": "long", "marks": 5, "page": 11, "section_heading": "SOLVED EXAMPLE",
+     "stem": "A chord of a circle of radius 17 cm is at a distance of 8 cm from the centre. Find the length of the chord.",
+     "answer": "Let AB be the chord and O the centre, with OM perpendicular to AB, so AM = MB. In right triangle OMA, $OA^{2} = OM^{2} + AM^{2}$, i.e. $17^{2} = 8^{2} + AM^{2}$, so $289 = 64 + AM^{2}$ and $AM^{2} = 225$, giving AM = 15 cm. Therefore $AB = 2 \\times 15 = 30$ cm."},
+
+    {"number": "36", "form": "long", "marks": 5, "page": 12,
+     "stem": "Prove that equal chords of a circle subtend equal angles at the centre.",
+     "answer": "Let AB and CD be equal chords of a circle with centre O. Join OA, OB, OC and OD. In triangles AOB and COD: OA = OC and OB = OD because all are radii of the same circle, and AB = CD is given. Therefore triangle AOB is congruent to triangle COD by SSS, so the corresponding angles are equal: $\\angle AOB = \\angle COD$."},
+
+    {"number": "37", "form": "long", "marks": 5, "page": 13,
+     "stem": "Two chords AB and CD of a circle are equidistant from the centre O. Prove that $AB = CD$.",
+     "answer": "Draw OM perpendicular to AB and ON perpendicular to CD. Since the chords are equidistant from the centre, OM = ON. The perpendicular from the centre bisects the chord, so AM = MB and CN = ND. In right triangles OMA and ONC: OA = OC (radii), OM = ON (given), and angle OMA = angle ONC = 90 degrees. By RHS congruence, AM = CN. Since AB = 2AM and CD = 2CN, we get AB = CD."}
+  ]
+}

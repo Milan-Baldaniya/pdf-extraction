@@ -1,0 +1,107 @@
+{
+  "extraction_id": 187,
+  "chapter": 7,
+  "note": "This chapter restarts its numbering in every section (Section A 1-10, Section B 1-3, ...). Item numbers are kept as the source prints them but prefixed with the section so they stay unique within the chapter.",
+  "items": [
+    {"number": "A1", "form": "mcq", "marks": 1, "page": 8, "section_heading": "Section A: Multiple Choice Questions",
+     "stem": "A bag contains only blue marbles. What is the probability of drawing a red marble from it?",
+     "options": [{"label": "A", "text": "0"}, {"label": "B", "text": "0.5"}, {"label": "C", "text": "1"}, {"label": "D", "text": "Cannot be determined"}],
+     "correct_option": "A", "answer": "The bag has no red marbles, so drawing one is impossible."},
+
+    {"number": "A2", "form": "mcq", "marks": 1, "page": 8,
+     "stem": "If $P(E) = 0.35$, what is the probability of the event 'not E'?",
+     "options": [{"label": "A", "text": "0.35"}, {"label": "B", "text": "0.65"}, {"label": "C", "text": "1.3"}, {"label": "D", "text": "0"}],
+     "correct_option": "B", "answer": "$P(\\text{not } E) = 1 - P(E) = 1 - 0.35 = 0.65$."},
+
+    {"number": "A3", "form": "mcq", "marks": 1, "page": 8,
+     "stem": "A weather forecaster says there is a 20% chance of rain tomorrow. This value is best classified as:",
+     "options": [{"label": "A", "text": "Theoretical probability"}, {"label": "B", "text": "Statistical/experimental probability"}, {"label": "C", "text": "An impossible event"}, {"label": "D", "text": "A certain event"}],
+     "correct_option": "B", "answer": "It is based on collected weather data and patterns."},
+
+    {"number": "A4", "form": "mcq", "marks": 1, "page": 8,
+     "stem": "Two coins are tossed together. What is n(S), the size of the sample space?",
+     "options": [{"label": "A", "text": "2"}, {"label": "B", "text": "3"}, {"label": "C", "text": "4"}, {"label": "D", "text": "8"}],
+     "correct_option": "C", "answer": "Sample space $= \\{HH, HT, TH, TT\\}$, so $n(S) = 4$."},
+
+    {"number": "A5", "form": "mcq", "marks": 1, "page": 8,
+     "stem": "A die is rolled 60 times and a '5' appears 12 times. The experimental probability of rolling a '5' is:",
+     "options": [{"label": "A", "text": "1/6"}, {"label": "B", "text": "1/5"}, {"label": "C", "text": "$12/60 = 0.2$"}, {"label": "D", "text": "5/60"}],
+     "correct_option": "C", "answer": "Experimental probability $=$ favourable trials $\\div$ total trials $= 12/60 = 0.2$."},
+
+    {"number": "A6", "form": "mcq", "marks": 1, "page": 8,
+     "stem": "Which of the following CANNOT be a value of P(E)?",
+     "options": [{"label": "A", "text": "0"}, {"label": "B", "text": "0.75"}, {"label": "C", "text": "1"}, {"label": "D", "text": "1.2"}],
+     "correct_option": "D", "answer": "A probability must lie between 0 and 1 inclusive."},
+
+    {"number": "A7", "form": "mcq", "marks": 1, "page": 8,
+     "stem": "A coin is tossed 5 times and lands heads every time. According to correct probability reasoning, the probability of heads on the 6th toss is:",
+     "options": [
+       {"label": "A", "text": "Less than 0.5, since heads is 'due' for a change"},
+       {"label": "B", "text": "Greater than 0.5, since heads is 'on a streak'"},
+       {"label": "C", "text": "Still 0.5, as each toss is independent"},
+       {"label": "D", "text": "0, since heads cannot occur 6 times in a row"}],
+     "correct_option": "C", "answer": "Each coin toss is an independent event; the Gambler's Fallacy warns against options A and B."},
+
+    {"number": "A8", "form": "mcq", "marks": 1, "page": 9,
+     "stem": "As the number of trials in an experiment increases, the experimental probability tends to approach the theoretical probability. This principle is known as:",
+     "options": [{"label": "A", "text": "Gambler's Fallacy"}, {"label": "B", "text": "Law of Large Numbers"}, {"label": "C", "text": "Sampling Bias"}, {"label": "D", "text": "Relative Frequency Rule"}],
+     "correct_option": "B", "answer": "Law of Large Numbers."},
+
+    {"number": "A9", "form": "mcq", "marks": 1, "page": 9,
+     "stem": "A letter is chosen at random from the word 'CERTAIN'. What is the probability that it is a vowel?",
+     "options": [{"label": "A", "text": "2/7"}, {"label": "B", "text": "3/7"}, {"label": "C", "text": "4/7"}, {"label": "D", "text": "1/7"}],
+     "correct_option": "B", "answer": "CERTAIN has 7 letters, with 3 vowels: E, A, I. So the probability is 3/7."},
+
+    {"number": "A10", "form": "mcq", "marks": 1, "page": 9,
+     "stem": "A spinner is divided into 5 equal sectors numbered 1 to 5. What is the probability of NOT landing on 3?",
+     "options": [{"label": "A", "text": "1/5"}, {"label": "B", "text": "2/5"}, {"label": "C", "text": "3/5"}, {"label": "D", "text": "4/5"}],
+     "correct_option": "D", "answer": "$P(\\text{not } 3) = 1 - 1/5 = 4/5$."},
+
+    {"number": "B1", "form": "very_short", "marks": 2, "page": 9, "section_heading": "Section B: Very Short Answer Questions",
+     "stem": "What is the probability of an event that is certain to happen?",
+     "answer": "1 (certainty)."},
+
+    {"number": "B2", "form": "very_short", "marks": 2, "page": 10,
+     "stem": "A die is rolled once. Write the sample space.",
+     "answer": "$S = \\{1, 2, 3, 4, 5, 6\\}$."},
+
+    {"number": "B3", "form": "very_short", "marks": 2, "page": 10,
+     "stem": "If a bag has 4 red and 6 green balls, what is n(S) when one ball is drawn?",
+     "answer": "$n(S) = 10$ (4 red $+$ 6 green balls)."},
+
+    {"number": "C1", "form": "short", "marks": 3, "page": 10, "section_heading": "Section C: Short Answer Questions (2-3 marks each)",
+     "stem": "A survey of 60 people found that 18 preferred tea over coffee. Find the experimental probability that a randomly chosen person from this group prefers tea. If the town has 9000 people, estimate how many prefer tea.",
+     "answer": "Experimental probability $= 18/60 = 0.3$. Estimated number in town $= 0.3 \\times 9000 = 2700$ people."},
+
+    {"number": "C2", "form": "short", "marks": 3, "page": 10,
+     "stem": "A card is drawn at random from a well-shuffled pack of 52 playing cards. Find the probability that the card drawn is a king.",
+     "answer": "There are 4 kings in a deck of 52 cards, so $P(\\text{king}) = 4/52 = 1/13 \\approx 0.077$."},
+
+    {"number": "C3", "form": "short", "marks": 3, "page": 10,
+     "stem": "A bag contains 3 red, 2 white and 5 black balls. A ball is drawn at random. Find the probability that it is (i) white, (ii) not black.",
+     "sub_parts": ["i", "ii"],
+     "answer": "Total balls $= 3 + 2 + 5 = 10$. (i) $P(\\text{white}) = 2/10 = 1/5 = 0.2$. (ii) $P(\\text{not black}) = 1 - 5/10 = 1/2 = 0.5$."},
+
+    {"number": "C4", "form": "short", "marks": 3, "page": 10,
+     "stem": "Two dice are rolled together. Find the probability that the sum of the numbers obtained is 7.",
+     "answer": "Total outcomes $= 36$. Favourable outcomes for sum $= 7$: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1), i.e. 6 outcomes. $P(\\text{sum} = 7) = 6/36 = 1/6$."},
+
+    {"number": "CS1", "form": "case_study", "marks": 4, "page": 11, "section_heading": "Case-Based Questions",
+     "stem": "Case Study 1: School Canteen Survey. The school canteen manager wants to know the favourite snacks of students to plan the weekly menu. She surveys a random sample of 80 students. The results are: Samosa - 28 students, Sandwich - 20 students, Pasta - 16 students, Fruit Chaat - 16 students. There are 1200 students in the entire school. (a) What is the probability that a randomly chosen student from the sample prefers Samosa? (b) Estimate the number of students in the whole school who are likely to prefer Pasta. (c) Is this an example of experimental/statistical probability or theoretical probability? Justify your answer.",
+     "sub_parts": ["a", "b", "c"],
+     "answer": "(a) $P(\\text{Samosa}) = 28/80 = 0.35$ or 35%. (b) Estimated Pasta lovers in school $= (16/80) \\times 1200 = 0.2 \\times 1200 = 240$ students. (c) This is statistical/experimental probability, since it is based on collected survey data from a sample, not on an assumption of equally likely outcomes."},
+
+    {"number": "CS2", "form": "case_study", "marks": 4, "page": 11,
+     "stem": "Case Study 2: The Snakes and Ladders Game. Riya is playing Snakes and Ladders with a fair 6-sided die. On her last four turns, she rolled a 6 every single time. Her friend Aman says, \"You have rolled four 6's in a row - it is now very unlikely you will roll a 6 again, so a different number is 'due'.\" (a) What is the theoretical probability of rolling a 6 on Riya's next turn? (b) Is Aman's reasoning correct? Name the misconception he is demonstrating. (c) If Riya rolls the die 600 times, roughly how many times would you expect a 6 to appear, and which principle predicts this?",
+     "sub_parts": ["a", "b", "c"],
+     "answer": "(a) $P(\\text{rolling a } 6) = 1/6 \\approx 0.167$, the same as always for a fair die. (b) No, Aman's reasoning is incorrect. This is an example of the Gambler's Fallacy - the mistaken belief that past outcomes affect future independent events. (c) Roughly 100 times ($1/6 \\times 600 \\approx 100$). This is predicted by the Law of Large Numbers, which states that with more trials the experimental probability approaches the theoretical probability."},
+
+    {"number": "H1", "form": "long", "marks": 5, "page": 12, "section_heading": "Higher Order Thinking Skills (HOTS) Questions",
+     "stem": "A game designer wants a spinner where the probability of winning a prize is exactly 0.3. If the spinner has 20 equal sectors, how many sectors should be marked 'Prize'? Explain your reasoning.",
+     "answer": "$P(\\text{Prize}) = $ favourable/total $= x/20 = 0.3$, so $x = 6$. Therefore 6 out of 20 sectors should be marked 'Prize'."},
+
+    {"number": "H2", "form": "long", "marks": 5, "page": 12,
+     "stem": "Two students each toss a coin 10 times. Student A gets 7 heads; Student B gets 4 heads. Does this mean Student A's coin is more likely to be biased than Student B's? Explain how the Law of Large Numbers would help you investigate this further.",
+     "answer": "No. A small number of trials (10 tosses) can easily differ from the theoretical probability of 0.5 by chance alone; this does not indicate bias. The Law of Large Numbers suggests both students should toss their coins many more times (for example 500-1000 times) - if the relative frequency of heads still stays far from 0.5 after many trials, that would be better evidence of bias."}
+  ]
+}

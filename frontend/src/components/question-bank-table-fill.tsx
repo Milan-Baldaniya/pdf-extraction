@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React, { useState, useEffect, Fragment } from "react"
 import { Button } from "@/components/ui/button"
@@ -19,6 +19,15 @@ interface QuestionBankRecord {
   extraction_status: string
   created_at: string
   is_processed: boolean
+}
+
+interface Publisher {
+  id: number
+  code: string
+  name: string
+  short_name: string | null
+  licence_type: string | null
+  attribution_required: number
 }
 
 interface ValidationEntry { code: string; message: string }
@@ -153,7 +162,7 @@ function PreviewCard({ item }: { item: PreviewItem }) {
           )}
         </div>
       ) : (
-        <div className="whitespace-pre-wrap leading-relaxed text-foreground/85">{item.stem}</div>
+        <div className="whitespace-pre-wrap leading-relaxed text-foreground/85">{item.stem.replace(/!\[.*?\]\(.*?\)/g, "[Figure]")}</div>
       )}
 
       {item.sub_part_labels.length > 0 && (
@@ -176,8 +185,8 @@ function PreviewCard({ item }: { item: PreviewItem }) {
               }`}
             >
               <span className="font-mono font-semibold">({o.label})</span>
-              <span className="min-w-0 flex-1 break-words">{o.text}</span>
-              {o.is_correct && <span aria-label="correct answer">✓</span>}
+              <span className="min-w-0 flex-1 break-words">{o.text.replace(/!\[.*?\]\(.*?\)/g, "[Figure]")}</span>
+              {o.is_correct && <span aria-label="correct answer">âœ“</span>}
             </div>
           ))}
         </div>
@@ -202,7 +211,7 @@ function FigureStrip({ item }: { item: PreviewItem }) {
     if (!item.figure_required) return null
     return (
       <div className="mt-2 rounded-lg border border-dashed border-amber-500/50 px-2.5 py-1.5 text-[11px] text-amber-700 dark:text-amber-500">
-        This question refers to a figure, but none was captured — held for review.
+        This question refers to a figure, but none was captured â€” held for review.
       </div>
     )
   }
@@ -240,6 +249,11 @@ function FigureStrip({ item }: { item: PreviewItem }) {
 
 export function QuestionBankTableFill() {
   const [records, setRecords] = useState<QuestionBankRecord[]>([])
+  const [publishers, setPublishers] = useState<Publisher[]>([])
+  // Which publisher this chapter's questions came from. Defaults to KVS
+  // because that is the pilot source, but any book can be ingested and an
+  // unknown publisher is created on the fly by the backend.
+  const [publisherCode, setPublisherCode] = useState("kvs_ro_agra")
   const [loading, setLoading] = useState(false)
   const [busyId, setBusyId] = useState<number | null>(null)
   const [busyMessage, setBusyMessage] = useState<string | null>(null)
@@ -279,8 +293,20 @@ export function QuestionBankTableFill() {
 
   // Preview is a dry run: it parses and validates and writes nothing, so an
   // operator can see the blueprint match and the held items before committing.
+  useEffect(() => {
+    fetch(apiUrl("/publishers"))
+      .then(r => (r.ok ? r.json() : []))
+      .then((rows: Publisher[]) => {
+        setPublishers(rows)
+        if (rows.length && !rows.some(p => p.code === "kvs_ro_agra")) {
+          setPublisherCode(rows[0].code)
+        }
+      })
+      .catch(() => setPublishers([]))
+  }, [])
+
   const handlePreview = async (id: number) => {
-    setExpandedRowId(id); setBusyId(id); setResult(null); setBusyMessage("Parsing…")
+    setExpandedRowId(id); setBusyId(id); setResult(null); setBusyMessage("Parsingâ€¦")
     try {
       const res = await fetch(apiUrl(`/exam-questions/${id}/process?dry_run=true`), { method: "POST" })
       const data = await res.json()
@@ -305,7 +331,8 @@ export function QuestionBankTableFill() {
     setExpandedRowId(record.id); setBusyId(record.id); setResult(null)
     try {
       const data = await runJob<ProcessResult>(
-        `${apiUrl(`/jobs/exam-questions/${record.id}/process`)}?replace=${replace}`,
+        `${apiUrl(`/jobs/exam-questions/${record.id}/process`)}?replace=${replace}` +
+          `&publisher_code=${encodeURIComponent(publisherCode)}`,
         undefined,
         (status) => setBusyMessage(status.message),
       )
@@ -348,7 +375,7 @@ export function QuestionBankTableFill() {
         <tr className="bg-black/[0.02] dark:bg-white/[0.02]">
           <td colSpan={8} className="p-6 border-b border-black/5 dark:border-white/5">
             <div className="text-sm text-muted-foreground animate-pulse">
-              {busyMessage || "Working…"}
+              {busyMessage || "Workingâ€¦"}
             </div>
           </td>
         </tr>
@@ -368,9 +395,9 @@ export function QuestionBankTableFill() {
                 : "border-amber-500/30 bg-amber-500/10 text-amber-800 dark:text-amber-300"
             }`}>
               {result.blueprint.matches_cbse_pattern
-                ? `Matches the CBSE paper pattern — ${result.parsed} items, ${result.total_marks} marks.`
+                ? `Matches the CBSE paper pattern â€” ${result.parsed} items, ${result.total_marks} marks.`
                 : `Parsed ${result.parsed} items (${result.total_marks} marks) but the section counts do not match the CBSE pattern. Review before publishing.`}
-              {result.dry_run && <span className="ml-2 opacity-70">(preview only — nothing was saved)</span>}
+              {result.dry_run && <span className="ml-2 opacity-70">(preview only â€” nothing was saved)</span>}
             </div>
 
             {renderBlueprint(result)}
@@ -407,7 +434,7 @@ export function QuestionBankTableFill() {
                 </div>
                 <div className="text-xs text-muted-foreground">
                   {Object.entries(result.validation.by_code).map(([code, n]) => (
-                    <span key={code} className="mr-3">{code} × {n}</span>
+                    <span key={code} className="mr-3">{code} Ã— {n}</span>
                   ))}
                 </div>
               </div>
@@ -430,7 +457,7 @@ export function QuestionBankTableFill() {
                           Section {sec}
                         </span>
                         <span className="text-[11px] text-muted-foreground/70">
-                          {items.length} {items.length === 1 ? "question" : "questions"} ·{" "}
+                          {items.length} {items.length === 1 ? "question" : "questions"} Â·{" "}
                           {items.reduce((n, i) => n + (i.marks || 0), 0)} marks
                         </span>
                         <div className="h-px flex-1 bg-black/10 dark:bg-white/10" />
@@ -470,14 +497,34 @@ export function QuestionBankTableFill() {
       <div className="mb-8">
         <h2 className="text-3xl font-bold tracking-tight text-foreground/90">Question Bank Queue</h2>
         <p className="text-muted-foreground/70 mt-2 text-sm max-w-2xl">
-          Turn an extracted question-bank chapter into structured exam items — question, options,
-          correct answer, worked solution, marks and CBSE section — and store them in the question
+          Turn an extracted question-bank chapter into structured exam items â€” question, options,
+          correct answer, worked solution, marks and CBSE section â€” and store them in the question
           bank. Preview first to see the blueprint match; Proceed writes them.
         </p>
       </div>
 
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
         <div className="flex gap-3 z-[60]">
+          <div className="w-[210px]">
+            <label className="mb-1 block text-[11px] font-medium uppercase tracking-wide text-muted-foreground">
+              Publisher
+            </label>
+            <CustomSelect
+              value={publisherCode}
+              onChange={setPublisherCode}
+              options={publishers.map(p => ({
+                value: p.code,
+                label: p.short_name || p.name,
+              }))}
+              placeholder="Select publisher"
+            />
+            {/* Attribution is a licence condition for most of these sources,
+                so the reviewer sees which one they are crediting. */}
+            <p className="mt-1 text-[10px] leading-tight text-muted-foreground/70">
+              {publishers.find(p => p.code === publisherCode)?.licence_type
+                ?? "Applied to every question written from this chapter."}
+            </p>
+          </div>
           <div className="w-[150px]">
             <CustomSelect value={filterBoard} onChange={setFilterBoard}
               options={boards.map(b => ({ value: String(b), label: b === "All" ? "All Boards" : String(b) }))} />
@@ -493,7 +540,7 @@ export function QuestionBankTableFill() {
         </div>
         <Button onClick={fetchRecords} disabled={loading}
           className="rounded-full bg-black/5 dark:bg-white/10 hover:bg-black/10 text-foreground/80">
-          {loading ? "Refreshing…" : "Refresh"}
+          {loading ? "Refreshingâ€¦" : "Refresh"}
         </Button>
       </div>
 
@@ -514,7 +561,7 @@ export function QuestionBankTableFill() {
           <tbody className="divide-y divide-black/5 dark:divide-white/5">
             {filtered.length === 0 && (
               <tr><td colSpan={8} className="px-4 py-10 text-center text-muted-foreground/70">
-                {loading ? "Loading…" : "No question-bank extractions yet. Upload a chapter PDF with Document Type “Question Bank”."}
+                {loading ? "Loadingâ€¦" : "No question-bank extractions yet. Upload a chapter PDF with Document Type â€œQuestion Bankâ€."}
               </td></tr>
             )}
             {filtered.map(r => (
@@ -524,7 +571,7 @@ export function QuestionBankTableFill() {
                   <td className="px-4 py-3 font-medium text-foreground/90">{r.document_tittle}</td>
                   <td className="px-4 py-3">
                     <span className="rounded-full bg-black/5 dark:bg-white/10 px-2.5 py-1 text-xs">
-                      {r.board} · t{r.sub_institute_id}
+                      {r.board} Â· t{r.sub_institute_id}
                     </span>
                   </td>
                   <td className="px-4 py-3 tabular-nums">{r.standard}</td>
@@ -565,7 +612,7 @@ export function QuestionBankTableFill() {
                         disabled={busyId !== null || !r.chapter_id || r.extraction_status !== "extracted"}
                         className="rounded-full bg-blue-600 hover:bg-blue-700 text-white px-5 shadow-md"
                       >
-                        {busyId === r.id ? "Working…" : "Proceed"}
+                        {busyId === r.id ? "Workingâ€¦" : "Proceed"}
                       </Button>
                     </div>
                   </td>
@@ -579,3 +626,4 @@ export function QuestionBankTableFill() {
     </div>
   )
 }
+

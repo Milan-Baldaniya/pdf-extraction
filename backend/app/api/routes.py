@@ -1413,6 +1413,8 @@ async def process_exam_questions_endpoint(
     replace: bool = False,
     publish_clean: bool = True,
     dry_run: bool = False,
+    publisher_code: str | None = None,
+    publisher_name: str | None = None,
 ) -> dict[str, Any]:
     """Synchronous form, for a single chapter and for previews.
 
@@ -1427,6 +1429,8 @@ async def process_exam_questions_endpoint(
             replace=replace,
             publish_clean=publish_clean,
             dry_run=dry_run,
+            publisher_code=publisher_code,
+            publisher_name=publisher_name,
         )
     except LookupError as exc:
         raise HTTPException(status_code=404, detail=str(exc)) from exc
@@ -1451,6 +1455,8 @@ async def queue_exam_question_processing(
     created_by: int = 0,
     replace: bool = False,
     publish_clean: bool = True,
+    publisher_code: str | None = None,
+    publisher_name: str | None = None,
 ) -> dict[str, Any]:
     """Background form of ``/exam-questions/{id}/process``.
 
@@ -1470,6 +1476,8 @@ async def queue_exam_question_processing(
             created_by=created_by,
             replace=replace,
             publish_clean=publish_clean,
+            publisher_code=publisher_code,
+            publisher_name=publisher_name,
         ),
     )
     return _accepted(job_id)

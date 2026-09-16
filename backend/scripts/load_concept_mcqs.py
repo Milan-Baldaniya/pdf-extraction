@@ -40,7 +40,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from app.services.concept_mcq_program import LADDER, write_mcqs  # noqa: E402
+from app.services.concept_mcq_program import (  # noqa: E402
+    LADDER,
+    TYPE_BLUEPRINT,
+    write_items,
+)
 
 logging.basicConfig(level=logging.WARNING, format="%(levelname)s %(message)s")
 
@@ -67,10 +71,11 @@ def load_one(path: Path, *, dry: bool, created_by: int, hold: bool) -> dict:
     print(header)
     print("  " + "-" * (len(header) - 2))
 
+    forms: dict[str, int] = {}
     for concept_id, items in concepts.items():
         if not items:
             continue
-        result = write_mcqs(
+        result = write_items(
             int(concept_id), items,
             created_by=created_by,
             publish_clean=not hold,
@@ -82,6 +87,8 @@ def load_one(path: Path, *, dry: bool, created_by: int, hold: bool) -> dict:
         totals["concepts"] += 1
         for p in result["problems"]:
             problems.append({"concept_id": concept_id, **p})
+        for form, n in result.get("by_form", {}).items():
+            forms[form] = forms.get(form, 0) + n
 
         cells = "".join(f"{result['by_difficulty'].get(lv, 0):>7}" for lv in LEVELS)
         print(f"  {concept_id:<10}{len(items):>6}{result['written']:>8}"
@@ -91,6 +98,14 @@ def load_one(path: Path, *, dry: bool, created_by: int, hold: bool) -> dict:
     print(f"  {'TOTAL':<10}{'':>6}{totals['written']:>8}"
           f"{totals['duplicate']:>5}{totals['rejected']:>5}"
           f"   over {totals['concepts']} concept(s)")
+
+    if forms:
+        print("\n  form                 got  target/concept")
+        print("  " + "-" * 36)
+        for form in sorted(forms, key=lambda f: -forms[f]):
+            target = TYPE_BLUEPRINT.get(form)
+            want = f"{target * max(1, totals['concepts'])}" if target else "-"
+            print(f"  {form:<20}{forms[form]:>4}{want:>8}")
 
     if problems:
         print(f"\n  {len(problems)} item(s) REJECTED and not stored:")

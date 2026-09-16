@@ -1,24 +1,31 @@
-"""A managed MCQ bank of 40 items per concept, balanced across difficulty.
+"""A managed bank of 50 items per concept, balanced across difficulty and form.
 
-The target is 40 multiple-choice questions for every `lms_concept`, split
-Easy / Medium / Hard, each carrying a Bloom level and a DOK level. The point is
-diagnosis: an adaptive test can only tell you *which* gap a student has if the
-concept it is probing has enough items at enough levels to separate "has not
-learnt it" from "cannot apply it".
+The target is 50 questions for every `lms_concept`, split Easy / Medium / Hard,
+spread across the `question_type_catalog` forms, each carrying a Bloom level, a
+DOK level and its answer. The point is diagnosis: an adaptive test can only tell
+you *which* gap a student has if the concept it is probing has enough items at
+enough levels to separate "has not learnt it" from "cannot apply it".
 
 Measured before this existed, chapter 1012 had 21 MCQs on "Precipitation
 reaction" and 1 on "Prevention of rancidity". A concept with one question is a
 concept the test cannot say anything about.
 
-Three things here are load-bearing:
+Four things here are load-bearing:
 
 **The ladder is one closed table.** Difficulty, Bloom and DOK are three views of
 the same judgement, and letting them be set independently is how a bank ends up
 with an "Easy" question tagged `Analyze` at DOK 3. `LADDER` below is the single
 source; everything else derives.
 
-**The validator is a hard gate.** 9,640 MCQs written quickly are 9,640
-liabilities unless something checks them. `validate_mcq` rejects the specific
+**Every form is first class.** An option-bearing item (mcq, assertion_reason,
+true_false) stores its alternatives as `answer_master` rows with the key
+flagged. Every other form is answered in prose and stores a model answer in the
+same JSON envelope `answer_backfill` writes, so a bank of mixed forms reads
+uniformly. A prose item with no model answer is REJECTED, because that is
+precisely the state the 2,155 answerless narrative questions were in.
+
+**The validator is a hard gate.** Thousands of items written quickly are
+thousands of liabilities unless something checks them. It rejects the specific
 failures that make a question unusable rather than merely imperfect -- most
 importantly the length tell, where the correct option is visibly the longest and
 a student can score without reading the stem.
@@ -33,6 +40,7 @@ searchable and attributed as though it came out of a book.
 from __future__ import annotations
 
 import hashlib
+import json
 import logging
 import re
 from typing import Any
@@ -40,6 +48,10 @@ from typing import Any
 from sqlalchemy import text
 
 from app.db.mariadb import SessionLocal, init_mariadb
+# One marks table for the whole estate. The backfill service assigns marks to
+# questions already stored; this one assigns them to questions being authored,
+# and a second copy here would drift from it.
+from app.services.question_type_backfill import MARKS_BY_FORM
 
 logger = logging.getLogger(__name__)
 
@@ -56,11 +68,47 @@ logger = logging.getLogger(__name__)
 # every arithmetic item into Medium and leave Easy as pure recall, which is not
 # what an Easy tier is for.
 LADDER: dict[str, dict[str, Any]] = {
-    "Easy":   {"bloom": ("Remember", "Understand", "Apply"),  "dok": 1, "slots": 14},
-    "Medium": {"bloom": ("Understand", "Apply", "Analyze"),   "dok": 2, "slots": 13},
-    "Hard":   {"bloom": ("Analyze", "Evaluate", "Create"),    "dok": 3, "slots": 13},
+    "Easy":   {"bloom": ("Remember", "Understand", "Apply"),  "dok": 1, "slots": 17},
+    "Medium": {"bloom": ("Understand", "Apply", "Analyze"),   "dok": 2, "slots": 17},
+    "Hard":   {"bloom": ("Analyze", "Evaluate", "Create"),    "dok": 3, "slots": 16},
 }
-TARGET_PER_CONCEPT = sum(v["slots"] for v in LADDER.values())  # 40
+TARGET_PER_CONCEPT = sum(v["slots"] for v in LADDER.values())  # 50
+
+# A concept bank of nothing but MCQs cannot build a paper and cannot test
+# whether a student can WRITE chemistry rather than recognise it. These are the
+# 50 slots per concept, spread over the catalog forms.
+TYPE_BLUEPRINT: dict[str, int] = {
+    "mcq": 10,
+    "very_short": 8,
+    "short": 8,
+    "assertion_reason": 4,
+    "true_false": 4,
+    "fill_blank": 4,
+    "long": 4,
+    "numerical": 3,
+    "match_following": 2,
+    "construction": 2,
+    "proof": 1,
+}
+
+# Forms whose alternatives are stored as rows in `answer_master`. Everything
+# else is answered in prose and carries a model answer in the JSON envelope on
+# `lms_question_master.answer` instead.
+OPTION_FORMS = frozenset({"mcq", "assertion_reason", "true_false"})
+
+# How many options each option-bearing form must have. True/False has two;
+# anything else with two options is a coin flip dressed up as a question.
+OPTION_COUNT = {"mcq": 4, "assertion_reason": 4, "true_false": 2}
+
+QUESTION_TYPE_NARRATIVE = 2  # question_type_master.id for 'narrative'
+
+# How much prose a model answer must be to count as an answer. The rule exists
+# to catch stubs, NOT to outlaw short answers: the correct answer to "An
+# insoluble solid formed when two solutions react is called a ______" is the one
+# word "precipitate", and a flat three-word minimum rejected every
+# fill-in-the-blank in the first batch. Forms that ask for reasoning keep the
+# higher bar.
+_MIN_ANSWER_WORDS = {"fill_blank": 1, "very_short": 1}
 
 # Tenancy. `sub_institute_id` on a shared content bank is a BOARD, not a
 # school: 1 is CBSE, 341 is Cambridge. Getting this wrong publishes CBSE
@@ -72,7 +120,7 @@ STATUS_PUBLISHED = 1
 STATUS_HELD = 0
 QUESTION_TYPE_MCQ = 1     # question_type_master.id for 'multiple'
 
-PROVENANCE = "authored-mcq-v1"
+PROVENANCE = "authored-item-v1"
 
 _VAGUE_OPTIONS = re.compile(r"^\s*(all|none)\s+of\s+(the\s+)?above\s*\.?\s*$", re.I)
 
@@ -123,8 +171,71 @@ def content_hash(stem: str, options: list[str]) -> str:
 
 # ---------------------------------------------------------------- validation
 
+def _validate_common(item: dict[str, Any]) -> tuple[list[str], str]:
+    """Checks every form must pass, plus the resolved difficulty."""
+    problems: list[str] = []
+
+    stem = str(item.get("stem") or "").strip()
+    if len(stem.split()) < 2 or len(stem) < 8:
+        problems.append("stem is too short to be a question")
+    if len(stem) > 2000:
+        problems.append("stem is longer than 2000 characters")
+
+    difficulty = str(item.get("difficulty") or "")
+    if difficulty not in LADDER:
+        problems.append(f"difficulty must be one of {list(LADDER)}, got {difficulty!r}")
+        return problems, difficulty
+
+    rung = LADDER[difficulty]
+    bloom = str(item.get("bloom") or "")
+    if bloom not in rung["bloom"]:
+        problems.append(f"{difficulty} allows Bloom {rung['bloom']}, got {bloom!r}")
+    dok = item.get("dok")
+    if dok is not None and int(dok) != rung["dok"]:
+        problems.append(f"{difficulty} is DOK {rung['dok']}, got {dok}")
+
+    return problems, difficulty
+
+
+def validate_written(item: dict[str, Any]) -> list[str]:
+    """Problems that make a prose-answered item unusable.
+
+    The whole point of a non-MCQ item is the model answer, so an item without
+    one is not an item -- it is a prompt a teacher still has to do the work on.
+    That is exactly the state the 2,155 answerless narrative questions were in.
+    """
+    problems, _ = _validate_common(item)
+
+    form = str(item.get("form") or "")
+    answer = str(item.get("answer") or "").strip()
+    if not answer:
+        problems.append("no model answer")
+    elif len(answer.split()) < _MIN_ANSWER_WORDS.get(form, 3):
+        problems.append("model answer is too short to be an answer")
+
+    if form in OPTION_FORMS:
+        problems.append(f"form {form!r} needs options, not a prose answer")
+    elif form and form not in TYPE_BLUEPRINT:
+        problems.append(f"unknown form {form!r}")
+
+    # A match-the-following item is useless unless the answer states the
+    # pairing; a fill-in-the-blank is useless unless the stem has a blank.
+    if form == "match_following" and "-" not in answer and "," not in answer:
+        problems.append("match_following answer does not state the pairing")
+    if form == "fill_blank" and "___" not in str(item.get("stem") or ""):
+        problems.append("fill_blank stem has no blank to fill")
+
+    return problems
+
+
+def validate_item(item: dict[str, Any]) -> list[str]:
+    """Validate any item, dispatching on its catalog form."""
+    form = str(item.get("form") or "mcq")
+    return validate_mcq(item) if form in OPTION_FORMS else validate_written(item)
+
+
 def validate_mcq(item: dict[str, Any]) -> list[str]:
-    """Problems that make an MCQ unusable. Empty list means it can be stored."""
+    """Problems that make an option-bearing item unusable."""
     problems: list[str] = []
 
     stem = str(item.get("stem") or "").strip()
@@ -136,9 +247,12 @@ def validate_mcq(item: dict[str, Any]) -> list[str]:
     if len(stem) > 2000:
         problems.append("stem is longer than 2000 characters")
 
+    form = str(item.get("form") or "mcq")
+    wanted = OPTION_COUNT.get(form, 4)
     options = item.get("options") or []
-    if not isinstance(options, list) or len(options) != 4:
-        problems.append(f"needs exactly 4 options, got {len(options) if isinstance(options, list) else 'none'}")
+    if not isinstance(options, list) or len(options) != wanted:
+        got = len(options) if isinstance(options, list) else "none"
+        problems.append(f"{form} needs exactly {wanted} options, got {got}")
         return problems
 
     texts = [str(o.get("text") or "").strip() for o in options]
@@ -306,7 +420,27 @@ def plan_chapter(chapter_id: int) -> list[dict[str, Any]]:
 
 # ------------------------------------------------------------------- writing
 
-def write_mcqs(
+def _answer_envelope(answer: str, *, marks: int, author: str) -> str:
+    """The JSON envelope the bank reads a prose answer out of.
+
+    Same shape and the same provenance stamp `answer_backfill` writes, so a
+    teacher reading the bank cannot tell an authored answer for a NEW question
+    from an authored answer backfilled onto an OLD one -- and in both cases can
+    tell it apart from a publisher's marking scheme.
+    """
+    return json.dumps(
+        {
+            "model_answer": answer,
+            "v": "authored-item-1.0",
+            "marks": marks,
+            "answer_origin": "authored",
+            "answer_author": author,
+        },
+        ensure_ascii=False,
+    )
+
+
+def write_items(
     concept_id: int,
     items: list[dict[str, Any]],
     *,
@@ -314,17 +448,18 @@ def write_mcqs(
     sub_institute_id: int = CBSE,
     publish_clean: bool = True,
     dry_run: bool = False,
+    author: str = "claude-opus-5",
 ) -> dict[str, Any]:
-    """Store authored MCQs against one concept.
+    """Store authored items of any catalog form against one concept.
 
     No extraction sidecar is written: these questions have no source document,
     and claiming one would make them look reproduced. An item that fails
-    `validate_mcq` is not stored at all -- storing a broken MCQ held for review
-    just moves the problem to a teacher.
+    validation is not stored at all -- storing a broken question held for
+    review just moves the problem to a teacher.
     """
     report: dict[str, Any] = {
         "concept_id": concept_id, "written": 0, "rejected": 0,
-        "duplicate": 0, "problems": [], "by_difficulty": {},
+        "duplicate": 0, "problems": [], "by_difficulty": {}, "by_form": {},
     }
     if not items:
         return report
@@ -361,31 +496,45 @@ def write_mcqs(
 
         accepted = []
         for index, item in enumerate(items):
-            problems = validate_mcq(item)
+            problems = validate_item(item)
             if problems:
                 report["rejected"] += 1
                 report["problems"].append({"index": index, "problems": problems,
                                            "stem": str(item.get("stem"))[:90]})
                 continue
 
-            options = [str(o["text"]).strip() for o in item["options"]]
-            digest = content_hash(item["stem"], options)
+            form = str(item.get("form") or "mcq")
+            # Hash over the stem plus whatever the item's alternatives are. For
+            # a prose item there are none, so the stem alone identifies it.
+            parts = (
+                [str(o["text"]).strip() for o in item["options"]]
+                if form in OPTION_FORMS else []
+            )
+            digest = content_hash(item["stem"], parts)
             if digest in seen:
                 report["duplicate"] += 1
                 continue
             seen.add(digest)
-            accepted.append((item, digest))
+            # Resolve marks here rather than at write time, so a --dry run
+            # exercises the same lookups the real run does. A dry run that
+            # stops short of the writer cannot catch a writer bug, which is
+            # exactly how a missing MARKS_BY_FORM import survived one.
+            accepted.append((item, digest, MARKS_BY_FORM.get(form, 1)))
 
         if dry_run:
             report["written"] = len(accepted)
-            for item, _ in accepted:
+            for item, _, _marks in accepted:
                 d = item["difficulty"]
+                f = str(item.get("form") or "mcq")
                 report["by_difficulty"][d] = report["by_difficulty"].get(d, 0) + 1
+                report["by_form"][f] = report["by_form"].get(f, 0) + 1
             return report
 
-        for item, digest in accepted:
+        for item, digest, marks in accepted:
             difficulty = item["difficulty"]
             rung = LADDER[difficulty]
+            form = str(item.get("form") or "mcq")
+            has_options = form in OPTION_FORMS
             db.execute(
                 text(
                     """
@@ -397,14 +546,22 @@ def write_mcqs(
                          g_content_hash, hint_text)
                     VALUES
                         (:qtype, :standard, :subject, :chapter,
-                         :concept_id, :concept_name, :stem, :description, 1,
+                         :concept_id, :concept_name, :stem, :description, :marks,
                          0, :tenant, :status, :created_by,
-                         '', :bloom, :difficulty, :dok, 'mcq',
+                         :answer, :bloom, :difficulty, :dok, :form,
                          :digest, :explanation)
                     """
                 ),
                 {
-                    "qtype": QUESTION_TYPE_MCQ,
+                    "qtype": QUESTION_TYPE_MCQ if has_options else QUESTION_TYPE_NARRATIVE,
+                    "marks": marks,
+                    "form": form,
+                    # An option-bearing item's answer is the flagged row in
+                    # answer_master, so the envelope stays empty for those.
+                    # A prose item's answer IS the envelope.
+                    "answer": "" if has_options else _answer_envelope(
+                        str(item["answer"]).strip(), marks=marks, author=author
+                    ),
                     "standard": concept["standard_id"],
                     "subject": concept["subject_id"],
                     "chapter": concept["chapter_id"],
@@ -419,12 +576,12 @@ def write_mcqs(
                     "difficulty": difficulty,
                     "dok": rung["dok"],
                     "digest": digest,
-                    "explanation": str(item["explanation"]).strip()[:60000],
+                    "explanation": str(item.get("explanation") or "").strip()[:60000],
                 },
             )
             question_id = int(db.execute(text("SELECT LAST_INSERT_ID()")).scalar())
 
-            for option in item["options"]:
+            for option in (item.get("options") or []) if has_options else []:
                 db.execute(
                     text(
                         """
@@ -450,6 +607,7 @@ def write_mcqs(
             report["by_difficulty"][difficulty] = (
                 report["by_difficulty"].get(difficulty, 0) + 1
             )
+            report["by_form"][form] = report["by_form"].get(form, 0) + 1
 
         db.commit()
     except Exception:
@@ -458,12 +616,21 @@ def write_mcqs(
     finally:
         db.close()
 
-    logger.info("wrote %s MCQ(s) on concept %s", report["written"], concept_id)
+    logger.info("wrote %s item(s) on concept %s", report["written"], concept_id)
     return report
+
+
+# Kept so the MCQ-only item files already on disk keep loading unchanged.
+write_mcqs = write_items
 
 
 __all__ = [
     "LADDER",
+    "OPTION_FORMS",
+    "TYPE_BLUEPRINT",
+    "validate_item",
+    "validate_written",
+    "write_items",
     "TARGET_PER_CONCEPT",
     "content_hash",
     "plan_chapter",

@@ -46,10 +46,19 @@ logger = logging.getLogger(__name__)
 # One closed table. Bloom is written in the LMS's Title-Case `g_bloom`
 # vocabulary, which starts at "Remember" -- NOT PAL's lowercase set, which
 # starts at "recall". Both are live in this estate and must not be unified.
+#
+# DOK is pinned one-to-one to difficulty, because that is the tie the bank
+# needs: an Easy item is a DOK 1 item. Bloom deliberately OVERLAPS between
+# rungs, because Bloom and difficulty are different axes and forcing them to
+# agree produces nonsense. "10 g of A reacts with 20 g of B; what mass of
+# product forms?" is cognitively Apply -- the student uses a rule -- and
+# unarguably Easy, being a single-step sum. A rung that refused it would push
+# every arithmetic item into Medium and leave Easy as pure recall, which is not
+# what an Easy tier is for.
 LADDER: dict[str, dict[str, Any]] = {
-    "Easy":   {"bloom": ("Remember", "Understand"), "dok": 1, "slots": 14},
-    "Medium": {"bloom": ("Understand", "Apply"),    "dok": 2, "slots": 13},
-    "Hard":   {"bloom": ("Analyze", "Evaluate"),    "dok": 3, "slots": 13},
+    "Easy":   {"bloom": ("Remember", "Understand", "Apply"),  "dok": 1, "slots": 14},
+    "Medium": {"bloom": ("Understand", "Apply", "Analyze"),   "dok": 2, "slots": 13},
+    "Hard":   {"bloom": ("Analyze", "Evaluate", "Create"),    "dok": 3, "slots": 13},
 }
 TARGET_PER_CONCEPT = sum(v["slots"] for v in LADDER.values())  # 40
 
@@ -81,6 +90,25 @@ def _norm(value: str) -> str:
     return " ".join(stripped.split())
 
 
+def _norm_option(value: str) -> str:
+    """Normalise an option WITHOUT destroying equation structure.
+
+    Plain `_norm` strips every non-alphanumeric character, which collapses
+
+        "Magnesium + Oxygen -> Magnesium oxide"
+        "Magnesium -> Oxygen + Magnesium oxide"
+
+    onto the same string and reports two perfectly good distractors as
+    duplicates. In an equation the operators ARE the content -- which side of
+    the arrow a substance sits on is the whole question -- so they survive as
+    words.
+    """
+    text_ = re.sub(r"<[^>]+>", " ", value or "").lower()
+    text_ = text_.replace("->", " arrow ").replace("→", " arrow ")
+    text_ = text_.replace("+", " plus ").replace("=", " equals ")
+    return " ".join(re.sub(r"[^a-z0-9]+", " ", text_).split())
+
+
 def content_hash(stem: str, options: list[str]) -> str:
     """Stable hash over the stem plus the option SET.
 
@@ -100,8 +128,11 @@ def validate_mcq(item: dict[str, Any]) -> list[str]:
     problems: list[str] = []
 
     stem = str(item.get("stem") or "").strip()
-    if len(stem.split()) < 4:
-        problems.append("stem is shorter than four words")
+    # Deliberately loose. The rule exists to catch a stem that was truncated or
+    # never written, not to outlaw terse ones: "2Na means" is a perfectly good
+    # two-word question.
+    if len(stem.split()) < 2 or len(stem) < 8:
+        problems.append("stem is too short to be a question")
     if len(stem) > 2000:
         problems.append("stem is longer than 2000 characters")
 
@@ -113,7 +144,7 @@ def validate_mcq(item: dict[str, Any]) -> list[str]:
     texts = [str(o.get("text") or "").strip() for o in options]
     if any(not t for t in texts):
         problems.append("an option has no text")
-    if len(texts) != len({_norm(t) for t in texts}):
+    if len(texts) != len({_norm_option(t) for t in texts}):
         problems.append("two options are the same")
     over = [t for t in texts if len(t) > OPTION_MAX]
     if over:
@@ -142,11 +173,27 @@ def validate_mcq(item: dict[str, Any]) -> list[str]:
     if vague and options[key_index].get("correct") and _VAGUE_OPTIONS.match(key_text):
         problems.append("'all/none of the above' used as the key")
 
-    # The stem must not hand over the answer. Checked on the key's distinctive
-    # words, not the whole string, because a stem legitimately repeats terms.
-    key_words = {w for w in _norm(key_text).split() if len(w) > 5}
-    if key_words and key_words <= set(_norm(stem).split()):
-        problems.append("the stem contains every distinctive word of the answer")
+    # The stem must not hand over the answer -- but only where it hands it over
+    # to the KEY ALONE. A whole class of legitimate question quotes the material
+    # it is asking about, and then every option necessarily draws on the stem's
+    # vocabulary:
+    #
+    #   "Zinc + Sulphuric acid -> Zinc sulphate + Hydrogen.
+    #    The products in this word equation are"
+    #
+    # The student still has to know which side of the arrow is which, so this is
+    # a real question. It is a giveaway only when the key echoes the stem and
+    # the distractors do not, because then matching words is enough to score.
+    stem_words = set(_norm(stem).split())
+
+    def _echoes_stem(value: str) -> bool:
+        distinctive = {w for w in _norm(value).split() if len(w) > 5}
+        return bool(distinctive) and distinctive <= stem_words
+
+    if _echoes_stem(key_text) and not any(
+        _echoes_stem(t) for i, t in enumerate(texts) if i != key_index
+    ):
+        problems.append("the stem gives away the key and no distractor")
 
     difficulty = str(item.get("difficulty") or "")
     if difficulty not in LADDER:

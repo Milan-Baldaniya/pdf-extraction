@@ -364,6 +364,35 @@ def _concept_rows(chapter_id: int) -> list[dict[str, Any]]:
         db.close()
 
 
+def _existing_by_form(concept_ids: list[int]) -> dict[int, dict[str, int]]:
+    """Per concept, how many items of each catalog form exist.
+
+    A concept holding 50 items that are all MCQs meets the count and misses the
+    point, so the gap has to be reported per form and not only as a total.
+    """
+    if not concept_ids:
+        return {}
+    db = _session()
+    try:
+        rows = db.execute(
+            text(
+                """
+                SELECT q.concept_id, COALESCE(q.g_qtype_code, 'untyped') AS f, COUNT(*)
+                  FROM lms_question_master q
+                 WHERE q.concept_id IN :ids AND q.deleted_at IS NULL
+                 GROUP BY q.concept_id, f
+                """
+            ),
+            {"ids": tuple(concept_ids)},
+        ).fetchall()
+    finally:
+        db.close()
+    out: dict[int, dict[str, int]] = {}
+    for concept_id, form, n in rows:
+        out.setdefault(int(concept_id), {})[str(form)] = int(n)
+    return out
+
+
 def _existing_by_difficulty(concept_ids: list[int]) -> dict[int, dict[str, int]]:
     if not concept_ids:
         return {}
@@ -372,12 +401,14 @@ def _existing_by_difficulty(concept_ids: list[int]) -> dict[int, dict[str, int]]
         rows = db.execute(
             text(
                 """
+                -- Every form counts towards the 50, not just the MCQs. The
+                -- original query joined question_type_master and filtered on
+                -- 'multiple', which was right while the programme was MCQ-only
+                -- and silently hid every prose item once it was not.
                 SELECT q.concept_id, COALESCE(q.g_difficulty, 'Unset') AS d, COUNT(*) AS n
                   FROM lms_question_master q
-                  JOIN question_type_master qt ON qt.id = q.question_type_id
                  WHERE q.concept_id IN :ids
                    AND q.deleted_at IS NULL
-                   AND qt.question_type = 'multiple'
                  GROUP BY q.concept_id, d
                 """
             ),
@@ -399,14 +430,21 @@ def plan_chapter(chapter_id: int) -> list[dict[str, Any]]:
     "write 40" and "write the 6 Hard ones this concept is missing".
     """
     concepts = _concept_rows(chapter_id)
-    existing = _existing_by_difficulty([int(c["id"]) for c in concepts])
+    ids = [int(c["id"]) for c in concepts]
+    existing = _existing_by_difficulty(ids)
+    by_form = _existing_by_form(ids)
 
     plan = []
     for concept in concepts:
         have = existing.get(int(concept["id"]), {})
+        forms = by_form.get(int(concept["id"]), {})
         gap = {
             level: max(0, rung["slots"] - have.get(level, 0))
             for level, rung in LADDER.items()
+        }
+        form_gap = {
+            form: max(0, want - forms.get(form, 0))
+            for form, want in TYPE_BLUEPRINT.items()
         }
         plan.append({
             **concept,
@@ -414,6 +452,9 @@ def plan_chapter(chapter_id: int) -> list[dict[str, Any]]:
             "have_total": sum(have.values()),
             "gap": gap,
             "gap_total": sum(gap.values()),
+            "forms": forms,
+            "form_gap": form_gap,
+            "form_gap_total": sum(form_gap.values()),
         })
     return plan
 

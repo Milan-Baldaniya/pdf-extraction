@@ -71,17 +71,18 @@ def main() -> int:
             continue
 
         print(f"\nchapter {chapter_id}  {name}   "
-              f"{len(plan)} concepts, {have}/{target} MCQs")
+              f"{len(plan)} concepts, {have}/{target} items")
         head = f"  {'concept':<44}" + "".join(f"{lv[:4]:>7}" for lv in LEVELS) \
-               + f"{'unset':>7}{'have':>6}{'gap':>6}"
+               + f"{'unset':>7}{'have':>6}{'gap':>6}{'forms':>7}{'fgap':>6}"
         print(head)
         print("  " + "-" * (len(head) - 2))
         for p in plan:
-            if args.gaps_only and p["gap_total"] == 0:
+            if args.gaps_only and p["gap_total"] == 0 and p.get("form_gap_total", 0) == 0:
                 continue
             cells = "".join(f"{p['have'].get(lv, 0):>7}" for lv in LEVELS)
             print(f"  {str(p['name'])[:42]:<44}{cells}"
-                  f"{p['have'].get('Unset', 0):>7}{p['have_total']:>6}{p['gap_total']:>6}")
+                  f"{p['have'].get('Unset', 0):>7}{p['have_total']:>6}{p['gap_total']:>6}"
+                  f"{len(p.get('forms') or {}):>7}{p.get('form_gap_total', 0):>6}")
 
     if args.summary and grand_target:
         print(f"\n  {'TOTAL':<52}{grand_have:>5}/{grand_target:<6} "

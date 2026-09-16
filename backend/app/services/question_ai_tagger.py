@@ -28,6 +28,7 @@ from __future__ import annotations
 
 import json
 import logging
+from collections import Counter
 import re
 from typing import Any
 
@@ -93,7 +94,11 @@ class ConceptTag(BaseModel):
 
 
 class ConceptTagBatch(BaseModel):
-    items: list[ConceptTag] = Field(default_factory=list)
+    # No default. With `Field(default_factory=list)` here, `{}` -- or any
+    # reply using the wrong top-level key -- validated CLEAN, so a whole
+    # batch was silently dropped while the caller still reported success.
+    # That is exactly the "chapter of nulls" this module exists to prevent.
+    items: list[ConceptTag]
 
 
 _SYSTEM_PROMPT = (
@@ -167,9 +172,107 @@ def _load_items(extraction_id: int) -> list[dict[str, Any]]:
         db.close()
 
 
+def _load_chapter_items(chapter_id: int, *, only_untagged: bool = False) -> list[dict[str, Any]]:
+    """Every question on a chapter, whether or not it came from an extraction.
+
+    `_load_items` joins `lms_question_extraction`, so it can only see questions
+    this pipeline wrote. Most of the bank did not come from here -- the Class 10
+    Science chapters hold ~3,000 generated questions with no sidecar at all --
+    and those are precisely the ones with no concept, no Bloom and no DOK. The
+    join is LEFT so a sidecar is used when present and simply absent otherwise.
+
+    `item_ordinal` is the question id in this mode. It only has to be a stable,
+    unique ref for matching the model's echo back to the row.
+    """
+    db = _session()
+    try:
+        extra = ""
+        if only_untagged:
+            # Re-running a whole chapter is wasteful once it is tagged, and it
+            # would also overwrite a human correction.
+            extra = " AND (q.concept_id IS NULL OR q.g_bloom IS NULL OR q.g_dok IS NULL)"
+        rows = db.execute(
+            text(
+                f"""
+                SELECT e.id AS sidecar_id, q.id AS question_id, q.id AS item_ordinal,
+                       e.item_number, e.exam_section, e.item_form,
+                       q.question_title, q.answer
+                  FROM lms_question_master q
+                  LEFT JOIN lms_question_extraction e ON e.question_id = q.id
+                 WHERE q.chapter_id = :c AND q.deleted_at IS NULL{extra}
+                 ORDER BY q.id
+                """
+            ),
+            {"c": chapter_id},
+        ).mappings().fetchall()
+        return [dict(r) for r in rows]
+    finally:
+        db.close()
+
+
 def _tokens(value: str) -> set[str]:
     words = re.findall(r"[a-z]{3,}", (value or "").lower())
     return {w for w in words if w not in _STOPWORDS}
+
+
+# Bloom's taxonomy is defined by the task verb, so the verb is the signal --
+# not the question's format. Ordered most-specific first: a stem containing
+# "justify" is Evaluate even though it also contains "explain".
+_BLOOM_VERBS: list[tuple[str, re.Pattern[str]]] = [
+    ("create", re.compile(
+        r"\b(design|devise|propose|formulate|create|invent|develop a|construct a plan"
+        r"|suggest (?:a|an|two|some) (?:way|method|design|improvement))", re.I)),
+    ("evaluate", re.compile(
+        r"\b(evaluate|justify|assess|critic|comment on|do you agree|which is better"
+        r"|defend|is it (?:correct|valid)|give reasons? (?:for|why)|support your answer)", re.I)),
+    ("analyze", re.compile(
+        r"\b(analys|analyz|compare|contrast|differ|distinguish|derive|prove"
+        r"|show that|deduce|examine|relate|why does|what would happen|interpret the"
+        r"|assertion)", re.I)),
+    ("apply", re.compile(
+        r"\b(calculat|comput|solve|find the|determine|balance the|apply|use the"
+        r"|draw|plot|construct|complete the|how much|how many|convert)", re.I)),
+    ("understand", re.compile(
+        r"\b(explain|describ|discuss|illustrat|summaris|summariz|classif|why is"
+        r"|what happens|give (?:an )?example|distinguish between|in your own words)", re.I)),
+    ("recall", re.compile(
+        r"\b(define|list|state|name|what is|what are|who|when|where|identify|label"
+        r"|write the (?:formula|name|symbol|full form)|recall|mention)", re.I)),
+]
+
+# Where a verb gives no signal, the question's format still says something.
+_BLOOM_BY_FORM = {
+    "mcq": "understand",
+    "true_false": "recall",
+    "fill_blank": "recall",
+    "match_following": "understand",
+    "assertion_reason": "analyze",
+    "very_short": "recall",
+    "numerical": "apply",
+    "short": "apply",
+    "construction": "apply",
+    "long": "analyze",
+    "proof": "analyze",
+    "case_study": "analyze",
+    "case_study_parent": "analyze",
+    "case_study_child": "apply",
+}
+
+# DOK follows from the cognitive demand, then is nudged by how many marks the
+# question is worth: a 5-mark "explain" asks for more chained reasoning than a
+# 1-mark one.
+_DOK_BY_BLOOM = {"recall": 1, "understand": 2, "apply": 2,
+                 "analyze": 3, "evaluate": 3, "create": 4}
+
+
+def _classify_bloom(stem: str, form: str | None) -> tuple[str, int]:
+    """(bloom_level, dok_level) for one question stem."""
+    text_ = stem or ""
+    for level, pattern in _BLOOM_VERBS:
+        if pattern.search(text_):
+            return level, _DOK_BY_BLOOM[level]
+    level = _BLOOM_BY_FORM.get((form or "").strip().lower(), "understand")
+    return level, _DOK_BY_BLOOM[level]
 
 
 def _offline_tags(
@@ -200,18 +303,19 @@ def _offline_tags(
             if score > best_score:
                 best_id, best_score = cid, score
 
-        form = item.get("item_form") or ""
-        bloom = {
-            "mcq": "understand",
-            "assertion_reason": "analyze",
-            "very_short": "recall",
-            "short": "apply",
-            "long": "apply",
-            "case_study_parent": "analyze",
-            "proof": "analyze",
-        }.get(form, "understand")
-        dok = {"mcq": 1, "assertion_reason": 2, "very_short": 1,
-               "short": 2, "long": 3, "case_study_parent": 3}.get(form, 2)
+        # The verb decides Bloom. Deriving it from item_form alone gave every
+        # sidecar-less question the same level -- 255 of 255 came out
+        # "understand" -- which looks tagged and carries no signal at all.
+        bloom, dok = _classify_bloom(stem, item.get("item_form"))
+
+        # A long answer asks for more chained reasoning than a one-marker of
+        # the same verb, so marks nudge DOK without overriding the verb.
+        marks = item.get("marks")
+        if isinstance(marks, int):
+            if marks >= 5 and dok < 3:
+                dok += 1
+            elif marks <= 1 and dok > 2:
+                dok -= 1
 
         out.append(
             ConceptTag(
@@ -291,9 +395,14 @@ def _sanitise(tags: list[ConceptTag], valid_ids: set[int]) -> list[ConceptTag]:
 
 
 def _persist(
-    extraction_id: int, items: list[dict[str, Any]], tags: list[ConceptTag], model: str
+    extraction_id: int,
+    items: list[dict[str, Any]],
+    tags: list[ConceptTag],
+    model: str,
+    concept_names: dict[int, str] | None = None,
 ) -> dict[str, int]:
     by_ref = {t.ref: t for t in tags}
+    names = concept_names or {}
     counters = {"tagged": 0, "with_concept": 0, "unmatched": 0}
     db = _session()
     try:
@@ -302,9 +411,13 @@ def _persist(
             if tag is None:
                 counters["unmatched"] += 1
                 continue
-            db.execute(
-                text(
-                    """
+            # A question that did not come from an extraction has no sidecar
+            # row to update; the mirror onto lms_question_master below is the
+            # only write it needs.
+            if item.get("sidecar_id"):
+                db.execute(
+                    text(
+                        """
                     UPDATE lms_question_extraction
                        SET concept_id = :concept_id,
                            concept_confidence = :confidence,
@@ -316,18 +429,18 @@ def _persist(
                            ai_rationale = :rationale
                      WHERE id = :sidecar_id
                     """
-                ),
-                {
-                    "concept_id": tag.concept_id,
-                    "confidence": tag.concept_confidence,
-                    "bloom": tag.bloom_level,
-                    "dok": tag.dok_level,
-                    "difficulty": tag.difficulty_1_to_5,
-                    "model": model,
-                    "rationale": (tag.rationale or "")[:2000] or None,
-                    "sidecar_id": item["sidecar_id"],
-                },
-            )
+                    ),
+                    {
+                        "concept_id": tag.concept_id,
+                        "confidence": tag.concept_confidence,
+                        "bloom": tag.bloom_level,
+                        "dok": tag.dok_level,
+                        "difficulty": tag.difficulty_1_to_5,
+                        "model": model,
+                        "rationale": (tag.rationale or "")[:2000] or None,
+                        "sidecar_id": item["sidecar_id"],
+                    },
+                )
             # Mirror onto the question itself. g_bloom/g_difficulty/g_dok are
             # plain (not generated) columns in this schema and they carry
             # idx_qm_blueprint(chapter_id, question_type_id, g_bloom,
@@ -338,6 +451,7 @@ def _persist(
                     """
                     UPDATE lms_question_master
                        SET concept_id   = COALESCE(:concept_id, concept_id),
+                           concept      = COALESCE(:concept_name, concept),
                            g_bloom      = :g_bloom,
                            g_dok        = :g_dok,
                            g_difficulty = :g_difficulty
@@ -346,6 +460,12 @@ def _persist(
                 ),
                 {
                     "concept_id": tag.concept_id,
+                    # The name as well as the id. The bank UI resolves a
+                    # concept_id against the chapter's concept list fetched from
+                    # a separate endpoint; when that endpoint is unavailable
+                    # every question falls back to "General". Storing the name
+                    # on the question makes the label survive on its own.
+                    "concept_name": names.get(tag.concept_id) if tag.concept_id else None,
                     "g_bloom": _LMS_BLOOM.get(tag.bloom_level or ""),
                     "g_dok": tag.dok_level,
                     "g_difficulty": _lms_difficulty(tag.difficulty_1_to_5),
@@ -362,6 +482,87 @@ def _persist(
     finally:
         db.close()
     return counters
+
+
+async def tag_chapter(
+    chapter_id: int,
+    *,
+    provider: str = "auto",
+    only_untagged: bool = True,
+) -> dict[str, Any]:
+    """Tag every question on a chapter, extraction-sourced or not.
+
+    `tag_extraction` can only reach questions this pipeline wrote, because it
+    joins the extraction sidecar. Most of the bank did not come from here, and
+    those questions are the ones sitting with no concept, no Bloom and no DOK --
+    which is why the bank shows them all under "General".
+
+    `only_untagged` defaults to True so a re-run is cheap and, more importantly,
+    does not overwrite a tag a teacher has corrected.
+    """
+    concepts = _load_concepts(chapter_id)
+    items = _load_chapter_items(chapter_id, only_untagged=only_untagged)
+
+    report: dict[str, Any] = {
+        "status": "success",
+        "chapter_id": chapter_id,
+        "provider": "none",
+        "model": None,
+        "concepts_available": len(concepts),
+        "candidates": len(items),
+        "tagged": 0,
+        "with_concept": 0,
+        "unmatched": 0,
+        "notes": [],
+    }
+    if not items:
+        report["notes"].append("Nothing left to tag on this chapter.")
+        return report
+    if not concepts:
+        # Bloom and DOK do not depend on the concept list, so this is a
+        # degraded run rather than a failure -- but say so, because a chapter
+        # with no concepts can never leave "General".
+        report["notes"].append(
+            "Chapter has no lms_concept rows; concept_id will stay null."
+        )
+
+    used = OFFLINE_MODEL
+    tags: list[ConceptTag] = []
+    if provider in {"auto", "deepseek"} and concepts:
+        try:
+            tags = await _deepseek_tags(items, concepts)
+            used = settings.deepseek_model
+            report["provider"] = "deepseek"
+        except DeepSeekUnavailableError as exc:
+            if provider == "deepseek":
+                raise
+            report["notes"].append(f"DeepSeek unavailable ({exc}); used the offline matcher.")
+            logger.warning("DeepSeek unavailable, tagging chapter offline: %s", exc)
+            tags = []
+        except Exception as exc:  # noqa: BLE001 - reported, not hidden
+            if provider == "deepseek":
+                raise
+            report["notes"].append(
+                f"DeepSeek tagging failed ({type(exc).__name__}); used the offline matcher."
+            )
+            logger.warning("DeepSeek chapter tagging failed, falling back: %s", exc)
+            tags = []
+
+    if not tags:
+        tags = _offline_tags(items, concepts)
+        used = OFFLINE_MODEL
+        report["provider"] = OFFLINE_MODEL
+
+    tags = _sanitise(tags, {c["id"] for c in concepts})
+    names = {c["id"]: c["name"] for c in concepts if c.get("id")}
+    counters = _persist(None, items, tags, used, concept_names=names)
+
+    report.update(counters)
+    report["model"] = used
+    report["bloom_spread"] = dict(
+        Counter(t.bloom_level for t in tags if t.bloom_level)
+    )
+    return report
 
 
 async def tag_extraction(

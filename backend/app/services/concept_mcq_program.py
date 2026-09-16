@@ -153,6 +153,11 @@ def _norm_option(value: str) -> str:
     """
     text_ = re.sub(r"<[^>]+>", " ", value or "").lower()
     text_ = text_.replace("->", " arrow ").replace("→", " arrow ")
+    # A leading minus is content, not punctuation. Stripping it collapsed the
+    # options "-9" and "9" of a y-intercept question onto the same string and
+    # reported two correct distractors as duplicates -- and sign errors are
+    # exactly what those distractors exist to catch.
+    text_ = re.sub(r"(?<![a-z0-9])-(?=[0-9.])", " minus ", text_)
     text_ = text_.replace("+", " plus ").replace("=", " equals ")
     return " ".join(re.sub(r"[^a-z0-9]+", " ", text_).split())
 

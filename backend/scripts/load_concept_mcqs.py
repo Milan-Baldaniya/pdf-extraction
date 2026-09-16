@@ -43,8 +43,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from app.services.concept_mcq_program import (  # noqa: E402
     LADDER,
     TYPE_BLUEPRINT,
+    concept_index,
     write_items,
 )
+from app.services.concept_mcq_program import _norm as _norm_name  # noqa: E402
 
 logging.basicConfig(level=logging.WARNING, format="%(levelname)s %(message)s")
 
@@ -64,6 +66,36 @@ def load_one(path: Path, *, dry: bool, created_by: int, hold: bool) -> dict:
     totals = {"written": 0, "rejected": 0, "duplicate": 0, "concepts": 0}
     problems: list[dict] = []
 
+    # Chapter-level form: a flat "items" list where each item names its concept
+    # in words. Resolve the names once, here, and fail loudly on any that does
+    # not match -- an unresolved concept name silently dropped is how a chapter
+    # ends up with questions mapped to nothing, which is the "General" problem
+    # this whole exercise exists to fix.
+    flat = doc.get("items")
+    chapter_level = bool(flat)
+    if flat:
+        chapter_id = int(doc["chapter_id"])
+        index = concept_index(chapter_id)
+        unknown: dict[str, int] = {}
+        grouped: dict[str, list] = {}
+        for item in flat:
+            key = _norm_name(str(item.get("concept") or ""))
+            cid = index.get(key)
+            if cid is None:
+                unknown[str(item.get("concept"))] = unknown.get(str(item.get("concept")), 0) + 1
+                continue
+            grouped.setdefault(str(cid), []).append(item)
+        if unknown:
+            print(f"\n{path.name}: ABORTED -- {sum(unknown.values())} item(s) name a "
+                  f"concept that is not in this chapter:")
+            for name, n in sorted(unknown.items(), key=lambda kv: -kv[1]):
+                print(f"    x{n:<4}{name!r}")
+            print("  Chapter concepts are:")
+            for name in sorted(index):
+                print(f"    - {name}")
+            return {"written": 0, "rejected": sum(unknown.values()), "duplicate": 0}
+        concepts = grouped
+
     print(f"\n{path.name}  chapter={doc.get('chapter_id')}"
           f"{'  (DRY RUN)' if dry else ''}")
     header = (f"  {'concept':<10}{'items':>6}{'written':>8}{'dup':>5}{'rej':>5}   "
@@ -72,6 +104,7 @@ def load_one(path: Path, *, dry: bool, created_by: int, hold: bool) -> dict:
     print("  " + "-" * (len(header) - 2))
 
     forms: dict[str, int] = {}
+    difficulty: dict[str, int] = {}
     for concept_id, items in concepts.items():
         if not items:
             continue
@@ -89,6 +122,8 @@ def load_one(path: Path, *, dry: bool, created_by: int, hold: bool) -> dict:
             problems.append({"concept_id": concept_id, **p})
         for form, n in result.get("by_form", {}).items():
             forms[form] = forms.get(form, 0) + n
+        for lv, n in result.get("by_difficulty", {}).items():
+            difficulty[lv] = difficulty.get(lv, 0) + n
 
         cells = "".join(f"{result['by_difficulty'].get(lv, 0):>7}" for lv in LEVELS)
         print(f"  {concept_id:<10}{len(items):>6}{result['written']:>8}"
@@ -100,12 +135,27 @@ def load_one(path: Path, *, dry: bool, created_by: int, hold: bool) -> dict:
           f"   over {totals['concepts']} concept(s)")
 
     if forms:
-        print("\n  form                 got  target/concept")
-        print("  " + "-" * 36)
-        for form in sorted(forms, key=lambda f: -forms[f]):
-            target = TYPE_BLUEPRINT.get(form)
-            want = f"{target * max(1, totals['concepts'])}" if target else "-"
-            print(f"  {form:<20}{forms[form]:>4}{want:>8}")
+        # A chapter-level file aims at ONE blueprint of 50 for the whole
+        # chapter; a per-concept file aims at 50 for each concept in it.
+        # Comparing either against the other's target is meaningless.
+        scale = 1 if chapter_level else max(1, totals["concepts"])
+        label = "target" if chapter_level else "target/all"
+        print(f"\n  form                 got{label:>11}   diff")
+        print("  " + "-" * 42)
+        for form in sorted(TYPE_BLUEPRINT, key=lambda f: -TYPE_BLUEPRINT[f]):
+            want = TYPE_BLUEPRINT[form] * scale
+            got = forms.get(form, 0)
+            mark = "" if got == want else f"{got - want:+d}"
+            print(f"  {form:<20}{got:>4}{want:>11}{mark:>7}")
+
+        # Difficulty is the other half of the brief and drifts just as easily.
+        print(f"\n  difficulty           got{label:>11}   diff")
+        print("  " + "-" * 42)
+        for lv in LEVELS:
+            want = LADDER[lv]["slots"] * scale
+            got = difficulty.get(lv, 0)
+            mark = "" if got == want else f"{got - want:+d}"
+            print(f"  {lv:<20}{got:>4}{want:>11}{mark:>7}")
 
     if problems:
         print(f"\n  {len(problems)} item(s) REJECTED and not stored:")

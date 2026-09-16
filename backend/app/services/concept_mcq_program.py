@@ -364,6 +364,27 @@ def _concept_rows(chapter_id: int) -> list[dict[str, Any]]:
         db.close()
 
 
+def concept_index(chapter_id: int) -> dict[str, int]:
+    """Normalised concept name -> id, for one chapter.
+
+    Authoring 1,050 items across 21 chapters against numeric concept ids is how
+    questions end up on the wrong concept -- silently, because a wrong id is
+    still a valid id. A name is checkable by eye, so item files carry the name
+    and this resolves it. Matching ignores case and punctuation, since "Ohm's
+    Law" and "Ohms Law" are plainly the same concept and a whole file should not
+    fail over an apostrophe.
+    """
+    db = _session()
+    try:
+        rows = db.execute(
+            text("SELECT id, name FROM lms_concept WHERE chapter_id = :c"),
+            {"c": chapter_id},
+        ).fetchall()
+    finally:
+        db.close()
+    return {_norm(name): int(cid) for cid, name in rows if name}
+
+
 def _existing_by_form(concept_ids: list[int]) -> dict[int, dict[str, int]]:
     """Per concept, how many items of each catalog form exist.
 

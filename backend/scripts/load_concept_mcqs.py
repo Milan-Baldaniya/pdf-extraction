@@ -46,7 +46,7 @@ from app.services.concept_mcq_program import (  # noqa: E402
     concept_index,
     write_items,
 )
-from app.services.concept_mcq_program import _norm as _norm_name  # noqa: E402
+from app.services.concept_mcq_program import _norm_concept as _norm_name  # noqa: E402
 
 logging.basicConfig(level=logging.WARNING, format="%(levelname)s %(message)s")
 

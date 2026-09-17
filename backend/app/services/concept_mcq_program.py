@@ -43,6 +43,7 @@ import hashlib
 import json
 import logging
 import re
+import unicodedata
 from typing import Any
 
 from sqlalchemy import text
@@ -167,6 +168,43 @@ def _norm_option(value: str) -> str:
     text_ = re.sub(r"(?<![a-z0-9])-(?=[0-9.])", " minus ", text_)
     text_ = text_.replace("+", " plus ").replace("=", " equals ")
     return " ".join(re.sub(r"[^a-z0-9]+", " ", text_).split())
+
+
+# Greek letters and accented Latin letters appear in concept names, and plain
+# `_norm` deletes anything outside a-z0-9 -- which turns "Irrationality of pi"
+# into "irrationality of" and "Sierpinski Triangle" into "sierpi ski triangle".
+# Both become names nobody can type, so an item file could never match them and
+# the load would abort on a correctly spelled concept.
+_GREEK = {
+    "α": "alpha", "β": "beta", "γ": "gamma", "δ": "delta",
+    "θ": "theta", "λ": "lambda", "μ": "mu", "π": "pi",
+    "ρ": "rho", "σ": "sigma", "φ": "phi", "ω": "omega",
+    "Δ": "delta", "Σ": "sigma", "Ω": "omega", "Π": "pi",
+}
+
+
+def _norm_concept(value: str) -> str:
+    """Normalise a concept name so a typeable spelling matches the stored one.
+
+    Greek letters become their English names and accents are folded to the base
+    letter, so "Irrationality of π" matches "Irrationality of Pi" and
+    "Sierpiński Triangle" matches "Sierpinski Triangle".
+    """
+    text_ = value or ""
+    for ch, name in _GREEK.items():
+        text_ = text_.replace(ch, f" {name} ")
+    # NFKD splits an accented letter into base plus combining mark; dropping the
+    # marks leaves the ASCII letter rather than deleting the letter entirely.
+    decomposed = unicodedata.normalize("NFKD", text_)
+    folded = "".join(c for c in decomposed if not unicodedata.combining(c))
+
+    # Collapse adjacent repeated words. Concept names commonly spell a symbol
+    # out alongside it -- "Pi (pi)" -- and expanding the symbol then yields
+    # "pi pi", which no one would type. Adjacent repetition is never meaningful
+    # in a concept name, so squeezing it makes both spellings agree.
+    words = _norm(folded).split()
+    squeezed = [w for i, w in enumerate(words) if i == 0 or w != words[i - 1]]
+    return " ".join(squeezed)
 
 
 def content_hash(stem: str, options: list[str]) -> str:
@@ -394,7 +432,7 @@ def concept_index(chapter_id: int) -> dict[str, int]:
         ).fetchall()
     finally:
         db.close()
-    return {_norm(name): int(cid) for cid, name in rows if name}
+    return {_norm_concept(name): int(cid) for cid, name in rows if name}
 
 
 def _existing_by_form(concept_ids: list[int]) -> dict[int, dict[str, int]]:

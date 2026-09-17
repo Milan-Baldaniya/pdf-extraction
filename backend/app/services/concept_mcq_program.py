@@ -67,10 +67,17 @@ logger = logging.getLogger(__name__)
 # unarguably Easy, being a single-step sum. A rung that refused it would push
 # every arithmetic item into Medium and leave Easy as pure recall, which is not
 # what an Easy tier is for.
+#
+# For the same reason Medium admits Remember. Recalling the factorisation of
+# a^3 + b^3 is harder than recalling (a + b)^2 but is no more cognitively
+# complex; both are recall, and only the difficulty differs. Hard deliberately
+# does NOT admit Remember: if it did, a bank could be entirely recall and still
+# report a full difficulty spread, which is exactly the false signal the ladder
+# exists to prevent.
 LADDER: dict[str, dict[str, Any]] = {
-    "Easy":   {"bloom": ("Remember", "Understand", "Apply"),  "dok": 1, "slots": 17},
-    "Medium": {"bloom": ("Understand", "Apply", "Analyze"),   "dok": 2, "slots": 17},
-    "Hard":   {"bloom": ("Analyze", "Evaluate", "Create"),    "dok": 3, "slots": 16},
+    "Easy":   {"bloom": ("Remember", "Understand", "Apply"),            "dok": 1, "slots": 17},
+    "Medium": {"bloom": ("Remember", "Understand", "Apply", "Analyze"), "dok": 2, "slots": 17},
+    "Hard":   {"bloom": ("Analyze", "Evaluate", "Create"),              "dok": 3, "slots": 16},
 }
 TARGET_PER_CONCEPT = sum(v["slots"] for v in LADDER.values())  # 50
 

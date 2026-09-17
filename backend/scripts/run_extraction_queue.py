@@ -79,8 +79,9 @@ DEFAULT_SHEET = BACKEND / "queue" / "extraction_queue.xlsx"
 
 # The routes derive this from the live request. Headless it has to be stated,
 # and it must match what the API produces or a chapter's images would be served
-# from a different host than every chapter extracted through the UI.
-DEFAULT_ASSET_BASE = "http://127.0.0.1:8000/api/assets"
+# from a different host than every chapter extracted through the UI. Set
+# QUEUE_ASSET_BASE in .env to point it at this machine's LAN address.
+DEFAULT_ASSET_BASE = settings.queue_asset_base
 
 # A second MinerU process is a second multi-gigabyte model load. Measured on
 # this machine, one chapter peaks around 4.4 GB resident, so two need close to

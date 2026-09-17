@@ -27,6 +27,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+from app.utils.config import settings
+
 logger = logging.getLogger(__name__)
 
 BACKEND = Path(__file__).resolve().parents[2]
@@ -320,6 +322,11 @@ def start(
         command += ["--only-subject", str(only_subject)]
     if force:
         command.append("--force")
+    # Passed explicitly so a run started from the web page writes the same image
+    # URLs as one started from the command line. Without it the button would
+    # silently fall back to 127.0.0.1 and the images would only ever load on
+    # the machine that extracted them.
+    command += ["--asset-base", settings.queue_asset_base]
     if stop_at:
         command += ["--stop-at", stop_at]
 

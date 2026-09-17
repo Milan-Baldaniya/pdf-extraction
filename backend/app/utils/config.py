@@ -39,6 +39,17 @@ class Settings(BaseSettings):
     temp_dir: str = "./tmp/ncert"
     output_dir: str = "./output"
 
+    # Host the overnight queue writes into extracted image URLs.
+    #
+    # The API derives this from the incoming request, but the queue runner is
+    # detached and has no request to read, so it has to be told. The default is
+    # only correct when whoever views the chapter is sitting at the machine that
+    # extracted it: the markdown goes to the shared database, while the image
+    # FILES stay in backend/output on local disk. Point this at the machine's
+    # LAN address (http://192.168.1.50:8000/api/assets) when the images have to
+    # be reachable from anywhere else, and keep its API running.
+    queue_asset_base: str = "http://127.0.0.1:8000/api/assets"
+
     # Background extraction jobs. MinerU loads several GB of models per run,
     # so concurrent extractions are the fastest way to OOM a small droplet.
     max_concurrent_extractions: int = 1

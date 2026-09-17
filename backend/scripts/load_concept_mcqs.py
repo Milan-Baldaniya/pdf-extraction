@@ -74,6 +74,22 @@ def load_one(path: Path, *, dry: bool, created_by: int, hold: bool) -> dict:
     flat = doc.get("items")
     chapter_level = bool(flat)
     if flat:
+        # Count first. A chapter-level file aims at exactly TARGET_PER_CONCEPT
+        # items, and an off-by-one is invisible in the per-form table if it
+        # lands in a large bucket -- one extra very-short among eight reads as
+        # nine, which is easy to miss and had already reached the database once.
+        want = sum(LADDER[lv]["slots"] for lv in LADDER)
+        if len(flat) != want:
+            print(f"\n{path.name}: ABORTED -- file holds {len(flat)} items, "
+                  f"the chapter target is {want}.")
+            import collections as _c
+            by_form = _c.Counter(str(i.get("form") or "mcq") for i in flat)
+            for form, target in sorted(TYPE_BLUEPRINT.items(), key=lambda kv: -kv[1]):
+                got = by_form.get(form, 0)
+                if got != target:
+                    print(f"    {form:<20}{got:>4} (want {target})")
+            return {"written": 0, "rejected": len(flat), "duplicate": 0}
+
         chapter_id = int(doc["chapter_id"])
         index = concept_index(chapter_id)
         unknown: dict[str, int] = {}

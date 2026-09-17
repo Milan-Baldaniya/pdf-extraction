@@ -5,7 +5,7 @@ Welcome to the **PDF Extractor** setup guide. This document explains exactly how
 ## Prerequisites
 Before you start, ensure you have the following installed on the new laptop:
 1. **[Git](https://git-scm.com/downloads)** (To clone the repository)
-2. **[Python 3.9+](https://www.python.org/downloads/)** (Required for the FastAPI backend and MinerU extraction logic)
+2. **[Python 3.12 (64-bit)](https://www.python.org/downloads/windows/)** (Use 3.12 for the pinned backend and MinerU dependencies; Python 3.14 triggers incompatible source builds.)
 3. **[Node.js 18+](https://nodejs.org/en/)** (Required for the Next.js frontend)
 4. **MariaDB & HeidiSQL** (Or you can simply use HeidiSQL to connect to your remote MariaDB server at `202.47.117.220`)
 
@@ -32,16 +32,21 @@ The backend processes the PDFs, communicates with MariaDB, and uses MinerU.
    cd backend
    ```
 
-2. **Create a Virtual Environment**:
-   It's highly recommended to use a virtual environment so dependencies don't conflict.
-   ```bash
-   python -m venv venv
+2. **Install Python 3.12 and create a Virtual Environment**:
+   On Windows PowerShell:
+   ```powershell
+   winget install --id Python.Python.3.12 --exact --source winget --scope user
+   py -3.12 -m venv venv
    ```
+   If `venv` was created with Python 3.14, first run `deactivate` in the terminal
+   where it is active, rename it to `venv-py314-backup`, then create `venv` again
+   using the command above. Installing Python does not change an existing venv.
+   On macOS/Linux, use `python3.12 -m venv venv`.
 
 3. **Activate the Virtual Environment**:
-   - **On Windows**:
-     ```cmd
-     venv\Scripts\activate
+   - **On Windows PowerShell**:
+     ```powershell
+     .\venv\Scripts\Activate.ps1
      ```
    - **On Mac/Linux**:
      ```bash
@@ -50,10 +55,24 @@ The backend processes the PDFs, communicates with MariaDB, and uses MinerU.
 
 4. **Install Python Dependencies**:
    ```bash
-   pip install -r requirements.txt
+   python --version
+   python -m pip install --upgrade pip
+   python -m pip install -r requirements.txt
    ```
+   Confirm the version is `Python 3.12.x` before installing dependencies.
 
-5. **Configure Environment Variables**:
+5. **Download and configure MinerU models**:
+   From `backend`, with the environment active:
+   ```powershell
+   python download_models.py
+   python -m pip check
+   ```
+   Downloads require internet access and several GB of disk space. The script
+   stores weights in `backend/models/PDF-Extract-Kit-1.0` and writes the CPU
+   configuration to `%USERPROFILE%\magic-pdf.json`. Wait for it to finish
+   before extracting a PDF. Rerunning reuses previously downloaded files.
+
+6. **Configure Environment Variables**:
    Because `.env` files contain sensitive passwords, they are deliberately NOT uploaded to GitHub. You must create a new file named `.env` inside the `backend` folder on the new laptop and paste the following:
    
    ```env

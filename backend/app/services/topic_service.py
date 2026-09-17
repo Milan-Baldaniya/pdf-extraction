@@ -42,6 +42,8 @@ from app.db.mariadb import SessionLocal
 # turns it into a 503 naming the actual cause.
 from app.semantic_intelligence.deepseek_client import async_call_deepseek
 from app.services import chapter_text as ct
+from app.services import confidence as cs
+from app.services import extraction_schema
 
 logger = logging.getLogger(__name__)
 
@@ -81,18 +83,20 @@ Rules you must follow:
 
 8. `sequence_order` is an integer starting at 1, in the order the chapter teaches these topics. Follow the chapter's own order; do not resequence it.
 
-9. `estimated_minutes` is an integer of classroom teaching time for that topic, assigned by cognitive load and by how much of the chapter it covers:
+9. THE CURRICULUM. `Curriculum Outcomes` below is what the syllabus says this chapter must achieve, in its own words and codes. Where it is present it tells you what the chapter is FOR: every outcome listed must be reachable through one of your topics, and a part of the chapter the syllabus never mentions is usually background rather than a topic of its own. It does not tell you how to divide the chapter -- rules 1 and 2 still decide that -- and where it says nothing, ignore it.
+
+10. `estimated_minutes` is an integer of classroom teaching time for that topic, assigned by cognitive load and by how much of the chapter it covers:
    - 10 to 15 mins: Low Cognitive Load (Remembering, Identifying, Memorizing definitions/facts)
    - 20 to 30 mins: Medium Cognitive Load (Understanding, Applying, Solving basic problems, Explaining processes)
    - 45 to 90 mins: High Cognitive Load (Analyzing, Evaluating, Derivations, Complex multi-step problem solving, Abstract reasoning)
 
-10. GROUNDING: every topic MUST come from the `Chapter Content` below. For each topic, `source_evidence` must contain one EXACT quote of 5 to 10 words copied character-for-character from where that topic begins. Do not paraphrase the quote. Do not invent topics the content does not support.
+11. GROUNDING: every topic MUST come from the `Chapter Content` below. For each topic, `source_evidence` must contain one EXACT quote of 5 to 10 words copied character-for-character from where that topic begins. Do not paraphrase the quote. Do not invent topics the content does not support.
 
-11. Do NOT duplicate topics. Two topics must not describe the same teaching unit in different words.
+12. Do NOT duplicate topics. Two topics must not describe the same teaching unit in different words.
 
-12. Do NOT create a topic out of revision or practice material. Exercise questions, worked-example question lists, "Getting started", "Check your progress", "Summary checklist" and end-of-unit review items PRACTISE topics that the chapter teaches elsewhere -- they are not themselves new topics. Extract a topic only where the content TEACHES something: an explanation, a definition, a rule, a method, or a worked demonstration of one. A named project or investigation IS teachable content and DOES get its own topic, because it develops something the chapter does not cover anywhere else.
+13. Do NOT create a topic out of revision or practice material. Exercise questions, worked-example question lists, "Getting started", "Check your progress", "Summary checklist" and end-of-unit review items PRACTISE topics that the chapter teaches elsewhere -- they are not themselves new topics. Extract a topic only where the content TEACHES something: an explanation, a definition, a rule, a method, or a worked demonstration of one. A named project or investigation IS teachable content and DOES get its own topic, because it develops something the chapter does not cover anywhere else.
 
-13. Output ONLY the JSON object. No other text.
+14. Output ONLY the JSON object. No other text.
 
 Return the JSON in the following format:
 {
@@ -116,6 +120,9 @@ Chapter Length: {chapter_chars} characters
 Chapter Outline ({outline_status}):
 {chapter_outline}
 
+Curriculum Outcomes (what the syllabus requires of this chapter):
+{curriculum_block}
+
 Chapter Content (this is the COMPLETE chapter):
 {chapter_content}
 """
@@ -127,7 +134,7 @@ SYSTEM_PROMPT = "You are a helpful assistant. Return ONLY a JSON object."
 # (which is also why this prompt is not an f-string).
 _PLACEHOLDER_RE = re.compile(
     r"\{(board|standard|subject_name|chapter_name|chapter_chars"
-    r"|outline_status|chapter_outline|chapter_content)\}"
+    r"|outline_status|chapter_outline|curriculum_block|chapter_content)\}"
 )
 
 
@@ -196,6 +203,7 @@ async def _extract_topics(
     subject_name: str,
     standard: Any,
     board: Any,
+    curriculum_block: str = "",
 ) -> Dict[str, Any]:
     """Ask once, about the entire chapter."""
     prompt = _fill(TOPIC_PROMPT, {
@@ -210,6 +218,7 @@ async def _extract_topics(
             else "a hint only - this chapter does not number its sections, so derive the topics from the content"
         ),
         "chapter_outline": chapter_outline,
+        "curriculum_block": curriculum_block or "(no curriculum is loaded for this subject)",
         "chapter_content": md_content,
     })
 
@@ -250,6 +259,11 @@ _SELECT_EXISTING = text("""
 # database -- and the failure lands after the whole LLM fan-out has run, so it
 # costs a full chapter of tokens. Leaving it out works whether or not the
 # column is still there.
+# Two variants of each write. The evidence and confidence columns are added at
+# runtime by extraction_schema, and on a database that refuses that DDL the run
+# must still land its topics -- a chapter's topics are worth far more than their
+# confidence scores, and naming a missing column here would throw away the whole
+# LLM call to save nothing.
 _INSERT_TOPIC = text("""
     INSERT INTO topic_master
         (sub_institute_id, chapter_id, extraction_id, main_topic_id,
@@ -259,6 +273,19 @@ _INSERT_TOPIC = text("""
         (:sub_institute_id, :chapter_id, :extraction_id, 0,
          :name, :description, :estimated_minutes, 1, :sort_order,
          :syear, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
+""")
+
+_INSERT_TOPIC_SCORED = text("""
+    INSERT INTO topic_master
+        (sub_institute_id, chapter_id, extraction_id, main_topic_id,
+         name, description, estimated_minutes, topic_show_hide, topic_sort_order,
+         syear, source_evidence, evidence_verified, confidence,
+         created_at, updated_at)
+    VALUES
+        (:sub_institute_id, :chapter_id, :extraction_id, 0,
+         :name, :description, :estimated_minutes, 1, :sort_order,
+         :syear, :source_evidence, :evidence_verified, :confidence,
+         CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
 """)
 
 _UPDATE_TOPIC = text("""
@@ -271,6 +298,22 @@ _UPDATE_TOPIC = text("""
            updated_at = CURRENT_TIMESTAMP
      WHERE id = :id
 """)
+
+_UPDATE_TOPIC_SCORED = text("""
+    UPDATE topic_master
+       SET extraction_id = :extraction_id,
+           description = :description,
+           estimated_minutes = :estimated_minutes,
+           topic_sort_order = :sort_order,
+           topic_show_hide = 1,
+           source_evidence = :source_evidence,
+           evidence_verified = :evidence_verified,
+           confidence = :confidence,
+           updated_at = CURRENT_TIMESTAMP
+     WHERE id = :id
+""")
+
+_SCORED_COLUMNS = ("source_evidence", "evidence_verified", "confidence")
 
 # Only ever applied to rows this pipeline created, and only to hide them.
 _RETIRE_TOPIC = text("""
@@ -290,7 +333,7 @@ def _existing_by_name(rows: List[Any]) -> Dict[str, Any]:
     return by_name
 
 
-def _persist_topics(
+def persist_topics(
     *,
     extraction_id: int,
     chapter_id: int,
@@ -300,6 +343,10 @@ def _persist_topics(
 ) -> Dict[str, int]:
     """Upsert every topic of one chapter. Never deletes."""
     with SessionLocal() as db:
+        scored = extraction_schema.supports(db, "topic_master", *_SCORED_COLUMNS)
+        insert_sql = _INSERT_TOPIC_SCORED if scored else _INSERT_TOPIC
+        update_sql = _UPDATE_TOPIC_SCORED if scored else _UPDATE_TOPIC
+
         existing_rows = db.execute(
             _SELECT_EXISTING, {"chapter_id": chapter_id, "syear": syear}
         ).mappings().fetchall()
@@ -323,13 +370,20 @@ def _persist_topics(
                 "sort_order": sort_order,
                 "syear": syear,
             }
+            if scored:
+                params.update({
+                    # topic_master.source_evidence is VARCHAR(512).
+                    "source_evidence": (topic.get("source_evidence") or "")[:512],
+                    "evidence_verified": 1 if topic.get("evidence_verified") else 0,
+                    "confidence": topic.get("confidence"),
+                })
             match = by_name.get(ct.match_key(topic["topic_name"]))
             if match:
-                db.execute(_UPDATE_TOPIC, {**params, "id": match["id"]})
+                db.execute(update_sql, {**params, "id": match["id"]})
                 topic_id = match["id"]
                 updated += 1
             else:
-                topic_id = db.execute(_INSERT_TOPIC, params).lastrowid
+                topic_id = db.execute(insert_sql, params).lastrowid
                 inserted += 1
             touched_ids.add(topic_id)
             topic["topic_id"] = topic_id
@@ -375,6 +429,93 @@ async def _persist_with_retry(write: Any, extraction_id: int) -> Dict[str, int]:
 # ---------------------------------------------------------------------------
 # Public API
 # ---------------------------------------------------------------------------
+
+async def generate_topics(
+    *,
+    md_content: str,
+    chapter_name: str,
+    subject_name: Any = None,
+    standard: Any = None,
+    board: Any = None,
+    curriculum_block: str = "",
+    extraction_id: Any = None,
+) -> Dict[str, Any]:
+    """One whole-chapter call, cleaned, deduped, grounded and scored.
+
+    Persistence is deliberately not here. The Chapter Queue runs this as one
+    stage of a longer job and writes the result itself, so that a later stage
+    failing cannot leave topics half-written -- and so the same code serves both
+    the combined job and the standalone topic route.
+    """
+    # The chapter's own outline, computed once and handed to the model as either
+    # its answer (when the book numbers its sections) or a hint (when it does
+    # not). Around half this corpus falls in the second case.
+    chapter_outline, outline_is_authoritative = ct.topic_outline(md_content)
+
+    result = await _extract_topics(
+        md_content=md_content,
+        chapter_outline=chapter_outline,
+        outline_is_authoritative=outline_is_authoritative,
+        chapter_name=chapter_name,
+        subject_name=subject_name,
+        standard=standard,
+        board=board,
+        curriculum_block=curriculum_block,
+    )
+
+    topics = result["topics"]
+    if not topics:
+        raise RuntimeError(
+            f"Topic extraction produced nothing for extraction {extraction_id}: the model "
+            f"returned no usable topics for a {len(md_content)}-character chapter. "
+            f"Check the backend log for the raw response."
+        )
+
+    duplicates_dropped = _dedupe_topics(topics)
+
+    # Spans are derived, never stored: the Concept stage rebuilds the identical
+    # partition from the same chapter text and the same ordered topic names.
+    spans = ct.partition_by_topics(md_content, [t["topic_name"] for t in topics])
+    for topic, (start, end) in zip(topics, spans):
+        topic["span_chars"] = end - start
+
+    # Grounding and outline agreement were already measured above and, until
+    # now, only ever counted into the HTTP response. Scored here so the verdict
+    # reaches topic_master instead of being discarded at the INSERT.
+    chapter_stems = ct.stems(md_content)
+    for topic in topics:
+        score = cs.score_topic(
+            topic,
+            md_content=md_content,
+            chapter_stems=chapter_stems,
+            outline_text=chapter_outline if outline_is_authoritative else "",
+        )
+        topic["confidence"] = score.value
+        topic["confidence_status"] = score.status
+
+    thin = [t["topic_name"] for t in topics if t["span_chars"] < ct.MIN_TOPIC_SPAN_CHARS]
+    if thin:
+        logger.warning(
+            "Extraction %s: %s topic(s) own less than %s characters of chapter text (%s). "
+            "That usually means the chapter was split below the topic level.",
+            extraction_id, len(thin), ct.MIN_TOPIC_SPAN_CHARS, ", ".join(thin[:5]),
+        )
+    if len(topics) > _EXPECTED_TOPIC_MAX:
+        logger.warning(
+            "Extraction %s produced %s topics for a %s-character chapter; more than %s "
+            "means the model split below the topic level (rule 3).",
+            extraction_id, len(topics), len(md_content), _EXPECTED_TOPIC_MAX,
+        )
+
+    return {
+        **result,
+        "topics": topics,
+        "chapter_outline": chapter_outline,
+        "outline_authoritative": outline_is_authoritative,
+        "duplicates_dropped": duplicates_dropped,
+        "thin_topics": thin,
+    }
+
 
 async def process_topics_by_id(
     extraction_id: int,
@@ -429,53 +570,22 @@ async def process_topics_by_id(
         standard = row.get("standard")
         board = row.get("board")
 
-    # The chapter's own outline, computed once and handed to the model as either
-    # its answer (when the book numbers its sections) or a hint (when it does
-    # not). Around half this corpus falls in the second case.
-    chapter_outline, outline_is_authoritative = ct.topic_outline(md_content)
-
-    result = await _extract_topics(
+    extracted = await generate_topics(
         md_content=md_content,
-        chapter_outline=chapter_outline,
-        outline_is_authoritative=outline_is_authoritative,
         chapter_name=chapter_name,
         subject_name=subject_name,
         standard=standard,
         board=board,
+        extraction_id=extraction_id,
     )
-
-    topics = result["topics"]
-    if not topics:
-        raise RuntimeError(
-            f"Topic extraction produced nothing for extraction {extraction_id}: the model "
-            f"returned no usable topics for a {len(md_content)}-character chapter. "
-            f"Check the backend log for the raw response."
-        )
-
-    duplicates_dropped = _dedupe_topics(topics)
-
-    # Spans are derived, never stored: the Concept Queue rebuilds the identical
-    # partition from the same chapter text and the same ordered topic names.
-    spans = ct.partition_by_topics(md_content, [t["topic_name"] for t in topics])
-    for topic, (start, end) in zip(topics, spans):
-        topic["span_chars"] = end - start
-
-    thin = [t["topic_name"] for t in topics if t["span_chars"] < ct.MIN_TOPIC_SPAN_CHARS]
-    if thin:
-        logger.warning(
-            "Extraction %s: %s topic(s) own less than %s characters of chapter text (%s). "
-            "That usually means the chapter was split below the topic level.",
-            extraction_id, len(thin), ct.MIN_TOPIC_SPAN_CHARS, ", ".join(thin[:5]),
-        )
-    if len(topics) > _EXPECTED_TOPIC_MAX:
-        logger.warning(
-            "Extraction %s produced %s topics for a %s-character chapter; more than %s "
-            "means the model split below the topic level (rule 3).",
-            extraction_id, len(topics), len(md_content), _EXPECTED_TOPIC_MAX,
-        )
+    result = extracted
+    topics = extracted["topics"]
+    outline_is_authoritative = extracted["outline_authoritative"]
+    duplicates_dropped = extracted["duplicates_dropped"]
+    thin = extracted["thin_topics"]
 
     def write() -> Dict[str, int]:
-        return _persist_topics(
+        return persist_topics(
             extraction_id=extraction_id,
             chapter_id=chapter_id,
             sub_institute_id=sub_institute_id,

@@ -15,19 +15,31 @@ interface ConceptRecord {
   syear: string
   chapter_number: string
   created_at: string
+  // "processed" means enriched now, not "has concepts": this queue writes the
+  // definition and the mastery values onto concepts the Chapters queue created.
   is_processed: boolean
   has_chapter: boolean
   has_topic: boolean
+  has_concept: boolean
   topic_count: number
   concept_count: number
+  enriched_count: number
+  unenriched_count: number
+  mean_confidence: number | null
 }
 
 interface Concept {
   concept_id: number
   name: string
   description: string
+  definition: string | null
   mastery_threshold: number
   estimated_mastery_minutes: number
+  // null means the row was written before confidence existed. It is rendered
+  // grey, never as 0.00 -- an unscored concept is not a bad one.
+  confidence: number | null
+  review_status: string
+  is_enriched: boolean
 }
 
 interface TopicGroup {
@@ -36,6 +48,36 @@ interface TopicGroup {
   topic_minutes: number | null
   sort_order: number | null
   concepts: Concept[]
+}
+
+/**
+ * How much evidence stands behind a concept: the chapter quote was found, it
+ * sits in its own topic's text, the name matches that text, it is not a repeat
+ * of a sibling, and it serves the curriculum.
+ *
+ * Grey means the row predates confidence entirely -- most of the 2,571 concepts
+ * already in this database. That is not the same as a low score, and it must
+ * never render as 0.00.
+ */
+function ConfidenceDot({ value, status }: { value: number | null; status?: string }) {
+  if (value == null) {
+    return (
+      <span
+        className="h-2 w-2 rounded-full bg-black/20 dark:bg-white/20 shrink-0"
+        title="Written before confidence was recorded. Reprocess the chapter to score it."
+      />
+    )
+  }
+  const tone =
+    value >= 0.8 ? "bg-green-500"
+      : value >= 0.55 ? "bg-amber-500"
+        : "bg-red-500"
+  return (
+    <span
+      className={`h-2 w-2 rounded-full shrink-0 ${tone}`}
+      title={`Confidence ${value.toFixed(2)}${status ? ` (${status.replace(/_/g, " ")})` : ""}`}
+    />
+  )
 }
 
 export function ConceptTableFill() {
@@ -86,7 +128,9 @@ export function ConceptTableFill() {
     const record = records.find(r => r.id === extractionId)
     let forceQuery = ""
     if (record?.is_processed) {
-      if (!window.confirm("This is already processed. Forcing a reprocess will consume LLM tokens and replace the existing rows in lms_concept. Are you sure?")) {
+      // The old wording promised to "replace the existing rows in lms_concept",
+      // which is exactly what this stage no longer does.
+      if (!window.confirm("These concepts are already enriched. Re-enriching will consume LLM tokens and overwrite their definitions and mastery values. The concepts themselves are never created or deleted. Continue?")) {
         return;
       }
       forceQuery = "?force=true"
@@ -112,7 +156,8 @@ export function ConceptTableFill() {
     }
   }
 
-  // One topic failing should not force a full-chapter reprocess.
+  // One topic coming back thin should not force a full-chapter re-enrichment.
+  // Like the whole-chapter form, this only ever UPDATEs existing rows.
   const handleRetryTopic = async (extractionId: number, topicId: number) => {
     setRetryingTopicId(topicId)
     try {
@@ -192,23 +237,18 @@ export function ConceptTableFill() {
             ) : (
               <div className="p-4 bg-green-50/80 text-green-800 rounded-md border border-green-200 flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" /></svg>
-                Successfully filled lms_concept!
+                Enriched {result.concepts_enriched ?? 0} of {result.concepts_seen ?? 0} concepts with a definition, mastery threshold and mastery time.
               </div>
             )}
 
             {status !== "view_only" && (
               <div className="flex flex-wrap gap-2">
                 {[
-                  { label: "Inserted", value: result.inserted, tone: "bg-green-500/10 text-green-700 dark:text-green-400 border-green-500/20" },
-                  { label: "Replaced", value: result.deleted, tone: "bg-orange-500/10 text-orange-600 dark:text-orange-400 border-orange-500/20" },
-                  { label: "Concepts found", value: result.concepts_extracted, tone: "bg-green-500/10 text-green-700 dark:text-green-400 border-green-500/20" },
-                  // The range the model was given as its own global budget. Shown so a
-                  // total well outside it is visible rather than buried.
-                  { label: "Expected range", value: Array.isArray(result.concept_budget) ? `${result.concept_budget[0]}-${result.concept_budget[1]}` : "-", tone: "bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/20" },
-                  { label: "Topics covered", value: `${result.topics_processed ?? 0} / ${(result.topics_processed ?? 0) + (result.topics_failed ?? 0)}`, tone: "bg-black/5 dark:bg-white/5 text-foreground/70 border-black/10" },
-                  { label: "Duplicates dropped", value: result.duplicates_dropped, tone: "bg-black/5 dark:bg-white/5 text-foreground/70 border-black/10" },
-                  { label: "Ungrounded", value: result.ungrounded_concepts, tone: "bg-red-500/10 text-red-600 dark:text-red-400 border-red-500/20" },
-                  { label: "Topics with no concepts", value: result.topics_failed, tone: "bg-red-500/10 text-red-600 dark:text-red-400 border-red-500/20" },
+                  { label: "Enriched", value: result.concepts_enriched, tone: "bg-green-500/10 text-green-700 dark:text-green-400 border-green-500/20" },
+                  { label: "Concepts seen", value: result.concepts_seen, tone: "bg-black/5 dark:bg-white/5 text-foreground/70 border-black/10" },
+                  { label: "Still missing a definition", value: result.concepts_missing, tone: "bg-red-500/10 text-red-600 dark:text-red-400 border-red-500/20" },
+                  { label: "Mean confidence", value: result.mean_confidence != null ? result.mean_confidence.toFixed(2) : "-", tone: "bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/20" },
+                  { label: "Flagged", value: result.flagged_concepts, tone: "bg-amber-500/10 text-amber-600 dark:text-amber-400 border-amber-500/20" },
                   { label: "Tokens in / out", value: `${result.input_tokens ?? 0} / ${result.output_tokens ?? 0}`, tone: "bg-purple-500/10 text-purple-600 dark:text-purple-400 border-purple-500/20" },
                 ].map((stat) => (
                   <div key={stat.label} className={`rounded-full border px-3 py-1 text-xs font-medium ${stat.tone}`}>
@@ -218,25 +258,17 @@ export function ConceptTableFill() {
               </div>
             )}
 
-            {Array.isArray(result.failed_topics) && result.failed_topics.length > 0 && (
+            {Array.isArray(result.missing_concepts) && result.missing_concepts.length > 0 && (
               <div className="rounded-xl border border-red-200 bg-red-50/70 p-4 text-sm text-red-800">
-                <div className="font-semibold mb-2">These topics came back with no concepts:</div>
+                <div className="font-semibold mb-2">These concepts came back without a definition:</div>
                 <ul className="space-y-1">
-                  {result.failed_topics.map((f: any) => (
-                    <li key={f.topic_id} className="flex items-center justify-between gap-3">
-                      <span className="truncate">{f.topic_name} — {f.error}</span>
-                      <Button
-                        size="sm"
-                        variant="outline"
-                        disabled={retryingTopicId === f.topic_id}
-                        onClick={() => handleRetryTopic(r.id, f.topic_id)}
-                        className="rounded-full shrink-0 h-7 text-xs"
-                      >
-                        {retryingTopicId === f.topic_id ? "Retrying..." : "Retry topic"}
-                      </Button>
-                    </li>
+                  {result.missing_concepts.map((f: any) => (
+                    <li key={f.concept_id} className="truncate">{f.name} — {f.error}</li>
                   ))}
                 </ul>
+                <div className="mt-2 text-xs opacity-80">
+                  Re-enrich the topic they sit under to try again. The concepts themselves are unaffected.
+                </div>
               </div>
             )}
 
@@ -261,18 +293,35 @@ export function ConceptTableFill() {
                         className="rounded-full shrink-0 h-7 text-xs bg-white/60 dark:bg-black/60"
                         title={!topic.topic_id ? "These rows predate the Chapter -> Topics -> Concepts hierarchy" : ""}
                       >
-                        {retryingTopicId === topic.topic_id ? "Re-running..." : "Re-run"}
+                        {retryingTopicId === topic.topic_id ? "Re-enriching..." : "Re-enrich topic"}
                       </Button>
                     </div>
                     <div className="p-4 bg-white/40 dark:bg-black/40">
                       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                         {topic.concepts.map((concept) => (
                           <div key={concept.concept_id} className="p-4 rounded-xl border border-black/5 dark:border-white/5 bg-white dark:bg-black/50 shadow-sm hover:shadow-md transition-shadow relative">
-                            <div className="absolute top-3 right-3 bg-blue-500/10 text-blue-600 dark:text-blue-400 text-[10px] font-bold px-2 py-0.5 rounded-full">
-                              {concept.mastery_threshold}% Mastery
+                            <div className="absolute top-3 right-3 flex items-center gap-1.5">
+                              <ConfidenceDot value={concept.confidence} status={concept.review_status} />
+                              {concept.is_enriched ? (
+                                <div className="bg-blue-500/10 text-blue-600 dark:text-blue-400 text-[10px] font-bold px-2 py-0.5 rounded-full">
+                                  {concept.mastery_threshold}% Mastery
+                                </div>
+                              ) : (
+                                <div
+                                  className="bg-black/5 dark:bg-white/10 text-muted-foreground/70 text-[10px] font-bold px-2 py-0.5 rounded-full"
+                                  title="The Chapters queue created this concept; run Enrich to set its threshold."
+                                >
+                                  Not enriched
+                                </div>
+                              )}
                             </div>
-                            <div className="font-semibold text-foreground/90 mb-1.5 pr-16">{concept.name}</div>
-                            <div className="text-xs text-foreground/70 leading-relaxed mb-3">{concept.description}</div>
+                            <div className="font-semibold text-foreground/90 mb-1.5 pr-28">{concept.name}</div>
+                            <div className="text-xs text-foreground/70 leading-relaxed mb-2">{concept.description}</div>
+                            {concept.definition && (
+                              <div className="text-xs text-foreground/80 leading-relaxed mb-3 border-l-2 border-blue-500/30 pl-2.5">
+                                {concept.definition}
+                              </div>
+                            )}
                             <div className="flex items-center text-xs text-muted-foreground/80 bg-black/5 dark:bg-white/5 rounded-md px-2 py-1 w-fit">
                               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1.5"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
                               {concept.estimated_mastery_minutes} min est.
@@ -369,11 +418,18 @@ export function ConceptTableFill() {
                           {r.concept_count > 0 && (
                             <span className="text-muted-foreground/60"> · {r.concept_count} concepts</span>
                           )}
+                          {r.mean_confidence != null && (
+                            <span className="text-muted-foreground/60"> · conf {r.mean_confidence.toFixed(2)}</span>
+                          )}
                         </td>
                         <td className="px-5 py-3">
                           {r.is_processed ? (
                             <Badge variant="secondary" className="bg-green-500/10 text-green-700 dark:text-green-400 border border-green-500/20 hover:bg-green-500/20 rounded-full px-2.5">
-                              Processed
+                              Enriched
+                            </Badge>
+                          ) : r.has_concept ? (
+                            <Badge variant="outline" className="text-amber-600 border-amber-500/30 bg-amber-500/10 rounded-full px-2.5">
+                              {r.unenriched_count} to enrich
                             </Badge>
                           ) : (
                             <Badge variant="outline" className="text-foreground/50 border-black/10 rounded-full px-2.5">
@@ -396,22 +452,25 @@ export function ConceptTableFill() {
                                 {expandedRowId === r.id && result?.status === "view_only" ? "Close Output" : "View Output"}
                               </Button>
                             )}
+                            {/* Gated on concepts, not topics: the Chapters queue
+                                produces both, so a chapter that has been through
+                                it is ready to enrich. */}
                             <Button
                               size="sm"
-                              disabled={(processingId === r.id && result === null) || !r.has_topic}
+                              disabled={(processingId === r.id && result === null) || !r.has_concept}
                               onClick={() => handleProcess(r.id)}
-                              className={`rounded-full transition-all duration-300 ${!r.has_topic ? "opacity-50 cursor-not-allowed" : ""} ${r.is_processed
+                              className={`rounded-full transition-all duration-300 ${!r.has_concept ? "opacity-50 cursor-not-allowed" : ""} ${r.is_processed
                                 ? "bg-black/5 hover:bg-black/10 text-foreground/70 shadow-none border-[0.5px] border-black/10 dark:bg-white/5 dark:hover:bg-white/10 dark:border-white/10"
                                 : "bg-foreground hover:bg-foreground/90 text-background shadow-md shadow-black/10 dark:shadow-white/10"
                                 }`}
-                              title={!r.has_topic ? "Must process Topics first" : ""}
+                              title={!r.has_concept ? "Run the Chapters queue first — it creates the concepts this stage enriches" : ""}
                             >
                               {processingId === r.id && result === null ? (
                                 <span className="flex items-center gap-2">
                                   <span className="h-3 w-3 border-2 border-current border-t-transparent rounded-full animate-spin"></span>
-                                  {processingMessage || (r.is_processed ? "Working..." : "Processing")}
+                                  {processingMessage || (r.is_processed ? "Working..." : "Enriching")}
                                 </span>
-                              ) : (r.is_processed ? "Reprocess" : (!r.has_topic ? "Need Topics" : "Process & Fill"))}
+                              ) : (r.is_processed ? "Re-enrich" : (!r.has_concept ? "Need Chapter" : "Enrich"))}
                             </Button>
                           </div>
                         </td>

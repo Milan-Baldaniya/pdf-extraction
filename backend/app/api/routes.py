@@ -61,6 +61,7 @@ from app.services.mineru_service import (
 )
 from app.services.curriculum_service import process_curriculum_by_id, get_all_curriculums, get_curriculum_data_by_extraction_id
 from app.services.chapter_service import process_chapter_by_id, get_chapter_data_by_extraction_id, get_all_chapters
+from app.services.curriculum_frame import get_chapter_outcomes_data
 from app.services.chapter_period_service import sync_chapter_periods_for_extraction, sync_all_chapter_periods
 from app.services.topic_service import process_topics_by_id, get_topic_data_by_extraction_id, get_all_topics_queue
 from app.services.concept_service import process_concepts_by_id, get_concept_data_by_extraction_id, get_all_concepts_queue
@@ -68,7 +69,7 @@ from app.services.question_service import (
     generate_questions_by_extraction,
     get_questions_by_extraction,
 )
-from app.services.validation_service import validate_extraction
+from app.services.validation_service import legacy_audit, validate_extraction
 from app.services import tab_label_service as tab_labels
 from app.semantic_intelligence.deepseek_client import DeepSeekUnavailableError
 from app.services.semantic_intelligence_service import get_all_semantic_chapters, process_semantic_chapter_by_id, get_semantic_data_by_extraction_id
@@ -811,17 +812,44 @@ def list_chapters() -> list[dict[str, Any]]:
 @router.post(
     "/chapters/{extraction_id}/process",
     tags=["Chapter Processing"],
-    summary="Process a chapter using DeepSeek and populate chapter_master",
+    summary="Map the chapter to its unit and generate its topics and concepts",
 )
 async def process_chapter(extraction_id: int, force: bool = False) -> dict[str, Any]:
+    # Runs the whole hierarchy: unit, topics, concepts, curriculum mapping.
+    # Prefer the queued form for anything interactive -- this can take minutes
+    # and a reverse proxy will not hold the request open that long.
     try:
-        result = await asyncio.to_thread(process_chapter_by_id, extraction_id, force)
-        return result
+        return await process_chapter_by_id(extraction_id, force)
+    except DeepSeekUnavailableError as exc:
+        # Upstream provider fault (billing/auth/model), not a bad request and
+        # not our bug -- 503 so it reads as "retry once the account is fixed".
+        raise HTTPException(status_code=503, detail=str(exc))
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc))
     except Exception as exc:
         logger.exception("Failed to process chapter")
         raise HTTPException(status_code=500, detail=f"Processing failed: {exc}")
+
+
+@router.get(
+    "/chapters/{extraction_id}/outcomes",
+    tags=["Chapter Processing"],
+    summary="The curricular goals, competencies and learning outcomes of a chapter",
+)
+def get_chapter_outcomes(extraction_id: int) -> dict[str, Any]:
+    """What the syllabus requires of this chapter, and which concepts serve it.
+
+    Read-only and LLM-free. Useful on its own to see whether a subject's
+    curriculum has been loaded at all, which decides how the concept budget is
+    anchored and how confidence is weighted.
+    """
+    try:
+        return get_chapter_outcomes_data(extraction_id)
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc))
+    except Exception as exc:
+        logger.exception("Failed to fetch chapter outcomes")
+        raise HTTPException(status_code=500, detail=f"Fetch failed: {exc}")
 
 @router.get(
     "/chapters/{extraction_id}/result",
@@ -843,11 +871,17 @@ def get_chapter_result(extraction_id: int) -> dict[str, Any]:
 # The queues below run in hierarchy order: a chapter is extracted first, its
 # topics are generated chapter-wise from that, and its concepts are generated
 # topic-wise from the topics.
+#
+# The Chapter queue now runs all three stages in one job, so the topic routes
+# below are no longer part of the normal flow -- they are kept live, and out of
+# the schema, because some chapters were processed before the merge and an
+# operator may still want to rebuild just their topics.
 
 @router.get(
     "/topics",
     tags=["Topic Processing"],
     summary="List all chapters ready for topic processing",
+    include_in_schema=False,
 )
 def list_topics() -> list[dict[str, Any]]:
     return get_all_topics_queue()
@@ -855,7 +889,8 @@ def list_topics() -> list[dict[str, Any]]:
 @router.post(
     "/topics/{extraction_id}/process",
     tags=["Topic Processing"],
-    summary="Find a chapter's main topics in one whole-chapter call and fill topic_master",
+    summary="Deprecated: the Chapter queue generates topics. Re-runs topics alone.",
+    include_in_schema=False,
 )
 async def process_topics(extraction_id: int, force: bool = False) -> dict[str, Any]:
     try:
@@ -901,7 +936,7 @@ def get_topic_result(extraction_id: int) -> dict[str, Any]:
 @router.get(
     "/concepts",
     tags=["Concept Processing"],
-    summary="List all chapters ready for concept processing",
+    summary="List all chapters whose concepts can be enriched",
 )
 def list_concepts() -> list[dict[str, Any]]:
     return get_all_concepts_queue()
@@ -909,9 +944,13 @@ def list_concepts() -> list[dict[str, Any]]:
 @router.post(
     "/concepts/{extraction_id}/process",
     tags=["Concept Processing"],
-    summary="Break every topic of a chapter into concepts in one whole-chapter call",
+    summary="Write the definition, mastery threshold and mastery time of existing concepts",
 )
 async def process_concepts(extraction_id: int, force: bool = False) -> dict[str, Any]:
+    # Enrichment only. The concepts themselves come from the Chapter queue, and
+    # this endpoint can neither create nor delete one -- lms_concept.id is
+    # referenced by the question bank and the lesson planner, and the
+    # delete-then-insert this route used to perform is what orphaned them.
     try:
         return await process_concepts_by_id(extraction_id, force)
     except DeepSeekUnavailableError as exc:
@@ -925,11 +964,12 @@ async def process_concepts(extraction_id: int, force: bool = False) -> dict[str,
 @router.post(
     "/concepts/{extraction_id}/topic/{topic_id}/process",
     tags=["Concept Processing"],
-    summary="Re-run concept extraction for one topic, still against the whole chapter",
+    summary="Re-enrich the concepts of one topic, still against the whole chapter",
 )
 async def process_concepts_for_topic(extraction_id: int, topic_id: int) -> dict[str, Any]:
-    # One topic coming back empty should not cost a full reprocess. The retry
-    # still sends the whole chapter -- only the set of topics asked about narrows.
+    # One topic coming back thin should not cost a full re-enrichment. Scoped to
+    # that topic's existing rows; like the whole-chapter form it only ever
+    # UPDATEs them.
     try:
         return await process_concepts_by_id(extraction_id, force=True, topic_id=topic_id)
     except DeepSeekUnavailableError as exc:
@@ -939,6 +979,27 @@ async def process_concepts_for_topic(extraction_id: int, topic_id: int) -> dict[
     except Exception as exc:
         logger.exception("Failed to process concepts for topic %s", topic_id)
         raise HTTPException(status_code=500, detail=f"Processing failed: {exc}")
+
+@router.get(
+    "/admin/legacy-audit",
+    tags=["Validation"],
+    summary="Rank already-processed chapters by how far they are from the current rules",
+)
+def legacy_audit_report(limit: int = 200, write: bool = False) -> dict[str, Any]:
+    """Which of the older chapters are actually bad, worst first.
+
+    Costs no LLM tokens and writes nothing unless ``write=true``, which fills
+    confidence on rows that have none. Scores come from the deterministic half
+    of the formula only -- the evidence quotes were never stored for these rows
+    -- so they carry their own profile name and are not comparable with a score
+    from a chapter processed since.
+    """
+    try:
+        return legacy_audit(limit=limit, write=write)
+    except Exception as exc:
+        logger.exception("Legacy audit failed")
+        raise HTTPException(status_code=500, detail=f"Legacy audit failed: {exc}")
+
 
 @router.get(
     "/validate/{extraction_id}",
@@ -1067,11 +1128,17 @@ async def queue_curriculum_processing(extraction_id: int, force: bool = False) -
     summary="Queue chapter processing and return a job id",
 )
 async def queue_chapter_processing(extraction_id: int, force: bool = False) -> dict[str, Any]:
-    """Background form of ``/chapters/{id}/process``. See /api/status/{job_id}."""
+    """Background form of ``/chapters/{id}/process``. See /api/status/{job_id}.
+
+    progress_aware, because this job now runs the whole hierarchy -- unit,
+    topics, concepts and curriculum mapping -- and takes several minutes. Each
+    stage names itself and the client prints that on the button.
+    """
     job_id = submit_job(
         f"Chapter processing for extraction {extraction_id}",
-        lambda: asyncio.to_thread(process_chapter_by_id, extraction_id, force),
+        lambda report: process_chapter_by_id(extraction_id, force, progress=report),
         semaphore=llm_semaphore(),
+        progress_aware=True,
     )
     return _accepted(job_id)
 

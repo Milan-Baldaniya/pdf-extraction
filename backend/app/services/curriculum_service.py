@@ -541,3 +541,15 @@ def save_learning_outcomes(db, curriculum_id: int, extraction_id: int, standard_
 
     db.commit()
 
+    # Every outcome id above is brand new: the DELETE at the top of this
+    # function removed the rows that lms_concept_outcome.outcome_id pointed at.
+    # The codes survive the rewrite, so the mappings are re-linked from those
+    # rather than left dangling -- which is the whole reason the mapping table
+    # stores outcome_code alongside the id.
+    try:
+        from app.services.curriculum_frame import resync_outcome_ids
+
+        resync_outcome_ids(db, curriculum_id)
+    except Exception as exc:
+        logger.warning("Could not re-link concept-outcome mappings for %s: %s", curriculum_id, exc)
+

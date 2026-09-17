@@ -153,6 +153,7 @@ def init_mariadb() -> bool:
         _ensure_extraction_columns(_engine)
         _ensure_question_tables(_engine)
         _ensure_publisher_schema(_engine)
+        _ensure_pipeline_schema(_engine)
         _init_error = None
         logger.info(
             "MariaDB ready (%s:%s/%s)",
@@ -452,6 +453,24 @@ def _ensure_publisher_schema(engine: Engine) -> list[str]:
     if changed:
         logger.info("Publisher schema updated: %s", ", ".join(changed))
     return changed
+
+
+def _ensure_pipeline_schema(engine: Engine) -> list[str]:
+    """Add the confidence and curriculum-mapping schema. Idempotent.
+
+    Imported inside the function because every service imports this module, so
+    a top-level import of a service package here would invert that direction.
+    """
+    try:
+        from app.services.extraction_schema import ensure_extraction_schema
+
+        with engine.connect() as connection:
+            return ensure_extraction_schema(connection)
+    except Exception as exc:
+        # The chapter job re-runs this before its first write, so a boot-time
+        # failure delays the columns rather than losing them.
+        logger.warning("Pipeline schema check skipped: %s", exc)
+        return []
 
 
 def _ensure_question_tables(engine: Engine) -> list[str]:

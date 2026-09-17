@@ -1,0 +1,11 @@
+# Runtime artefacts of a run, not configuration. The sheets and the README are
+# committed; everything below changes every night and is machine-local.
+ledger.jsonl
+*.ledger.jsonl
+run_state.json
+*.state.json
+STOP
+*.STOP
+.ncert_catalogue.html
+.queue-*
+.state-*

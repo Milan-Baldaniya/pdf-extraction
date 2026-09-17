@@ -12,6 +12,7 @@ from typing import Any
 
 from fastapi import APIRouter, File, Form, HTTPException, Request, UploadFile
 from fastapi.responses import FileResponse
+from pydantic import BaseModel
 
 from app.extraction.cache import (
     file_sha256,
@@ -39,6 +40,7 @@ from app.services.publisher_service import (
     type_map as question_type_map,
 )
 from app.services.question_ai_tagger import tag_extraction
+from app.services import queue_control
 from app.db.mariadb import (
     SessionLocal,
     DocumentExtraction,
@@ -1660,3 +1662,108 @@ async def queue_exam_question_tagging(
         semaphore=llm_semaphore(),
     )
     return _accepted(job_id)
+
+
+# ---------------------------------------------------------------------------
+# Overnight extraction queue
+#
+# The queue runs as a detached process, so these routes do not own it -- they
+# start it, ask it to stop, and read the files it publishes. See
+# app/services/queue_control.py for why it is built that way.
+# ---------------------------------------------------------------------------
+
+class QueueStartRequest(BaseModel):
+    """Options for one night. Every one of them has a sensible default."""
+
+    # Which sheet to run. Omitted when the machine has only one, which is the
+    # normal case -- a class per sheet, a sheet per machine.
+    sheet: str | None = None
+    batch_size: int = 2
+    only_standard: str | None = None
+    only_subject: str | None = None
+    force: bool = False
+    # Off by default: a night runs until the queue is empty and is stopped by
+    # hand in the morning. Set it only when the machine is needed at a fixed time.
+    stop_at: str | None = None
+
+
+@router.get(
+    "/queue/status",
+    tags=["Overnight Queue"],
+    summary="What the overnight extraction queue is doing right now",
+)
+def queue_status(sheet: str | None = None) -> dict[str, Any]:
+    return queue_control.status(sheet)
+
+
+@router.post(
+    "/queue/start",
+    tags=["Overnight Queue"],
+    summary="Start the overnight extraction queue",
+)
+def queue_start(request: QueueStartRequest) -> dict[str, Any]:
+    try:
+        return queue_control.start(
+            sheet=request.sheet,
+            batch_size=request.batch_size,
+            only_standard=request.only_standard,
+            only_subject=request.only_subject,
+            force=request.force,
+            stop_at=request.stop_at,
+        )
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except RuntimeError as exc:
+        # Already running. 409 rather than 500: the client should show the
+        # message, not treat it as a bug.
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
+    except Exception as exc:
+        logger.exception("Could not start the overnight queue")
+        raise HTTPException(status_code=500, detail=f"Could not start: {exc}") from exc
+
+
+@router.post(
+    "/queue/stop",
+    tags=["Overnight Queue"],
+    summary="Ask the queue to stop after the chapters in flight finish",
+)
+def queue_stop(sheet: str | None = None) -> dict[str, Any]:
+    try:
+        return queue_control.stop(sheet)
+    except Exception as exc:
+        logger.exception("Could not stop the overnight queue")
+        raise HTTPException(status_code=500, detail=f"Could not stop: {exc}") from exc
+
+
+@router.get(
+    "/queue/nights",
+    tags=["Overnight Queue"],
+    summary="Every night the queue has run, newest first",
+)
+def queue_nights(limit: int = 30, sheet: str | None = None) -> list[dict[str, Any]]:
+    return queue_control.nights(limit=limit, sheet=sheet)
+
+
+@router.get(
+    "/queue/nights/{run_id}/log",
+    tags=["Overnight Queue"],
+    summary="The raw log for one night",
+)
+def queue_night_log(run_id: str, tail_lines: int = 400) -> dict[str, Any]:
+    try:
+        return queue_control.log_text(run_id, tail_lines=tail_lines)
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+
+@router.get(
+    "/queue/overview",
+    tags=["Overnight Queue"],
+    summary="The queue sheet grouped by subject, with how far each has got",
+)
+def queue_overview(sheet: str | None = None) -> dict[str, Any]:
+    try:
+        return queue_control.queue_overview(sheet)
+    except Exception as exc:
+        logger.exception("Could not read the queue sheet")
+        raise HTTPException(status_code=500, detail=f"Could not read the sheet: {exc}") from exc

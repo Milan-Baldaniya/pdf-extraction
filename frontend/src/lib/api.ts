@@ -264,3 +264,179 @@ export async function createSubject(payload: CreateSubjectPayload): Promise<Subj
   return data;
 }
 
+
+// ---------------------------------------------------------------------------
+// Overnight extraction queue
+//
+// The queue is a detached process on the server, not a job of the API, so these
+// endpoints read files it publishes rather than talking to it. That is why
+// status can say "crashed": the heartbeat went stale while nobody was watching.
+// ---------------------------------------------------------------------------
+
+export interface QueueChapterInFlight {
+  label: string
+  title: string
+  subject: string
+  standard: number | null
+  chapter: number | null
+  attempt: number
+  started_at: string
+}
+
+export interface QueueStatus {
+  running: boolean
+  state: "idle" | "running" | "stopping" | "finished" | "stopped" | "interrupted" | "crashed"
+  message: string
+  run_id?: string | null
+  pid?: number | null
+  started_at?: string | null
+  started_human?: string
+  finished_at?: string | null
+  updated_at?: string | null
+  elapsed_seconds?: number | null
+  elapsed_human?: string
+  counts?: Record<string, number>
+  finished_count?: number
+  total?: number
+  remaining?: number | null
+  percent?: number
+  current?: QueueChapterInFlight[]
+  current_subject?: string
+  last_finished?: { label: string; title: string; status: string; seconds: number; at: string } | null
+  plan?: { chapters?: number; batch_size?: number; subjects?: { name: string; chapters: number }[] }
+  degraded?: boolean
+  low_memory_batches?: number
+  free_gb?: number | null
+  failures?: { label: string; title: string; error: string }[]
+  stop_requested?: boolean
+  log_file?: string | null
+  sheet_exists?: boolean
+  /** The sheet this status is about, and every sheet on the machine. */
+  sheet?: string | null
+  sheets?: string[]
+}
+
+export interface NightChapter {
+  key: string
+  label: string
+  subject: string
+  chapter: number | null
+  status: string
+  extraction_id: number | null
+  pages: number | null
+  md_chars: number | null
+  images: number | null
+  seconds: number | null
+  duration_human: string
+  attempts: number | null
+  error: string
+  at: string
+  at_human: string
+}
+
+export interface NightSubject {
+  name: string
+  done: number
+  failed: number
+  skipped: number
+  touched: number
+  complete: boolean
+}
+
+export interface Night {
+  run_id: string
+  state: string
+  live: boolean
+  started_at: string | null
+  finished_at: string | null
+  when_human: string
+  duration_seconds: number | null
+  duration_human: string
+  counts: Record<string, number>
+  headline: string
+  details: string[]
+  subjects: NightSubject[]
+  chapters: NightChapter[]
+  log_file: string | null
+}
+
+export interface QueueOverviewSubject {
+  name: string
+  standard: number | null
+  subject: string
+  board: string
+  total: number
+  settled: number
+  percent: number
+  chapters: {
+    chapter: number | null
+    title: string
+    status: string
+    extraction_id: number | null
+    pages: number | null
+    md_chars: number | null
+    attempts: number
+    error: string
+    pdf_url: string
+  }[]
+  [bucket: string]: unknown
+}
+
+export interface QueueOverview {
+  exists: boolean
+  sheet?: string
+  sheets?: string[]
+  subjects: QueueOverviewSubject[]
+  totals: Record<string, number>
+  total_rows?: number
+  pending?: number
+}
+
+export interface QueueStartOptions {
+  sheet?: string | null
+  batch_size?: number
+  only_standard?: string | null
+  only_subject?: string | null
+  force?: boolean
+  stop_at?: string | null
+}
+
+export async function fetchQueueStatus(sheet?: string | null): Promise<QueueStatus> {
+  const { data } = await api.get<QueueStatus>("/queue/status", { params: sheet ? { sheet } : {} })
+  return data
+}
+
+export async function startQueue(options: QueueStartOptions = {}): Promise<{ started: boolean; pid: number; message: string }> {
+  const { data } = await api.post("/queue/start", { batch_size: 2, ...options })
+  return data
+}
+
+export async function stopQueue(sheet?: string | null): Promise<{ stopped: boolean; message: string; state: string }> {
+  const { data } = await api.post("/queue/stop", {}, { params: sheet ? { sheet } : {} })
+  return data
+}
+
+export async function fetchNights(limit = 30, sheet?: string | null): Promise<Night[]> {
+  const { data } = await api.get<Night[]>("/queue/nights", {
+    params: sheet ? { limit, sheet } : { limit },
+  })
+  return data
+}
+
+export async function fetchNightLog(runId: string, tailLines = 400): Promise<{
+  run_id: string
+  file: string
+  total_lines: number
+  truncated: boolean
+  text: string
+}> {
+  const { data } = await api.get(`/queue/nights/${runId}/log`, { params: { tail_lines: tailLines } })
+  return data
+}
+
+export async function fetchQueueOverview(sheet?: string | null): Promise<QueueOverview> {
+  const { data } = await api.get<QueueOverview>("/queue/overview", {
+    params: sheet ? { sheet } : {},
+  })
+  return data
+}

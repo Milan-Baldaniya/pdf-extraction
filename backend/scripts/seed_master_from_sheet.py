@@ -79,6 +79,7 @@ def plan(sheets: list[Path]) -> dict[str, Any]:
         subjects: dict[tuple[int, str], int | None] = {}
         grades: dict[int, int | None] = {}
         existing_chapters: dict[tuple[int, int, int], set[int]] = {}
+        linked: set[tuple[int, int, str]] = set()
 
         for row in rows:
             if not row.is_enabled():
@@ -145,10 +146,37 @@ def plan(sheets: list[Path]) -> dict[str, Any]:
                 if row.chapter_number in existing_chapters[ch_key]:
                     continue  # already there; never touched
 
-            new_maps.setdefault(
-                (tenant, standard_id, row.subject_name.strip().lower()),
-                {"tenant": tenant, "standard_id": standard_id, "subject": row.subject_name.strip()},
-            )
+            # Only record a link that is genuinely absent. Reporting every
+            # class-subject pair as "to create" overstated the change, and
+            # sub_std_map has NOT NULL columns with no defaults -- so an insert
+            # attempted for a row that already exists fails the whole batch.
+            map_key = (tenant, standard_id, row.subject_name.strip().lower())
+            if subject_id is not None and map_key not in new_maps and map_key not in linked:
+                present = db.execute(
+                    text(
+                        "SELECT id FROM sub_std_map WHERE standard_id = :s "
+                        "AND subject_id = :u LIMIT 1"
+                    ),
+                    {"s": standard_id, "u": subject_id},
+                ).fetchone()
+                if present:
+                    linked.add(map_key)
+                else:
+                    new_maps[map_key] = {
+                        "tenant": tenant,
+                        "standard_id": standard_id,
+                        "subject": row.subject_name.strip(),
+                    }
+            elif subject_id is None:
+                # The subject itself is being created, so its link must be too.
+                new_maps.setdefault(
+                    map_key,
+                    {
+                        "tenant": tenant,
+                        "standard_id": standard_id,
+                        "subject": row.subject_name.strip(),
+                    },
+                )
             new_chapters.append(
                 {
                     "tenant": tenant,

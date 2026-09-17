@@ -189,6 +189,72 @@ def subject_names(tenant: int) -> dict[str, str]:
     return {str(r[0]).strip().lower(): str(r[0]).strip() for r in rows}
 
 
+# The books a school actually teaches, keyed by the subject name the DATABASE
+# uses -- which is rarely the one NCERT uses. CBSE splits Class 10 Social
+# Science into four books and the database names three of them after their
+# discipline, so "Social Sciences" is the fourth (Civics) rather than a
+# catch-all.
+#
+# Every entry was verified by downloading chapter 1 and reading its first page,
+# because a wrong code yields a whole valid book of the wrong subject and no
+# error anywhere:
+#
+#   jess1 "Everything available in our environment..."  Resources and Development
+#   jess2 "CHAPTER I : DEVELOPMENT"                     Understanding Economic Dev.
+#   jess3 "EVENTS AND PROCESSES SECTION I"              India and the Contemporary World-II
+#   jess4 "Power-sharing Chapter I"                     Democratic Politics-II
+#   jeff1 "They say faith can move mountains"           First Flight (Mandela)
+#   jefp1 "Why is Mrs Pumphrey worried about Tricki?"   Footprints Without Feet
+#   jewe2 "You have read about Lencho ... First Flight" Words and Expressions 2
+#   jhks1 / jhsp1                                       Kshitij-2 / Sparsh
+#   jehp1 "Physical education (PE) aims at..."          Health and Physical Education
+#
+# Supplementary readers (Kritika, Sanchayan) are deliberately absent: including
+# them would push chapter numbers past what the printed book shows.
+# Keyed by `subject.subject_name` -- NOT by the name the LMS displays. The two
+# differ, and the difference is a trap:
+#
+#   LMS "Geography"  -> sub_std_map.display_name, subject_id 4469,
+#                       whose subject.subject_name is "Social Sciences-2"
+#   LMS "History"    -> subject_id 4470, subject_name "Social Sciences-3"
+#   LMS "English-1"  -> subject_id 3978, subject_name "English"
+#
+# There is ALSO an orphan subject literally named "Geography" (id 4481) that is
+# linked to no class at all. `_map_ids` matches on subject_name, so writing
+# "Geography" in a sheet attaches the chapters to the orphan -- a subject the
+# LMS never shows. Every value below is the name _map_ids will actually find,
+# paired with the id it resolves to, checked against sub_std_map.
+VERIFIED_BOOKS: dict[tuple[int, str], str] = {
+    # class 10 -- subject_name           NCERT code   LMS shows as
+    (10, "Social Sciences-2"): "jess1",    # Geography       (id 4469)
+    (10, "Economics"): "jess2",            # Economics       (id 4472)
+    (10, "Social Sciences-3"): "jess3",    # History         (id 4470)
+    (10, "Social Sciences"): "jess4",      # Social Sciences / Civics (id 4064)
+    (10, "English"): "jeff1",              # English-1       (id 3978)
+    (10, "English-2"): "jefp1",            # English-2       (id 4435)
+    (10, "English Grammar"): "jewe2",      # English Grammer (id 3979)
+    (10, "Hindi-A"): "jhks1",              # Hindi-A         (id 3977)
+    (10, "Hindi-B"): "jhsp1",              # Hindi-B         (id 4512)
+    (10, "Health and Physical Education"): "jehp1",  #       (id 5333)
+    # Class 9 runs the revised curriculum, which merges Geography, History and
+    # Economics into one book and publishes a single English reader. All three
+    # of these are ALREADY extracted, so they are recorded for provenance
+    # rather than to be run again.
+    (9, "Social Sciences-2"): "iest1",     # LMS "Geography", 9 ch, done
+    (9, "English"): "iebe1",               # LMS "English-1", 8 ch, done
+}
+
+
+def books_by_code(catalogue: dict[int, dict[str, list[dict[str, Any]]]]) -> dict[str, dict[str, Any]]:
+    """Flatten the catalogue to {code: book} so a mapping can look one up."""
+    out: dict[str, dict[str, Any]] = {}
+    for subjects in catalogue.values():
+        for books in subjects.values():
+            for book in books:
+                out[book["code"]] = book
+    return out
+
+
 # NCERT and the database spell subjects differently, and only a human reading
 # both can say whether two names are the same book. Each entry here was checked
 # by downloading the NCERT chapter and comparing its first page against the
@@ -295,6 +361,60 @@ def build_rows_for_class(
     return rows, notes
 
 
+def build_mapped_rows(
+    standard: str,
+    catalogue: dict[int, dict[str, list[dict[str, Any]]]],
+    *,
+    board: str,
+    tenant: int,
+    syear: int,
+) -> tuple[list[qs.QueueRow], list[str]]:
+    """Rows for exactly the subjects in VERIFIED_BOOKS, under the DB's names.
+
+    The generic builder walks NCERT's own subject list, which is right when you
+    want everything a class has. This walks the school's list instead, so the
+    sheet carries the subject names the database already knows and every row
+    resolves to a real subject_id.
+    """
+    codes = books_by_code(catalogue)
+    titles = known_titles(tenant, standard)
+
+    rows: list[qs.QueueRow] = []
+    notes: list[str] = []
+    for (klass, subject), code in VERIFIED_BOOKS.items():
+        if str(klass) != str(standard):
+            continue
+        book = codes.get(code)
+        if book is None:
+            notes.append(f"  {subject:<34} {code:<8} NOT IN CATALOGUE -- skipped")
+            continue
+
+        have = titles.get(subject.strip().lower(), {})
+        for chapter in range(1, book["chapters"] + 1):
+            rows.append(
+                qs.QueueRow(
+                    enabled="yes",
+                    board=board,
+                    standard=int(standard),
+                    subject_name=subject,
+                    chapter_number=chapter,
+                    document_title=have.get(chapter)
+                    or f"{book['title'].strip()} - Chapter {chapter}",
+                    document_type="Chapter",
+                    syear=syear,
+                    sub_institute_id=tenant,
+                    pdf_url=PDF_URL.format(code=code, chapter=chapter),
+                    status="pending",
+                )
+            )
+        notes.append(
+            f"  {subject:<34} {code:<8} {book['chapters']:>2} ch  "
+            f"titles {len([c for c in range(1, book['chapters'] + 1) if have.get(c)])}"
+            f"/{book['chapters']}  ({book['title'].strip()})"
+        )
+    return rows, notes
+
+
 def write_sheet(path: Path, rows: list[qs.QueueRow]) -> int:
     """A fresh workbook. Any existing one is replaced -- this is a rebuild."""
     path.unlink(missing_ok=True)
@@ -315,6 +435,11 @@ def main() -> int:
     parser.add_argument("--syear", type=int, default=2026)
     parser.add_argument("--out-dir", type=Path, default=QUEUE_DIR)
     parser.add_argument("--cache", type=Path, help="reuse/save the fetched catalogue here")
+    parser.add_argument(
+        "--mapped",
+        action="store_true",
+        help="build only the subjects in VERIFIED_BOOKS, under the database's own names",
+    )
     parser.add_argument("--list", action="store_true", help="show the catalogue, write nothing")
     parser.add_argument(
         "--all-media",
@@ -344,9 +469,14 @@ def main() -> int:
             logger.error("NCERT lists no books for class %s", klass)
             continue
 
-        rows, notes = build_rows_for_class(
-            str(klass), subjects, board=args.board, tenant=tenant, syear=args.syear
-        )
+        if args.mapped:
+            rows, notes = build_mapped_rows(
+                str(klass), catalogue, board=args.board, tenant=tenant, syear=args.syear
+            )
+        else:
+            rows, notes = build_rows_for_class(
+                str(klass), subjects, board=args.board, tenant=tenant, syear=args.syear
+            )
         logger.info("")
         logger.info("CLASS %s  (%s, tenant %s)", klass, args.board, tenant)
         for note in notes:

@@ -1,0 +1,2221 @@
+{
+ "chapter": 1,
+ "chapter_id": 1012,
+ "extraction_id": 221,
+ "note": "NODIA Science QB 2026, Class 10, Chapter 1 Chemical Reactions and Equations (book pages 29-69). Sections present: OBJECTIVE QUESTIONS, ONE MARK, TWO MARKS, THREE MARKS, FIVE MARKS, CASE BASED. Chemistry is written in Unicode notation rather than the LaTeX MinerU emits, because the question bank has no maths renderer. Two answer keys contradict their own worked solutions (items 6 and 17); in both the solution text is taken as authoritative and the discrepancy is recorded on the item.",
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "Select from the following a decomposition reaction in which the source of energy for decomposition is light:",
+   "options": [
+    {
+     "label": "A",
+     "text": "2FeSO₄ → Fe₂O₃ + SO₂ + SO₃"
+    },
+    {
+     "label": "B",
+     "text": "2H₂O → 2H₂ + O₂"
+    },
+    {
+     "label": "C",
+     "text": "2AgBr → 2Ag + Br₂"
+    },
+    {
+     "label": "D",
+     "text": "CaCO₃ → CaO + CO₂"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "2AgBr → 2Ag + Br₂. Silver bromide decomposes in sunlight, so light is the source of energy. A reaction in which a single substance breaks down to form two or more substances is a decomposition reaction.",
+   "concept": "Photolytic decomposition",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "printed number lost; it is item 1 of the objective set. MinerU dropped the reaction arrows inside the LaTeX; restored from the worked solution, which shows 2FeSO₄ (heat), 2H₂O (electric current), 2AgBr (sunlight) and CaCO₃ (heat)."
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "When 2 mL of sodium hydroxide solution is added to a few pieces of granulated zinc in a test tube and then warmed, the reaction that occurs can be written in the form of a balanced chemical equation as:",
+   "options": [
+    {
+     "label": "A",
+     "text": "NaOH + Zn → NaZnO₂ + H₂O"
+    },
+    {
+     "label": "B",
+     "text": "2NaOH + Zn → Na₂ZnO₂ + H₂"
+    },
+    {
+     "label": "C",
+     "text": "2NaOH + Zn → NaZnO₂ + H₂"
+    },
+    {
+     "label": "D",
+     "text": "2NaOH + Zn → Na₂ZnO₂ + H₂O"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "2NaOH + Zn → Na₂ZnO₂ + H₂. When zinc reacts with sodium hydroxide solution, sodium zincate and hydrogen gas are produced.",
+   "concept": "Chemical equations using formulae",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂. The reaction given above is a redox reaction because in this case",
+   "options": [
+    {
+     "label": "A",
+     "text": "MnO₂ is oxidised and HCl is reduced"
+    },
+    {
+     "label": "B",
+     "text": "HCl is oxidised"
+    },
+    {
+     "label": "C",
+     "text": "MnO₂ is reduced"
+    },
+    {
+     "label": "D",
+     "text": "MnO₂ is reduced and HCl is oxidised"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "MnO₂ is reduced and HCl is oxidised. In the reaction MnO₂ loses oxygen (reduction) and HCl loses hydrogen (oxidation).",
+   "concept": "Oxidation-reduction (redox) reactions",
+   "section_heading": "OBJECTIVE QUESTIONS | OD 2024"
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Consider the following chemical equations I and II. I. Mg + 2HCl → MgCl₂ + H₂  II. NaOH + HCl → NaCl + H₂O. The correct statement about these equations is:",
+   "options": [
+    {
+     "label": "A",
+     "text": "‘I’ is a displacement reaction and ‘II’ is a decomposition reaction."
+    },
+    {
+     "label": "B",
+     "text": "‘I’ is a displacement reaction and ‘II’ is a double displacement reaction."
+    },
+    {
+     "label": "C",
+     "text": "Both ‘I’ and ‘II’ are displacement reactions."
+    },
+    {
+     "label": "D",
+     "text": "Both ‘I’ and ‘II’ are double-displacement reactions."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Equation I is a displacement reaction - Mg displaces hydrogen from HCl. Equation II is a double displacement reaction because the ions of both reactants exchange places to form two different compounds.",
+   "concept": "Displacement reaction",
+   "section_heading": "OBJECTIVE QUESTIONS | OD 2023",
+   "ocr": "printed number lost; it is item 4 by position between 3 and 5"
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Which of the statements about the reaction below are incorrect? 2PbO(s) + C(s) → 2Pb(s) + CO₂(g)  (a) Lead is getting reduced. (b) Carbon dioxide is getting oxidised. (c) Carbon is getting oxidised. (d) Lead oxide is getting reduced.",
+   "options": [
+    {
+     "label": "A",
+     "text": "(a) and (b)"
+    },
+    {
+     "label": "B",
+     "text": "(a) and (c)"
+    },
+    {
+     "label": "C",
+     "text": "(a), (b) and (c)"
+    },
+    {
+     "label": "D",
+     "text": "all"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "(a) and (b). It is lead oxide that is reduced, not lead, and carbon dioxide is the product of oxidation rather than the substance being oxidised. Carbon gains oxygen to form CO₂, so statement (c) is correct, and statement (d) is correct.",
+   "concept": "Oxidation-reduction (redox) reactions",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "the four answer choices are printed as roman numerals (i)-(iv) beneath four lettered statements; the statements are kept in the stem and the roman choices become options A-D in printed order"
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Fe₂O₃ + 2Al → Al₂O₃ + 2Fe. The above reaction is an example of a:",
+   "options": [
+    {
+     "label": "A",
+     "text": "combination reaction"
+    },
+    {
+     "label": "B",
+     "text": "double displacement reaction"
+    },
+    {
+     "label": "C",
+     "text": "decomposition reaction"
+    },
+    {
+     "label": "D",
+     "text": "displacement reaction"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A displacement reaction, in which the iron of Fe₂O₃ is displaced by the more reactive aluminium.",
+   "concept": "Displacement reaction",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "CONTRADICTED KEY: the book prints 'Thus Option (a) correct' but its own explanation says 'The given equation is a displacement reaction', which is option (d). The explanation is taken as authoritative and the key is recorded as D."
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "What happens when dilute hydrochloric acid is added to iron filings? Tick the correct answer.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Hydrogen gas and iron chloride are produced."
+    },
+    {
+     "label": "B",
+     "text": "Chlorine gas and iron hydroxide are produced."
+    },
+    {
+     "label": "C",
+     "text": "No reaction takes place."
+    },
+    {
+     "label": "D",
+     "text": "Iron salt and water are produced."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Fe + 2HCl → FeCl₂ + H₂, so hydrogen gas and iron chloride are produced.",
+   "concept": "Displacement reaction",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "printed number lost; it is item 7 by position between 6 and 8"
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Which of the following is not a physical change?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Boiling of water to give water vapour"
+    },
+    {
+     "label": "B",
+     "text": "Melting of ice to give water"
+    },
+    {
+     "label": "C",
+     "text": "Dissolution of salt in water"
+    },
+    {
+     "label": "D",
+     "text": "Combustion of liquefied petroleum gas (LPG)"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Combustion of liquefied petroleum gas (LPG). Combustion produces new substances, so it is a chemical change; the other three are physical changes.",
+   "concept": "Observations indicating a chemical reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The following reaction is an example of a: 4NH₃(g) + 5O₂(g) → 4NO(g) + 6H₂O(g)  (i) displacement reaction (ii) combination reaction (iii) redox reaction (iv) neutralisation reaction",
+   "options": [
+    {
+     "label": "A",
+     "text": "(i) and (iv)"
+    },
+    {
+     "label": "B",
+     "text": "(ii) and (iii)"
+    },
+    {
+     "label": "C",
+     "text": "(i) and (iii)"
+    },
+    {
+     "label": "D",
+     "text": "(iii) and (iv)"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(i) and (iii). Oxygen displaces hydrogen from ammonia, and the reaction involves both oxidation and reduction, so it is also a redox reaction.",
+   "concept": "Oxidation-reduction (redox) reactions",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Which of the following statements about the given reaction are correct? 3Fe(s) + 4H₂O(g) → Fe₃O₄(s) + 4H₂(g)  (i) Iron metal is getting oxidised (ii) Water is getting reduced (iii) Water is acting as reducing agent (iv) Water is acting as oxidising agent",
+   "options": [
+    {
+     "label": "A",
+     "text": "(i), (ii) and (iii)"
+    },
+    {
+     "label": "B",
+     "text": "(iii) and (iv)"
+    },
+    {
+     "label": "C",
+     "text": "(i), (ii) and (iv)"
+    },
+    {
+     "label": "D",
+     "text": "(ii) and (iv)"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(i), (ii) and (iv). Iron gains oxygen and is oxidised; water loses oxygen and is reduced, which makes water the oxidising agent.",
+   "concept": "Oxidation-reduction (redox) reactions",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Three beakers labelled A, B and C each containing 25 mL of water were taken. A small amount of NaOH, anhydrous CuSO₄ and NaCl were added to beakers A, B and C respectively. There was an increase in the temperature of the solutions in beakers A and B, whereas in beaker C the temperature of the solution falls. Which one of the following statement(s) is(are) correct? (i) In beakers A and B, an exothermic process has occurred. (ii) In beakers A and B, an endothermic process has occurred. (iii) In beaker C an exothermic process has occurred. (iv) In beaker C an endothermic process has occurred.",
+   "options": [
+    {
+     "label": "A",
+     "text": "(i) only"
+    },
+    {
+     "label": "B",
+     "text": "(ii) only"
+    },
+    {
+     "label": "C",
+     "text": "(i) and (iv)"
+    },
+    {
+     "label": "D",
+     "text": "(ii) and (iii)"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(i) and (iv). A rise in temperature means heat is released, which is exothermic; a fall in temperature means heat is absorbed, which is endothermic.",
+   "concept": "Exothermic chemical reactions",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Which of the following are exothermic processes? (i) Reaction of water with quicklime (ii) Dilution of an acid (iii) Evaporation of water (iv) Sublimation of camphor crystals",
+   "options": [
+    {
+     "label": "A",
+     "text": "(i) and (ii)"
+    },
+    {
+     "label": "B",
+     "text": "(ii) and (iii)"
+    },
+    {
+     "label": "C",
+     "text": "(i) and (iv)"
+    },
+    {
+     "label": "D",
+     "text": "(iii) and (iv)"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "(i) and (ii). Both slaking of lime and dilution of an acid release heat; evaporation and sublimation absorb heat.",
+   "concept": "Exothermic chemical reactions",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "A dilute ferrous sulphate solution was gradually added to a beaker containing acidified permanganate solution. The light purple colour of the solution fades and finally disappears. Which of the following is the correct explanation for the observation?",
+   "options": [
+    {
+     "label": "A",
+     "text": "KMnO₄ is an oxidising agent, it oxidises FeSO₄"
+    },
+    {
+     "label": "B",
+     "text": "FeSO₄ acts as an oxidising agent and oxidises KMnO₄"
+    },
+    {
+     "label": "C",
+     "text": "The colour disappears due to dilution; no reaction is involved"
+    },
+    {
+     "label": "D",
+     "text": "KMnO₄ is an unstable compound and decomposes in presence of FeSO₄ to a colourless compound"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "KMnO₄ is an oxidising agent and oxidises FeSO₄, losing its purple colour in the process.",
+   "concept": "Oxidation-reduction (redox) reactions",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Which among the following is(are) double displacement reaction(s)? (i) Pb + CuCl₂ → PbCl₂ + Cu (ii) Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl (iii) C + O₂ → CO₂ (iv) CH₄ + 2O₂ → CO₂ + 2H₂O",
+   "options": [
+    {
+     "label": "A",
+     "text": "(i) and (iv)"
+    },
+    {
+     "label": "B",
+     "text": "(ii) only"
+    },
+    {
+     "label": "C",
+     "text": "(i) and (ii)"
+    },
+    {
+     "label": "D",
+     "text": "(iii) and (iv)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "(ii) only. In Na₂SO₄ + BaCl₂ the ions of both reactants exchange partners; (i) is displacement and (iii) and (iv) are combination/combustion.",
+   "concept": "Precipitation reaction",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "MinerU printed reaction (iv) as 'CH₂ + 2O₂'; the balanced equation with 2H₂O requires CH₄, which is what the book prints"
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Which among the following statement(s) is(are) true? Exposure of silver chloride to sunlight for a long duration turns it grey due to: (i) the formation of silver by decomposition of silver chloride (ii) sublimation of silver chloride (iii) decomposition of chlorine gas from silver chloride (iv) oxidation of silver chloride",
+   "options": [
+    {
+     "label": "A",
+     "text": "(i) only"
+    },
+    {
+     "label": "B",
+     "text": "(i) and (iii)"
+    },
+    {
+     "label": "C",
+     "text": "(ii) and (iii)"
+    },
+    {
+     "label": "D",
+     "text": "(iv) only"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "(i) only. Sunlight decomposes silver chloride into silver and chlorine: 2AgCl → 2Ag + Cl₂. The grey colour is the silver formed.",
+   "concept": "Photolytic decomposition",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "Solid calcium oxide reacts vigorously with water to form calcium hydroxide, accompanied by liberation of heat. This process is called slaking of lime. Calcium hydroxide dissolves in water to form its solution called lime water. Which among the following is(are) true about slaking of lime and the solution formed? (i) It is an endothermic reaction (ii) It is an exothermic reaction (iii) The pH of the resulting solution will be more than seven (iv) The pH of the resulting solution will be less than seven",
+   "options": [
+    {
+     "label": "A",
+     "text": "(i) and (ii)"
+    },
+    {
+     "label": "B",
+     "text": "(ii) and (iii)"
+    },
+    {
+     "label": "C",
+     "text": "(i) and (iv)"
+    },
+    {
+     "label": "D",
+     "text": "(iii) and (iv)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "(ii) and (iii). Heat is liberated, so the reaction is exothermic, and calcium hydroxide is a base, so the pH of lime water is above seven.",
+   "concept": "Combination reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "Barium chloride on reacting with ammonium sulphate forms barium sulphate and ammonium chloride. Which of the following correctly represents the type of the reaction involved? (i) Displacement reaction (ii) Precipitation reaction (iii) Combination reaction (iv) Double displacement reaction",
+   "options": [
+    {
+     "label": "A",
+     "text": "(i) only"
+    },
+    {
+     "label": "B",
+     "text": "(ii) only"
+    },
+    {
+     "label": "C",
+     "text": "(iv) only"
+    },
+    {
+     "label": "D",
+     "text": "(ii) and (iv)"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "(ii) and (iv). The ions exchange partners, which makes it a double displacement reaction, and the insoluble barium sulphate formed makes it a precipitation reaction as well.",
+   "concept": "Precipitation reaction",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "CONTRADICTED KEY: the book prints 'Ans (a)' but then gives the answer text '(ii) and (iv)', which is option (d). The answer text is taken as authoritative and the key is recorded as D."
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "Electrolysis of water is a decomposition reaction. The mole ratio of hydrogen and oxygen gases liberated during electrolysis of water is:",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 : 1"
+    },
+    {
+     "label": "B",
+     "text": "2 : 1"
+    },
+    {
+     "label": "C",
+     "text": "4 : 1"
+    },
+    {
+     "label": "D",
+     "text": "1 : 2"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "2 : 1. Water decomposes as 2H₂O → 2H₂ + O₂, so twice as much hydrogen as oxygen is liberated.",
+   "concept": "Decomposition reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "Which of the following is(are) an endothermic process(es)? (i) Dilution of sulphuric acid (ii) Sublimation of dry ice (iii) Condensation of water vapours (iv) Evaporation of water",
+   "options": [
+    {
+     "label": "A",
+     "text": "(i) only"
+    },
+    {
+     "label": "B",
+     "text": "(ii) only"
+    },
+    {
+     "label": "C",
+     "text": "(iii) only"
+    },
+    {
+     "label": "D",
+     "text": "(ii) and (iv)"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "(ii) and (iv). Sublimation and evaporation both absorb heat; dilution of sulphuric acid and condensation release heat.",
+   "concept": "Endothermic reactions",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "option (a) printed as '(i) only (iii)' with a stray '(iii)'; read as '(i) only'"
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "In the double displacement reaction between aqueous potassium iodide and aqueous lead nitrate, a yellow precipitate of lead iodide is formed. While performing the activity, if lead nitrate is not available, which of the following can be used in place of lead nitrate?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Lead sulphate (insoluble)"
+    },
+    {
+     "label": "B",
+     "text": "Lead acetate"
+    },
+    {
+     "label": "C",
+     "text": "Ammonium nitrate"
+    },
+    {
+     "label": "D",
+     "text": "Potassium sulphate"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Lead acetate. It is soluble in water and supplies lead ions, so the yellow precipitate of lead iodide still forms; lead sulphate is insoluble and the other two contain no lead.",
+   "concept": "Precipitation reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "Which of the following gases can be used for storage of a fresh sample of an oil for a long time?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Carbon dioxide or oxygen"
+    },
+    {
+     "label": "B",
+     "text": "Nitrogen or oxygen"
+    },
+    {
+     "label": "C",
+     "text": "Carbon dioxide or helium"
+    },
+    {
+     "label": "D",
+     "text": "Helium or nitrogen"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Helium or nitrogen. Both are unreactive, so they displace oxygen and prevent the oil from being oxidised and turning rancid.",
+   "concept": "Prevention of rancidity",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "The following reaction is used for the preparation of oxygen gas in the laboratory. Which of the following statement(s) is(are) correct about the reaction?",
+   "options": [
+    {
+     "label": "A",
+     "text": "It is a decomposition reaction and endothermic in nature."
+    },
+    {
+     "label": "B",
+     "text": "It is a combination reaction."
+    },
+    {
+     "label": "C",
+     "text": "It is a decomposition reaction accompanied by release of heat."
+    },
+    {
+     "label": "D",
+     "text": "It is a photochemical decomposition reaction and exothermic in nature."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "It is a decomposition reaction and endothermic in nature. Potassium chlorate is heated to decompose it into potassium chloride and oxygen, so heat is absorbed.",
+   "concept": "Thermal decomposition",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "the reaction equation referred to by the stem (2KClO₃ → 2KCl + 3O₂, heated) was not captured by the extraction; the options are unaffected"
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "Which one of the following processes involves chemical reactions?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Storing of oxygen gas under pressure in a gas cylinder"
+    },
+    {
+     "label": "B",
+     "text": "Liquefaction of air"
+    },
+    {
+     "label": "C",
+     "text": "Keeping petrol in a china dish in the open"
+    },
+    {
+     "label": "D",
+     "text": "Heating copper wire in presence of air at high temperature"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Heating copper wire in the presence of air at high temperature. Copper combines with oxygen to form black copper(II) oxide, a new substance; the other three are physical changes.",
+   "concept": "Observations indicating a chemical reaction",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "option (a) printed with the OCR artefact 'yiri'; read as 'in'"
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "In which of the following chemical equations do the abbreviations represent the correct states of the reactants and products involved at reaction temperature?",
+   "options": [
+    {
+     "label": "A",
+     "text": "2H₂(l) + O₂(l) → 2H₂O(g)"
+    },
+    {
+     "label": "B",
+     "text": "2H₂(g) + O₂(l) → 2H₂O(l)"
+    },
+    {
+     "label": "C",
+     "text": "2H₂(g) + O₂(g) → 2H₂O(g)"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "2H₂(g) + O₂(g) → 2H₂O(g)",
+   "concept": "Symbols of physical states",
+   "ocr": "HELD ON PURPOSE: the four options were printed as a single LaTeX array and only three survived extraction - the (b), (c) and (d) labels came through empty. The three recovered options and the printed answer are kept; the item is left at three options so V-09 holds it for review rather than storing an invented fourth choice."
+  },
+  {
+   "number": "25",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "stem": "Which of the following are combination reactions? (i) 2KClO₃ →(heat) 2KCl + 3O₂ (ii) MgO + H₂O → Mg(OH)₂ (iii) 4Al + 3O₂ → 2Al₂O₃ (iv) Zn + FeSO₄ → ZnSO₄ + Fe",
+   "options": [
+    {
+     "label": "A",
+     "text": "(i) and (iii)"
+    },
+    {
+     "label": "B",
+     "text": "(iii) and (iv)"
+    },
+    {
+     "label": "C",
+     "text": "(ii) and (iv)"
+    },
+    {
+     "label": "D",
+     "text": "(ii) and (iii)"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "(ii) and (iii). In both, two or more substances combine to form a single product; (i) is decomposition and (iv) is displacement.",
+   "concept": "Combination reaction",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "reaction (i) printed as '2KClO₃ →(Heat) + 3O₂' with the KCl product dropped; restored"
+  },
+  {
+   "number": "26",
+   "form": "very_short",
+   "marks": 2,
+   "page": 7,
+   "stem": "A solution of potassium chloride when mixed with silver nitrate solution forms an insoluble white substance. Write the chemical reaction involved and also mention the type of the chemical reaction.",
+   "answer": "KCl(aq) + AgNO₃(aq) → AgCl(s) + KNO₃(aq). It is a double displacement reaction and also a precipitation reaction, because the insoluble white silver chloride is precipitated.",
+   "concept": "Precipitation reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "27",
+   "form": "very_short",
+   "marks": 2,
+   "page": 7,
+   "stem": "Ferrous sulphate decomposes with the evolution of a gas having the characteristic odour of burning sulphur. Write the chemical reaction involved and identify the type of reaction.",
+   "answer": "2FeSO₄(s) →(heat) Fe₂O₃(s) + SO₂(g) + SO₃(g). It is a thermal decomposition reaction.",
+   "concept": "Thermal decomposition",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "28",
+   "form": "very_short",
+   "marks": 2,
+   "page": 7,
+   "stem": "Why do fireflies glow at night?",
+   "answer": "Fireflies undergo a process known as bioluminescence. They contain phosphorus compounds which give out heat and light from their body.",
+   "concept": "Observations indicating a chemical reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "29",
+   "form": "short",
+   "marks": 3,
+   "page": 7,
+   "stem": "Grapes hanging on the plant do not ferment but after being plucked from the plant can be fermented. Under what conditions do these grapes ferment? Is it a chemical or a physical change?",
+   "answer": "Fermentation of grapes takes place under anaerobic conditions, that is in the absence of air. New products are formed, so it is a chemical change.",
+   "concept": "Observations indicating a chemical reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "30",
+   "form": "short",
+   "marks": 3,
+   "page": 7,
+   "stem": "Which among the following are physical or chemical changes? (a) Evaporation of petrol (b) Burning of Liquefied Petroleum Gas (LPG) (c) Heating of an iron rod to red hot (d) Curdling of milk (e) Sublimation of solid ammonium chloride",
+   "answer": "(a), (c) and (e) are physical changes. (b) and (d) are chemical changes.",
+   "concept": "Observations indicating a chemical reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "31",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "Match column I to column II and select the correct answer using the codes given below: <html><body><table><tr><td></td><td>Column I</td><td></td><td>Column II</td></tr><tr><td>(A)</td><td>C + O₂ → CO₂</td><td>p</td><td>Displacement</td></tr><tr><td>(B)</td><td>AgBr →(light) Ag + Br₂</td><td>q</td><td>Combination</td></tr><tr><td>(C)</td><td>Zn + CuSO₄ → ZnSO₄ + Cu</td><td>r</td><td>Decomposition</td></tr><tr><td>(D)</td><td>CH₃CH₂OH →(Cu) CH₃CHO + H₂</td><td>s</td><td>Oxidation</td></tr></table></body></html>",
+   "answer": "A-q, B-r, C-p, D-s",
+   "concept": "Combination reaction",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "the a/b/c/d code grid beneath the match table was destroyed by OCR, so the item is recorded as a match-the-column question carrying its printed key rather than as a four-option MCQ. Column II labels p-s restored from the printed pairing."
+  },
+  {
+   "number": "32",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "Column II gives the type of reaction mentioned in column I; match them correctly. <html><body><table><tr><td></td><td>Column I</td><td></td><td>Column II</td></tr><tr><td>(A)</td><td>KClO₃</td><td>p</td><td>O₂</td></tr><tr><td>(B)</td><td>ZnCO₃</td><td>q</td><td>H₂O</td></tr><tr><td>(C)</td><td>H₂CO₃</td><td>r</td><td>CO₂</td></tr><tr><td>(D)</td><td>C₂H₆</td><td>s</td><td>ZnO</td></tr></table></body></html>",
+   "answer": "A-p, B-s and r, C-q and r, D-q and r",
+   "concept": "Decomposition reaction",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "both the match table and its code grid are badly damaged - column I entries came through as 'KC1O', 'ZnCO', 'H2CO', 'C2H'. Formulae restored from the printed key (KClO₃ gives O₂; ZnCO₃ gives ZnO and CO₂; H₂CO₃ gives H₂O and CO₂; C₂H₆ burns to H₂O and CO₂). Stored as a match question with its key."
+  },
+  {
+   "number": "33",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 8,
+   "stem": "Assertion (A): Corrosion of iron is a serious problem. Reason (R): Every year an enormous amount of money is spent to replace damaged iron.",
+   "assertion": "Corrosion of iron is a serious problem.",
+   "reason": "Every year an enormous amount of money is spent to replace damaged iron.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Iron combines with oxygen in the presence of air and moisture to form a brown powder which gradually falls off. It is a wasteful reaction, and large sums are spent every year replacing damaged iron, so the reason explains the assertion.",
+   "concept": "Damage caused by corrosion",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "34",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 8,
+   "stem": "Assertion (A): Changing of colour of copper from reddish brown to black is an example of reduction. Reason (R): Hydrogen is removed.",
+   "assertion": "Changing of colour of copper from reddish brown to black is an example of reduction.",
+   "reason": "Hydrogen is removed.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "When copper is heated it combines with oxygen to form black copper(II) oxide, which is oxidation, not reduction. Loss of hydrogen is also oxidation, and no hydrogen is involved here, so both the assertion and the reason are false.",
+   "concept": "Oxidation",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "35",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 8,
+   "stem": "Assertion (A): When an iron nail is dipped in copper sulphate solution, the iron nail becomes brownish in colour and the blue colour of the copper sulphate solution fades. Reason (R): The equation representing this change is Cu + FeSO₄ → CuSO₄ + Fe.",
+   "assertion": "When an iron nail is dipped in copper sulphate solution, the iron nail becomes brownish in colour and the blue colour of the copper sulphate solution fades.",
+   "reason": "The equation representing this change is Cu + FeSO₄ → CuSO₄ + Fe.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Iron is more reactive than copper, so it displaces copper from its solution and the blue colour fades. The correct equation is Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu, so the assertion is true but the reason is false.",
+   "concept": "Displacement reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "36",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 8,
+   "stem": "Assertion (A): Silver chloride turns grey in sunlight. Reason (R): Silver is one of the least reactive metals.",
+   "assertion": "Silver chloride turns grey in sunlight.",
+   "reason": "Silver is one of the least reactive metals.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "In the presence of sunlight silver chloride decomposes to silver and chlorine, which is why it turns grey. Silver is indeed one of the least reactive metals, lying at the bottom of the reactivity series, but that is not the reason the compound turns grey, so both are true and the reason does not explain the assertion.",
+   "concept": "Photolytic decomposition",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "37",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "stem": "Assertion (A): When water is added to calcium oxide, a large amount of heat is produced. Reason (R): It is an endothermic reaction.",
+   "assertion": "When water is added to calcium oxide, a large amount of heat is produced.",
+   "reason": "It is an endothermic reaction.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Water added to calcium oxide forms calcium hydroxide and releases a large amount of heat. A reaction in which heat is released is exothermic, not endothermic, so the assertion is true and the reason is false.",
+   "concept": "Exothermic chemical reactions",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "38",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "stem": "Assertion (A): A chemical equation should be balanced. Reason (R): The number of atoms of each element should be the same on the reactant as well as the product side.",
+   "assertion": "A chemical equation should be balanced.",
+   "reason": "The number of atoms of each element should be the same on the reactant as well as the product side.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "An equation is balanced to satisfy the law of conservation of mass, which states that mass can neither be created nor destroyed during a chemical reaction. In a balanced equation the number of atoms of each element is the same on both sides. Both are true, but the reason states what balancing is rather than why it is required.",
+   "concept": "Law of conservation of mass",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "39",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "stem": "Assertion (A): Chemical equations can be made more informative. Reason (R): We can write the physical state of reactants and products, temperature and pressure, name of catalyst used, and so on.",
+   "assertion": "Chemical equations can be made more informative.",
+   "reason": "We can write the physical state of reactants and products, temperature and pressure, name of catalyst used, and so on.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "A chemical equation can be made more informative by writing the physical states of the reactants and products, and the conditions required for the reaction. Both are true and the reason explains the assertion.",
+   "concept": "Indicating reaction conditions",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "40",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "stem": "Assertion (A): The equation C(s) + O₂(g) → CO₂(g) is an example of a combination reaction. Reason (R): In the above equation, carbon and oxygen react to give carbon dioxide.",
+   "assertion": "The equation C(s) + O₂(g) → CO₂(g) is an example of a combination reaction.",
+   "reason": "In the above equation, carbon and oxygen react to give carbon dioxide.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "When two or more substances combine to form a single product the reaction is a combination reaction. Here carbon and oxygen combine to form the single product carbon dioxide, so both are true and the reason explains the assertion.",
+   "concept": "Combination reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "41",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "stem": "Assertion (A): Chips manufacturers usually flush bags of chips with oxygen gas. Reason (R): It adds taste to chips.",
+   "assertion": "Chips manufacturers usually flush bags of chips with oxygen gas.",
+   "reason": "It adds taste to chips.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Chips manufacturers flush bags with an inert gas such as nitrogen to stop the chips being oxidised and turning rancid, not with oxygen, and the gas adds no taste. Both the assertion and the reason are false.",
+   "concept": "Prevention of rancidity",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "42",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "stem": "Assertion (A): Precipitation reactions produce insoluble salts. Reason (R): A precipitation reaction is a double decomposition reaction.",
+   "assertion": "Precipitation reactions produce insoluble salts.",
+   "reason": "A precipitation reaction is a double decomposition reaction.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Precipitation reactions do produce insoluble salts, and a precipitation reaction is a double decomposition reaction. But not every double decomposition reaction is a precipitation reaction - only those forming an insoluble substance are - so the reason does not explain the assertion.",
+   "concept": "Precipitation reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "43",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 10,
+   "stem": "Assertion (A): During digestion, carbohydrates are broken down to form glucose. Reason (R): Glucose is necessary for breathing.",
+   "assertion": "During digestion, carbohydrates are broken down to form glucose.",
+   "reason": "Glucose is necessary for breathing.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "We need energy to stay alive, and we get it from the food we eat; during digestion the carbohydrates in food are broken down into glucose. Glucose is used in respiration to release energy rather than being necessary for breathing, so the assertion is true and the reason is false.",
+   "concept": "Decomposition reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "44",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 10,
+   "stem": "Assertion (A): Decomposition reactions are similar to combination reactions. Reason (R): Both reactions need a catalyst to occur.",
+   "assertion": "Decomposition reactions are similar to combination reactions.",
+   "reason": "Both reactions need a catalyst to occur.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A decomposition reaction is the opposite of a combination reaction - one substance breaks into several, rather than several combining into one - and neither necessarily needs a catalyst. Both the assertion and the reason are false.",
+   "concept": "Decomposition reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "45",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 10,
+   "stem": "Assertion (A): Corrosion of iron is commonly known as rusting. Reason (R): Corrosion of iron occurs in the presence of water and air.",
+   "assertion": "Corrosion of iron is commonly known as rusting.",
+   "reason": "Corrosion of iron occurs in the presence of water and air.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "When iron objects are exposed to humid air, a reddish brown mixture of iron oxide and iron hydroxide forms; this hydrated iron(III) oxide is commonly known as rust. Rust is soft and porous, so the strength of the object decreases as rusting proceeds. Both statements are true, but the reason gives the conditions rather than explaining the name.",
+   "concept": "Rusting of iron",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "46",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 10,
+   "stem": "Assertion (A): A reducing agent is a substance which can accept electrons. Reason (R): A substance which helps in oxidation is known as a reducing agent.",
+   "assertion": "A reducing agent is a substance which can accept electrons.",
+   "reason": "A substance which helps in oxidation is known as a reducing agent.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion is false but Reason is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Reduction is the addition of hydrogen or a metallic element, the removal of oxygen or a non-metallic element, or the gain of electrons. A reducing agent is the substance that brings about the reduction of another substance - it donates electrons rather than accepting them - so the assertion is false while the reason is true.",
+   "concept": "Reduction",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "this item prints a different fourth choice from the rest of the chapter - 'Assertion (A) is false but reason (R) is true' instead of 'Both ... are False'. The legend is recorded as printed against this item."
+  },
+  {
+   "number": "47",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 10,
+   "stem": "Assertion (A): The balancing of chemical equations is based on the law of conservation of mass. Reason (R): The total mass of reactants is equal to the total mass of products.",
+   "assertion": "The balancing of chemical equations is based on the law of conservation of mass.",
+   "reason": "The total mass of reactants is equal to the total mass of products.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The law of conservation of mass states that mass can neither be created nor destroyed in a chemical reaction. To obey it, the total mass of the elements in the reactants must equal that in the products - the number of atoms of each element stays the same before and after the reaction - which is why a skeletal equation must be balanced.",
+   "concept": "Law of conservation of mass",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "printed number lost; it is item 47 by position between 46 and 48"
+  },
+  {
+   "number": "48",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 11,
+   "stem": "Assertion (A): Carbon dioxide turns lime water milky. Reason (R): Carbon dioxide sullies the water.",
+   "assertion": "Carbon dioxide turns lime water milky.",
+   "reason": "Carbon dioxide sullies the water.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Carbon dioxide reacts with lime water (calcium hydroxide) to form a milky precipitate of calcium carbonate. The milkiness is that precipitate, not the gas dirtying the water, so the assertion is true and the reason is false.",
+   "concept": "Observations indicating a chemical reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "49",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 11,
+   "stem": "Assertion (A): A chemical reaction becomes faster at higher temperatures. Reason (R): At higher temperatures, molecular motion becomes more rapid.",
+   "assertion": "A chemical reaction becomes faster at higher temperatures.",
+   "reason": "At higher temperatures, molecular motion becomes more rapid.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "A chemical reaction becomes faster at higher temperatures because the movement of the particles is greater, so they collide more often and more energetically. Both are true and the reason explains the assertion.",
+   "concept": "Indicating reaction conditions",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "50",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 11,
+   "stem": "Assertion (A): The chemical equation 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O is a balanced chemical equation. Reason (R): In a balanced chemical equation, the total number of atoms of each element may or may not be equal on both sides of the equation.",
+   "assertion": "The chemical equation 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O is a balanced chemical equation.",
+   "reason": "In a balanced chemical equation, the total number of atoms of each element may or may not be equal on both sides of the equation.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "In a balanced chemical equation the total number of atoms of each element is equal on both sides, so the reason is false. The equation 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O is correctly balanced, so the assertion is true.",
+   "concept": "Law of conservation of mass",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "the assertion's formula is printed as 2C₆H₆, which is not balanced against 4CO₂ + 6H₂O; the book's own worked solution gives 2C₂H₆, which is, and that is what is recorded"
+  },
+  {
+   "number": "51",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 11,
+   "stem": "Assertion (A): Fe₂O₃ + 2Al → Al₂O₃ + 2Fe is an example of a displacement reaction. Reason (R): Aluminium, being more reactive than iron, displaces Fe from its oxide.",
+   "assertion": "Fe₂O₃ + 2Al → Al₂O₃ + 2Fe is an example of a displacement reaction.",
+   "reason": "Aluminium, being more reactive than iron, displaces Fe from its oxide.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Fe₂O₃ + 2Al → Al₂O₃ + 2Fe is a displacement reaction in which the more reactive aluminium displaces iron from iron(III) oxide. Both are true and the reason explains the assertion.",
+   "concept": "Displacement reaction",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "52",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 11,
+   "stem": "Assertion (A): Photosynthesis is considered an endothermic reaction. Reason (R): Energy gets released in the process of photosynthesis.",
+   "assertion": "Photosynthesis is considered an endothermic reaction.",
+   "reason": "Energy gets released in the process of photosynthesis.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Photosynthesis is endothermic because energy in the form of sunlight is absorbed by green plants. Energy is absorbed, not released, so the assertion is true and the reason is false.",
+   "concept": "Endothermic reactions",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "53",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 12,
+   "stem": "Assertion (A): In the reaction Zn + CuO → ZnO + Cu, zinc is getting oxidised and copper oxide is getting reduced. Reason (R): The process in which oxygen is added to a substance is called oxidation, whereas the process in which oxygen is removed from a substance is called reduction.",
+   "assertion": "In the reaction Zn + CuO → ZnO + Cu, zinc is getting oxidised and copper oxide is getting reduced.",
+   "reason": "The process in which oxygen is added to a substance is called oxidation, whereas the process in which oxygen is removed from a substance is called reduction.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion and Reason are true and Reason is the correct explanation of the Assertion."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion and Reason are true but Reason is not the correct explanation of the Assertion."
+    },
+    {
+     "label": "C",
+     "text": "Assertion is true but the Reason is false."
+    },
+    {
+     "label": "D",
+     "text": "Both Assertion and Reason are false."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The reaction involves both oxidation and reduction: CuO is reduced to Cu by losing oxygen, and Zn is oxidised to ZnO by gaining it. Both are true and the reason explains the assertion.",
+   "concept": "Oxidation-reduction (redox) reactions",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "the assertion refers to 'the following chemical equation' but the equation itself was not captured by the extraction; it is Zn + CuO → ZnO + Cu, which is what the worked solution describes"
+  },
+  {
+   "number": "54",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "What is a balanced chemical equation? Or, define a balanced chemical equation.",
+   "answer": "A chemical equation in which the number of atoms of each element involved is the same on the reactant and the product side is called a balanced chemical equation.",
+   "concept": "Law of conservation of mass",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2021, 16"
+  },
+  {
+   "number": "55",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "Name the type of chemical reaction which takes place when quicklime is added to water.",
+   "answer": "It is an exothermic reaction and a combination reaction.",
+   "concept": "Combination reaction",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2021"
+  },
+  {
+   "number": "56",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "Which one is a chemical change - fermentation of fruit juice or diluting fruit juice?",
+   "answer": "Fermentation of fruit juice is the chemical change.",
+   "concept": "Observations indicating a chemical reaction",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2010"
+  },
+  {
+   "number": "57",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "Which one is a chemical change - rusting of iron or melting of iron?",
+   "answer": "Rusting of iron is the chemical change.",
+   "concept": "Observations indicating a chemical reaction",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2017"
+  },
+  {
+   "number": "58",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "Hydrogen and oxygen combine with each other to form water. Name the reactants and products.",
+   "answer": "Hydrogen and oxygen are the reactants. Water is the product.",
+   "concept": "Reactants and products",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2014"
+  },
+  {
+   "number": "59",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "The molecular formula of the chloride of a cation X is XCl. What is the formula of the nitrate of X?",
+   "answer": "XNO₃",
+   "concept": "Chemical equations using formulae",
+   "section_heading": "ONE MARK QUESTIONS | OD 2011"
+  },
+  {
+   "number": "60",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "Give the values of x, y and z for the equation xHCl + O₂ → yH₂O + zCl₂.",
+   "answer": "x = 4, y = 2, z = 2",
+   "concept": "Hit-and-trial balancing method",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2009"
+  },
+  {
+   "number": "61",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "What is meant by a skeletal equation?",
+   "answer": "An unbalanced chemical equation is called a skeletal equation.",
+   "concept": "Skeletal chemical equations",
+   "section_heading": "ONE MARK QUESTIONS | OD 2018"
+  },
+  {
+   "number": "62",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "Write a balanced chemical equation to represent the following reaction: carbon monoxide reacts with hydrogen gas at 340 atm to form methyl alcohol.",
+   "answer": "CO(g) + 2H₂(g) →(340 atm) CH₃OH(l)",
+   "concept": "Indicating reaction conditions",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2016"
+  },
+  {
+   "number": "63",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "Complete and balance the following reaction: Fe₂O₃ + Al →",
+   "answer": "Fe₂O₃(s) + 2Al(s) → Al₂O₃(s) + 2Fe(s)",
+   "concept": "Displacement reaction",
+   "section_heading": "ONE MARK QUESTIONS | OD 2007"
+  },
+  {
+   "number": "64",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Balance the chemical equation: Pb(NO₃)₂(s) →(heat) PbO(s) + NO₂(g) + O₂(g)",
+   "answer": "2Pb(NO₃)₂(s) →(heat) 2PbO(s) + 4NO₂(g) + O₂(g)",
+   "concept": "Thermal decomposition",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2010"
+  },
+  {
+   "number": "65",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Balance the following chemical equation: FeSO₄(s) →(heat) Fe₂O₃(s) + SO₂(g) + SO₃(g)",
+   "answer": "2FeSO₄(s) →(heat) Fe₂O₃(s) + SO₂(g) + SO₃(g)",
+   "concept": "Thermal decomposition",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2019"
+  },
+  {
+   "number": "66",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the type of the following reaction: 2H₂ + O₂ → 2H₂O",
+   "answer": "Combination reaction.",
+   "concept": "Combination reaction",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2006",
+   "ocr": "the stem says 'the following reaction' but the equation was not captured by the extraction; a combination reaction of the kind the answer describes is shown"
+  },
+  {
+   "number": "67",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the reaction in which two substances react to form a new substance.",
+   "answer": "Combination reaction.",
+   "concept": "Combination reaction",
+   "section_heading": "ONE MARK QUESTIONS | OD 2013"
+  },
+  {
+   "number": "68",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "What type of reaction occurs in the digestion of food in our body?",
+   "answer": "Decomposition reaction.",
+   "concept": "Decomposition reaction",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2009"
+  },
+  {
+   "number": "69",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Which of the following represents an exothermic reaction? (i) CaCO₃ →(heat) CaO + CO₂  (ii) C + O₂ → CO₂ + heat",
+   "answer": "The second reaction, (ii) C + O₂ → CO₂ + heat, is the exothermic one, because heat is released.",
+   "concept": "Exothermic chemical reactions",
+   "section_heading": "ONE MARK QUESTIONS | OD 2014"
+  },
+  {
+   "number": "70",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "What is the reaction called in which an element, molecule or ion is removed by another?",
+   "answer": "Displacement reaction.",
+   "concept": "Displacement reaction",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2017"
+  },
+  {
+   "number": "71",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the type of reaction involved in the following: CuSO₄ + Zn → ZnSO₄ + Cu",
+   "answer": "Displacement reaction.",
+   "concept": "Displacement reaction",
+   "section_heading": "ONE MARK QUESTIONS | OD 2006"
+  },
+  {
+   "number": "72",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Identify the component oxidised in the following reaction: H₂ + CuO → Cu + H₂O",
+   "answer": "H₂ is oxidised into H₂O.",
+   "concept": "Oxidation",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2013",
+   "ocr": "the equation was not captured by the extraction; restored from the answer, which names H₂ being oxidised to H₂O"
+  },
+  {
+   "number": "73",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "What is the reaction in which one substance is oxidised and the other is reduced called?",
+   "answer": "Redox reaction.",
+   "concept": "Oxidation-reduction (redox) reactions",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2012"
+  },
+  {
+   "number": "74",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the reaction in which oxygen is removed from a substance.",
+   "answer": "Reduction.",
+   "concept": "Reduction",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2020"
+  },
+  {
+   "number": "75",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the reaction in which oxygen is added to a substance.",
+   "answer": "Oxidation.",
+   "concept": "Oxidation",
+   "section_heading": "ONE MARK QUESTIONS | OD 2007",
+   "ocr": "items 75 and 76 were interleaved by OCR into the single string 'AOrxriadnatgieoinr.on, zinc and copper ...', which is 'Oxidation.' and 'Arrange iron, zinc and copper ...' merged character by character; separated here"
+  },
+  {
+   "number": "76",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Arrange iron, zinc and copper in the order of their increasing reactivity.",
+   "answer": "Copper < Iron < Zinc.",
+   "concept": "Displacement reaction",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2011",
+   "ocr": "see item 75 - this stem was recovered from the interleaved OCR string"
+  },
+  {
+   "number": "77",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Give an example of an exothermic reaction.",
+   "answer": "Burning of natural gas: CH₄ + 2O₂ → CO₂ + 2H₂O + heat.",
+   "concept": "Exothermic chemical reactions",
+   "section_heading": "ONE MARK QUESTIONS | CBSE 2010"
+  },
+  {
+   "number": "78",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "White silver chloride turns grey in sunlight. Why?",
+   "answer": "White silver chloride turns grey in sunlight because light decomposes silver chloride into silver and chlorine: 2AgCl →(sunlight) 2Ag + Cl₂.",
+   "concept": "Photolytic decomposition",
+   "section_heading": "ONE MARK QUESTIONS | OD 2015"
+  },
+  {
+   "number": "79",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the type of reaction in N₂ + 3H₂ → 2NH₃.",
+   "answer": "Combination reaction.",
+   "concept": "Combination reaction",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2018"
+  },
+  {
+   "number": "80",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "What changes do you observe in the iron nails and in the colour of copper sulphate solution if iron nails are dipped in CuSO₄ solution for 15 minutes? Or, what happens when an iron nail is put inside copper sulphate solution? Write the reaction with observation.",
+   "answer": "The iron nails turn brown in colour and the copper sulphate solution turns light green: Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s).",
+   "concept": "Displacement reaction",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2007"
+  },
+  {
+   "number": "81",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Give an example of a double displacement reaction (only the reaction, with a complete balanced equation).",
+   "answer": "NaCl + AgNO₃ → AgCl + NaNO₃",
+   "concept": "Precipitation reaction",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2009"
+  },
+  {
+   "number": "82",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "What is the brown coloured gas evolved when lead nitrate crystals are heated in a dry test tube?",
+   "answer": "NO₂ (nitrogen dioxide).",
+   "concept": "Thermal decomposition",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2013"
+  },
+  {
+   "number": "83",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "Give an example of an endothermic reaction.",
+   "answer": "Decomposition of CaCO₃ on heating: CaCO₃(s) →(heat) CaO(s) + CO₂(g).",
+   "concept": "Endothermic reactions",
+   "section_heading": "ONE MARK QUESTIONS | OD 2015"
+  },
+  {
+   "number": "84",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "When magnesium ribbon burns in air and forms a white ash, is magnesium oxidised or reduced?",
+   "answer": "Magnesium is oxidised.",
+   "concept": "Oxidation",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2010"
+  },
+  {
+   "number": "85",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "In the following reaction identify which one is reduced and which one is oxidised: MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂",
+   "answer": "MnO₂ is reduced and HCl is oxidised.",
+   "concept": "Oxidation-reduction (redox) reactions",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2012"
+  },
+  {
+   "number": "86",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "Identify the substance that is oxidised and the substance that is reduced in the reaction Zn + CuO → ZnO + Cu.",
+   "answer": "CuO is reduced and Zn is oxidised.",
+   "concept": "Oxidation-reduction (redox) reactions",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2017",
+   "ocr": "the equation was not captured by the extraction; restored from the answer, which names CuO and Zn"
+  },
+  {
+   "number": "87",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "Name two effects of oxidation in daily life.",
+   "answer": "(i) Corrosion (ii) Rancidity.",
+   "concept": "Corrosion",
+   "section_heading": "ONE MARK QUESTIONS | OD 2012"
+  },
+  {
+   "number": "88",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "Why do iron articles become brown after some time?",
+   "answer": "Iron articles become brown after some time due to corrosion (rusting).",
+   "concept": "Rusting of iron",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2006"
+  },
+  {
+   "number": "89",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "Name two metals which are corroded.",
+   "answer": "(i) Iron (ii) Copper.",
+   "concept": "Corrosion",
+   "section_heading": "ONE MARK QUESTIONS | OD 2009"
+  },
+  {
+   "number": "90",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "Why do the colour and taste of fats and oils change after some time?",
+   "answer": "The colour and taste of fats and oils change after some time due to rancidity.",
+   "concept": "Rancidity",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2012"
+  },
+  {
+   "number": "91",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "Write two conditions of corrosion.",
+   "answer": "(i) Presence of moisture (ii) Presence of air (oxygen).",
+   "concept": "Corrosion",
+   "section_heading": "ONE MARK QUESTIONS | OD 2018"
+  },
+  {
+   "number": "92",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "Why are bags of chips flushed with nitrogen gas? Or, potato chips manufacturers fill the packet of chips with nitrogen gas. Why?",
+   "answer": "Nitrogen is an inert gas which prevents the chips from rancidity or oxidation.",
+   "concept": "Prevention of rancidity",
+   "section_heading": "ONE MARK QUESTIONS | CBSE 2010, 16"
+  },
+  {
+   "number": "93",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "Why do silver ornaments lose their shine when kept for some time?",
+   "answer": "They get tarnished by reacting with atmospheric gases to form silver sulphide.",
+   "concept": "Corrosion of silver and copper",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2019"
+  },
+  {
+   "number": "94",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "Name the gas that can be used for storage of a fresh sample of chips for a long time.",
+   "answer": "Nitrogen.",
+   "concept": "Prevention of rancidity",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2007"
+  },
+  {
+   "number": "95",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "Complete the missing components X and Y in the following reaction: Zn(s) + H₂SO₄(aq) → ZnSO₄(X) + H₂(Y)",
+   "answer": "Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g), so X = (aq) and Y = (g).",
+   "concept": "Symbols of physical states",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2012"
+  },
+  {
+   "number": "96",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "Name the reducing agent in the following reaction: 3MnO₂ + 4Al → 3Mn + 2Al₂O₃",
+   "answer": "Al is the reducing agent in this reaction.",
+   "concept": "Reduction",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2014",
+   "ocr": "printed as '2MnO₂ + 4Al → 3Mn + 2Al₂O₃'; the balanced equation requires 3MnO₂"
+  },
+  {
+   "number": "97",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "A silver spoon is kept immersed in an aqueous solution of copper sulphate. What change would be observed in the spoon as well as in the solution?",
+   "answer": "No change will be observed in the silver spoon or in the copper sulphate solution, because silver is less reactive than copper and so cannot displace it.",
+   "concept": "Displacement reaction",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2012"
+  },
+  {
+   "number": "98",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "Balance the following chemical equation: Fe(s) + H₂O(g) → Fe₃O₄(s) + H₂(g)",
+   "answer": "3Fe(s) + 4H₂O(g) → Fe₃O₄(s) + 4H₂(g)",
+   "concept": "Hit-and-trial balancing method",
+   "section_heading": "ONE MARK QUESTIONS | OD 2009"
+  },
+  {
+   "number": "99",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "Identify the type of reaction in the chemical equation given below: Na₂SO₄(aq) + BaCl₂(aq) → 2NaCl(aq) + BaSO₄(s)",
+   "answer": "Double displacement reaction.",
+   "concept": "Precipitation reaction",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2009"
+  },
+  {
+   "number": "100",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "Give one example of a decomposition reaction which occurs on passing an electric current. Write the balanced chemical equation.",
+   "answer": "2H₂O →(electrolysis) 2H₂ + O₂",
+   "concept": "Decomposition reaction",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2009"
+  },
+  {
+   "number": "101",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "Write one equation for a decomposition reaction which occurs in the presence of light.",
+   "answer": "2AgCl(s) →(sunlight) 2Ag(s) + Cl₂(g)",
+   "concept": "Photolytic decomposition",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2012"
+  },
+  {
+   "number": "102",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "Write one equation for a decomposition reaction which occurs in the presence of heat.",
+   "answer": "CaCO₃(s) →(heat) CaO(s) + CO₂(g)",
+   "concept": "Thermal decomposition",
+   "section_heading": "ONE MARK QUESTIONS | SQP 2016"
+  },
+  {
+   "number": "103",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "State one industrial application of the reduction process.",
+   "answer": "It is used in metallurgical processes for the refining of metals.",
+   "concept": "Reduction",
+   "section_heading": "ONE MARK QUESTIONS | SQP 2008"
+  },
+  {
+   "number": "104",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "What can be seen when a strip of copper metal is placed in a solution of silver nitrate?",
+   "answer": "Metallic silver is precipitated and a blue solution containing copper nitrate is obtained: Cu(s) + 2AgNO₃(aq) → 2Ag(s) + Cu(NO₃)₂(aq).",
+   "concept": "Displacement reaction",
+   "section_heading": "ONE MARK QUESTIONS | OD 2006"
+  },
+  {
+   "number": "105",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "State the type of chemical reaction, with the chemical equation, which takes place when magnesium wire is burnt in air.",
+   "answer": "2Mg(s) + O₂(g) → 2MgO(s) + heat. It is a combination reaction and is exothermic.",
+   "concept": "Combination reaction",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2014",
+   "ocr": "the product was printed as MgO(g); magnesium oxide is a solid, so it is recorded as MgO(s)"
+  },
+  {
+   "number": "106",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "Define the term decomposition reaction.",
+   "answer": "A chemical reaction in which a single compound decomposes into two or more simpler substances (elements or compounds) is called a decomposition reaction.",
+   "concept": "Decomposition reaction",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2011"
+  },
+  {
+   "number": "107",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "Write the balanced equation for the following reaction and identify the type of reaction: Potassium chlorate(s) →(heat) Potassium chloride(s) + Oxygen(g)",
+   "answer": "2KClO₃ →(heat) 2KCl + 3O₂. It is a decomposition reaction.",
+   "concept": "Thermal decomposition",
+   "section_heading": "ONE MARK QUESTIONS | OD 2010",
+   "ocr": "the heat arrow was printed as a bare 'T' in both the stem and the answer"
+  },
+  {
+   "number": "108",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "Tell whether respiration is an exothermic reaction or an endothermic reaction. Why?",
+   "answer": "Respiration is exothermic because heat is evolved when glucose is oxidised by the oxygen we inhale from the atmosphere.",
+   "concept": "Exothermic chemical reactions",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2011",
+   "ocr": "printed number lost; it is item 108 by position between 107 and 109"
+  },
+  {
+   "number": "109",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "What do you mean when we say that a substance has gone rancid?",
+   "answer": "It means that the smell and taste of the substance have changed.",
+   "concept": "Rancidity",
+   "section_heading": "ONE MARK QUESTIONS | SQP 2006"
+  },
+  {
+   "number": "110",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "Identify the type of chemical reaction and write the balanced chemical equation for the following: on heating copper powder in a china dish, the surface of copper powder becomes black.",
+   "answer": "2Cu + O₂ →(heat) 2CuO. This is an oxidation reaction - copper is oxidised to black copper(II) oxide.",
+   "concept": "Oxidation",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2010"
+  },
+  {
+   "number": "111",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "Identify the type of chemical reaction and write the balanced chemical equation for the following: quicklime reacts vigorously with water releasing a large amount of heat.",
+   "answer": "CaO(s) + H₂O(l) → Ca(OH)₂ + heat. This is a combination reaction.",
+   "concept": "Combination reaction",
+   "section_heading": "ONE MARK QUESTIONS | OD 2012"
+  },
+  {
+   "number": "112",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "State the reason for the following: iron articles lose their shine gradually.",
+   "answer": "When iron articles come in contact with air, moisture and acids, they lose their shine gradually and get coated with a reddish brown powder. This is called rusting of iron.",
+   "concept": "Rusting of iron",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2015"
+  },
+  {
+   "number": "113",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "What are antioxidants? Why are they added to fat and oil containing foods?",
+   "answer": "Antioxidants are substances used to slow down or stop the process of oxidation, so that fat and oil containing foods do not undergo rancidity.",
+   "concept": "Prevention of rancidity",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2013"
+  },
+  {
+   "number": "114",
+   "form": "very_short",
+   "marks": 1,
+   "page": 16,
+   "stem": "Define redox reaction.",
+   "answer": "Chemical reactions in which both oxidation and reduction occur simultaneously are known as redox reactions.",
+   "concept": "Oxidation-reduction (redox) reactions",
+   "section_heading": "ONE MARK QUESTIONS | SQP 2008"
+  },
+  {
+   "number": "115",
+   "form": "very_short",
+   "marks": 1,
+   "page": 16,
+   "stem": "Write the balanced chemical equation for the following reaction: Aluminium + Copper chloride → Aluminium chloride + Copper.",
+   "answer": "2Al + 3CuCl₂ → 2AlCl₃ + 3Cu",
+   "concept": "Displacement reaction",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2009"
+  },
+  {
+   "number": "116",
+   "form": "very_short",
+   "marks": 1,
+   "page": 16,
+   "stem": "Express the following fact in the form of a balanced chemical equation: barium chloride solution reacts with sodium sulphate solution to give insoluble barium sulphate and a solution of sodium chloride.",
+   "answer": "BaCl₂(aq) + Na₂SO₄(aq) → BaSO₄(s) + 2NaCl(aq)",
+   "concept": "Precipitation reaction",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2008",
+   "ocr": "the stem was printed as 'insoluble barium sodium sulphate and a solution of chloride' with the two product names crossed over, and the answer equation lost all its subscripts ('BaCl aq) + Na SO aq) $ BaSO s) + 2NaCl aq)'); both restored"
+  },
+  {
+   "number": "117",
+   "form": "very_short",
+   "marks": 2,
+   "page": 16,
+   "stem": "Translate the following statement into a balanced chemical equation: “When barium chloride reacts with aluminium sulphate, aluminium chloride and barium sulphate are formed.” State the type of this reaction, giving a reason to justify your answer.",
+   "answer": "3BaCl₂(aq) + Al₂(SO₄)₃(aq) → 2AlCl₃(aq) + 3BaSO₄(s). This is a double displacement (precipitation) reaction, because an exchange of ions takes place between the two reactants and leads to the formation of a precipitate.",
+   "concept": "Precipitation reaction",
+   "section_heading": "TWO MARKS QUESTIONS | OD 2024"
+  },
+  {
+   "number": "118",
+   "form": "very_short",
+   "marks": 2,
+   "page": 16,
+   "stem": "State whether the given chemical reaction is a redox reaction or not, and justify your answer: MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂",
+   "answer": "It is a redox reaction, because oxidation and reduction take place simultaneously. (i) MnO₂ + 4H⁺ + 2e⁻ → Mn²⁺ + 2H₂O: MnO₂ gains electrons, so it is reduced. (ii) 2Cl⁻ → Cl₂ + 2e⁻: chloride loses electrons, so HCl is oxidised.",
+   "concept": "Oxidation-reduction (redox) reactions",
+   "section_heading": "TWO MARKS QUESTIONS | Delhi 2019"
+  },
+  {
+   "number": "119",
+   "form": "very_short",
+   "marks": 2,
+   "page": 16,
+   "stem": "Give the chemical names of the reactants as well as the products of the following chemical equation: HNO₃ + Ca(OH)₂ → Ca(NO₃)₂ + H₂O",
+   "answer": "Reactants: HNO₃ (nitric acid) and Ca(OH)₂ (calcium hydroxide). Products: Ca(NO₃)₂ (calcium nitrate) and H₂O (water).",
+   "concept": "Reactants and products",
+   "section_heading": "TWO MARKS QUESTIONS | Comp 2021",
+   "ocr": "the answer printed calcium hydroxide as Ca(OH)₃; the formula in the equation itself is Ca(OH)₂, which is correct"
+  },
+  {
+   "number": "120",
+   "form": "very_short",
+   "marks": 2,
+   "page": 16,
+   "stem": "What is a chemical equation? Illustrate with an example.",
+   "answer": "A chemical equation is the way of communicating, in chemical language, the facts about a chemical reaction. For example, the reaction of zinc with dilute sulphuric acid to produce zinc sulphate and hydrogen is written as Zn + H₂SO₄ → ZnSO₄ + H₂.",
+   "concept": "Chemical equations using formulae",
+   "section_heading": "TWO MARKS QUESTIONS | SQP 2018"
+  },
+  {
+   "number": "121",
+   "form": "very_short",
+   "marks": 2,
+   "page": 16,
+   "stem": "Change the following reactions into balanced chemical equations: (i) Manganese dioxide is heated with aluminium powder. (ii) Iron is treated with steam.",
+   "answer": "(i) 3MnO₂ + 4Al →(Δ) 3Mn + 2Al₂O₃  (ii) 2Fe + 3H₂O →(Δ) Fe₂O₃ + 3H₂",
+   "concept": "Displacement reaction",
+   "section_heading": "TWO MARKS QUESTIONS | OD 2015"
+  },
+  {
+   "number": "122",
+   "form": "very_short",
+   "marks": 2,
+   "page": 16,
+   "stem": "What do you understand by a skeletal and a balanced chemical equation?",
+   "answer": "If the number of atoms of any element in a chemical equation is not equal on both sides, it is called a skeletal equation, for example Mg + HCl → MgCl₂ + H₂. In a balanced equation the number of atoms of each element is equal on both sides, for example Mg + 2HCl → MgCl₂ + H₂.",
+   "concept": "Skeletal chemical equations",
+   "section_heading": "TWO MARKS QUESTIONS | Foreign 2010"
+  },
+  {
+   "number": "123",
+   "form": "very_short",
+   "marks": 2,
+   "page": 17,
+   "stem": "What are the essentials of a chemical equation?",
+   "answer": "(i) It must refer to an actual chemical reaction. (ii) It should be molecular - H, O and N should be written as H₂, O₂ and N₂. (iii) It should be balanced and conform to the law of conservation of matter.",
+   "concept": "Chemical equations using formulae",
+   "section_heading": "TWO MARKS QUESTIONS | OD 2019"
+  },
+  {
+   "number": "124",
+   "form": "very_short",
+   "marks": 2,
+   "page": 17,
+   "stem": "(i) Rewrite the following equation in a balanced form: Fe + O₂ → Fe₂O₃  (ii) Rewrite the following equation indicating that a solution of lime in water has been used and that a precipitate is formed in the reaction: Ca(OH)₂ + CO₂ → CaCO₃ + H₂O",
+   "answer": "(i) 4Fe + 3O₂ → 2Fe₂O₃  (ii) Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s)↓ + H₂O(l)",
+   "concept": "Symbols of physical states",
+   "section_heading": "TWO MARKS QUESTIONS | Delhi 2006"
+  },
+  {
+   "number": "125",
+   "form": "very_short",
+   "marks": 2,
+   "page": 17,
+   "stem": "Write the balanced chemical equation for the following reaction and write the name of the reaction: Barium chloride + Aluminium sulphate → Barium sulphate + Aluminium chloride",
+   "answer": "3BaCl₂ + Al₂(SO₄)₃ → 3BaSO₄ + 2AlCl₃. This is a double displacement reaction.",
+   "concept": "Precipitation reaction",
+   "section_heading": "TWO MARKS QUESTIONS | SQP 2009"
+  },
+  {
+   "number": "126",
+   "form": "very_short",
+   "marks": 2,
+   "page": 17,
+   "stem": "Write balanced chemical equations to represent the following statements: (i) Carbon (coke) burns in air to form carbon dioxide gas. (ii) A piece of sodium metal on being put in water forms caustic soda and hydrogen gas.",
+   "answer": "(i) C(s) + O₂(g) → CO₂(g)↑  (ii) 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g)↑",
+   "concept": "Combination reaction",
+   "section_heading": "TWO MARKS QUESTIONS | Comp 2020",
+   "ocr": "the printed answer carries a gas arrow on O₂ as well; O₂ is a reactant here, so the arrow is kept only on the products"
+  },
+  {
+   "number": "127",
+   "form": "very_short",
+   "marks": 2,
+   "page": 17,
+   "stem": "Complete and balance the following ionic equations: (i) Cu + Ag⁺ → Cu²⁺ + Ag  (ii) Na + H⁺ → Na⁺ + H₂  (iii) Sn²⁺ + Hg²⁺ → Sn⁴⁺ + Hg⁺  (iv) Fe + H⁺ → Fe²⁺ + H₂",
+   "answer": "(i) Cu + 2Ag⁺ → Cu²⁺ + 2Ag  (ii) 2Na + 2H⁺ → 2Na⁺ + H₂  (iii) Sn²⁺ + 2Hg²⁺ → Sn⁴⁺ + 2Hg⁺  (iv) Fe + 2H⁺ → Fe²⁺ + H₂",
+   "concept": "Displacement reaction",
+   "section_heading": "TWO MARKS QUESTIONS | Foreign 2017",
+   "ocr": "the printed answer block repeats part (ii) twice, once unbalanced and once balanced; the balanced form is recorded"
+  }
+ ]
+}

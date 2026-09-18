@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "number": "169",
+      "form": "long",
+      "marks": 5,
+      "page": 24,
+      "section_heading": "FIVE MARKS QUESTIONS | OD 2010",
+      "stem": "A student dropped few pieces of marble in dilute hydrochloric acid, contained in a test tube. The evolved gas was then passed through lime water. What change would be observed in lime water? What will happen if excess of gas is passed through lime water? Write balanced chemical equations for all the changes observed.",
+      "answer": "When pieces of marble (calcium carbonate) are dropped in dilute hydrochloric acid, calcium chloride (salt), water and carbon dioxide are formed:\nCaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂\nWhen the evolved gas, CO₂, is passed through lime water, the lime water turns milky. This happens because an insoluble precipitate of calcium carbonate is formed:\nCa(OH)₂ + CO₂ → CaCO₃ (insoluble calcium carbonate) + H₂O\nIf excess carbon dioxide is passed through the lime water, the solution becomes colourless again, i.e. the milkiness disappears, because soluble calcium bicarbonate (calcium hydrogencarbonate) is formed:\nCaCO₃ + H₂O + CO₂ → Ca(HCO₃)₂",
+      "concept": "Acid-Carbonate Reaction",
+      "ocr": "Reaction arrows restored from LaTeX \\longrightarrow. The first equation is printed unbalanced as 'CaCO3 + HCl → CaCl2 + H2O + CO2'; balanced to 2HCl because the question asks for balanced equations. In the second equation MinerU folded the \\underbrace label ('insoluble calcium carbonate') into the formula as 'CaCO_3 }_{(insoluble calium' — restored as a parenthetical. The third equation printed a stray Δ immediately after the arrow; dropped."
+    },
+    {
+      "number": "170",
+      "form": "long",
+      "marks": 5,
+      "page": 24,
+      "section_heading": "FIVE MARKS QUESTIONS | Delhi 2018",
+      "stem": "(i) What are strong acids and weak acids? Give an example for each.\n(ii) A dry pellet of a common base B when kept in open absorbs moisture and turns sticky. The compound is also formed by chlor-alkali process. Identify B. What type of reaction occurs when B is treated with dilute hydrochloric acid? Write the chemical equation.",
+      "answer": "(i) Acids which, at a particular concentration, give rise to more H⁺ ions are said to be strong acids, and acids which at a particular concentration give less H⁺ ions are said to be weak acids.\nExample — Strong acid: hydrochloric acid (or any other example). Weak acid: acetic acid (or any other example).\n(ii) B is sodium hydroxide (NaOH). It absorbs moisture from the air and turns sticky, and it is the alkali obtained in the chlor-alkali process. Its reaction with dilute hydrochloric acid is a neutralisation reaction:\nNaOH + HCl → NaCl + H₂O",
+      "concept": "Strong and Weak Acids/Bases",
+      "sub_parts": ["i", "ii"],
+      "ocr": "Arrow restored from \\longrightarrow; H⁺ restored from $\\mathrm{H}^{+}$. The stem's 'Identify $B$' lost its full stop in print. The printed solution to (ii) gives only the equation and never names the reaction type the question asks for; 'neutralisation reaction' has been stated explicitly here."
+    },
+    {
+      "number": "171",
+      "form": "long",
+      "marks": 5,
+      "page": 24,
+      "section_heading": "FIVE MARKS QUESTIONS | OD 2016, 10",
+      "stem": "Account for the following:\n(a) State the relation between hydrogen ion concentration of an aqueous solution and its pH.\n(b) An aqueous solution has a pH value of 7.0. Is this solution acidic, basic or neutral?\n(c) Which has a higher pH value, 1 M HCl or 1 M NaOH solution?\n(d) Tooth enamel is one of the hardest substances in our body. How does it undergo damage due to eating chocolates and sweets? What should we do to prevent it?\n(e) How do [H⁺] ions exist in water?",
+      "answer": "(a) pH = −log[H⁺], i.e. pH ∝ 1/[H⁺]. If the pH of a solution is less than 7 it is acidic, if it is more than 7 it is basic and if it is 7 it is neutral.\n(b) Neutral.\n(c) 1 M NaOH solution.\n(d) The best way to prevent tooth decay is to clean the mouth after eating food using a tooth paste, which is generally basic in nature and neutralises the excess acid formed in the mouth.\n(e) Water acts as the carrier of the H⁺ ion, and the ion exists as the hydronium ion, H₃O⁺.",
+      "concept": "pH Scale",
+      "sub_parts": ["a", "b", "c", "d", "e"],
+      "ocr": "Stem printed '1 MHCl' with no space; read as 1 M HCl. 'How doe' corrected to 'How do'. LaTeX [H^{+}] and [H_3O^{+}] rendered as Unicode. Source defect: the printed solution to (d) answers only the prevention half of the part and never explains how the enamel is damaged (bacteria in the mouth turn sugar into acid which corrodes enamel below pH 5.5); the solution is left as printed rather than completed."
+    },
+    {
+      "number": "172",
+      "form": "long",
+      "marks": 5,
+      "page": 25,
+      "section_heading": "FIVE MARKS QUESTIONS | Delhi 2013",
+      "stem": "(a) A liquid has a pH less than 7 which represents an acidic solution.\n(i) State the nature of solution, if its pH increases from 7 to 14.\n(ii) Mention the ion whose concentration increases with the increase in pH value.\n(iii) Suggest a method that is generally used for measuring pH value.\n(b) Give reason for the following:\n(i) Tooth decay starts when the pH of the mouth is lower than 5.5.\n(ii) Antacids are used for treatment of indigestion.",
+      "answer": "(a)(i) If the pH of the solution increases from 7 to 14, the solution becomes basic.\n(a)(ii) It is the concentration of OH⁻ (hydroxyl) ions which increases when the pH increases from 7 to 14.\n(a)(iii) A paper impregnated with universal indicator is used to measure the pH of a solution.\n(b)(i) Tooth enamel is corroded when the pH of the mouth is below 5.5. This is because the bacteria present in the mouth produce acid by the degradation of sugar (food particles).\n(b)(ii) Antacids contain a base like magnesium hydroxide. During indigestion, the stomach produces acid by the degradation of food. The antacid neutralises this acid and provides relief to the affected person.",
+      "concept": "pH in Everyday Life",
+      "sub_parts": ["a(i)", "a(ii)", "a(iii)", "b(i)", "b(ii)"],
+      "ocr": "OH- rendered as OH⁻. No other repair needed."
+    },
+    {
+      "number": "173",
+      "form": "long",
+      "marks": 5,
+      "page": 25,
+      "section_heading": "FIVE MARKS QUESTIONS | Foreign 2011",
+      "stem": "What is plaster of paris? How is plaster of paris prepared? Write equation of the reaction involved. What happens when water is added to plaster of paris? Write an equation to show the reaction between plaster of paris and water.",
+      "answer": "Plaster of paris is calcium sulphate hemihydrate. Its formula is CaSO₄·½H₂O.\nPreparation: plaster of paris is prepared by heating gypsum (CaSO₄·2H₂O) to a temperature of 100°C (373 K) in a kiln. At this temperature gypsum loses three-fourths of its water of crystallisation and forms plaster of paris.\nCaSO₄·2H₂O --(Heat to 100°C / 373 K)--> CaSO₄·½H₂O + 1½H₂O\nWhen water is added to plaster of paris, it sets into a hard mass in about half an hour. The setting of plaster of paris is due to its hydration to form crystals of gypsum, which set to form a hard solid mass.\nCaSO₄·½H₂O + 1½H₂O → CaSO₄·2H₂O",
+      "concept": "Plaster of Paris",
+      "ocr": "The preparation equation is OCR-damaged in two places: the temperature prints as 'Heat to 1 0 °C' (a lost zero — 100°C, and the source's own '(373 K)' confirms it) and the product's water of crystallisation prints as ¼H₂O; both corrected to 100°C and ½H₂O, consistent with the formula stated in the same solution and with the second equation. 'CaSO ^4 2H O' in the gypsum formula restored to CaSO₄·2H₂O; 'threefourths' spaced to 'three-fourths'. Arrows restored from \\longrightarrow."
+    },
+    {
+      "number": "174",
+      "form": "long",
+      "marks": 5,
+      "page": 25,
+      "section_heading": "FIVE MARKS QUESTIONS | OD 2016, 08",
+      "stem": "Give suitable reasons for the following statements:\n(a) Rain water conducts electricity but distilled water does not.\n(b) We feel burning sensation in the stomach when we overeat.\n(c) A tarnished copper vessel regains its shine when rubbed with lemon.\n(d) The crystals of washing soda change to white powder on exposure to air.\n(e) An aqueous solution of sodium chloride is neutral but an aqueous solution of sodium is basic.",
+      "answer": "(a) Rain water is acidic in nature due to the presence of dissolved acidic oxides, so it contains ions and conducts electricity; distilled water has no dissolved ions, so it does not.\n(b) When we overeat we suffer from acidity, because excess acid is produced in the stomach. This produces a burning sensation.\n(c) A copper vessel gets tarnished due to the formation of basic copper carbonate on the vessel, which is basic in nature. When it is rubbed with lemon, which is acidic, neutralisation takes place and the copper vessel regains its shine.\n(d) Washing soda crystals lose their water of crystallisation on exposure to air (efflorescence) and are left as a white powder of the anhydrous salt:\nNa₂CO₃·10H₂O --(exposure to air)--> Na₂CO₃ + 10H₂O (dehydrated sodium carbonate)\n(e) An aqueous solution of sodium chloride is neutral because it is formed from a strong acid (HCl) and a strong base (NaOH). Sodium in water forms sodium hydroxide, which is basic in nature:\n2Na + 2H₂O → 2NaOH + H₂",
+      "concept": "pH of Salt Solutions",
+      "ocr": "Stem (e) prints 'but and aqueous solution of sodium is basic'; the stray 'and' corrected to 'an' and left otherwise as printed — the worked solution does treat it as sodium metal, not sodium carbonate. Answer (d) is OCR-destroyed: it prints as 'Na_2CO_3 \\xrightarrow[Sodium carbonate]{Air} \\xrightarrow[(Dehydrate sodium carbonate)]' — two arrows, no products and the decahydrate reactant lost; reconstructed as the efflorescence Na₂CO₃·10H₂O → Na₂CO₃ + 10H₂O, which is what the surviving labels describe. The printed solution also loses the '(e)' label, so part (e)'s answer runs straight on from (d); the two have been separated. Answer (a)'s reason for distilled water is implicit in the source ('...due to the presence of acidic oxides but not distilled water') and has been spelled out."
+    },
+    {
+      "number": "175",
+      "form": "long",
+      "marks": 5,
+      "page": 26,
+      "section_heading": "FIVE MARKS QUESTIONS | Comp 2017",
+      "stem": "Answer the following:\n(a) Why is plaster of paris written as CaSO₄·½H₂O? How is it possible to have half a water molecule attached to CaSO₄?\n(b) Why is sodium hydrogen carbonate an essential ingredient in antacids?\n(c) When electricity is passed through aqueous solution of sodium chloride, three products are obtained. Why is the process called chlor-alkali?",
+      "answer": "(a) The actual formula of plaster of paris is 2CaSO₄·H₂O, which means that one molecule of H₂O is associated with two molecules of CaSO₄. The formula is simplified and written as CaSO₄·½H₂O.\n(b) Sodium hydrogen carbonate is an essential constituent of antacids because it neutralises the effect of the hydrochloric acid released in the stomach. That is why it is called an antacid.\nNaHCO₃ + HCl → NaCl + H₂O + CO₂\n(c) On passing electricity through an aqueous solution of NaCl, the following changes occur:\nNaCl(aq) → Na⁺(aq) + Cl⁻(aq)\nH₂O ⇌ H⁺(aq) + OH⁻(aq)\nAt the cathode: H⁺ ions are discharged in preference to Na⁺ ions, which remain in solution. Hydrogen gas is evolved at the cathode.\nH⁺(aq) + e⁻ → H\nH + H → H₂(g)\nAt the anode: Cl⁻ ions are discharged in preference to OH⁻ ions, which remain in solution. Chlorine gas is evolved at the anode.\nCl⁻(aq) → Cl + e⁻\nCl + Cl → Cl₂(g)\nBoth Na⁺ ions and OH⁻ ions are present in the solution as sodium hydroxide. Since an alkali (NaOH) and chlorine are formed in the reaction, the process is called chlor-alkali.",
+      "concept": "Chlor-alkali Process",
+      "sub_parts": ["a", "b", "c"],
+      "ocr": "Part label '(c)' printed as a bare 'C' in the stem; restored. The plaster of paris formula printed as 'Ca$\\vec{s}O_4·½H_2O$' with a stray vector accent; read as CaSO₄·½H₂O. The NaCl dissociation line's condition text was scrambled ('\\xrightarrow[Γ]{Γ(aq)Γ(aq)}') and has been dropped, leaving the dissociation itself. The cathode and anode half-equations were reassembled from LaTeX \\begin{array} blocks and the 'At Anode Cl {-}{.} ions' fragment. All arrows restored; H₂O ⇌ H⁺ + OH⁻ kept as the printed reversible arrow."
+    }
+  ]
+}

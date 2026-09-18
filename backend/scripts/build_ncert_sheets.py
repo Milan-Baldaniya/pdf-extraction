@@ -236,6 +236,28 @@ VERIFIED_BOOKS: dict[tuple[int, str], str] = {
     (10, "Hindi-A"): "jhks1",              # Hindi-A         (id 3977)
     (10, "Hindi-B"): "jhsp1",              # Hindi-B         (id 4512)
     (10, "Health and Physical Education"): "jehp1",  #       (id 5333)
+    # Class 8. NOTE the ids are NOT the same as Class 10's for the same
+    # display names -- sub_std_map maps "Geography" to subject 4064 here and to
+    # 4469 in Class 10, so this table must be read per class and never carried
+    # across. Verified by first page:
+    #   hess2 "Introduction: How, When and Where"   Our Pasts III      -> History
+    #   hess3 "Social and Political Life"                              -> Civics
+    #   hess4 "Mona and Raju were helping Amma..."  Resource & Devt    -> Geography
+    #   hehd1 "Learning a language means..."        Honeydew           -> English-1
+    #   heih1 "Djinn: (pronounced 'jin'...)"        It So Happened     -> English-2
+    #   hhvs1 Lakh Ki Chudiyan                      Vasant             -> Hindi
+    #   hesc1 "CROP PRODUCTION AND MANAGEMENT"                         -> Science
+    #   hemh1 "RATIONAL NUMBERS"                                       -> Mathematics
+    (8, "Science"): "hesc1",               # LMS "Science"          (id 3975)
+    (8, "Mathematics"): "hemh1",           # LMS "Mathematics"      (id 3976)
+    (8, "English"): "hehd1",               # LMS "English-1"        (id 3978)
+    (8, "English-2"): "heih1",             # LMS "English-2"        (id 4435)
+    (8, "Social Sciences"): "hess4",       # LMS "Geography"        (id 4064)
+    (8, "Social Sciences-2"): "hess3",     # LMS "Civics"           (id 4469)
+    (8, "Social Sciences-3"): "hess2",     # LMS "History"          (id 4470)
+    (8, "Hindi-A"): "hhvs1",               # LMS "Hindi"            (id 3977)
+    # NCERT publishes no Class 8 English Grammar or Hindi Grammar textbook, so
+    # those two LMS subjects have nothing to extract.
     # Class 9 runs the revised curriculum, which merges Geography, History and
     # Economics into one book and publishes a single English reader. All three
     # of these are ALREADY extracted, so they are recorded for provenance

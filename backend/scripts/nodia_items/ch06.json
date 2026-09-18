@@ -1,0 +1,2051 @@
+{
+ "chapter": 6,
+ "chapter_id": 1017,
+ "extraction_id": 220,
+ "note": "NODIA Science QB 2026, Class 10, Chapter 6 Control and Coordination (book pages 245-259). INCOMPLETE BY SOURCE: pages 260-282 are missing from the supplied split, so roughly 130 of the chapter's ~320 printed questions are present. The split also stores its pages out of order (page 4 holds Q25-34, page 5 holds Q15-24, page 12 holds Q5-14), so items are recorded by their PRINTED number, not by position. Q318-320 on book page 246 are the tail of Chapter 5 (Life Processes - kidneys and nephrons) and are deliberately excluded: the page split cuts mid-chapter and attribution follows the text, not the file. OCR repairs made while reading are noted per item in the 'ocr' field where they were not trivial.",
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | OD 2024",
+   "stem": "In a nerve cell, the site where the electrical impulse is converted into a chemical signal is known as:",
+   "options": [
+    {
+     "label": "A",
+     "text": "Axon"
+    },
+    {
+     "label": "B",
+     "text": "Dendrites"
+    },
+    {
+     "label": "C",
+     "text": "Neuromuscular junction"
+    },
+    {
+     "label": "D",
+     "text": "Cell body"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Neuromuscular junction is the site where the electrical impulse is converted into a chemical signal for onward transmission. Thus (c) is the correct option.",
+   "ocr": "printed number was lost by OCR; it is item 1 of the objective set, confirmed against the source PDF page",
+   "concept": "Nerve Impulse Transmission"
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | OD 2023",
+   "stem": "Walking in a straight line and riding a bicycle are the activities which are possible due to a part of the brain. Choose the correct location and name of this part from the given table: <html><body><table><tr><td></td><td>Part of the Brain</td><td>Name</td></tr><tr><td>(a)</td><td>Fore brain</td><td>Cerebrum</td></tr><tr><td>(b)</td><td>Mid brain</td><td>Hypothalamus</td></tr><tr><td>(c)</td><td>Hind brain</td><td>Cerebellum</td></tr><tr><td>(d)</td><td>Hind brain</td><td>Medulla</td></tr></table></body></html>",
+   "options": [
+    {
+     "label": "A",
+     "text": "Fore brain - Cerebrum"
+    },
+    {
+     "label": "B",
+     "text": "Mid brain - Hypothalamus"
+    },
+    {
+     "label": "C",
+     "text": "Hind brain - Cerebellum"
+    },
+    {
+     "label": "D",
+     "text": "Hind brain - Medulla"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Walking in a straight line and riding a bicycle are voluntary actions and are controlled by the cerebellum. The cerebellum controls voluntary actions such as body posture and balance of the body. Involuntary actions such as vomiting and blood pressure are under the control of the medulla of the hind brain.",
+   "ocr": "the option letters in the table's first column were lost except 'd'; restored a-d in printed row order. Options also given as text so the item is answerable without the table.",
+   "concept": "Human Brain"
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Which of the following statements is correct about receptors?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Gustatory receptors detect taste while olfactory receptors detect smell."
+    },
+    {
+     "label": "B",
+     "text": "Both gustatory and olfactory receptors detect smell."
+    },
+    {
+     "label": "C",
+     "text": "Auditory receptors detect smell and olfactory receptors detect taste."
+    },
+    {
+     "label": "D",
+     "text": "Olfactory receptors detect taste and gustatory receptors detect smell."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Gustatory receptors detect taste while olfactory receptors detect smell.",
+   "ocr": "option (c) lost its brackets and read 'C Auditory ...'; restored. The key printed 'Ans b' but then quoted option (a)'s text verbatim - the quoted text is taken as authoritative and is also the scientifically correct statement, so the key is A.",
+   "concept": "Receptors"
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Electrical impulse travels in a neuron from",
+   "options": [
+    {
+     "label": "A",
+     "text": "Dendrite → axon → axonal end → cell body"
+    },
+    {
+     "label": "B",
+     "text": "Cell body → dendrite → axon → axonal end"
+    },
+    {
+     "label": "C",
+     "text": "Dendrite → cell body → axon → axonal end"
+    },
+    {
+     "label": "D",
+     "text": "Axonal end → axon → cell body → dendrite"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Dendrite → cell body → axon → axonal end",
+   "ocr": "printed number lost; it is item 4, confirmed against the source PDF page. MinerU rendered the arrows as '$$'; restored to →.",
+   "concept": "Nerve Impulse Transmission"
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 12,
+   "stem": "In a synapse, chemical signal is transmitted from",
+   "options": [
+    {
+     "label": "A",
+     "text": "dendritic end of one neuron to axonal end of another neuron."
+    },
+    {
+     "label": "B",
+     "text": "axon to cell body of the same neuron."
+    },
+    {
+     "label": "C",
+     "text": "cell body to axonal end of the same neuron."
+    },
+    {
+     "label": "D",
+     "text": "axonal end of one neuron to dendritic end of another neuron."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "axonal end of one neuron to dendritic end of another neuron.",
+   "concept": "Nerve Impulse Transmission"
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 12,
+   "stem": "In a neuron, conversion of electrical signal to a chemical signal occurs at",
+   "options": [
+    {
+     "label": "A",
+     "text": "cell body"
+    },
+    {
+     "label": "B",
+     "text": "axonal end"
+    },
+    {
+     "label": "C",
+     "text": "dendritic end"
+    },
+    {
+     "label": "D",
+     "text": "axon"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "axonal end",
+   "concept": "Nerve Impulse Transmission"
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 12,
+   "stem": "Which is the correct sequence of the components of a reflex arc?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Receptors → Muscles → Sensory neuron → Motor neuron → Spinal cord"
+    },
+    {
+     "label": "B",
+     "text": "Receptors → Motor neuron → Spinal cord → Sensory neuron → Muscle"
+    },
+    {
+     "label": "C",
+     "text": "Receptors → Spinal cord → Sensory neuron → Motor neuron → Muscle"
+    },
+    {
+     "label": "D",
+     "text": "Receptors → Sensory neuron → Spinal cord → Motor neuron → Muscle"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Receptors → Sensory neuron → Spinal cord → Motor neuron → Muscle",
+   "concept": "Reflex Arc",
+   "ocr": "MinerU rendered the arrows as '$$' and '\"' and dropped the (c) label; arrows restored and options relabelled a-d in printed order"
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 12,
+   "stem": "Which of the following statements are true? (i) Sudden action in response to something in the environment is called reflex action. (ii) Sensory neurons carry signals from spinal cord to muscles. (iii) Motor neurons carry signals from receptors to spinal cord. (iv) The path through which signals are transmitted from a receptor to a muscle or a gland is called reflex arc.",
+   "options": [
+    {
+     "label": "A",
+     "text": "(i) and (ii)"
+    },
+    {
+     "label": "B",
+     "text": "(i) and (iii)"
+    },
+    {
+     "label": "C",
+     "text": "(i) and (iv)"
+    },
+    {
+     "label": "D",
+     "text": "(i), (ii) and (iii)"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(i) and (iv)",
+   "concept": "Reflex Action"
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 12,
+   "stem": "Which of the following statements are true about the brain? (i) The main thinking part of brain is hind brain. (ii) Centres of hearing, smell, memory, sight etc. are located in fore brain. (iii) Involuntary actions like salivation, vomiting, blood pressure are controlled by the medulla in the hind brain. (iv) Cerebellum does not control posture and balance of the body.",
+   "options": [
+    {
+     "label": "A",
+     "text": "(i) and (ii)"
+    },
+    {
+     "label": "B",
+     "text": "(i), (ii) and (iii)"
+    },
+    {
+     "label": "C",
+     "text": "(ii) and (iii)"
+    },
+    {
+     "label": "D",
+     "text": "(iii) and (iv)"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(ii) and (iii)",
+   "concept": "Human Brain"
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 12,
+   "stem": "Posture and balance of the body is controlled by",
+   "options": [
+    {
+     "label": "A",
+     "text": "cerebrum"
+    },
+    {
+     "label": "B",
+     "text": "cerebellum"
+    },
+    {
+     "label": "C",
+     "text": "medulla"
+    },
+    {
+     "label": "D",
+     "text": "pons"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "cerebellum",
+   "concept": "Brain Divisions and Functions"
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 12,
+   "stem": "Spinal cord originates from",
+   "options": [
+    {
+     "label": "A",
+     "text": "cerebrum"
+    },
+    {
+     "label": "B",
+     "text": "medulla"
+    },
+    {
+     "label": "C",
+     "text": "pons"
+    },
+    {
+     "label": "D",
+     "text": "cerebellum"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "medulla",
+   "concept": "Central Nervous System (CNS)"
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 12,
+   "stem": "The movement of shoot towards light is",
+   "options": [
+    {
+     "label": "A",
+     "text": "geotropism"
+    },
+    {
+     "label": "B",
+     "text": "hydrotropism"
+    },
+    {
+     "label": "C",
+     "text": "chemotropism"
+    },
+    {
+     "label": "D",
+     "text": "phototropism"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "phototropism",
+   "concept": "Tropism",
+   "ocr": "option (c) lost its bracket"
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 12,
+   "stem": "The main function of abscisic acid in plants is to",
+   "options": [
+    {
+     "label": "A",
+     "text": "increase the length of cells"
+    },
+    {
+     "label": "B",
+     "text": "promote cell division"
+    },
+    {
+     "label": "C",
+     "text": "inhibit growth"
+    },
+    {
+     "label": "D",
+     "text": "promote growth of stem"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "inhibit growth",
+   "concept": "Plant Hormones (Phytohormones)"
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 12,
+   "stem": "Which of the following is not associated with growth of plant?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Auxin"
+    },
+    {
+     "label": "B",
+     "text": "Gibberellins"
+    },
+    {
+     "label": "C",
+     "text": "Cytokinins"
+    },
+    {
+     "label": "D",
+     "text": "Abscisic acid"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Abscisic acid",
+   "concept": "Plant Hormones (Phytohormones)"
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Iodine is necessary for the synthesis of which hormone?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Adrenaline"
+    },
+    {
+     "label": "B",
+     "text": "Thyroxine"
+    },
+    {
+     "label": "C",
+     "text": "Auxin"
+    },
+    {
+     "label": "D",
+     "text": "Insulin"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Thyroxine",
+   "ocr": "option (a) lost its brackets",
+   "concept": "Animal Hormones"
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Choose the incorrect statement about insulin.",
+   "options": [
+    {
+     "label": "A",
+     "text": "It is produced from pancreas"
+    },
+    {
+     "label": "B",
+     "text": "It regulates growth and development of the body"
+    },
+    {
+     "label": "C",
+     "text": "It regulates blood sugar level"
+    },
+    {
+     "label": "D",
+     "text": "Insufficient secretion of insulin will cause diabetes"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "It regulates growth and development of the body",
+   "concept": "Insulin and Blood Sugar"
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Select the mismatched pair",
+   "options": [
+    {
+     "label": "A",
+     "text": "Adrenaline - Pituitary gland"
+    },
+    {
+     "label": "B",
+     "text": "Testosterone - Testes"
+    },
+    {
+     "label": "C",
+     "text": "Estrogen - Ovary"
+    },
+    {
+     "label": "D",
+     "text": "Thyroxin - Thyroid gland"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Adrenaline - Pituitary gland. Adrenaline is secreted by the adrenal gland, not the pituitary.",
+   "concept": "Animal Hormones"
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The shape of guard cells changes due to change in the",
+   "options": [
+    {
+     "label": "A",
+     "text": "protein composition of cells"
+    },
+    {
+     "label": "B",
+     "text": "temperature of cells"
+    },
+    {
+     "label": "C",
+     "text": "amount of water in cells"
+    },
+    {
+     "label": "D",
+     "text": "position of nucleus in the cells"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "amount of water in cells",
+   "ocr": "option (c) lost its bracket",
+   "concept": "Coordination in Plants"
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The growth of tendril in pea plants is due to",
+   "options": [
+    {
+     "label": "A",
+     "text": "effect of light"
+    },
+    {
+     "label": "B",
+     "text": "effect of gravity"
+    },
+    {
+     "label": "C",
+     "text": "rapid cell divisions in tendrillar cells that are away from the support"
+    },
+    {
+     "label": "D",
+     "text": "rapid cell divisions in tendrillar cells in contact with the support"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "rapid cell divisions in tendrillar cells that are away from the support",
+   "concept": "Plant Movements"
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The growth of pollen tubes towards ovules is due to",
+   "options": [
+    {
+     "label": "A",
+     "text": "hydrotropism"
+    },
+    {
+     "label": "B",
+     "text": "chemotropism"
+    },
+    {
+     "label": "C",
+     "text": "geotropism"
+    },
+    {
+     "label": "D",
+     "text": "phototropism"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "chemotropism",
+   "ocr": "option (c) lost its bracket",
+   "concept": "Tropism"
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The movement of sunflower in accordance with the path of sun is due to",
+   "options": [
+    {
+     "label": "A",
+     "text": "phototropism"
+    },
+    {
+     "label": "B",
+     "text": "geotropism"
+    },
+    {
+     "label": "C",
+     "text": "chemotropism"
+    },
+    {
+     "label": "D",
+     "text": "hydrotropism"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "phototropism",
+   "ocr": "option (c) lost its bracket",
+   "concept": "Tropism"
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The substance that triggers the fall of mature leaves and fruits from plants is",
+   "options": [
+    {
+     "label": "A",
+     "text": "auxins"
+    },
+    {
+     "label": "B",
+     "text": "gibberellin"
+    },
+    {
+     "label": "C",
+     "text": "abscisic acid"
+    },
+    {
+     "label": "D",
+     "text": "cytokinin"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "abscisic acid",
+   "ocr": "options (a) and (c) lost their brackets",
+   "concept": "Plant Hormones (Phytohormones)"
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Which of the following statements about transmission of nerve impulse is incorrect?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Nerve impulse travels from dendritic end towards axonal end."
+    },
+    {
+     "label": "B",
+     "text": "At the dendritic end electrical impulses bring about the release of some chemicals which generate an electrical impulse at the axonal end of another neuron."
+    },
+    {
+     "label": "C",
+     "text": "The chemicals released from the axonal end of one neuron cross the synapse and generate a similar electrical impulse in a dendrite of another neuron."
+    },
+    {
+     "label": "D",
+     "text": "A neuron transmits electrical impulses not only to another neuron but also to muscle and gland cells."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "At the dendritic end electrical impulses bring about the release of some chemicals which generate an electrical impulse at the axonal end of another neuron.",
+   "concept": "Nerve Impulse Transmission"
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Involuntary actions in the body are controlled by",
+   "options": [
+    {
+     "label": "A",
+     "text": "medulla in fore brain"
+    },
+    {
+     "label": "B",
+     "text": "medulla in mid brain"
+    },
+    {
+     "label": "C",
+     "text": "medulla in hind brain"
+    },
+    {
+     "label": "D",
+     "text": "medulla in spinal cord"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "medulla in hind brain",
+   "concept": "Brain Divisions and Functions"
+  },
+  {
+   "number": "25",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Which of the following is not an involuntary action?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Vomiting"
+    },
+    {
+     "label": "B",
+     "text": "Salivation"
+    },
+    {
+     "label": "C",
+     "text": "Heart beat"
+    },
+    {
+     "label": "D",
+     "text": "Chewing"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Chewing",
+   "concept": "Reflex Action"
+  },
+  {
+   "number": "26",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "When a person is suffering from severe cold, he or she cannot",
+   "options": [
+    {
+     "label": "A",
+     "text": "differentiate the taste of an apple from that of an ice cream."
+    },
+    {
+     "label": "B",
+     "text": "differentiate the smell of a perfume from that of an agarbatti."
+    },
+    {
+     "label": "C",
+     "text": "differentiate red light from green light"
+    },
+    {
+     "label": "D",
+     "text": "differentiate a hot object from a cold object."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "differentiate the smell of a perfume from that of an agarbatti.",
+   "concept": "Receptors"
+  },
+  {
+   "number": "27",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "What is the correct direction of flow of electrical impulses?",
+   "answer": "(c)",
+   "ocr": "HELD ON PURPOSE: this is a diagram question and its four options are figure panels. OCR produced only 'e (0) α3=3=' for them and no figure was extracted for this page, so the options cannot be recovered. The stem and the printed key are recorded; the item is left without options so V-04/V-09 hold it unpublished for review rather than storing invented choices.",
+   "concept": "Nerve Impulse Transmission"
+  },
+  {
+   "number": "28",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Which statement is not true about thyroxin?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Iron is essential for the synthesis of thyroxin"
+    },
+    {
+     "label": "B",
+     "text": "It regulates carbohydrates, protein and fat metabolism in the body"
+    },
+    {
+     "label": "C",
+     "text": "Thyroid gland requires iodine to synthesise thyroxin"
+    },
+    {
+     "label": "D",
+     "text": "Thyroxin is also called thyroid hormone."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Iron is essential for the synthesis of thyroxin. Iodine, not iron, is required.",
+   "ocr": "option (c) lost its bracket",
+   "concept": "Animal Hormones"
+  },
+  {
+   "number": "29",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Dwarfism results due to",
+   "options": [
+    {
+     "label": "A",
+     "text": "Excess secretion of thyroxin"
+    },
+    {
+     "label": "B",
+     "text": "Less secretion of growth hormone"
+    },
+    {
+     "label": "C",
+     "text": "Less secretion of adrenaline"
+    },
+    {
+     "label": "D",
+     "text": "Excess secretion of growth hormone"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Less secretion of growth hormone",
+   "concept": "Animal Hormones"
+  },
+  {
+   "number": "30",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Dramatic changes of body features associated with puberty are mainly because of secretion of",
+   "options": [
+    {
+     "label": "A",
+     "text": "oestrogen from testes and testosterone from ovary"
+    },
+    {
+     "label": "B",
+     "text": "estrogen from adrenal gland and testosterone from pituitary gland"
+    },
+    {
+     "label": "C",
+     "text": "testosterone from testes and estrogen from ovary"
+    },
+    {
+     "label": "D",
+     "text": "testosterone from thyroid gland and estrogen from pituitary gland"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "testosterone from testes and estrogen from ovary",
+   "concept": "Animal Hormones"
+  },
+  {
+   "number": "31",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "A doctor advised a person to take an injection of insulin because",
+   "options": [
+    {
+     "label": "A",
+     "text": "his blood pressure was low"
+    },
+    {
+     "label": "B",
+     "text": "his heart was beating slowly"
+    },
+    {
+     "label": "C",
+     "text": "he was suffering from goitre"
+    },
+    {
+     "label": "D",
+     "text": "his sugar level in blood was high"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "his sugar level in blood was high",
+   "concept": "Insulin and Blood Sugar"
+  },
+  {
+   "number": "32",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The hormone which increases the fertility in males is called",
+   "options": [
+    {
+     "label": "A",
+     "text": "oestrogen"
+    },
+    {
+     "label": "B",
+     "text": "testosterone"
+    },
+    {
+     "label": "C",
+     "text": "insulin"
+    },
+    {
+     "label": "D",
+     "text": "growth hormone"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "testosterone",
+   "concept": "Animal Hormones"
+  },
+  {
+   "number": "33",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Which of the following endocrine glands is unpaired?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Adrenal"
+    },
+    {
+     "label": "B",
+     "text": "Testes"
+    },
+    {
+     "label": "C",
+     "text": "Pituitary"
+    },
+    {
+     "label": "D",
+     "text": "Ovary"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Pituitary",
+   "ocr": "printed number lost and option (a) read 'd Adrenal'; the number is 33 by position and the first option is (a) Adrenal",
+   "concept": "Endocrine System in Animals"
+  },
+  {
+   "number": "34",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Junction between two neurons is called",
+   "options": [
+    {
+     "label": "A",
+     "text": "cell junction"
+    },
+    {
+     "label": "B",
+     "text": "neuromuscular junction"
+    },
+    {
+     "label": "C",
+     "text": "neural joint"
+    },
+    {
+     "label": "D",
+     "text": "synapse"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "synapse",
+   "ocr": "the item runs across a page boundary - options (c) and (d) and the key are printed at the top of the next page",
+   "concept": "Neuron Structure and Function"
+  },
+  {
+   "number": "35",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "stem": "In humans, the life processes are controlled and regulated by",
+   "options": [
+    {
+     "label": "A",
+     "text": "reproductive and endocrine systems"
+    },
+    {
+     "label": "B",
+     "text": "respiratory and nervous systems"
+    },
+    {
+     "label": "C",
+     "text": "endocrine and digestive systems"
+    },
+    {
+     "label": "D",
+     "text": "nervous and endocrine systems"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "nervous and endocrine systems",
+   "ocr": "option (c) lost its bracket",
+   "concept": "Control and Coordination"
+  },
+  {
+   "number": "36",
+   "form": "very_short",
+   "marks": 2,
+   "page": 7,
+   "stem": "Label the parts (a), (b), (c) and (d) and show the direction of flow of electrical signals in the figure.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "figure_required": true,
+   "images": [
+    "c3242b3beb6386fd92ac3055ad5ca2daf099c22a9260731c1c2ff57836913e0d.jpg"
+   ],
+   "answer": "(a) Sensory neuron (b) Central Nervous System (CNS) (c) Motor neuron (d) Effector - Muscle in arm.",
+   "concept": "Reflex Arc"
+  },
+  {
+   "number": "37",
+   "form": "very_short",
+   "marks": 2,
+   "page": 7,
+   "stem": "Name the plant hormones responsible for the following: (a) elongation of cells (b) growth of stem (c) promotion of cell division (d) falling of senescent leaves.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "answer": "(a) Auxin (b) Gibberellin (c) Cytokinin (d) Abscisic acid",
+   "concept": "Plant Hormones (Phytohormones)"
+  },
+  {
+   "number": "38",
+   "form": "very_short",
+   "marks": 2,
+   "page": 7,
+   "stem": "Label the endocrine glands in the figure.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "figure_required": true,
+   "images": [
+    "4d1aa4b0deb4a30550ee9c2d6614ec251680b38e97f7ed970bfa764e0d067abe.jpg"
+   ],
+   "answer": "(a) Pineal gland (b) Pituitary gland (c) Thyroid (d) Thymus",
+   "concept": "Endocrine System in Animals"
+  },
+  {
+   "number": "39",
+   "form": "short",
+   "marks": 3,
+   "page": 7,
+   "stem": "In the figure, of (a), (b) and (c), which appears more accurate and why?",
+   "figure_required": true,
+   "images": [
+    "59b4563532cfa3f852e863a7c4ba81cad19d441ccbef1d3c14a665e01c978b23.jpg"
+   ],
+   "answer": "Figure (a) is more appropriate because in a plant shoots are negatively geotropic and hence grow upward, and roots are positively geotropic and so grow downwards.",
+   "concept": "Tropism"
+  },
+  {
+   "number": "40",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "Label the parts of a neuron in the figure.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "figure_required": true,
+   "images": [
+    "686653ee32940664441209f9eaffd8228bd74e52aa07d541719ab6f393ab7dd8.jpg"
+   ],
+   "answer": "(a) Dendrite (b) Cell body (c) Axon (d) Nerve ending",
+   "concept": "Neuron Structure and Function"
+  },
+  {
+   "number": "41",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "Match the column I to column II and select the correct answer using the codes given below: <html><body><table><tr><td></td><td>Column I</td><td></td><td>Column II</td></tr><tr><td>A</td><td>Parthenocarpy</td><td>p</td><td>Photoperiodism</td></tr><tr><td>B</td><td>Apical dominance</td><td>q</td><td>Development of seedless fruit</td></tr><tr><td>C</td><td>Extreme cold treatment</td><td>r</td><td>Vernalization</td></tr><tr><td>D</td><td>Response to length of the day</td><td>s</td><td>Auxin</td></tr></table></body></html>",
+   "answer": "A-q, B-s, C-r, D-p",
+   "ocr": "the code-option table (the a/b/c/d answer grid) was destroyed by OCR and could not be recovered, so the item is recorded as a match-the-column question with its printed key rather than as a four-option MCQ. Column II letters p-s were restored from the printed pairing.",
+   "concept": "Plant Hormones (Phytohormones)"
+  },
+  {
+   "number": "42",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "Match the column I to column II and select the correct answer using the codes given below: <html><body><table><tr><td></td><td>Column I</td><td></td><td>Column II</td></tr><tr><td>A</td><td>Auxin</td><td>p</td><td>GA3</td></tr><tr><td>B</td><td>Gibberellin</td><td>q</td><td>IAA</td></tr><tr><td>C</td><td>Cytokinin</td><td>r</td><td>ABA</td></tr><tr><td>D</td><td>Dormin</td><td>s</td><td>Zeatin</td></tr></table></body></html>",
+   "answer": "A-q, B-p, C-s, D-r",
+   "ocr": "as item 41 - the code grid was unrecoverable, so the printed key is kept as the answer",
+   "concept": "Plant Hormones (Phytohormones)"
+  },
+  {
+   "number": "43",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 8,
+   "stem": "Assertion (A): Plants lack the nervous system, but they do coordinate. Reason (R): It is so because of hormones.",
+   "assertion": "Plants lack the nervous system, but they do coordinate.",
+   "reason": "It is so because of hormones.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Plants lack a nervous system but coordinate via hormones.",
+   "concept": "Coordination in Plants"
+  },
+  {
+   "number": "44",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 8,
+   "stem": "Assertion (A): Reflex actions are automatic and rapid responses to stimuli. Reason (R): These actions are controlled by brain.",
+   "assertion": "Reflex actions are automatic and rapid responses to stimuli.",
+   "reason": "These actions are controlled by brain.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Reflex actions are automatic and rapid responses to stimuli, but they are controlled by the spinal cord, not by the brain.",
+   "concept": "Reflex Action",
+   "ocr": "the printed assertion reads 'repid'; kept as the intended 'rapid'"
+  },
+  {
+   "number": "45",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "stem": "Assertion (A): Cytokinins are present in highest concentration in fruits and seeds. Reason (R): Cytokinins are responsible for promoting cell division.",
+   "assertion": "Cytokinins are present in highest concentration in fruits and seeds.",
+   "reason": "Cytokinins are responsible for promoting cell division.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Cytokinins are hormones which promote cell division. The highest concentration of cytokinins occurs in fruits and seeds, i.e. areas of rapid cell division.",
+   "concept": "Plant Hormones (Phytohormones)",
+   "ocr": "printed number lost at the page break; it is item 45 by position between 44 and 46"
+  },
+  {
+   "number": "46",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "stem": "Assertion (A): Abscisic acid is responsible for wilting of leaves. Reason (R): It is a growth inhibitor.",
+   "assertion": "Abscisic acid is responsible for wilting of leaves.",
+   "reason": "It is a growth inhibitor.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Abscisic acid is responsible for wilting of leaves because it is a growth inhibitor.",
+   "concept": "Plant Hormones (Phytohormones)"
+  },
+  {
+   "number": "47",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "stem": "Assertion (A): Plant hormones are growth regulators. Reason (R): Growth regulators promote or inhibit the growth.",
+   "assertion": "Plant hormones are growth regulators.",
+   "reason": "Growth regulators promote or inhibit the growth.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Plant hormones are chemical compounds produced naturally in plants which control growth and other physiological functions at a site far from the place of secretion, and are required in very small amounts. They can promote or inhibit a process, and so are growth regulators.",
+   "concept": "Plant Hormones (Phytohormones)",
+   "ocr": "printed as 'arc growth regulator'; read as 'are growth regulators'"
+  },
+  {
+   "number": "48",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "stem": "Assertion (A): Our body maintains blood sugar level. Reason (R): Pancreas secretes insulin which helps to regulate blood sugar levels in the body.",
+   "assertion": "Our body maintains blood sugar level.",
+   "reason": "Pancreas secretes insulin which helps to regulate blood sugar levels in the body.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The pancreas secretes insulin which regulates blood sugar. If blood sugar rises it is detected by the cells of the pancreas, which respond by producing more insulin; as blood sugar falls, insulin secretion is reduced.",
+   "concept": "Insulin and Blood Sugar"
+  },
+  {
+   "number": "49",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "stem": "Assertion (A): Auxins are in the growing tips of the plant. Reason (R): Auxin concentration is highest at the tip of the root.",
+   "assertion": "Auxins are in the growing tips of the plant.",
+   "reason": "Auxin concentration is highest at the tip of the root.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Auxin is synthesised at the growing tips of the plant - the tip of the coleoptile, buds, and growing tips of leaves and roots. The concentration of auxin at the tip of the root is significantly lower than at the tip of the coleoptile.",
+   "concept": "Plant Hormones (Phytohormones)"
+  },
+  {
+   "number": "50",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "stem": "Assertion (A): Phototropism is caused by auxin. Reason (R): When light is coming from one side of the plant, auxin diffuses towards the shady side of the shoot.",
+   "assertion": "Phototropism is caused by auxin.",
+   "reason": "When light is coming from one side of the plant, auxin diffuses towards the shady side of the shoot.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Auxin promotes phototropism. When light comes from one side of the plant, auxin diffuses towards the shady side of the shoot. This concentration of auxin stimulates the cells to grow longer on the side of the shoot away from light, so the plant appears to bend towards light while growing.",
+   "concept": "Tropism"
+  },
+  {
+   "number": "51",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "stem": "Assertion (A): Abscisic acid is a stress hormone. Reason (R): Stimulation of ABA occurs in adverse conditions.",
+   "assertion": "Abscisic acid is a stress hormone.",
+   "reason": "Stimulation of ABA occurs in adverse conditions.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Abscisic acid is a stress hormone as its production is stimulated by drought, water logging and other adverse (stressful) conditions.",
+   "concept": "Plant Hormones (Phytohormones)"
+  },
+  {
+   "number": "52",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "stem": "Assertion (A): Nerve impulse is a one way conduction. Reason (R): Nerve impulse is transmitted from dendrite to axon terminals.",
+   "assertion": "Nerve impulse is a one way conduction.",
+   "reason": "Nerve impulse is transmitted from dendrite to axon terminals.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Nerve impulses are always transmitted across a synapse from the axon terminals of one neuron to the dendrite or cell body of the next neuron, never in the reverse direction. Since the neurotransmitter is present only in the axon terminals, it cannot be released from the dendrite or cell body even if the impulse reaches there.",
+   "concept": "Nerve Impulse Transmission"
+  },
+  {
+   "number": "53",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "stem": "Assertion (A): Units which make up the nervous system are called neurons. Reason (R): Nerve impulses are carried by dendrites towards the cell body.",
+   "assertion": "Units which make up the nervous system are called neurons.",
+   "reason": "Nerve impulses are carried by dendrites towards the cell body.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Both statements are true. The nervous system receives stimuli and transmits them to other parts of the body through a network of nerves; the units which make it up are nerve cells or neurons. Nerve impulses are transmitted across a synapse from the axon terminals of one neuron to the dendrite or cell body of the next.",
+   "concept": "Nervous System in Animals"
+  },
+  {
+   "number": "54",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 11,
+   "stem": "Assertion (A): Males have more stature than females during puberty. Reason (R): This is because of presence of thyroxin in the blood of females.",
+   "assertion": "Males have more stature than females during puberty.",
+   "reason": "This is because of presence of thyroxin in the blood of females.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Males have greater stature because of the male sex hormone testosterone, secreted by the testes, which controls the development of secondary sexual characters. Thyroxin increases the metabolic rate of the body and maintains BMR.",
+   "concept": "Animal Hormones"
+  },
+  {
+   "number": "55",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "Name the systems in animals which help in the process of control and coordination.",
+   "answer": "(i) Nervous system (ii) Hormonal (endocrine) system.",
+   "concept": "Control and Coordination",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2021"
+  },
+  {
+   "number": "56",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "Write the functional and structural unit of the nervous system.",
+   "answer": "Nerve cell or neuron.",
+   "concept": "Neuron Structure and Function",
+   "section_heading": "ONE MARK QUESTIONS | OD 2017"
+  },
+  {
+   "number": "57",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "Which is the largest cell in the human body?",
+   "answer": "Nerve cell or neuron.",
+   "concept": "Neuron Structure and Function",
+   "section_heading": "ONE MARK QUESTIONS | AI 2014"
+  },
+  {
+   "number": "58",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "What are the main divisions of nervous system?",
+   "answer": "The nervous system is broadly divisible into two parts: (i) Central nervous system (ii) Peripheral nervous system.",
+   "concept": "Nervous System in Animals",
+   "section_heading": "ONE MARK QUESTIONS | SQP 2020"
+  },
+  {
+   "number": "59",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "What do you mean by neuron?",
+   "answer": "A neuron or nerve cell is the structural and functional unit of the nervous system.",
+   "concept": "Neuron Structure and Function",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2011"
+  },
+  {
+   "number": "60",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "What are the various parts of the nervous system?",
+   "answer": "The various parts of the nervous system are the brain, the spinal cord and the nerves.",
+   "concept": "Nervous System in Animals",
+   "section_heading": "ONE MARK QUESTIONS | OD 2019"
+  },
+  {
+   "number": "61",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "What do you understand by response to stimulus?",
+   "answer": "Any change in the environment stimulates an organism to respond. This is known as response to stimulus.",
+   "concept": "Control and Coordination",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2012"
+  },
+  {
+   "number": "62",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "How do amoeba behave in warm water?",
+   "answer": "In warm water, amoeba tend to aggregate together.",
+   "concept": "Control and Coordination",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2018"
+  },
+  {
+   "number": "63",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "Why do amoeba tend to aggregate together in warm water?",
+   "answer": "Amoeba tend to aggregate together in warm water in response to the stimulus of temperature.",
+   "concept": "Control and Coordination",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2013"
+  },
+  {
+   "number": "64",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "Apart from nervous system, there is another system which controls and coordinates various functions of the body. Name it.",
+   "answer": "It is the endocrine or hormonal system which also controls and coordinates various functions of the body.",
+   "concept": "Endocrine System in Animals",
+   "section_heading": "ONE MARK QUESTIONS | AI 2010"
+  },
+  {
+   "number": "65",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "A car driver suddenly applies brakes after finding that a child is crossing the road in front of his speeding car. Which organ system was the first to become operative in this act?",
+   "answer": "Nervous system.",
+   "concept": "Reflex Action",
+   "section_heading": "ONE MARK QUESTIONS | OD 2019"
+  },
+  {
+   "number": "66",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "What is the action done suddenly called?",
+   "answer": "Reflex action.",
+   "concept": "Reflex Action",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2014",
+   "ocr": "printed number lost; it is item 66 by position between 65 and 67"
+  },
+  {
+   "number": "67",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "Reflex actions are performed by a specific part of the nervous system. Name it.",
+   "answer": "Spinal cord.",
+   "concept": "Reflex Action",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2008"
+  },
+  {
+   "number": "68",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "What is the path of reflex actions called?",
+   "answer": "Reflex arc.",
+   "concept": "Reflex Arc",
+   "section_heading": "ONE MARK QUESTIONS | OD 2011"
+  },
+  {
+   "number": "69",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "Name the main controlling part of the nervous system.",
+   "answer": "Brain.",
+   "concept": "Central Nervous System (CNS)",
+   "section_heading": "ONE MARK QUESTIONS | SQP 2009"
+  },
+  {
+   "number": "70",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Name the bony box in which brain is protected.",
+   "answer": "Cranium.",
+   "concept": "Human Brain",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2017"
+  },
+  {
+   "number": "71",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Write down the name of various parts of the brain.",
+   "answer": "(i) Forebrain (ii) Midbrain (iii) Hindbrain.",
+   "concept": "Brain Divisions and Functions",
+   "section_heading": "ONE MARK QUESTIONS | AI 2014"
+  },
+  {
+   "number": "72",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Write the name of the fluid which gives mechanical support to the brain.",
+   "answer": "Cerebrospinal fluid.",
+   "concept": "Human Brain",
+   "section_heading": "ONE MARK QUESTIONS | OD 2019"
+  },
+  {
+   "number": "73",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Which part of the human brain is responsible for adjustment of movement and posture?",
+   "answer": "The cerebellum of the hindbrain is responsible for adjustment of movement and posture.",
+   "concept": "Brain Divisions and Functions",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2006, 15"
+  },
+  {
+   "number": "74",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "We suddenly withdraw our hand when a pin pricks. Name the type of response involved in this action.",
+   "answer": "Reflex action.",
+   "concept": "Reflex Action",
+   "section_heading": "ONE MARK QUESTIONS | AI 2008"
+  },
+  {
+   "number": "75",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Which parts of the human brain are responsible for auditory reception and sensation of smell?",
+   "answer": "The temporal lobe of the forebrain is responsible for auditory reception and the parietal lobe of the forebrain is responsible for the sensation of smell.",
+   "concept": "Brain Divisions and Functions",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2011"
+  },
+  {
+   "number": "76",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Which part of the brain controls respiratory centre?",
+   "answer": "The pons present in the hindbrain controls the respiratory centre.",
+   "concept": "Brain Divisions and Functions",
+   "section_heading": "ONE MARK QUESTIONS | OD 2015"
+  },
+  {
+   "number": "77",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Name the part of hind brain which takes part in regulation of respiration.",
+   "answer": "Pons.",
+   "concept": "Brain Divisions and Functions",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2016"
+  },
+  {
+   "number": "78",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Name the part of the brain which controls the involuntary activities.",
+   "answer": "Medulla oblongata.",
+   "concept": "Brain Divisions and Functions",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2011"
+  },
+  {
+   "number": "79",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Mention the exact part of brain which controls the voluntary movements of muscles.",
+   "answer": "The cerebellum controls the voluntary movements of muscles.",
+   "concept": "Brain Divisions and Functions",
+   "section_heading": "ONE MARK QUESTIONS | SQP 2018"
+  },
+  {
+   "number": "80",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "A person under the influence of alcoholic drink walks clumsily. Which part of his brain is affected to show this condition?",
+   "answer": "Cerebellum.",
+   "concept": "Brain Divisions and Functions",
+   "section_heading": "ONE MARK QUESTIONS | SQP 2020"
+  },
+  {
+   "number": "81",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "You are walking in a dark room. Suddenly, looking at something snake-like lying on the floor, you jumped on one side. What kind of action is this called?",
+   "answer": "This is called a reflex action.",
+   "concept": "Reflex Action",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2015"
+  },
+  {
+   "number": "82",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Write the full form of CSF.",
+   "answer": "The full form of CSF is cerebrospinal fluid.",
+   "concept": "Human Brain",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2013"
+  },
+  {
+   "number": "83",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "What is the full form of EEG?",
+   "answer": "The full form of EEG is electroencephalograph.",
+   "concept": "Human Brain",
+   "section_heading": "ONE MARK QUESTIONS | OD 2011",
+   "ocr": "printed number lost; it is item 83 by position between 82 and 84"
+  },
+  {
+   "number": "84",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Which part of the human brain is responsible for intelligence and memory?",
+   "answer": "The cerebrum of the forebrain is responsible for intelligence and memory.",
+   "concept": "Brain Divisions and Functions",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2016",
+   "ocr": "printed number lost; it is item 84 by position between 83 and 85"
+  },
+  {
+   "number": "85",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Name the stimuli to which plants respond.",
+   "answer": "Plants respond to three stimuli, namely light, touch and gravitational force.",
+   "concept": "Coordination in Plants",
+   "section_heading": "ONE MARK QUESTIONS | SQP 2012"
+  },
+  {
+   "number": "86",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "How do control and coordination take place in plants?",
+   "answer": "In plants, control and coordination take place with the help of plant hormones called phytohormones.",
+   "concept": "Coordination in Plants",
+   "section_heading": "ONE MARK QUESTIONS | AI 2015"
+  },
+  {
+   "number": "87",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "List various phytohormones.",
+   "answer": "Some of the phytohormones are auxins, gibberellins, cytokinins, abscisic acid (ABA) and ethylene.",
+   "concept": "Plant Hormones (Phytohormones)",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2017"
+  },
+  {
+   "number": "88",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the substances which are involved in the control and coordination between environment and plant responses.",
+   "answer": "Phytohormones and phytochromes are involved in the control and coordination between environment and plant responses.",
+   "concept": "Coordination in Plants",
+   "section_heading": "ONE MARK QUESTIONS | SQP 2020"
+  },
+  {
+   "number": "89",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "In plants, nastic movement and breaking of dormancy are controlled by which of the following - phytohormone or phytochrome?",
+   "answer": "Nastic movement and breaking of dormancy are controlled by phytohormone.",
+   "concept": "Plant Movements",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2014, 10"
+  },
+  {
+   "number": "90",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "State the main function of abscisic acid in plants.",
+   "answer": "It inhibits germination of seeds.",
+   "concept": "Plant Hormones (Phytohormones)",
+   "section_heading": "ONE MARK QUESTIONS | AI 2010"
+  },
+  {
+   "number": "91",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the plant hormone responsible for the promotion of cell division.",
+   "answer": "Cytokinin.",
+   "concept": "Plant Hormones (Phytohormones)",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2017"
+  },
+  {
+   "number": "92",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "What do we call the movement of shoot towards light?",
+   "answer": "Phototropism.",
+   "concept": "Tropism",
+   "section_heading": "ONE MARK QUESTIONS | SQP 2010"
+  },
+  {
+   "number": "93",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the plant hormone responsible for elongation of cells.",
+   "answer": "Auxin.",
+   "concept": "Plant Hormones (Phytohormones)",
+   "section_heading": "ONE MARK QUESTIONS | OD 2013"
+  },
+  {
+   "number": "94",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the substances which are responsible for chemical coordination in animals.",
+   "answer": "Hormones.",
+   "concept": "Animal Hormones",
+   "section_heading": "ONE MARK QUESTIONS | AI 2016"
+  },
+  {
+   "number": "95",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the chemicals which transmit the information in animals.",
+   "answer": "Hormones.",
+   "concept": "Animal Hormones",
+   "section_heading": "ONE MARK QUESTIONS | SQP 2020"
+  },
+  {
+   "number": "96",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the glands which secrete these chemicals.",
+   "answer": "Endocrine glands.",
+   "concept": "Endocrine System in Animals",
+   "section_heading": "ONE MARK QUESTIONS | OD 2013"
+  },
+  {
+   "number": "97",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the scientists who gave the term hormone.",
+   "answer": "The term hormone was given by Bayliss and Starling.",
+   "concept": "Animal Hormones",
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2009"
+  },
+  {
+   "number": "98",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "The coordination and control of all the hormone-producing glands is lost in a person. Which gland in such an individual may have become non-functional?",
+   "answer": "Pituitary gland.",
+   "concept": "Endocrine System in Animals",
+   "section_heading": "ONE MARK QUESTIONS | Comp 2021"
+  },
+  {
+   "number": "99",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the hormone which acts opposite to glucagon.",
+   "answer": "Insulin.",
+   "concept": "Insulin and Blood Sugar",
+   "section_heading": "ONE MARK QUESTIONS | OD 2012"
+  },
+  {
+   "number": "100",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the endocrine glands which produce gametes.",
+   "answer": "The testes and ovary produce gametes.",
+   "concept": "Endocrine System in Animals",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2015"
+  },
+  {
+   "number": "101",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "If you find a large swelling in the neck projecting outward, which category of secretions do you think is being produced in shortage?",
+   "answer": "Thyroxin hormone. Its shortage causes simple goitre.",
+   "concept": "Animal Hormones",
+   "section_heading": "ONE MARK QUESTIONS | OD 2011"
+  },
+  {
+   "number": "102",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the hormone secreted by parathyroid glands and give its one function.",
+   "answer": "The parathyroid secretes calcitonin or parathormone, which regulates blood calcium and phosphate.",
+   "concept": "Animal Hormones",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2016"
+  },
+  {
+   "number": "103",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Which hormone helps in lowering the level of blood glucose in human beings?",
+   "answer": "Insulin helps in lowering the level of blood glucose in human beings.",
+   "concept": "Insulin and Blood Sugar",
+   "section_heading": "ONE MARK QUESTIONS | OD 2006",
+   "ocr": "printed number lost; it is item 103 by position between 102 and 104"
+  },
+  {
+   "number": "104",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Which hormone is responsible for the development of moustache and beard in man?",
+   "answer": "Testosterone is responsible for the development of moustache and beard in man.",
+   "concept": "Animal Hormones",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2011"
+  },
+  {
+   "number": "105",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Name the disease caused due to failure of insulin secretion.",
+   "answer": "Diabetes mellitus is caused due to failure of insulin secretion.",
+   "concept": "Insulin and Blood Sugar",
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2008"
+  },
+  {
+   "number": "167",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "What is tropism? Describe the types of tropism. Mention two differences between tropism and nastic movement.",
+   "answer": "Tropism is a change in the direction of a part of a plant in response to a stimulus. Types of tropism: geotropism, phototropism, hydrotropism and chemotropism. Differences - (i) tropism is a slow response to a stimulus while nastic movement is an immediate response; (ii) tropism is directional while nastic movement is non-directional.",
+   "concept": "Tropism",
+   "section_heading": "Foreign 2010"
+  },
+  {
+   "number": "168",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "Why are endocrine glands also called ductless glands?",
+   "answer": "Endocrine glands are called ductless glands because they do not have ducts; they pour their secretions directly into the blood, which carries these hormones to their target organs.",
+   "concept": "Endocrine System in Animals",
+   "section_heading": "SQP 2020"
+  },
+  {
+   "number": "169",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "List the characteristics of hormones.",
+   "answer": "(i) They are secreted by an endocrine gland. (ii) They are specific chemical regulators. (iii) They are poured directly into the blood and circulated through it. (iv) They act on a specific tissue or organ called the target organ. (v) Their excess or deficiency may lead to serious consequences.",
+   "concept": "Animal Hormones",
+   "section_heading": "Delhi 2012"
+  },
+  {
+   "number": "170",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "Name the endocrine glands found in the human body.",
+   "answer": "(i) Hypothalamus (ii) Pituitary (iii) Pineal (iv) Thyroid (v) Parathyroid (vi) Pancreas (vii) Adrenal (viii) Testis (ix) Ovary.",
+   "concept": "Endocrine System in Animals",
+   "section_heading": "OD 2014"
+  },
+  {
+   "number": "171",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "Why is the pituitary gland also called the master gland?",
+   "answer": "The pituitary gland is called the master gland because it controls and coordinates the secretion of all the other endocrine glands.",
+   "concept": "Endocrine System in Animals",
+   "section_heading": "AI 2011"
+  },
+  {
+   "number": "172",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "State the main function of the pituitary gland. Write the effect of (i) excessive and (ii) sluggish activity of this gland on the growth of a child.",
+   "answer": "The main function of the pituitary gland is to control the other endocrine glands and the development of bones and muscles. (i) Excessive activity leads to gigantism. (ii) Sluggish activity leads to dwarfism.",
+   "concept": "Animal Hormones",
+   "section_heading": "Foreign 2006"
+  },
+  {
+   "number": "173",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "How does the feedback mechanism regulate hormone secretion? Cite an example to explain the feedback mechanism for regulation of hormonal secretion.",
+   "answer": "The feedback mechanism regulates the timing and amount of hormone secreted. For example, if a person has more sugar in the blood this is detected by the cells of the pancreas, and more insulin is secreted to oxidise the sugar. In the reverse situation, the secretion of insulin is reduced.",
+   "concept": "Feedback Mechanisms",
+   "section_heading": "OD 2013"
+  },
+  {
+   "number": "174",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "Name a hormone secreted by (a) Pancreas, (b) Pituitary, (c) Thyroid. Write one function of each of the hormones. <html><body><table><tr><td></td><td>Name of the gland</td><td>Name of the hormone</td><td>Function</td></tr><tr><td>(a)</td><td>Pancreas</td><td>Insulin</td><td>It controls blood sugar level.</td></tr><tr><td>(b)</td><td>Pituitary</td><td>Growth hormone</td><td>It regulates growth and development of the body.</td></tr><tr><td>(c)</td><td>Thyroid</td><td>Thyroxine</td><td>It regulates metabolism of carbohydrates, proteins and fats.</td></tr></table></body></html>",
+   "answer": "(a) Pancreas - insulin, which controls blood sugar level. (b) Pituitary - growth hormone, which regulates growth and development of the body. (c) Thyroid - thyroxine, which regulates the metabolism of carbohydrates, proteins and fats.",
+   "concept": "Animal Hormones",
+   "section_heading": "Delhi 2010"
+  }
+ ]
+}

@@ -35,6 +35,12 @@ class Settings(BaseSettings):
     # e.g. https://.*\.vercel\.app
     cors_origin_regex: str = ""
 
+    # MariaDB socket timeouts, in seconds. read_timeout is the important one:
+    # without it a server that goes quiet mid-query blocks until the OS gives
+    # up, which on Windows is two hours.
+    mariadb_connect_timeout: int = 15
+    mariadb_read_timeout: int = 60
+
     # Paths
     temp_dir: str = "./tmp/ncert"
     output_dir: str = "./output"

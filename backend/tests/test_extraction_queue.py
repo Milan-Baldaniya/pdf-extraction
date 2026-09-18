@@ -312,6 +312,46 @@ def test_heartbeat_reports_progress(failures: list[str]) -> None:
         _expect(failures, "last finished recorded", bool(published.get("last_finished")), True)
 
 
+def test_failure_payload_is_valid_json(failures: list[str]) -> None:
+    """The error recorded against a failed chapter must be storable.
+
+    document_extractions.extraction_metadata is a MariaDB JSON column: SHOW
+    COLUMNS calls it longtext, but it carries CHECK (json_valid(...)). An
+    earlier version built the payload by interpolating Python's repr(), which
+    emits single quotes, so MariaDB rejected every UPDATE and the exception was
+    swallowed -- seven chapters sat at 'extracting' with no recorded reason and
+    nothing to debug a failed night from.
+
+    The messages below are the shapes that actually break it: MinerU quotes the
+    failing command, and its stderr is multi-line.
+    """
+    import json
+
+    messages = [
+        'MinerU CPU extraction failed: cmd "magic-pdf -p x.pdf" returned 1',
+        'traceback:\n  File "a.py", line 1\n    raise\nMemoryError',
+        "unicode: Light \u2013 Reflection and Refraction \u2018quoted\u2019",
+        "backslashes: C:\\Users\\MILAN\\output\\input.pdf",
+        "",
+    ]
+    for message in messages:
+        payload = json.dumps({"error": message[:2000]}, ensure_ascii=False, default=str)
+        try:
+            back = json.loads(payload)
+        except Exception as exc:
+            failures.append(f"payload not valid JSON for {message[:30]!r}: {exc}")
+            continue
+        _expect(failures, f"round-trips {message[:22]!r}", back["error"], message[:2000])
+
+    # The specific construction that was broken, kept as the thing not to do.
+    bad = f'{{"error": {messages[0][:400]!r}}}'
+    try:
+        json.loads(bad)
+        failures.append("repr()-built payload parsed as JSON; the bug is not reproducible")
+    except Exception:
+        pass  # correct: repr() single quotes are not JSON
+
+
 def test_resume_from_ledger(failures: list[str]) -> None:
     """A run killed mid-chapter resumes without redoing finished work."""
     rows = _rows("Science", 3)
@@ -376,6 +416,7 @@ def main() -> int:
         test_stop_time_halts_new_work,
         test_stop_flag_finishes_the_chapter_in_flight,
         test_heartbeat_reports_progress,
+        test_failure_payload_is_valid_json,
         test_resume_from_ledger,
         test_selection_filters,
     )

@@ -43,6 +43,7 @@ import argparse
 import asyncio
 import contextlib
 import ctypes
+import json
 import logging
 import os
 import shutil
@@ -299,9 +300,17 @@ def _mark_failed(extraction_id: int | None, error: str) -> None:
     Mirrors routes._mark_extraction_failed, which is private to that module.
     Without it the stub keeps the 'extracting' stamped at job start, and the
     chapter queue in the UI offers a dead row to an operator as ready.
+
+    extraction_metadata is a MariaDB JSON column -- reported by SHOW COLUMNS as
+    longtext, but carrying CHECK (json_valid(...)). It must therefore be built
+    with json.dumps: an earlier version interpolated Python's repr(), which
+    emits single quotes, so every UPDATE was rejected by the constraint and
+    swallowed here. Seven chapters sat at 'extracting' with no error recorded
+    and nothing to debug from.
     """
     if extraction_id is None:
         return
+    payload = json.dumps({"error": error[:2000]}, ensure_ascii=False, default=str)
     try:
         with SessionLocal() as db:
             db.execute(
@@ -309,40 +318,63 @@ def _mark_failed(extraction_id: int | None, error: str) -> None:
                     "UPDATE document_extractions SET extraction_status = 'failed', "
                     "extraction_metadata = :m WHERE id = :i"
                 ),
-                {"i": extraction_id, "m": f'{{"error": {error[:400]!r}}}'},
+                {"i": extraction_id, "m": payload},
             )
             db.commit()
     except Exception:
-        logger.debug("Could not mark extraction %s failed", extraction_id, exc_info=True)
+        # Warning, not debug. This is the only record of WHY a chapter failed;
+        # losing it quietly is how a night becomes unexplainable.
+        logger.warning(
+            "Could not record the failure of extraction %s in the database",
+            extraction_id,
+            exc_info=True,
+        )
 
 
-async def _db_call(func, *args, attempts: int = 3, **kwargs):
+async def _db_call(func, *args, attempts: int = 3, retry_on_none: bool = False, **kwargs):
     """Run a blocking database call off the loop, retrying a dropped connection.
 
     The MariaDB server is remote. A momentary network blip is not a reason to
     lose a chapter that took forty minutes of CPU to produce.
+
+    `retry_on_none` exists because create_extraction_stub catches its own
+    database errors, logs them, and returns None. A caller that only retried on
+    exceptions therefore never retried it at all -- one flaky commit and the
+    chapter was abandoned, which is exactly what happened three times in one
+    night. None from those functions means "failed", so it has to be retried
+    like any other failure.
     """
     delay = 5.0
     last: Exception | None = None
     for attempt in range(1, attempts + 1):
         try:
-            return await asyncio.to_thread(func, *args, **kwargs)
+            result = await asyncio.to_thread(func, *args, **kwargs)
+            if not (retry_on_none and result is None):
+                return result
+            reason = "returned None (the database write failed)"
         except ChapterNotFoundError:
             raise
         except Exception as exc:
             last = exc
-            if attempt == attempts:
-                break
-            logger.warning(
-                "   database call failed (%s/%s): %s -- retrying in %.0fs",
-                attempt,
-                attempts,
-                str(exc)[:120],
-                delay,
-            )
-            await asyncio.sleep(delay)
-            delay *= 2
-    raise last if last else RuntimeError("database call failed")
+            reason = str(exc)[:120]
+
+        if attempt == attempts:
+            break
+        logger.warning(
+            "   database call failed (%s/%s): %s -- retrying in %.0fs",
+            attempt,
+            attempts,
+            reason,
+            delay,
+        )
+        await asyncio.sleep(delay)
+        delay *= 2
+
+    if last is not None:
+        raise last
+    if retry_on_none:
+        return None
+    raise RuntimeError("database call failed")
 
 
 # --------------------------------------------------------------------------
@@ -548,7 +580,11 @@ class QueueRunner:
                 sub_institute_id=tenant,
             )
             extraction_id = await _db_call(
-                create_extraction_stub, pdf_url=row.pdf_url, content_sha256=digest, **meta
+                create_extraction_stub,
+                pdf_url=row.pdf_url,
+                content_sha256=digest,
+                retry_on_none=True,
+                **meta,
             )
             if extraction_id is None:
                 # create_extraction_stub swallows non-ChapterNotFoundError
@@ -926,6 +962,11 @@ def parse_args() -> argparse.Namespace:
         help="seconds before one chapter is abandoned",
     )
     parser.add_argument(
+        "--no-formula",
+        action="store_true",
+        help="skip formula detection/recognition -- much faster on books with no maths",
+    )
+    parser.add_argument(
         "--download-attempts",
         type=int,
         default=4,
@@ -1046,6 +1087,15 @@ async def main_async(args: argparse.Namespace, run_id: str) -> int:
         counts={},
         current=[],
     )
+
+    # MinerU says it plainly in its own startup line: "MFD + MFR now run on CPU
+    # in fp32 and will dominate extraction time". On a Social Science, English,
+    # Hindi or PE book there is not one formula to find, so that dominant cost
+    # buys nothing. Overridden here rather than in .env so the choice belongs to
+    # the run -- a Maths or Science sheet still wants it on.
+    if args.no_formula:
+        settings.mineru_formula = False
+        logger.info("Formula parsing OFF for this run (nothing to find in these books)")
 
     runner = QueueRunner(args, ledger, writer, state)
     if runner.deadline:

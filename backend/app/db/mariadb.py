@@ -132,7 +132,20 @@ def init_mariadb() -> bool:
             # hands out connections the server has already dropped.
             pool_recycle=1800,
             pool_pre_ping=True,
-            connect_args={"connect_timeout": 15},
+            connect_args={
+                "connect_timeout": settings.mariadb_connect_timeout,
+                # connect_timeout covers ONLY the initial TCP handshake. Once a
+                # socket is established, a server that stops answering leaves
+                # recv() blocking until Windows gives up on its retransmissions
+                # -- measured at exactly two hours. An overnight run lost three
+                # chapters that way in one night, each burning 7200 seconds
+                # inside a single commit() before reporting failure.
+                #
+                # With these, a dead connection fails in seconds and the
+                # caller's retry loop can actually do its job.
+                "read_timeout": settings.mariadb_read_timeout,
+                "write_timeout": settings.mariadb_read_timeout,
+            },
         )
         with _engine.connect() as connection:
             connection.execute(text("SELECT 1"))

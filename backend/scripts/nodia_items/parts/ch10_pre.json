@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "number": "3",
+      "form": "mcq",
+      "marks": 1,
+      "page": 1,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "In human eye the part which allows light to enter into the eye is:",
+      "options": [
+        {"label": "A", "text": "Retina"},
+        {"label": "B", "text": "Pupil"},
+        {"label": "C", "text": "Eye lens"},
+        {"label": "D", "text": "Cornea"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) Pupil. The iris is the ring of pigmented tissue surrounding the pupil that varies in colour from person to person; it contracts and dilates to control the amount of light entering the eye through the pupil. The pupil is the opening in the centre of the iris where light enters the eye. Thus option (b) is the correct option.",
+      "concept": "Human Eye Structure",
+      "ocr": "Printed on a mis-ordered page 1 that MinerU placed ahead of the chapter's OBJECTIVE QUESTIONS heading; the question is an objective MCQ of that section. Text otherwise clean."
+    },
+    {
+      "number": "4",
+      "form": "mcq",
+      "marks": 1,
+      "page": 1,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "A person cannot see distinctly objects kept beyond 2 m. This defect can be corrected by using a lens of power",
+      "options": [
+        {"label": "A", "text": "+0.5 D"},
+        {"label": "B", "text": "-0.5 D"},
+        {"label": "C", "text": "+0.2 D"},
+        {"label": "D", "text": "-0.2 D"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) -0.5 D. The person's far point is 2 m, so the corrective concave lens must form the image of a distant object at 2 m in front of the eye: f = -2 m, hence P = 1/f = 1/(-2) = -0.5 D.",
+      "concept": "Myopia (Nearsightedness)",
+      "ocr": "Printed question number was lost by OCR; inferred as 4 from its position between Q3 and Q5. MinerU also dropped the decimal digits of three option powers - it printed '(a) +0.5 D (b) -0 D (c) +0 D (d) -0 D' and the key as 'Ans : (b) -0 D'. Option (b) restored to -0.5 D, which the physics fixes (f = -2 m -> P = -0.5 D); options (c) and (d) restored to +0.2 D / -0.2 D from the standard printed set and are the only uncertain part of this item. Option (a) survived intact."
+    },
+    {
+      "number": "5",
+      "form": "mcq",
+      "marks": 1,
+      "page": 1,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "A student sitting on the last bench can read the letters written on the blackboard but is not able to read the letters written in his text book. Which of the following statements is correct?",
+      "options": [
+        {"label": "A", "text": "The near point of his eyes has receded away"},
+        {"label": "B", "text": "The near point of his eyes has come closer to him"},
+        {"label": "C", "text": "The far point of his eyes has come closer to him"},
+        {"label": "D", "text": "The far point of his eyes has receded away"}
+      ],
+      "correct_option": "A",
+      "answer": "(a) The near point of his eyes has receded away. He can see the distant blackboard clearly, so his far point is unaffected, but he cannot read the nearby text book, which means his near point has shifted beyond the least distance of distinct vision (25 cm) - the defect of hypermetropia.",
+      "concept": "Hypermetropia (Farsightedness)",
+      "ocr": "Printed answer gave the key and option text only ('Ans (a) The near point of his eyes has receded away.'); the reasoning sentence is supplied from the option itself, no worked solution was printed."
+    },
+    {
+      "number": "6",
+      "form": "mcq",
+      "marks": 1,
+      "page": 1,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "A prism ABC (with BC as base) is placed in different orientations. A narrow beam of white light is incident on the prism as shown in Figure. In which of the following cases, after dispersion, the third colour from the top corresponds to the colour of the sky?",
+      "options": [
+        {"label": "A", "text": "(i)"},
+        {"label": "B", "text": "(ii)"},
+        {"label": "C", "text": "(iii)"},
+        {"label": "D", "text": "(iv)"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) (ii). The colour of the sky is blue, and blue is the third colour of the spectrum counted from the violet end (violet, indigo, blue). Only in orientation (ii) does the dispersed band emerge so that blue is the third colour from the top.",
+      "concept": "Dispersion of Light",
+      "images": ["49fd623fc84620f1727bf72c9bf9f8f12e7c167adb62a23b46edf7d1a8e16956.jpg"],
+      "figure_required": true,
+      "ocr": "Figure of the four prism orientations (i)-(iv) sits between the stem and the option list and is required to answer; attached. Printed answer gave only the key 'Ans : (b) (ii)' with no worked solution - the explanation is supplied."
+    },
+    {
+      "number": "7",
+      "form": "mcq",
+      "marks": 1,
+      "page": 1,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Which of the following phenomena of light are involved in the formation of a rainbow?",
+      "options": [
+        {"label": "A", "text": "Reflection, refraction and dispersion"},
+        {"label": "B", "text": "Refraction, dispersion and total internal reflection"},
+        {"label": "C", "text": "Refraction, dispersion and internal reflection"},
+        {"label": "D", "text": "Dispersion, scattering and total internal reflection"}
+      ],
+      "correct_option": "C",
+      "answer": "(c) Refraction, dispersion and internal reflection. Sunlight entering a tiny water droplet is refracted and dispersed, is reflected internally at the rear surface of the droplet, and is refracted again as it leaves, producing the coloured arc of the rainbow.",
+      "concept": "Rainbow Formation",
+      "ocr": "Stem and all four options print at the foot of page 1; the printed key 'Ans : (c) Refraction, dispersion and internal reflection' is not lost - it prints at the very top of page 6, immediately before Q8, because MinerU scrambled the page order. Recombined across that break. FLAG FOR REVIEW: options (b) and (c) differ only by the word 'total', and the usual key for this NCERT-exemplar item is (b) 'total internal reflection'. The printed key (c) is kept because no worked solution is printed to contradict it, and the chapter's own revision notes say a rainbow forms 'because of dispersion of light and the internal reflection caused by tiny water droplets'."
+    }
+  ]
+}

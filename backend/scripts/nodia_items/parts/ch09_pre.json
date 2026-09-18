@@ -1,0 +1,719 @@
+{
+  "items": [
+    {
+      "number": "6",
+      "form": "mcq",
+      "marks": 1,
+      "page": 7,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "A 10 mm long alpin is placed vertically in front of a concave mirror. A 5 mm long image of the alpin is formed at 30 cm in front of the mirror. The focal length of this mirror is",
+      "options": [
+        {"label": "A", "text": "-30 cm"},
+        {"label": "B", "text": "-20 cm"},
+        {"label": "C", "text": "-40 cm"},
+        {"label": "D", "text": "-60 cm"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) -20 cm. Magnification m = h'/h = 5/10 = 1/2, and the image is real (formed in front of the mirror), so m = -1/2 = -v/u with v = -30 cm, giving u = -60 cm. From the mirror formula 1/v + 1/u = 1/f: 1/(-30) + 1/(-60) = -3/60 = -1/20, so f = -20 cm.",
+      "concept": "Mirror Formula",
+      "ocr": "Printed question number was lost at the page/column break (the preceding text is only the stray 'Ans : (a)' of the previous item); number 6 inferred from position, since the next printed item is 7."
+    },
+    {
+      "number": "7",
+      "form": "mcq",
+      "marks": 1,
+      "page": 7,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "A light ray enters from medium A to medium B as shown in Figure. The refractive index of medium B relative to A will be",
+      "options": [
+        {"label": "A", "text": "greater than unity"},
+        {"label": "B", "text": "less than unity"},
+        {"label": "C", "text": "equal to unity"},
+        {"label": "D", "text": "zero"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) less than unity. The ray bends away from the normal on entering B, so B is optically rarer than A and n(BA) < 1.",
+      "concept": "Refractive Index",
+      "images": ["b1a8935b322e7a8a586b756684488769e3298dededca8a8a733350e27d603fb7.jpg"],
+      "figure_required": true,
+      "ocr": "Option label '(c)' was dropped by OCR - the text printed as bare 'equal to unity' between (b) and (d); label C restored from position."
+    },
+    {
+      "number": "8",
+      "form": "mcq",
+      "marks": 1,
+      "page": 7,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Beams of light are incident through the holes A and B and emerge out of box through the holes C and D respectively as shown in Figure. Which of the following could be inside the box?",
+      "options": [
+        {"label": "A", "text": "A rectangular glass slab"},
+        {"label": "B", "text": "A convex lens"},
+        {"label": "C", "text": "A concave lens"},
+        {"label": "D", "text": "A prism"}
+      ],
+      "correct_option": "A",
+      "answer": "(a) A rectangular glass slab. The emergent beams stay parallel to the incident beams (only laterally displaced), which is the behaviour of a rectangular glass slab.",
+      "concept": "Refraction of Light",
+      "images": ["afe68f67614c691cc76d85bb63fb79794abbd9063fa0e3901e63c10bc94da448.jpg"],
+      "figure_required": true
+    },
+    {
+      "number": "9",
+      "form": "mcq",
+      "marks": 1,
+      "page": 7,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "A beam of light is incident through the holes on side A and emerges out of the holes on the other face of the box as shown in Figure. Which of the following could be inside the box?",
+      "options": [
+        {"label": "A", "text": "Concave lens"},
+        {"label": "B", "text": "Rectangular glass slab"},
+        {"label": "C", "text": "Prism"},
+        {"label": "D", "text": "Convex lens"}
+      ],
+      "correct_option": "D",
+      "answer": "(d) Convex lens. The parallel beam entering side A converges on emerging, which only a converging (convex) lens can do.",
+      "concept": "Spherical Lenses",
+      "images": ["789e9acb4eedfca6af9c9e509935a57b53f182dc4d97ce86c1aff49fdf181dac.jpg"],
+      "figure_required": true,
+      "ocr": "Printed question number lost at the column break; 9 inferred from position between printed 8 and printed 10."
+    },
+    {
+      "number": "10",
+      "form": "mcq",
+      "marks": 1,
+      "page": 7,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Which of the following statements is true?",
+      "options": [
+        {"label": "A", "text": "A convex lens has 4 dioptre power having a focal length 0.25 m"},
+        {"label": "B", "text": "A convex lens has -4 dioptre power having a focal length 0.25 m"},
+        {"label": "C", "text": "A concave lens has 4 dioptre power having a focal length 0.25 m"},
+        {"label": "D", "text": "A concave lens has -4 dioptre power having a focal length 0.25 m"}
+      ],
+      "correct_option": "A",
+      "answer": "(a) A convex lens has 4 dioptre power having a focal length 0.25 m. P = 1/f(in m) = 1/0.25 = +4 D, and a positive power/positive focal length belongs to a convex lens.",
+      "concept": "Power of a Lens",
+      "ocr": "Units mangled by OCR: option (a) printed 'focal length 0.25 in' and option (d) 'focal length 0.25 n' - both restored to 'm'. The printed answer line read '0.2 m'; restored to 0.25 m since P = 4 D gives f = 1/4 = 0.25 m and the key letter (a) is unchanged."
+    },
+    {
+      "number": "11",
+      "form": "mcq",
+      "marks": 1,
+      "page": 7,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Magnification produced by a rear view mirror fitted in vehicles",
+      "options": [
+        {"label": "A", "text": "is less than one"},
+        {"label": "B", "text": "is more than one"},
+        {"label": "C", "text": "is equal to one"},
+        {"label": "D", "text": "can be more than or less than one depending upon the position of the object in front of it"}
+      ],
+      "correct_option": "A",
+      "answer": "(a) is less than one. A rear view mirror is convex and always forms a diminished, virtual, erect image, so m < 1.",
+      "concept": "Magnification by Mirrors"
+    },
+    {
+      "number": "12",
+      "form": "mcq",
+      "marks": 1,
+      "page": 12,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Rays from Sun converge at a point 15 cm in front of a concave mirror. Where should an object be placed so that size of its image is equal to the size of the object?",
+      "options": [
+        {"label": "A", "text": "15 cm in front of the mirror"},
+        {"label": "B", "text": "30 cm in front of the mirror"},
+        {"label": "C", "text": "between 15 cm and 30 cm in front of the mirror"},
+        {"label": "D", "text": "more than 30 cm in front of the mirror"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) 30 cm in front of the mirror. Sun's rays converge at the focus, so f = 15 cm and R = 2f = 30 cm. An object placed at the centre of curvature (30 cm) gives an image of the same size as the object.",
+      "concept": "Image Formation by Concave Mirror"
+    },
+    {
+      "number": "13",
+      "form": "mcq",
+      "marks": 1,
+      "page": 12,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "A full length image of a distant tall building can definitely be seen by using",
+      "options": [
+        {"label": "A", "text": "a concave mirror"},
+        {"label": "B", "text": "a convex mirror"},
+        {"label": "C", "text": "a plane mirror"},
+        {"label": "D", "text": "both concave as well as plane mirror"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) a convex mirror. A convex mirror always forms a highly diminished, virtual, erect image and has a very wide field of view, so the full length of a tall building can be seen in it.",
+      "concept": "Image Formation by Convex Mirror"
+    },
+    {
+      "number": "14",
+      "form": "mcq",
+      "marks": 1,
+      "page": 12,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "In torches, search lights and headlights of vehicles the bulb is placed",
+      "options": [
+        {"label": "A", "text": "between the pole and the focus of the reflector"},
+        {"label": "B", "text": "very near to the focus of the reflector"},
+        {"label": "C", "text": "between the focus and centre of curvature of the reflector"},
+        {"label": "D", "text": "at the centre of curvature of the reflector"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) very near to the focus of the reflector. A source at the focus of a concave reflector sends out a powerful parallel beam of light after reflection.",
+      "concept": "Image Formation by Concave Mirror"
+    },
+    {
+      "number": "15",
+      "form": "mcq",
+      "marks": 1,
+      "page": 12,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "In which of the following, the image of an object placed at infinity will be highly diminished and point sized?",
+      "options": [
+        {"label": "A", "text": "Concave mirror only"},
+        {"label": "B", "text": "Convex mirror only"},
+        {"label": "C", "text": "Convex lens only"},
+        {"label": "D", "text": "Concave mirror, convex mirror, concave lens and convex lens"}
+      ],
+      "correct_option": "D",
+      "answer": "(d) Concave mirror, convex mirror, concave lens and convex lens. For an object at infinity all four form a highly diminished, point-sized image at the focus.",
+      "concept": "Spherical Mirrors"
+    },
+    {
+      "number": "16",
+      "form": "mcq",
+      "marks": 1,
+      "page": 12,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "The laws of reflection hold good for",
+      "options": [
+        {"label": "A", "text": "plane mirror only"},
+        {"label": "B", "text": "concave mirror only"},
+        {"label": "C", "text": "convex mirror only"},
+        {"label": "D", "text": "all mirrors irrespective of their shape"}
+      ],
+      "correct_option": "D",
+      "answer": "(d) all mirrors irrespective of their shape. The laws of reflection are obeyed at every reflecting surface, plane or spherical.",
+      "concept": "Laws of Reflection"
+    },
+    {
+      "number": "17",
+      "form": "mcq",
+      "marks": 1,
+      "page": 12,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "The path of a ray of light coming from air passing through a rectangular glass slab traced by four students as A, B, C and D in Figure. Which one of them is correct?",
+      "options": [
+        {"label": "A", "text": "A"},
+        {"label": "B", "text": "B"},
+        {"label": "C", "text": "C"},
+        {"label": "D", "text": "D"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) B. On entering the denser glass slab the ray bends towards the normal and on leaving it bends away from the normal, so the emergent ray is parallel to the incident ray but laterally displaced - only tracing B shows this.",
+      "concept": "Refraction of Light",
+      "images": ["190db5b4df4c85debb7d5b184666a2f5d829ea33ecfcfba6a9632430bce1e148.jpg"],
+      "figure_required": true,
+      "ocr": "Printed question number lost at the column break (inferred 17, between printed 16 and printed 18). Option label '(c)' was dropped - printed as bare 'C (d) D'; label C restored."
+    },
+    {
+      "number": "18",
+      "form": "mcq",
+      "marks": 1,
+      "page": 12,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "You are given water, mustard oil, glycerine and kerosene. In which of these media a ray of light incident obliquely at same angle would bend the most?",
+      "options": [
+        {"label": "A", "text": "Kerosene"},
+        {"label": "B", "text": "Water"},
+        {"label": "C", "text": "Mustard oil"},
+        {"label": "D", "text": "Glycerine"}
+      ],
+      "correct_option": "D",
+      "answer": "(d) Glycerine. Glycerine has the highest refractive index (is optically densest) among the four, so light entering it bends the most.",
+      "concept": "Optical Density",
+      "ocr": "Two-column read order is scrambled: the answer line 'Ans : (d) Glycerine' is printed at the top of page 9, detached from the question on page 12; matched back by content."
+    },
+    {
+      "number": "19",
+      "form": "mcq",
+      "marks": 1,
+      "page": 9,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Which of the following ray diagrams is correct for the ray of light incident on a concave mirror as shown in Figure?",
+      "options": [
+        {"label": "A", "text": "Fig. A"},
+        {"label": "B", "text": "Fig. B"},
+        {"label": "C", "text": "Fig. C"},
+        {"label": "D", "text": "Fig. D"}
+      ],
+      "correct_option": "D",
+      "answer": "(d) Fig. D. A ray directed towards the principal focus of a concave mirror is reflected parallel to the principal axis, which only Fig. D shows correctly.",
+      "concept": "Image Formation by Concave Mirror",
+      "images": ["3d886e3c423273be166d623794faaf50dc7ade4352656dc467f59d99f05cca1b.jpg"],
+      "figure_required": true
+    },
+    {
+      "number": "20",
+      "form": "mcq",
+      "marks": 1,
+      "page": 9,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Which of the following ray diagrams is correct for the ray of light incident on a lens shown in Figure?",
+      "options": [
+        {"label": "A", "text": "Fig. A"},
+        {"label": "B", "text": "Fig. B"},
+        {"label": "C", "text": "Fig. C"},
+        {"label": "D", "text": "Fig. D"}
+      ],
+      "correct_option": "A",
+      "answer": "(a) Fig. A. Only Fig. A draws the refracted ray in accordance with the standard rules for a ray incident on the lens shown.",
+      "concept": "Spherical Lenses",
+      "images": ["81c53b930da7fcf9c2fa0b34ec8a43459b8b55a3cd8c509fef0ffc1a6473f5c4.jpg"],
+      "figure_required": true
+    },
+    {
+      "number": "21",
+      "form": "mcq",
+      "marks": 1,
+      "page": 10,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "A child is standing in front of magic mirror. She finds the image of her head bigger, the middle portion of her body of the same size and that of the legs smaller. The following is the order of combinations for the magic mirror from the top.",
+      "options": [
+        {"label": "A", "text": "Plane, convex and concave"},
+        {"label": "B", "text": "Convex, concave and plane"},
+        {"label": "C", "text": "Concave, plane and convex"},
+        {"label": "D", "text": "Convex, plane and concave"}
+      ],
+      "correct_option": "C",
+      "answer": "(c) Concave, plane and convex. A concave mirror enlarges (head bigger), a plane mirror keeps the same size (middle portion) and a convex mirror diminishes (legs smaller).",
+      "concept": "Spherical Mirrors"
+    },
+    {
+      "number": "24",
+      "form": "mcq",
+      "marks": 1,
+      "page": 10,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "In the following columns, the position of an object is given is column I and the nature of image formed in a concave mirror is given in column II.<html><body><table><tr><td></td><td>Column I (Position of object)</td><td></td><td>Column II (Nature of image)</td></tr><tr><td></td><td>At infinity</td><td></td><td>Real</td></tr><tr><td>(B)</td><td>Between infinity and centre of curvature</td><td></td><td>Inverted</td></tr></table></body></html><html><body><table><tr><td></td><td>Column (Position of object)</td><td></td><td>Column II (Nature of image)</td></tr><tr><td></td><td>At centre of curvature</td><td></td><td>Diminished</td></tr><tr><td>(D)</td><td>At focus</td><td></td><td>Enlarged</td></tr><tr><td></td><td></td><td> t</td><td>Same size</td></tr></table></body></html>",
+      "options": [
+        {"label": "A", "text": "A-p, q; B-(lost in OCR); C-(lost in OCR); D-q, r"},
+        {"label": "B", "text": "A-r, s; B-q, r; C-s, t; D-p, q, r, s"},
+        {"label": "C", "text": "A-p, s; B-q; C-r, s, t; D-(lost in OCR)"},
+        {"label": "D", "text": "A-p, q, r; B-p, q, r; C-p, q, t; D-p, q"}
+      ],
+      "correct_option": "D",
+      "answer": "(d) A-p, q, r; B-p, q, r; C-p, q, t; D-p, q. An object at infinity and an object between infinity and C both give a real, inverted, diminished image (p, q, r); an object at C gives a real, inverted image of the same size (p, q, t); an object at the focus gives a real, inverted image at infinity (p, q).",
+      "concept": "Image Formation by Concave Mirror",
+      "ocr": "Matching item. The question spans pages 10-11 and MinerU split the two matching columns into two damaged HTML tables (row labels (A), (C) and list labels (p)-(t) partly dropped); both tables are kept verbatim in the stem. In the printed option matrix some cells did not survive OCR - marked '(lost in OCR)' in options A and C. The correct option (d) survived intact and matches the printed 'Ans (d)' exactly."
+    },
+    {
+      "number": "26",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 11,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : Convex mirror is used as a rear view mirror. Reason : Convex mirror always forms inverted image.",
+      "assertion": "Convex mirror is used as a rear view mirror.",
+      "reason": "Convex mirror always forms inverted image.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "C",
+      "answer": "(c) Assertion is true but Reason is false. Convex mirror is used as a rear view mirror because it always forms a virtual, erect and diminished image of an object. Also it has a wider field of view than a concave or plane mirror. So, assertion is true but reason is false.",
+      "concept": "Image Formation by Convex Mirror"
+    },
+    {
+      "number": "27",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 11,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : Refractive indices of all transparent mediums are more than 1 (except air). Reason : Air is the rarest medium.",
+      "assertion": "Refractive indices of all transparent mediums are more than 1 (except air).",
+      "reason": "Air is the rarest medium.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "A",
+      "answer": "(a) Both Assertion and Reason are true and Reason is the correct explanation of Assertion. Refractive index of any medium is defined as the ratio of speed of light in air or vacuum to speed of light in the given medium. Since speed of light is maximum in air (as in vacuum), air is the rarest medium. Hence both assertion and reason are true.",
+      "concept": "Refractive Index"
+    },
+    {
+      "number": "28",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 11,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : When light travels from one medium to another, the direction of propagation of light in second medium changes. Reason : Light travels with different speeds in different media.",
+      "assertion": "When light travels from one medium to another, the direction of propagation of light in second medium changes.",
+      "reason": "Light travels with different speeds in different media.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "A",
+      "answer": "(a) Both Assertion and Reason are true and Reason is the correct explanation of Assertion. Refraction, i.e. the change in direction of light at the boundary of two media, happens precisely because light travels with different speeds in different media.",
+      "concept": "Refraction of Light",
+      "ocr": "The item is cut off at the page 11 / page 12 column break: the reason ends mid-sentence as 'Light travels with different speeds in' and neither the four legend options nor the answer key survived. The reason was completed as 'different media' and the standard printed legend (the same four options used by every other assertion-reason item in this chapter) was restored; the key (a) is derived from the physics, not copied from the book."
+    },
+    {
+      "number": "33",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 13,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : When light from sun is focussed on a sheet of paper using a convex lens, the paper begins to burn producing smoke. It may even catch fire after a while. Reason : Convex lens is a converging lens.",
+      "assertion": "When light from sun is focussed on a sheet of paper using a convex lens, the paper begins to burn producing smoke. It may even catch fire after a while.",
+      "reason": "Convex lens is a converging lens.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "A",
+      "answer": "(a) Both Assertion and Reason are true and Reason is the correct explanation of Assertion. Due to the converging nature of a convex lens, light rays coming from the sun are converged at one point after passing through the lens and because of this the paper begins to burn. Hence, both assertion and reason are true.",
+      "concept": "Spherical Lenses"
+    },
+    {
+      "number": "34",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 13,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : Power of a convex lens is positive and that of a concave lens is negative. Reason : Convex lens forms real image and concave lens forms virtual image.",
+      "assertion": "Power of a convex lens is positive and that of a concave lens is negative.",
+      "reason": "Convex lens forms real image and concave lens forms virtual image.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "C",
+      "answer": "(c) Assertion is true but Reason is false. Power is expressed as P = 1/f (in metres), or 100/f (in cm). The focal length of a convex lens is positive and that of a concave lens is negative, so their powers are positive and negative respectively - the sign of the power follows from the focal length, not from the nature of the image. So, assertion is true but reason is false.",
+      "concept": "Power of a Lens",
+      "ocr": "The solution's second power formula printed as '1/f (in cms)'; for centimetres the correct form is P = 100/f, restored in the answer text."
+    },
+    {
+      "number": "35",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 13,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : Convex mirror is used as a shaving mirror. Reason : Convex mirror always forms an enlarged image.",
+      "assertion": "Convex mirror is used as a shaving mirror.",
+      "reason": "Convex mirror always forms an enlarged image.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "D",
+      "answer": "(d) Both Assertion and Reason are false. A concave mirror, not a convex mirror, is used as a shaving mirror. When an object is placed between the focus and the pole of a concave mirror, a virtual, erect and magnified image is formed on the other side of the mirror, which gives a better view of the face. Hence, both assertion and reason are false.",
+      "concept": "Image Formation by Concave Mirror"
+    },
+    {
+      "number": "36",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 13,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : A small source of light casts a sharp shadow of an opaque object. Reason : Light travels in straight lines.",
+      "assertion": "A small source of light casts a sharp shadow of an opaque object.",
+      "reason": "Light travels in straight lines.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "A",
+      "answer": "(a) Both Assertion and Reason are true and Reason is the correct explanation of Assertion. Due to rectilinear propagation of light, when light falls on an opaque object it casts its shadow. Hence, both assertion and reason are true.",
+      "concept": "Reflection of Light"
+    },
+    {
+      "number": "37",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 13,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : Concave mirror has a real focus. Reason : Concave mirror always forms real image.",
+      "assertion": "Concave mirror has a real focus.",
+      "reason": "Concave mirror always forms real image.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "C",
+      "answer": "(c) Assertion is true but Reason is false. Any ray of light incident parallel to the principal axis of a concave mirror passes through the focus after reflection, whereas in a convex mirror it only appears to pass through the focus when produced backwards. Also a concave mirror forms both real and virtual images. So, the assertion is true but the reason is false.",
+      "concept": "Terms for Spherical Mirrors",
+      "ocr": "Printed question number lost at the column break; 37 inferred from position between printed 36 and printed 38."
+    },
+    {
+      "number": "38",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 13,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : For observing traffic at our back, we prefer to use a convex mirror. Reason : A convex mirror has a much larger field of view than a plane mirror or a concave mirror.",
+      "assertion": "For observing traffic at our back, we prefer to use a convex mirror.",
+      "reason": "A convex mirror has a much larger field of view than a plane mirror or a concave mirror.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Assertion is false but Reason is true."}
+      ],
+      "correct_option": "A",
+      "answer": "(a) Both Assertion and Reason are true and Reason is the correct explanation of Assertion. A convex mirror bends light as it reflects it, and the farther a point is from the centre the more the light is bent. As a result, an image formed in a convex mirror is smaller than the image in a plane (flat) mirror. Because the image is smaller, more images fit onto the mirror, so a convex mirror provides a larger field of view than a plane mirror. They are used wherever a mirror with a large field of view is needed to observe traffic.",
+      "concept": "Image Formation by Convex Mirror",
+      "ocr": "Question stem is printed at the foot of page 13 and its four legend options at the top of page 14; joined. Note this item's option (d) is printed as 'Assertion is false but Reason is true' rather than 'Both Assertion and Reason are false'."
+    },
+    {
+      "number": "39",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 14,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : A concave mirror of focal length 'f' in air is used in a medium of refractive index 2. Then the focal length of mirror in medium becomes double. Reason : The radius of curvature of a mirror is double of the focal length.",
+      "assertion": "A concave mirror of focal length 'f' in air is used in a medium of refractive index 2. Then the focal length of mirror in medium becomes double.",
+      "reason": "The radius of curvature of a mirror is double of the focal length.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "D",
+      "answer": "(d) Both Assertion and Reason are false. The focal length of a mirror does not depend on the medium in which the mirror is held; it depends on the radius of the sphere from which it is made. (The focal length of a lens, however, does depend on the medium.)",
+      "concept": "Terms for Spherical Mirrors"
+    },
+    {
+      "number": "40",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 14,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : Large concave mirrors are used to concentrate sunlight to produce heat in solar cookers. Reason : Concave mirror converges the light rays falling on it to a point.",
+      "assertion": "Large concave mirrors are used to concentrate sunlight to produce heat in solar cookers.",
+      "reason": "Concave mirror converges the light rays falling on it to a point.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "A",
+      "answer": "(a) Both assertion and reason are true and reason is the correct explanation of assertion. A concave mirror converges the light rays falling on it to a point, so large concave mirrors are used to concentrate sunlight to produce heat in solar cookers.",
+      "concept": "Image Formation by Concave Mirror"
+    },
+    {
+      "number": "41",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 14,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : A ray incident along normal to the mirror retraces its path. Reason : In reflection, angle of incidence is not equal to angle of reflection.",
+      "assertion": "A ray incident along normal to the mirror retraces its path.",
+      "reason": "In reflection, angle of incidence is not equal to angle of reflection.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "C",
+      "answer": "(c) Assertion is true but Reason is false. When a light ray is incident along the normal to the mirror, the angle of incidence ∠i = 0°. Now, according to the law of reflection, angle of incidence = angle of reflection, so ∠i = ∠r = 0° and the ray retraces its path.",
+      "concept": "Laws of Reflection"
+    },
+    {
+      "number": "42",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 14,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : When a concave mirror is held under water, its focal length will decrease. Reason : The focal length of a concave mirror is independent of the medium in which it is placed.",
+      "assertion": "When a concave mirror is held under water, its focal length will decrease.",
+      "reason": "The focal length of a concave mirror is independent of the medium in which it is placed.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Assertion is false but Reason is true."}
+      ],
+      "correct_option": "D",
+      "answer": "(d) Assertion is false but reason is true. Focal length is a property of the mirror and is independent of the medium in which it is placed, so it does not decrease under water.",
+      "concept": "Terms for Spherical Mirrors",
+      "ocr": "This item's option (d) is printed as 'Assertion is false but reason is true', not the usual 'Both Assertion and Reason are false'."
+    },
+    {
+      "number": "62",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Delhi 2011",
+      "stem": "State a condition for no refraction of light when light enters from one medium to another.",
+      "answer": "No refraction of light occurs when light is incident normally (at an angle of incidence of 0°) on the boundary of two media.",
+      "concept": "Refraction of Light"
+    },
+    {
+      "number": "63",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Delhi 2017",
+      "stem": "Write the relation between refractive index and speed of light in the medium.",
+      "answer": "Refractive index = (Velocity of light in vacuum) / (Velocity of light in medium), i.e. n = c/v.",
+      "concept": "Refractive Index",
+      "ocr": "OCR read the stem as 'Write the position between refractive index...'; 'position' repaired to 'relation'."
+    },
+    {
+      "number": "64",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Delhi 2014",
+      "stem": "What is the cause of refraction?",
+      "answer": "Refraction of a light ray is caused due to the change in velocity of light when it travels from one medium to another medium.",
+      "concept": "Refraction of Light",
+      "ocr": "OCR read the stem as 'What is the care of refraction ?'; 'care' repaired to 'cause'."
+    },
+    {
+      "number": "65",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | OD 2011",
+      "stem": "\"Refractive index of glass is 1.5.\" What does it mean by this statement?",
+      "answer": "It means the ratio of the speed of light in vacuum to the speed of light in glass is equal to 1.5.",
+      "concept": "Refractive Index"
+    },
+    {
+      "number": "66",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Foreign 2013",
+      "stem": "Write the lens formula.",
+      "answer": "1/v − 1/u = 1/f, where u is the object distance, v the image distance and f the focal length of the lens.",
+      "concept": "Lens Formula",
+      "ocr": "Exam tag printed with a stray character as 'Ans b Foreign 2013'; read as Foreign 2013."
+    },
+    {
+      "number": "67",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | OD 2016",
+      "stem": "Is it possible to form a real image using a real object with a concave lens?",
+      "answer": "No, a real image is not formed by a concave lens for a real object; a concave lens always forms a virtual, erect and diminished image.",
+      "concept": "Image Formation by Concave Lens"
+    },
+    {
+      "number": "68",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Delhi 2012",
+      "stem": "In which direction, the ray of light bends as it travels from denser to rarer medium?",
+      "answer": "The ray bends away from the normal when it travels from a denser to a rarer medium.",
+      "concept": "Refraction of Light"
+    },
+    {
+      "number": "69",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | AI 2011",
+      "stem": "What is the value of ₁n₂ × ₂n₁ ?",
+      "answer": "₁n₂ × ₂n₁ = (v₁/v₂) × (v₂/v₁) = 1.",
+      "concept": "Refractive Index",
+      "ocr": "LaTeX pre-subscripts ($_1 n_2 \\times _2 n_1$) rewritten in Unicode as ₁n₂ × ₂n₁."
+    },
+    {
+      "number": "70",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Foreign 2009",
+      "stem": "Define absolute refractive index of a medium.",
+      "answer": "Absolute refractive index of a medium is the refractive index of that medium with respect to vacuum.",
+      "concept": "Refractive Index"
+    },
+    {
+      "number": "71",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | OD 2015",
+      "stem": "What is the relation between emergent ray and incident ray when light ray passes through a rectangular glass slab?",
+      "answer": "The emergent ray and the incident ray are parallel to each other (the emergent ray is only laterally displaced).",
+      "concept": "Refraction of Light"
+    },
+    {
+      "number": "72",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | OD 2006",
+      "stem": "Refractive index of water is 4/3 and for glass it is 3/2, with respect to air. What is the refractive index of glass with respect to water?",
+      "answer": "wng = ng/nw = (3/2)/(4/3) = (3/2) × (3/4) = 9/8. Hence the refractive index of glass with respect to water is 9/8.",
+      "concept": "Refractive Index",
+      "ocr": "LaTeX fractions rewritten in Unicode; the denominator printed as n_u is n_w (water)."
+    },
+    {
+      "number": "73",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Delhi 2011",
+      "stem": "What is meant by magnification in the context of image formation by mirror and lenses?",
+      "answer": "The ratio of the size of the image to the size of the object is called magnification, m = hᵢ/h₀.",
+      "concept": "Magnification by Mirrors"
+    },
+    {
+      "number": "74",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Delhi 2017",
+      "stem": "Which property of concave mirror is utilised for using them as shaving mirror?",
+      "answer": "When an object is placed between the pole and the focus of a concave mirror, a magnified, erect and virtual image is formed; this property is used in a shaving mirror.",
+      "concept": "Image Formation by Concave Mirror"
+    },
+    {
+      "number": "75",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | OD 2016",
+      "stem": "What are the values of angle of incidence and angle of reflection for the normal incidence?",
+      "answer": "Angle of incidence, ∠i = 0° and angle of reflection, ∠r = 0°.",
+      "concept": "Laws of Reflection"
+    },
+    {
+      "number": "76",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | OD 2014",
+      "stem": "Find the focal length of a convex mirror whose radius of curvature is 32 cm.",
+      "answer": "Given, radius of curvature R = 32 cm. Since R = 2 × focal length, f = R/2 = 32/2 = 16 cm. Hence the focal length of the given convex mirror is 16 cm.",
+      "concept": "Terms for Spherical Mirrors"
+    }
+  ]
+}

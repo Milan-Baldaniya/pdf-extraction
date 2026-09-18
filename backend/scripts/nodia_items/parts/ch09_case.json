@@ -1,0 +1,213 @@
+{
+  "items": [
+    {
+      "number": "218",
+      "form": "case_study",
+      "marks": 4,
+      "page": 50,
+      "section_heading": "CASE BASED QUEATIONS | OD 2024",
+      "stem": "Study the data given below showing the focal length of three concave mirrors A, B and C and the respective distances of objects placed in front of the mirrors:\n\n<html><body><table><tr><td>Case</td><td>Mirror</td><td>Focal Length (cm)</td><td>Object Distance (cm)</td></tr><tr><td>1</td><td>A</td><td>20</td><td>45</td></tr><tr><td>2</td><td>B</td><td>15</td><td>30</td></tr><tr><td>3</td><td>C</td><td>30</td><td>20</td></tr></table></body></html>\n\n(i) In which one of the above cases the mirror will form a diminished image of the object? Justify your answer.\n(ii) List two properties of the image formed in case 2.\n(iii) What is the nature and size of the image formed by mirror C? Draw ray diagram to justify your answer.\n(iv) An object is placed at a distance of 18 cm from the pole of a concave mirror of focal length 12 cm. Find the position of the image formed in this case.",
+      "answer": "(i) Case 1. Here the object distance (45 cm) is greater than the radius of curvature of the mirror (R = 2f = 40 cm), i.e. the object is placed beyond the centre of curvature. Hence the image formed by the mirror is diminished, real and inverted.\n(ii) For mirror B, R = 2f = 2 × 15 = 30 cm. Hence the object is placed at the centre of curvature of the mirror. The size of the image is the same as that of the object, and the image is real and inverted.\n(iii) In case 3: u = −20 cm, f = −30 cm. By the mirror formula 1/v + 1/u = 1/f → 1/v + 1/(−20) = 1/(−30), which gives v = 60 cm. The nature of the image is virtual and erect, and it is magnified.\n(iv) Given u = −18 cm, f = −12 cm. From the mirror formula 1/v + 1/u = 1/f → 1/v = 1/f − 1/u = 1/(−12) − 1/(−18) = −1/36, so v = −36 cm. The image is formed 36 cm in front of the mirror (on the same side as the object).",
+      "concept": "Image Formation by Concave Mirror",
+      "figure_required": false,
+      "sub_parts": ["i", "ii", "iii", "iv"],
+      "ocr": "Display LaTeX ($$\\frac{1}{v}+\\frac{1}{u}=\\frac{1}{f}$$ etc.) rewritten as inline Unicode. Printed solution has the typo '1/\\rho' for '1/v' in part (iv) - restored. Solution text 'object s placed' repaired to 'object is placed'. The page-51 ray-diagram image belongs only to the worked solution of part (iii), so no image is attached."
+    },
+    {
+      "number": "219",
+      "form": "case_study",
+      "marks": 4,
+      "page": 51,
+      "section_heading": "CASE BASED QUEATIONS | OD 2023",
+      "stem": "Student took three concave mirrors of different focal lengths and performed the experiment to see the image formation by placing an object at different distances with these mirrors as shown in the following table:\n\n<html><body><table><tr><td>Case No.</td><td>Object-distance</td><td>Focal length</td></tr><tr><td>I.</td><td>45 cm</td><td>20 cm</td></tr><tr><td>II.</td><td>30 cm</td><td>15 cm</td></tr><tr><td>III.</td><td>20 cm</td><td>30 cm</td></tr></table></body></html>\n\nNow answer the following questions:\n(a) List two properties of the image formed in Case I.\n(b) In which one of the cases given in the table the mirror will form real image of same size and why?\n(c) Name the type of mirror used by dentists. Give reason why do they use such type of mirrors.\n(d) Look at the table and identify the situation (object distance and focal length) which resembles the situation in which concave mirrors are used as shaving mirrors? Draw a ray diagram to show the image formation in this case.",
+      "answer": "(a) In Case I the object lies beyond C, so the image is formed between F and C. It is real, inverted and smaller in size (diminished).\n(b) In Case II, since the object (30 cm) is placed at the centre of curvature (R = 2f = 2 × 15 = 30 cm), the image is real, inverted and of the same size as the object.\n(c) Dentists use concave mirrors to see teeth and other areas in the mouth. This is because a concave mirror forms a virtual, erect and enlarged image when the object is placed within the focus.\n(d) Case III can be used as a shaving mirror, because here the object (20 cm) lies between P and F (f = 30 cm), and when the object is placed between P and F we get a virtual, erect and magnified image.",
+      "concept": "Image Formation by Concave Mirror",
+      "figure_required": false,
+      "sub_parts": ["a", "b", "c", "d"],
+      "ocr": "Stem OCR repaired: 'formed the experiment' -> 'performed the experiment', 'placing an object different distances' -> 'placing an object at different distances'. Answer (d) printed as 'In case al can be used as having mirror' - restored to 'Case III ... shaving mirror' from the stated object/focal-length values. The page-51 ray diagram belongs to the answer of part (d), so it is not attached."
+    },
+    {
+      "number": "220",
+      "form": "case_study",
+      "marks": 4,
+      "page": 51,
+      "section_heading": "CASE BASED QUEATIONS",
+      "stem": "A concave mirror forms image of an object thrice in its size on a screen. Magnification of a mirror gives information about the size of the image relative to the object. It is defined as the ratio of size of image to the size of object. It is represented by m.\n\nm = (Size of image) / (Size of object)\n\nSign of magnification by mirror gives the information about the nature of the image produced by it.\n(i) Describe the nature of image formed.\n(ii) If the object is x distance from the pole of mirror, then find image distance from the pole.\n(iii) If the radius of curvature of mirror is R, then write the relation between object distance, image distance and focal length of the mirror.\n(iv) Give one use of concave mirror.",
+      "answer": "(i) Since the image is formed on a screen, it must be real; as it is three times the size of the object it is real, inverted and magnified, so m = −3.\n(ii) Here u = −x and m = −v/u, so −3 = −v/(−x), giving v = −3x. The image is at a distance 3x from the pole, in front of the mirror.\n(iii) Using the mirror formula with f = R/2: 1/(3x) + 1/x = 2/R (as printed).\n(iv) A concave mirror is used in search lights and in the headlights of automobiles.",
+      "concept": "Magnification by Mirrors",
+      "figure_required": false,
+      "sub_parts": ["i", "ii", "iii", "iv"],
+      "ocr": "LaTeX fractions rewritten as Unicode/inline text. Printed relation in (iii) is '1/3x + 1/x = 2/R'; with the sign convention (v = −3x, u = −x) it should read −1/(3x) − 1/x = 2/R, but the printed form is reproduced as given."
+    },
+    {
+      "number": "225",
+      "form": "case_study",
+      "marks": 4,
+      "page": 52,
+      "section_heading": "CASE BASED QUEATIONS",
+      "stem": "The image formed by a convex lens depends on the position of the object in front of the lens. When the object is placed anywhere between focus and infinity, the image formed by convex lens is real and inverted. The image is not obtained on the screen when the object is placed between the focus and the lens. The distance between the optical centre O of the convex lens and the focus point F₁ and F₂ is its focal length. When the object shifts from −∞ to F₁, the image moves from F₂ to +∞. When the object shifts from F₁ to O, the image moves from −∞ to O.\n\nA student did an experiment with a convex lens. He put an object at different distances from the lens. In each case, he measured the distance of the image from the lens. The results were recorded in the following table.\n\n<html><body><table><tr><td>Object distance (in cm)</td><td>Image distance (in cm)</td></tr><tr><td>25</td><td>100</td></tr><tr><td>30</td><td>24</td></tr><tr><td>40</td><td>60</td></tr><tr><td>60</td><td>30</td></tr><tr><td>120</td><td>40</td></tr></table></body></html>\n\nUnfortunately, his results are written in the wrong order.\n(i) What is the focal length of this lens?\n(ii) Rewrite the image distances in the correct order.\n(iii) What is the minimum distance between an object and its real image formed by a convex lens?",
+      "answer": "(i) When the object distance equals the image distance, the object and image are both at twice the focal length from the lens. In the table this pair is 60 cm, so 2f = 60 cm would give f = 30 cm; but an object placed at the focus (30 cm) would give an image at infinity, and no such observation appears in the table, so f = 30 cm is not possible. Taking 2f = 40 cm gives f = 20 cm, which is the focal length of the lens.\n(ii) Correct order of image distances: 100, 60, 40, 30, 24.\n(iii) The minimum distance between an object and its real image formed by a convex lens is 4f.",
+      "concept": "Image Formation by Convex Lens",
+      "images": [
+        "073df8f3aaec417119385de95bc7277154c35fe2edd72c423a6e0f023ba6c703.jpg",
+        "1a7c6ba9f670001372365d665c492eb02a24a0bd15cb7b96a06f7622ced43a45.jpg"
+      ],
+      "figure_required": true,
+      "sub_parts": ["i", "ii", "iii"],
+      "ocr": "Stem OCR repaired: 'The image is not obtained on the screen why the object is placed' -> 'when the object is placed'; 'the image moves −∞ to O' -> 'moves from −∞ to O'. LaTeX F_1/F_2 and −∞ rewritten as Unicode. The printed solution in (i) is garbled ('F = 30 cmh', 'Now, when, 2F = 40 cm' with no final value) - the concluding f = 20 cm is stated explicitly. Two passage figures (page 52) attached because they illustrate the case passage itself."
+    },
+    {
+      "number": "226",
+      "form": "case_study",
+      "marks": 4,
+      "page": 52,
+      "section_heading": "CASE BASED QUEATIONS",
+      "stem": "Study the following table for a convex lens for different positions of object and answer the following questions:\n\n<html><body><table><tr><td>Position of object</td><td>Position of image</td><td>Relative size of image</td></tr><tr><td>At infinity</td><td>At focus F2</td><td>Highly diminished point sized</td></tr><tr><td>Beyond 2F1</td><td>Between F2 and 2F2</td><td>Diminished</td></tr><tr><td>At 2F1</td><td>At 2F2</td><td>Same size</td></tr><tr><td>Between F1 and 2F1</td><td>Beyond 2F2</td><td>Enlarged</td></tr><tr><td>At focus F1</td><td>At infinity</td><td>Infinitely or highly enlarged large</td></tr><tr><td>Between focus F1 and optical centre 0</td><td>On the same side of the lens as the object</td><td>Enlarged</td></tr></table></body></html>\n\n(i) What is the nature of the image, if an object is placed at infinity?\n(ii) Identify the nature of the image for which the object is between focus and optical centre.\n(iii) What is position of image, when object is placed at focus (f₁)?\n(iv) What is the focal length of a lens for an object placed 50 cm from the lens producing virtual image at a distance of 10 cm in front of the lens?\n(a) 12 cm  (b) −12.5 cm  (c) 5 cm  (d) −25 cm",
+      "answer": "(i) When the object is at infinity, the image is real, inverted and highly diminished (point sized).\n(ii) Virtual and erect (and enlarged).\n(iii) At infinity.\n(iv) Given object distance u = −50 cm and image distance v = −10 cm. Using 1/v − 1/u = 1/f: −1/10 − 1/50 = 1/f → (−5 + 1)/50 = 1/f... i.e. 1/f = −4/50, f = −50/4 = −12.5 cm. Hence option (b), −12.5 cm.",
+      "concept": "Image Formation by Convex Lens",
+      "figure_required": false,
+      "sub_parts": ["i", "ii", "iii", "iv"],
+      "ocr": "HTML table kept verbatim. The four printed choices of sub-part (iv) are kept inline in the stem (the item as a whole is a case study, not an MCQ); printed option (d) reads only '- cm' - OCR lost its number, so the commonly printed value '−25 cm' is shown; the keyed answer is (b) −12.5 cm, which the worked solution confirms. Answer block is printed on page 55 and OCR-damaged ('nature of t image', 'highly diminishe', a duplicated '(ii) Infinity' for (iii), 'f = −125 cn') - repaired to f = −12.5 cm. Page furniture 'Click Here to Buy book on Flipkart' stripped."
+    },
+    {
+      "number": "223",
+      "form": "case_study",
+      "marks": 4,
+      "page": 53,
+      "section_heading": "CASE BASED QUEATIONS",
+      "stem": "Convex mirror is used as a rear view mirror in vehicles. Since the image of the object formed is small in size, the field of view is increased. Convex mirror is also used in street lights to diverge light over a large area.\n\n(i) In driver's mirror, what type of image is formed behind the vehicle?\n(ii) What can you say about field of view of a convex mirror?\n(iii) A convex mirror is used to form the image of an object. What is the nature of formed image?",
+      "answer": "(i) A convex mirror forms an erect and diminished (virtual) image of an object behind the vehicle.\n(ii) The field of view of a convex mirror is large (wider than that of a plane or concave mirror of the same size).\n(iii) The image formed by a convex mirror is virtual, erect and diminished.",
+      "concept": "Image Formation by Convex Mirror",
+      "images": [
+        "c87fc72fc442bb8d3f834a4c7d0fb861807bad6b30bc2f999c978a3ceb37164f.jpg"
+      ],
+      "figure_required": true,
+      "sub_parts": ["i", "ii", "iii"],
+      "ocr": "The printed key for (iii) says 'The image is real', which contradicts its own passage and its answer (i) ('erect and diminished' image behind the vehicle) - a convex mirror always forms a virtual image, so the corrected answer 'virtual, erect and diminished' is given. Passage figure on page 53 attached."
+    },
+    {
+      "number": "224",
+      "form": "case_study",
+      "marks": 4,
+      "page": 53,
+      "section_heading": "CASE BASED QUEATIONS",
+      "stem": "Lenses are objects made of transparent materials such as glass or clear plastic that have curved surfaces. Diverging lenses are thicker at their edges than at their centres and make light rays passing through them spread out. Converging lenses are thicker in their middle than at their edges and make light rays passing through them focus at a point. These are used in spectacles to help people with poor vision see better. The converging lenses magnify by bending the rays of light that pass through them to meet at a point called focus. The thicker the converging lens is at its centre, the more it magnifies and the closer the focus is to the lens.\n\n(i) Ravi uses two lenses A and B of same size and same material as shown. P₁ and P₂ are the powers of A and B. An object is kept at the same distance from the lens, between F and 2F of each lens on the principal axis in turn. Let I₁ and I₂ be the images formed by the two lenses respectively. What is the relation of image distances of both lenses?\n(a) Distance of image I₂ will be less than distance of I₁ from the lens.\n(b) Distance of image I₂ will be greater than distance of I₁ from the lens.\n(c) Size of image I₁ will be equal to size of I₂.\n(d) Size of image I₂ will be less than size of I₁.\n(ii) Write down the relation between the power of lens of both lenses.\n(iii) Meenakshi uses above two lenses A and B along with another two lenses C and D, as shown. She is able to see the subject matter on the black board while sitting in the front row in the classroom but is unable to see the same matter while sitting in the last row. Which of the above four lenses will she require to correct the defect in her vision? Why?\n(iv) Natasha places an object on the principal axis of above given lens A. One end of this object coincides with the focus F and the other end with 2F. What will be the nature of the image formed by the lens on the other side?",
+      "answer": "(i) Option (a) - distance of image I₂ will be less than the distance of I₁ from the lens (B is the thicker lens, so it has the shorter focal length and forms its image nearer to the lens).\n(ii) P₁ < P₂, because lens B is thicker at the centre, has a smaller focal length and therefore a greater power.\n(iii) She will require lens C, because she is suffering from myopia (short-sightedness) and a concave (diverging) lens is required to correct myopia.\n(iv) The image will be formed between 2F and infinity on the other side; the end at 2F images at 2F and the end at F images at infinity, so the image will be enlarged and stretched out - infinite in size (real and inverted).",
+      "concept": "Power of a Lens",
+      "images": [
+        "ebb28f7b2ab39c0720400102ccea093f2e439e1294c2f8e5642f5ef258a97615.jpg",
+        "d21cc9f404fb9c325c5015f449a09a05e9fe5481cfc4556b3d4960b9aad6f1a6.jpg"
+      ],
+      "figure_required": true,
+      "sub_parts": ["i", "ii", "iii", "iv"],
+      "ocr": "Printed option (d) of sub-part (i) reads 'Size of image I2 will be less than size I2' - the repeated subscript is an obvious misprint, shown here as 'less than size of I₁'. LaTeX subscripts (P_1, I_1, I_2) rewritten as Unicode; 'has curved surfaces'/'at this edges'/'the more its magnifies' repaired. The four choices of sub-part (i) are kept inline in the stem because the whole item is a case study. Both question figures on page 53 attached (lenses A and B; lenses A, B, C and D)."
+    },
+    {
+      "number": "221",
+      "form": "case_study",
+      "marks": 4,
+      "page": 54,
+      "section_heading": "CASE BASED QUEATIONS",
+      "stem": "A concave lens is thick at the edges and thin at the centre, while a convex lens is thick at the centre and thin at the edges. We can distinguish between a concave lens and a convex lens without touching them. For this keep a book close to a lens and observe the image of the text of the book through the lens. If the letters appear enlarged, then it is a convex lens and if the letters appear diminished then it is a concave lens. Convex lens converges light rays and hence known as converging lens. Similarly, concave lens diverges light rays and is known as diverging lens. Linear magnification produced by a lens is equal to the ratio of the image distance to the object distance. Power of a lens is defined as the reciprocal of its focal length.\n(i) What type of image is always made by a concave lens?\n(ii) If magnification produced by a spherical lens is +0.75, then what is the nature of the lens?\n(iii) What is the power of a convex lens with focal length 80 cm?\n(iv) What kind of lens is present in human eye?",
+      "answer": "(i) A concave lens always forms a virtual, erect and diminished image of an object.\n(ii) Here m = +0.75 (less than 1), so the image formed is smaller than the object, i.e. diminished, and the positive sign shows it is virtual and erect. A virtual, erect and diminished image can be formed only by a concave lens, so the lens is concave.\n(iii) P = 1/f (in metres) = (1/80) × 100 = +1.25 D.\n(iv) A converging (convex) lens is present in the human eye.",
+      "concept": "Spherical Lenses",
+      "figure_required": false,
+      "sub_parts": ["i", "ii", "iii", "iv"],
+      "ocr": "LaTeX display maths for the power calculation rewritten inline. The page-54 image next to this question is the publisher's QR-code advertisement ('NO NEED TO PURCHASE SAMPLE PAPERS ... SCAN QR CODE'), so it is page furniture and is not attached; that advertising text was stripped from the stem/answer."
+    },
+    {
+      "number": "222",
+      "form": "case_study",
+      "marks": 4,
+      "page": 54,
+      "section_heading": "CASE BASED QUEATIONS",
+      "stem": "When a light ray goes from one transparent medium to another transparent medium, it suffers a change in direction on entering the second medium. The phenomenon of change in the path of light rays when going from one medium to another medium is known as refraction. The extent of the bending for a given pair of media can be expressed in terms of refractive index. The refractive index is related to an important physical quantity, the relative speed of light in different media.\n\n(i) When light goes from one medium to another, which of the three parameters - frequency, wavelength, velocity - change?\n(ii) A ray of light enters into the glass from air. Does it bend towards normal?\n(iii) Light enters from air to glass having refractive index 1.50. What is the speed of light in the glass? The speed of light in vacuum is 3 × 10⁸ m s⁻¹.\n(iv) What is the unit of refractive index?",
+      "answer": "(i) Two parameters change - wavelength and velocity. The frequency remains unchanged.\n(ii) Yes, it bends towards the normal, because glass is optically denser than air.\n(iii) Refractive index of a medium, nₘ = (speed of light in vacuum)/(speed of light in the medium) = c/v. Here c = 3 × 10⁸ m s⁻¹ and n_g = 1.50, so v = c/n_g = (3 × 10⁸)/1.50 = 2 × 10⁸ m s⁻¹.\n(iv) Refractive index has no unit (it is a ratio of two speeds).",
+      "concept": "Refractive Index",
+      "images": [
+        "5c6cadafef811657d7704ac9d3c718d796d6b8279ceb931f42fb37d8362c97ae.jpg"
+      ],
+      "figure_required": true,
+      "sub_parts": ["i", "ii", "iii", "iv"],
+      "ocr": "The printed passage is badly scrambled ('The extent of the change in direction suffered by the phenomenon of change in the path ... Ray is a given pair of media can be expressed in terms of refractive index') - the two sentences were untangled without adding new content. LaTeX ($3 \\times 10^{8} \\mathrm{ms^{-1}}$, n_m = ...) rewritten as Unicode with superscripts. Passage figure on page 54 attached."
+    },
+    {
+      "number": "227",
+      "form": "case_study",
+      "marks": 4,
+      "page": 55,
+      "section_heading": "CASE BASED QUEATIONS",
+      "stem": "Is there a relationship between the radius of curvature R, and focal length f, of a spherical mirror? For spherical mirrors of small apertures, the radius of curvature is found to be equal to twice the focal length. We put this as R = 2f. This implies that the principal focus of a spherical mirror lies midway between the pole and centre of curvature.\n(i) Write relation between radius of curvature and focal length.\n(ii) For which type of mirrors above relation is verified?\n(iii) What should be size of the aperture?\n(iv) Where does the principal focus of a spherical mirror lie?",
+      "answer": "(i) R = 2f (the radius of curvature is twice the focal length).\n(ii) Spherical mirrors (both concave and convex).\n(iii) The aperture should be small.\n(iv) Midway between the pole and the centre of curvature of the mirror.",
+      "concept": "Terms for Spherical Mirrors",
+      "figure_required": false,
+      "sub_parts": ["i", "ii", "iii", "iv"],
+      "ocr": "Stem OCR repaired: 'We put th is as $R = 2 f$' -> 'We put this as R = 2f'; 'Where is the principle focus ... lies?' -> 'Where does the principal focus ... lie?'. LaTeX R = 2f rewritten as plain text."
+    },
+    {
+      "number": "228",
+      "form": "case_study",
+      "marks": 4,
+      "page": 55,
+      "section_heading": "CASE BASED QUEATIONS",
+      "stem": "\"Change in path of a light ray as it passes from one medium to another medium is called refraction of light.\" When light travels from a rarer medium to a denser one, it bends towards the normal (i > r) and when it travels from a denser medium to a rarer one, it bends away from the normal (i < r), where i = angle of incidence and r = angle of refraction. We can see refraction in our daily life; some of the examples are given below. The bottom of a tank or pond containing water appears to be raised due to refraction of light which takes place when light rays pass from the pool of water into the air. The letters appear to be raised when viewed through a glass slab placed over the document because of refraction of light. When a light ray enters a glass slab, then the emergent ray is parallel to the incident ray but it is shifted sideways slightly. In this case, refraction takes place twice: first when the ray enters the glass slab from air and second when it exits from the glass slab to air.\n(i) What do you mean by optically rarer and denser medium?\n(ii) What is the cause of refraction?\n(iii) Draw a ray diagram showing refraction through a glass slab.\n(iv) Give one example of refraction from our daily life experience other than the two examples given above.",
+      "answer": "(i) A medium in which the speed of light is more is known as an optically rarer medium, and a medium in which the speed of light is lesser is known as an optically denser medium.\n(ii) The speed of light is different in different media - it is lesser in a denser medium and higher in a rarer medium. So when light enters a denser medium its speed reduces and it bends towards the normal, and when it enters a rarer medium its speed increases and it bends away from the normal.\n(iii) Ray diagram of a glass slab: the incident ray strikes face AB making angle of incidence i, bends towards the normal inside the slab (angle of refraction r), and on leaving the opposite face it bends away from the normal, emerging with angle of emergence e = i, parallel to the incident ray but laterally displaced.\n(iv) A lemon kept in water in a glass tumbler appears to be bigger than its actual size when viewed from the sides.",
+      "concept": "Refraction of Light",
+      "figure_required": false,
+      "sub_parts": ["i", "ii", "iii", "iv"],
+      "ocr": "LaTeX inline maths ($i > r$, $i < r$) rewritten as plain text; the stray 'h' artefacts after '$( i < r )$' and 'image distance ^ v h' style OCR noise removed. Page furniture 'Click Here to Buy book on Amazon' stripped. The glass-slab figure on page 55 belongs to the worked solution of part (iii), so no image is attached."
+    },
+    {
+      "number": "229",
+      "form": "case_study",
+      "marks": 4,
+      "page": 56,
+      "section_heading": "CASE BASED QUEATIONS",
+      "stem": "While dealing with the reflection of light by spherical mirrors, we shall follow a set of sign conventions called the New Cartesian Sign Convention. In this convention, the pole (P) of the mirror is taken as the origin. The principal axis of the mirror is taken as the x-axis of the coordinate system. In a spherical mirror, the distance of the object from its pole is called the object distance (u). The distance of the image from the pole of the mirror is called the image distance (v). Magnification produced by a spherical mirror gives the relative extent to which the image of an object is magnified with respect to the object size. It is expressed as the ratio of the height of the image to the height of the object. It is usually represented by the letter m. (In the sign-convention diagram: distances measured along the direction of the incident light are positive and those measured against the direction of the incident light are negative; heights measured upwards, perpendicular to the principal axis, are positive and those measured downwards are negative.)\n(i) How can you calculate the magnification of a spherical mirror?\n(ii) What does a negative sign in the value of magnification indicate?\n(iii) Find the focal length of a convex mirror whose radius of curvature is 32 cm.\n(iv) Why is the height of the object taken to be positive?",
+      "answer": "(i) If h is the height of the object and h′ is the height of the image, then the magnification m produced by a spherical mirror is m = (height of the image h′)/(height of the object h), i.e. m = h′/h.\n(ii) A negative sign in the value of the magnification indicates that the image is real (and inverted).\n(iii) Radius of curvature of the convex mirror R = 32 cm, and R = 2 × focal length (f), so f = 32/2 = 16 cm. The focal length of the convex mirror is 16 cm.\n(iv) As the object is usually placed above the principal axis, the height of the object is measured upwards and is therefore taken to be positive.",
+      "concept": "New Cartesian Sign Convention",
+      "figure_required": false,
+      "sub_parts": ["i", "ii", "iii", "iv"],
+      "ocr": "MinerU flattened the sign-convention diagram into a jumble of loose labels ('Direction of Height upward incident light $^+$ ve) $P$ Downward distance against distance along height incident light incident light (+ve) (-ve) ( $^+$ ve)') with no image reference of its own; the labels were reassembled into a parenthetical sentence inside the stem and no image is attached. 'The principal axis ... is take as' repaired to 'is taken as'; 'image distance ^ v h' and 'letter ^ m h' OCR artefacts repaired to (v) and m; printed 'f = 1 6' completed as f = 32/2 = 16 cm."
+    },
+    {
+      "number": "230",
+      "form": "case_study",
+      "marks": 4,
+      "page": 56,
+      "section_heading": "CASE BASED QUEATIONS",
+      "stem": "Harish is a student of class X. He is very passionate about doing science experiments. Recently, he visited Delhi with his parents to witness a science fair. He purchased different types of lenses, mirrors and other articles. One day, during games period, a student of the same class fell down and his lips started bleeding. On observation, it was found by the Physical Education teacher that very fine pieces of glass, difficult to observe, were stranded over there. Harish immediately rushed to the Physics Lab and brought a lens. The bigger image of the stranded glass pieces eased the first aid job.\n(i) Name the lens and mirror bought by Harish.\n(ii) Draw the ray diagram showing formation of very big image of object by lens. What should be the position of object to get such image?",
+      "answer": "(i) Harish brought a double convex (converging) lens, because it forms a magnified image and thus helps to see the fine pieces of glass; the corresponding mirror that magnifies in the same way is a concave mirror.\n(ii) To get a very big (highly enlarged), virtual and erect image with a convex lens, the object must be placed between the optical centre O and the focus F₁ of the lens (i.e. within the focal length). The ray diagram shows the refracted rays diverging after the lens and meeting, when produced backwards, to form an enlarged virtual image on the same side as the object.",
+      "concept": "Image Formation by Convex Lens",
+      "figure_required": false,
+      "sub_parts": ["i", "ii"],
+      "ocr": "Stem OCR repaired ('lips started bleeding' given a subject, 'stranded over there' kept, 'bought a lens' -> 'brought a lens'). The page-56 ray diagram is printed as part of the worked answer to part (ii), so no image is attached."
+    },
+    {
+      "number": "231",
+      "form": "case_study",
+      "marks": 4,
+      "page": 56,
+      "section_heading": "CASE BASED QUEATIONS",
+      "stem": "In a small town fair Amit took his friend and showed him a mirror in which his image showed upper half body very fat and lower body very thin. Amit's friend got upset but Amit explained him by showing his similar image in the mirror.\n(i) Name two mirrors used in this fair shop.\n(ii) Name the mirror in which the size of image is small.",
+      "answer": "(i) Concave mirror and convex mirror (joined together, so that one half of the body is magnified and the other half is diminished).\n(ii) The convex mirror, which always gives a small (diminished) sized image.",
+      "concept": "Spherical Mirrors",
+      "figure_required": false,
+      "sub_parts": ["i", "ii"],
+      "ocr": "Question text continues across the page-56/57 split ('...A' then 'mit's friend got upset'); the split word was rejoined. No figure printed with this question."
+    },
+    {
+      "number": "232",
+      "form": "case_study",
+      "marks": 4,
+      "page": 57,
+      "section_heading": "CASE BASED QUEATIONS | Foreign 2012",
+      "stem": "Analyse the following observation table showing variation of image distance (v) with object distance (u) in case of convex lens and answer the questions that follow, without doing any calculations.\n\n<html><body><table><tr><td></td><td>Object distance u (cm)</td><td>Image distance V (cm)</td></tr><tr><td>1.</td><td>90</td><td>+18</td></tr><tr><td>2</td><td>60</td><td>+20</td></tr><tr><td>3</td><td>30</td><td>+30</td></tr><tr><td>4</td><td>20</td><td>+60</td></tr><tr><td>5</td><td>18</td><td>+90</td></tr><tr><td>6.</td><td>— 10</td><td>+100</td></tr></table></body></html>\n\n(i) What is the focal length of the convex lens? Give reason in support of your answer.\n(ii) Write the serial number of that observation which is not correct. How did you arrive at this conclusion?\n(iii) Take an appropriate scale to draw ray diagram for the observation at S. No. 4 and find the approximate value of magnification.",
+      "answer": "(i) From S. No. 3 we can say that the radius of curvature of the lens is 30 cm, because when an object is placed at the centre of curvature of a convex lens its image is formed on the other side of the lens at the same distance from the lens. As the focal length is half of the radius of curvature, the focal length of the lens is +15 cm.\n(ii) S. No. 6 is not correct. Here the object distance (10 cm) lies between the focus and the optical centre, so the image formed must be virtual; but in this observation a real image is shown, since the image distance is positive.\n(iii) For object distance u = −20 cm and image distance v = +60 cm, the approximate value of magnification is 3 (the image is real, inverted and three times the size of the object), i.e. m = −3 in magnitude 3.",
+      "concept": "Lens Formula",
+      "figure_required": false,
+      "sub_parts": ["i", "ii", "iii"],
+      "ocr": "HTML table kept verbatim, including the OCR em-dash in row 6 ('— 10' for the object distance 10 cm). Printed solution (iii) reads 'for distance object −20 cm and image distance +60 cm is 3' - reproduced. The page-57 ray diagram belongs to the worked solution of part (iii), so no image is attached."
+    }
+  ]
+}

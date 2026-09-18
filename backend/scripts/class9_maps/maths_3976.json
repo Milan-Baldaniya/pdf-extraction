@@ -1,0 +1,60 @@
+{
+  "subject_id": 3976,
+  "subject": "Mathematics",
+  "standard_id": 42,
+  "note": "NCERT Ganita Prakash Class 9. Each orphan concept placed under the section that introduces it. No fuzzy matching: every pair is authored and is checked to share a chapter before it is written.",
+  "map": {
+    "1361": {"topic": 23894, "why": "Quadrants are defined by the 2-D Cartesian system"},
+    "1365": {"topic": 23894, "why": "Reflection across the axes belongs to the coordinate system"},
+    "1366": {"topic": 23895, "why": "Midpoint is derived alongside the distance formula"},
+
+    "1369": {"topic": 23896, "why": "Univariate polynomials are introduced in 2.1"},
+    "1370": {"topic": 23896, "why": "Degree is defined when polynomials are introduced"},
+    "1371": {"topic": 23897, "why": "Exactly the subject of 2.2 Linear polynomials"},
+    "1375": {"topic": 23900, "why": "Exactly the subject of 2.5 Linear relationships"},
+    "1377": {"topic": 23901, "why": "Y-intercept is read off the graph in 2.6"},
+
+    "1383": {"topic": 23904, "why": "3.3 Integers"},
+    "1385": {"topic": 23905, "why": "3.4 fractions and rational numbers"},
+    "1387": {"topic": 23906, "why": "3.5 Irrational numbers"},
+    "1388": {"topic": 23906, "why": "Proof by contradiction is used to prove root 2 irrational"},
+    "1394": {"topic": 23906, "why": "Madhava's series converges to an irrational, pi"},
+
+    "1395": {"topic": 23908, "why": "4.1 introduces what an identity is"},
+    "1396": {"topic": 23909, "why": "(a+b)^2 is the worked visual identity in 4.2"},
+    "1397": {"topic": 23909, "why": "(a-b)^2 is visualised alongside it"},
+    "1398": {"topic": 23911, "why": "Three-term square appears in 4.4 More identities"},
+    "1399": {"topic": 23909, "why": "a^2-b^2 is the third visualised identity"},
+    "1400": {"topic": 23911, "why": "(x+a)(x+b) appears in 4.4 More identities"},
+    "1403": {"topic": 23912, "why": "Exactly the subject of 4.5"},
+    "1404": {"topic": 23914, "why": "Cubes are the new identities derived in 4.7"},
+    "1405": {"topic": 23914, "why": "Cubes are the new identities derived in 4.7"},
+    "1406": {"topic": 23914, "why": "Sum of cubes is derived in 4.7"},
+    "1408": {"topic": 23914, "why": "x^3+y^3+z^3-3xyz is derived in 4.7"},
+
+    "1417": {"topic": 23918, "why": "The circle through three points gives the circumcentre"},
+    "1425": {"topic": 23922, "why": "Angle in a semicircle is an angle subtended by an arc"},
+
+    "1431": {"topic": 23925, "why": "6.2 Perimeter of a circle"},
+    "1432": {"topic": 23925, "why": "pi is defined as the C/D ratio in 6.2"},
+    "1438": {"topic": 23931, "why": "Brahmagupta's formula sits with the area-of-a-triangle work"},
+    "1439": {"topic": 23926, "why": "6.3 Pi is irrational"},
+
+    "1445": {"topic": 23935, "why": "Experimental probability is how 7.2 measures it"},
+    "1446": {"topic": 23935, "why": "Theoretical probability is contrasted in 7.2"},
+    "1448": {"topic": 23936, "why": "7.3 sample spaces and events"},
+    "1450": {"topic": 23935, "why": "Law of large numbers justifies objective measurement"},
+    "1451": {"topic": 23934, "why": "Gambler's fallacy is the misconception raised in 7.1"},
+    "1453": {"topic": 23934, "why": "Fairness is set up in 7.1"},
+
+    "1454": {"topic": 23938, "why": "8.1 Introduction to sequences"},
+    "1455": {"topic": 23939, "why": "8.2 Explicit rule"},
+    "1456": {"topic": 23940, "why": "8.3 Recursive rule"},
+    "1457": {"topic": 23941, "why": "8.4 Arithmetic progressions"},
+    "1459": {"topic": 23941, "why": "nth term of an AP is derived in 8.4"},
+    "1464": {"topic": 23943, "why": "nth term of a GP is derived in 8.6"},
+    "1465": {"topic": 23940, "why": "Virahanka-Fibonacci is the canonical recursive sequence"},
+    "1466": {"topic": 23943, "why": "Fractal self-similarity is built on a geometric ratio"},
+    "1467": {"topic": 23943, "why": "Sierpinski areas form a geometric progression"}
+  }
+}

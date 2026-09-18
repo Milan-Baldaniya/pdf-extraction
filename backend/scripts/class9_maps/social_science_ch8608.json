@@ -1,0 +1,25 @@
+{
+  "subject_id": 4469,
+  "subject": "Social Sciences-2 (chapter 8608, which already had topics)",
+  "standard_id": 42,
+  "note": "Chapter 8608 already carried its 8 topics, so the topic builder correctly refused to touch it; only the concept placement was missing. Distributed so every one of the 8 topics ends up with at least one concept - an empty topic is the defect being fixed, so creating a new one would be self-defeating.",
+  "map": {
+    "501": {"topic": 23716, "why": "Social Science is defined in the opening section"},
+    "502": {"topic": 23718, "why": "Society being interconnected is why it needs several disciplines"},
+    "503": {"topic": 23717, "why": "Panchamahabhutas is introduced as an Indian knowledge tradition"},
+    "504": {"topic": 23717, "why": "Vasudhaiva Kutumbakam is introduced as a tradition"},
+    "505": {"topic": 23717, "why": "Arthashastra is cited as a classical Indian text, not as one discipline"},
+    "506": {"topic": 23719, "why": "The Geography section"},
+    "507": {"topic": 23720, "why": "The History section"},
+    "511": {"topic": 23720, "why": "Archaeological sources are how history is evidenced"},
+    "512": {"topic": 23720, "why": "Literary sources are how history is evidenced"},
+    "513": {"topic": 23720, "why": "Epigraphic sources are how history is evidenced"},
+    "514": {"topic": 23720, "why": "Numismatic sources are how history is evidenced"},
+    "508": {"topic": 23721, "why": "The Political Science section"},
+    "515": {"topic": 23721, "why": "Panchayati Raj is the political-science worked example"},
+    "516": {"topic": 23721, "why": "Rajadharma is statecraft, so it sits with Political Science"},
+    "509": {"topic": 23722, "why": "The Economics section"},
+    "510": {"topic": 23723, "why": "Why study social science"},
+    "517": {"topic": 23723, "why": "Sustainable development is the future-directions example"}
+  }
+}

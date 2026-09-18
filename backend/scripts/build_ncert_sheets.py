@@ -224,7 +224,10 @@ def subject_names(tenant: int) -> dict[str, str]:
 # "Geography" in a sheet attaches the chapters to the orphan -- a subject the
 # LMS never shows. Every value below is the name _map_ids will actually find,
 # paired with the id it resolves to, checked against sub_std_map.
-VERIFIED_BOOKS: dict[tuple[int, str], str] = {
+# A value may be a list when one subject is taught from several volumes. The
+# chapters are then numbered consecutively across them, because both NCERT
+# volumes restart at chapter 1 and would otherwise collide on the queue key.
+VERIFIED_BOOKS: dict[tuple[int, str], str | list[str]] = {
     # class 10 -- subject_name           NCERT code   LMS shows as
     (10, "Social Sciences-2"): "jess1",    # Geography       (id 4469)
     (10, "Economics"): "jess2",            # Economics       (id 4472)
@@ -236,6 +239,31 @@ VERIFIED_BOOKS: dict[tuple[int, str], str] = {
     (10, "Hindi-A"): "jhks1",              # Hindi-A         (id 3977)
     (10, "Hindi-B"): "jhsp1",              # Hindi-B         (id 4512)
     (10, "Health and Physical Education"): "jehp1",  #       (id 5333)
+    # Class 7 runs the revised curriculum. NOTE the ids swap AGAIN relative to
+    # Class 8: here "History" is 4469 and "Civics" is 4470, which is exactly the
+    # reverse. Read this table per class; it is not transferable.
+    # Verified by first page:
+    #   gecu1 "The Ever-Evolving World of Science"   Curiosity          -> Science
+    #   gepr1 "Unit 1 LEARNING TOGETHER"             Poorvi             -> English-1
+    #   ghml1 "Maa, kah ek kahani"                   Malhar             -> Hindi-A
+    #   gegp1 "1.1 A Lakh Varieties!"                Ganita Prakash
+    #   gegp2 "GEOMETRIC TWINS 1  1.1"               Ganita Prakash-II
+    #   gees1 "India and the World ... Geographical Diversity"  Part-I
+    #   gees2 "India and the World ... Story of Indian Farming" Part-II
+    #
+    # Both two-volume sets restart at chapter 1. Maths is one subject, so its
+    # volumes are numbered consecutively (Part II becomes 9-15). Social Science
+    # is split across two LMS slots instead, which keeps each book's printed
+    # numbering intact -- neither label is strictly right, since both volumes
+    # are integrated, but nothing is renumbered or invented.
+    (7, "Science"): "gecu1",               # LMS "Science"          (id 3975)
+    (7, "English"): "gepr1",               # LMS "English-1"        (id 3978)
+    (7, "Hindi-A"): "ghml1",               # LMS "Hindi-A"          (id 3977)
+    (7, "Mathematics"): ["gegp1", "gegp2"],  # LMS "Mathematics"    (id 3976)
+    (7, "Social Sciences"): "gees1",       # LMS "Geography"        (id 4064)
+    (7, "Social Sciences-2"): "gees2",     # LMS "History"          (id 4469)
+    # NCERT's Class 7 Sanskrit, Urdu, Arts, PE and Vocational books have no
+    # matching subject in this tenant's Class 7, so they are not listed.
     # Class 8. NOTE the ids are NOT the same as Class 10's for the same
     # display names -- sub_std_map maps "Geography" to subject 4064 here and to
     # 4469 in Class 10, so this table must be read per class and never carried
@@ -403,37 +431,54 @@ def build_mapped_rows(
 
     rows: list[qs.QueueRow] = []
     notes: list[str] = []
-    for (klass, subject), code in VERIFIED_BOOKS.items():
+    for (klass, subject), entry in VERIFIED_BOOKS.items():
         if str(klass) != str(standard):
             continue
-        book = codes.get(code)
-        if book is None:
-            notes.append(f"  {subject:<34} {code:<8} NOT IN CATALOGUE -- skipped")
-            continue
-
         have = titles.get(subject.strip().lower(), {})
-        for chapter in range(1, book["chapters"] + 1):
-            rows.append(
-                qs.QueueRow(
-                    enabled="yes",
-                    board=board,
-                    standard=int(standard),
-                    subject_name=subject,
-                    chapter_number=chapter,
-                    document_title=have.get(chapter)
-                    or f"{book['title'].strip()} - Chapter {chapter}",
-                    document_type="Chapter",
-                    syear=syear,
-                    sub_institute_id=tenant,
-                    pdf_url=PDF_URL.format(code=code, chapter=chapter),
-                    status="pending",
+        volumes = [entry] if isinstance(entry, str) else list(entry)
+
+        # Chapter numbers run on across the volumes of one subject. Each NCERT
+        # volume restarts at 1, and two rows numbered 1 under the same subject
+        # are the same queue key -- one would silently replace the other.
+        offset = 0
+        for code in volumes:
+            book = codes.get(code)
+            if book is None:
+                notes.append(f"  {subject:<34} {code:<8} NOT IN CATALOGUE -- skipped")
+                continue
+
+            filled = 0
+            for volume_chapter in range(1, book["chapters"] + 1):
+                chapter = offset + volume_chapter
+                title = have.get(chapter)
+                filled += 1 if title else 0
+                rows.append(
+                    qs.QueueRow(
+                        enabled="yes",
+                        board=board,
+                        standard=int(standard),
+                        subject_name=subject,
+                        chapter_number=chapter,
+                        document_title=title
+                        or f"{book['title'].strip()} - Chapter {volume_chapter}",
+                        document_type="Chapter",
+                        syear=syear,
+                        sub_institute_id=tenant,
+                        # The URL always uses the volume's OWN chapter number.
+                        pdf_url=PDF_URL.format(code=code, chapter=volume_chapter),
+                        status="pending",
+                    )
                 )
+            span = (
+                f"ch {offset + 1}-{offset + book['chapters']}"
+                if len(volumes) > 1
+                else f"{book['chapters']:>2} ch"
             )
-        notes.append(
-            f"  {subject:<34} {code:<8} {book['chapters']:>2} ch  "
-            f"titles {len([c for c in range(1, book['chapters'] + 1) if have.get(c)])}"
-            f"/{book['chapters']}  ({book['title'].strip()})"
-        )
+            notes.append(
+                f"  {subject:<34} {code:<8} {span:<10} "
+                f"titles {filled}/{book['chapters']}  ({book['title'].strip()})"
+            )
+            offset += book["chapters"]
     return rows, notes
 
 

@@ -1,0 +1,611 @@
+{
+ "items": [
+  {
+   "number": "241",
+   "form": "short",
+   "marks": 3,
+   "page": 44,
+   "section_heading": "THREE MARKS QUESTIONS | OD 2019",
+   "stem": "In the given circuit, find:\n(a) Total resistance of the network of resistors\n(b) Current through ammeter A",
+   "answer": "(a) In the given circuit diagram the 4 Ω and 2 Ω resistances are connected in series combination and the 3 Ω and 3 Ω resistances are also connected in series combination.\nR₁ = 4 + 2 = 6 Ω\nR₂ = 3 + 3 = 6 Ω\nThese two branches are in parallel, so the equivalent resistance of the circuit is\n1/R_eq = 1/R₁ + 1/R₂ = 1/6 + 1/6 = 2/6\nR_eq = 6/2 = 3 Ω\n(b) According to Ohm's law, V = I R_eq\nI = V/R_eq = 6/3 = 2 A",
+   "concept": "Resistors in Parallel",
+   "images": [
+    "c9a0cf2ffb3efef8777e6cc0d1a9b0f75b000640d6c143e2f0a0ef2d3bed8d4c.jpg"
+   ],
+   "figure_required": true,
+   "sub_parts": [
+    "a",
+    "b"
+   ],
+   "ocr": "Section bleed: this is a THREE MARKS question but MinerU prints it on p44, inside the FIVE MARKS character range (153380-211298), so no other slice covers it. Authored here with its true printed form (short, 3 marks) so it is not lost. The stem is also interrupted mid-sentence in the markdown: Q242's answer text ('Write the method of determining resistance ... slope from the points mentioned on the graph.') is spliced between 'In the given circuit, find' and its own parts (a)/(b); the parts were re-joined from after the figure. The figure is a single merged two-column panel holding BOTH this circuit (left) and Q242's I-V graph (right); a 'NODIA' watermark sits between them."
+  },
+  {
+   "number": "242",
+   "form": "short",
+   "marks": 3,
+   "page": 44,
+   "section_heading": "THREE MARKS QUESTIONS | Comp. 2019",
+   "stem": "While studying the dependence of potential difference V across a resistor on the current I passing through it, in order to determine the resistance of the resistor, a student took 5 readings for different values of current and plotted a graph between V and I. He got a straight line graph passing through the origin. What does the straight line signify? Write the method of determining resistance of the resistor using this graph.",
+   "answer": "The straight line passing through the origin signifies that the potential difference and the current are directly proportional to each other, i.e. the resistor obeys Ohm's law.\nThe method of determining the resistance of the resistor using the graph is by Ohm's law, V = IR, and by calculating the slope from the points marked on the graph:\nR = 1/(Slope of the V–I graph)",
+   "concept": "Ohm's Law",
+   "images": [
+    "c9a0cf2ffb3efef8777e6cc0d1a9b0f75b000640d6c143e2f0a0ef2d3bed8d4c.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "Section bleed: this is a THREE MARKS question but MinerU prints it on p44, inside the FIVE MARKS character range (153380-211298), so no other slice covers it. Authored here with its true printed form (short, 3 marks) so it is not lost. The stem tail ('Write the method of determining resistance of the resistor using this graph.') and the whole answer print above, spliced into Q241; they were re-joined here. The figure is the merged two-column panel: the I-V straight-line graph is its right half (Q241's circuit is the left half)."
+  },
+  {
+   "number": "243",
+   "form": "short",
+   "marks": 3,
+   "page": 44,
+   "section_heading": "THREE MARKS QUESTIONS | Comp. 2018",
+   "stem": "(a) List the factors on which the resistance of a conductor in the shape of a wire depends.\n(b) Why are metals good conductors of electricity whereas glass is a bad conductor of electricity? Give reason.\n(c) Why are alloys commonly used in electrical heating devices? Give reason.",
+   "answer": "(a) The resistance of a conductor depends directly on its length, is inversely proportional to its area of cross-section, is directly proportional to the temperature, and depends on the nature (material) of the conductor.\n(b) Metals have free electrons which can move and conduct electricity, whereas glass does not have free electrons which can flow freely to conduct electricity.\n(c) The resistivity of an alloy is generally higher than that of a pure metal, and alloys do not oxidise (burn) readily at higher temperatures. Therefore the conductors of electric heating devices, such as toasters and electric irons, are made of an alloy rather than a pure metal.",
+   "concept": "Factors Affecting Resistance",
+   "sub_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "ocr": "Section bleed: this is a THREE MARKS question but MinerU prints it on p44, inside the FIVE MARKS character range (153380-211298), so no other slice covers it. Authored here with its true printed form (short, 3 marks) so it is not lost. 'The resistivity of an alloy s generally higher' repaired to 'is generally higher'."
+  },
+  {
+   "number": "259",
+   "form": "long",
+   "marks": 5,
+   "page": 43,
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "stem": "In an electric circuit three bulbs of 100 W each are connected in series to a source. In another circuit a set of three bulbs of the same wattage are connected in parallel to the same source.\n(i) Will the bulbs in the two circuits glow with the same brightness? Justify your answer.\n(ii) Now, let one bulb in both the circuits get fused. Will the rest of the bulbs continue to glow in each circuit? Give reason for your answer.",
+   "answer": "(i) Let the resistance of each bulb be R and the source voltage be V.\nCase (1) Series combination:\nR_equ = R + R + R = 3R\nCurrent in each bulb, I = V/3R\nCase (2) Parallel combination:\nNet current, I_equ = 3V/R\nThe current divides equally among the three bulbs, so the current in each bulb is\nI = I_equ/3 = 3V/(R × 3) = V/R\nAs power P = V²/R, P is inversely proportional to R. Hence the bulbs in case (2) will glow with greater brightness, because the power is 3 times more than that in case (1).\n(ii) In case (1), if one bulb gets fused the rest of the bulbs will not glow, because in a series circuit the voltage across the circuit is the sum of the voltages across each bulb and the circuit is broken. But in case (2), the parallel combination, the voltage across each bulb is the same, so all the other bulbs will glow — the interruption in the fused bulb does not affect the voltage across the others.",
+   "concept": "Electric Power",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "ocr": "The worked solution is split across pages: Case (1) ends on p43 and Case (2) resumes on p46, separated by the whole of pages 44-45. The two circuit diagrams (Case 1 / Case 2) belong to the solution only, so no figure is attached. 'Will the bulb in the two circuits glow' repaired to 'Will the bulbs'; 'voltage eruption in the fused bulb' read as 'interruption'."
+  },
+  {
+   "number": "260",
+   "form": "long",
+   "marks": 5,
+   "page": 46,
+   "section_heading": "FIVE MARKS QUESTIONS | SQP 2021",
+   "stem": "(i) Draw a labelled circuit diagram of the circuit used to show the variation of potential difference across the ends of a resistor with current flowing through it. If you use this circuit, what relation would you find between the voltmeter reading, V and the ammeter reading, I?\n(ii) A wire of given material having length l and area of cross-section A has a resistance of 4 Ω. Find the resistance of another wire of the same material having length l/2 and area of cross-section 2A.",
+   "answer": "(i) Ohm's law states that the current flowing in a conductor is directly proportional to the voltage applied across the ends of the conductor, keeping the temperature constant. The circuit consists of a battery, a key, a rheostat, an ammeter in series with the resistor and a voltmeter connected in parallel across the resistor.\nAccording to Ohm's law, V ∝ I; mathematically V = IR,\nwhere V = voltage applied, in volts\nI = current flowing in the circuit, in amperes\nR = resistance of the conductor (the proportionality constant).\nGraphically, the slope of the graph determines the resistance of the conductor, so the voltmeter reading is directly proportional to the ammeter reading.\n(ii) For the first wire, R₁ = ρ l/A = 4 Ω\nFor the second wire, R₂ = ρ (l/2)/(2A) = (1/4) ρ l/A = (1/4) R₁ = 1 Ω\nThe resistance of the new wire is 1 Ω.",
+   "concept": "Ohm's Law",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "ocr": "'ff you use this circuit' repaired to 'If you use this circuit'. The two figures (circuit diagram and V-I graph) belong to the worked solution, so no figure is attached."
+  },
+  {
+   "number": "261",
+   "form": "long",
+   "marks": 5,
+   "page": 46,
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "stem": "(a) For the combination of resistors shown in the following figure, find the equivalent resistance between M and N.\n(b) State Joule's law of heating.\n(c) Why do we need a 5 A fuse for an electric iron which consumes 1 kW power at 220 V?\n(d) Why is it impracticable to connect an electric bulb and an electric heater in series?",
+   "answer": "(a) In the given diagram R₁ and R₂ are connected in series and R₃ and R₄ are connected in parallel combination. Therefore the equivalent resistance between M and N is\nR_MN = (R₁ + R₂) + (R₃ × R₄)/(R₃ + R₄)\n(b) Joule's law of heating implies that the heat produced in a resistor is (i) directly proportional to the square of the current for a given resistance, (ii) directly proportional to the resistance and (iii) directly proportional to the time for which the current flows through the resistor, i.e.\nH = I²Rt, where I = current, R = resistance, t = time taken.\n(c) For an electric iron which consumes 1 kW of electric power when operated at 220 V, a current of (1000/220) A, i.e. 4.54 A, will flow in the circuit. In this case a 5 A fuse must be used.\n(d) In a series circuit the current is constant throughout the electric circuit. Thus it is impracticable to connect an electric bulb and an electric heater in series, because they need currents of widely different values to operate properly.",
+   "concept": "Joule's Law of Heating",
+   "images": [
+    "034e52f1138d1566e5a6d51f2c7278c2efa8c9d355c21334b98174412fc57cf7.jpg"
+   ],
+   "figure_required": true,
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "ocr": "MinerU dropped the '(a)' label: on p46 the printed number and first part read only 'For the combination of resistors shown in the following figure, find the equivalent resistance between M and N', with parts (b)-(d) following after the figure. The solution is split — its opening line ('R₁ and R₂ are connected in series and R₃ and R₄ are connected in parallel') sits on p46 while the rest, beginning mid-word with 'combination.' and the expression (R₁+R₂)+(R₃R₄)/(R₃+R₄), prints back on p45. The figure was inspected and confirms R₁, R₂ in series with R₃ ∥ R₄ between M and N."
+  },
+  {
+   "number": "262",
+   "form": "long",
+   "marks": 5,
+   "page": 45,
+   "section_heading": "FIVE MARKS QUESTIONS | Delhi 2020, OD 2014",
+   "stem": "(a) Derive the relation for the equivalent resistance when three resistors of resistances R₁, R₂ and R₃ are connected in parallel.\n(b) Find the minimum resistance that can be made using four resistors, each of 20 Ω.",
+   "answer": "(a) In a parallel combination the total current I is equal to the sum of the separate currents:\nI = I₁ + I₂ + I₃ …(1)\nLet R_p be the equivalent resistance of the parallel combination of resistors. Applying Ohm's law,\nI = V/R_p, and I₁ = V/R₁, I₂ = V/R₂, I₃ = V/R₃\nSubstituting in equation (1),\nV/R_p = V/R₁ + V/R₂ + V/R₃\n1/R_p = 1/R₁ + 1/R₂ + 1/R₃\nHence, if n resistors are connected in parallel the equivalent resistance is\n1/R_eq = 1/R₁ + 1/R₂ + 1/R₃ + … + 1/Rₙ\n(b) To get the minimum resistance all the resistors must be connected in parallel. Hence\n1/R = 1/20 + 1/20 + 1/20 + 1/20 = 4/20\nR = 20/4 = 5 ohm",
+   "concept": "Resistors in Parallel",
+   "sub_parts": [
+    "a",
+    "b"
+   ],
+   "ocr": "The figure beside the derivation belongs to the worked solution, so no figure is attached."
+  },
+  {
+   "number": "263",
+   "form": "long",
+   "marks": 5,
+   "page": 45,
+   "section_heading": "FIVE MARKS QUESTIONS | OD 2020",
+   "stem": "(a) Define power and state its SI unit.\n(b) A torch bulb is rated 5 V and 500 mA. Calculate its (i) Power (ii) Resistance (iii) Energy consumed when it is lighted for 2½ hours.",
+   "answer": "(a) Power is defined as the rate of doing work, i.e. the work done in unit time. The SI unit of power is the watt (W), which is joules per second (J/s).\n(b) Given: potential difference V = 5 volt, current I = 500 mA = 0.5 A.\n(i) Power, P = V × I = 5 × 0.5 = 2.5 W\n(ii) Resistance, R = V/I = 5/0.5 = 10 ohm\n(iii) Time, t = 2.5 × 60 × 60 s = 9000 s\nEnergy = Power × Time = 2.5 × 2.5 × 60 × 60 = 22500 joules",
+   "concept": "Electric Power",
+   "sub_parts": [
+    "a",
+    "b"
+   ],
+   "ocr": "The worked solution for (b) is heavily OCR-damaged ('V = 5 Volk', 'I = 5 VolMa', 'R = 2', '8 = 0.5 = 50/5 = 10 0h'); the values 0.5 A, 2.5 W and 10 Ω were recovered from the surviving fragments and the ratings in the stem. Part (b)(iii) is not printed here at all — it prints far earlier on p40 ('Energy = 2.5 × 2.5 × 60 × 60 = 22500 Joules'), inside the THREE MARKS character range, and was re-joined. The p40 copy ends '22500 Joules/sec.'; the unit is joules, not joules per second."
+  },
+  {
+   "number": "264",
+   "form": "long",
+   "marks": 5,
+   "page": 40,
+   "section_heading": "FIVE MARKS QUESTIONS | OD 2020, Delhi 2016",
+   "stem": "(a) An electric bulb is rated at 200 V; 100 W. What is its resistance?\n(b) Calculate the energy consumed by 3 such bulbs if they glow continuously for 10 hours for the complete month of November.\n(c) Calculate the total cost if the rate is ₹6.50 per unit.",
+   "answer": "(a) Here, potential difference across the bulb, V = 200 volt; power of the bulb, P = 100 W.\nAs P = V²/R, R = V²/P = (200 V)²/(100 W) = (4 × 10⁴)/100 Ω = 400 Ω\n(b) Electric energy consumed by 1 bulb in 10 hours for 30 days (November):\nW = Pt = 100 W × 10 × 30 = 30000 Wh\nElectric energy consumed by 3 bulbs = 30000 × 3 = 90000 Wh = 90 kWh = 90 units\n(c) Cost of 90 units of electric energy = 90 × 6.50 = ₹585",
+   "concept": "Commercial Unit of Energy",
+   "sub_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "ocr": "Section bleed: this is a FIVE MARKS question but MinerU prints it on p40, before the FIVE MARKS heading, inside the THREE MARKS character range. Authored here with its true printed form (long, 5 marks)."
+  },
+  {
+   "number": "265",
+   "form": "long",
+   "marks": 5,
+   "page": 40,
+   "section_heading": "FIVE MARKS QUESTIONS | SQP 2020, OD 2014",
+   "stem": "(a) What is meant by the statement, “The resistance of a conductor is one ohm”?\n(b) Define electric power. Write an expression relating electric power, potential difference and resistance.\n(c) How many 132 Ω resistors in parallel are required to carry 5 A on a 220 V line?",
+   "answer": "(a) Ohm's law states that the current flowing through a conductor is directly proportional to the potential difference maintained across the two ends of the conductor at constant temperature and pressure. If I is the current and V the potential difference, then V ∝ I, so V = IR, where R is the proportionality constant called resistance.\nAs per the question the resistance of the conductor is 1 ohm. Let V = 1 volt and I = 1 A, then R = 1 ohm. Hence the resistance is said to be 1 ohm if 1 ampere of current flows through a circuit due to a potential difference of 1 volt.\n(b) Electric power is the rate at which work is done or energy is transformed in an electrical circuit. P = VI, where P is the power, V the potential difference and I the electric current. Using Ohm's law it can also be written as P = I²R and P = V²/R, where R is the resistance in the circuit.\n(c) Let x be the number of 132 Ω resistors. Supply voltage V = 220 volt, current I = 5 A. If R is the equivalent resistance of the combination,\n1/R = x × (1/132), so R = 132/x\nFrom Ohm's law: 132/x = 220/5 = 44\n132 = 44x, so x = 132/44 = 3\nSo the answer is 3 resistors.",
+   "concept": "Electrical Resistance",
+   "sub_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "ocr": "Section bleed: this is a FIVE MARKS question but MinerU prints it on p40, before the FIVE MARKS heading, inside the THREE MARKS character range. Authored here with its true printed form (long, 5 marks). The source prints U+FFFD replacement characters where the curly quotation marks and apostrophes stood ('Ohm?s law', 'Ohm\"s law', '?The resistance ... ?'); these were restored."
+  },
+  {
+   "number": "266",
+   "form": "long",
+   "marks": 5,
+   "page": 40,
+   "section_heading": "FIVE MARKS QUESTIONS | Comp. 2020",
+   "stem": "(a) State the relation correlating the electric current flowing in a conductor and the voltage applied across it. Also draw a graph to show this relationship.\n(b) Find the resistance of a conductor if the electric current flowing through it is 0.35 A when the potential difference across it is 1.4 V.",
+   "answer": "(a) Ohm's law states that the current flowing in a conductor is directly proportional to the voltage applied across the ends of the conductor, keeping the temperature constant: V ∝ I, so V = IR. Graphically, the V–I graph is a straight line passing through the origin and its slope determines the resistance of the conductor.\n(b) Given, current flowing through the conductor I = 0.35 A and potential difference across it V = 1.4 volt.\nAccording to Ohm's law, V = IR\n1.4 = 0.35 × R\nR = 1.4/0.35 = 4 Ω\nTherefore, the resistance of the conductor is 4 ohms.",
+   "concept": "Ohm's Law",
+   "sub_parts": [
+    "a",
+    "b"
+   ],
+   "ocr": "Section bleed plus a page split: the stem prints on p40-41 (inside the THREE MARKS character range, before the FIVE MARKS heading) and breaks off mid-sentence at '(b) Find the resistance of a conductor if the electric'; its tail ('current flowing through it is 0.35 A when the potential difference across it is 1.4 V') was pulled onto p46 next to Q261 and has been re-joined here. The solution prints on p47. Its arithmetic line reads '1.4 V = 0 35 # R  R = 01 345 = 4 W', OCR damage for 1.4 = 0.35 × R, R = 1.4/0.35 = 4 Ω. The graph beside the solution is solution-side, so no figure is attached."
+  },
+  {
+   "number": "267",
+   "form": "long",
+   "marks": 5,
+   "page": 47,
+   "section_heading": "FIVE MARKS QUESTIONS | OD 2020",
+   "stem": "(i) Consider a conductor of resistance R, length L, thickness d and resistivity ρ. Now this conductor is cut into four equal parts. What will be the new resistivity of each of these parts? Why?\n(ii) Find the resistance if all of these parts are connected in: (a) Parallel (b) Series\n(iii) Out of the combinations of resistors mentioned above in the previous part, for a given voltage which combination will consume more power and why?",
+   "answer": "(i) The resistivity will not change, as it depends only on the nature of the material of the conductor and on the temperature. It does not depend on the length of the conductor.\n(ii) Let the length of the conductor AB = L. When the conductor is cut into four equal parts, the length of each part = L/4.\nSince R = ρL/A, the resistance of each part is\nR′ = ρL/(4A) = (1/4)(ρL/A) = R/4\n(a) When all four parts are connected in parallel:\n1/R_p = 1/R′ + 1/R′ + 1/R′ + 1/R′ = 4/R + 4/R + 4/R + 4/R = 16/R\nR_p = R/16\n(b) When all four parts are connected in series:\nR_S = R/4 + R/4 + R/4 + R/4 = 4R/4 = R\n(iii) Since P = V²/R_eqv, if R_eqv is less the power consumed will be more. In the given case R_eqv is smaller for the parallel combination, so the parallel combination will consume more power.",
+   "concept": "Resistivity",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii"
+   ],
+   "ocr": "The printed solution contradicts itself on the parallel result: it correctly derives '1/R_p = 16/R' and then writes 'R_p = 16/R Ω' on the next line. The derivation wins, so R_p = R/16 is recorded (this also agrees with Q290 of the same chapter, which states the joint resistance of four such parts is 1/16th of the original). The figure beside the solution is solution-side, so no figure is attached."
+  },
+  {
+   "number": "268",
+   "form": "long",
+   "marks": 5,
+   "page": 47,
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "stem": "(a) List two disadvantages of using a series circuit in homes.\n(b) Calculate the effective resistance between A and B in the circuit given below:",
+   "answer": "(a) (i) The current is constant in a series combination, so it is impractical to connect appliances needing different currents — for example a bulb and an electric heater — in series. (ii) When one component fails, the circuit is broken and none of the components work.\n(b) In the given circuit the 6 Ω and 4 Ω resistances are connected in series, so their equivalent resistance is\nR = 6 + 4 = 10 ohm\nThe 3 Ω and 3 Ω resistances are also in series, so their equivalent resistance is\nR = 3 + 3 = 6 ohm\nThe circuit now reduces to 10 ohm, 6 ohm and 15 ohm all connected in parallel between A and B, hence\n1/R = 1/10 + 1/6 + 1/15\nSolving, R = 3 ohm",
+   "concept": "Resistors in Parallel",
+   "images": [
+    "785b86b2535938eb201aa9a8870caf63467a346f23874726ed5d1ab2af2414fa.jpg"
+   ],
+   "figure_required": true,
+   "sub_parts": [
+    "a",
+    "b"
+   ],
+   "ocr": "The worked solution prints on p52, five pages after the question. The figure was inspected: the 6 Ω + 4 Ω branch, the 3 Ω + 3 Ω branch and the 15 Ω diagonal all bridge A and B, which matches the solution."
+  },
+  {
+   "number": "269",
+   "form": "long",
+   "marks": 5,
+   "page": 52,
+   "section_heading": "FIVE MARKS QUESTIONS | Delhi 2019",
+   "stem": "In the circuit given below, the resistors R₁, R₂ and R₃ have the values 10 Ω, 20 Ω and 30 Ω respectively, which have been connected to a battery of 12 V. Calculate\n(a) the current through each resistor,\n(b) the total circuit resistance, and\n(c) the total current in the circuit.",
+   "answer": "Given R₁ = 10 Ω, R₂ = 20 Ω, R₃ = 30 Ω and V = 12 volt.\n(a) Current in each resistor:\nI₁ = V/R₁ = 12/10 = 6/5 A\nI₂ = V/R₂ = 12/20 = 3/5 A\nI₃ = V/R₃ = 12/30 = 2/5 A\n(b) All the resistors are connected in parallel, hence the equivalent resistance is\n1/R_P = 1/R₁ + 1/R₂ + 1/R₃ = 1/10 + 1/20 + 1/30 = (6 + 3 + 2)/60 = 11/60\nR_P = 60/11 Ω\n(c) Total current in the circuit:\nI = I₁ + I₂ + I₃ = 6/5 + 3/5 + 2/5 = 11/5 A",
+   "concept": "Resistors in Parallel",
+   "images": [
+    "90f5dfe4a53c23b75b7106ec1f93ce57c2fc46f1a60ee55bd9b95583c8560991.jpg"
+   ],
+   "figure_required": true,
+   "sub_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "ocr": "The printed solution says 'All the resistors are connected in the series combination' and then computes the parallel equivalent (1/R_P = 1/10 + 1/20 + 1/30, R_P = 60/11 Ω). The figure was inspected and shows three resistors in parallel with a voltmeter across them, so the worked arithmetic wins over the stray word 'series'. The solution's 'V = 2 Volt' is OCR damage for V = 12 V (the stem and every calculation use 12 V), and its final line mislabels the total current 'I₁'."
+  },
+  {
+   "number": "270",
+   "form": "long",
+   "marks": 5,
+   "page": 52,
+   "section_heading": "FIVE MARKS QUESTIONS | SQP 2019, OD 2014",
+   "stem": "In the given circuit, find\n(a) Total resistance of the network of resistors\n(b) Current through ammeter A, and\n(c) Potential difference across 3 Ω and 6 Ω resistors",
+   "answer": "(a) The equivalent resistance of the circuit is\nR_eq = R₁ + (R₂ × R₃)/(R₂ + R₃), where R₁ = 3 Ω, R₂ = 6 Ω, R₃ = 6 Ω\n= 3 + (6 × 6)/(6 + 6) = 3 + 36/12 = 3 + 3 = 6 Ω\n(b) Current through the ammeter A:\nV = I R_eq, so I = V/R_eq = 6/6 = 1 A\n(c) Potential difference across the 3 Ω resistor:\nV₁ = 1 × 3 = 3 V\nPotential difference across the 6 Ω resistor (as printed):\nV₂ = 1 × 6 = 6 V",
+   "concept": "Resistors in Parallel",
+   "images": [
+    "76752c105495f21c5ae66da4db09866634f40ac0f4fb852f37f00dc3c31ac440.jpg"
+   ],
+   "figure_required": true,
+   "sub_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "ocr": "The solution prints on p49, three pages before the question. Its line '= 3 + 30 = 6 Ω' is OCR damage for 3 + 3 = 6 Ω. Part (c) as printed is internally inconsistent: with a 6 V supply and V₁ = 3 V across the series 3 Ω, the 6 Ω ∥ 6 Ω section can only carry 3 V, yet the book writes V₂ = 1 × 6 = 6 V (multiplying the total current by a branch resistance instead of by the 3 Ω parallel equivalent). The printed value is reproduced and flagged rather than silently corrected. The figure was inspected: 3 Ω in series with 6 Ω ∥ 6 Ω across a 6 V battery with an ammeter."
+  },
+  {
+   "number": "271",
+   "form": "long",
+   "marks": 5,
+   "page": 49,
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "stem": "(a) How will you infer, with the help of an experiment, that the same current flows through every part of a circuit containing three resistors in series connected to a battery?\n(b) Consider the given circuit and find the current flowing in the circuit and the potential difference across the 15 Ω resistor when the circuit is closed.",
+   "answer": "(a) Let three resistors R₁, R₂ and R₃ be connected in series along with a battery, an ammeter and a key. When the key is closed the current starts flowing through the circuit; take the reading of the ammeter. Now change the position of the ammeter to anywhere in between the resistors and take its reading again. We observe that in both cases the reading of the ammeter is the same, showing that the same current flows through every part of the circuit.\n(b) Given R₁ = 5 Ω, R₂ = 10 Ω, R₃ = 15 Ω and V = 30 volt.\nThe three resistors are in series, so the equivalent resistance is\nR = R₁ + R₂ + R₃ = 5 + 10 + 15 = 30 Ω\nFrom Ohm's law, I = V/R = 30 V/30 Ω = 1 A\nCurrent flowing in the circuit = 1 A\nPotential difference across the 15 Ω resistor = I R₃ = 1 × 15 = 15 V",
+   "concept": "Resistors in Series",
+   "images": [
+    "5c60a39df5ff54868eb5f43ac10e36a57eeabaeb4660975f0d2c5e1a93bc680b.jpg"
+   ],
+   "figure_required": true,
+   "sub_parts": [
+    "a",
+    "b"
+   ],
+   "ocr": "'How will you nfer' repaired to 'infer'. Part (a) of the solution contains a collapsed inline circuit sketch ('R₁ R₂ R₃ A + |HF() K') which was dropped as OCR noise; the LaTeX block holding part (b) is badly mangled ('= 8 (surential differenee', 'Fom Ohm 5 law') and the numbers were recovered from the surviving fractions 30V/30Ω = 1 A and 1 × 15 Ω = 15 V."
+  },
+  {
+   "number": "272",
+   "form": "long",
+   "marks": 5,
+   "page": 49,
+   "section_heading": "FIVE MARKS QUESTIONS | OD 2019, Delhi 2017",
+   "stem": "(a) Three resistors R₁, R₂ and R₃ are connected in parallel and the combination is connected to a battery, ammeter, voltmeter and key. Draw a suitable circuit diagram and obtain an expression for the equivalent resistance of the combination of the resistors.\n(b) Calculate the equivalent resistance of the following network",
+   "answer": "(a) R₁, R₂ and R₃ are three resistances connected in parallel to one another and R is the equivalent resistance of the circuit. A battery of V volts is applied across the ends of this combination. When the key is closed a current I flows in the circuit.\nFrom Ohm's law, I = V/R, I₁ = V/R₁, I₂ = V/R₂, I₃ = V/R₃\nSince I = I₁ + I₂ + I₃, substituting these values gives\nV/R = V/R₁ + V/R₂ + V/R₃\nV(1/R) = V(1/R₁ + 1/R₂ + 1/R₃)\n1/R = 1/R₁ + 1/R₂ + 1/R₃\n(b) Let R_p be the equivalent resistance of the two 20 Ω resistors connected in parallel:\n1/R_p = 1/20 + 1/20, so R_p = 10 Ω\nThe equivalent circuit now has 10 Ω and 10 Ω connected in series, so the equivalent resistance of the network is\n10 Ω + 10 Ω = 20 Ω",
+   "concept": "Resistors in Parallel",
+   "images": [
+    "9bcc36372d6d11d65ed4fcd76c43b08b46e939f755bf165ea6d03010d58343db.jpg"
+   ],
+   "figure_required": true,
+   "sub_parts": [
+    "a",
+    "b"
+   ],
+   "ocr": "The solution is split across seven pages: it opens on p49 and is cut off at the page break, resuming on p56 ('From Ohm's law … 1/R = 1/R₁ + 1/R₂ + 1/R₃' then part (b)). The figure was inspected and shows 10 Ω in series with 20 Ω ∥ 20 Ω between A and B, which matches the p56 arithmetic and confirms the re-join. The p56 solution's own two figures are solution-side and are not attached."
+  },
+  {
+   "number": "273",
+   "form": "long",
+   "marks": 5,
+   "page": 56,
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "stem": "(a) With the help of a suitable circuit diagram prove that the reciprocal of the equivalent resistance of a group of resistances joined in parallel is equal to the sum of the reciprocals of the individual resistances.\n(b) In an electric circuit two resistors of 12 Ω each are joined in parallel to a 6 V battery. Find the current drawn from the battery.",
+   "answer": "(a) R₁, R₂ and R₃ are three resistances connected in parallel to one another and R is the equivalent resistance of the circuit. A battery of V volts is applied across the ends of this combination. When the key is closed a current I flows in the circuit.\nFrom Ohm's law, I = V/R, I₁ = V/R₁, I₂ = V/R₂, I₃ = V/R₃, and I = I₁ + I₂ + I₃\nSubstituting these values,\nV/R = V/R₁ + V/R₂ + V/R₃\nV(1/R) = V(1/R₁ + 1/R₂ + 1/R₃)\n1/R = 1/R₁ + 1/R₂ + 1/R₃\n(b) Given two resistors of 12 Ω connected in parallel and V = 6 volt.\n1/R_eq = 1/R₁ + 1/R₂ = 1/12 + 1/12 = 2/12\nR_eq = 12/2 = 6 Ω\nAccording to Ohm's law, V = IR\n6 = I × 6\nI = 1 ampere",
+   "concept": "Resistors in Parallel",
+   "sub_parts": [
+    "a",
+    "b"
+   ],
+   "ocr": "The last two lines of the solution ('6/6 = I, I = 1 ampere') print back on p51, five pages before the rest, and were re-joined. The circuit diagram beside the derivation is solution-side, so no figure is attached."
+  },
+  {
+   "number": "274",
+   "form": "long",
+   "marks": 5,
+   "page": 51,
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "stem": "An electric lamp of resistance 20 Ω and a conductor of resistance 4 Ω are connected to a 6 V battery as shown in the circuit. Calculate\n(a) the total resistance of the circuit,\n(b) the current through the circuit,\n(c) the potential difference across the (i) electric lamp and (ii) conductor, and\n(d) power of the lamp.",
+   "answer": "(a) Given R₁ = 20 Ω and R₂ = 4 Ω. Since they are in series, R = R₁ + R₂, so the total resistance of the circuit is\nR = 20 + 4 = 24 Ω\n(b) V = 6 volt, R = 24 Ω. According to Ohm's law V = IR, so\nI = V/R = 6/24 = 1/4 = 0.25 ampere\n(c) (i) Potential difference across the electric lamp:\nV₁ = I R₁ = (1/4) × 20 = 5 V\n(ii) Potential difference across the conductor:\nV₂ = I R₂ = (1/4) × 4 = 1 V\n(d) Power of the lamp:\nP = I²R₁ = (1/4)² × 20 = (1/4) × (1/4) × 20 = 5/4 = 1.25 watt",
+   "concept": "Resistors in Series",
+   "images": [
+    "59c64ac69a0a37776f94ff1db1a0445d68d83b86d0e242837da9db98af73ca40.jpg"
+   ],
+   "figure_required": true,
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "ocr": "Parts (a)-(d) of the stem print after the figure, below the opening sentence; they were re-joined into one stem."
+  },
+  {
+   "number": "275",
+   "form": "long",
+   "marks": 5,
+   "page": 51,
+   "section_heading": "FIVE MARKS QUESTIONS | Comp. 2018",
+   "stem": "Show how would you join three resistors, each of resistance 9 Ω, so that the equivalent resistance of the combination is (a) 13.5 Ω (b) 6 Ω?",
+   "answer": "(a) To get an equivalent resistance of 13.5 Ω, two of the 9 Ω resistors are connected in parallel and the third is connected in series with that combination:\n1/R_p = 1/R₁ + 1/R₂ = 1/9 + 1/9 = 2/9\nR_p = 9/2 = 4.5 Ω\nR_eq = R₃ + R_p = 9 + 4.5 = 13.5 Ω\n(b) To get an equivalent resistance of 6 Ω, two of the 9 Ω resistors are connected in series and the third is connected in parallel with that combination:\nR_s = R₁ + R₂ = 9 + 9 = 18 Ω\nNow the 9 Ω resistor and the 18 Ω series combination are in parallel, so\n1/R_p = 1/9 + 1/18 = 3/18\nR_p = 18/3 = 6 Ω",
+   "concept": "Resistors in Parallel",
+   "sub_parts": [
+    "a",
+    "b"
+   ],
+   "ocr": "Both figures belong to the worked solution (they show the arrangements the answer asks the student to draw), so no figure is attached."
+  },
+  {
+   "number": "276",
+   "form": "long",
+   "marks": 5,
+   "page": 51,
+   "section_heading": "FIVE MARKS QUESTIONS | Delhi 2018",
+   "stem": "(a) Write Joule's law of heating.\n(b) Two lamps, one rated 100 W; 220 V and the other 60 W; 220 V, are connected in parallel to the electric mains supply. Find the current drawn by the two bulbs from the line, if the supply voltage is 220 V.",
+   "answer": "(a) According to Joule's law of heating, the heat produced in a wire is directly proportional to (i) the square of the current, I², (ii) the resistance of the wire, R, and (iii) the time t for which the current is passed. Thus the heat produced in the wire by a current I in time t is\nH ∝ I²Rt, i.e. H = I²Rt\n(b) We know that P = VI, so I = P/V.\nFirst lamp: I₁ = P₁/V = 100/220 = 0.45 A\nSecond lamp: I₂ = P₂/V = 60/220 = 0.27 A\nSo, total current = I₁ + I₂ = 0.45 + 0.27 = 0.72 A",
+   "concept": "Joule's Law of Heating",
+   "sub_parts": [
+    "a",
+    "b"
+   ],
+   "ocr": "The solution is split by the page break: item (i) of Joule's law and the fragment 'resistance of wire R' print on p51, while item (iii) and part (b) resume on p54. They were re-joined."
+  },
+  {
+   "number": "277",
+   "form": "long",
+   "marks": 5,
+   "page": 54,
+   "section_heading": "FIVE MARKS QUESTIONS | SQP 2018, OD 2016",
+   "stem": "The values of current (I) flowing through a given resistor of resistance (R), for the corresponding values of potential difference (V) across the resistor are given below:\n<html><body><table><tr><td>(V ) (in volts)</td><td>0.5</td><td>1.0</td><td>1.5</td><td>2.0</td><td>2.5</td><td>3.0</td><td>4.0</td><td>5.0</td></tr><tr><td>(I) (in amperes)</td><td>0.1</td><td>0.2</td><td>0.3</td><td>0.4</td><td>0.5</td><td>0.6</td><td>0.8</td><td>1.0</td></tr></table></body></html>\nPlot a graph between current (I) and potential difference (V) and determine the resistance (R) of the resistor.",
+   "answer": "We know that V = IR.\nPlotting the given readings gives a straight line passing through the origin. From the curve, the resistance of the conductor is the slope of the V–I curve:\nR = (V_B − V_A)/(I_B − I_A) = (1 − 0.5)/(0.2 − 0.1) = 0.5/0.1 = 5 Ω",
+   "concept": "Ohm's Law",
+   "ocr": "The HTML table is kept verbatim from the extraction. The plotted graph belongs to the worked solution, so no figure is attached."
+  },
+  {
+   "number": "278",
+   "form": "long",
+   "marks": 5,
+   "page": 54,
+   "section_heading": "FIVE MARKS QUESTIONS | OD 2017",
+   "stem": "(a) Define electric current. Write down the formula which relates electric current, electric charge and time.\n(b) An electric bulb draws a current of 0.75 A for 15 minutes. Calculate the amount of electric charge that flows through the circuit.",
+   "answer": "(a) The electric current is a flow of electric charges, called electrons, in a conductor such as a metal wire. The magnitude of the electric current in a conductor is the amount of electric charge passing through a given point of the conductor in one second. If a charge of Q coulombs flows through a conductor in time t seconds, then the magnitude I of the electric current flowing through it is given by\nI = Q/t\n(b) Given, current I = 0.75 A and time t = 15 min = 15 × 60 s = 900 s.\nNow, I = Q/t\n0.75 = Q/900\nQ = 0.75 × 900\nTherefore the charge, Q = 675 coulombs.",
+   "concept": "Electric Current",
+   "sub_parts": [
+    "a",
+    "b"
+   ],
+   "ocr": "The solution's labels ('(b) Current, Charge, Time, Now, or Therefore charge') print after the LaTeX block that holds their values; the two were interleaved by MinerU and have been re-paired."
+  },
+  {
+   "number": "279",
+   "form": "long",
+   "marks": 5,
+   "page": 54,
+   "section_heading": "FIVE MARKS QUESTIONS | OD 2016",
+   "stem": "Define electric power. Write and define the S.I. unit of electric power. Derive the formula for electric power.",
+   "answer": "The electric work done per unit time is called electric power.\nElectric power = Electric work done / Time taken, i.e. P = W/t\nElectric power is also defined as the electric energy consumed per unit time: P = E/t\nThe S.I. unit of electric power is the watt. When one joule of energy is used for one second, the electric power is equal to one watt.\nDerivation of electric power: we know that the electric work done is\nW = V × I × t\nSo, P = VIt/t\nP = VI\nThat is, electric power in watts = volts × ampere.\nAlso, since V = IR,\nP = IR × I = I²R\nand since I = V/R,\nP = V²/R",
+   "concept": "Electric Power",
+   "ocr": "The solution runs off the bottom of p54 mid-sentence ('electric power is Click Here to Buy book on Amazon') and resumes on p53 with 'equal to one watt. Derivation of Electric Power …'; the two halves were re-joined and the advertising line stripped."
+  },
+  {
+   "number": "280",
+   "form": "long",
+   "marks": 5,
+   "page": 53,
+   "section_heading": "FIVE MARKS QUESTIONS | Delhi 2016, OD 2011",
+   "stem": "A household uses the following electric appliances:\n(i) refrigerator of rating 400 W for 10 hours each day.\n(ii) two electric fans of rating 80 W each for 6 hours daily.\n(iii) six electric tubes of rating 18 W each for 6 hours daily.\nCalculate the electricity bill for the household for the month of June, if the cost of electrical energy is ₹3.00 per unit.",
+   "answer": "Power of the refrigerator = 400 W = 400/1000 kW = 0.4 kW\nEnergy consumed per day by the refrigerator = 0.4 kW × 10 h = 4 kWh\nPower of each fan = 80 W = 80/1000 = 0.08 kW\nEnergy consumed per day by the fans = 2 × 0.08 kW × 6 h = 0.96 kWh\nEnergy consumed per day by the lights = 6 × 0.018 kW × 6 h = 0.648 kWh\nTotal energy consumed per day = 4 + 0.96 + 0.648 = 5.608 kWh\nEnergy consumed in 30 days (June) = 5.608 × 30 = 168.24 kWh = 168.24 units\nCost of 168.24 units at ₹3.00 per unit = 168.24 × 3.00 = ₹504.72",
+   "concept": "Commercial Unit of Energy",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii"
+   ],
+   "ocr": "The printed solution's last two lines lost their numbers — they read only 'Energy consumed in 30 days' and 'Cost of 168.24 units @ ₹3.00', with no results. The 168.24 units it names is 5.608 × 30, and the bill ₹504.72 follows from the stated rate; both were completed from the book's own figures. The rupee sign is rendered as '¥' or 'F' in places by OCR."
+  },
+  {
+   "number": "281",
+   "form": "long",
+   "marks": 5,
+   "page": 53,
+   "section_heading": "FIVE MARKS QUESTIONS | Foreign 2017, Delhi 2014",
+   "stem": "The values of current I flowing in a given resistor for the corresponding values of potential difference V across the resistor are given below:\n<html><body><table><tr><td>I (ampere)</td><td>0.5</td><td>1.0</td><td>2.0</td><td>3.0</td></tr><tr><td>V (Volts)</td><td>1.5</td><td>3.0</td><td>6.2</td><td>9.3</td></tr></table></body></html>\n(i) Plot a graph between V and I.\n(ii) Calculate the resistance of that resistor.\n(iii) What does the graph represent?",
+   "answer": "(i) Take I on the X-axis and V on the Y-axis to plot the graph; the points lie on a straight line through the origin.\n(ii) Resistance from the graph, R = (V₂ − V₁)/(I₂ − I₁)\nR₁ = (3.0 − 1.5)/(1.0 − 0.5) = 1.5/0.5 = 3 Ω\nR₂ = (6.2 − 3.0)/(2.0 − 1.0) = 3.2/1 = 3.2 Ω\nR₃ = (9.3 − 6.2)/(3.0 − 2.0) = 3.1/1 = 3.1 Ω\nMean R = (R₁ + R₂ + R₃)/3 = (3 + 3.2 + 3.1)/3 = 9.3/3 = 3.1 Ω\n(iii) The graph shows that the current is directly proportional to the potential difference.",
+   "concept": "Ohm's Law",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii"
+   ],
+   "ocr": "The table's first header cell is printed as '/ (ampere)'; the slash is OCR damage for the italic 'I' and was repaired, the rest of the table is verbatim. In the worked solution the third slope is labelled 'R₄' although it is the third of three and is averaged as R₃ on the next line; relabelled R₃. The plotted graph belongs to the solution, so no figure is attached."
+  },
+  {
+   "number": "282",
+   "form": "long",
+   "marks": 5,
+   "page": 50,
+   "section_heading": "FIVE MARKS QUESTIONS | Comp 2017, Delhi 2014",
+   "stem": "(a) State Ohm's law.\n(b) Draw a circuit diagram for the verification of Ohm's law. Also plot graphically the variation of current with potential difference.\n(c) Calculate the resistance of a wire, when a potential difference of 2 V is maintained for 1 A current to flow through it.",
+   "answer": "(a) Ohm's law states that the current flowing in a conductor is directly proportional to the voltage applied across the ends of the conductor, keeping the temperature constant.\n(b) The circuit diagram consists of a cell, a key, a rheostat, an ammeter in series with the resistance wire and a voltmeter connected in parallel across it. The graph of current against potential difference is a straight line passing through the origin.\n(c) R = V/I = 2/1 = 2 Ω",
+   "concept": "Ohm's Law",
+   "sub_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "ocr": "Part (c) of the printed solution reads 'R = V/I = 2/1 = 1 Ω'; the division it writes out gives 2, so the stated result is a misprint and R = 2 Ω is recorded. The circuit-and-graph figure belongs to the solution, so no figure is attached."
+  },
+  {
+   "number": "283",
+   "form": "long",
+   "marks": 5,
+   "page": 50,
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "stem": "Describe an experiment to study the factors on which the resistance of a conducting wire depends. What is the effect of temperature on the resistance of a given conductor? For a given material, which of the two wires, thick or thin (having the same length), has less resistance? Why?",
+   "answer": "(a) Connect a circuit consisting of a cell, an ammeter, a wire of a material of high resistance — for example nichrome of length L (marked 1 in the figure) — and a key. Insert the key and note the current in the ammeter. Replace the wire by another one having the same thickness but of length 2L (marked 2). We note that the current has now decreased to one half, showing that the current depends on the length of the wire. Now take a thicker nichrome wire, i.e. of larger cross-sectional area but of the same length L (marked 3); we find that the current in the ammeter has increased, indicating that the flow of current depends on the cross-sectional area of the wire. Finally, instead of nichrome, take a wire of another material having the same length and the same cross-sectional area (marked 4); we find that the current in the ammeter has changed. This shows that the flow of current from the same source also depends on the material of the wire.\n(b) The resistance of all pure metals increases on raising the temperature and decreases on lowering the temperature, provided the length, cross-sectional area and material of the conductor remain the same.\n(c) The thicker wire will have less resistance than the thinner wire, because resistance is inversely proportional to the area of cross-section of the wire.",
+   "concept": "Factors Affecting Resistance",
+   "ocr": "'note the current n the ammeter' repaired to 'in the ammeter'. The four-wire experiment figure is printed with the worked solution (the answer refers to wires 'marked 1' to 'marked 4' in it) rather than with the question, so no figure is attached."
+  },
+  {
+   "number": "284",
+   "form": "long",
+   "marks": 5,
+   "page": 50,
+   "section_heading": "FIVE MARKS QUESTIONS | SQP 2016, Delhi 2008",
+   "stem": "Two resistances when connected in series give a resultant value of 9 Ω. The same resistances when connected in parallel give a resultant value of 2 Ω. Calculate the value of each resistance.",
+   "answer": "Let R₁ and R₂ be the two resistances.\nIn series: R₁ + R₂ = 9 …(1)\nIn parallel: 1/R₁ + 1/R₂ = 1/2, i.e. (R₁ + R₂)/(R₁R₂) = 1/2\nFrom equation (1), 9/(R₁R₂) = 1/2, so R₁R₂ = 18\nNow (R₁ − R₂)² = (R₁ + R₂)² − 4R₁R₂ = (9)² − 4 × 18 = 81 − 72 = 9\nThus R₁ − R₂ = 3 …(2)\nAdding equations (1) and (2):\n2R₁ = 12, so R₁ = 6 Ω\nSubstituting in equation (1): 6 + R₂ = 9, so R₂ = 9 − 6 = 3 Ω\nHence the two resistances are 6 Ω and 3 Ω.",
+   "concept": "Resistors in Parallel",
+   "ocr": "The printed stem duplicates a clause: 'The same resistances connected in series give resultant when connected in parallel give resultant value of 2 Ω.' The stray 'connected in series give resultant' was dropped, leaving the sentence the solution actually answers. The attribution line 'SQP 2016, Delhi 2008' prints after the first line of the solution, and the solution itself continues on p55."
+  },
+  {
+   "number": "285",
+   "form": "long",
+   "marks": 5,
+   "page": 55,
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "stem": "In the following circuit diagram, find\n(a) the total resistance of the circuit.\n(b) the total current flowing in the circuit.\n(c) the potential difference across resistance R₁.",
+   "answer": "(a) Resistance R₁ = 8 Ω, R₂ = 3 Ω, R₃ = 6 Ω. Let the resultant of the parallel pair be R₄.\n1/R₄ = 1/R₂ + 1/R₃ = 1/3 + 1/6 = (2 + 1)/6 = 3/6 = 1/2\nR₄ = 2 Ω\nEquivalent resistance of the circuit, R = R₁ + R₄ = (8 + 2) Ω = 10 Ω\n(b) Potential difference V = 6 volt and equivalent resistance R = 10 Ω.\nV = IR, so I = V/R = 6/10 = 0.6 A\n(c) Resistance R₁ = 8 Ω and the current through R₁ is I = 0.6 A.\nV = R × I = 8 × 0.6 = 4.8 V",
+   "concept": "Resistors in Series",
+   "images": [
+    "ddbb8cf14f1a5466ce4cd33b0480a91c6a3a34f645a73cff82ba7803e19b78d5.jpg"
+   ],
+   "figure_required": true,
+   "sub_parts": [
+    "a",
+    "b",
+    "c"
+   ]
+  },
+  {
+   "number": "286",
+   "form": "long",
+   "marks": 5,
+   "page": 55,
+   "section_heading": "FIVE MARKS QUESTIONS | OD 2016, Delhi 2011",
+   "stem": "In the following circuit diagram, calculate the resistance offered by the combination if the current enters at A and leaves at D.",
+   "answer": "Resistances AB, BC and CD are in series. Their equivalent resistance is\nR₁ = (2 + 2 + 2) Ω = 6 Ω\nAlso, resistances AF, FE and ED are in series. Their equivalent resistance is\nR₂ = (2 + 2 + 2) Ω = 6 Ω\nResistances R₁ and R₂ are in parallel, so the equivalent resistance is\n1/R = 1/R₁ + 1/R₂ = 1/6 + 1/6 = 2/6 = 1/3\nR = 3 Ω",
+   "concept": "Resistors in Parallel",
+   "images": [
+    "73263f86a35aa99e0c8efa390b3c8e19343c879ad4a13dc77080794de2e31c33.jpg"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "287",
+   "form": "long",
+   "marks": 5,
+   "page": 55,
+   "section_heading": "FIVE MARKS QUESTIONS | Comp. 2017, Delhi 2011",
+   "stem": "(a) Resistors are given as R₁ = 10 Ω, R₂ = 20 Ω and R₃ = 30 Ω. Calculate the effective resistance when they are connected in series. Also calculate the current flowing when the combination is connected to a 6 V battery.\n(b) Three resistors R₁, R₂ and R₃ are connected in series to a battery. Draw the circuit diagram showing the arrangement. Derive an expression for the equivalent resistance of the combination.",
+   "answer": "(a) In a series combination the effective resistance is\nR = R₁ + R₂ + R₃ = 10 + 20 + 30 = 60 Ω\nWhen this combination is connected to a 6 V battery, the current is\nI = V/R = 6/60 = 1/10 A = 0.1 A\n(b) Let the potential differences across the resistors R₁, R₂ and R₃ be V₁, V₂ and V₃ respectively, and let I be the current through the circuit. In a series circuit the current through each resistor is the same, I, and the potential difference V across the combination is equal to the sum of the potential differences across the individual resistors:\nV = V₁ + V₂ + V₃ …(1)\nIf the resistors are replaced by an equivalent single resistor R such that the potential difference across it is V and the current I remains the same, then applying Ohm's law to the whole circuit and to the three resistors separately,\nV = IR and V₁ = IR₁, V₂ = IR₂, V₃ = IR₃\nSubstituting in equation (1),\nIR = IR₁ + IR₂ + IR₃\nR = R₁ + R₂ + R₃",
+   "concept": "Resistors in Series",
+   "sub_parts": [
+    "a",
+    "b"
+   ],
+   "ocr": "This question lost its printed number and its two parts print on different pages: part (a) sits on p55 immediately after Q286's solution, while part (b) and the shared solution ('Ans Comp. 2017, Delhi 2011') print on p48 next to Q268. They were re-joined — the solution's '(a) In series combination effective resistance R = 10 + 20 + 30 = 60 Ω … 6 V battery' answers exactly the p55 fragment. 287 is the only number missing from the otherwise unbroken 259-293 run and is precisely the slot after 286, so the number was inferred from position. The circuit diagram printed with part (b) is solution-side (the question asks the student to draw it), so no figure is attached."
+  },
+  {
+   "number": "288",
+   "form": "long",
+   "marks": 5,
+   "page": 48,
+   "section_heading": "FIVE MARKS QUESTIONS | Delhi 2016, Delhi 2013",
+   "stem": "(a) How many 330 Ω resistances in parallel are required to carry 20 A on a 220 V line?\n(b) Name a component used to regulate current without changing the voltage source.\n(c) A 10 Ω resistance wire is doubled on it. Calculate the new resistance of the wire.",
+   "answer": "(a) As we know, R = V/I = 220/20 = 11 Ω.\nLet n resistors of 330 Ω be required. For n equal resistors in parallel,\n1/R_p = n/R, i.e. R_p = R/n\n11 = 330/n\nn = 330/11 = 30\nSo 30 resistors of 330 Ω are required.\n(b) A variable resistance, or rheostat.\n(c) Originally, R = ρ l/A = 10 Ω.\nAfter doubling the wire on itself its length becomes l′ = l/2 and its area A′ = 2A. So\nR′ = ρ l′/A′ = ρ (l/2)/(2A) = (1/4) ρ l/A = (1/4) R = (1/4) × 10 = 2.5 Ω",
+   "concept": "Resistors in Parallel",
+   "sub_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "ocr": "The printed solution's line is OCR-mangled as '11 = 33(dH/dt)/n' — it is 11 = 330/n — and the book never states the result; n = 30 was completed from its own equation."
+  },
+  {
+   "number": "289",
+   "form": "long",
+   "marks": 5,
+   "page": 48,
+   "section_heading": "FIVE MARKS QUESTIONS | Foreign 2017",
+   "stem": "(a) State Ohm's law. Express it mathematically.\n(b) Write symbols used in electric circuits to represent: (i) variable resistance (ii) voltmeter.\n(c) An electric bulb is rated 220 V and 100 W. When it is operated on 110 V, what will be the power consumed?",
+   "answer": "(a) Ohm's law states that the current flowing in a conductor is directly proportional to the voltage applied across the ends of the conductor, keeping the temperature constant.\nAccording to Ohm's law, V ∝ I; mathematically V = IR,\nwhere V = voltage applied, in volts; I = current flowing in the circuit, in amperes; R = resistance of the conductor (the proportionality constant).\n(b) (i) A variable resistance (rheostat) is drawn as a resistor with an arrow through it. (ii) A voltmeter is drawn as a circle enclosing the letter V.\n(c) Resistance of the bulb,\nR = V²/P = (220 V × 220 V)/(100 W) = 484 Ω\nThe power consumed by the bulb when it is operated on 110 V is\nP = V²/R = (110 × 110)/484 = 25 W",
+   "concept": "Electric Power",
+   "sub_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "ocr": "The solution is cut off at the p48 page break after part (a)'s first sentence and resumes on p57 with the two circuit symbols (as images) and part (c). Part (b)'s symbols survive only as figures inside the solution, so they are described in words; those figures are solution-side and are not attached."
+  },
+  {
+   "number": "290",
+   "form": "long",
+   "marks": 5,
+   "page": 57,
+   "section_heading": "FIVE MARKS QUESTIONS | Delhi 2017",
+   "stem": "A piece of wire having resistance R is cut into four equal parts.\n(a) How will the resistance of each part compare with the original resistance?\n(b) If the four parts are placed in parallel, how will the joint resistance compare with the resistance of the original wire?",
+   "answer": "(a) We know that R ∝ l. So, when the wire is cut into four equal parts, the resistance of each part is 1/4th of the original resistance. Hence\nR₁ = R/4, R₂ = R/4, R₃ = R/4 and R₄ = R/4\n(b) When these four parts are joined in parallel,\n1/R′ = 1/R₁ + 1/R₂ + 1/R₃ + 1/R₄ = 4/R + 4/R + 4/R + 4/R = 16/R\nR′ = R/16\nThe joint resistance is now 1/16th part of the original resistance.",
+   "concept": "Resistors in Parallel",
+   "sub_parts": [
+    "a",
+    "b"
+   ],
+   "ocr": "The printed solution writes 'R ∝ I'; it means R ∝ l (length). The closing sentence 'The joint resistance is now 1/16th part of the original resistance' prints detached on p53, far from the rest of the solution, and was re-joined. The stem's 'compare with the original substance' was read as 'the original resistance'."
+  },
+  {
+   "number": "291",
+   "form": "long",
+   "marks": 5,
+   "page": 57,
+   "section_heading": "FIVE MARKS QUESTIONS | Delhi 2016",
+   "stem": "A current of 1 ampere flows in a series circuit containing an electric lamp and a conductor of 5 Ω when connected to a 10 V battery. Calculate the resistance of the electric lamp. Now, if a resistance of 10 Ω is connected in parallel with this series combination, what change (if any) in the current flowing through the 5 Ω conductor and the potential difference across the lamp will take place? Give reason. Draw the circuit diagram.",
+   "answer": "In the series circuit, I = 1 A, R₁ = 5 Ω and V = 10 volt. Let the lamp's resistance be R₂.\nV = IR = I(R₁ + R₂)\nR₂ = V/I − R₁ = 10 − 5 = 5 Ω\nSo the resistance of the electric lamp is 5 Ω.\nIf a resistance of 10 Ω is now connected in parallel with the above series combination, the equivalent resistance of the circuit is\n1/R = 1/10 + 1/R_s, where R_s = 5 + 5 = 10 Ω\n1/R = 1/10 + 1/10\nR = 5 Ω\nThe series branch is still connected directly across the same 10 V supply, so the current through it is still 10/10 = 1 A. Hence there will be no change of current through the 5 Ω conductor.\nAlso, the potential difference across the lamp equals the same share of the circuit's potential difference as before (the supply being 10 V), so there will be no change in the potential difference across the lamp.",
+   "concept": "Resistors in Series",
+   "ocr": "The solution's LaTeX block is OCR-damaged ('R₁ = 5 2', 'R₂ = 2', 'R₂ = V/T − R₁', 'R₂ = 10 - 5 = 5 !'); the values were recovered from the surviving arithmetic. Its closing lines ('Also, potential difference across the lamp = Potential difference of the circuit = 10 V') print over the page break on p58. In the parallel step the book reuses the symbol R₁ for the newly added 10 Ω resistor. The circuit diagram is printed with the solution (the question asks the student to draw it), so no figure is attached."
+  },
+  {
+   "number": "292",
+   "form": "long",
+   "marks": 5,
+   "page": 58,
+   "section_heading": "FIVE MARKS QUESTIONS | SQP 2017",
+   "stem": "Find out the following in the electric circuit given in the figure:\n(a) Effective resistance of the two 8 Ω resistors in the combination.\n(b) Current flowing through the 4 Ω resistor.\n(c) Potential difference across the 4 Ω resistance.\n(d) Power dissipated in the 4 Ω resistor.\n(e) Difference in ammeter readings, if any.",
+   "answer": "(a) The effective resistance of the two resistances in parallel combination is given by\n1/R = 1/R₁ + 1/R₂ = (R₁ + R₂)/(R₁R₂)\nR = R₁R₂/(R₁ + R₂) = (8 × 8)/(8 + 8) = 4 Ω\n(b) Current flowing through the 4 Ω resistor (as printed),\nI = V/R = 8/4 = 2 A\n(c) Potential difference across the 4 Ω resistor (as printed),\nV = IR = 2 × 4 = 8 V\n(d) Power dissipated in the 4 Ω resistor (as printed),\nP = I²R = 2² × 4 = 16 W\n(e) No difference can be seen in the ammeters' readings, as the same current flows through each element in a series circuit.",
+   "concept": "Electric Power",
+   "images": [
+    "53411c6c5063da4b60b7402a72a5ca32acd2aa14c4e00abbdc1142a7eb907590.jpg"
+   ],
+   "figure_required": true,
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "ocr": "Parts (b)-(d) of the printed solution contradict the circuit and the book's own part (a). The figure was inspected: the 4 Ω resistor is in series with the 8 Ω and 8 Ω parallel pair (effective 4 Ω, part (a)) across the 8 V battery, so the circuit resistance is 4 + 4 = 8 Ω and the current is 8/8 = 1 A, which puts 4 V across the 4 Ω resistor and dissipates 4 W in it. The book divides the full 8 V by 4 Ω alone and prints 2 A, 8 V and 16 W — that would drop the whole supply across the 4 Ω resistor and leave nothing across the parallel pair. The printed values are reproduced and flagged rather than silently corrected. Part (e) stands: the loop is a series circuit, so both ammeters read the same."
+  },
+  {
+   "number": "293",
+   "form": "long",
+   "marks": 5,
+   "page": 58,
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "stem": "(a) Derive an expression for the equivalent resistance of three resistors R₁, R₂ and R₃ connected in parallel.\n(b) Fuses of 3 A, 5 A and 10 A are available. Calculate and select the fuse for operating an electric iron of 1 kW power at a 220 V line.",
+   "answer": "(a) In a parallel arrangement the total current I is equal to the sum of the separate currents through each branch of the combination:\nI = I₁ + I₂ + I₃\nI = V/R₁ + V/R₂ + V/R₃\nI/V = 1/R₁ + 1/R₂ + 1/R₃\nLet R_p be the equivalent resistance of the parallel combination, so that R_p = V/I. Then\n1/R_p = 1/R₁ + 1/R₂ + 1/R₃\n(b) Given P = 1 kW = 1000 W and V = 220 V.\nI = P/V = 1000/220 = 4.5 A\nSo the suitable fuse is the 5 A fuse.",
+   "concept": "Electric Fuse",
+   "sub_parts": [
+    "a",
+    "b"
+   ],
+   "ocr": "'Derive an expression or the equivalent resistance' repaired to 'for'. The printed list of fuses reads 'Fuse of 3 A, 5 , 5 A and 10 A'; the stray '5 ,' is a duplicated fragment and was dropped, leaving 3 A, 5 A and 10 A. The parallel-network figure belongs to the worked solution, so no figure is attached."
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "number": "122",
+      "form": "case_study",
+      "marks": 4,
+      "page": 19,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after passage. Question numbers i - iv are based on the table given below. Study the table and answer the following questions.\n\n<html><body><table><tr><td></td><td>Characters</td><td>Males</td><td>Females</td></tr><tr><td></td><td>Total no. of chromosomes</td><td>23 pairs</td><td>23 pairs</td></tr><tr><td>2.</td><td>No. of autosome</td><td>22 pairs</td><td>22 pairs</td></tr><tr><td>3.</td><td>No. of sex chromosome</td><td>1 pair</td><td>1 pair</td></tr></table></body></html>\n\n(i) What is sex determination?\n(ii) What are the sex chromosomes in the males?\n(iii) What are the sex chromosomes in the females?\n(iv) Is the father responsible for the sex of the child?",
+      "answer": "(i) The process by which the sex of a newborn organism is decided (detected) is called sex determination.\n(ii) The males have two sex chromosomes which are X and Y.\n(iii) The sex chromosomes in the females are X and X.\n(iv) Yes, the father is responsible for the sex of the child. The mother can give only an X chromosome to the child, whereas it is the father who gives either the X chromosome (giving a girl, XX) or the Y chromosome (giving a boy, XY). Hence the sex of the child is determined by the chromosome contributed by the father.",
+      "concept": "Sex Determination in Humans",
+      "figure_required": false,
+      "sub_parts": ["i", "ii", "iii", "iv"],
+      "ocr": "Printed answer (iv) begins 'Yes, the mother is solely responsible for the sex of the child' and then explains in the very same sentence that 'the mother gives only the X chromosome to the child. It is the father that gives either the X or Y chromosome to the child.' The key contradicts its own worked explanation (and the question itself asks about the father); the solution wins, so the answer is given as the FATHER being responsible. HTML table kept verbatim as printed: its S. No. header cell and the serial number '1.' of the first data row were dropped by OCR."
+    },
+    {
+      "number": "123",
+      "form": "case_study",
+      "marks": 4,
+      "page": 20,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after passage. Question numbers i - iv are based on the table given below. Study the table and answer the following questions.\n\n<html><body><table><tr><td>S. No.</td><td>Generation</td><td>Phenotypic ratio</td></tr><tr><td></td><td>F1 generation</td><td>23 pairs</td></tr><tr><td>2.</td><td>F2 generation</td><td>22 pairs</td></tr></table></body></html>\n\n(i) State the law of dominance.\n(ii) What is the dominant allele?\n(iii) Define the term phenotype.\n(iv) What is the meaning of genotype?",
+      "answer": "(i) According to the law of dominance, the parent contains two alleles out of which one is the dominant allele while the other is the recessive allele; only the dominant allele expresses itself in the F1 generation.\n(ii) The allele that expresses itself and suppresses (reduces) the expression of the other allele is termed as the dominant allele.\n(iii) The set of the morphological characteristics of an organism that results from the interactions of the genes is known as the phenotype of the individual. For example, in pea plants, tallness is a phenotypic trait.\n(iv) The set of the alleles in DNA that carries the information for the expression of a trait in an individual is known as its genotype. For example, the genotype 'TT' expresses tallness in plants.",
+      "concept": "Dominant Traits",
+      "figure_required": false,
+      "sub_parts": ["i", "ii", "iii", "iv"],
+      "ocr": "HTML table kept verbatim as printed, but it is OCR-damaged: the 'Phenotypic ratio' column shows '23 pairs' and '22 pairs', values that have bled in from the chromosome table of question 122 (a genuine phenotypic ratio would be all-dominant in F1 and 3:1 in F2). The serial number '1.' of the first data row was also dropped. The stem's sub-questions are answerable without the table."
+    },
+    {
+      "number": "124",
+      "form": "case_study",
+      "marks": 4,
+      "page": 20,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after passage.\n\nA gene is the basic physical and functional unit of heredity. Genes are made up of DNA. Most of the characters or traits of an organism are controlled by the genes. Genes are actually segments of DNA guiding the formation of proteins by the cellular organelles. These proteins may be enzymes, hormones, antibodies, and structural components of different types of tissues. In other words, DNA/genes are responsible for the structure and functions of a living body. The genotype of an individual controls its phenotype.\n\nGene T → responsible for synthesis of efficient enzyme (protein) → more production of growth hormone → result in tall plants\nGene t → responsible for synthesis of less efficient enzyme → less production of growth hormone → result in short plants\n\n(i) Two pea plants, one with round green seeds (RRyy) and another with wrinkled yellow (rrYY) seeds, produce F₁ progeny that have round, yellow (RrYy) seeds. When F₁ plants are selfed, the F₂ progeny will have a new combination of characters. Choose the new combination from the following.\nI. Wrinkled, green  II. Wrinkled, yellow  III. Round, green  IV. Round, yellow\n(a) I and II  (b) I and IV  (c) II and III  (d) I and III\n\n(ii) A section of DNA providing information for one protein is called\n(a) Gene  (b) Nucleus  (c) Chromosomes  (d) Trait\n\n(iii) Which one of the following is present in the nucleus?\n(a) Chromosomes  (b) Gene  (c) DNA  (d) All of these",
+      "answer": "(i) (b) I and IV. The parental combinations are round-green and wrinkled-yellow, so in the F₂ generation the newly appearing (recombinant) types are wrinkled-green (I) and round-yellow (IV).\n(ii) (a) Gene. A gene is the segment of DNA that carries the information for the synthesis of one protein.\n(iii) (d) All of these. The nucleus contains chromosomes, which are made of DNA, and the genes are the functional segments of that DNA.",
+      "concept": "Gene Expression Mechanism",
+      "images": ["0afcd7f2c0a4b124683ba1c806290414df473267d21c9c5a559df46211f54206.jpg"],
+      "figure_required": true,
+      "sub_parts": ["i", "ii", "iii"],
+      "ocr": "No printed answer key follows this question: the chapter text is cut off immediately after sub-part (iii) by a page split that bleeds the Light (Refraction) chapter in at 'Page 21', so the answers above are derived from the printed options. Only three sub-parts are printed (no fourth). The flow-chart line under the passage was scrambled column-wise by OCR ('Gene T $$ Responsible $$ More Result for synthesis of production in Tall efficient enzyme of growth Plants (Proteins) hormone ...'); it has been re-threaded row-wise and the $$ artefacts restored as arrows (→), matching the attached page-20 figure. LaTeX $F_{1}$ and $F_{2}^{'}$ rewritten as F₁ and F₂. Typos in the passage repaired: 'genes are maple up of DNA' → 'genes are made up of DNA'."
+    }
+  ]
+}

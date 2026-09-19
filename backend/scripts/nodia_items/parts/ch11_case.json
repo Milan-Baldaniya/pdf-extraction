@@ -1,0 +1,353 @@
+{
+  "items": [
+    {
+      "number": "294",
+      "form": "case_study",
+      "marks": 4,
+      "page": 58,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nA room has two tube lights, a fan and a TV. Each tube light draws 40 W, the fan draws 80 W and the TV draws 60 W on the average. The tube lights are kept on for five hours, the fan for twelve hours and the TV for eight hours every day. The rate for electrical energy is ₹ 3.10 per kWh.\n\n(i) Calculate the energy consumed by each tube light in a day.\n(ii) What is the total energy consumed in a day?\n(iii) Find the cost of electricity used in this room in a 30-day month.\n(iv) What quantities determine the rate at which energy is delivered by current?",
+      "answer": "(i) For each tube light, Power P = 40 W = 40/1000 kW.\nEnergy consumed by each tube light in a day = P × t = (40/1000 kW) × 5 h = 0.2 kWh.\n\n(ii) Energy consumed by the tube lights in a day = 2 × 0.2 kWh = 0.4 kWh.\nEnergy consumed by the fan in a day = (80/1000) kW × 12 h = 0.96 kWh.\nEnergy consumed by the TV in a day = (60/1000) kW × 8 h = 0.48 kWh.\nTotal energy consumed in a day = 0.4 + 0.96 + 0.48 = 1.84 kWh.\n\n(iii) Energy consumed in 30 days = 1.84 × 30 = 55.2 kWh.\nCost of electricity = ₹ 3.10 × 55.2 = ₹ 171.12.\n\n(iv) The rate at which energy is delivered is determined by (a) the potential difference across the conductor and (b) the current flowing in the circuit.",
+      "concept": "Commercial Unit of Energy",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "Currency glyph printed as a LaTeX \\yen / \\mathfrak{F} artefact; restored to ₹. The LaTeX array carrying the (ii) total collapsed to '0.2 × 0.2 kWh + 0.96 kWh + 0.48 kWh' with the sum dropped; the printed (iii) line ('= 1 84 kWh' and '₹ 3.1 × 55.2 = ₹ 171.12') confirms the total is 1.84 kWh and the 30-day figure 55.2 kWh, so the arithmetic was restored from the book's own numbers."
+    },
+    {
+      "number": "295",
+      "form": "case_study",
+      "marks": 4,
+      "page": 59,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nIn the series combination, the resistances are joined end to end. For a series combination of resistors, Rₛ = ΣRᵢ and the current through each resistor is the same but the potential differences between their ends are different according to their resistance. When two or more resistors are combined in such a way that their first ends are connected to one point and the second ends to another point, they form a parallel combination. In a parallel combination of resistors, 1/Rₚ = 1/R₁ + 1/R₂ + … and the potential drop across each resistor is the same but the currents in the different resistances are different.\n\n(i) If we connect n bulbs each with a rated power P in series, what is the total power consumed by the combination at rated current?\n(ii) If we connect n bulbs each with a rated power P in parallel, what is the total power consumed by the combination at rated voltage?\n(iii) The power consumed by n equal resistances in parallel is x times that of the power consumed in series, if the voltage supply is the same. Find the value of x.\n(iv) If resistors 4 Ω, 5 Ω and 6 Ω are connected in series with a 5 V battery, calculate the total power consumed by the combination.",
+      "answer": "(i) When resistors are in series combination, Rₛ = R₁ + R₂ + … + Rₙ, so\nV²/Pₛ = V₁²/P₁ + V₂²/P₂ + … + Vₙ²/Pₙ.\nWhen the bulbs are of equal power, V²/Pₛ = nV²/P, hence Pₛ = P/n.\n\n(ii) When resistors are in parallel combination, 1/Rₚ = 1/R₁ + 1/R₂ + … + 1/Rₙ, so\nPₚ/V² = P₁/V² + P₂/V² + … + Pₙ/V², i.e. Pₚ = P₁ + P₂ + … + Pₙ = nP.\n\n(iii) Power consumed in series, Pₛ = V²/(nR), and in parallel, Pₚ = V²/(R/n) = nV²/R.\nSince Pₚ = xPₛ, V²/(R/n) = x · V²/(nR), giving x = n².\n\n(iv) Power consumed, P = V²/Rₑq = V²/(R₁ + R₂ + R₃) = (5)²/(4 + 5 + 6) = 25/15 = 5/3 W ≈ 1.67 W.",
+      "concept": "Electric Power",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "MinerU printed the parallel power as 'Pp = ^R/nh' and stopped the (iii) derivation at 'V²/(R/n) = x V²/(nR)' without stating x; the value x = n² follows directly from the book's own last line. LaTeX fractions and subscripts rewritten to Unicode."
+    },
+    {
+      "number": "296",
+      "form": "case_study",
+      "marks": 4,
+      "page": 64,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nIn household electric circuits, the mains supply is delivered to our homes using a three core cable. The cable consists of three wires — live wire, neutral wire and earth wire. The live wire is at a potential difference of 220 V for the domestic supply and the potential difference between the live and the neutral wire is 220 volts. The live wire is connected to the electric meter through a fuse or a circuit breaker of higher rating. The neutral wire is connected directly to the electric meter.\n\n(i) What is a short circuit?\n(ii) How are switches connected in the circuit?\n(iii) What is the usual current rating of the fuse wire in the line if electric iron, geysers, room heater etc. are in use?\n(iv) Why is earthing of all electrical appliances recommended?",
+      "answer": "(i) The condition when the live wire comes in direct contact with the neutral wire, so that a high current flows, is called a short circuit.\n\n(ii) Switches are connected in the live wire, because when the switch is in the off position no point of the connected electrical appliance will be at the higher potential (220 V).\n\n(iii) A fuse of rating 15 A is usually used for appliances such as electric iron, geysers and room heaters etc.\n\n(iv) The earthing of any electrical appliance is done to protect the user from any accidental electrical shock due to leakage of current.",
+      "concept": "Electric Fuse",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "images": [
+        "db4e25b56a63705d4b94c540ef8459945f14aebffdb656feab0bcabeec6e2914.jpg"
+      ],
+      "figure_required": true,
+      "ocr": "Three-core-cable diagram of the passage attached from page 64."
+    },
+    {
+      "number": "297",
+      "form": "case_study",
+      "marks": 4,
+      "page": 64,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Study the table and answer the following questions. The following apparatus is available in a laboratory, which is summarised in tabular form.\n\n<html><body><table><tr><td>Battery</td><td>adjustable from 0 to 4.5 V</td></tr><tr><td>Resistors</td><td>3Ω and 6Ω</td></tr><tr><td>Ammeters</td><td>A1 of range 0 to 3 A least count 0.1 A A2 of range 0 to 1 A least count 0.05 A</td></tr><tr><td>Voltmeters</td><td>V1 of range 0 to 10 V least count 0.5 V V2 of range 0 to 5 V least count 0.1 V</td></tr></table></body></html>\n\n(i) For what purpose is an ammeter used?\n(ii) If we require the maximum resistance from a number of given resistors, we connect\n(a) all in series.\n(b) all in parallel.\n(c) less resistors in series and more in parallel.\n(d) more resistors in series and less in parallel.\n(iii) The best combination of voltmeter and ammeter for finding the equivalent resistance of the resistors in series would be\n(a) ammeter A₁ and voltmeter V₁\n(b) ammeter A₁ and voltmeter V₂\n(c) ammeter A₂ and voltmeter V₁\n(d) ammeter A₂ and voltmeter V₂\n(iv) For the experiment to find the equivalent resistance of the parallel combination of the two given resistors, the best choice would be\n(a) ammeter A₁ and voltmeter V₁\n(b) ammeter A₁ and voltmeter V₂\n(c) ammeter A₂ and voltmeter V₁\n(d) ammeter A₂ and voltmeter V₂",
+      "answer": "(i) An ammeter is used to measure the current in the circuit.\n\n(ii) (a) all in series.\n\n(iii) (d) ammeter A₂ and voltmeter V₂.\n\n(iv) (c) ammeter A₂ and voltmeter V₁.",
+      "concept": "Ammeter and Voltmeter",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "The printed question number was lost — inferred as 297 from its position between 296 and 298 and because its answer block is the orphan 'Ans (i) Ammeter is used for measure current in the circuit …' printed at the top of page 61 (MinerU reordered the pages, so the question sits on page 64 and its answers on page 61). Option labels that OCR dropped were restored: 'c) ammeter A2 and voltmeter V1' in (iii) and the unlabelled third option in (iv). NOTE a physics conflict: for the parallel case R = 3×6/9 = 2 Ω, so with a 0-4.5 V supply the current reaches 2.25 A and the correct pair is A₁ (0-3 A) with V₂ (0-5 V), i.e. option (b); the book prints (c). No worked solution accompanies the key, so the printed key is kept and the discrepancy recorded here."
+    },
+    {
+      "number": "298",
+      "form": "case_study",
+      "marks": 4,
+      "page": 61,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nA D.C. generator, also called a D.C. dynamo, converts mechanical energy into electrical energy (D.C.). It works on the principle that when a coil rotates in a uniform magnetic field, a current is induced in the coil. The direction of the induced current is determined by Fleming's right hand rule. The schematic diagram of a D.C. generator is as shown in the figure.\n\n(i) The essential difference between an A.C. generator and a D.C. generator is that\n(a) A.C. generator has an electromagnet while a D.C. generator has a permanent magnet.\n(b) D.C. generator will generate a higher voltage.\n(c) A.C. generator will generate a higher voltage.\n(d) A.C. generator has slip rings while the D.C. generator has a commutator.\n(ii) What is the frequency of D.C.?\n(iii) What type of dynamo is used in a bicycle?\n(iv) A D.C. motor is rotating in the clockwise direction. How can the direction of rotation be reversed?",
+      "answer": "(i) (d) A.C. generator has slip rings while the D.C. generator has a commutator.\n\n(ii) Zero.\n\n(iii) We use a D.C. dynamo in a bicycle.\n\n(iv) The direction of rotation of the motor can be reversed by reversing the direction of the current through the coil. This can be achieved by interchanging the terminals of the battery connected to the brushes of the motor.",
+      "concept": "Electric Current",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "images": [
+        "36f7caa39c1ca1cc21db49879639cf9a0b08f6072e10b94bf78606cc66874367.jpg"
+      ],
+      "figure_required": true,
+      "ocr": "Topic note: this item is printed inside the Electricity chapter's own CASE BASED run (numbered 298, between 297 and 299), but its content belongs to Magnetic Effects of Electric Current; it is not page-split bleed, so it is kept with the chapter that numbers it. 'Electric Current' is the nearest concept available in this chapter's list. Generator schematic from page 61 attached."
+    },
+    {
+      "number": "299",
+      "form": "case_study",
+      "marks": 4,
+      "page": 61,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nElectrical resistivities of some substances at 20 °C are given below.\n\n<html><body><table><tr><td>S. No.</td><td>Metal</td><td>Resistivity (in Ω-m)</td></tr><tr><td>1.</td><td>Silver</td><td>1.60 X 10-8</td></tr><tr><td>2</td><td>Copper</td><td>1.62 X 10−8</td></tr><tr><td>3.</td><td>Tungsten</td><td>5.20 X 10-8</td></tr><tr><td>4.</td><td>Iron</td><td>10.0 X 10-8</td></tr><tr><td>5.</td><td>Mercury</td><td>94.0 X 10−8</td></tr><tr><td>6.</td><td>Nichrome</td><td>10.0 X 10-8</td></tr></table></body></html>\n\n(i) Among silver and copper, which one is a better conductor?\n(ii) Which material would you advise to be used in electrical heating devices?\n(iii) What do you mean by resistivity?\n(iv) What is the effect of temperature on the resistivity of a substance?",
+      "answer": "(i) Silver.\n\n(ii) Nichrome.\n\n(iii) Resistivity of a conductor is defined as the resistance of a conductor of unit length and unit area of cross-section.\n\n(iv) The resistivity of a material changes if its temperature changes.",
+      "concept": "Resistivity",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "HTML table kept verbatim. The table's own nichrome entry reads 10.0 X 10-8 Ω-m, which is a misprint (nichrome is ~100 × 10⁻⁶ Ω-m) — left as printed. 'Which material world you advise' read as 'would you advise'."
+    },
+    {
+      "number": "300",
+      "form": "case_study",
+      "marks": 4,
+      "page": 61,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nResistance of a conductor depends on the length, area of cross-section and nature of the material of the conductor. When a conductor is stretched (increased in its length), then its area of cross-section decreases accordingly but the volume (i.e. area × length) of the conductor remains the same. Resistivity of a conductor, ρ = RA/l, where A = area of cross-section of the conductor and l = length of the conductor.\n\n(i) What do you mean by resistivity?\n(ii) The SI unit of resistivity is\n(a) ohm (Ω)\n(b) ohm-metre (Ω-metre)\n(c) ohm²-metre (Ω²-m)\n(d) ohm-metre (Ω-m)\n(iii) Write one difference between resistance and resistivity.\n(iv) The resistance (R) of a wire whose length is halved and area of cross-section (A) is doubled, its new resistance (R′) will be\n(a) R\n(b) R/2\n(c) R/4\n(d) R/8",
+      "answer": "(i) Resistivity is defined as the resistance of a conductor of unit length and unit area of cross-section.\n\n(ii) (b) The SI unit of resistivity is ohm-metre.\n\n(iii) Resistance is that property of a conductor by virtue of which it opposes or resists the flow of charges through it; its SI unit is Ω. Resistivity is the characteristic property of the material of the conductor and varies only if its temperature changes; its SI unit is Ω-metre.\n\n(iv) (c) R/4.\nInitially, R = ρl/A (ρ = resistivity).\nNew length l′ = l/2 and new area of cross-section A′ = 2A (given).\nNew resistance R′ = ρ (l/2)/(2A) = ρl/4A = R/4.",
+      "concept": "Factors Affecting Resistance",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "MinerU split this item: the passage sits at the foot of page 61 and the sub-questions with their answers were emitted at the top of page 60. They were rejoined by content — 300 is the only numbered case study in this run left without sub-questions, and the orphan block is the only one about resistivity, resistance-vs-resistivity and the halved-length/doubled-area wire. Option (a) came out as 'on mo (2)' and option (d) as 'onm-metre (2-m)'; (a) restored to ohm (Ω) and (d) transcribed as printed even though it then duplicates (b) — no fourth distinct option was invented."
+    },
+    {
+      "number": "301",
+      "form": "case_study",
+      "marks": 4,
+      "page": 60,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nAn electrician is a tradesman specialising in electrical wiring of buildings, transmission lines, stationary machines and related equipment. An electrician may be employed in the installation of new electrical components or the maintenance and repair of existing electrical infrastructure. An electrician has made the electric circuit of a house in such a way that if a fan is closed, the lamps also stop glowing.\n\n(i) What is the defect in this type of circuit wiring? Why?\n(ii) Two resistances R₁ and R₂ are connected turn by turn in parallel and in series. In which case will the resultant resistance be less than either of the individual resistances?\n(iii) Which is the better way to connect lights and other appliances in a domestic circuit — series connection or parallel connection?\n(iv) In which type of combination will different resistors have an equal value of electric current through them?",
+      "answer": "(i) The electrician has made a series connection of all the lamps in the electric circuit of the house, because of which, if one lamp gets fused, all the other lamps would stop working. This is due to the fact that when devices are connected in series, then if one device fails, the circuit gets broken and all the devices in that circuit stop working.\n\n(ii) In parallel, because the resultant resistance in a parallel circuit is R₁R₂/(R₁ + R₂), whereas in series the equivalent resistance is R₁ + R₂. Hence the equivalent resistance is less in a parallel circuit.\n\n(iii) Parallel connection is a better way to connect lights and other appliances in a domestic circuit. It is because when we connect a number of devices in parallel combination, each device gets the same potential and hence keeps on working even if other devices stop working.\n\n(iv) In series combination, different resistors will have an equal value of electric current.",
+      "concept": "Resistors in Parallel",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "Trailing NODIA sample-paper advertisement stripped from the answer block."
+    },
+    {
+      "number": "302",
+      "form": "case_study",
+      "marks": 4,
+      "page": 63,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nThe table given below shows the resistivity of conductors and alloys.\n\n<html><body><table><tr><td>Type of material</td><td>Material</td><td>Resistivity (Ω -m)</td></tr><tr><td rowspan=\"7\">Conductors</td><td>Silver</td><td>1.60 X 10−8</td></tr><tr><td>Copper</td><td>1.62 X 10</td></tr><tr><td>Aluminium</td><td>2.63 X 10−</td></tr><tr><td>Tungsten</td><td>5.20 X 10−8</td></tr><tr><td>Nickel</td><td>6.84 X 10−8</td></tr><tr><td>Iron</td><td>10.0 X 10−8</td></tr><tr><td>Chromium</td><td>12.9 X 10−8</td></tr><tr><td>Mercury</td><td>94.0 X 10−8</td></tr><tr><td rowspan=\"4\">Alloys</td><td>Manganese</td><td>1.84 X 10−8</td></tr><tr><td>Constantan (Cu + Ni)</td><td>49 X 10-6</td></tr><tr><td>Manganin (Cu+Mn+Ni)</td><td>44 × 10−6</td></tr><tr><td>Nichrome (Ni+Cr+Mn+Fe)</td><td>100 X 10-6</td></tr><tr><td rowspan=\"5\">Insulators</td><td>Glass</td><td>1010 − 1014</td></tr><tr><td>Hard rubber</td><td>1013 − 1016</td></tr><tr><td>Ebonite</td><td>1015 1017</td></tr><tr><td>Diamond</td><td>1012 − 1013</td></tr><tr><td>Dry paper</td><td>1012</td></tr></table></body></html>\n\n(i) Why is tungsten used in the filament of the bulb?\n(ii) Which among copper and tungsten is the better conductor?\n(iii) From the above table, the most popular material used in the heater is\n(a) nickel\n(b) copper\n(c) ebonite\n(d) nichrome\n(iv) The resistance of a copper wire of length 2 m and area of cross-section 1.7 × 10⁻⁶ m² is\n(a) 1.5 × 10⁻² Ω\n(b) 2 × 10⁻² Ω\n(c) 1.9 × 10⁻² Ω\n(d) 1.6 × 10⁻² Ω",
+      "answer": "(i) The resistivity of tungsten is high and its melting point is also very high (3380 °C). It emits light when it becomes very hot and does not melt at this high temperature. Hence tungsten is used in the filament of an electric lamp.\n\n(ii) Among copper and tungsten, copper is the better conductor because its resistivity is less.\n\n(iii) (d) Nichrome. Nichrome is an alloy which has a higher resistivity than its constituent metals. Alloys do not oxidise or burn at higher temperatures as they have a high melting point. Thus they are used to make the coils of electric heating devices like an electric heater.\n\n(iv) (c) 1.9 × 10⁻² Ω.\nFrom the table, resistivity of Cu = 1.62 × 10⁻⁸ Ω-m, l of copper = 2 m, A of copper = 1.7 × 10⁻⁶ m².\nR = ρl/A = (1.62 × 10⁻⁸ × 2)/(1.7 × 10⁻⁶) = 1.9 × 10⁻² Ω.",
+      "concept": "Resistivity",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "HTML table kept verbatim (its copper and aluminium exponents were truncated by OCR to '1.62 X 10' and '2.63 X 10−'). The (iv) option labels were fused into a LaTeX array with (a) and (c) losing their letters; restored from the array order and confirmed by the key '(c) 1.9 × 10⁻² Ω'. Printed answer (ii) justifies copper by comparing it with ALUMINIUM ('its resistivity is less than that of aluminium') although the question asks about tungsten; the stray comparison was dropped and the reasoning left as 'its resistivity is less'. Melting point printed as '^3380cCh'."
+    },
+    {
+      "number": "303",
+      "form": "case_study",
+      "marks": 4,
+      "page": 63,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nTwo tables are given below. Study these tables related to the measurement of voltage and current and answer the questions that follow.\n\nIdeal measurement (Table – A)\n\n<html><body><table><tr><td>S.N.</td><td>Voltmeter reading (mV)</td><td>Ammeter reading (mA)</td></tr><tr><td>1.</td><td>4</td><td>2</td></tr><tr><td>2</td><td>6</td><td>3</td></tr><tr><td>3.</td><td>8</td><td>4</td></tr><tr><td>4.</td><td>10</td><td>5</td></tr><tr><td>5.</td><td>12</td><td>6</td></tr></table></body></html>\n\nStudents' measurement (Table – B)\n\n<html><body><table><tr><td>Student</td><td>S.No.</td><td>Voltmeter reading (mV)</td><td>Ammeter reading (mA)</td></tr><tr><td>Student−X</td><td></td><td>246</td><td>123</td></tr><tr><td>Student-Y</td><td></td><td>468</td><td>434</td></tr></table></body></html>\n\n(i) What is the mathematical relation between voltage and current?\n(ii) Which student's measurement is wrong in Table B?\n(iii) In the following measurements of student Y, which measurement is wrong?\n(a) I = 4, V = 4\n(b) I = 3, V = 6\n(c) I = 4, V = 8\n(d) None of these\n(iv) The value of resistance from the measurement of student A is\n(a) 2 Ω\n(b) 3 Ω\n(c) 4 Ω\n(d) 1 Ω",
+      "answer": "(i) According to Ohm's law, current is directly proportional to voltage V, i.e. I ∝ V.\n\n(ii) Student Y.\n\n(iii) (a) I = 4, V = 4.\n\n(iv) (a) 2 Ω.",
+      "concept": "Ohm's Law",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "MinerU split this item: the passage and both tables sit at the foot of page 63 while the sub-questions and the answer block were emitted at the top of page 62; rejoined by content (the sub-questions name 'table B', 'student Y' and 'student A', which only this passage supplies). Both HTML tables kept verbatim — Table B's readings are run together by OCR ('246'/'123' for Student-X and '468'/'434' for Student-Y). Sub-question (iv) says 'student A' although Table B lists Student-X and Student-Y; left as printed. Resistance units printed as 'W' were read as Ω."
+    },
+    {
+      "number": "304",
+      "form": "case_study",
+      "marks": 4,
+      "page": 62,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nTwo tables are given below. Study these tables related to equivalent resistance and answer the questions that follow.\n\n<html><body><table><tr><td>Combination</td><td colspan=\"2\">Circuit</td><td>Equivalent resistance</td></tr><tr><td rowspan=\"2\">Parallel</td><td colspan=\"2\">R M</td><td>R1 + R2 = Red</td></tr><tr><td colspan=\"2\">R 0 B W</td><td></td></tr><tr><td rowspan=\"2\">Series</td><td colspan=\"2\">R1 R2</td><td>Req = R1 + R2</td></tr><tr><td colspan=\"2\">4 B</td><td></td></tr></table></body></html>\n\n<html><body><table><tr><td>Student</td><td>Circuit</td><td>Equivalent resistance</td></tr><tr><td>Student A</td><td>15 Z 1Ω Circuit √</td><td>1Ω</td></tr><tr><td>Student B</td><td>1Ω 1Ω 1Ω2 B Circuit - 2</td><td>1.5Ω</td></tr></table></body></html>\n\n(i) Which student measured the wrong equivalent resistance in Table-B?\n(ii) In which configuration of resistance does the potential difference across each resistance remain the same?\n(iii) The value of equivalent resistance of circuit-1 is\n(a) 1 Ω\n(b) 2 Ω\n(c) 0.4 Ω\n(d) 0.6 Ω\n(iv) In which configuration of resistance does the current across each resistance remain the same?\n(a) Series combination\n(b) Parallel combination\n(c) Mixed combination\n(d) None of these",
+      "answer": "(i) Student A.\n\n(ii) Parallel combination.\n\n(iii) (d) 0.6 Ω.\nR′ = R_AC + R_CB = 1 + 1 = 2 Ω\nRₑq = (R′ × 1 Ω)/(R′ + 1 Ω) = (2 × 1)/(2 + 1) = 2/3 ≈ 0.6 Ω\n\n(iv) (a) Series combination.",
+      "concept": "Resistors in Parallel",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "Both HTML tables kept verbatim; the circuit cells are OCR noise ('R M', 'R 0 B W', '15 Z 1Ω Circuit √') because the circuit diagrams were rasterised into the table. Resistance units printed as 'W'/'0 4 W'/'0 6W' were read as Ω, 0.4 Ω and 0.6 Ω. The preceding page's NODIA app advertisement was stripped."
+    },
+    {
+      "number": "305",
+      "form": "case_study",
+      "marks": 4,
+      "page": 62,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nThe given table provides the resistivity of conductors, alloys and insulators. Study the table and answer the following questions.\n\n<html><body><table><tr><td>Type of material</td><td>Material</td><td>Resistivity (Ω m)</td></tr><tr><td rowspan=\"9\">Conductors</td><td>Silver</td><td>1.60 X 10−8</td></tr><tr><td>Copper</td><td>1.62 × 10−8</td></tr><tr><td>Aluminium</td><td>2.63 X 10−8</td></tr><tr><td>Tungsten</td><td>5.20 X 10-8</td></tr><tr><td>Nickel</td><td>6.84 X 10−8</td></tr><tr><td>Iron</td><td>10.0 X 10-8</td></tr><tr><td>Chromium</td><td>12.9 X 10-8</td></tr><tr><td>Mercury</td><td>94.0 X 10−8</td></tr><tr><td>Manganese</td><td>1.84 × 10-6</td></tr><tr><td rowspan=\"4\">Alloys</td><td>Constantan (alloy of Cu and Ni)</td><td>49 9 × 10-6</td></tr><tr><td>Manganin (alloy of Cu, Mn and Ni)</td><td>44 X 10−6</td></tr><tr><td>Nichrome (alloy of Ni, Cr, Mn, and Fe)</td><td>100 × 10−6</td></tr><tr><td>Glass</td><td>− 1010 1014</td></tr><tr><td rowspan=\"5\"></td><td>Hard rubber</td><td>1013 1016</td></tr><tr><td>Ebonite</td><td>1015 − 1017</td></tr><tr><td>Diamond</td><td>1012 — 1013</td></tr><tr><td></td><td></td></tr><tr><td>Paper (dry)</td><td>1012</td></tr></table></body></html>\n\n(i) Why is iron a better conductor than mercury?\n(ii) Which material is the best conductor?\n(iii) The copper and aluminium have\n(a) low resistivity\n(b) high resistivity\n(c) zero resistivity\n(d) high energy losses\n(iv) Alloys are commonly used in electrical heating devices due to\n(a) low resistivity as compared to all substances\n(b) high resistivity as compared to metals\n(c) low resistivity as compared to metals\n(d) None of these",
+      "answer": "(i) Iron is a better conductor than mercury because the resistivity of iron (= 10 × 10⁻⁸ Ω m) is less than the resistivity of mercury (= 94 × 10⁻⁸ Ω m).\n\n(ii) It can be observed from the table that the resistivity of silver is the lowest among the listed materials. Hence silver is the best conductor.\n\n(iii) (a) Low resistivity.\n\n(iv) (b) High resistivity as compared to metals.",
+      "concept": "Resistivity",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "MinerU split this item: '305. … Given table provides the resistivity of conductors,' ends page 62 and the sentence continues 'alloy and insulators. Study the table …' at the top of page 65 with the table, sub-questions and answers; rejoined. HTML table kept verbatim (its rowspan grouping for Alloys/Insulators is mangled by OCR and one row is blank). Sub-question (i) printed as 'Why among iron is a better conductor than mercury?' — read as 'Why is iron a better conductor than mercury?'"
+    },
+    {
+      "number": "306",
+      "form": "case_study",
+      "marks": 4,
+      "page": 65,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nTwo 5 Ω resistances are connected in the series combination as shown in the circuit diagram. In the series combination of resistances, the current is the same in all the resistances. So the equivalent resistance of a series combination is given by Rₑq = R₁ + R₂.\n\n(i) Which type of circuit is represented in the above circuit diagram?\n(a) Series circuit\n(b) Parallel circuit\n(c) Simple circuit\n(d) Both (a) and (b)\n(ii) How much current is flowing through the electrical circuit given above?",
+      "answer": "(i) (a) Series circuit. A resistor of 5 Ω is connected in series with another resistor of 5 Ω. Hence the circuit diagram represents a series circuit.\n\n(ii) Total resistance, R = R₁ + R₂ = 5 + 5 = 10 Ω.\nPotential difference (from the circuit diagram), V = 20 volts.\nApplying Ohm's law, V/I = R, so I = 20/10 = 2 A.",
+      "concept": "Resistors in Series",
+      "sub_parts": [
+        "i",
+        "ii"
+      ],
+      "images": [
+        "4d24b6de475dd840ecfc184f8a6052c61fc83aadd62a723c6f2a89c0ab048a52.jpg"
+      ],
+      "figure_required": true,
+      "ocr": "Only two sub-parts are printed for this case study (no (iii)/(iv)). The 20 V supply value appears only in the circuit diagram and in the worked solution, not in the printed text; the figure from page 65 is attached."
+    },
+    {
+      "number": "307",
+      "form": "case_study",
+      "marks": 4,
+      "page": 65,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nHeating effect is a very important application of electric current. The heating effect is used to produce light, as in an electric bulb. Now consider a current i flowing through a resistor of resistance R. Let the potential difference across it be V. Then the heat produced in time t is given as H = Vit = i²Rt, and the power consumed, P = Vi = i²R.\n\nIf two resistances are connected in series then the power consumed in R₁ and R₂ respectively are P₁ = i²R₁ and P₂ = i²R₂, i.e. power consumed P ∝ R. If the resistances are connected in parallel, then P ∝ 1/R.\n\nAnswer the following questions.\n\n(i) Two electric bulbs B₁ (100 W – 220 V) and B₂ (60 W – 220 V) are connected in series to a power supply of 220 volts. Then which bulb will be brighter?\n(ii) The rating of an electric bulb is given as (100 W – 200 V). Then what will be the resistance of the filament of the bulb?\n(iii) An electric iron of resistance 20 ohm takes a current of 5 A. Then calculate the heat developed in 30 sec.",
+      "answer": "(i) B₂ is brighter than B₁.\n\n(ii) 400 Ω.\n\n(iii) 15 kJ.",
+      "concept": "Joule's Law of Heating",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii"
+      ],
+      "images": [
+        "7757e9693e64f316b709a3d63f61da265a68a5e2ebf6c69b13d3025c3efeae2d.jpg",
+        "318156b93aaec40a3f4a11c0fde49b27f1a04b962f01a5b5ca4f7a16e8e9dfb3.jpg"
+      ],
+      "figure_required": true,
+      "ocr": "Only three sub-parts are printed. The series-circuit and parallel-circuit diagrams that belong to the passage (page 66) are attached. The passage spans the page 65/66 break and was rejoined."
+    },
+    {
+      "number": "308",
+      "form": "case_study",
+      "marks": 4,
+      "page": 66,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nCurrent only flows through a component of a circuit if a potential difference (voltage) is put across it. The bigger the potential difference across its ends, the bigger the current flow. This is because there is a steeper 'electric slope' in place to make the charge slide down — steeper slope, faster slide. The equation below is used to work out the resistance of a component from measurements of the current flowing through it and the potential difference across its ends:\n\nV = IR\n\nwhere V = potential difference in volts (V), I = current in amps (A) and R = resistance in ohms (Ω).\n\nThere are four factors that affect the resistance of a wire: length, area, material and temperature. Resistance is proportional to length. If you take wires of different lengths and give each a particular potential difference across its ends, the longer the wire the fewer volts each centimetre of it will get. This means that the 'electric slope' that makes the electrons move gets less steep as the wire gets longer, so current decreases with increased length and resistance increases. Resistance is inversely proportional to cross-sectional area. The bigger the cross-sectional area of the wire, the greater the number of electrons that experience the 'electric slope' from the potential difference. Resistance depends on the material the wire is made of — the more tightly an atom holds on to its outermost electrons the harder it will be to make a current flow. Resistance increases with the temperature of the wire; the hotter wire has a larger resistance because of increased vibration of the atomic lattice: R = R₀(1 + αT), where α is the temperature coefficient of resistance.\n\nAnswer the following questions.\n\n(i) How does the resistance of metals change with increase in temperature?\n(ii) There are two conductors X and Y of the same material, having lengths L and 2L and having radii r and r/2 respectively. What will be the ratio of their resistances?\n(iii) Two wires of equal lengths, one of copper and the other of manganin, have the same resistance. Which wire will be thicker?\n(iv) Draw the V–I graph for a metal piece at a given temperature.",
+      "answer": "(i) Resistance increases with the increase in temperature.\n\n(ii) Resistance of conductor X, R_X = ρL/(πr²).\nResistance of conductor Y, R_Y = ρ(2L)/(π(r/2)²) = 8ρL/(πr²).\nTherefore R_Y = 8R_X, i.e. R_X : R_Y = 1 : 8.\n\n(iii) The manganin wire will be thicker than the copper wire.\n\n(iv) The V–I graph for a metal piece at a given temperature is a straight line passing through the origin (V directly proportional to I).",
+      "concept": "Factors Affecting Resistance",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "The V–I graph image printed with answer (iv) belongs to the worked solution only, so no figure is attached to the question. 'cross-section-alarea' repaired to 'cross-sectional area'. Passage spans the page 66/67 break and was rejoined."
+    },
+    {
+      "number": "309",
+      "form": "case_study",
+      "marks": 4,
+      "page": 67,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nEvery electrical appliance like an electric bulb, radio or fan has a label or engraved plate on it which tells us the voltage (to be applied) and the electrical power consumed by it. For example, if we look at a particular bulb in our home, it may have the figures 100 W – 220 V written on it. Now, 100 W means that this bulb has a power consumption of 100 watts and 220 V means that it is to be used on a voltage of 220 volts. The power rating of an electrical appliance tells us the rate at which electrical energy is consumed by the appliance. For example, a power rating of 100 watts on the bulb means that it will consume electrical energy at the rate of 100 joules per second. If we know the power P and voltage V of an electrical appliance, then we can very easily find out the current I drawn by it. This can be done by using the formula P = V × I. The usual power-voltage ratings of some of the common household electrical appliances and the current drawn by them are given below.\n\n<html><body><table><tr><td></td><td>Electrical appliance</td><td>Usual power</td><td>Usual voltage</td></tr><tr><td></td><td>Tube light</td><td>40 W</td><td>220 V</td></tr><tr><td>2.</td><td>Electric bulb (or Lamp)</td><td>60 W</td><td>220 V</td></tr><tr><td>3.</td><td>Radio set</td><td>80 W</td><td>220 V</td></tr><tr><td>4.</td><td>Electric fan</td><td>100 W</td><td>220 V</td></tr><tr><td>5.</td><td>T.V. set</td><td>120 W</td><td>220 V</td></tr><tr><td>6.</td><td>Refrigerator</td><td>150 W</td><td>220 V</td></tr><tr><td>7</td><td>Electric iron</td><td>750 W</td><td>220 V</td></tr><tr><td>8.</td><td>Electric heater</td><td>1000 W</td><td>220 V</td></tr><tr><td>9.</td><td>Immersion heater</td><td>1500 W</td><td>220 V</td></tr><tr><td>10.</td><td>Washing machine</td><td>3000 W</td><td>220 V</td></tr></table></body></html>\n\nAnswer the following questions.\n\n(i) What is the current drawn by an electric fan?\n(ii) An electric heater is used for 2 h at 220 V. What is the net energy consumed?\n(iii) What is the resistance of an electric bulb of 60 W?\n(iv) What is the net current drawn by a parallel combination of a tube light, an electric bulb (or lamp) and a radio set when connected with a 220 V power supply?",
+      "answer": "(i) As we know that P = V × I, so I = P/V = 100/220 = 0.45 A.\n\n(ii) Energy = (1000 × 2)/1000 = 2 kWh.\n\n(iii) P = V²/R, so R = V²/P = (220)²/60 ≈ 806.7 Ω.\n\n(iv) 0.81 A.\n(Tube light 40/220 = 0.18 A, bulb 60/220 = 0.27 A, radio 80/220 = 0.36 A; total = 0.81 A.)",
+      "concept": "Electric Power",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "HTML table kept verbatim. The answers were printed as a single collapsed LaTeX array with the sub-part labels lost; they were split back onto (i)–(iii) from the quantities used. The (iii) result printed as '≃ 8 0 7 5'; (220)²/60 = 806.67, so it is given as ≈ 806.7 Ω. The (iv) arithmetic check was added in brackets to explain the printed 0.81 A."
+    },
+    {
+      "number": "310",
+      "form": "case_study",
+      "marks": 4,
+      "page": 67,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nThe resistivity of alloys is much higher than those of the pure metals (from which they are made). For example, the resistivity of manganin … [the remainder of the passage was lost in extraction]\n\n(iv) What are the practical applications of semiconductors?",
+      "answer": "(i) No change.\n\n(ii) 1. Germanium  2. Silicon\n\n(iii) Copper is cheaper.\n\n(iv) Solar cells and transistors.",
+      "concept": "Resistivity",
+      "sub_parts": [
+        "iv"
+      ],
+      "ocr": "Badly damaged by MinerU's page reordering. The passage opener sits at the foot of page 67 and breaks off mid-sentence at 'the resistivity of manganin'; the top of page 69 carries only the last sub-question '(iv) What are practical applications of semiconductors?' followed by the complete four-part answer key. Sub-questions (i)–(iii) and the rest of the passage are absent from the extraction, so they were NOT invented — the answers alone are preserved. Attribution to 310: 310 is the only numbered case study in this run left without any sub-questions or answers, the answer '(i) No change' matches the alloy passage (an alloy's resistivity is nearly independent of temperature), and every other page-top orphan in this run has already been matched to its own numbered question. No question numbered 311 appears anywhere in the extraction."
+    },
+    {
+      "number": "312",
+      "form": "case_study",
+      "marks": 4,
+      "page": 69,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nR = ρ × l/A\n\nSome materials have low resistance, whereas some others have much higher resistance. In general, an alloy has higher resistance than the pure metals which form the alloy. Copper, silver, aluminium, etc. have very low resistance. Nichrome, constantan, etc. have higher resistance. Nichrome is used for making heating elements of heaters, toasters, electric irons, etc.\n\nRead the following information: resistivity of copper is lower than that of aluminium, which in turn is lower than that of constantan. Six wires labelled as A, B, C, D, E, F have been designed as per the following parameters:\n\n<html><body><table><tr><td>Wire</td><td>Length</td><td>Diameter</td><td>Material</td><td>Resistance</td></tr><tr><td>A</td><td></td><td>2d</td><td>Aluminum</td><td>R1</td></tr><tr><td>B</td><td>2l</td><td>d/2</td><td>Constantan</td><td>R2</td></tr><tr><td></td><td>3l</td><td>d/2</td><td>Constantan</td><td>R3</td></tr><tr><td>D</td><td>l/2</td><td>3d</td><td>Copper</td><td>R4</td></tr><tr><td>E</td><td>2l</td><td>2d</td><td>Aluminum</td><td>R5</td></tr><tr><td>F</td><td>l/2</td><td>4d</td><td>Copper</td><td>R</td></tr></table></body></html>\n\nAnswer the following questions using the above data:\n\n(i) Which of the wires has maximum resistance and why?\n(ii) Which of the wires has minimum resistance and why?\n(iii) Arrange R₁, R₃ and R₅ in ascending order of their values. Justify your answer.\n(iv) Nichrome is used for making heating elements of heaters, toasters, electric irons, etc. Why?",
+      "answer": "(i) Wire C has maximum resistance because it has maximum length, least thickness and highest resistivity.\n\n(ii) Wire F has the minimum resistance since it has least length, maximum thickness and least resistivity (using R = ρl/A).\n\n(iii) R₃ > R₅ > R₁ (using the relation R = ρl/A and comparing).\n\n(iv) Nichrome has higher resistance.",
+      "concept": "Factors Affecting Resistance",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "HTML table kept verbatim; OCR dropped wire A's length and wire C's label, and wire F's resistance prints as 'R' rather than R6. Note that the printed answer to (iii) lists the values in DESCENDING order (R₃ > R₅ > R₁) although the question asks for ascending order — kept as printed."
+    },
+    {
+      "number": "313",
+      "form": "case_study",
+      "marks": 4,
+      "page": 69,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nThere are some important points regarding parallel and series combinations of resistances. When two or more resistors are connected in series, the total resistance of the combination is equal to the sum of all the individual resistances. When two or more resistors are connected in series, the same current flows through each resistor. When a number of resistors are connected in series, the voltage across the combination (i.e. the voltage of the battery in the circuit) is equal to the sum of the voltage drops (or potential differences) across each individual resistor.\n\nTwo resistors, with resistances 5 Ω and 10 Ω respectively, are to be connected to a battery of emf 6 V. Find:\n\n(i) In which resistor combination is the value of resistance minimum?\n(ii) In which resistor combination is the value of resistance maximum?\n(iii) What is the minimum value of current?\n(iv) What is the maximum value of current?",
+      "answer": "(i) For obtaining minimum current, the two resistors should be connected in series.\n\n(ii) For obtaining maximum current, the two resistors should be connected in parallel.\n\n(iii) For the series arrangement, the equivalent resistance\nR = R₁ + R₂ = 5 Ω + 10 Ω = 15 Ω\nI = V/R = 6 V / 15 Ω = 0.4 A\n\n(iv) For the parallel arrangement, the equivalent resistance\n1/R = 1/R₁ + 1/R₂ = 1/5 + 1/10 = (2 + 1)/10 = 3/10\nR = 10/3 Ω\nI = V/R = (6 × 3)/10 = 1.8 A",
+      "concept": "Resistors in Series",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "MinerU split this item: the passage, sub-questions and answers (i)–(iii) sit on page 69 while answer (iv) was emitted at the top of page 68; rejoined. The printed (iv) working ends '= 1.8.' with the unit lost — restored as 1.8 A. Sub-questions (i) and (ii) ask about resistance while the printed answers speak of current; left as printed."
+    },
+    {
+      "number": "314",
+      "form": "case_study",
+      "marks": 4,
+      "page": 68,
+      "section_heading": "CASE BASED QUESTIONS",
+      "stem": "Read the following case based passage and answer the questions given after the passage.\n\nWe have already studied that the source of electrical energy is a battery or a cell. Potential difference within the two terminals of the circuit is generated by the chemical reaction within the cells, which sets the electrons in motion to flow the current through a resistor or a system of resistors connected to a battery. The resistance wire becomes very hot and produces heat when electric current is passed through a high resistance wire like a nichrome wire. This is called the heating effect of current. When the electric energy is transformed into heat energy, then the heating effect of current is obtained. This effect is utilised in devices such as an electric heater, electric iron, etc.\n\n(i) Source of electric energy is\n(a) Battery\n(b) Cell\n(c) Both (a) and (b)\n(d) None of the above\n(ii) Which metal is used for making an electric heater?\n(a) Copper\n(b) Nichrome\n(c) Aluminium\n(d) Nickel",
+      "answer": "(i) (c) Both (a) and (b).\n\n(ii) (b) Nichrome.",
+      "concept": "Joule's Law of Heating",
+      "sub_parts": [
+        "i",
+        "ii"
+      ],
+      "ocr": "Only two sub-parts are printed for this case study. Passage, both sub-questions, their options and the answer key all sit on page 68; nothing of this item runs past the page 68/69 break."
+    }
+  ]
+}

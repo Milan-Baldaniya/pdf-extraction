@@ -70,6 +70,34 @@ def _clean(value: object, limit: int = 600) -> str:
     return out[:limit] + (" ..." if len(out) > limit else "")
 
 
+def _answer_parts(raw: object) -> tuple[str, str]:
+    """(options, model answer) out of the verbatim payload.
+
+    `lms_question_master.answer` stores the whole verbatim JSON -- hash, marks,
+    section, the lot. Printing it raw buries the two fields a mapper actually
+    needs under a content_hash, and costs several hundred characters a question
+    across thousands of them.
+    """
+    if not raw:
+        return "", ""
+    try:
+        payload = json.loads(raw)
+    except (TypeError, ValueError):
+        return "", _clean(raw, 300)
+    opts = payload.get("options") or []
+    rendered = ""
+    if isinstance(opts, list) and opts:
+        rendered = "  ".join(
+            f"({o.get('label')}) {_clean(o.get('text'), 70)}"
+            if isinstance(o, dict) else f"{_clean(o, 70)}"
+            for o in opts
+        )
+    correct = payload.get("correct_option")
+    if correct:
+        rendered = f"{rendered}   [correct: {correct}]" if rendered else f"[correct: {correct}]"
+    return rendered, _clean(payload.get("model_answer"), 320)
+
+
 def _print_frame(frame: curf.CurriculumFrame, chapter_id: int) -> bool:
     codes = sorted(frame.codes())
     if not codes:
@@ -212,8 +240,11 @@ def main() -> int:
             print(f"  Q: {_clean(title, 700)}")
             if desc:
                 print(f"  .. {_clean(desc, 700)}")
-            if answer:
-                print(f"  A: {_clean(answer, 400)}")
+            options, model = _answer_parts(answer)
+            if options:
+                print(f"  O: {options}")
+            if model:
+                print(f"  A: {model}")
         print("\n" + "=" * 70)
         print(f"\nWrite mappings to scripts/curriculum_maps/ch{chapter_id}"
               f"{f'_part{a.part}' if a.batch else ''}.json as:")

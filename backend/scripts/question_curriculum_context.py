@@ -99,37 +99,56 @@ def _print_frame(frame: curf.CurriculumFrame, chapter_id: int) -> bool:
 
 
 def _coverage(db, standard: int, subject: int | None) -> int:
+    """Per chapter: extraction-sourced questions, and how many are mapped.
+
+    Restricted to questions that have a sidecar row, because those are the ones
+    this pipeline produced and the only ones addressable by verbatim_sha256.
+    The chapters also hold LMS-native questions loaded by other means; they are
+    counted separately rather than folded in, so "left to map" stays a number
+    somebody can actually work through.
+    """
     rows = db.execute(
         text(
-            "SELECT DISTINCT q.chapter_id FROM lms_question_master q "
+            "SELECT q.chapter_id, c.chapter_name, "
+            "       COUNT(DISTINCT q.id) AS ours, "
+            "       COUNT(DISTINCT qo.question_id) AS mapped "
+            "  FROM lms_question_master q "
             "  JOIN lms_question_extraction x ON x.question_id = q.id "
+            "  JOIN chapter_master c ON c.id = q.chapter_id "
+            "  LEFT JOIN lms_question_outcome qo ON qo.question_id = q.id "
             " WHERE q.standard_id = :s AND (:su IS NULL OR q.subject_id = :su) "
-            "   AND q.chapter_id IS NOT NULL"
+            " GROUP BY q.chapter_id, c.chapter_name "
+            " ORDER BY c.chapter_name"
         ),
         {"s": standard, "su": subject},
     ).fetchall()
-    chapter_ids = [r[0] for r in rows]
-    if not chapter_ids:
-        print(f"no loaded questions for standard {standard}")
+    if not rows:
+        print(f"no extraction-sourced questions for standard {standard}")
         return 1
-    stats = qo.question_outcome_coverage(db, chapter_ids)
-    names = dict(
+    others = dict(
         db.execute(
-            text("SELECT id, chapter_name FROM chapter_master WHERE id IN :ids").bindparams(
-                __import__("sqlalchemy").bindparam("ids", expanding=True)
+            text(
+                "SELECT q.chapter_id, COUNT(*) FROM lms_question_master q "
+                " WHERE q.standard_id = :s AND (:su IS NULL OR q.subject_id = :su) "
+                "   AND NOT EXISTS (SELECT 1 FROM lms_question_extraction x "
+                "                    WHERE x.question_id = q.id) "
+                " GROUP BY q.chapter_id"
             ),
-            {"ids": chapter_ids},
+            {"s": standard, "su": subject},
         ).fetchall()
     )
-    print(f"{'chapter':>8}  {'items':>6}  {'mapped':>6}  {'left':>6}  name")
-    tot = mapped = 0
-    for cid in sorted(chapter_ids, key=lambda c: names.get(c, "")):
-        st = stats.get(cid) or {}
-        n, m = st.get("questions", 0), st.get("mapped", 0)
-        tot += n
-        mapped += m
-        print(f"{cid:>8}  {n:>6}  {m:>6}  {n - m:>6}  {_clean(names.get(cid), 44)}")
-    print(f"{'TOTAL':>8}  {tot:>6}  {mapped:>6}  {tot - mapped:>6}")
+    print(f"{'chapter':>8} {'ours':>6} {'mapped':>7} {'left':>6} {'lms-native':>11}  name")
+    tot = mapped = native = 0
+    for cid, name, ours, done in rows:
+        tot += int(ours)
+        mapped += int(done)
+        nat = int(others.get(cid, 0))
+        native += nat
+        print(f"{cid:>8} {ours:>6} {done:>7} {ours - done:>6} {nat:>11}  {_clean(name, 40)}")
+    print(f"{'TOTAL':>8} {tot:>6} {mapped:>7} {tot - mapped:>6} {native:>11}")
+    if native:
+        print(f"\n  {native} LMS-native question(s) carry no sidecar row and are "
+              f"not in this work list.")
     return 0
 
 

@@ -170,7 +170,18 @@ def main() -> int:
         return 0
 
     if a.file:
-        paths = [Path(f) if Path(f).exists() else MAP_DIR / f for f in a.file]
+        # Accept a bare name, a path relative to cwd, or one relative to
+        # curriculum_maps/ -- "curriculum_maps/ch1019.json" typed from backend/
+        # used to resolve under MAP_DIR a second time and report MISSING.
+        paths = []
+        for f in a.file:
+            cand = Path(f)
+            if not cand.exists():
+                for alt in (MAP_DIR / Path(f).name, Path.cwd() / f):
+                    if alt.exists():
+                        cand = alt
+                        break
+            paths.append(cand)
     elif a.all:
         paths = sorted(MAP_DIR.glob("*.json"))
     else:

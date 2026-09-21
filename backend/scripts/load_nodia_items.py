@@ -78,7 +78,7 @@ def apply_read_concepts(chapter: dict) -> dict[str, int]:
     try:
         chapter_id = chapter["chapter_id"]
         by_name = {
-            row[1].strip().lower(): int(row[0])
+            row[1].strip().lower(): (int(row[0]), row[1])
             for row in db.execute(
                 text(
                     "SELECT id, name FROM lms_concept WHERE chapter_id = :c "
@@ -97,17 +97,22 @@ def apply_read_concepts(chapter: dict) -> dict[str, int]:
         # Questions are addressed through the extraction sidecar, which carries
         # the item number this file used - the question id is assigned by the
         # writer and is not knowable here.
+        # q.concept is set alongside q.concept_id because the writer inserts a
+        # literal NULL into it and nothing else ever fills it. The bank UI falls
+        # back to that column, so leaving it NULL shows a blank concept on every
+        # question even when concept_id is right.
         done = 0
         for number, concept_name in named:
+            cid, canonical = by_name[concept_name.strip().lower()]
             result = db.execute(
                 text(
                     "UPDATE lms_question_master q "
                     "  JOIN lms_question_extraction x ON x.question_id = q.id "
-                    "   SET q.concept_id = :cid "
+                    "   SET q.concept_id = :cid, q.concept = :cname "
                     " WHERE x.extraction_id = :e AND x.item_number = :num "
                     "   AND q.chapter_id = :c"
                 ),
-                {"cid": by_name[concept_name.strip().lower()],
+                {"cid": cid, "cname": canonical,
                  "e": chapter["extraction_id"], "num": str(number), "c": chapter_id},
             )
             done += result.rowcount or 0

@@ -145,8 +145,13 @@ def persist_question_outcomes(
                 "outcome_id": mapping.get("outcome_id"),
                 "outcome_type": mapping.get("outcome_type") or "learning_outcome",
                 "outcome_code": mapping.get("outcome_code"),
-                "goal_code": mapping.get("goal_code"),
-                "competency_code": mapping.get("competency_code"),
+                # `or None`, not the bare value: _ancestry returns "" for the
+                # ancestor a row does not have -- a goal has no competency --
+                # and an empty string stored there makes every
+                # `WHERE competency_code IS NULL` report read false. This is
+                # what curriculum_frame.persist_mappings already does.
+                "goal_code": mapping.get("goal_code") or None,
+                "competency_code": mapping.get("competency_code") or None,
                 "curriculum_id": frame.curriculum_id,
                 "extraction_id": extraction_id,
                 "chapter_id": chapter_id,
@@ -197,8 +202,11 @@ def mirror_primary(db, mappings_by_question_id: Dict[int, List[Dict[str, Any]]])
                 # The outcome itself if it is a learning outcome, else the node
                 # that was cited -- a question mapped at competency level should
                 # say so rather than leave the column empty.
-                "lo": primary.get("outcome_code"),
-                "cg": primary.get("goal_code"),
+                "lo": primary.get("outcome_code") or None,
+                # `or None` for the same reason as persist_question_outcomes:
+                # _ancestry returns "" for an absent ancestor, and '' here makes
+                # every `WHERE g_cg_code IS NULL` report read false.
+                "cg": primary.get("goal_code") or None,
                 "qid": question_id,
             },
         )

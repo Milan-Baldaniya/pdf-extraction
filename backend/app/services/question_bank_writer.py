@@ -323,6 +323,15 @@ def _write_once(
                 text("DELETE FROM lms_question_asset WHERE question_id IN :ids"),
                 {"ids": tuple(old)},
             )
+            # lms_question_outcome is scoped by question_id like the rest. It
+            # was added after this block was written, so a re-load used to
+            # strand every curriculum mapping against a deleted question and
+            # bring the questions back unmapped -- which looks identical to a
+            # chapter that was never mapped.
+            db.execute(
+                text("DELETE FROM lms_question_outcome WHERE question_id IN :ids"),
+                {"ids": tuple(old)},
+            )
             db.execute(
                 text("DELETE FROM lms_question_extraction WHERE question_id IN :ids"),
                 {"ids": tuple(old)},

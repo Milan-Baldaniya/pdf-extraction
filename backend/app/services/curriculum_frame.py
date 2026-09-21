@@ -445,8 +445,30 @@ def match_concepts(
     return out
 
 
+class UnknownOutcomeCode(ValueError):
+    """A cited code is not in this chapter's curriculum frame.
+
+    Carries the legal list, because the only useful thing to tell whoever hit
+    this is what they could have said instead.
+    """
+
+    def __init__(self, code: str, legal: List[str]) -> None:
+        self.code = code
+        self.legal = legal
+        shown = ", ".join(legal[:12]) + (" ..." if len(legal) > 12 else "")
+        super().__init__(
+            f"curriculum code {code!r} is not in this chapter's frame. "
+            f"Legal codes: {shown or '(this chapter has none)'}"
+        )
+
+
 def sanitise_codes(
-    cited: Any, frame: CurriculumFrame, *, match_score: float = 0.9
+    cited: Any,
+    frame: CurriculumFrame,
+    *,
+    match_score: float = 0.9,
+    strict: bool = False,
+    match_source: str = "llm",
 ) -> List[Dict[str, Any]]:
     """Turn the codes a model cited into mappings, dropping any it invented.
 
@@ -454,6 +476,13 @@ def sanitise_codes(
     onto a code this curriculum does not contain is worse than no mapping,
     because it reads as curriculum alignment and is not. Same guard, for the
     same reason, as question_ai_tagger._sanitise.
+
+    `strict` raises UnknownOutcomeCode instead of dropping. Dropping is right
+    for the concept fan-out, where one bad code among hundreds should not fail
+    a chapter. It is wrong when the mapping IS the deliverable -- a question
+    bank loaded with every citation silently discarded looks exactly like one
+    loaded correctly. Callers that mean it pass strict=True; the default keeps
+    existing behaviour byte for byte.
     """
     if not isinstance(cited, list):
         cited = [cited] if cited else []
@@ -467,6 +496,8 @@ def sanitise_codes(
             continue
         outcome = lookup.get(code)
         if outcome is None:
+            if strict:
+                raise UnknownOutcomeCode(str(raw), sorted(frame.codes()))
             logger.debug("Dropping curriculum code %r: not in this chapter's frame", raw)
             continue
         seen.add(code)
@@ -474,7 +505,7 @@ def sanitise_codes(
             "outcome_id": outcome.id,
             "outcome_code": outcome.code,
             "outcome_type": outcome.type,
-            "match_source": "llm",
+            "match_source": match_source,
             "match_score": match_score,
         })
         if len(mappings) >= _MAX_MAPPINGS_PER_CONCEPT:

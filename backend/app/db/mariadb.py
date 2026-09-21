@@ -393,6 +393,55 @@ _QUESTION_TABLES_EXTRA: dict[str, str] = {
           KEY idx_qtc_publisher (publisher_id)
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
     """,
+    # Which curricular goals a question is taught against. The sibling of
+    # lms_concept_outcome, which has held the concept side of this since the
+    # Curriculum Frame shipped, and deliberately the same shape.
+    #
+    # A table rather than a column on lms_question_master, for three reasons:
+    #
+    #   * One question serves several outcomes. The reader is told to cite
+    #     "usually one, at most three"; a case-based parent with four sub-parts
+    #     legitimately spans a competency and two outcomes.
+    #   * outcome_id does not survive. save_learning_outcomes() DELETEs a whole
+    #     curriculum on every re-process, so the id is a dangling reference BY
+    #     DESIGN and the durable key is (curriculum_id, outcome_code).
+    #   * The hierarchy already exists on lms_learning_outcomes.parent_id, so
+    #     goal and competency are derived once at map time and denormalised
+    #     here rather than stored as two more ids that stale independently.
+    #
+    # No foreign keys, for the same reason lms_concept_outcome has none.
+    #
+    # The UNIQUE key is on outcome_code and not outcome_id: outcome_id is
+    # nullable, MySQL permits unlimited NULLs in a unique index, and keying on
+    # it would therefore not stop one question being mapped to one competency
+    # twice.
+    "lms_question_outcome": """
+        CREATE TABLE IF NOT EXISTS lms_question_outcome (
+          id               BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+          question_id      BIGINT UNSIGNED NOT NULL,
+          sub_institute_id BIGINT UNSIGNED NOT NULL,
+          outcome_id       BIGINT UNSIGNED NULL
+                           COMMENT 'lms_learning_outcomes.id; stale after a curriculum re-process',
+          outcome_type     VARCHAR(20) NOT NULL COMMENT 'goal | competency | learning_outcome',
+          outcome_code     VARCHAR(32) NOT NULL COMMENT 'CG 1 / C 1.1 / C-1.1-LO-2 -- the durable key',
+          goal_code        VARCHAR(32) NULL COMMENT 'denormalised from parent_id at map time',
+          competency_code  VARCHAR(32) NULL COMMENT 'denormalised from parent_id at map time',
+          curriculum_id    BIGINT UNSIGNED NULL,
+          extraction_id    BIGINT UNSIGNED NULL,
+          chapter_id       BIGINT UNSIGNED NULL,
+          match_source     VARCHAR(16) NOT NULL DEFAULT 'read'
+                           COMMENT 'read | llm | token_overlap | inherited',
+          match_score      DECIMAL(4,3) NULL,
+          created_at       TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+          updated_at       TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+          PRIMARY KEY (id),
+          UNIQUE KEY uq_qo_question_code (question_id, outcome_code),
+          KEY idx_qo_outcome (outcome_id),
+          KEY idx_qo_extraction (extraction_id),
+          KEY idx_qo_chapter_code (chapter_id, outcome_code),
+          KEY idx_qo_blueprint (chapter_id, outcome_type, outcome_code)
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+    """,
 }
 
 # Columns added to the item sidecar after it shipped.
@@ -407,7 +456,37 @@ _EXTRACTION_ITEM_COLUMNS: dict[str, str] = {
     "ai_model":           "VARCHAR(64) NULL",
     "ai_tagged_at":       "TIMESTAMP NULL",
     "ai_rationale":       "TEXT NULL",
+    # The PRIMARY curricular outcome only -- the full set lives in
+    # lms_question_outcome. These four mirror concept_id / concept_confidence /
+    # ai_model exactly, so the bank filters without a join.
+    "outcome_id":         "BIGINT UNSIGNED NULL",
+    "outcome_code":       "VARCHAR(32) NULL",
+    # DECIMAL(4,3) to match concept_confidence, as extraction_schema does.
+    "outcome_confidence": "DECIMAL(4,3) NULL",
+    "outcome_source":     "VARCHAR(16) NULL",
 }
+
+# Codes, not ids, and deliberately. The ERP owns lms_question_master, and
+# save_learning_outcomes() churns lms_learning_outcomes.id on every curriculum
+# re-process -- an id here would dangle with no resync path. The code survives
+# the rewrite, which is the whole premise of lms_concept_outcome.outcome_code.
+# Joins the existing g_* family (g_bloom, g_dok, g_difficulty, g_qtype_code):
+# plain, writable, machine-derived tags on the question itself.
+_QUESTION_MASTER_COLUMNS: dict[str, str] = {
+    "g_lo_code": "VARCHAR(32) NULL",
+    "g_cg_code": "VARCHAR(32) NULL",
+}
+
+# Indexes added after the fact. Kept separate from the column map because
+# ADD INDEX is not ADD COLUMN and information_schema answers them differently.
+_QUESTION_INDEXES: tuple[tuple[str, str, str], ...] = (
+    (
+        "lms_question_master",
+        "idx_qm_outcome",
+        "ALTER TABLE lms_question_master "
+        "ADD INDEX idx_qm_outcome (chapter_id, g_cg_code, g_lo_code)",
+    ),
+)
 
 _PUBLISHER_COLUMN = {"publisher_id": "BIGINT UNSIGNED NULL"}
 
@@ -436,6 +515,7 @@ def _ensure_publisher_schema(engine: Engine) -> list[str]:
 
             for table, columns in (
                 ("lms_question_extraction", _EXTRACTION_ITEM_COLUMNS),
+                ("lms_question_master", _QUESTION_MASTER_COLUMNS),
                 ("document_extractions", _PUBLISHER_COLUMN),
             ):
                 have = {
@@ -461,6 +541,27 @@ def _ensure_publisher_schema(engine: Engine) -> list[str]:
                         changed.append(f"{table}.{column}")
                     except Exception as exc:
                         logger.error("Could not add %s.%s: %s", table, column, exc)
+
+            # Indexes last: idx_qm_outcome names columns the loop above may
+            # have only just added, so it cannot be created before them.
+            for table, index, ddl in _QUESTION_INDEXES:
+                try:
+                    present = connection.execute(
+                        text(
+                            "SELECT COUNT(*) FROM information_schema.STATISTICS "
+                            "WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = :t "
+                            "AND INDEX_NAME = :i"
+                        ),
+                        {"t": table, "i": index},
+                    ).scalar()
+                    if present:
+                        continue
+                    connection.execute(text(ddl))
+                    connection.commit()
+                    changed.append(f"{table}.{index}")
+                except Exception as exc:
+                    # An index is a speed-up, never a correctness requirement.
+                    logger.error("Could not add index %s on %s: %s", index, table, exc)
     except Exception as exc:
         logger.warning("Publisher schema check skipped: %s", exc)
     if changed:

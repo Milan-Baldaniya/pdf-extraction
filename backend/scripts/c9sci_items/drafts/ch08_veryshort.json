@@ -7,177 +7,333 @@
   {
    "number": "24",
    "form": "very_short",
-   "page": null,
+   "page": 353,
    "stem": "Who first proposed the concept of indivisible particles called ‘parmanu’ in ancient India?",
-   "answer": "Acharya Kanada, an ancient Indian philosopher, first proposed that continuously dividing matter ultimately yields tiny indivisible particles which he specifically named parmanu."
+   "answer": "Acharya Kanada, an ancient Indian philosopher, first proposed that continuously dividing matter ultimately yields tiny indivisible particles which he specifically named parmanu.",
+   "concept": "Acharya Kanada's parmanu idea",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
    "number": "25",
    "form": "very_short",
-   "page": null,
+   "page": 353,
    "stem": "Define Dalton’s atomic theory regarding the composition of matter.",
-   "answer": "Dalton’s atomic theory proposed that all matter is composed of extremely small, fundamental, and indivisible building blocks widely known as atoms."
+   "answer": "Dalton’s atomic theory proposed that all matter is composed of extremely small, fundamental, and indivisible building blocks widely known as atoms.",
+   "concept": "Dalton's atomic theory",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   },
   {
    "number": "26",
    "form": "very_short",
-   "page": null,
+   "page": 353,
    "stem": "What caused scientists to reconsider the idea that atoms are the smallest indivisible units of matter?",
-   "answer": "The discovery of radioactivity, where certain elements emit invisible energy and particles, clearly proved that atoms are actually composed of smaller subatomic particles."
+   "answer": "The discovery of radioactivity, where certain elements emit invisible energy and particles, clearly proved that atoms are actually composed of smaller subatomic particles.",
+   "concept": "Discovery of electrons",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "27",
    "form": "very_short",
-   "page": null,
+   "page": 353,
    "stem": "Describe J.J. Thomson’s plum pudding model of the atom in one sentence.",
-   "answer": "Thomson proposed that an atom is a positively charged uniform sphere with negatively charged electrons embedded throughout it like plums inside a pudding."
+   "answer": "Thomson proposed that an atom is a positively charged uniform sphere with negatively charged electrons embedded throughout it like plums inside a pudding.",
+   "concept": "Thomson's plum pudding model",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "28",
    "form": "very_short",
-   "page": 355,
+   "page": 353,
    "stem": "Which material did Ernest Rutherford use in his alpha particle scattering experiment?",
-   "answer": "Ernest Rutherford used a very thin gold foil and directed a narrow beam of highly energetic alpha particles at it during his famous experiment."
+   "answer": "Ernest Rutherford used a very thin gold foil and directed a narrow beam of highly energetic alpha particles at it during his famous experiment.",
+   "concept": "Rutherford's gold foil experiment",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
-   "number": "64",
+   "number": "29",
    "form": "very_short",
-   "page": 355,
-   "stem": "Draw the schematic atomic structure of a magnesium atom (Atomic number 12, Mass number 24). Explain how its valency is determined from this electronic arrangement.",
-   "answer": "Magnesium inherently possesses 12 electrons. Following standard distribution rules, these electrons densely populate the energy shells sequentially as 2 in the inner K-shell, 8 in the middle L-shell, and exactly 2 in the outermost M-shell. This specific arrangement clearly leaves 2 valence electrons on the periphery. Because it requires significantly less energy for a magnesium atom to completely lose these two electrons to uncover a stable underlying octet rather than gaining six more, its functional chemical valency is definitively determined to be 2."
+   "page": 350,
+   "stem": "What was the unexpected result when alpha particles hit the gold foil in Rutherford’s experiment?",
+   "answer": "While most alpha particles passed straight through the gold foil, a few were sharply deflected, and a very small fraction completely bounced back.",
+   "concept": "Rutherford's gold foil experiment",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
-   "number": "65",
+   "number": "30",
    "form": "very_short",
-   "page": 355,
-   "stem": "What was John Dalton’s early contribution to element symbols? How are symbols officially written today according to international standards?",
-   "answer": "John Dalton was the first pioneer to introduce a standardized set of unique pictorial symbols to visually represent different chemical elements, such as drawing a circle with a central dot for hydrogen. Today, symbols are globally approved by the International Union of Pure and Applied Chemistry and utilize specific alphabets instead of pictures. These modern symbols typically consist of the first one or two letters of an element’s name, ensuring the first letter is always capitalized while the second remains in lowercase."
+   "page": 350,
+   "stem": "Why did Rutherford conclude that most of the space inside an atom is empty?",
+   "answer": "Rutherford concluded this because the vast majority of alpha particles passed straight through the thin gold foil without experiencing any deflection from their path.",
+   "concept": "Rutherford's nuclear model",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
-   "number": "66",
+   "number": "31",
    "form": "very_short",
-   "page": 355,
-   "stem": "Why do positively charged protons securely packed together inside an atomic nucleus not violently push each other apart due to powerful electrostatic repulsion?",
-   "answer": "Positively charged protons naturally exert a powerful electrostatic repulsive force against one another, especially when packed closely. However, the atomic nucleus does not violently fly apart because it critically contains neutral particles called neutrons. These uncharged neutrons effectively physically intervene between the protons, slightly increasing the distance between them to diminish the repulsive electrostatic forces. More importantly, their presence helps generate the overwhelmingly strong nuclear force, a unique binding energy that aggressively overpowers electrical repulsion and holds the entire nucleus tightly together."
+   "page": 350,
+   "stem": "What was the major limitation of Rutherford’s planetary model of the atom?",
+   "answer": "It failed to explain atomic stability because an accelerating electron should continuously lose energy, spiraling into the nucleus and causing the atom to collapse.",
+   "concept": "Limitation of Rutherford's model",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   },
   {
-   "number": "67",
+   "number": "32",
    "form": "very_short",
-   "page": 355,
-   "stem": "Assertion: The simple arithmetic mean of the masses of an element’s isotopes always equals its true average atomic mass. Do you agree? Justify your stance using chlorine as an example.",
-   "answer": "No, I strongly disagree with this assertion. Calculating a simple arithmetic mean is mathematically incorrect because naturally occurring isotopes almost never exist in perfectly equal proportions in nature. Therefore, scientists must calculate a precise weighted average based on their actual relative environmental abundances. For instance, naturally occurring chlorine consists of Cl-35 (about 75% abundance) and Cl-37 (about 25%). While a simple average wrongly yields 36 u, mathematically factoring in these unequal percentage ratios accurately produces a fractional average mass of exactly 35.5 u."
+   "page": 350,
+   "stem": "How did Niels Bohr’s model solve the problem of atomic stability?",
+   "answer": "Bohr suggested that electrons revolve around the nucleus in fixed circular orbits called stationary states, where they absolutely do not lose any energy.",
+   "concept": "Bohr's model of atom",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
-   "number": "68",
+   "number": "33",
    "form": "very_short",
-   "page": 356,
-   "stem": "Isotopes frequently possess special properties that make them highly valuable. Explain three critical applications of specific radioactive isotopes across different modern fields.",
-   "answer": "Certain radioactive isotopes exhibit highly specialized properties that make them exceptionally useful across diverse modern fields, particularly medicine and energy. For example, a specific isotope of iodine is medically utilized to accurately diagnose and treat dangerous thyroid disorders like goitre. Similarly, the radioactive Journey Inside the Atom the nucleus like planets, they would constantly lose kinetic energy due to this acceleration. Consequently, their orbital paths would progressively shrink into an inward spiral, eventually causing them to crash directly into the positively charged nucleus, thereby destroying the atom’s stability."
+   "page": 350,
+   "stem": "What is the scientific term used for the fixed circular paths around the nucleus in Bohr’s model?",
+   "answer": "The fixed circular paths where electrons continually revolve around the central nucleus without radiating energy are formally called energy levels or atomic shells.",
+   "concept": "Bohr's model of atom",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
-   "number": "59",
+   "number": "34",
    "form": "very_short",
-   "page": 356,
-   "stem": "Describe the discovery of the neutron and explain its essential role within the atomic nucleus.",
-   "answer": "The neutron was successfully discovered by James Chadwick in 1932. He identified a previously unknown subatomic particle located in the nucleus that possessed a mass nearly equal to that of a proton but carried absolutely no electrical charge. Neutrons play an incredibly crucial role in the atomic nucleus by actively reducing the intense electrical repulsion that exists between the tightly packed, positively charged protons. By adding necessary mass and creating strong binding forces, neutrons help hold the nucleus securely together, preventing disintegration."
+   "page": 350,
+   "stem": "Who discovered the neutron, and what is its electrical charge?",
+   "answer": "James Chadwick successfully discovered the neutron in nineteen thirty-two, and it is a neutral subatomic particle carrying absolutely no electrical charge whatsoever.",
+   "concept": "Chadwick's discovery of neutron",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
-   "number": "60",
+   "number": "35",
    "form": "very_short",
-   "page": 356,
-   "stem": "Study the given schematic diagram. What was the purpose of using an extremely thin gold foil? Why did a very small fraction of alpha particles deflect completely backwards?",
-   "answer": "Ernest Rutherford specifically chose a gold foil because he needed an incredibly thin layer, about one thousand atoms thick, to observe the alpha particles passing through without undergoing multiple confusing collisions. The rare, complete 180-degree backward deflection of a few alpha particles occurred because they collided directly with a massive repulsive force. This crucial observation indicated that the entire positive charge and almost all the physical mass of the gold atom were densely concentrated in a tiny central region called the nucleus."
+   "page": 350,
+   "stem": "State one characteristic property of a neutron regarding its mass compared to other subatomic particles.",
+   "answer": "A neutron possesses a mass that is nearly equal to that of a proton, making it significantly heavier than a tiny, lightweight electron.",
+   "concept": "Protons and neutrons contribute mass",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   },
   {
-   "number": "61",
+   "number": "36",
    "form": "very_short",
-   "page": 356,
-   "stem": "What is the atomic number of an element? How does it differ from the mass number in terms of subatomic particles?",
-   "answer": "The atomic number of an element is exactly equal to the total number of positively charged protons inherently present in the nucleus of its atoms. It permanently defines the chemical identity of that element. In contrast, the mass number is the combined sum of both protons and neutrons, collectively known as nucleons, located inside the central nucleus. While the atomic number strictly dictates the electron count and chemical behavior, the mass number accounts for nearly the entire physical weight of the atomic structure."
+   "page": 350,
+   "stem": "What is the full form of the abbreviation IUPAC in the context of chemistry?",
+   "answer": "The full form of IUPAC is the International Union of Pure and Applied Chemistry, which officially approves the names and symbols of elements.",
+   "concept": "IUPAC symbol writing rules",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
-   "number": "62",
+   "number": "37",
    "form": "very_short",
-   "page": 356,
-   "stem": "Why is the maximum number of electrons in the outermost shell of an atom strictly limited to 8, even if the general formula allows for a higher capacity?",
-   "answer": "According to the established Bohr-Bury rules, the outermost shell of any atom can accommodate a maximum of exactly 8 electrons, regardless of the higher capacity calculated by the general formula. This fundamental limitation is directly tied to atomic stability. Possessing exactly 8 electrons in the outermost valence shell constitutes an octet configuration, which makes the atom exceptionally stable and chemically inert, much like noble gases. Any configuration extending beyond 8 electrons in this boundary layer would create instability and is naturally prohibited."
+   "page": 350,
+   "stem": "Give one rule for writing the chemical symbol of an element if it has two letters.",
+   "answer": "When a chemical symbol consists of two letters, the first letter is always uppercase while the second letter is strictly written in lowercase.",
+   "concept": "IUPAC symbol writing rules",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
-   "number": "63",
+   "number": "38",
    "form": "very_short",
-   "page": 357,
-   "stem": "Explain the concept of valency with reference to the octet rule, using sodium and oxygen as examples.",
-   "answer": "Valency represents the chemical combining capacity of an element, determined strictly by the number of electrons it must lose, gain, or share to successfully achieve a stable octet configuration. For instance, sodium has an atomic number of 11, giving it an electronic arrangement of 2, 8, 1. It easily loses its one valence electron to achieve perfect stability, resulting in a valency of 1. Conversely, oxygen, with a configuration of 2, 6, needs to gain two electrons to complete its octet, giving it a valency of 2. Click Here to Buy book on Amazon of any given atom. They exclusively dictate the chemical reactivity and total combining capacity of the element. If an atom possesses fewer than four valence electrons, it inherently prefers losing them to uncover a stable underlying octet. Conversely, if an atom has more than four, it energetically prefers gaining external electrons to quickly complete its octet. Elements possessing exactly four valence electrons typically share them to achieve necessary stability."
+   "page": 350,
+   "stem": "What is meant by the atomic number of an element?",
+   "answer": "The atomic number of an element is specifically defined as the total number of positively charged protons present inside the atom’s central nucleus.",
+   "concept": "Atomic number definition",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
-   "number": "74",
+   "number": "39",
    "form": "very_short",
-   "page": 357,
-   "stem": "Study the given schematic diagram of an atom’s electron distribution. Identify the element based on its atomic number. What is its chemical valency, and how exactly will it achieve a stable electronic configuration?",
-   "answer": "By carefully counting the total electrons visually distributed across the shells (2 in the inner, 8 in the middle, and 7 in the outer), we determine the atomic number is exactly 17, uniquely identifying the element as chlorine. Because chlorine inherently possesses 7 valence electrons on its outermost periphery, it desperately needs only one additional electron to perfectly complete its noble-gas octet. Therefore, its chemical valency is exactly 1. It readily achieves ultimate stability by forcefully gaining or mutually sharing this required electron."
+   "page": 350,
+   "stem": "Write the formula used to calculate the mass number of an atom.",
+   "answer": "The mass number of an atom is directly calculated by adding the total number of protons and the total number of embedded neutrons.",
+   "concept": "Mass number and nucleons",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
-   "number": "75",
+   "number": "40",
    "form": "very_short",
-   "page": 357,
-   "stem": "Trace the historical sequence of scientific atomic models, briefly highlighting the major structural improvement each successive model successfully brought over the previous one.",
-   "answer": "The conceptual journey began with Dalton boldly proposing the atom as a solid, indivisible particle. Later, Thomson discovered electrons and introduced the plum pudding model, suggesting negative particles were merely embedded in a positive sphere. Rutherford’s foil experiment famously shattered this, revealing a dense central positive nucleus surrounded by randomly orbiting electrons in vast empty space. Finally, Niels Bohr significantly refined this architecture by introducing fixed energy levels, proving that electrons revolve only in discrete stationary shells, thereby successfully explaining permanent atomic stability."
+   "page": 350,
+   "stem": "Define nucleons in the context of atomic structure.",
+   "answer": "Nucleons essentially refer to the subatomic particles, specifically the protons and neutrons, which are packed tightly together inside an atom’s central nucleus.",
+   "concept": "Mass number and nucleons",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
-   "number": "76",
+   "number": "41",
    "form": "very_short",
-   "page": 357,
-   "stem": "Chlorine naturally occurs as two distinct isotopes, Cl-35 and Cl-37, in an approximate ratio of 3:1. Calculate its average atomic mass and briefly explain what this value implies.",
-   "answer": "Chlorine fundamentally consists of Cl-35 with a natural abundance of 75%, and Cl-37 with a smaller abundance of 25%. Its average atomic mass is carefully calculated using these specific weighted proportions: (35 × 75/100) + (37 × 25/100) = 26.25 + 9.25 = 35.5 u. This unique fractional value practically implies that while no single chlorine atom physically weighs exactly 35.5 u, any macroscopic sample of naturally occurring chlorine gas will universally behave chemically and physically as if this is its uniform mass."
+   "page": 350,
+   "stem": "What formula is used to find the maximum number of electrons in an energy shell?",
+   "answer": "The maximum number of electrons that can be easily accommodated in any given energy shell is formally determined by the formula two n squared.",
+   "concept": "Bohr-Bury 2n² rule",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1,
+   "reproduction_note": "the answer broke off after 'in any given energy shell' at the foot of page 350 and resumes at the head of page 351; the two printed halves are joined, nothing is supplied."
   },
   {
-   "number": "77",
+   "number": "42",
    "form": "very_short",
-   "page": 358,
-   "stem": "What subatomic balance precisely makes an atom electrically neutral? How does this internal balance drastically change when a metallic atom loses a valence electron?",
-   "answer": "An ordinary atom remains electrically neutral because the total count of positively charged protons firmly locked inside the central nucleus perfectly equals the total count of negatively charged electrons rapidly orbiting outside. These identically opposite charges flawlessly cancel each other’s effects. However, when a metallic atom deliberately loses an outer valence electron to comfortably achieve octet stability, this delicate internal balance is permanently disrupted. The atom suddenly possesses more protons than electrons, instantly transforming the formerly neutral entity into a positively charged ion. Journey Inside the Atom isotope of cobalt is highly effective in targeted radiation therapy for safely treating malignant cancers. Furthermore, the powerful isotope Uranium-235 is strategically used as a potent fuel inside nuclear reactors to sustainably generate massive amounts of industrial electrical energy."
+   "page": 351,
+   "stem": "What would be the maximum number of electrons in the M-shell according to the Bohr-Bury rules?",
+   "answer": "According to the Bohr-Bury rules, the M-shell represents the third energy level, so it can ultimately accommodate a maximum of eighteen electrons.",
+   "concept": "Bohr-Bury 2n² rule",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
-   "number": "69",
+   "number": "43",
    "form": "very_short",
-   "page": 358,
-   "stem": "Study the given diagrams of three related atomic species. Identify the specific relationship between these three chemical species. Why do they exhibit identical chemical properties despite having distinct physical mass numbers?",
-   "answer": "These three uniquely illustrated species represent the naturally occurring isotopes of hydrogen: protium, deuterium, and tritium. Isotopes are atoms belonging to the exact same element that share identical atomic numbers but possess varying mass numbers due to differing neutron counts. Despite their noticeably different physical masses, these isotopes demonstrate entirely identical chemical properties. This phenomenon occurs because chemical behavior is strictly governed by the number of valence electrons. Since all three isotopes retain exactly one electron, their combining capacities remain perfectly identical."
+   "page": 351,
+   "stem": "State the condition required for an atom to have electrons in the L-shell.",
+   "answer": "Electrons will genuinely begin to occupy the L-shell only after the innermost K-shell has been completely filled with its maximum capacity of two electrons.",
+   "concept": "Filling from inner to outer shells",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   },
   {
-   "number": "70",
+   "number": "44",
    "form": "very_short",
-   "page": 358,
-   "stem": "Compare protons and electrons strictly on the basis of their relative electrical charge, relative physical mass, and specific physical location within the atomic structure.",
-   "answer": "Protons and electrons are fundamental subatomic particles that critically differ in charge, mass, and location. A proton inherently carries a positive relative electrical charge of +1, whereas an electron possesses an equal but profoundly opposite negative charge of -1. Regarding mass, a single proton is massively heavier, roughly 2000 times heavier than an exceedingly light electron, whose mass is considered entirely negligible. Structurally, heavy protons are tightly bound deep inside the dense nucleus, while tiny electrons constantly revolve around it in vast orbits."
+   "page": 351,
+   "stem": "What are valence electrons in an atom?",
+   "answer": "Valence electrons are the specific negatively charged particles that are present in the outermost energy shell and primarily determine an atom’s chemical properties.",
+   "concept": "Valence shell and valence electrons",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
-   "number": "71",
+   "number": "45",
    "form": "very_short",
-   "page": 358,
-   "stem": "Draw the standard atomic notation for Argon (Atomic number 18, Mass number 40) and Calcium (Atomic number 20, Mass number 40). Explain why they are classified as isobars.",
-   "answer": "Argon and calcium are strictly classified as isobars because they represent atoms of entirely different elements that possess uniquely different atomic numbers but coincidently share the exact same mass number. The atomic number of argon is 18, whereas calcium is 20, meaning their chemical properties profoundly differ. However, the total cumulative sum of heavy nucleons, which includes both protons and neutrons residing together in their respective central nuclei, perfectly equals 40 for both atoms, granting them identical overall physical masses."
+   "page": 351,
+   "stem": "Define valency in terms of an atom’s combining capacity.",
+   "answer": "Valency is clearly defined as the exact number of electrons an atom must strictly lose, gain, or share to achieve a stable outermost shell.",
+   "concept": "Valency as electrons lost/gained/shared",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
-   "number": "72",
+   "number": "46",
    "form": "very_short",
-   "page": 358,
-   "stem": "What exactly is the octet rule? Why are noble gases like helium and neon considered highly chemically unreactive in nature?",
-   "answer": "The octet rule dictates that atoms physically reach their state of maximum stability when their outermost electron shell becomes completely occupied with exactly eight valence electrons. Atoms relentlessly strive to achieve this perfect state by actively losing, gaining, or sharing electrons. Noble gases like helium (with 2 electrons completing its only shell) and neon (with a perfect 8) inherently possess these fully saturated valence shells naturally. Because their combining capacity is literally zero, they absolutely do not need to chemically react, remaining permanently inert."
+   "page": 351,
+   "stem": "What is the significance of an atom having eight electrons in its outermost shell?",
+   "answer": "An atom containing exactly eight electrons in its outermost shell possesses a complete octet, making it highly stable and generally chemically unreactive.",
+   "concept": "Complete octet confers stability",
+   "bloom": "understand",
+   "dok": 1,
+   "difficulty": 2
   },
   {
-   "number": "73",
+   "number": "47",
    "form": "very_short",
-   "page": 359,
-   "stem": "What are valence electrons? How does the count of these electrons directly dictate whether an atom will lose, gain, or share electrons during a reaction?",
-   "answer": "Valence electrons are the specific electrons actively present in the outermost energy shell firmly located exclusively inside the central atomic nucleus. In stark contrast, an electron is exceedingly tiny, possessing a mass roughly 2000 times smaller than a single proton. Because the electrons’ cumulative contribution to the weight is negligible, over 99.9% of the atom’s entire physical mass resides directly within the nucleus."
+   "page": 351,
+   "stem": "State one major difference between isotopes of the same element.",
+   "answer": "While isotopes of the same element consistently share identical atomic numbers, they possess distinctly different mass numbers due to differing neutron counts.",
+   "concept": "Isotopes definition",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   },
   {
-   "number": "83",
+   "number": "48",
    "form": "very_short",
-   "page": 359,
-   "stem": "Draw a diagram showing the energy levels in an atom according to Bohr’s model. How did Bohr’s introduction of stationary states resolve the fatal limitation of Rutherford’s model?",
-   "answer": "Rutherford’s model critically failed to explain atomic stability because revolving electrons would theoretically lose energy and spiral into the nucleus. Niels Bohr resolved this anomaly by postulating that electrons revolve only in special, fixed circular paths called discrete stationary orbits. While moving inside these allowed energy levels, electrons naturally do not radiate or lose any energy. An electron’s total energy remains completely constant as long as it stays in its specific shell, brilliantly ensuring the atom remains structurally stable forever. LON G Answer QUESTION"
+   "page": 351,
+   "stem": "State one similarity among all the naturally occurring isotopes of hydrogen.",
+   "answer": "All naturally occurring isotopes of hydrogen strictly contain exactly one proton in their central nucleus and share the identical atomic number of one.",
+   "concept": "Isotopes of hydrogen",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
+  },
+  {
+   "number": "49",
+   "form": "very_short",
+   "page": 351,
+   "stem": "Give one practical application of the radioactive isotope of cobalt.",
+   "answer": "The highly radioactive isotope of cobalt, specifically known as cobalt-sixty, is widely utilised in the medical field for targeted radiation treatments against cancer.",
+   "concept": "Applications of isotopes",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "50",
+   "form": "very_short",
+   "page": 351,
+   "stem": "Why do the chemical properties of isotopes of a particular element remain identical?",
+   "answer": "Chemical properties depend entirely upon the specific number of valence electrons, which perfectly remains the exact same across all different isotopes of an element.",
+   "concept": "Isotopes have similar chemical properties",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "51",
+   "form": "very_short",
+   "page": 351,
+   "stem": "Why is the atomic mass of chlorine considered to be a fractional value of 35.5 u?",
+   "answer": "The atomic mass is fractional because it accurately represents the weighted average mass of chlorine’s two naturally occurring isotopes based on their relative abundances.",
+   "concept": "Simple average atomic mass",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "52",
+   "form": "very_short",
+   "page": 351,
+   "stem": "Define isobars with respect to different elements.",
+   "answer": "Isobars are clearly defined as atoms belonging to completely different chemical elements that share the exact same mass number despite having differing atomic numbers.",
+   "concept": "Isobars definition",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "53",
+   "form": "very_short",
+   "page": 351,
+   "stem": "Give one example of a pair of elements that are classified as isobars.",
+   "answer": "Calcium and argon perfectly serve as a classic example of isobars since both uniquely possess a mass number of forty despite distinct atomic numbers.",
+   "concept": "Isobars definition",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   }
  ]
 }

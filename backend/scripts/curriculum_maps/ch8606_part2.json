@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8606,
+ "mappings": [
+  {
+   "sha": "d810063c22e7afff",
+   "codes": ["C-2.5-LO-1", "C-2.5-LO-4", "C-2.5-LO-5"],
+   "note": "Five true/false claims split across three outcomes: (i)+(ii) are the work definition (LO-1), (iii) is the joule as unit of energy (LO-4), (iv)+(v) are forms of energy and interconversion (LO-5). No single outcome covers the item."
+  },
+  {
+   "sha": "4a244e5c2606e06c",
+   "codes": ["C-2.5-LO-1", "C-2.5-LO-5", "C-2.6-LO-1"],
+   "note": "Blanks (i)+(ii) recall the work definition and the joule (LO-1), (iii)+(iv) recall the KE and PE expressions (LO-5), and (v) recalls power as a rate, which sits in C-2.6-LO-1's define-power clause. All three are recall, none is calculation, so no LO-2/LO-6."
+  },
+  {
+   "sha": "04fba738bb166d9c",
+   "codes": ["C-2.5-LO-7"],
+   "note": "The gradeable energy claims are 'KE is zero' and 'PE is maximum' at the top of a vertical throw - the free-flight PE/KE interchange of LO-7. The force and acceleration distractors are prior-chapter mechanics with no outcome here."
+  },
+  {
+   "sha": "c40e2f131333e775",
+   "codes": ["C-2.5-LO-1"],
+   "note": "Asks the defining requirement for work (displacement along the force). Straight recall of the definition, so LO-1; nothing is computed, so not LO-2."
+  },
+  {
+   "sha": "85f21b67992e068b",
+   "codes": ["C-2.5-LO-1"],
+   "note": "Pushing an immovable wall: zero displacement means zero work, decided purely from the definition (LO-1). Part of the zero-work family that honestly shares this outcome; muscular fatigue is a distractor, not an energy-forms question."
+  },
+  {
+   "sha": "a171f4a23e01ab7e",
+   "codes": ["C-2.5-LO-1"],
+   "note": "Perpendicular force does zero work - the direction clause of the work definition (LO-1). Not LO-2: the answer is a direction judgement, not an evaluation of F x s."
+  },
+  {
+   "sha": "b7c7496a7c821072",
+   "codes": ["C-2.5-LO-1"],
+   "note": "Goalkeeper's force opposes the ball's displacement, so the work is negative - again the definition's direction clause (LO-1). Deliberately NOT the work-energy theorem (LO-3): the item never mentions the ball's kinetic energy change."
+  },
+  {
+   "sha": "9387d1ba01035d5e",
+   "codes": ["C-2.5-LO-1"],
+   "note": "The discriminating statement is that the SI unit of work is the newton (false) - the 'and its SI unit' clause of LO-1, which is why this sits with LO-1 rather than the energy-unit outcome LO-4."
+  },
+  {
+   "sha": "18fe3f8d0fba1feb",
+   "codes": ["C-2.5-LO-1"],
+   "note": "Assertion-reason on the perpendicular-force case; the reason is the definition of work itself, so LO-1. Same outcome as the girl-carrying-box MCQ - the pair genuinely shares one outcome, only the format differs."
+  },
+  {
+   "sha": "2f3aa5cd5d7ea96a",
+   "codes": ["C2.6"],
+   "note": "The entire question is a mechanical-advantage comparison (MA = length/height) between two ramps; the ramps are already identified, so LO-3 is not tested. C2.6 is the ONLY legal code naming mechanical advantage - the frame has no LO for it."
+  },
+  {
+   "sha": "8099ce56fc773fe3",
+   "codes": ["C-2.5-LO-2", "LO-71"],
+   "note": "Work as the area under a force-displacement plot: LO-2 for obtaining work from the expression, LO-71 for reading it off a graph. Not LO-3, which is only invoked when the work is converted to a kinetic-energy change."
+  },
+  {
+   "sha": "a510b875091af242",
+   "codes": ["C-2.5-LO-5"],
+   "note": "A four-way match of scenarios to energy transformations - the interconversion clause of LO-5. Matching lists are not data to interpret, so no LO-71 here unlike the tabular items."
+  },
+  {
+   "sha": "807c2b29a4749194",
+   "codes": ["C-2.5-LO-3"],
+   "note": "Recites the work-energy theorem itself (net work equals change in energy) - LO-3 verbatim, and the only item in this batch that states rather than applies it."
+  },
+  {
+   "sha": "83e02cde3914fad1",
+   "codes": ["C-2.5-LO-7", "LO-71"],
+   "note": "Fills two cells of a PE/KE/total table for a freely falling sphere: LO-7 for the free-fall interchange keeping the total fixed, LO-71 because the reasoning is done by reading across a data table."
+  },
+  {
+   "sha": "c2cad308c3e3c05c",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Recall of the expression 1/2 mv^2 - the 'define kinetic energy and derive its expression' clause of LO-5. LO-6 would require substituting numbers, which this item never does."
+  },
+  {
+   "sha": "f02b96d0a1656a51",
+   "codes": ["C-2.5-LO-3", "LO-71"],
+   "note": "Area under a VARIABLE force graph equals the kinetic energy gained - that identification is the work-energy theorem (LO-3), plus LO-71 for the graph. Distinguished from the constant-force graph item, which stops at work (LO-2)."
+  },
+  {
+   "sha": "0f2e3cfd1b443a5d",
+   "codes": ["C-2.5-LO-6"],
+   "note": "Quantitative proportional reasoning with 1/2 mv^2 (double v, quadruple KE) - using the expression to get a number, so LO-6 rather than the definitional LO-5."
+  },
+  {
+   "sha": "d8ac0cd26c93597e",
+   "codes": ["C2.6", "C-2.6-LO-3"],
+   "note": "Solved by the lever moment balance (load x load arm = effort x effort arm), i.e. mechanical advantage, which only C2.6 names; LO-3 for the seesaw as a lever. Not an energy outcome - no work or energy value appears."
+  },
+  {
+   "sha": "e19f073852d550ab",
+   "codes": ["C-2.5-LO-5", "C-2.5-LO-4"],
+   "note": "Statements 1, 3 and 4 test what KE is and what it depends on (LO-5); statement 2 tests that its SI unit is the joule, i.e. the unit-of-energy clause of LO-4. Recall throughout, so no LO-6."
+  },
+  {
+   "sha": "96368124f1c1a765",
+   "codes": ["C-2.5-LO-1", "LO-71"],
+   "note": "Four rows of force/displacement/relative-direction data must be read and the negative-work row inferred: the sign rule is LO-1, the row-by-row table inference is LO-71. No arithmetic is required, so not LO-2."
+  },
+  {
+   "sha": "649b40bd4e9841aa",
+   "codes": ["C-2.5-LO-1"],
+   "note": "Picks out which forces in a free-body diagram do zero work - the perpendicular clause of the work definition (LO-1). A labelled force diagram is not data to interpret, so unlike the table items this earns no LO-71."
+  },
+  {
+   "sha": "1761f54232a3277b",
+   "codes": ["C-2.5-LO-5"],
+   "note": "The reason offered is the squared velocity in the KE expression, so the item is testing the expression itself (LO-5). LO-4 would fit only if the general concept or unit of energy were the point; here it is specifically the KE formula."
+  },
+  {
+   "sha": "6dcd919fb8624314",
+   "codes": ["C-2.6-LO-2", "LO-71"],
+   "note": "Computes mgh/t for four machines from a data table and compares: calculating power is C-2.6-LO-2, and the four-row comparison is LO-71. Not C-2.6-LO-1, which covers only defining power."
+  },
+  {
+   "sha": "7ec2071559d574db",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Names the form of energy stored in a deformed bow (elastic potential) - the 'name forms of energy' clause of LO-5. Deliberately not the gravitational-PE clause: no height is involved, which is exactly the distractor."
+  },
+  {
+   "sha": "d8acd72b235dbfed",
+   "codes": ["C2.6", "LO-71"],
+   "note": "Ranks four ramps by MA = length/height from a data table. Mechanical advantage has no LO in this frame, so C2.6 carries it; LO-71 for the tabular comparison. Same outcome as the two-ramp MCQ - this family honestly shares it."
+  }
+ ]
+}

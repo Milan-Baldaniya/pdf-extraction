@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8606,
+ "mappings": [
+  {
+   "sha": "a488e173135f39f8",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Recall of U = mgh - the 'define potential energy for an object raised to a height and derive its expression' clause of LO-5. LO-6 is for substituting numbers into it, which this item does not do."
+  },
+  {
+   "sha": "667410f152895211",
+   "codes": ["C-2.5-LO-7"],
+   "note": "The correct option is that PE at the extreme converts entirely to KE at the lowest point - a pure PE-to-KE interchange, LO-7. Not C-2.6-LO-1: the item is not asking for the conservation law, and the distractors are about where each form peaks."
+  },
+  {
+   "sha": "0f7cf056aa157375",
+   "codes": ["C-2.5-LO-6"],
+   "note": "One substitution into mgh (10 x 10 x 5). Calculation, so LO-6; the sibling LO-5 would apply only if the formula itself were the answer, as in the U = mgh recall item."
+  },
+  {
+   "sha": "5e8e825486220988",
+   "codes": ["C-2.5-LO-6", "LO-71"],
+   "note": "Computes 1/2 mv^2 for four rows of a test-log table and ranks them: LO-6 for the calculation, LO-71 for drawing the inference from tabulated data. Not LO-5 - the expression is assumed known, not stated."
+  },
+  {
+   "sha": "b0c94c7aba55dd59",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Three claims about elastic, gravitational and magnetic potential energy, i.e. naming forms of energy and how position/deformation stores them - LO-5. No conversion, conservation or arithmetic, so no LO-7, C-2.6-LO-1 or LO-6."
+  },
+  {
+   "sha": "78b73fbcfd11461b",
+   "codes": ["C-2.5-LO-7"],
+   "note": "Literally the LO-7 case: a body in free fall, PE falling as KE rises. Chosen over C-2.6-LO-1 because the answer describes the mechanism of the interchange rather than stating the conservation law."
+  },
+  {
+   "sha": "24ac83cd15be416c",
+   "codes": ["C-2.5-LO-7"],
+   "note": "Orders the four stages of a dropped stone, which is the same free-fall PE/KE story as the previous item told chronologically - this family honestly shares LO-7. The final impact stage is the end of the sequence, not a separate conservation-law test."
+  },
+  {
+   "sha": "ffe543070b9995f8",
+   "codes": ["C-2.5-LO-6"],
+   "note": "Evaluates 1/2 mv^2 for (m, 2v) against (2m, v) to get 2:1 - using the expression, so LO-6. The doubling trap is arithmetic, not a definitional point, so not LO-5."
+  },
+  {
+   "sha": "a32e5ffdfdb3f5ed",
+   "codes": ["C-2.5-LO-7"],
+   "note": "Locates the point of purely kinetic energy in a pendulum swing - the PE/KE interchange of LO-7. Shares its outcome with the other pendulum MCQ; the frame offers nothing finer for oscillatory energy."
+  },
+  {
+   "sha": "73c9824ef3849f36",
+   "codes": ["C-2.5-LO-7"],
+   "note": "Maximum KE where PE is least on a frictionless track - the PE-to-KE conversion of LO-7. Not C-2.6-LO-1: 'frictionless' removes the dissipation question that would make the general conservation law the point."
+  },
+  {
+   "sha": "2f01274d0e319651",
+   "codes": ["C-2.6-LO-1", "C-2.5-LO-7"],
+   "note": "The discriminating statement is that mechanical energy is conserved ONLY without non-conservative forces - that is the conservation law and its condition (C-2.6-LO-1), which no other item in this batch tests. LO-7 carries the free-fall statement 3."
+  },
+  {
+   "sha": "e6e6604c778d8625",
+   "codes": ["C-2.6-LO-2"],
+   "note": "Computes and compares P = mgh/t for two systems - calculating power, C-2.6-LO-2. Not C-2.6-LO-1, which would fit a definition-only item; the energy step is subordinate to the power comparison so LO-6 is not cited."
+  },
+  {
+   "sha": "1f3e8b4e01f4ee75",
+   "codes": ["C2.6"],
+   "note": "Pure mechanical-advantage computation on a lever already identified in the stem (effort from the moment balance, then MA = load/effort). LO-3 is not earned because no machine has to be recognised; C2.6 is the only legal code that names mechanical advantage."
+  },
+  {
+   "sha": "ae7b767ad26be10d",
+   "codes": ["C-2.5-LO-7", "C-2.6-LO-1"],
+   "note": "The assertion is the constancy of total mechanical energy (C-2.6-LO-1) and the reason is the PE-to-KE conversion (LO-7); the item is graded on whether the second explains the first, so both are needed."
+  },
+  {
+   "sha": "5b2b3ed07133f7b7",
+   "codes": ["C-2.6-LO-3", "C2.6"],
+   "note": "POOR FIT. Velocity ratio has no outcome anywhere in this frame. LO-3 covers reading the pulley arrangement off the diagram and C2.6 is the nearest force-ratio idea, but neither states VR; this is a frame gap, not a judgement call."
+  },
+  {
+   "sha": "f1a17f80d3fd912e",
+   "codes": ["C-2.6-LO-3"],
+   "note": "Asks what a single fixed pulley does (redirects the effort), which is describing a named simple machine - a clean LO-3. No ratio is computed, so C2.6 is deliberately not added here."
+  },
+  {
+   "sha": "53fedb5281db30d9",
+   "codes": ["C2.6", "C-2.6-LO-3"],
+   "note": "Requires recognising the tree-house elevator as a single fixed pulley (LO-3) and then giving its load:effort ratio of 1:1, which is mechanical advantage (C2.6). The recognition step is why LO-3 appears here but not on the MA-definition item."
+  },
+  {
+   "sha": "c087fcefc9bcc4f8",
+   "codes": ["C2.6"],
+   "note": "POOR FIT. A bare definition of mechanical advantage. No learning outcome in curriculum 82 defines MA, so only the competency C2.6 can carry it; nothing about identifying a machine is tested, so LO-3 would be wrong."
+  },
+  {
+   "sha": "4d2fedefcfceeed1",
+   "codes": ["C2.6", "C-2.5-LO-2"],
+   "note": "POOR FIT and a DEFECTIVE ITEM: the stem asks for work done by the effort (hence LO-2) but the keyed answer divides load by effort to get 2 and labels it joules - that is a velocity ratio, not work. Mapped to both the asked skill and the machine competency; the item needs repair before it is trusted."
+  },
+  {
+   "sha": "d96c2cf4c7bf0522",
+   "codes": ["C2.6"],
+   "note": "MA = load/effort = 0.5 for a fixed pulley. A mechanical-advantage calculation with the machine named in the stem, so C2.6 alone, no LO-3. The frame has no outcome for MA itself, so this is the closest legal code."
+  },
+  {
+   "sha": "25d4b87df538c85f",
+   "codes": ["C-2.6-LO-3"],
+   "note": "Names which pulley system a junkyard crane uses - exactly 'identify different simple machines', LO-3, and one of the few machine items in this chapter the frame covers squarely. No ratio, so no C2.6."
+  },
+  {
+   "sha": "eabd2700d0b5f153",
+   "codes": ["C-2.6-LO-3", "C2.6"],
+   "note": "Nutcracker must first be read as a lever with a 16 cm effort arm and 2 cm load arm (LO-3), then the moment relation gives the load - a mechanical-advantage calculation (C2.6). Not an energy outcome: no work or energy appears."
+  },
+  {
+   "sha": "ca5a2240fcf1a381",
+   "codes": ["C2.6", "C-2.6-LO-3"],
+   "note": "POOR FIT. Turns on ACTUAL versus ideal mechanical advantage, i.e. efficiency losses from friction and pulley weight - the frame has no efficiency outcome. C2.6 for the MA idea, LO-3 for the single movable pulley being the subject."
+  },
+  {
+   "sha": "4b33d95bf425b756",
+   "codes": ["C2.6"],
+   "note": "POOR FIT - the worst in the chapter. Uses efficiency = MA/VR with VR = 5 and 80 per cent efficiency; two of the three quantities (velocity ratio, efficiency) appear nowhere in curriculum 82. Only the MA term touches C2.6, so the mapping is a third of the question at best."
+  },
+  {
+   "sha": "3cc5c8b9f3f3dc8f",
+   "codes": ["C-2.6-LO-3"],
+   "note": "Same fixed-pulley purpose question as item O38 with the options reordered - a near-duplicate that honestly maps to the same single outcome, LO-3. Recorded identically rather than manufacturing a difference."
+  }
+ ]
+}

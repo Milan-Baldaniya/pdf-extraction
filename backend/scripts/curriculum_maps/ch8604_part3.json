@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8604,
+ "mappings": [
+  {
+   "sha": "fb33eca7ac1741fa",
+   "codes": ["C1.2-LO-10"],
+   "note": "Matching four liquids to boiling points, explicitly framed as the data needed to judge distillation. LO-10 is the only outcome built on boiling-point differences. Weakish: it is recall of four numbers rather than an explanation, but no other code touches boiling points."
+  },
+  {
+   "sha": "62a30af8e69fa792",
+   "codes": ["C1.2-LO-10"],
+   "note": "Orders vaporise, condenser, condense, collect for an acetone-water distillation -- LO-10's 'explains distillation'. Not LO-16: this is the internal event sequence of one technique on a two-component mixture, not a plan of successive techniques."
+  },
+  {
+   "sha": "af423c3edee2bd12",
+   "codes": ["C8.2-LO-15"],
+   "note": "The visible beam is read as evidence of particles big enough to scatter -- LO-15's demonstration clause. Notably the key stops short of naming colloid versus suspension, so the classification outcome LO-14 is not what is being assessed."
+  },
+  {
+   "sha": "dfbb53ae3238a13b",
+   "codes": ["C1.2-LO-10"],
+   "note": "Petrol, kerosene and diesel from crude oil is the standard fractional-distillation case, and LO-10 explicitly covers fractional distillation and when it is appropriate. The distractors are the other three techniques, so the judgement is method choice."
+  },
+  {
+   "sha": "b7abb534974e8dcb",
+   "codes": ["C1.2-LO-10"],
+   "note": "Assertion is the under-25-degree condition for fractional distillation, reason is the fractionating column's repeated condensation -- both halves of LO-10's fractional clause. Sits with the other LO-10 items but on the fractional side rather than the simple-distillation side."
+  },
+  {
+   "sha": "d192322852849187",
+   "codes": ["C1.2-LO-11"],
+   "note": "Asks for the underlying principle -- differential interaction with solvent and paper -- which is LO-11's 'explains the principle of paper chromatography'. The boiling-point distractor is the LO-10 trap being rejected."
+  },
+  {
+   "sha": "05161ecc782a4269",
+   "codes": ["C1.2-LO-10"],
+   "note": "Four candidate mixtures, and simple distillation is picked by testing miscibility and the 25-degree gap -- LO-10's appropriateness clause. The immiscible rows are rejected by that same condition rather than by reasoning about a funnel, so C8.2-LO-11 is not cited."
+  },
+  {
+   "sha": "aba5711448ea563c",
+   "codes": ["C1.2-LO-11"],
+   "note": "Three statements all about paper chromatography: what it separates, the solvent-level rule, and the etymology. LO-11. The discriminating statement is the solvent level, which is the same setup rule as item O3 but tested inside a multi-statement stem."
+  },
+  {
+   "sha": "cd845be0dae51ad4",
+   "codes": ["C8.2-LO-11"],
+   "note": "Names mustard oil and water as immiscible. The option set is miscible / immiscible / saturated / colloid, i.e. a liquid-behaviour question, which is the premise LO-11 is built on. Not LO-6: the answer wanted is not 'heterogeneous'."
+  },
+  {
+   "sha": "c666ed23fc3568b9",
+   "codes": ["C8.2-LO-11"],
+   "note": "Which layer sits at the bottom and why -- density, the justification LO-11 asks for. Distinguished from the previous item, which only had to name the immiscibility; here the density ordering is the assessed step."
+  },
+  {
+   "sha": "6a82400e373f601b",
+   "codes": ["C8.2-LO-11"],
+   "note": "Three immiscible liquids, and the collection order follows the density stack. Deliberately NOT LO-16 despite three components: LO-16 is about sequencing different techniques and justifying that order, whereas here one funnel is opened once and gravity does the ordering -- still LO-11's density justification."
+  },
+  {
+   "sha": "2129a26891876fd8",
+   "codes": ["C8.2-LO-12"],
+   "note": "Definition of sublimation, with deposition offered as the distractor (D). LO-12 covers both terms, so the whole item lives inside it."
+  },
+  {
+   "sha": "72c6cb6c86ae7c07",
+   "codes": ["C8.2-LO-12"],
+   "note": "The camphor-and-sand bench separation -- LO-12's second clause, 'uses sublimation to separate a suitable solid mixture'. Two components only, so not LO-16."
+  },
+  {
+   "sha": "f2e4218a4a341bdc",
+   "codes": ["C8.2-LO-12"],
+   "note": "Definition of deposition, the reverse term LO-12 names alongside sublimation. Condensation and solidification are the distractors, so the assessed point is the no-liquid-phase qualifier."
+  },
+  {
+   "sha": "82f01960ecf097ab",
+   "codes": ["C8.2-LO-15"],
+   "note": "Two beakers classified as true solution and colloid purely from whether the beam is visible -- LO-15's 'uses it to identify a colloid'. Unlike item O28, this one does commit to the colloid label, but it does so from the light test alone, so LO-14 is not needed."
+  },
+  {
+   "sha": "d934ddd0add5b394",
+   "codes": ["C1.2-LO-6"],
+   "note": "Why an alloy counts as a homogeneous mixture though its components cannot be separated physically -- LO-6 names alloys as one of its classification cases and owns 'explains why a solution is homogeneous'."
+  },
+  {
+   "sha": "aaeedaac5524cf1e",
+   "codes": ["C1.2-LO-6"],
+   "note": "WEAK FIT. Matching brass, bronze and stainless steel to their compositions is recall of alloy recipes; LO-6's alloy clause is the only anchor, and only the fourth row ('uniformly mixed metallic homogeneous mixture') is genuinely classification. The 80/20 figures are quoted, never computed, so not LO-7."
+  },
+  {
+   "sha": "54100b65672f9b7d",
+   "codes": ["C8.2-LO-14"],
+   "note": "The key characteristic asked for is the over-1000 nm particle size of a suspension, with the under-1 nm solution figure as a distractor -- LO-14's 'uses particle size to distinguish a solution, a suspension and a colloid'."
+  },
+  {
+   "sha": "cc5958661e609fbe",
+   "codes": ["C8.2-LO-12", "C1.2-LO-11", "C8.2-LO-13"],
+   "note": "Three mixtures, three different techniques, one code each: sublimable solid = LO-12, differing solubility of pigments in a moving solvent = C1.2-LO-11, heavy solids in a liquid = centrifugation under LO-13. Exactly at the three-code cap, unlike the part-1 seven-row sweep which had to fall back to competency level."
+  },
+  {
+   "sha": "b0da9a90ee2fa088",
+   "codes": ["C8.2-LO-14"],
+   "note": "Mud settling under gravity because suspension particles are large -- the contrast case for LO-14's 'explains why the particles of a colloid do not settle'. Not LO-13: nothing is filtered and no alternative technique is selected, the item stops at the settling behaviour."
+  },
+  {
+   "sha": "24114504e591ac62",
+   "codes": ["C8.2-LO-13"],
+   "note": "The mechanism of centrifugation -- outward force driving denser particles down. LO-13 is the only outcome naming centrifugation. Slight stretch: LO-13 is written as 'selects centrifugation', while this item asks how it works rather than when to choose it."
+  },
+  {
+   "sha": "3c20e9c5200b5378",
+   "codes": ["C8.2-LO-13"],
+   "note": "Picks the case where centrifugation is the right tool (cells from plasma) and rejects chalk-in-water, which filtration would handle -- that rejection is exactly LO-13's 'explains why filtration fails ... selects centrifugation instead'. Closer to LO-13's selection clause than the preceding mechanism item."
+  },
+  {
+   "sha": "1bae5f258da27536",
+   "codes": ["C1.2-LO-11"],
+   "note": "Reads a finished chromatogram: the highest spot is the most soluble in the solvent. That solubility-in-solvent reasoning is LO-11's 'basis on which a solvent is chosen', applied to interpret the result rather than to set up the run."
+  },
+  {
+   "sha": "d9496cfc3b28de14",
+   "codes": ["C8.2-LO-13"],
+   "note": "Alum clumping fine mud is coagulation, named outright in LO-13 as the alternative when filtration cannot hold fine suspended particles. Not LO-14: the item is about the remedy, not about sizing the particles."
+  },
+  {
+   "sha": "befb085fb60eafe0",
+   "codes": ["C8.2-LO-13"],
+   "note": "Four statements on coagulation -- alum in water treatment, paneer from milk, acid coagulants, and a false temperature claim. All sit on LO-13's coagulation clause; paneer is a milk-colloid case but the process asked about is coagulation, not the Tyndall or emulsion content of LO-15."
+  }
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "chapter_id": 8614,
+ "mappings": [
+  {
+   "sha": "616c8ad59146c3d5",
+   "codes": [
+    "LO-41",
+    "LO-48"
+   ],
+   "note": "Mass of one molecule scaled by Avogadro's number to give a molecular mass of 28 u. The destination is molecular mass, which LO-41 names, but the route is the mole. POOR FIT on the route: no legal code names Avogadro's number or the mole."
+  },
+  {
+   "sha": "833a72a5afc2c7e8",
+   "codes": [
+    "LO-41"
+   ],
+   "note": "Weighted average of the 35 u and 37 u chlorine isotopes in a 3:1 ratio. POOR FIT: LO-41's calculation list is ion charge, valency from the atomic number, and molecular and formula unit mass - an isotopic average atomic mass is none of these, and isotopes are not mentioned anywhere in the legal set. LO-41 is cited as the only calculation outcome available."
+  },
+  {
+   "sha": "c16895478786291d",
+   "codes": [
+    "LO-41"
+   ],
+   "note": "Formula unit masses of ZnO, Na2O and K2CO3 from given atomic masses. The cleanest LO-41 item in this part - no mole, no Avogadro, exactly the calculation the outcome enumerates."
+  },
+  {
+   "sha": "6c92c6405670e59d",
+   "codes": [
+    "LO-41",
+    "LO-48"
+   ],
+   "note": "Mass of a single carbon atom from the 12 g mole. The bridge from bulk mass to one particle, so LO-48's particle clause joins LO-41. POOR FIT: the mole is the whole mechanism and it is unmapped."
+  },
+  {
+   "sha": "115e539a354069c3",
+   "codes": [
+    "LO-41"
+   ],
+   "note": "Masses of 1 mole of N atoms, 4 moles of Al and 10 moles of Na2SO3 - three mole-to-mass conversions differing only in the compound. Mapped together and honestly so: nothing in the frame distinguishes them. POOR FIT for the same reason as the rest of the mole block."
+  },
+  {
+   "sha": "95cc7cad2c47a8e6",
+   "codes": [
+    "LO-41",
+    "LO-48"
+   ],
+   "note": "Equal masses of ethane and methane converted to a molecule count. The hardest particle-counting item in the chapter and the worst-served by the frame: it is pure Avogadro reasoning, and LO-41 plus LO-48 are cited only as the nearest available calculation and particle codes. POOR FIT."
+  },
+  {
+   "sha": "7861e40c95391adc",
+   "codes": [
+    "LO-41",
+    "LO-48"
+   ],
+   "note": "(a) counts SO2 molecules in 44 g; (b) gets the mass of one oxygen atom from the 16 g mole. Molecules out and a single-atom mass out, both through molar mass. POOR FIT - the mole is absent from the legal set."
+  },
+  {
+   "sha": "3f319c7304b95816",
+   "codes": [
+    "LO-41",
+    "LO-48"
+   ],
+   "note": "Atomic mass, gram atomic mass, then the atom count in 11.5 g of sodium. Part (a) is inside LO-41; parts (b) and (c) introduce gram atomic mass and Avogadro's number, neither of which any legal code names. POOR FIT."
+  },
+  {
+   "sha": "447a758679ba36e6",
+   "codes": [
+    "LO-41",
+    "LO-48"
+   ],
+   "note": "Moles, molecules and atoms in 5.6 g of nitrogen - the three-step mole ladder, including the molecule-to-atom doubling. POOR FIT: the mole, the molar mass and Avogadro's number are all unmapped; LO-48's particle clause is the nearest thing to the counting idea."
+  },
+  {
+   "sha": "b1d416615b32f623",
+   "codes": [
+    "LO-48",
+    "LO-41"
+   ],
+   "note": "Atoms in 0.5 mole of carbon - no mass appears anywhere in the item, only Avogadro's number halved. The single worst fit in the chapter: LO-48 leads because the answer is a count of particles, and LO-41 is cited only to keep it with the rest of the calculation family. POOR FIT."
+  },
+  {
+   "sha": "d7b4e75ca33627e8",
+   "codes": [
+    "LO-41"
+   ],
+   "note": "Masses of 0.2 mole of oxygen atoms and 0.5 mole of water molecules. A twin of 115e539a with fractional moles; mapped identically because the frame supplies no distinction. POOR FIT on the mole."
+  },
+  {
+   "sha": "c80168619154ff33",
+   "codes": [
+    "LO-41",
+    "LO-48"
+   ],
+   "note": "(i) mass of 2 moles of CO2; (ii) mass of exactly one Avogadro number of CO2 molecules. Part (ii) is there to test that a mole IS 6.022 x 10^23 particles, which is precisely the idea the frame never names. POOR FIT."
+  },
+  {
+   "sha": "f6e1e2c30477f0a6",
+   "codes": [
+    "LO-41"
+   ],
+   "note": "Molar mass of sulphuric acid - numerically the molecular mass LO-41 names, differing only in units. The least damaged item in the mole block, and the reason LO-41 is the right nearest code for the rest of it."
+  },
+  {
+   "sha": "2cc3fb272e6d5de8",
+   "codes": [
+    "LO-41"
+   ],
+   "note": "Sunita's error is a molecular-mass error (S8 is 256 u, not 64 u), which is squarely LO-41; the follow-up asks for moles in 25.6 g, which is not. Cited on LO-41 for the graded half, with the mole half flagged as unmapped."
+  },
+  {
+   "sha": "ebdf76bc35e4d2f0",
+   "codes": [
+    "LO-42",
+    "LO-39"
+   ],
+   "note": "Counting atoms inside H2S and inside the phosphate ion is reading a formula's subscripts - the inverse of LO-42's writing clause - while the molecule/ion pairing is LO-39's species differentiation. Despite sitting in the mole block this item needs no mole at all."
+  },
+  {
+   "sha": "afd40716902548cc",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Percentage composition worked straight from the measured masses of boron and oxygen in one sample. That is the law of constant proportions in use, LO-40 - unlike 4983fced, which reaches its percentages through the formula unit mass and therefore goes to LO-41."
+  },
+  {
+   "sha": "9c466b2fb1feb2c8",
+   "codes": [
+    "LO-39"
+   ],
+   "note": "Show that the sodium carbonate/acetic acid readings agree with the law. Verification against measured data, LO-39's fused conservation clause, and the long-answer form of the short item b7965e32."
+  },
+  {
+   "sha": "1b40a8da357cb138",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Scale the 1:8 ratio to 3 g of hydrogen. Constant proportions applied, LO-40; the recall-only version of the same ratio (685ba20b, 4ebb12dd) sits on LO-48."
+  },
+  {
+   "sha": "9703c77e3589a589",
+   "codes": [
+    "LO-48",
+    "LO-39"
+   ],
+   "note": "The case study asks which law is demonstrated and to state it (LO-48), then to solve the sealed-flask mass balance and say why sealing mattered (LO-39's verification clause). Not LO-49: nothing here appears to violate the law, the flask is sealed throughout."
+  },
+  {
+   "sha": "f6152697c730a555",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "A Dalton case study end to end - which law his postulate explains, what distinguishes gold from silver, how indivisible atoms still make compounds. All of it is LO-40's 'Explain the Dalton's atomic theory' clause."
+  },
+  {
+   "sha": "662cba4fed67de87",
+   "codes": [
+    "LO-40",
+    "C1.2"
+   ],
+   "note": "Water from a river, a well and a synthesis all at 1:8, plus a decomposition calculation. LO-40 for the law applied across sources; C1.2 is added for the final part, which asks whether the law holds for salty water and so turns on what a mixture is."
+  },
+  {
+   "sha": "b6f7140dded173fa",
+   "codes": [
+    "C5.2",
+    "LO-48",
+    "LO-40"
+   ],
+   "note": "Kanad and Democritus against Dalton: a history-of-ideas case study, which is C5.2's territory (science examined through a social-sciences lens), carrying the particulate concept (LO-48) and the question of what made Dalton's version scientific (LO-40). The only item in the chapter that genuinely needs all three."
+  },
+  {
+   "sha": "97db3aff79d87746",
+   "codes": [
+    "LO-41",
+    "LO-39"
+   ],
+   "note": "Define and compute the molecular mass of H2SO4 (LO-41), then name the term used instead for an ionic compound (LO-39's molecular-mass/formula-unit-mass pair). The last part is what separates this from the plain H2SO4 computation f6e1e2c3."
+  },
+  {
+   "sha": "49e38f8565fe6931",
+   "codes": [
+    "LO-42"
+   ],
+   "note": "What a symbol conveys, what H2O tells you, why IUPAC standardisation matters, and why the subscript appears in H2O but not NaCl. Every part is LO-42's 'scientific conventions, symbols' clause; the last part quietly requires knowing a formula unit is already in simplest ratio."
+  },
+  {
+   "sha": "af3b656f0e9e62be",
+   "codes": [
+    "LO-42"
+   ],
+   "note": "Why CuSO4 is not written Cu2(SO4)2, plus the copper(I) variant. The subscript-reduction rule and the polyatomic bracket, both LO-42. Its MCQ sibling 242c3f51 tests the same reduction on calcium carbonate."
+  }
+ ]
+}

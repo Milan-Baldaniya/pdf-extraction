@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8605,
+ "mappings": [
+  {
+   "sha": "7403dca361714b9d",
+   "codes": ["C-2.1-LO-6", "C-2.1-LO-8"],
+   "note": "The third law is handed to the student in the stem; what must be supplied is a = F/m - why the light needle swings and the heavy magnet does not (LO-6). LO-8 is second because the equal-force premise is the thing being reconciled, not the thing being recalled."
+  },
+  {
+   "sha": "dcab05da1d77abc5",
+   "codes": ["LO-61"],
+   "note": "Verbatim LO-61 - a force needs magnitude and direction. Nothing about balance or about motion, so neither LO-62 nor LO-64."
+  },
+  {
+   "sha": "b7a0301db292fad7",
+   "codes": ["C-2.1-LO-7"],
+   "note": "LO-7's second clause is 'Define SI unit of force', the only home for unit questions in this frame. Not LO-6 - no statement of the law is wanted."
+  },
+  {
+   "sha": "2b35765d446a6b40",
+   "codes": ["LO-62"],
+   "note": "Canonical balanced-forces identification. The rope stays at rest so nothing is inferred from a velocity change (not LO-64), and no explanation beyond the label is demanded (not LO-65)."
+  },
+  {
+   "sha": "3fd7dff82fcbb489",
+   "codes": ["LO-62"],
+   "note": "Resultant of like-directed forces - an unbalanced-force identification with trivial arithmetic. Only a magnitude is asked, so LO-61 is not needed; O5 and O6 demand a direction and therefore do carry it."
+  },
+  {
+   "sha": "479600a13756d5b8",
+   "codes": ["LO-62", "LO-61"],
+   "note": "Opposing forces must be differenced (LO-62) and the option set cannot be resolved without committing to a direction (LO-61). That direction requirement is exactly what separates this from O4."
+  },
+  {
+   "sha": "aa3ea3ee18ebc030",
+   "codes": ["LO-62", "LO-61"],
+   "note": "Identical demand to O5 in worded rather than diagrammed form. Mapped to the same pair deliberately rather than split on presentation."
+  },
+  {
+   "sha": "c568be9bbdb212ba",
+   "codes": ["LO-64", "LO-61"],
+   "note": "Statements 1 and 2 are LO-64 (a force changes the state of motion), with statement 2 needing force as a directed quantity (LO-61). Statement 3, change of shape, has no outcome anywhere in this frame - flagged as a partial fit."
+  },
+  {
+   "sha": "915cbefa5ad189d2",
+   "codes": ["LO-63"],
+   "note": "Names friction as the force opposing the push on a stationary box - LO-63 at identification level. Not LO-62: the question asks which force, not whether the pair balances."
+  },
+  {
+   "sha": "c100d4520c8db090",
+   "codes": ["LO-63"],
+   "note": "Ranks four surfaces by how much friction each supplies and hence how far the coins travel. LO-63 is the only friction outcome in the frame; there is none for friction depending on the nature of the surfaces."
+  },
+  {
+   "sha": "cf7eb12cb43feb89",
+   "codes": ["LO-64", "LO-62"],
+   "note": "Each table row is a balanced/unbalanced judgement (LO-62) and the winning criterion is zero net force with the block already moving (LO-64) - Block Y is balanced too but at rest, which is the trap. No graph, so no C2.1 or C8.1."
+  },
+  {
+   "sha": "0a0390688da948ec",
+   "codes": ["C-2.1-LO-5", "LO-63"],
+   "note": "The historical claim being attributed is precisely the first law (LO-5), and the thought experiment is defined by removing friction (LO-63). Newton is the distractor, so the graded content is the law's statement, not its application."
+  },
+  {
+   "sha": "63bba3cd7abe77bc",
+   "codes": ["LO-64", "LO-63"],
+   "note": "The assertion is LO-64 verbatim; the reason that must be validated is that the balancing partner is friction (LO-63). The assertion-reason format makes the friction clause load-bearing, which is why it is cited and not LO-64 alone."
+  },
+  {
+   "sha": "9b4fad640fdb961d",
+   "codes": ["C-2.1-LO-5"],
+   "note": "Four statements about the first law including the inertia alias. Statement 4 brushes LO-64, but the item is scored on knowing the law, so LO-5 alone."
+  },
+  {
+   "sha": "c3945e970c554480",
+   "codes": ["LO-65", "C-2.1-LO-6"],
+   "note": "Everyday event explained by the second law via increased stopping time. Distractor (A) is a plausible second-law-sounding wrong answer, so the discrimination is still LO-6 and not LO-8."
+  },
+  {
+   "sha": "d59a30bd29be9393",
+   "codes": ["C8.1", "LO-64"],
+   "note": "Runs from physics to representation: zero net force implies constant velocity (LO-64) and the student must produce the corresponding graph shape (C8.1). No graph is supplied to read, which is why C8.1 and not C2.1."
+  },
+  {
+   "sha": "5c7e707a2ef0f6ab",
+   "codes": ["C-2.1-LO-6"],
+   "note": "Recognition of the second law's algebraic form with no substitution. LO-7 is for producing a value from that expression; nothing is computed here."
+  },
+  {
+   "sha": "8ffc062ead403423",
+   "codes": ["C2.1", "LO-64"],
+   "note": "A supplied table of initial velocity and net force is read against a stated graph shape - analysing a given representation (C2.1) using the zero-net-force criterion (LO-64). Car P, zero force but at rest, is the trap. O15 goes the other way, physics to graph, and so takes C8.1."
+  },
+  {
+   "sha": "331cb118cbb342dd",
+   "codes": ["C-2.1-LO-7"],
+   "note": "Definition of the SI unit of force, the tail clause of LO-7. The 1 kg / 1 m s-2 substitution is the definition itself, not a free-standing calculation."
+  },
+  {
+   "sha": "e21cb0934c5c035a",
+   "codes": ["C-2.1-LO-7"],
+   "note": "Only the force-newton row falls inside this frame, via LO-7's SI-unit clause. Kilogram, m/s and m/s^2 belong to the kinematics unit and have no outcome here - flagged as a partial fit."
+  },
+  {
+   "sha": "de25345f0dcbf5cf",
+   "codes": ["C-2.1-LO-7"],
+   "note": "The base case of the numerical family: one substitution into F = ma with both inputs given and force as the unknown. Nothing else is graded."
+  },
+  {
+   "sha": "dd1eda5c7a49dc93",
+   "codes": ["LO-65", "C-2.1-LO-6"],
+   "note": "A near-duplicate of O14 in the bank. Mapped to the same pair deliberately rather than inventing a distinction between asking for the 'principle' and asking for the 'purpose'."
+  },
+  {
+   "sha": "34ce8d9581602c8c",
+   "codes": ["LO-65", "C-2.1-LO-6"],
+   "note": "Same everyday-application-of-the-second-law outcome as O14 and O21; the assertion-reason form only flips the direction of the time change, which does not move the outcome."
+  },
+  {
+   "sha": "9e80b9e58ec3611a",
+   "codes": ["C-2.1-LO-7", "LO-63"],
+   "note": "Differs from the base numerical O20 by exactly one graded step: friction must be subtracted before F = ma is applied, so LO-63 joins LO-7."
+  },
+  {
+   "sha": "595cb3fe0477293f",
+   "codes": ["C2.1", "LO-64"],
+   "note": "A given velocity-time graph is read (C2.1) and converted to a net-force verdict (LO-64). No number is produced, so unlike N11 there is no LO-7."
+  }
+ ]
+}

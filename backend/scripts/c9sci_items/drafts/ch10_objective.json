@@ -7,9 +7,8 @@
   {
    "number": "1",
    "form": "mcq",
-   "page": null,
+   "page": 433,
    "stem": "Which of the following conditions is primarily responsible for the production of sound in a physical object?",
-   "answer": "Sound is fundamentally produced by vibrating objects. Vibration refers to the rapid periodic and to-and-fro motion or oscillation of an object. When a physical body vibrates, it transfers kinetic energy to the adjacent particles of the surrounding medium, thereby initiating a sound wave that propagates outward from the source.",
    "options": [
     {
      "label": "A",
@@ -21,21 +20,25 @@
     },
     {
      "label": "C",
-     "text": "The object must undergo a periodic to-and- fro physical motion."
+     "text": "The object must undergo a periodic to-and-fro physical motion."
     },
     {
      "label": "D",
      "text": "The object must experience a rapid increase in local temperature."
     }
    ],
-   "correct_option": "C"
+   "correct_option": "C",
+   "answer": "Sound is fundamentally produced by vibrating objects. Vibration refers to the rapid periodic and to-and-fro motion or oscillation of an object. When a physical body vibrates, it transfers kinetic energy to the adjacent particles of the surrounding medium, thereby initiating a sound wave that propagates outward from the source.",
+   "concept": "Sound produced by vibrations",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "2",
    "form": "assertion_reason",
-   "page": null,
+   "page": 433,
    "stem": "Assertion (A): Humans produce sound through the vibration of vocal cords located in the larynx. Reason (R): Sound is a form of mechanical energy that transfers through the physical displacement of an entire medium.",
-   "answer": "The assertion is entirely correct as human vocal cords, located in the larynx, vibrate to produce sound. The reason is completely false because sound propagation does not involve the physical displacement of the entire medium; rather, the particles merely oscillate about their mean positions to transfer energy forward continuously.",
    "options": [
     {
      "label": "A",
@@ -54,14 +57,20 @@
      "text": "A is false but R is true"
     }
    ],
-   "correct_option": "C"
+   "correct_option": "C",
+   "answer": "The assertion is entirely correct as human vocal cords, located in the larynx, vibrate to produce sound. The reason is completely false because sound propagation does not involve the physical displacement of the entire medium; rather, the particles merely oscillate about their mean positions to transfer energy forward continuously.",
+   "concept": "Human voice production",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "assertion": "Humans produce sound through the vibration of vocal cords located in the larynx.",
+   "reason": "Sound is a form of mechanical energy that transfers through the physical displacement of an entire medium."
   },
   {
    "number": "3",
    "form": "mcq",
-   "page": null,
+   "page": 433,
    "stem": "Consider the following statements regarding a tuning fork experiment: 1. Striking a tuning fork against a soft rubber pad produces a distinct sound. 2. Touching the vibrating prong to a water surface creates visible outward waves. 3. The sound produced by the tuning fork can easily propagate through a vacuum. Which of the statements given above are correct?",
-   "answer": "Striking a tuning fork makes its prongs vibrate, producing sound, and touching it to water visibly demonstrates this vibrational energy through wave formation. However, the third statement is fundamentally incorrect because sound is a mechanical wave that strictly requires a material medium and cannot propagate through a vacuum space.",
    "options": [
     {
      "label": "A",
@@ -80,14 +89,18 @@
      "text": "1, 2, and 3"
     }
    ],
-   "correct_option": "A"
+   "correct_option": "A",
+   "answer": "Striking a tuning fork makes its prongs vibrate, producing sound, and touching it to water visibly demonstrates this vibrational energy through wave formation. However, the third statement is fundamentally incorrect because sound is a mechanical wave that strictly requires a material medium and cannot propagate through a vacuum space.",
+   "concept": "Tuning fork as sound source",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "4",
    "form": "mcq",
-   "page": null,
+   "page": 433,
    "stem": "The graph illustrates the density variation of two different sound waves travelling through the same medium. How do the physical characteristics of the sound represented by Wave P compare to those of Wave Q?",
-   "answer": "Loudness depends on amplitude, while pitch depends on frequency. Wave P has a greater maximum displacement from the average density (higher amplitude), making it louder than Wave Q. However, Wave P has a longer wavelength, which corresponds to a lower frequency. Therefore, Wave P represents a louder but lower-pitched sound.",
    "options": [
     {
      "label": "A",
@@ -106,48 +119,170 @@
      "text": "Wave P produces a louder sound with a lower pitch than Wave Q."
     }
    ],
-   "correct_option": "D"
+   "correct_option": "D",
+   "answer": "Loudness depends on amplitude, while pitch depends on frequency. Wave P has a greater maximum displacement from the average density (higher amplitude), making it louder than Wave Q. However, Wave P has a longer wavelength, which corresponds to a lower frequency. Therefore, Wave P represents a louder but lower-pitched sound.",
+   "concept": "Amplitude of sound wave",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
   },
   {
    "number": "5",
    "form": "mcq",
-   "page": 434,
+   "page": 433,
    "stem": "In certain insect species, sound is not produced by vocal cords. Which specific mechanism do grasshoppers and crickets utilize to generate their characteristic sounds?",
-   "answer": "It will produce reverberation. For the human brain to perceive a reflected sound as a distinct echo, the time gap between the original sound and the reflection must be at least 0.1 seconds. Since the reflected sound in this case arrives in 0.05 seconds (which is less than 0.1 seconds), the sounds will blend together, causing the sound to persist as reverberation.",
    "options": [
     {
      "label": "A",
-     "text": "By rapidly expanding and contracting their abdominal cavities. Sound Waves: Characteristics and Applications 4. In a room, the reflected sound reaches the ear 0.05 s after its production. Will it produce an echo or reverberation? Justify your answer."
+     "text": "By rapidly expanding and contracting their abdominal cavities."
+    },
+    {
+     "label": "B",
+     "text": "By striking or rubbing specific body parts like wings or legs together."
+    },
+    {
+     "label": "C",
+     "text": "By forcing compressed air rapidly through specialized respiratory tubes."
+    },
+    {
+     "label": "D",
+     "text": "By tapping their antennae rhythmically against hard external surfaces."
     }
-   ]
-  },
-  {
-   "number": "5",
-   "form": "very_short",
-   "page": 434,
-   "stem": "Graphs representing two sound waves are given in Figure. If the scales on the X and Y axes of the two graphs are the same, which of the two sound waves has (i) greater wavelength, and (ii) smaller amplitude? (i) Which of the two sound waves has greater wavelength? (ii) Which of the two sound waves has smaller amplitude?",
-   "answer": "(i) Sound wave (a) has a greater wavelength. Wavelength is the distance between two consecutive crests, and observing the graphs, the physical distance between the crests is clearly larger in graph (a) than in graph (b). (ii) Sound wave (a) has a smaller amplitude. Amplitude is represented by the maximum height of the wave from the average density line. The peaks in graph (a) are visibly shorter than the peaks in graph (b)."
+   ],
+   "correct_option": "B",
+   "answer": "Animals utilize various unique methods to communicate. Specifically, grasshoppers and crickets generate sound by continuously striking or rubbing their wings or legs against each other. This friction causes physical vibrations in their body parts, which subsequently disturb the surrounding air molecules, thereby producing the distinct chirping sounds we hear.",
+   "concept": "Animal sound production",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   },
   {
    "number": "6",
-   "form": "very_short",
-   "page": 434,
-   "stem": "The sound waves emitted by three sources A, B and C are represented in Figure. If the frequency of A is maximum and C is minimum, identify the corresponding curves, and mark A, B and C on them.",
-   "answer": "In a density-distance graph, a higher frequency corresponds to more cycles packed into the same distance."
+   "form": "mcq",
+   "page": 432,
+   "stem": "Match the specific conditions or materials in List–I with their corresponding sound propagation characteristics in List–II. List–I (Medium Type) / List–II (Propagation Characteristic): P. Solid steel — 1. Sound cannot propagate at all; Q. Liquid water — 2. Sound travels at approximately 340 m/s; R. Gaseous air — 3. Sound travels around 1500 m/s; S. Outer space vacuum — 4. Sound travels at approximately 5000 m/s.",
+   "options": [
+    {
+     "label": "A",
+     "text": "P-4, Q-3, R-2, S-1"
+    },
+    {
+     "label": "B",
+     "text": "P-3, Q-4, R-2, S-1"
+    },
+    {
+     "label": "C",
+     "text": "P-4, Q-2, R-3, S-1"
+    },
+    {
+     "label": "D",
+     "text": "P-1, Q-2, R-3, S-4"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Sound travels fastest through solid materials, with speeds reaching roughly 5000 meters per second in steel. In liquid water, it propagates around 1500 meters per second. In gaseous air, the speed drops to approximately 340 meters per second. In a complete vacuum, mechanical sound waves simply cannot propagate anywhere.",
+   "concept": "Speed depends on the medium",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
   },
   {
-   "number": "1",
-   "form": "very_short",
-   "page": 435,
-   "stem": "Curve A corresponds to the green wave, which has the most densely packed cycles (shortest wavelength), indicating the maximum frequency. 2. Curve B corresponds to the red wave, which has an intermediate number of cycles, indicating a frequency between the maximum and minimum. 3. Curve C corresponds to the blue wave, which has the fewest cycles spread over the distance (longest wavelength), indicating the minimum frequency. To mark them on the graph, you would write ‘A’ next to the green wave, ‘B’ next to the red wave, and ‘C’ next to the blue wave. 7. Draw a graph to represent a sound wave for which the density amplitude is 3 units and wavelength is 4 cm.",
-   "answer": "only the mechanical disturbance, carrying the acoustic energy, that actually propagates forward continuously through the entire transmitting material medium."
+   "number": "7",
+   "form": "mcq",
+   "page": 432,
+   "stem": "In a laboratory experiment, an electric bell is placed inside an airtight glass bell jar connected to a vacuum pump. What is the primary observation as air is gradually removed from the jar?",
+   "options": [
+    {
+     "label": "A",
+     "text": "The pitch of the sound becomes increasingly higher."
+    },
+    {
+     "label": "B",
+     "text": "The sound of the bell remains unchanged in loudness."
+    },
+    {
+     "label": "C",
+     "text": "The sound of the bell gradually becomes fainter and eventually stops."
+    },
+    {
+     "label": "D",
+     "text": "The frequency of the bell’s vibration visibly decreases to zero."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "As the vacuum pump gradually extracts air from the sealed bell jar, the density of the medium decreases significantly. Consequently, the loudness of the ringing sound steadily diminishes. Once a near vacuum is achieved, the sound entirely ceases because mechanical sound waves strictly require a material medium to propagate.",
+   "concept": "Vacuum does not carry sound",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "8",
+   "form": "assertion_reason",
+   "page": 432,
+   "stem": "Assertion (A): Astronauts performing a spacewalk cannot communicate directly by speaking to one another. Reason (R): Sound waves are mechanical waves that require a material medium to travel, which is absent in space.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true and R is the correct explanation of A"
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true but R is not the correct explanation of A"
+    },
+    {
+     "label": "C",
+     "text": "A is true but R is false"
+    },
+    {
+     "label": "D",
+     "text": "A is false but R is true"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Outer space is essentially a vacuum lacking any dense material medium like air or water. Since sound is a mechanical wave that fundamentally depends on interacting particles to transfer vibrational energy, it cannot travel through the emptiness of space. Therefore, astronauts must rely on special radio communication devices instead.",
+   "concept": "Astronauts use communication devices",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "assertion": "Astronauts performing a spacewalk cannot communicate directly by speaking to one another.",
+   "reason": "Sound waves are mechanical waves that require a material medium to travel, which is absent in space."
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "page": 432,
+   "stem": "When a sound wave travels through air from a speaker to a listener, what exactly moves from the source to the receiver?",
+   "options": [
+    {
+     "label": "A",
+     "text": "The physical air particles travel continuously across the entire distance."
+    },
+    {
+     "label": "B",
+     "text": "A steady stream of compressed air flows toward the listener."
+    },
+    {
+     "label": "C",
+     "text": "Only the disturbance and transferred energy move through the medium."
+    },
+    {
+     "label": "D",
+     "text": "Both the air particles and the acoustic energy travel together simultaneously."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "During sound propagation, the physical particles of the medium never travel from the source to the listener. They merely oscillate back and forth around their original mean positions. It is only the mechanical disturbance, carrying the acoustic energy, that actually propagates forward continuously through the entire transmitting material medium.",
+   "concept": "Particles vibrate around mean positions",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
   },
   {
    "number": "10",
    "form": "mcq",
    "page": 435,
    "stem": "Based on the particle arrangement and motion indicated in the diagram, identify the regions and the nature of the wave.",
-   "answer": "The diagram illustrates a longitudinal wave where particles oscillate parallel to the wave propagation. Region C shows particles closer together, representing higher density and pressure called compression. Region R shows particles spread apart, representing lower density called rarefaction. Transverse waves involve perpendicular particle vibration, unlike the horizontal motion shown here.",
    "options": [
     {
      "label": "A",
@@ -166,14 +301,18 @@
      "text": "C represents rarefaction, R represents compression, and it is a longitudinal wave."
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "answer": "The diagram illustrates a longitudinal wave where particles oscillate parallel to the wave propagation. Region C shows particles closer together, representing higher density and pressure called compression. Region R shows particles spread apart, representing lower density called rarefaction. Transverse waves involve perpendicular particle vibration, unlike the horizontal motion shown here.",
+   "concept": "Wave made of compressions and rarefactions",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "11",
    "form": "mcq",
    "page": 435,
    "stem": "Arrange the following procedural steps of the standard vacuum bell jar experiment in their correct logical sequence. 1. Turn on the electric bell to produce a loud continuous ringing sound. 2. Observe that the sound completely disappears despite the hammer striking. 3. Place an electric bell securely inside an airtight glass bell jar. 4. Gradually pump out the air from the jar using an attached vacuum pump.",
-   "answer": "The correct experimental sequence begins by placing the bell inside the jar. Next, the bell is turned on to confirm the sound travels through air. Following this, the vacuum pump is activated to gradually remove the air. Finally, the observer notes that the ringing sound entirely ceases in vacuum.",
    "options": [
     {
      "label": "A",
@@ -192,14 +331,18 @@
      "text": "4, 3, 1, 2"
     }
    ],
-   "correct_option": "A"
+   "correct_option": "A",
+   "answer": "The correct experimental sequence begins by placing the bell inside the jar. Next, the bell is turned on to confirm the sound travels through air. Following this, the vacuum pump is activated to gradually remove the air. Finally, the observer notes that the ringing sound entirely ceases in vacuum.",
+   "concept": "Bell jar experiment evidence",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3
   },
   {
    "number": "12",
    "form": "mcq",
    "page": 435,
    "stem": "If an explosion occurs on the surface of the Moon, an observer stationed safely on Earth will not hear the sound. Which scientific principle best explains this occurrence?",
-   "answer": "Sound waves are strictly classified as mechanical waves. This classification means they inherently depend on the collision of physical particles within a medium, such as solids, liquids, or gases, to propagate. Because the vast region between the Moon and Earth is a vacuum, the acoustic waves cannot travel across.",
    "options": [
     {
      "label": "A",
@@ -218,14 +361,18 @@
      "text": "The amplitude of the sound waves decreases instantly to zero upon generation."
     }
    ],
-   "correct_option": "C"
+   "correct_option": "C",
+   "answer": "Sound waves are strictly classified as mechanical waves. This classification means they inherently depend on the collision of physical particles within a medium, such as solids, liquids, or gases, to propagate. Because the vast region between the Moon and Earth is a vacuum, the acoustic waves cannot travel across.",
+   "concept": "Outer space has no sound",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "13",
    "form": "mcq",
-   "page": 436,
+   "page": 435,
    "stem": "What precise term is used to describe a wave wherein the individual particles of the medium vibrate back and forth parallel to the direction of wave propagation?",
-   "answer": "A longitudinal wave is formally defined as a type of wave where the particles of the transmitting medium oscillate parallel to the direction of wave propagation. Sound propagating through air behaves precisely in this manner, creating an alternating series of compressions and rarefactions as the disturbance travels continuously forward. Sound Waves: Characteristics and Applications Sound takes approximately 0.196 seconds extra to travel the same distance at 0°C compared to 22°C, since sound travels slower at lower temperatures.",
    "options": [
     {
      "label": "A",
@@ -244,146 +391,18 @@
      "text": "Longitudinal wave"
     }
    ],
-   "correct_option": "D"
-  },
-  {
-   "number": "13",
-   "form": "very_short",
-   "page": 436,
-   "stem": "The variation of density of medium for a sound wave propagating with a speed of 340 ms-1 is shown in Figure. Calculate the wavelength and frequency of the sound wave.",
-   "answer": "From the figure, the 8 cm length shows 2 complete wavelengths. So, wavelength: λ cm 2 8 4 = = . m 0 04 = As we know that, Speed = Wavelength × Frequency, frequency = Speed / Wavelength. = 340 / 0.04 = 8500 Hz."
-  },
-  {
-   "number": "14",
-   "form": "very_short",
-   "page": 436,
-   "stem": "The graphical representation of two sound waves A and B propagating at the same speed of 345 ms-1 is shown in Figure. What is the wavelength of each of them? Also, calculate their frequencies.",
-   "answer": "For sound wave A (red curve), one complete cycle spans a distance of 5.0 cm on the graph. Therefore, its wavelength is 5.0 cm or 0.05 m. frequency = Speed / Wavelength = 345 m/s / 0.05 m = 6900 Hz. For sound wave B (blue curve), two complete cycles fit within the 5.0 cm mark, meaning one cycle spans 2.5 cm. Therefore, its wavelength is 2.5 cm or 0.025 m. frequency = 345 m/s / 0.025 m = 13800 Hz."
-  },
-  {
-   "number": "15",
-   "form": "very_short",
-   "page": 437,
-   "stem": "Two identical sound sources are placed at A and B , one in air and one submerged in water . Both produce sounds at the same time, which travel horizontally to the vertical side of the cliff and come back. If the time taken by the sound to return to A is 4.5 times than that of B, what is the ratio between the speeds of sound in air and water?",
-   "answer": "Let the total distance traveled by both sounds to the cliff and back be D. The speed of sound in air (vA) = D/tA, The speed of sound in water (vB) = D/tB, where tA and tB are the respective return times. The ratio of their speeds vA/vB =tB/tA. We are given that the time in air is 4.5 times the time in water, so tA = 4.5 × tB. Substituting this into our ratio gives vA/vB = tB/(4.5 × tB) = 1/4.5 =2/9 Therefore, the ratio between the speeds of sound in air and water is 2:9. Click Here to Buy book on Amazon (B) Both A and R are true but R is not the correct explanation of A (C) A is true but R is false (D) A is false but R is true"
-  },
-  {
-   "number": "16",
-   "form": "very_short",
-   "page": 437,
-   "stem": "",
-   "answer": "(C) The assertion is true because sound waves are indeed classified as mechanical waves. However, the reason provided is fundamentally false. The defining characteristic of any mechanical wave is precisely that it necessitates a physical material medium, such as a solid, liquid, or gas, to propagate energy from a source."
-  },
-  {
-   "number": "19",
-   "form": "mcq",
-   "page": 437,
-   "stem": "During the outward propagation of a sound wave through a gaseous medium, which critical physical parameters precisely characterize a compression zone?",
-   "answer": "A compression is inherently a localized region within a medium where the individual particles are temporarily forced close together by the passing sound energy. This localized crowding logically results in a significant, momentary increase in both the physical density of the particles and the associated internal pressure of the gas.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Minimum air density and minimum localized atmospheric pressure."
-    },
-    {
-     "label": "B",
-     "text": "Maximum air density and minimum localized atmospheric pressure."
-    },
-    {
-     "label": "C",
-     "text": "Minimum air density and maximum localized atmospheric pressure."
-    },
-    {
-     "label": "D",
-     "text": "Maximum air density and maximum localized atmospheric pressure."
-    }
-   ],
-   "correct_option": "D"
-  },
-  {
-   "number": "20",
-   "form": "mcq",
-   "page": 437,
-   "stem": "In the standard graphical representation of a sound wave showing medium density plotted against distance, what specific physical state does the lowest point, known as a trough, signify?",
-   "answer": "When graphing a sound wave’s density fluctuations over distance, the curve features periodic highs and lows. The uppermost peaks, called crests, signify compressions with maximum density. In contrast, the lowest points on the curve, called troughs, directly represent rarefactions, indicating regions where the medium’s density and pressure reach their minimums.",
-   "options": [
-    {
-     "label": "A",
-     "text": "The region of absolute maximum density and highest pressure."
-    },
-    {
-     "label": "B",
-     "text": "The region of exactly average atmospheric density and pressure."
-    },
-    {
-     "label": "C",
-     "text": "The region of absolute minimum density and lowest pressure."
-    },
-    {
-     "label": "D",
-     "text": "The physical location where the sound source fundamentally originated."
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "21",
-   "form": "mcq",
-   "page": 437,
-   "stem": "A person conducts an experiment in an empty corridor. A sound is emitted, and its reflection returns to the source after time ‘t’. Which mathematical expression correctly calculates the speed (v) of the sound in this specific scenario?",
-   "answer": "In an echo scenario, the sound wave must travel from the source to the reflecting surface and then back to the listener. Therefore, the total distance covered by the sound is twice the distance to the wall (2d). Speed is total distance divided by total time, making the correct mathematical relationship v = 2d / t.",
-   "options": [
-    {
-     "label": "A",
-     "text": "v = d / t"
-    },
-    {
-     "label": "B",
-     "text": "v = 2d / t"
-    },
-    {
-     "label": "C",
-     "text": "v = d / 2t"
-    },
-    {
-     "label": "D",
-     "text": "v = d × t"
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "22",
-   "form": "mcq",
-   "page": 438,
-   "stem": "A student tightly stretches a thin rubber membrane over a hollow bowl and sprinkles dry salt grains evenly on top. When a loud sound is produced nearby without touching the bowl, the grains begin to jump vigorously. What scientific principle does this practically demonstrate?",
-   "answer": "Sound Waves: Characteristics and Applications",
-   "options": [
-    {
-     "label": "A",
-     "text": "Sound naturally destroys the structural integrity of thin membranes."
-    },
-    {
-     "label": "B",
-     "text": "Sound is a mechanical force that strictly moves particles laterally."
-    },
-    {
-     "label": "C",
-     "text": "Sound is a form of energy that can be physically transferred."
-    },
-    {
-     "label": "D",
-     "text": "Sound generates intense localized gravitational waves in open air."
-    }
-   ],
-   "correct_option": "C"
+   "correct_option": "D",
+   "answer": "A longitudinal wave is formally defined as a type of wave where the particles of the transmitting medium oscillate parallel to the direction of wave propagation. Sound propagating through air behaves precisely in this manner, creating an alternating series of compressions and rarefactions as the disturbance travels continuously forward.",
+   "concept": "Sound is longitudinal and mechanical",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   },
   {
    "number": "14",
    "form": "mcq",
    "page": 438,
    "stem": "Consider the following statements regarding the regions formed during the propagation of a sound wave in a gas: 1. Compressions are regions of high air density. 2. Rarefactions are regions where particles are crowded together. 3. Rarefactions represent areas of low air pressure. 4. Compressions are regions where the volume momentarily increases. Which of the statements given above are correct?",
-   "answer": "As sound travels, it creates alternating pressure zones. Compressions are specific regions where the particles are forced closely together, resulting in high density and pressure. Conversely, rarefactions are regions where the particles are spread further apart, leading directly to comparatively lower density and significantly reduced atmospheric pressure in that area.",
    "options": [
     {
      "label": "A",
@@ -402,14 +421,18 @@
      "text": "1, 3, and 4 only"
     }
    ],
-   "correct_option": "A"
+   "correct_option": "A",
+   "answer": "As sound travels, it creates alternating pressure zones. Compressions are specific regions where the particles are forced closely together, resulting in high density and pressure. Conversely, rarefactions are regions where the particles are spread further apart, leading directly to comparatively lower density and significantly reduced atmospheric pressure in that area.",
+   "concept": "Wave made of compressions and rarefactions",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "15",
    "form": "mcq",
    "page": 438,
-   "stem": "Accurately match the fundamental physical characteristics of a sound wave listed in List–I with their officially recognized standard SI units presented in List–II. List–I (Wave Characteristic) List–II (SI Unit) P. Wavelength 1. Hertz (Hz) Q. Frequency 2. Meter (m) R. Time period 3. Meter per second (m/s) S. Speed of sound 4. Second (s)",
-   "answer": "In standard scientific measurement, wavelength is a physical distance and is logically measured in meters (m). Frequency measures cycles per second, designated as Hertz (Hz). Time period is a duration strictly measured in seconds (s). Finally, speed measures distance over time, officially quantified as meters per second (m/s).",
+   "stem": "Accurately match the fundamental physical characteristics of a sound wave listed in List–I with their officially recognized standard SI units presented in List–II. List–I (Wave Characteristic) / List–II (SI Unit): P. Wavelength — 1. Hertz (Hz); Q. Frequency — 2. Meter (m); R. Time period — 3. Meter per second (m/s); S. Speed of sound — 4. Second (s).",
    "options": [
     {
      "label": "A",
@@ -428,14 +451,18 @@
      "text": "P-3, Q-1, R-4, S-2"
     }
    ],
-   "correct_option": "A"
+   "correct_option": "A",
+   "answer": "In standard scientific measurement, wavelength is a physical distance and is logically measured in meters (m). Frequency measures cycles per second, designated as Hertz (Hz). Time period is a duration strictly measured in seconds (s). Finally, speed measures distance over time, officially quantified as meters per second (m/s).",
+   "concept": "Frequency definition",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "16",
    "form": "mcq",
    "page": 438,
    "stem": "Which distinct characteristic properly differentiates a longitudinal wave from a transverse wave?",
-   "answer": "The fundamental distinction lies purely in the direction of particle oscillation relative to the wave’s movement. In longitudinal waves like sound, medium particles vibrate parallel to the direction of propagation. In transverse waves, such as light or waves on a string, particles oscillate perpendicularly to the advancing wave direction.",
    "options": [
     {
      "label": "A",
@@ -454,14 +481,18 @@
      "text": "Longitudinal waves possess frequency, whereas transverse waves only possess amplitude."
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "answer": "The fundamental distinction lies purely in the direction of particle oscillation relative to the wave’s movement. In longitudinal waves like sound, medium particles vibrate parallel to the direction of propagation. In transverse waves, such as light or waves on a string, particles oscillate perpendicularly to the advancing wave direction.",
+   "concept": "Sound is longitudinal and mechanical",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
   },
   {
    "number": "17",
    "form": "mcq",
    "page": 438,
    "stem": "An educator uses a long, flexible metal slinky toy to accurately model sound propagation. Pushing and pulling one end of the slinky in quick succession successfully creates which of the following wave patterns?",
-   "answer": "A stretched slinky provides an excellent visual analogy for longitudinal sound waves. Pushing and pulling the slinky’s end generates compressions, where the metal coils are clustered tightly together, and rarefactions, where the coils are spread far apart. These alternating disturbances travel linearly along the spring without moving the entire slinky.",
    "options": [
     {
      "label": "A",
@@ -480,32 +511,321 @@
      "text": "Circular ripples expanding perpendicularly from the source of the initial disturbance."
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "answer": "A stretched slinky provides an excellent visual analogy for longitudinal sound waves. Pushing and pulling the slinky’s end generates compressions, where the metal coils are clustered tightly together, and rarefactions, where the coils are spread far apart. These alternating disturbances travel linearly along the spring without moving the entire slinky.",
+   "concept": "Wave made of compressions and rarefactions",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "18",
    "form": "assertion_reason",
-   "page": 439,
+   "page": 438,
    "stem": "Assertion (A): All sound waves are strictly classified as mechanical waves. Reason (R): Sound waves do not require any physical material medium for their outward propagation.",
-   "answer": "The wavelength, commonly denoted by the Greek letter lambda (λ ), is the precise physical length of one complete wave cycle. In any longitudinal sound wave, this measurement is taken as the exact linear distance between the centers of two consecutive compressions or the centers of two immediately consecutive rarefactions.",
    "options": [
     {
      "label": "A",
      "text": "Both A and R are true and R is the correct explanation of A"
     },
     {
+     "label": "B",
+     "text": "Both A and R are true but R is not the correct explanation of A"
+    },
+    {
+     "label": "C",
+     "text": "A is true but R is false"
+    },
+    {
+     "label": "D",
+     "text": "A is false but R is true"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The assertion is true because sound waves are indeed classified as mechanical waves. However, the reason provided is fundamentally false. The defining characteristic of any mechanical wave is precisely that it necessitates a physical material medium, such as a solid, liquid, or gas, to propagate energy from a source.",
+   "concept": "Sound needs a medium",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "assertion": "All sound waves are strictly classified as mechanical waves.",
+   "reason": "Sound waves do not require any physical material medium for their outward propagation."
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "page": 437,
+   "stem": "During the outward propagation of a sound wave through a gaseous medium, which critical physical parameters precisely characterize a compression zone?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Minimum air density and minimum localized atmospheric pressure."
+    },
+    {
+     "label": "B",
+     "text": "Maximum air density and minimum localized atmospheric pressure."
+    },
+    {
+     "label": "C",
+     "text": "Minimum air density and maximum localized atmospheric pressure."
+    },
+    {
+     "label": "D",
+     "text": "Maximum air density and maximum localized atmospheric pressure."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A compression is inherently a localized region within a medium where the individual particles are temporarily forced close together by the passing sound energy. This localized crowding logically results in a significant, momentary increase in both the physical density of the particles and the associated internal pressure of the gas.",
+   "concept": "Wave made of compressions and rarefactions",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "page": 437,
+   "stem": "In the standard graphical representation of a sound wave showing medium density plotted against distance, what specific physical state does the lowest point, known as a trough, signify?",
+   "options": [
+    {
+     "label": "A",
+     "text": "The region of absolute maximum density and highest pressure."
+    },
+    {
+     "label": "B",
+     "text": "The region of exactly average atmospheric density and pressure."
+    },
+    {
+     "label": "C",
+     "text": "The region of absolute minimum density and lowest pressure."
+    },
+    {
+     "label": "D",
+     "text": "The physical location where the sound source fundamentally originated."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "When graphing a sound wave’s density fluctuations over distance, the curve features periodic highs and lows. The uppermost peaks, called crests, signify compressions with maximum density. In contrast, the lowest points on the curve, called troughs, directly represent rarefactions, indicating regions where the medium’s density and pressure reach their minimums.",
+   "concept": "Crest and trough in wave graph",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "page": 437,
+   "stem": "A person conducts an experiment in an empty corridor. A sound is emitted, and its reflection returns to the source after time ‘t’. Which mathematical expression correctly calculates the speed (v) of the sound in this specific scenario?",
+   "options": [
+    {
+     "label": "A",
+     "text": "v = d / t"
+    },
+    {
+     "label": "B",
+     "text": "v = 2d / t"
+    },
+    {
+     "label": "C",
+     "text": "v = d / 2t"
+    },
+    {
+     "label": "D",
+     "text": "v = d × t"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "In an echo scenario, the sound wave must travel from the source to the reflecting surface and then back to the listener. Therefore, the total distance covered by the sound is twice the distance to the wall (2d). Speed is total distance divided by total time, making the correct mathematical relationship v = 2d / t.",
+   "concept": "Echo is delayed reflected sound",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "page": 437,
+   "stem": "A student tightly stretches a thin rubber membrane over a hollow bowl and sprinkles dry salt grains evenly on top. When a loud sound is produced nearby without touching the bowl, the grains begin to jump vigorously. What scientific principle does this practically demonstrate?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Sound naturally destroys the structural integrity of thin membranes."
+    },
+    {
+     "label": "B",
+     "text": "Sound is a mechanical force that strictly moves particles laterally."
+    },
+    {
+     "label": "C",
+     "text": "Sound is a form of energy that can be physically transferred."
+    },
+    {
+     "label": "D",
+     "text": "Sound generates intense localized gravitational waves in open air."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "This standard experiment visually proves that sound carries and transfers actual physical energy. As the sound waves propagate outward through the air, the transmitted energy strikes the flexible stretched membrane, forcing it to vibrate. This induced vibration instantly transfers kinetic energy to the salt grains, causing them to jump noticeably.",
+   "concept": "Sound transfers energy not matter",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "page": 430,
+   "stem": "Based on the provided data regarding the propagation of sound at 20°C, which option correctly identifies the physical state of mediums A, C, and the nature of D? Medium / Speed of Sound (m/s): A 5100; B 343; C 1493; D 0",
+   "options": [
+    {
+     "label": "A",
+     "text": "A is solid, C is gas, D is liquid"
+    },
+    {
+     "label": "B",
+     "text": "A is solid, C is liquid, D is vacuum"
+    },
+    {
+     "label": "C",
+     "text": "A is liquid, C is gas, D is vacuum"
+    },
+    {
+     "label": "D",
+     "text": "A is gas, C is solid, D is liquid"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Sound travels fastest in solids (A: 5100 m/s) and slower in liquids (C: 1493 m/s). It cannot travel through a vacuum (D: 0 m/s), as it requires a material medium to propagate. Thus, A is solid, C is liquid, and D is a vacuum. Gas has the lowest non-zero speed, like medium B.",
+   "concept": "Sound propagates in all states",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "page": 430,
+   "stem": "As a sound wave propagates outward from an initiating source through a stable material medium, which specific physical entity actually moves linearly across a large distance?",
+   "options": [
+    {
+     "label": "A",
+     "text": "The physical particles of the medium itself."
+    },
+    {
+     "label": "B",
+     "text": "Only the localized rarefaction particles."
+    },
+    {
+     "label": "C",
+     "text": "The mechanical energy conveyed by the disturbance."
+    },
+    {
+     "label": "D",
+     "text": "The isolated, highly compressed pockets of static air."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "During sound wave propagation, the physical particles of the medium solely vibrate back and forth around their original equilibrium positions; they do not migrate forward. It is exclusively the mechanical disturbance, and consequently the kinetic energy it carries, that physically travels outward across large distances from the original sound source.",
+   "concept": "Sound transfers energy not matter",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "25",
+   "form": "mcq",
+   "page": 430,
+   "stem": "Select the correct sequential order that accurately traces the transfer of sound energy from a human speaker directly to a listener’s ear.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Air particles vibrate ® Vocal cords vibrate ® Eardrum vibrates ® Energy propagates"
+    },
+    {
+     "label": "B",
+     "text": "Vocal cords vibrate ® Air particles vibrate ® Energy propagates ® Eardrum vibrates"
+    },
+    {
+     "label": "C",
+     "text": "Eardrum vibrates ® Energy propagates ® Air particles vibrate ® Vocal cords vibrate"
+    },
+    {
+     "label": "D",
+     "text": "Energy propagates ® Vocal cords vibrate ® Eardrum vibrates ® Air particles vibrate"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Sound production begins when a speaker’s vocal cords vibrate. These vibrations immediately transfer kinetic energy to nearby air particles, making them oscillate. This continuous particle interaction allows the mechanical energy to propagate forward as a wave until it finally reaches and forcefully strikes the listener’s eardrum, causing it to vibrate.",
+   "concept": "Vibrating sources produce sound",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "26",
+   "form": "mcq",
+   "page": 430,
+   "stem": "Which explicit mathematical formula accurately represents the fundamental relationship between the frequency (ν) of a sound wave and its complete time period (T)?",
+   "options": [
+    {
+     "label": "A",
+     "text": "ν = T²"
+    },
+    {
+     "label": "B",
+     "text": "ν = T"
+    },
+    {
+     "label": "C",
+     "text": "ν = 1/T"
+    },
+    {
+     "label": "D",
+     "text": "ν = −1/T"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Frequency is strictly defined as the total number of complete oscillations occurring per unit time, while the time period is the total time taken to complete exactly one single oscillation. Because they represent reciprocal concepts regarding wave cycles, they are mathematically related by the straightforward inverse equation ν = 1/T.",
+   "concept": "Frequency and time period inverse",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "27",
+   "form": "mcq",
+   "page": 430,
+   "stem": "In the context of a longitudinal acoustic wave travelling continuously through a gaseous medium, what does the specific term “wavelength” technically define?",
+   "options": [
+    {
+     "label": "A",
+     "text": "The vertical distance measured linearly from a wave crest down to a trough."
+    },
+    {
+     "label": "B",
+     "text": "The total horizontal distance covered entirely by the sound within one full second."
+    },
+    {
+     "label": "C",
+     "text": "The maximum spatial displacement of an individual air particle from its mean resting position."
+    },
+    {
      "label": "D",
      "text": "The linear distance measured directly between two consecutive compressions or two consecutive rarefactions."
     }
    ],
-   "correct_option": "D"
+   "correct_option": "D",
+   "answer": "The wavelength, commonly denoted by the Greek letter lambda (λ), is the precise physical length of one complete wave cycle. In any longitudinal sound wave, this measurement is taken as the exact linear distance between the centers of two consecutive compressions or the centers of two immediately consecutive rarefactions.",
+   "concept": "Wavelength definition",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   },
   {
    "number": "28",
    "form": "mcq",
    "page": 439,
    "stem": "A marine vessel is utilizing sound navigation technology to scan the waters below. If the vessel detects a reflection after a specific time interval, which depth is the system primarily measuring in this instance, and what category of sound waves is typically employed?",
-   "answer": "Sonar systems utilize ultrasonic waves (frequencies above 20 kHz) because they travel well through water and can accurately reflect off objects. In this diagram, the wave reflects directly off the intermediate object (submarine), meaning the calculated distance using the echo time will yield the depth of the submarine (h1), not the seabed.",
    "options": [
     {
      "label": "A",
@@ -524,14 +844,18 @@
      "text": "h2; Audible sound waves"
     }
    ],
-   "correct_option": "C"
+   "correct_option": "C",
+   "answer": "Sonar systems utilize ultrasonic waves (frequencies above 20 kHz) because they travel well through water and can accurately reflect off objects. In this diagram, the wave reflects directly off the intermediate object (submarine), meaning the calculated distance using the echo time will yield the depth of the submarine (h1), not the seabed.",
+   "concept": "Sonar for underwater detection",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
   },
   {
    "number": "29",
    "form": "mcq",
    "page": 439,
    "stem": "A distinct sound wave propagating steadily through a uniform medium possesses a measured frequency of 200 Hz and an exactly determined wavelength of 1.5 m. What is the calculated speed of this sound wave?",
-   "answer": "The wave speed equation states that wave speed (v) equals the product of its wavelength (λ ) and its frequency (ν ). Applying the given numerical values to the standard formula, we calculate v . m Hz 1 5 200 # = . This simple multiplication yields a total wave speed of precisely 300 m/s.",
    "options": [
     {
      "label": "A",
@@ -550,14 +874,19 @@
      "text": "450 m/s"
     }
    ],
-   "correct_option": "C"
+   "correct_option": "C",
+   "answer": "The wave speed equation states that wave speed (v) equals the product of its wavelength (λ) and its frequency (ν). Applying the given numerical values to the standard formula, we calculate v = 1.5 m × 200 Hz. This simple multiplication yields a total wave speed of precisely 300 m/s.",
+   "concept": "Speed equals wavelength times frequency",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "reproduction": "ai_rephrased"
   },
   {
    "number": "30",
    "form": "mcq",
    "page": 439,
    "stem": "Consider the following key statements regarding the actual speed of a sound wave propagating through various physical environments: 1. The speed of sound strictly depends on the physical state of the material medium. 2. An increase in the ambient air temperature causes a measurable increase in the speed of sound. 3. The speed of sound remains entirely constant regardless of any changes in ambient humidity. Which of the statements given above are completely correct?",
-   "answer": "Sound speed is heavily dependent on the physical medium, generally travelling much faster in solids than in gases. Furthermore, higher air temperatures increase particle kinetic energy, raising the sound speed. However, higher ambient humidity also increases the speed of sound, meaning the third statement is factually incorrect and misleading.",
    "options": [
     {
      "label": "A",
@@ -576,14 +905,18 @@
      "text": "1, 2, and 3"
     }
    ],
-   "correct_option": "A"
+   "correct_option": "A",
+   "answer": "Sound speed is heavily dependent on the physical medium, generally travelling much faster in solids than in gases. Furthermore, higher air temperatures increase particle kinetic energy, raising the sound speed. However, higher ambient humidity also increases the speed of sound, meaning the third statement is factually incorrect and misleading.",
+   "concept": "Speed depends on the medium",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "31",
    "form": "assertion_reason",
-   "page": 440,
+   "page": 439,
    "stem": "Assertion (A): The absolute speed of sound travelling in solid steel is significantly greater than its speed propagating through open atmospheric air. Reason (R): Sound waves generally travel fastest in solid media, comparatively slower in liquids, and slowest of all in gaseous media.",
-   "answer": "Sound Waves: Characteristics and Applications",
    "options": [
     {
      "label": "A",
@@ -602,248 +935,20 @@
      "text": "A is false but R is true"
     }
    ],
-   "correct_option": "A"
-  },
-  {
-   "number": "41",
-   "form": "mcq",
-   "page": 440,
-   "stem": "According to established physical principles, what is the primary underlying reason the propagating speed of a mechanical sound wave measurably increases when the surrounding air temperature is significantly elevated?",
-   "answer": "When the localized temperature of any physical medium significantly rises, the individual constituent particles inherently gain substantial kinetic energy. This added energy causes them to vibrate with greater intensity and interact more rapidly with neighboring particles. Consequently, the mechanical acoustic energy transfer naturally occurs much faster, increasing the sound’s speed.",
-   "options": [
-    {
-     "label": "A",
-     "text": "High temperatures automatically destroy the physical material medium."
-    },
-    {
-     "label": "B",
-     "text": "Increased ambient temperature drastically reduces the physical wavelength to zero."
-    },
-    {
-     "label": "C",
-     "text": "Increased temperature elevates particle kinetic energy, allowing significantly faster energy transfer."
-    },
-    {
-     "label": "D",
-     "text": "Elevated atmospheric temperatures entirely remove the fundamental necessity for an acoustic medium."
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "42",
-   "form": "mcq",
-   "page": 440,
-   "stem": "In traditional Indian classical music notation, select the sequential order of basic musical notes that accurately represents an incrementally ascending order of corresponding acoustic wave frequencies.",
-   "answer": "In formal Indian classical music traditions, the fundamental musical notes are arranged in a specific ascending sequence: Sa, Re, Ga, Ma, Pa, Dha, Ni. Moving progressively from ‘Sa’ forward through this scale, the fundamental acoustic frequency of each consecutive sung or played note incrementally and consistently increases in measurable value.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Ni, Dha, Pa, Ma"
-    },
-    {
-     "label": "B",
-     "text": "Sa, Re, Ga, Ma"
-    },
-    {
-     "label": "C",
-     "text": "Pa, Ma, Ga, Re"
-    },
-    {
-     "label": "D",
-     "text": "Dha, Pa, Re, Sa"
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "43",
-   "form": "mcq",
-   "page": 440,
-   "stem": "The human auditory system is an incredibly complex biological mechanism, but it undeniably possesses specific inherent physical limitations. What is the generally accepted audible frequency range for a healthy human ear?",
-   "answer": "A typical healthy human ear can successfully detect mechanical sound waves ranging only from frequencies of roughly 20 Hz at the lower end up to 20,000 Hz (20 khz) at the upper limit. Frequencies falling outside this specific biological window are completely inaudible to normal human auditory sensory perception.",
-   "options": [
-    {
-     "label": "A",
-     "text": "10 Hz to 10,000 Hz"
-    },
-    {
-     "label": "B",
-     "text": "20 Hz to 20,000 Hz"
-    },
-    {
-     "label": "C",
-     "text": "50 Hz to 50,000 Hz"
-    },
-    {
-     "label": "D",
-     "text": "100 Hz to 1,00,000 Hz"
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "44",
-   "form": "mcq",
-   "page": 440,
-   "stem": "A researcher claps in front of different reflecting surfaces and records the conditions. In which experiments will the researcher hear a distinct echo? Experiment Speed of Sound in Medium (m/s) Distance to Reflecting Surface (m) 1 340 15 2 340 20 3 1500 50 4 1500 100",
-   "answer": "A distinct echo requires a minimum time interval of 0.1 seconds between the original and reflected sound. Using the formula Time = (2 × Distance) / Speed, Experiment 2 yields 0.117 seconds and Experiment 4 yields 0.133 seconds. Both accurately meet the required condition for an echo to be clearly distinguished.",
-   "options": [
-    {
-     "label": "A",
-     "text": "1 and 3 only"
-    },
-    {
-     "label": "B",
-     "text": "2 and 4 only"
-    },
-    {
-     "label": "C",
-     "text": "1, 2, and 4"
-    },
-    {
-     "label": "D",
-     "text": "3 and 4 only"
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "45",
-   "form": "mcq",
-   "page": 441,
-   "stem": "Within the intricate anatomical structure of the inner human ear, which crucial biological component is primarily responsible for converting mechanical acoustic vibrations into transmittable electrical neural signals?",
-   "answer": "The human ear comprises several intricate, functioning parts. The outer eardrum initially captures acoustic waves and mechanically Click Here to Buy book on Flipkart Timbre, frequently referred to as sound quality, is the specific acoustic characteristic that allows human listeners to distinctly differentiate between multiple sounds that possess the identical pitch and loudness. It inherently arises from the unique physical material, physical construction, and complex combination of harmonic overtones produced by different instruments.",
-   "options": [
-    {
-     "label": "A",
-     "text": "The external pinna"
-    },
-    {
-     "label": "B",
-     "text": "The tympanic eardrum"
-    },
-    {
-     "label": "C",
-     "text": "The spiral cochlea"
-    },
-    {
-     "label": "D",
-     "text": "The tiny middle ear bones"
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "37",
-   "form": "mcq",
-   "page": 441,
-   "stem": "An individual observes a brilliant flash of lightning in the distant sky and subsequently hears the booming thunder exactly 4 seconds later. Assuming the speed of sound in the air is approximately 340 m/s, how far away did the lightning physically strike?",
-   "answer": "Light travels incredibly fast, arriving almost instantaneously, whereas sound travels much slower. The physical distance can be accurately calculated using the standard formula: Distance equals Speed multiplied by Time. By multiplying the sound speed (340 m/s) by the measured time delay (4 s), the total distance calculated is exactly 1360 meter.",
-   "options": [
-    {
-     "label": "A",
-     "text": "85 m"
-    },
-    {
-     "label": "B",
-     "text": "344 m"
-    },
-    {
-     "label": "C",
-     "text": "680 m"
-    },
-    {
-     "label": "D",
-     "text": "1360 m"
-    }
-   ],
-   "correct_option": "D"
-  },
-  {
-   "number": "38",
-   "form": "mcq",
-   "page": 441,
-   "stem": "Consider the following detailed statements concerning how the measured speed of sound inherently varies within different surrounding physical environments: 1. Sound propagates about 15 times faster in dense solids than it does in gases. 2. Increasing the ambient temperature of a gas invariably decreases the speed of sound. 3. The absolute speed of sound in dry air at 0° C is approximately 331 m/s. 4. The presence of atmospheric humidity actually serves to increase the measured speed of sound. Which of the statements given above are entirely correct?",
-   "answer": "Sound travels considerably faster in dense solids compared to sparse gases. The known speed in air at 0°C is roughly 331 m/s, and elevated humidity visibly increases this wave speed. However, the second statement is completely false because raising the ambient temperature actually continually increases the transmission speed of sound.",
-   "options": [
-    {
-     "label": "A",
-     "text": "1, 2, and 3 only"
-    },
-    {
-     "label": "B",
-     "text": "1, 3, and 4 only"
-    },
-    {
-     "label": "C",
-     "text": "2, 3, and 4 only"
-    },
-    {
-     "label": "D",
-     "text": "1, 2, 3, and 4"
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "39",
-   "form": "mcq",
-   "page": 441,
-   "stem": "A sensor recorded the characteristics of four different sound sources. Which sound is audible to the human ear and will be perceived as the loudest? Sound Source Frequency (Hz) Amplitude (cm) W 15 2.0 X 5000 0.5 Y 10000 3.5 Z 25000 4.0",
-   "answer": "The human audible range falls strictly between 20 Hz and 20,000 Hz, clearly eliminating sound W as infrasonic and sound Z as ultrasonic. Loudness is directly determined by the wave’s amplitude. Among the remaining audible sounds X and Y, sound Y possesses a significantly higher amplitude, making it the loudest perceived sound.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Sound W"
-    },
-    {
-     "label": "B",
-     "text": "Sound X"
-    },
-    {
-     "label": "C",
-     "text": "Sound Y"
-    },
-    {
-     "label": "D",
-     "text": "Sound Z"
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "40",
-   "form": "mcq",
-   "page": 442,
-   "stem": "In formal acoustics and traditional music theory, what precisely distinguishes a pure musical “tone” from standard everyday ambient sound?",
-   "answer": "In standard physics terminology, a pure tone is formally defined as a specific sound consisting of only one single, isolated acoustic frequency, perfectly exemplified by the sound a laboratory tuning fork generates. In contrast, standard everyday sounds and general musical notes usually contain a complex mixture of multiple distinct frequencies. Sound Waves: Characteristics and Applications Both statements are entirely correct. The assertion correctly notes that sound travels much faster through solid steel (about 5000 m/s) than through atmospheric air (about 340 m/s). The provided reason perfectly explains this because sound propagation is inherently more efficient and faster in dense, closely packed solid materials.",
-   "options": [
-    {
-     "label": "A",
-     "text": "A tone strictly consists of a single isolated frequency."
-    },
-    {
-     "label": "B",
-     "text": "A tone is entirely defined as an unpleasant mixture of multiple random frequencies."
-    },
-    {
-     "label": "C",
-     "text": "A tone is simply a sound containing absolutely zero measurable amplitude."
-    },
-    {
-     "label": "D",
-     "text": "A tone mathematically represents the measurable interval perfectly between two distinct notes."
-    }
-   ],
-   "correct_option": "A"
+   "correct_option": "A",
+   "answer": "Both statements are entirely correct. The assertion correctly notes that sound travels much faster through solid steel (about 5000 m/s) than through atmospheric air (about 340 m/s). The provided reason perfectly explains this because sound propagation is inherently more efficient and faster in dense, closely packed solid materials.",
+   "concept": "Speed depends on the medium",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "assertion": "The absolute speed of sound travelling in solid steel is significantly greater than its speed propagating through open atmospheric air.",
+   "reason": "Sound waves generally travel fastest in solid media, comparatively slower in liquids, and slowest of all in gaseous media."
   },
   {
    "number": "32",
    "form": "mcq",
    "page": 442,
    "stem": "Arrange the following common material mediums in the correct ascending order based strictly on the measured speed of sound propagating through them at standard atmospheric conditions. 1. Liquid Water 2. Solid Steel 3. Gaseous Air",
-   "answer": "Sound propagates by transferring mechanical kinetic energy between adjacent interacting particles. In sparsely packed gaseous air, this energy transfer is the slowest (approx. 340 m/s). In liquid water, it is notably faster (approx. 1500 m/s). In dense solid steel, it is exceptionally fast, reaching its highest speed (approx. 5000 m/s).",
    "options": [
     {
      "label": "A",
@@ -862,14 +967,18 @@
      "text": "2, 1, 3"
     }
    ],
-   "correct_option": "C"
+   "correct_option": "C",
+   "answer": "Sound propagates by transferring mechanical kinetic energy between adjacent interacting particles. In sparsely packed gaseous air, this energy transfer is the slowest (approx. 340 m/s). In liquid water, it is notably faster (approx. 1500 m/s). In dense solid steel, it is exceptionally fast, reaching its highest speed (approx. 5000 m/s).",
+   "concept": "Speed depends on the medium",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "33",
    "form": "mcq",
    "page": 442,
    "stem": "Human auditory perception interprets various physical characteristics of sound waves subjectively. Which specific physical property of a sound wave directly determines whether a human perceives a sound as having a high pitch or a low pitch?",
-   "answer": "Pitch is purely the subjective human psychological perception of a sound wave’s frequency. A sound wave containing a comparatively higher number of complete oscillations per second (high frequency) is universally interpreted by the human auditory system as a high-pitched sound, exactly like a sharp whistle or a small bird chirping.",
    "options": [
     {
      "label": "A",
@@ -888,14 +997,18 @@
      "text": "Speed"
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "answer": "Pitch is purely the subjective human psychological perception of a sound wave’s frequency. A sound wave containing a comparatively higher number of complete oscillations per second (high frequency) is universally interpreted by the human auditory system as a high-pitched sound, exactly like a sharp whistle or a small bird chirping.",
+   "concept": "Pitch is perceived frequency",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
    "number": "34",
    "form": "mcq",
    "page": 442,
    "stem": "During a thunderous storm, a nearby loud clap of thunder forcefully shakes a home’s windows, whereas a softly whispering wind barely makes a sound. Which specific physical characteristic of the sound wave primarily dictates this noticeable difference in overall loudness?",
-   "answer": "The loudness of a sound is directly correlated with the physical amplitude of the underlying sound wave. A wave possessing a noticeably larger amplitude physically carries significantly more mechanical energy. Consequently, when this high-energy wave strikes the human eardrum, it induces much larger vibrations, resulting in a significantly louder sound.",
    "options": [
     {
      "label": "A",
@@ -914,14 +1027,18 @@
      "text": "Amplitude"
     }
    ],
-   "correct_option": "D"
+   "correct_option": "D",
+   "answer": "The loudness of a sound is directly correlated with the physical amplitude of the underlying sound wave. A wave possessing a noticeably larger amplitude physically carries significantly more mechanical energy. Consequently, when this high-energy wave strikes the human eardrum, it induces much larger vibrations, resulting in a significantly louder sound.",
+   "concept": "Loudness is perceived amplitude",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "35",
    "form": "mcq",
    "page": 442,
-   "stem": "Students observed four different vibrating objects and recorded their oscillations. Which two objects produce sounds of the exact same pitch? Vibrating Object Number of Oscillations Time Taken (s) P 100 2.0 Q 200 5.0 R 150 1.5 S 50 0.5",
-   "answer": "Pitch depends on the frequency of the sound wave. Frequency is calculated as the number of oscillations per unit time. Object R has a frequency of 150/1.5 = 100 Hz. Object S has a frequency of 50/0.5 = 100 Hz. Since both share the exact same frequency, they produce sounds of identical pitch.",
+   "stem": "Students observed four different vibrating objects and recorded their oscillations. Which two objects produce sounds of the exact same pitch? Vibrating Object / Number of Oscillations / Time Taken (s): P 100 2.0; Q 200 5.0; R 150 1.5; S 50 0.5",
    "options": [
     {
      "label": "A",
@@ -940,14 +1057,18 @@
      "text": "P and S"
     }
    ],
-   "correct_option": "C"
+   "correct_option": "C",
+   "answer": "Pitch depends on the frequency of the sound wave. Frequency is calculated as the number of oscillations per unit time. Object R has a frequency of 150/1.5 = 100 Hz. Object S has a frequency of 50/0.5 = 100 Hz. Since both share the exact same frequency, they produce sounds of identical pitch.",
+   "concept": "Frequency definition",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "36",
    "form": "mcq",
-   "page": 443,
+   "page": 442,
    "stem": "Two immensely talented musicians are simultaneously playing the exact same musical note at the exact same loudness level, one utilizing a wooden flute and the other playing a stringed sitar. Despite identical volume and pitch, the sounds remain distinctly different. What specific sound quality permits this subjective differentiation?",
-   "answer": "vibrates. The tiny middle ear bones physically amplify these vibrations. Finally, the deep inner ear’s snail-shaped cochlea performs the vital task of converting these mechanical vibrations into electrical signals for brain processing.",
    "options": [
     {
      "label": "A",
@@ -966,14 +1087,288 @@
      "text": "Oscillation"
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "answer": "Timbre, frequently referred to as sound quality, is the specific acoustic characteristic that allows human listeners to distinctly differentiate between multiple sounds that possess the identical pitch and loudness. It inherently arises from the unique physical material, physical construction, and complex combination of harmonic overtones produced by different instruments.",
+   "concept": "Pitch is perceived frequency",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "37",
+   "form": "mcq",
+   "page": 441,
+   "stem": "An individual observes a brilliant flash of lightning in the distant sky and subsequently hears the booming thunder exactly 4 seconds later. Assuming the speed of sound in the air is approximately 340 m/s, how far away did the lightning physically strike?",
+   "options": [
+    {
+     "label": "A",
+     "text": "85 m"
+    },
+    {
+     "label": "B",
+     "text": "344 m"
+    },
+    {
+     "label": "C",
+     "text": "680 m"
+    },
+    {
+     "label": "D",
+     "text": "1360 m"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Light travels incredibly fast, arriving almost instantaneously, whereas sound travels much slower. The physical distance can be accurately calculated using the standard formula: Distance equals Speed multiplied by Time. By multiplying the sound speed (340 m/s) by the measured time delay (4 s), the total distance calculated is exactly 1360 meter.",
+   "concept": "Speed depends on the medium",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "38",
+   "form": "mcq",
+   "page": 441,
+   "stem": "Consider the following detailed statements concerning how the measured speed of sound inherently varies within different surrounding physical environments: 1. Sound propagates about 15 times faster in dense solids than it does in gases. 2. Increasing the ambient temperature of a gas invariably decreases the speed of sound. 3. The absolute speed of sound in dry air at 0°C is approximately 331 m/s. 4. The presence of atmospheric humidity actually serves to increase the measured speed of sound. Which of the statements given above are entirely correct?",
+   "options": [
+    {
+     "label": "A",
+     "text": "1, 2, and 3 only"
+    },
+    {
+     "label": "B",
+     "text": "1, 3, and 4 only"
+    },
+    {
+     "label": "C",
+     "text": "2, 3, and 4 only"
+    },
+    {
+     "label": "D",
+     "text": "1, 2, 3, and 4"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Sound travels considerably faster in dense solids compared to sparse gases. The known speed in air at 0°C is roughly 331 m/s, and elevated humidity visibly increases this wave speed. However, the second statement is completely false because raising the ambient temperature actually continually increases the transmission speed of sound.",
+   "concept": "Speed depends on the medium",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "39",
+   "form": "mcq",
+   "page": 441,
+   "stem": "A sensor recorded the characteristics of four different sound sources. Which sound is audible to the human ear and will be perceived as the loudest? Sound Source / Frequency (Hz) / Amplitude (cm): W 15 2.0; X 5000 0.5; Y 10000 3.5; Z 25000 4.0",
+   "options": [
+    {
+     "label": "A",
+     "text": "Sound W"
+    },
+    {
+     "label": "B",
+     "text": "Sound X"
+    },
+    {
+     "label": "C",
+     "text": "Sound Y"
+    },
+    {
+     "label": "D",
+     "text": "Sound Z"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The human audible range falls strictly between 20 Hz and 20,000 Hz, clearly eliminating sound W as infrasonic and sound Z as ultrasonic. Loudness is directly determined by the wave’s amplitude. Among the remaining audible sounds X and Y, sound Y possesses a significantly higher amplitude, making it the loudest perceived sound.",
+   "concept": "Human audible range",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "40",
+   "form": "mcq",
+   "page": 441,
+   "stem": "In formal acoustics and traditional music theory, what precisely distinguishes a pure musical “tone” from standard everyday ambient sound?",
+   "options": [
+    {
+     "label": "A",
+     "text": "A tone strictly consists of a single isolated frequency."
+    },
+    {
+     "label": "B",
+     "text": "A tone is entirely defined as an unpleasant mixture of multiple random frequencies."
+    },
+    {
+     "label": "C",
+     "text": "A tone is simply a sound containing absolutely zero measurable amplitude."
+    },
+    {
+     "label": "D",
+     "text": "A tone mathematically represents the measurable interval perfectly between two distinct notes."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "In standard physics terminology, a pure tone is formally defined as a specific sound consisting of only one single, isolated acoustic frequency, perfectly exemplified by the sound a laboratory tuning fork generates. In contrast, standard everyday sounds and general musical notes usually contain a complex mixture of multiple distinct frequencies.",
+   "concept": "Frequency definition",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "41",
+   "form": "mcq",
+   "page": 440,
+   "stem": "According to established physical principles, what is the primary underlying reason the propagating speed of a mechanical sound wave measurably increases when the surrounding air temperature is significantly elevated?",
+   "options": [
+    {
+     "label": "A",
+     "text": "High temperatures automatically destroy the physical material medium."
+    },
+    {
+     "label": "B",
+     "text": "Increased ambient temperature drastically reduces the physical wavelength to zero."
+    },
+    {
+     "label": "C",
+     "text": "Increased temperature elevates particle kinetic energy, allowing significantly faster energy transfer."
+    },
+    {
+     "label": "D",
+     "text": "Elevated atmospheric temperatures entirely remove the fundamental necessity for an acoustic medium."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "When the localized temperature of any physical medium significantly rises, the individual constituent particles inherently gain substantial kinetic energy. This added energy causes them to vibrate with greater intensity and interact more rapidly with neighboring particles. Consequently, the mechanical acoustic energy transfer naturally occurs much faster, increasing the sound’s speed.",
+   "concept": "Speed depends on the medium",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "42",
+   "form": "mcq",
+   "page": 440,
+   "stem": "In traditional Indian classical music notation, select the sequential order of basic musical notes that accurately represents an incrementally ascending order of corresponding acoustic wave frequencies.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Ni, Dha, Pa, Ma"
+    },
+    {
+     "label": "B",
+     "text": "Sa, Re, Ga, Ma"
+    },
+    {
+     "label": "C",
+     "text": "Pa, Ma, Ga, Re"
+    },
+    {
+     "label": "D",
+     "text": "Dha, Pa, Re, Sa"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "In formal Indian classical music traditions, the fundamental musical notes are arranged in a specific ascending sequence: Sa, Re, Ga, Ma, Pa, Dha, Ni. Moving progressively from ‘Sa’ forward through this scale, the fundamental acoustic frequency of each consecutive sung or played note incrementally and consistently increases in measurable value.",
+   "concept": "Pitch is perceived frequency",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
+  },
+  {
+   "number": "43",
+   "form": "mcq",
+   "page": 440,
+   "stem": "The human auditory system is an incredibly complex biological mechanism, but it undeniably possesses specific inherent physical limitations. What is the generally accepted audible frequency range for a healthy human ear?",
+   "options": [
+    {
+     "label": "A",
+     "text": "10 Hz to 10,000 Hz"
+    },
+    {
+     "label": "B",
+     "text": "20 Hz to 20,000 Hz"
+    },
+    {
+     "label": "C",
+     "text": "50 Hz to 50,000 Hz"
+    },
+    {
+     "label": "D",
+     "text": "100 Hz to 1,00,000 Hz"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "A typical healthy human ear can successfully detect mechanical sound waves ranging only from frequencies of roughly 20 Hz at the lower end up to 20,000 Hz (20 khz) at the upper limit. Frequencies falling outside this specific biological window are completely inaudible to normal human auditory sensory perception.",
+   "concept": "Human audible range",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "44",
+   "form": "mcq",
+   "page": 440,
+   "stem": "A researcher claps in front of different reflecting surfaces and records the conditions. In which experiments will the researcher hear a distinct echo? Experiment / Speed of Sound in Medium (m/s) / Distance to Reflecting Surface (m): 1 340 15; 2 340 20; 3 1500 50; 4 1500 100",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 and 3 only"
+    },
+    {
+     "label": "B",
+     "text": "2 and 4 only"
+    },
+    {
+     "label": "C",
+     "text": "1, 2, and 4"
+    },
+    {
+     "label": "D",
+     "text": "3 and 4 only"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "A distinct echo requires a minimum time interval of 0.1 seconds between the original and reflected sound. Using the formula Time = (2 × Distance) / Speed, Experiment 2 yields 0.117 seconds and Experiment 4 yields 0.133 seconds. Both accurately meet the required condition for an echo to be clearly distinguished.",
+   "concept": "Echo needs 0.1 second separation",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "45",
+   "form": "mcq",
+   "page": 440,
+   "stem": "Within the intricate anatomical structure of the inner human ear, which crucial biological component is primarily responsible for converting mechanical acoustic vibrations into transmittable electrical neural signals?",
+   "options": [
+    {
+     "label": "A",
+     "text": "The external pinna"
+    },
+    {
+     "label": "B",
+     "text": "The tympanic eardrum"
+    },
+    {
+     "label": "C",
+     "text": "The spiral cochlea"
+    },
+    {
+     "label": "D",
+     "text": "The tiny middle ear bones"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The human ear comprises several intricate, functioning parts. The outer eardrum initially captures acoustic waves and mechanically vibrates. The tiny middle ear bones physically amplify these vibrations. Finally, the deep inner ear’s snail-shaped cochlea performs the vital task of converting these mechanical vibrations into electrical signals for brain processing.",
+   "concept": "Human audible range",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   },
   {
    "number": "46",
    "form": "assertion_reason",
    "page": 443,
    "stem": "Assertion (A): A blindfolded human can surprisingly often pinpoint the precise spatial direction from which a sudden sound originated. Reason (R): The human brain intelligently compares the minuscule time difference between the sound reaching the left and right ears.",
-   "answer": "Having two spatially separated ears is an evolutionary advantage. When a sound originates off-center, it physically reaches one ear a tiny fraction of a second before the other. The human brain continuously processes this incredibly minuscule time gap, allowing us to accurately instinctively pinpoint the sound source’s exact directional origin.",
    "options": [
     {
      "label": "A",
@@ -992,14 +1387,20 @@
      "text": "A is false but R is true"
     }
    ],
-   "correct_option": "A"
+   "correct_option": "A",
+   "answer": "Having two spatially separated ears is an evolutionary advantage. When a sound originates off-center, it physically reaches one ear a tiny fraction of a second before the other. The human brain continuously processes this incredibly minuscule time gap, allowing us to accurately instinctively pinpoint the sound source’s exact directional origin.",
+   "concept": "Sound spreads in all directions",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "assertion": "A blindfolded human can surprisingly often pinpoint the precise spatial direction from which a sudden sound originated.",
+   "reason": "The human brain intelligently compares the minuscule time difference between the sound reaching the left and right ears."
   },
   {
    "number": "47",
    "form": "mcq",
    "page": 443,
    "stem": "Extreme noise pollution represents a severe, growing environmental hazard. Prolonged exposure to acoustic levels exceeding recommended decibel limits can result in profound hearing loss. What specific medical test or diagnostic graph is routinely used to properly evaluate a patient’s hearing loss?",
-   "answer": "Unwanted, intense sound is categorized as harmful noise. Sustained exposure to highly elevated sound levels can tragically cause permanent hearing damage. To professionally medically evaluate an individual’s hearing capability and accurately measure specific frequency loss, specialists administer a specialized diagnostic test that directly produces a detailed chart called an audiogram.",
    "options": [
     {
      "label": "A",
@@ -1018,14 +1419,18 @@
      "text": "Sonogram"
     }
    ],
-   "correct_option": "C"
+   "correct_option": "C",
+   "answer": "Unwanted, intense sound is categorized as harmful noise. Sustained exposure to highly elevated sound levels can tragically cause permanent hearing damage. To professionally medically evaluate an individual’s hearing capability and accurately measure specific frequency loss, specialists administer a specialized diagnostic test that directly produces a detailed chart called an audiogram.",
+   "concept": "Intensity definition",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   },
   {
    "number": "48",
    "form": "mcq",
    "page": 443,
    "stem": "When an acoustic wave physically strikes a large solid obstacle and subsequently bounces back, it strictly obeys the established scientific laws of reflection. Which of the following fundamental statements is completely true regarding sound reflection?",
-   "answer": "Sound waves behave remarkably like light waves upon striking surfaces. They strictly adhere to the universal laws of reflection. Specifically, the incoming angle of incidence exactly equals the outgoing angle of reflection relative to the normal line, and all three imaginary lines strictly reside within the exact same geometric plane.",
    "options": [
     {
      "label": "A",
@@ -1044,14 +1449,18 @@
      "text": "Sound waves strictly reflect only off highly polished, completely flat metallic mirrors."
     }
    ],
-   "correct_option": "C"
+   "correct_option": "C",
+   "answer": "Sound waves behave remarkably like light waves upon striking surfaces. They strictly adhere to the universal laws of reflection. Specifically, the incoming angle of incidence exactly equals the outgoing angle of reflection relative to the normal line, and all three imaginary lines strictly reside within the exact same geometric plane.",
+   "concept": "Sound obeys laws of reflection",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "49",
    "form": "mcq",
-   "page": 444,
-   "stem": "A ship uses SONAR equipment to map the ocean floor. The speed of sound in seawater is taken as 1530 m/s. Based on the recorded data, what is the vertical difference in depth between the shipwreck and the reef? Target Total Time for Echo to Return (s) Reef 1.0 Shipwreck 2.5 Trench 4.0",
-   "answer": "Sonar depth is calculated using the formula Distance = (Speed × Time) / 2. The reef is located at (1530 × 1.0) / 2 = 765 meters. The shipwreck is situated at (1530 × 2.5) / 2 = 1912.5 meters. The precise difference in their depths is 1912.5 minus 765, equaling 1147.5 meters. Click Here to Buy book on Amazon Sound Waves: Characteristics and Applications",
+   "page": 443,
+   "stem": "A ship uses SONAR equipment to map the ocean floor. The speed of sound in seawater is taken as 1530 m/s. Based on the recorded data, what is the vertical difference in depth between the shipwreck and the reef? Target / Total Time for Echo to Return (s): Reef 1.0; Shipwreck 2.5; Trench 4.0",
    "options": [
     {
      "label": "A",
@@ -1070,14 +1479,18 @@
      "text": "2677.5 m"
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "answer": "Sonar depth is calculated using the formula Distance = (Speed × Time) / 2. The reef is located at (1530 × 1.0) / 2 = 765 meters. The shipwreck is situated at (1530 × 2.5) / 2 = 1912.5 meters. The precise difference in their depths is 1912.5 minus 765, equaling 1147.5 meters.",
+   "concept": "Sonar for underwater detection",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 4
   },
   {
    "number": "50",
    "form": "mcq",
    "page": 444,
    "stem": "A hiker shouts loudly while facing a massive sheer mountain cliff. What is the calculated minimum physical distance required between the shouting source and the reflecting cliff surface to clearly hear a distinct echo, assuming the sound speed is exactly 344 m/s?",
-   "answer": "To hear a distinct echo, sound must travel to a barrier and return, taking at least 0.1 seconds. Using the formula d v t 2 # = , we calculate distance as ( . )/ 344 0 1 2 # . This straightforward calculation yields a mandatory minimum obstacle distance of exactly 17.2 meters.",
    "options": [
     {
      "label": "A",
@@ -1096,14 +1509,19 @@
      "text": "344 meters"
     }
    ],
-   "correct_option": "A"
+   "correct_option": "A",
+   "answer": "To hear a distinct echo, sound must travel to a barrier and return, taking at least 0.1 seconds. Using the formula d = (v × t) / 2, we calculate distance as (344 × 0.1) / 2. This straightforward calculation yields a mandatory minimum obstacle distance of exactly 17.2 meters.",
+   "concept": "Minimum echo distance is 17 m",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
   },
   {
    "number": "51",
    "form": "mcq",
    "page": 444,
    "stem": "Two identical experimental setups are created to observe the propagation of sound. Based on the physical conditions shown inside each container, what is the correct observation regarding the sound produced by the bells?",
-   "answer": "Sound is a mechanical wave that requires a material medium to propagate. Setup X contains air particles that transmit the bell’s vibrations outward. Setup Y represents a vacuum where no medium exists to carry the vibrations. Consequently, the ringing bell in Setup Y cannot be heard, proving sound cannot travel through a vacuum.",
    "options": [
     {
      "label": "A",
@@ -1122,14 +1540,18 @@
      "text": "The pitch of the sound from Setup Y will be significantly higher than Setup X."
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "answer": "Sound is a mechanical wave that requires a material medium to propagate. Setup X contains air particles that transmit the bell’s vibrations outward. Setup Y represents a vacuum where no medium exists to carry the vibrations. Consequently, the ringing bell in Setup Y cannot be heard, proving sound cannot travel through a vacuum.",
+   "concept": "Sound needs a medium",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "52",
    "form": "mcq",
    "page": 444,
    "stem": "The human brain retains auditory impressions for a brief fraction of time. What is the absolute minimum time gap required between hearing an original sound and its subsequent reflection to perceive them clearly as two entirely separate sounds (an echo)?",
-   "answer": "The human auditory system naturally exhibits a sensory persistence of sound. Our brain essentially holds onto an acoustic impression for roughly 0.1 seconds. Consequently, for an echo to be perceived as a distinctly separate event rather than a prolonged blur, the reflected wave must arrive at least 0.1 seconds later.",
    "options": [
     {
      "label": "A",
@@ -1148,14 +1570,18 @@
      "text": "1.0 seconds"
     }
    ],
-   "correct_option": "C"
+   "correct_option": "C",
+   "answer": "The human auditory system naturally exhibits a sensory persistence of sound. Our brain essentially holds onto an acoustic impression for roughly 0.1 seconds. Consequently, for an echo to be perceived as a distinctly separate event rather than a prolonged blur, the reflected wave must arrive at least 0.1 seconds later.",
+   "concept": "Echo needs 0.1 second separation",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   },
   {
    "number": "53",
    "form": "mcq",
-   "page": 445,
+   "page": 444,
    "stem": "Consider the following architectural methods potentially used within a newly constructed concert auditorium: 1. Installing dense, sound-absorbing acoustic panels directly on the bare walls. 2. Utilizing heavily upholstered seating instead of hard wooden chairs. 3. Constructing completely flat, polished metallic walls behind the main stage area. Which of the aforementioned methods actively help purposefully reduce unwanted reverberation?",
-   "answer": "Reverberation is the disruptive prolongation of sound caused by rapid, continuous multiple reflections. Architects combat this by strategically introducing sound-absorbing materials. Soft, porous acoustic panels and heavily upholstered chairs successfully absorb excess acoustic energy. Conversely, hard, flat polished metallic walls would severely worsen reverberation by perfectly reflecting sound waves.",
    "options": [
     {
      "label": "A",
@@ -1174,14 +1600,18 @@
      "text": "1, 2, and 3"
     }
    ],
-   "correct_option": "A"
+   "correct_option": "A",
+   "answer": "Reverberation is the disruptive prolongation of sound caused by rapid, continuous multiple reflections. Architects combat this by strategically introducing sound-absorbing materials. Soft, porous acoustic panels and heavily upholstered chairs successfully absorb excess acoustic energy. Conversely, hard, flat polished metallic walls would severely worsen reverberation by perfectly reflecting sound waves.",
+   "concept": "Controlling reverberation in halls",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "54",
    "form": "mcq",
    "page": 445,
    "stem": "While testing an empty enclosed room, a technician notices that a single loud clap results in a sound that continuously persists, blurs, and fades slowly rather than returning as one sharp distinct repetition. What specific acoustic phenomenon is this technician directly observing?",
-   "answer": "When sound reflects multiple times rapidly within an enclosed space, the individual echoes overlap, arriving at the ear with time differences smaller than 0.05 seconds. This continuous multiple reflection causes the sound to physically persist and painfully blur together, a very distinct acoustic phenomenon formally identified as reverberation.",
    "options": [
     {
      "label": "A",
@@ -1200,14 +1630,18 @@
      "text": "Reverberation"
     }
    ],
-   "correct_option": "D"
+   "correct_option": "D",
+   "answer": "When sound reflects multiple times rapidly within an enclosed space, the individual echoes overlap, arriving at the ear with time differences smaller than 0.05 seconds. This continuous multiple reflection causes the sound to physically persist and painfully blur together, a very distinct acoustic phenomenon formally identified as reverberation.",
+   "concept": "Reverberation from multiple reflections",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
   },
   {
    "number": "55",
    "form": "mcq",
    "page": 445,
    "stem": "Acoustic science mathematically categorizes mechanical sound waves entirely based on their measured frequency. Which specific frequency range correctly defines a wave categorized strictly as an ultrasonic wave?",
-   "answer": "Sound waves are meticulously classified by their oscillation rates. Audible sound ranges from 20 Hz to 20 kHz. Waves vibrating below 20 Hz are termed infrasonic. Crucially, high-frequency sound waves oscillating faster than the upper human limit of 20,000 Hz (20 kHz) are formally classified as ultrasonic waves.",
    "options": [
     {
      "label": "A",
@@ -1226,14 +1660,18 @@
      "text": "Any mechanical wave traveling faster than the standard speed of light."
     }
    ],
-   "correct_option": "C"
+   "correct_option": "C",
+   "answer": "Sound waves are meticulously classified by their oscillation rates. Audible sound ranges from 20 Hz to 20 kHz. Waves vibrating below 20 Hz are termed infrasonic. Crucially, high-frequency sound waves oscillating faster than the upper human limit of 20,000 Hz (20 kHz) are formally classified as ultrasonic waves.",
+   "concept": "Infrasonic and ultrasonic ranges",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
    "number": "56",
    "form": "mcq",
    "page": 445,
    "stem": "Many nocturnal animals navigate brilliantly without relying on visual sight. How exactly do nocturnal bats successfully utilize high-frequency ultrasonic waves to locate tiny flying prey precisely in complete environmental darkness?",
-   "answer": "Bats flawlessly hunt at night utilizing an advanced biological technique called echolocation. They continuously emit rapid bursts of high-frequency ultrasonic waves from their mouths. When these specialized waves strike small flying insects, they immediately reflect backward. The bat’s sensitive ears analyze these returning echoes to pinpoint the prey’s exact location.",
    "options": [
     {
      "label": "A",
@@ -1252,14 +1690,18 @@
      "text": "By constantly absorbing ambient sound waves completely from their surrounding environment."
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "answer": "Bats flawlessly hunt at night utilizing an advanced biological technique called echolocation. They continuously emit rapid bursts of high-frequency ultrasonic waves from their mouths. When these specialized waves strike small flying insects, they immediately reflect backward. The bat’s sensitive ears analyze these returning echoes to pinpoint the prey’s exact location.",
+   "concept": "Echolocation in animals",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "57",
    "form": "mcq",
    "page": 445,
    "stem": "Consider the following diverse list of specialized modern technological and medical applications: 1. Non-invasively imaging human internal organs without required surgery. 2. Safely breaking dangerous internal kidney stones into minute flushable pieces. 3. Precisely locating deeply submerged underwater shipwrecks and opposing submarines. 4. Detecting hidden microscopic structural cracks deep inside thick metallic blocks. Which of these practical applications fundamentally rely on the controlled use of ultrasonic waves?",
-   "answer": "High-frequency ultrasonic waves possess immense practical utility due to their profound penetrative power and precise reflection capabilities. They are extensively used daily in non-invasive medical imaging, therapeutically shattering kidney stones, industrially detecting internal flaws within thick metal components, and powerfully operating maritime sonar systems to locate submerged underwater objects.",
    "options": [
     {
      "label": "A",
@@ -1278,14 +1720,18 @@
      "text": "1, 2, 3, and 4"
     }
    ],
-   "correct_option": "D"
+   "correct_option": "D",
+   "answer": "High-frequency ultrasonic waves possess immense practical utility due to their profound penetrative power and precise reflection capabilities. They are extensively used daily in non-invasive medical imaging, therapeutically shattering kidney stones, industrially detecting internal flaws within thick metal components, and powerfully operating maritime sonar systems to locate submerged underwater objects.",
+   "concept": "Ultrasound in industry and testing",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "58",
    "form": "mcq",
-   "page": 446,
+   "page": 445,
    "stem": "A heavily equipped naval survey ship transmits a powerful vertical sonar pulse deep into seawater. The reflected signal successfully returns to the specialized onboard detector exactly 2.0 seconds later. If sound travels at exactly 1530 m/s in this seawater, how deep is the ocean floor?",
-   "answer": "Sonar calculates depth by measuring round-trip travel time. The total time taken is 2.0 seconds, meaning the time strictly to reach the bottom is exactly 1.0 seconds. Using the standard formula d v t # = , =1530 *1.0 s =1530 meter The accurately calculated depth is precisely 1530 meters.",
    "options": [
     {
      "label": "A",
@@ -1301,17 +1747,22 @@
     },
     {
      "label": "D",
-     "text": "6120 meters Sound Waves: Characteristics and Applications"
+     "text": "6120 meters"
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "answer": "Sonar calculates depth by measuring round-trip travel time. The total time taken is 2.0 seconds, meaning the time strictly to reach the bottom is exactly 1.0 seconds. Using the standard formula d = v × t, we get d = 1530 × 1.0 s = 1530 meter. The accurately calculated depth is precisely 1530 meters.",
+   "concept": "Sonar for underwater detection",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
   },
   {
    "number": "59",
    "form": "mcq",
    "page": 446,
-   "stem": "While many animals share the human audible range, some possess distinctly different capabilities. Which of the following massive land animals is scientifically known to communicate across vast distances using extremely low- frequency infrasonic waves?",
-   "answer": "While bats and dolphins famously utilize high-frequency ultrasonic waves for advanced echolocation, massive land mammals employ entirely different methods. Scientific studies confirm that elephants, alongside rhinoceroses and whales, successfully generate and detect extremely low-frequency infrasonic waves (below 20 Hz) to securely communicate with each other over immensely large physical distances. VER Y SHO RT ANSWER",
+   "stem": "While many animals share the human audible range, some possess distinctly different capabilities. Which of the following massive land animals is scientifically known to communicate across vast distances using extremely low-frequency infrasonic waves?",
    "options": [
     {
      "label": "A",
@@ -1330,7 +1781,12 @@
      "text": "Common household dogs"
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "answer": "While bats and dolphins famously utilize high-frequency ultrasonic waves for advanced echolocation, massive land mammals employ entirely different methods. Scientific studies confirm that elephants, alongside rhinoceroses and whales, successfully generate and detect extremely low-frequency infrasonic waves (below 20 Hz) to securely communicate with each other over immensely large physical distances.",
+   "concept": "Animals hear beyond human range",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   }
  ]
 }

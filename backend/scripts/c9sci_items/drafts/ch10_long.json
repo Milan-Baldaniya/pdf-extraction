@@ -7,170 +7,460 @@
   {
    "number": "120",
    "form": "long",
-   "page": 460,
+   "page": 459,
    "stem": "(a) Describe the vacuum bell jar experiment to show that sound needs a medium to propagate? (b) Based on this observation, what type of wave is sound? (c) Draw a well-labelled diagram of the experimental setup?",
-   "answer": "(a) An experiment to demonstrate that sound requires a material medium is the vacuum bell jar experiment. The setup consists of an electric bell suspended inside an airtight glass bell jar, which is placed on a base connected to a vacuum pump. Initially, when the bell is switched on, its ringing sound is clearly heard because the jar is filled with air. As the vacuum pump gradually removes the air from the jar, the loudness of the sound steadily decreases, even though the hammer continues to strike the gong. Eventually, when a near vacuum is created, the sound becomes almost inaudible. (b) This observation proves that sound is a mechanical wave. Unlike electromagnetic waves, sound cannot travel through empty space. It fundamentally relies on the collisions of particles in a physical medium, such as a solid, liquid, or gas, to propagate and transfer energy."
+   "answer": "(a) An experiment to demonstrate that sound requires a material medium is the vacuum bell jar experiment. The setup consists of an electric bell suspended inside an airtight glass bell jar, which is placed on a base connected to a vacuum pump. Initially, when the bell is switched on, its ringing sound is clearly heard because the jar is filled with air. As the vacuum pump gradually removes the air from the jar, the loudness of the sound steadily decreases, even though the hammer continues to strike the gong. Eventually, when a near vacuum is created, the sound becomes almost inaudible.\n(b) This observation proves that sound is a mechanical wave. Unlike electromagnetic waves, sound cannot travel through empty space. It fundamentally relies on the collisions of particles in a physical medium, such as a solid, liquid, or gas, to propagate and transfer energy.\n(c) (Diagram described in words.) The labelled sketch shows a thick glass bell jar standing on a flat airtight base plate. An electric bell hangs inside the jar from the top, its two connecting wires passing out through an airtight seal in the base to a battery and a switch outside. A side tube in the base plate leads to a vacuum pump. The labels required are: bell jar, electric bell, connecting wires, airtight base, battery and switch, and vacuum pump.",
+   "concept": "Bell jar experiment evidence",
+   "bloom": "understand",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "121",
+   "form": "long",
+   "page": 456,
+   "stem": "(a) Differentiate between an echo and reverberation? (b) What are the minimum conditions of time and distance required to hear a distinct echo in air (assume the speed of sound as 340 m/s)? (c) How do architects systematically reduce unwanted reverberations in concert halls?",
+   "answer": "(a) An echo is a distinct, isolated reflection of sound from a distant hard surface, heard separately from the original sound. In contrast, reverberation is the continuous persistence of sound within an enclosed space due to multiple, overlapping reflections from walls and ceilings, which often makes speech unclear.\n(b) To hear a distinct echo, the human brain requires a time gap of at least 0.1 seconds between the original sound and the reflected sound. Since sound travels to the reflecting surface and back, the total distance covered is twice the distance to the reflector (2d). Using the relation distance = speed × time, we get 2d = 340 × 0.1 = 34 m, so d = 17 metres. Therefore, the reflecting surface must be at least 17 metres away from the source for a distinct echo to be heard in air.\n(c) Architects reduce unwanted reverberations by lining auditorium walls and ceilings with sound-absorbing materials like porous panels and heavy curtains.",
+   "concept": "Minimum echo distance is 17 m",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "122",
+   "form": "long",
+   "page": 456,
+   "stem": "(a) Differentiate clearly between the pitch and loudness of a sound? (b) On what specific physical wave quantities do these two characteristics respectively depend? (c) What is the normal audible range for human hearing, and how are sound waves falling outside this range classified?",
+   "answer": "(a) Pitch and loudness are subjective human characteristics used to describe our perception of sound. Pitch relates to how shrill, sharp, or deep a sound appears to the ear, whereas loudness refers to the intensity or volume of the sound.\n(b) Pitch depends fundamentally on the frequency of the sound wave; a higher frequency produces a higher-pitched sound, while a lower frequency produces a low-pitched, deep sound. Loudness depends primarily on the amplitude of the wave; larger amplitudes transfer more energy and create a louder sound.\n(c) The normal audible hearing range for humans spans from 20 Hz to 20,000 Hz. Sound waves with frequencies below 20 Hz are classified as infrasonic waves, which animals like elephants use to communicate. Conversely, sound waves with frequencies strictly above 20,000 Hz are termed ultrasonic waves, which are widely used by bats for navigation and in medical imaging technologies.",
+   "concept": "Loudness is perceived amplitude",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "123",
+   "form": "long",
+   "page": 456,
+   "stem": "(a) Explain how a sound wave propagates through a fluid medium using the concepts of compressions and rarefactions? (b) Why is sound specifically considered a longitudinal wave? (c) A vibrating tuning fork creates 50 compressions in 2 seconds; calculate its fundamental frequency?",
+   "answer": "(a) Sound propagates through a medium by generating alternating regions of high and low pressure. When a source vibrates forward, it compresses adjacent air particles, creating a high-density region called a compression. When it moves backward, it leaves a low-density region called a rarefaction. These alternating compressions and rarefactions travel outward through the medium, transferring acoustic energy without causing a net forward movement of the particles themselves.\n(b) Sound is classified as a longitudinal wave because the individual particles of the medium vibrate back and forth in a direction strictly parallel to the direction of wave propagation.\n(c) Frequency is defined as the number of complete oscillations, or compressions, passing a fixed point per unit time. Given: number of compressions = 50 and time = 2 s. Frequency = number of compressions / time taken = 50 / 2 = 25 Hz. Therefore, the source has a frequency of 25 Hz.",
+   "concept": "Wave made of compressions and rarefactions",
+   "bloom": "understand",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "124",
+   "form": "long",
+   "page": 457,
+   "stem": "(a) Draw a schematic diagram showing the functioning of SONAR on a ship? (b) Explain the fundamental principle it uses to determine the depth of the ocean? (c) A sonar signal takes 4 seconds to return from the seabed. If the speed of sound in seawater is 1500 m/s, calculate the depth?",
+   "answer": "(a) (Diagram described in words.) The schematic shows a ship floating on the sea surface with a transmitter and a detector mounted on its hull. A downward arrow from the transmitter marks the ultrasonic pulse travelling to the seabed, and an upward arrow returning to the detector marks the reflected echo. The vertical gap between the hull and the seabed is labelled as the depth d.\n(b) SONAR stands for Sound Navigation and Ranging. It operates on the principle of echolocation using high-frequency ultrasonic waves. A transmitter mounted on the bottom of a ship sends directed pulses of ultrasonic waves downward into the seawater. These waves travel until they strike the seabed or an underwater object, and then reflect back upward as echoes. A sensitive detector on the ship receives these echoes. By measuring the exact time interval between transmission and reception, and knowing the speed of sound in water, the distance can be calculated.\n(c) In the given scenario, the total time for the signal to travel down and back is 4 seconds. Time taken to just reach the seabed = 4 / 2 = 2 s. Speed of sound in seawater = 1500 m/s. Depth = speed × time = 1500 × 2 = 3000 m. Thus, the ocean depth is 3000 metres.",
+   "concept": "Sonar for underwater detection",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "125",
+   "form": "long",
+   "page": 457,
+   "stem": "(a) Describe a simple classroom activity using a tuning fork and a water surface to show that sound is produced by vibrating objects? (b) How does this specific activity also demonstrate that sound waves transfer energy rather than physical matter?",
+   "answer": "(a) To demonstrate that sound is generated by vibrating objects, strike a tuning fork gently against a soft rubber pad to initiate its vibration. Bring the vibrating tuning fork near your ear to clearly hear the sound produced. Next, hold a container completely filled with water and carefully touch the still water surface with one of the vibrating prongs. You will instantly observe small ripples or waves forming and spreading rapidly across the water surface, providing visual evidence that the metal prongs are oscillating.\n(b) This simple activity also beautifully demonstrates energy transfer. The vibrating tuning fork contains kinetic energy. Upon touching the water, it physically transfers this mechanical energy to the adjacent water particles. The water particles themselves only oscillate locally about their mean resting positions, but the resulting disturbance propagates outward as ripples. This establishes that waves transfer energy through a medium without any actual bulk transfer of matter.",
+   "concept": "Sound transfers energy not matter",
+   "bloom": "understand",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "126",
+   "form": "long",
+   "page": 458,
+   "stem": "(a) Draw a graphical representation of a sound wave showing the variation of density with distance, labelling its key parts? (b) Define wavelength and frequency? (c) If a sound wave travels at 340 m/s with a frequency of 170 Hz, calculate its wavelength?",
+   "answer": "(a) The graphical representation plots the density of the medium on the y-axis against distance on the x-axis. Compressions form upper peaks called crests, representing regions of maximum density above the average level. Rarefactions form lower valleys called troughs, representing regions of minimum density. The amplitude is the maximum change in density from the central average density line.\n(b) Wavelength is the horizontal distance between two consecutive crests or two consecutive troughs, measured in metres. Frequency is defined as the number of complete density oscillations occurring per second, measured in Hertz.\n(c) For the numerical part, we use the wave equation speed = wavelength × frequency. Given the speed is 340 m/s and the frequency is 170 Hz, wavelength = speed / frequency = 340 / 170 = 2 m. Therefore, the wavelength of the given sound wave is exactly 2 metres.",
+   "concept": "Crest and trough in wave graph",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "127",
+   "form": "long",
+   "page": 458,
+   "stem": "(a) State three environmental or physical factors that significantly affect the speed of sound propagating in a medium? (b) During a thunderstorm, a person sees lightning and hears thunder 5 seconds later. If the speed of sound in air is 340 m/s, calculate the distance to the lightning strike?",
+   "answer": "(a) The speed of sound depends primarily on the physical properties of the medium. First, it depends on the state of the medium; sound propagates much faster in solids than in liquids, and slowest in gases. Second, temperature significantly affects it; an increase in the temperature of a medium results in a higher speed of sound. Third, humidity levels in gases alter the speed, as sound travels faster in moist air compared to completely dry air.\n(b) For the mathematical calculation, the time delay between seeing the lightning flash and hearing the thunder is 5 seconds. Since light travels almost instantaneously, we consider this delay entirely as the time taken for sound to travel. Distance = speed × time = 340 m/s × 5 s = 1700 m. By converting metres to kilometres, we find that the lightning struck exactly 1.7 km away from the observer’s current position.",
+   "concept": "Speed depends on the medium",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "128",
+   "form": "long",
+   "page": 458,
+   "stem": "(a) What do you understand by the specific terms tone and note in the context of musical acoustics? (b) How does the quality or timbre of sound help a listener distinguish between two different musical instruments playing the exact same note at the same loudness?",
+   "answer": "(a) In the study of acoustics, a tone refers to a sound that consists of a single, pure frequency. Such pure sounds are relatively rare in nature but can be produced by specific instruments like a tuning fork. In contrast, a note is a complex musical sound created by blending multiple frequencies simultaneously. A note comprises a fundamental base frequency mixed with several higher frequencies known as overtones, which makes it sound rich, full, and pleasant to the listener.\n(b) The quality, or timbre, is an essential characteristic of sound that allows the human ear to distinguish between different musical instruments playing the exact same note at identical loudness. When instruments like a sitar or a flute play, they produce unique sets of overtones. The specific mathematical pattern, number, and relative intensity of these varying overtones give each individual instrument its highly distinctive and recognizable auditory waveform.",
+   "concept": "Musical instruments use several vibrating parts",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "129",
+   "form": "long",
+   "page": 455,
+   "stem": "(a) Differentiate between longitudinal and transverse waves using a diagram that shows the directions of particle vibration? (b) Which specific type of wave is sound propagating in atmospheric air? (c) Explain briefly how human beings produce these sound waves using their anatomical structures?",
+   "answer": "(a) In a longitudinal wave, the constituent particles of the medium vibrate back and forth in a direction strictly parallel to the direction of wave propagation, resulting in alternating high-pressure compressions and low-pressure rarefactions. Conversely, in a transverse wave, the medium’s particles oscillate up and down perpendicularly to the wave’s forward path, creating visible crests and troughs.\n(b) Sound propagating through atmospheric air is a classic example of a longitudinal wave.\n(c) Humans generate these sound waves using the voice box, scientifically known as the larynx, located in the throat region. Inside the larynx, two muscular flaps called vocal cords are stretched tightly across the opening, leaving a very narrow slit. When the lungs forcefully exhale air through this tiny slit, the vocal cords vibrate rapidly. This continuous vibration produces sound. Humans modify the pitch of their voice by adjusting the muscular tension and thickness of these vocal cords.",
+   "concept": "Sound is longitudinal and mechanical",
+   "bloom": "understand",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "130",
+   "form": "long",
+   "page": 455,
+   "stem": "A person fires a gun standing at a distance of 55 m from a wall. If the speed of sound is 330 ms⁻¹, find the time for an echo to be heard.",
+   "answer": "Given, distance d = 55 m and speed of sound v = 330 ms⁻¹; t = ? As we know that, 2d = v × t, or t = 2d / v = (2 × 55) / 330 = 110 / 330 = 0.33 s (the book rounds this to 0.3 s).",
+   "concept": "Echo is delayed reflected sound",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "131",
+   "form": "long",
+   "page": 455,
+   "stem": "A tuning fork produces 1024 waves in 4 seconds. Calculate the frequency to the tuning fork.",
+   "answer": "As the tuning fork produces 1024 waves in 4 seconds, hence the frequency of the tuning fork ν = number of vibrations per second = 1024 / 4 = 256 Hz.",
+   "concept": "Frequency definition",
+   "bloom": "apply",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "132",
+   "form": "long",
+   "page": 455,
+   "stem": "A human heart, on an average, is found to beat 75 times a minute. Calculate its frequency.",
+   "answer": "Given, no. of beats of the human heart = 75 min⁻¹ = 75 / (1 min) = 75 / (60 s) = 1.25 s⁻¹. So, the average frequency of the human heart beating is 1.25 s⁻¹.",
+   "concept": "Frequency definition",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "133",
    "form": "long",
    "page": 460,
    "stem": "A boat at anchor is rocked by waves whose consecutive crests are 100 m apart. The wave velocity of the moving crests is 20 m/s. What is the frequency of rocking of the boat?",
-   "answer": "Given, Distance between two consecutive crests = 100 m Wave velocity v = 20 m/s The distance between two consecutive crests is equal to the wavelength of the wave. So, Frequency Wave length Wave velocity = 100 m 20 m s 1 = − = 0.2 s–1 So, the frequency of rocking of the boat is 0.2 s–1."
+   "answer": "Given, the distance between two consecutive crests = 100 m and the wave velocity v = 20 m/s. The distance between two consecutive crests is equal to the wavelength of the wave, so the wavelength is 100 m. So, frequency = wave velocity / wavelength = (20 m/s) / (100 m) = 0.2 Hz. So, the frequency of rocking of the boat is 0.2 s⁻¹.",
+   "concept": "Speed equals wavelength times frequency",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "134",
    "form": "long",
    "page": 460,
    "stem": "A longitudinal wave is produced on a toy slinky. The wave travels at a speed of 30 cm/s and the frequency of the wave is 20 Hz. What is the minimum separation between the consecutive compressions of the slinky?",
-   "answer": "Given, Wave speed, v = 30 cm/s Frequency of the wave, v = 20 Hz = 20 s–1 The minimum separation between the consecutive compressions is equal to the wavelength. Therefore, Wavelength 20 s 30 cm s 1 1 = − − = 1.5 cm Thus, the minimum separation between the consecutive compression of the slinky is 1.5 cm."
+   "answer": "Given, wave speed v = 30 cm/s and frequency of the wave = 20 Hz, that is 20 s⁻¹. The minimum separation between the consecutive compressions is equal to the wavelength. Therefore, wavelength = wave speed / frequency = (30 cm/s) / (20 s⁻¹) = 1.5 cm. Thus, the minimum separation between the consecutive compressions of the slinky is 1.5 cm.",
+   "concept": "Wavelength definition",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "135",
    "form": "long",
    "page": 460,
    "stem": "A bat can hear sound at frequencies up to 120 kHz. Determine the wavelength of sound in the air at this frequency. Take the speed of sound in the air as 344 m/s.",
-   "answer": "Given, Frequency, ν = 120 kHz = 120 × 103 Hz = 120 × 103 s–1 Velocity of sound in the air, v = 344 m/s Wavelength of the sound wave = λ We know, Wavelength, λ frequency wave velocity = 120 10 s 344 ms 3 1 1 # = − − = 2.87 × 10–3 m = 0.29 cm"
+   "answer": "Given, frequency ν = 120 kHz = 120 × 10³ Hz = 120 × 10³ s⁻¹, and the velocity of sound in the air v = 344 m/s. Let the wavelength of the sound wave be λ. We know, wavelength = wave velocity / frequency, so λ = (344 m/s) / (120 × 10³ s⁻¹) = 2.87 × 10⁻³ m = 0.29 cm.",
+   "concept": "Speed equals wavelength times frequency",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3
   },
   {
    "number": "136",
    "form": "long",
    "page": 460,
    "stem": "A gun is fired in the air at a distance of 660 m, from a person. He hears the sound of the gun after 2 s. What is the speed of sound?",
-   "answer": "Given, Distance travelled by sound = 660 m, Time taken by the sound = 2 s, So, Speed of sound Time Distance = 2 s 660 m = = 330 m/s Thus, the speed of sound in the air is 330 m/s."
+   "answer": "Given, distance travelled by sound = 660 m and time taken by the sound = 2 s. So, speed of sound = distance / time = (660 m) / (2 s) = 330 m/s. Thus, the speed of sound in the air is 330 m/s.",
+   "concept": "Speed depends on the medium",
+   "bloom": "apply",
+   "dok": 1,
+   "difficulty": 1
   },
   {
    "number": "137",
    "form": "long",
    "page": 460,
    "stem": "A child hears an echo from a cliff 4 seconds after the sound from a powerful cracker is produced. How far away is the cliff from the child? Velocity of sound in air at 20°C is 344 m/s.",
-   "answer": "Let the distance between the child and the cliff be d. Then, Total distance travelled by the sound = 2d Total time taken by the sound = 4 s Then, Velocity of sound = 344 m/s = s d 2 This gives, d = 344 m/s × 2 s = 688 m Thus, the cliff is at a distance of 688 m from the child."
+   "answer": "Let the distance between the child and the cliff be d. Then, the total distance travelled by the sound = 2d and the total time taken by the sound = 4 s. Then, velocity of sound = 2d / t, so 344 m/s = 2d / (4 s). This gives d = 344 m/s × 2 s = 688 m. Thus, the cliff is at a distance of 688 m from the child.",
+   "concept": "Echo is delayed reflected sound",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "138",
    "form": "long",
    "page": 461,
    "stem": "A ship sends on a high frequency sound wave and receives an echo after 1 second. What is the depth of the sea? Speed of sound in water is 1500 m/s.",
-   "answer": "Let, Depth of the sea = d So, total distance travelled by the sound wave = 2d Time taken by sound to travel both ways = 1s As per definition, Speed of the sound = 1500 ms–1 = s d 1 2 or d = 1500 ms–1 × s 2 1 = 750 m Thus, the depth of the sea is 750 metres. Click Here to Buy book on Amazon Sound Waves: Characteristics and Applications (c) Sound requires a material medium (solid, liquid, or gas) to travel. In outer space, there is a near vacuum and no air or other medium for the sound waves to propagate through, which is why astronauts use special devices to communicate."
+   "answer": "Let the depth of the sea be d. So, the total distance travelled by the sound wave = 2d and the time taken by sound to travel both ways = 1 s. As per definition, speed of the sound = 2d / t, so 1500 m/s = 2d / (1 s), or d = 1500 m/s × (1/2) s = 750 m. Thus, the depth of the sea is 750 metres.",
+   "concept": "Sonar for underwater detection",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
-   "number": "160",
+   "number": "139",
    "form": "long",
-   "page": 461,
-   "stem": "During a science exhibition, a group of ninth graders set up a long metal slinky on a smooth table. One student pushed and pulled one end of the slinky in quick succession while the other end was held firmly. The visitors observed bands of closely packed coils moving towards the fixed end, followed by regions where the coils were spread far apart. To show that the metal coils themselves were not travelling from one end to the other, a student tied a small red ribbon to one of the middle coils and asked the audience to observe its motion. QUESTIONS: (a) What do the closely packed coils and the spread-out coils represent in a sound wave travelling through air? (b) Describe the motion of the red ribbon as the disturbance passes through the slinky. (c) What specific type of wave is demonstrated in this exhibition? (d) How does this slinky activity explain the concept that sound is a mechanical wave?",
-   "answer": "(a) The closely packed coils represent compressions (regions of higher density), and the spread-out coils represent rarefactions (regions of lower density) in a sound wave. (b) The red ribbon does not travel to the end of the slinky. It only oscillates back and forth parallel to the direction of the disturbance, about its own position of rest. (c) This demonstrates a longitudinal wave, where the particles of the medium vibrate parallel to the direction of wave propagation. (d) The activity shows that a disturbance requires a physical material (the slinky) to travel from one point to another. Since sound also requires a material medium to propagate and cannot travel in a vacuum, it is classified as a mechanical wave."
+   "page": 469,
+   "stem": "A sonar echo takes 2.2 s to return from a whale. How far away is the whale?",
+   "answer": "Total time taken by the signal = 2.2 s. So, the time taken by the signal to reach the whale = 1.1 s. Let the distance of the whale be d. Speed of sound in sea water at 25°C = 1533 ms⁻¹. So, the distance of the whale d = speed of the signal × time taken = 1533 ms⁻¹ × 1.1 s = 1686.3 m.",
+   "concept": "Sonar for underwater detection",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
-   "number": "161",
+   "number": "140",
    "form": "long",
-   "page": 461,
-   "stem": "Two different musical instruments, say a guitar and a flute, play a note of the same pitch and loudness. However, a listener can easily distinguish between the sounds of the guitar and the flute. Another sound from a car horn has a different pitch compared to the guitar. 1. Which characteristic of a sound wave determines its pitch? How is pitch related to frequency? 2. Which characteristic of a sound wave determines its loudness? How is loudness related to amplitude? 3. If the guitar and flute play the same pitch and loudness, which characteristic of sound helps distinguish between them? 4. If the car horn produces a sound of higher pitch than the guitar, what can you say about the frequency of the sound waves produced by the car horn compared to the guitar?",
-   "answer": ""
+   "page": 469,
+   "stem": "Using the SONAR, sound pulses are emitted at the surface of water. These pulses after being reflected from the bottom are detected. If the time interval from the emission to the detection of the sound pulses is 2 seconds, find the depth of the water. Velocity of sound in water = 1498 m/s.",
+   "answer": "Let the depth of the water from the Earth’s surface be d. Then, the total distance travelled by the pulse = 2d and the total time taken by the pulse = 2 s. As per definition, velocity = distance travelled / time taken, so the velocity of the sound = 2d / (2 s), that is 1498 m/s = d / (1 s). This gives d = 1498 m/s × 1 s = 1498 m. Thus, the depth of water is 1498 m.",
+   "concept": "Sonar for underwater detection",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
-   "number": "1",
+   "number": "141",
+   "form": "long",
+   "page": 469,
+   "stem": "A wave moves a distance of 8 m in 0.05 s : (a) Find the velocity of the wave. (b) What is the wavelength of the wave if its frequency is 200 Hz?",
+   "answer": "(a) Velocity = distance / time = (8 m) / (0.05 s) = 160 ms⁻¹.\n(b) λ = v / ν = 160 / 200 = 0.8 m.",
+   "concept": "Speed equals wavelength times frequency",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "142",
+   "form": "long",
+   "page": 469,
+   "stem": "A stone is dropped into a well 44.1 m deep. The splash is heard 3.13 seconds after the stone is dropped. Find the velocity of sound in air.",
+   "answer": "The stone falls from A to B. Here u = 0, s = 44.1 m, g = 9.8 ms⁻² and the time of fall t1 is to be found. As we know that, s = ut1 + (1/2)g(t1)², so 44.1 = (1/2) × 9.8 × (t1)², which gives t1 = 3 s. The sound produced at B, by the stone falling on the surface of the water, travels from B to A with constant velocity. Speed = distance / time, so v = 44.1 / t2, that is t2 = 44.1 / v …(1). It is given that the total time is 3.13 seconds, i.e. t1 + t2 = 3.13. From eqn (1), we get 3 + 44.1 / v = 3.13, so 44.1 / v = 0.13 and v = 339.2 ms⁻¹.",
+   "concept": "Speed depends on the medium",
+   "bloom": "analyze",
+   "dok": 4,
+   "difficulty": 5
+  },
+  {
+   "number": "143",
+   "form": "long",
+   "page": 469,
+   "stem": "Using sonar, sound pulses are emitted at the surface of water. These pulses after being reflected from water bottom are detected. If the time interval from the emission to the detection of the sound pulses is 2 seconds, find the depth of the water. (Speed of sound in water = 1531 m/s given)",
+   "answer": "Given, time t = 2 s. As we know that, speed = distance / time, so with the depth written as x the pulse covers 2x in 2 s: 1531 = 2x / 2, which gives x = 1531 m.",
+   "concept": "Sonar for underwater detection",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "144",
    "form": "long",
    "page": 462,
-   "stem": "The pitch of a sound wave is determined by its frequency. A higher frequency results in a higher pitch. 2. The loudness of a sound wave is determined by its amplitude. A larger amplitude results in a louder sound. 3. The quality or timbre of the sound helps distinguish between the sounds of the guitar and the flute, even if they have the same pitch and loudness. 4. If the car horn has a higher pitch, its sound waves have a higher frequency compared to the guitar. 144. Calculate (a) the wavelength (b) the time period of a tuning fork of frequency 512 Hz which is set to vibrate. Velocity of sound in air is 320 m/s.",
-   "answer": "Given, Frequency of the tuning fork, ν = 512 Hz Velocity of sound, v = 320 m/s As we know that, Wavelength, λ v ν = 512 320 = = 0.625 m time period, t v 1 = = 0.00195 s"
+   "stem": "Calculate (a) the wavelength (b) the time period of a tuning fork of frequency 512 Hz which is set to vibrate. Velocity of sound in air is 320 m/s.",
+   "answer": "Given, frequency of the tuning fork ν = 512 Hz and velocity of sound v = 320 m/s. As we know that, (a) wavelength λ = v / ν = (320 m/s) / (512 Hz) = 0.625 m, and (b) time period T = 1 / ν = 1 / 512 = 0.00195 s.",
+   "concept": "Frequency and time period inverse",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "145",
    "form": "long",
    "page": 462,
    "stem": "Sound waves travel with a speed of 330 m/s. What is the wavelength of sound, whose frequency is 550 Hz?",
-   "answer": "Given, Speed of the sound wave, v = 330 m/s Frequency of the sound wave, ν = 550 Hz Wavelength, λ v ν = 550 330 = 55 33 = Wavelength = 0.6 m"
+   "answer": "Given, speed of the sound wave v = 330 m/s and frequency of the sound wave ν = 550 Hz. Wavelength λ = v / ν = (330 m/s) / (550 Hz) = 33/55 m = 0.6 m.",
+   "concept": "Speed equals wavelength times frequency",
+   "bloom": "apply",
+   "dok": 1,
+   "difficulty": 1
   },
   {
    "number": "146",
    "form": "long",
    "page": 462,
-   "stem": "Radiowaves of speed 3 × 108 ms–1 are reflected off the Moon and received back on Earth. The time elapsed between the sending of the signal and receiving it back at the Earth station is 2.5 s. What is the distance of the Moon from the Earth?",
-   "answer": "Given, Speed of Radio wave, v = 3 × 102 m/s Time, t = 2.55 As we know that, d v t 2 # = . 2 3 10 2 5 8 # # = . 2 7 5 108 # = = 3.75 × 108 m"
+   "stem": "Radiowaves of speed 3 × 10⁸ ms⁻¹ are reflected off the Moon and received back on Earth. The time elapsed between the sending of the signal and receiving it back at the Earth station is 2.5 s. What is the distance of the Moon from the Earth?",
+   "answer": "Given, speed of the radio wave v = 3 × 10⁸ m/s and the total time elapsed t = 2.5 s. As we know that, d = (v × t) / 2 = (3 × 10⁸ m/s × 2.5 s) / 2 = (7.5 × 10⁸ m) / 2 = 3.75 × 10⁸ m. So the distance of the Moon from the Earth is 3.75 × 10⁸ m.",
+   "concept": "Echo is delayed reflected sound",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
   },
   {
    "number": "147",
    "form": "long",
    "page": 462,
    "stem": "If the speed of sound in air is 340 m/s, what is the wavelength of sound waves produced by a source vibrating at a frequency of 500 Hz? Would this sound be audible to humans?",
-   "answer": "Given, Speed of sound / m s v 340 = . Frequency Hz 500 ν = . The relationship is v νλ = . So, wavelength λ v ν = / Hz m s 500 340 = m m 500 340 50 34 = = . metres 0 68 = . The wavelength of the sound wave is 0.68 m. Yes, this sound would be audible to humans because its frequency (500 Hz) falls within the typical human audible range of 20 Hz to 20,000 Hz."
+   "answer": "Given, speed of sound v = 340 m/s and frequency ν = 500 Hz. The relationship is v = νλ. So, wavelength λ = v / ν = (340 m/s) / (500 Hz) = 34/50 m = 0.68 metres. The wavelength of the sound wave is 0.68 m. Yes, this sound would be audible to humans because its frequency (500 Hz) falls within the typical human audible range of 20 Hz to 20,000 Hz.",
+   "concept": "Human audible range",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "148",
    "form": "long",
    "page": 462,
-   "stem": "(a) A sound wave of wave length 0.33 m has a time period of 10–3 s. If the time period is decreased to 10–4 s, calculate the wave length and frequency of the new wave. (b) Name the subjective property of sound related to its frequency and of light related to its wavelength.",
-   "answer": "(a) Wavelength, λ = 0.33 m Time taken to travel, t = 10–3 Velocity t λ = . 10 0 33 3 = − = 300 ms–1 Time period of 2nd wave = 10–4 s Therefore, wavelength, λ = v× t = 330 × 10–4 = 0.033 m Frequency t 1 = 10 1 3 = − = 103 Hz (b) Pitch is related to the frequency of sound and colour is related to the wavelength of light."
+   "stem": "(a) A sound wave of wave length 0.33 m has a time period of 10⁻³ s. If the time period is decreased to 10⁻⁴ s, calculate the wave length and frequency of the new wave. (b) Name the subjective property of sound related to its frequency and of light related to its wavelength.",
+   "answer": "(a) Wavelength λ = 0.33 m and time period t = 10⁻³ s. Velocity = λ / t = (0.33 m) / (10⁻³ s) = 330 m/s. Time period of the 2nd wave = 10⁻⁴ s. Therefore, the new wavelength λ = v × t = 330 × 10⁻⁴ = 0.033 m, and the new frequency = 1 / t = 1 / 10⁻⁴ = 10⁴ Hz.\n(b) Pitch is related to the frequency of sound and colour is related to the wavelength of light.",
+   "concept": "Time period definition",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 4,
+   "reproduction": "ai_rephrased"
   },
   {
    "number": "149",
    "form": "long",
    "page": 463,
-   "stem": "A longitudinal wave of wavelength 1 cm travels in air with a speed of 330 ms–1. Calculate the frequency of the wave. Can this wave be heard by a normal human being?",
-   "answer": "Given, Wavelength, λ cm 1 = = 0.01 m v νλ = ν v λ = .0 01 330 = = 33,000 Hz The sound is not audible to human ear because frequency 20 to 20,000 Hz is the audible range of human ear. Sound Waves: Characteristics and Applications"
+   "stem": "A longitudinal wave of wavelength 1 cm travels in air with a speed of 330 ms⁻¹. Calculate the frequency of the wave. Can this wave be heard by a normal human being?",
+   "answer": "Given, wavelength λ = 1 cm = 0.01 m, and v = νλ. So ν = v / λ = (330 m/s) / (0.01 m) = 33,000 Hz. The sound is not audible to the human ear because 20 Hz to 20,000 Hz is the audible range of the human ear.",
+   "concept": "Human audible range",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "150",
    "form": "long",
    "page": 463,
    "stem": "A person standing between two vertical cliffs and 640 m away from the nearest cliff shouted. He heard the 1st echo after 4 seconds and the second echo 3 seconds later. Calculate : (i) the velocity of sound in air and (ii) the distance between the cliff.",
-   "answer": "Velocity of sound, v t d 2 = 4 2 640 # = = 320 ms–1 Distance the farthest cliff, d v t 2 # = 2 320 7 # = = 1120 m Therefore the distance between the cliffs, d = 640 + 1120 = 1760 m"
+   "answer": "Velocity of sound v = 2d / t = (2 × 640 m) / (4 s) = 320 m/s. The second echo returns after a total of 7 s, so the distance of the farthest cliff d = (v × t) / 2 = (320 × 7) / 2 = 1120 m. Therefore the distance between the cliffs = 640 + 1120 = 1760 m.",
+   "concept": "Echo is delayed reflected sound",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4,
+   "reproduction": "ai_rephrased"
   },
   {
    "number": "151",
    "form": "long",
    "page": 463,
-   "stem": "A ship on the surface of water sends a signal and receives it back after 4 seconds from a submarine inside the water. Calculate the distance of the submarine from the ship (The speed of sound in water is 1450 ms–1).",
-   "answer": "As we know that, v t d 2 = d v t 2 # = 2 1450 4 # = = 2900 m or 2.9 km"
+   "stem": "A ship on the surface of water sends a signal and receives it back after 4 seconds from a submarine inside the water. Calculate the distance of the submarine from the ship (The speed of sound in water is 1450 ms⁻¹).",
+   "answer": "As we know that, v = 2d / t, so d = (v × t) / 2 = (1450 m/s × 4 s) / 2 = 2900 m, or 2.9 km.",
+   "concept": "Sonar for underwater detection",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "152",
    "form": "long",
    "page": 463,
    "stem": "A man fires a gun and hears its echo after 5 seconds. The man then moves 310 m towards the hill and fires his gun again. This time he hears the echo after 3 seconds. Calculate the speed of sound.",
-   "answer": "Let d be the distance between the man and the hill in the beginning. v t d 2 = d 5 2 = .....(1) He moves 310 m towards the hill. Therefore, the distance will be (d – 310) m. v d 3 2 310 = − ^ h .....(2) Since, velocity of sound is same, equating (1) and (2), we get d 5 2 d 3 2 310 = − ^ h 3d = 5d – 1550 2d = 1550 d = 775 m Velocity of sound, v 5 2 775 # = = 310 ms–1"
+   "answer": "Let d be the distance between the man and the hill in the beginning. Since v = 2d / t, we have v = 2d / 5 …(1). He moves 310 m towards the hill, therefore the distance will be (d – 310) m, so v = 2(d – 310) / 3 …(2). Since the velocity of sound is the same, equating (1) and (2) we get 2d / 5 = 2(d – 310) / 3, which gives 3d = 5d – 1550, so 2d = 1550 and d = 775 m. Velocity of sound v = (2 × 775) / 5 = 310 ms⁻¹.",
+   "concept": "Echo is delayed reflected sound",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
   },
   {
    "number": "153",
    "form": "long",
    "page": 463,
    "stem": "The frequency of a source of sound is 100 Hz. How many times does it vibrate in a minute?",
-   "answer": "No. of vibrations produced in 1 s = 100 No. of vibrations produced in 60 (sec) = 1 min = 100 × 60 = 6000."
+   "answer": "No. of vibrations produced in 1 s = 100. No. of vibrations produced in 60 sec (1 min) = 100 × 60 = 6000.",
+   "concept": "Frequency definition",
+   "bloom": "apply",
+   "dok": 1,
+   "difficulty": 1,
+   "reproduction": "ai_rephrased"
   },
   {
    "number": "154",
    "form": "long",
    "page": 463,
-   "stem": "A girl claps and hears the echo after reflection from cliff which is 660 m away. If the velocity of sound is 330 ms–1, calculate the time taken for hearing the echo.",
-   "answer": "v × t =2d t v d 2 = 330 2 660 # = s 4 ="
+   "stem": "A girl claps and hears the echo after reflection from cliff which is 660 m away. If the velocity of sound is 330 ms⁻¹, calculate the time taken for hearing the echo.",
+   "answer": "Since v × t = 2d, the time taken t = 2d / v = (2 × 660 m) / (330 m/s) = 4 s.",
+   "concept": "Reflection of sound from surfaces",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "155",
    "form": "long",
    "page": 463,
-   "stem": "A longitudinal wave of wavelength 1 cm travels in air with a speed of 330 ms–1. Calculate the frequency of the wave. Can this wave be heard by a normal human being?",
-   "answer": "Given λ = 1 cm = 0.01 m v = 330 ms–1 Using v νλ = We have, ν v λ = .0 01 330 = = 33000 Hz No, this cannot be heard by a normal human being."
+   "stem": "A longitudinal wave of wavelength 1 cm travels in air with a speed of 330 ms⁻¹. Calculate the frequency of the wave. Can this wave be heard by a normal human being?",
+   "answer": "Given λ = 1 cm = 0.01 m and v = 330 ms⁻¹. Using v = νλ, we have ν = v / λ = (330 m/s) / (0.01 m) = 33000 Hz. No, this cannot be heard by a normal human being.",
+   "concept": "Human audible range",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "156",
    "form": "long",
    "page": 464,
    "stem": "A sound wave has a frequency of 2 kHz and a wavelength of 35 cm. How long will it take to travel 1.5 km?",
-   "answer": "Given, Frequency ν kHz Hz 2 2000 = = . Wavelength λ . cm m 35 0 35 = = . Speed of sound v νλ = . Hz m 2000 0 35 # = / m s 700 = . Distance to travel d . km m 1 5 1500 = = . Time taken t tan speed dis ce v d = = / m s m s 700 1500 7 15 = = . seconds 2 14 . . It will take approximately 2.14 seconds to travel 1.5 km."
+   "answer": "Given, frequency ν = 2 kHz = 2000 Hz and wavelength λ = 35 cm = 0.35 m. Speed of sound v = νλ = 2000 Hz × 0.35 m = 700 m/s. Distance to travel d = 1.5 km = 1500 m. Time taken t = distance / speed = (1500 m) / (700 m/s) = 15/7 = 2.14 seconds. It will take approximately 2.14 seconds to travel 1.5 km.",
+   "concept": "Speed equals wavelength times frequency",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "157",
    "form": "long",
    "page": 464,
-   "stem": "A stone is dropped from the top of a tower 500 m high into a pond of water at the base of the tower. When is the splash heard at the top? (Given, g = 10 ms-2 and speed of sound = 340 ms-1).",
-   "answer": "This problem has two parts: the time taken for the stone to fall (t1) and the time taken for the sound of the splash to travel back to the top (t2). Part 1: Time for the stone to fall (t1) Height of tower m h 500 = . Initial velocity of stone u 0 = . Acceleration / m s g 10 2 = . Using s ut at 2 1 2 = + h & t gt 0 1 2 1 1 2 $ = + 500 t 2 1 10 1 2 # # = 500 t 5 1 2 = t1 2 5 500 100 = = t1 seconds 100 10 = = . Part 2: Time for the sound to travel back (t2) Distance for sound to travel = height of tower = 500 m. Speed of sound / m s v 340 sound = . t2 tan Speed of sound Dis ce = / m s m s s 340 500 34 50 17 25 = = = . seconds 1 47 . . Total time until splash is heard: Total time T t t 1 2 = + . . s s s 10 1 47 11 47 = + = . The splash will be heard at the top approximately 11.47 seconds after the stone is dropped."
+   "stem": "A stone is dropped from the top of a tower 500 m high into a pond of water at the base of the tower. When is the splash heard at the top? (Given, g = 10 ms⁻² and speed of sound = 340 ms⁻¹).",
+   "answer": "This problem has two parts: the time taken for the stone to fall (t1) and the time taken for the sound of the splash to travel back to the top (t2).\nPart 1: Time for the stone to fall (t1). Height of tower h = 500 m, initial velocity of stone u = 0, acceleration g = 10 m/s². Using s = ut + (1/2)at², we get h = 0 × t1 + (1/2) × g × t1², so 500 = (1/2) × 10 × t1², that is 500 = 5t1². Then t1² = 500/5 = 100, so t1 = 10 seconds.\nPart 2: Time for the sound to travel back (t2). Distance for sound to travel = height of tower = 500 m, speed of sound v = 340 m/s. So t2 = distance / speed of sound = (500 m) / (340 m/s) = 50/34 = 25/17 = 1.47 seconds.\nTotal time until splash is heard: T = t1 + t2 = 10 s + 1.47 s = 11.47 s. The splash will be heard at the top approximately 11.47 seconds after the stone is dropped.",
+   "concept": "Speed depends on the medium",
+   "bloom": "analyze",
+   "dok": 4,
+   "difficulty": 5
   },
   {
    "number": "158",
    "form": "long",
    "page": 464,
    "stem": "A person clapped his hands near a cliff and heard the echo after 2 seconds. If the speed of sound is taken as 346 m/s, what is the distance of the cliff from the person?",
-   "answer": "Time taken for the echo to be heard s t 2 = . Speed of sound / m s v 346 = . In 2 seconds, the sound travels from the person to the cliff and back to the person. Total distance travelled by sound = speed × time / m s s m 346 2 692 # = = . This total distance is twice the distance (d) of the cliff from the person (to the cliff and back). So, d 2 m 692 = . Distance of the cliff d m m 2 692 346 = = . CAS E BASED QUESTION"
+   "answer": "Time taken for the echo to be heard t = 2 s, and speed of sound v = 346 m/s. In 2 seconds, the sound travels from the person to the cliff and back to the person. Total distance travelled by sound = speed × time = 346 m/s × 2 s = 692 m. This total distance is twice the distance (d) of the cliff from the person (to the cliff and back). So 2d = 692 m, and the distance of the cliff d = 692/2 = 346 m.",
+   "concept": "Echo is delayed reflected sound",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "160",
+   "form": "case_study",
+   "page": 461,
+   "stem": "During a science exhibition, a group of ninth graders set up a long metal slinky on a smooth table. One student pushed and pulled one end of the slinky in quick succession while the other end was held firmly. The visitors observed bands of closely packed coils moving towards the fixed end, followed by regions where the coils were spread far apart. To show that the metal coils themselves were not travelling from one end to the other, a student tied a small red ribbon to one of the middle coils and asked the audience to observe its motion.\nQUESTIONS:\n(a) What do the closely packed coils and the spread-out coils represent in a sound wave travelling through air?\n(b) Describe the motion of the red ribbon as the disturbance passes through the slinky.\n(c) What specific type of wave is demonstrated in this exhibition?\n(d) How does this slinky activity explain the concept that sound is a mechanical wave?",
+   "answer": "(a) The closely packed coils represent compressions (regions of higher density), and the spread-out coils represent rarefactions (regions of lower density) in a sound wave.\n(b) The red ribbon does not travel to the end of the slinky. It only oscillates back and forth parallel to the direction of the disturbance, about its own position of rest.\n(c) This demonstrates a longitudinal wave, where the particles of the medium vibrate parallel to the direction of wave propagation.\n(d) The activity shows that a disturbance requires a physical material (the slinky) to travel from one point to another. Since sound also requires a material medium to propagate and cannot travel in a vacuum, it is classified as a mechanical wave.",
+   "concept": "Wave made of compressions and rarefactions",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "161",
+   "form": "case_study",
+   "page": 461,
+   "stem": "Two different musical instruments, say a guitar and a flute, play a note of the same pitch and loudness. However, a listener can easily distinguish between the sounds of the guitar and the flute. Another sound from a car horn has a different pitch compared to the guitar.\n1. Which characteristic of a sound wave determines its pitch? How is pitch related to frequency?\n2. Which characteristic of a sound wave determines its loudness? How is loudness related to amplitude?\n3. If the guitar and flute play the same pitch and loudness, which characteristic of sound helps distinguish between them?\n4. If the car horn produces a sound of higher pitch than the guitar, what can you say about the frequency of the sound waves produced by the car horn compared to the guitar?",
+   "answer": "1. The pitch of a sound wave is determined by its frequency. A higher frequency results in a higher pitch.\n2. The loudness of a sound wave is determined by its amplitude. A larger amplitude results in a louder sound.\n3. The quality or timbre of the sound helps distinguish between the sounds of the guitar and the flute, even if they have the same pitch and loudness.\n4. If the car horn has a higher pitch, its sound waves have a higher frequency compared to the guitar.",
+   "concept": "Pitch is perceived frequency",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
   }
  ]
 }

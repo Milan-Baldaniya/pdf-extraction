@@ -6,94 +6,211 @@
  "items": [
   {
    "number": "1",
-   "form": "very_short",
-   "page": null,
+   "form": "short",
+   "page": 426,
    "stem": "Explore various ways of producing sound.",
-   "answer": "Sound can be produced in several ways, all of which involve creating vibrations in an object. Common methods include plucking a stretched string or rubber band, striking a surface like a drum or a tuning fork, blowing air through a hollow pipe like a flute, rubbing two objects together, or vibrating vocal cords while speaking."
+   "answer": "Sound can be produced in several ways, all of which involve creating vibrations in an object. Common methods include plucking a stretched string or rubber band, striking a surface like a drum or a tuning fork, blowing air through a hollow pipe like a flute, rubbing two objects together, or vibrating vocal cords while speaking.",
+   "concept": "Vibrating sources produce sound",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "2",
-   "form": "very_short",
-   "page": null,
+   "form": "short",
+   "page": 426,
    "stem": "Make a list of different types of musical instruments and identify their vibrating parts which produce sound.",
-   "answer": ""
+   "answer": "1. String instruments (e.g., guitar, sitar): Stretched strings vibrate.\n2. Wind instruments (e.g., flute, trumpet): The air column inside the hollow pipe vibrates.\n3. Percussion instruments (e.g., tabla, drum): A stretched membrane vibrates.\n4. Solid percussion (e.g., cymbals, bells): The entire solid metal body vibrates when struck.",
+   "concept": "Musical instruments use several vibrating parts",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   },
   {
-   "number": "1",
-   "form": "very_short",
-   "page": null,
-   "stem": "String instruments (e.g., guitar, sitar): Stretched strings vibrate. 2. Wind instruments (e.g., flute, trumpet): The air column inside the hollow pipe vibrates. 3. Percussion instruments (e.g., tabla, drum): A stretched membrane vibrates. 4. Solid percussion (e.g., cymbals, bells): The entire solid metal body vibrates when struck. 3. Assertion (A): We cannot hear the sound of a bell ringing in a closed jar after most of the air is pumped out. Reason (R): Sound requires a medium to travel. Choose the correct statement: (i) Both A and R are true, but R is not the correct explanation of A. (ii) Both A and R are true, and R is the correct explanation of A. (iii) A is true, but R is false. (iv) A is false, but R is true.",
-   "answer": "(ii) Both A and R are true, and R is the correct explanation of A. Sound is a mechanical wave that requires a material medium (like a gas, liquid, or solid) to propagate. When air is pumped out of the bell jar creating a vacuum, there are no particles left to transmit the vibrations from the bell to the walls of the jar and outward to our ears, hence the sound cannot be heard."
+   "number": "3",
+   "form": "assertion_reason",
+   "page": 426,
+   "stem": "Assertion (A): We cannot hear the sound of a bell ringing in a closed jar after most of the air is pumped out.\nReason (R): Sound requires a medium to travel.\nChoose the correct statement:",
+   "assertion": "We cannot hear the sound of a bell ringing in a closed jar after most of the air is pumped out.",
+   "reason": "Sound requires a medium to travel.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true, but R is not the correct explanation of A."
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true, and R is the correct explanation of A."
+    },
+    {
+     "label": "C",
+     "text": "A is true, but R is false."
+    },
+    {
+     "label": "D",
+     "text": "A is false, but R is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "(ii) Both A and R are true, and R is the correct explanation of A. Sound is a mechanical wave that requires a material medium (like a gas, liquid, or solid) to propagate. When air is pumped out of the bell jar creating a vacuum, there are no particles left to transmit the vibrations from the bell to the walls of the jar and outward to our ears, hence the sound cannot be heard.",
+   "concept": "Bell jar experiment evidence",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
   },
   {
    "number": "4",
-   "form": "very_short",
-   "page": null,
-   "stem": "Assertion (A): Compressions and rarefactions move through the medium. Reason (R): Individual particles of the medium continuously move forward with the wave. Choose the correct statement: (i) Both A and R are true, but R is not the correct explanation of A. (ii) Both A and R are true, and R is the correct explanation of A. (iii) A is true, but R is false. (iv) A is false, but R is true.",
-   "answer": "(iii) A is true, but R is false. While the disturbance in the form of compressions and rarefactions does travel forward through the medium, the individual particles of the medium do not move along with the wave. The particles merely oscillate back and forth about their mean resting positions to pass the energy along to neighboring particles."
+   "form": "assertion_reason",
+   "page": 426,
+   "stem": "Assertion (A): Compressions and rarefactions move through the medium.\nReason (R): Individual particles of the medium continuously move forward with the wave.\nChoose the correct statement:",
+   "assertion": "Compressions and rarefactions move through the medium.",
+   "reason": "Individual particles of the medium continuously move forward with the wave.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true, but R is not the correct explanation of A."
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true, and R is the correct explanation of A."
+    },
+    {
+     "label": "C",
+     "text": "A is true, but R is false."
+    },
+    {
+     "label": "D",
+     "text": "A is false, but R is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(iii) A is true, but R is false. While the disturbance in the form of compressions and rarefactions does travel forward through the medium, the individual particles of the medium do not move along with the wave. The particles merely oscillate back and forth about their mean resting positions to pass the energy along to neighboring particles.",
+   "concept": "Particles vibrate around mean positions",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "5",
-   "form": "very_short",
-   "page": null,
-   "stem": "When sound travels from a tuning fork to your ear, which of the following actually reaches your ear? (i) Air particles near the tuning fork (ii) Energy carried by sound waves (iii) The tuning fork material (iv) A continuous stream of compressed air",
-   "answer": "(ii) Energy carried by sound waves. During sound propagation, particles of the medium only vibrate in place; it is the wave’s energy and disturbance that travels from the source to the listener’s ear."
+   "form": "mcq",
+   "page": 426,
+   "stem": "When sound travels from a tuning fork to your ear, which of the following actually reaches your ear?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Air particles near the tuning fork"
+    },
+    {
+     "label": "B",
+     "text": "Energy carried by sound waves"
+    },
+    {
+     "label": "C",
+     "text": "The tuning fork material"
+    },
+    {
+     "label": "D",
+     "text": "A continuous stream of compressed air"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "(ii) Energy carried by sound waves. During sound propagation, particles of the medium only vibrate in place; it is the wave’s energy and disturbance that travels from the source to the listener’s ear.",
+   "concept": "Sound transfers energy not matter",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "6",
-   "form": "very_short",
-   "page": 428,
-   "stem": "The variation of density of the medium for two sound waves is shown in Figure (a) and (b). Label compression and rarefaction by C and R on it. In the graph given in Figure (c) and (d), label the axes and draw the curves corresponding to Figure (a) and (b). Click Here to Buy book on Amazon Atomic Foundations of Matter (b) When naming these compounds, the first element retains its regular name, while the second element’s name ends in -ide. (c) The correct chemical name for PCl3 is phosphorus trichloride. (d) The correct chemical name for CS2 is carbon disulfide. (e) In SF6, the prefix hexa- is used before fluoride to indicate that there are exactly six fluorine atoms in the molecule. 170. A popular television chef is hosting an episode focused on the science of food. He holds up a block of pure, metallic sodium in a jar of oil, explaining that it is highly reactive and would explode if placed in water. He then displays a sealed flask of toxic, green chlorine gas. He tells the audience that when these two dangerous elements react, the sodium atom completely gives away its single outer electron to the chlorine atom. This dramatic exchange transforms them into harmless crystals of table salt, which he then sprinkles onto a fresh plate of fries. QUESTIONS: (a) What kind of charged particle does the sodium atom become after losing its outer electron? (b) Why does the chlorine atom accept exactly one electron from sodium? (c) What is the electrostatic force of attraction holding the sodium and chloride ions together called? (d) The chef mentions that the resulting table salt is a crystal. Briefly describe how the ions are arranged in this crystal structure.",
-   "answer": "(a) After losing its one valence electron, the sodium atom becomes a positively charged species called a sodium cation, represented as Na+. (b) A chlorine atom has seven valence electrons. It accepts exactly one electron to complete its octet and achieve a stable electronic configuration, becoming a chloride anion. (c) The electrostatic force of attraction between oppositely charged ions that holds them together is called an ionic bond. (d) In the crystal structure of table salt, the oppositely charged ions are arranged in a regular, repeating three-dimensional pattern called a crystal lattice. Each sodium ion is surrounded by six chloride ions, and each chloride ion is surrounded by six sodium ions."
+   "form": "short",
+   "page": 427,
+   "stem": "The variation of density of the medium for two sound waves is shown in Figure (a) and (b). Label compression and rarefaction by C and R on it. In the graph given in Figure (c) and (d), label the axes and draw the curves corresponding to Figure (a) and (b).",
+   "answer": "For figures (a) and (b), the dark, densely clustered dot regions should be labelled ‘C’ (compression), and the lighter, sparsely dotted regions should be labelled ‘R’ (rarefaction). For the graphs (c) and (d), the horizontal axis should be labelled “Distance” and the vertical axis “Density”, with the dashed middle line representing “Average density”. Curve (c) should be drawn as a continuous wave where crests align directly beneath the ‘C’ regions and troughs beneath the ‘R’ regions of figure (a). Curve (d) should be drawn similarly matching figure (b), resulting in a wave with a higher frequency (more cycles packed closer together) than curve (c).",
+   "concept": "Wave made of compressions and rarefactions",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
   },
   {
-   "number": "171",
-   "form": "very_short",
-   "page": 429,
-   "stem": "A pharmacist in a local clinic is preparing a custom antacid powder for a patient with severe heartburn. The recipe requires mixing two specific dry ingredients: magnesium hydroxide and calcium carbonate. To properly log the preparation in the clinic’s digital database, the pharmacist must enter the exact chemical formulas of these substances. She grabs her reference chart, notes the valencies of the magnesium ion (+2), the calcium ion (+2), the hydroxide ion (-1), and the carbonate ion (-2), and carefully uses the criss-cross method to write them down. QUESTIONS: (a) What is a polyatomic ion? Identify one polyatomic ion used by the pharmacist. (b) Using the criss-cross method, determine the correct chemical formula for magnesium hydroxide. (c) Determine the correct chemical formula for calcium carbonate and explain why the subscript numbers do not appear in the final formula.",
-   "answer": "(a) A polyatomic ion is an ion formed by the combination of atoms of two or more elements that act as a single charged entity. Examples from the pharmacist’s ingredients include the hydroxide ion (OH-) and the carbonate ion (CO3 2-). (b) For magnesium hydroxide, the symbol for magnesium is Mg with a charge of 2+, and hydroxide is OH with a charge of 1-. Criss- crossing these valencies gives the formula Mg(OH)2. Brackets are used because there are two polyatomic hydroxide ions. (c) For calcium carbonate, calcium is Ca with a charge of 2+, and carbonate is CO3 with a charge of 2-. Criss-crossing gives Ca2(CO3)2. Since the valencies are the same, they give the simplest ratio of 1:1. Therefore, it is simply written as CaCO3. distinguish between the two sounds? (The time interval between two sounds must be at least 0.1 s to be heard separately.)"
+   "number": "7",
+   "form": "short",
+   "page": 427,
+   "stem": "Conduct Activity 10.1 once again with a thick rubber band and then with a thin rubber band. Does the thin rubber band vibrate faster than the thick rubber band? If yes, how do the frequency and time period of the sound produced by the thin rubber band differ from that of the thick rubber band?",
+   "answer": "Yes, a thin rubber band will vibrate faster than a thick rubber band when plucked under similar tension. Because it vibrates faster, it completes more oscillations per second, meaning the sound produced by the thin rubber band has a higher frequency. Since the time period is inversely proportional to frequency, the time period of the sound from the thin rubber band will be shorter than that of the thick rubber band.",
+   "concept": "Frequency and time period inverse",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "8",
    "form": "very_short",
-   "page": 429,
-   "stem": "",
-   "answer": "The time taken for sound to travel through the air is Distance / Speed = 340 m / 340 ms-¹ = 1 second. The time taken through the steel fence is 340 m / 5000 ms-¹ = 0.068 seconds. The time difference is 1 s - 0.068 s = 0.932 seconds. Since this time difference (0.932 s) is much greater than the 0.1 s threshold required by the human ear, it would be easily possible for her to distinguish between the two sounds, hearing the knock through the steel first."
+   "page": 427,
+   "stem": "If the frequency of a sound wave produced by an oscillating piston of a long tube filled with air is 20 Hz, then how many oscillations does the piston complete per minute?",
+   "answer": "A frequency of 20 Hz means the piston completes 20 oscillations in 1 second. Therefore, in one minute (60 seconds), it will complete 20 × 60 = 1200 oscillations.",
+   "concept": "Frequency definition",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "9",
+   "form": "very_short",
+   "page": 427,
+   "stem": "For the sound wave represented by the graph shown in Figure, what is half of its wavelength?",
+   "answer": "In the given graph, one complete wave cycle (one wavelength) spans from 0 cm to 3.0 cm on the distance axis. Therefore, the full wavelength is 3.0 cm, and half of its wavelength is 1.5 cm.",
+   "concept": "Wavelength definition",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "10",
+   "form": "short",
+   "page": 427,
+   "stem": "Table shows the speed of sound in a few media at atmospheric pressure.\nState | Substance/Medium | Approximate Speed (ms-¹)\nSolid | Steel | 5000 ms-¹\nLiquid | Water | 1500 ms-¹\nGas | Air | 340 ms-¹\nCompare the speeds in different media by finding the ratio of\n(i) the speed of sound in water with respect to the speed in the air.\n(ii) the speed of sound in steel with respect to the speed in the water.",
+   "answer": "(i) Speed in water with respect to air: 1500/340 = 75/17 ≈ 4.41, that is 75 : 17 (≈ 4.4 : 1).\n(ii) Speed in steel with respect to water: 5000/1500 = 10/3 ≈ 3.33, that is 10 : 3 (≈ 3.3 : 1).",
+   "concept": "Sound propagates in all states",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "every number is the book's. The stem's three-column table arrived as a column-major run of cells and was set back out as rows. In the answer both fractions arrived flattened and denominator-first (\"340 / 1500\" for 1500/340 and \"1500 / 5000\" for 5000/1500, with the approximation and ratio lines stranded below them); they were rebuilt in linear form. Read as printed they give the reciprocals, 0.227 and 0.3."
+  },
+  {
+   "number": "11",
+   "form": "short",
+   "page": 427,
+   "stem": "Two friends are standing along a steel fence at a distance of 340 m from each other Figure. Gunjan places her ear over the fence and her friend knocks the fence with a metal object. Using the values of the speed of sound in steel and air given in Table calculate the time difference between the sound that reached Gunjan through the air and the steel. Would it have been possible for her to distinguish between the two sounds? (The time interval between two sounds must be at least 0.1 s to be heard separately.)",
+   "answer": "The time taken for sound to travel through the air is Distance / Speed = 340 m / 340 ms-¹ = 1 second. The time taken through the steel fence is 340 m / 5000 ms-¹ = 0.068 seconds. The time difference is 1 s - 0.068 s = 0.932 seconds. Since this time difference (0.932 s) is much greater than the 0.1 s threshold required by the human ear, it would be easily possible for her to distinguish between the two sounds, hearing the knock through the steel first.",
+   "concept": "Speed depends on the medium",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "the stem is joined from two places and no word was changed or added. Its first two thirds sit on the folio that went missing from this extraction and turned up in chapter 9's, at ch09_source.md 180719-181138, where it is cut off at \"Would it have been possible for her to\"; the remaining words, \"distinguish between the two sounds? ...\", open this extraction's page 429 at ch10_source.md 17879."
   },
   {
    "number": "12",
-   "form": "very_short",
-   "page": 429,
+   "form": "short",
+   "page": 428,
    "stem": "An experiment is being set up that requires echoes to arrive at least 0.2 s after the emission of sound. What minimum distance should a reflecting surface be placed at? Assume the speed of sound to be 343 ms-¹.",
-   "answer": "The total distance the sound must travel (to the surface and back) to take 0.2 seconds is Distance = Speed × Time = 343 ms-¹ × 0.2 s = 68.6 m. Because this is a round trip, the reflecting surface should be placed at a minimum distance of half that total, which is 68.6 m / 2 = 34.3 meters."
+   "answer": "The total distance the sound must travel (to the surface and back) to take 0.2 seconds is Distance = Speed × Time = 343 ms-¹ × 0.2 s = 68.6 m. Because this is a round trip, the reflecting surface should be placed at a minimum distance of half that total, which is 68.6 m / 2 = 34.3 meters.",
+   "concept": "Minimum echo distance is 17 m",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3
   },
   {
    "number": "13",
    "form": "very_short",
-   "page": 429,
+   "page": 428,
    "stem": "Sound travels much farther in water than light, and thus, is used for various underwater applications. A sonar signal sent to find the depth of ocean takes 4 s to return. What is the depth of the ocean at that location if the speed of sound in seawater is 1500 ms-¹?",
-   "answer": "The sonar signal takes 4 seconds for the total round trip, meaning it takes 2 seconds to reach the ocean floor. Depth = Speed × Time, =1500 ms-¹ × 2 s = 3000 meters. NCER T Exercis"
-  },
-  {
-   "number": "1",
-   "form": "very_short",
-   "page": null,
-   "stem": "In a china-rose (hibiscus or gudhal) plant, a pollen tube grows and continues through the style after pollen lands on the stigma. Which process is about to happen next?",
-   "answer": "The process of fertilisation is about to happen next. The male gamete will travel down the pollen tube to reach the ovule and eventually fuse with the female egg cell."
-  },
-  {
-   "number": "2",
-   "form": "very_short",
-   "page": null,
-   "stem": "Look at the pictures of calotropis (madar) seeds and dandelion seeds given below. Can you guess what kind of seed dispersal these seeds are adapted for?",
-   "answer": "These seeds are adapted for dispersal by wind. Their feathery, lightweight structures allow them to float easily and be carried over long distances by air currents."
-  },
-  {
-   "number": "3",
-   "form": "very_short",
-   "page": null,
-   "stem": "A farmer plants two varieties of maize side by side, but notices that seeds form only when pollen from one variety reaches the stigma of the other. What type of pollination is this?",
-   "answer": "This is an example of cross-pollination. The pollen is being transferred from the anther of a flower on one maize plant to the stigma of a flower on a completely different maize plant."
+   "answer": "The sonar signal takes 4 seconds for the total round trip, meaning it takes 2 seconds to reach the ocean floor.\nDepth = Speed × Time,\n=1500 ms-¹ × 2 s = 3000 meters.",
+   "concept": "Sonar for underwater detection",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   }
  ]
 }

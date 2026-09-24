@@ -6,31 +6,206 @@
  "items": [
   {
    "number": "1",
-   "form": "short",
-   "page": null,
-   "stem": "Choose the most appropriate option to describe the role of biogeochemical cycles in an ecosystem. (i) To provide food directly to all organisms. (ii) To recycle essential nutrients between biotic and abiotic components. (iii) To create new elements for use by living things. (iv) To remove pollutants and toxins from the organism.",
-   "answer": "Option (ii) is correct. Biogeochemical cycles ensure the continuous cyclic movement and recycling of essential matter and nutrients (like carbon, nitrogen, and oxygen) between the non- living (abiotic) and living (biotic) components of the Earth, keeping them available to support life."
+   "page": 554,
+   "form": "mcq",
+   "stem": "Choose the most appropriate option to describe the role of biogeochemical cycles in an ecosystem.",
+   "options": [
+    {
+     "label": "A",
+     "text": "To provide food directly to all organisms."
+    },
+    {
+     "label": "B",
+     "text": "To recycle essential nutrients between biotic and abiotic components."
+    },
+    {
+     "label": "C",
+     "text": "To create new elements for use by living things."
+    },
+    {
+     "label": "D",
+     "text": "To remove pollutants and toxins from the organism."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Option (ii) is correct. Biogeochemical cycles ensure the continuous cyclic movement and recycling of essential matter and nutrients (like carbon, nitrogen, and oxygen) between the non-living (abiotic) and living (biotic) components of the Earth, keeping them available to support life.",
+   "concept": "Biogeochemical cycle definition",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "2",
-   "form": "short",
-   "page": null,
-   "stem": "Which of the following is primarily responsible for warming of the Earth? (i) Solar radiation is immediately absorbed by carbon dioxide, which then releases it as heat. (ii) The atmosphere’s tiny particles absorb incoming solar radiation, which directly heats the Earth. (iii) The Earth’s surface absorbs solar radiation, which is then re-radiated and trapped by greenhouse gases. (iv) The Earth’s environment is heated only by the solar radiation reflected by the clouds.",
-   "answer": "Option (iii) is correct. The Earth’s surface primarily absorbs visible light from the Sun and re-radiates it as infrared radiation (heat), which is then absorbed and trapped by greenhouse gases in the atmosphere, keeping the Earth warm."
+   "page": 554,
+   "form": "mcq",
+   "stem": "Which of the following is primarily responsible for warming of the Earth?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Solar radiation is immediately absorbed by carbon dioxide, which then releases it as heat."
+    },
+    {
+     "label": "B",
+     "text": "The atmosphere’s tiny particles absorb incoming solar radiation, which directly heats the Earth."
+    },
+    {
+     "label": "C",
+     "text": "The Earth’s surface absorbs solar radiation, which is then re-radiated and trapped by greenhouse gases."
+    },
+    {
+     "label": "D",
+     "text": "The Earth’s environment is heated only by the solar radiation reflected by the clouds."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Option (iii) is correct. The Earth’s surface primarily absorbs visible light from the Sun and re-radiates it as infrared radiation (heat), which is then absorbed and trapped by greenhouse gases in the atmosphere, keeping the Earth warm.",
+   "concept": "Greenhouse gases trap heat",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "3",
+   "page": 554,
    "form": "short",
-   "page": null,
    "stem": "Explain how climate change affects the water cycle. Illustrate with examples.",
-   "answer": "Climate change significantly impacts the water cycle by altering temperature and moisture patterns, as a warmer atmosphere can hold more moisture. This leads to heavier rains in some areas and severe droughts in others. For example, intensified monsoons can cause sudden bursts of intense rainfall that increase runoff, erode soil, and reduce groundwater recharge. Additionally, global warming causes glaciers to melt, adding more water to rivers and oceans, which raises sea levels and threatens coastal cities like Mumbai and Chennai."
+   "answer": "Climate change significantly impacts the water cycle by altering temperature and moisture patterns, as a warmer atmosphere can hold more moisture. This leads to heavier rains in some areas and severe droughts in others. For example, intensified monsoons can cause sudden bursts of intense rainfall that increase runoff, erode soil, and reduce groundwater recharge. Additionally, global warming causes glaciers to melt, adding more water to rivers and oceans, which raises sea levels and threatens coastal cities like Mumbai and Chennai.",
+   "concept": "Climate change alters water cycle",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
   },
   {
    "number": "4",
+   "page": 554,
    "form": "short",
-   "page": 555,
    "stem": "Describe how albedo affects the Earth’s surface temperature and its climate.",
-   "answer": "Albedo is the fraction of solar radiation reflected by a surface. Surfaces with high albedo, such as snow and ice, reflect a large proportion of incoming sunlight and absorb very little, which helps keep polar regions very cold. Conversely, surfaces with low albedo, like dark soil or ocean water, reflect less light and absorb more solar radiation, causing them to heat up more quickly and remain relatively warmer. The distribution of these different surfaces dictates regional heat absorption, thereby heavily influencing the Earth’s overall climate and temperature patterns. Click Here to Buy book on Amazon Earth as a System: Energy, Matter, and Life 3.2 Carbon cycle Carbon circulates between atmosphere, oceans, and living organisms. Human activities like burning fossil fuels increase carbon dioxide, leading to global warming. 3.3 Nitrogen cycle Nitrogen is converted into usable forms through fixation, nitrification, assimilation, ammonification, and de nitrification. Excess fertiliser use disrupts this cycle. 3.4 Oxygen cycle Oxygen is used in respiration and released in photosynthesis. It maintains balance between living organisms and the environment. 4. Human Impact on Earth’s Processes Human activities disrupt natural cycles, causing pollution, climate change, eutrophication, and ecosystem imbalance. Sustainable practices and global efforts are essential to restore environmental balance. PAUS E A ND PONDE"
+   "answer": "Albedo is the fraction of solar radiation reflected by a surface. Surfaces with high albedo, such as snow and ice, reflect a large proportion of incoming sunlight and absorb very little, which helps keep polar regions very cold. Conversely, surfaces with low albedo, like dark soil or ocean water, reflect less light and absorb more solar radiation, causing them to heat up more quickly and remain relatively warmer. The distribution of these different surfaces dictates regional heat absorption, thereby heavily influencing the Earth’s overall climate and temperature patterns.",
+   "concept": "Albedo controls surface heating",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "5",
+   "page": 555,
+   "form": "short",
+   "stem": "How are mountain and valley breezes formed? Suppose there are two mountains, one covered with grass and another covered with barren rocks; would the temperature of the two mountain breezes be different? If so, how?",
+   "answer": "Mountain and valley breezes are local winds formed by the uneven heating of terrain. During the day, mountain slopes heat up faster than the valley floor, causing the air above them to warm, rise, and be replaced by cooler air from the valley, forming a valley breeze. At night, the slopes lose heat faster and become cooler than the valley; the denser, cold air then flows down into the valley as a mountain breeze. If one mountain is covered with grass and the other with barren rocks, the temperature of their mountain breezes would be different. Barren rocks have a lower specific heat capacity and lack vegetation to regulate temperature, meaning they cool down much more rapidly at night than a grass-covered slope. Therefore, the mountain breeze descending from the barren rock mountain would be noticeably colder and denser than the breeze from the grass-covered mountain.",
+   "concept": "Mountain breeze formation",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "6",
+   "page": 555,
+   "form": "short",
+   "stem": "You have witnessed weather phenomena, such as winds, storms, rainfall, etc. Which atmospheric layer is mainly responsible for such phenomena and what is the primary reason for its occurrence?",
+   "answer": "The troposphere is the atmospheric layer mainly responsible for weather phenomena such as winds, storms, and rainfall. The primary reason for these occurrences is the uneven heating of the Earth’s surface by solar radiation. This uneven heating causes variations in air pressure, driving the movement of warm air rising and cold air sinking, which, combined with the fact that temperature decreases with height in the troposphere, creates dynamic weather systems.",
+   "concept": "Atmospheric layers shape weather",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "7",
+   "page": 555,
+   "form": "short",
+   "stem": "Explain the processes involved in the nitrogen cycle. How would life on Earth be affected if nitrogen were not cycled?",
+   "answer": "The nitrogen cycle involves several key processes: nitrogen fixation (conversion of atmospheric nitrogen into ammonia by soil bacteria or lightning), nitrification (conversion of ammonia to nitrites and then nitrates by nitrifying bacteria), assimilation (plants absorbing nitrates from soil and animals consuming plants), ammonification (decomposers breaking down dead organic matter to release ammonia), and denitrification (denitrifying bacteria converting nitrates back into nitrogen gas). If nitrogen were not cycled, life on Earth would eventually cease. Nitrogen is an essential building block for proteins and nucleic acids (like DNA) in all living organisms; without a replenished supply of usable nitrogen compounds in the soil, plant growth would stop, leading to the collapse of entire food webs.",
+   "concept": "Nitrogen's biological importance",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "8",
+   "page": 555,
+   "form": "short",
+   "stem": "What are the impacts of deforestation on the Earth’s oxygen and carbon cycles? What are the other consequences of deforestation?",
+   "answer": "Deforestation severely impacts the carbon cycle by removing trees that act as natural carbon sinks, meaning less carbon dioxide is absorbed through photosynthesis, which leads to a buildup of greenhouse gases in the atmosphere. It impacts the oxygen cycle because fewer plants are available to release oxygen back into the air. Other consequences of deforestation include decreased plant transpiration leading to a decline in local rainfall, increased soil erosion because there are fewer roots to hold the topsoil, and massive habitat destruction resulting in a significant decline in biodiversity.",
+   "concept": "Deforestation causes erosion and biodiversity loss",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "9",
+   "page": 555,
+   "form": "short",
+   "stem": "Explain with suitable diagram the path that carbon takes to go back to the atmosphere. You may start from plants using CO2 from the atmosphere.",
+   "answer": "Carbon returns to the atmosphere through several pathways after being absorbed. Plants use atmospheric CO2 for photosynthesis to make glucose. When plants, and the animals that consume them, undergo respiration, they break down this glucose for energy and release CO2 back into the atmosphere. Additionally, when these organisms die, decomposers break down their organic matter, releasing CO2 during decomposition. Over millions of years, buried dead matter forms fossil fuels; when humans extract and burn these fuels (combustion) for energy, large amounts of stored carbon are rapidly released back into the atmosphere as CO2.",
+   "concept": "Fast carbon cycle",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "10",
+   "page": 556,
+   "form": "short",
+   "stem": "Why is an excess of CO2 in the atmosphere considered undesirable even though it is required by plants?",
+   "answer": "An excess of CO2 in the atmosphere is undesirable because it acts as a potent greenhouse gas. While plants require it for photosynthesis, excessive amounts of CO2 trap too much of the infrared heat re-radiated by the Earth’s surface, intensifying the greenhouse effect. This unchecked trapping of heat leads to global warming, which causes severe environmental issues such as the melting of polar ice, rising sea levels, extreme weather events, and ocean acidification.",
+   "concept": "Human-driven CO2 rise",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "11",
+   "page": 556,
+   "form": "short",
+   "stem": "How is heat lost from the surface of the Earth? What is its significance?",
+   "answer": "Heat is lost from the surface of the Earth when the solar energy absorbed by the ground and oceans is re-radiated back upward into the atmosphere and eventually into space in the form of infrared radiation. The significance of this heat loss is that it maintains the Earth’s energy balance. Without radiating heat back out, the Earth would continuously accumulate solar energy and become too hot to support life; the balance between incoming solar radiation and outgoing infrared heat creates a stable climate.",
+   "concept": "Greenhouse gases trap heat",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "12",
+   "page": 556,
+   "form": "short",
+   "stem": "If the Earth were a flat disc instead of a sphere, how would the patterns of solar radiation and temperature be different?",
+   "answer": "If the Earth were a flat disc facing the Sun, solar radiation would strike the entire surface at the same direct angle, meaning solar energy (insolation) would be distributed evenly across the disc. Consequently, there would be no uneven heating caused by latitude; the temperature would be generally uniform everywhere, completely eliminating the distinct climate zones (like tropical, temperate, and polar) and large-scale planetary wind systems that exist on our spherical Earth.",
+   "concept": "Latitude and shape unevenly heat Earth",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "13",
+   "page": 556,
+   "form": "short",
+   "stem": "Suppose there is a rise in atmospheric temperature on Earth. How would this affect the cryosphere, hydrosphere and biosphere?",
+   "answer": "A rise in atmospheric temperature would cause accelerated melting of snow, glaciers, and polar ice caps in the cryosphere. This melting would transfer massive amounts of water into the hydrosphere, leading to rising sea levels, flooding of low-lying areas, and warmer ocean temperatures. These changes would disrupt the biosphere by causing widespread habitat loss, threatening coastal ecosystems like mangroves, damaging coral reefs due to warmer and more acidic waters, and altering weather patterns that affect global agriculture and food supply.",
+   "concept": "Sphere disturbance causes changes",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "14",
+   "page": 556,
+   "form": "short",
+   "stem": "Explain how the Earth’s atmosphere helps in maintaining a suitable temperature for life to survive on the Earth.",
+   "answer": "The Earth’s atmosphere maintains a suitable temperature primarily through the greenhouse effect. While the atmosphere lets visible sunlight pass through to warm the Earth’s surface, greenhouse gases (like carbon dioxide, methane, and water vapour) absorb and trap a portion of the infrared heat that the surface re-radiates back upwards. This trapped heat acts like an insulating blanket, keeping the Earth comfortably warm and preventing the drastic, freezing temperature drops that would occur at night without an atmosphere.",
+   "concept": "Greenhouse gases trap heat",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "15",
+   "page": 557,
+   "form": "short",
+   "stem": "Describe the interrelationship between different spheres of the Earth. Illustrate with example how these spheres function in a delicate balance.",
+   "answer": "The Earth’s spheres—geosphere, hydrosphere, cryosphere, atmosphere, and biosphere—are interconnected systems that constantly exchange matter and energy. A disturbance in one sphere inevitably ripples through the others. For example, if human activities (biosphere) release excessive carbon dioxide into the air (atmosphere), it enhances the greenhouse effect and raises global temperatures. This warming causes glaciers to melt (cryosphere), which adds water to the oceans and raises sea levels (hydrosphere). The rising seas can then erode coastlines (geosphere) and flood coastal habitats, threatening the survival of terrestrial and marine life (biosphere), illustrating how closely dependent these spheres are on a delicate balance.",
+   "concept": "Earth is one interacting system",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
   }
  ]
 }

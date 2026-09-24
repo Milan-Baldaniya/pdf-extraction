@@ -9,35 +9,330 @@
    "form": "very_short",
    "page": null,
    "stem": "What is meant by describing the position of an object?",
-   "answer": "Describing the position of an object involves specifying a fixed reference point, along with the distance and direction at any instant of time."
+   "answer": "Describing the position of an object involves specifying a fixed reference point, along with the distance and direction at any instant of time.",
+   "concept": "Position depends on distance and direction",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
    "number": "67",
    "form": "very_short",
    "page": null,
    "stem": "Under what condition is an object said to be in a state of rest?",
-   "answer": "An object is said to be at rest if its position with respect to a chosen reference point does not change over time."
+   "answer": "An object is said to be at rest if its position with respect to a chosen reference point does not change over time.",
+   "concept": "Rest as no change in position",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
    "number": "68",
    "form": "very_short",
    "page": null,
    "stem": "Define the term displacement of an object in motion.",
-   "answer": "Displacement is defined as the net change in the position of an object between two given instants of time, possessing both magnitude and direction."
+   "answer": "Displacement is defined as the net change in the position of an object between two given instants of time, possessing both magnitude and direction.",
+   "concept": "Displacement definition",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
    "number": "69",
    "form": "very_short",
    "page": 150,
    "stem": "State one difference between distance and displacement.",
-   "answer": "Distance is the total path travelled requiring only a numerical value, whereas displacement is the Describing Motion Around Us"
+   "answer": "Distance is the total path travelled requiring only a numerical value, whereas displacement is the net position change requiring both magnitude and direction.",
+   "concept": "Magnitude and direction of displacement",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "70",
+   "form": "very_short",
+   "page": 153,
+   "stem": "What is the SI unit of average velocity and average speed?",
+   "answer": "The standard international unit for measuring both average speed and average velocity is metre per second, which is represented as m s-1 or m/s.",
+   "concept": "Average speed definition",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "71",
+   "form": "very_short",
+   "page": 153,
+   "stem": "Write the formula for calculating the average speed of an object.",
+   "answer": "The average speed of a moving object is calculated by dividing the total distance travelled by the total time interval taken to cover it.",
+   "concept": "Average speed definition",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "72",
+   "form": "very_short",
+   "page": 153,
+   "stem": "What is meant by uniform motion in a straight line?",
+   "answer": "Uniform motion in a straight line occurs when an object covers equal distances in exactly equal intervals of time, maintaining a completely constant speed.",
+   "concept": "Uniform motion in a straight line",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "73",
+   "form": "very_short",
+   "page": 153,
+   "stem": "Under what condition is the magnitude of average velocity equal to average speed?",
+   "answer": "The magnitude of average velocity equals the average speed strictly when an object moves in a single straight line without turning back or changing direction.",
+   "concept": "Distance-displacement equality condition",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "74",
+   "form": "very_short",
+   "page": 153,
+   "stem": "Define the average acceleration of an object over a time interval.",
+   "answer": "Average acceleration is defined as the total change in the velocity of an object divided by the specific time interval during which it occurs.",
+   "concept": "Average acceleration definition",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "75",
+   "form": "very_short",
+   "page": 153,
+   "stem": "What is the SI unit of average acceleration?",
+   "answer": "The SI unit of average acceleration is metre per second squared, which is mathematically represented as m s-2 or m/s² in scientific contexts.",
+   "concept": "SI unit of acceleration",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "76",
+   "form": "very_short",
+   "page": 153,
+   "stem": "What causes the negative sign in acceleration when a vehicle brakes?",
+   "answer": "The negative sign indicates that the acceleration is acting directly opposite to the direction of velocity because the magnitude of the velocity is rapidly decreasing.",
+   "concept": "Straight-line direction sign convention",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "77",
+   "form": "very_short",
+   "page": 153,
+   "stem": "What would you observe about an object’s acceleration if its velocity is perfectly constant?",
+   "answer": "If an object moves with a perfectly constant velocity along a straight line, you will observe that its average acceleration remains exactly at zero.",
+   "concept": "Acceleration depends on velocity change",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "78",
+   "form": "very_short",
+   "page": 153,
+   "stem": "What is the significance of the slope in a position-time graph?",
+   "answer": "The slope of a line on a position-time graph is highly significant because it directly provides the magnitude of the average velocity of the object.",
+   "concept": "Slope of position-time graph",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "79",
+   "form": "very_short",
+   "page": 153,
+   "stem": "What does a curved line on a position-time graph indicate?",
+   "answer": "A curved line on a position-time graph clearly indicates that the velocity of the object is not constant, representing an accelerated or non-uniform motion.",
+   "concept": "Slope of position-time graph",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "80",
+   "form": "very_short",
+   "page": 153,
+   "stem": "What does a perfectly straight line parallel to the time axis on a position-time graph represent?",
+   "answer": "A perfectly straight line parallel to the time axis on a position-time graph represents a completely stationary object that remains entirely at rest over time.",
+   "concept": "Position-time graph at rest",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "81",
+   "form": "very_short",
+   "page": 153,
+   "stem": "What is the significance of the area enclosed under a velocity-time graph?",
+   "answer": "The area enclosed by the line on a velocity-time graph and the time axis accurately represents the total displacement of the object within that interval.",
+   "concept": "Area under velocity-time graph",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "82",
+   "form": "very_short",
+   "page": 154,
+   "stem": "What is the relationship represented by the first kinematic equation of motion?",
+   "answer": "The first kinematic equation, v equals u plus at, mathematically relates final velocity, initial velocity, constant acceleration, and time interval for an object in motion.",
+   "concept": "First kinematic equation",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
+  },
+  {
+   "number": "83",
+   "form": "very_short",
+   "page": 152,
+   "stem": "Write the kinematic equation that relates displacement, initial velocity, time, and acceleration.",
+   "answer": "The primary kinematic equation relating displacement, initial velocity, time, and constant acceleration is formulated as s equals ut plus half at squared.",
+   "concept": "Second kinematic equation",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
+  },
+  {
+   "number": "84",
+   "form": "very_short",
+   "page": 152,
+   "stem": "Correct the statement: “Kinematic equations can be used for any type of accelerated motion.”",
+   "answer": "These standard kinematic equations are uniquely valid only for straight-line motion where the acceleration remains completely constant throughout the chosen interval of time.",
+   "concept": "Condition for constant acceleration",
+   "bloom": "evaluate",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "85",
+   "form": "very_short",
+   "page": 152,
+   "stem": "What is uniform circular motion?",
+   "answer": "Uniform circular motion occurs specifically when an object continuously moves along a circular path while maintaining a perfectly constant and unchanging overall speed.",
+   "concept": "Definition of circular motion",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "86",
+   "form": "very_short",
+   "page": 152,
+   "stem": "Why is uniform circular motion considered an accelerated motion despite constant speed?",
+   "answer": "It is considered an accelerated motion because the direction of the object’s velocity continuously changes at every single point along the curved circular path.",
+   "concept": "Acceleration from direction change",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "87",
+   "form": "very_short",
+   "page": 152,
+   "stem": "What is the direction of velocity of an object in uniform circular motion?",
+   "answer": "The velocity of an object in uniform circular motion is always directed along the tangent drawn to the circular path at that specific point.",
+   "concept": "Speed constant direction changes",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
+  },
+  {
+   "number": "88",
+   "form": "very_short",
+   "page": 152,
+   "stem": "Give the formula to calculate the average speed of an object completing one circular revolution.",
+   "answer": "For one complete revolution, the average speed is calculated as two pi times the radius divided by the total time taken for the trip.",
+   "concept": "One revolution distance",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
+  },
+  {
+   "number": "89",
+   "form": "very_short",
+   "page": 152,
+   "stem": "What is the result of displacement when an athlete completes exactly one full round on a circular track?",
+   "answer": "The resulting displacement becomes exactly zero because the athlete successfully returns to the original starting point, making the net change in position completely nil.",
+   "concept": "One revolution displacement",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
+  },
+  {
+   "number": "90",
+   "form": "very_short",
+   "page": 152,
+   "stem": "Which ancient Indian text features the concept of calculating speed from distance and time?",
+   "answer": "The comprehensive concept of calculating speed is featured prominently in mathematical texts from ancient India, specifically seen within the fifth-century treatise known as Aryabhatiya.",
+   "concept": "Average speed definition",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
+  },
+  {
+   "number": "91",
+   "form": "very_short",
+   "page": 152,
+   "stem": "How is instantaneous velocity different from average velocity?",
+   "answer": "Average velocity measures position change over a large time interval, whereas instantaneous velocity specifically describes the velocity of an object at a precise, particular instant.",
+   "concept": "Instant versus time interval",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "92",
+   "form": "very_short",
+   "page": 152,
+   "stem": "What would happen to a marble moving in a circular ring if the ring is suddenly lifted?",
+   "answer": "If the ring is suddenly lifted, the marble will immediately move away in a straight line corresponding to the tangent of its previous circular path.",
+   "concept": "Speed constant direction changes",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "93",
+   "form": "very_short",
+   "page": 152,
+   "stem": "Give one example of motion in two dimensions from everyday life.",
+   "answer": "A common everyday example of two-dimensional motion in a plane is a kicked football travelling through the air or a vehicle overtaking another car.",
+   "concept": "Motion as change in position",
+   "bloom": "understand",
+   "dok": 1,
+   "difficulty": 2
+  },
+  {
+   "number": "94",
+   "form": "very_short",
+   "page": 153,
+   "stem": "What is the relationship between the slope of a velocity-time graph and acceleration?",
+   "answer": "The steepness or slope of a straight line on a velocity-time graph directly determines how fast velocity changes, perfectly representing the object’s exact uniform acceleration.",
+   "concept": "Slope of velocity-time graph",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
    "number": "95",
    "form": "very_short",
    "page": 150,
    "stem": "What is the scientific term for the acceleration caused by the Earth’s gravitational force?",
-   "answer": "The specific acceleration experienced by freely falling objects due to the Earth’s gravitational pull is scientifically termed as acceleration due to gravity, denoted by g. SSHOR T ANSWER QUESTION"
+   "answer": "The specific acceleration experienced by freely falling objects due to the Earth’s gravitational pull is scientifically termed as acceleration due to gravity, denoted by g.",
+   "concept": "Gravitational acceleration in free fall",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   }
  ]
 }

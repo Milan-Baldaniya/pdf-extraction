@@ -6,254 +6,312 @@
  "items": [
   {
    "number": "1",
-   "form": "very_short",
-   "page": null,
+   "form": "short",
+   "page": 374,
    "stem": "A student burns 10 g of ethanol in an open beaker. After the reaction, no residue is left in the beaker. Does this mean the Law of Conservation of Mass is violated? Explain.",
-   "answer": "No, the Law of Conservation of Mass is not violated in this reaction. When ethanol burns, it reacts with oxygen to produce carbon dioxide gas and water vapour, which escape into the atmosphere because the beaker is open. If the reaction were conducted in a closed system and the mass of the escaping gases was measured along with the oxygen consumed, the total mass of the reactants would equal the total mass of the products."
+   "answer": "No, the Law of Conservation of Mass is not violated in this reaction. When ethanol burns, it reacts with oxygen to produce carbon dioxide gas and water vapour, which escape into the atmosphere because the beaker is open. If the reaction were conducted in a closed system and the mass of the escaping gases was measured along with the oxygen consumed, the total mass of the reactants would equal the total mass of the products.",
+   "concept": "Closed-system verification in gas-evolving reactions",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "source_offset": 13467
   },
   {
    "number": "2",
    "form": "very_short",
-   "page": null,
+   "page": 374,
    "stem": "When 20 g of hydrogen reacts completely with 160 g of oxygen, how much water is formed according to the Law of Conservation of Mass?",
-   "answer": "According to the Law of Conservation of Mass, the total mass of the product (water) will be equal to the total mass of the reactants, which is 20 g of hydrogen plus 160 g of oxygen. Therefore, 180 g of water is formed."
+   "answer": "According to the Law of Conservation of Mass, the total mass of the product (water) will be equal to the total mass of the reactants, which is 20 g of hydrogen plus 160 g of oxygen. Therefore, 180 g of water is formed.",
+   "concept": "Law of Conservation of Mass",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "source_offset": 14092
   },
   {
    "number": "3",
    "form": "very_short",
+   "page": 374,
+   "stem": "A compound consists of 40% sulfur and 60% oxygen by mass. In a sample of the same compound containing 20 g of sulfur, what mass of oxygen must be present to satisfy the Law of Constant Proportions?",
+   "answer": "The mass ratio of sulfur to oxygen in the compound is 40:60, which simplifies to 2:3. To maintain this constant proportion, if the sample has 20 g of sulfur, it must contain 30 g of oxygen.",
+   "concept": "Using mass ratio to calculate amounts",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "source_offset": 14463
+  },
+  {
+   "number": "4",
+   "form": "very_short",
+   "page": 371,
+   "stem": "Carbon monoxide (CO) contains carbon and oxygen in the mass ratio of 3:4. How much oxygen will combine with 9 g of carbon to form carbon monoxide?",
+   "answer": "Since the mass ratio of carbon to oxygen is 3:4, every 3 g of carbon requires 4 g of oxygen. Therefore, 9 g of carbon will combine with 12 g of oxygen to form carbon monoxide.",
+   "concept": "Using mass ratio to calculate amounts",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "source_offset": 247
+  },
+  {
+   "number": "5",
+   "form": "short",
+   "page": 371,
+   "stem": "The Law of Definite Proportions holds true for compounds but not for mixtures. Give reason.",
+   "answer": "Compounds are formed by chemical reactions where specific elements combine in fixed, unchangeable mass ratios to create a new substance with unique properties. Mixtures, on the other hand, are formed by physically blending substances together, and their components can be mixed in any variable proportion without altering their individual chemical identities.",
+   "concept": "Definite proportions not for mixtures",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "source_offset": 589
+  },
+  {
+   "number": "6",
+   "form": "short",
+   "page": 371,
+   "stem": "Students X and Y, both prepared an oxide of copper by combining copper and oxygen in the ratios of 4:1 and 8:2, respectively. Do their results justify the Law of Constant Proportions? Explain.",
+   "answer": "Yes, their results justify the Law of Constant Proportions. The ratio of 8:2 obtained by Student Y simplifies to 4:1, which is exactly the same ratio obtained by Student X. This proves that regardless of how the copper oxide was prepared or in what quantities, the elements copper and oxygen always combined in the same fixed mass ratio.",
+   "concept": "Law of Constant Proportions",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "source_offset": 1062
+  },
+  {
+   "number": "7",
+   "form": "assertion_reason",
+   "page": 371,
+   "stem": "Assertion (A): 2 g of hydrogen combines with 16 g of oxygen to form 18 g of water.\nReason (R): According to Dalton’s Atomic Theory, atoms combine in a simple whole number ratio by mass to form compounds.\nChoose the correct option:",
+   "answer": "(iii) A is true, but R is false. The assertion is factually correct as it follows the Law of Conservation of Mass and the fixed combining mass ratio of water. However, the reason is false because Dalton’s theory states that atoms combine in simple whole number ratios by number, not by mass, to form compounds.",
+   "assertion": "2 g of hydrogen combines with 16 g of oxygen to form 18 g of water.",
+   "reason": "According to Dalton’s Atomic Theory, atoms combine in a simple whole number ratio by mass to form compounds.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true, and R is the correct explanation of A."
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true, but R is not the correct explanation of A."
+    },
+    {
+     "label": "C",
+     "text": "A is true, but R is false."
+    },
+    {
+     "label": "D",
+     "text": "A is false, but R is true."
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Atoms combine in whole-number ratios",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 4,
+   "source_offset": 1616
+  },
+  {
+   "number": "8",
+   "form": "short",
+   "page": 371,
+   "stem": "Nitrogen has five valence electrons. Draw the structure of the nitrogen molecule (N2).",
+   "answer": "To depict the structure, draw two overlapping circles representing two nitrogen atoms. In the overlapping region, place three pairs of dots to represent the three pairs of shared electrons forming a triple covalent bond. In the non-overlapping region of each circle, place one pair of dots to represent the remaining lone pair of electrons on each nitrogen atom.",
+   "concept": "Covalent bond",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "source_offset": 2385
+  },
+  {
+   "number": "9",
+   "form": "short",
+   "page": 371,
+   "stem": "The atomic number of fluorine is 9. Explain the formation of the fluorine molecule (F2).",
+   "answer": "With an atomic number of 9, a fluorine atom has an electronic configuration of 2, 7, meaning it requires one more electron to complete its outermost octet. To achieve this stable configuration, two fluorine atoms come together and share one pair of electrons. This mutual sharing forms a single covalent bond, holding the two atoms together as a stable fluorine molecule.",
+   "concept": "Covalent bond",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "source_offset": 2856
+  },
+  {
+   "number": "10",
+   "form": "short",
+   "page": 371,
+   "stem": "Show the formation of the following molecules: (i) Carbon dioxide (CO2) (ii) Hydrogen sulfide (H2S) (iii) Ammonia (NH3)",
+   "answer": "(i) For Carbon dioxide, draw a central carbon atom sharing two electron pairs with an oxygen atom on its left, and another two electron pairs with an oxygen atom on its right, representing double bonds. Add two lone pairs of electrons to each oxygen atom. (ii) For Hydrogen sulfide, draw a central sulfur atom sharing one pair of electrons with a hydrogen atom on its left and another pair with a hydrogen atom on its right, representing single bonds. Add two lone pairs of electrons to the central sulfur atom. (iii) For Ammonia, draw a central nitrogen atom sharing one electron pair with each of three separate hydrogen atoms to form three single bonds. Add one lone pair of electrons to the central nitrogen atom to complete its octet.",
+   "concept": "Single and double bonds",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "source_offset": 3338
+  },
+  {
+   "number": "11",
+   "form": "very_short",
    "page": 377,
-   "stem": "A compound consists of 40% sulfur and 60% oxygen by mass. In a sample of the same compound containing 20 g of sulfur, what mass of oxygen must be present to satisfy the Law of Constant Proportions? Atomic Foundations of Matter CHAPTER 9 Atomic Foundations of Matter SSummar 1. Law of conservation of mass Antoine Lavoisier established the law of conservation of mass. According to this law, there is no loss or gain in mass during a chemical or physical change. In other words, matter can neither be created nor destroyed. 2. Law of Constant Proportion This law was given by French chemist Joseph Proust. It states that every pure compound contains the same elements combined in the same proportion by mass. That means, the chemical composition of a compound is definite, so, this law is also termed as law of constant composition or definite proportion. 3. Dalton’s atomic theory John Dalton used two fundamental laws of chemical combination, i.e., the law of conservation of mass and law of constant proportion for his atomic theory. The assumptions of Dalton’s atomic theory are as follows : 1. All forms of matter are composed of very small discrete particles called atoms. 2. An atom cannot be further broken down into still simpler particles. 3. Atoms can neither be created nor be destroyed in the chemical process. 4. Atoms of a particular element are same in all respects, i.e., they have same mass, size and chemical properties. 5. Atoms of one element are different from those of any other element, e.g., atoms of different elements can be distinguished from each other by their respective masses. 6. Atoms of different elements may combine in simple whole number ratio to form compound atoms (molecules) of a new substance. As per Dalton’s atomic theory, atom which is the smallest particle of an element, cannot be further divided and it retains all the characteristic properties of that element. 3.1 Dalton’s Atomic Theory and the Law of Conservation of Mass As per Dalton’s atomic theory, matter is made up of atoms which can neither be created nor destroyed. So, the number of different kinds of atoms in products of a chemical reaction must be same as the number of all kinds of atoms in reactants. Thus, the total mass of products of a chemical reaction is always equal to the total mass of reactants. 3.2 Dalton’s Atomic Theory and the Law of Constant Proportion As per Dalton’s atomic theory, each element is made up of atoms. The atoms of different elements combine together in whole numbers to give compound atoms of a new substance. Since the number and kind of atoms of each element in a compound are definite, masses of the constituent elements in a compound will be in a definite ratio. The law involved here is the law of constant proportion. Drawbacks of Dalton’s atomic theory are as follows : 1. The assumption that an atom is indivisible that is no longer true. An atom cart be decomposed into subatomic particles like electron, proton and neutron. 2. Atoms of the similar element may not be equal in all respects. Atoms of the similar element may have different masses. Such atoms of the same element having different masses are termed as isotopes. Click Here to Buy book on Flipkart representing single bonds. Add two lone pairs of electrons to the central sulfur atom. (iii) For Ammonia, draw a central nitrogen atom sharing one electron pair with each of three separate hydrogen atoms to form three single bonds. Add one lone pair of electrons to the central nitrogen atom to complete its octet. 11. Neon (atomic number 10) neither transfers nor shares its valence electrons. Explain.",
-   "answer": "Neon has an electronic configuration of 2, 8, which means its outermost shell is already completely filled with eight electrons. Because it already possesses a stable octet configuration, it does not need to gain, lose, or share any electrons, making it chemically unreactive and inert."
+   "stem": "Neon (atomic number 10) neither transfers nor shares its valence electrons. Explain.",
+   "answer": "Neon has an electronic configuration of 2, 8, which means its outermost shell is already completely filled with eight electrons. Because it already possesses a stable octet configuration, it does not need to gain, lose, or share any electrons, making it chemically unreactive and inert.",
+   "concept": "Atoms combine to attain stability",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "source_offset": 18177
   },
   {
    "number": "12",
    "form": "very_short",
    "page": 377,
    "stem": "What kind of ion will oxygen (O) form?",
-   "answer": "Oxygen has an electronic configuration of 2, 6 and requires two more electrons to complete its octet. Therefore, it will gain two electrons to form a negatively charged anion with a valency of 2- (O2 -)."
+   "answer": "Oxygen has an electronic configuration of 2, 6 and requires two more electrons to complete its octet. Therefore, it will gain two electrons to form a negatively charged anion with a valency of 2- (O2-).",
+   "concept": "Ions and ionic bond formation",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1,
+   "source_offset": 18569
   },
   {
    "number": "13",
-   "form": "very_short",
+   "form": "short",
    "page": 377,
    "stem": "Fill in the blanks. Among magnesium and chlorine, magnesium atom can give two electrons to become Mg2+. However, chlorine can take only one electron to become __________. Now, __________ ion of magnesium and __________ ions of chlorine combine to give magnesium chloride.",
-   "answer": "Among magnesium and chlorine, magnesium atom can give two electrons to become Mg2+. However, chlorine can take only one electron to become a chloride ion (Cl-). Now, one ion of magnesium and two ions of chlorine combine to give magnesium chloride."
+   "answer": "Among magnesium and chlorine, magnesium atom can give two electrons to become Mg2+. However, chlorine can take only one electron to become a chloride ion (Cl-). Now, one ion of magnesium and two ions of chlorine combine to give magnesium chloride.",
+   "concept": "Ionic compounds are electrically neutral",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "source_offset": 18831
   },
   {
    "number": "14",
-   "form": "very_short",
+   "form": "short",
    "page": 377,
    "stem": "Show the formation of cations of potassium (K) and calcium (Ca) atoms, and the formation of their corresponding chlorides using diagrams.",
-   "answer": "For potassium chloride formation, depict a potassium atom losing its single valence electron to become a K+ cation, and a chlorine atom gaining that electron to become a Cl- anion. The strong electrostatic attraction between the single K+ and Cl- ions forms KCl. For calcium chloride formation, depict a calcium atom losing its two valence electrons to form a Ca2+ cation, and two separate chlorine atoms each accepting one of those electrons to form two Cl- anions. The electrostatic attraction between one Ca2+ ion and two Cl- ions forms CaCl2."
+   "answer": "For potassium chloride formation, depict a potassium atom losing its single valence electron to become a K+ cation, and a chlorine atom gaining that electron to become a Cl- anion. The strong electrostatic attraction between the single K+ and Cl- ions forms KCl. For calcium chloride formation, depict a calcium atom losing its two valence electrons to form a Ca2+ cation, and two separate chlorine atoms each accepting one of those electrons to form two Cl- anions. The electrostatic attraction between one Ca2+ ion and two Cl- ions forms CaCl2.",
+   "concept": "Ions and ionic bond formation",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "source_offset": 19375
   },
   {
    "number": "15",
-   "form": "very_short",
+   "form": "short",
    "page": 377,
    "stem": "Illustrate how sodium sulfide (Na2S) is formed.",
-   "answer": "Sulfur has an electronic configuration of 2, 8, 6 and needs two electrons to achieve a stable octet, while sodium has a configuration of 2, 8, 1 and needs to lose one electron. Two sodium atoms each donate their single valence electron to one sulfur atom. This electron transfer results in two positively charged sodium cations (Na+) and one negatively charged sulfide anion (S2-), which are then held together by electrostatic forces to form sodium sulfide."
+   "answer": "Sulfur has an electronic configuration of 2, 8, 6 and needs two electrons to achieve a stable octet, while sodium has a configuration of 2, 8, 1 and needs to lose one electron. Two sodium atoms each donate their single valence electron to one sulfur atom. This electron transfer results in two positively charged sodium cations (Na+) and one negatively charged sulfide anion (S2-), which are then held together by electrostatic forces to form sodium sulfide.",
+   "concept": "Ions and ionic bond formation",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "source_offset": 20087
   },
   {
    "number": "16",
    "form": "very_short",
    "page": 377,
    "stem": "Name the following: (i) CO2 (ii) NO2 (iii) SF6 (iv) PCl3",
-   "answer": "(i) Carbon dioxide (ii) Nitrogen dioxide (iii) Sulfur hexafluoride (iv) Phosphorus trichloride"
+   "answer": "(i) Carbon dioxide (ii) Nitrogen dioxide (iii) Sulfur hexafluoride (iv) Phosphorus trichloride",
+   "concept": "Prefixes in covalent compound names",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2,
+   "source_offset": 20617
   },
   {
    "number": "17",
    "form": "very_short",
    "page": 377,
    "stem": "Write the formula for the following: (i) Sodium hydrogencarbonate (ii) Sulfur dioxide (iii) Ferric chloride (iv) Cuprous oxide",
-   "answer": "(i) NaHCO3 (ii) SO2 (iii) FeCl3 (iv) Cu2O"
+   "answer": "(i) NaHCO3 (ii) SO2 (iii) FeCl3 (iv) Cu2O",
+   "concept": "Chemical formula uses symbols and valencies",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "source_offset": 20785
   },
   {
    "number": "18",
    "form": "very_short",
-   "page": 378,
-   "stem": "Write the formulae for the compounds formed from the following pairs of ions: (i) Fe3+ and OH- (ii) K+ and CO3 2-",
-   "answer": "(i) Fe(OH)3 (ii) K2CO3 Journey Inside the Atom octet), then the atom will be stable and less reactive."
+   "page": 377,
+   "stem": "Write the formulae for the compounds formed from the following pairs of ions: (i) Fe3+ and OH- (ii) K+ and CO3²-",
+   "answer": "(i) Fe(OH)3 (ii) K2CO3",
+   "concept": "Brackets with multiple polyatomic ions",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "source_offset": 20970
   },
   {
-   "number": "113",
+   "number": "19",
+   "form": "short",
+   "page": 373,
+   "stem": "What type of chemical bond is present in a solid compound that does not conduct electricity in the solid state but conducts electricity when dissolved in water?",
+   "answer": "An ionic bond is present in such a compound. In the solid state, the ions are locked in a fixed lattice and cannot move to conduct electricity, but when dissolved in water, the lattice breaks apart and the ions become free-moving, allowing the solution to conduct an electrical current.",
+   "concept": "Ionic compounds form crystal lattice",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "source_offset": 7462
+  },
+  {
+   "number": "20",
+   "form": "short",
+   "page": 373,
+   "stem": "Metal M, with two electrons in its valence shell (M shell), reacts with oxygen to form a compound that is slightly soluble in water. Predict its: (i) formula (ii) type of bond (iii) electrical conductivity of its aqueous solution.",
+   "answer": "(i) The formula of the compound is MO. (ii) The type of bond present is an ionic bond, formed by the transfer of two electrons from the metal to the oxygen atom. (iii) Its aqueous solution will conduct electricity because the portion of the compound that dissolves will break apart into free-moving M2+ and O2- ions capable of carrying a current.",
+   "concept": "Conduction by dissolved ionic compounds",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4,
+   "source_offset": 7932
+  },
+  {
+   "number": "21",
    "form": "very_short",
-   "page": 378,
-   "stem": "A particular atom of carbon (C) has 6 protons and 6 neutrons in its nucleus. It also has 6 electrons revolving around the nucleus. 1. What is the atomic number (Z) of this carbon atom? What does it represent? 2. What is the mass number (A) of this carbon atom? How is it calculated? 3. How would you represent this carbon atom using the standard notation (Symbol with A and Z)? 4. If this carbon atom loses one electron, what will be the charge on the resulting ion? Will its atomic number or mass number change?",
-   "answer": ""
+   "page": 373,
+   "stem": "Find the molecular mass of nitric acid (HNO3). Atomic mass — H = 1 u; N = 14 u; O = 16 u.",
+   "answer": "The molecular mass of nitric acid is calculated as: 1 u (for H) + 14 u (for N) + (3 × 16 u) (for O) = 1 + 14 + 48 = 63 u.",
+   "concept": "Adding atomic masses",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "source_offset": 8533
   },
   {
-   "number": "1",
+   "number": "22",
    "form": "very_short",
-   "page": 378,
-   "stem": "The atomic number (Z) of this carbon atom is 6. It represents the number of protons in the nucleus. 2. The mass number (A) of this carbon atom is 12. It is calculated as the sum of the number of protons and neutrons (A = 6 protons + 6 neutrons = 12). 3. The carbon atom would be represented as C 6 12 4. If the carbon atom loses one electron, it will have 6 protons and 5 electrons, resulting in a net charge of +1. The resulting ion will be C+. Its atomic number (6) and mass number (12) will not change, as these are determined by the number of protons and neutrons in the nucleus. 114. A sodium atom (Na) has an atomic number (Z) of 11. According to the Bohr-Bury scheme, electrons fill different energy shells (K, L, M, N...) in a specific order, with each shell having a maximum capacity for electrons. 1. How many protons and how many electrons are there in a neutral sodium atom? 2. What is the maximum number of electrons that can be accommodated in the K-shell, L-shell, and M-shell respectively? 3. Write the distribution of electrons in a sodium atom into its K, L, and M shells. 4. How many valence electrons does a sodium atom have?",
-   "answer": ""
+   "page": 373,
+   "stem": "Find the molecular mass of methane (CH4). Atomic mass — C = 12 u; H = 1 u.",
+   "answer": "The molecular mass of methane is calculated as: 12 u (for C) + (4 × 1 u) (for H) = 12 + 4 = 16 u.",
+   "concept": "Atomic masses in calculations",
+   "bloom": "apply",
+   "dok": 1,
+   "difficulty": 1,
+   "source_offset": 8760
   },
   {
-   "number": "1",
+   "number": "23",
    "form": "very_short",
-   "page": 378,
-   "stem": "In a neutral sodium atom, there are 11 protons (since Z=11) and 11 electrons. 2. K-shell can accommodate a maximum of ( ) n 2 2 1 2 2 2 = = electrons. L-shell can accommodate a maximum of ( ) n 2 2 2 8 2 2 = = electrons. M-shell can accommodate a maximum of ( ) n 2 2 3 18 2 2 = = electrons (though for elements up to Z=18, the outermost shell does not accommodate more than 8). 3. The distribution of electrons in a sodium atom (11 electrons) is: 4. A sodium atom has 1 valence electron (the electron in the outermost M-shell). 115. Hydrogen is known to exist in three isotopic forms: Protium, Deuterium, and Tritium. Protium has 1 proton and 0 neutrons. Deuterium has 1 proton and 1 neutron. Tritium has 1 proton and 2 neutrons. 1. What are isotopes? 2. What is the atomic number of Protium, Deuterium, and Tritium? 3. What is the mass number of Protium, Deuterium, and Tritium? 4. Do isotopes of an element have similar or different chemical properties? Why?",
-   "answer": ""
+   "page": 373,
+   "stem": "Find the formula unit mass of potassium chloride (KCl). Atomic mass — K = 39 u; Cl = 35.5 u.",
+   "answer": "The formula unit mass of potassium chloride is calculated as: 39 u (for K) + 35.5 u (for Cl) = 74.5 u.",
+   "concept": "Calculating formula unit mass",
+   "bloom": "apply",
+   "dok": 1,
+   "difficulty": 2,
+   "source_offset": 8948
   },
   {
-   "number": "1",
+   "number": "24",
    "form": "very_short",
-   "page": 379,
-   "stem": "Isotopes are atoms of the same element, having the same atomic number but different mass numbers (due to a different number of neutrons). 2. The atomic number of Protium is 1, Deuterium is 1, and Tritium is 1 (since they all have 1 proton). 3. The mass number of Protium is 1 (1p + 0n). The mass number of Deuterium is 2 (1p + 1n). The mass number of Tritium is 3 (1p + 2n). 4. Isotopes of an element have similar chemical properties. This is because chemical properties are primarily determined by the number of 2. An element X has six electrons in its outer shell and forms a diatomic molecule. (i) Why would that be so? (ii) What kind of bond would it form? (iii) Draw the structure of the molecule it would form. (iv) A certain other element Y has two electrons in its second shell. Draw the structure of the molecule that X would form with Y.",
-   "answer": "(i) Element X has 6 valence electrons and needs 2 more to complete its stable octet configuration. By sharing two pairs of electrons with another atom of X, both atoms can achieve stability, resulting in the formation of a diatomic molecule (X2). (ii) Since it involves the sharing of electrons between atoms of the same element, it forms a covalent bond. Specifically, it forms a double covalent bond because two pairs of electrons are shared. (iii) (iv) Element Y has 2 valence electrons and will transfer them to element X (which needs 2 electrons) to form an ionic compound. To draw this, write the symbol Y with two dots next to it, and symbol X with six dots around it. Draw arrows from the two dots of Y pointing towards X to indicate electron transfer. Then, draw the resulting structure: a Y²+ ion (with no dots) positioned next to an X²- ion enclosed in square brackets [X]²- with 8 dots inside the brackets to show its completed octet."
-  },
-  {
-   "number": "3",
-   "form": "very_short",
-   "page": 379,
-   "stem": "You want to design a new ionic compound, where the total positive charge is 6+ and the total negative charge is 6–. Which of the following combinations gives the correct number of ions? (i) 2 Al³+ and 3 Cl- (ii) 3 Mg²+ and 1 PO4³- (iii) 2 Fe³+ and 3 O²- (iv) 3 Ca²+ and 2 SO4²-",
-   "answer": "(iii) 2 Fe³+ and 3 O²- is the correct option. The total positive charge from 2 iron ions is 2 × (+3) = +6, and the total negative charge from 3 oxide ions is 3 × (-2) = -6. This precisely matches the required 6+ and 6- charges to form a neutral compound (Fe2O3)."
-  },
-  {
-   "number": "4",
-   "form": "very_short",
-   "page": 379,
-   "stem": "Choose the correct statement(s) and correct the false statement(s). (i) Elements are made up of molecules and compounds are made up of atoms. (ii) The molecule of a compound is always made up of two or more atoms of the same kind. (iii) One molecule of nitrogen gas contains three nitrogen atoms. (iv) Water is made of two hydrogen atoms, covalently bonded with one oxygen atom.",
-   "answer": "(i) This statement is false. Corrected statement: Elements are made up of atoms of the same kind, while compounds are made up of molecules or ions containing two or more different types of atoms combined in a fixed ratio. (ii) This statement is false. Corrected statement: The molecule of a compound is always made up of two or more atoms of different elements chemically bonded together. (iii) This statement is false. Corrected statement: One molecule of nitrogen gas (N2) is diatomic and contains exactly two nitrogen atoms. (iv) This statement is true. A water molecule (H2O) is formed by the sharing of electrons between one oxygen atom and two hydrogen atoms."
-  },
-  {
-   "number": "5",
-   "form": "very_short",
-   "page": 380,
-   "stem": "Write the chemical formulae for the following compounds. (i) Aluminium nitrate (ii) Calcium oxide (iii) Ferric oxide",
-   "answer": "(i) Al(NO3)3 (ii) CaO (iii) Fe2O3 Click Here to Buy book on Amazon Atomic Foundations of Matter in water, these electrostatic forces are overcome, and the ions become free to move. This movement of charged ions facilitates the passage of electric current, lighting the bulb."
-  },
-  {
-   "number": "25",
-   "form": "mcq",
-   "page": 380,
-   "stem": "The table lists the valencies of four hypothetical ions. A student uses the criss-cross method to write the chemical formulae for compounds formed by combining these specific ions. Which of the following chemical formulae is written correctly? Ion Symbol Type of Ion Valency X Cation 3 Y Cation 1 Z Polyatomic Anion 2 W Monoatomic Anion 1",
-   "answer": "When determining chemical formulae, the valencies of combining ions are crossed over to become subscripts. Cation Y has a valency of one, and polyatomic anion Z has a valency of two. Crossing these gives two Y ions for every one Z ion, making the correct chemical formula Y2Z. The other options apply the valencies incorrectly.",
-   "options": [
-    {
-     "label": "A",
-     "text": "XZ2"
-    },
-    {
-     "label": "B",
-     "text": "Y2Z"
-    },
-    {
-     "label": "C",
-     "text": "XW2"
-    },
-    {
-     "label": "D",
-     "text": "YW2"
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "26",
-   "form": "mcq",
-   "page": 380,
-   "stem": "According to the foundational principles of Dalton’s Atomic Theory, which of the following statements represents an absolutely incorrect assumption regarding the nature of atoms?",
-   "answer": "A major cornerstone of Dalton’s original atomic theory strictly states that atoms belonging to different chemical elements inherently possess completely different masses and varying chemical properties. Therefore, the incorrect assumption is that atoms of entirely distinct elements could somehow share the exact same physical mass and display identical chemical behaviour.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Atoms are the incredibly tiny, fundamental participating particles in all chemical reactions."
-    },
-    {
-     "label": "B",
-     "text": "The relative number and kinds of atoms naturally remain totally constant in a given compound."
-    },
-    {
-     "label": "C",
-     "text": "Atoms of completely different elements can naturally possess the exact same physical mass and identical chemical properties."
-    },
-    {
-     "label": "D",
-     "text": "Atoms simply rearrange themselves during chemical changes without being destroyed."
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "27",
-   "form": "mcq",
-   "page": 380,
-   "stem": "When a small piece of magnesium ribbon violently burns in the surrounding air, it formally produces a bright white powder of magnesium oxide. According to Dalton’s classical atomic theory, exactly what happens to the reacting atoms during this violent process?",
-   "answer": "When magnesium metal rigorously burns in the air, the fundamental atoms themselves are absolutely not destroyed or miraculously changed into entirely different elements. According to John Dalton’s reliable atomic theory, the individual atoms of magnesium and oxygen merely undergo a profound structural rearrangement to successfully form the stable compound magnesium oxide.",
-   "options": [
-    {
-     "label": "A",
-     "text": "The solid magnesium atoms are permanently destroyed, and completely new magnesium oxide molecules are freshly created."
-    },
-    {
-     "label": "B",
-     "text": "The atoms of magnesium and oxygen merely undergo a profound structural rearrangement to successfully form the stable compound."
-    },
-    {
-     "label": "C",
-     "text": "The individual oxygen atoms undergo rapid spontaneous division to physically bond with the heavier magnesium atoms."
-    },
-    {
-     "label": "D",
-     "text": "The constituent elemental atoms magically lose all their internal mass to spontaneously release brilliant white heat and light."
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "28",
-   "form": "mcq",
-   "page": 381,
-   "stem": "In scientific terminology, which of the following statements represents the most accurate and comprehensive definition of a chemical molecule?",
-   "answer": "A molecule is scientifically defined as an electrically neutral chemical entity constructed from more than one atom. It possesses the unique capacity for complete independent existence while simultaneously displaying all the fundamental Total mass of reactants = mass of sodium carbonate + mass of acetic acid = 5.3 g + 6.0 g = 11.3 g. Total mass of products = mass of carbon dioxide + mass of water + mass of sodium acetate = 2.2 g + 0.9 g + 8.2 g = 11.3 g. Since the total mass of reactants (11.3 g) is exactly equal to the total mass of products (11.3 g), the law of conservation of mass is verified as valid for this reaction.",
-   "options": [
-    {
-     "label": "A",
-     "text": "A highly charged, totally unstable individual atomic particle that inherently cannot exist independently."
-    },
-    {
-     "label": "B",
-     "text": "An electrically neutral chemical entity consisting of more than one atom that can completely exist independently and shows all properties of that substance."
-    },
-    {
-     "label": "C",
-     "text": "A gigantic, infinitely repeating rigid three- dimensional crystal lattice composed solely of oppositely charged ions."
-    },
-    {
-     "label": "D",
-     "text": "A highly unstable physical mixture of completely different unbonded elements occurring randomly at room temperature."
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "12",
-   "form": "very_short",
-   "page": 381,
-   "stem": "If a species has 11 protons, 12 neutrons and 10 electrons then (i) what is its atomic number and mass number? (ii) is it neutral, a cation or an anion? Explain. (iii) write its electronic configuration. (iv) name the species.",
-   "answer": "(i) The atomic number is the number of protons, which is 11. The mass number is the sum of protons and neutrons, which is 11 + 12 = 23. (ii) It is a cation. A neutral atom would have an equal number of protons and electrons (11 of each). Since this species has 11 positively charged protons but only 10 negatively charged electrons, it has a net positive charge of +1, making it a cation. (iii) Since it has 10 electrons, its electronic configuration is 2, 8. (iv) The atomic number 11 corresponds to the element Sodium. Because it has a +1 charge, the species is a sodium ion (Na+)."
-  },
-  {
-   "number": "13",
-   "form": "very_short",
-   "page": 381,
-   "stem": "Two elements, A and B, have the following configurations— A: 2, 8, 5 B: 2, 8, 7 (i) Which element is more reactive? (ii) Will A and B form ionic or covalent bonds when they combine? Explain using electron transfer or sharing. (iii) Predict the formula of the compound they would form.",
-   "answer": "(i) Element B is more reactive. It has 7 valence electrons and only needs to gain or share one single electron to achieve a stable octet, which requires less energy and occurs much more readily than element A’s need to gain or share three electrons. (ii) Elements A and B will form covalent bonds when they combine. Both are non-metals that are short of electrons to complete their stable octets. Therefore, neither will transfer its electrons entirely; instead, they will share their valence electrons to achieve mutually stable electronic configurations. (iii) Element A needs 3 electrons (valency of 3), and element B needs 1 electron (valency of 1). By criss-crossing their valencies, the predicted formula for the resulting compound is AB3."
-  },
-  {
-   "number": "14",
-   "form": "very_short",
-   "page": 381,
-   "stem": "Assertion (A): Copper sulfate conducts electricity in the molten state but not in the solid state. Reason (R): Copper and sulfate ions are fixed in the lattice in molten state, while in solid state they can move freely. Choose the correct option: (i) Both A and R are true, and R is the correct explanation of A. (ii) Both A and R are true, but R is not the correct explanation of A. (iii) A is true, but R is false. (iv) A is false, but R is true.",
-   "answer": "(iii) A is true, but R is false. The assertion is correct because ionic compounds like copper sulfate conduct electricity only when their ions are free to move. The reason is completely false because the states are reversed; ions are fixed in a crystal lattice in the solid state and become free to move only when the compound is in the molten or aqueous state."
-  },
-  {
-   "number": "15",
-   "form": "very_short",
-   "page": 382,
-   "stem": "The species ²7Al, 30Br- and ²0¹Hg²+ have 13, 35 and 80 protons, respectively. How many electrons and neutrons do they have?",
-   "answer": "For ²7Al (Neutral Aluminium atom): It has 13 protons. Since it is neutral, it has 13 electrons. The number of neutrons is Mass Number - Protons = 27 - 13 = 14 neutrons. For 30Br- (Bromide anion): It has 35 protons. The -1 charge means it has gained one electron, so it has 35 + 1 = 36 electrons. The number of neutrons is Mass Number - Protons = 80 - 35 = 45 neutrons. For ²0¹Hg²+ (Mercury cation): It has 80 protons. The +2 charge indicates it has lost two electrons, so it has 80 - 2 = 78 electrons. The number of neutrons is Mass Number - Protons = 201 - 80 = 121 neutrons. Atomic Foundations of Matter OBJECTIVE QUESTION"
+   "page": 373,
+   "stem": "Find the formula unit mass of magnesium hydroxide, Mg(OH)2. Atomic mass — Mg = 24 u; O = 16 u; H = 1 u.",
+   "answer": "The formula unit mass of magnesium hydroxide is calculated as: 24 u (for Mg) + 2 × (16 u + 1 u) (for OH) = 24 + 2 × (17) = 24 + 34 = 58 u.",
+   "concept": "Calculating formula unit mass",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "source_offset": 9161
   }
  ]
 }

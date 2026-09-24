@@ -70,6 +70,69 @@ def maths_damage(text: str) -> str | None:
     return None
 
 
+# A whole question buried inside another question's field. The books are set in
+# two columns and the text layer reads a page column by column, so a question
+# printed beside another one can be appended to it -- chapter 5's very short
+# Q76 ended up inside objective Q35's option C, and Q76's answer overwrote
+# Q35's answer field. Two questions destroyed, and nothing else notices: Q35
+# still had four options and an answer, so V-02, V-09 and every other check
+# here passed it.
+#
+# The signature is a question number appearing mid-field. The trap is that
+# stems and answers legitimately carry numbered sub-parts, and a naive version
+# of this check flagged 51 of them across chapters 3 and 4 -- every one a real
+# "1. ... 2. ..." list. Two things separate them: a sub-part list starts at 1
+# or 2 and ascends by one, and a buried question's number belongs to the
+# book's own sequence, so it runs AHEAD of the item it is buried in.
+EMBEDDED_NUMBER = re.compile(
+    r"(?<=[.?!\"”)])\s+(\d{1,3})\s*[.)]\s+([A-Z][a-z][^.?!]{25,})"
+)
+
+
+def _own_number(number: object) -> int | None:
+    digits = re.sub(r"^[A-Za-z]+", "", str(number or "")).split(".")[0]
+    return int(digits) if digits.isdigit() else None
+
+
+def embedded_question(text: str, own: int | None) -> str | None:
+    hits = list(EMBEDDED_NUMBER.finditer((text or "")[8:]))
+    if not hits:
+        return None
+    numbers = [int(h.group(1)) for h in hits]
+    # A numbered sub-part list: starts at 1 or 2, ascends by one, no gaps.
+    if numbers[0] <= 2 and numbers == list(range(numbers[0], numbers[0] + len(numbers))):
+        return None
+    if own is None:
+        return None
+    for hit, number in zip(hits, numbers):
+        if number > own:
+            return f"{number}. {hit.group(2)[:60]}"
+    return None
+
+
+def running_header(db, chapter_id: int) -> re.Pattern | None:
+    """The chapter's own title, which is printed as the running header.
+
+    Every page carries it, so it bleeds into stems and answers like any other
+    furniture -- and sometimes mid-sentence, because an item straddling a page
+    break gets the header spliced into it. JUNK cannot hold it as a literal
+    because it is different in every chapter, so it is built per chapter here.
+    It went unnoticed until a reader found it in three items of a file the
+    checker had passed as ok.
+
+    Only titles of three or more words are used. A one- or two-word title such
+    as "Motion" would match ordinary prose and turn this into noise.
+    """
+    name = db.execute(
+        text("SELECT chapter_name FROM chapter_master WHERE id = :c"),
+        {"c": chapter_id},
+    ).scalar()
+    if not name or len(name.split()) < 3:
+        return None
+    # Tolerate the whitespace the text layer inserts between words.
+    return re.compile(r"\s+".join(re.escape(w) for w in name.split()), re.I)
+
+
 def concepts_for(db, chapter_id: int) -> set[str]:
     rows = db.execute(
         text(
@@ -81,12 +144,13 @@ def concepts_for(db, chapter_id: int) -> set[str]:
     return {r[0] for r in rows}
 
 
-def check_file(path: Path, legal: set[str]) -> tuple[list[str], dict]:
+def check_file(path: Path, legal: set[str],
+               header: re.Pattern | None = None) -> tuple[list[str], dict]:
     payload = json.loads(path.read_text(encoding="utf-8"))
     items = payload.get("items") or []
     problems: list[str] = []
     stats = {"items": len(items), "tagged": 0,
-             "bloom": Counter(), "concepts": set()}
+             "bloom": Counter(), "concepts": set(), "numbers": []}
 
     numbers = Counter(str(i.get("number")) for i in items)
     for number, count in numbers.items():
@@ -95,6 +159,7 @@ def check_file(path: Path, legal: set[str]) -> tuple[list[str], dict]:
 
     for item in items:
         ref = f"#{item.get('number')}"
+        own = _own_number(item.get("number"))
         if not (item.get("stem") or "").strip():
             problems.append(f"{ref} empty stem")
         if not (item.get("answer") or "").strip():
@@ -152,11 +217,24 @@ def check_file(path: Path, legal: set[str]) -> tuple[list[str], dict]:
             damage = maths_damage(item.get(field) or "")
             if damage:
                 problems.append(f"{ref} {field} has flattened maths: {damage!r}")
+            buried = embedded_question(item.get(field) or "", own)
+            if buried:
+                problems.append(f"{ref} {field} has another question buried in it: {buried!r}")
+            if header and header.search(item.get(field) or ""):
+                problems.append(f"{ref} {field} still carries the running header")
         for option in options:
             damage = maths_damage(option.get("text") or "")
             if damage:
                 problems.append(
                     f"{ref} option {option.get('label')} has flattened maths: {damage!r}")
+            buried = embedded_question(option.get("text") or "", own)
+            if buried:
+                problems.append(
+                    f"{ref} option {option.get('label')} has another question "
+                    f"buried in it: {buried!r}")
+
+    stats["numbers"] = [n for n in (_own_number(i.get("number")) for i in items)
+                        if n is not None]
     return problems, stats
 
 
@@ -178,6 +256,8 @@ def main() -> int:
         raise SystemExit("Database not ready")
     db = SessionLocal()
     legal_cache: dict[int, set[str]] = {}
+    header_cache: dict[int, re.Pattern | None] = {}
+    seen_numbers: dict[str, list[int]] = {}
     total = tagged = bad_files = 0
     try:
         for path in paths:
@@ -185,7 +265,10 @@ def main() -> int:
             chapter_id = payload.get("chapter_id")
             if chapter_id not in legal_cache:
                 legal_cache[chapter_id] = concepts_for(db, chapter_id)
-            problems, stats = check_file(path, legal_cache[chapter_id])
+                header_cache[chapter_id] = running_header(db, chapter_id)
+            problems, stats = check_file(path, legal_cache[chapter_id],
+                                         header_cache.get(chapter_id))
+            seen_numbers.setdefault(path.name[:4], []).extend(stats["numbers"])
             total += stats["items"]
             tagged += stats["tagged"]
             flag = "ok" if not problems else f"{len(problems)} problem(s)"

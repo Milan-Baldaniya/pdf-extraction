@@ -50,9 +50,19 @@ if hasattr(sys.stdout, "reconfigure"):
 # skipped as front matter.
 SECTIONS: tuple[tuple[str, str, str], ...] = (
     ("PAUSEANDPONDE", "pause", "very_short"),
+    # The book reprints the NCERT textbook exercise as its own block in 12 of
+    # the 13 chapters. Missed on the first pass, so those questions were being
+    # swept into whichever section preceded them. The banner truncates to
+    # 'NCER T Exercis' in the text layer, hence the key without a trailing E.
+    ("NCERTEXERCIS", "ncert", "short"),
     ("OBJECTIVEQUESTION", "objective", "mcq"),
     ("VERYSHORTANSWER", "veryshort", "very_short"),
     ("SHORTANSWERQUESTION", "short", "short"),
+    # Present in all 13 chapters and missed on the first pass, so ten items per
+    # chapter were filed as 3-mark short answers when the book prints them as
+    # 5-mark long ones. Found by a reader noticing that a "short" file ended in
+    # multi-part (a)/(b)/(c) questions.
+    ("LONGANSWERQUESTION", "long", "long"),
     ("CASEBASEDQUESTION", "case", "case_study"),
 )
 
@@ -63,6 +73,10 @@ QUESTION_START = re.compile(r"^(\d{1,3})\.\t", re.M)
 # Differentiate between a scientific law..." into an option and left the
 # question looking like a one-option MCQ.
 OPTION = re.compile(r"^\(([A-D])\)\t?\s*(.+?)\s*$", re.M)
+# Just the label. An option is sliced from its label to the NEXT label, because
+# the PDF wraps long choices and matching to end-of-line truncated 102 of
+# chapter 2's 240 options to fragments like "It", "Massive", "Matthias".
+OPTION_LABEL = re.compile(r"\(([A-D])\)\t?")
 ANSWER = re.compile(r"\x01?A?Ans\s*:")
 KEY_LETTER = re.compile(r"^\s*\x01?\s*\(([A-Da-d])\)")
 
@@ -172,18 +186,25 @@ def parse_question(block: str, number: str, form: str, page: int | None) -> dict
     body = block[: answer_match.start()] if answer_match else block
     answer_raw = block[answer_match.end():] if answer_match else ""
 
-    options = []
-    # "Assertion (A) :" wraps so that "(A) :" lands at the start of its own
-    # line and reads as an option whose text is a bare colon. An option that
-    # short is punctuation, not a choice.
-    option_matches = [
-        m for m in OPTION.finditer(body) if len(_clean(m.group(2))) > 1
+    # An option runs to the NEXT option, not to the end of its line. The PDF
+    # wraps long choices, and matching only the first line truncated 102 of
+    # chapter 2's 240 options to fragments like "It", "The", "Massive" and
+    # "It is a hypotonic solution, causing water to".
+    option_starts = [
+        m for m in OPTION_LABEL.finditer(body) if m.start() == 0 or body[m.start() - 1] == "\n"
     ]
-    if option_matches:
-        body = body[: option_matches[0].start()]
-        for match in option_matches:
-            options.append({"label": match.group(1),
-                            "text": _clean(match.group(2))})
+    options = []
+    if option_starts:
+        for index, match in enumerate(option_starts):
+            stop = (option_starts[index + 1].start()
+                    if index + 1 < len(option_starts) else len(body))
+            text = _clean(body[match.end():stop])
+            # "Assertion (A) :" wraps so "(A) :" starts its own line and reads
+            # as an option whose whole text is a colon. That is punctuation.
+            if len(text) > 1:
+                options.append({"label": match.group(1), "text": text})
+        if options:
+            body = body[: option_starts[0].start()]
 
     form = _infer_form(form, options, _clean(body))
 
@@ -233,7 +254,12 @@ def parse_extraction(md: str) -> dict[str, list[dict]]:
             if index + 1 < len(answers):
                 following = list(QUESTION_START.finditer(
                     chunk, answer.end(), answers[index + 1].start()))
-                stop = following[-1].start() if following else answers[index + 1].start()
+                # The FIRST number after this answer opens the next question.
+                # Taking the last one split inside list-type questions: the
+                # preamble and statements 1..n-1 were glued onto the previous
+                # item's answer and statement n became an orphan stem, in 11 of
+                # chapter 2's 60 objective questions.
+                stop = following[0].start() if following else answers[index + 1].start()
             block = chunk[cursor:stop]
             cursor = stop
 
@@ -242,9 +268,15 @@ def parse_extraction(md: str) -> dict[str, list[dict]]:
             if number_match:
                 block = block[:number_match.start()] + block[number_match.end():]
 
+            # The page is where the QUESTION is printed, so it is read back
+            # from the question's own start. Reading back from the answer gave
+            # the page the answer landed on, which differs whenever an item
+            # straddles a page break -- nine of chapter 2's ten case studies
+            # came out with no page at all and the tenth with the wrong one.
             page = None
-            page_match = re.search(r"## Page (\d+)",
-                                   chunk[: max(0, answer.start())][-600:])
+            page_match = None
+            for page_match in re.finditer(r"## Page (\d+)", chunk[:cursor] or chunk[:1]):
+                pass
             if page_match:
                 page = int(page_match.group(1))
             items.append(parse_question(block, number, section["form"], page))

@@ -48,6 +48,13 @@ logging.basicConfig(level=logging.WARNING, format="%(levelname)s %(message)s")
 ITEM_DIR = Path(__file__).resolve().parent / "nodia_items"
 PUBLISHER = "nodia"
 
+# --dir and --publisher override these. The constants are a Class 10 Science
+# default, and pointing this script at another book without them stamped the
+# NODIA attribution onto somebody else's questions -- the exact failure this
+# module's own docstring warns about.
+_ITEM_DIR = ITEM_DIR
+_PUBLISHER = PUBLISHER
+
 
 def apply_read_concepts(chapter: dict) -> dict[str, int]:
     """Set concept_id from the `concept` name recorded while reading each item.
@@ -124,7 +131,7 @@ def apply_read_concepts(chapter: dict) -> dict[str, int]:
 
 def load(only: set[int] | None) -> list[dict]:
     chapters: list[dict] = []
-    for path in sorted(ITEM_DIR.glob("ch*.json")):
+    for path in sorted(_ITEM_DIR.glob("ch*.json")):
         with path.open(encoding="utf-8") as handle:
             data = json.load(handle)
         data["_file"] = path.name
@@ -173,7 +180,17 @@ async def main() -> int:
     parser.add_argument("--apply", action="store_true", help="actually write")
     parser.add_argument("--only", help="comma-separated chapter numbers")
     parser.add_argument("--no-tag", action="store_true", help="skip concept tagging")
+    parser.add_argument("--dir", help="directory of chNN.json files")
+    parser.add_argument("--publisher", help="publisher code for attribution")
     args = parser.parse_args()
+
+    global _ITEM_DIR, _PUBLISHER
+    if args.dir:
+        _ITEM_DIR = Path(args.dir)
+        if not _ITEM_DIR.is_absolute():
+            _ITEM_DIR = Path(__file__).resolve().parent / args.dir
+    if args.publisher:
+        _PUBLISHER = args.publisher
 
     only = {int(x) for x in args.only.split(",") if x.strip()} if args.only else None
     chapters = load(only)
@@ -185,7 +202,7 @@ async def main() -> int:
 
     header = (f"{'Ch':<3} {'row':<5} {'items':>5} {'marks':>5} {'held':>5} "
               f"{'opts':>5} {'figs':>5} {'tagged':>7} {'conc':>5}  sections")
-    print(f"publisher={PUBLISHER}  mode={'DRY RUN' if dry else 'WRITE'}\n")
+    print(f"publisher={_PUBLISHER}  mode={'DRY RUN' if dry else 'WRITE'}\n")
     print(header)
     print("-" * len(header))
     totals: Counter = Counter()
@@ -207,7 +224,7 @@ async def main() -> int:
                 replace=True,
                 publish_clean=True,
                 dry_run=dry,
-                publisher_code=PUBLISHER,
+                publisher_code=_PUBLISHER,
             )
         except Exception as exc:
             print(f"{chapter.get('chapter'):<3} FAILED: {type(exc).__name__}: {str(exc)[:80]}")

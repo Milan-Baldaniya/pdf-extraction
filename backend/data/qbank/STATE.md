@@ -1,52 +1,63 @@
 # Question-bank ingest — running state
 
-Written by the overnight run. Read this first after any session reset.
+Read this first after any session reset. Decisions live in
+`.claude/projects/d--pdf-extraction/memory/qbank-*.md`; this file is progress.
+
+## Goal
+
+All 357 chapters of Classes 6-10, breadth first. Every chapter reaches its
+book's real count (~130-180) with concept + CG/LO + PAL tags before any chapter
+is pushed toward 500. Official sources only; report shortfalls, never generate.
+Every item is read against the source before it loads.
 
 ## Done and committed
 
-- `73bd246` local concept-ancestry committed; migration renumbered 009
-- `637ce1c` merged origin/master (question_outcomes, strict sanitise_codes, DDL)
-- `6598929` fix: resolve_codes was destroying the ancestry sanitise_codes filled
-- `b51da31` fix: 4 silent losses (orphaned mappings on reload, NULL concept,
-  _map_ids ambiguity, hardcoded Laravel .env)
-- `e1922a0` probe_qbook.py + question_curriculum_context.py
-- `169acf7` extract_qbank_textlayer.py + load_question_curriculum.py
-- `da57d6a` mapper display fix; repaired 5,516 NULL concept names
+- `4bcd2be` shape() accepts bloom/dok/difficulty, validated against
+  pal_vocabulary; writer merges authored over carried tags.
+  `check_figure_resolution.py` added — all 5,795 loaded questions pass.
+- `13a9fd5` `parse_qbank_items.py` — 2,289 drafts from 13 Class 9 Science
+  chapters against 2,353 answer markers (97%). 14 MCQ defects, 0 missing keys.
 
-## Key facts established
+Earlier: `73bd246` `637ce1c` `6598929` `b51da31` `e1922a0` `169acf7` `da57d6a`
+`04ff1f2` `8532a80` `0dcdf1e`.
 
-- Class 9 Science QB is born-digital: 2,215 chars/page text layer. **No MinerU.**
-  160 s/chapter vs 22-55 min. Book = 634 pages, 13 chapters, sha on disk.
-- Folio map verified: offsets change 24 times (1 -> 44). Chapters contiguous,
-  no gaps. `data/qbank/cbse9_science_folio.json`.
-- Book holds **2,353 answered questions**, ~181/chapter (144-226). 500/chapter
-  needs ~4,160 more from other official sources. Top-up yield UNPROVEN.
-- Class 10 Science: 2,926 mappable (sidecar-backed) + 4,438 LMS-native.
-- `lms_question_outcome` was 0 rows at start.
+## Where the numbers stand
+
+| | chapters | with questions | questions |
+|---|---|---|---|
+| Class 6 | 54 | 0 | 0 |
+| Class 7 | 62 | 0 | 0 |
+| Class 8 | 76 | 0 | 0 |
+| Class 9 | 50 | 8 | 278 |
+| Class 10 | 115 | 31 | 5,517 |
+
+Class 10 Science curriculum mapping: 586 of 2,926 (`lms_question_outcome` 656).
+
+## Class 9 Science — extracted, drafted, being verified
+
+13 chapters extracted (rows 592-604, 2,010,399 chars, 375 figures).
+Drafts in `scripts/c9sci_items/drafts/` — 63 files, 2,289 items.
+
+Chapter 2 (row 592) is the gate chapter. Five agents verifying its sections.
 
 ## Commands
 
-    # extract remaining Class 9 Science chapters (idempotent)
-    venv/Scripts/python.exe -m scripts.extract_qbank_textlayer \
-      --map data/qbank/cbse9_science_folio.json --all --apply --resume
+    # re-parse drafts (idempotent)
+    venv/Scripts/python.exe -m scripts.parse_qbank_items \
+      --standard 42 --subject 3975 --out scripts/c9sci_items/drafts
+
+    # after any load, always
+    venv/Scripts/python.exe -m scripts.check_figure_resolution --extraction <eid>
 
     # mapping progress
     venv/Scripts/python.exe -m scripts.question_curriculum_context \
       --coverage --standard 43 --subject 3975
 
-    # apply a reader's mapping file (dry by default)
-    venv/Scripts/python.exe -m scripts.load_question_curriculum --all
-    venv/Scripts/python.exe -m scripts.load_question_curriculum --all --apply
-
-## In flight
-
-- extract_qbank_textlayer --all (13 chapters, ~35 min total)
-- mapping agents on Class 10 Science chapters 1019, 1017, 1021
-
 ## Next
 
-1. Load mapping files as agents finish; verify codes differ within a chapter.
-2. Map remaining Class 10 Science chapters, then Maths / SST / Class 9 Maths.
-   Class 10 Maths + SST need a re-run after the other machine finishes.
-3. Read Class 9 Science items into parts files, merge, load, publish figures.
-4. Top-up sourcing toward 500/chapter; report real counts, never generate.
+1. Merge verified chapter-2 sections, `load --dry`, inspect, `--apply`,
+   publish figures. That is the one-chapter gate.
+2. Verify the other 12 chapters, section by section, in parallel.
+3. Mirror the remaining pdf.tube books; probe each for text-layer quality
+   before assuming MinerU is or is not needed.
+4. Continue Class 10 Science mapping alongside.

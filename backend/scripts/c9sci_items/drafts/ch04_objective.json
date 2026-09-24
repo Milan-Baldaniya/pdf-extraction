@@ -21,7 +21,7 @@
     },
     {
      "label": "C",
-     "text": "Both distance and direction from a fixed"
+     "text": "Both distance and direction from a fixed point"
     },
     {
      "label": "D",
@@ -85,17 +85,17 @@
   {
    "number": "4",
    "form": "assertion_reason",
-   "page": null,
+   "page": 136,
    "stem": "Assertion (A): The displacement of an object can be zero even if it has covered a non-zero distance. Reason (R): Displacement is the net change in position, which becomes zero if the object returns to its initial starting point.",
-   "answer": "Displacement measures the shortest distance between the initial and final positions. When a moving object completes a journey and returns Describing Motion Around Us exactly to its starting point, the initial and final positions coincide. Consequently, the net change in position is zero, making the displacement zero despite a non-zero total distance covered. 5. Consider the following statements regarding motion in a straight line: 1. The direction of motion is indicated by positive and negative signs. 2. The total distance travelled is always equal to the magnitude of displacement.",
+   "answer": "Displacement measures the shortest distance between the initial and final positions. When a moving object completes a journey and returns Describing Motion Around Us exactly to its starting point, the initial and final positions coincide. Consequently, the net change in position is zero, making the displacement zero despite a non-zero total distance covered.",
    "options": [
     {
      "label": "A",
-     "text": "Both A and R are true and R is the correct"
+     "text": "Both A and R are true and R is the correct explanation of A"
     },
     {
      "label": "B",
-     "text": "Both A and R are true but R is not the"
+     "text": "Both A and R are true but R is not the correct explanation of A"
     },
     {
      "label": "C",
@@ -109,10 +109,10 @@
    "correct_option": "A"
   },
   {
-   "number": "3",
+   "number": "5",
    "form": "mcq",
-   "page": null,
-   "stem": "The choice of origin and positive direction can be made as per convenience. Select the correct combination:",
+   "page": 136,
+   "stem": "Consider the following statements regarding motion in a straight line: 1. The direction of motion is indicated by positive and negative signs. 2. The total distance travelled is always equal to the magnitude of displacement. 3. The choice of origin and positive direction can be made as per convenience. Select the correct combination:",
    "answer": "For straight-line motion, positive and negative signs effectively denote the two possible directions. The origin and positive direction can be chosen conveniently. However, distance equals the magnitude of displacement only if the object moves continuously in one direction without turning back. Therefore, the second statement is not universally true.",
    "options": [
     {
@@ -137,7 +137,7 @@
   {
    "number": "6",
    "form": "mcq",
-   "page": null,
+   "page": 136,
    "stem": "An athlete starts at the origin (0 m) at t=0 s, runs forward to the 100 m mark at t=10 s, and then runs backward along the same track, reaching the 40 m mark at t=16 s. What is the magnitude of the displacement and the total distance travelled by the athlete at t=16 s?",
    "answer": "Displacement is the net change in position from the starting point to the final position. The athlete starts at 0 m and ends at 40 m, making the displacement 40 m. The total distance travelled is the sum of the forward path (100 m) and the backward path (60 m), which equals 160 m.",
    "options": [
@@ -163,7 +163,7 @@
   {
    "number": "7",
    "form": "mcq",
-   "page": null,
+   "page": 136,
    "stem": "An athlete runs on a straight track from point O to point A (100 m) and then turns back to reach point B (40 m from O). What are the distance travelled and the magnitude of displacement, respectively?",
    "answer": "The athlete travels from O to A, covering a distance of one hundred metres. Then, moving from A back to B, the distance covered is sixty metres. The total distance is one hundred plus sixty, equaling one hundred sixty metres. The displacement is the final position B minus origin O, which is forty metres.",
    "options": [
@@ -189,25 +189,25 @@
   {
    "number": "8",
    "form": "mcq",
-   "page": null,
+   "page": 137,
    "stem": "The diagram represents a car moving in a straight line while applying its brakes. Two vectors are shown above the car. If the forward-pointing vector represents the direction of the car’s motion, what physical quantities do the forward and backward vectors represent respectively?",
    "answer": "When an object moves in a straight line and its speed decreases, it experiences deceleration. The velocity vector aligns with the direction of the object’s forward motion. However, the acceleration vector points in the opposite direction because the rate of change of velocity is negative relative to the forward movement. Click Here to Buy book on Flipkart",
    "options": [
     {
      "label": "A",
-     "text": "Forward"
+     "text": "Forward represents velocity, backward represents acceleration"
     },
     {
      "label": "B",
-     "text": "Forward represents acceleration, backward"
+     "text": "Forward represents acceleration, backward represents velocity"
     },
     {
      "label": "C",
-     "text": "Forward represents displacement, backward"
+     "text": "Forward represents displacement, backward represents average speed"
     },
     {
      "label": "D",
-     "text": "Forward represents average speed, backward"
+     "text": "Forward represents average speed, backward represents displacement"
     }
    ],
    "correct_option": "A"
@@ -221,19 +221,19 @@
    "options": [
     {
      "label": "A",
-     "text": "Distance requires both magnitude and"
+     "text": "Distance requires both magnitude and direction, whereas displacement requires only magnitude."
     },
     {
      "label": "B",
-     "text": "The magnitude of displacement can never be"
+     "text": "The magnitude of displacement can never be greater than the total distance travelled."
     },
     {
      "label": "C",
-     "text": "Distance can be zero for a moving object, but"
+     "text": "Distance can be zero for a moving object, but displacement is always positive."
     },
     {
      "label": "D",
-     "text": "Displacement is a scalar quantity, while"
+     "text": "Displacement is a scalar quantity, while distance is a vector quantity."
     }
    ],
    "correct_option": "B"
@@ -241,25 +241,25 @@
   {
    "number": "10",
    "form": "mcq",
-   "page": null,
+   "page": 137,
    "stem": "How is the average speed of an object calculated?",
    "answer": "The average speed of an object gives a measure of how fast or slow it is moving over a period. It is mathematically defined as the total distance travelled by the object divided by the total time interval taken to cover that specific distance. It provides no information regarding direction.",
    "options": [
     {
      "label": "A",
-     "text": "The total distance travelled multiplied by the"
+     "text": "The total distance travelled multiplied by the total time taken"
     },
     {
      "label": "B",
-     "text": "The change in position divided by the total"
+     "text": "The change in position divided by the total time taken"
     },
     {
      "label": "C",
-     "text": "The total distance travelled divided by the"
+     "text": "The total distance travelled divided by the time interval"
     },
     {
      "label": "D",
-     "text": "The final velocity minus the initial velocity"
+     "text": "The final velocity minus the initial velocity divided by time"
     }
    ],
    "correct_option": "C"
@@ -267,17 +267,17 @@
   {
    "number": "11",
    "form": "assertion_reason",
-   "page": null,
+   "page": 137,
    "stem": "Assertion (A): Average velocity can be negative, zero, or positive. Reason (R): Average speed has only a numerical value and no direction.",
    "answer": "Average velocity depends on displacement, which can be positive, negative, or zero depending on the final position relative to the initial position. Average speed depends on distance, possessing only magnitude and no direction. Both statements are factually correct individually, but the nature of average speed does not explain average velocity.",
    "options": [
     {
      "label": "A",
-     "text": "Both A and R are true and R is the correct"
+     "text": "Both A and R are true and R is the correct explanation of A"
     },
     {
      "label": "B",
-     "text": "Both A and R are true but R is not the"
+     "text": "Both A and R are true but R is not the correct explanation of A"
     },
     {
      "label": "C",
@@ -293,34 +293,34 @@
   {
    "number": "12",
    "form": "mcq",
-   "page": null,
+   "page": 137,
    "stem": "Under what condition is the magnitude of the average velocity of an object strictly equal to its average speed?",
-   "answer": "Average speed equals total distance divided by time, while average velocity equals displacement divided by time. The magnitude of displacement perfectly equals the total distance travelled only when the object moves continuously along a straight line in a single direction without turning back. Under this condition, their magnitudes match perfectly. 13. Read the following statements about uniform and non-uniform motion: 1. An object covering equal distances in equal time intervals is in uniform motion. 2. In non-uniform motion, an object covers unequal distances in equal time intervals. 3. An object moving with increasing speed is in uniform motion.",
+   "answer": "Average speed equals total distance divided by time, while average velocity equals displacement divided by time. The magnitude of displacement perfectly equals the total distance travelled only when the object moves continuously along a straight line in a single direction without turning back. Under this condition, their magnitudes match perfectly.",
    "options": [
     {
      "label": "A",
-     "text": "When the object moves in a circular path"
+     "text": "When the object moves in a circular path with constant speed"
     },
     {
      "label": "B",
-     "text": "When the object moves in a straight line"
+     "text": "When the object moves in a straight line without reversing its direction"
     },
     {
      "label": "C",
-     "text": "When the object moves with a constant"
+     "text": "When the object moves with a constant acceleration in any path"
     },
     {
      "label": "D",
-     "text": "When the object returns to its starting point"
+     "text": "When the object returns to its starting point after some time"
     }
    ],
    "correct_option": "B"
   },
   {
-   "number": "4",
+   "number": "13",
    "form": "mcq",
-   "page": null,
-   "stem": "An object at a constant speed in a straight line is in uniform motion. Select the correct combination of true statements:",
+   "page": 138,
+   "stem": "Read the following statements about uniform and non-uniform motion: 1. An object covering equal distances in equal time intervals is in uniform motion. 2. In non-uniform motion, an object covers unequal distances in equal time intervals. 3. An object moving with increasing speed is in uniform motion. 4. An object at a constant speed in a straight line is in uniform motion. Select the correct combination of true statements:",
    "answer": "Uniform motion is defined by an object covering equal distances in equal intervals of time, which implies maintaining a constant speed in a straight line. Non-uniform motion involves covering unequal distances in equal time intervals. If an object is increasing its speed, it is in non-uniform motion, making statement three completely incorrect. Describing Motion Around Us",
    "options": [
     {
@@ -345,25 +345,25 @@
   {
    "number": "14",
    "form": "mcq",
-   "page": null,
+   "page": 138,
    "stem": "Based on the table tracking an athlete’s motion along a straight track, which conclusion about distance and displacement is correct? Time (t) Position from Origin (x) Total Distance (m) Displacement (m) 0 s 0 m 0 m 0 m 5 s 40 m 40 m 40 m 10 s 80 m 80 m 80 m 15 s 40 m 120 m 40 m 20 s 0 m 160 m 0 m",
    "answer": "Displacement represents the net change in position from an initial starting point. When the athlete returns to the origin at the final timestamp, the initial and final positions are identical, making the displacement zero. Conversely, the total distance continuously increases because it measures the actual path length covered regardless of direction.",
    "options": [
     {
      "label": "A",
-     "text": "Displacement can exceed the total distance"
+     "text": "Displacement can exceed the total distance travelled by the athlete."
     },
     {
      "label": "B",
-     "text": "Total distance and total displacement always"
+     "text": "Total distance and total displacement always maintain identical magnitudes."
     },
     {
      "label": "C",
-     "text": "Displacement becomes zero when the athlete"
+     "text": "Displacement becomes zero when the athlete returns to the original starting point."
     },
     {
      "label": "D",
-     "text": "Total distance decreases when the athlete"
+     "text": "Total distance decreases when the athlete turns back toward the initial position."
     }
    ],
    "correct_option": "C"
@@ -371,7 +371,7 @@
   {
    "number": "15",
    "form": "mcq",
-   "page": null,
+   "page": 138,
    "stem": "The concept that an object’s speed is the distance travelled divided by the time taken was well- established in ancient India. In which 5th-century treatise is this concept evident?",
    "answer": "The mathematical concept defining speed as the total distance travelled divided by the time taken was well-understood in ancient Indian scientific literature. This specific understanding of motion and speed is prominently documented in the Aryabhatiya, a highly significant astronomical and mathematical treatise written during the fifth century of the Common Era.",
    "options": [
@@ -397,9 +397,9 @@
   {
    "number": "16",
    "form": "mcq",
-   "page": null,
+   "page": 138,
    "stem": "A boy swims from one end to the other end of a 25 m pool and swims back to the starting point in 50 seconds. What is his average velocity?",
-   "answer": "The boy starts from one end of the pool, swims to the opposite side, and completely returns to his initial starting point. Because his initial and final positions are identical, his total displacement is exactly zero. Consequently, dividing this zero displacement by the time taken yields an average velocity of zero. 17. Identify the correct sequence of mathematical operations required to calculate the average acceleration of an object from its initial and final velocities. 1. Subtract the initial velocity from the final velocity. 2. Identify the initial velocity, final velocity, and time interval.",
+   "answer": "The boy starts from one end of the pool, swims to the opposite side, and completely returns to his initial starting point. Because his initial and final positions are identical, his total displacement is exactly zero. Consequently, dividing this zero displacement by the time taken yields an average velocity of zero.",
    "options": [
     {
      "label": "A",
@@ -421,10 +421,10 @@
    "correct_option": "C"
   },
   {
-   "number": "3",
+   "number": "17",
    "form": "mcq",
-   "page": null,
-   "stem": "Divide the change in velocity by the time interval. Select the correct sequential order:",
+   "page": 138,
+   "stem": "Identify the correct sequence of mathematical operations required to calculate the average acceleration of an object from its initial and final velocities. 1. Subtract the initial velocity from the final velocity. 2. Identify the initial velocity, final velocity, and time interval. 3. Divide the change in velocity by the time interval. Select the correct sequential order:",
    "answer": "To calculate the average acceleration, the very first step is to accurately identify the initial velocity, final velocity, and the given time interval. The second step involves subtracting the initial velocity from the final velocity to find the change. Finally, this change is divided by the time interval to obtain acceleration.",
    "options": [
     {
@@ -449,7 +449,7 @@
   {
    "number": "18",
    "form": "mcq",
-   "page": null,
+   "page": 139,
    "stem": "The physical quantity that measures the rate of change of velocity of an object with respect to time is known as:",
    "answer": "Average acceleration provides a precise measure of how quickly an object changes its velocity over a specific duration. It is mathematically calculated by determining the difference between the final and initial velocities and dividing that change by the total time interval. Its standard international unit is meters per second squared.",
    "options": [
@@ -475,25 +475,25 @@
   {
    "number": "19",
    "form": "mcq",
-   "page": null,
+   "page": 139,
    "stem": "The given position-time graph depicts the motion of two objects, A and B, moving along a straight parallel path. Which of the following statements correctly interprets their motion?",
    "answer": "In a position-time graph, the slope of the straight line determines the velocity of the moving object. A steeper slope indicates a greater change in position over the same time interval. Since the line for object B is steeper than the line for object A, object B is moving with a higher velocity.",
    "options": [
     {
      "label": "A",
-     "text": "Object A has a higher velocity than object B"
+     "text": "Object A has a higher velocity than object B because its line covers a wider time span."
     },
     {
      "label": "B",
-     "text": "Object B has a higher velocity than object A"
+     "text": "Object B has a higher velocity than object A because its slope on the graph is steeper."
     },
     {
      "label": "C",
-     "text": "Both objects are moving with the identical"
+     "text": "Both objects are moving with the identical velocity as they both start from the origin."
     },
     {
      "label": "D",
-     "text": "Object A is accelerating continuously while"
+     "text": "Object A is accelerating continuously while object B is moving at a constant speed."
     }
    ],
    "correct_option": "B"
@@ -501,7 +501,7 @@
   {
    "number": "20",
    "form": "mcq",
-   "page": null,
+   "page": 139,
    "stem": "For an object moving in a straight line, what does it mean if its average acceleration is in the direction opposite to its velocity?",
    "answer": "When an object travels in a straight line, its acceleration and velocity are closely linked. If the acceleration points in a direction completely opposite to the object’s current velocity, it indicates that the object is slowing down. In this scenario, the magnitude of the velocity is progressively decreasing over time.",
    "options": [
@@ -527,7 +527,7 @@
   {
    "number": "21",
    "form": "mcq",
-   "page": null,
+   "page": 139,
    "stem": "A car starts from rest and attains a velocity of 20 m s-1 in 10 seconds. What is its average acceleration?",
    "answer": "The car begins its motion from rest, which means its initial velocity is exactly zero. Its final velocity reaches twenty metres per second over a time interval of ten seconds. Using the acceleration formula, we subtract zero from twenty and divide the result by ten, yielding two metres per second squared.",
    "options": [
@@ -553,25 +553,25 @@
   {
    "number": "22",
    "form": "mcq",
-   "page": null,
+   "page": 139,
    "stem": "When an object is dropped from a height, its velocity increases as it falls. Which of the following statements correctly describes its acceleration?",
    "answer": "When an object is dropped from a certain height and falls towards the ground, it moves under the influence of gravity. This gravitational force causes the velocity of the falling object to increase steadily. Consequently, the object experiences a constant acceleration directed downwards, commonly denoted by the symbol g.",
    "options": [
     {
      "label": "A",
-     "text": "The acceleration continuously increases as it"
+     "text": "The acceleration continuously increases as it falls."
     },
     {
      "label": "B",
-     "text": "The acceleration is constant and directed"
+     "text": "The acceleration is constant and directed downwards."
     },
     {
      "label": "C",
-     "text": "The acceleration is constant and directed"
+     "text": "The acceleration is constant and directed upwards."
     },
     {
      "label": "D",
-     "text": "The acceleration decreases until it reaches"
+     "text": "The acceleration decreases until it reaches zero."
     }
    ],
    "correct_option": "B"
@@ -579,17 +579,17 @@
   {
    "number": "23",
    "form": "assertion_reason",
-   "page": null,
+   "page": 140,
    "stem": "Assertion (A): An object can have a very high velocity but zero acceleration. Reason (R): Acceleration depends on how quickly the velocity is changing, not on the actual magnitude of the velocity.",
    "answer": "Acceleration is defined purely as the rate of change of velocity. If a fast-moving object, like a car cruising on a straight highway, maintains Click Here to Buy book on Amazon Describing Motion Around Us a perfectly constant velocity, there is no change occurring. Therefore, despite its high speed, the acceleration remains absolutely zero, making the given reason the correct explanation.",
    "options": [
     {
      "label": "A",
-     "text": "Both A and R are true and R is the correct"
+     "text": "Both A and R are true and R is the correct explanation of A"
     },
     {
      "label": "B",
-     "text": "Both A and R are true but R is not the"
+     "text": "Both A and R are true but R is not the correct explanation of A"
     },
     {
      "label": "C",
@@ -605,7 +605,7 @@
   {
    "number": "24",
    "form": "mcq",
-   "page": null,
+   "page": 140,
    "stem": "A student records the overall motion of four remote-controlled cars as shown in the table. Which car has a non-zero average speed but an average velocity of exactly zero? Car Initial Position (m) Final Position (m) Total Path Length Covered (m) Total Time Taken (s) Car P 0 m 50 m 50 m 10 s Car Q 20 m 20 m 100 m 20 s Car R 10 m 40 m 30 m 15 s Car S 50 m 0 m 50 m 25 s",
    "answer": "Average velocity depends on overall displacement, whereas average speed relies on total path length. Car Q starts and ends at the identical twenty- metre mark, yielding a net displacement of zero and consequently an average velocity of zero. Because it covered a hundred-metre path, its average speed remains strictly non-zero.",
    "options": [
@@ -631,7 +631,7 @@
   {
    "number": "25",
    "form": "mcq",
-   "page": null,
+   "page": 140,
    "stem": "In a typical graph representing the motion of a vehicle, which variable is conventionally plotted along the horizontal x-axis?",
    "answer": "When constructing motion graphs, independent variables are usually placed on the horizontal axis while dependent variables go on the vertical axis. Time flows independently of the object’s movement, making it the standard choice for the x-axis. Position, velocity, or acceleration are then plotted along the y-axis to observe changes over time.",
    "options": [
@@ -657,25 +657,25 @@
   {
    "number": "26",
    "form": "mcq",
-   "page": null,
+   "page": 140,
    "stem": "An object moves along a circular path at a constant speed. The arrows represent specific vectors at distinct points along the path. Based on this visual representation, which statement correctly describes the nature of the object’s motion?",
    "answer": "Velocity is a vector quantity requiring both magnitude and direction. In uniform circular motion, while the speed remains constant, the direction of motion continuously changes along the tangent at any given point. This continuous change in the direction of velocity dictates that the object undergoes acceleration, making it an accelerated motion.",
    "options": [
     {
      "label": "A",
-     "text": "The motion is unaccelerated because the"
+     "text": "The motion is unaccelerated because the object’s speed remains constant throughout the circular path."
     },
     {
      "label": "B",
-     "text": "The motion is continuously accelerated"
+     "text": "The motion is continuously accelerated because the direction of the velocity changes at every point."
     },
     {
      "label": "C",
-     "text": "The average velocity for one complete"
+     "text": "The average velocity for one complete revolution is equal to the constant speed of the object."
     },
     {
      "label": "D",
-     "text": "The total displacement after one complete"
+     "text": "The total displacement after one complete revolution is numerically equal to the circle’s circumference."
     }
    ],
    "correct_option": "B"
@@ -683,7 +683,7 @@
   {
    "number": "27",
    "form": "mcq",
-   "page": null,
+   "page": 141,
    "stem": "What does a straight line parallel to the time axis on a position-time graph indicate?",
    "answer": "In a position-time graph, the vertical axis represents the object’s position. If the plotted line is perfectly parallel to the horizontal time axis, the vertical value remains completely unchanged as time progresses. This indicates that the object is entirely stationary and maintains a fixed distance from the chosen reference origin.",
    "options": [
@@ -693,11 +693,11 @@
     },
     {
      "label": "B",
-     "text": "The object is moving with a constant"
+     "text": "The object is moving with a constant acceleration."
     },
     {
      "label": "C",
-     "text": "The object is stationary and its position is"
+     "text": "The object is stationary and its position is not changing."
     },
     {
      "label": "D",
@@ -709,9 +709,9 @@
   {
    "number": "28",
    "form": "mcq",
-   "page": null,
+   "page": 141,
    "stem": "A straight, inclined line passing through the origin on a position-time graph indicates that the object is experiencing:",
-   "answer": "A straight, inclined line on a position-time graph shows that the object’s position changes by exactly equal amounts in equal intervals of time. This linear relationship means the slope of the graph remains perfectly constant. Since the slope represents velocity, the object is moving steadily with a constant velocity. 29. Consider the following statements about a position-time graph: 1. A curved line indicates that the velocity of the object is constant. 2. The slope of the straight line on this graph gives the average velocity.",
+   "answer": "A straight, inclined line on a position-time graph shows that the object’s position changes by exactly equal amounts in equal intervals of time. This linear relationship means the slope of the graph remains perfectly constant. Since the slope represents velocity, the object is moving steadily with a constant velocity.",
    "options": [
     {
      "label": "A",
@@ -733,10 +733,10 @@
    "correct_option": "B"
   },
   {
-   "number": "3",
+   "number": "29",
    "form": "mcq",
-   "page": null,
-   "stem": "A steeper slope indicates a higher magnitude of velocity. Select the correct combination:",
+   "page": 141,
+   "stem": "Consider the following statements about a position-time graph: 1. A curved line indicates that the velocity of the object is constant. 2. The slope of the straight line on this graph gives the average velocity. 3. A steeper slope indicates a higher magnitude of velocity. Select the correct combination:",
    "answer": "The slope of a position-time graph directly represents the velocity. A steeper slope signifies a greater change in position over the same time interval, indicating higher velocity. However, a curved line implies that the slope is continually changing, which means the velocity is not constant but is instead undergoing acceleration.",
    "options": [
     {
@@ -761,25 +761,25 @@
   {
    "number": "30",
    "form": "mcq",
-   "page": null,
+   "page": 141,
    "stem": "The shaded region in the provided velocity-time graph represents the motion of an object travelling on a straight path. What physical quantity is obtained by calculating the area of the shaded rectangle OABC?",
    "answer": "The area enclosed by the line on a velocity- time graph and the time axis corresponds to the displacement of the object. For an object moving with constant velocity, this area forms a rectangle. Multiplying the constant velocity by the specific time interval gives the net change in position, yielding total displacement.",
    "options": [
     {
      "label": "A",
-     "text": "The average acceleration of the object over"
+     "text": "The average acceleration of the object over the time interval."
     },
     {
      "label": "B",
-     "text": "The total displacement of the object over the"
+     "text": "The total displacement of the object over the given time interval."
     },
     {
      "label": "C",
-     "text": "The instantaneous velocity of the object at"
+     "text": "The instantaneous velocity of the object at the end of the interval."
     },
     {
      "label": "D",
-     "text": "The rate of change of velocity of the moving"
+     "text": "The rate of change of velocity of the moving object."
     }
    ],
    "correct_option": "B"
@@ -787,7 +787,7 @@
   {
    "number": "31",
    "form": "mcq",
-   "page": null,
+   "page": 142,
    "stem": "In a position-time graph, the change in position divided by the change in time calculates the geometric slope. What physical quantity does this slope represent?",
    "answer": "The geometric slope of a line on any graph is calculated by dividing the change in the vertical quantity by the change in the horizontal quantity. For a position-time graph, this involves dividing displacement by the corresponding time interval. Describing Motion Around Us This mathematical ratio specifically defines the physical quantity known as average velocity.",
    "options": [
@@ -819,19 +819,19 @@
    "options": [
     {
      "label": "A",
-     "text": "From s"
+     "text": "From s 0 to s 10"
     },
     {
      "label": "B",
-     "text": "From s"
+     "text": "From s 5 to s 15"
     },
     {
      "label": "C",
-     "text": "From"
+     "text": "From s 10 to s 15"
     },
     {
      "label": "D",
-     "text": "From"
+     "text": "From s 15 to"
     }
    ],
    "correct_option": "D"
@@ -839,7 +839,7 @@
   {
    "number": "33",
    "form": "mcq",
-   "page": null,
+   "page": 142,
    "stem": "Two objects, P and Q, have their motion represented on the same position-time graph. The straight line for P is steeper than the straight line for Q. What can be concluded?",
    "answer": "On a position-time graph, the steepness of a straight line directly correlates to the object’s velocity. A steeper line indicates a larger vertical change in position for a given horizontal time interval. Because object P’s line is noticeably steeper than Q’s line, object P must possess a higher velocity.",
    "options": [
@@ -849,7 +849,7 @@
     },
     {
      "label": "B",
-     "text": "Object P has a higher velocity than Object"
+     "text": "Object P has a higher velocity than Object Q."
     },
     {
      "label": "C",
@@ -864,25 +864,40 @@
   },
   {
    "number": "34",
-   "form": "very_short",
-   "page": null,
-   "stem": "Based on the provided diagram of an object’s path, what is the ratio of the magnitude of its displacement to the total distance travelled when moving from point P to point R via point Q? (A) 7 5 (B) 5 7 (C) 1 (D) 7 12",
-   "answer": "(A) Distance is the total path length (PQ + QR = 7 m). Displacement is the shortest straight-line distance from the initial to final position, calculated via the Pythagoras theorem ( 4 3 2 2 + = 5 m). The ratio of displacement magnitude to distance is therefore 5/7. Other options incorrectly flip this ratio or confuse the two quantities."
+   "form": "mcq",
+   "page": 142,
+   "stem": "Based on the provided diagram of an object’s path, what is the ratio of the magnitude of its displacement to the total distance travelled when moving from point P to point R via point Q?",
+   "answer": "Distance is the total path length (PQ + QR = 7 m). Displacement is the shortest straight-line distance from the initial to final position, calculated via the Pythagoras theorem ( 4 3 2 2 + = 5 m). The ratio of displacement magnitude to distance is therefore 5/7. Other options incorrectly flip this ratio or confuse the two quantities.",
+   "options": [
+    {
+     "label": "A",
+     "text": "7 5"
+    },
+    {
+     "label": "B",
+     "text": "5 7"
+    },
+    {
+     "label": "D",
+     "text": "7 12"
+    }
+   ],
+   "correct_option": "A"
   },
   {
    "number": "35",
    "form": "assertion_reason",
-   "page": null,
+   "page": 143,
    "stem": "Assertion (A): A curved position-time graph indicates that the object is in accelerated motion. Reason (R): A curved line means the object covers equal distances in equal intervals of time.",
    "answer": "A curved line on a position-time graph clearly shows that the object’s velocity is continually changing, which inherently defines accelerated motion. Therefore, the assertion is correct. However, covering equal distances in equal time intervals represents uniform motion, which corresponds to a straight line, making the provided reason completely false.",
    "options": [
     {
      "label": "A",
-     "text": "Both A and R are true and R is the correct"
+     "text": "Both A and R are true and R is the correct explanation of A"
     },
     {
      "label": "B",
-     "text": "Both A and R are true but R is not the"
+     "text": "Both A and R are true but R is not the correct explanation of A"
     },
     {
      "label": "C",
@@ -904,7 +919,7 @@
    "options": [
     {
      "label": "A",
-     "text": "A straight line passing through the origin"
+     "text": "A straight line passing through the origin with a positive slope"
     },
     {
      "label": "B",
@@ -924,25 +939,25 @@
   {
    "number": "37",
    "form": "mcq",
-   "page": null,
+   "page": 143,
    "stem": "A researcher logs the position of a moving cart at two-second intervals in the table provided. What does this numerical data indicate about the cart’s nature of motion? Time (s) Position (m) 0 0 2 2 4 8 6 18 8 32",
    "answer": "The data reveals that the distance covered by the cart in successive two-second intervals continuously increases. It covers two metres initially, then six metres, then ten metres, and fourteen metres. Covering unequal distances in equal time intervals strictly indicates that the object is undergoing accelerated motion with an increasing velocity.",
    "options": [
     {
      "label": "A",
-     "text": "The cart is moving continuously with a"
+     "text": "The cart is moving continuously with a constant velocity."
     },
     {
      "label": "B",
-     "text": "The cart is moving continuously with an"
+     "text": "The cart is moving continuously with an increasing velocity."
     },
     {
      "label": "C",
-     "text": "The cart is moving continuously with a"
+     "text": "The cart is moving continuously with a decreasing velocity."
     },
     {
      "label": "D",
-     "text": "The cart remains entirely stationary after the"
+     "text": "The cart remains entirely stationary after the two-second mark."
     }
    ],
    "correct_option": "B"
@@ -950,7 +965,7 @@
   {
    "number": "38",
    "form": "mcq",
-   "page": null,
+   "page": 143,
    "stem": "What does the slope of a straight line on a velocity-time graph represent?",
    "answer": "To find the slope on a velocity-time graph, you divide the change in the vertical velocity axis by the change in the horizontal time axis. This specific mathematical calculation directly yields the rate at which velocity changes over time. This rate of change is the fundamental definition of average acceleration.",
    "options": [
@@ -976,39 +991,39 @@
   {
    "number": "39",
    "form": "mcq",
-   "page": null,
+   "page": 143,
    "stem": "The diagram illustrates an object passing through two points on a horizontal surface. Which statement correctly describes the nature of the object’s acceleration during this interval?",
-   "answer": "Acceleration is the rate of change of velocity. When an object’s velocity decreases over time (from 20 m/s to 5 m/s), it undergoes retardation or negative acceleration. In such cases, the direction of acceleration is strictly opposite to the direction of motion. Options suggesting forward or zero acceleration contradict the principles of linear deceleration. 40. Arrange the following steps in the correct order to find the displacement from a velocity-time graph showing constant velocity: 1. Identify the time interval on the x-axis. 2. Mark the corresponding constant velocity on the y-axis to form a rectangle.",
+   "answer": "Acceleration is the rate of change of velocity. When an object’s velocity decreases over time (from 20 m/s to 5 m/s), it undergoes retardation or negative acceleration. In such cases, the direction of acceleration is strictly opposite to the direction of motion. Options suggesting forward or zero acceleration contradict the principles of linear deceleration.",
    "options": [
     {
      "label": "A",
-     "text": "The acceleration acts in the same direction as"
+     "text": "The acceleration acts in the same direction as the motion."
     },
     {
      "label": "B",
-     "text": "The acceleration acts in the opposite direction"
+     "text": "The acceleration acts in the opposite direction to the motion."
     },
     {
      "label": "C",
-     "text": "The acceleration is zero because the object"
+     "text": "The acceleration is zero because the object continues moving forward."
     },
     {
      "label": "D",
-     "text": "The acceleration acts in a vertically downward"
+     "text": "The acceleration acts in a vertically downward direction."
     }
    ],
    "correct_option": "B"
   },
   {
-   "number": "3",
+   "number": "40",
    "form": "mcq",
    "page": 144,
-   "stem": "Calculate the area of the enclosed rectangle by multiplying its sides. Select the correct sequence:",
+   "stem": "Arrange the following steps in the correct order to find the displacement from a velocity-time graph showing constant velocity: 1. Identify the time interval on the x-axis. 2. Mark the corresponding constant velocity on the y-axis to form a rectangle. 3. Calculate the area of the enclosed rectangle by multiplying its sides. Select the correct sequence:",
    "answer": "To accurately determine displacement from a constant velocity graph, first establish the required time interval along the horizontal axis. Next, observe the corresponding constant velocity to visualize an enclosed rectangular shape on the graph. Finally, calculate the total area of this specific rectangle, as this area numerically equals the displacement.",
    "options": [
     {
      "label": "A",
-     "text": "2, 1, 3"
+     "text": "2, 1, 3 Click Here to Buy book on Flipkart Describing Motion Around Us"
     },
     {
      "label": "B",
@@ -1028,25 +1043,25 @@
   {
    "number": "41",
    "form": "mcq",
-   "page": null,
+   "page": 144,
    "stem": "The table describes the basic motion characteristics of four different objects. Which object represents a case of uniform circular motion, and is it considered an accelerated motion? Object Path Shape Speed Direction of Motion Object W Straight line Constant Constant Object X Circular Constant Continuously changing Object Y Straight line Increasing Constant Object Z Circular Decreasing Continuously changing",
    "answer": "Uniform circular motion occurs when an object travels along a circular path at a steady speed. Object X meets these specific criteria. Even though its speed remains strictly constant, the overall velocity changes continuously because the direction of motion alters at every single point, making it a distinctly accelerated motion.",
    "options": [
     {
      "label": "A",
-     "text": "Object W; it is not accelerated because its"
+     "text": "Object W; it is not accelerated because its speed remains completely constant."
     },
     {
      "label": "B",
-     "text": "Object X; it is accelerated because its"
+     "text": "Object X; it is accelerated because its direction of motion continuously changes."
     },
     {
      "label": "C",
-     "text": "Object Y; it is accelerated because its path"
+     "text": "Object Y; it is accelerated because its path speed is strictly increasing over time."
     },
     {
      "label": "D",
-     "text": "Object Z; it is not accelerated because it"
+     "text": "Object Z; it is not accelerated because it consistently moves in a circular path."
     }
    ],
    "correct_option": "B"
@@ -1054,21 +1069,21 @@
   {
    "number": "42",
    "form": "mcq",
-   "page": null,
+   "page": 144,
    "stem": "A straight line sloping downwards from left to right on a velocity-time graph indicates that the object is:",
    "answer": "A straight line sloping downwards on a velocity- time graph shows that the vertical velocity value is progressively dropping as time advances. The straight nature of the line indicates that this decrease is occurring at a completely steady rate. This scenario represents motion with a constant negative acceleration, or uniform deceleration.",
    "options": [
     {
      "label": "A",
-     "text": "Moving with constant speed in the positive"
+     "text": "Moving with constant speed in the positive direction"
     },
     {
      "label": "B",
-     "text": "Moving with decreasing velocity and constant"
+     "text": "Moving with decreasing velocity and constant negative acceleration"
     },
     {
      "label": "C",
-     "text": "Moving with increasing velocity and constant"
+     "text": "Moving with increasing velocity and constant positive acceleration"
     },
     {
      "label": "D",
@@ -1080,7 +1095,7 @@
   {
    "number": "43",
    "form": "mcq",
-   "page": null,
+   "page": 144,
    "stem": "The area enclosed by the velocity-time graph and the time axis over a specific time interval is mathematically equal to which physical quantity?",
    "answer": "On a velocity-time graph, the area bounded between the plotted line and the horizontal time axis represents the product of velocity and the time interval. Because velocity multiplied by time directly yields the change in position, this specific geometric area perfectly calculates the total displacement of the moving object.",
    "options": [
@@ -1105,10 +1120,29 @@
   },
   {
    "number": "44",
-   "form": "very_short",
-   "page": null,
-   "stem": "Which of the following kinematic equations correctly relates velocity, initial velocity, acceleration, and time for motion with constant acceleration? (A) s ut at 2 1 2 = + (B) v u at = + (C) v u as 2 2 2 = + (D) a t v u = +",
-   "answer": "(B) The first fundamental equation of motion mathematically describes how an object’s velocity changes over time when subjected to constant acceleration. By algebraically rearranging the basic definition of average acceleration, we obtain the equation where final velocity equals the sum of the initial velocity and the product of acceleration and time."
+   "form": "mcq",
+   "page": 145,
+   "stem": "Which of the following kinematic equations correctly relates velocity, initial velocity, acceleration, and time for motion with constant acceleration?",
+   "answer": "The first fundamental equation of motion mathematically describes how an object’s velocity changes over time when subjected to constant acceleration. By algebraically rearranging the basic definition of average acceleration, we obtain the equation where final velocity equals the sum of the initial velocity and the product of acceleration and time.",
+   "options": [
+    {
+     "label": "A",
+     "text": "s ut at 2 1 2 = +"
+    },
+    {
+     "label": "B",
+     "text": "v u at = +"
+    },
+    {
+     "label": "C",
+     "text": "v u as 2 2 2 = +"
+    },
+    {
+     "label": "D",
+     "text": "a t v u = +"
+    }
+   ],
+   "correct_option": "B"
   },
   {
    "number": "45",
@@ -1139,21 +1173,21 @@
   {
    "number": "46",
    "form": "mcq",
-   "page": null,
+   "page": 145,
    "stem": "The graph displays the motion of two vehicles along a straight road. Based on the geometric properties of the graph, which conclusion is definitively correct?",
    "answer": "The slope of a position-time graph determines the velocity of the object. Car X’s line has a steeper slope than Car Y’s line, meaning Car X undergoes a greater change in position over the same time interval, thus having a higher velocity. Intersection indicates they share the same position at that instant, not that they stop.",
    "options": [
     {
      "label": "A",
-     "text": "Car Y is travelling at a higher velocity than"
+     "text": "Car Y is travelling at a higher velocity than Car X."
     },
     {
      "label": "B",
-     "text": "Car X has a higher uniform velocity than Car"
+     "text": "Car X has a higher uniform velocity than Car Y."
     },
     {
      "label": "C",
-     "text": "Both cars come to rest at the point of"
+     "text": "Both cars come to rest at the point of intersection."
     },
     {
      "label": "D",
@@ -1165,9 +1199,9 @@
   {
    "number": "47",
    "form": "mcq",
-   "page": null,
+   "page": 145,
    "stem": "The standard kinematic equations (like v = u + at) derived in the chapter are strictly valid ONLY when:",
-   "answer": "The mathematical derivation of the three fundamental kinematic equations fundamentally relies on the precise assumption that the rate of change of velocity is absolutely steady. Therefore, these specific equations can only be applied to analyze motion scenarios where the object’s acceleration remains perfectly constant throughout the entire time interval being considered. 48. Consider the symbols used in the kinematic equations: 1. u represents initial velocity. 2. v represents final velocity. 3. a represents average speed.",
+   "answer": "The mathematical derivation of the three fundamental kinematic equations fundamentally relies on the precise assumption that the rate of change of velocity is absolutely steady. Therefore, these specific equations can only be applied to analyze motion scenarios where the object’s acceleration remains perfectly constant throughout the entire time interval being considered.",
    "options": [
     {
      "label": "A",
@@ -1175,7 +1209,7 @@
     },
     {
      "label": "B",
-     "text": "The velocity of the object remains entirely"
+     "text": "The velocity of the object remains entirely constant."
     },
     {
      "label": "C",
@@ -1183,16 +1217,16 @@
     },
     {
      "label": "D",
-     "text": "The object starts its motion from absolute"
+     "text": "The object starts its motion from absolute rest."
     }
    ],
    "correct_option": "C"
   },
   {
-   "number": "4",
+   "number": "48",
    "form": "mcq",
-   "page": null,
-   "stem": "s represents displacement. Select the combination containing the correct symbol meanings:",
+   "page": 145,
+   "stem": "Consider the symbols used in the kinematic equations: 1. u represents initial velocity. 2. v represents final velocity. 3. a represents average speed. 4. s represents displacement. Select the combination containing the correct symbol meanings:",
    "answer": "In standard physics notation for kinematic equations, the letter u correctly denotes initial velocity, v denotes final velocity, and s signifies displacement. However, the symbol a is strictly reserved to represent constant acceleration, not average speed. Therefore, the third statement provides an incorrect definition for the widely used symbol a.",
    "options": [
     {
@@ -1216,15 +1250,34 @@
   },
   {
    "number": "49",
-   "form": "very_short",
-   "page": null,
-   "stem": "Which kinematic equation provides a mathematical relationship between position and velocity without requiring the time interval? (A) v u at = + (B) s ut at 2 1 2 = + (C) v u as 2 2 2 = + (D) ( ) s u v t 2 1 = +",
-   "answer": "(C) Describing Motion Around Us The third primary equation of motion is specifically derived by algebraically eliminating the time variable from the first two basic equations. This creates a highly useful formula linking final velocity, initial velocity, constant acceleration, and total displacement directly, proving advantageous when the total duration of the motion is entirely unknown."
+   "form": "mcq",
+   "page": 146,
+   "stem": "Which kinematic equation provides a mathematical relationship between position and velocity without requiring the time interval?",
+   "answer": "Describing Motion Around Us The third primary equation of motion is specifically derived by algebraically eliminating the time variable from the first two basic equations. This creates a highly useful formula linking final velocity, initial velocity, constant acceleration, and total displacement directly, proving advantageous when the total duration of the motion is entirely unknown.",
+   "options": [
+    {
+     "label": "A",
+     "text": "v u at = +"
+    },
+    {
+     "label": "B",
+     "text": "s ut at 2 1 2 = +"
+    },
+    {
+     "label": "C",
+     "text": "v u as 2 2 2 = +"
+    },
+    {
+     "label": "D",
+     "text": "( ) s u v t 2 1 = +"
+    }
+   ],
+   "correct_option": "C"
   },
   {
    "number": "50",
    "form": "mcq",
-   "page": null,
+   "page": 146,
    "stem": "Match the shapes of graphs in List-I with the corresponding type of motion in List-II. List-I List-II P. Position-time graph: Straight line parallel to time axis 1. Constant acceleration Q. Position-time graph: Straight line inclined to time axis 2. Constant velocity R. Velocity-time graph: Straight line parallel to time axis 3. Stationary object S. Velocity-time graph: Straight line inclined to time axis 4. Uniformly changing acceleration",
    "answer": "A horizontal position-time graph means the position is fixed, indicating a stationary object. An inclined position-time graph shows steady movement, meaning constant velocity. A horizontal velocity-time graph confirms the velocity is unchanging, also indicating constant velocity. An inclined velocity-time graph demonstrates a steadily changing velocity, representing constant acceleration motion.",
    "options": [
@@ -1250,7 +1303,7 @@
   {
    "number": "51",
    "form": "mcq",
-   "page": null,
+   "page": 146,
    "stem": "A car moving at ms 15 1 - applies brakes, producing a constant acceleration of ms 3 2 - - . How much distance will it travel before stopping?",
    "answer": "The initial velocity is fifteen, the final velocity is zero, and acceleration is negative three. We utilize the third kinematic equation, substituting zero for final velocity squared. This leaves negative two hundred twenty-five equals negative six times displacement. Solving this straightforward algebraic division yields exactly thirty-seven point five metres of stopping distance.",
    "options": [
@@ -1276,17 +1329,17 @@
   {
    "number": "52",
    "form": "assertion_reason",
-   "page": null,
+   "page": 146,
    "stem": "Assertion (A): In uniform circular motion, the speed of the object is constant, but its velocity continuously changes. Reason (R): Velocity depends only on the magnitude of motion, which remains constant in a circle.",
    "answer": "In uniform circular motion, an object travels at a steady speed, but its direction of movement alters at every single point along the circular path. Because velocity is a vector quantity demanding both magnitude and specific direction, a changing direction means the velocity continuously changes. Thus, the provided reason is completely false.",
    "options": [
     {
      "label": "A",
-     "text": "Both A and R are true and R is the correct"
+     "text": "Both A and R are true and R is the correct explanation of A"
     },
     {
      "label": "B",
-     "text": "Both A and R are true but R is not the"
+     "text": "Both A and R are true but R is not the correct explanation of A"
     },
     {
      "label": "C",
@@ -1301,10 +1354,29 @@
   },
   {
    "number": "53",
-   "form": "very_short",
-   "page": null,
-   "stem": "An object completes one full revolution in a circular path of radius R in time T . What is the formula for its average speed? (A) v T R = (B) v T R 2π = (C) v T R2 π = (D) v 0 =",
-   "answer": "(B) When an object traverses completely around a circle once, the total distance it covers is perfectly equal to the geometric circumference of that specific circle. The circumference is mathematically defined as two times pi times the radius. Therefore, average speed is this complete distance divided by the total time taken."
+   "form": "mcq",
+   "page": 147,
+   "stem": "An object completes one full revolution in a circular path of radius R in time T . What is the formula for its average speed?",
+   "answer": "When an object traverses completely around a circle once, the total distance it covers is perfectly equal to the geometric circumference of that specific circle. The circumference is mathematically defined as two times pi times the radius. Therefore, average speed is this complete distance divided by the total time taken.",
+   "options": [
+    {
+     "label": "A",
+     "text": "v T R ="
+    },
+    {
+     "label": "B",
+     "text": "v T R 2π ="
+    },
+    {
+     "label": "C",
+     "text": "v T R2 π ="
+    },
+    {
+     "label": "D",
+     "text": "v 0 ="
+    }
+   ],
+   "correct_option": "B"
   },
   {
    "number": "54",
@@ -1335,34 +1407,34 @@
   {
    "number": "55",
    "form": "mcq",
-   "page": null,
+   "page": 147,
    "stem": "Analyze the provided velocity-time graph. What does the shaded region represent, and what is its calculated numerical value?",
-   "answer": "The displacement of an object is determined by calculating the area enclosed between the velocity- time graph line and the time axis. The shaded region is a triangle. Using the area formula (1/2 × base × height), we calculate 1/2 × 10 s × 20 m/s = 100 m. The slope, not the area, would yield acceleration. 56. Consider an athlete running uniformly along different closed tracks: 1. On a rectangular track, the direction changes 4 times per round. 2. On a hexagonal track, the direction changes 6 times per round.",
+   "answer": "The displacement of an object is determined by calculating the area enclosed between the velocity- time graph line and the time axis. The shaded region is a triangle. Using the area formula (1/2 × base × height), we calculate 1/2 × 10 s × 20 m/s = 100 m. The slope, not the area, would yield acceleration.",
    "options": [
     {
      "label": "A",
-     "text": "The average acceleration of the object; ms"
+     "text": "The average acceleration of the object; ms 2 2"
     },
     {
      "label": "B",
-     "text": "The total displacement of the object;"
+     "text": "The total displacement of the object; m 100"
     },
     {
      "label": "C",
-     "text": "The maximum velocity reached;"
+     "text": "The maximum velocity reached; ms 20"
     },
     {
      "label": "D",
-     "text": "The total distance travelled;"
+     "text": "The total distance travelled; m 200"
     }
    ],
    "correct_option": "B"
   },
   {
-   "number": "3",
+   "number": "56",
    "form": "mcq",
-   "page": null,
-   "stem": "On a circular track, the direction changes only 1 time per round. Select the correct combination:",
+   "page": 147,
+   "stem": "Consider an athlete running uniformly along different closed tracks: 1. On a rectangular track, the direction changes 4 times per round. 2. On a hexagonal track, the direction changes 6 times per round. 3. On a circular track, the direction changes only 1 time per round. Select the correct combination:",
    "answer": "Running steadily around a rectangular track naturally requires turning corners, causing four distinct direction changes per lap. A hexagonal path demands six specific directional shifts. However, a perfectly circular track represents an infinite number of infinitesimal sides, meaning the athlete’s direction of motion changes continuously at every single point, not just once.",
    "options": [
     {
@@ -1387,7 +1459,7 @@
   {
    "number": "57",
    "form": "mcq",
-   "page": null,
+   "page": 147,
    "stem": "In uniform circular motion, what indicates the direction of velocity of the object at any specific instant?",
    "answer": "When an object moves continuously along a circular path, its instantaneous direction of travel is always straight ahead relative to its current position. Geometrically, this specific forward direction aligns perfectly with the straight tangent line drawn directly touching the circle at the exact point where the object is located at that moment.",
    "options": [
@@ -1397,15 +1469,15 @@
     },
     {
      "label": "B",
-     "text": "A straight line passing through the circle’s"
+     "text": "A straight line passing through the circle’s diameter"
     },
     {
      "label": "C",
-     "text": "The tangent to the circle at that specific"
+     "text": "The tangent to the circle at that specific point"
     },
     {
      "label": "D",
-     "text": "A line drawn parallel to the initial starting"
+     "text": "A line drawn parallel to the initial starting point"
     }
    ],
    "correct_option": "C"
@@ -1413,7 +1485,7 @@
   {
    "number": "58",
    "form": "mcq",
-   "page": null,
+   "page": 148,
    "stem": "If an object moving in a uniform circular path is suddenly released, how will it move immediately after release?",
    "answer": "Describing Motion Around Us According to basic physical principles, an object tends to maintain its current direction of motion unless constrained. When released from a circular trajectory, the constraining force vanishes. The object simply continues traveling straight ahead in the exact direction it was heading at that specific instant, moving directly along the tangent line.",
    "options": [
@@ -1423,15 +1495,15 @@
     },
     {
      "label": "B",
-     "text": "It will move in a straight line along the"
+     "text": "It will move in a straight line along the tangent."
     },
     {
      "label": "C",
-     "text": "It will reverse its direction along the same"
+     "text": "It will reverse its direction along the same circle."
     },
     {
      "label": "D",
-     "text": "It will instantly fall straight downwards due"
+     "text": "It will instantly fall straight downwards due to gravity."
     }
    ],
    "correct_option": "B"
@@ -1439,25 +1511,25 @@
   {
    "number": "59",
    "form": "mcq",
-   "page": null,
+   "page": 148,
    "stem": "Why is uniform circular motion considered an accelerated motion despite the speed remaining constant?",
    "answer": "Acceleration is strictly defined as any change in the velocity vector over time. Velocity comprises both a numerical magnitude and a spatial direction. Although an object in uniform circular motion maintains a perfectly constant speed, its direction of travel changes continuously at every point, meaning its velocity changes, thus constituting acceleration.",
    "options": [
     {
      "label": "A",
-     "text": "Because the radius of the circle constantly"
+     "text": "Because the radius of the circle constantly changes."
     },
     {
      "label": "B",
-     "text": "Because the direction of velocity continuously"
+     "text": "Because the direction of velocity continuously changes."
     },
     {
      "label": "C",
-     "text": "Because the object covers unequal distances"
+     "text": "Because the object covers unequal distances in equal times."
     },
     {
      "label": "D",
-     "text": "Because the object eventually comes to a"
+     "text": "Because the object eventually comes to a complete halt."
     }
    ],
    "correct_option": "B"
@@ -1465,35 +1537,35 @@
   {
    "number": "60",
    "form": "mcq",
-   "page": null,
+   "page": 148,
    "stem": "An object moves along a continuous path as depicted by the vectors at three distinct positions. Which statement correctly categorizes the physical nature of this motion?",
-   "answer": "In uniform circular motion, the object maintains a constant speed, represented by the identical lengths of the velocity vectors. However, because the direction of motion continuously changes tangentially at every point, the velocity itself is not constant. This continuous change in velocity dictates that the motion is fundamentally accelerated, rendering claims of unaccelerated motion incorrect. 61. Which sequence best describes the mathematical derivation of the equation v u as 2 2 2 = + from the other two kinematic equations? 1. Substitute the expression for t into the displacement equation s ut at 2 1 2 = + . 2. Isolate time t from the first equation v u at = + .",
+   "answer": "In uniform circular motion, the object maintains a constant speed, represented by the identical lengths of the velocity vectors. However, because the direction of motion continuously changes tangentially at every point, the velocity itself is not constant. This continuous change in velocity dictates that the motion is fundamentally accelerated, rendering claims of unaccelerated motion incorrect.",
    "options": [
     {
      "label": "A",
-     "text": "The motion is unaccelerated because the"
+     "text": "The motion is unaccelerated because the magnitude of velocity remains constant."
     },
     {
      "label": "B",
-     "text": "The motion is accelerated because the"
+     "text": "The motion is accelerated because the direction of velocity changes continuously."
     },
     {
      "label": "C",
-     "text": "The average velocity of the object over one"
+     "text": "The average velocity of the object over one complete revolution is equal to v."
     },
     {
      "label": "D",
-     "text": "The motion represents zero displacement at"
+     "text": "The motion represents zero displacement at every recorded position."
     }
    ],
    "correct_option": "B"
   },
   {
-   "number": "3",
+   "number": "61",
    "form": "mcq",
-   "page": null,
-   "stem": "Simplify the resulting algebraic equation to eliminate t entirely. Select the correct logical sequence:",
-   "answer": "To derive the third kinematic equation, the initial crucial step is to rearrange the first equation to express time exclusively. Following this, this new expression for time must be carefully substituted directly into the second equation for displacement. Finally, the resulting complex expression is algebraically expanded and simplified to reach the final formula. 62. Arrange the actions required to plot a basic position-time graph from a given data table. 1. Draw two perpendicular axes and mark the origin. 2. Connect all plotted points to create the final graph line. 3. Choose a suitable scale for both time and position axes.",
+   "page": 148,
+   "stem": "Which sequence best describes the mathematical derivation of the equation v u as 2 2 2 = + from the other two kinematic equations? 1. Substitute the expression for t into the displacement equation s ut at 2 1 2 = + . 2. Isolate time t from the first equation v u at = + . 3. Simplify the resulting algebraic equation to eliminate t entirely. Select the correct logical sequence:",
+   "answer": "To derive the third kinematic equation, the initial crucial step is to rearrange the first equation to express time exclusively. Following this, this new expression for time must be carefully substituted directly into the second equation for displacement. Finally, the resulting complex expression is algebraically expanded and simplified to reach the final formula.",
    "options": [
     {
      "label": "A",
@@ -1515,11 +1587,11 @@
    "correct_option": "B"
   },
   {
-   "number": "4",
+   "number": "62",
    "form": "mcq",
    "page": 149,
-   "stem": "Plot the individual data points on the graph paper. Select the correct sequence:",
-   "answer": "When constructing any standard scientific graph, the mandatory first step is properly drawing the perpendicular axes and locating the origin. Secondly, a proportional scale must be strategically chosen to fit the data on the page. Next, individual coordinates are carefully plotted. Lastly, these separate points are systematically connected to form the continuous line. 63. Identify the correct statements regarding the examples of motion in different dimensions: 1. A car moving on a straight highway is in one- dimensional motion. 2. A planet revolving around the Sun is modeled as two-dimensional circular motion. 3. A bird flying freely in the sky exhibits three- dimensional motion.",
+   "stem": "Arrange the actions required to plot a basic position-time graph from a given data table. 1. Draw two perpendicular axes and mark the origin. 2. Connect all plotted points to create the final graph line. 3. Choose a suitable scale for both time and position axes. 4. Plot the individual data points on the graph paper. Select the correct sequence:",
+   "answer": "When constructing any standard scientific graph, the mandatory first step is properly drawing the perpendicular axes and locating the origin. Secondly, a proportional scale must be strategically chosen to fit the data on the page. Next, individual coordinates are carefully plotted. Lastly, these separate points are systematically connected to form the continuous line.",
    "options": [
     {
      "label": "A",
@@ -1527,7 +1599,7 @@
     },
     {
      "label": "B",
-     "text": "3, 1, 4, 2"
+     "text": "3, 1, 4, 2 Click Here to Buy book on Amazon"
     },
     {
      "label": "C",
@@ -1541,10 +1613,10 @@
    "correct_option": "A"
   },
   {
-   "number": "4",
+   "number": "63",
    "form": "mcq",
-   "page": null,
-   "stem": "A train on a straight track is an example of two-dimensional motion. Select the correct combination:",
+   "page": 149,
+   "stem": "Identify the correct statements regarding the examples of motion in different dimensions: 1. A car moving on a straight highway is in one- dimensional motion. 2. A planet revolving around the Sun is modeled as two-dimensional circular motion. 3. A bird flying freely in the sky exhibits three- dimensional motion. 4. A train on a straight track is an example of two-dimensional motion. Select the correct combination:",
    "answer": "Movement strictly along a straight highway or straight train track is defined as one-dimensional motion. Therefore, stating a train exhibits two- dimensional motion is factually incorrect. Motion within a flat plane, like a planetary orbit, is two-dimensional. Movement freely through open space, like a flying bird, inherently represents complex three-dimensional motion.",
    "options": [
     {
@@ -1569,7 +1641,7 @@
   {
    "number": "64",
    "form": "mcq",
-   "page": null,
+   "page": 149,
    "stem": "When applying brakes to a moving car, the total distance it travels before completely stopping depends heavily on:",
    "answer": "The precise distance a vehicle travels after brakes are engaged is mathematically governed by the third kinematic equation. This crucial stopping distance is directly dependent on the initial velocity the car possessed when braking began, combined with the specific magnitude of negative acceleration, or deceleration, generated by the friction of the braking system.",
    "options": [
@@ -1583,7 +1655,7 @@
     },
     {
      "label": "C",
-     "text": "The initial velocity and the negative"
+     "text": "The initial velocity and the negative acceleration provided"
     },
     {
      "label": "D",
@@ -1595,7 +1667,7 @@
   {
    "number": "65",
    "form": "mcq",
-   "page": null,
+   "page": 149,
    "stem": "Which of the following physical quantities is completely specified by just its numerical value (with units) and does NOT require direction?",
    "answer": "In foundational physics, scalar quantities possess solely a magnitude, whereas vector quantities require both magnitude and a specific spatial direction. Displacement, velocity, and acceleration are all vectors because direction is essential to their definition. However, the total distance travelled measures only the overall path length, functioning purely as a scalar quantity requiring no direction. VER Y SHO RT ANSWER",
    "options": [

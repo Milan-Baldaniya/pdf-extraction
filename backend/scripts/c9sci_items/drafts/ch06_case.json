@@ -14,7 +14,7 @@
   {
    "number": "134",
    "form": "case_study",
-   "page": null,
+   "page": 229,
    "stem": "During a local marathon in the summer, a medical volunteer named Priya is tasked with preparing rehydration fluids for the runners. She needs to prepare a specific glucose drip for a runner who has collapsed from exhaustion. The doctor instructs her to quickly prepare 300 mL of a 5% m/v (mass by volume percentage) glucose solution. Priya has a large container of pure glucose powder and several bottles of sterile distilled water at her medical station. QUESTIONS: (a) Identify the solute and the solvent in the mixture Priya is preparing. (b) Calculate the exact mass of glucose powder Priya needs to measure out to prepare 300 mL of the required 5% m/v solution. (c) Why is it important for Priya to mix the exact right proportion of glucose and water, rather than just guessing the amounts?",
    "answer": "(a) The solute is the glucose powder, and the solvent is the sterile distilled water. (b) Mass by volume percentage = (Mass of solute/Volume of solution) × 100 So, 5 = (Mass of glucose/300) × 100 Mass of glucose = (5 × 300)/100 = 15 grams. Priya needs 15 grams of glucose. Click Here to Buy book on Amazon Newton’s third law of motion states that for every action, there is an equal and opposite reaction; hence, regardless of their different masses, both carts exert an equal magnitude of force on each other during the collision."
   },
@@ -28,14 +28,14 @@
   {
    "number": "11",
    "form": "case_study",
-   "page": null,
+   "page": 229,
    "stem": "The velocity-time graph of an object of mass 10 kg moving along a straight line is shown in figure . Calculate the force acting on the object by using the graph.",
    "answer": "From the given graph, The initial velocity (u) at time t = 0 is 10 m/s, and the final velocity (v) at time t = 8 s is 30 m/s. The acceleration (a) using the formula a = (v - u) / t. a = (30 m/s - 10 m/s) / 8 s = 20 / 8 = 2.5 m/s2. Using Newton’s second law, Force (F) = mass (m) × acceleration (a) F = 10 kg × 2.5 m/s2= 25 N. The force acting on the object is 25 N."
   },
   {
    "number": "12",
    "form": "case_study",
-   "page": null,
+   "page": 230,
    "stem": "A bullet of mass 50 g moving with a speed of 100 ms–1 enters a heavy stationary wooden block and stops after penetrating a distance of 50 cm. Estimate the stopping force acting on the bullet (assume that the bullet undergoes constant acceleration within the block).",
    "answer": "Given Mass of the bullet (m) = 50 g = 0.05 kg Initial velocity (u) = 100 m/s Final velocity (v) = 0 m/s (since it stops) Distance (s) = 50 cm = 0.5 m Using the kinematic equation v2 - u2 = 2as: 02 - (100)2 = 2 × a × 0.5 -10000 = 1 × a Acceleration (a) = -10000 m/s2 How Forces Affect Motion"
   },
@@ -48,19 +48,19 @@
    "options": [
     {
      "label": "A",
-     "text": "ms"
+     "text": "ms 1 2 -"
     },
     {
      "label": "B",
-     "text": "ms"
+     "text": "ms 2 2 -"
     },
     {
      "label": "C",
-     "text": "ms"
+     "text": "ms 3 2 -"
     },
     {
      "label": "D",
-     "text": "ms"
+     "text": "ms 5 2 -"
     }
    ],
    "correct_option": "A"
@@ -68,25 +68,25 @@
   {
    "number": "24",
    "form": "mcq",
-   "page": null,
+   "page": 230,
    "stem": "The given velocity-time graph represents the uniform motion of a sliding object. What can be directly concluded about the net force acting on this object?",
    "answer": "The velocity-time graph displays a horizontal straight line parallel to the time axis, indicating that the object moves with a constant velocity. According to Newton’s first law of motion, an object strictly maintains a constant velocity and zero acceleration only when the net external force acting upon it is identically zero.",
    "options": [
     {
      "label": "A",
-     "text": "A constant non-zero net force acts in the"
+     "text": "A constant non-zero net force acts in the direction of motion."
     },
     {
      "label": "B",
-     "text": "A continuously increasing net force acts upon"
+     "text": "A continuously increasing net force acts upon the moving object."
     },
     {
      "label": "C",
-     "text": "The net external force acting on the object is"
+     "text": "The net external force acting on the object is exactly zero."
     },
     {
      "label": "D",
-     "text": "A net force acts in the direction opposite to"
+     "text": "A net force acts in the direction opposite to its general motion."
     }
    ],
    "correct_option": "C"
@@ -94,25 +94,25 @@
   {
    "number": "25",
    "form": "mcq",
-   "page": null,
+   "page": 230,
    "stem": "An object of mass kg 10 initially at rest is subjected to a constant net force of 50 N. What will be its velocity after exactly 4 seconds?",
    "answer": "First, calculate the acceleration using the second law of motion formula / F m a = . Dividing fifty newtons by ten kilograms yields an acceleration of five metres per second squared. Using the kinematic equation v = u + at with zero initial velocity, multiplying five by four seconds perfectly gives a final velocity of twenty metres per second.",
    "options": [
     {
      "label": "A",
-     "text": "ms"
+     "text": "ms 5 1 -"
     },
     {
      "label": "B",
-     "text": "ms"
+     "text": "ms 10 1 -"
     },
     {
      "label": "C",
-     "text": "ms"
+     "text": "ms 20 1 -"
     },
     {
      "label": "D",
-     "text": "ms"
+     "text": "ms 40 1 -"
     }
    ],
    "correct_option": "C"
@@ -120,25 +120,25 @@
   {
    "number": "26",
    "form": "mcq",
-   "page": null,
+   "page": 230,
    "stem": "According to Newton’s third law of motion, whenever a primary object completely exerts a force on a secondary object, the secondary object always:",
    "answer": "Newton’s third law of motion fundamentally establishes that forces strictly occur in interacting pairs. Whenever object A exerts a defined force upon object B, object B must simultaneously exert a force of completely equal magnitude but in the exact opposite direction upon object A. These paired forces are simultaneous and define the concept of action and reaction.",
    "options": [
     {
      "label": "A",
-     "text": "Exerts a slightly lesser opposing force on the"
+     "text": "Exerts a slightly lesser opposing force on the primary object"
     },
     {
      "label": "B",
-     "text": "Exerts"
+     "text": "Exerts an equal and opposite force simultaneously on the primary object"
     },
     {
      "label": "C",
-     "text": "Exerts a larger and opposite force delayed in"
+     "text": "Exerts a larger and opposite force delayed in time"
     },
     {
      "label": "D",
-     "text": "Accelerates exactly at the same rate regardless"
+     "text": "Accelerates exactly at the same rate regardless of its mass"
     }
    ],
    "correct_option": "B"
@@ -146,25 +146,25 @@
   {
    "number": "27",
    "form": "mcq",
-   "page": null,
+   "page": 231,
    "stem": "If action and reaction forces are always exactly equal in magnitude and opposite in direction, why do they not simply cancel each other out to produce zero net force?",
    "answer": "Although action and reaction forces are completely equal and opposite in magnitude, Substituting the values of m1 and m2: m = (F/a1) + (F/a2) = F(1/a1 + 1/a2) = F[(a1 + a2)/(a1 × a2)] The resulting acceleration (a) when force F is applied to this combined mass is: a = F/m a = F/{F[(a1 + a2)/(a1 × a2)]} The F cancels out, leaving: a = (a1 × a2)/(a1 + a2)",
    "options": [
     {
      "label": "A",
-     "text": "Because action forces are naturally stronger"
+     "text": "Because action forces are naturally stronger than reaction forces"
     },
     {
      "label": "B",
-     "text": "Because they always act simultaneously on"
+     "text": "Because they always act simultaneously on two completely different objects"
     },
     {
      "label": "C",
-     "text": "Because they act sequentially on the same"
+     "text": "Because they act sequentially on the same individual object"
     },
     {
      "label": "D",
-     "text": "Because the objects invariably possess vastly"
+     "text": "Because the objects invariably possess vastly different physical masses"
     }
    ],
    "correct_option": "B"
@@ -172,7 +172,7 @@
   {
    "number": "16",
    "form": "case_study",
-   "page": null,
+   "page": 231,
    "stem": "When the pole of a bar magnet is brought close to a magnetic compass, the bar magnet and the compass needle (which is also a magnet) exert a magnetic force on each other. As per Newton’s third law of motion, both the forces are equal in magnitude and opposite in direction. However, the compass needle moves, whereas the bar magnet does not move. Explain why.",
    "answer": "Even though the forces acting on both the bar magnet and the compass needle are equal in magnitude, their effects are very different due to their masses. According to Newton’s second law, acceleration is inversely proportional to mass (a = F/m). The compass needle has a very tiny mass, so the magnetic force causes a large, noticeable acceleration. In contrast, the bar magnet is significantly heavier, so the same magnitude of force produces an acceleration that is too small to be noticed, and often not enough to overcome the force of static friction holding it in place. OBJECTIVE QUESTION"
   },
@@ -188,111 +188,111 @@
    "form": "case_study",
    "page": 269,
    "stem": "Meera was preparing a science fair project to demonstrate how different materials affect motion. She set up a small wooden ramp and let a battery-free toy car roll down it. She tested the car’s movement on three different flat horizontal surfaces placed at the bottom of the ramp: a smooth polished marble floor, a rough concrete pathway, and a thick woolen carpet. She made sure to release the car from the exact same height on the ramp every time. She carefully recorded the distance the car travelled on each surface before coming to a complete stop and noticed drastic differences in her measurements across the three trials. QUESTIONS: (a) On which of the three surfaces will the toy car travel the maximum distance, and why? (b) Identify the unseen force that causes the moving toy car to eventually stop on the flat surfaces. Click Here to Buy book on Amazon How Forces Affect Motion (c) If Meera applied a thick layer of lubricating oil on the polished marble floor before the experiment, how would it affect the distance travelled by the car? (d) Based on Newton’s first law of motion, what would happen to the rolling car if the opposing force on the floor could magically be reduced to absolute zero?",
-   "answer": "(a) The toy car will travel the maximum distance on the smooth polished marble floor. This is because the marble floor offers the least amount of surface roughness, resulting in the smallest force of friction opposing the car’s motion. (b) The unseen force that causes the moving toy car to stop is the force of friction, which arises between the wheels of the car and the surface it is moving on. (c) Applying lubricating oil would make the marble surface even smoother, further reducing the force of friction. As a result, the toy car would travel an even greater distance before coming to a stop. (d) If the opposing force of friction were reduced to absolute zero, the net force acting horizontally on the car would be zero. According to Newton’s first law, the car would continue moving forever in a straight line with a constant velocity. 180. Two children are trying to push a very heavy wooden box across a rough floor. Initially, they apply a small force, but the box does not move. They increase their pushing force, but the box still remains stationary. Finally, when they push with all their might, the box just begins to slide. 1. When the children applied a small force and the box did not move, what force was opposing their push? 2. Were the forces acting on the box balanced or unbalanced when it was stationary despite the children pushing? Explain. 3. What changed when the children pushed with all their might and the box started to move, in terms of the forces acting on it?"
+   "answer": "(a) The toy car will travel the maximum distance on the smooth polished marble floor. This is because the marble floor offers the least amount of surface roughness, resulting in the smallest force of friction opposing the car’s motion. (b) The unseen force that causes the moving toy car to stop is the force of friction, which arises between the wheels of the car and the surface it is moving on. (c) Applying lubricating oil would make the marble surface even smoother, further reducing the force of friction. As a result, the toy car would travel an even greater distance before coming to a stop. (d) If the opposing force of friction were reduced to absolute zero, the net force acting horizontally on the car would be zero. According to Newton’s first law, the car would continue moving forever in a straight line with a constant velocity."
   },
   {
-   "number": "4",
+   "number": "180",
    "form": "case_study",
-   "page": null,
-   "stem": "Which of Newton’s laws of motion best describes the initial state of the box (at rest) and its tendency to remain at rest?",
-   "answer": "1. The force opposing their push was the force of friction between the bottom of the box and the rough floor. 2. When the box was stationary despite the children pushing, the forces acting on it were balanced. The pushing force applied by the children was equal and opposite to the frictional force. 3. When the children pushed with all their might and the box started to move, their applied pushing force became greater than the maximum frictional force. This resulted in an unbalanced force acting on the box in the direction of their push, causing it to accelerate and move. 4. Newton’s First Law of Motion (Law of Inertia) best describes the initial state of the box and its tendency to remain at rest unless acted upon by an unbalanced force."
+   "page": 269,
+   "stem": "Two children are trying to push a very heavy wooden box across a rough floor. Initially, they apply a small force, but the box does not move. They increase their pushing force, but the box still remains stationary. Finally, when they push with all their might, the box just begins to slide. 1. When the children applied a small force and the box did not move, what force was opposing their push? 2. Were the forces acting on the box balanced or unbalanced when it was stationary despite the children pushing? Explain. 3. What changed when the children pushed with all their might and the box started to move, in terms of the forces acting on it? 4. Which of Newton’s laws of motion best describes the initial state of the box (at rest) and its tendency to remain at rest?",
+   "answer": ""
   },
   {
-   "number": "181",
+   "number": "1",
    "form": "case_study",
    "page": 270,
-   "stem": "Captain Anya was conducting a spacewalk outside the International Space Station to repair a broken external solar panel. She observed that objects outside the station did not fall downwards because there was no strong gravitational pull acting as it does near Earth’s surface. During the repair, after a slight accidental bump from her heavy metallic wrench, a small bolt slipped from her glove. The small bolt drifted away into the dark vacuum of space in a perfectly straight line. It maintained exactly the same speed without ever slowing down, leaving Anya to watch it disappear slowly into the vast distance over several minutes. QUESTIONS: (a) Why did the metallic bolt continue moving in a straight line without slowing down? (b) State Newton’s law of motion that perfectly describes the behaviour of the drifting bolt. (c) What is the magnitude of the net force acting on the drifting bolt while it moves through deep space with constant velocity?",
-   "answer": "(a) The bolt continued moving at a steady speed in a straight line because space is a vacuum with no air resistance or friction to oppose its motion and change its velocity. (b) Newton’s first law of motion describes this behaviour. It states that an object in motion continues to move with a constant velocity unless a net force acts upon it. (c) Since the bolt is moving with a constant velocity (constant speed in a straight line), its acceleration is zero. Therefore, the net force acting on the drifting bolt is exactly zero. 182. A child kicks a football, and it flies a considerable distance. If the same child kicks a stone of the same size with what they perceive to be the same effort (force), the stone hardly moves, and the child might even hurt their foot. 1. Which object, the football or the stone, has more inertia? 2. How is inertia related to the mass of an object? 3. Explain why the football moves a greater distance than the stone when kicked with similar effort."
+   "stem": "The force opposing their push was the force of friction between the bottom of the box and the rough floor. 2. When the box was stationary despite the children pushing, the forces acting on it were balanced. The pushing force applied by the children was equal and opposite to the frictional force. 3. When the children pushed with all their might and the box started to move, their applied pushing force became greater than the maximum frictional force. This resulted in an unbalanced force acting on the box in the direction of their push, causing it to accelerate and move. 4. Newton’s First Law of Motion (Law of Inertia) best describes the initial state of the box and its tendency to remain at rest unless acted upon by an unbalanced force. 181. Captain Anya was conducting a spacewalk outside the International Space Station to repair a broken external solar panel. She observed that objects outside the station did not fall downwards because there was no strong gravitational pull acting as it does near Earth’s surface. During the repair, after a slight accidental bump from her heavy metallic wrench, a small bolt slipped from her glove. The small bolt drifted away into the dark vacuum of space in a perfectly straight line. It maintained exactly the same speed without ever slowing down, leaving Anya to watch it disappear slowly into the vast distance over several minutes. QUESTIONS: (a) Why did the metallic bolt continue moving in a straight line without slowing down? (b) State Newton’s law of motion that perfectly describes the behaviour of the drifting bolt. (c) What is the magnitude of the net force acting on the drifting bolt while it moves through deep space with constant velocity?",
+   "answer": "(a) The bolt continued moving at a steady speed in a straight line because space is a vacuum with no air resistance or friction to oppose its motion and change its velocity. (b) Newton’s first law of motion describes this behaviour. It states that an object in motion continues to move with a constant velocity unless a net force acts upon it. (c) Since the bolt is moving with a constant velocity (constant speed in a straight line), its acceleration is zero. Therefore, the net force acting on the drifting bolt is exactly zero."
   },
   {
-   "number": "4",
+   "number": "182",
    "form": "case_study",
-   "page": null,
-   "stem": "If the child wanted to give the stone the same acceleration as the football, would they need to apply less, more, or the same force? Which law explains this?",
-   "answer": "1. The stone has more inertia than the football. 2. Inertia is directly proportional to the mass of an object. The more massive an object, the greater its inertia. 3. The football moves a greater distance because it has less mass (and therefore less inertia) than the stone. For a similar applied force, the less massive object will experience a greater change in its state of motion (greater acceleration). 4. To give the more massive stone the same acceleration as the football, the child would need to apply a greater force. This is explained by Newton’s Second Law of Motion ( ) F ma ="
+   "page": 270,
+   "stem": "A child kicks a football, and it flies a considerable distance. If the same child kicks a stone of the same size with what they perceive to be the same effort (force), the stone hardly moves, and the child might even hurt their foot. 1. Which object, the football or the stone, has more inertia? 2. How is inertia related to the mass of an object? 3. Explain why the football moves a greater distance than the stone when kicked with similar effort. 4. If the child wanted to give the stone the same acceleration as the football, would they need to apply less, more, or the same force? Which law explains this?",
+   "answer": ""
   },
   {
-   "number": "183",
+   "number": "1",
    "form": "case_study",
-   "page": null,
-   "stem": "In a busy logistics warehouse, a worker named Tariq uses a mechanical pusher machine to move heavy supply crates along a very smooth metal track. The pusher machine is specifically programmed to apply a constant horizontal force of 200 N every time a button is pressed. Tariq first uses the machine to push a wooden crate having a mass of 40 kg. Later in his shift, he uses the exact same machine setting to push a much larger metal crate having a mass of 100 kg. He observes that while both crates start moving forward, the wooden crate picks up speed much more rapidly than the heavy metal crate. QUESTIONS: (a) Calculate the acceleration produced in the 40 kg wooden crate when the pusher applies its force. (b) What fundamental relationship between mass and acceleration is demonstrated in Tariq’s observation? (c) If Tariq wanted the 100 kg metal crate to accelerate at the exact same rate as the 40 kg crate, what must he do to the applied force? (d) Write the mathematical equation for Newton’s second law of motion that connects force, mass, and acceleration.",
+   "page": 270,
+   "stem": "The stone has more inertia than the football. 2. Inertia is directly proportional to the mass of an object. The more massive an object, the greater its inertia. 3. The football moves a greater distance because it has less mass (and therefore less inertia) than the stone. For a similar applied force, the less massive object will experience a greater change in its state of motion (greater acceleration). 4. To give the more massive stone the same acceleration as the football, the child would need to apply a greater force. This is explained by Newton’s Second Law of Motion ( ) F ma = 183. In a busy logistics warehouse, a worker named Tariq uses a mechanical pusher machine to move heavy supply crates along a very smooth metal track. The pusher machine is specifically programmed to apply a constant horizontal force of 200 N every time a button is pressed. Tariq first uses the machine to push a wooden crate having a mass of 40 kg. Later in his shift, he uses the exact same machine setting to push a much larger metal crate having a mass of 100 kg. He observes that while both crates start moving forward, the wooden crate picks up speed much more rapidly than the heavy metal crate. QUESTIONS: (a) Calculate the acceleration produced in the 40 kg wooden crate when the pusher applies its force. (b) What fundamental relationship between mass and acceleration is demonstrated in Tariq’s observation? (c) If Tariq wanted the 100 kg metal crate to accelerate at the exact same rate as the 40 kg crate, what must he do to the applied force? (d) Write the mathematical equation for Newton’s second law of motion that connects force, mass, and acceleration.",
    "answer": "(a) Using the formula a = F / m, the acceleration is 200 N / 40 kg = 5 m s-2. (b) Tariq’s observation demonstrates that for a given constant force, acceleration is inversely proportional to the mass of the object. A larger mass results in a smaller acceleration. (c) To make the 100 kg crate accelerate at 5 m s-2, he would need to increase the applied force. The required force would be F = m × a = 100 kg × 5 m s-2 = 500 N. (d) The mathematical equation for Newton’s second law is F = ma, where F is the net force, m is the mass, and a is the acceleration."
   },
   {
    "number": "184",
    "form": "case_study",
-   "page": null,
+   "page": 271,
    "stem": "During a state gymnastics training camp, Coach Sharma noticed that the junior athletes were complaining about knee and ankle pain after practicing their vault landings. They had been landing directly on a thin, hard rubber mat placed over the concrete floor. Coach Sharma immediately replaced the thin mat with a highly compressible, thick foam crash mat. He explained to the young gymnasts that the new mat would How Forces Affect Motion cushion their fall by sinking inwards deeply when they landed on it. After the equipment switch, the athletes found the landings much softer and reported no further joint pain during their daily practice sessions. QUESTIONS: (a) What happens to the final velocity of a gymnast when they land and come to a complete stop on the mat? (b) How does the thick compressible foam mat change the time duration of the gymnast’s landing compared to the hard rubber mat? (c) Explain how this change in time duration affects the acceleration (or deceleration) of the landing gymnast. (d) Using Newton’s second law of motion, justify why a smaller acceleration reduces the risk of joint injury. (e) Give one other real-life application, similar to the concept of the crash mat, used in modern passenger vehicles to protect people during collisions.",
-   "answer": "(a) When the gymnast lands and comes to a complete stop on the mat, their final velocity becomes zero. (b) The thick compressible foam mat increases the time duration over which the gymnast’s velocity reduces to zero, as it takes time for the mat to compress. (c) Because acceleration is the rate of change of velocity, increasing the time taken to stop reduces the magnitude of acceleration (or deceleration) experienced by the gymnast. (d) According to Newton’s second law, force is directly proportional to acceleration (F = ma). A smaller acceleration means a smaller net force is exerted by the mat on the gymnast’s legs, which minimizes the impact and reduces the risk of joint injury. (e) Airbags provided in vehicles are a similar application. They inflate during a collision to increase the time over which a passenger comes to a halt, thereby reducing the force exerted on them. 185. A fielder in a cricket match sees a fast-moving cricket ball coming towards him. To catch it, he moves his hands backward in the direction of the ball’s motion while making contact and bringing it to rest. If he tried to stop the ball abruptly without moving his hands back, the impact would be much harder and could hurt his hands. 1. What physical quantity of the cricket ball is significantly changed when the fielder catches it? 2. By moving his hands backward, what does the fielder increase – the force of impact or the time taken to stop the ball? 3. According to Newton’s Second Law of Motion (related to momentum), how does increasing the time of impact affect the force experienced by the fielder’s hands? (Force = Rate of change of momentum)."
+   "answer": "(a) When the gymnast lands and comes to a complete stop on the mat, their final velocity becomes zero. (b) The thick compressible foam mat increases the time duration over which the gymnast’s velocity reduces to zero, as it takes time for the mat to compress. (c) Because acceleration is the rate of change of velocity, increasing the time taken to stop reduces the magnitude of acceleration (or deceleration) experienced by the gymnast. (d) According to Newton’s second law, force is directly proportional to acceleration (F = ma). A smaller acceleration means a smaller net force is exerted by the mat on the gymnast’s legs, which minimizes the impact and reduces the risk of joint injury. (e) Airbags provided in vehicles are a similar application. They inflate during a collision to increase the time over which a passenger comes to a halt, thereby reducing the force exerted on them."
   },
   {
-   "number": "4",
+   "number": "185",
    "form": "case_study",
-   "page": null,
-   "stem": "Give another real-life example where the time of impact is increased to reduce the force.",
-   "answer": "1. The momentum of the cricket ball is significantly changed (from a high value to zero). 2. By moving his hands backward, the fielder increases the time taken to stop the ball (i.e., to reduce its momentum to zero). 3. Increasing the time of impact (during which the momentum changes) decreases the rate of change of momentum. Since force is proportional to the rate of change of momentum, this reduces the force experienced by the fielder’s hands. 4. Another example is high jumpers landing on a cushioned mat or sand pit, which increases the time it takes for them to come to rest, reducing the force of impact on their bodies. Also, cars have crumple zones that increase the time of impact during a collision."
+   "page": 271,
+   "stem": "A fielder in a cricket match sees a fast-moving cricket ball coming towards him. To catch it, he moves his hands backward in the direction of the ball’s motion while making contact and bringing it to rest. If he tried to stop the ball abruptly without moving his hands back, the impact would be much harder and could hurt his hands. 1. What physical quantity of the cricket ball is significantly changed when the fielder catches it? 2. By moving his hands backward, what does the fielder increase – the force of impact or the time taken to stop the ball? 3. According to Newton’s Second Law of Motion (related to momentum), how does increasing the time of impact affect the force experienced by the fielder’s hands? (Force = Rate of change of momentum). 4. Give another real-life example where the time of impact is increased to reduce the force.",
+   "answer": ""
   },
   {
-   "number": "186",
+   "number": "1",
    "form": "case_study",
    "page": 272,
-   "stem": "At the regional swimming championship, Anita was positioned at the edge of the pool waiting for the starting whistle. When the loud whistle blew, she forcefully pushed her feet backward against the rough starting block. Instantly, her body shot forward through the air and dived cleanly into the water. As she swam the freestyle stroke, she continuously pushed the water backward with her cupped hands and kicking feet. This constant repetitive action allowed her to glide forward rapidly through the water and eventually win the gold medal in the 100-meter freestyle race. QUESTIONS: (a) When Anita pushed her feet backward against the starting block, which force propelled her forward into the pool? (b) State the law of motion that governs Anita’s forward movement both at the dive and while swimming. (c) Identify the action and reaction forces occurring when Anita uses her hands to swim through the water. (d) Do the action and reaction forces in this swimming scenario cancel each other out? Provide a reason for your answer.",
-   "answer": "(a) When Anita pushed backward, the starting block exerted an equal and opposite reaction force forward on her feet, propelling her into the pool. (b) This is governed by Newton’s third law of motion, which states that to every action, there is an equal and opposite reaction. (c) The action force is Anita’s hands pushing the water backward. The reaction force is the water pushing Anita’s hands (and thus her body) forward with an equal magnitude. (d) No, the action and reaction forces do not cancel each other out. This is because they act on two completely different objects (Anita’s hands and the water), whereas forces only cancel out if they are balanced on the same object. 187. When a bullet is fired from a gun, the gun moves backward, or “recoils.” The forward force exerted on the bullet is accompanied by an equal and opposite force exerted by the bullet on the gun. The mass of the gun is significantly larger than the mass of the bullet. 1. Which of Newton’s laws of motion explains the recoil of the gun? 2. Are the force exerted on the bullet and the recoil force on the gun equal in magnitude? Are they in the same or opposite directions? 3. Why is the acceleration of the gun much less than the acceleration of the bullet, even though the forces are equal in magnitude?"
+   "stem": "The momentum of the cricket ball is significantly changed (from a high value to zero). 2. By moving his hands backward, the fielder increases the time taken to stop the ball (i.e., to reduce its momentum to zero). 3. Increasing the time of impact (during which the momentum changes) decreases the rate of change of momentum. Since force is proportional to the rate of change of momentum, this reduces the force experienced by the fielder’s hands. 4. Another example is high jumpers landing on a cushioned mat or sand pit, which increases the time it takes for them to come to rest, reducing the force of impact on their bodies. Also, cars have crumple zones that increase the time of impact during a collision. 186. At the regional swimming championship, Anita was positioned at the edge of the pool waiting for the starting whistle. When the loud whistle blew, she forcefully pushed her feet backward against the rough starting block. Instantly, her body shot forward through the air and dived cleanly into the water. As she swam the freestyle stroke, she continuously pushed the water backward with her cupped hands and kicking feet. This constant repetitive action allowed her to glide forward rapidly through the water and eventually win the gold medal in the 100-meter freestyle race. QUESTIONS: (a) When Anita pushed her feet backward against the starting block, which force propelled her forward into the pool? (b) State the law of motion that governs Anita’s forward movement both at the dive and while swimming. (c) Identify the action and reaction forces occurring when Anita uses her hands to swim through the water. (d) Do the action and reaction forces in this swimming scenario cancel each other out? Provide a reason for your answer.",
+   "answer": "(a) When Anita pushed backward, the starting block exerted an equal and opposite reaction force forward on her feet, propelling her into the pool. (b) This is governed by Newton’s third law of motion, which states that to every action, there is an equal and opposite reaction. (c) The action force is Anita’s hands pushing the water backward. The reaction force is the water pushing Anita’s hands (and thus her body) forward with an equal magnitude. (d) No, the action and reaction forces do not cancel each other out. This is because they act on two completely different objects (Anita’s hands and the water), whereas forces only cancel out if they are balanced on the same object."
   },
   {
-   "number": "4",
+   "number": "187",
    "form": "case_study",
-   "page": null,
-   "stem": "If the gun and bullet system is considered isolated, what can be said about the total momentum of the system before and after firing (if initially at rest)?",
-   "answer": "1. Newton’s Third Law of Motion explains the recoil of the gun (for every action, there is an equal and opposite reaction). 2. Yes, the force exerted on the bullet (action) and the recoil force on the gun (reaction) are equal in magnitude but opposite in direction. 3. The acceleration of the gun is much less than the acceleration of the bullet because the gun has a much larger mass than the bullet ( / a F m = ). For the same force, a larger mass results in smaller acceleration. 4. If the system is isolated and initially at rest, the total momentum of the system (gun + bullet) before firing is zero. Due to the law of conservation of momentum, the total momentum of the system after firing also remains zero (the forward momentum of the bullet is balanced by the backward momentum of the gun)."
+   "page": 272,
+   "stem": "When a bullet is fired from a gun, the gun moves backward, or “recoils.” The forward force exerted on the bullet is accompanied by an equal and opposite force exerted by the bullet on the gun. The mass of the gun is significantly larger than the mass of the bullet. 1. Which of Newton’s laws of motion explains the recoil of the gun? 2. Are the force exerted on the bullet and the recoil force on the gun equal in magnitude? Are they in the same or opposite directions? 3. Why is the acceleration of the gun much less than the acceleration of the bullet, even though the forces are equal in magnitude? 4. If the gun and bullet system is considered isolated, what can be said about the total momentum of the system before and after firing (if initially at rest)?",
+   "answer": ""
   },
   {
-   "number": "188",
+   "number": "1",
    "form": "case_study",
    "page": 273,
-   "stem": "Inspector Vikram was testing a newly issued sniper rifle at the police outdoor firing range. He carefully aimed at a paper target 200 meters away and pulled the trigger. Immediately, he felt a powerful, sudden backward jerk against his right shoulder, while the small metallic bullet blasted forward out of the barrel at a supersonic speed. Vikram knew that the explosive gases expanding inside the barrel applied a massive forward force on the bullet. Because of this, he always made sure to hold the heavy gun tightly against his body to manage the inevitable backward kick safely. QUESTIONS: (a) What term is commonly used in physics to describe the sudden backward jerk of the gun experienced by Inspector Vikram? (b) According to Newton’s third law, are the magnitudes of the force exerted on the forward- moving bullet and the force exerted on the backward-moving gun equal or different? (c) Why does the small bullet accelerate forward at a massive speed, while the heavy rifle only accelerates backward slightly, despite experiencing the same magnitude of force? Click Here to Buy book on Flipkart How Forces Affect Motion",
-   "answer": "(a) The sudden backward jerk of the gun is called the recoil of the gun. (b) According to Newton’s third law of motion, the magnitudes of the action force on the bullet and the reaction force on the gun are exactly equal. (c) Although the forces are equal in magnitude, they act on objects with very different masses. According to Newton’s second law (a = F/m), acceleration is inversely proportional to mass. Since the bullet has a tiny mass, it gets a massive acceleration, whereas the heavy rifle has a large mass and therefore experiences a much smaller backward acceleration. 189. A car with a dead battery needs to be pushed. One person tries to push it but can’t get it to move. When two people push, the car slowly starts to accelerate. The mass of the car is 1000 kg. When the two people push, they exert a combined constant force that results in the car accelerating at 0.05 m/s². 1. What was the net force on the car when only one person was pushing and it didn’t move? 2. When two people push and the car accelerates at 0.05 m/s², what is the magnitude of the net unbalanced force acting on the car? (Use Newton’s Second Law). 3. If the frictional force opposing the car’s motion is 100 N, what is the total force applied by the two people when the car is accelerating at 0.05 m/s²?"
+   "stem": "Newton’s Third Law of Motion explains the recoil of the gun (for every action, there is an equal and opposite reaction). 2. Yes, the force exerted on the bullet (action) and the recoil force on the gun (reaction) are equal in magnitude but opposite in direction. 3. The acceleration of the gun is much less than the acceleration of the bullet because the gun has a much larger mass than the bullet ( / a F m = ). For the same force, a larger mass results in smaller acceleration. 4. If the system is isolated and initially at rest, the total momentum of the system (gun + bullet) before firing is zero. Due to the law of conservation of momentum, the total momentum of the system after firing also remains zero (the forward momentum of the bullet is balanced by the backward momentum of the gun). 188. Inspector Vikram was testing a newly issued sniper rifle at the police outdoor firing range. He carefully aimed at a paper target 200 meters away and pulled the trigger. Immediately, he felt a powerful, sudden backward jerk against his right shoulder, while the small metallic bullet blasted forward out of the barrel at a supersonic speed. Vikram knew that the explosive gases expanding inside the barrel applied a massive forward force on the bullet. Because of this, he always made sure to hold the heavy gun tightly against his body to manage the inevitable backward kick safely. QUESTIONS: (a) What term is commonly used in physics to describe the sudden backward jerk of the gun experienced by Inspector Vikram? (b) According to Newton’s third law, are the magnitudes of the force exerted on the forward- moving bullet and the force exerted on the backward-moving gun equal or different? (c) Why does the small bullet accelerate forward at a massive speed, while the heavy rifle only accelerates backward slightly, despite experiencing the same magnitude of force? Click Here to Buy book on Flipkart How Forces Affect Motion",
+   "answer": "(a) The sudden backward jerk of the gun is called the recoil of the gun. (b) According to Newton’s third law of motion, the magnitudes of the action force on the bullet and the reaction force on the gun are exactly equal. (c) Although the forces are equal in magnitude, they act on objects with very different masses. According to Newton’s second law (a = F/m), acceleration is inversely proportional to mass. Since the bullet has a tiny mass, it gets a massive acceleration, whereas the heavy rifle has a large mass and therefore experiences a much smaller backward acceleration."
   },
   {
-   "number": "4",
+   "number": "189",
    "form": "case_study",
-   "page": null,
-   "stem": "If the same net unbalanced force found in Q2 was applied to a smaller car of mass 500 kg, what would be its acceleration?",
-   "answer": "1. When only one person was pushing and the car didn’t move, the net force on the car was zero. The pushing force was balanced by the frictional force. 2. Net unbalanced force F ma = . / kg m s N 1000 0 05 50 2 # = = . 3. Net force = Applied force - Frictional force. So, Applied force= Net force + Frictional force = 50 N + 100 N = 150 N. 4. Acceleration a / F m = / . / N kg m s 50 500 0 1 2 = = ."
+   "page": 273,
+   "stem": "A car with a dead battery needs to be pushed. One person tries to push it but can’t get it to move. When two people push, the car slowly starts to accelerate. The mass of the car is 1000 kg. When the two people push, they exert a combined constant force that results in the car accelerating at 0.05 m/s². 1. What was the net force on the car when only one person was pushing and it didn’t move? 2. When two people push and the car accelerates at 0.05 m/s², what is the magnitude of the net unbalanced force acting on the car? (Use Newton’s Second Law). 3. If the frictional force opposing the car’s motion is 100 N, what is the total force applied by the two people when the car is accelerating at 0.05 m/s²? 4. If the same net unbalanced force found in Q2 was applied to a smaller car of mass 500 kg, what would be its acceleration?",
+   "answer": ""
   },
   {
-   "number": "190",
+   "number": "1",
    "form": "case_study",
-   "page": null,
-   "stem": "A software engineering team was conducting a field test for a lightweight automated delivery drone. A monitoring device recorded the drone’s flight data and generated a velocity-time graph on a laptop screen for the engineers to analyze. The graph showed a straight line sloping upwards starting from the zero mark for the first five seconds. Then, the graph became a completely straight horizontal line parallel to the time axis for the next ten seconds. Finally, the graph showed a straight line sloping downwards until it touched the zero velocity mark again, indicating the drone had landed safely. QUESTIONS: (a) What type of motion does the drone exhibit during the first five seconds when the graph line slopes upwards? (b) Is there a net force acting on the drone during the period when the graph is a straight horizontal line? Justify your answer. (c) What does the downward sloping line in the final part of the graph indicate about the drone’s acceleration? (d) According to Newton’s first law, what is the required condition for the drone to maintain the horizontal line phase of the graph?",
-   "answer": "(a) During the first five seconds, the upward sloping velocity-time graph indicates that the drone is moving with constant acceleration (velocity is increasing at a steady rate). (b) No, there is no net force acting on the drone during the horizontal line phase. A horizontal velocity-time graph means the velocity is constant (acceleration is zero), which, according to Newton’s second law (F=ma), means the net force must be zero. (c) The downward sloping line indicates that the velocity is decreasing over time. This means the drone is undergoing negative acceleration or retardation as it prepares to land. (d) To maintain constant velocity (the horizontal line phase), Newton’s first law states that the net external force acting on the drone must be strictly zero. The thrust from the propellers must perfectly balance air resistance and gravity. 191. A book is resting on a horizontal table. The Earth exerts a gravitational force downwards on the book (its weight). The table exerts an upward normal force on the book. 1. According to Newton’s Third Law, what is the reaction force to the Earth’s gravitational pull on the book? On which object does this reaction force act? 2. What is the reaction force to the upward normal force exerted by the table on the book? On which object does this reaction force act? 3. Are the gravitational force on the book and the normal force from the table an action- reaction pair according to Newton’s Third Law? Why or why not?"
+   "page": 274,
+   "stem": "When only one person was pushing and the car didn’t move, the net force on the car was zero. The pushing force was balanced by the frictional force. 2. Net unbalanced force F ma = . / kg m s N 1000 0 05 50 2 # = = . 3. Net force = Applied force - Frictional force. So, Applied force= Net force + Frictional force = 50 N + 100 N = 150 N. 4. Acceleration a / F m = / . / N kg m s 50 500 0 1 2 = = . 190. A software engineering team was conducting a field test for a lightweight automated delivery drone. A monitoring device recorded the drone’s flight data and generated a velocity-time graph on a laptop screen for the engineers to analyze. The graph showed a straight line sloping upwards starting from the zero mark for the first five seconds. Then, the graph became a completely straight horizontal line parallel to the time axis for the next ten seconds. Finally, the graph showed a straight line sloping downwards until it touched the zero velocity mark again, indicating the drone had landed safely. QUESTIONS: (a) What type of motion does the drone exhibit during the first five seconds when the graph line slopes upwards? (b) Is there a net force acting on the drone during the period when the graph is a straight horizontal line? Justify your answer. (c) What does the downward sloping line in the final part of the graph indicate about the drone’s acceleration? (d) According to Newton’s first law, what is the required condition for the drone to maintain the horizontal line phase of the graph?",
+   "answer": "(a) During the first five seconds, the upward sloping velocity-time graph indicates that the drone is moving with constant acceleration (velocity is increasing at a steady rate). (b) No, there is no net force acting on the drone during the horizontal line phase. A horizontal velocity-time graph means the velocity is constant (acceleration is zero), which, according to Newton’s second law (F=ma), means the net force must be zero. (c) The downward sloping line indicates that the velocity is decreasing over time. This means the drone is undergoing negative acceleration or retardation as it prepares to land. (d) To maintain constant velocity (the horizontal line phase), Newton’s first law states that the net external force acting on the drone must be strictly zero. The thrust from the propellers must perfectly balance air resistance and gravity."
   },
   {
-   "number": "4",
+   "number": "191",
    "form": "case_study",
-   "page": null,
-   "stem": "If the book is at rest, what is the relationship between the magnitude of the gravitational force on the book and the normal force from the table?",
-   "answer": "1. The reaction force to the Earth’s gravitational pull on the book is an equal and opposite gravitational pull exerted by the book on the Earth. This force acts on the Earth. 2. The reaction force to the upward normal force exerted by the table on the book is an equal and opposite downward force exerted by the book on the table. This force acts on the table. 3. No, the gravitational force on the book (by Earth) and the normal force on the book (by the table) are not an action-reaction pair according to Newton’s Third Law. This is because both forces act on the same object (the book). An action-reaction pair always acts on two different objects. 4. If the book is at rest, the gravitational force on the book and the normal force from the table are equal in magnitude and opposite in direction (they are balanced forces acting on the book)."
+   "page": 274,
+   "stem": "A book is resting on a horizontal table. The Earth exerts a gravitational force downwards on the book (its weight). The table exerts an upward normal force on the book. 1. According to Newton’s Third Law, what is the reaction force to the Earth’s gravitational pull on the book? On which object does this reaction force act? 2. What is the reaction force to the upward normal force exerted by the table on the book? On which object does this reaction force act? 3. Are the gravitational force on the book and the normal force from the table an action- reaction pair according to Newton’s Third Law? Why or why not? 4. If the book is at rest, what is the relationship between the magnitude of the gravitational force on the book and the normal force from the table?",
+   "answer": ""
   },
   {
-   "number": "192",
+   "number": "1",
    "form": "case_study",
-   "page": null,
-   "stem": "In a high school physics laboratory, Mr. Iyer performed a simple demonstration for his students. He placed a strong bar magnet on a wooden table and brought a small iron nail close to it. The nail instantly leaped across the gap and stuck firmly to the magnet. Next, he dropped a ripe apple from his hand, and it fell straight to the floor. He explained to the curious class that just as the Earth pulls the apple downwards, the apple also pulls the Earth upwards. Similarly, the magnet pulls the nail, and the nail also pulls the magnet. QUESTIONS: (a) Does Newton’s third law of motion apply only to contact forces like pushing a box, or does it also apply to non-contact forces? (b) When the iron nail leaps towards the magnet, does the nail exert a force on the magnet? If yes, what is its magnitude relative to the magnet’s pull? (c) If the falling apple pulls the Earth upwards with an equal gravitational force, why do we only see the apple falling, but never see the Earth moving towards the apple?",
-   "answer": "(a) Newton’s third law applies to all types of forces, including both contact forces (like pushing) and non-contact forces (like magnetic and gravitational forces). (b) Yes, the nail exerts a magnetic force on the magnet. According to Newton’s third law, this force is exactly equal in magnitude and opposite in direction to the force exerted by the magnet on the nail. (c) We do not see the Earth moving towards the apple because the mass of the Earth is unimaginably large compared to the apple. Although the upward force on the Earth is equal to the downward force on the apple, the resulting acceleration of the Earth (a = F/m) is so infinitesimally small that it cannot be noticed or measured. Work, Energy, and Simple Machines 3. Machines Machine is a device which acts as a force multiplier or speed multiplier allowing us to apply effort at a more convenient point in an easier direction. Simple machines can be classified into two major classes, . . i e the lever and the inclined plane. But after modification into many other simple machines, the classification is of the following form: (i) Load L ^ h is the resistance overcome by the machine. (ii) Effort E ^ h is the force applied to overcome the resistance (or load). 3.1 Important Terms of Machine Some important terms related to machine are as follows : 1. The mechanical advantage of a machine is the ratio of the load overcome to the effort applied, . . i e Mechanical Advantage MA ^ h Eff rt L ad E L ο ο = ^ ^ h h 2. The velocity ratio of a machine is defined as the ratio of velocity of the effort to the velocity of the load. Velocity Ratio VR ^ h Vel city f l ad Vel city f eff rt V V L E ο ο ο ο ο ο = ^ ^ h h 3. If VE , VL are the velocities and dE and dL are the displacements of the effort and load respectively acting for a time t , then VR ( / ) ( / ) d t d t L E = d d L E = 4. No machine works by itself. The work is to be done by the effort E on the machine which is called the work input. i.e. Wi = effort E × ^ h displacement of the effort . dE ^ h 5. The work done by the machine in overcoming resistance or raising the load L is the work output. i.e. Wo = load × L ^ h displacement of the load dL ^ h 6. For an ideal (perfect) machine Work output WO ^ h = Work input Wi ^ h or Power output Pο ^ h = Power input Pt ^ h 7. The efficiency of a machine is defined as the ratio of the useful work done by the machine to the total work put into the machine in a specific time. η Inputp wer Outputp wer P P t ο ο = ο ^ ^ h h η ( ) int Total work put o the machine by effort in the same time Use w rk d ne by machine n l ad a certain time W W t O ο ο ο ο = ^ h η W rk input W rk utput W W i ο ο ο = ο ^ ^ h h The efficiency of an ideal machine is 1 or 100%. But for an actual machine, it is always less than 100%. 8. Relation between efficiency ( ) η , mechanical advantage MA ^ h and velocity ratio VR ^ h Mechanical advantage MA ^ h = Velocity ratio VR # ^ h Efficiency η ^ h 4. Lever A lever is a rigid, straight or bent bar which is capable of turning about a fixed turning point called fulcrum. According to principle of lever Load × Load arm = Effort × Effort arm 1. Depending upon the relative positions of the load, effort and fulcrum, levers are classified into three classes 195. A passenger is standing in a bus that is initially at rest. When the bus suddenly starts moving forward, the passenger tends to fall backward. Later, when the bus is moving at a constant speed and suddenly applies brakes, the passenger tends to fall forward. 1. Explain why the passenger tends to fall backward when the bus suddenly starts moving forward. Which law of motion is applicable here? 2. Explain why the passenger tends to fall forward when the moving bus suddenly stops. 3. What property of the passenger’s body is responsible for these experiences?"
+   "page": 275,
+   "stem": "The reaction force to the Earth’s gravitational pull on the book is an equal and opposite gravitational pull exerted by the book on the Earth. This force acts on the Earth. 2. The reaction force to the upward normal force exerted by the table on the book is an equal and opposite downward force exerted by the book on the table. This force acts on the table. 3. No, the gravitational force on the book (by Earth) and the normal force on the book (by the table) are not an action-reaction pair according to Newton’s Third Law. This is because both forces act on the same object (the book). An action-reaction pair always acts on two different objects. 4. If the book is at rest, the gravitational force on the book and the normal force from the table are equal in magnitude and opposite in direction (they are balanced forces acting on the book). 192. In a high school physics laboratory, Mr. Iyer performed a simple demonstration for his students. He placed a strong bar magnet on a wooden table and brought a small iron nail close to it. The nail instantly leaped across the gap and stuck firmly to the magnet. Next, he dropped a ripe apple from his hand, and it fell straight to the floor. He explained to the curious class that just as the Earth pulls the apple downwards, the apple also pulls the Earth upwards. Similarly, the magnet pulls the nail, and the nail also pulls the magnet. QUESTIONS: (a) Does Newton’s third law of motion apply only to contact forces like pushing a box, or does it also apply to non-contact forces? (b) When the iron nail leaps towards the magnet, does the nail exert a force on the magnet? If yes, what is its magnitude relative to the magnet’s pull? (c) If the falling apple pulls the Earth upwards with an equal gravitational force, why do we only see the apple falling, but never see the Earth moving towards the apple?",
+   "answer": "(a) Newton’s third law applies to all types of forces, including both contact forces (like pushing) and non-contact forces (like magnetic and gravitational forces). (b) Yes, the nail exerts a magnetic force on the magnet. According to Newton’s third law, this force is exactly equal in magnitude and opposite in direction to the force exerted by the magnet on the nail. (c) We do not see the Earth moving towards the apple because the mass of the Earth is unimaginably large compared to the apple. Although the upward force on the Earth is equal to the downward force on the apple, the resulting acceleration of the Earth (a = F/m) is so infinitesimally small that it cannot be noticed or measured. Work, Energy, and Simple Machines"
   },
   {
-   "number": "4",
+   "number": "3",
    "form": "case_study",
-   "page": null,
-   "stem": "How do safety belts in a car help prevent injuries related to this phenomenon when brakes are applied suddenly?",
-   "answer": "1. When the bus starts moving forward, the lower part of the passenger’s body (feet in contact with the bus floor) moves forward with the bus. However, due to inertia, the upper part of the body tends to remain at rest. This causes the passenger to feel a jerk and fall backward. Newton’s First Law of Motion (Law of Inertia) is applicable here. 2. When the moving bus suddenly stops, the lower part of the passenger’s body comes to rest with the bus. However, due to inertia, the upper part of the body tends to continue moving forward. This causes the passenger to fall forward. 3. The property of the passenger’s body responsible for these experiences is inertia – the tendency to resist a change in its state of motion or rest. 4. Safety belts exert a force on the passenger’s body when brakes are applied suddenly, preventing the passenger from continuing to move forward due to inertia, thereby reducing the risk of collision with the car’s interior and injury. 196. A truck moving at 5 m/s can cause much more damage upon collision than a bicycle moving at the same speed. A bullet fired from a gun has a small mass but can have a devastating impact due to its high velocity. These observations led Newton to introduce the concept of momentum. 1. How is the momentum of an object defined mathematically? 2. What are the SI units of momentum? 3. Why does a moving truck have more momentum than a bicycle moving at the same speed?"
+   "page": 276,
+   "stem": "Machines Machine is a device which acts as a force multiplier or speed multiplier allowing us to apply effort at a more convenient point in an easier direction. Simple machines can be classified into two major classes, . . i e the lever and the inclined plane. But after modification into many other simple machines, the classification is of the following form: (i) Load L ^ h is the resistance overcome by the machine. (ii) Effort E ^ h is the force applied to overcome the resistance (or load). 3.1 Important Terms of Machine Some important terms related to machine are as follows : 1. The mechanical advantage of a machine is the ratio of the load overcome to the effort applied, . . i e Mechanical Advantage MA ^ h Eff rt L ad E L ο ο = ^ ^ h h 2. The velocity ratio of a machine is defined as the ratio of velocity of the effort to the velocity of the load. Velocity Ratio VR ^ h Vel city f l ad Vel city f eff rt V V L E ο ο ο ο ο ο = ^ ^ h h 3. If VE , VL are the velocities and dE and dL are the displacements of the effort and load respectively acting for a time t , then VR ( / ) ( / ) d t d t L E = d d L E = 4. No machine works by itself. The work is to be done by the effort E on the machine which is called the work input. i.e. Wi = effort E × ^ h displacement of the effort . dE ^ h 5. The work done by the machine in overcoming resistance or raising the load L is the work output. i.e. Wo = load × L ^ h displacement of the load dL ^ h 6. For an ideal (perfect) machine Work output WO ^ h = Work input Wi ^ h or Power output Pο ^ h = Power input Pt ^ h 7. The efficiency of a machine is defined as the ratio of the useful work done by the machine to the total work put into the machine in a specific time. η Inputp wer Outputp wer P P t ο ο = ο ^ ^ h h η ( ) int Total work put o the machine by effort in the same time Use w rk d ne by machine n l ad a certain time W W t O ο ο ο ο = ^ h η W rk input W rk utput W W i ο ο ο = ο ^ ^ h h The efficiency of an ideal machine is 1 or 100%. But for an actual machine, it is always less than 100%. 8. Relation between efficiency ( ) η , mechanical advantage MA ^ h and velocity ratio VR ^ h Mechanical advantage MA ^ h = Velocity ratio VR # ^ h Efficiency η ^ h 4. Lever A lever is a rigid, straight or bent bar which is capable of turning about a fixed turning point called fulcrum. According to principle of lever Load × Load arm = Effort × Effort arm 1. Depending upon the relative positions of the load, effort and fulcrum, levers are classified into three classes 195. A passenger is standing in a bus that is initially at rest. When the bus suddenly starts moving forward, the passenger tends to fall backward. Later, when the bus is moving at a constant speed and suddenly applies brakes, the passenger tends to fall forward. 1. Explain why the passenger tends to fall backward when the bus suddenly starts moving forward. Which law of motion is applicable here? 2. Explain why the passenger tends to fall forward when the moving bus suddenly stops. 3. What property of the passenger’s body is responsible for these experiences? 4. How do safety belts in a car help prevent injuries related to this phenomenon when brakes are applied suddenly?",
+   "answer": ""
   },
   {
-   "number": "4",
+   "number": "1",
    "form": "case_study",
-   "page": null,
-   "stem": "Newton’s Second Law can also be stated in terms of momentum. What is this statement?",
+   "page": 276,
+   "stem": "When the bus starts moving forward, the lower part of the passenger’s body (feet in contact with the bus floor) moves forward with the bus. However, due to inertia, the upper part of the body tends to remain at rest. This causes the passenger to feel a jerk and fall backward. Newton’s First Law of Motion (Law of Inertia) is applicable here. 2. When the moving bus suddenly stops, the lower part of the passenger’s body comes to rest with the bus. However, due to inertia, the upper part of the body tends to continue moving forward. This causes the passenger to fall forward. 3. The property of the passenger’s body responsible for these experiences is inertia – the tendency to resist a change in its state of motion or rest. 4. Safety belts exert a force on the passenger’s body when brakes are applied suddenly, preventing the passenger from continuing to move forward due to inertia, thereby reducing the risk of collision with the car’s interior and injury. 196. A truck moving at 5 m/s can cause much more damage upon collision than a bicycle moving at the same speed. A bullet fired from a gun has a small mass but can have a devastating impact due to its high velocity. These observations led Newton to introduce the concept of momentum. 1. How is the momentum of an object defined mathematically? 2. What are the SI units of momentum? 3. Why does a moving truck have more momentum than a bicycle moving at the same speed? 4. Newton’s Second Law can also be stated in terms of momentum. What is this statement?",
    "answer": "1. The momentum (p) of an object is defined as the product of its mass (m) and its velocity (v): p mv = . 2. The SI unit of momentum is kilogram-meter per second (kg m/s). 3. A moving truck has more momentum than a bicycle at the same speed because the truck has a much larger mass. Since momentum is mass times velocity, a larger mass results in larger momentum for the same velocity. 4. Newton’s Second Law states that the rate of change of momentum of an object is proportional to the applied unbalanced force in the direction of the force. wwww.nodia.i"
   }
  ]

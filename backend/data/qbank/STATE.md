@@ -54,7 +54,8 @@ left off rather than set without images, which would hold every one on V-07.
 
 ## Commands
 
-    # re-parse drafts (idempotent)
+    # re-parse drafts. Skips any file a reader has already verified;
+    # --force overwrites those and throws their work away.
     venv/Scripts/python.exe -m scripts.parse_qbank_items \
       --standard 42 --subject 3975 --out scripts/c9sci_items/drafts
 

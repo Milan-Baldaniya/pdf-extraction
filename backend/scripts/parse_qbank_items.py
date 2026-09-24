@@ -285,6 +285,20 @@ def parse_extraction(md: str) -> dict[str, list[dict]]:
     return out
 
 
+def _is_verified(path: Path) -> bool:
+    """True if this file's items carry tags only a reader adds.
+
+    The parser never writes concept, bloom, dok or difficulty, so their
+    presence means somebody read the file and completed it.
+    """
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return False
+    items = payload.get("items") or []
+    return any(i.get("concept") or i.get("bloom") for i in items)
+
+
 def report(slug: str, items: list[dict]) -> str:
     bad_options = sum(
         1 for i in items if i["form"] == "mcq" and len(i.get("options") or []) != 4
@@ -313,6 +327,8 @@ def main() -> int:
     ap.add_argument("--subject", type=int)
     ap.add_argument("--section", help="only this slug")
     ap.add_argument("--out", help="directory for draft part files")
+    ap.add_argument("--force", action="store_true",
+                    help="overwrite files already verified by a reader")
     a = ap.parse_args()
 
     if not init_mariadb() or SessionLocal is None:
@@ -359,6 +375,15 @@ def main() -> int:
                 print(report(slug, items))
                 if out_dir:
                     path = out_dir / f"ch{sort_order:02d}_{slug}.json"
+                    # A file whose items carry concept/bloom has been read and
+                    # corrected by somebody. Overwriting it would throw that
+                    # away silently, and this command is the one most likely to
+                    # be re-run -- it took several passes to get the parser
+                    # right, and each pass wanted to rewrite everything.
+                    if path.exists() and _is_verified(path) and not a.force:
+                        print(f"  {'':<12} SKIPPED {path.name} - already verified "
+                              f"(--force to overwrite)")
+                        continue
                     path.write_text(json.dumps(
                         {"chapter": sort_order, "chapter_id": chapter_id,
                          "extraction_id": eid, "section": slug, "items": items},

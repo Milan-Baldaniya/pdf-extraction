@@ -32,6 +32,7 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 DRAFTS = Path(__file__).resolve().parent / "c9sci_items" / "drafts"
+KNOWN_GAPS = Path(__file__).resolve().parents[1] / "data" / "qbank" / "known_gaps.json"
 BLOOM = {"recall", "understand", "apply", "analyze", "evaluate", "create"}
 
 # Page furniture that has turned up bled into a stem or an answer, sometimes
@@ -258,6 +259,7 @@ def main() -> int:
     legal_cache: dict[int, set[str]] = {}
     header_cache: dict[int, re.Pattern | None] = {}
     seen_numbers: dict[str, list[int]] = {}
+    per_file: dict[str, list[int]] = {}
     total = tagged = bad_files = 0
     try:
         for path in paths:
@@ -269,6 +271,7 @@ def main() -> int:
             problems, stats = check_file(path, legal_cache[chapter_id],
                                          header_cache.get(chapter_id))
             seen_numbers.setdefault(path.name[:4], []).extend(stats["numbers"])
+            per_file[path.name] = stats["numbers"]
             total += stats["items"]
             tagged += stats["tagged"]
             flag = "ok" if not problems else f"{len(problems)} problem(s)"
@@ -282,8 +285,83 @@ def main() -> int:
                     print(f"      ! ... and {len(problems) - a.limit} more")
     finally:
         db.close()
-    print(f"\n{total} item(s), {tagged} fully tagged, {bad_files} file(s) with problems")
-    return 1 if bad_files else 0
+
+    # A hole in the printed numbering means a question reached no file at all,
+    # which is what happens when one is buried inside a neighbouring item. It
+    # is invisible otherwise: every file it should have been in is individually
+    # valid without it. Chapter 5's Q76 was buried inside objective Q35's
+    # option C with its answer overwriting Q35's, and nothing else noticed.
+    #
+    # A chapter is not one numbering run and it is not one run per file: it is
+    # several. Both chapter 4 and chapter 5 restart at 1 in Pause and Ponder,
+    # again in the reprinted NCERT exercise, and then number the objective
+    # block onward straight through to the end. Checking the chapter whole
+    # hides every hole, because the restarts cover the low numbers. Checking
+    # file by file invents holes, because those later sections are one run
+    # between them -- ch04_long holds 126-171 and 173-185 while ch04_case holds
+    # 172, and neither file is missing anything.
+    #
+    # So the files are walked in order of their lowest number and merged into a
+    # run while each one starts above where the last left off. A file that
+    # starts back inside the previous run begins a new one.
+    try:
+        known = json.loads(KNOWN_GAPS.read_text(encoding="utf-8"))
+    except Exception:
+        known = {}
+
+    # A number that known_gaps explains is left out of the grouping entirely.
+    # Chapter 4's Q172 is filed in ch04_case because that is where the book
+    # prints it, which drags that file's lowest number down from 186 to 172 and
+    # splits the run in two -- and then 173-185 look missing from the case file
+    # although they are all present in ch04_long. Excluding an explained number
+    # from the grouping, not just from the report, keeps one recorded oddity
+    # from manufacturing a second one.
+    runs: dict[str, list[int]] = {}
+    for chapter in sorted(seen_numbers):
+        skip = {int(k) for k in known.get(chapter, {}) if k.isdigit()}
+        files = sorted((( min(rest), max(rest), name, rest)
+                        for name, n in per_file.items()
+                        if name.startswith(chapter)
+                        and (rest := [x for x in n if x not in skip])),
+                       key=lambda f: (f[0], f[1]))
+        current: list[int] = []
+        names: list[str] = []
+        for low, high, name, numbers in files:
+            if current and low <= max(current):
+                runs[f"{chapter} {' + '.join(names)}"] = current
+                current, names = [], []
+            current.extend(numbers)
+            names.append(name.replace(f"{chapter}_", "").replace(".json", ""))
+        if current:
+            runs[f"{chapter} {' + '.join(names)}"] = current
+
+    gaps = 0
+    for name, numbers in sorted(runs.items()):
+        if len(numbers) < 3:
+            continue
+        low, high = min(numbers), max(numbers)
+        missing = sorted(set(range(low, high + 1)) - set(numbers))
+        if not missing:
+            continue
+        explained = {**known.get(name[:4], {}), **known.get(name.split()[0], {})}
+        for number in missing:
+            if str(number) in explained:
+                print(f"\n{name}: #{number} is absent from the book, not lost:")
+                print(f"      {explained[str(number)][:400]}")
+        unexplained = [n for n in missing if str(n) not in explained]
+        if unexplained:
+            gaps += 1
+            print(f"\n{name}: {len(unexplained)} number(s) missing between {low} "
+                  f"and {high}: {unexplained[:15]}"
+                  + (" ..." if len(unexplained) > 15 else ""))
+            print("      a question in no file at all is usually buried inside a "
+                  "neighbouring item's option or answer. If you check the source "
+                  "and it truly is not there, record it in "
+                  "data/qbank/known_gaps.json with the evidence.")
+
+    print(f"\n{total} item(s), {tagged} fully tagged, {bad_files} file(s) with problems"
+          + (f", {gaps} numbering gap(s)" if gaps else ""))
+    return 1 if (bad_files or gaps) else 0
 
 
 if __name__ == "__main__":

@@ -1,0 +1,18 @@
+{
+  "_comment": [
+    "Printed numbers that reach no draft file and never will, with the reason.",
+    "check_drafts reports a chapter-wide numbering gap because a missing number",
+    "usually means a question was buried inside a neighbouring item and is lost.",
+    "Sometimes the book itself is at fault, and then the check would cry wolf on",
+    "every future run until somebody stopped reading it. An entry here is a",
+    "claim that the source was examined and the question is not in it.",
+    "Keyed by chapter file prefix, then by printed number."
+  ],
+  "ch05": {
+    "6": "Not in the book. NCERT exercise 5 ends on folio 186 and 8 begins on folio 188; folio 187 carries a duplicated page of the chapter Summary (2.3 Solubility through 3.2 Distillation), verified against the mirrored PDF at page index 215. The stems of 6 and 7 were displaced by that duplicate and appear nowhere in the 147,240-char extraction. The tail of one of their answers survives at the top of folio 188 - a three-column table whose visible rows are 'Oil from water / Separating funnel' and 'Pigments of the flower / Paper chromatography' - and is deliberately in no draft file, since attaching an answer to a stem we do not have would be worse than losing it.",
+    "7": "Same page loss as 6."
+  },
+  "ch04": {
+    "172": "Filed on purpose, not lost. Q172 (Rahul / express train) is numbered inside the long-answer run but is PRINTED under the CASE BASED QUESTION banner, so the reader filed it in ch04_case.json. That makes ch04_case start at 172 rather than 186, which breaks the objective..long run in two and leaves 172 outside it. The question is present, complete and loaded. Do not 'fix' this by moving it back: it was split across two readers once already, its passage in the case range and its answer in the long range, and each correctly dropped the half they could not finish."
+  }
+}

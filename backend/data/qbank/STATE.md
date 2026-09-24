@@ -38,7 +38,19 @@ Class 10 Science curriculum mapping: 586 of 2,926 (`lms_question_outcome` 656).
 13 chapters extracted (rows 592-604, 2,010,399 chars, 375 figures).
 Drafts in `scripts/c9sci_items/drafts/` — 63 files, 2,289 items.
 
-Chapter 2 (row 592) is the gate chapter. Five agents verifying its sections.
+**Chapter 2 is LOADED and passed the gate** (row 592): 163 items, 0 held,
+240 options, concept_id AND concept on all 163, g_bloom/g_dok/g_difficulty on
+all 163, figure-resolution check clean. Bloom spread recall 55 / understand 40
+/ analyze 38 / evaluate 11 / create 10 / apply 9 -- authored, not keyword-
+guessed. Forms: mcq 60, very_short 53, short 30, case_study 10, long 10.
+
+Chapter 1 sections verified by agents but not yet merged or loaded.
+Chapters 3-13 drafts re-parsed with all four parser fixes; not yet verified.
+
+Known gap: 10 chapter-2 questions reference a figure, but nothing in the
+markdown ties an image file to a question. figure_required was deliberately
+left off rather than set without images, which would hold every one on V-07.
+28 images are available on the extraction if they can be matched.
 
 ## Commands
 

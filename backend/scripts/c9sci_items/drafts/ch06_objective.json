@@ -7,7 +7,7 @@
   {
    "number": "1",
    "form": "mcq",
-   "page": null,
+   "page": 231,
    "stem": "Which of the following physical quantities is required to completely specify a force acting on an object?",
    "answer": "Force is a physical quantity that requires both magnitude and direction for its complete description. If either the magnitude or the direction of the applied force changes, the overall effect on the object also changes. Therefore, force is classified as a vector quantity, unlike scalar quantities which only have magnitude and no specific direction associated with them.",
    "options": [
@@ -28,12 +28,16 @@
      "text": "Neither magnitude nor direction"
     }
    ],
-   "correct_option": "C"
+   "correct_option": "C",
+   "concept": "Net force from opposing forces",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
    "number": "2",
    "form": "mcq",
-   "page": null,
+   "page": 231,
    "stem": "What is the standard SI unit of force as established in scientific measurement?",
    "answer": "The standard international unit of force used in physics is the newton, which is symbolised by a capital letter N. This unit is named after the scientist Sir Isaac Newton. The magnitude of force applied on an object expresses its overall strength and determines the resulting acceleration produced in the object according to the second law.",
    "options": [
@@ -54,14 +58,18 @@
      "text": "Watt"
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "concept": "Definition of the newton",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
    "number": "3",
    "form": "mcq",
-   "page": 232,
+   "page": 231,
    "stem": "Consider a scenario where two teams are playing a game of tug of war. If both teams pull the rope in opposite directions with equal force, what will be the state of the rope?",
-   "answer": "In a game of tug of war, when both teams pull the rope with equal force in opposite directions, the net force acting on the rope becomes exactly zero. These equal and opposite forces are called balanced forces. Because the forces are perfectly balanced, the rope does not move and remains in its initial state of rest. How Forces Affect Motion",
+   "answer": "In a game of tug of war, when both teams pull the rope with equal force in opposite directions, the net force acting on the rope becomes exactly zero. These equal and opposite forces are called balanced forces. Because the forces are perfectly balanced, the rope does not move and remains in its initial state of rest.",
    "options": [
     {
      "label": "A",
@@ -80,600 +88,11 @@
      "text": "It breaks immediately in the middle"
     }
    ],
-   "correct_option": "C"
-  },
-  {
-   "number": "32",
-   "form": "mcq",
-   "page": 232,
-   "stem": "When a small bullet of mass . kg 0 05 is fired from a large gun of mass 4 kg with a forward force of 100 N, what is the magnitude of the initial recoil acceleration of the gun?",
-   "answer": "According to the third law, the gun experiences a backward recoil force equal to the bullet’s forward force, exactly one hundred newtons. To accurately determine the gun’s resulting acceleration, we divide this one hundred newton force by the gun’s total mass of four kilograms using the formula / F m a = . This calculation strictly yields twenty- five metres per second squared.",
-   "options": [
-    {
-     "label": "A",
-     "text": "ms 10 2 -"
-    },
-    {
-     "label": "B",
-     "text": "ms 25 2 -"
-    },
-    {
-     "label": "C",
-     "text": "ms 2000 2 -"
-    },
-    {
-     "label": "D",
-     "text": "ms 400 2 -"
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "33",
-   "form": "mcq",
-   "page": 232,
-   "stem": "Two identical spring balances are hooked together and pulled in opposite directions. If the person on the left pulls with a force of 15 N, what will be the reading on the right spring balance?",
-   "answer": "The interacting spring balances exert pulling forces upon each other. According to Newton’s third law of motion, whenever one object exerts a force on a second object, the second object simultaneously exerts an equal and opposite force. Therefore, both connected spring balances will constantly record the exact same fifteen-newton magnitude.",
-   "options": [
-    {
-     "label": "A",
-     "text": "0 N, because the two opposing mechanical forces cancel each other out completely."
-    },
-    {
-     "label": "B",
-     "text": "30 N, because the combined tension forces add up across the interacting system."
-    },
-    {
-     "label": "C",
-     "text": "15 N, because every action force actively produces an equal and opposite reaction force."
-    },
-    {
-     "label": "D",
-     "text": "7.5 N, because the total applied force distributes equally between the two internal springs."
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "34",
-   "form": "mcq",
-   "page": 232,
-   "stem": "When a swollen balloon is suddenly untied and the trapped air rushes out horizontally to the left, in which direction will the rubber balloon initially move?",
-   "answer": "The stretched rubber material forcefully pushes the trapped air horizontally to the left, effectively acting as an action force. Following Newton’s third law, the escaping rushing air exerts an equal and entirely opposite reaction force directly onto the balloon itself. Consequently, this reaction force propels the balloon strongly in the opposite horizontal direction, which is precisely towards the right.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Upwards"
-    },
-    {
-     "label": "B",
-     "text": "Downwards"
-    },
-    {
-     "label": "C",
-     "text": "Horizontally to the left"
-    },
-    {
-     "label": "D",
-     "text": "Horizontally to the right"
-    }
-   ],
-   "correct_option": "D"
-  },
-  {
-   "number": "35",
-   "form": "mcq",
-   "page": 232,
-   "stem": "Arrange the following sequence of events accurately to explain how a large ship is safely stopped using a thick pier rope: 1. The thick rope strongly grips the wooden post tightly. 2. The massive ship forcefully pulls on one end of the rope. 3. The opposing friction between the rough rope and post massively increases. 4. The rope is repeatedly wrapped tightly around a stationary post.",
-   "answer": "To safely secure a massive moving ship, a strong rope is first wrapped repeatedly around a sturdy post. When the moving ship initially pulls the rope, the multiple tight wraps tightly grip the post. This sequential gripping rapidly increases the effective surface friction exponentially. Consequently, this immensely enhanced friction successfully provides the massive holding force required.",
-   "options": [
-    {
-     "label": "A",
-     "text": "4, 2, 1, 3"
-    },
-    {
-     "label": "B",
-     "text": "2, 4, 3, 1"
-    },
-    {
-     "label": "C",
-     "text": "4, 2, 3, 1"
-    },
-    {
-     "label": "D",
-     "text": "1, 2, 4, 3"
-    }
-   ],
-   "correct_option": "A"
-  },
-  {
-   "number": "36",
-   "form": "mcq",
-   "page": 233,
-   "stem": "Select the correct sequential order of physical steps required to determine the overall mass of an interconnected system of two moving boxes: 1. Divide the calculated net external force by the measured systemic acceleration. 2. Carefully observe and measure the common acceleration of the moving system. 3. Treat the two connected boxes solely as a single unified moving system. Click Here to Buy book on Flipkart 9. In a classroom activity, a stack of coins is pulled with a rubber band across different horizontal surfaces. On which of the following surfaces will the stack of coins travel the greatest distance before coming to rest?",
-   "answer": "The magnitude of frictional force fundamentally depends heavily upon the relative smoothness or roughness of the interacting surfaces. A highly polished marble floor offers the least possible resistance among the given options. Consequently, the opposing frictional force is minimised, allowing the moving stack of coins to travel a significantly larger distance before gradually coming to rest.",
-   "options": [
-    {
-     "label": "A",
-     "text": "A rough cemented floor"
-    },
-    {
-     "label": "B",
-     "text": "A highly polished marble floor"
-    },
-    {
-     "label": "C",
-     "text": "A laminated wooden table top"
-    },
-    {
-     "label": "D",
-     "text": "A carpeted floor"
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "10",
-   "form": "mcq",
-   "page": 233,
-   "stem": "A student measures the horizontal forces acting on four different wooden blocks placed on a table. The blocks are being pushed to the right, while the frictional force acts to the left. Based on the data in the table, which block will move with a constant velocity? Block Applied Force to the Right (N) Frictional Force to the Left (N) Initial State Block W 15 10 Moving Block X 20 20 Moving Block Y 12 12 At rest Block Z 10 15 Moving",
-   "answer": "Constant velocity occurs when the net force acting on a moving object is zero. For Block X, the applied force and frictional force are perfectly balanced at twenty Newtons each, resulting in zero net force. Since it is already moving, it will continue to move uniformly without accelerating or decelerating.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Block W"
-    },
-    {
-     "label": "B",
-     "text": "Block X"
-    },
-    {
-     "label": "C",
-     "text": "Block Y"
-    },
-    {
-     "label": "D",
-     "text": "Block Z"
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "11",
-   "form": "mcq",
-   "page": 233,
-   "stem": "Who among the following historical scientists first argued through a series of thought experiments that if all impediments to motion are removed, a body moving along a horizontal plane will continue to move indefinitely?",
-   "answer": "In the seventeenth century, Galileo Galilei radically proposed through extensive thought experiments that objects in motion do not naturally require a continuous applied force to keep moving. He argued that if opposing forces like friction were completely eliminated, a body moving on a perfectly horizontal plane would persist in its uniform motion indefinitely without ever stopping.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Isaac Newton"
-    },
-    {
-     "label": "B",
-     "text": "Albert Einstein"
-    },
-    {
-     "label": "C",
-     "text": "Galileo Galilei"
-    },
-    {
-     "label": "D",
-     "text": "Johannes Kepler"
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "12",
-   "form": "assertion_reason",
-   "page": 233,
-   "stem": "Assertion (A): An object moving with a constant velocity on a horizontal surface has a net zero force acting upon it. Reason (R): The force of friction acting on the object is exactly balanced by the external applied force.",
-   "answer": "According to the first law of motion, an object maintains a constant velocity only when the overall net external force acting on it is zero. To achieve this constant velocity in reality, a continuous external forward force must be applied that precisely equals and cancels out the backward opposing frictional force, rendering the net force zero.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Both A and R are true and R is the correct explanation of A"
-    },
-    {
-     "label": "B",
-     "text": "Both A and R are true but R is not the correct explanation of A"
-    },
-    {
-     "label": "C",
-     "text": "A is true but R is false"
-    },
-    {
-     "label": "D",
-     "text": "A is false but R is true"
-    }
-   ],
-   "correct_option": "A"
-  },
-  {
-   "number": "13",
-   "form": "mcq",
-   "page": 234,
-   "stem": "Read the following statements related to Newton’s first law of motion: 1. It is also known as the law of inertia. 2. It states that an object changes its velocity even if net force is zero. 3. It explains the tendency of objects to resist a change in their state. 4. An object at rest has an acceleration of zero. Which of the above statements are correct?",
-   "answer": "The first law of motion formally describes inertia, which is the natural tendency of physical objects to stubbornly resist any change in their current state of rest or uniform motion. An object at rest possesses zero acceleration. However, if the net external force is zero, the velocity remains absolutely constant and cannot change under any circumstances.",
-   "options": [
-    {
-     "label": "A",
-     "text": "1, 2, and 3"
-    },
-    {
-     "label": "B",
-     "text": "1, 3, and 4"
-    },
-    {
-     "label": "C",
-     "text": "2, 3, and 4"
-    },
-    {
-     "label": "D",
-     "text": "1, 2, and 4 How Forces Affect Motion"
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "14",
-   "form": "mcq",
-   "page": 234,
-   "stem": "A fielder pulls his hands backward while catching a fast-moving cricket ball, as shown in the diagram. What is the primary physical principle utilized in this specific action to prevent injury?",
-   "answer": "By pulling the hands backward, the fielder effectively increases the time duration over which the high velocity of the ball reduces to zero. This deliberately decreases the magnitude of acceleration, requiring a considerably smaller opposing force to stop the ball, thereby minimizing the dangerous impact and preventing painful physical injury.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Decreasing the change in velocity of the ball to perfectly reduce the impact force."
-    },
-    {
-     "label": "B",
-     "text": "Increasing the time duration of the catch to strategically reduce the ball’s acceleration."
-    },
-    {
-     "label": "C",
-     "text": "Increasing the mass of the catching system to physically absorb the ball’s momentum."
-    },
-    {
-     "label": "D",
-     "text": "Applying an unbalanced contact force in the direction of the ball’s initial motion."
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "15",
-   "form": "mcq",
-   "page": 234,
-   "stem": "If the net external force acting on a moving car is entirely zero, what will be the shape of its position-time graph?",
-   "answer": "When the net external force on an object is zero, it completely maintains a uniform and constant velocity. On a standard position-time graph, uniform velocity is mathematically represented by a straight line inclined continuously to the time axis. A line parallel to the time axis would incorrectly indicate an object that is entirely stationary at rest.",
-   "options": [
-    {
-     "label": "A",
-     "text": "A straight line parallel to the time axis"
-    },
-    {
-     "label": "B",
-     "text": "A straight line parallel to the position axis"
-    },
-    {
-     "label": "C",
-     "text": "A straight inclined line passing through the origin"
-    },
-    {
-     "label": "D",
-     "text": "A continuous parabolic curve"
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "16",
-   "form": "mcq",
-   "page": 234,
-   "stem": "Which mathematical equation correctly represents Newton’s second law of motion relating force, mass, and acceleration?",
-   "answer": "Newton’s second law of motion mathematically establishes that the net external force acting upon an object is equal to the product of its mass and its resulting acceleration. This fundamental relationship is universally expressed by the simple algebraic formula F = ma, indicating that applied force is directly proportional to the acceleration produced in the mass.",
-   "options": [
-    {
-     "label": "A",
-     "text": "F = m/a"
-    },
-    {
-     "label": "B",
-     "text": "F = m + a"
-    },
-    {
-     "label": "C",
-     "text": "F = ma"
-    },
-    {
-     "label": "D",
-     "text": "F = a/m"
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "17",
-   "form": "mcq",
-   "page": 235,
-   "stem": "Four identical toy cars are set in motion on different surfaces. The table records their initial velocity and the total net force acting upon them. Which car will produce a position-time graph that is a straight line inclined to the time axis? Car Initial Velocity (m/s) Net Force (N) Car P 0 0 Car Q 5 2 Car R 4 0 Car S 3 -1",
-   "answer": "A straight line inclined to the time axis on a position-time graph indicates uniform motion with a constant, non-zero velocity. According to Newton’s first law, an object maintains its constant velocity only when the net force acting on it is zero. Car R is initially moving and experiences zero net force.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Car P"
-    },
-    {
-     "label": "B",
-     "text": "Car Q"
-    },
-    {
-     "label": "C",
-     "text": "Car R"
-    },
-    {
-     "label": "D",
-     "text": "Car S"
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "18",
-   "form": "mcq",
-   "page": 235,
-   "stem": "One newton of force is formally defined as the specific amount of force required to produce:",
-   "answer": "Using the established formula ma F = , if the mass of an object is one kilogram and the resulting acceleration is one metre per second squared, the required force is calculated exactly as one newton. Therefore, one newton is officially defined as the precise force that accelerates a one-kilogram mass by one metre per second squared.",
-   "options": [
-    {
-     "label": "A",
-     "text": "An acceleration of ms 1 2 - on an object of mass g 1"
-    },
-    {
-     "label": "B",
-     "text": "A velocity of ms 1 1 - on an object of mass kg 1"
-    },
-    {
-     "label": "C",
-     "text": "An acceleration of ms 1 2 - on an object of mass kg 1"
-    },
-    {
-     "label": "D",
-     "text": "A uniform motion on an object of mass kg 10"
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "19",
-   "form": "mcq",
-   "page": 235,
-   "stem": "Match the physical quantities in List-I with their corresponding SI units in List-II. List-I (Physical Quantity) List-II (SI Unit) P. Force 1. ms 1 - Q. Mass 2. kg R. Acceleration 3. N S. Velocity 4. ms 2 -",
-   "answer": "In the International System of Units, force is measured in newtons to quantify pushes or pulls. Mass is consistently measured in kilograms to indicate inertia. Acceleration is measured in metres per second squared to show velocity change rate. Finally, velocity is strictly measured in metres per second to represent the rate of displacement over time.",
-   "options": [
-    {
-     "label": "A",
-     "text": "P-3, Q-2, R-4, S-1"
-    },
-    {
-     "label": "B",
-     "text": "P-3, Q-2, R-1, S-4"
-    },
-    {
-     "label": "C",
-     "text": "P-2, Q-3, R-4, S-1"
-    },
-    {
-     "label": "D",
-     "text": "P-4, Q-2, R-3, S-1"
-    }
-   ],
-   "correct_option": "A"
-  },
-  {
-   "number": "20",
-   "form": "mcq",
-   "page": 235,
-   "stem": "A constant force acts on an object of mass kg 5 , resulting in an acceleration of ms 4 2 - . Calculate the magnitude of the applied force.",
-   "answer": "To accurately calculate the magnitude of the applied force, we must utilise Newton’s second law of motion, applying the standard formula ma F = . By substituting the given values into the equation, we multiply the mass of five kilograms by the acceleration of four metres per second squared, which correctly yields a total force of twenty newtons.",
-   "options": [
-    {
-     "label": "A",
-     "text": ". N 1 25"
-    },
-    {
-     "label": "B",
-     "text": "N 9"
-    },
-    {
-     "label": "C",
-     "text": "N 20"
-    },
-    {
-     "label": "D",
-     "text": "N 100"
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "21",
-   "form": "mcq",
-   "page": 235,
-   "stem": "In a game of cricket, a fielder gradually pulls his hands backwards alongside the moving ball while catching it. What is the scientific purpose of this specific action?",
-   "answer": "By deliberately pulling their hands backwards, the fielder successfully increases the total time duration over which the high velocity of the cricket ball reduces to zero. According to the second law of motion, extending this stopping time dramatically decreases the magnitude of acceleration, which sequentially reduces the impact force and significantly minimises potential injury to hands.",
-   "options": [
-    {
-     "label": "A",
-     "text": "To increase the final velocity of the ball"
-    },
-    {
-     "label": "B",
-     "text": "To increase the time duration of stopping the ball"
-    },
-    {
-     "label": "C",
-     "text": "To decrease the time duration of stopping the ball"
-    },
-    {
-     "label": "D",
-     "text": "To increase the total momentum of the ball"
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "22",
-   "form": "assertion_reason",
-   "page": 236,
-   "stem": "Assertion (A): Modern vehicles are equipped with inflatable airbags to protect passengers during severe sudden collisions. Reason (R): Airbags rapidly decrease the time over which a passenger’s forward motion is halted.",
-   "answer": "The primary assertion is factually correct because airbags provide essential safety during crashes. However, the stated reason is entirely false. Airbags function effectively by increasing, not decreasing, the total time over which the passenger’s sudden deceleration occurs. This crucial time extension successfully reduces the overall impact force exerted on the person, thereby preventing severe traumatic injuries. Click Here to Buy book on Amazon How Forces Affect Motion Now, calculating the force using F = ma: F = 0.05 kg × (-10000 m/s2) = -500 N. The estimated stopping force acting on the bullet is 500 N, acting opposite to its direction of motion.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Both A and R are true and R is the correct explanation of A"
-    },
-    {
-     "label": "B",
-     "text": "Both A and R are true but R is not the correct explanation of A"
-    },
-    {
-     "label": "C",
-     "text": "A is true but R is false"
-    },
-    {
-     "label": "D",
-     "text": "A is false but R is true"
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "13",
-   "form": "very_short",
-   "page": 236,
-   "stem": "An ace footballer converted a penalty shot by kicking the football with a speed of 108 km h–1. The estimated force they imparted was 800 N. The mass of the football was 0.4 kg. Calculate the time of contact between their foot and the ball.",
-   "answer": "Final velocity (v) = 108 km/h = 108 × (5/18) m/s = 30 m/s. Assuming the ball started from rest, initial velocity (u) = 0 m/s. Force (F) = 800 N Mass (m) = 0.4 kg Using Newton’s second law to find acceleration (a): F = ma, so a = F/m = 800/0.4 = 2000 m/s2 Now, using the equation v = u + at , we get 30 = 0 + 2000 × t t = 30/2000 = 0.015 s. The time of contact between the foot and the ball is 0.015 seconds."
-  },
-  {
-   "number": "14",
-   "form": "very_short",
-   "page": 236,
-   "stem": "An object of mass 2 kg moving with a constant velocity of 10 m s-1 encounters a rough patch where the force of friction on the object is 7 N. At the same time, an additional constant force of 3 N opposing the motion is applied on the object. After entering the rough patch, how much distance does the object travel before coming to rest?",
-   "answer": "Given Mass m = 2 kg Initial velocity u = 10 ms⁻¹ Final velocity v = 0 ms⁻¹ (comes to rest) Force of friction f = 7 N (opposing motion) Additional opposing force F = 3 N (opposing motion) Net Force on the Object Both forces act opposite to the direction of motion - they add up. Fnet = −(f + F) = −(7 + 3) = −10 N Fnet = -10 N (opposing motion) Acceleration of the Object Using Newton’s Second Law: a = Fnet/m a 2 10 = − a = -5 ms–2 (deceleration) Distance Travelled Before Coming to Rest Using the equation of motion: v² = u² + 2as s a v u 2 ² ² = − s ( ) 2 5 0 10 10 100 2 2 # = − − = − − s m 10 ="
-  },
-  {
-   "number": "15",
-   "form": "very_short",
-   "page": 237,
-   "stem": "A tractor pulls a harrow (a ploughing tool) of mass m1 with a net force F resulting in an acceleration of a1. The same tractor pulls a trolley of mass m2 with a force F producing an acceleration of a2. If the tractor now pulls the trolley with the harrow placed on it (with the same force F), then obtain an expression for the resulting acceleration in terms of a1 and a2. Ignore friction.",
-   "answer": "From Newton’s second law, for the harrow: m1 = F/a1 For the trolley: m2 = F/a2 When they are pulled together, the combined mass is m = m1 + m2. they do not mathematically cancel each other out to zero because they consistently act upon two entirely different objects. For a net force on a single body to be fundamentally calculated, only the specific individual forces acting directly upon that singular body are systematically considered."
-  },
-  {
-   "number": "28",
-   "form": "assertion_reason",
-   "page": 237,
-   "stem": "Assertion (A): When a person walks forward on a rough road, the road pushes the person forward. Reason (R): The person pushes the ground backward with their foot, and the ground exerts an equal and opposite force of friction forward.",
-   "answer": "The fundamental mechanics of walking heavily rely upon the precise application of Newton’s third law. As a person attempts to move, their foot deliberately pushes the solid ground backwards. In immediate response, the ground applies an equal and opposing forward frictional force directly onto the foot. This reactive external force is what successfully propels the person forward.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Both A and R are true and R is the correct explanation of A"
-    },
-    {
-     "label": "B",
-     "text": "Both A and R are true but R is not the correct explanation of A"
-    },
-    {
-     "label": "C",
-     "text": "A is true but R is false"
-    },
-    {
-     "label": "D",
-     "text": "A is false but R is true"
-    }
-   ],
-   "correct_option": "A"
-  },
-  {
-   "number": "29",
-   "form": "mcq",
-   "page": 237,
-   "stem": "A group of students conducted an experiment using a cart and a pulley system to study the relationship between force, mass, and acceleration. They recorded their observations in the table but left one value missing. What is the exact mass of the cart in Trial 4 ? Trial Mass of the Cart (kg) Net Force Applied (N) Acceleration Produced (m/s²) Trial 1 2.0 10.0 5.0 Trial 2 4.0 10.0 2.5 Trial 3 2.0 20.0 10.0 Trial 4 M 12.0 3.0",
-   "answer": "According to Newton’s second law of motion, the net force acting on an object is equal to the product of its mass and acceleration. By rearranging the formula to solve for mass, we divide the net force by the acceleration. For the fourth trial, dividing twelve Newtons by three yields four kilograms.",
-   "options": [
-    {
-     "label": "A",
-     "text": "2.0 kg"
-    },
-    {
-     "label": "B",
-     "text": "3.0 kg"
-    },
-    {
-     "label": "C",
-     "text": "4.0 kg"
-    },
-    {
-     "label": "D",
-     "text": "6.0 kg"
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "30",
-   "form": "mcq",
-   "page": 237,
-   "stem": "While rowing a small wooden canoe in a lake, how does the canoeist successfully propel the boat in the forward direction?",
-   "answer": "When a canoeist forcefully pushes the paddle backward against the dense water, it constitutes an action force. According to Newton’s third law, the water instantly exerts an equal and directly opposite reaction force onto the paddle in the forward direction. This specific forward reactive force applied to the paddle is what effectively moves the entire canoe forward.",
-   "options": [
-    {
-     "label": "A",
-     "text": "By pushing the surrounding air backward with their bodily movement"
-    },
-    {
-     "label": "B",
-     "text": "By pulling the water directly forward with the paddle blade"
-    },
-    {
-     "label": "C",
-     "text": "By pushing the water backward with the paddle, causing water to push the paddle forward"
-    },
-    {
-     "label": "D",
-     "text": "By constantly shifting their bodily weight towards the front of the canoe"
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "31",
-   "form": "mcq",
-   "page": 238,
-   "stem": "During the launching phase of a heavy space rocket, what provides the crucial upward thrust required to overcome Earth’s gravitational pull?",
-   "answer": "A space rocket operates strictly on the principle of Newton’s third law. The powerful engines expel high-velocity hot exhaust gases forcefully downward toward the ground. This forceful downward expulsion constitutes an action. In immediate response, the expelled gases exert an equal and opposite massive reaction force upward upon the rocket, successfully providing the necessary lifting thrust. How Forces Affect Motion",
-   "options": [
-    {
-     "label": "A",
-     "text": "The physical pushing of the rocket’s metallic base against the launch pad"
-    },
-    {
-     "label": "B",
-     "text": "The intense downward expulsion of hot exhaust gases from the engine"
-    },
-    {
-     "label": "C",
-     "text": "The rapid upward movement of atmospheric air around the rocket body"
-    },
-    {
-     "label": "D",
-     "text": "The sudden internal combustion of fuel pushing upward on the nose cone"
-    }
-   ],
-   "correct_option": "B"
+   "correct_option": "C",
+   "concept": "Net force from opposing forces",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "4",
@@ -699,7 +118,11 @@
      "text": "25 N"
     }
    ],
-   "correct_option": "D"
+   "correct_option": "D",
+   "concept": "Net force from opposing forces",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "5",
@@ -725,7 +148,11 @@
      "text": "4 N towards the right side"
     }
    ],
-   "correct_option": "D"
+   "correct_option": "D",
+   "concept": "Net force from opposing forces",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 3
   },
   {
    "number": "6",
@@ -751,13 +178,17 @@
      "text": "32 N in the direction of the 12 N force"
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "concept": "Net force from opposing forces",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "7",
    "form": "mcq",
    "page": 238,
-   "stem": "Consider the following statements regarding the effects of force on an object: 1. It can change the state of rest of an object. 2. It can change the direction of motion of an object. 3. It can change the shape of an object. Which of the above statements are correct?",
+   "stem": "Consider the following statements regarding the effects of force on an object:\n1. It can change the state of rest of an object.\n2. It can change the direction of motion of an object.\n3. It can change the shape of an object.\nWhich of the above statements are correct?",
    "answer": "An applied external force has the physical capability to alter the state of motion of a body from rest, change its velocity or direction while moving, and even deform its structural shape. Examples include kicking a stationary ball, hitting a moving cricket ball with a bat, and squeezing a lemon, demonstrating all these fundamental physical effects clearly.",
    "options": [
     {
@@ -777,12 +208,16 @@
      "text": "1, 2, and 3"
     }
    ],
-   "correct_option": "D"
+   "correct_option": "D",
+   "concept": "First law and inertia",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "8",
    "form": "mcq",
-   "page": 239,
+   "page": 238,
    "stem": "When you push a heavy wooden box placed on a rough horizontal floor, it does not move immediately. Which specific force acts in the direction opposite to your push to prevent the motion?",
    "answer": "The force of friction is a contact force that always arises between two surfaces trying to slide past one another. It consistently acts in a direction completely opposite to the direction of the applied force or intended motion. The box remains stationary until the applied pushing force eventually exceeds this opposing maximum static frictional force.",
    "options": [
@@ -803,13 +238,838 @@
      "text": "Normal force"
     }
    ],
-   "correct_option": "C"
+   "correct_option": "C",
+   "concept": "Friction as opposing force",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   },
   {
-   "number": "4",
+   "number": "9",
    "form": "mcq",
-   "page": 239,
-   "stem": "Accurately identify and measure the net external applied force pushing the system.",
+   "page": 233,
+   "stem": "In a classroom activity, a stack of coins is pulled with a rubber band across different horizontal surfaces. On which of the following surfaces will the stack of coins travel the greatest distance before coming to rest?",
+   "answer": "The magnitude of frictional force fundamentally depends heavily upon the relative smoothness or roughness of the interacting surfaces. A highly polished marble floor offers the least possible resistance among the given options. Consequently, the opposing frictional force is minimised, allowing the moving stack of coins to travel a significantly larger distance before gradually coming to rest.",
+   "options": [
+    {
+     "label": "A",
+     "text": "A rough cemented floor"
+    },
+    {
+     "label": "B",
+     "text": "A highly polished marble floor"
+    },
+    {
+     "label": "C",
+     "text": "A laminated wooden table top"
+    },
+    {
+     "label": "D",
+     "text": "A carpeted floor"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Friction depends on surfaces in contact",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "page": 233,
+   "stem": "A student measures the horizontal forces acting on four different wooden blocks placed on a table. The blocks are being pushed to the right, while the frictional force acts to the left. Based on the data in the table, which block will move with a constant velocity?\n\n<html><body><table><tr><td>Block</td><td>Applied Force to the Right (N)</td><td>Frictional Force to the Left (N)</td><td>Initial State</td></tr><tr><td>Block W</td><td>15</td><td>10</td><td>Moving</td></tr><tr><td>Block X</td><td>20</td><td>20</td><td>Moving</td></tr><tr><td>Block Y</td><td>12</td><td>12</td><td>At rest</td></tr><tr><td>Block Z</td><td>10</td><td>15</td><td>Moving</td></tr></table></body></html>",
+   "answer": "Constant velocity occurs when the net force acting on a moving object is zero. For Block X, the applied force and frictional force are perfectly balanced at twenty Newtons each, resulting in zero net force. Since it is already moving, it will continue to move uniformly without accelerating or decelerating.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Block W"
+    },
+    {
+     "label": "B",
+     "text": "Block X"
+    },
+    {
+     "label": "C",
+     "text": "Block Y"
+    },
+    {
+     "label": "D",
+     "text": "Block Z"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Net force from opposing forces",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "page": 233,
+   "stem": "Who among the following historical scientists first argued through a series of thought experiments that if all impediments to motion are removed, a body moving along a horizontal plane will continue to move indefinitely?",
+   "answer": "In the seventeenth century, Galileo Galilei radically proposed through extensive thought experiments that objects in motion do not naturally require a continuous applied force to keep moving. He argued that if opposing forces like friction were completely eliminated, a body moving on a perfectly horizontal plane would persist in its uniform motion indefinitely without ever stopping.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Isaac Newton"
+    },
+    {
+     "label": "B",
+     "text": "Albert Einstein"
+    },
+    {
+     "label": "C",
+     "text": "Galileo Galilei"
+    },
+    {
+     "label": "D",
+     "text": "Johannes Kepler"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Frictionless motion continues indefinitely",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
+  },
+  {
+   "number": "12",
+   "form": "assertion_reason",
+   "page": 233,
+   "stem": "Assertion (A): An object moving with a constant velocity on a horizontal surface has a net zero force acting upon it.\nReason (R): The force of friction acting on the object is exactly balanced by the external applied force.",
+   "answer": "According to the first law of motion, an object maintains a constant velocity only when the overall net external force acting on it is zero. To achieve this constant velocity in reality, a continuous external forward force must be applied that precisely equals and cancels out the backward opposing frictional force, rendering the net force zero.",
+   "assertion": "An object moving with a constant velocity on a horizontal surface has a net zero force acting upon it.",
+   "reason": "The force of friction acting on the object is exactly balanced by the external applied force.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true and R is the correct explanation of A"
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true but R is not the correct explanation of A"
+    },
+    {
+     "label": "C",
+     "text": "A is true but R is false"
+    },
+    {
+     "label": "D",
+     "text": "A is false but R is true"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Net force from opposing forces",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "page": 234,
+   "stem": "Read the following statements related to Newton’s first law of motion:\n1. It is also known as the law of inertia.\n2. It states that an object changes its velocity even if net force is zero.\n3. It explains the tendency of objects to resist a change in their state.\n4. An object at rest has an acceleration of zero.\nWhich of the above statements are correct?",
+   "answer": "The first law of motion formally describes inertia, which is the natural tendency of physical objects to stubbornly resist any change in their current state of rest or uniform motion. An object at rest possesses zero acceleration. However, if the net external force is zero, the velocity remains absolutely constant and cannot change under any circumstances.",
+   "options": [
+    {
+     "label": "A",
+     "text": "1, 2, and 3"
+    },
+    {
+     "label": "B",
+     "text": "1, 3, and 4"
+    },
+    {
+     "label": "C",
+     "text": "2, 3, and 4"
+    },
+    {
+     "label": "D",
+     "text": "1, 2, and 4"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "First law and inertia",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "page": 234,
+   "stem": "A fielder pulls his hands backward while catching a fast-moving cricket ball, as shown in the diagram. What is the primary physical principle utilized in this specific action to prevent injury?",
+   "answer": "By pulling the hands backward, the fielder effectively increases the time duration over which the high velocity of the ball reduces to zero. This deliberately decreases the magnitude of acceleration, requiring a considerably smaller opposing force to stop the ball, thereby minimizing the dangerous impact and preventing painful physical injury.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Decreasing the change in velocity of the ball to perfectly reduce the impact force."
+    },
+    {
+     "label": "B",
+     "text": "Increasing the time duration of the catch to strategically reduce the ball’s acceleration."
+    },
+    {
+     "label": "C",
+     "text": "Increasing the mass of the catching system to physically absorb the ball’s momentum."
+    },
+    {
+     "label": "D",
+     "text": "Applying an unbalanced contact force in the direction of the ball’s initial motion."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Longer impact time lowers stopping force",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "page": 234,
+   "stem": "If the net external force acting on a moving car is entirely zero, what will be the shape of its position-time graph?",
+   "answer": "When the net external force on an object is zero, it completely maintains a uniform and constant velocity. On a standard position-time graph, uniform velocity is mathematically represented by a straight line inclined continuously to the time axis. A line parallel to the time axis would incorrectly indicate an object that is entirely stationary at rest.",
+   "options": [
+    {
+     "label": "A",
+     "text": "A straight line parallel to the time axis"
+    },
+    {
+     "label": "B",
+     "text": "A straight line parallel to the position axis"
+    },
+    {
+     "label": "C",
+     "text": "A straight inclined line passing through the origin"
+    },
+    {
+     "label": "D",
+     "text": "A continuous parabolic curve"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "First law and inertia",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "page": 234,
+   "stem": "Which mathematical equation correctly represents Newton’s second law of motion relating force, mass, and acceleration?",
+   "answer": "Newton’s second law of motion mathematically establishes that the net external force acting upon an object is equal to the product of its mass and its resulting acceleration. This fundamental relationship is universally expressed by the simple algebraic formula F = ma, indicating that applied force is directly proportional to the acceleration produced in the mass.",
+   "options": [
+    {
+     "label": "A",
+     "text": "F = m/a"
+    },
+    {
+     "label": "B",
+     "text": "F = m + a"
+    },
+    {
+     "label": "C",
+     "text": "F = ma"
+    },
+    {
+     "label": "D",
+     "text": "F = a/m"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "page": 234,
+   "stem": "Four identical toy cars are set in motion on different surfaces. The table records their initial velocity and the total net force acting upon them. Which car will produce a position-time graph that is a straight line inclined to the time axis?\n\n<html><body><table><tr><td>Car</td><td>Initial Velocity (m s-1)</td><td>Net Force (N)</td></tr><tr><td>Car P</td><td>0</td><td>0</td></tr><tr><td>Car Q</td><td>5</td><td>2</td></tr><tr><td>Car R</td><td>4</td><td>0</td></tr><tr><td>Car S</td><td>3</td><td>-1</td></tr></table></body></html>",
+   "answer": "A straight line inclined to the time axis on a position-time graph indicates uniform motion with a constant, non-zero velocity. According to Newton’s first law, an object maintains its constant velocity only when the net force acting on it is zero. Car R is initially moving and experiences zero net force.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Car P"
+    },
+    {
+     "label": "B",
+     "text": "Car Q"
+    },
+    {
+     "label": "C",
+     "text": "Car R"
+    },
+    {
+     "label": "D",
+     "text": "Car S"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "First law and inertia",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "page": 235,
+   "stem": "One newton of force is formally defined as the specific amount of force required to produce:",
+   "answer": "Using the established formula (F = ma), if the mass of an object is one kilogram and the resulting acceleration is one metre per second squared, the required force is calculated exactly as one newton. Therefore, one newton is officially defined as the precise force that accelerates a one-kilogram mass by one metre per second squared.",
+   "options": [
+    {
+     "label": "A",
+     "text": "An acceleration of 1 m s-2 on an object of mass 1 g"
+    },
+    {
+     "label": "B",
+     "text": "A velocity of 1 m s-1 on an object of mass 1 kg"
+    },
+    {
+     "label": "C",
+     "text": "An acceleration of 1 m s-2 on an object of mass 1 kg"
+    },
+    {
+     "label": "D",
+     "text": "A uniform motion on an object of mass 10 kg"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Definition of the newton",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "page": 235,
+   "stem": "Match the physical quantities in List-I with their corresponding SI units in List-II.\nList-I (Physical Quantity)\nP. Force\nQ. Mass\nR. Acceleration\nS. Velocity\nList-II (SI Unit)\n1. m s-1\n2. kg\n3. N\n4. m s-2",
+   "answer": "In the International System of Units, force is measured in newtons to quantify pushes or pulls. Mass is consistently measured in kilograms to indicate inertia. Acceleration is measured in metres per second squared to show velocity change rate. Finally, velocity is strictly measured in metres per second to represent the rate of displacement over time.",
+   "options": [
+    {
+     "label": "A",
+     "text": "P-3, Q-2, R-4, S-1"
+    },
+    {
+     "label": "B",
+     "text": "P-3, Q-2, R-1, S-4"
+    },
+    {
+     "label": "C",
+     "text": "P-2, Q-3, R-4, S-1"
+    },
+    {
+     "label": "D",
+     "text": "P-4, Q-2, R-3, S-1"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Definition of the newton",
+   "bloom": "recall",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "page": 235,
+   "stem": "A constant force acts on an object of mass 5 kg, resulting in an acceleration of 4 m s-2. Calculate the magnitude of the applied force.",
+   "answer": "To accurately calculate the magnitude of the applied force, we must utilise Newton’s second law of motion, applying the standard formula (F = ma). By substituting the given values into the equation, we multiply the mass of five kilograms by the acceleration of four metres per second squared, which correctly yields a total force of twenty newtons.",
+   "options": [
+    {
+     "label": "A",
+     "text": "1.25 N"
+    },
+    {
+     "label": "B",
+     "text": "9 N"
+    },
+    {
+     "label": "C",
+     "text": "20 N"
+    },
+    {
+     "label": "D",
+     "text": "100 N"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "page": 235,
+   "stem": "In a game of cricket, a fielder gradually pulls his hands backwards alongside the moving ball while catching it. What is the scientific purpose of this specific action?",
+   "answer": "By deliberately pulling their hands backwards, the fielder successfully increases the total time duration over which the high velocity of the cricket ball reduces to zero. According to the second law of motion, extending this stopping time dramatically decreases the magnitude of acceleration, which sequentially reduces the impact force and significantly minimises potential injury to hands.",
+   "options": [
+    {
+     "label": "A",
+     "text": "To increase the final velocity of the ball"
+    },
+    {
+     "label": "B",
+     "text": "To increase the time duration of stopping the ball"
+    },
+    {
+     "label": "C",
+     "text": "To decrease the time duration of stopping the ball"
+    },
+    {
+     "label": "D",
+     "text": "To increase the total momentum of the ball"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Longer impact time lowers stopping force",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "22",
+   "form": "assertion_reason",
+   "page": 235,
+   "stem": "Assertion (A): Modern vehicles are equipped with inflatable airbags to protect passengers during severe sudden collisions.\nReason (R): Airbags rapidly decrease the time over which a passenger’s forward motion is halted.",
+   "answer": "The primary assertion is factually correct because airbags provide essential safety during crashes. However, the stated reason is entirely false. Airbags function effectively by increasing, not decreasing, the total time over which the passenger’s sudden deceleration occurs. This crucial time extension successfully reduces the overall impact force exerted on the person, thereby preventing severe traumatic injuries.",
+   "assertion": "Modern vehicles are equipped with inflatable airbags to protect passengers during severe sudden collisions.",
+   "reason": "Airbags rapidly decrease the time over which a passenger’s forward motion is halted.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true and R is the correct explanation of A"
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true but R is not the correct explanation of A"
+    },
+    {
+     "label": "C",
+     "text": "A is true but R is false"
+    },
+    {
+     "label": "D",
+     "text": "A is false but R is true"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Longer impact time lowers stopping force",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "page": 230,
+   "stem": "A student pushes a stationary 20 kg block on a floor. The maximum force of friction opposing this motion is 40 N. If the student applies a constant forward force of 60 N, what is the acceleration of the block?",
+   "answer": "The net forward force determining motion is the applied force minus the opposing frictional force. Subtracting forty newtons from sixty newtons leaves a net force of exactly twenty newtons. Using the formula (F = ma), we calculate acceleration by dividing this net twenty newtons by the mass of twenty kilograms, resulting in exactly one metre per second squared.",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 m s-2"
+    },
+    {
+     "label": "B",
+     "text": "2 m s-2"
+    },
+    {
+     "label": "C",
+     "text": "3 m s-2"
+    },
+    {
+     "label": "D",
+     "text": "5 m s-2"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Overcoming friction to start motion",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "page": 230,
+   "stem": "The given velocity-time graph represents the uniform motion of a sliding object. What can be directly concluded about the net force acting on this object?",
+   "answer": "The velocity-time graph displays a horizontal straight line parallel to the time axis, indicating that the object moves with a constant velocity. According to Newton’s first law of motion, an object strictly maintains a constant velocity and zero acceleration only when the net external force acting upon it is identically zero.",
+   "options": [
+    {
+     "label": "A",
+     "text": "A constant non-zero net force acts in the direction of motion."
+    },
+    {
+     "label": "B",
+     "text": "A continuously increasing net force acts upon the moving object."
+    },
+    {
+     "label": "C",
+     "text": "The net external force acting on the object is exactly zero."
+    },
+    {
+     "label": "D",
+     "text": "A net force acts in the direction opposite to its general motion."
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Finding force from velocity-time graph",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "25",
+   "form": "mcq",
+   "page": 230,
+   "stem": "An object of mass 10 kg initially at rest is subjected to a constant net force of 50 N. What will be its velocity after exactly 4 seconds?",
+   "answer": "First, calculate the acceleration using the second law of motion formula (a = F/m). Dividing fifty newtons by ten kilograms yields an acceleration of five metres per second squared. Using the kinematic equation v = u + at with zero initial velocity, multiplying five by four seconds perfectly gives a final velocity of twenty metres per second.",
+   "options": [
+    {
+     "label": "A",
+     "text": "5 m s-1"
+    },
+    {
+     "label": "B",
+     "text": "10 m s-1"
+    },
+    {
+     "label": "C",
+     "text": "20 m s-1"
+    },
+    {
+     "label": "D",
+     "text": "40 m s-1"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "26",
+   "form": "mcq",
+   "page": 230,
+   "stem": "According to Newton’s third law of motion, whenever a primary object completely exerts a force on a secondary object, the secondary object always:",
+   "answer": "Newton’s third law of motion fundamentally establishes that forces strictly occur in interacting pairs. Whenever object A exerts a defined force upon object B, object B must simultaneously exert a force of completely equal magnitude but in the exact opposite direction upon object A. These paired forces are simultaneous and define the concept of action and reaction.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Exerts a slightly lesser opposing force on the primary object"
+    },
+    {
+     "label": "B",
+     "text": "Exerts an equal and opposite force simultaneously on the primary object"
+    },
+    {
+     "label": "C",
+     "text": "Exerts a larger and opposite force delayed in time"
+    },
+    {
+     "label": "D",
+     "text": "Accelerates exactly at the same rate regardless of its mass"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Internal versus external forces",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
+  },
+  {
+   "number": "27",
+   "form": "mcq",
+   "page": 230,
+   "stem": "If action and reaction forces are always exactly equal in magnitude and opposite in direction, why do they not simply cancel each other out to produce zero net force?",
+   "answer": "Although action and reaction forces are completely equal and opposite in magnitude, they do not mathematically cancel each other out to zero because they consistently act upon two entirely different objects. For a net force on a single body to be fundamentally calculated, only the specific individual forces acting directly upon that singular body are systematically considered.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Because action forces are naturally stronger than reaction forces"
+    },
+    {
+     "label": "B",
+     "text": "Because they always act simultaneously on two completely different objects"
+    },
+    {
+     "label": "C",
+     "text": "Because they act sequentially on the same individual object"
+    },
+    {
+     "label": "D",
+     "text": "Because the objects invariably possess vastly different physical masses"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Internal versus external forces",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "28",
+   "form": "assertion_reason",
+   "page": 237,
+   "stem": "Assertion (A): When a person walks forward on a rough road, the road pushes the person forward.\nReason (R): The person pushes the ground backward with their foot, and the ground exerts an equal and opposite force of friction forward.",
+   "answer": "The fundamental mechanics of walking heavily rely upon the precise application of Newton’s third law. As a person attempts to move, their foot deliberately pushes the solid ground backwards. In immediate response, the ground applies an equal and opposing forward frictional force directly onto the foot. This reactive external force is what successfully propels the person forward.",
+   "assertion": "When a person walks forward on a rough road, the road pushes the person forward.",
+   "reason": "The person pushes the ground backward with their foot, and the ground exerts an equal and opposite force of friction forward.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true and R is the correct explanation of A"
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true but R is not the correct explanation of A"
+    },
+    {
+     "label": "C",
+     "text": "A is true but R is false"
+    },
+    {
+     "label": "D",
+     "text": "A is false but R is true"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Internal versus external forces",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "29",
+   "form": "mcq",
+   "page": 237,
+   "stem": "A group of students conducted an experiment using a cart and a pulley system to study the relationship between force, mass, and acceleration. They recorded their observations in the table but left one value missing. What is the exact mass of the cart in Trial 4?\n\n<html><body><table><tr><td>Trial</td><td>Mass of the Cart (kg)</td><td>Net Force Applied (N)</td><td>Acceleration Produced (m s-2)</td></tr><tr><td>Trial 1</td><td>2.0</td><td>10.0</td><td>5.0</td></tr><tr><td>Trial 2</td><td>4.0</td><td>10.0</td><td>2.5</td></tr><tr><td>Trial 3</td><td>2.0</td><td>20.0</td><td>10.0</td></tr><tr><td>Trial 4</td><td>M</td><td>12.0</td><td>3.0</td></tr></table></body></html>",
+   "answer": "According to Newton’s second law of motion, the net force acting on an object is equal to the product of its mass and acceleration. By rearranging the formula to solve for mass, we divide the net force by the acceleration. For the fourth trial, dividing twelve Newtons by three yields four kilograms.",
+   "options": [
+    {
+     "label": "A",
+     "text": "2.0 kg"
+    },
+    {
+     "label": "B",
+     "text": "3.0 kg"
+    },
+    {
+     "label": "C",
+     "text": "4.0 kg"
+    },
+    {
+     "label": "D",
+     "text": "6.0 kg"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "30",
+   "form": "mcq",
+   "page": 237,
+   "stem": "While rowing a small wooden canoe in a lake, how does the canoeist successfully propel the boat in the forward direction?",
+   "answer": "When a canoeist forcefully pushes the paddle backward against the dense water, it constitutes an action force. According to Newton’s third law, the water instantly exerts an equal and directly opposite reaction force onto the paddle in the forward direction. This specific forward reactive force applied to the paddle is what effectively moves the entire canoe forward.",
+   "options": [
+    {
+     "label": "A",
+     "text": "By pushing the surrounding air backward with their bodily movement"
+    },
+    {
+     "label": "B",
+     "text": "By pulling the water directly forward with the paddle blade"
+    },
+    {
+     "label": "C",
+     "text": "By pushing the water backward with the paddle, causing water to push the paddle forward"
+    },
+    {
+     "label": "D",
+     "text": "By constantly shifting their bodily weight towards the front of the canoe"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Internal versus external forces",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "31",
+   "form": "mcq",
+   "page": 237,
+   "stem": "During the launching phase of a heavy space rocket, what provides the crucial upward thrust required to overcome Earth’s gravitational pull?",
+   "answer": "A space rocket operates strictly on the principle of Newton’s third law. The powerful engines expel high-velocity hot exhaust gases forcefully downward toward the ground. This forceful downward expulsion constitutes an action. In immediate response, the expelled gases exert an equal and opposite massive reaction force upward upon the rocket, successfully providing the necessary lifting thrust.",
+   "options": [
+    {
+     "label": "A",
+     "text": "The physical pushing of the rocket’s metallic base against the launch pad"
+    },
+    {
+     "label": "B",
+     "text": "The intense downward expulsion of hot exhaust gases from the engine"
+    },
+    {
+     "label": "C",
+     "text": "The rapid upward movement of atmospheric air around the rocket body"
+    },
+    {
+     "label": "D",
+     "text": "The sudden internal combustion of fuel pushing upward on the nose cone"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Internal versus external forces",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "32",
+   "form": "mcq",
+   "page": 232,
+   "stem": "When a small bullet of mass 0.05 kg is fired from a large gun of mass 4 kg with a forward force of 100 N, what is the magnitude of the initial recoil acceleration of the gun?",
+   "answer": "According to the third law, the gun experiences a backward recoil force equal to the bullet’s forward force, exactly one hundred newtons. To accurately determine the gun’s resulting acceleration, we divide this one hundred newton force by the gun’s total mass of four kilograms using the formula (a = F/m). This calculation strictly yields twenty-five metres per second squared.",
+   "options": [
+    {
+     "label": "A",
+     "text": "10 m s-2"
+    },
+    {
+     "label": "B",
+     "text": "25 m s-2"
+    },
+    {
+     "label": "C",
+     "text": "2000 m s-2"
+    },
+    {
+     "label": "D",
+     "text": "400 m s-2"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 4,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "33",
+   "form": "mcq",
+   "page": 232,
+   "stem": "Two identical spring balances are hooked together and pulled in opposite directions. If the person on the left pulls with a force of 15 N, what will be the reading on the right spring balance?",
+   "answer": "The interacting spring balances exert pulling forces upon each other. According to Newton’s third law of motion, whenever one object exerts a force on a second object, the second object simultaneously exerts an equal and opposite force. Therefore, both connected spring balances will constantly record the exact same fifteen-newton magnitude.",
+   "options": [
+    {
+     "label": "A",
+     "text": "0 N, because the two opposing mechanical forces cancel each other out completely."
+    },
+    {
+     "label": "B",
+     "text": "30 N, because the combined tension forces add up across the interacting system."
+    },
+    {
+     "label": "C",
+     "text": "15 N, because every action force actively produces an equal and opposite reaction force."
+    },
+    {
+     "label": "D",
+     "text": "7.5 N, because the total applied force distributes equally between the two internal springs."
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Internal versus external forces",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "34",
+   "form": "mcq",
+   "page": 232,
+   "stem": "When a swollen balloon is suddenly untied and the trapped air rushes out horizontally to the left, in which direction will the rubber balloon initially move?",
+   "answer": "The stretched rubber material forcefully pushes the trapped air horizontally to the left, effectively acting as an action force. Following Newton’s third law, the escaping rushing air exerts an equal and entirely opposite reaction force directly onto the balloon itself. Consequently, this reaction force propels the balloon strongly in the opposite horizontal direction, which is precisely towards the right.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Upwards"
+    },
+    {
+     "label": "B",
+     "text": "Downwards"
+    },
+    {
+     "label": "C",
+     "text": "Horizontally to the left"
+    },
+    {
+     "label": "D",
+     "text": "Horizontally to the right"
+    }
+   ],
+   "correct_option": "D",
+   "concept": "Internal versus external forces",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "35",
+   "form": "mcq",
+   "page": 232,
+   "stem": "Arrange the following sequence of events accurately to explain how a large ship is safely stopped using a thick pier rope:\n1. The thick rope strongly grips the wooden post tightly.\n2. The massive ship forcefully pulls on one end of the rope.\n3. The opposing friction between the rough rope and post massively increases.\n4. The rope is repeatedly wrapped tightly around a stationary post.",
+   "answer": "To safely secure a massive moving ship, a strong rope is first wrapped repeatedly around a sturdy post. When the moving ship initially pulls the rope, the multiple tight wraps tightly grip the post. This sequential gripping rapidly increases the effective surface friction exponentially. Consequently, this immensely enhanced friction successfully provides the massive holding force required.",
+   "options": [
+    {
+     "label": "A",
+     "text": "4, 2, 1, 3"
+    },
+    {
+     "label": "B",
+     "text": "2, 4, 3, 1"
+    },
+    {
+     "label": "C",
+     "text": "4, 2, 3, 1"
+    },
+    {
+     "label": "D",
+     "text": "1, 2, 4, 3"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Friction brings moving objects to rest",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "36",
+   "form": "mcq",
+   "page": 232,
+   "stem": "Select the correct sequential order of physical steps required to determine the overall mass of an interconnected system of two moving boxes:\n1. Divide the calculated net external force by the measured systemic acceleration.\n2. Carefully observe and measure the common acceleration of the moving system.\n3. Treat the two connected boxes solely as a single unified moving system.\n4. Accurately identify and measure the net external applied force pushing the system.",
    "answer": "To analyse connected physical bodies systematically, you must first treat them conceptually as a single unified system. Next, identify the total external force acting upon it, followed by carefully measuring the resulting common acceleration of the group. Finally, utilizing Newton’s second law mathematically, divide the total external force by the acceleration to find total mass.",
    "options": [
     {
@@ -829,13 +1089,17 @@
      "text": "2, 3, 4, 1"
     }
    ],
-   "correct_option": "A"
+   "correct_option": "A",
+   "concept": "System acceleration uses total mass",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
   },
   {
    "number": "37",
    "form": "mcq",
    "page": 239,
-   "stem": "Match the real-life physical scenarios in List-I with the most appropriate scientific principle explaining them in List-II. List-I (Scenario) List-II (Principle) P. A book resting peacefully on a table 1. Newton’s third law of motion Q. A fast car slowing down forcefully 2. Reducing acceleration by increasing time R. A swimmer pushing water vigorously 3. Balanced forces resulting in zero net force S. Airbags inflating instantly during impact 4. Net force opposing the motion",
+   "stem": "Match the real-life physical scenarios in List-I with the most appropriate scientific principle explaining them in List-II.\nList-I (Scenario)\nP. A book resting peacefully on a table\nQ. A fast car slowing down forcefully\nR. A swimmer pushing water vigorously\nS. Airbags inflating instantly during impact\nList-II (Principle)\n1. Newton’s third law of motion\n2. Reducing acceleration by increasing time\n3. Balanced forces resulting in zero net force\n4. Net force opposing the motion",
    "answer": "A resting book perfectly demonstrates balanced forces. A rapidly decelerating car experiences an opposing net frictional force. A swimmer purposefully pushing water effectively utilises the strict action-reaction pairs of the third law. Finally, airbags provide crucial safety strictly by increasing impact time, which proportionally decreases harmful stopping acceleration according to the second law of motion.",
    "options": [
     {
@@ -855,7 +1119,11 @@
      "text": "P-2, Q-4, R-1, S-3"
     }
    ],
-   "correct_option": "A"
+   "correct_option": "A",
+   "concept": "Net force from opposing forces",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "38",
@@ -881,7 +1149,11 @@
      "text": "The upward normal force from the flat floor"
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "concept": "Connected objects as a single system",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
   },
   {
    "number": "39",
@@ -892,29 +1164,33 @@
    "options": [
     {
      "label": "A",
-     "text": ". ms 1 6 2 -"
+     "text": "1.6 m s-2"
     },
     {
      "label": "B",
-     "text": ". ms 9 8 2 -"
+     "text": "9.8 m s-2"
     },
     {
      "label": "C",
-     "text": ". ms 15 5 2 -"
+     "text": "15.5 m s-2"
     },
     {
      "label": "D",
-     "text": ". ms 32 0 2 -"
+     "text": "32.0 m s-2"
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "concept": "Weight equals mass times g",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
   },
   {
    "number": "40",
    "form": "mcq",
-   "page": 240,
-   "stem": "Consider the following specific statements regarding fundamental non-contact forces: 1. Two closely placed bar magnets can apply equal and opposite magnetic forces. 2. Two similarly charged objects repel with unequal electrostatic forces. 3. The Earth and a falling fruit exert equal gravitational forces upon each other. Which of the above statements are strictly correct?",
-   "answer": "Based firmly upon strict Newton’s second fundamental law (F = ma), if the carefully calculated resulting acceleration mathematically equals absolutely zero, then the total external applied net force must also undeniably be precisely zero, assuming total mass exists. This fundamentally means all forward and backward opposing active forces are entirely balanced perfectly against each other. VER Y SHO RT ANSWER",
+   "page": 239,
+   "stem": "Consider the following specific statements regarding fundamental non-contact forces:\n1. Two closely placed bar magnets can apply equal and opposite magnetic forces.\n2. Two similarly charged objects repel with unequal electrostatic forces.\n3. The Earth and a falling fruit exert equal gravitational forces upon each other.\nWhich of the above statements are strictly correct?",
+   "answer": "Newton’s universal third law perfectly applies to non-contact forces everywhere. Magnets successfully exert completely equal and opposite magnetic forces on each other. Similarly, Earth and a falling fruit strictly apply equal gravitational pulling forces on each other. However, charged objects uniformly exert equal, not unequal, electrostatic forces, making the second proposed statement scientifically incorrect.",
    "options": [
     {
      "label": "A",
@@ -930,8 +1206,753 @@
     },
     {
      "label": "D",
-     "text": "1, 2, and 3 Click Here to Buy book on Flipkart How Forces Affect Motion"
+     "text": "1, 2, and 3"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Internal versus external forces",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "41",
+   "form": "assertion_reason",
+   "page": 246,
+   "stem": "Assertion (A): Even though a falling apple heavily pulls the Earth upwards with an equal gravitational force, the Earth does not visibly move towards the apple. Reason (R): The immense mass of the Earth results in an extremely negligible upward acceleration.",
+   "assertion": "Even though a falling apple heavily pulls the Earth upwards with an equal gravitational force, the Earth does not visibly move towards the apple.",
+   "reason": "The immense mass of the Earth results in an extremely negligible upward acceleration.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true and R is the correct explanation of A"
     },
+    {
+     "label": "B",
+     "text": "Both A and R are true but R is not the correct explanation of A"
+    },
+    {
+     "label": "C",
+     "text": "A is true but R is false"
+    },
+    {
+     "label": "D",
+     "text": "A is false but R is true"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The third law explicitly dictates that the Earth and apple exert exactly identical forces on each other. However, according to the second law (a = F/m), acceleration is inversely proportional to mass. Because the Earth’s total mass is astonishingly massive compared to the tiny apple, its resulting upward acceleration is infinitely small and completely unnoticeable.",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "42",
+   "form": "mcq",
+   "page": 246,
+   "stem": "An engineer is testing different packaging materials to protect fragile glass items. A glass sphere of fixed mass moving at ten meters per second strikes four different materials and comes to a complete halt. The table gives the initial velocity, the final velocity and the time taken to stop for each material: bubble wrap 10 m/s to 0 m/s in 0.50 s; cardboard 10 m/s to 0 m/s in 0.10 s; sponge foam 10 m/s to 0 m/s in 1.20 s; thermocol 10 m/s to 0 m/s in 0.25 s. Which material exerts the least impact force on the glass sphere?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Bubble wrap"
+    },
+    {
+     "label": "B",
+     "text": "Cardboard"
+    },
+    {
+     "label": "C",
+     "text": "Sponge foam"
+    },
+    {
+     "label": "D",
+     "text": "Thermocol"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Newton’s second law dictates that the force applied is proportional to the rate of change of momentum. Since the change in momentum is identical for all test materials, extending the time duration of the impact reduces the magnitude of the acceleration. Sponge foam takes the longest time, applying the least stopping force.",
+   "concept": "Longer impact time lowers stopping force",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "43",
+   "form": "mcq",
+   "page": 246,
+   "stem": "Historically, who was the first scientist to clearly use the specific word ‘inertia’ to comprehensively describe the natural tendency of objects to forcefully resist changes in their motion?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Galileo Galilei"
+    },
+    {
+     "label": "B",
+     "text": "Albert Einstein"
+    },
+    {
+     "label": "C",
+     "text": "Isaac Newton"
+    },
+    {
+     "label": "D",
+     "text": "Johannes Kepler"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "While Galileo Galilei initially formulated the fundamental idea that moving objects persistently continue moving without friction, it was Sir Isaac Newton who formally introduced and specifically utilised the scientific word ‘inertia’. He effectively used this specific term to describe the inherent tendency of objects to resist state changes in his groundbreaking first law of motion.",
+   "concept": "First law and inertia",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
+  },
+  {
+   "number": "44",
+   "form": "mcq",
+   "page": 241,
+   "stem": "The diagram illustrates the mutual gravitational interaction between the Earth and a falling fruit. Why does the fruit accelerate noticeably downwards, while the Earth’s upward acceleration remains physically imperceptible?",
+   "answer": "Both bodies exert equal and opposite gravitational forces on each other, strictly satisfying Newton’s third law. However, according to Newton’s second law, acceleration is inversely proportional to an object’s mass. Because the Earth’s mass is extraordinarily large compared to the fruit, its resulting acceleration is microscopically small and completely unnoticeable.",
+   "options": [
+    {
+     "label": "A",
+     "text": "The Earth exerts a massively larger gravitational force on the fruit than vice versa."
+    },
+    {
+     "label": "B",
+     "text": "The net unbalanced force acting on the massive Earth is entirely zero during the fall."
+    },
+    {
+     "label": "C",
+     "text": "The interacting forces are equal, but the heavily massive Earth experiences negligible acceleration."
+    },
+    {
+     "label": "D",
+     "text": "Gravity behaves strictly as an unbalanced contact force selectively on the lighter falling object."
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "45",
+   "form": "mcq",
+   "page": 241,
+   "stem": "Based on the force vectors acting on the block in the diagram, what is the magnitude and direction of the net force, and how will it affect the block’s state of motion?",
+   "answer": "The forces pulling the block to the right total 25 N (15 N + 10 N), while the force pulling to the left is 30 N. The unbalanced net force is the difference, 5 N, directed towards the larger force (left). Consequently, the block will accelerate leftward. The other options miscalculate vector sums or directions.",
+   "options": [
+    {
+     "label": "A",
+     "text": "5 N towards the left; the block will accelerate leftward."
+    },
+    {
+     "label": "B",
+     "text": "5 N towards the right; the block will accelerate rightward."
+    },
+    {
+     "label": "C",
+     "text": "25 N towards the left; the block will move with constant velocity."
+    },
+    {
+     "label": "D",
+     "text": "55 N towards the right; the block will remain at rest."
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Net force from opposing forces",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "46",
+   "form": "mcq",
+   "page": 241,
+   "stem": "Consider the following physical statements concerning friction and continuous motion:\n1. Friction constantly acts in the same identical direction as the object’s motion.\n2. A completely frictionless smooth surface allows an object to move uniformly forever.\n3. Once a pushed object moves, no further external force is ever needed on a rough surface.\n4. Grooves in footwear soles are designed to deliberately increase friction.\nWhich of these statements are absolutely correct?",
+   "answer": "Frictional force strictly opposes motion, making the first statement false. On a theoretically frictionless surface, an object absolutely moves indefinitely, confirming the second statement. On a real rough surface, continuous force is required to counteract continuous friction, making the third false. Finally, footwear grooves deliberately increase necessary friction for safe walking, confirming the fourth statement perfectly.",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 and 3"
+    },
+    {
+     "label": "B",
+     "text": "2 and 4"
+    },
+    {
+     "label": "C",
+     "text": "1, 2, and 4"
+    },
+    {
+     "label": "D",
+     "text": "2, 3, and 4"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Friction as opposing force",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "47",
+   "form": "mcq",
+   "page": 241,
+   "stem": "During a physics demonstration, an astronaut with a mass of 100 kg pushes a satellite with a mass of 500 kg in the vacuum of space. The table displays four different proposed scenarios. Which scenario accurately represents the physical quantities according to the fundamental laws of motion?\n\n<html><body><table><tr><td>Scenario</td><td>Force on Astronaut (N)</td><td>Acceleration of Astronaut (m s-2)</td><td>Force on Satellite (N)</td><td>Acceleration of Satellite (m s-2)</td></tr><tr><td>Scenario A</td><td>200</td><td>2.0</td><td>200</td><td>0.4</td></tr><tr><td>Scenario B</td><td>100</td><td>1.0</td><td>500</td><td>1.0</td></tr><tr><td>Scenario C</td><td>200</td><td>0.4</td><td>200</td><td>2.0</td></tr><tr><td>Scenario D</td><td>500</td><td>5.0</td><td>100</td><td>0.2</td></tr></table></body></html>",
+   "answer": "Newton’s third law requires interacting objects to exert equal and opposite forces, meaning both experience two hundred Newtons. However, according to the second law, acceleration is inversely proportional to mass. The lighter astronaut accelerates at two meters per second squared, while the heavier satellite accelerates at only zero point four.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Scenario A"
+    },
+    {
+     "label": "B",
+     "text": "Scenario B"
+    },
+    {
+     "label": "C",
+     "text": "Scenario C"
+    },
+    {
+     "label": "D",
+     "text": "Scenario D"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "48",
+   "form": "mcq",
+   "page": 248,
+   "stem": "A 5 kg block is rapidly sliding on a heavily textured rough floor. The maximum force of friction opposing it is 15 N. If no forward pushing force is applied, calculate the magnitude of its deceleration.",
+   "options": [
+    {
+     "label": "A",
+     "text": "0.33 m s⁻²"
+    },
+    {
+     "label": "B",
+     "text": "3 m s⁻²"
+    },
+    {
+     "label": "C",
+     "text": "10 m s⁻²"
+    },
+    {
+     "label": "D",
+     "text": "75 m s⁻²"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Without any active forward applied force, the sole horizontal net force acting upon the block is the fifteen newtons of opposing friction. Utilising the formula (a = F/m), we divide this fifteen newton backward force by the total five kilogram mass. This strict calculation precisely yields a steady deceleration of exactly three metres per second squared.",
+   "concept": "Friction brings moving objects to rest",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "49",
+   "form": "mcq",
+   "page": 248,
+   "stem": "A worker continuously pushes a heavy crate across a horizontal concrete floor. The resulting motion of the crate is plotted on the provided velocity-time graph, which is a horizontal straight line. What can be concluded about the horizontal forces acting on the crate during this time?",
+   "options": [
+    {
+     "label": "A",
+     "text": "The applied force provided by the worker is continuously increasing."
+    },
+    {
+     "label": "B",
+     "text": "The applied force is strictly greater than the opposing frictional force."
+    },
+    {
+     "label": "C",
+     "text": "The net horizontal force is zero because applied force balances friction."
+    },
+    {
+     "label": "D",
+     "text": "The frictional force is completely absent due to the constant motion."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The horizontal straight line on the velocity-time graph demonstrates that the crate moves with a constant velocity, meaning acceleration is zero. According to Newton’s first law, zero acceleration requires a zero net force. Therefore, the applied force perfectly balances the opposing frictional force. The incorrect options assume a net force or ignore friction entirely.",
+   "concept": "Finding force from velocity-time graph",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "50",
+   "form": "mcq",
+   "page": 248,
+   "stem": "A 1000 kg automobile uniformly accelerates strictly from rest to a steady velocity of 20 m s⁻¹ in exactly 5 seconds. What is the magnitude of the constant net force acting upon the accelerating car?",
+   "options": [
+    {
+     "label": "A",
+     "text": "4000 N"
+    },
+    {
+     "label": "B",
+     "text": "2000 N"
+    },
+    {
+     "label": "C",
+     "text": "10000 N"
+    },
+    {
+     "label": "D",
+     "text": "500 N"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Initially, we must determine the exact acceleration using the kinematic equation a = (v - u)/t. Subtracting zero from twenty and dividing by five seconds precisely yields an acceleration of four metres per second squared. Multiplying this calculated acceleration by the car’s massive one thousand kilogram mass accurately gives a total force of four thousand newtons.",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "51",
+   "form": "mcq",
+   "page": 248,
+   "stem": "Two heavy structural blocks of mass m₁ and m₂ are tied tightly together by a string and pulled vigorously by a massive single force F. What is the common acceleration of this unified system?",
+   "options": [
+    {
+     "label": "A",
+     "text": "F/m₁"
+    },
+    {
+     "label": "B",
+     "text": "F/m₂"
+    },
+    {
+     "label": "C",
+     "text": "F/(m₁ − m₂)"
+    },
+    {
+     "label": "D",
+     "text": "F/(m₁ + m₂)"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "When strongly connected objects are deliberately treated analytically as a single unified system, their individual masses are added together to form a total systemic mass. Using Newton’s second law for the entire connected system, the common external acceleration is mathematically found precisely by dividing the total external pulling force by the combined total mass (m₁ + m₂).",
+   "concept": "System acceleration uses total mass",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "52",
+   "form": "mcq",
+   "page": 248,
+   "stem": "A small spherical ball is moving uniformly on a perfectly smooth, completely frictionless horizontal surface. If absolutely no external net force is continuously applied, the internal velocity of the rolling ball will:",
+   "options": [
+    {
+     "label": "A",
+     "text": "Gradually increase exponentially over time"
+    },
+    {
+     "label": "B",
+     "text": "Suddenly decrease quickly to zero"
+    },
+    {
+     "label": "C",
+     "text": "Steadily remain exactly the same"
+    },
+    {
+     "label": "D",
+     "text": "Frequently fluctuate unpredictably over distance"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "In accordance with Newton’s fundamental first law of motion, an object strictly maintains its present state of constant velocity unless actively disturbed by an external unbalanced net force. Since the described horizontal surface is hypothetically completely frictionless and no pulling force is present, the net force is perfectly zero, ensuring the velocity remains totally unchanged indefinitely.",
+   "concept": "Frictionless motion continues indefinitely",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "53",
+   "form": "assertion_reason",
+   "page": 243,
+   "stem": "Assertion (A): If the total external net force acting directly upon a stationary resting box is definitively zero, the box will firmly remain entirely at rest forever. Reason (R): An object at rest fundamentally possesses an absolute velocity of exactly zero, which signifies a constant uniform motion of zero magnitude.",
+   "assertion": "If the total external net force acting directly upon a stationary resting box is definitively zero, the box will firmly remain entirely at rest forever.",
+   "reason": "An object at rest fundamentally possesses an absolute velocity of exactly zero, which signifies a constant uniform motion of zero magnitude.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true and R is the correct explanation of A"
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true but R is not the correct explanation of A"
+    },
+    {
+     "label": "C",
+     "text": "A is true but R is false"
+    },
+    {
+     "label": "D",
+     "text": "A is false but R is true"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The first law conclusively states that physical objects definitively remain in their precise current state unless forced completely to change. A totally stationary box holds a constant velocity of absolutely zero. Since the external net force is perfectly zero, it entirely lacks the capacity to violently alter this specific zero velocity, thereby remaining stationary forever.",
+   "concept": "First law and inertia",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "54",
+   "form": "mcq",
+   "page": 243,
+   "stem": "Two objects of different masses are subjected to identical pulling forces on a smooth, frictionless surface. In the diagram the top block has mass m and the bottom block has mass 2m, and each is pulled by the same force F. How does the acceleration of the top object (a₁) compare to the acceleration of the bottom object (a₂)?",
+   "options": [
+    {
+     "label": "A",
+     "text": "a₁ is equal to a₂"
+    },
+    {
+     "label": "B",
+     "text": "a₁ is twice a₂"
+    },
+    {
+     "label": "C",
+     "text": "a₂ is twice a₁"
+    },
+    {
+     "label": "D",
+     "text": "a₁ is four times a₂"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Newton’s second law expresses that acceleration is inversely proportional to mass for a given constant force (a = F/m). The bottom block possesses twice the mass (2m) of the top block (m) but experiences the exact same applied force (F). Consequently, the top block will experience an acceleration twice as large as the bottom block.",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "55",
+   "form": "mcq",
+   "page": 243,
+   "stem": "Select the accurate conceptual sequence of physical outcomes strictly resulting when an unbalanced external force is strongly applied to a freely moving object: 1. The moving object completely stops its continuous motion. 2. The initial velocity of the physical object forcefully changes. 3. The net external force aggressively creates a definitive acceleration. 4. The applied net external force initially becomes entirely non-zero.",
+   "options": [
+    {
+     "label": "A",
+     "text": "4, 3, 2, 1"
+    },
+    {
+     "label": "B",
+     "text": "3, 4, 1, 2"
+    },
+    {
+     "label": "C",
+     "text": "4, 2, 3, 1"
+    },
+    {
+     "label": "D",
+     "text": "2, 3, 1, 4"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The precise mechanical sequence strictly begins when an external applied force intentionally causes the net force to violently become non-zero. This unbalanced physical condition strictly creates an immediate acceleration. This sudden acceleration systematically alters the object’s current velocity. Ultimately, this intense continuous alteration can forcefully decelerate the moving object until it completely and finally stops.",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "56",
+   "form": "mcq",
+   "page": 244,
+   "stem": "Arrange the following physical steps logically required to experimentally measure the exact opposing frictional force on a rough floor using a basic spring balance: 1. Slowly attach the wooden block to the metallic hook. 2. Read the final tension scale exactly when motion just begins. 3. Place a heavy wooden block quietly on the rough surface. 4. Gradually pull the stretched spring balance horizontally forward.",
+   "options": [
+    {
+     "label": "A",
+     "text": "3, 1, 4, 2"
+    },
+    {
+     "label": "B",
+     "text": "1, 3, 2, 4"
+    },
+    {
+     "label": "C",
+     "text": "3, 4, 1, 2"
+    },
+    {
+     "label": "D",
+     "text": "4, 1, 3, 2"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "To accurately perform this fundamental friction experiment, first, quietly place the wooden block heavily on the testing surface. Next, carefully attach the basic spring balance precisely to the block. After that, gradually apply horizontal forward pulling force. Finally, strictly read the tension scale the exact moment sliding begins, as this precisely indicates maximum static friction.",
+   "concept": "Measuring friction with spring balance",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "57",
+   "form": "mcq",
+   "page": 244,
+   "stem": "The diagram illustrates an interaction between an astronaut and a 2 kg wrench pushed apart in the vacuum of deep space. Which statement accurately compares the force magnitudes and the resulting accelerations of the two bodies?",
+   "options": [
+    {
+     "label": "A",
+     "text": "The astronaut exerts a larger force, causing the wrench to accelerate faster."
+    },
+    {
+     "label": "B",
+     "text": "Both experience equal forces, but the wrench experiences greater acceleration."
+    },
+    {
+     "label": "C",
+     "text": "Both experience equal forces and will therefore experience equal accelerations."
+    },
+    {
+     "label": "D",
+     "text": "The wrench exerts a smaller force, resulting in lower astronaut acceleration."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Newton’s third law dictates that interacting objects exert equal and opposite forces on each other, meaning both force magnitudes are identical. However, Newton’s second law (a = F/m) indicates that for the same force, an object with a significantly smaller mass (the 2 kg wrench) will experience a proportionally much greater acceleration than the heavier astronaut.",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "58",
+   "form": "mcq",
+   "page": 244,
+   "stem": "Does Newton’s universally celebrated third law of opposite motion mathematically apply properly to invisible non-contact forces like deep magnetic attraction?",
+   "options": [
+    {
+     "label": "A",
+     "text": "No, it applies strictly only to direct physical contact forces"
+    },
+    {
+     "label": "B",
+     "text": "Yes, non-contact forces also rigorously act in equal opposite pairs"
+    },
+    {
+     "label": "C",
+     "text": "No, because invisible magnets entirely lack measurable physical mass"
+    },
+    {
+     "label": "D",
+     "text": "Yes, but absolutely only within a massive gravitational vacuum field"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Newton’s universally accepted third law correctly governs all known mechanical interactions, regardless of physical proximity. It applies perfectly to both direct contact forces like friction and strictly non-contact invisible forces like heavy magnetic, deep gravitational, and intense electrostatic forces. Interacting bodies fundamentally exert mathematically equal and entirely opposite forces on each other regardless of touching.",
+   "concept": "Net force from opposing forces",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "59",
+   "form": "mcq",
+   "page": 244,
+   "stem": "In a controlled school laboratory experiment, a student repeatedly doubles the total physical mass of a small rolling cart while deliberately maintaining a perfectly constant forward pulling force. What exact physical effect will this actively have on the cart’s resulting acceleration?",
+   "options": [
+    {
+     "label": "A",
+     "text": "The acceleration will instantly double completely."
+    },
+    {
+     "label": "B",
+     "text": "The acceleration will drastically remain the same."
+    },
+    {
+     "label": "C",
+     "text": "The acceleration will exactly be halved perfectly."
+    },
+    {
+     "label": "D",
+     "text": "The acceleration will permanently become absolute zero."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Newton’s second law definitively dictates that the mathematical magnitude of resulting acceleration is perfectly and inversely proportional strictly to the exact total mass of the accelerating object, provided the applied pulling force remains absolutely constant. Therefore, deliberately doubling the heavy mass essentially forces the resulting physical acceleration to mathematically reduce precisely to exactly one half.",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "60",
+   "form": "mcq",
+   "page": 245,
+   "stem": "The highly profound Newton’s second law of physical motion is frequently expressed conceptually in advanced physics strictly in terms of which specific fundamental physical quantity?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Total energy"
+    },
+    {
+     "label": "B",
+     "text": "Absolute temperature"
+    },
+    {
+     "label": "C",
+     "text": "Changing momentum"
+    },
+    {
+     "label": "D",
+     "text": "Internal volume"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "While typically learned fundamentally as F = ma, the far more complete and advanced foundational form of Newton’s second law is rigorously expressed strictly using momentum. It definitively states that the absolute rate of change of an object’s total momentum is mathematically proportional directly to the applied external net force, correctly encompassing variable mass situations.",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 3
+  },
+  {
+   "number": "61",
+   "form": "mcq",
+   "page": 245,
+   "stem": "During a high jump sports event, why is a thick soft landing mat strictly placed carefully underneath the falling athlete?",
+   "options": [
+    {
+     "label": "A",
+     "text": "To violently increase their falling velocity rapidly"
+    },
+    {
+     "label": "B",
+     "text": "To entirely eliminate Earth’s gravitational pulling force"
+    },
+    {
+     "label": "C",
+     "text": "To strictly increase the stopping time thereby drastically reducing impact force"
+    },
+    {
+     "label": "D",
+     "text": "To powerfully bounce the falling athlete right back completely upwards"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "When a falling athlete forcefully hits a highly compressible thick soft mat, the deep sinking action radically increases the crucial time duration over which their downward velocity physically stops. According to strict Newton’s second law calculations, this extended stopping time drastically reduces the harsh resulting deceleration, which heavily minimizes the dangerous impact force preventing bodily injury.",
+   "concept": "Longer impact time lowers stopping force",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "62",
+   "form": "mcq",
+   "page": 245,
+   "stem": "Three blocks of mass 1 kg, 2 kg and 3 kg are linked by lightweight strings on a smooth, frictionless horizontal table. A single pulling force of 18 N is applied to the final block in the chain. What is the acceleration of the entire connected system?",
+   "options": [
+    {
+     "label": "A",
+     "text": "2 m/s²"
+    },
+    {
+     "label": "B",
+     "text": "3 m/s²"
+    },
+    {
+     "label": "C",
+     "text": "6 m/s²"
+    },
+    {
+     "label": "D",
+     "text": "18 m/s²"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "To calculate the system’s acceleration, treat all three interconnected blocks as a single collective mass. The total mass equals 1 kg + 2 kg + 3 kg = 6 kg. Applying Newton’s second law (a = F/m), the system’s acceleration is 18 N divided by 6 kg, which equals 3 m/s². Internal string tensions cancel out.",
+   "concept": "System acceleration uses total mass",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "63",
+   "form": "mcq",
+   "page": 245,
+   "stem": "Identify the singular distinct real-life situation that fundamentally does NOT primarily illustrate a direct protective safety application of Newton’s second law of stopping motion:",
+   "options": [
+    {
+     "label": "A",
+     "text": "Fielders deliberately pulling hands firmly backward while catching heavily"
+    },
+    {
+     "label": "B",
+     "text": "Modern vehicles deploying soft airbags violently upon crashing"
+    },
+    {
+     "label": "C",
+     "text": "Swimmers forcefully pushing dense pool water vigorously backward"
+    },
+    {
+     "label": "D",
+     "text": "Athletes falling safely onto thick spongy landing mats"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Fielders pulling hands, modern airbags inflating, and athletes falling on soft thick mats are all excellent applications deliberately extending stopping time to precisely reduce severe impact force strictly under the second law. Conversely, a swimmer vigorously pushing thick water heavily backward fundamentally relies entirely upon strict action-reaction opposing pairs explicitly defined by the third law.",
+   "concept": "Longer impact time lowers stopping force",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "64",
+   "form": "mcq",
+   "page": 245,
+   "stem": "Complete the fundamental scientific analogy below correctly based upon the standard international metric units extensively discussed precisely in this chapter: Force is properly related strictly to Newton as Mass is properly related strictly to:",
+   "options": [
+    {
+     "label": "A",
+     "text": "Pascal"
+    },
+    {
+     "label": "B",
+     "text": "Kilogram"
+    },
+    {
+     "label": "C",
+     "text": "Metre"
+    },
+    {
+     "label": "D",
+     "text": "Second"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "In the globally accepted International System of Units widely utilised throughout physics, the strict standard measuring unit accurately defining external applied force is the newton. Following this identical precise scientific pattern, the exact strict standard metric unit specifically utilised for accurately measuring an object’s fundamental physical internal mass is the standard kilogram.",
+   "concept": "Definition of the newton",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "65",
+   "form": "mcq",
+   "page": 245,
+   "stem": "If careful mathematical calculation strongly determines that the total physical acceleration of a sliding block is strictly absolutely zero, which specific physical conclusion is undeniably entirely true?",
+   "options": [
     {
      "label": "A",
      "text": "A massive single forward external force is heavily acting"
@@ -949,7 +1970,12 @@
      "text": "The opposing friction completely exceeds the forward pulling force"
     }
    ],
-   "correct_option": "B"
+   "correct_option": "B",
+   "answer": "Based firmly upon strict Newton’s second fundamental law (F = ma), if the carefully calculated resulting acceleration mathematically equals absolutely zero, then the total external applied net force must also undeniably be precisely zero, assuming total mass exists. This fundamentally means all forward and backward opposing active forces are entirely balanced perfectly against each other.",
+   "concept": "Net force from opposing forces",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
   }
  ]
 }

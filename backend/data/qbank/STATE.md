@@ -12,15 +12,18 @@ Every item is read against the source before it loads.
 
 ## Loaded
 
-| chapter | items | in DB | held | tagged | curriculum |
-|---|---|---|---|---|---|
-| 9 Sci 1 Exploration | 143 | 143 | 0 | 143 | 143 mapped |
-| 9 Sci 2 Cell | 163 | 163 | 0 | 163 | 163 mapped |
-| 9 Sci 3 Tissues in Action | 165 | 165 | 0 | 165 | — |
-| 9 Sci 4 Describing Motion | 212 | 210 | 2 | 210 | — |
-| **Class 9 Science** | **683** | **681** | **2** | | **306** |
+| chapter | items | held | tagged | curriculum |
+|---|---|---|---|---|
+| 9 Sci 1 Exploration | 143 | 0 | 143 | 143 |
+| 9 Sci 2 Cell | 163 | 0 | 163 | 163 |
+| 9 Sci 3 Tissues in Action | 165 | 0 | 165 | 165 |
+| 9 Sci 4 Describing Motion | 210 | 2 | 210 | 210 |
+| 9 Sci 5 Exploring Mixtures | 167 | 0 | 167 | 167 |
+| 9 Sci 6 How Forces Affect Motion | 222 | 0 | 222 | mapping |
+| 9 Sci 7 Work, Energy, Machines | 226 | 0 | 226 | mapping |
+| **Class 9 Science** | **1,296** | **2** | | **848** |
 
-Estate-wide: 6,476 questions, 957 with per-question curriculum codes.
+Estate-wide: 7,091 questions, 1,499 with per-question curriculum codes.
 Chapter 4's 2 held rows are genuine duplicate hashes — the book reprints the
 same question under two numbers. 4 rows are `ai_rephrased`; the rest are the
 book's own words.
@@ -35,12 +38,20 @@ books rather than starting many.
 
 ## In flight
 
-- Chapter 5 (eid 596) — all six readers done, consolidation running.
-- Chapter 6 (eid 597) — all six readers done, consolidation running.
-- Chapter 7 (eid 598) — five readers running.
+- Chapter 8 (eid 599) — all readers done, 150 items, case reader recovering
+  113-115 from chapter 9's extraction. Merge when it reports.
+- Chapter 9 (eid 600) — six readers running.
+- Curriculum mapping for chapters 6 and 7.
 
-Drafted, not yet read: ch08 149 · ch09 204 · ch10 200 · ch11 159 · ch12 161 ·
-ch13 154. Extraction id is 591 + chapter number.
+Drafted, not yet read: ch10 200 · ch11 159 · ch12 161 · ch13 154.
+Extraction id is 591 + chapter number.
+
+## A trap I fell into
+
+Do NOT put a `section` key on an individual item. `supplied_items.py:152` maps
+it straight onto `exam_section`, which is a one-letter column, so the whole
+chapter fails to save with "Data too long for column 'exam_section'". The
+section belongs at the top level of the draft payload, not on the item.
 
 ## The pipeline
 

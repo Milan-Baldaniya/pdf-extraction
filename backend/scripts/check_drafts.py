@@ -173,6 +173,16 @@ def running_header(db, chapter_id: int) -> re.Pattern | None:
 
     Only titles of three or more words are used. A one- or two-word title such
     as "Motion" would match ordinary prose and turn this into noise.
+
+    The match is CASE SENSITIVE, for the same reason the banners above are. The
+    running header is set in title case on every page, but a chapter's title is
+    made of ordinary words and the book writes them in ordinary prose too:
+    chapter 9's objective Q58 opens "Based on the comprehensive study of the
+    atomic foundations of matter, identify ..." -- the book's own sentence, in
+    lower case, which a case-insensitive pattern reports as bled furniture. In
+    chapter 9's source the title appears 24 times as the header and once like
+    that, so requiring the case loses nothing and stops the check from pushing
+    a reader into editing the book's text to silence it.
     """
     name = db.execute(
         text("SELECT chapter_name FROM chapter_master WHERE id = :c"),
@@ -181,7 +191,7 @@ def running_header(db, chapter_id: int) -> re.Pattern | None:
     if not name or len(name.split()) < 3:
         return None
     # Tolerate the whitespace the text layer inserts between words.
-    return re.compile(r"\s+".join(re.escape(w) for w in name.split()), re.I)
+    return re.compile(r"\s+".join(re.escape(w) for w in name.split()))
 
 
 def concepts_for(db, chapter_id: int) -> set[str]:

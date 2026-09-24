@@ -132,13 +132,31 @@ def embedded_question(text: str, own: int | None) -> str | None:
     if not hits:
         return None
     numbers = [int(h.group(1)) for h in hits]
-    # A numbered sub-part list: starts at 1 or 2, ascends by one, no gaps.
-    if numbers[0] <= 2 and numbers == list(range(numbers[0], numbers[0] + len(numbers))):
+    # A numbered sub-part list. Requiring it to start at 1 or 2 and ascend by
+    # exactly one was too brittle: the regex needs a capitalised sentence of
+    # 25+ characters, so a short sub-part is skipped and the run reads as
+    # [1, 3] rather than [1, 2, 3]. Six correct items tripped on that. What
+    # actually separates the two is size -- sub-parts in these books run to
+    # about six and never past eight, while a buried question carries the
+    # book's own sequence number, in the dozens or hundreds.
+    #
+    # A real burial numbered eight or under is therefore missed here. That is
+    # deliberate rather than overlooked: it still shows up as a hole in the
+    # chapter-wide numbering check, which is the other half of this pair.
+    # Nor can the run be required to ascend. One answer carries two separate
+    # lists -- "Comparison: 1. 2. 3." then "Situations for preference: 1. 2.
+    # 3." -- so the numbers read [2, 3, 2, 3]. Size is doing all the work, and
+    # the ascending test only added a way to be wrong.
+    if all(n <= 8 for n in numbers):
         return None
-    if own is None:
-        return None
+    # The buried number is NOT required to run ahead of its host. Requiring
+    # that was how chapter 7's Q96 got through: its whole stem was appended to
+    # Q113's stem and its answer had overwritten Q113's answer field, so Q96
+    # existed nowhere, and 96 < 113 so nothing fired. The sub-part list above
+    # is what separates a real burial from a numbered list; the direction of
+    # the number never was.
     for hit, number in zip(hits, numbers):
-        if number > own:
+        if number != own:
             return f"{number}. {hit.group(2)[:60]}"
     return None
 

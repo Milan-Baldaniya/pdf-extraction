@@ -7,267 +7,287 @@
   {
    "number": "1",
    "form": "very_short",
-   "page": null,
+   "page": 279,
    "stem": "In the previous chapter, a weight lifter is shown holding a barbell steady in her hands. Is she doing any work on the barbell while holding it steady?",
-   "answer": "No, she is not doing any work on the barbell in a scientific sense. Work is defined as a force causing a displacement in the direction of the force. Since the barbell is held steady and undergoes zero displacement, the work done on it is zero, despite the physical effort she feels."
+   "answer": "No, she is not doing any work on the barbell in a scientific sense. Work is defined as a force causing a displacement in the direction of the force. Since the barbell is held steady and undergoes zero displacement, the work done on it is zero, despite the physical effort she feels.",
+   "concept": "Zero work when there is no displacement",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "2",
    "form": "very_short",
-   "page": 280,
+   "page": 279,
    "stem": "Is the work done by friction on the stack of coins that travels on a rough surface — positive, negative or zero?",
-   "answer": "The work done by friction is negative. This is because the frictional force always acts in a direction directly opposite to the displacement of the sliding stack of coins. Work, Energy, and Simple Machines"
+   "answer": "The work done by friction is negative. This is because the frictional force always acts in a direction directly opposite to the displacement of the sliding stack of coins.",
+   "concept": "Negative work",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "3",
-   "form": "very_short",
-   "page": 280,
-   "stem": "",
-   "answer": "Given gravitational acceleration on Earth gE = g on the Moon gM = g/6, height reached on Earth hE = 8 m, and the ball is thrown the same initial velocity U on both surfaces. At maximum height the ball comes to rest (v=0), Using v2 u gh 2 2 = − with v t 0 = , u gh 2 2 = Since u is same on both surfaces, the product gh remains constant, giving: g h E E # g h M M # = On Earth u2 g 2 8 # # = g 16 = (1) On the Moon u2 ( / ) g h 2 6 M # # = (2) Equating (1) and (2) 16g ( / ) g h 2 6 M # # = hM ( )/( ) g g 16 6 2 # = hM m 48 ="
-  },
-  {
-   "number": "13",
-   "form": "very_short",
-   "page": 280,
-   "stem": "A 1000 kg car is moving along a road at a constant speed. Suddenly, the driver notices some obstruction ahead and applies the brakes to come to a complete stop. The graphical representation of motion of the car starting from the instant the driver spots the traffic ahead is shown in figure. (i) Describe how the car moves between positions A and B. (ii) Calculate the kinetic energy of the car at A. (iii) State the work done by the brakes in bringing the car to a halt between B and C. (iv) What does the kinetic energy of the car transform into?",
-   "answer": "(i) Between positions A and B, the car moves with a constant, uniform speed of 35 m/s. This horizontal line on the graph represents the driver’s reaction time before the brakes are actually applied. (ii) At position A, the speed = 35 m/s and the mass = 1000 kg. Kinetic energy = 1/2 mv2 = 1/2 × 1000 × (35)2 = 500 × 1225 = 612,500 J. (iii) By the work-energy theorem, the work done by the brakes equals the change in kinetic energy. Since the car stops at C, its final kinetic energy is 0. Work done = Final KE - Initial KE = 0 - 612,500 J = -612,500 J. The negative sign shows work is done opposite to the motion. (iv) The kinetic energy of the car transforms primarily into thermal energy (heat) and sound energy due to the friction between the brake pads and wheels, and between the tires and the road surface."
-  },
-  {
-   "number": "14",
-   "form": "very_short",
-   "page": 281,
-   "stem": "The potential energy-displacement graph of a 0.5 kg ball moving along a frictionless track is shown in figure. At O, the velocity of the ball is 0 ms-1 and potential energy is 30 J. Calculate the velocity of the ball at P, Q and R.",
-   "answer": "Given, Mass of ball (m) = 0.5 kg Velocity at Q = 0 ms–1 Potential Energy at Q = 30 J From graph : PE at P = 20 J PE at R = 40 J Since the track is frictionless, Total Mechanical Energy remains constant throughout the motion. At point Q. velocity = 0, therefore KE at Q = 0 Total Mechanical Energy = KE + PE = 0 + 30 = 30 J Click Here to Buy book on Flipkart"
-  },
-  {
-   "number": "8",
-   "form": "very_short",
-   "page": 281,
-   "stem": "You may have seen an exhibit like that in Figure in a science park, where a ball is released from the highest point. Describe how the kinetic energy and potential energy change at points A, B and C. Why do subsequent points, such as C, D and E, usually have lower heights compared to the previous ones? Could it have anything to do with the energy lost due to friction?",
-   "answer": "At point A, potential energy is high and kinetic energy is low; as it descends to B, potential energy decreases while kinetic energy increases to a maximum. As it climbs to point C, kinetic energy transforms back into potential energy, slowing the ball down. The subsequent peaks like C, D, and E must be lower because mechanical energy is not perfectly conserved in reality. As the ball rolls, some mechanical energy is continuously converted into thermal energy and sound due to friction and air resistance, leaving less total energy to achieve the original height."
-  },
-  {
-   "number": "9",
-   "form": "very_short",
-   "page": 281,
-   "stem": "Explain why roads on hills are built to wind around in gentle slopes rather than going straight up(Figure)?",
-   "answer": "A winding road acts as a long inclined plane, which is a simple machine. By increasing the distance over which a vehicle travels to reach a certain height, the slope becomes gentler. This provides a mechanical advantage, meaning a much smaller continuous force (effort) from the engine is required to lift the heavy vehicle against gravity, compared to the massive force needed to go straight up."
-  },
-  {
-   "number": "10",
-   "form": "very_short",
-   "page": 281,
-   "stem": "To reach a higher floor, we find climbing an inclined ladder easier in comparison to climbing a vertical ladder as shown in the figure . Explain why ?",
-   "answer": "An inclined ladder functions as an inclined plane, increasing the distance over which you must move to reach the same vertical height. Because work is force multiplied by distance, spreading the work over a longer distance means you need to apply less upward force at any given moment. This mechanical advantage reduces the required effort, making the climb feel much easier than hauling your entire weight straight up a vertical ladder."
-  },
-  {
-   "number": "11",
-   "form": "very_short",
-   "page": 282,
-   "stem": "Why is it easier to open the lid of a can by using a spoon as shown in figure ?",
-   "answer": "The spoon acts as a lever where the edge of the can serves as the fulcrum. By holding the end of the spoon, you create a long effort arm and a very short load arm under the lid. This setup provides a significant mechanical advantage, allowing a small downward force applied by your hand to translate into a much larger upward force that easily pops the tight lid open. Work, Energy, and Simple Machines"
-  },
-  {
-   "number": "3",
-   "form": "very_short",
+   "form": "short",
    "page": 282,
    "stem": "When you pedal a bicycle on a flat road, your muscles supply energy. In what forms does this muscular energy appear as you ride?",
-   "answer": "The chemical energy from your muscles is primarily converted into the mechanical energy (specifically kinetic energy) of both the moving bicycle and your body. Additionally, some of this muscular energy is inevitably converted into thermal energy due to friction in the bicycle’s moving parts and air resistance, which is why your body also feels warm."
+   "answer": "The chemical energy from your muscles is primarily converted into the mechanical energy (specifically kinetic energy) of both the moving bicycle and your body. Additionally, some of this muscular energy is inevitably converted into thermal energy due to friction in the bicycle’s moving parts and air resistance, which is why your body also feels warm.",
+   "concept": "Energy exists in many forms",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "4",
-   "form": "very_short",
+   "form": "short",
    "page": 282,
    "stem": "Two objects A and B of mass m and 4 m have the same kinetic energy. What is the ratio of the magnitude of velocities of A and B?",
-   "answer": "Given Mass of A mA = m Mass of B mB = 4 m Condition KE of A = KE of B Setting Kinetic Energetic Equal Kinetic Energy. mv KE 2 1 2 = KEA = KEB m v 2 1 A 3 # # m v 2 1 4 B 3 # # = The 1/2 and m cancel from both sides: vA 2 v 4 B 2 = Taking square root on both sides: vA 3 v 2 E = Ratio of Velocities v v B A v v 2 2 B B = = : v v A B : 2 1 ="
+   "answer": "Given: mass of A, mA = m; mass of B, mB = 4m; and the kinetic energy of A equals the kinetic energy of B. Kinetic energy is (1/2)mv², so setting the two equal gives (1/2)(m)(vA²) = (1/2)(4m)(vB²). The factor 1/2 and the mass m cancel from both sides, leaving vA² = 4vB². Taking the square root of both sides gives vA = 2vB. Therefore the ratio of the magnitudes of the velocities is vA : vB = 2 : 1.",
+   "concept": "Kinetic energy varies with velocity squared",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
   },
   {
    "number": "5",
    "form": "very_short",
    "page": 282,
    "stem": "Does the kinetic energy of an object which moves with constant velocity change with its position?",
-   "answer": "No, the kinetic energy does not change with position if the velocity is constant. Kinetic energy depends solely on the mass and the velocity of the object, so as long as neither of those changes, the kinetic energy remains constant regardless of where the object is placed."
+   "answer": "No, the kinetic energy does not change with position if the velocity is constant. Kinetic energy depends solely on the mass and the velocity of the object, so as long as neither of those changes, the kinetic energy remains constant regardless of where the object is placed.",
+   "concept": "Kinetic energy from motion",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
   },
   {
    "number": "6",
-   "form": "very_short",
+   "form": "short",
    "page": 282,
    "stem": "Does the potential energy of an object near the surface of the Earth change if it moves with constant velocity in the horizontal direction? What if the object is gradually raised in the vertical direction?",
-   "answer": "If an object moves horizontally, its height relative to the ground stays the same, so its gravitational potential energy does not change. However, if the object is gradually raised in the vertical direction, its height increases. This means work is done against gravity, resulting in an increase in its gravitational potential energy."
+   "answer": "If an object moves horizontally, its height relative to the ground stays the same, so its gravitational potential energy does not change. However, if the object is gradually raised in the vertical direction, its height increases. This means work is done against gravity, resulting in an increase in its gravitational potential energy.",
+   "concept": "Energy stored by relative positions",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "7",
-   "form": "very_short",
-   "page": 283,
+   "form": "short",
+   "page": 282,
    "stem": "For the situation depicted in figure calculate the mechanical energy of the ball just before it hits the ground and show that even at this position, it is mgh.",
-   "answer": "Just before hitting the ground, the height of the ball is zero, making its potential energy zero. To find its kinetic energy, we use the kinematic equation v² = u² + 2as. Since it falls from rest (u = 0) over a distance h with acceleration g, v² = 2gh. Substituting this into the kinetic energy formula K.E = 1/2 m(2gh) = mgh, so the total mechanical energy is 0 + mgh = mgh."
-  },
-  {
-   "number": "4",
-   "form": "very_short",
-   "page": 283,
-   "stem": "For each of the following situations, identify the energy transformation that takes place: (i) a truck moving uphill, (ii) unwinding of a watch spring, (iii) photosynthesis in green leaves, (iv) water flowing from a dam, (v) burning of a matchstick, (vi) explosion of a fire cracker, (vii) speaking into a microphone, (viii) a glowing electric bulb, and (ix) a solar panel.",
-   "answer": "(i) Kinetic energy (and chemical energy from fuel) transforms into gravitational potential energy as the truck gains height. (ii) Elastic potential energy stored in the wound spring transforms into mechanical (kinetic) energy to move the watch hands. (iii) Light energy from the sun transforms into chemical energy stored in the plant’s food bonds. (iv) Gravitational potential energy of the stored water transforms into kinetic energy as it flows downward. (v) Chemical energy stored in the match head transforms into thermal (heat) energy and light energy. (vi) Chemical energy stored in the explosive powder transforms into sound energy, light energy, and thermal energy. (vii)Sound energy from the voice transforms into electrical energy as signals in the microphone wire. (viii)Electrical energy transforms into light energy and thermal (heat) energy. (ix) Light energy from the sun transforms into electrical energy."
-  },
-  {
-   "number": "5",
-   "form": "very_short",
-   "page": 283,
-   "stem": "A student is slowly lifted straight up in an elevator from the ground level to the top floor of a building. Later, the same student climbs the staircase, all the way to the top. Given that the height of the building is h = 72.5 m, acceleration due to gravity is g = 10 ms-2, and student’s mass is m = 50 kg. i. Find the gain in the potential energy if the student is lifted straight up to the top. ii. Find the gain in the potential energy when the student climbs the stairs to the same top. iii. What do you conclude about the dependence of the potential energy on the path taken?",
-   "answer": "i. The gain in potential energy when the student is lifted straight up to the top ion the elevator is given by TPE = mgh. Substituting the values, TPE = 50 × 10 × 72.5 = 36,250 J = 3.625 ×10-4 J. ii. When the student climbs the staircase to the same top floor, the vertical height gained remains the same, h = 72.5m. Therefore, using the same formula, TPE = mgh = 50 × 10 × 72.5 = 36,250 J = 3.625 ×104.J. iii. The gain in potential energy is identical in both cases, even though the paths taken- a direct vertical lift in the elevator and a winding staircase- are entirely different, This leads to the conclusion that gravitational potential energy depends only on the vertical height gained, and not on the path followed to reach that height Gravity is therefore a conservative force."
-  },
-  {
-   "number": "6",
-   "form": "very_short",
-   "page": 284,
-   "stem": "A crane lifts a mass m to the 10th floor of a building in a certain time. It then raises the same mass to the 20th floor of the same building in double the time. How much more energy and power are required? Assume that the height of all floors is equal.",
-   "answer": "Let the height of each floor bed. The crane lifts mass m to the 10th floor in time t, and to the 20th floor in 2t. Therefore h1 = 10 d, t and h2 = 20 d, t2= 2 t Energy required to reach the 10th floor: E1 = mgh1 = mg ×10 d = 10 mgd Energy required to reach the 20th floor: E2 = mgh2 mg ×20 d = 20 mgd Ratio of energies: E2/E1 = 20 mgd/10 mgd = 2 The crane required twice the energy to lift the mass to the 20th floor. Power required to reach the 10th floor: P1 = E1/t3= 10 mgd/t Power required to reach the 20th floor: P3 = E3/t3 = 20 mgd/2t = 10 mgd/t Click Here to Buy book on Amazon Work, Energy, and Simple Machines Ratio of Powers: P1/P3 =(10 mgd/t)(10 mgd/t)=1 The power required is the same in both cases."
-  },
-  {
-   "number": "7",
-   "form": "very_short",
-   "page": 284,
-   "stem": "Which factors determine the energy required to raise a flag from the ground to the top of a tall flagpole using a pulley? Does raising the flag slowly or quickly change the amount of work done? If the speed at which the flag is raised is doubled, how does the power requirement change? Explain your answers.",
-   "answer": "The energy required to raise the flag is determined by its gravitational potential energy (mgh), which depends on the mass of the flag, the acceleration due to gravity, and the height of the flagpole. Raising the flag quickly or slowly does not change the amount of work done because work only depends on the force applied against gravity and the displacement, which remain constant. However, if the speed is doubled, the time taken to raise the flag is halved. Since power is the rate of doing work (Work/time), halving the time doubles the power requirement."
+   "answer": "Just before hitting the ground, the height of the ball is zero, making its potential energy zero. To find its kinetic energy, we use the kinematic equation v² = u² + 2as. Since it falls from rest (u = 0) over a distance h with acceleration g, v² = 2gh. Substituting this into the kinetic energy formula, K.E = (1/2)m(2gh) = mgh, so the total mechanical energy is 0 + mgh = mgh.",
+   "concept": "Mechanical energy conserved in free fall",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "8",
-   "form": "very_short",
-   "page": 284,
-   "stem": "A man of mass 60 kg rides a scooter of mass 100 kg. He accelerates the scooter to a velocity v. The next day, his son with a mass of 40 kg joins him as a passenger. If the scooter reaches the same speed on both days in the same time interval, what is the ratio of the fuel of the tank used on the two days? Assume that the energy transfer to the scooter happens entirely due to fuel, and no other losses occur due to air resistance and friction.",
-   "answer": "Given, Mass of man, m3 = 60 kg Mass of scooter, ms = 100 kg, Mass of son, m2 = 40 kg. The scooter reaches the same final velocity v from rest in the same time interval on both days. Since no cases due to friction or air resistance occur, all fuel energy goes into the kinetic energy of the system. Total mass on Day (1 man + scooter): M1 = 60 + 100 = 160 kg Total mass on Day 2 (man + son + scooter)” M2 = 60 + 40 + 100 = 200 kg Kinetic Energy on Day 1: KE1 M v v 2 1 2 1 160 2 2 2 # # = = v 80 2 = Kinetic energy on Day 2: KE2 M v v 2 1 2 1 200 2 3 3 # # = = v 100 2 = Ratio of fuel used (Day 1 : Day 2): Since all fuel converts to kinetic energy, the fuel used is directly proportional to the kinetic energy gained. Therefore, Fuel3/Furel2 KE KE v v 100 80 2 1 2 2 = = 100 80 5 4 = = = 4 : 5"
+   "form": "short",
+   "page": 281,
+   "stem": "You may have seen an exhibit like that in Figure in a science park, where a ball is released from the highest point. Describe how the kinetic energy and potential energy change at points A, B and C. Why do subsequent points, such as C, D and E, usually have lower heights compared to the previous ones? Could it have anything to do with the energy lost due to friction?",
+   "answer": "At point A, potential energy is high and kinetic energy is low; as it descends to B, potential energy decreases while kinetic energy increases to a maximum. As it climbs to point C, kinetic energy transforms back into potential energy, slowing the ball down. The subsequent peaks like C, D, and E must be lower because mechanical energy is not perfectly conserved in reality. As the ball rolls, some mechanical energy is continuously converted into thermal energy and sound due to friction and air resistance, leaving less total energy to achieve the original height.",
+   "concept": "Friction dissipates mechanical energy",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "9",
    "form": "very_short",
-   "page": 284,
-   "stem": "On a seesaw with sliding seats, a child is sitting on one side and an adult on the other side. The adult weighs twice that of the child. The seesaw however is balanced. Draw a figure which depicts this situation showing the distances from the fulcrum where the child and the adult are seated.",
-   "answer": "The diagram shows the key idea clearly. For the seesaw to be balanced, the moments (torques) on both sides must be equal. Since the adult has twice the mass, the child must sit at twice the distance from the fulcrum to compensate: Moment due to child = m × 2d = 2md Moment due to adult = 2m × d = 2md Both moments are equal, so the seesaw remains perfectly balanced — this is the principle of moments (or law of the lever)."
+   "page": 281,
+   "stem": "Explain why roads on hills are built to wind around in gentle slopes rather than going straight up (Figure)?",
+   "answer": "A winding road acts as a long inclined plane, which is a simple machine. By increasing the distance over which a vehicle travels to reach a certain height, the slope becomes gentler. This provides a mechanical advantage, meaning a much smaller continuous force (effort) from the engine is required to lift the heavy vehicle against gravity, compared to the massive force needed to go straight up.",
+   "concept": "Inclined plane reduces effort",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "10",
    "form": "very_short",
-   "page": 285,
-   "stem": "A ball of mass 2 kg is thrown up with a velocity of 20 ms–1. (i) Identify the sign of the work done by gravity on the ball during its upward motion and its downward motion. (ii) If the ball reaches a height of 19.4 m, how much work was done by air resistance (assume g = 10 m s–2).",
-   "answer": "(i) During upward motion, the displacement is upwards but the gravitational force pulls downwards, resulting in negative work. During downward motion, both the displacement and the gravitational force are directed downwards, resulting in positive work. (ii) Using the work-energy theorem, the total work done on the ball equals the change in its kinetic energy. At the maximum height, the ball momentarily comes to rest, so its final kinetic energy is zero Initial kinetic energy: KE = ½ mu² = ½ × 2 × (20)² = 400 J Work done by gravity (upward journey): Wgravity = −mgh = −2 × 10 × 19.4 = −388 J Applying the work-energy theorem for the upward journey: Wgravity + Wair = DKE = KEfinal − KEinitial = 0 − 400 = −400 J Therefore, Wair = −400 − Wgravity = −400 − (−388) Wair = −400 + 388 = −12 J The work done by air resistance is −12 J. The negative sign confirms that air resistance always opposes the motion of the ball, removing energy from it throughout the upward journey."
+   "page": 281,
+   "stem": "To reach a higher floor, we find climbing an inclined ladder easier in comparison to climbing a vertical ladder as shown in the figure. Explain why?",
+   "answer": "An inclined ladder functions as an inclined plane, increasing the distance over which you must move to reach the same vertical height. Because work is force multiplied by distance, spreading the work over a longer distance means you need to apply less upward force at any given moment. This mechanical advantage reduces the required effort, making the climb feel much easier than hauling your entire weight straight up a vertical ladder.",
+   "concept": "Mechanical advantage",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "11",
    "form": "very_short",
-   "page": 285,
-   "stem": "A 10.0 kg block is moving on horizontal floor with negligible friction. As shown in the figure a variable force is applied on the block in its direction of motion from its position at 0 m till 4 m. If the block had a kinetic energy of 180 J when it was at 0 m, find the block’s speed (i) at 0 m, and (ii) at 4 m. Does the block have negative acceleration in any portion of its motion?",
-   "answer": "Use the work–energy theorem: Work done = ∆ KE From the graph (Force vs displacement): Work done from 0 m to 4 m Break into parts: (i) 0 → 1 m (triangle) W1 J 2 1 1 50 25 # # = = (ii) 1 → 3 m (rectangle) W2 J 2 50 100 # = = (iii) 3 → 4 m (triangle) W3 J 2 1 1 50 25 # # = = Total work: W = 25 + 100 + 25 = 150 J Given: Initial KE at 0 m = 180 J Final KE at 4 m: KE = 180 + 150 = 330 J Speeds (i) At 0 m: 180 v 2 1 10 2 # # = v / m s 36 6 = = (ii) At 4 m: 330 v 2 1 10 2 # # = v . / m s 66 8 1 . = Negative acceleration? Acceleration depends on force direction. Here, force is always positive (forward direction), though decreasing later. So, acceleration is never negative (only decreasing but still positive)."
+   "page": 281,
+   "stem": "Why is it easier to open the lid of a can by using a spoon as shown in figure?",
+   "answer": "The spoon acts as a lever where the edge of the can serves as the fulcrum. By holding the end of the spoon, you create a long effort arm and a very short load arm under the lid. This setup provides a significant mechanical advantage, allowing a small downward force applied by your hand to translate into a much larger upward force that easily pops the tight lid open.",
+   "concept": "Lever parts",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "12",
-   "form": "mcq",
-   "page": 286,
-   "stem": "The gravitational attraction on the surface of the Moon (lunar surface) is about 1/6th of that on the surface of the Earth. An astronaut can throw a ball up to a height of 8 m from the surface of the Earth. How far up will the ball thrown with the same upward velocity travel from the surface of the Moon? Work, Energy, and Simple Machines When a person pushes a rigid wall, they apply a substantial muscular force, but the wall does not move. Because the scientific definition of work strictly requires displacement in the direction of the applied force, the work done on the wall is exactly zero. The person feels tired merely due to internal muscle energy expenditure. 3. A girl walks horizontally at a constant speed while carrying a heavy box, as represented by the arrows for force (F) and displacement (s). What is the mathematical work done by the upward force applied on the box?",
-   "answer": "Work done by a force evaluates to zero when the applied force acts perpendicularly to the direction of displacement. Here, the girl exerts an upward force to balance the weight of the box, but the displacement is strictly horizontal. Since these two vectors form a ninety-degree angle, the resulting work done by the upward force is zero.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Maximum positive work, as the heavy box requires significant effort to hold."
-    },
-    {
-     "label": "B",
-     "text": "Negative work, as the gravitational pull acts in the downward direction."
-    },
-    {
-     "label": "C",
-     "text": "Zero work, as the applied force and the displacement are perpendicular."
-    },
-    {
-     "label": "D",
-     "text": "Positive work, as she successfully moves the box in the forward direction."
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "4",
-   "form": "mcq",
-   "page": 286,
-   "stem": "During a fast-paced football match, a goalkeeper stops a fiercely kicked ball by applying force using their hands. What type of work is done by the goalkeeper on the football?",
-   "answer": "Negative work occurs when the applied force and the displacement of the object are in directly opposite directions. When a goalkeeper catches a moving football, they apply a braking force against the ball’s motion. The ball displaces slightly backwards, opposite to the stopping force, thus resulting in negative work being done by the goalkeeper’s hands.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Positive work"
-    },
-    {
-     "label": "B",
-     "text": "Negative work"
-    },
-    {
-     "label": "C",
-     "text": "Zero work"
-    },
-    {
-     "label": "D",
-     "text": "Infinite work"
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "5",
-   "form": "mcq",
-   "page": 286,
-   "stem": "Consider the following statements regarding the concept of work in physics: 1. Pushing a wheelchair forward on a flat road constitutes positive work. 2. The SI unit of work done is the newton. 3. Work done is zero if displacement is zero, regardless of applied force. Select the correct combination of statements:",
-   "answer": "The concept of work firmly establishes that force and displacement must have a component in the same line. If displacement is zero, work is inherently zero. Pushing a wheelchair forward is a classic example of positive work because the applied muscular force aligns exactly with the forward displacement of the wheelchair on the flat ground.",
-   "options": [
-    {
-     "label": "A",
-     "text": "1 and 2 only"
-    },
-    {
-     "label": "B",
-     "text": "2 and 3 only"
-    },
-    {
-     "label": "C",
-     "text": "1 and 3 only"
-    },
-    {
-     "label": "D",
-     "text": "1, 2, and 3"
-    }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "6",
-   "form": "assertion_reason",
-   "page": 287,
-   "stem": "Assertion (A): When a person slowly carries a heavy box while walking horizontally at a constant speed, the work done by the upward carrying force is strictly zero. Reason (R): The upward force applied on the box is entirely perpendicular to the horizontal displacement of the person walking.",
-   "answer": "Work done is precisely the product of force and displacement along the direction of force. When an object moves horizontally while gravity acts vertically downwards, the angle between the gravitational force and displacement is exactly perpendicular. Consequently, there is absolutely no displacement in the direction of gravity, making the work done by gravity zero. Velocity at P : KE at P = Total Energy – PE at P = 30 – 20 = 10 J Since KE = 1/2 mv2 10 = 1/2 × 0.5 × v2 10 = 0.25 × v2 v2 = 40 v at P ms 2 10 1 = − Velocity at Q : At Q, all the mechanical energy exists as potential Energy and Kinetic Energy is zero. v at Q = 0 ms–1 Velocity at R : KE at R = Total Energy – PE at R = 30 – 40 = –10 J Since KInetic Energy can never be negative, the ball does not have sufficient energy to reach point R. The total mechanical energy (30 J) is less than the potential energy required at R (40 J). Therefore, the ball cannot reach point R.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Both A and R are true and R is the correct explanation of A"
-    },
-    {
-     "label": "B",
-     "text": "Both A and R are true but R is not the correct explanation of A"
-    },
-    {
-     "label": "C",
-     "text": "A is true but R is false"
-    },
-    {
-     "label": "D",
-     "text": "A is false but R is true"
-    }
-   ],
-   "correct_option": "A"
-  },
-  {
-   "number": "15",
    "form": "very_short",
+   "page": 288,
+   "stem": "Why do you push an object closer to scissors (fulcrum) when you want to cut an object which is hard?",
+   "answer": "Scissors are levers, and placing a hard object closer to the pivot point (fulcrum) effectively shortens the load arm. Since mechanical advantage is calculated as the effort arm divided by the load arm, a shorter load arm increases the mechanical advantage. This means the same squeezing force from your hand results in a much greater cutting force on the object, making it easier to cut tough materials.",
+   "concept": "Mechanical advantage",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "13",
+   "form": "very_short",
+   "page": 288,
+   "stem": "Throughout history, many designs of perpetual machines (using wheels, weights or magnets) have been proposed but none actually work. Why do all real machines eventually slow down and stop? Explain in terms of work and energy.",
+   "answer": "Real machines eventually stop because it is impossible to eliminate friction and air resistance completely. As a machine’s parts move, internal forces oppose the motion, meaning the machine must constantly do work against friction. This work converts the useful mechanical energy into non-recoverable thermal energy (heat) and sound. Without an external energy source to replace this lost mechanical energy, the machine will run out of kinetic energy and stop.",
+   "concept": "Friction dissipates mechanical energy",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "B4",
+   "form": "long",
+   "page": 283,
+   "stem": "For each of the following situations, identify the energy transformation that takes place: (i) a truck moving uphill, (ii) unwinding of a watch spring, (iii) photosynthesis in green leaves, (iv) water flowing from a dam, (v) burning of a matchstick, (vi) explosion of a fire cracker, (vii) speaking into a microphone, (viii) a glowing electric bulb, and (ix) a solar panel.",
+   "answer": "(i) Kinetic energy (and chemical energy from fuel) transforms into gravitational potential energy as the truck gains height. (ii) Elastic potential energy stored in the wound spring transforms into mechanical (kinetic) energy to move the watch hands. (iii) Light energy from the sun transforms into chemical energy stored in the plant’s food bonds. (iv) Gravitational potential energy of the stored water transforms into kinetic energy as it flows downward. (v) Chemical energy stored in the match head transforms into thermal (heat) energy and light energy. (vi) Chemical energy stored in the explosive powder transforms into sound energy, light energy, and thermal energy. (vii) Sound energy from the voice transforms into electrical energy as signals in the microphone wire. (viii) Electrical energy transforms into light energy and thermal (heat) energy. (ix) Light energy from the sun transforms into electrical energy.",
+   "concept": "Energy conversion between forms",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "B5",
+   "form": "long",
+   "page": 283,
+   "stem": "A student is slowly lifted straight up in an elevator from the ground level to the top floor of a building. Later, the same student climbs the staircase, all the way to the top. Given that the height of the building is h = 72.5 m, acceleration due to gravity is g = 10 ms-2, and student’s mass is m = 50 kg. i. Find the gain in the potential energy if the student is lifted straight up to the top. ii. Find the gain in the potential energy when the student climbs the stairs to the same top. iii. What do you conclude about the dependence of the potential energy on the path taken?",
+   "answer": "i. The gain in potential energy when the student is lifted straight up to the top in the elevator is given by ΔPE = mgh. Substituting the values, ΔPE = 50 × 10 × 72.5 = 36,250 J = 3.625 × 10⁴ J. ii. When the student climbs the staircase to the same top floor, the vertical height gained remains the same, h = 72.5 m. Therefore, using the same formula, ΔPE = mgh = 50 × 10 × 72.5 = 36,250 J = 3.625 × 10⁴ J. iii. The gain in potential energy is identical in both cases, even though the paths taken — a direct vertical lift in the elevator and a winding staircase — are entirely different. This leads to the conclusion that gravitational potential energy depends only on the vertical height gained, and not on the path followed to reach that height. Gravity is therefore a conservative force.",
+   "concept": "Potential energy definition",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "B6",
+   "form": "long",
+   "page": 283,
+   "stem": "A crane lifts a mass m to the 10th floor of a building in a certain time. It then raises the same mass to the 20th floor of the same building in double the time. How much more energy and power are required? Assume that the height of all floors is equal.",
+   "answer": "Let the height of each floor be d. The crane lifts mass m to the 10th floor in time t, and to the 20th floor in 2t. Therefore h1 = 10d in time t, and h2 = 20d in time 2t. Energy required to reach the 10th floor: E1 = mgh1 = mg × 10d = 10mgd. Energy required to reach the 20th floor: E2 = mgh2 = mg × 20d = 20mgd. Ratio of energies: E2/E1 = 20mgd/10mgd = 2, so the crane required twice the energy to lift the mass to the 20th floor. Power required to reach the 10th floor: P1 = E1/t = 10mgd/t. Power required to reach the 20th floor: P2 = E2/(2t) = 20mgd/2t = 10mgd/t. Ratio of powers: P1/P2 = (10mgd/t)/(10mgd/t) = 1. The power required is the same in both cases.",
+   "concept": "Power and work-time relation",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "B7",
+   "form": "short",
+   "page": 284,
+   "stem": "Which factors determine the energy required to raise a flag from the ground to the top of a tall flagpole using a pulley? Does raising the flag slowly or quickly change the amount of work done? If the speed at which the flag is raised is doubled, how does the power requirement change? Explain your answers.",
+   "answer": "The energy required to raise the flag is determined by its gravitational potential energy (mgh), which depends on the mass of the flag, the acceleration due to gravity, and the height of the flagpole. Raising the flag quickly or slowly does not change the amount of work done because work only depends on the force applied against gravity and the displacement, which remain constant. However, if the speed is doubled, the time taken to raise the flag is halved. Since power is the rate of doing work (work divided by time), halving the time doubles the power requirement.",
+   "concept": "Power as rate of doing work",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "B8",
+   "form": "long",
+   "page": 284,
+   "stem": "A man of mass 60 kg rides a scooter of mass 100 kg. He accelerates the scooter to a velocity v. The next day, his son with a mass of 40 kg joins him as a passenger. If the scooter reaches the same speed on both days in the same time interval, what is the ratio of the fuel of the tank used on the two days? Assume that the energy transfer to the scooter happens entirely due to fuel, and no other losses occur due to air resistance and friction.",
+   "answer": "Given: mass of the man is 60 kg, mass of the scooter is 100 kg, and mass of the son is 40 kg. The scooter reaches the same final velocity v from rest in the same time interval on both days. Since no losses due to friction or air resistance occur, all the fuel energy goes into the kinetic energy of the system. Total mass on Day 1 (man + scooter): M1 = 60 + 100 = 160 kg. Total mass on Day 2 (man + son + scooter): M2 = 60 + 40 + 100 = 200 kg. Kinetic energy on Day 1: KE1 = (1/2)M1v² = (1/2) × 160 × v² = 80v². Kinetic energy on Day 2: KE2 = (1/2)M2v² = (1/2) × 200 × v² = 100v². Since all the fuel converts to kinetic energy, the fuel used is directly proportional to the kinetic energy gained, so the fuel on Day 1 divided by the fuel on Day 2 is KE1/KE2 = 80v²/100v² = 80/100 = 4/5, that is a ratio of 4 : 5.",
+   "concept": "Kinetic energy formula",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 4,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "B9",
+   "form": "short",
+   "page": 284,
+   "stem": "On a seesaw with sliding seats, a child is sitting on one side and an adult on the other side. The adult weighs twice that of the child. The seesaw however is balanced. Draw a figure which depicts this situation showing the distances from the fulcrum where the child and the adult are seated.",
+   "answer": "The figure shows the child of mass m seated at a distance 2d on one side of the fulcrum and the adult of mass 2m seated at a distance d on the other side. For the seesaw to be balanced, the moments (turning effects) on both sides must be equal. Since the adult has twice the mass, the child must sit at twice the distance from the fulcrum to compensate. Moment due to the child is m × 2d = 2md, and moment due to the adult is 2m × d = 2md. Both moments are equal, so the seesaw remains perfectly balanced — this is the principle of moments (or law of the lever).",
+   "concept": "Effort and load",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "B10",
+   "form": "long",
+   "page": 284,
+   "stem": "A ball of mass 2 kg is thrown up with a velocity of 20 ms–1. (i) Identify the sign of the work done by gravity on the ball during its upward motion and its downward motion. (ii) If the ball reaches a height of 19.4 m, how much work was done by air resistance (assume g = 10 m s–2).",
+   "answer": "(i) During upward motion, the displacement is upwards but the gravitational force pulls downwards, resulting in negative work. During downward motion, both the displacement and the gravitational force are directed downwards, resulting in positive work. (ii) Using the work-energy theorem, the total work done on the ball equals the change in its kinetic energy. At the maximum height, the ball momentarily comes to rest, so its final kinetic energy is zero. Initial kinetic energy: KE = ½ mu² = ½ × 2 × (20)² = 400 J. Work done by gravity on the upward journey: Wgravity = −mgh = −2 × 10 × 19.4 = −388 J. Applying the work-energy theorem for the upward journey, Wgravity + Wair = ΔKE = 0 − 400 = −400 J. Therefore Wair = −400 − (−388) = −400 + 388 = −12 J. The work done by air resistance is −12 J. The negative sign confirms that air resistance always opposes the motion of the ball, removing energy from it throughout the upward journey.",
+   "concept": "Work sign changes kinetic energy",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "B11",
+   "form": "long",
+   "page": 285,
+   "stem": "A 10.0 kg block is moving on horizontal floor with negligible friction. As shown in the figure a variable force is applied on the block in its direction of motion from its position at 0 m till 4 m. If the block had a kinetic energy of 180 J when it was at 0 m, find the block’s speed (i) at 0 m, and (ii) at 4 m. Does the block have negative acceleration in any portion of its motion?",
+   "answer": "Use the work-energy theorem: work done equals the change in kinetic energy. The force-displacement graph rises from 0 to 50 N over the first metre, stays at 50 N from 1 m to 3 m, and falls back to zero between 3 m and 4 m, so the work done from 0 m to 4 m breaks into three parts. (i) From 0 to 1 m (triangle): W1 = ½ × 1 × 50 = 25 J. (ii) From 1 to 3 m (rectangle): W2 = 2 × 50 = 100 J. (iii) From 3 to 4 m (triangle): W3 = ½ × 1 × 50 = 25 J. Total work: W = 25 + 100 + 25 = 150 J. Given the initial kinetic energy at 0 m is 180 J, the final kinetic energy at 4 m is 180 + 150 = 330 J. Speeds: at 0 m, 180 = ½ × 10 × v², so v² = 36 and v = 6 m/s; at 4 m, 330 = ½ × 10 × v², so v² = 66 and v is approximately 8.1 m/s. Negative acceleration? Acceleration depends on the direction of the force. Here the force is always positive (in the forward direction), though it decreases later, so the acceleration is never negative — only decreasing while still positive.",
+   "concept": "Work from force-displacement graph",
+   "bloom": "analyze",
+   "dok": 4,
+   "difficulty": 4,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "B12",
+   "form": "short",
+   "page": 285,
+   "stem": "The gravitational attraction on the surface of the Moon (lunar surface) is about 1/6th of that on the surface of the Earth. An astronaut can throw a ball up to a height of 8 m from the surface of the Earth. How far up will the ball thrown with the same upward velocity travel from the surface of the Moon?",
+   "answer": "Given the gravitational acceleration on Earth gE = g, on the Moon gM = g/6, the height reached on Earth hE = 8 m, and the ball is thrown with the same initial velocity u on both surfaces. At maximum height the ball comes to rest, so using v² = u² − 2gh with v = 0 gives u² = 2gh. Since u is the same on both surfaces, the product gh remains constant, giving gE·hE = gM·hM. On Earth, u² = 2 × g × 8 = 16g …(1). On the Moon, u² = 2 × (g/6) × hM …(2). Equating (1) and (2): 16g = 2 × (g/6) × hM, so hM = (16g × 6)/(2g), giving hM = 48 m.",
+   "concept": "Mechanical energy conserved in free fall",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 4,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "B13",
+   "form": "long",
+   "page": 280,
+   "stem": "A 1000 kg car is moving along a road at a constant speed. Suddenly, the driver notices some obstruction ahead and applies the brakes to come to a complete stop. The graphical representation of motion of the car starting from the instant the driver spots the traffic ahead is shown in figure. (i) Describe how the car moves between positions A and B. (ii) Calculate the kinetic energy of the car at A. (iii) State the work done by the brakes in bringing the car to a halt between B and C. (iv) What does the kinetic energy of the car transform into?",
+   "answer": "(i) Between positions A and B, the car moves with a constant, uniform speed of 35 m/s. This horizontal line on the graph represents the driver’s reaction time before the brakes are actually applied. (ii) At position A, the speed is 35 m/s and the mass is 1000 kg, so the kinetic energy is (1/2)mv² = (1/2) × 1000 × (35)² = 500 × 1225 = 612,500 J. (iii) By the work-energy theorem, the work done by the brakes equals the change in kinetic energy. Since the car stops at C, its final kinetic energy is 0, so the work done is 0 − 612,500 J = −612,500 J. The negative sign shows work is done opposite to the motion. (iv) The kinetic energy of the car transforms primarily into thermal energy (heat) and sound energy due to the friction between the brake pads and wheels, and between the tires and the road surface.",
+   "concept": "Work-energy theorem statement",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "B14",
+   "form": "long",
+   "page": 280,
+   "stem": "The potential energy-displacement graph of a 0.5 kg ball moving along a frictionless track is shown in figure. At O, the velocity of the ball is 0 ms-1 and potential energy is 30 J. Calculate the velocity of the ball at P, Q and R.",
+   "answer": "Given: mass of ball m = 0.5 kg; velocity at Q is 0 ms⁻¹; potential energy at Q is 30 J; and from the graph the potential energy at P is 20 J and at R is 40 J. Since the track is frictionless, the total mechanical energy remains constant throughout the motion. At point Q the velocity is zero, so the kinetic energy at Q is 0 and the total mechanical energy is KE + PE = 0 + 30 = 30 J. Velocity at P: the kinetic energy at P is the total energy minus the potential energy at P, that is 30 − 20 = 10 J. Since KE = (1/2)mv², we get 10 = (1/2) × 0.5 × v², so 10 = 0.25v² and v² = 40, giving the velocity at P as 2√10 ms⁻¹ (about 6.3 ms⁻¹). Velocity at Q: at Q all the mechanical energy exists as potential energy and the kinetic energy is zero, so the velocity at Q is 0 ms⁻¹. Velocity at R: the kinetic energy at R would be the total energy minus the potential energy at R, that is 30 − 40 = −10 J. Since kinetic energy can never be negative, the ball does not have sufficient energy to reach point R. The total mechanical energy (30 J) is less than the potential energy required at R (40 J). Therefore, the ball cannot reach point R.",
+   "concept": "Condition for mechanical energy conservation",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "B15",
+   "form": "long",
    "page": 287,
    "stem": "A coconut of mass 1.5 kg falls from the top of a coconut tree onto the wet sand on a beach. The height of the tree is 10 m. On impact, the coconut comes to rest by making a depression in the sand. (i) Calculate the velocity of the coconut just before it hits the sand. (ii) Assume that the average resistive force of sand is 3000 N and all of the coconut’s energy is used to create the depression in the sand. Calculate the depth of the depression the coconut makes in the sand. Assume g = 10 m s-2.",
-   "answer": "(i) The potential energy at the top = mgh = 1.5 kg × 10 m/s2 × 10 m = 150 J. By conservation of energy, this entirely converts to kinetic energy just before impact. So, 1/2 mv2 = 150 J. Therefore, 1/2 × 1.5 × v2 = 150, 0.75 v2 = 150, v2 = 200. The velocity is the square root of 200, which is approximately 14.14 m/s. (ii) The kinetic energy of the coconut before impact (150 J) is used to do work against the resistive force of the sand. Work done = Force × displacement (depth). 3000 N × depth = 150 J. 150 / 3000 = 0.05 m. The depth of the depression is 0.05 m (or 5 cm). OBJECTIVE QUESTION"
+   "answer": "(i) The potential energy at the top is mgh = 1.5 kg × 10 m/s² × 10 m = 150 J. By conservation of energy, this entirely converts to kinetic energy just before impact. So (1/2)mv² = 150 J, that is (1/2) × 1.5 × v² = 150, so 0.75v² = 150 and v² = 200. The velocity is the square root of 200, which is approximately 14.14 m/s. (ii) The kinetic energy of the coconut before impact (150 J) is used to do work against the resistive force of the sand. Work done is force × displacement (depth), so 3000 N × depth = 150 J, giving depth = 150/3000 = 0.05 m. The depth of the depression is 0.05 m (or 5 cm).",
+   "concept": "Total energy conservation law",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
   }
  ]
 }

@@ -1,169 +1,262 @@
 {
- "chapter": 7,
- "chapter_id": 8606,
- "extraction_id": 598,
- "section": "veryshort",
- "items": [
-  {
-   "number": "49",
-   "form": "very_short",
-   "page": null,
-   "stem": "Define the scientific concept of work done by a constant force on an object.",
-   "answer": "Work done by a constant force is defined as the product of the force applied and the displacement of the object in the force’s direction."
-  },
-  {
-   "number": "50",
-   "form": "very_short",
-   "page": null,
-   "stem": "What is the SI unit of work and how is it defined using force and displacement?",
-   "answer": "The SI unit of work is the joule, which is defined as one newton of force causing a displacement of one metre in its direction."
-  },
-  {
-   "number": "51",
-   "form": "very_short",
-   "page": null,
-   "stem": "Under what specific condition does the force applied on a moving object result in zero work being done?",
-   "answer": "Work done is zero when the applied force acts in a direction that is exactly perpendicular to the displacement of the moving object."
-  },
-  {
-   "number": "52",
-   "form": "very_short",
-   "page": null,
-   "stem": "Give one example from everyday life where negative work is done by a force on an object.",
-   "answer": "When a goalkeeper stops a moving football, he applies a force in the direction opposite to its displacement, thereby doing negative work on it."
-  },
-  {
-   "number": "53",
-   "form": "very_short",
-   "page": null,
-   "stem": "What would you observe about the work done when you continuously push a rigid wall without moving it?",
-   "answer": "You would observe that the work done on the wall is zero because there is absolutely no displacement of the wall despite the applied force."
-  },
-  {
-   "number": "54",
-   "form": "very_short",
-   "page": null,
-   "stem": "State the work-energy theorem regarding the relationship between work done and the energy of an object.",
-   "answer": "The work-energy theorem states that the work done on an object or a system of objects is exactly equal to the change in its energy."
-  },
-  {
-   "number": "55",
-   "form": "very_short",
-   "page": null,
-   "stem": "Who is the SI unit of energy named after, and what significant relationship did he study in science?",
-   "answer": "The SI unit is named after James Prescott Joule, who studied how mechanical energy and thermal energy are related and converted into each other."
-  },
-  {
-   "number": "56",
-   "form": "very_short",
-   "page": 300,
-   "stem": "Name the distinct form of energy that is stored within the fuels we burn and the food we consume daily.",
-   "answer": "The distinct form of energy stored within the fuels we burn and the food we consume daily is scientifically known as chemical potential energy. Click Here to Buy book on Amazon Work, Energy, and Simple Machines"
-  },
-  {
-   "number": "91",
-   "form": "very_short",
-   "page": 300,
-   "stem": "Renu observes a falling apple and says that as the apple falls, its total mechanical energy keeps decreasing until it hits the ground. Do you agree? Justify your answer.",
-   "answer": "I disagree with Renu’s statement. According to the law of conservation of mechanical energy, if no external forces like severe air resistance act on an object, its total mechanical energy remains constant. As the apple falls freely towards the ground, its height decreases, meaning its gravitational potential energy decreases. However, its velocity increases simultaneously, causing an exact and equal increase in its kinetic energy. The sum of the kinetic and potential energies remains perfectly constant throughout the entire fall."
-  },
-  {
-   "number": "92",
-   "form": "very_short",
-   "page": 300,
-   "stem": "Define power. How does running up a flight of stairs in one minute differ from walking up the same stairs in five minutes in terms of work and power?",
-   "answer": "Power is defined as the rate at which work is done or energy is transferred. Its SI unit is the watt (W). When running up a flight of stairs in one minute versus walking up in five minutes, the total work done against gravity is exactly the same in both scenarios because the vertical height and the person’s mass remain unchanged. However, running requires more power because the same amount of work is completed in a much shorter time interval."
-  },
-  {
-   "number": "93",
-   "form": "very_short",
-   "page": 300,
-   "stem": "A situation is shown in the given figure (a) What are the kinetic and potential energies of the ball at Point A? (b) Describe the energy transformation as the ball falls from A to C.",
-   "answer": "(a) At point A, the ball is at rest before falling, so its initial velocity is zero. Therefore, its kinetic energy is zero, and it possesses maximum gravitational potential energy equal to mgh. (b) As the ball falls from A towards C, its height above the ground continuously decreases, which reduces its potential energy. At the same time, its downward velocity increases due to gravity, which increases its kinetic energy. The lost potential energy is smoothly converted into kinetic energy, keeping total mechanical energy conserved."
-  },
-  {
-   "number": "94",
-   "form": "very_short",
-   "page": 300,
-   "stem": "Describe the sequence of steps required to calculate the power of a water pump lifting a specific mass of water to a rooftop tank in a given time.",
-   "answer": "To calculate the power of the water pump, first, determine the mass of the water (m) to be lifted. Next, measure the vertical height (h) from the ground to the rooftop tank. Calculate the work done against gravity by finding the gravitational potential energy gained using the formula W = mgh, where g is the acceleration due to gravity. Finally, measure the time (t) taken to lift the water. Divide the calculated work done by the time taken (P = W/t) to find the pump’s power in watts."
-  },
-  {
-   "number": "95",
-   "form": "very_short",
-   "page": 302,
-   "stem": "What are simple machines? Explain how they help us perform tasks more conveniently, even though they do not reduce the total amount of work required.",
-   "answer": "Simple machines are basic mechanical devices, such as pulleys, levers, and inclined planes, that make our work easier. Although they cannot reduce the total physical work required to complete a task due to the conservation of energy, they make the task more convenient. They do this either by reducing the magnitude of the effort force needed (by applying a smaller force over a larger distance) or by changing the direction of the applied force to a more comfortable orientation, like pulling downwards instead of lifting upwards."
-  },
-  {
-   "number": "69",
-   "form": "very_short",
-   "page": 302,
-   "stem": "Why does a swinging simple pendulum eventually stop oscillating in real-life situations despite the conservation of energy?",
-   "answer": "A simple pendulum eventually stops oscillating because its initial mechanical energy is gradually lost due to air resistance and friction at the fixed support."
-  },
-  {
-   "number": "70",
-   "form": "very_short",
-   "page": 302,
-   "stem": "What is the definition of power in the context of physics and doing work?",
-   "answer": "In physics, power is defined accurately as the total rate at which work is done or the rate of energy transfer over absolute time."
-  },
-  {
-   "number": "71",
-   "form": "very_short",
-   "page": 302,
-   "stem": "What is the SI unit of power and how does it precisely relate to the standard unit of work?",
-   "answer": "The SI unit of power is the watt, and one watt represents exactly one joule of work being done in an interval of one second."
-  },
-  {
-   "number": "72",
-   "form": "very_short",
-   "page": 302,
-   "stem": "State one difference between running up a flight of stairs and walking up slowly in terms of power.",
-   "answer": "Running up the stairs requires much more power than walking slowly because the exact same amount of work is performed in a shorter time."
-  },
-  {
-   "number": "73",
-   "form": "very_short",
-   "page": 302,
-   "stem": "What is the primary function of simple machines in our daily lives regarding the application of forces?",
-   "answer": "Simple machines function to make our daily tasks significantly easier by efficiently altering the magnitude or the direction of the applied effort force required."
-  },
-  {
-   "number": "74",
-   "form": "very_short",
-   "page": 302,
-   "stem": "Write the formula used to calculate the mechanical advantage of any simple machine in terms of load and effort.",
-   "answer": "The mechanical advantage of a simple machine is calculated as the precise ratio of the total load overcome to the external effort force successfully applied."
-  },
-  {
-   "number": "75",
-   "form": "very_short",
-   "page": 302,
-   "stem": "Give one example of a Class I lever and identify the central component in its structural arrangement.",
-   "answer": "A pair of scissors is a Class I lever, where the fixed fulcrum is located firmly between the applied effort force and the final load."
-  },
-  {
-   "number": "76",
-   "form": "very_short",
-   "page": 302,
-   "stem": "How does a fixed pulley make lifting heavy loads easier if it does not inherently reduce the required effort?",
-   "answer": "A fixed pulley provides immense convenience by simply changing the direction of the applied effort downwards, which is much easier than lifting loads straight upwards."
-  },
-  {
-   "number": "77",
-   "form": "very_short",
-   "page": 302,
-   "stem": "Describe the fundamental structure of an inclined plane and how it successfully provides a mechanical advantage.",
-   "answer": "An inclined plane is a flat supporting surface tilted at an angle, allowing massive loads to be raised efficiently using distinctly less applied effort force."
-  },
-  {
-   "number": "78",
-   "form": "very_short",
-   "page": 302,
-   "stem": "Correct the following statement: Simple machines create extra energy to help us do work more effectively without effort.",
-   "answer": "Simple machines never create energy; they merely help us use applied energy more effectively while strictly obeying the fundamental law of mechanical energy conservation. SSHOR T ANSWER QUESTION"
-  }
- ]
+  "chapter": 7,
+  "chapter_id": 8606,
+  "extraction_id": 598,
+  "section": "veryshort",
+  "items": [
+    {
+      "number": "49",
+      "form": "very_short",
+      "page": 299,
+      "stem": "Define the scientific concept of work done by a constant force on an object.",
+      "answer": "Work done by a constant force is defined as the product of the force applied and the displacement of the object in the force’s direction.",
+      "concept": "Work as force times displacement",
+      "bloom": "recall",
+      "dok": 1,
+      "difficulty": 1
+    },
+    {
+      "number": "50",
+      "form": "very_short",
+      "page": 299,
+      "stem": "What is the SI unit of work and how is it defined using force and displacement?",
+      "answer": "The SI unit of work is the joule, which is defined as one newton of force causing a displacement of one metre in its direction.",
+      "concept": "SI unit joule",
+      "bloom": "recall",
+      "dok": 1,
+      "difficulty": 1
+    },
+    {
+      "number": "51",
+      "form": "very_short",
+      "page": 299,
+      "stem": "Under what specific condition does the force applied on a moving object result in zero work being done?",
+      "answer": "Work done is zero when the applied force acts in a direction that is exactly perpendicular to the displacement of the moving object.",
+      "concept": "Zero work for perpendicular force",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "52",
+      "form": "very_short",
+      "page": 299,
+      "stem": "Give one example from everyday life where negative work is done by a force on an object.",
+      "answer": "When a goalkeeper stops a moving football, he applies a force in the direction opposite to its displacement, thereby doing negative work on it.",
+      "concept": "Negative work",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "53",
+      "form": "very_short",
+      "page": 299,
+      "stem": "What would you observe about the work done when you continuously push a rigid wall without moving it?",
+      "answer": "You would observe that the work done on the wall is zero because there is absolutely no displacement of the wall despite the applied force.",
+      "concept": "Zero work when there is no displacement",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "54",
+      "form": "very_short",
+      "page": 299,
+      "stem": "State the work-energy theorem regarding the relationship between work done and the energy of an object.",
+      "answer": "The work-energy theorem states that the work done on an object or a system of objects is exactly equal to the change in its energy.",
+      "concept": "Work-energy theorem statement",
+      "bloom": "recall",
+      "dok": 1,
+      "difficulty": 2
+    },
+    {
+      "number": "55",
+      "form": "very_short",
+      "page": 299,
+      "stem": "Who is the SI unit of energy named after, and what significant relationship did he study in science?",
+      "answer": "The SI unit is named after James Prescott Joule, who studied how mechanical energy and thermal energy are related and converted into each other.",
+      "concept": "SI unit joule",
+      "bloom": "recall",
+      "dok": 1,
+      "difficulty": 2
+    },
+    {
+      "number": "56",
+      "form": "very_short",
+      "page": 299,
+      "stem": "Name the distinct form of energy that is stored within the fuels we burn and the food we consume daily.",
+      "answer": "The distinct form of energy stored within the fuels we burn and the food we consume daily is scientifically known as chemical potential energy.",
+      "concept": "Energy exists in many forms",
+      "bloom": "recall",
+      "dok": 1,
+      "difficulty": 1
+    },
+    {
+      "number": "91",
+      "form": "short",
+      "page": 300,
+      "stem": "Renu observes a falling apple and says that as the apple falls, its total mechanical energy keeps decreasing until it hits the ground. Do you agree? Justify your answer.",
+      "answer": "I disagree with Renu’s statement. According to the law of conservation of mechanical energy, if no external forces like severe air resistance act on an object, its total mechanical energy remains constant. As the apple falls freely towards the ground, its height decreases, meaning its gravitational potential energy decreases. However, its velocity increases simultaneously, causing an exact and equal increase in its kinetic energy. The sum of the kinetic and potential energies remains perfectly constant throughout the entire fall.",
+      "concept": "Mechanical energy conserved in free fall",
+      "bloom": "evaluate",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "92",
+      "form": "short",
+      "page": 300,
+      "stem": "Define power. How does running up a flight of stairs in one minute differ from walking up the same stairs in five minutes in terms of work and power?",
+      "answer": "Power is defined as the rate at which work is done or energy is transferred. Its SI unit is the watt (W). When running up a flight of stairs in one minute versus walking up in five minutes, the total work done against gravity is exactly the same in both scenarios because the vertical height and the person’s mass remain unchanged. However, running requires more power because the same amount of work is completed in a much shorter time interval.",
+      "concept": "Power and work-time relation",
+      "bloom": "analyze",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "93",
+      "form": "short",
+      "page": 300,
+      "stem": "A situation is shown in the given figure, in which a ball is held at rest at point A at the top of a vertical fall and then drops to point C at the ground. (a) What are the kinetic and potential energies of the ball at Point A? (b) Describe the energy transformation as the ball falls from A to C.",
+      "answer": "(a) At point A, the ball is at rest before falling, so its initial velocity is zero. Therefore, its kinetic energy is zero, and it possesses maximum gravitational potential energy equal to mgh. (b) As the ball falls from A towards C, its height above the ground continuously decreases, which reduces its potential energy. At the same time, its downward velocity increases due to gravity, which increases its kinetic energy. The lost potential energy is smoothly converted into kinetic energy, keeping total mechanical energy conserved.",
+      "concept": "Energy conversion between forms",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2,
+      "reproduction": "ai_rephrased"
+    },
+    {
+      "number": "94",
+      "form": "short",
+      "page": 300,
+      "stem": "Describe the sequence of steps required to calculate the power of a water pump lifting a specific mass of water to a rooftop tank in a given time.",
+      "answer": "To calculate the power of the water pump, first, determine the mass of the water (m) to be lifted. Next, measure the vertical height (h) from the ground to the rooftop tank. Calculate the work done against gravity by finding the gravitational potential energy gained using the formula W = mgh, where g is the acceleration due to gravity. Finally, measure the time (t) taken to lift the water. Divide the calculated work done by the time taken (P = W/t) to find the pump’s power in watts.",
+      "concept": "Average power formula",
+      "bloom": "apply",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "95",
+      "form": "short",
+      "page": 300,
+      "stem": "What are simple machines? Explain how they help us perform tasks more conveniently, even though they do not reduce the total amount of work required.",
+      "answer": "Simple machines are basic mechanical devices, such as pulleys, levers, and inclined planes, that make our work easier. Although they cannot reduce the total physical work required to complete a task due to the conservation of energy, they make the task more convenient. They do this either by reducing the magnitude of the effort force needed (by applying a smaller force over a larger distance) or by changing the direction of the applied force to a more comfortable orientation, like pulling downwards instead of lifting upwards.",
+      "concept": "Role of simple machines",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "69",
+      "form": "very_short",
+      "page": 302,
+      "stem": "Why does a swinging simple pendulum eventually stop oscillating in real-life situations despite the conservation of energy?",
+      "answer": "A simple pendulum eventually stops oscillating because its initial mechanical energy is gradually lost due to air resistance and friction at the fixed support.",
+      "concept": "Friction dissipates mechanical energy",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "70",
+      "form": "very_short",
+      "page": 302,
+      "stem": "What is the definition of power in the context of physics and doing work?",
+      "answer": "In physics, power is defined accurately as the total rate at which work is done or the rate of energy transfer over absolute time.",
+      "concept": "Power as rate of doing work",
+      "bloom": "recall",
+      "dok": 1,
+      "difficulty": 1
+    },
+    {
+      "number": "71",
+      "form": "very_short",
+      "page": 302,
+      "stem": "What is the SI unit of power and how does it precisely relate to the standard unit of work?",
+      "answer": "The SI unit of power is the watt, and one watt represents exactly one joule of work being done in an interval of one second.",
+      "concept": "Watt as SI unit of power",
+      "bloom": "recall",
+      "dok": 1,
+      "difficulty": 1
+    },
+    {
+      "number": "72",
+      "form": "very_short",
+      "page": 302,
+      "stem": "State one difference between running up a flight of stairs and walking up slowly in terms of power.",
+      "answer": "Running up the stairs requires much more power than walking slowly because the exact same amount of work is performed in a shorter time.",
+      "concept": "Power and work-time relation",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "73",
+      "form": "very_short",
+      "page": 302,
+      "stem": "What is the primary function of simple machines in our daily lives regarding the application of forces?",
+      "answer": "Simple machines function to make our daily tasks significantly easier by efficiently altering the magnitude or the direction of the applied effort force required.",
+      "concept": "Role of simple machines",
+      "bloom": "recall",
+      "dok": 1,
+      "difficulty": 1
+    },
+    {
+      "number": "74",
+      "form": "very_short",
+      "page": 302,
+      "stem": "Write the formula used to calculate the mechanical advantage of any simple machine in terms of load and effort.",
+      "answer": "The mechanical advantage of a simple machine is calculated as the precise ratio of the total load overcome to the external effort force successfully applied.",
+      "concept": "Mechanical advantage",
+      "bloom": "recall",
+      "dok": 1,
+      "difficulty": 1
+    },
+    {
+      "number": "75",
+      "form": "very_short",
+      "page": 302,
+      "stem": "Give one example of a Class I lever and identify the central component in its structural arrangement.",
+      "answer": "A pair of scissors is a Class I lever, where the fixed fulcrum is located firmly between the applied effort force and the final load.",
+      "concept": "Classes of levers",
+      "bloom": "recall",
+      "dok": 1,
+      "difficulty": 2
+    },
+    {
+      "number": "76",
+      "form": "very_short",
+      "page": 302,
+      "stem": "How does a fixed pulley make lifting heavy loads easier if it does not inherently reduce the required effort?",
+      "answer": "A fixed pulley provides immense convenience by simply changing the direction of the applied effort downwards, which is much easier than lifting loads straight upwards.",
+      "concept": "Fixed pulley",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "77",
+      "form": "very_short",
+      "page": 302,
+      "stem": "Describe the fundamental structure of an inclined plane and how it successfully provides a mechanical advantage.",
+      "answer": "An inclined plane is a flat supporting surface tilted at an angle, allowing massive loads to be raised efficiently using distinctly less applied effort force.",
+      "concept": "Inclined plane reduces effort",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "78",
+      "form": "very_short",
+      "page": 302,
+      "stem": "Correct the following statement: Simple machines create extra energy to help us do work more effectively without effort.",
+      "answer": "Simple machines never create energy; they merely help us use applied energy more effectively while strictly obeying the fundamental law of mechanical energy conservation.",
+      "concept": "Total energy conservation law",
+      "bloom": "evaluate",
+      "dok": 3,
+      "difficulty": 3
+    }
+  ]
 }

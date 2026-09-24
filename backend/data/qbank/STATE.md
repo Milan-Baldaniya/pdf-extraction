@@ -102,6 +102,23 @@ with SendMessage — it works and is the cheapest fix available.
   looking for a page-ordering bug, and do not re-extract; there is nothing
   there to fix.
 
+## Misfiled pages — check this on every chapter
+
+    venv/Scripts/python.exe -m scripts.foreign_pages --standard 42 --subject 3975
+
+The book files a chapter's missing folio at the top of the NEXT chapter's
+extraction. Across the 13 Class 9 Science extractions there are **21 misfiled
+pages**, and every chapter from 6 onward has at least one. Chapter 8's carries
+a page of chapter 7 and a page of chapter 9; chapter 10's carries two pages of
+chapter 11 and one of chapter 9.
+
+So a hole in a chapter is usually next door, not gone. Chapter 7's questions
+191 and 192 had already been written off as lost in the PDF and recorded in
+known_gaps.json; they are printed complete, with answers, on chapter 8's page
+337. Tell every reader to run this before starting, and to write foreign
+questions out verbatim and untagged rather than forcing a host-chapter concept
+onto them — that buries a good question instead of losing it visibly.
+
 ## Known source losses
 
 `data/qbank/known_gaps.json` records numbers that are missing for a reason,

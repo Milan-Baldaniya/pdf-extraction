@@ -56,6 +56,13 @@ def titles_for(db, standard_id: int, subject_id: int) -> dict[int, str]:
     return {r[0]: r[1] for r in rows if r[1] and len(r[1].split()) >= 3}
 
 
+# A question number at the start of a line. Knowing WHICH questions are in a
+# misfiled block turns recovery from detective work into a lookup: the owning
+# chapter's reader is told "your 113, 114 and 115 are over there" instead of
+# concluding they are lost, which is what happened three times before this.
+NUMBERED = re.compile(r"^\s*(\d{1,3})\s*\.", re.M)
+
+
 def scan(md: str, own: str, others: dict[int, re.Pattern]) -> list[tuple]:
     marks = [(m.start(), m.group(1)) for m in PAGE.finditer(md)]
     found = []
@@ -66,7 +73,11 @@ def scan(md: str, own: str, others: dict[int, re.Pattern]) -> list[tuple]:
             continue
         for name, pattern in others.items():
             if pattern.search(head):
-                found.append((start, end, folio, name))
+                # Only numbers that head an answerable block. A worked solution
+                # numbers its own parts 1. 2. 3., so the low ones are noise
+                # unless the block is genuinely a low-numbered section.
+                numbers = sorted({int(n) for n in NUMBERED.findall(md[start:end])})
+                found.append((start, end, folio, name, numbers))
                 break
     return found
 
@@ -127,9 +138,18 @@ def main() -> int:
                 continue
             total += len(hits)
             print(f"\nextraction {extraction_id}  {own_title!r}")
-            for start, end, folio, name in hits:
+            for start, end, folio, name, numbers in hits:
                 print(f"    page {folio:>4}  chars {start:>7} - {end:<7} "
                       f"({end - start:>5,})  belongs to {name!r}")
+                high = [n for n in numbers if n > 8]
+                if high:
+                    print(f"              numbered blocks in it: {high}")
+                elif numbers:
+                    print(f"              only low numbers {numbers} - probably "
+                          f"sub-parts or prose, check before claiming questions")
+                else:
+                    print(f"              no numbered blocks - prose only, "
+                          f"nothing to file as an item")
     finally:
         db.close()
 

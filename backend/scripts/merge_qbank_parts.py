@@ -117,6 +117,25 @@ def merge_chapter(chapter: int) -> tuple[dict | None, list[str]]:
                 problems.append(f"{number}: figure_required with no images")
             items.append(item)
 
+    # A gap in the printed numbering usually means a question was lost at a
+    # section boundary. Chapter 4's item 172 straddled two files: its passage
+    # sat in the case range and its answer in the long range, so each reader
+    # correctly removed the half they could not complete and the whole question
+    # vanished between them, leaving nothing to notice. The book numbers each
+    # chapter contiguously, so a hole is worth reporting.
+    printed = sorted(
+        int(m) for m in
+        (re.sub(r"^[A-Z]", "", str(i.get("number") or "")).split(".")[0] for i in items)
+        if m.isdigit()
+    )
+    if printed:
+        missing = [n for n in range(printed[0], printed[-1] + 1) if n not in set(printed)]
+        if missing:
+            problems.append(
+                f"numbering gap: {len(missing)} missing between {printed[0]} and "
+                f"{printed[-1]} -- {missing[:12]}"
+            )
+
     if not items:
         return None, problems or ["no section files found"]
     return {

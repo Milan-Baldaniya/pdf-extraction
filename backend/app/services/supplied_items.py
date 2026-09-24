@@ -168,7 +168,13 @@ def shape(raw: list[dict[str, Any]], *, attribution: str, licence: str | None) -
             "source_page": entry.get("page"),
             "source_char_start": None,
             "source_char_end": None,
-            "reproduction": "verbatim",
+            # Almost every item is reproduced word for word, but not quite
+            # all: where the book prints only a diagram under "Ans :", or
+            # leaves a sentence without its subject, a reader has supplied the
+            # missing text. Those are honest repairs and they are still not
+            # verbatim, so the item can say so rather than have the column
+            # assert something untrue about it.
+            "reproduction": entry.get("reproduction") or "verbatim",
             "attribution": attribution,
             "licence": licence,
             # Read off the page rather than guessed. The offline tagger fills

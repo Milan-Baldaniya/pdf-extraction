@@ -17,6 +17,7 @@ have (no database, no loader).
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from pathlib import Path
 
@@ -69,6 +70,20 @@ def main() -> int:
     print(f"{len(md):,} chars, {len(concepts)} legal concept name(s)\n")
 
     sections = find_sections(md)
+
+    # Everything before the first banner belongs to no section and therefore to
+    # no reader. It is not empty: chapter 6's first 6,131 characters hold NINE
+    # answer markers, and eight Pause and Ponder questions were sitting there,
+    # in no draft file at all, until a reader went looking. The block's opening
+    # is printed on a later page than its continuation, so the continuation
+    # lands at the top of the extraction ahead of its own banner.
+    head = md[: sections[0]["start"]] if sections else md
+    markers = len(re.findall(r"A?Ans\s*:", head))
+    if head.strip():
+        flag = "  <-- ASSIGN THIS TO A READER" if markers else ""
+        print(f"  {'(pre-banner)':<10} {0:>7} - {len(head):<7} "
+              f"({len(head):>6,} chars)  {markers} answer marker(s){flag}")
+
     for index, section in enumerate(sections):
         start = section["start"]
         end = sections[index + 1]["start"] if index + 1 < len(sections) else len(md)

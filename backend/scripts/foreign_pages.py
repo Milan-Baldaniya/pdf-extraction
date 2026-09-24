@@ -62,6 +62,13 @@ def titles_for(db, standard_id: int, subject_id: int) -> dict[int, str]:
 # concluding they are lost, which is what happened three times before this.
 NUMBERED = re.compile(r"^\s*(\d{1,3})\s*\.", re.M)
 
+# A displaced page can carry an ANSWER whose question is printed in the other
+# extraction. It has no leading number, so counting numbered blocks alone calls
+# it "prose only, nothing to file" -- which is a false negative, and a reader
+# shown that line may skip a page holding a complete answer. Chapter 10's Q173
+# answer sat on exactly such a page and was reported as prose.
+ANSWER = re.compile(r"A?Ans\s*:")
+
 
 def scan(md: str, own: str, others: dict[int, re.Pattern]) -> list[tuple]:
     marks = [(m.start(), m.group(1)) for m in PAGE.finditer(md)]
@@ -77,7 +84,8 @@ def scan(md: str, own: str, others: dict[int, re.Pattern]) -> list[tuple]:
                 # numbers its own parts 1. 2. 3., so the low ones are noise
                 # unless the block is genuinely a low-numbered section.
                 numbers = sorted({int(n) for n in NUMBERED.findall(md[start:end])})
-                found.append((start, end, folio, name, numbers))
+                answers = len(ANSWER.findall(md[start:end]))
+                found.append((start, end, folio, name, numbers, answers))
                 break
     return found
 
@@ -138,7 +146,7 @@ def main() -> int:
                 continue
             total += len(hits)
             print(f"\nextraction {extraction_id}  {own_title!r}")
-            for start, end, folio, name, numbers in hits:
+            for start, end, folio, name, numbers, answers in hits:
                 print(f"    page {folio:>4}  chars {start:>7} - {end:<7} "
                       f"({end - start:>5,})  belongs to {name!r}")
                 high = [n for n in numbers if n > 8]
@@ -147,9 +155,14 @@ def main() -> int:
                 elif numbers:
                     print(f"              only low numbers {numbers} - probably "
                           f"sub-parts or prose, check before claiming questions")
-                else:
-                    print(f"              no numbered blocks - prose only, "
-                          f"nothing to file as an item")
+                if answers and not high:
+                    print(f"              but {answers} answer marker(s) with no "
+                          f"question number: almost certainly a stranded ANSWER "
+                          f"whose question is printed in the other extraction. "
+                          f"OPEN IT.")
+                elif not answers and not numbers:
+                    print(f"              no numbered blocks and no answer "
+                          f"markers - prose only")
     finally:
         db.close()
 

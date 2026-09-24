@@ -76,9 +76,22 @@ MATHS_DAMAGE = (
     # carry that phrase and report ok. Readers worked around it by
     # parenthesising the book's own formula and marking the item
     # rephrased, putting false provenance on text nobody had touched.
-    re.compile(r"(?:(?<![A-Za-z])[a-zA-Z](?![A-Za-z])\s+){2,}[a-zA-Z]*\s*="),
+    # The separators must be spaces or tabs, NOT newlines. A correctly
+    # formatted worked solution puts each step on its own line, so a line
+    # ending in a variable is followed by a line beginning with it --
+    #     0 = 625 - s
+    #     s = 625 m.
+    # -- which is two standalone letters before an equals and nothing wrong
+    # at all. Eight of chapter 4's long answers look exactly like that.
+    re.compile(r"(?:(?<![A-Za-z])[a-zA-Z](?![A-Za-z])[ \t]+){2,}[a-zA-Z]*[ \t]*="),
     # a run of lone digits before an equals, e.g. "s ut at 2 1 2 ="
-    re.compile(r"(?:(?<!\d)\d(?!\d)\s+){2,}\d*\s*="),
+    re.compile(r"(?:(?<!\d)\d(?!\d)[ \t]+){2,}\d*[ \t]*="),
+    # Column-collapsed equations DO arrive newline-separated, so they need
+    # their own shape: consecutive lines each holding one bare character, as
+    # in "E / T / = / and L / w / T / 2 / + / =" where each of those is its
+    # own line. A formatted solution never has a line containing just "s",
+    # so this cannot collide with one.
+    re.compile(r"(?:^[ \t]*[A-Za-z0-9][ \t]*$\r?\n){2,}", re.M),
 )
 
 

@@ -149,12 +149,18 @@ def main() -> int:
             for start, end, folio, name, numbers, answers in hits:
                 print(f"    page {folio:>4}  chars {start:>7} - {end:<7} "
                       f"({end - start:>5,})  belongs to {name!r}")
+                # Print ALL the numbers. An earlier version showed only those
+                # above 8 and fell back to the low ones only when there were no
+                # high ones -- so a page carrying questions 5, 6, 7, 8 and 9 was
+                # reported as "numbered blocks in it: [9]", under-counting the
+                # loss by four. A section's numbering restarts at 1 often enough
+                # in this book that low numbers are frequently real questions.
                 high = [n for n in numbers if n > 8]
-                if high:
-                    print(f"              numbered blocks in it: {high}")
-                elif numbers:
-                    print(f"              only low numbers {numbers} - probably "
-                          f"sub-parts or prose, check before claiming questions")
+                if numbers:
+                    print(f"              numbered blocks in it: {numbers}")
+                    if not high:
+                        print(f"              (all eight or under, so some may be "
+                              f"sub-parts rather than questions - check)")
                 if answers and not high:
                     print(f"              but {answers} answer marker(s) with no "
                           f"question number: almost certainly a stranded ANSWER "

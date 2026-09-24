@@ -8,36 +8,56 @@
    "number": "1",
    "form": "very_short",
    "page": null,
-   "stem": "In the example of an athlete running back and forth on a straight track as shown in the figure , when will the displacement of the athlete be zero? What will be the total distance travelled in that case?",
-   "answer": "The displacement of the athlete will be zero when they return to their initial starting point O. In this case, since the athlete ran from point O to point A (100 m) and then all the way back to point O (100 m), the total distance travelled will be 200 m."
+   "stem": "In the example of an athlete running back and forth on a straight track as shown in the figure, when will the displacement of the athlete be zero? What will be the total distance travelled in that case?",
+   "answer": "The displacement of the athlete will be zero when they return to their initial starting point O. In this case, since the athlete ran from point O to point A (100 m) and then all the way back to point O (100 m), the total distance travelled will be 200 m.",
+   "concept": "Displacement definition",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
   },
   {
    "number": "2",
    "form": "very_short",
    "page": null,
    "stem": "Fuel used up in a vehicle depends on which of the following? Justify your answer. (i) Total distance travelled (ii) Displacement",
-   "answer": "Fuel used up in a vehicle depends on the (i) total distance travelled. This is because the engine must continuously burn fuel to generate energy for every part of the physical path the vehicle moves along, regardless of its direction. Even if a vehicle returns to its starting point resulting in a net displacement of zero, fuel has been constantly consumed throughout the journey to cover the actual distance driven."
+   "answer": "Fuel used up in a vehicle depends on the (i) total distance travelled. This is because the engine must continuously burn fuel to generate energy for every part of the physical path the vehicle moves along, regardless of its direction. Even if a vehicle returns to its starting point resulting in a net displacement of zero, fuel has been constantly consumed throughout the journey to cover the actual distance driven.",
+   "concept": "Total distance travelled",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 3
   },
   {
    "number": "3",
    "form": "very_short",
    "page": 129,
-   "stem": "A ball rolls down an inclined track as shown in Figure Is its motion, a straight line motion? Assuming the starting point of the ball (O) to be the origin, can its motion from O to D be depicted using a horizontal line as shown in Figure? Are the values of total distance travelled and magnitude of displacement from O equal or different at positions A, B, C and D?",
-   "answer": "Yes, the motion of the ball rolling down the inclined track is a straight line motion because it follows a single linear path downwards. Assuming the starting point O is the origin, its motion can easily be depicted using a horizontal line by simply defining the positive direction along the track and mapping the linear measurements to a straight horizontal axis. Furthermore, because the ball continuously moves in only one forward direction without turning back, the values of total distance travelled and the magnitude of displacement from O will be exactly equal at all positions A, B, C, and D."
+   "stem": "A ball rolls down an inclined track as shown in Figure. Is its motion a straight line motion? Assuming the starting point of the ball (O) to be the origin, can its motion from O to D be depicted using a horizontal line as shown in Figure? Are the values of total distance travelled and magnitude of displacement from O equal or different at positions A, B, C and D?",
+   "answer": "Yes, the motion of the ball rolling down the inclined track is a straight line motion because it follows a single linear path downwards. Assuming the starting point O is the origin, its motion can easily be depicted using a horizontal line by simply defining the positive direction along the track and mapping the linear measurements to a straight horizontal axis. Furthermore, because the ball continuously moves in only one forward direction without turning back, the values of total distance travelled and the magnitude of displacement from O will be exactly equal at all positions A, B, C, and D.",
+   "concept": "Distance-displacement equality condition",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
   },
   {
    "number": "4",
    "form": "very_short",
    "page": 129,
    "stem": "During a family road trip, you drive 200 km north in three hours. Afterwards, you drive 200 km south in two hours. Find the average speed and average velocity for your entire trip.",
-   "answer": "Leg Direction Distance Displacement Time Leg 1 North (+) 200 km +200 km 3 h Leg 2 South (−) 200 km −200 km 2 h Total — 400 km 0 km 5 h Average Speed = Total Distance ÷ Total Time = 400 km ÷ 5 h Average Speed = 80 km/h Average Velocity = Total Displacement ÷ Total Time = (+200) + (−200) ÷ 5 h = 0 km ÷ 5 h Average Velocity = 0 km/h"
+   "answer": "<table><tr><td>Leg</td><td>Direction</td><td>Distance</td><td>Displacement</td><td>Time</td></tr><tr><td>Leg 1</td><td>North (+)</td><td>200 km</td><td>+200 km</td><td>3 h</td></tr><tr><td>Leg 2</td><td>South (−)</td><td>200 km</td><td>−200 km</td><td>2 h</td></tr><tr><td>Total</td><td>—</td><td>400 km</td><td>0 km</td><td>5 h</td></tr></table> Average speed = Total distance ÷ Total time = 400 km ÷ 5 h = 80 km/h. Average velocity = Total displacement ÷ Total time = [(+200) + (−200)] km ÷ 5 h = 0 km ÷ 5 h = 0 km/h.",
+   "concept": "Round trip average velocity zero",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3
   },
   {
    "number": "5",
    "form": "very_short",
    "page": 129,
    "stem": "Under what condition(s) is the (i) magnitude of average velocity of an object equal to its average speed? (ii) magnitude of average velocity of an object zero while its average speed is not zero?",
-   "answer": "(i) The magnitude of average velocity is equal to average speed only when an object moves in a straight line in a single direction without ever turning back, ensuring that the total distance travelled perfectly equals the magnitude of displacement. (ii) The average velocity is zero while the average speed is not zero when an object completes a journey where its final position is the same as its starting position. In this scenario, the overall displacement is zero, but the object has still covered a measurable total distance during its movement. NCER T Exercis"
+   "answer": "(i) The magnitude of average velocity is equal to average speed only when an object moves in a straight line in a single direction without ever turning back, ensuring that the total distance travelled perfectly equals the magnitude of displacement. (ii) The average velocity is zero while the average speed is not zero when an object completes a journey where its final position is the same as its starting position. In this scenario, the overall displacement is zero, but the object has still covered a measurable total distance during its movement.",
+   "concept": "Average velocity definition",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
   }
  ]
 }

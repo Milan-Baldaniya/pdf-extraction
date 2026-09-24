@@ -45,6 +45,31 @@ JUNK = re.compile(
 )
 
 
+# Flattened maths. The PDF text layer loses the layout of fractions and stacked
+# equations, leaving the glyphs in reading order with the operator stranded --
+# "v u at = +" for v = u + at, "t a v u = -" for t = (v-u)/a. It reads as noise
+# but a reader can resolve it from the answer prose, so it is recoverable; what
+# it must not do is pass silently. In a numerical section an unreconstructed
+# fraction is a WRONG ANSWER, not an ugly one, and no other check can see it:
+# a file with thirty damaged equations was reported ok.
+MATHS_DAMAGE = (
+    # an equals sign with the operator stranded after it
+    re.compile(r"=\s*[+\-−×÷](?:\s|$)"),
+    # two or more bare single letters before an equals, e.g. "v u at ="
+    re.compile(r"(?:[a-zA-Z]\s+){2,}[a-zA-Z]*\s*="),
+    # a run of lone digits before an equals, e.g. "s ut at 2 1 2 ="
+    re.compile(r"(?:\d\s+){2,}\d*\s*="),
+)
+
+
+def maths_damage(text: str) -> str | None:
+    for pattern in MATHS_DAMAGE:
+        hit = pattern.search(text or "")
+        if hit:
+            return hit.group(0).strip()
+    return None
+
+
 def concepts_for(db, chapter_id: int) -> set[str]:
     rows = db.execute(
         text(
@@ -124,6 +149,14 @@ def check_file(path: Path, legal: set[str]) -> tuple[list[str], dict]:
             hit = JUNK.search(item.get(field) or "")
             if hit:
                 problems.append(f"{ref} {field} still carries {hit.group(0)!r}")
+            damage = maths_damage(item.get(field) or "")
+            if damage:
+                problems.append(f"{ref} {field} has flattened maths: {damage!r}")
+        for option in options:
+            damage = maths_damage(option.get("text") or "")
+            if damage:
+                problems.append(
+                    f"{ref} option {option.get('label')} has flattened maths: {damage!r}")
     return problems, stats
 
 

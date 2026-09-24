@@ -1,0 +1,813 @@
+{
+ "chapter": 4,
+ "chapter_id": 8600,
+ "extraction_id": 595,
+ "section": "short",
+ "items": [
+  {
+   "number": "96",
+   "form": "short",
+   "page": null,
+   "stem": "Explain with an example how the magnitude of displacement can be zero even if the distance travelled is not zero.",
+   "answer": "Displacement is the net change in an object’s position between its initial and final points, while distance is the total path length covered. If an athlete runs one complete round on a circular track and returns to the exact starting line, the total distance travelled equals the track’s circumference. However, because the initial and final positions are identical, the net change in position is zero. Therefore, the displacement is zero despite a significant non-zero distance being travelled by the athlete."
+  },
+  {
+   "number": "97",
+   "form": "short",
+   "page": null,
+   "stem": "Explain how the average velocity of an object can be zero while its average speed is non-zero, using a daily life example.",
+   "answer": "Average velocity is calculated as total displacement divided by time, whereas average speed is total distance divided by time. If you travel from your home to school and return home along the same path, your total displacement is zero since your starting and stopping points are identical. Consequently, your average velocity for the entire trip is zero. However, your average speed will be non-zero because you covered a specific total distance going to the school and coming back during that time interval."
+  },
+  {
+   "number": "98",
+   "form": "short",
+   "page": null,
+   "stem": "Describe what is meant by average acceleration. State its SI unit and the condition under which it acts opposite to the direction of motion.",
+   "answer": "Average acceleration is defined as the change in an object’s velocity divided by the time interval over which that change occurs. Its SI unit is metre per second squared (ms 2 - ). Acceleration possesses both magnitude and direction. It acts opposite to the direction of motion when the magnitude of the object’s velocity is decreasing. For instance, when a driver applies the brakes to a moving car, the velocity decreases, resulting in negative acceleration acting in the direction opposite to the car’s movement."
+  },
+  {
+   "number": "99",
+   "form": "short",
+   "page": null,
+   "stem": "Draw a position-time graph for an object moving with a constant positive velocity. Explain how you can find the velocity from this graph.",
+   "answer": "To find the velocity from this position-time graph, you must calculate the slope of the straight line. You can select any two distinct points on the graph, such as A and B. By drawing lines parallel to the axes, form a triangle. The vertical side represents the change in position, while the horizontal side represents the change in time. Dividing the position change by the time change gives the slope, which equals the object’s constant average velocity."
+  },
+  {
+   "number": "100",
+   "form": "short",
+   "page": null,
+   "stem": "Explain how you can calculate the displacement of an object moving with constant acceleration from its velocity-time graph.",
+   "answer": "To calculate the displacement of an object from its velocity-time graph, you must determine the area enclosed by the velocity-time line and the time axis for the given time interval. For constant acceleration, the graph is a straight inclined line. The area under this line typically forms a trapezium. By dropping perpendiculars to the time axis from the initial and final time points, you can calculate the total area as the sum of a rectangle and a triangle, which equals the total displacement."
+  },
+  {
+   "number": "83",
+   "form": "short",
+   "page": 151,
+   "stem": "Write the kinematic equation that relates displacement, initial velocity, time, and acceleration.",
+   "answer": "The primary kinematic equation relating displacement, initial velocity, time, and constant acceleration is formulated as s equals ut plus half at squared."
+  },
+  {
+   "number": "84",
+   "form": "short",
+   "page": 151,
+   "stem": "Correct the statement: “Kinematic equations can be used for any type of accelerated motion.”",
+   "answer": "These standard kinematic equations are uniquely valid only for straight-line motion where the acceleration remains completely constant throughout the chosen interval of time."
+  },
+  {
+   "number": "85",
+   "form": "short",
+   "page": null,
+   "stem": "What is uniform circular motion?",
+   "answer": "Uniform circular motion occurs specifically when an object continuously moves along a circular path while maintaining a perfectly constant and unchanging overall speed."
+  },
+  {
+   "number": "86",
+   "form": "short",
+   "page": null,
+   "stem": "Why is uniform circular motion considered an accelerated motion despite constant speed?",
+   "answer": "It is considered an accelerated motion because the direction of the object’s velocity continuously changes at every single point along the curved circular path."
+  },
+  {
+   "number": "87",
+   "form": "short",
+   "page": null,
+   "stem": "What is the direction of velocity of an object in uniform circular motion?",
+   "answer": "The velocity of an object in uniform circular motion is always directed along the tangent drawn to the circular path at that specific point."
+  },
+  {
+   "number": "88",
+   "form": "short",
+   "page": null,
+   "stem": "Give the formula to calculate the average speed of an object completing one circular revolution.",
+   "answer": "For one complete revolution, the average speed is calculated as two pi times the radius divided by the total time taken for the trip."
+  },
+  {
+   "number": "89",
+   "form": "short",
+   "page": null,
+   "stem": "What is the result of displacement when an athlete completes exactly one full round on a circular track?",
+   "answer": "The resulting displacement becomes exactly zero because the athlete successfully returns to the original starting point, making the net change in position completely nil."
+  },
+  {
+   "number": "90",
+   "form": "short",
+   "page": null,
+   "stem": "Which ancient Indian text features the concept of calculating speed from distance and time?",
+   "answer": "The comprehensive concept of calculating speed is featured prominently in mathematical texts from ancient India, specifically seen within the fifth-century treatise known as Aryabhatiya."
+  },
+  {
+   "number": "91",
+   "form": "short",
+   "page": null,
+   "stem": "How is instantaneous velocity different from average velocity?",
+   "answer": "Average velocity measures position change over a large time interval, whereas instantaneous velocity specifically describes the velocity of an object at a precise, particular instant."
+  },
+  {
+   "number": "92",
+   "form": "short",
+   "page": null,
+   "stem": "What would happen to a marble moving in a circular ring if the ring is suddenly lifted?",
+   "answer": "If the ring is suddenly lifted, the marble will immediately move away in a straight line corresponding to the tangent of its previous circular path."
+  },
+  {
+   "number": "93",
+   "form": "short",
+   "page": null,
+   "stem": "Give one example of motion in two dimensions from everyday life.",
+   "answer": "A common everyday example of two-dimensional motion in a plane is a kicked football travelling through the air or a vehicle overtaking another car."
+  },
+  {
+   "number": "94",
+   "form": "short",
+   "page": null,
+   "stem": "What is the relationship between the slope of a velocity-time graph and acceleration?",
+   "answer": "The steepness or slope of a straight line on a velocity-time graph directly determines how fast velocity changes, perfectly representing the object’s exact uniform acceleration. Describing Motion Around Us net position change requiring both magnitude and direction."
+  },
+  {
+   "number": "70",
+   "form": "short",
+   "page": 153,
+   "stem": "What is the SI unit of average velocity and average speed?",
+   "answer": "The standard international unit for measuring both average speed and average velocity is metre per second, which is represented as m s-1 or m/s."
+  },
+  {
+   "number": "71",
+   "form": "short",
+   "page": 153,
+   "stem": "Write the formula for calculating the average speed of an object.",
+   "answer": "The average speed of a moving object is calculated by dividing the total distance travelled by the total time interval taken to cover it."
+  },
+  {
+   "number": "72",
+   "form": "short",
+   "page": null,
+   "stem": "What is meant by uniform motion in a straight line?",
+   "answer": "Uniform motion in a straight line occurs when an object covers equal distances in exactly equal intervals of time, maintaining a completely constant speed."
+  },
+  {
+   "number": "73",
+   "form": "short",
+   "page": null,
+   "stem": "Under what condition is the magnitude of average velocity equal to average speed?",
+   "answer": "The magnitude of average velocity equals the average speed strictly when an object moves in a single straight line without turning back or changing direction."
+  },
+  {
+   "number": "74",
+   "form": "short",
+   "page": null,
+   "stem": "Define the average acceleration of an object over a time interval.",
+   "answer": "Average acceleration is defined as the total change in the velocity of an object divided by the specific time interval during which it occurs."
+  },
+  {
+   "number": "75",
+   "form": "short",
+   "page": null,
+   "stem": "What is the SI unit of average acceleration?",
+   "answer": "The SI unit of average acceleration is metre per second squared, which is mathematically represented as m s-2 or m/s² in scientific contexts."
+  },
+  {
+   "number": "76",
+   "form": "short",
+   "page": null,
+   "stem": "What causes the negative sign in acceleration when a vehicle brakes?",
+   "answer": "The negative sign indicates that the acceleration is acting directly opposite to the direction of velocity because the magnitude of the velocity is rapidly decreasing."
+  },
+  {
+   "number": "77",
+   "form": "short",
+   "page": null,
+   "stem": "What would you observe about an object’s acceleration if its velocity is perfectly constant?",
+   "answer": "If an object moves with a perfectly constant velocity along a straight line, you will observe that its average acceleration remains exactly at zero."
+  },
+  {
+   "number": "78",
+   "form": "short",
+   "page": null,
+   "stem": "What is the significance of the slope in a position- time graph?",
+   "answer": "The slope of a line on a position-time graph is highly significant because it directly provides the magnitude of the average velocity of the object."
+  },
+  {
+   "number": "79",
+   "form": "short",
+   "page": null,
+   "stem": "What does a curved line on a position-time graph indicate?",
+   "answer": "A curved line on a position-time graph clearly indicates that the velocity of the object is not constant, representing an accelerated or non- uniform motion."
+  },
+  {
+   "number": "80",
+   "form": "short",
+   "page": null,
+   "stem": "What does a perfectly straight line parallel to the time axis on a position-time graph represent?",
+   "answer": "A perfectly straight line parallel to the time axis on a position-time graph represents a completely stationary object that remains entirely at rest over time."
+  },
+  {
+   "number": "81",
+   "form": "short",
+   "page": null,
+   "stem": "What is the significance of the area enclosed under a velocity-time graph?",
+   "answer": "The area enclosed by the line on a velocity-time graph and the time axis accurately represents the total displacement of the object within that interval."
+  },
+  {
+   "number": "82",
+   "form": "short",
+   "page": null,
+   "stem": "What is the relationship represented by the first kinematic equation of motion?",
+   "answer": "The first kinematic equation, v equals u plus at, mathematically relates final velocity, initial velocity, constant acceleration, and time interval for an object in motion. Click Here to Buy book on Flipkart"
+  },
+  {
+   "number": "101",
+   "form": "short",
+   "page": 154,
+   "stem": "Draw a velocity-time graph for an object that is slowing down with uniform acceleration. Explain what the slope of this graph indicates.",
+   "answer": "The drawn graph shows a straight downward- sloping line, representing an object undergoing uniformly decreasing velocity. The slope of any velocity-time graph gives information about the rate at which velocity is changing with time, which is the acceleration. In this specific case, because the line slants downwards, the slope yields a negative mathematical value. This negative slope indicates that the acceleration acts in the opposite direction to the object’s movement, effectively acting as a retarding force that slows the object down."
+  },
+  {
+   "number": "102",
+   "form": "short",
+   "page": null,
+   "stem": "How does the shape of a position-time graph help us determine whether an object is stationary, moving with constant velocity, or moving with changing velocity?",
+   "answer": "The shape of a position-time graph visually indicates the nature of an object’s motion. If the graph is a straight line parallel to the time axis, the object’s position is not changing, meaning it is stationary. A straight inclined line indicates that the object covers equal distances in equal time intervals, representing constant velocity. On the other hand, if the position-time graph is a curve, it shows that unequal distances are covered in equal intervals, which indicates changing velocity or accelerated motion."
+  },
+  {
+   "number": "103",
+   "form": "short",
+   "page": null,
+   "stem": "State the three kinematic equations for motion in a straight line with constant acceleration. Mention what each symbol represents.",
+   "answer": "The three kinematic equations are v u at = + , s ut at 2 1 2 = + , and v u as 2 2 2 = + . In these mathematical expressions, ‘u’ represents the initial velocity of the moving object, and ‘v’ represents its final velocity at time ‘t ’. The symbol ‘a’ denotes the constant acceleration experienced by the object, while ‘s’ stands for the total displacement covered during the given time interval ‘t ’. These equations help predict the position and velocity of an object at any future time."
+  },
+  {
+   "number": "104",
+   "form": "short",
+   "page": null,
+   "stem": "Draw a diagram showing an athlete running on a circular track. Explain how the direction of velocity changes at different points on the track.",
+   "answer": "When an athlete runs along a circular track, they are exhibiting uniform circular motion. The drawn diagram illustrates that the direction of the athlete’s velocity at any given instant is always directed along the tangent to the circle at that exact position. As the athlete progresses along the curved path, the tangential direction continuously shifts. Consequently, even if the athlete maintains a perfectly steady running speed, their velocity is constantly changing due to this endless alteration in their movement direction. Describing Motion Around Us"
+  },
+  {
+   "number": "105",
+   "form": "short",
+   "page": 155,
+   "stem": "Study the given position-time graph. (a) Which object, A or B, has a higher magnitude of velocity? (b) Justify your answer based on the features of the graph.",
+   "answer": "(a) Object B definitely possesses a higher magnitude of velocity compared to object A. (b) In a position-time graph, the velocity of an object corresponds directly to the slope or steepness of its line. A steeper line signifies a greater rate of change in position over the same duration. Because line B is noticeably steeper than line A, object B covers a significantly larger displacement in the identical time interval. Therefore, object B operates at a higher velocity than object A."
+  },
+  {
+   "number": "106",
+   "form": "short",
+   "page": null,
+   "stem": "Explain why uniform circular motion is considered an accelerated motion even if the object is moving with a constant speed.",
+   "answer": "In uniform circular motion, an object travels along a circular path with a constant speed. However, velocity is a physical quantity that requires both magnitude (speed) and direction. As the object moves along the circle, its direction of motion continuously changes at every single point along the path. Because the direction of velocity is constantly changing, the velocity itself is not constant. This continuous change in velocity with respect to time means that uniform circular motion is always an accelerated motion."
+  },
+  {
+   "number": "107",
+   "form": "short",
+   "page": null,
+   "stem": "Describe the activity using a ring and a marble to demonstrate the direction of velocity of an object moving in a circular path.",
+   "answer": "Place a flat ring, like an adhesive tape ring, on a smooth surface and roll a marble so it rotates along the ring’s inner boundary. The marble undergoes circular motion. If you suddenly lift the ring, the marble stops moving in a circle and travels in a straight line instead. This straight- line path is tangential to the circular path at the exact point where the ring was removed. This activity demonstrates that the velocity’s direction in circular motion is always along the tangent."
+  },
+  {
+   "number": "108",
+   "form": "short",
+   "page": null,
+   "stem": "Define position and reference point. Why is it necessary to specify a reference point to describe motion?",
+   "answer": "Position is the exact location of an object at any instant of time, specified by a distance and direction from a fixed point. A reference point is this chosen fixed location used as an origin to determine the object’s coordinates. Specifying a reference point is essential because motion is a relative concept. An object is considered in motion only if its position changes over time with respect to this specific reference point, otherwise, it remains at rest relative to that observer."
+  },
+  {
+   "number": "109",
+   "form": "short",
+   "page": null,
+   "stem": "What is the difference between average speed and average velocity? Why is average velocity considered a more complete description of an object’s motion?",
+   "answer": "Average speed is the total distance travelled divided by the time interval, possessing only magnitude. In contrast, average velocity is the net displacement divided by the time interval, requiring both magnitude and direction. Average velocity provides a more complete description of an object’s motion because it specifies how fast the position is changing and in which specific direction. Speed alone cannot indicate where the object is heading, making velocity crucial for understanding complex, real-world motions like navigating to a specific destination."
+  },
+  {
+   "number": "110",
+   "form": "short",
+   "page": 156,
+   "stem": "Define uniform and non-uniform motion in a straight line. Give one example of each from everyday life.",
+   "answer": "Uniform motion occurs when an object travels equal distances in equal intervals of time along a straight line. An example is a car driving steadily at exactly 60 km/h on an empty, straight highway. Non-uniform motion occurs when an object travels unequal distances in equal intervals of time, indicating changing speed. An example is a train departing from a station, where its speed continuously increases as it moves forward, or a bicycle slowing down when approaching a crowded intersection."
+  },
+  {
+   "number": "111",
+   "form": "short",
+   "page": null,
+   "stem": "The given diagram shows an object dropped from a height. (a) Is the acceleration of this falling object constant or changing? (b) What is the direction of acceleration relative to its velocity?",
+   "answer": "(a) The acceleration of the falling object remains perfectly constant throughout its descent. The velocity increases by precisely 9.8 m/s during every single successive second interval. (b) Since the magnitude of the object’s velocity is continually increasing as it falls downwards, the acceleration must be acting in the exact same direction as the object’s velocity. Both the velocity and this gravitational acceleration point vertically downwards towards the earth. This causes the object to speed up uniformly as it drops."
+  },
+  {
+   "number": "112",
+   "form": "short",
+   "page": null,
+   "stem": "What does the slope of a position-time graph represent? How will the slopes differ for a fast- moving and a slow-moving object?",
+   "answer": "The slope of a position-time graph represents the rate of change of position, which is the magnitude of the object’s average velocity. It is calculated by dividing the change in position by the change in time. The steepness of this slope directly reflects the object’s speed. A fast-moving object covers more distance in less time, resulting in a much steeper slope on the graph. Conversely, a slow- moving object covers less distance in the same time, producing a flatter, less steep slope."
+  },
+  {
+   "number": "113",
+   "form": "short",
+   "page": null,
+   "stem": "The diagram below shows a velocity-time graph. (a) Identify the exact type of motion shown in this graph. (b) How can you calculate the displacement from this graph?",
+   "answer": "(a) The graph displays uniform motion in a straight line, which means the object is travelling with a constant, unchanging velocity. Its acceleration is absolutely zero. (b) You can calculate the total displacement by determining the geometric area enclosed between the horizontal velocity line and the time axis for the chosen interval. Because the line is horizontal, this enclosed shape forms a simple rectangle. Multiplying the rectangle’s length (time interval) by its height (velocity magnitude) directly yields the total displacement. Click Here to Buy book on Amazon Describing Motion Around Us"
+  },
+  {
+   "number": "114",
+   "form": "short",
+   "page": 157,
+   "stem": "What is average acceleration? What does a negative sign in the value of average acceleration indicate?",
+   "answer": "Average acceleration is the change in an object’s velocity divided by the time interval during which that change takes place. It measures how quickly the velocity of an object is altering. When calculating this value, a negative sign indicates that the acceleration acts in the direction opposite to the object’s initial velocity. In one-dimensional motion, this generally implies that the magnitude of the object’s velocity is decreasing over time, a scenario commonly experienced when a moving vehicle applies its brakes to stop."
+  },
+  {
+   "number": "115",
+   "form": "short",
+   "page": null,
+   "stem": "State the formula for the average speed of an object moving in a uniform circular path. Why is the displacement after one complete revolution zero?",
+   "answer": "The average speed for uniform circular motion is calculated using the formula / v R T 2π = , where R is the radius of the circular path and T is the time taken to complete one full revolution. Displacement measures the shortest straight- line distance between the starting and ending positions. When an object completes exactly one revolution, it returns precisely to its original starting point. Because the initial and final positions are identical, the net change in position, and therefore the displacement, is strictly zero."
+  },
+  {
+   "number": "116",
+   "form": "short",
+   "page": null,
+   "stem": "What happens to an object’s speed and velocity during uniform circular motion? Why is this motion called an idealised model?",
+   "answer": "During uniform circular motion, the object’s speed remains constant, meaning it covers equal distances along the circumference in equal time intervals. However, its velocity continuously changes because the direction of motion alters at every point on the circular path. This motion is called an idealised model because, in the real world, maintaining perfectly constant speed on a perfectly circular path without any external disturbances is extremely difficult. Yet, it forms the foundation for understanding complex real- world motions like planetary orbits."
+  },
+  {
+   "number": "117",
+   "form": "short",
+   "page": null,
+   "stem": "What physical quantity is represented by the area enclosed under a velocity-time graph? How is this area calculated for an object starting from rest with uniform acceleration?",
+   "answer": "The area enclosed by the velocity-time graph and the time axis represents the total displacement covered by the moving object within that specific time interval. For an object starting from rest with uniform acceleration, the velocity-time graph is a straight line passing through the origin. The area bounded under this line forms a right-angled triangle. This displacement can be calculated by finding the area of this triangle, using the formula half multiplied by the base (time) and the height (final velocity)."
+  },
+  {
+   "number": "118",
+   "form": "short",
+   "page": null,
+   "stem": "Draw a position-time graph showing an object that is stationary for some time and then moves with constant velocity. Why is the graph for a stationary object a horizontal line parallel to the time axis?",
+   "answer": "The drawn graph begins with a horizontal segment, which denotes that the object’s position coordinate is not changing despite the passage of time. A stationary object simply remains exactly at its fixed location relative to the reference point. Therefore, as time values advance along the x-axis, the position value on the y-axis stays constantly identical. This mathematical relationship inherently produces a perfectly flat, horizontal line that runs parallel to the time axis on the coordinate graph."
+  },
+  {
+   "number": "119",
+   "form": "short",
+   "page": 158,
+   "stem": "Compare distance and displacement with respect to direction dependence and their values when an object completely returns to its initial starting point.",
+   "answer": "Distance is a scalar quantity that measures the total path length covered by an object and requires absolutely no direction for its description. Conversely, displacement is a vector quantity measuring the net positional change, heavily relying on a specified direction from origin. When an object completes a journey and returns precisely to its initial starting point, the total distance measured will be a large non-zero positive number. However, because the initial and final positions coincide, the net displacement becomes exactly zero."
+  },
+  {
+   "number": "120",
+   "form": "short",
+   "page": null,
+   "stem": "Draw a diagram of a merry-go-round showing a child’s circular path. If the child takes time T for one revolution of radius R, how do you find their average speed, and why is the velocity continuously changing?",
+   "answer": "When a child rides a merry-go-round, they travel a total distance equal to the circle’s circumference ( R 2π ) in one complete revolution taking time T . Their average speed is simply calculated using the formula / v R T 2π = . Although this calculated speed remains completely steady, the child’s velocity continuously changes. This occurs because velocity is a vector. As the merry-go- round rotates, the specific direction the child is facing and moving constantly shifts at every single point along the circular path."
+  },
+  {
+   "number": "121",
+   "form": "short",
+   "page": null,
+   "stem": "A student says that a car moving at a high constant speed of 100 km/h on a perfectly straight highway has zero acceleration. Is this correct? Justify using the concept of acceleration.",
+   "answer": "Yes, the student’s statement is completely correct. Acceleration is scientifically defined as the rate of change of velocity over time. Velocity incorporates both the magnitude (speed) and the specific direction of the motion. If the car is moving on a perfectly straight highway at a steady 100 km/h, neither its speed nor its direction of travel is altering. Because there is absolutely no change in the car’s velocity, the calculated acceleration must be identically zero, regardless of how fast it moves."
+  },
+  {
+   "number": "122",
+   "form": "short",
+   "page": null,
+   "stem": "Renu claims that for motion in a straight line, the magnitude of average velocity can never be greater than the average speed. Do you agree? Justify your answer.",
+   "answer": "Yes, I strongly agree with Renu’s claim. Average speed is calculated using the total distance travelled, while average velocity utilizes the net displacement. Displacement is fundamentally defined as the shortest straight-line path between initial and final positions. Therefore, the magnitude of displacement can only be equal to or less than the actual total distance covered. Because displacement can never exceed distance, the resulting average velocity magnitude can logically never be greater than the calculated average speed for any given time interval."
+  },
+  {
+   "number": "123",
+   "form": "short",
+   "page": null,
+   "stem": "Compare uniform motion and uniformly accelerated motion in a straight line with respect to the shape of their velocity-time graphs and their respective acceleration values.",
+   "answer": "In uniform motion, an object maintains a constant speed and direction, meaning its acceleration value is entirely zero. The resulting velocity-time graph is a perfectly horizontal straight line parallel to the time axis. In uniformly accelerated motion, the object’s velocity increases or decreases by equal amounts in equal time intervals, resulting in a constant, non-zero acceleration value. Consequently, its velocity-time graph visually appears as a straight, inclined line sloping Describing Motion Around Us diagonally upwards or downwards depending on the velocity’s change."
+  },
+  {
+   "number": "124",
+   "form": "short",
+   "page": 159,
+   "stem": "Why does the driver of a moving vehicle need to maintain a safe distance from the vehicle ahead? Explain in terms of negative acceleration and reaction time.",
+   "answer": "When a driver suddenly notices a hazard and applies the brakes, the vehicle undergoes negative acceleration to slow down. However, stopping is not instantaneous. The total stopping distance heavily depends on the driver’s reaction time— the brief delay before pressing the brake— and the vehicle’s braking capacity. During the reaction time, the car continues moving rapidly forward at its initial velocity. Maintaining a safe distance guarantees enough available space for this combined reaction and braking distance, preventing devastating collisions with the vehicle ahead."
+  },
+  {
+   "number": "125",
+   "form": "short",
+   "page": null,
+   "stem": "Trace the sequential steps involved in determining the precise average velocity of a moving object from its position-time graph between two time instants t1 and t2.",
+   "answer": "First, locate the two required time instants, t1 and t2, on the horizontal time axis. Next, trace vertically upwards to find their corresponding points, A and B, precisely on the position-time line graph. Draw horizontal lines from points A and B to the y-axis to read the position values s1 and s2. Finally, calculate the average velocity by dividing the change in position (s s 2 1 - ) by the elapsed time interval (t t 2 1 - ). Geometrically, this equals finding the line’s slope. LON G Answer QUESTION"
+  },
+  {
+   "number": "126",
+   "form": "short",
+   "page": null,
+   "stem": "(a) Differentiate between distance travelled and displacement? (b) Under what specific condition is the magnitude of average velocity equal to the average speed? (c) A boy walks 3 km East, then 4 km North in 2 hours. Calculate his total distance, displacement magnitude, average speed, and average velocity magnitude?",
+   "answer": "(a) Distance is the total path length covered by an object during its motion, whereas displacement is the shortest straight-line distance measured from the initial to the final position. Distance is a scalar, while displacement is a vector. (b) The magnitude of average velocity equals the average speed only when an object moves in a single straight line in one direction without turning back. (c) For the walking boy, the distance travelled is the sum of the two paths: 3 km + 4 km = 7 km. His displacement magnitude is calculated using the Pythagorean theorem since he turns North after going East. Displacement 3² 4² = + 9 16 = + 25 = = 5 km. Average speed is total distance divided by time: 7 km/2 h = 3.5 km h-1. Average velocity magnitude is displacement divided by time: 5 km/2 h = 2.5 km h-1."
+  },
+  {
+   "number": "127",
+   "form": "short",
+   "page": null,
+   "stem": "(a) Define average acceleration and state its SI unit? (b) How do we determine the direction of acceleration for an object moving in a straight line? (c) A train starting from rest attains a velocity of 72 km h-1 in 5 minutes. Assuming uniform acceleration, find the acceleration and the distance travelled?",
+   "answer": "(a) Average acceleration is defined as the change in velocity of an object divided by the time interval over which that change occurs. Its SI unit is metre per second squared (m s-2). (b) For straight-line motion, if the magnitude of velocity increases, acceleration acts in the same direction as the velocity. If the velocity decreases, acceleration acts opposite to the direction of velocity. (c) For the train, initial velocity u = 0 m s-1 Final velocity v = 72 km h-1 = 72 × (5/18) = 20 m s-1 Time t = 5 minutes = 300 s Acceleration a = (v - u)/t = (20 - 0)/300 = 1/15 m s-2 ≈ 0.067 m s-2 Using the equation s = ut + ½ at² s = 0(300) + 0.5 × (1/15) × (300)² s = 0.5 × (1/15) × 90000 s = 3000 m or 3 km. The train travels 3 km."
+  },
+  {
+   "number": "128",
+   "form": "short",
+   "page": null,
+   "stem": "(a) Write the three kinematic equations for motion in a straight line with constant acceleration? (b) Why are these equations not applicable for an object moving in a circular path at a constant speed? (c) A car travelling at 90 km h-1 applies brakes, producing a constant acceleration of -0.5 m s-2. How far will it go before stopping?",
+   "answer": "(a) The three kinematic equations for motion in a straight line with constant acceleration are: v = u + at s = ut + ½ at² and v² = u² + 2 as. (b) These equations are valid only when acceleration remains constant in both magnitude and direction. In uniform circular motion, although the speed is constant, the direction of motion changes continuously. Consequently, the velocity and acceleration change direction at every single point, meaning acceleration is not constant, rendering these equations strictly invalid for circular paths. (c) For the braking car: Initial velocity u = 90 km h-1 = 90 × (5/18) = 25 m s-1. Final velocity v = 0 m s-1 (since it is brought to rest). Acceleration a = -0.5 m s-2. Using the third equation v = u² + 2as: 0 = (25)² + 2(-0.5)s 0 = 625 – 1s s = 625 m. The car travels 625 m before fully stopping."
+  },
+  {
+   "number": "129",
+   "form": "short",
+   "page": null,
+   "stem": "(a) What physical quantities are obtained from the slope and the area under a velocity-time graph? (b) How does the velocity-time graph for constant velocity differ from one showing constant acceleration starting from rest? (c) A motorboat starting from rest accelerates at 3.0 m s-2 for 8.0 s. Calculate its displacement?",
+   "answer": "(a) From a velocity-time graph, the slope of the line gives the object’s average acceleration, indicating exactly how fast velocity changes with time. The area enclosed between the velocity-time graph line and the time axis represents the total displacement of the object over that specific time interval. (b) A velocity-time graph representing constant velocity is a straight horizontal line parallel to the time axis, meaning the acceleration is zero. For constant acceleration starting from rest, the graph is a straight inclined line originating precisely from the origin, indicating a uniform increase in velocity. (c) For the accelerating motorboat: Initial velocity u = 0 m s-1 Acceleration a = 3.0 m s-2 Time t = 8.0 s. Displacement ‘s’ is calculated using the equation s = ut + ½ at² s = (0 × 8.0) + (0.5 × 3.0 × (8.0)²) s = 0 + (1.5 × 64) s = 96 m. The motorboat travels 96 metres. Click Here to Buy book on Flipkart Describing Motion Around Us Time taken (B to C) = 1 minute = 60 s. Total time (A to C) = s s s 150 60 210 + = . Average speed (A to C) TotalTime TotalDistance = s m 210 400 = . ms ms 21 40 1 90 1 1 . = − − (d) Average velocity from A to C: Displacement (A to C) = Displacement (A to B) – Displacement (C to B, since he turns back) Displacement (A to C) ( ) ( ) m from A to B m from B to C towards A 300 100 = − m 200 = in the original direction of A to B. Total time (A to C) = 210 s. Average velocity (A to C) Total Time Total Displacement = s m 210 200 = . ms ms 21 20 0 95 1 1 . = − − in the direction from A to B."
+  },
+  {
+   "number": "161",
+   "form": "short",
+   "page": null,
+   "stem": "An athlete completes one round of a circular track of diameter 49 m in 20 s. Calculate the distance covered of displacement at end of 30 s.",
+   "answer": "Here, diameter = 49 cm As an athlete completes one round of a circular track in a period T= 20 s, hence in time t = 30 s, he will complete n 20 30 = = 1.5 rounds. Thus, he will beat point B diagonally opposite to initial position A Displacement = AB = D = 49 m Distance covered n(2π r) = n(π D) .1 5 7 22 49 # # = m 231 ="
+  },
+  {
+   "number": "162",
+   "form": "short",
+   "page": null,
+   "stem": "Abdul, while driving to school, computes the average speed for his trip to be 20 km h-1. On his return trip along the same route, there is less traffic and the average speed is 30 km h-1. What is the average speed for Abdul’s entire trip?",
+   "answer": "Let the distance from home to school be ‘d’ km. Time taken to go to school ( ) t1 Average speed Distance = d 20 = hours. Time taken for the return trip ( ) t2 Average speed Distance = d 30 = hours. Total distance for the entire trip ( ) ( ) to school return d d = + d 2 = km Total time taken for the entire trip t t 1 2 = + d d 20 30 = + hours. To add the times, find a common denominator (e.g., 60): Total time ( ) d d 60 3 2 = + d 60 5 = d 12 = hours. Average speed for Abdul’s entire trip Total time Total distance = ( / )hours km d d 12 2 = / km h d d 2 12 # = / km h 2 12 # = / km h 24 = . The average speed for Abdul’s entire trip is 24 km h-1. 163. A motorboat starting from rest on a lake accelerates in a straight line at a constant rate of 3.0 m s-2 for 8.0 s. How far does the boat travel during this time? ( )( ) ( )( ) ms s ms s s 0 10 2 1 4 10 1 2 2 = + − − m s 0 2 1 4 100 # # = + The racing car will cover 200 meters in 10 seconds after starting."
+  },
+  {
+   "number": "133",
+   "form": "short",
+   "page": 162,
+   "stem": "Usha swims in a 90 m long pool. She covers 180 m in one minute by swimming from one end to the other and back along the same straight path. Find her average speed and average velocity.",
+   "answer": "Total distance covered by Usha = 180 m. Total time taken = 1 minute = 60 s. Average speed = Total time taken Total distance covered s m ms 60 180 3 1 = = − Since Usha swims from one end to the other and back to her starting point along the same straight path, her initial and final positions are the same. Therefore, her total displacement = 0 m. Average velocity = Total time taken Total displacement s m ms 60 0 0 1 = = − So, Usha’s average speed is 3 m/s-1, and her average velocity is 0 m/s-1."
+  },
+  {
+   "number": "134",
+   "form": "short",
+   "page": null,
+   "stem": "During an experiment, a signal from a spaceship reached the ground station in five minutes. What was the distance of the spaceship from the ground station? The signal travels at the speed of light, that is",
+   "answer": "Time taken for the signal to reach = 5 minutes. Converting time to seconds: / min sec min utes onds ute s t 5 60 300 # = = . Speed of the signal (speed of light) ms v 3 108 1 # = − Distance (s) can be calculated using the formula: distance = speed × time. s v t # = ( ) ( ) ms s s 3 10 300 8 1 # # = − m s 900 108 # = m s 9 1010 # = (or km 9 107 # ). The distance of the spaceship from the ground station was 9 1010 # meters."
+  },
+  {
+   "number": "135",
+   "form": "short",
+   "page": null,
+   "stem": "An artificial satellite is moving in a circular orbit of radius 42250 km. Calculate its speed if it takes 24 hours to revolve around the Earth.",
+   "answer": "Given, Radius of the circular orbit km r 42250 = . Time taken for one revolution hours t 24 = . The distance covered in one revolution is the circumference of the orbit, C r 2π = . C km 2 42250 # # π = Using π .3 14 . C . km 2 3 14 42250 # # . km 265330 . Speed (v) = Time Distance t C = v hours km 24 265330 . . / km h 11055 42 . To convert to m/s: . km m s h 11055 42 1 1000 3600 1 # # . ms 3070 95 ."
+  },
+  {
+   "number": "136",
+   "form": "short",
+   "page": null,
+   "stem": "A bus decreases its speed from 80 km h-1 to 60 km h-1 in 5 s. Find the acceleration of the bus.",
+   "answer": "Initial speed u kmh 80 1 = −. Convert to m/s: u s m 80 3600 1000 # = ms 80 18 5 1 # = − . ms ms 18 400 22 22 1 1 . = − − Final speed v kmh 60 1 = − Convert to m/s: v s m 60 3600 1000 # = ms 60 18 5 1 # = − . ms ms 18 300 16 67 1 1 . = − − Time taken t s 5 = . Acceleration a ( ) t v u = − a ( . . ) s ms ms 5 16 67 22 22 1 1 = − − − . . s ms ms 5 5 55 1 11 1 2 = − =− − − The acceleration of the bus is approximately -1.11 m s-2 (the negative sign indicates retardation). Describing Motion Around Us"
+  },
+  {
+   "number": "130",
+   "form": "short",
+   "page": 163,
+   "stem": "(a) Explain the concept of braking distance for a moving vehicle? (b) Why does a vehicle travelling at a higher initial velocity require a much longer distance to stop? (c) A driver travelling at 54 km h-1 spots a hazard. His reaction time is 0.5 s, after which brakes cause an acceleration of -5 m s-2. Find the total stopping distance?",
+   "answer": "(a) Braking distance is the physical distance a vehicle travels from the precise moment the brakes are applied until it completely stops. (b) Using the kinematic equation v² = u² + 2 as when final velocity v = 0, the distance is s = -u²/(2a) This clearly shows that stopping distance is directly proportional to the square of the initial velocity (u²). Therefore, a faster vehicle needs a significantly longer distance to stop safely. (c) For the driver: Initial speed u = 54 km h-1 = 54 × (5/18) = 15 m s-1 During the 0.5 s reaction time, the car moves uniformly: Reaction distance = u × t = 15 × 0.5 = 7.5 m. Once brakes are applied (a = -5 m s-2): 0² = (15)² + 2(-5)s 0 = 225 - 10s s = 22.5 m (braking distance). Total stopping distance = Reaction distance + Braking distance = 7.5 + 22.5 = 30 m."
+  },
+  {
+   "number": "131",
+   "form": "short",
+   "page": null,
+   "stem": "(a) Distinguish between average speed and average velocity? (b) Can an object have a zero average velocity but a non-zero average speed? (c) Usha swims in a 90 m long pool. She covers 180 m in one minute by swimming from one end to the other and back along the same path. Find her average speed and average velocity?",
+   "answer": "(a) Average speed is a scalar quantity defined as the total distance travelled divided by the total time taken. It has only magnitude. Average velocity is a vector quantity defined as the total net displacement divided by the total time. It involves both magnitude and direction. (b) Yes, an object can have zero average velocity and non-zero average speed. This occurs whenever an object returns exactly to its initial starting point. In this case, the total displacement becomes zero, making velocity zero, while the physical distance covered remains positive. (c) For Usha’s swim: Total distance covered in one minute = 90 m (forward) + 90 m (return) = 180 m. Total displacement = 0 m (since she returns precisely to the starting end). Total time t = 1 min = 60 s. Average speed = Total distance/time = 180 m/60 s = 3 m s-1 Average velocity = Displacement/time = 0 m/60 s = 0 m s-1 Numerical Question"
+  },
+  {
+   "number": "132",
+   "form": "short",
+   "page": null,
+   "stem": "A racing car has a uniform acceleration of 4 m s-2. What distance will it cover in 10 s after start?",
+   "answer": "Given: Uniform acceleration a = 4 m s-2. Time t s 10 = . The car starts from rest, so initial velocity u = 0 m s-1. We need to find the distance covered, (s). Using the second equation of motion: s ut at 2 1 2 = + ABCD, its value is ABCD = AB BC # (30 min - 10 min) × (10 km/h) = 20 min × 10 km/h h 60 20 = × 10 km/h 3 10 = km"
+  },
+  {
+   "number": "141",
+   "form": "short",
+   "page": 164,
+   "stem": "A train starting from a railway station and moving with uniform acceleration, attains a speed 40 km/h in 10 minutes. Find its acceleration.",
+   "answer": "Given, Initial velocity u = 0 (starting from rest) Final velocity v = 40 km/h 18 40 5 # = = 11.11 m/s Time t = 10 minutes 10 60 # = = 600 s We know that, Acceleration (a) t v u = − a . / s m s 600 11 11 = = 0.0185 m/s2"
+  },
+  {
+   "number": "142",
+   "form": "short",
+   "page": null,
+   "stem": "Find the distance covered by a particle during the time interval t = 0 to t = 20 s for which the speed-time graph is shown in figure.",
+   "answer": "The distance covered in the time interval 0 to 20 s is equal to the area of the shaded triangle. So, Distance 2 1 = × base × height 2 1 = × (20 s) x (20 m/s) = 200 m."
+  },
+  {
+   "number": "143",
+   "form": "short",
+   "page": null,
+   "stem": "The average speed of a bicycle, an athlete and car are 18 km/h, 7 m/s and 2 km/min respectively. Which of the three is the fastest and which is the slowest?",
+   "answer": "18 km/h h km 1 18 = s m 3600 18000 = = 5 m/s 2 km/min min km 1 2 = s m 60 2000 = = 33.3 m/s Thus, the average speeds of the bicycle, the athlete and the car are 5 m/s, 7 m/s and 33.3 m/s respectively. So, the car is the fastest and the bicycle is the slowest."
+  },
+  {
+   "number": "144",
+   "form": "short",
+   "page": null,
+   "stem": "A bus moves 30 km in 30 min and the next 30 km. in 40 min. Calculate the average speed for the entire journey.",
+   "answer": "Given, the total time taken is 30 min + 40 min = 70 min and the total distance travelled is 30 km + 30 km = 60 km The average speed is Vav min km 70 60 = = ( / ) h km 70 60 60 70 3600 = km/hr = 51.4 km/h"
+  },
+  {
+   "number": "145",
+   "form": "short",
+   "page": null,
+   "stem": "A girl runs for 10 min at a uniform speed of 9 km/h. What should be the speed that she runs for the next 20 min, so that the average speed comes to 12 km/h?",
+   "answer": "Given, Total time = 10 min 20 min = 30 min The average speed is 12 km/h using s = vt, the distance covered in 30 min is 12 km/h × 30 min h km 12 2 1 # = h = 6 km The distance covered in the first 10 min is : 9 km/h × 10 min h km 9 6 1 # = h = 1.5 km Thus, he has to cover 6 km – 1.5 km = 4.5 km in the next 20 min. The speed required is . ( / ) . min km h km 20 4 5 20 60 4 5 - = 13.5 km/h Describing Motion Around Us"
+  },
+  {
+   "number": "146",
+   "form": "short",
+   "page": 165,
+   "stem": "It is estimated that the radio signal takes 1.27 seconds to reach the Earth from the surface of the Moon. Calculate the distance of the Moon from the Earth. Speed of radio signal = 3 × 108 ms–1 (speed of light in air).",
+   "answer": "Given, time = 1.27 s Speed = 3 × 108 ms–1 Distance = ? As we know that Using distance = speed × time, we get Distance = 3 × 108 ms–1 × 1.27 s = 3.81 × 108 m = 3.81 × 105 km"
+  },
+  {
+   "number": "147",
+   "form": "short",
+   "page": 165,
+   "stem": "A particle moves 3 m north, then 4 m east and finally 6 m south. Calculate the magnitude of displacement.",
+   "answer": "As shown in figure let us consider east-west direction along x-axis and north-south direction along y-axis. Then AB, BC and CD represent the displacement of 3 m north, 4 m east and 6 m south respectively. Obviously net displacement is represented by AB magnitude of net displacement s = AD ( ) ( ) AE ED 2 2 = + ( ) ( ) BC CD AB 2 2 = + − ( ) ( ) 4 6 3 2 2 = + − ( ) ( ) 4 3 2 2 = + 16 9 = + 25 = = 5 m"
+  },
+  {
+   "number": "148",
+   "form": "short",
+   "page": null,
+   "stem": "An electric train is moving with a velocity of 120 km/h. How much distance will it cover in 30 s?",
+   "answer": "Constant velocity of train v = 120 km/h 120 × 18 5 3 100 = m/s, time t = 30 s Distance covered s = vt = 3 100 × 30 = 1000 = 1.0 km."
+  },
+  {
+   "number": "149",
+   "form": "short",
+   "page": null,
+   "stem": "On a 120 km track, a train travels the first 30 km at uniform speed of 30 km/h. Calculate the speed with which the train should move rest of the track so as to get the average speed of 60 km/h for entire trip.",
+   "answer": "As the average speed of a train for entire journey s = 120 km is vav = 60 km/h Hence, total time taken by train to cover the journey t v s av = / km h km 60 120 = = 2h Time taken to travel first 30 km at uniform speed of 30 km/h t1 / km h km 30 30 = = 1 hr Time for covering remaining distance [120 – 30] = 90 km should be t2 = t – t1 = (2 – 1)h = 1 h Constant speed of train for this journey v2 t s 2 2 = h km 1 90 = =90 km/h"
+  },
+  {
+   "number": "150",
+   "form": "short",
+   "page": null,
+   "stem": "A girl while riding a bicycle moves with the speed of 10 km/h for 2 hours and with the speed of 15 km/h in next 2 hours. Find the total distance moved by her and her average speed.",
+   "answer": "Distance moved by girl in time (t1) = 2h with a speed Click Here to Buy book on Amazon V1 = 10 km/h is given as s1 = V1t1 =10 × 2 = 20 km and distance moved by girl in subsequent time t2 = 3 h with speed V2 = 15 km/h is given as : s2 = V2t2 = 15 × 3 = 45 km Total distance moved by girl = 20 + 45 = 65 Her average speed for entire journey Vav Total time Total distance = t t s 1 2 = + = 5 65 = 13 km/h"
+  },
+  {
+   "number": "151",
+   "form": "short",
+   "page": 166,
+   "stem": "A marble rolling on the smooth has a initial velocity of 0.4 m/s. If the floor offers a retardation of 0.02 m/s, calculate the time it will take to come to rest.",
+   "answer": "Here initial velocity u = 0.4 m/s final velocity v = 0 acceleration a = – 0.02 m/s As per relation v = u + at t a v u = − . . 0 02 0 0 4 = − − . . 0 02 0 4 = − − = 20 s"
+  },
+  {
+   "number": "152",
+   "form": "short",
+   "page": null,
+   "stem": "A cyclist completes 8 revolutions of a circular track of radius 98 m with a uniform speed in 40 minutes. Calculate the speed.",
+   "answer": "Here no. of revolutions completed by the cyclist n = 8, radius of circular track r = 98 and time, t = 40 min = 40 x 60 s = 2400 s Uniform speed of cyclist v Total time Total distance = t rh 2π = 2400 2 7 22 98 98 # # # = = 0.05 m/s"
+  },
+  {
+   "number": "153",
+   "form": "short",
+   "page": null,
+   "stem": "A person moves a distance of 3 km towards east then 2 km towards north and then 3.5 km towards east. Find : (a) The distance covered by the person, and (b) the displacement of his motion.",
+   "answer": "As shown AB, BC and CD represent the distance of 3 km east, 2 km north and 3.5 km east respectively. (a) Net distance covered by a person = AB + BC + CD = (3 + 2 + 3.5) km = 8.5 km (b) Net displacement AD ( ) ( ) AE ED 2 2 = + ( ) ( ) AB CD BC 2 2 = + + ( . ) ( ) 3 3 5 2 2 2 = + + ( . ) ( ) 6 5 2 2 2 = + . 42 25 4 = + . 46 25 = = 6.8 km"
+  },
+  {
+   "number": "154",
+   "form": "short",
+   "page": null,
+   "stem": "Divya walked 2 km on a straight road and then walked back 1 km. Which of the two quantities involved in her walking is greater- the scalar or vector?",
+   "answer": "Distance travelled by Divya = 2 km + 1 km = 3 km Displacement = 2 km – 1 km = 1 km Hence, distance which is a scalar quantity is greater than the displacement which is a vector quantity."
+  },
+  {
+   "number": "155",
+   "form": "short",
+   "page": 167,
+   "stem": "A child moving on a circular track of radius 40 m completes one revolution in 5 minutes. What is his (i) average speed (ii) average velocity in one full revolution? Describing Motion Around Us",
+   "answer": "Distance travelled in one revolution, 2π r =2π × 40m Displacement in one revolution = 0 Time taken = 5 minutes = 5 × 60s (i) Average speed Time Distance = 5 60 2 40 # # π = 15 4π = m/s (ii) Average velocity Time Displacement = = Zero"
+  },
+  {
+   "number": "156",
+   "form": "short",
+   "page": 167,
+   "stem": "An athlete completes one round of a circular track of diameter 200 m in 40 s. (a) What is the distance covered by the athlete in 2 minutes 20 s? (b) What is the magnitude of the displacement of the athlete at the end of 2 minutes 20 s?",
+   "answer": "Diameter of the circular track = 200 m. Radius r diameter 2 = m m 2 200 100 = = Time taken for one round = 40 s. Distance covered in one round (circumference) C r 2π = m m 2 100 200 # # π π = = Let’s use π 7 22 . C 200 7 22 # = m 7 4400 = . m 628 57 . Total time of motion = 2 minutes 20 s ( )s s 2 60 20 # = + s s s 120 20 140 = + = Number of rounds completed Time for one round Total time = . s s rounds 40 140 3 5 = = (a) Distance covered: Distance = Number of rounds × Circumference Distance = . m m 3 5 200 700 # π π = Using 7 22 . π : Distance = m 700 7 22 # m m 100 22 2200 # = = (b) Magnitude of displacement: After 3 complete rounds, the athlete is back at the starting point, so displacement is zero for these 3 rounds. For the remaining 0.5 round (half a circle), the athlete moves from the starting point to a point diametrically opposite on the circular track. The shortest distance between these two points is the diameter of the circle. Magnitude of displacement = Diameter = 200 m."
+  },
+  {
+   "number": "157",
+   "form": "short",
+   "page": null,
+   "stem": "A farmer moves along the boundary of a square field of side 10 m in 40 s. What will be the magnitude of displacement of the farmer at the end of 2 minutes 20 seconds from his initial position?",
+   "answer": "Side of square field = 10 m. Perimeter = m 4 10 40 # = . Time taken for one round = 40 s. Total time = 2 minutes 20 seconds ( ) 2 60 20 # = + s 120 20 140 = + = . Number of rounds completed = Timef or one round Total time . s s rounds 40 140 3 5 = = After 3 complete rounds, the farmer is at the starting point. After the next 0.5 round (half perimeter = 20 m), the farmer will be at the diagonally opposite corner. If the starting point is A, the diagonally opposite corner is C. Displacement = AC ( ) AB BC 2 2 = + ( ) 10 10 2 2 = + ( ) 100 100 = + 200 = . m m 10 2 14 14 . ="
+  },
+  {
+   "number": "158",
+   "form": "short",
+   "page": 168,
+   "stem": "The brakes applied to a car produce an acceleration of 6 m s-2 in the opposite direction to the motion. If the car takes 2 s to stop after the application of brakes, calculate the distance it travels during this time.",
+   "answer": "Given: Acceleration (retardation) ms a 6 2 =− − (negative as it’s opposite to motion). Time taken to stop s t 2 = . Final velocity ms v 0 1 = − (since the car stops). Using the first equation of motion, v u at = + 0 ( )( ) ms s u 6 2 2 = + − − 0 ms u 12 1 = − − So, initial velocity u ms 12 1 = −. Now, using the second equation of motion s ut at 2 1 2 = + ( )( ) ( )( ) ms s ms s 12 2 2 1 6 2 1 2 2 = + − − − m m m 24 12 12 = − = . The car travels 12 m during this time."
+  },
+  {
+   "number": "159",
+   "form": "short",
+   "page": null,
+   "stem": "A train starting from rest attains a velocity of 72 km h-1 in 5 minutes. Assuming the acceleration is uniform, find (i) the acceleration and (ii) the distance travelled by the train for attaining this velocity.",
+   "answer": "Initial velocity u 0 = (starts from rest). Final velocity v kmh 72 1 = − s m ms 72 3600 1000 20 1 # = = − Time min t 5 = s s 5 60 300 # = = (i) Acceleration (a): Using v u at = + a ( ) t v u = − ( ) s ms 300 20 0 1 = − − ms 300 20 2 = − . ms ms 15 1 0 067 2 2 . = − − (ii) Distance travelled (s): Using as 2 v u 2 2 = − s ( ) a v u 2 2 2 = − ( ) (( ) ) ms ms 2 15 1 20 0 2 1 2 2 # = − − − ( / )m 2 15 400 = m 400 2 15 # = m km 3000 3 = ="
+  },
+  {
+   "number": "160",
+   "form": "short",
+   "page": null,
+   "stem": "Joseph jogs from one end A to the other end B of a straight 300 m road in 2 minutes 30 seconds and then turns around and jogs 100 m back to point C in another 1 minute. (a) What is Joseph’s average speed from A to B? (b) What is Joseph’s average velocity from A to B? (c) What is Joseph’s average speed from A to C? (d) What is Joseph’s average velocity from A to C?",
+   "answer": "(a) Average speed from A to B: Distance (A to B) = 300 m. Time taken (A to B) = 2 minutes 30 seconds ( ) s 2 60 30 150 # = + = Average speed (A to B) tan Time Dis ce = s m ms 150 300 2 1 = = − (b) Average velocity from A to B: Displacement (A to B) = 300 m (since it’s a straight road in one direction). Time taken (A to B) = 150 s. Average velocity (A to B) Time Displacement = s m ms 150 300 2 1 = = − in the direction from A to B. (c) Average speed from A to C: Distance (A to B) = 300 m. Distance (B to C) = 100 m. Total distance (A to C) = m m m 300 100 400 + = Time taken (A to B) = 150 s. Describing Motion Around Us"
+  },
+  {
+   "number": "137",
+   "form": "short",
+   "page": 169,
+   "stem": "A person moves along the boundary of a square field of side 10 m in 20 s. What will be the magnitude of displacement of that person at the end of 2 minutes 20 seconds?",
+   "answer": "Given, Side of square field = 10 m So, perimeter = 10 m × 4 = 40 m Person moves along the boundary in 20 sec. Displacement after 2 m 20 sec = 2 × 60 s + 20 s = 140 s = ? Since in 20 sec person moves 40 m. Therefore, in 1 sec distance covered 20 40 = = 2 m Therefore, in 140 sec distance covered = 2 × 140 = 280 m Now, number of rotation to cover 240 along the boundary Perimeter Total distance = m m 40 280 = = 7 rounds. Hence, after 7 rounds the person will be at the starting point, so displacement will be zero."
+  },
+  {
+   "number": "138",
+   "form": "short",
+   "page": null,
+   "stem": "Neha swims in a 90 m long pool. She covers 180 m in one minute by swimming from one end to the other and back along the same straight path. Find the average speed and average velocity of Neha.",
+   "answer": "Given, Total distance = 180 m Total displacement = 0 Time taken t = 1 min = 60 s We know that, Average speed ( ) Vav Total time taken Total distance = s m 60 180 = = 3 m/s Average velocity ( ) Vav Total time taken Displacement = s 60 0 = = 0 m/s"
+  },
+  {
+   "number": "139",
+   "form": "short",
+   "page": null,
+   "stem": "A car decreases its speed from 80 km/h to 60 km/h is 5 seconds. Find the acceleration of the car.",
+   "answer": "Given, Initial velocity u = 80 km/h = 80 × 18 5 = 22.22 m/s Final velocity v = 60 km/h = 60 × 18 5 = 16.67 m/s We knot that, Time (t) = 5 s Acceleration (a) t v u = − ( . . ) / s m s 5 16 67 22 22 = − = –1.11 m/s2"
+  },
+  {
+   "number": "140",
+   "form": "short",
+   "page": null,
+   "stem": "Figure represents the speed time graph for a particle. Find the distance covered by the particle between t = 10 min and t = 30 min.",
+   "answer": "We draw perpendicular lines from the 10-minute point and the 30-minute point to the time-axis (fig.). The distance covered is equal to the area of the rectangle Click Here to Buy book on Flipkart"
+  },
+  {
+   "number": "93",
+   "form": "short",
+   "page": 170,
+   "stem": "",
+   "answer": "Given: Initial velocity u = 0 m s-1 (starts from rest). Constant acceleration a = 3.0 m s-2. Time . s t 8 0 = . We need to find the distance travelled, s. Using the second equation of motion: s ut at 2 1 2 = + s ( )( . ) ( . )( . ) ms s ms s 0 8 0 2 1 3 0 8 0 1 2 2 = + − − . ( )m 0 2 1 3 0 64 # # = + . m 2 1 3 0 64 # # = . m 1 5 64 # = . m 96 0 = . The boat travels 96.0 meters during this time."
+  },
+  {
+   "number": "164",
+   "form": "short",
+   "page": null,
+   "stem": "A ball is gently dropped from a height of 20 m. If its velocity increases uniformly at the rate of 10 m s-2, with what velocity will it strike the ground? After what time will it strike the ground?",
+   "answer": "Given: Initial velocity u = 0 m s-1 (gently dropped means starts from rest). Distance (height) s = 20 m. Uniform acceleration (due to gravity) a = 10 m s-2 (downwards, taken as positive). Let ‘v’ be the final velocity when it strikes the ground, and ‘t’ be the time taken. To find the final velocity (v): Using the third equation of motion: v2 u as 2 2 = + . v2 ( ) ( )( ) ms m 0 2 10 20 2 2 = + − m s 0 400 2 2 = + − m s 400 2 2 = − v ms 400 1 = − ms 20 1 = − The ball will strike the ground with a velocity of 20 m/s. To find the time taken (t): Using the first equation of motion: v u at = + . ms 20 1 - ( ) ms ms t 0 10 1 2 = + − − t s s 10 20 2 = = The ball will strike the ground after 2 seconds."
+  },
+  {
+   "number": "165",
+   "form": "short",
+   "page": null,
+   "stem": "An athlete completes one round of a circular track of diameter 200 m in 40 s. What will be the distance covered and the displacement at the end of 2 minutes 20 s?",
+   "answer": "Given, Diameter of circular track (D) = 200 m Radius of circular track (r) 2 200 = = 100 m Time taken by the athlete for one round (t) = 40 s Distance covered by athlete in one round s r 2π = 2 7 22 100 # # = Speed of the athlete v Time Distance = 7 40 2 2200 # # = 7 40 4400 # = Therefore, distance covered in 140 s = Speed (s) × Time (t) ( ) 7 40 4400 2 60 20 # # # = + 7 40 4400 140 # # = 7 40 4400 140 # # = m 2200 = Number of round in 40 s = 1 round Number of round in 140 s 40 140 = 3 2 1 = After taking start from position X, the athlete will be at position Y after 3 2 1 rounds as shown in figure Hence, displacement of the athlete with respect to initial position at x = xy = Diameter of circular track = 200 m Describing Motion Around Us"
+  },
+  {
+   "number": "166",
+   "form": "short",
+   "page": 171,
+   "stem": "Abdul, while driving to school, computes the average speed for his trip to be 20 km h–1. On his return trip along the same route, there is less traffic and the average speed is 30 km h–1. What is the average speed for Abdul’s trip?",
+   "answer": "Let the distance of Abdul’s school from his residence be s km. As during his trip from his residence to school, his average speed, V1 = 20 km h–1 Hence, in covering a distance s km, he takes the time t1 V s 1 = s h 20 = Similarly, during the return trip, he takes the time t2 V s 2 = s h 30 = Average speed for Abdul’s entire trip, Vav Total Time Total Distance = ( ) ( ) h km t t s s 1 2 = + + Vav ( ) h km s s s s 20 30 = + + d n h km s s 12 2 = d n = 2 × 12 km h–1 = 24 km h–1"
+  },
+  {
+   "number": "167",
+   "form": "short",
+   "page": null,
+   "stem": "A motorboat starting from rest on a lake accelerates in a straight line at a constant rate of 3.0 m s–2 for 8.0 s. How far does the boat travel during this time?",
+   "answer": "Given initial velocity of motorboat, u = 0 Acceleration of motorboat, a = 3.0 m s–2 Time under consideration, t = 8.0 s We know that distance, s = ut + (1/2)at2 Therefore, the distance travel by motorboat = 0 × 8 + (1/2)3.0 × 82 = (1/2) × 3 × 8 × 8 m = 96 m"
+  },
+  {
+   "number": "168",
+   "form": "short",
+   "page": null,
+   "stem": "Joseph jogs from one end A to the other end B of a straight 300 m road in 2 minutes 30 seconds and then turns around and jogs 100 m back to point C in another 1 minute. What are Joseph’s average speeds and velocities in jogging (a) from A to B and (b) from A to C?",
+   "answer": ": Total distance covered from AB = 300 m Total time taken = 2 × 60 + 30 s = 150 s Therefore, average speed from AB Total Time Total Distance = 150 300 = ms–1 = 2 m s–1 Therefore, velocity from AB Time Displacement AB = 150 300 = ms–1 = 2 m s–1 Total distance covered from AC = AB + BC = 300 + 200 m Total time taken from A to C = Time taken for AB + Time taken for BC = (2 × 60 + 30) + 60 s = 210 s Therefore, average speed from AC Total Time Total Distance = 210 400 = m s–1 = 1.904 m s–1 Displacement (s) from A to C = AB - BC = 300 - 100 m = 200 m Time (t) taken for displacement from AC = 210 s Therefore, velocity from AC ( ) ( ) Time t Displacement s = 210 200 = m s–1 = 0.952 m s–1"
+  },
+  {
+   "number": "169",
+   "form": "short",
+   "page": 172,
+   "stem": "A driver of a car travelling at 52 km h–1 applies the brakes and accelerates uniformly in the opposite direction. The car stops in 5 s. Another driver going at 3 km h–1 in another car applies his brakes slowly and stops in 10 s. On the same graph paper, plot the speed versus time graphs for the two cars. Which of the two cars travelled farther after the brakes were applied?",
+   "answer": "PR and SQ are the speed-time graph for given two cars with initial speeds 52 km h–1 and 3 km h–1 respectively (given in figure). Initial speed of car A km h 52 1 = - 52 18 5 # = . ms 14 44 1 = - The car stops in 5 s i.e., final speed of car v 0 = , time s t 5 = For speed-time graph of car A . s . ms 14 44 1 - 0 t 0 5 Initial speed of car B kmh 3 1 = - 3 18 5 # = . ms 0 83 1 = - The car stops in 10 s i.e., finial speed of car v 0 = , time s t 10 = . for speed-time graph of car B s . ms 0 83 1 - 0 t 0 10 Motion The speed-time graph of both cars A and B is shown below."
+  },
+  {
+   "number": "170",
+   "form": "short",
+   "page": null,
+   "stem": "A ball is gently dropped from a height of 20 m. If its velocity increases uniformly at the rate of 10 m s–2, with what velocity will it strike the ground? After what time will it strike the ground?",
+   "answer": "Let us assume, the final velocity with which ball will strike the ground be v and time it takes to strike the ground be t. Initial velocity of ball, u = 0 Distance or height of fall, s = 20 m Downward acceleration, a = 10 m s–2 As we know that, 2as = v2 – u2 v2 = 2as +u2 = 2 × 10 × 20 + 0 = 400 Final velocity of ball, v = 20 ms–1 t ( ) a v u = − Time taken by the ball to strike ( ) 10 20 0 = − 10 20 = = 2 seconds 171. Figure shows the distance-time graph of three objects A, B and C. Study the graph and answer the following questions : Click Here to Buy book on Amazon Describing Motion Around Us (d) Using s = ut + (1/2)at2 s = 0(30) + 1/2 × 2 × (30)2 s = 0 + 1 900 The distance travelled is 900 meters. (e) If the acceleration is lower, the cargo plane will take more time to reach the required 60 m/s takeoff velocity. Consequently, it will cover a greater distance before lifting off, requiring a longer runway. 184. The distance-time graph for a car’s motion is a straight line sloping upwards, passing through the origin. After some time, the graph becomes a horizontal straight line parallel to the time axis. 1. What does the straight line sloping upwards from the origin indicate about the car’s motion? 2. What does the horizontal straight line (parallel to the time axis) indicate about the car’s motion during that period? 3. How can you determine the speed of the car from the first part of the graph (sloping upwards)?"
+  },
+  {
+   "number": "4",
+   "form": "short",
+   "page": null,
+   "stem": "If the initial upward sloping line was steeper, what would it imply about the car’s speed?",
+   "answer": "1. A straight line sloping upwards from the origin on a distance-time graph indicates that the car is moving with uniform speed (or uniform velocity if direction is constant). 2. A horizontal straight line parallel to the time axis on a distance-time graph indicates that the car is at rest (its distance from the origin is not changing with time). 3. The speed of the car can be determined by calculating the slope of the distance-time graph (change in distance / change in time). 4. If the initial upward sloping line was steeper, it would imply that the car’s speed is greater (it covers more distance in the same amount of time, or the same distance in less time)."
+  },
+  {
+   "number": "185",
+   "form": "short",
+   "page": null,
+   "stem": "During a road safety awareness campaign at a local high school, a police inspector demonstrates the concept of braking distance using a computer simulation. The simulation shows a car travelling at 20 meters per second on a dry highway. The virtual driver suddenly sees a fallen tree ahead and slams on the brakes. The car’s braking system provides a constant negative acceleration of -5 meters per second squared. The inspector explains that avoiding an accident depends not just on the brakes, but also on the driver’s reaction time and road conditions like rain, which can heavily reduce tire friction and change the deceleration capacity. QUESTIONS: (a) Calculate the time it takes for the simulated car to come to a complete stop after the brakes are applied. (b) How much distance does the car travel from the moment the brakes are applied until it stops completely? (c) If the driver had a slower reaction time and delayed applying the brakes by 1 second, what additional distance would the car travel at its initial speed? (d) According to the inspector’s explanation, how would a wet road affect the car’s stopping distance?",
+   "answer": "(a) Initial velocity (u) = 20 m/s final velocity (v) = 0 m/s acceleration (a) = -5 m/s2 Using v = u + at 0 = 20 + (-5)t 5 t = 20 so time (t) = 4 seconds (b) Using v2 = u2 + 2 as 02 = 202 + 2(-5)s. 0 = 400 - 10 s. 10 s = 400. Distance (s) = 40 meters."
+  },
+  {
+   "number": "173",
+   "form": "short",
+   "page": 174,
+   "stem": "",
+   "answer": "(a) Rahul feels the trees are moving because he is using himself or the moving train as a reference point. Since the position of the trees is changing with respect to the moving train, they appear to be in motion in the opposite direction. (b) With respect to the train compartment, Rahul is at rest. This is because his position relative to the compartment does not change with time as he sits on his berth. (c) With respect to Rahul, the vendor is moving slowly at normal walking speed. However, to a person on the ground, the vendor is moving much faster, because their velocity from that reference point is the sum of the train’s forward velocity and the vendor’s walking velocity. A school bus starts from a student’s house (point O), travels 2 km East to pick up another student (point A), then travels 3 km further East to reach the school (point B). In the evening, the bus travels back along the same route, dropping the second student at point A and then returning to the first student’s house (point O). 1. What is the total distance covered by the bus in the morning to reach the school from the first student’s house? 2. What is the magnitude of the displacement of the bus in the morning from the first student’s house to the school? 3. What is the total distance covered by the bus for the entire round trip (from O to B and back to O)?"
+  },
+  {
+   "number": "4",
+   "form": "short",
+   "page": null,
+   "stem": "What is the magnitude of the displacement of the bus for the entire round trip?",
+   "answer": "1. Total distance in the morning = OA + AB = 2 km + 3 km = 5 km. 2. Magnitude of displacement in the morning = OB = 5 km (East). 3. Total distance for the entire round trip = (OA + AB) + (BA + AO) = 5 km + 5 km = 10 km. 4. Magnitude of displacement for the entire round trip = 0 km (since the initial and final positions are the same, point O)."
+  },
+  {
+   "number": "174",
+   "form": "short",
+   "page": null,
+   "stem": "A postwoman starts her daily route from the main post office. She drives 4 kilometers straight north along Mahatma Gandhi Road to deliver a large parcel at a school. After dropping it off, she realizes she missed a delivery at a bakery located 1 kilometer south on the exact same road. She turns her van around and drives back to the bakery. After completing this delivery, she parks her van there to take a short lunch break before continuing her route. Her smartwatch tracks her daily physical activity, showing both the total path she covered and her current distance from her starting location. QUESTIONS: (a) Calculate the total distance travelled by the postwoman from the post office to the bakery. (b) Determine the magnitude of her displacement when she is resting at the bakery. (c) Can the magnitude of displacement ever be greater than the total distance travelled? Give a reason based on this scenario. (d) If she returns to the main post office at the end of the day, what will be her final displacement?",
+   "answer": "(a) The total distance travelled is the sum of the actual path lengths. She drove 4 km north and then 1 km south. The total distance is 4 km + 1 km = 5 km. (b) Displacement is the net change in position from the starting point. She went 4 km north and then returned 1 km south, leaving her 3 km north of the post office. The magnitude of her displacement is 3 km. (c) No, the magnitude of displacement can never be greater than the distance travelled. Displacement is the shortest straight-line distance between initial and final positions, while distance is the entire actual path taken, which in this case was longer due to turning back. Describing Motion Around Us (c) Assuming air resistance is negligible, is the average acceleration of the ball constant or changing during its fall? (d) What is the specific name and approximate value of the acceleration experienced by this falling object?"
+  },
+  {
+   "number": "106",
+   "form": "short",
+   "page": 175,
+   "stem": "",
+   "answer": "(a) The metal ball is exhibiting accelerated motion in a straight line, specifically downward motion under gravity. (b) The distance increases because the velocity of the ball is continuously increasing as it falls. Since it is moving faster with each passing second, it covers more ground in the same one-second time interval. (c) The average acceleration of the ball remains constant throughout its fall. Its velocity increases by equal amounts in equal intervals of time. (d) This constant acceleration is called acceleration due to gravitational force (or ‘g’), and its approximate value near the Earth’s surface is 9.8 m/s^2."
+  },
+  {
+   "number": "180",
+   "form": "short",
+   "page": null,
+   "stem": "A biologist is studying the foraging behavior of a specific species of desert ant. She places a food source a few meters away from the ant nest and records the position of an ant moving along a straight measuring tape over time. She plots a position-time graph of the ant’s journey. The graph shows a straight line sloping upwards starting from the origin for the first 10 seconds. Then, the graph becomes a horizontal line parallel to the time axis for 5 seconds. Finally, the graph shows a curved line sloping upwards at an increasing steepness for the remaining time until the ant reaches the food. QUESTIONS: (a) What does the straight upward-sloping line in the first 10 seconds indicate about the ant’s velocity? (b) Interpret the ant’s motion during the 5-second interval where the graph is horizontal. (c) What can you infer about the ant’s acceleration during the final phase where the graph is a curved line? (d) How could the biologist calculate the exact speed of the ant during the first 10 seconds from this graph?",
+   "answer": "(a) The straight upward-sloping line indicates that the ant is moving with a constant velocity. It is covering equal distances in equal intervals of time. (b) A horizontal line on a position-time graph means the position is not changing with time. The ant has stopped moving and is at rest during those 5 seconds. (c) A curved line with increasing steepness indicates that the slope (which represents velocity) is increasing. This means the ant is exhibiting accelerated motion, moving faster as time passes. (d) The biologist can calculate the speed by finding the slope of the straight line in that interval. This is done by selecting two points on the line and dividing the change in position (y-axis) by the corresponding change in time (x-axis). 181. A ball is thrown vertically upwards with an initial velocity. It reaches a maximum height and then falls back to the thrower’s hand. (Consider only the motion under gravity, ignoring air resistance). 1. Describe the change in velocity of the ball as it moves upwards. What is the velocity at the maximum height? 2. What is the direction of acceleration acting on the ball during its upward motion? What about during its downward motion? 3. If the ball takes ‘t’ seconds to reach the maximum height, how much time will it take to fall back to the thrower’s hand from the maximum height? 4. When is the speed of the ball zero? When is its acceleration zero (assuming it is always under the influence of gravity after being thrown)? 177. A car is driven on a highway. The driver notices that the speedometer reading fluctuates between 60 km/h and 80 km/h. At the start of the journey, the odometer read 12345 km, and after 2 hours of driving, it read 12495 km. 1. What physical quantity does the speedometer of the car measure at any instant? Is this quantity a scalar or a vector? 2. What physical quantity does the odometer of the car measure? 3. Calculate the total distance travelled by the car in 2 hours."
+  },
+  {
+   "number": "4",
+   "form": "short",
+   "page": null,
+   "stem": "Calculate the average speed of the car in km/h. Can you determine the average velocity from the given information? Why or why not?",
+   "answer": "1. The speedometer measures the instantaneous speed of the car. Speed is a scalar quantity. 2. The odometer measures the total distance travelled by the car. 3. Total distance travelled = Final odometer reading - Initial odometer reading = 12495 km - 12345 km = 150 km. 4. Average speed = Total distance/Total time taken = 150 km/2 h = 75 km/h. We cannot determine the average velocity from the given information because displacement is unknown. The car might not have travelled in a straight line, or it might have changed direction."
+  },
+  {
+   "number": "178",
+   "form": "short",
+   "page": null,
+   "stem": "A group of engineering students built a high- speed remote-controlled car for a competition. During a test run on an empty basketball court, they placed the car at the starting line. When the trigger was pulled, the car zoomed straight ahead, reaching a speed of 12 meters per second in just 4 seconds. It maintained this speed for a while. Then, the operator suddenly released the throttle and applied the electronic brakes. The car skidded smoothly in a straight line and came to a complete halt in 3 seconds to avoid hitting the boundary wall of the court. QUESTIONS: (a) Calculate the average acceleration of the car during the first 4 seconds. (b) What is the acceleration of the car when it is maintaining the constant speed of 12 meters per second? (c) Calculate the average acceleration during the braking phase. What does the negative sign in your answer indicate?",
+   "answer": "(a) Initial velocity is 0 m/s and final velocity is 12 m/s. Time is 4 s. Average acceleration = (final velocity - initial velocity) / time = (12 - 0) / 4 = 3 m/s^2. (b) When the car maintains a constant speed in a straight line, its velocity is not changing. Therefore, the change in velocity is zero, meaning the acceleration during this period is zero. (c) Initial velocity is 12 m/s, final velocity is 0 m/s, time is 3 s. Acceleration = (0 - 12) / 3 = -4 m/s^2. The negative sign indicates that the acceleration is acting opposite to the direction of motion, meaning the car is slowing down (decelerating). 179. For a science fair project, Meera decides to recreate a famous experiment by dropping a heavy solid metal ball from the terrace of her four-story apartment building. She sets up a high- speed camera on a tripod on the ground to record the ball’s fall. Later, she analyzes the video frame by frame. She notices that in the first second of its fall, the ball covers a relatively small distance. However, in the next second, it covers a much larger distance, and the distance covered keeps increasing for every subsequent second until it heavily impacts the sandpit she prepared on the ground. QUESTIONS: (a) What kind of motion is the metal ball exhibiting as it falls? (b) Why does the distance covered by the ball in each successive second increase? Click Here to Buy book on Flipkart Describing Motion Around Us (d) If she returns to her starting point at the post office, her final displacement will be zero because there is no net change between her initial position and her final position at the end of the day."
+  },
+  {
+   "number": "175",
+   "form": "short",
+   "page": null,
+   "stem": "During a summer sports camp, a coach is training young swimmers in a rectangular Olympic-sized pool that is 50 meters long. A young swimmer named Tara is asked to swim from one end of the pool to the other and immediately return to her starting point. She swims at a steady pace. It takes her exactly 40 seconds to reach the opposite end. She turns around without stopping and takes another 60 seconds to swim back to the starting edge, as she feels slightly tired. The coach records her timings on a clipboard to analyze her performance and explain the difference between how fast she swims and her effective progress. QUESTIONS: (a) What is the total distance covered by Tara during the entire swim? (b) Calculate Tara’s average speed for the entire journey. (c) What is Tara’s average velocity for the entire round trip? (d) Why is her average velocity different from her average speed in this scenario? (e) Is Tara’s motion during the first 40 seconds uniform or non-uniform? Justify if she swims at a steady pace.",
+   "answer": "(a) The pool is 50 meters long. Tara swims to the other end (50 m) and back (50 m). The total distance covered is 50 m + 50 m = 100 m. (b) Average speed is total distance divided by total time. Total distance is 100 m. Total time is 40 s + 60 s = 100 s. Average speed is 100 m / 100 s = 1 m/s. (c) Average velocity is total displacement divided by time. Since she returns exactly to her starting point, her net displacement is zero. Therefore, her average velocity is 0 m/s. (d) They are different because average speed depends on the total path length covered regardless of direction, while average velocity depends on displacement, which accounts for the initial and final positions. Since she returns to the start, displacement is zero, pulling average velocity to zero despite a non- zero distance. (e) If she swims at a perfectly steady pace, covering equal distances in equal intervals of time during that straight-line stretch, her motion for those first 40 seconds is uniform motion. 176. An athlete runs on a straight 400 m track. She starts at one end, runs to the other end, and immediately turns back and runs 100 m towards the starting point before stopping. The entire activity takes her 80 seconds. 1. What is the total distance covered by the athlete? 2. What is the magnitude of the athlete’s displacement from her starting point? 3. Calculate the average speed of the athlete."
+  },
+  {
+   "number": "4",
+   "form": "short",
+   "page": null,
+   "stem": "Calculate the magnitude of the average velocity of the athlete.",
+   "answer": "1. Total distance covered = 400 m (to the end) + 100 m (back) = 500 m. 2. Magnitude of displacement = Distance from start to finish = 400 m - 100 m = 300 m from the starting point. 3. Average speed = Total distance/Total time = 500 m/80 s = 6.25 m/s."
+  },
+  {
+   "number": "4",
+   "form": "short",
+   "page": 179,
+   "stem": "Magnitude of average velocity = Magnitude of displacement/Total time = 300 m/80 s = 3.75 m/s.",
+   "answer": "1. As the ball moves upwards, its velocity decreases continuously due to gravity. At the maximum height, its velocity is momentarily zero. 2. The acceleration acting on the ball is the acceleration due to gravity (g), which is always directed downwards, both during its upward motion and its downward motion. 3. It will take the same time ‘t’ seconds to fall back to the thrower’s hand from the maximum height (in the absence of air resistance). 4. The speed of the ball is zero at its maximum height. The acceleration of the ball is never zero as long as it is in free flight under gravity; it is always ‘g’ directed downwards."
+  },
+  {
+   "number": "182",
+   "form": "short",
+   "page": null,
+   "stem": "The control room of a modern metro train monitors the performance of its automated trains using live graphs on large screens. One of the screens displays a velocity-time graph for Train Alpha traveling between two stations on a straight track. The graph begins at the origin and rises as a straight inclined line for 20 seconds. It then flattens out into a horizontal line for 60 seconds. Finally, the line slopes downwards in a straight line, reaching the time axis after another 15 seconds as the train arrives safely at the next platform. QUESTIONS: (a) Describe the acceleration of Train Alpha during the first 20 seconds and the last 15 seconds based on the graph shapes. (b) What is the acceleration of the train during the 60-second middle phase? Justify your answer. (c) How can the control room operators calculate the total displacement between the two metro stations using this specific graph?",
+   "answer": "(a) During the first 20 seconds, the straight upward inclined line indicates constant positive acceleration. During the last 15 seconds, the straight downward inclined line indicates constant negative acceleration (retardation or slowing down). (b) The acceleration during the 60-second middle phase is zero. A horizontal line on a velocity- time graph means the velocity is constant, and since there is no change in velocity over time, the acceleration is zero. (c) The total displacement between the stations can be calculated by finding the area enclosed between the velocity-time graph line and the time axis (x-axis) for the entire 95-second duration of the journey."
+  },
+  {
+   "number": "183",
+   "form": "short",
+   "page": null,
+   "stem": "A small commercial airplane is preparing for takeoff on a newly constructed runway. The pilot pushes the throttle, and the aircraft starts from rest, accelerating uniformly down the straight tarmac. It takes the airplane 30 seconds to reach its critical takeoff velocity of 60 meters per second, at which point the wheels leave the ground. An aviation engineer observing the takeoff notes down these parameters to ensure the runway is long enough to meet safety regulations. They must verify the acceleration and the minimum runway distance required for this specific type of aircraft under current weather conditions. QUESTIONS: (a) State the initial velocity of the airplane. (b) Using the given data, calculate the uniform acceleration of the airplane during its takeoff roll. (c) Which kinematic equation is most direct to calculate the distance covered before takeoff, once acceleration is known and time is given? (d) Calculate the total distance the airplane travels along the runway before lifting off. (e) If a heavier cargo plane requires the same takeoff velocity but has a lower uniform acceleration, how will this affect the required runway length?",
+   "answer": "(a) Since the airplane starts from rest on the runway, its initial velocity is 0 m/s. (b) Initial velocity (u) = 0 m/s, final velocity (v) = 60 m/s, time (t) = 30 s. Using the equation v = u + at we get 60 = 0 + a(30). Therefore, acceleration (a) = 60 / 30 = 2 m/s2 (c) The equation s = ut + (1/2) at2 is the most direct way to calculate distance (s) since initial velocity (u), time (t), and acceleration (a) are known. Describing Motion Around Us (a) Which of the three is travelling the fastest? (b) Are all three ever at the same point on the road? (c) How far has C travelled when B passes A? (d) How far has B travelled by the time it passes C?"
+  },
+  {
+   "number": "115",
+   "form": "short",
+   "page": 180,
+   "stem": "",
+   "answer": "(a) Speed Time Distance = Slope of graph X axis Y axis – – = Time Distance = Therefore, speed = slope of the graph Since slope of object B is greater than objects A and C, it is travelling the fastest. (b) All three objects A, B and C never meet at a single point. Thus, they were never at the same point on road. (c) 7 square box = 4 km 1 square box = 7 4 km C is 4 blocks away from origin, therefore, initial distance of C from origin = 7 16 km Distance of C from origin when B passes A = 8 km Thus, distance travelled by C when B passes A 8 7 16 = − ( ) 7 56 16 = − 7 40 = = 5.714 km (d) Distance travelled by B by the time it passes C = 9 square boxes 9 7 4 # 7 36 = = 5.143 km CAS E BASED QUESTION"
+  }
+ ]
+}

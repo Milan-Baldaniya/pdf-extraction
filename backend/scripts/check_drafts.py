@@ -37,12 +37,25 @@ BLOOM = {"recall", "understand", "apply", "analyze", "evaluate", "create"}
 
 # Page furniture that has turned up bled into a stem or an answer, sometimes
 # spliced mid-sentence. Any of these surviving means the item was not cleaned.
+# The publisher's own strings can be matched case-insensitively; they do not
+# occur in ordinary prose.
 JUNK = re.compile(
     r"Click Here to Buy|Downloaded from|www\.pdf\.tube|NODIA|lympiad"
-    r"|Chapterwise QB|Previous Year Solved|Order the Hard copy"
-    r"|OBJECTIVE\s+QUESTION|VER\s*Y\s+SHO\s*RT|SSHOR\s*T\s+ANSWER"
-    r"|CAS\s*E\s+BASED|LON\s*G\s+Answer|NCER\s*T\s+Exercis",
+    r"|Chapterwise QB|Previous Year Solved|Order the Hard copy",
     re.I,
+)
+
+# The section banners are a different matter and must stay CASE SENSITIVE and
+# anchored on the whole banner. Matching "VER Y SHO RT" case-insensitively also
+# matches the perfectly ordinary phrase "in a very short time of 0.01 s", and a
+# reader hit exactly that: to get a clean check they changed the book's "short"
+# to "brief" and flagged the item as rephrased. The checker made the text less
+# faithful, which is the opposite of its job. The banners are set in capitals
+# with the letter-spacing the text layer leaves behind, so requiring the case
+# and the trailing word costs nothing and removes the collision.
+BANNER = re.compile(
+    r"OBJECTIVE\s+QUESTION|VER\s*Y\s+SHO\s*RT\s+ANSWER|SSHOR\s*T\s+ANSWER"
+    r"|CAS\s*E\s+BASED|LON\s*G\s+Answer|NCER\s*T\s+Exercis|PAUS\s*E\s+A\s*ND"
 )
 
 
@@ -56,10 +69,16 @@ JUNK = re.compile(
 MATHS_DAMAGE = (
     # an equals sign with the operator stranded after it
     re.compile(r"=\s*[+\-−×÷](?:\s|$)"),
-    # two or more bare single letters before an equals, e.g. "v u at ="
-    re.compile(r"(?:[a-zA-Z]\s+){2,}[a-zA-Z]*\s*="),
+    # Two or more bare single letters before an equals, e.g. "v u at =".
+    # The letters must be STANDALONE, hence the lookarounds. Without them
+    # this also matched "the equation F = ma", because the final "n" of
+    # "equation" counts as one of the single letters, so no draft could
+    # carry that phrase and report ok. Readers worked around it by
+    # parenthesising the book's own formula and marking the item
+    # rephrased, putting false provenance on text nobody had touched.
+    re.compile(r"(?:(?<![A-Za-z])[a-zA-Z](?![A-Za-z])\s+){2,}[a-zA-Z]*\s*="),
     # a run of lone digits before an equals, e.g. "s ut at 2 1 2 ="
-    re.compile(r"(?:\d\s+){2,}\d*\s*="),
+    re.compile(r"(?:(?<!\d)\d(?!\d)\s+){2,}\d*\s*="),
 )
 
 

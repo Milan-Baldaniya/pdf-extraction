@@ -9,10 +9,15 @@
     "Keyed by chapter file prefix, then by printed number."
   ],
   "ch05": {
-    "6": "Not in the book. NCERT exercise 5 ends on folio 186 and 8 begins on folio 188; folio 187 carries a duplicated page of the chapter Summary (2.3 Solubility through 3.2 Distillation), verified against the mirrored PDF at page index 215. The stems of 6 and 7 were displaced by that duplicate and appear nowhere in the 147,240-char extraction. The tail of one of their answers survives at the top of folio 188 - a three-column table whose visible rows are 'Oil from water / Separating funnel' and 'Pigments of the flower / Paper chromatography' - and is deliberately in no draft file, since attaching an answer to a stem we do not have would be worse than losing it.",
-    "7": "Same page loss as 6."
+    "127": "Filed on purpose, not lost. Q127, Q128 and Q129 are numbered inside the long-answer run but are PRINTED inside the SHORT ANSWER range of extraction 596, at chars 105,100, 106,477 and 107,727, on the folio the book numbers 213 - the book's page order puts them there. Following the ch04 Q172 and ch07 Q167 precedent they are left in ch05_short.json, where the book prints them, rather than moved into ch05_long.json. That raises ch05_short's highest number from 122 to 129, which would otherwise break the objective..long run in two and make 123-126 look lost. Note the asymmetry, which is deliberate: short questions 106-109 and 114-121 are printed in the LONG range and were nevertheless filed in ch05_short.json by their number, because the long reader had already repaired them and they existed in no other file.",
+    "128": "Same swap as 127; printed at char 106,477.",
+    "129": "Same swap as 127; printed at char 107,727."
   },
   "ch04": {
     "172": "Filed on purpose, not lost. Q172 (Rahul / express train) is numbered inside the long-answer run but is PRINTED under the CASE BASED QUESTION banner, so the reader filed it in ch04_case.json. That makes ch04_case start at 172 rather than 186, which breaks the objective..long run in two and leaves 172 outside it. The question is present, complete and loaded. Do not 'fix' this by moving it back: it was split across two readers once already, its passage in the case range and its answer in the long range, and each correctly dropped the half they could not finish."
+  },
+  "ch07": {
+    "167": "Filed on purpose, not lost. Q167 and Q168 are numbered inside the long-answer run (between long Q166 and Q169) but are PRINTED inside the CASE BASED range, at chars 160,402 and 161,896, under the chapter-7 running header on page 330 - the book's two column page order puts them there. Following the ch04 Q172 precedent they are filed in ch07_case.json where the book prints them. That drags ch07_case's lowest number down from 177 to 167 and would otherwise split the short..case run. The trade runs both ways: case questions 187 and 188 are printed inside the LONG range (chars 135,741 and 137,271) and are left in ch07_long.json for the same reason.",
+    "168": "Same swap as 167; printed at char 161,896, inside the CASE BASED range."
   }
 }

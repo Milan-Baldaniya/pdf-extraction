@@ -1,307 +1,327 @@
 {
- "chapter": 11,
- "chapter_id": 8616,
- "extraction_id": 602,
- "section": "short",
- "items": [
-  {
-   "number": "90",
-   "form": "short",
-   "page": null,
-   "stem": "Explain vegetative propagation with an example. How is it helpful in agriculture?",
-   "answer": "Vegetative propagation is an asexual reproduction method where new plants arise from vegetative parts like roots, stems, or leaves, without producing seeds. For example, sprouting of potato tubers or ginger rhizomes. In agriculture, this method is highly helpful because it allows farmers to rapidly cultivate large numbers of genetically identical crops. It ensures desirable traits are preserved and helps in growing plants that do not produce viable seeds, like bananas, efficiently and on a large scale."
-  },
-  {
-   "number": "91",
-   "form": "short",
-   "page": 496,
-   "stem": "Describe the process of budding in hydra. Why are the offspring produced called clones?",
-   "answer": "In hydra, repeated cell division at a specific site on the parent body produces a small outgrowth called a bud. This bud gradually enlarges, develops necessary body parts, and eventually detaches from the parent’s body to live independently. The offspring produced through this method are called clones because the central process involved is mitosis, a type of cell division that maintains the exact same number of chromosomes. Thus, the resulting hydra are genetically identical to the parent. Click Here to Buy book on Flipkart Reproduction: How Life Continues While sexual maturity refers strictly to the physiological capability of reproduction (like sperm production or menstruation), emotional maturity is entirely psychological. Developing emotional maturity takes significantly longer and involves learning how to manage complex feelings, communicating effectively with others, and consistently making responsible, well-thought-out life choices during and beyond adolescence."
-  },
-  {
-   "number": "55",
-   "form": "mcq",
-   "page": 496,
-   "stem": "Sexually Transmitted Infections (STIs) are a serious health concern associated with unprotected sexual activity. Which of the following diseases is considered the ‘odd one out’ because it is currently not curable?",
-   "answer": "STIs are transmitted through intimate physical contact. While bacterial infections such as gonorrhoea and syphilis can generally be treated and cured with antibiotics, viral infections present greater challenges. Specifically, HIV (Human Immunodeficiency Virus), which can eventually lead to AIDS, is a severe, life-long condition that currently has no permanent medical cure available.",
-   "options": [
+  "chapter": 11,
+  "chapter_id": 8616,
+  "extraction_id": 602,
+  "section": "short",
+  "items": [
     {
-     "label": "A",
-     "text": "Gonorrhoea"
+      "number": "90",
+      "form": "short",
+      "page": 495,
+      "stem": "Explain vegetative propagation with an example. How is it helpful in agriculture?",
+      "answer": "Vegetative propagation is an asexual reproduction method where new plants arise from vegetative parts like roots, stems, or leaves, without producing seeds. For example, sprouting of potato tubers or ginger rhizomes. In agriculture, this method is highly helpful because it allows farmers to rapidly cultivate large numbers of genetically identical crops. It ensures desirable traits are preserved and helps in growing plants that do not produce viable seeds, like bananas, efficiently and on a large scale.",
+      "concept": "Vegetative propagation in plants",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
     },
     {
-     "label": "B",
-     "text": "Syphilis"
+      "number": "91",
+      "form": "short",
+      "page": 495,
+      "stem": "Describe the process of budding in hydra. Why are the offspring produced called clones?",
+      "answer": "In hydra, repeated cell division at a specific site on the parent body produces a small outgrowth called a bud. This bud gradually enlarges, develops necessary body parts, and eventually detaches from the parent’s body to live independently. The offspring produced through this method are called clones because the central process involved is mitosis, a type of cell division that maintains the exact same number of chromosomes. Thus, the resulting hydra are genetically identical to the parent.",
+      "concept": "Budding in yeast and hydra",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
     },
     {
-     "label": "C",
-     "text": "HIV"
+      "number": "92",
+      "form": "short",
+      "page": 490,
+      "stem": "Draw a labelled diagram of fungi showing spore formation. How does this method help the organism survive?",
+      "answer": "Spore formation is highly advantageous for fungi as spores are produced in massive numbers. These tiny, lightweight spores float easily through air currents, allowing the organism to spread over wide areas. Spores are well-protected and remain dormant in the environment until they encounter favorable conditions, such as adequate warmth and moisture. Once they settle on a suitable nutrient source like damp bread, they quickly germinate and grow into new fungal colonies, ensuring rapid population increase.",
+      "concept": "Spore formation in fungi",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 3
     },
     {
-     "label": "D",
-     "text": "Mild bacterial infections"
+      "number": "93",
+      "form": "short",
+      "page": 490,
+      "stem": "A student claims that meiosis is essential for maintaining a constant chromosome number across generations in sexually reproducing organisms. Do you agree? Justify.",
+      "answer": "Yes, I agree with this claim. Sexual reproduction involves the fusion of gametes from two parents. If gametes were formed by normal cell division (mitosis), the chromosome number would double with each passing generation. Meiosis is a special type of cell division that reduces the chromosome number to half (haploid) in gametes. When a male and a female gamete fuse during fertilization, the original (diploid) chromosome number is restored in the zygote, keeping the chromosome number constant across generations.",
+      "concept": "Meiosis halves chromosome number",
+      "bloom": "evaluate",
+      "dok": 3,
+      "difficulty": 4
+    },
+    {
+      "number": "94",
+      "form": "short",
+      "page": 490,
+      "stem": "Compare self-pollination and cross-pollination based on the transfer of pollen and the requirement of external agents.",
+      "answer": "Self-pollination is the transfer of pollen grains from the anther to the stigma of the same flower or another flower of the exact same plant. It generally does not strictly require external pollinating agents. In contrast, cross-pollination occurs when pollen is transferred from the anther of a flower on one plant to the stigma of a flower on a completely different plant of the same type. This process heavily relies on external agents like wind, water, insects, or birds to carry the pollen.",
+      "concept": "Self-pollination versus cross-pollination",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "95",
+      "form": "short",
+      "page": 490,
+      "stem": "Trace the events that occur in a flower immediately after pollen reaches a compatible stigma until seed formation.",
+      "answer": "Once a compatible pollen grain lands on the stigma, it germinates and produces a pollen tube that grows downwards through the style to reach the ovary. The male gamete travels through this tube and enters the ovule, where it fuses with the egg cell in a process called fertilization. This fusion creates a zygote, which subsequently develops into an embryo. After fertilization, the ovule develops a tough coat and turns into a seed, while the surrounding ovary ripens into a fruit.",
+      "concept": "Pollen tube growth and male gamete",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 3
+    },
+    {
+      "number": "96",
+      "form": "short",
+      "page": 490,
+      "stem": "What is the primary difference between external and internal fertilization? Why do animals with external fertilization produce larger numbers of eggs?",
+      "answer": "External fertilization occurs outside the female’s body, typically in water, where both parents release their gametes. Internal fertilization takes place inside the female’s body, offering better protection for the egg. Animals exhibiting external fertilization, like frogs and fish, produce thousands of eggs because the gametes and developing embryos are highly vulnerable. A large number of these eggs are destroyed by water currents or eaten by predators. Producing offspring in massive quantities ensures that at least a few survive to adulthood.",
+      "concept": "Many eggs compensate for external loss",
+      "bloom": "analyze",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "97",
+      "form": "short",
+      "page": 497,
+      "stem": "Study the life cycle diagram. What is the role of the larval stage in this life cycle? Why is this feeding stage crucial?",
+      "answer": "The larval stage, often seen as a caterpillar, is primarily an intermediate feeding stage in the development of organisms like butterflies. These animals hatch from eggs containing relatively small amounts of yolk, which is only enough to form the larva. The larva must then obtain its own nutrition by heavily feeding on organic matter, such as leaves. This intense feeding allows it to accumulate enough nutrients and energy required to undergo the dramatic transformation inside the pupa into an adult butterfly.",
+      "concept": "Yolk and larval stage",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 3
+    },
+    {
+      "number": "98",
+      "form": "short",
+      "page": 497,
+      "stem": "Describe the journey of an unfertilised egg in the human female reproductive system from its release to its exit.",
+      "answer": "Once a month, an ovary releases a mature egg during a process called ovulation. This egg enters the oviduct (fallopian tube) and travels towards the uterus. If the egg is not fertilised by a sperm, it remains viable for about a day before it degenerates. The thick, blood-rich inner lining of the uterus, which was prepared to receive a zygote, is no longer needed. Consequently, this uterine lining breaks down and sheds, exiting the body through the vagina as blood and mucus during menstruation.",
+      "concept": "Menstruation when egg is unfertilised",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "99",
+      "form": "short",
+      "page": 497,
+      "stem": "How do human male and female gametes differ in terms of size and motility? Where are they produced?",
+      "answer": "Human male gametes (sperm) are very small in size and are highly motile; they possess a long tail that allows them to swim actively towards the egg. They are produced in the testes in large millions. In contrast, female gametes (eggs) are much larger as they contain stored nutrients to nourish a developing embryo. Eggs are non-motile and are produced in the ovaries, with usually only one mature egg released per month.",
+      "concept": "Comparing sperm and egg",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "100",
+      "form": "short",
+      "page": 497,
+      "stem": "Why does the uterine lining become thick and spongy every month in human females? What happens if fertilization does occur?",
+      "answer": "The uterine lining becomes thick, spongy, and rich in blood vessels every month as a preparatory measure to receive and support a developing embryo. Following ovulation, the body anticipates a potential pregnancy. If fertilization does occur, the newly formed zygote undergoes division and implants itself into this thickened lining. The rich blood supply of the uterus provides essential nourishment and oxygen to the growing embryo, and the lining remains intact throughout the pregnancy, causing menstruation to stop.",
+      "concept": "Menstrual cycle and menopause",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 3
+    },
+    {
+      "number": "101",
+      "form": "short",
+      "page": 497,
+      "stem": "Describe the sequence of events in humans starting from the entry of sperm into the female body up to implantation.",
+      "answer": "During sexual intercourse, millions of sperm enter through the vagina and actively swim upward through the reproductive tract, reaching the oviduct. Here, if a sperm encounters an egg, it fuses with it to form a single-celled zygote, marking fertilization. This zygote begins to divide repeatedly through mitotic divisions to form a multicellular embryo while continuing its journey down the oviduct towards the uterus. Finally, the embryo embeds itself deeply into the thickened, nutrient-rich inner lining of the uterus, a process known as implantation.",
+      "concept": "Fertilisation and implantation in uterus",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 3
+    },
+    {
+      "number": "102",
+      "form": "short",
+      "page": 494,
+      "stem": "Suppose a farmer grows a crop that only produces flowers entirely enclosed within their petals, never opening. What type of pollination will occur and how will it affect genetic diversity?",
+      "answer": "If the flowers remain completely closed, cross-pollination is impossible because external pollen cannot enter, and internal pollen cannot escape. Only self-pollination will occur, as the pollen from the anther will directly fall onto the stigma of the same enclosed flower. Over several generations, this exclusive self-pollination will severely reduce the genetic diversity of the crop. The plants will become genetically highly similar, producing offspring that are less adaptable to environmental changes and more vulnerable to diseases.",
+      "concept": "Variation promotes adaptation and evolution",
+      "bloom": "analyze",
+      "dok": 3,
+      "difficulty": 4
+    },
+    {
+      "number": "103",
+      "form": "short",
+      "page": 494,
+      "stem": "Draw the experimental setup used to demonstrate the necessity of pollen transfer in pea plants. What is the purpose of the muslin cloth bags?",
+      "answer": "The primary purpose of using muslin cloth bags in this pollination experiment is to control the reproductive environment by preventing unwanted, external pollen from reaching the stigma of the flower. By securely bagging the flower, one can completely stop cross-pollination by wind or insects. This allows researchers to isolate specific variables, such as observing whether a flower can self-pollinate and form a fruit on its own, or what happens when its stamens are entirely removed and external pollen is blocked.",
+      "concept": "Pollination is essential for fruits",
+      "bloom": "analyze",
+      "dok": 3,
+      "difficulty": 4
+    },
+    {
+      "number": "104",
+      "form": "short",
+      "page": 494,
+      "stem": "Explain the artificial hybridization technique used by farmers for selective breeding of plants.",
+      "answer": "Artificial hybridization is a controlled plant breeding technique used to combine desirable traits from different plants. First, the farmer carefully removes the stamens from the flowers of the selected female parent plant before they mature to prevent self-pollination. This flower is then covered with a bag. Later, pollen from another plant possessing the desired characters is manually dusted onto the stigma of the bagged flower. This ensures that the resulting seeds will grow into hybrid plants with the specific qualities chosen by the farmer.",
+      "concept": "Self-pollination versus cross-pollination",
+      "bloom": "apply",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "105",
+      "form": "short",
+      "page": 494,
+      "stem": "Compare the reproductive strategies of wind-pollinated plants and insect-pollinated plants with respect to pollen production and flower characteristics.",
+      "answer": "Wind-pollinated plants, such as maize and wheat, produce extremely large quantities of light, small pollen grains to ensure some reach their target by chance. Their flowers are usually inconspicuous with long, feathery stigmas to trap pollen. In contrast, insect-pollinated plants, like sunflowers and hibiscus, produce significantly fewer pollen grains that are sticky or spiny to attach to insects. Their flowers are typically brightly coloured, fragrant, and produce nectar to actively attract insect pollinators.",
+      "concept": "Wind and water pollination",
+      "bloom": "analyze",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "106",
+      "form": "short",
+      "page": 494,
+      "stem": "A teenager claims that physical maturity during puberty implies complete readiness for reproduction and parenthood. Do you agree? Justify.",
+      "answer": "No, I strongly disagree with this claim. While puberty initiates physical sexual maturation, meaning the body begins producing gametes (sperm or eggs) and becomes physically capable of reproduction, this is only one aspect of development. Emotional, mental, and social maturity take much longer to achieve. Readiness for parenthood requires a deep understanding of responsibilities, emotional stability to handle complex feelings, and the ability to make thoughtful decisions, none of which automatically arrive with physical changes.",
+      "concept": "Sexual versus emotional maturity",
+      "bloom": "evaluate",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "107",
+      "form": "short",
+      "page": 499,
+      "stem": "Study the given diagram showing pollen transfer. Identify processes 1 and 2. Give an example of an agent that facilitates process 2.",
+      "answer": "Process 1 represents self-pollination, as the pollen grain is transferred from the anther to the stigma of the exact same flower. Process 2 represents cross-pollination, where pollen is transferred from the anther of a flower on one plant to the stigma of a flower on a different plant of the same species. External agents are required to facilitate process 2. Examples of such pollinating agents include wind blowing the pollen, or insects like bees carrying it on their bodies.",
+      "concept": "Insect and bird pollination",
+      "bloom": "apply",
+      "dok": 2,
+      "difficulty": 3
+    },
+    {
+      "number": "108",
+      "form": "short",
+      "page": 499,
+      "stem": "What is the normal duration of human pregnancy, and how is it divided? What changes happen to the foetus in the first phase?",
+      "answer": "The normal duration of a human pregnancy is approximately nine months, which is medically divided into three stages known as trimesters. During the first trimester, representing the initial three months, the most critical foundational developments occur. The fertilized egg transforms into an embryo and then into a foetus. It is during this crucial first phase that major internal organs start forming and developing rapidly, laying the essential groundwork for the baby’s future growth in subsequent trimesters.",
+      "concept": "Trimesters of pregnancy",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "109",
+      "form": "short",
+      "page": 499,
+      "stem": "Explain the technique of tissue culture in plants. Why is it considered an important agricultural advancement?",
+      "answer": "Tissue culture is an advanced vegetative propagation technique where new plants are grown from small pieces of plant tissue, typically the shoot tip, in a sterile nutrient-rich medium. It is an extremely important agricultural advancement because it allows for the rapid mass production of mature plants. More importantly, using the apical meristem ensures that the resulting plantlets are completely free from viral infections. It provides farmers with guaranteed healthy, high-yielding crops like bananas, significantly boosting agricultural productivity.",
+      "concept": "Tissue culture propagation",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 3
+    },
+    {
+      "number": "110",
+      "form": "short",
+      "page": 499,
+      "stem": "What are Sexually Transmitted Infections (STIs)? State two ways they can be prevented.",
+      "answer": "Sexually Transmitted Infections (STIs) are infectious diseases that are passed from an infected individual to an uninfected person primarily through intimate physical sexual contact. Common examples include gonorrhea, syphilis, and HIV/AIDS. These infections can be prevented by adopting safe sex practices. Using barrier methods of contraception, specifically condoms, during sexual activity creates a physical block that prevents the exchange of bodily fluids, significantly reducing transmission risk. Additionally, responsible decision-making and awareness are crucial for prevention.",
+      "concept": "Sexually transmitted infections",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "111",
+      "form": "short",
+      "page": 499,
+      "stem": "Why is a tomato technically considered a fruit, even though it is commonly used as a vegetable in cooking?",
+      "answer": "In biological terms, a fruit is the mature, ripened ovary of a flower, containing the seeds that developed from fertilized ovules. A tomato develops directly from the ovary at the base of the tomato flower’s pistil after successful pollination and fertilization. If you cut a tomato open, you can clearly see the seeds enclosed within the fleshy tissue. Therefore, scientifically, because it originates from the flower’s ovary and bears seeds, a tomato is classified as a fruit.",
+      "concept": "Ovary and ovules become fruit and seeds",
+      "bloom": "analyze",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "112",
+      "form": "short",
+      "page": 499,
+      "stem": "Why is reproduction considered an essential biological process even though an individual organism can survive without it?",
+      "answer": "While functions like respiration and digestion are vital for the survival of an individual organism, reproduction is not strictly necessary for an individual’s own life. However, it is an essential biological process for the survival of the entire species. Every organism has a definite lifespan and will eventually die. Reproduction ensures the continuous production of new individuals of the same kind, replacing those that perish. Without reproduction, a species would eventually go extinct and life on Earth would cease to exist.",
+      "concept": "Variation promotes adaptation and evolution",
+      "bloom": "analyze",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "113",
+      "form": "short",
+      "page": 509,
+      "stem": "Study the given diagram of a flower. Identify the male and female reproductive parts. What are their respective components?",
+      "answer": "The male reproductive part of the flower is called the stamen, and the female reproductive part is called the pistil. The stamen consists of two main components: a slender stalk known as the filament and a swollen tip called the anther, which produces pollen grains containing male gametes. The pistil has three parts: the stigma, which is the sticky top surface to receive pollen; the style, a long tube; and the ovary, a swollen base containing ovules with female gametes.",
+      "concept": "Flowers as reproductive organs",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "114",
+      "form": "short",
+      "page": 509,
+      "stem": "What is the genetic significance of meiosis in gamete formation? How does it lead to variation in offspring?",
+      "answer": "Meiosis is genetically significant because it halves the chromosome number, producing haploid gametes. This ensures that when sperm and egg fuse during fertilization, the resulting zygote restores the specific diploid chromosome number of that species. Furthermore, meiosis introduces immense genetic variation. During the process, chromosomes from both parents randomly mix and segregate, creating entirely unique combinations of traits in the gametes. Consequently, offspring inherit a unique blend of characteristics, making them genetically different from both their parents and siblings.",
+      "concept": "Unique chromosome combinations in offspring",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 3
+    },
+    {
+      "number": "115",
+      "form": "short",
+      "page": 509,
+      "stem": "Detail the step-by-step process of grafting used to combine two different plant varieties.",
+      "answer": "Grafting starts by selecting a healthy rooted plant (Plant A) and a desired stem piece from another plant (Plant B). A wound or precise slit is carefully created on a twig of Plant A. The cutting from Plant B is then tightly inserted and fitted into this slit. The joined area is securely protected by wrapping it with cotton cloth or a grafting film to prevent pests and retain moisture until it heals. With regular watering, Plant B eventually grows integrated with Plant A.",
+      "concept": "Grafting method of propagation",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "116",
+      "form": "short",
+      "page": 509,
+      "stem": "What would happen to the population of frogs if a factory started releasing mildly toxic chemicals into their breeding pond that specifically hardened the outer layer of their eggs?",
+      "answer": "Frogs rely on external fertilization in water, where the male releases sperm over the eggs laid by the female. If a chemical hardened the outer jelly-like layer of the eggs immediately upon release, the sperm would be completely unable to penetrate the eggs. Consequently, fertilization would fail to occur entirely. Since frogs produce many eggs because survival rates are normally low, zero fertilization would rapidly cause a catastrophic collapse in the frog population in that specific area.",
+      "concept": "External fertilisation in animals",
+      "bloom": "analyze",
+      "dok": 4,
+      "difficulty": 4
+    },
+    {
+      "number": "117",
+      "form": "short",
+      "page": 509,
+      "stem": "Describe the importance of maternal care and nutrition immediately after childbirth.",
+      "answer": "Immediately after childbirth, the newborn baby requires immense care and specific nutrition for healthy development. Breast feeding is essential as the mother’s milk provides complete, easily digestible nutrition and crucial antibodies that protect the infant from many diseases. Additionally, the newborn must be kept warm and vaccinated on time. The mother’s well-being is equally critical; she requires highly nutritious food, adequate rest, and strong emotional support from her family to recover physically and avoid conditions like post-partum depression.",
+      "concept": "Newborn care and breastfeeding",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "118",
+      "form": "short",
+      "page": 502,
+      "stem": "Draw a diagram of an Intra-Uterine Device (IUD). How do devices like the Copper-T help in preventing unwanted pregnancies?",
+      "answer": "Intra-Uterine Devices (IUDs) like the Copper-T are highly effective contraceptive methods placed directly inside the uterus by a healthcare professional. They work primarily by preventing fertilization and implantation. The copper ions released by the device are toxic to sperm, significantly decreasing their motility and ability to fertilize an egg. Even if fertilization somehow occurs, the physical presence of the IUD alters the uterine lining, making it highly unsuitable for the embryo to implant, thus safely preventing pregnancy.",
+      "concept": "Intra-uterine devices",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 3
     }
-   ],
-   "correct_option": "C"
-  },
-  {
-   "number": "56",
-   "form": "mcq",
-   "page": 496,
-   "stem": "Consider the following statements regarding various contraceptive methods used to prevent unwanted pregnancies. 1. Condoms act as physical barriers that stop sperm from reaching the egg. 2. Oral pills alter hormonal balances to prevent the release of eggs from the ovaries. 3. Intra-Uterine Devices (IUDs) like Copper-T are completely free of any side effects. 4. Surgical methods block the vas deferens in males or fallopian tubes in females. Which of the statements given above are correct?",
-   "answer": "Statements 1, 2, and 4 accurately describe barrier, hormonal, and surgical contraceptive methods. Statement 3 is incorrect. While Intra-Uterine Devices (IUDs) like the Copper-T are highly effective at preventing pregnancy, they are not completely without issues; they can sometimes cause irritation in the uterus, leading to discomfort or unexpected bleeding in some users.",
-   "options": [
-    {
-     "label": "A",
-     "text": "1, 2, and 4"
-    },
-    {
-     "label": "B",
-     "text": "2, 3, and 4"
-    },
-    {
-     "label": "C",
-     "text": "1, 3, and 4"
-    },
-    {
-     "label": "D",
-     "text": "1, 2, and 3"
-    }
-   ],
-   "correct_option": "A"
-  },
-  {
-   "number": "57",
-   "form": "mcq",
-   "page": 496,
-   "stem": "Which of the following statements incorrectly describes the function or placement of the Intra- Uterine Device (IUD) known as Copper-T?",
-   "answer": "The statement is incorrect because a Copper-T is an Intra-Uterine Device, not a barrier method. Barrier methods, like condoms, physically block sperm in the vagina or cervix. In contrast, an IUD is inserted deep into the uterus, where it alters the internal environment, preventing sperm viability and inhibiting the implantation of an embryo.",
-   "options": [
-    {
-     "label": "A",
-     "text": "It is placed inside the female’s uterus by a healthcare professional."
-    },
-    {
-     "label": "B",
-     "text": "It functions effectively as a barrier method to trap sperm in the vagina."
-    },
-    {
-     "label": "C",
-     "text": "It is used to avoid unwanted pregnancy over a long period."
-    },
-    {
-     "label": "D",
-     "text": "It may sometimes cause irritation to the inner lining of the uterus."
-    }
-   ],
-   "correct_option": "B"
-  },
-  {
-   "number": "58",
-   "form": "assertion_reason",
-   "page": 496,
-   "stem": "Assertion (A): Prenatal sex determination is strictly prohibited by law in India. Reason (R): The practice of self-selective abortion based on gender leads to a marked and dangerous imbalance in the societal sex ratio.",
-   "answer": "The assertion states a legal fact in India aimed at protecting unborn children. The reason provides the correct sociological and demographic explanation. Historically, prenatal sex determination has been maliciously misused for female foeticide (selective abortion). This discriminatory practice dangerously skews the natural male-to-female ratio, harming the structural balance of a forward-looking society.",
-   "options": [
-    {
-     "label": "A",
-     "text": "Both A and R are true and R is the correct explanation of A"
-    },
-    {
-     "label": "B",
-     "text": "Both A and R are true but R is not the correct explanation of A"
-    },
-    {
-     "label": "C",
-     "text": "A is true but R is false"
-    },
-    {
-     "label": "D",
-     "text": "A is false but R is true"
-    }
-   ],
-   "correct_option": "A"
-  },
-  {
-   "number": "59",
-   "form": "mcq",
-   "page": 497,
-   "stem": "Indian scientists at the Central Drug Research Institute (CDRI), Lucknow, developed a revolutionary contraceptive method provided through the National Family Planning Programme. What was this specific invention?",
-   "answer": "The larval stage, often seen as a caterpillar, is primarily an intermediate feeding stage in the development of organisms like butterflies. These animals hatch from eggs containing relatively small amounts of yolk, which is only enough to form the larva. The larva must then obtain its own nutrition by heavily feeding on organic matter, such as leaves. This intense feeding allows it to accumulate enough nutrients and energy required to undergo the dramatic transformation inside the pupa into an adult butterfly.",
-   "options": [
-    {
-     "label": "A",
-     "text": "The world’s first biodegradable sanitary pad 97. Study the life cycle diagram. What is the role of the larval stage in this life cycle? Why is this feeding stage crucial?"
-    }
-   ]
-  },
-  {
-   "number": "98",
-   "form": "short",
-   "page": 497,
-   "stem": "Describe the journey of an unfertilised egg in the human female reproductive system from its release to its exit.",
-   "answer": "Once a month, an ovary releases a mature egg during a process called ovulation. This egg enters the oviduct (fallopian tube) and travels towards the uterus. If the egg is not fertilised by a sperm, it remains viable for about a day before it degenerates. The thick, blood-rich inner lining of the uterus, which was prepared to receive a zygote, is no longer needed. Consequently, this uterine lining breaks down and sheds, exiting the body through the vagina as blood and mucus during menstruation."
-  },
-  {
-   "number": "99",
-   "form": "short",
-   "page": 497,
-   "stem": "How do human male and female gametes differ in terms of size and motility? Where are they produced?",
-   "answer": "Human male gametes (sperm) are very small in size and are highly motile; they possess a long tail that allows them to swim actively towards the egg. They are produced in the testes in large millions. In contrast, female gametes (eggs) are much larger as they contain stored nutrients to nourish a developing embryo. Eggs are non-motile and are produced in the ovaries, with usually only one mature egg released per month."
-  },
-  {
-   "number": "100",
-   "form": "short",
-   "page": 497,
-   "stem": "Why does the uterine lining become thick and spongy every month in human females? What happens if fertilization does occur?",
-   "answer": "The uterine lining becomes thick, spongy, and rich in blood vessels every month as a preparatory measure to receive and support a developing embryo. Following ovulation, the body anticipates a potential pregnancy. If fertilization does occur, the newly formed zygote undergoes division and implants itself into this thickened lining. The rich blood supply of the uterus provides essential nourishment and oxygen to the growing embryo, and the lining remains intact throughout the pregnancy, causing menstruation to stop."
-  },
-  {
-   "number": "101",
-   "form": "short",
-   "page": 498,
-   "stem": "Describe the sequence of events in humans starting from the entry of sperm into the female body up to implantation.",
-   "answer": "During sexual intercourse, millions of sperm enter through the vagina and actively swim upward through the reproductive tract, reaching the oviduct. Here, if a sperm encounters an egg, it fuses with it to form a single-celled zygote, marking fertilization. This zygote begins to divide repeatedly through mitotic divisions to form a multicellular embryo while continuing its journey down the oviduct towards the uterus. Finally, the embryo embeds itself deeply into the thickened, nutrient-rich inner lining of the uterus, a process known as implantation. Reproduction: How Life Continues"
-  },
-  {
-   "number": "70",
-   "form": "short",
-   "page": 498,
-   "stem": "What would happen if pollen transfer fails to occur in a flower?",
-   "answer": "If successful pollen transfer fails to occur entirely, fertilisation cannot take place, meaning the plant will be completely unable to produce any seeds or fruits."
-  },
-  {
-   "number": "71",
-   "form": "short",
-   "page": 498,
-   "stem": "How is self-pollination different from cross- pollination?",
-   "answer": "Self-pollination occurs when pollen strictly transfers within the exact same plant, whereas cross-pollination involves successfully transferring pollen to the stigma of a completely different plant."
-  },
-  {
-   "number": "72",
-   "form": "short",
-   "page": 498,
-   "stem": "Where does external fertilisation typically take place?",
-   "answer": "External fertilisation normally takes place entirely outside the female body, usually in an aquatic environment where organisms freely release their massive quantities of gametes."
-  },
-  {
-   "number": "73",
-   "form": "short",
-   "page": 498,
-   "stem": "What is the main advantage of internal fertilisation?",
-   "answer": "Internal fertilisation provides high protection for the developing zygote safely inside the female body, significantly increasing overall survival chances of the vulnerable growing embryo."
-  },
-  {
-   "number": "74",
-   "form": "short",
-   "page": 498,
-   "stem": "Why do fish and frogs produce huge numbers of eggs?",
-   "answer": "They naturally produce massive numbers of eggs because external fertilisation leaves eggs fully exposed, and many are inevitably destroyed by water currents or hungry predators."
-  },
-  {
-   "number": "75",
-   "form": "short",
-   "page": 498,
-   "stem": "What is the primary function of the human testes?",
-   "answer": "The human testes primarily function to produce male gametes known as sperm, and they secrete essential hormones that regulate important male reproductive physical changes."
-  },
-  {
-   "number": "76",
-   "form": "short",
-   "page": 498,
-   "stem": "Where are the testes located in the human body and why?",
-   "answer": "The testes are securely located entirely outside the abdominal cavity within the scrotum to meticulously maintain lower temperatures strictly necessary for continuous sperm production."
-  },
-  {
-   "number": "77",
-   "form": "short",
-   "page": 498,
-   "stem": "Describe the overall structure of the human uterus briefly.",
-   "answer": "The human uterus is a highly muscular, expandable internal structure shaped like a bag, designed specifically to securely hold and continuously nourish the growing foetus."
-  },
-  {
-   "number": "78",
-   "form": "short",
-   "page": 498,
-   "stem": "What happens when a human egg is successfully fertilised?",
-   "answer": "The successfully fertilised egg quickly forms a distinct zygote, which repeatedly divides to gradually become a multicellular embryo that eventually implants into the uterine lining."
-  },
-  {
-   "number": "79",
-   "form": "short",
-   "page": 498,
-   "stem": "Define ovulation.",
-   "answer": "Ovulation is the vital biological process where a fully mature egg is periodically released from one of the female ovaries, usually occurring once every month."
-  },
-  {
-   "number": "80",
-   "form": "short",
-   "page": 498,
-   "stem": "What causes menstruation in human females?",
-   "answer": "Menstruation is directly caused by the breakdown and shedding of the thickened inner uterine lining along with blood when the released egg remains completely unfertilised."
-  },
-  {
-   "number": "81",
-   "form": "short",
-   "page": 499,
-   "stem": "What is the scientific term used for the developing baby inside the womb from the ninth week onward?",
-   "answer": "From the ninth week of pregnancy onward, the rapidly developing human baby safely inside the protective mother’s womb is scientifically referred to as a foetus."
-  },
-  {
-   "number": "107",
-   "form": "short",
-   "page": 499,
-   "stem": "Study the given diagram showing pollen transfer. Identify processes 1 and 2. Give an example of an agent that facilitates process 2.",
-   "answer": "Process 1 represents self-pollination, as the pollen grain is transferred from the anther to the stigma of the exact same flower. Process 2 represents cross-pollination, where pollen is transferred from the anther of a flower on one plant to the stigma of a flower on a different plant of the same species. External agents are required to facilitate process 2. Examples of such pollinating agents include wind blowing the pollen, or insects like bees carrying it on their bodies."
-  },
-  {
-   "number": "108",
-   "form": "short",
-   "page": 499,
-   "stem": "What is the normal duration of human pregnancy, and how is it divided? What changes happen to the foetus in the first phase?",
-   "answer": "The normal duration of a human pregnancy is approximately nine months, which is medically divided into three stages known as trimesters. During the first trimester, representing the initial three months, the most critical foundational developments occur. The fertilized egg transforms into an embryo and then into a foetus. It is during this crucial first phase that major internal organs start forming and developing rapidly, laying the essential groundwork for the baby’s future growth in subsequent trimesters."
-  },
-  {
-   "number": "109",
-   "form": "short",
-   "page": 499,
-   "stem": "Explain the technique of tissue culture in plants. Why is it considered an important agricultural advancement?",
-   "answer": "Tissue culture is an advanced vegetative propagation technique where new plants are grown from small pieces of plant tissue, typically the shoot tip, in a sterile nutrient-rich medium. It is an extremely important agricultural advancement because it allows for the rapid mass production of mature plants. More importantly, using the apical meristem ensures that the resulting plantlets are completely free from viral infections. It provides farmers with guaranteed healthy, high- yielding crops like bananas, significantly boosting agricultural productivity."
-  },
-  {
-   "number": "110",
-   "form": "short",
-   "page": 499,
-   "stem": "What are Sexually Transmitted Infections (STIs)? State two ways they can be prevented.",
-   "answer": "Sexually Transmitted Infections (STIs) are infectious diseases that are passed from an infected individual to an uninfected person primarily through intimate physical sexual contact. Common examples include gonorrhea, syphilis, and HIV/AIDS. These infections can be prevented by adopting safe sex practices. Using barrier methods of contraception, specifically condoms, during sexual activity creates a physical block that prevents the exchange of bodily fluids, significantly reducing transmission risk. Additionally, responsible decision-making and awareness are crucial for prevention."
-  },
-  {
-   "number": "111",
-   "form": "short",
-   "page": 499,
-   "stem": "Why is a tomato technically considered a fruit, even though it is commonly used as a vegetable in cooking?",
-   "answer": "In biological terms, a fruit is the mature, ripened ovary of a flower, containing the seeds that developed from fertilized ovules. A tomato develops directly from the ovary at the base of the tomato flower’s pistil after successful pollination and fertilization. If you cut a tomato open, you can clearly see the seeds enclosed within the fleshy tissue. Therefore, scientifically, because it originates from the flower’s ovary and bears seeds, a tomato is classified as a fruit."
-  },
-  {
-   "number": "112",
-   "form": "short",
-   "page": 500,
-   "stem": "Why is reproduction considered an essential biological process even though an individual organism can survive without it?",
-   "answer": "While functions like respiration and digestion are vital for the survival of an individual organism, reproduction is not strictly necessary for an individual’s own life. However, it is an essential biological process for the survival of the entire Reproduction: How Life Continues"
-  },
-  {
-   "number": "127",
-   "form": "short",
-   "page": 500,
-   "stem": "(a) Draw a well-labelled diagram of the human female reproductive system. (b) Explain the journey of an egg from its release to implantation, assuming successful fertilisation takes place.",
-   "answer": "(a) (b) The reproductive journey begins when an ovary releases a single mature egg during a process known as ovulation. This egg is gently swept into the adjacent oviduct, also called the fallopian tube. If sexual intercourse has occurred, actively motile sperm travel from the vagina, through the cervix and uterus, up into the fallopian tube. Here, if a single sperm successfully penetrates the egg, they fuse to form a zygote through fertilisation. Once formed, the zygote immediately begins a series of rapid mitotic cell divisions as it slowly travels down the oviduct towards the uterus. By the time this developing embryo reaches the uterus, the inner uterine lining has become thick and richly supplied with blood vessels. The embryo embeds itself deeply into this prepared lining to receive continuous nourishment and oxygen. This crucial embedding process is termed implantation, marking the start of pregnancy."
-  },
-  {
-   "number": "128",
-   "form": "short",
-   "page": 500,
-   "stem": "(a) Describe how a developing embryo transforms into a fully formed foetus across the three trimesters of human pregnancy. (b) Why is the physical and emotional well-being of the mother considered absolutely crucial during this gestation period?",
-   "answer": "(a) Pregnancy lasts roughly nine months and is divided into three distinct trimesters. During the first trimester, the basic structural foundation is laid as the fertilised egg rapidly divides and implants; major organs start forming, and the embryo officially becomes a foetus. In the second trimester, the foetus grows significantly larger, muscles strengthen, and the mother begins to feel its active movements inside the womb. The third trimester is characterised by rapid weight gain as the baby matures completely, getting ready for life outside. (b) The mother’s health is absolutely crucial because the developing baby relies entirely on her body for continuous nutrition, oxygen, and protection. A balanced diet and regular check-ups prevent harmful deficiencies. Equally important is her emotional well- being; high stress can negatively impact foetal development, making supportive environments essential for a safe, healthy delivery. CAS E BASED QUESTION"
-  }
- ]
+  ]
 }

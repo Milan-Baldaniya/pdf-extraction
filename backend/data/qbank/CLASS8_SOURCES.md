@@ -159,3 +159,89 @@ ceilings, consistent with [[qbank-breadth-first-not-500]]:
 Closing the rest would mean roughly 33,000 generated questions for Class 8
 alone, which is the one thing ruled out. The honest goal is every chapter
 reaching its sources' real ceiling, fully mapped.
+
+---
+
+# SCERT Haryana — verified 2026-09-25
+
+`https://scertharyana.gov.in/competency-bank-question-bank/` is real and its
+links resolve. 15 PDFs downloaded to `data/qbank/mirror/scert_haryana/`, 60 MB.
+Built with Educational Initiatives (Ei) and mapped to state learning outcomes.
+
+**All eleven 2025-26 files carry a marking scheme** — a "Q No. / Rubric /
+Marks" table near the end reading `Correct Answer: C`, about 50 per file.
+Cleanly parseable.
+
+| Session | Files | Classes | Subjects | Questions each |
+|---|---|---|---|---|
+| 2025-26 | 11 | 6, 7, 8 | Hindi, English, Science, Maths (no Class 8 Maths) | ~50 |
+| 2024 | 4 | 6, 7 | English, Maths, Science | 500-1000 |
+
+## Why this is smaller than it looks
+
+- **~50 questions per SUBJECT, not per chapter.** Class 6 Science has 12
+  chapters, so 50 items is about **4 per chapter**.
+- **Organised by competency, not by chapter.** Items are indexed as
+  `SCI801 -> Q5, Q9, Q27, Q33`. Assigning them to chapters means reading each
+  one; there is no chapter field to key on.
+- **Hindi-medium for Science, Maths and Hindi**, and the Devanagari text layer
+  is corrupted in the familiar way — `वनम्नविवखत` for `निम्नलिखित`. See
+  [[ocr-devanagari-lookalike-breaks-quote-anchors]] and
+  [[devanagari-anchors-need-unicode-escapes]]. The English files are clean.
+- **The big 2024 Maths bank has no answer key.** 116 pages, ~1,000 Hindi MCQs,
+  nothing to mark them against. Checked page by page, not assumed.
+
+Real yield: roughly **550 answered items across 11 subject-files**, which is
+about 4 per chapter once spread over Classes 6-8. Worth having, especially for
+Classes 6 and 7 which are at zero, but it does not move a chapter toward 500.
+
+# WHERE 500 PER CHAPTER IS ACTUALLY REACHABLE
+
+Measured across all 396 Class 6-10 chapters:
+
+| Band | Chapters | Share |
+|---|---|---|
+| **>= 500 (target met)** | **7** | 1.8% |
+| 350-499 | 6 | 1.5% |
+| 250-349 | 2 | 0.5% |
+| 100-249 | 33 | 8.3% |
+| 1-99 | 105 | 26.5% |
+| zero | 243 | 61.4% |
+
+**Six of the seven chapters at 500+ are Class 10 Science**, and the whole
+subject averages 567 per chapter. Nothing else comes close: Class 9 Science is
+190, Class 8 Science 148, Class 10 Maths 146.
+
+The reason is visible in the source counts. Class 10 Science is the only
+subject fed by **two large independent bodies of questions** — 2,926 read out
+of the Nodia book and 4,442 already native to the LMS. Everything with one
+source sits at 50-150.
+
+So the rule is arithmetic, not effort:
+
+    one commercial chapter-wise book   150-250 per chapter
+    + a second independent book        150-250
+    + LMS-native                        50-340
+    + NCERT Exemplar (Science/Maths)     40-60
+    + NCERT textbook exercises           15-25
+    + CBSE SAS                          ~10
+    + SCERT Haryana                      ~4
+    ------------------------------------------------
+    = 500 needs THREE OR FOUR stacked sources on the same chapter.
+
+Government sources are excellent provenance and poor volume. CBSE SAS, SCERT
+and the textbook exercises together contribute under 40 per chapter. They
+cannot carry a 500 target and were never meant to — they are sample item banks.
+
+**Volume comes only from commercial chapter-wise books.** That is what took
+Class 10 Science past 500, and it is the only lever that will do it again.
+
+Languages and Social Science have no Exemplar and far fewer commercial banks,
+so their realistic ceiling stays near 250-300 whatever is done.
+
+## Anomaly to investigate
+
+Class 8 Science chapter 2 (Microorganisms) holds **966 questions** against
+70-88 in each of its twelve siblings — 50% of the subject in one chapter, and
+all 966 stems are distinct so it is not duplication. That looks like a bulk
+load that defaulted to one chapter_id rather than genuine depth.

@@ -48,12 +48,82 @@ if hasattr(sys.stdout, "reconfigure"):
 
 import fitz  # noqa: E402
 
+from scripts.devlys_to_unicode import convert as _devlys  # noqa: E402
+
 fitz.TOOLS.mupdf_display_errors(False)
 
 MIRROR = Path(__file__).resolve().parents[1] / "data" / "qbank" / "mirror" / "pdftube"
 SOURCE_URL = "https://pdf.tube/School/CBSE/"
 
+# Shared by every Hindi book: the marker is उत्तर once transliterated,
+# and questions number "6-" while answers sub-point "1.".
+MARK_HINDI = ("(?m)^\s*(?:उत्त\s*र|mmÙkj|mÙkj)"
+              "\s*[%:।ः]?\s*")
+QSTART_HINDI = "(?m)^[ \t]*(\d{1,3})\s*[-–]\s*"
+
+
 BOOKS: dict[str, dict] = {
+    "c10_hindi_a": {
+        "file": "c10_Hindi_A_QB_2026.pdf",
+        "standard_id": 43, "standard": 10, "publisher": "nodia",
+        "transliterate": True,
+        "attribute_by": "folio",
+        "marker": MARK_HINDI,
+        "qstart": QSTART_HINDI,
+        "option_labels": "कखगघ",
+        "subject_of_part": {1: "Hindi-A"},
+        "title": "NODIA Class 10 Hindi-A Question Bank 2026",
+        "textbook": "क्षितिज भाग 2",
+        # THE DATABASE ORDERS POETRY BEFORE PROSE AND THE BOOK THE
+        # REVERSE, so the folio ranges cross over: database chapters 1-6
+        # are the book's काव्य खंड at folios 283-385, and 7-12 its
+        # गद्य खंड at 153-282. Taken in printed order, every chapter
+        # would be six places out.
+        "chapters": [
+            (1, 1, "पद (सूरदास)", 283, 297),
+            (1, 2, "राम-लक्ष्मण-परशुराम संवाद", 298, 321),
+            (1, 3, "आत्मकथ्य", 322, 336),
+            (1, 4, "उत्साह", 337, 350),
+            (1, 5, "यह दंतुरित मुसकान", 351, 369),
+            (1, 6, "संगतकार", 370, 385),
+            (1, 7, "नेताजी का चश्मा", 153, 174),
+            (1, 8, "बालगोबिन भगत", 175, 195),
+            (1, 9, "लखनवी अंदाज", 196, 214),
+            (1, 10, "एक कहानी ये भी", 215, 242),
+            (1, 11, "नौबतखाने में इबादत", 243, 265),
+            (1, 12, "संस्कृति", 266, 282),
+        ],
+    },
+    "c10_hindi_b": {
+        "file": "c10_Hindi_B_QB_2026.pdf",
+        "standard_id": 43, "standard": 10, "publisher": "nodia",
+        "transliterate": True,
+        "attribute_by": "folio",
+        "marker": MARK_HINDI,
+        "qstart": QSTART_HINDI,
+        "option_labels": "कखगघ",
+        "subject_of_part": {1: "Hindi-B"},
+        "title": "NODIA Class 10 Hindi-B Question Bank 2026",
+        "textbook": "स्पर्श भाग 2",
+        # Same crossover: database 1-7 are the book's poetry at folios
+        # 325-450, database 8-14 its prose at 169-324.
+        "chapters": [
+            (1, 1, "साखी", 325, 347),
+            (1, 2, "पद (मीरा)", 348, 365),
+            (1, 3, "मनुष्यता", 366, 387),
+            (1, 4, "पर्वत प्रदेश में पावस", 388, 404),
+            (1, 5, "तोप", 405, 419),
+            (1, 6, "कर चले हम फ़िदा", 420, 435),
+            (1, 7, "आत्मत्राण", 436, 450),
+            (1, 8, "बड़े भाई साहब", 169, 191),
+            (1, 9, "डायरी का एक पन्ना", 192, 209),
+            (1, 10, "तताँरा-वामीरो कथा", 210, 232),
+            (1, 11, "तीसरी कसम के शिल्पकार", 233, 256),
+            (1, 12, "अब कहाँ दूसरे के दुख", 257, 283),
+            (1, 13, "पतझर में टूटी पत्तियाँ", 284, 304),
+            (1, 14, "कारतूस", 305, 324),
+        ],
+    },
     "c9_hindi": {
         "file": "c9_CBSE_9th_Hindi_R1.pdf",
         "standard_id": 42, "standard": 9, "publisher": "nodia",
@@ -211,7 +281,13 @@ BANNERS = [
 
 
 def _squash(s: str) -> str:
-    return re.sub(r"[^A-Z]", "", (s or "").upper())
+    """Fold to comparable letters, KEEPING Devanagari.
+
+    A-Z only turns every Hindi chapter title into the empty string, so no
+    page can be attributed by title and the book falls back to a folio
+    header these particular ones do not print in Latin.
+    """
+    return re.sub(r"[^A-Zऀ-ॿ]", "", (s or "").upper())
 
 
 def _norm(t: str) -> str:
@@ -306,7 +382,9 @@ def _key(opts: list[dict], answer: str, lead_re=None, table=None) -> str:
     return lab if lab in {o["label"] for o in opts} else ""
 
 
-_FOLIO = re.compile(r"(?im)^\s*page\s+(\d{1,4})\s*$")
+# "page N" in the English books; "पृष्ठ N" once a Hindi one is
+# transliterated.
+_FOLIO = re.compile("(?im)^\s*(?:page|पृष्ठ)\s+(\d{1,4})\s*$")
 
 
 def _folio_map(doc, seed: int) -> list:
@@ -349,7 +427,17 @@ def _folio_map(doc, seed: int) -> list:
     return out
 
 
-def _page_chapter(doc, chapters) -> list[tuple[int, int] | None]:
+def _page_text(doc, i: int, tl: bool) -> str:
+    """One page's text, transliterated first where the book is legacy-set."""
+    try:
+        raw = doc[i].get_text() or ""
+    except Exception:
+        return ""
+    return _devlys(raw) if tl else raw
+
+
+def _page_chapter(doc, chapters, tl: bool = False,
+                  by_folio: bool = False) -> list[tuple[int, int] | None]:
     """Which chapter each PDF page belongs to, read from its own header.
 
     THE BOOK IS NOT IN CHAPTER ORDER, so no contiguous span can be right.
@@ -374,38 +462,37 @@ def _page_chapter(doc, chapters) -> list[tuple[int, int] | None]:
     A page naming three or more chapters is the contents, not a chapter.
     """
     titles = [_squash(c[2]) for c in chapters]
-    sq: list[str] = []
-    for i in range(doc.page_count):
-        try:
-            sq.append(_squash(doc[i].get_text() or ""))
-        except Exception:
-            sq.append("")
+    pages = [_page_text(doc, i, tl) for i in range(doc.page_count)]
+    sq = [_squash(t) for t in pages]
 
     # The shortest key that identifies each chapter uniquely across the book.
     # THE LONGEST KEY THAT STILL MATCHES, not the shortest that is unique.
     # Shortened too far, "Electricity Circuits and their Components" becomes
     # "ELECTRICIT" and claims every page in the metals chapter that mentions
     # electricity -- chapter 3 took 232 questions and chapter 4 was left 52.
-    keys: list[str] = []
-    for k, t in enumerate(titles):
-        chosen = t
-        for width in (len(t), 30, 22, 18, 15, 12, 10):
-            cand = t[:width]
-            if not cand:
-                break
-            others = [u[:width] for j, u in enumerate(titles) if j != k]
-            if cand not in others and any(cand in s for s in sq):
-                chosen = cand
-                break
-        keys.append(chosen)
+    # SOME BOOKS CANNOT BE ATTRIBUTED BY TITLE. Class 10 Hindi-A has a
+    # chapter called पद, and its grammar section has one called
+    # पद परिचय 160 folios earlier -- the short title matches the long
+    # one and anchors the chapter in the wrong section. Those books print
+    # पृष्ठ N on every page instead, so the folio alone decides.
+    keys: list[str] = ["" for _ in titles]
+    if not by_folio:
+        for k, t in enumerate(titles):
+            chosen = t
+            for width in (len(t), 30, 22, 18, 15, 12, 10):
+                cand = t[:width]
+                if not cand:
+                    break
+                others = [u[:width] for j, u in enumerate(titles) if j != k]
+                if cand not in others and any(cand in s for s in sq):
+                    chosen = cand
+                    break
+            keys[k] = chosen
 
     out: list[tuple[int, int] | None] = []
     last: tuple[int, int] | None = None
     for i in range(doc.page_count):
-        try:
-            raw = doc[i].get_text() or ""
-        except Exception:
-            raw = ""
+        raw = pages[i]
         hits = [k for k, key in enumerate(keys) if key and key in sq[i]]
         if len(hits) >= 3:            # the contents page
             out.append(last)
@@ -432,85 +519,10 @@ def _page_chapter(doc, chapters) -> list[tuple[int, int] | None]:
     return out
 
 
-def _spans_unused(doc, chapters) -> dict[tuple[int, int], tuple[int, int]]:
-    """Superseded by `_page_chapter`; kept only for the note it carries.
-
-    NEITHER A CONSTANT OFFSET NOR THE PRINTED FOLIO SURVIVES THIS FAMILY OF
-    BOOKS, and getting it wrong does not fail -- it files a chapter's
-    questions under its neighbour and reports a clean load.
-
-      a constant offset  pdf.tube inserts advertisement pages the printed
-                         numbering knows nothing about, so the gap grows.
-                         Class 7 Social Science loaded this way put chapter
-                         1's Himalayas and Thar Desert questions under
-                         "Understanding the Weather", and chapter 2's weather
-                         instruments under "Climates of India" -- 2,545
-                         questions, most on the wrong chapter, and the load
-                         reported zero failures.
-      the printed folio  readable on only 248 of 547 pages, because even
-                         folios print "PAGE n" while odd ones print the
-                         chapter title instead. Carried forward it lands
-                         about a page early on every chapter.
-
-    The title in the running header is the one thing that is both on most
-    pages and unambiguous. Chapters are found in order, each from where the
-    last one started, and each runs until the next begins. A page carrying
-    three or more chapter titles is the contents, not a chapter.
-    """
-    # THE RUNNING HEADER ABBREVIATES THE TITLE. The contents prints "Empires
-    # and Kingdoms: 6th to 10th Centuries" and the header prints "CH 3 :
-    # Empires and Kingdom :" -- singular, and without the century range.
-    # "Turning Tides: 11th and 12th Centuries" becomes "Turning Tides :". So
-    # the key is shortened until it matches rather than fixed, and because
-    # chapters are searched in order from where the last one started, a short
-    # key cannot reach back into a chapter already placed.
-    titles = [_squash(c[2]) for c in chapters]
-    sq: list[str] = []
-    for i in range(doc.page_count):
-        try:
-            sq.append(_squash(doc[i].get_text() or ""))
-        except Exception:
-            sq.append("")
-    is_contents = [sum(1 for t in titles if t and t in s) >= 3 for s in sq]
-
-    starts: list[int] = []
-    cur = 0
-    for k, t in enumerate(titles):
-        found = None
-        # Longest first: two chapters can share a 22-character prefix and
-        # differ only at the end ("...in Rural Areas" vs "...in Urban").
-        for width in (len(t), 30, 22, 18, 15, 12, 10):
-            key = t[:width]
-            if not key:
-                break
-            found = next((i for i in range(cur, doc.page_count)
-                          if not is_contents[i] and key in sq[i]), None)
-            if found is not None:
-                break
-        if found is None:
-            raise SystemExit(f"chapter {chapters[k][2]!r} never appears as a header")
-        starts.append(found)
-        cur = found + 1
-
-    out: dict[tuple[int, int], tuple[int, int]] = {}
-    for k, c in enumerate(chapters):
-        if k + 1 < len(starts):
-            end = starts[k + 1] - 1
-        else:
-            last = [i for i in range(starts[k], doc.page_count)
-                    if titles[k] and titles[k] in sq[i]]
-            end = last[-1] if last else doc.page_count - 1
-        out[(c[0], c[1])] = (starts[k], end)
-    return out
-
-
-def _blob(doc, pages) -> tuple[str, int]:
+def _blob(doc, pages, tl: bool = False) -> tuple[str, int]:
     out, skipped = [], 0
     for p in pages:
-        try:
-            raw = doc[p].get_text() or ""
-        except Exception:
-            continue
+        raw = _page_text(doc, p, tl)
         if _is_ad(raw):
             skipped += 1
             continue
@@ -532,11 +544,13 @@ def build(book: str) -> dict:
                             rf"(?=\s*\(\s*[{labs}]\s*\)|\s*$)")
     doc = fitz.open(MIRROR / cfg["file"])
     doc_pages = doc.page_count
-    owner = _page_chapter(doc, cfg["chapters"])
+    tl = bool(cfg.get("transliterate"))
+    owner = _page_chapter(doc, cfg["chapters"], tl,
+                          bool(cfg.get("attribute_by") == "folio"))
     items, dropped, ads = [], {}, 0
 
     for part, so, name, lo, hi in cfg["chapters"]:
-        body, skipped = _blob(doc, [i for i, o in enumerate(owner) if o == (part, so)])
+        body, skipped = _blob(doc, [i for i, o in enumerate(owner) if o == (part, so)], tl)
         ads += skipped
         qpos = [m.start() for m in qstart.finditer(body)]
         apos = list(ans_re.finditer(body))

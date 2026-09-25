@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22906,
+ "mappings": [
+  {"sha": "cebf5dbf9a9f0b7e", "codes": ["C-8.2-LO-3"], "note": "Primes and multiples of 7 among the 29 integers strictly between 70 and 100. Two simple events on one draw, LO-3."},
+  {"sha": "b26f7ad074f5d90e", "codes": ["C-8.1-LO-4", "C-8.2-LO-3"], "note": "November's 30 days give 4 weeks plus 2 leftover days, and the sample space is the seven possible consecutive day-pairs: constructing that space is the work (C-8.1-LO-4), with LO-3 for the resulting ratio."},
+  {"sha": "c26bcef51dacbf1a", "codes": ["C-8.2-LO-4"], "note": "Two dice: even on both, and sum above 9. Both sub-parts are compound dice events over the 36-pair space, LO-4."},
+  {"sha": "e96e60fc20e47e65", "codes": ["C-8.1-LO-4", "C-8.2-LO-4"], "note": "Three children give an eight-outcome space that must be written out before 'at least two boys' can be counted, so C-8.1-LO-4 leads. LO-4 carries the compound structure, which its card/dice/coin wording does not literally cover."},
+  {"sha": "738dcbf25ac23164", "codes": ["C-8.2-LO-3"], "note": "A die whose six faces repeat letters: the faces stay equally likely, only the favourable counts change. A simple event, LO-3, and not a compound dice event."},
+  {"sha": "4f3ff4f52f805af8", "codes": ["C-8.2-LO-4"], "note": "Losing is the complement of the two all-same outcomes over three tosses, so this is complement plus compound coins - both halves of LO-4 in one item."},
+  {"sha": "0a415b15c25e749c", "codes": ["C-8.2-LO-3"], "note": "One die: prime, and strictly between 2 and 6. Two simple events, LO-3."},
+  {"sha": "59067a6083b818c1", "codes": ["C-8.2-LO-4"], "note": "A die thrown twice: '5 at least once' over 36 outcomes, then 'no 5 either time' obtained explicitly as 1 - 11/36. Compound dice event plus the complement rule, LO-4."},
+  {"sha": "19644f34cfbe5216", "codes": ["C-8.2-LO-4"], "note": "Two dice: doublet and sum 10. Compound dice events, LO-4."},
+  {"sha": "8e4c345685b9ade8", "codes": ["C-8.2-LO-4", "C-8.2-LO-3"], "note": "Part (ii) is taken as 1 - P(divisible by 8), an explicit complement (LO-4); part (i) is a simple count over the 98 integers strictly between 1 and 100 (LO-3)."},
+  {"sha": "82ea226a4aee736f", "codes": ["C-8.1-LO-4", "C-8.2-LO-3"], "note": "Removing six cards makes n(S) = 46 and changes the red count to 20; getting that reduced sample space right is the substance (C-8.1-LO-4), with three simple events on top (LO-3)."},
+  {"sha": "75789833f937d165", "codes": ["C-8.2-LO-3"], "note": "Cards 1 to 49: odd numbers, multiples of 5, and the single even prime. Three simple events on one draw, LO-3."},
+  {"sha": "1785b689298c149a", "codes": ["C-8.2-LO-4"], "note": "Two coins across three phrasings - at least one head, at most one head, no head - all over {HH, HT, TH, TT}. Compound coin events, LO-4. (Stem reads 'almost one head'; flagged separately as a typo for 'at most'.)"},
+  {"sha": "6afe73212a0fcbae", "codes": ["C-8.2-LO-4"], "note": "Three coins: exactly two heads, at least two heads, at least two tails. Compound coin events over the eight-outcome space, LO-4."},
+  {"sha": "ff079c9c445a27e9", "codes": ["C-8.2-LO-4"], "note": "Pair of dice: prime on each die, and a total of 9 or 11. Compound dice events, LO-4."},
+  {"sha": "284a7b4761239a16", "codes": ["C-8.2-LO-3"], "note": "Both shopkeepers' acceptance sets are counted directly (88 and 96 of 100); the answer never uses 1 - P, unlike the Nuri ball-pen item. Simple events, LO-3."},
+  {"sha": "4ddbb198ae36965f", "codes": ["C-8.2-LO-3"], "note": "Cards 1 to 100: single-digit, perfect square, multiple of 7. Three simple events, LO-3."},
+  {"sha": "2edea1d256801a83", "codes": ["C-8.2-LO-3"], "note": "Cards 1 to 100 with conjunctive conditions - divisible by 9 and a perfect square, prime and above 80. Still one draw from equally likely outcomes, LO-3."},
+  {"sha": "133542a65773772d", "codes": ["C-8.2-LO-3"], "note": "Cards 2 to 101: the only wrinkle is that n(S) is still 100 but 1 is absent and 101 present. Simple events, LO-3."},
+  {"sha": "7ab5fb6528b07115", "codes": ["C-8.1-LO-4", "C-8.2-LO-3"], "note": "Removing the six red face cards resets n(S) to 46 and drops the red and face counts, so the reduced sample space is the work (C-8.1-LO-4); the three probabilities are then simple events (LO-3)."},
+  {"sha": "2219124a91ef86dd", "codes": ["C-8.2-LO-4", "C-8.2-LO-2"], "note": "Uses P(orange) = 1 - (P(red) + P(blue)), the complement of a union over three exhaustive colours (LO-4), then inverts the definition 10/n = 5/12 to get the total (LO-2). No outcome states 'the probabilities of all elementary events sum to 1' directly."},
+  {"sha": "a7b53c700abd77c3", "codes": ["C-8.2-LO-4"], "note": "Two dice: greater than 3 on each die, and a total of 6 or 7. Compound dice events, LO-4."},
+  {"sha": "7d6897fdbc364b02", "codes": ["C-8.2-LO-3", "C-8.2-LO-4"], "note": "Two of the three parts are plain simple events (black king or red queen, spade), so LO-3 leads; part (i) 'non face card' is computed as 52 - 12, a complement, hence LO-4 second."},
+  {"sha": "6f3e4bbeb8bbab41", "codes": ["C-8.2-LO-4"], "note": "Three coins: at least one tail is the complement of HHH, and no tail is HHH itself. Complement over a compound coin space, LO-4."},
+  {"sha": "996a475c36478986", "codes": ["C-8.2-LO-4"], "note": "A coin tossed three times: three heads, and at least two tails. Compound coin events over the eight-outcome space, LO-4."}
+ ]
+}

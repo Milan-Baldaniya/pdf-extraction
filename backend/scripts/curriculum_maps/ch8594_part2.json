@@ -1,0 +1,33 @@
+{
+ "chapter_id": 8594,
+ "mappings": [
+  {"sha": "d03527b2e14fbb24", "codes": ["C-4.5-LO-2", "C-4.5-LO-4"],
+   "note": "plot four pairs and name the figure (LO-2), then the diagonal is a distance-formula computation (LO-4); both steps are graded"},
+  {"sha": "eefbff865b5562bc", "codes": ["C-4.5-LO-2"],
+   "note": "pure plotting of six given pairs to a stated scale - the 'plots a point from its ordered pair' half of LO-2, with no derived quantity"},
+  {"sha": "a2d0f5258698b873", "codes": ["C-4.5-LO-2"],
+   "note": "the fourth vertex is read off from the x- and y-values already present, so the work is in the ordered pairs (LO-2); no length is computed"},
+  {"sha": "b36730887e85c4ca", "codes": ["C-4.5-LO-4"],
+   "note": "k is found by equating two distance expressions; not the collinear midpoint case of LO-5"},
+  {"sha": "c49a9962e20b2ece", "codes": ["C-4.5-LO-4"],
+   "note": "distance given, coordinate solved for, two roots kept - inverse use of the LO-4 formula"},
+  {"sha": "3875d559af198ce3", "codes": ["C-4.5-LO-5"],
+   "note": "dividing AB into four equal parts is repeated midpoint work (the centre point is the midpoint of AB), which is LO-5 and not the length-finding of LO-4"},
+  {"sha": "7a1109c1fa1349c0", "codes": ["C-4.5-LO-4"],
+   "note": "AB = AC expanded into a relation between x and y - the distance formula used to derive, not to evaluate"},
+  {"sha": "26b6cc3d3eaf4a3c", "codes": ["C-4.5-LO-2", "C-4.5-LO-3"],
+   "note": "parts (i),(ii),(iv) are plotting and reading the pairs (LO-2); part (iii) asks which two points are mirror images in an axis, which only LO-3 covers"},
+  {"sha": "a01fc0e2383b88d0", "codes": ["C-4.5-LO-3", "C-4.5-LO-2"],
+   "note": "completing the half figure is reflection in the y-axis (LO-3, the line of symmetry is the graded answer); marking every coordinate used adds LO-2"},
+  {"sha": "9f4258575e902182", "codes": ["C-4.5-LO-2", "C-4.5-LO-4"],
+   "note": "plotting is an explicit instruction (LO-2), but the square is proved by four side lengths and two diagonals from the distance formula (LO-4)"},
+  {"sha": "241951d784b8eb98", "codes": ["C-4.5-LO-1", "C-4.5-LO-2", "C-4.5-LO-4"],
+   "note": "three separately graded sub-parts: quadrant from signs (LO-1), ordinate on the x-axis (LO-2), distance between the two insects read off the grid (LO-4)"},
+  {"sha": "eda49690f29c00d1", "codes": ["C-8.1-LO-3", "C-4.5-LO-2", "C-4.5-LO-4"],
+   "note": "the whole item hangs on 'taking A as origin' for a real plot of land, which is LO-3 of C-8.1; the coordinates of C and R are read off the figure (LO-2) and the lawn side needs the distance formula (LO-4)"},
+  {"sha": "959f5398477728da", "codes": ["C-8.1-LO-2", "C-4.5-LO-4", "C-4.5-LO-5"],
+   "note": "positions are given as line number and fraction along AD, i.e. row-and-column addressing turned into ordered pairs (C-8.1-LO-2); the distance between flags is LO-4 and the halfway orange flag is the midpoint, LO-5"},
+  {"sha": "b7af75d1927f5bae", "codes": ["C-4.5-LO-2", "C-4.5-LO-4"],
+   "note": "coordinates of treasure and police are read off the supplied map (LO-2) and the two shortest distances use the distance formula (LO-4); the origin is given, so this is not the axis-choosing of C-8.1-LO-3"}
+ ]
+}

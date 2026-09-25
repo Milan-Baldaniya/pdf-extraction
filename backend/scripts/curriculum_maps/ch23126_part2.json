@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23126,
+ "mappings": [
+  {
+   "sha": "c2e6e7061542d404",
+   "codes": ["C-2.3-LO-5"],
+   "note": "negative constant makes -4ac positive, so D > 0 without estimation; a nature-of-roots verdict with no solving asked"
+  },
+  {
+   "sha": "ba64f70c1149505d",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = 48 - 48 = 0 exactly, the equal-roots case; the stem omits '= 0' but the discriminant judgement is unaffected"
+  },
+  {
+   "sha": "ba3e1f21c999933d",
+   "codes": ["C-2.1-LO-5"],
+   "note": "tests each option by substituting x = 2 and looking for a zero value; the graded idea is that a root is a zero of the polynomial, not any solving method"
+  },
+  {
+   "sha": "f07171f127eb63ed",
+   "codes": ["C-2.1-LO-5"],
+   "note": "compares -b/a across four equations without solving any of them; purely the sum-of-roots relation to the coefficients"
+  },
+  {
+   "sha": "89a3ca0f42561651",
+   "codes": ["C-2.1-LO-5"],
+   "note": "conjugate surd roots is a statement about the pair of zeroes of a rational-coefficient polynomial; no discriminant is computed and nothing is solved"
+  },
+  {
+   "sha": "c54be1b841d25322",
+   "codes": ["C-2.3-LO-4"],
+   "note": "the reason under test is the quadratic formula itself, and the assertion is falsified by applying it to 2x^2+ax-a^2 = 0; LO-4 rather than factorisation because the formula is what is being judged"
+  },
+  {
+   "sha": "ac49d8998624ef32",
+   "codes": ["C-2.3-LO-5"],
+   "note": "the discrimination is that repeated roots need D = 0, not D > 0 as the reason claims; a precise discriminant-condition item"
+  },
+  {
+   "sha": "89b05ed6afaa4aab",
+   "codes": ["C-2.3-LO-5"],
+   "note": "both statements are correct uses of D < 0 for imaginary roots; the contrast partner of the D > 0 item above"
+  },
+  {
+   "sha": "918f7cdd2c7f65d2",
+   "codes": ["CG-2"],
+   "note": "the graded insight is that the x^2 terms cancel so the equation is LINEAR, not quadratic -- recognising a quadratic equation has no learning outcome in this frame, so the goal code is the only honest home (defect reported)"
+  },
+  {
+   "sha": "2650cf9d6cb246f6",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = 0 solved for a parameter k with two admissible signs; the reason states the equal-roots criterion, so the item is squarely LO-5"
+  },
+  {
+   "sha": "9ecbde72d95af541",
+   "codes": ["C-2.1-LO-5"],
+   "note": "the trap is the printed minus sign in ax^2 - bx + c, so the sum is +b/a; a sign-awareness test on the zeroes-coefficients relation"
+  },
+  {
+   "sha": "17938854dbc73cee",
+   "codes": ["C-2.1-LO-5"],
+   "note": "reciprocal roots make the product 1, so c/a = 1 fixes k; no discriminant and no solving, only the product-of-roots relation"
+  },
+  {
+   "sha": "d3fd6a01e4c9c4cb",
+   "codes": ["C-2.3-LO-3"],
+   "note": "free-response twin of the x^2 - 0.04 MCQ; a difference of squares yielding both roots, so the factorisation outcome"
+  },
+  {
+   "sha": "143a10c19cbe4d14",
+   "codes": ["C-2.3-LO-5"],
+   "note": "explicitly asks for the NATURE of the roots and stops there; the verdict comes from the sign of D alone"
+  },
+  {
+   "sha": "bfd0e2bc1546ac94",
+   "codes": ["C-2.1-LO-5"],
+   "note": "a supplied root is substituted to recover k; the item rests on a root being a zero of the polynomial, so C-2.1-LO-5 rather than a solving outcome"
+  },
+  {
+   "sha": "2bc2f9b09b043dd2",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = 0 solved for the constant term rather than for a coefficient of x; still the equal-roots condition"
+  },
+  {
+   "sha": "9a43c61462d61f3d",
+   "codes": ["C-2.3-LO-5"],
+   "note": "free-response version of the x^2 + x - 5 nature item; D = 21 > 0 settles it with no roots stated"
+  },
+  {
+   "sha": "a93517d0e505cb7d",
+   "codes": ["C-2.1-LO-5"],
+   "note": "reciprocal-roots condition again, here solved for the constant k = 3; the product-of-roots relation is the only tool"
+  },
+  {
+   "sha": "cca1461bfdc65c20",
+   "codes": ["C-2.3-LO-3"],
+   "note": "the cube-root substitution reduces to a factorisable quadratic and both roots are recovered by cubing; factorisation, not the formula"
+  },
+  {
+   "sha": "6724bda29e57d070",
+   "codes": ["C-2.3-LO-3"],
+   "note": "free-response twin of the x^2+y^2 = 25, xy = 12 item; the biquadratic factorises into two differences of squares"
+  },
+  {
+   "sha": "8222e52e415e8b23",
+   "codes": ["C-2.3-LO-5"],
+   "note": "a perfect-square trinomial in disguise, detected by D = 0; the item asks only for the nature, so no roots are stated"
+  },
+  {
+   "sha": "98d52e7bf1c3a1ae",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = -8 with plain integer coefficients; the easiest no-real-roots verdict in this block"
+  },
+  {
+   "sha": "1084378e0a526e9f",
+   "codes": ["C-2.3-LO-5"],
+   "note": "requires estimating 12*sqrt(2) against 16 to see D is only just negative; the same near-tie as its MCQ twin"
+  },
+  {
+   "sha": "8c33f7b37e1f7f38",
+   "codes": ["C-2.3-LO-5"],
+   "note": "sign flip on the constant makes D comfortably positive; deliberately contrasted with the preceding near-tie item"
+  },
+  {
+   "sha": "9ed16f4c89c8cfc4",
+   "codes": ["C-2.3-LO-5"],
+   "note": "the equation is printed without '= 0' and must be rewritten in standard form before D = 0 is computed; the verdict remains a pure discriminant judgement"
+  }
+ ]
+}

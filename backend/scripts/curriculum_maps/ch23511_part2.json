@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23511,
+ "mappings": [
+  {
+   "sha": "8b36db91cc1f5014",
+   "codes": ["C-6.2-LO-2"],
+   "note": "cos^2 x + sec^2 x >= 2 is reached by using cos x sec x = 1 to complete the square; the reciprocal relation is applied to establish an inequality, so LO-2 not the Pythagorean-statement LO-1"
+  },
+  {
+   "sha": "15b0cd62d360c39f",
+   "codes": ["C-6.2-LO-2"],
+   "note": "assertion-reason: the Reason HANDS the student the derived identity cosec^2 - cot^2 = 1, so the graded work is applying it by factorisation to show the two expressions are reciprocals - LO-2. If the identity had to be derived it would be LO-1"
+  },
+  {
+   "sha": "93067119dadec5c8",
+   "codes": ["C-6.2-LO-1"],
+   "note": "nothing is simplified or proved; the question is whether sin^2 + cos^2 = 1 holds for every theta and therefore at 67. That is the identity as a statement - LO-1. Note 67 is not a standard angle, so C-6.1-LO-2 is a trap"
+  },
+  {
+   "sha": "2d2d4e369b64d6de",
+   "codes": ["C-6.1-LO-1"],
+   "note": "sin t = 4/3 is rejected because sine is perpendicular over hypotenuse and the hypotenuse is the longest side - a statement about the definition of the ratio from the triangle's sides, which is exactly LO-1"
+  },
+  {
+   "sha": "3797b318f99bcff2",
+   "codes": ["C-6.3-LO-1", "C-6.2-LO-2"],
+   "note": "sec^2 10 - cot^2 80 needs cot 80 = tan 10 (complement) BEFORE sec^2 - tan^2 = 1 can bite; both steps are load-bearing. The Reason clause about sin 30 is a deliberate irrelevance, so no C-6.1-LO-2"
+  },
+  {
+   "sha": "2a7c59e1e7c13a3b",
+   "codes": ["C-6.1-LO-2"],
+   "note": "straight evaluation of a combination of cos 45, sin 30 and cos 30; the radicals cancel arithmetically and no identity appears"
+  },
+  {
+   "sha": "43fcd20ac5d6afa7",
+   "codes": ["C-6.1-LO-2"],
+   "note": "inverse lookup at root3/2 and at 0; same outcome as its MCQ twin sha afcd9284bd3a4c00, of which this is the very-short restatement"
+  },
+  {
+   "sha": "4a655633feb2a768",
+   "codes": ["C-6.1-LO-2"],
+   "note": "sec 90 undefined - the table's boundary entry; very-short twin of MCQ sha 2112d5f88d4b4be8"
+  },
+  {
+   "sha": "23b548d5e98abce0",
+   "codes": ["C-6.2-LO-2"],
+   "note": "divide by cos t to convert the given relation into tan t + 1 = root2; quotient-relation simplification, twin of MCQ sha 8acaa26fd8445c66"
+  },
+  {
+   "sha": "f59cb011f4582d51",
+   "codes": ["C-6.1-LO-1"],
+   "note": "3-4-5 triangle rebuilt from cos A to read tan A off the sides; twin of MCQ sha 1768856689b847bc"
+  },
+  {
+   "sha": "7b66761ee1510aec",
+   "codes": ["C-6.1-LO-1"],
+   "note": "third side by Pythagoras then cot as base/perpendicular; twin of MCQ sha b0cd492e493bc8ea"
+  },
+  {
+   "sha": "3b67071116e0d79e",
+   "codes": ["C-6.1-LO-1"],
+   "note": "symbolic a/b version of the side-reconstruction; twin of MCQ sha a2095bae314a8bcb"
+  },
+  {
+   "sha": "f852a823177c4bb5",
+   "codes": ["C-6.1-LO-1"],
+   "note": "5-12-13 triple: hypotenuse and perpendicular given, base by Pythagoras, tan read off. Same outcome as the 3-4-5 items - a genuinely shared family, only the triple changes"
+  },
+  {
+   "sha": "908bab5020c8a837",
+   "codes": ["C-6.1-LO-1"],
+   "note": "starts from cot rather than sin, so the student must invert to tan before building the 5-12-13 triangle; still the side-definition outcome, one rung harder than sha f852a823"
+  },
+  {
+   "sha": "67519e360fc12c7f",
+   "codes": ["C-6.3-LO-1"],
+   "note": "answer sin(90-2b) = cos 2b is the complementary rewrite itself; very-short twin of MCQ sha 5a277bff4e8b48f9"
+  },
+  {
+   "sha": "dd15054b58d9dc60",
+   "codes": ["C-6.1-LO-2"],
+   "note": "two inverse lookups at 1/2 giving 30 and 60; twin of MCQ sha c30cf4b5ce379c8c"
+  },
+  {
+   "sha": "f2eedcff88edddbf",
+   "codes": ["C-6.1-LO-2"],
+   "note": "tan^2 60 + sin^2 45 is squaring two table entries and adding; no identity, no triangle"
+  },
+  {
+   "sha": "187c0fd21d018349",
+   "codes": ["C-6.1-LO-2"],
+   "note": "sin t = cos t forces 45 and the fourth powers are evaluated from the table; twin of MCQ sha e3b994bf93a64f39"
+  },
+  {
+   "sha": "0b22dc592aa05dd5",
+   "codes": ["C-6.1-LO-2"],
+   "note": "figure item: sin 30 = BC/AC applied to a plain right triangle; twin of MCQ sha 4c845e9cc2200b9b. Not C-6.3 - the figure carries no observer or line of sight"
+  },
+  {
+   "sha": "cc35ce61457e6d0c",
+   "codes": ["C-6.3-LO-1"],
+   "note": "cosec rewritten as sec of the complement to solve for A; twin of MCQ sha c7c880c730542ca1"
+  },
+  {
+   "sha": "06babd19ce6db2e9",
+   "codes": ["C-6.1-LO-2"],
+   "note": "tan(A+B) = root3 and tan(A-B) = 1/root3 are recognised as tan 60 and tan 30, then a two-equation solve. The recognition step is the table, so LO-2; the algebra afterwards is not trigonometry"
+  },
+  {
+   "sha": "a7b43bd669ddba2d",
+   "codes": ["C-6.2-LO-2"],
+   "note": "1/(1+tan^2) is turned into cos^2 via sec^2, then sin^2 + cos^2 = 1 closes it; chains two identities to simplify an expression"
+  },
+  {
+   "sha": "b4b520a1da5427e8",
+   "codes": ["C-6.2-LO-2"],
+   "note": "(1-sin)(1+sin) = cos^2 against sec^2 - the same two-identity chain as sha a7b43bd6 in product form; shared outcome, stated rather than split"
+  },
+  {
+   "sha": "b30771d4c2d5aa99",
+   "codes": ["C-6.2-LO-2"],
+   "note": "an explicit PROVE THAT: group as (1+tan A)^2 - sec^2 A and use 1 + tan^2 = sec^2. Proving a given relationship is the second half of LO-2's wording"
+  },
+  {
+   "sha": "45443a42fc7ae6c4",
+   "codes": ["C-6.3-LO-1"],
+   "note": "cot B is rewritten as tan(90-B) so that A + B = 90; the bare complementary relation with no numbers at all"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23511,
+ "mappings": [
+  {
+   "sha": "febd4f8da39191d9",
+   "codes": ["C-6.2-LO-2"],
+   "note": "sec t - tan t = m to sec t + tan t: the work is factorising sec^2 - tan^2 = 1 and inverting, i.e. applying a derived identity to an algebraic relation, not stating or deriving the identity itself (LO-1)"
+  },
+  {
+   "sha": "0d5235549ff51cf3",
+   "codes": ["C-6.1-LO-2"],
+   "note": "pure substitution of sin 30 and cos 30 into 2 sin t cos t; no identity is used and no triangle is built, so the standard-angle table alone answers it"
+  },
+  {
+   "sha": "d28bffad4c8659c9",
+   "codes": ["C-6.2-LO-1"],
+   "note": "asks which of four identity STATEMENTS is false (tan^2 - sec^2 = 1 vs cosec^2 - cot^2 = 1); the demand is knowing how the two derived Pythagorean identities are oriented, which is LO-1, not applying one to simplify (LO-2)"
+  },
+  {
+   "sha": "d7d310438e235e0c",
+   "codes": ["C-6.2-LO-2"],
+   "note": "simplifies cot^2 - cosec^2 to -1 by substituting cosec^2 = 1 + cot^2; an expression is reduced, so LO-2 rather than the statement-level LO-1"
+  },
+  {
+   "sha": "e3b994bf93a64f39",
+   "codes": ["C-6.1-LO-2"],
+   "note": "sin t = cos t pins t = 45 and the answer is the fourth power of the 45-degree values; the payload is the standard-angle table, not an identity"
+  },
+  {
+   "sha": "4c845e9cc2200b9b",
+   "codes": ["C-6.1-LO-2"],
+   "note": "figure question: sin 30 = BC/AC with AC known, so a standard-angle value is used to produce a side. Deliberately NOT C-6.3 - no line of sight, no elevation angle, it is a bare right triangle"
+  },
+  {
+   "sha": "b0cd492e493bc8ea",
+   "codes": ["C-6.1-LO-1"],
+   "note": "one ratio determines the rest: builds perp 1 / hyp 2, finds the third side by Pythagoras and reads cot off the sides. Side-based definition (LO-1), even though sin A = 1/2 happens to be a standard angle"
+  },
+  {
+   "sha": "afcd9284bd3a4c00",
+   "codes": ["C-6.1-LO-2"],
+   "note": "reads angles back OUT of the table (sin a = root3/2 gives 60, cos b = 0 gives 90); the 0/90 end of the standard-angle row is the whole content"
+  },
+  {
+   "sha": "2112d5f88d4b4be8",
+   "codes": ["C-6.1-LO-2"],
+   "note": "sec 90 is not defined - the boundary entry of the standard-angle table. Sibling C-6.1-LO-1 is wrong: nothing is computed from triangle sides, only the angle sum is used"
+  },
+  {
+   "sha": "8acaa26fd8445c66",
+   "codes": ["C-6.2-LO-2"],
+   "note": "divide through by cos t so sin/cos collapses to tan; simplification of a given relation via the quotient relation rather than reading a table (LO-2) or building a triangle (C-6.1-LO-1)"
+  },
+  {
+   "sha": "1768856689b847bc",
+   "codes": ["C-6.1-LO-1"],
+   "note": "cos A = 4/5 is a 3-4-5 triangle, not a standard angle; the third side comes from Pythagoras and tan A is read off the sides - the defining-from-sides outcome"
+  },
+  {
+   "sha": "fd4c74e7038b9682",
+   "codes": ["C-6.3-LO-1"],
+   "note": "cosec(75+t) and sec(15-t) are complementary, as are cot(35-t) and tan(55+t); the entire expression cancels on the complementary rewrite and no identity or table value is touched"
+  },
+  {
+   "sha": "a2095bae314a8bcb",
+   "codes": ["C-6.1-LO-1"],
+   "note": "symbolic version of one-ratio-determines-the-rest: third side root(b^2-a^2) by Pythagoras, then cos as base/hyp. No numeric angle exists, so LO-2 cannot apply"
+  },
+  {
+   "sha": "5a277bff4e8b48f9",
+   "codes": ["C-6.3-LO-1"],
+   "note": "cos(a+b) = 0 fixes a = 90 - b and the answer sin(90 - 2b) = cos 2b is precisely the complementary rewrite; the 90-degree lookup is one step, the complementary conversion is the demand"
+  },
+  {
+   "sha": "f24b0cbece006a07",
+   "codes": ["C-6.3-LO-1", "C-6.1-LO-2"],
+   "note": "two equally weighted steps: cos 9a = sin a is solved by the complementary relation to get a = 9, then tan 45 = 1 is a table lookup. Unlike sha fd4c74e7 the answer is a standard-angle value, so both codes earn their place"
+  },
+  {
+   "sha": "aed201f390c91886",
+   "codes": ["C-6.1-LO-2"],
+   "note": "cos 90 = 0 after the angle sum; the 0/90 row of the table. Paired with sha 2112d5f8 (sec 90) - same family, same outcome, honestly so"
+  },
+  {
+   "sha": "c30cf4b5ce379c8c",
+   "codes": ["C-6.1-LO-2"],
+   "note": "inverse table lookup twice (sin a = 1/2 gives 30, cos b = 1/2 gives 60); the complementary fact that they sum to 90 is the answer, not the method, so not C-6.3-LO-1"
+  },
+  {
+   "sha": "29a4a16c0bd31a07",
+   "codes": ["C-6.2-LO-2"],
+   "note": "homogeneous ratio in sin and cos: divide numerator and denominator by cos t to express everything in tan t. tan t = 3/4 is not a standard angle, so LO-2 and never C-6.1-LO-2"
+  },
+  {
+   "sha": "3081a96cf14bb521",
+   "codes": ["C-6.2-LO-2"],
+   "note": "parametric elimination of theta using sec^2 - tan^2 = 1; the identity is the tool for proving a relation between x, y, p, q - the LO-2 use, not the LO-1 derivation"
+  },
+  {
+   "sha": "dfda9bd5138c812b",
+   "codes": ["C-6.2-LO-2"],
+   "note": "literal twin of sha 29a4a16c with a and b for 4 and 1; same divide-by-cos technique, so the same outcome is the honest answer rather than an invented distinction"
+  },
+  {
+   "sha": "2457c43ff09b1d85",
+   "codes": ["C-6.2-LO-2"],
+   "note": "difference of fourth powers factorised, then sin^2 + cos^2 = 1 kills one factor; an expression is simplified so LO-2, though the identity used is the LO-1 one"
+  },
+  {
+   "sha": "c7c880c730542ca1",
+   "codes": ["C-6.3-LO-1"],
+   "note": "sec 5A = cosec(A+30) is solved only by rewriting cosec as sec of the complement; the resulting A = 10 is not a standard angle, so no C-6.1-LO-2 component"
+  },
+  {
+   "sha": "79aa988e1063125c",
+   "codes": ["C-6.2-LO-2"],
+   "note": "multi-step proof: substitute the second condition, factor out sin^2 + cos^2 = 1 twice to reach x^2 + y^2 = 1. Pure identity application on a given relationship"
+  },
+  {
+   "sha": "0c39c6ef3f2faebb",
+   "codes": ["C-6.3-LO-1"],
+   "note": "tan 2A = cot(A-18) needs tan written as cot of the complement before the angles can be equated; same family as sha c7c880c7 (sec/cosec version)"
+  },
+  {
+   "sha": "e255b8ac603e20fc",
+   "codes": ["C-6.2-LO-2"],
+   "note": "m^2 - n^2 expands to 4 tan t sin t and tan^2 - sin^2 = tan^2 sin^2 is an identity manipulation; the whole question is identity algebra, no angle values at all"
+  }
+ ]
+}

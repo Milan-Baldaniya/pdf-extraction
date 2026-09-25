@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1015,
+ "mappings": [
+  {
+   "sha": "4feae75a6cb9fb38",
+   "codes": ["C 1.1"],
+   "note": "Predicts bond type from the electronic configuration 2,8,6 - Bohr-model and valency reasoning, which is the body of C 1.1. No carbon compound is involved, so no outcome fits."
+  },
+  {
+   "sha": "a581287da1660f40",
+   "codes": ["C 1.1-LO-4"],
+   "note": "First two members of the bromo- homologous series - functional group plus series membership, LO-4."
+  },
+  {
+   "sha": "d00ab82fedadd2d2",
+   "codes": ["CG 1"],
+   "note": "Abundance of carbon in the atmosphere (0.03%). Occurrence figures have no competency in this frame; goal-level code used to flag the gap rather than stretch C 1.1."
+  },
+  {
+   "sha": "57220cc606349b8b",
+   "codes": ["CG 1"],
+   "note": "Abundance of carbon in the earth's crust (0.02%). Same occurrence gap as sha d00ab82fedadd2d2; these two honestly share one target and are not split."
+  },
+  {
+   "sha": "506c271b24d6b8a5",
+   "codes": ["C 1.1-LO-4"],
+   "note": "First two members of the -OH series. Mapped to LO-4, not C 1.2-LO-8, because the demand is building a homologous series; methanol and ethanol appear only as its first terms and no property of ethanol is asked."
+  },
+  {
+   "sha": "33f50e3f926e5202",
+   "codes": ["C 1.1"],
+   "note": "Period and group of carbon. A genuine competency-level fit rather than a fallback: C 1.1 opens with 'Describes classification of elements in the Periodic Table'. None of the five outcomes covers periodic position."
+  },
+  {
+   "sha": "86fbc5a19da4e1c0",
+   "codes": ["CG 1"],
+   "note": "Free and combined forms in which carbon occurs in nature. Occurrence again, with no competency to hold it; grouped with the two abundance items."
+  },
+  {
+   "sha": "2d98a2b7e2dee94e",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Second and third members of the methane (alkane) series - LO-4."
+  },
+  {
+   "sha": "2218c32c3ce801e7",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Second and third members of the ethene (alkene) series - LO-4. Same target as the methane and ethyne twins; this family honestly shares one outcome and differs only in which series is walked."
+  },
+  {
+   "sha": "ae5989f0377ac2fc",
+   "codes": ["C 1.1-LO-3"],
+   "note": "Defines 'hydrocarbon', the compound class that carbon's tetravalency and catenation generate. Not C 1.1-LO-4: no functional group, series name or general formula is asked - contrast sha 1e107c83186acbdd, which does ask for one."
+  },
+  {
+   "sha": "1e107c83186acbdd",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Defines a saturated hydrocarbon AND asks for the general formula CnH2n+2, i.e. the alkane homologous series, which puts it under LO-4 rather than with the bare 'what is a hydrocarbon' item."
+  },
+  {
+   "sha": "7f84fbfc07d1cfd4",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Second and third members of the ethyne (alkyne) series - LO-4."
+  },
+  {
+   "sha": "4e9e7a4cd15887c9",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Defines a homologous series (same functional group, CH2 difference) - the definitional core of LO-4."
+  },
+  {
+   "sha": "b1a4e10b1c037975",
+   "codes": ["C 1.2-LO-8"],
+   "note": "POOR FIT. Fermentation is the PREPARATION of ethanol and LO-8 covers only its properties; no outcome in the frame covers how ethanol is made. LO-8 cited as the only code that names ethanol at all."
+  },
+  {
+   "sha": "56388b473e3192ce",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Names CH3CH2OH and identifies its functional group. Naming and functional group, so LO-4, not C 1.2-LO-8: ethanol is named but none of its properties is asked."
+  },
+  {
+   "sha": "bb675d0cbe8ac2b3",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Next homologue of C2H4 and C4H6 - series construction, LO-4."
+  },
+  {
+   "sha": "aa4771cb114ad019",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Names the series with general formula CnH2n (alkenes) - LO-4."
+  },
+  {
+   "sha": "d0c217a4b5ddb952",
+   "codes": ["C 1.1-LO-4"],
+   "note": "IUPAC names for CH3CH2OH and CH3CHO - naming from the functional group, LO-4."
+  },
+  {
+   "sha": "574455436050d0b8",
+   "codes": ["C 1.1-LO-3"],
+   "note": "Catenation and its cause (strong C-C bond) - LO-3 verbatim."
+  },
+  {
+   "sha": "64d2e6cec651c890",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Fourth member of the alkane series by name and formula - LO-4."
+  },
+  {
+   "sha": "dad636ba6c206b53",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Sorts five MOLECULAR FORMULAE by the CnH2n+2 rule. Discriminated by general formula, so LO-4; the structure-reading twin of this task (sha c25ff55f803a573f) went to C 1.3-LO-4 instead."
+  },
+  {
+   "sha": "69ec6c4930fa3af2",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Air is excluded because ethanol would be oxidised to ethanoic acid - that oxidation is squarely LO-8, which is why this fermentation item fits where sha b1a4e10b1c037975 does not."
+  },
+  {
+   "sha": "87a2f306942d40fb",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Identifies C2H6O as ethanol from its use as a fuel. Cited under LO-8 (properties and uses of ethanol) rather than LO-4, because the discriminating fact is the fuel use, not a naming rule."
+  },
+  {
+   "sha": "786bd77696af0540",
+   "codes": ["C 1.1-LO-4", "C 1.3-LO-4"],
+   "note": "Two demands: name the three-carbon alcohol (C 1.1-LO-4) and write its structure (C 1.3-LO-4). Naming leads because the chain length and the -OH group gate the structure."
+  },
+  {
+   "sha": "0f5129e5ed0233f3",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Ester from ethanoic acid and ethanol with an acid catalyst - esterification, named explicitly in LO-8."
+  }
+ ]
+}

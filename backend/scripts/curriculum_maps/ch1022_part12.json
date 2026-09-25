@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "5b69f7a413b5ea38",
+   "codes": ["C 2.4-LO-3", "C 8.1-LO-5"],
+   "note": "An experiment that varies length, thickness and material one at a time - LO-3 built empirically rather than recalled - with the ammeter-and-cell circuit as the instrument (LO-5). The temperature sub-part is outside LO-3's list of factors."
+  },
+  {
+   "sha": "8073fe559ff99b57",
+   "codes": ["C 2.4-LO-2"],
+   "note": "Inverts both combination rules at once: sum 9 and product 18 recovered from the series and parallel results. Entirely LO-2, and the hardest algebra in the chapter without leaving that one outcome."
+  },
+  {
+   "sha": "c44d3c01b2d0cc7b",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "All values come from the diagram (LO-5); the work is a parallel pair in series with R1 (LO-2) then I = V/R and V = IR1 (LO-1)."
+  },
+  {
+   "sha": "1629ed5915839b03",
+   "codes": ["C 2.4-LO-2", "C 8.1-LO-5"],
+   "note": "Two three-resistor arms between the same nodes reduced in series then paralleled. No current is asked for, so LO-2 alone on the content side; LO-5 because the lettered network is only in the figure."
+  },
+  {
+   "sha": "ae8870665a474976",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Part (a) evaluates a series total and its current; part (b) asks for the circuit diagram (LO-5) and the derivation of Rs = R1 + R2 + R3, which needs equal current and additive PDs (LO-1). A derive-and-substitute pair on the same combination."
+  },
+  {
+   "sha": "6c00928c4d77e2b3",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-3", "C 8.1-LO-5"],
+   "note": "Three unrelated sub-parts: how many equal resistors in parallel meet a line current (LO-2), naming the rheostat as the current-regulating component (LO-5's component knowledge), and a wire doubled on itself, which halves length and doubles area (LO-3). The R = V/I step in (a) was dropped under the three-code cap."
+  },
+  {
+   "sha": "b2062c80fcedbde0",
+   "codes": ["C 2.4-LO-1", "C 8.1-LO-5", "C 2.5-LO-1"],
+   "note": "One sub-part each for the three outcomes: state Ohm's law (LO-1), give the standard symbols for a variable resistance and a voltmeter (LO-5's symbol clause, the only item in the chapter that asks for symbols directly), and find the power at half the rated voltage (C 2.5-LO-1)."
+  },
+  {
+   "sha": "e24dddcfd89d9b28",
+   "codes": ["C 2.4-LO-3", "C 2.4-LO-2"],
+   "note": "Quartering the wire is the LO-3 length step and the four-way parallel join is LO-2, giving R/16. Same pairing as the bent-wire items, but stated in general symbols rather than with numbers."
+  },
+  {
+   "sha": "8539f1e6a012600e",
+   "codes": ["C 2.4-LO-1", "C 2.4-LO-2", "C 8.1-LO-5"],
+   "note": "Ohm's law inverted to find the lamp's resistance (LO-1), then the effect of adding a parallel branch on a branch current and a PD (LO-2), with an explicitly demanded circuit diagram (LO-5). The reasoning about what does and does not change is the graded part."
+  },
+  {
+   "sha": "7af1e48c845997f0",
+   "codes": ["C 2.4-LO-2", "C 2.5-LO-1", "C 8.1-LO-5"],
+   "note": "Five sub-parts: parallel reduction (LO-2), power dissipated (C 2.5-LO-1), and the comparison of two ammeter readings (LO-5). The V = IR sub-parts are the shared connective step and were dropped under the cap."
+  },
+  {
+   "sha": "813259ca4088f3e6",
+   "codes": ["C 2.4-LO-2", "C 2.5-LO-2", "C 2.5-LO-1"],
+   "note": "Derivation of the three-resistor parallel rule (LO-2) bolted to a fuse-selection problem: I = P/V for the 1 kW iron (C 2.5-LO-1) then choosing the fuse above it (C 2.5-LO-2). The halves are unrelated, so all three codes earn their place."
+  },
+  {
+   "sha": "92239dac32427122",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Per-appliance kWh, daily total, monthly bill, and what determines the rate of energy delivery - every sub-part is power-and-energy work, which LO-1 owns outright."
+  },
+  {
+   "sha": "f2d289cb4363e165",
+   "codes": ["C 2.4-LO-2", "C 2.5-LO-1"],
+   "note": "Derives how total power behaves for equal bulbs in series (P/n) and in parallel (sum), so the combination rules (LO-2) are being used to predict power (C 2.5-LO-1). Unusually, the passage asks for general results rather than numbers."
+  },
+  {
+   "sha": "6dea90f73a1ba9b5",
+   "codes": ["C 2.4", "C 2.5-LO-2"],
+   "note": "Short circuit is named in the C 2.4 competency but in no outcome, and the fuse rating half is C 2.5-LO-2. The rest of the passage - three-core cable, earth wire, switches in the live wire - is domestic wiring practice that no outcome in this set covers. Poor fit overall."
+  },
+  {
+   "sha": "5048375ae6c683b9",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-2"],
+   "note": "Choosing which ammeter and voltmeter suit an expected reading, given ranges and least counts - LO-5's meter clause used as instrument selection. One sub-part asks which combination gives maximum resistance (LO-2)."
+  },
+  {
+   "sha": "fcd1b8e9b1e2a254",
+   "codes": ["CG 2"],
+   "note": "MISFILED QUESTION: the passage and all four sub-parts are about a D.C. generator, slip rings versus commutator, Fleming's right-hand rule and reversing a motor - Magnetic Effects of Electric Current, not this chapter. No competency or outcome in the legal set touches electromagnetic induction, so only the goal can be cited. This item should be re-filed rather than mapped."
+  },
+  {
+   "sha": "9147a0596ea4cc64",
+   "codes": ["C 2.4-LO-3", "C 2.5-LO-2"],
+   "note": "Reads a resistivity table to rank conductors and pick a heating-element material (LO-3, with LO-2 for the heater application). Data defect: the table gives nichrome as 10.0e-8 ohm m, identical to iron and roughly a tenth of the accepted value, so it does not actually support the stored answer of nichrome."
+  },
+  {
+   "sha": "9d8e67221232be70",
+   "codes": ["C 2.4-LO-3", "C 2.4-LO-1"],
+   "note": "Defines resistivity, its unit, and how it differs from resistance, then handles a stretched conductor at constant volume. LO-3 carries most of it; LO-1 covers the resistance side of the contrast."
+  },
+  {
+   "sha": "daa2b9e8ed0dd8b0",
+   "codes": ["C 2.4-LO-2"],
+   "note": "Diagnoses a house wired in series and compares which combination gives the smaller resultant. Both are properties of the two combinations, so a single outcome; the electrician framing adds no second demand."
+  },
+  {
+   "sha": "8c7303b2811e3c83",
+   "codes": ["C 2.4-LO-3", "C 2.5-LO-2"],
+   "note": "Table-based material selection: why tungsten suits a lamp filament (LO-2's named device) and which of two metals conducts better (LO-3). Note several exponents in the stored table are OCR-truncated ('1.62 X 10', '2.63 X 10-')."
+  },
+  {
+   "sha": "3e9b29df4c1fbcee",
+   "codes": ["C 2.4-LO-1", "C 8.1"],
+   "note": "Compares students' V and I tables against an ideal one and extracts a resistance. The graded skill is testing data against the proportionality (C 8.1), with LO-1 supplying the law and the 2 ohm answer. Not LO-5: the readings are tabulated, not taken off a scale."
+  },
+  {
+   "sha": "4d6f6c6ceca9ae07",
+   "codes": ["C 2.4-LO-2", "C 8.1"],
+   "note": "Judges which student's equivalent-resistance entry is right and evaluates a small network (LO-2), with the comparison of tabulated claims against the rules as the C 8.1 step. Data defect: the reference table labels the parallel row with the series formula R1 + R2 = Req, so as stored it contradicts itself."
+  },
+  {
+   "sha": "86d1e83e7959ee3d",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Ranks conductors, alloys and insulators from a resistivity table and asks what makes a good conductor. Pure LO-3; unlike the sibling table items there is no device or heating application in the sub-parts."
+  },
+  {
+   "sha": "22508a3e0a944cc5",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Identifies the combination from the diagram and computes the current. LO-5 is needed because the 20 V supply appears nowhere in the stem and is read from the figure; LO-2 for the series sum and LO-1 for I = V/R."
+  },
+  {
+   "sha": "43d6c9499525dac9",
+   "codes": ["C 2.5-LO-2", "C 2.5-LO-1", "C 2.4-LO-2"],
+   "note": "The passage sets up H = I^2Rt and P proportional to R in series, 1/R in parallel: brightness and heat in kJ are LO-2, the resistance from a power rating is C 2.5-LO-1, and the series/parallel dependence is C 2.4-LO-2."
+  }
+ ]
+}

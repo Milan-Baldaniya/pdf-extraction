@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22906,
+ "mappings": [
+  {"sha": "2ace3e703e55e594", "codes": ["C-8.2-LO-3"], "note": "One marble from five equally likely. Simple event, LO-3."},
+  {"sha": "e0eee4fc33405fd2", "codes": ["C-8.2-LO-3"], "note": "Vowels among the 11 letters of PROBABILITY, single draw. Simple event, LO-3."},
+  {"sha": "0c334f5792b3a899", "codes": ["C-8.2-LO-3"], "note": "One die, 'at most 2' meaning faces 1 and 2. Simple event, LO-3; one die is not a compound experiment."},
+  {"sha": "98980a150af8431d", "codes": ["C-8.2-LO-4"], "note": "Applies P(not E) = 1 - P(E) to a given probability. Complement rule only, LO-4; no sample space is counted, so LO-3 does not fit."},
+  {"sha": "bc62faef06473ab9", "codes": ["C-8.2-LO-2"], "note": "A lemon-only bag makes an orange candy impossible, so P = 0. The point is the lower bound of the probability range, LO-2, not a favourable count."},
+  {"sha": "cc196619e05c02c2", "codes": ["C-8.2-LO-4"], "note": "'Not defective' is the complement of the 12 defective bulbs. Complement outcome, LO-4."},
+  {"sha": "ed2e7ac8d3f51397", "codes": ["C-8.2-LO-4"], "note": "'Neither red nor a queen' is the complement of a union, needing care not to double-count the two red queens. The clearest complement-of-a-compound-event item in the chapter, LO-4."},
+  {"sha": "9fcd5ba890495b3f", "codes": ["C-8.2-LO-3"], "note": "Consonants among 26 letters. The event is stated positively and the count is a direct 26 - 5, so LO-3 rather than the complement outcome LO-4."},
+  {"sha": "dd4f33b503852ec4", "codes": ["C-8.2-LO-3"], "note": "Perfect squares among cards 3 to 50; the only subtlety is that n(S) = 48, not 50. Simple event, LO-3."},
+  {"sha": "d3c2b52068c78006", "codes": ["C-8.2-LO-3"], "note": "'Multiple of 3 or 7' over 20 tickets, handled by pooling favourable numbers with no overlap. A single draw, so LO-3; LO-4's compound events are cards, dice and coins."},
+  {"sha": "647f409c7a26427f", "codes": ["C-8.1-LO-4", "C-8.2-LO-3"], "note": "The whole difficulty is realising the sample space is the 7 possible leftover weekdays, not the 365 days: that is C-8.1-LO-4 (lists the sample space of a random experiment). LO-3 then covers the routine 1/7."},
+  {"sha": "7ed3e2a593ea47dc", "codes": ["C-8.2-LO-4"], "note": "Two dice, product 6, over the 36-pair space. Compound dice event, LO-4."},
+  {"sha": "c3f257fc4e7b9a4d", "codes": ["C-8.2-LO-3"], "note": "Spinner with 8 equally likely sectors, factors of 8 favourable. Simple event, LO-3."},
+  {"sha": "5e88c3eccec95156", "codes": ["C-8.2-LO-3"], "note": "Divisible by both 2 and 3, i.e. by 6, among 25 cards. Single draw with a conjunctive condition, LO-3."},
+  {"sha": "44e973cb3277eab2", "codes": ["C-8.2-LO-3"], "note": "Primes among 1 to 30. Simple event, LO-3."},
+  {"sha": "e515d23e7c657e5a", "codes": ["C-8.2-LO-3"], "note": "Primes below 23 among 90 discs, so the favourable count is bounded by 23 while n(S) stays 90. Simple event, LO-3."},
+  {"sha": "d4b34321bda5c656", "codes": ["C-8.2-LO-3", "C-8.1"], "note": "Requires the mean of the ten listed values (7) before any probability can be found, so it reaches into the central-tendency competency C-8.1 as well as the simple-event LO-3. C-8.1's wording says 'grouped frequency distributions' and this list is ungrouped, which is the closest available fit."},
+  {"sha": "1f713dc67190c087", "codes": ["C-8.2-LO-3"], "note": "One die, prime face. Simple event, LO-3."},
+  {"sha": "ff5daafedc4f96c4", "codes": ["C-8.2-LO-3"], "note": "'Odd or less than 4' on one die, resolved by pooling {1,2,3,5} without double-counting. Single die, so a simple event, LO-3."},
+  {"sha": "af293e8ff4ec64ca", "codes": ["C-8.2-LO-4"], "note": "Two dice, sum 9, four favourable ordered pairs out of 36. Compound dice event, LO-4."},
+  {"sha": "39b09040f598fa30", "codes": ["C-8.2-LO-2"], "note": "Rejects 1.1 as a probability. Pure range statement, LO-2."},
+  {"sha": "8440797ec821d9e5", "codes": ["C-8.2-LO-4"], "note": "'Not red' is the complement of the red balls. Complement outcome, LO-4, even though the answer counts the blacks directly."},
+  {"sha": "25a1cc24f4bce47e", "codes": ["C-8.2-LO-4"], "note": "Three coins, exactly two heads, over the eight-outcome space. The largest coin sample space in the chapter and squarely a compound coin event, LO-4."},
+  {"sha": "bbf8b83c3926b467", "codes": ["C-8.2-LO-3"], "note": "|x| < 3 over nine listed numbers. Single draw, LO-3."},
+  {"sha": "a863096528bed761", "codes": ["C-8.2-LO-3"], "note": "Even prime on a die, i.e. only the face 2. Simple event, LO-3."}
+ ]
+}

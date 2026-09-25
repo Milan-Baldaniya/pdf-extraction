@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1015,
+ "mappings": [
+  {
+   "sha": "f25edac0344d2f51",
+   "codes": ["C 1.1-LO-4", "C 1.3-LO-4"],
+   "note": "Name AND structure of a four-carbon alcohol. Both demands are graded, so both LO-4s are cited; naming leads because it fixes the chain length and the -OH group. Same treatment as the three-carbon twin, sha 786bd77696af0540."
+  },
+  {
+   "sha": "c2bd383c4839d1cc",
+   "codes": ["C 1.1-LO-4", "C 1.3-LO-4"],
+   "note": "Name AND structure of a four-carbon aldehyde - same dual demand as the alcohol twin, differing only in functional group."
+  },
+  {
+   "sha": "e1900a05c2db8a44",
+   "codes": ["C 1.3"],
+   "note": "Names hydrogenation of vegetable oil - an addition reaction. No outcome covers reaction types; competency-level C 1.3 cited."
+  },
+  {
+   "sha": "0cf10c31d2ad539f",
+   "codes": ["C 1.3"],
+   "note": "Sooty yellow flame from incomplete combustion of an unsaturated hydrocarbon. Combustion and flame have no outcome in this frame; C 1.3 competency cited."
+  },
+  {
+   "sha": "df48c39c4208d200",
+   "codes": ["C 1.3"],
+   "note": "Whether combustion always shows a flame. Same combustion gap; C 1.3 competency."
+  },
+  {
+   "sha": "a40e0388da0271cd",
+   "codes": ["C 1.3"],
+   "note": "Combustion is exothermic - classifying a chemical change by energy, which sits under C 1.3 at competency level; no outcome covers it."
+  },
+  {
+   "sha": "c128e11766b6d995",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Identifies the ketone and carboxylic acid groups from condensed formulae - 'identifies functional groups', LO-4."
+  },
+  {
+   "sha": "6fb2f01dac10fa6e",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Derives butanol from butane, i.e. replaces a hydrogen with -OH to move between series. Functional group plus series reasoning, LO-4; only a molecular formula is wanted, so not C 1.3-LO-4."
+  },
+  {
+   "sha": "3c2f354cf8a0d706",
+   "codes": ["C 1.3-LO-4"],
+   "note": "Only a structural formula is asked for (propene), so C 1.3-LO-4 alone - contrast the 'name and structure' items, which carry C 1.1-LO-4 as well."
+  },
+  {
+   "sha": "7af71f58a78aae54",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Vinegar as dilute ethanoic acid - a property/use of ethanoic acid, LO-8. Duplicate target of the MCQ sha cfc5bbc527cf0cf6."
+  },
+  {
+   "sha": "c1bcbf798f79934f",
+   "codes": ["C 1.3-LO-4"],
+   "note": "Writes the electron dot structure of ethane, a carbon compound - LO-4 of C 1.3 exactly. Its bond-count twin (sha 655d34c09582a925) goes to C 1.1-LO-3 instead, because that one asks for a number, not a representation."
+  },
+  {
+   "sha": "655d34c09582a925",
+   "codes": ["C 1.1-LO-3"],
+   "note": "Number of covalent bonds in ethane. Bond counting applies tetravalency plus one catenation bond, so LO-3; the representation twin of this item is sha c1bcbf798f79934f."
+  },
+  {
+   "sha": "4f9063ef230bd09f",
+   "codes": ["C 1.1-LO-3"],
+   "note": "Bond count for propane - same tetravalency-plus-catenation rule as ethane and butane. This trio honestly shares one outcome."
+  },
+  {
+   "sha": "f9f569dc29eabd17",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Names the -OH and >C=O groups - 'identifies functional groups', LO-4."
+  },
+  {
+   "sha": "a9d06a8217cd94de",
+   "codes": ["C 1.1-LO-3"],
+   "note": "Bond count for butane - same family and same outcome as the ethane and propane counts."
+  },
+  {
+   "sha": "0a3ddf1c85dc5d61",
+   "codes": ["C 1.1"],
+   "note": "Why atoms bond at all (octet/inert-gas stability). General bonding from atomic structure, which is C 1.1; nothing carbon-specific, so no outcome applies."
+  },
+  {
+   "sha": "e38d7fbbdfab4341",
+   "codes": ["C 1.1"],
+   "note": "Bond in N2. Not a carbon compound, so C 1.3-LO-4 does not reach it; C 1.1 (compound formation from valency) cited."
+  },
+  {
+   "sha": "32cd19c3e0a3b059",
+   "codes": ["C 1.1"],
+   "note": "Why covalent compounds conduct poorly (no free ions). The frame has no outcome for the physical properties of covalent compounds; competency cited, and this is the explanatory version of the MCQ family at sha 335c51066a89387f."
+  },
+  {
+   "sha": "9e4129e55ddb6f38",
+   "codes": ["C 1.3-LO-4"],
+   "note": "Draws the electron dot structure of CH3Cl, a carbon compound - LO-4 of C 1.3 applies directly."
+  },
+  {
+   "sha": "75854d9af31c7986",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Names the series with general formula CnH2n-2 (alkynes) - LO-4, the twin of the CnH2n item at sha aa4771cb114ad019."
+  },
+  {
+   "sha": "d6c846fa385fe7f3",
+   "codes": ["C 1.3-LO-4"],
+   "note": "Draws the structure of ethene - a representation task on a carbon compound, C 1.3-LO-4."
+  },
+  {
+   "sha": "525b1e9edbe76bff",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Alcohol is neutral to litmus - a chemical property of ethanol, LO-8. Contrasted with ethanoic acid's acidity elsewhere in the chapter, which is the same outcome."
+  },
+  {
+   "sha": "7b3f1a5dba7d562c",
+   "codes": ["C 1.1"],
+   "note": "Bond in O2. Non-carbon molecule, so outside C 1.3-LO-4's wording; C 1.1 cited, as for the N2 twin."
+  },
+  {
+   "sha": "9ae0351285cea399",
+   "codes": ["C 1.2-LO-8"],
+   "note": "POOR FIT. Industrial production of alcohol by fermentation is a preparation, and LO-8 covers only properties; cited because it is the sole code naming ethanol. Same gap as sha b1a4e10b1c037975."
+  },
+  {
+   "sha": "7e7be50c31d81ace",
+   "codes": ["C 1.3-LO-4"],
+   "note": "Draws the structure of ethyne - representation of a carbon compound, C 1.3-LO-4."
+  }
+ ]
+}

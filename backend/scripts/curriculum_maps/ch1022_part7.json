@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "79406afa18234399",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-1"],
+   "note": "Hands over a component list and demands a labelled diagram - LO-5's drawing clause is the graded skill, with LO-1 second as the V-on-I dependence the circuit is built to study. No value is computed."
+  },
+  {
+   "sha": "61fd5bdcef191c51",
+   "codes": ["C 2.4"],
+   "note": "Electrons per second from Q = It and n = Q/e. The current-charge relation and charge quantisation have no outcome in this set; cited at competency level with the rest of the I = Q/t family."
+  },
+  {
+   "sha": "8853ed91b8ec5649",
+   "codes": ["C 2.4-LO-3", "C 2.4-LO-1"],
+   "note": "Contrasts resistance with resistivity - LO-3 owns the material constant and its ohm-metre unit, LO-1 owns resistance as the circuit quantity measured in ohm. The item exists precisely to separate the two, so both are cited."
+  },
+  {
+   "sha": "05db0648b3e8ca47",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Total power a 5 A line can carry divided by the lamp rating, all via P = VI. Only power is graded; unlike the fuse items there is no protective device, so C 2.5-LO-2 is not involved."
+  },
+  {
+   "sha": "bab63de15ff413ec",
+   "codes": ["C 2.4-LO-1", "C 2.5-LO-1"],
+   "note": "Explicitly two-part: I = V/R first (LO-1), then the wattage P = VI (C 2.5-LO-1). Both outcomes are graded separately by the question's own structure."
+  },
+  {
+   "sha": "2c7dd1442c6d06bb",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-1"],
+   "note": "Heat rate is the given and the PD is the unknown, so H = I^2Rt (LO-2) is inverted to get I and then V = IR (LO-1) finishes it. The reversed direction is what distinguishes this from the plain heat-calculation items."
+  },
+  {
+   "sha": "683ff1f09acaa0d8",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Both parts land on LO-2: inert gas protecting a lamp filament, and what a 5 A fuse rating means. This is one of the few items where two sub-parts honestly share a single outcome rather than needing a second code."
+  },
+  {
+   "sha": "7eb603e776db585f",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Straight substitution of I, R and t into H = I^2Rt with a unit conversion for the minutes. No circuit combination and no power rating, so LO-2 alone."
+  },
+  {
+   "sha": "cddc1bab8bec0406",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-1", "C 8.1"],
+   "note": "Three graded steps: read two V-I lines (C 8.1, since LO-5 covers only circuit diagrams and meters), convert slope to resistance (LO-1), then rank heat per unit time by R (LO-2). The heat comparison is the question asked, so LO-2 leads."
+  },
+  {
+   "sha": "d8378c833ea84401",
+   "codes": ["C 2.5-LO-1"],
+   "note": "I = P/V for a 2 kW geyser compared against a 5 A line. Deliberately not paired with C 2.5-LO-2: no fuse or heating element is in question, only whether the line's current rating is exceeded - which is what separates it from the near-identical kettle-fuse item in part 1."
+  },
+  {
+   "sha": "762d60b44e79a165",
+   "codes": ["C 2.4-LO-3", "C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Thickness sets the resistance (LO-3), resistance sets the branch current (LO-1), and the answer must be expressed as which of two ammeters in the drawn circuit reads higher (LO-5). All three steps are separately graded."
+  },
+  {
+   "sha": "666b1ed7b4cbfebe",
+   "codes": ["C 2.5-LO-2"],
+   "note": "What a fuse is and why it is in series with the device - the fuse application of LO-2. The series placement is a safety-wiring fact, not an equivalent-resistance calculation, so C 2.4-LO-2 does not apply."
+  },
+  {
+   "sha": "767c23eae677221f",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Both parts sit inside LO-1: R = V^2/P from the rating, then daily consumption expressed in kWh, which is that outcome's named endpoint. No heat or device behaviour is graded."
+  },
+  {
+   "sha": "9772b853b532c4b1",
+   "codes": ["C 2.4"],
+   "note": "Charge from W = QV across a 10 V difference. Numerical but entirely inside the potential-difference definition, which no outcome covers; LO-1 would be false since resistance and current never appear."
+  },
+  {
+   "sha": "d51222800f3f3654",
+   "codes": ["C 2.4"],
+   "note": "Charge from Q = It over four hours. Same uncovered current-charge relation; the lamp is decorative and no power, energy or resistance is asked for."
+  },
+  {
+   "sha": "98d1d7013de64323",
+   "codes": ["C 2.4"],
+   "note": "Current from Q = It, the inverse of the item above. Recorded under the same missing-outcome for the definition of current."
+  },
+  {
+   "sha": "c2fadd48089881e1",
+   "codes": ["C 2.4"],
+   "note": "Current from an electron count plus the direction of conventional current. Two separate uncovered areas - charge quantisation and current direction - neither named in any outcome."
+  },
+  {
+   "sha": "cbd75d7a2b4f3bc2",
+   "codes": ["C 2.4"],
+   "note": "Electron count per second and charge per minute for a microamp beam. Same I = Q/t and q = ne gap; the electron-beam context has no outcome anywhere in this curriculum set."
+  },
+  {
+   "sha": "8904929a41fd1201",
+   "codes": ["C 2.4-LO-1"],
+   "note": "I = V/R with a millivolt conversion. Plain substitution into the finished relation, the same family as the 220 V / 4 A item, with unit handling as the only extra step."
+  },
+  {
+   "sha": "62d1e8d691624ff7",
+   "codes": ["C 2.4"],
+   "note": "Terminal PD from V = W/Q. Numerically identical in form to the Ohm's law substitutions but uses the definition of the volt instead, which has no outcome - the clearest demonstration of that gap."
+  },
+  {
+   "sha": "e02c680776f1ed57",
+   "codes": ["C 2.4-LO-1"],
+   "note": "V = IR solved for V. Belongs with the substitution family rather than the statement family: the law is assumed and only the arithmetic is graded."
+  },
+  {
+   "sha": "60bc1c1a69458a7f",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Defines an electric circuit and the open/closed distinction through the plug key. Placed with LO-5 as the only circuit-literacy outcome, though note the item asks for no diagram or meter reading, so the fit is by subject rather than by verb."
+  },
+  {
+   "sha": "96fff87ff4d5e1e9",
+   "codes": ["C 2.4-LO-1"],
+   "note": "Qualitative account of resistance opposing current - the relation of LO-1 argued in words rather than symbols. Not LO-3: nothing about length, area or choice of material is asked."
+  },
+  {
+   "sha": "1286b97bfd6b4662",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-3"],
+   "note": "Names tungsten for a lamp filament (LO-2's named device) and the material properties that qualify it (LO-3). Same pairing as the other filament-material items in parts 4 and 5."
+  },
+  {
+   "sha": "c9ebbd51627a73ed",
+   "codes": ["C 2.4-LO-3", "C 2.4-LO-1"],
+   "note": "A thicker wire of the same material and length lowers R via R = rho*l/A (LO-3) and so raises I = V/R (LO-1). The chained pair is what distinguishes it from the static 'how does R vary with A' items in part 3."
+  }
+ ]
+}

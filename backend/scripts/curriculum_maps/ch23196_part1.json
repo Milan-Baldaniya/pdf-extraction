@@ -1,0 +1,30 @@
+{
+ "chapter_id": 23196,
+ "mappings": [
+  {"sha": "23f262146a29201a", "codes": ["C-7.2-LO-1"], "note": "ratio of circumferences gives ratio of radii: tests that perimeter scales linearly in r, the perimeter half of the perimeter-vs-area distinction; no central angle, so not LO-1"},
+  {"sha": "9a41f7ac57114baf", "codes": ["C-7.1-LO-3"], "note": "annulus between two concentric circles is a composite region formed by subtracting one circle from another; no angle and no chord, so not LO-1 or LO-2"},
+  {"sha": "b20f4dc37f904f34", "codes": ["C-7.1-LO-3"], "note": "square minus an inscribed quadrant: circle-part combined with a polygon, the defining case of LO-3 rather than a bare sector area"},
+  {"sha": "cfeb7f4622e8d48a", "codes": ["C-7.1-LO-1"], "note": "area of a 240 degree sector is the whole question; the second circle is only a re-expression of that area, so the skill is sector area for a given central angle"},
+  {"sha": "10a4b944be0d6af9", "codes": ["C-7.1-LO-3"], "note": "path around a lawn is an annulus, a region built by subtracting one circle from a larger one"},
+  {"sha": "732cf5b2d0c9a272", "codes": ["C-7.2-LO-1"], "note": "goes from a given AREA to the PERIMETER of the same semicircular figure; the trap is that the perimeter is arc plus diameter, exactly the LO-1 of C-7.2"},
+  {"sha": "452bae820b9af200", "codes": ["C-7.1-LO-3"], "note": "circle inscribed in a square: the polygon fixes the radius, so this is a circle-and-polygon composite rather than a plain area recall"},
+  {"sha": "da2c3d5b216a9bda", "codes": ["C-7.1-LO-3"], "note": "two circles in external contact with their areas added; area additivity across combined circles is LO-3, not a single sector"},
+  {"sha": "3cfb968a45b3d9dd", "codes": ["C-7.1-LO-3", "C-7.2-LO-1"], "note": "ring area, but the data are the two CIRCUMFERENCES, so the student must cross from perimeter to radius before the composite-area step"},
+  {"sha": "e90e0a3cf10d7b19", "codes": ["C-7.2-LO-1", "C-7.1-LO-1"], "note": "perimeter of a quadrant: the distractor 11 cm is the bare arc, so the point is perimeter = arc + two radii; arc length itself is LO-1"},
+  {"sha": "a96c66769ea85042", "codes": ["C-7.2-LO-1"], "note": "doubling the circumference quadruples the area: literally the perimeter-versus-area contrast, linear against quadratic"},
+  {"sha": "ae1a1ee3ea8d8abd", "codes": ["C-7.1"], "note": "percentage change in the area of a whole circle; no sector, no segment, no composite and no perimeter, so no learning outcome fits and the competency is the honest level - see report, content gap"},
+  {"sha": "77a40ab63883e5e2", "codes": ["C-7.2-LO-1"], "note": "perimeter of a semicircular protractor is (pi + 2)r, not pi*r: the whole item is knowing what the perimeter of a figure with a circular part includes"},
+  {"sha": "15c45d155db8e937", "codes": ["C-7.1-LO-1"], "note": "sector area from r = 14 and a stated central angle of 45 degrees, the plain LO-1 computation"},
+  {"sha": "13dc7d312151686f", "codes": ["C-7.1-LO-3"], "note": "AREAS of two circles add to a third: R^2 = R1^2 + R2^2. Paired deliberately with the circumference twin below, which goes to C-7.2-LO-1"},
+  {"sha": "9cead9f9e9e5b1a2", "codes": ["C-7.2-LO-1"], "note": "CIRCUMFERENCES of two circles add to a third: R = R1 + R2. Same figure as the previous item but the perimeter answer, which is the distinction C-7.2-LO-1 names"},
+  {"sha": "8fc1d5900031d436", "codes": ["C-7.2-LO-1"], "note": "equal perimeters, unequal areas between a circle and a square: the perimeter-area distinction stated as a comparison"},
+  {"sha": "5b99a5cece8fb3aa", "codes": ["C-7.2-LO-1"], "note": "same equal-perimeter premise as the previous item but asks for the ratio of areas; still the perimeter-to-area crossing, not a sector"},
+  {"sha": "4ed76428d6ae3afc", "codes": ["C-7.1-LO-3"], "note": "one park equal in area to two others: area additivity over combined circles, the LO-3 family, not the circumference family"},
+  {"sha": "ddf68ba6e15a1839", "codes": ["C-7.1-LO-3"], "note": "square inscribed in a circle: the circle fixes the diagonal, a circle-and-polygon composite"},
+  {"sha": "ac151c9936d2170d", "codes": ["C-7.2-LO-1"], "note": "circumferences add, so diameters add: the linear-perimeter result, deliberately different from the area twin two items earlier"},
+  {"sha": "454ba478126367f3", "codes": ["C-7.1-LO-3"], "note": "areas of two circles add to a third; the answer needs 24^2 + 7^2, the quadratic behaviour, so this is the area branch not the perimeter branch"},
+  {"sha": "f1b77054371bbaad", "codes": ["C-7.2-LO-1"], "note": "wire bent into a circle: its LENGTH becomes the circumference and the item then asks for the AREA, so it is the perimeter-to-area crossing"},
+  {"sha": "f0ba835269953ee5", "codes": ["C-7.2-LO-1"], "note": "circumference to radius only; the circumference is the object of the question, which is the perimeter-facing outcome of this chapter"},
+  {"sha": "6a78d528dbc8f263", "codes": ["C-7.1-LO-3"], "note": "area of a circular path as pi(R^2 - r^2): an annulus, a composite of two circles, and the reason statement is that composite formula"}
+ ]
+}

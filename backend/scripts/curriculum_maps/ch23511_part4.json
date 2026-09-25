@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23511,
+ "mappings": [
+  {
+   "sha": "9231b431aa89c781",
+   "codes": ["C-6.1-LO-2"],
+   "note": "sin 90, cos 45 and cosec 30 substituted and combined; spans the 90 and 30/45 rows of the table with no identity anywhere"
+  },
+  {
+   "sha": "e5c9f5967a062773",
+   "codes": ["C-6.1-LO-2"],
+   "note": "root3 and 1/root3 read back as tan 60 and tan 30, then both A and B solved. Wider ask than its near-twin sha 06babd19ce6db2e9 (which stops at A) but the trigonometric demand is identical"
+  },
+  {
+   "sha": "f25030ed624de339",
+   "codes": ["C-6.1-LO-2"],
+   "note": "root3/2 read as cos 30 in one equation and sin 60 in the other - the student must know the value sits in two different rows. Still pure table work, not a complementary rewrite"
+  },
+  {
+   "sha": "34b3f8d5148aa899",
+   "codes": ["C-6.1-LO-2"],
+   "note": "sin 2t = root3/2 fixes 2t = 60 and cos 60 is then looked up; the double angle is cosmetic, no identity is used"
+  },
+  {
+   "sha": "147fa87b4c22f674",
+   "codes": ["C-6.1-LO-2"],
+   "note": "evaluates a compound-angle-looking expression purely by table substitution and compares against sin 90 and cos 90; the point is that the 0/90 entries differ"
+  },
+  {
+   "sha": "42a5b9d7719ad614",
+   "codes": ["C-6.1-LO-2"],
+   "note": "root3 sin t = cos t rearranges to tan t = 1/root3 and the answer is the table entry 30. The divide-by-cos step is one line, the graded object is the angle"
+  },
+  {
+   "sha": "adebb21b4b25fc7f",
+   "codes": ["C-6.1-LO-2"],
+   "note": "cos 45, sec 30 and sec 60 substituted; the secant entries make it a reciprocal-row exercise but it stays pure evaluation"
+  },
+  {
+   "sha": "4768f8c09ed3ae83",
+   "codes": ["C-6.1-LO-2"],
+   "note": "a SHOW THAT whose proof is nothing but sin phi = 1/2 giving phi = 30 and substituting cos 30; no identity is invoked, so it is table work despite the prove-that framing"
+  },
+  {
+   "sha": "5331fbd306c95d39",
+   "codes": ["C-6.1-LO-1"],
+   "note": "figure item: the angle in a semicircle is 90, then tan A = BC/AC and tan B = AC/BC are read straight off the sides and multiply to 1. A complementary argument would also give it, but the graded route is the side definition, so LO-1 not C-6.3-LO-1"
+  },
+  {
+   "sha": "67cdc31348e71983",
+   "codes": ["C-6.1-LO-1", "C-6.2-LO-2"],
+   "note": "expressing sec A and tan A through sin A is the one-ratio-determines-the-rest outcome (LO-1), but the route here is symbolic - cos A = root(1 - sin^2 A) from the Pythagorean identity (LO-2) - rather than a drawn triangle, so both codes are earned"
+  },
+  {
+   "sha": "8538b16d8c64aa76",
+   "codes": ["C-6.2-LO-2"],
+   "note": "numerator rewritten as (sin^2 + cos^2)^2 - 2 sin^2 cos^2 so it becomes the denominator; a one-identity proof"
+  },
+  {
+   "sha": "fa803d0a644138f1",
+   "codes": ["C-6.2-LO-2"],
+   "note": "same proof as sha 218c36b008b49fab with the two sides swapped; identical outcome, an honest duplicate rather than an invented distinction"
+  },
+  {
+   "sha": "5b8b79c53270d2e7",
+   "codes": ["C-6.2-LO-2"],
+   "note": "cot^2 A converted to cosec^2 A - 1 so the expression becomes 2/sin^2 A - 3. The printed solution never names the angle 60, it treats root3/2 as a number, so the identity is the graded step not the table"
+  },
+  {
+   "sha": "b38ede7c33191f1a",
+   "codes": ["C-6.2-LO-2", "C-6.1-LO-2"],
+   "note": "two real steps: the identity 1 - sin^2 = cos^2 collapses the sum to 2 sec t, and only then does cos t = 1/2 give t = 60 from the table. Unlike the pure proofs nearby this one ends in an angle"
+  },
+  {
+   "sha": "1f809e2412ebe75f",
+   "codes": ["C-6.2-LO-2"],
+   "note": "cosine mirror of sha d6fd088f9355fb00: rationalise the surd, use 1 - cos^2 = sin^2, split into cosec - cot. Same outcome, and the pair honestly shares it"
+  },
+  {
+   "sha": "484d3d3f2348357b",
+   "codes": ["C-6.2-LO-2"],
+   "note": "square the given difference, extract 2 sin cos, feed it into the sum of squares; the Pythagorean identity is used twice on a supplied relation"
+  },
+  {
+   "sha": "236ec5cde1ada0a2",
+   "codes": ["C-6.2-LO-2"],
+   "note": "the trick is spotting cos^2 - 1 = -sin^2 so the whole expression is in sin t alone; 5/7 is not a standard-angle value, so C-6.1-LO-2 cannot apply"
+  },
+  {
+   "sha": "464b960f65f23acd",
+   "codes": ["C-6.1-LO-2"],
+   "note": "tan^2 60 + sin^2 45 from the table; this is a verbatim duplicate of sha f2eedcff88edddbf, same marks and same wording"
+  },
+  {
+   "sha": "af299ade4a679ee1",
+   "codes": ["C-6.1-LO-2"],
+   "note": "verifies the sine addition formula at the specific pair 60 and 30 by evaluating both sides from the table; the formula itself is out of syllabus, so what is assessed is the substitution"
+  },
+  {
+   "sha": "82f60de104189b78",
+   "codes": ["C-6.3-LO-1"],
+   "note": "tan 2A written as cot(90 - 2A) to solve for A; 2-mark restatement of the 1-mark MCQ sha 0c39c6ef3f2faebb"
+  },
+  {
+   "sha": "8b8c0734f978a550",
+   "codes": ["C-6.1-LO-2"],
+   "note": "five-entry table evaluation; duplicate of sha 70b0d13501f00afc, reprinted here at 2 marks instead of 1"
+  },
+  {
+   "sha": "d37c857a25e25e7d",
+   "codes": ["C-6.1-LO-2"],
+   "note": "sin 2t = root3/2 then cos 60; duplicate of sha 34b3f8d5148aa899 at 2 marks"
+  },
+  {
+   "sha": "62f391c7e8ada61f",
+   "codes": ["C-6.1-LO-2"],
+   "note": "table evaluation compared against sin 90 and cos 90; duplicate of sha 147fa87b4c22f674 at 2 marks"
+  },
+  {
+   "sha": "6a3aee551ebfb304",
+   "codes": ["C-6.1-LO-2"],
+   "note": "cos 45, sec 30, sec 60 substituted; duplicate of sha adebb21b4b25fc7f at 2 marks"
+  },
+  {
+   "sha": "3d6791722135ca4b",
+   "codes": ["C-6.2-LO-2"],
+   "note": "both sides reduced to 1 + cos A using sec A = 1/cos A and 1 - cos^2 = sin^2. NOTE the printed stem has sin^2 A/(1 + cos A) while the worked solution uses (1 - cos A); only the solution's version is a true identity"
+  }
+ ]
+}

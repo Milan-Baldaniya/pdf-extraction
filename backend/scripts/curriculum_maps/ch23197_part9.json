@@ -1,0 +1,95 @@
+{
+ "chapter_id": 23197,
+ "mappings": [
+  {
+   "sha": "4f78a45b609eff25",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "jump lengths shrink by a fixed amount, so d is negative; part (i) is the seventh jump and part (ii) the cumulative distance, making both formulas separately assessable"
+  },
+  {
+   "sha": "e7f4f4bc338871f1",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "the seating-arrangement context named explicitly in C-3.2-LO-1; two row counts are indexed terms and the theatre total is a sum, so three codes rather than one"
+  },
+  {
+   "sha": "de836fe4a70c2d02",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "sales-target context: monthly sales at index 7, cumulative sales to month 12, and a comparison against a threshold; the threshold check rides on the sum, so LO-3 rather than a separate count"
+  },
+  {
+   "sha": "90fcccaa6bd58064",
+   "codes": ["C-3.2-LO-2", "C-3.1-LO-2"],
+   "note": "asks WHEN a falling temperature reaches zero -- the number of half-hour steps inferred from the situation, then converted back to a clock time; a count from context, and no sum anywhere, so this differs from the other case studies"
+  },
+  {
+   "sha": "699e786d22fa1fe8",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-2"],
+   "note": "the only demands are to WRITE the nth-term model and evaluate it in 2030; no total is ever wanted, so unlike its neighbours this carries no LO-3"
+  },
+  {
+   "sha": "86bf0a629ac47a86",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "prize-money context with negative d; the 15th prize is an indexed term and the money distributed is a sum, both stated as separate parts"
+  },
+  {
+   "sha": "5d77f4bf02eda300",
+   "codes": ["C-3.2-LO-1", "C-3.2-LO-2", "C-3.1-LO-2"],
+   "note": "a running balance, not a total, so no sum formula applies; part (i) evaluates a6 and part (ii) asks in WHAT YEAR the target is hit, which is the index found from context"
+  },
+  {
+   "sha": "9742feaa0ce8fbcc",
+   "codes": ["C-3.2-LO-2", "C-3.1-LO-3", "CG-3"],
+   "note": "toothpick totals give a quadratic in n from Sn to find how many complete rows fit in 1000; the closing part asks for the difference between a sequence and a series, which sits above any single outcome, so CG-3 carries it"
+  },
+  {
+   "sha": "7314398e6e7d1dc6",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-3"],
+   "note": "reading schedule over a 31-day month; n comes from the calendar rather than from an equation and only the monthly total is wanted, so no count and no indexed-term demand"
+  },
+  {
+   "sha": "de9e6d8f91b3befb",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "salary-with-annual-raise context; seventh-year salary is an indexed term and the seven-year total is a sum, both explicitly asked"
+  },
+  {
+   "sha": "d5cc691f5d1c83ca",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-2"],
+   "note": "the extra graded step here is reading a four-row TABLE to establish that the costs are arithmetic and extract d; the ask is then a single indexed term, with no sum"
+  },
+  {
+   "sha": "a507c5be4b09c0ba",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-3"],
+   "note": "the nth-term model is handed over, so no term formula has to be derived; the work is summing six years of costs and comparing against assets, which is LO-3 plus the contextual judgement"
+  },
+  {
+   "sha": "299adcea542e9d4b",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "free-fall distances per second form an AP; the item asks a per-second distance (indexed term) and a cumulative fall (sum), although its sub-parts (i) and (ii) are near-identically worded -- defect reported"
+  },
+  {
+   "sha": "11c39d54ebbf69ba",
+   "codes": ["C-3.1-LO-1", "C-3.1-LO-3", "C-3.2-LO-2"],
+   "note": "asks for the row-by-row list and a RECURSIVE formula a(n+1) = a(n)+3, which is the constant-difference definition itself (LO-1), then S47, then how tall a fixed stock of cans allows -- a count of terms"
+  },
+  {
+   "sha": "9333877b16b2a2c8",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-3"],
+   "note": "both parts ask cumulative practice time for a stated number of days; nothing is counted and no single day's time is wanted, so the sum formula alone accompanies the modelling"
+  },
+  {
+   "sha": "ea467e05fad948b1",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-3", "C-3.1-LO-2"],
+   "note": "unusually the TOTAL is the given: S31 = 124000 is inverted to find the first day's amount, then the 15th day is an indexed term and the 15-day running total another sum"
+  },
+  {
+   "sha": "3dcb12c3424ea7ae",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-2"],
+   "note": "production context with two known years fixing a and d; the parts ask for production in named years, all indexed terms, so no sum outcome is engaged"
+  },
+  {
+   "sha": "d16b2b256688ec20",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-3"],
+   "note": "penalty schedule with n = 10 stated; one cumulative amount is wanted, so modelling plus the sum formula and nothing else"
+  }
+ ]
+}

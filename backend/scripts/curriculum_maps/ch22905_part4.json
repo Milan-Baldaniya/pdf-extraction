@@ -1,0 +1,188 @@
+{
+ "chapter_id": 22905,
+ "mappings": [
+  {
+   "sha": "63026f6528cb8ede",
+   "codes": [
+    "C-1.2-LO-1",
+    "C-1.2-LO-2"
+   ],
+   "note": "HCF and LCM built from factorisations (LO-1), then the check step is explicitly HCF x LCM = a x b (LO-2); the question asks for both"
+  },
+  {
+   "sha": "e7a377971a71eae5",
+   "codes": [
+    "C-1.2-LO-1",
+    "C-1.2-LO-2"
+   ],
+   "note": "same two-step demand on 510 and 92 -- compute, then verify the product relation"
+  },
+  {
+   "sha": "8918ca6430724b64",
+   "codes": [
+    "C-1.2-LO-1",
+    "C-1.2-LO-2"
+   ],
+   "note": "same two-step demand on 404 and 96; the verification clause is what pulls LO-2 in beside LO-1"
+  },
+  {
+   "sha": "5f3bb38c58b84075",
+   "codes": [
+    "C-1.2-LO-3"
+   ],
+   "note": "longest rod measuring three room dimensions exactly -- a physical measuring situation resolved by HCF, so LO-3 rather than the bare computation LO-1"
+  },
+  {
+   "sha": "dbe01f116bff0b33",
+   "codes": [
+    "C-1.1-LO-2"
+   ],
+   "note": "the contradiction proof for sqrt p generalising the sqrt2/sqrt3/sqrt5 argument, complete with the p divides m-squared lemma; LO-2 is the proof outcome, LO-3 would need a surd handed over as given"
+  },
+  {
+   "sha": "46b0e8ab0c96a766",
+   "codes": [
+    "C-1.1-LO-2"
+   ],
+   "note": "primary proof that sqrt3 is irrational; LO-2 names sqrt3 explicitly"
+  },
+  {
+   "sha": "ea530a14493d18f8",
+   "codes": [
+    "C-1.1-LO-2"
+   ],
+   "note": "primary proof that sqrt5 is irrational, the third root LO-2 names. Stored answer is a stub describing the proof rather than printing it"
+  },
+  {
+   "sha": "cad5b7f49b20bb76",
+   "codes": [
+    "C-1.1-LO-2",
+    "C-1.1-LO-3"
+   ],
+   "note": "two demands in one: prove sqrt5 irrational from scratch (LO-2), then transfer that to 2 - sqrt5 (LO-3). This item is the clearest evidence the two outcomes are distinct rather than a family"
+  },
+  {
+   "sha": "0bfe23e10ca1939d",
+   "codes": [
+    "C-1.1-LO-2",
+    "C-1.1-LO-3"
+   ],
+   "note": "prove sqrt3 irrational, then deduce 7 - 2 sqrt3; same two-stage structure, so both codes"
+  },
+  {
+   "sha": "5ea0c12cbf8f59e2",
+   "codes": [
+    "C-1.2-LO-1",
+    "C-1.2-LO-2"
+   ],
+   "note": "HCF and LCM of three numbers by factorisation (LO-1), then tests whether the product relation survives three numbers -- it does not, which is precisely probing the scope of LO-2"
+  },
+  {
+   "sha": "159b23437f1a39f2",
+   "codes": [
+    "C-1.1-LO-1",
+    "C-1.2-LO-1"
+   ],
+   "note": "part one is the statement of the Fundamental Theorem, which is the states-the-FTA half of C-1.1-LO-1; part two is an LCM by prime factorisation"
+  },
+  {
+   "sha": "7fc1ec8d892a5f33",
+   "codes": [
+    "C-1.1-LO-1"
+   ],
+   "note": "6^n ending in 5 would need the prime 5, impossible by uniqueness; the last-digit family belongs to LO-1 whichever digit is asked"
+  },
+  {
+   "sha": "ec6ca8516e72fea8",
+   "codes": [
+    "C-1.1-LO-1",
+    "C-1.2-LO-2"
+   ],
+   "note": "states the FTA (C-1.1-LO-1), then judges whether HCF 24 with LCM 540 is possible. The second half uses HCF divides LCM, which no outcome states; C-1.2-LO-2 is the nearest relation outcome"
+  },
+  {
+   "sha": "099513b77750d77f",
+   "codes": [
+    "C-1.2-LO-3"
+   ],
+   "note": "cutting a rectangle into the largest equal squares -- an everyday partition problem on HCF, the LO-3 side of C-1.2"
+  },
+  {
+   "sha": "1c6a94fcd86a36e0",
+   "codes": [
+    "C-1.2-LO-3"
+   ],
+   "note": "marbles leaving remainder 1 under three divisions; solved as LCM(2,3,5) + 1 in a stated situation, so LO-3 not the bare LCM of LO-1"
+  },
+  {
+   "sha": "c92c09e31d3e1ad9",
+   "codes": [
+    "C-1.2-LO-3"
+   ],
+   "note": "maximum sheet size fitting five carton sizes -- HCF of the lengths and of the widths inside a stated business situation, so LO-3. Question text carries a raw HTML table"
+  },
+  {
+   "sha": "11a692534af9fcf5",
+   "codes": [
+    "C-1.2-LO-3"
+   ],
+   "note": "one container measuring two tanker volumes exactly -- a shared-measure situation on HCF, LO-3"
+  },
+  {
+   "sha": "aced8144f3c02d1d",
+   "codes": [
+    "C-1.2-LO-3"
+   ],
+   "note": "two medications and a bandage change coinciding again -- the shared-timing case LO-3 names, with a clock answer on top"
+  },
+  {
+   "sha": "f02251ba694b389a",
+   "codes": [
+    "C-1.2-LO-3"
+   ],
+   "note": "greatest number of identical packages from 39 and 13 items -- everyday equal-grouping by HCF"
+  },
+  {
+   "sha": "d92b31ef6fb6a2b8",
+   "codes": [
+    "C-1.2-LO-3"
+   ],
+   "note": "equal cards per page across three sports -- HCF of three numbers inside a situation, so LO-3 rather than the three-integer computation in LO-1"
+  },
+  {
+   "sha": "85f48132d0335b62",
+   "codes": [
+    "C-1.2-LO-3"
+   ],
+   "note": "shortest floor length covered evenly by three tile sizes -- an everyday LCM problem"
+  },
+  {
+   "sha": "16887cd4ab245a98",
+   "codes": [
+    "C-1.2-LO-3"
+   ],
+   "note": "three walkers covering the same distance in whole steps -- LCM in context, the walking analogue of simultaneous ringing"
+  },
+  {
+   "sha": "9a807791f0ad7af3",
+   "codes": [
+    "C-1.2-LO-3"
+   ],
+   "note": "four satellites lining up again -- shared-timing LCM, LO-3"
+  },
+  {
+   "sha": "41346dbe3c1c373f",
+   "codes": [
+    "C-1.2-LO-3"
+   ],
+   "note": "three planets realigning -- same shared-timing LCM structure as the satellites, different context"
+  },
+  {
+   "sha": "c1cc0a56c26b680a",
+   "codes": [
+    "C-1.2-LO-3"
+   ],
+   "note": "traffic lights changing simultaneously again -- LCM plus a clock conversion, LO-3"
+  }
+ ]
+}

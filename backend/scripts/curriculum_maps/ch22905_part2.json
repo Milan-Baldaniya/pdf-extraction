@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22905,
+ "mappings": [
+  {"sha": "ef218665f5cf7c6c", "codes": ["C-1.1-LO-1"], "note": "produces the prime factorisation of 225 itself; the FTA outcome, with no second number to compare it against"},
+  {"sha": "189a7dd6858f93bd", "codes": ["C-1.2-LO-2"], "note": "missing number recovered from HCF x LCM = product; nothing is factorised, which rules out LO-1"},
+  {"sha": "ba28c8938fdb326b", "codes": ["C-1.2-LO-1"], "note": "the question names the method -- prime factorisation -- and asks for both HCF and LCM; LO-1 verbatim"},
+  {"sha": "202aee283252ead4", "codes": ["C-1.2-LO-1"], "note": "HCF from symbolic factorisations by the smallest-common-power rule; the algebra is only notation for LO-1"},
+  {"sha": "5da84538a595b340", "codes": ["C-1.1-LO-1"], "note": "factor tree for 1001 -- recovering a unique prime decomposition, so FTA rather than any C-1.2 outcome"},
+  {"sha": "33dde71bbe4d0052", "codes": ["C-1.2-LO-2"], "note": "HCF is handed over so the only work is LCM = product/HCF; that is the product relation, not a factorisation"},
+  {"sha": "3284da9df902869d", "codes": ["C-1.1-LO-1"], "note": "deduces both numbers are odd from their least prime factors, then the parity of the sum; prime-factor reasoning, so LO-1 is the nearest home -- the frame has no divisibility outcome"},
+  {"sha": "7188df66094edce6", "codes": ["C-1.2-LO-1"], "note": "HCF(4,2) after identifying the two numbers; a plain HCF computation, not a context problem"},
+  {"sha": "3f815b6b9484fa91", "codes": ["C-1.2-LO-1"], "note": "HCF of two numbers already given in prime-power form; the cleanest possible instance of LO-1"},
+  {"sha": "ec8ba1b9f49de706", "codes": ["C-1.2-LO-2"], "note": "product ab and HCF given, LCM asked -- the relation applied to find the missing value, LO-2 exactly"},
+  {"sha": "b947f89f9dae51d0", "codes": ["C-1.1-LO-1"], "note": "needs every exponent in 1200 = 4^2 x 3 x 5^2 made even; the assessed idea is the structure of the prime factorisation, not the rationality wording, so LO-1 over C-1.1-LO-3"},
+  {"sha": "51c97652bd61079d", "codes": ["C-1.2-LO-2"], "note": "judges whether an HCF/LCM pair can coexist. It uses HCF divides LCM, not HCF x LCM = product, so LO-2 is the nearest but not an exact fit -- the frame has no outcome for divisibility constraints between HCF and LCM"},
+  {"sha": "e72526d88014140e", "codes": ["C-1.2-LO-1"], "note": "the same LCM(1..10) demand as the MCQ, asked as free response; a computation, so LO-1 not the everyday LO-3"},
+  {"sha": "8043d51c022877e2", "codes": ["C-1.2-LO-1"], "note": "HCF of a family of multiples of k, argued from common factors; still LO-1, with a literal in place of numbers"},
+  {"sha": "eb5ea897210325fc", "codes": ["C-1.1-LO-1"], "note": "factor tree completed upward to the composite 585; uniqueness of the decomposition is what makes the answer determinate -- C-1.1-LO-1"},
+  {"sha": "33cb18606bae3bd8", "codes": ["C-1.1-LO-3"], "note": "irrationality of 5 - 2 sqrt3 with the irrationality of sqrt3 handed over; that is the build-on-a-known-irrational outcome, not LO-2 which is the proof of sqrt3 itself"},
+  {"sha": "76e2e4163639480a", "codes": ["C-1.1-LO-1"], "note": "compositeness shown by pulling out the common prime 11 and exhibiting 2^3 x 11^2; FTA applied to a constructed number"},
+  {"sha": "c6fbc45e7ce292e1", "codes": ["C-1.1-LO-1"], "note": "the argument is explicitly the uniqueness clause of the FTA -- no prime 5 can appear in 6^n; the classic LO-1 item"},
+  {"sha": "d69c4c73179d38d4", "codes": ["C-1.2-LO-1"], "note": "HCF and LCM of 72 and 120 from 2^3 3^2 and 2^3 3 5; a two-integer computation, LO-1"},
+  {"sha": "c381e035a4a6cde8", "codes": ["C-1.2-LO-1"], "note": "three integers, method named as prime factorisation; LO-1 covers the three-integer case directly"},
+  {"sha": "e2eead7a0544abfe", "codes": ["C-1.1-LO-1"], "note": "two compositeness justifications by factoring out a common prime; same FTA outcome as the single-number version, nothing to do with HCF/LCM"},
+  {"sha": "8a605c22dad0eb58", "codes": ["C-1.1-LO-1"], "note": "asks for prime-vs-composite with the definitions rehearsed; the prime/composite statement inside LO-1, not an irrationality or HCF outcome"},
+  {"sha": "9947bc90e77ab0af", "codes": ["C-1.2-LO-2"], "note": "HCF supplied, LCM obtained as product/HCF; no factorisation is attempted, so LO-2 rather than LO-1"},
+  {"sha": "d328475959ebbab3", "codes": ["C-1.1-LO-1"], "note": "multi-level factor tree resolved to 6762; unique prime decomposition, C-1.1-LO-1"},
+  {"sha": "12326d5140d63473", "codes": ["C-1.1-LO-1"], "note": "seven-node factor tree for 32760; identical FTA demand, only longer"}
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "3a87e001c4dc7c02",
+   "codes": ["C 2.4"],
+   "note": "Defines the volt from work per unit charge. None of the three C 2.4 outcomes defines potential difference or its unit - LO-1 only relates an existing V to I and R - so the competency row is the closest legal code. Content gap."
+  },
+  {
+   "sha": "c5e61c8fab7536f5",
+   "codes": ["C 2.4"],
+   "note": "Names the source that maintains PD across a conductor. Same uncovered area as the other source-of-emf items; no outcome mentions cells or batteries at all."
+  },
+  {
+   "sha": "26fbc44e8915e7b9",
+   "codes": ["C 2.4"],
+   "note": "Asks for V = W/Q. This is the defining equation of potential difference, not Ohm's law, so LO-1 would be the wrong sibling even though both are 'a formula about V'."
+  },
+  {
+   "sha": "debfcdc635de1f89",
+   "codes": ["C 2.4-LO-1"],
+   "note": "Defines resistance as opposition to charge flow. LO-1 is the only outcome that treats resistance of a conductor as a quantity in its own right; LO-3 would be wrong because no dependence on length, area or material is asked."
+  },
+  {
+   "sha": "dd9ae2deda01a66b",
+   "codes": ["C 2.4"],
+   "note": "Definition of e.m.f. as open-circuit terminal PD. No outcome covers emf or internal resistance; this is also arguably above the Class 10 frame. Poor fit, recorded as a gap."
+  },
+  {
+   "sha": "f3e0877d59c42e41",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Asks for the relation R = V^2/P itself, i.e. stating the power relation rather than substituting into it. Sits with power (LO-1) not with Ohm's law, because P is the quantity being related."
+  },
+  {
+   "sha": "12f4372055120191",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Compares two rated bulbs at one supply voltage using R proportional to 1/P - the same power relation as the item above, here applied rather than stated."
+  },
+  {
+   "sha": "8a66f477803590a1",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Reason-giving for R inversely proportional to A at fixed length and material - the area clause of LO-3, with the other two variables deliberately held fixed."
+  },
+  {
+   "sha": "688357fa390958a2",
+   "codes": ["C 2.4-LO-2"],
+   "note": "Domestic wiring in parallel rather than series - a judgement about what the parallel combination does (equal full voltage, independent operation), which is LO-2's subject even though no equivalent value is computed."
+  },
+  {
+   "sha": "759df2e4dace28bb",
+   "codes": ["C 2.4"],
+   "note": "Definition of electric potential difference in words. Same uncovered definition as the V = W/Q item; cited at competency level rather than stretching LO-1, which presupposes V and asks for its relation to I and R."
+  },
+  {
+   "sha": "dda8822a5a6f5abf",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Converts a watt-hour to joules - the 'expresses it in kilowatt hours' clause of LO-1 run in reverse. Not C 2.5-LO-2: no heat, fuse, heater or lamp is involved."
+  },
+  {
+   "sha": "57eea754aa67ab83",
+   "codes": ["C 2.4"],
+   "note": "Definition of a cell as a maintainer of potential difference. No outcome names sources; grouped with the battery/emf gap rather than forced into an Ohm's law code."
+  },
+  {
+   "sha": "ef84b4f520379577",
+   "codes": ["C 2.4"],
+   "note": "When PD equals one volt - the unit definition again. Recorded under the same potential-difference gap; the answer never touches current or resistance."
+  },
+  {
+   "sha": "020fc4001970611e",
+   "codes": ["C 2.4"],
+   "note": "Defines the ampere from I = Q/t. The current-definition gap, distinct from LO-1 which uses current only as one term of V = IR."
+  },
+  {
+   "sha": "a047f5704a243355",
+   "codes": ["C 2.4-LO-3"],
+   "note": "States the inverse variation of R with cross-sectional area. LO-3 covers it directly; no numbers are substituted, which is what separates it from the diameter-doubling item later in this part."
+  },
+  {
+   "sha": "c2393f9b3908219a",
+   "codes": ["C 2.4-LO-1"],
+   "note": "R = V/I as the expression for resistance - the relating half of LO-1. Chosen over LO-3 because resistance is defined here from circuit quantities, not from the conductor's geometry."
+  },
+  {
+   "sha": "928cb64ef7cb6e28",
+   "codes": ["C 2.4-LO-1"],
+   "note": "Literally the 'states Ohm's law' clause of LO-1, with the proportionality I proportional to V and the constant-conditions caveat. The purest statement item of this family."
+  },
+  {
+   "sha": "d411a2a30db80930",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Defines a circuit diagram as a symbol-based representation - the standard-symbols clause of LO-5. No circuit quantity is graded, so no C 2.4 outcome applies."
+  },
+  {
+   "sha": "914a0a1d224fea29",
+   "codes": ["C 2.4-LO-1"],
+   "note": "Doubling V doubles I at fixed R: Ohm's law used as a proportionality rather than a numeric substitution, but still squarely LO-1. Not LO-3 - the conductor is unchanged."
+  },
+  {
+   "sha": "eaaf8124f542acdd",
+   "codes": ["C 2.4-LO-1"],
+   "note": "SI unit of resistance. Unlike the unit-of-current and unit-of-PD items, this one does have an owning outcome, because the ohm is defined as volt per ampere, which is LO-1's relation."
+  },
+  {
+   "sha": "9171e0d9c344a599",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Doubling the diameter quarters R through A proportional to d^2 - the area clause of LO-3 with a genuine extra step (diameter to area) that the plain 'how does R vary with A' item does not have."
+  },
+  {
+   "sha": "9eda05e7a64d8b74",
+   "codes": ["C 2.4-LO-1", "C 8.1"],
+   "note": "Two V-I lines compared by slope, so the graded relation is Ohm's law (LO-1) read off a graph. C 8.1 rather than C 8.1-LO-5 because LO-5 covers only circuit diagrams and meter readings, while the competency explicitly covers graphical models. The temperature dependence of resistance the answer invokes has no outcome at all."
+  },
+  {
+   "sha": "a1e967bcdd92da8b",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Why a voltmeter must be high-resistance if its reading is to be trusted - meter behaviour, the second half of LO-5. Cited there rather than at LO-3 because the point is measurement, not what sets a conductor's resistance."
+  },
+  {
+   "sha": "a64be612cb35d687",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Stretching changes length and area but not resistivity - the trap is answering for R instead of rho. LO-3 is the only outcome that separates the material constant from the geometry."
+  },
+  {
+   "sha": "f2e24d4358797122",
+   "codes": ["C 2.4-LO-3"],
+   "note": "SI unit of resistivity (ohm metre). Belongs to the material clause of LO-3, not to LO-1's ohm, and the pairing of the two units is what several matching items in part 1 test."
+  }
+ ]
+}

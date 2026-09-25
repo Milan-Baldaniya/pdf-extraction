@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22905,
+ "mappings": [
+  {"sha": "3bfc2a541d6a08ca", "codes": ["C-1.2-LO-1"], "note": "builds LCM by taking the greatest power of each prime in two given factorisations -- computation from factorisations (LO-1), no missing value recovered via the product relation (LO-2) and no context (LO-3)"},
+  {"sha": "31af9bae417bf2ed", "codes": ["C-1.1-LO-3"], "note": "decides the rational/irrational status of a surd expression, sqrt(32/50) reducing to 4/5; it is the judging-a-derived-number outcome, not a contradiction proof (LO-2). Frame has no outcome for classifying a number as rational, LO-3 is the nearest"},
+  {"sha": "9838dd34da5373f3", "codes": ["C-1.1-LO-1"], "note": "requires the unique prime factorisation 196 = 2^2 x 7^2 and reads its exponents; pure FTA, nothing about HCF or LCM"},
+  {"sha": "c3810c7e8eb2bd5d", "codes": ["C-1.1-LO-1"], "note": "completes a factor tree, i.e. recovers the unique prime decomposition of 1001; FTA uniqueness rather than any HCF/LCM outcome"},
+  {"sha": "dd1248e93a7101fc", "codes": ["C-1.1-LO-1"], "note": "tests the definition of prime that underpins the FTA statement in LO-1; no factorisation of a composite, no HCF/LCM"},
+  {"sha": "e3634d2e569c8a65", "codes": ["C-1.2-LO-1"], "note": "both HCF and LCM of three integers straight from their prime factorisations -- the three-integer case LO-1 names explicitly"},
+  {"sha": "07bf1bcf17db45b4", "codes": ["C-1.2-LO-1"], "note": "identifies 10 and 4, then takes their LCM; a bare computation, so LO-1 rather than the everyday-context LO-3"},
+  {"sha": "84e2fc80868d41f0", "codes": ["C-1.2-LO-2"], "note": "the whole work is HCF x LCM = product used to recover the unknown number; it never factorises anything, which is what separates it from LO-1"},
+  {"sha": "80ef2f3c9457866d", "codes": ["C-1.2-LO-1"], "note": "HCF of two integers read off their prime factorisations; no relation and no context"},
+  {"sha": "0aae8ab0564d9f49", "codes": ["C-1.1-LO-1"], "note": "asks which product of primes equals 225 -- the uniqueness clause of the FTA is exactly what makes only one option right"},
+  {"sha": "39e7ed2964646b4c", "codes": ["C-1.1-LO-3"], "note": "irrationality of the product 2 x sqrt3, justified from sqrt3 already known irrational; that leaning-on-a-known-irrational move is LO-3, whereas LO-2 is the primary proof for sqrt2/sqrt3/sqrt5 themselves"},
+  {"sha": "12f496aec1b20167", "codes": ["C-1.1-LO-3"], "note": "states the general rule behind LO-3 -- rational times irrational is irrational -- rather than applying it to one number or proving a surd irrational from scratch"},
+  {"sha": "59b06ec94b02f5b9", "codes": ["C-1.2-LO-1"], "note": "HCF as the product of the smallest power of each shared prime, taken from given factorisations; the symbolic form does not change which outcome it is"},
+  {"sha": "813dd1627b657df8", "codes": ["C-1.2-LO-1"], "note": "greatest-power rule for LCM on given factorisations; contrast the HCF twin above -- same outcome, opposite rule"},
+  {"sha": "bbbed5591c7232d9", "codes": ["C-1.2-LO-1"], "note": "LCM of ten integers via their factorisations; stated numerically with no situation attached, so LO-1 not LO-3"},
+  {"sha": "b647d4a8f9953969", "codes": ["C-1.1-LO-1"], "note": "parity of a difference of squares of odd primes; the frame has no divisibility outcome, and this reasoning about prime factors sits closest to LO-1 -- a genuinely loose fit"},
+  {"sha": "c185404522b5453c", "codes": ["C-1.1-LO-1"], "note": "factors 3^13 - 3^10 into 2 x 13 x 3^10 and reads the divisors off the prime factorisation; FTA in use, not HCF/LCM"},
+  {"sha": "c584f95ad820a1f0", "codes": ["C-1.2-LO-2"], "note": "x recovered from LCM x HCF = product of the two numbers, the missing-value use LO-2 names; no factorisation is performed"},
+  {"sha": "c18c075f3427dabb", "codes": ["C-1.2-LO-1"], "note": "inverts the greatest-power rule for LCM to pin the exponent n; still the build-LCM-from-factorisations outcome, not the product relation"},
+  {"sha": "3a8d2d49bc556314", "codes": ["C-1.2-LO-1", "C-1.1-LO-1"], "note": "two steps: LCM(16,20,24) from factorisations (LO-1 of C-1.2), then a perfect-square condition on the exponents, which is FTA reasoning (C-1.1-LO-1)"},
+  {"sha": "c37d73a5b0c836d9", "codes": ["C-1.2-LO-2"], "note": "the reason to be judged is a misstatement of HCF x LCM = product, so the item is entirely about that relation -- LO-2, not a computation"},
+  {"sha": "8b1314ff00aeedba", "codes": ["C-1.1-LO-1"], "note": "same exponent-sum demand as the MCQ twin q723440, still prime factorisation of 196 rather than anything in C-1.2"},
+  {"sha": "d605383de7c2481a", "codes": ["C-1.2-LO-1"], "note": "HCF and LCM of three integers from factorisations; free-response twin of the MCQ, same outcome"},
+  {"sha": "4c5f10dfb0e59d4a", "codes": ["C-1.1-LO-1"], "note": "compositeness argued by exhibiting a factor other than 1 and itself -- the prime/composite side of the FTA statement in LO-1, not an HCF/LCM task"},
+  {"sha": "36aedac48416bade", "codes": ["C-1.2-LO-1"], "note": "bare LCM of 10 and 4; identifying the two numbers is definitional, the assessed step is the LCM computation"}
+ ]
+}

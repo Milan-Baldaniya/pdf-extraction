@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22906,
+ "mappings": [
+  {"sha": "6e04b5bf7ed9131d", "codes": ["C-8.2-LO-4"], "note": "Two dice together: a compound experiment over the 36-pair space, with three target sums pooled. LO-4 explicitly covers compound events with dice; LO-3 is for a single equally likely draw."},
+  {"sha": "85e0d0c775054959", "codes": ["C-8.2-LO-3"], "note": "Reduces the list to five equally likely numbers and counts the primes. A simple event from equally likely outcomes, LO-3; no complement or compound structure."},
+  {"sha": "a716b01d0b3b16fa", "codes": ["C-8.2-LO-3"], "note": "One card, one attribute (red ace). A simple event over 52 equally likely cards, LO-3; nothing compound, so not LO-4 despite the cards."},
+  {"sha": "68a5d08d9f6745d4", "codes": ["C-8.2-LO-3"], "note": "Single draw, face card. Simple event over equally likely cards, LO-3."},
+  {"sha": "9e875ea8cf6a78ac", "codes": ["C-8.2-LO-4"], "note": "'Neither blue nor pink' states the event as the complement of (blue or pink). LO-4 is the complement outcome; the model answer's shortcut of counting yellows does not change what the question asks the pupil to recognise."},
+  {"sha": "ea46cc8d12738d85", "codes": ["C-8.2-LO-2"], "note": "Reasons about where a very unlikely event sits on the 0-to-1 scale. Range-of-probability outcome, LO-2; no counting at all."},
+  {"sha": "41684bbb925e5d8a", "codes": ["C-8.2-LO-2"], "note": "States 0 <= P(A) <= 1 outright. The definitional bound, LO-2."},
+  {"sha": "38cc4b4b13ea25e7", "codes": ["C-8.2-LO-3"], "note": "Single draw, red face card, 6 of 52. Simple event, LO-3."},
+  {"sha": "984a1b211459e475", "codes": ["C-8.1-LO-4", "C-8.2-LO-4"], "note": "Asks for the NUMBER of favourable outcomes, not a probability, so C-8.1-LO-4 (counting favourable outcomes) leads; the event is 'not the ace of hearts', a complement, hence LO-4 second. LO-3 is excluded because no probability is computed."},
+  {"sha": "15ece3f22e60aace", "codes": ["C-8.2-LO-3"], "note": "One die, odd and less than 3. Simple event over six equally likely faces, LO-3."},
+  {"sha": "44d4ef0891ecd2e9", "codes": ["C-8.2-LO-2", "C-8.1-LO-4"], "note": "Runs the definition P = n(E)/n(S) backwards from a given probability to a count, so LO-2 (the definition) leads and C-8.1-LO-4 covers the favourable-outcome count that is the answer. No probability is calculated, so LO-3 does not fit."},
+  {"sha": "64c43b4260318be7", "codes": ["C-8.2-LO-2", "C-8.1-LO-4"], "note": "Same inverse structure as the bad-eggs item: a given probability and total yield the number of favourable tickets. Definition plus favourable count, not a probability calculation."},
+  {"sha": "c4bf3de15d822870", "codes": ["C-8.2-LO-3"], "note": "Multiples of 4 among 1 to 15. Simple event from equally likely numbers, LO-3."},
+  {"sha": "30fc91cb6e1194b1", "codes": ["C-8.2-LO-4"], "note": "Two coins tossed together, 'at most one head' over the four-outcome space. A compound coin event, which LO-4 names; LO-3 covers only a single equally likely draw."},
+  {"sha": "e9fb273844269900", "codes": ["C-8.2-LO-2"], "note": "An impossible event has probability 0 - the lower end of the definitional range. LO-2."},
+  {"sha": "70c5e636592590eb", "codes": ["C-8.2-LO-2"], "note": "Rejects 17/16 because probability cannot exceed 1. The upper end of the definitional range, LO-2."},
+  {"sha": "501512b87a1f6083", "codes": ["C-8.2-LO-4"], "note": "States the complement rule P(not E) = 1 - p. LO-4 is the only outcome mentioning the complement; LO-2 covers the range, not this identity."},
+  {"sha": "b503690dad14dc60", "codes": ["C-8.2-LO-2"], "note": "A probability expressed as a percentage can never be below 0. A restatement of the 0-to-1 bound in percentage form, LO-2."},
+  {"sha": "ac2746fe38d0df9e", "codes": ["C-8.2-LO-3"], "note": "Multiples of 5 among 40 equally likely tickets. Simple event, LO-3."},
+  {"sha": "6a68c63311f22066", "codes": ["C-8.2-LO-3"], "note": "Counts the 25 primes up to 100 over an equally likely space. Simple event, LO-3; the arithmetic is the prime count, not a compound structure."},
+  {"sha": "11dd359f4d25c67d", "codes": ["C-8.2-LO-3"], "note": "Single throw, 'greater than 3'. Simple event, LO-3. Flagged separately as a keying defect: the correct count is 3 faces giving 1/2, and the model answer itself concedes the book took 4 faces."},
+  {"sha": "6110b9cedfd484a1", "codes": ["C-8.2-LO-3"], "note": "The sample space is just the four one-digit primes; one of them is even. Simple event over a small equally likely set, LO-3."},
+  {"sha": "a112c5c004454a6b", "codes": ["C-8.2-LO-3"], "note": "One marble from five. The plainest simple-event item in the chapter, LO-3."},
+  {"sha": "e78caa4bcf1f6501", "codes": ["C-8.2-LO-3"], "note": "Vowels among the 11 letters of PROBABILITY, with the repeated I counted twice. Simple event from equally likely letters, LO-3."},
+  {"sha": "2632654ddead2b16", "codes": ["C-8.2-LO-3"], "note": "One die, composite and below 5, i.e. only the face 4. Simple event, LO-3."}
+ ]
+}

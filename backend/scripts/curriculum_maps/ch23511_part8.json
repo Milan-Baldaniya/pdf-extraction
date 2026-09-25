@@ -1,0 +1,85 @@
+{
+ "chapter_id": 23511,
+ "mappings": [
+  {
+   "sha": "11815d4ab012fb80",
+   "codes": ["C-6.1-LO-2"],
+   "note": "the altitude AD splits the figure into a 30 and a 60 right triangle and BD, DC come from tan 30 and tan 60; no observer, no line of sight, so it stays a standard-angle exercise rather than a two-position heights problem"
+  },
+  {
+   "sha": "6478ee08d245ecab",
+   "codes": ["C-6.1-LO-2"],
+   "note": "water-slide case study: sin 30, tan 30, sin 45 and tan 45 applied to three segments of an inclined path. An incline, not an elevation observed from a point, so it belongs with the standard-angle table"
+  },
+  {
+   "sha": "c6a127e03968ade5",
+   "codes": ["C-6.3-LO-1", "C-6.1-LO-2"],
+   "note": "Skysails case study with two distinct demands: (i) sin t = cos(3t - 30) is solved by the complementary relation, (ii) the rope length comes from sin 30 = 200/AC. Part (ii) is really a height-and-distance application and would take chapter 9's C-6.1-LO-3 if it were filed there; within this chapter's legal set the standard-angle code is the honest fit"
+  },
+  {
+   "sha": "91e8e57382f43d12",
+   "codes": ["C-6.1-LO-1", "C-6.1-LO-2"],
+   "note": "tower-crane case study: BS by Pythagoras and the jib angle by sin t = RS/BR read off the sides (LO-1), then 1/2 recognised as sin 30 (LO-2). The angle is a structural inclination, not an elevation from an observer"
+  },
+  {
+   "sha": "9531e44c6f4b341b",
+   "codes": ["C-6.1-LO-1"],
+   "note": "derives the area formula by writing the altitude as h = a sin t, i.e. sine as opposite over hypotenuse in the right triangle formed by the drop. The definition itself is the tool, and theta is general, so C-6.1-LO-2 cannot apply"
+  },
+  {
+   "sha": "939b225610c8d1f6",
+   "codes": ["C-6.1-LO-2"],
+   "note": "tan 30 = 2/x for a skate ramp; a single standard-angle substitution. Borderline application item - a chapter 9 filing would take C-6.1-LO-3 - but there is no observer or line of sight"
+  },
+  {
+   "sha": "6166eac71ae2849a",
+   "codes": ["C-6.1-LO-2"],
+   "note": "ladder at 45 gives both the reach (sin 45) and the base (cos 45) from the same hypotenuse. This is the classic heights-and-distances ladder problem in everything but the word elevation; within this chapter the 45 row is what is actually assessed"
+  },
+  {
+   "sha": "dc97f529bd0d5899",
+   "codes": ["C-6.1-LO-2"],
+   "note": "golf case study run BACKWARDS: the sides are known and the angle is required, cos t = 60/120 read back as 60. The inverse direction of the table, unlike the forward substitutions around it"
+  },
+  {
+   "sha": "52d31eb67cb06a3e",
+   "codes": ["C-6.1-LO-2"],
+   "note": "truss with four members solved by repeated cos 60 and sin 60 on two end triangles; a structural diagram, no elevation angle anywhere"
+  },
+  {
+   "sha": "e6c5fffd5d866f39",
+   "codes": ["C-6.1-LO-2"],
+   "note": "tan 60 = l/40 gives the track length and speed follows by division. The 60 is an angle of ROTATION in the horizontal plane, not an elevation, which is why it sits in this chapter"
+  },
+  {
+   "sha": "c63de693eef8f705",
+   "codes": ["C-6.1-LO-2"],
+   "note": "warehouse ramp: sin t = 2/4 read back as 30, then tan 30 gives the base - the inverse and the forward use of the same row in one item"
+  },
+  {
+   "sha": "2224f2f040de32b4",
+   "codes": ["C-6.1-LO-2"],
+   "note": "cos 30 = d/3 plus a 10 cm correction. NOTE this item explicitly names an ANGLE OF DEPRESSION, which is chapter 9's C-6.3-LO-2/LO-3 content printed in chapter 8; mapped to the standard-angle code because chapter 9's codes are not legal here"
+  },
+  {
+   "sha": "7b0b0e4dc1756358",
+   "codes": ["C-6.1-LO-2"],
+   "note": "tan 60 = l/50 for the field length, then speed. Twin of sha e6c5fffd5d866f39 with different numbers - a family that honestly shares one outcome"
+  },
+  {
+   "sha": "75d886f351fe99a5",
+   "codes": ["C-6.1-LO-2"],
+   "note": "sin 45 = r/149 for Venus's orbital radius; the astronomy dressing hides a single 45-row substitution and there is no height or elevation involved"
+  },
+  {
+   "sha": "28d703c366e641a0",
+   "codes": ["C-6.1-LO-2"],
+   "note": "tan 60 = h/50 for the cloud height. NOTE this is a textbook ANGLE OF ELEVATION height problem - chapter 9's C-6.3-LO-3 - printed in chapter 8; the standard-angle code is the closest legal fit here"
+  },
+  {
+   "sha": "f08286bf1e645ec9",
+   "codes": ["C-6.1-LO-1"],
+   "note": "isosceles area a^2 sin t cos t derived by bisecting the base: the half-base is a cos t and the altitude a sin t, both read as ratios of the sides of the resulting right triangle. General theta, so LO-1 not LO-2; companion of sha 9531e44c6f4b341b"
+  }
+ ]
+}

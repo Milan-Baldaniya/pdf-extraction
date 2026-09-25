@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "9ca97f1335a76ad0",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Chooses the combination that maximises R and the one that maximises I (LO-2), then computes each current from V/R (LO-1). The choice of wiring is the graded idea, so LO-2 leads."
+  },
+  {
+   "sha": "f2f0f83aac84a521",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "The question is literally 'what would the ammeter and voltmeter read' - LO-5's prediction clause. Getting there needs the series sum (LO-2) and then V = IR across one resistor (LO-1)."
+  },
+  {
+   "sha": "32bb993122989966",
+   "codes": ["C 2.4-LO-2", "C 8.1-LO-5"],
+   "note": "Equivalent resistance between two labelled nodes. No supply and no current, so LO-2 only on the content side; LO-5 because the stem gives no values and the network exists only in the figure."
+  },
+  {
+   "sha": "061860025516f1ea",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Asks how a voltmeter reading changes when it is moved to another pair of terminals - meter prediction (LO-5) is the demand, with the series current (LO-2, LO-1) as the route. Distinguished from the previous item by the relocation of the meter."
+  },
+  {
+   "sha": "bcc19019d6ea8100",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Same two coils wired three ways, current each time. LO-2 supplies the three equivalent resistances and LO-1 the currents; nothing about the heater's heat output is graded, which keeps C 2.5-LO-2 out."
+  },
+  {
+   "sha": "e03423ee02c25e75",
+   "codes": ["C 2.4-LO-2", "C 8.1-LO-5"],
+   "note": "Mixed series-and-parallel reduction with no current asked for, so LO-2 alone on the content side; LO-5 because the stem names no resistors at all and the whole network comes from the diagram."
+  },
+  {
+   "sha": "c2bb8a6ac91030be",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Two parallel groups reduced and then added in series (LO-2), followed by I = V/R (LO-1). LO-5 because which resistors form which group is visible only in figure A."
+  },
+  {
+   "sha": "bb538b418e3b76c5",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Lists the uses of Joule heating and lands on exactly the devices LO-2 names - heater, iron, lamp and fuse. The purest application item for that outcome."
+  },
+  {
+   "sha": "5b50c30ef27968d6",
+   "codes": ["C 2.5-LO-1", "C 2.5-LO-2"],
+   "note": "Derives W = VIt from W = QV, so electrical energy (LO-1) is what is asked for; LO-2 is second because the derivation is pushed on to I^2Rt, the Joule heating form. A derivation item, not a substitution one."
+  },
+  {
+   "sha": "9a4b45183fbb3a91",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-3"],
+   "note": "Two unrelated halves bolted together: state H = I^2Rt (LO-2), then compute R from rho, l and r (LO-3). The heat and the resistance calculation share no data, so both codes are needed and neither is subordinate."
+  },
+  {
+   "sha": "2ca62bdb7898b6ee",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Sub-part (a) is reading the combination off the diagram and (c) is the ammeter reading, both LO-5; (b) needs equal branch PD (LO-2) and I = V/R (LO-1). The diagram-reading step is graded explicitly, which is why LO-5 leads."
+  },
+  {
+   "sha": "912b731b784712ed",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Energy = power x time for a rated appliance, answered in joules. Straight substitution into the energy relation LO-1 owns; no heating mechanism and no circuit topology."
+  },
+  {
+   "sha": "6c63a15d7637e956",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Interprets a 60 W marking as joules per second and then converts an hour's use into kWh - both halves of LO-1, the rating and the commercial unit."
+  },
+  {
+   "sha": "9b88db9ad9cf2003",
+   "codes": ["C 2.5-LO-1"],
+   "note": "R = V^2/P and then a month's consumption in kWh. Both steps are power-relation work, so no second code: the resistance here comes from the rating, not from Ohm's law measurements."
+  },
+  {
+   "sha": "5a58baf19e205ed4",
+   "codes": ["C 2.5-LO-2", "C 2.5-LO-1"],
+   "note": "Part (a) is why a fuse matters (LO-2, which names the fuse); part (b) computes I = P/V to show the 5 A rating is exceeded (LO-1). The fuse half leads because it carries the explanation marks."
+  },
+  {
+   "sha": "48af68ae716600ae",
+   "codes": ["C 2.5-LO-1", "C 2.4-LO-1"],
+   "note": "Two power ratings give two currents via I = P/V (C 2.5-LO-1), and each current then gives a resistance via R = V/I (C 2.4-LO-1). The second step is genuinely Ohm's law here, unlike the items that use R = V^2/P directly."
+  },
+  {
+   "sha": "c8e761c0354a84f3",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Converts 1 kWh to joules - the kilowatt-hour clause of LO-1 with nothing else attached."
+  },
+  {
+   "sha": "79d678a0c2dc37da",
+   "codes": ["C 2.5-LO-1", "C 2.4"],
+   "note": "Near-duplicate of the oven item above, but part (a) asks for precautions against overloading rather than about the fuse. Overloading and safety measures are named only in the C 2.4 competency text, so that replaces C 2.5-LO-2 here; the arithmetic half stays with LO-1."
+  },
+  {
+   "sha": "66437f544987806f",
+   "codes": ["C 2.4-LO-2", "C 2.5-LO-1", "C 2.4-LO-1"],
+   "note": "Advantages of parallel household wiring plus a two-bulb calculation: LO-2 for the combination and its advantages, C 2.5-LO-1 for R = V^2/P from each rating, C 2.4-LO-1 for the supply current. All three steps are separately marked."
+  },
+  {
+   "sha": "59ba997204f47361",
+   "codes": ["C 2.5-LO-1", "C 2.4-LO-1"],
+   "note": "P = VI and energy in kWh (C 2.5-LO-1) with R = V/I as an explicit middle part (C 2.4-LO-1). Here the resistance genuinely comes from the measured V and I, not from the rating."
+  },
+  {
+   "sha": "af4b04cebe302506",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Defines electric power as rate of energy consumption and gives P = VI = I^2R. The statement end of LO-1; the I^2R form appears only as an alternative expression, not as a heat calculation."
+  },
+  {
+   "sha": "c0d7e89081cddf21",
+   "codes": ["C 2.5-LO-1"],
+   "note": "P = VI from a measured current and supply voltage. One-step substitution, the mirror image of the items that go from a rating to a current."
+  },
+  {
+   "sha": "87c05525ddb8a287",
+   "codes": ["C 2.5-LO-1"],
+   "note": "The commercial unit, kWh, and its joule equivalent - the exact endpoint LO-1 names ('expresses it in kilowatt hours')."
+  },
+  {
+   "sha": "e8cb894f278a2db5",
+   "codes": ["C 2.5-LO-1", "C 2.5"],
+   "note": "Electrical input power P = VI (LO-1) compared with mechanical output to get a percentage efficiency. Efficiency and energy conversion appear in no outcome, but they do sit inside the C 2.5 competency text about work and energy, so the competency is the better home for the second half - an item where the competency wording fits better than its own outcomes."
+  },
+  {
+   "sha": "3f73339061c62f70",
+   "codes": ["C 2.4-LO-2", "C 2.5-LO-1"],
+   "note": "Series and parallel equivalents for two equal resistors (LO-2) converted into a power ratio by P = V^2/R (C 2.5-LO-1). Same structure as the 24 ohm pair in part 6; they honestly share these two codes."
+  }
+ ]
+}

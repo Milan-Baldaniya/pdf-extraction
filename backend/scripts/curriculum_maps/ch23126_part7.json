@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23126,
+ "mappings": [
+  {
+   "sha": "dcd0d01ef5ca810e",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "flight-speed model where 30 minutes must become 1/2 hour before x^2 - 200x - 240000 = 0 appears; the negative speed is inadmissible"
+  },
+  {
+   "sha": "de2fc9122f9445cd",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "the mirror case of the slowed flight -- speed INCREASED to recover lost time -- giving x^2 + 100x - 300000 = 0; same pair of outcomes, opposite sign structure"
+  },
+  {
+   "sha": "0086c290f41c593e",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "outward and return journeys over the same 150 km with a 2.5 hour difference; translation to x^2 + 10x - 600 = 0 then factorisation, negative speed rejected"
+  },
+  {
+   "sha": "8f7fff236814797c",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "two DIFFERENT distances at two speeds summing to a fixed total time, so the times add rather than subtract; a distinct translation from the same-distance items, then splitting"
+  },
+  {
+   "sha": "8279f1e7972bfa07",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "duplicate of the 360 km / 48 minute train item earlier in the chapter; the same x^2 + 5x - 2250 = 0 and the same rejection of a negative speed"
+  },
+  {
+   "sha": "0dc1f8e96f26678e",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "upstream minus downstream time equals 1 hour, which unlike the 4.5-hour boat item leaves an x term and so a genuine quadratic x^2 + 48x - 324 = 0 to factorise"
+  },
+  {
+   "sha": "73d6fc3086fdfc39",
+   "codes": ["C-2.2-LO-6"],
+   "note": "the graded work is turning an unchanged-total-cost condition into a quadratic in the length; the key is cut off before naming a solving method, so no solving outcome is claimed"
+  },
+  {
+   "sha": "67e2669b1153336d",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-4"],
+   "note": "needs the angle-in-a-semicircle fact before Pythagoras yields x^2 + 7x - 120 = 0, which the key solves by the formula; a geometry-flavoured translation"
+  },
+  {
+   "sha": "a3cca0e705c58d84",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "an age product across two time shifts giving x^2 + 5x - 66 = 0; a negative age is inadmissible so only x = 6 survives"
+  },
+  {
+   "sha": "598f87da7b133640",
+   "codes": ["C-2.2-LO-6"],
+   "note": "the area difference factorises as pi(r2-r1)(r2+r1), so the problem resolves into two LINEAR equations and no quadratic is ever solved; only the translation outcome honestly applies -- flagged as a poor fit"
+  },
+  {
+   "sha": "b9a94f11c7ba9de8",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "perimeter and area of a rectangle give x^2 - 41x + 400 = 0, and BOTH roots are admissible -- they simply name the two sides, unlike the reject-one-root items"
+  },
+  {
+   "sha": "c9c8417f17f1b498",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "the area condition gives 3x^2 - x - 24 = 0 and then a further Pythagoras step for the hypotenuse; the negative x is rejected as a length"
+  },
+  {
+   "sha": "47d087f55f503b30",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "two verbal comparisons pin the hypotenuse and base in terms of the altitude, and Pythagoras collapses to x(x-8) = 0; the root x = 0 is rejected as a degenerate triangle"
+  },
+  {
+   "sha": "68fac047a4ea13cd",
+   "codes": ["C-2.2-LO-6"],
+   "note": "solved by the identity (a+b)^2 = a^2+b^2+2ab to get ab directly, so no quadratic equation is formed or solved; the translation is all that is genuinely assessed -- flagged as a poor fit"
+  },
+  {
+   "sha": "5bc2185e9a345527",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "diagonal and longer side both expressed against the shorter side, and Pythagoras gives x^2 - 4x - 60 = 0; the negative length is inadmissible"
+  },
+  {
+   "sha": "fef9f50afeda8417",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "externally touching circles make the centre distances x+9 and x+2, and the stem explicitly asks to WRITE the equation and then solve it; both halves of LO-6 plus factorisation"
+  },
+  {
+   "sha": "cd388e4d7472e68e",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "a uniform border problem where the pond dimensions are 50-2x by 40-2x; one root of x^2 - 45x + 296 = 0 is geometrically impossible because it exceeds half the width"
+  },
+  {
+   "sha": "f08bba5807b6a8ee",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3", "C-2.3-LO-4"],
+   "note": "the one item that walks all three steps explicitly: frame the equation from the tiling situation, solve it BY FACTORISATION, then solve it AGAIN by the quadratic formula; all three outcomes are separately instructed"
+  },
+  {
+   "sha": "f9cc82baedb83cd2",
+   "codes": ["C-2.2-LO-6", "C-2.1-LO-5", "C-2.3-LO-3"],
+   "note": "a profit FUNCTION is supplied, so nothing is translated from scratch; the break-even part asks for the zeroes of that polynomial (C-2.1-LO-5) and finds them by factorisation, while the other parts are evaluations"
+  },
+  {
+   "sha": "a21cc284e83cdaef",
+   "codes": ["C-2.2-LO-6", "CG-2"],
+   "note": "evaluates a height function at two times and explains why they agree by the axis of symmetry; symmetry and the vertex of a quadratic have no learning outcome in this frame, so the goal code carries that half (gap reported)"
+  },
+  {
+   "sha": "beef65c43955b095",
+   "codes": ["C-2.2-LO-6", "C-2.1-LO-5", "CG-2"],
+   "note": "the x-intercepts are the zeroes of the profit polynomial (C-2.1-LO-5), but parts (iii)-(iv) ask for the MAXIMUM, which no outcome covers; the printed model is also doubly corrupted (defect reported)"
+  },
+  {
+   "sha": "1452f18d073d681d",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3", "C-2.1-LO-5"],
+   "note": "the ground-strike condition h(t) = 0 is factorised to give t = 0 and t = 11, and part (iii) asks what the TWO roots mean physically -- the admissibility/interpretation clause of LO-6 meeting the roots-as-zeroes idea"
+  },
+  {
+   "sha": "8e3a8789b9cbbe8b",
+   "codes": ["C-2.2-LO-6", "CG-2"],
+   "note": "builds an area function from a fencing constraint and then MAXIMISES it by completing the square; the modelling is LO-6 but the optimisation has no outcome, so CG-2 is the honest second code"
+  },
+  {
+   "sha": "bd20e4a28b1ff35a",
+   "codes": ["C-2.2-LO-6", "CG-2"],
+   "note": "the same optimisation shape with internal partitions changing the constraint to 4x + 2L = 384; the harder step is the constraint, not the maximisation, but both codes are still needed"
+  },
+  {
+   "sha": "4b583ad50738a9a2",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-4"],
+   "note": "a common increase applied to both dimensions gives x^2 + 18x - 144 = 0, which the key solves by the formula; a negative increase is rejected"
+  }
+ ]
+}

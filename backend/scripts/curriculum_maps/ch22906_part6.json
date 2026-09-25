@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22906,
+ "mappings": [
+  {"sha": "2cbf52cec8fba28c", "codes": ["C-8.2-LO-3", "C-8.2-LO-4"], "note": "Red face card and spade are plain simple events (LO-3); 'either a king or a black card' needs the two black kings removed from the double count, a compound card event (LO-4)."},
+  {"sha": "0351d3b0dff6f383", "codes": ["C-8.2-LO-4", "C-8.1-LO-4"], "note": "Two dice, but the second is numbered 1,1,2,2,3,3, so the 36-outcome space has to be built with repeated faces before odd/even pairs can be counted. Compound dice event (LO-4) resting on a non-standard sample space (C-8.1-LO-4)."},
+  {"sha": "44b4a81fecce2e51", "codes": ["C-8.2-LO-4"], "note": "Three coins: at least two heads and at most two heads. Compound coin events, LO-4. (Stem reads 'almost two heads'; flagged separately as a typo for 'at most'.)"},
+  {"sha": "6a5a9164121dac8a", "codes": ["C-8.2-LO-4", "C-8.1-LO-4"], "note": "Part (i) is P(not red) = 1 - x/18, the complement rule with an unknown (LO-4); part (ii) solves for the favourable red count (C-8.1-LO-4)."},
+  {"sha": "c79b2362f9755369", "codes": ["C-8.2-LO-3", "C-8.2-LO-4"], "note": "Part (i) 'prime greater than 7' is a simple event (LO-3); part (ii) 'not a perfect square' is taken as 30 - 5, a complement (LO-4)."},
+  {"sha": "b3c9916b9a57a9d3", "codes": ["C-8.2-LO-4"], "note": "Two dice: same number on both, and sum 8. Compound dice events over 36 outcomes, LO-4."},
+  {"sha": "fc11d6a556f5f56f", "codes": ["C-8.2-LO-3", "C-8.1-LO-4"], "note": "Part (i) is a simple event over five cards (LO-3); part (ii) shrinks the sample space to four once the queen is set aside, which is sample-space work (C-8.1-LO-4), not conditional probability."},
+  {"sha": "bd8dae5f390d699b", "codes": ["C-8.2-LO-3"], "note": "Multiples of 7 among the 90 two-digit numbers. Simple event, LO-3."},
+  {"sha": "7eacbc1d3888ffa7", "codes": ["C-8.2-LO-3"], "note": "Cards 1 to 90: two-digit numbers and perfect squares. Simple events, LO-3; the two-digit count is 90 - 9 but the event is stated positively."},
+  {"sha": "336feb6a1da03995", "codes": ["C-8.2-LO-4"], "note": "Two dice across three conditions - sum below 7, product below 16, doublet of odd numbers - all requiring systematic counting over 36 pairs. Compound dice events, LO-4."},
+  {"sha": "9b546fe224bcaba3", "codes": ["C-8.1-LO-4", "C-8.2-LO-3"], "note": "Turns on the fact that a leap year is 52 weeks plus 2 days and the sample space is the seven consecutive day-pairs (C-8.1-LO-4), with LO-3 for the resulting ratio."},
+  {"sha": "0f20c03d430120b0", "codes": ["C-8.2-LO-4", "C-8.2-LO-3"], "note": "Compares a compound two-dice event (product 36, 1/36 - LO-4) against a simple one-die event (square 36, 1/6 - LO-3). The comparison is the question, so both outcomes are needed."},
+  {"sha": "26b58adc8b8a1632", "codes": ["C-8.2-LO-4", "C-8.2-LO-3"], "note": "Same structure for the target 25: two-dice product (LO-4) against a single die squared (LO-3), then the two probabilities are compared."},
+  {"sha": "82908d464ed6436f", "codes": ["C-8.2-LO-2", "C-8.1-LO-4"], "note": "Sets up two ratio equations straight from the definition P = n(E)/n(S) and solves for the counts, without using the sum-to-one shortcut that the sibling jar item takes. Definition (LO-2) plus favourable counts (C-8.1-LO-4)."},
+  {"sha": "f17d7c4b3c13a791", "codes": ["C-8.2-LO-3"], "note": "Cards 3 to 50 (n = 48): multiples of 7, perfect squares, multiples of 6. Three simple events, LO-3."},
+  {"sha": "47aad6c5cdb25cc4", "codes": ["C-8.1-LO-4", "C-8.2-LO-3"], "note": "Removing the six red face cards resets n(S) to 46 and changes red, queen and face counts while aces are untouched; getting that reduced space right is the substance (C-8.1-LO-4), with four simple events on top (LO-3)."},
+  {"sha": "bf929c629068352b", "codes": ["C-8.2-LO-3"], "note": "Cards 1 to 20: a divisibility condition and a prime count on one draw. Simple events, LO-3. Flagged separately: the printed solution answers 'divisible by both 2 and 3' although the stem says 'or'."},
+  {"sha": "7f5860eb6e82d4de", "codes": ["C-8.2-LO-3"], "note": "Cards 6 to 70 (n = 65) with four independent conditions, each a direct count. Simple events, LO-3."},
+  {"sha": "dc9937ae79820548", "codes": ["C-8.2-LO-4", "C-8.2-LO-3"], "note": "Three of the four parts are compound or complementary card events - spade or ace with the overlap removed, neither jack nor king, king or queen (LO-4); only the black king is a plain simple event (LO-3)."},
+  {"sha": "bafd3507b7fa76bb", "codes": ["C-8.2-LO-3", "C-8.1-LO-4"], "note": "Forms P(red) before and after adding five red balls and solves the doubling condition (LO-3); x is a favourable count (C-8.1-LO-4). The blue probabilities are then read straight off."},
+  {"sha": "887cb4fd826dc2f0", "codes": ["C-8.1-LO-4", "C-8.2-LO-3"], "note": "The sample space is the six permutations of 4, 5 and 9, which must be enumerated before any condition can be tested - the clearest C-8.1-LO-4 item in the chapter. LO-3 covers the three resulting ratios."},
+  {"sha": "a1de0d5753d78ac7", "codes": ["C-8.1-LO-4", "C-8.2-LO-4"], "note": "Two independent selections generating sixteen ordered pairs whose products must be tabulated, so C-8.1-LO-4 leads; LO-4 carries the compound structure. Larger twin of the earlier 3-by-3 product item."},
+  {"sha": "b644c85cfecf4f93", "codes": ["C-8.2-LO-4"], "note": "Two dice, product a perfect square, needing the six doublets plus (1,4) and (4,1). Compound dice event, LO-4."},
+  {"sha": "fa7a11799c893ede", "codes": ["C-8.2-LO-3"], "note": "90 discs: two-digit numbers and multiples of 5. Simple events, LO-3."},
+  {"sha": "07bcd50b944d8790", "codes": ["C-8.2-LO-3"], "note": "Cards 1 to 100 with four independent conditions, each a direct favourable count over an unchanged sample space. Simple events, LO-3."}
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23199,
+ "mappings": [
+  {
+   "sha": "0177f7317ca186e1",
+   "codes": ["C-6.3-LO-2"],
+   "note": "names the depression angle from a figure by the alternate-angle transfer, no computation; very-short twin of MCQ sha ee3d35cdf1372d20"
+  },
+  {
+   "sha": "85a1c6aa8af05019",
+   "codes": ["C-6.1-LO-3"],
+   "note": "the 20 m rope is the hypotenuse so sin 30 is the correct pick, not tan; very-short twin of MCQ sha 334c9a03d9f9a215"
+  },
+  {
+   "sha": "d2253db030afc553",
+   "codes": ["C-6.1-LO-3"],
+   "note": "both sides given as a ratio and the elevation is the unknown; very-short twin of MCQ sha 88891aef3d35a1d3"
+  },
+  {
+   "sha": "f3649e44a589c11c",
+   "codes": ["C-6.1-LO-3"],
+   "note": "the sharpest ratio-selection item in the chapter: the 60 is measured FROM THE WALL, not from the horizontal, so the height is 15 cos 60 and the reflex sin 60 is wrong. Pure ratio choice"
+  },
+  {
+   "sha": "a784deb3cadb1417",
+   "codes": ["C-6.3-LO-3"],
+   "note": "known ground shadow 2root3 and elevation 60 give the pole height by tan; the textbook form of this outcome"
+  },
+  {
+   "sha": "e56d4bd1fe8c8c25",
+   "codes": ["C-6.1-LO-3"],
+   "note": "the two given sides are the hypotenuse and the base (ladder = 2x, foot distance = x), which selects cos; the angle is the unknown so no height is calculated"
+  },
+  {
+   "sha": "f94bf2948933953d",
+   "codes": ["C-6.2-LO-3", "C-6.3-LO-3"],
+   "note": "the eye height 1.7 m must be added back at the end, which only a labelled figure makes obvious; the core is still a height from a 30 elevation over a known 20root3 ground distance"
+  },
+  {
+   "sha": "e9fd8ff902a0761e",
+   "codes": ["C-6.2-LO-3", "C-6.1-LO-3"],
+   "note": "figure item where DB = 6 - 2.54 has to be extracted before any ratio applies; the ladder is then the hypotenuse, so sin 60 rather than tan"
+  },
+  {
+   "sha": "cfdab6cc565d7e49",
+   "codes": ["C-6.2-LO-3", "C-6.1-LO-3"],
+   "note": "same observer-height construction as sha c3ea69ffb080d675 with 1.5 m and 28.5 m; the unknown is the ANGLE, so the ratio-selection code rather than the height one"
+  },
+  {
+   "sha": "32494fd360a59e90",
+   "codes": ["C-6.3-LO-4"],
+   "note": "two points at distances a and b with elevations 30 and 60 - two observation positions on one line, the literal LO-4 case. Numeric-angle version of sha 113c6a95a7c24b28, which states the same setup as complementary"
+  },
+  {
+   "sha": "cbc6544c8e6d4300",
+   "codes": ["C-6.1-LO-3"],
+   "note": "150 m height given, the car's DISTANCE required, so tan is inverted; same direction as sha 188fe85fd3c910aa"
+  },
+  {
+   "sha": "be294a3fd2a11f9e",
+   "codes": ["C-6.1-LO-3"],
+   "note": "pole and shadow both given (6 and 2root3) and the sun's elevation is the unknown; angle-out, the mirror of sha a784deb3cadb1417 which gives the angle and wants the height"
+  },
+  {
+   "sha": "769fa9ea5e81a85f",
+   "codes": ["C-6.3-LO-3"],
+   "note": "30 m shadow and a 60 altitude give the tower height; the plain height-from-elevation case"
+  },
+  {
+   "sha": "869d741aa62660be",
+   "codes": ["C-6.1-LO-3"],
+   "note": "height 10root3 and distance 30 are both given and the ELEVATION is required; the inverse of sha 769fa9ea5e81a85f, so ratio selection rather than height calculation"
+  },
+  {
+   "sha": "d34cc1109f7c57ce",
+   "codes": ["C-6.1-LO-3"],
+   "note": "lighthouse height known, boat's distance required from a depression of 60; distance-out, so not C-6.3-LO-3"
+  },
+  {
+   "sha": "54632b49e9e2e41a",
+   "codes": ["C-6.1-LO-3"],
+   "note": "the height is GIVEN (90 m) and the string, a hypotenuse, is required, so sin 60 must be chosen and inverted; the reverse information flow from the usual kite problem"
+  },
+  {
+   "sha": "881ebed12b97e66b",
+   "codes": ["C-6.2-LO-3", "C-6.3-LO-3"],
+   "note": "broken-tree construction again - the answer is standing part plus broken part, which only the labelled diagram reveals - with cos 30 and tan 30 doing the arithmetic. Same family as sha 748194254ec9a8fd, 8 m instead of 10 m"
+  },
+  {
+   "sha": "080939f812845d49",
+   "codes": ["C-6.1-LO-3"],
+   "note": "20 m tower, depression 60, ball's distance required; same distance-out family as shas cbc6544c8e6d4300 and d34cc1109f7c57ce and honestly the same outcome"
+  },
+  {
+   "sha": "e7ca66736116a7a9",
+   "codes": ["C-6.3-LO-4"],
+   "note": "TWO positions of the sun on the same tower: the 30 shadow fixes the height, which then fixes the 60 shadow. Two triangles sharing the vertical, so LO-4 rather than a single-triangle LO-3"
+  },
+  {
+   "sha": "7d3f4a475e124d41",
+   "codes": ["C-6.3-LO-4"],
+   "note": "one point P, two elevations (30 to the building top, 45 to the flagstaff top) and the flagstaff length is the DIFFERENCE of two heights; the two-triangle family, mapped to LO-4 as the nearest legal code"
+  },
+  {
+   "sha": "0265f42202bdf239",
+   "codes": ["C-6.1-LO-3"],
+   "note": "tan theta = 6/7 is not a standard angle, so no elevation value exists to apply; the pole height is given and the SHADOW is required, making this a pure ratio-selection-and-invert item"
+  },
+  {
+   "sha": "91c5646dc08380ee",
+   "codes": ["C-6.3-LO-4"],
+   "note": "two observers facing each other - from the tower's foot to the building's top (30) and from the building's foot to the tower's top (60) - sharing one horizontal distance. The literal two-observer case"
+  },
+  {
+   "sha": "9e5d2d85d1fd0db9",
+   "codes": ["C-6.2-LO-3", "C-6.1-LO-3"],
+   "note": "two-pole wire again with 16 and 10: the horizontal AE must be drawn so the working side is 6, then sin 30 gives the wire. Same construction as shas 575a5f810d8b1999 and 3394c4d753365ac7"
+  },
+  {
+   "sha": "8fd7f1dd1f9b9d8f",
+   "codes": ["C-6.1-LO-3"],
+   "note": "pole height given, the stay wire (hypotenuse) required at 45, so sin is the pick; companion of sha 54632b49e9e2e41a with a different angle"
+  },
+  {
+   "sha": "e11633e93f2a9ebe",
+   "codes": ["C-6.3-LO-4", "C-6.2-LO-3"],
+   "note": "depressions of BOTH the top and the bottom of a 50 m building from one tower top: two triangles, and the horizontal EC through the building's top must be drawn to link them. Two unknowns (tower height and the gap) solved together"
+  }
+ ]
+}

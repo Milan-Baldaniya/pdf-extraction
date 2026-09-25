@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22908,
+ "mappings": [
+  {"sha": "0b1e974bb3a04a3c", "codes": ["C-8.1-LO-1"], "note": "Direct-method grouped mean via class marks and the f*x column. LO-1."},
+  {"sha": "d73887e68a494da5", "codes": ["C-8.1-LO-1"], "note": "Inverts the direct-method mean formula to recover a missing frequency p. Still mean machinery, so LO-1 rather than LO-2/LO-3."},
+  {"sha": "0a8f8aaadded43b3", "codes": ["C-8.1-LO-3"], "note": "Converts a frequency table to more-than type by subtracting from the total. Cumulative-frequency construction (LO-3); no curve is drawn, so not C-8.2-LO-1."},
+  {"sha": "a7fd7f041e1f1d01", "codes": ["C-8.1-LO-3"], "note": "More-than cumulative table built by successive subtraction. LO-3; no median or mode is asked for."},
+  {"sha": "9bf52bf3089d787a", "codes": ["C-8.1-LO-3"], "note": "Differences a less-than cumulative table back into ordinary class frequencies. The inverse cumulative-frequency operation, LO-3."},
+  {"sha": "999abb6c7be1f4c3", "codes": ["C-8.1-LO-3"], "note": "Prepares a more-than cumulative distribution. LO-3 cumulative-frequency mechanics only."},
+  {"sha": "2fbef99edbb11734", "codes": ["C-8.1-LO-3"], "note": "More-than cumulative conversion of a daily-income table. LO-3."},
+  {"sha": "900f75b90adf841e", "codes": ["C-8.1-LO-3"], "note": "More-than cumulative table for 100 workers, running down to 0. LO-3."},
+  {"sha": "3544f7be8b3f4a2b", "codes": ["C-8.1-LO-3"], "note": "More-than cumulative conversion. LO-3; identical skill to the neighbouring conversion items, which is a question-bank redundancy rather than a mapping choice."},
+  {"sha": "70043903387dac76", "codes": ["C-8.1-LO-1", "C-8.1-LO-2"], "note": "Part (i) uses the total to find x and then the direct-method mean (LO-1); part (ii) applies the modal-class formula (LO-2). Two distinct outcomes in one item, mean first."},
+  {"sha": "b1304916dc2e6c56", "codes": ["C-8.1-LO-2"], "note": "Modal-class formula giving mode 14.46 cm. LO-2."},
+  {"sha": "7ddbeb7a16c11991", "codes": ["C-8.1-LO-1"], "note": "Solves the direct-method mean equation for the missing frequency f. Mean outcome, LO-1."},
+  {"sha": "e679e81f491689b2", "codes": ["C-8.1-LO-2"], "note": "Modal-class formula giving mode 30.625. LO-2."},
+  {"sha": "3eca546f08020b77", "codes": ["C-8.1-LO-1"], "note": "Step-deviation mean with a = 47.5, h = 5. LO-1 covers all three mean routes, so the choice of route does not select a different code."},
+  {"sha": "885e03f98413dc59", "codes": ["C-8.1-LO-1"], "note": "Two unknown frequencies recovered from the given mean and total, via the step-deviation form. Mean outcome, LO-1."},
+  {"sha": "6c33b77ab7baab1f", "codes": ["C-8.1-LO-1"], "note": "Step-deviation mean of household expenditure. LO-1."},
+  {"sha": "ad240125e2be1374", "codes": ["C-8.1-LO-3"], "note": "Median expenditure by the median formula after locating N/2 = 250 in the cumulative frequencies. LO-3."},
+  {"sha": "7c6d1419bbf05678", "codes": ["C-8.1-LO-2"], "note": "Modal-class formula giving mode Rs 75. LO-2."},
+  {"sha": "8bdd8ca387d490fc", "codes": ["C-8.1-LO-3"], "note": "Converts a less-than table to class frequencies only as scaffolding; the asked outcome is the median by the median formula. LO-3."},
+  {"sha": "d77e5f93ffc9997e", "codes": ["C-8.1-LO-1"], "note": "The less-than table is differenced only to set up a step-deviation mean over ten classes. The asked outcome is the mean, so LO-1 rather than the cumulative-frequency LO-3."},
+  {"sha": "aaee3fbc47d58deb", "codes": ["C-8.1-LO-1"], "note": "Recovers a missing frequency from a given mean of 31.4 using the step-deviation form. Mean outcome, LO-1."},
+  {"sha": "92c91627b5502406", "codes": ["C-8.1-LO-1"], "note": "Step-deviation mean with a = 60, h = 20. LO-1."},
+  {"sha": "07a733667ea5e4ae", "codes": ["C-8.1-LO-2"], "note": "Modal height by the modal-class formula. LO-2; the distribution is bimodal-looking but only the maximum frequency 20 matters."},
+  {"sha": "e7e5ccb38970ab9e", "codes": ["C-8.1-LO-2"], "note": "Modal marks by the modal-class formula on 50-60. LO-2."},
+  {"sha": "608c7cfe2bcf70e3", "codes": ["C-8.1-LO-2"], "note": "Modal-class formula giving mode 6400 runs. LO-2."}
+ ]
+}

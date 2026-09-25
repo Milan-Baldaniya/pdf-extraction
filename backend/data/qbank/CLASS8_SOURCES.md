@@ -336,3 +336,82 @@ before using it); DIKSHA; SCERT Maharashtra, Kerala, Tamil Nadu, Meghalaya.
 
 PARAKH is a taxonomy, not a question source. Worth aligning Bloom/DOK
 vocabulary to, but it will not add an item.
+
+---
+
+# pdf.tube — crawled and verified 2026-09-25. This changes the volume answer.
+
+`https://pdf.tube/School/CBSE/` holds chapter-wise question banks for Classes
+1-12. Crawled the whole tree; the CBSE branch carries a "QB 2026" file per
+subject. Downloaded to `data/qbank/mirror/pdftube/`.
+
+**These are not sample item banks. They are chapter-wise MCQ banks with an
+answer AND an explanation on every item**, which is the shape that took
+Class 10 Science past 500.
+
+    CH 2 : EXPLORING SUBSTANCES : ACIDIC, BASIC AND NEUTRAL
+    1. What type of substances are defined by their ability to turn blue
+       litmus paper red?
+       (A) Basic  (B) Neutral  (C) Acidic  (D) Salty
+       Ans : (C) Acidic substances
+       Acidic substances are characterized by ... changing blue litmus to red.
+
+| File | Pages | Answered | Note |
+|---|---|---|---|
+| `c10_Hindi_B_QB_2026.pdf` | 607 | **3,273** | legacy font, render to read |
+| `c10_Hindi_A_QB_2026.pdf` | 560 | **2,983** | legacy font, render to read |
+| `c7_English_QB_2026.pdf` | 624 | **1,901** | text layer clean |
+| `c9_CBSE_9th_Hindi_R1.pdf` | 456 | **1,788** | clean Devanagari |
+| `c6_Social_Science_QB_2026.pdf` | 284 | **1,720** | text layer clean |
+| `c7_Science_QB_2026.pdf` | 319 | **1,532** | text layer clean |
+| `c7_Social_Science_QB_2026.pdf` | 547 | 4,315 numbered | marker is `AAns`, count pending |
+| `c6_Science_QB_2026.pdf` | 302 | scanned | **no text layer at all** |
+| **total confirmed** | | **13,198** | |
+
+Against ~2,770 from every government source in two suggested lists combined.
+
+## Per chapter, against the 500 target
+
+| Subject | Answered | DB chapters | Per chapter |
+|---|---|---|---|
+| Class 7 English | 1,901 | 5 | **380** |
+| Class 10 Hindi-A | 2,983 | 12 | **249** |
+| Class 10 Hindi-B | 3,273 | 14 | **234** |
+| Class 9 Hindi-A | 1,788 | 13 | **138** |
+| Class 7 Science | 1,532 | 12 | **128** |
+| Class 6 Social Science | 1,720 | 14 | **123** |
+
+Class 9 Hindi-A, Class 10 Hindi-A and Class 6/7 everything were at **zero**.
+
+## Still to download from the same source
+
+Class 8 English / Science / Social Science; Class 9 English R1 and Science;
+Class 10 English, Maths Standard, Science, Social Science; plus Class 10
+sample papers. On the rates above these plausibly double the figure.
+
+**Skipped per the blocked list:** Class 9 English R2, Class 9 Hindi R2,
+Class 10 AI, Class 10 IT.
+
+## Three extraction problems to solve before any of it loads
+
+1. **`c6_Science_QB_2026.pdf` has no text layer** — 302 pages, 301 characters.
+   Scanned. Render and read, per
+   [[devanagari-pdf-renders-fine-text-layer-lies]]; the method is the same
+   whatever the script.
+2. **Both Class 10 Hindi banks use a legacy font encoding.** `get_text()`
+   returns `CBSE d{kk 10 fganh` for `CBSE कक्षा 10 हिंदी`. The pages render
+   correctly, so this is the render-and-read case again, not a dead source.
+   Class 9 Hindi R1 is the exception: its body text is properly encoded
+   Devanagari, with only the answer marker legacy-encoded as `mmÙkj%`.
+3. **The answer marker differs per file** — `Ans :`, `AAns`, `उत्तर`,
+   `mmÙkj%`, `mÙk j %`. A single pattern under-counts one file by 4,000. Every
+   file needs its own marker discovered before parsing, exactly as CBSE's SAS
+   files needed a different chapter label per subject.
+
+## CBSE's own question bank, checked the same day
+
+`cbse.gov.in/cbsenew/question_bank.html` links to `qbclass10.html`, which
+yields three real PDFs (Tier B): `EnglishX.pdf` 157 pages with 191 answers,
+`MathsX.pdf` 50 pages with 313 numbered items but only 54 answer markers, and
+`ScienceX.pdf` at just **16 pages**. Official, and small. Copyright line says
+2022. Worth having, not a volume source.

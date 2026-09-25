@@ -22,6 +22,25 @@ reassigned whenever `write_question_bank(replace=True)` reloads a chapter, and
 two of these books are being loaded on another machine right now. The hash
 survives a reload, and when a question's text changes the hash changes with it,
 so a stale reading is detected instead of being applied to the wrong question.
+
+`--include-native` reaches the questions the LMS itself holds -- 11,572 of them
+across 153 chapters, against 8,141 that came out of a book here. They have no
+sidecar row, so no `verbatim_sha256`, and the JOIN above made them invisible to
+the whole mapping chain: `--coverage` counts them only to say they are not in
+the work list. Nothing below the scripts objected -- `lms_question_outcome`
+keys on `question_id` and its `extraction_id` is nullable -- so the JOIN was
+the only thing stopping them being mapped.
+
+Those are addressed as `qid:<question_id>`, and the id is safe for them for the
+reason it is not safe for ours: `write_question_bank` never touches a row it
+did not write, so a question with no sidecar is never reloaded and never
+renumbered. The loader enforces the distinction rather than trusting it -- a
+`qid:` address naming a question that DOES have a sidecar row is refused, so
+the weaker address can never be used where the hash applies.
+
+Off by default. Turning it on for a mixed chapter changes what the work list
+means: Class 10 Science chapter 1 has 262 of ours and 244 of the LMS's in the
+same chapter, and folding them together silently triples a reader's batch.
 """
 from __future__ import annotations
 
@@ -54,11 +73,18 @@ _QUESTIONS = """
     SELECT q.id, x.verbatim_sha256, x.item_number, x.item_form, q.points,
            q.question_title, q.description, q.answer, q.concept, x.exam_section
       FROM lms_question_master q
-      JOIN lms_question_extraction x ON x.question_id = q.id
+      {join} lms_question_extraction x ON x.question_id = q.id
      WHERE q.chapter_id = :c
+       {native}
        {unmapped}
-     ORDER BY x.item_ordinal, q.id
+     ORDER BY x.item_ordinal IS NULL, x.item_ordinal, q.id
 """
+
+# With the JOIN opened up, `x.*` comes back NULL for a question the LMS wrote.
+# `item_ordinal IS NULL` leads the ORDER BY because MariaDB sorts NULLs FIRST:
+# without it the entire native set is dumped ahead of the book's own sequence,
+# and a reader working part 1 of a mixed chapter would see none of the book.
+_NATIVE_ONLY = "AND x.question_id IS NULL"
 
 _UNMAPPED = (
     "AND NOT EXISTS (SELECT 1 FROM lms_question_outcome o WHERE o.question_id = q.id)"
@@ -187,6 +213,11 @@ def main() -> int:
     ap.add_argument("--part", type=int, default=1, help="1-based part when --batch is set")
     ap.add_argument("--all-questions", action="store_true",
                     help="include questions already mapped (default: unmapped only)")
+    ap.add_argument("--include-native", action="store_true",
+                    help="also list LMS-native questions (no sidecar row), "
+                         "addressed as qid:<id>")
+    ap.add_argument("--native-only", action="store_true",
+                    help="list ONLY LMS-native questions; implies --include-native")
     ap.add_argument("--coverage", action="store_true", help="per-chapter mapped counts")
     ap.add_argument("--standard", type=int, default=43)
     ap.add_argument("--subject", type=int)
@@ -206,7 +237,12 @@ def main() -> int:
             raise SystemExit(f"chapter {a.chapter} not found")
         chapter_id, name, standard_id, subject_id, tenant = ch
 
-        sql = _QUESTIONS.format(unmapped="" if a.all_questions else _UNMAPPED)
+        native = a.include_native or a.native_only
+        sql = _QUESTIONS.format(
+            join="LEFT JOIN" if native else "JOIN",
+            native=_NATIVE_ONLY if a.native_only else "",
+            unmapped="" if a.all_questions else _UNMAPPED,
+        )
         rows = db.execute(text(sql), {"c": chapter_id}).fetchall()
 
         total = len(rows)
@@ -233,7 +269,13 @@ def main() -> int:
 
         print("\n" + "=" * 70)
         for qid, sha, num, form, marks, title, desc, answer, concept, section in rows:
-            print(f"\nsha {str(sha)[:16]}  q{qid}  item {num}  {form}  {marks} mark(s)"
+            # A native question has no hash to quote, so it is addressed by id
+            # and SAYS so. Printing a bare `sha None` would have a reader copy
+            # the string "None" into a map file, where it resolves to nothing
+            # and the entry is reported as unmatched -- recoverable, but only
+            # after the reading has been done twice.
+            address = f"sha {str(sha)[:16]}" if sha else f"qid:{qid}  (LMS-native)"
+            print(f"\n{address}  q{qid}  item {num}  {form}  {marks} mark(s)"
                   f"{'  | ' + _clean(section, 40) if section else ''}")
             if concept:
                 print(f"  concept: {concept}")
@@ -253,6 +295,12 @@ def main() -> int:
             "mappings": [{"sha": "<first 16 of sha>", "codes": ["<code>"],
                           "note": "why this outcome and not a sibling"}],
         }, indent=1))
+        if native:
+            print("  For a row printed as `qid:<id>  (LMS-native)`, put that "
+                  "whole string\n  -- including the `qid:` -- in the `sha` "
+                  "field. It is a different kind of\n  address, not a hash, and "
+                  "the loader refuses it for any question that\n  does have a "
+                  "sidecar row.")
         return 0
     finally:
         db.close()

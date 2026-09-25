@@ -415,3 +415,66 @@ yields three real PDFs (Tier B): `EnglishX.pdf` 157 pages with 191 answers,
 `MathsX.pdf` 50 pages with 313 numbered items but only 54 answer markers, and
 `ScienceX.pdf` at just **16 pages**. Official, and small. Copyright line says
 2022. Worth having, not a volume source.
+
+## Full pdf.tube pull — 2026-09-25
+
+All remaining CBSE banks downloaded. Blocked list respected at download:
+Class 9 English R2, Class 9 Hindi R2, Class 10 AI, Class 10 IT.
+
+**Two files are byte-identical to books already in the bank.** MD5 match:
+`c9_Science_QB_2026.pdf` == `cbse9_science_qb2026.pdf`, and
+`c8_Science_QB_2026.pdf` == `cbse8_science_qb2026.pdf`. So pdf.tube is where
+the 2,346 Class 9 Science questions already loaded came from. That is the
+strongest validation the source could have: it has already produced the
+best-mapped subject in the estate.
+
+| File | Pages | Answered |
+|---|---|---|
+| `c10_Science_QB_2026.pdf` | 684 | 3,387 |
+| `c10_Hindi_B_QB_2026.pdf` | 607 | 3,273 |
+| `c10_Hindi_A_QB_2026.pdf` | 560 | 2,983 |
+| `c10_English_QB_2026.pdf` | 644 | 2,890 |
+| `c9_English_R1_QB_2026.pdf` | 684 | 2,521 |
+| `c10_CBSE_10th_Social_Science.pdf` | 689 | 2,516 |
+| `c7_English_QB_2026.pdf` | 624 | 1,901 |
+| `c9_CBSE_9th_Hindi_R1.pdf` | 456 | 1,788 |
+| `c6_Social_Science_QB_2026.pdf` | 284 | 1,720 |
+| `c7_Science_QB_2026.pdf` | 319 | 1,532 |
+| `c8_Social_Science_QB_2026.pdf` | 246 | 1,077 |
+| `c10_Hindi_B_10th_SP.pdf` | 346 | 839 |
+| `c10_Hindi_A_10th_SP.pdf` | 346 | 780 |
+| `c8_English_QB_2026.pdf` | 639 | 338 |
+| `c10_Maths_Standard_QB_2026.pdf` | 677 | 246 |
+| **counted total** | | **27,792** |
+
+### Per chapter against the 500 target
+
+| Subject | Answered | DB ch | Per ch | Was |
+|---|---|---|---|---|
+| Class 7 English | 1,901 | 5 | **380** | 0 |
+| Class 10 English | 2,890 | 9 | **321** | 75 |
+| Class 9 English | 2,521 | 8 | **315** | 4 |
+| Class 10 Hindi-A | 2,983 | 12 | **249** | 0 |
+| Class 10 Hindi-B | 3,273 | 14 | **234** | 21 |
+| Class 10 Science | 3,387 | 13 | **261** | 567 (already done) |
+| Class 9 Hindi-A | 1,788 | 13 | **138** | 0 |
+| Class 7 Science | 1,532 | 12 | **128** | 0 |
+| Class 6 Social Science | 1,720 | 14 | **123** | 0 |
+| Class 10 Social Science | 2,516 | 17 | **148** | 35-143 |
+
+### Five files still under-counted — marker discovery needed
+
+The count above is a FLOOR, not a ceiling. These use an answer marker the
+current pattern misses, and each needs its own discovered before parsing:
+
+- `c7_Social_Science_QB_2026.pdf` — 4,315 numbered items, 1 matched. Uses
+  `AAns` with irregular spacing.
+- `c10_Maths_Standard_QB_2026.pdf` — 677 pages, only 246 matched.
+- `c8_English_QB_2026.pdf` — 639 pages, only 338 matched.
+- `c6_Science_QB_2026.pdf` — scanned, no text layer at all.
+- The five Class 10 sample-paper files — 0 matched, because a sample paper
+  keeps its answers in a separate marking scheme rather than inline.
+
+This is the same lesson as CBSE's SAS files, which used a different chapter
+label per subject: **discover the marker per file, never assume one pattern.**
+A single regex under-counted `c7_Social_Science` by roughly four thousand.

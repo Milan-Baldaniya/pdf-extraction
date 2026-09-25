@@ -115,6 +115,28 @@ BOOKS: dict[str, dict] = {
             (1, 14, "Economic Activities Around Us", 234, 250),
         ],
     },
+    "c10_english": {
+        "file": "c10_English_QB_2026.pdf",
+        "standard_id": 43, "standard": 10, "publisher": "nodia",
+        "marker": r"(?m)^\s*Ans\b\s*[:.]?\s*",
+        "subject_of_part": {1: "English"},
+        "title": "NODIA Class 10 English Question Bank 2026",
+        "textbook": "First Flight",
+        # Only Section C, First Flight prose. The Reading, Writing and
+        # Grammar sections that open the book are not chapters the
+        # database holds, and their own "CHAP 1" would collide.
+        "chapters": [
+            (1, 1, "A Letter to God", 208, 225),
+            (1, 2, "Nelson Mandela - Long Walk to Freedom", 226, 244),
+            (1, 3, "Two Stories About Flying", 245, 267),
+            (1, 4, "From the Diary of Anne Frank", 268, 285),
+            (1, 5, "Glimpses of India", 286, 313),
+            (1, 6, "Mijbil the Otter", 314, 331),
+            (1, 7, "Madam Rides the Bus", 332, 348),
+            (1, 8, "The Sermon at Benares", 349, 363),
+            (1, 9, "The Proposal", 364, 381),
+        ],
+    },
     "c7_science": {
         "file": "c7_Science_QB_2026.pdf",
         "standard_id": 40, "standard": 7, "publisher": "nodia",

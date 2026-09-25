@@ -82,6 +82,33 @@ BOOKS: dict[str, dict] = {
             (1, 14, "Economic Activities Around Us", 234, 250),
         ],
     },
+    "c7_science": {
+        "file": "c7_Science_QB_2026.pdf",
+        "standard_id": 40, "standard": 7, "publisher": "nodia",
+        "marker": r"(?m)^\s*Ans\b\s*[:.]?\s*",
+        "subject_of_part": {1: "Science"},
+        "title": "NODIA Class 7 Science Question Bank 2026",
+        "textbook": "Curiosity (NEP-2020)",
+        # The book's own contents wording, which is what the running header
+        # prints. Chapter 11 is "Light - Shadows and Reflections" in the
+        # database and "Light - Shadows and Re(fl)ections" in the text layer,
+        # where the fl is a single ligature glyph that squashes away; the key
+        # shortens past it.
+        "chapters": [
+            (1, 1, "The Ever-Evolving World of Science", 5, 11),
+            (1, 2, "Exploring Substances : Acidic, Basic and Neutral", 12, 34),
+            (1, 3, "Electricity Circuits and their Components", 35, 64),
+            (1, 4, "The World of Metals and Non-metals", 65, 89),
+            (1, 5, "Changes Around Us Physical and Chemical", 90, 114),
+            (1, 6, "Adolescence A Stage of Growth and Change", 115, 137),
+            (1, 7, "Heat Transfer in Nature", 138, 162),
+            (1, 8, "Measurement of Time and Motion", 163, 185),
+            (1, 9, "Life Processes in Animals", 186, 207),
+            (1, 10, "Life Processes in Plants", 208, 233),
+            (1, 11, "Light Shadows and Reflections", 234, 261),
+            (1, 12, "Earth, Moon and the Sun", 262, 284),
+        ],
+    },
     "c7_social": {
         "file": "c7_Social_Science_QB_2026.pdf",
         "standard_id": 40, "standard": 7, "publisher": "nodia",
@@ -234,8 +261,88 @@ def _folio_map(doc, seed: int) -> list:
     return out
 
 
-def _spans(doc, chapters) -> dict[tuple[int, int], tuple[int, int]]:
-    """Each chapter's PDF page span, anchored on its OWN title in the header.
+def _page_chapter(doc, chapters) -> list[tuple[int, int] | None]:
+    """Which chapter each PDF page belongs to, read from its own header.
+
+    THE BOOK IS NOT IN CHAPTER ORDER, so no contiguous span can be right.
+    Class 7 Science page 210 is headed "CH 9 : LIFE PROCESSES IN ANIMALS"
+    and page 212 is headed "CH 8 : MEASUREMENT OF TIME AND MOTION" --
+    chapter 8 resumes after chapter 9 has begun. Given a span, chapter 9
+    collected seven of chapter 8's questions about average speed, and
+    chapter 11 collected chapter 10's about whether non-green parts of a
+    plant respire. Compare [[qbank-two-column-scatters-sections]].
+
+    So every page is attributed on its own header, and a page without one
+    inherits the page before it. Two details the header forces:
+
+      IT ABBREVIATES. The contents prints "Empires and Kingdoms: 6th to
+      10th Centuries"; the header prints "Empires and Kingdom :" -- so the
+      key shortens until it matches.
+
+      SIBLINGS SHARE A PREFIX. Class 6's three "Grassroots Democracy"
+      chapters agree for 22 characters, so the longest key is tried first
+      and the registry carries the book's own wording.
+
+    A page naming three or more chapters is the contents, not a chapter.
+    """
+    titles = [_squash(c[2]) for c in chapters]
+    sq: list[str] = []
+    for i in range(doc.page_count):
+        try:
+            sq.append(_squash(doc[i].get_text() or ""))
+        except Exception:
+            sq.append("")
+
+    # The shortest key that identifies each chapter uniquely across the book.
+    # THE LONGEST KEY THAT STILL MATCHES, not the shortest that is unique.
+    # Shortened too far, "Electricity Circuits and their Components" becomes
+    # "ELECTRICIT" and claims every page in the metals chapter that mentions
+    # electricity -- chapter 3 took 232 questions and chapter 4 was left 52.
+    keys: list[str] = []
+    for k, t in enumerate(titles):
+        chosen = t
+        for width in (len(t), 30, 22, 18, 15, 12, 10):
+            cand = t[:width]
+            if not cand:
+                break
+            others = [u[:width] for j, u in enumerate(titles) if j != k]
+            if cand not in others and any(cand in s for s in sq):
+                chosen = cand
+                break
+        keys.append(chosen)
+
+    out: list[tuple[int, int] | None] = []
+    last: tuple[int, int] | None = None
+    for i in range(doc.page_count):
+        try:
+            raw = doc[i].get_text() or ""
+        except Exception:
+            raw = ""
+        hits = [k for k, key in enumerate(keys) if key and key in sq[i]]
+        if len(hits) >= 3:            # the contents page
+            out.append(last)
+            continue
+        if len(hits) == 1:
+            last = (chapters[hits[0]][0], chapters[hits[0]][1])
+        else:
+            # NO TITLE HEADER: fall back to the folio this page prints, and
+            # the range the contents gives each chapter. Carrying the last
+            # chapter forward is wrong where the book interleaves -- pages
+            # 211, 213 and 214 of Class 7 Science hold chapter 8 but follow
+            # a page headed chapter 9, and inherited it, taking seven
+            # questions about average speed into Life Processes in Animals.
+            m = _FOLIO.search("\n".join(raw.splitlines()[:4]))
+            if m:
+                f = int(m.group(1))
+                owner = [(c[0], c[1]) for c in chapters if c[3] <= f <= c[4]]
+                if len(owner) == 1:
+                    last = owner[0]
+        out.append(last)
+    return out
+
+
+def _spans_unused(doc, chapters) -> dict[tuple[int, int], tuple[int, int]]:
+    """Superseded by `_page_chapter`; kept only for the note it carries.
 
     NEITHER A CONSTANT OFFSET NOR THE PRINTED FOLIO SURVIVES THIS FAMILY OF
     BOOKS, and getting it wrong does not fail -- it files a chapter's
@@ -306,9 +413,9 @@ def _spans(doc, chapters) -> dict[tuple[int, int], tuple[int, int]]:
     return out
 
 
-def _blob(doc, span) -> tuple[str, int]:
+def _blob(doc, pages) -> tuple[str, int]:
     out, skipped = [], 0
-    for p in range(span[0], span[1] + 1):
+    for p in pages:
         try:
             raw = doc[p].get_text() or ""
         except Exception:
@@ -328,11 +435,11 @@ def build(book: str) -> dict:
     ans_re = re.compile(cfg["marker"])
     doc = fitz.open(MIRROR / cfg["file"])
     doc_pages = doc.page_count
-    spans = _spans(doc, cfg["chapters"])
+    owner = _page_chapter(doc, cfg["chapters"])
     items, dropped, ads = [], {}, 0
 
     for part, so, name, lo, hi in cfg["chapters"]:
-        body, skipped = _blob(doc, spans[(part, so)])
+        body, skipped = _blob(doc, [i for i, o in enumerate(owner) if o == (part, so)])
         ads += skipped
         qpos = [m.start() for m in _QSTART.finditer(body)]
         apos = list(ans_re.finditer(body))
@@ -390,7 +497,7 @@ def build(book: str) -> dict:
         seen.add(k)
         unique.append(it)
     return {"cfg": cfg, "items": unique, "dropped": dropped,
-            "folios": len(spans), "pages": doc_pages, "raw": len(items)}
+            "folios": len({o for o in owner if o}), "pages": doc_pages, "raw": len(items)}
 
 
 def main() -> int:
@@ -410,7 +517,7 @@ def main() -> int:
 
     forms = ("mcq", "very_short", "short", "long", "case_study")
     print(f"{a.book} -- {cfg['file']}")
-    print(f"  {r['folios']} chapter spans anchored on their own titles, "
+    print(f"  {r['folios']} chapters attributed page by page from the running header, "
           f"over {r['pages']} PDF pages\n")
     print(f"  {'pt':>2} {'ch':>3} {'chapter':<48} " + " ".join(f"{f[:10]:>10}" for f in forms) + f" {'total':>6}")
     print("  " + "-" * 122)

@@ -39,6 +39,19 @@ from scripts.parse_nodia_qb import BOOKS, MIRROR, SOURCE_URL  # noqa: E402
 INST, SYEAR, BOARD = 1, 2026, "CBSE"
 
 
+def _fold(t):
+    import re
+    return re.sub(r"[^0-9a-zऀ-ॿ]", "", (t or "").lower())
+
+
+def _overlap(a, b):
+    """How much of the shorter string the two share, as a crude score."""
+    if not a or not b:
+        return 0
+    n = min(len(a), len(b))
+    return sum(1 for i in range(n) if a[i] == b[i])
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--book", choices=sorted(BOOKS), required=True)
@@ -66,7 +79,26 @@ def main() -> int:
                 " WHERE c.standard_id = :s AND s.subject_name = :n "
                 " ORDER BY c.sort_order"),
                 {"s": cfg["standard_id"], "n": subj}).fetchall()
-            by_part[part] = {int(r[1]): (int(r[0]), r[2], int(r[3])) for r in rows}
+            # TWO ROWS CAN SHARE A sort_order. Class 9 Hindi-A has both
+            # "Hindi Curriculum" and the real chapter 1 at 1, and keyed on
+            # position alone the whole book would load against a curriculum
+            # placeholder. Where a number is ambiguous, the row whose name
+            # matches the registry wins.
+            table: dict[int, list] = {}
+            for r in rows:
+                table.setdefault(int(r[1]), []).append((int(r[0]), r[2], int(r[3])))
+            reg = {c[1]: c[2] for c in cfg["chapters"] if c[0] == part}
+            picked: dict[int, tuple] = {}
+            for so, cands in table.items():
+                if len(cands) == 1:
+                    picked[so] = cands[0]
+                    continue
+                want = _fold(reg.get(so, ""))
+                best = max(cands, key=lambda c: _overlap(_fold(c[1]), want))
+                picked[so] = best
+                print(f"  note: sort_order {so} has {len(cands)} rows "
+                      f"{[c[1] for c in cands]}; chose {best[1]!r}")
+            by_part[part] = picked
         have = {int(r[0]) for r in db.execute(text(
             "SELECT chapter_id FROM document_extractions WHERE content_sha256 = :h"),
             {"h": sha}).fetchall()}

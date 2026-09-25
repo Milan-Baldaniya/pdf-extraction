@@ -54,6 +54,39 @@ MIRROR = Path(__file__).resolve().parents[1] / "data" / "qbank" / "mirror" / "pd
 SOURCE_URL = "https://pdf.tube/School/CBSE/"
 
 BOOKS: dict[str, dict] = {
+    "c9_hindi": {
+        "file": "c9_CBSE_9th_Hindi_R1.pdf",
+        "standard_id": 42, "standard": 9, "publisher": "nodia",
+        # The marker is printed in a legacy font encoding on most pages
+        # -- "mmUkj%" is how the text layer renders उत्तर: -- and in
+        # proper Unicode on the rest. 1,776 of the first, 382 of the
+        # second. Either alone loses most of the book.
+        "marker": r"(?m)^\s*(?:mmÙkj|उत्तर)\s*[%:।]?\s*",
+        # QUESTIONS ARE NUMBERED "6-", ANSWERS SUB-POINT WITH "1.".
+        # Sharing one pattern, the first sub-point of every answer reads
+        # as the next question and truncates the answer to nothing.
+        "qstart": r"(?m)^[ 	]*(\d{1,3})\s*[-–]\s*",
+        "option_labels": "कखगघ",
+        "subject_of_part": {1: "Hindi-A"},
+        "title": "NODIA Class 9 Hindi R-1 Question Bank 2026",
+        "textbook": "गंगा (NEP-2020)",
+        # Only the खंड-ग literature section. The अपठित, व्याकरण and
+        # रचनात्मक लेखन sections are not chapters the database holds.
+        "chapters": [
+            (1, 1, "दो बैलों की कथा", 81, 109),
+            (1, 2, "क्या लिखूँ?", 110, 134),
+            (1, 3, "संवादहीन", 135, 160),
+            (1, 4, "ऐसी भी बातें होती हैं", 161, 186),
+            (1, 5, "आखिरी चट्टान तक", 187, 210),
+            (1, 6, "रीढ़ की हड्डी", 211, 231),
+            (1, 7, "मैं और मेरा देश", 232, 257),
+            (1, 8, "पद", 258, 273),
+            (1, 9, "राम-लक्ष्मण-परशुराम संवाद", 274, 297),
+            (1, 10, "भारति, जय, विजयकरे!", 298, 316),
+            (1, 11, "झाँसी की रानी", 317, 349),
+            (1, 12, "घर की याद", 350, 381),
+        ],
+    },
     "c6_social": {
         "file": "c6_Social_Science_QB_2026.pdf",
         "standard_id": 39, "standard": 6, "publisher": "nodia",
@@ -160,7 +193,15 @@ def _squash(s: str) -> str:
 
 
 def _norm(t: str) -> str:
-    return re.sub(r"[^a-z0-9]", "", (t or "").lower())
+    """Fold to comparable characters, KEEPING non-Latin scripts.
+
+    An ASCII-only class silently erases Devanagari: every Hindi stem folds to
+    the empty string, so the dedupe sees one question repeated and the answer
+    key never matches its option. Class 9 Hindi lost 599 of 1,180 items to a
+    "printed twice" that was really "both normalised to nothing".
+    """
+    return re.sub(r"[^0-9a-zऀ-ॿঀ-৿਀-੿]", "",
+                  (t or "").lower())
 
 
 def _is_ad(text: str) -> bool:
@@ -190,31 +231,56 @@ def _form_at(body: str, pos: int, default: str = "short") -> str:
     return form
 
 
-def _options(block: str) -> list[dict]:
+def _label_set(cfg) -> tuple[str, dict]:
+    """The option letters this book prints, and how they map to A-D.
+
+    Hindi marks its choices (क)(ख)(ग)(घ), not (A)(B)(C)(D) -- 6,000 of
+    them in Class 9 Hindi R-1. Matched only against Latin letters, every
+    multiple-choice question in the book reads as a plain short answer.
+    `answer_master` stores option ORDER and a correct flag, never the
+    printed letter, so folding to A-D loses nothing.
+    """
+    labs = cfg.get("option_labels") or "ABCD"
+    table = {}
+    for i, ch in enumerate(labs):
+        table[ch] = "ABCD"[i]
+        table[ch.lower()] = "ABCD"[i]
+    return "".join(sorted(set(labs + labs.lower()))), table
+
+
+def _options(block: str, labs: str = "A-Da-d", table: dict | None = None) -> list[dict]:
+    table = table or {}
+    line_re = re.compile(rf"(?m)^[ 	]*\(\s*([{labs}])\s*\)[ 	]*(.+?)[ 	]*$")
+    any_re = re.compile(rf"\(\s*([{labs}])\s*\)\s*([^()]{{1,200}}?)"
+                        rf"(?=\s*\(\s*[{labs}]\s*\)|\s*$)")
     opts: dict[str, str] = {}
-    for m in _OPT_LINE.finditer(block):
-        lab, txt = m.group(1).upper(), " ".join(m.group(2).split()).strip(" .,;")
+    for m in line_re.finditer(block):
+        lab = table.get(m.group(1), m.group(1).upper())
+        txt = " ".join(m.group(2).split()).strip(" .,;")
         if txt and lab not in opts:
             opts[lab] = txt[:240]
     if sorted(opts) != ["A", "B", "C", "D"]:
         opts = {}
-        for lab, txt in _OPT_ANY.findall(" ".join(block.split())):
-            lab, txt = lab.upper(), " ".join(txt.split()).strip(" .,;")
+        for lab0, txt in any_re.findall(" ".join(block.split())):
+            lab = table.get(lab0, lab0.upper())
+            txt = " ".join(txt.split()).strip(" .,;")
             if txt and lab not in opts:
                 opts[lab] = txt[:240]
     return ([{"label": k, "text": opts[k]} for k in sorted(opts)]
             if sorted(opts) == ["A", "B", "C", "D"] else [])
 
 
-def _key(opts: list[dict], answer: str) -> str:
+def _key(opts: list[dict], answer: str, lead_re=None, table=None) -> str:
     if not opts:
         return ""
-    body = _norm(_LEAD.sub("", answer)[:120])
+    lead_re = lead_re or _LEAD
+    table = table or {}
+    body = _norm(lead_re.sub("", answer)[:120])
     hit = [o["label"] for o in opts if _norm(o["text"]) and _norm(o["text"])[:40] in body]
     if len(hit) == 1:
         return hit[0]
-    m = _LEAD.match(answer)
-    lab = m.group(1).upper() if m else ""
+    m = lead_re.match(answer)
+    lab = table.get(m.group(1), m.group(1).upper()) if m else ""
     return lab if lab in {o["label"] for o in opts} else ""
 
 
@@ -335,8 +401,11 @@ def _page_chapter(doc, chapters) -> list[tuple[int, int] | None]:
             if m:
                 f = int(m.group(1))
                 owner = [(c[0], c[1]) for c in chapters if c[3] <= f <= c[4]]
-                if len(owner) == 1:
-                    last = owner[0]
+                # A folio past the last chapter is a section the database
+                # does not hold -- Class 9 Hindi prints 18 pages of
+                # composition exercises after folio 381, and carried
+                # forward they doubled the last chapter.
+                last = owner[0] if len(owner) == 1 else None
         out.append(last)
     return out
 
@@ -433,6 +502,12 @@ def _blob(doc, pages) -> tuple[str, int]:
 def build(book: str) -> dict:
     cfg = BOOKS[book]
     ans_re = re.compile(cfg["marker"])
+    qstart = re.compile(cfg.get("qstart") or _QSTART.pattern)
+    labs, table = _label_set(cfg)
+    lead_re = re.compile(rf"^\s*\(?\s*([{labs}])\s*\)?[.\s]*")
+    opt_line_re = re.compile(rf"(?m)^[ 	]*\(\s*[{labs}]\s*\)")
+    opt_any_re = re.compile(rf"\(\s*[{labs}]\s*\)[^()]{{0,200}}?"
+                            rf"(?=\s*\(\s*[{labs}]\s*\)|\s*$)")
     doc = fitz.open(MIRROR / cfg["file"])
     doc_pages = doc.page_count
     owner = _page_chapter(doc, cfg["chapters"])
@@ -441,7 +516,7 @@ def build(book: str) -> dict:
     for part, so, name, lo, hi in cfg["chapters"]:
         body, skipped = _blob(doc, [i for i, o in enumerate(owner) if o == (part, so)])
         ads += skipped
-        qpos = [m.start() for m in _QSTART.finditer(body)]
+        qpos = [m.start() for m in qstart.finditer(body)]
         apos = list(ans_re.finditer(body))
         for k, a in enumerate(apos):
             before = [q for q in qpos if q < a.start()]
@@ -456,15 +531,19 @@ def build(book: str) -> dict:
             if form == "skip":
                 dropped["matching-type exercise"] = dropped.get("matching-type exercise", 0) + 1
                 continue
-            opts = _options(raw_stem)
+            opts = _options(raw_stem, labs, table)
+            # Strip the options and the leading number with THIS book's
+            # patterns. Using the Latin ones, a Hindi stem keeps its own
+            # four choices and its "1-" inside the question text.
             stem_lines = [ln for ln in raw_stem.splitlines()
-                          if not (opts and _OPT_LINE.match(ln))]
-            stem = " ".join(re.sub(r"^\s*\d{1,3}\s*\.\s*", "", "\n".join(stem_lines)).split())
+                          if not (opts and opt_line_re.match(ln))]
+            stem = "\n".join(stem_lines)
+            stem = qstart.sub("", stem, count=1)
+            stem = " ".join(re.sub(r"^\s*\d{1,3}\s*[.\-–]\s*", "", stem).split())
             if opts:
-                for o in opts:
-                    stem = stem.replace(f"({o['label']}) {o['text']}", " ")
+                stem = opt_any_re.sub(" ", stem)
                 stem = " ".join(stem.split())
-            correct = _key(opts, answer) if opts else ""
+            correct = _key(opts, answer, lead_re, table) if opts else ""
             if opts and correct:
                 form = "mcq"
             elif opts:

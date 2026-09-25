@@ -49,7 +49,14 @@ OUT_ROOT = Path(__file__).resolve().parent / "nodia_qb_items"
 
 
 def norm(t: str) -> str:
-    return re.sub(r"[^a-z0-9]", "", ud.normalize("NFKC", t or "").lower())
+    """Fold for comparison, KEEPING non-Latin scripts.
+
+    An ASCII-only class erases Devanagari entirely, so every Hindi stem folds
+    to the empty string and the dedupe sees one question repeated: Class 9
+    Hindi held back 919 of 1,007 items as "printed twice" and loaded 88.
+    """
+    return re.sub(r"[^0-9a-zऀ-ॿঀ-৿਀-੿]", "",
+                  ud.normalize("NFKC", t or "").lower())
 
 
 def main() -> int:

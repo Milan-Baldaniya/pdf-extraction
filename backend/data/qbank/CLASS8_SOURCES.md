@@ -245,3 +245,94 @@ Class 8 Science chapter 2 (Microorganisms) holds **966 questions** against
 70-88 in each of its twelve siblings — 50% of the subject in one chapter, and
 all 966 stems are distinct so it is not duplication. That looks like a bulk
 load that defaulted to one chapter_id rather than genuine depth.
+
+---
+
+# Regional government sources — verified 2026-09-25
+
+Checked the top of the suggested priority list. Every URL fetched, every PDF
+opened. Results are mixed and the two biggest claims did not survive intact.
+
+## VERIFIED AND DOWNLOADED
+
+### KVS RO Jabalpur — competency banks, `data/qbank/mirror/kvs_jabalpur/`
+
+`https://rojabalpur.kvs.gov.in/en/study-material/` is real. Seven materials,
+four of them useful here. **The English banks are the largest single find since
+the Nodia book.**
+
+| File | Pages | Questions | Answers |
+|---|---|---|---|
+| `c9_english_cbq.pdf` | 154 | 488 | 484 |
+| `c10_english_cbq.pdf` | 111 | 634 | 585 |
+| `c9_maths_cbq.pdf` | 72 | 52 case studies | 124 |
+| `c10_maths_cbq.pdf` | 61 | 71 case studies | 135 |
+
+Session 2026-27, competency-based, with answers. The Maths files are
+case-study led, so the question count understates them -- each case carries
+several sub-parts.
+
+**No material for Classes 6, 7 or 8.** The claim that this RO covers
+Classes III-XII does not hold for the study-material page; it is IX-XII.
+
+### BSEH / SCERT Haryana Class 10 — `data/qbank/mirror/bseh/`
+
+Direct PDF links from the suggested list, both resolve:
+
+- `hindi10.pdf` — 30 pages, ~50 competency questions, with a full अंक योजना
+  marking scheme carrying rubrics and evaluation criteria, not just a key.
+- `maths10.pdf` — 47 pages, ~50 questions with worked solutions.
+
+Co-created with Educational Initiatives. Class 10 Hindi-A is at zero, so the
+Hindi file is the first Hindi content that subject will have.
+
+## VERIFIED, BUT NOT USABLE HERE
+
+### Karnataka DSERT Learning Outcome Question Bank
+
+`https://dsert.karnataka.gov.in/info-2/Learning+Outcome+based+Question+Bank/en`
+is real, well built, and English medium is genuinely available alongside
+Kannada, Urdu and Marathi.
+
+It is **Karnataka State Board curriculum, not NCERT/CBSE**, and it covers
+**Standards 3-9, not 4-10**. The chapters do not correspond to the chapter rows
+in `chapter_master`, so its learning-outcome mapping -- the thing that made it
+attractive -- cannot be carried across. Recorded so it is not re-evaluated.
+
+## THE ARITHMETIC AFTER ALL OF THIS
+
+Everything verified from government sources across both suggested lists:
+
+    KVS RO Jabalpur, Class 9 + 10 English      1,122
+    KVS RO Jabalpur, Class 9 + 10 Maths        ~480  (case studies expanded)
+    CBSE SAS Class 8                             521  (345 land in real chapters)
+    SCERT Haryana Classes 6-8                   ~550
+    BSEH Haryana Class 10                        100
+    --------------------------------------------------
+                                              ~2,770 questions
+
+Against a gap of **168,155**. That is **1.6 per cent**.
+
+Per chapter it moves four subjects and leaves the rest untouched:
+
+| Subject | Before | After | Still short of 500 |
+|---|---|---|---|
+| Class 10 English | 75/ch | ~146/ch | 354 |
+| Class 9 English | 4/ch | ~65/ch | 435 |
+| Class 10 Maths | 146/ch | ~170/ch | 330 |
+| Class 9 Maths | 85/ch | ~110/ch | 390 |
+
+This is the same finding as before, now tested against a much larger and more
+specific list of government sources: **they are sample item banks, and their
+combined per-chapter contribution stays under 40.** Excellent provenance,
+genuinely worth ingesting, and structurally unable to carry a 500 target.
+
+## NOT YET CHECKED
+
+Lower expected yield, listed so the next pass does not restart from zero:
+KVS ROs Ahmedabad, Raipur, Korba, Ernakulam, Chandigarh; NVS regional papers
+(the suggested route is `chemigod.com`, a third party -- find the NVS original
+before using it); DIKSHA; SCERT Maharashtra, Kerala, Tamil Nadu, Meghalaya.
+
+PARAKH is a taxonomy, not a question source. Worth aligning Bloom/DOK
+vocabulary to, but it will not add an item.

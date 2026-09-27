@@ -133,6 +133,7 @@ def main() -> int:
                 continue
 
             here = ahead = behind = judged = 0
+            dirs = []
             for i in range(len(stems)):
                 probe = notes[i] | cons[i]
                 o0 = overlap(probe, stems[i])
@@ -143,17 +144,36 @@ def main() -> int:
                 judged += 1
                 if o0 >= o1 and o0 >= o_1:
                     here += 1
+                    dirs.append("h")
                 elif o1 > o0 and o1 >= o_1:
                     ahead += 1
+                    dirs.append("a")
                 else:
                     behind += 1
+                    dirs.append("b")
             tot_scored += judged
             if not judged:
                 skip_small += 1
                 continue
             lean = max(ahead, behind) / judged
-            if lean >= 0.35 and here / judged < 0.5:
-                flagged.append((f.name, judged, here, ahead, behind, lean))
+            # Longest run of consecutive rows leaning the same way. A whole-file
+            # shift shows in `lean`; a PARTIAL one does not, and partial is the
+            # likelier mistake -- losing one line while transcribing a long list
+            # slides only the rows after it. A real 53-row file with 13 shifted
+            # rows scored 24% and passed the lean test while every one of those
+            # 13 sat on its neighbour's note.
+            run = cur = 0
+            cdir = None
+            for d in dirs:
+                if d == "h":
+                    cur, cdir = 0, None
+                    continue
+                cur = cur + 1 if d == cdir else 1
+                cdir = d
+                run = max(run, cur)
+            if (lean >= 0.35 and here / judged < 0.5) or run >= 6:
+                flagged.append((f.name, judged, here, ahead, behind,
+                                max(lean, run / judged), run))
             else:
                 clean += 1
                 if a.verbose:
@@ -164,11 +184,12 @@ def main() -> int:
               f"rows, {skip_unres} unreadable")
         print(f"  links: {tot_rows} in the files, {tot_scored} scored\n")
         if flagged:
-            print(f"  {'file':<40} {'rows':>5} {'own':>5} {'next':>5} {'prev':>5}  lean")
-            for name, judged, here, ahead, behind, lean in sorted(
+            print(f"  {'file':<40} {'rows':>5} {'own':>5} {'next':>5} "
+                  f"{'prev':>5} {'run':>4}  lean")
+            for name, judged, here, ahead, behind, lean, run in sorted(
                     flagged, key=lambda r: -r[5]):
                 print(f"  {name:<40} {judged:>5} {here:>5} {ahead:>5} "
-                      f"{behind:>5}  {lean:.0%}")
+                      f"{behind:>5} {run:>4}  {lean:.0%}")
             print("\n  A lean means that file's notes and concepts describe a "
                   "neighbouring\n  question better than their own. Re-read it "
                   "before trusting it; nothing\n  here has been changed.")

@@ -1,0 +1,13 @@
+{
+  "chapter_id": 25854,
+  "links": [
+    {"sha": "qid:113574", "concept_id": 31338, "note": "Was 31342 'Splitting into tens and units', which is the (20+3)^2 expansion trick for computing a square in full. This item wants only the unit place of 5278 squared, decided by 8 squared ending in 4 - the ending-digit property, 31338."},
+    {"sha": "qid:113575", "concept_id": 31338, "note": "Was 31348 'Counting the subtractions', which is finding a square ROOT by subtracting successive odd numbers - the opposite direction from this item. Asking how many zeros 400 squared ends with is a question about how a square terminates, so 31338."},
+    {"sha": "qid:113583", "concept_id": 31338, "note": "Was 31347 'Every square is a sum of odd numbers', a statement about decomposing a square, not about parity. Whether a square comes out odd is settled by the base's last digit, which is 31338 - the same concept as the matching 'would be even' item qid 113582."},
+    {"sha": "qid:113592", "concept_id": 31349, "note": "Was 31334 'A number multiplied by itself', which is only the definition of a square number. The item needs 90 = 2 x 3^2 x 5 factorised and its unpaired 2 and 5 supplied, i.e. the prime-factor pairing of 31349 - where the matching 'divide 48' item qid 113593 sits."},
+    {"sha": "qid:113594", "concept_id": 31338, "note": "Was 31351 'How many digits the root will have'. The item asks for the one's DIGIT of the root of 625, not how many digits it has; 625 ending in 5 forces a root ending in 5, which is the ending-digit property 31338."},
+    {"sha": "qid:113597", "concept_id": 31346, "note": "Was 31333 'Where the name comes from', i.e. that squaring is named after the square's area. The item actually asks for the SIDE of a square of area 441, and the set has a concept for exactly that: 31346, whose own example is a square of area 144 having side 12."},
+    {"sha": "qid:113604", "concept_id": null, "note": "Was 31347 'Every square is a sum of odd numbers'. With the key False, the truncated statement is that the sum of two perfect squares is itself a perfect square - a different claim entirely from a square being a run of consecutive odd numbers. Nothing in the set is about sums of two squares."},
+    {"sha": "qid:113605", "concept_id": null, "note": "Was 31347 'Every square is a sum of odd numbers'. The item is the True/False claim that n squared always exceeds n, which is false at n = 1. No concept in the set compares a square with the number itself, so there is nothing to move it to."}
+  ]
+}

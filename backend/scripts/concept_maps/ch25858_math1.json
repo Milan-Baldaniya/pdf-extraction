@@ -1,0 +1,29 @@
+{
+  "chapter_id": 25858,
+  "links": [
+    {"sha": "qid:113747", "concept_id": 31417, "note": "Recalls the parallelogram area as the product of its two given dimensions - one of the plane-figure area formulas the chapter treats as already known before it starts on new shapes."},
+    {"sha": "qid:113748", "concept_id": 31417, "note": "Area of a circle is pi r squared: a formula for a figure the chapter explicitly says is already handled, with the 1/2, 2 and 4 variants as traps."},
+    {"sha": "qid:113750", "concept_id": 31429, "note": "6a squared, because every one of a cube's six faces is the same square. That collapse of the cuboid formula is this concept."},
+    {"sha": "qid:113751", "concept_id": 31432, "note": "Volume of a cuboid is lbh - the length-times-breadth-times-height count this concept gives, with the two surface-area expressions offered as distractors."},
+    {"sha": "qid:113754", "concept_id": 31417, "note": "Perimeter of a rectangle is 2(l+w), one of the already-known boundary formulas rather than the definition of perimeter itself."},
+    {"sha": "qid:113755", "concept_id": 31417, "note": "15 x 10 = 150 sq cm applies the known rectangle area formula to numbers."},
+    {"sha": "qid:113756", "concept_id": 31419, "note": "Rhombus area from diagonals 10 and 8.2 is 41 sq cm. The half-product-of-diagonals rule comes from splitting the quadrilateral on a diagonal into two triangles and adding them, which is this concept; the set has no rhombus-specific concept."},
+    {"sha": "qid:113758", "concept_id": 31419, "note": "Area 240 with one diagonal 16 gives the other as 30 - the same split-into-triangles area rule for a quadrilateral, run backwards for a missing diagonal."},
+    {"sha": "qid:113761", "concept_id": 31430, "note": "One curved surface and two identical circular faces is exactly what a cylinder shows when it is opened out - two circles and a rectangle."},
+    {"sha": "qid:113762", "concept_id": 31428, "note": "2(lb + bh + hl) with 20, 15 and 10 gives 1300 sq cm. The formula used is the three-pairs-of-identical-faces reduction of the six face areas."},
+    {"sha": "qid:113763", "concept_id": 31430, "note": "2 pi r (r + h) = 968 with r = 7 gives h = 15. The total surface area formula being inverted is the one the unrolled cylinder - two circles plus a rectangle - produces."},
+    {"sha": "qid:113765", "concept_id": 31432, "note": "5.1 x 2 x 2 = 20.4 cubic metres: the lbh volume count applied to decimal dimensions. (The options are printed with m^2 units, which is an extraction slip; the value is right.)"},
+    {"sha": "qid:113766", "concept_id": 31419, "note": "Area 70 with one diagonal 14 gives the other as 10 - the half-product-of-diagonals rule that splitting the quadrilateral into triangles produces."},
+    {"sha": "qid:113767", "concept_id": 31419, "note": "Area 60 with one diagonal 10 gives the other as 12, again inverting the diagonals rule from the triangle split."},
+    {"sha": "qid:113768", "concept_id": 31434, "note": "Equal heights and volumes 16 pi and 81 pi give radii in the ratio 4:9, because volume is the base area times the height and only the base area differs. (The marked option renders 4:9 as an Excel serial.)"},
+    {"sha": "qid:113770", "concept_id": 31419, "note": "Names the rhombus area as half the product of the diagonals ('once' is an OCR slip for 'area'). That expression is what adding the two triangles from a diagonal split gives."},
+    {"sha": "qid:113771", "concept_id": 31433, "note": "A 1 cm edge gives a volume of 1 - the cube of the side, which is the cuboid volume with all three dimensions equal. This concept's special case."},
+    {"sha": "qid:113772", "concept_id": 31417, "note": "Area of a rectangle is ab, a formula the chapter counts as already known, with a+b and a^2+b^2 as traps."},
+    {"sha": "qid:113773", "concept_id": 31417, "note": "Area of a triangle is half base times altitude - another of the already-handled figures, the distractors varying only the fraction."},
+    {"sha": "qid:113774", "concept_id": 31417, "note": "Area of a circle is pi r squared - the same already-known circle formula as qid 113748."},
+    {"sha": "qid:113776", "concept_id": 31429, "note": "Surface area of a cube is 6a squared: six congruent square faces."},
+    {"sha": "qid:113779", "concept_id": 31417, "note": "25 x 20 = 500 sq cm, the known rectangle area formula on numbers."},
+    {"sha": "qid:113780", "concept_id": 31436, "note": "1 kilolitre = 1000 dm cubed, which is the litre-to-cubic-measure relation this concept says has to be known, at kilolitre scale."},
+    {"sha": "qid:113783", "concept_id": 31415, "note": "Asks for the perimeter of a given figure, i.e. the distance right round its boundary, rather than applying any named formula - the figure itself is not in the extracted text."}
+  ]
+}

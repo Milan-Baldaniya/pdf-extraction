@@ -1,0 +1,18 @@
+{
+  "chapter_id": 8603,
+  "links": [
+    {"sha": "ee2baa4a70c3bb6997172875ab0aab1963884a0a6b11ae95fa2df5238c541efc", "concept_id": 1458, "note": "p - 1, p + 3, 3p - 1 are in AP only if the two gaps match: 4 = 2p - 4, so p = 4. The equation set up IS the constancy of the common difference, not the nth-term formula."},
+    {"sha": "b29cee7e941ffdceb8386887cf47270f2c90fb6606f01040ae0dcd1d6acb45b5", "concept_id": 1464, "note": "Tripling from 4 elements gives 4 x 3^3 = 108 at the 4th step - the GP nth term ar^(n-1). The fractal wrapping is only the setting; the calculation is the GP formula."},
+    {"sha": "3facadb52320ad4f02825a1b5a4bd35429bf16bd6127a85373fa0aef12286ad9", "concept_id": 1459, "note": "248 = 12 + (n-1)4 solved for n = 60. Counting multiples in a range is done by inverting t_n = a + (n-1)d, this concept exactly."},
+    {"sha": "5cd9f2145a038038f29ce6cfcd7c4b4150214ca3fd01b57e3a85c8c9c461743a", "concept_id": 1464, "note": "Doubling bacteria from 30 gives 120, 480 and 30 x 2^n - the GP nth term with r = 2, worked for two specific hours and then generally."},
+    {"sha": "7918df05b9594f2f3ec1d82b2b153d0c39ec9577e98eb82caf5bd65885830ae8", "concept_id": 1459, "note": "12, 15, 18 with d = 3 gives a 8th row of 12 + 7(3) = 33. A single nth term, no sum, so t_n = a + (n-1)d."},
+    {"sha": "df407b959b21b4b8e405cf258dab13fc823e02fb26be2c642bdfbcd6599cb82c", "concept_id": 1458, "note": "Asks what best explains 5, 8, 11: each step adds 3. The answer names the fixed amount added between terms, which is the common difference itself, not a term calculation."},
+    {"sha": "909d2a8a9862c8de4fc18b122c47528b69d176a05ff9fdc3feec495b443d8837", "concept_id": 1459, "note": "100 with d = 50 gives a 7th week of 100 + 6(50) = 400. The distractor 350 uses 7d instead of 6d, which is the off-by-one the (n-1) in this formula guards against."},
+    {"sha": "657114e8738412a4bc56de7869aec38fc044a7d8ababb23a2c8418f47c134a72", "concept_id": 1455, "note": "1, 4, 9, 16, 25 is neither an AP nor a GP; the 12th figure needs the rule t_n = n^2 spotted and the position 12 substituted directly. That is an explicit formula in n."},
+    {"sha": "9bf839ce256744a56d1e6f1e86fadfafb702a49a39daad7d525fad4f129ec815", "concept_id": 1459, "note": "60 + 11(15) = 225 for day 12 - one application of t_n = a + (n-1)d, with no sum involved."},
+    {"sha": "40bb21bccdb4bd450be3ddb38bac52ee478b8df357cbfcf61a1b679f2567500e", "concept_id": 1459, "note": "a15 = 18 + 14(4) = 74 has to be found first, and it then feeds the total. The nth-term formula is the step the item cannot be done without; the chapter's set has no general AP-sum concept for the second half."},
+    {"sha": "02326501b83a6f967450666175b8cb5a851dee9f2d3c4642b7618ee8b7be81c2", "concept_id": 1459, "note": "a12 = 200 + 11(75) = 1025 is computed first and the 12-month total follows from it. t_n = a + (n-1)d is the operative formula; no AP-sum concept exists in the set."},
+    {"sha": "c19273c9b1c6f166e7ff9bd3c4856e4564fcd86286ea62cecd4f7efa1e01ffaa", "concept_id": 1459, "note": "Part (i) is a18 = 25 + 17(6) = 127 by the nth-term formula, and parts (ii) and (iii) build on it. The nth term is what the item turns on."},
+    {"sha": "0de56a81997c3c4e608d3a836102e505f85ebc4fad597069c39ff59c165af411", "concept_id": 1459, "note": "a16 = 500 + 15(125) = 2375 by t_n = a + (n-1)d, then the total and the shortfall against the target follow from it."}
+  ]
+}

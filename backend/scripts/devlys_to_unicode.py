@@ -90,6 +90,44 @@ MAP: dict[str, str] = {
     # Reph, ra-kar and nukta -- marks rather than letters.
     "Z": "र्", "z": "्र", "+": "़", "È": "ीं", "Ã": "ई", "ƒ": "फ़",
     "&": "-", "¼": "(", "½": ")", "¡": "ँ",
+    # PUNCTUATION IS ENCODED TOO, and a gap here is not cosmetic: "\" is the
+    # question mark, and unmapped it ends 1,342 of Class 10 Hindi-B's 1,944
+    # question stems with a backslash. The quotes pair "^...*" and "Þ...ß".
+    "\\": "?", "^": "‘", "Þ": "“", "ß": "”",
+    # Half GA and the RU ligature, both read back from words whose meaning is
+    # not in doubt: "वैराXय" is वैराग्य, "व्यंXय" व्यंग्य, "योXय" योग्य;
+    # "गु#" is गुरु, "#चि" रुचि, "गु#द्वारों" गुरुद्वारों.
+    "X": "ग्", "#": "रु",
+    # Five more ligatures, each read back from a word whose meaning is not in
+    # doubt: "Å¡ps" is ऊँचे and "ÅtkZ" ऊर्जा; "Á'ui=" प्रश्नपत्र; "czã"
+    # ब्रह्म and "czãk" ब्रह्मा; "ân;" हृदय and "lân;" सहृदय; "Vªsu" ट्रेन,
+    # "jk\"Vª" राष्ट्र and "Mªkboj" ड्राइवर. Unmapped, each leaves a Latin
+    # letter standing inside a Devanagari word -- "Åपर", "Áश्न", "ब्रã",
+    # "âदय", "डªाइवर" -- which reads as Hindi to anything that counts
+    # characters and as nonsense to a reader.
+    "Å": "ऊ", "Á": "प्र", "ã": "ह्म", "â": "हृ", "ª": "्र",
+    # The second कृ, beside "Ñ": "—\".k" is कृष्ण.
+    "—": "कृ",
+    # Six more, on the same footing -- the long form is already in the table
+    # and only the HALF form or the bold-face variant was missing:
+    #   "H"  भ्, beside "Hk" भ: "vlH;" is असभ्य.
+    #   "Ü"  श्, beside "'" श्: "oSfÜod" वैश्विक, "foÜokl" विश्वास.
+    #   "ê"  ट्ट and "Í" ट्ट, the two faces' ligature: "feêh" and "feÍh"
+    #        are both मिट्टी, "Nqfê;ksa" छुट्टियों, "[kÍk" खट्टा.
+    #   "¶"  फ्: "¶ySV" is फ्लैट.
+    #   "Ì"  द्द, beside "í": "mÌs';" is उद्देश्य.
+    "H": "भ्", "Ü": "श्", "ê": "ट्ट", "Í": "ट्ट", "¶": "फ्", "Ì": "द्द",
+    # Half GHA, beside "?k" घ. THE QUESTION MARK IS "\\", NOT "?", so this
+    # takes nothing away: "fo?u" is विघ्न, and unmapped it reads "वि?न",
+    # which looks like a question inside a word. The table is applied in one
+    # left-to-right pass, so a "\\" that has just become "?" is not read
+    # again as this one.
+    "?": "घ्",
+    # The chandra-O, which is written as the aa-matra plus W exactly as ो is
+    # "ks" and ौ is "kS": "gkWdh" is हॉकी, "QqVckWy" फुटबॉल, "vkWDlhtu"
+    # ऑक्सीजन. Longest-first ordering puts "vkW" before "vk" and "kW"
+    # before "k", so neither is shadowed by its own prefix.
+    "vkW": "ऑ", "kW": "ॉ",
     "É": "क्क", "Ä": "ट्ट", "Ë": "ड्ड",
     "1": "1", "2": "2", "3": "3", "4": "4", "5": "5",
     "6": "6", "7": "7", "8": "8", "9": "9", "0": "0",
@@ -108,13 +146,26 @@ _KEYS = sorted(MAP, key=len, reverse=True)
 _PATTERN = re.compile("|".join(re.escape(k) for k in _KEYS))
 
 
-_ROMAN = re.compile(r"(?<![A-Za-z])(?:i{1,3}v?|iv|vi{0,3}|ix|xi{0,3}|I{1,3}V?|IV|VI{0,3}|IX|XI{0,3})"
+# A ROMAN NUMERAL STANDS ON ITS OWN; A LETTER GLUED TO LEGACY TEXT IS A
+# CONSONANT. "(?<![A-Za-z])" only refuses a Latin neighbour, and legacy
+# Devanagari is full of non-Latin ones: in "Li\"V" (स्पष्ट) the V follows a
+# quote, in "e`x" (मृग) the x follows a backtick, in "Lo:i" (स्वरूप) the i
+# follows a colon. All three were held as numerals and left standing --
+# "स्पष्V", "मृx", "स्वरूi" -- 557 times in one book. A real label is
+# preceded by a space, a bracket, or nothing at all.
+_ROMAN = re.compile(r"(?<![^\s(\[])(?:i{1,3}v?|iv|vi{0,3}|ix|xi{0,3}|I{1,3}V?|IV|VI{0,3}|IX|XI{0,3})"
                     r"(?=[.)\s\]])")
 # A run of three or more capitals with no lowercase among them is a Latin
 # acronym, not legacy Devanagari: CBSE, NODIA, PYQ. Legacy words mix cases
 # ("LekVZ" is स्मार्ट), so this does not catch them. Left converted, the
 # running header reads "ब्ठैम् कक्षा 10".
-_ACRONYM = re.compile(r"(?<![A-Za-z])[A-Z]{3,}(?![a-z])")
+# A LEGACY WORD NEXT TO DEVANAGARI IS NOT AN ACRONYM. "QLVZ" is फर्स्ट and
+# "CLV" inside "एCLV्रSDV" is part of अब्स्ट्रैक्ट, and both are runs of
+# capitals with no lowercase; held, they stand in the middle of a Hindi
+# sentence looking like initials. A real acronym here is set among Latin or
+# alone -- CBSE 2018, NODIA, PYQ -- so a Devanagari neighbour disqualifies it.
+_ACRONYM = re.compile(r"(?<![A-Za-zऀ-ॿ])[A-Z]{3,}"
+                      r"(?![a-zऀ-ॿ])")
 
 
 def convert(text: str) -> str:

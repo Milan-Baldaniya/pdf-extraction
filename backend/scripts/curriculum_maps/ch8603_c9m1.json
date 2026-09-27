@@ -1,0 +1,305 @@
+{
+  "chapter_id": 8603,
+  "mappings": [
+    {
+      "sha": "7918df05b9594f2f",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Seats 12, 15, 18 give a=12, d=3 and the 8th row comes straight from the nth-term formula. LO-10's 'constant common difference ... formula for its nth term'; no sum is required, so the competency-level sum gap does not arise."
+    },
+    {
+      "sha": "1dc62dce0836ab20",
+      "codes": ["C-8.1-LO-8", "C-8.1-LO-10"],
+      "note": "All four options are explicit expressions in n, so what is chosen is the explicit rule 5n+3 (LO-8); it is found by reading a=8 and d=5 off the list (LO-10). Not LO-7: the item asks for a formula, not the next term."
+    },
+    {
+      "sha": "df407b959b21b4b8",
+      "codes": ["C-8.1-LO-10"],
+      "note": "The correct explanation is a constant increase of 3 per step, and the doubling distractor is the GP trap. Testing for a constant common difference is LO-10."
+    },
+    {
+      "sha": "909d2a8a9862c8de",
+      "codes": ["C-8.1-LO-10"],
+      "note": "a=100, d=50, seventh term from the nth-term formula. LO-10. (The printed key's option letter disagrees with its value; see the defect list.)"
+    },
+    {
+      "sha": "b5df92f916268f04",
+      "codes": ["C-8.1-LO-11"],
+      "note": "3, 6, 12, 24 has a constant RATIO of 2, and the student's error is treating it as arithmetic. LO-11 is the outcome about recognising a geometric progression; LO-10 is precisely what does not apply."
+    },
+    {
+      "sha": "f47e63ec5c11d8dd",
+      "codes": ["C-8.1-LO-8"],
+      "note": "2, 5, 10, 17, 26 is neither an AP nor a GP; the answer is the explicit rule n^2+1, checked against the listed terms. LO-8's explicit rule."
+    },
+    {
+      "sha": "3171060a8565e54a",
+      "codes": ["C-8.1-LO-8"],
+      "note": "The explicit rule 7n-2 is handed over and used to reach the 12th and 9th terms directly. LO-8's 'without listing the terms before it'."
+    },
+    {
+      "sha": "6f19e11a457adecf",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Membership in the AP 4+5k, decided by whether the nth-term equation has an integer solution. LO-10 used as a test rather than to produce a term."
+    },
+    {
+      "sha": "9c5c3c4e4de48646",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Inverts the nth-term formula with a negative common difference to find which term equals 2. LO-10, and the negative d is what makes it more than substitution."
+    },
+    {
+      "sha": "54b2d1c356c7ea1f",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Recovers a missing first term from the constant common difference of 6. LO-10's difference test, applied backwards."
+    },
+    {
+      "sha": "657114e8738412a4",
+      "codes": ["C-8.1-LO-8"],
+      "note": "1, 4, 9, 16, 25 is the square numbers, so the 12th figure needs the explicit rule n^2 rather than any progression formula. LO-8."
+    },
+    {
+      "sha": "dce4881aa15520b9",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Finds d from two non-adjacent terms by dividing their difference by the gap in position. LO-10's nth-term relation, rearranged."
+    },
+    {
+      "sha": "874daab6f2791157",
+      "codes": ["C-8.1-LO-8"],
+      "note": "Evaluates the explicit rule 3n+7 at two consecutive positions to match a pair. LO-8; the AP structure is incidental because the rule is given."
+    },
+    {
+      "sha": "5c717c68ce19640c",
+      "codes": ["C-8.1-LO-10", "C-8.1"],
+      "note": "Chooses the AP sum method after finding the number of terms: the term count comes from LO-10's nth-term formula, but the SUM of an AP has no learning outcome in this chapter's frame, so the competency C-8.1 carries that half."
+    },
+    {
+      "sha": "0a2b193d0242db3e",
+      "codes": ["C-8.1-LO-10"],
+      "note": "A decreasing AP with d=-5, where the answer turns on strict inequality at the boundary term. LO-10's nth-term formula plus a comparison. (The key marks one option and argues for another; see the defect list.)"
+    },
+    {
+      "sha": "0df1fc175ed58732",
+      "codes": ["C-8.1-LO-10", "C-8.1"],
+      "note": "The nth term of the AP 6, 10, 14 is LO-10, but the quantity asked for is the total over ten rows, which needs the AP sum formula -- not covered by any outcome here, hence the competency."
+    },
+    {
+      "sha": "5bd9293f888f84a4",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Two APs with equal common differences keep a constant gap equal to the difference of their first terms. A structural consequence of LO-10's nth-term formula, not a numerical substitution."
+    },
+    {
+      "sha": "73d48b8a4b212c53",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Assertion and reason are both the definition of an AP by its constant common difference -- LO-10's identification clause."
+    },
+    {
+      "sha": "fdb9d93331340882",
+      "codes": ["C-8.1-LO-10"],
+      "note": "The differences 4, 6, 8, 10 are not constant, so 2, 6, 12, 20, 30 is not an AP. LO-10's test applied to reject, with the reason supplying the evidence that defeats the assertion."
+    },
+    {
+      "sha": "b423f14679f12299",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Fifteenth term of 14, 19, 24, 29, with the step to be explained. LO-10's nth-term formula."
+    },
+    {
+      "sha": "b4ccf5712841b950",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Recovers the first term from the 7th term and d. LO-10's formula solved for a rather than for the term."
+    },
+    {
+      "sha": "9bf839ce256744a5",
+      "codes": ["C-8.1-LO-10"],
+      "note": "A charge rising by a fixed 15 a day, evaluated at day 12. Straight application of LO-10's nth-term formula to a context."
+    },
+    {
+      "sha": "d551e7f09d95595f",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Solves 92 = 7 + (n-1)5 for the position. LO-10 inverted, with the reasoning required as well as the answer."
+    },
+    {
+      "sha": "8916626a8662d5f1",
+      "codes": ["C-8.1-LO-8", "C-8.1-LO-10"],
+      "note": "The explicit rule 5n-1 gives the 20th term directly (LO-8); the second part asks for the common difference, which is read off the coefficient (LO-10)."
+    },
+    {
+      "sha": "40bb21bccdb4bd45",
+      "codes": ["C-8.1-LO-10", "C-8.1"],
+      "note": "The 15th row is LO-10's nth term; the total over 15 rows needs the AP sum, which no outcome in this frame states, so the competency covers it."
+    },
+    {
+      "sha": "02326501b83a6f96",
+      "codes": ["C-8.1-LO-10", "C-8.1"],
+      "note": "Savings rising by a fixed 75 a month: the 12th month is LO-10, the twelve-month total is the uncovered AP sum, hence the competency."
+    },
+    {
+      "sha": "c53c327a663eaebb",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Two given terms produce simultaneous equations for a and d, and the 20th term follows. All of it is LO-10's nth-term relation; no sum is asked for, unlike the neighbouring items."
+    },
+    {
+      "sha": "8ca17bc0e297f795",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Decides membership in a decreasing AP by checking whether the nth-term equation gives a positive integer n. LO-10 as a membership test."
+    },
+    {
+      "sha": "94569c4a80314a12",
+      "codes": ["C-8.1-LO-10", "C-8.1"],
+      "note": "A plain AP 3, 7, 11, 15: the 20th term is LO-10 and the 20-term total is the uncovered sum, hence the competency. The item's 'triangular numbers' concept tag does not match what it asks."
+    },
+    {
+      "sha": "ecca1ca9aafe1aff",
+      "codes": ["C-11.1-LO-1", "C-8.1-LO-10", "C-8.1-LO-7"],
+      "note": "The sequence 1, 3, 6, 10, 15 is the triangular numbers (C-11.1-LO-1); the item asks whether it is an AP, which is LO-10's constant-difference test and fails; and then to continue it from the second-difference rule, which is LO-7."
+    },
+    {
+      "sha": "c19273c9b1c6f166",
+      "codes": ["C-8.1-LO-10", "C-8.1"],
+      "note": "Last row from the nth-term formula (LO-10), total capacity from the AP sum and then a comparison against 1,000 -- the sum and the conclusion drawn from it sit at competency level."
+    },
+    {
+      "sha": "0de56a81997c3c4e",
+      "codes": ["C-8.1-LO-10", "C-8.1"],
+      "note": "Week 16 collection is LO-10; the 16-week total and the shortfall against a target are the modelling conclusion the competency describes and no outcome covers."
+    },
+    {
+      "sha": "9139be5c34454a0b",
+      "codes": ["C-8.1-LO-10", "C-8.1"],
+      "note": "Runs the AP sum formula backwards from S10 and a10 to recover a, then LO-10's nth-term relation gives d and the 20th term. The sum half is the competency's."
+    },
+    {
+      "sha": "54aaca57ac576140",
+      "codes": ["C-8.1-LO-10", "C-8.1"],
+      "note": "Total points over 25 levels is the AP sum (competency), and the follow-on asks how many further terms are needed to clear a threshold, which is repeated use of LO-10's nth term. (The key's count of extra levels is wrong; see the defect list.)"
+    },
+    {
+      "sha": "8f6aec3a84661cb8",
+      "codes": ["C-8.1-LO-10", "C-8.1"],
+      "note": "Part (a) names a and d and part (b) is the nth term, both LO-10; part (c) is the 12-row total, the uncovered AP sum."
+    },
+    {
+      "sha": "21f9bbe39483f5a6",
+      "codes": ["C-8.1-LO-10", "C-8.1"],
+      "note": "Day-15 award from LO-10's formula, then the 15-day total and the shortfall against 1,500 -- the sum and the judgement are competency-level."
+    },
+    {
+      "sha": "1033e1289ca82283",
+      "codes": ["C-8.1-LO-10", "C-8.1"],
+      "note": "Twentieth-row seats by LO-10, total capacity by the AP sum, and a yes/no on seating 750. Same structure as the stadium item, and cited the same way."
+    },
+    {
+      "sha": "qid:706847",
+      "codes": ["C-8.1-LO-7"],
+      "note": "Defines a sequence as an ordered list of numbers -- the first clause of LO-7. Nothing about a rule or a formula yet."
+    },
+    {
+      "sha": "qid:706848",
+      "codes": ["C-8.1-LO-7"],
+      "note": "What a term is, identified by its position. Part of LO-7's account of a sequence as an ordered list."
+    },
+    {
+      "sha": "qid:706849",
+      "codes": ["C-8.1-LO-7"],
+      "note": "False, because the ORDER is part of the sequence. This is the point of the word 'ordered' in LO-7."
+    },
+    {
+      "sha": "qid:706850",
+      "codes": ["C-8.1-LO-7", "C-8.1-LO-10", "C-8.1-LO-11"],
+      "note": "A five-mark synthesis: what a sequence is (LO-7), then the AP with its nth term (LO-10) and the GP with its nth term (LO-11). Each of the three is separately examinable here."
+    },
+    {
+      "sha": "qid:706851",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Consecutive terms of an AP differ by a constant -- LO-10's identification test stated as a fact."
+    },
+    {
+      "sha": "qid:706852",
+      "codes": ["C-8.1-LO-10", "C-8.1-LO-11"],
+      "note": "Contrasts adding a common difference with multiplying by a common ratio, with an example of each. Both LO-10 and LO-11 are genuinely assessed, which is why neither alone will do."
+    },
+    {
+      "sha": "qid:706853",
+      "codes": ["C-8.1-LO-10"],
+      "note": "2, 4, 6, 8 is an AP because the difference is constant -- the assertion and the reason are both LO-10."
+    },
+    {
+      "sha": "qid:706854",
+      "codes": ["C-8.1-LO-10", "C-8.1-LO-11", "C-8.1-LO-9"],
+      "note": "Four rows spanning AP (LO-10), GP (LO-11) and Virahanka-Fibonacci (LO-9). The triangular-numbers row also touches C-11.1-LO-1, but three codes is the cap and those three carry most of the item."
+    },
+    {
+      "sha": "qid:706855",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Reads the common difference off 4, 9, 14, 19. LO-10's difference test in one step."
+    },
+    {
+      "sha": "qid:706856",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Two given terms, four positions apart, solved simultaneously for a and d. LO-10's nth-term relation used as a pair of equations."
+    },
+    {
+      "sha": "qid:706857",
+      "codes": ["C-8.1-LO-10"],
+      "note": "True: a negative common difference gives a decreasing AP. Tests the scope of LO-10's difference, not a computation."
+    },
+    {
+      "sha": "qid:706858",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Names the common difference. LO-10 vocabulary; LO-11's common ratio is the parallel term for a GP."
+    },
+    {
+      "sha": "qid:706859",
+      "codes": ["C-8.1-LO-11"],
+      "note": "Consecutive GP terms are related by a constant RATIO, not a constant difference. LO-11's identification test, and the distractor is LO-10's."
+    },
+    {
+      "sha": "qid:706860",
+      "codes": ["C-8.1-LO-11"],
+      "note": "Why a ratio between 0 and 1 makes terms shrink towards zero. Understanding what LO-11's common ratio controls, beyond the formula."
+    },
+    {
+      "sha": "qid:706861",
+      "codes": ["C-8.1-LO-11"],
+      "note": "The assertion that every GP grows without limit is false exactly because the ratio may be less than 1. LO-11, with the true reason failing to support the false assertion."
+    },
+    {
+      "sha": "qid:706862",
+      "codes": ["C-8.1-LO-10", "C-8.1-LO-11"],
+      "note": "Compares equal-step growth with constant-factor growth over time and why the distinction matters. Both progression outcomes are needed, so both are cited."
+    },
+    {
+      "sha": "qid:706863",
+      "codes": ["C-8.1-LO-10"],
+      "note": "States the nth-term formula for an AP. LO-10's second clause."
+    },
+    {
+      "sha": "qid:706864",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Fifteenth term of 7, 11, 15. Direct application of LO-10's formula."
+    },
+    {
+      "sha": "qid:706865",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Gap-fill for the (n-1) coefficient, which is the single commonest slip in LO-10's formula."
+    },
+    {
+      "sha": "qid:706866",
+      "codes": ["C-8.1-LO-10", "C-8.1"],
+      "note": "Twelfth row by LO-10's nth term, then the total of twelve rows by pairing -- the AP sum, which no outcome in this chapter states, so the competency covers it."
+    },
+    {
+      "sha": "qid:706867",
+      "codes": ["C-8.1-LO-10"],
+      "note": "Tenth term of 2, 5, 8. LO-10's formula with a smaller n than qid:706864, but the same outcome."
+    },
+    {
+      "sha": "qid:706868",
+      "codes": ["C-8.1-LO-8", "C-8.1-LO-11"],
+      "note": "Matches four sequences to explicit nth-term expressions (LO-8), one of which is the GP rule 5 times 2^(n-1), requiring the common ratio to be spotted (LO-11)."
+    },
+    {
+      "sha": "qid:706869",
+      "codes": ["C-8.1-LO-11"],
+      "note": "Reads the common ratio 4 off 3, 12, 48, 192. LO-11's ratio test, the GP counterpart of qid:706855."
+    }
+  ]
+}

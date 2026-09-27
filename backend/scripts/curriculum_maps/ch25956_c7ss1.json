@@ -1,0 +1,200 @@
+{
+ "chapter_id": 25956,
+ "mappings": [
+  {
+   "sha": "1581819d3fe1fd7e",
+   "codes": ["C-SST1.1"],
+   "note": "Matches five instruments to the weather elements they measure. This frame has no learning outcome for weather instrumentation, so the competency that covers describing the atmosphere is the closest legal code; LO-3 is reserved here for items that explain atmospheric behaviour rather than name a device."
+  },
+  {
+   "sha": "76081d0c62ebc85a",
+   "codes": ["LO-5"],
+   "note": "Turns a forecast of 29C and 84 percent humidity into advice about clothing and an umbrella - weather shaping how a person lives and prepares. Not LO-3, because the physics of humidity is assumed and the answer is a practical decision."
+  },
+  {
+   "sha": "77161acd6e852c20",
+   "codes": ["C-SST1.1"],
+   "note": "Choosing an open, elevated site for a rain gauge is observation practice, which sits with the other instrument items. Not LO-6, because nothing about a flood or drought event is involved."
+  },
+  {
+   "sha": "6392d9bfe89beade",
+   "codes": ["LO-3"],
+   "note": "Defines weather as the present state of the atmosphere and separates it from long-term climate - a statement about the atmosphere itself. Not LO-4, because no climatic region is being located."
+  },
+  {
+   "sha": "f847150cafd2ce5e",
+   "codes": ["LO-1"],
+   "note": "Identifies the troposphere among the named atmospheric layers, which is exactly what LO-1 asks for. Not LO-3, which is used here for items that explain why the atmosphere behaves as it does rather than name a layer."
+  },
+  {
+   "sha": "cdb689f4a48ef9a1",
+   "codes": ["LO-3"],
+   "note": "Explains why the troposphere reaches higher over the tropics through thermal expansion - the structure of the atmosphere and its cause. Not LO-1, because the layer is given and the reasoning, not the identification, is tested."
+  },
+  {
+   "sha": "32419f8f44257e70",
+   "codes": ["LO-3"],
+   "note": "Defines precipitation as any form of water falling from the atmosphere, i.e. one of its components in motion. Not C-SST1.1, because no instrument or measurement appears in the item."
+  },
+  {
+   "sha": "752436baa78eca2a",
+   "codes": ["LO-3"],
+   "note": "Distinguishes sleet from hail and snow by how water freezes on the way down - atmospheric moisture and its phases. Not LO-4, since the item is about a process, not where such weather occurs."
+  },
+  {
+   "sha": "b465a11224ae1241",
+   "codes": ["C-SST1.1"],
+   "note": "Argues for a standard temperature scale so that readings mean the same to everyone - a measurement-practice item, grouped with the instruments. Not LO-5, because the point is objectivity of the scale, not how people in different climates live."
+  },
+  {
+   "sha": "dc421568579188cf",
+   "codes": ["LO-6"],
+   "note": "Reads a traditional animal sign as an advance warning of heavy rain and possible flooding, which is the anticipation half of the flood-preparedness outcome. Not LO-3, because no atmospheric mechanism is explained - the item is about recognising a warning."
+  },
+  {
+   "sha": "e77e8ef6cbed7b47",
+   "codes": ["C-SST1.1"],
+   "note": "How the liquid column in a thermometer works is instrument mechanics. Not LO-3, because the expanding liquid is inside the device, not a property of the atmosphere."
+  },
+  {
+   "sha": "773120f240f2cb2d",
+   "codes": ["C-SST1.1"],
+   "note": "A Fahrenheit-to-Celsius conversion - handling the measurement scales. Grouped with the other measurement items because the frame has no outcome for weather quantities."
+  },
+  {
+   "sha": "ef76eafd4b63f71c",
+   "codes": ["C-SST1.1"],
+   "note": "Defines mean daily temperature as the average of the day's maximum and minimum - a statistic of observation practice. Not LO-3, because nothing about the atmosphere is being explained."
+  },
+  {
+   "sha": "22ec0c28b74f4ef2",
+   "codes": ["LO-3"],
+   "note": "Unpacks 'from the sun arises rain' as solar heating driving evaporation, condensation and rainfall - the moisture cycle within the atmosphere. Not C-SST1.1, since the IMD motto is only the hook and the answer is a physical process."
+  },
+  {
+   "sha": "535a7ed0722fd1c2",
+   "codes": ["C-SST1.1"],
+   "note": "Computes the daily temperature range from a maximum and a minimum. Sits with the mean-daily-temperature item as measurement handling rather than with LO-3 explanations."
+  },
+  {
+   "sha": "1dc0226900e06f24",
+   "codes": ["C-SST1.1"],
+   "note": "Names the rain gauge as the rainfall instrument. Not LO-3, because precipitation itself is not what is being defined here - the device is."
+  },
+  {
+   "sha": "00397248445d3af1",
+   "codes": ["C-SST1.1"],
+   "note": "Why obstruction-free siting matters for an accurate rainfall reading - instrument practice, the MCQ twin of the site-selection short answer. Not LO-3 for the same reason: the subject is the measurement, not the rain."
+  },
+  {
+   "sha": "1e39efb147996d11",
+   "codes": ["LO-3"],
+   "note": "Explains falling pressure with altitude by the shorter column of air above - the vertical structure of the atmosphere. Not C-SST1.1, because no barometer or reading is involved."
+  },
+  {
+   "sha": "c67e7875e0a0cf57",
+   "codes": ["LO-3"],
+   "note": "The 1013 mb sea-level norm is a structural fact about the atmosphere, and the explanation extends it to what sub-1000 mb readings mean. Not C-SST1.1, which is used for the companion item on the barometer's unit."
+  },
+  {
+   "sha": "e3b414e768ad2741",
+   "codes": ["LO-3"],
+   "note": "Names a sharp pressure fall as a depression - the vocabulary of atmospheric pressure systems. Not LO-6, because the item stops at the term and does not ask what should be done about the storm."
+  },
+  {
+   "sha": "25e5028d9f4ade77",
+   "codes": ["LO-3"],
+   "note": "The reason fails because pressure differences come from uneven, not uniform, heating - the mechanism that drives wind in the atmosphere. Not C-SST1.1, since neither wind vane nor anemometer appears."
+  },
+  {
+   "sha": "2314bff8597f22af",
+   "codes": ["C-SST1.1"],
+   "note": "Identifies the wind vane from its pointer and tail - an instrument item. Not LO-3, because wind direction as a physical process is not explained."
+  },
+  {
+   "sha": "08bb08ce8d2858d9",
+   "codes": ["C-SST1.1"],
+   "note": "The wind sock as a visual direction indicator for pilots is another measuring device. Not LO-5: aviation is the setting, but the question asks what the sock is for, not how weather shapes people's lives."
+  },
+  {
+   "sha": "1bb7a33871358d19",
+   "codes": ["C-SST1.1"],
+   "note": "Separates the wind vane (direction) from the anemometer (speed) - a direct instrument comparison. Not LO-3, since no atmospheric behaviour is at issue."
+  },
+  {
+   "sha": "8d19f76495e6857a",
+   "codes": ["LO-3"],
+   "note": "Defines humidity as water vapour in the air, a component of the atmosphere. Not C-SST1.1, which carries the hygrometer item instead."
+  },
+  {
+   "sha": "cd66f779089cb633",
+   "codes": ["LO-3"],
+   "note": "Drier air having spare capacity to take up vapour is the evaporation mechanism of atmospheric moisture. Not LO-5, because drying clothes is only the illustration and the answer is physical."
+  },
+  {
+   "sha": "7a5a38f30a7d5aab",
+   "codes": ["LO-4"],
+   "note": "Contrasts humid coastal Kochi with dry inland Jaipur, which is the distribution of humid and arid conditions across regions. Not LO-3, because the item compares two places rather than explaining what humidity is."
+  },
+  {
+   "sha": "eab408f374575f0b",
+   "codes": ["C-SST1.1"],
+   "note": "Names the hygrometer as the humidity instrument. Not LO-3, which takes the conceptual humidity items in this chapter."
+  },
+  {
+   "sha": "59bb7392a16d07e3",
+   "codes": ["LO-3"],
+   "note": "Interprets 100 percent relative humidity as saturation, with condensation as the next step - a property of the atmosphere. Not C-SST1.1, since no reading has to be taken."
+  },
+  {
+   "sha": "966130af05ceabf7",
+   "codes": ["C-SST1.1"],
+   "note": "Finds the false instrument-element pairing (anemometer for pressure). An instrument item, like the matching exercise at the head of the chapter."
+  },
+  {
+   "sha": "b6046eeca8c7f96e",
+   "codes": ["C-SST1.1"],
+   "note": "The purpose of an Automated Weather Station is unattended recording of weather parameters - observation technology. Not LO-3, because no atmospheric property is explained."
+  },
+  {
+   "sha": "fcfc9e163f85ad65",
+   "codes": ["LO-5"],
+   "note": "Wind data mattering to farmers for soil drying, irrigation and planting is weather shaping a livelihood. Not C-SST1.1, because the anemometer is not the subject - the farming decision is."
+  },
+  {
+   "sha": "e0139fd336916929",
+   "codes": ["C-SST1.1"],
+   "note": "Why meteorologists keep long records - to build patterns and forecasts - is about the practice of observation. Not LO-4, because no particular climatic region is located, and not LO-6, because no disaster is named."
+  },
+  {
+   "sha": "bfb1afcd2da95278",
+   "codes": ["LO-6"],
+   "note": "Forecasts of heavy rain and cyclones letting governments mobilise, alert and evacuate is disaster preparedness in the frame's own terms. Not C-SST1.1, because the forecast is assumed and the answer is the response to it."
+  },
+  {
+   "sha": "a48f52b8e8f7c395",
+   "codes": ["C-SST1.1"],
+   "note": "The millibar as the barometer's unit is a measurement convention. Deliberately separated from the 1013 mb item, which was given LO-3 because it states a structural property of the atmosphere."
+  },
+  {
+   "sha": "7723a688b1a4bffe",
+   "codes": ["C-SST1.1"],
+   "note": "Pine cones closing in damp air are presented in this chapter as a natural way of reading humidity, so they belong with the observation items. Not LO-3, because the mechanism of humidity is not what has to be explained."
+  },
+  {
+   "sha": "1b02a0eb1426afea",
+   "codes": ["LO-3"],
+   "note": "Defines water vapour as water in its gaseous state, named in the answer as a component of the atmosphere. Not C-SST1.1, since no device or reading is involved."
+  },
+  {
+   "sha": "424e925f7afde375",
+   "codes": ["LO-3"],
+   "note": "Requires the five elements of weather - temperature, precipitation, pressure, wind, humidity - and the rejection of cloud cover. These are properties of the atmosphere, so LO-3 rather than the instrument competency."
+  },
+  {
+   "sha": "23fa2827d31da044",
+   "codes": ["LO-5"],
+   "note": "The justification for measuring wind is its effect on flight paths, sailing and storm tracking - weather bearing on human activity. Not C-SST1.1, which is used for the anemometer and wind vane themselves."
+  }
+ ]
+}

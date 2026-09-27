@@ -1,0 +1,305 @@
+{
+  "chapter_id": 8597,
+  "mappings": [
+    {
+      "sha": "9814e2a2ed539cc5",
+      "codes": ["C-7.2-LO-1"],
+      "note": "The missing 6x is the cross term of (a+b)^2. LO-1 is the only outcome in this chapter that owns the square-of-a-sum identity; LO-3 would need a middle term to be split, and here it has to be produced."
+    },
+    {
+      "sha": "4cd82de84ee8dd67",
+      "codes": ["C-7.2-LO-1"],
+      "note": "(x+5)(x-5) as a difference of two squares, which LO-1 names alongside the two square identities. Not LO-4: this is not the general (x+a)(x+b) form, and the stem forbids term-by-term multiplication."
+    },
+    {
+      "sha": "701ffec0dc74d850",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Chooses (a+b)^2 for 102 squared. The item is about which of the three LO-1 identities fits the number, so it tests recognition of the square-of-a-sum pattern."
+    },
+    {
+      "sha": "daff95942631707b",
+      "codes": ["C-7.2-LO-4"],
+      "note": "The cube of a binomial, (x+2)^3, which LO-4 names explicitly. The distractors are the missing-cross-term errors, so the four-term expansion is the point."
+    },
+    {
+      "sha": "05ff43d4be4192e5",
+      "codes": ["C-7.2-LO-1"],
+      "note": "(2p-1)^2 expanded, with the difference-of-squares distractor 4p^2-1 as the trap. Both identities involved are LO-1's."
+    },
+    {
+      "sha": "5dec7c4a8cb3f785",
+      "codes": ["C-7.2-LO-1"],
+      "note": "49m^2-64n^2 recognised as (7m)^2-(8n)^2. Difference of two squares, LO-1; the perfect-square distractors are what must be rejected."
+    },
+    {
+      "sha": "dc29fc44c0b79459",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Asks which square identity is true, with a distractor claiming validity only for positive b. The substance is that (a+b)^2 = a^2+2ab+b^2 holds for all reals, which is LO-1's identity."
+    },
+    {
+      "sha": "2b3152315b49e827",
+      "codes": ["C-7.2-LO-4"],
+      "note": "(y+4)(y+7) is the (x+a)(x+b) form, and the missing 11y is the (a+b)x term. LO-4 names that expansion; LO-1 covers only the squares and the difference of squares."
+    },
+    {
+      "sha": "c94d7961925af811",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Squaring x+1/x to reach x^2+1/x^2 -- the square-of-a-sum identity with the cross term equal to 2. LO-1. (The stem's fractions are flattened in the text layer; mapped on what it is reaching for.)"
+    },
+    {
+      "sha": "0ed103a5423a4d6e",
+      "codes": ["C-7.2-LO-1"],
+      "note": "(a+b)^2-(a-b)^2 = 4ab, which is the two square identities of LO-1 differenced. Not LO-4: nothing cubic or trinomial appears."
+    },
+    {
+      "sha": "2f2f5a3792f61da4",
+      "codes": ["C-7.2-LO-1"],
+      "note": "The intended route is (12+2)^2 rather than a fresh multiplication, so the assessed idea is the square-of-a-sum of LO-1. The distractor 148 is exactly the a^2+b^2 error the identity guards against."
+    },
+    {
+      "sha": "107708efd1fbc972",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Screens four trinomials for the perfect-square pattern, which means checking the middle term against twice the product of the roots -- recognition of LO-1's (a-b)^2. LO-3 would require an actual split."
+    },
+    {
+      "sha": "d1d0f6a8e537b868",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Disproves (p-q)^2 = p^2-q^2 by substitution, so what is tested is knowing the true (a-b)^2 expansion of LO-1. The choice of p=2,q=1 over p=1,q=0 is about picking values where the cross term does not vanish."
+    },
+    {
+      "sha": "80dfa7ef4f542de5",
+      "codes": ["C-7.2-LO-1"],
+      "note": "98 x 102 rewritten as (100-2)(100+2). Difference of two squares as a mental-arithmetic tool, LO-1."
+    },
+    {
+      "sha": "4e15edc3d57bf80a",
+      "codes": ["C-7.2-LO-4"],
+      "note": "(x+8)(x-3) with unlike signs is the (x+a)(x+b) identity of LO-4, where a+b = 5 and ab = -24. Not a difference of squares, so not LO-1."
+    },
+    {
+      "sha": "a9105c1e446410e7",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Recovers mn from (m+n)^2 and m^2+n^2 by rearranging the square-of-a-sum identity. LO-1, used as an equation rather than an expansion."
+    },
+    {
+      "sha": "c37c4aa86927313f",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Asks which rewriting exposes x^2+10x+25 as a perfect square -- matching 10x to 2(x)(5). That is recognising LO-1's (a+b)^2; the splitting method of LO-3 is not offered as an option."
+    },
+    {
+      "sha": "0796127e30fa53d5",
+      "codes": ["C-7.2-LO-1"],
+      "note": "The reason states (a+b)^2-(a-b)^2 = 4ab and the assertion applies it. Both halves are built from LO-1's two square identities."
+    },
+    {
+      "sha": "fa7cb06c1a8280da",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Uses (a-b)^2 = a^2+b^2-2ab to get 36 from the given a^2+b^2 and ab. The square-of-a-difference identity of LO-1, applied in rearranged form."
+    },
+    {
+      "sha": "f4ea10b1b207f6e2",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Solves (x+2)^2 = 100 by taking the positive root, so the identity being handled is the square of a binomial. Cited to LO-1 rather than C-3.3, since no quadratic formula is required."
+    },
+    {
+      "sha": "cb016f4a36db46ee",
+      "codes": ["C-7.2-LO-1"],
+      "note": "49 squared as (50-1)^2 -- the square-of-a-difference used for mental arithmetic, LO-1. The instruction 'without long multiplication' is what forces the identity."
+    },
+    {
+      "sha": "0349b6c613f76873",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Recognises 9a^2-24ab+16b^2 as (3a-4b)^2 by matching the middle term to 2(3a)(4b). Perfect-square recognition, LO-1; the stem says 'recognize it as a square', ruling out LO-3's splitting route."
+    },
+    {
+      "sha": "e7edb1aed54ea3fa",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Refutes (2x+3)(2x-3) = 4x^2+9 numerically and then states the correct difference of squares. LO-1's a^2-b^2."
+    },
+    {
+      "sha": "baa0e8208bd959c1",
+      "codes": ["C-7.2-LO-1"],
+      "note": "p^2+q^2 obtained from (p+q)^2-2pq, i.e. the square-of-a-sum rearranged. LO-1, despite the item being tagged to the sum-of-cubes concept, which it does not use."
+    },
+    {
+      "sha": "793cc7e83a28a0f0",
+      "codes": ["C-7.2-LO-1"],
+      "note": "(3x-2)^2 expanded and then evaluated. Square of a difference, LO-1; the numerical part only checks the expansion."
+    },
+    {
+      "sha": "f42b33d1c4e5037a",
+      "codes": ["C-7.2-LO-1"],
+      "note": "(2x+5)(2x-5) as a difference of squares, and the stem asks for it 'using an identity'. LO-1."
+    },
+    {
+      "sha": "554f7739fdce1e87",
+      "codes": ["C-7.2-LO-1"],
+      "note": "1003 squared via (1000+3)^2, with an explanation of why the identity is efficient. LO-1's square of a sum."
+    },
+    {
+      "sha": "30557d9a98d88d87",
+      "codes": ["C-7.2-LO-1"],
+      "note": "123 and 73 are equally spaced about 98, so the intended route is (98+25)(98-25) -- difference of squares, LO-1. Mapped on the stem's demand for an identity; the printed key belongs to a different item (see the defect list)."
+    },
+    {
+      "sha": "f0bb77109caa9b46",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Proves that (n+3)^2-(n-3)^2 = 12n by factorising the difference of two squares rather than expanding both. LO-1."
+    },
+    {
+      "sha": "f9181b3351a0eaaa",
+      "codes": ["C-7.2-LO-1"],
+      "note": "A two-stage use of LO-1: first group 4a^2-12ab+9b^2 into (2a-3b)^2, then treat the whole thing minus 25 as a difference of squares. Both identities are LO-1's."
+    },
+    {
+      "sha": "06175de9469051f8",
+      "codes": ["C-7.2-LO-4", "C-7.2-LO-1"],
+      "note": "Part (a) expands (x+6)(x+2), the (x+a)(x+b) form of LO-4; part (b) expands (x+4)^2 and differences the two, which is LO-1's square of a sum."
+    },
+    {
+      "sha": "68662cb2a9a7ac1c",
+      "codes": ["C-7.2-LO-1"],
+      "note": "(2x+5)^2-(2x-5)^2, and part (c) asks explicitly why the difference-of-squares identity is the right tool. LO-1 throughout."
+    },
+    {
+      "sha": "91e48b22b998fd5c",
+      "codes": ["C-7.2-LO-1", "C-7.2-LO-4"],
+      "note": "Part (a) squares x+1/x (LO-1); part (b) needs the cube identity a^3+b^3 = (a+b)^3-3ab(a+b), which is LO-4's derivation of the cube of a binomial and the sum of cubes."
+    },
+    {
+      "sha": "00b6a360c55b0e84",
+      "codes": ["C-7.2-LO-1"],
+      "note": "(y+9)(y-9) = 319 solved as a difference of squares, then the area recomputed after a change of one dimension. LO-1. (The stem is duplicated and the answer field holds no solution; see the defect list.)"
+    },
+    {
+      "sha": "a1c19f301817a91e",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Expands (x+1)^2 and then differences it against (x-1)^2 to get 4x. Both steps are LO-1 identities; nothing here is a cube, despite the concept tag."
+    },
+    {
+      "sha": "0147f3345f3223eb",
+      "codes": ["C-7.2-LO-1"],
+      "note": "(p+6)(p-6) = p^2-36, and part (iii) turns on the sign difference from p^2+36. The a^2-b^2 identity of LO-1 and the misconception it corrects."
+    },
+    {
+      "sha": "0761188078c14331",
+      "codes": ["C-7.2-LO-1"],
+      "note": "99 x 101 as (100-1)(100+1), with part (ii) asking the student to name the identity used. Difference of squares, LO-1."
+    },
+    {
+      "sha": "qid:706647",
+      "codes": ["C-7.2"],
+      "note": "Competency: what an identity IS -- an equality holding for all values. None of the five outcomes defines the term; they each apply or prove a particular identity, so the competency is the honest level."
+    },
+    {
+      "sha": "qid:706648",
+      "codes": ["C-7.2"],
+      "note": "Competency, same gap as qid:706647: identity versus equation, true for all values against true for particular ones. No outcome in this frame covers that distinction."
+    },
+    {
+      "sha": "qid:706649",
+      "codes": ["CG-7"],
+      "note": "Goal-level on purpose: the assertion is that three checks constitute a proof, and the point is that verification is not proof. That is CG-7's 'axiomatic and deductive structure', not any one identity."
+    },
+    {
+      "sha": "qid:706650",
+      "codes": ["C-7.2"],
+      "note": "Competency: why identities are worth learning at all -- chiefly that they work in reverse, turning expansion into factorisation. A judgement about the identities as a body rather than a use of any one of them."
+    },
+    {
+      "sha": "qid:706651",
+      "codes": ["C-7.2-LO-1"],
+      "note": "States the expansion of (a+b)^2. LO-1's first identity, recalled."
+    },
+    {
+      "sha": "qid:706652",
+      "codes": ["C-7.2-LO-1"],
+      "note": "The middle term of (a-b)^2 is -2ab, the sign being the whole test. LO-1's second identity."
+    },
+    {
+      "sha": "qid:706653",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Writes the square-of-a-sum identity out in full. LO-1."
+    },
+    {
+      "sha": "qid:706654",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Expands (2x-3)^2, so the identity is applied with a compound first term. LO-1's (a-b)^2."
+    },
+    {
+      "sha": "qid:706655",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Both square identities side by side, with the explanation that only the middle sign changes and why the squared terms stay positive. LO-1 in its comparative form."
+    },
+    {
+      "sha": "qid:706656",
+      "codes": ["C-7.2-LO-1"],
+      "note": "The commonest error, (a+b)^2 = a^2+b^2, with the cross term as the reason. LO-1."
+    },
+    {
+      "sha": "qid:706657",
+      "codes": ["C-7.2-LO-1"],
+      "note": "True/false recall of the square-of-a-sum expansion. LO-1."
+    },
+    {
+      "sha": "qid:706658",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Gap-fill for the sign of the middle term in (a-b)^2. LO-1, testing the one place where the two square identities differ."
+    },
+    {
+      "sha": "qid:706659",
+      "codes": ["C-7.2-LO-1"],
+      "note": "103 squared as (100+3)^2. LO-1's square of a sum applied to mental arithmetic."
+    },
+    {
+      "sha": "qid:706660",
+      "codes": ["C-7.2-LO-1"],
+      "note": "LO-1 in its literal sense: the identity proved algebraically by the distributive law and then verified by arranging the areas of two squares and two rectangles. The only item in part 1 that does the geometric half."
+    },
+    {
+      "sha": "qid:706661",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Recalls the factorisation of a^2-b^2, the third identity LO-1 names."
+    },
+    {
+      "sha": "qid:706662",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Factorises x^2-25 once both terms are seen as squares. LO-1's difference of squares; there is no middle term, so LO-3 does not apply."
+    },
+    {
+      "sha": "qid:706663",
+      "codes": ["C-7.2-LO-1"],
+      "note": "x^2+16 resists factorisation precisely because the difference-of-squares identity needs a subtraction. The boundary of LO-1's third identity."
+    },
+    {
+      "sha": "qid:706664",
+      "codes": ["C-7.2-LO-1"],
+      "note": "False: a^2+b^2 is not (a+b)(a+b). Tests both LO-1 identities at once, since the right-hand side is (a+b)^2."
+    },
+    {
+      "sha": "qid:706665",
+      "codes": ["C-7.2-LO-1"],
+      "note": "Gap-fill for the second factor of a^2-b^2. LO-1."
+    },
+    {
+      "sha": "qid:706666",
+      "codes": ["C-7.2-LO-1"],
+      "note": "98 times 102 by the difference of squares, with the answer stressing that spotting the equal spacing about 100 is what makes the identity applicable. LO-1."
+    },
+    {
+      "sha": "qid:706667",
+      "codes": ["C-7.2-LO-4"],
+      "note": "(x+3)(x+5) is the (x+a)(x+b) expansion that LO-4 names. Not LO-1: the two constants differ, so no square or difference of squares is involved."
+    },
+    {
+      "sha": "qid:706668",
+      "codes": ["C-7.2-LO-3", "C-7.2-LO-4"],
+      "note": "Searches for two numbers with sum 11 and product 30 -- splitting the middle term (LO-3) -- and then checks the result against the (x+a)(x+b) identity (LO-4). The answer does both, and the item asks for the reasoning as well as the factors."
+    },
+    {
+      "sha": "qid:706669",
+      "codes": ["C-7.2-LO-4"],
+      "note": "Gap-fill for the constant term ab in the (x+a)(x+b) identity, which LO-4 names."
+    }
+  ]
+}

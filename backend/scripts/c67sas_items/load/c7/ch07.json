@@ -1,0 +1,85 @@
+{
+ "chapter": 7,
+ "chapter_id": 25946,
+ "extraction_id": 808,
+ "source": "SAS_Maths-Class-7.pdf",
+ "source_url": "https://cbseacademic.nic.in/cbe/documents/SAS_Maths-Class-7.pdf",
+ "source_grade": 7,
+ "target_grade": 7,
+ "standard_id": 40,
+ "cross_grade": false,
+ "old_chapters": [
+  "The Triangle and its Properties"
+ ],
+ "assets": [],
+ "items": [
+  {
+   "number": "SAS21M07S0601",
+   "form": "mcq",
+   "stem": "In an equilateral triangle ABC, the length of AC = 10 cm and altitude AD = 6 cm. P is a point on AB. The length of BP = 4x – 1. The length of PA = 3x + 4 What is the length of BP?",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 cm"
+    },
+    {
+     "label": "B",
+     "text": "3 cm"
+    },
+    {
+     "label": "C",
+     "text": "5 cm"
+    },
+    {
+     "label": "D",
+     "text": "10 cm"
+    }
+   ],
+   "answer": "B. 3 cm",
+   "reproduction": "verbatim",
+   "correct_option": "B"
+  },
+  {
+   "number": "SAS21M07S0602",
+   "form": "mcq",
+   "stem": "In an equilateral triangle ABC, the length of AC = 10 cm and altitude AD = 6 cm. P is a point on AB. The length of BP = 4x – 1. The length of PA = 3x + 4 What is the length of the median on BC?",
+   "options": [
+    {
+     "label": "A",
+     "text": "3 cm"
+    },
+    {
+     "label": "B",
+     "text": "5 cm"
+    },
+    {
+     "label": "C",
+     "text": "6 cm"
+    },
+    {
+     "label": "D",
+     "text": "10 cm"
+    }
+   ],
+   "answer": "C. 6 cm",
+   "reproduction": "verbatim",
+   "correct_option": "C"
+  },
+  {
+   "number": "SAS21M07S0603",
+   "form": "short",
+   "stem": "Anshu cuts a paper triangle ABC. He folds the paper perpendicular to BC such that it passes through the vertex A. He marks the point where the fold crosses BC as M. He unfolds the paper. He again folds all the three corners such that vertices A, B and C touch M without overlapping. Anshu’s method Radhika performs a similar activity. She marks M by folding ∆ABC such that it halves the side BC. When she folds the three corners such that vertices A, B and C touch M, unlike Anshu, the paper corners overlap. What can be the reason for overlapping?",
+   "options": [],
+   "answer": "Anshu marked the altitude of the side BC, while Radhika marked the median of the side BC. Accept answers in which differentiation between median and altitude is evident.",
+   "reproduction": "verbatim"
+  },
+  {
+   "number": "SAS21M07S0604",
+   "form": "short",
+   "stem": "Why is the existence of a triangle with an exterior angle of measure 180° not possible?",
+   "options": [],
+   "answer": "The explanation involves the angle sum property of a triangle. | An exterior angle is the sum of its opposite interior angles. If the sum of two angles is 180°, the measure of the third angle will be 0°. Thus no triangle will be formed.",
+   "reproduction": "verbatim"
+  }
+ ]
+}

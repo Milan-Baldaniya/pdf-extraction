@@ -1,0 +1,290 @@
+{
+  "chapter_id": 1012,
+  "mappings": [
+    {
+      "sha": "qid:700189",
+      "codes": ["C 1.3"],
+      "note": "Reactant/product terminology. Equation vocabulary sits under C 1.3's competency text; C 1.3-LO-1 is specifically about writing a BALANCED equation with states, which is not what is asked."
+    },
+    {
+      "sha": "qid:700190",
+      "codes": ["C 1.3"],
+      "note": "Explicitly asks for the UNBALANCED formula representation, so C 1.3-LO-1 (balanced equation) is excluded by the stem itself; the competency covers representing a reaction with symbols."
+    },
+    {
+      "sha": "qid:700191",
+      "codes": ["C 1.3"],
+      "note": "Why symbolic representation beats words -- a question about the value of the notation, not about balancing, so the competency and not C 1.3-LO-1."
+    },
+    {
+      "sha": "qid:700192",
+      "codes": ["C 1.3"],
+      "note": "Bare formula recall (H2O). No equation, so competency level, consistent with the other formula items in this chapter."
+    },
+    {
+      "sha": "qid:700193",
+      "codes": ["C 1.3"],
+      "note": "Defines a skeletal equation, which by definition is the unbalanced form; C 1.3-LO-1 would contradict the stem."
+    },
+    {
+      "sha": "qid:700194",
+      "codes": ["C 1.3"],
+      "note": "Sits inside the skeletal-equation cluster (qid:700193, qid:700195) and the given Fe + H2O -> Fe3O4 + H2 is left deliberately unbalanced, so the expected answer is 'skeletal/unbalanced equation'. Flagged as ambiguous: if the intended answer were 'displacement reaction' it would belong at C 1.2-LO-1, but the option text is not stored."
+    },
+    {
+      "sha": "qid:700195",
+      "codes": ["C 1.3-LO-2"],
+      "note": "Asks WHY a skeletal equation must be balanced -- the conservation-of-mass justification, which is LO-2 and not the balancing procedure of LO-1."
+    },
+    {
+      "sha": "qid:700196",
+      "codes": ["C 1.3-LO-2"],
+      "note": "Statement of the law of conservation of mass itself, the concept LO-2 is built on."
+    },
+    {
+      "sha": "qid:700197",
+      "codes": ["C 1.3-LO-2"],
+      "note": "Why atom counts must match on both sides -- conservation of mass reasoning, LO-2 rather than the mechanics of balancing."
+    },
+    {
+      "sha": "qid:700198",
+      "codes": ["C 1.3-LO-2"],
+      "note": "10 g + 5 g gives 15 g of products: a numerical application of conservation of mass. LO-2 rather than LO-1 because no equation is written."
+    },
+    {
+      "sha": "qid:700199",
+      "codes": ["C 1.3-LO-1"],
+      "note": "Which formula to balance first is part of the procedure for producing a balanced equation, so LO-1. Not LO-2: no justification for balancing is asked."
+    },
+    {
+      "sha": "qid:700200",
+      "codes": ["C 1.3-LO-1"],
+      "note": "Applies the 'most atoms first' rule to Fe + H2O -> Fe3O4 + H2 -- balancing technique under LO-1."
+    },
+    {
+      "sha": "qid:700201",
+      "codes": ["C 1.3-LO-1"],
+      "note": "Rationale for the 'most atoms first' heuristic. Still balancing procedure, so LO-1; the conservation argument of LO-2 is not what is probed."
+    },
+    {
+      "sha": "qid:700202",
+      "codes": ["C 1.3-LO-1"],
+      "note": "Defines the hit-and-trial balancing method -- the skill LO-1 names."
+    },
+    {
+      "sha": "qid:700203",
+      "codes": ["C 1.3-LO-1"],
+      "note": "The rule that subscripts must not be altered while balancing is a constraint on how a balanced equation is produced, so LO-1 rather than LO-2."
+    },
+    {
+      "sha": "qid:700204",
+      "codes": ["C 1.3-LO-1"],
+      "note": "Where coefficients go when balancing -- balancing mechanics, LO-1."
+    },
+    {
+      "sha": "qid:700205",
+      "codes": ["C 1.3-LO-1"],
+      "note": "Meaning of (aq). This is the 'states the physical states of the reactants and products' half of C 1.3-LO-1. C 8.1-LO-1 rejected because its named symbols are precipitate, gas and heat, and (aq) is none of those."
+    },
+    {
+      "sha": "qid:700206",
+      "codes": ["C 8.1-LO-1"],
+      "note": "Which symbol marks a gaseous substance. C 8.1-LO-1 names the gas symbol explicitly, so it is a closer fit than C 1.3-LO-1's general physical-states clause."
+    },
+    {
+      "sha": "qid:700207",
+      "codes": ["C 1.3-LO-1"],
+      "note": "Meaning of (s) as the solid state. Kept at C 1.3-LO-1 rather than C 8.1-LO-1 because the stem asks about the state symbol generally, not about reading (s) as a precipitate."
+    },
+    {
+      "sha": "qid:700208",
+      "codes": ["C 8.1-LO-1"],
+      "note": "Where reaction conditions such as heat or a catalyst are written in an equation -- interpreting the notation above the arrow, which C 8.1-LO-1 covers via the heat symbol."
+    },
+    {
+      "sha": "qid:700209",
+      "codes": ["C 8.1-LO-1"],
+      "note": "The delta above the arrow means heat is required -- the heat symbol named verbatim in C 8.1-LO-1."
+    },
+    {
+      "sha": "qid:700210",
+      "codes": ["C 8.1-LO-1"],
+      "note": "Reading MnO2 above the arrow as a catalyst. Catalyst is not in C 8.1-LO-1's named list, but interpreting a symbol written over the arrow is squarely that outcome and no other code comes closer."
+    },
+    {
+      "sha": "qid:700211",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Definition-to-name of a combination reaction, the first type LO-1 lists."
+    },
+    {
+      "sha": "qid:700212",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Picks a combination reaction from examples -- LO-1 classification."
+    },
+    {
+      "sha": "qid:700213",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Classifies 2H2 + O2 -> 2H2O as a combination reaction. The equation is given already balanced, so C 1.3-LO-1 does not apply."
+    },
+    {
+      "sha": "qid:700214",
+      "codes": ["C 1.2"],
+      "note": "Names the class of reaction that releases heat (exothermic). Energy classification has no learning outcome in this frame, so competency level, as throughout this chapter."
+    },
+    {
+      "sha": "qid:700215",
+      "codes": ["C 1.2"],
+      "note": "Example of an exothermic reaction -- same frame gap as qid:700214."
+    },
+    {
+      "sha": "qid:700216",
+      "codes": ["C 1.2"],
+      "note": "What happens to temperature during an exothermic reaction. Energy change, no LO available."
+    },
+    {
+      "sha": "qid:700217",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Definition-to-name of a decomposition reaction, named in LO-1."
+    },
+    {
+      "sha": "qid:700218",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Picks the decomposition reaction from examples -- LO-1 classification."
+    },
+    {
+      "sha": "qid:700219",
+      "codes": ["C 1.2"],
+      "note": "Why decompositions need an energy input. The point tested is the endothermic character rather than recognising a decomposition, and energy has no LO here, so competency level."
+    },
+    {
+      "sha": "qid:700220",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Names thermal decomposition -- a sub-type of the decomposition category in LO-1."
+    },
+    {
+      "sha": "qid:700221",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Classifies CaCO3 -> CaO + CO2 on heating as thermal decomposition -- LO-1."
+    },
+    {
+      "sha": "qid:700222",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Which observation is typical of FeSO4 thermal decomposition: identifying a decomposition from what is seen and smelt, LO-1 word for word."
+    },
+    {
+      "sha": "qid:700223",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Names photolytic decomposition -- still the decomposition clause of LO-1."
+    },
+    {
+      "sha": "qid:700224",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Classifies 2AgCl -> 2Ag + Cl2 in sunlight as photolytic decomposition, LO-1."
+    },
+    {
+      "sha": "qid:700225",
+      "codes": ["C 1.2-LO-1"],
+      "note": "The greying of AgCl in photography attributed to photolytic decomposition. LO-1, not LO-2 -- nothing here is corrosion, despite the stored tag."
+    },
+    {
+      "sha": "qid:700226",
+      "codes": ["C 1.2"],
+      "note": "Names the class of reaction that absorbs energy (endothermic) -- the energy-change gap, competency level."
+    },
+    {
+      "sha": "qid:700227",
+      "codes": ["C 1.2"],
+      "note": "Example of an endothermic process -- same gap as qid:700226."
+    },
+    {
+      "sha": "qid:700228",
+      "codes": ["C 1.2"],
+      "note": "How the test tube feels during an endothermic reaction. Energy observation, no LO available."
+    },
+    {
+      "sha": "qid:700229",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Definition-to-name of a displacement reaction, named in LO-1."
+    },
+    {
+      "sha": "qid:700230",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Classifies Fe + CuSO4 -> FeSO4 + Cu as displacement -- LO-1, the equation being supplied."
+    },
+    {
+      "sha": "qid:700231",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Why zinc displaces copper: the reactivity reasoning behind the displacement clause of LO-1."
+    },
+    {
+      "sha": "qid:700232",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Names a precipitation reaction from its definition -- the double displacement/precipitation clause of LO-1."
+    },
+    {
+      "sha": "qid:700233",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Classifies Na2SO4 + BaCl2 -> BaSO4 + NaCl as double displacement/precipitation. Classification only, so not C 1.3-LO-1."
+    },
+    {
+      "sha": "qid:700234",
+      "codes": ["C 1.2-LO-1"],
+      "note": "The term 'precipitate' for the insoluble product. C 8.1-LO-1 rejected: the question asks for the word, not for the (s) symbol that denotes it."
+    },
+    {
+      "sha": "qid:700235",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Defines oxidation by gain of oxygen / loss of hydrogen -- the oxidation clause of LO-1."
+    },
+    {
+      "sha": "qid:700236",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Copper blackening in air classified as oxidation -- an oxidation identified from an observation, LO-1. Not LO-2: this is a laboratory heating, not an everyday corrosion effect."
+    },
+    {
+      "sha": "qid:700237",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Which substance is oxidised in 2Cu + O2 -> 2CuO -- redox identification under LO-1."
+    },
+    {
+      "sha": "qid:700238",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Defines reduction by loss of oxygen / gain of hydrogen -- the reduction clause of LO-1."
+    },
+    {
+      "sha": "qid:700239",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Which substance is reduced in CuO + H2 -> Cu + H2O -- LO-1 redox identification."
+    },
+    {
+      "sha": "qid:700240",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Best description of a reduction reaction -- LO-1's reduction clause, definitional form."
+    },
+    {
+      "sha": "qid:700241",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Names a redox reaction from the simultaneity of oxidation and reduction, both named in LO-1."
+    },
+    {
+      "sha": "qid:700242",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Identifies both halves of the redox change in CuO + H2 -- LO-1."
+    },
+    {
+      "sha": "qid:700243",
+      "codes": ["C 1.2-LO-1"],
+      "note": "Why the reaction is redox rather than only oxidation or only reduction -- reasoning within LO-1's oxidation and reduction clause."
+    },
+    {
+      "sha": "qid:700244",
+      "codes": ["C 1.2-LO-2"],
+      "note": "Names corrosion from its definition -- LO-2's corrosion-of-metals clause."
+    },
+    {
+      "sha": "qid:700245",
+      "codes": ["C 1.2-LO-2"],
+      "note": "Picks an example of corrosion. LO-2 rather than LO-1, because the category being tested is the everyday effect of oxidation, not a reaction type."
+    }
+  ]
+}

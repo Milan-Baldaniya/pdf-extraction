@@ -41,11 +41,21 @@ if hasattr(sys.stdout, "reconfigure"):
 from sqlalchemy import text  # noqa: E402
 
 from app.db.mariadb import SessionLocal, init_mariadb  # noqa: E402
+from app.services.supplied_items import shape as _shape  # noqa: E402
 
 from scripts.parse_nodia_qb import BOOKS, MIRROR  # noqa: E402
 
 DRAFTS = Path(__file__).resolve().parent / "nodia_qb_items" / "drafts"
 OUT_ROOT = Path(__file__).resolve().parent / "nodia_qb_items"
+
+
+def _digest(item: dict) -> str:
+    """The verbatim_sha256 this item WILL be stored under.
+
+    Produced by running the writer's own `shape()`, so that a change to how
+    the hash is built cannot make this check quietly stop matching.
+    """
+    return _shape([item], attribution="x", licence=None)[0]["verbatim_sha256"]
 
 
 def norm(t: str) -> str:
@@ -76,22 +86,56 @@ def main() -> int:
     db = SessionLocal()
     try:
         meta: dict[tuple[int, int], dict] = {}
+        foreign = 0
         for r in db.execute(text(
             "SELECT e.subject_name, e.chapter_number, e.id, e.chapter_id, c.chapter_name "
             "  FROM document_extractions e JOIN chapter_master c ON c.id = e.chapter_id "
             " WHERE e.content_sha256 = :h"), {"h": sha}).fetchall():
-            meta[(part_of.get(r[0], 1), int(r[1]))] = {
+            # ONE FILE CAN CARRY TWO SUBJECTS, and the rows are found by the
+            # file's hash. c10_English_QB_2026.pdf holds both First Flight
+            # (subject "English", already loaded) and the Footprints Without
+            # Feet supplementary reader ("English-2"), and each numbers its
+            # chapters 1 to 9. Defaulted to part 1, the nine English rows
+            # land on the same nine keys as the nine English-2 rows and
+            # whichever the database returns last wins -- so a run of
+            # c10_english2 would file the supplementary reader's questions
+            # against First Flight's chapters, in a subject this book has no
+            # business writing to. A row for a subject this book does not
+            # claim is not ours.
+            if r[0] not in part_of:
+                foreign += 1
+                continue
+            meta[(part_of[r[0]], int(r[1]))] = {
                 "eid": int(r[2]), "cid": int(r[3]), "name": r[4]}
+        if foreign:
+            print(f"  note: {foreign} extraction row(s) for this file belong to "
+                  f"another subject and were left alone\n")
         if not meta:
             raise SystemExit("No extraction rows -- run setup_nodia_extractions --apply")
         mine = tuple(m["eid"] for m in meta.values())
         existing: dict[int, set[str]] = {}
+        # THE UNIQUE INDEX IS SCOPED TO ONE EXTRACTION. It is
+        # (extraction_id, verbatim_sha256, sub_institute_id), so it rejects
+        # the same question twice within a load and cannot see the same
+        # question arriving from a different source. On a top-up -- where
+        # some of the book's chapters are already stocked from elsewhere --
+        # that is the only index the load has, and it will not fire. So the
+        # hashes already filed against each chapter are read here and
+        # matched by hand, alongside the normalised-stem check that catches
+        # the same question reproduced with different punctuation.
+        digests: dict[int, set[str]] = {}
         for cid in {m["cid"] for m in meta.values()}:
             existing[cid] = {norm(s[0])[:120] for s in db.execute(text(
                 "SELECT q.question_title FROM lms_question_master q "
                 "  LEFT JOIN lms_question_extraction x ON x.question_id = q.id "
                 " WHERE q.chapter_id = :c AND q.question_title IS NOT NULL "
                 "   AND (x.extraction_id IS NULL OR x.extraction_id NOT IN :mine)"),
+                {"c": cid, "mine": mine}).fetchall() if s[0]}
+            digests[cid] = {s[0] for s in db.execute(text(
+                "SELECT x.verbatim_sha256 FROM lms_question_extraction x "
+                "  JOIN lms_question_master q ON q.id = x.question_id "
+                " WHERE q.chapter_id = :c AND x.verbatim_sha256 IS NOT NULL "
+                "   AND x.extraction_id NOT IN :mine"),
                 {"c": cid, "mine": mine}).fetchall() if s[0]}
     finally:
         db.close()
@@ -116,11 +160,21 @@ def main() -> int:
                 held.append(("V-11 option over 250 chars", it)); continue
         if not (it.get("answer") or "").strip():
             held.append(("W-01 no answer", it)); continue
-        if len(it["stem"]) < 20:
+        # The floor catches a fragment left behind by a bad split. An mcq has
+        # already passed the four checks above -- four options, a key, and the
+        # key naming one of them -- and that is the evidence a fragment cannot
+        # produce, so it is held to a shorter one. "What is science?" and
+        # "What is a habitat?" are whole questions at 16 and 18 characters.
+        if len(it["stem"]) < (12 if it["form"] == "mcq" else 20):
             held.append(("stem under 20 chars", it)); continue
         k = norm(it["stem"])[:120]
         if k in existing.get(m["cid"], set()):
             held.append(("already in the bank from another source", it)); continue
+        # Computed by the writer's OWN shaper, not reimplemented here: the
+        # digest has to agree with the one already stored or the check
+        # silently passes everything.
+        if _digest(it) in digests.get(m["cid"], set()):
+            held.append(("same verbatim_sha256 already in the bank", it)); continue
         dk = (key, norm(it["stem"] + "".join(o["text"] for o in it["options"]))[:160])
         if dk in seen:
             held.append(("printed twice in this book", it)); continue

@@ -1,0 +1,305 @@
+{
+  "chapter_id": 8601,
+  "mappings": [
+    {
+      "sha": "507abc6aa374d7c9",
+      "codes": ["C-7.1-LO-1"],
+      "note": "The rope runs along the boundary only, and the distractor 1350 m is the AREA 45x30. The item exists to separate perimeter from area, which is C-7.1-LO-1."
+    },
+    {
+      "sha": "6977f07560527303",
+      "codes": ["C-7.1-LO-1"],
+      "note": "Two gardens of equal perimeter 40 m whose areas differ -- C-7.1-LO-1's 'produces two figures of equal perimeter whose areas differ', put as a comparison."
+    },
+    {
+      "sha": "25be105b7b226862",
+      "codes": ["C-7.3-LO-2"],
+      "note": "One lap of a circular track is the circumference 2 pi r. LO-2 of C-7.3 owns the circumference relation; LO-3 would apply only to part of the circle."
+    },
+    {
+      "sha": "530cad6bd1229c84",
+      "codes": ["C-7.3-LO-2"],
+      "note": "Inverts C = 2 pi r to test a claimed radius, catching the student who divided by 2 without pi. C-7.3-LO-2."
+    },
+    {
+      "sha": "e64ee96456b6a099",
+      "codes": ["C-7.3-LO-3", "C-7.1-LO-1"],
+      "note": "The semicircular arc is correctly computed as pi r (LO-3 of C-7.3, the half-circle case), but the boundary of the region also needs the diameter -- a perimeter-of-a-composite-boundary point, C-7.1-LO-1."
+    },
+    {
+      "sha": "26be925ddb839aa8",
+      "codes": ["C-7.3-LO-3"],
+      "note": "Arc length of a 90 degree sector from radius 14. C-7.3-LO-3 verbatim; the area of the sector is not asked, so not LO-4."
+    },
+    {
+      "sha": "a7ee81851a5cba6d",
+      "codes": ["C-7.3-LO-4"],
+      "note": "15 minutes is a quarter turn, so the swept region is a quarter-circle: sector AREA, which is LO-4's extension. LO-3 would give the arc the tip travels, not the region swept."
+    },
+    {
+      "sha": "f2e69d3ae067ee44",
+      "codes": ["C-7.3-LO-1"],
+      "note": "Area of a parallelogram depends only on base and perpendicular height, not on the slant side. That invariance is the content of C-7.3-LO-1's derivation from the rectangle."
+    },
+    {
+      "sha": "e4a89d446bc09141",
+      "codes": ["C-7.3-LO-1"],
+      "note": "A parallelogram and a rectangle on the same base and of the same height have equal area -- exactly the equivalence C-7.3-LO-1 establishes."
+    },
+    {
+      "sha": "2ef5ce52314fde10",
+      "codes": ["C-5.1-LO-1"],
+      "note": "The contractor computed base times height and forgot the half. C-5.1-LO-1, the base-and-height area of a triangle; no side lengths are given, so Heron (LO-2) does not arise."
+    },
+    {
+      "sha": "c25faa2df2abe191",
+      "codes": ["C-5.1-LO-2"],
+      "note": "The semi-perimeter is the first step of Heron's formula and the student doubled instead of halving. C-5.1-LO-2."
+    },
+    {
+      "sha": "e98c17dd83cda451",
+      "codes": ["C-7.1-LO-1"],
+      "note": "Equal areas, unequal perimeters -- the converse pairing to the equal-perimeter item, and the same C-7.1-LO-1 distinction between the two measures."
+    },
+    {
+      "sha": "f682c976d41d9afa",
+      "codes": ["CG-5"],
+      "note": "Goal-level: plain rectangle area, length fixed, solve for the new breadth. No outcome in this chapter covers the area of a rectangle on its own -- LO-5 of C-5.1 is for composite figures and C-7.3-LO-1 derives the parallelogram FROM the rectangle -- so CG-5's 'uses formulae to calculate areas of plane figures' is the honest level."
+    },
+    {
+      "sha": "53ef596191dbb9ae",
+      "codes": ["C-7.3-LO-2"],
+      "note": "Distance per revolution is the circumference pi d, multiplied by 100 and converted to metres. C-7.3-LO-2."
+    },
+    {
+      "sha": "88dcb16e3b67aacb",
+      "codes": ["C-7.3-LO-2"],
+      "note": "Circumference is a fixed multiple of the radius, so the ratio is preserved -- the constancy of the ratio is precisely what C-7.3-LO-2 establishes. The 25:16 distractor is the area answer."
+    },
+    {
+      "sha": "38865c56e6ef378b",
+      "codes": ["C-7.3-LO-4"],
+      "note": "Doubling r quadruples pi r squared. A property of the circle's AREA, C-7.3-LO-4, and the reason the circumference item above behaves differently."
+    },
+    {
+      "sha": "c218ef20f6cef2d8",
+      "codes": ["C-5.1-LO-3"],
+      "note": "Four side lengths do not fix a quadrilateral's area unless it is cyclic, which is the condition Brahmagupta's formula needs. C-5.1-LO-3."
+    },
+    {
+      "sha": "8d15e9fee16a0a87",
+      "codes": ["C-7.3-LO-3", "C-7.3-LO-2"],
+      "note": "Staggered starts exist because outer lanes have longer curved arcs at the same central angle -- arc length (LO-3) resting on the circumference relation (LO-2). Heron and the triangle areas are the distractors."
+    },
+    {
+      "sha": "a2caceaa60599dc8",
+      "codes": ["C-5.1-LO-2"],
+      "note": "The reason argues from Heron's formula that scaling every side by k scales s and each (s-a) by k, so the area scales by k squared. C-5.1-LO-2 used structurally rather than numerically."
+    },
+    {
+      "sha": "4ab65a144f804e5d",
+      "codes": ["C-5.1-LO-5", "C-7.3-LO-4"],
+      "note": "The hexagon is decomposed into six equilateral triangles, which is LO-5's splitting of a composite figure, and both areas are then compared against pi r squared (C-7.3-LO-4). (The printed explanation contradicts its own verdict; see the defect list.)"
+    },
+    {
+      "sha": "7edf039a718ea395",
+      "codes": ["C-7.3-LO-2"],
+      "note": "Edging runs round the boundary, so the quantity needed is the circumference 2 pi r before any costing. C-7.3-LO-2."
+    },
+    {
+      "sha": "dff514cfce299b5b",
+      "codes": ["C-7.3-LO-2"],
+      "note": "Same circumference-then-cost structure as the previous item, with r = 3.5 chosen so that 2 pi r is exactly 22 m. C-7.3-LO-2."
+    },
+    {
+      "sha": "8ad46ef72193c3c3",
+      "codes": ["C-7.3-LO-4"],
+      "note": "Painting a disc needs pi r squared, the circle's AREA. C-7.3-LO-4, and the contrast with the edging items above is the point of having both."
+    },
+    {
+      "sha": "c295ac0c768a5d2b",
+      "codes": ["C-7.3-LO-2"],
+      "note": "Rotations to cover 1 km is total distance divided by the circumference, with a rounding-up judgement at the end. C-7.3-LO-2."
+    },
+    {
+      "sha": "02c8ff7b72cf9bf5",
+      "codes": ["C-7.3-LO-4"],
+      "note": "Doubling the radius quadruples the area, refuting the 'twice' claim. C-7.3-LO-4; the same misconception as the logo item but set in a comparison."
+    },
+    {
+      "sha": "d5e2ec1ba06daab7",
+      "codes": ["C-7.1-LO-1"],
+      "note": "Six rectangles of perimeter 24 cm with areas from 11 to 36 -- a systematic demonstration that equal perimeter does not fix area, which is C-7.1-LO-1."
+    },
+    {
+      "sha": "00e4cd5398d9fecc",
+      "codes": ["CG-5"],
+      "note": "Goal-level: floor area, tile area and a division, with a cm-to-m conversion as the real difficulty. Rectangle area has no outcome of its own in this frame, as with the farmer's field item."
+    },
+    {
+      "sha": "fe4a5d10103b4ade",
+      "codes": ["C-7.1-LO-2"],
+      "note": "Why a square of equal area to a rectangle can be constructed, and what the two must share. C-7.1-LO-2's construction and its justification, asked as the reasoning rather than the drawing."
+    },
+    {
+      "sha": "c1c8642affd55c11",
+      "codes": ["C-5.1-LO-5"],
+      "note": "Reasons from half(a+b)h without computing either area. A trapezium is the composite figure LO-5 covers, and the argument is that equal a+b and equal h force equal area."
+    },
+    {
+      "sha": "f268eeb9a8429cb8",
+      "codes": ["C-7.3-LO-4", "C-5.1-LO-5"],
+      "note": "Four semicircles of radius a/2 total pi a squared over 2, compared with the square's a squared. The semicircle areas are C-7.3-LO-4; assembling them against the square is the composite reasoning of C-5.1-LO-5."
+    },
+    {
+      "sha": "7dd2db0839ebf9aa",
+      "codes": ["C-5.1-LO-4"],
+      "note": "The construction asked for is a median, justified by equal bases and a shared height. C-5.1-LO-4 verbatim; the given perimeter of 36 m is a red herring."
+    },
+    {
+      "sha": "0a7ab49ee126bfcd",
+      "codes": ["C-7.1-LO-1"],
+      "note": "Asks for the area AND the perimeter of each half, and then a fencing total that adds an internal dividing line to the outer boundary. Holding the two measures apart is what the item tests, C-7.1-LO-1."
+    },
+    {
+      "sha": "8ee01f7f53cc72cf",
+      "codes": ["C-7.1-LO-1", "C-5.1-LO-5"],
+      "note": "The cut removes area but leaves the perimeter unchanged, which is the C-7.1-LO-1 point; getting the remaining area needs the L-shape treated as a composite figure, C-5.1-LO-5."
+    },
+    {
+      "sha": "983b73921ac8b720",
+      "codes": ["C-7.1-LO-1"],
+      "note": "A fixed 40 m of fencing, several rectangles, and the observation that the square maximises the area. C-7.1-LO-1's equal-perimeter-different-area outcome, as an investigation."
+    },
+    {
+      "sha": "0ef93d2b4749c729",
+      "codes": ["C-7.3", "C-7.3-LO-4"],
+      "note": "Competency plus outcome: part 1 is the chord-and-tangent theorem that a perpendicular from the centre bisects a chord, which is C-7.3's circle-theorem clause and has no outcome of its own here; the later parts work with the two radii and the annulus, which is C-7.3-LO-4's circle area."
+    },
+    {
+      "sha": "60a514ee9da03d8c",
+      "codes": ["C-7.3-LO-4", "C-7.3-LO-3"],
+      "note": "Part 1 rewrites the semicircle's area in terms of its diameter (LO-4) and part 2 compares the curved ARC lengths of the three semicircles (LO-3). The item turns on areas scaling quadratically while arcs scale linearly."
+    },
+    {
+      "sha": "qid:706747",
+      "codes": ["C-7.1-LO-1"],
+      "note": "Defines the perimeter as the total boundary length. The first half of C-7.1-LO-1's distinction."
+    },
+    {
+      "sha": "qid:706748",
+      "codes": ["C-7.1-LO-1"],
+      "note": "Why one is measured in length units and the other in square units -- the dimensional side of the perimeter/area distinction, C-7.1-LO-1."
+    },
+    {
+      "sha": "qid:706749",
+      "codes": ["C-7.1-LO-1"],
+      "note": "Asks explicitly for an example where one changes while the other does not. C-7.1-LO-1's second clause."
+    },
+    {
+      "sha": "qid:706750",
+      "codes": ["C-7.1-LO-1"],
+      "note": "The assertion that equal perimeter forces equal area is false, and the counterexample is what C-7.1-LO-1 requires students to produce."
+    },
+    {
+      "sha": "qid:706751",
+      "codes": ["C-7.1-LO-1"],
+      "note": "The maximum-area rectangle for a fixed perimeter, investigated by tabulation. C-7.1-LO-1 pushed to a conclusion, at five marks."
+    },
+    {
+      "sha": "qid:706752",
+      "codes": ["C-7.3-LO-2"],
+      "note": "States C = 2 pi r. C-7.3-LO-2, which names the constant ratio and hence this formula."
+    },
+    {
+      "sha": "qid:706753",
+      "codes": ["C-7.3-LO-2"],
+      "note": "Circumference of a radius-7 circle with pi as 22/7. Direct use of C-7.3-LO-2's relation."
+    },
+    {
+      "sha": "qid:706754",
+      "codes": ["C-7.3-LO-2"],
+      "note": "Circumference proportional to radius because 2 pi is a constant -- the proportionality that C-7.3-LO-2 establishes."
+    },
+    {
+      "sha": "qid:706755",
+      "codes": ["C-7.3-LO-2"],
+      "note": "True/false recall of C = 2 pi r. C-7.3-LO-2."
+    },
+    {
+      "sha": "qid:706756",
+      "codes": ["C-7.3-LO-2"],
+      "note": "Solves 176 = 2 pi r for the radius. C-7.3-LO-2 inverted."
+    },
+    {
+      "sha": "qid:706757",
+      "codes": ["C-7.3-LO-4"],
+      "note": "States pi r squared. C-7.3-LO-4 is the outcome that derives the circle's area; LO-2 covers only the circumference."
+    },
+    {
+      "sha": "qid:706758",
+      "codes": ["C-7.3-LO-4"],
+      "note": "Area of a radius-7 circle. Direct use of C-7.3-LO-4's formula, and the numerical partner of qid:706753."
+    },
+    {
+      "sha": "qid:706759",
+      "codes": ["C-7.3-LO-4"],
+      "note": "False: doubling r quadruples the area, because the radius is squared. C-7.3-LO-4, with the true reason failing to support the assertion."
+    },
+    {
+      "sha": "qid:706760",
+      "codes": ["C-7.3-LO-4"],
+      "note": "Trebling r multiplies the area by nine. Same quadratic-scaling point as qid:706759, in true/false form."
+    },
+    {
+      "sha": "qid:706761",
+      "codes": ["C-7.3-LO-4"],
+      "note": "Gap-fill for pi r squared. C-7.3-LO-4."
+    },
+    {
+      "sha": "qid:706762",
+      "codes": ["CG-5", "C-7.1-LO-1"],
+      "note": "An inventory of perimeter and area formulae across rectangle, square, triangle and circle (CG-5's 'derives and uses formulae for areas of plane figures'), with the units of each, which is C-7.1-LO-1's dimensional distinction."
+    },
+    {
+      "sha": "qid:706763",
+      "codes": ["C-5.1-LO-1", "C-7.3-LO-4", "CG-5"],
+      "note": "The triangle row is C-5.1-LO-1 and the circle row is C-7.3-LO-4; the square and rectangle rows have no outcome of their own, so CG-5 carries them."
+    },
+    {
+      "sha": "qid:706764",
+      "codes": ["C-5.1-LO-1"],
+      "note": "Half base times height with base 10 and height 6. C-5.1-LO-1."
+    },
+    {
+      "sha": "qid:706765",
+      "codes": ["C-7.3-LO-1"],
+      "note": "The proof is by copying and rotating the triangle to make a parallelogram, which is C-7.3-LO-1's 'triangle as half that of a parallelogram'. C-5.1-LO-1 is the formula being justified, not the justification."
+    },
+    {
+      "sha": "qid:706766",
+      "codes": ["C-7.3-LO-1"],
+      "note": "Equal areas on the same base between the same parallels -- the second clause of C-7.3-LO-1, stated as a true/false."
+    },
+    {
+      "sha": "qid:706767",
+      "codes": ["C-5.1-LO-1"],
+      "note": "Another base-and-height area computation. C-5.1-LO-1; cited to the formula outcome rather than to the derivation outcome because no reasoning is asked for."
+    },
+    {
+      "sha": "qid:706768",
+      "codes": ["C-7.3-LO-1"],
+      "note": "The full proof that triangles on the same base between the same parallels are equal in area, via the shared perpendicular height. C-7.3-LO-1, at five marks."
+    },
+    {
+      "sha": "qid:706769",
+      "codes": ["C-7.3-LO-2"],
+      "note": "Defines pi as the circumference-to-diameter ratio -- C-7.3-LO-2's 'names that ratio pi'. Not C-7.1-LO-3, which is about its irrationality."
+    },
+    {
+      "sha": "qid:706770",
+      "codes": ["C-7.3-LO-2"],
+      "note": "False: the ratio is the same for every circle, which is the whole content of C-7.3-LO-2's 'every circle bears the same ratio'."
+    }
+  ]
+}

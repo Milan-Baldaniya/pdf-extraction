@@ -1,0 +1,145 @@
+{
+  "chapter_id": 8596,
+  "mappings": [
+    {
+      "sha": "qid:706619",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Matches 7, -3, 2/5 and pi to the SMALLEST family containing each, which is a test of how the families nest -- LO-1. LO-4 is not cited: only the pi row depends on a decimal expansion."
+    },
+    {
+      "sha": "qid:706620",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Draws the nested diagram N inside W inside Z inside Q inside R with the irrationals filling the rest. A picture of LO-1's trace."
+    },
+    {
+      "sha": "qid:706621",
+      "codes": ["C-1.1-LO-4"],
+      "note": "States the standing fact that a rational's expansion terminates or repeats -- the criterion LO-4 is built on. Nothing is converted, so not LO-5."
+    },
+    {
+      "sha": "qid:706622",
+      "codes": ["C-1.1-LO-4"],
+      "note": "Classifies the expansion of 3/8 as terminating, justified by the denominator being a power of two. LO-4's terminating/repeating separation."
+    },
+    {
+      "sha": "qid:706623",
+      "codes": ["C-1.1-LO-5"],
+      "note": "0.999... = 1 is the limiting case of turning a repeating decimal into a fraction, which is LO-5's outcome. LO-4 would only ask whether 0.999... is rational, which is not in dispute here."
+    },
+    {
+      "sha": "qid:706624",
+      "codes": ["C-1.1-LO-4"],
+      "note": "Names the class of a decimal that neither terminates nor repeats -- LO-4's third category, stated as a gap-fill."
+    },
+    {
+      "sha": "qid:706625",
+      "codes": ["C-1.1-LO-4"],
+      "note": "Matches 1/4, 1/3, root 2 and 5 to their decimal types, covering all of LO-4's categories in one item."
+    },
+    {
+      "sha": "qid:706626",
+      "codes": ["C-1.1-LO-2"],
+      "note": "Division by zero being undefined is one of Brahmagupta's zero rules, which is LO-2. Not LO-1: zero's membership of the number system is not at issue."
+    },
+    {
+      "sha": "qid:706627",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Why zero mattered -- the place-holder that makes positional notation work, distinguishing 205 from 25. That is 'what the extension through zero made possible', LO-1, rather than a rule for operating with it (LO-2)."
+    },
+    {
+      "sha": "qid:706628",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Shunya as the Sanskrit name for zero: zero's entry into the number system, LO-1. LO-2 is not cited because no rule of operation is stated or applied."
+    },
+    {
+      "sha": "qid:706629",
+      "codes": ["C-1.1-LO-3"],
+      "note": "How many rationals lie between two distinct rationals -- the density statement of LO-3 in its bare form."
+    },
+    {
+      "sha": "qid:706630",
+      "codes": ["C-1.1-LO-3"],
+      "note": "Produces three rationals between 1/2 and 3/4 by rewriting over a common denominator of 16. LO-3's production task, repeated."
+    },
+    {
+      "sha": "qid:706631",
+      "codes": ["C-1.1-LO-3", "C-1.1-LO-1"],
+      "note": "Density is the premise (LO-3) and the resolution is that the rationals still leave the gaps that the reals fill (LO-1's final extension). The item needs both halves, which is why it is worth five marks."
+    },
+    {
+      "sha": "qid:706632",
+      "codes": ["C-1.1-LO-3"],
+      "note": "Two rationals between 0.2 and 0.3, found by extending the decimal places. Same LO-3 production task, in decimal rather than fractional dress."
+    },
+    {
+      "sha": "qid:706633",
+      "codes": ["CG-2"],
+      "note": "Goal-level on purpose: the item asks only what a proof by contradiction STARTS from, with no number and no theorem attached. C-2.1-LO-3 would report that the root-2 theorem was assessed, which it was not; CG-2's 'builds deductive logic' is what is actually being probed."
+    },
+    {
+      "sha": "qid:706634",
+      "codes": ["CG-2"],
+      "note": "Goal-level for the same reason as qid:706633: the structure of contradiction proof in general, and why a derived impossibility settles the original claim. No specific theorem is proved, so LO-3 would overstate it."
+    },
+    {
+      "sha": "qid:706635",
+      "codes": ["C-2.1-LO-3"],
+      "note": "The root-2 irrationality proof by contradiction, in full, with the lowest-terms assumption and the even-even contradiction. LO-3 verbatim -- cited here where the generic method items above were not."
+    },
+    {
+      "sha": "qid:706636",
+      "codes": ["C-1.1-LO-1"],
+      "note": "One-to-one correspondence is presented as how counting works before number names exist, i.e. the foundation of the counting numbers that LO-1 starts from. No other outcome touches counting."
+    },
+    {
+      "sha": "qid:706637",
+      "codes": ["C-1.1-LO-5"],
+      "note": "The cyclic number 142857 comes from the expansion of one seventh, which LO-5 names explicitly ('including the cyclic pattern of one-seventh')."
+    },
+    {
+      "sha": "qid:706638",
+      "codes": ["C-1.1-LO-2"],
+      "note": "Sign rules for multiplication and division with worked examples -- Brahmagupta's rules for negative numbers applied to integer arithmetic, LO-2."
+    },
+    {
+      "sha": "qid:706639",
+      "codes": ["C-1.1-LO-5"],
+      "note": "0.666... to 2/3 by the 10x-minus-x subtraction, with the method shown. LO-5's conversion outcome, one repeating digit."
+    },
+    {
+      "sha": "qid:706640",
+      "codes": ["C-1.1-LO-5"],
+      "note": "0.272727... to 3/11, where the point is that the power of ten must match the two-digit block. Still LO-5, but the block-length reasoning is what differs from qid:706639."
+    },
+    {
+      "sha": "qid:706641",
+      "codes": ["C-1.1-LO-5"],
+      "note": "The general method plus the mixed case 0.1232323..., needing two different powers of ten. The hardest form of LO-5's conversion."
+    },
+    {
+      "sha": "qid:706642",
+      "codes": ["C-1.1-LO-5"],
+      "note": "Decimal to fraction in lowest terms, cited to LO-5 as this frame's decimal-to-p/q outcome. Noted that 0.4 terminates, so no repeating block is involved; LO-4 is not cited because no classification is requested."
+    },
+    {
+      "sha": "qid:706643",
+      "codes": ["C-2.1-LO-4"],
+      "note": "The unit-square diagonal transferred by compass to the number line, and what that shows -- LO-4's 'explains why the construction places the irrational number exactly'."
+    },
+    {
+      "sha": "qid:706644",
+      "codes": ["C-2.1-LO-3", "C-2.1-LO-4"],
+      "note": "Legs 1 and 2 give root 5 (the LO-4 construction of an irrational length), and the second half asks whether it is rational, answered by extending the contradiction argument to root 5 (LO-3)."
+    },
+    {
+      "sha": "qid:706645",
+      "codes": ["C-2.1-LO-4"],
+      "note": "A pure construction-and-draw task: perpendicular of one unit at the point 1, arc back to the line. LO-4's construction clause; no irrationality proof is asked for, so not LO-3."
+    },
+    {
+      "sha": "qid:706646",
+      "codes": ["C-2.1-LO-5"],
+      "note": "Madhava's infinite series for pi and the limits of what it can deliver. LO-5 is the only outcome naming Madhava, and the 'no fraction can give it' point is its second clause."
+    }
+  ]
+}

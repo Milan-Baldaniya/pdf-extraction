@@ -1,0 +1,305 @@
+{
+  "chapter_id": 8596,
+  "mappings": [
+    {
+      "sha": "3381ef7d37ace251",
+      "codes": ["C-1.1-LO-2"],
+      "note": "The misconception is that a smaller absolute value makes a negative number smaller; the fix is where -3/4 sits relative to -0.6 on the line. LO-2 is the only outcome that owns negative numbers. Not LO-3: density is not in question, the four numbers are given."
+    },
+    {
+      "sha": "490171f053a929fd",
+      "codes": ["C-1.1-LO-3"],
+      "note": "The flaw is believing the midpoint is the only number between 2 and 3; the correction is that infinitely many rationals lie between them -- density, LO-3."
+    },
+    {
+      "sha": "5b8aa587c3bf3548",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Closure of the naturals under subtraction, settled by the counterexample 3-5. That is LO-1's 'states what each extension made possible' -- the integers exist because subtraction fails in N."
+    },
+    {
+      "sha": "d09b12d11ff1879b",
+      "codes": ["C-2.1-LO-3"],
+      "note": "Picks x with x squared = 5, i.e. root 5, because 5 is not a perfect square. That is LO-3's 'extends the argument to other square roots'; the other options are perfect squares or exact decimals."
+    },
+    {
+      "sha": "cbc3f057b7495aa4",
+      "codes": ["C-1.1-LO-4"],
+      "note": "Decides that 11/16 terminates -- classifying by the kind of decimal expansion, LO-4. No conversion back to p/q is asked, so not LO-5."
+    },
+    {
+      "sha": "5d73ccc987f7fcaa",
+      "codes": ["C-1.1-LO-3"],
+      "note": "Selects a rational lying between 2/5 and 3/5 -- LO-3's 'producing a rational number between any two given rationals'. The distractors are outside the interval, so the test is placement, not decimal type."
+    },
+    {
+      "sha": "903376e32c69e89d",
+      "codes": ["C-2.1-LO-3"],
+      "note": "Asks which construction is guaranteed irrational GIVEN only that 2 and 3 are not perfect squares, so the reasoning wanted is the square-root-of-a-non-square argument of LO-3, not a decimal-expansion check (LO-4)."
+    },
+    {
+      "sha": "8443ca8e920db3ad",
+      "codes": ["C-1.1-LO-5"],
+      "note": "Converts the repeating decimal 0.18-recurring to 2/11 -- LO-5 exactly. LO-4 would only ask whether it is rational, which is not the question."
+    },
+    {
+      "sha": "b0624738aac52718",
+      "codes": ["C-1.1-LO-4"],
+      "note": "Decides rationality from the expansion alone ('the digits repeat in a fixed pattern'), and explicitly refuses to convert to a fraction -- so LO-4 and deliberately not LO-5."
+    },
+    {
+      "sha": "f7835eb2a25db90c",
+      "codes": ["C-1.1-LO-2"],
+      "note": "Signed arithmetic on a directed scale: 2 - (-6) = 8. LO-2's 'applies them to integer arithmetic'. No classification or density is involved."
+    },
+    {
+      "sha": "de20117a4d4bb090",
+      "codes": ["C-1.1-LO-4"],
+      "note": "Four infinite decimals, and the odd one out is the one with a repeating block (hence rational). Separating repeating from non-terminating non-repeating is LO-4's defining task."
+    },
+    {
+      "sha": "f220a568eed35e87",
+      "codes": ["C-2.1-LO-4"],
+      "note": "Placing root 2 on the number line, with the defensible reasoning being that it lies between 1.4 and 1.5. LO-4 owns root 2 on the number line; LO-3 would be the code if irrationality itself had to be proved."
+    },
+    {
+      "sha": "3bddfcba01f2cd88",
+      "codes": ["C-1.1-LO-5"],
+      "note": "0.5-recurring to 5/9: a single-digit repeating block converted to p/q, LO-5."
+    },
+    {
+      "sha": "86f211a22e3e4e1d",
+      "codes": ["C-1.1-LO-4"],
+      "note": "Needs a rational whose expansion does NOT terminate (2/3) to refute an over-generalisation. That is the terminating-versus-repeating separation of LO-4."
+    },
+    {
+      "sha": "2eb630c875c2afa4",
+      "codes": ["C-1.1-LO-3"],
+      "note": "Four claims about how many rationals lie between 2/5 and 3/5; the defensible one is 'infinitely many'. Density, LO-3, not the single-number production of the earlier item -- but the same outcome."
+    },
+    {
+      "sha": "1e4b373abc04bcb2",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Whether counting can start at 0, i.e. where the natural numbers begin and where zero sits. LO-1 traces the system 'from counting numbers through zero'. Not LO-2, which is about operating with zero, not about its membership."
+    },
+    {
+      "sha": "c000fb04d28d8292",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Identifies 4-9=-5 as the case where subtraction leaves the naturals -- the failure that motivates the extension to the integers, LO-1."
+    },
+    {
+      "sha": "3e156c0e5441aa55",
+      "codes": ["C-1.1-LO-2"],
+      "note": "x+0=x and x*0=0 are precisely Brahmagupta's rules for operating with zero, which is LO-2. LO-1 would apply only if the question were about zero joining the number system."
+    },
+    {
+      "sha": "9a5a4fc2a783ea12",
+      "codes": ["C-1.1-LO-2"],
+      "note": "Closure of the rationals under division fails only because of division by zero; both statements turn on the zero rules, LO-2."
+    },
+    {
+      "sha": "c35775361679b1d7",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Zero is an integer but not a natural number, justified by where each family begins -- the nesting and growth of the number system, LO-1."
+    },
+    {
+      "sha": "3cb97bcc91f65e13",
+      "codes": ["C-1.1-LO-2"],
+      "note": "Lift from floor -2 to floor 5: 5-(-2)=7 refutes the claimed 8. Subtracting a negative is the integer-arithmetic clause of LO-2."
+    },
+    {
+      "sha": "b63f7d19547848d2",
+      "codes": ["C-1.1-LO-2"],
+      "note": "Earnings and losses as signed integers summing to zero, with the zero balance to be interpreted. LO-2 covers both the negative arithmetic and the meaning of the zero result."
+    },
+    {
+      "sha": "437b7c0700eb6700",
+      "codes": ["C-1.1-LO-2"],
+      "note": "Contrasts 35+0=35 with 35x0=0 -- the additive identity against the annihilating property, which is LO-2's statement of the rules for operating with zero."
+    },
+    {
+      "sha": "d2b3bcdc520497e5",
+      "codes": ["C-1.1-LO-5"],
+      "note": "Decimal-to-fraction conversion, which in this frame is LO-5's outcome. Noted that 0.125 terminates, so the repeating-block subtraction is not needed; LO-4 is not cited because no classification is asked for."
+    },
+    {
+      "sha": "3824589824156985",
+      "codes": ["C-2.1-LO-4"],
+      "note": "The unit right triangle giving a hypotenuse of root 2 is the construction LO-4 names, and the question asks explicitly how that result connects to irrational numbers. Not LO-3: no contradiction proof is required."
+    },
+    {
+      "sha": "23a81b59d19896ce",
+      "codes": ["C-1.1-LO-2"],
+      "note": "Distance and displacement between -3, 5 and 1 are computed with signed subtraction. The distance/displacement distinction rides on the integer arithmetic of LO-2."
+    },
+    {
+      "sha": "5e5e16f0370560b8",
+      "codes": ["C-1.1"],
+      "note": "Competency: subtracting 2/5 from 9/10 and reducing to lowest terms is arithmetic on rationals, and none of this chapter's eight outcomes covers operations on fractions -- they cover classification, density, conversion, zero/negatives and square roots. A genuine gap in the frame."
+    },
+    {
+      "sha": "9bb77e86b7452cb9",
+      "codes": ["C-1.1-LO-4"],
+      "note": "Prime-factorises 40 as 2^3 x 5 to decide that 7/40 terminates -- the terminating/non-terminating separation of LO-4, with the 2s-and-5s criterion as the method."
+    },
+    {
+      "sha": "1ef9340c84ebab01",
+      "codes": ["C-1.1-LO-5"],
+      "note": "A MIXED recurring decimal converted by the 100x-minus-10x subtraction: LO-5's conversion outcome in its harder form, where the non-repeating digit must be shifted past first."
+    },
+    {
+      "sha": "f1ab72e9fcde7a92",
+      "codes": ["C-1.1-LO-4"],
+      "note": "The claim to be refuted is that the value is irrational; the work classifies the result 4/5 as rational. Cited to LO-4 as the classification outcome, although here the evidence is the p/q form rather than the decimal expansion."
+    },
+    {
+      "sha": "224d02a4b9f1ec6f",
+      "codes": ["C-2.1-LO-3"],
+      "note": "root 49 against root 10: the discriminator is whether the radicand is a perfect square, which is LO-3's extension of the root-2 argument. LO-4 would need decimal expansions, which the model answer never uses."
+    },
+    {
+      "sha": "204f7adbfd3f6175",
+      "codes": ["C-2.1-LO-4", "C-2.1-LO-3"],
+      "note": "Diagonal of a 5 m square is root 50 = 5 root 2; part (d) asks how to represent it on the number line (LO-4) and part (c) why it is irrational (LO-3). Both are separately marked."
+    },
+    {
+      "sha": "e46b64fa587e289e",
+      "codes": ["C-1.1-LO-4", "C-1.1-LO-1"],
+      "note": "Sorts 3/4, root 2, 0.666... and -5 by decimal behaviour (LO-4) and by family -- integer, rational, irrational (LO-1). Not LO-3 or LO-5: nothing is placed between two numbers and nothing is converted."
+    },
+    {
+      "sha": "0baedf7374b17010",
+      "codes": ["C-1.1-LO-2"],
+      "note": "Four legs of a journey on a signed number line, requiring absolute differences for distance and a single signed subtraction for displacement -- integer arithmetic, LO-2."
+    },
+    {
+      "sha": "43b7dc7b1d04d370",
+      "codes": ["C-2.1-LO-3", "C-1.1-LO-4"],
+      "note": "Parts (a)-(d) rest on perfect square versus non-perfect square for root 5, root 25, root 3, root 36 (LO-3); part (e) asks specifically which have non-terminating non-repeating expansions, which is LO-4."
+    },
+    {
+      "sha": "ffac4b96ae47e5b1",
+      "codes": ["C-2.1-LO-3", "C-1.1-LO-4"],
+      "note": "Diagonal root 8 = 2 root 2 shown irrational because 2 is not a perfect square (LO-3); the OR branch asks for the expansion to three places and its type, which is LO-4."
+    },
+    {
+      "sha": "16ad4bbc7bb2a0ef",
+      "codes": ["C-1.1-LO-1", "C-1.1-LO-4"],
+      "note": "Parts (iii) and (iv) test family membership and the nesting statement 'some rationals are integers' (LO-1); part (ii) tests that 0.75 terminates (LO-4). Part (i) on root 5 is incidental to those two."
+    },
+    {
+      "sha": "032be9ded93c3c5d",
+      "codes": ["C-1.1-LO-2", "C-1.1-LO-4"],
+      "note": "Part (a) is the signed subtraction 5/2 - (-3) and the OR branch compares positions about zero on the line (LO-2); part (c) classifies 2.5 as terminating (LO-4)."
+    },
+    {
+      "sha": "qid:706597",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Where the counting numbers start. LO-1 owns the naturals as the base of the system; LO-2 would require an operation with zero or a negative."
+    },
+    {
+      "sha": "qid:706598",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Definition of the natural numbers, including the explicit exclusion of zero and the negatives -- the first stage of LO-1's trace."
+    },
+    {
+      "sha": "qid:706599",
+      "codes": ["C-1.1-LO-1"],
+      "note": "True/false on zero's membership of N: a boundary question between the first two stages of LO-1's sequence, not a rule of operation (LO-2)."
+    },
+    {
+      "sha": "qid:706600",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Requires a number inside Z but outside N, so it tests the nesting of the families -- LO-1."
+    },
+    {
+      "sha": "qid:706601",
+      "codes": ["C-1.1-LO-1"],
+      "note": "LO-1 restated as a question: trace N to Z to Q and say what each extension makes possible (subtraction, then division). The closest match in the whole frame."
+    },
+    {
+      "sha": "qid:706602",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Gap-fill naming the integers as N plus zero plus the negatives -- the second step of LO-1's trace."
+    },
+    {
+      "sha": "qid:706603",
+      "codes": ["C-1.1-LO-1"],
+      "note": "The p-over-q characterisation of a rational number, i.e. what the extension to Q consists of. LO-4 is not cited because the question never mentions a decimal expansion."
+    },
+    {
+      "sha": "qid:706604",
+      "codes": ["C-1.1-LO-3"],
+      "note": "Produce one rational between 1/4 and 1/3, by averaging. That is LO-3 word for word."
+    },
+    {
+      "sha": "qid:706605",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Every integer is rational because n = n/1: a containment statement about Z inside Q, which is LO-1's nesting clause."
+    },
+    {
+      "sha": "qid:706606",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Whole numbers sit inside the rationals -- the same nesting point as qid:706605, tested as a true/false."
+    },
+    {
+      "sha": "qid:706607",
+      "codes": ["C-1.1-LO-4"],
+      "note": "Selecting the irrational member of a list is the rational/irrational classification of LO-4. C-2.1-LO-3 would be right only if the irrationality had to be argued rather than recognised."
+    },
+    {
+      "sha": "qid:706608",
+      "codes": ["C-1.1"],
+      "note": "Competency: closure behaviour of rational-plus-irrational. This chapter has no outcome about operations combining rationals and irrationals -- LO-4 classifies a given number, it does not predict the class of a sum -- so the competency's 'real numbers and its properties' is the honest citation."
+    },
+    {
+      "sha": "qid:706609",
+      "codes": ["C-1.1"],
+      "note": "Competency, same gap as qid:706608: root 2 times root 2 being 2 is about how irrationality behaves under multiplication, which no LO in this frame states."
+    },
+    {
+      "sha": "qid:706610",
+      "codes": ["C-2.1-LO-3"],
+      "note": "The assertion over-extends 'root 2 is irrational' to every natural number, which perfect squares refute. LO-3's 'extends the argument to other square roots' is exactly the reasoning being tested, and its limit."
+    },
+    {
+      "sha": "qid:706611",
+      "codes": ["C-2.1-LO-5"],
+      "note": "22/7 is not pi. LO-5 is the outcome that frames pi as 'a number no fraction can give', so the fraction-versus-pi distinction belongs there rather than with the root-2 proof of LO-3."
+    },
+    {
+      "sha": "qid:706612",
+      "codes": ["C-1.1"],
+      "note": "Competency: the sum of two irrationals, false because root 2 plus (-root 2) is 0. Same frame gap as qid:706608 and qid:706609 -- no outcome covers operations on irrationals."
+    },
+    {
+      "sha": "qid:706613",
+      "codes": ["C-2.1-LO-3"],
+      "note": "Asks how we KNOW irrationals exist, and the model answer is the p/q contradiction proof for root 2 in full. That is LO-3, not LO-4's expansion-based classification."
+    },
+    {
+      "sha": "qid:706614",
+      "codes": ["C-1.1-LO-1"],
+      "note": "What the reals are made of -- the final stage of LO-1's trace from the counting numbers to R."
+    },
+    {
+      "sha": "qid:706615",
+      "codes": ["C-1.1-LO-1"],
+      "note": "The rationals leave gaps on the line and only R fills it: this is what the extension to the reals made possible, LO-1. LO-3 is about density, which the answer explicitly says is not enough."
+    },
+    {
+      "sha": "qid:706616",
+      "codes": ["C-1.1-LO-3"],
+      "note": "Density between any two reals. Cited to LO-3 as the chapter's density outcome, with the note that LO-3 is worded for the rationals while this item asserts it for the irrationals -- the nearest available code."
+    },
+    {
+      "sha": "qid:706617",
+      "codes": ["C-1.1-LO-1"],
+      "note": "Rationals together with irrationals make the reals: the composition of R, LO-1's last step."
+    },
+    {
+      "sha": "qid:706618",
+      "codes": ["C-1.1-LO-1", "C-1.1-LO-4"],
+      "note": "A five-mark synthesis: the nesting of N, W, Z, Q, R (LO-1) plus what distinguishes rationals from irrationals, which the model answer settles on decimal behaviour (LO-4)."
+    }
+  ]
+}

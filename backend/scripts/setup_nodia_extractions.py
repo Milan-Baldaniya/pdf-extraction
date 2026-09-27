@@ -56,6 +56,14 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--book", choices=sorted(BOOKS), required=True)
     ap.add_argument("--apply", action="store_true")
+    # A TOP-UP IS NOT A FRESH LOAD. Where a book covers chapters the bank
+    # already holds from another source, a row per chapter leaves the ones
+    # nobody will load sitting in document_extractions with status
+    # 'extracted' and no questions under them -- indistinguishable, later,
+    # from a load that failed. Naming the chapters to be filled keeps the
+    # rows and the questions in step, and makes it structurally impossible
+    # for the shaper to write a file for a chapter that was not asked for.
+    ap.add_argument("--only", help="comma-separated printed chapter numbers")
     a = ap.parse_args()
     cfg = BOOKS[a.book]
     src = MIRROR / cfg["file"]
@@ -122,7 +130,13 @@ def main() -> int:
         print(f"  {'pt':>2} {'ch':>3} {'cid':>7}  {'chapter':<48} action")
         print("  " + "-" * 86)
         made = 0
+        only = ({int(x) for x in a.only.split(",") if x.strip()}
+                if a.only else None)
         for part, so, name, lo, hi in cfg["chapters"]:
+            if only is not None and so not in only:
+                print(f"  {part:>2} {so:>3} {'-':>7}  {name[:48]:<48} "
+                      f"not asked for")
+                continue
             entry = by_part.get(part, {}).get(so)
             if not entry:
                 print(f"  {part:>2} {so:>3} {'-':>7}  {name[:48]:<48} NO CHAPTER ROW")

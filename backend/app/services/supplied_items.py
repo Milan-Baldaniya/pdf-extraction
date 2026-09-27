@@ -216,7 +216,16 @@ def persist_supplied(
         record = db.execute(
             text(
                 """
-                SELECT id, document_tittle, chapter_number, standard_id, subject_id,
+                -- `standard` and `subject_name` are here only for
+                -- render_attribution, which formats "{publisher} — {title},
+                -- Class {standard} {subject}, {syear}". They were missing, and
+                -- because that function fills an absent key with "" rather
+                -- than raising, every attribution line written through this
+                -- path came out as "... , Class , 2026" -- silently dropping
+                -- the class and the subject from the source line that a
+                -- licence condition requires.
+                SELECT id, document_tittle, chapter_number, standard, standard_id,
+                       subject_name, subject_id,
                        chapter_id, sub_institute_id, board, syear, asset_manifest,
                        publisher_id
                   FROM document_extractions WHERE id = :i

@@ -1,0 +1,135 @@
+{
+  "chapter_id": 38387,
+  "mappings": [
+    {
+      "sha": "8841f88a855a6934",
+      "codes": ["C-8.1"],
+      "note": "Which axis carries the class intervals of a histogram - a fact about the graphical representation itself. C-6.1 rejected: no mean, median or mode is touched. Cited at competency level because this chapter's frame carries no learning outcomes at all (only C-6.1 and C-8.1)."
+    },
+    {
+      "sha": "79d85adb6513bcaf",
+      "codes": ["C-8.1"],
+      "note": "Recovers the lower class limit from the mid point and the upper limit (2m - l): the arithmetic of a grouped frequency table. C-6.1 rejected - the 'mid point' here is a class mark, not a median of data."
+    },
+    {
+      "sha": "490961ee15c33ae6",
+      "codes": ["C-8.1"],
+      "note": "Which abscissae a frequency polygon is plotted against (class marks). Purely about constructing the representation, so C-6.1 does not apply."
+    },
+    {
+      "sha": "5ba8d1a7c0e5b0cc",
+      "codes": ["C-6.1"],
+      "note": "Mean of five observations, then the mean of the last three: applying the mean. C-8.1 rejected - no table or graph is built, the data is given as a list."
+    },
+    {
+      "sha": "fd9e5d8f2a968d10",
+      "codes": ["C-6.1"],
+      "note": "Mode of a list, and the reason clause misdefines mode using the median's definition, so the item turns on telling the two measures apart. Squarely C-6.1, not C-8.1."
+    },
+    {
+      "sha": "9b1b97daeea45883",
+      "codes": ["C-8.1"],
+      "note": "Which axis a bar graph's frequency may be plotted on - a property of the representation. C-6.1 rejected: no central tendency."
+    },
+    {
+      "sha": "149e1dcd592a65c7",
+      "codes": ["C-8.1"],
+      "note": "Histogram with unequal class intervals and the adjusted-frequency formula: how to draw the representation honestly. Nothing about mean, median or mode, so not C-6.1."
+    },
+    {
+      "sha": "1c8e3cc9a06b029a",
+      "codes": ["C-8.1"],
+      "note": "Whether a frequency polygon can be drawn for discontinuous data - a construction question about the graph. C-6.1 rejected."
+    },
+    {
+      "sha": "d28be3a3b831b367",
+      "codes": ["C-8.1"],
+      "note": "Class mark of 20-30. C-6.1 rejected even though the reason clause says 'mean of upper limit and lower limit': that is the midpoint of an interval, not a measure of central tendency of the data."
+    },
+    {
+      "sha": "8b2c2730b65186f7",
+      "codes": ["C-8.1"],
+      "note": "Definitions of range and of frequency - the vocabulary of building a grouped frequency table. C-6.1 rejected because range measures spread, not centre; CG-6 rejected as a coarser restatement of the same when a competency fits."
+    },
+    {
+      "sha": "6ffdfb792c928c4f",
+      "codes": ["C-8.1"],
+      "note": "Bar-graph scale: 5 cm represents 40 units, so what height shows 56. Reading and using the scale of a representation. Not C-6.1."
+    },
+    {
+      "sha": "436fa658fe4a04e2",
+      "codes": ["C-8.1"],
+      "note": "Describe a histogram as a graphical representation of a frequency distribution. C-6.1 rejected. (Defect noted: the stored answer runs on into the next question's stem about bar graph vs histogram; the question itself is intact and mappable.)"
+    },
+    {
+      "sha": "27f59dcb77a113c7",
+      "codes": ["C-8.1"],
+      "note": "Define the class marks of a frequency distribution - table construction, not central tendency, so C-6.1 is rejected."
+    },
+    {
+      "sha": "5e03235242f1ab6f",
+      "codes": ["C-8.1"],
+      "note": "What a kink is and when a graph needs one: a drawing convention for an axis that does not start at zero. Only C-8.1 can carry this."
+    },
+    {
+      "sha": "98e09cd0ee5d4dcb",
+      "codes": ["C-8.1"],
+      "note": "Four real-life situations where data is shown graphically - the clearest C-8.1 item in the chapter ('models daily-life phenomena and uses representations'). Mapped on the stem; the stored answer is the placeholder 'Any related real life situations.'"
+    },
+    {
+      "sha": "80b3a8ae9fd5b30f",
+      "codes": ["C-8.1"],
+      "note": "Name three graphical methods of representing data (bar graph, pie chart, histogram). Representation choice, so C-6.1 is rejected."
+    },
+    {
+      "sha": "96917e1b7bc6712f",
+      "codes": ["C-8.1", "C-6.1"],
+      "note": "Two distinct tasks: (i) build a frequency distribution of the digits of pi -> C-8.1; (ii) name the most and least frequent digit, which is the mode (and its opposite) -> C-6.1. Both cited because the item genuinely does both. (Defect: the stored answer gives only the 'most' half, and no distribution.)"
+    },
+    {
+      "sha": "d7754d6a31336daf",
+      "codes": ["C-6.1"],
+      "note": "Solves for x from a stated median of an even-sized ordered list: applying the median. C-8.1 rejected - the data is already given in order, nothing is tabulated or graphed."
+    },
+    {
+      "sha": "e5284726648df95a",
+      "codes": ["C-6.1"],
+      "note": "Computes all three measures - mean, median and mode - for 15 marks. The definitive C-6.1 item. No representation is built, so not C-8.1."
+    },
+    {
+      "sha": "65f49268df611486",
+      "codes": ["C-6.1"],
+      "note": "Finds x from a stated median of ten ordered observations. Same measure as sha d7754d6a, again C-6.1 and not C-8.1."
+    },
+    {
+      "sha": "5be28fa824a899b9",
+      "codes": ["C-6.1"],
+      "note": "Recovers a middle observation from three means (13, first 7, last 7): reasoning with the mean as a total. C-8.1 rejected. (Defect: the working prints '84x112 =196' where the operation is addition; the final answer 14 is correct.)"
+    },
+    {
+      "sha": "1572a4b5111b3915",
+      "codes": ["C-6.1"],
+      "note": "Combined mean of boys and girls weights, back out the two counts - a weighted-mean argument, so C-6.1. C-8.1 rejected: no table or graph. (Defect: an adjacent table is spliced into the stored answer and the final counts are never stated; the stem carries all the data needed, so the item is still mappable.)"
+    },
+    {
+      "sha": "53776d86f87dfa6b",
+      "codes": ["C-8.1"],
+      "note": "Builds a grouped frequency table with equal class intervals from 28 raw values and reads off one class's frequency. Tabulation, not central tendency, so C-6.1 is rejected."
+    },
+    {
+      "sha": "ed7084d1a41b503c",
+      "codes": ["C-6.1"],
+      "note": "Effect on the mean of adding 5 to every observation - a property of the mean. C-8.1 rejected."
+    },
+    {
+      "sha": "01aa2bd45d2cd767",
+      "codes": ["C-6.1"],
+      "note": "Median of ten unordered values (must be sorted first). C-8.1 rejected: sorting a list is not building a representation."
+    },
+    {
+      "sha": "434915766b1ea46b",
+      "codes": ["C-8.1"],
+      "note": "Class mark of 90-120. The same call as sha d28be3a3: interval arithmetic for a frequency table, so C-8.1 and not C-6.1."
+    }
+  ]
+}

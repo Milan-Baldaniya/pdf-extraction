@@ -81,7 +81,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
   const [chapterNumber, setChapterNumber] = useState("");
   const [standard, setStandard] = useState("10");
   const [subjectName, setSubjectName] = useState("Science");
-  const [board, setBoard] = useState("CAMBRIDGE");
+  const [board, setBoard] = useState("CBSE");
   const [syear, setSyear] = useState("2024");
   const [customSubject, setCustomSubject] = useState("");
   const [customSubjectCode, setCustomSubjectCode] = useState("");
@@ -91,8 +91,8 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
 
   // Subjects Query
   const { data: standardSubjects, refetch: refetchSubjects } = useQuery({
-    queryKey: ["subjects", standard],
-    queryFn: () => fetchSubjectsByStandard(standard),
+    queryKey: ["subjects", standard, board],
+    queryFn: () => fetchSubjectsByStandard(standard, board),
     enabled: !!standard,
   });
 
@@ -205,6 +205,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
         const newSub = await createSubject({
           standard_name: standard,
           subject_name: customSubject.trim(),
+          board,
           subject_code: customSubjectCode.trim() || undefined,
           subject_type: customSubjectType.trim() || undefined,
           short_name: customShortName.trim() || undefined,
@@ -234,6 +235,7 @@ export function ExtractionForm({ onSuccess }: ExtractionFormProps) {
         const newSub = await createSubject({
           standard_name: standard,
           subject_name: customSubject.trim(),
+          board,
           subject_code: customSubjectCode.trim() || undefined,
           subject_type: customSubjectType.trim() || undefined,
           short_name: customShortName.trim() || undefined,

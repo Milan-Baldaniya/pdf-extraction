@@ -22,3 +22,6 @@ __pycache__/
 
 # Batch ingest logs
 backend/logs/
+
+# Uploaded / extracted temp files
+backend/tmp/

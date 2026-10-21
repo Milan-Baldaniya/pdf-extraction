@@ -4,7 +4,7 @@ from pathlib import Path
 import httpx
 
 async def test_extraction():
-    url = "http://localhost:8000/api/extract"
+    url = "http://localhost:8001/api/extract"
     pdf_url = "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
     
     print(f"Testing extraction with {pdf_url}")

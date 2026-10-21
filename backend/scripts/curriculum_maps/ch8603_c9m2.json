@@ -1,0 +1,140 @@
+{
+  "chapter_id": 8603,
+  "mappings": [
+    {
+      "sha": "qid:706870",
+      "codes": ["C-8.1-LO-11"],
+      "note": "False: 1, 4, 9, 16 has ratios 4, 2.25, 1.78, so the constant-ratio test of LO-11 fails. The item exists to make that test be applied rather than assumed."
+    },
+    {
+      "sha": "qid:706871",
+      "codes": ["C-8.1-LO-11"],
+      "note": "Names the common ratio. LO-11 vocabulary, the GP counterpart of the common difference."
+    },
+    {
+      "sha": "qid:706872",
+      "codes": ["C-11.1-LO-1"],
+      "note": "The formula n(n+1)/2 for the sum of the first n natural numbers -- C-11.1-LO-1 exactly. Not the general AP sum, which this chapter leaves to the competency."
+    },
+    {
+      "sha": "qid:706873",
+      "codes": ["C-11.1-LO-1"],
+      "note": "Applies the formula to n=50 and explains the pairing argument behind it. LO-1's 'derives the sum of the first n natural numbers'."
+    },
+    {
+      "sha": "qid:706874",
+      "codes": ["C-11.1-LO-1"],
+      "note": "Why n(n+1)/2 is always an integer: one of two consecutive numbers is even. A property of the LO-1 formula rather than of progressions generally."
+    },
+    {
+      "sha": "qid:706875",
+      "codes": ["C-11.1-LO-1"],
+      "note": "The 1-to-100 case, worked both by formula and by pairing. Same LO-1 outcome as qid:706873 with a different n."
+    },
+    {
+      "sha": "qid:706876",
+      "codes": ["C-11.1-LO-1"],
+      "note": "The full reverse-and-add proof of n(n+1)/2. LO-1's derivation clause, at five marks."
+    },
+    {
+      "sha": "qid:706877",
+      "codes": ["C-11.1-LO-1"],
+      "note": "The sum of two consecutive triangular numbers is a perfect square -- a property of the triangular numbers, which LO-1 ties to the sum of the first n naturals."
+    },
+    {
+      "sha": "qid:706878",
+      "codes": ["C-11.1-LO-1"],
+      "note": "Lists 1, 3, 6, 10, 15 and identifies each as a running total of the naturals. LO-1's 'relates the result to the triangular numbers'."
+    },
+    {
+      "sha": "qid:706879",
+      "codes": ["C-11.1-LO-1"],
+      "note": "Proves algebraically what qid:706877 states, using T(n) = n(n+1)/2 twice. LO-1, with the formula supplied by the same outcome it is used to extend."
+    },
+    {
+      "sha": "qid:706880",
+      "codes": ["C-11.1-LO-1"],
+      "note": "The fourth triangular number is 10. LO-1's triangular-number clause, as a gap-fill."
+    },
+    {
+      "sha": "qid:706881",
+      "codes": ["C-11.1-LO-1"],
+      "note": "Dot patterns plus the two-copies-make-a-rectangle argument. That is the visual derivation of n(n+1)/2 that LO-1 names."
+    },
+    {
+      "sha": "qid:706882",
+      "codes": ["C-8.1-LO-9"],
+      "note": "Each term is the sum of the two before it -- the recursion itself, which LO-9 names for the Virahanka-Fibonacci sequence. No cultural context is asked for, so not C-11.1-LO-2."
+    },
+    {
+      "sha": "qid:706883",
+      "codes": ["C-11.1-LO-2", "C-8.1-LO-9"],
+      "note": "The answer is explicitly about Virahanka counting rhythms of Sanskrit metre, which is C-11.1-LO-2; the recursion that makes it work is LO-9. Both halves carry the three marks."
+    },
+    {
+      "sha": "qid:706884",
+      "codes": ["C-11.1-LO-3"],
+      "note": "What makes a figure a fractal: the same rule repeated at every scale, i.e. self-similarity. C-11.1-LO-3 is the only outcome in this frame that deals with figures 'built by repeating one rule', and self-similarity is that principle stated generally."
+    },
+    {
+      "sha": "qid:706885",
+      "codes": ["C-11.1-LO-3"],
+      "note": "Contrasts a fractal with an ordinary figure, which stops having structure when magnified. Cited to LO-3 for the same reason as qid:706884 -- it is the chapter's only fractal outcome, and the repeated rule is its mechanism."
+    },
+    {
+      "sha": "qid:706886",
+      "codes": ["C-11.1-LO-3"],
+      "note": "LO-3 in full: the construction by removing middle triangles, and then the progressions in the count and in the area. The perimeter discussion is the same outcome pushed one step further."
+    },
+    {
+      "sha": "qid:706887",
+      "codes": ["C-8.1-LO-8"],
+      "note": "What an explicit formula gives -- any term straight from its position. LO-8's definition; the contrast with a recursive rule is not drawn here, so not LO-9."
+    },
+    {
+      "sha": "qid:706888",
+      "codes": ["C-8.1-LO-8", "C-8.1-LO-10"],
+      "note": "Derives 4n+1 from the constant difference 4 (LO-10) and then uses it to jump straight to the 20th term (LO-8). The item asks for the formula first, which is why LO-8 leads."
+    },
+    {
+      "sha": "qid:706889",
+      "codes": ["C-8.1-LO-9", "C-8.1-LO-8"],
+      "note": "The recursive-versus-explicit contrast, which needs both outcomes: LO-9 defines the recursive form and LO-8 the explicit one. Neither alone describes what is assessed."
+    },
+    {
+      "sha": "qid:706890",
+      "codes": ["C-8.1-LO-9", "C-8.1-LO-8", "C-8.1-LO-11"],
+      "note": "Both forms are written for 3, 6, 12, 24 -- the recursion (LO-9) and 3 times 2^(n-1) (LO-8) -- and getting there requires recognising the common ratio 2 (LO-11). The judgement about when each form is useful rests on all three."
+    },
+    {
+      "sha": "qid:706891",
+      "codes": ["C-8.1-LO-9"],
+      "note": "The assertion is false because a recursion needs its initial terms: exactly the point LO-9 makes in generating Virahanka-Fibonacci from a recursion plus two seeds."
+    },
+    {
+      "sha": "qid:706892",
+      "codes": ["C-8.1-LO-11"],
+      "note": "Fifth term of the GP 2, 6, 18 from a times r^(n-1). LO-11's nth-term formula, applied directly."
+    },
+    {
+      "sha": "qid:706893",
+      "codes": ["C-8.1-LO-11"],
+      "note": "Doubling bacteria modelled as a GP, evaluated at h=8 and then inverted to find when the count first exceeds 100000. LO-11's formula used forwards and backwards; the growth is multiplicative, so LO-10 does not apply."
+    },
+    {
+      "sha": "qid:706894",
+      "codes": ["C-11.1-LO-3"],
+      "note": "The count of shaded triangles after three stages is 3^3 -- LO-3's 'geometric progression in the number of its parts', with the number rather than the area."
+    },
+    {
+      "sha": "qid:706895",
+      "codes": ["C-11.1-LO-3"],
+      "note": "The shaded area shrinks by a factor of 3/4 each stage and so tends to zero. LO-3's area progression, the counterpart of qid:706894's count."
+    },
+    {
+      "sha": "qid:706896",
+      "codes": ["C-11.1-LO-3"],
+      "note": "Draws the first three stages and tabulates both the count and the area at each, so it exercises both progressions LO-3 names in a single construction."
+    }
+  ]
+}

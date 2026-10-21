@@ -1,0 +1,52 @@
+{
+  "subject_id": 3976,
+  "subject": "Mathematics",
+  "standard_id": 42,
+  "sub_institute_id": 1,
+  "syear": 2026,
+  "note": "Six NCERT Ganita Prakash sections carry no concept at all - a genuine extraction gap, not a mapping error, and the last thing rendering '0 concepts' in the chapter tree. These are authored to match the section they belong to. review_status is 'authored' rather than 'legacy' so they can be told apart from the extracted set later.",
+  "concepts": [
+    {
+      "topic_id": 23892,
+      "chapter_id": 8594,
+      "name": "Locating a Point with References",
+      "description": "Any position can be pinned down by stating how far it lies from agreed reference lines. This is the everyday idea - a seat in a hall, a house on a street - that the Cartesian system later makes precise.",
+      "minutes": 20
+    },
+    {
+      "topic_id": 23893,
+      "chapter_id": 8594,
+      "name": "Row and Column Addressing",
+      "description": "Describing a position as a pair, such as the third seat in the fifth row, using two independent counts. It shows why an ordered pair is needed and why the order of the two numbers matters.",
+      "minutes": 25
+    },
+    {
+      "topic_id": 23913,
+      "chapter_id": 8597,
+      "name": "Factorisation by Splitting the Middle Term",
+      "description": "Factorising a quadratic such as x^2 + bx + c by writing b as a sum of two numbers whose product is c, then grouping. The algebraic counterpart of the tile arrangement, usable when the numbers are too large to model with tiles.",
+      "minutes": 35
+    },
+    {
+      "topic_id": 23928,
+      "chapter_id": 8601,
+      "name": "Same Perimeter, Different Area",
+      "description": "Two shapes with equal perimeters need not enclose equal areas; among rectangles of a fixed perimeter the square encloses the most. The result behind the perimeter puzzles and paradoxes in this section.",
+      "minutes": 30
+    },
+    {
+      "topic_id": 23929,
+      "chapter_id": 8601,
+      "name": "Area of a Rectangle",
+      "description": "The area of a rectangle is its length times its breadth, counting unit squares that tile it exactly. This is the base result from which the areas of the parallelogram, triangle and circle are each derived.",
+      "minutes": 25
+    },
+    {
+      "topic_id": 23930,
+      "chapter_id": 8601,
+      "name": "Area of a Parallelogram",
+      "description": "A parallelogram has the same area as a rectangle on the same base and of the same height, seen by cutting a right triangle from one end and sliding it to the other. Hence area equals base times height, where height is the perpendicular distance, not the slanted side.",
+      "minutes": 30
+    }
+  ]
+}

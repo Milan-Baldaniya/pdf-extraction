@@ -563,6 +563,24 @@ _DISCRIMINATOR_WORDS = {
 }
 
 
+def name_containment(candidate: str, existing: str) -> float:
+    """How much of the shorter name's subject the longer one already contains.
+
+    The raw measure behind is_duplicate_name, exposed because the confidence
+    scorer needs the degree of overlap rather than the yes/no: a concept that
+    only just survived the dedupe should score lower than one nothing resembles,
+    and a threshold cannot say that.
+
+    Scaffolding words are ignored and discriminators are not applied here -- a
+    caller wanting the duplicate verdict should ask is_duplicate_name.
+    """
+    a, b = _subject_tokens(candidate), _subject_tokens(existing)
+    if not a or not b:
+        return 0.0
+    short, long_ = (a, b) if len(a) <= len(b) else (b, a)
+    return len(short & long_) / len(short)
+
+
 def is_duplicate_name(candidate: str, existing: str) -> bool:
     a, b = _subject_tokens(candidate), _subject_tokens(existing)
     if not a or not b:
@@ -614,6 +632,31 @@ def dedupe_by_name(
             dropped -= 1
         group[items_key] = kept
     return dropped
+
+
+def stems(value: str) -> set[str]:
+    """Token set reduced for comparison.
+
+    Folding plurals means "simplifying fractions" matches a chapter that says
+    "simplify" and "fraction". Lives here rather than in validation_service
+    because the budget, the confidence scorer and the audit all measure names
+    against text the same way, and they must agree on what "the same word" is.
+    """
+    return {singular(t) for t in tokens(value)}
+
+
+def coverage(name: str, haystack_stems: set[str]) -> float:
+    """Fraction of a name's content words present in some body of text.
+
+    Deliberately not symmetric: it asks whether the TEXT supports the NAME, not
+    whether the two are alike. A section about integers supports "Adding
+    integers with different signs" even though the section says a great deal
+    this name does not.
+    """
+    want = stems(name)
+    if not want:
+        return 0.0
+    return len(want & haystack_stems) / len(want)
 
 
 def score_section(section: Dict[str, Any], target_tokens: set[str]) -> float:

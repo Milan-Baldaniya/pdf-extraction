@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8605,
+ "mappings": [
+  {
+   "sha": "f65a968525b61f4c",
+   "codes": ["LO-62"],
+   "note": "Asks for the force inventory on the barbell (Earth's pull down, hands' push up) and whether they balance while it is held steady - LO-62's 'identify situations in which balanced forces are acting'. Not LO-64: nothing here changes velocity, so no net-force-from-motion inference is required."
+  },
+  {
+   "sha": "79f6a016c388de8c",
+   "codes": ["LO-64", "LO-62"],
+   "note": "The balance verdict has to be read off the motion: the arms are tilting, i.e. accelerating, so the forces cannot be balanced (LO-64), and only then is the larger force named (LO-62). P1 argues from the force list, this one argues from the acceleration - that is the split between the two."
+  },
+  {
+   "sha": "5066edfc1decc45a",
+   "codes": ["LO-64"],
+   "note": "Literally LO-64: constant velocity implies zero net force. No inertia language and no law to state, so not C-2.1-LO-5."
+  },
+  {
+   "sha": "73cebe723ee45cb7",
+   "codes": ["C-2.1-LO-5"],
+   "note": "Enumerates the two states the first law permits (stays at rest, keeps constant velocity) and rejects constant acceleration. It grades the content of the law as a statement, not a net-force reading off a given motion, so LO-5 rather than LO-64."
+  },
+  {
+   "sha": "b82cf620cde87378",
+   "codes": ["LO-62", "LO-63"],
+   "note": "The student must construct a balanced-force case (LO-62) and the worked example is a push exactly cancelling friction, so friction's role carries the answer (LO-63). Not LO-65: no known everyday event is being explained, a case is being built."
+  },
+  {
+   "sha": "3fbbd9204a5adfa9",
+   "codes": ["LO-64"],
+   "note": "The 100 g and 0.5 m/s are distractors - nothing is substituted into F = ma, so not C-2.1-LO-7. The entire answer is LO-64's constant-velocity-implies-zero-net-force rule."
+  },
+  {
+   "sha": "8b90bfa95e62f2d0",
+   "codes": ["C-2.1-LO-6"],
+   "note": "Pure proportional reasoning: same acceleration, larger mass needs larger force. No number is produced, so LO-6 (state and explain the second law in terms of mass and acceleration) and not the calculation outcome LO-7."
+  },
+  {
+   "sha": "df03c200e404f5d9",
+   "codes": ["LO-65", "C-2.1-LO-6"],
+   "note": "An everyday packing practice to be explained (LO-65), and the law doing the work is the second one via a longer stopping time (LO-6). Not LO-8 - no action-reaction pair is involved; not LO-7 - nothing is calculated."
+  },
+  {
+   "sha": "c338a7a6f771e0c4",
+   "codes": ["C-2.1-LO-8", "LO-65"],
+   "note": "The answer is the action-reaction pair between hose and water (LO-8) in an everyday event (LO-65). Not LO-62: the struggle is not a balance question, it is about the reaction partner."
+  },
+  {
+   "sha": "6779b90a2110e9df",
+   "codes": ["C-2.1-LO-8", "LO-64"],
+   "note": "Two steps: changing velocity requires a force (LO-64), and in empty space the only available force is the reaction to expelled exhaust (LO-8). Unlike P9 this is a prediction in a non-everyday setting, so LO-65 is not cited."
+  },
+  {
+   "sha": "c6c7233a4d6bf7ce",
+   "codes": ["LO-64", "LO-63"],
+   "note": "Friction is deduced to equal F precisely because the table moves at constant velocity (LO-64), and the quantity asked for is the frictional force (LO-63). No F = ma arithmetic, so not LO-7."
+  },
+  {
+   "sha": "d44f63e3034678bc",
+   "codes": ["LO-64", "C-2.1-LO-5"],
+   "note": "Part (i) is the first law on a frictionless surface (LO-5); parts (ii) and (iii) are the force-changes-velocity half of LO-64, with the sign of the change set by the force direction."
+  },
+  {
+   "sha": "2e9e96f690f5e57f",
+   "codes": ["LO-62", "LO-64"],
+   "note": "Block P is judged from unequal opposing forces (LO-62), block Q from its constant velocity (LO-64). The 5 - 4 subtraction is incidental and no F = ma appears, so not LO-7."
+  },
+  {
+   "sha": "1204c1b77bbcf6b1",
+   "codes": ["LO-62", "LO-61"],
+   "note": "Combines like and opposing forces into a resultant (LO-62), and the answer must carry a direction as well as a magnitude (LO-61). Mass and acceleration never appear, so this is not a member of the F = ma numerical family."
+  },
+  {
+   "sha": "3ddf97cf0801ea37",
+   "codes": ["C-2.1-LO-6"],
+   "note": "Recall of the second law's two proportionalities - acceleration along the force, proportional to F and inverse in m. A statement item, so LO-6 and not the calculation outcome LO-7."
+  },
+  {
+   "sha": "c2cefb6474cfdf64",
+   "codes": ["C2.1", "LO-64"],
+   "note": "Four given position-time graphs are analysed, which is C2.1's 'analyses graphical representations of motion in one dimension'; the criterion applied is curvature = acceleration = net force (LO-64). C8.1 is reserved throughout this chapter for items that ask the student to DRAW or build a representation."
+  },
+  {
+   "sha": "c8ab7a198cdf1dad",
+   "codes": ["C-2.1-LO-8", "LO-65"],
+   "note": "Third law applied to an everyday event - the boat recoils because the sailor pushed it backwards. Not LO-62: the question is about the reaction partner, not about balance."
+  },
+  {
+   "sha": "f8a2c2e0dfaad975",
+   "codes": ["LO-65", "C-2.1-LO-6"],
+   "note": "Same outcome pair as the bubble-wrap item: an everyday safety device (LO-65) explained by the second law through a longer stopping time (LO-6). The bank asks this in about a dozen guises and they honestly share these two outcomes."
+  },
+  {
+   "sha": "b93ce699f54b7363",
+   "codes": ["C-2.1-LO-8"],
+   "note": "Tests only the equal-magnitude clause of the third law, and specifically that different masses do not change it. The consequence for acceleration is never asked, so LO-6 is not cited."
+  },
+  {
+   "sha": "f9039ec5e7f40074",
+   "codes": ["C8.1", "C-2.1-LO-7"],
+   "note": "The student must construct a new graph - C8.1's 'develops graphical models ... to manipulate variables and predict results' - and each plotted point comes from F = ma (LO-7). C8.1 rather than C2.1 because the graph is produced, not read."
+  },
+  {
+   "sha": "0aafc03949036b1d",
+   "codes": ["C2.1", "C-2.1-LO-7"],
+   "note": "The graph is given and read for its slope (C2.1), then F = ma yields a number (LO-7). Contrast N10, where the graph is drawn and so takes C8.1."
+  },
+  {
+   "sha": "df65284a9be61df6",
+   "codes": ["C-2.1-LO-7"],
+   "note": "Plain F = ma numerical with one kinematic first step (v^2 - u^2 = 2as). No friction named, no third-law pair, no graph - this is the base case of the numerical family and takes LO-7 alone."
+  },
+  {
+   "sha": "ce8876be844b4c48",
+   "codes": ["C-2.1-LO-7"],
+   "note": "Base numerical with the unknown moved to time: F = ma rearranged for a, then v = u + at for t. Rearranging is still LO-7 rather than LO-6 because an actual value is produced."
+  },
+  {
+   "sha": "c22bf2e2bdf0c840",
+   "codes": ["C-2.1-LO-7", "LO-63", "LO-62"],
+   "note": "Three separately graded demands: assemble two opposing forces into a net force (LO-62), recognise one of them as friction acting against the motion (LO-63), then F = ma plus a kinematic step for the distance (LO-7). Not the base numerical - the net-force assembly is the graded step."
+  },
+  {
+   "sha": "7ea28906481108f1",
+   "codes": ["C-2.1-LO-6", "C8.1"],
+   "note": "No numbers: masses are eliminated symbolically via m = F/a and recombined, so the second law is used as a relation (LO-6), not as a calculation (LO-7). Building and manipulating that algebraic expression is C8.1's mathematical model."
+  }
+ ]
+}

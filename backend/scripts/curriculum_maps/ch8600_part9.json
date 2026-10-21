@@ -1,0 +1,55 @@
+{
+ "chapter_id": 8600,
+ "mappings": [
+  {
+   "sha": "35e5aa5b94153b00",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Aircraft from rest to 60 m/s in 30 s: state u, find a from v=u+at, then the runway length from s=ut+(1/2)at^2. Part (c) asks which equation is most direct, but that is choosing a tool to substitute into, which is still LO-4 rather than LO-3 derivation work."
+  },
+  {
+   "sha": "e7611e84b9abe7da",
+   "codes": ["C-2.1-LO-1", "C-2.1-LO-2"],
+   "note": "Parts 1 and 2 read states of motion off the distance-time graph shape (LO-1); parts 3 and 4 ask how speed is obtained from the slope and what a steeper line implies (LO-2). The item straddles the shape-versus-quantity split deliberately."
+  },
+  {
+   "sha": "ba9dcbc4af96bb5b",
+   "codes": ["C-2.1-LO-4", "LO-59"],
+   "note": "Parts (a) to (c) are substitutions for stopping time, braking distance and reaction distance (LO-4); the closing part on rain reducing friction asks which factors change the outcome, which is LO-59. The same split as N10 and L130 in this family."
+  },
+  {
+   "sha": "d86476d430ff9961",
+   "codes": ["C-2.1-LO-1"],
+   "note": "POOREST FIT IN THE CHAPTER. Entirely about frames of reference - trees apparently moving, the platform still, the vendor fast or slow depending on the observer. No code in this frame covers relative motion or reference frames at any level; LO-1 is cited only because its definitions implicitly require an origin."
+  },
+  {
+   "sha": "bab3b087eb6423ae",
+   "codes": ["C-2.1-LO-1", "C-8.1-LO-2"],
+   "note": "Merry-go-round case study: why constant-rate rotation is still accelerated (LO-1), and why Rohan at 2 m covers more distance per revolution than Maya at 1 m, which is the 2(pi)R dependence of C-8.1-LO-2."
+  },
+  {
+   "sha": "54db43aba25e766b",
+   "codes": ["C-2.1-LO-1", "C-2.1-LO-2"],
+   "note": "Three-phase velocity-time graph: parts 1 to 3 name the type of motion in each segment from the shape (LO-1), part 4 asks how the total distance is obtained, which is the area (LO-2)."
+  },
+  {
+   "sha": "7f216f9dd914b511",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Car from rest at 2 m/s^2 for 5 s, with both equations named in the question stem. Nothing is derived and no graph is used - the student only substitutes, which is LO-4."
+  },
+  {
+   "sha": "61acae644a7048e9",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Cyclist decelerating at 1 m/s^2 from 10 m/s, distance from v^2-u^2=2as with the equation supplied. Substitution only, so LO-4 rather than LO-3, even though the third equation is named."
+  },
+  {
+   "sha": "27ef9e09eb496c57",
+   "codes": ["C-8.1-LO-2", "C-2.1-LO-1"],
+   "note": "Part 4 verifies 5 m/s against 2(pi)R/T with R=7 m and T=8.8 s, which is C-8.1-LO-2 used quantitatively - the only item in the chapter that checks the expression rather than merely stating it. Parts 1 to 3 are the LO-1 definition of uniform circular motion."
+  },
+  {
+   "sha": "2161b3301e573ac7",
+   "codes": ["C-2.1-LO-4", "C2.1", "C-2.1-LO-1"],
+   "note": "Three demands: v=u+gt after 3 s (LO-4); whether the acceleration of free fall is uniform, which is gravity content named only at competency level (C2.1); and the shape of the distance-time graph for free fall (LO-1 interpret clause)."
+  }
+ ]
+}

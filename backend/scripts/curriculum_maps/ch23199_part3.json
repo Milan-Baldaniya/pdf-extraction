@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23199,
+ "mappings": [
+  {
+   "sha": "a7b415f59177d893",
+   "codes": ["C-6.3-LO-4"],
+   "note": "one ground point, two aeroplanes on the same vertical at 60 and 45; the answer is the DIFFERENCE of two heights over a shared base, the two-triangle pattern"
+  },
+  {
+   "sha": "7870f95516ac2d13",
+   "codes": ["C-6.1-LO-3"],
+   "note": "string (hypotenuse) given and the height required, with tan theta supplied as a non-standard fraction so sin must be constructed from it. Single triangle, no elevation value - so C-6.1-LO-3, not C-6.3-LO-3. NOTE the stem prints tan theta = 45/8 while the solution uses 15/8 and only 15/8 gives the 8-15-17 triple"
+  },
+  {
+   "sha": "a021ef3c9389a84e",
+   "codes": ["C-6.3-LO-4"],
+   "note": "flagstaff on a tower seen from one point at 60 (top) and 45 (bottom): two nested triangles on one base, solved by eliminating the common distance"
+  },
+  {
+   "sha": "cbe24f09c2707cc7",
+   "codes": ["C-6.3-LO-4"],
+   "note": "literally two observers, on OPPOSITE sides of the building, and the answer is the SUM of the two computed distances rather than a difference - the clearest two-observer item in the chapter"
+  },
+  {
+   "sha": "299a757657cff12b",
+   "codes": ["C-6.3-LO-4", "C-6.2-LO-3"],
+   "note": "man on a 10 m deck sights the hill top (elevation 60) and its base (depression 30): two triangles, and the horizontal through the eye must be drawn with the 10 m deck height carried into the lower triangle"
+  },
+  {
+   "sha": "7f9e1e457bdf2feb",
+   "codes": ["C-6.3-LO-4"],
+   "note": "two ships on opposite sides, the 100 m gap split as x and 100 - x; the unknown height is found by eliminating x between the two triangles"
+  },
+  {
+   "sha": "271c96fa0cb2ca2f",
+   "codes": ["C-6.2-LO-3", "C-6.3-LO-3"],
+   "note": "only ONE angle here despite the two poles: the horizontal TR must be drawn so the working triangle has base 15 m, and the second pole's height is then 24 plus the computed rise. Single-triangle height problem, so LO-3 not LO-4"
+  },
+  {
+   "sha": "e9c81969e0edb38d",
+   "codes": ["C-6.3-LO-4"],
+   "note": "the textbook two-positions case: the SAME observer walks 20 m nearer and the elevation goes 30 to 60. LO-4's wording fits this item exactly"
+  },
+  {
+   "sha": "45378b71cf9b8bce",
+   "codes": ["C-6.3-LO-4", "C-6.1-LO-3"],
+   "note": "two shadow lengths of one tower at two sun positions, and the unknown is the ANGLE rather than a length - so the two-triangle code plus the ratio-selection code. Nothing is measured; the 3x relation does all the work"
+  },
+  {
+   "sha": "986315bd4895a3c1",
+   "codes": ["C-6.3-LO-4"],
+   "note": "statue on a pedestal at 60 and 45 from one point; same nested-triangle structure as sha a021ef3c9389a84e with the statue in place of the flagstaff"
+  },
+  {
+   "sha": "b0351cd3ebcab3b5",
+   "codes": ["C-6.3-LO-4"],
+   "note": "two points at 4 m and 16 m with complementary elevations give h = root(4 x 16) = 8; numeric version of sha 113c6a95a7c24b28. The complementary relation it leans on has no legal code in this chapter"
+  },
+  {
+   "sha": "68275967a783817d",
+   "codes": ["C-6.3-LO-4"],
+   "note": "the same tower sighted from the TOP and from the BOTTOM of a 15 m building - two positions of one observer, vertically separated - so the tower height and the gap come out together"
+  },
+  {
+   "sha": "7687c841ec516615",
+   "codes": ["C-6.3-LO-4", "C-6.2-LO-3"],
+   "note": "depressions of both ends of an 8 m building from one roof: two triangles, and the horizontal through the shorter building's top must be drawn to make h - 8 the working side. Same shape as sha e11633e93f2a9ebe with 8 m instead of 50 m"
+  },
+  {
+   "sha": "c073c401b6d2be82",
+   "codes": ["C-6.3-LO-4"],
+   "note": "two positions of the PLANE (60 then 30) at constant height from one observer; the horizontal distance flown is the difference of two bases and speed follows. Two-triangle family, object moving rather than observer"
+  },
+  {
+   "sha": "a779df40d32dac17",
+   "codes": ["C-6.3-LO-4"],
+   "note": "observer steps 30 m back from the bank and the elevation falls 60 to 30; two positions of one observer, with the river width as the near base. Structurally identical to sha e9c81969e0edb38d in the other direction"
+  },
+  {
+   "sha": "c6b9b9a56a47dcec",
+   "codes": ["C-6.3-LO-4"],
+   "note": "6 m flagstaff on a tower at 45 (top) and 30 (bottom); nested triangles again, and only the tower height is asked"
+  },
+  {
+   "sha": "bfe7289dc21188f4",
+   "codes": ["C-6.3-LO-4"],
+   "note": "20 m building with a tower on top, elevations 45 and 60 from one ground point; the 5-mark long-answer duplicate of MCQ sha b710a8b028396b18"
+  },
+  {
+   "sha": "6e49fe2c26d374f5",
+   "codes": ["C-6.3-LO-4", "C-6.2-LO-3"],
+   "note": "elevation 60 to the tower top and depression 45 to its foot from a 7 m roof, with the horizontal AE drawn to split the tower; the 5-mark duplicate of MCQ sha 2f65c8ccc0a66ca6"
+  },
+  {
+   "sha": "4d01220c00efc270",
+   "codes": ["C-6.3-LO-4"],
+   "note": "two equal poles across an 80 m road with P between them; one angle is given as a DEPRESSION from the far pole's top, which must be converted to an elevation from P before the two triangles can be combined"
+  },
+  {
+   "sha": "8b2bb7a25c7989c1",
+   "codes": ["C-6.3-LO-4"],
+   "note": "same 80 m road and equal poles as sha 4d01220c00efc270 but both angles stated as elevations; a near-duplicate that honestly shares the outcome, the only difference being the depression-to-elevation step"
+  },
+  {
+   "sha": "680b360336b3f5a5",
+   "codes": ["C-6.3-LO-4", "C-6.2-LO-3", "C-6.1-LO-3"],
+   "note": "the densest item in the chapter: two named observers on opposite sides (LO-4), Deepak's 50 m roof forcing a horizontal construction and a height subtraction (C-6.2-LO-3), and the bird's height taken from a SLANT 200 m by sin 30 rather than tan (C-6.1-LO-3)"
+  },
+  {
+   "sha": "c326781cc6452886",
+   "codes": ["C-6.3-LO-4"],
+   "note": "two ships on the SAME side, so the answer is the difference of the two bases; the deliberate contrast with sha 98f6c771f378e3e7 where opposite sides make it a sum"
+  },
+  {
+   "sha": "98f6c771f378e3e7",
+   "codes": ["C-6.3-LO-4"],
+   "note": "two cars on OPPOSITE sides of a 100 m tower, so the distance between them adds the two bases; paired with sha c326781cc6452886, same numbers, opposite geometry"
+  },
+  {
+   "sha": "79f9a2feac1b47cc",
+   "codes": ["C-6.3-LO-4", "C-6.2-LO-3"],
+   "note": "two positions of one observer stacked VERTICALLY (Y is 40 m above X), so the horizontal YC must be drawn and the tower splits as x + 40; the vertical variant of the walk-towards-the-tower family"
+  },
+  {
+   "sha": "0a78b6f830bcf84c",
+   "codes": ["C-6.3-LO-4"],
+   "note": "5 m flagstaff at 60 (top) and 30 (bottom) from one point, with BOTH the tower height and the distance asked; third member of the flagstaff family with shas a021ef3c9389a84e and c6b9b9a56a47dcec"
+  }
+ ]
+}

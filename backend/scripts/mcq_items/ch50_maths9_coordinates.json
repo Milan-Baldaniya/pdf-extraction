@@ -1,0 +1,699 @@
+{
+ "chapter_id": 8594,
+ "chapter": "Orienting Yourself: The Use of Coordinates (Class 9 Maths)",
+ "note": "50 mixed-form items spread across the chapter's 9 concepts. Blueprint: mcq 10, very_short 8, short 8, assertion_reason 4, true_false 4, fill_blank 4, long 4, numerical 3, match_following 2, construction 2, proof 1. Difficulty 17 Easy / 17 Medium / 16 Hard. Concepts named in words and resolved at load time.",
+ "items": [
+  {
+   "concept": "Cartesian Coordinate System",
+   "form": "mcq",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "The two number lines used to fix the position of a point in a plane are called the",
+   "explanation": "The horizontal line is the x-axis and the vertical line is the y-axis; together they are the coordinate axes.",
+   "options": [
+    {
+     "text": "coordinate axes",
+     "correct": true
+    },
+    {
+     "text": "parallel lines",
+     "why": "The axes meet at right angles, so they are not parallel."
+    },
+    {
+     "text": "diagonals",
+     "why": "A diagonal joins corners of a figure and is not a reference line."
+    },
+    {
+     "text": "tangent lines",
+     "why": "A tangent touches a curve and is unrelated to the coordinate frame."
+    }
+   ]
+  },
+  {
+   "concept": "Cartesian Coordinate System",
+   "form": "mcq",
+   "difficulty": "Medium",
+   "bloom": "Understand",
+   "stem": "The Cartesian system fixes a point in a plane using",
+   "explanation": "Two numbers, one measured along each axis, are needed and sufficient to locate a point in a plane.",
+   "options": [
+    {
+     "text": "two numbers",
+     "correct": true
+    },
+    {
+     "text": "one number",
+     "why": "One number fixes a point on a line, not in a plane."
+    },
+    {
+     "text": "three numbers",
+     "why": "Three numbers are needed in space, not in a plane."
+    },
+    {
+     "text": "four numbers",
+     "why": "Four numbers would over-describe a point in a plane."
+    }
+   ]
+  },
+  {
+   "concept": "Origin",
+   "form": "mcq",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "The coordinates of the origin are",
+   "explanation": "The origin is where the two axes cross, so both its distances are zero.",
+   "options": [
+    {
+     "text": "(0, 0)",
+     "correct": true
+    },
+    {
+     "text": "(1, 1)",
+     "why": "This point lies one unit along each axis, not at the crossing."
+    },
+    {
+     "text": "(0, 1)",
+     "why": "This point lies on the y-axis, one unit above the origin."
+    },
+    {
+     "text": "(1, 0)",
+     "why": "This point lies on the x-axis, one unit right of the origin."
+    }
+   ]
+  },
+  {
+   "concept": "Quadrants",
+   "form": "mcq",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "The number of quadrants the axes divide the plane into is",
+   "explanation": "Two perpendicular axes cut the plane into four regions, numbered anticlockwise from the top right.",
+   "options": [
+    {
+     "text": "four",
+     "correct": true
+    },
+    {
+     "text": "two",
+     "why": "A single line makes two regions; two crossing lines make four."
+    },
+    {
+     "text": "three",
+     "why": "Two crossing lines cannot make an odd number of regions."
+    },
+    {
+     "text": "eight",
+     "why": "Eight regions would need four lines through the origin."
+    }
+   ]
+  },
+  {
+   "concept": "Quadrants",
+   "form": "mcq",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "The point (-4, 7) lies in which quadrant?",
+   "explanation": "A negative x and a positive y place the point to the left of the y-axis and above the x-axis, which is the second quadrant.",
+   "options": [
+    {
+     "text": "second",
+     "correct": true
+    },
+    {
+     "text": "first",
+     "why": "The first quadrant needs both coordinates positive."
+    },
+    {
+     "text": "third",
+     "why": "The third quadrant needs both coordinates negative."
+    },
+    {
+     "text": "fourth",
+     "why": "The fourth quadrant needs a positive x and a negative y."
+    }
+   ]
+  },
+  {
+   "concept": "Coordinates of a Point",
+   "form": "mcq",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "In the ordered pair (x, y), the value of x is called the",
+   "explanation": "The first coordinate measures distance along the x-axis and is called the abscissa.",
+   "options": [
+    {
+     "text": "abscissa",
+     "correct": true
+    },
+    {
+     "text": "ordinate",
+     "why": "The ordinate is the second coordinate, measured along the y-axis."
+    },
+    {
+     "text": "origin",
+     "why": "The origin is a point, not a coordinate of a point."
+    },
+    {
+     "text": "quadrant",
+     "why": "A quadrant is a region of the plane, not a coordinate."
+    }
+   ]
+  },
+  {
+   "concept": "Coordinates of a Point",
+   "form": "mcq",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "The points (3, 5) and (5, 3) are",
+   "explanation": "The pair is ordered, so swapping the entries names a different point unless the two numbers are equal.",
+   "options": [
+    {
+     "text": "two different points",
+     "correct": true
+    },
+    {
+     "text": "the same point",
+     "why": "Order matters in a coordinate pair, so these are distinct."
+    },
+    {
+     "text": "both on the x-axis",
+     "why": "A point on the x-axis has y equal to zero."
+    },
+    {
+     "text": "both at the origin",
+     "why": "Only (0, 0) is at the origin."
+    }
+   ]
+  },
+  {
+   "concept": "Signs of Coordinates in Quadrants",
+   "form": "mcq",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "A point has a positive abscissa and a negative ordinate. It lies in the",
+   "explanation": "Positive x with negative y places the point right of the y-axis and below the x-axis, in the fourth quadrant.",
+   "options": [
+    {
+     "text": "fourth quadrant",
+     "correct": true
+    },
+    {
+     "text": "first quadrant",
+     "why": "Both coordinates are positive in the first quadrant."
+    },
+    {
+     "text": "second quadrant",
+     "why": "The second quadrant has a negative abscissa."
+    },
+    {
+     "text": "third quadrant",
+     "why": "Both coordinates are negative in the third quadrant."
+    }
+   ]
+  },
+  {
+   "concept": "Distance Formula",
+   "form": "mcq",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "The distance between the points (0, 0) and (3, 4) is",
+   "explanation": "The distance is the square root of 3 squared plus 4 squared, which is the square root of 25.",
+   "options": [
+    {
+     "text": "5 units",
+     "correct": true
+    },
+    {
+     "text": "7 units",
+     "why": "This adds the coordinates instead of using Pythagoras."
+    },
+    {
+     "text": "12 units",
+     "why": "This multiplies the coordinates, which is unrelated to distance."
+    },
+    {
+     "text": "1 unit",
+     "why": "This subtracts the coordinates, which is not the distance."
+    }
+   ]
+  },
+  {
+   "concept": "Midpoint Formula",
+   "form": "mcq",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "The midpoint of the segment joining (2, 6) and (8, 10) is",
+   "explanation": "The midpoint takes the average of the x values and the average of the y values, giving (5, 8).",
+   "options": [
+    {
+     "text": "(5, 8)",
+     "correct": true
+    },
+    {
+     "text": "(10, 16)",
+     "why": "This adds the coordinates without halving them."
+    },
+    {
+     "text": "(6, 4)",
+     "why": "This subtracts the coordinates instead of averaging."
+    },
+    {
+     "text": "(3, 2)",
+     "why": "This halves the differences rather than averaging the values."
+    }
+   ]
+  },
+  {
+   "concept": "Origin",
+   "form": "very_short",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "What is the origin in a Cartesian plane?",
+   "answer": "The origin is the point where the x-axis and the y-axis intersect, and its coordinates are (0, 0)."
+  },
+  {
+   "concept": "Quadrants",
+   "form": "very_short",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "In which order are the quadrants numbered?",
+   "answer": "Anticlockwise, starting from the upper right region as the first quadrant."
+  },
+  {
+   "concept": "Points on Axes",
+   "form": "very_short",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "What is the ordinate of every point lying on the x-axis?",
+   "answer": "Zero, because a point on the x-axis has no vertical distance from it."
+  },
+  {
+   "concept": "Points on Axes",
+   "form": "very_short",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "What is the abscissa of every point lying on the y-axis?",
+   "answer": "Zero, because a point on the y-axis has no horizontal distance from it."
+  },
+  {
+   "concept": "Coordinates of a Point",
+   "form": "very_short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Write the coordinates of a point that is 5 units left of the origin and 2 units below it.",
+   "answer": "(-5, -2), since left is negative along x and below is negative along y."
+  },
+  {
+   "concept": "Reflection",
+   "form": "very_short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Find the image of the point (4, -3) when it is reflected in the x-axis.",
+   "answer": "(4, 3). Reflection in the x-axis keeps the abscissa and reverses the sign of the ordinate."
+  },
+  {
+   "concept": "Distance Formula",
+   "form": "very_short",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Why does the distance formula always give a positive value?",
+   "answer": "The differences are squared before being added, so both terms are non-negative, and the positive square root is taken. Distance is a length and cannot be negative."
+  },
+  {
+   "concept": "Cartesian Coordinate System",
+   "form": "very_short",
+   "difficulty": "Hard",
+   "bloom": "Evaluate",
+   "stem": "Why is a coordinate pair described as ordered?",
+   "answer": "Because the two numbers play different roles: the first is measured along the x-axis and the second along the y-axis. Swapping them names a different point unless the two values happen to be equal."
+  },
+  {
+   "concept": "Signs of Coordinates in Quadrants",
+   "form": "short",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "State the signs of the abscissa and the ordinate in each of the four quadrants.",
+   "answer": "First quadrant: abscissa positive, ordinate positive. Second quadrant: abscissa negative, ordinate positive. Third quadrant: abscissa negative, ordinate negative. Fourth quadrant: abscissa positive, ordinate negative. The signs change as one moves anticlockwise from the upper right region."
+  },
+  {
+   "concept": "Points on Axes",
+   "form": "short",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Explain why points lying on an axis are said to belong to no quadrant.",
+   "answer": "The quadrants are the four open regions into which the axes divide the plane, and the axes themselves form the boundaries between them. A point on an axis lies on a boundary rather than inside any one region, so it belongs to none of the four quadrants. For example (5, 0) sits on the x-axis, between the first and fourth quadrants, and the origin lies on both axes at once."
+  },
+  {
+   "concept": "Distance Formula",
+   "form": "short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Find the distance between the points (1, 2) and (4, 6), showing your working.",
+   "answer": "The difference in x is 4 minus 1, which is 3. The difference in y is 6 minus 2, which is 4. By the distance formula the distance is the square root of (3 squared plus 4 squared), that is the square root of (9 plus 16), which is the square root of 25. The distance is therefore 5 units."
+  },
+  {
+   "concept": "Midpoint Formula",
+   "form": "short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "The midpoint of a segment is (4, 5) and one endpoint is (2, 3). Find the other endpoint.",
+   "answer": "Let the other endpoint be (x, y). The midpoint takes the average of the coordinates, so (2 + x) divided by 2 equals 4, giving 2 + x = 8 and x = 6. Similarly (3 + y) divided by 2 equals 5, giving 3 + y = 10 and y = 7. The other endpoint is therefore (6, 7)."
+  },
+  {
+   "concept": "Reflection",
+   "form": "short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "State what happens to the coordinates of a point when it is reflected in the x-axis, in the y-axis, and in the origin.",
+   "answer": "Reflection in the x-axis keeps the abscissa and changes the sign of the ordinate, so (a, b) becomes (a, -b). Reflection in the y-axis changes the sign of the abscissa and keeps the ordinate, so (a, b) becomes (-a, b). Reflection in the origin changes the sign of both, so (a, b) becomes (-a, -b). In each case the distance from the line or point of reflection is unchanged."
+  },
+  {
+   "concept": "Quadrants",
+   "form": "short",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "A point is moved from the second quadrant to the fourth. Describe what must happen to each of its coordinates and explain why.",
+   "answer": "In the second quadrant the abscissa is negative and the ordinate is positive. In the fourth quadrant the abscissa is positive and the ordinate is negative. So both coordinates must change sign. Geometrically this is a reflection in the origin, or equivalently a half turn about the origin: the point crosses the y-axis, which reverses the sign of x, and crosses the x-axis, which reverses the sign of y."
+  },
+  {
+   "concept": "Distance Formula",
+   "form": "short",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Explain why the distance formula is a direct consequence of the Pythagoras theorem.",
+   "answer": "Take two points and draw a horizontal line through one and a vertical line through the other. These meet at a right angle, forming a right-angled triangle whose hypotenuse is the segment joining the two points. The horizontal side has length equal to the difference of the abscissae and the vertical side has length equal to the difference of the ordinates. By the Pythagoras theorem the square of the hypotenuse equals the sum of the squares of the other two sides, and taking the positive square root gives exactly the distance formula."
+  },
+  {
+   "concept": "Cartesian Coordinate System",
+   "form": "short",
+   "difficulty": "Hard",
+   "bloom": "Evaluate",
+   "stem": "Discuss why the Cartesian system was such an important idea in mathematics.",
+   "answer": "Before coordinates, geometry and algebra were separate subjects. The Cartesian system attaches a pair of numbers to every point in a plane, so a geometrical figure can be described by an equation and an equation can be drawn as a figure. A straight line becomes a linear equation, a circle becomes a quadratic relation, and questions about shapes can be answered by calculation rather than by construction. This made problems solvable that were very hard by pure geometry, and it is the foundation of graph work, of coordinate geometry and of the later development of calculus."
+  },
+  {
+   "concept": "Origin",
+   "form": "assertion_reason",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "Assertion (A): The origin has coordinates (0, 0). Reason (R): The origin lies on both axes. Choose the correct option.",
+   "explanation": "Both are true, and lying on both axes is exactly why both its distances, and so both its coordinates, are zero.",
+   "options": [
+    {
+     "text": "Both A and R are true and R explains A",
+     "correct": true
+    },
+    {
+     "text": "Both A and R are true but R does not explain A",
+     "why": "Lying on both axes is precisely the reason both coordinates vanish."
+    },
+    {
+     "text": "A is true but R is false",
+     "why": "The origin is the intersection point, so it lies on both axes."
+    },
+    {
+     "text": "A is false but R is true",
+     "why": "The origin genuinely has coordinates (0, 0)."
+    }
+   ]
+  },
+  {
+   "concept": "Points on Axes",
+   "form": "assertion_reason",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Assertion (A): The point (0, 7) lies in the first quadrant. Reason (R): Its ordinate is positive. Choose the correct option.",
+   "explanation": "The reason is true but the assertion is false: the point lies on the y-axis, which is a boundary and belongs to no quadrant.",
+   "options": [
+    {
+     "text": "A is false but R is true",
+     "correct": true
+    },
+    {
+     "text": "Both A and R are true and R explains A",
+     "why": "A positive ordinate is not enough; the abscissa is zero, so the point is on an axis."
+    },
+    {
+     "text": "Both A and R are false",
+     "why": "The ordinate 7 is genuinely positive, so R is true."
+    },
+    {
+     "text": "A is true but R is false",
+     "why": "A point with abscissa zero lies on the y-axis, not inside a quadrant."
+    }
+   ]
+  },
+  {
+   "concept": "Reflection",
+   "form": "assertion_reason",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Assertion (A): Reflecting (3, 5) in the y-axis gives (-3, 5). Reason (R): Reflection in the y-axis reverses the sign of the abscissa. Choose the correct option.",
+   "explanation": "Both are true, and the rule stated in the reason is exactly what produces the image given in the assertion.",
+   "options": [
+    {
+     "text": "Both A and R are true and R explains A",
+     "correct": true
+    },
+    {
+     "text": "Both A and R are true but R does not explain A",
+     "why": "The rule is precisely what gives the stated image."
+    },
+    {
+     "text": "A is true but R is false",
+     "why": "Reflection in the y-axis does reverse the sign of the abscissa."
+    },
+    {
+     "text": "A is false but R is true",
+     "why": "Applying the rule to (3, 5) does give (-3, 5)."
+    }
+   ]
+  },
+  {
+   "concept": "Distance Formula",
+   "form": "assertion_reason",
+   "difficulty": "Hard",
+   "bloom": "Evaluate",
+   "stem": "Assertion (A): The distance from A to B equals the distance from B to A. Reason (R): The differences are squared in the formula. Choose the correct option.",
+   "explanation": "Both are true, and squaring removes the effect of the order in which the points are taken, so the reason does explain the assertion.",
+   "options": [
+    {
+     "text": "Both A and R are true and R explains A",
+     "correct": true
+    },
+    {
+     "text": "Both A and R are true but R does not explain A",
+     "why": "Squaring is exactly what makes the order of the points irrelevant."
+    },
+    {
+     "text": "A is true but R is false",
+     "why": "The formula genuinely squares both differences."
+    },
+    {
+     "text": "A is false but R is true",
+     "why": "Distance does not depend on which point is taken first."
+    }
+   ]
+  },
+  {
+   "concept": "Quadrants",
+   "form": "true_false",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "State whether true or false: the axes divide the plane into four quadrants.",
+   "explanation": "Two perpendicular lines through a point cut the plane into four regions.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "why": "Two crossing axes produce exactly four regions."
+    }
+   ]
+  },
+  {
+   "concept": "Origin",
+   "form": "true_false",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "State whether true or false: the origin lies inside the first quadrant.",
+   "explanation": "The origin lies on both axes, which are boundaries, so it is in no quadrant.",
+   "options": [
+    {
+     "text": "False",
+     "correct": true
+    },
+    {
+     "text": "True",
+     "why": "The origin sits on the boundary of all four quadrants and inside none."
+    }
+   ]
+  },
+  {
+   "concept": "Coordinates of a Point",
+   "form": "true_false",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "State whether true or false: the points (2, 7) and (7, 2) name the same location.",
+   "explanation": "The pair is ordered, so exchanging the entries gives a different point.",
+   "options": [
+    {
+     "text": "False",
+     "correct": true
+    },
+    {
+     "text": "True",
+     "why": "Order matters in a coordinate pair; these are two distinct points."
+    }
+   ]
+  },
+  {
+   "concept": "Midpoint Formula",
+   "form": "true_false",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "State whether true or false: the midpoint of a segment always lies in the same quadrant as both endpoints.",
+   "explanation": "If the endpoints lie in different quadrants the midpoint may lie in a third, or on an axis; for example the midpoint of (-2, 2) and (2, -2) is the origin.",
+   "options": [
+    {
+     "text": "False",
+     "correct": true
+    },
+    {
+     "text": "True",
+     "why": "Endpoints in different quadrants can give a midpoint on an axis or elsewhere."
+    }
+   ]
+  },
+  {
+   "concept": "Origin",
+   "form": "fill_blank",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "The point where the two axes meet is called the ___________.",
+   "answer": "origin"
+  },
+  {
+   "concept": "Coordinates of a Point",
+   "form": "fill_blank",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "In the ordered pair (x, y), the value y is called the ___________.",
+   "answer": "ordinate"
+  },
+  {
+   "concept": "Points on Axes",
+   "form": "fill_blank",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Every point lying on the y-axis has abscissa equal to ___________.",
+   "answer": "zero"
+  },
+  {
+   "concept": "Signs of Coordinates in Quadrants",
+   "form": "fill_blank",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "A point with both coordinates negative lies in the ___________ quadrant.",
+   "answer": "third"
+  },
+  {
+   "concept": "Cartesian Coordinate System",
+   "form": "long",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "Describe the Cartesian coordinate system fully, explaining the axes, the origin, the quadrants and how a point is located.",
+   "answer": "The Cartesian coordinate system uses two number lines drawn at right angles in a plane. The horizontal line is the x-axis and the vertical line is the y-axis, and they are together called the coordinate axes. Their point of intersection is the origin, whose coordinates are (0, 0). Positive values are measured to the right along the x-axis and upwards along the y-axis, and negative values in the opposite directions. The two axes divide the plane into four regions called quadrants, numbered anticlockwise from the upper right, and the signs of the coordinates differ in each: positive-positive, negative-positive, negative-negative and positive-negative in turn. A point is located by an ordered pair (x, y), where x is the abscissa, the perpendicular distance from the y-axis, and y is the ordinate, the perpendicular distance from the x-axis. The pair is ordered because the two numbers are measured along different axes, so (3, 5) and (5, 3) are different points. Points lying on an axis have one coordinate equal to zero and belong to no quadrant."
+  },
+  {
+   "concept": "Distance Formula",
+   "form": "long",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "The vertices of a triangle are A(0, 0), B(6, 0) and C(3, 4). Find the length of each side and state what kind of triangle it is.",
+   "answer": "AB: the difference in x is 6 and the difference in y is 0, so AB is the square root of 36, which is 6 units. BC: the difference in x is 3 minus 6, which is -3, and the difference in y is 4 minus 0, which is 4. So BC is the square root of (9 plus 16), which is the square root of 25, that is 5 units. CA: the difference in x is 3 and the difference in y is 4, so CA is the square root of (9 plus 16), which is again 5 units. Since BC equals CA at 5 units each while AB is 6 units, exactly two sides are equal and the triangle is isosceles. It is not equilateral, because all three sides are not equal, and it is not right-angled, because 5 squared plus 5 squared is 50, which is not equal to 6 squared."
+  },
+  {
+   "concept": "Reflection",
+   "form": "long",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "A point P has coordinates (a, b) with a and b both positive. Describe the position of its images after reflection in the x-axis, in the y-axis and in the origin, and explain how the four points are related.",
+   "answer": "P(a, b) lies in the first quadrant, since both coordinates are positive. Reflection in the x-axis gives Q(a, -b), which lies in the fourth quadrant, directly below P and at the same distance from the x-axis. Reflection in the y-axis gives R(-a, b), which lies in the second quadrant, directly left of P and at the same distance from the y-axis. Reflection in the origin gives S(-a, -b), which lies in the third quadrant, diagonally opposite P. The four points P, Q, R and S have the same numerical coordinates with different sign combinations, so they lie at the same distance from the origin, namely the square root of (a squared plus b squared). Joining them in order gives a rectangle with sides 2a and 2b whose centre is the origin, and the axes are its two lines of symmetry. Each point is the reflection of one neighbour in one axis and of the opposite point in the origin."
+  },
+  {
+   "concept": "Midpoint Formula",
+   "form": "long",
+   "difficulty": "Hard",
+   "bloom": "Evaluate",
+   "stem": "Explain why the midpoint formula takes the average of the coordinates, and assess whether the same idea extends to finding a point that divides a segment in any given ratio.",
+   "answer": "The midpoint is the point halfway along the segment, so its horizontal displacement from the first endpoint must be half the total horizontal displacement, and likewise vertically. Starting at (x1, y1) and moving half of (x2 minus x1) gives x1 plus half of (x2 minus x1), which simplifies to (x1 plus x2) divided by 2, the average of the two abscissae. The same argument gives the average of the ordinates. So the formula is not an arbitrary rule but a direct statement that the midpoint is reached by travelling half the way. The idea does extend. If a point divides the segment in the ratio m to n, then it lies m divided by (m plus n) of the way along, so its abscissa is x1 plus that fraction of (x2 minus x1), which simplifies to (m times x2 plus n times x1) divided by (m plus n), and similarly for the ordinate. Putting m equal to n recovers the midpoint formula exactly, which confirms that the midpoint is simply the special case of the section formula for the ratio one to one."
+  },
+  {
+   "concept": "Distance Formula",
+   "form": "numerical",
+   "difficulty": "Easy",
+   "bloom": "Apply",
+   "stem": "Find the distance of the point (8, 6) from the origin.",
+   "answer": "The origin is (0, 0), so the differences are 8 and 6. The distance is the square root of (8 squared plus 6 squared), that is the square root of (64 plus 36), which is the square root of 100. The distance is 10 units."
+  },
+  {
+   "concept": "Midpoint Formula",
+   "form": "numerical",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Find the midpoint of the segment joining (-3, 7) and (5, -1).",
+   "answer": "The abscissa of the midpoint is (-3 plus 5) divided by 2, which is 2 divided by 2, that is 1. The ordinate is (7 plus (-1)) divided by 2, which is 6 divided by 2, that is 3. The midpoint is therefore (1, 3), which lies in the first quadrant."
+  },
+  {
+   "concept": "Distance Formula",
+   "form": "numerical",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Show by calculation whether the points A(1, 1), B(4, 5) and C(7, 9) are collinear.",
+   "answer": "AB: differences are 3 and 4, so AB is the square root of (9 plus 16), which is 5 units. BC: differences are 3 and 4, so BC is also 5 units. AC: differences are 6 and 8, so AC is the square root of (36 plus 64), which is the square root of 100, that is 10 units. Now AB plus BC equals 5 plus 5, which is 10, and this equals AC. Three points are collinear exactly when the longest distance equals the sum of the other two, since then no triangle can be formed. The three points are therefore collinear, with B lying between A and C and in fact at the midpoint of AC."
+  },
+  {
+   "concept": "Signs of Coordinates in Quadrants",
+   "form": "match_following",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "Match each quadrant in Column I with the signs of its coordinates in Column II. Column I: (a) first, (b) second, (c) third, (d) fourth. Column II: (i) negative, positive, (ii) positive, negative, (iii) positive, positive, (iv) negative, negative.",
+   "answer": "(a) first - (iii) positive, positive. (b) second - (i) negative, positive. (c) third - (iv) negative, negative. (d) fourth - (ii) positive, negative."
+  },
+  {
+   "concept": "Reflection",
+   "form": "match_following",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Match each transformation of the point (a, b) in Column I with its image in Column II. Column I: (a) reflection in the x-axis, (b) reflection in the y-axis, (c) reflection in the origin, (d) no change. Column II: (i) (-a, b), (ii) (a, b), (iii) (a, -b), (iv) (-a, -b).",
+   "answer": "(a) reflection in the x-axis - (iii) (a, -b). (b) reflection in the y-axis - (i) (-a, b). (c) reflection in the origin - (iv) (-a, -b). (d) no change - (ii) (a, b)."
+  },
+  {
+   "concept": "Cartesian Coordinate System",
+   "form": "construction",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Draw a pair of coordinate axes and plot the points A(3, 2), B(-3, 2), C(-3, -2) and D(3, -2). Name the figure ABCD and state its dimensions.",
+   "answer": "Draw the x-axis and y-axis meeting at the origin, marking equal units on both. Plot A three units right and two units up, in the first quadrant. Plot B three units left and two units up, in the second quadrant. Plot C three units left and two units down, in the third quadrant. Plot D three units right and two units down, in the fourth quadrant. Join A to B, B to C, C to D and D to A. The figure ABCD is a rectangle. Its length AB runs from x equal to -3 to x equal to 3, so it measures 6 units, and its breadth AD runs from y equal to 2 to y equal to -2, so it measures 4 units. The centre of the rectangle is the origin and both axes are lines of symmetry."
+  },
+  {
+   "concept": "Quadrants",
+   "form": "construction",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Draw a labelled diagram of the coordinate plane showing all four quadrants, the sign pattern in each, and one example point in each quadrant.",
+   "answer": "Draw two perpendicular lines crossing at the centre of the page and label the horizontal one x-axis and the vertical one y-axis, marking the arrow directions and the positive and negative ends of each. Label the crossing point O, the origin (0, 0). Write the quadrant numbers in the four regions, going anticlockwise from the upper right: I, II, III, IV. In quadrant I write the sign pattern (+, +) and plot an example such as (4, 3). In quadrant II write (-, +) and plot (-4, 3). In quadrant III write (-, -) and plot (-4, -3). In quadrant IV write (+, -) and plot (4, -3). Add a note on the axes themselves stating that points on an axis have one coordinate zero and belong to no quadrant, and mark (5, 0) on the x-axis and (0, 5) on the y-axis as examples."
+  },
+  {
+   "concept": "Distance Formula",
+   "form": "proof",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Prove that the points (0, 0), (5, 0) and (0, 5) form an isosceles right-angled triangle.",
+   "answer": "Let A be (0, 0), B be (5, 0) and C be (0, 5). Using the distance formula: AB has differences 5 and 0, so AB is the square root of 25, which is 5 units. AC has differences 0 and 5, so AC is the square root of 25, which is also 5 units. BC has differences (0 minus 5), which is -5, and (5 minus 0), which is 5, so BC is the square root of (25 plus 25), that is the square root of 50, which is 5 times the square root of 2. Since AB equals AC at 5 units each, two sides are equal, so the triangle is isosceles. For the right angle, test the Pythagoras relation on the longest side BC: AB squared plus AC squared equals 25 plus 25, which is 50, and BC squared is also 50. Since the square of the longest side equals the sum of the squares of the other two, the angle opposite BC, namely the angle at A, is a right angle. The triangle is therefore both isosceles and right-angled, with the right angle at the origin, which is also evident because AB lies along the x-axis and AC lies along the y-axis and the axes are perpendicular."
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1020,
+ "mappings": [
+  {
+   "sha": "8964ba53de5b7fd1",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Position, size and nature for one named object position in a concave mirror, read off the standard table rather than computed - LO-1's 'locates the image', not LO-2."
+  },
+  {
+   "sha": "9fdd0d18b2bdec57",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Value of c is asked only because refractive index is defined as c/v; it belongs with the refractive-index clause of LO-3 and nowhere else in this frame."
+  },
+  {
+   "sha": "9c2fa178200a71b2",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Speed of light varying with medium is the physical basis of refraction and of n - LO-3. Nothing here touches mirrors, formulae or diagrams."
+  },
+  {
+   "sha": "585b3d004e977c6c",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Condition for no bending (normal incidence) is a direct consequence of the laws of refraction - the 'states the laws of refraction' clause."
+  },
+  {
+   "sha": "9cda3c45a9123454",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Recall of n = c/v, i.e. the definition of refractive index. LO-3 is the only outcome that defines it."
+  },
+  {
+   "sha": "5fdd4386c59bf035",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Cause of refraction as change of speed - the explanatory half of the laws of refraction, not an application of the lens formula."
+  },
+  {
+   "sha": "218f0581f96feeb6",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Interpreting n = 1.5 as a speed ratio tests the definition rather than any numeric substitution; still LO-3, which fuses definition and application."
+  },
+  {
+   "sha": "f0259698c88db405",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Recall of 1/v - 1/u = 1/f. LO-3 says 'applies the lens formula'; this item only states it, but the frame offers no separate 'states the lens formula' outcome."
+  },
+  {
+   "sha": "ceb3d2022dde4fe3",
+   "codes": ["C 2.3"],
+   "note": "Whether a concave lens can ever form a real image - a standing property of the lens with no numbers and no formula, so the competency rather than LO-3, which is about applying the lens formula."
+  },
+  {
+   "sha": "f83cad3298723c8b",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Direction of bending denser-to-rarer: the second law of refraction stated qualitatively."
+  },
+  {
+   "sha": "9fb44e10ce7c069b",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Reciprocity of relative refractive indices - a property of the definition of n, which only LO-3 carries."
+  },
+  {
+   "sha": "dd753b46d4c4bd66",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Absolute refractive index defined against vacuum; definitional, and LO-3 is the outcome that defines refractive index."
+  },
+  {
+   "sha": "6ff7d40b6a83209a",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Emergent-ray/incident-ray relation for a slab stated in words; no diagram is required, so C 8.1-LO-2 is not in play."
+  },
+  {
+   "sha": "798e1d48be2921b1",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Numeric relative refractive index, n(g,w) = ng/nw. This is substitution, but LO-3 fuses definition and application so it lands on the same code as the definitional items."
+  },
+  {
+   "sha": "fbd343a980b14214",
+   "codes": ["C 2.3-LO-2"],
+   "note": "Defines magnification as the image/object size ratio - LO-2 is the only outcome naming the magnification formula. The item also covers lenses, for which no magnification outcome exists."
+  },
+  {
+   "sha": "9d6583547ff3e286",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Names the concave-mirror property behind a shaving mirror (object inside F gives a magnified erect virtual image) - image characteristics by object position, LO-1."
+  },
+  {
+   "sha": "e44f09dcbdc71c06",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Values of i and r at normal incidence, i.e. the law of reflection applied to a special case; the 'states the laws of reflection' clause."
+  },
+  {
+   "sha": "d05d6e880eb6ba10",
+   "codes": ["C 2.3-LO-2"],
+   "note": "A numeric substitution, f = R/2, rather than a qualitative image-location argument, so it goes with the quantitative mirror outcome even though LO-2's text names only the mirror and magnification formulae."
+  },
+  {
+   "sha": "3ba86b8b4d57a89c",
+   "codes": ["C 8.1-LO-2", "C 2.3-LO-3"],
+   "note": "Two graded steps: drawing the slab ray path with angle of refraction and lateral shift marked, and computing the reciprocal refractive index. C 8.1-LO-2 is applied to a slab by extension - its text names only mirrors and lenses."
+  },
+  {
+   "sha": "9a857d7e30f212d1",
+   "codes": ["C 8.1-LO-2", "C 2.3-LO-1"],
+   "note": "Completing the reflected path on a convex mirror is the ray-diagram outcome; marking i and r is the law of reflection (LO-1). No image is located and no formula is used."
+  },
+  {
+   "sha": "a4f7ab8c249c6252",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Principal focus of a convex mirror defined by where reflected rays appear to come from - the virtual-focus idea LO-1 needs for convex mirrors."
+  },
+  {
+   "sha": "89be57be6c614725",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Unit of lens power. Nearest legal code only - the dioptre appears in no outcome of this frame (defect list)."
+  },
+  {
+   "sha": "12c6424a826c0af5",
+   "codes": ["C 2.3-LO-1"],
+   "note": "The one object position that makes a concave mirror image virtual - a straight image-location statement, no arithmetic."
+  },
+  {
+   "sha": "eb52d11b2cc56ee1",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Identifies the mirror from its invariant image characteristics (always virtual and diminished) - LO-1's convex-mirror clause."
+  },
+  {
+   "sha": "03742488b802003d",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Names the shaving mirror and gives magnification as the reason - still image characteristics by mirror type, not a computed magnification."
+  }
+ ]
+}

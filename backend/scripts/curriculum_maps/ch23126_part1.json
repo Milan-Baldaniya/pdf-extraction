@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23126,
+ "mappings": [
+  {
+   "sha": "10bca236a53d975a",
+   "codes": ["C-2.3-LO-5"],
+   "note": "the four options are relations among a, b, c and only D = 0 selects one; nothing is solved or factorised, so this is discriminant knowledge in the abstract"
+  },
+  {
+   "sha": "2d0d23fc6bc8bcd1",
+   "codes": ["C-2.3-LO-5"],
+   "note": "same D = 0 condition rearranged for c instead of stated as b^2 = 4ac; still purely the equal-roots criterion"
+  },
+  {
+   "sha": "4cc51b655bf97e15",
+   "codes": ["C-2.1-LO-5"],
+   "note": "builds the polynomial backwards from the sum and product of its zeroes; that is the zeroes-coefficients correspondence, not solving or testing an equation"
+  },
+  {
+   "sha": "802d7bdc65951124",
+   "codes": ["C-2.1-LO-5"],
+   "note": "equates -b/a with c/a to pin k; the whole content is the relation between zeroes and coefficients, with no discriminant involved"
+  },
+  {
+   "sha": "d9c99bc46ab85eab",
+   "codes": ["C-2.1-LO-5"],
+   "note": "a symmetric function of the zeroes, 1/a+1/b, rewritten as (sum)/(product); the zeroes are never found individually so no solving outcome applies"
+  },
+  {
+   "sha": "8a0a3725307227d0",
+   "codes": ["C-2.1-LO-5"],
+   "note": "reads the sum of zeroes straight off -b/a without solving 2x^2-13x+6; the simplest member of the zeroes-coefficients family"
+  },
+  {
+   "sha": "db604b02bb75a5d0",
+   "codes": ["C-2.3-LO-3"],
+   "note": "a pure difference of squares giving the roots directly; no formula and no discriminant, so this is the factorisation outcome at its simplest"
+  },
+  {
+   "sha": "0020bd3510390a84",
+   "codes": ["C-2.1-LO-5"],
+   "note": "substitutes a known root and solves for the parameter -- the definition that a root makes the polynomial vanish, i.e. root = zero, so C-2.1-LO-5 rather than any solving outcome"
+  },
+  {
+   "sha": "1e71467174637c8a",
+   "codes": ["C-2.1-LO-5"],
+   "note": "shifts both roots by 2 and matches the new sum and product to the given equation; a transformation-of-roots item worked entirely through -b/a and c/a"
+  },
+  {
+   "sha": "4b1aab5f2611702b",
+   "codes": ["C-2.3-LO-5"],
+   "note": "sets D = 0 and solves the resulting quadratic in k, and both roots are admissible; the graded step is imposing the equal-roots condition"
+  },
+  {
+   "sha": "cd7261c7f1b3f4b6",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = 0 on symbolic coefficients collapses to a perfect square (mq-np)^2 = 0; a proof driven by the discriminant, not by factorising the original equation"
+  },
+  {
+   "sha": "e6d4e7631c11bd97",
+   "codes": ["C-2.3-LO-5"],
+   "note": "asks when real LINEAR FACTORS exist, which is the D >= 0 condition dressed up; the answer is a range of k, so the discriminant is the operative tool"
+  },
+  {
+   "sha": "52a8bb7c3eeefa05",
+   "codes": ["C-2.1-LO-5"],
+   "note": "reciprocal roots force the product c/a to equal 1; a condition read off the zeroes-coefficients relation, with no discriminant"
+  },
+  {
+   "sha": "b68ab7deafbab705",
+   "codes": ["C-2.3-LO-5"],
+   "note": "a negative D with a surd coefficient decides 'no real roots'; a nature-of-roots verdict, so LO-5 and not a solving outcome"
+  },
+  {
+   "sha": "6a6bc7a04000e177",
+   "codes": ["C-2.3-LO-3"],
+   "note": "a substitution y = x^(1/3) reduces it to a factorisable quadratic and the roots are then un-substituted by cubing; factorisation carries it, not the formula"
+  },
+  {
+   "sha": "849c6d7f8f61a218",
+   "codes": ["C-2.3-LO-5"],
+   "note": "expands to a biquadratic, substitutes y = x^2 and shows D < 0 for y; the verdict 'no real roots' rests on the discriminant, unlike the other substitution items which factorise"
+  },
+  {
+   "sha": "24b990793ddd9c87",
+   "codes": ["C-2.3-LO-5"],
+   "note": "shows D = 4(p^2+1) is positive for EVERY real p, so the roots are always real; a parametric discriminant argument rather than a single numeric check"
+  },
+  {
+   "sha": "d271e31d84cc8437",
+   "codes": ["C-2.1-LO-5"],
+   "note": "one root twice the other is imposed through the sum and product of roots to give 2b^2 = 9ac; a coefficient relation derived from the zeroes, not from D"
+  },
+  {
+   "sha": "3dea2bf7e48c2281",
+   "codes": ["C-2.3-LO-3"],
+   "note": "a simultaneous system reduced to a biquadratic that factorises as (x^2-16)(x^2-9); the marks are on the factorisation, though the option list is defective (two identical choices)"
+  },
+  {
+   "sha": "e2e20860fa1d75d3",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = 0 exactly, so the verdict is two equal real roots; the surd and fractional coefficients are the only difficulty"
+  },
+  {
+   "sha": "8a64c8c9e4aef35d",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = 21 > 0 gives two distinct real roots; the positive-discriminant case of the same four-option nature-of-roots family"
+  },
+  {
+   "sha": "e46346a612873405",
+   "codes": ["C-2.3-LO-5"],
+   "note": "requires comparing 9 against 8*sqrt(2) numerically before the sign of D can be settled; a nature-of-roots item with an estimation step"
+  },
+  {
+   "sha": "e3bf9772176f6a67",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = -11 with integer coefficients, the plainest no-real-roots case in this run"
+  },
+  {
+   "sha": "227f76eee2de161d",
+   "codes": ["C-2.3-LO-5"],
+   "note": "16 against 12*sqrt(2) is a near-tie that must be estimated to see D < 0; deliberately paired with the +4x version which flips the sign"
+  },
+  {
+   "sha": "dbe71e520603c579",
+   "codes": ["C-2.3-LO-5"],
+   "note": "the negative constant makes -4ac positive so D > 0 without any estimation; the contrast partner of the preceding item, same outcome"
+  }
+ ]
+}

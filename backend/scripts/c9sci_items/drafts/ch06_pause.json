@@ -1,0 +1,118 @@
+{
+ "chapter": 6,
+ "chapter_id": 8605,
+ "extraction_id": 597,
+ "section": "pause",
+ "items": [
+  {
+   "number": "1",
+   "form": "very_short",
+   "page": 224,
+   "stem": "A weight lifter lifts a barbell as shown in the figure. List two forces that are acting on the barbell. Are these forces balanced if the weight lifter keeps the barbell steady?",
+   "answer": "The two primary forces acting on the barbell are the downward gravitational force exerted by the Earth and the upward force applied by the weightlifter’s hands. Yes, if the weightlifter keeps the barbell completely steady, these two opposing forces are equal in magnitude and are balanced.",
+   "concept": "Vertical forces balance in system",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "2",
+   "form": "very_short",
+   "page": 224,
+   "stem": "Two players R and S are participating in an arm-wrestling match as shown in the figure. At the instant, when the arms tilt to the front direction (out of the page towards you), are the forces exerted by the players balanced? If not, which player exerted the larger force?",
+   "answer": "No, the forces are not balanced because the arms are moving and accelerating in a specific direction. The player who is applying their force in the direction of the tilt (out of the page towards you) has exerted the larger force.",
+   "concept": "Net force from opposing forces",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "3",
+   "form": "very_short",
+   "page": 223,
+   "stem": "An object is moving with a constant velocity. Is there a net force acting upon it?",
+   "answer": "No, there is no net force acting upon it. According to Newton’s first law of motion, an object maintains a constant velocity only when the net external force acting on it is zero.",
+   "concept": "First law and inertia",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "4",
+   "form": "very_short",
+   "page": 223,
+   "stem": "Suppose, no net force is acting on an object. Which of the following situations are possible? (i) Object remains at rest if at rest. (ii) Object keeps moving with a constant velocity if already moving. (iii) Object is moving with a constant acceleration.",
+   "answer": "Only situations (i) and (ii) are possible when no net force is acting on an object. Situation (iii) is not possible because having a constant acceleration requires a continuous, non-zero net force.",
+   "concept": "First law and inertia",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "5",
+   "form": "very_short",
+   "page": 223,
+   "stem": "In the real world, it is difficult to find a situation where no forces are acting on an object. But by applying additional forces, a condition can be achieved where the net force on the object is zero. Explain with the help of an example.",
+   "answer": "In everyday life, forces like friction and gravity are always present and acting on objects. However, we can create a zero net force situation by applying an external force that exactly balances these opposing forces. For example, if you push a heavy box across the floor at a constant speed, the forward pushing force you apply is exactly equal to the backward force of friction. Because these forces cancel each other out, the net force is zero and the box does not accelerate.",
+   "concept": "Friction as opposing force",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "6",
+   "form": "very_short",
+   "page": 223,
+   "stem": "A toy car of mass 100 g is moving with a constant velocity of 0.5 m s-1. What is the net force acting on the toy car?",
+   "answer": "The net force acting on the toy car is zero. Because the car is moving with a constant velocity, its acceleration is zero, which implies that all forces acting on it are perfectly balanced.",
+   "concept": "First law and inertia",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "7",
+   "form": "very_short",
+   "page": 223,
+   "stem": "Two children of different masses are sitting on identical swings. To impart identical initial acceleration, for which child would you require to apply a larger force? Explain why.",
+   "answer": "You would require a larger force to accelerate the child with the greater mass. According to Newton’s second law of motion, force is equal to mass multiplied by acceleration. Therefore, to achieve the exact same acceleration, a heavier object inherently requires a proportionally larger applied net force.",
+   "concept": "Newton’s second law (F = ma)",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "8",
+   "form": "very_short",
+   "page": 223,
+   "stem": "How are glass items packed for transportation using a bubble wrap or hay protected from damage?",
+   "answer": "Materials like bubble wrap or hay are highly compressible and act as soft cushions for fragile items. During a sudden stop or collision, these materials increase the time duration over which the glass item comes to rest. By increasing the time of the impact, the rate of change of momentum is decreased, which results in a much smaller force being exerted on the glass, thereby preventing it from breaking.",
+   "concept": "Longer impact time lowers stopping force",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "9",
+   "form": "very_short",
+   "page": 223,
+   "stem": "Why does a fire person sometimes struggle when holding the pipe issuing water?",
+   "answer": "A fire person struggles because of the equal and opposite reaction principle described by Newton’s third law of motion. The hose pipe exerts a large forward force to push a massive amount of water out at high speeds. Simultaneously, the rushing water exerts an equally large backward reaction force on the pipe, causing a strong recoil that the fireperson must constantly fight to hold steady.",
+   "concept": "Net force from opposing forces",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "10",
+   "form": "very_short",
+   "page": 223,
+   "stem": "Suppose a spacecraft is moving in a region of space where the gravitational force acting upon it is negligible. Suggest how can it change its velocity.",
+   "answer": "To change its velocity in the absence of external forces like gravity, the spacecraft must use its own thrusters or engines. By expelling exhaust gases backward at a high speed, the spacecraft exerts a strong force on the gases. According to Newton’s third law, the gases exert an equal and opposite forward reaction force on the spacecraft, providing the net force needed to accelerate and alter its velocity.",
+   "concept": "Frictionless motion continues indefinitely",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 4
+  }
+ ]
+}

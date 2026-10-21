@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23197,
+ "mappings": [
+  {
+   "sha": "9b076749f6fe4966",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the only given is a polynomial Sn; recovering a4 needs an = Sn - S(n-1), which is knowledge of what the sum of n terms means, so LO-3 not LO-2"
+  },
+  {
+   "sha": "cef8187e6c4fe339",
+   "codes": ["C-3.1-LO-3"],
+   "note": "same Sn - S(n-1) route, evaluated at k = 1; the stated d = 6 is redundant, and the graded object throughout is the sum expression"
+  },
+  {
+   "sha": "6a77a27b56ba7d04",
+   "codes": ["C-3.1-LO-2"],
+   "note": "sets a(n) = a41 + 72 and solves for the index; two uses of the nth-term formula and no sum, so LO-2"
+  },
+  {
+   "sha": "9ee1761027d171fc",
+   "codes": ["C-3.1-LO-2"],
+   "note": "nth-term equation solved for n on a listed AP; the sequence is printed, so nothing has to be modelled from context"
+  },
+  {
+   "sha": "0e1d27f3a28c862b",
+   "codes": ["C-3.1-LO-2"],
+   "note": "asks for the general closed form rather than a numeric term -- the derive half of LO-2 applied to an algebraic list"
+  },
+  {
+   "sha": "3d89c8396946ab16",
+   "codes": ["C-3.1-LO-2"],
+   "note": "duplicate of the a21-a7 = 84 item earlier in this chapter; still index expansion through a+(n-1)d, so LO-2"
+  },
+  {
+   "sha": "3301a2c8d3b0d514",
+   "codes": ["C-3.1-LO-2"],
+   "note": "the extra step is an inequality a+(n-1)d < 0 and rounding up to the next integer index; the relation being used is still the nth-term formula"
+  },
+  {
+   "sha": "768c8a409c1dd199",
+   "codes": ["C-3.1-LO-3"],
+   "note": "a purely symbolic identity among three consecutive partial sums, resolved by applying an = Sn - S(n-1) twice; entirely about the sum, with no numbers"
+  },
+  {
+   "sha": "e342be6f35f05be7",
+   "codes": ["C-3.1-LO-3"],
+   "note": "n = 15 is stated, so no count is derived from a description; the sum formula alone is graded"
+  },
+  {
+   "sha": "c13fd4fdaa0630b1",
+   "codes": ["C-3.1-LO-3"],
+   "note": "a proof entirely inside the sum formula: Sm = Sn is factorised to (m-n)[2a+(m+n-1)d] = 0; no term value is ever computed"
+  },
+  {
+   "sha": "41bd8ab4759154f2",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the number of terms comes out of a quadratic in n produced by the sum formula on a printed AP, not out of a described number set, so LO-3 rather than C-3.2-LO-2"
+  },
+  {
+   "sha": "85b07990f0d2c6ab",
+   "codes": ["C-3.2-LO-2"],
+   "note": "'two digit numbers divisible by 3' must be turned into a = 12, d = 3, last term 99 before counting; the contextual construction plus the count is LO-2 of C-3.2"
+  },
+  {
+   "sha": "d69d3e9d52e1e962",
+   "codes": ["C-3.1-LO-2"],
+   "note": "computes a21 then solves a(n) = a21+120 for the index; a two-step nth-term item, no sum involved"
+  },
+  {
+   "sha": "3d1457c26adf94c2",
+   "codes": ["C-3.1-LO-3"],
+   "note": "Sn is given as a quadratic and the nth term is extracted by differencing consecutive sums; the knowledge tested is the meaning of Sn, so LO-3"
+  },
+  {
+   "sha": "bd82c6374f2d3150",
+   "codes": ["C-3.1-LO-2"],
+   "note": "straight a+(n-1)d at index 21 with mixed-fraction terms; the difficulty is arithmetic, not a different outcome"
+  },
+  {
+   "sha": "18b7065fd5b5e372",
+   "codes": ["C-3.1-LO-3"],
+   "note": "Sn = n^2 given; a10 is reached only through Sn - S(n-1), so the sum is the object under test even though a term is the answer"
+  },
+  {
+   "sha": "353781d96568f560",
+   "codes": ["C-3.1-LO-2"],
+   "note": "membership test resolved by a non-integer index from a+(n-1)d = 184; the verdict is no, and it rests on the nth-term formula"
+  },
+  {
+   "sha": "c53c5ddc1dc25f2f",
+   "codes": ["C-3.1-LO-2"],
+   "note": "same membership test with an integer index, so the verdict is yes; paired deliberately with the 184 item, both LO-2"
+  },
+  {
+   "sha": "801d1c19026dbec7",
+   "codes": ["C-3.1-LO-2"],
+   "note": "requires re-anchoring the nth-term formula at the last term and stepping with -d; a re-orientation of LO-2's formula rather than a count of terms"
+  },
+  {
+   "sha": "7ad5a05bd7a0528e",
+   "codes": ["C-3.1-LO-2"],
+   "note": "proof item: a32 = 2a12 forces a = 9d, then two further indices are evaluated; the whole argument lives in a+(n-1)d"
+  },
+  {
+   "sha": "e155bdff6cdba9e8",
+   "codes": ["C-3.1-LO-2"],
+   "note": "a vanishing term pins a = -7d and the required ratio follows; same index-algebra family as the 32nd/12th proof, so honestly the same outcome"
+  },
+  {
+   "sha": "f1256c88e66f4bb1",
+   "codes": ["C-3.1-LO-2"],
+   "note": "weighted relation 5a5 = 8a8 collapsed to a+12d = 0 and recognised as a13; LO-2, with no sum anywhere"
+  },
+  {
+   "sha": "147e0b4aeb59c698",
+   "codes": ["C-3.1-LO-2"],
+   "note": "one term plus a sum OF TWO NAMED TERMS (not a partial sum Sn) gives simultaneous equations in a and d; a7+a11 is index algebra, so LO-2 and not LO-3"
+  },
+  {
+   "sha": "3ff64c586bab9978",
+   "codes": ["C-3.1-LO-2"],
+   "note": "identical structure with a9 and a11+a13; again two named terms added, which is nth-term work rather than the sum of the first n terms"
+  },
+  {
+   "sha": "2f5a50288296c7ef",
+   "codes": ["C-3.1-LO-2"],
+   "note": "a17 = a10 + 7 expands so a cancels and 7d = 7; the simplest member of the index-difference family, still LO-2"
+  }
+ ]
+}

@@ -1,0 +1,742 @@
+{
+ "chapter": 1,
+ "chapter_id": 8594,
+ "extraction_id": 605,
+ "source_url": "https://drive.google.com/file/d/1Way6BgPcJv9aOItxq3B67EaUz58zPkk2/view",
+ "items": [
+  {
+   "number": 1,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "In ancient Indian mathematics, Baudhāyana (c. 800 BCE) used mutually perpendicular East-West and North-South lines for geometric altar constructions, establishing early grid-based coordinate principles. If a ceremonial altar base is mapped on a Cartesian plane such that its vertices are located at (a, b), (-a, b), (-a, -b), and (a, -b) where a > 0 and b > 0, what geometric figure is formed, and in which quadrant does the vertex with both negative coordinates lie?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Parallelogram; Quadrant II"
+    },
+    {
+     "label": "B",
+     "text": "Rectangle; Quadrant III"
+    },
+    {
+     "label": "C",
+     "text": "Rhombus; Quadrant IV"
+    },
+    {
+     "label": "D",
+     "text": "Square; Quadrant II"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Correct Option: B) Rectangle; Quadrant III Explanation: • Vertices are (a,b) in Q I, (-a,b) in Q II, (-a,-b) in Q III, and (a,-b) in Q IV. • Horizontal lengths: |a - (-a)| = 2a. Vertical lengths: |b - (-b)| = 2b. Opposites are equal and adjacent angles are 90°, forming a rectangle. • The vertex with both negative coordinates (-a, -b) lies strictly in Quadrant III.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 2,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "Historical geographical records state that Ujjayinī was regarded as the prime meridian (zero longitude reference) in early Indian astronomy (Siddhāntas), later transcribed as 'Arin' in Arabic maps. If Ujjayinī is mapped as the origin (0,0) on a celestial grid, and city A has coordinates (-d, k) while city B has coordinates (d, -k) with d > 0, k > 0, which statement correctly describes the spatial relationship between city A and city B?",
+   "options": [
+    {
+     "label": "A",
+     "text": "City B is the reflection of City A in the x-axis."
+    },
+    {
+     "label": "B",
+     "text": "City B is the reflection of City A in the y-axis."
+    },
+    {
+     "label": "C",
+     "text": "City B is the reflection of City A through the origin (0,0)."
+    },
+    {
+     "label": "D",
+     "text": "City A and City B lie in the same quadrant"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Correct Option: C) City B is the reflection of City A through the origin (0,0). Explanation: • City A = (-d, k) where -d < 0 and k > 0 (Quadrant II). • City B = (d, -k) where d > 0 and -k < 0 (Quadrant IV). • Switching signs of both x and y coordinates (x -> -x, y -> -y) corresponds to a central reflection through the origin (0,0).",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 3,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "In Reiaan's room floor layout, the room boundaries form a rectangle with vertices O(0,0), A(12,0), B(12,10), and C(0,10). A study desk is positioned such that three of its foot corners are at (8,9), (11,9), and (11,7). A student analyses the position of the desk. Which of the following spatial deductions is INCORRECT?",
+   "options": [
+    {
+     "label": "A",
+     "text": "The fourth foot of the table is at (8,7)."
+    },
+    {
+     "label": "B",
+     "text": "The area covered by the table on the floor is 6 square feet."
+    },
+    {
+     "label": "C",
+     "text": "The desk extends 2 units parallel to the y-axis and 3 units parallel to the x-axis."
+    },
+    {
+     "label": "D",
+     "text": "The desk is positioned completely inside the bathroom space."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Correct Option: D) The desk is positioned completely inside the bathroom space. Explanation: • Given 3 feet at (8,9), (11,9), and (11,7). Since it is rectangular, the 4th foot is at (8,7). • Width along x = 11 - 8 = 3 ft; Length along y = 9 - 7 = 2 ft. Area = 3 × 2 = 6 sq ft. • Option D is false because x = 8 to 11 lies inside the bedroom (x = 0 to 12), whereas the bathroom lies in x < 0 (x = -6 to 0).",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 4,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "Point P lies in Quadrant II of the Cartesian plane such that its perpendicular distance from the x-axis is 7 units and its perpendicular distance from the y-axis is 4 units. What are the coordinates of point P?",
+   "options": [
+    {
+     "label": "A",
+     "text": "(-7, 4)"
+    },
+    {
+     "label": "B",
+     "text": "(-4, 7)"
+    },
+    {
+     "label": "C",
+     "text": "(4, -7)"
+    },
+    {
+     "label": "D",
+     "text": "(7, -4)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Correct Option: B) (-4, 7) Explanation: • Perpendicular distance from x-axis = |y| = 7. In Quadrant II, y is positive, so y = +7. • Perpendicular distance from y-axis = |x| = 4. In Quadrant II, x is negative, so x = -4. • Coordinates = (-4, 7).",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 5,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "Consider a point Q(x, y) located in the Cartesian plane. Under what precise condition will the point Q(x, y) coincide with the point R(y, x)?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Only when x = -y"
+    },
+    {
+     "label": "B",
+     "text": "Only when both x and y are positive"
+    },
+    {
+     "label": "C",
+     "text": "If and only if x = y"
+    },
+    {
+     "label": "D",
+     "text": "Points (x, y) and (y, x) can never coincide"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Correct Option: C) If and only if x = y Explanation: • Two ordered pairs (a, b) and (c, d) are equal if and only if a = c and b = d. • For (x, y) = (y, x), we must have x = y and y = x, which reduces strictly to x = y.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 6,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "A point lies on the y-axis and is at a distance of 6.5 units below the x-axis. What are its coordinates, and what is its distance from the origin?",
+   "options": [
+    {
+     "label": "A",
+     "text": "(-6.5, 0) and distance is 6.5 units"
+    },
+    {
+     "label": "B",
+     "text": "(0, -6.5) and distance is 6.5 units"
+    },
+    {
+     "label": "C",
+     "text": "(0, 6.5) and distance is -6.5 units"
+    },
+    {
+     "label": "D",
+     "text": "(-6.5, -6.5) and distance is 13 units"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Correct Option: B) (0, -6.5) and distance is 6.5 units Explanation: • Any point on the y-axis has x-coordinate = 0. • Being 6.5 units below the x-axis means y = -6.5. Coordinates = (0, -6.5). • Distance from origin = √(0^2 + (-6.5)^2) = 6.5 units (distance is non-negative).",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 7,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "An architectural layout maps a room's door frame on the x-axis between points D1(8, 0) and R1(11.5, 0). If an accessibility guideline requires doors to be at least 3.2 feet wide to allow easy wheelchair passage, does this door comply with the guideline?",
+   "options": [
+    {
+     "label": "A",
+     "text": "No, because the door width is 2.5 feet."
+    },
+    {
+     "label": "B",
+     "text": "Yes, because the door width is 3.5 feet."
+    },
+    {
+     "label": "C",
+     "text": "No, because the door width is 11.5 feet."
+    },
+    {
+     "label": "D",
+     "text": "Yes, because the door width is 8 feet."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Correct Option: B) Yes, because the door width is 3.5 feet. Explanation: • Door spans D1(8, 0) to R1(11.5, 0) on the x-axis. • Width = |11.5 - 8| = 3.5 feet. • Since 3.5 feet ≥ 3.2 feet required width, it complies with accessibility guidelines.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 8,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "Triangle ADM has vertices at A(3, 4), D(7, 1), and M(9, 6). Using the Baudhāyana-Pythagoras theorem on the grid, what is the exact perimeter of triangle ADM?",
+   "options": [
+    {
+     "label": "A",
+     "text": "5 + √29 + √40units"
+    },
+    {
+     "label": "B",
+     "text": "12 + √20 units"
+    },
+    {
+     "label": "C",
+     "text": "15 units"
+    },
+    {
+     "label": "D",
+     "text": "√25 + √25 + √25 units"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Correct Option: A) 5 + √29 + √40 units Explanation: • Side AD: √((7-3)^2 + (1-4)^2) = √(16 + 9) = √25 = 5 units. • Side DM: √((9-7)^2 + (6-1)^2) = √(4 + 25) = √29 units. • Side MA: √((9-3)^2 + (6-4)^2) = √(36 + 4) = √40 units. • Perimeter = AD + DM + MA = 5 + √29 + √40 units.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 9,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "If triangle ADM with vertices A(3, 4), D(7, 1), and M(9, 6) is reflected across the y-axis to form triangle A'D'M', which property of the triangle is altered?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Lengths of the side segments AD, DM, and MA"
+    },
+    {
+     "label": "B",
+     "text": "The overall perimeter of the triangle"
+    },
+    {
+     "label": "C",
+     "text": "The signs of the x-coordinates of its vertices"
+    },
+    {
+     "label": "D",
+     "text": "The area enclosed by the triangle"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Correct Option: C) The signs of the x-coordinates of its vertices Explanation: • Reflection across the y-axis transforms point (x, y) into (-x, y). • x-coordinates change signs (A'( -3, 4), D'(-7, 1), M'(-9, 6)). • Reflection is a rigid transformation (isometry), so side lengths, perimeter, and area remain invariant.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 10,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "A line segment ST has endpoints S(-3, 0) and T(3, 0). Point M is the midpoint of ST. If the line segment is shifted upwards parallel to the y-axis by 4 units to form S'T', what are the new coordinates of the midpoint M'?",
+   "options": [
+    {
+     "label": "A",
+     "text": "(0, 0)"
+    },
+    {
+     "label": "B",
+     "text": "(0, 4)"
+    },
+    {
+     "label": "C",
+     "text": "(3, 4)"
+    },
+    {
+     "label": "D",
+     "text": "(-3, 4)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Correct Option: B) (0, 4) Explanation: • Midpoint M of S(-3,0) and T(3,0) is ((-3+3)/2, (0+0)/2) = (0,0). • Shifting the segment up by 4 units adds +4 to the y-coordinates: S'(-3, 4), T'(3, 4). • New midpoint M' = ((-3+3)/2, (4+4)/2) = (0, 4).",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 11,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "Let P(-5, -2) and Q(5, -2) be two points in a coordinate plane. The distance between points P and Q is calculated using which formula derivation?",
+   "options": [
+    {
+     "label": "A",
+     "text": "| −5 − 5| = 10 units along tℎe x−axis since y−coordinates are equal"
+    },
+    {
+     "label": "B",
+     "text": "| −2 − (−2)| = 4 units along tℎe y−axis"
+    },
+    {
+     "label": "C",
+     "text": "√(−5)2 + (−2)2 = √29 units"
+    },
+    {
+     "label": "D",
+     "text": "D) 5 + 2 = 7 units"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Correct Option: A) |-5 - 5| = 10 units along the x-axis since y-coordinates are equal Explanation: • Since both points have y = -2, the segment is parallel to the x-axis. • Distance = |x2 - x1| = |5 - (-5)| = 10 units.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 12,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "In a town planning software, two main avenues cross at the origin O(0,0). Avenue East-West is the x-axis, and Avenue North-South is the y-axis. A delivery hub is located at (-6, -8). In which quadrant is the delivery hub, and what is its direct shortest distance (crow-fly distance) from the origin?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Quadrant II; 14 units"
+    },
+    {
+     "label": "B",
+     "text": "Quadrant III; 10 units"
+    },
+    {
+     "label": "C",
+     "text": "Quadrant IV; 10 units"
+    },
+    {
+     "label": "D",
+     "text": "Quadrant III; 14 units"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Correct Option: B) Quadrant III; 10 units Explanation:• Both x = -6 and y = -8 are negative, placing the hub in Quadrant III. • Distance from origin O(0,0) = √((-6)^2 + (-8)^2) = √(36 + 64) = √100 = 10 units.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 13,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "Points A(1, -8), B(-4, 7), and C(-7, -4) all lie on a circle centred at the origin O(0,0). What is the exact radius of this circle?",
+   "options": [
+    {
+     "label": "A",
+     "text": "√65 units"
+    },
+    {
+     "label": "B",
+     "text": "8 units"
+    },
+    {
+     "label": "C",
+     "text": "√55 units"
+    },
+    {
+     "label": "D",
+     "text": "65 units"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Correct Option: A) √65 units Explanation: • Radius r = distance from origin (0,0) to A(1, -8). • r = √((1 - 0)^2 + (-8 - 0)^2) = √(1 + 64) = √65 units (≈ 8.06 units).",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 14,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "A computer screen grid has origin (0,0) at the bottom-left corner. A circular icon of radius 80 pixels is centred at A(100, 150). What are the minimum and maximum x-coordinates occupied by the edges of this circular icon?",
+   "options": [
+    {
+     "label": "A",
+     "text": "x_min = 100, x_max = 180"
+    },
+    {
+     "label": "B",
+     "text": "x_min = 20, x_max = 180"
+    },
+    {
+     "label": "C",
+     "text": "x_min = 70, x_max = 230"
+    },
+    {
+     "label": "D",
+     "text": "x_min = 0, x_max = 200"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Correct Option: B) x_min = 20, x_max = 180 Explanation: • Center x-coordinate = 100, radius = 80. • Minimum x-extent = 100 - 80 = 20 pixels. • Maximum x-extent = 100 + 80 = 180 pixels.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 15,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "Four points are plotted on a graph: A(2, 1), B(-1, 2), C(-2, -1), and D(1, -2). What shape is formed by connecting A-B-C-D-A, and what is its area?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Rectangle of area 10 sq units"
+    },
+    {
+     "label": "B",
+     "text": "Square of area 10 sq units"
+    },
+    {
+     "label": "C",
+     "text": "Square of area 5 sq units"
+    },
+    {
+     "label": "D",
+     "text": "Rhombus of area 20 sq units"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Correct Option: B) Square of area 10 sq units Explanation: • AB^2 = (-1-2)^2 + (2-1)^2 = 9 + 1 = 10 => AB = √10. • BC^2 = (-2 - (-1))^2 + (-1-2)^2 = 1 + 9 = 10 => BC = √10. • CD^2 = (1 - (-2))^2 + (-2 - (-1))^2 = 9 + 1 = 10 => CD = √10. • DA^2 = (2-1)^2 + (1 - (-2))^2 = 1 + 9 = 10 => DA = √10. • Diagonal AC^2 = (-2-2)^2 + (-1-1)^2 = 16 + 4 = 20 => AC = √20. • Diagonal BD^2 = (1 - (-1))^2 + (-2-2)^2 = 4 + 16 = 20 => BD = √20. • All sides equal (√10) and diagonals equal (√20), so ABCD is a square. • Area = side^2 = (√10)^2 = 10 sq units.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 16,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "A point K lies in Quadrant IV. If its distance from the x-axis is 5 units and its distance from the y- axis is 3 units, what are the coordinates of K?",
+   "options": [
+    {
+     "label": "A",
+     "text": "(-5, 3)"
+    },
+    {
+     "label": "B",
+     "text": "(3, -5)"
+    },
+    {
+     "label": "C",
+     "text": "(-3, 5)"
+    },
+    {
+     "label": "D",
+     "text": "(5, -3)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Correct Option: B) (3, -5) Explanation: • In Quadrant IV, x > 0 and y < 0. • Distance from y-axis = |x| = 3 => x = +3. • Distance from x-axis = |y| = 5 => y = -5. • Point K = (3, -5).",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 17,
+   "form": "mcq",
+   "chapter_number": 1,
+   "stem": "If a system of coordinates were constructed without using negative numbers (using only non- negative real numbers [0, ∞), which of the following best describes the limitation of such a system?",
+   "options": [
+    {
+     "label": "A",
+     "text": "It can only represent points lying in Quadrant I and on the positive axes."
+    },
+    {
+     "label": "B",
+     "text": "It cannot measure distances between any two points."
+    },
+    {
+     "label": "C",
+     "text": "It cannot define the origin (0,0)."
+    },
+    {
+     "label": "D",
+     "text": "It can only represent 3D objects, not 2D shapes."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Correct Option: A) It can only represent points lying in Quadrant I and on the positive axes. Explanation: • Quadrants II, III, and IV require negative x or y coordinates. • Without negative numbers, points with negative coordinates cannot be assigned unique numerical pairs, restricting grid coverage to Quadrant I.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 18,
+   "form": "assertion_reason",
+   "chapter_number": 1,
+   "stem": "Assertion (A): The point P(-4, 0) lies on the negative x-axis at a perpendicular distance of 4 units from the y-axis.  Reason (R): For any point lying on the x-axis, its y-coordinate (ordinate) is always 0, and its x- coordinate (abscissa) represents its directed perpendicular distance from the y-axis.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true, and R is the correct explanation of A."
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true, but R is not the correct explanation of A."
+    },
+    {
+     "label": "C",
+     "text": "A is true, but R is false."
+    },
+    {
+     "label": "D",
+     "text": "A is false, but R is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Correct Option: A) Both (A) and (R) are true, and (R) is the correct explanation of (A). Step-by-step verification: • Assertion calculation: d = √((3 - (-3))^2 + (-4 - 4)^2) = √(6^2 + (-8)^2) = √(36 + 64) = √100 = 10 units. Assertion is TRUE. • Reason statement gives the exact Baudhāyana-Pythagoras distance formula used to calculate this distance. Reason is TRUE and correctly explains Assertion.",
+   "assertion": "The point P(-4, 0) lies on the negative x-axis at a perpendicular distance of 4 units from the y-axis.",
+   "reason": "For any point lying on the x-axis, its y-coordinate (ordinate) is always 0, and its x- coordinate (abscissa) represents its directed perpendicular distance from the y-axis.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 19,
+   "form": "assertion_reason",
+   "chapter_number": 1,
+   "stem": "Assertion (A): Point P(0, -5) lies in Quadrant IV of the Cartesian plane.  Reason (R): Any point whose x-coordinate is 0 lies directly on the y-axis and does not belong to any of the four quadrants.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true, and R is the correct explanation of A."
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true, but R is not the correct explanation of A."
+    },
+    {
+     "label": "C",
+     "text": "A is true, but R is false."
+    },
+    {
+     "label": "D",
+     "text": "A is false, but R is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Correct Option: D) (A) is false, but (R) is true. Step-by-step verification: • Point P(0, -5) has x = 0, which means it lies directly on the negative y-axis. It does NOT lie in Quadrant IV. Thus, Assertion (A) is FALSE. • Reason (R) correctly states that any point with x = 0 lies on the y-axis and does not belong to any quadrant. Reason (R) is TRUE.",
+   "assertion": "Point P(0, -5) lies in Quadrant IV of the Cartesian plane.",
+   "reason": "Any point whose x-coordinate is 0 lies directly on the y-axis and does not belong to any of the four quadrants.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 20,
+   "form": "very_short",
+   "chapter_number": 1,
+   "stem": "A point A is located on the x-axis at a distance of 7 units to the left of the origin, and point B is located on the y-axis at a distance of 24 units above the origin. Write the coordinates of A and B, and find the straight-line distance AB.",
+   "options": [],
+   "correct_option": "",
+   "answer": "Coordinates and Distance of Points A and B 1. Point A is on the x-axis, 7 units left of origin => A(-7, 0). 2. Point B is on the y-axis, 24 units above origin => B(0, 24). 3. Distance AB = √((0 - (-7))^2 + (24 - 0)^2) = √(7^2 + 24^2) = √(49 + 576) = √625 = 25 units.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 21,
+   "form": "very_short",
+   "chapter_number": 1,
+   "stem": "Explain why Brahmagupta's formalization of zero and negative numbers was a necessary prerequisite for the development of the modern four-quadrant Cartesian coordinate system.",
+   "options": [],
+   "correct_option": "",
+   "answer": "Historical Necessity of Zero and Negative Numbers • A 2D Cartesian coordinate plane is divided into four quadrants by two perpendicular axes intersecting at an origin. • The origin represents zero (0,0). Values to the left of origin on the x-axis and below origin on the y-axis represent negative quantities. • Brahmagupta formalised zero and negative numbers as algebraic entities. Without negative numbers, locations in Quadrants II, III, and IV could not be represented with unique numerical coordinates.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 22,
+   "form": "very_short",
+   "chapter_number": 1,
+   "stem": "Point M(x, y) is the midpoint of a line segment joining S(-8, 7) and T(6, -3). Calculate the values of x and y using coordinate principles.",
+   "options": [],
+   "correct_option": "",
+   "answer": "Midpoint Calculation • Midpoint formula: M(x, y) = ((x1 + x2)/2, (y1 + y2)/2). • Given S(-8, 7) and T(6, -3): x = (-8 + 6) / 2 = -2 / 2 = -1. y = (7 + (-3)) / 2 = 4 / 2 = 2. • Therefore, the coordinates of midpoint M are (-1, 2).",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 23,
+   "form": "very_short",
+   "chapter_number": 1,
+   "stem": "A rectangular room floor has corner coordinates O(0,0), A(12,0), B(12,10), and C(0,10). A circular rug of radius 3 feet is placed with its centre at (6, 5). Determine whether any part of the rug extends outside the room boundaries.",
+   "options": [],
+   "correct_option": "",
+   "answer": "Circular Rug Boundary Check • Center of rug = (6, 5), Radius r = 3 feet. • x-extent of rug: from 6 - 3 = 3 to 6 + 3 = 9. Room x-boundary is 0 to 12. (3 ≥ 0 and 9 ≤ 12 - OK) • y-extent of rug: from 5 - 3 = 2 to 5 + 3 = 8. Room y-boundary is 0 to 10. (2 ≥ 0 and 8 ≤ 10 - OK) • Conclusion: All edge points of the rug lie strictly within the room boundaries [3, 9] × [2, 8]. No part extends outside.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 24,
+   "form": "very_short",
+   "chapter_number": 1,
+   "stem": "Without plotting on graph paper, determine whether the point P(-4.5, 0) and point Q(0, 3.8) lie in any quadrant or on coordinate axes. Justify your reasoning.",
+   "options": [],
+   "correct_option": "",
+   "answer": "Location Analysis without Plotting • Point P(-4.5, 0): The y-coordinate is 0, while x = -4.5 ≠ 0. By rule, any point with y = 0 lies directly on the x- axis (specifically on the negative x-axis). It does NOT lie in any quadrant. • Point Q(0, 3.8): The x-coordinate is 0, while y = 3.8 ≠ 0. By rule, any point with x = 0 lies directly on the y- axis (specifically on the positive y-axis). It does NOT lie in any quadrant.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 25,
+   "form": "short",
+   "chapter_number": 1,
+   "stem": "Three points are given as M(-3, -4), A(0, 0), and G(6, 8). (i) Suggest and derive a mathematical method using distances to check if M, A, and G lie on the same straight line (are collinear) without plotting them. (ii) Execute your method to conclude whether they are collinear.",
+   "options": [],
+   "correct_option": "",
+   "answer": "Collinearity Test for M(-3,-4), A(0,0), G(6,8) (i) Method: Calculate pairwise distances MA, AG, and MG using the distance formula. Three points are collinear if the sum of the two shorter segment lengths equals the total length of the longest segment (MA + AG = MG). (ii) Execution: • MA = √((0 - (-3))^2 + (0 - (-4))^2) = √(3^2 + 4^2) = √25 = 5 units. • AG = √((6 - 0)^2 + (8 - 0)^2) = √(6^2 + 8^2) = √100 = 10 units. • MG = √((6 - (-3))^2 + (8 - (-4))^2) = √(9^2 + 12^2) = √(81 + 144) = √225 = 15 units. • Check: MA + AG = 5 + 10 = 15 = MG. • Conclusion: Since MA + AG = MG, points M, A, and G lie strictly on the same straight line.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 26,
+   "form": "short",
+   "chapter_number": 1,
+   "stem": "In Reiaan's bathroom layout, the bathroom occupies a rectangular region with vertices P(-6, 0), O(0, 0), F(0, 10), and R(-6, 10). (i)A washbasin area of size 3 ft × 2 ft is placed against the left wall (x = -6) in the bottom corner starting from y = 0. Write the coordinates of its four corners. (ii)A toilet space of size 2 ft × 3 ft is placed along the y-axis starting above the door hinge B2(0, 4) up to y = 7. Write the coordinates of its four corners.",
+   "options": [],
+   "correct_option": "",
+   "answer": "Bathroom Layout Coordinates (i) Washbasin space (3 ft × 2 ft): Placed against left wall x = -6, starting from y = 0 up to y = 2, and extending right from x = -6 by 3 ft to x = -3. Corners: (-6, 0), (-3, 0), (-3, 2), (-6, 2). (ii) Toilet space (2 ft × 3 ft): Placed along y-axis from y = 4 to y = 7, extending left from x = 0 by 2 ft to x = -2. Corners: (0, 4), (-2, 4), (-2, 7), (0, 7).",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 27,
+   "form": "short",
+   "chapter_number": 1,
+   "stem": "Points P and Q are points of trisection of the line segment AB, where P is closer to A and Q is closer to B. Given A(4, 7) and B(16, -2): (i)Find the midpoint of AB (call it M). (ii)Using midpoint concepts , calculate the precise coordinates of trisection points P and Q.",
+   "options": [],
+   "correct_option": "",
+   "answer": "Trisection Points of Segment AB Given A(4, 7) and B(16, -2). (i) Midpoint M of AB = ((4 + 16)/2, (7 + (-2))/2) = (20/2, 5/2) = (10, 2.5). (ii) Trisection point P is the midpoint of segment AM: P = ((4 + 10)/2, (7 + 2.5)/2) = (14/2, 9.5/2) = (8, 4.25). Trisection point Q is the midpoint of segment MB: Q = ((10 + 16)/2, (2.5 + (-2))/2) = (26/2, 0.5/2) = (12, 0.25). • Final Trisection Coordinates: P(8, 4.25) and Q(12, 0.25).",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 28,
+   "form": "short",
+   "chapter_number": 1,
+   "stem": "The points R(3, 0), A(0, -2), M(-5, -2), and P(-5, 2) are joined in order to form quadrilateral RAMP. (i) Identify two sides that are perpendicular to each other. (ii) Identify one side that is parallel to the x-axis. (iii) Identify two vertices that are mirror images of each other across an axis, and name the axis.",
+   "options": [],
+   "correct_option": "",
+   "answer": "Properties of Quadrilateral RAMP Vertices: R(3,0), A(0,-2), M(-5,-2), P(-5,2). (i) Side AM lies on line y = -2 (horizontal). Side MP lies on line x = -5 (vertical). Since horizontal and vertical lines intersect at 90°, sides AM and MP are perpendicular. (ii) Side AM connects (0,-2) and (-5,-2). Both points have y = -2, so side AM is parallel to the x-axis. (iii) Mirror image vertices: Point M(-5, -2) and Point P(-5, 2) have identical x-coordinates (-5) and opposite y- coordinates (-2 and +2). Therefore, M and P are mirror images of each other across the x-axis.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 29,
+   "form": "short",
+   "chapter_number": 1,
+   "stem": "(i)Given two circular computer icons: Icon 1 is centred at A(100, 150) with radius 80 pixels, and Icon 2 is centred at B(250, 230) with radius 100 pixels. (ii)Calculate the exact distance between centres A and B. (iii)Determine analytically whether the two circular icons overlap/intersect each other.",
+   "options": [],
+   "correct_option": "",
+   "answer": "Icon Center Distance and Intersection Test Given A(100, 150), R1 = 80 and B(250, 230), R2 = 100. (i) Distance between centers AB = √((250 - 100)^2 + (230 - 150)^2) = √(150^2 + 80^2) = √(22500 + 6400) = √28900 = 170 pixels. (ii) Sum of radii R1 + R2 = 80 + 100 = 180 pixels. Condition for intersection: If distance between centers < sum of radii, the circles intersect. Since 170 < 180, the two circular icons overlap/intersect each other by 10 pixels.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 30,
+   "form": "short",
+   "chapter_number": 1,
+   "stem": "Construct an isosceles triangle on a Cartesian plane such that one vertex is at the origin O(0,0), the second vertex lies in Quadrant III, and the third vertex lies in Quadrant IV. Provide explicit coordinates for all three vertices and prove analytically that two side lengths are equal.",
+   "options": [],
+   "correct_option": "",
+   "answer": "Isosceles Triangle Construction Across Quadrants III and IV • Choose origin O(0,0) as vertex 1. • Choose vertex P in Quadrant III: P(-4, -3). • Choose vertex Q in Quadrant IV: Q(4, -3). • Analytical Proof of equal side lengths: Length OP = √((-4 - 0)^2 + (-3 - 0)^2) = √(16 + 9) = √25 = 5 units. Length OQ = √((4 - 0)^2 + (-3 - 0)^2) = √(16 + 9) = √25 = 5 units. Length PQ = |4 - (-4)| = 8 units. • Since OP = OQ = 5 units ≠ PQ, triangle OPQ is an isosceles triangle with equal sides OP and OQ.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 31,
+   "form": "long",
+   "chapter_number": 1,
+   "stem": "The midpoints of the sides of triangle ABC are D(5, 1), E(6, 5), and F(0, 3). (i) Let the unknown vertices be A(x1, y1), B(x2, y2), and C(x3, y3). Set up a system of linear equations relating the vertex coordinates to the given midpoints D, E, and F. (ii) Solve the system step-by-step to determine the exact coordinates of vertices A, B, and C. (iii) Verify your result by calculating the midpoint of segment AB and matching it with the given midpoint",
+   "options": [],
+   "correct_option": "",
+   "answer": "Determining Triangle Vertices from Midpoints D(5,1), E(6,5), F(0,3) (i) Midpoint equations: D is midpoint of BC: (x2 + x3)/2 = 5 => x2 + x3 = 10 --- (1) (y2 + y3)/2 = 1 => y2 + y3 = 2 --- (2) E is midpoint of AC: (x1 + x3)/2 = 6 => x1 + x3 = 12 --- (3) (y1 + y3)/2 = 5 => y1 + y3 = 10 --- (4) F is midpoint of AB: (x1 + x2)/2 = 0 => x1 + x2 = 0 --- (5) (y1 + y2)/2 = 3 => y1 + y2 = 6 --- (6) (ii) Solving x-coordinates: Sum of (1), (3), (5): 2(x1 + x2 + x3) = 10 + 12 + 0 = 22 => x1 + x2 + x3 = 11 --- (7) Subtracting (1) from (7): x1 = 11 - 10 = 1. Subtracting (3) from (7): x2 = 11 - 12 = -1. Subtracting (5) from (7): x3 = 11 - 0 = 11. Solving y-coordinates: Sum of (2), (4), (6): 2(y1 + y2 + y3) = 2 + 10 + 6 = 18 => y1 + y2 + y3 = 9 --- (8) Subtracting (2) from (8): y1 = 9 - 2 = 7. Subtracting (4) from (8): y2 = 9 - 10 = -1. Subtracting (6) from (8): y3 = 9 - 6 = 3. • Vertices: A(1, 7), B(-1, -1), C(11, 3). (iii) Verification: Midpoint of AB = ((1 + (-1))/2, (7 + (-1))/2) = (0, 6/2) = (0, 3) = F. Correct!",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 32,
+   "form": "long",
+   "chapter_number": 1,
+   "stem": "A city layout is designed as a square grid centred at origin O(0,0). Two main perpendicular avenues run along the axes: East-West Avenue (x-axis) and North-South Avenue (y-axis). Parallel streets are built at uniform intervals of 200 meters (1 unit on grid = 200 m). (a) A cyclist starts at intersection C(-4, 3) and travels along grid lines to D(5, -9). (i) Calculate the Manhattan distance (distance travelled strictly along grid lines) in meters. (ii) Calculate the Euclidean (direct shortest crow-fly) distance in meters between C and D. (iii) Explain how this urban grid system reflects the historical urban planning of the ancient Sindhu- Sarasvatī Civilisation.",
+   "options": [],
+   "correct_option": "",
+   "answer": "City Grid Distance Calculations and Historical Context (a) Given C(-4, 3) and D(5, -9) on grid (1 unit = 200 m): (i) Horizontal grid shift = |5 - (-4)| = 9 units. Vertical grid shift = |-9 - 3| = 12 units. Total Manhattan grid units = 9 + 12 = 21 units. Distance in meters = 21 × 200 m = 4,200 meters (4.2 km). (ii) Direct Euclidean distance in grid units = √(9^2 + 12^2) = √(81 + 144) = √225 = 15 units. Distance in meters = 15 × 200 m = 3,000 meters (3.0 km). (b) Historical Connection: This grid system directly mirrors the urban planning of the ancient Sindhu-Sarasvatī Civilisation (Harappan cities like Mohenjo-daro and Harappa). City streets were laid out in precise North-South and East-West grid lines separated by uniform distances (≈ 10 meters apart), allowing merchants and residents to navigate and specify locations by counting orthogonal units from a city center.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 33,
+   "form": "long",
+   "chapter_number": 1,
+   "stem": "Consider circle K centred at the origin O(0,0) passing through point A(1, -8). (i) Prove that points B(-4, 7) and C(-7, -4) also lie on circle K. (ii) Check whether point D(-5, 6) lies inside, on, or outside circle K. (iii) Check whether point E(0, 9) lies inside, on, or outside circle K. (iv) Calculate the exact area of the circle K in square units (leave answer in terms of π).",
+   "options": [],
+   "correct_option": "",
+   "answer": "Circle Equation and Point Position Analysis Circle K is centered at O(0,0) and passes through A(1, -8). Radius squared r^2 = 1^2 + (-8)^2 = 1 + 64 = 65 units. (i) Check B(-4, 7) and C(-7, -4): Distance OB^2 = (-4)^2 + 7^2 = 16 + 49 = 65 = r^2. Thus, B lies ON circle K. Distance OC^2 = (-7)^2 + (-4)^2 = 49 + 16 = 65 = r^2. Thus, C lies ON circle K. (ii) Check D(-5, 6): Distance OD^2 = (-5)^2 + 6^2 = 25 + 36 = 61. Since OD^2 (61) < r^2 (65), point D lies strictly INSIDE circle K. (iii) Check E(0, 9): Distance OE^2 = 0^2 + 9^2 = 81. Since OE^2 (81) > r^2 (65), point E lies strictly OUTSIDE circle K. (iv) Area of circle K = π × r^2 = 65π square units (≈ 204.2 square units).",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 34,
+   "form": "long",
+   "chapter_number": 1,
+   "stem": "Given quadrilateral ABCD with vertices A(2, 1), B(-1, 2), C(-2, -1), and D(1, -2): Using the Baudhāyana-Pythagoras distance formula. (i) Calculate the lengths of all four sides AB, BC, CD, and DA (ii) Calculate the lengths of both diagonals AC and BD. (iii) Justify whether ABCD is a square. (iv) Compute the exact area of quadrilateral ABCD.",
+   "options": [],
+   "correct_option": "",
+   "answer": "Geometric Proof of Square ABCD and Area Calculation Given A(2, 1), B(-1, 2), C(-2, -1), D(1, -2). (i) Side lengths: AB = √((-1 - 2)^2 + (2 - 1)^2) = √((-3)^2 + 1^2) = √(9 + 1) = √10. BC = √((-2 - (-1))^2 + (-1 - 2)^2) = √((-1)^2 + (-3)^2) = √(1 + 9) = √10. CD = √((1 - (-2))^2 + (-2 - (-1))^2) = √(3^2 + (-1)^2) = √(9 + 1) = √10. DA = √((2 - 1)^2 + (1 - (-2))^2) = √(1^2 + 3^2) = √(1 + 9) = √10. All four sides are equal (AB = BC = CD = DA = √10). (ii) Diagonal lengths: AC = √((-2 - 2)^2 + (-1 - 1)^2) = √((-4)^2 + (-2)^2) = √(16 + 4) = √20. BD = √((1 - (-1))^2 + (-2 - 2)^2) = √(2^2 + (-4)^2) = √(4 + 16) = √20. Diagonals are equal (AC = BD = √20). (iii) Conclusion: Since a quadrilateral with four equal sides and equal diagonals is a square, ABCD is proven to be a square. (iv) Area = (side length)^2 = (√10)^2 = 10 square units.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 35,
+   "form": "case_study",
+   "chapter_number": 1,
+   "stem": "Reiaan and Shalini’s family recently moved into a new home. Shalini, having studied Coordinate Geometry in Grade 9, designed a tactile grid floor map of Reiaan’s bedroom and bathroom to help him navigate independently. The floor plan is modelled on a 2D Cartesian plane,where 1 grid unit = 1 foot. Room Layout: Bedroom vertices: O(0, 0), A(12, 0), B(12, 10), C(0, 10) Main entrance door spans segment D1R1along the x-axis:D1(8, 0), R1(11.5, 0) Bathroom door spans segment B1B2along the y-axis:B1(0, 1.5), B2(0, 4) Wardrobe occupies space between:W1(3, 0), W2(7, 0), W4(3, 2) Questions (i) Calculate the width of the main entrance door D1R1and the bathroom door B1B2. (ii) Standard wheelchair accessibility guidelines require interior doors to have a minimum clearance width of 3.0 ft. Evaluate whether both doors meet accessibility standards for a person using a wheelchair. (iii) If the bathroom door hinges at B1(0, 1.5)and swings 90° outward into the bedroom along a circular arc of radius equal to the door width, determine: the coordinates of the door's outer edge when fully opened into the room. Check if it collides with the wardrobe located between W1(3,0) and W2(7,0) extending up to W4(3,2).",
+   "options": [],
+   "correct_option": "",
+   "answer": "Solution to Case Study 1 (Accessibility Design) 1. Entrance door width D1R1 = |11.5 - 8| = 3.5 feet. Bathroom door width B1B2 = |4 - 1.5| = 2.5 feet. 2. Guideline evaluation: • Entrance door (3.5 ft) ≥ 3.0 ft requirement → Fully Accessible. • Bathroom door (2.5 ft) < 3.0 ft requirement → Not Accessible (Too narrow for standard wheelchairs). 3. Door swing analysis: • Hinge is at B1(0, 1.5). Radius of door swing = 2.5 ft. • Swinging 90° outward into bedroom (rightward parallel to x-axis) places the edge at (0 + 2.5, 1.5) = (2.5, 1.5). • Wardrobe extends along x from x = 3 to x = 7, and along y from y = 0 to y = 2. • Since the door edge reaches x = 2.5, it stops 0.5 feet SHORT of the wardrobe at x = 3. • Therefore, the bathroom door will NOT hit the wardrobe when opened.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 36,
+   "form": "case_study",
+   "chapter_number": 1,
+   "stem": "Throughout history, coordinate systems developed across cultures for sky mapping and terrestrial navigation. In 5th-century India, Āryabhaṭa used Celestial Coordinates based on the ecliptic and introduced sine functions. Later, Islamic scholar Al-Bīrūnī (c. 1000 CE) perfected the handheld 'astrolabe' to calculate city coordinates using Indian trigonometric methods. Modern navigation systems rely on similar Cartesian coordinates overlaying geographical zones. Suppose a regional navigation grid places a coastal port at origin O(0,0). Lighthouse L1 is at (4, 3), Lighthouse L2 is at (-5, 12), and a cargo vessel V is at (12, -5). Questions: (i)Calculate the direct distance of Lighthouse L1 and Lighthouse L2 from the port origin O(0,0). (ii)In which quadrants do Lighthouse L2 and Vessel V lie? (iii)The cargo vessel V(12, -5) sends a distress signal. (iv)Determine which lighthouse (L1 or L2) is closer to vessel V in direct line-of-sight distance. Support your answer with full calculations.",
+   "options": [],
+   "correct_option": "",
+   "answer": "Solution to Case Study 2 (Navigation Grid) 1. Distances from Port O(0,0): • Light L1(4, 3): OL1 = √(4^2 + 3^2) = √25 = 5 units. • Light L2(-5, 12): OL2 = √((-5)^2 + 12^2) = √(25 + 144) = √169 = 13 units. 2. Quadrants: • L2(-5, 12) lies in Quadrant II (x < 0, y > 0). • Vessel V(12, -5) lies in Quadrant IV (x > 0, y < 0). 3. Distance from Vessel V(12, -5) to both lighthouses: • Distance V to L1(4, 3) = √((12 - 4)^2 + (-5 - 3)^2) = √(8^2 + (-8)^2) = √(64 + 64) = √128 ≈ 11.31 units. • Distance V to L2(-5, 12) = √((12 - (-5))^2 + (-5 - 12)^2) = √(17^2 + (-17)^2) = √(289 + 289) = √578 ≈ 24.04 units. • Conclusion: Lighthouse L1 is significantly closer to Vessel V (√128 ≈ 11.31 units vs √578 ≈ 24.04 units).",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 37,
+   "form": "case_study",
+   "chapter_number": 1,
+   "stem": "A computer graphics application renders a graphical user interface (GUI) on a display screen of size 800 × 600 pixels. The origin (0,0) is located at the bottom-left corner of the screen. x increases horizontally to the right (up to 800), and y increases vertically upward (up to 600). Two circular interactive icons are rendered on the screen: • Icon A (Settings): Centre at A(100, 150), Radius R1 = 80 pixels. • Icon B (Profile): Centre at B(250, 230), Radius R2 = 100 pixels. Questions: (i)Determine whether any part of Icon A or Icon B extends outside the visible boundary of the screen [0 ≤ x ≤ 800, 0 ≤ y ≤ 600]. Show analytical proof. (ii)Calculate the straight-line distance between the centres A and B of the two icons. (iii)Determine whether Icon A and Icon B overlap each other on the screen. (iv)If a software engineer wants to move Icon B horizontally to the right along y = 230 so that it is exactly tangent to Icon A (touching externally at one point), what should be the new x-coordinate of Icon B's centre?",
+   "options": [],
+   "correct_option": "",
+   "answer": "Solution to Case Study 3 (Display Technology) 1. Screen boundary check [0 ≤ x ≤ 800, 0 ≤ y ≤ 600]: • Icon A: Center (100, 150), R = 80 → x in [20, 180], y in [70, 230]. Entirely inside screen. • Icon B: Center (250, 230), R = 100 → x in [150, 350], y in [130, 330]. Entirely inside screen. • Neither circle lies outside the screen boundary. 2. Distance between centers A(100, 150) and B(250, 230): • AB = √((250 - 100)^2 + (230 - 150)^2) = √(150^2 + 80^2) = √(22500 + 6400) = √28900 = 170 pixels. 3. Overlap check and new position calculation: • Sum of radii R1 + R2 = 80 + 100 = 180 pixels. • Since AB (170) < R1 + R2 (180), the two icons currently overlap. • For Icon B to be externally tangent to Icon A at y = 230, the new distance between centers AB_new must equal R1 + R2 = 180 pixels. • Let new center of Icon B be (x_new, 230). • Distance formula: √((x_new - 100)^2 + (230 - 150)^2) = 180 → (x_new - 100)^2 + 80^2 = 180^2 = 32,400 → (x_new - 100)^2 = 32,400 - 6,400 = 26,000 → x_new - 100 = √26,000 ≈ 161.25 → x_new ≈ 100 + 161.25 = 261.25 pixels. • Conclusion: Icon B's center should be moved to x ≈ 261.25 pixels (or exactly 100 + 20√65 pixels)",
+   "concept": "",
+   "needs_reading": true
+  }
+ ]
+}

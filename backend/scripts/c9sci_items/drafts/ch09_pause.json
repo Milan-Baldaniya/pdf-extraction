@@ -1,0 +1,317 @@
+{
+ "chapter": 9,
+ "chapter_id": 8614,
+ "extraction_id": 600,
+ "section": "pause",
+ "items": [
+  {
+   "number": "1",
+   "form": "short",
+   "page": 374,
+   "stem": "A student burns 10 g of ethanol in an open beaker. After the reaction, no residue is left in the beaker. Does this mean the Law of Conservation of Mass is violated? Explain.",
+   "answer": "No, the Law of Conservation of Mass is not violated in this reaction. When ethanol burns, it reacts with oxygen to produce carbon dioxide gas and water vapour, which escape into the atmosphere because the beaker is open. If the reaction were conducted in a closed system and the mass of the escaping gases was measured along with the oxygen consumed, the total mass of the reactants would equal the total mass of the products.",
+   "concept": "Closed-system verification in gas-evolving reactions",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "source_offset": 13467
+  },
+  {
+   "number": "2",
+   "form": "very_short",
+   "page": 374,
+   "stem": "When 20 g of hydrogen reacts completely with 160 g of oxygen, how much water is formed according to the Law of Conservation of Mass?",
+   "answer": "According to the Law of Conservation of Mass, the total mass of the product (water) will be equal to the total mass of the reactants, which is 20 g of hydrogen plus 160 g of oxygen. Therefore, 180 g of water is formed.",
+   "concept": "Law of Conservation of Mass",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "source_offset": 14092
+  },
+  {
+   "number": "3",
+   "form": "very_short",
+   "page": 374,
+   "stem": "A compound consists of 40% sulfur and 60% oxygen by mass. In a sample of the same compound containing 20 g of sulfur, what mass of oxygen must be present to satisfy the Law of Constant Proportions?",
+   "answer": "The mass ratio of sulfur to oxygen in the compound is 40:60, which simplifies to 2:3. To maintain this constant proportion, if the sample has 20 g of sulfur, it must contain 30 g of oxygen.",
+   "concept": "Using mass ratio to calculate amounts",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "source_offset": 14463
+  },
+  {
+   "number": "4",
+   "form": "very_short",
+   "page": 371,
+   "stem": "Carbon monoxide (CO) contains carbon and oxygen in the mass ratio of 3:4. How much oxygen will combine with 9 g of carbon to form carbon monoxide?",
+   "answer": "Since the mass ratio of carbon to oxygen is 3:4, every 3 g of carbon requires 4 g of oxygen. Therefore, 9 g of carbon will combine with 12 g of oxygen to form carbon monoxide.",
+   "concept": "Using mass ratio to calculate amounts",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "source_offset": 247
+  },
+  {
+   "number": "5",
+   "form": "short",
+   "page": 371,
+   "stem": "The Law of Definite Proportions holds true for compounds but not for mixtures. Give reason.",
+   "answer": "Compounds are formed by chemical reactions where specific elements combine in fixed, unchangeable mass ratios to create a new substance with unique properties. Mixtures, on the other hand, are formed by physically blending substances together, and their components can be mixed in any variable proportion without altering their individual chemical identities.",
+   "concept": "Definite proportions not for mixtures",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "source_offset": 589
+  },
+  {
+   "number": "6",
+   "form": "short",
+   "page": 371,
+   "stem": "Students X and Y, both prepared an oxide of copper by combining copper and oxygen in the ratios of 4:1 and 8:2, respectively. Do their results justify the Law of Constant Proportions? Explain.",
+   "answer": "Yes, their results justify the Law of Constant Proportions. The ratio of 8:2 obtained by Student Y simplifies to 4:1, which is exactly the same ratio obtained by Student X. This proves that regardless of how the copper oxide was prepared or in what quantities, the elements copper and oxygen always combined in the same fixed mass ratio.",
+   "concept": "Law of Constant Proportions",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "source_offset": 1062
+  },
+  {
+   "number": "7",
+   "form": "assertion_reason",
+   "page": 371,
+   "stem": "Assertion (A): 2 g of hydrogen combines with 16 g of oxygen to form 18 g of water.\nReason (R): According to Dalton’s Atomic Theory, atoms combine in a simple whole number ratio by mass to form compounds.\nChoose the correct option:",
+   "answer": "(iii) A is true, but R is false. The assertion is factually correct as it follows the Law of Conservation of Mass and the fixed combining mass ratio of water. However, the reason is false because Dalton’s theory states that atoms combine in simple whole number ratios by number, not by mass, to form compounds.",
+   "assertion": "2 g of hydrogen combines with 16 g of oxygen to form 18 g of water.",
+   "reason": "According to Dalton’s Atomic Theory, atoms combine in a simple whole number ratio by mass to form compounds.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true, and R is the correct explanation of A."
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true, but R is not the correct explanation of A."
+    },
+    {
+     "label": "C",
+     "text": "A is true, but R is false."
+    },
+    {
+     "label": "D",
+     "text": "A is false, but R is true."
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Atoms combine in whole-number ratios",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 4,
+   "source_offset": 1616
+  },
+  {
+   "number": "8",
+   "form": "short",
+   "page": 371,
+   "stem": "Nitrogen has five valence electrons. Draw the structure of the nitrogen molecule (N2).",
+   "answer": "To depict the structure, draw two overlapping circles representing two nitrogen atoms. In the overlapping region, place three pairs of dots to represent the three pairs of shared electrons forming a triple covalent bond. In the non-overlapping region of each circle, place one pair of dots to represent the remaining lone pair of electrons on each nitrogen atom.",
+   "concept": "Covalent bond",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "source_offset": 2385
+  },
+  {
+   "number": "9",
+   "form": "short",
+   "page": 371,
+   "stem": "The atomic number of fluorine is 9. Explain the formation of the fluorine molecule (F2).",
+   "answer": "With an atomic number of 9, a fluorine atom has an electronic configuration of 2, 7, meaning it requires one more electron to complete its outermost octet. To achieve this stable configuration, two fluorine atoms come together and share one pair of electrons. This mutual sharing forms a single covalent bond, holding the two atoms together as a stable fluorine molecule.",
+   "concept": "Covalent bond",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "source_offset": 2856
+  },
+  {
+   "number": "10",
+   "form": "short",
+   "page": 371,
+   "stem": "Show the formation of the following molecules: (i) Carbon dioxide (CO2) (ii) Hydrogen sulfide (H2S) (iii) Ammonia (NH3)",
+   "answer": "(i) For Carbon dioxide, draw a central carbon atom sharing two electron pairs with an oxygen atom on its left, and another two electron pairs with an oxygen atom on its right, representing double bonds. Add two lone pairs of electrons to each oxygen atom. (ii) For Hydrogen sulfide, draw a central sulfur atom sharing one pair of electrons with a hydrogen atom on its left and another pair with a hydrogen atom on its right, representing single bonds. Add two lone pairs of electrons to the central sulfur atom. (iii) For Ammonia, draw a central nitrogen atom sharing one electron pair with each of three separate hydrogen atoms to form three single bonds. Add one lone pair of electrons to the central nitrogen atom to complete its octet.",
+   "concept": "Single and double bonds",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "source_offset": 3338
+  },
+  {
+   "number": "11",
+   "form": "very_short",
+   "page": 377,
+   "stem": "Neon (atomic number 10) neither transfers nor shares its valence electrons. Explain.",
+   "answer": "Neon has an electronic configuration of 2, 8, which means its outermost shell is already completely filled with eight electrons. Because it already possesses a stable octet configuration, it does not need to gain, lose, or share any electrons, making it chemically unreactive and inert.",
+   "concept": "Atoms combine to attain stability",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "source_offset": 18177
+  },
+  {
+   "number": "12",
+   "form": "very_short",
+   "page": 377,
+   "stem": "What kind of ion will oxygen (O) form?",
+   "answer": "Oxygen has an electronic configuration of 2, 6 and requires two more electrons to complete its octet. Therefore, it will gain two electrons to form a negatively charged anion with a valency of 2- (O2-).",
+   "concept": "Ions and ionic bond formation",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1,
+   "source_offset": 18569
+  },
+  {
+   "number": "13",
+   "form": "short",
+   "page": 377,
+   "stem": "Fill in the blanks. Among magnesium and chlorine, magnesium atom can give two electrons to become Mg2+. However, chlorine can take only one electron to become __________. Now, __________ ion of magnesium and __________ ions of chlorine combine to give magnesium chloride.",
+   "answer": "Among magnesium and chlorine, magnesium atom can give two electrons to become Mg2+. However, chlorine can take only one electron to become a chloride ion (Cl-). Now, one ion of magnesium and two ions of chlorine combine to give magnesium chloride.",
+   "concept": "Ionic compounds are electrically neutral",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "source_offset": 18831
+  },
+  {
+   "number": "14",
+   "form": "short",
+   "page": 377,
+   "stem": "Show the formation of cations of potassium (K) and calcium (Ca) atoms, and the formation of their corresponding chlorides using diagrams.",
+   "answer": "For potassium chloride formation, depict a potassium atom losing its single valence electron to become a K+ cation, and a chlorine atom gaining that electron to become a Cl- anion. The strong electrostatic attraction between the single K+ and Cl- ions forms KCl. For calcium chloride formation, depict a calcium atom losing its two valence electrons to form a Ca2+ cation, and two separate chlorine atoms each accepting one of those electrons to form two Cl- anions. The electrostatic attraction between one Ca2+ ion and two Cl- ions forms CaCl2.",
+   "concept": "Ions and ionic bond formation",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "source_offset": 19375
+  },
+  {
+   "number": "15",
+   "form": "short",
+   "page": 377,
+   "stem": "Illustrate how sodium sulfide (Na2S) is formed.",
+   "answer": "Sulfur has an electronic configuration of 2, 8, 6 and needs two electrons to achieve a stable octet, while sodium has a configuration of 2, 8, 1 and needs to lose one electron. Two sodium atoms each donate their single valence electron to one sulfur atom. This electron transfer results in two positively charged sodium cations (Na+) and one negatively charged sulfide anion (S2-), which are then held together by electrostatic forces to form sodium sulfide.",
+   "concept": "Ions and ionic bond formation",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "source_offset": 20087
+  },
+  {
+   "number": "16",
+   "form": "very_short",
+   "page": 377,
+   "stem": "Name the following: (i) CO2 (ii) NO2 (iii) SF6 (iv) PCl3",
+   "answer": "(i) Carbon dioxide (ii) Nitrogen dioxide (iii) Sulfur hexafluoride (iv) Phosphorus trichloride",
+   "concept": "Prefixes in covalent compound names",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2,
+   "source_offset": 20617
+  },
+  {
+   "number": "17",
+   "form": "very_short",
+   "page": 377,
+   "stem": "Write the formula for the following: (i) Sodium hydrogencarbonate (ii) Sulfur dioxide (iii) Ferric chloride (iv) Cuprous oxide",
+   "answer": "(i) NaHCO3 (ii) SO2 (iii) FeCl3 (iv) Cu2O",
+   "concept": "Chemical formula uses symbols and valencies",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "source_offset": 20785
+  },
+  {
+   "number": "18",
+   "form": "very_short",
+   "page": 377,
+   "stem": "Write the formulae for the compounds formed from the following pairs of ions: (i) Fe3+ and OH- (ii) K+ and CO3²-",
+   "answer": "(i) Fe(OH)3 (ii) K2CO3",
+   "concept": "Brackets with multiple polyatomic ions",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "source_offset": 20970
+  },
+  {
+   "number": "19",
+   "form": "short",
+   "page": 373,
+   "stem": "What type of chemical bond is present in a solid compound that does not conduct electricity in the solid state but conducts electricity when dissolved in water?",
+   "answer": "An ionic bond is present in such a compound. In the solid state, the ions are locked in a fixed lattice and cannot move to conduct electricity, but when dissolved in water, the lattice breaks apart and the ions become free-moving, allowing the solution to conduct an electrical current.",
+   "concept": "Ionic compounds form crystal lattice",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "source_offset": 7462
+  },
+  {
+   "number": "20",
+   "form": "short",
+   "page": 373,
+   "stem": "Metal M, with two electrons in its valence shell (M shell), reacts with oxygen to form a compound that is slightly soluble in water. Predict its: (i) formula (ii) type of bond (iii) electrical conductivity of its aqueous solution.",
+   "answer": "(i) The formula of the compound is MO. (ii) The type of bond present is an ionic bond, formed by the transfer of two electrons from the metal to the oxygen atom. (iii) Its aqueous solution will conduct electricity because the portion of the compound that dissolves will break apart into free-moving M2+ and O2- ions capable of carrying a current.",
+   "concept": "Conduction by dissolved ionic compounds",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4,
+   "source_offset": 7932
+  },
+  {
+   "number": "21",
+   "form": "very_short",
+   "page": 373,
+   "stem": "Find the molecular mass of nitric acid (HNO3). Atomic mass — H = 1 u; N = 14 u; O = 16 u.",
+   "answer": "The molecular mass of nitric acid is calculated as: 1 u (for H) + 14 u (for N) + (3 × 16 u) (for O) = 1 + 14 + 48 = 63 u.",
+   "concept": "Adding atomic masses",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "source_offset": 8533
+  },
+  {
+   "number": "22",
+   "form": "very_short",
+   "page": 373,
+   "stem": "Find the molecular mass of methane (CH4). Atomic mass — C = 12 u; H = 1 u.",
+   "answer": "The molecular mass of methane is calculated as: 12 u (for C) + (4 × 1 u) (for H) = 12 + 4 = 16 u.",
+   "concept": "Atomic masses in calculations",
+   "bloom": "apply",
+   "dok": 1,
+   "difficulty": 1,
+   "source_offset": 8760
+  },
+  {
+   "number": "23",
+   "form": "very_short",
+   "page": 373,
+   "stem": "Find the formula unit mass of potassium chloride (KCl). Atomic mass — K = 39 u; Cl = 35.5 u.",
+   "answer": "The formula unit mass of potassium chloride is calculated as: 39 u (for K) + 35.5 u (for Cl) = 74.5 u.",
+   "concept": "Calculating formula unit mass",
+   "bloom": "apply",
+   "dok": 1,
+   "difficulty": 2,
+   "source_offset": 8948
+  },
+  {
+   "number": "24",
+   "form": "very_short",
+   "page": 373,
+   "stem": "Find the formula unit mass of magnesium hydroxide, Mg(OH)2. Atomic mass — Mg = 24 u; O = 16 u; H = 1 u.",
+   "answer": "The formula unit mass of magnesium hydroxide is calculated as: 24 u (for Mg) + 2 × (16 u + 1 u) (for OH) = 24 + 2 × (17) = 24 + 34 = 58 u.",
+   "concept": "Calculating formula unit mass",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "source_offset": 9161
+  }
+ ]
+}

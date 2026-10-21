@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22906,
+ "mappings": [
+  {"sha": "6f888553c6643a04", "codes": ["C-8.2-LO-3"], "note": "One letter from the 26 equally likely letters, favourable if it is one of DELHI's five. Simple event, LO-3."},
+  {"sha": "7ad8a326f73239f0", "codes": ["C-8.2-LO-3"], "note": "A single draw from the 90 two-digit numbers; 'multiple of 3 and not of 5' is a compound description of the event, not a compound experiment, so LO-3 rather than LO-4."},
+  {"sha": "4acbfa940d3d0481", "codes": ["C-8.2-LO-3"], "note": "One ticket from 25, five of which win. Simple event, LO-3."},
+  {"sha": "6ed8cca8262bcf0e", "codes": ["C-8.2-LO-3"], "note": "Tests x^2 < 2 on five equally likely numbers. Single draw, LO-3; the squaring is arithmetic, not a second stage."},
+  {"sha": "d6dff1e684ccf924", "codes": ["C-8.2-LO-4"], "note": "Picks out P(E) + P(E-bar) = 1 from three wrong relations. The complement identity, LO-4; LO-2 covers the range, not this sum."},
+  {"sha": "719246a0b16ba4a8", "codes": ["C-8.2-LO-4"], "note": "Two dice, sum a multiple of 4, requiring nine favourable pairs out of 36. A compound dice event, LO-4."},
+  {"sha": "b60cbf7f7b59449e", "codes": ["C-8.2-LO-3"], "note": "Counts vowels in ASSASSINATION for a single draw, then solves 6/(2x+1) = 6/13. The probability step is a simple event, LO-3; the equation is only algebraic dressing."},
+  {"sha": "5354b1824ac5905a", "codes": ["C-8.2-LO-3"], "note": "One fish from 14. Simple event, LO-3."},
+  {"sha": "9b899bbc312886c9", "codes": ["C-8.1-LO-4", "C-8.2-LO-4"], "note": "Two independent selections whose nine ordered pairs must actually be listed before the product condition can be tested. C-8.1-LO-4 (lists the sample space) leads because the enumeration is the work; LO-4 covers the compound structure, though its wording names only cards, dice and coins."},
+  {"sha": "7d7779ab7b128247", "codes": ["C-8.2-LO-4"], "note": "'No cash prize' is the complement of the 310 prize-bearing envelopes, found as 1000 - 310. The complement outcome, LO-4."},
+  {"sha": "71f6990940fedec4", "codes": ["C-8.2-LO-2"], "note": "Assertion-reason: rejects P = 1.1 because probability lies in [0, 1]. The reason IS the range statement, so LO-2 and not LO-3, even though a face-card count appears in the working."},
+  {"sha": "5bf0008d05998dcb", "codes": ["C-8.2-LO-3"], "note": "Multiples of 4 among 1 to 15. Simple event, LO-3."},
+  {"sha": "4ed1998ef3099e64", "codes": ["C-8.2-LO-4"], "note": "Two coins, at most one head, over {HH, HT, TH, TT}. A compound coin event, LO-4."},
+  {"sha": "8df5208fca2157e0", "codes": ["C-8.2-LO-3"], "note": "One die, number below 3. Simple event, LO-3."},
+  {"sha": "ca3d9c743715cbf6", "codes": ["C-8.2-LO-3"], "note": "Square at most 1 over eleven equally likely integers. Single draw, LO-3."},
+  {"sha": "a4fd020addc65ca6", "codes": ["C-8.2-LO-3"], "note": "One card, red king, 2 of 52. Simple event, LO-3."},
+  {"sha": "1b4cd124b78375bb", "codes": ["C-8.2-LO-4"], "note": "Losing is the complement of winning, so P = 1 - 0.07. Pure complement-rule application, LO-4; no sample space is counted."},
+  {"sha": "b727d40cbb79bd13", "codes": ["C-8.2-LO-3"], "note": "One card, red face card, 6 of 52. Simple event, LO-3."},
+  {"sha": "6cf489785816721f", "codes": ["C-8.1-LO-4", "C-8.2-LO-4"], "note": "Asks for the count of favourable outcomes rather than a probability, so C-8.1-LO-4 leads; the event is a complement ('not the ace of hearts'), hence LO-4. LO-3 would require a probability to be produced."},
+  {"sha": "b9a56c8b105d5b83", "codes": ["C-8.2-LO-3"], "note": "One die, odd and below 3. Simple event, LO-3."},
+  {"sha": "da6f09f8b013d32a", "codes": ["C-8.2-LO-2", "C-8.1-LO-4"], "note": "Inverts the definition P = n(E)/n(S) to recover the number of bad eggs. Definition (LO-2) plus favourable count (C-8.1-LO-4); no probability is calculated, so LO-3 does not apply."},
+  {"sha": "f016c285ca65b074", "codes": ["C-8.2-LO-2", "C-8.1-LO-4"], "note": "Same inverse structure: given probability and total, find the count of winning tickets held. Definition plus favourable count."},
+  {"sha": "bd01856bdf055473", "codes": ["C-8.2-LO-2"], "note": "States that an impossible event has probability 0, the lower bound of the range. LO-2."},
+  {"sha": "94a6739a6fcd24cb", "codes": ["C-8.2-LO-3"], "note": "Primes among 1 to 100 for a single pick. Simple event, LO-3."},
+  {"sha": "f2014e169d935e94", "codes": ["C-8.2-LO-3"], "note": "Sample space is the four one-digit primes; one is even. Simple event over a small equally likely set, LO-3."}
+ ]
+}

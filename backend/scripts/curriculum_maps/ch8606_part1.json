@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8606,
+ "mappings": [
+  {
+   "sha": "bc2219508f4e2bd0",
+   "codes": ["C-2.5-LO-1"],
+   "note": "Holding a barbell steady tests the DEFINITION of work (force must cause displacement), not any calculation, so LO-1 and not LO-2; no energy quantity is named, so the LO-4 energy strand is not in play."
+  },
+  {
+   "sha": "542e4456582f05fe",
+   "codes": ["C-2.5-LO-1"],
+   "note": "Sign of work by friction is decided from the definition (direction of force relative to displacement). Nothing is computed, so LO-1 rather than LO-2; friction here is a sign question, not a dissipation question, so not C-2.6-LO-1."
+  },
+  {
+   "sha": "4a64351eb2229490",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Asks which FORMS the muscular energy appears in (chemical to kinetic to thermal). That is the 'name forms of energy and identify their interconversion' clause of LO-5, not the conservation statement of C-2.6-LO-1, which is never invoked."
+  },
+  {
+   "sha": "d63b01d7efe2d979",
+   "codes": ["C-2.5-LO-6"],
+   "note": "A pure computation with the KE expression (equate 1/2 mv^2, solve a velocity ratio). LO-6 covers calculating with the expression; LO-5 would be right only if the derivation of 1/2 mv^2 were being asked for."
+  },
+  {
+   "sha": "55af3383e3ba24ea",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Tests what KE depends on (mass and speed, not position) - the definitional clause of LO-5. No number is produced, so not LO-6; no height change is involved, so not the free-fall LO-7."
+  },
+  {
+   "sha": "d4eb05a0937b5476",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Tests the definition of gravitational PE as depending on height only (horizontal motion changes nothing). Definitional, so LO-5 not LO-6; the object never falls, so the free-fall interconversion LO-7 does not apply."
+  },
+  {
+   "sha": "e5e4f7b53372b4e1",
+   "codes": ["C-2.5-LO-7"],
+   "note": "Shows total mechanical energy at the bottom of a free fall still equals mgh - exactly LO-7's PE-to-KE 'object under free fall' case. Chosen over LO-6 because the point is the equality of the two forms, not the arithmetic."
+  },
+  {
+   "sha": "f7d3b3e815d9935e",
+   "codes": ["C-2.5-LO-7", "C-2.6-LO-1"],
+   "note": "Two-part question: the KE/PE swap at A, B, C is LO-7, but 'why are later peaks lower' can only be answered by energy being conserved overall while leaving as heat, the conservation-law clause of C-2.6-LO-1. Neither code alone covers both halves."
+  },
+  {
+   "sha": "abf6d03ec0230321",
+   "codes": ["C-2.6-LO-3", "C2.6"],
+   "note": "Requires recognising a winding hill road AS an inclined plane (LO-3), then the effort/distance trade-off, i.e. mechanical advantage. The frame has no LO for mechanical advantage, so competency C2.6 (which names it) is the only legal home for that half."
+  },
+  {
+   "sha": "1c0a772d54833388",
+   "codes": ["C-2.6-LO-3", "C2.6"],
+   "note": "Same inclined-plane mechanical-advantage argument as the winding-road item; this pair honestly shares one outcome. Kept identical deliberately rather than inventing a distinction the frame does not support."
+  },
+  {
+   "sha": "521bc21197be5a9d",
+   "codes": ["C-2.6-LO-3"],
+   "note": "Turns on identifying the spoon-plus-can-edge as a LEVER and locating its fulcrum and arms - the 'identify different simple machines' outcome. No arm ratio is computed or compared, so C2.6 is not added here, unlike the scissors item."
+  },
+  {
+   "sha": "a86f10edc429acf5",
+   "codes": ["C2.6", "C-2.6-LO-3"],
+   "note": "The answer is a mechanical-advantage ratio argument (shorter load arm raises effort-arm/load-arm), which no LO states; C2.6 is the only legal code naming mechanical advantage. LO-3 kept because the scissors must first be identified as a lever."
+  },
+  {
+   "sha": "4c597192ad3d9bce",
+   "codes": ["C-2.6-LO-1", "C-2.5-LO-5"],
+   "note": "Perpetual motion fails because energy is conserved but degrades to heat - the conservation-law clause of C-2.6-LO-1, with LO-5 for naming the mechanical-to-thermal interconversion. Not LO-7: no free fall and no recoverable PE/KE cycle."
+  },
+  {
+   "sha": "86d4e1e4ea02dac5",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Nine situations, each answered by naming a transformation between forms of energy - the cleanest instance of LO-5's interconversion clause. No conservation bookkeeping and no numbers, so not C-2.6-LO-1 or LO-6."
+  },
+  {
+   "sha": "bf84923ea895e00c",
+   "codes": ["C-2.5-LO-6", "C-2.5-LO-5"],
+   "note": "Parts i and ii are mgh arithmetic (LO-6); part iii asks what PE depends on - height, not path - which is the definitional PE clause of LO-5. Without part iii this would be LO-6 alone."
+  },
+  {
+   "sha": "d0eaa777a230c374",
+   "codes": ["C-2.6-LO-2", "C-2.5-LO-6"],
+   "note": "The graded answer is a POWER ratio (double the energy in double the time), so C-2.6-LO-2 for calculating power; LO-6 carries the mgh energy step it is built on. Not C-2.6-LO-1, which would fit only if power were merely being defined."
+  },
+  {
+   "sha": "e7eaee7821670087",
+   "codes": ["C-2.6-LO-1", "C-2.6-LO-2"],
+   "note": "Hinges on the work/power distinction - work is unchanged by speed (the define-power clause of C-2.6-LO-1) but doubling speed doubles power, which is applying P = W/t (C-2.6-LO-2). Both clauses are asked, so both codes."
+  },
+  {
+   "sha": "f8eda84da6149142",
+   "codes": ["C-2.5-LO-6"],
+   "note": "A straight 1/2 mv^2 computation repeated for two total masses to get a fuel ratio; the fuel is a wrapper. LO-6 and not LO-5 because no form of energy is being named or derived, only calculated."
+  },
+  {
+   "sha": "41011bdff69f9e51",
+   "codes": ["C2.6", "C-2.6-LO-3", "C8.1"],
+   "note": "Balancing a seesaw is the lever moment / mechanical-advantage relation, which only C2.6 names; LO-3 for the lever itself. C8.1 is added because the deliverable is a DRAWN geometric model with distances marked, not prose."
+  },
+  {
+   "sha": "d28d0b70e502dec8",
+   "codes": ["C-2.5-LO-1", "C-2.5-LO-3"],
+   "note": "Part (i) is the sign of work from the definition (LO-1); part (ii) recovers the work of air resistance from the energy change, which is the work-energy theorem (LO-3). Not LO-6: the KE value is an intermediate, not the ask."
+  },
+  {
+   "sha": "0ec1d72c0549df14",
+   "codes": ["C-2.5-LO-3", "C-2.5-LO-2", "LO-71"],
+   "note": "Work is obtained as the AREA under a force-displacement graph (LO-71 data interpretation, LO-2 computing work), then converted to speed by the work-energy theorem (LO-3). The graph code is earned here, unlike prose numericals."
+  },
+  {
+   "sha": "1aa41adbf6a7798e",
+   "codes": ["C-2.5-LO-7"],
+   "note": "Same launch speed means same initial KE, so height scales as 1/g - a PE/KE interchange argument for a body in free flight, i.e. LO-7. Chosen over LO-6 because no energy value is ever computed, only the conversion relation used."
+  },
+  {
+   "sha": "ee3900d160b5325e",
+   "codes": ["C-2.5-LO-3", "C-2.5-LO-6", "LO-71"],
+   "note": "Reads a velocity-time graph (LO-71), computes KE at A (LO-6), then states the braking work as the KE destroyed, which is the work-energy theorem (LO-3). LO-3 leads because part iii is the theorem applied verbatim."
+  },
+  {
+   "sha": "b618c71b1c91d52f",
+   "codes": ["C-2.5-LO-7", "LO-71"],
+   "note": "Velocities at P, Q, R come from reading PE off a graph (LO-71) and converting the deficit to KE on a frictionless track - conservation of mechanical energy, LO-7. Not C-2.6-LO-1: nothing leaves the mechanical system here."
+  },
+  {
+   "sha": "753f98ab47a9fcc5",
+   "codes": ["C-2.5-LO-7", "C-2.5-LO-2"],
+   "note": "Part i is the free-fall PE-to-KE conversion (LO-7); part ii inverts W = F x d against the sand's resistive force to get the depth, which is calculating work (LO-2). Two genuinely different sub-skills in one item."
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23126,
+ "mappings": [
+  {
+   "sha": "a0eb9511779cd545",
+   "codes": ["C-2.3-LO-5", "C-2.3-LO-4"],
+   "note": "first a D > 0 check to establish that real roots exist, then COMPLETING THE SQUARE to find them; the frame has no outcome for completing the square, so LO-4 carries it as the formula's own method (gap reported)"
+  },
+  {
+   "sha": "24ef2bb1e869e4ff",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "areas and perimeters of two squares translated into y^2 + 6y - 216 = 0, factorised, and the negative side length rejected; the admissibility judgement is what makes it C-2.2-LO-6"
+  },
+  {
+   "sha": "cecdb3711d8116ac",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "two digit-conditions turned into place-value equations, one of which is quadratic in y; the digit y = 0 is rejected as inadmissible, then factorisation finishes it"
+  },
+  {
+   "sha": "12b761c48302558a",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "reciprocal difference modelled as x^2 + 5x - 50 = 0; the word NATURAL in the stem is what rules out x = -10, an explicit admissibility test"
+  },
+  {
+   "sha": "114f014618379731",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "three consecutive integers parametrised as x, x+1, x+2; the fractional root -11/2 is rejected because the stem demands positive integers"
+  },
+  {
+   "sha": "99464fcf75a237a0",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "the simplest translation in the block, x(x+1) = 306, with the negative root discarded; still a modelling item rather than a bare factorisation exercise"
+  },
+  {
+   "sha": "2cd52c53ccdc6a6c",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "the digit product is substituted into the reversal condition to produce x^2 + 5x - 14 = 0; the negative root cannot be a digit, so admissibility again decides"
+  },
+  {
+   "sha": "335478decd20fc68",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "sum of squares of consecutive naturals gives x^2 + x - 210 = 0; distinguished from the product-of-consecutives item only by the condition, but the same two outcomes"
+  },
+  {
+   "sha": "e96b89ff9a47b065",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-4"],
+   "note": "a fraction-plus-reciprocal condition gives 11x^2 - 26x - 21 = 0, which the key resolves by the formula rather than by splitting; the non-integer root is rejected as a numerator"
+  },
+  {
+   "sha": "3e41b63bc2d467e4",
+   "codes": ["C-2.2-LO-6"],
+   "note": "the graded work is translating two fractions and their sum into a quadratic; the key is cut off before naming a solving method, so no solving outcome is claimed"
+  },
+  {
+   "sha": "681d2b333b9d2ed9",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "duplicate stem of the natural-numbers reciprocal item but worded as 'two numbers', which weakens the ground for rejecting -10; same translation and factorisation outcomes"
+  },
+  {
+   "sha": "923eded71e985230",
+   "codes": ["C-2.2-LO-6"],
+   "note": "asks ONLY to represent the situation as a quadratic equation and stops there -- the pure translate half of LO-6, with no root found and no admissibility to judge"
+  },
+  {
+   "sha": "09c3e562675e71eb",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "a speed-time-distance model where the 48-minute saving must be converted to 4/5 hour before the quadratic appears; the negative speed is then rejected"
+  },
+  {
+   "sha": "b88bd090fd782d0b",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "price-and-quantity model: 600/(x-5) - 600/x = 4 cleared to x^2 - 5x - 750 = 0; a negative price is inadmissible, so only one root survives"
+  },
+  {
+   "sha": "cb459e3341555145",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "budget-per-day model giving x^2 + 3x - 180 = 0; the same reciprocal-difference structure as the speed items but applied to expenses"
+  },
+  {
+   "sha": "90d1bcaa126f6046",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "sum and product of two ages give x^2 - 35x + 150 = 0, and BOTH roots are positive -- the rejection here is contextual (a father cannot be 5), which is exactly LO-6's admissibility clause"
+  },
+  {
+   "sha": "7b972d2045290977",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "the classic camel problem needs a square-root substitution y = sqrt(x) before it is quadratic at all; the negative y is rejected because a square root cannot be negative"
+  },
+  {
+   "sha": "ea36baa83bd880a3",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "marks in two subjects with a shifted product; unusually BOTH roots are admissible and the answer reports two valid mark pairs, which is a genuine variation on the admissibility theme"
+  },
+  {
+   "sha": "65e4917f11e70a21",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "cost-per-book model giving x^2 + 10x - 600 = 0; a count of books cannot be negative, so -30 is discarded"
+  },
+  {
+   "sha": "1660c236d857322c",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "two trains with a speed difference and a time difference; the key silently works a 600 km journey against the 60 km printed in the stem (defect reported), but the modelling and factorisation outcomes are unaffected"
+  },
+  {
+   "sha": "70cafcb190b3310b",
+   "codes": ["C-2.2-LO-6"],
+   "note": "the model x = 2592/(x/2) reduces to x^2 = 5184 and is finished by a square root -- no factorisation, no formula and no discriminant, so only the translation outcome genuinely applies"
+  },
+  {
+   "sha": "ad46d116d72dfe66",
+   "codes": ["C-2.2-LO-6"],
+   "note": "upstream/downstream model that collapses to x^2 = 25; the negative stream speed is rejected, but as with the odometer-style items no solving technique beyond a square root is exercised"
+  },
+  {
+   "sha": "cef1497f55dfc471",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "two taps modelled by rates per hour giving 4t^2 - 23t + 15 = 0; the root t = 3/4 is rejected because it would make the faster tap's time negative -- a contextual, not a sign, rejection"
+  },
+  {
+   "sha": "19cf8bfbe7b1d5f0",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "the same two-tap rate model with a plus-3 offset, giving 13x^2 - 41x - 120 = 0; the negative root is inadmissible as a time"
+  },
+  {
+   "sha": "fa85ee71c5e3406b",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "work-rate model giving x^2 - 14x + 24 = 0 with both roots positive; x = 2 is rejected because it would make Ram's time negative, another purely contextual admissibility decision"
+  }
+ ]
+}

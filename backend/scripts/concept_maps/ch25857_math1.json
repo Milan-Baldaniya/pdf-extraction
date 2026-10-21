@@ -1,0 +1,14 @@
+{
+  "chapter_id": 25857,
+  "links": [
+    {"sha": "qid:113683", "concept_id": 31401, "note": "Picks 4x^2 out of a+6, a+6+c and a+b+c+d: the test applied is 'contains only one term', which is the monomial definition itself, not the binomial/trinomial vocabulary of 31403."},
+    {"sha": "qid:113684", "concept_id": 31403, "note": "Picks 4l+5m as the binomial against a monomial, a trinomial and a four-term expression - the whole question is the two-terms/three-terms naming fixed in this concept."},
+    {"sha": "qid:113685", "concept_id": 31403, "note": "Picks x^2y-xy^2+y^2 as the trinomial against one-, two- and four-term expressions; same term-count vocabulary."},
+    {"sha": "qid:113686", "concept_id": 31401, "note": "5xy^2 has 1 term. A single term is precisely what 31401 defines, so the count lands on the monomial concept rather than the binomial/trinomial one."},
+    {"sha": "qid:113687", "concept_id": 31403, "note": "5-3xy has 2 terms - counting terms against the two-terms-make-a-binomial definition."},
+    {"sha": "qid:113688", "concept_id": 31403, "note": "7x^2+5x-5 has 3 terms, the trinomial count from this concept's one-sentence vocabulary."},
+    {"sha": "qid:113692", "concept_id": 31394, "note": "Chooses x, 3x over x,2y and 3x,2y: it is a straight application of the like-terms rule that this concept states, the rule the column layout exists to enforce."},
+    {"sha": "qid:113693", "concept_id": 31394, "note": "Chooses 2x^2, 9x^2 over y^2,xy and y^2,9x^2 - same variable AND same power, which is the comparable-quantities test in 31394."},
+    {"sha": "qid:113694", "concept_id": 31394, "note": "Chooses ab, 9ba: like terms despite the letters being written in the other order. Still the like-terms rule of 31394; 31396 mentions zx=xz only in passing while its subject is handling three expressions at once."}
+  ]
+}

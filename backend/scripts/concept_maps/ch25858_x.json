@@ -1,0 +1,13 @@
+{
+  "chapter_id": 25858,
+  "links": [
+    {"sha": "qid:113745", "concept_id": 31417, "note": "Was 31434 'Base area times height', which is the VOLUME of a cuboid or cylinder. The item wants the area of a plane triangle, half base times height - one of the figures 31417 says are already handled."},
+    {"sha": "qid:113746", "concept_id": 31417, "note": "Was 31429 'A cube has six equal squares', i.e. the 6a^2 surface area of a solid. The item asks for the area of a flat SQUARE of side a, a plane figure already handled - 31417."},
+    {"sha": "qid:113757", "concept_id": 31419, "note": "Was 31434 'Base area times height', a volume formula. The item is a plane trapezium of area 480 with the height and one parallel side given. A trapezium's area comes from splitting the quadrilateral into measurable pieces and adding them, which is 31419."},
+    {"sha": "qid:113769", "concept_id": 31434, "note": "Was 31430 'A cylinder unrolls', which is where the cylinder's SURFACE area comes from. The item compares two cylinders' VOLUMES from their radius and height ratios, so the operative concept is base area times height, 31434."},
+    {"sha": "qid:113775", "concept_id": 31428, "note": "Was 31429 'A cube has six equal squares'. The item asks for a CUBOID's surface area with distinct l, b and h, which is the three-pairs-of-identical-faces reduction 2(lb+bh+hl) - 31428. 31429 is the collapsed case where all three are equal."},
+    {"sha": "qid:113777", "concept_id": 31417, "note": "Was 31429 'A cube has six equal squares'. The item is the area of a flat square of side A, not the surface area of a solid - a plane figure already handled, 31417."},
+    {"sha": "qid:113778", "concept_id": 31417, "note": "Was 31421 'One diagonal and two perpendiculars', which is one way of cutting a pentagon up. The item is just the area of a right triangle with legs x and y, i.e. half base times height - 31417."},
+    {"sha": "qid:113782", "concept_id": 31419, "note": "Was 31421 'One diagonal and two perpendiculars'. A trapezium appears there only as one of the four pieces a pentagon is cut into; the item asks for the trapezium area formula itself, which is derived by splitting the quadrilateral into measurable shapes - 31419, matching qid 113757."}
+  ]
+}

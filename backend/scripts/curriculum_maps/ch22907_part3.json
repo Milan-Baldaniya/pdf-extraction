@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22907,
+ "mappings": [
+  {"sha": "a473c078c6aeaf65", "codes": ["C-2.1-LO-1"], "note": "factors x^2 - 2x as x(x-2) and reads the zeroes 0 and 2; finds zeroes by factorisation, LO-1"},
+  {"sha": "4997ccc1b84111ea", "codes": ["C-2.1-LO-2"], "note": "derives the general condition c = a from alpha x 1/alpha = c/a; a statement about the product relation itself"},
+  {"sha": "7428cd9019e595c9", "codes": ["C-2.1-LO-2"], "note": "the coefficients are their own zeroes, so both relations are set up and solved simultaneously; LO-2 with no factorisation"},
+  {"sha": "b5f727805b69daba", "codes": ["C-2.1-LO-1"], "note": "each candidate is substituted and shown to vanish -- the verification half of LO-1, not the coefficient relations"},
+  {"sha": "12b2d7154870053d", "codes": ["C-2.1-LO-1"], "note": "splits the middle term of a surd-coefficient quadratic to reach 2/root3 and 2 root3; still LO-1, only the arithmetic is harder"},
+  {"sha": "1c3db36023c6670f", "codes": ["C-2.1-LO-3", "C-2.1-LO-1"], "note": "two explicit demands: build x^2 - 6x + 9 from the given sum and product (LO-3), then factorise it to get the zeroes (LO-1). This item is the clean evidence the two are distinct"},
+  {"sha": "3d2331b2cc199cf4", "codes": ["C-2.1-LO-3"], "note": "sum and product given, polynomial formed and cleared of fractions; construction only, so LO-3 alone"},
+  {"sha": "0fd28e870eb58182", "codes": ["C-2.1-LO-2"], "note": "alpha/beta + beta/alpha expanded through (alpha+beta)^2 - 2 alpha beta over alpha beta; a symmetric function of the coefficient relations"},
+  {"sha": "96e94dbf84b7aa89", "codes": ["C-2.1-LO-2"], "note": "alpha + beta - alpha beta read straight off -b/a and c/a; the zeroes themselves are irrational and never computed, which is the point"},
+  {"sha": "caa33f7efe377934", "codes": ["C-2.1-LO-2"], "note": "one zero the negative of the other forces sum 0 = -b/a, which pins k; the sum relation does all the work"},
+  {"sha": "265c449f97a7f4dc", "codes": ["C-2.1-LO-2"], "note": "uses both product and sum relations to get lambda and the second zero. Cited as LO-2 not LO-1 because the given zero is never substituted into p(x)"},
+  {"sha": "5375551fbcf7b211", "codes": ["C-2.1-LO-2"], "note": "the stated condition sum = half the product is written entirely in -b/a and c/a and solved for k"},
+  {"sha": "c8ab58cd5459651a", "codes": ["C-2.1-LO-2"], "note": "p and q are the coefficients of a named polynomial, obtained by doubling the sum and quadrupling the product; the answer is coefficients, not a constructed polynomial, so LO-2 rather than LO-3"},
+  {"sha": "60fd6a97af5675fa", "codes": ["C-2.1-LO-2"], "note": "same sum-equals-half-product condition as q723635 with the sign of the linear coefficient flipped; LO-2"},
+  {"sha": "372382d7dde2d047", "codes": ["C-2.1-LO-2", "C-2.1-LO-3"], "note": "first converts the original sum and product into those of the reciprocal zeroes (LO-2), then assembles a new polynomial from them (LO-3); the question asks for the polynomial, so both steps are assessed"},
+  {"sha": "3667c1bea6467069", "codes": ["C-2.1-LO-1"], "note": "three candidate zeroes checked by substituting into p(x) -- the verification half of LO-1. It is a cubic, which LO-1 does not name, but no other outcome covers substitution at all"},
+  {"sha": "2e76a62fd20600e9", "codes": ["C-2.1-LO-2"], "note": "a and c recovered from the two relations 5/a = 10 and c/a = 10; a pure coefficient-relation solve"},
+  {"sha": "121320bb4d1353cd", "codes": ["C-2.1-LO-2"], "note": "the ratio condition between the zeroes is fed through sum and product to find k; nothing is factorised"},
+  {"sha": "ea754661c63b6336", "codes": ["C-2.1-LO-2", "C-2.1-LO-3"], "note": "scales the zeroes by 3 via the relations (LO-2) and then forms the new polynomial (LO-3), which is what the question asks for"},
+  {"sha": "c97342b633464634", "codes": ["C-2.1-LO-2"], "note": "alpha^2 + beta^2 via (alpha+beta)^2 - 2 alpha beta; the zeroes are never needed individually"},
+  {"sha": "d505e27c3a603153", "codes": ["C-2.1-LO-3", "C-2.1-LO-1"], "note": "constructs x^2 + 3x + 2 from the given sum and product (LO-3), then splits the middle term to get -2 and -1 (LO-1); the word hence marks the two stages"},
+  {"sha": "130daa888ca36db2", "codes": ["C-2.1-LO-1", "C-2.1-LO-2"], "note": "zeroes found by splitting the middle term (LO-1) and then the sum and product checked against -b/a and c/a (LO-2); verify the relationship is an explicit second demand"},
+  {"sha": "ec2fc2861720f9f9", "codes": ["C-2.1-LO-1", "C-2.1-LO-2"], "note": "same find-then-verify pair on x^2 + 7x + 10; both outcomes are genuinely exercised"},
+  {"sha": "69eda2ce0b670236", "codes": ["C-2.1-LO-1"], "note": "a and b found by substituting each given zero into f and solving the pair -- the substitution route. Contrast q723578, which sets the same task but solves it by constructing the polynomial from sum and product (LO-3)"},
+  {"sha": "29bf61ae6620640d", "codes": ["C-2.1-LO-2", "C-2.1-LO-3"], "note": "reciprocal zeroes handled through the relations (LO-2) and a new polynomial in y assembled from the resulting sum and product (LO-3)"}
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23197,
+ "mappings": [
+  {
+   "sha": "d6b4ce00d148f395",
+   "codes": ["C-3.1-LO-2"],
+   "note": "a4 = 11 with a5+a7 = 34; adding two named terms is index algebra, not a partial sum, so the simultaneous equations are LO-2 work"
+  },
+  {
+   "sha": "8af22b6f06e0fb7e",
+   "codes": ["C-3.1-LO-2"],
+   "note": "the last term fixes the number of terms via a+(m-1)d, then the middle index is evaluated again by the same formula; two nth-term steps, no sum"
+  },
+  {
+   "sha": "ea12bcc707ed12cf",
+   "codes": ["C-3.1-LO-1"],
+   "note": "equal successive differences on three consecutive expressions solved for x; the AP criterion is the equation, so LO-1"
+  },
+  {
+   "sha": "e31b9f9c3a240554",
+   "codes": ["C-3.1-LO-2"],
+   "note": "the knowns sit at positions 2 and 5, so a+d and a+4d are needed to unlock d; unlike the adjacent-blank items this needs the indexed formula, hence LO-2"
+  },
+  {
+   "sha": "541101b36e98a67d",
+   "codes": ["C-3.1-LO-2"],
+   "note": "a fully symbolic index identity proved by expanding three terms as a+(k-1)d; the derive half of LO-2 with no numbers and no sum"
+  },
+  {
+   "sha": "0660433dd02e8039",
+   "codes": ["C-3.1-LO-2"],
+   "note": "a vanishing 4th term pins a = -3d and the 25th/11th ratio follows; same index-algebra family as the other zero-term proofs, honestly one outcome"
+  },
+  {
+   "sha": "30861c4c89ea16e5",
+   "codes": ["C-3.1-LO-3"],
+   "note": "Sn = 0 on a printed AP gives a quadratic in n; the count comes out of the sum formula, not out of a described set, so LO-3 rather than C-3.2-LO-2"
+  },
+  {
+   "sha": "bb8d79f00e11b6e9",
+   "codes": ["C-3.1-LO-3"],
+   "note": "same zero-sum condition with a fractional d, which changes the arithmetic but not the outcome; still the sum formula solved for n"
+  },
+  {
+   "sha": "e238dad39a05261a",
+   "codes": ["C-3.1-LO-3"],
+   "note": "every given is a partial sum (S5+S7 and S10); a and d are recovered purely from sum expressions, so LO-3 even though the answer is the AP itself"
+  },
+  {
+   "sha": "4902999eaf4a9eb2",
+   "codes": ["C-3.1-LO-3"],
+   "note": "d read off a printed list and substituted into Sn; a plain application of the sum formula"
+  },
+  {
+   "sha": "9b090449752f5790",
+   "codes": ["C-3.1-LO-3"],
+   "note": "first and thirteenth terms are both supplied, so Sn = (n/2)(a+an) answers it directly; the nth-term formula is incidental, the sum is what is graded"
+  },
+  {
+   "sha": "c4c01ce4a2425757",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the closed form is used only to produce the first and fifteenth terms as endpoints for the sum; the assessed formula is Sn"
+  },
+  {
+   "sha": "e78185857eb1cb00",
+   "codes": ["C-3.1-LO-3"],
+   "note": "same pattern with an = -4n+15, this time routed through Sn = (n/2)[2a+(n-1)d]; a sum item wearing an nth-term coat"
+  },
+  {
+   "sha": "45732eafc6b29636",
+   "codes": ["C-3.1-LO-3"],
+   "note": "Sn given as a quadratic, an recovered by Sn - S(n-1); the knowledge under test is what the sum of n terms is, so LO-3"
+  },
+  {
+   "sha": "1731b1ed11bcb717",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the sum pins n through Sn = (n/2)(a+l) and only then does d follow; the entry point is the sum, so LO-3 leads rather than LO-2"
+  },
+  {
+   "sha": "81ed58a9a91bd3a1",
+   "codes": ["C-3.1-LO-3"],
+   "note": "two partial sums give a and d, and the answer is a general Sn expression; sum formula at both ends of the work"
+  },
+  {
+   "sha": "8fcdabe372cc054d",
+   "codes": ["C-3.1-LO-2"],
+   "note": "solves a(n) = a50 + 90 for the index on a printed AP; the 'more than the kth term' family is consistently LO-2"
+  },
+  {
+   "sha": "53167ef007c8c06d",
+   "codes": ["C-3.2-LO-2"],
+   "note": "'integers between 200 and 500 divisible by 8' has to be turned into 208, 216, ..., 496 before anything can be counted; the modelling of the range plus the count is C-3.2-LO-2"
+  },
+  {
+   "sha": "c616b3ee832a13f3",
+   "codes": ["C-3.1-LO-2"],
+   "note": "two indexed terms give a and d and the AP is then written out; the sequence is the answer but the tool is the nth-term formula, so LO-2 not LO-1"
+  },
+  {
+   "sha": "8151ff543589628e",
+   "codes": ["C-3.1-LO-2"],
+   "note": "identical two-indexed-terms structure at positions 3 and 7; honestly the same outcome as the 5th/10th item, not a distinction worth inventing"
+  },
+  {
+   "sha": "175e3c1bb2c7d554",
+   "codes": ["C-3.1-LO-2"],
+   "note": "duplicate of the earlier -150 membership item; the verdict rests on a non-integer index from a+(n-1)d, so LO-2"
+  },
+  {
+   "sha": "7b5fab2aa0841d57",
+   "codes": ["C-3.1-LO-2"],
+   "note": "duplicate of the 7a7 = 11a11 item; expands both indices to reach a+17d = 0, which is LO-2"
+  },
+  {
+   "sha": "2be6d65862aee94f",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the sum of the LAST 15 of 50 terms must be built as a partial sum over indices 36 to 50; that is sum-formula reasoning beyond a single Sn, so LO-3"
+  },
+  {
+   "sha": "e147db1172a42700",
+   "codes": ["C-3.2-LO-2"],
+   "note": "the first and last multiples of 4 inside an open interval have to be identified before counting; the boundary judgement is the contextual step LO-2 of C-3.2 names"
+  },
+  {
+   "sha": "b686983adea2a6cd",
+   "codes": ["C-3.1-LO-1"],
+   "note": "solved by choosing a-3d, a-d, a+d, a+3d so the step stays constant and the sum degenerates to 4a; the defining property carries it, with no Sn or an formula used"
+  }
+ ]
+}

@@ -1,0 +1,699 @@
+{
+ "chapter_id": 8595,
+ "chapter": "Introduction to Linear Polynomials (Class 9 Maths)",
+ "note": "50 mixed-form items across the chapter's concepts. Difficulty 17 Easy / 17 Medium / 16 Hard.",
+ "items": [
+  {
+   "concept": "Algebraic Expressions",
+   "form": "mcq",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "An algebraic expression is made up of variables, constants and",
+   "explanation": "Terms are joined by the operations of addition, subtraction, multiplication and division.",
+   "options": [
+    {
+     "text": "operations",
+     "correct": true
+    },
+    {
+     "text": "axes",
+     "why": "Axes belong to a graph, not to the expression itself."
+    },
+    {
+     "text": "angles",
+     "why": "Angles are geometric and play no part in an expression."
+    },
+    {
+     "text": "points",
+     "why": "A point is a location, not a component of an expression."
+    }
+   ]
+  },
+  {
+   "concept": "Degree of a Polynomial",
+   "form": "mcq",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "The degree of the polynomial 7x + 4 is",
+   "explanation": "The highest power of the variable is one, so the degree is one.",
+   "options": [
+    {
+     "text": "1",
+     "correct": true
+    },
+    {
+     "text": "0",
+     "why": "A degree of zero would mean no variable term at all."
+    },
+    {
+     "text": "4",
+     "why": "This is the constant term, not the power of the variable."
+    },
+    {
+     "text": "7",
+     "why": "This is the coefficient, not the power of the variable."
+    }
+   ]
+  },
+  {
+   "concept": "Linear Polynomial",
+   "form": "mcq",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "Which of the following is a linear polynomial?",
+   "explanation": "A linear polynomial has degree exactly one in the variable.",
+   "options": [
+    {
+     "text": "5x - 2",
+     "correct": true
+    },
+    {
+     "text": "3x squared + 1",
+     "why": "The highest power is two, so this is quadratic."
+    },
+    {
+     "text": "x cubed - x",
+     "why": "The highest power is three, so this is cubic."
+    },
+    {
+     "text": "9",
+     "why": "With no variable term the degree is zero, so it is a constant."
+    }
+   ]
+  },
+  {
+   "concept": "Slope of a Line",
+   "form": "mcq",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "In the equation y = mx + c, the letter m stands for the",
+   "explanation": "The coefficient of x is the slope, which measures how steeply the line rises.",
+   "options": [
+    {
+     "text": "slope",
+     "correct": true
+    },
+    {
+     "text": "intercept",
+     "why": "The intercept is c, the value of y where the line meets the y-axis."
+    },
+    {
+     "text": "variable",
+     "why": "The variables are x and y, not the coefficient."
+    },
+    {
+     "text": "constant term",
+     "why": "The constant term is c, not the coefficient of x."
+    }
+   ]
+  },
+  {
+   "concept": "Y-Intercept",
+   "form": "mcq",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "The y-intercept of the line y = 4x - 9 is",
+   "explanation": "Putting x equal to zero gives y equal to -9, so the line crosses the y-axis there.",
+   "options": [
+    {
+     "text": "-9",
+     "correct": true
+    },
+    {
+     "text": "4",
+     "why": "This is the slope, not the intercept."
+    },
+    {
+     "text": "9",
+     "why": "The sign has been dropped; the constant term is negative."
+    },
+    {
+     "text": "0",
+     "why": "The line passes through the origin only when the constant term is zero."
+    }
+   ]
+  },
+  {
+   "concept": "Linear Growth",
+   "form": "mcq",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "A quantity increases by the same fixed amount in each time period. This is described as",
+   "explanation": "A constant increase per period is linear growth and gives a straight-line graph.",
+   "options": [
+    {
+     "text": "linear growth",
+     "correct": true
+    },
+    {
+     "text": "exponential growth",
+     "why": "Exponential growth multiplies by a fixed factor rather than adding a fixed amount."
+    },
+    {
+     "text": "linear decay",
+     "why": "Decay describes a decrease, not an increase."
+    },
+    {
+     "text": "no growth",
+     "why": "The quantity is stated to be increasing."
+    }
+   ]
+  },
+  {
+   "concept": "Graphing Linear Equations",
+   "form": "mcq",
+   "difficulty": "Medium",
+   "bloom": "Understand",
+   "stem": "The graph of a linear polynomial in one variable is always",
+   "explanation": "A degree-one relation plots as a straight line.",
+   "options": [
+    {
+     "text": "a straight line",
+     "correct": true
+    },
+    {
+     "text": "a parabola",
+     "why": "A parabola comes from a quadratic, which has degree two."
+    },
+    {
+     "text": "a circle",
+     "why": "A circle is not the graph of any polynomial function."
+    },
+    {
+     "text": "a single point",
+     "why": "A line contains infinitely many points."
+    }
+   ]
+  },
+  {
+   "concept": "Parallel Lines",
+   "form": "mcq",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Two distinct lines have the same slope. They must be",
+   "explanation": "Equal slopes mean equal steepness and direction; being distinct, they never meet, so they are parallel.",
+   "options": [
+    {
+     "text": "parallel",
+     "correct": true
+    },
+    {
+     "text": "intersecting",
+     "why": "Lines of equal slope that are distinct never meet."
+    },
+    {
+     "text": "perpendicular",
+     "why": "Perpendicular lines have slopes whose product is -1."
+    },
+    {
+     "text": "identical",
+     "why": "The lines are stated to be distinct."
+    }
+   ]
+  },
+  {
+   "concept": "Linear Decay",
+   "form": "mcq",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "A line has a negative slope. As the value of x increases, the value of y",
+   "explanation": "A negative slope means each unit increase in x produces a decrease in y.",
+   "options": [
+    {
+     "text": "decreases steadily",
+     "correct": true
+    },
+    {
+     "text": "increases steadily",
+     "why": "That would require a positive slope."
+    },
+    {
+     "text": "stays the same",
+     "why": "That would require a slope of zero."
+    },
+    {
+     "text": "first rises then falls",
+     "why": "A straight line changes in one direction only."
+    }
+   ]
+  },
+  {
+   "concept": "Univariate Polynomials",
+   "form": "mcq",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Which of these is NOT a polynomial in one variable?",
+   "explanation": "A polynomial requires whole-number powers of the variable, and a variable in the denominator gives a negative power.",
+   "options": [
+    {
+     "text": "3 divided by x, plus 5",
+     "correct": true
+    },
+    {
+     "text": "2x + 7",
+     "why": "The power of x is one, a whole number, so this is a polynomial."
+    },
+    {
+     "text": "x squared - 4",
+     "why": "The power of x is two, a whole number, so this is a polynomial."
+    },
+    {
+     "text": "6",
+     "why": "A constant is a polynomial of degree zero."
+    }
+   ]
+  },
+  {
+   "concept": "Linear Polynomial",
+   "form": "very_short",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "Define a linear polynomial.",
+   "answer": "A linear polynomial is a polynomial whose highest power of the variable is one, so it has the form ax + b with a not equal to zero."
+  },
+  {
+   "concept": "Degree of a Polynomial",
+   "form": "very_short",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "What is the degree of a non-zero constant polynomial?",
+   "answer": "Zero, because the variable does not appear, which is the same as appearing to the power zero."
+  },
+  {
+   "concept": "Linear Pattern",
+   "form": "very_short",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "How is the slope of a line connected to a linear pattern in a table of values?",
+   "answer": "The slope equals the constant amount by which y changes for each unit increase in x, which is exactly the fixed difference seen between successive values in the table."
+  },
+  {
+   "concept": "Y-Intercept",
+   "form": "very_short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Where does the line y = 2x + 5 cross the y-axis?",
+   "answer": "At the point (0, 5), because putting x equal to zero gives y equal to 5."
+  },
+  {
+   "concept": "Slope of a Line",
+   "form": "very_short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Find the slope of the line joining (1, 3) and (4, 12).",
+   "answer": "The slope is the change in y divided by the change in x, that is (12 - 3) divided by (4 - 1), which is 9 divided by 3, giving a slope of 3."
+  },
+  {
+   "concept": "Linear Relationship",
+   "form": "very_short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "A taxi charges 30 rupees fixed plus 12 rupees per kilometre. Write the fare as a linear polynomial in the distance d.",
+   "answer": "Fare = 12d + 30, where the coefficient 12 is the rate per kilometre and 30 is the fixed charge."
+  },
+  {
+   "concept": "Parallel Lines",
+   "form": "very_short",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Why can two lines with different y-intercepts but the same slope never meet?",
+   "answer": "Equal slopes mean the vertical gap between the lines is the same at every value of x, and that gap is the difference of the intercepts, which is not zero. A constant non-zero gap means the lines never touch."
+  },
+  {
+   "concept": "Linear Pattern",
+   "form": "very_short",
+   "difficulty": "Hard",
+   "bloom": "Evaluate",
+   "stem": "A table of values shows differences of 4, 4, 5, 4. Can the relation be linear? Justify.",
+   "answer": "No. A linear relation requires the difference to be exactly constant for equal steps in x. One difference of 5 among the fours breaks that, so either the data is not linear or one value has been recorded wrongly."
+  },
+  {
+   "concept": "Algebraic Expressions",
+   "form": "short",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "Explain the difference between a variable, a constant and a coefficient, using the expression 5x + 7 as your example.",
+   "answer": "In 5x + 7, the letter x is the variable, because its value may change. The number 7 is a constant, because its value is fixed and it stands alone without a variable. The number 5 is a coefficient, because it multiplies the variable and tells us how much the expression changes for each unit change in x. A coefficient is a particular kind of constant, namely one attached to a variable term."
+  },
+  {
+   "concept": "Degree of a Polynomial",
+   "form": "short",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "State the degree of each and name its type: (a) 6x + 1, (b) 4x squared - 3x, (c) 11, (d) x cubed + 2.",
+   "answer": "(a) Degree one, a linear polynomial. (b) Degree two, a quadratic polynomial. (c) Degree zero, a constant polynomial. (d) Degree three, a cubic polynomial. In each case the degree is the highest power of the variable that appears with a non-zero coefficient."
+  },
+  {
+   "concept": "Graphing Linear Equations",
+   "form": "short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Draw up a table of three values for y = 3x - 2 and describe the graph you would obtain.",
+   "answer": "Taking x = 0 gives y = -2; x = 1 gives y = 1; x = 2 gives y = 4. The three points are (0, -2), (1, 1) and (2, 4). Plotting them and joining them gives a straight line that rises from left to right, because the slope 3 is positive. The line crosses the y-axis at -2 and rises 3 units for every 1 unit moved to the right."
+  },
+  {
+   "concept": "Slope of a Line",
+   "form": "short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Two points on a line are (2, 5) and (6, 13). Find the slope and hence the equation of the line.",
+   "answer": "The slope is the change in y over the change in x, which is (13 - 5) divided by (6 - 2), that is 8 divided by 4, giving 2. Using y = mx + c with m = 2 and the point (2, 5): 5 = 2 times 2 plus c, so 5 = 4 + c and c = 1. The equation of the line is y = 2x + 1. Checking with the second point: 2 times 6 plus 1 equals 13, which matches."
+  },
+  {
+   "concept": "Linear Growth",
+   "form": "short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "A plant is 12 cm tall and grows 3 cm each week. Write a linear polynomial for its height after w weeks and find its height after 8 weeks.",
+   "answer": "The height starts at 12 cm and increases by 3 cm per week, so height = 3w + 12. The coefficient 3 is the weekly growth and 12 is the starting height, which is the y-intercept. After 8 weeks the height is 3 times 8 plus 12, which is 24 + 12, giving 36 cm."
+  },
+  {
+   "concept": "Linear Decay",
+   "form": "short",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "A tank holds 500 litres and loses 25 litres an hour. Write the volume as a linear polynomial, and explain why the model cannot be valid for all values of the time.",
+   "answer": "Volume = 500 - 25t, where t is the time in hours. The slope is -25, showing a steady loss, and the intercept 500 is the starting volume. The model is only valid while the volume is not negative, that is while 500 - 25t is at least zero, which gives t at most 20 hours. Beyond 20 hours the polynomial predicts a negative volume, which is physically impossible, so the linear model applies only on the interval from 0 to 20 hours. This is a general caution: a linear model that fits data over a range may be meaningless outside it."
+  },
+  {
+   "concept": "Linear Relationship",
+   "form": "short",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Two mobile plans cost 200 + 2n rupees and 100 + 4n rupees for n minutes. Find when they cost the same and advise which is better.",
+   "answer": "Setting the two equal: 200 + 2n = 100 + 4n. Subtracting 2n and 100 from both sides gives 100 = 2n, so n = 50 minutes. At 50 minutes both plans cost 300 rupees. For fewer than 50 minutes the second plan is cheaper, because its lower fixed charge of 100 dominates. For more than 50 minutes the first plan is cheaper, because its lower rate of 2 rupees a minute dominates. So the advice depends on expected usage: light users should choose the second plan and heavy users the first."
+  },
+  {
+   "concept": "Parallel Lines",
+   "form": "short",
+   "difficulty": "Hard",
+   "bloom": "Evaluate",
+   "stem": "A student claims that two lines with the same y-intercept must be the same line. Assess this claim.",
+   "answer": "The claim is false. Two lines with the same y-intercept both pass through the same point on the y-axis, but if their slopes differ they head off in different directions and are two distinct lines crossing at that point. For example y = 2x + 3 and y = 5x + 3 both pass through (0, 3) but are clearly different lines. Two lines are identical only when both the slope and the intercept agree. The student has confused sharing one point with sharing every point."
+  },
+  {
+   "concept": "Linear Polynomial",
+   "form": "assertion_reason",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "Assertion (A): 4x + 9 is a linear polynomial. Reason (R): Its highest power of the variable is one. Choose the correct option.",
+   "explanation": "Both are true, and having highest power one is exactly the definition of linear.",
+   "options": [
+    {
+     "text": "Both A and R are true and R explains A",
+     "correct": true
+    },
+    {
+     "text": "Both A and R are true but R does not explain A",
+     "why": "Highest power one is precisely what makes a polynomial linear."
+    },
+    {
+     "text": "A is true but R is false",
+     "why": "The highest power of x in 4x + 9 is indeed one."
+    },
+    {
+     "text": "A is false but R is true",
+     "why": "A degree-one polynomial is linear by definition."
+    }
+   ]
+  },
+  {
+   "concept": "Graphing Linear Equations",
+   "form": "assertion_reason",
+   "difficulty": "Medium",
+   "bloom": "Analyze",
+   "stem": "Assertion (A): Every straight line can be written as y = mx + c. Reason (R): Every straight line has a slope. Choose the correct option.",
+   "explanation": "Both statements fail for a vertical line, which has no defined slope and is written x = k instead.",
+   "options": [
+    {
+     "text": "Both A and R are false",
+     "correct": true
+    },
+    {
+     "text": "Both A and R are true and R explains A",
+     "why": "A vertical line has no defined slope and cannot be written this way."
+    },
+    {
+     "text": "A is true but R is false",
+     "why": "A vertical line is a counter-example to the assertion as well."
+    },
+    {
+     "text": "A is false but R is true",
+     "why": "The slope of a vertical line is undefined, so the reason fails too."
+    }
+   ]
+  },
+  {
+   "concept": "Slope of a Line",
+   "form": "assertion_reason",
+   "difficulty": "Hard",
+   "bloom": "Evaluate",
+   "stem": "Assertion (A): A line with slope zero is horizontal. Reason (R): A slope of zero means y does not change as x changes. Choose the correct option.",
+   "explanation": "Both are true, and an unchanging y as x varies is exactly what a horizontal line looks like.",
+   "options": [
+    {
+     "text": "Both A and R are true and R explains A",
+     "correct": true
+    },
+    {
+     "text": "Both A and R are true but R does not explain A",
+     "why": "An unchanging y value is precisely what makes the line horizontal."
+    },
+    {
+     "text": "A is true but R is false",
+     "why": "Zero slope does mean y is unchanged as x varies."
+    },
+    {
+     "text": "A is false but R is true",
+     "why": "A line of zero slope is horizontal."
+    }
+   ]
+  },
+  {
+   "concept": "Linear Growth",
+   "form": "assertion_reason",
+   "difficulty": "Hard",
+   "bloom": "Evaluate",
+   "stem": "Assertion (A): Doubling the time always doubles the quantity in linear growth. Reason (R): Linear growth adds a fixed amount per period. Choose the correct option.",
+   "explanation": "The reason is true but the assertion is false: doubling the time doubles the growth only when the starting value is zero, since the constant term is not doubled.",
+   "options": [
+    {
+     "text": "A is false but R is true",
+     "correct": true
+    },
+    {
+     "text": "Both A and R are true and R explains A",
+     "why": "The starting value is not doubled, so the total is not doubled."
+    },
+    {
+     "text": "Both A and R are false",
+     "why": "Adding a fixed amount per period is exactly what linear growth does."
+    },
+    {
+     "text": "A is true but R is false",
+     "why": "For 3t + 10, doubling t from 2 to 4 gives 16 then 22, not 32."
+    }
+   ]
+  },
+  {
+   "concept": "Degree of a Polynomial",
+   "form": "true_false",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "State whether true or false: the degree of 8x + 3 is one.",
+   "explanation": "The highest power of the variable is one.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "why": "The highest power of x in 8x + 3 is one, so the degree is one."
+    }
+   ]
+  },
+  {
+   "concept": "Linear Polynomial",
+   "form": "true_false",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "State whether true or false: every constant is a linear polynomial.",
+   "explanation": "A constant has degree zero; a linear polynomial must have degree exactly one.",
+   "options": [
+    {
+     "text": "False",
+     "correct": true
+    },
+    {
+     "text": "True",
+     "why": "A constant has degree zero, so it is a constant polynomial, not a linear one."
+    }
+   ]
+  },
+  {
+   "concept": "Y-Intercept",
+   "form": "true_false",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "State whether true or false: the line y = 6x passes through the origin.",
+   "explanation": "The constant term is zero, so putting x equal to zero gives y equal to zero.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "why": "With no constant term the line crosses the y-axis at zero, which is the origin."
+    }
+   ]
+  },
+  {
+   "concept": "Parallel Lines",
+   "form": "true_false",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "State whether true or false: two lines with different slopes must intersect exactly once.",
+   "explanation": "Different slopes mean the lines are not parallel, so in a plane they meet at exactly one point.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "why": "Unequal slopes rule out parallel and identical lines, leaving exactly one crossing point."
+    }
+   ]
+  },
+  {
+   "concept": "Slope of a Line",
+   "form": "fill_blank",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "In y = mx + c, the number m is called the ___________ of the line.",
+   "answer": "slope"
+  },
+  {
+   "concept": "Y-Intercept",
+   "form": "fill_blank",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "In y = mx + c, the number c is called the ___________.",
+   "answer": "y-intercept"
+  },
+  {
+   "concept": "Degree of a Polynomial",
+   "form": "fill_blank",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "The degree of the polynomial 9 - 2x is ___________.",
+   "answer": "one"
+  },
+  {
+   "concept": "Graphing Linear Equations",
+   "form": "fill_blank",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "The minimum number of points needed to draw the graph of a linear equation is ___________.",
+   "answer": "two"
+  },
+  {
+   "concept": "Linear Relationship",
+   "form": "long",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "Explain what a linear polynomial is, how its graph looks, and what the slope and intercept mean in a real situation.",
+   "answer": "A linear polynomial in one variable has the form ax + b where a is not zero, so the highest power of the variable is one. Its graph is always a straight line, which is why it is called linear. Writing it as y = mx + c, the number m is the slope and the number c is the y-intercept. The slope tells us how much y changes for each one-unit increase in x, and its sign tells us the direction: positive for a line rising to the right, negative for one falling. The intercept tells us the value of y when x is zero, that is where the line meets the y-axis. In a real situation these have concrete meanings. If a taxi charges a fixed 30 rupees plus 12 rupees per kilometre, the fare is 12d + 30. Here 12 is the slope, the cost of each extra kilometre, and 30 is the intercept, the amount payable before travelling any distance at all. Reading a graph therefore gives both the starting position and the rate of change at a glance."
+  },
+  {
+   "concept": "Graphing Linear Equations",
+   "form": "long",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Draw up tables and describe the graphs of y = 2x + 1 and y = 2x - 3, then state what the comparison shows.",
+   "answer": "For y = 2x + 1: x = 0 gives y = 1; x = 1 gives y = 3; x = 2 gives y = 5. The points are (0, 1), (1, 3), (2, 5). For y = 2x - 3: x = 0 gives y = -3; x = 1 gives y = -1; x = 2 gives y = 1. The points are (0, -3), (1, -1), (2, 1). Both graphs are straight lines rising from left to right, each climbing 2 units for every 1 unit moved right, because both have slope 2. The first crosses the y-axis at 1 and the second at -3. Since the slopes are equal and the intercepts differ, the lines are parallel and never meet, and the vertical gap between them is 4 units at every value of x, which is the difference of the intercepts. The comparison shows that the slope controls the direction and steepness of a line while the intercept controls only its position up or down."
+  },
+  {
+   "concept": "Linear Relationship",
+   "form": "long",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "A shop's monthly profit is modelled by P = 150n - 9000 rupees, where n is the number of items sold. Analyse this model fully.",
+   "answer": "The slope is 150, meaning each item sold adds 150 rupees to the profit, so 150 rupees is the contribution per item after the cost of that item. The intercept is -9000, meaning that if nothing is sold the shop loses 9000 rupees, which represents its fixed monthly costs such as rent and wages. The break-even point is where P equals zero: 150n = 9000, so n = 60 items. Selling fewer than 60 items in the month gives a loss, and selling more gives a profit. To make a profit of 6000 rupees, set 150n - 9000 = 6000, giving 150n = 15000 and n = 100 items. The model has limits. It assumes the contribution per item is the same however many are sold, which fails if bulk discounts are offered or if extra staff must be hired beyond a certain volume. It also allows any real value of n, whereas only whole numbers make sense, and it gives meaningless answers for negative n. Within a sensible range of sales it is a useful description, and its two numbers, 150 and 9000, carry all the business information."
+  },
+  {
+   "concept": "Linear Pattern",
+   "form": "long",
+   "difficulty": "Hard",
+   "bloom": "Evaluate",
+   "stem": "Given a table of paired values, explain how you would decide whether the relation is linear, and discuss what could make the decision uncertain.",
+   "answer": "The test is whether equal steps in x always produce equal steps in y. Check that the x values are equally spaced; if they are not, compute the ratio of the change in y to the change in x for each consecutive pair instead. If that ratio, the slope, is the same for every pair, the relation is linear, and its common value is the slope of the line. Extending backwards to x equal to zero gives the intercept, and the relation can then be written as y = mx + c. Several things can make the decision uncertain. Real measurements carry error, so the differences will rarely be exactly equal even when the underlying relation is linear; a judgement is needed about whether the variation is small enough to be measurement noise. A short table may be misleading, because a curve looks straight over a small range, so three points agreeing prove very little. The relation may also be linear over part of the range and not beyond it, as with a tank that empties at a steady rate until it is empty. The honest conclusion from a table is therefore that the data is consistent with a linear relation over the range tested, and a claim beyond that range needs more evidence."
+  },
+  {
+   "concept": "Slope of a Line",
+   "form": "numerical",
+   "difficulty": "Easy",
+   "bloom": "Apply",
+   "stem": "Find the value of y when x = 5 in the linear polynomial y = 4x - 3.",
+   "answer": "Substituting x = 5 gives y = 4 times 5 minus 3, which is 20 - 3, so y = 17. The point (5, 17) therefore lies on the line."
+  },
+  {
+   "concept": "Linear Relationship",
+   "form": "numerical",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "A line passes through (0, 7) and has slope -2. Find the value of x for which y = 1.",
+   "answer": "The intercept is 7 and the slope is -2, so the equation is y = -2x + 7. Setting y = 1 gives 1 = -2x + 7. Subtracting 7 from both sides gives -6 = -2x, so x = 3. The line passes through the point (3, 1)."
+  },
+  {
+   "concept": "Linear Relationship",
+   "form": "numerical",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "The cost of printing is 500 rupees plus 4 rupees per copy. Find the number of copies for which the average cost per copy falls to 6 rupees.",
+   "answer": "Total cost for n copies is 4n + 500. The average cost per copy is (4n + 500) divided by n. Setting this equal to 6 gives 4n + 500 = 6n, so 500 = 2n and n = 250 copies. Checking: 250 copies cost 4 times 250 plus 500, which is 1000 + 500 = 1500 rupees, and 1500 divided by 250 is exactly 6 rupees. Note that the average cost is not itself a linear function of n even though the total cost is, because dividing by n introduces a term 500 divided by n. As n grows the average falls towards 4 rupees but never reaches it, since the fixed 500 rupees is always spread over the copies."
+  },
+  {
+   "concept": "Degree of a Polynomial",
+   "form": "match_following",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "Match each polynomial in Column I with its degree in Column II. Column I: (a) 5, (b) 3x - 1, (c) x squared + x, (d) 2x cubed. Column II: (i) 1, (ii) 3, (iii) 0, (iv) 2.",
+   "answer": "(a) 5 - (iii) degree 0, a constant. (b) 3x - 1 - (i) degree 1, linear. (c) x squared + x - (iv) degree 2, quadratic. (d) 2x cubed - (ii) degree 3, cubic."
+  },
+  {
+   "concept": "Slope of a Line",
+   "form": "match_following",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Match each line in Column I with its slope in Column II. Column I: (a) y = 5x + 2, (b) y = 2 - 3x, (c) y = 7, (d) y = x. Column II: (i) -3, (ii) 1, (iii) 5, (iv) 0.",
+   "answer": "(a) y = 5x + 2 - (iii) slope 5. (b) y = 2 - 3x - (i) slope -3, since the coefficient of x is negative. (c) y = 7 - (iv) slope 0, a horizontal line. (d) y = x - (ii) slope 1."
+  },
+  {
+   "concept": "Graphing Linear Equations",
+   "form": "construction",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Draw the graph of y = 2x - 4 on squared paper and mark where it crosses each axis.",
+   "answer": "Draw and label the x-axis and y-axis with equal scales. Build a table: x = 0 gives y = -4; x = 2 gives y = 0; x = 4 gives y = 4. Plot the points (0, -4), (2, 0) and (4, 4) and draw a straight line through them, extending it a little beyond in each direction and labelling it y = 2x - 4. Mark the y-intercept at (0, -4), where the line crosses the vertical axis, and mark the x-intercept at (2, 0), where it crosses the horizontal axis, found by setting y equal to zero and solving 2x - 4 = 0. Annotate the line to show that it rises 2 units for every 1 unit moved to the right, which is the slope."
+  },
+  {
+   "concept": "Parallel Lines",
+   "form": "construction",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "On one set of axes, draw y = x + 2, y = x - 1 and y = -x + 2, and use the diagram to explain what the slope and intercept each control.",
+   "answer": "Draw one set of labelled axes. For y = x + 2 plot (0, 2) and (2, 4) and draw the line. For y = x - 1 plot (0, -1) and (2, 1) and draw the line. For y = -x + 2 plot (0, 2) and (2, 0) and draw the line. Label each line with its equation. The first two lines have the same slope of 1 and are parallel, never meeting, separated by a constant vertical gap of 3 units, which is the difference of their intercepts. This shows that the intercept controls only where the line sits, not its direction. The first and third lines share the intercept 2 and so both pass through (0, 2), but their slopes of 1 and -1 send them in different directions, one rising and one falling, so they cross at that single point. This shows that the slope controls the direction and steepness. Annotate the diagram with these two conclusions: same slope gives parallel lines, and same intercept gives lines through a common point on the y-axis."
+  },
+  {
+   "concept": "Linear Relationship",
+   "form": "proof",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Prove that if a relation between x and y has a constant first difference for equally spaced x values, then the relation is linear.",
+   "answer": "Let the x values be equally spaced with step h, so they are x0, x0 + h, x0 + 2h and so on, and let the corresponding y values be y0, y1, y2 and so on. Suppose the first difference is constant, so y1 - y0 = d, y2 - y1 = d, and in general y(n) - y(n-1) = d for every n. Adding these differences from the first up to the nth gives y(n) - y0 = nd, so y(n) = y0 + nd. Now the x value at step n is x(n) = x0 + nh, so n = (x(n) - x0) divided by h. Substituting gives y(n) = y0 + d times (x(n) - x0) divided by h, which rearranges to y = (d divided by h) times x + (y0 minus d times x0 divided by h). Both brackets are constants, since d, h, x0 and y0 are fixed. The relation therefore has the form y = mx + c with m = d divided by h, so it is linear, and its slope is the constant difference divided by the constant step in x. This also proves the converse direction of the usual test: constant first differences are not merely a symptom of linearity but are sufficient to establish it."
+  }
+ ]
+}

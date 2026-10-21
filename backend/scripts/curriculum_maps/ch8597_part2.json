@@ -1,0 +1,15 @@
+{
+ "chapter_id": 8597,
+ "mappings": [
+  {"sha": "3b9ac702c73dc292", "codes": ["C-7.2-LO-4"],
+   "note": "cube of a binomial difference expanded in full - LO-4; the five-mark weighting does not change which identity is being tested"},
+  {"sha": "250f255e861147ba", "codes": ["C-7.2-LO-4"],
+   "note": "recognises a perfect cube and reads the binomial back out of it - LO-4 run in the reverse direction, which is what separates it from item 26"},
+  {"sha": "93f091f8a75578b7", "codes": ["C-7.2-LO-5", "C-7.2-LO-4"],
+   "note": "the x^3+y^3+z^3-3xyz identity (LO-5) with xy+yz+zx recovered from (x+y+z)^2 (LO-4); note this item duplicates item 10 word for word at a different mark weighting"},
+  {"sha": "fbf6b28810178c74", "codes": ["C-7.2-LO-1"],
+   "note": "the path area is (40+2s)^2 - 40^2, i.e. one square subtracted from another - the area-of-squares reasoning LO-1 is built on, applied to a real plan"},
+  {"sha": "4b5d2108a26612b7", "codes": ["C-7.2-LO-1"],
+   "note": "the only item in the chapter that matches LO-1 as written: the hall is partitioned into a square of side a, a square of side b and two a-by-b rectangles, and equating the two area expressions IS the geometric proof of (a+b)^2"}
+ ]
+}

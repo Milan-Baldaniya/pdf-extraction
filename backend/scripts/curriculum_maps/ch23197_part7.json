@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23197,
+ "mappings": [
+  {
+   "sha": "40b0ff5731b9a21f",
+   "codes": ["C-3.2-LO-2", "C-3.1-LO-3"],
+   "note": "unlike 'sum of the first 8 multiples of 3', n is not given: the count of two-digit multiples of 4 must be derived from the description first, then summed -- two separately graded steps"
+  },
+  {
+   "sha": "b84c8997180347d4",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the printed series interleaves two APs and must be split before either can be summed; the assessed skill is recognising and applying Sn twice, so LO-3"
+  },
+  {
+   "sha": "e684514ecdc2fd87",
+   "codes": ["C-3.2-LO-2"],
+   "note": "'multiples of 9 between 300 and 700' has to be turned into 306, 315, ..., 693 including the boundary decisions, and only a count is wanted -- no sum, so LO-2 of C-3.2 alone"
+  },
+  {
+   "sha": "596cdf3b18412f27",
+   "codes": ["C-3.1-LO-3", "C-3.1-LO-2"],
+   "note": "the given is a partial sum and the ask is an indexed term, so Sn must be inverted for d before a+(n-1)d is applied; both formulas are separately required"
+  },
+  {
+   "sha": "3d2091756411ec06",
+   "codes": ["C-3.1-LO-2"],
+   "note": "a10 plus the index gap a17-a13 = 20 give a and d; both givens and the ask are terms, so no sum is involved"
+  },
+  {
+   "sha": "222b7a6d12cfae38",
+   "codes": ["C-3.2-LO-2", "C-3.1-LO-3"],
+   "note": "'odd numbers between 0 and 50' must be modelled as 1, 3, ..., 49 and counted before the sum formula can run; same two-step shape as the two-digit-multiples-of-4 item"
+  },
+  {
+   "sha": "5d9c10410e7fc6a4",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the reciprocal-index givens are heavy algebra but only setup; the single ask is the sum of mn terms, so the demand is LO-3"
+  },
+  {
+   "sha": "a12394ccc14d601e",
+   "codes": ["C-3.2-LO-2"],
+   "note": "requires spotting that 'divisible by 2 and 5' means divisible by 10 before the AP exists at all; the contextual construction and count is C-3.2-LO-2, not an index lookup"
+  },
+  {
+   "sha": "43ad407aae8a7824",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the given ratio of two terms only pins a = 4d as setup; the ask is a ratio of partial sums, so LO-3 -- the mirror image of the sum-ratio-to-term-ratio item, which does need both"
+  },
+  {
+   "sha": "a6721f5f3ba6cc5d",
+   "codes": ["C-3.2-LO-2"],
+   "note": "a remainder condition on three-digit numbers has to be converted into a = 101, d = 7, last 997 before counting; the modelling is the graded step, so C-3.2-LO-2"
+  },
+  {
+   "sha": "e6fccb3eb3c9dc95",
+   "codes": ["C-3.1-LO-1"],
+   "note": "a disproof: terms are generated from n^2+1 and shown to have unequal successive differences; only LO-1's recognition test can deliver 'this is not an AP'"
+  },
+  {
+   "sha": "2d5e708ffd20dabe",
+   "codes": ["C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "explicitly asks for a ratio of terms AND a ratio of sums as separate parts, so both formulas are marked independently"
+  },
+  {
+   "sha": "f66944c497d0d554",
+   "codes": ["C-3.1-LO-3"],
+   "note": "two partial sums in, one partial sum out; the nth-term formula never appears"
+  },
+  {
+   "sha": "b788ae2eb2f78946",
+   "codes": ["C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "a sum-and-product condition on a1 and a8 is solved through the nth-term formula (and a quadratic), and the stem then separately demands S20; two stated asks, two outcomes"
+  },
+  {
+   "sha": "6711b33e3318dbf6",
+   "codes": ["C-3.1-LO-3"],
+   "note": "both givens are partial sums, including the sum of the last 6 expressed as S40 - S34; a and d are recovered from sums, so this stays inside LO-3"
+  },
+  {
+   "sha": "1a654cf96180ab66",
+   "codes": ["C-3.1-LO-3"],
+   "note": "two partial sums give a and d and the ask is a general Sn expression; sum formula at both ends"
+  },
+  {
+   "sha": "b142579762af4279",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the number of terms is extracted from Sn = (n/2)(a+l) on a fully specified AP, not from a described number set, so LO-3 rather than C-3.2-LO-2"
+  },
+  {
+   "sha": "eaad1a199c669111",
+   "codes": ["C-3.1-LO-1"],
+   "note": "one subtraction of adjacent listed terms, verified against the next pair; a definition test carrying 5 marks, but still LO-1"
+  },
+  {
+   "sha": "6ee3ea3a09500b75",
+   "codes": ["C-3.1-LO-2"],
+   "note": "two nth-term equations, one with an integer index and one without, so the item tests both 'which term' and membership; both live in a+(n-1)d"
+  },
+  {
+   "sha": "60f8f398785f3a36",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the double root of the sum quadratic must be explained, not just found; that explanation is about the sum formula with negative d, so LO-3"
+  },
+  {
+   "sha": "01391b7c1ac0e688",
+   "codes": ["C-3.1-LO-1"],
+   "note": "the a-d, a, a+d device makes the sum 3a and the cube condition solvable; the constant-step property is the only AP fact used, with no Sn or an formula"
+  },
+  {
+   "sha": "760219df4ac16161",
+   "codes": ["C-3.1-LO-2"],
+   "note": "knowns sit at positions 2 and 4 of a five-term list, so a+d and a+3d are needed; the indexed formula is unavoidable, unlike the adjacent-blank items coded LO-1"
+  },
+  {
+   "sha": "f317c3ad17ce14c3",
+   "codes": ["C-3.1-LO-3"],
+   "note": "an identity purely among S30, S20 and S10; the same shape as the S12 = 3(S8-S4) item and honestly the same outcome"
+  },
+  {
+   "sha": "d17e996afeed6082",
+   "codes": ["C-3.1-LO-3"],
+   "note": "two partial sums in, one partial sum out, with no term ever named; entirely LO-3"
+  },
+  {
+   "sha": "5a29f1bfd0d79ddd",
+   "codes": ["C-3.1-LO-3"],
+   "note": "a composite series split into an AP sum plus the sum of the first n naturals; the graded skill is decomposing and summing, so LO-3"
+  }
+ ]
+}

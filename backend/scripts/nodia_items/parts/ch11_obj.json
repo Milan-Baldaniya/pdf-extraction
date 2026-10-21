@@ -1,0 +1,1741 @@
+{
+ "items": [
+  {
+   "number": "1a",
+   "form": "very_short",
+   "marks": 2,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | OD 2024",
+   "stem": "State whether the currents and potential difference in all the bulbs will be same or different when in a circuit three bulbs of : (a) same wattage are connected in series. (b) same wattage are connected in parallel. (c) different wattage are connected in series. (d) different wattage are connected in parallel.",
+   "answer": "(a) All the three bulbs have same current and same potential difference. (b) All the three bulbs have same current and same potential difference. (c) All the three bulbs have same current but different potential differences. (d) All the three bulbs have different currents but same potential difference.",
+   "concept": "Electric Circuit",
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "ocr": "Printed with no number immediately under the OBJECTIVE QUESTIONS heading on extraction page 3. Numbered 1a because the run 1-3 printed on page 3 collides with the main objective run 2-6 printed on page 5, whose numbering is corroborated by the printed 5 and 6 around it. It is a four-part descriptive question, not an MCQ, so it is recorded as a 2-mark very-short item rather than forced into mcq shape."
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS | OD 2010, Delhi 2014",
+   "stem": "Study the three arrangements (i), (ii) and (iii) shown in the figure and choose the correct statement about them.",
+   "options": [
+    {
+     "label": "A",
+     "text": "same in all the cases"
+    },
+    {
+     "label": "B",
+     "text": "minimum in case (i)"
+    },
+    {
+     "label": "C",
+     "text": "maximum in case (ii)"
+    },
+    {
+     "label": "D",
+     "text": "maximum in case (iii)"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "(d) maximum in case (iii)",
+   "concept": "Resistors in Parallel",
+   "images": [
+    "b48a655401e621a29944a65fd3ce4caa1384f7c8d1863f32657b2456248ace49.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "The printed stem was lost where the extraction jumps from the previous chapter's page into page 5; only the figure and the four options survived, so the stem shown here is a minimal reconstruction from them and needs a human check against the book. Option (c) lost its printed label and was restored from its position between (b) and (d). Question number not printed; inferred as 2 from its position before the printed 3."
+  },
+  {
+   "number": "2a",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Delhi 2020",
+   "stem": "When a 4 V battery is connected across an unknown resistor, there is a current of 100 mA in the circuit. The value of the resistance of the resistor is",
+   "options": [
+    {
+     "label": "A",
+     "text": "4 Ω"
+    },
+    {
+     "label": "B",
+     "text": "40 Ω"
+    },
+    {
+     "label": "C",
+     "text": "400 Ω"
+    },
+    {
+     "label": "D",
+     "text": "0.4 Ω"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Given, voltage = 4 V and I = 100 mA = 100 × 10⁻³ A = 0.1 A. According to Ohm's law, R = V/I = 4/0.1 = 40 Ω. Thus (b) is the correct option.",
+   "concept": "Ohm's Law",
+   "ocr": "Options (b) and (d) were OCR'd into a LaTeX array between (a) and (c); restored to the printed order a, b, c, d. 'resister' corrected to 'resistor'. Numbered 2a for the same collision reason given on item 1a."
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS | OD 2014, SQP 2014",
+   "stem": "Electrical resistivity of a given metallic wire depends upon",
+   "options": [
+    {
+     "label": "A",
+     "text": "its length"
+    },
+    {
+     "label": "B",
+     "text": "its thickness"
+    },
+    {
+     "label": "C",
+     "text": "its shape"
+    },
+    {
+     "label": "D",
+     "text": "nature of the material"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "(d) nature of the material",
+   "concept": "Resistivity",
+   "ocr": "Option (c) printed as 'C its shape' - the brackets round the label were lost in OCR; restored to option C."
+  },
+  {
+   "number": "3a",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : A fuse wire is always connected in parallel with the mainline. Reason : If a current larger than the specified value flows through the circuit, fuse wire melts.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A fuse wire is connected in series with the main line so that if the current overflows it may disconnect the line. The assertion is therefore false while the reason is true. Thus (d) is the correct option.",
+   "concept": "Electric Fuse",
+   "assertion": "A fuse wire is always connected in parallel with the mainline.",
+   "reason": "If a current larger than the specified value flows through the circuit, fuse wire melts.",
+   "ocr": "Numbered 3a for the collision reason given on item 1a: this question prints '3.' on extraction page 3 and the 'Electrical resistivity' MCQ prints '3.' on page 5, where the printed 4, 5 and 6 around it corroborate that run."
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "A current of 1 A is drawn by a filament of an electric bulb. Number of electrons passing through a cross section of the filament in 16 seconds would be roughly",
+   "options": [
+    {
+     "label": "A",
+     "text": "10²⁰"
+    },
+    {
+     "label": "B",
+     "text": "10¹⁶"
+    },
+    {
+     "label": "C",
+     "text": "10¹⁸"
+    },
+    {
+     "label": "D",
+     "text": "10²³"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "(a) 10²⁰",
+   "concept": "Electric Current",
+   "ocr": "Question number not printed; inferred as 4 from its position between the printed 3 and the printed 5. Option (a) OCR'd as '1020' for 10²⁰; options (b) and (d) were OCR'd into a LaTeX array and have been restored to the printed order."
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Identify the circuit (Figure) in which the electrical components have been properly connected.",
+   "options": [
+    {
+     "label": "A",
+     "text": "(i)"
+    },
+    {
+     "label": "B",
+     "text": "(ii)"
+    },
+    {
+     "label": "C",
+     "text": "(iii)"
+    },
+    {
+     "label": "D",
+     "text": "(iv)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "(b) (ii)",
+   "concept": "Electric Circuit",
+   "images": [
+    "f3cdfbc587938ed302751dd3a3c5e7232002e0d5d94ade94bc83a22e66c33ebd.jpg"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "What is the maximum resistance which can be made using five resistors each of 1/5 Ω?",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/5 Ω"
+    },
+    {
+     "label": "B",
+     "text": "10 Ω"
+    },
+    {
+     "label": "C",
+     "text": "5 Ω"
+    },
+    {
+     "label": "D",
+     "text": "1 Ω"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "1 Ω. The maximum resistance is obtained when all five resistors are joined in series: R = 5 × (1/5) Ω = 1 Ω. Thus (d) is the correct option.",
+   "concept": "Resistors in Series",
+   "ocr": "The printed answer key falls on the page break after this question and was not captured, so the key (d) is taken from the question itself - five 1/5 Ω resistors give their maximum, 1 Ω, in series. Options (c) and (d) OCR'd as '5 W' and '1 W', with W standing in for the ohm sign; restored to 5 Ω and 1 Ω."
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Three bulbs A, B and C are connected in a circuit to a source. Which of the following is likely to happen regarding their brightness?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Brightness of all the bulbs will be the same"
+    },
+    {
+     "label": "B",
+     "text": "Brightness of bulb A will be the maximum"
+    },
+    {
+     "label": "C",
+     "text": "Brightness of bulb B will be more than that of A"
+    },
+    {
+     "label": "D",
+     "text": "Brightness of bulb C will be less than that of B"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(c) Brightness of bulb B will be more than that of A",
+   "concept": "Electric Power",
+   "ocr": "Only '... source. Which of the following is likely to happen regarding their brightness?' survived the page break at the top of extraction page 7; the opening clause naming bulbs A, B and C is reconstructed from the options and needs a human check against the book. The circuit figure the question refers to was not captured."
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "In an electrical circuit two resistors of 2 Ω and 4 Ω respectively are connected in series to a 6 V battery. The heat dissipated by the 4 Ω resistor in 5 s will be",
+   "options": [
+    {
+     "label": "A",
+     "text": "5 J"
+    },
+    {
+     "label": "B",
+     "text": "10 J"
+    },
+    {
+     "label": "C",
+     "text": "20 J"
+    },
+    {
+     "label": "D",
+     "text": "30 J"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(c) 20 J",
+   "concept": "Joule's Law of Heating",
+   "ocr": "'respecetively' corrected to 'respectively'."
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS | OD 2014, Delhi 2012",
+   "stem": "An electric kettle consumes 1 kW of electric power when operated at 220 V. A fuse wire of what rating must be used for it?",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 A"
+    },
+    {
+     "label": "B",
+     "text": "2 A"
+    },
+    {
+     "label": "C",
+     "text": "4 A"
+    },
+    {
+     "label": "D",
+     "text": "5 A"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "(d) 5 A",
+   "concept": "Electric Fuse"
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Two resistors of resistance 2 Ω and 4 Ω when connected to a battery will have",
+   "options": [
+    {
+     "label": "A",
+     "text": "same current flowing through them when connected in parallel"
+    },
+    {
+     "label": "B",
+     "text": "same current flowing through them when connected in series"
+    },
+    {
+     "label": "C",
+     "text": "same potential difference across them when connected in series"
+    },
+    {
+     "label": "D",
+     "text": "different potential difference across them when connected in parallel"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "(b) same current flowing through them when connected in series.",
+   "concept": "Resistors in Series",
+   "ocr": "Option (c) lost its printed label in OCR and was restored from its position between (b) and (d)."
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Two bulbs of 100 W and 40 W are connected in series. The current through the 100 W bulb is 1 A. The current through the 40 W bulb will be :",
+   "options": [
+    {
+     "label": "A",
+     "text": "0.4 A"
+    },
+    {
+     "label": "B",
+     "text": "0.6 A"
+    },
+    {
+     "label": "C",
+     "text": "0.8 A"
+    },
+    {
+     "label": "D",
+     "text": "1 A"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "In the series combination the same current flows through both bulbs. Hence the current through the 40 W bulb will be 1 A. Thus (d) is the correct option.",
+   "concept": "Resistors in Series"
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Unit of electric power may also be expressed as",
+   "options": [
+    {
+     "label": "A",
+     "text": "volt ampere"
+    },
+    {
+     "label": "B",
+     "text": "kilowatt hour"
+    },
+    {
+     "label": "C",
+     "text": "watt second"
+    },
+    {
+     "label": "D",
+     "text": "joule second"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Power = voltage × current. The SI unit of voltage is volt and the SI unit of current is ampere, hence the SI unit of power may also be expressed as volt-ampere. Thus (a) is the correct option.",
+   "concept": "Electric Power",
+   "ocr": "Option (c) printed as 'C) watt second'; the opening bracket of the label was lost and has been restored."
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Match the column I to column II and select the correct answer using the codes given below:\n\n<html><body><table><tr><td></td><td>Column -</td><td></td><td>Column II</td></tr><tr><td></td><td>Ohm</td><td></td><td></td></tr><tr><td>(B)</td><td>Resistance</td><td></td><td>1 volt ampere</td></tr><tr><td></td><td>Resistivity</td><td></td><td>zero resistance</td></tr><tr><td>(D)</td><td>Super conductor</td><td></td><td>ohm-meter</td></tr></table></body></html>\n\n<html><body><table><tr><td></td><td>A</td><td>B</td><td></td><td>D</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>d</td><td></td><td></td><td>S</td><td></td></tr></table></body></html>",
+   "options": [
+    {
+     "label": "B",
+     "text": "A-q, B-p, C-s, D-r"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "(b) A-q, B-p, C-s, D-r",
+   "concept": "Electrical Resistance",
+   "ocr": "The four-way code table under this question came through OCR almost entirely blank, so only option (b) - whose content is printed on the answer line - could be recorded. The other three code rows were not invented, so this item carries one option instead of four and will be held by the four-option check."
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Match the column I to column II and select the correct answer using the codes given below:\n\n<html><body><table><tr><td></td><td>Column</td><td></td><td>Column I</td></tr><tr><td>A</td><td>Ohm's Law</td><td></td><td>Direct proportional to area</td></tr><tr><td>B</td><td>Resistivity</td><td></td><td>α current Voltage</td></tr><tr><td>C</td><td>For Ohmic- conductor</td><td></td><td>ch arg e time</td></tr><tr><td>(D)</td><td>Electric current</td><td></td><td>V = IR</td></tr></table></body></html>\n\n<html><body><table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td>a</td><td>q, S</td><td>P</td><td>q, S</td><td>D</td></tr><tr><td>b</td><td>p, q</td><td>q, S</td><td></td><td>q, r</td></tr><tr><td>c)</td><td>p, s</td><td>q</td><td>r, s, t</td><td>r</td></tr><tr><td>(d)</td><td>p</td><td>q, r</td><td></td><td>r s</td></tr></table></body></html>",
+   "options": [
+    {
+     "label": "A",
+     "text": "A-q, s; B-p; C-q, s; D-r"
+    },
+    {
+     "label": "B",
+     "text": "A-p, q; B-q, s; C-(not legible); D-q, r"
+    },
+    {
+     "label": "C",
+     "text": "A-p, s; B-q; C-r, s, t; D-r"
+    },
+    {
+     "label": "D",
+     "text": "A-p; B-q, r; C-(not legible); D-r, s"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "(a) A-q, s; B-p; C-q, s; D-r",
+   "concept": "Ohm's Law",
+   "ocr": "Question number not printed; inferred as 21 from its position between the printed 20 and the printed 22. The code table is OCR-damaged: the C cells of rows (b) and (d) came through blank and are marked '(not legible)' rather than guessed, and row (a)'s D cell OCR'd as 'D' where the printed answer line gives 'r'."
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 8,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Match the column I to column II and select the correct answer using the codes given below:\n\n<html><body><table><tr><td></td><td>Column I</td><td></td><td>Column I1</td></tr><tr><td>(A)</td><td>0.5 ≤ 0.5≤ 12 V</td><td>(p)</td><td>Rq = 1 Ω, I = 12 A</td></tr><tr><td></td><td>1≤ 1Ω 6 V</td><td></td><td>∞ Length</td></tr><tr><td></td><td>Resistance</td><td></td><td>I = 6 A</td></tr><tr><td></td><td>3Ω 3Ω</td><td></td><td>Area</td></tr></table></body></html>\n\n<html><body><table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td>d</td><td>p</td><td>p</td><td>S, C</td><td></td></tr><tr><td></td><td>p, q</td><td>q, S</td><td></td><td>q, r</td></tr><tr><td></td><td>p</td><td>p</td><td>S, q</td><td></td></tr><tr><td>d</td><td>sr</td><td></td><td>p, q</td><td>r, s</td></tr></table></body></html>",
+   "options": [
+    {
+     "label": "A",
+     "text": "A-p, B-p, C-s, q, D-r"
+    },
+    {
+     "label": "B",
+     "text": "A-p, q; B-q, s; C-(not legible); D-q, r"
+    },
+    {
+     "label": "C",
+     "text": "A-p; B-p; C-s, q; D-(not legible)"
+    },
+    {
+     "label": "D",
+     "text": "A-s, r; B-(not legible); C-p, q; D-r, s"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "(a) A-p, B-p, C-s, q, D-r",
+   "concept": "Factors Affecting Resistance",
+   "ocr": "The code table is OCR-damaged - its row labels came through as 'd', blank, blank, 'd', and several cells are empty. Option (a) is taken from the printed answer line; options (b), (c) and (d) are the surviving code rows in printed order with illegible cells marked rather than guessed, which is why (a) and (c) read almost alike."
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "marks": 1,
+   "page": 8,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Match the column I to column II and select the correct answer using the codes given below:\n\n<html><body><table><tr><td></td><td>Column</td><td></td><td>Column II</td></tr><tr><td>(A)</td><td>Ohm</td><td></td><td>1 Volt/1 Amp</td></tr><tr><td>(B)</td><td>Current</td><td></td><td>Depends on matter of conductor</td></tr><tr><td></td><td>Resistivity</td><td></td><td>ch arg e time</td></tr><tr><td>D</td><td>Super conductor</td><td></td><td>Resistance Zero</td></tr></table></body></html>\n\n<html><body><table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td></td><td>p, r</td><td>p</td><td>r, S,</td><td>b</td></tr><tr><td>b</td><td>p</td><td>q, r</td><td></td><td>S</td></tr><tr><td>c)</td><td>S, q</td><td>p, S</td><td></td><td>q</td></tr><tr><td>(d)</td><td>s, r</td><td></td><td>p, q</td><td>r,s</td></tr></table></body></html>",
+   "options": [
+    {
+     "label": "A",
+     "text": "A-p, r; B-p; C-r, s; D-(not legible)"
+    },
+    {
+     "label": "B",
+     "text": "A-p, B-q, r, C-q, D-s"
+    },
+    {
+     "label": "C",
+     "text": "A-s, q; B-p, s; C-(not legible); D-q"
+    },
+    {
+     "label": "D",
+     "text": "A-s, r; B-(not legible); C-p, q; D-r, s"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "(b) A-p, B-q, r, C-q, D-s",
+   "concept": "Electrical Resistance",
+   "ocr": "Option (b) is taken from the printed answer line because its C cell came through the code table blank; the other illegible cells are marked '(not legible)' rather than guessed."
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "marks": 1,
+   "page": 8,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "For the circuit shown in the adjoining figure, match the entries of column I with the entries of column II.\n\n<html><body><table><tr><td></td><td>Column -</td><td></td><td>Column I1</td></tr><tr><td>(A)</td><td></td><td></td><td>Current drawn from the battery is maximum</td></tr><tr><td>(B)</td><td>E E</td><td></td><td>Current drawn from the battery is the least</td></tr><tr><td></td><td></td><td></td><td>Bulbs will lit the brightest</td></tr><tr><td></td><td>E E</td><td></td><td>Bulbs will lit with brightness lying between maximum and minimum value</td></tr></table></body></html>\n\n<html><body><table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td>a</td><td>q</td><td></td><td>p, S</td><td>S</td></tr><tr><td></td><td>p, q</td><td>q, S</td><td></td><td>q, r</td></tr><tr><td></td><td>S, r</td><td>I</td><td>p, q</td><td>r,s</td></tr><tr><td>(d)</td><td>p</td><td>p</td><td>s, q</td><td></td></tr></table></body></html>",
+   "options": [
+    {
+     "label": "A",
+     "text": "A-q, B-r, C-p, s, D-s"
+    },
+    {
+     "label": "B",
+     "text": "A-p, q; B-q, s; C-(not legible); D-q, r"
+    },
+    {
+     "label": "C",
+     "text": "A-s, r; B-(not legible); C-p, q; D-r, s"
+    },
+    {
+     "label": "D",
+     "text": "A-p; B-p; C-s, q; D-(not legible)"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "(a) A-q, B-r, C-p, s, D-s",
+   "concept": "Resistors in Parallel",
+   "ocr": "The circuits this question refers to were absorbed into the column I table by MinerU and no separate figure file was captured, so no image is attached and the figure check will hold the item. Option (a) is taken from the printed answer line because its B cell came through the code table blank."
+  },
+  {
+   "number": "25",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : The connecting wires are made of copper. Reason : The electrical conductivity of copper is high.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "(a) Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A). Copper conducts the current without offering much resistance due to its high electrical conductivity.",
+   "concept": "Resistivity",
+   "assertion": "The connecting wires are made of copper.",
+   "reason": "The electrical conductivity of copper is high."
+  },
+  {
+   "number": "26",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : When the length of a wire is doubled, then its resistance also gets doubled. Reason : The resistance of a wire is directly proportional to its length.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "(a) Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A). The resistance of a wire is R = ρl/A, so R ∝ l. Since the resistance of a wire is directly proportional to its length, when the length of a wire is doubled/halved its resistance also gets doubled/halved.",
+   "concept": "Factors Affecting Resistance",
+   "assertion": "When the length of a wire is doubled, then its resistance also gets doubled.",
+   "reason": "The resistance of a wire is directly proportional to its length.",
+   "ocr": "The solution text OCR'd with dropped letters ('ts ength', '.e.'); restored."
+  },
+  {
+   "number": "27",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : The 200 W bulbs glow with more brightness than 100 W bulbs. Reason : A 100 W bulb has more resistance than 200 W bulb.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "(a) Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A). The resistance R = V²/P, so R ∝ 1/P, i.e. the higher the wattage of a bulb the lesser is its resistance and so it will glow bright.",
+   "concept": "Electric Power",
+   "assertion": "The 200 W bulbs glow with more brightness than 100 W bulbs.",
+   "reason": "A 100 W bulb has more resistance than 200 W bulb."
+  },
+  {
+   "number": "28",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : Heater wire must have high resistance and high melting point. Reason : If resistance is high, the electric conductivity will be less.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "(a) Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A). Heater wire must have high resistance and a high melting point, because in series the current remains the same, therefore according to Joule's law H = I²Rt the heat produced is high if R is high; the melting point must be high so that the wire may not melt with the increase in temperature.",
+   "concept": "Joule's Law of Heating",
+   "assertion": "Heater wire must have high resistance and high melting point.",
+   "reason": "If resistance is high, the electric conductivity will be less.",
+   "ocr": "The assertion OCR'd as 'Heater wire must have high resistance will be melting point'; restored to 'high resistance and high melting point' from the worked solution. The reason OCR'd as 'If resistance s high'."
+  },
+  {
+   "number": "29",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 14,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : When a battery is short-circuited, the terminal voltage is zero. Reason : In the situation of a short-circuit, the current is zero.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(c) Assertion (A) is true but reason (R) is false. In the case of a short-circuited battery the current I = E (e.m.f. of the battery) / r (internal resistance) ≠ 0, and the terminal voltage V = IR = I × 0 = 0, where R = external resistance = 0.",
+   "concept": "Electric Potential Difference",
+   "assertion": "When a battery is short-circuited, the terminal voltage is zero.",
+   "reason": "In the situation of a short-circuit, the current is zero."
+  },
+  {
+   "number": "30",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 14,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : All electric devices shown in the circuit are ideal. The reading of each of ammeter (A) and voltmeter (V) is zero. Reason : An ideal voltmeter draws almost no current due to very large resistance, and hence (V) and (A) will read zero.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(c) Assertion (A) is true but reason (R) is false. The ammeter (A) will read zero but the voltmeter (V) will read E.",
+   "concept": "Ammeter and Voltmeter",
+   "assertion": "All electric devices shown in the circuit are ideal. The reading of each of ammeter (A) and voltmeter (V) is zero.",
+   "reason": "An ideal voltmeter draws almost no current due to very large resistance, and hence (V) and (A) will read zero.",
+   "images": [
+    "0b1a49aa27e53a9b034c65d795a9b649b52d51ed5d53dfe349703a74f55c2b58.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "The ammeter and voltmeter symbols OCR'd as '(a)' and '(V⊙)'; written as (A) and (V). The circuit figure printed between the assertion and the reason is attached."
+  },
+  {
+   "number": "31",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 14,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : If ρ₁ and ρ₂ be the resistivity of the materials of two resistors of resistances R₁ and R₂ respectively and R₁ > R₂. Reason : The resistance R = ρl/A ⇒ ρ₁ > ρ₂ if R₁ > R₂.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(c) Assertion (A) is true but reason (R) is false. ρ is a characteristic of the material of the resistors; it does not depend on the length and cross-sectional area of the resistors, but R depends on the length and the cross-sectional area of the resistor. So R₁ may be greater than R₂ even when ρ₁ ≤ ρ₂.",
+   "concept": "Resistivity",
+   "assertion": "If ρ₁ and ρ₂ be the resistivity of the materials of two resistors of resistances R₁ and R₂ respectively and R₁ > R₂.",
+   "reason": "The resistance R = ρl/A ⇒ ρ₁ > ρ₂ if R₁ > R₂."
+  },
+  {
+   "number": "32",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 14,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : The product of resistivity and conductivity of a conductor depends on the material of the conductor. Reason : Because each of resistivity and conductivity depends on the material of the conductor.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(c) Assertion (A) is true but reason (R) is false. Conductivity = 1/Resistivity, so conductivity × resistivity = 1, which is the same for every conductor.",
+   "concept": "Resistivity",
+   "assertion": "The product of resistivity and conductivity of a conductor depends on the material of the conductor.",
+   "reason": "Because each of resistivity and conductivity depends on the material of the conductor.",
+   "ocr": "Question number not printed; inferred as 32 from its position between the printed 31 and the printed 33."
+  },
+  {
+   "number": "33",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 14,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : Long distance power transmission is done at high voltage. Reason : At high voltage supply power losses are less.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "(b) Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A). Power loss = i²R = (P/V)²R, where P is the transmitted power.",
+   "concept": "Electric Power",
+   "assertion": "Long distance power transmission is done at high voltage.",
+   "reason": "At high voltage supply power losses are less.",
+   "ocr": "MinerU splits this question: the assertion, the reason and options (a)-(b) print at the foot of extraction page 14, while the rest of the options, the key and the worked solution print at the top of page 11. Reunited here."
+  },
+  {
+   "number": "34",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 11,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : Resistance of 50 W bulb is greater than that of 100 W. Reason : Resistance of bulb is inversely proportional to rated power.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "(b) Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A). P = V²/R, so R ∝ 1/P at the same rated voltage.",
+   "concept": "Electric Power",
+   "assertion": "Resistance of 50 W bulb is greater than that of 100 W.",
+   "reason": "Resistance of bulb is inversely proportional to rated power."
+  },
+  {
+   "number": "35",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 11,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : 40 W tube light give more light in comparison to 40 W bulb. Reason : Light produced is same from same power.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "(d) Assertion (A) is false but reason (R) is true. In a tube light the majority portion of the radiation comes under the visible region, while bulb radiation consists of visible, ultraviolet and infrared radiation, giving a less visible part.",
+   "concept": "Electric Power",
+   "assertion": "40 W tube light give more light in comparison to 40 W bulb.",
+   "reason": "Light produced is same from same power.",
+   "ocr": "The book prints this same question twice in this chapter, as 35 and again as 39; both copies are recorded under their printed numbers. 'w bulb' capitalised to 'W bulb'."
+  },
+  {
+   "number": "36",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 11,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : A resistor of resistance R is connected to an ideal battery. If the value of R is decreased, the power dissipated in the circuit will increase. Reason : The power dissipated in the circuit is directly proportional to the resistance of the circuit.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(c) Assertion (A) is true but reason (R) is false. Here P = E²/R, so P ∝ R only when I is constant; here I increases as R is decreased, hence the reason is wrong.",
+   "concept": "Electric Power",
+   "assertion": "A resistor of resistance R is connected to an ideal battery. If the value of R is decreased, the power dissipated in the circuit will increase.",
+   "reason": "The power dissipated in the circuit is directly proportional to the resistance of the circuit.",
+   "ocr": "The reason OCR'd at this copy as 'The power dissipated in the circuit will increase', which merely repeats the assertion; restored from the identical question printed as 40 on extraction page 16 and from the worked solution, which argues about P ∝ R. The book prints this question twice, as 36 and again as 40."
+  },
+  {
+   "number": "37",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 11,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : A torch bulb give light if operated on AC of same voltage and current as DC. Reason : Heating effect is common to both AC and DC.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "(a) Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A).",
+   "concept": "Joule's Law of Heating",
+   "assertion": "A torch bulb give light if operated on AC of same voltage and current as DC.",
+   "reason": "Heating effect is common to both AC and DC."
+  },
+  {
+   "number": "38",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 11,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : A tube light emits white light. Reason : Emission of light in a tube takes place at a very high temperature.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(c) Assertion (A) is true but reason (R) is false.",
+   "concept": "Electric Power",
+   "assertion": "A tube light emits white light.",
+   "reason": "Emission of light in a tube takes place at a very high temperature.",
+   "ocr": "Only option (a) prints before the page break at the foot of extraction page 11; options (b), (c) and (d) and the key (c) continue at the top of page 16 and have been reunited here."
+  },
+  {
+   "number": "39",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 16,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : 40 W tube light give more light in comparison to 40 W bulb. Reason : Light produced is same from same power.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "(d) Assertion (A) is false but reason (R) is true. In a tube light the majority portion of the radiation comes under the visible region, while bulb radiation consists of visible, ultraviolet and infrared radiation, giving a less visible part.",
+   "concept": "Electric Power",
+   "assertion": "40 W tube light give more light in comparison to 40 W bulb.",
+   "reason": "Light produced is same from same power.",
+   "ocr": "This is the book's second printing of the question already numbered 35 on extraction page 11; the text is word for word the same. Recorded under both printed numbers."
+  },
+  {
+   "number": "40",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 16,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion : A resistor of resistance R is connected to an ideal battery. If the value of R is decreased, the power dissipated in the circuit will increase. Reason : The power dissipated in the circuit is directly proportional to the resistance of the circuit.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(c) Assertion (A) is true but reason (R) is false. Here P = E²/R, so P ∝ R only when I is constant; here I increases as R is decreased, hence the reason is wrong.",
+   "concept": "Electric Power",
+   "assertion": "A resistor of resistance R is connected to an ideal battery. If the value of R is decreased, the power dissipated in the circuit will increase.",
+   "reason": "The power dissipated in the circuit is directly proportional to the resistance of the circuit.",
+   "ocr": "This is the book's second printing of the question numbered 36 on extraction page 11; this copy carries the full reason, which is why it was used to repair the damaged reason on item 36. The solution OCR'd as 'P = E²/R = R , so P ? only when I is constant'; the proportionality sign was restored."
+  },
+  {
+   "number": "50",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "section_heading": "ONE MARK QUESTIONS | SQP 2017",
+   "stem": "On the basis of resistance, how can you differentiate between a conductor and an insulator ?",
+   "answer": "A good conductor has a low resistance (a poor conductor has a high resistance), whereas a good insulator of the same size has a very high resistance.",
+   "concept": "Electrical Resistance",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "51",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "section_heading": "ONE MARK QUESTIONS | Comp. 2016",
+   "stem": "If the charge on an electron be 1.6 × 10⁻¹⁹ C, find the approximate number of electrons in 1 C ?",
+   "answer": "Charge q = ne, where e = 1.6 × 10⁻¹⁹ C and q = 1 C. So n = q/e = 1 / (1.6 × 10⁻¹⁹) = 6.25 × 10¹⁸ electrons.",
+   "concept": "Electric Current",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "52",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2017",
+   "stem": "What is a voltmeter ?",
+   "answer": "It is an instrument to measure the potential difference across two points in an electric circuit.",
+   "concept": "Ammeter and Voltmeter",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "53",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "section_heading": "ONE MARK QUESTIONS | SQP 2016",
+   "stem": "List any two factors on which resistance of a conductor depends.",
+   "answer": "Length and area of cross-section of the conductor.",
+   "concept": "Factors Affecting Resistance",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "54",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2017, OD 2015",
+   "stem": "What is the S.I. unit of electric current ?",
+   "answer": "Ampere.",
+   "concept": "Electric Current",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "55",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "section_heading": "ONE MARK QUESTIONS | OD 2016",
+   "stem": "How much work is done when one coulomb of charge moves against a potential difference of one volt ?",
+   "answer": "1 joule of work is done. (Work = Charge × Potential difference)",
+   "concept": "Electric Potential Difference",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "56",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2017",
+   "stem": "Classify the following according to their resistivity : Insulators, metals, alloys.",
+   "answer": "Metals and alloys have very low resistivity. Insulators have very high resistivity.",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here. 'ow resistivity' restored to 'low resistivity'."
+  },
+  {
+   "number": "57",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "section_heading": "ONE MARK QUESTIONS",
+   "stem": "Draw a schematic diagram of a circuit consisting of a cell of 1.5 V, a 10 Ω resistor and a 15 Ω resistor and a plug key all connected in series.",
+   "answer": "The required circuit diagram shows the 1.5 V cell, the 10 Ω resistor, the 15 Ω resistor and the plug key joined one after another in a single closed loop.",
+   "concept": "Electrical Circuit Symbols",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here. The book prints the answer as a figure only. That figure belongs to the worked solution, not to the question, so it is not attached; the answer above describes it."
+  },
+  {
+   "number": "58",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2017",
+   "stem": "Define the S.I. unit of potential difference.",
+   "answer": "If the amount of work done in bringing one coulomb charge from one point to the other is 1 joule, then the potential difference between the two points is said to be 1 volt.",
+   "concept": "Electric Potential Difference",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "59",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2016",
+   "stem": "Name the device that helps to maintain a potential difference across a conductor.",
+   "answer": "A battery is used to maintain potential difference across a conductor.",
+   "concept": "Electric Potential Difference",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "60",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "section_heading": "ONE MARK QUESTIONS | OD 2017",
+   "stem": "Express mathematically the potential difference.",
+   "answer": "Potential difference (V) between points A and B = Work done (W) / Charge (Q).",
+   "concept": "Electric Potential Difference",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "61",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "section_heading": "ONE MARK QUESTIONS | OD 2016",
+   "stem": "Define resistance of a conductor.",
+   "answer": "Resistance is the property of a conductor to resist the flow of charge through it.",
+   "concept": "Electrical Resistance",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "62",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2017",
+   "stem": "What is e.m.f. ?",
+   "answer": "It is electromotive force or the potential difference between the electrodes of a cell or battery in an open circuit (i.e. when the electric circuit is not closed by the key).",
+   "concept": "Electric Potential Difference",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "63",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2016, OD 2014",
+   "stem": "Write the relation between resistance (R) of filament of a bulb, its power (P) and constant voltage V applied across it.",
+   "answer": "R = V²/P",
+   "concept": "Electric Power",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "64",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2017",
+   "stem": "Which is having more resistance : a 220 V, 100 W bulb or a 220 V, 60 W bulb ?",
+   "answer": "The 60 W bulb, because R ∝ 1/P.",
+   "concept": "Electric Power",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "65",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | SQP 2016",
+   "stem": "Larger the cross-sectional area of a conductor of a given material of a fixed length, the lower is its resistance. Give reason.",
+   "answer": "Resistance, R = ρl/A, so R ∝ 1/A. If A is more then the resistance of the conductor is lower.",
+   "concept": "Factors Affecting Resistance",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "66",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | OD 2015",
+   "stem": "What is the better way to connect lights and other electrical appliances in domestic wiring : series circuits or parallel circuits ?",
+   "answer": "Parallel circuits.",
+   "concept": "Resistors in Parallel",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "67",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2014",
+   "stem": "What is electric potential difference ?",
+   "answer": "Potential difference between two points on a current-carrying conductor can be defined as the work done in moving a unit charge from one point to the other. Or, the amount of work done in moving a unit charge from one point (A) to another point (B) is known as the potential difference between the two points.",
+   "concept": "Electric Potential Difference",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "68",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2015",
+   "stem": "How many joules are equal to 1 watt hour ?",
+   "answer": "1 watt-hour = 3.6 × 10³ J.",
+   "concept": "Commercial Unit of Energy",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "69",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2014",
+   "stem": "What is cell ?",
+   "answer": "Cell is a device to maintain the potential difference between the ends of a conductor for a long time.",
+   "concept": "Electric Circuit",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "70",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2015, Delhi 2011",
+   "stem": "When is potential difference between two points said to be 1 volt ?",
+   "answer": "Potential difference between two points is said to be one volt if a work of 1 joule is done to move a charge of 1 coulomb between the two points.",
+   "concept": "Electric Potential Difference",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "71",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2014",
+   "stem": "How will you define ampere from the definition of current ?",
+   "answer": "One ampere current is produced when one coulomb of charge flows through a conductor for one second.",
+   "concept": "Electric Current",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "72",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | OD 2015",
+   "stem": "How does the resistance of a wire vary with its cross-sectional area ?",
+   "answer": "It varies inversely with the cross-sectional area (A), i.e. R ∝ 1/A.",
+   "concept": "Factors Affecting Resistance",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "73",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2015",
+   "stem": "How is resistance expressed ?",
+   "answer": "R = V/I, or Volt/Ampere.",
+   "concept": "Electrical Resistance",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "74",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | SQP 2015",
+   "stem": "State Ohm's law.",
+   "answer": "Physical conditions remaining the same, the electric current flowing through a conductor is directly proportional to the potential difference across the two ends of the conductor, I ∝ V.",
+   "concept": "Ohm's Law",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "75",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Comp. 2015",
+   "stem": "What is a circuit diagram ?",
+   "answer": "It is a diagram of the arrangement of different components of an electric circuit using symbols for the components.",
+   "concept": "Electrical Circuit Symbols",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "76",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2015, Delhi 2011",
+   "stem": "What will happen to the current flowing through a conductor, if the potential difference is doubled ?",
+   "answer": "The current is also doubled.",
+   "concept": "Ohm's Law",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "77",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2014",
+   "stem": "What is the S.I. unit of resistance ?",
+   "answer": "The S.I. unit of resistance is ohm (Ω).",
+   "concept": "Electrical Resistance",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "78",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2015",
+   "stem": "How does the resistance of a wire change when its diameter is doubled ?",
+   "answer": "Its resistance becomes one-fourth.",
+   "concept": "Factors Affecting Resistance",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "79",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2014",
+   "stem": "The voltage-current (V–I) graph of a metallic circuit at two different temperatures T₁ and T₂ is shown. Which of the two temperatures is higher and why ?",
+   "answer": "T₂ > T₁, as R ∝ T.",
+   "concept": "Ohm's Law",
+   "images": [
+    "5f7a9c141f79a5338a5c374f521b2572ed7b1c85f34d6edff9b2e1bd2d2795a4.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here. The stem ends at the foot of extraction page 10 while its graph and answer print at the top of page 15; reunited here and the graph attached."
+  },
+  {
+   "number": "80",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | SQP 2014",
+   "stem": "Does a voltmeter have a low resistance or a high resistance ?",
+   "answer": "A voltmeter has a high resistance so that it takes a very small (negligible) current from the circuit.",
+   "concept": "Ammeter and Voltmeter",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "81",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | Comp 2014",
+   "stem": "How will the resistivity of a conductor change when its length is tripled by stretching it ?",
+   "answer": "The resistivity of a metallic conductor does not depend on the length of the wire, so it will remain the same.",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "82",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | OD 2015",
+   "stem": "Write S.I. unit of resistivity.",
+   "answer": "The S.I. unit of resistivity is ohm-meter (Ω-m).",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "83",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | OD 2014",
+   "stem": "What type of resistance should an ammeter have ?",
+   "answer": "An ammeter should have a very low resistance so that it does not change the value of the current flowing in the circuit.",
+   "concept": "Ammeter and Voltmeter",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "84",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2015",
+   "stem": "Write the relation between heat energy produced in a conductor when a potential difference V is applied across its terminals and a current I flows through it for time t.",
+   "answer": "H = VIt",
+   "concept": "Joule's Law of Heating",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "85",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2014",
+   "stem": "Name the scientist after whom the S.I. unit of resistance is named.",
+   "answer": "The German physicist, Ohm.",
+   "concept": "Electrical Resistance",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "86",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2015, OD 2013",
+   "stem": "Mention one reason why tungsten is used for making filament of electric lamp.",
+   "answer": "It has low resistivity and high melting point.",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here. Recorded as printed. The book's 'low resistivity' is questionable for tungsten - the usual reason given is its high melting point - but the printed solution does not contradict itself, so the text stands as printed."
+  },
+  {
+   "number": "87",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2014",
+   "stem": "What is meant by 1 ohm resistance ?",
+   "answer": "The resistance of a conductor is said to be 1 ohm if under a potential difference of 1 volt a current of one ampere flows through the conductor.",
+   "concept": "Electrical Resistance",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "88",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | OD 2013",
+   "stem": "What is the relation between electrical energy and electrical power ?",
+   "answer": "Electrical energy = Electrical power × Time.",
+   "concept": "Electric Power",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "89",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | OD 2012",
+   "stem": "What do we mean when we say that 1 unit of electricity costs 2 rupees ?",
+   "answer": "We mean that 1 kilowatt hour of electrical energy costs 2 rupees.",
+   "concept": "Commercial Unit of Energy",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "90",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2013",
+   "stem": "What is the conventional direction taken to represent current ?",
+   "answer": "Conventionally, the direction of current is taken as opposite to the direction of the flow of negative charges, i.e. from the positive to the negative terminal of the cell.",
+   "concept": "Electric Current",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "91",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | SQP 2012",
+   "stem": "Write a smaller unit of current.",
+   "answer": "Milliampere (1 mA = 1/1000 A).",
+   "concept": "Electric Current",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "92",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2013",
+   "stem": "How is water pipe analogous to an electric conductor ?",
+   "answer": "Water flows from a higher level to a lower level. Current flows from higher potential to lower potential.",
+   "concept": "Electric Potential Difference",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "93",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2012, Delhi 2010",
+   "stem": "What is the S.I. unit of potential ?",
+   "answer": "Volt.",
+   "concept": "Electric Potential Difference",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "94",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "section_heading": "ONE MARK QUESTIONS | SQP 2013",
+   "stem": "How much work is done in moving a charge of 3 coulomb from a point at 115 volts to a point at 125 volts ?",
+   "answer": "Potential difference V = 125 − 115 = 10 volts, charge Q = 3 coulomb. Since V = W/Q, W = V × Q = 10 × 3 = 30 joules.",
+   "concept": "Electric Potential Difference",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here. The worked solution is split by MinerU: it begins at the foot of extraction page 15 and finishes at the top of page 12. Reunited here."
+  },
+  {
+   "number": "95",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | SQP 2012",
+   "stem": "What are perfect conductors and perfect insulators ?",
+   "answer": "A perfect conductor is one whose resistivity is zero. A perfect insulator has infinite resistivity.",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "96",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | Comp 2013",
+   "stem": "What is the mathematical expression for resistance ?",
+   "answer": "R = ρl/A ohm.",
+   "concept": "Factors Affecting Resistance",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "97",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | SQP 2013",
+   "stem": "Which of the following has higher resistivity and why ? Constantan or Copper.",
+   "answer": "Constantan, because it is an alloy of copper.",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here. 'Constantin' corrected to 'Constantan' in both the question and the answer."
+  },
+  {
+   "number": "98",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | OD 2013",
+   "stem": "Nichrome is used to make the element of electric heater. Why ?",
+   "answer": "Nichrome is an alloy with high resistivity and high melting point.",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "99",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2013",
+   "stem": "What is electrical resistivity ? In a series electrical circuit comprising a resistor made up of a metallic wire, the ammeter reads 5 A. The reading of the ammeter decreases to half when the length of the wire is doubled. Why ?",
+   "answer": "The constant ρ is known as electrical resistivity. Using R = ρl/A and V = RI, when R is doubled while V remains unchanged the current I becomes half.",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "100",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2012",
+   "stem": "Which pure metal has the minimum resistivity ?",
+   "answer": "Mercury has the minimum resistivity, 94 × 10⁻⁸ Ω m.",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here. Recorded as printed. 94 × 10⁻⁸ Ω m is in fact mercury's resistivity, which is the highest among common pure metals, so the book's 'minimum' looks wrong - flagged rather than silently changed."
+  },
+  {
+   "number": "101",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2012",
+   "stem": "Which alloy has the minimum resistivity ?",
+   "answer": "Nichrome (alloy of Ni, Cr, Mn and Fe). Its resistivity is 100 × 10⁻⁶ Ω m.",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "102",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2013, Delhi 2011",
+   "stem": "Which insulator has the maximum resistivity ?",
+   "answer": "Ebonite has the maximum resistivity, 10¹⁵–10¹⁷ Ω m.",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "103",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2012",
+   "stem": "What happens to resistance of a conductor when temperature is increased ?",
+   "answer": "The resistance of a conductor increases with increasing temperature.",
+   "concept": "Factors Affecting Resistance",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here. The printed answer OCR'd as 'The resistance of a conductor with increasing temperature' with the verb dropped; 'increases' restored."
+  },
+  {
+   "number": "104",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | OD 2013",
+   "stem": "Which of the following has more resistivity : a metal or an alloy made from the same metal ?",
+   "answer": "An alloy has greater resistivity.",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "105",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2012",
+   "stem": "Alloys are used in electrical heating devices rather than pure metals. Give one reason.",
+   "answer": "Alloys do not oxidise readily at high temperature, so they are more resistant to corrosion.",
+   "concept": "Joule's Law of Heating",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "106",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2013",
+   "stem": "What do we mean when we say that the resistivity of aluminium is 2.63 × 10⁻⁸ ohm-metre ?",
+   "answer": "This means that if we take an aluminium rod of 1 metre length and 1 square metre area of cross-section, then its resistance will be 2.63 × 10⁻⁸ ohms.",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "107",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | Delhi 2012",
+   "stem": "A wire of resistivity ρ is pulled to double its length. What will be its new resistivity ?",
+   "answer": "Resistivity remains the same, i.e. ρ itself.",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "108",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | OD 2011",
+   "stem": "What is the resistance of an air gap ?",
+   "answer": "An air gap has infinite resistance.",
+   "concept": "Electrical Resistance",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "109",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | Foreign 2012",
+   "stem": "Why do we use copper and aluminium wire for transmission of electric current ?",
+   "answer": "Copper and aluminium have low resistivities and they are good conductors of electricity.",
+   "concept": "Resistivity",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  },
+  {
+   "number": "110",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "section_heading": "ONE MARK QUESTIONS | OD 2011",
+   "stem": "What is the value of current if the resistors are connected in series ?",
+   "answer": "If the resistors are connected in series, current is the same in every part of the circuit.",
+   "concept": "Resistors in Series",
+   "ocr": "Printed inside the OBJECTIVE QUESTIONS character range because MinerU reorders the pages, but it belongs to the chapter's ONE MARK run (41-140); no other slice covers these characters, so it is read here."
+  }
+ ]
+}

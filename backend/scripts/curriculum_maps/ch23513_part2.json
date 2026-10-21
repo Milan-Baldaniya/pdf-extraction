@@ -1,0 +1,30 @@
+{
+ "chapter_id": 23513,
+ "mappings": [
+  {"sha": "3b419bc1c0a593eb", "codes": ["C-5.1-LO-1"], "note": "DE parallel to BC with all four segments in x; BPT turned into an equation"},
+  {"sha": "78ffcaee7e6f1da2", "codes": ["C-5.1-LO-1"], "note": "starts from the converse of the BPT to get DE parallel to BC, then corresponding angles; the parallel line is derived, which is LO-1 work, not a similarity criterion"},
+  {"sha": "155b53a86a658af2", "codes": ["C-5.1-LO-1"], "note": "midpoint theorem obtained as the special case PG/GQ = 1 of the BPT; it is the BPT that is being applied"},
+  {"sha": "142e9a065a63e51f", "codes": ["C-5.1-LO-1"], "note": "DE parallel to AB inside triangle CAB; the only difficulty is naming the correct triangle before applying BPT"},
+  {"sha": "8b22bd9591b4dfd2", "codes": ["C-5.1-LO-2"], "note": "a stated similarity used to solve for two sides through the common ratio; no parallel line, no real-world measurement"},
+  {"sha": "1e1ca6d8cd347313", "codes": ["C-5.1-LO-2"], "note": "AD^2 = BD x CD is rearranged into a pair of proportional sides about equal 90 degree included angles, so the SAS similarity criterion is what proves the right angle"},
+  {"sha": "2ef9691cdd88b26e", "codes": ["CG-5"], "note": "altitude of an equilateral triangle of side 24 by Pythagoras; no similarity, and no Pythagoras outcome exists in this curriculum"},
+  {"sha": "cdd2a7cc22499702", "codes": ["C-5.1-LO-2"], "note": "AA from vertically opposite plus alternate angles across the parallel sides of a trapezium; the parallel is used for an ANGLE equality, not for a BPT ratio, so LO-2 rather than LO-1"},
+  {"sha": "e816eba1da4afc80", "codes": ["C-5.1-LO-1"], "note": "equal base angles give AC = CB, so CD/AD = CE/BE and the CONVERSE of the BPT yields DE parallel to AB"},
+  {"sha": "8d97bfcfebdd7cc7", "codes": ["C-5.1-LO-2"], "note": "OA x OB = OC x OD rewritten as a ratio about equal vertically opposite angles: SAS similarity establishes the equal angles"},
+  {"sha": "a41e1cab71422497", "codes": ["C-5.1-LO-1"], "note": "BPT applied twice, in triangles CAB and ADC, with a diagonal drawn as construction; the proof is entirely parallel-line proportionality"},
+  {"sha": "04649b708f94957e", "codes": ["C-5.1-LO-1"], "note": "two separate parallels CA and CB inside the same triangle, each giving a BPT proportion to find PC and then BR"},
+  {"sha": "987a6008a71b8fd7", "codes": ["C-5.1-LO-2"], "note": "trapezium diagonals: AA from two pairs of alternate angles establishes the similarity, and the ratio follows; the parallel supplies angles, not a BPT ratio"},
+  {"sha": "5e53b1a5e62bb1a8", "codes": ["C-5.1-LO-1", "CG-5"], "note": "PR comes from the BPT with XY parallel to QR, but QR then needs Pythagoras in the right angle at Q - two different theorems in one item, and the second has no outcome"},
+  {"sha": "6d0ebe74fa7d4f3c", "codes": ["C-5.1-LO-2"], "note": "the proportional-diagonals property of a trapezium is a consequence of the AA similarity of the two triangles at O, so it sits with the criteria rather than with the BPT"},
+  {"sha": "9eef46f47aa35a79", "codes": ["C-5.1-LO-2"], "note": "all three side ratios equal 1/2, so SSS similarity, and the angle follows by correspondence; the one clean SSS item in the chapter"},
+  {"sha": "a44a725de3c7e2bf", "codes": ["CG-5"], "note": "DE in a rectangle is a 3-4-5 Pythagoras computation; the two-thirds fraction is arithmetic, not a similarity ratio"},
+  {"sha": "157a8ad20c5ddf4b", "codes": ["CG-5"], "note": "cp = ab is proved by writing the SAME area two ways; neither similarity, nor BPT, nor even Pythagoras. Genuinely poor fit - nothing in this chapter's frame covers an area-equality argument; see report"},
+  {"sha": "0bcebc5584ae3e41", "codes": ["C-5.1-LO-2"], "note": "AA similarity of the two triangles cut off by trapezium diagonals; identical mathematics to the 2-mark version earlier, so deliberately the same code"},
+  {"sha": "8486b4fc177dc16c", "codes": ["C-5.1-LO-2"], "note": "isosceles base angles plus two right angles give AA; the item asks only for the similarity to be PROVED, which is LO-2 exactly"},
+  {"sha": "ef1282ddb17f8f68", "codes": ["C-5.1-LO-2"], "note": "AA from two right angles on the same hypotenuse and a vertically opposite pair, then cross-multiplied sides"},
+  {"sha": "572fd64d564ef047", "codes": ["C-5.1-LO-2"], "note": "AA from a given equal angle and the common angle at A, giving AC^2 = AB x AD; establishing the correspondence is the whole difficulty"},
+  {"sha": "799053bbdb97727e", "codes": ["CG-5"], "note": "Apollonius result AB^2 + AC^2 = 2AD^2 + BC^2/2, proved by Pythagoras in two right triangles about the foot of the altitude; no similarity outcome reaches it. NOTE: this question also carries no concept tag at all in the bank - see report"},
+  {"sha": "3fc6f7d7f49a535d", "codes": ["C-5.1-LO-2"], "note": "AP/AB = AQ/AC about the common angle A is SAS similarity; the figure looks like a BPT set-up but the parallel is never given, it is concluded"},
+  {"sha": "d43f1a5dc8aacd1d", "codes": ["C-5.1-LO-2"], "note": "angle bisectors of corresponding angles in similar triangles give a further AA pair; everything rests on the similarity correspondence"}
+ ]
+}

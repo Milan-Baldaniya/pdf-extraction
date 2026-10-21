@@ -1,0 +1,22 @@
+{
+  "chapter_id": 25852,
+  "links": [
+    {"sha": "qid:113482", "concept_id": null, "note": "Was 31291 'Regular and irregular'. A hexagon has 9 diagonals whether it is regular or not, so regularity is irrelevant. The chapter's closed set has no concept for counting a polygon's diagonals."},
+    {"sha": "qid:113483", "concept_id": null, "note": "Was 31290 'Convex and concave'. The item computes the INTERIOR angle sum of a 7-gon, (7-2)x180 = 900; convexity is only the setting. The set has no interior-angle-sum concept - 31293/31294 are the walking activity, whose total is the 360 of the EXTERIOR angles."},
+    {"sha": "qid:113484", "concept_id": null, "note": "Was 31290 'Convex and concave'. Same as qid 113483 for 8 sides. No interior-angle-sum concept exists in the set."},
+    {"sha": "qid:113485", "concept_id": null, "note": "Was 31290 'Convex and concave'. Asks for the general (n-2)x180 interior angle sum; nothing in the set states it."},
+    {"sha": "qid:113489", "concept_id": null, "note": "Was 31294 'Finding the total measure'. That concept is the total of the pentagon's EXTERIOR angles from the walking activity; this item uses the quadrilateral INTERIOR angle sum (360 - 225 = 135). The two facts both read 360 for a quadrilateral, which is exactly why the mismatch is invisible. No interior-angle-sum concept exists."},
+    {"sha": "qid:113490", "concept_id": null, "note": "Was 31294 'Finding the total measure'. Four equal angles of a quadrilateral give 90 each from the interior angle sum, not from the exterior-angle total of the walking activity."},
+    {"sha": "qid:113493", "concept_id": null, "note": "Was 31301 'Opposite angles are equal'. The figure is a general quadrilateral and the two unknown angles are equal by the problem's own statement, not because they are opposite angles of a parallelogram. The work is 360 - 210 halved, i.e. the interior angle sum, for which the set has no concept."},
+    {"sha": "qid:113507", "concept_id": null, "note": "Was 31291 'Regular and irregular'. 'A regular decagon has 40 diagonals' is false (10x7/2 = 35) and turns purely on the diagonal count, which regularity does not affect. No diagonal-counting concept in the set."},
+    {"sha": "qid:113515", "concept_id": null, "note": "Was 31309 'Rectangle'. The item is a quadrilateral-construction rule (two diagonals and three sides), and mentions no rectangle. Construction belongs to Practical Geometry and has no concept in this chapter's set."},
+    {"sha": "qid:113516", "concept_id": null, "note": "Was 31302 'Adjacent angles are supplementary', a parallelogram angle property. The item asks how many angles are needed alongside two adjacent sides to construct a quadrilateral. No construction concept exists in the set."},
+    {"sha": "qid:113523", "concept_id": null, "note": "Was 31302 'Adjacent angles are supplementary'. The item asks what measurements are needed to CONSTRUCT a parallelogram, not about its angles. No construction concept in the set."},
+    {"sha": "qid:113525", "concept_id": null, "note": "Was 31290 'Convex and concave'. The item wants the n(n-3)/2 diagonal-count formula; convexity does not enter. No diagonal-counting concept in the set."},
+    {"sha": "qid:113528", "concept_id": null, "note": "Was 31290 'Convex and concave'. Counting the diagonals of an 8-gon, again unrelated to convexity, and unrepresented in the set."},
+    {"sha": "qid:113533", "concept_id": null, "note": "Was 31294 'Finding the total measure'. Three acute angles of 75 give a fourth of 135 by the quadrilateral interior angle sum, not by the exterior-angle total of the pentagon walk."},
+    {"sha": "qid:113537", "concept_id": null, "note": "Was 31291 'Regular and irregular'. Duplicate of qid 113482 - counting a hexagon's diagonals, which regularity does not affect and which no concept in the set covers."},
+    {"sha": "qid:113546", "concept_id": null, "note": "Was 31295 'Trapezium'. The item is about pairing figures with their LINES OF SYMMETRY; the trapezium definition is not what decides it. The set has no symmetry concept."},
+    {"sha": "qid:113549", "concept_id": 31305, "note": "Was 31303 'Using the properties to find angles', but nothing in the item is an angle - RO is half the diagonal RS, found from OI = 4 and RS = IE + 6. The property doing the work is that a parallelogram's diagonals bisect each other, which is 31305."}
+  ]
+}

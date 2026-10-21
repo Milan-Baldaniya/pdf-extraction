@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1020,
+ "mappings": [
+  {
+   "sha": "771f8bb497157291",
+   "codes": ["C 2.3-LO-3"],
+   "note": "m = v/u fixes v, then the lens formula gives f and the sign gives the lens type - 'applies the lens formula', the third clause of LO-3, not the definitional one."
+  },
+  {
+   "sha": "92743f6cd64919dc",
+   "codes": ["C 2.3", "C 2.3-LO-3"],
+   "note": "Lenses in contact: the competency is the only code naming a combination of lenses; the arithmetic (P = P1 + P2, f = 1/P) has no outcome, so LO-3 is cited as nearest."
+  },
+  {
+   "sha": "5456ffe040bbbb09",
+   "codes": ["C 2.3-LO-1"],
+   "note": "The numbers are decorative - the model answer never substitutes, it lists the invariant convex-mirror image characteristics. Kept off LO-2 for exactly that reason."
+  },
+  {
+   "sha": "a0c11f396f479f2f",
+   "codes": ["C 2.3-LO-1", "C 2.3-LO-2"],
+   "note": "Same characteristics list as the previous item, but here f must first be got from R = 2f, so the quantitative outcome is cited alongside the qualitative one."
+  },
+  {
+   "sha": "407f20e77c9213ce",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Mirror types for three uses plus real-vs-virtual differences - image characteristics across plane, concave and convex mirrors."
+  },
+  {
+   "sha": "f5baa7ca0089b3bc",
+   "codes": ["C 2.3-LO-1", "C 2.3-LO-2"],
+   "note": "Requires f = R/2 and a comparison of u against f before the characteristics can be listed, so both the arithmetic and the image-location outcomes apply."
+  },
+  {
+   "sha": "d8208c65dc7989ed",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Image position and nature for a lens from given u and f - LO-3's 'applies the lens formula to find image position'. Cited instead of the bare competency because the item supplies numbers."
+  },
+  {
+   "sha": "df62264dc8263929",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Convex lens with the object inside F; position and nature follow from u and f, which is LO-3's lens-position clause rather than a mirror outcome."
+  },
+  {
+   "sha": "766eff581f3a7c3f",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Concave lens with numeric u and f; same lens-position outcome. Differs from its convex twin only in the element, not in the skill."
+  },
+  {
+   "sha": "33f6f6930c87877a",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Two object positions that magnify in a concave mirror and how the two images differ - pure object-position-to-image-nature reasoning, no magnification value computed."
+  },
+  {
+   "sha": "5a1ea3549dc1d544",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Definition, sign meaning, unit and focal-length relation of lens power. The clearest case of the missing-outcome gap; LO-3 is cited only as the nearest lens-quantitative code."
+  },
+  {
+   "sha": "3b47db75db2c7604",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Two substitutions into n = c/v to get speeds in vacuum and water - the refractive-index clause of LO-3 used quantitatively."
+  },
+  {
+   "sha": "56f650f93db7255b",
+   "codes": ["C 2.3-LO-2"],
+   "note": "Only the magnification formula is worked (m = -v/u with m = -4) to get v; the mirror formula is not even needed, so LO-2 alone."
+  },
+  {
+   "sha": "792a827cc79516d0",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Compares the virtual images of all three mirror types - the plane/concave/convex sweep that LO-1 names explicitly."
+  },
+  {
+   "sha": "c9ece8bc94b07ed4",
+   "codes": ["C 2.3-LO-2", "C 8.1-LO-2"],
+   "note": "Analysing m = +3 to get mirror type and object position is the magnification outcome; the demanded ray diagram is the second, separately graded step."
+  },
+  {
+   "sha": "6197de296feb7a5e",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Both laws of reflection stated in full - the 'states' half of LO-1, with no mirror image involved at all."
+  },
+  {
+   "sha": "51b6f35088fa1488",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Real vs virtual image contrasted through where the reflected rays meet - the image-nature basis of LO-1. (Answer table is OCR-corrupted; see defect list.)"
+  },
+  {
+   "sha": "1e6d534efe2bbb89",
+   "codes": ["C 2.3-LO-2"],
+   "note": "Mirror formula for u, then the magnification formula for image height - both of LO-2's named formulae, substituted."
+  },
+  {
+   "sha": "5e713961e355dbd6",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Lens formula solved for u given v on a wall and f - 'applies the lens formula to find image position' worked in reverse; no mirror formula is involved."
+  },
+  {
+   "sha": "3ffad2369b4f7155",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Why mirrors are called converging or diverging - the parallel-beam behaviour of each mirror, which is the basis of LO-1's image location. No diagram is demanded."
+  },
+  {
+   "sha": "87fb61458c508894",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Which medium is denser from the bending shown, and n(B,A) expressed as a ratio of speeds - both the laws of refraction and the definition of n, i.e. LO-3."
+  },
+  {
+   "sha": "1a4e0baaaa1cbbd7",
+   "codes": ["C 2.3-LO-3", "C 8.1-LO-2"],
+   "note": "The refractive-index arithmetic is LO-3; the labelled diamond-water refraction diagram is the drawn step. C 8.1-LO-2 applied to a plane interface by extension - its text names only mirrors and lenses."
+  },
+  {
+   "sha": "b8fde015542f8aee",
+   "codes": ["C 2.3-LO-2", "C 8.1-LO-2"],
+   "note": "The mirror formula is actually substituted (u = -10, f = -15 gives v = +30), which is LO-2, and a labelled ray diagram is separately demanded to justify it."
+  },
+  {
+   "sha": "5685429601ad7d33",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Chained relative refractive indices and a speed calculation - the refractive-index clause used quantitatively, with no lens or mirror present."
+  },
+  {
+   "sha": "57f299c9330bedb8",
+   "codes": ["C 8.1-LO-2", "C 2.3-LO-1"],
+   "note": "Drawing the convex-mirror construction is the main marks; naming the mirror and stating the image nature and position is LO-1."
+  }
+ ]
+}

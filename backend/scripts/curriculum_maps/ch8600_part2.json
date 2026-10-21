@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8600,
+ "mappings": [
+  {
+   "sha": "2d35e88a3ecca3e2",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Statements 1 and 3 are the sign/origin convention for one-dimensional motion and statement 2 is the distance-equals-displacement condition - all three sit in LO-1's 'for objects moving in a straight line' differentiation clause. Nothing is plotted or computed."
+  },
+  {
+   "sha": "71f3c8e471fe9021",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Turn-back numbers (0 to 100 to 40 m) with both distance and displacement demanded: the distinction is the whole answer. Not LO-2 despite the timestamps - no graph is supplied and no rate is asked for."
+  },
+  {
+   "sha": "46f46f2d48f662cf",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Identical demand to its O6 sibling stated without times: path length 160 m against net 40 m. LO-1's differentiation clause; LO-4 is excluded because no kinematic equation is involved."
+  },
+  {
+   "sha": "e849d82876e91d50",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Labelling which vector is velocity and which acceleration for a braking car probes the definition of acceleration and its direction relative to velocity in straight-line motion - LO-1. No value is produced, so LO-2/LO-4 do not apply."
+  },
+  {
+   "sha": "5c74023c89457181",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Asks directly which statement correctly differentiates distance from displacement (|s| can never exceed path length). The most literal reading of LO-1's first clause in the chapter."
+  },
+  {
+   "sha": "7c92389845914362",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Recall of the defining formula for average speed. LO-1 defines the quantity; LO-4 would require given values to substitute, and none are given."
+  },
+  {
+   "sha": "94dd82ca1775f409",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Assertion-reason contrasting the sign-bearing nature of average velocity with the magnitude-only nature of average speed - the speed/velocity differentiation in LO-1, tested on the vector/scalar property rather than on numbers."
+  },
+  {
+   "sha": "401e6c8a5f1c3f74",
+   "codes": ["C-2.1-LO-1"],
+   "note": "The equality condition for |average velocity| and average speed. Same LO-1 clause as its P5 and V73 siblings; distinguished only by being posed as a four-option choice."
+  },
+  {
+   "sha": "626bd3cd818e94ef",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Uniform vs non-uniform motion defined by equal/unequal distances in equal times - LO-1's constant-velocity description of straight-line motion. No graph is involved, so the LO-2 sibling is out."
+  },
+  {
+   "sha": "fc64b424d87c7b44",
+   "codes": ["C-2.1-LO-1"],
+   "note": "A data table, not a graph: the conclusion to select is that displacement returns to zero while distance keeps growing. LO-1's differentiation; LO-2 is excluded because nothing is read from a plotted axis."
+  },
+  {
+   "sha": "ce3f38b5d6d23257",
+   "codes": ["C-2.1-LO-1"],
+   "note": "POOR FIT. The recall target is the name of a 5th-century treatise, not any kinematic outcome. Cited to LO-1 because the concept the treatise is invoked for is the definition of speed; the history-of-science content itself has no home in this frame."
+  },
+  {
+   "sha": "473a9a96bf1c8ef6",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Length-and-back in a pool gives zero displacement hence zero average velocity. The number 0 falls out of the distinction, not out of an equation, so LO-1 rather than LO-4."
+  },
+  {
+   "sha": "a55c4aa8bc71e595",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Ordering the three steps of the defining operation for average acceleration. No values are supplied, so this tests the definition (LO-1) rather than a calculation from given quantities (LO-4)."
+  },
+  {
+   "sha": "3b328f443d64de0b",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Naming the quantity that is the rate of change of velocity: LO-1's 'define ... acceleration' clause in its barest form."
+  },
+  {
+   "sha": "d443ff89b902519d",
+   "codes": ["C-2.1-LO-2"],
+   "note": "The conclusion to pick names a kinematic quantity extracted from the position-time graph - B's steeper slope means higher velocity. Slope of position-time giving velocity is LO-2's named operation, which separates it from the LO-1 graph items where the answer is a state of motion."
+  },
+  {
+   "sha": "f3f067e9d21b20ae",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Acceleration opposite to velocity means decreasing speed - the direction half of LO-1's definition of acceleration. No graph and no numbers, so it splits from its LO-2 and LO-4 siblings."
+  },
+  {
+   "sha": "ba09c6685a02f2e3",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Given u=0, v=20, t=10, produce a number. Splits from the definitional acceleration items (O17, O18) precisely because values are supplied and an unknown is solved for."
+  },
+  {
+   "sha": "a7b4459b84f055b9",
+   "codes": ["C-2.1-LO-1", "C2.1"],
+   "note": "Free fall: acceleration constant and downward. LO-1 supplies 'define acceleration', but the actual content is acceleration due to gravity, which is named only at competency level (C2.1) and by no learning outcome - hence the second, broader code."
+  },
+  {
+   "sha": "58e41a83d92fa761",
+   "codes": ["C-2.1-LO-1"],
+   "note": "High velocity with zero acceleration: tests that acceleration is defined by the rate of change, not the magnitude, of velocity. LO-1's definitional clause; nothing to calculate or graph."
+  },
+  {
+   "sha": "ca82f166eab337e5",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Four-row table: pick the car whose initial and final positions coincide. The discriminator is displacement vs path length, so LO-1, not LO-2 (a table is not a graph) and not LO-4 (no equation)."
+  },
+  {
+   "sha": "615ab7884fc9617b",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Graph-construction convention (time on the x-axis). Sits in LO-1's 'plot ... position-time and velocity-time graphs' clause; LO-2 is excluded because no quantity is being taken off a graph."
+  },
+  {
+   "sha": "fe7366f275dd2abf",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Constant speed on a circular path is still accelerated motion - LO-1's 'define ... uniform circular motion'. C-8.1-LO-2 is reserved for the 2(pi)R/T speed expression, which this question does not touch."
+  },
+  {
+   "sha": "dcf6edbb73753a04",
+   "codes": ["C-2.1-LO-1"],
+   "note": "A line parallel to the time axis on a position-time graph means the object is stationary. What is read off is a state of motion, not a kinematic quantity, which is the line that separates this from its LO-2 siblings."
+  },
+  {
+   "sha": "34002a3aeb24be5f",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Inclined straight line through the origin means constant velocity. Again a state of motion read from graph shape (LO-1's interpret clause), not a value obtained from the slope (LO-2)."
+  },
+  {
+   "sha": "e4953c792411f28f",
+   "codes": ["C-2.1-LO-2", "C-2.1-LO-1"],
+   "note": "The two true statements (slope gives average velocity; steeper means greater velocity) are LO-2's slope-of-position-time operation; the false statement about a curved line is decided by LO-1's shape-to-motion reading. Both are needed to answer."
+  }
+ ]
+}

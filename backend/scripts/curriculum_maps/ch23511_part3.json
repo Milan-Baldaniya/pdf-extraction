@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23511,
+ "mappings": [
+  {
+   "sha": "a2090b401d6abd09",
+   "codes": ["C-6.2-LO-2"],
+   "note": "expand x^2 + y^2, watch the cross terms cancel and collect 9 + 16 times (sin^2 + cos^2); a PROVE THAT driven entirely by the Pythagorean identity, so the application outcome"
+  },
+  {
+   "sha": "cca192f4d2ad283f",
+   "codes": ["C-6.2-LO-2"],
+   "note": "4 + 4 tan^2 A is recognised as 4 sec^2 A via 1 + tan^2 = sec^2 and then evaluated from cos A = 2/5. The intended route is the identity, not rebuilding a triangle, so LO-2 rather than C-6.1-LO-1"
+  },
+  {
+   "sha": "8fc8199b5352d9eb",
+   "codes": ["C-6.1-LO-2"],
+   "note": "three table entries squared and combined; the sin^2 60 and cos^2 30 terms cancel by arithmetic coincidence, not by an identity"
+  },
+  {
+   "sha": "965a6f46397e64e4",
+   "codes": ["C-6.2-LO-2"],
+   "note": "conditional proof: sin t = cos^2 t is extracted with sin^2 = 1 - cos^2, then squared. Manipulating a given condition into a target relation is LO-2"
+  },
+  {
+   "sha": "c489258180119753",
+   "codes": ["C-6.3-LO-1"],
+   "note": "(B+C)/2 = 90 - A/2 by the angle sum, so the answer sin(A/2) is purely the complementary rewrite of a cosine. The triangle supplies the angle sum only, no sides"
+  },
+  {
+   "sha": "c5ed5d66ef1c3c44",
+   "codes": ["C-6.1-LO-2"],
+   "note": "sec t sin t collapses to tan t, and the graded object is then the entry tan 0 = 0 giving theta = 0. The 0-degree row is the answer, so LO-2 rather than the identity outcome"
+  },
+  {
+   "sha": "45fcd09520f3739d",
+   "codes": ["C-6.3-LO-1"],
+   "note": "tan 2A rewritten as cot(90 - 2A) to match cot(A + 60); same complementary technique as shas 0c39c6ef and cc35ce61, different constant"
+  },
+  {
+   "sha": "1aef19886b5b30ea",
+   "codes": ["C-6.2-LO-2"],
+   "note": "cot^2 replaced by cosec^2 - 1 and factored so (1 + cosec) cancels; a proof that leans on the cosec/cot Pythagorean identity, hence LO-2"
+  },
+  {
+   "sha": "5ed4ba4a5baec36e",
+   "codes": ["C-6.1-LO-2"],
+   "note": "tan(3x + 30) = 1 is recognised as tan 45 and the rest is linear algebra; the trigonometry is one table lookup"
+  },
+  {
+   "sha": "cb0898d10a9b9044",
+   "codes": ["C-6.1-LO-1", "C-6.1-LO-2"],
+   "note": "the only behaviour question in the chapter: the monotone DECREASE is argued from the side definition (adjacent shrinks, hypotenuse fixed) - LO-1 - while the endpoints 1 and 0 are the 0 and 90 table entries - LO-2. Both are genuinely required"
+  },
+  {
+   "sha": "383b537ac7c38e9d",
+   "codes": ["C-6.3-LO-1"],
+   "note": "sin A = cos B forces A = 90 - B; the bare complementary relation stated for two acute angles, twin of sha 45443a42fc7ae6c4 in sin/cos rather than tan/cot"
+  },
+  {
+   "sha": "b93549fe4d2c2450",
+   "codes": ["C-6.2-LO-2"],
+   "note": "(1+sin)(1-sin) = cos^2 against sec^2 gives 1, so k = 0; the identity chain is the work and the k-dressing is cosmetic"
+  },
+  {
+   "sha": "0a38c8fb860d2986",
+   "codes": ["C-6.3-LO-1", "C-6.2-LO-2"],
+   "note": "41 and 49 are complementary, so sin 41 becomes cos 49 and only then does sin^2 + cos^2 = 1 apply; both steps are load-bearing. Neither angle is standard, so C-6.1-LO-2 is a trap here"
+  },
+  {
+   "sha": "80e15edba56a6895",
+   "codes": ["C-6.2-LO-2"],
+   "note": "both denominators are converted by the two derived identities, reducing the terms to sin^2 and cos^2; a proof by identity substitution"
+  },
+  {
+   "sha": "f659cb20cb6d974a",
+   "codes": ["C-6.2-LO-2"],
+   "note": "factor sin A and cos A out, then use sin^2 = 1 - cos^2 to show numerator and denominator agree; identity-driven proof"
+  },
+  {
+   "sha": "218c36b008b49fab",
+   "codes": ["C-6.2-LO-2"],
+   "note": "tan^2(1 + tan^2) = tan^2 sec^2 then tan^2 = sec^2 - 1; the tan/sec identity is used twice in the same proof"
+  },
+  {
+   "sha": "622d14c6db92d84c",
+   "codes": ["C-6.2-LO-2"],
+   "note": "common denominator is 1 - sin^2 = cos^2, giving 2 sec^2; the fraction-addition dressing sits on a single identity substitution"
+  },
+  {
+   "sha": "18d15ea6c10bbbfd",
+   "codes": ["C-6.1-LO-2"],
+   "note": "root2 sin t = 1 pins t = 45 and sec^2 45 - cosec^2 45 = 0 follows from the table; the zero result is an arithmetic coincidence of the 45 row, not an identity"
+  },
+  {
+   "sha": "d6fd088f9355fb00",
+   "codes": ["C-6.2-LO-2"],
+   "note": "rationalising the surd turns the radicand into (1 - sin)^2/cos^2 via 1 - sin^2 = cos^2; the hardest identity proof in this block but the same outcome"
+  },
+  {
+   "sha": "1598ac8a3e5975ae",
+   "codes": ["C-6.2-LO-2"],
+   "note": "denominator 1 + tan^2 is replaced by sec^2 and the terms split into cos^2 - sin^2; standard identity proof"
+  },
+  {
+   "sha": "41b815c893c4125b",
+   "codes": ["C-6.2-LO-2"],
+   "note": "the combined denominator is cosec^2 - 1 = cot^2, then everything is put over cos^2; the cosec/cot identity carries the proof"
+  },
+  {
+   "sha": "47c53300258fe8a1",
+   "codes": ["C-6.2-LO-2"],
+   "note": "homogeneous ratio reduced by dividing through by cos t; same family as shas 29a4a16c and dfda9bd5, and tan t = 3/5 is not a standard angle so C-6.1-LO-2 cannot apply"
+  },
+  {
+   "sha": "70b0d13501f00afc",
+   "codes": ["C-6.1-LO-2"],
+   "note": "five table entries (tan 30, tan 60, cosec 30, tan 45, cot 45) substituted and arithmetic done; the longest pure-evaluation item in the chapter"
+  },
+  {
+   "sha": "7a56ee77eb1cfe18",
+   "codes": ["C-6.1-LO-2"],
+   "note": "sin(A+B) = 1 and sin(A-B) = 1/2 are read back as 90 and 30 from the table, then a simultaneous solve. NOTE the printed constraint 0 <= A+B < 90 contradicts the required A+B = 90"
+  },
+  {
+   "sha": "95fb22f8dad021f0",
+   "codes": ["C-6.1-LO-2", "C-6.1-LO-1"],
+   "note": "the word GEOMETRICALLY makes this the derivation, not the recall: an equilateral triangle is bisected and cosec 30 and cos 60 are read off the sides of the resulting right triangle, so the side-definition LO-1 is the method and the standard values LO-2 are the target"
+  }
+ ]
+}

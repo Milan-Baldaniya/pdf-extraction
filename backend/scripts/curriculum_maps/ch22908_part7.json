@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22908,
+ "mappings": [
+  {"sha": "8c6e82fc048d73a0", "codes": ["C-8.1-LO-3"], "note": "Median salary by the median formula after locating N/2 = 140. LO-3 only; mean and mode are not asked."},
+  {"sha": "88c7158d5a7ef484", "codes": ["C-8.1-LO-1", "C-8.1-LO-3"], "note": "Mean by step deviation and median by the median formula, both demanded. Mode is not asked, so LO-2 is excluded."},
+  {"sha": "281d742955f57c00", "codes": ["C-8.1-LO-1"], "note": "Solves the direct-method mean equation for the missing frequency of class 19-21. LO-1."},
+  {"sha": "ce1702f8ca71ec28", "codes": ["C-8.1-LO-1"], "note": "Two missing frequencies from a given mean literacy rate of 63.5, via the step-deviation form over eleven classes. Mean outcome throughout, LO-1."},
+  {"sha": "25363ae849bf6c6e", "codes": ["C-8.1-LO-1", "C-8.1-LO-2"], "note": "Mean weight by step deviation (LO-1) and modal weight by the modal-class formula (LO-2). No median is asked."},
+  {"sha": "2418c8595a3a2596", "codes": ["C-8.1-LO-1", "C-8.1-LO-2"], "note": "Direct-method mean age (LO-1) and mode via the modal class 11-13 (LO-2). Median is not required."},
+  {"sha": "52e312382cb51b63", "codes": ["C-8.1-LO-3"], "note": "Two unknown frequencies from a given median of 525 and total 100. Inverse median-formula work, LO-3."},
+  {"sha": "e2ea19c802365829", "codes": ["C-8.1-LO-3", "C-8.1-LO-2"], "note": "Both mode and median of the milk-expenditure table are demanded: median formula (LO-3) and modal-class formula (LO-2). Mean is not asked."},
+  {"sha": "205e1c49e82b82bd", "codes": ["C-8.1-LO-1"], "note": "The model answer reads the table as less-than cumulative, differences it and then means the result. The asked outcome is the average income, so LO-1; the cumulative step is scaffolding."},
+  {"sha": "f7293364f2b5b074", "codes": ["C-8.1-LO-1"], "note": "Step-deviation mean after making inclusive classes continuous. Mean outcome, LO-1; the continuity correction is preliminary and does not make this a median item."},
+  {"sha": "ba3c4f9c70e640e6", "codes": ["C-8.1-LO-1"], "note": "Two missing frequencies from a given mean of 91 and total 150. Mean equations, LO-1."},
+  {"sha": "6ce3d44cd4f0c7f1", "codes": ["C-8.1-LO-3"], "note": "Differences a more-than table into classes, then applies the median formula. The asked outcome is the median, so LO-3; no curve is plotted, so not C-8.2-LO-1 despite the tagged concept naming ogives."},
+  {"sha": "c6a61810c073f758", "codes": ["C-8.1-LO-3"], "note": "Two unknowns recovered from a given median of 31, with the unknown y sitting in the median class itself. Inverse median-formula work, LO-3."},
+  {"sha": "f5da5cb0993a0f76", "codes": ["C-8.1-LO-2", "C-8.1"], "note": "Mode by the modal-class formula (LO-2), then the median estimated from the empirical relation rather than from cumulative frequency, so C-8.1 and not LO-3: the item explicitly asks for the empirical route."},
+  {"sha": "370ba311d21cb1aa", "codes": ["C-8.1-LO-1", "C-8.1-LO-2", "C-8.1-LO-3"], "note": "Mean by step deviation, mode by the modal-class formula and median by the median formula are all three computed independently. All three LOs are genuinely exercised."},
+  {"sha": "b69af92c012eeffb", "codes": ["C-8.1-LO-3", "C-8.1-LO-2", "C-8.2"], "note": "Sub-parts (i) and (iii) are median class and median (LO-3), (iv) is the mode (LO-2), and (ii) asks P(even-numbered ball) = 37/75, which is theoretical probability of a single event and so genuinely reaches C-8.2 even inside the statistics chapter."},
+  {"sha": "56588f58ef4bb270", "codes": ["C-8.1-LO-1", "C-8.1-LO-3", "C-8.1-LO-2"], "note": "Mean AQI (LO-1), median class and median (LO-3), modal class (LO-2). Mean leads because two of the four sub-parts are median work and only one is modal."},
+  {"sha": "a4f370b1903b6d5e", "codes": ["C-8.1-LO-1", "C-8.1-LO-2", "C-8.1-LO-3"], "note": "Mean time (LO-1), upper limit of the modal class (LO-2), lower limit of the median class plus a cumulative count (LO-3). All three measures appear in separate sub-parts."},
+  {"sha": "272ab9950a8a1acc", "codes": ["C-8.1-LO-1", "C-8.1-LO-2", "C-8.1-LO-3"], "note": "Mean cost-of-living index, then the modal class lower limit and the median class upper limit. One sub-part per measure."},
+  {"sha": "a46278c967222793", "codes": ["C-8.1-LO-1", "C-8.1-LO-3", "C-8.1-LO-2"], "note": "Mean heart rate by step deviation (LO-1), median class and a cumulative count over three classes (LO-3), modal class lower limit (LO-2)."},
+  {"sha": "93be7a7b65a5d6e0", "codes": ["C-8.1-LO-1", "C-8.1-LO-3"], "note": "Mean SO2 concentration by step deviation (LO-1), then median class, median and a cumulative count (LO-3). Unlike its sibling case studies this one never asks for a mode, so LO-2 is deliberately absent."},
+  {"sha": "c9ad260e6b626c32", "codes": ["C-8.1-LO-2", "C-8.1-LO-1", "C-8.1"], "note": "Modal class and mode after a continuity correction (LO-2), mean by class marks (LO-1), and the median obtained only from 3 Median = Mode + 2 Mean, which is the empirical relation and so C-8.1 rather than LO-3."},
+  {"sha": "151d81422b2ecac1", "codes": ["C-8.1-LO-1", "C-8.1-LO-3", "C-8.1-LO-2"], "note": "Mean salary percentage (LO-1), two cumulative-frequency counts and the median class (LO-3), modal class lower limit (LO-2). Median work dominates the sub-parts after the mean."},
+  {"sha": "f4281021684f2b79", "codes": ["C-8.1-LO-3", "C-8.1-LO-2", "C-8.1"], "note": "Two cumulative counts and the median (LO-3), the mode by the modal-class formula (LO-2), and the mean recovered only through the empirical relation (C-8.1), never computed from the table, so LO-1 would misdescribe it."},
+  {"sha": "475403ab151e73ad", "codes": ["C-8.1-LO-1", "C-8.1-LO-2", "C-8.1"], "note": "Mean toll by the assumed-mean method and the day's collection from it (LO-1), mode by the modal-class formula (LO-2), and the median only via 3 Median = Mode + 2 Mean (C-8.1). No cumulative frequency is built, so LO-3 does not apply."}
+ ]
+}

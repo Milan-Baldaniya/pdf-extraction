@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22908,
+ "mappings": [
+  {"sha": "1eb2b13b818c9443", "codes": ["C-8.1-LO-3"], "note": "Definition recall: names the middle observation of ordered data as the median. Mean and mode are distractors only, so LO-3 and not LO-1/LO-2."},
+  {"sha": "9e4ff1d502cec725", "codes": ["C-8.1-LO-1"], "note": "Proves the deviation property Sum f(x - xbar) = 0, which is the algebra of the direct-method mean formula. No median or mode is touched."},
+  {"sha": "1de69489c2612465", "codes": ["C-8.1"], "note": "Empirical relation Mode = 3 Median - 2 Mean, used to recover the mean from the other two. No LO covers the empirical relation (see defect note); LO-1 is wrong because no direct/assumed/step-deviation computation happens. Competency C-8.1 is the only row spanning all three measures."},
+  {"sha": "2f6ecdd3552e903d", "codes": ["C-8.1-LO-3", "C-8.1"], "note": "Asks what a cumulative frequency table determines; the key is all three measures. LO-3 is the only outcome naming cumulative frequency, C-8.1 carries the all-three claim of the key."},
+  {"sha": "ed85d6657f08bbe9", "codes": ["C-8.1-LO-1"], "note": "Recovers a class limit from mid value and class width. Class-mark arithmetic is the setup step of the direct-mean method, the only outcome that uses class marks; there is no outcome for grouped-table structure itself."},
+  {"sha": "337c74a870fabd34", "codes": ["C-8.1-LO-3"], "note": "Builds cumulative frequencies, locates N/2 and names the median class upper limit. Exactly the cumulative-frequency route of LO-3, not a mode or mean question."},
+  {"sha": "82817d4935c353b4", "codes": ["C-8.1-LO-2"], "note": "Chooses the measure suited to the most frequent garment size, i.e. the mode. Conceptual rather than the modal-class formula, but LO-2 is the only mode outcome."},
+  {"sha": "8c6fa762df2620a0", "codes": ["C-8.1"], "note": "Manipulates Mode - Median = 2(Median - Mean) from the empirical relation. Spans all three measures with no single-measure calculation, so competency level, not LO-1/2/3."},
+  {"sha": "7c615b2b421d4a34", "codes": ["C-8.1-LO-1"], "note": "Solves for x from a given mean, then means a second list. Pure direct-method mean arithmetic; median and mode are absent."},
+  {"sha": "401ca35f92bb2052", "codes": ["C-8.1-LO-3"], "note": "Tests that raising the top four of nine observations leaves the 5th (the median) fixed. Positional reasoning about the median, so LO-3."},
+  {"sha": "e7bdb5249d55b3a4", "codes": ["C-8.2-LO-1"], "note": "The abscissa of the less-than/more-than ogive intersection is the median. This is the graphical route, which sits in C-8.2-LO-1, not the tabular cumulative-frequency route of C-8.1-LO-3."},
+  {"sha": "4b56f48a9915abf2", "codes": ["C-8.1-LO-2"], "note": "Picks the most frequently occurring value of a raw list. Mode identification, LO-2; no grouped table, so no median-class or mean work."},
+  {"sha": "3f2d8d714214351f", "codes": ["C-8.1-LO-1"], "note": "Finds x from a given mean and then the mean of a sub-list. Direct-method mean only."},
+  {"sha": "debde46f7d967987", "codes": ["C-8.1-LO-3", "C-8.1-LO-1"], "note": "The key step is recognising that with a < b < c the median is b; the mean then supplies the sum. Median leads, mean is the secondary tool, so LO-3 before LO-1."},
+  {"sha": "276c62ceb1b7535c", "codes": ["C-8.1-LO-3"], "note": "Orders seven algebraic observations and equates the 4th to the given median. Positional median work, LO-3, not a mode or mean calculation."},
+  {"sha": "3bfb30411b2fdd73", "codes": ["C-8.1-LO-1", "C-8.1-LO-3"], "note": "Two stages: the mean of squares fixes n = 17 (LO-1), then the median of the first 17 naturals is read off as the 9th term (LO-3). Both are load-bearing, mean first."},
+  {"sha": "2d5c9c97c89d28fe", "codes": ["C-8.1-LO-2"], "note": "Applies the modal-class formula l + (f1-f0)/(2f1-f0-f2) * h to a grouped table. The textbook case of LO-2."},
+  {"sha": "15236cdf6d84126a", "codes": ["C-8.1-LO-1"], "note": "States the assumption behind the grouped mean: frequencies are taken as concentrated at class marks. That assumption belongs to the mean methods of LO-1, not to median or mode."},
+  {"sha": "58a6be2e37a1e017", "codes": ["C-8.1"], "note": "Substitutes into Mode = 3 Median - 2 Mean. The mode is the answer but no modal class exists, so LO-2 would misdescribe the work; competency level for the empirical relation."},
+  {"sha": "53dc733da227b0ef", "codes": ["C-8.1-LO-2"], "note": "The expenditure of the maximum number of workers is the mode; solved by the modal-class formula on the 1500-2000 class. LO-2, despite the mean-sounding word 'average' in the stem."},
+  {"sha": "94387f3264eed912", "codes": ["C-8.1-LO-2"], "note": "Converts a less-than table to ordinary frequencies only to find the largest one. The cumulative table is a means; the asked outcome is the modal class, so LO-2 not LO-3."},
+  {"sha": "2512af22577274c8", "codes": ["C-8.1"], "note": "Derives Median:Mode from Mean:Median through the empirical relation. Three-measure relation with no single-measure computation, so competency level."},
+  {"sha": "058da4d5702e3d50", "codes": ["C-8.1-LO-2"], "note": "Modal-class formula applied to the traffic-count distribution. LO-2."},
+  {"sha": "898536f431f88dc7", "codes": ["C-8.1-LO-1"], "note": "Uses Sum = 3M from the mean and the identity for (a+b+c)^2 to mean the squares. Direct-method mean reasoning throughout."},
+  {"sha": "5108e29edb4107c5", "codes": ["C-8.1-LO-1"], "note": "Identifies d_i in the assumed-mean formula as deviations of class marks. LO-1 fuses direct, assumed-mean and step-deviation, so there is no separate assumed-mean sibling to prefer."}
+ ]
+}

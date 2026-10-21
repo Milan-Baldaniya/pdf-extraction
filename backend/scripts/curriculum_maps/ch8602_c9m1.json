@@ -1,0 +1,305 @@
+{
+  "chapter_id": 8602,
+  "mappings": [
+    {
+      "sha": "65cdea856cefc626",
+      "codes": ["C-9.1-LO-3"],
+      "note": "'Not a magazine' is a compound event: the other three categories counted and combined, or 100 minus 10. LO-3's count-and-combine, not LO-1's single favourable set."
+    },
+    {
+      "sha": "fdaf7e2b2b748d5a",
+      "codes": ["C-6.2-LO-1", "C-9.1-LO-1"],
+      "note": "The claim under test is 'more than half', so the probability 5/8 has to be placed against the midpoint of the 0-1 scale (LO-1 of C-6.2) after the favourable count is made (C-9.1-LO-1)."
+    },
+    {
+      "sha": "d92a861f1b03aea6",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Identifies {5,6} as favourable within the six-outcome sample space of a die. Pure sample-space work; no compound event and no comparison to a threshold."
+    },
+    {
+      "sha": "064d91c498eb22dd",
+      "codes": ["C-9.1-LO-3"],
+      "note": "'Not defective' requires the complementary count 20-4 before dividing -- LO-3. Had it asked for P(defective) it would have been LO-1."
+    },
+    {
+      "sha": "35342e4830acb1e9",
+      "codes": ["C-9.1-LO-1"],
+      "note": "One favourable sector out of four equally likely ones. The simplest form of listing the sample space and picking the favourable outcome."
+    },
+    {
+      "sha": "44d0718cc8de97ac",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Four kings among 52 equally likely cards; the error to catch is using 26 as the denominator. Counting the sample space correctly is the whole task, LO-1."
+    },
+    {
+      "sha": "cc612cea49a13ae8",
+      "codes": ["C-9.1-LO-1"],
+      "note": "The work is identifying which of 1-10 are prime, i.e. selecting the favourable subset of a listed sample space. LO-1."
+    },
+    {
+      "sha": "e35e74ee5ff3f841",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Counts the multiples of 4 up to 40 as the favourable outcomes. Same LO-1 favourable-subset task as the prime item, with a divisibility criterion."
+    },
+    {
+      "sha": "1681093361f0c990",
+      "codes": ["C-9.1-LO-1"],
+      "note": "A single favourable count, 4 black out of 10. LO-1; no complement or union is taken."
+    },
+    {
+      "sha": "457afdaa17c72ef9",
+      "codes": ["C-6.2-LO-1"],
+      "note": "Both counts are handed over and only the ORDER of the two probabilities is asked for, so this is placing them against each other on the scale (C-6.2-LO-1) rather than the counting of C-9.1-LO-1."
+    },
+    {
+      "sha": "bca29f00579289ba",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Requires sorting the six faces into primes {2,3,5} and composites {4,6} -- the favourable-subset identification of LO-1. The comparison follows immediately once the subsets are right."
+    },
+    {
+      "sha": "dafc27c56d7455f6",
+      "codes": ["C-9.1-LO-3"],
+      "note": "'Only Maths' must be decomposed as 18 minus the 10 who take both before dividing by 40. That subtraction of an overlap is LO-3's breaking a compound event into countable pieces."
+    },
+    {
+      "sha": "69dd81c854846821",
+      "codes": ["C-9.1-LO-3"],
+      "note": "'Not a basketball medal' aggregates three categories against a total of 100 -- a complement handled by counting and combining, LO-3."
+    },
+    {
+      "sha": "777ac7fb6e28e25a",
+      "codes": ["C-9.1-LO-3"],
+      "note": "'Novel or science' is a union of two disjoint categories, counted separately then added (100+70 over 240). LO-3 exactly."
+    },
+    {
+      "sha": "be54b3b12b09b72f",
+      "codes": ["C-9.1-LO-3"],
+      "note": "A valid vote is everything that is not NOTA, so the count is 70+40 or equivalently 120-10 -- a combined count, LO-3."
+    },
+    {
+      "sha": "246a44b89e77634c",
+      "codes": ["C-9.1-LO-1"],
+      "note": "The refutation rests on the coin's two equally likely outcomes each being favourable once. Cited to LO-1 rather than C-6.2-LO-5, because fairness is assumed here, not judged from observed results."
+    },
+    {
+      "sha": "ff101beafd9348ec",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Needs the four-outcome sample space HH, HT, TH, TT with HT and TH counted separately. C-9.1-LO-2 is not cited because no tree diagram is asked for -- the listing alone settles it."
+    },
+    {
+      "sha": "966ff43ac4cdac29",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Identifies the seven perfect squares up to 50 as the favourable outcomes. LO-1's favourable-subset task, with the trap being whether 1 and 49 are counted."
+    },
+    {
+      "sha": "cc3df23e7fc463ff",
+      "codes": ["C-9.1-LO-1"],
+      "note": "The reason statement -- probability rises with the number of favourable outcomes -- is the LO-1 principle, and judging it is what the item can actually assess. (The assertion has lost its bag composition; see the defect list.)"
+    },
+    {
+      "sha": "d263ff24078bd8a8",
+      "codes": ["C-9.1-LO-3"],
+      "note": "The reason offered is the complement rule and the assertion is a valid-vote count of 110 out of 120 -- combining counts for a compound event, LO-3. Not C-6.2-LO-1: the 0-1 scale is not what is being examined."
+    },
+    {
+      "sha": "ddad20ef9d42adaf",
+      "codes": ["C-9.1-LO-3", "C-6.2-LO-1"],
+      "note": "Bananas or oranges is a union needing a combined count of 50 (LO-3), which is then ranked against the apple probability on the scale (C-6.2-LO-1)."
+    },
+    {
+      "sha": "e433891d28da59c8",
+      "codes": ["C-6.2-LO-1"],
+      "note": "One straightforward count, then the real work: deciding whether 0.4 exceeds one third. Placing a probability against a stated value on the scale is C-6.2-LO-1."
+    },
+    {
+      "sha": "961666d68b9abe23",
+      "codes": ["C-9.1-LO-1", "C-6.2-LO-1"],
+      "note": "Part (i) computes and ranks four single-category probabilities (LO-1); part (ii) tests 3/8 against one third on the scale (C-6.2-LO-1). No union or complement, so not LO-3."
+    },
+    {
+      "sha": "db7290d92bbe1237",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Splits the die's faces into primes and composites and compares. Same favourable-subset identification as the MCQ form of this item; the comparison needs no threshold from the 0-1 scale."
+    },
+    {
+      "sha": "9cbd79e7f45c0d8c",
+      "codes": ["C-9.1-LO-3", "C-6.2-LO-1"],
+      "note": "'Did not fail' is the complement over four categories, giving 35/40 (LO-3), and the question then asks whether 0.875 exceeds 0.85 (C-6.2-LO-1)."
+    },
+    {
+      "sha": "90b1bdffad0b4149",
+      "codes": ["C-9.1-LO-1", "C-6.2-LO-1"],
+      "note": "Single-category counts for won, lost and drawn (LO-1), then part (iii) tests 7/12 against one half on the scale (C-6.2-LO-1)."
+    },
+    {
+      "sha": "725da97308c42f97",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Three sub-parts, all of them favourable-subset identification on the die: primes, composites, odds and evens. No threshold comparison and no compound event, so LO-1 alone."
+    },
+    {
+      "sha": "5fab9c5a70a36ac5",
+      "codes": ["C-9.1-LO-1", "C-6.2-LO-1"],
+      "note": "Counts defective and good toys (LO-1) and then asks whether 9/10 exceeds 4/5, which is a placement on the scale (C-6.2-LO-1)."
+    },
+    {
+      "sha": "e7447f0145061651",
+      "codes": ["C-9.1-LO-3"],
+      "note": "'Only Mathematics' again needs the overlap of 10 removed from 18 before any probability can be formed -- the decomposition step of LO-3."
+    },
+    {
+      "sha": "fbcc6a4e66d6edad",
+      "codes": ["C-9.1-LO-3", "C-6.2-LO-1"],
+      "note": "Valid votes are 90+50 combined against 150 (LO-3); part (iii) then compares P(NOTA)=1/15 with one twelfth on the scale (C-6.2-LO-1)."
+    },
+    {
+      "sha": "ca0fadbe22272c0b",
+      "codes": ["C-9.1-LO-1", "C-6.2-LO-1"],
+      "note": "Three single-category counts out of 120, then a ranking of them. LO-1 for the counts and C-6.2-LO-1 for ordering the results on the scale; nothing is unioned."
+    },
+    {
+      "sha": "c4da9f88f41ee99b",
+      "codes": ["C-9.1-LO-1", "C-9.1-LO-3"],
+      "note": "Parts (i)-(iii) are single-category counts (LO-1); parts (iv) 'not a suitcase' and (v) 'handbag or backpack' require the complement and the union to be counted and combined (LO-3)."
+    },
+    {
+      "sha": "20e968cceaba2e64",
+      "codes": ["C-9.1-LO-1", "C-9.1-LO-3"],
+      "note": "Same two-part structure: three direct counts out of 150 (LO-1), then 'not vegan' and 'vegetarian or vegan' as combined counts (LO-3)."
+    },
+    {
+      "sha": "6701143f398ea5df",
+      "codes": ["C-9.1-LO-1", "C-9.1-LO-3"],
+      "note": "Window, aisle and middle are direct counts (LO-1); 'not a window seat' and 'aisle or middle' are the complement and union, which here coincide and are worth noticing (LO-3)."
+    },
+    {
+      "sha": "0bb41c9088f607f5",
+      "codes": ["C-9.1-LO-1", "C-9.1-LO-3"],
+      "note": "Four categories out of 250 counted directly (LO-1), with 'not books' and 'clothes or electronics' as the combined counts (LO-3). The printed key mis-simplifies 100/250; see the defect list."
+    },
+    {
+      "sha": "eb8f240d2bbb1be9",
+      "codes": ["C-9.1-LO-3", "C-6.2-LO-1"],
+      "note": "Part (iii) unions sandwiches with snacks (LO-3) and part (ii) tests P(fruits) against one third on the scale (C-6.2-LO-1). The key's answer to (ii) is wrong; see the defect list."
+    },
+    {
+      "sha": "19721b1bf635421b",
+      "codes": ["C-9.1-LO-3", "C-6.2-LO-1"],
+      "note": "Part (iii) is the union bike-or-scooter (LO-3); part (ii) places 3/8 against one third (C-6.2-LO-1). Part (i) is a ranking, subsumed by the latter."
+    },
+    {
+      "sha": "a3276b5533bc34e6",
+      "codes": ["C-9.1-LO-3"],
+      "note": "Part (ii) compares one category against the combined count of two others and part (iii) is the complement of clothes -- both are count-and-combine, LO-3. Part (i) matching a category to exactly 1/5 rides on the same counts."
+    },
+    {
+      "sha": "qid:706797",
+      "codes": ["C-6.2-LO-1"],
+      "note": "The range of any probability, 0 to 1. LO-1 of C-6.2 verbatim; nothing here is counted or experimental."
+    },
+    {
+      "sha": "qid:706798",
+      "codes": ["C-6.2-LO-1"],
+      "note": "Certainty as the upper endpoint of the scale -- the second clause of C-6.2-LO-1."
+    },
+    {
+      "sha": "qid:706799",
+      "codes": ["C-6.2-LO-1"],
+      "note": "Both statements are about the upper bound of the scale and what a probability of 1 means, which is C-6.2-LO-1's endpoint reading."
+    },
+    {
+      "sha": "qid:706800",
+      "codes": ["C-6.2-LO-1"],
+      "note": "Impossibility as the lower endpoint, 0. The other half of C-6.2-LO-1's endpoint pair."
+    },
+    {
+      "sha": "qid:706801",
+      "codes": ["C-6.2-LO-1"],
+      "note": "Gap-fill for the value of a certain event. Same endpoint outcome as qid:706798, in fill-in form."
+    },
+    {
+      "sha": "qid:706802",
+      "codes": ["C-6.2-LO-1", "C-9.1-LO-1"],
+      "note": "The matching spans the whole scale -- 0 for an impossible die face, 1 for a certain one (C-6.2-LO-1) -- while the half and one-sixth rows need the favourable count from the sample space (C-9.1-LO-1)."
+    },
+    {
+      "sha": "qid:706803",
+      "codes": ["C-9.1-LO-1"],
+      "note": "The size of a die's sample space. LO-1's listing clause, reduced to a count."
+    },
+    {
+      "sha": "qid:706804",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Definition of the sample space, with the coin as the example. The first half of C-9.1-LO-1."
+    },
+    {
+      "sha": "qid:706805",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Writes out HH, HT, TH, TT and picks the two favourable to exactly one head -- both halves of LO-1. LO-2 is not cited because the listing is done directly, not through a tree."
+    },
+    {
+      "sha": "qid:706806",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Names the set of all outcomes. Terminology for LO-1's sample space."
+    },
+    {
+      "sha": "qid:706807",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Matches four experiments to sample-space sizes 2, 4, 6 and 36, so the skill is sizing the sample space including the two-stage cases. Still LO-1; no tree is drawn and no event is evaluated."
+    },
+    {
+      "sha": "qid:706808",
+      "codes": ["C-9.1-LO-1"],
+      "note": "One favourable outcome of two equally likely ones. Cited to LO-1 rather than C-6.2-LO-2, because nothing contrasts it with an experimental value."
+    },
+    {
+      "sha": "qid:706809",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Three favourable out of eight, with the denominator being the total that must be assembled from both colours. LO-1."
+    },
+    {
+      "sha": "qid:706810",
+      "codes": ["C-6.2-LO-2"],
+      "note": "The explicit theoretical-versus-experimental contrast, with an example of each. C-6.2-LO-2 word for word; LO-3 would require the behaviour as trials grow, which this item does not ask for."
+    },
+    {
+      "sha": "qid:706811",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Four kings out of 52 -- a favourable count in a large sample space. LO-1."
+    },
+    {
+      "sha": "qid:706812",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Four white out of a total of ten that must first be assembled. Same LO-1 counting task as qid:706809."
+    },
+    {
+      "sha": "qid:706813",
+      "codes": ["C-9.1-LO-1"],
+      "note": "The even faces {2,4,6} as the favourable subset of the die's sample space. LO-1."
+    },
+    {
+      "sha": "qid:706814",
+      "codes": ["C-9.1-LO-1"],
+      "note": "Asks for the EVENT as a set, {5,6}, before its probability -- 'identifies the outcomes favourable to a given event' is LO-1's second clause, and this item isolates it."
+    },
+    {
+      "sha": "qid:706815",
+      "codes": ["C-6.2-LO-1"],
+      "note": "No counting at all: 1 minus 0.3, which rests on certainty being 1 at the top of the scale. Cited to C-6.2-LO-1 rather than C-9.1-LO-3, which is for complements obtained by counting."
+    },
+    {
+      "sha": "qid:706816",
+      "codes": ["C-9.1-LO-1", "C-9.1-LO-3"],
+      "note": "Part (a) green is a direct favourable count out of 15 (LO-1); part (b) 'not yellow' combines the other two colours or subtracts from the total (LO-3)."
+    },
+    {
+      "sha": "qid:706817",
+      "codes": ["C-6.2-LO-1"],
+      "note": "That all outcome probabilities sum to 1 is the normalisation behind the scale's upper endpoint -- C-6.2-LO-1. No particular experiment is counted."
+    },
+    {
+      "sha": "qid:706818",
+      "codes": ["C-6.2-LO-1"],
+      "note": "1 minus 0.4 for the complement of rain, again with no counting. Same reasoning as qid:706815."
+    }
+  ]
+}

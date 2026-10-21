@@ -54,18 +54,12 @@ _MIN_EXPECTED_TOPICS = 3
 _MAX_EXPECTED_TOPICS = 10
 
 
-def _stems(value: str) -> set[str]:
-    """Token set reduced for comparison, so "simplifying fractions" matches a
-    chapter that says "simplify" and "fraction"."""
-    return {ct.singular(t) for t in ct.tokens(value)}
-
-
-def _coverage(name: str, haystack_stems: set[str]) -> float:
-    """Fraction of a name's content words present in some body of text."""
-    want = _stems(name)
-    if not want:
-        return 0.0
-    return len(want & haystack_stems) / len(want)
+# Both moved into chapter_text, where the budget and the confidence scorer also
+# need them: all three measure a name against a body of text, and they have to
+# agree on what counts as the same word. Aliased rather than renamed throughout
+# so the checks below still read the way they were written.
+_stems = ct.stems
+_coverage = ct.coverage
 
 
 def _issue(kind: str, severity: str, message: str, **extra: Any) -> Dict[str, Any]:
@@ -131,6 +125,144 @@ def _semantic_concept_names(semantic: Dict[str, Any] | None) -> List[str]:
             if isinstance(item, dict) and item.get("concept_name"):
                 names.add(str(item["concept_name"]))
     return sorted(names)
+
+
+def legacy_audit(limit: int = 200, write: bool = False) -> Dict[str, Any]:
+    """Rank every already-processed chapter by how far it is from the new rules.
+
+    Costs no LLM tokens: it scores what is already stored, using only the
+    deterministic half of the confidence formula. The grounding terms cannot be
+    computed for these rows -- source_evidence was never persisted before this
+    release -- so the result is recorded under its own profile name and is NOT
+    comparable with a live score.
+
+    Read-only unless ``write`` is set. Its purpose is to tell you which of the
+    older chapters are genuinely bad, so a decision to reprocess one is based on
+    a number rather than on its age.
+    """
+    from app.services import concept_budget, confidence as cs, curriculum_frame as curf
+
+    rows: List[Dict[str, Any]] = []
+    with SessionLocal() as db:
+        extractions = [r[0] for r in db.execute(
+            text("""SELECT d.id FROM document_extractions d
+                     WHERE LOWER(d.document_type) = 'chapter'
+                       AND EXISTS(SELECT 1 FROM lms_concept c WHERE c.extraction_id = d.id)
+                  ORDER BY d.id DESC LIMIT :n"""),
+            {"n": limit},
+        ).fetchall()]
+
+        for extraction_id in extractions:
+            try:
+                rows.append(_score_legacy(db, extraction_id, concept_budget, cs, curf, write))
+            except Exception as exc:
+                logger.warning("Legacy audit skipped extraction %s: %s", extraction_id, exc)
+
+    over = [r for r in rows if r["concepts"] > r["ceiling"]]
+    rows.sort(key=lambda r: (r["mean_confidence"] if r["mean_confidence"] is not None else 1.0))
+    return {
+        "chapters": len(rows),
+        "written": write,
+        "over_budget": len(over),
+        "duplicated_rows": sum(r["duplicate_rows"] for r in rows),
+        "worst_first": rows,
+    }
+
+
+def _score_legacy(db, extraction_id, concept_budget, cs, curf, write: bool) -> Dict[str, Any]:
+    """One chapter's deterministic score. Helper for legacy_audit."""
+    md = db.execute(
+        text("SELECT md_content FROM document_extractions WHERE id = :i"),
+        {"i": extraction_id},
+    ).scalar() or ""
+
+    chapter = db.execute(
+        text("""SELECT id, chapter_name, standard_id, subject_id, no_of_periods
+                  FROM chapter_master WHERE extraction_id = :i ORDER BY id ASC LIMIT 1"""),
+        {"i": extraction_id},
+    ).mappings().fetchone()
+
+    topics = [dict(t) for t in db.execute(
+        text("""SELECT id, name FROM topic_master
+                 WHERE extraction_id = :i AND COALESCE(topic_show_hide, 1) = 1
+              ORDER BY topic_sort_order ASC, id ASC"""),
+        {"i": extraction_id},
+    ).mappings().fetchall()]
+
+    concepts = [dict(c) for c in db.execute(
+        text("""SELECT id, topic_id, name, description
+                  FROM lms_concept WHERE extraction_id = :i"""),
+        {"i": extraction_id},
+    ).mappings().fetchall()]
+
+    frame = curf.load_frame(
+        db,
+        chapter_id=(chapter or {}).get("id"),
+        standard_id=(chapter or {}).get("standard_id"),
+        subject_id=(chapter or {}).get("subject_id"),
+    ) if chapter else curf.CurriculumFrame()
+
+    spans = ct.partition_by_topics(md, [t["name"] for t in topics]) if topics else []
+    span_by_topic = {t["id"]: s for t, s in zip(topics, spans)}
+    outcome_stems = ct.stems(frame.anchor_text()) if frame.is_usable else None
+
+    budget = concept_budget.chapter_budget(
+        topic_count=len(topics) or 1,
+        spans=spans or None,
+        lo_count=frame.lo_count,
+        competency_count=frame.competency_count,
+        periods=(chapter or {}).get("no_of_periods") or frame.planned_periods,
+        chapter_chars=len(md),
+    )
+
+    grouped: Dict[Any, List[Dict[str, Any]]] = {}
+    for concept in concepts:
+        grouped.setdefault(concept["topic_id"], []).append(concept)
+
+    scores: List[float] = []
+    for topic_id, group in grouped.items():
+        span = span_by_topic.get(topic_id, (0, len(md)))
+        slice_stems = ct.stems(md[span[0]:span[1]])
+        names = [g["name"] for g in group]
+        for index, concept in enumerate(group):
+            score = cs.score_concept(
+                concept,
+                profile="deterministic_backfill",
+                md_content=md,
+                span=span,
+                slice_stems=slice_stems,
+                siblings=[n for j, n in enumerate(names) if j != index],
+                outcome_stems=outcome_stems,
+                curriculum_available=frame.is_usable,
+            )
+            scores.append(score.value)
+            if write:
+                db.execute(
+                    text("""UPDATE lms_concept
+                               SET confidence = :c, confidence_profile = :p,
+                                   updated_at = CURRENT_TIMESTAMP
+                             WHERE id = :id AND confidence IS NULL"""),
+                    {"c": score.value, "p": score.profile, "id": concept["id"]},
+                )
+    if write:
+        db.commit()
+
+    distinct = len({c["name"] for c in concepts})
+    return {
+        "extraction_id": extraction_id,
+        "chapter_name": (chapter or {}).get("chapter_name"),
+        "topics": len(topics),
+        "concepts": len(concepts),
+        "distinct_concepts": distinct,
+        # The doubled rows of the delete-then-insert race, per chapter.
+        "duplicate_rows": len(concepts) - distinct,
+        "target": budget.target,
+        "ceiling": budget.ceiling,
+        "budget_source": budget.source,
+        "over_budget_by": max(0, distinct - budget.ceiling),
+        "mean_confidence": round(sum(scores) / len(scores), 3) if scores else None,
+        "below_flag": sum(1 for s in scores if s < cs.FLAG),
+    }
 
 
 def validate_extraction(extraction_id: int) -> Dict[str, Any]:

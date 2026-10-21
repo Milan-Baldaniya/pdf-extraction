@@ -1,0 +1,31 @@
+{
+  "_comment": [
+    "Printed numbers that reach no draft file and never will, with the reason.",
+    "check_drafts reports a chapter-wide numbering gap because a missing number",
+    "usually means a question was buried inside a neighbouring item and is lost.",
+    "Sometimes the book itself is at fault, and then the check would cry wolf on",
+    "every future run until somebody stopped reading it. An entry here is a",
+    "claim that the source was examined and the question is not in it.",
+    "Keyed by chapter file prefix, then by printed number."
+  ],
+  "ch05": {
+    "127": "Filed on purpose, not lost. Q127, Q128 and Q129 are numbered inside the long-answer run but are PRINTED inside the SHORT ANSWER range of extraction 596, at chars 105,100, 106,477 and 107,727, on the folio the book numbers 213 - the book's page order puts them there. Following the ch04 Q172 and ch07 Q167 precedent they are left in ch05_short.json, where the book prints them, rather than moved into ch05_long.json. That raises ch05_short's highest number from 122 to 129, which would otherwise break the objective..long run in two and make 123-126 look lost. Note the asymmetry, which is deliberate: short questions 106-109 and 114-121 are printed in the LONG range and were nevertheless filed in ch05_short.json by their number, because the long reader had already repaired them and they existed in no other file.",
+    "128": "Same swap as 127; printed at char 106,477.",
+    "129": "Same swap as 127; printed at char 107,727."
+  },
+  "ch04": {
+    "172": "Filed on purpose, not lost. Q172 (Rahul / express train) is numbered inside the long-answer run but is PRINTED under the CASE BASED QUESTION banner, so the reader filed it in ch04_case.json. That makes ch04_case start at 172 rather than 186, which breaks the objective..long run in two and leaves 172 outside it. The question is present, complete and loaded. Do not 'fix' this by moving it back: it was split across two readers once already, its passage in the case range and its answer in the long range, and each correctly dropped the half they could not finish."
+  },
+  "ch07": {
+    "167": "Filed on purpose, not lost. Q167 and Q168 are numbered inside the long-answer run (between long Q166 and Q169) but are PRINTED inside the CASE BASED range, at chars 160,402 and 161,896, under the chapter-7 running header on page 330 - the book's two column page order puts them there. Following the ch04 Q172 precedent they are filed in ch07_case.json where the book prints them. That drags ch07_case's lowest number down from 177 to 167 and would otherwise split the short..case run. The trade runs both ways: case questions 187 and 188 are printed inside the LONG range (chars 135,741 and 137,271) and are left in ch07_long.json for the same reason.",
+    "168": "Same swap as 167; printed at char 161,896, inside the CASE BASED range."
+  },
+  "ch08": {
+    "86": "Filed on purpose, not lost. Q86, Q87 and Q88 are numbered inside the long-answer run but are PRINTED inside the CASE BASED range of extraction 599, at chars 103,619, 104,769 and 105,924, on the folios the book numbers 364-365, under the chapter-8 running header 'Journey Inside the Atom' - the book's two-column page order puts them there. Following the ch04 Q172, ch05 Q127 and ch07 Q167 precedent they are left in ch08_case.json where the book prints them, rather than moved into ch08_long.json. That drags ch08_case's lowest number from 98 down to 86, which would otherwise split the veryshort..long run and make 89-97 look lost. The trade runs both ways: case questions 99, 100 and 101 are printed inside the LONG range and are left in ch08_long.json for the same reason.",
+    "87": "Same swap as 86; printed at char 104,769, inside the CASE BASED range.",
+    "88": "Same swap as 86; printed at char 105,924. Its answer straddles the section boundary as well: part (a) breaks off at the foot of folio 364 (char 106,650) and its tail plus part (b) are printed back in the LONG range on folio 361, at chars 92,858-93,509. Both halves were rejoined into the one item in ch08_case.json.",
+    "99": "Filed on purpose, not lost. Q99, Q100 and Q101 are numbered inside the CASE BASED run but are PRINTED inside the LONG ANSWER range of extraction 599, at chars 88,933, 90,665 and 92,178, on the folios the book numbers 360-361 - the mirror of the Q86-Q88 swap recorded above, and the same two-column page order. They are left in ch08_long.json where the book prints them. That lifts ch08_long's highest number from 97 to 101, and recording both halves of the swap is what lets ch08_case's run rejoin the main one.",
+    "100": "Same swap as 99; printed at char 90,665.",
+    "101": "Same swap as 99; printed at char 92,178. Only its passage is in the LONG range: its QUESTIONS (a)-(e) and the whole of its answer are printed over in the CASE range on folio 365, chars 106,650-108,233. The item was reassembled from both and filed in ch08_long.json."
+  }
+}

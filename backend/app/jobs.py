@@ -141,8 +141,9 @@ def llm_semaphore() -> asyncio.Semaphore:
 async def _execute(
     job_id: str,
     label: str,
-    factory: Callable[[], Awaitable[Any]],
+    factory: Callable[..., Awaitable[Any]],
     semaphore: asyncio.Semaphore | None,
+    progress_aware: bool = False,
 ) -> None:
     """Run one job to completion. Never raises: the job status is the only
     channel back to the client."""
@@ -150,7 +151,17 @@ async def _execute(
     try:
         async with guard:
             update_status(job_id, "running", f"{label} in progress")
-            result = await factory()
+            if progress_aware:
+                # A job made of several minute-long stages is otherwise a blank
+                # wait: the client polls every 3s and the button can only say
+                # "in progress". Handing the factory a reporter lets each stage
+                # name itself, and the frontend prints the message unchanged.
+                def report(message: str) -> None:
+                    update_status(job_id, "running", message)
+
+                result = await factory(report)
+            else:
+                result = await factory()
         set_result(job_id, result)
         update_status(job_id, "completed", f"{label} completed")
         logger.info("Job %s - %s completed", job_id, label)
@@ -165,18 +176,23 @@ async def _execute(
 
 def submit(
     label: str,
-    factory: Callable[[], Awaitable[Any]],
+    factory: Callable[..., Awaitable[Any]],
     *,
     semaphore: asyncio.Semaphore | None = None,
+    progress_aware: bool = False,
 ) -> str:
     """Queue an awaitable as a background job and return its id.
 
     ``factory`` is called inside the job rather than awaited by the caller, so
     no work starts until the job actually runs.
+
+    With ``progress_aware`` the factory is handed a ``report(message)`` callable
+    and is expected to take one positional argument. Use it for a job with
+    several long stages, so the client sees which one it is on.
     """
     job_id = generate_job_id()
     update_status(job_id, "queued", f"{label} queued")
-    spawn(_execute(job_id, label, factory, semaphore))
+    spawn(_execute(job_id, label, factory, semaphore, progress_aware))
     logger.info("Job %s - queued %s", job_id, label)
     return job_id
 

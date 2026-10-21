@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import json
 import logging
 import re
 import sys
@@ -169,7 +170,10 @@ def mark_failed(extraction_id: int | None, error: str) -> None:
                 "UPDATE document_extractions "
                 "SET extraction_status = 'failed', extraction_metadata = :m WHERE id = :i"
             ),
-            {"i": extraction_id, "m": f'{{"error": {error[:400]!r}}}'},
+            # json.dumps, not repr(): extraction_metadata carries
+            # CHECK (json_valid(...)), and repr() emits single quotes, so the
+            # UPDATE was silently rejected and the row stayed "extracting".
+            {"i": extraction_id, "m": json.dumps({"error": error[:2000]}, ensure_ascii=False)},
         )
         db.commit()
     except Exception:

@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8600,
+ "mappings": [
+  {
+   "sha": "9595597f0165bea1",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Shaded triangle under a velocity-time graph, named and valued at 100 m. Both halves of the question are LO-2's 'displacement from velocity-time graph'; the distractor about slope confirms the graph-to-quantity demand."
+  },
+  {
+   "sha": "1c6980c7d365a9f5",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Rectangular and hexagonal tracks change direction a finite number of times, a circular one continuously. That continuous change is the defining feature of uniform circular motion in LO-1; no speed expression is used, so C-8.1-LO-2 is out."
+  },
+  {
+   "sha": "20e21ccf8048cdb0",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Direction of velocity in uniform circular motion is tangential - part of defining the motion (LO-1). Splits from its LO-60 sibling V92 because nothing is predicted, only stated."
+  },
+  {
+   "sha": "60f4d89419690ff7",
+   "codes": ["C-2.1-LO-1", "LO-60"],
+   "note": "Asks what happens on release, i.e. a prediction about a phenomenon (LO-60), resolved by the tangential-velocity definition (LO-1). The prediction framing is what separates it from O57, which merely states the direction."
+  },
+  {
+   "sha": "8c28780c4d24d86b",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Why uniform circular motion is accelerated despite constant speed. LO-1's definition of uniform circular motion together with its definition of acceleration; this whole conceptual family honestly shares one outcome."
+  },
+  {
+   "sha": "6d7945a2b6c071c7",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Vector diagram at three points on a curved path; the answer categorises the motion as accelerated. Same LO-1 definitional demand as O59, posed from a figure rather than in words."
+  },
+  {
+   "sha": "4cd78c248eb1d166",
+   "codes": ["C-2.1-LO-3"],
+   "note": "Orders the algebraic steps that eliminate t to reach v^2=u^2+2as. This is the derivation itself, so LO-3 and not LO-4, which is reserved for substituting values into the finished equation."
+  },
+  {
+   "sha": "7da85c492f9c4d7f",
+   "codes": ["C-2.1-LO-1", "C8.1"],
+   "note": "Orders the steps for plotting a position-time graph from a data table. LO-1 explicitly covers plotting; C8.1 is added because the demand is to build a graphical model of data, not to read one."
+  },
+  {
+   "sha": "3197ac61ce9e3db9",
+   "codes": ["C-2.1-LO-1"],
+   "note": "POOR FIT. Classifies motions as one-, two- or three-dimensional. No outcome addresses dimensionality; LO-1 and the parent competency are both scoped to motion in one dimension, so this is mapped to LO-1 only as the nearest definitional home."
+  },
+  {
+   "sha": "836519e084047875",
+   "codes": ["LO-59"],
+   "note": "Asks purely what stopping distance depends on (initial velocity and the deceleration supplied) - identifying the key factors that govern a phenomenon, which is LO-59. Cited alone because nothing is computed (no LO-4) and no equation is derived (no LO-3)."
+  },
+  {
+   "sha": "e599ba1f3f4640e0",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Scalar versus vector: which quantity needs no direction. The differentiation clause of LO-1 taken to its most general form."
+  },
+  {
+   "sha": "0db43ad8bbcccf01",
+   "codes": ["C-2.1-LO-1"],
+   "note": "What it means to describe position (reference point, distance, direction). Weak fit, flagged with its siblings: this frame has no outcome naming position or reference point, and LO-1 is cited because its definitions presuppose them."
+  },
+  {
+   "sha": "e28c4a0c8fd22dc9",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Condition for an object to be at rest. Same definitional base and same recorded gap as V66; mapped to LO-1 rather than left unmapped because rest is the zero case of its displacement definition."
+  },
+  {
+   "sha": "66444c4b05262ad4",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Straight recall of the definition of displacement - the single most literal match to LO-1's 'define displacement' clause in the chapter."
+  },
+  {
+   "sha": "817c91b854aef950",
+   "codes": ["C-2.1-LO-1"],
+   "note": "One difference between distance and displacement: LO-1's differentiation clause in its shortest form, with no condition, calculation or graph attached."
+  },
+  {
+   "sha": "279726c30ae34a51",
+   "codes": ["C-2.1-LO-1"],
+   "note": "SI unit of average velocity and average speed. Maps to LO-1's units clause; the unit is the whole answer, which is what distinguishes it from the definitional siblings V71 and V74."
+  },
+  {
+   "sha": "74237eae46d28f19",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Write the formula for average speed. LO-1 defines the quantity; LO-4 is excluded because a formula is being stated, not applied to given values."
+  },
+  {
+   "sha": "68fed04c5e9ae184",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Definition of uniform motion in a straight line - the constant-velocity case LO-1 is scoped to. No graph is asked for, which separates it from S123."
+  },
+  {
+   "sha": "4c76f4f97a6a87b9",
+   "codes": ["C-2.1-LO-1"],
+   "note": "The condition under which |average velocity| equals average speed. Same LO-1 clause as P5 and O12; a family of three that shares one outcome because it is genuinely one question asked three ways."
+  },
+  {
+   "sha": "0b51b6415e308a1e",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Define average acceleration. LO-1's 'define ... acceleration' clause; no values given, so it splits from the LO-4 acceleration numericals like O21."
+  },
+  {
+   "sha": "6675b7006807ed01",
+   "codes": ["C-2.1-LO-1"],
+   "note": "SI unit of average acceleration - LO-1's units clause. Pairs with V70 as the units family, distinct from the definitional family V74."
+  },
+  {
+   "sha": "d9319ecc9ed601e5",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Why acceleration carries a negative sign under braking: the sign convention within LO-1's definition of acceleration for straight-line motion. Not LO-59, because no factor is being identified, only a sign explained."
+  },
+  {
+   "sha": "1dcd653b7751f8b2",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Constant velocity implies zero acceleration - the definition of acceleration applied to its null case. LO-1; no graph, table or equation."
+  },
+  {
+   "sha": "6434fc9f4ca6a6fe",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Significance of the slope of a position-time graph: it gives average velocity. A kinematic quantity extracted from the graph, hence LO-2, unlike V79 below where the same graph yields only the character of the motion."
+  },
+  {
+   "sha": "943943c52692ac3c",
+   "codes": ["C-2.1-LO-1"],
+   "note": "A curved position-time graph means non-uniform motion. The answer is a state of motion read from shape, which is LO-1's interpret clause - the deliberate contrast with its immediate sibling V78."
+  }
+ ]
+}

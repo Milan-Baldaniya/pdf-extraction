@@ -25,3 +25,11 @@ backend/logs/
 
 # Uploaded / extracted temp files
 backend/tmp/
+# Mirrored question-bank source PDFs -- ~1 GB of third-party books.
+# Provenance lives in document_extractions.pdf_url, not in git.
+backend/data/qbank/mirror/
+
+# Local tooling and desktop binaries that are not part of the project
+backend/AnyDesk.exe
+backend/gcapi.dll
+.claude/

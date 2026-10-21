@@ -1,0 +1,619 @@
+{
+  "chapter_id": 1012,
+  "chapter": "Chemical Reactions and Equations (Class 10 Science, CBSE)",
+  "note": "Authored MCQs, 40 per concept, 14 Easy / 13 Medium / 13 Hard. Options kept parallel in length so no key is identifiable by size alone.",
+  "concepts": {
+    "2730": [
+      {"stem": "Balancing an equation by adjusting coefficients one at a time is known as", "difficulty": "Easy", "bloom": "Remember", "explanation": "The hit-and-trial method, also called balancing by inspection, adjusts coefficients until every element matches.", "options": [
+        {"text": "the hit-and-trial method", "correct": true},
+        {"text": "the ion-electron method", "why": "That method balances redox half-equations using electrons."},
+        {"text": "the oxidation-number method", "why": "That method balances redox equations using changes in oxidation state."},
+        {"text": "the graphical method", "why": "No graphical method is used for balancing equations."}]},
+      {"stem": "In the hit-and-trial method, the numbers that may be changed are the", "difficulty": "Easy", "bloom": "Remember", "explanation": "Only coefficients, the numbers written in front of formulae, may be adjusted.", "options": [
+        {"text": "coefficients", "correct": true},
+        {"text": "subscripts", "why": "Changing a subscript makes it a different substance."},
+        {"text": "atomic numbers", "why": "Atomic numbers are fixed properties of the elements."},
+        {"text": "valencies", "why": "Valencies determine the formulae and are not adjustable."}]},
+      {"stem": "Hit-and-trial balancing is complete when", "difficulty": "Easy", "bloom": "Understand", "explanation": "Balancing is finished when every element has the same number of atoms on both sides.", "options": [
+        {"text": "every element matches on both sides", "correct": true},
+        {"text": "the equation looks symmetrical", "why": "Appearance is not the test; atom counts are."},
+        {"text": "all coefficients are equal", "why": "Coefficients in a balanced equation are usually different."},
+        {"text": "no coefficients remain", "why": "Coefficients remain in almost every balanced equation."}]},
+      {"stem": "The hit-and-trial method is also known as balancing by", "difficulty": "Easy", "bloom": "Remember", "explanation": "Because the coefficients are found by looking at the atom counts, the method is also called balancing by inspection.", "options": [
+        {"text": "inspection", "correct": true},
+        {"text": "titration", "why": "Titration is an experimental technique for finding concentration."},
+        {"text": "substitution", "why": "Substitution is an algebraic technique, not the standard name here."},
+        {"text": "elimination", "why": "Elimination is an algebraic technique for solving equations."}]},
+      {"stem": "Which of these is NOT a step in hit-and-trial balancing?", "difficulty": "Easy", "bloom": "Understand", "explanation": "Changing a subscript is forbidden, because it replaces the substance with a different one.", "options": [
+        {"text": "Changing a subscript", "correct": true},
+        {"text": "Counting atoms on each side", "why": "Counting is the first step of every balancing attempt."},
+        {"text": "Adjusting a coefficient", "why": "Adjusting coefficients is exactly what the method does."},
+        {"text": "Rechecking all elements", "why": "Rechecking is essential once the coefficients are set."}]},
+      {"stem": "The final coefficients of a balanced equation should be", "difficulty": "Easy", "bloom": "Remember", "explanation": "Convention requires the smallest set of whole numbers that balances the equation.", "options": [
+        {"text": "the smallest whole numbers", "correct": true},
+        {"text": "the largest whole numbers", "why": "Any multiple balances, but convention prefers the smallest."},
+        {"text": "always fractions", "why": "Fractions are cleared before the equation is final."},
+        {"text": "always equal to one", "why": "Most equations need coefficients greater than one."}]},
+      {"stem": "Balancing H2 + Cl2 -> HCl requires the coefficient of HCl to be", "difficulty": "Easy", "bloom": "Apply", "explanation": "One hydrogen molecule and one chlorine molecule give two molecules of hydrogen chloride.", "options": [
+        {"text": "2", "correct": true},
+        {"text": "1", "why": "One molecule accounts for only one of each atom, not two."},
+        {"text": "3", "why": "Three would need more atoms than the reactants supply."},
+        {"text": "4", "why": "Four is twice the smallest whole-number answer."}]},
+      {"stem": "In hit-and-trial balancing, the first thing to do is", "difficulty": "Easy", "bloom": "Remember", "explanation": "Listing the number of atoms of each element on both sides shows immediately what needs adjusting.", "options": [
+        {"text": "list the atoms on each side", "correct": true},
+        {"text": "guess a coefficient at random", "why": "A count makes the first choice informed rather than blind."},
+        {"text": "add the physical states", "why": "States are added after balancing is complete."},
+        {"text": "write the reaction conditions", "why": "Conditions are added above the arrow at the end."}]},
+      {"stem": "Balance Na + Cl2 -> NaCl. The coefficient of Na is", "difficulty": "Easy", "bloom": "Apply", "explanation": "Two chlorine atoms need two sodium atoms, giving 2Na + Cl2 -> 2NaCl.", "options": [
+        {"text": "2", "correct": true},
+        {"text": "1", "why": "One sodium atom leaves one chlorine atom unaccounted for."},
+        {"text": "3", "why": "Three sodium atoms exceed what the chlorine can combine with."},
+        {"text": "4", "why": "Four is twice the smallest whole-number answer."}]},
+      {"stem": "Why is the method called hit-and-trial?", "difficulty": "Easy", "bloom": "Understand", "explanation": "Coefficients are tried and checked in turn until every element balances, so the answer is reached by trying rather than by formula.", "options": [
+        {"text": "Coefficients are tried and checked in turn", "correct": true},
+        {"text": "The formulae are guessed at random", "why": "Formulae must be correct before balancing begins."},
+        {"text": "The products are chosen by trial", "why": "The products are fixed before the equation is balanced."},
+        {"text": "The answer is never certain", "why": "The final answer is checked and certain."}]},
+      {"stem": "A balanced equation has coefficients 2, 2, 1. Multiplying all by two gives", "difficulty": "Easy", "bloom": "Understand", "explanation": "The equation stays balanced but is no longer in the smallest whole-number form that convention requires.", "options": [
+        {"text": "a balanced but non-standard form", "correct": true},
+        {"text": "an unbalanced equation", "why": "Uniform multiplication always preserves the balance."},
+        {"text": "a different reaction", "why": "The substances are unchanged, so the reaction is the same."},
+        {"text": "the preferred final form", "why": "The smaller set is the preferred one."}]},
+      {"stem": "In hit-and-trial balancing, a fractional coefficient is", "difficulty": "Easy", "bloom": "Remember", "explanation": "A fraction may appear during the work but must be cleared by multiplying everything before the answer is final.", "options": [
+        {"text": "allowed during work, cleared at the end", "correct": true},
+        {"text": "forbidden at every stage", "why": "Fractions are a useful intermediate step in many equations."},
+        {"text": "kept in the final answer", "why": "Convention requires whole numbers in the finished equation."},
+        {"text": "a sign of a wrong formula", "why": "Fractions arise routinely in correct equations."}]},
+      {"stem": "Balance Mg + O2 -> MgO. The coefficient of MgO is", "difficulty": "Easy", "bloom": "Apply", "explanation": "Two oxygen atoms need two magnesium atoms, giving two units of magnesium oxide.", "options": [
+        {"text": "2", "correct": true},
+        {"text": "1", "why": "One unit uses only one oxygen atom, leaving one over."},
+        {"text": "3", "why": "Three units need three oxygen atoms, which O2 cannot supply."},
+        {"text": "4", "why": "Four is twice the smallest whole-number answer."}]},
+      {"stem": "The hit-and-trial method works for school equations because those equations", "difficulty": "Easy", "bloom": "Understand", "explanation": "School equations involve few species, so the atom counts can be reconciled by inspection without algebra.", "options": [
+        {"text": "involve only a few species", "correct": true},
+        {"text": "are already balanced", "why": "They need balancing, which is why the method is taught."},
+        {"text": "have no coefficients", "why": "Coefficients are what the method supplies."},
+        {"text": "never conserve mass", "why": "Every real reaction conserves mass."}]},
+
+      {"stem": "Balance C2H6 + O2 -> CO2 + H2O. The coefficient of CO2 is", "difficulty": "Medium", "bloom": "Apply", "explanation": "Two C2H6 molecules supply four carbon atoms, so four molecules of carbon dioxide form.", "options": [
+        {"text": "4", "correct": true},
+        {"text": "2", "why": "Two would account for the carbon of only one C2H6 molecule."},
+        {"text": "3", "why": "Three does not match any whole-number set for this equation."},
+        {"text": "6", "why": "Six is the coefficient for water, not carbon dioxide."}]},
+      {"stem": "Balancing Al + H2SO4 -> Al2(SO4)3 + H2 is quickest if the sulphate is treated as", "difficulty": "Medium", "bloom": "Apply", "explanation": "The sulphate group passes across unchanged, so counting it as one unit removes four oxygen counts from the work.", "options": [
+        {"text": "one unchanged unit", "correct": true},
+        {"text": "five separate atoms", "why": "Correct but needlessly laborious when the group survives whole."},
+        {"text": "a catalyst", "why": "The sulphate is transferred, not merely present."},
+        {"text": "a spectator to ignore", "why": "It must be balanced like everything else."}]},
+      {"stem": "After balancing, a student has coefficients 2, 3, 1, 3 but finds hydrogen unequal. The correct action is to", "difficulty": "Medium", "bloom": "Apply", "explanation": "Balancing is not finished until every element matches, so the coefficients must be revised rather than accepted.", "options": [
+        {"text": "revise the coefficients again", "correct": true},
+        {"text": "accept the equation as balanced", "why": "An unequal element means the equation is not balanced."},
+        {"text": "change a hydrogen subscript", "why": "Changing a subscript alters the substance involved."},
+        {"text": "remove hydrogen from the equation", "why": "Hydrogen genuinely takes part and cannot be dropped."}]},
+      {"stem": "Balance Fe2O3 + C -> Fe + CO2. The coefficient of C is", "difficulty": "Medium", "bloom": "Apply", "explanation": "Two Fe2O3 units carry six oxygen atoms, which form three CO2 molecules, so three carbon atoms are needed.", "options": [
+        {"text": "3", "correct": true},
+        {"text": "2", "why": "Two carbon atoms give only four oxygen atoms in the products."},
+        {"text": "4", "why": "Four carbon atoms would need eight oxygen atoms."},
+        {"text": "1", "why": "One carbon atom gives only two oxygen atoms in the product."}]},
+      {"stem": "Which order of balancing C3H8 + O2 -> CO2 + H2O needs the least rework?", "difficulty": "Medium", "bloom": "Apply", "explanation": "Carbon and hydrogen are each confined to one compound on each side, so settling them first leaves only oxygen to total.", "options": [
+        {"text": "carbon, then hydrogen, then oxygen", "correct": true},
+        {"text": "oxygen, then carbon, then hydrogen", "why": "Oxygen would be disturbed by every later adjustment."},
+        {"text": "oxygen, then hydrogen, then carbon", "why": "Starting with oxygen forces repeated revision."},
+        {"text": "hydrogen, then oxygen, then carbon", "why": "Placing oxygen before carbon causes avoidable rework."}]},
+      {"stem": "Balance KClO3 -> KCl + O2 using hit-and-trial. The coefficient of KClO3 is", "difficulty": "Medium", "bloom": "Apply", "explanation": "Two units give six oxygen atoms, which form three O2 molecules, so the whole-number set is 2, 2, 3.", "options": [
+        {"text": "2", "correct": true},
+        {"text": "1", "why": "One unit gives three oxygen atoms, which is not a whole number of O2."},
+        {"text": "3", "why": "Three units give nine oxygen atoms, again not a whole number of O2."},
+        {"text": "4", "why": "Four is twice the smallest whole-number answer."}]},
+      {"stem": "Balance Ca3N2 + H2O -> Ca(OH)2 + NH3. The coefficient of H2O is", "difficulty": "Medium", "bloom": "Apply", "explanation": "One Ca3N2 gives three Ca(OH)2 and two NH3, needing six oxygen and twelve hydrogen atoms, which six water molecules supply.", "options": [
+        {"text": "6", "correct": true},
+        {"text": "3", "why": "Three water molecules supply only three oxygen atoms, not six."},
+        {"text": "2", "why": "Two water molecules cannot supply the six oxygen atoms needed."},
+        {"text": "9", "why": "Nine water molecules supply more oxygen than the products hold."}]},
+      {"stem": "A student balances an equation and gets every coefficient as an even number. Before finishing, they should", "difficulty": "Medium", "bloom": "Apply", "explanation": "All-even coefficients share a common factor of two, so dividing through gives the smaller standard form.", "options": [
+        {"text": "divide through by two", "correct": true},
+        {"text": "multiply through by two", "why": "Multiplying moves further from the smallest form."},
+        {"text": "leave the answer as it is", "why": "Convention requires the smallest whole-number set."},
+        {"text": "change one coefficient to odd", "why": "Changing a single coefficient would unbalance the equation."}]},
+      {"stem": "Balance Zn + NaOH -> Na2ZnO2 + H2. The coefficient of NaOH is", "difficulty": "Medium", "bloom": "Apply", "explanation": "Two sodium atoms are needed for Na2ZnO2, and the two hydroxide groups supply the oxygen and the hydrogen molecule.", "options": [
+        {"text": "2", "correct": true},
+        {"text": "1", "why": "One supplies only one sodium atom, not the two required."},
+        {"text": "3", "why": "Three supplies three sodium atoms, one too many."},
+        {"text": "4", "why": "Four is twice the smallest whole-number answer."}]},
+      {"stem": "Why does hit-and-trial balancing always terminate for a real reaction?", "difficulty": "Medium", "bloom": "Understand", "explanation": "Atoms are conserved, so a consistent whole-number solution must exist and can always be found by inspection.", "options": [
+        {"text": "A whole-number solution must exist", "correct": true},
+        {"text": "The method is guaranteed by algebra", "why": "Algebra can be used, but that is a different method."},
+        {"text": "There are only four elements", "why": "Equations may involve many elements and still balance."},
+        {"text": "Coefficients are limited to ten", "why": "No upper limit applies to coefficients."}]},
+      {"stem": "Balance NH3 + O2 -> NO + H2O. The coefficient of O2 is", "difficulty": "Medium", "bloom": "Apply", "explanation": "Four NH3 give four NO and six H2O, needing ten oxygen atoms, which five O2 molecules supply.", "options": [
+        {"text": "5", "correct": true},
+        {"text": "3", "why": "Three molecules give six oxygen atoms, not the ten required."},
+        {"text": "4", "why": "Four molecules give eight oxygen atoms, still two short."},
+        {"text": "6", "why": "Six molecules give twelve oxygen atoms, two too many."}]},
+      {"stem": "In hit-and-trial balancing, rechecking every element at the end is necessary because", "difficulty": "Medium", "bloom": "Understand", "explanation": "A coefficient change affects every element in that formula, so an element settled earlier can easily be disturbed.", "options": [
+        {"text": "one change affects several elements", "correct": true},
+        {"text": "elements can change identity", "why": "Elements never change identity in a reaction."},
+        {"text": "the arrow may have moved", "why": "The arrow is not altered during balancing."},
+        {"text": "convention simply requires it", "why": "There is a concrete reason, not merely a convention."}]},
+      {"stem": "Balance MnO2 + Al -> Mn + Al2O3. The coefficient of Al is", "difficulty": "Medium", "bloom": "Apply", "explanation": "Three MnO2 units carry six oxygen atoms, which form two Al2O3, so four aluminium atoms are needed.", "options": [
+        {"text": "4", "correct": true},
+        {"text": "2", "why": "Two aluminium atoms form only one Al2O3, using three oxygen atoms."},
+        {"text": "3", "why": "Three aluminium atoms cannot form a whole number of Al2O3."},
+        {"text": "6", "why": "Six aluminium atoms need nine oxygen atoms, more than available."}]},
+
+      {"stem": "A student cannot balance an equation after repeated attempts. The most likely cause is that", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "Any equation with correct formulae can be balanced, so persistent failure points to a wrong formula.", "options": [
+        {"text": "a formula is wrong", "correct": true},
+        {"text": "the reaction cannot occur", "why": "Occurrence is a separate matter from balancing on paper."},
+        {"text": "some equations never balance", "why": "Every real reaction conserves atoms and so balances."},
+        {"text": "the arrow needs reversing", "why": "Reversing the arrow changes no atom count."}]},
+      {"stem": "Why is hit-and-trial inadequate for a complicated redox equation in solution?", "difficulty": "Hard", "bloom": "Analyze", "explanation": "Electrons and ionic charge must also balance, which inspection of atom counts alone cannot achieve.", "options": [
+        {"text": "Charge must balance as well as atoms", "correct": true},
+        {"text": "Redox equations have no products", "why": "Redox equations have products like any other."},
+        {"text": "Atoms are not conserved in redox", "why": "Atoms are conserved in every chemical reaction."},
+        {"text": "Coefficients are always fractional", "why": "Redox equations balance with whole numbers too."}]},
+      {"stem": "Two correct balancings of one equation differ by a factor of three. This shows the method determines", "difficulty": "Hard", "bloom": "Analyze", "explanation": "Balancing fixes the ratios of the substances, not their absolute numbers, so any uniform multiple is also balanced.", "options": [
+        {"text": "ratios, not absolute numbers", "correct": true},
+        {"text": "absolute numbers of molecules", "why": "No absolute count is implied by an equation."},
+        {"text": "the masses of the reactants", "why": "Masses need molar masses in addition to coefficients."},
+        {"text": "the rate of the reaction", "why": "Rate is never conveyed by an equation."}]},
+      {"stem": "In balancing, leaving a free element until last is justified because its coefficient", "difficulty": "Hard", "bloom": "Analyze", "explanation": "A free element contains only one kind of atom, so changing its coefficient cannot disturb any other element's count.", "options": [
+        {"text": "disturbs no other element", "correct": true},
+        {"text": "is always one", "why": "Free elements often carry coefficients above one."},
+        {"text": "need not be balanced", "why": "It must balance like every other species."},
+        {"text": "is fixed by its subscript", "why": "The subscript is fixed; the coefficient is what is chosen."}]},
+      {"stem": "A balanced equation is multiplied by 1.5 throughout. The result is", "difficulty": "Hard", "bloom": "Analyze", "explanation": "The ratios are preserved so it is still balanced, but some coefficients are now fractional and must be cleared.", "options": [
+        {"text": "balanced but with fractions", "correct": true},
+        {"text": "no longer balanced", "why": "Uniform multiplication always preserves the balance."},
+        {"text": "a different reaction", "why": "The substances are untouched by multiplication."},
+        {"text": "the preferred standard form", "why": "The standard form uses the smallest whole numbers."}]},
+      {"stem": "Which criticism of hit-and-trial as a method is fairest?", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "It is reliable but unsystematic, so it gives no guarantee about how long the work will take on a complex equation.", "options": [
+        {"text": "It is reliable but not systematic", "correct": true},
+        {"text": "It gives the wrong answer often", "why": "A checked answer from this method is correct."},
+        {"text": "It changes the substances involved", "why": "Only coefficients are touched, never the formulae."},
+        {"text": "It cannot balance any equation", "why": "It balances school equations routinely."}]},
+      {"stem": "A student balances by algebra and gets the same answer as hit-and-trial. This is expected because", "difficulty": "Hard", "bloom": "Analyze", "explanation": "Both methods solve the same system of atom-conservation constraints, so the smallest whole-number solution is unique.", "options": [
+        {"text": "both solve the same constraints", "correct": true},
+        {"text": "algebra is always less accurate", "why": "Algebra is exact and gives the same result."},
+        {"text": "the answers only look alike", "why": "They are genuinely identical, not merely similar."},
+        {"text": "coefficients are arbitrary anyway", "why": "Coefficients are determined, not arbitrary."}]},
+      {"stem": "Why can balancing never reveal that a written reaction does not actually occur?", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "Balancing tests only whether atoms are conserved on paper, which any invented but well-formed equation can satisfy.", "options": [
+        {"text": "It tests conservation, not reality", "correct": true},
+        {"text": "It tests reality but imprecisely", "why": "It offers no test of reality at all."},
+        {"text": "Every balanced equation is real", "why": "Many balanced equations describe reactions that never occur."},
+        {"text": "It only tests the formulae", "why": "It does not test formulae either; a wrong formula can still balance."}]},
+      {"stem": "An equation with eight species is being balanced by inspection. The best way to keep control is to", "difficulty": "Hard", "bloom": "Analyze", "explanation": "Working from the most constrained element to the least, and recording the counts as you go, prevents the oscillation that wastes most of the time.", "options": [
+        {"text": "work from most constrained to least", "correct": true},
+        {"text": "start with the free elements", "why": "Free elements are disturbed by every later change."},
+        {"text": "balance in alphabetical order", "why": "Letters bear no relation to the constraints."},
+        {"text": "guess all coefficients at once", "why": "Simultaneous guessing gives no way to correct errors."}]},
+      {"stem": "A student changes O2 to O3 to make an equation balance. The deepest objection is that", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "Ozone is a different substance from oxygen, so the balanced equation now describes a reaction that was never carried out.", "options": [
+        {"text": "ozone is a different substance", "correct": true},
+        {"text": "the equation still will not balance", "why": "The objection stands even where the counts do work out."},
+        {"text": "three is not a valid subscript", "why": "Three is a perfectly valid subscript in other formulae."},
+        {"text": "coefficients cannot exceed two", "why": "No such limit exists on coefficients."}]},
+      {"stem": "Why does convention insist on the smallest whole-number coefficients rather than any balanced set?", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "A single agreed form makes equations directly comparable and makes calculations reproducible between chemists.", "options": [
+        {"text": "One agreed form keeps results comparable", "correct": true},
+        {"text": "Larger sets are not really balanced", "why": "Larger uniform multiples are perfectly balanced."},
+        {"text": "Small numbers are easier to multiply", "why": "Convenience is minor beside comparability."},
+        {"text": "Large coefficients break conservation", "why": "Conservation holds at any uniform scale."}]},
+      {"stem": "An equation balances with coefficients 1, 1, 1, 1 on the first attempt. A student suspects an error. The best judgement is that", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "Some reactions genuinely balance with unit coefficients, so this is no evidence of a mistake by itself.", "options": [
+        {"text": "unit coefficients are perfectly possible", "correct": true},
+        {"text": "a formula must be wrong", "why": "Unit coefficients occur in many correct equations."},
+        {"text": "coefficients must always differ", "why": "No such requirement exists."},
+        {"text": "the equation must be rewritten", "why": "A correct balanced equation needs no rewriting."}]},
+      {"stem": "What does the reliability of hit-and-trial balancing tell us about chemical change?", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "That a whole-number solution always exists reflects the fact that matter is made of discrete atoms that are conserved.", "options": [
+        {"text": "Matter is made of discrete conserved atoms", "correct": true},
+        {"text": "Reactions are essentially random", "why": "Randomness would give no consistent whole-number solution."},
+        {"text": "Mass changes during reactions", "why": "Mass is conserved, which is why balancing works."},
+        {"text": "Atoms divide during reactions", "why": "Atoms are not divided in chemical reactions."}]}
+    ],
+    "2731": [
+      {"stem": "In a chemical equation, the symbol (s) after a formula means the substance is", "difficulty": "Easy", "bloom": "Remember", "explanation": "The symbol (s) stands for solid.", "options": [
+        {"text": "a solid", "correct": true},
+        {"text": "a solution", "why": "A solution in water is shown by (aq)."},
+        {"text": "a gas", "why": "A gas is shown by (g)."},
+        {"text": "a liquid", "why": "A pure liquid is shown by (l)."}]},
+      {"stem": "The symbol (aq) written after a formula means the substance is", "difficulty": "Easy", "bloom": "Remember", "explanation": "The symbol (aq) means aqueous, that is, dissolved in water.", "options": [
+        {"text": "dissolved in water", "correct": true},
+        {"text": "a pure liquid", "why": "A pure liquid is shown by (l), not (aq)."},
+        {"text": "a solid powder", "why": "A solid is shown by (s)."},
+        {"text": "a gas above water", "why": "A gas is shown by (g) whatever is beneath it."}]},
+      {"stem": "Which symbol shows that a substance is a gas?", "difficulty": "Easy", "bloom": "Remember", "explanation": "The symbol (g) placed after the formula shows the substance is a gas.", "options": [
+        {"text": "(g)", "correct": true},
+        {"text": "(s)", "why": "This stands for solid."},
+        {"text": "(l)", "why": "This stands for pure liquid."},
+        {"text": "(aq)", "why": "This stands for aqueous solution."}]},
+      {"stem": "In 2H2O(l) -> 2H2(g) + O2(g), the reactant is", "difficulty": "Easy", "bloom": "Understand", "explanation": "Water carries the symbol (l), so it is present as a pure liquid.", "options": [
+        {"text": "a liquid", "correct": true},
+        {"text": "a gas", "why": "The products carry (g); the reactant carries (l)."},
+        {"text": "a solid", "why": "No (s) appears anywhere in this equation."},
+        {"text": "a solution", "why": "No (aq) appears anywhere in this equation."}]},
+      {"stem": "State symbols are added to an equation mainly to", "difficulty": "Easy", "bloom": "Understand", "explanation": "They say what will actually be seen, such as a solid settling out or a gas bubbling off.", "options": [
+        {"text": "show what will be observed", "correct": true},
+        {"text": "make the equation balance", "why": "Balance depends only on atom counts."},
+        {"text": "identify the substances", "why": "The formulae already identify every substance."},
+        {"text": "give the reaction rate", "why": "Rate is never shown in an equation."}]},
+      {"stem": "In BaCl2(aq) + Na2SO4(aq) -> BaSO4(s) + 2NaCl(aq), the precipitate is", "difficulty": "Easy", "bloom": "Understand", "explanation": "Barium sulphate carries (s), which marks it as the insoluble solid that separates out.", "options": [
+        {"text": "BaSO4", "correct": true},
+        {"text": "NaCl", "why": "Sodium chloride carries (aq), so it stays dissolved."},
+        {"text": "BaCl2", "why": "This is a reactant and carries (aq)."},
+        {"text": "Na2SO4", "why": "This is a reactant and carries (aq)."}]},
+      {"stem": "The difference between (l) and (aq) is that (aq) means", "difficulty": "Easy", "bloom": "Understand", "explanation": "The symbol (aq) means dissolved in water, whereas (l) means the pure substance itself is liquid.", "options": [
+        {"text": "dissolved in water", "correct": true},
+        {"text": "a hotter liquid", "why": "Temperature is not indicated by state symbols."},
+        {"text": "a thicker liquid", "why": "Viscosity is not indicated by state symbols."},
+        {"text": "exactly the same thing", "why": "Molten sodium chloride is (l) but dissolved sodium chloride is (aq)."}]},
+      {"stem": "In Zn(s) + 2HCl(aq) -> ZnCl2(aq) + H2(g), the substance that bubbles off is", "difficulty": "Easy", "bloom": "Understand", "explanation": "Hydrogen carries (g), so it leaves the mixture as a gas.", "options": [
+        {"text": "H2", "correct": true},
+        {"text": "Zn", "why": "Zinc carries (s) and is the solid metal used up."},
+        {"text": "HCl", "why": "The acid carries (aq) and stays in solution."},
+        {"text": "ZnCl2", "why": "Zinc chloride carries (aq) and stays dissolved."}]},
+      {"stem": "State symbols are written", "difficulty": "Easy", "bloom": "Remember", "explanation": "Each symbol is placed immediately after the formula it describes, in brackets.", "options": [
+        {"text": "after each formula in brackets", "correct": true},
+        {"text": "above the arrow", "why": "Conditions such as heat go above the arrow."},
+        {"text": "before each formula", "why": "The position before a formula is used for coefficients."},
+        {"text": "at the end of the equation", "why": "Each substance needs its own symbol in its own place."}]},
+      {"stem": "Which state symbol would molten iron carry?", "difficulty": "Easy", "bloom": "Understand", "explanation": "Molten iron is the pure element in the liquid state, so it carries (l).", "options": [
+        {"text": "(l)", "correct": true},
+        {"text": "(aq)", "why": "Iron is not dissolved in water when it is molten."},
+        {"text": "(s)", "why": "Molten means it is no longer solid."},
+        {"text": "(g)", "why": "Iron vapour would be (g), but molten iron is liquid."}]},
+      {"stem": "In CaCO3(s) -> CaO(s) + CO2(g), the escaping product is", "difficulty": "Easy", "bloom": "Understand", "explanation": "Carbon dioxide carries (g) and so leaves the vessel, while both solids remain.", "options": [
+        {"text": "CO2", "correct": true},
+        {"text": "CaO", "why": "Calcium oxide carries (s) and stays behind."},
+        {"text": "CaCO3", "why": "This is the reactant and carries (s)."},
+        {"text": "nothing escapes", "why": "The (g) symbol marks a product that leaves as a gas."}]},
+      {"stem": "Adding state symbols to a balanced equation changes", "difficulty": "Easy", "bloom": "Understand", "explanation": "State symbols add information about what is observed and leave the atom counts untouched.", "options": [
+        {"text": "nothing about the balance", "correct": true},
+        {"text": "the number of atoms", "why": "Symbols in brackets carry no atoms."},
+        {"text": "which substances react", "why": "The formulae are unchanged."},
+        {"text": "the direction of change", "why": "The arrow is unchanged."}]},
+      {"stem": "Which of these would carry the symbol (aq)?", "difficulty": "Easy", "bloom": "Apply", "explanation": "Dilute sulphuric acid is the substance dissolved in water, so it is aqueous.", "options": [
+        {"text": "dilute sulphuric acid", "correct": true},
+        {"text": "solid copper sulphate", "why": "An undissolved solid carries (s)."},
+        {"text": "oxygen gas", "why": "A gas carries (g)."},
+        {"text": "pure molten lead", "why": "A pure liquid carries (l)."}]},
+      {"stem": "The full form of the symbol (aq) is", "difficulty": "Easy", "bloom": "Remember", "explanation": "The abbreviation stands for aqueous, from the Latin for water.", "options": [
+        {"text": "aqueous", "correct": true},
+        {"text": "acquired", "why": "This is an ordinary English word, unrelated to state symbols."},
+        {"text": "acidic quantity", "why": "This is not a chemical term at all."},
+        {"text": "aqua queue", "why": "This is not a chemical term at all."}]},
+
+      {"stem": "Adding state symbols to Pb(NO3)2 + 2KI -> PbI2 + 2KNO3 gives PbI2 as", "difficulty": "Medium", "bloom": "Apply", "explanation": "Lead iodide is insoluble and appears as a yellow precipitate, so it carries (s).", "options": [
+        {"text": "(s)", "correct": true},
+        {"text": "(aq)", "why": "Lead iodide is insoluble, so it does not stay in solution."},
+        {"text": "(g)", "why": "Lead iodide is a solid, not a gas."},
+        {"text": "(l)", "why": "It is not a pure liquid; it separates as a solid."}]},
+      {"stem": "Why is it wrong to write NaCl(l) for salt dissolved in water?", "difficulty": "Medium", "bloom": "Apply", "explanation": "The symbol (l) means molten pure salt at over 800 degrees Celsius, whereas dissolved salt is (aq).", "options": [
+        {"text": "(l) means molten, not dissolved", "correct": true},
+        {"text": "(l) is only used for water", "why": "Any pure liquid substance may carry (l)."},
+        {"text": "salt can never be a liquid", "why": "Salt melts and is then genuinely (l)."},
+        {"text": "(l) and (aq) mean the same", "why": "They describe two quite different physical situations."}]},
+      {"stem": "In 2H2(g) + O2(g) -> 2H2O(l), writing the product as (g) instead would imply", "difficulty": "Medium", "bloom": "Apply", "explanation": "It would mean steam was formed, which happens only above the boiling point of water.", "options": [
+        {"text": "steam was formed", "correct": true},
+        {"text": "no reaction occurred", "why": "A product is shown either way, so a reaction occurred."},
+        {"text": "the equation is unbalanced", "why": "State symbols do not affect the atom counts."},
+        {"text": "water dissolved in itself", "why": "Water is not described as dissolved in water."}]},
+      {"stem": "State symbols help predict which product can be separated by filtration, namely the one marked", "difficulty": "Medium", "bloom": "Apply", "explanation": "Only an insoluble solid, marked (s), can be caught on a filter paper.", "options": [
+        {"text": "(s)", "correct": true},
+        {"text": "(aq)", "why": "A dissolved substance passes straight through the filter."},
+        {"text": "(g)", "why": "A gas escapes rather than being filtered."},
+        {"text": "(l)", "why": "A pure liquid passes through the filter paper."}]},
+      {"stem": "A student writes CO2(aq) for the gas bubbling out of a fizzy drink being opened. The better symbol is", "difficulty": "Medium", "bloom": "Apply", "explanation": "Gas escaping from the liquid is no longer dissolved, so it should be marked (g).", "options": [
+        {"text": "(g)", "correct": true},
+        {"text": "(aq)", "why": "The gas has left the solution, so it is no longer aqueous."},
+        {"text": "(s)", "why": "Carbon dioxide is not solid at room temperature."},
+        {"text": "(l)", "why": "Carbon dioxide is not a liquid at ordinary pressure."}]},
+      {"stem": "In NaOH(aq) + HCl(aq) -> NaCl(aq) + H2O(l), no product can be filtered off because", "difficulty": "Medium", "bloom": "Apply", "explanation": "Neither product is marked (s), so nothing insoluble has formed and there is nothing to catch.", "options": [
+        {"text": "neither product is a solid", "correct": true},
+        {"text": "both products are gases", "why": "Neither product carries (g) in this equation."},
+        {"text": "the reaction does not occur", "why": "Neutralisation certainly occurs, releasing heat."},
+        {"text": "filtration works only on gases", "why": "Filtration separates insoluble solids, not gases."}]},
+      {"stem": "Which state symbol should be written for the calcium hydroxide formed when quick lime is added to plenty of water?", "difficulty": "Medium", "bloom": "Apply", "explanation": "Calcium hydroxide is slightly soluble, so with plenty of water it is written (aq) as lime water.", "options": [
+        {"text": "(aq)", "correct": true},
+        {"text": "(l)", "why": "It is dissolved in water rather than being a pure liquid."},
+        {"text": "(g)", "why": "Calcium hydroxide is not a gas."},
+        {"text": "(s)", "why": "With plenty of water enough dissolves to be written aqueous."}]},
+      {"stem": "State symbols in an equation for electrolysis of molten sodium chloride would show NaCl as", "difficulty": "Medium", "bloom": "Apply", "explanation": "Molten means the pure salt is liquid, so it carries (l) and not (aq).", "options": [
+        {"text": "(l)", "correct": true},
+        {"text": "(aq)", "why": "Molten salt contains no water at all."},
+        {"text": "(s)", "why": "Molten means it is no longer solid."},
+        {"text": "(g)", "why": "Sodium chloride vapour would need far higher temperatures."}]},
+      {"stem": "Why do state symbols matter for predicting whether a double displacement will be visible?", "difficulty": "Medium", "bloom": "Understand", "explanation": "A visible change needs a product marked (s) or (g); if every product is (aq) nothing can be seen.", "options": [
+        {"text": "A visible change needs an (s) or (g) product", "correct": true},
+        {"text": "They show the colour of the products", "why": "Colour is not conveyed by a state symbol."},
+        {"text": "They show how fast the change is", "why": "Rate is not conveyed by an equation."},
+        {"text": "They decide whether atoms balance", "why": "Balance depends only on atom counts."}]},
+      {"stem": "In Fe(s) + CuSO4(aq) -> FeSO4(aq) + Cu(s), the substance depositing on the nail is", "difficulty": "Medium", "bloom": "Apply", "explanation": "Copper carries (s), so it forms as a solid deposit on the iron.", "options": [
+        {"text": "Cu", "correct": true},
+        {"text": "FeSO4", "why": "Iron sulphate carries (aq) and stays in solution."},
+        {"text": "CuSO4", "why": "This is a reactant and carries (aq)."},
+        {"text": "Fe", "why": "Iron is the reactant being used up, not the deposit."}]},
+      {"stem": "Omitting state symbols from an equation makes it", "difficulty": "Medium", "bloom": "Understand", "explanation": "The equation remains chemically correct and balanced but says less about what would actually be observed.", "options": [
+        {"text": "correct but less informative", "correct": true},
+        {"text": "unbalanced and wrong", "why": "State symbols play no part in balancing."},
+        {"text": "a word equation", "why": "It still uses formulae, so it remains a chemical equation."},
+        {"text": "impossible to read", "why": "Equations are frequently written without state symbols."}]},
+      {"stem": "A precipitate and an escaping gas in the same reaction would be shown by the symbols", "difficulty": "Medium", "bloom": "Apply", "explanation": "The precipitate takes (s) and the escaping gas takes (g).", "options": [
+        {"text": "(s) and (g)", "correct": true},
+        {"text": "(aq) and (l)", "why": "Neither of these marks a precipitate or an escaping gas."},
+        {"text": "(l) and (s)", "why": "A pure liquid is not an escaping gas."},
+        {"text": "(g) and (aq)", "why": "An aqueous product is dissolved, not a precipitate."}]},
+      {"stem": "Which pair of state symbols would tell you a reaction can be done in a test tube with no lid?", "difficulty": "Medium", "bloom": "Analyze", "explanation": "If all species are (aq) or (s), nothing escapes and no lid is needed.", "options": [
+        {"text": "(aq) and (s) only", "correct": true},
+        {"text": "(g) and (aq)", "why": "A gaseous product would escape from an open tube."},
+        {"text": "(g) and (s)", "why": "A gaseous product would escape from an open tube."},
+        {"text": "(g) and (l)", "why": "A gaseous product would escape from an open tube."}]},
+
+      {"stem": "Why is (aq) not simply a special case of (l)?", "difficulty": "Hard", "bloom": "Analyze", "explanation": "An aqueous species is dissolved and surrounded by water molecules, often as separate ions, whereas (l) describes the pure substance as a liquid.", "options": [
+        {"text": "An aqueous species is dissolved, often as ions", "correct": true},
+        {"text": "An aqueous species is always hotter", "why": "Temperature is not part of either symbol's meaning."},
+        {"text": "An aqueous species has no formula", "why": "Aqueous species have formulae like everything else."},
+        {"text": "They are in fact the same symbol", "why": "They describe two different physical situations."}]},
+      {"stem": "Two equations for one reaction differ only in state symbols. The best conclusion is that", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "They describe the same chemistry under different conditions, since state depends on temperature and on how much water is present.", "options": [
+        {"text": "they describe different conditions", "correct": true},
+        {"text": "one of them must be wrong", "why": "Both can be right for different temperatures."},
+        {"text": "they are different reactions", "why": "The substances and the change are identical."},
+        {"text": "state symbols are meaningless", "why": "They carry real information about conditions."}]},
+      {"stem": "A student writes AgCl(aq) as the product of mixing silver nitrate and sodium chloride solutions. The error matters because", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "Silver chloride is insoluble, so marking it (aq) hides the white precipitate that is the whole observable result.", "options": [
+        {"text": "it hides the precipitate that forms", "correct": true},
+        {"text": "it unbalances the equation", "why": "State symbols do not affect the atom counts."},
+        {"text": "silver chloride has no formula", "why": "Its formula, AgCl, is perfectly standard."},
+        {"text": "nitrate cannot be aqueous", "why": "Nitrate is very commonly aqueous."}]},
+      {"stem": "Why can the correct state symbol for a substance change between two experiments?", "difficulty": "Hard", "bloom": "Analyze", "explanation": "State depends on temperature, pressure and whether water is present, all of which vary with the conditions used.", "options": [
+        {"text": "State depends on the conditions used", "correct": true},
+        {"text": "Substances change identity", "why": "Identity is fixed by the formula."},
+        {"text": "State symbols are arbitrary", "why": "They are determined by the physical situation."},
+        {"text": "Only gases can change state", "why": "Any substance can change state."}]},
+      {"stem": "Which argument best defends including state symbols in every school equation?", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "They connect the symbols on the page to what the student will actually see in the test tube, which is the point of the experiment.", "options": [
+        {"text": "They link the equation to the observation", "correct": true},
+        {"text": "They are needed to balance atoms", "why": "Balance depends only on atom counts."},
+        {"text": "They shorten the equation", "why": "They make the equation slightly longer."},
+        {"text": "They identify the reactants", "why": "The formulae already do that."}]},
+      {"stem": "An equation shows every species as (aq). The strongest prediction about the observation is that", "difficulty": "Hard", "bloom": "Analyze", "explanation": "With no solid or gas formed, any evidence of reaction must be something like a colour change or a temperature change.", "options": [
+        {"text": "no solid or gas will appear", "correct": true},
+        {"text": "a precipitate will form", "why": "A precipitate would be marked (s)."},
+        {"text": "a gas will bubble off", "why": "A gas would be marked (g)."},
+        {"text": "no reaction can occur", "why": "Neutralisation occurs with all species aqueous."}]},
+      {"stem": "Why does marking a product (g) have practical consequences for measuring conservation of mass?", "difficulty": "Hard", "bloom": "Analyze", "explanation": "A gaseous product will escape from an open vessel, so the apparatus must be sealed if the mass is to be checked.", "options": [
+        {"text": "The vessel must be sealed to keep it", "correct": true},
+        {"text": "Gases have no mass to measure", "why": "Gases have mass, which is why they must be kept."},
+        {"text": "Mass is not conserved for gases", "why": "Mass is conserved for gases as for everything else."},
+        {"text": "Gaseous products cannot form", "why": "Gaseous products form in very many reactions."}]},
+      {"stem": "A textbook writes H2O without a state symbol in a combustion equation. The most reasonable reading is that", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "The author has left the state unspecified because it depends on temperature: steam while hot, liquid once cooled.", "options": [
+        {"text": "the state is left open deliberately", "correct": true},
+        {"text": "water has no state", "why": "Water certainly has a state in any given situation."},
+        {"text": "the equation is unbalanced", "why": "A missing state symbol does not affect balance."},
+        {"text": "water is not really formed", "why": "Water is a genuine product of combustion."}]},
+      {"stem": "Which situation would make (s) and (aq) both defensible for the same product?", "difficulty": "Hard", "bloom": "Analyze", "explanation": "A sparingly soluble product such as calcium hydroxide dissolves partly and settles partly, so either symbol can be justified depending on the amount of water.", "options": [
+        {"text": "A sparingly soluble product", "correct": true},
+        {"text": "A very soluble product", "why": "A very soluble product is unambiguously aqueous."},
+        {"text": "A completely insoluble product", "why": "A completely insoluble product is unambiguously solid."},
+        {"text": "A gaseous product", "why": "A gas is neither solid nor aqueous."}]},
+      {"stem": "State symbols are sometimes described as the bridge between the equation and the laboratory. The strongest support for this is that they", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "They alone tell the reader what apparatus is needed and what will be seen, which is the information a bench chemist acts on.", "options": [
+        {"text": "say what apparatus and observation to expect", "correct": true},
+        {"text": "give the masses to weigh out", "why": "Masses come from coefficients and molar masses."},
+        {"text": "give the temperature to use", "why": "Temperature is written above the arrow if at all."},
+        {"text": "prove the reaction will occur", "why": "Only experiment can establish that."}]},
+      {"stem": "Why would writing (s) for a dissolved ionic salt mislead a student about its behaviour?", "difficulty": "Hard", "bloom": "Analyze", "explanation": "A dissolved salt exists as free ions that can react and conduct electricity, whereas a solid holds its ions locked in a lattice.", "options": [
+        {"text": "Its ions are free to move and react", "correct": true},
+        {"text": "Solids cannot exist in water", "why": "Insoluble solids sit in water unchanged."},
+        {"text": "Solids have no ions", "why": "Ionic solids are made entirely of ions."},
+        {"text": "Dissolved salts have no formula", "why": "They have formulae like any other substance."}]},
+      {"stem": "In an examination, an otherwise perfect equation loses a mark for a wrong state symbol. The fairest assessment is that", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "The symbol is a chemical claim about what is observed, so getting it wrong is a genuine error rather than a presentational slip.", "options": [
+        {"text": "the symbol is itself a chemical claim", "correct": true},
+        {"text": "the mark was purely presentational", "why": "The symbol asserts something testable about the reaction."},
+        {"text": "state symbols carry no meaning", "why": "They carry specific physical meaning."},
+        {"text": "only balance should be marked", "why": "Balance is one of several things an equation must get right."}]},
+      {"stem": "What does the existence of four state symbols rather than three tell us about how chemists describe matter?", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "Being dissolved is treated as a distinct chemical situation, not merely a physical state, because a dissolved substance behaves differently from the pure liquid.", "options": [
+        {"text": "Being dissolved is a situation in its own right", "correct": true},
+        {"text": "There are four states of matter", "why": "The classical states are three; (aq) is about dissolving."},
+        {"text": "Chemists ignore the gaseous state", "why": "The (g) symbol is used constantly."},
+        {"text": "Solids and solutions behave alike", "why": "They behave very differently, which is why both symbols exist."}]}
+    ],
+    "2732": [
+      {"stem": "Conditions such as heat or a catalyst are written", "difficulty": "Easy", "bloom": "Remember", "explanation": "Reaction conditions are written above or below the arrow, not as reactants.", "options": [
+        {"text": "above the arrow", "correct": true},
+        {"text": "as a reactant", "why": "A catalyst is not consumed, so it is not a reactant."},
+        {"text": "as a product", "why": "A condition is not formed by the reaction."},
+        {"text": "in brackets after a formula", "why": "Brackets after a formula hold the state symbol."}]},
+      {"stem": "The Greek letter delta or the word 'heat' above an arrow means the reaction needs", "difficulty": "Easy", "bloom": "Remember", "explanation": "A delta above the arrow indicates that heating is required for the reaction to proceed.", "options": [
+        {"text": "heating", "correct": true},
+        {"text": "cooling", "why": "Cooling is not indicated by a delta."},
+        {"text": "stirring", "why": "Stirring is not shown in a chemical equation."},
+        {"text": "filtering", "why": "Filtering is a separation step, not a reaction condition."}]},
+      {"stem": "A catalyst written above the arrow is a substance that", "difficulty": "Easy", "bloom": "Understand", "explanation": "A catalyst changes the rate of a reaction without being consumed by it.", "options": [
+        {"text": "speeds the reaction without being used up", "correct": true},
+        {"text": "is consumed as a reactant", "why": "Being consumed is what makes something a reactant."},
+        {"text": "is formed as a product", "why": "A catalyst is present at the start and the end."},
+        {"text": "changes which products form", "why": "A catalyst changes the rate, not the products."}]},
+      {"stem": "In the equation for photosynthesis, the condition written above the arrow is", "difficulty": "Easy", "bloom": "Remember", "explanation": "Sunlight supplies the energy for photosynthesis and is written above the arrow, often with chlorophyll.", "options": [
+        {"text": "sunlight", "correct": true},
+        {"text": "darkness", "why": "Photosynthesis requires light, not its absence."},
+        {"text": "high pressure", "why": "Pressure is not a condition for photosynthesis."},
+        {"text": "strong acid", "why": "No acid is involved in photosynthesis."}]},
+      {"stem": "Writing a condition above the arrow rather than as a reactant shows that it", "difficulty": "Easy", "bloom": "Understand", "explanation": "It is needed for the reaction but is not itself chemically consumed by it.", "options": [
+        {"text": "is needed but not consumed", "correct": true},
+        {"text": "is consumed completely", "why": "A consumed substance is written as a reactant."},
+        {"text": "is formed by the reaction", "why": "A formed substance is written as a product."},
+        {"text": "plays no part at all", "why": "A condition written down is one that matters."}]},
+      {"stem": "In the Haber process, the catalyst written above the arrow is", "difficulty": "Easy", "bloom": "Remember", "explanation": "Finely divided iron is the catalyst used industrially for the synthesis of ammonia.", "options": [
+        {"text": "iron", "correct": true},
+        {"text": "copper", "why": "Copper is not the catalyst for ammonia synthesis."},
+        {"text": "platinum", "why": "Platinum catalyses other processes, not this one."},
+        {"text": "nickel", "why": "Nickel catalyses hydrogenation of oils, not this process."}]},
+      {"stem": "A reaction requiring sunlight is described as", "difficulty": "Easy", "bloom": "Remember", "explanation": "A reaction driven by light is called a photochemical reaction.", "options": [
+        {"text": "photochemical", "correct": true},
+        {"text": "thermal", "why": "Thermal reactions are driven by heat."},
+        {"text": "electrolytic", "why": "Electrolytic reactions are driven by electricity."},
+        {"text": "catalytic", "why": "Catalytic describes the use of a catalyst."}]},
+      {"stem": "Which condition is needed for the decomposition of water into its elements?", "difficulty": "Easy", "bloom": "Remember", "explanation": "Electrolysis supplies electrical energy, which is what splits water into hydrogen and oxygen.", "options": [
+        {"text": "an electric current", "correct": true},
+        {"text": "gentle warming", "why": "Warming water boils it rather than decomposing it."},
+        {"text": "bright sunlight", "why": "Sunlight alone does not split liquid water."},
+        {"text": "a strong magnet", "why": "Magnetism does not drive chemical decomposition."}]},
+      {"stem": "In the hydrogenation of vegetable oil, the catalyst is usually", "difficulty": "Easy", "bloom": "Remember", "explanation": "Nickel is the catalyst used to add hydrogen to unsaturated oils.", "options": [
+        {"text": "nickel", "correct": true},
+        {"text": "iron", "why": "Iron catalyses ammonia synthesis, not hydrogenation."},
+        {"text": "zinc", "why": "Zinc is not used as a hydrogenation catalyst."},
+        {"text": "lead", "why": "Lead is not used as a hydrogenation catalyst."}]},
+      {"stem": "Conditions are worth writing in an equation because they", "difficulty": "Easy", "bloom": "Understand", "explanation": "Without them the equation looks like a change that would occur on its own, which may be quite untrue.", "options": [
+        {"text": "show what the reaction requires", "correct": true},
+        {"text": "make the equation balance", "why": "Balance depends only on atom counts."},
+        {"text": "name the products", "why": "Products are named on the right of the arrow."},
+        {"text": "give the masses involved", "why": "Masses come from coefficients and molar masses."}]},
+      {"stem": "The symbol for heating in a chemical equation is", "difficulty": "Easy", "bloom": "Remember", "explanation": "A capital Greek delta written above the arrow is the standard symbol for heat.", "options": [
+        {"text": "a delta above the arrow", "correct": true},
+        {"text": "a plus sign", "why": "A plus sign joins substances on one side."},
+        {"text": "brackets after a formula", "why": "Brackets after a formula hold the state symbol."},
+        {"text": "a downward arrow", "why": "A downward arrow sometimes marks a precipitate."}]},
+      {"stem": "Silver chloride decomposes in the presence of", "difficulty": "Easy", "bloom": "Remember", "explanation": "Sunlight provides the energy that breaks silver chloride into silver and chlorine.", "options": [
+        {"text": "sunlight", "correct": true},
+        {"text": "a magnet", "why": "Magnetism does not drive chemical decomposition."},
+        {"text": "cold water", "why": "Silver chloride is stable in cold water in the dark."},
+        {"text": "nitrogen gas", "why": "Nitrogen is unreactive and causes no decomposition."}]},
+      {"stem": "Pressure is written as a condition mainly for reactions involving", "difficulty": "Easy", "bloom": "Understand", "explanation": "Pressure matters most when gases take part, because it changes how closely gas particles are packed.", "options": [
+        {"text": "gases", "correct": true},
+        {"text": "solids only", "why": "Pressure has very little effect on solids."},
+        {"text": "precipitates", "why": "Precipitation is barely affected by pressure."},
+        {"text": "pure liquids", "why": "Liquids are nearly incompressible."}]},
+      {"stem": "If a condition is omitted from an equation, the equation is", "difficulty": "Easy", "bloom": "Understand", "explanation": "It remains balanced and chemically correct but tells the reader less about how to bring the reaction about.", "options": [
+        {"text": "still correct but less complete", "correct": true},
+        {"text": "unbalanced and wrong", "why": "Conditions play no part in balancing."},
+        {"text": "a word equation", "why": "It still uses formulae."},
+        {"text": "impossible to use", "why": "Equations are often written without conditions."}]},
+
+      {"stem": "Which equation would most mislead a student if its condition were omitted?", "difficulty": "Medium", "bloom": "Apply", "explanation": "Photosynthesis appears to happen spontaneously without sunlight and chlorophyll written above the arrow.", "options": [
+        {"text": "the photosynthesis equation", "correct": true},
+        {"text": "a simple neutralisation", "why": "Neutralisation needs no special condition."},
+        {"text": "a precipitation reaction", "why": "Mixing two solutions needs no special condition."},
+        {"text": "burning magnesium in air", "why": "The need for ignition is well understood from context."}]},
+      {"stem": "A reaction is written with 'conc. H2SO4' above the arrow. The acid is most likely acting as", "difficulty": "Medium", "bloom": "Apply", "explanation": "Written above the arrow it is a condition, so it is acting as a catalyst or dehydrating agent rather than being consumed.", "options": [
+        {"text": "a catalyst or dehydrating agent", "correct": true},
+        {"text": "a reactant being consumed", "why": "A consumed reactant belongs on the left of the arrow."},
+        {"text": "a product being formed", "why": "A product belongs on the right of the arrow."},
+        {"text": "a state symbol", "why": "State symbols go in brackets after a formula."}]},
+      {"stem": "Why does writing 'heat' above the arrow differ in meaning from writing 'heat' on the product side?", "difficulty": "Medium", "bloom": "Apply", "explanation": "Above the arrow it means heat must be supplied; on the product side it means heat is released.", "options": [
+        {"text": "One means supplied, the other released", "correct": true},
+        {"text": "They mean exactly the same", "why": "The position reverses the direction of energy flow."},
+        {"text": "Both mean heat is released", "why": "Above the arrow indicates heat being supplied."},
+        {"text": "Both mean heat is supplied", "why": "On the product side it indicates heat being released."}]},
+      {"stem": "A student writes nickel as a reactant in the hydrogenation of oil. The correction is that nickel", "difficulty": "Medium", "bloom": "Apply", "explanation": "Nickel is recovered unchanged, so it belongs above the arrow as a catalyst.", "options": [
+        {"text": "belongs above the arrow", "correct": true},
+        {"text": "belongs on the product side", "why": "It is not formed by the reaction."},
+        {"text": "should be left out entirely", "why": "The reaction will not proceed usefully without it."},
+        {"text": "should be given a state symbol only", "why": "A state symbol does not fix its position in the equation."}]},
+      {"stem": "In an industrial equation, both a temperature and a pressure are written above the arrow. This suggests the reaction", "difficulty": "Medium", "bloom": "Apply", "explanation": "Specified temperature and pressure indicate a gas-phase equilibrium whose yield depends on both.", "options": [
+        {"text": "involves gases and an equilibrium", "correct": true},
+        {"text": "happens only in solution", "why": "Pressure would matter little for a solution reaction."},
+        {"text": "needs no catalyst ever", "why": "Such processes very often use a catalyst as well."},
+        {"text": "produces only solids", "why": "Pressure has little effect on solid products."}]},
+      {"stem": "Which condition would you write above the arrow for the thermal decomposition of limestone?", "difficulty": "Medium", "bloom": "Apply", "explanation": "Strong heating is required, so a delta or the word heat is written above the arrow.", "options": [
+        {"text": "heat", "correct": true},
+        {"text": "sunlight", "why": "Limestone does not decompose in sunlight."},
+        {"text": "an electric current", "why": "Electrolysis is not used to decompose limestone."},
+        {"text": "a nickel catalyst", "why": "No catalyst is needed for thermal decomposition."}]},
+      {"stem": "A reaction proceeds at room temperature in the dark. Writing a condition above the arrow would be", "difficulty": "Medium", "bloom": "Understand", "explanation": "With no special requirement, there is nothing to record and the arrow is left plain.", "options": [
+        {"text": "unnecessary", "correct": true},
+        {"text": "compulsory anyway", "why": "Conditions are written only when they are needed."},
+        {"text": "needed to balance the equation", "why": "Conditions play no part in balancing."},
+        {"text": "needed to name the products", "why": "Products are named on the right of the arrow."}]},
+      {"stem": "Which change to an equation would most change the chemistry it describes?", "difficulty": "Medium", "bloom": "Analyze", "explanation": "Moving a catalyst from above the arrow onto the reactant side claims it is consumed, which is a different chemical statement.", "options": [
+        {"text": "Moving a catalyst to the reactant side", "correct": true},
+        {"text": "Adding a state symbol", "why": "A state symbol adds information without changing identity."},
+        {"text": "Reordering two products", "why": "Order carries no chemical meaning."},
+        {"text": "Writing heat as a delta", "why": "The delta is simply a shorter way of writing heat."}]},
+      {"stem": "Chlorophyll is written above the arrow in photosynthesis because it", "difficulty": "Medium", "bloom": "Apply", "explanation": "Chlorophyll absorbs light and enables the reaction but is not consumed, so it acts as a catalyst.", "options": [
+        {"text": "enables the reaction without being used up", "correct": true},
+        {"text": "is converted into glucose", "why": "Glucose is built from carbon dioxide and water."},
+        {"text": "is consumed as a reactant", "why": "Chlorophyll persists in the leaf after the reaction."},
+        {"text": "is a product of photosynthesis", "why": "Chlorophyll is present before the reaction begins."}]},
+      {"stem": "The condition 'in the presence of moisture' in the rusting equation is written as a reactant instead, because water", "difficulty": "Medium", "bloom": "Analyze", "explanation": "Water is chemically incorporated into hydrated iron oxide, so it is consumed and belongs on the reactant side.", "options": [
+        {"text": "is consumed and ends up in the rust", "correct": true},
+        {"text": "only speeds the reaction up", "why": "Water is actually built into the product."},
+        {"text": "is recovered unchanged", "why": "Water is incorporated into hydrated iron oxide."},
+        {"text": "plays no chemical part", "why": "Iron does not rust at all without water."}]},
+      {"stem": "Two equations for the same reactants differ in the catalyst written above the arrow, and give different products. This shows a catalyst can", "difficulty": "Medium", "bloom": "Analyze", "explanation": "Different catalysts can favour different reaction pathways, so the products obtained can differ.", "options": [
+        {"text": "select which pathway is followed", "correct": true},
+        {"text": "only change the rate", "why": "Choosing between pathways changes the products too."},
+        {"text": "be consumed in the reaction", "why": "A catalyst is recovered unchanged in either case."},
+        {"text": "change the atoms present", "why": "Atoms are conserved whatever catalyst is used."}]},
+      {"stem": "Writing '1atm, 25 C' above an arrow specifies", "difficulty": "Medium", "bloom": "Understand", "explanation": "These are standard conditions of pressure and temperature under which the reaction is being described.", "options": [
+        {"text": "the pressure and temperature used", "correct": true},
+        {"text": "the masses of the reactants", "why": "Masses come from coefficients and molar masses."},
+        {"text": "the state of each substance", "why": "States are given in brackets after each formula."},
+        {"text": "the rate of the reaction", "why": "Rate is not conveyed by an equation."}]},
+      {"stem": "An equation for a reaction that needs both heat and a catalyst should show", "difficulty": "Medium", "bloom": "Apply", "explanation": "Both conditions are written around the arrow, conventionally the catalyst above and the temperature below, or both above.", "options": [
+        {"text": "both around the arrow", "correct": true},
+        {"text": "only the catalyst", "why": "Omitting the heat hides a genuine requirement."},
+        {"text": "only the heat", "why": "Omitting the catalyst hides a genuine requirement."},
+        {"text": "neither, to keep it simple", "why": "Simplicity at the cost of accuracy is not worth it."}]},
+
+      {"stem": "Why does the position of a substance relative to the arrow carry chemical meaning rather than being a layout choice?", "difficulty": "Hard", "bloom": "Analyze", "explanation": "Position asserts a role: consumed on the left, formed on the right, required but unconsumed above, and those are three different chemical claims.", "options": [
+        {"text": "Position asserts the substance's role", "correct": true},
+        {"text": "Position affects the atom counts", "why": "Atom counts depend only on what is on each side."},
+        {"text": "Position sets the reaction rate", "why": "Rate is not conveyed by an equation."},
+        {"text": "Position is indeed only layout", "why": "The three positions make three distinct claims."}]},
+      {"stem": "A student argues that since a catalyst is not consumed it need not be written at all. The strongest counter is that", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "Without it the reaction may not proceed at a useful rate, so anyone trying to reproduce the reaction needs to know it is required.", "options": [
+        {"text": "the reaction may not proceed without it", "correct": true},
+        {"text": "catalysts are in fact consumed", "why": "Catalysts are genuinely recovered unchanged."},
+        {"text": "it is needed to balance the equation", "why": "Catalysts play no part in balancing."},
+        {"text": "convention simply demands it", "why": "There is a practical reason, not merely convention."}]},
+      {"stem": "Two industrial equations differ only in the temperature above the arrow, and the yields differ greatly. This is best explained by", "difficulty": "Hard", "bloom": "Analyze", "explanation": "Temperature shifts the position of an equilibrium as well as the rate, so the yield obtained changes with it.", "options": [
+        {"text": "temperature shifting the equilibrium", "correct": true},
+        {"text": "temperature changing the atoms", "why": "Atoms are unchanged by temperature."},
+        {"text": "temperature unbalancing the equation", "why": "Balance is independent of conditions."},
+        {"text": "temperature having no real effect", "why": "The differing yields show it has a large effect."}]},
+      {"stem": "Why is 'in sunlight' a more informative condition for silver chloride than 'at room temperature'?", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "Light is the energy source that actually drives the decomposition, whereas the temperature is incidental to it.", "options": [
+        {"text": "Light is what drives the change", "correct": true},
+        {"text": "Temperature cannot be measured", "why": "Temperature is easily measured."},
+        {"text": "Sunlight is warmer than a room", "why": "The relevant factor is the light, not its warmth."},
+        {"text": "Room temperature is never written", "why": "It is written whenever it is the relevant condition."}]},
+      {"stem": "An equation shows a catalyst above the arrow and the same substance as a product. The best interpretation is that", "difficulty": "Hard", "bloom": "Analyze", "explanation": "Something has been written wrongly, because a catalyst is recovered unchanged and is not a product of the reaction.", "options": [
+        {"text": "one of the two entries is a mistake", "correct": true},
+        {"text": "catalysts are always products", "why": "A catalyst is present before the reaction begins."},
+        {"text": "this is a normal way to write it", "why": "It makes two incompatible claims about one substance."},
+        {"text": "the catalyst is being consumed", "why": "A consumed substance is not a catalyst."}]},
+      {"stem": "Which claim about conditions is best supported by the fact that the same reactants can give different products?", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "Conditions can determine the outcome, so they are part of the chemical description and not mere practical detail.", "options": [
+        {"text": "Conditions can determine the outcome", "correct": true},
+        {"text": "Conditions are practical detail only", "why": "Different products show they change the chemistry."},
+        {"text": "Reactants alone fix the products", "why": "The example shows they do not."},
+        {"text": "Conditions affect only the rate", "why": "Different products is more than a rate effect."}]},
+      {"stem": "Why does a student who omits 'electrolysis' from the water decomposition equation risk a serious misunderstanding?", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "Without it the equation suggests water breaks down on its own, which would make water useless as a stable solvent.", "options": [
+        {"text": "It suggests water breaks down on its own", "correct": true},
+        {"text": "It unbalances the equation", "why": "Conditions play no part in balancing."},
+        {"text": "It changes the formula of water", "why": "The formula is untouched."},
+        {"text": "It removes a reactant", "why": "Electrolysis is a condition, not a reactant."}]},
+      {"stem": "A reaction requires a catalyst only at industrial scale, not in the laboratory. The best way to record this is", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "Two equations, or one with the condition noted as scale-dependent, is honest; a single unqualified equation would misrepresent one of the two cases.", "options": [
+        {"text": "note that the condition is scale-dependent", "correct": true},
+        {"text": "always write the catalyst", "why": "That misrepresents the laboratory case."},
+        {"text": "never write the catalyst", "why": "That misrepresents the industrial case."},
+        {"text": "write it as a reactant instead", "why": "A catalyst is not consumed and is not a reactant."}]},
+      {"stem": "What does the practice of writing conditions above the arrow reveal about what a chemical equation is for?", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "It is a set of instructions as well as a statement of fact, meant to let another chemist reproduce the change.", "options": [
+        {"text": "It is meant to be reproducible by others", "correct": true},
+        {"text": "It is only a record of atoms", "why": "Conditions add nothing to the atom count, yet are written anyway."},
+        {"text": "It is purely a teaching device", "why": "Research and industrial equations carry conditions too."},
+        {"text": "It is a statement about rate", "why": "Rate is not conveyed by an equation."}]},
+      {"stem": "Why can the absence of a condition above an arrow itself be informative?", "difficulty": "Hard", "bloom": "Analyze", "explanation": "A plain arrow implies the reaction proceeds under ordinary conditions with nothing special required.", "options": [
+        {"text": "It implies ordinary conditions suffice", "correct": true},
+        {"text": "It implies the reaction is impossible", "why": "A plain arrow describes a reaction that does occur."},
+        {"text": "It implies the equation is incomplete", "why": "Many equations need no condition at all."},
+        {"text": "It implies no catalyst exists", "why": "It implies none is needed, not that none exists."}]},
+      {"stem": "Two equations for ammonia synthesis differ only in that one omits the iron catalyst. Judged as descriptions of the industrial process, the shorter one is", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "It is chemically correct about the substances but practically misleading, since the process is not viable at a useful rate without the catalyst.", "options": [
+        {"text": "correct but practically misleading", "correct": true},
+        {"text": "simply wrong about the chemistry", "why": "The reactants and products are stated correctly."},
+        {"text": "better, because it is shorter", "why": "Brevity that omits a requirement is not an improvement."},
+        {"text": "identical in every respect", "why": "One records a requirement the other hides."}]},
+      {"stem": "A condition is written below rather than above the arrow. This is best regarded as", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "Both positions are conventional and are read the same way, often with a catalyst above and a temperature below.", "options": [
+        {"text": "an equally acceptable convention", "correct": true},
+        {"text": "a definite error", "why": "Writing below the arrow is standard practice."},
+        {"text": "a claim that it is a product", "why": "Products are on the right of the arrow."},
+        {"text": "a claim that it is consumed", "why": "Consumed substances are on the left of the arrow."}]},
+      {"stem": "Why does including conditions make an equation harder to falsify but more useful?", "difficulty": "Hard", "bloom": "Evaluate", "explanation": "The equation now claims a specific result under specified circumstances, which is a sharper and more testable claim than a bare list of substances.", "options": [
+        {"text": "It makes a sharper, testable claim", "correct": true},
+        {"text": "It makes the claim vaguer", "why": "Specifying conditions narrows rather than widens the claim."},
+        {"text": "It removes the need for evidence", "why": "Evidence is still required, and is now more specific."},
+        {"text": "It changes the atoms involved", "why": "Atoms are unaffected by conditions."}]}
+    ]
+  }
+}

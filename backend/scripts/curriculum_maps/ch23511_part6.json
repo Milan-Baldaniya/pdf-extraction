@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23511,
+ "mappings": [
+  {
+   "sha": "152fa5e2d4860b78",
+   "codes": ["C-6.2-LO-2"],
+   "note": "the difference of the two fractions reduces over 1 - sin^2 = cos^2 to 2 sec^2; identity application, and the cosec^2/(cosec +/- 1) shape is the mirror of sha 41b815c893c4125b"
+  },
+  {
+   "sha": "a94296dac6d934b4",
+   "codes": ["C-6.2-LO-2"],
+   "note": "rearranged so the two reciprocals add over cosec^2 - cot^2 = 1; the derived Pythagorean identity is the pivot of the proof"
+  },
+  {
+   "sha": "7c460695097294ab",
+   "codes": ["C-6.2-LO-2"],
+   "note": "square the parametrisation and use sec^2 - 1 = tan^2 to recognise a perfect square in x; identity used to eliminate theta from an algebraic substitution"
+  },
+  {
+   "sha": "fc477aef8e5628c5",
+   "codes": ["C-6.2-LO-2"],
+   "note": "the two squared numerators add to 2 by sin^2 + cos^2 = 1 and the denominator is converted to 2 sin^2 - 1 by the same identity; used twice"
+  },
+  {
+   "sha": "3891fabb9fea080b",
+   "codes": ["C-6.2-LO-2"],
+   "note": "substitution then two applications of sin^2 + cos^2 = 1; this is the 3-mark proof version of MCQ sha 79aa988e1063125c, same mathematics"
+  },
+  {
+   "sha": "ef8a7b00ede1a81b",
+   "codes": ["C-6.2-LO-2"],
+   "note": "sum and difference of cubes factorisations leave cos^2 + sin^2 inside each bracket, and the sin cos terms cancel on addition; identity proof"
+  },
+  {
+   "sha": "37faccdcc3454483",
+   "codes": ["C-6.1-LO-1", "C-6.2-LO-2"],
+   "note": "expressing three ratios through sec A is the one-ratio-determines-the-rest outcome, reached symbolically via sin^2 + cos^2 = 1. Same pairing as sha 67cdc31348e71983, which does it through sin A instead"
+  },
+  {
+   "sha": "f14fabf5beabdce5",
+   "codes": ["C-6.2-LO-2"],
+   "note": "cot written as 1/tan produces tan^3 - 1 which factors and cancels, leaving tan + 1 + cot; the reciprocal and quotient relations carry it"
+  },
+  {
+   "sha": "fe05e043cb9d223d",
+   "codes": ["C-6.2-LO-2"],
+   "note": "square the given sum, extract sin cos, then tan + cot = 1/(sin cos). NOTE the premise is impossible: sin t + cos t can never exceed root2, so no theta satisfies root3 and the derived sin t cos t = 1 is also out of range. Mapped on the technique it assesses"
+  },
+  {
+   "sha": "517bbdb712d38b75",
+   "codes": ["C-6.2-LO-2"],
+   "note": "tan^2 = sec^2 - 1 turns the expression into a perfect square, giving both branches 2x and 1/(2x); duplicate of sha 7c460695097294ab reprinted at 5 marks instead of 3"
+  },
+  {
+   "sha": "fd0a518f3ee3f12b",
+   "codes": ["C-6.1-LO-1"],
+   "note": "sin A = 3/4 determines cos A and hence sec A - the one-ratio-determines-the-rest family of shas b0cd492e and 1768856689. 3/4 is not a standard value so C-6.1-LO-2 is excluded; the printed solution takes the identity shortcut rather than drawing the triangle, but the outcome assessed is the same"
+  },
+  {
+   "sha": "cd37db789f63e49f",
+   "codes": ["C-6.2-LO-2"],
+   "note": "both sides are reduced separately to 1 - cos t using 1 - cos^2 = sin^2; a two-sided identity proof"
+  },
+  {
+   "sha": "d2fb92b26e6df983",
+   "codes": ["C-6.1-LO-2"],
+   "note": "root3/2 read back as sin 60 and 0 as cos 90, then a linear system in A and B; the trigonometry is two inverse table lookups"
+  },
+  {
+   "sha": "0a141bef81d6ed58",
+   "codes": ["C-6.1-LO-2"],
+   "note": "seven table entries including cos 0 and sin 90 substituted into one expression; the 0-degree entry makes this broader than the 30/45/60-only evaluations"
+  },
+  {
+   "sha": "e260d9413c087e44",
+   "codes": ["C-6.1-LO-2"],
+   "note": "the addition formula is SUPPLIED (it is beyond the syllabus); the graded skill is choosing 45+30 and 60+30 from the standard set and substituting, and reading tan 90 as undefined when the denominator vanishes"
+  },
+  {
+   "sha": "50cb4f815de2ead2",
+   "codes": ["C-6.1-LO-2"],
+   "note": "five table entries including sin 90 and cos 90 substituted; cos^2 90 = 0 is the trap and it is a table fact, not an identity"
+  },
+  {
+   "sha": "c212659f8206e889",
+   "codes": ["C-6.1-LO-2"],
+   "note": "fourth powers of the 30/60 entries plus cos^2 45 and sin^2 90; pure evaluation, and sin 30 = cos 60 is coincidence of value not a complementary rewrite"
+  },
+  {
+   "sha": "535b9165016948bc",
+   "codes": ["C-6.2-LO-2", "C-6.1-LO-2"],
+   "note": "sec^2 = tan^2 + 1 collapses the given equation to tan^2 t = 1 (identity step), and only then is theta = 45 substituted into sec, cosec and sin (table step). Both halves are separately markable"
+  },
+  {
+   "sha": "4b80e900f62013c8",
+   "codes": ["C-6.1-LO-2"],
+   "note": "the quadratic in cot is ordinary algebra; the trigonometry is recognising root3 and 1/root3 as cot 30 and cot 60 and evaluating there. No identity is used, only the reciprocal tan = 1/cot"
+  },
+  {
+   "sha": "64cd0f166a6bd802",
+   "codes": ["C-6.1-LO-2"],
+   "note": "compound fraction evaluated from the 30/45/60 rows including the reciprocal entry sec 30; straightforward substitution"
+  },
+  {
+   "sha": "4cd90babb8fac380",
+   "codes": ["C-6.2-LO-2"],
+   "note": "identical left side to sha f14fabf5beabdce5 with the right side left as 1 + tan + cot instead of 1 + sec cosec; the same proof stops one step earlier, so the same outcome honestly applies"
+  },
+  {
+   "sha": "0ce419be3de0b0b5",
+   "codes": ["C-6.1-LO-2"],
+   "note": "1/2 and 1/root2 read back as sin 30 and cos 45, then the angle sum closes the system; two inverse table lookups dressed as a triangle problem"
+  },
+  {
+   "sha": "2f4c4a7fb988d0d5",
+   "codes": ["C-6.2-LO-2"],
+   "note": "two parametrisations eliminated by sec^2 - tan^2 = 1 and cosec^2 - cot^2 = 1 respectively; the point is that BOTH derived identities give the same locus. Same technique as sha 3081a96cf14bb521, doubled"
+  },
+  {
+   "sha": "787c620c1b122e9e",
+   "codes": ["C-6.2-LO-2"],
+   "note": "square the given relation so cosec^2 - cot^2 = 1 can be factored back as a product of the sum and difference; identity application to a supplied condition"
+  },
+  {
+   "sha": "1862dcdd8f8f59f9",
+   "codes": ["C-6.2-LO-2"],
+   "note": "cot^3 sin^3 and tan^3 cos^3 collapse by the quotient relations, then the sum of cubes factorisation and sin^2 + cos^2 = 1 finish it; the longest identity chain in the chapter"
+  }
+ ]
+}

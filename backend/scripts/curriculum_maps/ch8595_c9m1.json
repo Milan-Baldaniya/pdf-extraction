@@ -1,0 +1,305 @@
+{
+  "chapter_id": 8595,
+  "mappings": [
+    {
+      "sha": "19cb8c893f263174",
+      "codes": ["C-3.2-LO-2"],
+      "note": "Pure substitution: evaluate 9x+7 at x=3 and judge the result. That is the 'uses it to predict a term' half of LO-2, not the degree question of C-2.1-LO-1."
+    },
+    {
+      "sha": "b0617966fbdc0c7e",
+      "codes": ["C-2.1-LO-1"],
+      "note": "Turns on what a=0 does to the DEGREE of ax+b (linear becomes constant). C-2.1-LO-2 is about whether a thing is a polynomial at all, which is never in doubt here."
+    },
+    {
+      "sha": "589fc3b3b28b4680",
+      "codes": ["C-2.1-LO-1"],
+      "note": "Names 7x-4 as linear of degree 1 from the highest power. Sibling LO-2 would need a non-polynomial distractor tested on exponents; the distractors here are degree names."
+    },
+    {
+      "sha": "509feb0e416b498f",
+      "codes": ["C-3.2-LO-3"],
+      "note": "Builds 4x+30 from a priced context (per-unit cost plus fixed cost) -- a linear-growth model. Not LO-2: there is no table or pattern, the rule comes from the situation."
+    },
+    {
+      "sha": "062bbe11e1a01240",
+      "codes": ["C-2.1-LO-1"],
+      "note": "The discriminator among the four options is degree: only 4x+16 has highest power 1. The perimeter dressing is incidental, so LO-1 rather than the modelling LO-3."
+    },
+    {
+      "sha": "faa355e96bfb9827",
+      "codes": ["C-3.2-LO-3"],
+      "note": "Fixed charge plus per-km rate written as 50+12x: a linear-growth model of a real situation. Distractors punish mixing up rate and constant, not degree, so not C-2.1-LO-1."
+    },
+    {
+      "sha": "189bc0dc653a08e8",
+      "codes": ["C-3.2"],
+      "note": "Competency, not an LO: the expression wanted is 4x+5y+3, linear in TWO variables. Every LO under C-3.2 is written for a univariate linear polynomial; the competency text explicitly covers two-variable situations."
+    },
+    {
+      "sha": "96e0670a740101a5",
+      "codes": ["C-3.2-LO-3"],
+      "note": "Models the fencing length as 2x+16 from a geometric context. Not C-8.1-LO-5: nothing is asked about interpreting the 2 or the 16."
+    },
+    {
+      "sha": "660bf8c27267b286",
+      "codes": ["C-2.1-LO-1"],
+      "note": "Both claims tested are about degree and the coefficient of x in 5-2x, which is LO-1's 'identifies the degree ... from the highest power'. No modelling or graph is involved."
+    },
+    {
+      "sha": "d4327e7c824382d5",
+      "codes": ["C-3.2-LO-3"],
+      "note": "A quantity rising by a fixed 8 from a starting value x -- the simplest linear-growth model. Not LO-2, since no pattern of successive differences is presented."
+    },
+    {
+      "sha": "4d997b9e38b78dd5",
+      "codes": ["C-3.2-LO-3"],
+      "note": "Asks which of four SITUATIONS a linear polynomial can model (area, cube volume and a product are rejected). That is LO-3's modelling judgement, applied in reverse."
+    },
+    {
+      "sha": "96c017c28665314c",
+      "codes": ["C-3.2"],
+      "note": "Competency, not an LO: the item tests subtraction of like terms in (5x+8)-(2x+3). None of this chapter's eight outcomes covers operations on polynomials -- a genuine gap in the frame -- and C-3.2 is the nearest algebra competency."
+    },
+    {
+      "sha": "ef7a75d3d199d6bd",
+      "codes": ["C-3.2-LO-2"],
+      "note": "A table of values is given and the rule 3x+4 must be written -- exactly LO-2. LO-1 would be the right code if the question stopped at 'are the differences constant?'."
+    },
+    {
+      "sha": "314656ea037dfbea",
+      "codes": ["C-8.1-LO-5"],
+      "note": "Asks only what the constant term 100 MEANS in the billing situation -- intercept interpretation, LO-5. It does not ask for a value, so not LO-2."
+    },
+    {
+      "sha": "32c0ee303bddcf07",
+      "codes": ["C-2.1-LO-1"],
+      "note": "Disproving 'every polynomial in x is linear' needs a degree-2 counterexample, so the point being tested is degree. C-2.1-LO-2 is not in play: all four options are polynomials."
+    },
+    {
+      "sha": "539efa0e04b58c47",
+      "codes": ["C-8.1"],
+      "note": "Competency: the question reads the x-axis crossing off the graph of 2x-6. LO-5 covers only slope and the Y-intercept, and LO-4 is about drawing the line; the x-intercept has no outcome of its own in this chapter."
+    },
+    {
+      "sha": "faaf7bc85ec2146d",
+      "codes": ["C-3.2"],
+      "note": "Competency: like-term arithmetic on 6x+5-(2x-3), the sign of the bracketed constant being the whole point. As with item 12, no LO in this chapter covers polynomial addition or subtraction."
+    },
+    {
+      "sha": "a4cf0537f0615117",
+      "codes": ["C-3.2-LO-2"],
+      "note": "The model is handed over; all that is required is P(5) from p(x)=10x+30 -- LO-2's 'uses it to predict'. Not LO-3, which would require building the rule."
+    },
+    {
+      "sha": "fa1fee753b49cc5f",
+      "codes": ["C-2.1-LO-1"],
+      "note": "Assertion and reason are both about the highest power of the variable naming a polynomial linear, which is LO-1 almost word for word."
+    },
+    {
+      "sha": "daffa0c9acb89e1f",
+      "codes": ["C-3.2"],
+      "note": "Competency: the item hinges on solving 3x-12=0 and checking the claimed zero -4. This chapter has no outcome about the zero of a polynomial, so the competency's 'single polynomial equations' is the honest citation."
+    },
+    {
+      "sha": "6fe612ff71f8d4cf",
+      "codes": ["C-2.1-LO-1"],
+      "note": "Corrects 'quadratic because it has two terms' by appealing to the highest power -- degree identification, LO-1, not the polynomial/non-polynomial test of LO-2."
+    },
+    {
+      "sha": "95578b8bed272e5e",
+      "codes": ["C-3.2"],
+      "note": "Competency: requires solving 2x-10=0 and 5x-25=0 and comparing the zeros. No LO in this chapter names the zero of a polynomial."
+    },
+    {
+      "sha": "88d9cf4a99919be6",
+      "codes": ["C-3.2-LO-2"],
+      "note": "Given p(0)=-4 and a constant increase of 3 per unit, write the rule 3x-4 -- LO-2's 'writes the rule of a linear pattern in the form ax+b'. Not LO-5: no graph and no situation to interpret."
+    },
+    {
+      "sha": "8745b46e92331bc5",
+      "codes": ["C-8.1-LO-5"],
+      "note": "The misconception corrected is that the constant term -3 of M(n)=8n-3 is the first output; the fix is that -3 is the value at n=0, i.e. the intercept, and the domain starts at n=1. That is intercept interpretation in the situation, LO-5, not the prediction clause of LO-2."
+    },
+    {
+      "sha": "24acd66f8e824c55",
+      "codes": ["C-3.2"],
+      "note": "Competency: the stem says 'without drawing the graph', so this is solving 2x-6=0 algebraically, not reading a graph (which would be C-8.1)."
+    },
+    {
+      "sha": "14a77f51bbaca960",
+      "codes": ["C-8.1-LO-5"],
+      "note": "Part (c) asks what the 15 and the 40 represent in the delivery context -- slope and intercept interpretation, LO-5. The P(6) computation is subordinate to that."
+    },
+    {
+      "sha": "a50afa307c4db7cc",
+      "codes": ["C-2.1-LO-2", "C-2.1-LO-1"],
+      "note": "Part (a) is 'is 7x-5 a polynomial at all?', which is LO-2; parts (b) and (c) then ask for degree and constant term, which is LO-1. Both are genuinely tested, so both are cited."
+    },
+    {
+      "sha": "fc9c59b9a83fc351",
+      "codes": ["C-3.2-LO-2"],
+      "note": "The sequence 11,16,21,26 at x=0,1,2,3 is turned into 5x+11 and then used to predict P(8) -- LO-2 end to end. LO-1 stops at recognising constancy, which part (c) only refers back to."
+    },
+    {
+      "sha": "4777cdbf4fdcb7eb",
+      "codes": ["C-3.2", "C-8.1"],
+      "note": "Parts (a) and (b) solve 4x-20=0 (no zero-of-a-polynomial LO exists here, so competency C-3.2); part (c) asks what that zero means on the graph, which is the graph-reading competency C-8.1 rather than LO-5's slope and y-intercept."
+    },
+    {
+      "sha": "962c45a9bb707249",
+      "codes": ["C-3.2"],
+      "note": "Competency: recovers the coefficient a from a known zero of ax+8 by solving P(-4)=0. Coefficient recovery from a root has no LO in this chapter's frame."
+    },
+    {
+      "sha": "83a5a9daec4f5d11",
+      "codes": ["C-3.2-LO-2"],
+      "note": "Table to rule ax+b, then evaluation at 0 and 10 -- LO-2. (The printed answer key is wrong; see the report. The mapping follows what the question asks, not the key.)"
+    },
+    {
+      "sha": "efaf3e37bebdcb06",
+      "codes": ["C-3.2-LO-3", "C-2.1-LO-1"],
+      "note": "Builds the fare model 15x+50 from the situation (LO-3) and then part (d) asks why that polynomial is linear, which is the degree argument of C-2.1-LO-1. Both halves carry marks."
+    },
+    {
+      "sha": "1aa7d62d450021a5",
+      "codes": ["C-3.2"],
+      "note": "Competency: evaluation, solving p(x)=q(x) for x, and the zeros of both polynomials. The equating of two linear polynomials is a single-equation solve, and zeros have no LO here."
+    },
+    {
+      "sha": "b2d59e1713f5871f",
+      "codes": ["C-3.2"],
+      "note": "Competency, chosen deliberately: two conditions p(2)=7 and p(5)=16 give simultaneous linear equations in a and b, which the C-3.2 text names explicitly. LO-2 assumes the pattern is read off a table, not solved for."
+    },
+    {
+      "sha": "0baad3b88c5feea3",
+      "codes": ["C-2.1-LO-1"],
+      "note": "The whole item turns on a=0 collapsing ax+b to a constant polynomial and on the a!=0 condition for degree one -- LO-1. The algebra 3a+b=7a+b is only the vehicle."
+    },
+    {
+      "sha": "5dd7afdfebff0e91",
+      "codes": ["C-8.1-LO-5", "C-3.2-LO-2"],
+      "note": "The error to be corrected is misreading the constant term -2 as the first tower's height, i.e. intercept interpretation (LO-5); parts (b) and (d) then use H(n)=5n-2 to predict and to invert (LO-2). Domain restriction to n>=1 is what LO-5 calls interpreting in the situation being modelled."
+    },
+    {
+      "sha": "e73c896e7ea54330",
+      "codes": ["C-3.2"],
+      "note": "Competency: recover a from B(4)=29, then find the zero -9/5 and argue that it has no package-count meaning. Both the coefficient recovery and the zero fall outside this chapter's LO set."
+    },
+    {
+      "sha": "cbddeaa531c2798a",
+      "codes": ["C-3.2-LO-3"],
+      "note": "F(n)=500-35n is linear DECAY, which LO-3 names directly ('a falling resale value'), and the item asks about direction, domain and the largest admissible n. Not LO-2: the rule is given, not derived from a pattern."
+    },
+    {
+      "sha": "qid:706547",
+      "codes": ["C-2.1"],
+      "note": "Competency: pure vocabulary -- what an algebraic expression is made up of. C-2.1-LO-2 would imply the whole-number-exponent test, which this stem never applies, so forcing the LO would misreport what was assessed."
+    },
+    {
+      "sha": "qid:706548",
+      "codes": ["C-2.1"],
+      "note": "Competency for the same reason as qid:706547: variable vs constant vs coefficient in 5x+7 is naming the parts of an expression. Not C-8.1-LO-5 -- there is no graph and no situation, even though the model answer glosses the coefficient as a rate."
+    },
+    {
+      "sha": "qid:706549",
+      "codes": ["C-2.1-LO-1"],
+      "note": "States the degree of 7x+4 from the highest power -- LO-1 exactly. Nothing about whether it is a polynomial, so not LO-2."
+    },
+    {
+      "sha": "qid:706550",
+      "codes": ["C-2.1-LO-1"],
+      "note": "Degree of a non-zero constant polynomial is zero, justified by the variable appearing to power zero: a degree-identification question, LO-1."
+    },
+    {
+      "sha": "qid:706551",
+      "codes": ["C-2.1-LO-1"],
+      "note": "Four polynomials, each to be given its degree and its type name (linear, quadratic, constant, cubic) -- LO-1's 'identifies the degree ... and names a polynomial of degree one as linear'."
+    },
+    {
+      "sha": "qid:706552",
+      "codes": ["C-2.1-LO-1"],
+      "note": "True/false on the degree of 8x+3 being one. Degree only, so LO-1 and not LO-2."
+    },
+    {
+      "sha": "qid:706553",
+      "codes": ["C-2.1-LO-1"],
+      "note": "Fill-in for the degree of 9-2x; the leading term being written second is the only subtlety. LO-1."
+    },
+    {
+      "sha": "qid:706554",
+      "codes": ["C-2.1-LO-1"],
+      "note": "Matching four polynomials to their degrees 0,1,2,3 -- degree identification across types, LO-1."
+    },
+    {
+      "sha": "qid:706555",
+      "codes": ["C-2.1-LO-1"],
+      "note": "Selecting the linear polynomial from a set means applying the degree-one naming rule, LO-1. No non-polynomial distractor is being screened, so not LO-2."
+    },
+    {
+      "sha": "qid:706556",
+      "codes": ["C-2.1-LO-1"],
+      "note": "Definition of a linear polynomial in terms of highest power one and a!=0 -- the naming clause of LO-1."
+    },
+    {
+      "sha": "qid:706557",
+      "codes": ["C-2.1-LO-1"],
+      "note": "Assertion 4x+9 is linear, reason its highest power is one: both statements are LO-1, and the item tests whether the reason explains the assertion."
+    },
+    {
+      "sha": "qid:706558",
+      "codes": ["C-2.1-LO-1"],
+      "note": "'Every constant is a linear polynomial' is false on degree grounds (degree 0, not 1) -- LO-1 again, the constant/linear boundary."
+    },
+    {
+      "sha": "qid:706559",
+      "codes": ["C-8.1-LO-5"],
+      "note": "Identifies m in y=mx+c as the slope. LO-5 is the only outcome in this chapter that names slope; LO-4 is about drawing the line and LO-6 about parallelism."
+    },
+    {
+      "sha": "qid:706560",
+      "codes": ["C-8.1-LO-5"],
+      "note": "Computes slope 3 from the two points (1,3) and (4,12). Cited to LO-5 as the slope outcome; not C-3.2-LO-1, because no table of successive constant differences is presented."
+    },
+    {
+      "sha": "qid:706561",
+      "codes": ["C-8.1-LO-5", "C-3.2-LO-2"],
+      "note": "Two steps genuinely assessed: get the slope from two points (LO-5), then write the rule y=2x+1 and verify it against the second point (LO-2's ax+b rule)."
+    },
+    {
+      "sha": "qid:706562",
+      "codes": ["C-8.1-LO-5"],
+      "note": "Interpreting slope zero as 'y does not change as x changes', i.e. what the slope means -- LO-5. Not LO-6: only one line is involved, so parallelism is not in question."
+    },
+    {
+      "sha": "qid:706563",
+      "codes": ["C-8.1-LO-5"],
+      "note": "Fill-in naming m the slope of the line. Same outcome as qid:706559, phrased as a gap-fill."
+    },
+    {
+      "sha": "qid:706564",
+      "codes": ["C-3.2-LO-2"],
+      "note": "Substitutes x=5 into y=4x-3 to predict y=17 -- the 'uses it to predict' clause of LO-2. Not LO-5: neither the 4 nor the -3 is being interpreted."
+    },
+    {
+      "sha": "qid:706565",
+      "codes": ["C-8.1-LO-5"],
+      "note": "Matches four equations to their slopes, including a negative coefficient and the horizontal y=7 -- reading the slope off the form, LO-5."
+    },
+    {
+      "sha": "qid:706566",
+      "codes": ["C-8.1-LO-5"],
+      "note": "Reads the y-intercept -9 from y=4x-9. LO-5 covers both slope and y-intercept; LO-4 would require the graph to be constructed."
+    },
+    {
+      "sha": "qid:706567",
+      "codes": ["C-8.1-LO-5"],
+      "note": "Where y=2x+5 crosses the y-axis, answered by putting x=0: the y-intercept half of LO-5."
+    },
+    {
+      "sha": "qid:706568",
+      "codes": ["C-8.1-LO-5"],
+      "note": "'y=6x passes through the origin' is a statement about the y-intercept being zero -- LO-5. Not LO-6, since no second line and no intercept change is offered."
+    }
+  ]
+}

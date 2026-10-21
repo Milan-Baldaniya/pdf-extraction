@@ -1,0 +1,201 @@
+{
+ "chapter_id": 8615,
+ "mappings": [
+  {
+   "sha": "d7d2992e9b649569",
+   "codes": [
+    "C-2.7-LO-3",
+    "C-2.7-LO-4"
+   ],
+   "note": "Rows A, B and C identify solid, gas and liquid by speed (LO-3); row D is a zero that only the vacuum outcome LO-4 explains."
+  },
+  {
+   "sha": "6fd9738b3b969468",
+   "codes": [
+    "C-2.7-LO-5"
+   ],
+   "note": "What actually travels is the disturbance - LO-5. Same outcome as O9 and openly so; the two are the same question asked twice."
+  },
+  {
+   "sha": "f24a4776d8491e07",
+   "codes": [
+    "C-2.7-LO-1",
+    "C-2.7-LO-5"
+   ],
+   "note": "The chain starts at the vocal cords (LO-1) and runs through particle oscillation and energy propagation (LO-5). The eardrum step has no outcome in this frame, which is recorded as a gap rather than mapped."
+  },
+  {
+   "sha": "ebf3630aa5d5560b",
+   "codes": [
+    "C-2.7-LO-6"
+   ],
+   "note": "The reciprocal relation between frequency and time period: two of the characteristics LO-6 lists, and nothing else."
+  },
+  {
+   "sha": "536131ef62322e52",
+   "codes": [
+    "C-2.7-LO-6",
+    "C-2.7-LO-5"
+   ],
+   "note": "Wavelength is an LO-6 characteristic, but the key defines it between consecutive COMPRESSIONS, which needs LO-5's longitudinal picture. That is what separates it from V73's plain crest-to-crest definition."
+  },
+  {
+   "sha": "8211273b79381ad0",
+   "codes": [
+    "CG2",
+    "C-2.7-LO-6"
+   ],
+   "note": "SONAR has no outcome (CG2); the second half of the key is the ULTRASONIC classification, which is a frequency band and so LO-6. Not LO-79: nothing is calculated, the depth is only identified on a diagram."
+  },
+  {
+   "sha": "8900c8cf0e2e6e84",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-79"
+   ],
+   "note": "One-step v = f-lambda substitution. LO-6 for the characteristics, LO-79 for the prediction."
+  },
+  {
+   "sha": "4d4e78c6d0d78878",
+   "codes": [
+    "C-2.7-LO-6",
+    "C-2.7-LO-3"
+   ],
+   "note": "Statement 1 is dependence on the state of the medium (LO-3); statements 2 and 3 are temperature and humidity, which change the speed within one medium and so fall to LO-6."
+  },
+  {
+   "sha": "a7cac955009e452e",
+   "codes": [
+    "C-2.7-LO-3"
+   ],
+   "note": "Solid faster than gas, with the solid/liquid/gas ordering as the reason - LO-3 exactly. No process code: nothing is computed or modelled."
+  },
+  {
+   "sha": "f532ceaca01af54d",
+   "codes": [
+    "C-2.7-LO-3"
+   ],
+   "note": "Ascending order across the three states. Shares LO-3 with O31 and honestly so - the frame has one outcome for 'travels through different mediums' and these are two drills on it."
+  },
+  {
+   "sha": "9f2e1dfdc328489b",
+   "codes": [
+    "LO-73",
+    "C-2.7-LO-6"
+   ],
+   "note": "Pitch as the perception of frequency: LO-73 for the perceptual half, LO-6 for the physical quantity."
+  },
+  {
+   "sha": "b380efec270983f6",
+   "codes": [
+    "LO-73",
+    "C-2.7-LO-6"
+   ],
+   "note": "Loudness as the perception of amplitude. Same code pair as O33 because LO-73 fuses 'loudness and pitch' into one row - the frame cannot separate the two, and that is a defect rather than a mapping choice."
+  },
+  {
+   "sha": "a7f24b586e9f4657",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-79",
+    "LO-73"
+   ],
+   "note": "Unlike O33 this one must COMPUTE four frequencies from counts and times before answering, so LO-79 joins LO-6, with LO-73 for the pitch framing."
+  },
+  {
+   "sha": "f9772dfad2608351",
+   "codes": [
+    "C2.7",
+    "LO-73"
+   ],
+   "note": "Timbre. No learning outcome mentions sound quality, but competency C2.7's own text says 'differences in what we hear as it propagates through different instruments', which is exactly this. LO-73 for the music context."
+  },
+  {
+   "sha": "d70e0b692f6713a0",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-79"
+   ],
+   "note": "d = vt on the speed of sound. LO-6 owns speed; LO-79 the substitution. Not LO-77: the item asks only for the distance, not for the factors behind the delay."
+  },
+  {
+   "sha": "353745f21b3c87c7",
+   "codes": [
+    "C-2.7-LO-3",
+    "C-2.7-LO-6"
+   ],
+   "note": "Statement 1 is the solid-versus-gas comparison (LO-3); statements 2, 3 and 4 are temperature, a numeric speed in air and humidity, all LO-6."
+  },
+  {
+   "sha": "500ae0f1a4b39146",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-73",
+    "CG2"
+   ],
+   "note": "Three things at once: frequency and amplitude values (LO-6), loudness as perception (LO-73), and the audible range, which no outcome states and which CG2 has to carry."
+  },
+  {
+   "sha": "bfc822a189a3dcb2",
+   "codes": [
+    "LO-73",
+    "C5.3"
+   ],
+   "note": "A tone as a single frequency is a music-theory distinction, so LO-73 with its parent C5.3, whose text names 'sound pitch, octave, and amplitude in music'. Not LO-6: the item is about the musical category, not about measuring frequency."
+  },
+  {
+   "sha": "1bacf67cb03956d2",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-77"
+   ],
+   "note": "Asks WHY temperature raises the speed, i.e. identify the factor governing a phenomenon - LO-77 - with LO-6 for speed itself. That reason-seeking is what separates it from O30 and O38, which only sort true from false."
+  },
+  {
+   "sha": "499682f820e7bf7c",
+   "codes": [
+    "LO-74",
+    "C6.1",
+    "C-2.7-LO-6"
+   ],
+   "note": "Sa-Re-Ga-Ma is Indian classical notation, so this is the one music item where LO-74 under C6.1 (India's contributions) is the right sibling rather than LO-73 under C5.3. LO-6 for the ascending frequency itself."
+  },
+  {
+   "sha": "cebfd074821e85c8",
+   "codes": [
+    "CG2",
+    "C-2.7-LO-6"
+   ],
+   "note": "The 20 Hz to 20 kHz audible range is a fact about human hearing that no outcome states - CG2 - with LO-6 for the frequency quantity. Flagged as a genuine frame gap."
+  },
+  {
+   "sha": "fe8f473c4635a03b",
+   "codes": [
+    "CG2",
+    "LO-79"
+   ],
+   "note": "Four scenarios must each be run through t = 2d/v and tested against 0.1 s: LO-79 for the repeated prediction, CG2 because the echo condition itself has no outcome."
+  },
+  {
+   "sha": "ffb4021fe8f67a89",
+   "codes": [
+    "CG2"
+   ],
+   "note": "Pure ear anatomy - the cochlea's transduction role. Nothing in curriculum 82's legal set for this chapter names the ear, so CG2 is cited alone rather than stretching LO-73 or C2.7. Recorded as a poor fit."
+  },
+  {
+   "sha": "7a3e02d7aa124e71",
+   "codes": [
+    "CG2"
+   ],
+   "note": "Binaural localisation. Again no outcome covers hearing anatomy or the brain's processing of it; a single honest goal-level code rather than an invented fit."
+  },
+  {
+   "sha": "286dc640269e3ace",
+   "codes": [
+    "CG2"
+   ],
+   "note": "The answer is the name of a diagnostic test (audiogram). Neither noise-induced hearing loss nor audiometry appears anywhere in the frame; cited at goal level and recorded as a poor fit."
+  }
+ ]
+}

@@ -1,0 +1,570 @@
+{
+  "items": [
+    {
+      "number": "1",
+      "form": "mcq",
+      "marks": 1,
+      "page": 4,
+      "section_heading": "OBJECTIVE QUESTIONS | OD 2024",
+      "stem": "In bifocal lenses used for the correction of presbyopia:",
+      "options": [
+        {"label": "A", "text": "the upper portion is of convex lens for the near vision and lower part is of concave lens for the distant vision."},
+        {"label": "B", "text": "the upper portion is of convex lens for the distant vision and lower part is of concave lens for the near vision."},
+        {"label": "C", "text": "the upper portion is of concave lens is for the near vision and lower part is of convex lens for the distant vision."},
+        {"label": "D", "text": "the upper portion is of concave lens for the distant vision and lower part is of convex lens for the near vision."}
+      ],
+      "correct_option": "D",
+      "answer": "(d) The upper portion of the bifocal lens is a concave lens so as to focus the distant objects and the lower portion of the bifocal lens is a convex lens so as to focus the nearby objects.",
+      "concept": "Presbyopia",
+      "ocr": "Printed number lost; inferred as 1 from its position at the head of the OBJECTIVE QUESTIONS section. Stem repaired from 'In bifocal enses used or the correction of presbyopia' to 'In bifocal lenses used for the correction of presbyopia'. Option C lost its printed label and was restored by position."
+    },
+    {
+      "number": "2",
+      "form": "mcq",
+      "marks": 1,
+      "page": 4,
+      "section_heading": "OBJECTIVE QUESTIONS | OD 2023",
+      "stem": "In the following diagram showing dispersion of white light by a glass prism, the colours ‘P’ and ‘Q’ respectively are −",
+      "options": [
+        {"label": "A", "text": "Red and Violet"},
+        {"label": "B", "text": "Violet and Red"},
+        {"label": "C", "text": "Red and Blue"},
+        {"label": "D", "text": "Orange and Green"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) Violet and Red. When a narrow beam of white light passes through a prism, it splits up into a band of seven colours. Splitting of white light into its seven constituent (acronym VIBGYOR) colours on passing through a dispersive medium, i.e. the glass prism, is called dispersion of light. The order of deviation of colour from most to least is: Violet > Indigo > Blue > Green > Yellow > Orange > Red. Thus, here the colour P is Violet and colour Q is Red.",
+      "concept": "Dispersion of Light",
+      "images": ["5e28846a71a2bb59fae8dd90c8da8fc37ebd6ce0977f92968b1fba362b6353d0.jpg"],
+      "figure_required": true,
+      "ocr": "Page order in the source markdown is scrambled: the stem plus options (a) and (b) print on page 4, while options (c), (d) and the worked solution print at the very top of page 1. Recombined into one item. The second figure that sits beside the worked solution (54f15c7f...jpg, page 1) belongs to the solution only, so it is not attached."
+    },
+    {
+      "number": "3",
+      "form": "mcq",
+      "marks": 1,
+      "page": 1,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "In human eye the part which allows light to enter into the eye is:",
+      "options": [
+        {"label": "A", "text": "Retina"},
+        {"label": "B", "text": "Pupil"},
+        {"label": "C", "text": "Eye lens"},
+        {"label": "D", "text": "Cornea"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) Pupil. Iris is the ring of pigmented tissue surrounding the pupil that varies in colour from person to person; it contracts and dilates to control the amount of light entering the eye through the pupil. The pupil is the opening in the centre of the iris where light enters the eye.",
+      "concept": "Human Eye Structure",
+      "ocr": "Recovered from the scrambled page-1 block, which carries the tail of this OBJECTIVE QUESTIONS run rather than a different chapter."
+    },
+    {
+      "number": "4",
+      "form": "mcq",
+      "marks": 1,
+      "page": 1,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "A person cannot see distinctly objects kept beyond 2 m. This defect can be corrected by using a lens of power",
+      "options": [
+        {"label": "A", "text": "+0.5 D"},
+        {"label": "B", "text": "-0.5 D"},
+        {"label": "C", "text": "+0.2 D"},
+        {"label": "D", "text": "-0.2 D"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) -0.5 D. The far point of the defective eye is at 2 m, so the correcting concave lens must form the image of a distant object at 2 m: f = -2 m and P = 1/f = 1/(-2 m) = -0.5 D.",
+      "concept": "Myopia (Nearsightedness)",
+      "ocr": "Printed number lost; inferred as 4 from position between Q3 and Q5. OCR dropped the decimal digits from options B, C and D - it printed '(a) +0.5 D (b) -0 D (c) +0 D (d) -0 D' and the key line as 'Ans : (b) -0 D'; option A survived intact as '+0.5 D'. Digits restored: option B to '-0.5 D', which the physics fixes with certainty (far point 2 m, so f = -2 m and P = 1/f = -0.5 D, matching this item's own printed key letter (b) and worked value), and options C and D to '+0.2 D' and '-0.2 D' from the standard printed set for this item. Restoration was required because the damaged strings left options B and D reading identically ('-0 D') with B keyed as correct, which would have shown a student two indistinguishable options one of which is the answer. C and D are the only reconstructed part; a reviewer should confirm them against the printed page."
+    },
+    {
+      "number": "5",
+      "form": "mcq",
+      "marks": 1,
+      "page": 1,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "A student sitting on the last bench can read the letters written on the blackboard but is not able to read the letters written in his text book. Which of the following statements is correct?",
+      "options": [
+        {"label": "A", "text": "The near point of his eyes has receded away"},
+        {"label": "B", "text": "The near point of his eyes has come closer to him"},
+        {"label": "C", "text": "The far point of his eyes has come closer to him"},
+        {"label": "D", "text": "The far point of his eyes has receded away"}
+      ],
+      "correct_option": "A",
+      "answer": "(a) The near point of his eyes has receded away.",
+      "concept": "Hypermetropia (Farsightedness)",
+      "ocr": "Recovered from the scrambled page-1 block. No worked solution is printed; only the key."
+    },
+    {
+      "number": "6",
+      "form": "mcq",
+      "marks": 1,
+      "page": 1,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "A prism ABC (with BC as base) is placed in different orientations. A narrow beam of white light is incident on the prism as shown in Figure. In which of the following cases, after dispersion, the third colour from the top corresponds to the colour of the sky?",
+      "options": [
+        {"label": "A", "text": "(i)"},
+        {"label": "B", "text": "(ii)"},
+        {"label": "C", "text": "(iii)"},
+        {"label": "D", "text": "(iv)"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) (ii)",
+      "concept": "Spectrum (VIBGYOR)",
+      "images": ["49fd623fc84620f1727bf72c9bf9f8f12e7c167adb62a23b46edf7d1a8e16956.jpg"],
+      "figure_required": true,
+      "ocr": "Recovered from the scrambled page-1 block. The four prism orientations (i)-(iv) live entirely in the attached figure, so the item is unanswerable without it. LaTeX italics stripped from 'A prism $ABC$ (with $BC$ as base)'."
+    },
+    {
+      "number": "7",
+      "form": "mcq",
+      "marks": 1,
+      "page": 1,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Which of the following phenomena of light are involved in the formation of a rainbow ?",
+      "options": [
+        {"label": "A", "text": "Reflection, refraction and dispersion"},
+        {"label": "B", "text": "Refraction, dispersion and total internal reflection"},
+        {"label": "C", "text": "Refraction, dispersion and internal reflection"},
+        {"label": "D", "text": "Dispersion, scattering and total internal reflection."}
+      ],
+      "correct_option": "C",
+      "answer": "(c) Refraction, dispersion and internal reflection",
+      "concept": "Rainbow Formation",
+      "ocr": "Stem and options print at the foot of page 1; the key 'Ans : (c) Refraction, dispersion and internal reflection' prints at the top of page 6 - recombined across the scrambled page order. FLAG FOR REVIEW: options (b) and (c) differ only by the word 'total', and the usual key for this NCERT-exemplar item is (b) 'total internal reflection'. The printed key (c) is kept because no worked solution is printed to contradict it."
+    },
+    {
+      "number": "8",
+      "form": "mcq",
+      "marks": 1,
+      "page": 6,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Twinkling of stars is due to atmospheric",
+      "options": [
+        {"label": "A", "text": "dispersion of light by water droplets"},
+        {"label": "B", "text": "refraction of light by different layers of varying refractive indices"},
+        {"label": "C", "text": "scattering of light by dust particles"},
+        {"label": "D", "text": "internal reflection of light by clouds"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) refraction of light by different layers of varying refractive indices",
+      "concept": "Twinkling of Stars",
+      "ocr": "Option A printed with a broken label ('a)') and option C lost its label entirely; both restored by position. The stem is a sentence-completion stem and is complete as printed."
+    },
+    {
+      "number": "9",
+      "form": "mcq",
+      "marks": 1,
+      "page": 6,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "The clear sky appears blue because",
+      "options": [
+        {"label": "A", "text": "blue light gets absorbed in the atmosphere."},
+        {"label": "B", "text": "ultraviolet radiations are absorbed in the atmosphere."},
+        {"label": "C", "text": "violet and blue lights get scattered more than lights of all other colours by the atmosphere."},
+        {"label": "D", "text": "light of all other colours is scattered more than the violet and blue colour lights by the atmosphere."}
+      ],
+      "correct_option": "C",
+      "answer": "(c) violet and blue lights get scattered more than lights of all other colours by the atmosphere.",
+      "concept": "Blue Colour of Sky",
+      "ocr": "Option C lost its printed label; restored by position and confirmed by the key line, which repeats the option text verbatim."
+    },
+    {
+      "number": "10",
+      "form": "mcq",
+      "marks": 1,
+      "page": 6,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Which of the following statements is correct regarding the propagation of light of different colours of white light in air ?",
+      "options": [
+        {"label": "A", "text": "Red light moves fastest"},
+        {"label": "B", "text": "Blue light moves faster than green light"},
+        {"label": "C", "text": "All the colours of the white light move with the same speed"},
+        {"label": "D", "text": "Yellow light moves with the mean speed as that of the red and the violet light."}
+      ],
+      "correct_option": "C",
+      "answer": "(c) All the colours of the white light move with the same speed",
+      "concept": "Dispersion of Light"
+    },
+    {
+      "number": "11",
+      "form": "mcq",
+      "marks": 1,
+      "page": 6,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "The danger signals installed at the top of tall buildings are red in colours. These can be easily seen from a distance because among all other colours, the red light",
+      "options": [
+        {"label": "A", "text": "is scattered the most by smoke or fog"},
+        {"label": "B", "text": "is scattered the least by smoke or fog"},
+        {"label": "C", "text": "is absorbed the most by smoke or fog"},
+        {"label": "D", "text": "moves fastest in air"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) is scattered the least by smoke or fog",
+      "concept": "Red Colour of Danger Signals"
+    },
+    {
+      "number": "12",
+      "form": "mcq",
+      "marks": 1,
+      "page": 6,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "The bluish colour of water in deep sea is due to",
+      "options": [
+        {"label": "A", "text": "the presence of algae and other plants found in water"},
+        {"label": "B", "text": "reflection of sky in water"},
+        {"label": "C", "text": "scattering of light"},
+        {"label": "D", "text": "absorption of light by the sea"}
+      ],
+      "correct_option": "C",
+      "answer": "(c) scattering of light",
+      "concept": "Scattering of Light"
+    },
+    {
+      "number": "13",
+      "form": "mcq",
+      "marks": 1,
+      "page": 6,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "When light rays enter the eye, most of the refraction occurs at the",
+      "options": [
+        {"label": "A", "text": "crystalline lens"},
+        {"label": "B", "text": "outer surface of the cornea"},
+        {"label": "C", "text": "iris"},
+        {"label": "D", "text": "pupil"}
+      ],
+      "correct_option": "B",
+      "answer": "(b) outer surface of the cornea.",
+      "concept": "Human Eye Structure",
+      "ocr": "Printed number lost; inferred as 13 from position between Q12 and Q14. Option C printed as 'c iris' with a broken label; restored."
+    },
+    {
+      "number": "14",
+      "form": "mcq",
+      "marks": 1,
+      "page": 6,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "The focal length of the eye lens increases when eye muscles",
+      "options": [
+        {"label": "A", "text": "are relaxed and lens becomes thinner"},
+        {"label": "B", "text": "contract and lens becomes thicker"},
+        {"label": "C", "text": "are relaxed and lens becomes thicker"},
+        {"label": "D", "text": "contract and lens becomes thinner"}
+      ],
+      "correct_option": "A",
+      "answer": "(a) are relaxed and lens becomes thinner",
+      "concept": "Power of Accommodation",
+      "ocr": "Option C lost its printed label; restored by position. Advertising furniture ('FOR 30 FREE SAMPLE SAMPLE PAPERS SET FOR ALL SUBJECTS DOWNLOAD NODIA APP') stripped from between Q13 and Q14."
+    },
+    {
+      "number": "15",
+      "form": "mcq",
+      "marks": 1,
+      "page": 6,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Which of the following statement is correct ?",
+      "options": [
+        {"label": "A", "text": "A person with myopia can see distant objects clearly"},
+        {"label": "B", "text": "A person with hypermetropia can see nearby objects clearly"},
+        {"label": "C", "text": "A person with myopia can see nearby objects clearly"},
+        {"label": "D", "text": "A person with hypermetropia cannot see distant objects clearly."}
+      ],
+      "correct_option": "C",
+      "answer": "(c) A person with myopia can see nearby objects clearly.",
+      "concept": "Myopia (Nearsightedness)"
+    },
+    {
+      "number": "16",
+      "form": "mcq",
+      "marks": 1,
+      "page": 5,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Match the column I to column II and select the correct answer using the codes given below:<html><body><table><tr><td></td><td>Column I</td><td></td><td>Column II</td></tr><tr><td>(A)</td><td>Inverted crown- flint Glass prism</td><td></td><td>Deviation dispersive power</td></tr><tr><td>(B</td><td>Achromatism</td><td></td><td>Deviation without dispersion</td></tr><tr><td>C</td><td>Hollow prism</td><td></td><td>Absence of chromatic aberration</td></tr><tr><td>(D)</td><td>Glass slab</td><td></td><td>Dispersion without deviation</td></tr></table></body></html><html><body><table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td></td><td></td><td>r[</td><td></td><td></td></tr><tr><td></td><td></td><td>q,</td><td></td><td></td></tr><tr><td></td><td></td><td>S</td><td>P</td><td></td></tr><tr><td>d</td><td></td><td>J</td><td></td><td></td></tr></table></body></html>",
+      "answer": "Answer key not printed in the source for this item, and the code table that carried options (a)-(d) was destroyed by OCR, so the correct code could not be read.",
+      "concept": "Dispersion of Light",
+      "ocr": "HELD, no options given. The second table carries the four answer codes (a)-(d), but OCR reduced its cells to stray characters ('r[', 'q,', 'S', 'P', 'J') and no 'Ans' line is printed for this item. No option was invented. The Column II labels p/q/r/s are also missing from the first table, and its first Column II entry reads 'Deviation dispersive power', which is itself damaged. A reviewer must restore both tables and the key from the printed page. Advertising furniture ('FOR 3O FREE SAMPLE PAPERS SET FOR ALL SUBJECTS DOWNLOAD NODIA APP') stripped from between Q16 and Q17."
+    },
+    {
+      "number": "17",
+      "form": "mcq",
+      "marks": 1,
+      "page": 5,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Column II gives lens that can be use to correct the defect of vision given in column I, match them correctly.<html><body><table><tr><td></td><td>Column 1</td><td></td><td>Column II</td></tr><tr><td></td><td>Myopia</td><td></td><td>Convex lens</td></tr><tr><td>B</td><td>Hypermetropia</td><td></td><td>Concave lens</td></tr><tr><td></td><td>Astigmatism</td><td></td><td>Cylindrical lens</td></tr><tr><td>(D)</td><td>Presbyopia</td><td>s</td><td>Bi-focal lens</td></tr></table></body></html><html><body><table><tr><td></td><td>A</td><td>B</td><td></td><td>D</td></tr><tr><td></td><td></td><td></td><td></td><td>S</td></tr><tr><td></td><td></td><td>q,</td><td>S</td><td></td></tr><tr><td></td><td></td><td>S,</td><td>P,</td><td></td></tr><tr><td>d</td><td></td><td></td><td>S</td><td></td></tr></table></body></html>",
+      "answer": "A-q, B-p, C-r, D-s, i.e. Myopia - Concave lens, Hypermetropia - Convex lens, Astigmatism - Cylindrical lens, Presbyopia - Bi-focal lens.",
+      "concept": "Myopia (Nearsightedness)",
+      "ocr": "HELD, no options given. The printed answer 'Ans A-q, B-p, C-r, D-s' survived, but the code table that carried options (a)-(d) was reduced by OCR to stray characters, so no option letter could be matched to a code and none was invented. Column I labels (A) and (C) and the Column II labels p/q/r/s are also missing from the first table; the mapping in the answer is the printed one read against the printed order of Column II."
+    },
+    {
+      "number": "18",
+      "form": "mcq",
+      "marks": 1,
+      "page": 5,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Match the column I to column II and select the correct answer using the codes given below:<html><body><table><tr><td></td><td>Column I</td><td></td><td>Column</td></tr><tr><td>(A)</td><td>Spectrometer</td><td></td><td>Refraction</td></tr><tr><td>(B)</td><td>Mirage</td><td></td><td>Deviation without dispersion</td></tr><tr><td>(C</td><td>Hollow prism</td><td></td><td>To measure angle of prism</td></tr><tr><td>(D)</td><td>glass slab</td><td></td><td>To measure the dispersion</td></tr><tr><td></td><td></td><td></td><td>Dispersion without deviation</td></tr></table></body></html><html><body><table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td></td><td>s, r</td><td>r, p</td><td>q</td><td>q</td></tr><tr><td>D</td><td>S</td><td>P</td><td>q</td><td>r, t</td></tr><tr><td></td><td>p, q</td><td>S</td><td>r s, t</td><td>q</td></tr><tr><td>(d)</td><td>q, S</td><td>q,r</td><td>S</td><td>s, t</td></tr></table></body></html>",
+      "options": [
+        {"label": "A", "text": "A-s, r; B-r, p; C-q; D-q"},
+        {"label": "B", "text": "A-s; B-p; C-q; D-r, t"},
+        {"label": "C", "text": "A-p, q; B-s; C-r, s, t; D-q"},
+        {"label": "D", "text": "A-q, s; B-q, r; C-s; D-s, t"}
+      ],
+      "answer": "Answer key not printed in the source for this item, so the correct code could not be read.",
+      "concept": "Dispersion of Light",
+      "ocr": "HELD, no correct_option. The four answer codes were read from the second table by row position because the printed row labels are damaged (row 1 blank = (a), row 2 shows 'D' = (b), row 3 blank = (c), row 4 intact = (d)). No 'Ans' line is printed for this item, so no correct_option is given and none was guessed. The Column II labels p/q/r/s/t are missing from the first table and its fifth Column II entry ('Dispersion without deviation') sits in an unlabelled trailing row."
+    },
+    {
+      "number": "19",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 5,
+      "section_heading": "OBJECTIVE QUESTIONS | OD 2024",
+      "stem": "Assertion (A) : The rainbow is a natural spectrum of sunlight in the sky. Reason (R) : Rainbow is formed in the sky when the sun is overhead and water droplets are also present in air.",
+      "assertion": "The rainbow is a natural spectrum of sunlight in the sky.",
+      "reason": "Rainbow is formed in the sky when the sun is overhead and water droplets are also present in air.",
+      "options": [
+        {"label": "A", "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."},
+        {"label": "B", "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."},
+        {"label": "C", "text": "Assertion (A) is true, but Reason (R) is false."},
+        {"label": "D", "text": "Assertion (A) is false, but Reason (R) is true."}
+      ],
+      "correct_option": "C",
+      "answer": "(c) Assertion (A) is true, but Reason (R) is false. A rainbow is always formed in a direction opposite to that of the sun. A rainbow forms after rains because of dispersion of light and the internal reflection caused by tiny water droplets suspended in air. In a rainbow the innermost arc is violet and the outermost arc is red.",
+      "concept": "Rainbow Formation",
+      "ocr": "Worked solution printed 'arc' as 'are' twice ('the innermost are is violet and outermost are is red'); repaired."
+    },
+    {
+      "number": "20",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 5,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : Planets do not twinkle. Reason : Planets do not show the phenomenon of scattering.",
+      "assertion": "Planets do not twinkle.",
+      "reason": "Planets do not show the phenomenon of scattering.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "C",
+      "answer": "(c) Assertion is true but Reason is false. Planets are much closer to the earth and are thus seen as extended sources. If we consider a planet as a collection of a large number of point sized sources of light, the total variation in the amount of light entering our eye from all the individual point sized sources will average out to zero, thereby nullifying the twinkling effect. Hence, assertion is true but reason is false.",
+      "concept": "Planets Do Not Twinkle",
+      "ocr": "Assertion and Reason print at the foot of page 5; the option legend and the worked solution print at the top of page 8 - recombined."
+    },
+    {
+      "number": "21",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : When a light ray is refracted through a glass prism, emergent ray is parallel to incident ray. Reason : Two sides of prism doing refraction are parallel to each other.",
+      "assertion": "When a light ray is refracted through a glass prism, emergent ray is parallel to incident ray.",
+      "reason": "Two sides of prism doing refraction are parallel to each other.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "D",
+      "answer": "(d) Both Assertion and Reason are false. The two refracting surfaces of a glass prism are inclined to each other at an angle, so the emergent ray is not parallel to the incident ray. Hence, both assertion and reason are false.",
+      "concept": "Refraction through Prism"
+    },
+    {
+      "number": "22",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : A rainbow is a natural spectrum appearing in the sky after a rain shower. Reason : It is caused by reflection of sunlight by tiny water droplets present in the atmosphere.",
+      "assertion": "A rainbow is a natural spectrum appearing in the sky after a rain shower.",
+      "reason": "It is caused by reflection of sunlight by tiny water droplets present in the atmosphere.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "C",
+      "answer": "(c) Assertion is true but Reason is false. A rainbow is caused by dispersion of sunlight by tiny water droplets present in the atmosphere, not by reflection. Assertion is true but reason is false.",
+      "concept": "Rainbow Formation"
+    },
+    {
+      "number": "23",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : Different colour of light bends through different angles with respect to the incident ray when they pass through a prism. The red light bends the least while violet the most. Reason : Different colour of light bends through different angles with respect to the incident ray when they pass through a prism. The red light bends the least while violet the most.",
+      "assertion": "Different colour of light bends through different angles with respect to the incident ray when they pass through a prism. The red light bends the least while violet the most.",
+      "reason": "Different colour of light bends through different angles with respect to the incident ray when they pass through a prism. The red light bends the least while violet the most.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "A",
+      "answer": "(a) Both Assertion and Reason are true and Reason is the correct explanation of Assertion. Red light has maximum wavelength so it deviates least, and violet light, due to minimum wavelength, deviates most. Both assertion and reason are true and the reason explains the assertion.",
+      "concept": "Dispersion of Light",
+      "ocr": "FLAG FOR REVIEW: the printed Reason repeats the Assertion word for word, which is almost certainly an OCR duplication of the Assertion line rather than the book's real Reason. Kept exactly as printed; a reviewer should restore the Reason from the printed page. The printed key (a) is retained."
+    },
+    {
+      "number": "24",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : A prism deviates a ray of light towards its base. Reason : Both refracting sides scatter the light.",
+      "assertion": "A prism deviates a ray of light towards its base.",
+      "reason": "Both refracting sides scatter the light.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "C",
+      "answer": "(c) Assertion is true but Reason is false. A ray of light is deviated by a prism towards its base because the light ray suffers refraction at both surfaces, and these surfaces are not parallel to each other but inclined at an angle. Assertion is true but reason is false.",
+      "concept": "Refraction through Prism",
+      "ocr": "Solution printed 'Assertion is true but reason if false'; repaired to 'is false'."
+    },
+    {
+      "number": "25",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : Sun is visible to us 2 minutes after the actual sunrise and about 2 minutes before the actual sunset. Reason : It is caused due to rotation and revolution of earth.",
+      "assertion": "Sun is visible to us 2 minutes after the actual sunrise and about 2 minutes before the actual sunset.",
+      "reason": "It is caused due to rotation and revolution of earth.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Both Assertion and Reason are false."}
+      ],
+      "correct_option": "D",
+      "answer": "(d) Both Assertion and Reason are false. Due to refraction of light through layers of air, the sun is visible two minutes before the actual sunrise and two minutes after the actual sunset - the reverse of what the assertion states - and the cause is atmospheric refraction, not the rotation and revolution of the earth. Both assertion and reason are false.",
+      "concept": "Advance Sunrise & Delayed Sunset",
+      "ocr": "Printed number lost; inferred as 25 from position between Q24 and Q26. Assertion, Reason and legend print on page 8; the worked solution prints at the top of page 9 behind a stray markdown heading marker ('# Ans : (d) ...') - recombined and the marker stripped."
+    },
+    {
+      "number": "26",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 9,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : The stars twinkle while the planet do not. Reason : The stars are much lesser in size than the planets.",
+      "assertion": "The stars twinkle while the planet do not.",
+      "reason": "The stars are much lesser in size than the planets.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Assertion is false but Reason is true."}
+      ],
+      "correct_option": "B",
+      "answer": "(b) Both Assertion and Reason are true but Reason is not the correct explanation of Assertion. As planets are of larger size than stars and much closer to the earth, planets can be considered as a collection of a large number of point sized sources of light. The total variation in the amount of light entering our eye from all these individual point sized sources averages out to zero, which nullifies the twinkling effect. Therefore, planets do not twinkle.",
+      "concept": "Planets Do Not Twinkle",
+      "ocr": "From Q26 onward the printed legend option (d) changes to 'Assertion is false but Reason is true' (Q20-Q25 used 'Both Assertion and Reason are false'); recorded as printed for each item."
+    },
+    {
+      "number": "27",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 9,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : Blue colour of sky appears due to scattering of blue colour. Reason : Blue colour has longest wave length in visible spectrum.",
+      "assertion": "Blue colour of sky appears due to scattering of blue colour.",
+      "reason": "Blue colour has longest wave length in visible spectrum.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Assertion is false but Reason is true."}
+      ],
+      "correct_option": "C",
+      "answer": "(c) Assertion is true but Reason is false. During the day time, the sky appears blue. This is because the size of the particles in the atmosphere is smaller than the wavelength of visible light, so they scatter the light of shorter wavelengths. The scattered blue light enters our eye.",
+      "concept": "Blue Colour of Sky",
+      "ocr": "Solution printed 'The scatter blue light enters our eye'; repaired to 'scattered'."
+    },
+    {
+      "number": "28",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 9,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : The light of violet colour deviates the least and the light of red colour the most, while passing through a prism. Reason : For a prism material, refractive index is highest for red light and lowest for the violet light.",
+      "assertion": "The light of violet colour deviates the least and the light of red colour the most, while passing through a prism.",
+      "reason": "For a prism material, refractive index is highest for red light and lowest for the violet light.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Assertion is false but Reason is true."}
+      ],
+      "correct_option": "D",
+      "answer": "(d) Assertion is false but Reason is true. The light of violet colour deviates most and the light of red colour the least while passing through a prism. For a prism material, refractive index is highest for violet light and lowest for the red light.",
+      "concept": "Angle of Deviation",
+      "ocr": "CONTRADICTED KEY: the printed key is (d) 'Assertion is false but Reason is true', but the printed solution's own second sentence ('refractive index is highest for violet light and lowest for the red light') makes the Reason false as well, so on the solution's reasoning both statements are false. This legend offers no 'both false' option (its (d) is 'Assertion is false but Reason is true'), so the solution cannot select a different printed letter and the printed key (d) is retained. Flagged for review - the Reason as printed teaches the wrong refractive-index order."
+    },
+    {
+      "number": "29",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 9,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : Sunlight reaches us without dispersion in the form of white light and not as its components. Reason : Dispersion takes place due to variation of refractive index for different wavelength but in vacuum the speed of light is independent of wavelength and hence vacuum is a non-dispersive medium.",
+      "assertion": "Sunlight reaches us without dispersion in the form of white light and not as its components.",
+      "reason": "Dispersion takes place due to variation of refractive index for different wavelength but in vacuum the speed of light is independent of wavelength and hence vacuum is a non-dispersive medium.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Assertion is false but Reason is true."}
+      ],
+      "correct_option": "A",
+      "answer": "(a) Both Assertion and Reason are true and Reason is the correct explanation of Assertion. In vacuum the speed of light is independent of wavelength, hence no dispersion takes place in vacuum. Thus vacuum is a non-dispersive medium in which all colours travel with the same speed.",
+      "concept": "Dispersion of Light"
+    },
+    {
+      "number": "30",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 9,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : In case of rainbow, light at the inner surface of the water drop gets internally reflected. Reason : The angle between the refracted ray and normal to the drop surface is greater than the critical angle.",
+      "assertion": "In case of rainbow, light at the inner surface of the water drop gets internally reflected.",
+      "reason": "The angle between the refracted ray and normal to the drop surface is greater than the critical angle.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Assertion is false but Reason is true."}
+      ],
+      "correct_option": "A",
+      "answer": "(a) Both Assertion and Reason are true and Reason is the correct explanation of Assertion. The rainbow is formed when light at the inner surface of the water drop gets internally reflected, which happens if the angle between the refracted ray and the normal to the drop surface is greater than the critical angle.",
+      "concept": "Rainbow Formation",
+      "ocr": "Assertion, Reason and legend print on page 9; the worked solution prints at the top of page 10 - recombined."
+    },
+    {
+      "number": "31",
+      "form": "assertion_reason",
+      "marks": 1,
+      "page": 10,
+      "section_heading": "OBJECTIVE QUESTIONS",
+      "stem": "Assertion : Secondary rainbow is fainter than primary rainbow. Reason : Secondary rainbow formation is three step process and hence, the intensity of light is reduced at the second reflection inside the rain drop.",
+      "assertion": "Secondary rainbow is fainter than primary rainbow.",
+      "reason": "Secondary rainbow formation is three step process and hence, the intensity of light is reduced at the second reflection inside the rain drop.",
+      "options": [
+        {"label": "A", "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion."},
+        {"label": "B", "text": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion."},
+        {"label": "C", "text": "Assertion is true but Reason is false."},
+        {"label": "D", "text": "Assertion is false but Reason is true."}
+      ],
+      "correct_option": "A",
+      "answer": "(a) Both Assertion and Reason are true and Reason is the correct explanation of Assertion. Primary rainbow is a result of a three-step process: 1. Refraction at the first surface of the raindrop. 2. Total internal reflection from the second surface of the raindrop. 3. Refraction again from the first surface of the raindrop, from where the light finally emerges out. The intensity of light is reduced at the second reflection and hence the secondary rainbow is fainter than the primary rainbow.",
+      "concept": "Rainbow Formation",
+      "ocr": "FLAG FOR REVIEW: the printed Reason calls the SECONDARY rainbow a three-step process, while the printed solution attributes the three-step process to the PRIMARY rainbow. The printed key (a) is retained; both texts kept as printed."
+    }
+  ]
+}

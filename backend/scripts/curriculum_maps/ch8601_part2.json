@@ -1,0 +1,31 @@
+{
+ "chapter_id": 8601,
+ "mappings": [
+  {"sha": "375517c74fcb79c3", "codes": ["C-7.3-LO-2", "C-7.3-LO-4"],
+   "note": "the radius comes out of C = 2 pi r (LO-2) and the area out of pi r squared, which is what LO-4 derives by cutting the circle into sectors; two separately marked steps"},
+  {"sha": "aa7dcd964c2659d9", "codes": ["C-7.3-LO-3"],
+   "note": "arc length with a decimal radius and a reflex-free 120 degree angle - LO-3 applied, nothing about area"},
+  {"sha": "715b4e62724049d4", "codes": ["C-7.3-LO-1"],
+   "note": "parallelogram area from base and height, which is C-7.3-LO-1; the tagged concept says triangle base-height but no triangle appears"},
+  {"sha": "633e695e24551489", "codes": ["C-5.1-LO-2"],
+   "note": "three sides, no height, Heron named in the question - LO-2; the 5-12-13 sides are again a right triangle, but the method demanded is Heron's"},
+  {"sha": "809c7936ffc96025", "codes": ["C-7.3-LO-4"],
+   "note": "contrasts sector with segment; the sector half belongs to LO-4, which owns sectors, while the segment half has no outcome anywhere in this frame - unlike item 14, which is segment only and had to fall back to the competency"},
+  {"sha": "fc7be028b46d8812", "codes": ["C-5.1-LO-2"],
+   "note": "Heron on a 13-14-15 plot with a costing step; the costing is plain arithmetic, so the only outcome tested is LO-2"},
+  {"sha": "ec7c63e0f1cad3ae", "codes": ["C-7.3-LO-3", "C-7.1-LO-1"],
+   "note": "part (i) is the arc length (LO-3); part (ii) asks for the PERIMETER of the sector, arc plus two radii, which is the perimeter-of-a-plane-figure idea in C-7.1-LO-1 and is what distinguishes this item from item 7"},
+  {"sha": "0a402fbead10ce53", "codes": ["C-7.3-LO-4"],
+   "note": "minor and major sector areas from the same circle - LO-4's sector clause twice, with the 270 degree complement as the graded twist"},
+  {"sha": "99baafadff1bb77b", "codes": ["C-5.1-LO-3"],
+   "note": "both clauses of LO-3 in one item: Brahmagupta applied to four sides, then Heron shown as the fourth-side-zero case"},
+  {"sha": "5e88d5cfe31a2b22", "codes": ["C-7.3-LO-2"],
+   "note": "every part rests on circumference being proportional to radius - the extra lane distance is 2 pi times the lane width - which is the ratio LO-2 establishes; no sector or arc fraction is involved"},
+  {"sha": "50c710992bae102e", "codes": ["C-7.3-LO-4"],
+   "note": "the swept region is a sector and its area is the graded answer (LO-4); the 10-minutes-to-60-degrees step is proportional reasoning with no outcome of its own"},
+  {"sha": "5ee91f7d82170d3d", "codes": ["C-5.1-LO-2"],
+   "note": "explicitly asks which formula applies when all three sides are known, then applies it - LO-2 named and used; the irrational area is left in surd form"},
+  {"sha": "a4186e162a9edecf", "codes": ["C-7.3-LO-4"],
+   "note": "two sector areas summed (LO-4); part (d)'s sector-versus-segment justification is definitional and has no outcome, so it adds no second code"}
+ ]
+}

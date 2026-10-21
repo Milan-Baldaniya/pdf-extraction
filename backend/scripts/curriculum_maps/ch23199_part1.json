@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23199,
+ "mappings": [
+  {
+   "sha": "188fe85fd3c910aa",
+   "codes": ["C-6.1-LO-3"],
+   "note": "the HEIGHT is given (75 m) and the horizontal DISTANCE is required, so the student must pick tan and then invert it. Not C-6.3-LO-3, which is the opposite direction (height from a known distance)"
+  },
+  {
+   "sha": "9631dc43ff2cdcf0",
+   "codes": ["C-6.1-LO-3"],
+   "note": "both sides are known (height = shadow) and the ANGLE is the unknown; the demand is recognising that the pair perpendicular/base selects tan. No height or distance is computed, so C-6.3-LO-3 does not apply"
+  },
+  {
+   "sha": "6c1ec75243a56e66",
+   "codes": ["C-6.3-LO-3"],
+   "note": "the canonical form of this outcome: a known ground distance (15 m shadow) and a measured elevation (45) give the height. Everything in the chapter's core family reduces to this"
+  },
+  {
+   "sha": "88891aef3d35a1d3",
+   "codes": ["C-6.1-LO-3"],
+   "note": "the 1 : root3 ratio of the two sides is handed over and the elevation must be recovered from it; angle-out, like sha 9631dc43ff2cdcf0, so the ratio-selection outcome rather than the height one"
+  },
+  {
+   "sha": "ee3d35cdf1372d20",
+   "codes": ["C-6.3-LO-2"],
+   "note": "nothing is calculated: the marked 60 at the object has to be transferred to the observer's horizontal as an alternate angle and NAMED the angle of depression. Pure definition-in-a-figure"
+  },
+  {
+   "sha": "748194254ec9a8fd",
+   "codes": ["C-6.2-LO-3", "C-6.3-LO-3"],
+   "note": "broken-tree problem: the whole difficulty is drawing it - realising the fallen piece equals the broken part so the answer is CB + DC, not one side. Once the labelled figure exists, tan 30 and cos 30 finish it. Diagram outcome first, height computation second"
+  },
+  {
+   "sha": "334c9a03d9f9a215",
+   "codes": ["C-6.1-LO-3"],
+   "note": "the 20 m rope is the HYPOTENUSE, not a ground distance, so sin must be chosen rather than the reflex tan. That choice is the whole item, which is why it is C-6.1-LO-3 and not C-6.3-LO-3"
+  },
+  {
+   "sha": "8cd826fa9cc33af7",
+   "codes": ["C-6.1-LO-3"],
+   "note": "tan theta = 15/8 is not a standard angle, so sin theta = 15/17 must be built first and then matched to the 85 m hypotenuse; ratio selection plus conversion, with no elevation value ever named"
+  },
+  {
+   "sha": "575a5f810d8b1999",
+   "codes": ["C-6.2-LO-3", "C-6.1-LO-3"],
+   "note": "two poles: the horizontal through the shorter top must be drawn so the working triangle has vertical side 20 - 14 = 6. That construction is the graded step; sin 30 then gives the wire (a hypotenuse), hence C-6.1-LO-3 rather than C-6.3-LO-3"
+  },
+  {
+   "sha": "c3ea69ffb080d675",
+   "codes": ["C-6.2-LO-3", "C-6.1-LO-3"],
+   "note": "the observer's 1.5 m eye height must be subtracted from the 22 m tower before any ratio is written - a diagram step that is the entire trap - and the unknown is then the ANGLE from tan = 20.5/20.5"
+  },
+  {
+   "sha": "044b0396a6c138a9",
+   "codes": ["C-6.1-LO-3"],
+   "note": "POOR FIT, recorded as such: this is solved by similar triangles (6/4 = PQ/50) and no trigonometric ratio or angle appears anywhere. C-6.1-LO-3 is cited because the invariant being used IS height/shadow = tan of the sun's elevation, but no legal code in this chapter covers a similar-triangles item"
+  },
+  {
+   "sha": "2f65c8ccc0a66ca6",
+   "codes": ["C-6.3-LO-4", "C-6.2-LO-3"],
+   "note": "one observer on a 7 m roof sights the tower's top (elevation 60) AND its foot (depression 45) - two triangles sharing the horizontal BE, which must be drawn. Nearest legal code is LO-4; strictly its text says two observers or two positions, and this is two lines of sight from one position (see defect note)"
+  },
+  {
+   "sha": "113c6a95a7c24b28",
+   "codes": ["C-6.3-LO-4"],
+   "note": "genuinely TWO observation points P and Q at distances a and b - the literal reading of LO-4 - and the complementary elevations multiply to give h = root(ab). The complementary-angle relation itself lives in chapter 8 and has no legal code here"
+  },
+  {
+   "sha": "b710a8b028396b18",
+   "codes": ["C-6.3-LO-4"],
+   "note": "one ground point, two elevations (45 to the building top, 60 to the tower top), so two nested triangles on a shared base; the tower height is the DIFFERENCE of two computed heights. Mapped to LO-4 as the two-angle code"
+  },
+  {
+   "sha": "9ff6bc93ae0193aa",
+   "codes": ["C-6.1-LO-3", "C-6.3-LO-3"],
+   "note": "assertion-reason where the Reason is verbatim the ratio-selection statement (tan = perpendicular/base) and the Assertion is the height computed from a 30 elevation and the known base 20 m. The two codes map the two halves of the item"
+  },
+  {
+   "sha": "aa658fc6ce6f700a",
+   "codes": ["C-6.3-LO-3"],
+   "note": "height from a 15 m shadow at 45; very-short restatement of MCQ sha 6c1ec75243a56e66, same outcome"
+  },
+  {
+   "sha": "9726ffbafd9e6a27",
+   "codes": ["C-6.3-LO-2", "C-6.3-LO-4"],
+   "note": "asks only to NAME the two depression angles (30 and 45) from the figure - definitional - but from TWO distinct observing positions O1 and O2, which is the literal LO-4 situation. No computation is required"
+  },
+  {
+   "sha": "57e3a2c26c8381db",
+   "codes": ["C-6.3-LO-2"],
+   "note": "fill-in-the-blank whose answer is the term LINE OF SIGHT; the first of the three definitions LO-2 names"
+  },
+  {
+   "sha": "8c4053f2f40addb6",
+   "codes": ["C-6.3-LO-2"],
+   "note": "definition of ANGLE OF ELEVATION (head raised, object above the horizontal); the second of LO-2's three terms"
+  },
+  {
+   "sha": "5cdbcea44e4b6966",
+   "codes": ["C-6.3-LO-2"],
+   "note": "definition of ANGLE OF DEPRESSION (head lowered, object below the horizontal); the third of LO-2's three terms, and the exact contrast with sha 8c4053f2f40addb6"
+  },
+  {
+   "sha": "26b7583429d1808c",
+   "codes": ["C-6.1-LO-3"],
+   "note": "the ladder (hypotenuse) is required from the ground distance and the angle, so cos is the correct pick; choosing cos over tan or sin is the assessed decision"
+  },
+  {
+   "sha": "b7de25d82dc8fec3",
+   "codes": ["C-6.3-LO-2"],
+   "note": "reads the depression angle 30 off a figure by alternate angles with no arithmetic; same outcome as sha ee3d35cdf1372d20 with a different marked value"
+  },
+  {
+   "sha": "73904edcd8fc698e",
+   "codes": ["C-6.1-LO-3"],
+   "note": "height given, ground distance required, so tan is inverted; very-short twin of MCQ sha 188fe85fd3c910aa"
+  },
+  {
+   "sha": "3394c4d753365ac7",
+   "codes": ["C-6.2-LO-3", "C-6.1-LO-3"],
+   "note": "same horizontal-construction-then-sin-30 route as MCQ sha 575a5f810d8b1999, restated as a very-short item"
+  },
+  {
+   "sha": "75fde536aa565d7d",
+   "codes": ["C-6.1-LO-3"],
+   "note": "equal height and shadow give tan = 1 and the elevation 45; very-short twin of MCQ sha 9631dc43ff2cdcf0, angle-out so the ratio-selection outcome"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+  "chapter_id": 25854,
+  "links": [
+    {"sha": "qid:113571", "concept_id": 31344, "note": "8, 15, 17 satisfies 64 + 225 = 289; the question names the Pythagorean triple outright."},
+    {"sha": "qid:113572", "concept_id": 31335, "note": "625 among 1057, 7928 and 64000 - none small enough to be recognised from the familiar list, so the m = n-squared definition has to be applied to a four- or five-digit number. That is 31335, not the 1,4,9,16,25 recall of 31334."},
+    {"sha": "qid:113573", "concept_id": 31338, "note": "Asks which of 19, 11, 24, 13 squares to a number with 6 at the units place; 24 squared is 576. It is answered from the units digit alone, the quick test this concept supplies."},
+    {"sha": "qid:113576", "concept_id": 31347, "note": "1+3+5+7 = 16: the sum of successive odd numbers from 1 landing on a square, which is the fact this concept states."},
+    {"sha": "qid:113577", "concept_id": 31334, "note": "9 squared minus 1 = 80 needs only 9 times 9, a number multiplied by itself."},
+    {"sha": "qid:113579", "concept_id": 31342, "note": "42 squared = 1764. This concept names 42 explicitly as one the (40+2) tens-and-units split handles without multiplying 42 by 42."},
+    {"sha": "qid:113580", "concept_id": 31334, "note": "Picks 24 out of 4, 9 and 16 - all three distractors are in the 1, 4, 9, 16, 25 list this concept gives, so recognition from that list settles it."},
+    {"sha": "qid:113581", "concept_id": 31342, "note": "23 squared = 529 is this concept's own worked example: (20+3) squared expanding to 400+60+60+9."},
+    {"sha": "qid:113582", "concept_id": 31338, "note": "Only 2826 is even, so only its square is even. The decision is made from the last digit of each candidate, which is what this concept studies."},
+    {"sha": "qid:113584", "concept_id": 31334, "note": "81 against 45, 18 and 54: 81 is 9 times 9, recognised from the small square numbers."},
+    {"sha": "qid:113585", "concept_id": 31338, "note": "The one's digit of 1234 squared is 6 because 4 squared ends in 6 - the units digit alone decides it."},
+    {"sha": "qid:113586", "concept_id": 31336, "note": "Finding 36 as the only square between 30 and 40 is the same reasoning this concept uses on 32: 5 squared is 25, 6 squared is 36, so nothing else in the gap can be a square."},
+    {"sha": "qid:113587", "concept_id": 31338, "note": "Which of 19, 24, 25, 13 squares to a 6 at the units place - 24 squared is 576, decided on the last digit."},
+    {"sha": "qid:113588", "concept_id": 31341, "note": "18 numbers lie between 9 squared and 10 squared, i.e. 2n with n = 9 - this concept's count, applied rather than counted out."},
+    {"sha": "qid:113590", "concept_id": 31334, "note": "(-9) times (-9) = 81: a number multiplied by itself, with the sign of the product the only wrinkle."},
+    {"sha": "qid:113591", "concept_id": 31345, "note": "Square root of 6400 is 80 - asking which number squared gives 6400, i.e. undoing the squaring. No factorisation or long division is needed at this size."},
+    {"sha": "qid:113593", "concept_id": 31349, "note": "48 = 2^4 x 3 has one unpaired 3, so dividing by 3 leaves 16 with every prime paired. The answer comes straight from the pairing of prime factors."},
+    {"sha": "qid:113595", "concept_id": 31337, "note": "The smallest three-digit square is 100 = 10 squared, read off the table of squares of 1 to 20 where the three-digit entries begin."},
+    {"sha": "qid:113596", "concept_id": 31336, "note": "99 squared is 9801 and 100 squared is 10000, so 9801 is the largest four-digit square. Same exclusion-between-consecutive-squares argument as the 32 example."},
+    {"sha": "qid:113598", "concept_id": 31344, "note": "AB=6, BC=8 gives AC=10; 6, 8, 10 is a Pythagorean triplet and the squares answer a question about a triangle."},
+    {"sha": "qid:113599", "concept_id": 31349, "note": "LCM of 4, 9 and 10 is 180 = 2^2 x 3^2 x 5, whose 5 is unpaired; supplying the missing 5 gives 900. The work is entirely in pairing prime factors."},
+    {"sha": "qid:113600", "concept_id": 31334, "note": "18 is the non-square among 81, 100 and 121, all recognisable as a number times itself."},
+    {"sha": "qid:113601", "concept_id": 31344, "note": "A 3 by 4 rectangle has a 5 cm diagonal - the 3, 4, 5 triplet this concept introduces, used on a real figure."},
+    {"sha": "qid:113602", "concept_id": 31345, "note": "Square root of 169 is 13: undoing the squaring. The distractors 1.3 and 1310 test only that the inverse operation is understood, not any method."},
+    {"sha": "qid:113603", "concept_id": 31338, "note": "A number ending in 9 has a square ending in 1, since 9 squared is 81 - a property of the ending digit."},
+    {"sha": "qid:113607", "concept_id": 31343, "note": "(-95) squared = 9025 is a(a+1) hundreds plus 25 with a = 9: 90 hundreds plus 25. This concept's rule for numbers ending in 5, and it is why 7225 (85 squared) is offered as the trap."}
+  ]
+}

@@ -323,6 +323,15 @@ def _write_once(
                 text("DELETE FROM lms_question_asset WHERE question_id IN :ids"),
                 {"ids": tuple(old)},
             )
+            # lms_question_outcome is scoped by question_id like the rest. It
+            # was added after this block was written, so a re-load used to
+            # strand every curriculum mapping against a deleted question and
+            # bring the questions back unmapped -- which looks identical to a
+            # chapter that was never mapped.
+            db.execute(
+                text("DELETE FROM lms_question_outcome WHERE question_id IN :ids"),
+                {"ids": tuple(old)},
+            )
             db.execute(
                 text("DELETE FROM lms_question_extraction WHERE question_id IN :ids"),
                 {"ids": tuple(old)},
@@ -355,6 +364,7 @@ def _write_once(
         lms_type = catalog_entry.get("lms_question_type_id") or _QUESTION_TYPE_IDS.get(
             item["item_form"], 2
         )
+        tags = _tags(item, carried_tags, digest)
         result = db.execute(
             _INSERT_QUESTION,
             {
@@ -371,16 +381,13 @@ def _write_once(
                 "created_by": created_by,
                 "answer": _envelope(item, validation),
                 "hint_text": None,
-                # Carried from a previous tagging pass when the text is
-                # unchanged, so a re-Proceed does not wipe paid AI work.
-                "concept_id": _carried(carried_tags, digest).get("concept_id"),
-                "g_bloom": _LMS_BLOOM.get(
-                    _carried(carried_tags, digest).get("bloom_level") or ""
-                ),
-                "g_dok": _carried(carried_tags, digest).get("dok_level"),
-                "g_difficulty": _lms_difficulty(
-                    _carried(carried_tags, digest).get("difficulty_1_to_5")
-                ),
+                # An authored tag wins; otherwise carried from a previous
+                # tagging pass when the text is unchanged, so a re-Proceed does
+                # not wipe paid AI work.
+                "concept_id": tags.get("concept_id"),
+                "g_bloom": _LMS_BLOOM.get(tags.get("bloom_level") or ""),
+                "g_dok": tags.get("dok_level"),
+                "g_difficulty": _lms_difficulty(tags.get("difficulty_1_to_5")),
             },
         )
         question_id = result.lastrowid
@@ -463,7 +470,7 @@ def _write_once(
                 "validator_version": validation.get("version") if validation else None,
                 "figure_required": 1 if item.get("figure_required") else 0,
                 "figure_resolved": 1 if figures else 0,
-                **_carried(carried_tags, digest),
+                **tags,
             },
         )
 
@@ -486,6 +493,24 @@ def _carried(tags: dict[str, dict[str, Any]], digest: str) -> dict[str, Any]:
     """AI tags preserved from a previous run of this same item, else nulls."""
     previous = tags.get(digest) or {}
     return {field: previous.get(field) for field in _TAG_FIELDS}
+
+
+# Tags a reader wrote on the item itself. The offline tagger is a keyword
+# matcher and demonstrably coarse, so a value set by somebody looking at the
+# question outranks both the carried tag and anything the tagger would infer.
+_AUTHORED_FIELDS = ("bloom_level", "dok_level", "difficulty_1_to_5")
+
+
+def _tags(
+    item: dict[str, Any], carried: dict[str, dict[str, Any]], digest: str
+) -> dict[str, Any]:
+    """Carried AI tags, with any authored value taking precedence."""
+    merged = _carried(carried, digest)
+    for field in _AUTHORED_FIELDS:
+        value = item.get(field)
+        if value is not None:
+            merged[field] = value
+    return merged
 
 
 def _file_name(markdown_image_ref: str) -> str:

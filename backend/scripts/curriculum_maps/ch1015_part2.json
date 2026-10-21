@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1015,
+ "mappings": [
+  {
+   "sha": "6ed100a37ec6d06e",
+   "codes": ["C 1.1"],
+   "note": "Electron dot structure of water. C 1.3-LO-4 limits itself to 'simple carbon compounds'; water is not one, so the bonding competency C 1.1 is cited rather than stretching the outcome."
+  },
+  {
+   "sha": "f08d9f7df2e4bfae",
+   "codes": ["C 1.3-LO-4"],
+   "note": "Reads four drawn skeletons and finds the branched one. Straight-chain versus branched is the isomerism half of LO-4; no naming is required, so not C 1.1-LO-4."
+  },
+  {
+   "sha": "c25ff55f803a573f",
+   "codes": ["C 1.3-LO-4"],
+   "note": "Unsaturation decided from drawn STRUCTURES (spotting C=C and a triple bond in structural formulae). Its name-based twin (sha d633f8c2d42327a7) goes to C 1.1-LO-4; this one is a structure-reading task, so C 1.3-LO-4."
+  },
+  {
+   "sha": "ca63442d9f8105c9",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Tests membership of a homologous series by general formula (CnH2n+2 versus CnH2n) - the 'members of a homologous series' half of LO-4."
+  },
+  {
+   "sha": "8fac4b44e4760652",
+   "codes": ["C 1.1-LO-4"],
+   "note": "IUPAC naming of CH3CH2CHO: root from chain length, suffix from the -CHO functional group. Both halves of LO-4."
+  },
+  {
+   "sha": "04547e14f812af14",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Heteroatom identification, the definition that underpins functional groups in this chapter. LO-4 is the only outcome that mentions functional groups."
+  },
+  {
+   "sha": "388803cdba53ae12",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Picks the saponification EQUATION out of four. Saponification is named in LO-8; LO-9 would be right only if the item were about the resulting soap's cleansing behaviour."
+  },
+  {
+   "sha": "eb13083d985f8087",
+   "codes": ["C 1.1-LO-4"],
+   "note": "First member of the alkyne homologous series - naming a series member, LO-4."
+  },
+  {
+   "sha": "6d02267edf65a371",
+   "codes": ["C 1.1-LO-3"],
+   "note": "Matching item classifying compounds as saturated/unsaturated and cyclic/acyclic. Chains versus rings is precisely catenation, so LO-3; the drawn structures are only the vehicle, so not C 1.3-LO-4."
+  },
+  {
+   "sha": "de0be1caa529fbfa",
+   "codes": ["C 1.3"],
+   "note": "QUESTION-SIDE DEFECT: the columns are an OCR mashup - Column I is 'halogenation' but Column II mixes halogenation reagents with alloys (brass, bronze, magnalium) from an unrelated metallurgy item, so the item cannot be answered as printed. Mapped on the only recoverable row (halogenation = Cl2 + UV light, a substitution reaction), which no outcome covers; C 1.3 competency cited."
+  },
+  {
+   "sha": "7e595ea4c67c4bcb",
+   "codes": ["C 1.1"],
+   "note": "Assertion-reason on covalent versus ionic intermolecular forces. Not C 1.2-LO-8 even though ethanol is named: ethanol is only the exemplar and the item would be unchanged with any covalent compound. What is probed is bond type, and no outcome covers the physical properties of covalent compounds."
+  },
+  {
+   "sha": "fa40757261489ec2",
+   "codes": ["C 1.1-LO-3"],
+   "note": "Catenation and the small-size/strong-C-C-bond explanation for it - LO-3 word for word."
+  },
+  {
+   "sha": "4c1a5af7a8b3a7c9",
+   "codes": ["CG 1"],
+   "note": "Graphite's slipperiness from weak van der Waals forces between layers. Allotropes of carbon have no competency or outcome in this frame, and the reasoning is about interlayer forces rather than tetravalency, so LO-3 would be a stretch. Goal-level code flags the gap."
+  },
+  {
+   "sha": "455b285f86c10726",
+   "codes": ["C 1.3"],
+   "note": "Addition of HBr to propene and Markownikoff orientation. Addition reactions have no outcome; C 1.3 competency (chemical interactions and changes) is the closest legal code."
+  },
+  {
+   "sha": "a074fd7767834421",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Tests the CH2 difference between successive homologues - the defining rule of a homologous series, LO-4."
+  },
+  {
+   "sha": "ef528fb00b22f2e0",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Dehydration of ethanol to ethene at 443 K with conc. H2SO4 - a chemical property of ethanol, LO-8. Not C 1.3: the named substance, not the reaction class, is what is examined."
+  },
+  {
+   "sha": "526b624e5510182a",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Locates the third alkane from the general formula CnH2n+2 - homologous series membership, LO-4."
+  },
+  {
+   "sha": "9dd0017e2807888b",
+   "codes": ["C 1.3-LO-4"],
+   "note": "Iso-butane as a structural isomer of C4H10. 'Their isomers' is explicit in LO-4 of C 1.3; the item turns on there being two structures for one molecular formula, not on naming."
+  },
+  {
+   "sha": "af0d474e35fb36f3",
+   "codes": ["C 1.3"],
+   "note": "Distinguishes substitution from addition for CH4 + Cl2 in sunlight. Reaction-type classification has no outcome in this frame; competency-level C 1.3 cited."
+  },
+  {
+   "sha": "4af798be6c7e1727",
+   "codes": ["C 1.1"],
+   "note": "Conductivity of carbon compounds and the absence of ions. Same gap as sha 335c51066a89387f: no outcome covers the electrical properties that follow from covalent bonding, so the competency is cited."
+  },
+  {
+   "sha": "896a1e1f6b58f568",
+   "codes": ["C 1.1-LO-3"],
+   "note": "Counts the bonds in acetic acid (six single, one double). Bond counting is the tetravalency rule applied, so LO-3; not C 1.2-LO-8, since no chemical behaviour of the acid is asked, and not C 1.3-LO-4, since no structure has to be produced."
+  },
+  {
+   "sha": "b935be3eda1e789d",
+   "codes": ["C 1.2-LO-9"],
+   "note": "Cleansing action explained by the long hydrophobic tail and short ionic head - the 'cleansing action of soaps' clause of LO-9."
+  },
+  {
+   "sha": "8b74476a4a3810ed",
+   "codes": ["C 1.3-LO-4"],
+   "note": "Draws the electron dot structure of CO2, a carbon compound, so LO-4 of C 1.3 applies directly - unlike the N2, NH3 and H2O items in this chapter, which fall outside its 'carbon compounds' wording."
+  },
+  {
+   "sha": "df951cb128cb8f4b",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Builds the first two members of the chloro- homologous series: functional group plus series membership, LO-4."
+  },
+  {
+   "sha": "55eaa4074e8004fd",
+   "codes": ["C 1.1"],
+   "note": "Nearest inert gas to hydrogen - Bohr-model valence-shell reasoning, which C 1.1 names explicitly. No carbon chemistry is involved, so none of the five outcomes applies."
+  }
+ ]
+}

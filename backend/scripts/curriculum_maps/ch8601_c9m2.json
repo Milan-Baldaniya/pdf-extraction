@@ -1,0 +1,135 @@
+{
+  "chapter_id": 8601,
+  "mappings": [
+    {
+      "sha": "qid:706771",
+      "codes": ["C-7.3-LO-2"],
+      "note": "Gap-fill naming pi as the circumference-to-diameter ratio. C-7.3-LO-2's naming clause, not the irrationality outcome C-7.1-LO-3."
+    },
+    {
+      "sha": "qid:706772",
+      "codes": ["C-5.1-LO-2"],
+      "note": "Heron's formula is the tool when the three SIDES are known and no height is available. C-5.1-LO-2's precondition; C-5.1-LO-1 is what to use when a height is given instead."
+    },
+    {
+      "sha": "qid:706773",
+      "codes": ["C-5.1-LO-2"],
+      "note": "States Heron's formula and defines a, b, c and s. C-5.1-LO-2."
+    },
+    {
+      "sha": "qid:706774",
+      "codes": ["C-5.1-LO-2"],
+      "note": "The 13-14-15 triangle worked through Heron with s = 21. Direct application of C-5.1-LO-2."
+    },
+    {
+      "sha": "qid:706775",
+      "codes": ["C-5.1-LO-2"],
+      "note": "Both statements are about Heron's scope and about three sides determining a triangle -- the SSS fact that makes C-5.1-LO-2 work. Contrast qid:706790, where that condition fails for quadrilaterals."
+    },
+    {
+      "sha": "qid:706776",
+      "codes": ["C-5.1-LO-2"],
+      "note": "Gap-fill for the semi-perimeter, the symbol most often mis-set in Heron's formula. C-5.1-LO-2."
+    },
+    {
+      "sha": "qid:706777",
+      "codes": ["C-5.1-LO-2", "C-5.1-LO-1"],
+      "note": "The sides 40, 24, 32 satisfy 24^2+32^2 = 40^2, so the area can be found by Heron (LO-2) and again as half base times height using the two legs (LO-1). The item asks for both routes, so both are cited."
+    },
+    {
+      "sha": "qid:706778",
+      "codes": ["C-7.3-LO-4"],
+      "note": "A 90 degree sector is a quarter of the circle's AREA. C-7.3-LO-4's extension from the circle to the sector."
+    },
+    {
+      "sha": "qid:706779",
+      "codes": ["C-7.3-LO-4"],
+      "note": "Sector areas at equal angle scale as the SQUARE of the radius, because a sector is a fixed fraction of pi r squared. C-7.3-LO-4; the arc-length analogue would scale linearly."
+    },
+    {
+      "sha": "qid:706780",
+      "codes": ["C-7.3-LO-4", "C-7.3-LO-3"],
+      "note": "Both quantities are asked for: the sector area, which is LO-4, and the arc length, which is LO-3. Keeping them apart is the point of the item."
+    },
+    {
+      "sha": "qid:706781",
+      "codes": ["C-7.3-LO-4"],
+      "note": "A 120 degree sector is one third of the circle. Cited to LO-4 because the item is tagged and framed as sector area; the fraction is the step LO-4 rests on."
+    },
+    {
+      "sha": "qid:706782",
+      "codes": ["C-7.3-LO-3", "C-7.3-LO-4"],
+      "note": "Runs the arc-length relation backwards to recover the angle from a 22 cm arc (LO-3), then uses that fraction for the area (LO-4). The inversion is what distinguishes it from qid:706780."
+    },
+    {
+      "sha": "qid:706783",
+      "codes": ["C-5.1-LO-4"],
+      "note": "A median gives two triangles of equal area -- C-5.1-LO-4, stated as a fact."
+    },
+    {
+      "sha": "qid:706784",
+      "codes": ["C-5.1-LO-4"],
+      "note": "The proof itself: equal bases from the midpoint and a shared perpendicular height. C-5.1-LO-4's 'proves that' clause."
+    },
+    {
+      "sha": "qid:706785",
+      "codes": ["C-5.1-LO-4"],
+      "note": "All three medians drawn, with the six small triangles shown to be equal in area. C-5.1-LO-4 extended by repeated application, and a construction as well as a result."
+    },
+    {
+      "sha": "qid:706786",
+      "codes": ["C-7.1-LO-3"],
+      "note": "22/7 is used because it is a convenient APPROXIMATION, not the value of pi. C-7.1-LO-3's 'why no fraction can give its exact value'."
+    },
+    {
+      "sha": "qid:706787",
+      "codes": ["C-7.1-LO-3"],
+      "note": "An irrational times a non-zero whole number is irrational, so the circumference is never a whole number. A direct consequence of pi's irrationality, C-7.1-LO-3."
+    },
+    {
+      "sha": "qid:706788",
+      "codes": ["C-7.1-LO-3"],
+      "note": "What irrationality means in practice -- non-terminating non-repeating expansion, and every used value being an approximation. C-7.1-LO-3 in full."
+    },
+    {
+      "sha": "qid:706789",
+      "codes": ["C-5.1-LO-3"],
+      "note": "Brahmagupta's formula applies to a CYCLIC quadrilateral. C-5.1-LO-3's precondition."
+    },
+    {
+      "sha": "qid:706790",
+      "codes": ["C-5.1-LO-3", "C-5.1-LO-2"],
+      "note": "Compares the two formulae and explains why four sides do not fix a quadrilateral without the cyclic condition, while three sides do fix a triangle. C-5.1-LO-3 is the comparison outcome and C-5.1-LO-2 the triangle half it is measured against."
+    },
+    {
+      "sha": "qid:706791",
+      "codes": ["C-7.3-LO-3"],
+      "note": "A 60 degree arc is one sixth of the circumference. The angle-to-arc proportion that C-7.3-LO-3 is built on."
+    },
+    {
+      "sha": "qid:706792",
+      "codes": ["C-7.3-LO-3"],
+      "note": "Derives arc length = theta/360 times 2 pi r, with a check at theta = 360. C-7.3-LO-3's 'calculates the length of an arc from its radius and central angle', here derived rather than applied."
+    },
+    {
+      "sha": "qid:706793",
+      "codes": ["C-7.3-LO-3"],
+      "note": "Matches four central angles to their fractions of the circle -- the angle-to-fraction step of the arc-length outcome, C-7.3-LO-3."
+    },
+    {
+      "sha": "qid:706794",
+      "codes": ["C-7.1-LO-2"],
+      "note": "Defines squaring a rectangle and names the required side as the geometric mean root(ab). C-7.1-LO-2."
+    },
+    {
+      "sha": "qid:706795",
+      "codes": ["C-7.1-LO-2"],
+      "note": "Justifies why the side must be root(ab) and why that length is always constructible. C-7.1-LO-2's 'justifies each step' clause, argued rather than drawn."
+    },
+    {
+      "sha": "qid:706796",
+      "codes": ["C-7.1-LO-2", "C-7.4"],
+      "note": "The construction itself -- segments a and b in line, the semicircle on a+b as diameter, the perpendicular at their junction. C-7.1-LO-2 for the result, and C-7.4 because this item is the drawing task where qid:706795 is the argument."
+    }
+  ]
+}

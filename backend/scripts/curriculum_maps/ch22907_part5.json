@@ -1,0 +1,19 @@
+{
+ "chapter_id": 22907,
+ "mappings": [
+  {"sha": "3e298e313503b983", "codes": ["C-2.3-LO-1", "CG-2"], "note": "sets up a cubic volume equation and finds the radius as its positive root; root-finding from a factorisation (C-2.3-LO-1), with the mensuration model itself uncovered by any outcome"},
+  {"sha": "b8a28f86be8a0d1b", "codes": ["C-2.3-LO-1", "CG-2"], "note": "V(x) = x(x+5)(x+6) built from a description (CG-2), then x^3 + 11x^2 + 30x - 112 = 0 solved by extracting the factor x - 2 (C-2.3-LO-1)"},
+  {"sha": "b9008fca4bca0c52", "codes": ["C-2.3-LO-1", "CG-2"], "note": "the new bin volume is already in factored form (x+2)(x+3)(x+4) and the answer is the root of the resulting cubic; modelling half has no outcome"},
+  {"sha": "fa44388cf12d5a6f", "codes": ["CG-2"], "note": "both parts are remainder-theorem evaluations of a quartic model at m = 6 and m = 10. No zeroes, no coefficient relations, no graph -- the remainder theorem has no outcome in this frame at all"},
+  {"sha": "14388b42e967f86a", "codes": ["CG-2"], "note": "profit function formed by subtraction, maximised by completing the square, then evaluated by the remainder theorem. Every step falls outside the six learning outcomes"},
+  {"sha": "ebb7567392245dbb", "codes": ["CG-2"], "note": "compares a remainder-theorem evaluation of a degree-5 model against direct substitution; the outcome set has nothing on either"},
+  {"sha": "78fa36d055f3b92a", "codes": ["CG-2"], "note": "a single remainder-theorem evaluation of L(n) at n = 6; no zero is ever sought"},
+  {"sha": "7e96d71a03f38b02", "codes": ["CG-2"], "note": "subtracts two volume polynomials to model a remaining solid and evaluates it by the remainder theorem at two heights; modelling plus remainder theorem, no outcome"},
+  {"sha": "f2701f6f813d8938", "codes": ["CG-2"], "note": "divides a cubic by a quadratic and interprets quotient and remainder as families and leftover funds -- the division algorithm, which this frame does not carry at any level"},
+  {"sha": "44a04a6159e1a8f4", "codes": ["C-2.3-LO-1", "CG-2"], "note": "the base side is obtained by factorising V = 3y(y+3)^2 and matching against the volume formula (C-2.3-LO-1); the surface-area part is mensuration with no outcome"},
+  {"sha": "6469994701deff60", "codes": ["C-2.3-LO-1"], "note": "the frame area gives 2x^2 + 15x - 27 = 0, solved by splitting the middle term and reading the roots off the factors -- the factorised-form-to-roots outcome on an equation, which is what separates it from C-2.1-LO-1 (zeroes of a named polynomial)"},
+  {"sha": "1b6f72d6bd18f969", "codes": ["C-2.3-LO-1", "CG-2"], "note": "break-even is P(x) = 0 solved by factorising into (x-330)(x-20) (C-2.3-LO-1); the maximum-profit part is a vertex question with no outcome"},
+  {"sha": "9bfd14e16d2fe914", "codes": ["C-2.3-LO-1", "CG-2"], "note": "time to hit the ground is the positive root of -4t^2 + 16t + 20 = 0 by factorisation (C-2.3-LO-1); maximum height by completing the square has no outcome"},
+  {"sha": "4a72fe26f258a083", "codes": ["C-2.3-LO-1", "CG-2"], "note": "V(x) factorised as (x+1)(x-2)(x+2) so the third dimension is read off the factors; the surface-area and evaluation parts fall outside every outcome"}
+ ]
+}

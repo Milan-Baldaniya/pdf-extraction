@@ -1,0 +1,35 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "dac0e7e233cc3ae5",
+   "codes": ["C 2.4-LO-3", "C 2.4-LO-1", "C 8.1"],
+   "note": "Most sub-parts are R = rho*l/A applied to two geometries and to a manganin-versus-copper thickness choice (LO-3); the passage builds on V = IR (LO-1); the last sub-part asks for the shape of a metal's V-I graph, which is a graphical model (C 8.1, since LO-5 covers only circuit diagrams and meters). The temperature sub-part is again a factor LO-3 does not list."
+  },
+  {
+   "sha": "3ed0f218cecb35f2",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Every sub-part reads a power rating: I = P/V, energy in kWh, R = V^2/P, and the summed line current for three appliances. One outcome honestly covers the whole item, so no second code is invented."
+  },
+  {
+   "sha": "8cdf215bd34c7a8e",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Alloy-versus-metal resistivity is the only part that any outcome reaches, and only LO-3 does. Damaged item: the stored passage says the remainder was lost in extraction, sub-parts (i) to (iii) are missing from the stem, and the stored answers name germanium, silicon and semiconductor applications, which no outcome in this set covers. Poor fit and unusable as stored."
+  },
+  {
+   "sha": "ea48c03579be55e9",
+   "codes": ["C 2.4-LO-3", "C 2.5-LO-2"],
+   "note": "Ranks six wires by R = rho*l/A with all three variables changing at once - the fullest LO-3 item in the chapter - plus a sub-part on why nichrome suits heating elements (LO-2)."
+  },
+  {
+   "sha": "0b4f63797b21824f",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Choose the arrangement for minimum and maximum current (LO-2), then compute the equivalent resistance and current in each (LO-1). Same 5/10 ohm pair and 6 V supply as item 253 in part 10, but here the current, not just the resistance, is graded."
+  },
+  {
+   "sha": "70aee26007a5e85f",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Heating effect of current in a nichrome element and the device that uses it - the explain-and-apply pairing of LO-2. No quantity is computed, so C 2.5-LO-1 is not involved."
+  }
+ ]
+}

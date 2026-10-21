@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { BookOpen, FileText, Database, ArrowRight, BrainCircuit, Sparkles, MonitorPlay, Presentation } from "lucide-react";
+import { BookOpen, FileText, Database, ArrowRight, BrainCircuit, Sparkles, MonitorPlay, Presentation, Moon } from "lucide-react";
 
 export default function MainLandingPage() {
   const [isGenerateModalOpen, setIsGenerateModalOpen] = useState(false);
@@ -37,7 +37,7 @@ export default function MainLandingPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 w-full max-w-7xl mx-auto">
           {/* Card 1: Lesson Plan */}
           <Link href="/master-calendar" className="group">
             <div className="h-full relative overflow-hidden rounded-3xl border-[0.5px] border-black/10 dark:border-white/20 bg-white/40 dark:bg-black/40 backdrop-blur-[40px] saturate-200 shadow-[0_8px_32px_0_rgba(0,0,0,0.1)] p-8 transition-all duration-300 hover:scale-[1.02] hover:bg-white/60 dark:hover:bg-black/60 before:absolute before:inset-0 before:-z-10 before:bg-gradient-to-br before:from-blue-500/10 before:to-purple-500/5 before:opacity-50 group-hover:before:opacity-100 flex flex-col items-center text-center">
@@ -74,7 +74,29 @@ export default function MainLandingPage() {
             </div>
           </Link>
 
-          {/* Card 3: Generate Content */}
+          {/* Card 3: Overnight extraction.
+              Its own entry rather than a tab inside Extract: it is the only
+              thing here that runs while nobody is at the machine, and the
+              morning question ("what did it do last night?") has to be one
+              click from the front door. */}
+          <Link href="/overnight" className="group">
+            <div className="h-full relative overflow-hidden rounded-3xl border-[0.5px] border-black/10 dark:border-white/20 bg-white/40 dark:bg-black/40 backdrop-blur-[40px] saturate-200 shadow-[0_8px_32px_0_rgba(0,0,0,0.1)] p-8 transition-all duration-300 hover:scale-[1.02] hover:bg-white/60 dark:hover:bg-black/60 before:absolute before:inset-0 before:-z-10 before:bg-gradient-to-br before:from-indigo-500/10 before:to-blue-500/5 before:opacity-50 group-hover:before:opacity-100 flex flex-col items-center text-center">
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-indigo-500/10 shadow-inner border-[0.5px] border-indigo-500/20 mb-4 group-hover:bg-indigo-500/20 transition-colors">
+                <Moon className="h-8 w-8 text-indigo-600 dark:text-indigo-400" />
+              </div>
+              <h2 className="text-xl font-bold text-foreground mb-2">
+                Overnight Extraction
+              </h2>
+              <p className="text-sm text-muted-foreground flex-1 mb-6">
+                Start a whole syllabus before you leave. It extracts chapter after chapter all night, on its own, and tells you every morning exactly what it did.
+              </p>
+              <div className="mt-auto px-6 py-2.5 text-sm rounded-full border-[0.5px] border-black/10 dark:border-white/20 bg-white/40 dark:bg-black/40 backdrop-blur-[40px] saturate-200 shadow-[0_8px_32px_0_rgba(0,0,0,0.1)] text-foreground font-semibold transition-all flex items-center justify-center gap-2 group-hover:bg-indigo-500/10 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 border-transparent group-hover:border-indigo-500/20">
+                Open <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </div>
+            </div>
+          </Link>
+
+          {/* Card 4: Generate Content */}
           <div onClick={() => setIsGenerateModalOpen(true)} className="group cursor-pointer">
             <div className="h-full relative overflow-hidden rounded-3xl border-[0.5px] border-black/10 dark:border-white/20 bg-white/40 dark:bg-black/40 backdrop-blur-[40px] saturate-200 shadow-[0_8px_32px_0_rgba(0,0,0,0.1)] p-8 transition-all duration-300 hover:scale-[1.02] hover:bg-white/60 dark:hover:bg-black/60 before:absolute before:inset-0 before:-z-10 before:bg-gradient-to-br before:from-amber-500/10 before:to-orange-500/5 before:opacity-50 group-hover:before:opacity-100 flex flex-col items-center text-center">
               <div className="flex h-16 w-16 items-center justify-center rounded-full bg-amber-500/10 shadow-inner border-[0.5px] border-amber-500/20 mb-4 group-hover:bg-amber-500/20 transition-colors">

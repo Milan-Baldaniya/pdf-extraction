@@ -1,0 +1,195 @@
+{
+  "chapter_id": 38391,
+  "mappings": [
+    {
+      "sha": "bd3a6129acdcb273",
+      "codes": ["C-5.2"],
+      "note": "Inverts the cone volume formula to recover the base diameter from V = 48*pi and h = 9. Competency level is the ceiling here: the whole legal set for this chapter is C-5.2 and its parent goal CG-5, with no learning outcomes, and CG-5 would be a strictly coarser claim about the same content."
+    },
+    {
+      "sha": "32f9175a632af80b",
+      "codes": ["C-5.2"],
+      "note": "Sets the sphere's volume equal to its surface area numerically to get r = 3. Relates the two sphere formulae to each other; CG-5 rejected as merely the parent of C-5.2."
+    },
+    {
+      "sha": "986162ea8b17e12d",
+      "codes": ["C-5.2"],
+      "note": "Curved surface area of a cylinder is unchanged when r doubles and h halves - reasoning about how the formula responds to its inputs, not a numeric substitution."
+    },
+    {
+      "sha": "90422f18b72e1858",
+      "codes": ["C-5.2"],
+      "note": "Capacity of a cylindrical water tank, r = 7 m, h = 10 m. Straight application of the cylinder volume formula to a real container."
+    },
+    {
+      "sha": "edd2dcb1e58a7a02",
+      "codes": ["C-5.2"],
+      "note": "Volume of a conical ice cream, r = 4, h = 9. Cone volume applied to a daily-life object."
+    },
+    {
+      "sha": "603941f4bcb75c6a",
+      "codes": ["C-5.2"],
+      "note": "Surface area of a sphere from its diameter, so the radius must be halved first. (Minor defect: the options are all labelled cm cubed for an area.)"
+    },
+    {
+      "sha": "678963504dd51413",
+      "codes": ["C-5.2"],
+      "note": "Volume of a hemisphere of radius 7 left in terms of pi - the two-thirds factor is what is being tested."
+    },
+    {
+      "sha": "1b169cff7aad5f28",
+      "codes": ["C-5.2"],
+      "note": "Ratio 1:2:3 for cone, hemisphere and cylinder on equal bases with h = r. Compares three volume formulae against one another rather than computing any one of them."
+    },
+    {
+      "sha": "e5f4336e82f9207f",
+      "codes": ["C-5.2"],
+      "note": "Cloth for a conical tent from r = 6 and slant height 10 - curved surface area, pi*r*l. (Defect: the working writes r = 10 m before using 6 correctly.)"
+    },
+    {
+      "sha": "b030eceb0fbe3c1f",
+      "codes": ["C-5.2"],
+      "note": "Surface area of a spherical glass ball, r = 4.2 cm. Sphere surface area applied to an object."
+    },
+    {
+      "sha": "cccd72cbaaca6056",
+      "codes": ["C-5.2"],
+      "note": "Curved surface area of a cylindrical juice can, r = 7, h = 20 - CSA and not total surface area is the point."
+    },
+    {
+      "sha": "8791496de22650db",
+      "codes": ["C-5.2"],
+      "note": "Area of four walls of a room, 2(l+b)h, with ceiling and floor excluded: the lateral surface area of a cuboid chosen over the total."
+    },
+    {
+      "sha": "be020e0e37bf756e",
+      "codes": ["C-5.2"],
+      "note": "Volume of a cuboidal soap box, 12 x 8 x 5. Cuboid volume."
+    },
+    {
+      "sha": "c12bd6736deec303",
+      "codes": ["C-5.2"],
+      "note": "Cuboidal tank volume converted to litres via 1 cubic metre = 1000 L - volume plus the capacity conversion."
+    },
+    {
+      "sha": "feec91541f698f3d",
+      "codes": ["C-5.2"],
+      "note": "Inverts pi*r*l = 308 with l = 14 to find the cone's base radius. The reverse direction of sha 40f8ae00."
+    },
+    {
+      "sha": "e99d5cd43f1377ef",
+      "codes": ["C-5.2"],
+      "note": "Inverts the cone volume formula with V = 1570 and h = 15 to find r = 10."
+    },
+    {
+      "sha": "b4bd34c60ba915af",
+      "codes": ["C-5.2"],
+      "note": "Weight of a hollow spherical shell from the difference of two sphere volumes and a density. The only item here that combines a volume with a physical quantity outside the formula."
+    },
+    {
+      "sha": "40f8ae0072d4be3d",
+      "codes": ["C-5.2"],
+      "note": "Inverts pi*r*l = 308 with r = 14 to find the slant height - the mirror of sha feec9154."
+    },
+    {
+      "sha": "181e5ada95309160",
+      "codes": ["C-5.2"],
+      "note": "Radius and height in ratio 4:3 with base area 154: recovers r and h, builds the slant height from Pythagoras, then the curved surface area. Three formulae chained."
+    },
+    {
+      "sha": "df4e0b33af902840",
+      "codes": ["C-5.2"],
+      "note": "Ratio of the volumes of two cones of equal height whose radii are 3:5, giving 9:25. Tests that volume scales with the square of the radius, not with the radius."
+    },
+    {
+      "sha": "ae69e41d68d887bb",
+      "codes": ["C-5.2"],
+      "note": "How many 1.5 cm spherical balls come out of a lead cylinder - volume conservation across a recast, cylinder into spheres."
+    },
+    {
+      "sha": "11f6e287c4d46965",
+      "codes": ["C-5.2"],
+      "note": "Water displaced by an immersed spherical ball of diameter 4.2 cm: displacement identified with the sphere's volume."
+    },
+    {
+      "sha": "04ecdcb5e430355b",
+      "codes": ["C-5.2"],
+      "note": "Milk for 1600 cylindrical glasses, then cubic centimetres to litres. Cylinder volume scaled up plus a unit conversion."
+    },
+    {
+      "sha": "2b736e2b4039f242",
+      "codes": ["C-5.2"],
+      "note": "Revolutions of a road roller covering 5500 square metres - the curved surface area of a cylinder read as the area swept per turn."
+    },
+    {
+      "sha": "a2c04a8db80a9d7c",
+      "codes": ["C-5.2"],
+      "note": "One laddoo of radius 5 recast into laddoos of radius 2.5 - volume conservation, sphere into spheres, giving 8."
+    },
+    {
+      "sha": "0263545f0d6fa7c2",
+      "codes": ["C-5.2"],
+      "note": "A radius-6 sphere melted into radius-3 spheres. Same volume-conservation argument as sha a2c04a8d with the halving stated as a ratio of radii."
+    },
+    {
+      "sha": "2407796962828b2a",
+      "codes": ["C-5.2"],
+      "note": "Cost of painting three spherical balls at a rate per square metre - surface area turned into money."
+    },
+    {
+      "sha": "3448ba5d617e5062",
+      "codes": ["C-5.2"],
+      "note": "Doubling a tank's radius multiplies its surface area by 4, and the candidate statements test whether the pupil believes 3 (the cost ratio) or 4 (the area ratio). Reasoning about how surface area scales."
+    },
+    {
+      "sha": "b520784e83344ed2",
+      "codes": ["C-5.2"],
+      "note": "Closed cylindrical tank: total surface area 2*pi*r*(h+r) for the paint, and the capacity in litres. Both halves of C-5.2 in one item. (Defect: the answer converts 33 square metres to litres, equating an area with a volume.)"
+    },
+    {
+      "sha": "1cab3c67fab6246d",
+      "codes": ["C-5.2"],
+      "note": "Ice cream cone: volume to fill it, then the slant height from Pythagoras for the curved surface area of the label. Volume and surface area of the same solid."
+    },
+    {
+      "sha": "0ed8b428e7a32936",
+      "codes": ["C-5.2"],
+      "note": "Clay cylinder remoulded into a sphere: both volumes, which quantity is invariant under remoulding (volume, not area or radius), and the sphere's radius. The clearest 'visualises' item in the chapter."
+    },
+    {
+      "sha": "15ba458dc9f33d8a",
+      "codes": ["C-5.2"],
+      "note": "Chilling plant: milk stored in a cylindrical container, the formula for its total surface area, and the capacity of a 6 cm cube. Cylinder and cube in one item."
+    },
+    {
+      "sha": "67d3361ae1835279",
+      "codes": ["C-5.2"],
+      "note": "Paper cones: curved surface area, then total surface area once a base is added, then a hundred of them. Distinguishes CSA from TSA for a cone."
+    },
+    {
+      "sha": "58ce76f4ad7e8d30",
+      "codes": ["C-5.2"],
+      "note": "Rubber balls of diameter 14 cm: surface area of one, of a hundred, and the paint cost. Sphere surface area scaled and priced."
+    },
+    {
+      "sha": "01086f55bc9e8e3a",
+      "codes": ["C-5.2"],
+      "note": "Radius from a sphere surface area of 676*pi - inverting 4*pi*r^2 rather than evaluating it."
+    },
+    {
+      "sha": "75ac38ca6967df48",
+      "codes": ["C-5.2"],
+      "note": "Area to be scratched off a wooden ball when the DIAMETER is r, so the answer is pi*r^2 and not 4*pi*r^2. The item tests reading diameter for radius."
+    },
+    {
+      "sha": "33352d137209e676",
+      "codes": ["C-5.2"],
+      "note": "Which way to roll a 14 x 22 sheet into a cylinder for the smaller volume - compares two cylinders made from the same rectangle. Visualisation of a solid from a plane sheet."
+    },
+    {
+      "sha": "7c7182a2e05f7f4e",
+      "codes": ["C-5.2"],
+      "note": "Largest sphere carved from a 7 cm cube, so the diameter is the side. Volume of a solid inscribed in another - visualisation, not a bare substitution."
+    }
+  ]
+}

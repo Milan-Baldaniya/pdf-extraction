@@ -1,0 +1,305 @@
+{
+  "chapter_id": 8594,
+  "mappings": [
+    {
+      "sha": "3277090011054f74",
+      "codes": ["C-4.5-LO-1", "C-4.5-LO-4"],
+      "note": "The question asks which quadrant holds the both-negative vertex, which is LO-1's sign rule, and identifies the figure from the side lengths 2a and 2b (LO-4). Not LO-2: no point is plotted or read off a grid."
+    },
+    {
+      "sha": "0c88d222da02f1bf",
+      "codes": ["C-4.5-LO-3", "C-4.5-LO-1"],
+      "note": "(-d,k) to (d,-k) reverses BOTH signs, so the distractors are the single-axis reflections that LO-3 names; the correct answer is their composition. LO-1 supplies the Quadrant II / Quadrant IV reading that rules the distractors out."
+    },
+    {
+      "sha": "502a2a6b21ade78d",
+      "codes": ["C-4.5-LO-2", "C-8.1-LO-3"],
+      "note": "Deduces the fourth desk foot (8,7) from three given ordered pairs on a floor plan whose origin sits at a room corner. LO-2 for reading and completing the coordinates, C-8.1-LO-3 for the plan-on-axes framing that makes the bathroom claim checkable."
+    },
+    {
+      "sha": "3afd4d52826d7175",
+      "codes": ["C-4.5-LO-1", "C-4.5-LO-2"],
+      "note": "Converts perpendicular distances from the axes into a signed ordered pair, so the quadrant sign rule (LO-1) is what separates (-4,7) from (4,-7), and LO-2 supplies the axis-distance reading. The distractors are exactly the sign and order errors."
+    },
+    {
+      "sha": "cd2770a0df90a260",
+      "codes": ["C-4.5-LO-2"],
+      "note": "Equality of the ordered pairs (x,y) and (y,x) -- the orderedness of the pair is the entire content. No quadrant, distance or reflection is involved."
+    },
+    {
+      "sha": "bb4869f880b55a9e",
+      "codes": ["C-4.5-LO-2", "C-4.5-LO-4"],
+      "note": "A point ON an axis, which LO-2 names explicitly, plus its distance from the origin (LO-4). The distractor offering a negative distance is what makes the second half necessary."
+    },
+    {
+      "sha": "b7c837db789589b1",
+      "codes": ["C-4.5-LO-4"],
+      "note": "The door width is the distance between two points on the x-axis, |11.5-8|. LO-4; the accessibility threshold only turns the length into a yes/no."
+    },
+    {
+      "sha": "d8934385bc9eed37",
+      "codes": ["C-4.5-LO-4"],
+      "note": "Three applications of the distance formula summed into a perimeter, with the answer left in surd form. Pure LO-4."
+    },
+    {
+      "sha": "179a3bc9d614ba46",
+      "codes": ["C-4.5-LO-3"],
+      "note": "Reflection in the y-axis and what it does to the coordinates -- LO-3. The distractors (lengths, perimeter, area) are the invariants, so the item is entirely about the coordinate effect."
+    },
+    {
+      "sha": "5de41f778918234b",
+      "codes": ["C-4.5-LO-5"],
+      "note": "Midpoint of ST, then the midpoint of the translated segment. LO-5; LO-4 is not cited because no length is ever computed."
+    },
+    {
+      "sha": "d81010c1cd18d2d8",
+      "codes": ["C-4.5-LO-4"],
+      "note": "Asks which DERIVATION applies when the y-coordinates are equal, so it tests understanding of the distance formula collapsing to |x2-x1|. LO-4."
+    },
+    {
+      "sha": "bae7d54ebbd8e3bb",
+      "codes": ["C-4.5-LO-1", "C-4.5-LO-4"],
+      "note": "Two separate demands: the quadrant of (-6,-8) from its signs (LO-1) and the crow-fly distance from the origin (LO-4). The distractors pair a wrong quadrant with a Manhattan-style 14, so both are genuinely assessed."
+    },
+    {
+      "sha": "36ea6b1e5389346a",
+      "codes": ["C-4.5-LO-4"],
+      "note": "The radius is the distance from the origin to a point on the circle, left exact as root 65. LO-4, applied once."
+    },
+    {
+      "sha": "dcfaf598f1244abb",
+      "codes": ["C-4.5-LO-2", "C-8.1-LO-3"],
+      "note": "Reads the extreme x-coordinates of an icon on a screen whose origin is fixed at the bottom-left corner. LO-2 for the coordinate reading; C-8.1-LO-3 because the whole item depends on that stated origin and axis convention."
+    },
+    {
+      "sha": "b3f2d6468a416509",
+      "codes": ["C-4.5-LO-4"],
+      "note": "All four sides and a diagonal are computed by the distance formula to identify the shape and its area. LO-4; the plotting is only the setting."
+    },
+    {
+      "sha": "a09dc7e65ab0abbc",
+      "codes": ["C-4.5-LO-1", "C-4.5-LO-2"],
+      "note": "Quadrant IV signs (LO-1) applied to axis distances of 3 and 5 to produce the ordered pair (LO-2). The Quadrant II twin of this item earlier in the paper uses the same pair of outcomes."
+    },
+    {
+      "sha": "0f29e1e6156fe6d0",
+      "codes": ["C-4.5-LO-1"],
+      "note": "Drops the negatives and asks what is lost: Quadrants II, III and IV. That is the sign-per-quadrant clause of LO-1, argued in reverse."
+    },
+    {
+      "sha": "60f5ea7b14def4cc",
+      "codes": ["C-4.5-LO-2"],
+      "note": "Both statements are about a point ON the x-axis -- ordinate zero, abscissa as the directed distance from the y-axis -- which is LO-2's 'including points that lie on an axis'. (The printed explanation belongs to a different item; see the defect list.)"
+    },
+    {
+      "sha": "e4aa24fbcd239ca4",
+      "codes": ["C-4.5-LO-1", "C-4.5-LO-2"],
+      "note": "The false assertion puts (0,-5) in Quadrant IV; the true reason is that a point with x=0 lies on the axis and in no quadrant. LO-1 for the quadrant claim, LO-2 for the on-axis reading that refutes it."
+    },
+    {
+      "sha": "224369d6bbf0f412",
+      "codes": ["C-4.5-LO-2", "C-4.5-LO-4"],
+      "note": "Writes two on-axis points from verbal directions (LO-2), then applies the distance formula to get 25 (LO-4)."
+    },
+    {
+      "sha": "420f0535f98ce51d",
+      "codes": ["C-4.5-LO-1"],
+      "note": "Argues that without zero and the negatives there is no origin and no second, third or fourth quadrant. Although historical in framing, what is assessed is LO-1's account of the origin, the axes and the four quadrants."
+    },
+    {
+      "sha": "194a416d5b0bf809",
+      "codes": ["C-4.5-LO-5"],
+      "note": "A single direct application of the midpoint formula to S(-8,7) and T(6,-3). LO-5."
+    },
+    {
+      "sha": "41c771baac0968fa",
+      "codes": ["C-4.5-LO-2", "C-8.1-LO-3"],
+      "note": "Checks a rug's x- and y-extents against the room rectangle, all read off a floor plan laid on axes with the corner as origin. LO-2 for the coordinate extents, C-8.1-LO-3 for the plan-to-axes modelling."
+    },
+    {
+      "sha": "3ae2fb565a0b8871",
+      "codes": ["C-4.5-LO-2", "C-4.5-LO-1"],
+      "note": "Decides, without plotting, that a zero ordinate puts P on the x-axis and a zero abscissa puts Q on the y-axis (LO-2), and therefore that neither is in a quadrant (LO-1)."
+    },
+    {
+      "sha": "4e5166c0f571f135",
+      "codes": ["C-4.5-LO-4"],
+      "note": "Collinearity tested by whether MA+AG equals MG, which is three uses of the distance formula. LO-4; no midpoint or reflection is involved."
+    },
+    {
+      "sha": "ca45d5bbcc480dfe",
+      "codes": ["C-4.5-LO-2", "C-8.1-LO-3"],
+      "note": "Writes the corner coordinates of two fixtures placed against named walls of a bathroom drawn on axes. LO-2 for producing the ordered pairs; C-8.1-LO-3 because the wall x=-6 and the y-axis are the reference frame chosen for the plan."
+    },
+    {
+      "sha": "9b4c95243ce65381",
+      "codes": ["C-4.5-LO-5"],
+      "note": "Builds the points of trisection by repeated midpoints, so LO-5 is what is exercised, including its limits. (The method as printed yields the quarter points, not the trisection points; see the defect list.)"
+    },
+    {
+      "sha": "555edde52346eacc",
+      "codes": ["C-4.5-LO-2", "C-4.5-LO-3"],
+      "note": "Parts (i) and (ii) identify horizontal and vertical sides from equal ordinates and equal abscissae (LO-2); part (iii) asks which two vertices are mirror images and in which axis, which is LO-3."
+    },
+    {
+      "sha": "210a65b5d24b6ea6",
+      "codes": ["C-4.5-LO-4"],
+      "note": "Distance between the two centres, then compared with the sum of the radii to decide overlap. LO-4 with a single inequality on top."
+    },
+    {
+      "sha": "d7760a6db30bc4ad",
+      "codes": ["C-4.5-LO-1", "C-4.5-LO-4"],
+      "note": "Requires choosing vertices with the right sign patterns for Quadrants III and IV (LO-1) and then proving two sides equal by the distance formula (LO-4). A construction item, so LO-2's plotting is incidental."
+    },
+    {
+      "sha": "a4fdf336d1253609",
+      "codes": ["C-4.5-LO-5"],
+      "note": "Inverts the midpoint formula: three midpoint equations solved for the three vertices, then verified. LO-5 used as a system of equations rather than a single substitution."
+    },
+    {
+      "sha": "d3cb454118419540",
+      "codes": ["C-8.1-LO-2", "C-4.5-LO-4"],
+      "note": "The Manhattan distance is travel along a street grid -- row-and-column addressing tied to ordered pairs, C-8.1-LO-2 -- and the crow-fly distance is the distance formula (LO-4). The item exists to contrast the two."
+    },
+    {
+      "sha": "93594df35fae752a",
+      "codes": ["C-4.5-LO-4"],
+      "note": "Every part -- proving points lie on the circle, and classifying D and E as inside or outside -- is a comparison of distance from the origin against the radius. LO-4 throughout."
+    },
+    {
+      "sha": "57f75a3a7c7ca648",
+      "codes": ["C-4.5-LO-4"],
+      "note": "Four sides and two diagonals by the distance formula, used to justify that ABCD is a square and to get its area from the diagonal. LO-4."
+    },
+    {
+      "sha": "338b4785aff93268",
+      "codes": ["C-8.1-LO-3", "C-4.5-LO-4", "C-4.5-LO-2"],
+      "note": "The case study's whole premise is a floor plan modelled on axes with the room corner as origin and 1 unit = 1 foot (C-8.1-LO-3); from that frame it asks for door widths as distances (LO-4) and for fixture coordinates (LO-2)."
+    },
+    {
+      "sha": "0371d0f487ef955b",
+      "codes": ["C-4.5-LO-4", "C-4.5-LO-1"],
+      "note": "Distances of two lighthouses from the port at the origin (LO-4) and the quadrants of the second lighthouse and the vessel (LO-1). Not C-8.1-LO-3: the origin is handed over, not chosen."
+    },
+    {
+      "sha": "ac80b43a06edd99e",
+      "codes": ["C-8.1-LO-3", "C-4.5-LO-4"],
+      "note": "A screen coordinate frame with a stated origin and bounds, used to test whether each icon lies inside it (C-8.1-LO-3) and to find the distance between the centres (LO-4)."
+    },
+    {
+      "sha": "qid:706497",
+      "codes": ["C-4.5-LO-1"],
+      "note": "Names the two number lines as the axes -- the first item in LO-1's list of parts."
+    },
+    {
+      "sha": "qid:706498",
+      "codes": ["C-8.1-LO-1"],
+      "note": "What it takes to fix a point in a plane: a PAIR of references, not one. C-8.1-LO-1's 'explains why one reference alone cannot fix a position in a plane' is the point being made; LO-1 of C-4.5 would only name the parts."
+    },
+    {
+      "sha": "qid:706499",
+      "codes": ["C-4.5-LO-2"],
+      "note": "Why the pair is ordered -- swapping the entries names a different point. The orderedness of the pair is LO-2's subject."
+    },
+    {
+      "sha": "qid:706500",
+      "codes": ["C-4.5"],
+      "note": "Competency: the answer is about coordinates uniting geometry with algebra, so a figure has an equation and an equation has a graph. No LO in this chapter covers the significance of the system; the five LOs are all procedural."
+    },
+    {
+      "sha": "qid:706501",
+      "codes": ["C-4.5-LO-1", "C-4.5-LO-2"],
+      "note": "A full description covering axes, origin and quadrants (LO-1) and then how a point is located by its ordered pair (LO-2). Both halves carry marks in a five-mark answer."
+    },
+    {
+      "sha": "qid:706502",
+      "codes": ["C-4.5-LO-2", "C-4.5-LO-1"],
+      "note": "Plots four points from their ordered pairs (LO-2), one in each quadrant, and names the rectangle they form; the quadrant commentary is LO-1."
+    },
+    {
+      "sha": "qid:706503",
+      "codes": ["C-4.5-LO-1"],
+      "note": "The coordinates of the origin. LO-1 names the origin as a part of the system."
+    },
+    {
+      "sha": "qid:706504",
+      "codes": ["C-4.5-LO-1"],
+      "note": "Defines the origin as the intersection of the axes. Same LO-1 part-naming as qid:706503, asked as a definition."
+    },
+    {
+      "sha": "qid:706505",
+      "codes": ["C-4.5-LO-1"],
+      "note": "Both statements concern the origin and its relation to the two axes -- LO-1's parts of the system."
+    },
+    {
+      "sha": "qid:706506",
+      "codes": ["C-4.5-LO-1"],
+      "note": "False because the origin is on the boundary, not inside a quadrant. Tests the quadrant/axis boundary, which is LO-1."
+    },
+    {
+      "sha": "qid:706507",
+      "codes": ["C-4.5-LO-1"],
+      "note": "Gap-fill naming the origin. LO-1 vocabulary."
+    },
+    {
+      "sha": "qid:706508",
+      "codes": ["C-4.5-LO-1"],
+      "note": "How many quadrants the axes create. LO-1's 'the four quadrants'."
+    },
+    {
+      "sha": "qid:706509",
+      "codes": ["C-4.5-LO-1"],
+      "note": "Reads the quadrant of (-4,7) from the signs. LO-1's sign rule; nothing is plotted, so not LO-2."
+    },
+    {
+      "sha": "qid:706510",
+      "codes": ["C-4.5-LO-1"],
+      "note": "The anticlockwise numbering convention from the upper right. Part of naming the four quadrants, LO-1."
+    },
+    {
+      "sha": "qid:706511",
+      "codes": ["C-4.5-LO-1", "C-4.5-LO-3"],
+      "note": "Both coordinates must change sign moving from Quadrant II to Quadrant IV (LO-1), and the answer identifies that change as a reflection in the origin (LO-3)."
+    },
+    {
+      "sha": "qid:706512",
+      "codes": ["C-4.5-LO-1"],
+      "note": "True/false on the axes dividing the plane into four quadrants -- LO-1, in its shortest possible form."
+    },
+    {
+      "sha": "qid:706513",
+      "codes": ["C-4.5-LO-1", "C-4.5-LO-2"],
+      "note": "Draws the labelled plane with the sign pattern in each quadrant (LO-1) and marks one example point in each, which requires plotting from ordered pairs (LO-2)."
+    },
+    {
+      "sha": "qid:706514",
+      "codes": ["C-4.5-LO-2"],
+      "note": "Names x as the abscissa -- the vocabulary of the ordered pair, which belongs with LO-2 rather than with LO-1's axes, origin and quadrants."
+    },
+    {
+      "sha": "qid:706515",
+      "codes": ["C-4.5-LO-2"],
+      "note": "(3,5) and (5,3) are different points. The orderedness of the pair again, LO-2."
+    },
+    {
+      "sha": "qid:706516",
+      "codes": ["C-8.1-LO-1", "C-4.5-LO-2"],
+      "note": "The position is given verbally as a displacement from a fixed point in two directions ('5 left, 2 below the origin'), which is C-8.1-LO-1, and must be turned into the ordered pair (-5,-2), which is LO-2."
+    },
+    {
+      "sha": "qid:706517",
+      "codes": ["C-4.5-LO-2"],
+      "note": "False: (2,7) and (7,2) are distinct. Same LO-2 point as qid:706515, in true/false form."
+    },
+    {
+      "sha": "qid:706518",
+      "codes": ["C-4.5-LO-2"],
+      "note": "Names y as the ordinate. Ordered-pair vocabulary, LO-2, matching qid:706514."
+    },
+    {
+      "sha": "qid:706519",
+      "codes": ["C-4.5-LO-1"],
+      "note": "Positive abscissa with negative ordinate identifies the fourth quadrant -- LO-1's sign rule, read in the direction from signs to quadrant."
+    }
+  ]
+}

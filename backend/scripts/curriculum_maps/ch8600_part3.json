@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8600,
+ "mappings": [
+  {
+   "sha": "b540bde4bfe87062",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Names the quantity given by the area of rectangle OABC under a velocity-time graph: displacement. LO-2's 'displacement ... from velocity-time graph' clause; LO-1 is excluded because the answer is a kinematic quantity, not a description of the motion."
+  },
+  {
+   "sha": "19565ec14b5e44ab",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Slope of a position-time graph names average velocity - the first half of LO-2 stated as a definition rather than a computation. Still LO-2 rather than LO-1 because the graph yields a quantity."
+  },
+  {
+   "sha": "7b7d4872f35099cf",
+   "codes": ["C-2.1-LO-1"],
+   "note": "A velocity table, not a graph, and the answer is only the sign of the change (velocity falls from 20 to 15). That is the sign convention inside LO-1's definition of acceleration; no value is produced, so LO-2 and LO-4 are both out."
+  },
+  {
+   "sha": "50ecd1d6f72a80a3",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Steeper position-time line means higher velocity: the graph is converted into a kinematic quantity by slope, which is LO-2. Its near-twin O46 shares this outcome honestly - the two are the same demand with different labels."
+  },
+  {
+   "sha": "9482a2b6cba2f891",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Ratio of displacement magnitude to path length, 5:7 via Pythagoras. LO-1's distance/displacement differentiation, although note the path is two-dimensional while LO-1 is scoped to straight-line motion - a mild scope stretch."
+  },
+  {
+   "sha": "35e3a7e4fdd7669c",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Curved position-time graph means accelerated motion; the reason offered describes uniform motion instead. What is read from the shape is the character of the motion, so LO-1 rather than LO-2."
+  },
+  {
+   "sha": "83cd225058959254",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Runs motion-to-shape (constant velocity gives a horizontal velocity-time line), the reverse direction from the LO-2 items that run graph-to-quantity. LO-1's plot-and-interpret clause."
+  },
+  {
+   "sha": "1324bf5c773de24d",
+   "codes": ["C-2.1-LO-1"],
+   "note": "A position table showing successive 2, 6, 10, 14 m: the conclusion asked for is the nature of the motion (increasing velocity), not any value. LO-1's description clause; not LO-2 because there is no graph to take a slope from."
+  },
+  {
+   "sha": "d7d463094e6174ab",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Slope of a velocity-time graph names average acceleration - LO-2 verbatim. Splits from O42 below, where the same slope is used only to characterise the motion."
+  },
+  {
+   "sha": "7f886003b6b1d9bd",
+   "codes": ["C-2.1-LO-1"],
+   "note": "An object slowing from 20 to 5 m/s: the answer is the direction of acceleration relative to motion, which is LO-1's definitional clause. No slope, area or equation is used."
+  },
+  {
+   "sha": "15bf86b78445978c",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Orders the steps of the area-under-velocity-time procedure for displacement. Same LO-2 operation as the numeric area items; only the presentation (sequence ordering) differs."
+  },
+  {
+   "sha": "151253e82bdf1735",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Identifies which row of a table is uniform circular motion and whether it is accelerated - LO-1's 'define ... uniform circular motion'. C-8.1-LO-2 is not cited because no speed expression is required."
+  },
+  {
+   "sha": "86445ebae9e15079",
+   "codes": ["C-2.1-LO-1"],
+   "note": "A downward-sloping velocity-time line means uniformly retarded motion. The answer is a characterisation of the motion, which puts it with the LO-1 graph items rather than with O38, where the same slope is asked to name a quantity."
+  },
+  {
+   "sha": "5f380a1fd37cffe9",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Area enclosed by a velocity-time graph equals displacement - LO-2's named operation stated in the abstract."
+  },
+  {
+   "sha": "2e8c9a53c155ab0a",
+   "codes": ["C-2.1-LO-3"],
+   "note": "Identifying which of the three equations links v, u, a and t is knowledge of the equation set itself, which is the product of LO-3's derivation. LO-4 is reserved for questions that substitute values, and nothing is substituted here."
+  },
+  {
+   "sha": "7ca5f85163add2a0",
+   "codes": ["C-2.1-LO-3"],
+   "note": "Names the geometric decomposition (rectangle plus triangle) used when deriving s=ut+(1/2)at^2 from the velocity-time graph - LO-3's graphical method verbatim. Not LO-2: the area is a derivation step, not a measurement of a particular motion."
+  },
+  {
+   "sha": "f4d9ec81a4a0a98b",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Car X's steeper position-time line means higher uniform velocity. Same slope-to-velocity extraction as O33 and O19 - a family that legitimately shares LO-2."
+  },
+  {
+   "sha": "8950bc06e1a71be4",
+   "codes": ["C-2.1-LO-3"],
+   "note": "The validity condition (constant acceleration) is a property of the derivation, so it belongs with LO-3 rather than with LO-4, which covers applying the equations once their validity is granted."
+  },
+  {
+   "sha": "d54568f510576968",
+   "codes": ["C-2.1-LO-3"],
+   "note": "Symbol conventions u, v, a, s as used in the kinematic equations. Attached to LO-3 (knowledge of the equation set) rather than LO-1, because the question frames the symbols as belonging to the equations, not as free-standing definitions."
+  },
+  {
+   "sha": "52cafdea86bf3f69",
+   "codes": ["C-2.1-LO-3"],
+   "note": "Identifies the equation that eliminates time, i.e. what the third derivation achieves. LO-3; no numbers are substituted so LO-4 does not apply."
+  },
+  {
+   "sha": "42453286ba469f25",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Matches four graph shapes to stationary / constant velocity / constant acceleration. Every answer is a type of motion, not a quantity, which places the whole item with LO-1's interpret clause rather than LO-2."
+  },
+  {
+   "sha": "f39e6293f9dbabaa",
+   "codes": ["C-2.1-LO-4"],
+   "note": "u=15, a=-3, v=0, find s by v^2=u^2+2as. A pure substitution, which separates it from O49 and O64, where the same equation is discussed rather than used."
+  },
+  {
+   "sha": "5e086ea608f5a5dd",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Assertion-reason on constant speed but changing velocity in uniform circular motion. LO-1 defines uniform circular motion; the wrong reason turns on velocity being a vector, still a definitional matter."
+  },
+  {
+   "sha": "bb07fd0783682aef",
+   "codes": ["C-8.1-LO-2"],
+   "note": "Asks directly for v=2(pi)R/T. This is the only outcome in the frame that covers the speed expression for uniform circular motion, so it splits cleanly from the LO-1 items that only characterise circular motion."
+  },
+  {
+   "sha": "748298f2201e2536",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Displacement after one full revolution is zero. Splits from its C-8.1-LO-2 siblings because no speed expression is needed - only the distance/displacement contrast applied to a closed path."
+  }
+ ]
+}

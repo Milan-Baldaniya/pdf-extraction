@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23126,
+ "mappings": [
+  {
+   "sha": "c0ef52eb4514057d",
+   "codes": ["C-2.3-LO-3"],
+   "note": "the middle term is split and the roots stated; a textbook LO-3 item with integer coefficients and no discriminant asked"
+  },
+  {
+   "sha": "4f446eda362719fc",
+   "codes": ["C-2.3-LO-3"],
+   "note": "squaring the radical leaves x^2 = 25 and the negative root is discarded because the POSITIVE root is asked; root extraction and selection, but with no real-life context so C-2.2-LO-6 does not apply"
+  },
+  {
+   "sha": "aa9bc2c802b3aa5b",
+   "codes": ["C-2.1-LO-5"],
+   "note": "a supplied root is substituted to recover k; the item rests on the root being a zero of the polynomial, not on any solving technique"
+  },
+  {
+   "sha": "3b5b8f8156bc7b5e",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D >= 0 for real roots gives a quadratic inequality in k and the answer is two ranges; an inequality version of the discriminant condition, unlike the D = 0 items"
+  },
+  {
+   "sha": "bcf1e8ac3eb04e87",
+   "codes": ["C-2.3-LO-5"],
+   "note": "same D >= 0 condition but linear in k, so the answer is a single bound; still the discriminant outcome"
+  },
+  {
+   "sha": "a4a7bd21eb794e9c",
+   "codes": ["C-2.3-LO-3"],
+   "note": "splitting the middle term with a leading coefficient of 6; the worked route is factorisation, not the formula"
+  },
+  {
+   "sha": "2276c80379a5afb5",
+   "codes": ["C-2.3-LO-3"],
+   "note": "divides through by 2 first, then splits a surd middle term; the roots are surds but the equation still factorises, so LO-3 rather than LO-4"
+  },
+  {
+   "sha": "c3eb4cfe03a3f186",
+   "codes": ["C-2.3-LO-3"],
+   "note": "surd leading coefficient and surd constant, split as 8x - 3x; factorisation is what the marks reward"
+  },
+  {
+   "sha": "4eac56733173cb2d",
+   "codes": ["C-2.3-LO-3"],
+   "note": "the split 2x + 5x works only after seeing sqrt(2)*sqrt(2) = 2; a factorisation item whose difficulty is surd manipulation"
+  },
+  {
+   "sha": "caa38899f5707e23",
+   "codes": ["C-2.3-LO-3"],
+   "note": "the middle term is split as -3sqrt(2)x + sqrt(2)x, which requires spotting sqrt(3)*sqrt(2) = sqrt(6); still LO-3"
+  },
+  {
+   "sha": "22fd0dd0d0321d3a",
+   "codes": ["C-2.3-LO-3"],
+   "note": "the middle coefficient is printed pre-split as -(sqrt(3)+1), so the factorisation is almost handed over; the cleanest LO-3 item of this surd run"
+  },
+  {
+   "sha": "33433562deb82e41",
+   "codes": ["C-2.3-LO-3"],
+   "note": "both sides must be expanded into standard form before the middle term can be split; the extra step is rearrangement, and the outcome graded is still factorisation"
+  },
+  {
+   "sha": "a001aa0e317ab89d",
+   "codes": ["C-2.3-LO-3"],
+   "note": "fractional coefficients cleared first, then split; same rearrange-then-factorise shape as the bracketed item above"
+  },
+  {
+   "sha": "f43f09929e6bada8",
+   "codes": ["C-2.3-LO-4"],
+   "note": "symbolic coefficients in a and b where the discriminant simplifies to 16b^4; the worked route is the quadratic formula because no split is available, so LO-4 not LO-3"
+  },
+  {
+   "sha": "2d3fb48430dc4c2b",
+   "codes": ["C-2.3-LO-3"],
+   "note": "completed into (x-a)^2 - (2b)^2 and split by difference of squares; a factorisation route even though the coefficients are symbolic, unlike its formula-solved neighbours"
+  },
+  {
+   "sha": "f95a662ed8874c42",
+   "codes": ["C-2.3-LO-4"],
+   "note": "the formula is applied to 2x^2 + ax - a^2 and the surd collapses to 3a; LO-4 because the solution proceeds through (-b +/- sqrt(D))/2a"
+  },
+  {
+   "sha": "dbc02b7a455e6e9c",
+   "codes": ["C-2.3-LO-4"],
+   "note": "solved by the formula with the discriminant simplifying to 16q^2; the answer notes a difference-of-squares alternative, but the primary route credited is the formula"
+  },
+  {
+   "sha": "b6f179faab4da095",
+   "codes": ["C-2.3-LO-3"],
+   "note": "a rational equation cleared to 2x^2 - 3(a+b)x + (a+b)^2 = 0 which then factorises; the graded finish is factorisation despite the symbolic coefficients"
+  },
+  {
+   "sha": "59c8e254e04d801f",
+   "codes": ["C-2.1-LO-5"],
+   "note": "BOTH roots are supplied and substituted to give simultaneous equations in a and b; the equation is never solved, only its zeroes used, so C-2.1-LO-5"
+  },
+  {
+   "sha": "8328d3a08167c2e2",
+   "codes": ["C-2.3-LO-3"],
+   "note": "squaring a radical equation introduces an extraneous root that must be rejected by checking back; the quadratic itself is solved by splitting, so LO-3 with a verification step"
+  },
+  {
+   "sha": "ce27e0d8fa6a6d99",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = 0 solved for k with both signs admissible; a plain equal-roots parameter item"
+  },
+  {
+   "sha": "a923c850ab245838",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = 0 gives k = 0 or -1, and the extra judgement is that k = -1 kills the x^2 term so the equation would not be quadratic; the discriminant still drives it"
+  },
+  {
+   "sha": "ff1a1b62d04a8363",
+   "codes": ["C-2.1-LO-5", "C-2.3-LO-5"],
+   "note": "two genuinely separate stages -- a supplied root fixes k through substitution, then D = 0 on a second equation fixes q; neither outcome alone covers the item"
+  },
+  {
+   "sha": "570524b4a3c3abfd",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = 0 solved for k; the printed surd is ambiguous between 2*sqrt(2k) and 2*sqrt(2)*k and the key takes the latter (defect reported), but either reading is a discriminant item"
+  },
+  {
+   "sha": "7ae05d8b8d46bb9e",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D >= 0 gives k <= 16 and the word 'positive' then restricts the range; a discriminant inequality with an extra admissibility filter on the parameter"
+  }
+ ]
+}

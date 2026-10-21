@@ -1,0 +1,30 @@
+{
+ "chapter_id": 23513,
+ "mappings": [
+  {"sha": "725ab0645e1f83fa", "codes": ["C-5.1-LO-2"], "note": "complementary angles about the perpendiculars give the second equal angle, so AA; no parallel line and no measurement, so LO-2"},
+  {"sha": "795fedf40a30b1f0", "codes": ["C-5.1-LO-1"], "note": "BPT applied in two triangles to get equal ratios, then the CONVERSE applied in a third to conclude QR parallel to AD; three uses of the same theorem"},
+  {"sha": "5e4caeb20ab3875c", "codes": ["C-5.1-LO-2"], "note": "the parallel gives ALTERNATE angles across a transversal in the X-configuration, so this is AA similarity; BPT does not apply because the parallel does not cut the two sides of one triangle"},
+  {"sha": "b0b780d04442beba", "codes": ["C-5.1-LO-2"], "note": "AA from the common vertex angle and the two marked 50 degree angles, then corresponding sides give x in terms of a, b, c"},
+  {"sha": "81239a38f6af54d7", "codes": ["C-5.1-LO-2"], "note": "AA from isosceles base angles and two perpendiculars. NOTE: this is the same problem as item 45 with the vertex letters reordered - a near-duplicate in the bank, see report"},
+  {"sha": "b386c09fc00f728f", "codes": ["C-5.1-LO-1"], "note": "two parallels, DE and DF, each giving a BPT ratio with the common left-hand side BD/DA; the whole proof is the theorem applied twice"},
+  {"sha": "5be26d2ac158ff41", "codes": ["C-5.1-LO-3"], "note": "height of a flag pole from its shadow and a known tree: a height that cannot be measured directly, obtained by similarity - the definition of LO-3"},
+  {"sha": "19175134e9739425", "codes": ["C-5.2"], "note": "tangents from an external point and a proof that angle POQ = 90 degrees. This is a CIRCLES question misfiled into the Triangles bank; C-5.2 (tangent theorems) is the only code that describes it, and its outcomes belong to chapter 23198. See report"},
+  {"sha": "3d9f114cb3dcfa68", "codes": ["C-5.2"], "note": "equal tangent lengths from an external point for a circle inscribed in a quadrilateral - again a Circles item filed under Triangles; C-5.2 is the honest cite and no triangle-similarity outcome applies. See report"},
+  {"sha": "0a8741f3e5c4a42f", "codes": ["C-5.1-LO-1"], "note": "asks for the PROOF of the Basic Proportionality Theorem itself, by the equal-altitude area argument; LO-1 says 'states and proves', and this is the states-and-proves half"},
+  {"sha": "82de0f775597dae3", "codes": ["C-5.1-LO-2"], "note": "two AA similarities among three perpendiculars to the same line, added to give 1/x + 1/z = 1/y; establishing each pair is the work"},
+  {"sha": "31971a77d510ebe2", "codes": ["C-5.1-LO-2"], "note": "square inscribed in a right triangle: two AA similarities chained through the middle triangle to give FG^2 = BG x FC"},
+  {"sha": "7e83081a0dca6b5a", "codes": ["C-5.1-LO-2"], "note": "a stated similarity turned into a quadratic in x through the common ratio of corresponding sides; correspondence, not a parallel line"},
+  {"sha": "5e108ccdc149c050", "codes": ["C-5.1-LO-1"], "note": "the parallelogram gives two parallels, and both parts then follow from the BPT and its converse in triangles ABX and ACD"},
+  {"sha": "4ab86415f41eebdf", "codes": ["C-5.1-LO-1"], "note": "a parallel is CONSTRUCTED through C and the BPT applied twice along it; the isosceles step only supplies equal lengths for that proportion"},
+  {"sha": "b24edf3bb95dcbc6", "codes": ["C-5.1-LO-2"], "note": "medians halved turn the given ratios into three proportional sides of the half-triangles, so SSS similarity; this is criterion work"},
+  {"sha": "3b910a1afeca4a80", "codes": ["CG-5"], "note": "AB + AD = BC + CD solved against Pythagoras in the right triangle ACD; no similar triangles anywhere and no Pythagoras outcome exists"},
+  {"sha": "095cb8f3499349e1", "codes": ["CG-5", "C-5.1-LO-2"], "note": "asks for the PROOF of the Pythagoras theorem, which the marking scheme does by AA similarity of the two sub-triangles, then applies it to a rhombus. The similarity step is LO-2; the theorem itself has no outcome, hence the goal"},
+  {"sha": "3fc3f92872596dd7", "codes": ["CG-5"], "note": "three identities all obtained by Pythagoras on points dividing the legs 2:1; the ratio is given, so no similarity is established"},
+  {"sha": "e4f91a9eb2b26efd", "codes": ["C-5.1-LO-2"], "note": "the textbook theorem that proportional sides and medians imply similarity, proved by doubling the medians and using SSS; squarely a criterion result"},
+  {"sha": "50a4fbfbf44182d5", "codes": ["CG-5"], "note": "second diagonal of a rhombus from Pythagoras in the quarter triangle; the bank tags it 'why similarity matters' but no similarity is used"},
+  {"sha": "e235c3460215c81c", "codes": ["C-5.1-LO-2", "C-5.2-LO-1"], "note": "a stated CONGRUENCE supplies equal angles by CPCT, which then feed an AA SIMILARITY conclusion - the item turns on knowing the two are different relations, so the distinction outcome earns its place beside LO-2"},
+  {"sha": "de7eb90b79f80cdd", "codes": ["C-5.1-LO-3"], "note": "height of the wire coupling and its horizontal distance, neither directly measurable, found from the similar triangles the crossing wires make"},
+  {"sha": "75b6ea79e1a3c870", "codes": ["C-5.1-LO-3"], "note": "height of a tree from its shadow against a fence of known height; the classic indirect-measurement application"},
+  {"sha": "2b874df41792b8b9", "codes": ["C-5.1-LO-3"], "note": "altitude of a helicopter from shadow lag against a person's height and shadow - an indirect measurement, with a unit trap between cm and m"}
+ ]
+}

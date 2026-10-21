@@ -1,0 +1,260 @@
+{
+ "chapter": 4,
+ "chapter_id": 29827,
+ "extraction_id": 843,
+ "source": "SAS_Maths-Class-6.pdf",
+ "source_url": "https://cbseacademic.nic.in/cbe/documents/SAS_Maths-Class-6.pdf",
+ "source_grade": 6,
+ "target_grade": 6,
+ "standard_id": 39,
+ "cross_grade": false,
+ "old_chapters": [
+  "Data Handling"
+ ],
+ "assets": [
+  {
+   "file_name": "f292e2ae2c4b5e9f383106842b69de083ffbbc65d674cca38ea19563a471f8a3.png",
+   "relative_path": "sas_figures/c6_data_handling/f292e2ae2c4b5e9f383106842b69de083ffbbc65d674cca38ea19563a471f8a3.png",
+   "extension": "png",
+   "size_bytes": 168357,
+   "url": "http://127.0.0.1:8000/api/assets/sas_figures/c6_data_handling/f292e2ae2c4b5e9f383106842b69de083ffbbc65d674cca38ea19563a471f8a3.png",
+   "width": 1150,
+   "height": 777,
+   "sha256": "f292e2ae2c4b5e9f383106842b69de083ffbbc65d674cca38ea19563a471f8a3",
+   "page_index": 36,
+   "page_number": 37
+  },
+  {
+   "file_name": "d7d93c54249e078e14fe200e98f8564072d7126cdf409382d92fd74fef89bbf6.png",
+   "relative_path": "sas_figures/c6_data_handling/d7d93c54249e078e14fe200e98f8564072d7126cdf409382d92fd74fef89bbf6.png",
+   "extension": "png",
+   "size_bytes": 18880,
+   "url": "http://127.0.0.1:8000/api/assets/sas_figures/c6_data_handling/d7d93c54249e078e14fe200e98f8564072d7126cdf409382d92fd74fef89bbf6.png",
+   "width": 1150,
+   "height": 289,
+   "sha256": "d7d93c54249e078e14fe200e98f8564072d7126cdf409382d92fd74fef89bbf6",
+   "page_index": 37,
+   "page_number": 38
+  },
+  {
+   "file_name": "6e03ecdac58ff1a536d33b96ead73a9832f56ff9a2ef51ea2efaa4ee84185f0d.png",
+   "relative_path": "sas_figures/c6_data_handling/6e03ecdac58ff1a536d33b96ead73a9832f56ff9a2ef51ea2efaa4ee84185f0d.png",
+   "extension": "png",
+   "size_bytes": 107323,
+   "url": "http://127.0.0.1:8000/api/assets/sas_figures/c6_data_handling/6e03ecdac58ff1a536d33b96ead73a9832f56ff9a2ef51ea2efaa4ee84185f0d.png",
+   "width": 1150,
+   "height": 653,
+   "sha256": "6e03ecdac58ff1a536d33b96ead73a9832f56ff9a2ef51ea2efaa4ee84185f0d",
+   "page_index": 38,
+   "page_number": 39
+  }
+ ],
+ "items": [
+  {
+   "number": "SAS21M06D0901",
+   "form": "mcq",
+   "stem": "Home appliances like fridge and television consume electrical energy. Jiya made a bar graph of the electricity consumption of six appliances in her house in a year. Which appliance consumes more than 2000 kWh?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Fridge"
+    },
+    {
+     "label": "B",
+     "text": "Television"
+    },
+    {
+     "label": "C",
+     "text": "Microwave"
+    },
+    {
+     "label": "D",
+     "text": "Air Conditioner"
+    }
+   ],
+   "answer": "D. Air Conditioner",
+   "reproduction": "verbatim",
+   "correct_option": "D",
+   "images": [
+    "f292e2ae2c4b5e9f383106842b69de083ffbbc65d674cca38ea19563a471f8a3.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M06D0902",
+   "form": "mcq",
+   "stem": "Home appliances like fridge and television consume electrical energy. Jiya made a bar graph of the electricity consumption of six appliances in her house in a year. What is the electricity consumption (in kWh) of the washing machine?",
+   "options": [
+    {
+     "label": "A",
+     "text": "500"
+    },
+    {
+     "label": "B",
+     "text": "800"
+    },
+    {
+     "label": "C",
+     "text": "900"
+    },
+    {
+     "label": "D",
+     "text": "1000"
+    }
+   ],
+   "answer": "C. 900",
+   "reproduction": "verbatim",
+   "correct_option": "C",
+   "images": [
+    "f292e2ae2c4b5e9f383106842b69de083ffbbc65d674cca38ea19563a471f8a3.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M06D0903",
+   "form": "mcq",
+   "stem": "Jiya represents the energy consumption of a microwave and a television as given below. Microwave – Television – How much energy consumption (in kWh) does a represent?",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "100"
+    },
+    {
+     "label": "C",
+     "text": "500"
+    },
+    {
+     "label": "D",
+     "text": "2500"
+    }
+   ],
+   "answer": "B. 100",
+   "reproduction": "verbatim",
+   "correct_option": "B",
+   "images": [
+    "d7d93c54249e078e14fe200e98f8564072d7126cdf409382d92fd74fef89bbf6.png",
+    "f292e2ae2c4b5e9f383106842b69de083ffbbc65d674cca38ea19563a471f8a3.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M06D0905",
+   "form": "mcq",
+   "stem": "Jiya represents the energy consumption of a microwave and a television as given below. Microwave – Television – How much more electricity (in kWh) was used by the fridge than by the television?",
+   "options": [
+    {
+     "label": "A",
+     "text": "300 kWh"
+    },
+    {
+     "label": "B",
+     "text": "700 kWh"
+    },
+    {
+     "label": "C",
+     "text": "900 kWh"
+    },
+    {
+     "label": "D",
+     "text": "1200 kWh"
+    }
+   ],
+   "answer": "C. 900 kWh",
+   "reproduction": "verbatim",
+   "correct_option": "C",
+   "images": [
+    "d7d93c54249e078e14fe200e98f8564072d7126cdf409382d92fd74fef89bbf6.png",
+    "f292e2ae2c4b5e9f383106842b69de083ffbbc65d674cca38ea19563a471f8a3.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M06D0906",
+   "form": "mcq",
+   "stem": "Shobhit works for a shoe store. He records the shoe sizes and the number of pairs sold every day. On Tuesday, he sold 60 pairs. His record for the day is shown below. Note: represents 5. How many pairs of size 8 were sold on Tuesday?",
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "10"
+    },
+    {
+     "label": "C",
+     "text": "11"
+    },
+    {
+     "label": "D",
+     "text": "13"
+    }
+   ],
+   "answer": "D. 13",
+   "reproduction": "verbatim",
+   "correct_option": "D",
+   "images": [
+    "6e03ecdac58ff1a536d33b96ead73a9832f56ff9a2ef51ea2efaa4ee84185f0d.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M06D0908",
+   "form": "short",
+   "stem": "Shobhit works for a shoe store. He records the shoe sizes and the number of pairs sold every day. On Tuesday, he sold 60 pairs. His record for the day is shown below. Note: represents 5. 8 Shobit realised that he had not fully recorded the sale for Tuesday. How many sold pairs had he not recorded?",
+   "options": [],
+   "answer": "5 5 pairs",
+   "reproduction": "verbatim",
+   "images": [
+    "6e03ecdac58ff1a536d33b96ead73a9832f56ff9a2ef51ea2efaa4ee84185f0d.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M06D0909",
+   "form": "mcq",
+   "stem": "Shobhit works for a shoe store. He records the shoe sizes and the number of pairs sold every day. On Tuesday, he sold 60 pairs. His record for the day is shown below. Note: represents 5. The unrecorded data was of shoe size 7. Shobit corrected his record accordingly. Which of the following statements will be true now?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Shoe size 8 sold the least now"
+    },
+    {
+     "label": "B",
+     "text": "Shoe size 7 sold the most now"
+    },
+    {
+     "label": "C",
+     "text": "Shoe size 5 is the new mode of the data"
+    },
+    {
+     "label": "D",
+     "text": "Number of shoe pairs of size 3 can be calculated"
+    }
+   ],
+   "answer": "B. Shoe size 7 sold the most now",
+   "reproduction": "verbatim",
+   "correct_option": "B",
+   "images": [
+    "6e03ecdac58ff1a536d33b96ead73a9832f56ff9a2ef51ea2efaa4ee84185f0d.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M06D0910",
+   "form": "short",
+   "stem": "Shobhit works for a shoe store. He records the shoe sizes and the number of pairs sold every day. On Tuesday, he sold 60 pairs. His record for the day is shown below. Note: represents 5. The price of one shoe pair of size 5 is Rs 800. How much money had Shobhit collected by selling all the shoe pairs of size 5?",
+   "options": [],
+   "answer": "Rs 5600",
+   "reproduction": "verbatim",
+   "images": [
+    "6e03ecdac58ff1a536d33b96ead73a9832f56ff9a2ef51ea2efaa4ee84185f0d.png"
+   ],
+   "figure_required": true
+  }
+ ]
+}

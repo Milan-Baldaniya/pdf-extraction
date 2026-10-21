@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "b0e3aee7b716b28c",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Why an ammeter must be low-resistance if the circuit current is to be read faithfully - meter behaviour, the second half of LO-5. The resistance here is the instrument's, not a conductor's, so no C 2.4 outcome is graded."
+  },
+  {
+   "sha": "f3627450a9ef3db1",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Asks for H = VIt, the statement of Joule heating. Kept with LO-2 rather than C 2.5-LO-1 because the quantity produced is heat in a conductor, not the power rating or energy bill of an appliance."
+  },
+  {
+   "sha": "c6a1ada453916770",
+   "codes": ["C 2.4"],
+   "note": "Who the ohm is named after. Poor fit like the parallel 'ampere' item: the graded answer is a name, not a relation, so LO-1 would be a pretence. Cited at competency level and reported as trivia with no outcome."
+  },
+  {
+   "sha": "40dfef2c63d4a051",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-3"],
+   "note": "Material choice for a lamp filament: LO-2 owns the filament lamp, LO-3 owns the resistivity/material judgement behind the choice. Note the stored answer says tungsten has 'low resistivity', which contradicts the usual justification and looks like an answer-key error."
+  },
+  {
+   "sha": "537b76854de5f431",
+   "codes": ["C 2.4-LO-1"],
+   "note": "Operational meaning of 1 ohm as 1 volt producing 1 ampere - Ohm's law used to define the unit. Distinct from the resistivity-unit items, which belong to LO-3."
+  },
+  {
+   "sha": "707ad8c244a8e3ab",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Energy = power x time, the relation LO-1 needs before any kWh calculation. Stating rather than substituting, but the same outcome as the billing items."
+  },
+  {
+   "sha": "6ede6892fa252a5a",
+   "codes": ["C 2.5-LO-1"],
+   "note": "What a commercial 'unit' means - one kilowatt hour, priced. This is the kWh clause of LO-1 in its everyday-billing form; no heat is produced or dissipated, so C 2.5-LO-2 is the wrong sibling."
+  },
+  {
+   "sha": "774ff83cb0fc139b",
+   "codes": ["C 2.4"],
+   "note": "Conventional current direction versus electron flow. Not covered by any outcome - LO-1 uses current only as a magnitude in V = IR and says nothing about its direction. Content gap."
+  },
+  {
+   "sha": "343a3f41a3c0bb53",
+   "codes": ["C 2.4"],
+   "note": "Sub-multiple of the ampere. Belongs with the current-unit gap; there is no outcome about units of current, unlike the ohm which LO-1 defines."
+  },
+  {
+   "sha": "5aead9d246389a82",
+   "codes": ["C 8.1", "C 2.4"],
+   "note": "Builds the water-pipe analogy for potential difference driving current. Cited at C 8.1 because the graded skill is constructing a model of a phenomenon, and at C 2.4 for the potential-difference content; C 8.1-LO-5 is wrong since no circuit diagram or meter is involved."
+  },
+  {
+   "sha": "0f1c61e5d203092b",
+   "codes": ["C 2.4"],
+   "note": "SI unit of potential. Same uncovered ground as the other volt items; recorded under the potential-difference gap rather than stretched onto LO-1."
+  },
+  {
+   "sha": "3900efa26a0738a7",
+   "codes": ["C 2.4"],
+   "note": "Numeric substitution into W = QV with a 10 V difference. The only numerical item in this part that never touches resistance or current, so no C 2.4 outcome fits - a clear instance of the missing potential-difference outcome."
+  },
+  {
+   "sha": "20f6b15d3556ddfa",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Perfect conductor and perfect insulator defined by zero and infinite resistivity - the material clause of LO-3 taken to its limits."
+  },
+  {
+   "sha": "f44d535d101a485b",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Asks for R = rho*l/A, the expression that encodes all three LO-3 dependencies at once. Not LO-1: the expected answer is the geometric formula, not R = V/I."
+  },
+  {
+   "sha": "575e35f72d4d04f8",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Compares the resistivity of an alloy with that of its parent metal - a material comparison with geometry irrelevant, which is LO-3's core."
+  },
+  {
+   "sha": "df6d19efbac6b263",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-3"],
+   "note": "Why nichrome for a heater element. LO-2 leads because the heater is the named application; LO-3 is the material-property half (high resistivity, high melting point) that supplies the reason."
+  },
+  {
+   "sha": "2c8d454d3a198c01",
+   "codes": ["C 2.4-LO-3", "C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Three genuinely separate steps: define resistivity and use R = rho*l/A when l doubles (LO-3), then V = IR at fixed V to halve the current (LO-1), with the result read as an ammeter deflection (LO-5). One of the few items here where all three are graded rather than assumed."
+  },
+  {
+   "sha": "b445654d930659a5",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Ranks pure metals by resistivity - LO-3 material clause. Flagged separately: the stored answer gives mercury at 94e-8 ohm m as the minimum, which is in fact the largest pure-metal value in the standard table (silver is the minimum), so the key looks wrong."
+  },
+  {
+   "sha": "5254909e00426150",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Same LO-3 ranking demand, for alloys. Also key-suspect: nichrome is quoted as the minimum-resistivity alloy when it is normally the highest, and the quoted 100e-6 ohm m does not match the usual table."
+  },
+  {
+   "sha": "e8be70c88c113f88",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Highest-resistivity insulator. Same material-ranking family as the two items above; no geometry or circuit quantity involved."
+  },
+  {
+   "sha": "5fa2d21ec882925c",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Resistance rising with temperature. LO-3 is the nearest legal code but it enumerates only length, area of cross-section and material - temperature is named in no outcome, so this is a genuine coverage gap rather than a clean fit."
+  },
+  {
+   "sha": "b4f3f1b6d922bd68",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Alloy versus parent metal by resistivity, stated as a general rule rather than for a named pair - same outcome as the constantan/copper item, and they honestly share it."
+  },
+  {
+   "sha": "fac74864a2783a44",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-3"],
+   "note": "Why alloys are used in heating devices. LO-2 for the heating-device application; LO-3 for the material argument. The reason given (oxidation resistance) is chemical durability, which no outcome covers, so LO-3 carries it only as 'material'."
+  },
+  {
+   "sha": "e5681043c01003ab",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Interprets a numerical resistivity value as the resistance of a unit cube of the material - this is LO-3's length-and-area dependence read backwards out of the constant."
+  },
+  {
+   "sha": "f83bf6eabc716eff",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Resistivity is unchanged when a wire is stretched. The whole item is the material-versus-geometry distinction of LO-3; answering with a changed R would be the intended error."
+  }
+ ]
+}

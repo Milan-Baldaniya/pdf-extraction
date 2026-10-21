@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23197,
+ "mappings": [
+  {
+   "sha": "5b9a4a2dea17ec2b",
+   "codes": ["C-3.1-LO-1"],
+   "note": "c-b = 2b-c is the equal-successive-differences condition on three consecutive terms; solved for a ratio, but the graded relation is LO-1's criterion"
+  },
+  {
+   "sha": "56ac66eccfda730b",
+   "codes": ["C-3.1-LO-1"],
+   "note": "generates a1 and a2 from the closed form only in order to difference them; d = a2-a1 is LO-1's tool, not an application of a+(n-1)d"
+  },
+  {
+   "sha": "f04260ac0c6c5422",
+   "codes": ["C-3.1-LO-2"],
+   "note": "the nth-term formula rearranged for the first term with d and a7 given; no list to inspect, so LO-2"
+  },
+  {
+   "sha": "04c37c78cdc8af6f",
+   "codes": ["C-3.1-LO-3"],
+   "note": "n = 8 is stated and a = d = 3 is immediate, so nothing has to be counted from a description; this is a plain sum-formula exercise, not a C-3.2-LO-2 contextual count"
+  },
+  {
+   "sha": "6a13e718756e1604",
+   "codes": ["C-3.2-LO-2"],
+   "note": "the AP 110,120,...,990 must be built from 'divisible by 2 and 5 between 102 and 998' via the LCM before counting; the assessed extra step is the contextual construction and the count, not a term value"
+  },
+  {
+   "sha": "fed8a91035cc84d7",
+   "codes": ["C-3.1-LO-2"],
+   "note": "membership is decided by solving a+(n-1)d = -150 and rejecting a non-integer n; the judgement rests on the nth-term formula, not on testing differences"
+  },
+  {
+   "sha": "37bbeba6f28250b0",
+   "codes": ["C-3.1-LO-2"],
+   "note": "same nth-term equation solved for the index, this time with an integer solution; LO-2's formula run backwards"
+  },
+  {
+   "sha": "f62bf29c661af343",
+   "codes": ["C-3.1-LO-1"],
+   "note": "writes out four terms by successive addition of d; the constant-difference definition is the whole content, with no index evaluated"
+  },
+  {
+   "sha": "5b0c6be1224b75ff",
+   "codes": ["C-3.1-LO-2"],
+   "note": "the surds must first be simplified to see the constant step, but the marks are on a10 = a+9d; the extra work is surd handling, not a different outcome"
+  },
+  {
+   "sha": "b6ec62fbc179e400",
+   "codes": ["C-3.1-LO-1"],
+   "note": "asks only for the next term, i.e. one more addition of d onto the last listed term; no index formula is needed, unlike the 10th-term twin of this sequence"
+  },
+  {
+   "sha": "7ece9531051c99ff",
+   "codes": ["C-3.1-LO-1"],
+   "note": "an explicit is-it-an-AP decision with justification, and the answer is no; only LO-1 can carry a negative verdict on a list"
+  },
+  {
+   "sha": "84927713c1134f76",
+   "codes": ["C-3.1-LO-2"],
+   "note": "a16 and a12 are expanded through a+(n-1)d so a cancels and 4d remains; index arithmetic, so LO-2 rather than the adjacent-difference test"
+  },
+  {
+   "sha": "aff34581a5c91fa0",
+   "codes": ["C-3.1-LO-1"],
+   "note": "equal-differences condition on three consecutive expressions solved for y; same criterion as the other three-term items, applied to a linear unknown"
+  },
+  {
+   "sha": "eb7181575fae6707",
+   "codes": ["C-3.1-LO-1"],
+   "note": "identical criterion applied to 3k-2, 4k-6, k+2; the AP test is the equation, so LO-1 not LO-2"
+  },
+  {
+   "sha": "57f071ccab082ace",
+   "codes": ["C-3.1-LO-2"],
+   "note": "a25 via the nth-term formula; mapped on the intended sequence -5, -5/2, 0, 5/2 because the printed stem has dropped the term 0 and as printed is not an AP at all (defect reported)"
+  },
+  {
+   "sha": "7b944fe62d18a0f7",
+   "codes": ["C-3.1-LO-2"],
+   "note": "d is the answer but it is reached by expanding a21 and a7 as a+(n-1)d; no list is given to difference, so this cannot be LO-1"
+  },
+  {
+   "sha": "d524a878b155b00c",
+   "codes": ["C-3.1-LO-1"],
+   "note": "a single middle blank fixed by x-2 = 26-x; the arithmetic-mean form of the constant-difference property"
+  },
+  {
+   "sha": "044d39016800c8c1",
+   "codes": ["C-3.1-LO-1"],
+   "note": "uses the constant step to pair the terms equidistant from the ends (a-18 = -3-b) so a+b falls out without finding d; still purely the defining property"
+  },
+  {
+   "sha": "586de43d6efcdff8",
+   "codes": ["C-3.1-LO-1"],
+   "note": "one subtraction of adjacent listed terms with a parameter q that cancels; the definition test on an algebraic list"
+  },
+  {
+   "sha": "6f6d02931914e6a4",
+   "codes": ["C-3.1-LO-1"],
+   "note": "generates four terms from a and d by repeated addition, here with two-variable expressions; the arithmetic is symbolic but the outcome is still term generation"
+  },
+  {
+   "sha": "b751c674f46f5c20",
+   "codes": ["C-3.1-LO-2"],
+   "note": "a far index (37th) forces the closed form rather than listing; a+(n-1)d with a surd, so LO-2"
+  },
+  {
+   "sha": "76d30b3bcb2ab5b6",
+   "codes": ["C-3.1-LO-2"],
+   "note": "a25-a20 = 5d obtained by expanding both indices; same LO-2 pattern as a21-a7, with a different gap"
+  },
+  {
+   "sha": "e7697ebbb2ecbef6",
+   "codes": ["C-3.1-LO-3"],
+   "note": "n = 10 is given in the stem, so no counting from a description; only the sum formula is graded"
+  },
+  {
+   "sha": "54b624bfb602d7c6",
+   "codes": ["C-3.1-LO-3"],
+   "note": "free-response twin of the S16 MCQ on 10, 6, 2; d is read off the list and the sum formula does the rest"
+  },
+  {
+   "sha": "bf9e906a7c8b963b",
+   "codes": ["C-3.1-LO-3"],
+   "note": "'five positive integers divisible by 6' fixes n = 5 outright, so unlike the how-many items this needs no contextual count -- sum formula only"
+  }
+ ]
+}

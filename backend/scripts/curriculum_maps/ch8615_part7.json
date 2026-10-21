@@ -1,0 +1,213 @@
+{
+ "chapter_id": 8615,
+ "mappings": [
+  {
+   "sha": "e7aea515051ed3e7",
+   "codes": [
+    "C-2.7-LO-5",
+    "C-2.7-LO-6",
+    "LO-79"
+   ],
+   "note": "Three parts, three codes: compressions and rarefactions and why sound is longitudinal (LO-5), then a frequency computed from 50 compressions in 2 s (LO-6 + LO-79)."
+  },
+  {
+   "sha": "e41da58c4e4506e8",
+   "codes": [
+    "CG2",
+    "C8.1",
+    "LO-79"
+   ],
+   "note": "Draw the SONAR schematic (C8.1, an apparatus model rather than LO-78's data model), explain the principle and compute the depth (LO-79). CG2 carries SONAR, which no outcome names."
+  },
+  {
+   "sha": "542466eb5bda75b7",
+   "codes": [
+    "C-2.7-LO-1",
+    "C8.2"
+   ],
+   "note": "A classroom activity to be described (C8.2) showing production by a vibrating tuning fork (LO-1). Part (b) is about energy transfer, which has no outcome; not stretched onto LO-5, which is about particle motion."
+  },
+  {
+   "sha": "f4bfbb8c4457b9f6",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-78",
+    "LO-79"
+   ],
+   "note": "Draw the labelled density-distance graph (LO-78), define wavelength and frequency (LO-6), then compute lambda from 340/170 (LO-79). Each part earns one code."
+  },
+  {
+   "sha": "ac7fa355f2c36686",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-77",
+    "LO-79"
+   ],
+   "note": "Part (a) asks for the FACTORS that affect the speed of sound, which is LO-77's 'identify the key factors that influence their behaviour'; part (b) is a d = vt prediction (LO-79) on LO-6's speed."
+  },
+  {
+   "sha": "24111c99b25ab498",
+   "codes": [
+    "C2.7",
+    "LO-73",
+    "C5.3"
+   ],
+   "note": "Tone and note, then timbre. Only competency C2.7's text covers sound quality; LO-73 and its parent C5.3 carry the musical framing. No learning outcome in the frame mentions timbre at all."
+  },
+  {
+   "sha": "9e69a720bb2a3ae0",
+   "codes": [
+    "C-2.7-LO-5",
+    "C-2.7-LO-1"
+   ],
+   "note": "Longitudinal versus transverse with a diagram and which one sound is (LO-5), plus part (c) on how humans produce sound (LO-1). The diagram is a textbook illustration rather than a model built from data, so no LO-78."
+  },
+  {
+   "sha": "580bf14698725cb7",
+   "codes": [
+    "CG2",
+    "LO-79"
+   ],
+   "note": "Gun 55 m from a wall, time for the echo. t = 2d/v applied (LO-79); CG2 because echo has no outcome. One of eleven echo/SONAR numericals that share this pair."
+  },
+  {
+   "sha": "31c23b4bab998fd0",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-79"
+   ],
+   "note": "1024 waves in 4 s gives 256 Hz - the definition of frequency (LO-6) used numerically (LO-79)."
+  },
+  {
+   "sha": "bd1e098a71885d30",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-79"
+   ],
+   "note": "Frequency of a heartbeat. LO-6 is about SOUND waves, so this is a mild misfit - the item borrows the definition of frequency for a non-acoustic periodic event. LO-6 is still the closest legal code; recorded as a weak fit."
+  },
+  {
+   "sha": "93fa7ab1908b85aa",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-79"
+   ],
+   "note": "Water waves rocking a boat: wavelength from crest spacing, then f = v/lambda. LO-6 names these characteristics for SOUND waves, so the transverse water-wave setting is a mild misfit; recorded as a weak fit."
+  },
+  {
+   "sha": "7daa80611784c75f",
+   "codes": [
+    "C-2.7-LO-6",
+    "C-2.7-LO-5",
+    "LO-79"
+   ],
+   "note": "Separation between consecutive COMPRESSIONS, so LO-5 as well as LO-6 - the item requires knowing that the compression spacing IS the wavelength. LO-79 for the division."
+  },
+  {
+   "sha": "9c9aab58efd78dcc",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-79"
+   ],
+   "note": "lambda = v/f at 120 kHz. The bat is only dressing; nothing about echolocation is asked, so no CG2 - this is a plain wave-characteristics numerical."
+  },
+  {
+   "sha": "ea45be13b2a3a3c2",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-79"
+   ],
+   "note": "Speed of sound from a straight distance over time. The unknown is the speed itself, an LO-6 characteristic, which is what separates it from the echo items where the unknown is a distance."
+  },
+  {
+   "sha": "dd599ad96c603c2a",
+   "codes": [
+    "CG2",
+    "LO-79"
+   ],
+   "note": "Echo from a cliff after 4 s, solve for distance. Same pair as the other echo distance problems; they honestly share one gap and one skill."
+  },
+  {
+   "sha": "a5f1f89701c63d2d",
+   "codes": [
+    "CG2",
+    "LO-79"
+   ],
+   "note": "Sea depth from a 1 s round trip. Shares CG2 + LO-79 with the other SONAR items; the frame offers nothing to tell them apart."
+  },
+  {
+   "sha": "400f0f49d3819db9",
+   "codes": [
+    "CG2",
+    "LO-79"
+   ],
+   "note": "Distance to a whale from a 2.2 s sonar echo. Same family, same codes."
+  },
+  {
+   "sha": "f5059ec3d9f65f7f",
+   "codes": [
+    "CG2",
+    "LO-79"
+   ],
+   "note": "Water depth from a 2 s SONAR round trip at 1498 m/s. Same family; L143 is the same problem at 1531 m/s."
+  },
+  {
+   "sha": "c93609b51e71e1c8",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-79"
+   ],
+   "note": "Velocity from distance and time, then wavelength from frequency - both LO-6 characteristics, computed (LO-79). No reflection is involved, so no CG2."
+  },
+  {
+   "sha": "ce8f754997002bcf",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-79",
+    "LO-77"
+   ],
+   "note": "A two-stage problem: free fall then sound travel, with the total time given. LO-77 is earned because the student must decompose a real event into the factors contributing to the measured 3.13 s, which the one-step numericals never require."
+  },
+  {
+   "sha": "be1eb01c55255b5c",
+   "codes": [
+    "CG2",
+    "LO-79"
+   ],
+   "note": "SONAR depth at 1531 m/s. A near-duplicate of L140; mapped identically because it is the same question with a different constant."
+  },
+  {
+   "sha": "fab94104987a5d45",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-79"
+   ],
+   "note": "Wavelength and time period from frequency and speed - three LO-6 characteristics in one item, computed (LO-79)."
+  },
+  {
+   "sha": "ecb1bcd3c967aeb7",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-79"
+   ],
+   "note": "lambda = v/f, one step. Same codes as L135 and L144, which are the same relation with different givens."
+  },
+  {
+   "sha": "bb79c0c13171229a",
+   "codes": [
+    "CG2",
+    "LO-79"
+   ],
+   "note": "Radio waves reflected off the Moon. This is electromagnetic, not sound: every C-2.7 outcome is explicitly about sound waves, so no content outcome can be cited. CG2 for the reflection-and-ranging principle, LO-79 for d = vt/2. Recorded as a genuinely poor fit."
+  },
+  {
+   "sha": "7eafb0c69c751011",
+   "codes": [
+    "C-2.7-LO-6",
+    "LO-79",
+    "CG2"
+   ],
+   "note": "lambda = v/f (LO-6, LO-79) plus an audibility judgement against the 20 Hz to 20 kHz range, which only CG2 covers. The audibility part is what separates it from the plain lambda = v/f items."
+  }
+ ]
+}

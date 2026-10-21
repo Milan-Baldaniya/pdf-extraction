@@ -1,0 +1,282 @@
+{
+ "chapter": 5,
+ "chapter_id": 25944,
+ "extraction_id": 844,
+ "source": "SAS_Maths-Class-7.pdf",
+ "source_url": "https://cbseacademic.nic.in/cbe/documents/SAS_Maths-Class-7.pdf",
+ "source_grade": 7,
+ "target_grade": 7,
+ "standard_id": 40,
+ "cross_grade": false,
+ "old_chapters": [
+  "Lines and Angles"
+ ],
+ "assets": [
+  {
+   "file_name": "b9d575cc957a6ee7448e820b9906a4f766860bd1289088f9e6751f3a530d2815.png",
+   "relative_path": "sas_figures/c7_lines_and_angles/b9d575cc957a6ee7448e820b9906a4f766860bd1289088f9e6751f3a530d2815.png",
+   "extension": "png",
+   "size_bytes": 84269,
+   "url": "http://127.0.0.1:8000/api/assets/sas_figures/c7_lines_and_angles/b9d575cc957a6ee7448e820b9906a4f766860bd1289088f9e6751f3a530d2815.png",
+   "width": 1150,
+   "height": 516,
+   "sha256": "b9d575cc957a6ee7448e820b9906a4f766860bd1289088f9e6751f3a530d2815",
+   "page_index": 20,
+   "page_number": 21
+  },
+  {
+   "file_name": "3245804fab2df4d50ebb89d9f3becf10864d900b3b75f91050e7604ce6779b5e.png",
+   "relative_path": "sas_figures/c7_lines_and_angles/3245804fab2df4d50ebb89d9f3becf10864d900b3b75f91050e7604ce6779b5e.png",
+   "extension": "png",
+   "size_bytes": 103595,
+   "url": "http://127.0.0.1:8000/api/assets/sas_figures/c7_lines_and_angles/3245804fab2df4d50ebb89d9f3becf10864d900b3b75f91050e7604ce6779b5e.png",
+   "width": 1150,
+   "height": 599,
+   "sha256": "3245804fab2df4d50ebb89d9f3becf10864d900b3b75f91050e7604ce6779b5e",
+   "page_index": 21,
+   "page_number": 22
+  },
+  {
+   "file_name": "06a952ab922d0cfa0589b03fb947d73293e78db7d4a33deaf018b7596522f64b.png",
+   "relative_path": "sas_figures/c7_lines_and_angles/06a952ab922d0cfa0589b03fb947d73293e78db7d4a33deaf018b7596522f64b.png",
+   "extension": "png",
+   "size_bytes": 51488,
+   "url": "http://127.0.0.1:8000/api/assets/sas_figures/c7_lines_and_angles/06a952ab922d0cfa0589b03fb947d73293e78db7d4a33deaf018b7596522f64b.png",
+   "width": 1150,
+   "height": 504,
+   "sha256": "06a952ab922d0cfa0589b03fb947d73293e78db7d4a33deaf018b7596522f64b",
+   "page_index": 22,
+   "page_number": 23
+  }
+ ],
+ "items": [
+  {
+   "number": "SAS21M07S0501",
+   "form": "mcq",
+   "stem": "In the figure given below, AD is a straight line. PS and QR are perpendicular to AD. GH is parallel to IJ and KL is parallel to MN. What type of angles are ∠r and ∠t?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Adjacent angles"
+    },
+    {
+     "label": "B",
+     "text": "Vertically opposite"
+    },
+    {
+     "label": "C",
+     "text": "Corresponding angles"
+    },
+    {
+     "label": "D",
+     "text": "Alternate exterior angles"
+    }
+   ],
+   "answer": "C. Corresponding angles",
+   "reproduction": "verbatim",
+   "correct_option": "C",
+   "images": [
+    "b9d575cc957a6ee7448e820b9906a4f766860bd1289088f9e6751f3a530d2815.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M07S0502",
+   "form": "mcq",
+   "stem": "In the figure given below, AD is a straight line. PS and QR are perpendicular to AD. GH is parallel to IJ and KL is parallel to MN. The measure of ∠s = 120°. What is the measure of ∠t?",
+   "options": [
+    {
+     "label": "A",
+     "text": "30°"
+    },
+    {
+     "label": "B",
+     "text": "60°"
+    },
+    {
+     "label": "C",
+     "text": "90°"
+    },
+    {
+     "label": "D",
+     "text": "120°"
+    }
+   ],
+   "answer": "B. 60°",
+   "reproduction": "verbatim",
+   "correct_option": "B",
+   "images": [
+    "b9d575cc957a6ee7448e820b9906a4f766860bd1289088f9e6751f3a530d2815.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M07S0503",
+   "form": "mcq",
+   "stem": "In the figure given below, AD is a straight line. PS and QR are perpendicular to AD. GH is parallel to IJ and KL is parallel to MN. What is the measure of ∠x?",
+   "options": [
+    {
+     "label": "A",
+     "text": "45°"
+    },
+    {
+     "label": "B",
+     "text": "60°"
+    },
+    {
+     "label": "C",
+     "text": "90°"
+    },
+    {
+     "label": "D",
+     "text": "120°"
+    }
+   ],
+   "answer": "C. 90°",
+   "reproduction": "verbatim",
+   "correct_option": "C",
+   "images": [
+    "b9d575cc957a6ee7448e820b9906a4f766860bd1289088f9e6751f3a530d2815.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M07S0504",
+   "form": "short",
+   "stem": "In the figure given below, AD is a straight line. PS and QR are perpendicular to AD. GH is parallel to IJ and KL is parallel to MN. 4 Why are the lines SP and RQ parallel to each other?",
+   "options": [],
+   "answer": "Reasoning involves the condition: When two lines are perpendicular to a line, they are parallel to each other. | SP and QR are perpendicular to AD, so they are parallel to each other.",
+   "reproduction": "verbatim",
+   "images": [
+    "b9d575cc957a6ee7448e820b9906a4f766860bd1289088f9e6751f3a530d2815.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M07S0505",
+   "form": "short",
+   "stem": "In the figure given below, AD is a straight line. PS and QR are perpendicular to AD. GH is parallel to IJ and KL is parallel to MN. 5 Is DF transversal to KL and MN? Give reason.",
+   "options": [],
+   "answer": "Yes, DF is transversal to KL and MN because it intersects two lines at distinct points. | Yes, DF is transversal to KL and MN because it cuts the parallel lines KL and MN. Yes, reasoning involves the definition of transversal line.",
+   "reproduction": "verbatim",
+   "images": [
+    "b9d575cc957a6ee7448e820b9906a4f766860bd1289088f9e6751f3a530d2815.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M07S0506",
+   "form": "mcq",
+   "stem": "In the figure given below, AD is a straight line. PS and QR are perpendicular to AD. GH is parallel to IJ and KL is parallel to MN. Which of the following is true for DE and DF?",
+   "options": [
+    {
+     "label": "A",
+     "text": "They are parallel"
+    },
+    {
+     "label": "B",
+     "text": "They intersect at A"
+    },
+    {
+     "label": "C",
+     "text": "They intersect at D"
+    },
+    {
+     "label": "D",
+     "text": "They have AD as transversal"
+    }
+   ],
+   "answer": "C. They intersect at D",
+   "reproduction": "verbatim",
+   "correct_option": "C",
+   "images": [
+    "b9d575cc957a6ee7448e820b9906a4f766860bd1289088f9e6751f3a530d2815.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M07S0507",
+   "form": "short",
+   "stem": "A diagram of a see-saw is given below. State all the pairs of vertically opposite angles in the given figure.",
+   "options": [],
+   "answer": "∠2, ∠3 ∠1, ∠4 ∠5, ∠7 ∠6, ∠8",
+   "reproduction": "verbatim",
+   "images": [
+    "3245804fab2df4d50ebb89d9f3becf10864d900b3b75f91050e7604ce6779b5e.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M07S0508",
+   "form": "mcq",
+   "stem": "A diagram of a see-saw is given below. Which of the following is a pair of alternate exterior angles?",
+   "options": [
+    {
+     "label": "A",
+     "text": "∠1 and ∠4"
+    },
+    {
+     "label": "B",
+     "text": "∠2 and ∠8"
+    },
+    {
+     "label": "C",
+     "text": "∠3 and ∠8"
+    },
+    {
+     "label": "D",
+     "text": "∠4 and ∠6"
+    }
+   ],
+   "answer": "B. ∠2 and ∠8",
+   "reproduction": "verbatim",
+   "correct_option": "B",
+   "images": [
+    "3245804fab2df4d50ebb89d9f3becf10864d900b3b75f91050e7604ce6779b5e.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M07S0509",
+   "form": "short",
+   "stem": "Three lines shown in the figure intersect each other at point P. Line l is perpendicular to line n. The measure of ∠2 is 65°. What is the measure of ∠6?",
+   "options": [],
+   "answer": "25°",
+   "reproduction": "verbatim",
+   "images": [
+    "06a952ab922d0cfa0589b03fb947d73293e78db7d4a33deaf018b7596522f64b.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "SAS21M07S0510",
+   "form": "mcq",
+   "stem": "Three lines shown in the figure intersect each other at point P. Line l is perpendicular to line n. The measure of ∠2 is 65°. What is the sum of the measure of ∠3 and ∠4?",
+   "options": [
+    {
+     "label": "A",
+     "text": "95°"
+    },
+    {
+     "label": "B",
+     "text": "115°"
+    },
+    {
+     "label": "C",
+     "text": "120°"
+    },
+    {
+     "label": "D",
+     "text": "155°"
+    }
+   ],
+   "answer": "B. 115°",
+   "reproduction": "verbatim",
+   "correct_option": "B",
+   "images": [
+    "06a952ab922d0cfa0589b03fb947d73293e78db7d4a33deaf018b7596522f64b.png"
+   ],
+   "figure_required": true
+  }
+ ]
+}

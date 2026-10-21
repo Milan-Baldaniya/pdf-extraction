@@ -1,0 +1,699 @@
+{
+ "chapter_id": 1013,
+ "chapter": "Acids, Bases and Salts (Class 10 Science)",
+ "note": "50 mixed-form items across the chapter's concepts. Difficulty 17 Easy / 17 Medium / 16 Hard.",
+ "items": [
+  {
+   "concept": "Acid-Base Indicators",
+   "form": "mcq",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "Blue litmus paper turns which colour in an acid?",
+   "explanation": "Acids turn blue litmus red; bases turn red litmus blue.",
+   "options": [
+    {
+     "text": "red",
+     "correct": true
+    },
+    {
+     "text": "blue",
+     "why": "Blue litmus stays blue in a base, not an acid."
+    },
+    {
+     "text": "green",
+     "why": "Green is the neutral colour of universal indicator, not of litmus."
+    },
+    {
+     "text": "colourless",
+     "why": "Litmus does not lose its colour in acid."
+    }
+   ]
+  },
+  {
+   "concept": "pH Scale",
+   "form": "mcq",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "The pH of a neutral solution is",
+   "explanation": "Pure water and other neutral solutions have a pH of 7 at room temperature.",
+   "options": [
+    {
+     "text": "7",
+     "correct": true
+    },
+    {
+     "text": "0",
+     "why": "A pH of 0 describes a very strong acid."
+    },
+    {
+     "text": "14",
+     "why": "A pH of 14 describes a very strong base."
+    },
+    {
+     "text": "1",
+     "why": "A pH of 1 is strongly acidic."
+    }
+   ]
+  },
+  {
+   "concept": "Acid-Metal Reaction",
+   "form": "mcq",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "The gas evolved when dilute sulphuric acid reacts with zinc is",
+   "explanation": "A metal above hydrogen in the reactivity series displaces hydrogen from a dilute acid.",
+   "options": [
+    {
+     "text": "hydrogen",
+     "correct": true
+    },
+    {
+     "text": "oxygen",
+     "why": "No oxygen gas is released in this reaction."
+    },
+    {
+     "text": "carbon dioxide",
+     "why": "Carbon dioxide comes from an acid acting on a carbonate."
+    },
+    {
+     "text": "sulphur dioxide",
+     "why": "Dilute sulphuric acid with a metal gives hydrogen, not sulphur dioxide."
+    }
+   ]
+  },
+  {
+   "concept": "Baking Soda",
+   "form": "mcq",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "The chemical name of baking soda is",
+   "explanation": "Baking soda is sodium hydrogencarbonate, NaHCO3.",
+   "options": [
+    {
+     "text": "sodium hydrogencarbonate",
+     "correct": true
+    },
+    {
+     "text": "sodium carbonate",
+     "why": "Sodium carbonate is washing soda, a different compound."
+    },
+    {
+     "text": "sodium chloride",
+     "why": "Sodium chloride is common salt."
+    },
+    {
+     "text": "sodium hydroxide",
+     "why": "Sodium hydroxide is caustic soda, a strong base."
+    }
+   ]
+  },
+  {
+   "concept": "Acid-Carbonate Reaction",
+   "form": "mcq",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "A gas turns lime water milky when an acid is added to a white powder. The powder contains",
+   "explanation": "Turning lime water milky identifies carbon dioxide, which an acid releases from a carbonate or hydrogencarbonate.",
+   "options": [
+    {
+     "text": "a carbonate",
+     "correct": true
+    },
+    {
+     "text": "a sulphate",
+     "why": "A sulphate releases no gas with a dilute acid."
+    },
+    {
+     "text": "a chloride",
+     "why": "A chloride releases no gas with a dilute acid."
+    },
+    {
+     "text": "a nitrate",
+     "why": "A nitrate releases no carbon dioxide with a dilute acid."
+    }
+   ]
+  },
+  {
+   "concept": "Strong and Weak Acids/Bases",
+   "form": "mcq",
+   "difficulty": "Medium",
+   "bloom": "Understand",
+   "stem": "A strong acid differs from a weak acid because it",
+   "explanation": "A strong acid ionises almost completely in water, giving a much higher concentration of hydrogen ions.",
+   "options": [
+    {
+     "text": "ionises almost completely in water",
+     "correct": true
+    },
+    {
+     "text": "is always more concentrated",
+     "why": "Strength and concentration are different ideas; a strong acid can be dilute."
+    },
+    {
+     "text": "contains more hydrogen atoms",
+     "why": "Ethanoic acid has more hydrogen atoms than hydrochloric acid yet is weaker."
+    },
+    {
+     "text": "always corrodes metals faster",
+     "why": "Rate depends on concentration and conditions as well as strength."
+    }
+   ]
+  },
+  {
+   "concept": "Water of Crystallisation",
+   "form": "mcq",
+   "difficulty": "Medium",
+   "bloom": "Remember",
+   "stem": "The number of water molecules in one formula unit of washing soda is",
+   "explanation": "Washing soda is Na2CO3.10H2O, so it carries ten molecules of water of crystallisation.",
+   "options": [
+    {
+     "text": "10",
+     "correct": true
+    },
+    {
+     "text": "2",
+     "why": "Two water molecules belong to gypsum, CaSO4.2H2O."
+    },
+    {
+     "text": "5",
+     "why": "Five belong to blue vitriol, CuSO4.5H2O."
+    },
+    {
+     "text": "7",
+     "why": "Seven belong to green vitriol, FeSO4.7H2O."
+    }
+   ]
+  },
+  {
+   "concept": "pH in Everyday Life",
+   "form": "mcq",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Tooth decay begins when the pH of the mouth falls below",
+   "explanation": "Below pH 5.5 the enamel, made of calcium phosphate, starts to be attacked by the acid.",
+   "options": [
+    {
+     "text": "5.5",
+     "correct": true
+    },
+    {
+     "text": "7.0",
+     "why": "Enamel is safe at neutral pH; decay needs distinctly acidic conditions."
+    },
+    {
+     "text": "3.0",
+     "why": "Damage begins well before the mouth becomes this acidic."
+    },
+    {
+     "text": "8.5",
+     "why": "This is alkaline, which does not attack enamel."
+    }
+   ]
+  },
+  {
+   "concept": "Metallic Oxides as Bases",
+   "form": "mcq",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "An oxide that reacts with both acids and bases to give salts is called",
+   "explanation": "An amphoteric oxide, such as aluminium oxide or zinc oxide, shows both acidic and basic behaviour.",
+   "options": [
+    {
+     "text": "amphoteric",
+     "correct": true
+    },
+    {
+     "text": "basic",
+     "why": "A basic oxide reacts only with acids."
+    },
+    {
+     "text": "acidic",
+     "why": "An acidic oxide reacts only with bases."
+    },
+    {
+     "text": "neutral",
+     "why": "A neutral oxide reacts with neither."
+    }
+   ]
+  },
+  {
+   "concept": "Chlor-alkali Process",
+   "form": "mcq",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "In the chlor-alkali process, the gas released at the cathode is",
+   "explanation": "Hydrogen is liberated at the cathode, chlorine at the anode, and sodium hydroxide remains in solution.",
+   "options": [
+    {
+     "text": "hydrogen",
+     "correct": true
+    },
+    {
+     "text": "chlorine",
+     "why": "Chlorine is released at the anode, not the cathode."
+    },
+    {
+     "text": "oxygen",
+     "why": "Oxygen is not a product of this electrolysis."
+    },
+    {
+     "text": "carbon dioxide",
+     "why": "No carbon is present in brine."
+    }
+   ]
+  },
+  {
+   "concept": "Olfactory Indicators",
+   "form": "very_short",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "What is an olfactory indicator? Give one example.",
+   "answer": "An olfactory indicator is a substance whose smell changes in acidic or basic solution, so it can be used by a student who cannot see colour changes. Onion and vanilla essence are examples; both lose their smell in a base."
+  },
+  {
+   "concept": "Neutralisation Reaction",
+   "form": "very_short",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "Write the general word equation for a neutralisation reaction.",
+   "answer": "Acid + Base -> Salt + Water. The acidic and basic properties are destroyed by each other, which is why it is called neutralisation."
+  },
+  {
+   "concept": "Plaster of Paris",
+   "form": "very_short",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "Why must plaster of Paris be stored in a moisture-proof container?",
+   "answer": "It reacts with water to set into hard gypsum. Any moisture reaching it during storage would set it in the container and make it useless."
+  },
+  {
+   "concept": "Dilution of Acids/Bases",
+   "form": "very_short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Why must concentrated acid always be added to water and never the reverse?",
+   "answer": "Dilution is strongly exothermic. Adding acid slowly to a large volume of water spreads the heat safely, whereas adding water to concentrated acid heats a small volume locally and can boil and splash the acid out."
+  },
+  {
+   "concept": "Ionic Nature of Acids",
+   "form": "very_short",
+   "difficulty": "Medium",
+   "bloom": "Understand",
+   "stem": "Why does dry hydrogen chloride gas not turn litmus red?",
+   "answer": "Acidic behaviour needs hydrogen ions, and these are produced only when the compound dissolves in water. With no water present the gas does not ionise, so there are no hydrogen ions to act on the litmus."
+  },
+  {
+   "concept": "Bleaching Powder",
+   "form": "very_short",
+   "difficulty": "Medium",
+   "bloom": "Remember",
+   "stem": "Give the formula of bleaching powder and one of its uses.",
+   "answer": "Bleaching powder is calcium oxychloride, CaOCl2. It is used for bleaching cotton and paper, and for disinfecting drinking water."
+  },
+  {
+   "concept": "pH of Salt Solutions",
+   "form": "very_short",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Why is a solution of sodium carbonate basic although it is a salt?",
+   "answer": "It is the salt of a strong base, sodium hydroxide, and a weak acid, carbonic acid. On dissolving, the anion takes hydrogen ions from the water, leaving an excess of hydroxide ions, so the solution is basic with a pH above 7."
+  },
+  {
+   "concept": "Strong and Weak Acids/Bases",
+   "form": "very_short",
+   "difficulty": "Hard",
+   "bloom": "Evaluate",
+   "stem": "Can a dilute solution of a strong acid have a higher pH than a concentrated weak acid? Explain.",
+   "answer": "Yes. pH depends on the concentration of hydrogen ions actually present, which depends on both strength and concentration. A very dilute strong acid may release fewer hydrogen ions than a concentrated weak acid, giving it the higher pH, which is why strength and concentration must be kept separate."
+  },
+  {
+   "concept": "Acid-Base Indicators",
+   "form": "short",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "Describe the colour changes of litmus, methyl orange and phenolphthalein in acids and bases.",
+   "answer": "Litmus is a natural dye that is red in acid and blue in base, so blue litmus turns red in acid and red litmus turns blue in base. Methyl orange is red in acid and yellow in base, passing through orange near neutral. Phenolphthalein is colourless in acid and neutral solution and turns pink in base, which makes it especially useful for detecting a base. Indicators are chosen for the range over which they change, which is why more than one is kept in a laboratory."
+  },
+  {
+   "concept": "Acid-Metal Reaction",
+   "form": "short",
+   "difficulty": "Easy",
+   "bloom": "Apply",
+   "stem": "Describe what happens when dilute hydrochloric acid is added to zinc granules, and how you would test the gas.",
+   "answer": "Brisk effervescence is seen as the zinc slowly dissolves, and the test tube becomes warm because the reaction is exothermic. The equation is Zn + 2HCl -> ZnCl2 + H2. Zinc lies above hydrogen in the reactivity series, so it displaces hydrogen from the acid. To test the gas, bring a burning splint to the mouth of the tube; hydrogen burns with a characteristic pop sound. The solution left behind contains zinc chloride."
+  },
+  {
+   "concept": "Metallic Oxides as Bases",
+   "form": "short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Explain, with an equation, why metallic oxides are described as basic.",
+   "answer": "A metallic oxide reacts with an acid to give a salt and water, which is exactly the behaviour of a base. For example copper oxide with dilute hydrochloric acid gives CuO + 2HCl -> CuCl2 + H2O, and the black copper oxide dissolves to give a blue-green solution of copper chloride. Soluble metallic oxides go further and dissolve in water to give alkalis, as with CaO + H2O -> Ca(OH)2. Because they neutralise acids in the same way as hydroxides do, metallic oxides are classed as basic oxides."
+  },
+  {
+   "concept": "Non-metallic Oxides as Acids",
+   "form": "short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Explain why non-metallic oxides are described as acidic, giving one equation.",
+   "answer": "A non-metallic oxide reacts with a base to give a salt and water, which is the behaviour of an acid. Carbon dioxide with sodium hydroxide gives CO2 + 2NaOH -> Na2CO3 + H2O. Many non-metallic oxides also dissolve in water to give acids directly, as with CO2 + H2O -> H2CO3, which is why carbon dioxide turns blue litmus red and why sulphur dioxide dissolved in rain makes it acidic. Since they neutralise bases, non-metallic oxides are classed as acidic oxides."
+  },
+  {
+   "concept": "Family of Salts",
+   "form": "short",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Identify the acid and base from which each salt is derived: (a) sodium chloride, (b) ammonium sulphate, (c) potassium nitrate.",
+   "answer": "(a) Sodium chloride comes from hydrochloric acid and sodium hydroxide, a strong acid with a strong base, so its solution is neutral. (b) Ammonium sulphate comes from sulphuric acid and ammonium hydroxide, a strong acid with a weak base, so its solution is slightly acidic. (c) Potassium nitrate comes from nitric acid and potassium hydroxide, a strong acid with a strong base, so its solution is neutral. The general rule is that the anion names the acid and the cation names the base, and the relative strengths decide the pH of the solution."
+  },
+  {
+   "concept": "Water of Crystallisation",
+   "form": "short",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Explain what water of crystallisation is and describe what happens when blue vitriol is heated and then cooled with water added.",
+   "answer": "Water of crystallisation is a fixed number of water molecules present in one formula unit of a crystalline salt, written after a dot as in CuSO4.5H2O. It is chemically combined rather than merely damp, which is why the crystals are dry to the touch and the number is always the same. On heating, blue vitriol loses this water and the blue crystals turn to a white powder of anhydrous copper sulphate, CuSO4. The change is reversible: adding a few drops of water to the white powder restores the blue colour and releases heat. This shows that the water is part of the crystal structure and that the blue colour depends on its presence, not on the copper alone."
+  },
+  {
+   "concept": "pH in Everyday Life",
+   "form": "short",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Explain three ways pH matters in everyday life, giving the chemistry in each case.",
+   "answer": "First, tooth decay. Bacteria in the mouth convert sugar to acid, and once the pH falls below 5.5 the calcium phosphate of the enamel begins to dissolve. Brushing with a mildly basic toothpaste neutralises the acid and stops the attack. Second, indigestion. The stomach uses hydrochloric acid for digestion, and an excess causes pain; an antacid such as magnesium hydroxide or sodium hydrogencarbonate neutralises the surplus without removing all of it. Third, soil and crops. Most plants grow well only in a narrow pH range, so an acidic soil is treated with quick lime or chalk and an alkaline soil with organic matter or gypsum. A fourth everyday case is a bee or ant sting, which injects methanoic acid and is soothed by rubbing on baking soda, a mild base. In each case the remedy works by neutralisation, and the reason a mild base is used rather than a strong one is that a strong base would itself cause damage."
+  },
+  {
+   "concept": "Chlor-alkali Process",
+   "form": "short",
+   "difficulty": "Hard",
+   "bloom": "Evaluate",
+   "stem": "Why is the chlor-alkali process so named, and what makes it industrially valuable?",
+   "answer": "The name records its two principal products: chlor for the chlorine released at the anode and alkali for the sodium hydroxide left in solution. The process is the electrolysis of concentrated brine, and its third product is hydrogen, released at the cathode. It is industrially valuable because all three products are useful and come from cheap and abundant starting materials, sea salt and water. Chlorine goes into water treatment, bleaches and PVC. Sodium hydroxide goes into soaps, paper and the degreasing of metals. Hydrogen goes into ammonia manufacture, margarine and fuel. Combining the products gives still more: chlorine with sodium hydroxide gives bleaching powder, and chlorine with hydrogen gives hydrochloric acid. The economics rest on having no significant waste stream, since every output is sold, which is why the process has remained central to the chemical industry."
+  },
+  {
+   "concept": "pH Scale",
+   "form": "assertion_reason",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "Assertion (A): A solution of pH 3 is acidic. Reason (R): A pH below 7 indicates an acidic solution. Choose the correct option.",
+   "explanation": "Both are true, and the rule stated in the reason is exactly what classifies pH 3 as acidic.",
+   "options": [
+    {
+     "text": "Both A and R are true and R explains A",
+     "correct": true
+    },
+    {
+     "text": "Both A and R are true but R does not explain A",
+     "why": "The pH rule is precisely what settles the classification."
+    },
+    {
+     "text": "A is true but R is false",
+     "why": "A pH below 7 does indicate acidity."
+    },
+    {
+     "text": "A is false but R is true",
+     "why": "pH 3 is below 7 and so is acidic."
+    }
+   ]
+  },
+  {
+   "concept": "Strong and Weak Acids/Bases",
+   "form": "assertion_reason",
+   "difficulty": "Medium",
+   "bloom": "Analyze",
+   "stem": "Assertion (A): A concentrated acid is always a strong acid. Reason (R): Concentration measures how much acid is dissolved. Choose the correct option.",
+   "explanation": "The reason is true but the assertion is false: concentration and strength are different properties, and concentrated ethanoic acid is still weak.",
+   "options": [
+    {
+     "text": "A is false but R is true",
+     "correct": true
+    },
+    {
+     "text": "Both A and R are true and R explains A",
+     "why": "How much is dissolved says nothing about how fully it ionises."
+    },
+    {
+     "text": "Both A and R are false",
+     "why": "Concentration genuinely measures the amount dissolved."
+    },
+    {
+     "text": "A is true but R is false",
+     "why": "Glacial ethanoic acid is highly concentrated and still a weak acid."
+    }
+   ]
+  },
+  {
+   "concept": "Ionic Nature of Bases",
+   "form": "assertion_reason",
+   "difficulty": "Hard",
+   "bloom": "Evaluate",
+   "stem": "Assertion (A): All bases are alkalis. Reason (R): A base neutralises an acid. Choose the correct option.",
+   "explanation": "The reason is true but the assertion is false: only water-soluble bases are alkalis, and copper oxide is a base that does not dissolve.",
+   "options": [
+    {
+     "text": "A is false but R is true",
+     "correct": true
+    },
+    {
+     "text": "Both A and R are true and R explains A",
+     "why": "Neutralising an acid does not require being soluble in water."
+    },
+    {
+     "text": "Both A and R are false",
+     "why": "Neutralising an acid is exactly what a base does."
+    },
+    {
+     "text": "A is true but R is false",
+     "why": "Copper oxide neutralises acid but is insoluble, so it is a base and not an alkali."
+    }
+   ]
+  },
+  {
+   "concept": "Water of Crystallisation",
+   "form": "assertion_reason",
+   "difficulty": "Hard",
+   "bloom": "Evaluate",
+   "stem": "Assertion (A): Blue vitriol crystals are wet. Reason (R): They contain five molecules of water of crystallisation. Choose the correct option.",
+   "explanation": "The reason is true but the assertion is false: the water is chemically combined within the crystal, so the crystals are dry to the touch.",
+   "options": [
+    {
+     "text": "A is false but R is true",
+     "correct": true
+    },
+    {
+     "text": "Both A and R are true and R explains A",
+     "why": "Combined water does not make a crystal feel wet."
+    },
+    {
+     "text": "Both A and R are false",
+     "why": "Blue vitriol genuinely is CuSO4.5H2O."
+    },
+    {
+     "text": "A is true but R is false",
+     "why": "The crystals are dry solids despite containing combined water."
+    }
+   ]
+  },
+  {
+   "concept": "Acid-Base Indicators",
+   "form": "true_false",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "State whether true or false: phenolphthalein is pink in an acidic solution.",
+   "explanation": "Phenolphthalein is colourless in acid and pink in base.",
+   "options": [
+    {
+     "text": "False",
+     "correct": true
+    },
+    {
+     "text": "True",
+     "why": "Phenolphthalein is colourless in acid; the pink colour appears in a base."
+    }
+   ]
+  },
+  {
+   "concept": "Neutralisation Reaction",
+   "form": "true_false",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "State whether true or false: neutralisation always produces a salt and water.",
+   "explanation": "The reaction of an acid with a base gives a salt and water by definition.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "why": "Acid plus base giving salt plus water is the definition of neutralisation."
+    }
+   ]
+  },
+  {
+   "concept": "Baking Soda",
+   "form": "true_false",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "State whether true or false: baking soda makes cakes rise because it releases carbon dioxide on heating.",
+   "explanation": "On heating it decomposes to sodium carbonate, water and carbon dioxide, and the gas raises the dough.",
+   "options": [
+    {
+     "text": "True",
+     "correct": true
+    },
+    {
+     "text": "False",
+     "why": "Heating releases carbon dioxide, and the trapped bubbles make the cake rise."
+    }
+   ]
+  },
+  {
+   "concept": "pH of Salt Solutions",
+   "form": "true_false",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "State whether true or false: all salt solutions are neutral.",
+   "explanation": "Only salts of a strong acid with a strong base are neutral; others are acidic or basic.",
+   "options": [
+    {
+     "text": "False",
+     "correct": true
+    },
+    {
+     "text": "True",
+     "why": "Sodium carbonate solution is basic and ammonium chloride solution is acidic."
+    }
+   ]
+  },
+  {
+   "concept": "pH Scale",
+   "form": "fill_blank",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "The pH scale runs from 0 to ___________.",
+   "answer": "14"
+  },
+  {
+   "concept": "Acid-Base Indicators",
+   "form": "fill_blank",
+   "difficulty": "Easy",
+   "bloom": "Remember",
+   "stem": "Red litmus turns ___________ in a basic solution.",
+   "answer": "blue"
+  },
+  {
+   "concept": "Washing Soda",
+   "form": "fill_blank",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "The formula of washing soda is Na2CO3 . ___________ H2O.",
+   "answer": "10"
+  },
+  {
+   "concept": "Plaster of Paris",
+   "form": "fill_blank",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Plaster of Paris is obtained by heating gypsum to about ___________ degrees Celsius.",
+   "answer": "100"
+  },
+  {
+   "concept": "pH Scale",
+   "form": "long",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "Explain the pH scale fully, including what it measures, its range, and what different values mean.",
+   "answer": "The pH scale is a number scale used to state how acidic or basic a solution is. It measures the concentration of hydrogen ions present: the more hydrogen ions, the lower the pH. The scale usually runs from 0 to 14. A pH of exactly 7 is neutral, as in pure water, where the concentrations of hydrogen and hydroxide ions are equal. Values below 7 are acidic, and the lower the value the more acidic the solution, so pH 1 is strongly acidic while pH 6 is only slightly so. Values above 7 are basic, and the higher the value the more basic, so pH 13 is strongly basic while pH 8 is mildly so. The scale is not linear but logarithmic, which means each whole step represents a tenfold change in hydrogen ion concentration, so a solution of pH 3 is a hundred times more acidic than one of pH 5. pH is measured with universal indicator, which passes through a range of colours, or more accurately with a pH meter. Everyday examples are lemon juice at about 2, black coffee at about 5, blood at about 7.4 and household ammonia at about 11."
+  },
+  {
+   "concept": "Baking Soda",
+   "form": "long",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Describe the preparation, properties and uses of baking soda, with equations.",
+   "answer": "Baking soda, sodium hydrogencarbonate NaHCO3, is made by passing carbon dioxide through brine saturated with ammonia: NaCl + H2O + CO2 + NH3 -> NH4Cl + NaHCO3. The sodium hydrogencarbonate is less soluble and separates out. Its properties are that it is a white crystalline solid, mildly basic in solution with a pH just above 7, and that it decomposes on heating: 2NaHCO3 -> Na2CO3 + H2O + CO2. It also reacts with acids to give carbon dioxide, for instance NaHCO3 + HCl -> NaCl + H2O + CO2. Its uses follow directly from these properties. Because it is a mild base it is used in antacids to neutralise excess stomach acid without harming the lining, and it is rubbed on a bee sting to neutralise the methanoic acid injected. Because it releases carbon dioxide on heating it is used in baking, where the trapped gas makes the dough rise; baking powder is baking soda mixed with a mild edible acid such as tartaric acid so that the gas is released faster and the sodium carbonate left behind does not make the cake taste bitter. It is also used in soda-acid fire extinguishers, where it meets acid to generate carbon dioxide that smothers the flames."
+  },
+  {
+   "concept": "Neutralisation Reaction",
+   "form": "long",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "A farmer finds his soil is too acidic. Explain how you would confirm this, what you would advise, and the chemistry involved.",
+   "answer": "To confirm it, take samples of soil from several places in the field, shake each with distilled water, let the soil settle and test the clear liquid with universal indicator or a pH meter. Several samples are needed because pH varies across a field, and distilled water must be used since tap water may itself be slightly acidic or basic. A reading below about 6 indicates an acidic soil, and most crops grow best between about 6 and 7.5. The advice is to add a base to neutralise the excess acid. Suitable materials are quick lime, calcium oxide; slaked lime, calcium hydroxide; or chalk, calcium carbonate. The chemistry is neutralisation: the base reacts with the acid in the soil to give a salt and water, so for example Ca(OH)2 with the acid present gives a calcium salt and water, and with carbonate the reaction also releases carbon dioxide. Chalk is often preferred in practice even though it acts more slowly, because it is mild and will not raise the pH too far, whereas quick lime is strongly basic and easy to overdose, which would leave the soil too alkaline and damage the crop. The treatment should be followed by retesting, since the aim is to bring the pH into range rather than simply to add base."
+  },
+  {
+   "concept": "Strong and Weak Acids/Bases",
+   "form": "long",
+   "difficulty": "Hard",
+   "bloom": "Evaluate",
+   "stem": "Distinguish carefully between the strength and the concentration of an acid, and explain why confusing them is dangerous.",
+   "answer": "Strength describes how fully an acid ionises in water. A strong acid such as hydrochloric acid ionises almost completely, so nearly every molecule releases its hydrogen ion. A weak acid such as ethanoic acid ionises only partly, so most of it stays as intact molecules in solution. Strength is a fixed property of the substance and cannot be changed by adding water. Concentration describes how much acid is dissolved in a given volume of solution, and it can be changed at will by dilution or evaporation. The two are independent. One can have a dilute strong acid, such as very dilute hydrochloric acid, and a concentrated weak acid, such as glacial ethanoic acid, and the dilute strong acid may well have the higher pH of the two because pH depends on the hydrogen ions actually present. Confusing the two is dangerous in both directions. Treating a concentrated weak acid as harmless because it is weak is a mistake, since glacial ethanoic acid causes serious burns. Treating a dilute strong acid as extremely hazardous because it is strong leads to over-cautious handling and, worse, to a false sense of the real hazards. In a laboratory the label must state both, and a risk assessment that reads only one of the two words is incomplete."
+  },
+  {
+   "concept": "Dilution of Acids/Bases",
+   "form": "numerical",
+   "difficulty": "Easy",
+   "bloom": "Apply",
+   "stem": "A solution has pH 4. State whether it is acidic or basic and how many times more acidic it is than a solution of pH 5.",
+   "answer": "A pH of 4 is below 7, so the solution is acidic. Since each unit of pH represents a tenfold change in hydrogen ion concentration, a solution of pH 4 has ten times the hydrogen ion concentration of one at pH 5, so it is ten times more acidic."
+  },
+  {
+   "concept": "pH Scale",
+   "form": "numerical",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Solution A has pH 2 and solution B has pH 6. Compare their acidity quantitatively.",
+   "answer": "Both are acidic since both are below 7, and A is the more acidic because its pH is lower. The difference in pH is 6 minus 2, which is 4. Each unit corresponds to a factor of ten in hydrogen ion concentration, so the ratio is 10 to the power 4, that is 10000. Solution A is therefore ten thousand times more acidic than solution B."
+  },
+  {
+   "concept": "Water of Crystallisation",
+   "form": "numerical",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "25.0 g of blue vitriol crystals are heated to constant mass, leaving 16.0 g of white powder. Find the mass and percentage of water of crystallisation lost.",
+   "answer": "The mass of water driven off is 25.0 g minus 16.0 g, which is 9.0 g. As a percentage of the original crystals this is 9.0 divided by 25.0, times 100, which is 36 per cent. A check against the formula: CuSO4.5H2O has a formula mass of about 250, of which the five water molecules contribute about 90, and 90 divided by 250 is 36 per cent, which agrees with the experiment. The phrase heated to constant mass matters: heating must continue until two successive weighings agree, since otherwise some water remains and the result is too low."
+  },
+  {
+   "concept": "Acid-Base Indicators",
+   "form": "match_following",
+   "difficulty": "Easy",
+   "bloom": "Understand",
+   "stem": "Match each indicator in Column I with its colour in a basic solution in Column II. Column I: (a) red litmus, (b) methyl orange, (c) phenolphthalein, (d) turmeric. Column II: (i) pink, (ii) yellow, (iii) reddish brown, (iv) blue.",
+   "answer": "(a) red litmus - (iv) blue. (b) methyl orange - (ii) yellow. (c) phenolphthalein - (i) pink. (d) turmeric - (iii) reddish brown."
+  },
+  {
+   "concept": "Family of Salts",
+   "form": "match_following",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Match each common name in Column I with its formula in Column II. Column I: (a) baking soda, (b) washing soda, (c) bleaching powder, (d) plaster of Paris. Column II: (i) CaOCl2, (ii) NaHCO3, (iii) CaSO4 half H2O, (iv) Na2CO3 10H2O.",
+   "answer": "(a) baking soda - (ii) NaHCO3. (b) washing soda - (iv) Na2CO3.10H2O. (c) bleaching powder - (i) CaOCl2. (d) plaster of Paris - (iii) CaSO4.half H2O."
+  },
+  {
+   "concept": "Acid-Metal Reaction",
+   "form": "construction",
+   "difficulty": "Medium",
+   "bloom": "Apply",
+   "stem": "Draw a labelled diagram of the apparatus to show that an acid reacts with a metal to give hydrogen, and state the test.",
+   "answer": "Draw a conical flask containing zinc granules covered by dilute hydrochloric acid. Close the flask with a rubber stopper carrying a thistle funnel dipping into the liquid and a bent delivery tube leading out. Lead the delivery tube into a trough of water and up into an inverted test tube full of water, held in a stand, to collect the gas by downward displacement of water. Label the zinc granules, the dilute hydrochloric acid, the thistle funnel, the rubber stopper, the delivery tube, the trough of water and the collected gas. Annotate that effervescence at the zinc surface shows gas is being produced and that the flask becomes warm because the reaction is exothermic. For the test, remove the tube of gas, keep it mouth downwards and bring a burning splint to its mouth: hydrogen burns with a pop. Add the equation Zn + 2HCl -> ZnCl2 + H2 beside the diagram."
+  },
+  {
+   "concept": "Chlor-alkali Process",
+   "form": "construction",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Draw and label a diagram of the electrolysis of brine, marking all three products and where each forms.",
+   "answer": "Draw a container of concentrated brine with two electrodes dipping into it, connected to a battery. Label the electrode joined to the negative terminal as the cathode and the one joined to the positive terminal as the anode. Show bubbles at both electrodes, with an inverted tube over each to collect the gas. Label the gas at the cathode as hydrogen and the gas at the anode as chlorine, and label the solution remaining in the cell as sodium hydroxide. Mark the direction of current in the external circuit and the movement of ions in the solution, with sodium ions travelling to the cathode and chloride ions to the anode. Annotate the three products with a use of each: hydrogen for ammonia manufacture and margarine, chlorine for water treatment and PVC, sodium hydroxide for soap and paper. Add a note that the process is named chlor-alkali after two of these products, and a caution that the chlorine and hydrogen must be kept apart, since a mixture of the two reacts explosively in light."
+  },
+  {
+   "concept": "Neutralisation Reaction",
+   "form": "proof",
+   "difficulty": "Hard",
+   "bloom": "Analyze",
+   "stem": "Show experimentally that neutralisation is exothermic and that the acidic and basic properties are destroyed.",
+   "answer": "Take 25 cm3 of dilute hydrochloric acid in a polystyrene cup and record its temperature. Test a drop on blue litmus paper, which turns red, confirming the solution is acidic. Separately take 25 cm3 of dilute sodium hydroxide solution of the same starting temperature and test a drop on red litmus, which turns blue, confirming it is basic. Now add the sodium hydroxide to the acid, stirring gently with the thermometer, and record the highest temperature reached. The temperature rises by several degrees, which shows heat has been released to the mixture and therefore that the reaction is exothermic; the polystyrene cup is used so that little of this heat escapes. Test the final mixture on both blue and red litmus. If the quantities were matched, neither paper changes colour: the solution no longer turns blue litmus red, so the acidic property has gone, and it no longer turns red litmus blue, so the basic property has gone. Universal indicator on the mixture gives green, showing a pH near 7. The products are sodium chloride and water, as in NaOH + HCl -> NaCl + H2O, and evaporating the mixture leaves white crystals of common salt, which is neither acidic nor basic. Together the temperature rise and the loss of both litmus responses establish the two claims: heat is given out, and each substance has destroyed the characteristic property of the other, which is what the word neutralisation records."
+  }
+ ]
+}

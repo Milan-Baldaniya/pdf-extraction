@@ -1,0 +1,77 @@
+{
+ "chapter": 13,
+ "chapter_id": 25952,
+ "extraction_id": 812,
+ "source": "SAS_Maths-Class-7.pdf",
+ "source_url": "https://cbseacademic.nic.in/cbe/documents/SAS_Maths-Class-7.pdf",
+ "source_grade": 7,
+ "target_grade": 7,
+ "standard_id": 40,
+ "cross_grade": false,
+ "old_chapters": [
+  "Data Handling"
+ ],
+ "assets": [],
+ "items": [
+  {
+   "number": "SAS21M07D0306",
+   "form": "mcq",
+   "stem": "Mary played 10 HC matches. She scored 45, 36, 50, 27, 36, 52, 50, 43, 50 and 47 points in them. What is the most frequent score point?",
+   "options": [
+    {
+     "label": "A",
+     "text": "27"
+    },
+    {
+     "label": "B",
+     "text": "36"
+    },
+    {
+     "label": "C",
+     "text": "47"
+    },
+    {
+     "label": "D",
+     "text": "50"
+    }
+   ],
+   "answer": "D. 50",
+   "reproduction": "verbatim",
+   "correct_option": "D"
+  },
+  {
+   "number": "SAS21M07D0307",
+   "form": "short",
+   "stem": "Mary played 10 HC matches. She scored 45, 36, 50, 27, 36, 52, 50, 43, 50 and 47 points in them. Are the mean and median of Mary’s scores equal? Justify your answer.",
+   "options": [],
+   "answer": "No, the mean and median of Mary’s score are not equal. Mean score is 43.6, whereas median score is 46. No, reasoning involves comparison of mean and median of Mary’s score.",
+   "reproduction": "verbatim"
+  },
+  {
+   "number": "SAS21M07D0308",
+   "form": "mcq",
+   "stem": "Mary played 10 HC matches. She scored 45, 36, 50, 27, 36, 52, 50, 43, 50 and 47 points in them. Mary scored 56 points in her 11th match. What is the change in her mean score after the 11th match?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Increases by 1.13"
+    },
+    {
+     "label": "B",
+     "text": "Increases by 5.6"
+    },
+    {
+     "label": "C",
+     "text": "Decreases by 4"
+    },
+    {
+     "label": "D",
+     "text": "Decreases by 3"
+    }
+   ],
+   "answer": "A. Increases by 1.13",
+   "reproduction": "verbatim",
+   "correct_option": "A"
+  }
+ ]
+}

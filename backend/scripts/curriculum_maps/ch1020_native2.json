@@ -1,0 +1,431 @@
+{
+ "chapter_id": 1020,
+ "mappings": [
+  {
+   "sha": "qid:86732",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "SI unit of lens power; power reaches no outcome, so competency level."
+  },
+  {
+   "sha": "qid:86733",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Virtual magnified image from a convex lens fixes the object inside F; lens image-position outcome."
+  },
+  {
+   "sha": "qid:86734",
+   "codes": [
+    "C 5.3-LO-1"
+   ],
+   "note": "Whole content is that a MINUS power means a diverging (concave) lens; the sign convention, not the power arithmetic."
+  },
+  {
+   "sha": "qid:86735",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Real-versus-virtual image contrast is general image vocabulary spanning mirrors and lenses; no single outcome owns it."
+  },
+  {
+   "sha": "qid:86736",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "States the laws of reflection; duplicate stem of qid:86683 and mapped identically."
+  },
+  {
+   "sha": "qid:86737",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Sorts four object distances against f = 15 cm into virtual, diminished real, enlarged real and same-size images for a concave mirror. Qualitative image-position sorting, no formula required."
+  },
+  {
+   "sha": "qid:86738",
+   "codes": [
+    "C 8.1-LO-2"
+   ],
+   "note": "Explicitly asks for DRAWN ray diagrams for two named object positions in a concave mirror."
+  },
+  {
+   "sha": "qid:86739",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Uses of a concave mirror follow from the images it forms; mirror image/application outcome."
+  },
+  {
+   "sha": "qid:86740",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Uses of a convex mirror follow from its always-erect diminished image; mirror image/application outcome."
+  },
+  {
+   "sha": "qid:86741",
+   "codes": [
+    "C 8.1-LO-2"
+   ],
+   "note": "Requires redrawing the reflected rays for parallel incidence on both mirrors and naming F; the ray-diagram outcome."
+  },
+  {
+   "sha": "qid:86742",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Identifies which line the angle of incidence is measured from, i.e. the normal; pure law of reflection. Figure not stored."
+  },
+  {
+   "sha": "qid:86743",
+   "codes": [
+    "C 8.1-LO-2"
+   ],
+   "note": "Redraw the diagram, show the reflected ray and mark i and r; explicitly a mirror ray-diagram construction."
+  },
+  {
+   "sha": "qid:86744",
+   "codes": [
+    "C 8.1-LO-2"
+   ],
+   "note": "Trace the reflected ray for a ray through F and mark i and r; explicitly a mirror ray-diagram construction."
+  },
+  {
+   "sha": "qid:86745",
+   "codes": [
+    "C 8.1-LO-2"
+   ],
+   "note": "Draws the three standard construction rays for a concave mirror; the ray-diagram outcome."
+  },
+  {
+   "sha": "qid:86746",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Concave mirror in a solar furnace and why it reaches high temperature; mirror image/application outcome."
+  },
+  {
+   "sha": "qid:86747",
+   "codes": [
+    "C 8.1-LO-2"
+   ],
+   "note": "Asks for DRAWN ray diagrams describing nature, position and size for two object positions in a concave mirror."
+  },
+  {
+   "sha": "qid:86748",
+   "codes": [
+    "C 2.3-LO-2",
+    "C 8.1-LO-2"
+   ],
+   "note": "m = -1.0 with v = 30 cm gives u and hence f through the magnification and mirror formulae (LO-2); part (iv) then explicitly demands the ray diagram (C 8.1-LO-2)."
+  },
+  {
+   "sha": "qid:86749",
+   "codes": [
+    "C 2.3-LO-2",
+    "C 5.3-LO-1"
+   ],
+   "note": "Reads the magnification value -1.5 (LO-2); the whole point is what the minus sign and the size factor mean, which is the sign convention."
+  },
+  {
+   "sha": "qid:86750",
+   "codes": [
+    "C 2.3-LO-2",
+    "C 5.3-LO-1"
+   ],
+   "note": "m = +6 fixes the mirror and image nature; the reading turns on the plus sign, so the magnification outcome plus the sign convention."
+  },
+  {
+   "sha": "qid:86751",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Properties of a convex-mirror image; qualitative image outcome."
+  },
+  {
+   "sha": "qid:86752",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Distinguishing plane, concave and convex mirrors by the image each gives; qualitative image outcome."
+  },
+  {
+   "sha": "qid:86753",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Four mirrors named from stated image characters and one application; qualitative image outcome throughout."
+  },
+  {
+   "sha": "qid:86754",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Object position for a shaving mirror and for a torch; both are concave-mirror image-position facts, with no formula and no drawing asked."
+  },
+  {
+   "sha": "qid:86755",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Large head with normal legs means a concave section over a plane section; qualitative mirror image outcome."
+  },
+  {
+   "sha": "qid:86756",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Justifies both a magnified erect and an inverted image from one concave mirror by object position; qualitative image-position outcome."
+  },
+  {
+   "sha": "qid:86757",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "States the laws of refraction, the opening clause of LO-3."
+  },
+  {
+   "sha": "qid:86758",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Proof that the emergent ray from a slab is parallel to the incident ray, plus lateral displacement; refraction through parallel faces, not a mirror/lens ray diagram."
+  },
+  {
+   "sha": "qid:86759",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Normal incidence on a glass slab with i and e marked; a refraction item, so LO-3 rather than the mirror/lens ray-diagram outcome."
+  },
+  {
+   "sha": "qid:86760",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Contrast between converging and diverging lenses as devices; a lens property rather than an image position, so competency level."
+  },
+  {
+   "sha": "qid:86761",
+   "codes": [
+    "C 8.1-LO-2",
+    "C 2.3-LO-3"
+   ],
+   "note": "Reads a supplied lens ray diagram to name the lens and list image properties (C 8.1-LO-2) and then asks the object position giving m = -1, which is the lens image-position outcome. Figure not stored."
+  },
+  {
+   "sha": "qid:86762",
+   "codes": [
+    "C 8.1-LO-2"
+   ],
+   "note": "Asks for DRAWN ray diagrams for a convex lens at 2F1 and a concave mirror between P and F; explicitly the ray-diagram outcome for both elements."
+  },
+  {
+   "sha": "qid:86763",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Slab refraction with a labelled diagram and the factors controlling lateral displacement; a refraction item."
+  },
+  {
+   "sha": "qid:86764",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Convex and concave lens in contact with a net positive power. The competency explicitly extends to a combination of lenses; power itself reaches no outcome."
+  },
+  {
+   "sha": "qid:86765",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Picks which of four object distances gives a same-size image from a convex lens of f = 15 cm; lens image-position outcome."
+  },
+  {
+   "sha": "qid:86766",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Chooses the more convergent lens from focal length, i.e. by power; no outcome covers lens power."
+  },
+  {
+   "sha": "qid:86767",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Object positions of a converging lens for real magnified and virtual magnified images; lens image-position outcome."
+  },
+  {
+   "sha": "qid:86768",
+   "codes": [
+    "C 2.3-LO-2",
+    "C 8.1-LO-2"
+   ],
+   "note": "Uses tabulated u and f to decide which mirror gives a same-size image and which is a make-up mirror (mirror/magnification formula), then explicitly demands the ray diagrams. Table not stored."
+  },
+  {
+   "sha": "qid:104942",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "f = R/2 arithmetic; the mirror-formula outcome. Duplicate stem of qid:86613 and qid:104972."
+  },
+  {
+   "sha": "qid:104943",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Convex lens, real inverted same-size image at 50 cm, so the needle is at 2F = 50 cm; lens image-position outcome."
+  },
+  {
+   "sha": "qid:104944",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Lens material must be transparent; neither refraction laws nor the lens formula is applied. Duplicate stem of qid:86622."
+  },
+  {
+   "sha": "qid:104945",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Virtual erect enlarged image from a concave mirror puts the object inside F; qualitative image outcome. Duplicate stem of qid:86623."
+  },
+  {
+   "sha": "qid:104946",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Real same-size image from a convex lens puts the object at 2F; lens image-position outcome. Duplicate stem of qid:86624."
+  },
+  {
+   "sha": "qid:104947",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Always-erect image identifies plane or convex mirror; qualitative image outcome. Duplicate stem of qid:86626."
+  },
+  {
+   "sha": "qid:104948",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "Convex mirror numerical with u = -10 cm and f = +15 cm; mirror formula. Duplicate of qid:86632 reduced to an MCQ."
+  },
+  {
+   "sha": "qid:104949",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "Convex mirror with R = 30 cm, so f = 15 cm, then the mirror formula for v; a calculation item. Duplicate of qid:86634."
+  },
+  {
+   "sha": "qid:104950",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "n = c/v with v = 0.6c; refractive index from speed, which LO-3 names explicitly."
+  },
+  {
+   "sha": "qid:104951",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Dentist's mirror is concave for the erect magnified image of a near object; qualitative image outcome."
+  },
+  {
+   "sha": "qid:104952",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Stem is truncated - the plane-mirror context is missing - but it is the object-to-image distance item for a plane mirror, which is image location. See qid:104954 for the intact version."
+  },
+  {
+   "sha": "qid:104953",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "How the convex-mirror image changes as the object approaches the pole; qualitative image behaviour rather than a numerical."
+  },
+  {
+   "sha": "qid:104954",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Plane-mirror image lies as far behind as the object is in front, so the separation is 0.5 m; locating a plane-mirror image."
+  },
+  {
+   "sha": "qid:104955",
+   "codes": [
+    "C 5.3-LO-1"
+   ],
+   "note": "Negative power means a diverging lens; pure sign-convention reading. Duplicate stem of qid:105008."
+  },
+  {
+   "sha": "qid:104956",
+   "codes": [
+    "C 2.3-LO-1",
+    "C 2.3-LO-3"
+   ],
+   "note": "The options mix mirrors and lenses: only a concave mirror and a convex lens give a real image of a real object, so both image outcomes are needed."
+  },
+  {
+   "sha": "qid:104957",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Object between F and C of a concave mirror gives a real inverted magnified image; qualitative image outcome."
+  },
+  {
+   "sha": "qid:104958",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Bulb at the focus of a concave reflector; mirror image-position fact. Duplicate stem of qid:86660."
+  },
+  {
+   "sha": "qid:104959",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "R = 2f arithmetic; mirror-formula outcome."
+  },
+  {
+   "sha": "qid:104960",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "R = 2f arithmetic; mirror-formula outcome."
+  },
+  {
+   "sha": "qid:104961",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "A plane mirror has R and hence f infinite; the f-R relation, so the mirror-formula outcome."
+  },
+  {
+   "sha": "qid:104962",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "Asks the f-R relation directly; mirror-formula outcome."
+  },
+  {
+   "sha": "qid:104963",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "R = 2f for a convex mirror; mirror-formula outcome."
+  },
+  {
+   "sha": "qid:104964",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Plane-mirror image is as far behind as the object is in front; locating a plane-mirror image."
+  }
+ ]
+}

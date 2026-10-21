@@ -1,0 +1,51 @@
+{
+ "chapter": 9,
+ "chapter_id": 25948,
+ "extraction_id": 810,
+ "source": "SAS_Maths-Class-7.pdf",
+ "source_url": "https://cbseacademic.nic.in/cbe/documents/SAS_Maths-Class-7.pdf",
+ "source_grade": 7,
+ "target_grade": 7,
+ "standard_id": 40,
+ "cross_grade": false,
+ "old_chapters": [
+  "Congruence of Triangles"
+ ],
+ "assets": [],
+ "items": [
+  {
+   "number": "SAS21M07S0702",
+   "form": "mcq",
+   "stem": "Raghavan shows that two triangles are congruent using the steps below. AC = FG CD = GH ∠C = ∠G Thus, ∆ACD ≅ ∆FGH Which criterion was used by Raghavan to prove the congruence of the two triangles?",
+   "options": [
+    {
+     "label": "A",
+     "text": "SSS"
+    },
+    {
+     "label": "B",
+     "text": "SAS"
+    },
+    {
+     "label": "C",
+     "text": "ASA"
+    },
+    {
+     "label": "D",
+     "text": "RHS"
+    }
+   ],
+   "answer": "B. SAS",
+   "reproduction": "verbatim",
+   "correct_option": "B"
+  },
+  {
+   "number": "SAS21M07S0705",
+   "form": "short",
+   "stem": "Two triangles are congruent when their three corresponding sides are of equal measure. Is it the same when the three corresponding angles are equal? Give reasons.",
+   "options": [],
+   "answer": "No, with valid reasoning. | No, two triangles are not said to be congruent if all three angles of one triangle are congruent to corresponding angles of another because they may not superimpose each other. | No, two triangles are not said to be congruent if all three angles of one triangle are congruent to corresponding angles of another because they may have different side length.",
+   "reproduction": "verbatim"
+  }
+ ]
+}

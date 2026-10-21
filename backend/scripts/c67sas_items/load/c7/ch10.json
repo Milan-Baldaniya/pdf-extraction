@@ -1,0 +1,59 @@
+{
+ "chapter": 10,
+ "chapter_id": 25949,
+ "extraction_id": 811,
+ "source": "SAS_Maths-Class-7.pdf",
+ "source_url": "https://cbseacademic.nic.in/cbe/documents/SAS_Maths-Class-7.pdf",
+ "source_grade": 7,
+ "target_grade": 7,
+ "standard_id": 40,
+ "cross_grade": false,
+ "old_chapters": [
+  "Integers"
+ ],
+ "assets": [],
+ "items": [
+  {
+   "number": "SAS21M07Q0108",
+   "form": "mcq",
+   "stem": "Horizon Glacier is a cold place. The average temperature of the place is less than zero. The maximum and minimum temperature (in °C) recorded for seven days in a week are given below. Sun Mon Tue Wed Thu Fri Sat o o -13 -23 o o -13 -24 o o -14 -24 o o -13 -22 o o -15 -23 o o -14 -23 o o -12 -21 What was the lowest temperature recorded in the week?",
+   "options": [
+    {
+     "label": "A",
+     "text": "–8°C"
+    },
+    {
+     "label": "B",
+     "text": "–12°C"
+    },
+    {
+     "label": "C",
+     "text": "–21°C"
+    },
+    {
+     "label": "D",
+     "text": "–24°C"
+    }
+   ],
+   "answer": "D. -24°C",
+   "reproduction": "verbatim",
+   "correct_option": "D"
+  },
+  {
+   "number": "SAS21M07Q0109",
+   "form": "short",
+   "stem": "Horizon Glacier is a cold place. The average temperature of the place is less than zero. The maximum and minimum temperature (in °C) recorded for seven days in a week are given below. Sun Mon Tue Wed Thu Fri Sat o o -13 -23 o o -13 -24 o o -14 -24 o o -13 -22 o o -15 -23 o o -14 -23 o o -12 -21 The average maximum temperature of Horizon Glacier for the week was –13.5°C. On which days was the maximum temperature greater than the average maximum temperature?",
+   "options": [],
+   "answer": "Sunday, Monday, Wednesday, and Saturday",
+   "reproduction": "verbatim"
+  },
+  {
+   "number": "SAS21M07Q0110",
+   "form": "short",
+   "stem": "Horizon Glacier is a cold place. The average temperature of the place is less than zero. The maximum and minimum temperature (in °C) recorded for seven days in a week are given below. Sun Mon Tue Wed Thu Fri Sat o o -13 -23 o o -13 -24 o o -14 -24 o o -13 -22 o o -15 -23 o o -14 -23 o o -12 -21 What is the difference between the maximum and minimum temperature on Friday?",
+   "options": [],
+   "answer": "9°C",
+   "reproduction": "verbatim"
+  }
+ ]
+}

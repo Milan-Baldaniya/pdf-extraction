@@ -1,0 +1,29 @@
+{
+ "chapter_id": 8603,
+ "mappings": [
+  {"sha": "5ac5097f74148afd", "codes": ["C-11.1-LO-1"],
+   "note": "derives 1+2+...+n = n(n+1)/2 by the reverse-and-add argument - C-11.1-LO-1 word for word, and the only item in the chapter that derives a sum rather than a term"},
+  {"sha": "6d51eb4b24385e95", "codes": ["C-8.1-LO-10"],
+   "note": "a and d recovered from two given AP terms, then the 31st term - LO-10's nth-term formula solved as a pair of equations"},
+  {"sha": "37fe8362e9fbfe40", "codes": ["C-8.1-LO-11"],
+   "note": "a three-term GP recovered from its sum and the sum of its squares; the work is entirely in the common ratio, so LO-11 - the tagged concept 'Sum of First n Natural Numbers' is wrong for this item"},
+  {"sha": "5895859467acc32f", "codes": ["C-8.1-LO-11", "C-11.1-LO-1"],
+   "note": "proves P^2 = (ab)^n from the GP nth-term formula (LO-11), and the proof turns on the exponents summing to n(n-1)/2, which is the first-n-naturals result of C-11.1-LO-1"},
+  {"sha": "2de86b713dd89c5d", "codes": ["C-8.1-LO-11"],
+   "note": "three unknowns - a, r and n - all recovered from the GP nth-term formula; the heaviest LO-11 item in the chapter, and no sum is involved"},
+  {"sha": "3facadb52320ad4f", "codes": ["C-8.1-LO-10"],
+   "note": "counting multiples of 4 in a range is an AP term-position problem, solved with a_n = a + (n-1)d - LO-10; nothing is summed, unlike item 13"},
+  {"sha": "5cd9f2145a038038", "codes": ["C-8.1-LO-11", "C-8.1-LO-8"],
+   "note": "doubling bacteria is a GP with r = 2 (LO-11), and part (iii) asks for a general nth-hour rule, which is the explicit-formula deliverable of LO-8"},
+  {"sha": "6cf8327271efd7f5", "codes": ["C-8.1-LO-8", "C-8.1-LO-7"],
+   "note": "part (i) asks for the sequence itself to be written out and continued (LO-7), parts (ii) and (iii) for an explicit rule and a term found directly from it (LO-8); the only item besides item 1 that reaches LO-7"},
+  {"sha": "348f3822761843de", "codes": ["C-8.1-LO-10"],
+   "note": "one membership test that succeeds and one that fails on a non-integer n, both inside the AP nth-term formula of LO-10"},
+  {"sha": "64f76943adbc8e26", "codes": ["C-8.1-LO-11", "C-8.1-LO-8"],
+   "note": "a bouncing ball is a GP with a fractional ratio 0.6, so decay rather than the growth of item 32 (LO-11), and the marked deliverable is again an explicit nth-term rule (LO-8)"},
+  {"sha": "dd0811e58e6bafb6", "codes": ["C-8.1-LO-10"],
+   "note": "'increases uniformly by a fixed number every year' is the constant common difference of LO-10; every sub-part is the AP nth-term formula, forwards or backwards"},
+  {"sha": "400d456555d49f80", "codes": ["C-8.1-LO-10"],
+   "note": "concentric rows growing by a fixed 20 trees - again LO-10; part (iii)(a) even names the progression as an AP and asks for the 31st term"}
+ ]
+}

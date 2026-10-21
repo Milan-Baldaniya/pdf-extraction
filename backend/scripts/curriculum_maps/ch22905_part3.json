@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22905,
+ "mappings": [
+  {"sha": "097889da0729d474", "codes": ["C-1.1-LO-1"], "note": "factor tree for 585; unique prime decomposition, FTA not HCF/LCM"},
+  {"sha": "e73e5b6e2abcc88e", "codes": ["C-1.1-LO-1"], "note": "factor tree resolved to 11130 with an unknown prime node; same FTA outcome as the other trees"},
+  {"sha": "ab99827879e94ee0", "codes": ["C-1.1-LO-1"], "note": "tree given downward from 18018 with four blanks; still recovering a unique prime decomposition"},
+  {"sha": "1e0d8d78fd9a5479", "codes": ["C-1.1-LO-1"], "note": "the argument is the uniqueness clause -- 4^n = 2^2n cannot acquire the prime 5; textbook LO-1"},
+  {"sha": "9046fd5cae5cd610", "codes": ["C-1.1-LO-1"], "note": "same last-digit-zero test on 15^n, decided by which primes 3 x 5 can produce; LO-1. Note the stored answer is the bare word No with no reasoning"},
+  {"sha": "702d148bf47f5e19", "codes": ["C-1.1-LO-1"], "note": "7^n cannot end in zero because its only prime is 7 -- FTA uniqueness"},
+  {"sha": "3ef9db8a07861b17", "codes": ["C-1.1-LO-1"], "note": "8^n = 2^3n has no prime 5; same LO-1 argument, third base"},
+  {"sha": "602b09a9d959b22e", "codes": ["C-1.1-LO-3"], "note": "irrationality of 5 sqrt6 leaning on sqrt6 being irrational; a product built on an established irrational, so LO-3 rather than LO-2 -- and sqrt6 is not even one of the three roots LO-2 names"},
+  {"sha": "53910123470ae940", "codes": ["CG-1"], "note": "asks for a rational number lying between sqrt2 and sqrt3 -- density and ordering on the real line. No outcome in this frame covers that; C-1.1-LO-3 would be wrong because nothing is shown irrational, so the goal-level code is the honest cite"},
+  {"sha": "13622405e94e8070", "codes": ["C-1.1-LO-1"], "note": "primality of 571 by trial division against every prime below its square root; the prime/composite half of LO-1, not any HCF outcome"},
+  {"sha": "ef7073cd0bc1389e", "codes": ["C-1.2-LO-1", "C-1.2-LO-2"], "note": "first builds LCM and HCF from the given prime powers (LO-1), then verifies their product equals pq (LO-2); both halves are genuinely assessed"},
+  {"sha": "2684913279ebd424", "codes": ["C-1.1-LO-3"], "note": "3 + sqrt5 shown irrational by isolating sqrt5 -- the sum case LO-3 names, with the irrationality of sqrt5 assumed rather than proved"},
+  {"sha": "edd6ba852d0da1b3", "codes": ["CG-1"], "note": "Euclid division algorithm: every even positive integer has the form 6q, 6q+2, 6q+4. The frame has no outcome for the division lemma at all -- neither C-1.1 (FTA/irrationality) nor C-1.2 (HCF/LCM) reaches it, so only the goal-level code is defensible"},
+  {"sha": "48c0a00190f6d165", "codes": ["CG-1"], "note": "same division-lemma argument modulo 4 for odd integers; cited at goal level for the same reason -- no learning outcome covers Euclid division in this chapter"},
+  {"sha": "a6863c9ba9b023ad", "codes": ["C-1.1-LO-2"], "note": "the primary proof by contradiction that sqrt2 is irrational, including the p divides p-squared step; LO-2 names sqrt2 explicitly, and nothing is built on top of it as in LO-3"},
+  {"sha": "0df0434ce0ece818", "codes": ["C-1.2-LO-3"], "note": "seating teachers of three subjects in equal rooms -- a real grouping situation resolved by HCF, which is what separates LO-3 from the bare HCF computations in LO-1"},
+  {"sha": "5fe3b4310bb7a71f", "codes": ["C-1.1-LO-3"], "note": "2 sqrt5 - 3 shown irrational with the irrationality of sqrt5 explicitly given; the givenness is exactly what makes this LO-3 and not LO-2"},
+  {"sha": "83724873e2022e09", "codes": ["C-1.1-LO-3"], "note": "2 sqrt3 - 5 with sqrt3 given irrational; identical LO-3 structure, different surd"},
+  {"sha": "4a55fc80d961d8ca", "codes": ["C-1.1-LO-3"], "note": "5 + 3 sqrt2 with sqrt2 given irrational -- the 5 + root-3 pattern LO-3 quotes, only with a coefficient"},
+  {"sha": "b478d7753267a912", "codes": ["C-1.1-LO-3"], "note": "5 + 2 sqrt3 with sqrt3 given; LO-3, since no proof of the surd itself is demanded"},
+  {"sha": "69b004e9d2fbb658", "codes": ["C-1.1-LO-3"], "note": "2 + 5 sqrt3 with sqrt3 given irrational; same sum-and-product justification"},
+  {"sha": "04873c3b30b6200b", "codes": ["C-1.1-LO-3"], "note": "(2 + sqrt3)/5 -- a division on top of the sum, but still irrationality inherited from a given irrational, so LO-3"},
+  {"sha": "f877823ceca2197d", "codes": ["C-1.2-LO-1"], "note": "smallest number divisible by both 306 and 657 is their LCM, obtained by prime factorisation; phrased abstractly with no situation, so LO-1 and not LO-3"},
+  {"sha": "648bd59add366ee1", "codes": ["C-1.2-LO-3"], "note": "stacking cartons of two drinks to a common height -- the stacking case LO-3 names outright"},
+  {"sha": "ebebc0a4a2c908d8", "codes": ["C-1.2-LO-3"], "note": "three bells tolling together again -- the simultaneous-ringing case LO-3 names outright"}
+ ]
+}

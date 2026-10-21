@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23197,
+ "mappings": [
+  {
+   "sha": "0215323ecb2f8cbc",
+   "codes": ["C-3.1-LO-3"],
+   "note": "a and d are handed over and only S10 is wanted; nothing about recognising the AP or an indexed term, so the sum formula alone is graded"
+  },
+  {
+   "sha": "4aa95f0ae79bed20",
+   "codes": ["C-3.1-LO-3"],
+   "note": "runs the sum formula backwards -- a polynomial Sn is equated to (n/2)[2a+(n-1)d] to recover a; still wholly inside LO-3, not the nth-term formula"
+  },
+  {
+   "sha": "e621ecfe9df8dec6",
+   "codes": ["C-3.1-LO-2"],
+   "note": "d is read off in one step; the graded work is building an = a+(n-1)d into the closed form (2n-1)a, which is LO-2 not LO-1"
+  },
+  {
+   "sha": "836d57af2507cb2d",
+   "codes": ["C-3.1-LO-1"],
+   "note": "subtracts two adjacent listed terms and stops -- the defining common-difference test, with no indexed term involved"
+  },
+  {
+   "sha": "90b907fcb5336c45",
+   "codes": ["C-3.1-LO-1"],
+   "note": "imposes equal successive differences on three consecutive expressions to fix x; that is the AP criterion itself, not an application of an+(n-1)d"
+  },
+  {
+   "sha": "efc1b6eaeaa7bc21",
+   "codes": ["C-3.1-LO-2"],
+   "note": "pure substitution of a=p, d=q, n=10 into the nth-term formula -- the formula is finished and only being used"
+  },
+  {
+   "sha": "c80487dc4f429b35",
+   "codes": ["C-3.1-LO-2"],
+   "note": "same nth-term relation solved for a rather than for an; the unknown moves but the graded formula is still LO-2's"
+  },
+  {
+   "sha": "3f1e7e39641f80d2",
+   "codes": ["C-3.1-LO-2"],
+   "note": "d=0 edge case of an = a+(n-1)d; tests that the nth-term formula survives a zero common difference, so LO-2"
+  },
+  {
+   "sha": "0b831a0dc6787c40",
+   "codes": ["C-3.1-LO-2"],
+   "note": "d must be extracted from the list first, but the marks sit on reaching a11 through the nth-term formula, so LO-2 over LO-1"
+  },
+  {
+   "sha": "80889b17b6dc8eac",
+   "codes": ["C-3.1-LO-2"],
+   "note": "solves an = a+(n-1)d for the index n rather than the value; position-of-a-known-term is LO-2 work on a listed AP, not a contextual count"
+  },
+  {
+   "sha": "f67aa82436b81895",
+   "codes": ["C-3.1-LO-2"],
+   "note": "expands a18 and a13 through the nth-term formula so a cancels; the sequence is never listed, so the LO-1 successive-difference test cannot be what is tested"
+  },
+  {
+   "sha": "ba22772e72800758",
+   "codes": ["C-3.1-LO-2"],
+   "note": "answer is d, but it is reached by writing two indexed terms as a+(n-1)d and subtracting -- not by differencing adjacent listed terms, so LO-2 not LO-1"
+  },
+  {
+   "sha": "1730c307cce87114",
+   "codes": ["C-3.1-LO-2"],
+   "note": "counting from the end needs the nth-term formula re-anchored at the last term; a variation on LO-2's formula, not a sum"
+  },
+  {
+   "sha": "080ae5d192b69ffd",
+   "codes": ["C-3.1-LO-3"],
+   "note": "pure attribution recall (Gauss) attached to the sum of the first 100 naturals; no AP procedure is performed, and LO-3 is only the nearest home because the anecdote is the sum formula's derivation -- flagged as a weak fit"
+  },
+  {
+   "sha": "005db2468843779a",
+   "codes": ["C-3.1-LO-3"],
+   "note": "a and d given, S6 wanted; the sum formula is the only tool, with no term index and no context to model"
+  },
+  {
+   "sha": "a4b7a54f55ac6f9f",
+   "codes": ["C-3.1-LO-3"],
+   "note": "d comes free from the printed list; the graded step is S16 via the sum formula, so LO-3 rather than LO-1"
+  },
+  {
+   "sha": "a0ff92ff38d2f6f1",
+   "codes": ["C-3.1-LO-3"],
+   "note": "uses the Sn = (n/2)(a+an) form to solve for n; the last term is supplied, so the nth-term formula is never needed"
+  },
+  {
+   "sha": "791d5e2e2449e218",
+   "codes": ["C-3.1-LO-3"],
+   "note": "n=5 is stated in the stem and a=d=3 is immediate, so nothing is counted from a description -- this is a plain sum, not a C-3.2-LO-2 contextual count"
+  },
+  {
+   "sha": "42059b72a579fa09",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the sum formula produces a quadratic in n that must be solved and the negative root rejected; the number of terms comes out of Sn, not out of a described number set"
+  },
+  {
+   "sha": "c7591bf47bc8ea35",
+   "codes": ["C-3.1-LO-2"],
+   "note": "the last term fixes d through a60 = a+59d and then a31 is read off; two applications of the nth-term formula and no sum"
+  },
+  {
+   "sha": "579229f5f08a4aa7",
+   "codes": ["C-3.1-LO-3"],
+   "note": "derives an algebraic identity out of S = (n/2)(a+l) with no numbers at all -- the derive half of LO-3 rather than the substitute half"
+  },
+  {
+   "sha": "6deb1db6de09d6be",
+   "codes": ["C-3.1-LO-3"],
+   "note": "an is supplied as a formula purely to generate the endpoints; the assessed step is S10 = (n/2)(a+an), so LO-3"
+  },
+  {
+   "sha": "1d8b2d38558a6dae",
+   "codes": ["C-3.1-LO-2"],
+   "note": "both fourth terms are written as a+3d and subtracted so the shared d cancels; an nth-term manipulation across two APs, not a sum"
+  },
+  {
+   "sha": "32834080d285eeda",
+   "codes": ["C-3.1-LO-3"],
+   "note": "S11 = 33 is the only given, and it is the sum formula that collapses to a+5d = 3; the fourth term is a consequence, so LO-3 drives it"
+  },
+  {
+   "sha": "4a4e3e0df00dee8e",
+   "codes": ["C-3.1-LO-3"],
+   "note": "equates two sum expressions from two different APs and solves for n; entirely sum-formula work, distinct from the single-AP substitutions above"
+  }
+ ]
+}

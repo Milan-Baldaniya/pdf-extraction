@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8600,
+ "mappings": [
+  {
+   "sha": "8d23ecb35011378b",
+   "codes": ["C-8.1-LO-2", "C-2.1-LO-1"],
+   "note": "Child on a 40 m circular track: average speed needs 2(pi)r/T (C-8.1-LO-2), average velocity needs the recognition that displacement over a full revolution is zero (LO-1). Speed is asked first, so C-8.1-LO-2 leads."
+  },
+  {
+   "sha": "1c32d330882a07e2",
+   "codes": ["C-2.1-LO-1", "C-8.1-LO-2"],
+   "note": "Distance and displacement after 3.5 laps of a 200 m circular track. LO-1 leads because both quantities asked for are the contrast pair; C-8.1-LO-2 is second because the path length comes from the circumference model."
+  },
+  {
+   "sha": "2953227fef92bd66",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Square field, 3.5 laps, displacement at the end. The closed path is polygonal not circular, so no circular-motion model is involved - only the LO-1 distance/displacement contrast."
+  },
+  {
+   "sha": "acd02b5d54cd13f2",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Given a=-6 and t=2 to rest, back out u from v=u+at then s from s=ut+(1/2)at^2. Two chained substitutions, the LO-4 pattern; no graph and no factor identification."
+  },
+  {
+   "sha": "b5c5adb7c377217e",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Train from rest to 72 km/h in 5 min: acceleration then distance. Same substitution chain as its L127(c) twin, so the same outcome - a duplicate that shares LO-4 honestly."
+  },
+  {
+   "sha": "ce39856a508930d2",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Joseph A to B then partway back: four answers whose whole content is that speed and velocity agree on the one-directional leg and diverge once he turns. The LO-1 differentiation, not LO-4."
+  },
+  {
+   "sha": "636c2d812e2f4b0c",
+   "codes": ["C-2.1-LO-1", "C-8.1-LO-2"],
+   "note": "1.5 laps of a 49 m circular track leaves the athlete diametrically opposite, so displacement equals the diameter. LO-1 leads (the contrast is the answer); C-8.1-LO-2 supplies the n x (pi)D path length."
+  },
+  {
+   "sha": "bd8643d3c17a68ea",
+   "codes": ["C-2.1-LO-4", "C-2.1-LO-1"],
+   "note": "Splits from the other average-speed numericals: the legs are given by speed, not time, so the arithmetic mean 25 km/h is a trap and the student must go back to total distance over total time. LO-4 for the calculation, LO-1 for the definition that defeats the trap."
+  },
+  {
+   "sha": "bda175d6fd64b68c",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Motorboat from rest, a=3.0, t=8.0, find s. Bare substitution into s=ut+(1/2)at^2, the same demand as the L129(c) part - LO-4."
+  },
+  {
+   "sha": "c903ab1b2b60d30c",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Ball dropped 20 m at 10 m/s^2: find the striking velocity and the time. Free fall handled purely as a kinematic-equation substitution with a=g, so LO-4 fully covers it and no competency-level gravity code is needed, unlike the conceptual free-fall items."
+  },
+  {
+   "sha": "365acc0cdbd8d6f8",
+   "codes": ["C-2.1-LO-1", "C-8.1-LO-2"],
+   "note": "Duplicate of L156 in different words: distance and displacement after 3.5 laps of a 200 m track. Mapped identically because the demand is identical."
+  },
+  {
+   "sha": "88394ea8b6539dc6",
+   "codes": ["C-2.1-LO-4", "C-2.1-LO-1"],
+   "note": "Duplicate of L162, the 20/30 km/h round trip. Same trap and therefore the same pair of codes: calculation via LO-4, definition of average speed via LO-1."
+  },
+  {
+   "sha": "5fe9d4f141c8d9f1",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Duplicate of L160, Joseph on the 300 m road. Same speed/velocity contrast across a turn-back, so the same single outcome."
+  },
+  {
+   "sha": "f318c7a5daa19661",
+   "codes": ["C-2.1-LO-2", "C8.1"],
+   "note": "The graphs are not supplied - the student must plot both speed-time lines and then compare areas to decide which car went farther. Building the model is C8.1, extracting displacement from it is LO-2, exactly as in N14 and N15."
+  },
+  {
+   "sha": "ce2c0ba926f52cc0",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Three-object distance-time graph: which is fastest (slopes), and two read-off distances at crossing points. Every answer is a kinematic quantity taken off the graph, so LO-2 rather than the LO-1 shape-reading items."
+  },
+  {
+   "sha": "d28e60a05a04bf06",
+   "codes": ["C-2.1-LO-1"],
+   "note": "School bus out and back: four answers alternating between path length and net position change. The LO-1 contrast stretched over a round trip; no equation and no graph."
+  },
+  {
+   "sha": "61cde50bc5c0e205",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Postwoman 4 km north then 1 km south: 5 km of path, 3 km of displacement. LO-1 differentiation, with the smartwatch framing only supplying the two quantities by name."
+  },
+  {
+   "sha": "e5857ba16ef95685",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Tara swims a length and back in unequal times: distance, average speed, average velocity. The unequal legs change nothing - displacement is still zero, so the outcome probed is the LO-1 distinction."
+  },
+  {
+   "sha": "690f9ac81bdccd8b",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Splits from the pool items only in that the displacement is non-zero (400 m out, 100 m back leaves 300 m), so both speed and velocity are non-zero but unequal. Still the LO-1 differentiation, tested on the harder case."
+  },
+  {
+   "sha": "3b271c7af0492e06",
+   "codes": ["C-2.1-LO-1", "C8.2"],
+   "note": "Speedometer versus odometer, scalar versus vector, and why average velocity cannot be found from the data. The instrument-reading framing is C8.2, which covers accurate use of scientific instruments; the quantities themselves are LO-1, including the instantaneous/average distinction."
+  },
+  {
+   "sha": "8608ba308d341979",
+   "codes": ["C-2.1-LO-4"],
+   "note": "RC car: average acceleration over the first 4 s, zero during the constant phase, then the deceleration over 3 s. Three substitutions into a=(v-u)/t, so LO-4; the phases are given, nothing has to be identified."
+  },
+  {
+   "sha": "ffed973bd76b03c6",
+   "codes": ["C-2.1-LO-1", "C2.1"],
+   "note": "Falling ball covering more ground each second: name the motion and explain why. LO-1 supplies the definition of accelerated motion, but the content is free fall under gravity, which only the competency C2.1 names."
+  },
+  {
+   "sha": "05d005ca20e8e7e1",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Ant position-time graph in three segments: sloping, horizontal, curved. Each answer is a state of motion read from the shape, never a value, which is what keeps this on LO-1 and off LO-2."
+  },
+  {
+   "sha": "ab9cc48ceedba341",
+   "codes": ["C2.1", "C-2.1-LO-1"],
+   "note": "POOR FIT. Ball thrown vertically upward: velocity at the top, direction of g on the way up and down, symmetry of the times. No learning outcome covers motion under gravity; C2.1 is the only place acceleration due to gravity is named, so it leads here, with LO-1 for the velocity/acceleration definitions."
+  },
+  {
+   "sha": "c2f16aa55fd46285",
+   "codes": ["C-2.1-LO-1", "C-2.1-LO-2"],
+   "note": "Metro train velocity-time graph in three segments. Part (a) describes the acceleration from the shapes (LO-1), part (b) asks for its value during the flat phase, which is the slope read as zero (LO-2). Both directions of the graph split are present."
+  }
+ ]
+}

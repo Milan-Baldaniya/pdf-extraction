@@ -1,0 +1,178 @@
+{
+  "class": 9,
+  "source": "c9_english_cbq.pdf",
+  "source_path": "data/qbank/mirror/kvs_jabalpur/c9_english_cbq.pdf",
+  "pages": 154,
+  "method": "Index on p7 gives the section skeleton (Reading 9, Writing 19, Grammar 34, Literature 41, Model Question Papers 106). The contributor table on p8-9 lists all 16 literature texts: prose 1-8 in exactly the database chapter order, then poems 9-16. Six of those eight poems are pinned to a chapter independently by that chapter's own concept list, and they occupy contributor positions 11,12,13,14,15,16 for units 3,4,5,6,7,8 - a constant offset of +8. Positions 9 (Bharat Our Land) and 10 (Gifts of Grace) therefore belong to units 1 and 2. Every in-book boundary below was then located by the bold heading on the page, with its y-position on the 792pt page recorded so split pages are explicit.",
+  "ranges": [
+    {
+      "from": 41,
+      "to": 45,
+      "chapter_id": 8622,
+      "sort_order": 1,
+      "chapter": "How I Taught My Grandmother to Read",
+      "evidence": "p41 y=28 'LITERATURE SECTION', y=54 'LESSON -1', y=80 'HOW I TAUGHT MY GRANDMOTHER TO READ'. Body is Krishtakka / Kannada alphabet / Kashi Yatre extracts. Runs to p46 y=243 where 'LESSON 2 THE POT MAKER' begins."
+    },
+    {
+      "from": 46,
+      "to": 49,
+      "chapter_id": 8623,
+      "sort_order": 2,
+      "chapter": "The Pot Maker",
+      "evidence": "p46 y=243 heading 'LESSON 2 THE POT MAKER'. Body is Arenla / Sentila / weaving-vs-pot-making extracts. SPLIT PAGE p46: the top 28% (y=28-243) is ch1's 'LONG ANSWERS UNSOLVED' block (1 question). SPLIT PAGE p49: 95% is Pot Maker; the last line (y=699) is the 'Winds of Change' heading."
+    },
+    {
+      "from": 50,
+      "to": 54,
+      "chapter_id": 8624,
+      "sort_order": 3,
+      "chapter": "Winds of Change",
+      "evidence": "Heading 'Winds of Change' on p49 y=699 (last line); p50 y=28 'EXTRACTS COMPETANCY BASED (SOLVED) Set-1' opens with \"The word 'pankha' is derived from the Sanskrit word 'paksha', meaning a wing\". p54 names the lesson explicitly: 'Drawing evidence from the lesson \"Winds of Change\"'. SPLIT PAGE p54: 95% Winds of Change; the last line (y=698) is 'Class 9 English - Lesson: Vitamin M'."
+    },
+    {
+      "from": 55,
+      "to": 59,
+      "chapter_id": 8634,
+      "sort_order": 4,
+      "chapter": "Vitamin-M",
+      "evidence": "p54 y=698 heading 'Class 9 English - Lesson: Vitamin M'; p55 y=28 'Two Solved Competency-Based Extracts' then 'The Class 9 Kaveri lesson Vitamin-M by Asha Nehemiah'. p57 y=86 repeats 'Lesson: Vitamin-M'. Body is Ravi / Grandpa / memory-vitamin extracts."
+    },
+    {
+      "from": 60,
+      "to": 64,
+      "chapter_id": 8635,
+      "sort_order": 5,
+      "chapter": "The World of Limitless Possibilities",
+      "evidence": "p60 y=285 heading 'The World of Limitless Possibilities' + y=311 'Extract based Questions (Solved)'. Body is Deepa Malik, 'first ever Indian female para-athlete', 'ability beyond disability', advocacy for persons with challenges. SPLIT PAGE p60: the top 36% (y=28-285) is Vitamin-M's '2. UNSOLVED LONG ANSWER QUESTION'. SPLIT PAGE p64: 51% is this chapter (its UNSOLVED long answers about Dr. Malik); 'Twin melodies' begins at y=390 and takes the lower 49%."
+    },
+    {
+      "from": 65,
+      "to": 67,
+      "chapter_id": 8636,
+      "sort_order": 6,
+      "chapter": "Twin Melodies",
+      "evidence": "Heading 'Twin melodies' on p64 y=390; p65-67 are NABIN/SHRUTI/IQBAL play extracts - orchestra 'hubbub', 'desecration of the violin', Classical Hindustani ragas and aalaaps. Matches ch6 concepts Dramatic Structure, Generation Gap, Musical Terminology."
+    },
+    {
+      "from": 68,
+      "to": 71,
+      "chapter_id": 8637,
+      "sort_order": 7,
+      "chapter": "Carrier of Words",
+      "evidence": "p68 y=180 heading 'CARRIER OF WORDS'. Body is Khetaram the postal worker, 49.9 degrees celsius, the torn-corner envelope carrying 'Ashubh Samachar'. Matches ch7 concepts Khetaram's Dedication, Symbolism of Torn Envelope, Thar Desert. SPLIT PAGE p68: the top 21% is ch6's single 'UNSOLVED' long question on Twin Melodies. SPLIT PAGE p71: 95% Carrier of Words; the last line (y=707) is the 'FOLLOW THAT DREAM' heading."
+    },
+    {
+      "from": 72,
+      "to": 75,
+      "chapter_id": 8638,
+      "sort_order": 8,
+      "chapter": "Follow That Dream",
+      "evidence": "Heading 'FOLLOW THAT DREAM' on p71 y=707; p72 y=28 '1. Extract-Based Competency-Based questions (Solved)' opens with 'It is good to be able to fulfil your dreams but for a lot of people, dreams remain dreams'. Matches ch8 concepts Following Dreams, Self-Belief."
+    },
+    {
+      "from": 76,
+      "to": 77,
+      "chapter_id": 8636,
+      "sort_order": 6,
+      "chapter": "Twin Melodies",
+      "evidence": "POEM. p76 y=28 heading 'A Friend Found in Music'; extract '\"Music is like an ocean, / Pulling me closer to its shore.\"'. Paired to ch6 by concepts 'Musical Terminology' and 'Figurative Language in Poetry' (the first question on p76 asks which literary device is used in 'Music is like an ocean' - simile), and by contributor-list position 14 = unit 6."
+    },
+    {
+      "from": 78,
+      "to": 81,
+      "chapter_id": 8622,
+      "sort_order": 1,
+      "chapter": "How I Taught My Grandmother to Read",
+      "evidence": "POEM, INFERRED PAIRING. p78 y=28 heading 'Poem: Bharat Our Land' (\"The mighty Himvant is ours... The generous Ganga is ours\"). No ch1 concept names this poem; it is placed on the contributor table (p8), which lists prose 1-8 in database chapter order then poems 9-16, where positions 11-16 are independently confirmed as units 3-8 by those chapters' own concepts. Position 9 (Bharat Our Land) is therefore unit 1. FLAG: this is the weaker of the two inferred placements - verify before loading."
+    },
+    {
+      "from": 82,
+      "to": 86,
+      "chapter_id": 8623,
+      "sort_order": 2,
+      "chapter": "The Pot Maker",
+      "evidence": "POEM, INFERRED PAIRING. p82 y=259 heading 'Poem:Gifts of Grace' / y=288 'Honouring Our Vocations'; the poem praises carpenters, electricians, shoemakers, boatmen, artisans - 'The voice of their vocation is the voice of their...'. Placed at contributor-list position 10 = unit 2, the same +8 offset confirmed for positions 11-16; thematically it pairs with the potter/craft lesson. It is NOT ch7: ch7's poem is 'Words' (see below), confirmed by the ch7 concept \"Theme of 'Words' Poem\". SPLIT PAGE p82: the top 33% (y=28-259) is Bharat Our Land's LONG ANSWER SOLVED/UNSOLVED block. SPLIT PAGE p87: see next range."
+    },
+    {
+      "from": 87,
+      "to": 90,
+      "chapter_id": 8624,
+      "sort_order": 3,
+      "chapter": "Winds of Change",
+      "evidence": "POEM. p87 y=170 heading 'CANVAS OF SOIL - Maya Anthony'; extract '\"Each plot, a canvas wide, / Where art and life coincide.\"'. Pinned directly by the ch3 concept \"Metaphor in 'Canvas of Soil'\". SPLIT PAGE p87: the top 20% is Gifts of Grace's 'LONG ANSWER TYPES QUESTIONS- (UNSOLVED)'. SPLIT PAGE p90: 92% Canvas of Soil; the last line (y=685) is 'Poem: I Cannot Remember My Mother - Rabindranath Tagore'."
+    },
+    {
+      "from": 91,
+      "to": 94,
+      "chapter_id": 8634,
+      "sort_order": 4,
+      "chapter": "Vitamin-M",
+      "evidence": "POEM. Heading 'Poem: I Cannot Remember My Mother - Rabindranath Tagore' on p90 y=685; p91 y=28 'EXTRACT-1 (SOLVED)' quotes '\"I cannot remember my mother / Only sometimes in the midst of my play...\"'. Matches the ch4 concepts Memory and Aging, Sensory Imagery, Literary Refrain and Symbolism in Poetry - p93-p95 turn explicitly on the shiuli fragrance and on sensory memory."
+    },
+    {
+      "from": 95,
+      "to": 96,
+      "chapter_id": 8635,
+      "sort_order": 5,
+      "chapter": "The World of Limitless Possibilities",
+      "evidence": "POEM. p95 y=180 heading 'Nine Gold Medals - David Roth' (the Special Olympics race where the other runners turn back for the one who fell, and all receive gold). Matches the ch5 concepts Empathy and Sportsmanship, Ability Beyond Disability, Resilience; contributor-list position 13 = unit 5. SPLIT PAGE p95: the top 21% is the close of I Cannot Remember My Mother ('LONG ANSWER QUESTION (UNSOLVED) / Q1. Case-Based Competency Question')."
+    },
+    {
+      "from": 97,
+      "to": 100,
+      "chapter_id": 8637,
+      "sort_order": 7,
+      "chapter": "Carrier of Words",
+      "evidence": "POEM. p97 y=28 'POEM: WORDS' / y=54 'By: Charles Swain'; extract 'If words could satisfy the heart... But words, like summer birds, depart'. Pinned directly by the ch7 concept \"Theme of 'Words' Poem\" and supported by 'Simile in Poetry'. SPLIT PAGE p100: 73% is Words; 'BELIEVE IN YOURSELF [POEM]' begins at y=551 and takes the lower 27%."
+    },
+    {
+      "from": 101,
+      "to": 105,
+      "chapter_id": 8638,
+      "sort_order": 8,
+      "chapter": "Follow That Dream",
+      "evidence": "POEM. Heading 'BELIEVE IN YOURSELF [POEM]' on p100 y=551; p101-105 turn on 'maintain the status quo', 'Challenges help us develop', 'self-belief helps us overcome this fear', 'This isn't how we grow'. Matches the ch8 concepts Self-Belief, Rhetorical Question, Metaphor; contributor-list position 16 = unit 8. Literature section ends at p105."
+    }
+  ],
+  "unassigned": [
+    {
+      "from": 1,
+      "to": 8,
+      "why": "Front matter: cover (p1), Our Patrons (p2), Our Contributors (p3), Deputy Commissioner's Message (p4), Assistant Commissioner's Message (p5), Foreword (p6), Index (p7), List of contributors table (p8). p1-6 are images with no text layer beyond the folio."
+    },
+    {
+      "from": 9,
+      "to": 18,
+      "why": "Reading Skills (index p7: Solved 9, Unsolved 14). Unseen comprehension passages - avalanches, textbooks vs technology, superheroes, automation, multitasking, the attention economy. No lesson attached to any of them; not chapter-specific. p9 also carries the tail of the contributor table down to y=142."
+    },
+    {
+      "from": 19,
+      "to": 33,
+      "why": "WRITING SECTION (heading on p19 y=315; index p7: Writing Skills 19). Poster Making, Speech Writing, Letter to the Editor, Notice Writing, Email Writing, Essay Writing, Article Writing - format notes and generic practice prompts, none tied to a lesson. p19's top half is the tail of the last unseen passage."
+    },
+    {
+      "from": 34,
+      "to": 40,
+      "why": "GRAMMAR SECTION (heading on p34 y=44; index p7: Grammar 34). Sets 1-4 of tense, error correction, editing, determiners, reported speech and sentence transformation. Generic; no lesson attached."
+    },
+    {
+      "from": 106,
+      "to": 154,
+      "why": "Model Question Papers with answers (index p7: 106). Three full 80-mark papers plus marking schemes: SET-I p106-117 with marking scheme p117-123; Set-II p124-132 with marking scheme p133-137; a third paper p138-147 with marking scheme p148-154. Literature questions inside are chapter-specific but are interleaved within a single page - e.g. p114 carries ch1 (grandmother), ch7 (Khetaram) and ch6 (Papa/Hindustani music) extracts, and p116-117 list one question each on ch1, ch2, ch3, 'A Friend Found in Music', 'Nine Gold Medals', 'Bharat, Our Land' and 'Follow That Dream'. No page in this block is single-chapter, so nothing here can be assigned by page range; it needs question-level attribution."
+    }
+  ],
+  "split_pages": [
+    {"page": 46, "assigned_to": 8623, "also_contains": 8622, "boundary_y": 243, "page_height": 792, "note": "top 28% = ch1 LONG ANSWERS UNSOLVED (1 question)"},
+    {"page": 49, "assigned_to": 8623, "also_contains": 8624, "boundary_y": 699, "page_height": 792, "note": "'Winds of Change' heading is the last line; no ch3 questions on this page"},
+    {"page": 54, "assigned_to": 8624, "also_contains": 8634, "boundary_y": 698, "page_height": 792, "note": "'Lesson: Vitamin M' heading is the last line; no ch4 questions on this page"},
+    {"page": 60, "assigned_to": 8635, "also_contains": 8634, "boundary_y": 285, "page_height": 792, "note": "top 36% = Vitamin-M's UNSOLVED LONG ANSWER Q2"},
+    {"page": 64, "assigned_to": 8635, "also_contains": 8636, "boundary_y": 390, "page_height": 792, "note": "NEAR 50/50. Top = ch5 UNSOLVED long answers 1-2; bottom = Twin Melodies extract A with Q1-Q2"},
+    {"page": 68, "assigned_to": 8637, "also_contains": 8636, "boundary_y": 180, "page_height": 792, "note": "top 21% = ch6 UNSOLVED long question 1"},
+    {"page": 71, "assigned_to": 8637, "also_contains": 8638, "boundary_y": 707, "page_height": 792, "note": "'FOLLOW THAT DREAM' heading is the last line; no ch8 questions on this page"},
+    {"page": 82, "assigned_to": 8623, "also_contains": 8622, "boundary_y": 259, "page_height": 792, "note": "top 33% = Bharat Our Land LONG ANSWER SOLVED + UNSOLVED"},
+    {"page": 87, "assigned_to": 8624, "also_contains": 8623, "boundary_y": 170, "page_height": 792, "note": "top 20% = Gifts of Grace LONG ANSWER TYPES QUESTIONS- (UNSOLVED)"},
+    {"page": 90, "assigned_to": 8624, "also_contains": 8634, "boundary_y": 685, "page_height": 792, "note": "'Poem: I Cannot Remember My Mother' heading is the last line; no ch4 questions on this page"},
+    {"page": 95, "assigned_to": 8635, "also_contains": 8634, "boundary_y": 180, "page_height": 792, "note": "top 21% = I Cannot Remember My Mother LONG ANSWER (UNSOLVED) case-based question"},
+    {"page": 100, "assigned_to": 8637, "also_contains": 8638, "boundary_y": 551, "page_height": 792, "note": "bottom 27% = BELIEVE IN YOURSELF extract-based questions (solved) begin"}
+  ]
+}

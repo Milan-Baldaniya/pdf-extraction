@@ -1,0 +1,712 @@
+{
+ "chapter": 8,
+ "chapter_id": 8607,
+ "extraction_id": 599,
+ "section": "objective",
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "page": 343,
+   "stem": "Who among the following ancient Indian philosophers first proposed the concept that dividing matter repeatedly would eventually yield indivisible particles called parmanus?",
+   "answer": "Acharya Kanada, an ancient Indian philosopher, proposed that continuous division of matter ultimately leads to the smallest indivisible particles, which he named parmanu. This philosophical concept parallels the ideas of ancient Greek thinkers like Democritus, establishing the early theoretical foundation for atomic structure long before experimental scientific theories were developed.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Aryabhata"
+    },
+    {
+     "label": "B",
+     "text": "Acharya Kanada"
+    },
+    {
+     "label": "C",
+     "text": "Maharishi Patanjali"
+    },
+    {
+     "label": "D",
+     "text": "Sushruta"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Acharya Kanada's parmanu idea",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "page": 343,
+   "stem": "A student tabulates the properties of three unknown subatomic particles, labeled P, Q, and R. Based on the characteristics provided in the table, which option correctly identifies these particles?\nParticle | Relative Charge | Mass Comparison (Relative to Proton)\nP | -1 | Negligible\nQ | +1 | Equal to 1\nR | 0 | Equal to 1",
+   "answer": "Electrons are negatively charged subatomic particles with negligible mass. Protons possess a positive electrical charge and a relative mass of one. Neutrons carry no electrical charge and have a mass nearly identical to that of a proton. The data provided perfectly aligns with these fundamental properties of atomic constituents.",
+   "options": [
+    {
+     "label": "A",
+     "text": "P: Electron, Q: Proton, R: Neutron"
+    },
+    {
+     "label": "B",
+     "text": "P: Proton, Q: Neutron, R: Electron"
+    },
+    {
+     "label": "C",
+     "text": "P: Neutron, Q: Electron, R: Proton"
+    },
+    {
+     "label": "D",
+     "text": "P: Electron, Q: Neutron, R: Proton"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Protons and neutrons contribute mass",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 2,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "every word is the book's; the three-column table in the stem arrived as a column-major run of cells and was set back out as rows. The answer also carried 'Click Here to Buy book on Flipkart', which was removed."
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "page": 344,
+   "stem": "In the given setup, the particle marked ‘X’ undergoes a sharp deflection from its original straight path. What conclusion about the atom’s structure can be drawn directly from this specific observation?",
+   "answer": "The sharp deflection of the positively charged alpha particle marked ‘X’ occurs because it experiences a strong repulsive force. This demonstrates that the atom’s positive charge and mass are not uniformly distributed but are concentrated in a tiny, dense central region called the nucleus, contradicting the plum pudding model.",
+   "options": [
+    {
+     "label": "A",
+     "text": "The atom consists mostly of empty space."
+    },
+    {
+     "label": "B",
+     "text": "The atom contains a dense, positively charged center."
+    },
+    {
+     "label": "C",
+     "text": "Electrons revolve in fixed circular energy levels."
+    },
+    {
+     "label": "D",
+     "text": "The positive charge is uniformly distributed throughout."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Rutherford's nuclear model",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "page": 344,
+   "stem": "During his experiments with the cathode ray tube, what specific observation led J. J. Thomson to discover the existence of electrons?",
+   "answer": "Thomson utilized a cathode ray tube at very low pressure to study electrical conduction inside gases. He observed rays travelling from the negatively charged cathode directly toward the positively charged anode. By applying electric and magnetic fields, he successfully deduced that these rays perfectly consisted of fundamental, negatively charged particles scientifically called electrons.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Positively charged particles moving toward the cathode"
+    },
+    {
+     "label": "B",
+     "text": "Neutral particles moving randomly within the glass tube"
+    },
+    {
+     "label": "C",
+     "text": "Rays moving from the negatively charged cathode to the positive anode"
+    },
+    {
+     "label": "D",
+     "text": "Electromagnetic waves emitting bright light independent of electrodes"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Discovery of electrons",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "page": 344,
+   "stem": "A student is mapping the distribution of electrons in different energy levels according to the Bohr-Bury scheme. They created a partially filled table. What are the correct numerical values for X and Y required to complete the table?\nShell Name | Shell Number (n) | Maximum Electron Capacity\nK | 1 | 2\nL | 2 | 8\nM | 3 | X\nN | 4 | Y",
+   "answer": "The maximum number of electrons that can be accommodated in any given shell is determined by the specific mathematical formula 2n², where ‘n’ represents the orbit number. Applying this rule to the M-shell (n = 3), the maximum capacity calculates to 2(3)² = 18. Similarly, for the N-shell (n = 4), the capacity reaches 2(4)² = 32.",
+   "options": [
+    {
+     "label": "A",
+     "text": "X = 8, Y = 18"
+    },
+    {
+     "label": "B",
+     "text": "X = 18, Y = 32"
+    },
+    {
+     "label": "C",
+     "text": "X = 18, Y = 18"
+    },
+    {
+     "label": "D",
+     "text": "X = 32, Y = 50"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Bohr-Bury 2n² rule",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "the stem table was set back out as rows, and the answer's three formulae reached the text layer flattened and denominator-first as 'formula n 2 2', '(n 3 = )', '( ) 2 3 18 2 =' and '( ) 2 4 32 2 ='; they are rebuilt here as 2n², (n = 3), 2(3)² = 18 and 2(4)² = 32. Every value is the book's."
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "page": 344,
+   "stem": "Consider the following observations explicitly derived from Rutherford’s alpha-particle scattering experiment.\n1. Most alpha particles passed entirely straight through the gold foil without any detectable deflection.\n2. A very remarkably small fraction of alpha particles cleanly completely bounced back at exactly exactly exactly one hundred eighty degrees.\n3. The positively charged alpha particles inherently violently strongly attracted the densely heavily positively charged central nucleus perfectly.\nWhich of the combinations correctly represents accurate experimental facts from the chapter?",
+   "answer": "Rutherford observed exactly two primary profound phenomena during his famous structural scattering experiment. Most energetic massive alpha particles passed completely effortlessly straight through, mathematically conclusively proving the physical presence of vast internal atomic empty space. A remarkably tiny numerical fraction sharply bounced violently directly backward, proving a dense positively charged core inherently absolutely violently strongly repels identical charges.",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 and 2 only"
+    },
+    {
+     "label": "B",
+     "text": "2 and 3 only"
+    },
+    {
+     "label": "C",
+     "text": "1 and 3 only"
+    },
+    {
+     "label": "D",
+     "text": "1, 2, and 3"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Rutherford's gold foil experiment",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "page": 345,
+   "stem": "Based on the trajectories of the incoming positively charged alpha particles shown in the diagram, which of the following statements correctly identifies the atomic models?",
+   "answer": "Model P depicts Thomson’s model, predicting that a uniformly distributed positive charge would allow particles to pass with minimal deflection. Model Q represents Rutherford’s model, where a incredibly dense, positively charged central nucleus sharply deflects or reflects alpha particles, while the vast empty space allows most to pass straight through.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Model P correctly explains the stability of the atom, while Model Q represents Dalton’s indivisible atom."
+    },
+    {
+     "label": "B",
+     "text": "Model P represents Thomson’s uniform positive sphere, while Model Q demonstrates Rutherford’s discovery of the dense central nucleus."
+    },
+    {
+     "label": "C",
+     "text": "Model P illustrates the planetary model with fixed orbits, while Model Q represents the plum pudding model."
+    },
+    {
+     "label": "D",
+     "text": "Model P proves the existence of stationary energy levels, while Model Q proves the existence of neutrons."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Thomson's plum pudding model",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "page": 345,
+   "stem": "What is the fundamental relative charge of an electron taken as a matter of standard scientific convention?",
+   "answer": "The fundamental electrical charge of an electron is experimentally determined to be approximately negative one point six zero two multiplied by ten to the power of negative nineteen coulombs. For the sake of mathematical convenience and standard scientific convention across chemical calculations, this specific relative charge is simply taken as exactly negative one.",
+   "options": [
+    {
+     "label": "A",
+     "text": "+1"
+    },
+    {
+     "label": "B",
+     "text": "0 (zero)"
+    },
+    {
+     "label": "C",
+     "text": "-1"
+    },
+    {
+     "label": "D",
+     "text": "-1.602"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Discovery of electrons",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "option B had been dropped entirely by the parser, leaving three choices; it is restored from the printed '(B) 0'. The word 'zero' is added in brackets only so a one-character option is not read as a truncated fragment."
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "page": 345,
+   "stem": "The table displays the specific subatomic composition of four different atomic species. Based entirely on this data, which two species represent isotopes of the exact same chemical element?\nAtomic Species | Number of Protons | Number of Neutrons\nW | 6 | 6\nX | 6 | 8\nY | 7 | 7\nZ | 8 | 8",
+   "answer": "Isotopes are defined as atoms of the exact same element that share identical atomic numbers but possess different mass numbers. This means they contain the same number of protons but varying numbers of neutrons. Species W and X both contain exactly six protons, making them structurally isotopes of the same chemical element.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Species W and Y"
+    },
+    {
+     "label": "B",
+     "text": "Species X and Y"
+    },
+    {
+     "label": "C",
+     "text": "Species W and X"
+    },
+    {
+     "label": "D",
+     "text": "Species Y and Z"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Isotopes definition",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "the three-column table in the stem arrived as a column-major run of cells and was set back out as rows; no word or number was changed."
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "page": 345,
+   "stem": "In Thomson’s “plum pudding model,” what precisely does the uniform positively charged sphere conceptually represent when compared to a watermelon?",
+   "answer": "The historically significant Thomson atomic model conceptually utilized remarkably simple visual analogies. He famously and logically compared the atom’s uniformly distributed positive background charge directly to the soft, red, sweet edible pulp of a freshly sliced watermelon. Meanwhile, the tiny embedded negatively charged electrons were perfectly compared to the randomly scattered small dark seeds resting inside.",
+   "options": [
+    {
+     "label": "A",
+     "text": "The dark seeds scattered randomly"
+    },
+    {
+     "label": "B",
+     "text": "The tough green outer covering"
+    },
+    {
+     "label": "C",
+     "text": "The red edible soft pulp"
+    },
+    {
+     "label": "D",
+     "text": "The empty space inside the fruit"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Thomson's plum pudding model",
+   "bloom": "understand",
+   "dok": 1,
+   "difficulty": 2
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "page": 346,
+   "stem": "What specific atomic process is depicted in the diagram?",
+   "answer": "Bohr’s model states that electrons revolve in discrete energy levels. To transition from a lower energy shell (K) to a higher energy shell (M), an electron must absorb a fixed amount of external energy. Electrons do not lose energy while in a stationary state, and falling inward would emit energy, not absorb it.",
+   "options": [
+    {
+     "label": "A",
+     "text": "An electron continuously losing energy to stabilize the atomic nucleus."
+    },
+    {
+     "label": "B",
+     "text": "An electron absorbing energy to transition to a higher stationary state."
+    },
+    {
+     "label": "C",
+     "text": "An electron emitting electromagnetic radiation as it falls to a lower shell."
+    },
+    {
+     "label": "D",
+     "text": "A proton transitioning between nuclear energy levels to alter the mass number."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Bohr's model of atom",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "page": 346,
+   "stem": "The table provides the total number of electrons present in four distinct neutral atoms. Which specific atom is chemically stable and generally unreactive under normal environmental conditions?\nNeutral Atom | Total Number of Electrons\nA | 8\nB | 10\nC | 11\nD | 15",
+   "answer": "The chemical reactivity of an element depends heavily upon the arrangement of its valence electrons. An atom with ten electrons possesses an electronic configuration of two electrons in the first shell and eight in the outermost shell. Having a complete octet renders this specific atom highly stable and chemically unreactive under typical conditions.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Atom A"
+    },
+    {
+     "label": "B",
+     "text": "Atom B"
+    },
+    {
+     "label": "C",
+     "text": "Atom C"
+    },
+    {
+     "label": "D",
+     "text": "Atom D"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Complete octet confers stability",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "the two-column table in the stem arrived as a column-major run of cells and was set back out as rows; no word or number was changed."
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "page": 346,
+   "stem": "Identify the correct sequential order of the following historical discoveries related to the structural models of the atom.\n1. Discovery of fixed energy levels (shells) around the nucleus\n2. Postulation that atoms are indivisible foundational building blocks\n3. Discovery of the dense positively charged central nucleus\n4. Proposal of electrons embedded uniformly within a positive sphere",
+   "answer": "The evolution of atomic models follows a distinct historical time line based on sequential scientific discoveries. John Dalton first proposed the indivisible atomic theory in eighteen hundred and eight. J.J. Thomson subsequently discovered the electron. Rutherford later discovered the dense central nucleus, which was eventually followed by Bohr’s structured energy level model to accurately explain elemental stability.",
+   "options": [
+    {
+     "label": "A",
+     "text": "2, 4, 3, 1"
+    },
+    {
+     "label": "B",
+     "text": "4, 2, 1, 3"
+    },
+    {
+     "label": "C",
+     "text": "2, 3, 4, 1"
+    },
+    {
+     "label": "D",
+     "text": "3, 1, 4, 2"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Dalton's atomic theory",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "page": 339,
+   "stem": "Interpret the atomic structure shown in the diagram. Which of the following options correctly identifies the atomic number, mass number, and valency of this atom respectively?",
+   "answer": "The atomic number equals the total number of protons (6). The mass number is the sum of protons and neutrons (6 + 8 = 14). With 6 electrons configured as 2, 4, the outermost valence shell contains 4 electrons. To complete its octet, the atom requires 4 more electrons, resulting in a valency of 4.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Atomic Number: 14, Mass Number: 6, Valency: 4"
+    },
+    {
+     "label": "B",
+     "text": "Atomic Number: 8, Mass Number: 14, Valency: 6"
+    },
+    {
+     "label": "C",
+     "text": "Atomic Number: 6, Mass Number: 14, Valency: 4"
+    },
+    {
+     "label": "D",
+     "text": "Atomic Number: 6, Mass Number: 12, Valency: 2"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Mass number and nucleons",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "page": 339,
+   "stem": "What specifically is an alpha particle, which Ernest Rutherford uniquely utilized during his famous gold foil scattering experiment?",
+   "answer": "During the famous gold foil experiment conducted by Geiger and Marsden strictly under Rutherford’s direct guidance, the powerful energetic beam consisted primarily of alpha particles. An alpha particle is structurally identical to the nucleus of a fundamental helium atom, inherently consisting of exactly two firmly bound protons and exactly two stabilizing internal nuclear neutral neutrons.",
+   "options": [
+    {
+     "label": "A",
+     "text": "A high-energy electron stripped from an orbit"
+    },
+    {
+     "label": "B",
+     "text": "A neutrally charged particle found strictly inside hydrogen"
+    },
+    {
+     "label": "C",
+     "text": "A dense nucleus of a helium atom containing two protons and two neutrons"
+    },
+    {
+     "label": "D",
+     "text": "A high-frequency electromagnetic wave emitted directly from gold"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Rutherford's gold foil experiment",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "page": 339,
+   "stem": "A researcher records the atomic numbers and mass numbers of three distinct elements in a reference chart. Which of the following statements correctly interprets the scientific relationship between these elements based solely on the provided data?\nElement | Atomic Number | Mass Number\nP | 18 | 40\nQ | 19 | 39\nR | 20 | 40",
+   "answer": "Isobars are atoms originating from entirely different elements that possess varying atomic numbers but share identical mass numbers. The tabulated data clearly indicates that elements P and R both have a total mass number of exactly forty, despite having completely distinct atomic numbers. This specific relationship classifies them scientifically as true isobars.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Elements P and R are isotopes because they have the same mass number."
+    },
+    {
+     "label": "B",
+     "text": "Elements P and Q are isobars because they have consecutive atomic numbers."
+    },
+    {
+     "label": "C",
+     "text": "Elements P and R are isobars because they share identical mass numbers but distinct atomic numbers."
+    },
+    {
+     "label": "D",
+     "text": "Elements Q and R are isotopes because they exhibit different mass numbers and atomic numbers."
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Isobars definition",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "the three-column table in the stem arrived as a column-major run of cells and was set back out as rows; no word or number was changed."
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "page": 339,
+   "stem": "Arrange the logical analytical steps of Rutherford’s gold foil experiment in the correct chronological sequence of scientific progression.\n1. Formulating the planetary model of the atom\n2. Directing a narrow beam of alpha particles at a thin gold foil\n3. Observing the unexpected sharp deflection and bouncing back of specific particles\n4. Concluding that the central positive charge is densely concentrated in a tiny volume",
+   "answer": "Rutherford’s analytical process logically predictably logically logically progressed strictly from fundamental physical experimental setup directly to revolutionary scientific theoretical conclusions. First, he aggressively bombarded a thin gold foil continuously with high-energy external alpha particles. He then observed their unexpected scattering deflection patterns. Based exclusively on these specific internal angular deflections, he eventually logically formulated the planetary structural model.",
+   "options": [
+    {
+     "label": "A",
+     "text": "2, 3, 4, 1"
+    },
+    {
+     "label": "B",
+     "text": "2, 4, 3, 1"
+    },
+    {
+     "label": "C",
+     "text": "3, 2, 1, 4"
+    },
+    {
+     "label": "D",
+     "text": "4, 2, 3, 1"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Rutherford's nuclear model",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "page": 348,
+   "stem": "The diagram illustrates a process occurring in a neutral atom to achieve stability. What will be the immediate consequence of this specific process?",
+   "answer": "The atom has an initial electronic configuration of 2, 8, 7. It requires one additional electron to complete its outermost shell and achieve a stable octet configuration. By gaining this negatively charged electron, the originally neutral atom acquires a net negative charge, forming an anion. The atomic mass remains virtually unchanged.",
+   "options": [
+    {
+     "label": "A",
+     "text": "The atom will become a positively charged cation with a valency of 7."
+    },
+    {
+     "label": "B",
+     "text": "The atom will become a negatively charged anion with a complete octet."
+    },
+    {
+     "label": "C",
+     "text": "The atomic mass of the atom will increase significantly due to the addition."
+    },
+    {
+     "label": "D",
+     "text": "The number of protons in the nucleus will increase by one to maintain neutrality."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Valency as electrons lost/gained/shared",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "page": 348,
+   "stem": "The diagram illustrates an atomic model with an electron transitioning between specific pathways. Which statement correctly describes the energy change during this transition?",
+   "answer": "In this model, the shells represent discrete stationary states where energy increases with distance from the nucleus. Shell R is farther from the nucleus than shell P, meaning it possesses higher energy. Consequently, an electron must absorb a fixed amount of energy to transition from the lower energy level to the higher one.",
+   "options": [
+    {
+     "label": "A",
+     "text": "The electron continuously loses energy as it revolves in shell R."
+    },
+    {
+     "label": "B",
+     "text": "The electron absorbs a specific amount of energy to move from shell P to shell R."
+    },
+    {
+     "label": "C",
+     "text": "The electron releases energy because shell R has less energy than shell P."
+    },
+    {
+     "label": "D",
+     "text": "The electron’s energy remains completely unchanged during the transition."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Bohr's model of atom",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "page": 348,
+   "stem": "Based on the provided schematic of an atom, identify the correct mass number and atomic number for this specific element.",
+   "answer": "The atomic number equals the total count of protons, which is three in this diagram. The mass number is the sum of protons and neutrons located inside the nucleus. With three protons and four neutrons present, the total mass number is seven. Electrons do not contribute significantly to the atomic mass.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Mass number 3, Atomic number 4"
+    },
+    {
+     "label": "B",
+     "text": "Mass number 4, Atomic number 3"
+    },
+    {
+     "label": "C",
+     "text": "Mass number 7, Atomic number 3"
+    },
+    {
+     "label": "D",
+     "text": "Mass number 7, Atomic number 4"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Atomic number definition",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "page": 348,
+   "stem": "The diagram depicts the electronic configuration of a neutral atom. What is the valency of this element based on the arrangement of its subatomic particles?",
+   "answer": "The atom contains fourteen electrons distributed across three shells, yielding an electronic configuration of 2, 8, 4. The outermost shell holds four valence electrons. To achieve a stable octet configuration, this element can share these four electrons with other atoms. Therefore, its combining capacity, or valency, is exactly four.",
+   "options": [
+    {
+     "label": "A",
+     "text": "2 (two)"
+    },
+    {
+     "label": "B",
+     "text": "4 (four)"
+    },
+    {
+     "label": "C",
+     "text": "6 (six)"
+    },
+    {
+     "label": "D",
+     "text": "8 (eight)"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Valence shell and valence electrons",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "the answer broke off at 'can share these' on page 348 and resumes at the head of page 353 (chars 67560-67697); the two halves are joined here. The book prints the four options as bare numerals 2, 4, 6 and 8; the words in brackets are added only so a one-character option is not read as a truncated fragment."
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "page": 353,
+   "stem": "Based on the internal structures of Atom X and Atom Y shown in the diagram, which statement accurately describes their relationship and chemical behavior?",
+   "answer": "Both atoms possess three protons, meaning they share the same atomic number and belong to the same element. Because their outermost shells hold identical numbers of valence electrons (one), their combining capacity and chemical properties are the same. They are isotopes because they differ only in their number of neutrons.",
+   "options": [
+    {
+     "label": "A",
+     "text": "They are isobars because they possess identical total numbers of nucleons."
+    },
+    {
+     "label": "B",
+     "text": "They are atoms of entirely different elements with unique chemical properties."
+    },
+    {
+     "label": "C",
+     "text": "They are isotopes of the same element and exhibit identical chemical properties."
+    },
+    {
+     "label": "D",
+     "text": "They represent a single atom undergoing a structural change in its valency."
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Isotopes definition",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "page": 353,
+   "stem": "The diagram illustrates three distinct atomic species of the same element, marked as Atom X, Atom Y, and Atom Z. Which fundamental characteristic is responsible for their identical chemical properties despite their differing masses?",
+   "answer": "These atoms are isotopes, sharing the same atomic number but possessing different mass numbers due to varying neutron counts. Chemical properties are determined primarily by the electronic configuration, specifically the number of valence electrons. Since all three species have exactly one electron, they exhibit identical chemical behavior and combining capacity.",
+   "options": [
+    {
+     "label": "A",
+     "text": "They contain an identical number of neutrons in their respective nuclei."
+    },
+    {
+     "label": "B",
+     "text": "They possess the same number of valence electrons in their outermost shell."
+    },
+    {
+     "label": "C",
+     "text": "They have an equal sum of protons and neutrons in their central nuclei."
+    },
+    {
+     "label": "D",
+     "text": "They exist in the same physical state at standard room temperature."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Isotopes have similar chemical properties",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  }
+ ]
+}

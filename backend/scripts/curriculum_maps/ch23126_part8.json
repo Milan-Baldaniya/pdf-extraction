@@ -1,0 +1,100 @@
+{
+ "chapter_id": 23126,
+ "mappings": [
+  {
+   "sha": "ae1c0aa9eda73402",
+   "codes": ["C-2.2-LO-6"],
+   "note": "two unequal distances with BOTH a time difference and a speed difference, so the translation is the whole difficulty; the key breaks off before any solving method is named"
+  },
+  {
+   "sha": "172c9e1bd416f923",
+   "codes": ["C-2.2-LO-6"],
+   "note": "the modelling step is converting a 45-minute head start into 3/4 hour and equating arrival times; no solving technique is shown, so only the translation outcome is claimed"
+  },
+  {
+   "sha": "25cdc4e7e34d7b47",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "cut-corner box model giving x^2 - 25x + 66 = 0 by splitting; one root exceeds half the sheet width and is rejected on geometric grounds"
+  },
+  {
+   "sha": "9511814b9039b09c",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "three-sided fencing makes the constraint 2L + W = 60 rather than a full perimeter; both roots are numerically valid and the stem's L > W condition is what selects one"
+  },
+  {
+   "sha": "682c4ab8bc1fad0c",
+   "codes": ["C-2.2-LO-6"],
+   "note": "combines a perimeter constraint with a diagonal via Pythagoras to reach a quadratic; the key stops at the standard form, so no solving outcome is asserted"
+  },
+  {
+   "sha": "01b221b057da158e",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "a handshake formula is supplied and must be turned into n^2 - n - 72 = 0, then split; the negative root is rejected because it counts people"
+  },
+  {
+   "sha": "279d852074775c71",
+   "codes": ["C-2.2-LO-6", "CG-2"],
+   "note": "revenue as fare times passengers, both linear in the number of increases, then MAXIMISED by completing the square; maximisation has no outcome in this frame so CG-2 carries it (gap reported)"
+  },
+  {
+   "sha": "95280a90e4f75674",
+   "codes": ["C-2.2-LO-6", "CG-2"],
+   "note": "the same price-versus-attendance revenue model as the bus item; the answer is a vertex, not a root, so no solving outcome applies"
+  },
+  {
+   "sha": "c0dd789db7208a20",
+   "codes": ["C-2.2-LO-6", "CG-2", "C-2.3-LO-5"],
+   "note": "a supplied population model: the minimum year and value are vertex questions (CG-2), but 'will the population ever reach zero' is a no-real-roots judgement, which is exactly LO-5 argued through the completed square"
+  },
+  {
+   "sha": "f43a5da89be2b62c",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "a wire split into two squares whose areas sum to a fixed value gives x^2 - 120x + 3200 = 0; both roots are admissible since they just name the two pieces"
+  },
+  {
+   "sha": "0ac2c7383f3efeda",
+   "codes": ["C-2.2-LO-6"],
+   "note": "the modelling is reading two odometer differences as legs of a right triangle; the readings themselves are missing from the stem (defect reported) and no solving method is shown"
+  },
+  {
+   "sha": "6b420fb98ef55566",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "a braking-distance model used in both directions -- evaluate d from v, then solve v^2 + 20v - 2400 = 0 for v; the negative speed is inadmissible"
+  },
+  {
+   "sha": "1b7925c34c63dca1",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "a quantity-discount price that itself depends on the quantity, giving x^2 - 1000x + 210000 = 0; the stem's 50 to 400 range is what decides which root is admissible"
+  },
+  {
+   "sha": "c3f700488b683240",
+   "codes": ["C-2.2-LO-6"],
+   "note": "a composite figure (square flowerbed beside a rectangular grassland) whose parts must each be expressed in x before the area equation appears; the key is cut off at the standard form"
+  },
+  {
+   "sha": "ade5c64268a4fffc",
+   "codes": ["C-2.2-LO-6"],
+   "note": "guided upstream/downstream case study whose sub-parts are explicitly 'write the upstream speed', 'state the speed-distance-time relation' and 'write the correct quadratic equation' -- the translation outcome step by step"
+  },
+  {
+   "sha": "7f6e558de0f903c8",
+   "codes": ["C-2.2-LO-6"],
+   "note": "two cars over the same 400 km with a 4-hour difference; the sub-parts walk through forming the equation, and the key stops before the solving method"
+  },
+  {
+   "sha": "d28dc2d993764b53",
+   "codes": ["C-2.2-LO-6", "C-2.1-LO-5", "C-2.3-LO-3"],
+   "note": "break-even at BOTH ends means the two zeroes of the supplied profit polynomial (C-2.1-LO-5), found by factorising; the remaining parts evaluate the model at given ticket prices"
+  },
+  {
+   "sha": "52c66d64c5036bc5",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "rows equal to seats per row makes the original total x^2, and the altered arrangement gives x^2 - 20x - 300 = 0; solved by splitting, negative row count rejected"
+  },
+  {
+   "sha": "e8b85d16f8c09efe",
+   "codes": ["C-2.2-LO-6", "C-2.3-LO-3"],
+   "note": "a per-head contribution that rises when five students drop out gives x^2 - 5x - 500 = 0; the itemised cost table is decorative and plays no part in forming the equation"
+  }
+ ]
+}

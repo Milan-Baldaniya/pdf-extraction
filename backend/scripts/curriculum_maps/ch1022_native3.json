@@ -1,0 +1,576 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "qid:105079",
+   "codes": [
+    "C 2.5-LO-1",
+    "C 2.4-LO-2"
+   ],
+   "note": "Cutting a heater coil in half and joining the halves in parallel quarters the resistance (LO-2), so the power quadruples (C 2.5-LO-1)."
+  },
+  {
+   "sha": "qid:105080",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "Short circuit means R near zero and terminal voltage near zero; the reasoning is V = IR, so LO-1."
+  },
+  {
+   "sha": "qid:105081",
+   "codes": [
+    "C 2.4"
+   ],
+   "note": "Assertion is about current in an open circuit and the reason about the cell's terminals; circuit basics, which reach no outcome."
+  },
+  {
+   "sha": "qid:105082",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "The p.d. is common to parallel branches; a defining property of the parallel combination."
+  },
+  {
+   "sha": "qid:105083",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "100 J per second in a 4 ohm resistor gives V through the heating relation; the Joule-heating outcome."
+  },
+  {
+   "sha": "qid:105084",
+   "codes": [
+    "C 2.4"
+   ],
+   "note": "Direction in which electrons move; a convention about current rather than the V-I-R relation."
+  },
+  {
+   "sha": "qid:105085",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "Nichrome for the heating element of an iron; the heater clause of C 2.5-LO-2."
+  },
+  {
+   "sha": "qid:105086",
+   "codes": [
+    "C 2.4"
+   ],
+   "note": "The coulomb is the unit of charge; charge terminology, which no outcome covers."
+  },
+  {
+   "sha": "qid:105087",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "W = qV for 1 C at 10 V; the potential-difference definition in LO-1."
+  },
+  {
+   "sha": "qid:105088",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Two wires of equal length and area have equal resistance only if the material is the same; verbatim LO-3."
+  },
+  {
+   "sha": "qid:105089",
+   "codes": [
+    "C 2.5-LO-1",
+    "C 2.5-LO-2"
+   ],
+   "note": "Fuse rating for a cooler plus a fan: total current from P = VI (C 2.5-LO-1), then the fuse choice (C 2.5-LO-2)."
+  },
+  {
+   "sha": "qid:105090",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Percentage rise in dissipated power when the current doubles; the power outcome. Duplicate stem of qid:86950."
+  },
+  {
+   "sha": "qid:105091",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Number of 6 ohm resistors to make 2 ohms; equivalent resistance. Duplicate stem of qid:105073."
+  },
+  {
+   "sha": "qid:105092",
+   "codes": [
+    "C 2.4"
+   ],
+   "note": "Conductors carry current because they have free charge carriers; conduction mechanism, which reaches no outcome."
+  },
+  {
+   "sha": "qid:105093",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Reason clause lists length, thickness, material and temperature as the factors governing resistance; LO-3 is the resistance-factors outcome."
+  },
+  {
+   "sha": "qid:105094",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "V = W/Q gives 400 V, then I = V/R gives the current; both steps are the V-I-R relation of LO-1."
+  },
+  {
+   "sha": "qid:105095",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "A fuse that keeps burning needs a higher rating for the heater's current; the fuse clause of C 2.5-LO-2."
+  },
+  {
+   "sha": "qid:105096",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Equivalent resistance of 1, 2 and 3 ohms in parallel. Duplicate stem of qid:105067."
+  },
+  {
+   "sha": "qid:105097",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "Inert gases in a bulb stop the filament oxidising at incandescent temperature; the filament-lamp clause of C 2.5-LO-2."
+  },
+  {
+   "sha": "qid:105098",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Power consumed at half the rated voltage; the power outcome. Duplicate stem of qid:86913."
+  },
+  {
+   "sha": "qid:105099",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "Millivolt to volt conversion; the potential-difference unit in LO-1."
+  },
+  {
+   "sha": "qid:105100",
+   "codes": [
+    "C 2.4-LO-2",
+    "C 2.4-LO-3"
+   ],
+   "note": "Cutting into five parts divides R by length (LO-3) and the parallel join divides it again (LO-2). Duplicate stem of qid:86911."
+  },
+  {
+   "sha": "qid:105101",
+   "codes": [
+    "C 2.4"
+   ],
+   "note": "Potential is a scalar; a property of the quantity, not the V-I-R relation. Duplicate stem of qid:86980."
+  },
+  {
+   "sha": "qid:105102",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Maximum resistance from five equal resistors is the series arrangement. Duplicate stem of qid:86944; note the stem misprints the ohm as W."
+  },
+  {
+   "sha": "qid:105103",
+   "codes": [
+    "C 2.4"
+   ],
+   "note": "Electrons through the filament from I = Q/t and Q = ne; charge arithmetic reaching no outcome. Duplicate stem of qid:86942."
+  },
+  {
+   "sha": "qid:105104",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Hot resistance from R = V squared / P for a 100 W 220 V lamp, then a tenth of it; the appliance-rating outcome."
+  },
+  {
+   "sha": "qid:105105",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "Shape of the V-I graph for a conductor; the graphical form of Ohm's law."
+  },
+  {
+   "sha": "qid:105106",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Solves for two resistors from their series and parallel totals; the equivalent-resistance outcome."
+  },
+  {
+   "sha": "qid:105107",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Least resistance is the all-parallel value. Duplicate stem of qid:105074."
+  },
+  {
+   "sha": "qid:105108",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "W = QV for 20,000 C at 10 V; electrical energy delivered, which is the C 2.5-LO-1 outcome. The 20 ohm value is a distractor."
+  },
+  {
+   "sha": "qid:707348",
+   "codes": [
+    "C 2.4"
+   ],
+   "note": "SI unit of current; a definition rather than the V-I-R relation."
+  },
+  {
+   "sha": "qid:707349",
+   "codes": [
+    "C 2.4"
+   ],
+   "note": "Defines current as charge per unit time; no outcome defines current."
+  },
+  {
+   "sha": "qid:707350",
+   "codes": [
+    "C 2.4"
+   ],
+   "note": "Direction of conventional current; a convention about current."
+  },
+  {
+   "sha": "qid:707351",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "Current is proportional to potential difference; verbatim Ohm's law."
+  },
+  {
+   "sha": "qid:707352",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "States Ohm's law, its form and its conditions; verbatim LO-1."
+  },
+  {
+   "sha": "qid:707353",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "A straight V-I line follows from Ohm's law at constant temperature; LO-1."
+  },
+  {
+   "sha": "qid:707354",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "I = V/R for 12 V across 4 ohms; the core LO-1 calculation."
+  },
+  {
+   "sha": "qid:707355",
+   "codes": [
+    "C 2.4-LO-1",
+    "C 8.1-LO-5"
+   ],
+   "note": "Verifies Ohm's law (LO-1) and the answer turns on building the circuit with the ammeter in series and the voltmeter in parallel (C 8.1-LO-5)."
+  },
+  {
+   "sha": "qid:707356",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "SI unit of resistance; the resistance term of Ohm's law."
+  },
+  {
+   "sha": "qid:707357",
+   "codes": [
+    "C 8.1-LO-5"
+   ],
+   "note": "Names the ammeter as the current-measuring instrument; C 8.1-LO-5."
+  },
+  {
+   "sha": "qid:707358",
+   "codes": [
+    "C 8.1-LO-5"
+   ],
+   "note": "An ammeter is connected in series; the instrument-connection clause of C 8.1-LO-5."
+  },
+  {
+   "sha": "qid:707359",
+   "codes": [
+    "C 8.1-LO-5"
+   ],
+   "note": "Voltmeter in parallel because of its high resistance; the instrument clause of C 8.1-LO-5."
+  },
+  {
+   "sha": "qid:707360",
+   "codes": [
+    "C 8.1-LO-5"
+   ],
+   "note": "True/false on ammeter resistance; the instrument clause of C 8.1-LO-5."
+  },
+  {
+   "sha": "qid:707361",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Sum of three resistors in series; the equivalent-resistance outcome."
+  },
+  {
+   "sha": "qid:707362",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Derives R = R1 + R2 + R3 and states the series properties; verbatim LO-2."
+  },
+  {
+   "sha": "qid:707363",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Current is the same throughout a series circuit; a defining property of the series combination."
+  },
+  {
+   "sha": "qid:707364",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Five-way comparison of series and parallel and which is used in houses; verbatim LO-2."
+  },
+  {
+   "sha": "qid:707365",
+   "codes": [
+    "C 8.1-LO-5",
+    "C 2.4-LO-2"
+   ],
+   "note": "Explicitly asks for drawn series and parallel circuit diagrams (C 8.1-LO-5) annotated with the current and voltage behaviour of each combination (LO-2)."
+  },
+  {
+   "sha": "qid:707366",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Resistance rises with length; verbatim LO-3."
+  },
+  {
+   "sha": "qid:707367",
+   "codes": [
+    "C 2.4-LO-3",
+    "C 2.5-LO-2"
+   ],
+   "note": "Copper is chosen for its low resistivity (LO-3) while nichrome is chosen to produce and survive heat (C 2.5-LO-2); the contrast needs both outcomes."
+  },
+  {
+   "sha": "qid:707368",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "The four factors governing resistance with the relation for each; verbatim LO-3."
+  },
+  {
+   "sha": "qid:707369",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Resistivity is unchanged by stretching; the material clause of LO-3."
+  },
+  {
+   "sha": "qid:707370",
+   "codes": [
+    "C 2.4-LO-3",
+    "C 2.5-LO-2"
+   ],
+   "note": "The match splits between conductor/insulator choice by resistivity (LO-3) and the heating element and lamp filament (C 2.5-LO-2)."
+  },
+  {
+   "sha": "qid:707371",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "I = P/V for a 60 W bulb on 240 V; the power outcome."
+  },
+  {
+   "sha": "qid:707372",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "The three power expressions; verbatim C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:707373",
+   "codes": [
+    "C 2.5-LO-1",
+    "C 2.5-LO-2"
+   ],
+   "note": "Transmission at high voltage needs P = VI to fix the current (C 2.5-LO-1) and I squared R t to show the line loss (C 2.5-LO-2)."
+  },
+  {
+   "sha": "qid:707374",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "What an appliance rating means and what happens off-rating; the appliance power and energy outcome."
+  },
+  {
+   "sha": "qid:707375",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Energy in kilowatt hours over 30 days and the bill; verbatim the kWh clause of C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:707376",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Adding a parallel branch always lowers the total resistance; the parallel-combination outcome."
+  },
+  {
+   "sha": "qid:707377",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Why appliances are wired in parallel; a property of the parallel combination."
+  },
+  {
+   "sha": "qid:707378",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Derives the reciprocal sum for parallel resistors and its properties; verbatim LO-2."
+  },
+  {
+   "sha": "qid:707379",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Parallel total is less than the smallest branch; the parallel-combination outcome."
+  },
+  {
+   "sha": "qid:707380",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Two equal resistors in parallel give R/2; the parallel-combination outcome."
+  },
+  {
+   "sha": "qid:707381",
+   "codes": [
+    "C 2.4-LO-2",
+    "C 2.4-LO-1"
+   ],
+   "note": "Mixed network: the parallel and series totals come from LO-2, while the supply current and the branch current come from Ohm's law (LO-1)."
+  },
+  {
+   "sha": "qid:707382",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "Heat is proportional to I squared, R and t; verbatim Joule's law."
+  },
+  {
+   "sha": "qid:707383",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "States, derives and applies Joule's law; verbatim C 2.5-LO-2."
+  },
+  {
+   "sha": "qid:707384",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "Tests the square in H = I squared R t; Joule's law."
+  },
+  {
+   "sha": "qid:707385",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "Where the heating effect is wanted and where it is not, and how each is engineered; verbatim C 2.5-LO-2."
+  },
+  {
+   "sha": "qid:707386",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "Properties of fuse wire; the fuse clause of C 2.5-LO-2."
+  },
+  {
+   "sha": "qid:707387",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "How a fuse protects a circuit and why a thicker wire defeats it; the fuse clause of C 2.5-LO-2."
+  },
+  {
+   "sha": "qid:707388",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "Defines potential difference and the volt; the p.d. term of Ohm's law."
+  },
+  {
+   "sha": "qid:707389",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "One volt is one joule per coulomb; the p.d. term of Ohm's law."
+  },
+  {
+   "sha": "qid:707390",
+   "codes": [
+    "C 2.4"
+   ],
+   "note": "Why an open circuit carries no current; circuit basics, which reach no outcome, and no symbols are involved."
+  },
+  {
+   "sha": "qid:707391",
+   "codes": [
+    "C 8.1-LO-5"
+   ],
+   "note": "Names each circuit component and its function; the circuit clause of C 8.1-LO-5."
+  },
+  {
+   "sha": "qid:707392",
+   "codes": [
+    "C 8.1-LO-5",
+    "C 2.4-LO-1"
+   ],
+   "note": "Explicitly asks for a labelled circuit diagram with standard symbols (C 8.1-LO-5) and then what is measured and plotted to show Ohm's law (LO-1)."
+  },
+  {
+   "sha": "qid:707393",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Resistivity versus resistance; the material clause of LO-3."
+  },
+  {
+   "sha": "qid:707394",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "1 kWh in joules; the kWh clause of C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:707395",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Commercial unit of electrical energy; the kWh clause of C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:707396",
+   "codes": [
+    "C 8.1-LO-5"
+   ],
+   "note": "Describes the standard circuit symbols and why symbols are used; verbatim the standard-symbols clause of C 8.1-LO-5."
+  },
+  {
+   "sha": "qid:707397",
+   "codes": [
+    "C 2.4-LO-1",
+    "C 2.5-LO-1"
+   ],
+   "note": "The match spans current, potential difference and resistance (LO-1) and electric power (C 2.5-LO-1), so both outcomes are required."
+  }
+ ]
+}

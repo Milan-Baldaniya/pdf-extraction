@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8604,
+ "mappings": [
+  {
+   "sha": "d559e252bebf7a27",
+   "codes": ["C1.2-LO-6"],
+   "note": "Asks for the definition of a homogeneous mixture and the distractors are heterogeneous behaviours (uneven distribution, settling) -- LO-6's 'explains why a solution is homogeneous'. No particle-size figure is offered, so not LO-14."
+  },
+  {
+   "sha": "9d0c1b3749871a86",
+   "codes": ["C8.2-LO-15"],
+   "note": "A laser is shone through three tumblers and the answer is what the beam does -- LO-15's 'demonstrates the Tyndall effect and uses it to identify a colloid', applied here to the negative case. The sub-nanometre size appears only in the rationale, not in the question or options, so LO-14 is not cited."
+  },
+  {
+   "sha": "56ea20cc643458db",
+   "codes": ["C1.2-LO-11"],
+   "note": "Why the solvent must start below the spot is the setup rule of paper chromatography and turns on capillary rise carrying the components -- LO-11's 'explains the principle of paper chromatography'. Nothing about solvent choice, but LO-11 is the only chromatography outcome."
+  },
+  {
+   "sha": "6aefffc707e5c43a",
+   "codes": ["C1.2-LO-6"],
+   "note": "Three statements, each a homogeneous/heterogeneous call, and one of them is an aerated drink -- an example LO-6 names outright. Classification only; no separation or particle-size reasoning."
+  },
+  {
+   "sha": "f054eceb17a8d275",
+   "codes": ["C1.2-LO-6"],
+   "note": "Same LO-6 classification family as the previous item, here turning on brass (LO-6's named alloy case) and on oil-and-water being heterogeneous. Oil and water is being classified, not separated, so not C8.2-LO-11."
+  },
+  {
+   "sha": "ea9eb6d75673e451",
+   "codes": ["C1.2-LO-7"],
+   "note": "Names which component is solute and which is solvent -- the first clause of LO-7, with no arithmetic. Shares LO-7 with the concentration numericals because the frame puts identification and calculation in one outcome."
+  },
+  {
+   "sha": "6e1d4cc149c6da18",
+   "codes": ["C8.2-LO-14", "C8.2-LO-15"],
+   "note": "A three-way classification of P, Q and R from observations, which is LO-14's job; the light-path column is the only thing that separates the colloid from the solution, so LO-15 does real work here too. Both cited because either alone leaves one of the three mixtures undecidable."
+  },
+  {
+   "sha": "4a849ac265884561",
+   "codes": ["C1.2-LO-7"],
+   "note": "WEAK FIT. Purely conceptual -- why an ORS must hit an exact concentration -- with no calculation and no solute/solvent naming. LO-7 is the only outcome in this frame that mentions concentration at all, so it is cited as nearest; no outcome covers 'why a prescribed concentration matters'."
+  },
+  {
+   "sha": "b0a82633470578fb",
+   "codes": ["C1.2-LO-7"],
+   "note": "Straight m/m calculation, 15 g in 85 g of water, with the 85% and 17.6% distractors punishing use of solvent mass instead of solution mass. LO-7."
+  },
+  {
+   "sha": "df319ae4ebb40d68",
+   "codes": ["C1.2-LO-7"],
+   "note": "POOR FIT, and a gap in the frame. The question asks for mass-by-VOLUME percentage (8 g in 200 mL); LO-7 names only mass-by-mass and volume-by-volume. Cited as nearest because it is the sole concentration outcome, but % m/V has no home in curriculum 82's list."
+  },
+  {
+   "sha": "d8f546584ac84fbc",
+   "codes": ["C8.2-LO-11"],
+   "note": "Asks which property makes the separating funnel work, and the key is immiscibility plus a density difference -- LO-11's 'justifies the choice from the properties of the mixture'. The boiling-point distractor is exactly what would make it LO-10 if correct."
+  },
+  {
+   "sha": "4796399f4757ab1d",
+   "codes": ["C1.2-LO-7"],
+   "note": "Straight v/v calculation, 5 mL in a 250 mL spray. LO-7, same as the other concentration numericals; the frame offers no finer split than m/m versus v/v, and both live in this one outcome."
+  },
+  {
+   "sha": "3ae09829f9b68008",
+   "codes": ["C1.2-LO-8"],
+   "note": "Assertion is solid solubility rising with temperature, and the reason is a false particle-spacing claim -- LO-8's 'how solubility changes with temperature'. Not LO-9: no crystals form and nothing cools."
+  },
+  {
+   "sha": "11124cd2bce9f15f",
+   "codes": ["C1.2-LO-8"],
+   "note": "Pure definition of a saturated solution, including the at-a-given-temperature qualifier -- the first clause of LO-8. No curve is read, but LO-8 is the only outcome that defines saturation."
+  },
+  {
+   "sha": "7a0c2ddf8d32e8f6",
+   "codes": ["C1.2-LO-8"],
+   "note": "Gas solubility falling as temperature rises, with dissolved oxygen and fizz as consequences. LO-8's temperature-dependence clause is the nearest home, though the outcome is written around solids and solubility curves and never mentions gases -- a mild stretch, recorded here. Not LO-6: aerated drinks appear as a gas-solubility case, not a classification one."
+  },
+  {
+   "sha": "305891b314af6788",
+   "codes": ["C1.2-LO-7"],
+   "note": "Four m/m concentrations computed and compared to find the matching pair (10% for A and C). LO-7, calculation clause."
+  },
+  {
+   "sha": "5c460a52c0d242a3",
+   "codes": ["C1.2-LO-9"],
+   "note": "What happens on slow cooling of a hot saturated solution, answered as 'separates out and forms regular crystals' -- LO-9's principle plus 'describes a crystal as a regular solid'. The solubility-curve phrase is scaffolding; nothing is read off a curve, so not LO-8."
+  },
+  {
+   "sha": "5e3023ddedd1fc03",
+   "codes": ["C1.2-LO-9"],
+   "note": "WEAK FIT. The reason for adding dilute sulfuric acid is a bench detail of the copper sulfate preparation, aimed at purity of the crystals. LO-9 owns crystallisation and is the nearest home, but its text (principle, regular solid, slow cooling) does not reach this procedural step."
+  },
+  {
+   "sha": "f242daedac9282a7",
+   "codes": ["C1.2-LO-9"],
+   "note": "Cooling rate versus crystal size and regularity, in assertion-reason form -- LO-9's 'explains why slow cooling yields larger crystals' word for word."
+  },
+  {
+   "sha": "345fc37f3a1e3aea",
+   "codes": ["C8.2-LO-12"],
+   "note": "Vapour going straight back to solid on the funnel wall is deposition, the second term named in LO-12, and the camphor-from-sand setup is its separation clause. Not LO-9: the distractor 'crystallisation from a saturated solution' is the wrong answer precisely because no solution is involved."
+  },
+  {
+   "sha": "654368a06eea5d19",
+   "codes": ["C1.2-LO-9"],
+   "note": "Crystallisation beats evaporation to dryness because soluble impurities stay in the mother liquor -- the purity consequence of LO-9's principle. Distinguished from the part-1 three-way comparison item, which also had to place distillation and so carried LO-10 as well."
+  },
+  {
+   "sha": "74214f138919d947",
+   "codes": ["C1.2-LO-8"],
+   "note": "The answer is the arithmetic difference between two solubility figures read off a table -- LO-8's temperature-dependence clause. Family rule applied throughout this chapter: reading solubility data is LO-8, while crystal form, size or purity is LO-9. Here the crystals are only a unit of measurement for the solubility drop."
+  },
+  {
+   "sha": "004b1a1efd2ee41e",
+   "codes": ["C1.2-LO-9"],
+   "note": "Ordering the four steps of a copper sulfate crystallisation. Not LO-16: that outcome is for separating a mixture of more than two components, whereas this is the internal procedure of one technique on one salt, so LO-9's principle governs."
+  },
+  {
+   "sha": "214a63852e9fe996",
+   "codes": ["C1.2-LO-9"],
+   "note": "Glass is the odd one out because it is amorphous -- this tests LO-9's 'describes a crystal as a regular solid'. No solution, cooling or separation is involved, which is what keeps it off the other crystallisation items' ground."
+  },
+  {
+   "sha": "390d8c89dc954031",
+   "codes": ["C1.2-LO-10"],
+   "note": "States the condition under which simple distillation is the appropriate method -- a boiling-point gap of about 25 degrees for miscible liquids. LO-10's 'states when each is the appropriate method'. The immiscible distractor is the LO-11 case being ruled out."
+  }
+ ]
+}

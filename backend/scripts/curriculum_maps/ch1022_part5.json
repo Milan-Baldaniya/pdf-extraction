@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "22fccfffd2793113",
+   "codes": ["C 2.4-LO-3"],
+   "note": "An air gap as an effectively infinite resistance - a statement about the resisting medium, i.e. the material clause of LO-3. No V or I is involved, so LO-1 does not apply."
+  },
+  {
+   "sha": "c5749fd718aed3d8",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Choice of copper and aluminium for transmission lines justified by low resistivity - LO-3 material clause. The transmission context is incidental; no power loss is calculated here, which is what separates it from the high-voltage-transmission item in part 2."
+  },
+  {
+   "sha": "83060e0309362a99",
+   "codes": ["C 2.4-LO-2"],
+   "note": "The defining property of series - one current throughout. LO-2 is the only outcome covering how a series combination behaves, even though no equivalent value is asked."
+  },
+  {
+   "sha": "ef1c8f4056955d18",
+   "codes": ["C 2.4-LO-2"],
+   "note": "Series voltages add. Paired with the item above as the two halves of series behaviour; kept off LO-1 because no resistance value or Ohm's law substitution is required."
+  },
+  {
+   "sha": "d25bf7e0f1352c8f",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Energy conversion in an incandescent lamp into heat and light - the filament-lamp application named in LO-2. Not C 2.5-LO-1, which would require a power or energy quantity."
+  },
+  {
+   "sha": "4b639909637bb214",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Two genuinely graded steps: parallel branches share the same PD (LO-2), so branch current goes as 1/R (LO-1). Cited with both because a student who knows only one of them cannot get the 2:1 ratio."
+  },
+  {
+   "sha": "2b8ec4e3a02aa50a",
+   "codes": ["C 2.5-LO-1"],
+   "note": "SI unit of electrical energy. LO-1 owns energy consumed and its units; the joule/kWh pair is exactly what that outcome asks students to move between."
+  },
+  {
+   "sha": "bfe5732eb23e72f8",
+   "codes": ["C 2.4-LO-2"],
+   "note": "Given two resistances and a target equivalent, choose the combination - LO-2 worked backwards. Pure combination arithmetic with no supply voltage, so no Ohm's law step."
+  },
+  {
+   "sha": "0fa043ce93e0ceda",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Mechanism of Joule heating - opposition to electron motion. This is the 'explains the heating effect' clause of LO-2 in its qualitative form, with no device and no formula."
+  },
+  {
+   "sha": "7bcbd3d66155d7c7",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Factors controlling the heat produced in a wire, i.e. the variables of H = I^2Rt. Belongs to LO-2 rather than C 2.4-LO-3: the answer is about heat output, not about what sets the resistance."
+  },
+  {
+   "sha": "730e3f6f1f7e57b3",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Operating temperature of a lamp filament - a factual detail of the filament lamp named in LO-2. Nothing is calculated, so it sits at the recall end of that outcome."
+  },
+  {
+   "sha": "d235cedb0e78b069",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Tripling I makes heat nine times through H = I^2Rt - the square dependence, which only LO-2's heating relation supplies. Distinct from the power items because heat, not power rating, is the output."
+  },
+  {
+   "sha": "c90d9433e531afcf",
+   "codes": ["C 2.4-LO-2"],
+   "note": "The series sum rule stated - the 'calculates the equivalent resistance in series' clause of LO-2 with no numbers attached."
+  },
+  {
+   "sha": "22d8d758254d46ab",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Joule's law H = I^2Rt plus a device that works on it - LO-2's explain-and-apply pairing in a single item, with the heater explicitly among the acceptable answers."
+  },
+  {
+   "sha": "9d8ce44341fa4f48",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Where Joule heating is a nuisance rather than a use. LO-2 is the only heating-effect outcome, but note its application half names only fuse, heater and lamp, so motors, generators and transformers sit outside its wording."
+  },
+  {
+   "sha": "c7c69937deb4def7",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-3"],
+   "note": "Tungsten for filaments: LO-2 for the lamp application, LO-3 for the resistivity-and-temperature material argument. Same pairing as the nichrome-heater items, with the lamp rather than the heater as the device."
+  },
+  {
+   "sha": "602e11a8c06d2ea7",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-3"],
+   "note": "Why cables stay cool while filaments glow. LO-2 supplies heat proportional to R; LO-3 supplies why a thick cable has small R and a thin filament large R. Both are needed for a complete answer."
+  },
+  {
+   "sha": "7f2cb151a553b9d0",
+   "codes": ["C 2.5-LO-1"],
+   "note": "SI unit of electric power. LO-1 owns power and its expression; kept apart from the energy-unit item only by which quantity is named."
+  },
+  {
+   "sha": "2a7fab0831bc0baa",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Defines the watt from P = VI. Same outcome as the unit item above but with the defining relation graded rather than recalled."
+  },
+  {
+   "sha": "b2538b1e81aa71e3",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Watt to kilowatt conversion - the unit handling LO-1 requires before expressing consumption in kilowatt hours."
+  },
+  {
+   "sha": "2342d3412196b4ce",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Asks for P = V^2/R, the power form of the relation. Cited at C 2.5-LO-1 and not C 2.4-LO-1 because power is the quantity being related; Ohm's law is only the substitution used to derive it."
+  },
+  {
+   "sha": "5cdb52d0443d9361",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-1"],
+   "note": "Consequence of wiring an ammeter wrongly - meter placement is LO-5, and the damage argument needs I = V/R with the meter's tiny resistance (LO-1). Not C 2.4-LO-2: nothing is combined, the meter is simply misconnected."
+  },
+  {
+   "sha": "ead5913cae838832",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-3"],
+   "note": "Nichrome in irons and toasters. LO-2 for the heating devices; LO-3 for the higher-resistivity-than-parent-metal justification. Same family as the earlier nichrome item, here with three reasons instead of one."
+  },
+  {
+   "sha": "d5c0a0836c098152",
+   "codes": ["C 2.4-LO-1"],
+   "note": "The operational meaning of 1 ohm, one volt driving one ampere - Ohm's law used to define the unit, which is LO-1 and not the resistivity outcome."
+  },
+  {
+   "sha": "220f412ac79b6177",
+   "codes": ["C 2.4-LO-1", "C 2.4"],
+   "note": "Wet skin lowers body resistance so I = V/R rises dangerously - LO-1 does the physics. C 2.4 is added because 'safety measures' is named in the competency text but in none of its outcomes, and that is the point of the question."
+  }
+ ]
+}

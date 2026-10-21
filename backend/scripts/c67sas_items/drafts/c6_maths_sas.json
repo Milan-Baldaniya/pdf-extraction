@@ -1,0 +1,3316 @@
+{
+ "subject": "maths",
+ "grade": 6,
+ "source": "SAS_Maths-Class-6.pdf",
+ "items": [
+  {
+   "code": "SAS21M06Q0101",
+   "stem": "A train has six coaches. What is the length of the metro train?",
+   "context": "",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "45 metres"
+    },
+    {
+     "label": "B",
+     "text": "133 metres"
+    },
+    {
+     "label": "C",
+     "text": "134 metres"
+    },
+    {
+     "label": "D",
+     "text": "135 metres"
+    }
+   ],
+   "answer": "C. 134 m",
+   "form": "mcq",
+   "chapter_label": "Knowing Our Numbers",
+   "concept_label": "Numbers | Large Numbers in Practice",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0102",
+   "stem": "In the 6 coach metro train, each coach has 50 seats for passengers. The first coach is reserved for women. Sixteen seats are reserved for women and senior citizens in each of the remaining coaches. How many unreserved passenger seats are in the metro train?",
+   "context": "",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "130"
+    },
+    {
+     "label": "B",
+     "text": "170"
+    },
+    {
+     "label": "C",
+     "text": "204"
+    },
+    {
+     "label": "D",
+     "text": "300"
+    }
+   ],
+   "answer": "B. 170",
+   "form": "mcq",
+   "chapter_label": "Knowing Our Numbers",
+   "concept_label": "Numbers | Large Numbers in Practice",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0103",
+   "stem": "On an average, a metro train completes 4 round trips of 90 kilometres in a day. What is the average distance travelled by the metro?",
+   "context": "",
+   "context_own": true,
+   "options": [],
+   "answer": "360 360 km",
+   "form": "short",
+   "chapter_label": "Knowing Our Numbers",
+   "concept_label": "Numbers | Large Numbers in Practice",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Passengers need a metro token to board a train. The cost of the token depends upon the distance travelled in different zones. Different zones represents different metro networks. The table below shows the cost of tokens for travelling in different zones of a metro. Zone Sub-zone Fare Distance Time limit Zone 1 1 ₹ 10 Less than 2 65 (in kilometre) (in minutes) 2 ₹ 20 2-5 3 ₹ 30 5-12 Zone 2 4 ₹ 40 12-21 100 Zone 3 5 ₹ 50 21-32 180 6 ₹ 60 More than 32 The table below shows the number of passengers travelling on a particular day in different zones. Zone Sub-zone Number of passengers Zone 1 1 90,000 travelled 2 160,000 3 110,000 Zone 2 4 250,000 Zone 3 5 150,000 6 100,000",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0104",
+   "stem": "How much revenue was generated on that day in Zone-1? 4",
+   "context": "Passengers need a metro token to board a train. The cost of the token depends upon the distance travelled in different zones. Different zones represents different metro networks. The table below shows the cost of tokens for travelling in different zones of a metro. Zone Sub-zone Fare Distance Time limit Zone 1 1 ₹ 10 Less than 2 65 (in kilometre) (in minutes) 2 ₹ 20 2-5 3 ₹ 30 5-12 Zone 2 4 ₹ 40 12-21 100 Zone 3 5 ₹ 50 21-32 180 6 ₹ 60 More than 32 The table below shows the number of passengers travelling on a particular day in different zones. Zone Sub-zone Number of passengers Zone 1 1 90,000 travelled 2 160,000 3 110,000 Zone 2 4 250,000 Zone 3 5 150,000 6 100,000",
+   "context_own": false,
+   "options": [],
+   "answer": "₹ 7,400,000 7,400,000",
+   "form": "short",
+   "chapter_label": "Knowing Our Numbers",
+   "concept_label": "Numbers | Large Numbers in Practice",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 1 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 60",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0105",
+   "stem": "Which zone generated the highest revenue on that day?",
+   "context": "Passengers need a metro token to board a train. The cost of the token depends upon the distance travelled in different zones. Different zones represents different metro networks. The table below shows the cost of tokens for travelling in different zones of a metro. Zone Sub-zone Fare Distance Time limit Zone 1 1 ₹ 10 Less than 2 65 (in kilometre) (in minutes) 2 ₹ 20 2-5 3 ₹ 30 5-12 Zone 2 4 ₹ 40 12-21 100 Zone 3 5 ₹ 50 21-32 180 6 ₹ 60 More than 32 The table below shows the number of passengers travelling on a particular day in different zones. Zone Sub-zone Number of passengers Zone 1 1 90,000 travelled 2 160,000 3 110,000 Zone 2 4 250,000 Zone 3 5 150,000 6 100,000",
+   "context_own": true,
+   "options": [],
+   "answer": "Zone 3",
+   "form": "short",
+   "chapter_label": "Knowing Our Numbers",
+   "concept_label": "Numbers | Large Numbers in Practice",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Siya and Aman are playing with 0-9 number cards. They placed seven cards in a row.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0106",
+   "stem": "In how many different ways can they place the rest of the cards?",
+   "context": "Siya and Aman are playing with 0-9 number cards. They placed seven cards in a row.",
+   "context_own": true,
+   "options": [],
+   "answer": "6",
+   "form": "short",
+   "chapter_label": "Knowing Our Numbers",
+   "concept_label": "Numbers | Place Value (Shifting Digits)",
+   "competency": "Formulate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Siya and Aman reshuffle the cards and divide them equally. Aman makes a 5-digit number using his cards. The picture shows the number formed by Aman. Siya placed four of her cards as shown in the picture below.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0107",
+   "stem": "Where should she place the remaining card to form a number greater than the number formed by Aman?",
+   "context": "Siya and Aman reshuffle the cards and divide them equally. Aman makes a 5-digit number using his cards. The picture shows the number formed by Aman. Siya placed four of her cards as shown in the picture below.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "After 9"
+    },
+    {
+     "label": "B",
+     "text": "Before 0"
+    },
+    {
+     "label": "C",
+     "text": "Between 5 and 7"
+    },
+    {
+     "label": "D",
+     "text": "Between 7 and 9"
+    }
+   ],
+   "answer": "B. Before 0",
+   "form": "mcq",
+   "chapter_label": "Knowing Our Numbers",
+   "concept_label": "Numbers | Place Value (Shifting Digits)",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 1 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 61",
+   "trailing": "In a school, 700 students avail the school’s transport services. The transport manager of the school prints a monthly transport record. The printed record is shown below. Distance (in Monthly transport Number of students Total cost Less than 5 400 ₹ 200,000 kilometres) fees 5 – 10 ₹ 800 200 ₹ 160,000 More than 10 ₹ 1000 100 ₹ 100,000",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0108",
+   "stem": "An entry is omitted in the record. What are the monthly transport fees for a distance of less than 5 kilometres? Show your calculation.",
+   "context": "In a school, 700 students avail the school’s transport services. The transport manager of the school prints a monthly transport record. The printed record is shown below. Distance (in Monthly transport Number of students Total cost Less than 5 400 ₹ 200,000 kilometres) fees 5 – 10 ₹ 800 200 ₹ 160,000 More than 10 ₹ 1000 100 ₹ 100,000",
+   "context_own": false,
+   "options": [],
+   "answer": "Total cost for less than 5 Km  = ₹ 2,00,000 Calculation as: No of students travelling less than 5 Km = 400 Writes 500 or ₹ 500 along with calculation Monthly fee for one student = 200000/400 = ₹ 500",
+   "form": "short",
+   "chapter_label": "Knowing Our Numbers",
+   "concept_label": "Numbers | Large Numbers in Practice",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 2 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 62",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0109",
+   "stem": "In class 6 of a school, 105 students study in different sections. The number of students in each section are between 20 and 40. All sections have equal number of students.How equal number of students can be accommodated in each section?",
+   "context": "In a school, 700 students avail the school’s transport services. The transport manager of the school prints a monthly transport record. The printed record is shown below. Distance (in Monthly transport Number of students Total cost Less than 5 400 ₹ 200,000 kilometres) fees 5 – 10 ₹ 800 200 ₹ 160,000 More than 10 ₹ 1000 100 ₹ 100,000",
+   "context_own": false,
+   "options": [],
+   "answer": "Ÿ 3 sections with 35 students in each section Ÿ 5 sections with 21 students in each section Finds prime factors of 105 which results in the required range",
+   "form": "short",
+   "chapter_label": "Knowing Our Numbers",
+   "concept_label": "Numbers | Large Numbers in Practice",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0110",
+   "stem": "The school authority plans to install new water coolers. There are 1800 students in the school. A water cooler can serve 100 students. The cost of one water cooler is ₹ 40,000. How many water coolers are should be installed to serve all the students? What is the cost of installing them?",
+   "context": "In a school, 700 students avail the school’s transport services. The transport manager of the school prints a monthly transport record. The printed record is shown below. Distance (in Monthly transport Number of students Total cost Less than 5 400 ₹ 200,000 kilometres) fees 5 – 10 ₹ 800 200 ₹ 160,000 More than 10 ₹ 1000 100 ₹ 100,000",
+   "context_own": true,
+   "options": [],
+   "answer": "18 or 18 water coolers 7,20,000 or ₹ 7,20,000",
+   "form": "short",
+   "chapter_label": "Knowing Our Numbers",
+   "concept_label": "Numbers | Large Numbers in Practice",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Whole Numbers Amisha wants to buy some items. Given below is the list of items with their prices as provided by the shopkeeper. Rice 5 kg....................... 350/ – – 2 kg........................ 250/ Tuar dal – – 1 packet....................... 100/ Cookies – – 2 kg....................... 120/ peanuts – – 1 kg.......................... 600/ Almonds – – 3 kg............................ 220/ Sugar – – 1 packet............................ 45/ Salt – – 2 kg.............................. 100/ Jaggery – – 1 packet............................. 50/ Tea – –",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0201",
+   "stem": "Amisha pays Rs 1785 for the items. Is the amount paid by Amisha correct? Justify your answer.",
+   "context": "Whole Numbers Amisha wants to buy some items. Given below is the list of items with their prices as provided by the shopkeeper. Rice 5 kg....................... 350/ – – 2 kg........................ 250/ Tuar dal – – 1 packet....................... 100/ Cookies – – 2 kg....................... 120/ peanuts – – 1 kg.......................... 600/ Almonds – – 3 kg............................ 220/ Sugar – – 1 packet............................ 45/ Salt – – 2 kg.............................. 100/ Jaggery – – 1 packet............................. 50/ Tea – –",
+   "context_own": false,
+   "options": [],
+   "answer": "Writes ‘No’ with valid justification Ÿ No, Amisha did not pay the correct amount. Actual amount to be paid was ₹ 1805.",
+   "form": "short",
+   "chapter_label": "Whole Numbers",
+   "concept_label": "Numbers | Patterns in the Whole Numbers",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 2 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 63",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0202",
+   "stem": "What is the price of the rice per kilogram that Amisha purchased?",
+   "context": "Whole Numbers Amisha wants to buy some items. Given below is the list of items with their prices as provided by the shopkeeper. Rice 5 kg....................... 350/ – – 2 kg........................ 250/ Tuar dal – – 1 packet....................... 100/ Cookies – – 2 kg....................... 120/ peanuts – – 1 kg.......................... 600/ Almonds – – 3 kg............................ 220/ Sugar – – 1 packet............................ 45/ Salt – – 2 kg.............................. 100/ Jaggery – – 1 packet............................. 50/ Tea – –",
+   "context_own": true,
+   "options": [],
+   "answer": "70 ₹ 70",
+   "form": "short",
+   "chapter_label": "Whole Numbers",
+   "concept_label": "Numbers | Patterns in the Whole Numbers",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Jai finds the cost of tea, jaggery and salt this way. 50 + 100 = 150 Diya finds the cost of the same items this way. 150 + 45 = 195 50 + 45 = 95 95 + 100 = 195",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0203",
+   "stem": "The fact that they both got the same final amount is proof of which property of addition?",
+   "context": "Jai finds the cost of tea, jaggery and salt this way. 50 + 100 = 150 Diya finds the cost of the same items this way. 150 + 45 = 195 50 + 45 = 95 95 + 100 = 195",
+   "context_own": false,
+   "options": [],
+   "answer": "Associative property of addition or associative property or associativity",
+   "form": "short",
+   "chapter_label": "Whole Numbers",
+   "concept_label": "Numbers | Additive and Multiplicative Identity",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0204",
+   "stem": "Amisha buys three 1 kg packets of sugar. The MRP mentioned on each packet is Rs 55.00. Did the shopkeeper charge extra for the sugar? Justify your response.",
+   "context": "Jai finds the cost of tea, jaggery and salt this way. 50 + 100 = 150 Diya finds the cost of the same items this way. 150 + 45 = 195 50 + 45 = 95 95 + 100 = 195",
+   "context_own": true,
+   "options": [],
+   "answer": "Writes ‘Yes’ with valid justification or examples Ÿ Yes, because the cost of 3 kg of sugar should be ₹ 165. Ÿ Yes, 220 divided by 3 is more than 55.",
+   "form": "short",
+   "chapter_label": "Whole Numbers",
+   "concept_label": "Numbers | Additive and Multiplicative Identity",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 2 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 64",
+   "trailing": "Sunil purchases these four items from the shopkeeper. The items along with their cost are given below. Surface disinfectant – 1 bottle --------------- Rs 120 Dishwash liquid – 1 sachet ------------------- Rs 30 Cooking oil – 5 litres --------------------------- Rs 550 Cheese – 1 packet ----------------------------- Rs 150 Sunil gives two notes of Rs 500 to the shopkeeper.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0205",
+   "stem": "How many rupees should the shopkeeper return? 5",
+   "context": "Sunil purchases these four items from the shopkeeper. The items along with their cost are given below. Surface disinfectant – 1 bottle --------------- Rs 120 Dishwash liquid – 1 sachet ------------------- Rs 30 Cooking oil – 5 litres --------------------------- Rs 550 Cheese – 1 packet ----------------------------- Rs 150 Sunil gives two notes of Rs 500 to the shopkeeper.",
+   "context_own": true,
+   "options": [],
+   "answer": "150 ₹ 150",
+   "form": "short",
+   "chapter_label": "Whole Numbers",
+   "concept_label": "Numbers | Patterns in the Whole Numbers",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "A cinema hall is divided into two sections: back and front. The cost of tickets depends on the location of the seat in each section. The seating layout of the cinema hall is shown below. Four seats in Row F are reserved for the disabled.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0206",
+   "stem": "Which of the following calculations does not show the number of seats in the back section of the cinema hall?",
+   "context": "A cinema hall is divided into two sections: back and front. The cost of tickets depends on the location of the seat in each section. The seating layout of the cinema hall is shown below. Four seats in Row F are reserved for the disabled.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "14 × 5 - 1 - 1"
+    },
+    {
+     "label": "B",
+     "text": "13 × 5 + 1 + 1 + 1"
+    },
+    {
+     "label": "C",
+     "text": "(14 + 13) × 5"
+    },
+    {
+     "label": "D",
+     "text": "14 × 3 + (13 × 2)"
+    }
+   ],
+   "answer": "C. (14 + 13) × 5",
+   "form": "mcq",
+   "chapter_label": "Whole Numbers",
+   "concept_label": "Numbers | Patterns in the Whole Numbers",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0207",
+   "stem": "Joy and Sid are seated in Row J. Each person is seated at the same distance from the wall. What could be their seat numbers?",
+   "context": "A cinema hall is divided into two sections: back and front. The cost of tickets depends on the location of the seat in each section. The seating layout of the cinema hall is shown below. Four seats in Row F are reserved for the disabled.",
+   "context_own": true,
+   "options": [],
+   "answer": "Mentions any two seat numbers which are at the same position from left and right end with or without the letter J Ÿ 4 and 10 or 4–10 J1 and J13 or 1 and 13 should be considered equivalent. Ÿ 1 and 13 or 1–13 Ÿ 5 and 9 or 5–9 Ÿ 6 and 8 or 6–8 Possible answers could be: Ÿ 2 and 12 or 2–12 Ÿ 3 and 11 or 3–11 For example:",
+   "form": "short",
+   "chapter_label": "Whole Numbers",
+   "concept_label": "Numbers | Patterns in the Whole Numbers",
+   "competency": "Formulate",
+   "item_type": "Open Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 2 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 65",
+   "trailing": "The table below shows the cost of a ticket for different seats. A1 – C15 200 Seats Cost (in Rupees) D1 – F15 (excluding F7, F8, F9 and F10) 250 G1– I14 350 J1 – K13 450 The cost of a ticket for a seat for the disabled is ₹ 200. The display at the ticket counter marks the booked seats as B and displays numbers only for the vacant seats. This display shows the status at the end of booking for an evening show.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0208",
+   "stem": "Which calculation shows the total amount collected by selling the tickets for the evening show?",
+   "context": "The table below shows the cost of a ticket for different seats. A1 – C15 200 Seats Cost (in Rupees) D1 – F15 (excluding F7, F8, F9 and F10) 250 G1– I14 350 J1 – K13 450 The cost of a ticket for a seat for the disabled is ₹ 200. The display at the ticket counter marks the booked seats as B and displays numbers only for the vacant seats. This display shows the status at the end of booking for an evening show.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "[(200 × 30) + (250 × 33) + (350 × 35) + (450 × 24)]"
+    },
+    {
+     "label": "B",
+     "text": "[(200 × 45) + (250 × 47) + (350 × 42) + (450 × 26)]"
+    },
+    {
+     "label": "C",
+     "text": "[(200 + 32) + (250 + 33) + (350 + 35) + (450 + 24)]"
+    },
+    {
+     "label": "D",
+     "text": "[(200 × 32) + (250 × 31) + (350 × 35) + (450 × 24)]"
+    }
+   ],
+   "answer": "D. [(200 × 32) + (250 × 31) + (350 × 35) + (450 × 24)]",
+   "form": "mcq",
+   "chapter_label": "Whole Numbers",
+   "concept_label": "Numbers | Patterns in the Whole Numbers",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "They order some snacks from the menu below. Ritesh and his wife book seats H13 and H14 for a show. ₹ ₹ ₹ ₹ ₹ Altogether, they spend ₹ 1280 including the cost of tickets.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0209",
+   "stem": "Which snacks could they have ordered?",
+   "context": "They order some snacks from the menu below. Ritesh and his wife book seats H13 and H14 for a show. ₹ ₹ ₹ ₹ ₹ Altogether, they spend ₹ 1280 including the cost of tickets.",
+   "context_own": true,
+   "options": [],
+   "answer": "Ÿ 2 Nachos + 1 Cold drink Ÿ 2 Burgers + 1 Nachos + 1 Water bottle Writes any combination which gives a sum of 580 for the items on the men Ÿ 1 Popcorn + 1 Cold drink + 1 Burger + 1 Water bottle",
+   "form": "short",
+   "chapter_label": "Whole Numbers",
+   "concept_label": "Numbers | Additive and Multiplicative Identity",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Open Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "The numbers shown on the number line make a pattern.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06Q0210",
+   "stem": "Which of the following shows the operation of addition on the given number line?",
+   "context": "The numbers shown on the number line make a pattern.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "3 × (8 + 2)"
+    },
+    {
+     "label": "B",
+     "text": "6 × (8 + 2)"
+    },
+    {
+     "label": "C",
+     "text": "8 + 16 + 24 + 26 + 28 + 30"
+    },
+    {
+     "label": "D",
+     "text": "6 × 8 × 2"
+    }
+   ],
+   "answer": "A. 3 × (8 + 2)",
+   "form": "mcq",
+   "chapter_label": "Whole Numbers",
+   "concept_label": "Numbers | Additive and Multiplicative Identity",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 3 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 66",
+   "trailing": "Playing with Numbers A photographer is hired to take group photographs of students in each class in a school. He arranges the students along with teachers in rows for the photograph. His arrangement has Ÿ at most 50 people Ÿ an equal number of people in each row A row consists of a minimum of 3 people and a maximum of 8 people.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0301",
+   "stem": "There are 35 people (students and teachers) in a class for a group photograph. What are the possible arrangements for them?",
+   "context": "Playing with Numbers A photographer is hired to take group photographs of students in each class in a school. He arranges the students along with teachers in rows for the photograph. His arrangement has Ÿ at most 50 people Ÿ an equal number of people in each row A row consists of a minimum of 3 people and a maximum of 8 people.",
+   "context_own": false,
+   "options": [],
+   "answer": "7 rows and 5 students/teacher per row 7 students/teacher per row and 5 rows",
+   "form": "short",
+   "chapter_label": "Playing with Numbers",
+   "concept_label": "Numbers | Factors and Multiples",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0302",
+   "stem": "The photographer arranged some of the students in 6 rows. What can be the maximum number of students in the photograph?",
+   "context": "Playing with Numbers A photographer is hired to take group photographs of students in each class in a school. He arranges the students along with teachers in rows for the photograph. His arrangement has Ÿ at most 50 people Ÿ an equal number of people in each row A row consists of a minimum of 3 people and a maximum of 8 people.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "18"
+    },
+    {
+     "label": "B",
+     "text": "36"
+    },
+    {
+     "label": "C",
+     "text": "48"
+    },
+    {
+     "label": "D",
+     "text": "60"
+    }
+   ],
+   "answer": "C. 48",
+   "form": "mcq",
+   "chapter_label": "Playing with Numbers",
+   "concept_label": "Numbers | Factors and Multiples",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0303",
+   "stem": "How did The students of Class 7 which are 30 in number want to take a photograph along with 2 teachers.Which of the following is the possible arrangement for them?",
+   "context": "Playing with Numbers A photographer is hired to take group photographs of students in each class in a school. He arranges the students along with teachers in rows for the photograph. His arrangement has Ÿ at most 50 people Ÿ an equal number of people in each row A row consists of a minimum of 3 people and a maximum of 8 people.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "2 rows with 16 students in each"
+    },
+    {
+     "label": "B",
+     "text": "4 rows with 8 students/teachers in each"
+    },
+    {
+     "label": "C",
+     "text": "5 rows with 6 students in each and 1 row for teachers"
+    },
+    {
+     "label": "D",
+     "text": "6 rows with 4 students in each and 1 row for teachers"
+    }
+   ],
+   "answer": "B. 4 rows with 8 students/teachers in each",
+   "form": "mcq",
+   "chapter_label": "Playing with Numbers",
+   "concept_label": "Numbers | Factors and Multiples",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Photographs are sold in small, medium and large sizes. The cost of photographs according to their size is given in the table below: Small 50 Photograph size Cost (Rs.) Medium 80 Large 100",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0304",
+   "stem": "150 photographs worth Rs. 10,250 were sold. If 75 of them were of small size, find how many large size photographs were sold?",
+   "context": "Photographs are sold in small, medium and large sizes. The cost of photographs according to their size is given in the table below: Small 50 Photograph size Cost (Rs.) Medium 80 Large 100",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "14"
+    },
+    {
+     "label": "B",
+     "text": "25"
+    },
+    {
+     "label": "C",
+     "text": "75"
+    },
+    {
+     "label": "D",
+     "text": "130"
+    }
+   ],
+   "answer": "B. 25",
+   "form": "mcq",
+   "chapter_label": "Playing with Numbers",
+   "concept_label": "Numbers | Factors and Multiples",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 3 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 67",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0305",
+   "stem": "Which of the following number is not a factor of 342?",
+   "context": "Photographs are sold in small, medium and large sizes. The cost of photographs according to their size is given in the table below: Small 50 Photograph size Cost (Rs.) Medium 80 Large 100",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "12"
+    }
+   ],
+   "answer": "D. 12",
+   "form": "mcq",
+   "chapter_label": "Playing with Numbers",
+   "concept_label": "Numbers | Factors and Multiples",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0306",
+   "stem": "Write co-prime pairs using the three consecutive numbers 13, 14 and 15. 6",
+   "context": "Photographs are sold in small, medium and large sizes. The cost of photographs according to their size is given in the table below: Small 50 Photograph size Cost (Rs.) Medium 80 Large 100",
+   "context_own": false,
+   "options": [],
+   "answer": "Accept any or combination of (13, 14); (14, 15) and (13, 15). Ÿ (13, 14) Ÿ (13, 14) and (14, 15) Ÿ (13, 14), (14, 15) and (13, 15)",
+   "form": "short",
+   "chapter_label": "Playing with Numbers",
+   "concept_label": "Numbers | Factors and Multiples",
+   "competency": "Formulate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0307",
+   "stem": "For an international school competition, students’ stay is booked in two hotels – 148 students in Hotel 1 and 164 students in Hotel 2. An equal number of students are accommodated in each hotel room. What can be the maximum number of students in a room?",
+   "context": "Photographs are sold in small, medium and large sizes. The cost of photographs according to their size is given in the table below: Small 50 Photograph size Cost (Rs.) Medium 80 Large 100",
+   "context_own": false,
+   "options": [],
+   "answer": "4 students 4",
+   "form": "short",
+   "chapter_label": "Playing with Numbers",
+   "concept_label": "Numbers | Factors and Multiples",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 3 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 68",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0308",
+   "stem": "John, Rishi and Feroz participated in track events. During practice sessions, their coach observed that John took 48 seconds, Rishi took 72 seconds and Feroz took 108 seconds to run around a circular track. If they start running together at 6 am for half an hour, how many times will they all come together at a same position?",
+   "context": "Photographs are sold in small, medium and large sizes. The cost of photographs according to their size is given in the table below: Small 50 Photograph size Cost (Rs.) Medium 80 Large 100",
+   "context_own": false,
+   "options": [],
+   "answer": "4 4 times",
+   "form": "short",
+   "chapter_label": "Playing with Numbers",
+   "concept_label": "Numbers | Factors and Multiples",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0309",
+   "stem": "Jaya baked muffins using paper liners and cherries. Some paper liner packets contain 8 liners, while others contain 10 liners. A packet of cherry contains 6 cherries. Every muffin Jaya baked contained 1 cherry. All cherries and paper liners were used up. What can be the minimum number of muffins baked by her?",
+   "context": "Photographs are sold in small, medium and large sizes. The cost of photographs according to their size is given in the table below: Small 50 Photograph size Cost (Rs.) Medium 80 Large 100",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "40"
+    },
+    {
+     "label": "B",
+     "text": "94"
+    },
+    {
+     "label": "C",
+     "text": "120"
+    },
+    {
+     "label": "D",
+     "text": "240"
+    }
+   ],
+   "answer": "C. 120",
+   "form": "mcq",
+   "chapter_label": "Playing with Numbers",
+   "concept_label": "Numbers | Factors and Multiples",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0310",
+   "stem": "Jaya baked and sold vanilla muffins at Rs. 15 and chocolate muffin at Rs. 18. She earned equal amounts from the sale of both muffins. How many vanilla and chocolate muffins did she sell?",
+   "context": "Photographs are sold in small, medium and large sizes. The cost of photographs according to their size is given in the table below: Small 50 Photograph size Cost (Rs.) Medium 80 Large 100",
+   "context_own": true,
+   "options": [],
+   "answer": "Accept multiples of 6 for vanilla muffins and multiples of 5 for chocolate muffins. Ÿ 6 vanilla and 5 chocolate Ÿ 12 vanilla and 10 chocolate Ÿ 24 vanilla and 20 chocolate",
+   "form": "short",
+   "chapter_label": "Playing with Numbers",
+   "concept_label": "Numbers | Factors and Multiples",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 4 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 69",
+   "trailing": "Basic Geometrical Ideas Joy learns the art of knitting from his grandmother.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0401",
+   "stem": "Which of the following pictures can be an example of a line segment? 1",
+   "context": "Basic Geometrical Ideas Joy learns the art of knitting from his grandmother.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "B. C D. ."
+    }
+   ],
+   "answer": "B. Graphic",
+   "form": "short",
+   "chapter_label": "Basic Geometrical Ideas",
+   "concept_label": "Geometry | Shapes and Curves (Open and Close Curve)",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0402",
+   "stem": "How many lines can pass through a point?",
+   "context": "Basic Geometrical Ideas Joy learns the art of knitting from his grandmother.",
+   "context_own": false,
+   "options": [],
+   "answer": "Infinite lines Many lines",
+   "form": "short",
+   "chapter_label": "Basic Geometrical Ideas",
+   "concept_label": "Geometry | Shapes and Curves (Open and Close Curve)",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0403",
+   "stem": "Which of the following is an open curve? 3",
+   "context": "Basic Geometrical Ideas Joy learns the art of knitting from his grandmother.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "B."
+    },
+    {
+     "label": "C",
+     "text": "D."
+    }
+   ],
+   "answer": "B. Graphic",
+   "form": "short",
+   "chapter_label": "Basic Geometrical Ideas",
+   "concept_label": "Geometry | Shapes and Curves (Open and Close Curve)",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0404",
+   "stem": "Why is the below figure not considered a polygon? 4",
+   "context": "Basic Geometrical Ideas Joy learns the art of knitting from his grandmother.",
+   "context_own": true,
+   "options": [],
+   "answer": "Accept answers including definition of polygons. Ÿ All the lines of a polygon must be straight. Ÿ The figure has one curve and two straight lines.",
+   "form": "short",
+   "chapter_label": "Basic Geometrical Ideas",
+   "concept_label": "Geometry | Shapes and Curves (Polygons)",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 4 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 70",
+   "trailing": "Ankit marks five points by folding a rectangular paper sheet as shown below:",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0405",
+   "stem": "Choose the right word and fill in the blank. CE is an example of .",
+   "context": "Ankit marks five points by folding a rectangular paper sheet as shown below:",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "A ray"
+    },
+    {
+     "label": "B",
+     "text": "An angle"
+    },
+    {
+     "label": "C",
+     "text": "A point"
+    },
+    {
+     "label": "D",
+     "text": "A line segment"
+    }
+   ],
+   "answer": "D. A line segment",
+   "form": "mcq",
+   "chapter_label": "Basic Geometrical Ideas",
+   "concept_label": "Geometry | Shapes and Curves (Open and Close Curve)",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0406",
+   "stem": "Fill in the blank with the correct word. A line segment is a of a line.",
+   "context": "Ankit marks five points by folding a rectangular paper sheet as shown below:",
+   "context_own": false,
+   "options": [],
+   "answer": "Ÿ section Ÿ segment Accept all the equivalents of section, either in the blank or in answer space. Ÿ part",
+   "form": "short",
+   "chapter_label": "Basic Geometrical Ideas",
+   "concept_label": "Geometry | Shapes and Curves (Open and Close Curve)",
+   "competency": "Formulate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0407",
+   "stem": "Which of the following is not true for both a ray and a line?",
+   "context": "Ankit marks five points by folding a rectangular paper sheet as shown below:",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "They have end points"
+    },
+    {
+     "label": "B",
+     "text": "They have start points"
+    },
+    {
+     "label": "C",
+     "text": "They have no thickness"
+    },
+    {
+     "label": "D",
+     "text": "They can have infinite length"
+    }
+   ],
+   "answer": "B. They have start points",
+   "form": "mcq",
+   "chapter_label": "Basic Geometrical Ideas",
+   "concept_label": "Geometry | Shapes and Curves (Polygons)",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 4 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 71",
+   "trailing": "Look at the triangle given below.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0408",
+   "stem": "Mahesh claims, ‘BD is the common side for triangle ABD and triangle BCD’. Is he correct? Justify your answer.",
+   "context": "Look at the triangle given below.",
+   "context_own": true,
+   "options": [],
+   "answer": "Ÿ Yes, Mahesh is correct as triangle ABD and BCD have the common side AD. Yes, with valid reasoning.",
+   "form": "short",
+   "chapter_label": "Basic Geometrical Ideas",
+   "concept_label": "Geometry | Shapes (Triangles)",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Where does the point K lie?",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0409",
+   "stem": "Where does the point K lie?",
+   "context": "Where does the point K lie?",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "Exterior of triangle BDC"
+    },
+    {
+     "label": "B",
+     "text": "Interior of triangle ABD"
+    },
+    {
+     "label": "C",
+     "text": "Exterior of triangle ABC"
+    },
+    {
+     "label": "D",
+     "text": "Interior of triangle BDC"
+    }
+   ],
+   "answer": "D. Interior of triangle BDC",
+   "form": "mcq",
+   "chapter_label": "Basic Geometrical Ideas",
+   "concept_label": "Geometry | Shapes (Triangles)",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "JLKM is a quadrilateral.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0410",
+   "stem": "Which of the following is true for the quadrilateral JLKM?",
+   "context": "JLKM is a quadrilateral.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "∠J is adjacent to ∠K"
+    },
+    {
+     "label": "B",
+     "text": "∠J is opposite to ∠M"
+    },
+    {
+     "label": "C",
+     "text": "Side JL is opposite to side MK"
+    },
+    {
+     "label": "D",
+     "text": "Side KL is adjacent to side JM"
+    }
+   ],
+   "answer": "C. Side JL is opposite to side MK",
+   "form": "mcq",
+   "chapter_label": "Basic Geometrical Ideas",
+   "concept_label": "Geometry | Shapes (Quadrilaterals)",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 5 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 72",
+   "trailing": "Understanding Elementary Shapes A truss is a structural framework of wood or metal arranged in a pattern which is used to support roofs or bridges. The structure of a truss made of iron rods is shown in the figure below. The rods EF, DG, AH, IK and JL are perpendicular to the base BC. A number of triangles are formed by the rods. In the triangle ABC, side AB = AC. In the triangle AGK, all sides are equal and H is the mid-point of GK.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0501",
+   "stem": "Which type of triangle is ABC?",
+   "context": "Understanding Elementary Shapes A truss is a structural framework of wood or metal arranged in a pattern which is used to support roofs or bridges. The structure of a truss made of iron rods is shown in the figure below. The rods EF, DG, AH, IK and JL are perpendicular to the base BC. A number of triangles are formed by the rods. In the triangle ABC, side AB = AC. In the triangle AGK, all sides are equal and H is the mid-point of GK.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "Scalene"
+    },
+    {
+     "label": "B",
+     "text": "Isosceles"
+    },
+    {
+     "label": "C",
+     "text": "Equilateral"
+    },
+    {
+     "label": "D",
+     "text": "Right-angled triangle"
+    }
+   ],
+   "answer": "B. Isosceles",
+   "form": "mcq",
+   "chapter_label": "Understanding Elementary Shapes",
+   "concept_label": "Geometry/Shapes | Classification of Triangles",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0502",
+   "stem": "Is triangle DGF a right-angled triangle? Justify your answer.",
+   "context": "Understanding Elementary Shapes A truss is a structural framework of wood or metal arranged in a pattern which is used to support roofs or bridges. The structure of a truss made of iron rods is shown in the figure below. The rods EF, DG, AH, IK and JL are perpendicular to the base BC. A number of triangles are formed by the rods. In the triangle ABC, side AB = AC. In the triangle AGK, all sides are equal and H is the mid-point of GK.",
+   "context_own": false,
+   "options": [],
+   "answer": "Yes, triangle DGF is a right-angled triangle as angle DGF = 90°. Yes, triangle DGF is a right-angled triangle as GF is perpendicular to GD. Yes, triangle DGF is a right-angled triangle as angle ∠G = 90°.",
+   "form": "short",
+   "chapter_label": "Understanding Elementary Shapes",
+   "concept_label": "Geometry/Shapes | Classification of Triangles",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0503",
+   "stem": "Is AH the perpendicular bisector of line segment GK? Justify your answer.",
+   "context": "Understanding Elementary Shapes A truss is a structural framework of wood or metal arranged in a pattern which is used to support roofs or bridges. The structure of a truss made of iron rods is shown in the figure below. The rods EF, DG, AH, IK and JL are perpendicular to the base BC. A number of triangles are formed by the rods. In the triangle ABC, side AB = AC. In the triangle AGK, all sides are equal and H is the mid-point of GK.",
+   "context_own": false,
+   "options": [],
+   "answer": "Ÿ Yes, H is mid-point of BC and GK and AH is perpendicular on it. Therefore, AH is a perpendicular bisector of GK. Yes, reasoning involves property of a perpendicular bisector. Response Sample:",
+   "form": "short",
+   "chapter_label": "Understanding Elementary Shapes",
+   "concept_label": "Geometry/Shapes | Classification of Triangles",
+   "competency": "Formulate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 5 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 73",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0504",
+   "stem": "The sides of triangle IJL are of length 3 m, 4 m and 5 m. Is triangle IJL an isosceles triangle? Why?",
+   "context": "Understanding Elementary Shapes A truss is a structural framework of wood or metal arranged in a pattern which is used to support roofs or bridges. The structure of a truss made of iron rods is shown in the figure below. The rods EF, DG, AH, IK and JL are perpendicular to the base BC. A number of triangles are formed by the rods. In the triangle ABC, side AB = AC. In the triangle AGK, all sides are equal and H is the mid-point of GK.",
+   "context_own": true,
+   "options": [],
+   "answer": "Ÿ No, triangle IJL is not an isosceles triangle as all its three sides are unequal. No, reasoning involves property of an isosceles triangle. Ÿ No, triangle IJL is not an isosceles triangle as there is no pair of equal sides.",
+   "form": "short",
+   "chapter_label": "Understanding Elementary Shapes",
+   "concept_label": "Geometry/Shapes | Classification of Triangles",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "The figure given below shows a tyre of a bicycle.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0505",
+   "stem": "What type of angle does Spoke 1 make with Spoke 11?",
+   "context": "The figure given below shows a tyre of a bicycle.",
+   "context_own": true,
+   "options": [],
+   "answer": "Reflex angle Obtuse angle",
+   "form": "short",
+   "chapter_label": "Understanding Elementary Shapes",
+   "concept_label": "Geometry/Shapes | Classification of Triangles",
+   "competency": "Formulate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "The figure below shows a combination of shapes. PQRS is a square. WRTU is a rectangle. PSW and WUV are triangles. In the figure, US is parallel to WP and UV is parallel to QP.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0506",
+   "stem": "Arun joins S and Q. SQ is an extension of US. Which type of quadrilateral is PQUV? Justify your answer.",
+   "context": "The figure below shows a combination of shapes. PQRS is a square. WRTU is a rectangle. PSW and WUV are triangles. In the figure, US is parallel to WP and UV is parallel to QP.",
+   "context_own": false,
+   "options": [],
+   "answer": "Ÿ PQUV is a parallelogram as its opposite sides are parallel. Ÿ PQUV is a parallelogram as PQ is parallel to UV and QU is parallel to PV. Parallelogram, reasoning involves properties of a parallelogram.",
+   "form": "short",
+   "chapter_label": "Understanding Elementary Shapes",
+   "concept_label": "Geometry/Shapes | Quadrilaterals",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 5 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 74",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0507",
+   "stem": "Which of the following quadrilaterals is regular?",
+   "context": "The figure below shows a combination of shapes. PQRS is a square. WRTU is a rectangle. PSW and WUV are triangles. In the figure, US is parallel to WP and UV is parallel to QP.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "PQRS"
+    },
+    {
+     "label": "B",
+     "text": "PSUV"
+    },
+    {
+     "label": "C",
+     "text": "RWUT"
+    },
+    {
+     "label": "D",
+     "text": "PQTV"
+    }
+   ],
+   "answer": "A. PQRS",
+   "form": "mcq",
+   "chapter_label": "Understanding Elementary Shapes",
+   "concept_label": "Geometry/Shapes | Quadrilaterals",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0508",
+   "stem": "Looking at the figure, Raji claims that, ‘PWUS is a rhombus’. Do we have sufficient information to accept her claim? Justify your answer.",
+   "context": "The figure below shows a combination of shapes. PQRS is a square. WRTU is a rectangle. PSW and WUV are triangles. In the figure, US is parallel to WP and UV is parallel to QP.",
+   "context_own": true,
+   "options": [],
+   "answer": "Ÿ No, there is no information regarding the opposite angles of PWUS. No, reasoning involves side length/angle properties of a rhombus. Ÿ No, there is no information on side lengths of PWUS.",
+   "form": "short",
+   "chapter_label": "Understanding Elementary Shapes",
+   "concept_label": "Geometry/Shapes | Quadrilaterals",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "The figure below shows a building.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0509",
+   "stem": "The figure below shows a building.",
+   "context": "The figure below shows a building.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "Sphere"
+    },
+    {
+     "label": "B",
+     "text": "Cylinder"
+    },
+    {
+     "label": "C",
+     "text": "Triangular prism"
+    },
+    {
+     "label": "D",
+     "text": "Rectangular pyramid"
+    }
+   ],
+   "answer": "B. Cylinder",
+   "form": "mcq",
+   "chapter_label": "Understanding Elementary Shapes",
+   "concept_label": "Geometry/Shapes | 3D shapes",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S0510",
+   "stem": "How many edge(s) are in a ball?",
+   "context": "The figure below shows a building.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "1"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "A. 0",
+   "form": "mcq",
+   "chapter_label": "Understanding Elementary Shapes",
+   "concept_label": "Geometry/Shapes | 3D shapes",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 6 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 75",
+   "trailing": "Integers The level of the surface of oceans or seas is called the sea level. Land and hills are raised and are at some height from the sea level. City A is 10 m below sea level, City B is 28 m below sea level and City C is 14 m above sea level.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0601",
+   "stem": "Which of the three cities is at the highest elevation from the sea level?",
+   "context": "Integers The level of the surface of oceans or seas is called the sea level. Land and hills are raised and are at some height from the sea level. City A is 10 m below sea level, City B is 28 m below sea level and City C is 14 m above sea level.",
+   "context_own": false,
+   "options": [],
+   "answer": "City C",
+   "form": "short",
+   "chapter_label": "Integers",
+   "concept_label": "Numbers/Representation of Numbers | Positive and Negative Integers",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0602",
+   "stem": "The sea level is considered to be zero elevation. Aditi uses the following rules to represent the elevation of different locations. For example, the elevation of City A is shown as –10. Above sea level is shown using the ‘+’ sign. Below sea level is shown using the ‘–’ sign. What would be the elevation of City B?",
+   "context": "Integers The level of the surface of oceans or seas is called the sea level. Land and hills are raised and are at some height from the sea level. City A is 10 m below sea level, City B is 28 m below sea level and City C is 14 m above sea level.",
+   "context_own": false,
+   "options": [],
+   "answer": "–28",
+   "form": "short",
+   "chapter_label": "Integers",
+   "concept_label": "Numbers/Representation of Numbers | Positive and Negative Integers",
+   "competency": "Formulate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0603",
+   "stem": "The elevation of City D is 1 m above the elevation of City B. What is the elevation of City D?",
+   "context": "Integers The level of the surface of oceans or seas is called the sea level. Land and hills are raised and are at some height from the sea level. City A is 10 m below sea level, City B is 28 m below sea level and City C is 14 m above sea level.",
+   "context_own": false,
+   "options": [],
+   "answer": "–27 m –27 –27 metres",
+   "form": "short",
+   "chapter_label": "Integers",
+   "concept_label": "Numbers/Representation of Numbers | Positive and Negative Integers",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 6 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 76",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0604",
+   "stem": "A submarine at the depth of 45 m rises to 20 m below sea level. 4 What is the depth of the submarine after rising?",
+   "context": "Integers The level of the surface of oceans or seas is called the sea level. Land and hills are raised and are at some height from the sea level. City A is 10 m below sea level, City B is 28 m below sea level and City C is 14 m above sea level.",
+   "context_own": false,
+   "options": [],
+   "answer": "25 m 25 metres 25",
+   "form": "short",
+   "chapter_label": "Integers",
+   "concept_label": "Numbers/Representation of Numbers | Positive and Negative Integers",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 6 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 77",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0605",
+   "stem": "A diver at the depth of 60 m spotted a seaweed 23 m below him. What is the depth of the seaweed from the sea level?",
+   "context": "Integers The level of the surface of oceans or seas is called the sea level. Land and hills are raised and are at some height from the sea level. City A is 10 m below sea level, City B is 28 m below sea level and City C is 14 m above sea level.",
+   "context_own": false,
+   "options": [],
+   "answer": "83 metres 83 83 m",
+   "form": "short",
+   "chapter_label": "Integers",
+   "concept_label": "Numbers/Representation of Numbers | Positive and Negative Integers",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0606",
+   "stem": "8 – 8 = 0 Which of the following is true for the numbers shown above?",
+   "context": "Integers The level of the surface of oceans or seas is called the sea level. Land and hills are raised and are at some height from the sea level. City A is 10 m below sea level, City B is 28 m below sea level and City C is 14 m above sea level.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "–8 is a multiplicative inverse of 8."
+    },
+    {
+     "label": "B",
+     "text": "–8 is a multiplicative identity of 8."
+    },
+    {
+     "label": "C",
+     "text": "–8 is the additive identity of 8."
+    },
+    {
+     "label": "D",
+     "text": "–8 is the additive inverse of 8."
+    }
+   ],
+   "answer": "D. -8 is the additive inverse of 8",
+   "form": "mcq",
+   "chapter_label": "Integers",
+   "concept_label": "Numbers/Representation of Numbers | Positive and Negative Integers",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "The figure shows the position of the satellite above earth. PR is the line joining the satellite and the centre of earth. P is the position of the satellite, Q is a point on the surface of earth and R is the centre of earth. The distance between P and Q is 1300 km and the distance between the centre of earth and the satellite is 7671 km.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0607",
+   "stem": "What is the distance between the points Q and R?",
+   "context": "The figure shows the position of the satellite above earth. PR is the line joining the satellite and the centre of earth. P is the position of the satellite, Q is a point on the surface of earth and R is the centre of earth. The distance between P and Q is 1300 km and the distance between the centre of earth and the satellite is 7671 km.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "1300 km"
+    },
+    {
+     "label": "B",
+     "text": "6371 km"
+    },
+    {
+     "label": "C",
+     "text": "7671 km"
+    },
+    {
+     "label": "D",
+     "text": "8971 km"
+    }
+   ],
+   "answer": "B. 6371 km",
+   "form": "mcq",
+   "chapter_label": "Integers",
+   "concept_label": "Numbers/Representation of Numbers | Number Line",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0608",
+   "stem": "Shobhit marks Q as zero and the direction from Q to P is positive. 8 What is the distance of R with reference to P?",
+   "context": "The figure shows the position of the satellite above earth. PR is the line joining the satellite and the centre of earth. P is the position of the satellite, Q is a point on the surface of earth and R is the centre of earth. The distance between P and Q is 1300 km and the distance between the centre of earth and the satellite is 7671 km.",
+   "context_own": true,
+   "options": [],
+   "answer": "-7671 km",
+   "form": "short",
+   "chapter_label": "Integers",
+   "concept_label": "Numbers/Representation of Numbers | Number Line",
+   "competency": "Formulate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "The picture below shows the control panel of a lift in a mall. ‘0’ is the ground floor. The two-wheeler parking area ‘-1’ is at basement level 1 and the car parking area ‘-2’ is at basement level 2.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0609",
+   "stem": "Ahmed enters the lift at Floor 3 and exits at the two-wheeler parking area. How many floors did the lift go down?",
+   "context": "The picture below shows the control panel of a lift in a mall. ‘0’ is the ground floor. The two-wheeler parking area ‘-1’ is at basement level 1 and the car parking area ‘-2’ is at basement level 2.",
+   "context_own": false,
+   "options": [],
+   "answer": "4 floors",
+   "form": "short",
+   "chapter_label": "Integers",
+   "concept_label": "Numbers/Representation of Numbers | Number Line",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 7 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 78",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0610",
+   "stem": "Meera entered the lift at the car parking floor. She pressed ‘6’ on the control panel of the lift. How many floors up does she want to go?",
+   "context": "The picture below shows the control panel of a lift in a mall. ‘0’ is the ground floor. The two-wheeler parking area ‘-1’ is at basement level 1 and the car parking area ‘-2’ is at basement level 2.",
+   "context_own": true,
+   "options": [],
+   "answer": "9 floors",
+   "form": "short",
+   "chapter_label": "Integers",
+   "concept_label": "Numbers/Representation of Numbers | Number Line",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Fractions Cross country is a running event in which runners completed a pre-decided distance. It includes different activities in which runners cover different environments. A cross country running event of 11 km is as follows. Running on paved road 3 Activity Distance (in km) Running on unpaved road 2 Hill climbing 2 Mud run 1 Running in woods 2 Crossing water bodies 1",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0701",
+   "stem": "What fraction of the total distance is the mud run? A. 11 B. 1 1 C. 10 1 D. 11 1 12",
+   "context": "Fractions Cross country is a running event in which runners completed a pre-decided distance. It includes different activities in which runners cover different environments. A cross country running event of 11 km is as follows. Running on paved road 3 Activity Distance (in km) Running on unpaved road 2 Hill climbing 2 Mud run 1 Running in woods 2 Crossing water bodies 1",
+   "context_own": false,
+   "options": [],
+   "answer": "C.",
+   "form": "short",
+   "chapter_label": "Fractions",
+   "concept_label": "Numbers | Multiplication and Division of Fraction",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response 1 11",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0702",
+   "stem": "What fraction of the total distance is the distance covered on paved and unpaved roads? A. 3 2 B. 5 5 C. 5 6 D. 5 11",
+   "context": "Fractions Cross country is a running event in which runners completed a pre-decided distance. It includes different activities in which runners cover different environments. A cross country running event of 11 km is as follows. Running on paved road 3 Activity Distance (in km) Running on unpaved road 2 Hill climbing 2 Mud run 1 Running in woods 2 Crossing water bodies 1",
+   "context_own": false,
+   "options": [],
+   "answer": "D.",
+   "form": "short",
+   "chapter_label": "Fractions",
+   "concept_label": "Numbers | Multiplication and Division of Fraction",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response 5 11",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0703",
+   "stem": "Paul says, ‘By running through woods and climbing hills, half of the total distance in cross country can be covered.’ Is Paul correct? How did you reach the conclusion?",
+   "context": "Fractions Cross country is a running event in which runners completed a pre-decided distance. It includes different activities in which runners cover different environments. A cross country running event of 11 km is as follows. Running on paved road 3 Activity Distance (in km) Running on unpaved road 2 Hill climbing 2 Mud run 1 Running in woods 2 Crossing water bodies 1",
+   "context_own": true,
+   "options": [],
+   "answer": "No, with valid reasoning. Ÿ No, because running on hills and woods covers       of the distance which is not equal to half of the total distance.",
+   "form": "short",
+   "chapter_label": "Fractions",
+   "concept_label": "Numbers | Multiplication and Division of Fraction",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response 4 11 Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 7 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 79",
+   "trailing": "Katherine completed the cross country in 1 hr. She completed the run on the paved and unpaved roads in one-fourth of an hour while Juliana covered it in half an hour.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0704",
+   "stem": "In how many minutes did Katherine cover the distance on the paved and unpaved roads?",
+   "context": "Katherine completed the cross country in 1 hr. She completed the run on the paved and unpaved roads in one-fourth of an hour while Juliana covered it in half an hour.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "10 min"
+    },
+    {
+     "label": "B",
+     "text": "15 min"
+    },
+    {
+     "label": "C",
+     "text": "20 min"
+    },
+    {
+     "label": "D",
+     "text": "30 min"
+    }
+   ],
+   "answer": "B. 15 min",
+   "form": "mcq",
+   "chapter_label": "Fractions",
+   "concept_label": "Numbers | Multiplication and Division of Fraction",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0705",
+   "stem": "How much more time (in hrs) was taken by Juliana than Katherine?",
+   "context": "Katherine completed the cross country in 1 hr. She completed the run on the paved and unpaved roads in one-fourth of an hour while Juliana covered it in half an hour.",
+   "context_own": false,
+   "options": [],
+   "answer": "hr",
+   "form": "short",
+   "chapter_label": "Fractions",
+   "concept_label": "Numbers | Multiplication and Division of Fraction",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response 5 11",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0706",
+   "stem": "Is the statement correct? Justify your answer. Katherine took the same amount of time to cover every kilometre in the event.",
+   "context": "Katherine completed the cross country in 1 hr. She completed the run on the paved and unpaved roads in one-fourth of an hour while Juliana covered it in half an hour.",
+   "context_own": true,
+   "options": [],
+   "answer": "No, with valid reasoning. Ÿ No, the statement is not correct because Katherine covered a distance of 5 km in 15 min or in       hr and 6 km distance in 45 min or in        hr, which implies that she took unequal time to cover per kilometre distance.",
+   "form": "short",
+   "chapter_label": "Fractions",
+   "concept_label": "Numbers | Multiplication and Division of Fraction",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response 1 4 3 4 Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 7 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 80",
+   "trailing": "Parul and two of her friends share a pizza equally among themselves.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0707",
+   "stem": "Is Parul’s statement correct? Give reasons. Parul says, ‘Here are three equal halves of the pizza.’",
+   "context": "Parul and two of her friends share a pizza equally among themselves.",
+   "context_own": false,
+   "options": [],
+   "answer": "No, with valid reasoning showing the difference between equal parts and equal halves. Ÿ No, because the pizza is divided into three equal parts, which is not half of the pizza.",
+   "form": "short",
+   "chapter_label": "Fractions",
+   "concept_label": "Numbers | Multiplication and Division of Fraction",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0708",
+   "stem": "Which fraction represents one part of the whole pizza? A. 1 2 B. 1 3 C. 2 3 D. 3 3 Later, three more friends join Parul. Parul divides the pizza again to have 6 parts.",
+   "context": "Parul and two of her friends share a pizza equally among themselves.",
+   "context_own": false,
+   "options": [],
+   "answer": "D.",
+   "form": "short",
+   "chapter_label": "Fractions",
+   "concept_label": "Numbers | Multiplication and Division of Fraction",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response 1 3",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0709",
+   "stem": "Does everyone get an equal portion? Give reasons.",
+   "context": "Parul and two of her friends share a pizza equally among themselves.",
+   "context_own": false,
+   "options": [],
+   "answer": "No, with valid reasoning. Ÿ No, because the pizza is not divided into six equal parts.",
+   "form": "short",
+   "chapter_label": "Fractions",
+   "concept_label": "Numbers | Multiplication and Division of Fraction",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 7 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 81",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0710",
+   "stem": "Suggest a way to divide the pizza into six equal parts. 10",
+   "context": "Parul and two of her friends share a pizza equally among themselves.",
+   "context_own": true,
+   "options": [],
+   "answer": "Accept any answer in which each part of the division represents 1/6 of the total.",
+   "form": "short",
+   "chapter_label": "Fractions",
+   "concept_label": "Numbers | Multiplication and Division of Fraction",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 8 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 82",
+   "trailing": "Decimals Suraj provides laundry services to nearby areas. The charges for wash and fold are calculated per kilogram of the weight of the clothes. The table below shows the weight of the clothes for washing and folding from four houses. House Number Weight of Clothes Collected 216 5.60 (in kg) 324 3.95 159 7.37 228 6.72",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0801",
+   "stem": "Which house will pay the most?",
+   "context": "Decimals Suraj provides laundry services to nearby areas. The charges for wash and fold are calculated per kilogram of the weight of the clothes. The table below shows the weight of the clothes for washing and folding from four houses. House Number Weight of Clothes Collected 216 5.60 (in kg) 324 3.95 159 7.37 228 6.72",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "House number 216"
+    },
+    {
+     "label": "B",
+     "text": "House number 324"
+    },
+    {
+     "label": "C",
+     "text": "House number 159"
+    },
+    {
+     "label": "D",
+     "text": "House number 228"
+    }
+   ],
+   "answer": "C. House number 159",
+   "form": "mcq",
+   "chapter_label": "Decimals",
+   "concept_label": "Numbers | Addition of Decimals",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0802",
+   "stem": "What is the total weight of the clothes collected for washing and folding?",
+   "context": "Decimals Suraj provides laundry services to nearby areas. The charges for wash and fold are calculated per kilogram of the weight of the clothes. The table below shows the weight of the clothes for washing and folding from four houses. House Number Weight of Clothes Collected 216 5.60 (in kg) 324 3.95 159 7.37 228 6.72",
+   "context_own": false,
+   "options": [],
+   "answer": "23.64 kg",
+   "form": "short",
+   "chapter_label": "Decimals",
+   "concept_label": "Numbers | Addition of Numbers with Decimals",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0803",
+   "stem": "Suraj collected 30.50 kg of clothes on Tuesday and 25.48 kg of clothes on Wednesday. How many more kilograms of clothes were collected by Suraj on Tuesday than on Wednesday?",
+   "context": "Decimals Suraj provides laundry services to nearby areas. The charges for wash and fold are calculated per kilogram of the weight of the clothes. The table below shows the weight of the clothes for washing and folding from four houses. House Number Weight of Clothes Collected 216 5.60 (in kg) 324 3.95 159 7.37 228 6.72",
+   "context_own": true,
+   "options": [],
+   "answer": "5.02 kg",
+   "form": "short",
+   "chapter_label": "Decimals",
+   "concept_label": "Numbers | Addition of Numbers with Decimals",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "The picture shows the nutritional information on a packet of cookies. NUTRITIONAL INFORMATION Carbohydrate 70 g PER 100g (Approx.) Sugars 24.5 g Protein 7 g Fat Saturated Fatty Acids 9 g Monounsaturated Fatty Acids 8.2 g Polyunsaturated Fatty Acids 2.7 g Trans Fatty Acids 0 g Cholesterol 0 g Energy 488kcal The cookies contain four types of fat.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0804",
+   "stem": "How much fat (in g) is in 100 g of cookies?",
+   "context": "The picture shows the nutritional information on a packet of cookies. NUTRITIONAL INFORMATION Carbohydrate 70 g PER 100g (Approx.) Sugars 24.5 g Protein 7 g Fat Saturated Fatty Acids 9 g Monounsaturated Fatty Acids 8.2 g Polyunsaturated Fatty Acids 2.7 g Trans Fatty Acids 0 g Cholesterol 0 g Energy 488kcal The cookies contain four types of fat.",
+   "context_own": false,
+   "options": [],
+   "answer": "19.9 19.9 g 19.9 grams",
+   "form": "short",
+   "chapter_label": "Decimals",
+   "concept_label": "Numbers | Addition of Numbers with Decimals",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 8 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 83",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0805",
+   "stem": "Which fat content is the highest in the cookies?",
+   "context": "The picture shows the nutritional information on a packet of cookies. NUTRITIONAL INFORMATION Carbohydrate 70 g PER 100g (Approx.) Sugars 24.5 g Protein 7 g Fat Saturated Fatty Acids 9 g Monounsaturated Fatty Acids 8.2 g Polyunsaturated Fatty Acids 2.7 g Trans Fatty Acids 0 g Cholesterol 0 g Energy 488kcal The cookies contain four types of fat.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "Saturated fatty acids"
+    },
+    {
+     "label": "B",
+     "text": "Monounsaturated fatty acids"
+    },
+    {
+     "label": "C",
+     "text": "Polyunsaturated fatty acids"
+    },
+    {
+     "label": "D",
+     "text": "Trans fatty acids"
+    }
+   ],
+   "answer": "A. Saturated fatty acids",
+   "form": "mcq",
+   "chapter_label": "Decimals",
+   "concept_label": "Numbers | Addition of Numbers with Decimals",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0806",
+   "stem": "The sugar content in the cookies is more than three times the protein content. Do you agree with this statement? Give reasons.",
+   "context": "The picture shows the nutritional information on a packet of cookies. NUTRITIONAL INFORMATION Carbohydrate 70 g PER 100g (Approx.) Sugars 24.5 g Protein 7 g Fat Saturated Fatty Acids 9 g Monounsaturated Fatty Acids 8.2 g Polyunsaturated Fatty Acids 2.7 g Trans Fatty Acids 0 g Cholesterol 0 g Energy 488kcal The cookies contain four types of fat.",
+   "context_own": true,
+   "options": [],
+   "answer": "Yes, with valid reasoning involving a comparison of sugar and protein content per 100 g of cookies. Ÿ Yes, because the sugar content per 100 g of cookies is 24.5 g which is nearly three times the protein content (7 × 3 = 21 g) present.",
+   "form": "short",
+   "chapter_label": "Decimals",
+   "concept_label": "Numbers | Addition of Numbers with Decimals",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Pulkit sets the car air-conditioner at 18.5°C when he starts the car. After a while, he increases the temperature to 21°C.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0807",
+   "stem": "How much is the increment in the temperature?",
+   "context": "Pulkit sets the car air-conditioner at 18.5°C when he starts the car. After a while, he increases the temperature to 21°C.",
+   "context_own": false,
+   "options": [],
+   "answer": "2.5°C",
+   "form": "short",
+   "chapter_label": "Decimals",
+   "concept_label": "Numbers | Addition of Numbers with Decimals",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0808",
+   "stem": "Later, he increases the temperature to 24.5°C. What is the total change in temperature? 8",
+   "context": "Pulkit sets the car air-conditioner at 18.5°C when he starts the car. After a while, he increases the temperature to 21°C.",
+   "context_own": false,
+   "options": [],
+   "answer": "6°C",
+   "form": "short",
+   "chapter_label": "Decimals",
+   "concept_label": "Numbers | Addition of Numbers with Decimals",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 8 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 84",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0809",
+   "stem": "160.3 cm =",
+   "context": "Pulkit sets the car air-conditioner at 18.5°C when he starts the car. After a while, he increases the temperature to 21°C.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "160 cm + 3 cm"
+    },
+    {
+     "label": "B",
+     "text": "160 cm + 3 mm"
+    },
+    {
+     "label": "C",
+     "text": "160 m + 3 cm"
+    },
+    {
+     "label": "D",
+     "text": "160 mm + 3 cm"
+    }
+   ],
+   "answer": "B. 160 cm + 3 mm",
+   "form": "mcq",
+   "chapter_label": "Decimals",
+   "concept_label": "Numbers | Addition of Numbers with Decimals",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06N0810",
+   "stem": "Ritesh’s height is 162.9 cm and Aarav’s height is 163.2 cm. What is the difference between their heights?",
+   "context": "Pulkit sets the car air-conditioner at 18.5°C when he starts the car. After a while, he increases the temperature to 21°C.",
+   "context_own": true,
+   "options": [],
+   "answer": "0.3 cm",
+   "form": "short",
+   "chapter_label": "Decimals",
+   "concept_label": "Numbers | Subtraction of Numbers with Decimals",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 9 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 85",
+   "trailing": "Data Handling Home appliances like fridge and television consume electrical energy. Jiya made a bar graph of the electricity consumption of six appliances in her house in a year.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06D0901",
+   "stem": "Which appliance consumes more than 2000 kWh? 1",
+   "context": "Data Handling Home appliances like fridge and television consume electrical energy. Jiya made a bar graph of the electricity consumption of six appliances in her house in a year.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "Fridge"
+    },
+    {
+     "label": "B",
+     "text": "Television"
+    },
+    {
+     "label": "C",
+     "text": "Microwave"
+    },
+    {
+     "label": "D",
+     "text": "Air Conditioner"
+    }
+   ],
+   "answer": "D. Air Conditioner",
+   "form": "mcq",
+   "chapter_label": "Data Handling",
+   "concept_label": "Statistics | Representation of Bar Graph",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06D0902",
+   "stem": "What is the electricity consumption (in kWh) of the washing machine?",
+   "context": "Data Handling Home appliances like fridge and television consume electrical energy. Jiya made a bar graph of the electricity consumption of six appliances in her house in a year.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "500"
+    },
+    {
+     "label": "B",
+     "text": "800"
+    },
+    {
+     "label": "C",
+     "text": "900"
+    },
+    {
+     "label": "D",
+     "text": "1000"
+    }
+   ],
+   "answer": "C. 900",
+   "form": "mcq",
+   "chapter_label": "Data Handling",
+   "concept_label": "Statistics | Representation of Bar Graph",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Jiya represents the energy consumption of a microwave and a television as given below. Microwave – Television –",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06D0903",
+   "stem": "How much energy consumption (in kWh) does a represent?",
+   "context": "Jiya represents the energy consumption of a microwave and a television as given below. Microwave – Television –",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "100"
+    },
+    {
+     "label": "C",
+     "text": "500"
+    },
+    {
+     "label": "D",
+     "text": "2500"
+    }
+   ],
+   "answer": "B. 100",
+   "form": "mcq",
+   "chapter_label": "Data Handling",
+   "concept_label": "Statistics | Representation of Bar Graph",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06D0904",
+   "stem": "Using Jiya’s method, which of the following shows the room heater’s electricity consumption? A. B. C. D.",
+   "context": "Jiya represents the energy consumption of a microwave and a television as given below. Microwave – Television –",
+   "context_own": false,
+   "options": [],
+   "answer": "B. Image",
+   "form": "short",
+   "chapter_label": "Data Handling",
+   "concept_label": "Statistics | Representation of Bar Graph",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 9 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 86",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06D0905",
+   "stem": "How much more electricity (in kWh) was used by the fridge than by the television?",
+   "context": "Jiya represents the energy consumption of a microwave and a television as given below. Microwave – Television –",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "300 kWh"
+    },
+    {
+     "label": "B",
+     "text": "700 kWh"
+    },
+    {
+     "label": "C",
+     "text": "900 kWh"
+    },
+    {
+     "label": "D",
+     "text": "1200 kWh"
+    }
+   ],
+   "answer": "C. 900 kWh",
+   "form": "mcq",
+   "chapter_label": "Data Handling",
+   "concept_label": "Statistics | Representation of Bar Graph",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Shobhit works for a shoe store. He records the shoe sizes and the number of pairs sold every day. On Tuesday, he sold 60 pairs. His record for the day is shown below. Note: represents 5.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06D0906",
+   "stem": "How many pairs of size 8 were sold on Tuesday?",
+   "context": "Shobhit works for a shoe store. He records the shoe sizes and the number of pairs sold every day. On Tuesday, he sold 60 pairs. His record for the day is shown below. Note: represents 5.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "10"
+    },
+    {
+     "label": "C",
+     "text": "11"
+    },
+    {
+     "label": "D",
+     "text": "13"
+    }
+   ],
+   "answer": "D. 13",
+   "form": "mcq",
+   "chapter_label": "Data Handling",
+   "concept_label": "Statistics | Organisation of Data",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06D0907",
+   "stem": "Which shoe size sold the most?",
+   "context": "Shobhit works for a shoe store. He records the shoe sizes and the number of pairs sold every day. On Tuesday, he sold 60 pairs. His record for the day is shown below. Note: represents 5.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "Size 4"
+    },
+    {
+     "label": "B",
+     "text": "Size 7"
+    },
+    {
+     "label": "C",
+     "text": "Size 8"
+    },
+    {
+     "label": "D",
+     "text": "Size 9"
+    }
+   ],
+   "answer": "B. Size 6",
+   "form": "mcq",
+   "chapter_label": "Data Handling",
+   "concept_label": "Statistics | Organisation of Data",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06D0908",
+   "stem": "8 Shobit realised that he had not fully recorded the sale for Tuesday. How many sold pairs had he not recorded?",
+   "context": "Shobhit works for a shoe store. He records the shoe sizes and the number of pairs sold every day. On Tuesday, he sold 60 pairs. His record for the day is shown below. Note: represents 5.",
+   "context_own": false,
+   "options": [],
+   "answer": "5 5 pairs",
+   "form": "short",
+   "chapter_label": "Data Handling",
+   "concept_label": "Statistics | Organisation of Data",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 9 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 87",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06D0909",
+   "stem": "The unrecorded data was of shoe size 7. Shobit corrected his record accordingly. Which of the following statements will be true now?",
+   "context": "Shobhit works for a shoe store. He records the shoe sizes and the number of pairs sold every day. On Tuesday, he sold 60 pairs. His record for the day is shown below. Note: represents 5.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "Shoe size 8 sold the least now"
+    },
+    {
+     "label": "B",
+     "text": "Shoe size 7 sold the most now"
+    },
+    {
+     "label": "C",
+     "text": "Shoe size 5 is the new mode of the data"
+    },
+    {
+     "label": "D",
+     "text": "Number of shoe pairs of size 3 can be calculated"
+    }
+   ],
+   "answer": "B. Shoe size 7 sold the most now",
+   "form": "mcq",
+   "chapter_label": "Data Handling",
+   "concept_label": "Statistics | Organisation of Data",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06D0910",
+   "stem": "The price of one shoe pair of size 5 is Rs 800. How much money had Shobhit collected by selling all the shoe pairs of size 5?",
+   "context": "Shobhit works for a shoe store. He records the shoe sizes and the number of pairs sold every day. On Tuesday, he sold 60 pairs. His record for the day is shown below. Note: represents 5.",
+   "context_own": true,
+   "options": [],
+   "answer": "Rs 5600",
+   "form": "short",
+   "chapter_label": "Data Handling",
+   "concept_label": "Statistics | Organisation of Data",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 10 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 88",
+   "trailing": "Mensuration International Federation of Association Football (FIFA) is responsible for the organization and promotion of association football's major international tournaments. FIFA issues guidelines for the dimensions of football fields. The figure below shows the maximum and minimum lengths and widths of a football field.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1001",
+   "stem": "What is the maximum area (in m²) of the football field?",
+   "context": "Mensuration International Federation of Association Football (FIFA) is responsible for the organization and promotion of association football's major international tournaments. FIFA issues guidelines for the dimensions of football fields. The figure below shows the maximum and minimum lengths and widths of a football field.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "30"
+    },
+    {
+     "label": "B",
+     "text": "420"
+    },
+    {
+     "label": "C",
+     "text": "1080"
+    },
+    {
+     "label": "D",
+     "text": "10,800"
+    }
+   ],
+   "answer": "D. 10,800",
+   "form": "mcq",
+   "chapter_label": "Mensuration",
+   "concept_label": "Measurement | Area of Rectangle",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1002",
+   "stem": "What can be the minimum perimeter (in m) of the football field?",
+   "context": "Mensuration International Federation of Association Football (FIFA) is responsible for the organization and promotion of association football's major international tournaments. FIFA issues guidelines for the dimensions of football fields. The figure below shows the maximum and minimum lengths and widths of a football field.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "90"
+    },
+    {
+     "label": "B",
+     "text": "135"
+    },
+    {
+     "label": "C",
+     "text": "270"
+    },
+    {
+     "label": "D",
+     "text": "4050"
+    }
+   ],
+   "answer": "C. 270",
+   "form": "mcq",
+   "chapter_label": "Mensuration",
+   "concept_label": "Measurement | Perimeter of Rectangle",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "The figure below shows the football field for a school tournament.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1003",
+   "stem": "What is the perimeter (in m) of WURQ? 3",
+   "context": "The figure below shows the football field for a school tournament.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "60"
+    },
+    {
+     "label": "B",
+     "text": "240"
+    },
+    {
+     "label": "C",
+     "text": "960"
+    },
+    {
+     "label": "D",
+     "text": "3344"
+    }
+   ],
+   "answer": "B. 240",
+   "form": "mcq",
+   "chapter_label": "Mensuration",
+   "concept_label": "Measurement | Perimeter of Rectangle",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1004",
+   "stem": "“The area enclosed by QRUW is equal to the area enclosed by WUST.” Is the statement true? Give reason.",
+   "context": "The figure below shows the football field for a school tournament.",
+   "context_own": false,
+   "options": [],
+   "answer": "Yes, with valid reasoning which involves the comparison between areas of PSUT and TURQ. Ÿ Yes, because the areas of PSUT and TURQ are the same which is 3344 square m",
+   "form": "short",
+   "chapter_label": "Mensuration",
+   "concept_label": "Measurement | Area of Rectangle",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 10 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 89",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1005",
+   "stem": "What is the area (in m²) of the penalty area?",
+   "context": "The figure below shows the football field for a school tournament.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "30"
+    },
+    {
+     "label": "B",
+     "text": "272"
+    },
+    {
+     "label": "C",
+     "text": "480"
+    },
+    {
+     "label": "D",
+     "text": "720"
+    }
+   ],
+   "answer": "C. 480",
+   "form": "mcq",
+   "chapter_label": "Mensuration",
+   "concept_label": "Measurement | Area of Rectangle",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1006",
+   "stem": "6 Is the perimeter of the penalty area of the football field double the perimeter of the goal area? Give reason.",
+   "context": "The figure below shows the football field for a school tournament.",
+   "context_own": false,
+   "options": [],
+   "answer": "Ÿ No, because the perimeter of each penalty area is 112m and the perimeter of each goal area is 64m and 112m is not the double of 64m. No, with valid reasoning which involves the comparison between the perimeters of the penalty area and the goal area. Ÿ No, because the perimeter of each penalty area is 112m and the perimeter of each goal area is 64m and 64m is not the half of 112m.",
+   "form": "short",
+   "chapter_label": "Mensuration",
+   "concept_label": "Measurement | Perimeter of Rectangle",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1007",
+   "stem": "Does the school football field meet the FIFA standards? Give reason.",
+   "context": "The figure below shows the football field for a school tournament.",
+   "context_own": false,
+   "options": [],
+   "answer": "Ÿ Yes, because the area of PQRS is 6688 square m which lies within the standard range which is 10,800 square m to 4050 square m. Yes, with valid reasoning which involves the comparison of the school football field dimensions with FIFA standards. Ÿ Yes, because the perimeter of PQRS is 328 m which lies within the standard range which is 420m to 270m. Ÿ Yes, because the length and the width of PQRS are 88m and 76m respectively, which lie within the standard range which is 120m to 90 m for length and 90m to 45m for width.",
+   "form": "short",
+   "chapter_label": "Mensuration",
+   "concept_label": "Measurement | Perimeter of Rectangle",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 10 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 90",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1008",
+   "stem": "Find the perimeter of the shape WURMNOPQW.",
+   "context": "The figure below shows the football field for a school tournament.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "6.16 m"
+    },
+    {
+     "label": "B",
+     "text": "8.8 m"
+    },
+    {
+     "label": "C",
+     "text": "17.6 m"
+    },
+    {
+     "label": "D",
+     "text": "12.32 m"
+    }
+   ],
+   "answer": "280 m",
+   "form": "short",
+   "chapter_label": "Mensuration",
+   "concept_label": "Measurement | Perimeter of Rectangle",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "The figure below shows a square wooden frame enclosing a square picture.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1009",
+   "stem": "What is the area (in cm²) of the frame?",
+   "context": "The figure below shows a square wooden frame enclosing a square picture.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "81"
+    },
+    {
+     "label": "B",
+     "text": "144"
+    },
+    {
+     "label": "C",
+     "text": "181"
+    },
+    {
+     "label": "D",
+     "text": "225"
+    }
+   ],
+   "answer": "A. 81",
+   "form": "mcq",
+   "chapter_label": "Mensuration",
+   "concept_label": "Measurement | Area of Square",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1010",
+   "stem": "What is the perimeter (in cm) of the picture?",
+   "context": "The figure below shows a square wooden frame enclosing a square picture.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "12"
+    },
+    {
+     "label": "B",
+     "text": "48"
+    },
+    {
+     "label": "C",
+     "text": "60"
+    },
+    {
+     "label": "D",
+     "text": "144"
+    }
+   ],
+   "answer": "B. 48",
+   "form": "mcq",
+   "chapter_label": "Mensuration",
+   "concept_label": "Measurement | Perimeter of Square",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 11 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 91",
+   "trailing": "Algebra Sarah buys books from a dealer for her bookstall. She buys 20 comic books, 15 storybooks and 10 colouring books. A comic book costs Rs a. A storybook costs Rs 5 more than a comic book and a colouring book costs Rs 10 more than a storybook.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1101",
+   "stem": "Which of the following expression shows the total cost of the comic books?",
+   "context": "Algebra Sarah buys books from a dealer for her bookstall. She buys 20 comic books, 15 storybooks and 10 colouring books. A comic book costs Rs a. A storybook costs Rs 5 more than a comic book and a colouring book costs Rs 10 more than a storybook.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "20"
+    },
+    {
+     "label": "B",
+     "text": "20a"
+    },
+    {
+     "label": "C",
+     "text": "20 + a"
+    },
+    {
+     "label": "D",
+     "text": "20 – a"
+    }
+   ],
+   "answer": "B. 20a",
+   "form": "mcq",
+   "chapter_label": "Algebra",
+   "concept_label": "Algebra | The Idea of a Variable",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1102",
+   "stem": "Sarah gets a profit of Rs 2 on the sale of each comic book. Which of the following expression shows the amount Sarah earns by selling 10 comic books?",
+   "context": "Algebra Sarah buys books from a dealer for her bookstall. She buys 20 comic books, 15 storybooks and 10 colouring books. A comic book costs Rs a. A storybook costs Rs 5 more than a comic book and a colouring book costs Rs 10 more than a storybook.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "a+2"
+    },
+    {
+     "label": "B",
+     "text": "20a -20"
+    },
+    {
+     "label": "C",
+     "text": "20a + 40"
+    },
+    {
+     "label": "D",
+     "text": "20 + a + 2"
+    }
+   ],
+   "answer": "C. 20a + 40",
+   "form": "mcq",
+   "chapter_label": "Algebra",
+   "concept_label": "Algebra | The Idea of a Variable",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1103",
+   "stem": "Write an expression to show the total cost of 15 storybooks.",
+   "context": "Algebra Sarah buys books from a dealer for her bookstall. She buys 20 comic books, 15 storybooks and 10 colouring books. A comic book costs Rs a. A storybook costs Rs 5 more than a comic book and a colouring book costs Rs 10 more than a storybook.",
+   "context_own": false,
+   "options": [],
+   "answer": "Accept answers with a + 5 as the cost of storybook 15(a + 5) 15a + 75",
+   "form": "short",
+   "chapter_label": "Algebra",
+   "concept_label": "Algebra | The Idea of a Variable",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1104",
+   "stem": "A colouring book costs Rs 50. What is the cost of the comic book?",
+   "context": "Algebra Sarah buys books from a dealer for her bookstall. She buys 20 comic books, 15 storybooks and 10 colouring books. A comic book costs Rs a. A storybook costs Rs 5 more than a comic book and a colouring book costs Rs 10 more than a storybook.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "20"
+    },
+    {
+     "label": "B",
+     "text": "40"
+    },
+    {
+     "label": "C",
+     "text": "45"
+    },
+    {
+     "label": "D",
+     "text": "50"
+    }
+   ],
+   "answer": "B. 40",
+   "form": "mcq",
+   "chapter_label": "Algebra",
+   "concept_label": "Algebra | The Idea of a Variable",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 11 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 92",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1105",
+   "stem": "Garima puts a handful of seeds into an empty bird feeder. A bird comes and eats 7 of them. Which of the following expressions can represent this situation algebraically?",
+   "context": "Algebra Sarah buys books from a dealer for her bookstall. She buys 20 comic books, 15 storybooks and 10 colouring books. A comic book costs Rs a. A storybook costs Rs 5 more than a comic book and a colouring book costs Rs 10 more than a storybook.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "p + 7"
+    },
+    {
+     "label": "B",
+     "text": "7p"
+    },
+    {
+     "label": "C",
+     "text": "p - 7"
+    },
+    {
+     "label": "D",
+     "text": "p ÷ 7"
+    }
+   ],
+   "answer": "C. p - 7",
+   "form": "mcq",
+   "chapter_label": "Algebra",
+   "concept_label": "Algebra | Algebraic Expressions (Expressions with Variables)",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1106",
+   "stem": "Garima put some more seeds in the feeder. Which of the following expressions can represent this situation algebraically?",
+   "context": "Algebra Sarah buys books from a dealer for her bookstall. She buys 20 comic books, 15 storybooks and 10 colouring books. A comic book costs Rs a. A storybook costs Rs 5 more than a comic book and a colouring book costs Rs 10 more than a storybook.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "2p"
+    },
+    {
+     "label": "B",
+     "text": "p + 7"
+    },
+    {
+     "label": "C",
+     "text": "p + q"
+    },
+    {
+     "label": "D",
+     "text": "p + q - 7"
+    }
+   ],
+   "answer": "D. p + q - 7",
+   "form": "mcq",
+   "chapter_label": "Algebra",
+   "concept_label": "Algebra | Algebraic Expressions (Expressions with Variables)",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1107",
+   "stem": "Which of the following equations shows the commutative property of addition?",
+   "context": "Algebra Sarah buys books from a dealer for her bookstall. She buys 20 comic books, 15 storybooks and 10 colouring books. A comic book costs Rs a. A storybook costs Rs 5 more than a comic book and a colouring book costs Rs 10 more than a storybook.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "14 + 6 = 20"
+    },
+    {
+     "label": "B",
+     "text": "14 - 6 = 8"
+    },
+    {
+     "label": "C",
+     "text": "14 + 6 = 6 + 14"
+    },
+    {
+     "label": "D",
+     "text": "14 x 6 = 6 x 14"
+    }
+   ],
+   "answer": "C. 14 + 6 = 6 + 14",
+   "form": "mcq",
+   "chapter_label": "Algebra",
+   "concept_label": "Algebra | Algebraic Expressions (Expressions with Variables)",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Sudhir observed the pattern shown below on a cloth. The pattern consists of 4 patches. The pattern is repeated n number of times in a 4 meter long cloth.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1108",
+   "stem": "Which of the following expressions shows the number of octagon patches on the cloth?",
+   "context": "Sudhir observed the pattern shown below on a cloth. The pattern consists of 4 patches. The pattern is repeated n number of times in a 4 meter long cloth.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "n"
+    },
+    {
+     "label": "B",
+     "text": "4n"
+    },
+    {
+     "label": "C",
+     "text": "n + 4"
+    },
+    {
+     "label": "D",
+     "text": "n ÷ 4"
+    }
+   ],
+   "answer": "A. n",
+   "form": "mcq",
+   "chapter_label": "Algebra",
+   "concept_label": "Algebra | Algebraic Expressions (Use of Variables in Common Rules)",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 11 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 93",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1109",
+   "stem": "Write an expression to represent an expressions which shows the total number of patches on the cloth?",
+   "context": "Sudhir observed the pattern shown below on a cloth. The pattern consists of 4 patches. The pattern is repeated n number of times in a 4 meter long cloth.",
+   "context_own": false,
+   "options": [],
+   "answer": "Ÿ 4n or 4p or 4s Multiple of 4 with any variable",
+   "form": "short",
+   "chapter_label": "Algebra",
+   "concept_label": "Algebraic Expressions | Use of Variables in Common Rules/Rules from Geometry",
+   "competency": "Formulate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1110",
+   "stem": "The cloth is cut into two equal halves. Sudhir observed both cloth parts have an equal number of repeating blocks but the last line is not complete. Which of the following expression shows the number of complete repeating blocks?",
+   "context": "Sudhir observed the pattern shown below on a cloth. The pattern consists of 4 patches. The pattern is repeated n number of times in a 4 meter long cloth.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "n - 1"
+    },
+    {
+     "label": "B",
+     "text": "2n - 1 C. 2 n D. 1 2 n -"
+    }
+   ],
+   "answer": "D.",
+   "form": "short",
+   "chapter_label": "Algebra",
+   "concept_label": "Algebraic Expressions | Use of Variables in Common Rules/Rules from Geometry",
+   "competency": "Formulate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response 1 2 n - Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 12 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 94",
+   "trailing": "Ratio and Proportion He spent Rs 1600 on decoration and Rs 8000 on food. Sam organised a party. He decorated his house and arranged food for guests.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1201",
+   "stem": "What is the ratio of the money that Sam spent on decoration to food?",
+   "context": "Ratio and Proportion He spent Rs 1600 on decoration and Rs 8000 on food. Sam organised a party. He decorated his house and arranged food for guests.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "1:4"
+    },
+    {
+     "label": "B",
+     "text": "1:5"
+    },
+    {
+     "label": "C",
+     "text": "1:6"
+    },
+    {
+     "label": "D",
+     "text": "5:1"
+    }
+   ],
+   "answer": "B. 1:5",
+   "form": "mcq",
+   "chapter_label": "Ratio and Proportion",
+   "concept_label": "Ratio and Proportion | Ratio",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1202",
+   "stem": "2 Sam used paper ribbons to decorate the walls. He made a pattern using groups of four ribbons. Each group had one blue ribbon and the remaining are yellow. What is the ratio of blue ribbons to the total number of ribbons in each pattern?",
+   "context": "Ratio and Proportion He spent Rs 1600 on decoration and Rs 8000 on food. Sam organised a party. He decorated his house and arranged food for guests.",
+   "context_own": false,
+   "options": [],
+   "answer": "1:4",
+   "form": "short",
+   "chapter_label": "Ratio and Proportion",
+   "concept_label": "Ratio and Proportion | Ratio/Comparing Quantities",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1203",
+   "stem": "To decorate one wall, Sam used 18 blue ribbons. How many yellow ribbons were used on that wall?",
+   "context": "Ratio and Proportion He spent Rs 1600 on decoration and Rs 8000 on food. Sam organised a party. He decorated his house and arranged food for guests.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "6"
+    },
+    {
+     "label": "C",
+     "text": "36"
+    },
+    {
+     "label": "D",
+     "text": "54"
+    }
+   ],
+   "answer": "D. 54",
+   "form": "mcq",
+   "chapter_label": "Ratio and Proportion",
+   "concept_label": "Ratio and Proportion | Ratio (Unitary Method)",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Sam purchased 40 blue ribbons. He orders the ribbons shown above.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1204",
+   "stem": "4 How many rupees will Sam pay for the 40 ribbons?",
+   "context": "Sam purchased 40 blue ribbons. He orders the ribbons shown above.",
+   "context_own": false,
+   "options": [],
+   "answer": "Rs 200",
+   "form": "short",
+   "chapter_label": "Ratio and Proportion",
+   "concept_label": "Ratio and Proportion | Ratio (Unitary Method)",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 12 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 95",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1205",
+   "stem": "Sam ordered 21 sausages. Of the 15 guests that came to the party, 6 guests had two sausages each, three guests had one sausage each and the remaining guests did not have any sausages. What is the ratio of the number of sausages left to the number of sausages had by the guests?",
+   "context": "Sam purchased 40 blue ribbons. He orders the ribbons shown above.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "2:5"
+    },
+    {
+     "label": "B",
+     "text": "2:7"
+    },
+    {
+     "label": "C",
+     "text": "5:2"
+    },
+    {
+     "label": "D",
+     "text": "5:7"
+    }
+   ],
+   "answer": "A. 2:5",
+   "form": "mcq",
+   "chapter_label": "Ratio and Proportion",
+   "concept_label": "Ratio and Proportion | Ratio (Unitary Method)",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1206",
+   "stem": "One pack of 3 sausages costs Rs 120. What is the cost of 21 sausages? 6",
+   "context": "Sam purchased 40 blue ribbons. He orders the ribbons shown above.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "Rs 40"
+    },
+    {
+     "label": "B",
+     "text": "Rs 630"
+    },
+    {
+     "label": "C",
+     "text": "Rs 840"
+    },
+    {
+     "label": "D",
+     "text": "Rs 2520"
+    }
+   ],
+   "answer": "C. Rs 840",
+   "form": "mcq",
+   "chapter_label": "Ratio and Proportion",
+   "concept_label": "Ratio and Proportion | Proportion (Unitary Method)",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1207",
+   "stem": "7 Whose response is not correct? Give a reason for your response.",
+   "context": "Sam purchased 40 blue ribbons. He orders the ribbons shown above.",
+   "context_own": true,
+   "options": [],
+   "answer": "Darsh’s response is not correct with valid justification explaining order of terms in proportion. Ÿ Darsh’s response is not correct because 6/8 ≠ 40/30.",
+   "form": "short",
+   "chapter_label": "Ratio and Proportion",
+   "concept_label": "Ratio and Proportion | Proportion",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Rajat takes a photograph of the top view of a cricket pitch with a drone He then makes a scale drawing of the pitch and marks the lengths of the outer boundaries of the pitch. Rajat’s scale diagram is shown below. He places a ruler along one length of the diagram as shown above.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1208",
+   "stem": "What is the ratio of the length of the pitch drawn by Rajat to the actual length of the pitch?",
+   "context": "Rajat takes a photograph of the top view of a cricket pitch with a drone He then makes a scale drawing of the pitch and marks the lengths of the outer boundaries of the pitch. Rajat’s scale diagram is shown below. He places a ruler along one length of the diagram as shown above.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "1 : 0.0752"
+    },
+    {
+     "label": "B",
+     "text": "1 : 0.752"
+    },
+    {
+     "label": "C",
+     "text": "1 : 75.2"
+    },
+    {
+     "label": "D",
+     "text": "1 : 7520"
+    }
+   ],
+   "answer": "C. 1:75.2",
+   "form": "mcq",
+   "chapter_label": "Ratio and Proportion",
+   "concept_label": "Ratio and Proportion | Ratio",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 12 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 96",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1209",
+   "stem": "Aarav also draws a model of the same cricket pitch. Aarav’s model is 10 cm wide and 30 cm long. Are the dimensions of Aarav’s model proportional to the actual pitch dimensions? Give a reason to justify your answer",
+   "context": "Rajat takes a photograph of the top view of a cricket pitch with a drone He then makes a scale drawing of the pitch and marks the lengths of the outer boundaries of the pitch. Rajat’s scale diagram is shown below. He places a ruler along one length of the diagram as shown above.",
+   "context_own": true,
+   "options": [],
+   "answer": "Ÿ No, the model of the pitch drawn by Aarav is not proportional to the actual pitch with valid reasoning as 22.56/3.66 ≠ 30/10 or 3.66/22.56 ≠ 10/30 No, the model of the pitch drawn by Aarav is not proportional to the actual pitch with valid reasoning",
+   "form": "short",
+   "chapter_label": "Ratio and Proportion",
+   "concept_label": "Ratio and Proportion | Proportion",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Here are the dimensions of some stumps used in cricket. Rajat wants draw a scale model of this stump. For the diagram, Rajat uses the ratio 1:9 to the actual size.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06C1210",
+   "stem": "What is the height (in cm) of the stumps drawn by Rajat?",
+   "context": "Here are the dimensions of some stumps used in cricket. Rajat wants draw a scale model of this stump. For the diagram, Rajat uses the ratio 1:9 to the actual size.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "7.1"
+    },
+    {
+     "label": "B",
+     "text": "7.9"
+    },
+    {
+     "label": "C",
+     "text": "79"
+    },
+    {
+     "label": "D",
+     "text": "711"
+    }
+   ],
+   "answer": "B. 7.9",
+   "form": "mcq",
+   "chapter_label": "Ratio and Proportion",
+   "concept_label": "Ratio and Proportion | Ratio",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 13 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 97",
+   "trailing": "Symmetry Udit made a paper fish by folding a paper. He uses a square paper, with a coloured side and a white side. He followed the steps shown below to make the fish.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1301",
+   "stem": "How many lines of symmetry can be drawn on a square paper?",
+   "context": "Symmetry Udit made a paper fish by folding a paper. He uses a square paper, with a coloured side and a white side. He followed the steps shown below to make the fish.",
+   "context_own": false,
+   "options": [],
+   "answer": "4",
+   "form": "short",
+   "chapter_label": "Symmetry",
+   "concept_label": "Geometry | Line of Symmetry",
+   "competency": "Formulate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1302",
+   "stem": "To perform step 4, which geometrical construction was done?",
+   "context": "Symmetry Udit made a paper fish by folding a paper. He uses a square paper, with a coloured side and a white side. He followed the steps shown below to make the fish.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "Dividing a line segment into two equal parts."
+    },
+    {
+     "label": "B",
+     "text": "Making a perpendicular to a line segment."
+    },
+    {
+     "label": "C",
+     "text": "Dividing an angle into two equal parts."
+    },
+    {
+     "label": "D",
+     "text": "Joining two lines of equal length."
+    }
+   ],
+   "answer": "C. Dividing an angle into two equal parts",
+   "form": "mcq",
+   "chapter_label": "Symmetry",
+   "concept_label": "Geometry | Line of Symmetry",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1303",
+   "stem": "3 Udit folded the paper in step 2 and step 3, why were the two halves after step 3 of different colours?",
+   "context": "Symmetry Udit made a paper fish by folding a paper. He uses a square paper, with a coloured side and a white side. He followed the steps shown below to make the fish.",
+   "context_own": false,
+   "options": [],
+   "answer": "Student response should explain that the fold has been made in opposite directions. Ÿ Folded in opposite directions Ÿ Step 2 fold in front step 3 fold backwards Ÿ Opposite folds Ÿ Step 2 and 3 have been folded on opposite sides",
+   "form": "short",
+   "chapter_label": "Symmetry",
+   "concept_label": "Geometry | Line of Symmetry",
+   "competency": "Formulate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Ÿ Paper was of different colour Ÿ Two folds are made Ÿ By paper folding Incomprehensible or too generic statements Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 13 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 98",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1304",
+   "stem": "Shape 1 has four lines of symmetry. How many lines of symmetry will the shape have after Udit completes step 2?",
+   "context": "Symmetry Udit made a paper fish by folding a paper. He uses a square paper, with a coloured side and a white side. He followed the steps shown below to make the fish.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "1"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "B. 1",
+   "form": "mcq",
+   "chapter_label": "Symmetry",
+   "concept_label": "Geometry | Line of Symmetry",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Udit placed a mirror partly covering the fish as under.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1305",
+   "stem": "5 What should be the image visible in the mirror?",
+   "context": "Udit placed a mirror partly covering the fish as under.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "B."
+    },
+    {
+     "label": "C",
+     "text": "D. Mani draws this design on a sheet of paper."
+    }
+   ],
+   "answer": "D. Image",
+   "form": "short",
+   "chapter_label": "Symmetry",
+   "concept_label": "Geometry | Mirror Reflection",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1306",
+   "stem": "How many lines of symmetry are there in the design?",
+   "context": "Udit placed a mirror partly covering the fish as under.",
+   "context_own": false,
+   "options": [],
+   "answer": "12 line of symmetry 12",
+   "form": "short",
+   "chapter_label": "Symmetry",
+   "concept_label": "Geometry | Line of Symmetry",
+   "competency": "Formulate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1307",
+   "stem": "Gautam modified Mani’s design by erasing all the hexagons from Mani’s design. How many lines of symmetry are there in Gautam’s design?",
+   "context": "Udit placed a mirror partly covering the fish as under.",
+   "context_own": true,
+   "options": [],
+   "answer": "12",
+   "form": "short",
+   "chapter_label": "Symmetry",
+   "concept_label": "Geometry | Line of Symmetry",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 13 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 99",
+   "trailing": "This is a part of the design created by Mani.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1308",
+   "stem": "Can you create the complete design by repeating this part? How?",
+   "context": "This is a part of the design created by Mani.",
+   "context_own": true,
+   "options": [],
+   "answer": "5 times By repeating 5 times Yes, the complete design can be created by repeating this part 5 times.",
+   "form": "short",
+   "chapter_label": "Symmetry",
+   "concept_label": "Geometry | Line of Symmetry",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Mani says, “You can have a shape smaller than the one below to make the design.”",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1309",
+   "stem": "Do you agree? Justify your response.",
+   "context": "Mani says, “You can have a shape smaller than the one below to make the design.”",
+   "context_own": false,
+   "options": [],
+   "answer": "Yes, one hexagonal part can be repeated to generate the whole design. Any explanation where a sector of 60 degrees is discussed to generate a figure by repeated use. Ÿ Yes, we can reflect the part horizontally and then reflecting the joined parts vertically.",
+   "form": "short",
+   "chapter_label": "Symmetry",
+   "concept_label": "Geometry | Line of Symmetry",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1310",
+   "stem": "How many lines of symmetry are in a circle?",
+   "context": "Mani says, “You can have a shape smaller than the one below to make the design.”",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "Zero"
+    },
+    {
+     "label": "B",
+     "text": "Two"
+    },
+    {
+     "label": "C",
+     "text": "Six"
+    },
+    {
+     "label": "D",
+     "text": "Infinite"
+    }
+   ],
+   "answer": "D. Infinite",
+   "form": "mcq",
+   "chapter_label": "Symmetry",
+   "concept_label": "Geometry | Line of Symmetry",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 14 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 100",
+   "trailing": "Practical Geometry Sunita draws a line segment AB of length 16 cm. She then draws three-line segments of equal length, which cross AB as shown in the figure below. Points O, P, Q are the mid-point of line segments CD, EF and GH respectively.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1401",
+   "stem": "1 The length of line segment CD is 10 cm. What is the length of QH?",
+   "context": "Practical Geometry Sunita draws a line segment AB of length 16 cm. She then draws three-line segments of equal length, which cross AB as shown in the figure below. Points O, P, Q are the mid-point of line segments CD, EF and GH respectively.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "5cm"
+    },
+    {
+     "label": "B",
+     "text": "10 cm"
+    },
+    {
+     "label": "C",
+     "text": "15 cm"
+    },
+    {
+     "label": "D",
+     "text": "16 cm"
+    }
+   ],
+   "answer": "A. 5 cm",
+   "form": "mcq",
+   "chapter_label": "Practical Geometry",
+   "concept_label": "Geometry | A Line Segment",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1402",
+   "stem": "2 Line segments EF and GH are parallel to CD. The measure of ∠COB = 90°. Which of the following is true for line segments EF and GH?",
+   "context": "Practical Geometry Sunita draws a line segment AB of length 16 cm. She then draws three-line segments of equal length, which cross AB as shown in the figure below. Points O, P, Q are the mid-point of line segments CD, EF and GH respectively.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "EF and GH are parallel to AB"
+    },
+    {
+     "label": "B",
+     "text": "EF and GH are perpendicular to AB"
+    },
+    {
+     "label": "C",
+     "text": "The length of EF is half of the length of GH"
+    },
+    {
+     "label": "D",
+     "text": "The sum of the length of EF and GH is equal to the length of AB"
+    }
+   ],
+   "answer": "B. EF and GH are perpendicular to AB",
+   "form": "mcq",
+   "chapter_label": "Practical Geometry",
+   "concept_label": "Geometry | A Line Segment",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Jasleen draws a circle of radius 3.8 cm with centre C. She wants to draw a perpendicular bisector to the chord AB.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1403",
+   "stem": "Which of the following cannot be true for the perpendicular bisector of the chord?",
+   "context": "Jasleen draws a circle of radius 3.8 cm with centre C. She wants to draw a perpendicular bisector to the chord AB.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "It passes through C"
+    },
+    {
+     "label": "B",
+     "text": "It divides AB into two equal parts"
+    },
+    {
+     "label": "C",
+     "text": "It makes a right angle with base AB"
+    },
+    {
+     "label": "D",
+     "text": "Its length is greater than 7.6 cm"
+    }
+   ],
+   "answer": "D. Its length can be greater than 7.6 cm",
+   "form": "mcq",
+   "chapter_label": "Practical Geometry",
+   "concept_label": "Geometry | Radius of a Circle",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Jasleen adds a line segment RQ to the circle. The length of RQ is equal to the length of AB.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1404",
+   "stem": "4 Is RQ a chord of the circle? Give a reason to justify your answer.",
+   "context": "Jasleen adds a line segment RQ to the circle. The length of RQ is equal to the length of AB.",
+   "context_own": true,
+   "options": [],
+   "answer": "No, RQ is not a chord of the circle with valid reasoning. Ÿ No, RQ is not a chord because both end point R does not lie on the circle.",
+   "form": "short",
+   "chapter_label": "Practical Geometry",
+   "concept_label": "Geometry | Chord of a Circle",
+   "competency": "Formulate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 14 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 101",
+   "trailing": "Bhupesh says, “QS is the line of symmetry for ∠PQR.” Angad says, “QT is the line of symmetry for ∠PQR.”",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1405",
+   "stem": "Who is correct? Give a reason to justify your answer.",
+   "context": "Bhupesh says, “QS is the line of symmetry for ∠PQR.” Angad says, “QT is the line of symmetry for ∠PQR.”",
+   "context_own": false,
+   "options": [],
+   "answer": "Bhupesh is correct with valid justification Ÿ Bhupesh is correct because ∠PQS = ∠SQR and QS is common to both. That is why QS is the line of symmetry for ∠PQR as QS bisects ∠PQR.",
+   "form": "short",
+   "chapter_label": "Practical Geometry",
+   "concept_label": "Geometry | A Line of Symmetry",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1406",
+   "stem": "6 What is the measure of ∠PQT?",
+   "context": "Bhupesh says, “QS is the line of symmetry for ∠PQR.” Angad says, “QT is the line of symmetry for ∠PQR.”",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "20°"
+    },
+    {
+     "label": "B",
+     "text": "30°"
+    },
+    {
+     "label": "C",
+     "text": "60°"
+    },
+    {
+     "label": "D",
+     "text": "90°"
+    }
+   ],
+   "answer": "B. 30°",
+   "form": "mcq",
+   "chapter_label": "Practical Geometry",
+   "concept_label": "Geometry | A Line of Symmetry",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "Jeenal draws an angle.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1407",
+   "stem": "What is the measure of ∠BOA?",
+   "context": "Jeenal draws an angle.",
+   "context_own": false,
+   "options": [
+    {
+     "label": "A",
+     "text": "30°"
+    },
+    {
+     "label": "B",
+     "text": "45°"
+    },
+    {
+     "label": "C",
+     "text": "60°"
+    },
+    {
+     "label": "D",
+     "text": "90°"
+    }
+   ],
+   "answer": "C. 60°",
+   "form": "mcq",
+   "chapter_label": "Practical Geometry",
+   "concept_label": "Geometry | A Line of Symmetry",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1408",
+   "stem": "Two circles C1 and C2 are drawn from the same centre. The diameter of C1 is 6 cm, which is one-third of the diameter of C2. What is the length of the radius of C2?",
+   "context": "Jeenal draws an angle.",
+   "context_own": true,
+   "options": [
+    {
+     "label": "A",
+     "text": "2 cm"
+    },
+    {
+     "label": "B",
+     "text": "3 cm"
+    },
+    {
+     "label": "C",
+     "text": "9 cm"
+    },
+    {
+     "label": "D",
+     "text": "18 cm"
+    }
+   ],
+   "answer": "C. 9 cm",
+   "form": "mcq",
+   "chapter_label": "Practical Geometry",
+   "concept_label": "Geometry | Radius of a circle",
+   "competency": "Employ",
+   "item_type": "Multiple Choice Question",
+   "no_credit": "Any other response or missing response Curriculum Aligned Competency Based Test Items Mathematics Class 6 - Chapter 14 Copyright (c) 2021 CBSE and Sri Aurobindo Society All Rights Reserved Page 102",
+   "trailing": "Jaspreet draws 5 circles as shown in the figure below.",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1409",
+   "stem": "Jaspreet claims, “These five circles are concentric as they have a common point.” Do you agree? Give a reason to justify your answer.",
+   "context": "Jaspreet draws 5 circles as shown in the figure below.",
+   "context_own": false,
+   "options": [],
+   "answer": "No, with valid justification Ÿ No, all five circles are not concentric as they have different centres. Concentric circles have one common centre.",
+   "form": "short",
+   "chapter_label": "Practical Geometry",
+   "concept_label": "Geometry | Radius of a circle",
+   "competency": "Interpret & Evaluate",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  },
+  {
+   "code": "SAS21M06S1410",
+   "stem": "Ruby draws a line segment AB of length 12.6 cm. She further divides the line segment into equal parts such that each part is 4.2 cm long. In how many parts did Ruby divide the line segment?",
+   "context": "Jaspreet draws 5 circles as shown in the figure below.",
+   "context_own": false,
+   "options": [],
+   "answer": "3 3 parts",
+   "form": "short",
+   "chapter_label": "Practical Geometry",
+   "concept_label": "Geometry | A Line of Symmetry",
+   "competency": "Employ",
+   "item_type": "Closed Constructed Response",
+   "no_credit": "Any other response or missing response",
+   "trailing": "",
+   "needs_reading": true
+  }
+ ]
+}

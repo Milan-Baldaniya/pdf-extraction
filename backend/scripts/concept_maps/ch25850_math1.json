@@ -1,0 +1,18 @@
+{
+  "chapter_id": 25850,
+  "links": [
+    {"sha": "qid:113402", "concept_id": 31258, "note": "The false option is 'rational numbers are NOT closed under addition'; spotting it needs the fact that the sum of two rationals is always rational, which is this concept exactly."},
+    {"sha": "qid:113403", "concept_id": 31257, "note": "The false option is that natural numbers are closed under subtraction. What decides it is the which-set-is-closed-under-which-operation comparison, not the rationals-specific statement of 31259."},
+    {"sha": "qid:113404", "concept_id": 31257, "note": "True option: naturals are closed under multiplication, the other three denying closure for wholes, integers and rationals. Again the closure table across number sets."},
+    {"sha": "qid:113405", "concept_id": 31257, "note": "True option: whole numbers are not closed under division - word for word one half of this concept's statement about whole numbers."},
+    {"sha": "qid:113406", "concept_id": 31252, "note": "0 is not a natural number but is a whole number, an integer and a rational. That zero sits outside the naturals and was added to make the whole numbers is precisely this concept."},
+    {"sha": "qid:113407", "concept_id": 31256, "note": "1/2 is a rational number and none of the other three kinds; the test applied is the p/q definition of a rational number."},
+    {"sha": "qid:113408", "concept_id": 31261, "note": "a + b = b + a named as the commutative law of addition - the order-does-not-matter-for-addition statement."},
+    {"sha": "qid:113409", "concept_id": 31264, "note": "a x b = b x a, commutativity for MULTIPLICATION. The set has no multiplication-specific commutativity concept; 31264 is the one that has commutativity checked operation by operation rather than only for addition, so it and not 31261 is the home."},
+    {"sha": "qid:113410", "concept_id": 31265, "note": "(a+b)+c = a+(b+c) named as the associative law for addition - grouping either way gives the same sum."},
+    {"sha": "qid:113411", "concept_id": 31271, "note": "a(b+c) = ab+ac named as the distributive law, which is this concept's rule verbatim."},
+    {"sha": "qid:113420", "concept_id": 31262, "note": "The untrue statement is 2/3 - 5/4 = 5/4 - 2/3: one worked counterexample showing subtraction is not commutative, while the addition and multiplication options are true."},
+    {"sha": "qid:113425", "concept_id": 31256, "note": "Names the set of numbers expressible as p/q with p, q integers and q non-zero - the definition of a rational number stated back."},
+    {"sha": "qid:113427", "concept_id": 31258, "note": "Names the property behind 'the sum of any two rationals is always rational' as closure. The statement to be named is this concept's own sentence."}
+  ]
+}

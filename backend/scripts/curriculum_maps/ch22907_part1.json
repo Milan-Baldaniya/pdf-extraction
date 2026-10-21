@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22907,
+ "mappings": [
+  {"sha": "fd79739ebb39351a", "codes": ["C-2.1-LO-2"], "note": "p is recovered purely from sum of zeroes = -b/a applied to both polynomials; nothing is factorised and no new polynomial is exhibited, so LO-2 not LO-1 or LO-3"},
+  {"sha": "4592e23c9e2ab93b", "codes": ["C-2.1-LO-2"], "note": "1/alpha + 1/beta rewritten as (alpha+beta)/(alpha beta) and both read off the coefficients -- the standard LO-2 symmetric-function move"},
+  {"sha": "4ffd49bb210b3081", "codes": ["C-2.1-LO-3"], "note": "builds k[x^2 - (sum)x + product] from two given zeroes and counts how many k allows; construction from sum and product is LO-3, and the zeroes are given so nothing is found"},
+  {"sha": "2f61217d969f48e7", "codes": ["C-2.1-LO-2"], "note": "reads b = 0 off x^2 - 1 and quotes alpha + beta = -b/a; the zeroes are never computed, which keeps it out of LO-1"},
+  {"sha": "bbc369b2cd60599c", "codes": ["C-2.1-LO-3"], "note": "the solution constructs x^2 - (2-3)x + (2)(-3) from the two zeroes and matches coefficients -- the construction route (LO-3). Compare q723647, which does the same task by substitution and so is LO-1"},
+  {"sha": "802d7bdc65951124", "codes": ["C-2.1-LO-2"], "note": "equates -b/a with c/a to pin k; the item exists only to exercise the two coefficient relations"},
+  {"sha": "eff7c051b0d9f3f2", "codes": ["C-2.1-LO-2"], "note": "again (alpha+beta)/(alpha beta) from the coefficients of x^2 + 2x + 1. Item has only three options stored, D is missing"},
+  {"sha": "8a0a3725307227d0", "codes": ["C-2.1-LO-2"], "note": "bare sum of zeroes as -b/a; the simplest possible LO-2 item"},
+  {"sha": "91665d2258cd9f88", "codes": ["C-2.1-LO-1"], "note": "the whole method is substituting the given zero into p(x) and setting it to 0 -- the verifies-by-substitution half of LO-1, not a coefficient relation"},
+  {"sha": "4d1bfaa1cbc87637", "codes": ["CG-2"], "note": "degree of a cubic versus its maximum number of zeroes. No learning outcome in this frame covers degree and zero-count: C-2.2-LO-2 is explicitly about a quadratic read from a graph, and there is no graph here"},
+  {"sha": "14cbcdfc98367e59", "codes": ["C-2.1-LO-1"], "note": "p(2) = 0 solved for k; substitution again, so LO-1 rather than LO-2"},
+  {"sha": "3446d15cccdb4cb5", "codes": ["C-2.1-LO-3"], "note": "sum and product handed over and the polynomial asked for -- LO-3 word for word"},
+  {"sha": "77cd5d7ccd99de75", "codes": ["C-2.1-LO-2"], "note": "reciprocal zeroes force alpha x 1/alpha = c/a = 1; it is the product relation that does the work, so LO-2"},
+  {"sha": "d0e8e1a3a112ec1c", "codes": ["C-2.1-LO-1"], "note": "each candidate zero is substituted and shown to give 0; verification by substitution, which is LO-1"},
+  {"sha": "bddfa8ca5942bfad", "codes": ["C-2.1-LO-1"], "note": "both quadratics are factorised and their zeroes compared for a common value -- finds zeroes by factorisation, LO-1"},
+  {"sha": "3e851713e2d9e6ec", "codes": ["C-2.1-LO-2"], "note": "a symmetric expression in the zeroes evaluated from -b/a and c/a; no zero is ever found"},
+  {"sha": "bc5e1d411ec6f7b3", "codes": ["CG-2"], "note": "sign of a degree-8 polynomial for all real x. Not a zero, not a coefficient relation, not a graph -- no outcome in this frame reaches it, so the goal-level code is the only honest cite"},
+  {"sha": "95bad03bf90dafa0", "codes": ["CG-2"], "note": "minimum value by completing the square. This is the vertex of the parabola, not its zeroes, and C-2.2-LO-2 is about how many zeroes a graph shows; the frame has no outcome for extreme values"},
+  {"sha": "7fac20ca26462b5e", "codes": ["C-2.1-LO-2"], "note": "sum of zeroes as -b/a, applied to a cubic. LO-2 names only the quadratic case, so the cubic extension is a mild stretch but it is unmistakably the same relation"},
+  {"sha": "90e3f6037fc9e7ae", "codes": ["C-2.1-LO-2"], "note": "(alpha-beta)^2 expanded as (alpha+beta)^2 - 4 alpha beta and both substituted from the coefficients; pure LO-2"},
+  {"sha": "31aabb3ca54f5e77", "codes": ["C-2.1-LO-1"], "note": "f(-3) = 0 solved for k -- substitution, so LO-1 rather than the reciprocal/sum items around it"},
+  {"sha": "e0a20bc6b74803f7", "codes": ["C-2.1-LO-3"], "note": "constructs x^2 - (sum)x + product from two given zeroes, then matches the scaled option; LO-3"},
+  {"sha": "3076506025ba762a", "codes": ["C-2.1-LO-2"], "note": "signs of both zeroes deduced from the sign of -b/a and of c/a without solving; the qualitative use of LO-2"},
+  {"sha": "7d379df0ecdaad30", "codes": ["C-2.1-LO-2"], "note": "case split on the sign of k using alpha+beta = -k and alpha beta = k; again sign reasoning from the coefficient relations"},
+  {"sha": "4118c4e9c7a893b4", "codes": ["C-2.1-LO-2"], "note": "equal zeroes force alpha beta > 0, hence c/a > 0; the conclusion is about coefficients, read through the product relation"}
+ ]
+}

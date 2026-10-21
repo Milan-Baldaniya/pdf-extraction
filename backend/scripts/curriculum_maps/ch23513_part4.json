@@ -1,0 +1,16 @@
+{
+ "chapter_id": 23513,
+ "mappings": [
+  {"sha": "c736075118d1fc61", "codes": ["CG-5"], "note": "face diagonal and space diagonal of a cube, both by Pythagoras applied twice; no similar triangles, and no outcome covers the theorem"},
+  {"sha": "3b7395b713f69aeb", "codes": ["CG-5"], "note": "the two guy wires give two right triangles on a common mast; Pythagoras twice, no similarity, despite the bank tagging it 'why similarity matters'"},
+  {"sha": "d6fe4290c8a7f466", "codes": ["CG-5"], "note": "ladder problem: Pythagoras to get the ladder length, then again with the moved base. The ladder length is constant, not a scale factor, so this is not similarity"},
+  {"sha": "012f71448ba7bdd5", "codes": ["C-5.1-LO-3"], "note": "the entry point x is found by setting up similar triangles across the shore line - a real-situation distance nobody can pace out, so LO-3 rather than the criterion outcome"},
+  {"sha": "758ff0b64c7cea83", "codes": ["CG-5"], "note": "two ships on perpendicular courses: the separation is a Pythagorean hypotenuse, and the answer is a speed; no similar triangles"},
+  {"sha": "0e7b8ff00119288d", "codes": ["C-5.1-LO-3"], "note": "height of a statue from shadow lengths against a person of known height; indirect measurement by similarity"},
+  {"sha": "5ff3f9398dc8662d", "codes": ["C-5.1-LO-3", "C-5.1-LO-2"], "note": "lamp post and a walking boy's shadow - an indirect height and distance (LO-3), and part (v) explicitly asks WHICH similarity criterion was used, which is LO-2"},
+  {"sha": "e2dba8821e6b81aa", "codes": ["C-5.1-LO-3", "C-5.1-LO-2"], "note": "pole height by the mirror method (LO-3), with part (i) asking outright which criterion of similarity applies (LO-2); the reflection law supplies the equal angle"},
+  {"sha": "1cd9d8228fbfec0e", "codes": ["C-5.1-LO-3", "C-5.1-LO-2"], "note": "width of a river measured from the bank (LO-3), but the sub-parts ask which criterion applies and which of the proportions S3-S5 are correctly written, which is correspondence work (LO-2)"},
+  {"sha": "1b3a7eb312ed8260", "codes": ["C-5.1"], "note": "window dimensions from a 2:3 ratio and a given area, plus perimeter and covered area. Genuinely poor fit: no similar triangles are formed and no outcome applies - it is ratio-and-mensuration filed into Triangles. See report"},
+  {"sha": "d849d6ee2b9d9d42", "codes": ["C-5.1-LO-1"], "note": "DE parallel to BC cuts the median proportionally, which is what gives AH = 3h/4 and AJ = (2/3)AH; the centroid 2:1 ratio is handed to the student in the stem, so the mathematics being tested is the parallel-line proportion"}
+ ]
+}

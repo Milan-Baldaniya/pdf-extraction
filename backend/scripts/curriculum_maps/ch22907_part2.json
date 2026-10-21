@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22907,
+ "mappings": [
+  {"sha": "f8cda2b0fad66c74", "codes": ["C-2.1-LO-2"], "note": "zeroes opposite in sign force sum 0 hence a = 0, and product -alpha^2 hence b < 0; both conclusions come from the coefficient relations"},
+  {"sha": "758e89a5daa650a2", "codes": ["C-2.2-LO-2"], "note": "rejects a graph because it meets the x-axis three times and a quadratic cannot have three zeroes -- reasoning about how many real zeroes a quadratic graph can show, which is LO-2. LO-1 would be simply counting the zeroes of a given graph"},
+  {"sha": "db6340afbf7cdd2b", "codes": ["C-2.2-LO-2"], "note": "touching the axis once means two equal zeroes, so the graph can still be a quadratic; this is exactly the two-one-or-no-real-zeroes explanation LO-2 names"},
+  {"sha": "a5da6cbcc9a6ed73", "codes": ["CG-2"], "note": "degree of a polynomial from its highest power. No outcome in this frame mentions degree at all -- C-2.1 is zeroes and coefficients, C-2.2 is graphs -- so the goal-level cite is the honest one"},
+  {"sha": "a7cfdfdeebeabf15", "codes": ["C-2.1-LO-2"], "note": "conjugate surd zeroes pair up precisely because alpha+beta and alpha beta must match rational coefficients, so LO-2 is the relation behind it; there is no outcome for the nature of zeroes as such"},
+  {"sha": "1195e9ab30899bef", "codes": ["C-2.1-LO-2", "C-2.1-LO-1"], "note": "the assertion is settled by the product relation (LO-2) while the reason offered is the factor/substitution fact (LO-1); the item is built on telling those two routes apart, so both are cited"},
+  {"sha": "0f4dc53dec0eee4f", "codes": ["CG-2"], "note": "whether a degree-n polynomial must have n real zeroes, tested on x^3 + x. A degree-versus-real-zeroes claim with no graph; no outcome covers it, and C-2.2-LO-2 is restricted to quadratics read from a graph"},
+  {"sha": "7e9a81517a6f872a", "codes": ["C-2.1-LO-2"], "note": "zeroes equal and opposite means sum 0 = -b/a; the reason quoted is literally the LO-2 formula"},
+  {"sha": "a2dc9929586ca8e0", "codes": ["C-2.1-LO-3"], "note": "sum and product given, polynomial asked -- LO-3, no zero is computed"},
+  {"sha": "4e9a93396a753bc2", "codes": ["C-2.1-LO-2"], "note": "sum set equal to product to find k; free-response twin of the MCQ, same relation-driven outcome"},
+  {"sha": "347de2a18981b2b4", "codes": ["C-2.1-LO-2"], "note": "sum of zeroes as -b/a for 2x^2 - 13x + 6; nothing is factorised"},
+  {"sha": "bff6736d21f485ce", "codes": ["C-2.1-LO-1"], "note": "p(2) = 0 solved for k -- substitution of a given zero, the LO-1 route rather than any coefficient relation"},
+  {"sha": "ef4a2f53d6c35bfd", "codes": ["C-2.1-LO-1"], "note": "f(-3) = 0 solved for k; same substitution mechanism"},
+  {"sha": "94c3ac8793f26dc1", "codes": ["C-2.1-LO-2"], "note": "reciprocal zeroes make the product 1 = c/a; the product relation is the whole method"},
+  {"sha": "28ad6dfb406cfdb5", "codes": ["C-2.1-LO-1"], "note": "both polynomials factorised and the shared zero identified -- finding zeroes by factorisation"},
+  {"sha": "c08e6180040ac9dc", "codes": ["C-2.1-LO-2"], "note": "(alpha-beta)^2 turned into (alpha+beta)^2 - 4 alpha beta; a symmetric-function identity on the coefficient relations"},
+  {"sha": "92dd9fc374686e8c", "codes": ["C-2.1-LO-3"], "note": "two zeroes given, polynomial required; constructed as x^2 - (sum)x + product, so LO-3"},
+  {"sha": "a596f9a7604dbd06", "codes": ["C-2.2-LO-1"], "note": "counts the x-axis crossings on a supplied graph and reports the number of zeroes -- LO-1 of C-2.2 exactly, with no argument about how many a quadratic may have (that would be LO-2)"},
+  {"sha": "a6148eb4604a4e93", "codes": ["C-2.1-LO-2"], "note": "1/alpha + 1/beta - alpha beta evaluated from -b/a and c/a; no zero is found"},
+  {"sha": "526ecb4c7052f70e", "codes": ["CG-2"], "note": "lowest value of a quadratic by completing the square -- the vertex, not the zeroes. The frame has no outcome for maxima or minima of a polynomial"},
+  {"sha": "04b320e0b376d919", "codes": ["C-2.1-LO-2"], "note": "sum of the zeroes of a cubic as -b/a to find k; the relation LO-2 names, applied one degree up"},
+  {"sha": "4df0a976b9bf77c0", "codes": ["C-2.1-LO-1"], "note": "splits the middle term of 4x^2 - 12x + 9 and reads the repeated zero 3/2 -- finds zeroes by factorisation, LO-1"},
+  {"sha": "2193511890a6b2b2", "codes": ["C-2.1-LO-2"], "note": "k pinned from sum of zeroes = -b/a; nothing is factorised or constructed"},
+  {"sha": "ed47e39d8982f104", "codes": ["C-2.1-LO-2"], "note": "one zero is given and the other comes from alpha + beta = -b/a. Cited as LO-2 rather than LO-1 because no substitution into p(x) and no factorisation is used"},
+  {"sha": "6b588c8d8d431f43", "codes": ["C-2.1-LO-2"], "note": "the product of the stated zeroes a and 2/a is matched against c/a to find a; the product relation, LO-2"}
+ ]
+}

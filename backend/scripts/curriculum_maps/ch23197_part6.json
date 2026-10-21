@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23197,
+ "mappings": [
+  {
+   "sha": "94661296e203a3e8",
+   "codes": ["C-3.1-LO-3"],
+   "note": "both givens are partial sums (first 7, next 7) and the ask is the AP itself; a and d fall out of two sum equations, so LO-3 alone"
+  },
+  {
+   "sha": "ca730d4878b686ad",
+   "codes": ["C-3.1-LO-2"],
+   "note": "first-negative-term inequality on a+(n-1)d with a fractional d; the 3-mark twin of the earlier 1-mark version, same outcome"
+  },
+  {
+   "sha": "9e27bfc880968dbb",
+   "codes": ["C-3.1-LO-2"],
+   "note": "the last term gives the number of terms and the middle index is then evaluated; both steps use the nth-term formula, and no sum is asked"
+  },
+  {
+   "sha": "d272019bc9e66669",
+   "codes": ["C-3.1-LO-3"],
+   "note": "derives a closed expression for the total from first, second and last terms -- the derive half of LO-3, with n itself expressed symbolically"
+  },
+  {
+   "sha": "92eb09e23d20acc9",
+   "codes": ["C-3.1-LO-3"],
+   "note": "swapped-sums proof (Sm = n, Sn = m) resolved purely by manipulating the sum formula; no term value is computed anywhere"
+  },
+  {
+   "sha": "f88553966e733c9c",
+   "codes": ["C-3.1-LO-2"],
+   "note": "an index relation plus one known term give a and d, and the ask is the general nth term; wholly LO-2"
+  },
+  {
+   "sha": "094fb38f70b2393d",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the sum formula yields a quadratic with two admissible roots, and the graded insight is that a negative d lets both counts work; a sum-formula subtlety, so LO-3"
+  },
+  {
+   "sha": "6a3d8d920cbb6bac",
+   "codes": ["C-3.1-LO-2"],
+   "note": "asks for a specific term and the general term from two index conditions; two LO-2 demands, no sum requested"
+  },
+  {
+   "sha": "722eeb5cdba56d75",
+   "codes": ["C-3.1-LO-2"],
+   "note": "reciprocal terms at indices 7 and 9 give d = 1/63 and then a63; unusual arithmetic but the formula being exercised is a+(n-1)d"
+  },
+  {
+   "sha": "dc3c9feb6fcb6a06",
+   "codes": ["C-3.1-LO-2"],
+   "note": "two weighted index relations solved simultaneously for a and d; the givens are named terms, not partial sums, so LO-2"
+  },
+  {
+   "sha": "f6d0f4fdbf70b8b7",
+   "codes": ["C-3.1-LO-2"],
+   "note": "a8-a5 = 3d fixes d and a3 fixes a; determining the AP from indexed terms is LO-2, not the list-inspection of LO-1"
+  },
+  {
+   "sha": "08b9bf1639351dfc",
+   "codes": ["C-3.1-LO-1"],
+   "note": "the four-parts-in-AP device again (a-3d ... a+3d) so the constant step does the work and the total is just 4a; no sum or nth-term formula is applied"
+  },
+  {
+   "sha": "a4c9e06c48019d09",
+   "codes": ["C-3.1-LO-2"],
+   "note": "a fully symbolic identity in three arbitrary indices p, q, r, proved by substituting a+(k-1)D; the most abstract LO-2 item in the chapter"
+  },
+  {
+   "sha": "23a366f5616f834f",
+   "codes": ["C-3.1-LO-3"],
+   "note": "Sn given as a quadratic; the AP and the 15th term are both extracted through Sn - S(n-1), so the sum is the object under test"
+  },
+  {
+   "sha": "6750f3dd9d0dcb6c",
+   "codes": ["C-3.1-LO-2"],
+   "note": "equates the closed forms of two different APs and solves for the common index; a comparison of nth-term formulas, with no sum"
+  },
+  {
+   "sha": "3ec1e6f44b02bb29",
+   "codes": ["C-3.1-LO-3"],
+   "note": "three sums with the same first term and different d, proved to satisfy S1+S3 = 2S2; the entire item is the sum formula evaluated three ways"
+  },
+  {
+   "sha": "69fb5ef3be1e8449",
+   "codes": ["C-3.1-LO-3"],
+   "note": "an identity purely among partial sums S12, S8 and S4; nothing outside LO-3 is needed"
+  },
+  {
+   "sha": "e67bb252ce1144ff",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the only thing asked for is S20; recovering a and d from a14 = 2a8 is setup, so this is coded on the single stated demand rather than double-coded"
+  },
+  {
+   "sha": "a01c37ae8ff4ad56",
+   "codes": ["C-3.1-LO-3", "C-3.1-LO-2"],
+   "note": "the whole content is the bridge between the two formulas -- a ratio of sums converted into a ratio of mth terms by the substitution n = 2m-1; neither outcome alone accounts for it"
+  },
+  {
+   "sha": "fb90a1c65ed80f39",
+   "codes": ["C-3.1-LO-3"],
+   "note": "a fractional-coefficient Sn differenced to give an and then a20; still entirely the Sn - S(n-1) technique of LO-3"
+  },
+  {
+   "sha": "8373fb1cf0721463",
+   "codes": ["C-3.1-LO-3"],
+   "note": "one term and one partial sum give a and d, and the ask is another partial sum; the demand is a sum, so LO-3"
+  },
+  {
+   "sha": "9029ecef12aac73c",
+   "codes": ["C-3.1-LO-3"],
+   "note": "two indexed terms set up a and d but the single stated ask is S17; coded on the demand, consistent with the rest of this family"
+  },
+  {
+   "sha": "cb3efd4c463833b4",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the last term is used only to find how many terms there are before Sn = (n/2)(a+l) is applied; the ask is the sum, so LO-3"
+  },
+  {
+   "sha": "7a6e3b55050d5fb4",
+   "codes": ["C-3.1-LO-3"],
+   "note": "a13 = 4a3 with a5 = 16 fixes the AP and S10 is the single requirement; coded on the sum demand"
+  },
+  {
+   "sha": "92ae880437f88bef",
+   "codes": ["C-3.1-LO-3", "C-3.1-LO-2"],
+   "note": "shares its stem with the 'find the AP' item above but asks for a28, so a partial-sum entry must be carried through to the nth-term formula; both are separately required, which is exactly what distinguishes it from its twin"
+  }
+ ]
+}

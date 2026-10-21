@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "ca6690e8f926ca35",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-3"],
+   "note": "Halving the wire into two semicircles is the LO-3 length step, and putting them across a diameter is the LO-2 parallel step. Neither alone gives 5 ohm, so both are cited."
+  },
+  {
+   "sha": "1d4d73f695326c38",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Minimum current means series and maximum means parallel (LO-2), then I = V/R in each case (LO-1). Same structure as the 3/6 ohm item in part 9, phrased by current extremes rather than resistance extremes."
+  },
+  {
+   "sha": "f0695c64ae55f0b6",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-2", "C 2.5-LO-1"],
+   "note": "Four demands, three slots: draw the schematic (LO-5), sum the series resistances (LO-2), and compute power in one resistor (C 2.5-LO-1). The V = IR steps for (i) and (ii) are the connective tissue and were dropped under the three-code cap rather than displacing a named sub-part."
+  },
+  {
+   "sha": "ee3024450a487462",
+   "codes": ["C 2.4-LO-3", "C 2.4-LO-1"],
+   "note": "Parts (ii) and (iii) are the length-and-radius dependence, which carries most of the marks (LO-3); part (i) defines resistance and the ohm, which is LO-1. Note the stored answer also asserts R proportional to temperature, a factor LO-3 does not list."
+  },
+  {
+   "sha": "a5c13e0ea08073f7",
+   "codes": ["C 2.5-LO-2"],
+   "note": "States Joule's law and then computes heat from a transferred charge at a given PD. LO-2 owns both halves; the intermediate step converting charge to current has no outcome, the same I = Q/t gap seen throughout the chapter."
+  },
+  {
+   "sha": "9ddacc7db80d106a",
+   "codes": ["C 2.5-LO-1", "C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "R = V^2/P for each lamp (C 2.5-LO-1), reciprocal-sum for the parallel pair (LO-2), then I = V/R for the line current (C 2.4-LO-1). The ratings are the entry point, so the power outcome leads."
+  },
+  {
+   "sha": "291ba95f0d1609cb",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Monthly kWh for two appliances and the bill at a per-unit rate - the electricity-bill endpoint of LO-1. Everything else is arithmetic, so no second code."
+  },
+  {
+   "sha": "350e799e290a784b",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Both parts are meter skills: converting divisions to a current using the least count, and stating that an ammeter goes in series and a voltmeter in parallel. Entirely LO-5, with no circuit quantity derived."
+  },
+  {
+   "sha": "1fd6f4c6b90e77c1",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Two series arms reduced and then paralleled (LO-2), current from V/R (LO-1), and the answer demanded as an ammeter reading with the network visible only in the figure (LO-5)."
+  },
+  {
+   "sha": "ff18ca4545c0399f",
+   "codes": ["C 2.4-LO-1", "C 8.1"],
+   "note": "What a straight line through the origin signifies, and how to get R from its slope. LO-1 for the law; C 8.1 rather than LO-5 because the representation being interpreted is a graph, which LO-5's wording does not reach."
+  },
+  {
+   "sha": "e51b8ae33bb2920b",
+   "codes": ["C 2.4-LO-3", "C 2.5-LO-2"],
+   "note": "Parts (a) and (b) are the factors and why metals conduct but glass does not (LO-3); part (c) is alloys in heating devices (LO-2). The free-electron explanation in (b) has no outcome and rides under 'material'."
+  },
+  {
+   "sha": "5e31372419e4d6b8",
+   "codes": ["C 8.1-LO-5", "C 2.5-LO-1", "C 2.4-LO-2"],
+   "note": "Explicitly asks for a drawn circuit with ammeter and voltmeter in specified positions (LO-5); the numerical half is I = sqrt(P/R) from a power limit (C 2.5-LO-1) with the current splitting between equal parallel branches (LO-2)."
+  },
+  {
+   "sha": "5707161c3862323b",
+   "codes": ["C 2.4-LO-3"],
+   "note": "States the l and A dependence, builds R = rho*l/A, then applies it to a stretched wire at constant volume. Every step is LO-3; no circuit, current or power appears."
+  },
+  {
+   "sha": "2bdd631917984365",
+   "codes": ["C 2.4-LO-1", "C 8.1"],
+   "note": "Requires the student to plot the data and then extract R from it. C 8.1 for constructing the graphical model (LO-5 covers only circuit diagrams and meters), LO-1 for the resistance the plot yields."
+  },
+  {
+   "sha": "59cb3def3a3eea61",
+   "codes": ["C 2.5-LO-2", "C 2.5-LO-1"],
+   "note": "Coil heat equated to the heat absorbed by water: LO-2 for the heating element, LO-1 for P = V^2/R and energy = Pt. The calorimetry step (mass x specific heat x temperature rise) belongs to another chapter and is covered by no outcome in this set."
+  },
+  {
+   "sha": "00f5dede89976764",
+   "codes": ["C 2.5-LO-2", "C 2.5-LO-1", "C 2.4-LO-1"],
+   "note": "Three separable demands: state Joule's law and the heating-element requirements (LO-2), get currents from the two power ratings (C 2.5-LO-1), and resistances from R = V/I (C 2.4-LO-1)."
+  },
+  {
+   "sha": "eb438377364b2bc7",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Every number comes from the figure, so LO-5 leads; the work is the parallel pair reduced and added in series (LO-2) with V = IR used twice (LO-1). Asks for a PD across a sub-combination rather than a meter reading, which is the only difference from item 250."
+  },
+  {
+   "sha": "7327535cd3a4f24f",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Predicts both meter readings in a drawn series circuit - LO-5's second clause verbatim - via the series sum (LO-2) and V = IR across one resistor (LO-1)."
+  },
+  {
+   "sha": "c4001f0709e20844",
+   "codes": ["C 2.4"],
+   "note": "Defines the volt and then computes V = W/Q. Both halves live in the definition of potential difference, which no outcome in this set covers; citing LO-1 would imply a resistance step the item never has. Content gap."
+  },
+  {
+   "sha": "e17dd9ea16e56d2f",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Branch currents, total current and effective resistance for a parallel trio taken from the diagram. Shares all three codes with items 200 and 207 - the same question re-set with a 6 V supply, and I say so rather than inventing a distinction."
+  },
+  {
+   "sha": "1838a618c929e5b8",
+   "codes": ["C 2.4-LO-2"],
+   "note": "Which arrangement equalises voltage and which equalises current, plus both equivalent resistances. All four answers are properties of the two combinations, so LO-2 alone; the 20 V is never used."
+  },
+  {
+   "sha": "7ae6357f9bb56f51",
+   "codes": ["C 2.4-LO-1", "C 8.1"],
+   "note": "Infer proportionality, name Ohm's law, and identify the slope as resistance with its unit. LO-1 for the law and the quantity; C 8.1 for the graphical model the slope is read from."
+  },
+  {
+   "sha": "dd8a6c367b959d36",
+   "codes": ["C 2.4-LO-1", "C 8.1"],
+   "note": "States V = IR, requires the V-I graph to be drawn, then substitutes one pair of values. Mixes the stating, graphing and substituting demands that the rest of the chapter usually keeps apart, so both codes are cited."
+  },
+  {
+   "sha": "d076719d61bfddb4",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "A derivation, not a substitution: current conservation at the junction plus equal branch PD gives the reciprocal-sum rule (LO-2), with Ohm's law applied to each branch as the engine (LO-1). Cited with LO-1 precisely because the derivation, unlike the arithmetic items, cannot proceed without it."
+  },
+  {
+   "sha": "a722c9aea98a5fb1",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-3"],
+   "note": "Quartering the wire into four sides is the LO-3 length step; recombining two series arms in parallel across the diagonal is LO-2. Same pairing as the bent-circle item, one step longer."
+  }
+ ]
+}

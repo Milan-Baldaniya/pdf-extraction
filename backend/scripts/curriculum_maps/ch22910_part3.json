@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22910,
+ "mappings": [
+  {"sha": "92933fc1476554ca", "codes": ["C-2.3-LO-2"], "note": "digit-sum and interchange word problem, translated into two equations and solved by substitution; a formulation item, so LO-2 rather than LO-3"},
+  {"sha": "d76b8288af6851c6", "codes": ["C-2.2-LO-4"], "note": "the question says solve graphically -- both lines are tabulated, plotted and the intersection read as the solution; LO-4 word for word, not the algebraic LO-3"},
+  {"sha": "d67a5e7056b4e8c5", "codes": ["C-2.2-LO-4"], "note": "second graphical solve, intersection at (2, 4); same outcome"},
+  {"sha": "685596c1ca7eb336", "codes": ["C-2.2-LO-4"], "note": "third graphical solve; tables of points and the intersection point as the answer"},
+  {"sha": "f5cf3a88e1643c38", "codes": ["C-2.3-LO-2"], "note": "a fraction word problem with two conditions -- the fractions case LO-2 names"},
+  {"sha": "41cdb2a6a70b71b2", "codes": ["C-2.2-LO-4", "C-2.2-LO-5"], "note": "the pair is graphed (LO-4) and then the consistency commented on from the lines being coincident (LO-5); the question asks for both"},
+  {"sha": "97a600034dc37d6f", "codes": ["C-2.2-LO-5"], "note": "m and n chosen so all three ratios agree; a two-parameter version of the LO-5 infinitely-many condition"},
+  {"sha": "8e6114c4c3975959", "codes": ["C-2.2-LO-5"], "note": "same infinitely-many ratio condition solved for alpha and beta"},
+  {"sha": "89c14a775a3d2587", "codes": ["C-2.2-LO-5"], "note": "p for no solution, including the check that the third ratio differs; LO-5"},
+  {"sha": "f2a6095510be0b1a", "codes": ["C-2.2-LO-5"], "note": "k for no solution, with the c-ratio verified afterwards; LO-5"},
+  {"sha": "38caa2dfd41f7a6c", "codes": ["C-2.2-LO-3"], "note": "fractional coefficients cleared, then the equations subtracted -- elimination, no context and no classification"},
+  {"sha": "188b9b9d23eeb85c", "codes": ["C-2.2-LO-3"], "note": "one equation rearranged for x and substituted into the other; the substitution branch of LO-3"},
+  {"sha": "6a7d7553c9fb9f93", "codes": ["C-2.2-LO-3"], "note": "brackets cleared and the equations scaled to match coefficients before subtracting; elimination, LO-3"},
+  {"sha": "f730abeb18b13d54", "codes": ["C-2.2-LO-5"], "note": "writes a partner equation for each of the intersecting, parallel and coincident cases; the fullest use of the LO-5 ratio conditions in the chapter"},
+  {"sha": "4e2b23436eb07434", "codes": ["C-2.2-LO-3"], "note": "literal coefficients a and b eliminated by scaling both equations; still an algebraic solve, LO-3"},
+  {"sha": "b2192f0f52180acf", "codes": ["C-2.2-LO-5", "C-2.2-LO-3"], "note": "first decides there is a unique solution from a1/a2 not equal to b1/b2 (LO-5), then actually finds it by elimination (LO-3); the two-stage wording makes both genuine"},
+  {"sha": "d383ac5516a26908", "codes": ["C-2.2-LO-5"], "note": "k for infinitely many solutions from the three-way ratio equality; LO-5"},
+  {"sha": "0ba289ebc78bd66b", "codes": ["C-2.2-LO-5"], "note": "c for infinitely many solutions, the ratio condition producing a quadratic in c; still LO-5"},
+  {"sha": "bb9c394acd17d267", "codes": ["C-2.2-LO-4"], "note": "three lines drawn and their pairwise intersections read off as triangle vertices -- graphing and reading intersections, LO-4, extended to three lines"},
+  {"sha": "8c1df7580bae6960", "codes": ["C-2.2-LO-5", "C-2.2-LO-4"], "note": "the ratio test settles that there is a unique solution (LO-5) and the graph is then drawn to show it (LO-4); the word graphically plus the ratio working means both"},
+  {"sha": "c587c23113972b3e", "codes": ["C-2.3-LO-2", "C-2.2-LO-4"], "note": "an ages problem translated into a pair (LO-2) and then represented graphically (LO-4), both demanded by the wording represent algebraically and graphically"},
+  {"sha": "6e759c438763677d", "codes": ["C-2.3-LO-2", "C-2.2-LO-4"], "note": "contributions word problem formulated (LO-2) and solved by reading the intersection off the graph (LO-4), which is what find graphically requires"},
+  {"sha": "47dd7c9f19f503ce", "codes": ["C-2.2-LO-4"], "note": "graphical solve plus the vertices and area of the triangle cut off with the x-axis; the whole item lives on the drawn graph, so LO-4"},
+  {"sha": "9a511b30291f214a", "codes": ["C-2.3-LO-2", "C-2.2-LO-4"], "note": "apples-and-grapes costs formulated (LO-2) and drawn (LO-4); the graph shows parallel lines, so no solution is ever computed"},
+  {"sha": "e9e718dee6bc1819", "codes": ["C-2.2-LO-3"], "note": "a bare algebraic solve of 2x - y + 3 = 0 and 3x - 5y + 1 = 0; no context, no graph, no classification"}
+ ]
+}

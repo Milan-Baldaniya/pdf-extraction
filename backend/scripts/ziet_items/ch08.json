@@ -1,0 +1,742 @@
+{
+ "chapter": 8,
+ "chapter_id": 8603,
+ "extraction_id": 612,
+ "source_url": "https://drive.google.com/file/d/1Way6BgPcJv9aOItxq3B67EaUz58zPkk2/view",
+ "items": [
+  {
+   "number": 1,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "A theatre arranges seats in rows with 12 seats in the first row, 15 in the second, 18 in the third, and so on. If the pattern continues, how many seats will be in the 8th row?",
+   "options": [
+    {
+     "label": "A",
+     "text": "30"
+    },
+    {
+     "label": "B",
+     "text": "33"
+    },
+    {
+     "label": "C",
+     "text": "36"
+    },
+    {
+     "label": "D",
+     "text": "39"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "B) 33. The AP has a=12, d=3. a₈=12+7(3)=33.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 2,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "A student records the number of pages read each day as 8, 13, 18, 23, … . Which expression gives the number of pages read on the nth day?",
+   "options": [
+    {
+     "label": "A",
+     "text": "5n+3"
+    },
+    {
+     "label": "B",
+     "text": "5n−3"
+    },
+    {
+     "label": "C",
+     "text": "8n+5"
+    },
+    {
+     "label": "D",
+     "text": "3n+5"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "A) 5n+3. For n=1, it gives 8; each term increases by 5.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 3,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "A staircase has 5 tiles in the first step, 8 in the second, 11 in the third and so on. Which statement best explains the pattern?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Each step has 2 more tiles than the previous one"
+    },
+    {
+     "label": "B",
+     "text": "Each step has 3 more tiles than the previous one"
+    },
+    {
+     "label": "C",
+     "text": "The number of tiles doubles"
+    },
+    {
+     "label": "D",
+     "text": "The number of tiles increases by 5"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "B) Each step has 3 more tiles. The consecutive differences are 3.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 4,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "A savings plan gives ₹100 in the first week and increases the weekly amount by ₹50. Which amount is saved in the 7th week?",
+   "options": [
+    {
+     "label": "A",
+     "text": "₹350"
+    },
+    {
+     "label": "B",
+     "text": "₹400"
+    },
+    {
+     "label": "C",
+     "text": "₹450"
+    },
+    {
+     "label": "D",
+     "text": "₹500"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "C) ₹400. a₇=100+6(50)=₹400.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 5,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "A sequence is 3, 6, 12, 24, … . A student says its 10th term is 30. Which is the best reason the student is wrong?",
+   "options": [
+    {
+     "label": "A",
+     "text": "The sequence is arithmetic"
+    },
+    {
+     "label": "B",
+     "text": "Each term is obtained by adding 3"
+    },
+    {
+     "label": "C",
+     "text": "Each term is doubled, so the terms grow much faster"
+    },
+    {
+     "label": "D",
+     "text": "The first term should be 6"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "C) Each term is doubled, so the terms grow much faster. The sequence is geometric, not arithmetic.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 6,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "A pattern has 2, 5, 10, 17, 26, … objects in successive figures. Which rule fits the sequence?",
+   "options": [
+    {
+     "label": "A",
+     "text": "n²+1"
+    },
+    {
+     "label": "B",
+     "text": "n²−1"
+    },
+    {
+     "label": "C",
+     "text": "2n+1"
+    },
+    {
+     "label": "D",
+     "text": "3n−1"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "A) n²+1. For n=1,2,3,… it gives 2,5,10,17,26.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 7,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "The nth term of a sequence is 7n−2. What is the difference between its 12th and 9th terms?",
+   "options": [
+    {
+     "label": "A",
+     "text": "14"
+    },
+    {
+     "label": "B",
+     "text": "21"
+    },
+    {
+     "label": "C",
+     "text": "28"
+    },
+    {
+     "label": "D",
+     "text": "35"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "B) 21. a₁₂−a₉=(7·12−2)−(7·9−2)=21.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 8,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "A bus route has stops numbered 4, 9, 14, 19, … according to a design rule. Which number cannot occur in this sequence?",
+   "options": [
+    {
+     "label": "A",
+     "text": "24"
+    },
+    {
+     "label": "B",
+     "text": "29"
+    },
+    {
+     "label": "C",
+     "text": "34"
+    },
+    {
+     "label": "D",
+     "text": "36"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "D) 36. The terms are 4+5k, so 36 is not obtained for an integer k.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 9,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "A sequence has first term 20 and common difference −3. Which term is 2?",
+   "options": [
+    {
+     "label": "A",
+     "text": "5th"
+    },
+    {
+     "label": "B",
+     "text": "6th"
+    },
+    {
+     "label": "C",
+     "text": "7th"
+    },
+    {
+     "label": "D",
+     "text": "8th"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "C) 7th. 20+(n−1)(−3)=2 gives n=7.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 10,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "The first four terms of an arithmetic progression are x, 11, 17, 23. What is x?",
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "7"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "B) 5. Since 11−x=6, x=5.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 11,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "A pattern follows 1, 4, 9, 16, 25, … . If the pattern is used for square tiles, how many tiles are needed in the 12th figure?",
+   "options": [
+    {
+     "label": "A",
+     "text": "121"
+    },
+    {
+     "label": "B",
+     "text": "132"
+    },
+    {
+     "label": "C",
+     "text": "144"
+    },
+    {
+     "label": "D",
+     "text": "169"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "C) 144. The nth term is n², so the 12th figure has 12²=144 tiles.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 12,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "In an AP, the 5th term is 18 and the 9th term is 34. What is the common difference?",
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "5"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "C) 4. a₉−a₅=4d=34−18=16, hence d=4.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 13,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "A sequence has nth term 3n+7. Which pair of consecutive terms is correct?",
+   "options": [
+    {
+     "label": "A",
+     "text": "13,16"
+    },
+    {
+     "label": "B",
+     "text": "16,19"
+    },
+    {
+     "label": "C",
+     "text": "19,23"
+    },
+    {
+     "label": "D",
+     "text": "22,26"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "B) 16,19. 3(3)+7=16 and 3(4)+7=19.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 14,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "A student wants the sum 2+5+8+…+29. Which method is most efficient?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Add all terms individually"
+    },
+    {
+     "label": "B",
+     "text": "Use the AP sum formula after finding the number of terms"
+    },
+    {
+     "label": "C",
+     "text": "Multiply 2 by 29"
+    },
+    {
+     "label": "D",
+     "text": "Find only the common difference"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "B) Use the AP sum formula after finding the number of terms. It is systematic and avoids lengthy addition.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 15,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "The sequence 50, 45, 40, 35, … represents a decreasing quantity. Which term is the first term less than 10?",
+   "options": [
+    {
+     "label": "A",
+     "text": "8th"
+    },
+    {
+     "label": "B",
+     "text": "9th"
+    },
+    {
+     "label": "C",
+     "text": "10th"
+    },
+    {
+     "label": "D",
+     "text": "11th"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "B) 9th. a₉=50+8(−5)=10, so the first term below 10 is a₁₀=5. Thus C) 10th is correct. The options test strict inequality.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 16,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "A school plants 6 trees in the first row, 10 in the second, 14 in the third and so on. How many trees are planted in the first 10 rows?",
+   "options": [
+    {
+     "label": "A",
+     "text": "220"
+    },
+    {
+     "label": "B",
+     "text": "230"
+    },
+    {
+     "label": "C",
+     "text": "240"
+    },
+    {
+     "label": "D",
+     "text": "250"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "A) 240. a=6,d=4,n=10; S₁₀=10/2[12+9(4)]=240.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 17,
+   "form": "mcq",
+   "chapter_number": 8,
+   "stem": "Two APs have the same common difference 4. Their first terms are 3 and 8. What is always true?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Their corresponding terms differ by 5"
+    },
+    {
+     "label": "B",
+     "text": "Their corresponding terms differ by 4"
+    },
+    {
+     "label": "C",
+     "text": "Their sums are equal"
+    },
+    {
+     "label": "D",
+     "text": "They eventually become identical"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "A) Corresponding terms differ by 5 because the difference of the first terms remains unchanged when equal common differences are added.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 18,
+   "form": "assertion_reason",
+   "chapter_number": 8,
+   "stem": "Assertion (A): In an AP, the difference between any two consecutive terms is constant.  Reason (R): An AP is generated by adding the same number to each term.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true, and R is the correct explanation of A."
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true, but R is not the correct explanation of A."
+    },
+    {
+     "label": "C",
+     "text": "A is true, but R is false."
+    },
+    {
+     "label": "D",
+     "text": "A is false, but R is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "A) Both are true, and R correctly explains A.",
+   "assertion": "In an AP, the difference between any two consecutive terms is constant.",
+   "reason": "An AP is generated by adding the same number to each term.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 19,
+   "form": "assertion_reason",
+   "chapter_number": 8,
+   "stem": "Assertion (A): The sequence 2, 6, 12, 20, 30 is an AP.  Reason (R): Its consecutive differences are 4, 6, 8 and 10.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true, and R is the correct explanation of A."
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true, but R is not the correct explanation of A."
+    },
+    {
+     "label": "C",
+     "text": "A is true, but R is false."
+    },
+    {
+     "label": "D",
+     "text": "A is false, but R is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "D) Assertion is false; the differences are not constant. The reason is true.",
+   "assertion": "The sequence 2, 6, 12, 20, 30 is an AP.",
+   "reason": "Its consecutive differences are 4, 6, 8 and 10.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 20,
+   "form": "very_short",
+   "chapter_number": 8,
+   "stem": "A pattern begins 14, 19, 24, 29, … . Find the 15th term and explain the step used to obtain it.",
+   "options": [],
+   "correct_option": "",
+   "answer": "a=14,d=5. a₁₅=14+14(5)=84.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 21,
+   "form": "very_short",
+   "chapter_number": 8,
+   "stem": "The 7th term of an AP is 31 and its common difference is 4. Find its first term.",
+   "options": [],
+   "correct_option": "",
+   "answer": "31=a+6(4), so a=7",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 22,
+   "form": "very_short",
+   "chapter_number": 8,
+   "stem": "A delivery service charges ₹60 on day 1 and increases the charge by ₹15 each day. Find the charge on day 12.",
+   "options": [],
+   "correct_option": "",
+   "answer": "a₁₂=60+11(15)=225. Charge = ₹225.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 23,
+   "form": "very_short",
+   "chapter_number": 8,
+   "stem": "For the AP 7, 12, 17, …, which term is 92? Show your reasoning.",
+   "options": [],
+   "correct_option": "",
+   "answer": "92=7+(n−1)5. Thus 85=5(n−1), n−1=17, n=18.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 24,
+   "form": "very_short",
+   "chapter_number": 8,
+   "stem": "A sequence has nth term 5n−1. Find the 20th term and the difference between two consecutive terms.",
+   "options": [],
+   "correct_option": "",
+   "answer": "a₂₀=5(20)−1=99. Consecutive terms differ by 5.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 25,
+   "form": "short",
+   "chapter_number": 8,
+   "stem": "A school auditorium has 18 seats in the first row, 22 in the second, 26 in the third, and so on. Find the number of seats in the 15th row and the total seats in the first 15 rows.",
+   "options": [],
+   "correct_option": "",
+   "answer": "a=18,d=4,n=15. a₁₅=18+14(4)=74. S₁₅=15/2(18+74)=690 seats.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 26,
+   "form": "short",
+   "chapter_number": 8,
+   "stem": "A student saves ₹200 in the first month and increases the saving by ₹75 every month. How much is saved in the 12th month? Also find the total saving in 12 months.",
+   "options": [],
+   "correct_option": "",
+   "answer": "a=200,d=75,n=12. a₁₂=200+11(75)=1025. S₁₂=12/2(200+1025)=7350. Total saving = ₹7,350.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 27,
+   "form": "short",
+   "chapter_number": 8,
+   "stem": "The 4th term of an AP is 17 and the 10th term is 41. Find the first term, common difference, and 20th term.",
+   "options": [],
+   "correct_option": "",
+   "answer": "a+3d=17 and a+9d=41. Subtracting gives 6d=24, d=4. Then a=5. a₂₀=5+19(4)=81.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 28,
+   "form": "short",
+   "chapter_number": 8,
+   "stem": "A sequence has first term 35 and common difference −4. Determine whether 3 is a term of the sequence. Give a reason.",
+   "options": [],
+   "correct_option": "",
+   "answer": "aₙ=35−4(n−1). Set equal to 3: 35−4(n−1)=3, so 4(n−1)=32 and n=9. Therefore 3 is the 9th term.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 29,
+   "form": "short",
+   "chapter_number": 8,
+   "stem": "The numbers of books read by five students form the AP 3, 7, 11, 15, … . How many books would the 20th student have read according to the pattern? What is the total for the first 20 students?",
+   "options": [],
+   "correct_option": "",
+   "answer": "a=3,d=4,n=20. a₂₀=3+19(4)=79. S₂₀=20/2(3+79)=820 books.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 30,
+   "form": "short",
+   "chapter_number": 8,
+   "stem": "A designer makes triangular arrangements using 1, 3, 6, 10, 15, … tiles. The differences are 2, 3, 4, 5, … . Is this sequence an AP? Explain, and predict the next two terms.",
+   "options": [],
+   "correct_option": "",
+   "answer": "No. Differences are 2,3,4,5,…, not constant. The next differences are 6 and 7, so the next terms are 21 and 28.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 31,
+   "form": "long",
+   "chapter_number": 8,
+   "stem": "A stadium has 25 seats in the first row and each next row has 6 more seats than the previous row. There are 18 rows. Find (i) seats in the last row, (ii) total seats, and (iii) whether the stadium can seat 1,000 people if every seat is occupied.",
+   "options": [],
+   "correct_option": "",
+   "answer": "a=25,d=6,n=18. (i) a₁₈=25+17(6)=127. (ii) S₁₈=18/2(25+127)=1368. (iii) 1368>1000, so yes, it can seat 1,000 people, with 368 seats to spare.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 32,
+   "form": "long",
+   "chapter_number": 8,
+   "stem": "A charity collects ₹500 in week 1 and increases the collection by ₹125 each week for 16 weeks. Find the collection in week 16 and the total collection. If the target is ₹25,000, determine whether the target is met and by how much.",
+   "options": [],
+   "correct_option": "",
+   "answer": "a=500,d=125,n=16. a₁₆=500+15(125)=2375. S₁₆=16/2(500+2375)=23000. Target 25000 is not met; shortfall = ₹2,000.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 33,
+   "form": "long",
+   "chapter_number": 8,
+   "stem": "In an AP, the sum of the first 10 terms is 230 and the 10th term is 41. Find the first term and common difference. Then find the 20th term.",
+   "options": [],
+   "correct_option": "",
+   "answer": "S₁₀=230, a₁₀=41. 10/2(a+41)=230, so a+41=46 and a=5. Then 41=5+9d, so d=4. a₂₀=5+19(4)=81.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 34,
+   "form": "long",
+   "chapter_number": 8,
+   "stem": "A game awards points in levels according to 7, 12, 17, … . A player completes 25 levels. Find the total points earned. If the player needs at least 2,000 points, how many additional complete levels are needed?",
+   "options": [],
+   "correct_option": "",
+   "answer": "a=7,d=5,n=25. S₂₅=25/2[14+24(5)]=25/2(134)=1675. Need 325 more. After 5 more levels: a₂₆=132, a₂₇=137, a₂₈=142, a₂₉=147, a₃₀=152. Extra total for levels 26–30 = 710, so the target is first crossed at level 30. Thus 5 additional complete levels are needed.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 35,
+   "form": "case_study",
+   "chapter_number": 8,
+   "stem": "A school creates a stepped flower bed. The first row contains 9 plants, the second 13, the third 17, and so on. (a) Identify the first term and common difference. (b) Find the number of plants in the 12th row. (c) Find the total number of plants in the first 12 rows.",
+   "options": [],
+   "correct_option": "",
+   "answer": "(a) a=9,d=4. (b) a₁₂=9+11(4)=53. (c) S₁₂=12/2(9+53)=372 plants.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 36,
+   "form": "case_study",
+   "chapter_number": 8,
+   "stem": "A mobile learning app awards 20 points on the first day of a challenge and increases the daily award by 10 points. A learner completes 15 days. (a) Find the points on day 15. (b) Find the total points earned in 15 days. (c) The learner needs 1,500 points. Does the learner reach the target? If not, how many more points are needed?",
+   "options": [],
+   "correct_option": "",
+   "answer": "(a) a₁₅=20+14(10)=160 points. (b) S₁₅=15/2(20+160)=1350 points. (c) No. Shortfall = 1500−1350=150 points.",
+   "concept": "",
+   "needs_reading": true
+  },
+  {
+   "number": 37,
+   "form": "case_study",
+   "chapter_number": 8,
+   "stem": "A theatre has 30 seats in the first row, 34 in the second, 38 in the third, and the pattern continues for 20 rows. (a) Find the number of seats in the 20th row. (b) Find the total number of seats. (c) If 750 people arrive, can everyone be seated? Justify using the total.",
+   "options": [],
+   "correct_option": "",
+   "answer": "(a) a₂₀=30+19(4)=106 seats. (b) S₂₀=20/2(30+106)=1360 seats. (c) Yes. 1360−750=610 seats remain.",
+   "concept": "",
+   "needs_reading": true
+  }
+ ]
+}

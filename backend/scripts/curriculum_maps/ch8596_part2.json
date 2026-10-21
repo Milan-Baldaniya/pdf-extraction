@@ -1,0 +1,31 @@
+{
+ "chapter_id": 8596,
+ "mappings": [
+  {"sha": "e6e74235d6bceed8", "codes": ["C-2.1-LO-3"],
+   "note": "the contradiction proof run on root 5 instead of root 2 - literally LO-3's 'extends the argument to other square roots'"},
+  {"sha": "b6f4ab0212028cc8", "codes": ["C-1.1", "C-2.1-LO-3"],
+   "note": "expanding a product of surds has no outcome at all, so C-1.1 ('the set of real numbers and its properties') carries it; the closing judgement rests on root 10 being irrational, which is LO-3"},
+  {"sha": "b8f0dae0da1cdce0", "codes": ["C-2.1-LO-4"],
+   "note": "the Pythagorean construction of root 3 on the number line, which is LO-4 by name; it proves nothing about irrationality, so not LO-3"},
+  {"sha": "10dfdd898d8ccbe4", "codes": ["C-1.1"],
+   "note": "successive magnification to locate a terminating decimal; LO-4 of C-2.1 is limited to the root-2 and root-3 constructions and C-1.1-LO-3 is about producing a number between two, so no outcome fits - poor fit, recorded"},
+  {"sha": "39f2a81831b9d105", "codes": ["C-1.1"],
+   "note": "an algebraic identity proof (squaring a zero sum) whose only number-system content is that a sum of rational squares vanishes term by term; no outcome covers it - poor fit, recorded"},
+  {"sha": "6c16e572468b09f2", "codes": ["C-1.1-LO-5"],
+   "note": "a mixed recurring decimal converted with the 10x and 1000x pair - LO-5, and harder than item 12 because the non-recurring digit shifts the multiplier"},
+  {"sha": "edc2c05629c9dc2b", "codes": ["C-1.1-LO-3"],
+   "note": "proves density in general by showing the mean of two rationals lies between them, where items 14 and 24 only produce instances; same LO-3, at the proving end"},
+  {"sha": "00c0508c33d19646", "codes": ["C-2.1-LO-3", "C-2.1-LO-4"],
+   "note": "part (b) judges 5-root-2 irrational (LO-3) and part (c) places it on the number line (LO-4); part (a) is a Pythagoras computation with no outcome in this frame"},
+  {"sha": "fd2b0117f6349182", "codes": ["C-2.1-LO-3", "C-1.1-LO-4"],
+   "note": "parts (a), (b) and (d) turn on which square roots are irrational (LO-3); part (c) is decided purely from the decimal expansion of 0.3333..., which is LO-4"},
+  {"sha": "75c6d333c2f7eaf3", "codes": ["C-1.1-LO-3"],
+   "note": "all four parts are density - the mean, a between-or-not check, four examples and the infinitude argument; nothing else in the frame is touched"},
+  {"sha": "f47b24f6e8228d5a", "codes": ["C-1.1-LO-4", "C-2.1-LO-3", "C-1.1"],
+   "note": "the R/IR tagging splits into decimal-expansion cases like 1.707007000... (LO-4) and surd cases like root 49 and root 54 over root 6 (LO-3); the rationalisation part (iii)(a) has no outcome, so C-1.1 is added"},
+  {"sha": "27fb9747db1920ea", "codes": ["C-1.1-LO-2", "C-1.1-LO-1"],
+   "note": "parts (i) and (iii)(a) are signed temperature arithmetic (LO-2); part (iii)(b), whether the naturals are closed under subtraction, is the extension story of LO-1"},
+  {"sha": "a1f7a06c00cf4aa4", "codes": ["C-1.1-LO-4"],
+   "note": "every part applies the prime-factor criterion to decide terminating versus recurring, after reduction to lowest form - LO-4 throughout; no fraction is converted, so not LO-5"}
+ ]
+}

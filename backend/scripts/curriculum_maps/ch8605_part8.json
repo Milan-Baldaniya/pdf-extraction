@@ -1,0 +1,188 @@
+{
+ "chapter_id": 8605,
+ "mappings": [
+  {
+   "sha": "153713b534b5c18a",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Base numerical via F = m(v - u)/t. The rifle context adds nothing the third law must resolve - no recoil is asked for - so no LO-8, unlike L159 and L177."
+  },
+  {
+   "sha": "a360dfaa72f171ee",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "The numerical statement of the newton's definition; LO-7 covers both of its clauses at once in this item."
+  },
+  {
+   "sha": "79706ec52caebfcc",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "One-line substitution with acceleration as the unknown. Base numerical."
+  },
+  {
+   "sha": "e9551299093eaaa2",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Base numerical with the unknown at time, the same shape as N13. Still LO-7 and not LO-6 because the rearrangement ends in a value."
+  },
+  {
+   "sha": "828775466aa43ec3",
+   "codes": [
+    "C-2.1-LO-7",
+    "LO-63"
+   ],
+   "note": "Parts (i) and (ii) are base arithmetic, but part (iii) can only be answered by naming friction as a second retarding agent, which makes LO-63 graded content rather than background. That third part is why this differs from the other braking numericals."
+  },
+  {
+   "sha": "4685e8d109d6ba9c",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "A comparison, but it is settled by actually computing both forces, so LO-7 rather than LO-6. Contrast S116 (truck versus car), which is settled by proportionality alone."
+  },
+  {
+   "sha": "ffdf15e6b97a91b1",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Duplicate of L135; mapped identically rather than split on the 'tonne' versus 'metric ton' wording."
+  },
+  {
+   "sha": "83d53d2e9f7e0605",
+   "codes": [
+    "C-2.1-LO-7",
+    "C8.1"
+   ],
+   "note": "Masses are recovered from F = ma, summed, and fed back in - a small model manipulated to predict a new result (C8.1), closed with a number (LO-7). N15 is its symbolic twin and so takes LO-6 in place of LO-7."
+  },
+  {
+   "sha": "675aaad22f368f05",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Base numerical with a km/h conversion. The stem asks for the force on the tree but the answer solves for the force on the car - a third-law slip in the item itself, not a mapping decision."
+  },
+  {
+   "sha": "dbece0cc40dc5838",
+   "codes": [
+    "C-2.1-LO-8",
+    "C2.1"
+   ],
+   "note": "Solved by conservation of momentum, which no outcome covers; the principle the student is meant to invoke for recoil is the third law (LO-8), with C2.1 cited as the competency-level home for the momentum algebra. Flagged."
+  },
+  {
+   "sha": "a14213eccddc292e",
+   "codes": [
+    "C2.2",
+    "C-2.1-LO-7"
+   ],
+   "note": "Duplicate of L143 with different wording - same reasoning, same codes, same flag."
+  },
+  {
+   "sha": "303db0d2d309129b",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Exact duplicate of L147 - base numerical, a from v = u + at then F = ma. Mapped identically rather than split on the restated wording."
+  },
+  {
+   "sha": "7fa5ce1055ec9de9",
+   "codes": [
+    "C2.1"
+   ],
+   "note": "Conservation of momentum, perfectly inelastic. No outcome reaches momentum, so C2.1 is the only honest citation. Same misfit as L141."
+  },
+  {
+   "sha": "09a98f16335f8500",
+   "codes": [
+    "C2.1"
+   ],
+   "note": "Conservation of momentum in a perfectly inelastic collision, flagged alongside L141 and L162. No outcome reaches momentum, so C2.1 is the only honest code."
+  },
+  {
+   "sha": "641e8fe5349f1bde",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Base numerical with mass as the unknown: a from (v - u)/t, then m = F/a. LO-7 covers any rearrangement that ends in a value."
+  },
+  {
+   "sha": "97c829f2ce1a96db",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Single substitution; the answer's kg m/s^2 to newton step is the SI-unit clause of the same outcome, so no second code is needed."
+  },
+  {
+   "sha": "1675ac3e8ba4ba22",
+   "codes": [
+    "C-2.1-LO-7",
+    "LO-64",
+    "LO-62"
+   ],
+   "note": "The key inference is that two persons exactly cancel friction because the car moves at uniform velocity (LO-64), so the whole 0.2 m/s^2 belongs to the third person (LO-62 for apportioning), and only then F = ma. The hardest item in the numerical family and the one that most needs the extra codes."
+  },
+  {
+   "sha": "c174d00a277a1e46",
+   "codes": [
+    "C-2.1-LO-7",
+    "LO-65"
+   ],
+   "note": "A short-stopping-time force calculation in a familiar setting - the destructive counterpart of the cushioning family. Same treatment as L148 and S124."
+  },
+  {
+   "sha": "2e9b92110dc01270",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Base numerical with a momentum-change sub-part that the frame does not house; LO-7 covers the force it is used to obtain."
+  },
+  {
+   "sha": "0c779c81808886be",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Base numerical: a from (v - u)/t, then F = ma. Nothing beyond the arithmetic is graded, so no friction, graph or third-law code is added."
+  },
+  {
+   "sha": "f2af7e829f2f60e7",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Base numerical. LO-63 is deliberately NOT added: neither stem nor answer names friction, the braking force is simply computed. L154 does raise friction explicitly and so earns it."
+  },
+  {
+   "sha": "c6ebf3ece96ad353",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Duplicate of L155 in kilograms; settled by computing both forces, so LO-7."
+  },
+  {
+   "sha": "02f6dc877a37e0df",
+   "codes": [
+    "C-2.1-LO-7",
+    "LO-63"
+   ],
+   "note": "Duplicate of L136; the value produced is a frictional force, so LO-63 stands."
+  },
+  {
+   "sha": "9b5568fb2e671914",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Duplicate of L142; momentum sub-parts unhoused, force calculation covered by LO-7."
+  },
+  {
+   "sha": "0479d503939f87fe",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Duplicate of L139. Change of momentum is unhoused in this frame and LO-7 is the nearest legal code. Flagged."
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23126,
+ "mappings": [
+  {
+   "sha": "59611cf2230c5d70",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = 0 imposed on TWO equations at once and the common value of k selected; the discriminant is applied twice and nothing is solved"
+  },
+  {
+   "sha": "47401fb1ec248570",
+   "codes": ["C-2.3-LO-5", "C-2.3-LO-3"],
+   "note": "the terms must first be collected into standard form, then D = 0 fixes k, and the stem separately asks for the roots, which come from the perfect square (2x-1)^2 = 0"
+  },
+  {
+   "sha": "0f0c5094b3ddee5c",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = 0 with all three coefficients depending on k produces a quadratic in k with two answers; only k is asked for, so no solving outcome is engaged"
+  },
+  {
+   "sha": "801b6ffb4007c919",
+   "codes": ["C-2.3-LO-5"],
+   "note": "equal roots is the hypothesis and D = 0 is expanded into a perfect square in (2a-b-c); a discriminant proof of a coefficient relation"
+  },
+  {
+   "sha": "6d580c35475044a5",
+   "codes": ["C-2.3-LO-5"],
+   "note": "proves D = -4(ad-bc)^2 is strictly negative, so NO real roots exist; the negative-discriminant case of the same proof family as the equal-roots items"
+  },
+  {
+   "sha": "c8c96f62c41cb8d2",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = 0 yields c^2 - 2c - 3 = 0 and both values of c are kept; a straightforward equal-roots parameter item with no admissibility filter"
+  },
+  {
+   "sha": "47a27dc0cb8e5efd",
+   "codes": ["C-2.3-LO-3"],
+   "note": "the rational equation collapses to x^2 + (a+b)x + ab = 0, which factorises as (x+a)(x+b); factorisation with symbolic coefficients, no formula needed"
+  },
+  {
+   "sha": "b93950378e059f5b",
+   "codes": ["C-2.1-LO-5", "C-2.3-LO-5"],
+   "note": "stage one substitutes the supplied root -5 to find p, stage two imposes D = 0 on a second equation for k; two distinct outcomes, and the key silently reads the first constant as -15 against the printed +15 (defect reported)"
+  },
+  {
+   "sha": "768b3ca50f39c638",
+   "codes": ["C-2.3-LO-3"],
+   "note": "substituting y = 2x/(x-5) gives a factorisable quadratic in y which is then un-substituted twice; the key solves y^2 + 5y - 24 while the stem prints y^2 + y - 24 (defect reported)"
+  },
+  {
+   "sha": "6ad681512f660b6a",
+   "codes": ["C-2.3-LO-4"],
+   "note": "the cleared equation x^2 - 4x - 8 = 0 does not factorise, so the formula gives 2 +/- 2sqrt(3); LO-4, unlike the neighbouring rational equations that split cleanly"
+  },
+  {
+   "sha": "19d41a7eaa70b27c",
+   "codes": ["C-2.3-LO-3"],
+   "note": "clearing three denominators leaves an equation with x as a common factor, so the trivial root is discarded and the other read off; factorisation with symbolic coefficients"
+  },
+  {
+   "sha": "32b1a050b4b74bb2",
+   "codes": ["C-2.3-LO-3"],
+   "note": "the reciprocal substitution y + 1/y = 2 gives the perfect square (y-1)^2 = 0, a single repeated value that is then un-substituted; factorisation, and notably D is never computed despite the equal-root outcome"
+  },
+  {
+   "sha": "822e65ccc27cab5c",
+   "codes": ["C-2.3-LO-3"],
+   "note": "reduces to 3x^2 - 13x + 12 = 0 and splits as (3x-4)(x-3); the work is in clearing the fractions, the outcome is factorisation"
+  },
+  {
+   "sha": "592a0dcd161303f2",
+   "codes": ["C-2.3-LO-3"],
+   "note": "a surd quadratic split as 3x + 7x using 3 = sqrt(3)*sqrt(3); factorisation despite surd roots, so LO-3 and not LO-4"
+  },
+  {
+   "sha": "10a0502425e5f72c",
+   "codes": ["C-2.3-LO-3"],
+   "note": "two rational terms combined into 9x^2 - 34x - 8 = 0 which splits as (x-4)(9x+2); again the clearing is the labour and factorisation the finish"
+  },
+  {
+   "sha": "7ef6fa71504066c8",
+   "codes": ["C-2.3-LO-4"],
+   "note": "symbolic coefficients with the discriminant collapsing to 16a^2; the formula is what exposes that, so LO-4 rather than the difference-of-squares alternative"
+  },
+  {
+   "sha": "faee1704221b4c72",
+   "codes": ["C-2.3-LO-5", "C-2.3-LO-3"],
+   "note": "D = 0 gives p = +/-8 and the stem then demands the roots for EACH value, which come from the perfect squares (x+4)^2 and (x-4)^2; two separate asks"
+  },
+  {
+   "sha": "daa30080b195d5a8",
+   "codes": ["C-2.3-LO-5"],
+   "note": "the REAL-roots twin of the equal-roots pair item: two D >= 0 inequalities that pinch k to the single value 16; the inequality reasoning is what distinguishes it"
+  },
+  {
+   "sha": "39bd7f6c6074a5f2",
+   "codes": ["C-2.3-LO-5", "C-2.3-LO-3"],
+   "note": "D = 0 gives two values of k and the roots are then read from the perfect squares each produces; both the parameter and the roots are asked"
+  },
+  {
+   "sha": "1801ad5adb2d99c1",
+   "codes": ["C-2.1-LO-5", "C-2.3-LO-5"],
+   "note": "a supplied root of one equation fixes p, which then feeds a D = 0 condition on a second equation for k; the two-stage structure needs both outcomes"
+  },
+  {
+   "sha": "6d5f8e4c76922653",
+   "codes": ["C-2.3-LO-5", "C-2.3-LO-3"],
+   "note": "D = 0 gives p = 3 or -1, with p = -1 barred by the stem, and the resulting equation is then solved as a perfect square; parameter plus roots"
+  },
+  {
+   "sha": "8d138ed1306d0d42",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = 0 on the tangency condition of a line and circle in algebraic form; a proof item with no roots ever computed, so the discriminant alone"
+  },
+  {
+   "sha": "9e27efaa57dc7c94",
+   "codes": ["C-2.3-LO-5"],
+   "note": "the three products must be expanded into standard form before D = 0 is applied and rearranged into a sum of squares; the extra step is the expansion, the outcome is still LO-5"
+  },
+  {
+   "sha": "1094ec59c5d022f8",
+   "codes": ["C-2.3-LO-5"],
+   "note": "D = 0 factorises as 4a(a^3+b^3+c^3-3abc), so the conclusion is a disjunction; the most involved discriminant proof here, but no equation is solved"
+  },
+  {
+   "sha": "4573363d80192258",
+   "codes": ["C-2.3-LO-3"],
+   "note": "5-mark duplicate of the 1/(a+b+x) item; the same reduction to (x+a)(x+b) = 0, so the same factorisation outcome"
+  }
+ ]
+}

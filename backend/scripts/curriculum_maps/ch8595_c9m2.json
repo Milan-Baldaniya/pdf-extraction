@@ -1,0 +1,145 @@
+{
+  "chapter_id": 8595,
+  "mappings": [
+    {
+      "sha": "qid:706569",
+      "codes": ["C-8.1-LO-5"],
+      "note": "Names c in y=mx+c the y-intercept. LO-5 is the only outcome covering the y-intercept; LO-6 concerns what CHANGING the intercept does to two lines."
+    },
+    {
+      "sha": "qid:706570",
+      "codes": ["C-3.2-LO-3"],
+      "note": "Defines the case 'increases by the same fixed amount each period' as linear growth, which is LO-3's own language. Not C-3.2-LO-1: no table of values is given to test."
+    },
+    {
+      "sha": "qid:706571",
+      "codes": ["C-3.2-LO-3"],
+      "note": "Plant 12 cm growing 3 cm a week is modelled as 3w+12 and used at w=8 -- a rising-quantity model, LO-3. The prediction step is subordinate to building the growth model."
+    },
+    {
+      "sha": "qid:706572",
+      "codes": ["C-3.2-LO-3"],
+      "note": "Tests the classic linear-growth misconception (doubling time doubles the quantity, which fails whenever the intercept is non-zero). That is knowing what a linear-growth model does, LO-3, not slope-reading."
+    },
+    {
+      "sha": "qid:706573",
+      "codes": ["C-8.1-LO-4"],
+      "note": "'The graph of a linear polynomial is always a straight line' is the second clause of LO-4 -- why the points lie on a straight line. LO-5 would require slope or intercept to be read."
+    },
+    {
+      "sha": "qid:706574",
+      "codes": ["C-8.1-LO-4"],
+      "note": "Builds a three-row table for y=3x-2 and describes the resulting graph: LO-4's 'draws the graph of a linear relationship from a table of values' precisely."
+    },
+    {
+      "sha": "qid:706575",
+      "codes": ["C-8.1-LO-4"],
+      "note": "Both statements concern the straight-line/y=mx+c correspondence, which is LO-4's territory. Cited to LO-4 rather than LO-5 because the claim under test is about lines as a class, not about reading one line's slope."
+    },
+    {
+      "sha": "qid:706576",
+      "codes": ["C-8.1-LO-4"],
+      "note": "'Two points are enough to draw a linear graph' is a fact about constructing the graph, LO-4. Nothing is interpreted, so not LO-5."
+    },
+    {
+      "sha": "qid:706577",
+      "codes": ["C-8.1-LO-6"],
+      "note": "Two lines with the same slope 2 and different intercepts, and the comparison is the point of the item -- LO-6 ('same slope give parallel lines ... effect of changing the intercept'). LO-4 covers only the table-to-graph step, which is here just the method."
+    },
+    {
+      "sha": "qid:706578",
+      "codes": ["C-8.1-LO-4"],
+      "note": "A construction task: table, plot, draw and label y=2x-4, marking both axis crossings. LO-4 is the drawing outcome; the intercepts are marked, not interpreted, so LO-5 is not the target."
+    },
+    {
+      "sha": "qid:706579",
+      "codes": ["C-8.1-LO-6"],
+      "note": "Equal slopes imply parallel -- the first clause of LO-6 verbatim."
+    },
+    {
+      "sha": "qid:706580",
+      "codes": ["C-8.1-LO-6"],
+      "note": "Asks WHY equal slopes with unequal intercepts never meet (constant non-zero vertical gap). LO-6 asks for exactly that explanation, where LO-5 would only require naming the slope."
+    },
+    {
+      "sha": "qid:706581",
+      "codes": ["C-8.1-LO-6"],
+      "note": "Assesses the converse error: same intercept does not force the same line. LO-6's 'predicts the effect of changing the intercept' is the outcome being probed, with slope held as the discriminator."
+    },
+    {
+      "sha": "qid:706582",
+      "codes": ["C-8.1-LO-6"],
+      "note": "Different slopes must intersect exactly once -- the contrapositive of LO-6's parallel-lines statement. Still LO-6 and not LO-5, because two lines are compared."
+    },
+    {
+      "sha": "qid:706583",
+      "codes": ["C-8.1-LO-6", "C-8.1-LO-5"],
+      "note": "Three lines on one diagram, two parallel and one with opposite slope, used to explain what slope and intercept each control. LO-6 for the parallel pair and the intercept shift; LO-5 for the 'what does each number control' reading. LO-4 is only the drawing method."
+    },
+    {
+      "sha": "qid:706584",
+      "codes": ["C-8.1-LO-5"],
+      "note": "Reads the meaning of a negative slope (y falls as x rises) for a single line -- slope interpretation, LO-5. Cited here rather than LO-3 because no real situation is attached to make it a decay model."
+    },
+    {
+      "sha": "qid:706585",
+      "codes": ["C-3.2-LO-3"],
+      "note": "500-25t is linear decay, which LO-3 names, and the second half asks for the domain limit t<=20 where the model stops describing the tank. That is modelling judgement, not graph reading."
+    },
+    {
+      "sha": "qid:706586",
+      "codes": ["C-2.1-LO-2"],
+      "note": "Screens candidates for whether they are polynomials in one variable at all -- LO-2's distinguishing test. LO-1 assumes you already have a polynomial and asks its degree."
+    },
+    {
+      "sha": "qid:706587",
+      "codes": ["C-3.2-LO-1", "C-8.1-LO-5"],
+      "note": "Links the constant first difference in a table (LO-1's test) to the slope of the line (LO-5). The item exists to connect the two, so both are cited rather than choosing one."
+    },
+    {
+      "sha": "qid:706588",
+      "codes": ["C-3.2-LO-1"],
+      "note": "Differences 4,4,5,4: apply the constant-difference test and reject linearity. This is LO-1 exactly; no rule ax+b is asked for, so not LO-2."
+    },
+    {
+      "sha": "qid:706589",
+      "codes": ["C-3.2-LO-1"],
+      "note": "Method question on deciding linearity from a table, including unequal x-spacing and measurement noise -- an extended form of LO-1's difference test."
+    },
+    {
+      "sha": "qid:706590",
+      "codes": ["C-3.2-LO-3"],
+      "note": "Fixed 30 plus 12 per km written as 12d+30: building a linear model of a charging situation, LO-3. Nothing is predicted or interpreted, so not LO-2 or LO-5."
+    },
+    {
+      "sha": "qid:706591",
+      "codes": ["C-3.2"],
+      "note": "Competency: two competing linear models are equated (200+2n = 100+4n), solved, and a recommendation is drawn for each side of n=50. That 'draws conclusions about a situation being modelled' clause is in the competency, not in any single LO; LO-3 stops at writing one model."
+    },
+    {
+      "sha": "qid:706592",
+      "codes": ["C-2.1-LO-1", "C-8.1-LO-4", "C-8.1-LO-5"],
+      "note": "A three-part synthesis: what a linear polynomial is (degree one, a!=0 -- LO-1), that its graph is a straight line (LO-4), and what slope and intercept mean in a real situation (LO-5). Each part carries its own marks."
+    },
+    {
+      "sha": "qid:706593",
+      "codes": ["C-8.1-LO-5", "C-3.2"],
+      "note": "P=150n-9000 analysed: the 150 as contribution per item and -9000 as fixed cost is LO-5 interpretation; the break-even calculation is the competency's solve-and-conclude step, which no LO here covers."
+    },
+    {
+      "sha": "qid:706594",
+      "codes": ["C-3.2-LO-2"],
+      "note": "Assembles y=-2x+7 from the given intercept and slope and then inverts it to find x when y=1 -- writing the rule and using it, LO-2. LO-5 would apply if the slope or intercept had to be read off instead of being handed over."
+    },
+    {
+      "sha": "qid:706595",
+      "codes": ["C-3.2"],
+      "note": "Competency: the equation to be solved, (4n+500)/n = 6, is not linear, so no linear-polynomial LO applies; it is a contextualised problem solved with an equation, which is what C-3.2 states."
+    },
+    {
+      "sha": "qid:706596",
+      "codes": ["C-3.2-LO-1", "C-3.2-LO-2"],
+      "note": "Proves the converse direction of the difference test -- constant first difference over equal steps implies the relation is linear (LO-1's criterion) and yields a rule of the form ax+b (LO-2). Cited to the two algebra LOs rather than CG-2, whose proof examples are about numbers, not about tabulated relations."
+    }
+  ]
+}

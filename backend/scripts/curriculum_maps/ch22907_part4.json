@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22907,
+ "mappings": [
+  {"sha": "980e0676482e4945", "codes": ["C-2.1-LO-1", "C-2.1-LO-2"], "note": "show they are zeroes is substitution (LO-1); verify the relationship is the coefficient check (LO-2). Both halves are stated in the question"},
+  {"sha": "8e0cc44253387a5f", "codes": ["CG-2"], "note": "sorts ten expressions into polynomials and non-polynomials and counts the quadratics. This is the definition and degree of a polynomial -- no learning outcome in this frame touches either, so only the goal-level code fits"},
+  {"sha": "2ff3dfdb57bd2b7d", "codes": ["C-2.1-LO-1", "C-2.1-LO-2"], "note": "splits the middle term of 5x^2 + 8x - 4 (LO-1) and then checks sum and product against the coefficients (LO-2)"},
+  {"sha": "4dc0534ce29d4cd4", "codes": ["C-2.1-LO-1", "C-2.1-LO-2"], "note": "factorises x(x - 2 root2) for the zeroes (LO-1) and verifies both relations, including the product being 0 (LO-2)"},
+  {"sha": "46fdf43764603b13", "codes": ["C-2.1-LO-3"], "note": "solves the sum/difference pair for the two zeroes, then builds x^2 - 24x + 128; the deliverable is the polynomial, so LO-3"},
+  {"sha": "af5986412489dacc", "codes": ["C-2.1-LO-2"], "note": "uses all three cubic coefficient relations to evaluate the sum of reciprocals. LO-2 states only the quadratic pair, so the cubic symmetric functions are an extension of it -- the nearest outcome by a wide margin"},
+  {"sha": "eab198a15f9ad307", "codes": ["C-2.3-LO-1"], "note": "recovers the divisor from dividend = divisor x quotient + remainder, finishing by factorising x^2 + 7x + 10. The division algorithm has no outcome in this frame; the factorised-form link in C-2.3-LO-1 is the only part of it any outcome names"},
+  {"sha": "b13bbd9941f03361", "codes": ["C-2.3-LO-1"], "note": "x + 7 is a factor exactly when -7 is a zero -- the factor-root equivalence LO-1 of C-2.3 states, here on a quartic. Cited over C-2.1-LO-1 because the question is about divisibility, not about finding zeroes"},
+  {"sha": "a1e2a71f2f584ab9", "codes": ["CG-2"], "note": "g(x) recovered by dividing a quartic by a quadratic. Nothing factorises to roots and no zero appears, so even C-2.3-LO-1 does not reach it; the division algorithm is simply absent from this frame"},
+  {"sha": "2c016dc88848cc44", "codes": ["C-2.1-LO-2"], "note": "(alpha-beta)^2 = (alpha+beta)^2 - 4 alpha beta with both substituted from coefficients; the long-form twin of the MCQ, same outcome"},
+  {"sha": "a5e2e3e4f822ac32", "codes": ["C-2.3-LO-1"], "note": "the divisor is factorised into (x+4)(x+3), its roots forced to be zeroes of f, and p and q solved for -- the factorised-form-to-roots link driving a divisibility condition"},
+  {"sha": "b9e1f2b0db0128d3", "codes": ["C-2.1-LO-2"], "note": "the given relation is rewritten as (alpha+beta)^2 - alpha beta and evaluated from the coefficients to find k"},
+  {"sha": "7aa6b0d28bd32704", "codes": ["C-2.1-LO-1", "C-2.1-LO-2"], "note": "clears fractions, splits the middle term for the zeroes (LO-1), then verifies both coefficient relations (LO-2)"},
+  {"sha": "882d2d17c8483bb1", "codes": ["C-2.1-LO-2", "C-2.1-LO-3"], "note": "the transformed zeroes have their sum and product computed symbolically (LO-2) before the new polynomial is assembled (LO-3)"},
+  {"sha": "0c85554bc4a8c604", "codes": ["C-2.1-LO-2", "C-2.1-LO-3"], "note": "same two-stage shape on 1 + beta/alpha and 1 + alpha/beta; relations first, construction second"},
+  {"sha": "80a20553d6deaef5", "codes": ["C-2.1-LO-2"], "note": "reciprocal zeroes fix a through the product relation, then the sum relation gives a quadratic in beta; entirely coefficient relations, no construction asked"},
+  {"sha": "dd5bbae98748bbe6", "codes": ["C-2.1-LO-2"], "note": "five symmetric expressions in the zeroes, all evaluated from -b/a and c/a; the zeroes are complex and deliberately never found, which rules LO-1 out"},
+  {"sha": "472e772579f0e98e", "codes": ["C-2.1-LO-2"], "note": "the sum relation plus the given difference give both zeroes, then the product relation gives k; LO-2 throughout"},
+  {"sha": "9268807bedb27035", "codes": ["C-2.1-LO-2"], "note": "same sum-and-difference method to recover k from the product; short twin of q723666"},
+  {"sha": "71769c6850ac63b8", "codes": ["CG-2", "C-2.3-LO-1"], "note": "builds a cubic volume model from a verbal description, which no outcome covers (CG-2), then solves x^3 + x^2 - 6x = 18 by locating a root (C-2.3-LO-1)"},
+  {"sha": "3f5e16cf89074ac8", "codes": ["CG-2"], "note": "expands (x+4)^3 as a model and evaluates it, once directly and once by the remainder theorem. Neither polynomial modelling nor the remainder theorem appears anywhere in this frame"},
+  {"sha": "a16ac3f4faaa7d84", "codes": ["C-2.3-LO-1", "CG-2"], "note": "the base dimensions come from factorising V(x) = x(x+3)(x+8), which is the factorised-form-to-roots outcome; the remainder-theorem evaluation and the capacity question have no outcome, hence CG-2 alongside"},
+  {"sha": "a467ac853df90e3e", "codes": ["CG-2"], "note": "constructs V(x) for a folded pan and evaluates it by the remainder theorem; model building plus remainder theorem, neither of which any outcome names"},
+  {"sha": "1e05a2eb4e8ce81d", "codes": ["CG-2"], "note": "builds V(x) and a cost function C(x) from a square sheet; nothing is factorised and no zero is sought, so no learning outcome applies"},
+  {"sha": "f221ee8638c465a9", "codes": ["C-2.3-LO-1", "CG-2"], "note": "the side of the square bottom is read from V = b(b-3)^2, a factorised-form deduction (C-2.3-LO-1); the remainder-theorem evaluations in the later parts have no outcome"}
+ ]
+}

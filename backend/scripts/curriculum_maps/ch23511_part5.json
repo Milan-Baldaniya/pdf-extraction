@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23511,
+ "mappings": [
+  {
+   "sha": "06c9eda311e8b5bf",
+   "codes": ["C-6.3-LO-1", "C-6.2-LO-2"],
+   "note": "cos(45-t) becomes sin(45+t) and tan(30-t) becomes cot(60+t) - two complementary rewrites - and only then do sin^2 + cos^2 = 1 and tan cot = 1 finish it. Both outcomes are genuinely required"
+  },
+  {
+   "sha": "f3ae4e2eb7b057a0",
+   "codes": ["C-6.1-LO-1"],
+   "note": "antenna figure, but NOT a heights-and-distances item: no observer, no line of sight, no elevation angle. The third side comes from Pythagoras and tan, sec, cosec are read off the sides - the LO-1 definition. Kept out of chapter 9's C-6.3 deliberately"
+  },
+  {
+   "sha": "b0a94a1da8196ba2",
+   "codes": ["C-6.2-LO-2"],
+   "note": "everything converted to sin and cos, then 1 - cos^2 = sin^2 is used to cancel; a standard identity proof"
+  },
+  {
+   "sha": "d1e019ae99be2ddd",
+   "codes": ["C-6.2-LO-2"],
+   "note": "square the given sum to extract sin cos = 1/2, then tan + cot = 1/(sin cos); two applications of sin^2 + cos^2 = 1 on a supplied condition"
+  },
+  {
+   "sha": "a76c84acb6282884",
+   "codes": ["C-6.2-LO-2"],
+   "note": "divide by sin^2 and use cosec^2 = 1 + cot^2 to reach a quadratic in cot; the identity turns a trigonometric equation into algebra"
+  },
+  {
+   "sha": "6b8ab53766e66e3a",
+   "codes": ["C-6.2-LO-2"],
+   "note": "expansion generates sin^2 + cos^2, cosec^2 and sec^2 at once, so all three Pythagorean identities plus the reciprocal relations are applied in one proof"
+  },
+  {
+   "sha": "5f1d73bcd6cbeeaf",
+   "codes": ["C-6.2-LO-2"],
+   "note": "the product is arranged as (sin + cos)^2 - 1 over sin cos, which collapses by sin^2 + cos^2 = 1; identity-driven proof"
+  },
+  {
+   "sha": "c0fb840c52e53331",
+   "codes": ["C-6.2-LO-2"],
+   "note": "rationalising multiplication by (1 + sin A) then 1 - cos^2 = sin^2. NOTE the stem prints (sin A - cos A - 1) in the numerator while the worked solution uses (sin A - cos A + 1); only the solution's form is provable"
+  },
+  {
+   "sha": "a200526a487eda9e",
+   "codes": ["C-6.2-LO-2"],
+   "note": "sum of cubes factorisation of sin^6 + cos^6 leaning on sin^2 + cos^2 = 1, applied twice; the heaviest identity manipulation in the chapter"
+  },
+  {
+   "sha": "ec902ffd90ede46e",
+   "codes": ["C-6.2-LO-2"],
+   "note": "all four squared ratios rewritten in sin and cos so the two fractions share the denominator sin^2 - cos^2; identity proof with a conversion to a single variable at the end"
+  },
+  {
+   "sha": "f8f74821b53472d8",
+   "codes": ["C-6.1-LO-1"],
+   "note": "6-8-10 triangle: hypotenuse by Pythagoras, then all four ratios read off the sides. The answer 1 is really sin^2 + cos^2 in disguise, but the graded work is the side definition, so LO-1"
+  },
+  {
+   "sha": "d80ea590d735ffeb",
+   "codes": ["C-6.1-LO-2"],
+   "note": "four table entries substituted into a compound fraction; sin^2 30 + cos^2 60 in the denominator is arithmetic, not the Pythagorean identity (the angles differ)"
+  },
+  {
+   "sha": "562ad5c651028d11",
+   "codes": ["C-6.3-LO-1", "C-6.1-LO-2"],
+   "note": "sin 30 must be converted to cos 60 before the cosines can be equated - the complementary step - and knowing which standard angle to convert to is the table step. Both carry weight here"
+  },
+  {
+   "sha": "49803daa8674edec",
+   "codes": ["C-6.1-LO-1"],
+   "note": "the 9-40-41 triple is recovered from PR - PQ = 1 by Pythagoras, then sin R and cos R are read off the sides; no angle is ever named"
+  },
+  {
+   "sha": "24bc12e3b9d70404",
+   "codes": ["C-6.1-LO-2"],
+   "note": "the word VERIFY plus a stated theta = 60 makes this substitution, not proof: both sides are evaluated from the 60 row and compared. Contrast sha 1f809e2412ebe75f which proves the same identity in general and is therefore C-6.2-LO-2"
+  },
+  {
+   "sha": "57bd243f38c960db",
+   "codes": ["C-6.2-LO-2"],
+   "note": "squaring the given sum and using tan cot = 1 to kill the cross term; the reciprocal relation is the whole content"
+  },
+  {
+   "sha": "652e46d936f604b9",
+   "codes": ["C-6.2-LO-2"],
+   "note": "rationalising (root2 - 1) to rearrange the given relation. NOTE the stem asks to show cos t - sin t = root2 cos t but the worked solution correctly derives root2 SIN t; the stem is wrong"
+  },
+  {
+   "sha": "b19495415dc7027b",
+   "codes": ["C-6.2-LO-2"],
+   "note": "quotient relations clear both denominators to cos A - sin A, then the difference of squares cancels; identity proof"
+  },
+  {
+   "sha": "2175723286431dee",
+   "codes": ["C-6.1-LO-1"],
+   "note": "5-12-13 triple recovered from AC - AB = 1 by Pythagoras, then sin C and cos C read off the sides; same construction as sha 49803daa8674edec with a different triple"
+  },
+  {
+   "sha": "b0f489187d8eecac",
+   "codes": ["C-6.2-LO-2"],
+   "note": "the minus-sign companion of sha b19495415dc7027b; the same quotient-relation proof and honestly the same outcome"
+  },
+  {
+   "sha": "26bd305584fec647",
+   "codes": ["C-6.1-LO-1"],
+   "note": "b cos t = a is turned into a triangle with adjacent a and hypotenuse b, opposite root(b^2 - a^2); cosec and cot are then read off the sides. A proof, but by side construction, not by identity - so LO-1 rather than C-6.2-LO-2"
+  },
+  {
+   "sha": "e311f64f559b3ff7",
+   "codes": ["C-6.2-LO-2"],
+   "note": "factor sin and cos out, then sin^2 + cos^2 = 1 makes numerator and denominator brackets equal; duplicate of sha f659cb20cb6d974a with theta for A (and the stem prints 2 cos^3 with the theta dropped)"
+  },
+  {
+   "sha": "1c7af65e61adf087",
+   "codes": ["C-6.2-LO-1"],
+   "note": "the cleanest LO-1 item in the chapter: it asks what an identity IS and then to PROVE 1 + tan^2 = sec^2 from the right triangle. Deriving a Pythagorean identity is LO-1 exactly; every other proof in this part applies one and is LO-2"
+  },
+  {
+   "sha": "2fe27569d6c2883b",
+   "codes": ["C-6.2-LO-2"],
+   "note": "convert to sin and cos, square, then 1 - cos^2 = sin^2 lets one factor cancel; identity application"
+  },
+  {
+   "sha": "f1a86e0b7179c5fb",
+   "codes": ["C-6.2-LO-2"],
+   "note": "three brackets each collapse by a Pythagorean or reciprocal identity and the product telescopes to 1; pure identity proof"
+  }
+ ]
+}

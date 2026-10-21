@@ -1,0 +1,208 @@
+{
+ "chapter": 8,
+ "chapter_id": 8607,
+ "extraction_id": 599,
+ "section": "ncert",
+ "items": [
+  {
+   "number": "1",
+   "form": "short",
+   "page": 347,
+   "stem": "Choose the correct options and explain the reason for the correct and incorrect options in the context of Ernest Rutherford’s gold foil experiment:\n(i) The experiment clearly showed the existence of neutrons in the nucleus.\n(ii) The results disproved the plum pudding model and led to the idea of a nucleus at the centre of the atom.\n(iii) The large deflection of a few alpha particles indicated that most of the mass of the atom and positive charge are packed into a tiny centre.\n(iv) The way alpha particles were deflected showed that electrons move around the nucleus.",
+   "answer": "(i) Incorrect, Rutherford’s gold foil experiment only indicated the presence of a dense, positively charged center (the nucleus) containing protons. Neutrons were discovered much later by James Chadwick in 1932.\n(ii) Correct, Thomson’s plum pudding model assumed positive charge was spread evenly, meaning alpha particles should pass through with minimal deflection. The unexpected large deflections and bounce-backs proved the positive charge was actually concentrated in a tiny central nucleus, disproving Thomson’s model.\n(iii) Correct, Because alpha particles are heavy and positively charged, they could only be strongly deflected or bounced back if they hit something much heavier and also positively charged. Since this only happened to a very small fraction of particles, Rutherford concluded this dense, positively charged mass occupies a extremely small region at the center.\n(iv) Incorrect, The deflection of the alpha particles was caused entirely by repulsion from the positively charged nucleus. The experiment provided no direct evidence regarding the paths or behavior of the negatively charged electrons.",
+   "concept": "Rutherford's gold foil experiment",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "2",
+   "form": "short",
+   "page": 347,
+   "stem": "Which of the following statements are correct or incorrect according to the Bohr’s atomic model? Give a reason for each statement.\n(i) Electrons lose energy while moving in fixed orbits and slowly fall into the nucleus.\n(ii) Electrons can exist anywhere around the nucleus with no fixed energy.\n(iii) Electrons revolve around the nucleus in orbits of fixed energy without losing energy.\n(iv) Electrons can be found between energy levels as they move around the nucleus.",
+   "answer": "(i) Incorrect, A key postulate of Bohr’s model is that while revolving in discrete, fixed orbits (stationary states), electrons do not radiate or lose energy. This is how Bohr explained the stability of the atom.\n(ii) Incorrect, Bohr’s model states that electrons do not move randomly but follow specific fixed circular paths called energy levels or shells (K, L, M, N), each associated with a definite amount of energy.\n(iii) Correct, This is the defining principle of Bohr’s stationary states, which resolved the major limitation of Rutherford’s model where accelerating electrons were expected to lose energy.\n(iv) Incorrect, According to Bohr’s model, electrons can only revolve in allowed shells (n=1, 2, 3...) and cannot exist in the spaces between these distinct energy levels.",
+   "concept": "Bohr's model of atom",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "3",
+   "form": "short",
+   "page": 340,
+   "stem": "The composition of the nuclei of three atomic species X, Y, and Z are given as follows.\nSpecies | Number of Protons | Number of Neutrons\nSpecies X | 18 | 19\nSpecies Y | 17 | 18\nSpecies Z | 17 | 20\nExplain the relation between the following:\n(i) Y and Z\n(ii) Z and X",
+   "answer": "(i) Species Y and Z are isotopes. They both have the same number of protons (atomic number 17) but different numbers of neutrons (18 and 20, respectively), meaning they are atoms of the same element with different mass numbers.\n(ii) Species Z and X are isobars. The mass number of Z is 37 (17 protons + 20 neutrons) and the mass number of X is also 37 (18 protons + 19 neutrons). They are atoms of different elements (different proton numbers) that have the exact same mass number.",
+   "concept": "Isobars definition",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "the three-column table in the stem arrived as a column-major run of cells and was set back out as rows; no word or number was changed."
+  },
+  {
+   "number": "4",
+   "form": "short",
+   "page": 340,
+   "stem": "What conclusion did Rutherford draw about the position and characteristics of the atom’s positively charged part based on the few alpha particles that bounced back or were deflected at large angles in the gold foil experiment?",
+   "answer": "Rutherford concluded that the positively charged part of the atom is not spread uniformly throughout the atom, but is heavily concentrated in an extremely small, dense region at the very center, which he named the nucleus. He deduced this because only a massive, concentrated positive charge could exert enough repulsive force to cause the heavy, fast-moving, positively charged alpha particles to deflect sharply or bounce straight back.",
+   "concept": "Rutherford's nuclear model",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "5",
+   "form": "short",
+   "page": 340,
+   "stem": "Explain and arrange the following statements in the correct chronological order to show how atomic models have evolved over time.\n(i) Bohr’s model proposed that electrons move in fixed orbits around the nucleus, each with a definite energy.\n(ii) Thomson’s model depicted the atom as a ‘plum pudding’ with electrons embedded in a sphere of positive charge.\n(iii) Rutherford’s model proposed that atoms have a dense central nucleus.\n(iv) Dalton’s model described atoms as indivisible particles.",
+   "answer": "The correct chronological order is (iv), (ii), (iii), (i).\nFirst, Dalton proposed his theory that matter is composed of solid, indivisible particles called atoms. Decades later, Thomson discovered the electron and modified this view with his plum pudding model, suggesting the atom was a positively charged sphere containing embedded negative electrons. Later, Rutherford conducted his gold foil experiment, which disproved Thomson’s model by revealing that the positive charge is concentrated in a tiny, dense central nucleus. Finally, Bohr refined Rutherford’s nuclear model by introducing the concept of stationary orbits to explain why orbiting electrons do not lose energy and collapse into the nucleus.",
+   "concept": "Dalton's atomic theory",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "6",
+   "form": "short",
+   "page": 341,
+   "stem": "Electrons move around the nucleus in orbits. Why do they not fly away from the atom? Explain what keeps them attracted to the nucleus.",
+   "answer": "Electrons do not fly away from the atom because they carry a negative electrical charge, while the nucleus contains protons which carry a positive electrical charge. This creates a strong electrostatic force of attraction between the nucleus and the electrons. This attractive force pulls the electrons toward the center, acting as the centripetal force required to keep them moving in their circular orbits around the nucleus.",
+   "concept": "Bohr's model of atom",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "7",
+   "form": "assertion_reason",
+   "page": 341,
+   "stem": "Assertion (A): The discovery of subatomic particles helped in understanding the atomic structure.\nReason (R): The number of electrons is equal to the number of protons in an atom.",
+   "answer": "The correct option is (ii) Both A and R are true, but R is not the correct explanation of A.\nIt is true that discovering electrons, protons, and neutrons revealed that atoms have internal structure, proving Dalton’s indivisible theory wrong (Assertion A is true). It is also true that in a neutral atom, protons equal electrons (Reason R is true). However, this mathematical equality is not the fundamental reason why the discovery of subatomic particles helped us understand the physical structure and arrangement of the atom.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true, and R is the correct explanation of A."
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true, but R is not the correct explanation of A."
+    },
+    {
+     "label": "C",
+     "text": "A is true, but R is false."
+    },
+    {
+     "label": "D",
+     "text": "A is false, but R is true."
+    }
+   ],
+   "correct_option": "B",
+   "assertion": "The discovery of subatomic particles helped in understanding the atomic structure.",
+   "reason": "The number of electrons is equal to the number of protons in an atom.",
+   "concept": "Neutral atom has equal protons and electrons",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "the book prints the four choices as (i)-(iv); they are relabelled A-D to match every other option set in this corpus, and the answer prose still reads 'the correct option is (ii)', which is option B."
+  },
+  {
+   "number": "8",
+   "form": "short",
+   "page": 341,
+   "stem": "Magnesium is essential for many biological processes, including muscle contraction. For an atom of magnesium with a mass number of 24 and atomic number 12, determine the number of (i) protons, (ii) neutrons, (iii) electrons, and also illustrate the arrangement of electrons in a magnesium atom.",
+   "answer": "(i) 12 protons (The number of protons is equal to the atomic number).\n(ii) 12 neutrons (Calculated by subtracting the atomic number from the mass number: 24 - 12 = 12).\n(iii) 12 electrons (In a neutral atom, the number of electrons equals the number of protons).\nThe 12 electrons are arranged as 2, 8, 2 - two in the K shell, eight in the L shell and two in the M shell.",
+   "concept": "First 18 elements shell distribution",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "the book prints only (i), (ii) and (iii); the stem also asks for the arrangement of electrons and the printed answer never gives it, so the closing sentence (2, 8, 2 across K, L and M) is supplied."
+  },
+  {
+   "number": "9",
+   "form": "short",
+   "page": 341,
+   "stem": "Find the following information for the elements shown in figure:\n(i) Name of the element\n(ii) Symbol\n(iii) Total number of electrons\n(iv) Number of valence electrons\n(v) Valency of the element\n(vi) Number of protons\n(vii) Atomic number",
+   "answer": "(a) (i) Lithium (ii) Li (iii) 3 (iv) 1 (v) 1 (vi) 3 (vii) 3\n(b) (i) Nitrogen (ii) N (iii) 7 (iv) 5 (v) 3 (vi) 7 (vii) 7\n(c) (i) Aluminium (ii) Al (iii) 13 (iv) 3 (v) 3 (vi) 13 (vii) 13\n(d) (i) Fluorine (ii) F (iii) 9 (iv) 7 (v) 1 (vi) 9 (vii) 9",
+   "concept": "Valence shell and valence electrons",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "the stem points at four printed shell diagrams that are not in the text layer; the answer's seven-part run for each of the four was set back out as one line per element. No value was changed."
+  },
+  {
+   "number": "10",
+   "form": "short",
+   "page": 342,
+   "stem": "Both Rutherford’s and Bohr’s models have electrons orbiting the nucleus. Why did Rutherford’s model fail to explain atomic stability, while Bohr’s model succeeded?",
+   "answer": "Rutherford’s model failed because it proposed electrons orbiting randomly like planets. According to the laws of physics, a charged particle moving in a circular path accelerates and must continuously radiate energy. Therefore, Rutherford’s orbiting electron would lose energy, spiral inward, and collapse into the nucleus. Bohr’s model succeeded by introducing the postulate that electrons revolve only in specific, allowed circular paths called stationary states or discrete shells. He established that while moving in these fixed energy levels, electrons do not emit energy, thereby perfectly explaining why the atom remains stable.",
+   "concept": "Limitation of Rutherford's model",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "11",
+   "form": "very_short",
+   "page": 342,
+   "stem": "An atom ⁷⁰X has 31 electrons. How many neutrons are there in its nucleus?",
+   "answer": "In a neutral atom, the number of protons equals the number of electrons, so this atom has 31 protons. The mass number is given as 70. The number of neutrons is found by subtracting the number of protons from the mass number (70 - 31), which means there are 39 neutrons in its nucleus.",
+   "concept": "Standard atomic notation",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "the book prints the notation flattened as 'An atom 70 X'; it is restored as ⁷⁰X."
+  },
+  {
+   "number": "12",
+   "form": "very_short",
+   "page": 342,
+   "stem": "An atom has 79 protons and a mass number of 197. Calculate:\n(i) the number of neutrons\n(ii) the number of electrons",
+   "answer": "(i) The number of neutrons is 118. This is calculated by subtracting the number of protons from the mass number (197 - 79 = 118).\n(ii) The number of electrons is 79. Assuming the atom is electrically neutral, it must have the exact same number of negative electrons as it has positive protons.",
+   "concept": "Mass number and nucleons",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "the book prints the sub-parts twice, as 'Calculate (i) the number of neutrons, and (ii) the number of electrons.' and then again as a bare list; the duplicate was dropped and the single list kept under 'Calculate:'. No value or wording of a sub-part was changed."
+  },
+  {
+   "number": "13",
+   "form": "short",
+   "page": 342,
+   "stem": "Complete the Table:\nAtomic Number | Mass Number | Number of Neutrons | Number of Protons | Number of Electrons | Name of the Element\n5 | – | 6 | – | – | –\n– | 14 | – | – | 7 | Nitrogen\n– | 24 | – | 12 | – | –\n15 | – | 16 | – | – | –\n– | 1 | 0 | – | – | –",
+   "answer": "Atomic Number | Mass Number | Number of Neutrons | Number of Protons | Number of Electrons | Name of the Element\n5 | 11 | 6 | 5 | 5 | Boron\n7 | 14 | 7 | 7 | 7 | Nitrogen\n12 | 24 | 12 | 12 | 12 | Magnesium\n15 | 31 | 16 | 15 | 15 | Phosphorus\n1 | 1 | 0 | 1 | 1 | Hydrogen",
+   "concept": "Mass number and nucleons",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "both the blank table in the stem and the completed table in the answer arrived as a column-major run of cells and were set back out as rows; no value was changed."
+  },
+  {
+   "number": "14",
+   "form": "long",
+   "page": 342,
+   "stem": "Aman was discussing the structure of atom with his classmates. During the discussion, he learnt that an element X has a mass number of 35 and contains 18 neutrons. Based on this information, answer the following questions:\n(i) How many electrons and protons does element X have?\n(ii) What is its atomic number?\n(iii) Identify the element X.\n(iv) Write its electronic configuration.\n(v) How many valence electrons does it have?\n(vi) What will be the mass number if two neutrons are added to its nucleus?\n(vii) What will be the relation of X with the new atom?",
+   "answer": "(i) Element X has 17 protons (Mass number 35 - 18 neutrons = 17) and 17 electrons, as the number of electrons equals the number of protons in a neutral atom.\n(ii) The atomic number is 17, which is equal to the number of protons.\n(iii) Element X is Chlorine (Cl), as chlorine has an atomic number of 17.\n(iv) The electronic configuration of Chlorine (17 electrons) is 2, 8, 7.\n(v) It has 7 valence electrons, which are the electrons present in its outermost shell.\n(vi) The new mass number will be 37 (Original mass 35 + 2 additional neutrons).\n(vii) Element X (mass 35) and the new atom (mass 37) will be isotopes, because they have the same atomic number (17) but different mass numbers due to a different number of neutrons.",
+   "concept": "Isotopes definition",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "15",
+   "form": "long",
+   "page": 343,
+   "stem": "In an atom, there are 12 protons and 12 neutrons in the nucleus. Now, imagine that all the electrons are replaced with some hypothetical particles that have the same charge as electrons but are 500 times heavier. What effect will this replacement have on the atom’s:\n(i) Atomic number\n(ii) Atomic mass\n(iii) Mass number\n(iv) Overall charge",
+   "answer": "(i) The atomic number will remain unchanged (12). The atomic number is strictly determined by the number of protons in the nucleus, which has not been altered.\n(ii) The atomic mass will increase. Normally, the mass of electrons is negligible compared to the nucleus. Replacing them with particles 500 times heavier adds significant, non-negligible mass to the entire atom.\n(iii) The mass number will remain unchanged (24). Mass number is defined solely as the total number of nucleons (protons + neutrons) inside the nucleus, which remains 12 + 12.\n(iv) The overall charge will remain unchanged (neutral). The hypothetical particles possess the exact same negative electrical charge as normal electrons, so 12 of them will still perfectly balance the positive charge of the 12 protons in the nucleus.",
+   "concept": "Electron mass is negligible",
+   "bloom": "evaluate",
+   "dok": 4,
+   "difficulty": 4
+  }
+ ]
+}

@@ -629,7 +629,15 @@ async def tag_extraction(
             notes.append("Chapter has no concepts; concept_id left null on every item.")
 
     tags = _sanitise(tags, {c["id"] for c in concepts})
-    counters = _persist(extraction_id, items, tags, model)
+    # concept_names is passed here for the same reason tag_chapter passes it:
+    # _persist writes `concept = COALESCE(:concept_name, concept)`, so omitting
+    # it left lms_question_master.concept NULL on every item this path tagged.
+    # The bank UI falls back to that column, so the name was blank even where
+    # concept_id was right -- 5,564 of 5,795 rows.
+    counters = _persist(
+        extraction_id, items, tags, model,
+        concept_names={c["id"]: c["name"] for c in concepts if c.get("id")},
+    )
 
     bloom_spread: dict[str, int] = {}
     for tag in tags:

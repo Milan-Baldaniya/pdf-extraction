@@ -1,0 +1,24 @@
+{
+ "chapter_id": 23196,
+ "mappings": [
+  {"sha": "929f25b46d938d8b", "codes": ["C-7.1-LO-1", "C-7.1-LO-3"], "note": "Japanese fan: each colour band is a sector of a stated angle taken over an annulus, so (pi*theta/360)(R^2 - r^2) needs the sector formula and the two-circle composite together"},
+  {"sha": "6fd3fe92134e458c", "codes": ["C-7.3-LO-1"], "note": "areas swept by the minute hand in 14 minutes and the hour hand in 10 minutes; the clock-hand sweep named in C-7.3-LO-1, with elapsed time converted to angle"},
+  {"sha": "b02f04e374148b05", "codes": ["C-7.1-LO-3"], "note": "eight cushions of two sizes with a 5 cm allowance, areas summed and doubled for both faces; combined circles, no angle and no perimeter"},
+  {"sha": "fd196f912c3b4e6a", "codes": ["C-7.2-LO-1"], "note": "given the pool AREA, recover the radius and then the CIRCUMFERENCE to count edge tiles; the item exists to make the student move between the two"},
+  {"sha": "df5bff5e1f687c11", "codes": ["C-7.1-LO-3"], "note": "nine small cakes versus one large: areas of several circles summed and compared, the same area-additivity family as the two-circle items"},
+  {"sha": "dce649bab034ec6e", "codes": ["C-7.1-LO-3"], "note": "wooden edge = four rectangles plus four quarter-circle corners that make one whole circle; circular parts assembled with a polygon frame"},
+  {"sha": "e78ceba0214bac93", "codes": ["C-7.1-LO-1"], "note": "detector field is a fixed sector; the item inverts A = pi*r^2*theta/360 for theta and then for r. Nothing rotates, so LO-1 rather than the swept-area outcome"},
+  {"sha": "0a9ebf6e0972875d", "codes": ["C-7.2-LO-1"], "note": "perimeter of three circles whose diameters lie end to end along AB; circumference additivity, the perimeter side"},
+  {"sha": "0ca8cdb0dfab9f83", "codes": ["C-7.1-LO-1"], "note": "roller: rolled length is an arc, so the angle turned and the length pressed both come from the arc-length formula; no area is asked for"},
+  {"sha": "add6d601c0bccfb3", "codes": ["C-7.3-LO-1", "C-7.1-LO-3"], "note": "windshield wiper, the literal example in C-7.3-LO-1; the blade covers only the outer 42 cm of a 63 cm arm, so the cleaned region is a 110 degree annular sector and the composite is real"},
+  {"sha": "258bde57a4920e4d", "codes": ["C-7.1-LO-1"], "note": "hoist drum: the beam rises by the arc wound on the drum, so the angle follows from arc length; a length question, not a swept area"},
+  {"sha": "b525bc981b799767", "codes": ["C-7.1-LO-1"], "note": "voltmeter pointer travels 5.5 cm along the scale; arc length solved for the angle"},
+  {"sha": "7ea67f34c5cd9f31", "codes": ["C-7.1-LO-1"], "note": "winch cable length to angle and back again; the arc-length relation both ways, with no area in the item"},
+  {"sha": "32b8524b3d3934a3", "codes": ["C-7.3-LO-1"], "note": "sprinkler that ROTATES through 80 degrees and waters a sector; a rotating arm sweeping an area, unlike the static motion detector which stayed at LO-1"},
+  {"sha": "75322bf418c1ffb1", "codes": ["C-7.1-LO-1"], "note": "pulley turned through 102 degrees raises the weight by that arc length; length, not area"},
+  {"sha": "cd70015f633589eb", "codes": ["C-7.1-LO-2", "C-7.1-LO-1", "C-7.1-LO-3"], "note": "barn roof: the curved width is an arc (LO-1), the cross section is a rectangle plus the segment under the roof arc (LO-2 for the segment, LO-3 for assembling it with the rectangle)"},
+  {"sha": "9f00f2ba3d887534", "codes": ["C-7.2-LO-1"], "note": "paddle wheel rolling with the current: distance per minute is circumference times revolutions, a perimeter quantity, matching the tractor-wheel item"},
+  {"sha": "866f6930c419e3ae", "codes": ["C-7.1-LO-3"], "note": "stadium: circle less a right triangle and a square built on the radius; a circle-and-polygon composite, with no angle other than the right angles the polygons supply"},
+  {"sha": "7563ac72e4563b50", "codes": ["C-7.1-LO-2"], "note": "rubble fills the minor SEGMENT cut off by the road surface AB; sector minus triangle is the whole computation, so LO-2 and not the general composite"}
+ ]
+}

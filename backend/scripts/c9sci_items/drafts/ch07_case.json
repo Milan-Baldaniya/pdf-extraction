@@ -1,0 +1,373 @@
+{
+  "chapter": 7,
+  "chapter_id": 8606,
+  "extraction_id": 598,
+  "section": "case",
+  "items": [
+    {
+      "number": "167",
+      "form": "case_study",
+      "page": 330,
+      "stem": "An object of mass 40 kg is raised to a height of 5 m above the ground. (a) What is its potential energy at this height? (Take g = 10 m/s²) (b) If the object is allowed to fall, find its kinetic energy when it is half-way down. (c) What is its kinetic energy just before it hits the ground? (Assume conservation of mechanical energy).",
+      "answer": "Given: Mass m = 40 kg, Height h(initial) = 5 m, and g = 10 m/s². (a) Potential energy at a height of 5 m: Ep = mgh = 40 kg × 10 m/s² × 5 m = 2000 J. The total mechanical energy at the start (all potential) is 2000 J. (b) Kinetic energy when half-way down: half-way down means the object has fallen 5/2 m = 2.5 m, so its height above the ground is now 2.5 m. Potential energy at the half-way point, Ep(half) = mgh = 40 × 10 × 2.5 = 1000 J. By conservation of mechanical energy, total energy = Ep(half) + Ek(half), so 2000 J = 1000 J + Ek(half). Kinetic energy when half-way down, Ek(half) = 2000 J − 1000 J = 1000 J. (c) Kinetic energy just before it hits the ground: just before hitting the ground its height is approximately 0 m, so its potential energy Ep(ground) is about 0 J. By conservation of mechanical energy, total energy = Ep(ground) + Ek(ground), so 2000 J = 0 J + Ek(ground). Kinetic energy just before hitting the ground, Ek(ground) = 2000 J. This means all its initial potential energy has been converted into kinetic energy.",
+      "sub_parts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "concept": "Mechanical energy conserved in free fall",
+      "bloom": "apply",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "168",
+      "form": "case_study",
+      "page": 330,
+      "stem": "A certain household has consumed 250 units of energy during a month. How much energy is this in joules? If this energy was consumed by an appliance with an average power of 500 W, for how many hours was the appliance used?",
+      "answer": "The “unit” of energy consumed in households is the kilowatt-hour (kWh). 1 unit = 1 kWh, so the energy consumed = 250 units = 250 kWh. To convert kWh to joules: 1 kWh = 1 kilowatt × 1 hour = 1000 watts × 3600 seconds = 1000 J/s × 3600 s = 3,600,000 J = 3.6 × 10^6 J. Energy consumed in joules = 250 kWh × 3.6 × 10^6 J/kWh = 900 × 10^6 J = 9 × 10^8 J. The energy consumed is 9 × 10^8 joules. Now, if this energy was consumed by an appliance of average power P = 500 W and energy E = 9 × 10^8 J: we know Power P = Energy (E)/Time (t), so Time t = Energy (E)/Power (P) = 9 × 10^8 J / 500 W = 900000000/500 s = 1,800,000 seconds. To convert seconds to hours: number of hours = 1,800,000 s / 3600 s per hour = 18000/36 hours = 500 hours. The appliance was used for 500 hours.",
+      "concept": "Power and work-time relation",
+      "bloom": "apply",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "177",
+      "form": "case_study",
+      "page": 324,
+      "stem": "Amit is trying to rearrange his bedroom on a Sunday afternoon. First, he pushes a heavy vintage wooden wardrobe with a force of 150 N, but the wardrobe stubbornly refuses to move. Frustrated, he shifts his attention and pushes a lighter study chair with a 50 N force, successfully moving it by 2 metres across the floor in a straight line. Later, he lifts a 5 kg pile of heavy encyclopaedias and holds them perfectly steady on his head for three minutes while deciding where to place them on the shelf. Finally, balancing the books on his head, he walks horizontally across the room to reach the bookshelf. QUESTIONS: (a) How much work is done by Amit when he applies a 150 N force to push the heavy wooden wardrobe? (b) Calculate the work done by Amit on the study chair. (c) Explain why Amit does zero work while holding the heavy pile of books steady on his head, even though he might feel tired. (d) State the amount of work done by Amit against gravity when he walks horizontally across the room with the books on his head. Justify your answer.",
+      "answer": "(a) The work done by Amit is zero because the displacement of the heavy wooden wardrobe is zero. (b) Work done on the chair = Force × displacement = 50 N × 2 m = 100 J. (c) Amit does zero work on the books while holding them steady because there is no displacement. He feels tired because his muscles continuously consume internal bodily energy to maintain the upward force balancing gravity. (d) The work done against gravity is zero. This is because the gravitational force acts downwards, while Amit’s displacement is horizontal. Since the force and displacement are perpendicular to each other, no work is done by that force.",
+      "sub_parts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "concept": "Zero work when there is no displacement",
+      "bloom": "apply",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "178",
+      "form": "case_study",
+      "page": 325,
+      "stem": "A student, Rohan, spends 10 minutes pushing against a stationary brick wall with all his might. He feels very tired afterwards and believes he has done a lot of work. However, the wall does not move at all. 1. According to the scientific definition of work, has Rohan done any work on the wall? Explain why or why not. 2. What two conditions must be satisfied for work to be done on an object? 3. Even though no scientific work was done on the wall, Rohan felt tired. Where did the energy he expended go? 4. If Rohan had pushed a small toy car with the same force and it moved a distance of 2 meters, would work have been done on the toy car?",
+      "answer": "1. No, according to the scientific definition of work, Rohan has not done any work on the wall. Work is done when a force causes displacement of an object in the direction of the force. Since the wall did not move (no displacement), no work was done on it. 2. The two conditions are: (i) a force should act on an object, and (ii) the object must be displaced. 3. The energy Rohan expended was converted into heat within his own body due to muscular effort (internal energy changes, metabolic processes). 4. Yes, if Rohan pushed a toy car and it moved, work would have been done on the toy car because there was a force applied and a displacement in the direction of the force.",
+      "sub_parts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "concept": "Work as force times displacement",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "179",
+      "form": "case_study",
+      "page": 325,
+      "stem": "During a crucial inter-school football tournament, Rahul, a star striker, receives a pass near the penalty area. He aggressively kicks the stationary ball straight towards the opponent’s goalpost. The ball speeds up rapidly and moves in the exact direction of his powerful kick. Seeing the impending danger, the opposing goalkeeper, Kabir, anticipates the trajectory. He dives elegantly and applies a strong force with his extended hands to stop the ball from entering the net. The momentum of the ball pushes Kabir’s hands slightly backward by 0.2 metres before the ball finally comes to a complete halt in his firm grip. QUESTIONS: (a) State the type of work done by Rahul when he kicks the stationary football. (b) Explain why the work done by the goalkeeper, Kabir, on the moving ball is considered negative work. (c) If Kabir applied a stopping force of 250 N and his hands moved back by 0.2 m in the direction of the ball’s motion, calculate the work done by him on the ball.",
+      "answer": "(a) Rahul does positive work on the football because the force he applies and the resulting displacement of the ball are in the same direction. (b) Kabir applies a force in the opposite direction to the ball’s motion to stop it. When the applied force and the displacement of the object are in opposite directions, the work done is negative. (c) Work done = Force × displacement in the direction of force. Since Kabir’s force is opposite to the displacement, W = 250 N × (−0.2 m) = −50 J.",
+      "sub_parts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "concept": "Negative work",
+      "bloom": "apply",
+      "dok": 2,
+      "difficulty": 3
+    },
+    {
+      "number": "180",
+      "form": "case_study",
+      "page": 325,
+      "stem": "In a spacious physics laboratory, a group of students is studying the principles of motion using two battery-operated toy cars, labeled Car A and Car B. Car A has a mass of 2 kg, while Car B is considerably heavier, with a mass of 4 kg. Initially, both cars are programmed to move side-by-side on a straight racing track at a constant velocity of 3 m/s. After recording their initial observations, the students modify the settings to increase the speed of Car A from 3 m/s to 6 m/s to investigate how a change in velocity mathematically impacts the energy possessed by a moving vehicle. QUESTIONS: (a) Define the term kinetic energy based on your understanding of the chapter. (b) While both cars are moving at the initial velocity of 3 m/s, which car possesses more kinetic energy? Give a reason for your choice. (c) Calculate how many times the kinetic energy of Car A increases when its velocity is doubled from 3 m/s to 6 m/s. Show your reasoning.",
+      "answer": "(a) Kinetic energy is the energy possessed by an object due to its motion. (b) Car B possesses more kinetic energy. Since kinetic energy is directly proportional to mass (K = 1/2 mv²), for objects moving at the same velocity, the object with the greater mass will have higher kinetic energy. (c) The kinetic energy increases by 4 times. Kinetic energy is directly proportional to the square of the velocity (v²). When the velocity is doubled (2v), the square of the velocity becomes (2v)² = 4v², thus making the new kinetic energy four times the original value.",
+      "sub_parts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "concept": "Kinetic energy varies with velocity squared",
+      "bloom": "analyze",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "181",
+      "form": "case_study",
+      "page": 326,
+      "stem": "A porter lifts a suitcase weighing 20 kg from the ground and places it on a shelf 1.5 meters high. (Assume acceleration due to gravity, g = 10 m/s².) 1. What is the minimum force the porter must apply to lift the suitcase upwards (equal to its weight)? 2. Calculate the work done by the porter on the suitcase. 3. If the porter then carries the suitcase horizontally for 5 meters without changing its height, how much work is done by the porter against gravity during this horizontal movement? 4. What form of energy does the suitcase gain when it is lifted to the shelf?",
+      "answer": "1. The minimum force the porter must apply is equal to the weight of the suitcase: Force = mass × g = 20 kg × 10 m/s² = 200 N. 2. Work done (W) = Force (F) × displacement (s) = 200 N × 1.5 m = 300 J. 3. During the horizontal movement, the displacement is horizontal, while the force of gravity acts vertically downwards. Since the force against which work is being considered (gravity) is perpendicular to the displacement, the work done by the porter against gravity is zero during this horizontal movement. (Note: Work is done against friction if the porter is accelerating the suitcase horizontally, but the question specifies work against gravity). 4. The suitcase gains gravitational potential energy.",
+      "sub_parts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "concept": "Potential energy definition",
+      "bloom": "apply",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "182",
+      "form": "case_study",
+      "page": 326,
+      "stem": "Neha visits a local archery training centre during her summer vacation. She keenly observes an expert trainer demonstrating the correct technique to shoot an arrow. The trainer pulls the string of the flexible bow tightly backward, significantly changing its shape. He holds it there motionless for a few seconds, carefully aiming at the bullseye. When he releases the string, the arrow shoots forward at an incredibly high speed. After the practice session concludes, the trainer picks up a dropped 0.05 kg arrow from the floor and places it securely back into a wall-mounted quiver located exactly 2 metres above the ground. QUESTIONS: (a) Name the specific type of energy stored in the bow when the string is pulled tightly backward. (b) How does the stretched bow acquire this stored energy? (c) Describe the energy transformation that takes place the moment the trainer releases the stretched bowstring. (d) Calculate the potential energy gained by the arrow when the trainer lifts it from the ground to the quiver. (Assume g = 10 m/s².) (e) Differentiate between the type of potential energy in the stretched bow and the arrow placed high in the quiver.",
+      "answer": "(a) Elastic potential energy is stored in the stretched bow. (b) The bow acquires this energy because the trainer does work on it by applying muscular force to deform its original shape. This work is stored internally as potential energy due to its new configuration. (c) When the string is released, the bow rapidly returns to its original shape. The stored elastic potential energy of the bow is transferred to the arrow, converting into kinetic energy, which causes the arrow to fly forward. (d) Gravitational Potential Energy = mgh = 0.05 kg × 10 m/s² × 2 m = 1 J. (e) The stretched bow possesses potential energy due to its deformed shape or configuration (elastic potential energy). In contrast, the arrow in the quiver possesses potential energy due to its elevated position or height relative to the surface of the Earth (gravitational potential energy).",
+      "sub_parts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "concept": "Energy stored by deformation",
+      "bloom": "analyze",
+      "dok": 3,
+      "difficulty": 4
+    },
+    {
+      "number": "183",
+      "form": "case_study",
+      "page": 328,
+      "stem": "An archer pulls back the string of a bow, placing an arrow against it. When the string is released, the arrow flies off at a high speed towards the target. 1. When the archer pulls back the bowstring, what kind of energy is stored in the stretched bow? 2. What happens to this stored energy when the bowstring is released? 3. What kind of energy does the arrow possess as it flies towards the target? 4. If the archer stretches the bowstring further back (more displacement), how does this affect the energy stored and the subsequent speed of the arrow (assuming arrow mass is constant)?",
+      "answer": "1. When the archer pulls back the bowstring, potential energy (specifically, elastic potential energy) is stored in the stretched bow. 2. When the bowstring is released, the stored potential energy in the bow is converted into kinetic energy of the arrow. 3. As the arrow flies towards the target, it possesses kinetic energy due to its motion. 4. Stretching the bowstring further back increases the potential energy stored in the bow. This increased potential energy will be converted into greater kinetic energy for the arrow, resulting in a higher speed for the arrow.",
+      "sub_parts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "concept": "Energy conversion between forms",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "184",
+      "form": "case_study",
+      "page": 328,
+      "stem": "A group of friends visits an amusement park and stands in awe watching a massive steel roller coaster. The empty coaster cars are slowly mechanically pulled up a steep incline to the highest peak of the ride, Point X, which is situated exactly 50 metres above the ground. At this peak, the cars briefly pause before plunging rapidly down a terrifying steep drop to Point Y, located just 5 metres above the ground. As the cars speed through the bottom track at their maximum velocity, the riders experience a thrilling rush. (Assume air resistance and track friction are completely negligible for this scenario). QUESTIONS: (a) What is mechanical energy defined as? (b) At Point X, what is the primary form of mechanical energy possessed by the roller coaster cars? (c) Based on energy conversion, explain why the speed of the roller coaster increases drastically as it moves downwards from Point X to Point Y. (d) If friction and air resistance are completely ignored, what happens to the total mechanical energy of the coaster during the steep drop? State the principle that supports this.",
+      "answer": "(a) Mechanical energy is defined as the sum of the kinetic energy and the potential energy of an object. (b) At Point X (the highest point where the cars briefly pause), the roller coaster possesses maximum gravitational potential energy and zero kinetic energy. (c) As the coaster cars drop, their height above the ground decreases, causing a loss in potential energy. This lost potential energy is continuously converted into kinetic energy, resulting in a drastic increase in the cars’ speed. (d) The total mechanical energy of the coaster remains constant throughout the drop. This is supported by the law of conservation of mechanical energy, which states that if no external forces like friction act on an object, the sum of its kinetic and potential energy stays constant.",
+      "sub_parts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "concept": "Mechanical energy as a form of energy",
+      "bloom": "understand",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "185",
+      "form": "case_study",
+      "page": 329,
+      "stem": "Two children, Amit and Priya, both weight 300 N. They both climb a vertical rope to a height of 6 meters. Amit takes 10 seconds to climb, while Priya takes 15 seconds. 1. Calculate the work done by Amit in climbing the rope. 2. Calculate the work done by Priya in climbing the rope. 3. Who has expended more power, Amit or Priya? Calculate the power expended by each. 4. What is the SI unit of power?",
+      "answer": "1. Work done by Amit = Force (weight) × height = 300 N × 6 m = 1800 J. 2. Work done by Priya = Force (weight) × height = 300 N × 6 m = 1800 J. (The work done is the same as they have the same weight and climb the same height). 3. Amit has expended more power. Power of Amit (PA) = Work done/time taken = 1800 J/10 s = 180 W. Power of Priya (PP) = Work done/time taken = 1800 J/15 s = 120 W. 4. The SI unit of power is the Watt (W), which is equivalent to Joules per second (J/s).",
+      "sub_parts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "concept": "Average power formula",
+      "bloom": "evaluate",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "186",
+      "form": "case_study",
+      "page": 329,
+      "stem": "A leading car manufacturer is testing the safety brakes of a newly designed vehicle on an isolated, straight test track. The prototype car, which has a mass of 1000 kg, is cruising at a steady speed of 20 m/s. Suddenly, the test driver notices a stop sign and aggressively slams on the brakes. The braking system applies a massive, constant frictional force against the tires, bringing the car to a complete and safe halt over a distance of 40 metres. The engineers monitor the telemetry data to understand the exact work done by the braking system on the vehicle. QUESTIONS: (a) State the work-energy theorem. (b) Calculate the initial kinetic energy of the car before the driver applies the brakes. (c) Using the work-energy theorem, calculate the total work done by the brakes to stop the car. What does the negative sign in your calculated value indicate? (d) Determine the magnitude of the opposing frictional force applied by the braking system over the 40-metre distance.",
+      "answer": "(a) The work-energy theorem states that the work done on an object by a net force is equal to the change in its kinetic energy. (b) Initial kinetic energy = 1/2 × mass × velocity² = 1/2 × 1000 kg × (20 m/s)² = 1/2 × 1000 × 400 = 200,000 J. (c) Change in kinetic energy = Final KE − Initial KE = 0 J − 200,000 J = −200,000 J. According to the theorem, Work done = Change in kinetic energy = −200,000 J. The negative sign indicates that the work is done in a direction opposite to the car’s motion, thereby removing energy from the car. (d) Work = Force × displacement, so −200,000 J = Force × 40 m and Force = −200,000/40 = −5,000 N. The magnitude of the braking force is 5,000 N.",
+      "sub_parts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "concept": "Work-energy theorem statement",
+      "bloom": "analyze",
+      "dok": 3,
+      "difficulty": 4
+    },
+    {
+      "number": "189",
+      "form": "case_study",
+      "page": 331,
+      "stem": "A satellite is revolving around the Earth in a circular orbit at a constant speed. The Earth’s gravitational force is constantly acting on the satellite, directed towards the center of the Earth. 1. What is the direction of the Earth’s gravitational force acting on the satellite? 2. What is the direction of the satellite’s displacement at any instant during its circular motion? 3. What is the angle between the gravitational force and the instantaneous displacement of the satellite? 4. How much work is done by the Earth’s gravitational force on the satellite as it orbits the Earth? Explain.",
+      "answer": "1. The Earth’s gravitational force acts towards the center of the Earth (it’s the centripetal force). 2. The satellite’s instantaneous displacement (or velocity direction) is tangential to the circular orbit at any point. 3. The angle between the gravitational force (directed radially inwards) and the instantaneous displacement (directed tangentially) is 90°. 4. The work done by the Earth’s gravitational force on the satellite is zero. This is because the force of gravity is always perpendicular to the direction of the satellite’s instantaneous displacement. Work done W = Fs cos θ, and if θ = 90°, then cos 90° = 0, so W = 0.",
+      "sub_parts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "concept": "Zero work for perpendicular force",
+      "bloom": "analyze",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "190",
+      "form": "case_study",
+      "page": 331,
+      "stem": "On Independence Day, the school principal proudly hoists the national flag in the main courtyard. A long, sturdy rope is attached to the flag, passing through a small, grooved wheel securely fixed at the very top of a tall metal flagpole. When the principal pulls the rope downwards, the flag moves upwards smoothly. Later that afternoon, construction workers at the school are seen using a similar grooved wheel system. However, their wheel is attached directly to a heavy load of bricks and moves vertically up and down along with the load, helping them lift materials with minimal effort. QUESTIONS: (a) What is the specific name of the simple machine fixed at the top of the school’s flagpole? (b) Does the fixed wheel at the top of the flagpole reduce the magnitude of force the principal needs to apply? Why is it used? (c) How does the simple machine used by the construction workers differ from the one used for the flagpole in terms of mechanical advantage?",
+      "answer": "(a) The simple machine at the top of the flagpole is called a fixed pulley. (b) No, a fixed pulley does not reduce the required force; its mechanical advantage is 1. It is used because it provides convenience by changing the direction of the effort, allowing the principal to pull downwards to lift the flag upwards. (c) The construction workers are using a movable pulley system. Unlike a fixed pulley which has a mechanical advantage of 1, a movable pulley has a mechanical advantage greater than 1, meaning it allows the workers to lift much heavier loads using a smaller effort force.",
+      "sub_parts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "concept": "Fixed pulley",
+      "bloom": "understand",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "191",
+      "form": "case_study",
+      "page": 337,
+      "stem": "A coolie is pushing a box weighing 1500 N up an inclined plane 7.5 m long on to a platform, 2.5 m above the ground. (i) Calculate the mechanical advantage of the inclined plane. (ii) Calculate the effort applied by the coolie. (iii) In actual practice, the coolie needs to apply more effort than what is calculated. Give one reason why you think the coolie needs to apply more effort.",
+      "answer": "(i) M.A. = Length/Height = 7.5/2.5 = 3. (ii) M.A. = Load/Effort, so 3 = 1500/Effort and Effort = 500 N. (iii) In actual practice due to friction etc. efficiency is not 100% and velocity ratio is more than mechanical advantage, or output is less than work input. So, he needs to apply more effort than calculated.",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii"
+      ],
+      "concept": "Inclined plane reduces effort",
+      "bloom": "apply",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "192",
+      "form": "case_study",
+      "page": 337,
+      "stem": "A logistics company is loading heavy cargo crates, each weighing 1000 N, into a delivery truck. The flat bed of the truck is exactly 1.5 metres above the ground level. The workers initially attempt to lift the crates vertically but find it physically exhausting. They decide to use a sturdy wooden plank as a sliding ramp. First, they try a 3-metre-long ramp, which requires a moderate push. Later, they switch to a longer 5-metre plank. The workers immediately notice a significant difference in how hard they have to push to move the same crates up into the truck. QUESTIONS: (a) What type of simple machine is the wooden ramp used by the workers? (b) Calculate the theoretical mechanical advantage of the 3-metre-long ramp. (c) How does using the ramp make the work easier for the workers compared to lifting the crates vertically? Mention the physical trade-off involved. (d) Explain why the 5-metre-long ramp made it easier to push the crates compared to the 3-metre-long ramp.",
+      "answer": "(a) The wooden ramp is an inclined plane. (b) Mechanical advantage of an inclined plane = Length of the plane (L)/Height (h) = 3 m/1.5 m = 2. (c) The ramp makes work easier by allowing the workers to apply a smaller force over a longer distance to raise the crate to the same height. The trade-off is that while the effort required is smaller, the distance over which the effort must be applied increases, keeping total work done constant. (d) The 5-metre ramp is longer, meaning it has a gentler slope. Since mechanical advantage equals Length/Height, increasing the length for the same height increases the mechanical advantage. Therefore, less effort force is required to move the load up the longer ramp.",
+      "sub_parts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "concept": "Role of simple machines",
+      "bloom": "analyze",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "193",
+      "form": "case_study",
+      "page": 333,
+      "stem": "During the recess bell, two children, Aryan and Meera, rush to play on a wooden seesaw in the school playground. The seesaw consists of a long, rigid board resting on a fixed central pivot point. Aryan, who is heavier with a mass of 40 kg, sits 1.5 metres away from the pivot on the left side. Meera, whose mass is 30 kg, sits on the opposite right side. Initially, the seesaw heavily drops down on Aryan’s side. To successfully balance the seesaw horizontally in the air, Meera slides her seating position further back towards the edge of the board. QUESTIONS: (a) Identify the fulcrum in the context of the seesaw. (b) Which specific class of lever does a seesaw represent, and why? (c) State the principle of a lever mathematically, relating effort, load, and their respective arms. (d) At what exact distance from the pivot must Meera sit to perfectly balance the seesaw horizontally? (e) Explain the scientific principle behind how Meera, despite having a smaller mass, is able to balance Aryan’s heavier mass on the seesaw.",
+      "answer": "(a) The fixed central pivot point on which the wooden board rests is the fulcrum. (b) A seesaw represents a Class I lever because the fulcrum is situated between the load (Aryan’s weight) and the effort (Meera’s weight). (c) The principle of a lever mathematically is: effort × effort arm = load × load arm. (d) Using the principle of levers: 30 kg × distance (L) = 40 kg × 1.5 m. Therefore, 30 × L = 60, which gives L = 2 metres. Meera must sit 2 metres from the pivot. (e) A lever allows a smaller force to overcome a larger force by increasing the distance of the smaller force from the fulcrum. Meera balances Aryan by sitting further away from the pivot, increasing her effort arm, which compensates for her smaller mass and equalizes the turning effect on both sides.",
+      "sub_parts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "concept": "Classes of levers",
+      "bloom": "analyze",
+      "dok": 3,
+      "difficulty": 4
+    },
+    {
+      "number": "194",
+      "form": "case_study",
+      "page": 333,
+      "stem": "A car of mass 1000 kg is moving with a uniform velocity of 20 m/s. The driver then applies brakes and the car comes to rest after travelling some distance. 1. Calculate the initial kinetic energy of the car when it was moving at 20 m/s. 2. What is the kinetic energy of the car when it comes to rest? 3. What is the work done by the braking force to stop the car? 4. If the car had doubled its speed to 40 m/s, how would its initial kinetic energy change?",
+      "answer": "1. Initial kinetic energy (Ek) = 1/2 mv² = 1/2 × 1000 kg × (20 m/s)² = 1/2 × 1000 × 400 = 200,000 J. 2. When the car comes to rest, its velocity is 0 m/s, so its kinetic energy is 1/2 × 1000 kg × (0 m/s)² = 0 J. 3. The work done by the braking force is equal to the change in kinetic energy of the car. Work done = Final Ek − Initial Ek = 0 − 200,000 J = −200,000 J. The negative sign indicates that the work is done by the force opposing the motion. 4. If the speed doubled to 40 m/s, the kinetic energy would be Ek = 1/2 × 1000 kg × (40 m/s)² = 1/2 × 1000 × 1600 = 800,000 J. This is four times the initial kinetic energy, since Ek is proportional to v².",
+      "sub_parts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "concept": "Kinetic energy formula",
+      "bloom": "apply",
+      "dok": 2,
+      "difficulty": 3
+    },
+    {
+      "number": "195",
+      "form": "case_study",
+      "page": 333,
+      "stem": "A coconut of mass 2 kg is attached to a tree at a height of 10 meters above the ground. It then detaches and falls freely to the ground. (Assume g = 9.8 m/s² and neglect air resistance). 1. What is the potential energy of the coconut when it is at a height of 10 meters? 2. What is the kinetic energy of the coconut just before it hits the ground (assuming all potential energy is converted to kinetic energy)? 3. According to the law of conservation of energy, what is the sum of potential and kinetic energy of the coconut at any point during its fall? 4. At what point during its fall is the coconut’s kinetic energy at a maximum? At what point is its potential energy at a maximum?",
+      "answer": "1. Potential energy (Ep) = mgh = 2 kg × 9.8 m/s² × 10 m = 196 J. 2. Just before it hits the ground (h = 0), all its initial potential energy is converted into kinetic energy. So, its kinetic energy will be 196 J. 3. According to the law of conservation of energy, the sum of potential and kinetic energy (total mechanical energy) of the coconut remains constant at any point during its fall, which is 196 J. 4. The coconut’s kinetic energy is at a maximum just before it hits the ground (when its velocity is highest). Its potential energy is at a maximum when it is at its initial height of 10 meters (before it starts falling).",
+      "sub_parts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "concept": "Total energy conservation law",
+      "bloom": "apply",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "196",
+      "form": "case_study",
+      "page": 334,
+      "stem": "An electric bulb is rated as 100 W. It is used for 5 hours daily. 1. What does “100 W” rating for the bulb signify? 2. How much electrical energy does the bulb consume in 1 second? 3. Calculate the total electrical energy consumed by the bulb in joules if it is used for 5 hours. 4. The “unit” of energy often mentioned in electricity bills is kilowatt-hour (kWh). How many joules are there in 1 kWh?",
+      "answer": "1. The “100 W” rating signifies that the bulb consumes electrical energy at the rate of 100 joules per second. 2. The bulb consumes 100 joules of electrical energy in 1 second. 3. Time = 5 hours = 5 × 60 × 60 = 18000 s. Energy consumed = Power × Time = 100 W × 18000 s = 1,800,000 J, or 1.8 × 10^6 J. 4. 1 kWh = 1 kilowatt × 1 hour = 1000 W × 3600 s = 1000 J/s × 3600 s = 3,600,000 J, or 3.6 × 10^6 J.",
+      "sub_parts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "concept": "Watt as SI unit of power",
+      "bloom": "recall",
+      "dok": 2,
+      "difficulty": 2
+    },
+    {
+      "number": "197",
+      "form": "case_study",
+      "page": 334,
+      "stem": "A construction site worker needs to lift a heavy concrete block weighing 300 kg using a lever. The worker can apply a maximum effort of 100 kg. To achieve this, the worker uses a Class I lever where the distance from the fulcrum to the point where the effort is applied (effort arm) is 3 meters, and the distance from the fulcrum to the load (load arm) is 1 meter. Illustration of a Class I lever where effort (E), load (L), and fulcrum (F) are shown. (i) Calculate the mechanical advantage (MA) of the lever. (ii) Determine if the worker can lift the concrete block with the given lever setup. (iii) Calculate the velocity ratio (VR) of the lever. (iv) What is the efficiency (η) of the lever if it is an ideal machine?",
+      "answer": "(i) The mechanical advantage (MA) of the lever is calculated using the formula: MA = Load/Effort = 300 kg/100 kg = 3. (ii) Effective Force = Effort × MA = 100 kg × 3 = 300 kg. Thus, the worker can lift the 300 kg concrete block with the lever. (iii) VR = Effort arm/Load arm = 3 m/1 m = 3. (iv) For an ideal machine the efficiency (η) is 100%. In practical terms, efficiency is given by η = (MA/VR) × 100%. For this ideal lever system, η = (3/3) × 100 = 100%. Therefore, the lever operates at 100% efficiency as an ideal machine.",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "concept": "Mechanical advantage",
+      "bloom": "evaluate",
+      "dok": 3,
+      "difficulty": 3
+    },
+    {
+      "number": "198",
+      "form": "case_study",
+      "page": 335,
+      "stem": "Let’s consider a block and tackle pulley system with 4 pulleys (2 in the upper block and 2 in the lower block) to illustrate the concepts. (i) What is the mechanical advantage (MA) of the given block and tackle system if the weight of the pulleys is negligible? (ii) If the load (L) to be lifted is 200 N, what is the effort (E) required to lift the load using this block and tackle system? (iii) What is the velocity ratio (VR) of the given block and tackle system? (iv) If the efficiency (η) of the block and tackle system is 80%, what is the actual effort required to lift the 200 N load?",
+      "answer": "(i) The mechanical advantage (MA) of the system is equal to the number of pulleys in the system. In this case, with 4 pulleys, the MA is 4. (ii) The effort required (E) can be calculated using the mechanical advantage. Given that MA = 4, E = L/MA = 200 N/4 = 50 N. (iii) The velocity ratio (VR) is also equal to the number of pulleys in the system. For this system with 4 pulleys, the VR is 4. (iv) The actual effort required, allowing for the efficiency η = 0.8 (or 80%), is E(actual) = E/η = 50 N/0.8 = 62.5 N.",
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "concept": "Movable pulley system",
+      "bloom": "apply",
+      "dok": 3,
+      "difficulty": 4
+    }
+  ]
+}

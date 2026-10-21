@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8606,
+ "mappings": [
+  {
+   "sha": "5dc1784f9628567d",
+   "codes": ["C-2.5-LO-2"],
+   "note": "Single substitution into W = F x s with force and displacement aligned - LO-2. No gravity, no energy form, so none of the LO-6 or LO-7 siblings apply."
+  },
+  {
+   "sha": "07078045d32b5fd7",
+   "codes": ["C-2.6-LO-2"],
+   "note": "P = W/t for a lamp. Calculation only, so C-2.6-LO-2 and not C-2.6-LO-1; this stem recurs three times in the chapter and each occurrence honestly carries the same single outcome."
+  },
+  {
+   "sha": "ea9ded275640a1a0",
+   "codes": ["C-2.5-LO-6"],
+   "note": "Inverts PE = mgh for the height. LO-6 covers calculating with the potential-energy expression regardless of which symbol is unknown; LO-5 would require stating or deriving mgh instead."
+  },
+  {
+   "sha": "09dbffb765b43b81",
+   "codes": ["C-2.5-LO-2"],
+   "note": "W = F x s with the answer's emphasis on expressing it in joules. Arithmetically identical to L148 - a family that genuinely shares LO-2, since the unit clause alone does not pull it over to LO-1."
+  },
+  {
+   "sha": "fdab2a8973b872a8",
+   "codes": ["C-2.5-LO-6"],
+   "note": "Velocity tripled gives a 1:9 KE ratio - the squared-velocity dependence worked through the expression, LO-6. The same outcome as the doubling items; only the factor differs."
+  },
+  {
+   "sha": "3b15597a702242a2",
+   "codes": ["C-2.5-LO-2", "C-2.5-LO-6"],
+   "note": "Asks for WORK (LO-2) but the route is weight times height, i.e. the mgh expression (LO-6). Paired with L124; both straddle the work and potential-energy outcomes."
+  },
+  {
+   "sha": "f63355032ba80465",
+   "codes": ["C-2.5-LO-1", "C-2.5-LO-2"],
+   "note": "Two genuinely different halves: (a) gravity does zero work on an orbiting satellite, decided from the definition (LO-1), while (b) is a straight mgh work calculation (LO-2). One of the few items where the definition and the computation are both marked."
+  },
+  {
+   "sha": "0cd5e24fbea21be2",
+   "codes": ["C-2.5-LO-6"],
+   "note": "Scales a known PE by h/4 and 4h - proportional reasoning inside mgh, so LO-6. Not LO-5: the expression is used, never stated or derived."
+  },
+  {
+   "sha": "e563958542d29170",
+   "codes": ["C-2.6-LO-1", "C-2.6-LO-2"],
+   "note": "Unlike the three bare lamp numericals, this one first asks for the DEFINITION of one watt, which is C-2.6-LO-1's unit clause; the calculation half is C-2.6-LO-2. That definition is the only thing separating it from L149 and L157."
+  },
+  {
+   "sha": "3f877db72c46e729",
+   "codes": ["C-2.6-LO-2"],
+   "note": "Word-for-word the same lamp calculation as L149. Recorded with the identical single outcome rather than manufacturing a difference the item does not contain."
+  },
+  {
+   "sha": "9495c95e3e68fa2b",
+   "codes": ["C-2.5-LO-6"],
+   "note": "KE ratio 1:4 for v against 2v - the expression applied, LO-6. Same outcome as L152 and L160; the chapter simply repeats this comparison at several factors."
+  },
+  {
+   "sha": "9915f60c1a58257b",
+   "codes": ["C-2.5-LO-3", "C-2.5-LO-5"],
+   "note": "The stated goal is to SHOW work equals the change in kinetic energy, so the work-energy theorem (LO-3) leads; the derivation incidentally produces 1/2 mv^2 (LO-5). The mirror of S85, where deriving KE is the goal and the theorem is the tool."
+  },
+  {
+   "sha": "331e0e936453ea3b",
+   "codes": ["C-2.5-LO-6"],
+   "note": "Evaluates 1/2 mv^2 once and again for doubled velocity - two substitutions, one outcome. LO-6; the doubling observation is arithmetic here, not a stated relationship."
+  },
+  {
+   "sha": "00b3e834e051f5f1",
+   "codes": ["C-2.5-LO-6"],
+   "note": "Solves the KE expression for the MASS and then re-evaluates for tripled velocity. Both directions of LO-6; no definition or theorem is invoked."
+  },
+  {
+   "sha": "d1e41c17cdcc91ab",
+   "codes": ["C-2.5-LO-6"],
+   "note": "PE = mgh inverted for height, the same as L150 with different numbers. A near-duplicate pair that shares LO-6 honestly."
+  },
+  {
+   "sha": "5b8dac17b0a85097",
+   "codes": ["C-2.6-LO-2"],
+   "note": "Same work, two different times, two powers - P = W/t computed twice (C-2.6-LO-2). The equal-work observation is implicit, so C-2.6-LO-1 is not added as it is in the stairs discussion items."
+  },
+  {
+   "sha": "18f283d53885adc1",
+   "codes": ["C-2.5-LO-2"],
+   "note": "W = F x s for a plough, force along the furrow. LO-2; this sits with L148/L151 as the plain work-calculation family."
+  },
+  {
+   "sha": "a0ad73b9fe371c18",
+   "codes": ["C-2.5-LO-3", "C-2.5-LO-6"],
+   "note": "Work found as the DIFFERENCE of two kinetic energies, which is the work-energy theorem (LO-3) with LO-6 for evaluating them. Not LO-2: no force or distance is given, so W = F x s is unusable."
+  },
+  {
+   "sha": "a1ea17d882c94fd0",
+   "codes": ["C-2.6-LO-2"],
+   "note": "WEAK FIT on the second half. The lamp power is clean C-2.6-LO-2, but the heater part asks for energy over 10 hours expressed in kWh, and commercial energy units have no outcome in curriculum 82."
+  },
+  {
+   "sha": "275f80a3cb044de6",
+   "codes": ["C-2.5-LO-3", "C-2.5-LO-6"],
+   "note": "Stopping work equals the kinetic energy destroyed - work-energy theorem (LO-3) with the KE evaluation (LO-6). Same outcome pair as L165; accelerating and stopping are the same skill with opposite sign, and the frame does not separate them."
+  },
+  {
+   "sha": "be9bb803529d0a6e",
+   "codes": ["C-2.6-LO-2"],
+   "note": "WEAK FIT. E = P x t for four devices (C-2.6-LO-2), but the item is graded on expressing the result in joules AND commercial units, and the kWh has no outcome in this frame."
+  },
+  {
+   "sha": "d45dd2ec3bc8e40c",
+   "codes": ["C2.6", "C-2.6-LO-3"],
+   "note": "POOR FIT. Solved entirely by the principle of moments about a fulcrum, including locating the scale's centre of gravity - no outcome states the moment principle. C-2.6-LO-3 covers the metre scale as a lever and C2.6 is the nearest thing to the force-times-arm relation."
+  },
+  {
+   "sha": "9a5182e178abb72d",
+   "codes": ["C-2.6-LO-3", "C2.6", "C8.1"],
+   "note": "POOR FIT. Parts (ii) and (iv) are velocity ratio, which has no code at all; part (iii) is a tension relation the frame never mentions. Only the pulley identification (LO-3) and the copy-and-mark-the-diagram task (C8.1) are genuinely covered."
+  },
+  {
+   "sha": "ece3472f8399cf31",
+   "codes": ["C-2.6-LO-3", "C2.6"],
+   "note": "Contrasts two named pulley types (LO-3) by the effort each demands, i.e. their mechanical advantage of 1 versus 2 (C2.6). The comparison of two machines is what earns LO-3 here, unlike the bare MA computations."
+  },
+  {
+   "sha": "f2c139edec39d1cb",
+   "codes": ["C2.6", "C-2.5-LO-2"],
+   "note": "POOR FIT: of four sub-parts, only the work done by the effort maps cleanly (LO-2) and only MA touches C2.6. Velocity ratio and efficiency, which carry half the marks, have no outcome anywhere in curriculum 82."
+  }
+ ]
+}

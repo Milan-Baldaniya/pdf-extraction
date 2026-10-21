@@ -1,0 +1,29 @@
+{
+ "chapter_id": 23512,
+ "mappings": [
+  {"sha": "6894669b8766d9dd", "codes": ["C-4.1-LO-1"],
+   "note": "Two points on a circle give OA = OB, a quadratic in y, and then the radius. Every step is the distance formula; no section or midpoint idea appears."},
+  {"sha": "2a94238d37c52c3c", "codes": ["C-4.1-LO-1"],
+   "note": "Chooses between two bus routes by comparing AC + CB against AB - three distance computations and a comparison. Distance outcome, applied."},
+  {"sha": "d53a62234fe2bf3c", "codes": ["C-4.1-LO-3", "C-4.1-LO-1", "C-4.2"],
+   "note": "Three genuinely different asks: the diagonals meet at their common MIDPOINT (LO-3), the diagonal length is a DISTANCE (LO-1), and the board's AREA is wanted. The area is of a rectangle, which C-4.2-LO-1 does not cover, so it sits at competency level."},
+  {"sha": "6dd11567a532fa1e", "codes": ["C-4.1-LO-3", "C-4.1-LO-1"],
+   "note": "The fourth pole D is placed so ABCD is a parallelogram, which is a diagonal-MIDPOINT argument (LO-3); the remaining parts are pole-to-pole DISTANCES (LO-1). Positions are read from a grid the stem does not carry."},
+  {"sha": "91f96a01b0509d60", "codes": ["C-4.1-LO-1"],
+   "note": "Distances between each pair of three stars, and their comparison. Pure distance formula, three times."},
+  {"sha": "08ad3265cef51414", "codes": ["C-4.1-LO-1"],
+   "note": "Journey lengths SP, SH and HP compared to decide a route. Distance outcome; coordinates are read off a graph."},
+  {"sha": "3b8d7220ddb73f1a", "codes": ["C-4.1-LO-1", "C-4.1-LO-2"],
+   "note": "Most parts are DISTANCES between seats (LO-1), but the last part places D with AD:DB = 4:3, which needs the SECTION formula (LO-2). Both are genuinely exercised."},
+  {"sha": "31b1b1484116a9ec", "codes": ["C-4.1-LO-1"],
+   "note": "Compass displacements from the house are turned into coordinates and then into DISTANCES between the landmarks. Distance outcome throughout the parts that are legible in the stem."},
+  {"sha": "402ad7028680852a", "codes": ["C-4.1-LO-1"],
+   "note": "Side and diagonal lengths of the assembly formation ABCD, each by the distance formula. Coordinates come from the grid rather than the stem."},
+  {"sha": "c263fcea51d5b673", "codes": ["C-4.1-LO-1"],
+   "note": "Which society is nearest the office, and the society-to-society distances. Comparison of distances from the origin and between points."},
+  {"sha": "70de64e06cc2a48f", "codes": ["C-4.1-LO-1", "C-4.1-LO-3"],
+   "note": "Flag positions and the DISTANCE between them (LO-1), then the blue flag exactly halfway, i.e. the MIDPOINT (LO-3). The twin of the earlier sports-day item, with the pots along AB instead of AD."},
+  {"sha": "6edd85bdb16e8d85", "codes": ["CG-4", "C-4.1-LO-1"],
+   "note": "Parts (i)-(iii) re-read the SAME triangle against three different corners taken as origin - a change-of-origin exercise that no outcome in this frame covers, so CG-4. Parts (iv)-(v) are then distances (LO-1), and the point is that they are unchanged by the shift."}
+ ]
+}

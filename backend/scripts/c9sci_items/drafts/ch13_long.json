@@ -1,0 +1,110 @@
+{
+ "chapter": 13,
+ "chapter_id": 8618,
+ "extraction_id": 604,
+ "section": "long",
+ "items": [
+  {
+   "number": "119",
+   "form": "long",
+   "page": 581,
+   "stem": "(a) What is the fundamental difference between the fast and slow carbon cycles?\n(b) How do human activities, specifically the burning of fossil fuels, disrupt this natural cycle?",
+   "answer": "(a) The fast carbon cycle occurs over days to years, where plants convert atmospheric carbon dioxide into glucose using sunlight through photosynthesis. Carbon dioxide is then released back into the atmosphere through respiration by plants and animals. When these organisms die, decomposition also returns carbon to the environment. Conversely, the slow cycle occurs over millions of years, where dead plants and animals get buried under immense pressure and are converted into fossil fuels like coal, oil, and gas, storing carbon for extensive periods.\n(b) Excessive burning of these fossil fuels releases massive amounts of this stored carbon back into the atmosphere on a very short time scale. This rapid release overwhelms natural carbon sinks like oceans and forests, leading to an increased concentration of greenhouse gases, which intensifies the greenhouse effect, causes global warming, and alters global climate patterns drastically.",
+   "concept": "Slow carbon cycle",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "120",
+   "form": "long",
+   "page": 584,
+   "stem": "(a) Can you draw a labelled diagram showing the layers of the Earth’s atmosphere?\n(b) Why does the temperature decrease with height in the troposphere but increase with height in the stratosphere?\n(c) What is one key feature of each of these two layers?",
+   "answer": "(a) (Diagram described in words.) The labelled sketch shows the atmosphere as horizontal bands stacked above the Earth’s surface, with altitude marked up the side: the troposphere from the ground to about 12 km, with clouds and weather drawn in it; the stratosphere from about 12 km to 50 km, with the ozone layer marked within it; the mesosphere from about 50 km to 85 km; the thermosphere above that; and the exosphere at the top, merging into space. An arrow beside the bands shows temperature falling through the troposphere, rising through the stratosphere, falling again through the mesosphere and rising through the thermosphere.\n(b) It is heated primarily from the Earth’s surface below, which absorbs solar radiation and warms the air just above it. Consequently, as warm air rises and expands, the temperature steadily decreases with increasing height in this layer. This crucial layer absorbs harmful ultraviolet radiation from the Sun, converting this high-energy radiation into heat. Because this heat absorption occurs predominantly in the upper regions of the stratosphere, the temperature actually increases with height.\n(c) The troposphere is the lowest atmospheric layer where virtually all weather phenomena, such as cloud formation and precipitation, occur. In contrast, the stratosphere is located directly above the troposphere and contains the vital ozone layer. This temperature inversion creates a highly stable atmospheric layer lacking vertical air mixing, which keeps weather strictly confined to the troposphere below and allows commercial aircraft to fly smoothly.",
+   "concept": "Atmospheric layers shape weather",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "121",
+   "form": "long",
+   "page": 584,
+   "stem": "(a) What is the definition of the term ‘solar constant’ and what is its approximate value?\n(b) Why is the actual insolation reaching the Earth’s surface lower than the solar constant?\n(c) How do you calculate the solar energy received by a 2 m² area in 30 minutes if the insolation on the Earth’s surface is 800 W m⁻²?",
+   "answer": "(a) The solar constant is the average amount of solar energy received per unit time per unit area that is perpendicular to the Sun’s rays at the top of the Earth’s atmosphere. Its approximate value is 1.4 kilowatts per square metre.\n(b) However, the actual insolation reaching the Earth’s surface is lower than this value because a significant portion of the incoming solar energy is absorbed, scattered, and reflected by gases, clouds, and dust particles present in the atmosphere before it can reach the ground.\n(c) To calculate the solar energy received, we use the formula: Energy equals Intensity multiplied by area and time. Given Intensity is 800 watts per square metre, Area is two square metres, and Time is thirty minutes, which equals eighteen hundred seconds. Energy equals 800 multiplied by 2 multiplied by 1800. Therefore, the solar energy received is 2,880,000 Joules.",
+   "concept": "Solar energy calculation",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "122",
+   "form": "long",
+   "page": 584,
+   "stem": "(a) What is the definition of ocean currents and what are two major factors that drive them?\n(b) How do ocean currents play a fundamental role in regulating the Earth’s climate?\n(c) How can you illustrate your answer with the example of the Gulf Stream?",
+   "answer": "(a) Ocean currents are the continuous, predictable movements of large masses of ocean water across the globe. These massive flows of water are primarily driven by planetary pressure differences, strong planetary winds that drag the surface water due to friction, and variations in water temperature and salinity.\n(b) Ocean currents play a fundamental role in regulating the Earth’s climate by transporting immense amounts of heat from the warm equator towards the frigid poles, thereby effectively reducing extreme temperature differences across the planet.\n(c) For example, the Gulf Stream is a very powerful, warm ocean current that carries warm water from the southern part of the North American east coast across the Atlantic Ocean. It flows toward the northwestern coast of Europe, providing a moderating influence that keeps many European ports comfortably ice-free even during severe winter months.",
+   "concept": "Ocean currents and driving forces",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "123",
+   "form": "long",
+   "page": 583,
+   "stem": "(a) Can you draw a flowchart depicting the complex nitrogen cycle?\n(b) What are the specific roles of nitrogen-fixing bacteria and denitrifying bacteria in maintaining the critical nitrogen balance in the atmosphere?",
+   "answer": "(a) (Diagram described in words.) The flowchart begins with a box for atmospheric nitrogen. An arrow labelled nitrogen fixation, by Rhizobium and Azotobacter and by lightning, leads to a box for ammonia in the soil. From ammonia, an arrow labelled nitrification by Nitrosomonas leads to nitrites, and a further arrow labelled nitrification by Nitrobacter leads to nitrates. An arrow labelled assimilation runs from nitrates to plant proteins, and a further arrow runs from plants to animals through feeding. From dead plants and animals and their waste, an arrow labelled ammonification by decomposers returns to the ammonia box, closing the inner loop. Finally an arrow labelled denitrification by Pseudomonas runs from nitrates back to the atmospheric nitrogen box, closing the cycle.\n(b) Nitrogen is crucial for synthesizing proteins and nucleic acids in all living organisms, but atmospheric nitrogen gas is non-reactive and cannot be directly utilized by most plants and animals. Nitrogen-fixing bacteria, such as Rhizobium found in the root nodules of leguminous plants, and Azotobacter in the soil, play a vital role by converting this inert atmospheric nitrogen into ammonia. This ammonia is then further processed into soluble nitrates that plants can readily absorb from the soil to support their growth. Conversely, denitrifying bacteria, such as Pseudomonas, perform the crucial task of converting these soil nitrates back into nitrogen gas. This biological process releases the nitrogen back into the atmosphere, thereby completing the biogeochemical cycle and ensuring a stable, continuous balance of nitrogen in the ecosystem, preventing the permanent depletion of this essential atmospheric gas.",
+   "concept": "Nitrogen fixation",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "124",
+   "form": "long",
+   "page": 583,
+   "stem": "(a) How are local winds like valley and mountain breezes formed?\n(b) Why do these daily wind reversals occur and what is their significance for agriculture and daily life in hilly regions?",
+   "answer": "(a) Valley and mountain breezes are local winds formed primarily due to the uneven heating and cooling of mountain slopes and valley floors. During the daytime, the mountain slopes facing the Sun heat up much faster than the shaded valley floor below. The air directly above these warm slopes becomes lighter and rises, creating a low-pressure region. Consequently, cooler and denser air from the valley moves up the slopes to fill this gap, forming a valley breeze.\n(b) After sunset, the process reverses entirely. The mountain slopes lose heat rapidly and cool down faster than the valley floor. The air over the slopes becomes cold and heavy, flowing down into the valley under the influence of gravity, which generates a mountain breeze. These daily local winds are incredibly significant because they help regulate temperature, influence moisture conditions, and support vital agriculture in hilly regions.",
+   "concept": "Mountain breeze formation",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "125",
+   "form": "long",
+   "page": 583,
+   "stem": "(a) How would you briefly describe the geosphere, hydrosphere, and biosphere?\n(b) How can a significant change in the cryosphere directly impact both the hydrosphere and the biosphere, explained with an appropriate example?",
+   "answer": "(a) The geosphere comprises the Earth’s solid rocks, soil, landforms, and interior structure. The hydrosphere includes all liquid water on Earth, such as oceans, rivers, lakes, and groundwater. The biosphere encompasses all living organisms and their respective habitats across the planet.\n(b) All these spheres are deeply interconnected, meaning a disturbance in one easily cascades into the others. For instance, if atmospheric temperatures rise, it accelerates the melting of glaciers and polar ice caps within the cryosphere. This excess melted ice directly enters the hydrosphere, significantly raising global sea levels. The elevated sea levels then severely impact the biosphere by flooding low-lying coastal regions, which destroys critical habitats like mangroves and coral reefs. This massive habitat loss threatens countless marine and terrestrial species, clearly demonstrating the delicate balance and profound interdependence of the Earth’s continuous natural systems.",
+   "concept": "Sphere disturbance causes changes",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "126",
+   "form": "long",
+   "page": 580,
+   "stem": "(a) What vital role do greenhouse gases play in supporting biological life on Earth?\n(b) How do human activities disrupt this natural balance?\n(c) What are the potential long-term consequences of this disruption?",
+   "answer": "(a) Greenhouse gases like carbon dioxide, methane, and water vapour play a crucial protective role by absorbing the infrared radiation re-radiated from the Earth’s surface. They trap this outgoing heat, preventing it from escaping into space, thereby keeping the Earth warm enough to sustain biological life. Without this natural greenhouse effect, the planet would be dangerously cold.\n(b) However, human activities disrupt this delicate balance significantly. The extensive burning of fossil fuels for energy and widespread deforestation drastically increase atmospheric carbon dioxide levels. Simultaneously, agricultural practices and livestock rearing release massive amounts of methane. This excess concentration of greenhouse gases intensifies the heat-trapping effect, causing unnatural global warming.\n(c) The severe consequences include extreme weather patterns, accelerated melting of polar ice, rising sea levels threatening coastal cities, disrupted agricultural cycles, and immense biodiversity loss across various global ecosystems.",
+   "concept": "Greenhouse gases trap heat",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "127",
+   "form": "long",
+   "page": 580,
+   "stem": "(a) Can you draw a schematic diagram of the water cycle?\n(b) How does this cycle act as a vital link connecting the Earth’s different spheres?\n(c) What specific impact does climate change have on this natural process?",
+   "answer": "(a) (Diagram described in words.) The schematic shows the Sun above an ocean and a range of hills. Arrows rise from the ocean labelled evaporation and from trees on the land labelled transpiration, both leading up to clouds labelled condensation. From the clouds, arrows fall as rain and snow labelled precipitation. On the ground, one arrow labelled surface runoff flows over the land through a river back to the ocean, while another arrow labelled infiltration passes down into the soil to a groundwater layer, which feeds back to the ocean, closing the cycle.\n(b) The water cycle continuously links all Earth’s spheres through dynamic processes. Water evaporates from the hydrosphere and transpires from plants in the biosphere, entering the atmosphere as moisture. It then condenses and precipitates back to the surface, where it flows over the geosphere causing soil erosion, or infiltrates the ground to sustain plant life. It transports essential dissolved minerals from soil to oceans, directly supporting both terrestrial and marine ecosystems.\n(c) However, climate change severely disrupts this intricate cycle. A warmer atmosphere holds substantially more moisture, which leads to intense, concentrated rainfall and devastating floods in certain regions, while simultaneously causing prolonged droughts in others. Furthermore, sudden bursts of heavy rainfall increase rapid surface runoff, which significantly reduces the slow infiltration needed to recharge vital groundwater reserves, thereby threatening agricultural sustainability, drinking water supplies, and global food security.",
+   "concept": "Water cycle pathways",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4,
+   "reproduction": "ai_rephrased"
+  }
+ ]
+}

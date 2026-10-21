@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "024faf3a28644c0b",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Two equal coils used singly, in series and in parallel (LO-2), with I = V/R each time (LO-1). No heat output is asked for, so despite the oven context C 2.5-LO-2 is not graded. Flag: the stem says a 200 V line but the stored answer works throughout at 220 V."
+  },
+  {
+   "sha": "486cd36221ec5efd",
+   "codes": ["C 2.5-LO-1", "C 2.4-LO-2"],
+   "note": "Brightness is power per bulb, so C 2.5-LO-1 leads; the comparison and the one-bulb-fuses question both turn on how series and parallel behave (LO-2). Kept off C 2.5-LO-2 because nothing about the filament's heating mechanism is graded."
+  },
+  {
+   "sha": "5dde78e5e3aa7147",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-1", "C 2.4-LO-3"],
+   "note": "Part (i) demands a labelled circuit diagram (LO-5) and the V-to-I relation it establishes (LO-1); part (ii) is a separate geometry problem, halved length and doubled area (LO-3). The two halves share no data."
+  },
+  {
+   "sha": "da5e93df76016d82",
+   "codes": ["C 2.4-LO-2", "C 2.5-LO-2", "C 2.5-LO-1"],
+   "note": "Four sub-parts, three slots: mixed-combination equivalent resistance (LO-2), Joule's law and the fuse rating (C 2.5-LO-2), and I = P/V for the 1 kW iron (C 2.5-LO-1). Part (d), why a bulb and a heater cannot share a series circuit, also belongs to LO-2 and so costs no extra code."
+  },
+  {
+   "sha": "d4861d40e332aa19",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Derives the three-resistor parallel rule from I = I1 + I2 + I3 with Ohm's law on each branch, then finds the minimum arrangement of four equal resistors. A derive-plus-design item, so LO-1 is cited as the working engine rather than as a separate answer."
+  },
+  {
+   "sha": "dfa122e11e21a6be",
+   "codes": ["C 2.5-LO-1", "C 2.4-LO-1"],
+   "note": "Defines power, then computes P = VI and energy in kWh (C 2.5-LO-1); the middle sub-part R = V/I is Ohm's law on measured values (C 2.4-LO-1). Note part (a)'s stored answer defines power mechanically as 'rate of doing work' rather than electrically."
+  },
+  {
+   "sha": "bdb878bc85aa3e3f",
+   "codes": ["C 2.5-LO-1"],
+   "note": "R = V^2/P from the rating, then kWh for three bulbs over a month, then the bill. All three sub-parts sit inside LO-1, so a single code is the honest answer rather than a manufactured spread."
+  },
+  {
+   "sha": "c844744591ae552c",
+   "codes": ["C 2.4-LO-1", "C 2.5-LO-1", "C 2.4-LO-2"],
+   "note": "Three distinct demands: the meaning of one ohm (C 2.4-LO-1), the definition of power and P = V^2/R (C 2.5-LO-1), and how many equal resistors in parallel give a target line current (C 2.4-LO-2)."
+  },
+  {
+   "sha": "35b8e92b66fc53ec",
+   "codes": ["C 2.4-LO-1", "C 8.1"],
+   "note": "State the law, draw the V-I graph, substitute one pair of values. A near-verbatim duplicate of item 255 in part 10 and mapped identically; C 8.1 carries the graphical half because LO-5 covers only circuit diagrams and meters."
+  },
+  {
+   "sha": "be8f87641d9447b1",
+   "codes": ["C 2.4-LO-3", "C 2.4-LO-2", "C 2.5-LO-1"],
+   "note": "Cutting into four parts is LO-3 (and the invariance of rho is the graded trap), recombining them in series and parallel is LO-2, and the final part asks which combination consumes more power at fixed voltage (C 2.5-LO-1). Three separately marked steps."
+  },
+  {
+   "sha": "ad9779cbc14d070d",
+   "codes": ["C 2.4-LO-2", "C 8.1-LO-5"],
+   "note": "Disadvantages of series household wiring and an effective-resistance reduction, both LO-2; LO-5 because the stem gives no resistor values and the network exists only in the figure."
+  },
+  {
+   "sha": "3493fa7d90762e7c",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Third re-set of the three-parallel-resistors question, here 10/20/30 ohm on 12 V. Same three graded steps as items 200, 207 and 252; I record the shared codes rather than inventing a difference."
+  },
+  {
+   "sha": "0b4e4d106b5150bd",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Ammeter current is asked for explicitly (LO-5), reached through a series-plus-parallel reduction (LO-2) and V = IR for the two PDs (LO-1). The stem carries no values at all."
+  },
+  {
+   "sha": "c479f38eb1029358",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Part (a) is an experimental design - move the ammeter around a series loop and compare readings - which is LO-5's meter clause used as evidence; part (b) is the series sum (LO-2) and V = IR across one resistor (LO-1)."
+  },
+  {
+   "sha": "d09bc4494a2bc29f",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Asks for a circuit diagram including ammeter, voltmeter and key (LO-5), the derivation of the parallel expression (LO-2) with Ohm's law per branch (LO-1), and then a network evaluation. The drawing requirement is explicit, so LO-5 leads."
+  },
+  {
+   "sha": "74d44915f3f81007",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Proof of the reciprocal rule (LO-2) via branch Ohm's law (LO-1), with a supporting circuit diagram (LO-5). Differs from the previous item only in that the numerical half is a plain two-resistor current, so the proof carries the weight and LO-2 leads."
+  },
+  {
+   "sha": "ba42eb1b096c0728",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1", "C 2.5-LO-1"],
+   "note": "Series total (LO-2), circuit current and the two PDs by V = IR (LO-1), then the lamp's power (C 2.5-LO-1). The power sub-part is what separates this from the otherwise identical series-circuit items."
+  },
+  {
+   "sha": "2f3e87cea8a939d3",
+   "codes": ["C 2.4-LO-2"],
+   "note": "Design task: arrange three equal resistors to hit two target values. Pure LO-2 worked backwards, with no supply, current or power anywhere in the item."
+  },
+  {
+   "sha": "60ba211ffec57571",
+   "codes": ["C 2.5-LO-2", "C 2.5-LO-1", "C 2.4-LO-2"],
+   "note": "Part (a) states Joule's law (LO-2) and part (b) computes the line current for two rated lamps in parallel (C 2.5-LO-1 for the ratings, C 2.4-LO-2 for the parallel combination). Note the two halves are unrelated: Joule's law is never used in the calculation."
+  },
+  {
+   "sha": "9a8abc47b764252e",
+   "codes": ["C 2.4-LO-1", "C 8.1"],
+   "note": "Eight data pairs to be plotted, with R taken from the slope. C 8.1 for building and reading the graphical model; LO-1 for the resistance it yields. Same family as the other plot-and-find-R items."
+  },
+  {
+   "sha": "e0844ccbb376e838",
+   "codes": ["C 2.4"],
+   "note": "Defines current, gives I = Q/t, then computes charge for 0.75 A over 15 minutes. Both halves are the definition of current, which no outcome covers; the competency is the only legal home. Content gap."
+  },
+  {
+   "sha": "290bc0ae120d153c",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Defines power, defines the watt, and derives P = VI from W/t. A statement-and-derivation item rather than a substitution one, but entirely within LO-1."
+  },
+  {
+   "sha": "7e6a1a150d369ecd",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Multi-appliance monthly bill in units at a given rate - the fullest kWh-and-billing item in the chapter, and still a single outcome because nothing but power and time is used."
+  },
+  {
+   "sha": "38ef8c867799dedb",
+   "codes": ["C 2.4-LO-1", "C 8.1"],
+   "note": "Plot, compute R as a mean of three slopes, and say what the graph represents. The averaging of slopes is data-handling (C 8.1), the resistance itself is LO-1. Note the tabulated pair (2.0 A, 6.2 V) is slightly off the line, which is what forces the mean."
+  },
+  {
+   "sha": "44d2582eddfcb4fe",
+   "codes": ["C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "States Ohm's law and substitutes 2 V / 1 A (LO-1), and requires the verification circuit with ammeter and voltmeter (LO-5). The graph sub-part would want C 8.1 as well, but LO-5 is kept because the drawn circuit is the explicitly marked representation."
+  }
+ ]
+}

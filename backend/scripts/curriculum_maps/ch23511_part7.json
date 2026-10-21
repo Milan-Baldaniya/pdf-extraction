@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23511,
+ "mappings": [
+  {
+   "sha": "a49b77fbfd075b97",
+   "codes": ["C-6.2-LO-2"],
+   "note": "the two surds combine over root(sec^2 - 1) = tan, then sec/tan = cosec; sec^2 - 1 = tan^2 is the pivot"
+  },
+  {
+   "sha": "408b0d0f401c6a40",
+   "codes": ["C-6.2-LO-2"],
+   "note": "cancel sin t after writing tan = sin/cos, leaving the sec form; purely the quotient and reciprocal relations applied to a proof"
+  },
+  {
+   "sha": "6b0ac1137daf8b02",
+   "codes": ["C-6.2-LO-2"],
+   "note": "combined denominator cosec^2 - 1 = cot^2, then everything over cos^2; duplicate of sha 41b815c893c4125b reprinted at 5 marks instead of 1"
+  },
+  {
+   "sha": "5f1edbc3eda3be9b",
+   "codes": ["C-6.2-LO-2"],
+   "note": "expand p^2 and use cosec^2 - 1 = cot^2 in the numerator and cot^2 + 1 = cosec^2 in the denominator - the same identity read in both directions in one proof"
+  },
+  {
+   "sha": "e94a55573e274468",
+   "codes": ["C-6.2-LO-2"],
+   "note": "quotient relation clears the first denominator, then the difference of cubes factorisation and sin^2 + cos^2 = 1 finish it"
+  },
+  {
+   "sha": "e2eabea038ac5d35",
+   "codes": ["C-6.2-LO-2"],
+   "note": "square and add so the ab cross terms cancel and sin^2 + cos^2 = 1 is factored out of both a^2 and b^2; the sum-of-squares-invariant family with sha a2090b401d6abd09"
+  },
+  {
+   "sha": "ad8c8aaca025ffee",
+   "codes": ["C-6.2-LO-2"],
+   "note": "p^2 - 1 reduces to 2 sin cos by the Pythagorean identity and then cancels against the sec + cosec sum; two-parameter identity proof"
+  },
+  {
+   "sha": "477d1990e3c1a417",
+   "codes": ["C-6.2-LO-2"],
+   "note": "sin^2 + cos^2 = 1 applied twice at two DIFFERENT angles (first in C, then in A) - the spherical-coordinate identity; nothing here is a table value or a triangle side"
+  },
+  {
+   "sha": "7648db7311263a2c",
+   "codes": ["C-6.2-LO-2"],
+   "note": "each surd rationalised through 1 - sin^2 = cos^2, then the sin terms cancel on addition; the sum version of the single surd in sha d6fd088f9355fb00"
+  },
+  {
+   "sha": "3c9f2ebcf53f31ce",
+   "codes": ["C-6.2-LO-2"],
+   "note": "expansion generates sin^2 + cos^2 = 1 and the rest factorises as (1 + cos)(2 - 2 sin); one identity plus algebra"
+  },
+  {
+   "sha": "a15e494cd0c16bba",
+   "codes": ["C-6.2-LO-2"],
+   "note": "the trick is replacing -1 by -(sec^2 - tan^2) so a common bracket appears; the classic non-obvious use of the derived identity"
+  },
+  {
+   "sha": "93001499370d3b6f",
+   "codes": ["C-6.2-LO-2"],
+   "note": "all three Pythagorean identities plus the reciprocal relations in one expansion; verbatim duplicate of sha 6b8ab53766e66e3a reprinted at 5 marks instead of 3"
+  },
+  {
+   "sha": "43187a283ef9aff7",
+   "codes": ["C-6.1-LO-1"],
+   "note": "symbolic one-ratio-determines-the-rest: sin t = c/root(c^2 + d^2) is the c-d-root(c^2+d^2) triangle, so cos t and tan t follow. Same family as sha a2095bae314a8bcb, no angle ever named"
+  },
+  {
+   "sha": "81e9d6d493b9adc5",
+   "codes": ["C-6.1-LO-1", "C-6.2-LO-2", "C-6.2-LO-1"],
+   "note": "genuinely three-part: the 1-root5-root6 triangle is built from tan t (LO-1), part (1) is evaluated through 1 + cot^2 = cosec^2 and 1 + tan^2 = sec^2 (C-6.2-LO-2), and part (2) asks explicitly to VERIFY sin^2 + cos^2 = 1 (C-6.2-LO-1). The only item in the chapter needing all three"
+  },
+  {
+   "sha": "91f722f9f87ba661",
+   "codes": ["C-6.2-LO-2"],
+   "note": "sec^2 - tan^2 = 1 gives the conjugate, then the sum and difference are solved for sec and tan and inverted to cos and sin; the extended version of MCQ sha febd4f8da39191d9"
+  },
+  {
+   "sha": "274db9fccacf97f5",
+   "codes": ["C-6.2-LO-2"],
+   "note": "expand the square, collect over sin^2, then 1 - cos^2 = sin^2 lets (1 + cos) cancel; identity proof ending in the sec form"
+  },
+  {
+   "sha": "83eb09f5cb4afeff",
+   "codes": ["C-6.2-LO-2"],
+   "note": "sin^2 + cos^2 = 1 is factored out of three separate groupings so the whole thing becomes a perfect square; identity application"
+  },
+  {
+   "sha": "8572680b2fd0b1ce",
+   "codes": ["C-6.2-LO-2"],
+   "note": "each bracket is paired with its conjugate so sec^2 - tan^2 = 1 applies three times; the identity is used structurally rather than to simplify one expression"
+  },
+  {
+   "sha": "c75f12e25bdc2ff3",
+   "codes": ["C-6.2-LO-2", "C-6.1-LO-1"],
+   "note": "two halves: the surd collapses because cosec^2 - cot^2 = 1 and sec^2 - 1 = tan^2 (LO-2), and the numbers come from the 3-root7-4 triangle built from sin t = 3/4 (LO-1). 3/4 is not a standard angle, so no C-6.1-LO-2"
+  },
+  {
+   "sha": "d3a3e3204b308f03",
+   "codes": ["C-6.2-LO-2"],
+   "note": "both derived identities convert the sum to 2 + tan^2 + cot^2 and non-negativity does the rest; an inequality, but the trigonometric content is identity substitution. Companion of sha 8b36db91cc1f5014"
+  },
+  {
+   "sha": "e864e839617bac32",
+   "codes": ["C-6.1-LO-2", "C-6.2-LO-2"],
+   "note": "part (a) is a bare tan 45 lookup; part (b) needs sin^2 + cos^2 = 1 to collapse the sum before sin phi = 1/2 gives 30. Two-part item, so both outcomes are earned"
+  },
+  {
+   "sha": "3c547730d0e59c7c",
+   "codes": ["C-6.2-LO-2"],
+   "note": "m^2 - n^2 = 4 sin tan and mn = tan^2 - sin^2 are reconciled through sin^2/cos^2 - sin^2; the 5-mark proof version of MCQ sha e255b8ac603e20fc"
+  },
+  {
+   "sha": "28cb923ca5f2afa3",
+   "codes": ["C-6.2-LO-2"],
+   "note": "the bracket 1/cos^2 b + 1/sin^2 b is combined using sin^2 + cos^2 = 1 in beta while alpha rides along untouched; two-angle parameter elimination"
+  },
+  {
+   "sha": "5efd75bcd0c4a733",
+   "codes": ["C-6.2-LO-2"],
+   "note": "multiply by the conjugate (cosec + 1) so cosec^2 - 1 = cot^2 appears, then cancel cot; conditional proof driven by the derived identity"
+  },
+  {
+   "sha": "ab2434f2e23679c1",
+   "codes": ["C-6.2-LO-2"],
+   "note": "multiply through by sin t, then 1 - cos^2 = sin^2 exposes a common factor. This is the correctly printed form of the same NCERT problem whose stem is corrupted at sha c0fb840c52e53331"
+  }
+ ]
+}

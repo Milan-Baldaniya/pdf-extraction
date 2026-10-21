@@ -1,0 +1,25 @@
+{
+  "chapter_id": 25852,
+  "links": [
+    {"sha": "qid:113488", "concept_id": 31294, "note": "The sum of a polygon's exterior angles is 360 degrees - the total measure the pentagon-walking activity was set up to produce, quoted back as a fact."},
+    {"sha": "qid:113494", "concept_id": 31292, "note": "Each exterior angle 45 degrees gives 360/45 = 8 sides. Going from the exterior angle to the number of SIDES is exactly what this concept says exterior angles are good for; 31294 is the 360 total itself."},
+    {"sha": "qid:113495", "concept_id": 31294, "note": "Each exterior angle of a regular 9-gon is 360/9 = 40 degrees: the total measure shared equally, so it is the total that is being used."},
+    {"sha": "qid:113496", "concept_id": 31309, "note": "The false option denies that a rectangle's opposite sides are equal. All four options are rectangle properties (equal angles, no obtuse angle, bisecting diagonals, equal opposite sides), which is this concept's content."},
+    {"sha": "qid:113497", "concept_id": 31310, "note": "The false option denies that a square's diagonals cut it into four equal parts; the other three are the square-as-rectangle, square-as-rhombus and perpendicular-bisecting-diagonals facts this concept gathers."},
+    {"sha": "qid:113498", "concept_id": 31302, "note": "A:B = 1:2 in a parallelogram gives A = 60 only because A + B = 180. The supplementary-adjacent-angles property is the whole step."},
+    {"sha": "qid:113500", "concept_id": 31296, "note": "The false option claims all four sides of a kite are equal. A kite has two distinct pairs of equal CONSECUTIVE sides, not four equal sides - this concept's definition."},
+    {"sha": "qid:113502", "concept_id": 31307, "note": "All four sides equal names it a rhombus; the 120/60 adjacent angles are there to stop it being called a square. All-sides-equal is this concept's definition."},
+    {"sha": "qid:113503", "concept_id": 31301, "note": "Angle C equals angle A = 60 degrees because they are opposite angles of a parallelogram - straight application of the equal-opposite-angles property, with 120 offered as the adjacent-angle trap."},
+    {"sha": "qid:113504", "concept_id": 31302, "note": "The angle adjacent to 65 degrees is 115 degrees: adjacent angles of a parallelogram add to 180."},
+    {"sha": "qid:113508", "concept_id": 31304, "note": "A rhombus is a parallelogram, and in general parallelogram diagonals are NOT of equal length, so the statement is false. 31304 is the concept that states non-equality; 31308 gives perpendicular bisection, which does not settle equality."},
+    {"sha": "qid:113509", "concept_id": 31290, "note": "Decides whether every regular polygon passes the convexity test, so the operative definition is the convex/concave one. NOTE: the marked key 'False' is wrong - a regular polygon is necessarily convex. See report."},
+    {"sha": "qid:113510", "concept_id": 31309, "note": "The false option is 'all parallelograms are rectangles', reversing the inclusion. A rectangle is defined here as a parallelogram with every angle right, which is what makes the reversal fail."},
+    {"sha": "qid:113521", "concept_id": 31308, "note": "Two diagonal lengths fix a rhombus and nothing else, because a rhombus's diagonals are perpendicular bisectors of one another - give the two lengths and the figure is determined. That property is this concept."},
+    {"sha": "qid:113524", "concept_id": 31289, "note": "The fewest-sided polygon is a triangle, which follows from what a polygon is - a simple closed figure of line segments needs three. (Option 'Angle' is not a polygon at all.)"},
+    {"sha": "qid:113526", "concept_id": 31294, "note": "The sum of a polygon's exterior angles is 360 degrees - the same total measure as qid 113488, differently worded."},
+    {"sha": "qid:113534", "concept_id": 31292, "note": "Interior angle 108 gives exterior 72 and so 360/72 = 5 sides. Using knowledge of the exterior angle to get at the interior angle and the number of sides is this concept word for word."},
+    {"sha": "qid:113544", "concept_id": 31310, "note": "Equal sides, equal angles AND equal diagonals together single out the square - the intersection of the rhombus and rectangle cases that this concept describes. A rhombus fails on diagonals, a rectangle on sides."},
+    {"sha": "qid:113547", "concept_id": 31292, "note": "The pentagon's 108 degree interior angle makes the target exterior angle 36, hence 360/36 = 10 sides, a decagon. Both halves move between interior and exterior angles and the side count."},
+    {"sha": "qid:113550", "concept_id": 31295, "note": "Angle A of the trapezium comes out as 180 - 65 = 115, which works only because the trapezium has a pair of parallel sides making those two angles co-interior. The pair-of-parallel-sides definition is what the figure turns on."}
+  ]
+}

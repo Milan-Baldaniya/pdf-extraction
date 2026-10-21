@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8605,
+ "mappings": [
+  {
+   "sha": "a1643aab00129981",
+   "codes": ["C-2.1-LO-7"],
+   "note": "F = ma rearranged for a, then v = u + at. Base numerical with the unknown moved to final velocity; no friction, graph or reaction pair to add."
+  },
+  {
+   "sha": "2b63a838625ea8cf",
+   "codes": ["C-2.1-LO-8"],
+   "note": "Bare statement of the third law - the exact text of LO-8. No everyday context to explain, so not LO-65."
+  },
+  {
+   "sha": "6d72bb90aac0066a",
+   "codes": ["C-2.1-LO-8", "LO-62"],
+   "note": "The third law is the subject (LO-8) but the resolution is that a net force is assembled only from forces acting ON one body, which is LO-62's identification skill. That second code is what distinguishes this from the plain statement in O26."
+  },
+  {
+   "sha": "670f5da60e0867f9",
+   "codes": ["C-2.1-LO-8", "LO-65", "LO-63"],
+   "note": "Three codes because all three are load-bearing: walking is the everyday event (LO-65), the mechanism is the action-reaction pair (LO-8), and the reaction force the reason clause names is friction from the ground (LO-63), which is what must be checked."
+  },
+  {
+   "sha": "0bdc0b61e0fed88c",
+   "codes": ["C-2.1-LO-7", "C8.1"],
+   "note": "A controlled experiment varying force and mass: the earlier trials establish the relationship the student manipulates (C8.1), and the missing cell is closed with m = F/a (LO-7). The prior rows are evidence, not decoration."
+  },
+  {
+   "sha": "a0c191659a1776b6",
+   "codes": ["C-2.1-LO-8", "LO-65"],
+   "note": "Everyday propulsion by reaction. Distractor (B), pulling the water forward, is the misconception, so the discrimination is on the third law and not on friction."
+  },
+  {
+   "sha": "503297f9f9918415",
+   "codes": ["C-2.1-LO-8", "LO-65"],
+   "note": "Same pair as O30 - a propulsion-by-reaction event. The bank holds four of these (canoe, rocket, balloon, swimmer) and they genuinely share one outcome."
+  },
+  {
+   "sha": "bd2f7b9fb23367e1",
+   "codes": ["C-2.1-LO-7", "C-2.1-LO-8"],
+   "note": "The recoil force is obtained from the third law (LO-8) and then divided by the gun's mass for an actual value, 25 m/s^2, so LO-7 rather than LO-6."
+  },
+  {
+   "sha": "00197bb69810d212",
+   "codes": ["C-2.1-LO-8"],
+   "note": "The 15 N reading on the second balance is the third law with no further step - no mass and no acceleration appear, so neither LO-6 nor LO-7."
+  },
+  {
+   "sha": "49e9135a77f112d6",
+   "codes": ["C-2.1-LO-8", "LO-65"],
+   "note": "Reaction propulsion in a familiar demonstration; same pair as the canoe and the rocket."
+  },
+  {
+   "sha": "275fae2029f150d0",
+   "codes": ["LO-63", "LO-65"],
+   "note": "The mechanism is friction increasing with each wrap of the rope (LO-63) in a real situation to be explained (LO-65). The sequencing format does not change the outcome."
+  },
+  {
+   "sha": "ca27d8f866df4672",
+   "codes": ["C-2.1-LO-6", "C8.1"],
+   "note": "Procedural and numberless: treat connected bodies as one system, then m = F/a. Symbolic use of the second law is LO-6, and the 'treat as a single system' step is model construction (C8.1). The frame has no outcome for connected-body systems as such."
+  },
+  {
+   "sha": "2f8d09ed4bd16dc8",
+   "codes": ["LO-65", "C2.1"],
+   "note": "Four different everyday scenarios must each be routed to a different principle, so the graded skill is the routing itself (LO-65) across the span of C2.1. Citing any one law outcome would misrepresent the item."
+  },
+  {
+   "sha": "a82017afe2e7c670",
+   "codes": ["LO-62", "C-2.1-LO-8"],
+   "note": "The tension cancels because it is a third-law pair internal to the system (LO-8), and the graded skill is deciding which forces belong on the free body (LO-62). Nearest available fit - the frame has no systems outcome."
+  },
+  {
+   "sha": "2e157ffe0b079ba8",
+   "codes": ["C2.2"],
+   "note": "The value of g is gravity-only content and C2.2 is the sole legal code touching it. C2.2 has no learning outcomes beneath it in this frame, so the competency itself is the most specific citation available."
+  },
+  {
+   "sha": "61f8b7f738a8bbf1",
+   "codes": ["C-2.1-LO-8"],
+   "note": "Tests that the third law is not restricted to contact forces. Statement 2 is false only on the word 'unequal', which is still LO-8's equal-magnitude clause."
+  },
+  {
+   "sha": "2bc8745be2c3e78c",
+   "codes": ["C-2.1-LO-6", "C-2.1-LO-8"],
+   "note": "The assertion supplies the third-law premise (LO-8); the reason that must be validated is a = F/m with a very large m (LO-6). LO-6 leads because that clause is what is graded."
+  },
+  {
+   "sha": "7b4c31c1990b7b8e",
+   "codes": ["LO-66", "C-2.1-LO-6"],
+   "note": "Four materials compared across a data table with the momentum change held constant, so stopping time is isolated as the key variable - LO-66's 'identify the key factors that influence their behaviour'. The cushioning items that merely explain one case take LO-65 instead."
+  },
+  {
+   "sha": "73faa9c91ef71d0e",
+   "codes": ["C-2.1-LO-5"],
+   "note": "Attribution of the term 'inertia', which sits inside the first law's state-and-explain outcome. Galileo is the distractor, so the discrimination is Newton's formalisation of the law."
+  },
+  {
+   "sha": "60d041831ff6fa1c",
+   "codes": ["C-2.1-LO-6", "C-2.1-LO-8"],
+   "note": "Content-identical to O41 in MCQ rather than assertion-reason form; mapped the same rather than split on format. Flagged as a duplicate pair in the bank."
+  },
+  {
+   "sha": "c611a74497d4141c",
+   "codes": ["LO-61", "LO-62", "LO-64"],
+   "note": "Three demands in one stem, each needing its own outcome: vector sum carrying a direction (LO-61), the unbalanced verdict (LO-62), and the consequence for the state of motion (LO-64). The distractors are built to punish dropping any one of them."
+  },
+  {
+   "sha": "18a3cf1ec1b1e328",
+   "codes": ["LO-63", "C-2.1-LO-5"],
+   "note": "Statements 1, 3 and 4 are friction's direction, its persistence and how footwear increases it (LO-63); statement 2, indefinite motion on a frictionless surface, is the first law (LO-5)."
+  },
+  {
+   "sha": "3617df0a7c93e137",
+   "codes": ["C-2.1-LO-8", "C-2.1-LO-7"],
+   "note": "Each candidate row must be checked arithmetically against a = F/m with the forces held equal by the third law, so a value is actually computed (LO-7) rather than a proportionality merely asserted - that is what separates this from O41 and O44."
+  },
+  {
+   "sha": "6e9317121f674086",
+   "codes": ["C-2.1-LO-7", "LO-63"],
+   "note": "Friction is the only horizontal force, so it supplies the net force and a = F/m gives a value. Same pair as O23, which adds an applied force; both are friction-plus-arithmetic."
+  },
+  {
+   "sha": "7e7b99aa0e2a7a27",
+   "codes": ["C2.1", "LO-64", "LO-63"],
+   "note": "A given velocity-time graph is read (C2.1), converted to zero net force (LO-64), and the required conclusion is specifically that the push equals friction - distractor (D), 'friction is absent', is the trap that makes LO-63 necessary rather than incidental."
+  }
+ ]
+}

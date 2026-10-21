@@ -88,9 +88,13 @@ def resolve_codes(
 ) -> List[Dict[str, Any]]:
     """Cited codes -> mappings, with goal and competency filled in.
 
-    `sanitise_codes` returns the outcome's own id/code/type; the ancestors come
-    off the `Outcome`, which `load_frame` has already denormalised. Storing
-    them saves every report walking `parent_id`.
+    `sanitise_codes` fills the ancestry itself, via `_ancestry`, which is the
+    only version that answers for all three row types: `load_frame`
+    denormalises downward only, so a goal carries no goal_code of its own and a
+    competency carries no competency_code of its own. Reading those two fields
+    straight off the Outcome -- as this function used to -- stored NULL for
+    exactly the rows whose own code was the answer, and a cited competency like
+    C4.1 landed with competency_code NULL.
 
     match_score defaults to 1.0 rather than the concept path's 0.9: a code a
     reader copied off the chapter's own closed list is not a guess.
@@ -98,13 +102,6 @@ def resolve_codes(
     mappings = curf.sanitise_codes(
         cited, frame, match_score=match_score, strict=strict, match_source=match_source
     )
-    by_code = frame.by_code()
-    for mapping in mappings[:MAX_OUTCOMES_PER_QUESTION]:
-        outcome = by_code.get(mapping["outcome_code"])
-        if outcome is None:
-            continue
-        mapping["goal_code"] = outcome.goal_code or None
-        mapping["competency_code"] = outcome.competency_code or None
     return mappings[:MAX_OUTCOMES_PER_QUESTION]
 
 
@@ -148,8 +145,13 @@ def persist_question_outcomes(
                 "outcome_id": mapping.get("outcome_id"),
                 "outcome_type": mapping.get("outcome_type") or "learning_outcome",
                 "outcome_code": mapping.get("outcome_code"),
-                "goal_code": mapping.get("goal_code"),
-                "competency_code": mapping.get("competency_code"),
+                # `or None`, not the bare value: _ancestry returns "" for the
+                # ancestor a row does not have -- a goal has no competency --
+                # and an empty string stored there makes every
+                # `WHERE competency_code IS NULL` report read false. This is
+                # what curriculum_frame.persist_mappings already does.
+                "goal_code": mapping.get("goal_code") or None,
+                "competency_code": mapping.get("competency_code") or None,
                 "curriculum_id": frame.curriculum_id,
                 "extraction_id": extraction_id,
                 "chapter_id": chapter_id,
@@ -200,8 +202,11 @@ def mirror_primary(db, mappings_by_question_id: Dict[int, List[Dict[str, Any]]])
                 # The outcome itself if it is a learning outcome, else the node
                 # that was cited -- a question mapped at competency level should
                 # say so rather than leave the column empty.
-                "lo": primary.get("outcome_code"),
-                "cg": primary.get("goal_code"),
+                "lo": primary.get("outcome_code") or None,
+                # `or None` for the same reason as persist_question_outcomes:
+                # _ancestry returns "" for an absent ancestor, and '' here makes
+                # every `WHERE g_cg_code IS NULL` report read false.
+                "cg": primary.get("goal_code") or None,
                 "qid": question_id,
             },
         )

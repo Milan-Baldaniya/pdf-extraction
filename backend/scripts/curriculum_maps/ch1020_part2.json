@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1020,
+ "mappings": [
+  {
+   "sha": "0e8d450452e4a9e3",
+   "codes": ["C 2.3-LO-3"],
+   "note": "Sign of lens power follows from the sign of f, not from image nature. Nearest legal code; power of a lens has no outcome in curriculum 71 (defect list)."
+  },
+  {
+   "sha": "552f041e252452cd",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Both clauses are about which mirror enlarges and where the object must sit - image characteristics of a concave vs convex mirror, LO-1, with no formula used."
+  },
+  {
+   "sha": "06f44fdd02b90019",
+   "codes": ["CG 2"],
+   "note": "Rectilinear propagation and shadows. No competency or outcome in this frame covers it - not reflection, not refraction, not mirrors or lenses - so only the goal-level code is true. Flagged as a content-area gap."
+  },
+  {
+   "sha": "e414ee51539affb4",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Real focus of a concave mirror and whether its image is always real: focus definition plus image nature, both inside LO-1's 'locates the image formed by a concave mirror'."
+  },
+  {
+   "sha": "c8dae5078a952705",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Field of view of a convex mirror as the reason for its use - an image characteristic, not a computed magnification, so LO-1 rather than LO-2."
+  },
+  {
+   "sha": "dbefccf705676871",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Whether a mirror's focal length changes with the surrounding medium, plus R = 2f. Closest available outcome; mirror parameters in their own right are not named by any outcome (see defect list)."
+  },
+  {
+   "sha": "23d3299af7e8946c",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Concave mirror converging sunlight to its focus - the parallel-ray behaviour that LO-1's image location rests on. No diagram is asked for, so not C 8.1-LO-2."
+  },
+  {
+   "sha": "4bde6d7b83d0fb91",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Tests the statement i = r at normal incidence: the 'states the laws of reflection' clause of LO-1, with no image located and nothing drawn."
+  },
+  {
+   "sha": "a54de689e6dfcda7",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Same medium-independence point as the previous pair, asked the other way round. Nearest outcome only - no outcome names mirror focal length as a property."
+  },
+  {
+   "sha": "1e20ad897063036b",
+   "codes": ["CG 2"],
+   "note": "'What is light?' - the nature of light itself. No competency in this frame reaches it; C 2.3 is about mirrors and lenses, C 5.3 about other subjects. Goal level is the only honest cite."
+  },
+  {
+   "sha": "b0a930c2408cb071",
+   "codes": ["CG 2"],
+   "note": "Light as an electromagnetic wave. Same gap as the previous item: no outcome or competency of curriculum 71 covers the nature of light."
+  },
+  {
+   "sha": "e36a426b87ec9be0",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Definition of an image as the meeting point of reflected/refracted rays - the concept LO-1's 'locates the image' rests on, and the answer is framed by reflection first."
+  },
+  {
+   "sha": "53bc7d25da3e557a",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Real image defined by actual intersection of rays; this is the nature-of-image half of locating an image, not a formula or a diagram task."
+  },
+  {
+   "sha": "850028b178bc3fc0",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Virtual image defined by apparent intersection - paired with the previous item; LO-1 is the only outcome that speaks of image formation qualitatively."
+  },
+  {
+   "sha": "ff3129acc109bff5",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Bare statement of the first law of reflection for regular reflection. Explicitly the 'states the laws of reflection' clause, with no mirror geometry involved."
+  },
+  {
+   "sha": "55a52d387a9a8b44",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Applies i = r to the special case of normal incidence on a plane surface - still the law-of-reflection clause of LO-1, not image location."
+  },
+  {
+   "sha": "145687b481f59890",
+   "codes": ["C 2.3-LO-2"],
+   "note": "Recall of the mirror formula, not a substitution. The frame has no 'states the mirror formula' outcome (unlike LO-1 and LO-3, which both carry a 'states' clause), so the application outcome has to carry it."
+  },
+  {
+   "sha": "276fba2878b976ec",
+   "codes": ["C 2.3-LO-2"],
+   "note": "Recall of m = h2/h1 = -v/u. Same limitation as the mirror-formula item: LO-2 is the only outcome naming the magnification formula, stating or applying."
+  },
+  {
+   "sha": "29dd88e60709d046",
+   "codes": ["C 2.3-LO-1"],
+   "note": "One use of each mirror, answered from the image each type forms - the applied end of LO-1's image characteristics, not a formula or a ray diagram."
+  },
+  {
+   "sha": "1517166deb96244b",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Why a convex mirror for a side-view: virtual, erect, diminished plus wide field. Reason is the image characteristic, which is LO-1."
+  },
+  {
+   "sha": "0eb2440ecce243f9",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Screenability of a virtual image - the real/virtual distinction that LO-1's image location carries. No computation and no diagram."
+  },
+  {
+   "sha": "248c156dc7c68f6c",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Definition of the principal focus of a spherical mirror, stated through the parallel-ray behaviour that LO-1 uses to locate images."
+  },
+  {
+   "sha": "5b1b29369a60f6b8",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Centre of curvature of a convex mirror specifically - the geometric reference LO-1 needs to locate a convex-mirror image; no outcome addresses mirror terminology on its own."
+  },
+  {
+   "sha": "5b40a6425599a77a",
+   "codes": ["C 2.3-LO-1"],
+   "note": "Answered by the object-at-C coincidence rule, not by working the mirror formula, so it stays with the qualitative image-location outcome."
+  },
+  {
+   "sha": "95c3fd0e4aa2eba7",
+   "codes": ["C 8.1-LO-2"],
+   "note": "The task is to draw the convex-mirror construction for a parallel incident ray. Drawing is the whole of what is graded, so the ray-diagram outcome, not LO-1."
+  }
+ ]
+}

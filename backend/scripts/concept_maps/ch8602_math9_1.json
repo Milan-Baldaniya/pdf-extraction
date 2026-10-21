@@ -1,0 +1,13 @@
+{
+  "chapter_id": 8602,
+  "links": [
+    {"sha": "1a1e5b9b82a52203c8a5ac15dd9f4a75ad4118eb0b6ee523f6739112520727d6", "concept_id": 1445, "note": "A 20% rain forecast comes from records of past similar days, not from counting equally likely outcomes, so it is classed experimental rather than theoretical. The item's whole point is that distinction, on the experimental side."},
+    {"sha": "3b2c82e2905cd4d6a3aa29b0cabd2075a19c445eec2bb5464cfcdc2679ba2613", "concept_id": 1444, "note": "1.2 cannot be a probability because the scale runs from 0 to 1; the other three options (0, 0.75, 1) are all admissible. The bounds of the scale are the sole content."},
+    {"sha": "07ed3ad970507b35ddb5b3cee2603b071e62f01b3672bee9fb042777dc82bb50", "concept_id": 1447, "note": "Asks only for n(S) = 10, the size of the set of all possible outcomes. No probability is computed, so it is the sample space and not the theoretical-probability ratio."},
+    {"sha": "fdaf7e2b2b748d5ae9b42c2ba70af19e124efad86aabc9243509ed977e001148", "concept_id": 1446, "note": "P(red) = 5/8 from 5 favourable over 8 equally likely marbles, then compared with a half. The favourable-over-total ratio is the calculation."},
+    {"sha": "d92a861f1b03aea649cdbd3bac79c4ebaf959ee46f7629a88c514d9e1b4035db", "concept_id": 1446, "note": "Numbers greater than 4 on a die are 5 and 6, so 2/6 = 1/3 - favourable outcomes over total equally likely outcomes."},
+    {"sha": "1681093361f0c990a90008c35b5f05ab9d352777e0faabebfc17a8cab4308d07", "concept_id": 1446, "note": "P(black) = 4/10 = 2/5 by the favourable-over-total ratio. (Options A and D are the same value in reduced and unreduced form - see report.)"},
+    {"sha": "457afdaa17c72ef9f98619be60e1b22a9b86210cf0feec7d4e0b536680422087", "concept_id": 1446, "note": "Comparing 4/10 against 6/10 requires both probabilities computed from favourable-over-total first; the comparison itself is trivial once they are."},
+    {"sha": "bca29f00579289ba8a0c42588c214f6a6fec78c0d5b2d0ae77b9bdf22a6907fa", "concept_id": 1448, "note": "The work is deciding WHICH faces make each event - composites are 4 and 6, primes 2, 3 and 5, and 1 is neither - so 2/6 < 3/6. Identifying the subset of the sample space that an event picks out is the crux, not the division."}
+  ]
+}

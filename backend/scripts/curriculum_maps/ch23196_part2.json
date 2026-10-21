@@ -1,0 +1,30 @@
+{
+ "chapter_id": 23196,
+ "mappings": [
+  {"sha": "b33642c117a472ae", "codes": ["C-7.1-LO-1"], "note": "sector area for a stated 60 degree angle; the reason offers only pi*r^2 and the student must see the theta/360 factor is missing, which is the LO-1 formula itself"},
+  {"sha": "a16a1385a8d46238", "codes": ["C-7.3-LO-1"], "note": "area described by a minute hand in 35 minutes - the exact example C-7.3-LO-1 names; the work is converting elapsed time to a swept angle, which no other outcome mentions"},
+  {"sha": "460e2289160d4d7e", "codes": ["C-7.1-LO-1"], "note": "sector area from a GIVEN arc length rather than an angle; still the arc-and-sector pair of LO-1, using A = lr/2"},
+  {"sha": "b6e19064a4be1bea", "codes": ["C-7.1-LO-1"], "note": "plain sector area for a 30 degree central angle"},
+  {"sha": "bb8afc90b2f4f795", "codes": ["C-7.2-LO-1"], "note": "PERIMETER of a sector, so the two bounding radii must be added to the arc; the sector area is never asked for, which is what separates this from LO-1"},
+  {"sha": "43941156b617581d", "codes": ["C-7.1-LO-2"], "note": "definition of a secant; the only outcome that touches chord/segment vocabulary is LO-2. Genuinely poor fit - it is a Circles-chapter terminology item with no area work at all, see report"},
+  {"sha": "77c0fb78210c17fb", "codes": ["C-7.2-LO-1"], "note": "asks only for the PERIMETER of the shaded region, arc plus the two chords; no area is computed anywhere in the item"},
+  {"sha": "300dc6259b4089fa", "codes": ["C-7.1-LO-1"], "note": "inverts the sector-area formula to recover the central angle x from a given fraction of the circle; same relation as LO-1, run backwards"},
+  {"sha": "1154df12f4fc89c8", "codes": ["C-7.1-LO-1"], "note": "sector area from arc length 12 and radius 6, the arc-sector link of LO-1"},
+  {"sha": "70d75a3d915b2d4f", "codes": ["C-7.1-LO-2"], "note": "minor SEGMENT cut off by a chord subtending 90 degrees; sector minus triangle, which is LO-2 and not the plain sector of LO-1"},
+  {"sha": "b34a20fabd6b7cc4", "codes": ["C-7.2-LO-1", "C-7.1-LO-1"], "note": "given the sector PERIMETER, strip the two radii to recover the arc, then get the area: the item crosses from perimeter to area and needs both outcomes"},
+  {"sha": "5c10b2ce59a24ae5", "codes": ["C-7.1-LO-1"], "note": "arc length formula solved for the radius given a 60 degree angle; arc length is the object, so LO-1 rather than the perimeter outcome"},
+  {"sha": "0fa9e3b9084f6f31", "codes": ["C-7.1-LO-1"], "note": "shaded region is the sum of three 60 degree sectors; the equilateral triangle only supplies the central angle, nothing is subtracted, so this stays LO-1 and not the composite LO-3"},
+  {"sha": "d49f3107afea9ae2", "codes": ["C-7.1-LO-3"], "note": "rectangle less two circles cut from it: a composite of circles and a polygon"},
+  {"sha": "bbac09c0c60bf803", "codes": ["C-7.1-LO-3"], "note": "rectangle less a semicircle on one side; composite subtraction, no central angle in play"},
+  {"sha": "0295c097ec9dd6bc", "codes": ["C-7.2-LO-1"], "note": "difference of circumference and radius: the circumference is the unknown and the whole item lives on the perimeter side"},
+  {"sha": "9752c5662641add2", "codes": ["C-7.1-LO-1"], "note": "MAJOR sector for a 45 degree minor angle - still a sector for a given central angle, taken as 315 degrees; no chord, so not the segment outcome"},
+  {"sha": "c0a8ff86a2b19e71", "codes": ["C-7.2-LO-1"], "note": "perimeter of a shaded region made of two square sides and two semicircular arcs; area is never asked"},
+  {"sha": "85d1a8dd576bfd71", "codes": ["C-7.2-LO-1"], "note": "revolutions of two wheels over the same distance: circumference is the operative quantity, so the perimeter outcome and not the swept-area outcome"},
+  {"sha": "7876d6a02c68fa97", "codes": ["C-7.1-LO-1"], "note": "asks for BOTH the sector area and the arc length for a 60 degree angle - the two halves of LO-1 in one item"},
+  {"sha": "7629afcf0d042e30", "codes": ["C-7.1-LO-3", "C-7.2-LO-1"], "note": "annulus area for a road round a park, but the datum is the park's CIRCUMFERENCE, so the perimeter-to-radius step is needed before the composite"},
+  {"sha": "f05c7d0f8a537823", "codes": ["C-7.3-LO-1"], "note": "three tethered horses each sweep a sector on their rope, exactly the rotating-arm model of C-7.3-LO-1; the angle-sum trick replaces any single given angle, so LO-1 does not fit"},
+  {"sha": "ae574ad1b1a04e83", "codes": ["C-7.1-LO-3"], "note": "region between two concentric arcs of the same 30 degree angle: a difference of two sectors, so composite LO-3 rather than a single sector"},
+  {"sha": "b450daf955fa1033", "codes": ["C-7.3-LO-1"], "note": "horse on a 21 m rope at a corner sweeps a quadrant; the grazing tether is the same swept-area model as a wiper arm"},
+  {"sha": "8571c0c4132381fa", "codes": ["C-7.2-LO-1"], "note": "circumference exceeds diameter by a given amount; purely a perimeter relation, no area anywhere"}
+ ]
+}

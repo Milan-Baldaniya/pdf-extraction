@@ -1,0 +1,119 @@
+{
+ "chapter": 4,
+ "chapter_id": 25943,
+ "extraction_id": 807,
+ "source": "SAS_Maths-Class-7.pdf",
+ "source_url": "https://cbseacademic.nic.in/cbe/documents/SAS_Maths-Class-7.pdf",
+ "source_grade": 7,
+ "target_grade": 7,
+ "standard_id": 40,
+ "cross_grade": false,
+ "old_chapters": [
+  "Algebraic Expressions"
+ ],
+ "assets": [],
+ "items": [
+  {
+   "number": "SAS21M07C1202",
+   "form": "short",
+   "stem": "A car parking ticket at the amusement park costs Rs 150 on Saturdays and Sundays and Rs 100 on weekdays. In a month with 5 Saturdays and 4 Sundays, the total parking ticket sale was worth Rs 250,000. Write an equation to represent the situation algebraically.",
+   "options": [],
+   "answer": "150 p + 100 q = 250,000 | Let it be a 30-day month and x be the number of cars which used the parking lot on weekends and y be the number of the cars at the park for the rest of the month. 1350x + 2100 y = 250,000 | Let p be the number of cars on weekends and q be the number of cars on weekdays. Uses two variables and the sum of 250,000.",
+   "reproduction": "verbatim"
+  },
+  {
+   "number": "SAS21M07C1206",
+   "form": "mcq",
+   "stem": "56t³ + 12t² + 6t + 16s² + 2s + 106 Riya wrote an algebraic expression. Which of the following terms has 6 as the coefficient?",
+   "options": [
+    {
+     "label": "A",
+     "text": "s"
+    },
+    {
+     "label": "B",
+     "text": "s²"
+    },
+    {
+     "label": "C",
+     "text": "t"
+    },
+    {
+     "label": "D",
+     "text": "t³"
+    }
+   ],
+   "answer": "C. t",
+   "reproduction": "verbatim",
+   "correct_option": "C"
+  },
+  {
+   "number": "SAS21M07C1207",
+   "form": "short",
+   "stem": "56t³ + 12t² + 6t + 16s² + 2s + 106 Riya wrote an algebraic expression. Write the factors of 56t³.",
+   "options": [],
+   "answer": "56 × t × t × t",
+   "reproduction": "verbatim"
+  },
+  {
+   "number": "SAS21M07C1208",
+   "form": "mcq",
+   "stem": "56t³ + 12t² + 6t + 16s² + 2s + 106 Riya wrote an algebraic expression. What is the type of the algebraic expression written by Riya?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Monomial"
+    },
+    {
+     "label": "B",
+     "text": "Binomial"
+    },
+    {
+     "label": "C",
+     "text": "Trinomial"
+    },
+    {
+     "label": "D",
+     "text": "Polynomial"
+    }
+   ],
+   "answer": "D. Polynomial",
+   "reproduction": "verbatim",
+   "correct_option": "D"
+  },
+  {
+   "number": "SAS21M07C1209",
+   "form": "short",
+   "stem": "56t³ + 12t² + 6t + 16s² + 2s + 106 Riya wrote an algebraic expression. Riya said, “There are two like terms in the algebraic expression.” Is Riya correct? Give reason.",
+   "options": [],
+   "answer": "No, Riya is not correct, because there are only unlike terms in the given algebraic expression. No, with valid reasoning. | No, Riya is not correct, because there are no like terms in the given algebraic expression.",
+   "reproduction": "verbatim"
+  },
+  {
+   "number": "SAS21M07C1210",
+   "form": "mcq",
+   "stem": "56t³ + 12t² + 6t + 16s² + 2s + 106 Riya wrote an algebraic expression. Riya added an algebraic expression to 56t³ + 12t² + 6t + 16s² + 2s + 106. The resultant expression is 14t² + 7t + 9s. Which of the following algebraic expressions did she add?",
+   "options": [
+    {
+     "label": "A",
+     "text": "56t³ + 2t² + t - 16s² + 7s + 106"
+    },
+    {
+     "label": "B",
+     "text": "-56t³ + 2t² + t - 16s² + 7s – 106"
+    },
+    {
+     "label": "C",
+     "text": "-56t³ - 2t² - t - 16s² - 7s – 106"
+    },
+    {
+     "label": "D",
+     "text": "56t³ + 26t² + 11t + 16s² + 11s + 106"
+    }
+   ],
+   "answer": "Option B. -56t³ + 2t² + t - 16s² + 7s – 106",
+   "reproduction": "verbatim",
+   "correct_option": "B"
+  }
+ ]
+}

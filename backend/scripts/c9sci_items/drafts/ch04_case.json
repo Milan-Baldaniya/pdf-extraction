@@ -1,0 +1,125 @@
+{
+ "chapter": 4,
+ "chapter_id": 8600,
+ "extraction_id": 595,
+ "section": "case",
+ "items": [
+  {
+   "number": "172",
+   "form": "case_study",
+   "page": 180,
+   "stem": "Rahul is travelling to his hometown on an express train. He calls his friend Amit, who is waiting for him at the destination station. Rahul says, “I am sitting on my berth, reading a book. The trees outside are rushing past me so fast!” Amit replies, “But from my perspective waiting here, the station platform is completely still.” Meanwhile, a food vendor walks down the aisle of the moving train towards the engine. Rahul notices that the vendor seems to be moving slowly relative to him, but Amit points out that to an observer standing outside the tracks, the vendor would be moving extremely fast. QUESTIONS: (a) Why does Rahul feel the trees are moving, even though trees are fixed to the ground? (b) If Rahul takes the train compartment as his reference point, is he at rest or in motion? Justify. (c) Compare the state of motion of the food vendor with respect to Rahul and with respect to a person standing outside the train on the ground.",
+   "answer": "(a) Rahul feels the trees are moving because he is using himself or the moving train as a reference point. Since the position of the trees is changing with respect to the moving train, they appear to be in motion in the opposite direction. (b) With respect to the train compartment, Rahul is at rest. This is because his position relative to the compartment does not change with time as he sits on his berth. (c) With respect to Rahul, the vendor is moving slowly at normal walking speed. However, to a person on the ground, the vendor is moving much faster, because their velocity from that reference point is the sum of the train’s forward velocity and the vendor’s walking velocity.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "concept": "Reference point for position",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "186",
+   "form": "case_study",
+   "page": 181,
+   "stem": "A group of children are playing in a park that has a large merry-go-round. The merry-go-round is spinning at a steady, constant rate. Rohan stands on the outer edge, 2 meters away from the center pole, holding tightly to the metal bars. His friend Maya stands halfway closer, only 1 meter from the center. A science teacher watching them notes that although the ride is spinning smoothly and steadily, both children are actually undergoing accelerated motion. Suddenly, a tennis ball falls out of Rohan’s pocket and hits the smooth concrete floor of the park while the ride is moving. QUESTIONS: (a) If the merry-go-round rotates at a constant speed, why does the teacher say the children are undergoing accelerated motion? (b) Compare the distance traveled by Rohan and Maya during one complete revolution of the merry-go-round. (c) In which direction will the tennis ball move horizontally immediately after it slips from Rohan’s pocket?",
+   "answer": "(a) Even though the speed is constant, the direction of motion for both children is changing continuously as they move in a circular path. Since velocity is a vector quantity, a change in direction means a change in velocity, which results in acceleration. (b) The distance traveled in one revolution is the circumference of their respective circular paths (2 × pi × radius). Since Rohan’s radius (2 m) is twice Maya’s radius (1 m), Rohan travels twice the distance Maya does in one complete revolution. (c) Due to inertia, the tennis ball will move in a straight line along the tangent to the circular path at the exact point where it fell from Rohan’s pocket.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "concept": "Acceleration from direction change",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "187",
+   "form": "case_study",
+   "page": 181,
+   "stem": "A train starts from rest and its velocity-time graph is a straight line with a positive slope for the first 10 seconds. Then, for the next 30 seconds, the graph is a horizontal line. Finally, for the last 5 seconds, the graph is a straight line with a negative slope, reaching zero velocity. 1. What type of motion does the train exhibit in the first 10 seconds? What can you say about its acceleration? 2. Describe the motion of the train during the next 30 seconds (from 10 s to 40 s). What is its acceleration during this period? 3. What type of motion does the train exhibit in the last 5 seconds? 4. How can the total distance travelled by the train be calculated from this velocity-time graph?",
+   "answer": "1. In the first 10 seconds, the train exhibits uniformly accelerated motion (velocity increases uniformly with time). Its acceleration is constant and positive. 2. During the next 30 seconds, the train moves with uniform velocity (constant velocity). Its acceleration during this period is zero. 3. In the last 5 seconds, the train exhibits uniform deceleration (or retardation) as its velocity uniformly decreases to zero. The acceleration is constant and negative. 4. The total distance travelled by the train can be calculated by finding the area under the velocity-time graph for the entire duration of its motion.",
+   "sub_parts": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "concept": "Slope of velocity-time graph",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "188",
+   "form": "case_study",
+   "page": 181,
+   "stem": "A car, initially at rest, accelerates uniformly at a rate of 2 m/s² for 5 seconds. 1. What is the initial velocity (u) of the car? 2. What is the acceleration (a) of the car? 3. Using the first equation of motion (v = u + at), calculate the final velocity (v) of the car after 5 seconds. 4. Using the second equation of motion (s = ut + (1/2)at²), calculate the distance (s) covered by the car in these 5 seconds.",
+   "answer": "1. The initial velocity (u) of the car is 0 m/s (since it starts from rest). 2. The acceleration (a) of the car is 2 m/s². 3. Final velocity v = u + at = 0 + (2 m/s²)(5 s) = 10 m/s. 4. Distance s = ut + (1/2)at² = (0)(5 s) + (1/2)(2 m/s²)(5 s)² = 0 + (1/2) × 2 × 25 = 25 m.",
+   "sub_parts": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "concept": "Kinematic equations set",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "189",
+   "form": "case_study",
+   "page": 182,
+   "stem": "A cyclist is moving at a speed of 10 m/s. She applies brakes, which produce a uniform deceleration (negative acceleration) of 1 m/s², bringing the bicycle to rest. 1. What is the initial velocity (u) of the bicycle? 2. What is the final velocity (v) of the bicycle? 3. What is the acceleration (a) of the bicycle (remember it’s deceleration)? 4. Using the third equation of motion (v² − u² = 2as), calculate the distance (s) the bicycle travels before coming to rest.",
+   "answer": "1. The initial velocity (u) of the bicycle is 10 m/s. 2. The final velocity (v) of the bicycle is 0 m/s (comes to rest). 3. The acceleration (a) of the bicycle is −1 m/s² (deceleration). 4. Using v² − u² = 2as: (0)² − (10 m/s)² = 2 × (−1 m/s²) × s, so 0 − 100 = −2s, giving −100 = −2s and s = −100/−2 = 50 m. The bicycle travels 50 meters before coming to rest.",
+   "sub_parts": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "concept": "Third kinematic equation",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "190",
+   "form": "case_study",
+   "page": 182,
+   "stem": "A child is sitting on a merry-go-round that is moving at a constant speed of 5 m/s. The merry-go-round completes one full circle. 1. Is the velocity of the child constant? Explain your answer. 2. Is the child accelerating? Explain why or why not. 3. What is this type of motion called when an object moves in a circular path with uniform speed? 4. If the radius of the merry-go-round is 7 meters, and it completes one circle in 8.8 seconds, verify if the speed is approximately 5 m/s. (Use π ≃ 22/7.)",
+   "answer": "1. No, the velocity of the child is not constant. Although the speed is constant, the direction of motion is continuously changing as the child moves in a circle. Velocity is a vector quantity (having both magnitude and direction). 2. Yes, the child is accelerating. Since the direction of velocity is changing, there is an acceleration (called centripetal acceleration), even though the speed is constant. 3. This type of motion is called uniform circular motion. 4. Circumference = 2πr = 2 × (22/7) × 7 m = 44 m. Speed = Distance / Time = 44 m / 8.8 s = 5 m/s. Yes, the speed is approximately 5 m/s.",
+   "sub_parts": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "concept": "Definition of circular motion",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "191",
+   "form": "case_study",
+   "page": 182,
+   "stem": "A stone is dropped from the top of a tall building. It falls freely under gravity. Let’s assume the acceleration due to gravity (g) is 10 m/s². 1. What is the initial velocity of the stone when it is dropped? 2. What is the acceleration of the stone as it falls? Is this acceleration uniform or non-uniform (for free fall near Earth’s surface)? 3. If the stone takes 3 seconds to reach the ground, what will be its velocity just before it hits the ground? 4. What is the nature of the distance-time graph for an object in free fall?",
+   "answer": "1. The initial velocity of the stone when dropped is 0 m/s. 2. The acceleration of the stone is the acceleration due to gravity, g (approximately 10 m/s² downwards). For free fall near the Earth’s surface, this acceleration is considered uniform. 3. Using v = u + at (where a = g): v = 0 + (10 m/s²)(3 s) = 30 m/s. 4. The distance-time graph for an object in free fall (uniformly accelerated motion starting from rest) will be a curve (parabola) showing that the distance covered increases non-linearly with time (s ∝ t²).",
+   "sub_parts": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "concept": "Gravitational acceleration in free fall",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8606,
+ "mappings": [
+  {
+   "sha": "20e343359cbac5dc",
+   "codes": ["C2.6", "C-2.6-LO-3", "C8.1"],
+   "note": "POOR FIT. The load is found from VR and EFFICIENCY, neither of which exists in curriculum 82; only the block-and-tackle identification (LO-3), the labelled diagram (C8.1) and the load/effort idea (C2.6) are covered."
+  },
+  {
+   "sha": "516479878470ee22",
+   "codes": ["C2.6", "C-2.6-LO-3"],
+   "note": "Crowbar arm ratio 3:1 converted straight into a load/effort ratio - a mechanical-advantage calculation (C2.6 only) on a lever (LO-3). Not an energy item: no work or energy quantity appears anywhere."
+  },
+  {
+   "sha": "7fb37dac2f5306e8",
+   "codes": ["C-2.5-LO-7", "C-2.6-LO-1"],
+   "note": "Parts 1 to 3 trace PE becoming KE as the stone rolls down (LO-7); part 4 asks whether the conservation law still holds once friction is admitted, which is C-2.6-LO-1 and the only part not covered by LO-7."
+  },
+  {
+   "sha": "5ed89a9ebf36d1c3",
+   "codes": ["C-2.6-LO-1", "C-2.5-LO-5", "C-2.6-LO-2"],
+   "note": "Three separable demands: define power and its SI unit (C-2.6-LO-1), say which form the electrical energy becomes (LO-5), and compare the two pumps' power numerically (C-2.6-LO-2). The equal-work observation rides on the power definition."
+  },
+  {
+   "sha": "531c451f96c37b76",
+   "codes": ["C-2.5-LO-7", "C-2.5-LO-6"],
+   "note": "Half-way-down KE can only be got by conservation during free fall (LO-7), with mgh and the energy values computed (LO-6). The stem names conservation of mechanical energy but asks for values, so LO-7 leads over C-2.6-LO-1."
+  },
+  {
+   "sha": "fc0a366a46d0694f",
+   "codes": ["C-2.6-LO-2"],
+   "note": "WEAK FIT. Both parts run on E = P x t (C-2.6-LO-2), but the item is really about converting 'units' to joules; the kilowatt-hour has no outcome in curriculum 82."
+  },
+  {
+   "sha": "0ca45bb13dedc7ca",
+   "codes": ["C-2.5-LO-1", "C-2.5-LO-2"],
+   "note": "Three of the four scenes are zero-work cases decided from the definition - no displacement, then a perpendicular carry (LO-1) - while the chair gives one 50 N x 2 m calculation (LO-2). Both outcomes are separately marked."
+  },
+  {
+   "sha": "0aa288392ce156de",
+   "codes": ["C-2.5-LO-1", "C-2.5-LO-5"],
+   "note": "Parts 1, 2 and 4 are the definition and its two conditions (LO-1); part 3 asks where Rohan's expended energy went, which needs the muscular-to-thermal conversion (LO-5). That third part is what separates it from the other wall-pushing items."
+  },
+  {
+   "sha": "5d6426ce5b19d635",
+   "codes": ["C-2.5-LO-1", "C-2.5-LO-2"],
+   "note": "Positive work by the striker and negative work by the keeper are sign judgements from the definition (LO-1); the stated 0.2 m hand displacement makes the keeper's work a computable quantity (LO-2). The MCQ version gives no distance and so stops at LO-1."
+  },
+  {
+   "sha": "832373fd2a56eee3",
+   "codes": ["C-2.5-LO-5", "C-2.5-LO-6"],
+   "note": "Part (a) defines kinetic energy (LO-5); parts (b) and (c) compare the two cars and quantify the effect of doubling Car A's speed (LO-6). Definition plus calculation, so both siblings are cited."
+  },
+  {
+   "sha": "988377ddd8f6b697",
+   "codes": ["C-2.5-LO-2", "C-2.5-LO-1", "C-2.5-LO-5"],
+   "note": "Lifting work is computed (LO-2), the horizontal carry is zero work against gravity by the definition (LO-1), and the last part asks which FORM of energy the suitcase gains (LO-5). Three parts, three different outcomes."
+  },
+  {
+   "sha": "b9280a9183effef6",
+   "codes": ["C-2.5-LO-5", "C-2.5-LO-7", "C-2.5-LO-6"],
+   "note": "Names elastic PE and how the work stores it (LO-5), tracks its release into the arrow's KE (LO-7), and finishes with an mgh value for the 0.05 kg arrow at 2 m (LO-6). The numerical tail is what distinguishes it from the other archery case study."
+  },
+  {
+   "sha": "114cc2b3b131d85b",
+   "codes": ["C-2.5-LO-5", "C-2.5-LO-7"],
+   "note": "The same bow story as C182 but with no numbers: naming the stored form (LO-5) and the PE-to-KE release, including how more stretch means more energy and speed (LO-7). No LO-6 precisely because nothing is evaluated."
+  },
+  {
+   "sha": "99918a386b839c88",
+   "codes": ["C-2.5-LO-5", "C-2.5-LO-7"],
+   "note": "Part (a) defines mechanical energy as KE plus PE (LO-5); the rest tracks the swap between them down the roller-coaster drop (LO-7). Friction is declared negligible, so the conservation-law code C-2.6-LO-1 is not the discriminator."
+  },
+  {
+   "sha": "beb87a9bf51c91fb",
+   "codes": ["C-2.5-LO-2", "C-2.6-LO-2", "C-2.6-LO-1"],
+   "note": "Parts 1 and 2 compute work as weight times height (LO-2), part 3 computes and compares power (C-2.6-LO-2), and part 4 asks the SI unit of power (C-2.6-LO-1). Each part sits on a different outcome, which is why all three are cited."
+  },
+  {
+   "sha": "cb707b0cab12a31a",
+   "codes": ["C-2.5-LO-3", "C-2.5-LO-6"],
+   "note": "Part (a) asks for the STATEMENT of the work-energy theorem (LO-3), then the KE values are computed and the braking work read off as their change (LO-6). The explicit 'state the theorem' is what makes LO-3 primary rather than incidental."
+  },
+  {
+   "sha": "1fbba649f6db0362",
+   "codes": ["C-2.5-LO-1"],
+   "note": "Four sub-parts that build one argument: force radial, displacement tangential, angle 90 degrees, work zero. All of it is the perpendicular clause of the work definition, LO-1, and nothing is computed, so LO-2 stays out."
+  },
+  {
+   "sha": "5874372e0b9a2100",
+   "codes": ["C-2.6-LO-3", "C2.6"],
+   "note": "Requires naming two machines from their descriptions - fixed pulley on the flagpole, movable pulley on the load (LO-3) - and comparing what each does to the effort, i.e. mechanical advantage (C2.6). The identification half is unusually well covered by this frame."
+  },
+  {
+   "sha": "aeb7046df323b6a4",
+   "codes": ["C2.6", "C-2.6-LO-3"],
+   "note": "PARTLY UNCOVERED. Parts (i) and (ii) are MA = L/h and the effort, reachable only through C2.6, with LO-3 for the inclined plane; part (iii) is answered with efficiency and velocity ratio, neither of which any code in this frame names."
+  },
+  {
+   "sha": "73c2b17f6f67fe53",
+   "codes": ["C-2.6-LO-3", "C2.6", "C-2.5-LO-1"],
+   "note": "Identifies the ramp as an inclined plane (LO-3), computes its MA (C2.6), and then explains the force-over-distance trade-off at constant work, which rests on the definition of work (LO-1). Three demands, three codes."
+  },
+  {
+   "sha": "91f96638334e3a91",
+   "codes": ["C-2.6-LO-3", "C2.6"],
+   "note": "PARTIAL FIT. Identifying the fulcrum and the lever is LO-3 and the moment balance that seats Meera is C2.6, but the demand to name the lever CLASS has no outcome - lever classes are absent from curriculum 82."
+  },
+  {
+   "sha": "44545f34210861e7",
+   "codes": ["C-2.5-LO-6", "C-2.5-LO-3"],
+   "note": "Parts 1, 2 and 4 are KE evaluations including the doubling effect (LO-6); part 3 gets the braking work as the change in KE, which is the work-energy theorem (LO-3). LO-6 leads here because three of four parts are evaluations, the reverse of case study C186."
+  },
+  {
+   "sha": "627bb00da6d964f3",
+   "codes": ["C-2.5-LO-7", "C-2.5-LO-6", "C-2.6-LO-1"],
+   "note": "Parts 1, 2 and 4 are the free-fall PE/KE exchange with values (LO-7 plus LO-6), while part 3 explicitly invokes the LAW of conservation of energy for the constant sum (C-2.6-LO-1). All three are separately marked."
+  },
+  {
+   "sha": "20d545ba8bda4d8e",
+   "codes": ["C-2.6-LO-1", "C-2.6-LO-2"],
+   "note": "Parts 1 and 2 ask what a 100 W rating MEANS, i.e. the definition of the watt (C-2.6-LO-1); parts 3 and 4 compute energy over 5 hours and convert a kWh (C-2.6-LO-2, with the commercial unit itself uncovered by the frame)."
+  },
+  {
+   "sha": "834cf7aa179ecabf",
+   "codes": ["C2.6", "C-2.6-LO-3"],
+   "note": "POOR FIT. Only parts (i) and (ii), the mechanical advantage and whether it suffices, are reachable, and only through the competency C2.6; parts (iii) velocity ratio and (iv) efficiency have no code at all. LO-3 covers the lever itself."
+  }
+ ]
+}

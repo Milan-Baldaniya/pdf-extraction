@@ -81,6 +81,21 @@ _ADDED_COLUMNS: dict[str, dict[str, str]] = {
             "LONGTEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL"
         ),
     },
+    # The curriculum is a three-level chain -- goal -> competency -> learning
+    # outcome -- but a mapping row named only the ONE node the concept matched,
+    # so a concept knew its competency and nothing about the goal above it.
+    # load_frame() already denormalises both codes onto every Outcome
+    # (curriculum_frame.py, step 4); these columns are where that finally lands.
+    #
+    # Codes, not ids, for the same reason outcome_code is the durable key:
+    # save_learning_outcomes() deletes and re-inserts every row of a curriculum
+    # on each re-process, so a goal_id would dangle exactly as outcome_id does.
+    "lms_concept_outcome": {
+        "competency_code": (
+            "VARCHAR(32) NULL COMMENT 'competency this row rolls up to; itself when the row IS one'"
+        ),
+        "goal_code": "VARCHAR(32) NULL COMMENT 'curricular goal this row rolls up to'",
+    },
 }
 
 _ADDED_INDEXES: dict[str, dict[str, str]] = {
@@ -90,6 +105,11 @@ _ADDED_INDEXES: dict[str, dict[str, str]] = {
     "lms_learning_outcomes": {
         # Every chapter job now reads this table by (chapter_id, type).
         "idx_lo_chapter_type": "(chapter_id, type)",
+    },
+    "lms_concept_outcome": {
+        # "which concepts serve CG-3" is the question the goal_code column was
+        # added to answer, so it gets an index rather than a table scan.
+        "idx_co_goal": "(curriculum_id, goal_code)",
     },
 }
 
@@ -111,6 +131,9 @@ _TABLES: dict[str, str] = {
                          COMMENT 'lms_learning_outcomes.id; stale after a curriculum re-process',
           outcome_type   VARCHAR(20) NOT NULL COMMENT 'goal | competency | learning_outcome',
           outcome_code   VARCHAR(32) NOT NULL COMMENT 'CG-3 / C-3.2 / C-3.2-LO-1 - the DURABLE key',
+          competency_code VARCHAR(32) NULL
+                         COMMENT 'competency this row rolls up to; itself when the row IS one',
+          goal_code      VARCHAR(32) NULL COMMENT 'curricular goal this row rolls up to',
           curriculum_id  BIGINT UNSIGNED NULL,
           extraction_id  BIGINT UNSIGNED NULL,
           chapter_id     BIGINT UNSIGNED NULL,
@@ -123,7 +146,8 @@ _TABLES: dict[str, str] = {
           UNIQUE KEY uq_concept_outcome_code (concept_id, outcome_code),
           KEY idx_co_outcome (outcome_id),
           KEY idx_co_extraction (extraction_id),
-          KEY idx_co_code (chapter_id, outcome_code)
+          KEY idx_co_code (chapter_id, outcome_code),
+          KEY idx_co_goal (curriculum_id, goal_code)
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
     """,
 }

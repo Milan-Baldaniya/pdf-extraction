@@ -1,0 +1,225 @@
+{
+  "chapter_id": 38390,
+  "mappings": [
+    {
+      "sha": "cc9c2f73bf771097",
+      "codes": ["C-3.2"],
+      "note": "How many solutions a linear equation in two variables has (infinitely many). Competency level on purpose: none of the six outcomes covers the cardinality of the solution set - LO-1..3 are about linear patterns and the rule ax+b, LO-4..6 about graphs, slope and intercept."
+    },
+    {
+      "sha": "5a1f881516a883a9",
+      "codes": ["C-8.1"],
+      "note": "The equation of the y-axis is x = 0 - the coordinate representation of a line. C-8.1-LO-6 rejected: that outcome is about parallel lines and shifting the intercept, and an axis is the reference, not a shifted line."
+    },
+    {
+      "sha": "b2215fdf22929925",
+      "codes": ["C-8.1-LO-6"],
+      "note": "7x + 11y + 13 = 0 is a general straight line precisely because neither coefficient is zero, so it is parallel to neither axis - slope reasoning about a line's direction, which is what LO-6 covers. LO-4 rejected (nothing is drawn), LO-5 rejected (no slope or intercept value is read off)."
+    },
+    {
+      "sha": "2fe192df99ca0630",
+      "codes": ["C-3.2"],
+      "note": "Substitutes x = 2, y = 3 into 23ax + 37ay = 785 and solves for a. Equation work with no pattern, table or graph, so competency C-3.2 and none of the outcomes."
+    },
+    {
+      "sha": "bc2511321bdeaab4",
+      "codes": ["C-3.2"],
+      "note": "Which of four equations is satisfied by (-3, 5) - testing a candidate solution. C-3.2-LO-1 rejected: there is no table of values and no test of constant differences."
+    },
+    {
+      "sha": "2c04a6a79b20da61",
+      "codes": ["C-8.1"],
+      "note": "y = 0 is the x-axis itself. C-8.1-LO-6 rejected for the same reason as sha 5a1f8815: the outcome is about lines parallel to one another, not about naming an axis."
+    },
+    {
+      "sha": "a676b774c3665e59",
+      "codes": ["C-8.1"],
+      "note": "Where the line x + y = 2 meets the x-axis. C-8.1-LO-5 rejected deliberately: that outcome is the y-intercept read off a drawn graph and interpreted in a modelled situation, whereas this is the x-intercept computed from the equation with no situation attached."
+    },
+    {
+      "sha": "a95eaaa82197b6ee",
+      "codes": ["C-8.1"],
+      "note": "Intersection of x = -5 and y = -3. Reading a point off two lines parallel to the axes. LO-6 rejected: these two lines are perpendicular, not a same-slope pair."
+    },
+    {
+      "sha": "3c8d136dffc717bb",
+      "codes": ["C-8.1"],
+      "note": "Every point of y = x has the form (a, a) - the solution set of an equation seen as a line. LO-5 rejected: the slope is 1 but the question asks for the form of a point, not for the slope."
+    },
+    {
+      "sha": "5cb03645d9a6ca48",
+      "codes": ["C-3.2"],
+      "note": "(2, 2) satisfies x + y = 4, and the reason states what 'solution' means. Definitional equation work -> C-3.2, no outcome fits."
+    },
+    {
+      "sha": "ae54835b50d7aa31",
+      "codes": ["C-3.2"],
+      "note": "Substitutes x = 2k - 1, y = k into 3x - 5y - 7 = 0 to test k = 10. Algebraic substitution; C-3.2-LO-2 rejected because nothing is written as a rule ax + b, k is a parameter of one solution."
+    },
+    {
+      "sha": "dde1bcee05a58271",
+      "codes": ["C-8.1-LO-6"],
+      "note": "The reason clause is the rule that a line parallel to the x-axis at distance a is y = a, weighed against y = 3x through the origin. That is exactly 'predicts the effect of changing the intercept'. LO-4 rejected: no graph is drawn."
+    },
+    {
+      "sha": "401884ecb9240ee8",
+      "codes": ["C-3.2"],
+      "note": "Finds k from 2x + 3y = k at (-2, 1) - the key turns on the arithmetic being -1, not 7. Pure equation work, so C-3.2."
+    },
+    {
+      "sha": "351766aa0488daa2",
+      "codes": ["C-3.2"],
+      "note": "The definition of a linear equation in two variables plus the fact that it has infinitely many solutions. Definitional -> C-3.2; no outcome describes the definition."
+    },
+    {
+      "sha": "e77b27f9bbe1a471",
+      "codes": ["C-3.2"],
+      "note": "Two independent substitution checks, one for 2x + 3y = 12 and one for x + 3y = 10. Same call as sha 5cb03645: C-3.2, no outcome."
+    },
+    {
+      "sha": "ca204527edcfc486",
+      "codes": ["C-3.2"],
+      "note": "Solves for a from x = 4a, y = a + 5 in 3x - 5y - 7 = 0. Substitution and solve -> C-3.2, not LO-2, since no general rule is produced."
+    },
+    {
+      "sha": "33c645aa5634e657",
+      "codes": ["C-3.2"],
+      "note": "(0, -3) satisfies 2x + y + 3 = 0. Verification of a solution -> C-3.2. Note that (0, -3) happens to be the y-intercept, but the item never mentions the graph, so LO-5 is rejected."
+    },
+    {
+      "sha": "2cd8c0d046a296c1",
+      "codes": ["C-3.2"],
+      "note": "Assertion defines a solution correctly, reason wrongly says the solution is unique. Turns on the size of the solution set -> C-3.2, no outcome covers it."
+    },
+    {
+      "sha": "c22e425658ced6d1",
+      "codes": ["C-8.1-LO-6"],
+      "note": "y = -3 is parallel to the x-axis at distance 3 below and therefore never meets the x-axis - a line placed by its intercept, which is LO-6's territory. LO-4 rejected: nothing is plotted."
+    },
+    {
+      "sha": "25fd1aaec693f9eb",
+      "codes": ["C-3.2"],
+      "note": "Finds p from 2x - y = p at (1, -2). Substitution -> C-3.2. (Minor defect: the stored answer writes the point as (1,2) in prose while using y = -2 correctly.)"
+    },
+    {
+      "sha": "6869350b0bb5aa15",
+      "codes": ["C-3.2"],
+      "note": "Finds k from 2x + 3y = k at (1, 1). Same call as sha 25fd1aae, C-3.2 with no outcome."
+    },
+    {
+      "sha": "3ef313cc6e0bea8e",
+      "codes": ["C-8.1"],
+      "note": "The form of a point on the x-axis, (a, 0), and on the y-axis, (0, b). Coordinate representation -> C-8.1. LO-5 rejected: no slope, no interpretation."
+    },
+    {
+      "sha": "f34450e2c795b04e",
+      "codes": ["C-3.2"],
+      "note": "Fill-ins: a point satisfying the equation is a solution, and there are infinitely many. Definitional -> C-3.2."
+    },
+    {
+      "sha": "f2b6ec9278eadc7f",
+      "codes": ["C-8.1"],
+      "note": "Equations of the x-axis (y = 0) and the y-axis (x = 0). Naming the axes, so C-8.1 and not LO-6, which concerns lines shifted off an axis."
+    },
+    {
+      "sha": "379679dadc495bbe",
+      "codes": ["C-8.1-LO-6"],
+      "note": "Write the line parallel to the x-axis 5 units below it, and the line parallel to the y-axis 3 units right of it. The clearest LO-6 item in the chapter: changing the constant slides the line parallel to itself. LO-4 rejected, no graph is drawn."
+    },
+    {
+      "sha": "a48c71e403ad0222",
+      "codes": ["C-3.2"],
+      "note": "Two solutions of 4x + 3y = 12 by setting each variable to zero. Algebraic; the values found are the intercepts but no graph or situation is involved, so LO-5 is rejected."
+    },
+    {
+      "sha": "cb5a45d67a742932",
+      "codes": ["C-8.1"],
+      "note": "Coordinates where the graph of 7x - 3y = 4 cuts each axis - stated as a fact about the graph, hence C-8.1 rather than C-3.2. LO-4 rejected, the line is not drawn. (Defect: the stored answer solves a different equation, 3x + 4y = 12, and so does not answer the stem.)"
+    },
+    {
+      "sha": "009ea73d2013df81",
+      "codes": ["C-3.2"],
+      "note": "Rewrites 5x = 7/2 as 10x + 0.y - 7 = 0 and reads off a, b, c. C-3.2-LO-2 rejected: ax + b there is the rule of a pattern, not the standard form of an equation."
+    },
+    {
+      "sha": "f25f6982ea02ff4e",
+      "codes": ["C-3.2"],
+      "note": "Two equations put into ax + by + c = 0 with a, b, c identified. Same call as sha 009ea73d - standard form is C-3.2, not LO-2."
+    },
+    {
+      "sha": "023c0f55f5efed72",
+      "codes": ["C-3.2"],
+      "note": "Three solutions of x = 6y by choosing y = 0, 1, -1. Generating solutions -> C-3.2. C-3.2-LO-1 rejected: the three pairs are produced, not tested for constant differences."
+    },
+    {
+      "sha": "807f7501133630dd",
+      "codes": ["C-3.2"],
+      "note": "Finds k from 3x + 4y = k at (-7, 5). Substitution -> C-3.2."
+    },
+    {
+      "sha": "ef6ff627d38b8d01",
+      "codes": ["C-3.2-LO-2"],
+      "note": "y varies directly as x, y = 12 at x = 4, so the rule is y = 3x and it is then used to predict y at x = 5. That is LO-2 verbatim: writes the rule and uses it to predict. LO-3 rejected - direct proportion is not presented as a growth or decay situation, there is no context at all."
+    },
+    {
+      "sha": "7852b220fdc836cc",
+      "codes": ["C-3.2"],
+      "note": "3y - 4x = 0 into standard form, x in terms of y, two solutions, and how many exist. Manipulation plus the size of the solution set -> C-3.2; LO-2 rejected because x = (3/4)y is a rearrangement, not the rule of a pattern."
+    },
+    {
+      "sha": "21b314a355ba51be",
+      "codes": ["C-3.2", "C-8.1-LO-4"],
+      "note": "Two distinct tasks. Modelling the marking scheme as 4x - y = 20 is contextualised equation work -> C-3.2; 'also draw the graph for the obtained linear equation' is LO-4. LO-5 rejected: nothing is asked about slope or intercept."
+    },
+    {
+      "sha": "998f1ca5b5579f9a",
+      "codes": ["C-8.1-LO-4"],
+      "note": "Draw the graph of 2x + 3y = 6 and give the points where it meets each axis - drawing a line from a table of values. LO-5 rejected: the y-intercept is found but never interpreted, and there is no situation being modelled."
+    },
+    {
+      "sha": "c49726a82f5be8b6",
+      "codes": ["C-3.2-LO-3"],
+      "note": "Chocolates: 5 per child plus a fixed 20 for adults, modelled as y = 5x + 20, then inverted for y = 145. A real situation of linear growth captured by a linear polynomial, which is LO-3. LO-2 rejected: the item inverts the rule once for a value inside the range, it does not predict a term far along a pattern."
+    },
+    {
+      "sha": "541d7ae5a0e9092d",
+      "codes": ["C-3.2"],
+      "note": "Number puzzle: one number is 5 times another, add 21 to both, the larger becomes twice the smaller. A contextualised problem solved by forming and solving an equation -> C-3.2. LO-3 rejected: nothing grows or decays, it is a single instant. (Defect: the stored answer runs on into the next question's stem about Fahrenheit to Celsius.)"
+    },
+    {
+      "sha": "e1711336d6adce23",
+      "codes": ["C-8.1-LO-4"],
+      "note": "Draw the graph of 3x - y = 4 and read p and q from it for the points (p, -4) and (3, q). LO-4 because the graph is drawn and then read; LO-5 rejected even though (0, -4) is the y-intercept, since neither the slope nor the intercept is named or interpreted in a situation."
+    },
+    {
+      "sha": "cefa0a8f968a53e9",
+      "codes": ["C-3.2"],
+      "note": "Prize money: 63 participants, winners at 100 and others at 25, total 3000. Contextualised equation, one unknown -> C-3.2. LO-3 rejected: a single total, not a growth or decay pattern."
+    },
+    {
+      "sha": "2afcc4541811aa3e",
+      "codes": ["C-3.2"],
+      "note": "Rewrites five one-variable equations as equations in two variables (0 as the missing coefficient). Standard-form work -> C-3.2. C-8.1 rejected: the items are never graphed here, unlike sha 379679da which asks for the line's position."
+    },
+    {
+      "sha": "0daa88f9f07332ec",
+      "codes": ["C-3.2"],
+      "note": "Metro fares: 3x + 2y = 76 formed from the situation, how many solutions it has, and the total fare once x = 18. Two genuinely unknown quantities in one equation -> C-3.2. LO-3 rejected: the two fares are fixed prices, not a growth or decay pattern in one variable."
+    },
+    {
+      "sha": "eeff68a6558eb9b9",
+      "codes": ["C-3.2-LO-3", "C-3.2-LO-2"],
+      "note": "Library charges: a fixed charge x plus y per extra day gives x + 2y = 30 for five days - linear growth in the number of days, so LO-3. Part (iii) then uses the rule with x = 6 to reach day 15 from a 5-day datum, which is LO-2's 'predict a term far along the pattern'. Both cited because the item does both; LO-1 rejected, no table of differences."
+    },
+    {
+      "sha": "e5424a8f36bee905",
+      "codes": ["C-3.2"],
+      "note": "Intercept-form solutions of 2x + 5y = 10 and 2x + 3y = 6 and whether they share one - simultaneous linear equations in two variables, named in the competency itself. C-8.1-LO-5 rejected: the intercepts are computed algebraically and no graph is drawn; LO-6 rejected because the two lines have different slopes and are not parallel."
+    },
+    {
+      "sha": "af19b405985815e3",
+      "codes": ["C-8.1-LO-4", "C-8.1-LO-5"],
+      "note": "Work done against distance with a constant force of 5: y = 5x is graphed (LO-4), and the graph is then read at 2 units and at 0 units - the value at 0 is the intercept and the constant force 5 is the slope, both interpreted in the situation being modelled, which is LO-5. The only item in the chapter where slope and intercept carry a physical meaning."
+    }
+  ]
+}

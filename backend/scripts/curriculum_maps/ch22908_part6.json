@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22908,
+ "mappings": [
+  {"sha": "f4092f0225d4d6dc", "codes": ["C-8.1-LO-2"], "note": "Modal-class formula giving mode 6.6 plants. LO-2."},
+  {"sha": "5973ac5bfeddde6b", "codes": ["C-8.1-LO-3"], "note": "Two unknown frequencies recovered from a given median of 28.5 plus the total. Inverse median-formula work, so LO-3 rather than LO-1."},
+  {"sha": "1615daa7b2f62341", "codes": ["C-8.1-LO-1", "C-8.1-LO-2"], "note": "Asks for mean and mode of the same table: direct-method mean (LO-1) then modal-class formula (LO-2). Median is not required, so LO-3 is excluded."},
+  {"sha": "a04f50f39cd8d9f4", "codes": ["C-8.1-LO-1"], "note": "Step-deviation method named explicitly in the stem. LO-1 fuses all three mean routes, so there is no separate step-deviation outcome to prefer."},
+  {"sha": "0d9b38132bb5d4b1", "codes": ["C-8.1-LO-1"], "note": "Two unknown frequencies from a given mean of 14.7 and the total. Mean equations throughout, LO-1."},
+  {"sha": "dc4d4f87c239db78", "codes": ["C-8.1-LO-1", "C-8.1-LO-3"], "note": "Mean by class marks (LO-1) and median by the median formula after cumulative frequencies (LO-3). Mode is not asked, so LO-2 is excluded."},
+  {"sha": "cc53468a3191d621", "codes": ["C-8.1-LO-3"], "note": "Recovers a missing frequency from a given median of 240, with N itself depending on f. Inverse median-formula work, LO-3."},
+  {"sha": "149d1955ea0edfbc", "codes": ["C-8.1-LO-3"], "note": "Median weight by the median formula after locating N/2 = 50. LO-3."},
+  {"sha": "01c0b0c697b0f8c2", "codes": ["C-8.1-LO-1"], "note": "Direct-method grouped mean, 60.4. LO-1."},
+  {"sha": "37ddc2bf45319f7d", "codes": ["C-8.1-LO-1"], "note": "Solves the direct-method mean equation for the missing frequency p = 28. LO-1."},
+  {"sha": "2843505319809c24", "codes": ["C-8.1-LO-3"], "note": "Median weekly income by the median formula. LO-3; the modal class here would also be 1000-2000, but the question asks only for the median."},
+  {"sha": "48d89b5ac486708b", "codes": ["C-8.1-LO-1"], "note": "Direct-method mean over classes with .5 boundaries. LO-1."},
+  {"sha": "ed1b2a95e1375e46", "codes": ["C-8.1-LO-2"], "note": "Differences a below-type cumulative table only to find the maximum frequency, then applies the modal-class formula. LO-2, not LO-3."},
+  {"sha": "ed9acd9cb25dbb8b", "codes": ["C-8.1-LO-1"], "note": "Differences a less-than table as scaffolding and then computes the mean by class marks. The asked outcome is the mean, so LO-1."},
+  {"sha": "b0d2dfa34ac2970c", "codes": ["C-8.1-LO-1"], "note": "Uses Sum(x - a) = Sum x - na for two assumed values to get n and the mean. This is exactly the assumed-mean algebra of LO-1."},
+  {"sha": "52c915aa8c9ed76a", "codes": ["C-8.1-LO-1"], "note": "Proves the deviation-sum property of the mean from its definition. A mean property, LO-1."},
+  {"sha": "cc622375f4130d4d", "codes": ["C-8.1-LO-3"], "note": "Rebuilds class limits from mid-values, then finds the median by the median formula. The class-mark step is preliminary; the asked outcome is the median, so LO-3."},
+  {"sha": "e4d45ca08c11eab4", "codes": ["C-8.1-LO-1"], "note": "Effect on the mean of adding 1, 2, ..., n to successive observations. Mean property, LO-1; no ordering or frequency work."},
+  {"sha": "03e890307e972168", "codes": ["C-8.1-LO-2"], "note": "Modal-class formula giving mode 46.1. LO-2."},
+  {"sha": "b95e8826165fb4d5", "codes": ["C-8.1-LO-2"], "note": "Inverts the modal-class formula to recover the modal-class frequency from a given mode. Mode machinery, LO-2."},
+  {"sha": "1865408841a2c778", "codes": ["C-8.1-LO-3"], "note": "Two unknown frequencies from a given median of 525 across ten classes. Inverse median-formula work, LO-3."},
+  {"sha": "6bc2d0dce3f23142", "codes": ["C-8.1-LO-1", "C-8.1-LO-2"], "note": "Computes both the mean daily wage by step deviation (LO-1) and the modal daily wage by the modal-class formula (LO-2). Both are explicitly demanded."},
+  {"sha": "5938f97817afe7ab", "codes": ["C-8.1-LO-3"], "note": "Recovers f1 and f2 from a given median of 32.5 and the total 40. Inverse median-formula work, LO-3."},
+  {"sha": "a7e754ebfebfea7a", "codes": ["C-8.1-LO-1"], "note": "Solves the direct-method mean equation for k = 28. LO-1; this is the same item as the 3-mark 'find p' version, so the mapping is identical by necessity."},
+  {"sha": "3d9c5041d683e819", "codes": ["C-8.1-LO-2"], "note": "Modal-class formula giving mode 38.33. LO-2."}
+ ]
+}

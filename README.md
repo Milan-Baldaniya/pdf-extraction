@@ -100,10 +100,10 @@ home directory with CPU settings.
 Start the backend:
 
 ```powershell
-.\venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+.\venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8001
 ```
 
-Open the API docs at `http://127.0.0.1:8000/docs`.
+Open the API docs at `http://127.0.0.1:8001/docs`.
 
 ## Backend Environment
 
@@ -111,7 +111,7 @@ The backend reads `backend/.env`. Start from `backend/.env.example`.
 
 ```env
 HOST=0.0.0.0
-PORT=8000
+PORT=8001
 DEBUG=true
 FRONTEND_URL=http://localhost:3000
 
@@ -157,7 +157,7 @@ npm run dev
 Create or update `frontend/.env.local` if the backend URL changes:
 
 ```env
-NEXT_PUBLIC_API_URL=http://127.0.0.1:8000/api
+NEXT_PUBLIC_API_URL=http://127.0.0.1:8001/api
 ```
 
 Open `http://localhost:3000`.

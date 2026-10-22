@@ -68,6 +68,31 @@ The backend processes the PDFs, communicates with MariaDB, and uses MinerU.
    ```
    Confirm the version is `Python 3.12.x` before installing dependencies.
 
+5. **Configure Environment Variables**:
+   Because `.env` files contain sensitive passwords, they are deliberately NOT uploaded to GitHub. You must create a new file named `.env` inside the `backend` folder on the new laptop and paste the following:
+   
+   ```env
+   # Server Configuration
+   HOST=0.0.0.0
+   PORT=8001
+   DEBUG=true
+   FRONTEND_URL=http://localhost:3000
+
+   # MariaDB Configuration
+   MARIADB_HOST=202.47.117.220
+   MARIADB_PORT=3306
+   MARIADB_USER=sonika_user
+   MARIADB_PASSWORD=sonika@sql
+   MARIADB_DB=sonika_erp
+
+   # DeepSeek API Key
+   DEEPSEEK_API_KEY=your_deepseek_key_here
+
+   # MinerU Local Config
+   MINERU_BACKEND=pipeline
+   MINERU_METHOD=auto
+   MINERU_LANG=devanagari
+   ```
    > `requirements.txt` pins `numpy<2` on purpose: the MinerU 1.3.3 stack is built
    > against NumPy 1.x. Do not upgrade it.
 
@@ -169,7 +194,7 @@ The frontend contains the modern iOS liquid-glass UI.
 3. **Configure Environment Variables**:
    Just like the backend, you must create a new file named `.env.local` inside the `frontend` folder:
    ```env
-   NEXT_PUBLIC_API_URL=http://127.0.0.1:8000/api
+   NEXT_PUBLIC_API_URL=http://127.0.0.1:8001/api
    ```
 
 ---
@@ -179,7 +204,7 @@ The frontend contains the modern iOS liquid-glass UI.
 1. **Start the Backend** (Ensure your `venv` is active):
    ```bash
    cd backend
-   uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+   uvicorn app.main:app --reload --host 0.0.0.0 --port 8001
    ```
 
    > Run with a **single worker**. The job registry lives in process memory, so

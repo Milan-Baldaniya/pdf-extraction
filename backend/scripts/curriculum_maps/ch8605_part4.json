@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8605,
+ "mappings": [
+  {
+   "sha": "d9fa56ceb3dfc88d",
+   "codes": ["C-2.1-LO-7"],
+   "note": "Base numerical: a from (v - u)/t, then F = ma. No friction, graph or reaction pair to add."
+  },
+  {
+   "sha": "ea2770bc3fef07c9",
+   "codes": ["C-2.1-LO-6"],
+   "note": "Symbolic recall of the second law applied to a combined mass. No value and no model to construct, so LO-6 alone - unlike O36 and N15, where a procedure or an expression is actually built and C8.1 joins it."
+  },
+  {
+   "sha": "dccea8fa27890cbc",
+   "codes": ["C-2.1-LO-5"],
+   "note": "The first law restated in the frictionless idealisation. The frictionless premise is given rather than analysed, so LO-63 is not cited (contrast V74, which makes friction's absence the variable)."
+  },
+  {
+   "sha": "f80924571079c24c",
+   "codes": ["C-2.1-LO-5", "LO-64"],
+   "note": "The assertion is the rest half of the first law (LO-5); the reason to be validated is the subtler claim that rest counts as a constant velocity of zero, which is LO-64's framing. That reason clause is why this is not LO-5 alone as O52 is."
+  },
+  {
+   "sha": "4f9975398d4738d7",
+   "codes": ["C-2.1-LO-6"],
+   "note": "Inverse proportionality between acceleration and mass with no numbers. The diagram only supplies masses symbolically, so no graph code."
+  },
+  {
+   "sha": "addcb9f3ffb3ec30",
+   "codes": ["LO-64", "C-2.1-LO-6"],
+   "note": "The chain being ordered is precisely LO-64's 'a change in velocity is caused by a force', with the second law supplying the acceleration step (LO-6). No magnitudes, so not LO-7."
+  },
+  {
+   "sha": "1f5be7f9cf0f756f",
+   "codes": ["LO-63"],
+   "note": "An experimental procedure for measuring limiting friction with a spring balance. LO-63 carries the quantity being measured; the procedure-design and instrument-reading aspects have no outcome in this frame at all, so no second code is honest here."
+  },
+  {
+   "sha": "a1376730fde27436",
+   "codes": ["C-2.1-LO-8", "C-2.1-LO-6"],
+   "note": "Equal forces from the third law (LO-8), unequal accelerations from a = F/m (LO-6). The comparison is qualitative, so LO-6 rather than the LO-7 used for O47, where every row had to be checked numerically."
+  },
+  {
+   "sha": "52f0a6ea3ae7e124",
+   "codes": ["C-2.1-LO-8"],
+   "note": "Scope question on the third law only - does it reach non-contact forces. Duplicate in substance of O40 and mapped identically."
+  },
+  {
+   "sha": "3b62e569aa7ea3db",
+   "codes": ["C-2.1-LO-6"],
+   "note": "Inverse proportionality again, phrased as a lab manipulation. No value is produced, so LO-6 not LO-7; and nothing is designed or plotted, so the 'experiment' wording does not earn C8.1."
+  },
+  {
+   "sha": "dd2f92c003745c17",
+   "codes": ["C-2.1-LO-6"],
+   "note": "Asks for the momentum form of the second law. LO-6 names the law only 'in terms of mass and acceleration', so momentum has no exact home in this frame - LO-6 is the nearest legal code. Flagged as a poor fit."
+  },
+  {
+   "sha": "dd76d0ec5a9355d0",
+   "codes": ["LO-65", "C-2.1-LO-6"],
+   "note": "Everyday safety device explained by the second law through a longer stopping time - same pair as N8, O14, O21 and V81."
+  },
+  {
+   "sha": "19e1e89536215588",
+   "codes": ["C-2.1-LO-7"],
+   "note": "Numbers are given and a value is produced by summing the three masses and dividing, so LO-7. Its symbolic twin O51 takes LO-6 - this is the numeric/symbolic split used throughout the chapter."
+  },
+  {
+   "sha": "278f1c3b3c24ecb6",
+   "codes": ["LO-65"],
+   "note": "The student must sort four everyday events by which law explains each and find the odd one out (swimming, a third-law case). It is a routing question across everyday applications, so LO-65 alone and not either specific law."
+  },
+  {
+   "sha": "80cfbeec5bf940ef",
+   "codes": ["C-2.1-LO-7"],
+   "note": "Rests on knowing the SI unit of force, LO-7's tail clause; the kilogram half of the analogy is outside this frame. Same partial fit as O19."
+  },
+  {
+   "sha": "8c2f127a0843269e",
+   "codes": ["LO-64"],
+   "note": "Reverses LO-64: zero acceleration implies zero net force. Argued through F = ma but no value is computed, so not LO-7."
+  },
+  {
+   "sha": "27388569e04a865f",
+   "codes": ["LO-64", "LO-61"],
+   "note": "Force is defined by its effects - changing the state of motion (LO-64) and changing the direction of motion (LO-61). The 'change of shape' effect again has no outcome in this frame."
+  },
+  {
+   "sha": "c17a4081e8c19535",
+   "codes": ["C-2.1-LO-7"],
+   "note": "SI unit of force including the lower-case name and capital symbol convention - LO-7's define-the-unit clause."
+  },
+  {
+   "sha": "71d2dad6ec9f68dd",
+   "codes": ["C-2.1-LO-7"],
+   "note": "Spring balance as the instrument for the magnitude of a force. The frame has no measurement outcome; LO-7 is cited because measuring a force in newtons is the practical face of its unit clause. Flagged as a weak fit."
+  },
+  {
+   "sha": "143b017885b7e424",
+   "codes": ["LO-61"],
+   "note": "Direction alongside magnitude - LO-61 verbatim, in short-answer form (the MCQ twin is O1)."
+  },
+  {
+   "sha": "1355c7d70a65c96f",
+   "codes": ["LO-62"],
+   "note": "Definition of balanced forces, which is LO-62's definitional core. No motion state is inferred, so not LO-64 - that is the split against V71."
+  },
+  {
+   "sha": "ff1ade34c6d60970",
+   "codes": ["LO-62", "LO-64"],
+   "note": "Names the unbalanced case (LO-62) and states the consequence, that the object starts moving in the direction of the larger force (LO-64). V70 has no consequence clause, which is the split between the pair."
+  },
+  {
+   "sha": "184d71f5c65d3ac0",
+   "codes": ["LO-62", "LO-61"],
+   "note": "The general rule for combining opposing forces, with the direction of the resultant explicitly required (LO-61). Generalised form of O5 and O6."
+  },
+  {
+   "sha": "9327bfd5f3a0b236",
+   "codes": ["LO-63", "LO-65"],
+   "note": "Friction as the decelerating agent (LO-63) in a familiar event (LO-65). Not LO-64: the question asks for the cause, not for a net-force verdict."
+  },
+  {
+   "sha": "1f051916232eee1f",
+   "codes": ["C-2.1-LO-5", "LO-63"],
+   "note": "The first law in the frictionless limit (LO-5) with friction's absence as the explicit variable (LO-63). O52 is its MCQ twin but there the premise is merely given, which is why that one carries LO-5 alone."
+  }
+ ]
+}

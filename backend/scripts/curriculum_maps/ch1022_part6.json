@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "76dc88201981c629",
+   "codes": ["C 2.4-LO-2"],
+   "note": "Asks for the reciprocal-sum rule for three resistors in parallel - the parallel half of LO-2 stated as a formula rather than evaluated."
+  },
+  {
+   "sha": "bfba5b4a380a409f",
+   "codes": ["C 2.4-LO-2"],
+   "note": "Which combination lowers resistance. A one-step consequence of the parallel rule, so LO-2; no Ohm's law or material property is in play."
+  },
+  {
+   "sha": "7546b275c0a2fecf",
+   "codes": ["C 2.4"],
+   "note": "Names and defines the ampere from one coulomb per second. The definition of current has no outcome in this set - LO-1 treats current only as a term of V = IR. Content gap."
+  },
+  {
+   "sha": "af0a109aaa2db0cd",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Voltmeter resistance justified by its parallel placement and the need to draw negligible current - meter behaviour under LO-5, not a resistance-of-a-conductor question."
+  },
+  {
+   "sha": "a23fce8a527fdd13",
+   "codes": ["C 2.4-LO-2"],
+   "note": "Common PD across parallel branches. Paired with the series-current item as the defining property of the other combination; LO-2 is the only outcome that owns either."
+  },
+  {
+   "sha": "bd6eec75df15f60d",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-3"],
+   "note": "Same current, different heat: LO-2 supplies H proportional to R at fixed I, LO-3 supplies why the thin filament has far greater resistance than the line wire. Both halves are needed for the explanation."
+  },
+  {
+   "sha": "dd997099b3a82176",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Ratio of resistances from rated powers via R = V^2/P, with a numerical factor demanded. Power rating is the input, so C 2.5-LO-1 rather than C 2.4-LO-1."
+  },
+  {
+   "sha": "b9df324e5bfa92ed",
+   "codes": ["C 2.4-LO-2"],
+   "note": "Disadvantages of series wiring - common current forcing unequal appliances to share it, and one failure breaking the whole loop. Both are properties of the series combination, so LO-2, argued qualitatively rather than computed."
+  },
+  {
+   "sha": "08f846585e744c40",
+   "codes": ["CG 2"],
+   "note": "General-awareness item about electricity as the convenient transmissible form of energy. No competency or outcome in the legal set covers it - C 2.5's outcomes need a power or energy value and C 2.4's need a circuit quantity - so it is pinned only at goal level. Poor fit."
+  },
+  {
+   "sha": "ecdcaf93332afdfa",
+   "codes": ["C 2.4-LO-1"],
+   "note": "Bare substitution R = V/I with a single pair of values. The simplest member of the numerical Ohm's law family, with no combination, geometry or power step."
+  },
+  {
+   "sha": "17f23f569e858279",
+   "codes": ["C 2.4-LO-2", "C 2.5-LO-1"],
+   "note": "Two equal resistors give 48 ohm in series and 12 ohm in parallel (LO-2), then P = V^2/R turns that into a 4:1 power ratio (C 2.5-LO-1). Neither step alone reaches the answer, so both are cited."
+  },
+  {
+   "sha": "a79873feb98309aa",
+   "codes": ["C 2.4-LO-1"],
+   "note": "Current falls to one fourth when V does at constant R, and the law must be named. This is the 'states and uses' pairing of LO-1 in one item, with no numbers substituted."
+  },
+  {
+   "sha": "cf0d50957d639288",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-3"],
+   "note": "Alloy heating elements in toasters and irons: LO-2 owns the heating devices, LO-3 owns the higher-resistivity-than-constituents argument. The oxidation reason has no outcome and rides along under 'material'."
+  },
+  {
+   "sha": "79690bc36c2a7f83",
+   "codes": ["C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Infers ohmic behaviour from a straight V-I line (LO-1) and then explicitly requires a labelled circuit diagram with ammeter and voltmeter to obtain it - the clearest LO-5 fit in the chapter, since both halves of that outcome are demanded."
+  },
+  {
+   "sha": "8be8b1c136a41f71",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-3"],
+   "note": "Oven cord versus element - the same heat-goes-where-the-resistance-is argument as the bulb filament item, with LO-3 carrying the reason the two resistances differ."
+  },
+  {
+   "sha": "012ca45b5fac864b",
+   "codes": ["C 8.1-LO-5", "C 2.5-LO-2"],
+   "note": "Requires a drawn domestic circuit with standard symbols (LO-5) in which the fuse is the graded safety element (C 2.5-LO-2). Earthing, the other half of the answer, is named in no outcome."
+  },
+  {
+   "sha": "883aba31539fcaba",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-1"],
+   "note": "Reads a milliammeter and a voltmeter scale, least count included (LO-5), then R = V/I from those readings (LO-1). The meter-reading step is graded separately here, which is why LO-5 leads."
+  },
+  {
+   "sha": "14ef543f6efa117c",
+   "codes": ["CG 2"],
+   "note": "Uses of electricity in daily life. Pure general awareness with nothing to calculate, relate or draw; no competency in the legal set reaches it, so it is recorded at goal level as a poor fit."
+  },
+  {
+   "sha": "df9efe2711ae0981",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Zero error of an ammeter and voltmeter and how to correct readings for it. LO-5 is the only meter outcome, though note it speaks of predicting readings rather than correcting instrument error, so the fit is approximate."
+  },
+  {
+   "sha": "9253552bf3860e9f",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Least count and scale reading of both meters, with no resistance asked for. Deliberately not paired with LO-1 - unlike the near-identical item above, this one stops at the readings."
+  },
+  {
+   "sha": "7d21f33ddd0f9c34",
+   "codes": ["C 2.4-LO-1", "C 8.1"],
+   "note": "States Ohm's law with its expression (LO-1) and then asks what shape the V-I plot takes and why. C 8.1 rather than LO-5 because the graded representation is a graph, which LO-5's wording (circuit diagrams and meters) does not cover."
+  },
+  {
+   "sha": "d104a5ec0a8ccda9",
+   "codes": ["C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "States the law, then demands the experimental circuit - battery, rheostat, ammeter in series, voltmeter across - which is LO-5. The third part, whether Ohm's law always holds, concerns non-ohmic conductors and is outside every outcome here."
+  },
+  {
+   "sha": "e34e789087a60edd",
+   "codes": ["C 2.5-LO-2"],
+   "note": "The three factors of H = I^2Rt plus a named application. Entirely within LO-2; no power, energy or unit conversion is asked, which is what keeps it off C 2.5-LO-1."
+  },
+  {
+   "sha": "7ef26ab499de4a0c",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-3"],
+   "note": "Two reasons for nichrome heating elements, one of which is explicitly high resistivity (LO-3) and the other its behaviour when red hot in a heater (LO-2)."
+  },
+  {
+   "sha": "ee32893733fbe64f",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Converts 17 divisions into a current using the ammeter's least count. The arithmetic is scale reading, not Ohm's law, so LO-5 alone; no resistance or voltage appears."
+  }
+ ]
+}

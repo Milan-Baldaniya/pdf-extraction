@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1015,
+ "mappings": [
+  {
+   "sha": "2daaf2aa4f8b79bb",
+   "codes": ["CG 1"],
+   "note": "Occurrence/abundance of carbon in the atmosphere. No competency in this frame covers where carbon is found: C 1.1 is classification and compound formation, C 1.2 is separation/mixtures, C 1.3 is reactions. Goal-level code used deliberately to flag the gap rather than stretch an outcome."
+  },
+  {
+   "sha": "335c51066a89387f",
+   "codes": ["C 1.1"],
+   "note": "Physical consequences of covalent bonding (poor conduction, weak intermolecular forces). Not C 1.1-LO-3, which is confined to tetravalency/catenation and the number of compounds; no outcome in this frame covers the physical properties of covalent compounds, so the competency is cited."
+  },
+  {
+   "sha": "fd47f7b5f1894419",
+   "codes": ["C 1.1"],
+   "note": "Near-duplicate of sha 335c51066a89387f (same four statements, options reordered). Honestly the same target: covalent bonding and its physical consequences. No outcome covers it; competency cited."
+  },
+  {
+   "sha": "ed2d0097906ea189",
+   "codes": ["C 1.1-LO-3"],
+   "note": "Counting the bonds in C2H6 applies tetravalency (4 bonds per C) plus one C-C catenation bond. Not C 1.3-LO-4: the item asks for a number, not for a structure to be drawn or chosen."
+  },
+  {
+   "sha": "63f8f4726f180c58",
+   "codes": ["C 1.1"],
+   "note": "Bonding in NH3. C 1.3-LO-4 is restricted by its own wording to 'simple carbon compounds', and ammonia is not one; C 1.1 (compounds formed from atomic structure and valency) is the honest fit for a non-carbon covalent molecule."
+  },
+  {
+   "sha": "13c893dffaa0b14c",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Names a functional group (ketone) from a compound name. Squarely the 'identifies functional groups' half of LO-4; no structure is drawn, so not C 1.3-LO-4."
+  },
+  {
+   "sha": "b5d4b1ca4f1ce094",
+   "codes": ["CG 1"],
+   "note": "Allotropy of carbon (fullerene). Recall of an allotrope, with no bonding reasoning to hook onto C 1.1-LO-3. No competency covers allotropes; goal-level code flags the gap."
+  },
+  {
+   "sha": "10d1bf2e350ce835",
+   "codes": ["C 1.3"],
+   "note": "Incomplete combustion inferred from soot. A chemical change, so C 1.3 at competency level; none of the five outcomes covers combustion, and C 1.3-LO-4 is only about drawing structures."
+  },
+  {
+   "sha": "b68d56cad45b91d9",
+   "codes": ["C 1.3-LO-4"],
+   "note": "Structural isomers of butane - 'their isomers' is named in LO-4. Chosen over C 1.1-LO-3 because the demand is recognising two structures for one formula, not explaining why carbon forms many compounds."
+  },
+  {
+   "sha": "b9a013377de5aead",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Oxidation of ethanol to ethanoic acid by alkaline KMnO4 - the reaction is exactly the ethanol/ethanoic-acid chemistry LO-8 names. Not C 1.3 (generic reaction types) because both substrate and product are the two compounds LO-8 is written about."
+  },
+  {
+   "sha": "ba3309d42c299ce5",
+   "codes": ["C 1.3"],
+   "note": "Classifies hydrogenation of oils as an addition reaction. Reaction-type identification has no outcome in this frame; C 1.3 competency (chemical interactions and changes) is the nearest legal code."
+  },
+  {
+   "sha": "a782d295674106c2",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Picks the alcohol from four named compounds by reading -ol/-one/-oic acid/-al suffixes: functional group plus nomenclature, the whole of LO-4."
+  },
+  {
+   "sha": "c993e30c0e5645ce",
+   "codes": ["C 1.2-LO-9"],
+   "note": "Structure of the soap molecule as the basis of cleansing. LO-9, not LO-8, because the point is the hydrophilic/hydrophobic duality behind cleansing, not the saponification reaction that made the soap."
+  },
+  {
+   "sha": "7745ca3504b45db8",
+   "codes": ["C 1.1"],
+   "note": "Electron dot structure of N2. C 1.3-LO-4 covers electron dot structures only 'for simple carbon compounds'; nitrogen is not one, so the competency on bonding from atomic structure and valency is cited instead."
+  },
+  {
+   "sha": "c1b0325f23499179",
+   "codes": ["C 1.3-LO-4"],
+   "note": "Selects the correct structural formula of ethyne - a representation task on a carbon compound, which is precisely LO-4 of C 1.3. Not C 1.1-LO-4: no naming or functional group is at issue."
+  },
+  {
+   "sha": "d633f8c2d42327a7",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Unsaturation decided from NAMES (propane/propene/propyne/chloropropane), i.e. from -ane/-ene/-yne series suffixes, so this is homologous-series naming. Its structure-based twin (sha c25ff55f803a573f) goes to C 1.3-LO-4 instead."
+  },
+  {
+   "sha": "b9a19b535ae627ed",
+   "codes": ["C 1.3"],
+   "note": "Conditions for chlorination of an alkane (sunlight) - a substitution reaction. No outcome covers reaction types; competency-level C 1.3 cited."
+  },
+  {
+   "sha": "a053efd630f58292",
+   "codes": ["C 1.2-LO-9"],
+   "note": "Arrangement of molecules inside a micelle - 'micelle formation' is named verbatim in LO-9."
+  },
+  {
+   "sha": "bbe9dec06c625330",
+   "codes": ["C 1.1-LO-3"],
+   "note": "Bond count for C5H12 from tetravalency plus four catenation C-C bonds. Same rule as sha ed2d0097906ea189: counting bonds is LO-3, drawing structures is C 1.3-LO-4."
+  },
+  {
+   "sha": "4a19c50a57266a52",
+   "codes": ["C 1.3-LO-4"],
+   "note": "Selects the structural formula of benzene (ring with alternate double bonds). Representation of a carbon compound, so C 1.3-LO-4."
+  },
+  {
+   "sha": "2655f21c4da2dbd9",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Reaction of ethanol with sodium and its products - a chemical property of ethanol, explicitly LO-8's subject matter."
+  },
+  {
+   "sha": "30c777a7a27091dd",
+   "codes": ["C 1.3-LO-4", "C 1.1-LO-4"],
+   "note": "Two demands: translate the name 'butanoic acid' into a functional group (C 1.1-LO-4) and then pick the matching structural formula (C 1.3-LO-4). Representation is the graded act, so C 1.3-LO-4 leads."
+  },
+  {
+   "sha": "cfc5bbc527cf0cf6",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Composition of vinegar, i.e. a use/property of ethanoic acid. LO-8 covers ethanoic acid's properties; no other legal code mentions it."
+  },
+  {
+   "sha": "f88f608d636ffded",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Weak-acid behaviour of carboxylic acids versus mineral acids - the acidity of ethanoic acid, a property under LO-8. Not C 1.3 (acid-base reactions) because nothing is reacted or equated here; the item is about degree of ionisation."
+  },
+  {
+   "sha": "8270810fb6476457",
+   "codes": ["C 1.1-LO-3"],
+   "note": "Tetravalency of carbon and the noble-gas configuration it achieves - the first clause of LO-3 exactly. Catenation is not involved, but LO-3 is the only outcome naming tetravalency."
+  }
+ ]
+}

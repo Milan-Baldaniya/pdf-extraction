@@ -1,0 +1,120 @@
+{
+ "chapter_id": 23199,
+ "mappings": [
+  {
+   "sha": "99efe4844683e1ff",
+   "codes": ["C-6.3-LO-3"],
+   "note": "one triangle, one elevation of 60 and a known 250 m ground distance giving a height; the plainest instance of this outcome among the case studies"
+  },
+  {
+   "sha": "4917f4c8c2148e0f",
+   "codes": ["C-6.3-LO-4"],
+   "note": "pinnacle at 60 and restaurant at 45 from one 208 m vantage point; part (ii) is the DIFFERENCE of the two heights, so both triangles are needed"
+  },
+  {
+   "sha": "9e5a7fc6487433d0",
+   "codes": ["C-6.3-LO-4", "C-6.2-LO-3"],
+   "note": "spotlight and observer are two DIFFERENT points 600 m apart aiming at the same spot, so the two bases ADD to 600 - a constraint only the drawn figure makes visible. Not the usual difference-of-bases arrangement"
+  },
+  {
+   "sha": "4437e8beacf4c6e0",
+   "codes": ["C-6.2-LO-3", "C-6.3-LO-4"],
+   "note": "the instruction is literally USE THE DIAGRAM to derive a formula, which is C-6.2-LO-3's wording; the derivation itself uses two sight lines (from the foot and from the top of the shorter building) and the answer is symbolic in tan theta and tan phi rather than numeric"
+  },
+  {
+   "sha": "5fdb0dc738b0ffaa",
+   "codes": ["C-6.1-LO-3"],
+   "note": "the 200 km DME reading is a SLANT range, so the ground distance is the adjacent side and cos must be chosen; mistaking it for a horizontal distance is the whole trap"
+  },
+  {
+   "sha": "99713fd467b152c2",
+   "codes": ["C-6.3-LO-4", "C-6.2-LO-3"],
+   "note": "THREE sight lines from one rim across a 150 m canyon - one depression and two elevations - and the answers stack (south rim, north rim, remaining climb). The common 150 m base and the reference level must be laid out first"
+  },
+  {
+   "sha": "c28921995480dcd3",
+   "codes": ["C-6.3-LO-4"],
+   "note": "45 at A and 30 from 20 m further back; two positions of one observer with the known 20 m offset, the standard walk-back pair"
+  },
+  {
+   "sha": "f68a0d44183916ea",
+   "codes": ["C-6.2-LO-3", "C-6.3-LO-3"],
+   "note": "single elevation of 30 over a known 30 m, but the transit's own 2 m must be added at the end - the instrument-height construction, same trap as shas f94bf2948933953d and b84150a3fa944c71"
+  },
+  {
+   "sha": "039c98082db13807",
+   "codes": ["C-6.3-LO-4"],
+   "note": "balloon above the lake sighting both shores at 45 and 30; the shores are on opposite sides of the point below, so the width is the SUM of the two bases"
+  },
+  {
+   "sha": "7f09f0f377c7c0dd",
+   "codes": ["C-6.3-LO-4"],
+   "note": "pyramid sighted at 60 from the base of a FACE and at 30 from 50 m further out; the two bases differ by 50, and the base side comes out as twice the near distance"
+  },
+  {
+   "sha": "5a1e51fd591ac411",
+   "codes": ["C-6.3-LO-4"],
+   "note": "45 at A, 30 at 125 m further; identical structure to sha c28921995480dcd3 with a different offset, and the family honestly shares this outcome"
+  },
+  {
+   "sha": "0a8daaf5f344dbb8",
+   "codes": ["C-6.3-LO-4"],
+   "note": "two fire towers 4 km apart sight the same fire, so the two bases add to 4 km - a genuine two-observer item. NOTE the stem has lost its tower labels (due west of tower <blank>, angle from tower <blank>, distance from the line segment <blank>) and both angles exist only in a figure that is not present"
+  },
+  {
+   "sha": "cb63e2406f4561ad",
+   "codes": ["C-6.2-LO-3", "C-6.3-LO-3"],
+   "note": "two triangles, but NOT the LO-4 pattern: the first is HORIZONTAL (Varsha turns 90 and walks 15 m, so tan 60 gives the ground distance she cannot measure) and only the second is vertical. Laying out the two perpendicular planes is the whole difficulty, then the height is a plain elevation-and-distance calculation"
+  },
+  {
+   "sha": "4e15d13ad45139b6",
+   "codes": ["C-6.3-LO-4"],
+   "note": "door top at 30 and ceiling at 60 from one floor point, with the 6 m ceiling fixing the shared distance first; the door height is then a single height over that distance - two nested triangles"
+  },
+  {
+   "sha": "0a709ba44b9e7200",
+   "codes": ["C-6.1-LO-3"],
+   "note": "the 1234 m sonar range is the HYPOTENUSE and the depth is opposite the 30, so sin is the pick; the underwater mirror of the DME item sha 5fdb0dc738b0ffaa, which needs cos instead"
+  },
+  {
+   "sha": "5fdd35776292f650",
+   "codes": ["C-6.1-LO-3", "C-6.2-LO-3"],
+   "note": "each 30 m half-section is a known hypotenuse rotated 30, so sin gives the rise and cos the horizontal reach - both ratios selected on one triangle. The figure work is halving the 60 m span, adding the 5 m water level and doubling the gap"
+  },
+  {
+   "sha": "59552f8e8409050e",
+   "codes": ["C-6.3-LO-4"],
+   "note": "elevation 60 to the tower top and depression 30 to its foot from one window across a 60 m gap; the tower height is the SUM of the two pieces. Same geometry as sha f9ba360ec24ab98f with the roles of the two angles swapped"
+  },
+  {
+   "sha": "1408c5f10ad0e5ee",
+   "codes": ["C-6.3-LO-4"],
+   "note": "roof at 45 and logo centre at 30 from one point 24 m out; two heights on a shared base, with the logo's position as a difference"
+  },
+  {
+   "sha": "9271adf1bd153db4",
+   "codes": ["C-6.3-LO-4"],
+   "note": "the balloon rises 50 m between the two sightings, so the two triangles share the ground distance while the heights differ by 50 - two positions of one observer stacked vertically, like sha 79f9a2feac1b47cc"
+  },
+  {
+   "sha": "a659d8b588d835d6",
+   "codes": ["C-6.3-LO-4"],
+   "note": "the two tower sections at 30 and 45 from O at 36 m, with section A's height as the difference. Near-duplicate of sha 60461f30578d64cb, which asks for the wire length instead and misprints 36 m as 36 cm"
+  },
+  {
+   "sha": "e2299af19a35f475",
+   "codes": ["C-6.3-LO-2"],
+   "note": "the graded parts ask which labelled pairs ARE angles of elevation and which are angles of depression - identification, not calculation, so the definitional outcome. NOTE the options name figure labels (angle a to angle f) that the stem never defines, so the item cannot be answered without the diagram"
+  },
+  {
+   "sha": "44aef0a55552d3d9",
+   "codes": ["C-6.3-LO-4", "C-6.2-LO-3"],
+   "note": "two different angles from the same eagle - 45 down to the rat's start, 30 along the dive - so the rat's run is the difference of two ground distances; the dive line and the rat's path must both be drawn before any ratio applies"
+  },
+  {
+   "sha": "a9e76b9bbaf17da2",
+   "codes": ["C-6.3-LO-4", "C-6.2-LO-3"],
+   "note": "the plane is at A when the missile fires and at B when it lands, so two verticals of 600 m must be dropped and the 45 missile path links them; distances follow from speed x time as well as from the ratios"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8606,
+ "mappings": [
+  {
+   "sha": "a9c1df1b564b191e",
+   "codes": ["C-2.6-LO-3", "C2.6"],
+   "note": "POOR FIT on half the question: the pulley must be read off the figure as single fixed (LO-3) and then MA and VR quoted. MA is reachable only through C2.6, and velocity ratio has no code in this frame at all."
+  },
+  {
+   "sha": "a275e90f0eb288cd",
+   "codes": ["C-2.5-LO-1"],
+   "note": "Asks for the definition of work done by a CONSTANT force - the first half of LO-1 word for word. Nothing is calculated and no unit is asked, so neither LO-2 nor the unit clause is the discriminator here."
+  },
+  {
+   "sha": "5c003e41b90a93d3",
+   "codes": ["C-2.5-LO-1"],
+   "note": "The SI unit of WORK and its one-newton-one-metre definition - the '...and its SI unit' clause of LO-1. Not LO-4, which carries the unit of ENERGY; that distinction separates this from the James Prescott Joule item."
+  },
+  {
+   "sha": "a3103e3352c79219",
+   "codes": ["C-2.5-LO-1"],
+   "note": "The condition for zero work on a MOVING object is the perpendicular case, decided from the definition (LO-1). Sibling item V53 covers the zero-displacement case; both sit on LO-1 because the frame has no finer split."
+  },
+  {
+   "sha": "fd88ec7f2b8820ce",
+   "codes": ["C-2.5-LO-1"],
+   "note": "Supply an everyday example of negative work - the sign clause of the work definition, LO-1. No magnitude is produced, so LO-2 is not in play."
+  },
+  {
+   "sha": "a0332a3486b3aece",
+   "codes": ["C-2.5-LO-1"],
+   "note": "Zero work from zero displacement when pushing a wall - the displacement clause of LO-1, and the counterpart to V51's perpendicular case. Effort felt by the pusher is a distractor, not an energy-forms question."
+  },
+  {
+   "sha": "d695a128c47b20b8",
+   "codes": ["C-2.5-LO-3"],
+   "note": "Asks the student to STATE the work-energy theorem, which is LO-3 verbatim. Chosen over LO-2 and LO-6 because nothing is applied or computed."
+  },
+  {
+   "sha": "81f2cbbd800fd1c2",
+   "codes": ["C-2.5-LO-4", "C-2.5-LO-5"],
+   "note": "The unit named here is the unit of ENERGY, so LO-4 rather than the work-unit clause of LO-1; LO-5 is added because the second half asks what Joule studied - the mechanical-to-thermal interconversion of energy forms."
+  },
+  {
+   "sha": "52f522156e62c2da",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Names chemical potential energy as the form stored in fuel and food - the 'name forms of energy' clause of LO-5. No conversion chain is traced, so this sits below the interconversion items but on the same outcome."
+  },
+  {
+   "sha": "26b3bf56e5556966",
+   "codes": ["C-2.6-LO-1", "C-2.5-LO-7"],
+   "note": "The claim to be refuted is about TOTAL mechanical energy decreasing, so the conservation law is the discriminator (C-2.6-LO-1); LO-7 supplies the PE-falls-KE-rises justification. Ordering reflects which idea decides the answer."
+  },
+  {
+   "sha": "5ac05a96ee90c5d5",
+   "codes": ["C-2.6-LO-1", "C-2.5-LO-1"],
+   "note": "Defines power (C-2.6-LO-1) and then contrasts stairs run versus walked 'in terms of work AND power' - the work half rests on work depending only on force and displacement, not time (LO-1). No number is produced, so not C-2.6-LO-2."
+  },
+  {
+   "sha": "27dd18f5b8b97ab2",
+   "codes": ["C-2.5-LO-7"],
+   "note": "States KE and PE at the release point and then traces the transformation through a vertical fall - the free-fall PE-to-KE case of LO-7. Not LO-6: mgh is written symbolically, never evaluated."
+  },
+  {
+   "sha": "3ac83e5a2c2359d4",
+   "codes": ["C-2.6-LO-2", "C-2.5-LO-6"],
+   "note": "Lays out the procedure for a power calculation, so C-2.6-LO-2 leads, with LO-6 for the intermediate mgh energy step the procedure depends on. Not a CG8 inquiry outcome - no hypothesis, variable or instrument is involved, only a formula sequence."
+  },
+  {
+   "sha": "7934b8ed016a9b3f",
+   "codes": ["C-2.6-LO-3", "C2.6", "C-2.6-LO-1"],
+   "note": "Three distinct demands: what simple machines are (LO-3), how they reduce effort, i.e. mechanical advantage (C2.6), and why the total work is nevertheless unchanged, which is the conservation law (C-2.6-LO-1). Dropping any one would leave part of the item unmapped."
+  },
+  {
+   "sha": "6f56fe92e6afe9a0",
+   "codes": ["C-2.6-LO-1"],
+   "note": "Why a real pendulum stops 'despite the conservation of energy' - the item names the law and asks it be reconciled with dissipation, so C-2.6-LO-1. Unlike the perpetual-machine item, no form of energy is named in the answer, so LO-5 is not added."
+  },
+  {
+   "sha": "53cc946b4f434f05",
+   "codes": ["C-2.6-LO-1"],
+   "note": "Bare definition of power, which lives in C-2.6-LO-1's 'Define power and its unit' clause. C-2.6-LO-2 is reserved for items that actually compute a power."
+  },
+  {
+   "sha": "1502dd8352f0e912",
+   "codes": ["C-2.6-LO-1"],
+   "note": "The watt and its joule-per-second relation - the 'and its unit' half of C-2.6-LO-1, the only place in the frame where the unit of power appears. Deliberately not LO-4, which is the unit of energy."
+  },
+  {
+   "sha": "2d9716bc30998fc9",
+   "codes": ["C-2.6-LO-1"],
+   "note": "Same-work-shorter-time reasoning applied to stairs; a one-line version of V92 and honestly the same outcome. Kept to C-2.6-LO-1 alone because, unlike V92, it does not also ask about the work done."
+  },
+  {
+   "sha": "aa84810fd7032984",
+   "codes": ["C-2.6-LO-3", "C2.6"],
+   "note": "The answer is that machines change the MAGNITUDE or DIRECTION of effort: direction is the LO-3 description of what a machine does, magnitude is mechanical advantage, which only C2.6 names."
+  },
+  {
+   "sha": "d908f373ce1fb93f",
+   "codes": ["C2.6"],
+   "note": "POOR FIT. Asks for the MA formula (load/effort) outright. Curriculum 82 defines no outcome for mechanical advantage, so the competency statement is the only legal code that even mentions it; no machine identification is required, so no LO-3."
+  },
+  {
+   "sha": "d51cffabc61b58ec",
+   "codes": ["C-2.6-LO-3"],
+   "note": "PARTIAL FIT. LO-3 covers identifying a lever, but the item asks specifically for a CLASS I lever and the position of the fulcrum; lever classes are not in the frame. LO-3 is the nearest and only sensible code."
+  },
+  {
+   "sha": "150d1e4e6e31e513",
+   "codes": ["C-2.6-LO-3"],
+   "note": "Explains what a fixed pulley does - redirects effort without multiplying it. That is describing an identified simple machine (LO-3); C2.6 is withheld precisely because the answer is that there is NO force multiplication."
+  },
+  {
+   "sha": "8c4ecfdc6002f273",
+   "codes": ["C-2.6-LO-3", "C2.6"],
+   "note": "Two demands: describe the structure of an inclined plane (LO-3) and explain the mechanical advantage it provides (C2.6). Contrast with the fixed-pulley item, where no advantage exists and C2.6 is therefore absent."
+  },
+  {
+   "sha": "037c83560ad86e8b",
+   "codes": ["C-2.6-LO-1", "C-2.6-LO-3"],
+   "note": "The correction required is that machines cannot CREATE energy - a direct appeal to the conservation law (C-2.6-LO-1), with LO-3 for the machines themselves. Not a mechanical-advantage item: the misconception is about energy, not force ratios."
+  },
+  {
+   "sha": "366b77720ebe3088",
+   "codes": ["C-2.5-LO-1", "C-2.5-LO-2"],
+   "note": "Two halves: define work scientifically (LO-1) and give the expression used when force and displacement are aligned (LO-2). The paired V49 item asks only for the definition, which is why it carries LO-1 alone."
+  }
+ ]
+}

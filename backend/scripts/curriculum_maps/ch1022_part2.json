@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "9abbdc49e6a858db",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Turns on separating rho (material only) from R (material plus geometry) in R = rho*l/A - precisely the discrimination LO-3 exists for. Not LO-1: no V or I appears and Ohm's law is never used."
+  },
+  {
+   "sha": "415ba1e7e537c189",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Conductivity as the reciprocal of resistivity, and whether that product is material-dependent. Sits in the material clause of LO-3; no resistance value, combination or circuit is involved."
+  },
+  {
+   "sha": "4123df534ad2d062",
+   "codes": ["C 2.5-LO-2", "C 2.5-LO-1"],
+   "note": "Transmission loss is I^2R heat, so the heating-effect outcome leads; C 2.5-LO-1 is second because the argument runs through I = P/V for a fixed transmitted power. Note LO-2's application half names only fuse, heater and lamp, so line loss sits just outside its wording."
+  },
+  {
+   "sha": "2f7e4686dcfd28f9",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Rated power against resistance at a common supply voltage, R = V^2/P. Chosen over C 2.4-LO-1 because the quantity that does the work is the appliance's power rating, not a measured V-I pair."
+  },
+  {
+   "sha": "db5e6590054c1d8a",
+   "codes": ["C 2.5-LO-2", "C 2.5-LO-1"],
+   "note": "Why equal-wattage lamps differ in light output - a filament lamp wastes much of its power as infrared, which is the filament-lamp clause of LO-2; LO-1 supplies the equal-power premise. Weak fit overall: the spectral-efficiency reasoning the answer actually uses is in no outcome."
+  },
+  {
+   "sha": "761e799cadad5c30",
+   "codes": ["C 2.5-LO-1", "C 2.4-LO-1"],
+   "note": "Graded point is that P = V^2/R rises when R falls, so power is the output (LO-1); C 2.4-LO-1 is cited because the misconception in the reason is corrected only by noting that I itself changes with R. Distinct from the plain P = VI recall items."
+  },
+  {
+   "sha": "f3c0ad90d12f93f4",
+   "codes": ["C 2.5-LO-2"],
+   "note": "The whole claim is that a filament glows because the heating effect does not care about current direction - the heating-effect half of LO-2 applied to a filament lamp. No power value is computed, so not C 2.5-LO-1."
+  },
+  {
+   "sha": "33e0213aee8145fe",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Tests that a tube light is not incandescent, i.e. that high-temperature emission belongs to the filament lamp of LO-2 and not here. Poor fit: gas-discharge emission is outside every outcome in this set, and only the contrast with the filament lamp keeps it inside LO-2."
+  },
+  {
+   "sha": "ac953913008213c2",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Names the current-detecting meter in a circuit. Placed with the meter outcome rather than any C 2.4 outcome because nothing about V, I or R is related; note LO-5 names ammeter and voltmeter only, so the galvanometer is a slight stretch."
+  },
+  {
+   "sha": "fec6ea0b7df7a35c",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Function of a meter within a circuit - the instrumentation half of LO-5. Same family as the ammeter/voltmeter definition items, kept apart from C 2.4-LO-1 because no potential-difference-current relation is asked."
+  },
+  {
+   "sha": "f692eb3708ca0506",
+   "codes": ["C 8.1-LO-5"],
+   "note": "What a voltmeter does and that it goes in parallel - LO-5 names the voltmeter explicitly. The parallel connection here is meter placement, not a resistor combination, so C 2.4-LO-2 would be wrong."
+  },
+  {
+   "sha": "6b897d057c8781c7",
+   "codes": ["C 2.4"],
+   "note": "Who the ampere is named after. Genuinely poor curriculum fit: this is history-of-science trivia and no outcome in the set covers it; the competency is cited only because current is the subject."
+  },
+  {
+   "sha": "709a43044c04b751",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Names the potential-difference meter. LO-5 is the only row naming the voltmeter; the sibling C 2.4 outcomes all require a relation between quantities, which this does not ask for."
+  },
+  {
+   "sha": "30d20da6f38de0a1",
+   "codes": ["C 2.4"],
+   "note": "Definition of a battery as cells combined for greater potential difference. No outcome covers sources of emf or the definition of potential difference; only the competency names voltage as a circuit characteristic. Content gap."
+  },
+  {
+   "sha": "cbece4d12302fb04",
+   "codes": ["C 2.4"],
+   "note": "Whether potential difference is scalar or vector. Nothing in LO-1 to LO-3 addresses the nature of the quantity itself, so the competency row is the only legal home. Content gap."
+  },
+  {
+   "sha": "0b87fa155f776b02",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Definition of the ammeter, the instrument LO-5 names. Kept separate from the 'how is it connected' item below only by note, not by code - the two honestly share this outcome."
+  },
+  {
+   "sha": "eae6afff29e7269e",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Series placement of an ammeter in a circuit - circuit-construction knowledge, the drawing half of LO-5. Not C 2.4-LO-2: series appears as a wiring instruction, with no equivalent resistance to compute."
+  },
+  {
+   "sha": "19d94bd773cbc5e8",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Conductor versus insulator distinguished by resistance of a same-sized sample, i.e. the material clause of LO-3 with geometry deliberately held constant."
+  },
+  {
+   "sha": "478792982e4bb6c2",
+   "codes": ["C 2.4"],
+   "note": "Number of electrons in one coulomb from q = ne. Charge quantisation is named in no outcome; same gap as the electron-count item in part 1, and here there is not even a current to attach it to."
+  },
+  {
+   "sha": "2f36b8b87103dbe0",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Definition of a voltmeter as the instrument measuring PD between two points - the meter half of LO-5, with no relation between circuit quantities graded."
+  },
+  {
+   "sha": "1bf669d4e621787e",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Asks for two factors on which resistance depends; the expected answer is length and area of cross-section, which is LO-3 stated rather than applied."
+  },
+  {
+   "sha": "c951a62b525a38f0",
+   "codes": ["C 2.4"],
+   "note": "SI unit of current. No outcome in the set defines current or its unit - LO-1 names current only inside the Ohm's law relation - so the competency is the only honest home. Content gap."
+  },
+  {
+   "sha": "e290c3a5daefe7e6",
+   "codes": ["C 2.4"],
+   "note": "Work done moving one coulomb through one volt, i.e. the definition W = QV of potential difference. Not LO-1: no resistance and no current appear. No outcome defines the volt, so this is the potential-difference gap again."
+  },
+  {
+   "sha": "0391d3ef192369bd",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Ranks insulators, metals and alloys by resistivity - a pure material-class question, the third clause of LO-3."
+  },
+  {
+   "sha": "809fa3eded45cbb0",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Literally 'draw a schematic diagram using the standard symbols' for a named series set - the first half of LO-5 verbatim. No value is computed, so C 2.4-LO-2 is not graded even though the components are in series."
+  }
+ ]
+}

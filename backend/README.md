@@ -11,7 +11,7 @@ diagnostics.
 
 ```powershell
 cd "C:\Users\MILAN\Downloads\pdf extraction\backend"
-.\venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+.\venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8001
 ```
 
 ## CPU MinerU Settings

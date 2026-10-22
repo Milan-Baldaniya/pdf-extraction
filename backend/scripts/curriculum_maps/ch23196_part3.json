@@ -1,0 +1,30 @@
+{
+ "chapter_id": 23196,
+ "mappings": [
+  {"sha": "51ccc49ea6861d65", "codes": ["C-7.3-LO-1", "C-7.1-LO-3"], "note": "three tethered animals sweep sectors (C-7.3-LO-1), but the question asks for the area that CANNOT be grazed, so the triangle minus those sectors is also a composite"},
+  {"sha": "b3d9767fdc20c02a", "codes": ["C-7.1-LO-3"], "note": "sector minus a right triangle whose apex is not the chord, so the leftover is not a segment; it is a sector-and-triangle composite, LO-3 not LO-2"},
+  {"sha": "000c4f8bfd4e26b3", "codes": ["C-7.1-LO-2"], "note": "explicitly asks for the minor segment and then the major segment of the same chord - the paired minor/major wording of LO-2"},
+  {"sha": "ff03d23124d96eaa", "codes": ["C-7.1-LO-3"], "note": "major sector plus (equilateral triangle minus minor sector): three pieces added and subtracted, the composite outcome"},
+  {"sha": "38de764f866ae76b", "codes": ["C-7.1-LO-2"], "note": "minor segment and corresponding major segment for a 60 degree chord; sector minus triangle, the LO-2 method"},
+  {"sha": "8891eb4580cc3aa5", "codes": ["C-7.1-LO-3"], "note": "ring between two concentric circles restricted to a 320 degree wedge: a difference of two sectors, composite"},
+  {"sha": "d7894e37268449e2", "codes": ["C-7.1-LO-1"], "note": "sector area alone for a 60 degree angle; nothing is subtracted, so it stays at LO-1"},
+  {"sha": "5b06579d181c6f1b", "codes": ["C-7.1-LO-3"], "note": "equilateral triangle LESS three 60 degree sectors - the subtraction is what makes this LO-3, unlike the earlier item where the sectors themselves were the answer"},
+  {"sha": "65e37b828472a0a3", "codes": ["C-7.1-LO-3"], "note": "semicircle less an equilateral triangle formed by two radii; bounded by two chords, so it is not a segment, and the chord-length part comes from the isosceles radii not from LO-2"},
+  {"sha": "f7c1793bb241a942", "codes": ["C-7.1-LO-3"], "note": "square less four corner quadrants, solved backwards for r from the given leftover area; composite region inverted"},
+  {"sha": "4246db5aea871d5c", "codes": ["C-7.1-LO-3"], "note": "circle less an inscribed rectangle, the rectangle's diagonal giving the diameter; circle-and-polygon composite"},
+  {"sha": "20362e6ff4876664", "codes": ["C-7.1-LO-3"], "note": "quadrant less an inscribed square; the square's diagonal is the quadrant radius, a polygon-and-sector composite"},
+  {"sha": "1780bfc38417b917", "codes": ["C-7.1-LO-3"], "note": "racing track = two straight strips plus two semicircular annuli; several pieces assembled, the composite outcome"},
+  {"sha": "2f6f6c5c95852bfe", "codes": ["C-7.1-LO-3"], "note": "four semicircles of different diameters added and subtracted; no angle is given anywhere, so it is composite area rather than sector area"},
+  {"sha": "f492b0392cb1307f", "codes": ["C-7.1-LO-2"], "note": "the two flower beds ARE the segments cut off by the sides of the square at the centre O; the marking scheme is sector minus triangle, which is LO-2"},
+  {"sha": "9cdb3d0ed562c501", "codes": ["C-7.1-LO-3"], "note": "sum of the lawn AND the flower beds, i.e. two sectors plus two triangles added together; the whole region is assembled, not a single segment, so LO-3 rather than LO-2"},
+  {"sha": "2c07032f00885d2c", "codes": ["C-7.1-LO-3"], "note": "square minus a circle plus a semicircle plus two quadrants - four pieces of different kinds, the clearest composite in the chapter"},
+  {"sha": "efc850632fad12cb", "codes": ["C-7.2-LO-1", "C-7.1-LO-1"], "note": "proof that a PERIMETER equals r[tan + sec + pi*theta/180 - 1]: the pi*theta/180 term is the arc (LO-1) and the rest is the straight boundary, so the item is about what a perimeter with a circular part contains"},
+  {"sha": "3a115ea7584984df", "codes": ["C-7.1-LO-3"], "note": "two large semicircles less two small ones; pure add-and-subtract of circular pieces"},
+  {"sha": "496c3dbad2b8b129", "codes": ["C-7.1-LO-3"], "note": "two internally touching circles with their areas summed and centres separated; the combined-circles relation, matching the other sum-of-areas items"},
+  {"sha": "82e7d4a36233a672", "codes": ["C-7.1-LO-3"], "note": "quadrant less inscribed square again, with OA = 20; same composite skill as its 15 cm twin and deliberately given the same code"},
+  {"sha": "6d54491ac6298553", "codes": ["C-7.1-LO-3", "C-7.2-LO-1"], "note": "asks for the area AND the perimeter of the same rectangle-minus-semicircle region - the one item in the chapter that demands both sides of the distinction explicitly"},
+  {"sha": "c9baf1848e3db4c9", "codes": ["C-7.1-LO-1"], "note": "clock hands again, but the DISTANCE travelled by the tips, i.e. arc length, not area; deliberately a different code from the minute-hand area item, which went to C-7.3-LO-1"},
+  {"sha": "42790f603b417332", "codes": ["C-7.1-LO-3"], "note": "square with a semicircle on each side, the overlaps giving petals; assembled and subtracted circular pieces over a polygon"},
+  {"sha": "607c9098233337b5", "codes": ["C-7.1-LO-3"], "note": "regular hexagon less six 120 degree sectors at its vertices; the polygon supplies the angle but the answer is the subtraction, so composite"}
+ ]
+}

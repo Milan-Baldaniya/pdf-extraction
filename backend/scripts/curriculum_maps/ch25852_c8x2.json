@@ -1,0 +1,21 @@
+{
+  "chapter_id": 25852,
+  "mappings": [
+    {"sha": "qid:113534", "codes": ["LO-29"], "note": "Sides of a regular polygon from a 108-degree interior angle works through the interior/exterior angle relation, i.e. the angle sum property -> LO-29, not the terminology goal."},
+    {"sha": "qid:113535", "codes": ["LO-30"], "note": "Diagonals of a square bisect each other at right angles; a square is a parallelogram, so this is verifying a parallelogram-family property -> LO-30, not the goal."},
+    {"sha": "qid:113536", "codes": ["LO-30"], "note": "Opposite angles of a parallelogram are equal - LO-30 verbatim, not LO-29's angle sum."},
+    {"sha": "qid:113537", "codes": ["CG-MAT3"], "note": "Diagonals of a regular hexagon (duplicate of qid:113482); diagonal counting is not covered by any LO -> goal-level."},
+    {"sha": "qid:113538", "codes": ["LO-29"], "note": "Only one right angle fits in a triangle because the three angles total 180 degrees; that is the angle sum property LO-29 rests on, extended to the triangle."},
+    {"sha": "qid:113539", "codes": ["CG-MAT3"], "note": "All angles of a regular polygon are equal - the definition of regularity, not a computation, so goal-level rather than LO-29."},
+    {"sha": "qid:113540", "codes": ["CG-MAT3"], "note": "Polygons with diagonals partly outside are concave; a classification of polygons, which no LO covers -> goal-level."},
+    {"sha": "qid:113541", "codes": ["CG-MAT3"], "note": "Definition of a polygon (duplicate of qid:113505); definitional -> goal-level."},
+    {"sha": "qid:113542", "codes": ["LO-30"], "note": "Bisectors of two adjacent parallelogram angles meet at 90 degrees because those angles are supplementary; a parallelogram property proved by reasoning -> LO-30."},
+    {"sha": "qid:113543", "codes": ["CG-MAT3"], "note": "Blind 'which is not true' MCQ, options absent from the row; goal-level rather than guessing between LO-29 and LO-30."},
+    {"sha": "qid:113544", "codes": ["LO-30"], "note": "All sides, angles and diagonals equal identifies the square; establishing the relationship between the special parallelograms is the second half of LO-30."},
+    {"sha": "qid:113545", "codes": ["CG-MAT3"], "note": "Lines of symmetry of a parallelogram. Symmetry appears nowhere in the 18 outcomes, so the goal on reasoning about plane shapes is cited rather than stretching LO-30."},
+    {"sha": "qid:113546", "codes": ["CG-MAT3"], "note": "Matching figures to their line-symmetry counts; symmetry is outside every LO -> goal-level."},
+    {"sha": "qid:113547", "codes": ["LO-29"], "note": "Relates a regular pentagon's interior angle to another regular polygon's exterior angle; pure angle-sum arithmetic -> LO-29."},
+    {"sha": "qid:113549", "codes": ["LO-30"], "note": "RO is found because the diagonals of parallelogram RISE bisect each other -> LO-30. The figure is absent from the text layer but the property tested is unambiguous."},
+    {"sha": "qid:113550", "codes": ["LO-29"], "note": "Angle A of a trapezium from the figure; a trapezium is a quadrilateral and the work is the angle sum / co-interior pair -> LO-29, not LO-30, since a trapezium is not a parallelogram. Figure missing from the text layer, flagged."}
+  ]
+}

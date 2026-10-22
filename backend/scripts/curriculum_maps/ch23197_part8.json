@@ -1,0 +1,130 @@
+{
+ "chapter_id": 23197,
+ "mappings": [
+  {
+   "sha": "d18bce426e1ce286",
+   "codes": ["C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "asks for a60 and then for the sum of the last 10 terms as separate parts; the second needs a51 as well, so both formulas are marked in their own right"
+  },
+  {
+   "sha": "baef258d57d6f4aa",
+   "codes": ["C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "same two-part shape -- last term by a+(n-1)d, then a partial sum over indices 36 to 50; two stated asks, two outcomes"
+  },
+  {
+   "sha": "0cd65de164d13395",
+   "codes": ["C-3.1-LO-3"],
+   "note": "Sn given as a quadratic; both the AP and the nth term are obtained by differencing successive sums, so the sum is the object under test"
+  },
+  {
+   "sha": "0fd769299aebaca2",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the sum-and-product condition on a3 and a7 is setup (and yields two cases); the single ask is S20, so coded on the sum demand"
+  },
+  {
+   "sha": "fc86d822e3d3bd16",
+   "codes": ["C-3.1-LO-3"],
+   "note": "5-mark duplicate of the Sm = Sn proof; factorising the sum formula is the whole argument"
+  },
+  {
+   "sha": "ee136d9289967863",
+   "codes": ["C-3.1-LO-3"],
+   "note": "the series total is given and the LAST TERM is wanted, so the count k is first found from Sn and then converted; the entry point is the sum formula"
+  },
+  {
+   "sha": "0ceffc6bea564280",
+   "codes": ["C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "part one counts the terms of a printed AP from its last term (nth-term formula, not a described set), part two sums a shifted AP; two separate demands"
+  },
+  {
+   "sha": "9459cd1cc73e55e7",
+   "codes": ["C-3.1-LO-3"],
+   "note": "an identity among sums of n, 2n and 3n terms, proved symbolically; no term is ever evaluated"
+  },
+  {
+   "sha": "794643e5288080d2",
+   "codes": ["C-3.1-LO-2"],
+   "note": "the 'sum of three middle terms' collapses to 3x by symmetry, so no Sn formula is used; the work is locating index 19 and stepping to the last three terms -- LO-2"
+  },
+  {
+   "sha": "193a07c7052bfd2f",
+   "codes": ["C-3.1-LO-1"],
+   "note": "5-mark duplicate of the four-consecutive-terms ratio item; the a-3d..a+3d device rests only on the constant difference"
+  },
+  {
+   "sha": "db945322820e990e",
+   "codes": ["C-3.1-LO-1", "C-3.2-LO-1"],
+   "note": "digits modelled as a-d, a, a+d (LO-1's constant step) and then translated into place value; the contextual translation earns C-3.2-LO-1, though most of the marks are place-value algebra rather than AP work"
+  },
+  {
+   "sha": "f59258494fe3ed57",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-3", "C-3.1-LO-2"],
+   "note": "a real participation context with a months-to-years unit conversion; the total ages force a quadratic in n through Sn, and only then does a+(n-1)d give the eldest age"
+  },
+  {
+   "sha": "2251e2974aa13ec4",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-3"],
+   "note": "chase problem: the pursuer's distances form an AP that must be summed and equated to the thief's uniform distance; modelling plus the sum formula, no indexed term asked"
+  },
+  {
+   "sha": "aed36e3d76e9eaa7",
+   "codes": ["C-3.2-LO-2", "C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "the AP is built from a remainder description and counted (225 terms), the middle index is evaluated, and the two flanking blocks are summed -- all three demands are separately stated"
+  },
+  {
+   "sha": "24df1e1fb80f0340",
+   "codes": ["C-3.2-LO-2", "C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "same three demands on a remainder-1-mod-3 set between 9 and 95; honestly the identical outcome set to the mod-4 item, so no distinction is invented"
+  },
+  {
+   "sha": "4d8657575ae11ca6",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-3"],
+   "note": "prize money is exactly the 'savings/instalments' context LO-1 names; the total is given and the first prize is recovered from Sn, with no index asked"
+  },
+  {
+   "sha": "f5a33b31d8736517",
+   "codes": ["C-3.2-LO-2", "C-3.2-LO-1", "C-3.1-LO-3"],
+   "note": "asks how many rows (a count of terms from the situation, LO-2) and then the total number of plants (LO-1's contextual solve via Sn); both asks are stated, unlike the prize items which ask only a value"
+  },
+  {
+   "sha": "7c1d0d265db869dd",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-3"],
+   "note": "seven cash prizes with a fixed decrement and a known total; n is given, so nothing is counted -- modelling plus the sum formula only"
+  },
+  {
+   "sha": "454822f994ed77ab",
+   "codes": ["C-3.2-LO-2", "C-3.1-LO-3"],
+   "note": "a loan repayment in rising instalments where the only ask is HOW LONG, i.e. the number of terms, reached through a quadratic from Sn; the count is the demand, so LO-2 of C-3.2 rather than LO-1"
+  },
+  {
+   "sha": "0816241a1a0b7750",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-3"],
+   "note": "a geometric context where the semicircle lengths must first be seen to be pi times an AP of radii; the ask is a single total, so the sum formula finishes it"
+  },
+  {
+   "sha": "2d34fb528e27f465",
+   "codes": ["C-3.1-LO-3", "C-3.1-LO-2"],
+   "note": "a ratio of sums converted into a ratio of indexed terms; like the (7n+1):(4n+27) item, the content IS the link between the two formulas, so both are cited"
+  },
+  {
+   "sha": "64b4ae304e5589f3",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-3"],
+   "note": "house numbers modelled as 1..49 with sums on either side of an unknown position; the existence proof runs entirely on the sum of the first n naturals"
+  },
+  {
+   "sha": "5fd2e9e9d6e05130",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-3", "C-3.1-LO-2"],
+   "note": "salary case study comparing two firms: parts (i)-(ii) are 15-year totals and parts (iii)-(iv) are tenth-year salaries, so the sum and the nth term are each marked twice"
+  },
+  {
+   "sha": "6c4aec0cd1b85800",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "investment context: the yearly increase is d recovered from a1 and a11 via the nth-term formula, and the accrued income is a separate sum demand"
+  },
+  {
+   "sha": "c6fb5092b710048a",
+   "codes": ["C-3.2-LO-1", "C-3.1-LO-2", "C-3.1-LO-3"],
+   "note": "decaying swing arcs modelled with negative d; part (i) asks the tenth arc and part (ii) the distance travelled, so both formulas are separately required"
+  }
+ ]
+}

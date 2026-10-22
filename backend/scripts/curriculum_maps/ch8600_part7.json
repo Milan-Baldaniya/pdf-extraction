@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8600,
+ "mappings": [
+  {
+   "sha": "fa9ec5a985eea73c",
+   "codes": ["LO-59", "C-2.1-LO-4"],
+   "note": "Parts (a) and (b) ask what braking distance is and why a higher initial speed lengthens it - identifying the governing factors (LO-59); part (c) then adds a reaction time and computes the total stopping distance (LO-4). The two-stage model is what separates this from the plain braking numerical N5."
+  },
+  {
+   "sha": "bd30c03106cae998",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Distinguish the two quantities, say whether velocity can vanish while speed does not, then confirm it with a 90 m pool. Every part is the speed/velocity differentiation of LO-1; 180/60 and 0/60 are not kinematic-equation work."
+  },
+  {
+   "sha": "1ae9b67944beb5d9",
+   "codes": ["C-2.1-LO-4"],
+   "note": "u=0, a=4, t=10, find s from s=ut+(1/2)at^2. A bare substitution with no graph and no contrast, which is the defining shape of the LO-4 family."
+  },
+  {
+   "sha": "aa52077c4c40f291",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Usha swims out and back: average speed 3 m/s, average velocity zero. The answer is produced by recognising that displacement vanishes, so LO-1 rather than LO-4."
+  },
+  {
+   "sha": "b9323320d096eacd",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Distance of a spaceship from speed of light times 300 s. Pure calculation of an unknown from given quantities with no distance/displacement contrast anywhere, which is what puts it on LO-4 and not LO-1."
+  },
+  {
+   "sha": "fe284220fa66a639",
+   "codes": ["C-8.1-LO-2"],
+   "note": "Satellite speed from a circular orbit of radius 42250 km in 24 h - a direct application of v=2(pi)r/T, the one outcome covering the circular-motion speed expression."
+  },
+  {
+   "sha": "0a70dd6e83f9a4b4",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Convert 80 and 60 km/h, then a=(v-u)/t. Values in, one unknown out: LO-4, not the definitional acceleration items (V74, O18) that give no numbers."
+  },
+  {
+   "sha": "75b997539ed41ea0",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Square field, 140 s of walking, displacement at the end. The work is counting 3.5 laps and then reading off the net position change against the 280 m of path - the LO-1 contrast, with no kinematic equation used."
+  },
+  {
+   "sha": "ddd8cd0831ddf387",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Textual duplicate of L133 with a different name. Mapped identically to LO-1 because the demand is identical: average speed from distance, average velocity from a displacement of zero."
+  },
+  {
+   "sha": "b8ea05c6c5595899",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Duplicate of L136 with a car in place of a bus. Same substitution into a=(v-u)/t after unit conversion, so the same outcome - a genuine shared mapping rather than an invented distinction."
+  },
+  {
+   "sha": "2c357e4a1a6e94c7",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Distance between t=10 and t=30 min read as the area of rectangle ABCD under the supplied speed-time graph. LO-2; the data exist only on the graph, so LO-4 cannot apply."
+  },
+  {
+   "sha": "91fd7dcf824859ec",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Train from rest to 40 km/h in 10 minutes, find a. Substitution into a=(v-u)/t after two unit conversions - LO-4, same family as L136 and O21."
+  },
+  {
+   "sha": "23177f646e50c810",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Distance over 0 to 20 s as the area of the shaded triangle on a supplied speed-time graph. Same LO-2 area operation as L140, differing only in the shape to be measured."
+  },
+  {
+   "sha": "7c75b279fb992b48",
+   "codes": ["C-2.1-LO-1"],
+   "note": "18 km/h, 7 m/s and 2 km/min compared by putting all three into m/s. The only demand is expressing speeds in a common SI unit, which is the units clause of LO-1 - no unknown is solved for, so it splits from the LO-4 numericals."
+  },
+  {
+   "sha": "1f07d09015b80344",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Two legs of 30 km, average speed for the whole journey. A quantitative unknown from given quantities with no speed/velocity contrast (the path is one-directional), which places it on LO-4."
+  },
+  {
+   "sha": "6689a78cc55a96c4",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Inverse problem: given the required average speed, find the speed of the second leg. LO-4, and harder than L144 only in direction of solution, not in outcome."
+  },
+  {
+   "sha": "f9467225cc337908",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Earth-Moon distance from a 1.27 s signal at 3x10^8 m/s. Same one-step distance = speed x time computation as L134; the two share LO-4 honestly."
+  },
+  {
+   "sha": "79ddca041d0b617f",
+   "codes": ["C-2.1-LO-1"],
+   "note": "3 m north, 4 m east, 6 m south: resolve into net displacement. The whole point is that displacement is the net change of position, not the 13 m of path, so LO-1."
+  },
+  {
+   "sha": "1634dffea948e9b2",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Distance in 30 s at a constant 120 km/h. One unknown from given quantities with zero acceleration, so LO-4; there is no displacement contrast to make it LO-1."
+  },
+  {
+   "sha": "667f77f0bf19a667",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Find the speed for the remaining 90 km so the trip averages 60 km/h. The inverse average-speed problem, same as L145, so LO-4 rather than a definitional code."
+  },
+  {
+   "sha": "9239bc93abff7cf6",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Two legs given by speed and time, find total distance and average speed. Direct computation of unknowns, LO-4; the route is one-directional so no distance/displacement distinction is exercised."
+  },
+  {
+   "sha": "a58550fd464b3d43",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Marble, u=0.4, a=-0.02, time to stop from v=u+at. Substitution into a named kinematic equation, which is the cleanest case of LO-4 in the chapter."
+  },
+  {
+   "sha": "979667a909f82906",
+   "codes": ["C-8.1-LO-2"],
+   "note": "Cyclist covering 8 revolutions of a 98 m circular track: speed from 2(pi)rn/t. The circular-path speed expression, hence C-8.1-LO-2 and not LO-4."
+  },
+  {
+   "sha": "413ba78041301e3d",
+   "codes": ["C-2.1-LO-1"],
+   "note": "3 km east, 2 km north, 3.5 km east: 8.5 km of path against a 6.8 km net displacement. LO-1 distance/displacement contrast, asked in two explicitly labelled parts."
+  },
+  {
+   "sha": "ab3e6e7fbe2e06cc",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Which is greater, the scalar or the vector, after walking 2 km out and 1 km back. The question names the scalar/vector split directly, which is the LO-1 differentiation clause in its purest form."
+  }
+ ]
+}

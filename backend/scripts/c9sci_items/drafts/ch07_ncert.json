@@ -1,0 +1,41 @@
+{
+ "chapter": 7,
+ "chapter_id": 8606,
+ "extraction_id": 598,
+ "section": "ncert",
+ "items": [
+  {
+   "number": "1",
+   "form": "short",
+   "page": 288,
+   "stem": "State whether True or False. (i) Work is said to be done when a force is applied, even if the object does not move. (ii) Lifting a bucket vertically upward results in positive work done on the bucket. (iii) The SI unit for both work and energy is joule (J). (iv) A motionless stretched rubber band has kinetic energy. (v) Energy can change from one form to another.",
+   "answer": "(i) False, According to the scientific definition, work done is zero if there is no displacement, regardless of the force applied. (ii) True, The force applied to lift the bucket and the resulting displacement are both in the same upward direction. (iii) True, Energy is the capacity to do work, and the work-energy theorem connects the two, so they share the same SI unit. (iv) False, A motionless stretched rubber band possesses potential energy due to its deformed shape, while kinetic energy is the energy of motion. (v) True, Energy can transform between forms, such as potential energy converting into kinetic energy when an object falls.",
+   "concept": "Zero work when there is no displacement",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "2",
+   "form": "short",
+   "page": 288,
+   "stem": "Fill in the blanks. (i) Work done = ______ × ______ (in the direction of force). (ii) 1 joule of work is done when a force of ______ newton displaces an object by 1 metre in the direction of the force. (iii) The expression for kinetic energy of a body of mass m and velocity v is ______. (iv) The potential energy of an object of mass m at a small height h from the Earth’s surface is ______. (v) Power is defined as the ______ at which work is done.",
+   "answer": "(i) force, displacement (ii) 1 (iii) 1/2 mv² (iv) mgh (v) rate",
+   "concept": "Work as force times displacement",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1
+  },
+  {
+   "number": "3",
+   "form": "short",
+   "page": 288,
+   "stem": "When a ball thrown upwards reaches its highest point, tick which of the following statement(s) are correct? (i) The force acting on the ball is zero. (ii) The acceleration of the ball is zero. (iii) Its kinetic energy is zero. (iv) Its potential energy is maximum.",
+   "answer": "(i) Incorrect. The gravitational force continues to pull downwards on the ball even at the highest point. (ii) Incorrect. The acceleration due to gravity remains constant and points downwards at all times during the flight. (iii) Correct. At the highest point, the ball momentarily comes to a stop (velocity becomes zero), meaning its kinetic energy is zero. (iv) Correct. As the ball reaches its maximum height, the value of height (h) is at its greatest, making gravitational potential energy (mgh) maximum.",
+   "concept": "Zero kinetic energy at rest",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  }
+ ]
+}

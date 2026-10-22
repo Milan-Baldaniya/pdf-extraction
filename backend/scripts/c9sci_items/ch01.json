@@ -1,0 +1,2962 @@
+{
+ "chapter": 1,
+ "chapter_id": 8592,
+ "extraction_id": 593,
+ "items": [
+  {
+   "number": "P1",
+   "form": "very_short",
+   "page": null,
+   "stem": "Think of a prediction you or your family made recently (for example, the outcome of a cricket match). Was it based on evidence and reasoning, or mainly on guesswork? How can scientific thinking improve such predictions?",
+   "answer": "Recently, my family predicted that it would rain heavily during the evening based purely on guesswork after looking at some slightly dark clouds. Scientific thinking could significantly improve such predictions by shifting the focus from simple observations to measurable evidence and past patterns. For instance, instead of just looking at the clouds, we could ask scientific questions about current humidity levels, wind speed, and atmospheric pressure drops to make a much more reliable and reasoned forecast.",
+   "concept": "Predictions are reasoned expectations",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "pause"
+  },
+  {
+   "number": "P2",
+   "form": "very_short",
+   "page": null,
+   "stem": "Describe one situation where an approximate answer is good enough, and one where you would need a very exact value.",
+   "answer": "An approximate answer is good enough when estimating how much rice would feed a family for a month, as a rough calculation of daily calories helps check if a bulk purchase makes sense without needing to count every grain. Conversely, a very exact value is absolutely necessary when calculating the amount of fuel required for a passenger aircraft mid-flight. Using an approximate value or mixing up units in such a scenario can lead to disastrous consequences, such as the aircraft running completely out of fuel before safely reaching its destination.",
+   "concept": "Approximate estimates check reasonableness",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "pause"
+  },
+  {
+   "number": "P3",
+   "form": "very_short",
+   "page": null,
+   "stem": "Choose a real-life object (maybe a pressure cooker or a mobile phone) or a problem (maybe a traffic jam near your school). Make a sketch listing what kind of ideas from physics, chemistry, biology, earth science, or mathematics are involved. Show how at least two branches of science connect with your example.",
+   "answer": "You should draw a sketch of a mobile phone with text labels pointing to the battery for Chemistry (chemical reactions storing energy), the screen and antennas for Physics (light emission and electromagnetic waves), and the internal processor for Mathematics (computational logic and data processing). These branches of science connect deeply in this device because the chemical properties of the battery materials (Chemistry) must provide the exact continuous electrical voltage required to power the internal circuits and transmit radio signals (Physics). Together, these interconnected scientific principles allow the phone to function properly as a reliable tool.",
+   "concept": "Real problems need multiple disciplines",
+   "bloom": "create",
+   "dok": 4,
+   "difficulty": 4,
+   "section_heading": "pause"
+  },
+  {
+   "number": "O1",
+   "form": "mcq",
+   "page": null,
+   "stem": "As per the textbook’s introductory philosophy, what does the magnifying glass primarily symbolize in the context of scientific exploration?",
+   "answer": "The magnifying glass is a powerful symbol representing the core scientific practice of careful observation. It emphasizes the absolute necessity to notice hidden patterns and pay close attention to critical details that might otherwise be completely missed. This fundamental observational skill is essential for building a strong foundation in any meaningful scientific inquiry and investigation.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Choosing the correct mathematical equations"
+    },
+    {
+     "label": "B",
+     "text": "Noticing patterns and careful observation"
+    },
+    {
+     "label": "C",
+     "text": "Providing a direction for scientific theories"
+    },
+    {
+     "label": "D",
+     "text": "Measuring exact physical quantities"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Careful observation in exploration",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O2",
+   "form": "mcq",
+   "page": null,
+   "stem": "While the magnifying glass represents observation, what does the compass symbolise according to the textbook’s approach?",
+   "answer": "The compass conceptually symbolizes that scientific exploration requires proper direction and purpose. It represents the vital processes of choosing appropriate models, asking the right testable questions, and thoroughly knowing the limits of where our ideas apply. Together with observation, it ensures that scientific discovery is a targeted effort rather than just aimlessly wandering through data.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Asking the right questions and choosing appropriate models"
+    },
+    {
+     "label": "B",
+     "text": "Magnifying small particles to understand atomic structure"
+    },
+    {
+     "label": "C",
+     "text": "Calculating the exact geographical location of an experiment"
+    },
+    {
+     "label": "D",
+     "text": "Finding the precise numerical answer without reasoning"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Purposeful direction in exploration",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O3",
+   "form": "mcq",
+   "page": null,
+   "stem": "What is the primary purpose of building models in science to study the complex natural world?",
+   "answer": "The natural world is incredibly complex, making full-detail study nearly impossible. Therefore, science utilizes models as simplified representations of real systems. By deliberately focusing solely on the most critical elements and purposefully ignoring less relevant details, these models allow scientists to systematically analyse phenomena and find clear answers without being overwhelmed by unnecessary complexity.",
+   "options": [
+    {
+     "label": "A",
+     "text": "To replicate every single detail of the real system"
+    },
+    {
+     "label": "B",
+     "text": "To complicate theories to make them mathematically rigorous"
+    },
+    {
+     "label": "C",
+     "text": "To simplify real systems by focusing only on important details"
+    },
+    {
+     "label": "D",
+     "text": "To ensure that no assumption is ever made during research"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Models as simplified representations",
+   "bloom": "understand",
+   "dok": 1,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O4",
+   "form": "mcq",
+   "page": null,
+   "stem": "Why is the detailed physical object on the left frequently represented by the simplified geometric model on the right in introductory physics?",
+   "answer": "In science, models deliberately simplify complex reality by intentionally ignoring specific details. Representing a moving vehicle as a point mass focuses solely on essential variables like mass and velocity. This intentional simplification makes the problem mathematically manageable while still providing accurate answers for fundamental questions, avoiding unnecessary complications from minor real-world features.",
+   "options": [
+    {
+     "label": "A",
+     "text": "To ensure all minor physical forces are accurately captured in the final calculation."
+    },
+    {
+     "label": "B",
+     "text": "To isolate and focus only on the most essential variables required to solve a specific problem."
+    },
+    {
+     "label": "C",
+     "text": "To demonstrate that complex physical characteristics have absolutely no influence on overall motion."
+    },
+    {
+     "label": "D",
+     "text": "To compensate for the inability of modern scientific tools to measure intricate real-world details."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Deliberate ignoring of details",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O5",
+   "form": "mcq",
+   "page": 19,
+   "stem": "In physics, how might a moving car be appropriately represented using a simple scientific model?",
+   "answer": "In physics, when analyzing broad concepts like motion, simplified models are highly effective. A moving car, despite its structural complexity, is often represented as a single point. This specific simplification allows physicists to entirely focus on fundamental quantities like speed, distance, and time, deliberately ignoring extraneous details such as the car’s shape or internal mechanics.",
+   "options": [
+    {
+     "label": "A",
+     "text": "As a complex structure of individual atoms"
+    },
+    {
+     "label": "B",
+     "text": "As a single point in space"
+    },
+    {
+     "label": "C",
+     "text": "As a diagram highlighting key biological parts"
+    },
+    {
+     "label": "D",
+     "text": "As a smooth sphere layered into distinct regions"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Models as simplified representations",
+   "bloom": "understand",
+   "dok": 1,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O6",
+   "form": "mcq",
+   "page": null,
+   "stem": "The table outlines four different scientific models created by students to study various real-world phenomena. Each model includes certain variables while deliberately ignoring others. Based on the principles of scientific modeling, which model demonstrates an invalid approach to simplification?\n\n<html><body><table><tr><td>Scientific Model</td><td>Phenomenon Being Studied</td><td>Key Variables Included</td><td>Variables Deliberately Ignored</td></tr><tr><td>Model I</td><td>Motion of a falling rock</td><td>Mass, Gravity</td><td>Air resistance, Rock color</td></tr><tr><td>Model II</td><td>Light emitted by a star</td><td>Overall temperature, Pressure</td><td>Individual atomic reactions</td></tr><tr><td>Model III</td><td>Flight of a hit cricket ball</td><td>Bat brand, Grass color</td><td>Mass of ball, Wind speed</td></tr><tr><td>Model IV</td><td>Pumping of a human heart</td><td>Blood volume, Flow rate</td><td>Individual muscle cell function</td></tr></table></body></html>",
+   "answer": "Effective scientific models simplify complex reality by focusing on essential variables and ignoring irrelevant details. Model III is invalid because it retains arbitrary details, such as bat brand and grass color, while deliberately ignoring critical physical factors like mass and wind speed that are absolutely necessary to study motion accurately.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Model I"
+    },
+    {
+     "label": "B",
+     "text": "Model II"
+    },
+    {
+     "label": "C",
+     "text": "Model III"
+    },
+    {
+     "label": "D",
+     "text": "Model IV"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Question decides relevant details",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O7",
+   "form": "mcq",
+   "page": null,
+   "stem": "When studying the fundamental motion of a falling object in physics, which specific factor is frequently neglected to understand the basic effect of gravity?",
+   "answer": "When scientists create a basic model to study the pure effect of gravity on a falling object, they often deliberately neglect air resistance. This strategic omission simplifies the problem significantly, allowing researchers to isolate and clearly understand how gravity alone influences the object’s downward acceleration without the complicating, variable interference of atmospheric friction forces.",
+   "options": [
+    {
+     "label": "A",
+     "text": "The object’s mass"
+    },
+    {
+     "label": "B",
+     "text": "The height of the fall"
+    },
+    {
+     "label": "C",
+     "text": "Air resistance"
+    },
+    {
+     "label": "D",
+     "text": "The acceleration due to gravity"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Deliberate ignoring of details",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O8",
+   "form": "mcq",
+   "page": null,
+   "stem": "Imagine modelling a cricket ball hit for a six to determine if it crosses the boundary. Which detail is essential to include?",
+   "answer": "To accurately predict whether a cricket ball will cross the boundary, the model must include crucial mechanical factors like the speed and direction in which it was hit. These primary variables directly determine the trajectory and final distance. In contrast, aesthetic details like bat brands or minor factors like seam stitching have negligible effects here.",
+   "options": [
+    {
+     "label": "A",
+     "text": "The brand of the cricket bat"
+    },
+    {
+     "label": "B",
+     "text": "The colour of the grass on the field"
+    },
+    {
+     "label": "C",
+     "text": "The speed and direction of the hit"
+    },
+    {
+     "label": "D",
+     "text": "The stitching of the threads at the seam"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Question decides relevant details",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O9",
+   "form": "mcq",
+   "page": null,
+   "stem": "In the same cricket ball model determining boundary clearance, which detail can be safely ignored for a basic calculation?",
+   "answer": "When constructing a simple mathematical model to calculate the trajectory of a struck cricket ball, aesthetic and non-physical attributes like the specific brand of the bat play absolutely no role. Ignoring such completely irrelevant details is a standard scientific modeling practice, allowing researchers to concentrate exclusively on the critical physical variables that actually govern motion.",
+   "options": [
+    {
+     "label": "A",
+     "text": "The mass of the ball"
+    },
+    {
+     "label": "B",
+     "text": "The speed of the hit"
+    },
+    {
+     "label": "C",
+     "text": "The direction of the hit"
+    },
+    {
+     "label": "D",
+     "text": "The brand of the bat"
+    }
+   ],
+   "correct_option": "D",
+   "concept": "Deliberate ignoring of details",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O10",
+   "form": "mcq",
+   "page": 20,
+   "stem": "How did physicist Meghnad Saha successfully model the matter inside a star to explain its colour?",
+   "answer": "Physicist Meghnad Saha brilliantly simplified the unimaginable complexity of stars by treating their internal matter simply as a hot gas. Instead of attempting to model every single complex atomic reaction, he exclusively focused on fundamental macroscopic properties like temperature and pressure. This powerful simplification directly allowed him to successfully explain how star colour connects to temperature.",
+   "options": [
+    {
+     "label": "A",
+     "text": "By tracking every single atomic reaction inside the star"
+    },
+    {
+     "label": "B",
+     "text": "By treating the matter purely as a hot gas"
+    },
+    {
+     "label": "C",
+     "text": "By calculating the exact mass of every internal element"
+    },
+    {
+     "label": "D",
+     "text": "By focusing heavily on complex gravitational waves"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Models as simplified representations",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O11",
+   "form": "mcq",
+   "page": null,
+   "stem": "What specific details did Meghnad Saha purposefully ignore when developing his simplified model of stars?",
+   "answer": "To make his stellar model functionally workable, Meghnad Saha purposefully ignored the overwhelmingly complex individual atomic reactions and the precise movements of every single atom inside the star. By stripping away these highly intricate microscopic details, he successfully concentrated his mathematical analysis on broader thermodynamic factors, proving that intentional simplification is crucial for scientific breakthroughs.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Temperature and pressure"
+    },
+    {
+     "label": "B",
+     "text": "How atoms formed ions"
+    },
+    {
+     "label": "C",
+     "text": "Many complex atomic reactions and individual atom movements"
+    },
+    {
+     "label": "D",
+     "text": "The visible light emitted from the star"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Deliberate ignoring of details",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O12",
+   "form": "mcq",
+   "page": null,
+   "stem": "Consider the following statements regarding the shared language of science:\n1. Science uses specific terms with unambiguous meanings.\n2. Shared language allows scientists globally to compare results accurately.\n3. Scientific quantities are never associated with defined standardized units.\nWhich of the above statements is/are correct?",
+   "answer": "Science absolutely relies on a carefully structured shared language featuring specific terms with entirely unambiguous meanings. This precision allows global scientists to describe observations uniformly and build ideas together. However, statement three is distinctly incorrect because physical quantities in science, such as mass or velocity, are always strictly associated with clearly defined, internationally standardized units.",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 and 2 only"
+    },
+    {
+     "label": "B",
+     "text": "2 and 3 only"
+    },
+    {
+     "label": "C",
+     "text": "1 and 3 only"
+    },
+    {
+     "label": "D",
+     "text": "1, 2, and 3"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Scientific terms are precise",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O13",
+   "form": "mcq",
+   "page": null,
+   "stem": "The measuring device shown in the image relies on universally accepted standard weights, such as the kilogram. What is the primary scientific reason for establishing these international standards?",
+   "answer": "Standardized units are crucial in scientific inquiry because they establish a universally agreed-upon framework for measuring physical quantities. This international consistency ensures that complex experimental results, everyday commerce, and general observations can be accurately communicated, systematically compared, and reliably replicated by researchers and individuals, regardless of their geographical location.",
+   "options": [
+    {
+     "label": "A",
+     "text": "To guarantee that measurements perfectly match absolute and unchanging theoretical values without any error."
+    },
+    {
+     "label": "B",
+     "text": "To ensure that scientific observations and everyday measurements are globally consistent and easily comparable."
+    },
+    {
+     "label": "C",
+     "text": "To eliminate the need for mathematical equations when calculating physical quantities in scientific experiments."
+    },
+    {
+     "label": "D",
+     "text": "To prevent the use of traditional or localized measuring tools when conducting basic scientific research."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "International standard units",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O14",
+   "form": "mcq",
+   "page": 21,
+   "stem": "According to the textbook, what is the primary role of mathematics in the realm of science?",
+   "answer": "Mathematics is distinctly not meant to be a restrictive hurdle or a mere calculation tool. Instead, it functions as an essential, powerful language that helps scientists think more clearly about the world. An equation is essentially a highly compact, logical statement meticulously describing exactly how various physical quantities and natural phenomena are deeply related to each other.",
+   "options": [
+    {
+     "label": "A",
+     "text": "It serves merely as an isolated tool for complex numerical calculations."
+    },
+    {
+     "label": "B",
+     "text": "It functions as a specialized language providing compact statements about relationships."
+    },
+    {
+     "label": "C",
+     "text": "It acts as a deliberate hurdle to ensure only experts understand physics."
+    },
+    {
+     "label": "D",
+     "text": "It replaces the need for actual physical experimental observations."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Equations express scientific relationships",
+   "bloom": "understand",
+   "dok": 1,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O15",
+   "form": "mcq",
+   "page": null,
+   "stem": "Four students recorded measurements during a physics experiment. The table displays the physical quantities they measured, along with the scientific symbols and units they applied. Which student correctly paired the physical quantity with both its proper scientific symbol and its standard unit?\n\n<html><body><table><tr><td>Student</td><td>Physical Quantity</td><td>Symbol Used</td><td>Measurement Unit Applied</td></tr><tr><td>Student A</td><td>Force</td><td>F</td><td>Kilogram</td></tr><tr><td>Student B</td><td>Velocity</td><td>v</td><td>Meter per second</td></tr><tr><td>Student C</td><td>Mass</td><td>m</td><td>Newton</td></tr><tr><td>Student D</td><td>Electric Current</td><td>I</td><td>Volts</td></tr></table></body></html>",
+   "answer": "In scientific communication, specific quantities must be paired with standard symbols and units. Student B correctly pairs velocity with the symbol ‘v’ and the unit ‘meters per second’. The other students incorrectly mismatch their standard units, such as applying kilograms for force, Newtons for mass, or Volts for electric current.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Student A"
+    },
+    {
+     "label": "B",
+     "text": "Student B"
+    },
+    {
+     "label": "C",
+     "text": "Student C"
+    },
+    {
+     "label": "D",
+     "text": "Student D"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Symbols and units for quantities",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O16",
+   "form": "mcq",
+   "page": null,
+   "stem": "What specific error caused the well-known incident where a passenger aircraft famously ran out of fuel mid-flight?",
+   "answer": "The dangerous mid-flight fuel exhaustion occurred precisely due to a critical unit mix-up by the ground crew. They incorrectly calculated the required fuel mass using the density in pounds per litre rather than the strictly required kilograms per litre. This significant numerical error highlights why utilizing consistent standard units everywhere is absolutely crucial for safety.",
+   "options": [
+    {
+     "label": "A",
+     "text": "A severe mechanical failure in the aircraft’s fuel injection system"
+    },
+    {
+     "label": "B",
+     "text": "The extreme evaporation of aviation fuel due to high altitude heat"
+    },
+    {
+     "label": "C",
+     "text": "A critical miscalculation mixing up pounds and kilograms per litre"
+    },
+    {
+     "label": "D",
+     "text": "The ground crew forgetting to physically attach the refueling hose"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "International standard units",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O17",
+   "form": "mcq",
+   "page": null,
+   "stem": "Why is the universal adoption of standard units (SI) considered absolutely essential in daily life and trade?",
+   "answer": "Standard units are universally essential because they completely eliminate the immense confusion that would arise from using variable local measurements. By strictly relying on internationally agreed standards, we actively ensure undeniable fairness in daily commercial trade. Furthermore, standard units allow critical scientific experimental results to be accurately communicated, systematically compared, and reliably verified across the globe.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Because they are based strictly on ancient historical local opinions"
+    },
+    {
+     "label": "B",
+     "text": "To intentionally confuse ordinary buyers in the marketplace"
+    },
+    {
+     "label": "C",
+     "text": "To ensure fairness in trade and allow scientific results to be compared"
+    },
+    {
+     "label": "D",
+     "text": "Because non-standard units cannot physically measure heavy masses"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "International standard units",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O18",
+   "form": "assertion_reason",
+   "page": 22,
+   "stem": "Assertion (A): The speed of light is universally denoted by the specific scientific symbol ‘c’. Reason (R): The symbol ‘c’ originates from the Latin word ‘celeritas’, which translates to speed.",
+   "assertion": "The speed of light is universally denoted by the specific scientific symbol ‘c’.",
+   "reason": "The symbol ‘c’ originates from the Latin word ‘celeritas’, which translates to speed.",
+   "answer": "Both the assertion and the reason are factually correct, and the reason provides the exact historical and linguistic explanation for the assertion. Scientific symbols often possess distinct historical roots based on widespread international agreements. Specifically, denoting the speed of light as ‘c’ directly stems from ‘celeritas’, the ancient Latin term explicitly meaning speed or swiftness.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true and R is the correct explanation of A"
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true but R is not the correct explanation of A"
+    },
+    {
+     "label": "C",
+     "text": "A is true but R is false"
+    },
+    {
+     "label": "D",
+     "text": "A is false but R is true"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Symbols arise from history and agreement",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O19",
+   "form": "mcq",
+   "page": null,
+   "stem": "The astronomical event shown in the image is sometimes linked to unscientific claims, such as food becoming toxic during its occurrence. How does scientific thinking systematically evaluate such a claim?",
+   "answer": "Science systematically evaluates unconventional claims by asking precise, testable questions based on measurable physical evidence. To investigate whether an astronomical event affects food, scientists look for identifying physical mechanisms, such as significant temperature changes or chemical reactions, rather than accepting unverified assertions based purely on popular belief or opinion.",
+   "options": [
+    {
+     "label": "A",
+     "text": "By accepting the claim as a valid hypothesis until advanced technology can definitively prove it incorrect."
+    },
+    {
+     "label": "B",
+     "text": "By relying on long-standing historical beliefs that have been widely accepted by local communities."
+    },
+    {
+     "label": "C",
+     "text": "By formulating testable questions about measurable physical or chemical changes occurring during the event."
+    },
+    {
+     "label": "D",
+     "text": "By creating complex mathematical models to prove that celestial bodies always influence biological systems."
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Testable questions seek measurable evidence",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O20",
+   "form": "mcq",
+   "page": null,
+   "stem": "Today, the fundamental physical constant for the speed of light is precisely defined to be exactly:",
+   "answer": "Scientific constants require absolute precision for universally accurate calculations. Currently, based on strict international scientific agreements, the speed of light in a vacuum is rigorously defined as an exact physical constant. Its precise numerical value is universally established as exactly 299792458 metres per second, providing an unwavering baseline foundation for modern advanced physics and accurate astronomical measurements.",
+   "options": [
+    {
+     "label": "A",
+     "text": "300,000,000 m/s"
+    },
+    {
+     "label": "B",
+     "text": "299792458 m/s"
+    },
+    {
+     "label": "C",
+     "text": "299000000 m/s"
+    },
+    {
+     "label": "D",
+     "text": "299792000 m/s"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "International standard units",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O21",
+   "form": "mcq",
+   "page": null,
+   "stem": "In the specific context of scientific terminology, what exactly does a “Law” typically describe?",
+   "answer": "In scientific terminology, a “law” serves a very specific and fundamental purpose. It consistently describes a regular, highly predictable pattern that is repeatedly observed throughout nature. These observable patterns are most often expressed concisely using straightforward descriptive words or rigid mathematical relationships, definitively stating what consistently happens under certain specific physical conditions without necessarily explaining why.",
+   "options": [
+    {
+     "label": "A",
+     "text": "An untested, speculative guess about future biological events"
+    },
+    {
+     "label": "B",
+     "text": "A detailed theoretical explanation of why natural events happen"
+    },
+    {
+     "label": "C",
+     "text": "A regular, predictable pattern repeatedly observed in nature"
+    },
+    {
+     "label": "D",
+     "text": "A highly simplified visual diagram of a complex physical system"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Law describes repeated pattern",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O22",
+   "form": "mcq",
+   "page": 23,
+   "stem": "Which of the following examples perfectly illustrates a scientific ‘Law’ as directly mentioned in the chapter?",
+   "answer": "The chapter uses Newton’s laws of motion to clearly illustrate the concept of a scientific law. These specific laws perfectly describe regular, consistent patterns observed in physical motion. For instance, they reliably predict and quantify the backward or forward physical jerk a passenger predictably experiences when a moving bus suddenly accelerates or abruptly stops.",
+   "options": [
+    {
+     "label": "A",
+     "text": "The atomic theory explaining fundamental molecular formations"
+    },
+    {
+     "label": "B",
+     "text": "Newton’s rules explaining the physical jerk felt when a bus stops"
+    },
+    {
+     "label": "C",
+     "text": "The general principle of massive energy conservation"
+    },
+    {
+     "label": "D",
+     "text": "Meghnad Saha’s simplified hot gas model of stellar structures"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Law describes repeated pattern",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O23",
+   "form": "mcq",
+   "page": null,
+   "stem": "Two students are trying to predict whether it will rain on Friday. One student simply looks at the dark clouds and guesses it will rain. The other student uses the historical weather data provided in the table. What logical, scientifically testable conclusion should be drawn for Friday?\n\n<html><body><table><tr><td>Day</td><td>Condition of Sky</td><td>Humidity (%)</td><td>Wind Speed (km/h)</td><td>Did it rain?</td></tr><tr><td>Monday</td><td>Dark Clouds</td><td>85</td><td>22</td><td>Yes</td></tr><tr><td>Tuesday</td><td>Light Clouds</td><td>40</td><td>10</td><td>No</td></tr><tr><td>Wednesday</td><td>Dark Clouds</td><td>88</td><td>25</td><td>Yes</td></tr><tr><td>Thursday</td><td>Dark Clouds</td><td>45</td><td>12</td><td>No</td></tr><tr><td>Friday</td><td>Dark Clouds</td><td>82</td><td>20</td><td>Prediction Needed</td></tr></table></body></html>",
+   "answer": "Scientific predictions are reasoned expectations based on measurable evidence and past patterns rather than subjective guesswork. The tabulated data reveals that rain consistently occurred only when dark clouds were accompanied by high humidity and high wind speeds. Therefore, Friday’s identical measurable conditions strongly and logically support the prediction of rain.",
+   "options": [
+    {
+     "label": "A",
+     "text": "It will not rain because dark clouds never guarantee rain."
+    },
+    {
+     "label": "B",
+     "text": "It will rain because high humidity and high wind speed are present alongside dark clouds."
+    },
+    {
+     "label": "C",
+     "text": "It will rain solely because the clouds are dark, validating the first student’s guess."
+    },
+    {
+     "label": "D",
+     "text": "It will not rain because the wind speed is slightly lower than it was on Wednesday."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Predictions based on established science",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O24",
+   "form": "mcq",
+   "page": null,
+   "stem": "While a scientific law describes an observed pattern, what crucial deeper insight does a “theory” provide?",
+   "answer": "A theory represents a significantly deeper level of scientific understanding than a mere descriptive law. It comprehensively provides a logical, structured explanation detailing exactly why those observed natural patterns persistently occur. Theories are robustly constructed upon massive foundations of carefully gathered evidence, meticulously tested over extended periods, making them highly reliable explanatory frameworks in science.",
+   "options": [
+    {
+     "label": "A",
+     "text": "It offers an explanation of exactly why those specific patterns occur."
+    },
+    {
+     "label": "B",
+     "text": "It provides a random, completely untested guess about future outcomes."
+    },
+    {
+     "label": "C",
+     "text": "It describes a rigid mathematical equation that can never be altered."
+    },
+    {
+     "label": "D",
+     "text": "It limits the boundary conditions where the scientific law applies."
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Theory explains observed patterns",
+   "bloom": "understand",
+   "dok": 1,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O25",
+   "form": "mcq",
+   "page": null,
+   "stem": "Which prominent scientific concept is specifically cited in the textbook as an explanation for how molecules are formed?",
+   "answer": "The textbook explicitly references the atomic theory as a primary, classic example of a robust scientific theory. This fundamental theory beautifully explains the deeply complex unseen mechanisms governing exactly how individual atoms chemically interact, bond together, and structurally arrange themselves to successfully form all the vast varieties of molecules found throughout the known natural universe.",
+   "options": [
+    {
+     "label": "A",
+     "text": "The principle of energy conservation"
+    },
+    {
+     "label": "B",
+     "text": "Newton’s laws of motion"
+    },
+    {
+     "label": "C",
+     "text": "The atomic theory"
+    },
+    {
+     "label": "D",
+     "text": "The theory of special relativity"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Theory explains observed patterns",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O26",
+   "form": "mcq",
+   "page": null,
+   "stem": "In the carefully structured language of science, broad ideas that help us make sense of a given situation are definitively termed as:",
+   "answer": "In strict scientific terminology, principles are definitively categorized as broad, fundamental ideas that reliably help researchers systematically make sense of specific physical situations. They act as essential guiding frameworks for scientific reasoning. A classic example mentioned is the foundational principle of conservation of energy, which practically applies uniformly to everyday actions like climbing up steep stairs.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Scientific Guesses"
+    },
+    {
+     "label": "B",
+     "text": "Principles"
+    },
+    {
+     "label": "C",
+     "text": "Unverified Hypotheses"
+    },
+    {
+     "label": "D",
+     "text": "Mathematical Variables"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Principle gives broad guidance",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O27",
+   "form": "mcq",
+   "page": null,
+   "stem": "Activities like cooking the food shown in the image can be used to practice scientific estimation, such as calculating a family’s daily calorie requirements. What is the main value of making rough estimates in scientific reasoning?",
+   "answer": "Rough estimation is a highly valuable scientific skill used to build logical intuition and verify calculations. While it does not yield perfectly exact numbers, it allows scientists and students to quickly evaluate whether a calculated result or a proposed solution makes practical sense within the context of the real world.",
+   "options": [
+    {
+     "label": "A",
+     "text": "It replaces the need for precise measurements when conducting complex laboratory experiments."
+    },
+    {
+     "label": "B",
+     "text": "It helps in determining whether a calculated result is logically reasonable or practically impossible."
+    },
+    {
+     "label": "C",
+     "text": "It provides the exact numerical data required to establish new foundational scientific laws."
+    },
+    {
+     "label": "D",
+     "text": "It eliminates the necessity of using standardized units when solving everyday physical problems."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Approximate estimates check reasonableness",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O28",
+   "form": "mcq",
+   "page": null,
+   "stem": "Which statement most accurately reflects the true nature of well-established scientific theories?",
+   "answer": "A fundamental characteristic of science is its inherent adaptability. Scientific theories are never considered absolute dogmas or unquestionable final truths. Instead, they remain permanently open to rigorous critical examination and progressive improvement. As technological advancements provide fresh, highly reliable new evidence, established theories are frequently modified, updated, or occasionally entirely changed to reflect deeper natural realities.",
+   "options": [
+    {
+     "label": "A",
+     "text": "They are absolute, final truths that can never be questioned."
+    },
+    {
+     "label": "B",
+     "text": "They are mere guesses without any experimental evidence."
+    },
+    {
+     "label": "C",
+     "text": "They are always open to critical improvement as new evidence emerges."
+    },
+    {
+     "label": "D",
+     "text": "They exclusively rely on mathematical calculations without physical observation."
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Scientific knowledge is revisable",
+   "bloom": "understand",
+   "dok": 1,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O29",
+   "form": "mcq",
+   "page": null,
+   "stem": "Match the scientific terms in List-I with their correct conceptual definitions from List-II.\nList-I (Term)\nP. Law\nQ. Theory\nR. Principle\nS. Model\nList-II (Definition)\n1. Broad over arching ideas that help make sense of a given situation\n2. Simplified ways of accurately looking at complex real systems\n3. Describes a regular, predictable pattern observed in nature\n4. Provides a robust explanation of why specific patterns occur",
+   "answer": "A ‘Law’ describes a regular observed pattern (P-3). A ‘Theory’ goes further by providing a comprehensive evidence-based explanation of why those patterns occur (Q-4). A ‘Principle’ represents a broad overarching idea helping us understand specific situations (R-1). Finally, a ‘Model’ is a deliberately simplified representation of complex real systems (S-2).",
+   "options": [
+    {
+     "label": "A",
+     "text": "P-3, Q-4, R-1, S-2"
+    },
+    {
+     "label": "B",
+     "text": "P-4, Q-3, R-2, S-1"
+    },
+    {
+     "label": "C",
+     "text": "P-3, Q-1, R-4, S-2"
+    },
+    {
+     "label": "D",
+     "text": "P-2, Q-4, R-1, S-3"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Law describes repeated pattern",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O30",
+   "form": "mcq",
+   "page": 25,
+   "stem": "Consider the following statements regarding the power of prediction in science:\n1. Scientific predictions are generally unfounded, random guesses.\n2. Predictions allow scientists to precisely anticipate outcomes under entirely new conditions.\n3. Predictions must always be reasoned expectations based heavily on prior evidence.\n4. When highly accurate predictions match observations, confidence in the underlying science grows.\nWhich combination of statements is completely correct?",
+   "answer": "Statements 2, 3, and 4 correctly describe scientific predictions. They are meticulously reasoned expectations deeply rooted in evidence, entirely allowing scientists to anticipate results under new conditions, thereby building confidence. Conversely, statement 1 is completely false because scientific predictions drastically differ from random, unfounded guesses; they require rigorous logical deduction and solid empirical backing.",
+   "options": [
+    {
+     "label": "A",
+     "text": "1, 2, and 3"
+    },
+    {
+     "label": "B",
+     "text": "2, 3, and 4"
+    },
+    {
+     "label": "C",
+     "text": "1, 3, and 4"
+    },
+    {
+     "label": "D",
+     "text": "1, 2, and 4"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Predictions are reasoned expectations",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O31",
+   "form": "mcq",
+   "page": null,
+   "stem": "Estimation is an important scientific skill used to verify if calculations make logical sense. Four families calculated their estimated daily staple food requirement for one adult. Based on the nutritional data provided in the table, which family calculated a reasonable rough estimate?\n\n<html><body><table><tr><td>Family</td><td>Average Adult Energy Need (kcal/day)</td><td>Energy per 100g of Staple Food (kcal)</td><td>Estimated Staple Food Required per Adult (g/day)</td></tr><tr><td>Family W</td><td>2200</td><td>350</td><td>60</td></tr><tr><td>Family X</td><td>2200</td><td>350</td><td>600</td></tr><tr><td>Family Y</td><td>2200</td><td>350</td><td>6000</td></tr><tr><td>Family Z</td><td>2200</td><td>350</td><td>60000</td></tr></table></body></html>",
+   "answer": "Rough estimation helps verify whether a calculated scientific result makes logical sense. An average adult requires approximately 2200 kilocalories daily. Since 100 grams of the staple food provides 350 kilocalories, consuming 600 grams yields 2100 kilocalories. This makes Family X’s calculation a highly accurate and reasonable estimate compared to the others.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Family W"
+    },
+    {
+     "label": "B",
+     "text": "Family X"
+    },
+    {
+     "label": "C",
+     "text": "Family Y"
+    },
+    {
+     "label": "D",
+     "text": "Family Z"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Estimate using rates and assumed values",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O32",
+   "form": "mcq",
+   "page": null,
+   "stem": "When Varsha simply predicted rain stating “the clouds look dark”, what kind of scientific questions could Meghna ask to make this testable?",
+   "answer": "To scientifically validate a casual prediction like “clouds look dark”, researchers must ask rigorous, analytically testable questions. Meghna should specifically request objective, measurable data such as current atmospheric humidity percentages, noticeable temperature drops, and recent wind directions. Comparing these precise measurable variables strictly against established past weather patterns elevates a mere guess into scientific investigation.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Questions based entirely on personal emotional feelings about rain."
+    },
+    {
+     "label": "B",
+     "text": "Questions seeking clear measurable data like current humidity and past patterns."
+    },
+    {
+     "label": "C",
+     "text": "Questions that only require simple, unverified yes or no answers."
+    },
+    {
+     "label": "D",
+     "text": "Questions about the aesthetic beauty and shape of the dark clouds."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Testable questions seek measurable evidence",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O33",
+   "form": "mcq",
+   "page": null,
+   "stem": "Why do highly advanced scientific weather forecasts sometimes still fail when predicting conditions further into the future?",
+   "answer": "Weather forecasting involves profoundly complex natural systems inherently dependent on continuously shifting factors like temperature, atmospheric pressure, and varied wind patterns. In such chaotic systems, even microscopically tiny initial differences or measurement variations can grow exponentially over extended time. This inherent complexity makes distant long-term predictions notoriously unreliable, despite utilizing highly advanced scientific models.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Because meteorologists generally do not use mathematics."
+    },
+    {
+     "label": "B",
+     "text": "Because weather relies heavily on constant, unchanging environmental factors."
+    },
+    {
+     "label": "C",
+     "text": "Because tiny initial differences in complex variables can grow drastically over time."
+    },
+    {
+     "label": "D",
+     "text": "Because scientific theories completely ignore variables like temperature and pressure."
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Complex systems make predictions uncertain",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O34",
+   "form": "mcq",
+   "page": 26,
+   "stem": "How does the scientific community generally view the inherent limits and occasional failures of even the most successful scientific theories?",
+   "answer": "Paradoxically, the absolute openness to being proven wrong is recognized as science’s greatest conceptual strength. When an established theory unexpectedly fails under new experimental conditions, it directly highlights that science humbly allows nature itself to correct human misunderstandings. This ongoing, rigorous self-correction completely ensures that our comprehension of the complex universe continually improves and strictly aligns with reality.",
+   "options": [
+    {
+     "label": "A",
+     "text": "As embarrassing fundamental flaws that completely destroy scientific credibility."
+    },
+    {
+     "label": "B",
+     "text": "As absolute proof that mathematical models are entirely useless."
+    },
+    {
+     "label": "C",
+     "text": "As its greatest strength, showing openness to being directly corrected by nature."
+    },
+    {
+     "label": "D",
+     "text": "As clear evidence that traditional myths are vastly superior to science."
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Mismatched predictions prompt re-examination",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O35",
+   "form": "assertion_reason",
+   "page": null,
+   "stem": "Assertion (A): No accepted scientific theory is ever considered final, and absolutely none is permanently beyond questioning. Reason (R): Scientists rapidly reject established ideas based purely on shifting popular opinions and social beliefs.",
+   "assertion": "No accepted scientific theory is ever considered final, and absolutely none is permanently beyond questioning.",
+   "reason": "Scientists rapidly reject established ideas based purely on shifting popular opinions and social beliefs.",
+   "answer": "The assertion correctly states that all scientific theories remain permanently open to critical revision and questioning. However, the reason is fundamentally false. The scientific method is incredibly strict; scientists absolutely never reject robust ideas based on fleeting opinions or popular beliefs. They exclusively revise or discard theories based on solid, verifiable, and newly discovered empirical evidence.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true and R is the correct explanation of A"
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true but R is not the correct explanation of A"
+    },
+    {
+     "label": "C",
+     "text": "A is true but R is false"
+    },
+    {
+     "label": "D",
+     "text": "A is false but R is true"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Scientific knowledge is revisable",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O36",
+   "form": "mcq",
+   "page": null,
+   "stem": "Scientists confidently reject the widely circulated viral claim that “food inevitably becomes highly harmful if eaten during a solar eclipse” because:",
+   "answer": "By applying fundamental scientific questioning, researchers quickly realize an eclipse is merely a standard optical play of celestial shadows. Rigorous investigation confirms there is absolutely no significant temperature crash, and crucially, absolutely no underlying physical, chemical, or biological mechanism exists that could miraculously alter food properties. Thus, science immediately rejects such baseless viral claims through evidence.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Eclipses are exceedingly rare phenomena that scientists cannot observe."
+    },
+    {
+     "label": "B",
+     "text": "An eclipse is merely a simple play of shadows causing no chemical change."
+    },
+    {
+     "label": "C",
+     "text": "The temperature plunges dangerously low, immediately freezing all food items."
+    },
+    {
+     "label": "D",
+     "text": "Ancient philosophical texts definitively proved the claim completely accurate long ago."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Scientific thinking applies beyond science",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O37",
+   "form": "mcq",
+   "page": null,
+   "stem": "Understanding how the safety devices shown in the image function requires knowledge of particle motion, polymer properties, and viral behaviour. Which key characteristic of scientific inquiry does this best illustrate?",
+   "answer": "The natural world operates without rigid boundaries between different scientific subjects. Solving practical, real-world problems—such as designing effective protective masks—requires actively connecting fundamental ideas from physics, chemistry, biology, and mathematics. This demonstrates that distinct scientific disciplines are highly interconnected and consistently enrich one another to advance technological innovation.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Real-world problems are complex and typically require integrating concepts from multiple branches of science."
+    },
+    {
+     "label": "B",
+     "text": "Scientific disciplines are strictly separated and rarely share methodologies in practical applications."
+    },
+    {
+     "label": "C",
+     "text": "Biological challenges can only be effectively addressed using theoretical principles from biology alone."
+    },
+    {
+     "label": "D",
+     "text": "Mathematical equations are the sole requirement for designing and evaluating effective protective equipment."
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Real problems need multiple disciplines",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O38",
+   "form": "mcq",
+   "page": null,
+   "stem": "A student constructs a table to demonstrate how different branches of science help us understand the complex functionality of a safety mask. Based on the scientific concepts provided, which two rows contain an incorrect swapping of their primary scientific disciplines?\n\n<html><body><table><tr><td>Row</td><td>Mask Function / Feature</td><td>Primary Branch of Science</td><td>Scientific Concept Applied</td></tr><tr><td>Row 1</td><td>Electrostatic layers</td><td>Physics</td><td>Particle motion and electrostatic attraction</td></tr><tr><td>Row 2</td><td>Material composition</td><td>Biology</td><td>Properties of polymer fibres</td></tr><tr><td>Row 3</td><td>Pathogen filtration</td><td>Chemistry</td><td>Size and behaviour of viruses</td></tr><tr><td>Row 4</td><td>Breathability design</td><td>Mathematics</td><td>Modelling airflow and filtration efficiency</td></tr></table></body></html>",
+   "answer": "Solving real-world problems requires connecting multiple scientific disciplines. Chemistry studies the specific properties of materials, such as the chemical composition of polymer fibers. Conversely, biology focuses on biological entities, examining the size and behavior of viruses. The table incorrectly swaps these disciplines, misattributing fibers to biology and viruses to chemistry.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Row 1 and Row 2"
+    },
+    {
+     "label": "B",
+     "text": "Row 2 and Row 3"
+    },
+    {
+     "label": "C",
+     "text": "Row 3 and Row 4"
+    },
+    {
+     "label": "D",
+     "text": "Row 1 and Row 4"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Real problems need multiple disciplines",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O39",
+   "form": "mcq",
+   "page": null,
+   "stem": "What specific practical strategy is highly recommended in the early stages of reasoning to quickly determine whether a calculated scientific result makes sense?",
+   "answer": "In the very early stages of scientific problem-solving, making a rough, approximate estimate is an incredibly powerful strategy. This practical approach does not require immediate, exhaustive precision. Instead, it rapidly helps researchers confidently determine whether their initial theoretical result is logically reasonable or glaringly impossible, ultimately building strong foundational intuition and quickly detecting major calculation errors.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Performing highly complex, precise decimal calculations immediately"
+    },
+    {
+     "label": "B",
+     "text": "Conducting a fully funded, decade-long laboratory experiment"
+    },
+    {
+     "label": "C",
+     "text": "Making a rough, approximate estimate to check general reasonableness"
+    },
+    {
+     "label": "D",
+     "text": "Assuming the first intuitive guess is absolutely flawless and final"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Approximate estimates check reasonableness",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O40",
+   "form": "mcq",
+   "page": null,
+   "stem": "Why is actively learning to estimate effectively considered such an exceptionally important scientific skill?",
+   "answer": "Rough estimation is heavily emphasized as a highly crucial scientific skill primarily because it systematically helps students fundamentally build robust physical intuition. By quickly estimating values, one can effortlessly detect massive calculation errors early on. This vital process rapidly develops immense intellectual confidence, proving that logical scientific reasoning often holds more practical value than strictly rigid, accurate calculations.",
+   "options": [
+    {
+     "label": "A",
+     "text": "It permanently eliminates the need for any actual experimental measurements."
+    },
+    {
+     "label": "B",
+     "text": "It helps steadily build intuition, rapidly detect errors, and develop confidence."
+    },
+    {
+     "label": "C",
+     "text": "It provides absolutely precise final answers without requiring mathematics."
+    },
+    {
+     "label": "D",
+     "text": "It actively discourages students from pursuing advanced theoretical physics."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Approximate estimates check reasonableness",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O41",
+   "form": "mcq",
+   "page": null,
+   "stem": "Consider the following statements regarding the estimation of how much rice would feed a family:\n1. Getting a perfectly exact decimal number is the primary goal of this exercise.\n2. The fundamental aim is strictly to logically check whether the final answer physically makes sense.\n3. Such estimation deeply helps seamlessly connect abstract science to practical everyday questions.\nWhich combination represents correct statements?",
+   "answer": "When executing a rough scientific estimate, such as calculating a family’s monthly rice requirement, obtaining a perfectly precise decimal figure is distinctly not the goal. Instead, the primary objective is to logically verify if the general magnitude makes practical sense. Importantly, this immensely valuable exercise beautifully connects abstract scientific reasoning directly to highly relevant everyday situations.",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 and 2 only"
+    },
+    {
+     "label": "B",
+     "text": "2 and 3 only"
+    },
+    {
+     "label": "C",
+     "text": "1 and 3 only"
+    },
+    {
+     "label": "D",
+     "text": "1, 2, and 3"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Approximate estimates check reasonableness",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O42",
+   "form": "mcq",
+   "page": null,
+   "stem": "Why would a physicist choose to use Model B instead of Model A when calculating the time taken for the object to travel a specific straight-line distance?",
+   "answer": "Science uses simplified models to make sense of complex reality. By treating a moving car as a basic geometric shape, physicists deliberately ignore irrelevant details like headlights or wheels to focus exclusively on variables that affect the specific problem, such as velocity. The incorrect options completely misrepresent the primary purpose of scientific modeling.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Model B includes more complex assumptions to ensure greater real-world accuracy."
+    },
+    {
+     "label": "B",
+     "text": "Model B deliberately ignores details that do not affect basic linear motion."
+    },
+    {
+     "label": "C",
+     "text": "Model B represents a biological system rather than a physical one."
+    },
+    {
+     "label": "D",
+     "text": "Model B proves that the visual appearance of an object changes its speed."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Deliberate ignoring of details",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O43",
+   "form": "mcq",
+   "page": null,
+   "stem": "How does the textbook philosophically describe the strict divisions of natural science into specialized branches like physics, chemistry, biology, and earth science?",
+   "answer": "The natural world naturally functions as a unified whole, possessing absolutely no inherent rigid boundaries. Humans artificially created distinct specialized branches—like physics and biology—strictly as convenient organisational tools to help systematically categorize vast knowledge. Ultimately, heavily resolving complex real-world problems urgently requires seamlessly combining profound ideas from all these interconnected disciplines simultaneously.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Nature itself created these rigid permanent boundaries universally."
+    },
+    {
+     "label": "B",
+     "text": "These rigid boundaries ensure disciplines remain entirely independent and isolated."
+    },
+    {
+     "label": "C",
+     "text": "These divisions are artificial constructs made merely to help systematically organise human knowledge."
+    },
+    {
+     "label": "D",
+     "text": "Earth science strictly forbids utilizing any mathematical principles whatsoever."
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Branches are man-made divisions",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O44",
+   "form": "assertion_reason",
+   "page": null,
+   "stem": "Assertion (A): Developing sustainable global technologies fundamentally requires seamlessly integrating profound ideas from multiple different scientific disciplines together. Reason (R): The complex natural environment strictly compartmentalizes its functions into entirely separate, isolated biological and chemical boundaries.",
+   "assertion": "Developing sustainable global technologies fundamentally requires seamlessly integrating profound ideas from multiple different scientific disciplines together.",
+   "reason": "The complex natural environment strictly compartmentalizes its functions into entirely separate, isolated biological and chemical boundaries.",
+   "answer": "The assertion is completely true; solving massive real-world problems fundamentally demands seamlessly merging knowledge across physics, biology, and more. However, the reason is fundamentally false. The natural environment operates holistically and does absolutely not compartmentalize functions. Humans artificially invented these disciplinary boundaries solely for academic convenience, but complex nature inherently completely ignores such artificial human-made distinctions.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true and R is the correct explanation of A"
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true but R is not the correct explanation of A"
+    },
+    {
+     "label": "C",
+     "text": "A is true but R is false"
+    },
+    {
+     "label": "D",
+     "text": "A is false but R is true"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Branches are man-made divisions",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O45",
+   "form": "mcq",
+   "page": 29,
+   "stem": "Match the specific scientific discipline in List-I strictly with its practical functional application in designing a safety mask from List-II.\nList-I (Discipline)\nP. Physics\nQ. Chemistry\nR. Biology\nS. Mathematics\nList-II (Application)\n1. Understanding properties of polymer fibres\n2. Modelling airflow and overall filtration efficiency\n3. Analysing particle motion and electrostatic attraction\n4. Studying the physical size and behaviour of microscopic viruses",
+   "answer": "Designing an effective protective mask brilliantly requires deeply interconnected multidisciplinary knowledge. Physics strictly handles crucial particle motion and necessary electrostatic attraction (P-3). Chemistry primarily deals with the complex material properties of specialized polymer fibres (Q-1). Biology fundamentally studies the exact microscopic size and infectious behaviour of dangerous viruses (R-4). Finally, Mathematics rigorously models complex airflow dynamics (S-2).",
+   "options": [
+    {
+     "label": "A",
+     "text": "P-3, Q-1, R-4, S-2"
+    },
+    {
+     "label": "B",
+     "text": "P-1, Q-3, R-2, S-4"
+    },
+    {
+     "label": "C",
+     "text": "P-4, Q-2, R-1, S-3"
+    },
+    {
+     "label": "D",
+     "text": "P-3, Q-4, R-1, S-2"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Real problems need multiple disciplines",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O46",
+   "form": "mcq",
+   "page": null,
+   "stem": "Consider the following statements regarding the overarching fundamental nature of scientific endeavour:\n1. Science is merely a static, unchangeable collection of rigid historical facts.\n2. Science dynamically grows strictly through widespread curiosity, boundless creativity, and careful collaborative questioning.\n3. Science heavily develops over time directly through the dedicated work of countless individuals across varied cultures.\n4. Robust scientific thinking profoundly helps individuals critically evaluate surrounding daily information.\nWhich combination of statements accurately reflects the chapter’s conclusion?",
+   "answer": "Statements 2, 3, and 4 deeply reflect the textbook’s profound concluding philosophy. Science is definitively a deeply collaborative, intensely creative human activity universally transcending diverse cultures, actively empowering critical thinking far beyond mere classrooms. Conversely, statement 1 is completely false because science is actively dynamic and constantly evolving, certainly not a lifeless, static collection of rigid historical facts.",
+   "options": [
+    {
+     "label": "A",
+     "text": "1, 2, and 3"
+    },
+    {
+     "label": "B",
+     "text": "2, 3, and 4"
+    },
+    {
+     "label": "C",
+     "text": "1, 3, and 4"
+    },
+    {
+     "label": "D",
+     "text": "1, 2, and 4"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Science grows through collective effort",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O47",
+   "form": "mcq",
+   "page": null,
+   "stem": "Based on the scenario depicted in the diagram, what is the primary cause of the potential error indicated by the central warning symbol?",
+   "answer": "The diagram highlights fuel density in pounds per litre but fuel required in kilograms. Mixing different unit systems leads to dangerous calculation errors. Standard SI units act as a universal shared language, ensuring that scientific measurements and everyday calculations remain consistent, comparable, and entirely free from avoidable conversion mistakes across different regions.",
+   "options": [
+    {
+     "label": "A",
+     "text": "The physical properties of the fuel change when transferred from the pump to the airplane."
+    },
+    {
+     "label": "B",
+     "text": "The calculations rely on non-standardized local opinions rather than scientific evidence."
+    },
+    {
+     "label": "C",
+     "text": "The mathematical equations used are fundamentally incorrect for calculating fuel volume."
+    },
+    {
+     "label": "D",
+     "text": "The quantities are expressed in inconsistent units, preventing accurate scientific calculation."
+    }
+   ],
+   "correct_option": "D",
+   "concept": "International standard units",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O48",
+   "form": "mcq",
+   "page": null,
+   "stem": "Arrange the following critical sequential steps to correctly reflect the fundamental process of building strong scientific understanding as implied throughout the chapter.\n1. Formulating reasoned expectations or predictions.\n2. Building simplified models to strictly focus on essential details.\n3. Engaging in careful observation and boundless curiosity.\n4. Rigorously testing ideas and thoroughly revising models based on fresh evidence.",
+   "answer": "The logical scientific journey essentially begins with intense curiosity and careful, meticulous observation (3). To practically handle overwhelming natural complexity, scientists first deliberately construct highly simplified models (2). Utilizing these established models, they systematically generate logical, reasoned predictions regarding future outcomes (1). Finally, they relentlessly test these specific predictions and meticulously revise their ideas using new evidence (4).",
+   "options": [
+    {
+     "label": "A",
+     "text": "3 -> 2 -> 1 -> 4"
+    },
+    {
+     "label": "B",
+     "text": "2 -> 3 -> 4 -> 1"
+    },
+    {
+     "label": "C",
+     "text": "3 -> 1 -> 2 -> 4"
+    },
+    {
+     "label": "D",
+     "text": "1 -> 4 -> 3 -> 2"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Careful observation in exploration",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O49",
+   "form": "mcq",
+   "page": null,
+   "stem": "How should the scientific terms be correctly mapped to the core concepts represented by X, Y, and Z in the diagram?",
+   "answer": "In science, a ‘Law’ (X) describes a regular pattern observed in nature, like the laws of motion. A ‘Theory’ (Y) provides an explanation for why these patterns occur, such as atomic theory explaining molecular structures. A ‘Principle’ (Z) is a broad over arching idea, like the conservation of energy, applied to make sense of given situations.",
+   "options": [
+    {
+     "label": "A",
+     "text": "X - Theory, Y - Principle, Z - Law"
+    },
+    {
+     "label": "B",
+     "text": "X - Law, Y - Theory, Z - Principle"
+    },
+    {
+     "label": "C",
+     "text": "X - Principle, Y - Law, Z - Theory"
+    },
+    {
+     "label": "D",
+     "text": "X - Theory, Y - Law, Z - Principle"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Theory explains observed patterns",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O50",
+   "form": "mcq",
+   "page": null,
+   "stem": "To systematically evaluate complex problems beyond the classroom using robust scientific habits, the textbook strongly recommends a highly specific logical sequence. Identify the strictly correct order of these critical initial thinking steps.",
+   "answer": "To profoundly develop robust scientific thinking habits heavily applicable in complex daily life, the textbook emphatically prescribes a highly practical, sequential logical strategy. One must initially strive to completely understand the underlying situation fundamentally, then carefully identify only the most vital quantities involved, and logically conclude by making a rough, approximate estimate to systematically verify overall reasonableness.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Immediately calculate precisely -> Identify quantities -> Ignore assumptions entirely"
+    },
+    {
+     "label": "B",
+     "text": "First understand the situation thoroughly -> Identify important quantities -> Make a rough approximate estimate"
+    },
+    {
+     "label": "C",
+     "text": "Guess randomly -> Memorise equations -> Calculate to five decimal places"
+    },
+    {
+     "label": "D",
+     "text": "Ignore quantities entirely -> Rely purely on intuition -> Abandon mathematical calculations"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Estimation begins with understanding",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O51",
+   "form": "mcq",
+   "page": null,
+   "stem": "Consider the following crucial statements regarding the use of advanced mathematical expressions in fundamental science:\n1. They essentially operate as highly compact, intensely precise logical statements detailing exactly how distinct physical quantities are fundamentally related.\n2. They drastically hinder critical reasoning by forcing unnecessary, overly complex calculations.\n3. They profoundly allow scientists to effectively predict where a moving object will be accurately located at a later moment.\nWhich specific statements are factually correct according to the chapter?",
+   "answer": "Mathematics provides an incredibly powerful, deeply expressive shared language for science. Equations act as remarkably compact, highly precise logical statements strictly defining complex physical relationships (Statement 1). This mathematical precision inherently allows scientists to reliably predict future dynamic physical states accurately (Statement 3). Conversely, Statement 2 is entirely incorrect because mathematics fundamentally enhances—not hinders—deep logical reasoning.",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 and 2 only"
+    },
+    {
+     "label": "B",
+     "text": "2 and 3 only"
+    },
+    {
+     "label": "C",
+     "text": "1 and 3 only"
+    },
+    {
+     "label": "D",
+     "text": "1, 2, and 3"
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Equations express scientific relationships",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O52",
+   "form": "mcq",
+   "page": 31,
+   "stem": "Consider the following detailed statements concerning physicist Meghnad Saha’s brilliant theoretical modelling of stars:\n1. He completely ignored highly complex microscopic atomic processes.\n2. He meticulously modelled every single chemical reaction occurring rapidly inside the massive star.\n3. He focused intensely and exclusively on broader thermodynamic factors like extreme temperature and high pressure.\n4. His deliberate theoretical simplification successfully allowed him to physically explain exactly how the vibrant colour of stars is deeply connected to their surface temperature.\nWhich specific combination correctly identifies true statements?",
+   "answer": "Meghnad Saha’s incredible theoretical success directly relied on deliberate, extreme simplification. He purposefully ignored tracking overwhelmingly complex individual atomic reactions (Statement 1 is true, directly making Statement 2 false). Instead, he focused entirely on macroscopic thermodynamic properties like temperature and pressure (Statement 3), successfully enabling him to brilliantly physically link stellar colour directly to exact stellar temperatures (Statement 4).",
+   "options": [
+    {
+     "label": "A",
+     "text": "1, 2, and 3"
+    },
+    {
+     "label": "B",
+     "text": "1, 3, and 4"
+    },
+    {
+     "label": "C",
+     "text": "2, 3, and 4"
+    },
+    {
+     "label": "D",
+     "text": "1, 2, and 4"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Deliberate ignoring of details",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O53",
+   "form": "assertion_reason",
+   "page": null,
+   "stem": "Assertion (A): An effectively simple, functional mathematical model predicting whether a struck cricket ball successfully crosses the boundary line absolutely does not include the brand name of the bat. Reason (R): The specific brand name of the bat has absolutely zero physical effect on the fundamental aerodynamic trajectory and final distance travelled by the flying ball.",
+   "assertion": "An effectively simple, functional mathematical model predicting whether a struck cricket ball successfully crosses the boundary line absolutely does not include the brand name of the bat.",
+   "reason": "The specific brand name of the bat has absolutely zero physical effect on the fundamental aerodynamic trajectory and final distance travelled by the flying ball.",
+   "answer": "The assertion perfectly describes proper scientific modelling methodology. A functional boundary-predicting model selectively includes only essential physical parameters like velocity and mass. The provided reason perfectly explains why: entirely aesthetic, non-physical details like bat branding exert absolutely zero mechanical force or aerodynamic influence on the flying ball, thus completely justifying their deliberate, necessary exclusion from the calculation.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true and R is the correct explanation of A"
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true but R is not the correct explanation of A"
+    },
+    {
+     "label": "C",
+     "text": "A is true but R is false"
+    },
+    {
+     "label": "D",
+     "text": "A is false but R is true"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Deliberate ignoring of details",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O54",
+   "form": "mcq",
+   "page": null,
+   "stem": "Why is Person B’s approach considered a more scientifically testable prediction than Person A’s approach?",
+   "answer": "Scientific predictions are reasoned expectations based on evidence, not mere guesswork. Person A relies on a subjective visual observation, while Person B uses past measurable parameters like humidity, temperature, and wind speed. Scientifically testable questions look for quantifiable data and historical patterns rather than relying on unmeasured visual appearances, making subjective options incorrect.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Person B relies on undeniable proof that guarantees a correct outcome regardless of changing factors."
+    },
+    {
+     "label": "B",
+     "text": "Person B uses measurable data and past patterns rather than subjective visual opinions."
+    },
+    {
+     "label": "C",
+     "text": "Person B has formulated a complete scientific theory about the complex mechanisms of cloud formation."
+    },
+    {
+     "label": "D",
+     "text": "Person B is applying an exact mathematical equation to find a definitive numerical answer."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Testable questions seek measurable evidence",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O55",
+   "form": "assertion_reason",
+   "page": 32,
+   "stem": "Assertion (A): Newton’s highly famous descriptions detailing the precise physical jerk experienced uniformly when a moving bus abruptly stops are strictly scientifically classified as “Theories”. Reason (R): In science, a “Law” simply describes a highly regular, remarkably predictable physical pattern observed persistently in nature, often expressed using words or math.",
+   "assertion": "Newton’s highly famous descriptions detailing the precise physical jerk experienced uniformly when a moving bus abruptly stops are strictly scientifically classified as “Theories”.",
+   "reason": "In science, a “Law” simply describes a highly regular, remarkably predictable physical pattern observed persistently in nature, often expressed using words or math.",
+   "answer": "The assertion is factually incorrect because Newton’s descriptions of physical motion are universally classified strictly as scientific “Laws”, not as “Theories”. However, the reason provided is entirely correct. A scientific law precisely describes a consistent, mathematically predictable pattern directly observed repeatedly in nature, definitively stating what persistently happens without necessarily attempting to deeply explain exactly why it happens.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true and R is the correct explanation of A"
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true but R is not the correct explanation of A"
+    },
+    {
+     "label": "C",
+     "text": "A is true but R is false"
+    },
+    {
+     "label": "D",
+     "text": "A is false but R is true"
+    }
+   ],
+   "correct_option": "D",
+   "concept": "Law describes repeated pattern",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 4,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O56",
+   "form": "mcq",
+   "page": null,
+   "stem": "What core characteristic of scientific study is best demonstrated by the integrated mechanisms shown in the diagram of the mask?",
+   "answer": "The natural world lacks strict boundaries between scientific branches. Understanding how a protective mask functions requires combining chemistry for polymer properties, physics for electrostatic attraction, and biology to understand virus sizes. This demonstrates that solving real-world problems depends on connecting multiple disciplines simultaneously, proving that rigid subject boundaries are artificial and restrictive.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Scientific disciplines operate independently with strict boundaries separating distinct subjects."
+    },
+    {
+     "label": "B",
+     "text": "Real-world problems require integrating concepts from chemistry, physics, and biology together."
+    },
+    {
+     "label": "C",
+     "text": "Scientific models are only useful when they are represented by exact mathematical equations."
+    },
+    {
+     "label": "D",
+     "text": "Complex technologies can only be understood by isolating and studying one specific branch of science."
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Real problems need multiple disciplines",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O57",
+   "form": "mcq",
+   "page": null,
+   "stem": "Carefully arrange the following foundational scientific concepts in the precise chronological sequence they are primarily introduced and conceptually explored.\n1. The profound importance of deliberately simplifying incredibly complex reality by creating models.\n2. Utilizing mathematics as a powerful, remarkably compact shared conceptual language in strict scientific inquiry.\n3. The vital conceptual distinction between strictly descriptive laws and deeply explanatory theories.\n4. The immense practical value of performing rough approximate estimations to quickly build physical intuition.",
+   "answer": "Following the chapter’s precise structural progression: The text intentionally first introduces building simplified models to manage natural complexity (1). It then extensively discusses shared symbols and mathematics as science’s core language (2). Subsequently, it formally defines the precise conceptual differences between descriptive laws, profound theories, and broad principles (3). Finally, it practically concludes by heavily teaching valuable rough estimation skills (4).",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 -> 2 -> 3 -> 4"
+    },
+    {
+     "label": "B",
+     "text": "2 -> 1 -> 4 -> 3"
+    },
+    {
+     "label": "C",
+     "text": "4 -> 3 -> 2 -> 1"
+    },
+    {
+     "label": "D",
+     "text": "3 -> 1 -> 2 -> 4"
+    }
+   ],
+   "correct_option": "A",
+   "concept": "Models as simplified representations",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O58",
+   "form": "mcq",
+   "page": null,
+   "stem": "Identify the distinctly INCORRECT statement deeply regarding the fundamental nature of mathematics within the strict context of modern scientific study.",
+   "answer": "The textbook emphatically, explicitly clarifies that mathematics is definitely not meant to operate as an intensely confusing hurdle or intimidating obstacle for growing students. Instead, it powerfully functions as a profoundly helpful, incredibly compact universal scientific language. Mathematics fundamentally enables clearer, highly logical critical thinking and expresses intricate, deeply vital physical relationships clearly without overwhelming verbal complexity.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Mathematics provides deeply compact logical statements perfectly defining complex relationships."
+    },
+    {
+     "label": "B",
+     "text": "Mathematics fundamentally helps brilliant scientists think much more clearly about real-world phenomena."
+    },
+    {
+     "label": "C",
+     "text": "Mathematics acts as a completely insurmountable hurdle intentionally designed to drastically confuse young secondary students."
+    },
+    {
+     "label": "D",
+     "text": "Mathematics serves as a remarkably powerful universal language inherently designed for careful logical reasoning."
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Equations express scientific relationships",
+   "bloom": "evaluate",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O59",
+   "form": "mcq",
+   "page": null,
+   "stem": "Which highly specific combination of fundamental scientific principles is most critically essential when actively attempting to successfully predict exactly how soft a newly baked loaf of bread would practically turn out?",
+   "answer": "Accurately predicting the final physical softness of baked bread essentially demands heavily integrating knowledge from multiple disciplines. One must fundamentally utilize biological principles to properly understand active yeast fermentation processes. Simultaneously, one must strictly apply complex chemical principles to fully comprehend the intricate molecular reactions involving heat, gluten formation, and gas expansion occurring dynamically inside the baking oven.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Primarily relying on advanced astronomical and deep geological principles"
+    },
+    {
+     "label": "B",
+     "text": "Heavily utilizing strictly biological and complex chemical principles"
+    },
+    {
+     "label": "C",
+     "text": "Exclusively applying rigid Newtonian mechanical physics and quantum mathematics"
+    },
+    {
+     "label": "D",
+     "text": "Relying entirely on random guesswork completely void of empirical observation"
+    }
+   ],
+   "correct_option": "B",
+   "concept": "Real problems need multiple disciplines",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O60",
+   "form": "mcq",
+   "page": null,
+   "stem": "Which of the following absolutely does NOT represent a valid, legitimate reason why working scientists heavily rely on mathematical equations during rigorous modern research?",
+   "answer": "Scientists absolutely do not utilize complex mathematical equations simply to mindlessly memorize seemingly arbitrary, disconnected abstract numerical values. Rather, advanced mathematics fundamentally serves as an exceptionally powerful, highly compact descriptive language deeply necessary for clear reasoning. It allows researchers to seamlessly calculate physical trajectories, rigorously identify highly relevant variables, and logically quantify complex, dynamic natural patterns extremely effectively.",
+   "options": [
+    {
+     "label": "A",
+     "text": "To strictly identify and quantify highly relevant physical quantities seamlessly."
+    },
+    {
+     "label": "B",
+     "text": "To logically determine precisely where a fast-moving physical object will eventually be located."
+    },
+    {
+     "label": "C",
+     "text": "To mindlessly memorize arbitrary, completely disconnected abstract numbers devoid of deep conceptual meaning."
+    },
+    {
+     "label": "D",
+     "text": "To powerfully describe incredibly intricate, highly complex patterns underlying rapid population growth."
+    }
+   ],
+   "correct_option": "C",
+   "concept": "Equations express scientific relationships",
+   "bloom": "evaluate",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "O61",
+   "form": "mcq",
+   "page": null,
+   "stem": "Complete the following deep conceptual relationship directly based entirely on exact textbook definitions.\nThe incredibly robust Atomic theory : Fundamentally perfectly explains exactly how unseen molecules are complexly formed :: The broad Principle of energy conservation : ?",
+   "answer": "This detailed scientific analogy meticulously contrasts specific textbook conceptual definitions. Just as the powerful atomic theory provides a profound microscopic explanation detailing precisely how molecular bonding occurs, the broad macroscopic principle of energy conservation provides an over arching logical framework strictly helping us effortlessly comprehend practical daily physical phenomena, such as the intense physical exertion practically required while actively climbing stairs.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Describes the exact mathematical speed of incoming solar starlight."
+    },
+    {
+     "label": "B",
+     "text": "Describes the rigid physical jerk violently felt when a bus abruptly halts."
+    },
+    {
+     "label": "C",
+     "text": "Proves absolutely that dangerous eclipses severely logically poison human food."
+    },
+    {
+     "label": "D",
+     "text": "Broadly helps humans systematically make deep logical sense of situations like climbing steep stairs."
+    }
+   ],
+   "correct_option": "D",
+   "concept": "Principle gives broad guidance",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "objective"
+  },
+  {
+   "number": "V62",
+   "form": "very_short",
+   "page": null,
+   "stem": "What do the magnifying glass and compass symbolise in the design of this textbook?",
+   "answer": "The magnifying glass symbolizes careful observation and noticing patterns, while the compass represents needing direction, choosing appropriate models, and asking the right questions.",
+   "concept": "Careful observation in exploration",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V63",
+   "form": "very_short",
+   "page": 34,
+   "stem": "What does the study of science in the secondary stage heavily emphasise beyond just knowing basic facts?",
+   "answer": "It emphasises deep exploration, focusing on how observations lead to measurements, how models are built, and how ideas are carefully tested and revised.",
+   "concept": "Science asks what and how",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V64",
+   "form": "very_short",
+   "page": 34,
+   "stem": "Why do scientists consistently use simplified models to study the highly complex natural world?",
+   "answer": "Scientists use simplified models to deliberately ignore certain details, focusing only on the most important factors needed to answer a specific scientific question.",
+   "concept": "Models as simplified representations",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V65",
+   "form": "very_short",
+   "page": null,
+   "stem": "Give one example of how a complex entity is simplified into a model in the field of chemistry.",
+   "answer": "In chemistry, complex atoms and molecules are often represented simply as drawn spheres and connecting bonds to help scientists focus on their interactions.",
+   "concept": "Models as simplified representations",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V66",
+   "form": "very_short",
+   "page": null,
+   "stem": "How did physicist Meghnad Saha successfully simplify the highly complex matter inside a star to study its light?",
+   "answer": "He simplified the star by treating its matter as a hot gas, focusing only on temperature, pressure, and ion formation while ignoring other processes.",
+   "concept": "Deliberate ignoring of details",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V67",
+   "form": "very_short",
+   "page": null,
+   "stem": "Which specific details can be safely ignored when making a simple model of a cricket ball being hit for a six?",
+   "answer": "Minor details like the brand of the bat, the colour of the ball, or the amount of grass on the field can be ignored.",
+   "concept": "Question decides relevant details",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V68",
+   "form": "very_short",
+   "page": null,
+   "stem": "Why do scientific terms like force, work, or cell have very specific and precise meanings in textbooks?",
+   "answer": "They have precise meanings so that scientific ideas can be communicated clearly and unambiguously among scientists across the world to build ideas together.",
+   "concept": "Scientific terms are precise",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V69",
+   "form": "very_short",
+   "page": null,
+   "stem": "What is the primary role of mathematics when studying complex systems in secondary stage science?",
+   "answer": "Mathematics serves as a powerful language for clear thinking, helping us understand situations and accurately express relationships between different quantities through compact equations.",
+   "concept": "Equations express scientific relationships",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V70",
+   "form": "very_short",
+   "page": null,
+   "stem": "Why is the universal speed of light universally denoted by the specific symbol ‘c’ in scientific equations?",
+   "answer": "It is denoted by ‘c’ based on historical international agreements, originating from the Latin word ‘celeritas’, which translates to speed in the English language.",
+   "concept": "Symbols arise from history and agreement",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V71",
+   "form": "very_short",
+   "page": null,
+   "stem": "What was the major consequence of the ground crew mixing up pounds and kilograms in the airplane fuel miscalculation?",
+   "answer": "The aircraft received drastically less fuel than actually required, causing it to run completely out of fuel mid-flight and forcing a dangerous emergency landing.",
+   "concept": "Symbols and units for quantities",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V72",
+   "form": "very_short",
+   "page": null,
+   "stem": "Why is it absolutely necessary for scientists to use agreed international standard units for measurements everywhere?",
+   "answer": "Standard units prevent dangerous confusion, allow scientific results to be easily compared globally, and ensure fairness in daily life activities like trade and commerce.",
+   "concept": "International standard units",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V73",
+   "form": "very_short",
+   "page": null,
+   "stem": "How is a scientific law accurately defined in the context of organising our understanding of the natural world?",
+   "answer": "A scientific law usually describes a regular, predictable pattern observed in nature, which is often clearly expressed using words or precise mathematical relationships.",
+   "concept": "Law describes repeated pattern",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V74",
+   "form": "very_short",
+   "page": 35,
+   "stem": "State one major difference between a scientific law and a scientific theory based on how they handle patterns.",
+   "answer": "A law describes a regular pattern observed in nature, whereas a theory goes further by providing an evidence-based explanation for why those patterns occur.",
+   "concept": "Theory explains observed patterns",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V75",
+   "form": "very_short",
+   "page": 35,
+   "stem": "Give one example of a broad scientific principle that successfully helps us make sense of specific physical situations.",
+   "answer": "The principle of conservation of energy is a broad scientific idea that helps us understand specific physical situations, like the effort of climbing stairs.",
+   "concept": "Principle gives broad guidance",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V76",
+   "form": "very_short",
+   "page": null,
+   "stem": "What does the term ‘theory’ actually mean in science, completely contrary to its normal everyday usage?",
+   "answer": "In science, a theory does not mean a mere guess; it is a well-reasoned explanation based on careful testing and evidence gathered over time.",
+   "concept": "Scientific terms are precise",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V77",
+   "form": "very_short",
+   "page": null,
+   "stem": "Why is the ability to make precise predictions considered one of the most remarkable strengths of scientific thinking?",
+   "answer": "Predictions allow scientists to anticipate what will happen under new conditions before experimenting, and matching observations build confidence in the underlying scientific ideas.",
+   "concept": "Successful predictions build confidence",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V78",
+   "form": "very_short",
+   "page": null,
+   "stem": "What primarily causes professional weather forecasts to sometimes become highly unreliable further into the future?",
+   "answer": "Forecasts become unreliable because very tiny differences in initial conditions can grow significantly over time, eventually leading to completely different and unpredictable weather outcomes.",
+   "concept": "Complex systems make predictions uncertain",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V79",
+   "form": "very_short",
+   "page": null,
+   "stem": "How does science generally respond when well-established predictions completely fail to match precise new measurements?",
+   "answer": "Such failures are viewed as a great strength, prompting scientists to openly re-examine their assumptions and correct theories based purely on new factual evidence.",
+   "concept": "Mismatched predictions prompt re-examination",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V80",
+   "form": "very_short",
+   "page": null,
+   "stem": "How can basic scientific questioning completely disprove the viral claim that eating food during a solar eclipse is harmful?",
+   "answer": "Simple questions reveal an eclipse is merely a shadow, lacking any chemical or biological mechanism that could suddenly cause everyday food to become harmful.",
+   "concept": "Testable questions seek measurable evidence",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V81",
+   "form": "very_short",
+   "page": null,
+   "stem": "What is the primary advantage of making an approximate estimate before performing highly accurate scientific calculations?",
+   "answer": "An approximate estimate quickly reveals if a result is reasonable, helping build intuition and detect errors before relying on perfectly accurate mathematical calculations.",
+   "concept": "Approximate estimates check reasonableness",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V82",
+   "form": "very_short",
+   "page": null,
+   "stem": "How can one quickly estimate the daily kilocalorie requirement of an average human adult using basic scientific reasoning?",
+   "answer": "An accurate daily estimation can be logically made by assuming that an average human adult typically requires about 2000 to 2500 kilocalories of energy.",
+   "concept": "Estimate using rates and assumed values",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V83",
+   "form": "very_short",
+   "page": null,
+   "stem": "Under what condition might it be better to use rough estimation instead of finding a perfectly exact mathematical answer?",
+   "answer": "Rough estimation is best used in the early stages of reasoning to quickly check if an answer makes practical sense for everyday scientific questions.",
+   "concept": "Estimation begins with understanding",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V84",
+   "form": "very_short",
+   "page": null,
+   "stem": "What is the relationship between different scientific branches like physics, chemistry, and biology in the real natural world?",
+   "answer": "The natural world lacks strict boundaries; these divisions are merely human-made constructs designed to help logically organise and simplify our rapidly expanding scientific knowledge.",
+   "concept": "Branches are man-made divisions",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V85",
+   "form": "very_short",
+   "page": null,
+   "stem": "Why is it strictly necessary to connect multiple branches of science to solve modern real-world problems like climate change?",
+   "answer": "Solving complex real-world problems requires integrating knowledge from diverse disciplines like physics, chemistry, biology, and mathematics because these interconnected fields deeply enrich one another.",
+   "concept": "Real problems need multiple disciplines",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V86",
+   "form": "very_short",
+   "page": 37,
+   "stem": "How do principles of physics and chemistry specifically contribute to the effective functioning of a surgical safety mask?",
+   "answer": "Physics explains crucial concepts like particle motion and electrostatic attraction, while chemistry provides necessary knowledge about the specific properties of the mask’s polymer fibres.",
+   "concept": "Real problems need multiple disciplines",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V87",
+   "form": "very_short",
+   "page": null,
+   "stem": "Give one reason why scientific thinking remains highly important even for students who completely abandon science after Grade 10.",
+   "answer": "Scientific thinking helps individuals critically evaluate surrounding information and deeply understand the complex everyday technologies that constantly shape the modern world they live in.",
+   "concept": "Scientific thinking applies beyond science",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V88",
+   "form": "very_short",
+   "page": null,
+   "stem": "What is science fundamentally described as, far beyond just being a mere collection of facts, equations, and experiments?",
+   "answer": "Science is fundamentally a dynamic human activity that is deeply shaped by continuous curiosity, creativity, collaboration, and careful questioning by people across different cultures.",
+   "concept": "Science is a human activity",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 1,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V89",
+   "form": "very_short",
+   "page": null,
+   "stem": "Describe exactly how the human heart is treated as a functioning system when creating a highly simplified biological model.",
+   "answer": "When studying how blood is pumped, scientists deliberately ignore many individual cells so the organ can be practically understood as a single functioning system.",
+   "concept": "Deliberate ignoring of details",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V90",
+   "form": "very_short",
+   "page": null,
+   "stem": "What vital realization did scientists make regarding how science grows beyond its initial beginnings of very simple wonder?",
+   "answer": "They discovered that while science initially begins with a simple sense of wonder, it primarily grows and develops further through the execution of careful experiments.",
+   "concept": "Science grows through collective effort",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "V91",
+   "form": "very_short",
+   "page": null,
+   "stem": "How does the global scientific community generally handle the inevitable mistakes and experimental failures made during ongoing scientific research?",
+   "answer": "Scientists openly share results and actively learn from mistakes, using them to continuously test ideas and effectively refine their understanding of the natural world.",
+   "concept": "Scientific knowledge is revisable",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "veryshort"
+  },
+  {
+   "number": "S92",
+   "form": "short",
+   "page": null,
+   "stem": "Explain why scientists use models to study the natural world, giving an example from the chapter.",
+   "answer": "Scientists use models because the natural world is highly complex and studying it in full detail is often impossible. Models are simplified ways of looking at real systems that focus only on the most important factors for a given question while deliberately ignoring certain details. For example, when studying a falling object, air resistance might be ignored to focus on gravity’s basic effect. This simplification keeps things manageable and allows scientists to find clear answers to specific questions without being overwhelmed by unnecessary complexities.",
+   "concept": "Models as simplified representations",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S93",
+   "form": "short",
+   "page": null,
+   "stem": "Draw a simple comparative flowchart showing how a scientific theory differs from a guess. Explain this difference based on the chapter.",
+   "answer": "In science, a theory is not simply a guess or an untested idea. While a guess might be based on intuition or opinion, a scientific theory provides a robust explanation of why regular patterns occur in nature. This explanation is deeply rooted in evidence gathered over time and is subject to careful testing and critical examination. Unlike a mere guess, theories are widely accepted based on available facts but remain open to improvement and change as new evidence is continuously discovered through rigorous scientific exploration.",
+   "concept": "Theory explains observed patterns",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S94",
+   "form": "short",
+   "page": 38,
+   "stem": "What is the significance of using specific scientific symbols and standard units? How did a mix-up in units cause an airplane incident?",
+   "answer": "Scientific symbols and standard units, like the SI system, are crucial because they provide a precise and universally shared language. This allows scientists globally to describe observations clearly, compare results accurately, and build ideas together without ambiguity. A well-known airplane incident occurred when ground crew miscalculated fuel, using pounds per litre instead of kilograms per litre. The aircraft ran out of fuel mid-flight because pounds and kilograms represent very different masses. Standard units prevent such dangerous conversions and errors in science and daily life.",
+   "concept": "Symbols and units for quantities",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "short"
+  },
+  {
+   "number": "S95",
+   "form": "short",
+   "page": null,
+   "stem": "Study the given diagram of a vegetable seller using a pan balance. Why is a standard unit like the kilogram essential for this daily life activity? What would happen without it?",
+   "answer": "A standard unit like the kilogram is essential in daily life activities, such as buying vegetables, because it guarantees that a specific measurement means the exact same amount everywhere. These measurements are based on agreed international standards rather than local objects or personal opinions. If we did not have standard units, widespread confusion would occur in everyday trade. Using different, unstandardized weights in different locations would make it impossible to compare quantities fairly, leading to commercial disputes and inconsistency across different regions.",
+   "concept": "International standard units",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S96",
+   "form": "short",
+   "page": null,
+   "stem": "A student claims that a scientific theory is absolute and can never be changed once it is established. Do you agree? Justify your answer.",
+   "answer": "I completely disagree with this claim. No scientific theory is ever considered absolutely final, and none is beyond critical questioning. A key feature of science is its openness to being corrected by nature itself. Theories are established explanations based on current evidence, but they are always open to improvement. When new conditions are explored or measurements become more precise, even successful theories might fail or require modification. Therefore, theories frequently change and evolve as new evidence becomes available, which is actually science’s greatest strength.",
+   "concept": "Scientific knowledge is revisable",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "short"
+  },
+  {
+   "number": "S97",
+   "form": "short",
+   "page": null,
+   "stem": "Compare a scientific law and a scientific theory based on their fundamental roles in understanding nature.",
+   "answer": "A scientific law and a scientific theory serve different but complementary roles in science. A scientific law usually describes a regular, observable pattern in nature, often expressed through words or exact mathematical relationships. For example, Newton’s laws of motion describe the predictable physical behavior of objects. In contrast, a scientific theory goes a step further by providing a comprehensive explanation of why those specific patterns occur. While laws describe what happens under certain conditions, theories explain the underlying mechanisms based on extensive evidence and careful testing.",
+   "concept": "Law describes repeated pattern",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S98",
+   "form": "short",
+   "page": null,
+   "stem": "Explain how physicist Meghnad Saha used scientific modelling to understand the nature of stars.",
+   "answer": "Physicist Meghnad Saha successfully simplified the incredibly complex nature of stars through scientific modelling. He did not attempt to model every single atom, every chemical reaction, or every movement occurring inside a star, as that would be impossible. Instead, he treated the matter inside the star simply as a hot gas. By ignoring many complex processes and focusing solely on fundamental properties like temperature and pressure, his simplified model brilliantly explained how the unique colour of stars is deeply connected to their varying temperatures.",
+   "concept": "Models as simplified representations",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S99",
+   "form": "short",
+   "page": 39,
+   "stem": "How is mathematics used as a powerful language in science? Give an example to support your answer.",
+   "answer": "In science, mathematics is not just a calculation tool but a highly compact and precise language used to express how certain quantities relate to each other. It helps scientists think more clearly and reason carefully about the natural world. For instance, using an equation with variables like distance, time, and velocity allows scientists to predict exactly where a moving object will be at a later moment. Mathematical expressions beautifully describe population growth patterns, chemical reaction rates, and energy changes within complex biological or physical systems.",
+   "concept": "Equations express scientific relationships",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S100",
+   "form": "short",
+   "page": null,
+   "stem": "Draw a simple representation showing the interdisciplinary nature of science using the example of a surgical mask. Why is it important to connect multiple branches of science?",
+   "answer": "Solving complex real-world problems requires connecting multiple branches of science because nature does not have strict subject boundaries. As seen in the design of safety masks, understanding how they work involves physics for electrostatic attraction, chemistry for polymer fibre properties, biology for understanding virus behaviour, and mathematics for modelling airflow. Most modern challenges, like climate change or sustainable technology development, cannot be solved independently. Connecting various scientific disciplines enriches our overall understanding and provides comprehensive solutions to intricately connected real-world problems.",
+   "concept": "Real problems need multiple disciplines",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S101",
+   "form": "short",
+   "page": null,
+   "stem": "Describe the importance of making approximations or rough estimates in early scientific reasoning.",
+   "answer": "Making approximations or rough estimates is a crucial skill in the early stages of scientific reasoning because it helps build intuition and detect errors. Exact calculations are not always necessary to evaluate a situation. An approximate estimate is often sufficient to tell scientists whether a result is scientifically reasonable or entirely impossible. For example, estimating the daily calorie requirement of a family can quickly reveal if a calculated food resource amount makes sense. This practice develops strong confidence in critical thinking and everyday scientific problem-solving.",
+   "concept": "Approximate estimates check reasonableness",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S102",
+   "form": "short",
+   "page": null,
+   "stem": "Explain the scientific reason why a commonly circulated social media claim about food becoming harmful during a solar eclipse is invalid.",
+   "answer": "The claim that food becomes harmful during a solar eclipse is scientifically invalid because it lacks any supporting physical, chemical, or biological mechanism. Critical scientific questioning reveals that a solar eclipse is merely a simple play of shadows created by celestial bodies. The physical environment does not drastically alter, temperatures do not change significantly enough to spoil food, and food left in a shadow does not inherently turn bad. Disproof comes from recognizing that observations do not support this unfounded belief or opinion.",
+   "concept": "Scientific thinking applies beyond science",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "short"
+  },
+  {
+   "number": "S103",
+   "form": "short",
+   "page": null,
+   "stem": "What are scientific predictions? Why are they considered a powerful tool that drives further exploration?",
+   "answer": "Scientific predictions are reasoned expectations about what will happen under new or different conditions, based entirely on current evidence, established principles, and careful thinking. They are not random guesses. Predictions are a powerful tool because they allow scientists to anticipate outcomes before performing an experiment. When observations consistently match these predictions, confidence in the underlying scientific theories grows stronger. Even more importantly, when predictions do not match real-world observations, they force scientists to re-examine their assumptions and models, driving deeper exploration and understanding.",
+   "concept": "Predictions are reasoned expectations",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S104",
+   "form": "short",
+   "page": 40,
+   "stem": "Draw a simple labelled setup showing how water is heated for everyday use. Explain how this simple activity connects to scientific principles.",
+   "answer": "Heating water on a stove directly connects everyday activities to fundamental scientific principles. The burning of the cooking gas involves a chemical reaction that releases thermal energy. This energy transfers into the metallic pot and then into the water, illustrating physical concepts of heat transfer and energy conservation. As the water temperature rises, its physical state eventually changes, producing steam. By carefully observing such daily routines, we begin to appreciate how principles of chemistry and physics govern the natural and technological world around us.",
+   "concept": "Real problems need multiple disciplines",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S105",
+   "form": "short",
+   "page": null,
+   "stem": "What constitutes a scientifically testable prediction? How can Varsha use past data to accurately predict if it will rain today?",
+   "answer": "A scientifically testable prediction is a reasoned expectation based entirely on measurable evidence and careful thinking rather than simple guesswork. To predict if it will rain, Varsha must move beyond simple observations like looking at dark clouds. She needs to ask specific questions about measurable environmental data, such as current humidity, wind speed, and temperature changes. By carefully comparing today’s specific numerical data with established past weather patterns—like the humidity level during the last rain—she can formulate a highly reliable and scientifically sound prediction.",
+   "concept": "Testable questions seek measurable evidence",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "short"
+  },
+  {
+   "number": "S106",
+   "form": "short",
+   "page": null,
+   "stem": "Define a scientific theory. Why is it absolutely essential that theories remain constantly open to critical examination?",
+   "answer": "A scientific theory is a well-established explanation of why regular patterns occur in nature, constructed solidly upon evidence gathered over time through careful testing. However, it is essential that theories remain open to continuous critical examination because science constantly evolves. As new environmental conditions are explored or experimental measurements become significantly more precise, older theories may fail or require major adjustments. This openness to being corrected by new observable evidence is precisely what allows scientific knowledge to continually improve and accurately reflect reality.",
+   "concept": "Theory explains observed patterns",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S107",
+   "form": "short",
+   "page": null,
+   "stem": "Explain why weather forecasts are usually reliable for a short time but become much less certain further into the future.",
+   "answer": "Weather forecasts rely on many constantly changing factors, such as temperature, atmospheric pressure, humidity, and wind patterns. Meteorologists use precise measurements and complex mathematical models to predict weather based on these variables. However, weather systems are highly sensitive. Even very tiny initial differences in these conditions can grow significantly over time, leading to completely different outcomes. Therefore, while forecasts are usually quite reliable for a few hours or a couple of days, this compounding unpredictability makes them much less certain further into the distant future.",
+   "concept": "Complex systems make predictions uncertain",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "short"
+  },
+  {
+   "number": "S108",
+   "form": "short",
+   "page": null,
+   "stem": "Your friend claims that if a scientific model deliberately ignores certain details, it must be considered a mistake or a flawed model. Do you agree? Explain.",
+   "answer": "I disagree with this claim. In science, deliberately ignoring certain details is not a mistake but a highly necessary technique for building effective models. The real world is incredibly complex, making it impossible to study every single variable at once. By neglecting minor factors—such as ignoring air resistance to study the basic gravity of a falling object—scientists can keep things simple enough to analyze clearly. These intentional simplifications allow researchers to find direct answers to specific fundamental questions without being hindered by unnecessary complexities.",
+   "concept": "Deliberate ignoring of details",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "short"
+  },
+  {
+   "number": "S109",
+   "form": "short",
+   "page": 41,
+   "stem": "Study the given graphical representation. Based on this graph and the chapter, why does confidence in weather predictions drop rapidly over time?",
+   "answer": "The graph illustrates that our confidence in predicting weather heavily decreases as we look further into the future. Weather fundamentally depends on dynamic, ever-changing factors like temperature, pressure, and wind. Predictive models use current measurements to forecast these changes. However, even the most microscopic errors or variations in today’s data will multiply and grow significantly over several days. This rapid growth of tiny differences in initial conditions eventually leads to entirely different weather patterns, making long-term predictions represented on the graph highly uncertain and less reliable.",
+   "concept": "Complex systems make predictions uncertain",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "short"
+  },
+  {
+   "number": "S110",
+   "form": "short",
+   "page": null,
+   "stem": "Compare how physics and biology might use simplified models differently when studying their respective complex natural systems.",
+   "answer": "Physics and biology both use simplified models, but they apply them differently based on their specific needs. In physics, complex objects are often reduced to their most basic mathematical forms; for instance, a large moving car might be represented simply as a single geometric point to calculate its velocity or momentum easily. In contrast, biology uses structural diagrams to highlight key anatomical parts. When studying how a heart pumps blood, biological models may deliberately ignore billions of individual cells so the organ functions can be understood holistically.",
+   "concept": "Models as simplified representations",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "short"
+  },
+  {
+   "number": "S111",
+   "form": "short",
+   "page": null,
+   "stem": "Draw a simple flowchart illustrating the concept of a “systematic way” of organizing science. How does science build upon repeated observations?",
+   "answer": "Science organizes our understanding of the world in a highly systematic way. It begins with curiosity and making careful, repeated observations about the natural environment. These observations naturally lead to specific questions and the formulation of testable ideas. Scientists then rigorously test these ideas through controlled experiments. As experiments continuously validate or refine these concepts, the resulting knowledge is formally organized into structured laws, theories, and principles. This progressive, evidence-based method ensures that scientific knowledge continuously grows, adapts, and accurately reflects the physical universe.",
+   "concept": "Science asks what and how",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S112",
+   "form": "short",
+   "page": null,
+   "stem": "Explain why the speed of light is denoted by the specific symbol ‘c’ and how this relates to the origin of scientific symbols.",
+   "answer": "The speed of light is denoted by the symbol ‘c’ due to its historical linguistic roots, specifically derived from the Latin word “celeritas,” which translates to meaning speed or swiftness. Scientific symbols are often chosen based on historical context and established through international agreements for universal consistency. They are not necessarily just simple abbreviations of modern English words. Today, the speed of light ‘c’ is recognized globally as one of the fundamental physical constants, specifically defined to be exactly 299,792,458 metres per second in scientific literature.",
+   "concept": "Symbols arise from history and agreement",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S113",
+   "form": "short",
+   "page": 42,
+   "stem": "Draw a simple flowchart showing what happens when a scientific prediction fails. Explain how this failure is actually a strength of science.",
+   "answer": "When a scientific prediction fails, it is not a weakness but actually one of science’s greatest strengths. A failed prediction forces scientists to pause and carefully re-examine their initial assumptions, experimental models, or measurement techniques. Because science does not reject ideas based on personal opinion but strictly on observable evidence, recognizing a failure naturally drives further detailed exploration. This critical openness to being corrected by nature itself continuously refines our theories, ultimately leading to a much deeper and more accurate understanding of the real world.",
+   "concept": "Mismatched predictions prompt re-examination",
+   "bloom": "understand",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "short"
+  },
+  {
+   "number": "S114",
+   "form": "short",
+   "page": null,
+   "stem": "Explain why the speed of light is denoted by the specific symbol ‘c’ and how this relates to the origin of scientific symbols.",
+   "answer": "The speed of light is denoted by the symbol ‘c’ due to its historical linguistic roots, specifically derived from the Latin word “celeritas,” which translates to meaning speed or swiftness. Scientific symbols are often chosen based on historical context and established through international agreements for universal consistency. They are not necessarily just simple abbreviations of modern English words. Today, the speed of light ‘c’ is recognized globally as one of the fundamental physical constants, specifically defined to be exactly 299,792,458 metres per second in scientific literature.",
+   "concept": "Symbols arise from history and agreement",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S115",
+   "form": "short",
+   "page": null,
+   "stem": "Explain the logical process of estimating the total volume of air a person breathes in one single day, as described in the chapter.",
+   "answer": "To estimate the daily air volume breathed, we first calculate total breaths. At roughly 12 to 15 breaths a minute, multiplying by minutes in a day yields about 18,000 to 22,000 breaths daily. Next, we estimate the volume of a single breath by comparing it to inflating a balloon. If 4 to 5 breaths fill a two-litre balloon, one breath is approximately 0.5 litres. Finally, multiplying the 20,000 daily breaths by the 0.5-litre average volume provides a reasonable approximation of roughly 10,000 litres of air breathed daily.",
+   "concept": "Estimate using rates and assumed values",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "short"
+  },
+  {
+   "number": "S116",
+   "form": "short",
+   "page": null,
+   "stem": "What exactly is a scientific principle? How does a principle differ significantly from a specific mathematical equation?",
+   "answer": "A scientific principle is a broad, overarching idea or concept that helps scientists make sense of a given situation in nature. For example, the principle of conservation of energy explains how energy transforms when a person climbs stairs. In contrast, a specific mathematical equation is a compact, precise statement showing exactly how certain measurable quantities relate to each other numerically. While an equation provides the exact mathematical calculation for a specific event, a principle provides the fundamental, guiding conceptual rule that governs those broad physical interactions.",
+   "concept": "Principle gives broad guidance",
+   "bloom": "analyze",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "short"
+  },
+  {
+   "number": "S117",
+   "form": "short",
+   "page": null,
+   "stem": "Describe the deeper scientific meaning behind the magnifying glass and the compass used as framing symbols for the textbook’s page numbers.",
+   "answer": "The textbook uses a magnifying glass and a compass as framing symbols to reflect the true approach of scientific exploration. The magnifying glass symbolises careful observation—paying close attention to subtle patterns and noticing intricate details that might otherwise be easily missed. Meanwhile, the compass reminds us that exploration requires direction; we must choose appropriate models, ask the right questions, and carefully know the limits of our ideas. Together, they signify that science is not aimless wandering, but a purposeful, evidence-based attempt to understand the world.",
+   "concept": "Careful observation in exploration",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S118",
+   "form": "short",
+   "page": 43,
+   "stem": "Study the given diagram of a student measuring time with a stopwatch and distance with a tape measure. Why is it critically important to use specific SI units like seconds and metres when communicating these measurements?",
+   "answer": "It is vitally important to use specific terms and standard SI units, such as seconds for time and metres for distance, to ensure completely clear and unambiguous scientific communication. When a student records data using these universally agreed-upon standards, any scientist around the world can understand, compare, and verify the results accurately. If local or non-standard units were used instead, it would cause widespread confusion and severe calculation errors. Standardized units allow researchers to build upon each other’s work reliably and maintain consistency in global scientific research.",
+   "concept": "Symbols and units for quantities",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S119",
+   "form": "short",
+   "page": null,
+   "stem": "Describe the proper sequence of steps involved in evaluating an everyday problem scientifically, according to the textbook’s helpful strategy.",
+   "answer": "When evaluating a problem scientifically, the first crucial step is to fully understand the specific situation being studied. Next, you must carefully identify all the relevant quantities and variables that matter to that problem. Finally, you should make a rough estimate or quick calculation to check whether the potential answer actually makes logical sense. This sequence emphasizes that exact calculations are not always immediately necessary. This structured approach helps students build strong intuition, quickly detect reasoning errors, and develop deep confidence in their scientific thinking habits.",
+   "concept": "Estimation begins with understanding",
+   "bloom": "recall",
+   "dok": 1,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S120",
+   "form": "short",
+   "page": null,
+   "stem": "What would happen if we tried to study a complex natural system, like a flying bird, in its full detail without using any simplified scientific models?",
+   "answer": "If we attempted to study a flying bird in its absolute full detail without using simplified models, the scientific task would be virtually impossible. We would be completely overwhelmed by having to simultaneously analyze every single feather’s movement, the microscopic metabolic reactions in every muscle cell, fluctuating wind currents, and gravitational variations. The sheer complexity would prevent us from understanding the fundamental mechanics of flight. By not simplifying the system, we would fail to isolate the most important variables, making it impossible to answer specific aerodynamic questions.",
+   "concept": "Models as simplified representations",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "short"
+  },
+  {
+   "number": "S121",
+   "form": "short",
+   "page": null,
+   "stem": "Draw a simple diagram showing the continuous relationship between science, curiosity, and evidence. How do these three elements work together to build knowledge?",
+   "answer": "Science is fundamentally a human activity deeply shaped by curiosity and the rigorous gathering of evidence. Curiosity initially drives individuals to ask insightful questions about how the natural world works. To answer these questions, scientists conduct careful experiments and observations to gather solid, measurable evidence. This evidence is then meticulously analysed to formulate models, laws, and theories, which collectively build scientific knowledge. In turn, this newly organized knowledge often sparks further curiosity, creating a continuous cycle of discovery that helps us understand the complex world.",
+   "concept": "Science is a human activity",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "short"
+  },
+  {
+   "number": "S122",
+   "form": "short",
+   "page": 44,
+   "stem": "What specific details would you include and what details would you ignore to build a simple mathematical model of a bicycle commute? Why?",
+   "answer": "To build a simple mathematical model of a bicycle commute from home to school, I would primarily include crucial details like the total physical distance of the route, the average cycling speed, and major traffic stops. I would deliberately ignore minor aesthetic details such as the exact colour of the bicycle, the brand of the tires, or a slight breeze in the air. Ignoring these irrelevant factors is highly useful because they do not significantly impact the total travel time, keeping the calculation manageable and efficiently answering the core question.",
+   "concept": "Question decides relevant details",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "short"
+  },
+  {
+   "number": "L123",
+   "form": "long",
+   "page": null,
+   "stem": "(a) Differentiate between a scientific law, a theory, and a principle. Provide one example of each from your scientific understanding? (b) Why are scientific theories never considered ‘final’ or ‘perfect’?",
+   "answer": "(a) A scientific law describes a regular pattern observed in nature, often expressed using mathematical relationships, such as Newton’s laws of motion which explain the jerk felt when a bus stops. A theory goes further by providing a reasoned explanation for why those observed patterns occur, based on extensive evidence gathered over time, like the atomic theory explaining how molecules are formed. Principles are broad ideas that help make sense of specific situations, such as the principle of conservation of energy applied when climbing stairs. (b) Scientific theories are never considered final or perfect because they are always open to improvement. As new evidence emerges through better technology or precise measurements, theories are repeatedly tested. If predictions fail under new conditions, the theory must be revised or discarded. This openness to correction by nature ensures our understanding continuously evolves.",
+   "concept": "Principle gives broad guidance",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "long"
+  },
+  {
+   "number": "L124",
+   "form": "long",
+   "page": null,
+   "stem": "(a) What is a scientific model and why do scientists deliberately ignore certain details when building one? (b) Illustrate this using the example of a cricket shot, mentioning which details are kept and which are ignored?",
+   "answer": "(a) A scientific model is a simplified representation of a complex real-world system. It focuses only on the most important variables for a given question while deliberately ignoring other details. This simplification is necessary because the natural world is extraordinarily complex, and studying it in full detail is often impossible. By making assumptions, scientists keep things simple enough to find answers to specific questions. (b) For example, when modelling a cricket shot to predict if it will cross the boundary, essential details like the mass of the ball, the speed, and the direction of the hit are included. However, irrelevant details such as the brand of the bat, the colour of the ball, or the amount of grass on the field are ignored. Minor factors like air resistance or seam stitching might also be neglected initially but added later for greater accuracy.",
+   "concept": "Deliberate ignoring of details",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "long"
+  },
+  {
+   "number": "L125",
+   "form": "long",
+   "page": 45,
+   "stem": "(a) Draw a conceptual diagram illustrating how a surgical mask works. Explain how understanding the functioning of a mask requires knowledge from multiple branches of science like physics, chemistry, and biology? (b) Why do we divide science into branches if the natural world does not have such boundaries?",
+   "answer": "(a) Solving real-world problems often requires connecting ideas from multiple disciplines. The functioning of a surgical mask perfectly illustrates this interdisciplinary nature. Physics is involved in understanding particle motion and the electrostatic attraction used to trap microscopic droplets. Chemistry explains the properties of the specialized polymer fibres making up the mask. Biology is essential for understanding the size, structure, and transmission behaviour of the viruses being blocked. Mathematics helps model airflow and calculate efficiency. (b) Despite the natural world functioning as a single interconnected system, we divide science into branches like physics, chemistry, and biology merely to organise knowledge. These artificial divisions make it easier to study complex phenomena systematically in school. However, to fully understand real-world problems, we must integrate these branches, as no single discipline holds all the answers independently.",
+   "concept": "Branches are man-made divisions",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4,
+   "section_heading": "long"
+  },
+  {
+   "number": "L126",
+   "form": "long",
+   "page": null,
+   "stem": "(a) Explain the importance of using Standard International (SI) units globally with the help of the “airplane fuel miscalculation” incident? (b) How does mathematics act as a language of science rather than just a calculation tool?",
+   "answer": "(a) Using Standard International (SI) units globally is crucial for clear communication and preventing disastrous errors in scientific and real-world applications. A famous airplane fuel miscalculation highlights this importance. The ground crew mistakenly used pounds per litre instead of the required kilograms per litre. Consequently, the aircraft received significantly less fuel than needed and ran out mid-flight. Standard agreed units, like the kilogram, ensure scientific results are universally comparable, avoiding confusion and ensuring safety in daily life. (b) Furthermore, mathematics acts as a precise language in science rather than a mere calculation tool. It allows relationships between quantities to be expressed unambiguously. Mathematical equations are compact statements about how things are related, helping scientists reason carefully about motion, chemical reactions, or energy changes. It aids in understanding a situation conceptually before finding numerical answers, acting as a helpful guide for exploration.",
+   "concept": "International standard units",
+   "bloom": "understand",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "long"
+  },
+  {
+   "number": "L127",
+   "form": "long",
+   "page": null,
+   "stem": "(a) Why is making a rough estimate an important skill in science even when exact calculations are possible? (b) Using the example of estimating the daily calorie requirement from rice for a family, explain how approximations help in building scientific intuition?",
+   "answer": "(a) Making a rough estimate is a vital scientific skill because it helps us quickly determine whether a calculated answer is reasonable or impossible without needing exact numbers. Estimation builds scientific intuition, detects fundamental errors early in reasoning, and connects scientific concepts to everyday questions about food and resources. Science values this careful approximate reasoning highly. (b) For example, estimating the daily rice requirement for a family of four can be done using rough calorie approximations. An average adult needs about 2000–2500 kilocalories daily. By knowing the approximate calories in 100 g of uncooked rice, we can estimate the family’s monthly need. The goal is not an exact figure, but to verify that 100 grams is clearly too little for a month, while a few tonnes is absurdly high. This confirms our reasoning is on the right track and prevents gross miscalculations.",
+   "concept": "Cross-check estimates independently",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 4,
+   "section_heading": "long"
+  },
+  {
+   "number": "L128",
+   "form": "long",
+   "page": 46,
+   "stem": "(a) Draw a labelled diagram showing the basic geometry of a total solar eclipse. Use scientific reasoning to debunk the viral claim that “eating food during an eclipse is harmful”? (b) What does this debunking tell us about the importance of scientific thinking?",
+   "answer": "(a) A viral myth claims that eating food during a solar eclipse is harmful. This can be debunked by asking simple scientific questions. A solar eclipse is simply a play of shadows when the moon blocks the sun’s light. The temperature does not change significantly enough to spoil food, and food does not suddenly go bad if left in a regular shadow. There is absolutely no physical, chemical, or biological mechanism supporting the idea that food becomes toxic. (b) Debunking such claims demonstrates the importance of scientific thinking. It teaches us not to accept statements based purely on belief or widespread circulation. Instead, scientific thinking encourages us to evaluate information critically, seek measurable evidence, and rely on logical reasoning.",
+   "concept": "Scientific thinking applies beyond science",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "long"
+  },
+  {
+   "number": "L129",
+   "form": "long",
+   "page": null,
+   "stem": "(a) Who was Meghnad Saha and what did he study? (b) How did he simplify the complex environment of a star to build his scientific model? (c) What was he able to explain through this simplification?",
+   "answer": "(a) Meghnad Saha was an eminent Indian physicist who made significant contributions to astrophysics, specifically by studying the light emitted from stars. (b) The environment inside a star is incredibly complex, involving countless atoms and intricate reactions occurring simultaneously. To make sense of this overwhelming complexity, Saha built a simplified scientific model. He deliberately ignored many complex processes and did not attempt to model every single atom or every minute reaction occurring inside the stellar core. Instead, he treated the matter within the star simply as a hot gas. He focused only on crucial macro-variables: temperature, pressure, and how atoms formed ions under these extreme conditions. (c) Through this brilliant simplification, Saha was successfully able to explain how the specific colour of a star is deeply connected to its temperature, proving that omitting complex details can lead to profound discoveries.",
+   "concept": "Deliberate ignoring of details",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "long"
+  },
+  {
+   "number": "L130",
+   "form": "long",
+   "page": null,
+   "stem": "(a) “No scientific theory is ever final and none is beyond question.” Justify this statement based on how science progresses? (b) How does the failure of a scientific theory or model actually contribute to the progress of science?",
+   "answer": "(a) The statement “no scientific theory is ever final” highlights that science is a continuously evolving process. Theories are explanations based on available evidence at a given time. As technology improves and measurements become more precise, scientists explore new conditions where established theories might fail. Science is always open to being corrected by nature, meaning theories are constantly revised or even discarded when they no longer match new, accurate observations. (b) The failure of a scientific theory is not a weakness; it is actually science’s greatest strength. When predictions fail, scientists are forced to re-examine their assumptions, measurements, and models. This critical re-evaluation drives further exploration and prevents science from stagnating based on dogma. By rejecting ideas that contradict evidence, failures lead to the development of more accurate models, ultimately providing a deeper, more reliable understanding of the natural world.",
+   "concept": "Scientific knowledge is revisable",
+   "bloom": "evaluate",
+   "dok": 4,
+   "difficulty": 4,
+   "section_heading": "long"
+  },
+  {
+   "number": "L131",
+   "form": "long",
+   "page": 47,
+   "stem": "(a) Why do everyday words like ‘work’ or ‘force’ have very specific and unambiguous meanings in science? (b) Explain the historical origin of the symbol ‘c’ used to denote the speed of light, and why standard symbols are important?",
+   "answer": "(a) In everyday language, words like ‘work’, ‘force’, or ‘reaction’ are used loosely with multiple meanings. However, in science, these terms have highly specific and unambiguous definitions. This precision is necessary because scientific ideas must be communicated clearly globally. A shared standard language allows scientists across different countries to describe observations accurately, compare experimental results without confusion, and build collaborative ideas using a defined unit for each physical quantity. (b) Similarly, scientific symbols often derive from history and international agreements rather than simple English abbreviations. For example, the speed of light is denoted by the symbol ‘c’. This does not stand for any English word but originates from the Latin word ‘celeritas’, which translates to speed. Today, ‘c’ is universally recognized as a physical constant, demonstrating how standard symbols prevent regional confusion and unify scientific literature worldwide.",
+   "concept": "Scientific terms are precise",
+   "bloom": "understand",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "long"
+  },
+  {
+   "number": "C132",
+   "form": "case_study",
+   "page": null,
+   "stem": "Ravi is designing a school project to demonstrate how a rocket launches into space. To explain the concept to his classmates, he decides to build a simplified version using a long cardboard tube and an inflated balloon attached to the top. When he releases the balloon, the air rushes out, and the tube slides along a string across the classroom. While building this, Ravi completely ignores the outer paint color of a real space rocket, the exact shape of the astronaut cabin, and the logos printed on the side. He only focuses on the air pressure inside the balloon and the weight of the cardboard tube to make sure his project moves forward successfully. QUESTIONS: (a) What is Ravi creating to help his classmates understand the complex reality of a rocket launch? (b) Why did Ravi choose to ignore the paint color and logos of the rocket in his project? (c) How does Ravi’s approach compare to how physicist Meghnad Saha studied the light from stars? (d) Why is deliberately ignoring certain details in science not considered a mistake?",
+   "answer": "(a) Ravi is creating a scientific model, which is a simplified way of looking at a real system to understand how it works. (b) Ravi ignored the paint color and logos because they have no effect on the motion and basic physics of the launch. He focused only on the details that matter for his specific question, like pressure and weight. (c) Just as Ravi ignored paint and logos, Meghnad Saha ignored every atom and complex reaction inside a star, treating it simply as a hot gas to focus on temperature, pressure, and ion formation. (d) Ignoring certain details is not a mistake because it is done on purpose to keep things simple enough to study, allowing scientists to find answers to specific questions without getting lost in the immense complexity of the natural world.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "concept": "Deliberate ignoring of details",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "case"
+  },
+  {
+   "number": "C133",
+   "form": "case_study",
+   "page": 48,
+   "stem": "A local bakery in a busy town decides to order a special type of yeast from a new international supplier. The bakery’s master recipe clearly states that they need 50 units of yeast for their massive weekend bread production. The bakery manager sends the order assuming the supplier will send 50 kilograms. However, the international supplier operates in a different country and ships 50 pounds of yeast instead. When the weekend arrives, the bakers use the entire shipment for their dough. The bread fails to rise properly, ruining the entire batch and causing huge financial losses for the bakery. QUESTIONS: (a) What specific scientific and mathematical concept did the bakery manager and supplier fail to align on? (b) Why is it essential for scientists and tradespeople worldwide to use agreed international standards for measurements? (c) Recall a similar real-world incident mentioned in your science studies where a unit mix-up caused a major failure.",
+   "answer": "(a) They failed to align on standard units of measurement, confusing kilograms with pounds. (b) Using agreed international standards, like the SI units, ensures that scientific results can be accurately compared, avoids conversion errors, and guarantees fairness and consistency in daily life and trade everywhere in the world. (c) A well-known incident involved a passenger aircraft running out of fuel mid-flight because the ground crew miscalculated the fuel using pounds per litre instead of kilograms per litre, nearly causing a disaster.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "concept": "International standard units",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "case"
+  },
+  {
+   "number": "C134",
+   "form": "case_study",
+   "page": 48,
+   "stem": "During a science club debate, Priya strongly argues that a scientific theory is nothing more than a wild guess that scientists have not yet been able to prove. She claims, “If a theory ever gets proven with 100 percent certainty, it is upgraded to a scientific law.” The club supervisor, Mr. Sharma, politely steps in to correct this common misunderstanding. He explains how objects falling to the ground and the invisible structure of atoms represent two entirely different ways scientists organize their understanding of nature. He emphasizes that theories and laws serve different purposes and one does not simply become the other. QUESTIONS: (a) Was Priya correct in stating that a scientific theory is just an unproven guess? (b) Based on scientific definitions, differentiate between a scientific law and a scientific theory. (c) Provide one example of a scientific theory and one example of a scientific law. (d) What happens to a scientific theory when new, contradictory evidence is discovered?",
+   "answer": "(a) No, Priya was incorrect. A scientific theory is not an untested guess; it is a reasoned explanation based on evidence gathered over time and careful testing. (b) A scientific law describes a regular pattern observed in nature, often using mathematical relationships. A scientific theory goes a step further and provides an explanation of why those observed patterns occur. (c) An example of a scientific theory is the atomic theory (explaining how molecules are formed). An example of a scientific law is Newton’s laws of motion (explaining the jerk felt when a bus stops). (d) Scientific theories are always open to improvement. When new evidence becomes available, theories are often revised or changed. No scientific theory is ever final.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "concept": "Theory explains observed patterns",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "case"
+  },
+  {
+   "number": "C135",
+   "form": "case_study",
+   "page": 49,
+   "stem": "Harish, a young farmer, observes that his tomato plants seem to grow much taller when he adds a specific homemade compost made of vegetable peels. Excited, he tells his neighbor, “I guarantee that this compost will make all types of vegetables grow double their normal size in exactly one week!” His neighbor, a retired science teacher, smiles and suggests that Harish is making a huge leap. The neighbor advises Harish to formulate specific, measurable questions to test his claim properly across different plants, rather than relying on a general feeling based on a single tomato plant observation. QUESTIONS: (a) What scientific strength is Harish attempting to use when he makes his claim about the compost’s future effects? (b) Why is Harish’s current prediction considered unscientific or incomplete by his neighbor? (c) Suggest two scientifically testable questions Harish could ask to verify his prediction properly. (d) If Harish measures his future crops and they do not double in size, what should his next step be as a scientific thinker? (e) Why do scientifically based predictions, like weather forecasts, sometimes go wrong despite using good measurements?",
+   "answer": "(a) Harish is attempting to make a prediction, which is the ability to anticipate what will happen under new conditions before performing an experiment. (b) Harish’s prediction is incomplete because it is a broad guess not based on rigorous measurable evidence across different conditions. Good predictions require careful reasoning and testable parameters, not just an isolated observation. (c) Harish could ask: “What is the exact height difference in centimeters between spinach plants grown with and without the compost after 7 days?” or “Does the compost change the soil humidity percentage compared to normal soil?” (d) If predictions do not match observations, Harish should re-examine his assumptions, adjust his compost model, or change his initial ideas based on the new evidence. (e) Weather forecasts depend on many changing factors (temperature, pressure, humidity). Tiny differences in these initial conditions can grow over time, leading to completely different outcomes, making long-term predictions less certain.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "concept": "Predictions are reasoned expectations",
+   "bloom": "create",
+   "dok": 3,
+   "difficulty": 4,
+   "section_heading": "case"
+  },
+  {
+   "number": "C136",
+   "form": "case_study",
+   "page": 49,
+   "stem": "A group of friends is planning a week-long camping trip in a remote forest for four people. They need to pack all their drinking water in the car. One friend suggests carrying a single 10-litre water jug for the entire trip, claiming it will be plenty. Another friend quickly pauses and calculates in her head: an average person needs about 2 to 3 litres of water a day. She multiplies this by four people, and then by seven days. She immediately points out that 10 litres is drastically insufficient and that they need closer to 60 or 70 litres, saving the group from a dangerous situation. QUESTIONS: (a) What specific scientific skill did the second friend use to evaluate the water requirement? (b) Why was an exact, precise calculation down to the milliliter not necessary to reject the first friend’s suggestion? (c) How does this skill of making rough calculations help students and scientists in their daily reasoning?",
+   "answer": "(a) The second friend used the skill of estimation or making a rough estimate. (b) An exact calculation was unnecessary because an approximate estimate was enough to tell whether the first friend’s result (10 litres) was reasonable or impossible. The gap between 10 litres and the estimated 70 litres was so large that the error was obvious. (c) Estimation helps build intuition, detect errors quickly, develop confidence in thinking, and connect science to everyday questions about resources, showing that approximate reasoning is a highly valuable scientific tool.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "concept": "Estimate using rates and assumed values",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "case"
+  },
+  {
+   "number": "C137",
+   "form": "case_study",
+   "page": 49,
+   "stem": "A large coastal city is designing a new sea wall to protect against rising ocean levels and severe storms. The engineering team consists of several different experts working together. One expert studies the physical force of the crashing waves. Another analyses the chemical makeup of the seawater to ensure the wall’s concrete doesn’t corrode. A third expert studies the local marine life, ensuring the wall doesn’t destroy the breeding grounds of native fish. Finally, a fourth expert uses complex mathematical formulas to model the financial costs and structural longevity over the next fifty years. QUESTIONS: (a) Which branch of science is primarily used by the expert analysing the corrosion of the concrete by seawater? (b) Identify the branch of science involved in studying the effect of the sea wall on native fish breeding grounds. (c) How does this scenario demonstrate the relationship between different branches of science in the real world? (d) Give another real-life where multiple branches of science are needed to understand or solve a problem.",
+   "answer": "(a) The expert analyzing the chemical makeup and corrosion is primarily using chemistry. (b) The expert studying the native fish and marine life is using biology. (c) This scenario demonstrates that the natural world does not have rigid boundaries. Solving real-world problems requires integrating physics, chemistry, biology, and mathematics, as these disciplines enrich each other and are not independent. (d) Understanding how a COVID-19 safety mask works requires physics (electrostatic attraction of particles), chemistry (properties of polymer fibers), biology (size of viruses), and mathematics (modelling airflow). Another example is understanding climate change.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "concept": "Real problems need multiple disciplines",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "case"
+  },
+  {
+   "number": "C138",
+   "form": "case_study",
+   "page": 50,
+   "stem": "An international team of engineers from India, Japan, and Germany is collaborating online to design an electric car engine. They do not share a common spoken language and rely heavily on translation software for meetings. However, when they share their engineering blueprints and technical documents, the translation software is hardly needed. The documents are filled with specific letters like v, I, F, and m, alongside numbers. The diverse team understands the blueprints perfectly, allowing them to work seamlessly together to build a highly efficient engine. QUESTIONS: (a) What do the symbols v, I, F, and m represent in the shared language of science? (b) Why do scientists use these specific symbols and a shared language instead of relying solely on everyday conversational words? (c) Why is the speed of light specifically denoted by the letter ‘c’, and what does it reveal about scientific symbols?",
+   "answer": "(a) In science, ‘v’ represents velocity, ‘I’ represents electric current, ‘F’ represents force, and ‘m’ represents mass. (b) Everyday words can be ambiguous or mean different things in different languages. Symbols provide a precise, specific, and shared language that allows scientists across the world to communicate clearly, describe observations accurately, and build ideas together without confusion. (c) The speed of light is denoted by ‘c’ based on the Latin word ‘celeritas’, meaning speed. This reveals that scientific symbols often come from history and are based on international agreements rather than just being simple English abbreviations.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c"
+   ],
+   "concept": "Symbols and units for quantities",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "case"
+  },
+  {
+   "number": "C139",
+   "form": "case_study",
+   "page": 50,
+   "stem": "During a solar eclipse, a rumor quickly spreads on social media claiming that looking at the sun during the eclipse will permanently alter human DNA, turning people into mutants. The message urges everyone to hide in windowless basements. A ninth-grade student reads this and decides to evaluate the claim critically. She knows an eclipse is simply the moon casting a shadow on the Earth. She asks herself if standing in a shadow has ever chemically altered someone’s DNA before. Realizing there is no physical, chemical, or biological mechanism that supports light blockage mutating DNA, she confidently ignores the viral message. QUESTIONS: (a) How did the student approach the viral social media claim scientifically? (b) According to scientific thinking, on what basis should claims or ideas be accepted or rejected? (c) How does the student’s reasoning mirror the textbook’s explanation of the myth about eating food during a solar eclipse? (d) Why is this openness to questioning and evidence considered the greatest strength of science?",
+   "answer": "(a) The student approached the claim by asking simple, logical scientific questions, breaking down the physical reality of the event (it’s just a shadow), and looking for a scientific mechanism to support the claim. (b) Claims and ideas should not be rejected or accepted based on popular opinion or belief, but only on measurable evidence and careful reasoning. (c) Just like the student concluded that a shadow cannot alter DNA, the textbook explains that a shadow cannot make food harmful, as there is no physical, chemical, or biological mechanism that causes food to go bad simply because it is in a shadow. (d) Science’s greatest strength is that no theory is ever final or beyond question. This openness to being corrected by nature and evidence allows our understanding of the world to constantly improve and protects us from false myths.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "concept": "Scientific thinking applies beyond science",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3,
+   "section_heading": "case"
+  },
+  {
+   "number": "C140",
+   "form": "case_study",
+   "page": 51,
+   "stem": "A track and field coach is teaching his athletes how to pace themselves for a marathon. Instead of just telling them to “run steadily,” he writes an equation on the white board showing the relationship between their target distance, the time they want to achieve, and their required average velocity. One student groans, complaining that this feels like a difficult math class instead of sports training. The coach calmly explains that he isn’t trying to make them do hard arithmetic, but rather using the formula as a short, clear way to show exactly how their running speed will decide their finishing time. QUESTIONS: (a) How is mathematics being utilized by the coach in this training scenario? (b) According to your science textbook, is mathematics in science meant to be just a calculation tool? Explain. (c) How does identifying the mathematical relationships between quantities help a student in science? (d) Give another example from the textbook where mathematical expressions are used to describe patterns.",
+   "answer": "(a) The coach is using mathematics as a compact statement or language to clearly communicate the relationship between speed, distance, and time to his athletes. (b) No, mathematics in science is not just a calculation tool. It is a powerful language for thinking more clearly about the world and stating how certain things are related. (c) By focusing on understanding the situation and identifying relevant quantities first, mathematics becomes a helpful guide to reason carefully, predict outcomes, and answer questions about physical events, rather than just an obstacle of numbers. (d) Mathematical expressions are used to describe the rates of chemical reactions, patterns of population growth, or changes in energy within a system.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "concept": "Equations express scientific relationships",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2,
+   "section_heading": "case"
+  },
+  {
+   "number": "C141",
+   "form": "case_study",
+   "page": 51,
+   "stem": "A group of students is taken on a nature walk in a dense forest reserve to learn about local ecosystems. Before entering the woods, the guide hands the group two symbolic items: a magnifying glass and a compass. During the walk, he asks the students to use the magnifying glass to look closely at the veins of the leaves and the trail of ants, noticing tiny details they would usually walk right past. Later, when the path becomes confusing, he tells them to use the compass to ensure they are heading north toward the river, ensuring their walk has a clear destination. QUESTIONS: (a) In the context of secondary science exploration, what does looking closely at the leaves with the magnifying glass symbolize? (b) What does the directional tool or compass represent in scientific exploration? (c) According to the textbook, what happens when careful observation and purposeful direction are combined in science? (d) Why is science described as a human activity rather than just a textbook collection of facts?",
+   "answer": "(a) The magnifying glass symbolizes careful observation, noticing patterns, asking questions, and paying attention to vital details in nature that might otherwise be missed. (b) The compass reminds us that exploration needs direction. It represents choosing appropriate models, asking the right testable questions, and knowing the limits of our ideas. (c) Together, they tell us that exploration in science is not wandering aimlessly. It is a deliberate attempt to make sense of our world with care, evidence, and purpose. (d) Science is a human activity because it is shaped by curiosity, creativity, collaboration, and careful questioning. It grows dynamically as people ask questions, test ideas, share results across cultures, and learn from mistakes over time.",
+   "sub_parts": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "concept": "Careful observation in exploration",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "section_heading": "case"
+  }
+ ]
+}

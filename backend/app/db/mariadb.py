@@ -788,16 +788,28 @@ def _map_ids(
 
         if document_type_val not in ("Curriculum", "Syllabus"):
             if chapter_name_val is not None and chapter_number_val is not None:
+                # Guarded by standard and subject, like the question-bank
+                # fallback below. Without it this matched on name + sort_order
+                # + tenant alone, and 17 groups of chapters share those three:
+                # every subject in a class has a chapter at sort_order 1, so
+                # LIMIT 1 picked one arbitrarily and the questions landed in a
+                # different subject with nothing to announce it. The guard is
+                # NULL-permissive so an unresolved standard or subject degrades
+                # to the old behaviour rather than failing to match at all.
                 row = db.execute(
                     text(
                         "SELECT id FROM chapter_master "
                         "WHERE chapter_name = :chapter_name AND sort_order = :sort_order "
-                        "AND sub_institute_id = :tenant LIMIT 1"
+                        "AND sub_institute_id = :tenant "
+                        "AND (:std_id IS NULL OR standard_id = :std_id) "
+                        "AND (:sub_id IS NULL OR subject_id = :sub_id) LIMIT 1"
                     ),
                     {
                         "chapter_name": chapter_name_val,
                         "sort_order": chapter_number_val,
                         "tenant": tenant,
+                        "std_id": standard_id,
+                        "sub_id": subject_id,
                     },
                 ).fetchone()
                 if row:

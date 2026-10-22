@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8606,
+ "mappings": [
+  {
+   "sha": "b8efd6b283fddd7b",
+   "codes": ["C-2.5-LO-5", "C-2.5-LO-7"],
+   "note": "First half names the stored form (elastic PE), which is LO-5; second half asks how more stretch sends the projectile further, which is the PE-to-KE conversion, LO-7. The paired L62 item stops at the naming and so carries LO-5 alone."
+  },
+  {
+   "sha": "1471bb41594d4c62",
+   "codes": ["C-2.6-LO-3", "C2.6"],
+   "note": "Part (a) labels effort and load on a lever - identification of the machine and its parts (LO-3); part (b) is the moment/mechanical-advantage balance, which only C2.6 names. Weight difference is explained by arm lengths, not by any energy outcome."
+  },
+  {
+   "sha": "80bc59006dda4451",
+   "codes": ["C-2.5-LO-4"],
+   "note": "The answer is that energy is what lets the ball exert a force and move the wickets - energy as the capacity to do work, which is LO-4's 'explain the concept of energy'. Not LO-5: no form is named and no conversion is traced."
+  },
+  {
+   "sha": "f032c9832da0757d",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Defines kinetic energy as the motion component of mechanical energy - the define-KE clause of LO-5. Definitional only, so neither LO-6 nor LO-7 applies."
+  },
+  {
+   "sha": "2eeb7949ee8052f0",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Pure recall of 1/2 mv^2, which LO-5 covers as deriving/stating the expression. LO-6 is reserved for items that substitute values, such as the doubling-velocity item next to it."
+  },
+  {
+   "sha": "8db41046bbd84e03",
+   "codes": ["C-2.5-LO-6"],
+   "note": "Applies the squared-velocity dependence to get a factor of four - using the expression, LO-6. One of three near-identical doubling items in the chapter that honestly share this outcome; format is the only difference."
+  },
+  {
+   "sha": "d68aa07ba698d538",
+   "codes": ["C-2.5-LO-5", "C-2.5-LO-3"],
+   "note": "Two properties asked: KE is a scalar (a fact about the quantity, LO-5) and it rises when positive work is done, which is the work-energy theorem (LO-3). The second clause is what separates this from the other scalar-KE item, which stops at the formula."
+  },
+  {
+   "sha": "36bf59fac933675f",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Deformation stores elastic potential energy - naming a form of energy, LO-5. No release or conversion is asked about, so LO-7 stays out, unlike the projectile version of the same rubber band."
+  },
+  {
+   "sha": "4445532c4513c580",
+   "codes": ["C-2.5-LO-7"],
+   "note": "Greater height means greater PE, which becomes greater KE on falling and so a deeper crater - a PE-to-KE argument under free fall, LO-7. Not LO-6: the answer is comparative, with no energy value computed."
+  },
+  {
+   "sha": "a63e96dc88d8dbc0",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Recall of mgh, the derive-PE clause of LO-5. Identical demand to MCQ O23; the frame gives no way to separate a recall in MCQ form from one in written form."
+  },
+  {
+   "sha": "b74029a5d727f631",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Work done against attraction is stored as potential energy in a magnetic configuration - potential energy by configuration, which is LO-5's PE clause generalised beyond height. Not LO-2: the work is invoked qualitatively, never computed."
+  },
+  {
+   "sha": "0765d66bb577b3f1",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Defines mechanical energy as the sum of KE and PE - naming a form of energy in terms of its two components, LO-5. LO-4 would fit a question about energy in general; this one is specifically about the mechanical form."
+  },
+  {
+   "sha": "ea7c0a8585ca0277",
+   "codes": ["C-2.6-LO-1", "C-2.5-LO-7"],
+   "note": "The verb is STATE THE LAW, which is C-2.6-LO-1's own wording, applied to LO-7's free-fall case. Sibling item L68 asks instead what happens mechanically, so it takes LO-7 alone - the statement/mechanism split is the discriminator."
+  },
+  {
+   "sha": "f5364c9af1b30e16",
+   "codes": ["C-2.5-LO-7"],
+   "note": "Asks the CONSEQUENCE of falling PE during free fall - an exactly equal rise in KE. That is the mechanism clause of LO-7, not the law statement, which is why C-2.6-LO-1 is withheld here but used on L67."
+  },
+  {
+   "sha": "e13dec843bc44431",
+   "codes": ["C-2.5-LO-1"],
+   "note": "Definition of work plus the full positive/negative/zero sign taxonomy with examples. All of it comes from the definition of work and the force-displacement direction, so LO-1 alone; W = F x s appears as a statement, not a calculation."
+  },
+  {
+   "sha": "b06bfb0ccb0667b1",
+   "codes": ["C-2.5-LO-7", "C-2.6-LO-1", "C8.1"],
+   "note": "Part (b) is the PE/KE swap across the swing (LO-7), part (c) needs energy conserved but lost to friction (C-2.6-LO-1), and part (a) requires producing the labelled extreme/mean-position representation (C8.1). Three parts, three codes."
+  },
+  {
+   "sha": "58946413f24653bb",
+   "codes": ["C-2.5-LO-5", "C-2.6-LO-1"],
+   "note": "Parts (a) and (b) are chains and distinctions between forms of energy (LO-5); part (c) asks why machines stop when the supply is cut, which is the conservation law with dissipation (C-2.6-LO-1). LO-7 is not cited: the dam's fall is one link in a longer chain, not the subject."
+  },
+  {
+   "sha": "c049743b5f832405",
+   "codes": ["C-2.5-LO-1"],
+   "note": "The scientific conception of work, its two conditions, and contrasting examples - all definitional, LO-1. This is the long-answer twin of V49/S79; the added examples do not change which outcome is tested."
+  },
+  {
+   "sha": "88591d5c8d01ab9a",
+   "codes": ["C-2.5-LO-5", "C-2.5-LO-3"],
+   "note": "Defines KE and PE and derives 1/2 mv^2 (both LO-5 clauses), then asks for the work/change-in-KE relation, which is the work-energy theorem (LO-3). Same pairing as S85, with the PE definition added."
+  },
+  {
+   "sha": "2868b202acdf496f",
+   "codes": ["C-2.6-LO-1", "C-2.5-LO-7"],
+   "note": "The stem names the law of conservation of ENERGY (not just mechanical) and asks why the real pendulum stops - squarely C-2.6-LO-1, with LO-7 for the PE/KE interchange used to illustrate it. Ordering reflects that the law, not the swing, is the subject."
+  },
+  {
+   "sha": "c7384bc0071fe007",
+   "codes": ["C-2.6-LO-1", "C-2.6-LO-2"],
+   "note": "Defines power and the watt (C-2.6-LO-1) and computes 1200 J over 120 s (C-2.6-LO-2). The 'average power' part is a gloss on the same definition, so it needs no third code."
+  },
+  {
+   "sha": "3e00b7b16af85f76",
+   "codes": ["C-2.5-LO-5"],
+   "note": "Describes the forms of energy and gives interconversion examples - the two clauses of LO-5 together. Deliberately not C-2.6-LO-1: the item asks whether forms convert, not whether the total is conserved."
+  },
+  {
+   "sha": "785d1082a5ea1d8b",
+   "codes": ["C-2.6-LO-1", "C-2.5-LO-7"],
+   "note": "The KE that vanishes at impact must go somewhere, so the answer is the conservation law (C-2.6-LO-1); LO-7 supplies the preceding free-fall build-up of that KE. Contrast L68, where the object never lands and the law is never invoked."
+  },
+  {
+   "sha": "f44db765f003a946",
+   "codes": ["C-2.6-LO-3", "C2.6", "C8.1"],
+   "note": "POOR FIT. Only the pulley identification (LO-3) and the diagram construction (C8.1) are genuinely covered; the graded physics is velocity ratio and efficiency, neither of which exists anywhere in curriculum 82, and MA is reachable only through the competency C2.6."
+  },
+  {
+   "sha": "a8727aa465308f43",
+   "codes": ["C-2.5-LO-2"],
+   "note": "One substitution into W = F x s giving 20 J - the purest instance of LO-2 in the chapter, and the reason LO-2 is held back from the many definition-only work items."
+  }
+ ]
+}

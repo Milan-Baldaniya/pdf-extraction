@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8604,
+ "mappings": [
+  {
+   "sha": "df07985efdf22a4d",
+   "codes": ["C1.2-LO-7"],
+   "note": "Pure mass-by-mass arithmetic: 4% m/m of 300 g. LO-7 is the only outcome carrying concentration calculation; not LO-6 (no classification asked) and not LO-8 (nothing about saturation or solubility limits)."
+  },
+  {
+   "sha": "6d3cdb0702624614",
+   "codes": ["C1.2-LO-7"],
+   "note": "Volume-by-volume calculation. LO-7 explicitly covers 'choosing the method that suits the mixture' -- liquid solute in a liquid solution, so % v/v. Same outcome as the m/m items because LO-7 is the single home for both units."
+  },
+  {
+   "sha": "6ea82dfcf9b2e405",
+   "codes": ["C1.2-LO-7"],
+   "note": "Preparing a 5% v/v solution from a pure liquid: the judgement is identifying solute and solvent and running the v/v definition backwards. LO-7 names solute/solvent identification as well as the calculation; no separation technique is involved."
+  },
+  {
+   "sha": "98252a9fe3cef07b",
+   "codes": ["C1.2-LO-8"],
+   "note": "The whole answer is read off the gradient of two solubility curves between 80 and 60 degrees -- LO-8's 'reads a solubility curve to describe how solubility changes with temperature'. Not LO-9: nothing is asked about crystal form, purity or cooling rate, only which curve falls faster."
+  },
+  {
+   "sha": "3c7ed36c2443d70f",
+   "codes": ["C1.2-LO-9"],
+   "note": "Rate of evaporation versus crystal size is exactly LO-9's 'explains why slow cooling yields larger crystals'. Not LO-8: the solubility of salt is taken as given and no curve or saturation point is read."
+  },
+  {
+   "sha": "9b362a0cbf3b931d",
+   "codes": ["C1.2-LO-10", "C1.2-LO-11", "C1.2-LO-9"],
+   "note": "Four true/false statements sit on three different outcomes: (ii) the 25-degree boiling-point rule = LO-10, (iii) solvent level below the spot = LO-11, (iv) evaporation is not crystallisation = LO-9. Statement (i) rides along under LO-10. Three codes is the cap and each earns its place."
+  },
+  {
+   "sha": "39a3e061dab1ed44",
+   "codes": ["C8.2-LO-11"],
+   "note": "Why immiscible liquids layer is the justification half of LO-11 -- 'justifies the choice from the properties of the mixture' (immiscibility plus differing density). Not LO-14: no particle is being sized, this is a bulk-liquid property."
+  },
+  {
+   "sha": "1d06f17adace7e2d",
+   "codes": ["C8.2-LO-12"],
+   "note": "Sublimation defined against evaporation -- LO-12's 'explains sublimation and deposition'. Nothing is separated here, so the second half of LO-12 is untouched, but the outcome is still the only home for the definition."
+  },
+  {
+   "sha": "f084f31a49fc76dc",
+   "codes": ["C8.2-LO-14"],
+   "note": "The ask is to classify clouds among solution, suspension and colloid and say why they stay aloft -- LO-14's classification plus 'explains why the particles of a colloid do not settle'. Not LO-15: no light-scattering test is performed; the aerosol phase naming in the answer is volunteered, not asked."
+  },
+  {
+   "sha": "5b0b56058cafe393",
+   "codes": ["C8.2-LO-15"],
+   "note": "Haze over a smoky city is scattering of light by colloidal particles -- the Tyndall effect, LO-15. Not LO-14: particle size is not the discriminator, the visible light path is the whole point."
+  },
+  {
+   "sha": "b05c6c5f1a144061",
+   "codes": ["C1.2-LO-6"],
+   "note": "Four-option classification of air, milk, brass, fog, blood and muddy water as homogeneous or heterogeneous -- LO-6 verbatim, including its named example of alloys. No particle-size threshold or Tyndall test is invoked, so not LO-14."
+  },
+  {
+   "sha": "eacfd39933f10c35",
+   "codes": ["C8.2-LO-15"],
+   "note": "Picks which mixtures scatter a light beam, i.e. uses the Tyndall effect to identify the colloids among four mixtures -- LO-15's 'uses it to identify a colloid'. LO-14 would be the code if the discriminator offered were particle size rather than the light test."
+  },
+  {
+   "sha": "304c038e0cbd127a",
+   "codes": ["C8.2-LO-14"],
+   "note": "A three-column table built on the 1 nm / 1000 nm particle-size boundaries, with settling and filterability as consequences -- LO-14 exactly. Scattering is one cell of many, so LO-15 is not the governing outcome."
+  },
+  {
+   "sha": "1001a9f2c14e53c9",
+   "codes": ["C1.2-LO-7"],
+   "note": "Two m/m computations, one forward (components of a 500 g dry mix) and one backward (copper and zinc in 120 g brass). LO-7 for the calculation; brass appears only as a mass, so the alloy-classification side of LO-6 is not tested."
+  },
+  {
+   "sha": "78a248a753ecc9a3",
+   "codes": ["C8.2-LO-11"],
+   "note": "Density from the label decides which layer floats and the separating funnel is drawn -- LO-11's selection plus justification from the properties of the mixture. The density arithmetic is a means, not a concentration calculation, so not LO-7."
+  },
+  {
+   "sha": "805eac710fbbda31",
+   "codes": ["C8.2-LO-15", "C8.2-LO-14"],
+   "note": "The assertion is the Tyndall behaviour of a solution (LO-15); the reason can only be falsified by knowing a solution's particles are under 1 nm rather than over 100 nm, which is LO-14's size scale. Both are needed here, unlike the other Tyndall items where no size figure appears."
+  },
+  {
+   "sha": "85873ec9af7f436e",
+   "codes": ["C8.2", "C1.2"],
+   "note": "POOR FIT, deliberate competency-level citation. Seven unrelated mixtures each need a different technique -- filtration, centrifugation, sublimation, dissolve-and-filter, evaporation, separating funnel, chromatography. Not LO-16 (no single mixture of more than two components, no order to justify) and no LO covers more than one row. Citing the two competencies is honest; picking three of the seven LOs would be arbitrary."
+  },
+  {
+   "sha": "41cad46e3c051295",
+   "codes": ["C1.2-LO-10"],
+   "note": "A 30-degree boiling-point gap decides simple distillation -- LO-10's 'states when each is the appropriate method', with fractional distillation as the rejected alternative."
+  },
+  {
+   "sha": "4f2b9a8cda6c577b",
+   "codes": ["C1.2-LO-9", "C1.2-LO-10"],
+   "note": "Three-way comparison that turns on when to prefer each: crystallisation versus evaporation is LO-9, distillation versus the other two is LO-10. Evaporation has no outcome of its own in this frame, so it is carried by LO-9 as crystallisation's contrast case."
+  },
+  {
+   "sha": "64fea64bd9242b5d",
+   "codes": ["C8.2-LO-15", "C8.2-LO-14"],
+   "note": "Part (ii) asks for dispersed phase and dispersion medium by name, which is LO-15's wording; part (i) asks what would happen if the cells settled, which is LO-14's non-settling property. Split across both because the question genuinely has two halves."
+  },
+  {
+   "sha": "681d8f2d7c374df7",
+   "codes": ["C8.2-LO-16"],
+   "note": "Sand, salt and naphthalene is a three-component mixture and the answer is an ordered sequence -- LO-16 verbatim, 'more than two components and justifies the order chosen'. Sublimation (LO-12) is only step one; the assessed skill is the ordering."
+  },
+  {
+   "sha": "49b32338edd93ffa",
+   "codes": ["C1.2-LO-10"],
+   "note": "Why distillation works on water and acetone: miscible, 44-degree gap, lower boiler leaves first. LO-10's boiling-point explanation, with no apparatus or sequence asked for."
+  },
+  {
+   "sha": "cb08e047db7f6faa",
+   "codes": ["C1.2-LO-8"],
+   "note": "Every sub-part is answered by reading the solubility table -- saturated-solution mass at a temperature, and what falls out on cooling. LO-8 names both the saturated solution and the temperature dependence. The crystals in part (ii) are inferred from the numbers, not from LO-9's crystal-growth principle."
+  },
+  {
+   "sha": "028ff6a8a86b1db9",
+   "codes": ["C1.2-LO-7"],
+   "note": "Three m/m computations compared to decide which is most concentrated. LO-7. The comparison stops short of saturation, so LO-8 is not in play."
+  },
+  {
+   "sha": "68f78bf24c539d50",
+   "codes": ["C1.2-LO-10"],
+   "note": "Identifies and labels the distillation apparatus, then uses a boiling-point table to pick which of six mixtures the method suits -- both halves of LO-10. Apparatus labelling alone would not move it to C8.2, since LO-10 owns distillation in this frame."
+  }
+ ]
+}

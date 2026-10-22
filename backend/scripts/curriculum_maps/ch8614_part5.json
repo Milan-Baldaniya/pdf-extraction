@@ -1,0 +1,180 @@
+{
+ "chapter_id": 8614,
+ "mappings": [
+  {
+   "sha": "c1b1d1ce75df7a3d",
+   "codes": [
+    "LO-48"
+   ],
+   "note": "A one-line definition of conservation of mass in terms of reactants and products. Statement only, so LO-48. The chapter's explain-and-illustrate version (286c6b21) and its bench-verification versions (b7965e32, 9c466b2f) sit on LO-40 and LO-39 respectively."
+  },
+  {
+   "sha": "ff3f705bfee2cb1e",
+   "codes": [
+    "LO-48"
+   ],
+   "note": "State the law of constant proportions and attribute it to Proust. Familiarity-level statement of LO-48's 'elements combine in fixed ratios form compounds'."
+  },
+  {
+   "sha": "685ba20bd696f775",
+   "codes": [
+    "LO-48"
+   ],
+   "note": "Recall of the 1:8 hydrogen-to-oxygen ratio in water. The canonical instance of the fixed-ratio concept, LO-48 - no reasoning, no arithmetic, no source comparison (which is what pushes 6880d5a5 to LO-40)."
+  },
+  {
+   "sha": "16004070fe4f4e39",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Asks for the law's significance, i.e. what follows from it for chemistry as a whole. That is explanation, LO-40, and it is what separates this item from the neighbouring ff3f705b, which only asks the student to state the same law."
+  },
+  {
+   "sha": "dbf56c8898f38687",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Produce a second instance of the law (CO2 at 3:8) rather than repeating the textbook's water example. Instantiating a law is explaining it, LO-40; the bare statement of the same law is LO-48."
+  },
+  {
+   "sha": "7d59549a12c842f5",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "What an atom is according to Dalton. Dalton is named only in LO-40, so it takes every postulate item; LO-48's 'matter are made of particles' is the un-attributed version of the same idea and is used for items that do not invoke the theory."
+  },
+  {
+   "sha": "ac6b4a96603e4a09",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "The Dalton postulate that atoms of one element are identical and atoms of different elements differ. LO-40 for the attribution. Not LO-39: its differentiation list covers atoms against molecules and elements against compounds, not one element's atoms against another's."
+  },
+  {
+   "sha": "dad5f12947157686",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "How Dalton's theory explains constant proportions - the simple whole-number ratio postulate. Both halves of the item are named in LO-40's own text, which is why no second code is added."
+  },
+  {
+   "sha": "53361729c74d0348",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "What causes a covalent bond to form: sharing of valence pairs for stability. Formation, LO-40. Its definition-only sibling c91b4c01 (ionic bond) is mapped to LO-48 because it asks what the bond IS, not what brings it about."
+  },
+  {
+   "sha": "2ba433edaf43ac80",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Describe O2's bonding: two shared pairs, one double bond. Mechanism, LO-40 - the same outcome as the O2 drawing and sequencing items, honestly shared, since the frame has one covalent-formation outcome."
+  },
+  {
+   "sha": "414e4f9140b08139",
+   "codes": [
+    "LO-42"
+   ],
+   "note": "Correct a false claim about how nitrogen trichloride is named. A nomenclature convention item, LO-42; the metal/non-metal error in the stem is incidental to the naming rule being corrected."
+  },
+  {
+   "sha": "b8ba8fb3c0cf255c",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Why a chlorine atom must share an electron with another chlorine atom. The driver for covalent formation, LO-40. The octet reasoning here has no outcome of its own in this frame - it appears only inside competency C1.1's text."
+  },
+  {
+   "sha": "a11b036c3e88d070",
+   "codes": [
+    "LO-39"
+   ],
+   "note": "How a sodium cation differs from a neutral sodium atom in electron count. Telling a cation from its parent atom is LO-39's 'cations and anions' differentiation clause; LO-41 would apply if the item asked the student to work the charge out rather than state the difference."
+  },
+  {
+   "sha": "4173b0d473a228c1",
+   "codes": [
+    "LO-39"
+   ],
+   "note": "The term for the oppositely charged species formed by gain or loss of electrons, with cation and anion named against each other. LO-39's cation/anion clause; no charge is calculated, so LO-41 stays out."
+  },
+  {
+   "sha": "c91b4c01f7ceef44",
+   "codes": [
+    "LO-48"
+   ],
+   "note": "A textbook definition of the ionic bond. Naming a type of bonding at familiarity level, LO-48, and deliberately not LO-40: the neighbouring item 53361729 asks what causes a covalent bond to form, which is the formation outcome, while this one asks only what the bond is."
+  },
+  {
+   "sha": "342a404cc46a41a4",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "The structure ionic bonding produces - six chloride neighbours around every sodium in the lattice. Mapped to LO-40 as the product of ionic formation. Where a lattice item instead contrasts an ionic solid with discrete molecules (1f71e06b) the code is LO-39."
+  },
+  {
+   "sha": "bca332b40c45005a",
+   "codes": [
+    "LO-42"
+   ],
+   "note": "The general rule for a binary formula: symbols, then crossover of valencies. LO-42's method clause, expressed generically rather than applied to a compound."
+  },
+  {
+   "sha": "5b347357a3ad8fc3",
+   "codes": [
+    "LO-42"
+   ],
+   "note": "Aluminium sulfate by criss-cross. Shares LO-42 with every other formula item in the chapter, which is the honest position - LO-42 is the frame's only formula-writing outcome and nothing below it splits polyatomic from monatomic anions."
+  },
+  {
+   "sha": "680cfffd0ee5efe9",
+   "codes": [
+    "LO-42"
+   ],
+   "note": "Why brackets are needed in Mg(OH)2. A convention explanation, LO-42; the aluminium hydroxide version (e397cce8) is the same demand on a different compound."
+  },
+  {
+   "sha": "ef2e9461a6b84082",
+   "codes": [
+    "LO-42"
+   ],
+   "note": "CCl4 from valencies 4 and 1. LO-42 again; the compound is covalent but the crossover convention and the outcome are unchanged, since LO-42 says 'simple compounds' without restriction."
+  },
+  {
+   "sha": "f6511bb2addf8787",
+   "codes": [
+    "LO-39"
+   ],
+   "note": "One stated difference in water solubility between ionic and covalent compounds. Textbook LO-39: two named compound classes separated by a property."
+  },
+  {
+   "sha": "53644a5fa6290405",
+   "codes": [
+    "LO-39"
+   ],
+   "note": "Why solid sodium chloride cannot conduct. Property-based characterisation, LO-39 - the same outcome as its MCQ twin 9d6814a5 and, as there, a slightly loose fit because only one species is in play."
+  },
+  {
+   "sha": "3a60036e9bc13119",
+   "codes": [
+    "LO-39"
+   ],
+   "note": "Under what condition an ionic compound does conduct: molten or dissolved. The complementary half of the conductivity property, still LO-39; together with 53644a5f it forms the contrast the outcome actually describes."
+  },
+  {
+   "sha": "59105acea5230e5f",
+   "codes": [
+    "LO-39"
+   ],
+   "note": "The general link between bond type and melting point. This is the differentiation stated as a rule rather than applied, but the outcome is the same LO-39 - the frame has no separate 'generalise a property trend' outcome."
+  },
+  {
+   "sha": "3d619c335464e206",
+   "codes": [
+    "LO-41"
+   ],
+   "note": "Define molecular mass. LO-41 is the only outcome that names molecular mass as such, and defining it is the front half of calculating it. LO-39 would be right only if the item set molecular mass against formula unit mass, which is what 05734bfa and 071cc2b7 do."
+  }
+ ]
+}

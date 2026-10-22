@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22908,
+ "mappings": [
+  {"sha": "6e542aef277b6f56", "codes": ["C-8.1-LO-3"], "note": "Orders seven algebraic observations and equates the 4th to 4. Positional median, LO-3, not a mean or mode calculation."},
+  {"sha": "f516f85d784496a1", "codes": ["C-8.2-LO-1"], "note": "Reads the median off the abscissa of the two ogives' crossing point. Graphical route, C-8.2-LO-1, not the tabular LO-3."},
+  {"sha": "4db87adc49712de6", "codes": ["C-8.1-LO-2"], "note": "Modal-class formula on a grouped table. LO-2."},
+  {"sha": "78c7570ce408edee", "codes": ["C-8.1"], "note": "Substitutes median and mean into Mode = 3 Median - 2 Mean. No modal class exists, so LO-2 would misdescribe it; the empirical relation has no LO of its own."},
+  {"sha": "bae7b3b69da5d1b9", "codes": ["C-8.1-LO-2"], "note": "The expenditure of the maximum number of workers is the mode, found by the modal-class formula. LO-2 despite the word 'average' in the stem."},
+  {"sha": "e7d5c2e81d130dc9", "codes": ["C-8.1-LO-1"], "note": "Deviation-sum identity of the direct-method mean formula. LO-1."},
+  {"sha": "370fdc129c39d7a2", "codes": ["C-8.1-LO-2"], "note": "Differences a less-than table purely to find the largest class frequency. Target is the modal class, so LO-2 rather than LO-3."},
+  {"sha": "eebe0b5782114826", "codes": ["C-8.1-LO-3", "C-8.1-LO-2"], "note": "Needs the median class from cumulative frequency and the modal class from maximum frequency, then sums their lower limits. Both outcomes are required."},
+  {"sha": "fa677f6274a8daeb", "codes": ["C-8.1-LO-3"], "note": "Applies the continuity correction to inclusive classes, then locates N/2. The correction serves the median class, so LO-3."},
+  {"sha": "576250a54b3e4e5d", "codes": ["C-8.1-LO-2"], "note": "Modal class from a below-type table; only the maximum frequency matters. LO-2."},
+  {"sha": "85d5a844654e5e40", "codes": ["C-8.2-LO-1"], "note": "Names the central tendency given by the ogive intersection. The graphical-median outcome, C-8.2-LO-1."},
+  {"sha": "a0a218bcecb2d00c", "codes": ["C-8.1-LO-3", "C-8.1-LO-2"], "note": "Median class via N/2 = 33.5 and modal class via maximum frequency 20 must be found separately even though both are 125-145. Two outcomes."},
+  {"sha": "9fce9601646bb8c5", "codes": ["C-8.1-LO-3"], "note": "Sums frequencies up to 14.6 s, i.e. reads a less-than cumulative total, without reaching a median. LO-3 is the only outcome naming cumulative frequency."},
+  {"sha": "5dce5ea0bd81655d", "codes": ["C-8.1"], "note": "Derives Mode - Mean = 9 from Median - Mean = 3 through the empirical relation. Spans all three measures, no single-measure computation."},
+  {"sha": "c1607156dac870a0", "codes": ["C-8.1-LO-3"], "note": "Recovers a class frequency by differencing a more-than cumulative table. Cumulative-frequency handling; no curve is plotted, so not C-8.2-LO-1."},
+  {"sha": "6fcee1136025865f", "codes": ["C-8.1-LO-3"], "note": "Cumulative frequencies then N/2 = 26 names the median class 1700-1850. LO-3."},
+  {"sha": "e8de01d008a694a5", "codes": ["C-8.1"], "note": "Rearranges the empirical relation to get the median from mode and mean. No cumulative frequency is used, so LO-3 would misdescribe the method."},
+  {"sha": "ddc05b42e57d599d", "codes": ["C-8.1-LO-3"], "note": "Median class from cumulative frequency with N/2 = 50. LO-3."},
+  {"sha": "2fb0eeb9a2c3e9c7", "codes": ["C-8.1-LO-3", "C-8.1-LO-1"], "note": "Part (i) differences a more-than cumulative table (LO-3); part (ii) computes a class mark, the mean methods' representative value (LO-1). Two separate skills in one item."},
+  {"sha": "517ea9d6c0296edb", "codes": ["C-8.1"], "note": "Solves the empirical relation for the mean from mode and median. No grouped-mean method is used, so competency level rather than LO-1."},
+  {"sha": "8b3c59d2c828a812", "codes": ["C-8.1-LO-1"], "note": "Mean of a short raw list. Direct-method mean, LO-1; no frequency table, ordering or modal reasoning."},
+  {"sha": "f79af24747169db3", "codes": ["C-8.1-LO-1"], "note": "Full direct-method grouped mean: class marks, f*x column, Sum f x / Sum f. The core case of LO-1."},
+  {"sha": "35a91360a0a718a4", "codes": ["C-8.1-LO-2"], "note": "Modal-class formula on a grouped table giving mode 65. LO-2."},
+  {"sha": "bc95370df6945988", "codes": ["C-8.1-LO-2"], "note": "Inverts the modal-class formula to recover a missing frequency from a given mode. Still mode machinery, so LO-2 not LO-1."},
+  {"sha": "f6a2e9bc464aac38", "codes": ["C-8.1-LO-3"], "note": "Full median formula l + ((N/2 - F)/f) h after building cumulative frequencies. The textbook case of LO-3."}
+ ]
+}

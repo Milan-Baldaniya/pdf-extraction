@@ -1,0 +1,31 @@
+{
+ "chapter_id": 8595,
+ "mappings": [
+  {"sha": "cc1a5e129e8796cd", "codes": ["C-3.2-LO-2"],
+   "note": "three substitutions into the finished rule 5x-3; the rule is handed over, so this is LO-2's 'uses it' clause and not the rule-building of LO-3"},
+  {"sha": "3ce37f793d94dc14", "codes": ["C-8.1-LO-4"],
+   "note": "a table of values is given and the graph is drawn from it - LO-4 exactly; note that the second half, reading the zero off the graph, has no outcome anywhere in this frame"},
+  {"sha": "fe43e08d4d219b0a", "codes": ["C-2.1-LO-1"],
+   "note": "states the degree of each of four expressions (LO-1); the monomial/binomial/trinomial half counts terms, which no outcome in this frame covers"},
+  {"sha": "9b15de87de2f9f1a", "codes": ["C-3.2"],
+   "note": "an age word problem solved by forming and solving a linear equation in one variable; none of C-3.2's three outcomes covers equation-solving - LO-1 and LO-2 are patterns, LO-3 is growth and decay - so the competency is the ceiling"},
+  {"sha": "f13f0570b2cc9d24", "codes": ["C-3.2-LO-3", "C-3.2-LO-2"],
+   "note": "builds 500+150n for a monthly saving, which is linear growth (LO-3), then uses it to find the sixth-month amount (LO-2); the two halves are separately marked"},
+  {"sha": "87375f1ec9f46d9d", "codes": ["C-3.2-LO-2", "C-3.2-LO-3"],
+   "note": "substitutes t=4 into a finished h(t) (LO-2), then classifies the falling water level as decay and justifies it (LO-3); the rule is supplied, unlike item 30 where it must be built"},
+  {"sha": "e300483d5177479e", "codes": ["C-2.1-LO-1", "C-2.1"],
+   "note": "part (i) is construction to a stated degree (LO-1); parts (i) and (iii) also hinge on coefficients, including a zero coefficient for a missing term, which has no outcome, so the competency is added"},
+  {"sha": "870af4807ee5c60d", "codes": ["C-3.2"],
+   "note": "a second word problem solved by a linear equation, like item 29; no pattern, table, growth or decay is involved, so no learning outcome fits and only C-3.2 does"},
+  {"sha": "0526844f8f06201e", "codes": ["C-8.1-LO-4", "C-8.1-LO-5"],
+   "note": "three points are tabulated and plotted to draw the line (LO-4), then the slope and intercept are identified - here genuinely from the drawn graph, which is the one place LO-5 fits as written"},
+  {"sha": "9034d30b6c39e7aa", "codes": ["C-3.2-LO-2", "C-8.1-LO-5"],
+   "note": "two data points are turned into the rule ax+b (LO-2's 'writes the rule' clause), then the axis intercepts are found, which is the y-intercept half of LO-5"},
+  {"sha": "dad70b741abb7515", "codes": ["C-3.2-LO-2", "C-3.2-LO-3", "C-8.1-LO-5"],
+   "note": "three separately marked parts: the amount on day 15 (LO-2), the growth-or-decay judgement (LO-3), and the slope that justifies it (LO-5)"},
+  {"sha": "2a16b0c400395595", "codes": ["C-3.2-LO-2"],
+   "note": "a and b are solved for from two known pairs and the finished rule is then used to convert 68F - the build-then-use pair of LO-2; there is no growth or decay over time, so not LO-3"},
+  {"sha": "8f3a65c7ea2ff097", "codes": ["C-3.2-LO-3", "C-3.2-LO-2", "C-2.1"],
+   "note": "a draining tank is the decay model and the zero is interpreted physically (LO-3); V(8) is a substitution (LO-2); part (i) asks for the coefficient and constant term, which again only the competency covers"}
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22906,
+ "mappings": [
+  {"sha": "d83938e0abddc14d", "codes": ["C-8.1-LO-4", "C-8.2-LO-3"], "note": "The whole point is that losing a black card leaves n(S) = 51 with the queen of hearts still present, i.e. constructing the right sample space (C-8.1-LO-4). LO-3 then covers the routine 1/51."},
+  {"sha": "f552674aa102a130", "codes": ["C-8.2-LO-3", "C-8.1-LO-4"], "note": "Forms P(red) and P(blue) as simple-event ratios in an unknown x (LO-3) and solves for the favourable count (C-8.1-LO-4). No complement or compound structure."},
+  {"sha": "1cb653c8ff445649", "codes": ["C-8.2-LO-4"], "note": "Pair of dice, sum 8, five ordered pairs out of 36. Compound dice event, LO-4."},
+  {"sha": "a47c72360797ec7a", "codes": ["C-8.2-LO-3"], "note": "One ticket from 35 with 10 prizes. Simple event, LO-3."},
+  {"sha": "62220e186f117820", "codes": ["C-8.2-LO-4"], "note": "Two coins, 'at least one head' over the four-outcome space. Compound coin event, LO-4."},
+  {"sha": "8f37f7ca5238fb89", "codes": ["C-8.2-LO-4"], "note": "Doublets on a pair of dice, 6 of 36. Compound dice event, LO-4."},
+  {"sha": "336b5ffd1fd19e77", "codes": ["C-8.2-LO-3"], "note": "One die, prime face. Simple event, LO-3."},
+  {"sha": "dc37a9bea3c8132f", "codes": ["C-8.2-LO-3"], "note": "x^2 < 4 over seven listed integers. Single draw, LO-3."},
+  {"sha": "efd54665d7755ca5", "codes": ["C-8.2-LO-3"], "note": "Perfect squares among 1 to 80. Simple event, LO-3."},
+  {"sha": "09a0cb37f8f43efe", "codes": ["C-8.2-LO-4"], "note": "'Not red' states the event as the complement of the red balls. Complement outcome, LO-4."},
+  {"sha": "d5d9d08a7bc304de", "codes": ["C-8.2-LO-4"], "note": "'Not divisible by 3' is computed as 30 - 10, an explicit complement of the multiples of 3. LO-4, not LO-3."},
+  {"sha": "0653774cc22885c5", "codes": ["C-8.2-LO-3"], "note": "Multiples of 5 among cards 11 to 30, with n(S) = 20 rather than 30. Simple event, LO-3."},
+  {"sha": "5dee2c5a8b62a8de", "codes": ["C-8.2-LO-4"], "note": "Two sub-parts both over the 36-pair space: each die even, and sum 5. Compound dice events throughout, LO-4."},
+  {"sha": "bdc0501e6a60904f", "codes": ["C-8.2-LO-3"], "note": "Vowel and consonant counted directly out of 26. Although the two parts happen to be complementary, each is a positively stated simple event, so LO-3 rather than LO-4."},
+  {"sha": "76fa59c580ede2c9", "codes": ["C-8.2-LO-4"], "note": "Two coins: at least one head, and exactly one head with one tail. Both are compound coin events over {HH, HT, TH, TT}, LO-4."},
+  {"sha": "31aee1de4840b9b6", "codes": ["C-8.2-LO-4"], "note": "Both parts are negations - 'not a white ball' and 'neither green nor red'. The complement outcome, LO-4."},
+  {"sha": "e36d968ce863c9af", "codes": ["C-8.2-LO-4"], "note": "'Not red' over three colours. Complement outcome, LO-4."},
+  {"sha": "d111560c73a98a9a", "codes": ["C-8.1-LO-4", "C-8.2-LO-4"], "note": "A two-child family is a two-stage experiment whose four-outcome space {GG, GB, BG, BB} has to be written out, so C-8.1-LO-4 leads; LO-4 carries the compound structure, whose wording names only cards, dice and coins."},
+  {"sha": "7ae3c4c58313c96e", "codes": ["C-8.1-LO-4", "C-8.2-LO-3"], "note": "The difficulty is that the sample space is the seven possible pairs of leftover days, not 366: C-8.1-LO-4. LO-3 covers the resulting 2/7."},
+  {"sha": "4d6b64ccbe551135", "codes": ["C-8.2-LO-4"], "note": "Two coins, both heads or both tails. Compound coin event, LO-4."},
+  {"sha": "caff112f1423f9fe", "codes": ["C-8.2-LO-4", "C-8.2-LO-3"], "note": "Part (i) 'non face card' is the complement of the 12 face cards (LO-4); part (ii) black king is a plain simple event (LO-3). The two sub-parts genuinely sit on different outcomes."},
+  {"sha": "3f1f9aaef4379143", "codes": ["C-8.2-LO-4", "C-8.2-LO-3"], "note": "Part (ii) is obtained as 1 - P(buy) and cross-checked against the direct count, which is exactly the complement rule (LO-4); part (i) is the simple event 'good pen' (LO-3)."},
+  {"sha": "f341f146c19392dd", "codes": ["C-8.2-LO-4"], "note": "Two dice, product below 18, counted die by die over 36 outcomes. Compound dice event, LO-4."},
+  {"sha": "775c13b7638d701d", "codes": ["C-8.2-LO-3"], "note": "Cards 11 to 123 give n(S) = 113; perfect squares and multiples of 7 are each counted directly. Two simple events on one draw, LO-3."},
+  {"sha": "14c0e796320fc5c8", "codes": ["C-8.2-LO-3", "C-8.1-LO-4"], "note": "Sets up P before and after adding six red balls and solves the doubling condition (LO-3), the answer being a favourable count (C-8.1-LO-4). No complement or compound event."}
+ ]
+}

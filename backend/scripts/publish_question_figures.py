@@ -39,7 +39,28 @@ from app.db.mariadb import SessionLocal, init_mariadb  # noqa: E402
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-LARAVEL_ENV = Path(r"C:\Users\MILAN\Downloads\next_lms_erp\.env")
+# The Laravel app is checked out in a different place on every machine, and a
+# path baked in for one of them fails on all the others -- at --apply, which is
+# the last step of the last night. Search the known locations, let LARAVEL_ENV
+# in the environment override, and say which ones were tried when none exists.
+_LARAVEL_ENV_CANDIDATES = (
+    Path(r"D:\next_lms_erp\.env"),
+    Path(r"C:\Users\MILAN\Downloads\next_lms_erp\.env"),
+    Path.home() / "next_lms_erp" / ".env",
+)
+
+
+def _find_laravel_env() -> Path:
+    override = os.environ.get("LARAVEL_ENV")
+    if override:
+        return Path(override)
+    for candidate in _LARAVEL_ENV_CANDIDATES:
+        if candidate.exists():
+            return candidate
+    return _LARAVEL_ENV_CANDIDATES[0]
+
+
+LARAVEL_ENV = _find_laravel_env()
 OUTPUT_DIR = Path(__file__).resolve().parents[1] / "output"
 
 # Where the Class 9 Maths figures already live. Matching it keeps one convention.
@@ -77,7 +98,12 @@ def _cdn_object(sha: str) -> str | None:
 
 def laravel_env() -> dict[str, str]:
     if not LARAVEL_ENV.exists():
-        raise SystemExit(f"cannot read credentials: {LARAVEL_ENV} not found")
+        tried = "\n  ".join(str(p) for p in _LARAVEL_ENV_CANDIDATES)
+        raise SystemExit(
+            f"cannot read credentials: {LARAVEL_ENV} not found.\n"
+            f"Tried:\n  {tried}\n"
+            f"Set LARAVEL_ENV=<path to the Laravel .env> to point at it."
+        )
     out: dict[str, str] = {}
     for line in LARAVEL_ENV.read_text(encoding="utf-8", errors="replace").splitlines():
         line = line.strip()
@@ -187,6 +213,15 @@ def main() -> int:
         a, sha, path, _ = todo[0]
         print(f"\n  example: {path.name}")
         print(f"      -> {CDN_HOST}/{KEY_PREFIX}/{sha}{path.suffix.lower()}")
+        # Credentials are checked here too, even though the dry run does not
+        # need them. Returning before this is what let a missing Laravel .env
+        # stay invisible until --apply, which is the last step of the last
+        # night -- the worst possible moment to discover it.
+        if LARAVEL_ENV.exists():
+            print(f"\n  credentials: {LARAVEL_ENV} readable.")
+        else:
+            print(f"\n  credentials: NOT FOUND at {LARAVEL_ENV}.")
+            print("    --apply would fail here. Set LARAVEL_ENV to the Laravel .env.")
         print("\n  DRY RUN - nothing uploaded, nothing rewritten.")
         return 0
 

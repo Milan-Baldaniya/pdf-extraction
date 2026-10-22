@@ -1,0 +1,9 @@
+{
+ "chapter_id": 22906,
+ "mappings": [
+  {"sha": "24c9fedc7637fc5c", "codes": ["C-8.2-LO-4"], "note": "Five conditions on two dice - even sum, prime sum, sum at least 10, even doublet, product above 16 - every one counted over the 36 ordered pairs. Compound dice events throughout, LO-4."},
+  {"sha": "f61e42687bda2392", "codes": ["C-8.2-LO-4", "C-8.2"], "note": "Parts (iii), (iv) and (v) are all worked as 1 - P(...), so the complement rule is the spine of the item (LO-4). Cited also at competency level because the probabilities come from central angles over 360 degrees, a continuous ratio that no outcome describes."},
+  {"sha": "67bcc0f66ede95af", "codes": ["C-8.1-LO-4", "C-8.2-LO-3"], "note": "Two different experiments in one item and each part must be referred to the right sample space - the wheel's eight numbers 2 to 9, or the die's six faces (C-8.1-LO-4). The stages are never combined, so each probability is a simple event (LO-3) and not a compound one."},
+  {"sha": "64c72f30e8fcfc69", "codes": ["C-8.1-LO-4", "C-8.2-LO-3", "C-8.2-LO-2"], "note": "The sample space changes across the draws - 17 with replacement, then 16 once card 2 is kept out - which is the item's real demand (C-8.1-LO-4); the counts themselves are simple events (LO-3); and part (iv) 'greater than 17' is impossible, giving 0 (LO-2)."}
+ ]
+}

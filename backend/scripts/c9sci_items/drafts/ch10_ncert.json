@@ -1,0 +1,237 @@
+{
+ "chapter": 10,
+ "chapter_id": 8615,
+ "extraction_id": 601,
+ "section": "ncert",
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "page": 428,
+   "stem": "Which observation best supports the idea that sound is a mechanical wave?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Sound shows reflection"
+    },
+    {
+     "label": "B",
+     "text": "Sound needs a medium to propagate"
+    },
+    {
+     "label": "C",
+     "text": "Sound has frequency"
+    },
+    {
+     "label": "D",
+     "text": "Sound carries energy"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Option (ii) is the correct answer. A mechanical wave is explicitly defined as a wave that requires a material medium (like a solid, liquid, or gas) for its propagation. The observation that sound cannot travel through a vacuum and needs a medium directly confirms its mechanical nature.",
+   "concept": "Sound is longitudinal and mechanical",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "page": 428,
+   "stem": "For a sound wave propagating in a medium, increasing its frequency will increase its",
+   "options": [
+    {
+     "label": "A",
+     "text": "wavelength"
+    },
+    {
+     "label": "B",
+     "text": "speed"
+    },
+    {
+     "label": "C",
+     "text": "number of compressions per second"
+    },
+    {
+     "label": "D",
+     "text": "time period"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Option (iii) is the correct answer. Frequency is defined as the number of complete oscillations or density variations per unit time. Therefore, an increase in frequency directly means an increase in the number of compressions (and rarefactions) passing a fixed point every second.",
+   "concept": "Frequency definition",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "page": 428,
+   "stem": "If 20 compressions pass a point in 4 seconds, the frequency is",
+   "options": [
+    {
+     "label": "A",
+     "text": "80 Hz"
+    },
+    {
+     "label": "B",
+     "text": "5 Hz"
+    },
+    {
+     "label": "C",
+     "text": "10 Hz"
+    },
+    {
+     "label": "D",
+     "text": "0.2 Hz"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Option (ii) is the correct answer. Frequency is calculated as the total number of oscillations divided by the time taken. 20 compressions passing in 4 seconds means the frequency is\n= 20 / 4 = 5 Hz.",
+   "concept": "Frequency definition",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "4",
+   "form": "short",
+   "page": 433,
+   "stem": "In a room, the reflected sound reaches the ear 0.05 s after its production. Will it produce an echo or reverberation? Justify your answer.",
+   "answer": "It will produce reverberation. For the human brain to perceive a reflected sound as a distinct echo, the time gap between the original sound and the reflection must be at least 0.1 seconds. Since the reflected sound in this case arrives in 0.05 seconds (which is less than 0.1 seconds), the sounds will blend together, causing the sound to persist as reverberation.",
+   "concept": "Echo needs 0.1 second separation",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "5",
+   "form": "short",
+   "page": 433,
+   "stem": "Graphs representing two sound waves are given in Figure. If the scales on the X and Y axes of the two graphs are the same, which of the two sound waves has (i) greater wavelength, and (ii) smaller amplitude?\n(i) Which of the two sound waves has greater wavelength?\n(ii) Which of the two sound waves has smaller amplitude?",
+   "answer": "(i) Sound wave (a) has a greater wavelength. Wavelength is the distance between two consecutive crests, and observing the graphs, the physical distance between the crests is clearly larger in graph (a) than in graph (b).\n(ii) Sound wave (a) has a smaller amplitude. Amplitude is represented by the maximum height of the wave from the average density line. The peaks in graph (a) are visibly shorter than the peaks in graph (b).",
+   "concept": "Amplitude of sound wave",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "6",
+   "form": "short",
+   "page": 433,
+   "stem": "The sound waves emitted by three sources A, B and C are represented in Figure. If the frequency of A is maximum and C is minimum, identify the corresponding curves, and mark A, B and C on them.",
+   "answer": "In a density-distance graph, a higher frequency corresponds to more cycles packed into the same distance.\n1. Curve A corresponds to the green wave, which has the most densely packed cycles (shortest wavelength), indicating the maximum frequency.\n2. Curve B corresponds to the red wave, which has an intermediate number of cycles, indicating a frequency between the maximum and minimum.\n3. Curve C corresponds to the blue wave, which has the fewest cycles spread over the distance (longest wavelength), indicating the minimum frequency.\nTo mark them on the graph, you would write ‘A’ next to the green wave, ‘B’ next to the red wave, and ‘C’ next to the blue wave.",
+   "concept": "Crest and trough in wave graph",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "7",
+   "form": "short",
+   "page": 433,
+   "stem": "Draw a graph to represent a sound wave for which the density amplitude is 3 units and wavelength is 4 cm.",
+   "answer": "Take distance along the horizontal axis and density along the vertical axis, and draw a horizontal dashed line for the average density of the medium. About that line draw a smooth wave whose crests rise 3 units above it and whose troughs fall 3 units below it, so that the density amplitude is 3 units, and space the wave so that two successive crests (or two successive troughs) are 4 cm apart on the distance axis, so that the wavelength is 4 cm.",
+   "concept": "Wavelength definition",
+   "bloom": "create",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "the answer is mine. The book prints the question and its \"Ans :\" marker at ch10_source.md 37207-37340 and then nothing at all before the page break -- the printed answer is the graph the student is asked to draw, and no graph and no words were set. The answer above describes that graph in prose so the item is not loaded with an empty answer."
+  },
+  {
+   "number": "8",
+   "form": "short",
+   "page": 430,
+   "stem": "In a movie, while showing the explosion of a spacecraft in space, a flash of light is shown along with sound at the same time. What are the errors in this depiction?",
+   "answer": "There are two major scientific errors in this depiction. First, outer space is a near vacuum, and because sound is a mechanical wave that requires a material medium to propagate, the explosion would not produce any sound that could travel to an observer. Second, even if a medium were present, light travels much faster (300,000 km/s) than sound; therefore, a distant observer would see the flash of light well before hearing the sound, not simultaneously.",
+   "concept": "Outer space has no sound",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "9",
+   "form": "short",
+   "page": 430,
+   "stem": "A source produces a sound wave of wavelength 3.44 m. If the wave travels with a speed of 344 ms-1 find its time period.",
+   "answer": "Given: wavelength λ = 3.44 m and speed of sound v = 344 m/s.\nWe know that v = λ × f, so the frequency is f = v/λ = 344/3.44 = 100 Hz.\nNow, the time period is the reciprocal of the frequency: T = 1/f = 1/100 = 0.01 s.\nThe time period of the sound wave is 0.01 seconds.",
+   "concept": "Speed equals wavelength times frequency",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "every number and every step is the book's. The two fractions arrived flattened and denominator-first -- \"v 3 44 344 100 λ = = =\" for f = v/λ = 344/3.44 = 100 Hz, and \"f 1 100 1 = =\" for T = 1/f = 1/100 -- and were rebuilt in linear form. Read as printed, the first gives 0.01 Hz and the second gives 100 s, the reciprocals of the right answers."
+  },
+  {
+   "number": "10",
+   "form": "short",
+   "page": 430,
+   "stem": "A ship searching for a sunken ship sent a sonar signal and detected an echo after 5 s. If ultrasonic wave travels at 1525 ms-1 in seawater, approximately how far down in the ocean is the wreckage of the sunken ship located?",
+   "answer": "The total time of 5 seconds is for the sonar signal to travel down to the wreckage and reflect back up to the ship. Therefore, the time taken to just reach the wreckage is half of this, which is 5 / 2 = 2.5 seconds.\nDistance = Speed × Time,\n= 1525 m/s × 2.5 s\n= 3812.5 meters.\nThe sunken ship is located approximately 3812.5 metres below the ocean surface.",
+   "concept": "Sonar for underwater detection",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "11",
+   "form": "short",
+   "page": 430,
+   "stem": "A vehicle is fitted with an ultrasonic distance sensor as part of parking assistance system which provides echolocation, while the driver is reversing the vehicle. It emits ultrasonic wave (about 40 kHz) which is reflected by the obstacle. When the warning beep starts sounding at a distance of 1.2 m from the obstacle, how much time is taken by ultrasonic wave to travel to the obstacle and come back? Assume the speed of ultrasonic wave in air to be 345 ms-1.",
+   "answer": "The total distance the ultrasonic wave must travel is twice the distance to the obstacle (from the vehicle to the obstacle and back), which is 2 × 1.2 m = 2.4 m. Now, using the formula:\nTime = Total Distance/Speed.\n= 2.4 m / 345 m/s,\n=0.00696 seconds\n= 0.007 s (approximately)",
+   "concept": "Ultrasound in industry and testing",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "12",
+   "form": "short",
+   "page": 431,
+   "stem": "The speed of sound in air is about 331 ms-1 at 0 °C and nearly 344 ms-1 at 22 °C. Roughly how much extra time will the sound of thunder take to travel a distance of 1720 m, if the air temperature changes from 22 °C to 0 °C? Assume that all other conditions remain unchanged.",
+   "answer": "Given: speed of sound at 22 °C is v1 = 344 m/s, speed of sound at 0 °C is v2 = 331 m/s, and the distance is d = 1720 m.\nTime taken at 22 °C: t1 = d/v1 = 1720/344 = 5 s.\nTime taken at 0 °C: t2 = d/v2 = 1720/331 = 5.196 s.\nExtra time taken when the temperature drops from 22 °C to 0 °C: Δt = t2 − t1 = 5.196 − 5 = 0.196 s.",
+   "concept": "Speed depends on the medium",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 4,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "every number is the book's. Both quotients arrived flattened and denominator-first (\"v d 1 =\" then \"s 344 1720 5 = =\" for t1 = 1720/344 = 5 s, and the same shape for t2) and were rebuilt in linear form. The second quotient is printed as \"5196\" with the decimal point lost in the text layer; it is 5.196 s, which is what the book's own last line, 0.196 s, requires."
+  },
+  {
+   "number": "13",
+   "form": "short",
+   "page": 436,
+   "stem": "The variation of density of medium for a sound wave propagating with a speed of 340 ms-1 is shown in Figure. Calculate the wavelength and frequency of the sound wave.",
+   "answer": "From the figure, the 8 cm length shows 2 complete wavelengths. So, wavelength: λ = 8/2 cm = 4 cm = 0.04 m. As we know that, Speed = Wavelength × Frequency, so frequency = Speed / Wavelength = 340 / 0.04 = 8500 Hz.",
+   "concept": "Speed equals wavelength times frequency",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "14",
+   "form": "short",
+   "page": 436,
+   "stem": "The graphical representation of two sound waves A and B propagating at the same speed of 345 ms-1 is shown in Figure. What is the wavelength of each of them? Also, calculate their frequencies.",
+   "answer": "For sound wave A (red curve), one complete cycle spans a distance of 5.0 cm on the graph. Therefore, its wavelength is 5.0 cm or 0.05 m. Frequency = Speed / Wavelength = 345 m/s / 0.05 m = 6900 Hz. For sound wave B (blue curve), two complete cycles fit within the 5.0 cm mark, meaning one cycle spans 2.5 cm. Therefore, its wavelength is 2.5 cm or 0.025 m. Frequency = 345 m/s / 0.025 m = 13800 Hz.",
+   "concept": "Speed equals wavelength times frequency",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "15",
+   "form": "short",
+   "page": 436,
+   "stem": "Two identical sound sources are placed at A and B, one in air and one submerged in water. Both produce sounds at the same time, which travel horizontally to the vertical side of the cliff and come back. If the time taken by the sound to return to A is 4.5 times than that of B, what is the ratio between the speeds of sound in air and water?",
+   "answer": "Let the total distance traveled by both sounds to the cliff and back be D. The speed of sound in air (vA) = D/tA, the speed of sound in water (vB) = D/tB, where tA and tB are the respective return times. The ratio of their speeds vA/vB = tB/tA. We are given that the time in air is 4.5 times the time in water, so tA = 4.5 × tB. Substituting this into our ratio gives vA/vB = tB/(4.5 × tB) = 1/4.5 = 2/9. Therefore, the ratio between the speeds of sound in air and water is 2:9.",
+   "concept": "Speed depends on the medium",
+   "bloom": "analyze",
+   "dok": 4,
+   "difficulty": 4
+  }
+ ]
+}

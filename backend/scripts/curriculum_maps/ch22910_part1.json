@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22910,
+ "mappings": [
+  {"sha": "9d676ce8ecb532f2", "codes": ["C-2.2-LO-5", "C-2.2-LO-4"], "note": "classifies a supplied pair of graphs as consistent with a unique solution. The judgement is the LO-5 one, but it is reached from the picture rather than from ratios, which is the LO-4 reading -- hence both"},
+  {"sha": "5d96be02b1acfcf3", "codes": ["C-2.3-LO-2"], "note": "pure formulation: turns a chairs-and-tables purchase into 3x + y = 900 and 5x + 3y = 2100 and stops there. No solving, no consistency test"},
+  {"sha": "70b2e3a145f4f7d0", "codes": ["C-2.3-LO-2"], "note": "digit-reversal word problem set up as two equations and solved; LO-2 names ages, speed and fractions but digit problems have no other home"},
+  {"sha": "6f848d975a9abc7c", "codes": ["C-2.3-LO-2"], "note": "another two-digit reversal problem, formulated and solved; not a consistency or method item"},
+  {"sha": "4d20557bae7f3cfb", "codes": ["C-2.2-LO-3"], "note": "the given ratio collapses to the single relation 3x = 2y, which is then substituted into the target expression -- the substitution half of LO-3. There is no genuine pair here, and no outcome covers a ratio identity"},
+  {"sha": "8f0912894205c73e", "codes": ["C-2.2-LO-3"], "note": "the exponential equations reduce to x + y = 4 and x - y = 1/4, then are added -- elimination, which LO-3 carries jointly with substitution"},
+  {"sha": "afb2688f417e038c", "codes": ["C-2.3-LO-2"], "note": "a fraction word problem, the case LO-2 names explicitly; both conditions are translated and the pair solved"},
+  {"sha": "70673965c300cfd0", "codes": ["C-2.2-LO-5"], "note": "parallelism decided by a1/a2 = b1/b2 not equal to c1/c2 -- the ratio test on the coefficients, LO-5, not a solve"},
+  {"sha": "cbeabd5725fc07ef", "codes": ["C-2.3-LO-2"], "note": "formulates the two reversed two-digit numbers and reduces their sum to 11(x+y); a formulation problem even though only one equation results"},
+  {"sha": "eb3dace8dc1fb114", "codes": ["C-2.2-LO-5"], "note": "k chosen so the pair is inconsistent, via a1/a2 = b1/b2 not equal to c1/c2; LO-5 exactly"},
+  {"sha": "720acb2e3527d3aa", "codes": ["C-2.2-LO-5"], "note": "no solution is the same ratio condition, phrased differently; the item never asks for x or y"},
+  {"sha": "9a34e4de5fbbc2c3", "codes": ["C-2.2-LO-5"], "note": "unique solution is a1/a2 not equal to b1/b2 -- the intersecting branch of the LO-5 ratio test"},
+  {"sha": "ab648d477836fc93", "codes": ["C-2.2-LO-5"], "note": "all three ratios computed and the pair declared to have no solution; a classification, so LO-5 rather than LO-3"},
+  {"sha": "6fba96f87af4743e", "codes": ["C-2.2-LO-5"], "note": "states what consistency means geometrically, quoting both ratio branches; the definitional core of LO-5"},
+  {"sha": "0eef43e680a68af1", "codes": ["C-2.1-LO-4", "C-2.2-LO-5"], "note": "the stated reason is that y = 0 and y = -7 are both parallel to the x-axis -- reading position off the coefficients (C-2.1-LO-4) -- and only then the no-solution conclusion (LO-5). No ratio test is used, which is what distinguishes this from the k-value items"},
+  {"sha": "6acecb2222eb9fd4", "codes": ["C-2.2-LO-5"], "note": "coincident lines require all three ratios equal; the dependent branch of LO-5"},
+  {"sha": "4af0c6e716d92087", "codes": ["C-2.1-LO-4"], "note": "x = a is vertical and y = b is horizontal, so they meet at (a, b). This is entirely about the position of each line read from its equation -- C-2.1-LO-4 -- with no ratio test and nothing solved"},
+  {"sha": "db479e0eda1bc15c", "codes": ["C-2.2-LO-5"], "note": "k found from the parallel condition on the coefficient ratios; LO-5"},
+  {"sha": "ca8baec3a1648d5b", "codes": ["C-2.2-LO-5"], "note": "the infinitely-many condition yields two incompatible values of c, so no c works; a sharper use of the same LO-5 ratio test"},
+  {"sha": "e825bbd6b6261ce6", "codes": ["C-2.2-LO-5"], "note": "each option is tested against a1/a2 = b1/b2 = c1/c2 to find the dependent partner equation; LO-5 applied in reverse"},
+  {"sha": "2e8fdc2ff1d6647d", "codes": ["C-2.2-LO-3"], "note": "x - y = 2 and x + y = 4 added to eliminate y, then back-substituted; a plain algebraic solve, LO-3"},
+  {"sha": "8852a6a57f4f32c5", "codes": ["C-2.3-LO-2"], "note": "a coins-and-value situation translated into two equations and solved; a word problem, so LO-2 rather than the bare solve in LO-3"},
+  {"sha": "f35cf6bb53270b16", "codes": ["C-2.3-LO-2"], "note": "a father-and-son age problem -- the ages case LO-2 names first"},
+  {"sha": "91812315ef9be6a8", "codes": ["C-2.2-LO-5"], "note": "the worked answer tests 9/18 = 3/6 = 12/24 for infinitely many solutions, so the item is an LO-5 ratio judgement. The stored question text omits the assertion and the reason entirely"},
+  {"sha": "3bde233c2327e6a8", "codes": ["C-2.2-LO-5"], "note": "the worked answer applies the no-solution ratio condition to find k = 2; LO-5. Here too the assertion and reason text is missing from the stored question"}
+ ]
+}

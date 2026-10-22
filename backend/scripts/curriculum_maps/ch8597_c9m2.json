@@ -1,0 +1,140 @@
+{
+  "chapter_id": 8597,
+  "mappings": [
+    {
+      "sha": "qid:706670",
+      "codes": ["C-7.2-LO-4"],
+      "note": "The four-term expansion of (a+b)^3, which LO-4 names as the cube of a binomial. LO-1 covers only the squares and the difference of squares."
+    },
+    {
+      "sha": "qid:706671",
+      "codes": ["C-7.2-LO-4"],
+      "note": "Derives (a-b)^3 from (a+b)^3 by substituting -b and tracking how the sign survives an odd power but not an even one. That derivation is exactly LO-4's clause on the cube of a binomial."
+    },
+    {
+      "sha": "qid:706672",
+      "codes": ["C-7.2-LO-4"],
+      "note": "Counts the terms of a cubic expansion, which presumes the LO-4 expansion is known. Cited to LO-4 rather than the competency because the fact is specific to the cube identity."
+    },
+    {
+      "sha": "qid:706673",
+      "codes": ["C-7.2-LO-4"],
+      "note": "Recalls the factorisation of a^3+b^3. LO-4's 'identities for the sum and difference of two cubes'."
+    },
+    {
+      "sha": "qid:706674",
+      "codes": ["C-7.2-LO-4"],
+      "note": "Verifies the sum-of-cubes factorisation by expansion and explains why the middle sign must be minus for the cancellation to occur. LO-4's derivation clause rather than bare recall."
+    },
+    {
+      "sha": "qid:706675",
+      "codes": ["C-7.2-LO-4"],
+      "note": "Matches all four cube identities -- sum, difference, and the two binomial cubes -- in one item. LO-4 covers the whole set."
+    },
+    {
+      "sha": "qid:706676",
+      "codes": ["C-7.2-LO-1"],
+      "note": "49x^2-64 is a difference of two squares, and the item is about choosing the right identity from several. LO-1 owns a^2-b^2; the cube and trinomial identities are the distractors."
+    },
+    {
+      "sha": "qid:706677",
+      "codes": ["C-7.2-LO-1", "C-7.2-LO-3"],
+      "note": "The three-part at-a-glance test is the structure of LO-1's (a+-b)^2, and it is used as the screening step before deciding whether to split the middle term (LO-3). The item is about that decision."
+    },
+    {
+      "sha": "qid:706678",
+      "codes": ["C-7.2-LO-1", "C-7.2-LO-4"],
+      "note": "An inventory item: the two square identities and the difference of squares (LO-1), then the cube and product identities (LO-4), each with a worked use. Cited to the two outcomes that own those families."
+    },
+    {
+      "sha": "qid:706679",
+      "codes": ["C-7.2-LO-3", "C-7.2-LO-1"],
+      "note": "Sets out a systematic order -- common factor, count the terms, match an identity -- and applies it to 2x^3-32x, which resolves to 2x(x+4)(x-4). LO-3 for the decision procedure including the middle-term test, LO-1 for the difference of squares it lands on."
+    },
+    {
+      "sha": "qid:706680",
+      "codes": ["C-7.2-LO-1", "C-7.2-LO-3"],
+      "note": "Three of the four rows are LO-1 patterns (difference of squares and the two perfect squares); the fourth, x^2+5x+6, needs two numbers summing to 5 and multiplying to 6, which is LO-3."
+    },
+    {
+      "sha": "qid:706681",
+      "codes": ["C-7.2-LO-5"],
+      "note": "The x+y+z=0 case of the x^3+y^3+z^3-3xyz identity, which LO-5 names and no other outcome touches."
+    },
+    {
+      "sha": "qid:706682",
+      "codes": ["C-7.2-LO-5"],
+      "note": "Assertion and reason both concern x^3+y^3+z^3-3xyz and its factor (x+y+z). LO-5, with the reason supplying the mechanism behind the assertion."
+    },
+    {
+      "sha": "qid:706683",
+      "codes": ["C-7.2-LO-1"],
+      "note": "The difference of consecutive squares is their sum, because (n+1)^2-n^2 factorises as a difference of two squares with (a-b)=1. LO-1 applied to a number pattern."
+    },
+    {
+      "sha": "qid:706684",
+      "codes": ["C-7.2-LO-1"],
+      "note": "51^2-50^2 = 101 checked by the difference-of-squares factorisation rather than by squaring. The numerical instance of qid:706683, same LO-1 identity."
+    },
+    {
+      "sha": "qid:706685",
+      "codes": ["C-7.2-LO-4"],
+      "note": "The factorisation of a^3-b^3, with the middle sign opposite to the sum of cubes. LO-4's difference-of-cubes clause."
+    },
+    {
+      "sha": "qid:706686",
+      "codes": ["C-7.2-LO-5"],
+      "note": "Simplifies a rational expression by factorising the numerator and cancelling, and states the restriction x != -3. LO-5's second clause verbatim; LO-1 only supplies the factorisation used inside it."
+    },
+    {
+      "sha": "qid:706687",
+      "codes": ["C-7.2-LO-5"],
+      "note": "Diagnoses illegal cancellation across a sum: (x^2+x)/x must be factorised as x(x+1)/x first. That is the discipline LO-5 is about, and the error it is meant to prevent."
+    },
+    {
+      "sha": "qid:706688",
+      "codes": ["C-7.2-LO-5"],
+      "note": "False because of the excluded value x=2, not because the algebra is wrong. The restriction on a simplified rational expression, LO-5."
+    },
+    {
+      "sha": "qid:706689",
+      "codes": ["C-7.2-LO-4"],
+      "note": "Why (a+b+c)^2 has six terms -- three squares and three doubled cross products from nine products. LO-4's square-of-a-trinomial clause, asked as an explanation."
+    },
+    {
+      "sha": "qid:706690",
+      "codes": ["C-7.2-LO-4"],
+      "note": "Applies the (a+b+c)^2 identity to x+2y+3z, where each substitution is a compound term. LO-4."
+    },
+    {
+      "sha": "qid:706691",
+      "codes": ["C-7.2-LO-4"],
+      "note": "Rearranges (a+b+c)^2 = a^2+b^2+c^2+2(ab+bc+ca) to recover the sum of squares without ever finding a, b or c. LO-4's trinomial identity, used as an equation."
+    },
+    {
+      "sha": "qid:706692",
+      "codes": ["C-7.2-LO-1"],
+      "note": "The area dissection of a square of side a+b into a^2, b^2 and two ab rectangles -- LO-1's 'arranging the areas of squares and rectangles' for the square of a sum."
+    },
+    {
+      "sha": "qid:706693",
+      "codes": ["C-7.2-LO-1"],
+      "note": "The L-shape cut and rearranged into an (a+b) by (a-b) rectangle. LO-1's geometric proof, for the difference-of-squares case."
+    },
+    {
+      "sha": "qid:706694",
+      "codes": ["C-7.2-LO-1", "C-7.2-LO-4"],
+      "note": "A nine-piece area dissection, so the method is LO-1's; the identity being proved is (a+b+c)^2, which belongs to LO-4. Both are needed to describe what the item assesses."
+    },
+    {
+      "sha": "qid:706695",
+      "codes": ["C-7.2-LO-2"],
+      "note": "Algebra tiles arranged into a single rectangle to factorise x^2+5x+6, with the side lengths read off as the factors. LO-2 verbatim; LO-3 would be the same factorisation done symbolically."
+    },
+    {
+      "sha": "qid:706696",
+      "codes": ["C-7.2-LO-2"],
+      "note": "Draws the tile arrangement for x^2+7x+12 and reads (x+3) and (x+4) off the completed rectangle's edges. LO-2's 'relates the completed rectangle to the two factors obtained'."
+    }
+  ]
+}

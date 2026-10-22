@@ -1,0 +1,14 @@
+{
+ "chapter_id": 22905,
+ "mappings": [
+  {"sha": "0868ff0b1e3c8f86", "codes": ["C-1.2-LO-3"], "note": "identical dinner plates from 12 chicken pieces and 16 rolls -- everyday equal-grouping by HCF, LO-3 rather than the bare HCF of LO-1"},
+  {"sha": "e8f044bb458d680a", "codes": ["C-1.2-LO-3"], "note": "three train lines departing together again -- the shared-timing case LO-3 names"},
+  {"sha": "801cc3c8ee3f69e0", "codes": ["C-1.2-LO-3"], "note": "widest equal strips cuttable from two paper widths -- a physical partition on HCF, so LO-3"},
+  {"sha": "4a517e9f42e1ad19", "codes": ["C-1.1-LO-1"], "note": "the context is a classroom game but every sub-question reads off the prime factorisation of 173250 -- number of factors, highest prime, least prime. FTA, not HCF/LCM, so C-1.1-LO-1 and not the everyday C-1.2-LO-3 that the other case studies take"},
+  {"sha": "c76ee655c5119365", "codes": ["C-1.2-LO-3"], "note": "three climbers with net gains 3, 5 and 7 per turn; the meeting stairs are common multiples, an everyday LCM situation -- LO-3"},
+  {"sha": "22688df2a1a72d0f", "codes": ["C-1.2-LO-3"], "note": "distributing apples, bananas and mangoes equally among guests -- repeated HCF in a stated situation, LO-3"},
+  {"sha": "f38fcf3abccf0835", "codes": ["C-1.2-LO-3"], "note": "maximum marching columns for several troops -- HCF of two and then four numbers, all inside a real parade scenario"},
+  {"sha": "3fa2d0c98d65cdf5", "codes": ["C-1.2-LO-3"], "note": "packet sizes 8 and 6 forcing a student count that is a common multiple in a given range -- LCM applied to a supply situation, LO-3"},
+  {"sha": "577e149da65767b3", "codes": ["C-1.2-LO-3"], "note": "chair count from remainders under 2 to 6 and exact division by 11; the working number is LCM(2..6) minus 1, an everyday arrangement problem. LO-3 rather than the division-lemma reading, since the frame has no division outcome and the solution is driven by LCM"}
+ ]
+}

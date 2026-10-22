@@ -1,0 +1,140 @@
+{
+  "chapter_id": 8594,
+  "mappings": [
+    {
+      "sha": "qid:706520",
+      "codes": ["C-4.5-LO-1"],
+      "note": "States the sign of each coordinate in each of the four quadrants -- the second clause of LO-1, given in full."
+    },
+    {
+      "sha": "qid:706521",
+      "codes": ["C-4.5-LO-1"],
+      "note": "Both coordinates negative identifies the third quadrant. The same sign rule as qid:706520, reduced to one case."
+    },
+    {
+      "sha": "qid:706522",
+      "codes": ["C-4.5-LO-1"],
+      "note": "Matches all four quadrants to their sign pairs in one item -- LO-1's sign rule tested exhaustively."
+    },
+    {
+      "sha": "qid:706523",
+      "codes": ["C-4.5-LO-4"],
+      "note": "The 3-4-5 distance from the origin. A single application of the distance formula, LO-4."
+    },
+    {
+      "sha": "qid:706524",
+      "codes": ["C-4.5-LO-4"],
+      "note": "Why the formula cannot return a negative value: squares then the positive root. That is understanding the formula itself, LO-4, not a computation."
+    },
+    {
+      "sha": "qid:706525",
+      "codes": ["C-4.5-LO-4"],
+      "note": "Distance between (1,2) and (4,6) with working shown. LO-4, the plain computational form."
+    },
+    {
+      "sha": "qid:706526",
+      "codes": ["C-4.5-LO-4"],
+      "note": "Derives the distance formula from the right triangle whose legs are the coordinate differences -- where the formula comes from, LO-4."
+    },
+    {
+      "sha": "qid:706527",
+      "codes": ["C-4.5-LO-4"],
+      "note": "Symmetry of the distance formula, justified by the squaring of the differences. Still LO-4: both statements are about the formula's structure."
+    },
+    {
+      "sha": "qid:706528",
+      "codes": ["C-4.5-LO-4"],
+      "note": "Three side lengths from the distance formula, then classifying the triangle by comparing them. LO-4; no area formula is involved, so C-5.1 does not apply."
+    },
+    {
+      "sha": "qid:706529",
+      "codes": ["C-4.5-LO-4"],
+      "note": "Distance of (8,6) from the origin, the special case where one point is (0,0). LO-4."
+    },
+    {
+      "sha": "qid:706530",
+      "codes": ["C-4.5-LO-4"],
+      "note": "Collinearity decided by AB+BC=AC, so three distance computations. LO-4 used as a test rather than as an answer in itself."
+    },
+    {
+      "sha": "qid:706531",
+      "codes": ["C-4.5-LO-4"],
+      "note": "Proves two sides equal and the Pythagoras relation holds, both from the distance formula. LO-4, at proof length."
+    },
+    {
+      "sha": "qid:706532",
+      "codes": ["C-4.5-LO-5"],
+      "note": "One direct application of the midpoint formula. LO-5."
+    },
+    {
+      "sha": "qid:706533",
+      "codes": ["C-4.5-LO-5"],
+      "note": "Inverts the midpoint formula to recover the missing endpoint. Still LO-5, but run backwards, which is what distinguishes it from qid:706532."
+    },
+    {
+      "sha": "qid:706534",
+      "codes": ["C-4.5-LO-5", "C-4.5-LO-1"],
+      "note": "False, and the counterexample needs endpoints in different quadrants: the midpoint outcome (LO-5) tested against the quadrant sign rule (LO-1)."
+    },
+    {
+      "sha": "qid:706535",
+      "codes": ["C-4.5-LO-5"],
+      "note": "Why the average gives the halfway point, and whether the idea generalises to an arbitrary ratio. The reasoning behind LO-5, and its extension."
+    },
+    {
+      "sha": "qid:706536",
+      "codes": ["C-4.5-LO-5"],
+      "note": "Midpoint of (-3,7) and (5,-1), with mixed signs to handle. LO-5."
+    },
+    {
+      "sha": "qid:706537",
+      "codes": ["C-4.5-LO-2"],
+      "note": "The ordinate of any point on the x-axis is zero -- LO-2's 'including points that lie on an axis'. LO-1 would apply if a quadrant were being named."
+    },
+    {
+      "sha": "qid:706538",
+      "codes": ["C-4.5-LO-2"],
+      "note": "The abscissa of any point on the y-axis is zero. The mirror of qid:706537, same LO-2 on-axis clause."
+    },
+    {
+      "sha": "qid:706539",
+      "codes": ["C-4.5-LO-1", "C-4.5-LO-2"],
+      "note": "Explains that the quadrants are the four regions and the axes are their boundaries (LO-1), so an on-axis point belongs to none (LO-2's on-axis case)."
+    },
+    {
+      "sha": "qid:706540",
+      "codes": ["C-4.5-LO-2", "C-4.5-LO-1"],
+      "note": "The assertion wrongly places (0,7) in the first quadrant; the refutation is that a zero abscissa puts it on the y-axis (LO-2), which is in no quadrant (LO-1). The reason given is true but does not support the assertion."
+    },
+    {
+      "sha": "qid:706541",
+      "codes": ["C-4.5-LO-2"],
+      "note": "Gap-fill for the abscissa of a point on the y-axis. Same LO-2 on-axis fact as qid:706538."
+    },
+    {
+      "sha": "qid:706542",
+      "codes": ["C-4.5-LO-3"],
+      "note": "Image of (4,-3) in the x-axis. LO-3's first case, with the sign of the ordinate reversed."
+    },
+    {
+      "sha": "qid:706543",
+      "codes": ["C-4.5-LO-3"],
+      "note": "All three reflections stated as coordinate rules. LO-3 names the two axis reflections; the origin case is their composition and is covered in the same answer."
+    },
+    {
+      "sha": "qid:706544",
+      "codes": ["C-4.5-LO-3"],
+      "note": "Assertion and reason both concern reflection in the y-axis reversing the abscissa -- LO-3's second case."
+    },
+    {
+      "sha": "qid:706545",
+      "codes": ["C-4.5-LO-3", "C-4.5-LO-1"],
+      "note": "Gives the three images of P(a,b) (LO-3) and locates each in its quadrant, explaining how the four points sit symmetrically about the axes (LO-1's sign rule)."
+    },
+    {
+      "sha": "qid:706546",
+      "codes": ["C-4.5-LO-3"],
+      "note": "Matches the three reflections plus the identity to their images. LO-3 tested across all its cases at once."
+    }
+  ]
+}

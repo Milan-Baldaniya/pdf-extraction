@@ -61,6 +61,70 @@ def _hash(item: dict[str, Any]) -> str:
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()
 
 
+# The closed vocabularies live in pal_vocabulary (domains bloom_levels,
+# si_dok_levels, si_difficulty). They are inlined here rather than queried
+# because shape() is pure and runs before any session is opened; a value
+# outside the set raises rather than being dropped, since a silently ignored
+# tag looks exactly like one the tagger was left to fill.
+BLOOM_CODES = ("recall", "understand", "apply", "analyze", "evaluate", "create")
+_BLOOM_ALIASES = {
+    "remember": "recall", "remembering": "recall",
+    "understanding": "understand", "comprehension": "understand",
+    "applying": "apply", "application": "apply",
+    "analysing": "analyze", "analyzing": "analyze", "analysis": "analyze",
+    "evaluating": "evaluate", "evaluation": "evaluate",
+    "creating": "create", "synthesis": "create",
+}
+_DIFFICULTY_WORDS = {"easy": 2, "medium": 3, "moderate": 3, "hard": 4,
+                     "difficult": 4}
+
+
+def _bloom(value: Any) -> str | None:
+    if value in (None, ""):
+        return None
+    code = str(value).strip().lower()
+    code = _BLOOM_ALIASES.get(code, code)
+    if code not in BLOOM_CODES:
+        raise ValueError(
+            f"bloom {value!r} is not one of {', '.join(BLOOM_CODES)}"
+        )
+    return code
+
+
+def _dok(value: Any) -> int | None:
+    if value in (None, ""):
+        return None
+    try:
+        level = int(value)
+    except (TypeError, ValueError):
+        raise ValueError(f"dok {value!r} is not an integer 1-4") from None
+    if not 1 <= level <= 4:
+        raise ValueError(f"dok {value!r} is outside 1-4")
+    return level
+
+
+def _difficulty(value: Any) -> int | None:
+    """1-5, the scale lms_question_extraction.difficulty_1_to_5 already uses.
+
+    A word is accepted too and mapped onto that scale, because a reader judging
+    a question says "hard" far more naturally than "4".
+    """
+    if value in (None, ""):
+        return None
+    if isinstance(value, str) and not value.strip().isdigit():
+        word = value.strip().lower()
+        if word not in _DIFFICULTY_WORDS:
+            raise ValueError(
+                f"difficulty {value!r} is not 1-5 or one of "
+                f"{', '.join(sorted(_DIFFICULTY_WORDS))}"
+            )
+        return _DIFFICULTY_WORDS[word]
+    score = int(value)
+    if not 1 <= score <= 5:
+        raise ValueError(f"difficulty {value!r} is outside 1-5")
+    return score
+
+
 def shape(raw: list[dict[str, Any]], *, attribution: str, licence: str | None) -> list[dict[str, Any]]:
     """Fill the derivable fields around what was actually read off the page."""
     items: list[dict[str, Any]] = []
@@ -104,9 +168,24 @@ def shape(raw: list[dict[str, Any]], *, attribution: str, licence: str | None) -
             "source_page": entry.get("page"),
             "source_char_start": None,
             "source_char_end": None,
-            "reproduction": "verbatim",
+            # Almost every item is reproduced word for word, but not quite
+            # all: where the book prints only a diagram under "Ans :", or
+            # leaves a sentence without its subject, a reader has supplied the
+            # missing text. Those are honest repairs and they are still not
+            # verbatim, so the item can say so rather than have the column
+            # assert something untrue about it.
+            "reproduction": entry.get("reproduction") or "verbatim",
             "attribution": attribution,
             "licence": licence,
+            # Read off the page rather than guessed. The offline tagger fills
+            # these when they are absent, but it is a keyword matcher: on one
+            # chapter it filed three of twenty under the wrong concept and left
+            # sixteen untagged. A value read by somebody looking at the question
+            # beats one inferred from a word in its stem, so an authored value
+            # wins and None falls through to the tagger.
+            "bloom_level": _bloom(entry.get("bloom")),
+            "dok_level": _dok(entry.get("dok")),
+            "difficulty_1_to_5": _difficulty(entry.get("difficulty")),
         }
         item["verbatim_sha256"] = _hash(item)
         item["verbatim_payload"] = json.dumps(
@@ -137,7 +216,16 @@ def persist_supplied(
         record = db.execute(
             text(
                 """
-                SELECT id, document_tittle, chapter_number, standard_id, subject_id,
+                -- `standard` and `subject_name` are here only for
+                -- render_attribution, which formats "{publisher} — {title},
+                -- Class {standard} {subject}, {syear}". They were missing, and
+                -- because that function fills an absent key with "" rather
+                -- than raising, every attribution line written through this
+                -- path came out as "... , Class , 2026" -- silently dropping
+                -- the class and the subject from the source line that a
+                -- licence condition requires.
+                SELECT id, document_tittle, chapter_number, standard, standard_id,
+                       subject_name, subject_id,
                        chapter_id, sub_institute_id, board, syear, asset_manifest,
                        publisher_id
                   FROM document_extractions WHERE id = :i

@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22908,
+ "mappings": [
+  {"sha": "df13b4544324ae20", "codes": ["C-8.1-LO-1"], "note": "The grouped-mean assumption that frequencies sit at class marks. Belongs to the mean methods of LO-1; no median or mode content."},
+  {"sha": "5feed2cd66c37a16", "codes": ["C-8.1-LO-1"], "note": "Deviation-sum identity behind the direct-method mean formula. LO-1; median and mode are untouched."},
+  {"sha": "505236f2013d385a", "codes": ["C-8.1-LO-1"], "note": "Identifies u_i = (x_i - a)/h in the step-deviation formula. LO-1 explicitly fuses direct, assumed-mean and step-deviation, so there is no step-deviation sibling to prefer."},
+  {"sha": "51f7e49126a372a0", "codes": ["C-8.1-LO-3", "C-8.1-LO-2"], "note": "Requires the median class via cumulative frequency AND the modal class via maximum frequency, then adds their lower limits. Both outcomes are load-bearing; neither alone answers it."},
+  {"sha": "ebe9aaaee00093af", "codes": ["C-8.1-LO-3"], "note": "Makes inclusive classes continuous, then locates N/2 in the cumulative frequencies. The continuity correction serves the median class, so LO-3 and not LO-2."},
+  {"sha": "4828d112cce9aea2", "codes": ["C-8.1-LO-2"], "note": "Differences a less-than table only to find the maximum ordinary frequency. The target is the modal class, so LO-2 rather than the cumulative-frequency LO-3."},
+  {"sha": "324f5e6ae35ee6cd", "codes": ["C-8.1-LO-3", "C-8.1-LO-2"], "note": "Needs the median class (N/2 = 33.5 falls in 125-145) and the modal class (max frequency 20) separately, even though they coincide here. Both outcomes are exercised."},
+  {"sha": "d2a2137863810073", "codes": ["C-8.1-LO-3"], "note": "Counts athletes under 14.6 s, i.e. reads a less-than cumulative frequency, but never reaches a median. LO-3 is the only outcome naming cumulative frequency; no outcome covers building a cumulative table as an end in itself (see defect note)."},
+  {"sha": "dceae259b54c29aa", "codes": ["C-8.1-LO-3"], "note": "Recovers a class frequency by differencing a more-than cumulative table. Cumulative-frequency handling, so LO-3; not C-8.2-LO-1 because no curve is drawn or read."},
+  {"sha": "4c3e07e28e8edbef", "codes": ["C-8.1-LO-1"], "note": "Uses total = mean x count twice to find the tenth weight. Direct-method mean property; no ordering or frequency work."},
+  {"sha": "c9241843e7c32954", "codes": ["C-8.1-LO-3"], "note": "Assertion-reason on the ((n+1)/2)th rule for odd n; the assertion fails because the 6th ordered value is 27, not 30. Positional median, LO-3."},
+  {"sha": "f2a9f2b34a4a7d42", "codes": ["C-8.1-LO-1"], "note": "Computes class marks of two intervals. The class mark is the representative value the mean methods rest on; no outcome covers grouped-table structure on its own."},
+  {"sha": "e63ebba0d9c9d266", "codes": ["C-8.1-LO-1"], "note": "Solves (n+1)/2 = 15 from the mean of the first n naturals. Mean computation, LO-1."},
+  {"sha": "0fc699ef1e4ab20a", "codes": ["C-8.2-LO-1"], "note": "Names the abscissa of the two ogives' intersection as the median. Graphical median, which is C-8.2-LO-1, not the tabular LO-3."},
+  {"sha": "dc0f2168e139fdc9", "codes": ["C-8.1"], "note": "Empirical relation Mode = 3 Median - 2 Mean used to get the mean. No LO covers the empirical relation and no grouped-mean method is used, so competency level."},
+  {"sha": "3760922cae100d98", "codes": ["C-8.1-LO-1"], "note": "Recovers a class limit from mid value and width; class-mark arithmetic, the setup of the direct-mean method."},
+  {"sha": "1f22ab08f701cc55", "codes": ["C-8.1-LO-2"], "note": "Selects mode as the measure for the most common garment size. Only mode outcome available."},
+  {"sha": "8fcc291615980d06", "codes": ["C-8.1"], "note": "Rearranges the empirical relation into Mode - Median = 2(Median - Mean). Three-measure relation with no single-measure computation."},
+  {"sha": "736ab4c80f2a4e7b", "codes": ["C-8.1-LO-3"], "note": "Cumulative frequencies then N/2 = 30 gives the median class 160-165. LO-3."},
+  {"sha": "07659f82c44eb24f", "codes": ["C-8.1-LO-3"], "note": "Shifting only the top four of nine observations leaves the 5th, the median, fixed. Positional median reasoning."},
+  {"sha": "09cd125c74a0d858", "codes": ["C-8.1-LO-1"], "note": "Solves for x from a given mean and means a sub-list. Direct-method mean."},
+  {"sha": "700df3c316698855", "codes": ["C-8.1-LO-2"], "note": "Highest-frequency value of a raw list is the mode. LO-2."},
+  {"sha": "4a5504794daaeb86", "codes": ["C-8.1-LO-1"], "note": "Very-short twin of the 10th-student weight item; total = mean x count. Mean only."},
+  {"sha": "d5654750803a2477", "codes": ["C-8.1-LO-3", "C-8.1-LO-1"], "note": "b is the median because a < b < c, then the mean supplies a + c. Median is the decisive step, mean secondary."},
+  {"sha": "57c3e4bbe0b2d073", "codes": ["C-8.1-LO-1"], "note": "Solves the mean of squares for n and stops there. Unlike its MCQ twin it never asks for a median, so LO-1 alone."}
+ ]
+}

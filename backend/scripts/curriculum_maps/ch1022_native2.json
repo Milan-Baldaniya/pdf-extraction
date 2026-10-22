@@ -1,0 +1,430 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "qid:87015",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "Joule's law in symbols plus a device that works on it; verbatim C 2.5-LO-2."
+  },
+  {
+   "sha": "qid:87016",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "Meaning of a 5 A fuse rating; the fuse clause of C 2.5-LO-2."
+  },
+  {
+   "sha": "qid:87017",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "Tungsten for the bulb filament; the filament-lamp clause of C 2.5-LO-2."
+  },
+  {
+   "sha": "qid:87018",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Defines electric energy; the energy clause of C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:87019",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Defines electric power; verbatim C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:87020",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "The product of p.d. and current is power; C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:87021",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "SI unit of electric power; C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:87022",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Unit in which electrical energy is sold, i.e. the kilowatt hour; C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:87023",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Which of a 60 W and a 40 W bulb has less resistance, from R = V squared / P; the power outcome rather than the resistivity one, because the resistance comes from the rating."
+  },
+  {
+   "sha": "qid:87024",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Kilowatt versus kilowatt hour is the power/energy distinction; C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:87025",
+   "codes": [
+    "C 2.4"
+   ],
+   "note": "Defines current and the ampere; a definition rather than the V-I-R relation, so competency level."
+  },
+  {
+   "sha": "qid:87026",
+   "codes": [
+    "C 8.1-LO-5"
+   ],
+   "note": "Differences between a voltmeter and an ammeter; the instrument clause of C 8.1-LO-5."
+  },
+  {
+   "sha": "qid:87027",
+   "codes": [
+    "C 2.4"
+   ],
+   "note": "Defines a circuit and contrasts open with closed. No symbols or meter readings are asked for, so this stays at the competency rather than C 8.1-LO-5."
+  },
+  {
+   "sha": "qid:87028",
+   "codes": [
+    "C 8.1-LO-5"
+   ],
+   "note": "Names circuit symbols and their functions; verbatim the standard-symbols clause of C 8.1-LO-5."
+  },
+  {
+   "sha": "qid:87029",
+   "codes": [
+    "C 8.1-LO-5"
+   ],
+   "note": "Second symbol-identification item; the standard-symbols clause of C 8.1-LO-5."
+  },
+  {
+   "sha": "qid:87030",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "Ohm's law by formula and by graph; verbatim LO-1."
+  },
+  {
+   "sha": "qid:87031",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Factors affecting resistance with the expression; verbatim LO-3."
+  },
+  {
+   "sha": "qid:87032",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "Passing current for a long time heats the wire and raises its resistance; the mechanism is Joule heating, so C 2.5-LO-2 rather than the length/area/material outcome."
+  },
+  {
+   "sha": "qid:87033",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Copper versus manganin of equal length and resistance: the lower-resistivity wire is thinner. Verbatim LO-3."
+  },
+  {
+   "sha": "qid:87034",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "A potential difference is the condition for charge to move, maintained by a cell; LO-1 relates p.d. to current."
+  },
+  {
+   "sha": "qid:87035",
+   "codes": [
+    "C 2.4-LO-3",
+    "C 8.1-LO-5"
+   ],
+   "note": "Thicker wire means lower resistance (LO-3) and the question is answered as a predicted ammeter reading (C 8.1-LO-5)."
+  },
+  {
+   "sha": "qid:87036",
+   "codes": [
+    "C 2.4-LO-3",
+    "C 8.1-LO-5"
+   ],
+   "note": "Longer wire means higher resistance (LO-3), again answered as a predicted ammeter reading (C 8.1-LO-5)."
+  },
+  {
+   "sha": "qid:87037",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "Matches V-I graph slopes to R1 > R2; Ohm's law read graphically. No combination is involved, so not LO-2."
+  },
+  {
+   "sha": "qid:87038",
+   "codes": [
+    "C 8.1-LO-5"
+   ],
+   "note": "Judges whether a drawn circuit is correctly connected; the circuit-diagram outcome."
+  },
+  {
+   "sha": "qid:87039",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Resistance versus resistivity; the distinction sits inside LO-3, which relates resistance to material."
+  },
+  {
+   "sha": "qid:87040",
+   "codes": [
+    "C 8.1-LO-5",
+    "C 2.4-LO-2"
+   ],
+   "note": "Part (a) is why an ammeter must not be in parallel (C 8.1-LO-5); part (b) is why series wiring fails for domestic lights (LO-2). Two genuinely different outcomes in one item."
+  },
+  {
+   "sha": "qid:87041",
+   "codes": [
+    "C 2.4-LO-2",
+    "C 8.1-LO-5"
+   ],
+   "note": "Salient features of series and parallel combinations (LO-2) together with an explicitly demanded pair of drawn diagrams (C 8.1-LO-5)."
+  },
+  {
+   "sha": "qid:87042",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "Tungsten for lamp filaments because of its high melting point under Joule heating; the filament-lamp clause of C 2.5-LO-2."
+  },
+  {
+   "sha": "qid:87043",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Copper and aluminium for transmission because of low resistivity; the material clause of LO-3."
+  },
+  {
+   "sha": "qid:87044",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "Nichrome for an iron's heating element; the heater clause of C 2.5-LO-2."
+  },
+  {
+   "sha": "qid:87045",
+   "codes": [
+    "C 2.5-LO-2",
+    "C 2.4-LO-2"
+   ],
+   "note": "Two immersion heaters heat faster in parallel because the combined resistance is lower (LO-2) and heat follows from that (C 2.5-LO-2)."
+  },
+  {
+   "sha": "qid:87046",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Defines the kilowatt hour and relates it to the joule; verbatim the kWh clause of C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:87047",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Which of two bulbs of equal voltage but different wattage has greater resistance, from R = V squared / P; the power outcome."
+  },
+  {
+   "sha": "qid:87048",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Defines power and derives P = V squared / R; verbatim C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:87049",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "States and verifies Ohm's law and comments on its limits; verbatim LO-1. Duplicate stem of qid:86967."
+  },
+  {
+   "sha": "qid:87050",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Shows the same p.d. exists across parallel branches; a defining property of the parallel combination. Duplicate stem of qid:86970."
+  },
+  {
+   "sha": "qid:87051",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Experiment on the factors affecting resistance; verbatim LO-3."
+  },
+  {
+   "sha": "qid:87052",
+   "codes": [
+    "C 2.5-LO-2"
+   ],
+   "note": "Joule's heating effect and its everyday applications; verbatim C 2.5-LO-2. Duplicate of the applications half of qid:86971."
+  },
+  {
+   "sha": "qid:105057",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "Unit of e.m.f. is the volt; potential difference in LO-1."
+  },
+  {
+   "sha": "qid:105058",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "The kilowatt hour is a unit of energy; C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:105059",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "1 kWh in joules; the kWh clause of C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:105060",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Materials that carry larger currents are conductors, a classification by resistivity; the material clause of LO-3."
+  },
+  {
+   "sha": "qid:105061",
+   "codes": [
+    "C 2.4"
+   ],
+   "note": "Conventional direction of current; a convention about current rather than the V-I-R relation."
+  },
+  {
+   "sha": "qid:105062",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Unit of specific resistance, i.e. resistivity; LO-3."
+  },
+  {
+   "sha": "qid:105063",
+   "codes": [
+    "C 8.1-LO-5"
+   ],
+   "note": "The variable resistance is the rheostat, a named circuit component; C 8.1-LO-5."
+  },
+  {
+   "sha": "qid:105064",
+   "codes": [
+    "C 2.4-LO-1"
+   ],
+   "note": "SI unit of resistance; the resistance term of Ohm's law."
+  },
+  {
+   "sha": "qid:105065",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Power is inversely proportional to resistance at fixed voltage; the power outcome."
+  },
+  {
+   "sha": "qid:105066",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Commercial unit of electrical energy; the kWh clause of C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:105067",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Equivalent resistance of 1, 2 and 3 ohms in parallel; LO-2."
+  },
+  {
+   "sha": "qid:105068",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "P = VI for a bulb at 220 V and 0.5 A; the power outcome."
+  },
+  {
+   "sha": "qid:105069",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Order of magnitude of insulator resistivity; the material clause of LO-3."
+  },
+  {
+   "sha": "qid:105070",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "1 kWh in joules; the kWh clause of C 2.5-LO-1."
+  },
+  {
+   "sha": "qid:105071",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Resistance of insulators is very high, a material classification; LO-3."
+  },
+  {
+   "sha": "qid:105072",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Resistivity depends on the material only; verbatim LO-3."
+  },
+  {
+   "sha": "qid:105073",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Number of 6 ohm resistors needed to make 2 ohms; equivalent resistance in parallel."
+  },
+  {
+   "sha": "qid:105074",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Least resistance obtainable from four given resistors is the all-parallel value; LO-2."
+  },
+  {
+   "sha": "qid:105075",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Free electrons make a metal a conductor, a material classification; LO-3."
+  },
+  {
+   "sha": "qid:105076",
+   "codes": [
+    "C 2.4-LO-2"
+   ],
+   "note": "Current through one branch of a drawn network; needs the equivalent resistance of the combination. The figure is not stored, so the item is unanswerable as held."
+  },
+  {
+   "sha": "qid:105077",
+   "codes": [
+    "C 2.5-LO-1"
+   ],
+   "note": "Compares filament resistances of a 40 W and a 60 W lamp at 220 V through R = V squared / P; the power outcome."
+  },
+  {
+   "sha": "qid:105078",
+   "codes": [
+    "C 2.4-LO-3"
+   ],
+   "note": "Resistivity of a metallic wire depends on the material; verbatim LO-3. Duplicate stem of qid:105072."
+  }
+ ]
+}

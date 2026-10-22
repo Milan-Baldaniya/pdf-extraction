@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8600,
+ "mappings": [
+  {
+   "sha": "5d9889e78da82d42",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Line parallel to the time axis on a position-time graph means the object is at rest. A state of motion read from graph shape, so LO-1's interpret clause rather than LO-2's slope-to-quantity operation."
+  },
+  {
+   "sha": "1365447082cd3c74",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Significance of the area under a velocity-time graph: displacement. LO-2 verbatim; the answer names a kinematic quantity, which is the discriminator against the LO-1 graph items."
+  },
+  {
+   "sha": "57b85877f3428dd4",
+   "codes": ["C-2.1-LO-3"],
+   "note": "States what v=u+at relates. Knowledge of the equation set, which belongs with LO-3; LO-4 is reserved for items that substitute values, and none are supplied."
+  },
+  {
+   "sha": "85e2b38bdfc535b0",
+   "codes": ["C-2.1-LO-3"],
+   "note": "Write s=ut+(1/2)at^2. Same equation-recall demand as V82, distinguished only by which of the three equations is wanted; both honestly share LO-3."
+  },
+  {
+   "sha": "c212ba02bda0f68f",
+   "codes": ["C-2.1-LO-3"],
+   "note": "Corrects the claim that the equations work for any accelerated motion. The constant-acceleration restriction is a property of the derivation, so LO-3 rather than LO-4."
+  },
+  {
+   "sha": "1b76cc2eef44ecdb",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Definition of uniform circular motion - named explicitly in LO-1. C-8.1-LO-2 is withheld because no speed expression is asked for, which is exactly what separates this item from V88."
+  },
+  {
+   "sha": "eca0464152932c2a",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Why uniform circular motion is accelerated. LO-1's definitions of acceleration and of uniform circular motion together; the chapter asks this same question at five difficulty levels and they share this outcome honestly."
+  },
+  {
+   "sha": "41db0b86357d52d0",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Direction of velocity in uniform circular motion is along the tangent - definitional (LO-1). No prediction is asked, so unlike O58 and V92 it does not take LO-60."
+  },
+  {
+   "sha": "9401dd27276cdc41",
+   "codes": ["C-8.1-LO-2"],
+   "note": "Asks for the 2(pi)r/T formula itself. The only outcome in the frame covering the speed expression for circular motion, which separates this cleanly from the LO-1 conceptual circular-motion items around it."
+  },
+  {
+   "sha": "c8f3b99462595caa",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Displacement after one full round is zero. The distance/displacement contrast on a closed path (LO-1); no speed expression required, so not C-8.1-LO-2."
+  },
+  {
+   "sha": "ac2a075864a64d2a",
+   "codes": ["C-2.1-LO-1"],
+   "note": "POOR FIT. The answer is the name of an ancient text. Mapped to LO-1 because the concept credited to it is the definition of speed, but the recall target itself has no home in this frame - same finding as its O15 twin."
+  },
+  {
+   "sha": "c23330221a8f8208",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Instantaneous versus average velocity. LO-1 defines velocity and is the only outcome that could host this, though note that no outcome in this frame names instantaneous velocity - a mild gap."
+  },
+  {
+   "sha": "ff26aac7b999877d",
+   "codes": ["C-2.1-LO-1", "LO-60"],
+   "note": "What would happen if the ring were lifted: a prediction about the outcome of an activity (LO-60), answered by the tangential-velocity definition (LO-1). It splits from S107 below, which asks the student to describe the activity rather than predict its result."
+  },
+  {
+   "sha": "885b02c6ef67fa95",
+   "codes": ["C-2.1-LO-1"],
+   "note": "POOR FIT. An example of two-dimensional motion. Both LO-1 and its parent competency are scoped to one dimension, so nothing in the frame covers this; LO-1 is cited as the nearest definitional home. Same finding as O63."
+  },
+  {
+   "sha": "954a0cc53cf4aa93",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Slope of a velocity-time graph gives acceleration - LO-2's 'average acceleration from velocity-time graph' clause. A quantity, not a state of motion, so not LO-1."
+  },
+  {
+   "sha": "07d1e1445ac8d4ab",
+   "codes": ["C2.1"],
+   "note": "POOR FIT. Asks the scientific term for the acceleration caused by gravity. No learning outcome mentions gravity; the parent competency C2.1 names 'acceleration due to gravity' explicitly, so the competency is the only legitimate home and is cited alone."
+  },
+  {
+   "sha": "5135e6dd3ab8e8ae",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Explain with an example how displacement can be zero while distance is not. LO-1's differentiation clause, asked for as an explanation with an illustration rather than as a calculation."
+  },
+  {
+   "sha": "507d39067df5a239",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Zero average velocity with non-zero average speed, with a daily-life example. The speed/velocity half of LO-1's differentiation, distinct from S96's distance/displacement half by which pair of quantities is contrasted."
+  },
+  {
+   "sha": "c0efa8198d069b8e",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Definition of average acceleration plus its SI unit plus the condition for it to oppose motion. All three parts sit in LO-1 (define, express in SI units, direction in straight-line motion); nothing is calculated."
+  },
+  {
+   "sha": "a01dea14072f2792",
+   "codes": ["C-2.1-LO-1", "C-2.1-LO-2"],
+   "note": "Genuinely two demands: draw the position-time graph for constant velocity (LO-1's plot clause) and then obtain the velocity from its slope (LO-2). Neither code alone covers the item."
+  },
+  {
+   "sha": "e62036693ac8b497",
+   "codes": ["C-2.1-LO-2"],
+   "note": "How to get displacement from a velocity-time graph under constant acceleration (trapezium area). Pure LO-2; no graph has to be drawn from scratch, so C8.1 is not added as it is for N14 and N15."
+  },
+  {
+   "sha": "d901e4e8445616cf",
+   "codes": ["C-2.1-LO-1", "C-2.1-LO-2"],
+   "note": "Same two-demand shape as S99 but on the velocity-time axis: draw the graph for uniform retardation (LO-1) and interpret its slope as acceleration (LO-2)."
+  },
+  {
+   "sha": "03dc8d4ab7d74968",
+   "codes": ["C-2.1-LO-1"],
+   "note": "How graph shape distinguishes stationary, constant-velocity and changing-velocity motion. Every answer is a state of motion, which is the discriminator that keeps this on LO-1 and off LO-2."
+  },
+  {
+   "sha": "6249e7e3b164729f",
+   "codes": ["C-2.1-LO-3"],
+   "note": "State all three kinematic equations and what each symbol means. The equation set as a whole, so LO-3; LO-4 would need values to substitute and none are given."
+  },
+  {
+   "sha": "b6daae736ea22177",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Draw an athlete on a circular track and explain how the velocity direction changes. Definitional content about uniform circular motion (LO-1); no 2(pi)R/T expression is required, so C-8.1-LO-2 is withheld."
+  }
+ ]
+}

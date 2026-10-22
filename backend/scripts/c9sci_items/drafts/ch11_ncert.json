@@ -1,0 +1,210 @@
+{
+ "chapter": 11,
+ "chapter_id": 8616,
+ "extraction_id": 602,
+ "section": "ncert",
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "page": 473,
+   "source_offset": 8742,
+   "stem": "A flower’s anthers are removed before it matures. Later, pollen from another plant of the same species is dusted onto its stigma and seeds are produced. Which process has been ensured here?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Self-pollination"
+    },
+    {
+     "label": "B",
+     "text": "Cross-pollination"
+    },
+    {
+     "label": "C",
+     "text": "Fertilisation"
+    },
+    {
+     "label": "D",
+     "text": "Tissue culture"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Option (ii) Cross-pollination is correct. By deliberately removing the anthers, self-pollination is physically prevented. Dusting the stigma with pollen from a completely different plant of the same species ensures that cross-pollination takes place, leading to subsequent seed production.",
+   "concept": "Self-pollination versus cross-pollination",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "2",
+   "form": "short",
+   "page": 473,
+   "source_offset": 9331,
+   "stem": "Arrange the following stages of sexual reproduction in plants in the correct order:\n(i) Pollen germination on stigma\n(ii) Fertilisation\n(iii) Pollination\n(iv) Formation of zygote",
+   "answer": "The correct chronological order of stages is: (iii) Pollination, followed by (i) Pollen germination on stigma, then (ii) Fertilisation, and finally (iv) Formation of zygote.",
+   "concept": "Fertilisation forms a zygote",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "3",
+   "form": "assertion_reason",
+   "page": 473,
+   "source_offset": 9705,
+   "stem": "Assertion (A): The zygote formed after fertilisation immediately attaches to the uterus wall.\nReason (R): The uterus wall is always prepared to receive the zygote.",
+   "assertion": "The zygote formed after fertilisation immediately attaches to the uterus wall.",
+   "reason": "The uterus wall is always prepared to receive the zygote.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both A and R are true, and R is the correct explanation of A."
+    },
+    {
+     "label": "B",
+     "text": "Both A and R are true, but R is not the correct explanation of A."
+    },
+    {
+     "label": "C",
+     "text": "A is true, but R is false."
+    },
+    {
+     "label": "D",
+     "text": "A is false, but R is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Option (iv) A is false, but R is true is the most appropriate choice based on standard conventions, though with a caveat. The assertion is false because the zygote does not attach immediately; it undergoes a series of mitotic divisions while travelling through the oviduct before eventually implanting in the uterus. The reason is considered practically true in the context of the female reproductive cycle, as the inner lining of the uterus cyclically rebuilds and thickens with blood vessels every month specifically to prepare for receiving and nourishing a potential zygote.",
+   "concept": "Fertilisation and implantation in uterus",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "4",
+   "form": "short",
+   "page": 473,
+   "source_offset": 10680,
+   "stem": "Why does asexual reproduction produce offsprings that are genetically identical to the parent?",
+   "answer": "Asexual reproduction involves only a single parent and relies on mitosis, a type of cell division that produces daughter cells with the exact same genetic material and chromosome number as the parent cell. Because there is no involvement of meiosis, no formation of gametes, and no mixing of genetic traits from a second parent, the resulting offspring inherit all their characteristics exclusively from the single parent. This lack of genetic mixing results in the production of clones, which are genetically identical to the parent organism.",
+   "concept": "Mitosis is basis of asexual reproduction",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "5",
+   "form": "short",
+   "page": 473,
+   "source_offset": 11344,
+   "stem": "Explain why the menstrual cycle stops during pregnancy.",
+   "answer": "The menstrual cycle is driven by the monthly preparation of the uterine lining to receive a fertilised egg; if no fertilisation happens, this lining breaks down and sheds as menstrual bleeding. However, when a woman becomes pregnant, a fertilised egg (zygote) successfully implants into the thickened inner lining of the uterus. To support the developing embryo, the body maintains and further enriches this uterine lining with blood vessels for nourishment and protection throughout the nine months of gestation, thereby preventing the shedding process and temporarily halting the menstrual cycle.",
+   "concept": "Menstruation when egg is unfertilised",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "6",
+   "form": "short",
+   "page": 473,
+   "source_offset": 12025,
+   "stem": "Why are flowers that bloom at night white or light in colour as compared to flowers that bloom during the day?",
+   "answer": "Flowers that bloom during the day are usually brightly coloured to attract diurnal pollinators like bees, butterflies, and sunbirds, which rely heavily on visual cues and bright colours to find nectar. In contrast, flowers that bloom at night rely on nocturnal pollinators such as moths and bats, which operate in low-light conditions. To attract these night-time pollinators, night-blooming flowers are predominantly white or light-coloured so they can effectively reflect moonlight and stand out in the dark, often accompanied by strong fragrances to help pollinators locate them.",
+   "concept": "Insect and bird pollination",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3,
+   "note": "The printed answer breaks off at 'night-' at the foot of the NCERT banner folio (ch11_source.md char 12,455) and its tail is printed at the top of the next folio, char 20,741. Both halves are rejoined here; no words supplied."
+  },
+  {
+   "number": "7",
+   "form": "short",
+   "page": 477,
+   "source_offset": 20915,
+   "stem": "Why do vegetatively propagated plants tend to be more vulnerable to diseases than sexually reproduced plants?",
+   "answer": "Vegetatively propagated plants are produced asexually from the vegetative parts of a single parent plant, which means all the offspring are genetically identical clones of the parent. Because there is absolutely no genetic variation or mixing of new traits within this population, they share the exact same vulnerabilities. If a specific virus, bacteria, or fungus successfully infects one plant, the entire genetically identical crop will be equally susceptible and can be rapidly wiped out, unlike sexually reproduced plants where genetic diversity allows some individuals to naturally resist diseases.",
+   "concept": "Asexual reproduction uses one parent",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "note": "The parser numbered this item '3' and replaced its stem with about 2,400 characters of summary prose (summary sections 3, 4, 5 and 5.1, printed on ch11_source.md page 476) plus the tail of Q6's answer. The real stem was the last line of that field and is restored here verbatim."
+  },
+  {
+   "number": "8",
+   "form": "short",
+   "page": 477,
+   "source_offset": 21657,
+   "stem": "If all flowers in a type of plant were only capable of self-pollination, how would it affect the genetic diversity over several generations? Explain.",
+   "answer": "If a plant species were strictly limited to self-pollination, its genetic diversity would drastically decrease over several generations. Self-pollination restricts the transfer of pollen to the same flower or another flower on the exact same plant, preventing the introduction and mixing of new genetic combinations that normally occur when two different plants cross-pollinate. Over time, this inbreeding leads to offspring that are highly genetically similar, severely reducing the plant population’s ability to adapt to environmental changes, survive new diseases, or undergo evolutionary progress.",
+   "concept": "Variation promotes adaptation and evolution",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "9",
+   "form": "short",
+   "page": 477,
+   "source_offset": 22436,
+   "stem": "A farmer wants to produce a large number of genetically identical plants quickly. Suggest suitable reproduction methods and explain why they are effective.",
+   "answer": "The farmer should utilize artificial methods of vegetative propagation, such as cutting, grafting, layering, or plant tissue culture. These methods are highly effective for this goal because they rely on asexual reproduction, utilizing existing vegetative parts like stems or apical meristems from a single parent to grow new plants, which guarantees that all offspring are exact genetic clones possessing the desired traits. Additionally, these techniques bypass the lengthy natural processes of flowering, pollination, and seed germination, allowing the farmer to rapidly cultivate a massive scale of high-yield or disease-resistant crops in a short amount of time.",
+   "concept": "Vegetative propagation in plants",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "10",
+   "form": "long",
+   "page": 477,
+   "source_offset": 23289,
+   "stem": "Suresh prepares slides with pollen grains in different sugar concentrations (0%, 2.5%, 5%, 7.5%, 10%) to study the germination of pollen.\n(i) What are the different hypotheses which can be tested using this set-up?\n(ii) What parameters should be kept the same in this set-up?",
+   "answer": "(i) One hypothesis Suresh could test is that there is a specific, optimum sugar concentration (e.g., 5% or 7.5%) that yields the highest rate of pollen germination and the longest pollen tube growth. Another hypothesis could be that extreme conditions, such as the complete absence of sugar (0%) or a very high concentration (10%), will inhibit or significantly slow down pollen germination compared to moderate sugar levels.\n(ii) To ensure the experiment is a fair test, Suresh must strictly control several parameters, including using pollen grains from the exact same plant species, maintaining the same environmental temperature and humidity for all slides, using equal volumes of the sugar solution drops, and allowing the exact same time duration for the pollen to germinate before observing them under the microscope.",
+   "concept": "Pollen tube growth and male gamete",
+   "bloom": "create",
+   "dok": 4,
+   "difficulty": 4
+  },
+  {
+   "number": "11",
+   "form": "short",
+   "page": 477,
+   "source_offset": 24427,
+   "stem": "Look at the picture given below and think in line with the given prompts and find out which type(s) of pollination might have been followed in these flowers -",
+   "answer": "Tomato – Self-pollination: Because the stamens closely cover and enclose the stigma, pollen grains naturally fall directly onto the receptive stigma of the same flower before external pollen can easily reach it.\nWheat – Self-pollination: Since the flowers complete pollination before opening, there is no chance for wind or insects to bring pollen from other plants, ensuring self-fertilisation.\nPapaya – Cross-pollination: Male and female flowers are on separate trees, so pollen must be transferred by external agents like wind or insects.",
+   "concept": "Self-pollination versus cross-pollination",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased",
+   "reproduction_note": "The printed answer is a three-column table (Plant / Type of Pollination / Explanation) that the text layer emits one cell per line. Every word is the book's; the row layout is mine. The stem had also absorbed the running header 'Reproduction: How Life Continues', which is removed.",
+   "note": "The picture of the tomato, wheat and papaya flowers is not in the text layer. figure_required is deliberately NOT set: there are no images to attach and it would fail V-07. All three plants are named in the printed answer."
+  },
+  {
+   "number": "12",
+   "form": "long",
+   "page": 478,
+   "source_offset": 25294,
+   "stem": "In the lower Himalayan region of northern India, apples are an important cash crop that contribute significantly to farmer’s livelihoods. The fruit yield in apple cultivation is declining continuously, associated with climate change and a significant decline in the population of natural pollinators. A researcher-farmer group set up two experimental apple orchards at two distinct locations: Places A and B. In apple orchards at Place A, they allowed natural pollinators to pollinate the flowers of the apple. In apple orchards at Place B, they applied mixed farming techniques of beekeeping. Along with honey, the farmer yielded apples. The yield of apples is depicted in figure in terms of fruit setting (number of fruits/the total number of corresponding fruit-bearing branches) and fruit drop (premature falling of developing fruits) in the two types of experimental places of apple orchards.\n(i) What are the hypotheses the researcher-farmers group has thought of for this investigation?\n(ii) What are the different parameters in the experiment?\n(iii) Compare and analyse the data of two experimental orchards Places A and B, in terms of high yields of apple fruits.\n(iv) Based on your analysis, what do you infer from the data?",
+   "answer": "(i) The primary hypothesis is that introducing artificial bee colonies to the orchards will compensate for the declining natural pollinators, significantly improving pollination efficiency, which will in turn increase the percentage of successful fruit setting and reduce the rate of premature fruit drop compared to relying on natural pollination alone.\n(ii) The independent parameter (the variable being manipulated) is the method of pollination, specifically the presence or absence of introduced bee colonies. The dependent parameters (the variables being measured) are the percentage of fruit setting and the percentage of fruit drop. Controlled parameters would inherently include the species of apple trees, geographical and climatic conditions of the lower Himalayan region, and basic agricultural practices applied to both orchards.\n(iii) By analysing the provided bar graph, Orchard B, which utilized bee colonies, demonstrated a highly successful fruit set of 40% alongside a remarkably low premature fruit drop of just 5%. In stark contrast, Orchard A, which relied solely on declining natural pollinators, showed a much poorer performance with a fruit set of approximately 26% and a devastatingly high fruit drop of 35%. This data clearly shows that Orchard B retained and developed far more healthy fruits than Orchard A.\n(iv) I infer that the active presence of bee colonies is a highly effective intervention for apple farming. Efficient cross-pollination facilitated by the bees directly leads to healthier fruit development (higher fruit set) and stronger fruit retention (lower fruit drop), ultimately guaranteeing a much higher and more stable crop yield for the farmers despite the broader environmental decline in natural pollinators.",
+   "concept": "Pollination is essential for fruits",
+   "bloom": "analyze",
+   "dok": 4,
+   "difficulty": 4,
+   "note": "The bar graph is not in the text layer, but every value the question turns on (fruit set 40% vs 26%, fruit drop 5% vs 35%) is quoted in the printed answer, so the item stands without it. figure_required is deliberately NOT set. The answer straddles the page break at char 27,727 and both halves are rejoined here."
+  },
+  {
+   "number": "13",
+   "form": "short",
+   "page": 479,
+   "source_offset": 28428,
+   "stem": "A student claims, “In humans, ovulation always happens on day 14 of the menstrual cycle”. Critically examine this claim and state whether the claim is correct or not. Give at least two reasons for your answer.",
+   "answer": "The student’s claim is incorrect because it uses the absolute word “always”. While day 14 is often taught as the average day of ovulation in a textbook 28-day cycle, it is not a universal rule for every female. Firstly, the total length of a normal menstrual cycle varies significantly from person to person, typically ranging between 21 to 35 days, which means the actual day of ovulation shifts accordingly depending on the individual’s unique cycle length. Secondly, a woman’s cycle and the timing of ovulation can fluctuate from month to month due to various external and internal factors, such as high stress levels, changes in diet, illness, or natural hormonal imbalances.",
+   "concept": "Menstrual cycle and menopause",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 4
+  }
+ ]
+}

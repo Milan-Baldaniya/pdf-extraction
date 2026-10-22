@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8600,
+ "mappings": [
+  {
+   "sha": "e02b3f2633e59e01",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Asks when displacement is zero and what the distance is in that case: the entire answer is the distance/displacement distinction on a straight track. Not LO-4 (100+100 is arithmetic, not a kinematic equation) and not LO-2 (the figure is a track sketch, nothing is read off a graph axis)."
+  },
+  {
+   "sha": "6a6743dc5ce32522",
+   "codes": ["C-2.1-LO-1", "LO-59"],
+   "note": "Core is still distance vs displacement (LO-1), but the question form is 'which quantity does fuel consumption depend on' - singling out the governing variable for a real phenomenon, which is LO-59. Nothing is computed, so LO-4 is out."
+  },
+  {
+   "sha": "d771f107e38047d5",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Probes the condition under which distance equals the magnitude of displacement (straight, one-directional motion) - the equality clause of LO-1. Not LO-2: the figure is a path diagram, not a position-time graph with values to extract."
+  },
+  {
+   "sha": "20b86393bf4536dd",
+   "codes": ["C-2.1-LO-1"],
+   "note": "400/5 vs 0/5. The content of the answer is that displacement is zero while distance is not, i.e. the speed/velocity differentiation. The arithmetic is trivial, so LO-4 (calculate unknowns using kinematic equations) is not the outcome actually probed."
+  },
+  {
+   "sha": "378d57e3a63fb8d7",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Pure statement of the two conditions relating average speed to average velocity - LO-1's differentiation clause with no data at all, so neither LO-2 nor LO-4 can apply."
+  },
+  {
+   "sha": "005c46de85fb6161",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Four-leg round trip: sum the path length, then recognise zero net position change. LO-1's distance/displacement differentiation; no equation and no graph."
+  },
+  {
+   "sha": "2b59e3c7d2d2f8ee",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Same differentiation as its siblings but posed on a vertical axis (four floors up, two down): displacement is the net 2 floors against 6 floors of path. Still LO-1; 6x3 and 2x3 are not kinematic-equation work."
+  },
+  {
+   "sha": "a6020211381db8b6",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Constant speedometer yet accelerating: probes the definition of acceleration as change of velocity including direction, hence uniform circular motion - both named in LO-1. Not C-8.1-LO-2, which is the 2(pi)R/T speed expression this question never needs."
+  },
+  {
+   "sha": "903d1f1b467053c6",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Given u, v, t; find a then s. Straight substitution into a=(v-u)/t and s=ut+(1/2)at^2. LO-4, not LO-3: the equations are used, not derived."
+  },
+  {
+   "sha": "925e5c0340355356",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Given u, v, s; find a from v^2=u^2+2as then t from v=u+at. Two-equation substitution. Splits from the reaction-time braking problems because every governing factor is handed over - only unknowns are asked for, so LO-59 does not apply."
+  },
+  {
+   "sha": "83395582001ec421",
+   "codes": ["C-2.1-LO-2"],
+   "note": "The quantity extracted from the position-time graph is velocity, via slope - LO-2's named operation. Chosen over LO-1 because the answer concerns the value of a kinematic quantity (are the two velocities equal), not what kind of motion the lines depict."
+  },
+  {
+   "sha": "ed49cf6561527c49",
+   "codes": ["C-2.1-LO-2", "C-2.1-LO-1"],
+   "note": "Average velocity is read off the position-time graph via identical initial and final positions (LO-2), but options (iii) and (iv) are decided purely by the speed-versus-velocity distinction (LO-1). Both demands are genuinely present."
+  },
+  {
+   "sha": "e8f9b7c0f09125b7",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Unit conversion then s=((u+v)/2)t. A kinematic-equation calculation with no graph supplied, so LO-4 rather than the LO-2 area route to the same number."
+  },
+  {
+   "sha": "ea52c94e79f05299",
+   "codes": ["C-2.1-LO-4"],
+   "note": "Three phases, each solved by a kinematic equation and summed. No graph is given or asked for, so the sibling LO-2 area method is not what is being probed."
+  },
+  {
+   "sha": "0e25f10d54d35681",
+   "codes": ["C-2.1-LO-4", "LO-59"],
+   "note": "Splits from the other braking numericals: the total stopping distance is reaction distance plus braking distance, so the student must first identify reaction time as a separate governing factor (LO-59) before doing the substitution (LO-4)."
+  },
+  {
+   "sha": "35dbc504c2af1b34",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Rest and motion are relative to a chosen reference point. The frame has no outcome for reference frames at all; LO-1 is the least-bad home because position relative to a reference point underpins its definitions. Recorded as a weak fit."
+  },
+  {
+   "sha": "ca85dc961ab0d7df",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Verbatim LO-2: displacement and average acceleration obtained from a velocity-time graph by area and slope. Not LO-4 - every datum exists only on the graph."
+  },
+  {
+   "sha": "768916e0f6ed0418",
+   "codes": ["C-2.1-LO-2"],
+   "note": "Distance estimated as the area under a supplied velocity-time graph. LO-2 rather than LO-4 because all the numbers come off the graph, not from a stated u, a, t."
+  },
+  {
+   "sha": "282c87f8d5e8303d",
+   "codes": ["C-2.1-LO-2", "C8.1"],
+   "note": "Splits from the other area questions: the graph is not supplied, the student must construct it from the described motion and then take the area. Building the graphical model is C8.1; extracting displacement from it is LO-2."
+  },
+  {
+   "sha": "2a217236e987994f",
+   "codes": ["C-2.1-LO-2", "C8.1"],
+   "note": "Same split as its sibling - compute both accelerations, plot the two velocity-time lines, then read displacements as areas. C8.1 for building the model, LO-2 for the quantity taken from it."
+  },
+  {
+   "sha": "7577d23e81530c04",
+   "codes": ["C-8.1-LO-2", "C-2.1-LO-1"],
+   "note": "Minute hand over 1.5 revolutions: the speed part needs the circular-path expression (n x 2(pi)r over T), which only C-8.1-LO-2 covers; the distance-and-displacement parts are LO-1's contrast."
+  },
+  {
+   "sha": "1bf5a99068a742f7",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Position requires both distance and direction from a fixed point - the definitional base on which LO-1 builds displacement. Flagged with its siblings as a weak fit: no outcome in this frame names 'reference point'."
+  },
+  {
+   "sha": "8a660f3382c9fb6e",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Motion as change of position with respect to a reference point. Same definitional base as its sibling; chosen over LO-2/LO-4 because nothing is graphed or calculated."
+  },
+  {
+   "sha": "433457981862b5ee",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Matching displacement, average speed, average acceleration and time to m, m/s, m/s^2 and s is exactly LO-1's 'express displacement, velocity, acceleration in appropriate SI units' clause - nothing else in the frame mentions units."
+  },
+  {
+   "sha": "e59c02e300102c39",
+   "codes": ["C-2.1-LO-1"],
+   "note": "Assertion-reason on zero displacement with non-zero distance: LO-1's differentiation clause tested as a reasoning pair rather than a calculation."
+  }
+ ]
+}

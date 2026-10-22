@@ -1,0 +1,183 @@
+{
+ "chapter_id": 8614,
+ "mappings": [
+  {
+   "sha": "05734bfa7c4168a5",
+   "codes": [
+    "LO-39"
+   ],
+   "note": "Asks for the term used for ionic compounds INSTEAD of molecular mass. That is LO-39's final differentiation pair, 'formula unit mass and molecular mass', in one line. Not LO-41: nothing is computed, only the right term chosen."
+  },
+  {
+   "sha": "2b8a00bb3d5961ac",
+   "codes": [
+    "LO-41"
+   ],
+   "note": "Na2O formula unit mass, 62 u. Straight LO-41 arithmetic; the item never asks why the term is 'formula unit', which is what would add LO-39."
+  },
+  {
+   "sha": "286c6b214b900e5a",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Explain the law using the barium chloride reaction as an illustration. Explanation with a worked example is LO-40 - distinct from fe7c301a, which asks the student to DESCRIBE THE ACTIVITY and lands on LO-39's verification clause, and from c1b1d1ce, which only states the law (LO-48)."
+  },
+  {
+   "sha": "8eef47ef3dfb2e1e",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Three Dalton postulates and how each underwrites a law of chemical combination. LO-40 covers Dalton's theory, conservation of mass and constant proportions in one row, so this item is entirely inside it."
+  },
+  {
+   "sha": "771fcf925f9b34dc",
+   "codes": [
+    "LO-42"
+   ],
+   "note": "What polyatomic ions are and how their valency is used in a formula. The graded end is formula construction, LO-42. LO-39 was considered for the 'what is a polyatomic ion' half but the item never sets it against a monatomic ion."
+  },
+  {
+   "sha": "4df583be75f24b4d",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Defines a chemical bond and asks for the energy change on bonding. LO-40 carries the bond-formation half. Flagged as a genuinely poor fit: bond energy appears nowhere in this curriculum - not in any learning outcome and not in competency C1.1's text - so the second half of this item is unmapped."
+  },
+  {
+   "sha": "6c6e3007083d12a6",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Draw O2's electron dots and explain why the bond must be double. Covalent formation, LO-40; the double bond has no outcome of its own, so it shares the code with the single-bond items."
+  },
+  {
+   "sha": "8b7f3a7eb8dbdc6e",
+   "codes": [
+    "LO-42"
+   ],
+   "note": "The rules for an ionic formula containing a polyatomic ion, worked on aluminium sulfate. LO-42; this is the extended version of the MCQ 7ffa4cd3 and shares its outcome."
+  },
+  {
+   "sha": "84e5727c288dec2d",
+   "codes": [
+    "LO-39"
+   ],
+   "note": "Why 'formula unit mass' is preferred over 'molecular mass' for ionic solids. The demand is exactly LO-39's molecular-mass-versus-formula-unit-mass pair, resolved by structure. Not LO-41: the item explains the terminology instead of computing anything."
+  },
+  {
+   "sha": "d3a6bcf9d0104f33",
+   "codes": [
+    "LO-39"
+   ],
+   "note": "Ionic melting and boiling points explained against covalent ones, by reference to lattice structure. Explicit two-class comparison, the cleanest kind of LO-39 item in the chapter."
+  },
+  {
+   "sha": "6530080172683bc6",
+   "codes": [
+    "LO-41"
+   ],
+   "note": "Define molecular mass and compute it step by step for water. Definition plus calculation both sit inside LO-41, which names molecular mass; no comparison with formula unit mass is asked, so LO-39 is not added."
+  },
+  {
+   "sha": "f4af9e3f09c056d2",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Draw Cl2's electron sharing and say what bond results and why. Covalent formation, LO-40, in the same family as the O2 and H2 drawings."
+  },
+  {
+   "sha": "385485587e13df8f",
+   "codes": [
+    "LO-40",
+    "LO-48"
+   ],
+   "note": "Two demands: state the law of constant proportions (LO-48, familiarity) and then show how water's fixed composition illustrates it (LO-40, explanation). This item is the reason the two codes are kept distinct across the chapter - here it asks for both."
+  },
+  {
+   "sha": "3f16accb12c5b296",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Draw the electron transfer that makes NaCl and name the structure the ions then adopt. Formation of an ionic compound through to its lattice, LO-40. The structural half alone would be LO-39 only if it were being contrasted with molecular compounds, which it is not."
+  },
+  {
+   "sha": "09520808a0b76718",
+   "codes": [
+    "LO-39",
+    "LO-40"
+   ],
+   "note": "Defining cations against anions is LO-39's cation/anion pair; explaining the electrostatic force that then binds them is LO-40's ionic formation clause. The item needs both and neither alone answers it."
+  },
+  {
+   "sha": "11807a292a7104c3",
+   "codes": [
+    "LO-39"
+   ],
+   "note": "Why the baking soda is kept in the balloon before the start mass is taken, and what the balance will read afterwards. Pure experimental design and prediction - LO-39's fused 'plan and demonstrate activities to observe and verify' clause, and the strongest short-answer instance of it."
+  },
+  {
+   "sha": "693ee9e6a84b5ca6",
+   "codes": [
+    "LO-42"
+   ],
+   "note": "Prefix naming rules plus why dihydrogen monoxide is called water. Nomenclature conventions, LO-42. The traditional-name half is the same point as MCQ 1e17a88b about ammonia."
+  },
+  {
+   "sha": "9a0c87870610dd87",
+   "codes": [
+    "LO-41"
+   ],
+   "note": "What formula unit mass represents, then compute it for KCl. Both halves inside LO-41, which names formula unit mass. Contrast 84e5727c, which asks why the TERM differs and therefore goes to LO-39."
+  },
+  {
+   "sha": "e81f6b6b23d4169a",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Define a covalent bond and explain H2's formation. Formation outcome, LO-40 - the same pairing the frame itself makes by putting the definition and the formation of covalent compounds in one row."
+  },
+  {
+   "sha": "1c98043ebf49b75f",
+   "codes": [
+    "LO-39"
+   ],
+   "note": "Predict and explain what the conductivity rig does with an NaCl solution. Property-based identification of an ionic compound, LO-39. Not LO-39's activity clause: the apparatus here tests conductivity, not conservation of mass."
+  },
+  {
+   "sha": "2e23cfa00c97b8fc",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "What determines an atom's stability and why noble gases stay monoatomic. Mapped to LO-40's formation clause read in the negative. Flagged: the octet rule and valence-shell stability are named only inside competency C1.1's descriptive text and in no learning outcome, so this whole sub-family sits on LO-40 by extension rather than by wording."
+  },
+  {
+   "sha": "bb40b224ddf3b83f",
+   "codes": [
+    "LO-39",
+    "LO-40"
+   ],
+   "note": "First half tells an ion from its neutral parent atom (LO-39's cation/anion clause); second half explains how neutral sodium becomes Na+ (LO-40's formation clause). Its neighbour 1dc77aeb asks only the second half and takes LO-40 alone."
+  },
+  {
+   "sha": "5058c69626f3003e",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Defends constant proportions against the CO/CO2 counterexample - the law binds each compound separately. Explanation under challenge, LO-40. C1.2 is not added because the confusion here is between two compounds, not between a compound and a mixture, which is what separates this from 3d544a1c and 81ec9229."
+  },
+  {
+   "sha": "1dc77aeb2e7c5b2b",
+   "codes": [
+    "LO-40"
+   ],
+   "note": "Draw sodium and its cation and say why the atom gives the electron up. The 'why' is the formation driver, LO-40; the shell diagram is a means, not the graded end, so LO-41 is not cited."
+  },
+  {
+   "sha": "5e7b282e2d64eed0",
+   "codes": [
+    "LO-39"
+   ],
+   "note": "Rebut the claim that covalent compounds have high melting points by separating intramolecular bonds from intermolecular forces. A property-based ionic/covalent discrimination, LO-39, and the most demanding one in that family."
+  }
+ ]
+}

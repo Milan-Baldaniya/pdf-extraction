@@ -1,0 +1,29 @@
+{
+ "chapter_id": 8598,
+ "mappings": [
+  {"sha": "8ee35886fc0deeb5", "codes": ["C-4.3-LO-4"],
+   "note": "part (1) proves the equidistance clause of LO-4, part (2) uses the bisection clause to set up the right triangle; both clauses of the same outcome, and no central angle is involved so not LO-3"},
+  {"sha": "abee9900ee6b8e5b", "codes": ["C-4.3-LO-4"],
+   "note": "solves for the radius from half-chord and perpendicular distance - LO-4's bisection clause supplying the right-triangle legs, run in the chord-to-radius direction"},
+  {"sha": "27cd04e74da32356", "codes": ["C-4.3-LO-4"],
+   "note": "pure equidistance clause of LO-4, and the marked 'give a reason' is that theorem named; nothing is computed by Pythagoras"},
+  {"sha": "c21cb2a69e7adb73", "codes": ["C-4.3-LO-4"],
+   "note": "the chord nearer the centre is longer - an inequality version of LO-4's equidistance clause that no outcome actually states; closest legal code, recorded as a frame gap"},
+  {"sha": "189609e0053ac34b", "codes": ["C-4.3-LO-4"],
+   "note": "the RHS proof that equal chords are equidistant, written out; item 28 only states the same result, this one derives it"},
+  {"sha": "d7d8cdd483053622", "codes": ["C-4.3-LO-4"],
+   "note": "radius and distance given, chord found - substitution into the finished half-chord relation; duplicates part (1) of item 25 exactly"},
+  {"sha": "ceba803edb7d72c8", "codes": ["C-4.3-LO-4"],
+   "note": "the inverse of item 31 - chord and distance given, radius found; same LO-4 bisection clause, opposite unknown"},
+  {"sha": "b388b5c8f70eee6c", "codes": ["C-4.3-LO-3"],
+   "note": "transfers an 80 degree central angle from one chord to its equal, and names the theorem; LO-3 is the only outcome about chords and central angles"},
+  {"sha": "1ba9c62c5671456d", "codes": ["C-4.3-LO-4"],
+   "note": "the half-chord AM is given directly rather than derived from the full chord, so only the Pythagorean step remains - the lightest of the LO-4 computations"},
+  {"sha": "7dcfdcc9940b7e1e", "codes": ["C-4.3-LO-4"],
+   "note": "same radius-and-distance to chord computation as item 31 with different numbers, but the marking asks for the bisection justification to be written out first"},
+  {"sha": "f2f7c38904795857", "codes": ["C-4.3-LO-3"],
+   "note": "the SSS congruence proof of the equal-chords-equal-central-angles theorem - LO-3 at its proving end, where items 15 and 33 only state or apply it"},
+  {"sha": "ac1f87102267e759", "codes": ["C-4.3-LO-4"],
+   "note": "proves the converse direction, equidistant implies equal, using the bisection clause inside the proof; item 23 proves the forward direction"}
+ ]
+}

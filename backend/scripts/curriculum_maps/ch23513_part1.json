@@ -1,0 +1,30 @@
+{
+ "chapter_id": 23513,
+ "mappings": [
+  {"sha": "44e9eb2efbed203c", "codes": ["C-5.1-LO-2"], "note": "uses a STATED similarity to get the perimeter ratio from the side ratio; no parallel line, so not LO-1, and nothing is measured indirectly, so not LO-3"},
+  {"sha": "40649b3421eb9375", "codes": ["C-5.1-LO-1"], "note": "DE parallel to BC, AD/DB = AE/EC: Basic Proportionality Theorem applied to find an unknown length, the exact wording of LO-1"},
+  {"sha": "0910e8bf37b0198b", "codes": ["C-5.1-LO-1"], "note": "same BPT ratio read off the figure to find EC; a parallel-line proportion, not a similarity criterion"},
+  {"sha": "0787e6ed1b270e92", "codes": ["C-5.1-LO-2"], "note": "similarity is ESTABLISHED first by AA (common angle K plus the marked 46 degrees) and only then used; establishing similarity is LO-2"},
+  {"sha": "ae3bcd2e1ae3241c", "codes": ["CG-5"], "note": "altitude of an equilateral triangle by Pythagoras alone - no similarity and no parallel line anywhere. Curriculum 101 has no competency or outcome for the Pythagoras theorem, so the goal is the only honest level; see report"},
+  {"sha": "b6ea9ae841c0d4c7", "codes": ["C-5.2-LO-1"], "note": "which classes of figures are ALWAYS similar (circles yes, isosceles triangles no): this is what similarity preserves, the C-5.2-LO-1 outcome, not a computation"},
+  {"sha": "b5e189f3c4e6b17f", "codes": ["CG-5"], "note": "distance between two pole tops, but solved by Pythagoras on a rectangle, not by similarity - so LO-3 does not apply despite the real-world dressing. No Pythagoras outcome exists"},
+  {"sha": "bcf512ad6e7404b9", "codes": ["CG-5"], "note": "AQ^2 + CP^2 = AC^2 + PQ^2 is four applications of Pythagoras; no similar triangles are formed at any point"},
+  {"sha": "4f69a676fed163dc", "codes": ["C-5.1-LO-2"], "note": "correspondence of a given similarity used to find the two missing sides; the trap is matching AB to ED rather than DE, which is criteria-and-correspondence knowledge"},
+  {"sha": "066e5849634dff3e", "codes": ["CG-5"], "note": "hypotenuse from area and perimeter using a^2 + b^2 = c^2 with algebra; a Pythagoras item with no similarity content"},
+  {"sha": "1c51afb26beda624", "codes": ["CG-5", "C-5.1-LO-2"], "note": "assertion is the CONVERSE of Pythagoras (24, 10, 26), reason is the AAA criterion; the item asks whether the second explains the first, so both bodies of knowledge are needed"},
+  {"sha": "448bfe97acee1985", "codes": ["C-5.1"], "note": "the theorem on the ratio of AREAS of similar triangles, and whether it may be stated with altitudes instead of sides. No learning outcome in this chapter covers the area theorem, so the competency is the closest legal level; see report"},
+  {"sha": "e4a9b02cfa0d2b48", "codes": ["C-5.1-LO-1"], "note": "DE parallel to BC with AD unknown: a direct BPT substitution"},
+  {"sha": "4699693584c51de1", "codes": ["C-5.1-LO-2"], "note": "AA criterion from a common angle and a marked equal angle, then corresponding sides; establishing the similarity is the whole work"},
+  {"sha": "f30c126b4fac620f", "codes": ["C-5.1"], "note": "ratio of AREAS of two equilateral triangles whose sides are in 2:1. The area-ratio result has no outcome of its own in this chapter, so the competency is cited; see report"},
+  {"sha": "12680d9d2e2295a1", "codes": ["C-5.1-LO-2"], "note": "completes the statement of the SSS similarity criterion itself - proportional corresponding sides - which is exactly what LO-2 names"},
+  {"sha": "cb9ff2496fdb9196", "codes": ["C-5.1-LO-1"], "note": "BPT set up as an equation in x and solved; the parallel line is what licenses the proportion"},
+  {"sha": "5b36bd3c75024af8", "codes": ["C-5.1-LO-2"], "note": "AA from two right angles and a vertically opposite pair; the configuration is two triangles meeting at a point, not a line parallel to a side"},
+  {"sha": "9f9557e0318273df", "codes": ["C-5.2-LO-1"], "note": "asks directly whether congruent triangles are also similar - the similarity-versus-congruence distinction that C-5.2-LO-1 names, and the only outcome that touches it"},
+  {"sha": "fe16618eb982ad2d", "codes": ["C-5.1-LO-2"], "note": "perimeters of similar triangles give the side ratio; a consequence of the similarity correspondence, no parallel line involved"},
+  {"sha": "7765dc9a0f5a06fc", "codes": ["C-5.1-LO-1"], "note": "CONVERSE of the BPT: unequal ratios 3/4 and 5/9 show XY is not parallel to BC. The converse belongs with the theorem in LO-1"},
+  {"sha": "a39c7919aa9af660", "codes": ["C-5.1-LO-2"], "note": "scale factor 2 read off 2AB = DE and applied to the corresponding side; pure similarity correspondence"},
+  {"sha": "07d17d960f726573", "codes": ["C-5.1-LO-1"], "note": "PQ parallel to MN, BPT with the whole side KN given so QN must be written as KN - KQ; still a parallel-line proportion"},
+  {"sha": "b11633f1e8ad2f79", "codes": ["C-5.1-LO-1"], "note": "BPT used in its componendo form AD/AB = AE/AC because whole sides are given rather than segments; still the parallel-line theorem"},
+  {"sha": "ec8ea07e1d870758", "codes": ["C-5.1-LO-2"], "note": "two altitudes give right angles and the angle at C is common, so AA establishes the similarity before any length is found"}
+ ]
+}

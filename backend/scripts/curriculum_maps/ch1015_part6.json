@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1015,
+ "mappings": [
+  {
+   "sha": "06980c36e7b97aa1",
+   "codes": ["C 1.3"],
+   "note": "Blue versus sooty flame from complete and incomplete combustion. Combustion has no outcome in this frame; C 1.3 competency cited, as for the other flame items."
+  },
+  {
+   "sha": "24ead1afcb613d1e",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Product of ethanol with alkaline KMnO4 - the ethanol-to-ethanoic-acid oxidation, LO-8's own content."
+  },
+  {
+   "sha": "34d47073efd35bcc",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Use of vinegar as a food preservative - a use of ethanoic acid; LO-8 is the only code naming it."
+  },
+  {
+   "sha": "f99bbb7c8067dfa9",
+   "codes": ["C 1.3"],
+   "note": "Composition of soda lime. It appears here only as the reagent for the decarboxylation in the very next item (sha 0b74b1d80703a81c), so it is mapped with that reaction under C 1.3 rather than to C 1.2 as a 'mixture'. Preparation of alkanes has no outcome."
+  },
+  {
+   "sha": "0b74b1d80703a81c",
+   "codes": ["C 1.3"],
+   "note": "Completes a decarboxylation equation. Writing the products of a chemical change with symbols and equations is C 1.3 at competency level; no outcome covers alkane preparation."
+  },
+  {
+   "sha": "d0fe82aa058f8427",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Completes the ethanol-plus-sodium equation. Mapped on the substance chemistry (LO-8) rather than on C 1.3, the rule used throughout for equations whose reactants are ethanol or ethanoic acid."
+  },
+  {
+   "sha": "3eb038c91bbabfe2",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Duplicate of sha 87a2f306942d40fb (C2H6O used as a fuel). Identified through ethanol's use as a fuel, so LO-8; mapped identically to its twin."
+  },
+  {
+   "sha": "d94eda82ff99c53a",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Gas evolved when sodium is dropped into ethanol - the same ethanol/sodium property, asked for the product this time."
+  },
+  {
+   "sha": "0c8c7167ee75039a",
+   "codes": ["C 1.2-LO-9"],
+   "note": "Lather with soft water and scum with hard water. Hard-water behaviour is the ground on which LO-9 distinguishes soaps from detergents, so LO-9 rather than the saponification code LO-8."
+  },
+  {
+   "sha": "a46150ba123ad45e",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Names the reaction in a given equation as esterification - named verbatim in LO-8. Not C 1.3, because the reaction named is one of the two LO-8 singles out."
+  },
+  {
+   "sha": "4ac5aa29d68ca39a",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Why ethanoic acid is called glacial acetic acid - its melting point, i.e. a physical property of ethanoic acid, LO-8."
+  },
+  {
+   "sha": "29a45dcd88332ab3",
+   "codes": ["C 1.2-LO-9"],
+   "note": "Biodegradability of linear-chain detergents. LO-9 is the only code mentioning detergents, and this is a soap-versus-detergent property."
+  },
+  {
+   "sha": "31d5fe0404f7ea6b",
+   "codes": ["C 1.2-LO-9"],
+   "note": "Fatty acids present in soap. Composition of the soap molecule, whose long chain is what makes cleansing work, so LO-9; the manufacturing items in this family go to LO-8 instead."
+  },
+  {
+   "sha": "9cc79f2b8315c373",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Raw materials for soap making (oil, NaOH, salt) - the inputs to saponification, which LO-8 names. Family rule: soap MANUFACTURE goes to LO-8, soap BEHAVIOUR goes to LO-9."
+  },
+  {
+   "sha": "2c77c1f5860ca94b",
+   "codes": ["C 1.2-LO-8"],
+   "note": "POOR FIT. Additives (perfumes, disinfectants, medicines) in commercial soap. Kept with the manufacture family under LO-8, but nothing chemical is examined and no outcome really covers industrial formulation."
+  },
+  {
+   "sha": "719b48b0740bc404",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Glycerol as the byproduct of saponification - a product of the reaction LO-8 names explicitly."
+  },
+  {
+   "sha": "e230a908371748c7",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Fermentation in the presence of air yields ethanoic acid because the ethanol is oxidised. The oxidation step is LO-8's content, so this fermentation item fits where the enzyme-recall ones do not."
+  },
+  {
+   "sha": "c86943c9d67539e7",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Salting out during soap preparation - a step of the saponification process, so LO-8 under the manufacture/behaviour split."
+  },
+  {
+   "sha": "68838a559aae7b80",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Identifies the acid in vinegar and its formula - ethanoic acid, LO-8."
+  },
+  {
+   "sha": "1b6d34378ee34b99",
+   "codes": ["C 1.3-LO-4"],
+   "note": "Electron dot structures of methane and ethane, both carbon compounds - LO-4 of C 1.3 exactly, and the representation counterpart of the bond-count items under C 1.1-LO-3."
+  },
+  {
+   "sha": "e6860cdc8912580f",
+   "codes": ["C 1.3-LO-4", "C 1.2-LO-8"],
+   "note": "Genuinely two-part: (a) draw the structures of ethanol and ethanoic acid (C 1.3-LO-4); (b) explain the oxidation and name the oxidising agent (C 1.2-LO-8). Both are marked, so both are cited."
+  },
+  {
+   "sha": "bfec1e2eb45e1476",
+   "codes": ["C 1.1-LO-4"],
+   "note": "Defines a homologous series with an example and three characteristics - LO-4's own content, the extended version of sha 4e9e7a4cd15887c9."
+  },
+  {
+   "sha": "a504d9b6ccb9176d",
+   "codes": ["C 1.1-LO-3"],
+   "note": "Catenation and tetravalency named as the two reasons for the huge number of carbon compounds - LO-3 restated almost word for word."
+  },
+  {
+   "sha": "1c0ec3a77b2882a8",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Identification puzzle whose three reactions are ethanoic acid with sodium, esterification and the alkaline hydrolysis of the ester. All three are LO-8 content, so one code carries the whole item."
+  },
+  {
+   "sha": "b4e0421137581679",
+   "codes": ["C 1.2-LO-8"],
+   "note": "Equations for burning ethanol and for sodium in ethanol. Both are reactions of the named compound, so LO-8; C 1.3 is reserved for reactions whose substances no outcome covers."
+  }
+ ]
+}

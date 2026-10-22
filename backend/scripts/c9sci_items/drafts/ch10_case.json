@@ -1,0 +1,152 @@
+{
+ "chapter": 10,
+ "chapter_id": 8615,
+ "extraction_id": 601,
+ "section": "case",
+ "items": [
+  {
+   "number": "159",
+   "form": "case_study",
+   "page": 464,
+   "stem": "Riya and her brother built a toy telephone using two empty tin cans and a long cotton string. When the string was pulled tight, Riya whispered into her can, and her brother heard her clearly in the other room. Curious, they tried the same experiment but let the string hang loose. This time, no sound travelled. Later in school, Riya asked her teacher if they could use this toy in space. The teacher smiled and explained how sound travels and why astronauts need special communication devices during spacewalks instead of just talking to each other.\nQUESTIONS:\n(a) Identify the medium of sound propagation when the toy telephone was working successfully.\n(b) Why did the sound fail to reach Riya’s brother when the string was hanging loose?\n(c) Based on the teacher’s explanation, why would the tin can telephone or direct speech not work in outer space?",
+   "answer": "(a) When the toy telephone was working, the tightly stretched cotton string acted as the solid medium for sound propagation.\n(b) Sound is produced by vibrations. When the string was loose, it could not vibrate properly or transfer the vibrational energy from one tin can to the other, stopping the propagation of sound.\n(c) Sound requires a material medium (solid, liquid, or gas) to travel. In outer space, there is a near vacuum and no air or other medium for the sound waves to propagate through, which is why astronauts use special devices to communicate.",
+   "concept": "Sound needs a medium",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "162",
+   "form": "case_study",
+   "page": 466,
+   "stem": "A music teacher was helping her students tune their instruments using a new mobile application. When a student struck the tuning fork for the ‘Sa’ note, the app displayed a simple wave graph with peaks and valleys on the screen. The teacher then asked another student to play a higher musical note on the flute. The new graph on the screen looked different, with the peaks appearing much closer together. The teacher explained that every musical note has a unique physical characteristic that determines how our ears perceive it, and this app visually captures those differences.\nQUESTIONS:\n(a) What are the highest points (peaks) and lowest points (valleys) of the sound wave graph called?\n(b) Which physical quantity of the sound wave changed to make the peaks appear much closer together when the higher note was played?\n(c) How is the physical quantity identified in (b) mathematically related to the time period of the wave?\n(d) What subjective human perception of sound corresponds to this physical characteristic that changed with the higher note?\n(e) If the first tuning fork produces 500 complete density oscillations in 2 seconds, calculate its frequency.",
+   "answer": "(a) The highest points of the wave graph are called crests, and the lowest points are called troughs.\n(b) The wavelength of the sound wave decreased, which means the frequency of the sound wave increased when the higher note was played.\n(c) Frequency and time period are inversely related. Frequency = 1 / Time period.\n(d) The human perception of frequency is called pitch. A higher frequency is perceived as a higher pitch.\n(e) Frequency is the number of oscillations per unit time. Frequency = 500 oscillations / 2 seconds = 250 Hz.",
+   "concept": "Frequency definition",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "163",
+   "form": "case_study",
+   "page": 466,
+   "stem": "A person stands some distance away from a tall cliff and claps loudly. They hear the clap again a few seconds later. The speed of sound in air on that day is 340 m/s. The person hears the echo 2 seconds after clapping.\n1. What is the phenomenon of hearing the sound again called?\n2. What is the minimum time interval required between the original sound and the reflected sound for a distinct echo to be heard by the human ear?\n3. What is the total distance travelled by the sound wave from the person to the cliff and back to the person?\n4. Calculate the distance of the cliff from the person.",
+   "answer": "1. This phenomenon is called an echo.\n2. The minimum time interval required is at least 0.1 seconds.\n3. Total distance = speed of sound × time taken for echo = 340 m/s × 2 s = 680 m.\n4. The distance of the cliff from the person is half of the total distance travelled by the sound, so Distance = 680 m / 2 = 340 m.",
+   "concept": "Echo is delayed reflected sound",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3,
+   "reproduction": "ai_rephrased"
+  },
+  {
+   "number": "164",
+   "form": "case_study",
+   "page": 466,
+   "stem": "While visiting a rural village, Aryan walked past an old, unused railway track. A local farmer told him a story about how, in the old days, villagers would press their ears against the steel rails to know if a train was approaching from miles away, long before they could hear it through the air. The farmer claimed that the metal tracks delivered the sound much faster and clearer. Aryan wondered why the sound of the same train would behave differently depending on whether he was listening through the air or through the solid metal track.\nQUESTIONS:\n(a) Why does sound travel faster through the steel railway track than through the surrounding air?\n(b) If the speed of sound in the air is roughly 340 m/s, what happens to the wavelength of the train’s sound if it travels through the steel track instead? (Assume frequency remains constant).\n(c) Besides the state of the medium, mention two conditions of the air that can cause the speed of sound travelling through it to increase.",
+   "answer": "(a) The speed of sound depends on the nature of the medium. Sound travels fastest in solids (like steel) because the particles in a solid are closely packed, allowing vibrations to transfer more rapidly than in gases (like air).\n(b) Since speed = wavelength × frequency and the frequency remains constant, an increase in the speed of sound (when travelling through steel) will result in a longer (increased) wavelength.\n(c) The speed of sound in air increases with an increase in temperature and an increase in humidity.",
+   "concept": "Speed depends on the medium",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "165",
+   "form": "case_study",
+   "page": 465,
+   "stem": "In a large empty concert hall with hard, reflecting surfaces, a single sharp sound, like a clap, seems to persist for a while. This makes it difficult to hear speech or music clearly. To remedy this, the walls and ceilings are often covered with sound-absorbent materials.\n1. What is the persistence of sound due to repeated reflections called?\n2. Why is excessive reverberation undesirable in concert halls or auditoriums?\n3. Name two types of materials that can be used to reduce reverberation.\n4. How do these sound-absorbent materials work to reduce reverberation?",
+   "answer": "1. The persistence of sound due to repeated reflections is called reverberation.\n2. Excessive reverberation is undesirable because it causes sounds to overlap and become unclear, making speech and music difficult to understand and appreciate.\n3. Two types of materials are compressed fibreboard and rough plaster or draperies. Seat materials with sound-absorbing properties are also used.\n4. Sound-absorbent materials reduce reverberation by absorbing most of the sound energy that falls on them, rather than reflecting it. This reduces the number and intensity of reflections, causing the sound to die out more quickly.",
+   "concept": "Controlling reverberation in halls",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "166",
+   "form": "case_study",
+   "page": 465,
+   "stem": "At the community center, a choir director was auditioning students for a play. He noticed that Rahul, who used to sing high-pitched notes effortlessly last year, now had a deep, rumbling voice. When Rahul tried to sing loudly to reach the high notes, his voice cracked. The director gently explained that as boys grow, their vocal cords undergo physical changes, making them thicker and longer. He advised Rahul to practice controlling the volume of his singing instead of forcing the pitch, explaining that these two aspects of sound depend on completely different wave properties.\nQUESTIONS:\n(a) How does the thickening and lengthening of Rahul’s vocal cords affect the frequency of the sound he produces?\n(b) What physical property of a sound wave determines the loudness that the choir director told Rahul to control?\n(c) Differentiate between pitch and loudness based on the physical properties of the sound wave they depend upon.\n(d) Does a louder sound wave carry more or less energy than a softer sound wave? Justify your answer.",
+   "answer": "(a) The thickening and lengthening of the vocal cords cause them to vibrate less frequently, which decreases the frequency of the sound, resulting in a deeper, lower-pitched voice.\n(b) Loudness is determined by the amplitude of the sound wave.\n(c) Pitch is the human perception of a sound wave’s frequency, whereas loudness is the human perception of a sound wave’s amplitude.\n(d) A louder sound wave carries more energy. This is because a larger amplitude means the source was struck harder, transferring more energy to the medium’s particles and causing larger displacements.",
+   "concept": "Pitch is perceived frequency",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "167",
+   "form": "case_study",
+   "page": 468,
+   "stem": "During a school trekking trip in the mountains, Neha stood facing a tall, steep cliff. She shouted her name loudly and was thrilled to hear her name bounce back to her a few seconds later. Her friend Aman tried to do the same inside their small hotel room, but he only heard his original voice and no returning sound, even though the room had hard walls. The guide explained that for the brain to distinguish the original sound from the reflected sound, there must be a specific minimum distance between the speaker and the reflecting surface.\nQUESTIONS:\n(a) What is the scientific term for the reflection of sound that Neha heard in the mountains?\n(b) Why couldn’t Aman hear a distinct reflected sound in the small hotel room?\n(c) What is the minimum time interval required for the human ear to clearly distinguish between an original sound and its reflection?\n(d) If Neha heard her reflected voice exactly 2 seconds after shouting, calculate the distance between her and the cliff. (Assume the speed of sound in air is 340 m/s).",
+   "answer": "(a) The distinct reflection of sound heard after the original sound has stopped is called an echo.\n(b) In a small room, the walls are too close, so the reflected sound reaches the ear in less than 0.1 seconds. The brain cannot separate it from the original sound, so no distinct echo is heard.\n(c) The minimum time interval required to clearly distinguish the original sound from the reflected sound is 0.1 seconds.\n(d) Distance travelled by sound = speed × time = 340 m/s × 2 s = 680 m. Since this is the total distance to the cliff and back, the distance between Neha and the cliff is half of this, which is 680 / 2 = 340 meters.",
+   "concept": "Echo needs 0.1 second separation",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "168",
+   "form": "case_study",
+   "page": 468,
+   "stem": "Humans can typically hear sounds with frequencies ranging from 20 Hz to 20,000 Hz. Rhinoceroses communicate using sounds with frequencies as low as 5 Hz, while bats use sounds with frequencies much higher than 20,000 Hz for navigation and hunting.\n1. What is the audible range of frequency for human beings?\n2. What are sounds with frequencies below 20 Hz called? Give an example of an animal that uses such sounds.\n3. What are sounds with frequencies above 20,000 Hz called? Give an example of an animal that uses such sounds.\n4. Can humans hear the sounds produced by rhinoceroses for communication or the navigational sounds of bats? Why or why not?",
+   "answer": "1. The audible range for human beings is from about 20 Hz to 20,000 Hz.\n2. Sounds with frequencies below 20 Hz are called infrasonic sound or infrasound. Rhinoceroses use infrasound (e.g., at 5 Hz).\n3. Sounds with frequencies above 20,000 Hz are called ultrasonic sound or ultrasound. Bats produce ultrasound.\n4. No, humans cannot hear these sounds because their frequencies lie outside the human audible range. Infrasound is below 20 Hz, and ultrasound is above 20,000 Hz.",
+   "concept": "Human audible range",
+   "bloom": "recall",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "169",
+   "form": "case_study",
+   "page": 467,
+   "stem": "A town recently built a large, beautiful community hall with smooth concrete walls and a flat ceiling. However, during the first public speech, the audience complained that the speaker’s words were completely garbled and echoed continuously, making it impossible to understand anything. An acoustic engineer was called to fix the issue. She observed the hall and immediately recommended covering the walls with thick, soft curtains, installing upholstered chairs, and redesigning the ceiling to be curved rather than flat. The renovations drastically improved the audio quality for the next event.\nQUESTIONS:\n(a) What is the specific term for the phenomenon that caused the garbled and continuously persisting sound in the community hall?\n(b) Why did the acoustic engineer recommend installing thick curtains and upholstered chairs?\n(c) How does a curved design on ceilings help improve the quality of sound for the audience compared to flat surfaces?",
+   "answer": "(a) The persistence of sound due to multiple reflections from the walls and ceiling is called reverberation.\n(b) Thick curtains and upholstered chairs act as sound-absorbing materials. They absorb the unwanted sound reflections, thereby reducing reverberation and making speech clear.\n(c) A curved ceiling acts like a soundboard. It reflects sound waves uniformly across the entire hall, ensuring that sound reaches all parts of the audience clearly, whereas flat surfaces might scatter sound unevenly or cause direct echoes.",
+   "concept": "Reverberation from multiple reflections",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "170",
+   "form": "case_study",
+   "page": 467,
+   "stem": "Mr. Sharma was experiencing severe abdominal pain and visited the hospital. The doctor suspected kidney stones and sent him for an imaging scan. The technician used a device that emitted high-frequency sound waves, completely inaudible to the human ear, to create a picture of his internal organs on a monitor. The scan confirmed the presence of a small stone. To avoid surgery, the doctor suggested a treatment where similar, highly concentrated sound waves would be directed at the stone to shatter it into tiny grains, which could then naturally pass out of his body.\nQUESTIONS:\n(a) What term is used for the high-frequency sound waves that are inaudible to the human ear used in Mr. Sharma’s scan?\n(b) What is the frequency range of the sound waves being used in this medical device?\n(c) Why are humans unable to hear the sound waves being emitted by this imaging device?\n(d) Mention one industrial application of this specific type of sound wave.\n(e) Can these same high-frequency waves be detected by any animals? Give one example.",
+   "answer": "(a) The high-frequency sound waves are called ultrasonic waves (or ultrasound).\n(b) Ultrasonic waves have a frequency greater than 20,000 Hz (or 20 kHz).\n(c) Humans cannot hear them because the human audible range is limited to frequencies between 20 Hz and 20,000 Hz. Waves above this limit cannot be detected by the human ear.\n(d) In industries, ultrasonic waves are used for cleaning delicate machine parts or detecting flaws and cracks in metal blocks.\n(e) Yes, some animals can detect these high-frequency waves. Examples include dogs, cats, bats, and dolphins.",
+   "concept": "Infrasonic and ultrasonic ranges",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "171",
+   "form": "case_study",
+   "page": 467,
+   "stem": "Doctors often use a technique called ultrasonography to get images of internal organs like the liver, kidneys, or a developing foetus in the womb. This technique involves sending high-frequency sound waves into the body and detecting the reflected waves.\n1. What type of sound waves are used in ultrasonography?\n2. How are images of internal organs formed using this technique?\n3. Mention one specific use of ultrasonography during pregnancy.\n4. Why can ordinary sound waves not be used effectively for such detailed imaging purposes as effectively as ultrasound?",
+   "answer": "1. Ultrasonic waves (ultrasound) are used in ultrasonography.\n2. Ultrasonic waves travel through the body tissues and get reflected from regions where there is a change in tissue density. These reflected waves are then converted into electrical signals, which are used to generate images of the organ.\n3. Ultrasonography is used for the examination of the foetus during pregnancy to detect congenital defects and growth abnormalities.\n4. Ordinary sound waves have longer wavelengths and tend to bend around small obstacles (like internal structures or defects). Ultrasounds have very high frequencies and short wavelengths, allowing them to travel along well-defined paths and reflect off smaller structures, providing more detailed images.",
+   "concept": "Ultrasound in medicine",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 3
+  },
+  {
+   "number": "172",
+   "form": "case_study",
+   "page": 470,
+   "stem": "A research ship was on a mission to map the ocean floor and locate an old sunken vessel. The captain activated a sophisticated device at the bottom of the ship that sent out rapid bursts of sound into the deep seawater. The crew watched the computer screens carefully, measuring the exact time it took for the signals to travel down, hit the ocean floor or the sunken object, and bounce back to the ship’s receiver. Using these time measurements and the known properties of seawater, the computer calculated the exact depth of the wreck.\nQUESTIONS:\n(a) What is the name of the technique and device used by the research ship to locate the sunken vessel?\n(b) Do the sound waves emitted by this device travel faster in the air above the ship or in the seawater below it? Give a reason.\n(c) Name two animals that use a similar natural principle for navigation and hunting in the dark.\n(d) If the sound signal returns to the ship after 4 seconds and the speed of sound in seawater is 1530 m/s, calculate the depth of the ocean floor.",
+   "answer": "(a) The device is called SONAR (Sound Navigation and Ranging), and the technique is based on echolocation or reflection of sound.\n(b) The sound waves travel faster in seawater (a liquid) than in air (a gas) because the particles in liquids are closer together than in gases, allowing for faster propagation of the sound wave.\n(c) Bats and dolphins (or whales) use a similar natural principle called echolocation.\n(d) Total time taken for the signal to go down and come back = 4 s. Time taken to reach the ocean floor = 4 / 2 = 2 s. Depth = speed × time = 1530 m/s × 2 s = 3060 meters.",
+   "concept": "Sonar for underwater detection",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "173",
+   "form": "case_study",
+   "page": 470,
+   "stem": "Priya loves listening to rock music on her earphones at the maximum volume. During a routine school health check-up, the doctor conducted an audiogram test and noticed a slight decrease in Priya’s hearing sensitivity. The doctor explained that sound is a form of energy. When highly energetic sound waves constantly hit the delicate thin membrane inside the ear, it can cause long-term damage. The doctor strongly advised Priya to lower the volume, explaining that everyday conversations are around 60 decibels, but earphones at maximum volume push dangerous limits that the human ear shouldn’t endure for long.\nQUESTIONS:\n(a) Name the thin membrane inside Priya’s ear that vibrates when sound energy enters it.\n(b) What is the physical quantity defined as the amount of sound energy passing through a unit area per second, which corresponds to the high decibels the doctor warned about?\n(c) How does the amplitude of the sound wave change when Priya reduces the volume of her music, and how does this action protect her ears?",
+   "answer": "(a) The thin membrane inside the ear is called the eardrum.\n(b) The amount of sound energy passing through a unit area perpendicular to the direction of propagation in one second is called the intensity of sound.\n(c) When Priya reduces the volume, the amplitude of the sound waves decreases. A smaller amplitude means less energy is transferred by the wave, which reduces the forceful vibrations on her eardrum, thereby protecting it from damage.",
+   "concept": "Intensity definition",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 4
+  }
+ ]
+}

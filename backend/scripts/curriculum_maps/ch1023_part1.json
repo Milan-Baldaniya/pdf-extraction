@@ -1,0 +1,185 @@
+{
+ "chapter_id": 1023,
+ "mappings": [
+  {
+   "sha": "c138313e14c83896",
+   "codes": [
+    "C 2.4-LO-4"
+   ],
+   "note": "Field pattern inside a current-carrying solenoid; LO-4 names the solenoid. Not LO-6: nothing is drawn and no line spacing is read, the answer is the field the current makes."
+  },
+  {
+   "sha": "37a56b290f849d4b",
+   "codes": [
+    "C 2.4-LO-4"
+   ],
+   "note": "Uniformity of a long solenoid's internal field. LO-4, not LO-6, because the claim is about the field's value along the axis, not about a diagram."
+  },
+  {
+   "sha": "f0824fb970a296d5",
+   "codes": [
+    "C 8.1-LO-6"
+   ],
+   "note": "All four options are field-line properties (closed curves, no intersection, tangent gives direction, N-to-S outside). LO-6 owns field-line interpretation; no current appears, so LO-4 is out."
+  },
+  {
+   "sha": "827f1a0d4f65e8af",
+   "codes": [
+    "C 2.4-LO-4"
+   ],
+   "note": "Shape of a straight current-carrying wire's field - the first object LO-4 names. Not LO-5: no handedness rule is needed, only the pattern."
+  },
+  {
+   "sha": "9eb1b64ab044b840",
+   "codes": [
+    "C 2.4-LO-4"
+   ],
+   "note": "B proportional to I and inversely to r for a straight conductor - the quantitative half of 'describes the magnetic field produced by a straight conductor'."
+  },
+  {
+   "sha": "724b1c445e02ff9a",
+   "codes": [
+    "C 2.4-LO-4"
+   ],
+   "note": "Field line through the centre of a current loop is straight; LO-4 names the loop. Not LO-6, whose drawing objects are the bar magnet and the solenoid."
+  },
+  {
+   "sha": "a54a2c2b1455cb9b",
+   "codes": [
+    "C 2.4-LO-4"
+   ],
+   "note": "Soft-iron core strengthens the solenoid's field. The frame has no electromagnet outcome, so LO-4's solenoid is the correct home."
+  },
+  {
+   "sha": "e386d952bcc2930f",
+   "codes": [
+    "C 2.6-LO-1"
+   ],
+   "note": "Factors setting the magnitude of the force on a current-carrying conductor. The field is the input here, not the output - that is what separates LO-1 from LO-4."
+  },
+  {
+   "sha": "3b1128d1b79ad7e9",
+   "codes": [
+    "C 8.1-LO-6"
+   ],
+   "note": "The false option is 'parallel equidistant lines represent zero field'; that is spacing-versus-strength, LO-6's second clause."
+  },
+  {
+   "sha": "f3fdc8afdb77b313",
+   "codes": [
+    "C 2.4-LO-4",
+    "C 8.1-LO-6"
+   ],
+   "note": "Opening the key removes the current, so LO-4's concentric circles vanish; what is left is the earth's uniform field drawn as parallel lines, an LO-6 spacing reading. Needs both."
+  },
+  {
+   "sha": "2ee1f59684504da3",
+   "codes": [
+    "C 2.4-LO-4",
+    "C 8.1-LO-6"
+   ],
+   "note": "A current loop's faces acquire polarity (LO-4), identified from the sense of the field lines (LO-6). Not LO-5 - the field direction is given, so no right-hand rule is applied."
+  },
+  {
+   "sha": "15e64bb276d01bbe",
+   "codes": [
+    "C 8.1-LO-6",
+    "C 2.4-LO-4"
+   ],
+   "note": "The false statement is that a solenoid's pattern differs from a bar magnet's - LO-6 pairs exactly those two objects, so it leads; LO-4 second for the solenoid's own field."
+  },
+  {
+   "sha": "0596fe7408f4315d",
+   "codes": [
+    "C 2.4-LO-5",
+    "C 2.6-LO-1"
+   ],
+   "note": "Asks for the direction of the force on an electron and a proton, i.e. Fleming's left-hand rule (LO-5) acting through the LO-1 force. A direction is the graded answer, so LO-5 leads."
+  },
+  {
+   "sha": "84b61ff1d37fa5df",
+   "codes": [
+    "C 2.6-LO-1"
+   ],
+   "note": "The only motor question in the chapter - what commercial motors use to rotate the armature. LO-1 is the motor outcome."
+  },
+  {
+   "sha": "d56e148b358db341",
+   "codes": [
+    "C 2.6-LO-2"
+   ],
+   "note": "Two coils on one rod, momentary and oppositely directed kicks on make and break: mutual induction. LO-2, not LO-1, because a changing flux makes a current rather than a field pushing a conductor."
+  },
+  {
+   "sha": "38d37e0bc606938d",
+   "codes": [
+    "C 2.4-LO-5"
+   ],
+   "note": "Answer is obtained by applying the right-hand thumb rule to a wire carrying current east to west. LO-5, not LO-4, because the graded output is a direction."
+  },
+  {
+   "sha": "111f62476fb7911f",
+   "codes": [
+    "C 2.4-LO-4"
+   ],
+   "note": "Uniform field inside a long solenoid; near-duplicate of item 2 and mapped the same way."
+  },
+  {
+   "sha": "c024a8995ef9567a",
+   "codes": [
+    "C 2.6-LO-1"
+   ],
+   "note": "Assertion and reason are both about why a current-carrying conductor feels a force in a field - LO-1's mechanism, stated as field-on-field interaction."
+  },
+  {
+   "sha": "db8b90179df33aae",
+   "codes": [
+    "C 8.1-LO-7"
+   ],
+   "note": "The fuse as the protection against short circuit and overload - LO-7 names the fuse."
+  },
+  {
+   "sha": "c706a363fd9488f3",
+   "codes": [
+    "C 2.4-LO-4"
+   ],
+   "note": "Whether a current-carrying rod's field exists inside as well as outside it - the spatial description of a straight conductor's field, LO-4."
+  },
+  {
+   "sha": "c0a4042b8679b2b6",
+   "codes": [
+    "C 2.6-LO-1"
+   ],
+   "note": "Matching acceleration, velocity, speed and kinetic energy for a charge in a field; turns on the magnetic force doing no work. LO-1; no rule is applied, so not LO-5."
+  },
+  {
+   "sha": "788aa55674a8a8d5",
+   "codes": [
+    "C 2.6-LO-1"
+   ],
+   "note": "F = qvB sin(theta) - the magnitude of the magnetic force and when it peaks. Magnitude, not direction, so LO-1 rather than LO-5."
+  },
+  {
+   "sha": "369aadb9ec8ff978",
+   "codes": [
+    "C 2.4-LO-4",
+    "C 2.4-LO-5"
+   ],
+   "note": "Superposing the fields of two current configurations at P (LO-4), with each contribution's into/out-of-page sense fixed by the right-hand rule (LO-5)."
+  },
+  {
+   "sha": "f9e0435d4f72f8c6",
+   "codes": [
+    "C 2.6-LO-1"
+   ],
+   "note": "A net-neutral wire still feels a force because the charges inside it move - LO-1's mechanism exactly."
+  },
+  {
+   "sha": "ea0244b3f9481450",
+   "codes": [
+    "C 2.4-LO-4"
+   ],
+   "note": "Whether the solenoid's field depends on its length and cross-section, and whether it is uniform inside - LO-4's description of the solenoid's field."
+  }
+ ]
+}

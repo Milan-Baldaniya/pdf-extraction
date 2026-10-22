@@ -398,6 +398,22 @@ def load_frame(
 # Mapping concepts onto the curriculum
 # ---------------------------------------------------------------------------
 
+def _ancestry(outcome: Outcome) -> Dict[str, str]:
+    """The competency and goal this outcome rolls up to, as codes.
+
+    load_frame() already denormalises these onto every Outcome, but only
+    downward: a learning outcome carries both, a competency carries its goal,
+    and a goal carries neither. A row is its own competency when it IS one, and
+    its own goal when it IS one, which is what makes the two columns answerable
+    for every row rather than only for learning outcomes.
+    """
+    if outcome.type == "goal":
+        return {"competency_code": "", "goal_code": outcome.code}
+    if outcome.type == "competency":
+        return {"competency_code": outcome.code, "goal_code": outcome.goal_code}
+    return {"competency_code": outcome.competency_code, "goal_code": outcome.goal_code}
+
+
 def match_concepts(
     concepts: List[Dict[str, Any]], frame: CurriculumFrame
 ) -> Dict[int, List[Dict[str, Any]]]:
@@ -439,6 +455,7 @@ def match_concepts(
                 "outcome_type": outcome.type,
                 "match_source": "token_overlap",
                 "match_score": round(score, 3),
+                **_ancestry(outcome),
             }
             for score, outcome in hits[:_MAX_MAPPINGS_PER_CONCEPT]
         ]
@@ -507,6 +524,7 @@ def sanitise_codes(
             "outcome_type": outcome.type,
             "match_source": match_source,
             "match_score": match_score,
+            **_ancestry(outcome),
         })
         if len(mappings) >= _MAX_MAPPINGS_PER_CONCEPT:
             break
@@ -532,19 +550,65 @@ def _normalise_code(value: str) -> str:
 
 _UPSERT_MAPPING = text("""
     INSERT INTO lms_concept_outcome
-        (concept_id, outcome_id, outcome_type, outcome_code, curriculum_id,
+        (concept_id, outcome_id, outcome_type, outcome_code,
+         competency_code, goal_code, curriculum_id,
          extraction_id, chapter_id, match_source, match_score, created_at, updated_at)
     VALUES
-        (:concept_id, :outcome_id, :outcome_type, :outcome_code, :curriculum_id,
+        (:concept_id, :outcome_id, :outcome_type, :outcome_code,
+         :competency_code, :goal_code, :curriculum_id,
          :extraction_id, :chapter_id, :match_source, :match_score,
          CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
     ON DUPLICATE KEY UPDATE
-        outcome_id   = VALUES(outcome_id),
-        outcome_type = VALUES(outcome_type),
-        match_source = VALUES(match_source),
-        match_score  = VALUES(match_score),
-        updated_at   = CURRENT_TIMESTAMP
+        outcome_id      = VALUES(outcome_id),
+        outcome_type    = VALUES(outcome_type),
+        competency_code = VALUES(competency_code),
+        goal_code       = VALUES(goal_code),
+        match_source    = VALUES(match_source),
+        match_score     = VALUES(match_score),
+        updated_at      = CURRENT_TIMESTAMP
 """)
+
+# A concept matched to a competency also serves the outcomes stated beneath it.
+# That is a roll-up, not a per-concept judgement, so it is written with its own
+# match_source and a score well below anything the model or the lexical matcher
+# produces -- 'inherited' is the value this column's COMMENT has documented
+# since the table was created.
+_INHERITED_SOURCE = "inherited"
+_INHERITED_SCORE = 0.5
+
+
+def _inherited_from_competencies(
+    mappings: List[Dict[str, Any]], frame: CurriculumFrame
+) -> List[Dict[str, Any]]:
+    """The chapter's learning outcomes that hang under a mapped competency.
+
+    Matched on competency CODE rather than on parent_id: concepts are mapped to
+    the per-chapter COPIES of a competency that scope_competencies.py creates,
+    while the learning outcomes hang off the curriculum-level original. The two
+    share a code and nothing else.
+    """
+    wanted = {
+        m.get("outcome_code")
+        for m in mappings
+        if m.get("outcome_type") == "competency" and m.get("outcome_code")
+    }
+    if not wanted:
+        return []
+
+    already = {m.get("outcome_code") for m in mappings}
+    extra: List[Dict[str, Any]] = []
+    for lo in frame.learning_outcomes:
+        if lo.competency_code in wanted and lo.code and lo.code not in already:
+            already.add(lo.code)
+            extra.append({
+                "outcome_id": lo.id,
+                "outcome_code": lo.code,
+                "outcome_type": lo.type,
+                "match_source": _INHERITED_SOURCE,
+                "match_score": _INHERITED_SCORE,
+                **_ancestry(lo),
+            })
+    return extra
 
 
 def persist_mappings(
@@ -558,6 +622,12 @@ def persist_mappings(
 
     Scoped per concept rather than per extraction so a single-concept re-run
     cannot wipe its siblings' mappings.
+
+    Each row carries its whole curriculum chain, not just the node that matched:
+    competency_code and goal_code come from the frame, which already computed
+    them. The outcomes beneath a matched competency are added here too, so a
+    re-run of the chapter reproduces them -- the DELETE below would otherwise
+    discard anything a side script had written.
     """
     written = 0
     concept_ids = [cid for cid in mappings_by_concept_id if cid]
@@ -574,12 +644,14 @@ def persist_mappings(
         for concept_id, mappings in mappings_by_concept_id.items():
             if not concept_id:
                 continue
-            for mapping in mappings:
+            for mapping in [*mappings, *_inherited_from_competencies(mappings, frame)]:
                 db.execute(_UPSERT_MAPPING, {
                     "concept_id": concept_id,
                     "outcome_id": mapping.get("outcome_id"),
                     "outcome_type": mapping.get("outcome_type") or "competency",
                     "outcome_code": mapping.get("outcome_code") or "",
+                    "competency_code": mapping.get("competency_code") or None,
+                    "goal_code": mapping.get("goal_code") or None,
                     "curriculum_id": frame.curriculum_id,
                     "extraction_id": extraction_id,
                     "chapter_id": frame.chapter_id,
@@ -691,6 +763,11 @@ def resync_outcome_ids(db, curriculum_id: int) -> int:
     that no longer exists. The code survives the rewrite, so the ids can be
     recovered from it -- which is the entire reason outcome_code is stored
     alongside the id rather than the id alone.
+
+    competency_code and goal_code are refreshed in the same pass, from the
+    rebuilt parent chain. They are codes, so they normally survive a re-process
+    untouched; this repairs the case where the curriculum itself was re-authored
+    and an outcome moved to a different competency.
     """
     try:
         updated = db.execute(
@@ -700,11 +777,23 @@ def resync_outcome_ids(db, curriculum_id: int) -> int:
                     ON lo.curriculum_id = :cur
                    AND REPLACE(REPLACE(LOWER(lo.code), '-', ''), ' ', '')
                      = REPLACE(REPLACE(LOWER(co.outcome_code), '-', ''), ' ', '')
+             LEFT JOIN lms_learning_outcomes p ON p.id = lo.parent_id
+             LEFT JOIN lms_learning_outcomes gp ON gp.id = p.parent_id
                    SET co.outcome_id = lo.id,
                        co.outcome_type = lo.type,
+                       co.competency_code = CASE lo.type
+                           WHEN 'competency' THEN lo.code
+                           WHEN 'learning_outcome' THEN p.code
+                           ELSE NULL END,
+                       co.goal_code = CASE lo.type
+                           WHEN 'goal' THEN lo.code
+                           WHEN 'competency' THEN p.code
+                           WHEN 'learning_outcome' THEN gp.code
+                           ELSE NULL END,
                        co.updated_at = CURRENT_TIMESTAMP
                  WHERE co.curriculum_id = :cur
-                   AND (co.outcome_id IS NULL OR co.outcome_id <> lo.id)
+                   AND (co.outcome_id IS NULL OR co.outcome_id <> lo.id
+                        OR co.goal_code IS NULL)
             """),
             {"cur": curriculum_id},
         ).rowcount

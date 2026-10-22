@@ -1,0 +1,30 @@
+{
+ "chapter_id": 22910,
+ "mappings": [
+  {"sha": "dda8e8fb4e6d68bc", "codes": ["C-2.2-LO-5"], "note": "free-response twin of the inconsistency MCQ; k found from a1/a2 = b1/b2 not equal to c1/c2, a classification not a solve"},
+  {"sha": "49db08363761c5b4", "codes": ["C-2.2-LO-5"], "note": "no solution via the same ratio condition; LO-5"},
+  {"sha": "f09192ae5af8a63e", "codes": ["C-2.2-LO-5"], "note": "parallelism as a condition on p, using the ratio test rather than any graph"},
+  {"sha": "3f31c0b4fd421376", "codes": ["C-2.3-LO-2"], "note": "the digit-reversal problem as free response; formulate two equations and solve, so LO-2"},
+  {"sha": "84bd15a4d91166b3", "codes": ["C-2.3-LO-2"], "note": "second digit-reversal problem, same formulate-and-solve demand"},
+  {"sha": "538caecc9e79f127", "codes": ["C-2.2-LO-3"], "note": "the ratio reduces to 3x = 2y and is substituted into the required expression -- the substitution half of LO-3, on one relation rather than a true pair"},
+  {"sha": "97f0c10669b71498", "codes": ["C-2.3-LO-2"], "note": "a fraction word problem, the case LO-2 names; two conditions translated and solved"},
+  {"sha": "faf43b3f619fbb00", "codes": ["C-2.3-LO-2"], "note": "formulating the two reversed numbers and their sum; a word-problem translation even though it yields one equation"},
+  {"sha": "7bbe8b56543fc0af", "codes": ["C-2.2-LO-5"], "note": "asks for a justification of what consistency implies geometrically, answered with both ratio branches; the reasoning form of LO-5"},
+  {"sha": "44bd46df3be7f7ce", "codes": ["C-2.1-LO-4", "C-2.2-LO-5"], "note": "justified by both lines being parallel to the x-axis -- position from the coefficients (C-2.1-LO-4) -- before concluding no solution (LO-5); no ratio arithmetic appears"},
+  {"sha": "e2d80ccbae8841cc", "codes": ["C-2.2-LO-5"], "note": "intersecting at a unique point means a1/a2 not equal to b1/b2, giving k not equal to -6; LO-5"},
+  {"sha": "bedfcf0f69a685a2", "codes": ["C-2.1-LO-4", "C-2.2-LO-5"], "note": "y = 0 and y = -5 again argued from both lines being horizontal (C-2.1-LO-4) and only then classified (LO-5)"},
+  {"sha": "5deee14bdbf316ce", "codes": ["C-2.2-LO-5"], "note": "the literal condition am = bl is rewritten as a/l = b/m and read as the parallel case; LO-5 with symbols instead of numbers"},
+  {"sha": "643ecde8ae16d8ba", "codes": ["C-2.2-LO-5"], "note": "ad not equal to bc gives a/c not equal to b/d, hence a unique solution; the intersecting branch of LO-5"},
+  {"sha": "199d4673015b6729", "codes": ["C-2.2-LO-5"], "note": "constructs a partner line satisfying the parallel ratio condition; LO-5 used to build rather than to classify"},
+  {"sha": "e4020ee63153ca1e", "codes": ["C-2.2-LO-5"], "note": "all three ratios equal, so the lines are coincident; a direct LO-5 classification"},
+  {"sha": "6bd405102038dc17", "codes": ["C-2.2-LO-5"], "note": "writes a second equation for each of the intersecting and coincident cases, both driven by the ratio conditions; LO-5"},
+  {"sha": "cb8827dde6efbea1", "codes": ["C-2.2-LO-5"], "note": "k restricted so that a1/a2 is not equal to b1/b2; the unique-solution branch of LO-5"},
+  {"sha": "4d60d850529adf62", "codes": ["C-2.2-LO-3"], "note": "the pair is added to eliminate y, then two expressions are evaluated; the elimination half of LO-3 with no context and no ratio test"},
+  {"sha": "8e3b70dc9e981359", "codes": ["C-2.2-LO-3"], "note": "the near-symmetric coefficients are handled by adding and subtracting the equations -- elimination, LO-3"},
+  {"sha": "211936c9b4d2dc43", "codes": ["C-2.2-LO-5"], "note": "consistent or inconsistent decided from a1/a2 not equal to b1/b2, without finding the solution; LO-5"},
+  {"sha": "d2c058f1926545d9", "codes": ["C-2.2-LO-5"], "note": "all three ratios equal 1/2, so consistent and dependent with infinitely many solutions; the dependent branch of LO-5"},
+  {"sha": "3214f76fcab225a0", "codes": ["C-2.2-LO-5"], "note": "k chosen so that all three ratios agree; the infinitely-many case of LO-5"},
+  {"sha": "8ede758c5731104f", "codes": ["C-2.2-LO-3"], "note": "the question names the substitution method outright. LO-3 fuses substitution with elimination into one code, so the named method cannot be recorded separately"},
+  {"sha": "c9b3ee9e3fa17cc7", "codes": ["C-2.2-LO-3"], "note": "solved algebraically by scaling one equation and subtracting -- elimination. Again LO-3 is the only code available for either algebraic method"}
+ ]
+}

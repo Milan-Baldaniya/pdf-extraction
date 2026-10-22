@@ -1,0 +1,200 @@
+{
+ "chapter_id": 8605,
+ "mappings": [
+  {
+   "sha": "7ca4a843d84679c1",
+   "codes": [
+    "LO-63",
+    "LO-66"
+   ],
+   "note": "A counterfactual: the student works out what friction actually does by deleting it and tracing consequences, which is LO-66's 'identify the key factors that influence their behaviour' on top of LO-63. Not LO-65 - no real event is being explained."
+  },
+  {
+   "sha": "76ace0e78414ddc9",
+   "codes": [
+    "LO-62",
+    "C-2.1-LO-5",
+    "LO-63"
+   ],
+   "note": "Three explicit parts: a four-force free-body diagram and its balanced pairs (LO-62), friction as one member of the horizontal pair (LO-63), and then the first law applied to a body that stays at rest (LO-5)."
+  },
+  {
+   "sha": "2d8569865990b403",
+   "codes": [
+    "LO-63",
+    "LO-65"
+   ],
+   "note": "All three parts are friction - its cause, its dependence on surfaces, and why a steady push is needed - with the bicycle part an everyday application (LO-65). The spring-balance experiment half has no measurement outcome in this frame."
+  },
+  {
+   "sha": "a35106a3613c9880",
+   "codes": [
+    "C8.1",
+    "LO-65",
+    "C-2.1-LO-6"
+   ],
+   "note": "Unlike the rest of the catching family this one demands a constructed two-case graph (C8.1) before the everyday explanation (LO-65) and the second-law reasoning (LO-6). The graph is exactly what separates it from O14, O21, V81 and S107."
+  },
+  {
+   "sha": "2164acc2eda34650",
+   "codes": [
+    "C-2.1-LO-6",
+    "C-2.1-LO-7"
+   ],
+   "note": "Explicit two-part split: state the law (LO-6), then calculate (LO-7). This item is the clearest illustration of the statement-versus-calculation boundary used across the whole chapter."
+  },
+  {
+   "sha": "0ae864fd2b191651",
+   "codes": [
+    "C-2.1-LO-8",
+    "LO-65",
+    "LO-62"
+   ],
+   "note": "Three parts, three outcomes: statement of the third law (LO-8), the walking application (LO-65), and the two-different-bodies resolution of why they do not cancel (LO-62)."
+  },
+  {
+   "sha": "c0e144bcb9fde537",
+   "codes": [
+    "C-2.1-LO-6",
+    "C-2.1-LO-7",
+    "C-2.1-LO-8"
+   ],
+   "note": "Part (a) is the qualitative a = F/m argument (LO-6); part (b) computes two accelerations from a third-law pair (LO-7 plus LO-8). All three are separately demanded, which is why this hits the three-code cap."
+  },
+  {
+   "sha": "5ec16cc05becafd3",
+   "codes": [
+    "C8.1",
+    "LO-64",
+    "LO-63"
+   ],
+   "note": "Graphs are drawn (C8.1), the net-force verdict follows (LO-64), and part (c) turns on friction being the real-world stopping agent (LO-63). S97 is the same item without part (c), which is why it drops LO-63."
+  },
+  {
+   "sha": "fd77eaeeca5428bc",
+   "codes": [
+    "C-2.1-LO-6",
+    "C-2.1-LO-7"
+   ],
+   "note": "Two proportionality parts (LO-6) then one substitution (LO-7) - the same explicit split as L129."
+  },
+  {
+   "sha": "29cb56c20a6a9411",
+   "codes": [
+    "C-2.1-LO-8",
+    "LO-65"
+   ],
+   "note": "Reaction propulsion twice, the second in a transfer context (retro-thrust to slow down rather than to speed up). Still one outcome pair - the transfer is a difficulty step, not a different outcome."
+  },
+  {
+   "sha": "8699ea394742af81",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Base numerical with a kinematic first step (s = ut + at^2/2) and a tonne conversion. Nothing beyond F = ma arithmetic is graded."
+  },
+  {
+   "sha": "40863a1583f03b89",
+   "codes": [
+    "C-2.1-LO-7",
+    "LO-63"
+   ],
+   "note": "The value being produced IS a frictional force, which is the standing rule for adding LO-63 to a numerical. Contrast the plain braking numericals, where friction is never named."
+  },
+  {
+   "sha": "5d55612b57ade5fa",
+   "codes": [
+    "C-2.1-LO-7",
+    "LO-63",
+    "LO-62"
+   ],
+   "note": "Net accelerating force is assembled from engine minus track friction (LO-62 plus LO-63), the whole train is then treated as one mass for a, and part (c) needs a sub-system free body. Three codes because all three steps are separately marked; the systems step itself has no outcome to cite."
+  },
+  {
+   "sha": "ed32b977eaaa5389",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Single substitution carrying a sign - base numerical, LO-7 alone. Friction is not named in stem or answer, so LO-63 is not added as it is for L154."
+  },
+  {
+   "sha": "f4436ccbb66794da",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Computes a change of momentum, for which this frame has no outcome at all; LO-7 is the nearest legal code because momentum change is being used as the second-law quantity. Flagged - the sign reversal on return is the graded step and nothing in the frame reaches it."
+  },
+  {
+   "sha": "167d844ae4b378b8",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Two-value base numerical: a from v = u + at, then the penetration distance and the force. No friction named, no graph."
+  },
+  {
+   "sha": "05fec8f52e854261",
+   "codes": [
+    "C2.1"
+   ],
+   "note": "Conservation of momentum in a perfectly inelastic collision. No learning outcome in this frame mentions momentum or its conservation, so the competency C2.1 is the most specific honest citation. One of the clearest misfits in the chapter."
+  },
+  {
+   "sha": "422f58706ac7ec5b",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Initial and final momentum are asked, but the force at the end is a straight rate-of-change-of-momentum calculation which LO-7 reaches. The two momentum sub-parts are unhoused. Flagged."
+  },
+  {
+   "sha": "2379fa6d99ae3f78",
+   "codes": [
+    "C2.2",
+    "C-2.1-LO-7"
+   ],
+   "note": "The dumb-bell falls under gravity at 10 m/s^2, so C2.2 covers the gravitational half; the momentum transferred has no outcome and LO-7 is cited for the arithmetic. Flagged."
+  },
+  {
+   "sha": "75b8f42a5d758f3f",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "One-line substitution with mass as the unknown. LO-7 rather than LO-6 because a value is produced; rearranging the expression does not change the outcome."
+  },
+  {
+   "sha": "c5c3e8c83ccadafc",
+   "codes": [
+    "C2.1"
+   ],
+   "note": "Pure kinematics - s = ut + at^2/2 - with no force, no mass and no law of motion in either the question or the answer. No learning outcome reaches it; C2.1's 'mathematical representations of motion in one dimension' is the only honest citation. Genuinely poor fit and arguably misfiled into this chapter."
+  },
+  {
+   "sha": "12318074e7391e7a",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Base numerical: a from (v - u)/t, then F = ma. No friction, graph, system or reaction pair is graded, so LO-7 alone - the family's default."
+  },
+  {
+   "sha": "a7a1f29c92735846",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "Base numerical. An exact duplicate of L161 later in the bank; mapped identically rather than distinguished artificially."
+  },
+  {
+   "sha": "c3b2163c44844f50",
+   "codes": [
+    "C-2.1-LO-7",
+    "LO-65"
+   ],
+   "note": "A stopping-force calculation set inside the catching context, so it carries LO-65 alongside the arithmetic. The qualitative members of that family take LO-6 instead of LO-7 because they produce no number."
+  },
+  {
+   "sha": "2fc6c51fa88592ea",
+   "codes": [
+    "C-2.1-LO-7"
+   ],
+   "note": "One-line substitution with acceleration as the unknown. Base numerical."
+  }
+ ]
+}

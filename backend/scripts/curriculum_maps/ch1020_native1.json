@@ -1,0 +1,856 @@
+{
+ "chapter_id": 1020,
+ "mappings": [
+  {
+   "sha": "qid:86612",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Pure terminology: what the principal focus IS. No outcome defines mirror parts; the competency is the one that names focus and centre of curvature as the properties being handled. Not LO-1, which is about stating reflection laws and locating an image."
+  },
+  {
+   "sha": "qid:86613",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "f = R/2 numerical. The mirror-formula outcome owns the f-R relation; LO-1 would be wrong because no image is located here."
+  },
+  {
+   "sha": "qid:86614",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Names the mirror from a stated image character (erect, magnified) - that is characterising the image of a concave mirror, not a formula computation."
+  },
+  {
+   "sha": "qid:86615",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Convex mirror always gives an erect diminished image with a wide field; the reasoning is image character, not the mirror formula."
+  },
+  {
+   "sha": "qid:86616",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "f = R/2 arithmetic for a convex mirror; no image is located, so LO-2 and not LO-1."
+  },
+  {
+   "sha": "qid:86617",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "Magnification formula m = -v/u with m = -3 and u = -10 to get v. Squarely the magnification-formula outcome, not the qualitative image outcome."
+  },
+  {
+   "sha": "qid:86618",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Air-to-water bending is the law of refraction plus optical density; LO-3 is the refraction outcome."
+  },
+  {
+   "sha": "qid:86619",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Speed of light from refractive index. Refraction outcome, which explicitly covers defining refractive index."
+  },
+  {
+   "sha": "qid:86620",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Definition of the dioptre. Power of a lens appears in no learning outcome; the competency names lens properties, so it rests there."
+  },
+  {
+   "sha": "qid:86621",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "P = 1/f for a lens. Power reaches no outcome - LO-3 covers the lens FORMULA, not lens power - so it sits at the competency."
+  },
+  {
+   "sha": "qid:86622",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Tests that a lens must be transparent; neither the refraction laws nor the lens formula is used, so it stays at the competency."
+  },
+  {
+   "sha": "qid:86623",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Virtual, erect, enlarged from a concave mirror means the object is inside the focus; a qualitative image-location judgement, so LO-1 not LO-2."
+  },
+  {
+   "sha": "qid:86624",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Real same-size image from a convex lens fixes the object at 2F; the lens image-position outcome, not the mirror outcome."
+  },
+  {
+   "sha": "qid:86625",
+   "codes": [
+    "C 5.3-LO-1"
+   ],
+   "note": "Entirely about reading f = -15 cm: negative f means a concave mirror but a concave lens. That is the Cartesian sign convention, not a formula application."
+  },
+  {
+   "sha": "qid:86626",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Always-erect image for every object distance identifies plane or convex mirror; qualitative mirror image outcome."
+  },
+  {
+   "sha": "qid:86627",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Choice turns on which lens has greater magnifying strength (shorter focal length), i.e. lens power, which no outcome names."
+  },
+  {
+   "sha": "qid:86628",
+   "codes": [
+    "C 2.3-LO-1",
+    "C 8.1-LO-2"
+   ],
+   "note": "Two things are demanded: the object range for an erect image in a concave mirror (LO-1) and an explicitly drawn ray diagram (C 8.1-LO-2). The drawing is required, not incidental."
+  },
+  {
+   "sha": "qid:86629",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Matches three applications to mirror types by the image each forms; the mirror image-character outcome, not any formula."
+  },
+  {
+   "sha": "qid:86630",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "About image completeness and brightness when part of the aperture is blocked. Neither the refraction laws nor the lens formula answers it, so competency level."
+  },
+  {
+   "sha": "qid:86631",
+   "codes": [
+    "C 2.3-LO-3",
+    "C 8.1-LO-2"
+   ],
+   "note": "Lens formula to get position, size and nature (LO-3) plus an explicitly required ray diagram (C 8.1-LO-2)."
+  },
+  {
+   "sha": "qid:86632",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "Mirror formula with f = +15 cm, u = -10 cm. A calculation, so LO-2 rather than the qualitative convex-mirror outcome."
+  },
+  {
+   "sha": "qid:86633",
+   "codes": [
+    "C 2.3-LO-2",
+    "C 5.3-LO-1"
+   ],
+   "note": "m = +1 is read through the magnification formula (LO-2) and the whole content is what the PLUS sign means, which is the sign convention (C 5.3-LO-1)."
+  },
+  {
+   "sha": "qid:86634",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "Convex mirror, R given, needs f = R/2 then the mirror and magnification formulae. A calculation item."
+  },
+  {
+   "sha": "qid:86635",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "Concave mirror numerical: screen distance is v from the mirror formula, size from magnification. LO-2, not the qualitative LO-1."
+  },
+  {
+   "sha": "qid:86636",
+   "codes": [
+    "C 2.3",
+    "C 5.3-LO-1"
+   ],
+   "note": "Two distinct steps: f = 1/P, which is lens power and reaches no outcome (competency), and the minus sign identifying a concave lens (sign convention)."
+  },
+  {
+   "sha": "qid:86637",
+   "codes": [
+    "C 2.3",
+    "C 5.3-LO-1"
+   ],
+   "note": "Same pair as the -2.0 D item: power-to-focal-length (competency) plus the plus sign showing a converging lens (sign convention)."
+  },
+  {
+   "sha": "qid:86638",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Uses the lens formula relation between u and v to decide which way the screen moves and how m changes. Lens image-position outcome."
+  },
+  {
+   "sha": "qid:86639",
+   "codes": [
+    "C 8.1-LO-2",
+    "C 2.3-LO-3"
+   ],
+   "note": "Completing an incomplete lens ray diagram is the ray-diagram outcome; identifying the object position from it is the lens image-position outcome. Figure not stored."
+  },
+  {
+   "sha": "qid:86640",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Tracks how the lens image distance and size change as the object approaches; the lens image-position outcome, done without a required drawing."
+  },
+  {
+   "sha": "qid:86641",
+   "codes": [
+    "C 2.3-LO-3",
+    "C 8.1-LO-2"
+   ],
+   "note": "Object position for a virtual image from a convex lens (LO-3) and an explicitly demanded ray diagram (C 8.1-LO-2)."
+  },
+  {
+   "sha": "qid:86642",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Candle-and-screen sequence for a convex lens: how v, size and intensity vary with u. Lens image-position outcome; no drawing is asked for."
+  },
+  {
+   "sha": "qid:86643",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Same convex-lens screen sequence including the same-size distance at 2F. Lens image-position outcome."
+  },
+  {
+   "sha": "qid:86644",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Always-virtual, always-erect for every object position identifies a convex mirror; qualitative mirror image outcome."
+  },
+  {
+   "sha": "qid:86645",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Reads optical density off refractive-index values; the refraction outcome explicitly covers refractive index. Table is not stored with the stem."
+  },
+  {
+   "sha": "qid:86646",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Compares speed of light through refractive index values; refraction outcome."
+  },
+  {
+   "sha": "qid:86647",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Speed maxima/minima plus a relative refractive index calculation; refraction outcome. Table not stored."
+  },
+  {
+   "sha": "qid:86648",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Picks medium pairs where light speeds up or slows down, straight from refractive index; refraction outcome. Table not stored."
+  },
+  {
+   "sha": "qid:86649",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "The bent pencil is refraction at the water surface with an apparent-position shift; a refraction item, not a mirror or lens ray diagram, so not C 8.1-LO-2."
+  },
+  {
+   "sha": "qid:86650",
+   "codes": [
+    "C 2.3-LO-1",
+    "C 2.3-LO-3"
+   ],
+   "note": "Deliberately spans both elements: a source at the focus of a concave mirror (LO-1) and of a convex lens (LO-3) both give a parallel beam. Both are needed to eliminate the distractors."
+  },
+  {
+   "sha": "qid:86651",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "Magnification from object and image heights, then the mirror formula for f. A calculation, so LO-2."
+  },
+  {
+   "sha": "qid:86652",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Real image larger than the object means the object is between F and C of a concave mirror; qualitative image-position judgement."
+  },
+  {
+   "sha": "qid:86653",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Compares bending at an A-to-B boundary to decide whether the relative refractive index exceeds one; refraction outcome. Figure not stored."
+  },
+  {
+   "sha": "qid:86654",
+   "codes": [
+    "C 8.1-LO-2"
+   ],
+   "note": "Identifies the optical element purely from the drawn ray paths in and out of the box; that is reading a mirror/lens ray diagram. Figure not stored."
+  },
+  {
+   "sha": "qid:86655",
+   "codes": [
+    "C 8.1-LO-2"
+   ],
+   "note": "Same box-and-rays construction: the element is inferred from the drawn ray paths. Figure not stored."
+  },
+  {
+   "sha": "qid:86656",
+   "codes": [
+    "C 2.3",
+    "C 5.3-LO-1"
+   ],
+   "note": "Tests the P = 1/f arithmetic (competency, since power reaches no outcome) together with which sign goes with which lens (sign convention)."
+  },
+  {
+   "sha": "qid:86657",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "Phrased in terms of the magnification VALUE being less than one, so the magnification-formula outcome rather than the qualitative image outcome."
+  },
+  {
+   "sha": "qid:86658",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "Sun rays converging at 15 cm fixes f, then a same-size image requires the object at C = 2f = 30 cm. Uses f and the magnification condition, so LO-2."
+  },
+  {
+   "sha": "qid:86659",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Only a convex mirror gives a full-length diminished image of a tall building; qualitative mirror image outcome."
+  },
+  {
+   "sha": "qid:86660",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Bulb at the focus of a concave reflector gives a parallel beam; a mirror image-position fact, not a formula."
+  },
+  {
+   "sha": "qid:86661",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Directly asks the scope of the laws of reflection, which is the first clause of LO-1."
+  },
+  {
+   "sha": "qid:86662",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Correct path through a rectangular glass slab is refraction at two parallel faces. Not a mirror or lens diagram, so LO-3 rather than C 8.1-LO-2."
+  },
+  {
+   "sha": "qid:86663",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Which medium bends the ray most is decided by refractive index; refraction outcome."
+  },
+  {
+   "sha": "qid:86664",
+   "codes": [
+    "C 8.1-LO-2"
+   ],
+   "note": "Chooses the correct reflected ray for a concave mirror: the standard mirror construction rays, which is the ray-diagram outcome. Figure not stored."
+  },
+  {
+   "sha": "qid:86665",
+   "codes": [
+    "C 8.1-LO-2"
+   ],
+   "note": "Chooses the correct refracted ray for a lens: the standard lens construction rays. Figure not stored."
+  },
+  {
+   "sha": "qid:86666",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Magic-mirror strip requires knowing which mirror enlarges, keeps size, and diminishes; qualitative mirror image outcome."
+  },
+  {
+   "sha": "qid:86667",
+   "codes": [
+    "C 2.3-LO-1",
+    "C 2.3-LO-3"
+   ],
+   "note": "The options deliberately mix mirrors and lenses, so both the mirror image outcome and the lens image outcome are needed to reject the single-element distractors."
+  },
+  {
+   "sha": "qid:86668",
+   "codes": [
+    "C 2.3-LO-1",
+    "C 2.3-LO-3"
+   ],
+   "note": "Four cases split between mirrors and lenses; identifying each device needs both the mirror and the lens image-position outcomes."
+  },
+  {
+   "sha": "qid:86669",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Emergent ray parallel after a slab is refraction at two parallel faces; a refraction proof, not a mirror/lens ray diagram."
+  },
+  {
+   "sha": "qid:86670",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Extent of apparent bending varies with the liquid's refractive index; refraction outcome."
+  },
+  {
+   "sha": "qid:86671",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Asks for refractive index in terms of speed and derives the relative refractive index; the definition clause of LO-3."
+  },
+  {
+   "sha": "qid:86672",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Object positions of a convex lens for a magnified real and a magnified virtual image; lens image-position outcome."
+  },
+  {
+   "sha": "qid:86673",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Truncated stem, but it is the distant-building convex-lens item: which way the screen moves and the approximate focal length. Lens image-position outcome."
+  },
+  {
+   "sha": "qid:86674",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "P = 1/f and choosing the more convergent lens by focal length. Lens power reaches no outcome, so competency level."
+  },
+  {
+   "sha": "qid:86675",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Two plane mirrors at 90 degrees keep the emergent ray antiparallel; the reasoning is the law of reflection applied twice, so LO-1 rather than the mirror/lens ray-diagram outcome."
+  },
+  {
+   "sha": "qid:86676",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Drawing the bending of a ray at an air-water boundary is refraction, not a mirror or lens ray diagram, so LO-3 not C 8.1-LO-2."
+  },
+  {
+   "sha": "qid:86677",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Science content is that a convex lens concentrates sunlight at its focus; a lens property, not the lens formula. The values part reaches no outcome at all."
+  },
+  {
+   "sha": "qid:86678",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Shop surveillance mirrors are convex because of the wide erect field; qualitative mirror image outcome."
+  },
+  {
+   "sha": "qid:86679",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Distorted funhouse image from curved mirror sections; qualitative mirror image outcome."
+  },
+  {
+   "sha": "qid:86680",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Telescope lenses. The competency explicitly extends to a COMBINATION of lenses (telescope, microscope); no outcome covers it."
+  },
+  {
+   "sha": "qid:86681",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Definition of reflection, the phenomenon LO-1 opens with."
+  },
+  {
+   "sha": "qid:86682",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "A reflector is a surface used to reflect light; belongs with the reflection outcome."
+  },
+  {
+   "sha": "qid:86683",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Literally the first clause of LO-1: states the laws of reflection."
+  },
+  {
+   "sha": "qid:86684",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Normal incidence gives i = r = 0, a direct application of the law of reflection."
+  },
+  {
+   "sha": "qid:86685",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "General image vocabulary that applies to mirrors AND lenses alike; LO-1 is mirror-specific, so this rests at the competency."
+  },
+  {
+   "sha": "qid:86686",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Same reason as the real-image definition: image vocabulary spanning both mirrors and lenses."
+  },
+  {
+   "sha": "qid:86687",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Nature of a plane-mirror image is exactly what LO-1 asks the learner to locate and characterise."
+  },
+  {
+   "sha": "qid:86688",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Mirror geometry terminology. The competency names centre of curvature as a property being handled; no outcome defines it."
+  },
+  {
+   "sha": "qid:86689",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Mirror geometry terminology, same treatment as centre of curvature."
+  },
+  {
+   "sha": "qid:86690",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Aperture is pure mirror geometry; no outcome mentions it."
+  },
+  {
+   "sha": "qid:86691",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Pole is pure mirror geometry; no outcome mentions it."
+  },
+  {
+   "sha": "qid:86692",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Principal axis is pure mirror geometry; no outcome mentions it."
+  },
+  {
+   "sha": "qid:86693",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Definition of the principal focus of a convex mirror, handled the same as the concave-mirror focus definition: terminology at competency level."
+  },
+  {
+   "sha": "qid:86694",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Focal length defined as the pole-to-focus distance is geometry; the f-R RELATION (LO-2) is a different item."
+  },
+  {
+   "sha": "qid:86695",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "f = R/2 is the relation the mirror formula work rests on, so the mirror-formula outcome."
+  },
+  {
+   "sha": "qid:86696",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Converging and diverging mirrors named from how they treat light; the reflection/image outcome."
+  },
+  {
+   "sha": "qid:86697",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Always erect and diminished for every object position identifies the convex mirror; qualitative image outcome."
+  },
+  {
+   "sha": "qid:86698",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Real same-size image from a concave mirror puts the object at C; qualitative image-position judgement with no formula."
+  },
+  {
+   "sha": "qid:86699",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Magnified virtual image needs the object between P and F; qualitative image-position judgement."
+  },
+  {
+   "sha": "qid:86700",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Image of any object in a convex mirror lies between P and F behind the mirror; qualitative image location."
+  },
+  {
+   "sha": "qid:86701",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Names the mirror from a stated image character; qualitative image outcome."
+  },
+  {
+   "sha": "qid:86702",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "Asks for the mirror formula itself, which is the opening clause of LO-2."
+  },
+  {
+   "sha": "qid:86703",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "Definition of linear magnification, the second formula named in LO-2."
+  },
+  {
+   "sha": "qid:86704",
+   "codes": [
+    "C 2.3-LO-2"
+   ],
+   "note": "Magnification of a plane mirror is +1 because the image and object distances are equal; a magnification-formula item."
+  },
+  {
+   "sha": "qid:86705",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Dentist's mirror is concave because it gives an erect magnified image of a near object; qualitative image outcome."
+  },
+  {
+   "sha": "qid:86706",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Rear-view mirror is convex for the erect diminished wide-field image; qualitative image outcome."
+  },
+  {
+   "sha": "qid:86707",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Headlight reflector is concave with the bulb at the focus; mirror image/application outcome."
+  },
+  {
+   "sha": "qid:86708",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Solar furnace uses a large concave mirror to converge sunlight; mirror image/application outcome."
+  },
+  {
+   "sha": "qid:86709",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "A ray through C hits the mirror along the normal, so i = 0 and it retraces. Pure law of reflection."
+  },
+  {
+   "sha": "qid:86710",
+   "codes": [
+    "C 2.3-LO-1"
+   ],
+   "note": "Shop surveillance mirrors are convex for the wide field; mirror application outcome."
+  },
+  {
+   "sha": "qid:86711",
+   "codes": [
+    "C 8.1-LO-2"
+   ],
+   "note": "Explicitly asks the candidate to DRAW the ray diagram for a given object in front of a concave mirror; that is the ray-diagram outcome."
+  },
+  {
+   "sha": "qid:86712",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Definition of refraction, the phenomenon LO-3 opens with."
+  },
+  {
+   "sha": "qid:86713",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Cause of refraction is the change in speed between media; refraction outcome."
+  },
+  {
+   "sha": "qid:86714",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Defines and expresses absolute refractive index, which LO-3 names explicitly."
+  },
+  {
+   "sha": "qid:86715",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Relative refractive index definition; LO-3 covers defining refractive index."
+  },
+  {
+   "sha": "qid:86716",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Snell's law IS the law of refraction named in LO-3."
+  },
+  {
+   "sha": "qid:86717",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Why light bends at a boundary: change of speed. Refraction outcome."
+  },
+  {
+   "sha": "qid:86718",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Absolute refractive index exceeds one because light is fastest in vacuum; refraction outcome."
+  },
+  {
+   "sha": "qid:86719",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Frequency is unchanged across a boundary while speed and wavelength change; a refraction fact."
+  },
+  {
+   "sha": "qid:86720",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Normal incidence at a boundary gives no bending; a refraction item despite the concept tag saying reflection."
+  },
+  {
+   "sha": "qid:86721",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Incident and emergent rays through a slab are parallel, so the angle between them is zero; refraction through a slab."
+  },
+  {
+   "sha": "qid:86722",
+   "codes": [
+    "C 2.3-LO-3"
+   ],
+   "note": "Lateral displacement is defined for a ray refracted through a slab; refraction outcome."
+  },
+  {
+   "sha": "qid:86723",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Optical centre is lens geometry terminology; no outcome defines lens parts."
+  },
+  {
+   "sha": "qid:86724",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Principal axis of a lens is geometry terminology, treated like the mirror equivalents."
+  },
+  {
+   "sha": "qid:86725",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Definition of the principal focus of a convex lens; terminology, so competency level, matching the mirror focus definitions."
+  },
+  {
+   "sha": "qid:86726",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Definition of the principal focus of a concave lens; terminology at competency level."
+  },
+  {
+   "sha": "qid:86727",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Focal length of a lens defined as the optical-centre-to-focus distance; terminology."
+  },
+  {
+   "sha": "qid:86728",
+   "codes": [
+    "C 8.1-LO-2"
+   ],
+   "note": "Names the lens purely from the drawn incident and refracted rays; reading a lens ray diagram. Figure not stored."
+  },
+  {
+   "sha": "qid:86729",
+   "codes": [
+    "C 8.1-LO-2"
+   ],
+   "note": "Same construction as the companion item: the lens is identified from the drawn ray path. Figure not stored."
+  },
+  {
+   "sha": "qid:86730",
+   "codes": [
+    "C 5.3-LO-1"
+   ],
+   "note": "Asks what a negative image distance SIGNIFIES under the Cartesian convention; the sign-convention outcome, not the lens formula."
+  },
+  {
+   "sha": "qid:86731",
+   "codes": [
+    "C 2.3"
+   ],
+   "note": "Defines power of a lens and the dioptre; power appears in no outcome, so competency level."
+  }
+ ]
+}

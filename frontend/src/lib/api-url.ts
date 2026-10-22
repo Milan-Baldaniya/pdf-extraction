@@ -7,7 +7,7 @@
  * routes are built by stripping it back off.
  */
 
-const RAW_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api"
+const RAW_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8001/api"
 
 /** Base for `/api/...` routes, without a trailing slash. */
 export const API_BASE = RAW_BASE.replace(/\/+$/, "")

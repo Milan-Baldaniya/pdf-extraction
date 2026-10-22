@@ -245,14 +245,20 @@ export interface Subject {
   subject_name: string;
 }
 
-export async function fetchSubjectsByStandard(standardName: string): Promise<Subject[]> {
-  const { data } = await api.get<Subject[]>(`/subjects/${encodeURIComponent(standardName)}`);
+// `board` picks the shared content bank (sub_institute_id). Omitting it lets the
+// backend fall back to DEFAULT_SUB_INSTITUTE_ID, which silently ignores whatever
+// board the form has selected.
+export async function fetchSubjectsByStandard(standardName: string, board?: string): Promise<Subject[]> {
+  const { data } = await api.get<Subject[]>(`/subjects/${encodeURIComponent(standardName)}`, {
+    params: board ? { board } : undefined,
+  });
   return data;
 }
 
 export interface CreateSubjectPayload {
   standard_name: string;
   subject_name: string;
+  board?: string;
   subject_code?: string;
   subject_type?: string;
   short_name?: string;

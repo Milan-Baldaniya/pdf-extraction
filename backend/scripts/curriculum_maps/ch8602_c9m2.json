@@ -1,0 +1,145 @@
+{
+  "chapter_id": 8602,
+  "mappings": [
+    {
+      "sha": "qid:706819",
+      "codes": ["C-9.1-LO-1", "C-9.1-LO-3"],
+      "note": "The 36-outcome sample space for two distinguishable dice must be sized (LO-1), then 'sum is 8' broken into the five ordered pairs and counted (LO-3). The (2,6)/(6,2) distinction is why both steps carry marks."
+    },
+    {
+      "sha": "qid:706820",
+      "codes": ["C-6.2-LO-1", "C-9.1-LO-3"],
+      "note": "A proof that P(E)+P(not E)=1, i.e. that the scale tops out at certainty (C-6.2-LO-1), argued by partitioning n outcomes into m and n-m (C-9.1-LO-3). Not LO-2 or LO-3 of C-6.2: nothing experimental is involved."
+    },
+    {
+      "sha": "qid:706821",
+      "codes": ["C-6.2-LO-2"],
+      "note": "The defining formula for experimental probability, trials-with-the-outcome over total trials. C-6.2-LO-2's 'obtained by repeating a trial'."
+    },
+    {
+      "sha": "qid:706822",
+      "codes": ["C-6.2-LO-2", "C-6.2-LO-3"],
+      "note": "Why the two values differ is the LO-2 distinction; the closing point that the gap narrows as trials grow is LO-3. The item needs both, which is why it is not cited to either alone."
+    },
+    {
+      "sha": "qid:706823",
+      "codes": ["C-6.2-LO-2", "C-6.2-LO-1"],
+      "note": "The trap is treating an EXPERIMENTAL zero as proof of impossibility, which confuses the two kinds of probability (LO-2); the reason statement, that 0 denotes impossibility, is the true endpoint fact (C-6.2-LO-1)."
+    },
+    {
+      "sha": "qid:706824",
+      "codes": ["C-6.2-LO-2"],
+      "note": "Computes 108/200 from observed trials. That is experimental probability, LO-2; LO-3 is not cited because the value is never compared with the theoretical one."
+    },
+    {
+      "sha": "qid:706825",
+      "codes": ["C-6.2-LO-2", "C-6.2-LO-3"],
+      "note": "Explicitly sets the experimental 0.2 beside the theoretical one sixth (LO-2) and then judges whether 120 trials make the gap meaningful, which is the law-of-large-numbers reasoning of LO-3."
+    },
+    {
+      "sha": "qid:706826",
+      "codes": ["C-6.2-LO-2"],
+      "note": "Two relative frequencies from 500 tosses, with the check that they sum to 1. Experimental probability only -- no theoretical comparison, so not LO-3."
+    },
+    {
+      "sha": "qid:706827",
+      "codes": ["C-6.2-LO-3"],
+      "note": "The running-relative-frequency graph settling onto the 0.5 line as trials increase IS the law of large numbers pictured. LO-3; LO-2 would stop at computing one relative frequency."
+    },
+    {
+      "sha": "qid:706828",
+      "codes": ["C-6.2-LO-4"],
+      "note": "Five heads running, then the next toss: the gambler's-fallacy item in its purest form, LO-4."
+    },
+    {
+      "sha": "qid:706829",
+      "codes": ["C-6.2-LO-4"],
+      "note": "'A head is due' explained away by independence and by the coin having no memory. LO-4's 'explains why earlier results do not alter the probability of the next trial'."
+    },
+    {
+      "sha": "qid:706830",
+      "codes": ["C-6.2-LO-4"],
+      "note": "A false assertion (a tail is more likely after three heads) against a true reason (tosses are independent) -- the assertion-reason form of the gambler's fallacy, LO-4."
+    },
+    {
+      "sha": "qid:706831",
+      "codes": ["C-6.2-LO-4"],
+      "note": "Independence is the concept, tested from the other side: drawing WITHOUT replacement makes trials dependent. LO-4 owns independence in this frame, even though its wording is about a fair repeated experiment."
+    },
+    {
+      "sha": "qid:706832",
+      "codes": ["C-6.2-LO-3"],
+      "note": "Where the experimental value tends as trials increase -- LO-3's statement of the law of large numbers, in one line."
+    },
+    {
+      "sha": "qid:706833",
+      "codes": ["C-6.2-LO-3"],
+      "note": "The law of large numbers stated, plus the crucial caveat that it promises proportions and not equal counts. LO-3; the caveat is what keeps it from being an LO-4 item."
+    },
+    {
+      "sha": "qid:706834",
+      "codes": ["C-6.2-LO-3"],
+      "note": "The classic false assertion that the NUMBERS of heads and tails become equal, set against the true statement about relative frequency. That counts-versus-proportion distinction is the heart of LO-3."
+    },
+    {
+      "sha": "qid:706835",
+      "codes": ["C-6.2-LO-3"],
+      "note": "Designs the demonstration -- what to record, how to plot it and what to expect. LO-3 as a practical task rather than a statement."
+    },
+    {
+      "sha": "qid:706836",
+      "codes": ["C-6.2-LO-5"],
+      "note": "What 'biased' means for a die, i.e. that its faces are not equally likely. LO-5 is the fairness outcome; LO-3 is about convergence, which is not in question here."
+    },
+    {
+      "sha": "qid:706837",
+      "codes": ["C-6.2-LO-5"],
+      "note": "Judges fairness FROM the outcomes produced -- 30 sixes in 60 -- and notes that no finite experiment settles it with certainty. LO-5 exactly, with an LO-3 flavour in the caveat."
+    },
+    {
+      "sha": "qid:706838",
+      "codes": ["C-6.2-LO-5"],
+      "note": "Designs a fairness investigation and states what makes the conclusion trustworthy. LO-5's judging clause; qid:706835 is the LO-3 twin of this item, which is why the two get different codes."
+    },
+    {
+      "sha": "qid:706839",
+      "codes": ["C-6.2-LO-4", "C-6.2-LO-3"],
+      "note": "The answer names the gambler's fallacy first (LO-4) and then over-reading a small sample (LO-3's convergence caveat). Cited to those two rather than LO-5, since no specific coin or die is being judged."
+    },
+    {
+      "sha": "qid:706840",
+      "codes": ["C-6.2-LO-1"],
+      "note": "What probability measures, answered directly as a scale from 0 for impossible to 1 for certain. C-6.2-LO-1's definition."
+    },
+    {
+      "sha": "qid:706841",
+      "codes": ["C-9.1-LO-1", "C-6.2-LO-1"],
+      "note": "Four of the five terms defined -- experiment, outcome, sample space, event -- are the vocabulary of C-9.1-LO-1; the fifth, probability itself, is defined on the 0-1 scale (C-6.2-LO-1)."
+    },
+    {
+      "sha": "qid:706842",
+      "codes": ["C-9.1-LO-1", "C-6.2-LO-3"],
+      "note": "Randomness is defined by the two halves the answer gives: the outcomes CAN all be listed in advance (C-9.1-LO-1's sample space) while the individual result cannot be predicted and only the long-run pattern is (C-6.2-LO-3). No single outcome in this frame defines a random experiment."
+    },
+    {
+      "sha": "qid:706843",
+      "codes": ["C-9.1-LO-1"],
+      "note": "False precisely because the sample space CAN be listed in advance -- the statement LO-1 rests on. Cited alone here, unlike qid:706842, because unpredictability of the individual trial is not at issue."
+    },
+    {
+      "sha": "qid:706844",
+      "codes": ["C-9.1-LO-2"],
+      "note": "A tree is asked for by name, with the two stages and the four paths read off it. C-9.1-LO-2, not LO-1: the method is the point, since the sample space could also be listed directly."
+    },
+    {
+      "sha": "qid:706845",
+      "codes": ["C-9.1-LO-2"],
+      "note": "A two-stage tree over UNLIKE experiments, coin then die, giving twelve paths. LO-2's 'experiment carried out in stages ... reads the outcomes of the combined experiment from its branches'."
+    },
+    {
+      "sha": "qid:706846",
+      "codes": ["C-9.1-LO-2", "C-9.1-LO-3"],
+      "note": "Three stages and eight endpoints drawn as a tree (LO-2), and then 'exactly two heads' decomposed into HHT, HTH and THH and counted (LO-3). The second step is what distinguishes it from qid:706844."
+    }
+  ]
+}

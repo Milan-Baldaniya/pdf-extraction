@@ -1,0 +1,240 @@
+{
+  "chapter_id": 38389,
+  "mappings": [
+    {
+      "sha": "dad4c3a5c713b4c9",
+      "codes": ["C-4.1"],
+      "note": "Fourth angle from the 360 angle sum. Solving a numeric problem from a property of the figure -> C-4.1. C-7.3 rejected: nothing is proved, the angle sum is used as a given. This chapter's frame holds no learning outcomes, so competency level is the ceiling here."
+    },
+    {
+      "sha": "0a37e292ccb05e8e",
+      "codes": ["C-4.1"],
+      "note": "Angles in the ratio 3:4:5:6 - computation from the angle sum. C-7.3 rejected, no deductive argument is asked for."
+    },
+    {
+      "sha": "2155b00de317dca8",
+      "codes": ["C-4.1"],
+      "note": "Acute angle between the diagonals of a rectangle from a 25 degree inclination. Uses equal diagonals and the isosceles triangle that follows, to compute a measure -> C-4.1 rather than C-7.3."
+    },
+    {
+      "sha": "6b0b47ebbc3c5cc1",
+      "codes": ["C-4.1"],
+      "note": "Rhombus, angle ACB = 40, find angle ADB: alternate angles plus perpendicular diagonals, used to compute. C-7.3 rejected - the properties are applied, not established."
+    },
+    {
+      "sha": "4e38afc218e12bb7",
+      "codes": ["C-4.1"],
+      "note": "Which condition on PQRS makes its mid-point quadrilateral a rectangle - exactly 'make and test conjectures'. C-7.3 rejected: the item selects the condition, it does not demand the proof (even though the stored answer supplies one)."
+    },
+    {
+      "sha": "7aba4af750a6891b",
+      "codes": ["C-4.1"],
+      "note": "Consecutive angles of a parallelogram are supplementary - describing a relationship between angles of a shape. C-7.3 rejected, recall not proof."
+    },
+    {
+      "sha": "95e3daeef0629f49",
+      "codes": ["C-4.1"],
+      "note": "Two angles given, the other two in ratio 8:15 - angle-sum computation. Not C-7.3."
+    },
+    {
+      "sha": "112f1b676bbdcdf2",
+      "codes": ["C-7.3"],
+      "note": "Asks what extra premise (DE = EF) a proof needs before SAS congruence will give CF equal and parallel to DA. The object of the question is the structure of the deductive argument, so C-7.3 and not C-4.1, even though congruence is the tool."
+    },
+    {
+      "sha": "bcc6e502a3d638cc",
+      "codes": ["C-4.1"],
+      "note": "Assertion is a computed smallest angle (58 degrees), reason is the 360 angle sum. The work is arithmetic on angles -> C-4.1. C-7.3 rejected: no theorem is proved."
+    },
+    {
+      "sha": "af81eff50a1c4b9b",
+      "codes": ["C-7.3"],
+      "note": "Turns on the theorem 'a parallelogram with equal diagonals is a rectangle' doing the deductive work for the assertion. C-4.1 rejected because the item is about the theorem, not about computing or classifying from given measures."
+    },
+    {
+      "sha": "00c6a9eccea7b416",
+      "codes": ["C-7.3"],
+      "note": "The named Class 9 theorem that a diagonal of a parallelogram divides it into two congruent triangles. C-4.1 also mentions congruence, but here the theorem itself is the content, not congruence used to solve something."
+    },
+    {
+      "sha": "47cff6772e926128",
+      "codes": ["C-4.1"],
+      "note": "Assertion is a property of a square (angle ABC = 90); the point of the item is that the reason about diagonals, though true, does not explain it. Property identification -> C-4.1. C-7.3 rejected, nothing is proved from axioms."
+    },
+    {
+      "sha": "4aa9c11b13f17c70",
+      "codes": ["C-7.3"],
+      "note": "DP = PC follows only via the mid-point theorem, which the reason clause states. The theorem is what carries the argument, so C-7.3 over C-4.1."
+    },
+    {
+      "sha": "bc67a4c40847ed2d",
+      "codes": ["C-7.3"],
+      "note": "Median produced to X with AD = DX gives a parallelogram by the converse theorem 'diagonals bisecting each other imply a parallelogram'; the reason wrongly adds 'at right angles'. Theorem-level reasoning -> C-7.3."
+    },
+    {
+      "sha": "c39312098594bd40",
+      "codes": ["C-4.1"],
+      "note": "Consecutive versus opposite sides of a quadrilateral and how many points they share - vocabulary describing the parts of a 2-D shape. C-7.3 rejected: no theorem, no proof."
+    },
+    {
+      "sha": "b4babe1a08544f79",
+      "codes": ["C-4.1"],
+      "note": "Equates two opposite angles (3x-2) and (50-x) and computes 37 degrees. Arithmetic from a stated property -> C-4.1, not C-7.3."
+    },
+    {
+      "sha": "6dec050a4595e56f",
+      "codes": ["C-4.1"],
+      "note": "Angles in ratio 2:3:7:6 checked against 40/60/140/120 - angle-sum computation. Not C-7.3."
+    },
+    {
+      "sha": "e92cd551ac3685d5",
+      "codes": ["C-7.3"],
+      "note": "AQ = QP because the mid-point line FE meets the altitude at its mid-point - the converse mid-point theorem is doing the work, and the reason states it. C-7.3 over C-4.1 for that reason."
+    },
+    {
+      "sha": "b66fb9b8115bdea3",
+      "codes": ["C-4.1"],
+      "note": "Angles in ratio 3:4:4:7, find all four. Computation from the angle sum, so C-4.1 rather than C-7.3."
+    },
+    {
+      "sha": "2b6cefa64af0d172",
+      "codes": ["C-4.1"],
+      "note": "Two consecutive angles given algebraically turn out to be 90 each, so the parallelogram is a rectangle: computation followed by classification. C-7.3 rejected - naming the special case is not proving a theorem."
+    },
+    {
+      "sha": "44b18f35922b92fb",
+      "codes": ["C-4.1"],
+      "note": "One angle 30 degrees less than the smallest - solves for all four angles. Numeric, so C-4.1 not C-7.3."
+    },
+    {
+      "sha": "ebef91898ddbca65",
+      "codes": ["C-7.3"],
+      "note": "'Show that it is a rectangle' from equal diagonals - a written proof using SSS congruence and co-interior angles. C-4.1 rejected: the deliverable is the argument, not a measure."
+    },
+    {
+      "sha": "92a051e8c85eea9f",
+      "codes": ["C-4.1"],
+      "note": "Perimeter 40 with PQ = 12 gives the remaining sides via opposite sides equal. A length computation -> C-4.1, not C-7.3."
+    },
+    {
+      "sha": "df37f3309bfca0aa",
+      "codes": ["C-4.1"],
+      "note": "Angle A minus angle C is 0 because opposite angles of a parallelogram are equal - applying the relationship. C-7.3 rejected."
+    },
+    {
+      "sha": "2d15a0a6e8f671f0",
+      "codes": ["C-4.1"],
+      "note": "Rhombus with angle A = 70, find B and C from opposite-equal and adjacent-supplementary. Computation -> C-4.1."
+    },
+    {
+      "sha": "7dc5acec58159eca",
+      "codes": ["C-7.3"],
+      "note": "'Show that BFDE is a parallelogram' from AE = CF on the diagonal - a proof built on diagonals bisecting each other. C-4.1 rejected, no measure is sought."
+    },
+    {
+      "sha": "92fb50a1571b33b2",
+      "codes": ["C-7.3"],
+      "note": "'Show that F is the mid-point of BC' in a trapezium - the converse mid-point theorem written out as a proof. C-4.1 rejected."
+    },
+    {
+      "sha": "554e8d0caf09a939",
+      "codes": ["C-7.3"],
+      "note": "'Show that triangle DEF is also equilateral' via the mid-point theorem on all three sides. A proof, so C-7.3."
+    },
+    {
+      "sha": "1368e44c79f8a140",
+      "codes": ["C-7.3"],
+      "note": "'Show that the diagonals of a rhombus are perpendicular' - one of the chapter's standard theorems, proved with SSS congruence and a linear pair. C-4.1 rejected."
+    },
+    {
+      "sha": "2a5da6cf7a5dea0b",
+      "codes": ["C-7.3"],
+      "note": "Mid-points of a rhombus form a rectangle - a full proof combining the mid-point theorem with perpendicular diagonals. Compare sha 4e38afc2, which asks only for the condition and is therefore C-4.1."
+    },
+    {
+      "sha": "b8403f42f7b546bb",
+      "codes": ["C-7.3"],
+      "note": "'Prove that a diagonal bisecting one angle of a parallelogram bisects the opposite angle also' - alternate angles chained into a proof. C-4.1 rejected."
+    },
+    {
+      "sha": "f3fef414ce7d1c17",
+      "codes": ["C-7.3"],
+      "note": "Square inscribed in an isosceles right triangle: show the opposite vertex bisects the hypotenuse, via congruent triangles CFE and BDE. A proof -> C-7.3."
+    },
+    {
+      "sha": "456d13ef889e34df",
+      "codes": ["C-4.1"],
+      "note": "'Find the length of CF' with AB = 10, AD = 6 and the bisector of angle A. The deliverable is a length, so C-4.1, even though the route uses isosceles-triangle reasoning. C-7.3 rejected on that ground."
+    },
+    {
+      "sha": "267f5a35fdf627f4",
+      "codes": ["C-7.3"],
+      "note": "'Prove PQRS is a rhombus' when AC = BD - mid-point theorem on four triangles. A proof, so C-7.3 not C-4.1."
+    },
+    {
+      "sha": "2b2adc0051824bc9",
+      "codes": ["C-7.3"],
+      "note": "'Prove that DL, DK, BM and BN enclose a rhombus' in a square, via SAS and AAS congruence. A proof -> C-7.3."
+    },
+    {
+      "sha": "b20963d108a3d7d4",
+      "codes": ["C-7.3"],
+      "note": "'Prove that QN = QR' by chaining isosceles-triangle and corresponding-angle equalities. A proof, so C-7.3."
+    },
+    {
+      "sha": "3d52f14ca0393e6b",
+      "codes": ["C-4.1"],
+      "note": "'Measure the acute angle between the two diagonals' of a rectangle from a 25 degree inclination - the same numeric task as sha 2155b00d, hence the same C-4.1 call and not C-7.3."
+    },
+    {
+      "sha": "71af89d536f5c2f8",
+      "codes": ["C-4.1"],
+      "note": "Angle OAB from angle BOC = 90 and angle BDC = 50 - alternate angles in a parallelogram used to compute. C-7.3 rejected."
+    },
+    {
+      "sha": "fad7cd793db9da6d",
+      "codes": ["C-4.1"],
+      "note": "Angles in ratio 3:7:6:4 make ABCD a trapezium: computes the angles, then classifies the quadrilateral from co-interior pairs. Classification is C-4.1; C-7.3 rejected."
+    },
+    {
+      "sha": "ae359cb01ea626b8",
+      "codes": ["C-4.1"],
+      "note": "The quadrilateral formed by the four angle bisectors of a quadrilateral has supplementary opposite angles - identifying the figure that a construction produces, i.e. testing a conjecture. C-7.3 rejected: the MCQ asks which figure, not for the proof."
+    },
+    {
+      "sha": "d22d92de2accc8ba",
+      "codes": ["C-4.1"],
+      "note": "Bisectors of the angles between two parallel lines enclose a rectangle - a relationship among lines and angles, identified not proved, so C-4.1 over C-7.3."
+    },
+    {
+      "sha": "42fbf63cf9e4f72f",
+      "codes": ["C-4.1"],
+      "note": "DEQP is a parallelogram from four mid-points. Named as an MCQ outcome rather than proved, so C-4.1; contrast sha 47e03d13, where the same mid-point theorem has to justify the assertion and the call is C-7.3."
+    },
+    {
+      "sha": "47e03d13db537aa4",
+      "codes": ["C-7.3"],
+      "note": "Assertion PQRS is a parallelogram, reason is the mid-point theorem, and the key is that the reason IS the correct explanation - the item tests the theorem-to-conclusion link. C-4.1 rejected for that reason."
+    },
+    {
+      "sha": "97b21c1dbd10f10f",
+      "codes": ["C-7.3"],
+      "note": "In a rhombus the diagonal bisects the angles at both ends - a theorem, while the reason (perpendicular diagonals) is a different true theorem that does not explain it. Deductive content -> C-7.3."
+    },
+    {
+      "sha": "e4d0c58103acbdf8",
+      "codes": ["C-4.1"],
+      "note": "'Every parallelogram is a rectangle' is false - the hierarchy of quadrilaterals. Classification of shapes -> C-4.1; C-7.3 rejected, no proof is at stake."
+    },
+    {
+      "sha": "e60cb24932fa2b45",
+      "codes": ["C-4.1"],
+      "note": "Properties of a parallelogram's diagonals against the equal-and-perpendicular condition for a square: property and classification -> C-4.1. (Defect: the key marks the assertion 'the diagonal of parallelogram bisects each other' FALSE, which is only defensible as a reading of the singular 'diagonal'; the stem looks garbled and the key is doubtful.)"
+    },
+    {
+      "sha": "378b3c9800ff7574",
+      "codes": ["C-4.1"],
+      "note": "Angles 110, 80, 70, 95 sum to 355, so the assertion fails the 360 angle sum - an arithmetic check on a stated set of angles. C-7.3 rejected."
+    }
+  ]
+}

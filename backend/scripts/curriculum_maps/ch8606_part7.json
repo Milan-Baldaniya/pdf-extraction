@@ -1,0 +1,130 @@
+{
+ "chapter_id": 8606,
+ "mappings": [
+  {
+   "sha": "60b50eec7f00da73",
+   "codes": ["C-2.5-LO-2"],
+   "note": "Inverts W = F x s to recover the force. Still the work expression, so LO-2; no energy form is named, which is what keeps the mgh numericals on LO-6 instead."
+  },
+  {
+   "sha": "71bc10d2bb878b74",
+   "codes": ["C-2.5-LO-2", "C-2.5-LO-6"],
+   "note": "The quantity asked for is WORK (LO-2) but it can only be found through mgh (LO-6), and the model answer equates the two explicitly. Both cited because the item straddles the work and potential-energy strands."
+  },
+  {
+   "sha": "115055ad7076b1da",
+   "codes": ["C-2.5-LO-6", "C-2.5-LO-2"],
+   "note": "The mirror image of L124: the work is given and the HEIGHT is unknown, so the mgh expression is the thing being manipulated (LO-6 first), with LO-2 for the work framing. Split from L123/L126 because those never touch gravity."
+  },
+  {
+   "sha": "6f45f659373f8602",
+   "codes": ["C-2.5-LO-2"],
+   "note": "W = F x s inverted for displacement - the same single-outcome family as L123 with a different unknown. No gravitational or kinetic energy appears, so LO-6 stays out."
+  },
+  {
+   "sha": "078a4939c8dea482",
+   "codes": ["C-2.5-LO-6"],
+   "note": "Direct substitution into 1/2 mv^2. LO-6 is 'calculate kinetic and potential energy using mathematical expressions', which this is exactly; LO-5 would require stating or deriving the formula instead."
+  },
+  {
+   "sha": "0e263f058f62e88e",
+   "codes": ["C-2.5-LO-6"],
+   "note": "Same KE expression inverted for speed. Grouped with L127 on LO-6: the frame does not distinguish solving for the energy from solving for a variable inside it."
+  },
+  {
+   "sha": "109baf3179d45cf1",
+   "codes": ["C-2.5-LO-7", "C-2.5-LO-6"],
+   "note": "The solution route is PE converting entirely to KE during free fall (LO-7), and the closing 'does v depend on mass' is an LO-7 insight; LO-6 carries the numerical evaluation. Separated from the plain KE numericals by the free-fall conversion step."
+  },
+  {
+   "sha": "d43f1c5840705999",
+   "codes": ["C-2.5-LO-6"],
+   "note": "Holds KE fixed while quadrupling the mass and solves for the new velocity - manipulating the KE expression, LO-6. Physically the same item as P4 in part 1, and honestly the same outcome."
+  },
+  {
+   "sha": "f638531324ca8b57",
+   "codes": ["C-2.6-LO-2"],
+   "note": "One division, P = W/t. The purest instance of 'calculate power using its mathematical expression'; C-2.6-LO-1 is withheld because nothing is defined."
+  },
+  {
+   "sha": "13e4ffc27565183b",
+   "codes": ["C-2.6-LO-2"],
+   "note": "P = mgh/t for a person climbing. The mgh step is an unmarked intermediate, not a separately asked answer, so LO-6 is not added - the rule used across this batch to keep power numericals distinct from energy numericals."
+  },
+  {
+   "sha": "cc568421494c3cfe",
+   "codes": ["C-2.6-LO-2"],
+   "note": "Uses P = F x v after a unit conversion - a second form of the power expression, still C-2.6-LO-2. Distinguished from the P = W/t items only by route, which the frame does not separate."
+  },
+  {
+   "sha": "4fe88419354149fd",
+   "codes": ["C-2.6-LO-2"],
+   "note": "Staircase power from mgh/t, with the total height assembled from 10 steps. Same outcome as L132; the step count is arithmetic, not a different skill."
+  },
+  {
+   "sha": "f32fa0ae6ddad282",
+   "codes": ["C-2.6-LO-2"],
+   "note": "Power and work per beat are given and the BEAT COUNT is the unknown - the power expression run backwards, so still C-2.6-LO-2. Nothing about the heart adds a biological outcome to this frame."
+  },
+  {
+   "sha": "2a095fbfa681173e",
+   "codes": ["C-2.6-LO-2"],
+   "note": "Solves P = E/t for the time. Grouped with the other inverted-power numericals on C-2.6-LO-2; the bulb is context only, with no electrical outcome in this curriculum."
+  },
+  {
+   "sha": "2e244c0cfe32d18c",
+   "codes": ["C-2.6-LO-2"],
+   "note": "P = F x v then converted to horsepower. C-2.6-LO-2 covers the calculation; note that the frame names only the SI unit of power, so the horsepower conversion itself is uncovered - a small gap, not enough to call the item a bad fit."
+  },
+  {
+   "sha": "715bec9c487eac2d",
+   "codes": ["C-2.6-LO-2"],
+   "note": "WEAK FIT. E = P x t is the power expression rearranged (C-2.6-LO-2), but the answer is demanded in commercial units (kWh, 'units'), and curriculum 82 names only the watt and the joule. No outcome covers commercial energy units."
+  },
+  {
+   "sha": "8bd27bb416747946",
+   "codes": ["C-2.6-LO-2"],
+   "note": "WEAK FIT. Beyond E = P x t this is a tariff multiplication; energy COST has no outcome anywhere in the frame, so only the first line of the solution is actually mapped."
+  },
+  {
+   "sha": "f13a4323d82b7828",
+   "codes": ["C-2.6-LO-2", "LO-71"],
+   "note": "Physically identical to the athlete-staircase item, but this one is framed as an EXPERIMENT with a list of recorded measurements from which the student must infer his power - that data-to-inference step is LO-71 and is the only thing separating the two items."
+  },
+  {
+   "sha": "ec20572f5e0e6853",
+   "codes": ["C-2.5-LO-6", "C-2.5-LO-3", "C-2.6-LO-1"],
+   "note": "Three separately marked demands: compute the bullet's KE (LO-6), get the stopping force by equating work to the KE destroyed (LO-3), and say where the energy went, i.e. heat and deformation (C-2.6-LO-1). One of the few items that genuinely needs all three."
+  },
+  {
+   "sha": "ff9b3cfa55e64e9b",
+   "codes": ["C-2.6-LO-2"],
+   "note": "Power and beat rate given, work per beat unknown - the same inverted power calculation as L135 with a different unknown, so the same outcome. C-2.6-LO-2 alone; nothing is defined or stated."
+  },
+  {
+   "sha": "dadf0f43fc55148b",
+   "codes": ["C-2.5-LO-2", "C-2.5-LO-3", "C-2.6-LO-2"],
+   "note": "Part (a) is W = F x d (LO-2), part (b) asks how much ENERGY that transfer amounts to, which is the work-energy connection (LO-3), and part (c) is the power (C-2.6-LO-2). Three marked parts, three outcomes."
+  },
+  {
+   "sha": "e8b0ce01d6031f01",
+   "codes": ["C-2.6-LO-2"],
+   "note": "WEAK FIT. A household electricity bill over three appliances. Only E = P x t touches C-2.6-LO-2; kWh units and the tariff arithmetic that carry most of the marks have no outcome in this curriculum."
+  },
+  {
+   "sha": "d92578cd6bc27063",
+   "codes": ["C-2.5-LO-5", "C-2.6-LO-1", "C-2.5-LO-3"],
+   "note": "Part (a) asks for mechanical energy and its two forms (LO-5) and then the conservation law with a pendulum example (C-2.6-LO-1); part (b) finds the stopping work as the change in KE, which is the work-energy theorem (LO-3)."
+  },
+  {
+   "sha": "3cd071a670e92b8e",
+   "codes": ["C-2.6-LO-1", "C-2.5-LO-3", "C-2.5-LO-7"],
+   "note": "Part (a) states the conservation law (C-2.6-LO-1), part (b) computes work as the KE change and asks its sign, which is LO-3 rather than LO-2 because the route is through energy, and part (c) locates max PE and KE on a pendulum (LO-7)."
+  },
+  {
+   "sha": "d574c56ad4c648d2",
+   "codes": ["C-2.6-LO-2"],
+   "note": "WEAK FIT. E = P x t (C-2.6-LO-2) with the answer required in kWh. The conversion to commercial units, which is the whole point of the item, has no outcome in curriculum 82."
+  }
+ ]
+}

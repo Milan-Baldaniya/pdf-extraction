@@ -1,0 +1,305 @@
+{
+  "chapter_id": 8598,
+  "mappings": [
+    {
+      "sha": "00ede2563d7995f2",
+      "codes": ["C-4.3-LO-4"],
+      "note": "Equal chords AB and CD with perpendiculars OP and OQ from the centre: the item runs on equal chords being equidistant from the centre and on OP bisecting AB. C-4.3-LO-4's third clause; LO-3 would be the code if central ANGLES were the subject."
+    },
+    {
+      "sha": "d5c02268ef1ce7a4",
+      "codes": ["C-4.3-LO-4"],
+      "note": "The perpendicular from the centre bisects AB, giving a right triangle with hypotenuse 17 and one leg 15. C-4.3-LO-4 plus Pythagoras; the diameter is only there to supply the radius."
+    },
+    {
+      "sha": "5956454a92110054",
+      "codes": ["C-4.3-LO-4"],
+      "note": "OD is perpendicular to AB, so it bisects it; the distance OC is found from 5 and 4, and CD is the remainder of the radius. All of it rests on C-4.3-LO-4's bisection property."
+    },
+    {
+      "sha": "6b6aa5089ee42c58",
+      "codes": ["C-4.3-LO-5", "C-4.3-LO-2"],
+      "note": "The right angle at B forces AC to be a diameter, which is the converse of LO-5's angle-in-a-semicircle result; the radius is then half AC, i.e. the circumcircle of the right triangle (LO-2's circumcentre clause)."
+    },
+    {
+      "sha": "37dd816c5b8dce7f",
+      "codes": ["C-4.3-LO-1"],
+      "note": "Congruence of circles reduces to equal radii, because a circle is determined by its centre and radius alone. C-4.3-LO-1's definitional content."
+    },
+    {
+      "sha": "053887bbc80d3ac0",
+      "codes": ["C-4.3-LO-5", "C-4.3-LO-6"],
+      "note": "If both diagonals are diameters, every vertex angle stands in a semicircle and is therefore a right angle (LO-5), so the cyclic quadrilateral is a rectangle (LO-6). Both steps are needed to rule out the parallelogram distractor."
+    },
+    {
+      "sha": "c074a764f2a39bf0",
+      "codes": ["C-4.3-LO-1"],
+      "note": "OP > r places P outside, which follows directly from the circle being the locus of points at distance exactly r. C-4.3-LO-1's definition of a circle."
+    },
+    {
+      "sha": "0eb986521961ef1c",
+      "codes": ["C-4.3-LO-2"],
+      "note": "Exactly one circle passes through three non-collinear points -- C-4.3-LO-2 verbatim, with 'infinite' as the distractor that belongs to the two-point case."
+    },
+    {
+      "sha": "584d37fe82c26d3e",
+      "codes": ["C-4.3-LO-4"],
+      "note": "The chord nearer the centre is the longer one, which follows from the right triangle formed by the distance, half the chord and the radius. That relation is C-4.3-LO-4's equidistance clause; the item's 'symmetry' concept tag does not match it."
+    },
+    {
+      "sha": "0edf4f001473d337",
+      "codes": ["C-4.3"],
+      "note": "Competency: doubling the radius doubles the circumference. None of the six outcomes covers circumference or area -- they are all chord, angle and construction results -- so C-4.3's 'area in terms of pi' clause is the closest honest level."
+    },
+    {
+      "sha": "a14c4c156b39a337",
+      "codes": ["C-4.3-LO-4"],
+      "note": "The line of centres is the perpendicular bisector of the common chord, which is exactly the pair of results in C-4.3-LO-4 applied to both circles at once."
+    },
+    {
+      "sha": "ba0a8faa6b97d3f2",
+      "codes": ["C-4.3-LO-3"],
+      "note": "Equal chords subtend equal angles at the centre, so 70 degrees carries straight over. C-4.3-LO-3; LO-4 would be the code if a distance from the centre were involved."
+    },
+    {
+      "sha": "c7a84880769721c8",
+      "codes": ["C-4.3"],
+      "note": "Competency: a relation between a circle's radius and a square's side, which no chord or angle outcome covers. Cited at competency level also because the stem and the keyed answer disagree about which relation is wanted (see the defect list)."
+    },
+    {
+      "sha": "e19c3ba72091ade1",
+      "codes": ["C-4.3-LO-4"],
+      "note": "Three chords equidistant from the centre must be equal in length -- the converse direction of C-4.3-LO-4's 'equal chords are equidistant from the centre'."
+    },
+    {
+      "sha": "d6c905fbe6e91e8e",
+      "codes": ["C-4.3-LO-1"],
+      "note": "The assertion about all diameters being equal is true; the reason inverts the radius-diameter relation and is false. Both statements are C-4.3-LO-1 definitional facts."
+    },
+    {
+      "sha": "97a059d8ecf8c652",
+      "codes": ["C-4.3-LO-6"],
+      "note": "A square is cyclic because its opposite angles sum to 180 degrees -- the converse of C-4.3-LO-6's supplementary-angles theorem, which is what makes the reason explain the assertion."
+    },
+    {
+      "sha": "f9260c13e03ec050",
+      "codes": ["C-4.3-LO-2"],
+      "note": "Among the infinitely many circles through two points, the smallest has AB as diameter. That family of circles and its parametrisation by the perpendicular bisector is C-4.3-LO-2's first clause."
+    },
+    {
+      "sha": "fefdcdf5af019e5e",
+      "codes": ["C-4.3-LO-3"],
+      "note": "The SSS proof that equal chords subtend equal angles at the centre. C-4.3-LO-3's 'proves that' clause, in its forward direction."
+    },
+    {
+      "sha": "4a4c3dd2eb658f65",
+      "codes": ["C-4.3-LO-6"],
+      "note": "Solves for x from the supplementary opposite angles of cyclic quadrilateral ABCD. C-4.3-LO-6, applied numerically."
+    },
+    {
+      "sha": "a8e4cf6499a8f893",
+      "codes": ["C-4.3-LO-4"],
+      "note": "Half the chord is 8, the distance is 6, so the radius is 10. C-4.3-LO-4's bisection property used with Pythagoras."
+    },
+    {
+      "sha": "0acdbe1a24f00699",
+      "codes": ["C-4.3-LO-4"],
+      "note": "Equal inclination to the diameter makes the perpendiculars from the centre equal, and chords equidistant from the centre are equal. C-4.3-LO-4's equidistance clause, used in the converse direction."
+    },
+    {
+      "sha": "67d23a39540b2bb1",
+      "codes": ["C-4.3-LO-4"],
+      "note": "The centre is equidistant from the chord's endpoints, so it lies on the chord's perpendicular bisector. The same family of chord-and-centre results as C-4.3-LO-4, stated as a locus argument."
+    },
+    {
+      "sha": "d3f80bb0992429d5",
+      "codes": ["C-4.3-LO-6"],
+      "note": "Two opposite angles of an inscribed quadrilateral set equal to 180 degrees, solved for x and then for both angles. C-4.3-LO-6."
+    },
+    {
+      "sha": "b0438556ebcafefa",
+      "codes": ["C-4.3-LO-3"],
+      "note": "Computes a chord from its central angle: the 60 degree angle with two radii makes triangle OAB equilateral. The chord-to-central-angle correspondence is C-4.3-LO-3's territory; no distance from the centre is used, so not LO-4."
+    },
+    {
+      "sha": "aa792c8a762d29f5",
+      "codes": ["C-4.3-LO-4"],
+      "note": "Derives chord = 2 root(r squared minus d squared) from the bisection property and Pythagoras. C-4.3-LO-4, asked as an explanation rather than a computation."
+    },
+    {
+      "sha": "32121a75362fec83",
+      "codes": ["C-4.3-LO-4", "C-4.3-LO-3"],
+      "note": "Equal chords AB and AC make triangles OAB and OAC congruent by SSS, so AO bisects the angle. The congruence is the same construction LO-3 uses, and the conclusion is about equal chords and the centre, which is LO-4."
+    },
+    {
+      "sha": "426a19876cb2f25e",
+      "codes": ["C-4.3-LO-4"],
+      "note": "Distance 12 and half-chord 5 give the radius 13 and hence the diameter 26. C-4.3-LO-4's bisection property with Pythagoras. (The answer field holds a section banner instead of a solution; see the defect list.)"
+    },
+    {
+      "sha": "328169ebf1fe7ea3",
+      "codes": ["C-4.3-LO-4"],
+      "note": "Each parallel chord is bisected by the perpendicular from the centre, giving distances 4 and 3; on opposite sides these add. C-4.3-LO-4 applied twice."
+    },
+    {
+      "sha": "0610469d4a4d995e",
+      "codes": ["C-4.3-LO-5"],
+      "note": "The central angle theorem proved in full, by drawing the diameter through C and using the isosceles triangles. C-4.3-LO-5's first clause."
+    },
+    {
+      "sha": "f486b7b2256735bd",
+      "codes": ["C-4.3-LO-6"],
+      "note": "Justifies the supplementary opposite angles of a cyclic quadrilateral from the four isosceles triangles at the centre. C-4.3-LO-6's proof, by a route that does not go through the central angle theorem."
+    },
+    {
+      "sha": "672dc59429a79d2c",
+      "codes": ["C-4.3-LO-5", "C-4.3-LO-6"],
+      "note": "MN being a diameter gives a right angle at P (LO-5), and the cyclic quadrilateral's supplementary angles then relate the two angles asked about (LO-6). Both theorems are used in sequence."
+    },
+    {
+      "sha": "396065daedf788bc",
+      "codes": ["C-4.3-LO-5", "C-4.3-LO-6"],
+      "note": "Part (i) doubles 110 degrees to get the reflex angle at the centre (LO-5); part (ii) uses the supplementary opposite angles of cyclic quadrilateral APQR (LO-6). Part (iii) then falls out of the isosceles triangle OPR."
+    },
+    {
+      "sha": "bdeaec40f9fbc746",
+      "codes": ["C-4.3-LO-4", "C-4.3-LO-2"],
+      "note": "OP perpendicular to BC bisects the chord, which is what makes CP equal to x (LO-4); the equilateral arrangement of three equally spaced seats about the centre is the circumcircle picture of LO-2."
+    },
+    {
+      "sha": "a92add9504f46794",
+      "codes": ["C-4.3-LO-6", "C-4.3-LO-4"],
+      "note": "Part (i) solves the supplementary opposite angles of cyclic quadrilateral ABCD (LO-6); the pipe segments EF and GH are chords whose lengths and distances from the centre come from LO-4's bisection property."
+    },
+    {
+      "sha": "qid:706697",
+      "codes": ["C-4.3-LO-1"],
+      "note": "The circle as the locus of points equidistant from a fixed point. C-4.3-LO-1's definition."
+    },
+    {
+      "sha": "qid:706698",
+      "codes": ["C-4.3-LO-1"],
+      "note": "Defines centre, radius, chord, diameter and arc in one item -- the whole vocabulary list of C-4.3-LO-1."
+    },
+    {
+      "sha": "qid:706699",
+      "codes": ["C-4.3-LO-1"],
+      "note": "Matches four of those terms to their descriptions. Same C-4.3-LO-1 vocabulary, tested by matching."
+    },
+    {
+      "sha": "qid:706700",
+      "codes": ["C-4.3-LO-1"],
+      "note": "The longest chord is the diameter. A definitional relation between chord and diameter, C-4.3-LO-1."
+    },
+    {
+      "sha": "qid:706701",
+      "codes": ["C-4.3-LO-1"],
+      "note": "Why the diameter/chord relation is one-way: a diameter must also pass through the centre. C-4.3-LO-1, asked as a justification."
+    },
+    {
+      "sha": "qid:706702",
+      "codes": ["C-4.3-LO-1"],
+      "note": "True/false on the diameter being the longest chord. The same C-4.3-LO-1 fact as qid:706700."
+    },
+    {
+      "sha": "qid:706703",
+      "codes": ["C-4.3-LO-1"],
+      "note": "Gap-fill naming a central chord the diameter. C-4.3-LO-1 vocabulary."
+    },
+    {
+      "sha": "qid:706704",
+      "codes": ["C-4.3-LO-1"],
+      "note": "Radius is half the diameter. The numerical form of C-4.3-LO-1's radius/diameter relation."
+    },
+    {
+      "sha": "qid:706705",
+      "codes": ["C-4.3-LO-1"],
+      "note": "Defines the radius, including that it is the same for every point of the circle. C-4.3-LO-1."
+    },
+    {
+      "sha": "qid:706706",
+      "codes": ["C-4.3-LO-1"],
+      "note": "False: a radius joins the centre to the circle, while a chord joins two points OF the circle. A definitional boundary, C-4.3-LO-1."
+    },
+    {
+      "sha": "qid:706707",
+      "codes": ["C-4.3-LO-5"],
+      "note": "The angle in a semicircle is a right angle -- the deduction C-4.3-LO-5 names explicitly."
+    },
+    {
+      "sha": "qid:706708",
+      "codes": ["C-4.3-LO-5"],
+      "note": "Derives the right angle from the central angle theorem applied to a straight angle. Both clauses of C-4.3-LO-5 in one answer, which is why it is the code rather than a bare recall."
+    },
+    {
+      "sha": "qid:706709",
+      "codes": ["C-4.3-LO-5"],
+      "note": "The assertion is the semicircle result and the reason is the 180 degree central angle that produces it. C-4.3-LO-5."
+    },
+    {
+      "sha": "qid:706710",
+      "codes": ["C-4.3-LO-5"],
+      "note": "Gap-fill for the 90 degrees a diameter subtends on the circle. C-4.3-LO-5."
+    },
+    {
+      "sha": "qid:706711",
+      "codes": ["C-4.3-LO-5"],
+      "note": "Three vertex positions on the same semicircular arc, all giving a right angle -- a drawn demonstration that the result is independent of the vertex, which is the force of C-4.3-LO-5."
+    },
+    {
+      "sha": "qid:706712",
+      "codes": ["C-4.3-LO-2"],
+      "note": "Exactly one circle through three non-collinear points. C-4.3-LO-2, as a one-mark recall."
+    },
+    {
+      "sha": "qid:706713",
+      "codes": ["C-4.3-LO-2"],
+      "note": "Argues from the two perpendicular bisectors meeting in one point, and from their being parallel when the points are collinear. C-4.3-LO-2's full reasoning, including the degenerate case."
+    },
+    {
+      "sha": "qid:706714",
+      "codes": ["C-4.3-LO-2"],
+      "note": "The compass-and-straight-edge construction of the circumcircle, which is how C-4.3-LO-2 says the circumcentre is located."
+    },
+    {
+      "sha": "qid:706715",
+      "codes": ["C-4.3-LO-4"],
+      "note": "The perpendicular from the centre bisects the chord -- C-4.3-LO-4's first clause, stated."
+    },
+    {
+      "sha": "qid:706716",
+      "codes": ["C-4.3-LO-4"],
+      "note": "Chord 16 in a radius-10 circle gives a distance of 6, via the bisection property and Pythagoras. C-4.3-LO-4."
+    },
+    {
+      "sha": "qid:706717",
+      "codes": ["C-4.3-LO-4"],
+      "note": "States and explains all three chord properties -- bisection, its converse, and equal chords being equidistant. C-4.3-LO-4 in full."
+    },
+    {
+      "sha": "qid:706718",
+      "codes": ["C-4.3-LO-4"],
+      "note": "The 5-12-13 version of the same computation as qid:706716. C-4.3-LO-4."
+    },
+    {
+      "sha": "qid:706719",
+      "codes": ["C-4.3-LO-4"],
+      "note": "The RHS congruence proof that the perpendicular from the centre bisects the chord. C-4.3-LO-4's 'proves that' clause."
+    },
+    {
+      "sha": "qid:706720",
+      "codes": ["C-4.3-LO-5"],
+      "note": "Halves an 80 degree central angle to get the angle on the remaining circumference. C-4.3-LO-5's first clause, numerically."
+    },
+    {
+      "sha": "qid:706721",
+      "codes": ["C-4.3-LO-5"],
+      "note": "True/false on the doubling relation between centre and circumference. C-4.3-LO-5."
+    },
+    {
+      "sha": "qid:706722",
+      "codes": ["C-4.3-LO-5", "C-4.3-LO-6"],
+      "note": "The major-arc point gives half of 110 degrees (LO-5); the minor-arc point requires the reflex angle of 250 degrees, and the resulting 125 and 55 degrees are supplementary, which is the cyclic-quadrilateral relation of LO-6."
+    }
+  ]
+}

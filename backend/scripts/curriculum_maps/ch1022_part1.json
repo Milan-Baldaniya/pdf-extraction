@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "cae86f3b7918ce06",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Asks what is shared in series vs parallel (same I vs same V) across four bulb cases - the defining behaviour of the two combinations, so LO-2 rather than LO-1 alone; LO-1 is second because parts (c)/(d) need V=IR to see why unequal resistances give unequal PDs."
+  },
+  {
+   "sha": "2cff6eb32614cfc0",
+   "codes": ["C 2.4-LO-2", "C 8.1-LO-5"],
+   "note": "Ranks three drawn arrangements by equivalent resistance, so LO-2 not LO-3: the resistors are identical and only the topology changes. LO-5 added because the answer is unobtainable without reading the circuit figure."
+  },
+  {
+   "sha": "079b91cc2d6b4102",
+   "codes": ["C 2.4-LO-1"],
+   "note": "Single unknown resistor, one battery: pure substitution into R=V/I. No combination and no geometry, so LO-2 and LO-3 are both wrong siblings."
+  },
+  {
+   "sha": "566eb7660b430a21",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Tests that resistivity is a material property independent of length, thickness and shape - exactly the length/area/material discrimination LO-3 names. Not LO-1: no V, I or R value is involved."
+  },
+  {
+   "sha": "b5ce0460100d1d8a",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Fuse placement and melting on overcurrent - LO-2 is the only outcome that names the fuse. The series/parallel word in the assertion is about wiring a safety device, not about computing an equivalent resistance, so LO-2 of C 2.4 does not apply."
+  },
+  {
+   "sha": "ecf2dfa52bfccc26",
+   "codes": ["C 2.4"],
+   "note": "Needs Q=It then n=Q/e. No learning outcome in this set covers the definition of current as charge per unit time or the quantisation of charge; the competency text is the only row that names current as a circuit characteristic. Recorded as a content gap."
+  },
+  {
+   "sha": "dcfccf1f91718fef",
+   "codes": ["C 8.1-LO-5"],
+   "note": "The whole task is recognising a correctly wired diagram (ammeter in series, voltmeter across the component) - the circuit-symbol half of LO-5. No numerical relation is graded, so no C 2.4 outcome is being probed."
+  },
+  {
+   "sha": "3a314852f7c4a177",
+   "codes": ["C 2.4-LO-2"],
+   "note": "Maximum resistance from five equal resistors means choosing series over parallel and summing - LO-2. Distinct from the plain-substitution Ohm's law items because no V or I appears at all."
+  },
+  {
+   "sha": "8bca8d4ddad8a81b",
+   "codes": ["C 2.5-LO-1", "C 8.1-LO-5"],
+   "note": "Brightness is dissipated power, so C 2.5-LO-1 rather than any resistance outcome; LO-5 because the ranking depends entirely on where each bulb sits in the drawn circuit."
+  },
+  {
+   "sha": "74c618cf5fc81cdc",
+   "codes": ["C 2.5-LO-2", "C 2.4-LO-2"],
+   "note": "Graded output is heat in joules from H=I^2Rt, which only C 2.5-LO-2 covers; C 2.4-LO-2 is the genuinely separate first step (series sum to get the 1 A). Not C 2.5-LO-1: the answer is asked in joules over 5 s, not as power or kWh."
+  },
+  {
+   "sha": "e6909b924b51512d",
+   "codes": ["C 2.5-LO-1", "C 2.5-LO-2"],
+   "note": "Two graded steps: I=P/V from the kettle rating (LO-1) and then the fuse rating chosen above it (LO-2). Pairing both is what separates this from the bare power-calculation family."
+  },
+  {
+   "sha": "5bbbd5da35b9489e",
+   "codes": ["C 2.4-LO-2"],
+   "note": "Only asks which quantity is common in series and which in parallel for two unequal resistors - a statement about the combinations themselves, with no equivalent value or Ohm's law substitution demanded."
+  },
+  {
+   "sha": "38a184f030034d37",
+   "codes": ["C 2.4-LO-2"],
+   "note": "The wattages are a distractor; the single graded fact is that series current is common. Deliberately not C 2.5-LO-1 - no power or energy is computed even though the items are rated bulbs."
+  },
+  {
+   "sha": "43a6e51432adac2f",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Recall of the unit of electric power via P=VI. LO-1 is the only outcome that owns power and its units; kWh appears as a distractor option, which is energy, and the item turns on telling the two apart."
+  },
+  {
+   "sha": "b274bc820a42195c",
+   "codes": ["C 2.4-LO-1", "C 2.4-LO-3"],
+   "note": "Match-the-column spanning the ohm defined as volt per ampere (LO-1) and resistivity measured in ohm-metre plus the superconductor row (LO-3). Both are needed because no single outcome covers the unit of R and the unit of rho."
+  },
+  {
+   "sha": "2aed8cae272b7d6f",
+   "codes": ["C 2.4-LO-1", "C 2.4-LO-3"],
+   "note": "Rows pair Ohm's law with V=IR and ohmic proportionality (LO-1) against resistivity varying with area (LO-3). The fourth row, current as charge/time, has no outcome in this set - see the gap noted on the electron-count item."
+  },
+  {
+   "sha": "86cafd5f53142e40",
+   "codes": ["C 2.4-LO-3", "C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Table mixes resistance against length and against area (LO-3) with two small series/parallel networks whose equivalent value is asked (LO-2) and their currents from V/R (LO-1). All three are genuinely separate graded rows here, unlike the single-relation matching items above."
+  },
+  {
+   "sha": "0a12f5feedd1774a",
+   "codes": ["C 2.4-LO-1", "C 2.4-LO-3"],
+   "note": "Same split as the other unit-matching item: ohm as 1 volt per 1 ampere (LO-1) versus resistivity depending on the matter of the conductor and the zero-resistance superconductor (LO-3)."
+  },
+  {
+   "sha": "115bf16868ac8563",
+   "codes": ["C 2.4-LO-2", "C 2.5-LO-1", "C 8.1-LO-5"],
+   "note": "Four drawn networks ranked by current drawn (equivalent resistance, LO-2) and by bulb brightness (power, C 2.5-LO-1), neither obtainable without reading the diagrams (LO-5). This is the one item in the part where all three axes are graded."
+  },
+  {
+   "sha": "2377854f2c7047b5",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Choice of copper for connecting wires is a material-property judgement, the 'material' clause of LO-3. Not LO-1: no circuit quantity is calculated, and conductivity is the reciprocal of resistivity, not of resistance."
+  },
+  {
+   "sha": "ef74f790879c84b7",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Doubling length doubles R via R = rho*l/A - the length clause of LO-3 stated as a proportionality rather than substituted numerically."
+  },
+  {
+   "sha": "7ec7ba1a14fe3371",
+   "codes": ["C 2.5-LO-1"],
+   "note": "Compares 200 W and 100 W lamps through R=V^2/P, i.e. reasoning about the power rating of an appliance. Not C 2.5-LO-2: nothing about the heating mechanism of the filament is graded, only the wattage-resistance relation."
+  },
+  {
+   "sha": "68e419eba7917af3",
+   "codes": ["C 2.5-LO-2"],
+   "note": "Heater wire requirements justified by H=I^2Rt and melting point - the heater clause of LO-2. Chosen over C 2.5-LO-1 because the reasoning is about heat produced and the wire surviving it, not about power consumed or billed."
+  },
+  {
+   "sha": "588f9bfa91c8790a",
+   "codes": ["C 2.4", "C 2.4-LO-1"],
+   "note": "Short circuit is named explicitly in the C 2.4 competency text but in none of its three outcomes, so the competency is the honest primary; LO-1 is second because the argument is V=IR with external R driven to zero. The internal-resistance/emf step is above the Class 10 outcomes entirely."
+  },
+  {
+   "sha": "ce2a8a4b2ae6a02f",
+   "codes": ["C 8.1-LO-5"],
+   "note": "Pure meter-prediction item: what an ideal ammeter and an ideal voltmeter read in a given circuit, which is the second half of LO-5 verbatim. No C 2.4 outcome is graded because no value of R is used."
+  }
+ ]
+}

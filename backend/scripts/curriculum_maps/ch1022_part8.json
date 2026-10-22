@@ -1,0 +1,130 @@
+{
+ "chapter_id": 1022,
+ "mappings": [
+  {
+   "sha": "ffc415594cac2628",
+   "codes": ["C 2.4-LO-1", "C 8.1"],
+   "note": "Computes R = V/I for five recorded pairs (LO-1) but the graded step is spotting the set that breaks the trend and averaging the rest - handling experimental data against a model, which is C 8.1. LO-5 is wrong: no circuit is drawn and no meter scale is read."
+  },
+  {
+   "sha": "d8554b9f83c4d1a7",
+   "codes": ["C 2.4-LO-1"],
+   "note": "Two independent I = V/R substitutions at the same supply voltage. Bulb and heater are context only - nothing about heat or power is graded, which keeps it off the C 2.5 outcomes."
+  },
+  {
+   "sha": "c903dba0002dd974",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Solves R = rho*l/A for the area. Substitution into the geometry relation, not Ohm's law - no V or I appears anywhere."
+  },
+  {
+   "sha": "d24c3b56bb9d4dfc",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Same relation solved for rho with l and A given directly. Shares LO-3 honestly with the other resistivity-computation items; only the unknown differs."
+  },
+  {
+   "sha": "914f90bbfc8a2fba",
+   "codes": ["C 2.4-LO-3", "C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Defines resistivity, doubles the length to double R (LO-3), then halves the current through V = IR (LO-1), reported as an ammeter reading (LO-5). Note this is a verbatim duplicate of item 99 in part 4 with a fuller stored answer."
+  },
+  {
+   "sha": "36cc42fd1df4cda0",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Resistivity from radius and length, with the extra step A = pi*r^2. Still a single relation, so LO-3 alone; the radius-to-area conversion is arithmetic, not a second outcome."
+  },
+  {
+   "sha": "8570515e9bba0408",
+   "codes": ["C 2.4-LO-3", "C 2.5-LO-2"],
+   "note": "Picks a heating-element material from a resistivity table: LO-3 for reading the material property, LO-2 for the heater application that makes high resistivity desirable. The stored table has an OCR-damaged exponent for sample B ('5.2 X 10 ohm m')."
+  },
+  {
+   "sha": "ff30771ff4ee385d",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Classifies conductor and insulator from resistivity values alone - the material clause of LO-3, with no device or application, which is what separates it from the near-identical heating-element table above."
+  },
+  {
+   "sha": "495159842fd8cb50",
+   "codes": ["C 2.4", "C 2.5-LO-2"],
+   "note": "Overloading versus short-circuiting. 'Short circuit' and 'safety measures' are named in the C 2.4 competency text but in none of its outcomes, so the competency leads; C 2.5-LO-2 carries the excess-current-and-fuse consequence."
+  },
+  {
+   "sha": "8c602a273db17436",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Drawing the wire doubles l and halves A at constant volume, so R goes up fourfold. Both LO-3 variables move at once, which distinguishes it from the single-variable items in part 3."
+  },
+  {
+   "sha": "c24287c004421281",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Length required for a target resistance, from R = rho*l/A with a diameter-to-area step and cm/m units. The unknown is a length, so it is LO-3 read in the design direction."
+  },
+  {
+   "sha": "1d56a82b2ee82a7f",
+   "codes": ["C 2.4-LO-3"],
+   "note": "Resistivity of copper from l, A and R. Same one-relation substitution as the other rho items; they honestly share this outcome and are separated only by which symbol is unknown."
+  },
+  {
+   "sha": "3664a1738734657b",
+   "codes": ["C 2.4-LO-3", "C 2.4-LO-1"],
+   "note": "Part (b) is the stretched-wire change in R and the invariance of rho (LO-3, the heart of the item); part (a) asks what resistance itself means, which is LO-1's territory."
+  },
+  {
+   "sha": "6a17e95c4fe98351",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "Parallel branch currents: equal PD across branches is LO-2, and the resulting inverse proportionality to R is LO-1. Stated as a general rule, not computed, but both relations are graded."
+  },
+  {
+   "sha": "e5d1946eee42f78a",
+   "codes": ["C 2.4-LO-2"],
+   "note": "Five equal resistors summed in series. The plainest LO-2 substitution in the chapter - no supply voltage, no current, nothing else to do."
+  },
+  {
+   "sha": "f6d7a33664b33f7e",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Works backwards: Ohm's law gives the total 24 ohm from 6 V and 0.25 A (LO-1), then the series sum yields the variable resistor's 4 ohm (LO-2). LO-5 because the series arrangement is established only by the figure."
+  },
+  {
+   "sha": "d3544d629543c631",
+   "codes": ["C 2.4-LO-2"],
+   "note": "How a parallel junction is made and that each branch carries the full battery PD. Purely the parallel combination, described rather than calculated, so LO-2 alone."
+  },
+  {
+   "sha": "bee64e507bce25f4",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Branch currents from V/R (LO-1) and the reciprocal-sum total (LO-2), with the parallel topology coming only from the supplied diagram (LO-5). The three sub-parts map one-to-one onto those steps."
+  },
+  {
+   "sha": "c5f77c2878c4858e",
+   "codes": ["C 2.5-LO-1", "C 2.4-LO-2", "C 8.1-LO-5"],
+   "note": "Maximum current from a power limit, I = sqrt(P/R), so C 2.5-LO-1 leads; the halving between the two parallel branches is LO-2, and which resistors are in parallel is only visible in the figure (LO-5)."
+  },
+  {
+   "sha": "bcc68ac697c1a68a",
+   "codes": ["C 2.4-LO-2", "C 8.1-LO-5"],
+   "note": "Asserts that mixed series-parallel grouping is possible (LO-2) and explicitly asks for a diagram of it (LO-5). No values are computed, so this is the statement end of LO-2."
+  },
+  {
+   "sha": "eba1c65f38487bcf",
+   "codes": ["C 8.1-LO-5", "C 2.4-LO-2", "C 2.4-LO-1"],
+   "note": "The single best-fitting item for LO-5 in the chapter: draw the schematic in standard symbols AND predict the ammeter reading. The reading needs the series sum (LO-2) then I = V/R (LO-1), so all three are genuinely graded."
+  },
+  {
+   "sha": "7f70809187c9ec35",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-3"],
+   "note": "Cutting into three parts is an LO-3 length change, and rejoining them in parallel is an LO-2 combination; the R/9 answer needs both. Resistivity staying constant is the LO-3 half of the trap."
+  },
+  {
+   "sha": "f73be6317354c0b6",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Parallel equivalent then I = V/R. LO-5 is not optional here: the stem carries no numbers at all, so every value comes from the figure. Flagged as a stem that is unusable without its diagram."
+  },
+  {
+   "sha": "8af0bcf67ccdc863",
+   "codes": ["C 2.4-LO-2"],
+   "note": "General nR and R/n results plus one three-resistor parallel evaluation. Both the derivation and the substitution stay inside LO-2, which is why only one code is cited despite two sub-parts."
+  },
+  {
+   "sha": "4e17cc12a465c5ab",
+   "codes": ["C 2.4-LO-2", "C 2.4-LO-1", "C 8.1-LO-5"],
+   "note": "Same three-step parallel analysis as item 200, with a 6 V supply instead of 12 V; they honestly share all three codes. The stem again supplies nothing but a reference to 'the above circuit diagram'."
+  }
+ ]
+}

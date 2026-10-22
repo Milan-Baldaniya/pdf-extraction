@@ -1,0 +1,118 @@
+{
+ "chapter": 5,
+ "chapter_id": 8604,
+ "extraction_id": 596,
+ "section": "pause",
+ "items": [
+  {
+   "number": "1",
+   "form": "very_short",
+   "page": 183,
+   "stem": "A common talcum powder contains 4 % m/m zinc oxide, which acts as an antiseptic. How much zinc oxide is present in 300 g of the talcum powder?",
+   "answer": "There are 12 grams of zinc oxide present in the powder. This is calculated using the mass by mass percentage formula, where 4% of the total 300 g mass of the mixture is the zinc oxide solute.",
+   "concept": "Mass by mass percentage",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "2",
+   "form": "very_short",
+   "page": 184,
+   "stem": "Your mother gives you a bottle of orange juice concentrate to mix with water and serve it to your visiting friends. She asks you to mix two tablespoons of the concentrate with water in a glass tumbler. If each tablespoon measures 15 mL and you make 150 mL of juice per person, what is the % v/v of orange juice concentrate in the mixture you prepared?",
+   "answer": "The concentration of the orange juice mixture is 20% v/v. The volume of the solute is 30 mL (two tablespoons of 15 mL each), which is divided by the total volume of the solution (150 mL) and then multiplied by 100 to find the volume by volume percentage.",
+   "concept": "Volume by volume percentage",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "3",
+   "form": "very_short",
+   "page": 184,
+   "stem": "Vinegar, used as a food preservative and additive, contains 5 % v/v acetic acid. Glacial acetic acid is a liquid, i.e., 100% acetic acid. If you want to make vinegar from glacial acetic acid, how would you proceed?",
+   "answer": "To make vinegar, you need to prepare a 5% v/v solution of acetic acid. You would proceed by measuring 5 mL of the glacial acetic acid (solute) and mixing it with enough water (solvent) to reach a total combined volume of 100 mL.",
+   "concept": "Volume by volume percentage",
+   "bloom": "apply",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "4",
+   "form": "very_short",
+   "page": 184,
+   "stem": "Refer to the solubility curves given in Activity 5.2. If equal masses of hot, saturated solutions of compounds ‘A’ and ‘B’ are cooled from 80 degrees C to 60 degrees C, which solution is likely to deposit more solid?",
+   "answer": "The solution of compound ‘B’ is likely to deposit more solid. According to the solubility curves, compound ‘B’ shows a much steeper decrease in solubility as the temperature drops from 80 degrees C to 60 degrees C compared to compound ‘A’, meaning a larger amount of excess solute will crystallize and separate out.",
+   "concept": "Solubility curve interpretation",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "5",
+   "form": "very_short",
+   "page": 184,
+   "stem": "Will there be any change in the size of common salt crystals if the rate of evaporation is increased or decreased? Explain.",
+   "answer": "Yes, the rate of evaporation directly affects the size of the crystals formed. If the rate of evaporation is decreased by allowing the solution to cool slowly, the particles have more time to come together and arrange themselves, resulting in larger, well-shaped crystals. Conversely, if evaporation is increased and happens too rapidly, smaller and less well-formed crystals will develop.",
+   "concept": "Slow cooling produces large crystals",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "6",
+   "form": "very_short",
+   "page": 184,
+   "stem": "State whether the following statements are True or False. Also, correct the False statements. (i) Salt can be separated from a salt solution by evaporation or distillation. (ii) Distillation can be used for separation of two liquids even when these have the same boiling point. (iii) In paper chromatography, the solvent level should be above the sample spot at the beginning of the experiment. (iv) Evaporation and crystallization are the same processes.",
+   "answer": "(i) True. (ii) False. Correction: Distillation can only be used to separate two miscible liquids if they have different boiling points, typically requiring a minimum difference of 25 degrees C. (iii) False. Correction: In paper chromatography, the solvent level should be strictly below the sample spot at the beginning of the experiment so that the liquid can slowly carry the substances up the paper rather than dissolving them directly into the bulk solvent. (iv) False. Correction: Evaporation simply involves turning a solvent into vapour to leave behind a solid, which may contain impurities, whereas crystallization is a specific process that yields a pure solid in a regular geometric pattern from a saturated solution.",
+   "concept": "Boiling point difference requirement",
+   "bloom": "evaluate",
+   "dok": 3,
+   "difficulty": 4
+  },
+  {
+   "number": "7",
+   "form": "very_short",
+   "page": 184,
+   "stem": "Why do immiscible liquids form two separate layers in a separating funnel?",
+   "answer": "Immiscible liquids form two separate layers because they do not mix together and they possess different densities. When the mixture is left undisturbed, the denser liquid sinks to the bottom to form the lower layer, while the lighter, less dense liquid floats to form the upper layer.",
+   "concept": "Separating funnel for immiscible liquids",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "8",
+   "form": "very_short",
+   "page": 184,
+   "stem": "Is sublimation different from evaporation? Justify.",
+   "answer": "Yes, sublimation is distinctly different from evaporation. Sublimation is the direct transition of a solid into a vapour without ever passing through a liquid state, whereas evaporation is the transition of a substance from a liquid state into a vapour.",
+   "concept": "Sublimation definition",
+   "bloom": "understand",
+   "dok": 2,
+   "difficulty": 2
+  },
+  {
+   "number": "9",
+   "form": "very_short",
+   "page": 185,
+   "stem": "Clouds are made up of tiny water droplets or ice crystals floating in the air. Based on what you know about solutions, suspensions and colloids, what type of mixture do you think clouds are and why?",
+   "answer": "Clouds are a type of colloidal mixture, specifically referred to as an aerosol. In this mixture, the tiny water droplets or ice crystals act as the dispersed phase which is suspended evenly throughout the air, serving as the dispersion medium. Unlike suspensions, these tiny particles do not settle down under the influence of gravity over time.",
+   "concept": "Colloids do not settle",
+   "bloom": "analyze",
+   "dok": 3,
+   "difficulty": 3
+  },
+  {
+   "number": "10",
+   "form": "very_short",
+   "page": 185,
+   "stem": "Why do cities with a lot of smoke and dust in the air often look hazy?",
+   "answer": "Cities with significant smoke and dust look hazy because of the Tyndall effect. The fine dust and smoke particles suspended in the atmosphere act as colloidal particles. When sunlight passes through the air, these particles scatter the light in all directions, making the path of light visible and giving the city’s air a hazy, unclear appearance.",
+   "concept": "Tyndall effect definition",
+   "bloom": "apply",
+   "dok": 2,
+   "difficulty": 3
+  }
+ ]
+}

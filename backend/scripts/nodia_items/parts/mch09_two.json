@@ -1,0 +1,82 @@
+{
+ "items": [
+  {
+   "number": "40",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "From the top of light house, 40 m above the water, the angle of depression of a small boat is 60°. Find how far the boat is from the base of the light house.",
+   "answer": "Let AB be the light house of height 40 m and C the position of the boat, with CB = x the required distance. The horizontal PA through the top is parallel to CB, so the angle of depression ∠PAC = 60° gives ∠ACB = 60° as alternate angles. In right triangle ABC, tan 60° = AB/BC, so √3 = 40/x, giving x = 40/√3 = 40√3/3 m. Hence the boat is 40√3/3 m ≈ 23.09 m from the foot of the light house.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Diagram is drawn inside the worked solution, not with the question, so no figure attached."
+  },
+  {
+   "number": "41",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "A kite is flying at a height of 90 m above the ground. The string attached to the kite is temporarily tied to a point on the ground. The inclination of the string with the ground is 60°. Find the length of the string assuming that there is no slack in the string.",
+   "answer": "Let AB = 90 m be the height of the kite above the ground and let AC = x be the length of the string, inclined at 60° to the ground at C. In right triangle ABC, sin 60° = AB/AC, so √3/2 = 90/x. Then x = (90 × 2)/√3 = 180/√3 = 60√3 = 60 × 1.732. Hence the length of the string is 60√3 m ≈ 103.92 m.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2011, 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A PRACTICE box (kite at 100 m, elevation 60°) follows this solution; not emitted as an item per rule 10."
+  },
+  {
+   "number": "42",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "A tree breaks due to storm and the broken part bends so that the top of the tree touches the ground making an angle 30° with it. The distance between the foot of the tree to the point where the top touches the ground is 8 m. Find the height of the tree.",
+   "answer": "Let the tree AC stand on the ground at B and break at C, the broken part CD reaching the ground at D with BD = 8 m and ∠CDB = 30°. In right triangle CBD, cos 30° = BD/CD, so √3/2 = 8/CD, giving CD = 16/√3. Also tan 30° = BC/BD, so 1/√3 = BC/8, giving BC = 8/√3. The height of the tree is the standing part plus the broken part: BC + CD = 8/√3 + 16/√3 = 24/√3 = 8√3. Hence the height of the tree is 8√3 m.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page 8 and its solution continues onto page 9; figure belongs to the solution, so not attached."
+  },
+  {
+   "number": "43",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "A player sitting on the top of a tower of height 20 m observes the angle of depression of a ball lying on the ground as 60°. Find the distance between the foot of the tower and the ball. Take √3 = 1.732",
+   "answer": "Let AB be the tower of height 20 m with the player at A, and let C be the ball on the ground with BC = x. The horizontal XA at the top is parallel to BC, so the angle of depression ∠XAC = 60° equals ∠ACB = 60° as alternate angles. In right triangle ABC, tan 60° = AB/BC, so √3 = 20/x, giving x = 20/√3 = 20√3/3 = 20 × 1.732/3. Hence the ball is 20√3/3 m ≈ 11.55 m from the foot of the tower.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book's last line rounds 20(√3/3) to 11.53 m; the exact value 20 × 1.732/3 is 11.547 ≈ 11.55 m, so the printed decimal is a rounding slip inside the solution, not a key-vs-solution contradiction."
+  },
+  {
+   "number": "44",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "If the shadow of a tower is 30 m long, when the Sun's elevation is 30°. What is the length of the shadow, when Sun's elevation is 60° ?",
+   "answer": "Let AB be the tower, BC = 30 m the shadow when the elevation is 30°, and BD the shadow when the elevation is 60°. In right triangle ABC, AB/BC = tan 30°, so AB/30 = 1/√3, giving AB = 30/√3 = 10√3 m. In right triangle ABD, AB/BD = tan 60°, so 10√3/BD = √3, giving BD = 10. Hence the length of the shadow when the Sun's elevation is 60° is 10 m.",
+   "concept": "Angle of elevation",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Question is self-contained in words; the two-shadow diagram appears only in the solution."
+  },
+  {
+   "number": "45",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "From a point P on the ground the angle of elevation of the top of a 10 m tall building is 30°. A flag is hoisted at the top the of the building and the angle of elevation of the length of the flagstaff from P is 45°. Find the length of the flagstaff and distance of building from point P. [Take √3 = 1.732]",
+   "answer": "Let AB = 10 m be the building standing at A, BD = x the flagstaff on top of it, and P the point on the ground with AP the required distance. In right triangle ABP, tan 30° = AB/AP, so 1/√3 = 10/AP, giving AP = 10√3 = 10 × 1.732 = 17.32 m, the distance of the building from P. In right triangle ADP, tan 45° = AD/AP, so 1 = (10 + x)/17.32, giving 10 + x = 17.32 and x = 17.32 − 10.00 = 7.32. Hence the length of the flagstaff is 7.32 m and the building stands 17.32 m from P.",
+   "concept": "Angle of elevation",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2011, Delhi 2012, 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed exactly as shown, including the book's wording slips 'the angle of elevation of the length of the flagstaff' (meaning its top) and 'at the top the of the building'. Stem starts on page 9 and the bracketed [Take √3 = 1.732] carries over to the top of page 10."
+  }
+ ]
+}

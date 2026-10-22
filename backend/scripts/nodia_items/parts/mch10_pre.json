@@ -1,0 +1,102 @@
+{
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "In the given figure, PA and PB are tangents from external point P to a circle with centre C and Q is any point on the circle. Then the measure of ∠AQB is",
+   "options": [
+    {
+     "label": "A",
+     "text": "62½°"
+    },
+    {
+     "label": "B",
+     "text": "125°"
+    },
+    {
+     "label": "C",
+     "text": "55°"
+    },
+    {
+     "label": "D",
+     "text": "90°"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "PA and PB touch the circle at A and B, so CA ⊥ PA and CB ⊥ PB. In quadrilateral PACB the two right angles leave ∠ACB + ∠APB = 180°, so ∠ACB = 180° − 55° = 125°. The angle ∠AQB at the circumference stands on the same arc AB as the central angle ∠ACB, so ∠AQB = ½ × ∠ACB = ½ × 125° = 62½°.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "images": [
+    "ch10_q1.png"
+   ],
+   "figure_required": true,
+   "ocr": "Option (a) is printed as the mixed fraction 62½°; written here in Unicode. Figure cropped from the question (the book prints it above the options, not inside the solution)."
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "From an external point Q, the length of tangent to a circle is 12 cm and the distance of Q from the centre of circle is 13 cm. The radius of circle (in cm) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "12"
+    },
+    {
+     "label": "D",
+     "text": "7"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let O be the centre and P the point of contact, so OQ = 13 cm and PQ = 12 cm. The radius is perpendicular to the tangent at the point of contact, hence OP ⊥ PQ and △OPQ is right angled at P. By Pythagoras, OP² + PQ² = OQ², so OP² = 13² − 12² = 169 − 144 = 25. Therefore the radius OP = 5 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The only diagram belongs to the worked solution ('we have drawn the figure below'), so no figure is attached."
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "QP is a tangent to a circle with centre O at a point P on the circle. If △OPQ is isosceles, then ∠OQR equals.",
+   "options": [
+    {
+     "label": "A",
+     "text": "30°"
+    },
+    {
+     "label": "B",
+     "text": "45°"
+    },
+    {
+     "label": "C",
+     "text": "60°"
+    },
+    {
+     "label": "D",
+     "text": "90°"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The radius and the tangent are perpendicular at the point of contact, so ∠OPQ = 90°. In △OPQ the angles add to 180°: ∠POQ + ∠OPQ + ∠OQP = 180°. Since the triangle is isosceles and the right angle is at P, the two equal sides subtend the two equal angles ∠POQ and ∠OQP, giving 2∠OQP + 90° = 180°. Hence ∠OQP = 45°.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem as printed asks for ∠OQR, but no point R is defined anywhere in the question or its figure; the worked solution computes ∠OQP = 45°, so 'R' is a misprint for 'P'. Stem kept exactly as printed. The printed key (b) agrees with the solution, so this is not a key contradiction. The diagram appears only inside the solution, so no figure is attached; the solution itself runs onto page 3."
+  }
+ ]
+}

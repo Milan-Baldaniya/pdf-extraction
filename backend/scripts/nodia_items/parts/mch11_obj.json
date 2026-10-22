@@ -1,0 +1,848 @@
+{
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The circumferences of two circles are in the ratio 4 : 5. What is the ratio of their radii ?",
+   "options": [
+    {
+     "label": "A",
+     "text": "16 : 25"
+    },
+    {
+     "label": "B",
+     "text": "25 : 16"
+    },
+    {
+     "label": "C",
+     "text": "2 : √5"
+    },
+    {
+     "label": "D",
+     "text": "4 : 5"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The circumference of a circle is 2πr, so 2πr₁ / 2πr₂ = r₁ / r₂ = 4/5. The 2π cancels, so the radii stand in the same ratio as the circumferences, 4 : 5.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The area of a circular ring formed by two concentric circles whose radii are 5.7 cm and 4.3 cm respectively is (Take π = 3.1416)",
+   "options": [
+    {
+     "label": "A",
+     "text": "44 sq. cm."
+    },
+    {
+     "label": "B",
+     "text": "66 sq. cm."
+    },
+    {
+     "label": "C",
+     "text": "22 sq. cm."
+    },
+    {
+     "label": "D",
+     "text": "33 sq. cm."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let r₁ = 5.7 cm and r₂ = 4.3 cm. Area of the ring = πr₁² − πr₂² = π(r₁ − r₂)(r₁ + r₂) = (22/7) × 1.4 × 10 = 44 sq. cm.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP STD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "In the adjoining figure, OABC is a square of side 7 cm. OAC is a quadrant of a circle with O as centre. The area of the shaded region is",
+   "options": [
+    {
+     "label": "A",
+     "text": "10.5 cm²"
+    },
+    {
+     "label": "B",
+     "text": "38.5 cm²"
+    },
+    {
+     "label": "C",
+     "text": "49 cm²"
+    },
+    {
+     "label": "D",
+     "text": "11.5 cm²"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The shaded region is what is left of the square after the quadrant is removed: r² − ¼ × πr² = 7² − ¼ × (22/7) × 7² = 49 − 38.5 = 10.5 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP STD, Board Term-2 2017",
+   "images": [
+    "ch11_q3.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "A sector is cut from a circular sheet of radius 100 cm, the angle of the sector being 240°. If another circle of the area same as the sector is formed, then radius of the new circle is",
+   "options": [
+    {
+     "label": "A",
+     "text": "79.5 cm"
+    },
+    {
+     "label": "B",
+     "text": "81.5 cm"
+    },
+    {
+     "label": "C",
+     "text": "83.4 cm"
+    },
+    {
+     "label": "D",
+     "text": "88.5 cm"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Area of the sector = (240°/360°) × π(100)² = 20933 cm². If r is the radius of the new circle then πr² = 20933, so r = √(20933/π) ≈ 81.6 cm, which is the choice 81.5 cm.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The worked solution ends at r = 81.6 cm while the nearest printed option is (b) 81.5 cm, which the book selects. This is rounding in the printed arithmetic, not a key that fights its own solution."
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If a circular grass lawn of 35 m in radius has a path 7 m wide running around it on the outside, then the area of the path is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1450 m²"
+    },
+    {
+     "label": "B",
+     "text": "1576 m²"
+    },
+    {
+     "label": "C",
+     "text": "1694 m²"
+    },
+    {
+     "label": "D",
+     "text": "3368 m²"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The outer concentric circle has radius 35 + 7 = 42 m. Area of the path = π(42² − 35²) = (22/7)(1764 − 1225) = (22/7) × 539 = 1694 m².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If the area of a semi-circular field is 15400 sq m, then perimeter of the field is",
+   "options": [
+    {
+     "label": "A",
+     "text": "160√2 m"
+    },
+    {
+     "label": "B",
+     "text": "260√2 m"
+    },
+    {
+     "label": "C",
+     "text": "360√2 m"
+    },
+    {
+     "label": "D",
+     "text": "460√2 m"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "From πr²/2 = 15400 we get r² = 15400 × 2 × 7/22 = 9800, so r = 70√2 m. The perimeter of a semicircular field is the arc plus the diameter: πr + 2r = (22/7)(70√2) + 2(70√2) = 220√2 + 140√2 = 360√2 m.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 STD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The area of the circle that can be inscribed in a square of side 6 cm is",
+   "options": [
+    {
+     "label": "A",
+     "text": "36π cm²"
+    },
+    {
+     "label": "B",
+     "text": "18π cm²"
+    },
+    {
+     "label": "C",
+     "text": "12π cm²"
+    },
+    {
+     "label": "D",
+     "text": "9π cm²"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A circle inscribed in a square touches all four sides, so its diameter equals the side of the square: d = 6 cm and r = 3 cm. Area = πr² = 9π cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 STD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The sum of the areas of two circle, which touch each other externally, is 153 π. If the sum of their radii is 15, then the ratio of the larger to the smaller radius is",
+   "options": [
+    {
+     "label": "A",
+     "text": "4 : 1"
+    },
+    {
+     "label": "B",
+     "text": "2 : 1"
+    },
+    {
+     "label": "C",
+     "text": "3 : 1"
+    },
+    {
+     "label": "D",
+     "text": "None of these"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let the radii be r₁ and r₂ with r₁ + r₂ = 15 and πr₁² + πr₂² = 153π, so r₁² + r₂² = 153. Substituting r₂ = 15 − r₁ gives 2r₁² − 30r₁ + 72 = 0, i.e. r₁² − 15r₁ + 36 = 0, whose roots are 12 and 3. The ratio of the larger to the smaller radius is 12 : 3 = 4 : 1.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "A race track is in the form of a ring whose inner and outer circumference are 437 m and 503 m respectively. The area of the track is",
+   "options": [
+    {
+     "label": "A",
+     "text": "66 sq. cm."
+    },
+    {
+     "label": "B",
+     "text": "4935 sq. cm."
+    },
+    {
+     "label": "C",
+     "text": "9870 sq. cm"
+    },
+    {
+     "label": "D",
+     "text": "None of these"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "From 2πr₁ = 503 and 2πr₂ = 437 we have r₁ = 503/2π and r₂ = 437/2π. Area of the ring = π(r₁² − r₂²) = π(r₁ + r₂)(r₁ − r₂) = (940/2) × (66/2) × (7/22) = 235 × 21 = 4935.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The circumferences are given in metres but the book prints the options in sq. cm; the options are reproduced exactly as printed."
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "In the given figure, OACB is a quadrant of a circle of radius 7 cm. The perimeter of the quadrant is",
+   "options": [
+    {
+     "label": "A",
+     "text": "11 cm"
+    },
+    {
+     "label": "B",
+     "text": "18 cm"
+    },
+    {
+     "label": "C",
+     "text": "25 cm"
+    },
+    {
+     "label": "D",
+     "text": "36 cm"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The boundary of a quadrant is a quarter of the circumference together with the two bounding radii: ¼ × 2πr + 2r = ½ × (22/7) × 7 + 2 × 7 = 11 + 14 = 25 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2017",
+   "images": [
+    "ch11_q10.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the circumference of a circle increases from 4π to 8π, then its area is",
+   "options": [
+    {
+     "label": "A",
+     "text": "halved"
+    },
+    {
+     "label": "B",
+     "text": "doubled"
+    },
+    {
+     "label": "C",
+     "text": "tripled"
+    },
+    {
+     "label": "D",
+     "text": "quadrupled"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "2πr = 4π gives r = 2 and area = π(2)² = 4π. 2πr = 8π gives r = 4 and area = 16π. Doubling the circumference doubles the radius and so multiplies the area by four: the area is quadrupled.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the radius of a circle is diminished by 10%, then its area is diminished by",
+   "options": [
+    {
+     "label": "A",
+     "text": "10%"
+    },
+    {
+     "label": "B",
+     "text": "19%"
+    },
+    {
+     "label": "C",
+     "text": "36%"
+    },
+    {
+     "label": "D",
+     "text": "20%"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The new radius is r − r/10 = 9r/10, so the new area is π(9r/10)² = (81/100)πr². The area falls to 81% of its original value, a diminution of (1 − 81/100) = 19%.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the perimeter of a semi-circular protractor is 36 cm, then its diameter is",
+   "options": [
+    {
+     "label": "A",
+     "text": "10 cm"
+    },
+    {
+     "label": "B",
+     "text": "14 cm"
+    },
+    {
+     "label": "C",
+     "text": "12 cm"
+    },
+    {
+     "label": "D",
+     "text": "16 cm"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The perimeter of a semicircle is the arc plus the diameter: 2πr/2 + 2r = πr + 2r = (π + 2)r = 36. With π = 22/7 this is (36/7)r = 36, so r = 7 cm and the diameter is 2r = 14 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed step reads (36/7) − r = 36; it is a misprint for (36/7) r = 36, as the very next line r = 7 cm confirms. The key (b) agrees with the corrected working."
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "In a circle of radius 14 cm, an arc subtends an angle of 45° at the centre, then the area of the sector is",
+   "options": [
+    {
+     "label": "A",
+     "text": "71 cm²"
+    },
+    {
+     "label": "B",
+     "text": "76 cm²"
+    },
+    {
+     "label": "C",
+     "text": "77 cm²"
+    },
+    {
+     "label": "D",
+     "text": "154 cm²"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Area of a sector = (θ/360°) × πr² = (45°/360°) × (22/7) × 14 × 14 = ⅛ × 22 × 2 × 14 = 77 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A circle diagram is printed inside the worked solution, not with the question stem; the question is fully answerable from its text, so no figure is attached."
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the sum of the areas of two circles with radii R₁ and R₂ is equal to the area of a circle of radius R, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "R₁ + R₂ = R"
+    },
+    {
+     "label": "B",
+     "text": "R₁² + R₂² = R²"
+    },
+    {
+     "label": "C",
+     "text": "R₁ + R₂ < R"
+    },
+    {
+     "label": "D",
+     "text": "R₁² + R₂² < R²"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The condition is πR² = πR₁² + πR₂². Dividing throughout by π gives R² = R₁² + R₂².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2009",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If the sum of the circumferences of two circles with radii R₁ and R₂ is equal to the circumference of a circle of radius R, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "R₁ + R₂ = R"
+    },
+    {
+     "label": "B",
+     "text": "R₁ + R₂ > R"
+    },
+    {
+     "label": "C",
+     "text": "R₁ + R₂ > R"
+    },
+    {
+     "label": "D",
+     "text": "R₁ + R₂ < R"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The condition is 2πR = 2πR₁ + 2πR₂. Dividing by 2π gives R = R₁ + R₂.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Options (b) and (c) are printed with identical text, R₁ + R₂ > R; both are reproduced exactly as printed. The key (a) agrees with the solution."
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If the circumference of a circle and the perimeter of a square are equal, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "Area of the circle = Area of the square"
+    },
+    {
+     "label": "B",
+     "text": "Area of the circle > Area of the square"
+    },
+    {
+     "label": "C",
+     "text": "Area of the circle < Area of the square"
+    },
+    {
+     "label": "D",
+     "text": "Nothing definite can be said about the relation between the areas of the circle and square"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let r be the radius and a the side. From 2πr = 4a with π = 22/7 we get 11r = 7a, so r = 7a/11. Then the circle's area is π(7a/11)² = 14a²/11 while the square's area is a². Since 14/11 > 1, the area of the circle is greater than the area of the square.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2008",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If the perimeter of a circle is equal to that of a square, then the ratio of their areas is",
+   "options": [
+    {
+     "label": "A",
+     "text": "22 : 7"
+    },
+    {
+     "label": "B",
+     "text": "14 : 11"
+    },
+    {
+     "label": "C",
+     "text": "7 : 22"
+    },
+    {
+     "label": "D",
+     "text": "11 : 14"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "From 2πr = 4a we get a = πr/2. The ratio of areas is πr²/a² = πr² ÷ (π²r²/4) = 4/π = 4 ÷ (22/7) = 28/22 = 14 : 11.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2010",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "It is proposed to build a single circular park equal in area to the sum of areas of two circular parks of diameters 16 m and 12 m in a locality. The radius of the new park would be",
+   "options": [
+    {
+     "label": "A",
+     "text": "10 m"
+    },
+    {
+     "label": "B",
+     "text": "15 m"
+    },
+    {
+     "label": "C",
+     "text": "20 m"
+    },
+    {
+     "label": "D",
+     "text": "24 m"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "πR² = πr₁² + πr₂² gives R² = (16/2)² + (12/2)² = 8² + 6² = 100, so R = √100 = 10 m.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The area of the square that can be inscribed in a circle of radius 8 cm is",
+   "options": [
+    {
+     "label": "A",
+     "text": "256 cm²"
+    },
+    {
+     "label": "B",
+     "text": "128 cm²"
+    },
+    {
+     "label": "C",
+     "text": "64√2 cm²"
+    },
+    {
+     "label": "D",
+     "text": "64 cm²"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The diagonal of an inscribed square is the diameter of the circle, 2 × 8 = 16 cm. With side x, x² + x² = 16² gives 2x² = 256, so the area x² = 128 cm². Equivalently, area = (diagonal)²/2 = 256/2 = 128 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The radius of a circle whose circumference is equal to the sum of the circumferences of the two circles of diameters 36 cm and 20 cm is",
+   "options": [
+    {
+     "label": "A",
+     "text": "56 cm"
+    },
+    {
+     "label": "B",
+     "text": "42 cm"
+    },
+    {
+     "label": "C",
+     "text": "28 cm"
+    },
+    {
+     "label": "D",
+     "text": "16 cm"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "2πr = 2πr₁ + 2πr₂ = πd₁ + πd₂, so 2r = d₁ + d₂ = 36 + 20 = 56 and r = 28 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2013, OD 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The diameter of a circle whose area is equal to the sum of the areas of the two circles of radii 24 cm and 7 cm is",
+   "options": [
+    {
+     "label": "A",
+     "text": "31 cm"
+    },
+    {
+     "label": "B",
+     "text": "25 cm"
+    },
+    {
+     "label": "C",
+     "text": "62 cm"
+    },
+    {
+     "label": "D",
+     "text": "50 cm"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "πR² = πr₁² + πr₂² gives R² = 24² + 7² = 576 + 49 = 625, so R = 25 cm and the diameter is 2R = 50 cm.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2012, Foreign 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "23",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 5,
+   "stem": "Assertion : If a wire of length 22 cm is bent in the shape of a circle, then area of the circle so formed is 40 cm². Reason : Circumference of the circle = length of the wire.",
+   "assertion": "If a wire of length 22 cm is bent in the shape of a circle, then area of the circle so formed is 40 cm².",
+   "reason": "Circumference of the circle = length of the wire.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Bending the wire makes its length the circumference, so 2πr = 22 and r = 3.5 cm. The area is then (22/7) × 3.5 × 3.5 = 38.5 cm², not 40 cm². The assertion is therefore false while the reason is true.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "24",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 5,
+   "stem": "Assertion : If the circumference of a circle is 176 cm, then its radius is 28 cm. Reason : Circumference = 2π × radius",
+   "assertion": "If the circumference of a circle is 176 cm, then its radius is 28 cm.",
+   "reason": "Circumference = 2π × radius",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "C = 2 × (22/7) × r = 176 gives r = (176 × 7)/(2 × 22) = 28 cm, so the assertion is true. The reason states exactly the relation used to obtain it, so both are true and the reason correctly explains the assertion.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "25",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "stem": "Assertion : If the outer and inner diameter of a circular path is 10 m and 6 m then area of the path is 16π m². Reason : If R and r be the radius of outer and inner circular path, then area of path is π(R² − r²).",
+   "assertion": "If the outer and inner diameter of a circular path is 10 m and 6 m then area of the path is 16π m².",
+   "reason": "If R and r be the radius of outer and inner circular path, then area of path is π(R² − r²).",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The outer radius is 10/2 = 5 m and the inner radius 6/2 = 3 m, so the area of the path is π(5² − 3²) = π(25 − 9) = 16π m². Both statements are true and the reason is precisely the formula the assertion rests on, so it is the correct explanation.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "26",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "stem": "Assertion : In a circle of radius 6 cm, the angle of a sector 60°. Then the area of the sector is 18 6/7 cm². Reason : Area of the circle with radius r is πr².",
+   "assertion": "In a circle of radius 6 cm, the angle of a sector 60°. Then the area of the sector is 18 6/7 cm².",
+   "reason": "Area of the circle with radius r is πr².",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Area of the sector = (θ/360) × πr² = (60/360) × (22/7) × 6 × 6 = 132/7 = 18 6/7 cm², so the assertion is true. The reason is also true, but it gives only the area of the whole circle and omits the θ/360 fraction that the assertion depends on, so it is not the correct explanation.",
+   "concept": "Angle of the sector",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  }
+ ]
+}

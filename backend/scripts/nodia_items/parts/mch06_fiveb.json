@@ -1,0 +1,193 @@
+{
+ "items": [
+  {
+   "number": "76",
+   "form": "case_study",
+   "marks": 4,
+   "page": 25,
+   "stem": "The boxes used to ship some washing machines are perfect cubes with edges a. Find the length of the diagonal d of one side, and the length of the interior diagonal D (through the middle of the box).",
+   "answer": "The diagonal of one face joins two corners of a square of side a, so it is the hypotenuse of a 45°-45°-90° triangle with both legs equal to a.\nd² = a² + a² = 2a² ⇒ d = √2 a\nThe interior diagonal D joins opposite corners of the cube. It is the hypotenuse of a right triangle whose legs are one edge a and one face diagonal d = √2 a.\nD² = a² + d² = a² + 2a² = 3a² ⇒ D = √3 a\nSo the face diagonal is √2 a and the interior diagonal is √3 a.",
+   "concept": "Why similarity matters",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch06_q76.png"
+   ],
+   "figure_required": true,
+   "ocr": "The cube diagram labelling d and D is printed with the question, above the solution, so it is attached. The item is solved by Pythagoras alone; the chapter concept list carries no Pythagoras entry, so the nearest listed concept (indirect measurement with triangles) was used."
+  },
+  {
+   "number": "77",
+   "form": "case_study",
+   "marks": 4,
+   "page": 25,
+   "stem": "Windmill : A windmill is a device for tapping the energy of the wind by means of sails mounted on a rotating shaft. Windmills still used today, mainly in parts of the world which have traditionally relied on them, are powered by electricity or water.\nAnil is constructing a 8 m tall windmill supported by two wires. One wire must be 10 m long and the distance between the wires must be 21 m. Anil wanted to know what length to cut for the other wire.",
+   "answer": "Let the windmill stand at the point where the 8 m mast meets the ground, let x be the ground distance to the foot of the 10 m wire and y the length of the second wire, whose foot is 21 − x from the mast.\nFor the first wire: x² + 8² = 10², so x² = 100 − 64 = 36 and x = 6 m.\nFor the second wire: y² = (21 − x)² + 8² = (21 − 6)² + 8² = 15² + 8² = 225 + 64 = 289 = 17².\nSo y = 17 m; Anil should cut 17 m of wire for the other wire.",
+   "concept": "Why similarity matters",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The photograph of the wind farm is decorative and the diagram of the two wires is drawn inside the worked solution, so no figure is attached. The worked solution runs onto the next page. The item is solved by Pythagoras alone; the concept list carries no Pythagoras entry."
+  },
+  {
+   "number": "78",
+   "form": "case_study",
+   "marks": 4,
+   "page": 26,
+   "stem": "Wall Paint : A painter sets a ladder up to reach the bottom of a second-story window 16 feet above the ground. The base of the ladder is 12 feet from the house. While the painter mixes the paint, a neighbour's dog bumps the ladder, which moves the base 2 feet farther away from the house. How far up the side of the house does the ladder reach?",
+   "answer": "First find the length l of the ladder from its original position, in which it reaches 16 feet up a wall with its foot 12 feet out.\n12² + 16² = l² ⇒ 144 + 256 = 400 = l² ⇒ l = 20 feet.\nAfter the dog bumps it the foot is 12 + 2 = 14 feet from the house, and the ladder is still 20 feet long. If h is the new height reached,\n14² + h² = 20² ⇒ h = √(400 − 196) = √204 = 2√51 ≈ 14.3.\nThe ladder now reaches about 14.3 feet up the side of the house.",
+   "concept": "Why similarity matters",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The illustration of the house and ladder is decorative and the two right triangles are drawn inside the worked solution, so no figure is attached. The item is solved by Pythagoras alone; the concept list carries no Pythagoras entry."
+  },
+  {
+   "number": "79",
+   "form": "case_study",
+   "marks": 4,
+   "page": 26,
+   "stem": "Swimmer in Distress : A lifeguard located 20 metre from the water spots a swimmer in distress. The swimmer is 30 metre from shore and 100 metre east of the lifeguard. Suppose the lifeguard runs and then swims to the swimmer in a direct line, as shown in the figure. How far east from his original position will he enter the water? (Hint: Find the value of x in the sketch.)",
+   "answer": "Redraw the sketch as two triangles meeting at the point C where the lifeguard enters the water: ABC, with the lifeguard's tower AB 20 m back from the shore and the stretch x = BC along the shore, and CDE, with the remaining CD = 100 − x along the shore and the swimmer DE = 30 m out.\nAB and DE are both perpendicular to the shore, so ∠ABC = ∠CDE = 90°, and the angles at C are vertically opposite and so equal. By AA similarity the two triangles are similar, hence\nBC/CD = AB/DE\nx/(100 − x) = 20/30 = 2/3\n3x = 2(100 − x) = 200 − 2x\n5x = 200 ⇒ x = 40.\nThe lifeguard enters the water 40 m east of his original position.",
+   "concept": "AAA criterion",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch06_q79.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question says 'as shown in the figure' and the hint points to x in the sketch, so the labelled sketch printed with the question is attached."
+  },
+  {
+   "number": "80",
+   "form": "case_study",
+   "marks": 4,
+   "page": 27,
+   "stem": "Two Ships : Two ships are cruising together on the open ocean at 6 nautical miles per hour. One of them turns to make a angle 90° with the first and increases speed, heading for port. Assuming the first ship continues traveling at 6 knots, find the speed of the other ship if they are 10 mi apart after 1 hr.",
+   "answer": "After one hour the first ship has run 6 nautical miles along its original course and the second ship has run d nautical miles along a course at right angles to it, so the two runs and the 10 mile gap between the ships form a right triangle with the gap as hypotenuse.\nd = √(10² − 6²) = √(100 − 36) = √64 = 8 miles.\nThe second ship covers 8 nautical miles in one hour, so its speed is 8 nautical miles per hour.",
+   "concept": "Why similarity matters",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The photograph of the two ships is decorative and the right triangle is drawn inside the worked solution, so no figure is attached. The item is solved by Pythagoras alone; the concept list carries no Pythagoras entry."
+  },
+  {
+   "number": "81",
+   "form": "case_study",
+   "marks": 4,
+   "page": 27,
+   "stem": "Statue of a Pineapple : The Big Pineapple is a heritage-listed tourist attraction at Nambour Connection Road, Woombye, Sunshine Coast Region, Queensland, Australia. It was designed by Peddle Thorp and Harvey, Paul Luff, and Gary Smallcombe and Associates. It is also known as Sunshine Plantation. It was added to the Queensland Heritage Register on 6 March 2009.\nIshita last year visited Nambour and wanted to find the height of a statue of a pineapple. She measured the pineapple's shadow and her own shadow. Her height is 156 cm and casts a shadow of 39 cm. The length of shadow of pineapple is 4 m. What is the height of the pineapple?",
+   "answer": "The sun's rays reach the pineapple and Ishita at the same angle, so the two object-and-shadow right triangles are similar and their corresponding sides are in the same ratio. Let y be the height of the pineapple and work in metres: Ishita is 1.56 m tall with a 0.39 m shadow, and the pineapple's shadow is 4 m.\nheight of the pineapple / height of Ishita = shadow of pineapple / shadow of Ishita\ny/1.56 = 4/0.39\ny = 4 × 1.56 / 0.39 = 4 × 4 = 16.\nThe pineapple is 16 m high.",
+   "concept": "Why similarity matters",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The photograph of the Big Pineapple is decorative and the pair of similar triangles is drawn inside the worked solution, so no figure is attached."
+  },
+  {
+   "number": "82",
+   "form": "case_study",
+   "marks": 4,
+   "page": 27,
+   "stem": "Rohan is very intelligent in maths. He always try to relate the concept of maths in daily life. One day he is walking away from the base of a lamp post at a speed of 1 m/s. Lamp is 4.5 m above the ground.\n(i) If after 2 second, length of shadow is 1 meter, what is the height of Rohan ?\n(ii) What is the minimum time after which his shadow will become larger than his original height?\n(iii) What is the distance of Rohan from pole at this point ?\n(iv) What will be the length of his shadow after 4 seconds?\n(v) Which similarity criterion is used in solving the above problem",
+   "answer": "Let the lamp be AB = 4.5 m standing at B, Rohan be CD standing at D, and E be the tip of his shadow, so DE is the shadow. AB and CD are both vertical, so ΔABE ∼ ΔCDE by AA similarity and AB/CD = BE/DE = (BD + DE)/DE.\n(i) After 2 s he has walked BD = 2 × 1 = 2 m and DE = 1 m, so 4.5/CD = (2 + 1)/1 = 3, giving CD = 4.5/3 = 1.5 m = 150 cm. Rohan is 1.5 m tall.\n(ii) The shadow equals his height when DE = CD = 1.5 m. Then 4.5/1.5 = (BD + 1.5)/1.5, so 3 × 1.5 = BD + 1.5 and BD = 4.5 − 1.5 = 3 m. Walking at 1 m/s that takes t = 3/1 = 3 seconds, so after 3 seconds his shadow grows longer than he is tall.\n(iii) At that moment BD = 3 m, so he is 3 m from the pole.\n(iv) After 4 s, BD = 1 × 4 = 4 m. Then 4.5/1.5 = (4 + DE)/DE, so 3DE = 4 + DE, 2DE = 4 and DE = 2 m.\n(v) The AA similarity criterion was used.",
+   "concept": "AAA criterion",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch06_q82.png"
+   ],
+   "figure_required": true,
+   "ocr": "The labelled figure A, B, C, D is printed with the question and names the points the solution uses, so it is attached. Part (v) and the whole worked solution run onto the following page.",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ]
+  },
+  {
+   "number": "83",
+   "form": "case_study",
+   "marks": 4,
+   "page": 28,
+   "stem": "The law of reflection states that when a ray of light reflects off a surface, the angle of incidence is equal to the angle of reflection.\nRamesh places a mirror on level ground to determine the height of a pole (with traffic light fired on it). He stands at a certain distance so that he can see the top of the pole reflected from the mirror. Ramesh's eye level is 1.5 m above the ground. The distance of Ramesh and the pole from the mirror are 1.8 m and 6 m respectively.\n(i) Which criterion of similarity is applicable to similar triangles?\n(ii) What is the height of the pole?\n(iii) If angle of incidence is i , find tan i .\n(iv) Now Ramesh move behind such that distance between pole and Ramesh is 13 meters. He place mirror between him and pole to see the reflection of light in right position. What is the distance between mirror and Ramesh ?\n(v) What is the distance between mirror and pole?",
+   "answer": "Let the pole be AB standing at B, the mirror lie at M on the ground, and Ramesh be CD standing at D with C his eye. Then BM = 6 m, DM = 1.8 m and CD = 1.5 m.\n(i) The angle of incidence equals the angle of reflection, so ∠AMB = ∠CMD, and pole and person are both vertical, so ∠ABM = ∠CDM = 90°. Two pairs of equal angles give ΔAMB ∼ ΔCMD by the AA similarity criterion.\n(ii) From that similarity AB/CD = BM/DM, so AB/1.5 = 6/1.8 and AB = 1.5 × 6/1.8 = 5. The pole is 5 m high.\n(iii) In right triangle CDM the angle at M is the angle of reflection, equal to i, so tan i = MD/CD = 1.8/1.5 = 6/5.\n(iv) Now the pole and Ramesh are 13 m apart. Let x be the distance MD from mirror to Ramesh, so BM = 13 − x. Again AB/CD = BM/DM gives 5/1.5 = (13 − x)/x, so 5x = 1.5(13 − x) = 19.5 − 1.5x, 6.5x = 19.5 and x = 3. The mirror is 3 m from Ramesh.\n(v) The mirror is then 13 − 3 = 10 m from the pole.",
+   "concept": "AAA criterion",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The incident-ray/reflected-ray sketch and the park illustration printed with the question are explanatory only - every measurement is given in words - and the lettered geometry figure is drawn inside the worked solution, so no figure is attached. The book writes part (iv) as 5/(13 − x) = 1.5/x and reaches the same x = 3; the derivation above is put in the equivalent AB/CD = BM/DM form. The solution continues on the following page.",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ]
+  },
+  {
+   "number": "84",
+   "form": "case_study",
+   "marks": 4,
+   "page": 29,
+   "stem": "Tania is very intelligent in maths. She always try to relate the concept of maths in daily life. One day she plans to cross a river and want to know how far it is to the other side. She takes measurements on her side of the river and make the drawing as shown below.\n(i) Which similarity criterion is used in solving the above problem ?\n(ii) Consider the following statement :\nS₁ : ∠ACB = ∠DCE\nS₂ : ∠BAC = ∠CDE\nWhich of the above statement is/are correct.\n(a) S₁ and S₂ both  (b) S₁  (c) S₂  (d) None\n(iii) Consider the following statement :\nS₃ : AB/DE = CA/CD\nS₄ : BC/CE = AB/DE\nS₅ : CA/CD = DE/AB\nWhich of the above statements are correct ?\n(a) S₃ and S₅  (b) S₄ and S₅  (c) S₃ and S₄  (d) All three\n(iv) What is the distance x across the river?\n(v) What is the approximate length of AD shown in the figure?",
+   "answer": "In the drawing AB = 60 ft, BC = 50 ft, CE = 40 ft and DE = x, the angles at B and E are right angles, and C is the point where AD crosses BE.\n(i) The AA similarity criterion is used.\n(ii) ∠ABC = ∠DEC = 90° and ∠ACB = ∠DCE because they are vertically opposite, so ΔABC ∼ ΔDEC and the remaining pair ∠BAC = ∠CDE is equal too. Both statements are correct, so the answer is (a).\n(iii) From ΔABC ∼ ΔDEC the corresponding sides give AB/DE = BC/CE = CA/CD, so S₃ and S₄ are correct; S₅ is wrong because CA/CD equals AB/DE, not its reciprocal DE/AB. The answer is (c).\n(iv) AB/DE = BC/CE gives 60/x = 50/40, so x = 60 × 40/50 = 48. The river is 48 ft across.\n(v) AC = √(60² + 50²) = √6100 ≈ 78.1 ft and CD = √(40² + 48²) = √3904 ≈ 62.5 ft, so AD = AC + CD ≈ 78.1 + 62.5 = 140.6, about 140 ft.",
+   "concept": "AAA criterion",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch06_q84.png"
+   ],
+   "figure_required": true,
+   "ocr": "The measured drawing carrying 60 ft, 50 ft, 40 ft and x is printed with the question, so it is attached. Two slips in the printed solution: part (v) writes √6100 = 71.8, a transposition of 78.1, yet then prints 71.8 + 62.5 = 140.6, which is the sum 78.1 + 62.5, so the solution's own final figure wins and 78.1 is recorded; and a stray 'Thus (c) is correct option' follows part (v), which has no options - it belongs to part (iii). The tail of this solution is on printed page 269, missing from the chapter 6 split and recovered as page 37 of the chapter 7 split PDF.",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ]
+  },
+  {
+   "number": "85",
+   "form": "case_study",
+   "marks": 4,
+   "page": 30,
+   "stem": "Rani wants to make the curtains for her window as shown in the figure. The window is in the shape of a rectangle, whose width and height are in the ratio 2 : 3. The area of the window is 9600 square cm.\n(i) What is the shape of the window that is uncovered?\n(ii) What will be the ratio of two sides of each curtain (other than hypotenuse) ?\n(iii) What are the dimensions of the window ?\n(iv) What will be the perimeter of the window ?\n(v) How much window area is covered by the curtains?",
+   "answer": "(i) Each curtain is drawn back to an outer bottom corner, so the glass left showing is a triangle with its apex at the middle of the top edge and its base the full width of the window: an isosceles triangle.\n(ii) Let the width be 2x and the height 3x, matching the ratio 2 : 3. A single curtain covers half the width, so its horizontal side is x, while its vertical side is the full height 3x. The ratio of those two sides is x : 3x = 1 : 3.\n(iii) Area = 2x × 3x = 6x² = 9600, so x² = 1600 and x = 40 cm. The window is 2x = 80 cm wide and 3x = 120 cm high.\n(iv) Perimeter = 2(80 + 120) = 400 cm.\n(v) Each curtain hangs as a right triangle of base 40 cm and height 120 cm, so the pair covers 2 × ½ × 40 × 120 = 4800 cm². As a fraction of the window that is 4800/9600 × 100 = 50%, so the curtains cover half the window.",
+   "concept": "When two polygons are similar",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch06_q85.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question says 'as shown in the figure' and part (i) asks for the shape of the uncovered region, which only the picture shows, so the curtain figure is attached. Question and solution both sit on printed page 269, which is absent from the chapter 6 split PDF and survives as page 37 of the chapter 7 split; the page recorded is the next chapter 6 page.",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ]
+  },
+  {
+   "number": "86",
+   "form": "case_study",
+   "marks": 4,
+   "page": 30,
+   "stem": "The centroid is the centre point of the object. It is also defined as the point of intersection of all the three medians. The median is a line that joins the midpoint of a side and the opposite vertex of the triangle. The centroid of the triangle separates the median in the ratio of 2 : 1, with the larger part towards the vertex.\nOn the basis of above information read the question below.\nIf G is centroid of △ABC with height h and J is centroid of △ADE, and line DE parallel to BC cuts △ABC at a height h/4 from BC, so that HF = h/4:\n(i) What is the length of AH ?\n(ii) What is the distance of point A from point G ?\n(iii) What is the distance of point A from point J?\n(iv) What is the distance GJ ?",
+   "answer": "AF is the median of △ABC from A to BC and is also its height, so AF = h, and H is where AF crosses DE.\n(i) HF = h/4, so AH = AF − HF = h − h/4 = 3h/4.\n(ii) G is the centroid of △ABC and AF is a median from A, so the centroid cuts it in the ratio 2 : 1 measured from the vertex: AG = ⅔ AF.\n(iii) Because DE ∥ BC, AH is the median of △ADE from A, and J is the centroid of △ADE, so AJ = ⅔ AH. From part (i) AH = ¾ AF, hence AJ = ⅔ × ¾ AF = ½ AF. Part (ii) gives AF = 3/2 AG, so AJ = ½ × 3/2 AG = ¾ AG.\n(iv) GJ = AG − AJ = AG − ¾ AG = ¼ AG.",
+   "concept": "Basic Proportionality Theorem",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch06_q86.png"
+   ],
+   "figure_required": true,
+   "ocr": "The figure showing △ABC with DE ∥ BC and the points J, G, H, F along the median is printed with the question parts and is attached. A separate illustration of a centroid, in which D, E, F are the midpoints of the sides, is printed above the question on page 269; its letters clash with the question figure, where D and E lie on AB and AC instead, so only the question figure is attached. The stem is on printed page 269, missing from the chapter 6 split and recovered from page 37 of the chapter 7 split PDF, while the sub-parts, the figure and the solution are on chapter 6 page 30.",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv"
+   ]
+  }
+ ]
+}

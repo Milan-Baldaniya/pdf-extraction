@@ -1,0 +1,2047 @@
+{
+ "chapter": 2,
+ "chapter_id": 22907,
+ "extraction_id": 378,
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "stem": "The zeroes of a polynomial x² + px + q are twice the zeroes of the polynomial 4x² − 5x − 6. The value of p is",
+   "options": [
+    {
+     "label": "A",
+     "text": "−5/2"
+    },
+    {
+     "label": "B",
+     "text": "5/2"
+    },
+    {
+     "label": "C",
+     "text": "−5"
+    },
+    {
+     "label": "D",
+     "text": "10"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let α and β be the zeroes of 4x² − 5x − 6, so the zeroes of x² + px + q are 2α and 2β. For 4x² − 5x − 6: α + β = −b/a = −(−5)/4 = 5/4. For x² + px + q: 2α + 2β = −b/a = −p, i.e. 2(α + β) = −p. Substituting α + β = 5/4 gives 2 × 5/4 = −p ⇒ p = −5/2. Thus (a) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Options restored from the PDF's embedded text layer (pypdf), which survived where MinerU's OCR of the same page did not. The book prints (a) −5/2, (b) 5/2, (c) −5, (d) 10; OCR had flattened the fraction in (b) to '25' and dropped (c) to a bare '-'. Key (a) agrees with the worked solution, which derives p = −5/2."
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "stem": "If α, β are the zeroes of the polynomial 6x² − 5x − 4, then 1/α + 1/β is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "5/4"
+    },
+    {
+     "label": "B",
+     "text": "−5/4"
+    },
+    {
+     "label": "C",
+     "text": "4/5"
+    },
+    {
+     "label": "D",
+     "text": "5/24"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "We have p(x) = 6x² − 5x − 4, so α + β = −b/a = −(−5)/6 = 5/6 and αβ = c/a = −4/6. Then 1/α + 1/β = (α + β)/αβ = (5/6)/(−4/6) = −5/4. Thus (b) is the correct option.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "stem": "The number of quadratic polynomials having zeroes −5 and −3 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "more than 3"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Let α = −5 and β = −3. Any polynomial with these zeroes is p(x) = k[x² − (α + β)x + αβ] = k[x² + 8x + 15], where k is any real number. Since k can take any value, more than 3 quadratic polynomials have the zeroes −5 and −3. Thus (d) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "OCR collapsed the option block into an array and lost the text of option (a); it is restored as '1' because the surviving sequence (2, 3, more than 3) fixes it unambiguously."
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "stem": "If α and β are the zeroes of the polynomial x² − 1, then the value of (α + β) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "1"
+    },
+    {
+     "label": "C",
+     "text": "−1"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Comparing x² − 1 with ax² + bx + c gives b = 0. Therefore α + β = −b/a = 0. Thus (d) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Options restored from the PDF's embedded text layer (pypdf), which survived where MinerU's OCR of the same page did not. The book prints (a) 2, (b) 1, (c) −1, (d) 0. OCR lost (b) entirely, which left the surviving '−1' mislabelled as (b) when it is (c). Key (d) is unchanged and agrees with the worked solution (α + β = −b/a = 0)."
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "stem": "If the zeroes of the quadratic polynomial x² + (a + 1)x + b are 2 and −3, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "a = −7, b = −1"
+    },
+    {
+     "label": "B",
+     "text": "a = 5, b = −1"
+    },
+    {
+     "label": "C",
+     "text": "a = 2, b = −6"
+    },
+    {
+     "label": "D",
+     "text": "a = 0, b = −6"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A quadratic polynomial with zeroes 2 and −3 is p(x) = x² − (2 − 3)x + (2)(−3) = x² + x − 6. Comparing with x² + (a + 1)x + b gives a + 1 = 1 ⇒ a = 0 and b = −6. Thus (d) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Option labels (a) and (c) were lost when OCR rendered the option block as a LaTeX array; they are restored from the printed left/right column positions. The book reprints this identical question (same stem, same options, same key) as its Q23 on pages 4-5 with a second, simultaneous-equations worked solution; that reprint is deliberately not carried as a separate item, which is why the item numbers here skip 23."
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "stem": "If the sum of the zeroes of the quadratic polynomial kx² + 2x + 3k is equal to their product, then k equals",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/3"
+    },
+    {
+     "label": "B",
+     "text": "−1/3"
+    },
+    {
+     "label": "C",
+     "text": "2/3"
+    },
+    {
+     "label": "D",
+     "text": "−2/3"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "For p(x) = kx² + 2x + 3k we have a = k, b = 2, c = 3k. Sum of zeroes α + β = −b/a = −2/k and product αβ = c/a = 3k/k = 3. Given α + β = αβ, we get −2/k = 3 ⇒ k = −2/3. Thus (d) is the correct option.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "If α and β are the zeroes of the polynomial x² + 2x + 1, then 1/α + 1/β is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "−2"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "0"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Since α and β are the zeroes of x² + 2x + 1, sum of zeroes α + β = −2/1 = −2 and product of zeroes αβ = 1/1 = 1. Then 1/α + 1/β = (α + β)/αβ = −2/1 = −2. Thus (a) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The PDF's embedded text layer prints this question with three options only - (a) −2, (b) 2, (c) 0 - and no (d); the missing fourth option is the book's own omission, not OCR damage, so nothing is invented and the item is left at three options to be held by V-09. Key (a) agrees with the worked solution (1/α + 1/β = (α+β)/αβ = −2). Re-checked against the text layer: it prints (a) −2, (b) 2, (c) 0, and the stored item was in fact carrying only two options, so (c) 0 has now been added from the printed text; there is still no (d)."
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If α and β are the zeroes of the polynomial 2x² − 13x + 6, then α + β is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "−3"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "13/2"
+    },
+    {
+     "label": "D",
+     "text": "−13/2"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "For p(x) = 2x² − 13x + 6, comparing with ax² + bx + c gives a = 2, b = −13, c = 6. Sum of zeroes α + β = −b/a = −(−13)/2 = 13/2. Thus (c) is the correct option.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "If one zero of a quadratic polynomial (kx² + 3x + k) is 2, then the value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "5/6"
+    },
+    {
+     "label": "B",
+     "text": "−5/6"
+    },
+    {
+     "label": "C",
+     "text": "6/5"
+    },
+    {
+     "label": "D",
+     "text": "−6/5"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "p(x) = kx² + 3x + k. Since 2 is a zero, p(2) = 0 ⇒ k(2)² + 3(2) + k = 0 ⇒ 4k + 6 + k = 0 ⇒ 5k = −6 ⇒ k = −6/5. Thus (d) is the correct option.",
+   "concept": "What a zero is"
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "stem": "The maximum number of zeroes a cubic polynomial can have, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A cubic polynomial has degree 3, so it can have at most 3 zeroes. Thus (d) is the correct option.",
+   "concept": "Linear, quadratic and cubic"
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Standard",
+   "stem": "If one zero of the quadratic polynomial x² + 3x + k is 2, then the value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "−10"
+    },
+    {
+     "label": "C",
+     "text": "−7"
+    },
+    {
+     "label": "D",
+     "text": "−2"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "We have p(x) = x² + 3x + k. Since 2 is a zero of p(x), p(2) = 0 ⇒ (2)² + 3(2) + k = 0 ⇒ 4 + 6 + k = 0 ⇒ 10 + k = 0 ⇒ k = −10. Thus (b) is the correct option.",
+   "concept": "What a zero is",
+   "ocr": "OCR lost the text of option (c); it is restored as '2' from the ±10 / ±2 pattern fixed by the surviving options (10, −10, −2). Re-checked against the text layer, which prints (a) 10, (b) −10, (c) −7, (d) −2: option (c) is −7, not the '2' that had been guessed from the ±10/±2 pattern. Key (b) is unaffected."
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Standard",
+   "stem": "The quadratic polynomial, the sum of whose zeroes is −5 and their product is 6, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "x² + 5x + 6"
+    },
+    {
+     "label": "B",
+     "text": "x² − 5x + 6"
+    },
+    {
+     "label": "C",
+     "text": "x² − 5x − 6"
+    },
+    {
+     "label": "D",
+     "text": "−x² + 5x + 6"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let α and β be the zeroes, with α + β = −5 and αβ = 6. Then p(x) = x² − (α + β)x + αβ = x² − (−5)x + 6 = x² + 5x + 6. Thus (a) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Labels (a) and (c) were lost by OCR (the option block came through as a LaTeX array) and are restored from the printed left/right column order."
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "stem": "If one zero of the polynomial (3x² + 8x + k) is the reciprocal of the other, then value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "−3"
+    },
+    {
+     "label": "C",
+     "text": "1/3"
+    },
+    {
+     "label": "D",
+     "text": "−1/3"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let the zeroes be α and 1/α. Product of zeroes = constant term / coefficient of x² ⇒ α × (1/α) = k/3 ⇒ 1 = k/3 ⇒ k = 3. Thus (a) is the correct option.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Standard",
+   "stem": "The zeroes of the polynomial x² − 3x − m(m + 3) are",
+   "options": [
+    {
+     "label": "A",
+     "text": "m, m + 3"
+    },
+    {
+     "label": "B",
+     "text": "−m, m + 3"
+    },
+    {
+     "label": "C",
+     "text": "m, −(m + 3)"
+    },
+    {
+     "label": "D",
+     "text": "−m, −(m + 3)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let p(x) = x² − 3x − m(m + 3). Substituting x = −m: p(−m) = m² + 3m − m² − 3m = 0, so −m is a zero. Substituting x = m + 3: p(m + 3) = (m + 3)² − 3(m + 3) − m(m + 3) = (m + 3)[m + 3 − 3 − m] = 0, so m + 3 is also a zero. Hence the zeroes are −m and m + 3. Thus (b) is the correct option.",
+   "concept": "What a zero is",
+   "ocr": "Labels (a) and (c) were lost by OCR (option block extracted as a LaTeX array) and are restored from the printed column order."
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "The value of x for which the polynomials x² − 1 and x² − 2x + 1 vanish simultaneously, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "−2"
+    },
+    {
+     "label": "C",
+     "text": "−1"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "x² − 1 = (x − 1)(x + 1) and x² − 2x + 1 = (x − 1)(x − 1). Both expressions have 1 as a zero, so both vanish when x = 1. Thus (d) is the correct option.",
+   "concept": "What a zero is"
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If α and β are zeroes of the quadratic polynomial f(x) = x² − x − 4, then the value of 1/α + 1/β − αβ is",
+   "options": [
+    {
+     "label": "A",
+     "text": "15/4"
+    },
+    {
+     "label": "B",
+     "text": "−15/4"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "15"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "For f(x) = x² − x − 4, α + β = −(−1)/1 = 1 and αβ = −4/1 = −4. Then 1/α + 1/β − αβ = (α + β)/αβ − αβ = 1/(−4) + 4 = −1/4 + 4 = 15/4. Thus (a) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Option (b) was extracted as '-415'; restored to −15/4 (OCR scrambled the fraction digits of the negative counterpart of option (a))."
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "The value of the polynomial x⁸ − x⁵ + x² − x + 1 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "positive for all the real numbers"
+    },
+    {
+     "label": "B",
+     "text": "negative for all the real numbers"
+    },
+    {
+     "label": "C",
+     "text": "0"
+    },
+    {
+     "label": "D",
+     "text": "depends on value of x"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let f(x) = x⁸ − x⁵ + x² − x + 1. For x > 1, f(x) is positive. For x = 0 or x = 1, f(x) = 1 > 0. For x < 0 every term of f(x) is positive, so f(x) > 0. Hence f(x) is positive for all real x. Thus (a) is the correct option.",
+   "concept": "What a zero is",
+   "ocr": "The stem exponents were damaged by OCR ('x^s - x^s'); restored to x⁸ − x⁵ from the worked solution, which prints f(x) = x⁸ − x⁵ + x² − x + 1."
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Lowest value of x² + 4x + 2 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "−2"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "x² + 4x + 2 = (x² + 4x + 4) − 2 = (x + 2)² − 2. Here (x + 2)² is always non-negative and its lowest value is 0 (when x + 2 = 0, i.e. x = −2). Hence the lowest value of (x + 2)² − 2 is −2. Thus (b) is the correct option.",
+   "concept": "General form of a quadratic"
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If the sum of the zeroes of the polynomial f(x) = 2x³ − 3kx² + 4x − 5 is 6, then the value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "−2"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "−4"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "For f(x) = 2x³ − 3kx² + 4x − 5, the sum of the zeroes is 3k/2. Given 6 = 3k/2 ⇒ k = 12/3 = 4. Thus (c) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Labels (b) and (d) came through inside a LaTeX array; labels (a) and (c) restored from the printed column order."
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If the square of difference of the zeroes of the quadratic polynomial x² + px + 45 is equal to 144, then the value of p is",
+   "options": [
+    {
+     "label": "A",
+     "text": "±9"
+    },
+    {
+     "label": "B",
+     "text": "±12"
+    },
+    {
+     "label": "C",
+     "text": "±15"
+    },
+    {
+     "label": "D",
+     "text": "±18"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "For f(x) = x² + px + 45, α + β = −p and αβ = 45. Given (α − β)² = 144, i.e. (α + β)² − 4αβ = 144 ⇒ (−p)² − 4(45) = 144 ⇒ p² = 144 + 180 = 324 ⇒ p = ±18. Thus (d) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The printed 'Thus (…) is correct option' line is missing from this question in the extraction; correct_option D is taken from the worked solution, which ends at p = ±18."
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If one of the zeroes of the quadratic polynomial (k − 1)x² + kx + 1 is −3, then the value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "4/3"
+    },
+    {
+     "label": "B",
+     "text": "−4/3"
+    },
+    {
+     "label": "C",
+     "text": "2/3"
+    },
+    {
+     "label": "D",
+     "text": "−2/3"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "If a is a zero of f(x), then f(a) = 0. So f(−3) = (k − 1)(−3)² + (−3)k + 1 = 0 ⇒ 9(k − 1) − 3k + 1 = 0 ⇒ 9k − 9 − 3k + 1 = 0 ⇒ 6k − 8 = 0 ⇒ k = 8/6 = 4/3. Thus (a) is the correct option.",
+   "concept": "What a zero is"
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "A quadratic polynomial, whose zeroes are −3 and 4, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "x² − x + 12"
+    },
+    {
+     "label": "B",
+     "text": "x² + x + 12"
+    },
+    {
+     "label": "C",
+     "text": "x²/2 − x/2 − 6"
+    },
+    {
+     "label": "D",
+     "text": "2x² + 2x − 24"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Here α = −3 and β = 4, so the sum of zeroes α + β = −3 + 4 = 1 and the product αβ = −3 × 4 = −12. The quadratic polynomial is x² − (α + β)x + αβ = x² − x − 12, which is the same (up to the constant multiple ½) as x²/2 − x/2 − 6. Thus (c) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Labels (a) and (c) were lost by OCR (option block extracted as a LaTeX array) and are restored from the printed column order."
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "The zeroes of the quadratic polynomial x² + 99x + 127 are",
+   "options": [
+    {
+     "label": "A",
+     "text": "both positive"
+    },
+    {
+     "label": "B",
+     "text": "both negative"
+    },
+    {
+     "label": "C",
+     "text": "one positive and one negative"
+    },
+    {
+     "label": "D",
+     "text": "both equal"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let f(x) = x² + 99x + 127. Comparing with ax² + bx + c gives a = 1, b = 99, c = 127. Sum of zeroes α + β = −b/a = −99 and product of zeroes αβ = c/a = 127. The product is positive and the sum is negative, so both zeroes must be negative. (Check: D = √(99² − 4 × 1 × 127) = √9293 ≈ 96.4 < 99, so x = (−99 ± 96.4)/2 is negative for both signs.) Thus (b) is the correct option.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "25",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "The zeroes of the quadratic polynomial x² + kx + k where k ≠ 0,",
+   "options": [
+    {
+     "label": "A",
+     "text": "cannot both be positive"
+    },
+    {
+     "label": "B",
+     "text": "cannot both be negative"
+    },
+    {
+     "label": "C",
+     "text": "are always unequal"
+    },
+    {
+     "label": "D",
+     "text": "are always equal"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let f(x) = x² + kx + k with k ≠ 0, so α + β = −k and αβ = k. Case 1: if k is negative then αβ is negative, so α and β have opposite signs. Case 2: if k is positive then α + β is negative while αβ is positive, so both zeroes are negative. In neither case can both zeroes be positive. Thus (a) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "OCR dropped the labels of options (a) and (c) and rendered (b) as a bare 'b'; all four labels restored from the printed order."
+  },
+  {
+   "number": "26",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If the zeroes of the quadratic polynomial ax² + bx + c, where c ≠ 0, are equal, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "c and a have opposite signs"
+    },
+    {
+     "label": "B",
+     "text": "c and b have opposite signs"
+    },
+    {
+     "label": "C",
+     "text": "c and a have same sign"
+    },
+    {
+     "label": "D",
+     "text": "c and b have the same sign"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Let f(x) = ax² + bx + c with zeroes α and β, so α + β = −b/a and αβ = c/a. Since the zeroes are equal, α = β, so α and β have the same sign and αβ > 0 in every case. Hence c/a > 0, which means c and a have the same sign. Thus (c) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Option (c) was extracted with a damaged label ('C c and a have same sign'); restored to label C."
+  },
+  {
+   "number": "27",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If one of the zeroes of a quadratic polynomial of the form x² + ax + b is the negative of the other, then it",
+   "options": [
+    {
+     "label": "A",
+     "text": "has no linear term and the constant term is negative."
+    },
+    {
+     "label": "B",
+     "text": "has no linear term and the constant term is positive."
+    },
+    {
+     "label": "C",
+     "text": "can have a linear term but the constant term is negative."
+    },
+    {
+     "label": "D",
+     "text": "can have a linear term but the constant term is positive."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let f(x) = x² + ax + b have zeroes α and −α. Sum of zeroes = α + (−α) = 0 = −a, so a = 0 and the polynomial has no linear term. Product of zeroes = α(−α) = −α² = b, which is negative. Hence the polynomial has no linear term and its constant term is negative. Thus (a) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The label of option (c) was dropped by OCR and is restored from the printed order."
+  },
+  {
+   "number": "28",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Which of the following is not the graph of a quadratic polynomial? (Choose from the four graphs (a), (b), (c) and (d) shown in the figure.)",
+   "options": [
+    {
+     "label": "A",
+     "text": "Graph (a) in the figure"
+    },
+    {
+     "label": "B",
+     "text": "Graph (b) in the figure"
+    },
+    {
+     "label": "C",
+     "text": "Graph (c) in the figure"
+    },
+    {
+     "label": "D",
+     "text": "Graph (d) in the figure"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The graph of option (d) cuts the x-axis at three points, which means the polynomial has three zeroes. A quadratic polynomial can have at most two zeroes, so this graph does not represent a quadratic polynomial. Thus (d) is the correct option.",
+   "concept": "Zeroes on the graph",
+   "images": [
+    "6d311383d2364b013d3aa2b6b354c8fbdd2e2a0f6e85cee4b6427cd8fa01af70.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "The four printed options of this question are the four graphs inside the attached figure (page 6); there is no option text in the source. Option texts here are pointers to the labelled panels of that figure, not invented alternatives. The figure belongs to the question, not to the solution."
+  },
+  {
+   "number": "29",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "stem": "Assertion (A): If the graph of a polynomial touches x-axis at only one point, then the polynomial cannot be a quadratic polynomial. Reason (R): A polynomial of degree n (n > 1) can have at most n zeroes.",
+   "assertion": "If the graph of a polynomial touches x-axis at only one point, then the polynomial cannot be a quadratic polynomial.",
+   "reason": "A polynomial of degree n (n > 1) can have at most n zeroes.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both, Assertion (A) and Reason (R) are true and Reason (R) is correct explanation of Assertion (A)"
+    },
+    {
+     "label": "B",
+     "text": "Both, Assertion (A) and Reason (R) are true but Reason (R) is not correct explanation for Assertion (A)"
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false"
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A quadratic polynomial has at most two zeroes, not exactly two. When the graph of a polynomial touches the x-axis at only one point, the polynomial has two equal roots (discriminant = 0), so the graph can still represent a quadratic polynomial. Hence the Assertion is not true, while the Reason is a correct statement. Thus (d) is the correct option.",
+   "concept": "Zeroes on the graph"
+  },
+  {
+   "number": "30",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion (A): p(x) = 14x³ − 2x² + 8x⁴ + 7x − 8 is a polynomial of degree 3. Reason (R): The highest power of x in the polynomial p(x) is the degree of the polynomial.",
+   "assertion": "p(x) = 14x³ − 2x² + 8x⁴ + 7x − 8 is a polynomial of degree 3.",
+   "reason": "The highest power of x in the polynomial p(x) is the degree of the polynomial.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The highest power of x in p(x) = 14x³ − 2x² + 8x⁴ + 7x − 8 is 4, so the degree of p(x) is 4, not 3. Hence the Assertion is incorrect but the Reason is correct. Thus (d) is the correct option.",
+   "concept": "Degree of a polynomial"
+  },
+  {
+   "number": "31",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion (A): (2 − √3) is one zero of the quadratic polynomial then other zero will be (2 + √3). Reason (R): Irrational zeros (roots) always occurs in pairs.",
+   "assertion": "(2 − √3) is one zero of the quadratic polynomial then other zero will be (2 + √3).",
+   "reason": "Irrational zeros (roots) always occurs in pairs.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Irrational zeroes (roots) always occur in conjugate pairs. Therefore, when one zero is (2 − √3), the other zero is (2 + √3). Both A and R are correct and R is the correct explanation of A. Thus (a) is the correct option.",
+   "concept": "What a zero is"
+  },
+  {
+   "number": "32",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion (A): If one zero of polynomial p(x) = (k² + 4)x² + 13x + 4k is reciprocal of other, then k = 2. Reason (R): If (x − α) is a factor of p(x), then p(α) = 0 i.e. α is a zero of p(x).",
+   "assertion": "If one zero of polynomial p(x) = (k² + 4)x² + 13x + 4k is reciprocal of other, then k = 2.",
+   "reason": "If (x − α) is a factor of p(x), then p(α) = 0 i.e. α is a zero of p(x).",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let the zeroes of p(x) be α and 1/α. Then the product of the zeroes α × (1/α) = 4k/(k² + 4), so 1 = 4k/(k² + 4) ⇒ k² − 4k + 4 = 0 ⇒ (k − 2)² = 0 ⇒ k = 2. So the Assertion is true; the Reason is also a true statement but it is not the explanation used here. Thus (b) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The word 'polynomial' was printed/extracted as 'poly-nominal' (hyphenation artefact) and has been repaired in the stem and assertion."
+  },
+  {
+   "number": "33",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion (A): x³ + x has only one real zero. Reason (R): A polynomial of nth degree must have n real zeroes.",
+   "assertion": "x³ + x has only one real zero.",
+   "reason": "A polynomial of nth degree must have n real zeroes.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "A polynomial of nth degree can have at most n real zeroes, so the Reason is not true. Again, x³ + x = x(x² + 1), which has only one real zero (x = 0) because x² + 1 ≠ 0 for all x ∈ R. Hence the Assertion is true but the Reason is false. Thus (c) is the correct option.",
+   "concept": "Degree of a polynomial"
+  },
+  {
+   "number": "34",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion (A): If both zeros of the quadratic polynomial x² − 2kx + 2 are equal in magnitude but opposite in sign then value of k is ½. Reason (R): Sum of zeros of a quadratic polynomial ax² + bx + c is −b/a.",
+   "assertion": "If both zeros of the quadratic polynomial x² − 2kx + 2 are equal in magnitude but opposite in sign then value of k is ½.",
+   "reason": "Sum of zeros of a quadratic polynomial ax² + bx + c is −b/a.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "If the zeroes are equal in magnitude but opposite in sign, their sum must be zero. For x² − 2kx + 2, sum of zeroes = −(−2k)/1 = 2k, so 2k = 0 ⇒ k = 0, not ½. Hence the Assertion is false but the Reason is true. Thus (d) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The value in the printed assertion was extracted as a stray '%' symbol; read as ½ (the usual printed value). Either way the assertion is false, since the solution derives k = 0."
+  },
+  {
+   "number": "35",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "If the sum and product of the zeroes of a quadratic polynomial are 3 and −10 respectively, find the quadratic polynomial.",
+   "answer": "Sum of zeroes, α + β = 3 and product of zeroes, αβ = −10.\nQuadratic polynomial p(x) = x² − (α + β)x + αβ = x² − 3x − 10.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Printed solution line reads p(x) = x² − (α + β) + αβ; the missing factor x after (α + β) restored from the next line, which gives x² − 3x − 10."
+  },
+  {
+   "number": "36",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Basic",
+   "stem": "If the sum of the zeroes of the quadratic polynomial kx² + 2x + 3k is equal to their product, then what is the value of k?",
+   "answer": "p(x) = kx² + 2x + 3k. Comparing with ax² + bx + c gives a = k, b = 2, c = 3k.\nSum of zeroes, α + β = −b/a = −2/k.\nProduct of zeroes, αβ = c/a = 3k/k = 3.\nGiven α + β = αβ, so −2/k = 3 ⇒ k = −2/3.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "MinerU wrote the comparison line as \"Comparing it ) y ax² + bx + c\"; read as \"Comparing it with ax² + bx + c\"."
+  },
+  {
+   "number": "37",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "If α and β are the zeroes of the polynomial 2x² − 13x + 6, then what is the value of α + β?",
+   "answer": "p(x) = 2x² − 13x + 6. Comparing with ax² + bx + c gives a = 2, b = −13, c = 6.\nSum of zeroes α + β = −b/a = −(−13)/2 = 13/2.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Printed solution says \"a = 6\" for the constant term; it is the coefficient c = 6 (a is already 2). Corrected."
+  },
+  {
+   "number": "38",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "If one zero of a quadratic polynomial (kx² + 3x + k) is 2, then what is the value of k?",
+   "answer": "p(x) = kx² + 3x + k. Since 2 is a zero, p(2) = 0.\nk(2)² + 3(2) + k = 0\n4k + 6 + k = 0\n5k = −6 ⇒ k = −6/5.",
+   "concept": "What a zero is",
+   "ocr": "Printed stem reads \"then the what is the value of k\"; stray \"the\" dropped."
+  },
+  {
+   "number": "39",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 Delhi 2013",
+   "stem": "If one of the zeroes of the quadratic polynomial (k − 1)x² + kx + 1 is −3, then what is the value of k?",
+   "answer": "If a is a zero of f(x), then f(a) = 0. So f(−3) = 0:\n(k − 1)(−3)² + (−3)k + 1 = 0\n9(k − 1) − 3k + 1 = 0\n9k − 9 − 3k + 1 = 0\n6k − 8 = 0 ⇒ k = 8/6 = 4/3.",
+   "concept": "What a zero is"
+  },
+  {
+   "number": "40",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Basic",
+   "stem": "If one zero of the polynomial (3x² + 8x + k) is the reciprocal of the other, then what is the value of k?",
+   "answer": "Let the zeroes be α and 1/α.\nProduct of zeroes, α · (1/α) = constant term / coefficient of x²\n1 = k/3 ⇒ k = 3.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "41",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 OD 2011",
+   "stem": "What is the value of x, for which the polynomials x² − 1 and x² − 2x + 1 vanish simultaneously?",
+   "answer": "x² − 1 = (x − 1)(x + 1) and x² − 2x + 1 = (x − 1)(x − 1). Both have 1 as a zero, so both vanish when x = 1.",
+   "concept": "What a zero is"
+  },
+  {
+   "number": "42",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 Foreign 2014",
+   "stem": "If the square of difference of the zeroes of the quadratic polynomial x² + px + 45 is equal to 144, then what is the value of p?",
+   "answer": "f(x) = x² + px + 45, so α + β = −p/1 = −p and αβ = 45/1 = 45.\nGiven (α − β)² = 144\n(α + β)² − 4αβ = 144\n(−p)² − 4(45) = 144\np² = 144 + 180 = 324 ⇒ p = ±18.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "43",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "section_heading": "ONE MARK QUESTIONS | Board 2010",
+   "stem": "Find a quadratic polynomial whose zeroes are −3 and 4.",
+   "answer": "Here α = −3 and β = 4.\nSum of zeroes, α + β = −3 + 4 = 1\nProduct of zeroes, αβ = −3 × 4 = −12\nSo the quadratic polynomial is x² − (α + β)x + αβ = x² − x − 12.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "A trailing OCR artefact line \"= x²/2 − x/2 − 6\" follows the answer in the scan; it is a halved duplicate of x² − x − 12 and has been dropped."
+  },
+  {
+   "number": "44",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "The graph of a polynomial is shown in the figure. What is the number of its zeroes?",
+   "answer": "The graph cuts the x-axis at 3 points, so the number of zeroes of the polynomial p(x) is 3.",
+   "concept": "Zeroes on the graph",
+   "images": [
+    "8318d7acb9d767c58109ef8c3778e72a8df5554fd20876854227d70ac307cd81.jpg"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "45",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 Delhi 2017",
+   "stem": "If α and β are zeroes of the quadratic polynomial f(x) = x² − x − 4, then what is the value of 1/α + 1/β − αβ?",
+   "answer": "f(x) = x² − x − 4, so α + β = −(−1)/1 = 1 and αβ = −4/1 = −4.\n1/α + 1/β − αβ = (α + β)/αβ − αβ = 1/(−4) − (−4) = −1/4 + 4 = 15/4.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "MinerU printed the product line as \"αβ = −4/1 − 4\"; the second relation is an artefact of the equals sign, value αβ = −4."
+  },
+  {
+   "number": "46",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 OD 2013",
+   "stem": "What is the lowest value of x² + 4x + 2?",
+   "answer": "x² + 4x + 2 = (x² + 4x + 4) − 2 = (x + 2)² − 2.\nHere (x + 2)² is always non-negative and its lowest value is zero. Thus the lowest value of (x + 2)² − 2 is −2, attained when x + 2 = 0, i.e. x = −2.",
+   "concept": "General form of a quadratic"
+  },
+  {
+   "number": "47",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2016",
+   "stem": "If the sum of the zeroes of the polynomial f(x) = 2x³ − 3kx² + 4x − 5 is 6, then what is the value of k?",
+   "answer": "Sum of the zeroes = 3k/2, so 6 = 3k/2 ⇒ k = 12/3 = 4.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "48",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2010",
+   "stem": "Calculate the zeroes of the polynomial p(x) = 4x² − 12x + 9.",
+   "answer": "p(x) = 4x² − 12x + 9\n= 4x² − 6x − 6x + 9\n= 2x(2x − 3) − 3(2x − 3)\n= (2x − 3)(2x − 3)\nSubstituting p(x) = 0 and solving we get x = 3/2, 3/2.\nHence the zeroes of the polynomial are 3/2 and 3/2.",
+   "concept": "Splitting the middle term",
+   "ocr": "Repeated OCR echo \"x = 32, 32\" after the fractions removed; the values are 3/2, 3/2."
+  },
+  {
+   "number": "49",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Board 2009",
+   "stem": "If the sum of the zeroes of the quadratic polynomial 3x² − kx + 6 is 3, then find the value of k.",
+   "answer": "Sum of the zeroes = −(coefficient of x)/(coefficient of x²).\n3 = −(−k)/3 ⇒ k = 9.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The worked solution restates the polynomial as 3x² − kx − 6 while the question prints +6; the sum of zeroes depends only on −b/a, so k = 9 either way. Stem follows the printed question. Also repaired the garbled fraction \"roefficient α ∩ f r²\" to \"coefficient of x²\"."
+  },
+  {
+   "number": "50",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 Foreign 2015",
+   "stem": "If −1 is a zero of the polynomial f(x) = x² − 7x − 8, then calculate the other zero.",
+   "answer": "f(x) = x² − 7x − 8. Let the other zero be k.\nSum of zeroes, −1 + k = −(−7/1) = 7 ⇒ k = 8.\nHence the other zero is 8.",
+   "concept": "What a zero is",
+   "ocr": "The embedded text layer shows the book does print the final step (\"or k = 8\"), so nothing was missing from the printed solution; the earlier note claiming it stopped at −1 + k = 7 was wrong."
+  },
+  {
+   "number": "51",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2016",
+   "stem": "If zeroes of the polynomial x² + 4x + 2a are a and 2/a, then find the value of a.",
+   "answer": "Product of zeroes, c/a = 2a/1 = a × (2/a) = 2.\n2a = 2 ⇒ a = 1.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The text layer prints this line plainly as \"Product of (zeroes) roots, c/a = 2a/1 = α × 2/α = 2\", so the garbled \"c/a-coefficient\" was replaced by c/a."
+  },
+  {
+   "number": "52",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2013",
+   "stem": "Find all the zeroes of f(x) = x² − 2x.",
+   "answer": "f(x) = x² − 2x = x(x − 2).\nSubstituting f(x) = 0 and solving we get x = 0, 2.\nHence the zeroes are 0 and 2.",
+   "concept": "What a zero is",
+   "ocr": "The text layer prints the attribution \"[Board Term-1 2013]\" on the Sol: line, which the OCR had dropped."
+  },
+  {
+   "number": "53",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2012",
+   "stem": "Find the condition that zeroes of polynomial p(x) = ax² + bx + c are reciprocal of each other.",
+   "answer": "Let α and 1/α be the zeroes of p(x).\nProduct of zeroes, c/a = α × (1/α) = 1, so c/a = 1.\nHence the required condition is c = a.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "54",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2013",
+   "stem": "Find the values of a and b, if they are the zeroes of polynomial x² + ax + b.",
+   "answer": "p(x) = x² + ax + b, with a and b as its zeroes.\nProduct of zeroes: ab = b ⇒ a = 1.\nSum of zeroes: a + b = −a ⇒ b = −2a = −2.\nHence a = 1 and b = −2.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "55",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Standard",
+   "stem": "What are the zeroes of the polynomial x² − 3x − m(m + 3)?",
+   "answer": "p(x) = x² − 3x − m(m + 3).\nSubstituting x = −m: p(−m) = (−m)² − 3(−m) − m(m + 3) = m² + 3m − m² − 3m = 0, so x = −m is a zero.\nSubstituting x = m + 3: p(m + 3) = (m + 3)² − 3(m + 3) − m(m + 3) = (m + 3)[m + 3 − 3 − m] = (m + 3)(0) = 0, so x = m + 3 is also a zero.\nHence the zeroes are −m and m + 3.",
+   "concept": "What a zero is"
+  },
+  {
+   "number": "56",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "Find the zeroes of the quadratic polynomial √3x² − 8x + 4√3.",
+   "answer": "We have p(x) = √3x² − 8x + 4√3 = √3x² − 6x − 2x + 4√3 = √3x(x − 2√3) − 2(x − 2√3) = (√3x − 2)(x − 2√3). Substituting p(x) = 0, (√3x − 2)(x − 2√3) = 0. Solving we get x = 2/√3, 2√3. Hence the zeroes are 2/√3 and 2√3.",
+   "concept": "Splitting the middle term",
+   "ocr": "LaTeX array of the worked solution rewritten into Unicode (√, superscript 2, minus signs). MinerU spliced a stray 'p(x)' into the factorised line '(√3x − 2)(x − 2√3) ~ p(x) = 0'; read as 'Substituting p(x) = 0'. The text layer shows 'Solving we get x = 2/√3, 2√3' is a genuine printed line of the solution, not the column-bleed fragment 'Solvin' it was earlier taken for, so that step was restored."
+  },
+  {
+   "number": "57",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2016",
+   "stem": "Find a quadratic polynomial, the sum and product of whose zeroes are 6 and 9 respectively. Hence find the zeroes.",
+   "answer": "Sum of zeroes, α + β = 6; product of zeroes, αβ = 9. Now p(x) = x² − (α + β)x + αβ = x² − 6x + 9. Thus the quadratic polynomial is x² − 6x + 9. Now p(x) = x² − 6x + 9 = (x − 3)(x − 3). Substituting p(x) = 0 we get x = 3, 3. Hence the zeroes are 3 and 3.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "OCR text 'w Δ p e get x = 3,3' repaired to 'we get x = 3, 3'. LaTeX arrays rewritten to Unicode."
+  },
+  {
+   "number": "58",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "stem": "Form a quadratic polynomial p(x) with 3 and −2/5 as sum and product of its zeroes, respectively.",
+   "answer": "Sum of zeroes, α + β = 3; product of zeroes, αβ = −2/5. Now p(x) = x² − (α + β)x + αβ = x² − 3x − 2/5 = (1/5)(5x² − 15x − 2). The required quadratic polynomial is (1/5)(5x² − 15x − 2).",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "MinerU rendered α as the proportional sign '∝' throughout this solution; restored to α. The PRACTICE drill that follows (sum 21/8, product 5/16, Ans (1/16)(16x² − 42x + 5)) is an unnumbered practice item, not a numbered printed question, so it was not stored."
+  },
+  {
+   "number": "59",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 OD Basic",
+   "stem": "If α and β are the zeroes of the polynomial f(x) = 5x² − 7x + 1, then find the value of (α/β + β/α).",
+   "answer": "Since α and β are the zeroes of the quadratic polynomial f(x) = 5x² − 7x + 1: sum of zeroes, α + β = −(−7/5) = 7/5; product of zeroes, αβ = 1/5. Now α/β + β/α = (α² + β²)/αβ = [(α + β)² − 2αβ]/αβ = [(7/5)² − 2 × (1/5)] ÷ (1/5) = (49 − 2 × 5)/5 = 39/5.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "OCR printed the product of zeroes as '∝ ℵ = 1/5'; restored to αβ = 1/5. '(τ/5)²' restored to (7/5)². The two PRACTICE drills that follow (3x² + 11x − 4 and 2x² − 7x + 3) are unnumbered practice items and were not stored."
+  },
+  {
+   "number": "60",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015",
+   "stem": "If α and β are the zeroes of a polynomial x² − 4√3x + 3, then find the value of α + β − αβ.",
+   "answer": "We have p(x) = x² − 4√3x + 3. Sum of zeroes, α + β = −b/a = −(−4√3)/1, so α + β = 4√3. Product of zeroes, αβ = c/a = 3/1, so αβ = 3. Now α + β − αβ = 4√3 − 3.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The product line printed as 'α^β = c/a'; read as αβ = c/a from the line that follows it. LaTeX array rewritten to Unicode."
+  },
+  {
+   "number": "61",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "stem": "If one of the zeroes of the quadratic polynomial f(x) = 14x² − 42k²x − 9 is negative of the other, find the value of k.",
+   "answer": "We have f(x) = 14x² − 42k²x − 9. Let one zero be α, then the other zero is −α. Sum of zeroes = α + (−α) = 0, so the sum of the zeroes is 0. Sum of zeroes = −(coefficient of x)/(coefficient of x²), so 0 = −(−42k²)/14 = 3k². Hence k² = 0 and k = 0.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The stem's closing phrase came through as garbled OCR ('find the value of ·k· τ'); restored to 'find the value of k'. The printed solution drops the sign of the coefficient of x, writing '0 = −42k²/14 = −3k²'; since the coefficient is −42k² the ratio is +3k². Either way k = 0, which is the printed answer."
+  },
+  {
+   "number": "62",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "stem": "If one zero of the polynomial 2x² + 3x + λ is 1/2, find the value of λ and the other zero.",
+   "answer": "Let the zeroes of 2x² + 3x + λ be 1/2 and β. Product of zeroes = c/a: (1/2)β = λ/2, so β = λ. Sum of zeroes = −b/a: 1/2 + β = −3/2, so β = −3/2 − 1/2 = −2. Hence λ = β = −2, and the other zero is −2.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "This question straddles a dump boundary — its board tag was split as 'Bo' / 'ard Term-1 2012' across two reads; reassembled from both. LaTeX rewritten to Unicode."
+  },
+  {
+   "number": "63",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2019 Delhi",
+   "stem": "Find the value of k such that the polynomial x² − (k + 6)x + 2(2k + 1) has sum of its zeroes equal to half of their product.",
+   "answer": "Let α and β be the roots of x² − (k + 6)x + 2(2k + 1) = 0. Sum of roots, α + β = −[−(k + 6)]/1 = k + 6. Product of roots, αβ = 2(2k + 1)/1 = 2(2k + 1). According to the given condition α + β = ½αβ, so k + 6 = ½[2(2k + 1)] = 2k + 1, which gives k = 5. Hence the value of k is 5.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "'∝ + β' restored to 'α + β'. LaTeX arrays rewritten to Unicode."
+  },
+  {
+   "number": "64",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "stem": "If the zeroes of the polynomial x² + px + q are double in value to the zeroes of 2x² − 5x − 3, find the value of p and q.",
+   "answer": "We have f(x) = 2x² − 5x − 3. Let its zeroes be α and β, then sum of zeroes α + β = 5/2 and product of zeroes αβ = −3/2. According to the question the zeroes of x² + px + q are 2α and 2β. Sum of zeroes: 2α + 2β = −p/1, so 2(α + β) = −p. Substituting α + β = 5/2: 2 × 5/2 = −p, so p = −5. Product of zeroes: (2α)(2β) = q/1, so 4αβ = q. Substituting αβ = −3/2: 4 × (−3/2) = q, so q = −6. Thus p = −5 and q = −6.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "OCR mangled the substitution line for the product into '{\\alpha\\mathrm{\\alpha}}) \\alpha = -3/2'; restored to αβ = −3/2 from the surrounding working. '∝' restored to α throughout."
+  },
+  {
+   "number": "65",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "If α and β are zeroes of x² − (k − 6)x + 2(2k − 1), find the value of k if α + β = ½αβ.",
+   "answer": "We have p(x) = x² − (k − 6)x + 2(2k − 1). Since α and β are the zeroes of p(x): α + β = −[−(k − 6)] = k − 6 and αβ = 2(2k − 1). Now applying α + β = ½αβ: k − 6 = 2(2k − 1)/2 = 2k − 1, so k = −5. Hence the value of k is −5.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The condition in the stem was destroyed by OCR into a long nest of '\\mathrm{\\alpha\\beta\\Omega}' braces; restored as α + β = ½αβ from the worked solution, which applies exactly that relation. The printed solution also carries a typo, writing 'k + 6 = 2(2k − 1)/2' on one line and 'k − 6 = 2k − 1' on the next; the second is consistent with α + β = k − 6 and yields the printed answer k = −5, so the solution wins. The trailing PRACTICE drill (x² − 6x + k, Ans −2) is unnumbered and was not stored."
+  },
+  {
+   "number": "66",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi Standard",
+   "stem": "Find a quadratic polynomial whose zeroes are reciprocals of the zeroes of the polynomial f(x) = ax² + bx + c, a ≠ 0, c ≠ 0.",
+   "answer": "Let α and β be the zeroes of ax² + bx + c, so α + β = −b/a and αβ = c/a. Let 1/α and 1/β be the zeroes of the new polynomial. Sum of zeroes, s = 1/α + 1/β = (β + α)/(αβ) = (−b/a)/(c/a) = −b/c. Product of zeroes, p = 1/α × 1/β = 1/(αβ) = a/c. Required polynomial g(x) = x² − sx + p = x² + (b/c)x + a/c, i.e. c·g(x) = cx² + bx + a. Hence g(x) = cx² + bx + a.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "67",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "Verify whether 2, 3 and 1/2 are the zeroes of the polynomial p(x) = 2x³ − 11x² + 17x − 6.",
+   "answer": "If 2, 3 and 1/2 are zeroes of p(x) they must satisfy p(x) = 0. p(2) = 2(2)³ − 11(2)² + 17(2) − 6 = 16 − 44 + 34 − 6 = 50 − 50 = 0. p(3) = 2(3)³ − 11(3)² + 17(3) − 6 = 54 − 99 + 51 − 6 = 105 − 105 = 0. p(1/2) = 2(1/2)³ − 11(1/2)² + 17(1/2) − 6 = 1/4 − 11/4 + 17/2 − 6 = 0. Hence 2, 3 and 1/2 are the zeroes of p(x).",
+   "concept": "What a zero is",
+   "ocr": "MinerU reprinted the cubic inside the worked solution as 2x² − 11x² + 17x − 6; restored to 2x³ − 11x² + 17x − 6 from the question statement and from the substitution 2(2)³ that follows."
+  },
+  {
+   "number": "68",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "If the sum and product of the zeroes of the polynomial ax² − 5x + c are equal to 10 each, find the value of \"a\" and \"c\".",
+   "answer": "Let α and β be the zeroes of f(x) = ax² − 5x + c. Sum of zeroes α + β = −(−5)/a = 5/a and product of zeroes αβ = c/a. Given that both are equal to 10: 5/a = 10 …(1) and c/a = 10 …(2). Dividing (2) by (1), c/5 = 1 ⇒ c = 5. Substituting c = 5 in (2), a = 1/2. Hence a = 1/2 and c = 5.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "69",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "If one zero of the polynomial 3x² − 8x + 2k + 1 is seven times the other, find the value of k.",
+   "answer": "Let α and β be the zeroes of f(x) = 3x² − 8x + 2k + 1, with β = 7α. Sum of zeroes: α + 7α = 8/3 ⇒ 8α = 8/3 ⇒ α = 1/3. Product of zeroes: α · 7α = (2k + 1)/3 ⇒ 7(1/3)² = (2k + 1)/3 ⇒ 7/9 = (2k + 1)/3 ⇒ 2k + 1 = 7/3 ⇒ 4/3 = 2k ⇒ k = 2/3.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Printed stem read 'If one the zero of a polynomial'; corrected to 'If one zero of the polynomial'. The middle of the worked solution is destroyed by MinerU (long runs of \\quad filler); the algebra was reconstructed and lands exactly on the surviving printed final line 4/3 = 2k ⇒ k = 2/3."
+  },
+  {
+   "number": "70",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2015",
+   "stem": "Quadratic polynomial 2x² − 3x + 1 has zeroes as α and β. Now form a quadratic polynomial whose zeroes are 3α and 3β.",
+   "answer": "For f(x) = 2x² − 3x + 1, sum of zeroes α + β = −b/a = 3/2 and product of zeroes αβ = c/a = 1/2. The new polynomial is p(x) = x² − (3α + 3β)x + (3α)(3β) = x² − 3(α + β)x + 9αβ = x² − 3(3/2)x + 9(1/2) = x² − (9/2)x + 9/2 = ½(2x² − 9x + 9). Hence the required quadratic polynomial is ½(2x² − 9x + 9).",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "71",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "If α and β are the zeroes of the polynomial f(x) = x² − 4x − 5, then find the value of α² + β².",
+   "answer": "Comparing p(x) = x² − 4x − 5 with ax² + bx + c gives a = 1, b = −4, c = −5. Sum of zeroes α + β = −b/a = 4 and product of zeroes αβ = c/a = −5/1 = −5. Now α² + β² = (α + β)² − 2αβ = (4)² − 2(−5) = 16 + 10 = 26.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "72",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Basic",
+   "stem": "Find the quadratic polynomial, the sum and product of whose zeroes are −3 and 2 respectively. Hence find the zeroes.",
+   "answer": "Sum of zeroes α + β = −3 and product of zeroes αβ = 2. Thus x² − (α + β)x + αβ = 0 ⇒ x² − (−3)x + 2 = 0 ⇒ x² + 3x + 2 = 0. Splitting the middle term: x² + 2x + x + 2 = 0 ⇒ x(x + 2) + (x + 2) = 0 ⇒ (x + 2)(x + 1) = 0. Hence the zeroes are −2 and −1.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The text layer shows the book does print a board tag for this question, [Board 2020 OD Basic]; MinerU lost it, and the section_heading has been corrected."
+  },
+  {
+   "number": "73",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "Find the zeroes of the quadratic polynomial 6x² − 3 − 7x and verify the relationship between the zeroes and the coefficients.",
+   "answer": "For zeroes, p(x) = 0: 6x² − 7x − 3 = 0 ⇒ 6x² − 9x + 2x − 3 = 0 ⇒ 3x(2x − 3) + 1(2x − 3) = 0 ⇒ (2x − 3)(3x + 1) = 0. Thus x = 3/2 and x = −1/3, so α = 3/2 and β = −1/3 are the zeroes. Verification: α + β = 3/2 + (−1/3) = 7/6 = −(coefficient of x)/(coefficient of x²) = −(−7)/6. Product αβ = (3/2)(−1/3) = −1/2 = (constant term)/(coefficient of x²) = −3/6.",
+   "concept": "Splitting the middle term"
+  },
+  {
+   "number": "73P",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board 2020 Delhi Basic",
+   "stem": "Find the zeroes of the quadratic polynomial x² + 7x + 10 and verify the relationship between the zeroes and the coefficients.",
+   "answer": "x² + 7x + 10 = x² + 5x + 2x + 10 = x(x + 5) + 2(x + 5) = (x + 5)(x + 2). Setting p(x) = 0 gives the zeroes −5 and −2. Verification: sum of zeroes = −5 + (−2) = −7 = −(coefficient of x)/(coefficient of x²) = −7/1. Product of zeroes = (−5)(−2) = 10 = (constant term)/(coefficient of x²) = 10/1. Hence verified.",
+   "concept": "Splitting the middle term",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q73; numbered '73P' from its position, following the 88P/91P convention used in mch02_five.json for this chapter. The printed key OCRs as 'Ans - and -5' — the first zero lost its digit; it is −2, confirmed by factorising x² + 7x + 10 = (x + 2)(x + 5)."
+  },
+  {
+   "number": "74",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "If the zeroes of the quadratic polynomial x² + (a + 1)x + b are 2 and −3, then find the value of a and b.",
+   "answer": "If a number is a zero of the polynomial, substituting it makes the polynomial zero. Here 2 and −3 are zeroes of x² + (a + 1)x + b, so f(2) = (2)² + (a + 1)(2) + b = 0 ⇒ 4 + 2a + 2 + b = 0 ⇒ 2a + b = −6 …(1), and f(−3) = (−3)² + (a + 1)(−3) + b = 0 ⇒ 9 − 3a − 3 + b = 0 ⇒ −3a + b = −6 ⇒ 3a − b = 6 …(2). Adding (1) and (2) gives 5a = 0 ⇒ a = 0. Substituting a = 0 in (1) gives b = −6. Hence a = 0 and b = −6.",
+   "concept": "What a zero is",
+   "ocr": "MinerU collapsed the two substitutions into a single corrupt line, 'f(2) = (2)² + (a + 1)(−3) + b = 0', and dropped equation (2) entirely. Both substitutions were restored. The text layer shows the book prints equation (2) as 3a − b = 6 and then adds (1) and (2) to reach 5a = 0, so the book is consistent and the earlier note about a subtraction step was wrong; the printed answers a = 0 and b = −6 are unchanged."
+  },
+  {
+   "number": "75",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "If α and β are the zeroes of the polynomial 6y² − 7y + 2, find a quadratic polynomial whose zeroes are 1/α and 1/β.",
+   "answer": "For p(y) = 6y² − 7y + 2: sum of zeroes α + β = −(−7/6) = 7/6 and product of zeroes αβ = 2/6 = 1/3. For the new polynomial g(y): sum of zeroes = 1/α + 1/β = (α + β)/(αβ) = (7/6)/(2/6) = 7/2, and product of zeroes = 1/α × 1/β = 1/(αβ) = 1/(1/3) = 3. Hence g(y) = y² − (7/2)y + 3 = ½(2y² − 7y + 6).",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "76",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "Show that 1/2 and −3/2 are the zeroes of the polynomial 4x² + 4x − 3 and verify the relationship between zeroes and coefficients of the polynomial.",
+   "answer": "If 1/2 and −3/2 are zeroes of p(x) = 4x² + 4x − 3 they must satisfy p(x) = 0. p(1/2) = 4(1/4) + 4(1/2) − 3 = 1 + 2 − 3 = 0 and p(−3/2) = 4(9/4) + 4(−3/2) − 3 = 9 − 6 − 3 = 0. Thus 1/2 and −3/2 are the zeroes of 4x² + 4x − 3. Sum of zeroes = 1/2 − 3/2 = −1 = −4/4 = −(coefficient of x)/(coefficient of x²). Product of zeroes = (1/2)(−3/2) = −3/4 = (constant term)/(coefficient of x²). Verified.",
+   "concept": "What a zero is",
+   "ocr": "MinerU printed the substitution as 4(9/2) in p(−3/2); it must be 4(9/4) = 9, the value used by the very next printed line (9 − 6 − 3 = 0). The text layer shows the book itself prints 4(9/2) there, so that is the book's own misprint rather than an OCR error, and the correction stands. The text layer also shows the book does print a board tag here, [Board Term-1 2011], which MinerU lost; the section_heading has been corrected."
+  },
+  {
+   "number": "77",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Standard",
+   "stem": "A teacher asked 10 of his students to write a polynomial in one variable on a paper and then to hand over the paper. The following were the answers given by the students: 2x + 3, 3x² + 7x + 2, 4x³ + 3x² + 2, x³ + √(3x) + 7, 7x + √7, 5x³ − 7x + 2, 2x² + 3 − 5/x, 5x − 1/2, ax³ + bx² + cx + d, x + 1/x. Answer the following questions: (i) How many of the above ten are not polynomials? (ii) How many of the above ten are quadratic polynomials?",
+   "answer": "(i) Three of them are not polynomials: x³ + √(3x) + 7, 2x² + 3 − 5/x and x + 1/x. (ii) Only one of them, 3x² + 7x + 2, is a quadratic polynomial.",
+   "concept": "Linear, quadratic and cubic",
+   "sub_parts": [
+    "i",
+    "ii"
+   ]
+  },
+  {
+   "number": "78",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "Find the zeroes of the quadratic polynomial 5x² + 8x − 4 and verify the relationship between the zeroes and the coefficients of the polynomial.",
+   "answer": "p(x) = 5x² + 8x − 4 = 5x² + 10x − 2x − 4 = 5x(x + 2) − 2(x + 2) = (x + 2)(5x − 2). Substituting p(x) = 0 gives the zeroes −2 and 2/5. Verification: sum of zeroes = −2 + 2/5 = −8/5, and from the polynomial −b/a = −(coefficient of x)/(coefficient of x²) = −8/5. Product of zeroes = (−2)(2/5) = −4/5, and c/a = (constant term)/(coefficient of x²) = −4/5. Hence verified.",
+   "concept": "Splitting the middle term"
+  },
+  {
+   "number": "78P",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board Term-1 2015",
+   "stem": "Find the zeroes of the quadratic polynomial x² − 2√2x and verify the relationship between the zeroes and the coefficients of the polynomial.",
+   "answer": "x² − 2√2x = x(x − 2√2). Setting p(x) = 0 gives x = 0 and x = 2√2, so the zeroes are 0 and 2√2. Verification: sum of zeroes = 0 + 2√2 = 2√2 = −(coefficient of x)/(coefficient of x²) = −(−2√2)/1. Product of zeroes = 0 × 2√2 = 0 = (constant term)/(coefficient of x²) = 0/1. Hence verified.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q78; numbered '78P' from its position, following the 88P/91P convention used in mch02_five.json for this chapter. The printed key is 'Ans 0 and 2√2'; the working shown here is the standard route to that key. There is no middle term to split here — the factorisation is a common factor of x — so the concept is the relationship being verified."
+  },
+  {
+   "number": "79",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2009",
+   "stem": "If α and β are the zeroes of a quadratic polynomial such that α + β = 24 and α − β = 8, find the quadratic polynomial having α and β as its zeroes.",
+   "answer": "We have α + β = 24 …(1) and α − β = 8 …(2). Adding (1) and (2): 2α = 32 ⇒ α = 16. Subtracting (2) from (1): 2β = 16 ⇒ β = 8. Hence the quadratic polynomial is p(x) = x² − (α + β)x + αβ = x² − (16 + 8)x + (16)(8) = x² − 24x + 128.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "MinerU dropped equation (1), α + β = 24, from the worked solution (it survives only in the question statement) and truncated the product line at '(16'; completed as (16)(8) = 128, which matches the printed final polynomial x² − 24x + 128."
+  },
+  {
+   "number": "80",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2010",
+   "stem": "If α, β and γ are zeroes of the polynomial 6x³ + 3x² − 5x + 1, then find the value of α⁻¹ + β⁻¹ + γ⁻¹.",
+   "answer": "For p(x) = 6x³ + 3x² − 5x + 1: α + β + γ = −b/a = −3/6 = −1/2, αβ + βγ + γα = c/a = −5/6, and αβγ = −d/a = −1/6. Now 1/α + 1/β + 1/γ = (αβ + βγ + γα)/(αβγ) = (−5/6)/(−1/6) = (−5/6) × (6/−1) = 5. Hence α⁻¹ + β⁻¹ + γ⁻¹ = 5.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "MinerU printed the first relation as α + β + γ = −b/c; it is −b/a, as the value −3/6 shown on the same line confirms. The text layer shows the book itself prints α + β + γ = −b/c, so that slip is the book's own and not MinerU's; the value −3/6 on the same line still fixes it as −b/a."
+  },
+  {
+   "number": "81",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "When p(x) = x² + 7x + 9 is divided by g(x), we get (x + 2) and −1 as the quotient and remainder respectively, find g(x).",
+   "answer": "Here p(x) = x² + 7x + 9, q(x) = x + 2 and r(x) = −1. By the division algorithm p(x) = g(x)·q(x) + r(x), so x² + 7x + 9 = g(x)(x + 2) − 1. Hence g(x) = (x² + 7x + 10)/(x + 2) = (x + 2)(x + 5)/(x + 2) = x + 5. Thus g(x) = x + 5.",
+   "concept": "Splitting the middle term",
+   "ocr": "The printed question number was lost by MinerU; inferred as 81 from its position between questions 80 and 82. The printed wording 'is divisible by g(x)' was read as 'is divided by g(x)', since a non-zero remainder of −1 is given."
+  },
+  {
+   "number": "82",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term 2010",
+   "stem": "Find the value for k for which x⁴ + 10x³ + 25x² + 15x + k is exactly divisible by x + 7.",
+   "answer": "Let f(x) = x⁴ + 10x³ + 25x² + 15x + k. If x + 7 is a factor then −7 is a zero of f(x), so x = −7 satisfies f(x) = 0. Substituting x = −7: (−7)⁴ + 10(−7)³ + 25(−7)² + 15(−7) + k = 0 ⇒ 2401 − 3430 + 1225 − 105 + k = 0 ⇒ 3626 − 3535 + k = 0 ⇒ 91 + k = 0 ⇒ k = −91.",
+   "concept": "What a zero is"
+  },
+  {
+   "number": "83",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2009",
+   "stem": "On dividing the polynomial 4x⁴ − 5x³ − 39x² − 46x − 2 by the polynomial g(x) the quotient is x² − 3x − 5 and the remainder is −5x + 8. Find the polynomial g(x).",
+   "answer": "Dividend = (Divisor × Quotient) + Remainder, so 4x⁴ − 5x³ − 39x² − 46x − 2 = g(x)(x² − 3x − 5) + (−5x + 8). Therefore 4x⁴ − 5x³ − 39x² − 46x − 2 + 5x − 8 = g(x)(x² − 3x − 5), i.e. 4x⁴ − 5x³ − 39x² − 41x − 10 = g(x)(x² − 3x − 5). Hence g(x) = (4x⁴ − 5x³ − 39x² − 41x − 10)/(x² − 3x − 5) = 4x² + 7x + 2.",
+   "concept": "General form of a quadratic",
+   "ocr": "MinerU mangled the dividend each time it was reprinted inside the worked solution ('4x⁴ − 5x³ − 39x³ − 46x − 2' and '4x² − 5x³ − 39x² − 46x − 2'); restored to 4x⁴ − 5x³ − 39x² − 46x − 2 from the question statement."
+  },
+  {
+   "number": "84",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2008",
+   "stem": "If the squared difference of the zeroes of the quadratic polynomial f(x) = x² + px + 45 is equal to 144, find the value of p.",
+   "answer": "Let α and β be the zeroes of f(x) = x² + px + 45. Sum of zeroes α + β = −p and product of zeroes αβ = 45. Given (α − β)² = 144, i.e. (α + β)² − 4αβ = 144. Substituting the values: (−p)² − 4 × 45 = 144 ⇒ p² − 180 = 144 ⇒ p² = 144 + 180 = 324 ⇒ p = ±√324 = ±18. Hence the value of p is ±18.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "85",
+   "form": "long",
+   "marks": 5,
+   "page": 17,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2015",
+   "stem": "Polynomial x⁴ + 7x³ + 7x² + px + q is exactly divisible by x² + 7x + 12, then find the value of p and q.",
+   "answer": "x² + 7x + 12 = 0 ⟹ x² + 4x + 3x + 12 = 0 ⟹ x(x + 4) + 3(x + 4) = 0 ⟹ (x + 4)(x + 3) = 0, so x = −4 and x = −3. Since f(x) = x⁴ + 7x³ + 7x² + px + q is exactly divisible by x² + 7x + 12, both x = −4 and x = −3 must be zeroes of f(x) and must satisfy f(x) = 0. f(−4): 256 − 448 + 112 − 4p + q = 0 ⟹ 4p − q = −80 ...(1). f(−3): 81 − 189 + 63 − 3p + q = 0 ⟹ 3p − q = −45 ...(2). Subtracting (2) from (1): p = −35. Substituting in (1): 4(−35) − q = −80 ⟹ −q = 60 ⟹ q = −60. Hence p = −35 and q = −60.",
+   "concept": "Splitting the middle term",
+   "ocr": "LaTeX array blocks rewritten to Unicode; no content changed."
+  },
+  {
+   "number": "86",
+   "form": "long",
+   "marks": 5,
+   "page": 17,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2012",
+   "stem": "If α and β are the zeroes of the polynomial p(x) = 2x² + 5x + k satisfying the relation α² + β² + αβ = 21/4, then find the value of k.",
+   "answer": "For p(x) = 2x² + 5x + k, sum of zeroes α + β = −b/a = −5/2 and product of zeroes αβ = c/a = k/2. Now α² + β² + αβ = (α² + β² + 2αβ) − αβ = (α + β)² − αβ = 21/4. Substituting, (−5/2)² − k/2 = 21/4 ⟹ k/2 = 25/4 − 21/4 = 4/4 = 1. Hence k = 2.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The printed line writes (α + b)² for (α + β)²; restored."
+  },
+  {
+   "number": "87",
+   "form": "long",
+   "marks": 5,
+   "page": 18,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD",
+   "stem": "Find the zeroes of the quadratic polynomial 7y² − (11/3)y − 2/3 and verify the relationship between the zeroes and the coefficients.",
+   "answer": "7y² − (11/3)y − 2/3 = 0 ⟹ 21y² − 11y − 2 = 0 ⟹ 21y² − 14y + 3y − 2 = 0 ⟹ 7y(3y − 2) + (3y − 2) = 0 ⟹ (3y − 2)(7y + 1) = 0. Hence the zeroes are y = 2/3 and y = −1/7. Comparing 21y² − 11y − 2 with ay² + by + c, a = 21, b = −11, c = −2. Sum of roots α + β = 2/3 + (−1/7) = 2/3 − 1/7 = 11/21 = −b/a, hence verified. Product of roots αβ = (2/3) × (−1/7) = −2/21 = c/a, hence verified.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The printed verification line reads 'Thus a + =-ab Hence verified'; restored as α + β = −b/a from the surrounding working."
+  },
+  {
+   "number": "88",
+   "form": "long",
+   "marks": 5,
+   "page": 18,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2010, 2012",
+   "stem": "If α and β are the zeroes of polynomial p(x) = 3x² + 2x + 1, find the polynomial whose zeroes are (1 − α)/(1 + α) and (1 − β)/(1 + β).",
+   "answer": "For p(x) = 3x² + 2x + 1, α + β = −2/3 and αβ = 1/3. Let α₁ and β₁ be the zeroes of the new polynomial q(x). Sum of zeroes: α₁ + β₁ = (1 − α)/(1 + α) + (1 − β)/(1 + β) = [(1 − α + β − αβ) + (1 + α − β − αβ)]/[(1 + α)(1 + β)] = (2 − 2αβ)/(1 + α + β + αβ) = (2 − 2/3)/(1 − 2/3 + 1/3) = (4/3)/(2/3) = 2. Product of zeroes: α₁β₁ = (1 − α)(1 − β)/[(1 + α)(1 + β)] = [1 − (α + β) + αβ]/[1 + (α + β) + αβ] = (1 + 2/3 + 1/3)/(1 − 2/3 + 1/3) = 2/(2/3) = 3. Hence the required polynomial is q(x) = x² − (α₁ + β₁)x + α₁β₁ = x² − 2x + 3.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The printed product-of-zeroes fractions are badly mangled by OCR (they print stray α/3 and β/4 terms); the steps were recomputed from α + β = −2/3 and αβ = 1/3 and reproduce the printed final answer x² − 2x + 3. The printed final line also shows a stray '2x' factor in q(x) = x² − (α₁ + β₁)2x + α₁β₁, corrected."
+  },
+  {
+   "number": "88P",
+   "form": "long",
+   "marks": 5,
+   "page": 18,
+   "section_heading": "FIVE MARKS QUESTIONS | PRACTICE | Board Term-1 2013",
+   "stem": "If α and β are the zeroes of the polynomial x² + 4x + 3, find the polynomial whose zeroes are 1 + β/α and 1 + α/β.",
+   "answer": "For x² + 4x + 3, α + β = −4 and αβ = 3. The new zeroes are 1 + β/α = (α + β)/α and 1 + α/β = (α + β)/β. Sum = (α + β)(1/α + 1/β) = (α + β)²/(αβ) = 16/3 and product = (α + β)²/(αβ) = 16/3. Hence the required polynomial is x² − (16/3)x + 16/3 = (1/3)(3x² − 16x + 16).",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "This is a PRACTICE box printed without its own number; numbered 88P from its position immediately after question 88. The printed key OCRs as '3(3x² − 16x + 16)'; the fraction bar of ⅓ was lost — verified by direct computation (sum = product = 16/3)."
+  },
+  {
+   "number": "89",
+   "form": "long",
+   "marks": 5,
+   "page": 18,
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "stem": "If β and 1/β are zeroes of the polynomial (a² + a)x² + 61x + 6a, find the value of β and a.",
+   "answer": "p(x) = (a² + a)x² + 61x + 6a. Product of zeroes: β × (1/β) = 6a/(a² + a) ⟹ 1 = 6/(a + 1) ⟹ a + 1 = 6 ⟹ a = 5. Sum of zeroes: β + 1/β = −61/(a² + a), i.e. (β² + 1)/β = −61/(5² + 5) = −61/30 ⟹ 30β² + 61β + 30 = 0 ⟹ β = [−61 ± √((−61)² − 4 × 30 × 30)]/(2 × 30) = (−61 ± √(3721 − 3600))/60 = (−61 ± 11)/60. Thus β = −5/6 or −6/5. Hence a = 5 and β = −5/6 or −6/5.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The solution restates the polynomial with constant 6 instead of 6a and OCRs β variously as 8, 3 and 5; restored from the question statement and the printed final answer a = 5, β = −5/6 or −6/5. The question's closing phrase prints 'the value of β and α'; the unknown throughout is a."
+  },
+  {
+   "number": "90",
+   "form": "long",
+   "marks": 5,
+   "page": 19,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2007",
+   "stem": "If α and β are the zeroes of the polynomial 2x² − 4x + 5, find the values of (i) α² + β² (ii) 1/α + 1/β (iii) (α − β)² (iv) 1/α² + 1/β² (v) α³ + β³.",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "answer": "For p(x) = 2x² − 4x + 5, α + β = −b/a = −(−4)/2 = 2 and αβ = c/a = 5/2. (i) α² + β² = (α + β)² − 2αβ = 4 − 5 = −1. (ii) 1/α + 1/β = (α + β)/(αβ) = 2 ÷ (5/2) = 4/5. (iii) (α − β)² = (α + β)² − 4αβ = 4 − 10 = −6. (iv) 1/α² + 1/β² = (α² + β²)/(αβ)² = −1 ÷ (25/4) = −4/25. (v) α³ + β³ = (α + β)³ − 3αβ(α + β) = 2³ − 3 × (5/2) × 2 = 8 − 15 = −7.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "MinerU destroyed part (v) of the printed question (it survives there only as a nest of empty \\mathrm groups) and its solution block, so part (v) was originally omitted. Parts (i)–(iv) were recomputed from α + β = 2, αβ = 5/2 and match the printed results −1, 4/5, −6 and −4/25. The text layer shows the book does print a part (v) and solves it as α³ + β³ = (α + β)³ − 3αβ(α + β) = 8 − 15 = −7, so part (v) has been restored; the printed question line for (v) repeats part (i)'s α² + β², which the printed worked solution contradicts, and the solution wins."
+  },
+  {
+   "number": "91",
+   "form": "long",
+   "marks": 5,
+   "page": 19,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2007",
+   "stem": "If α and β are zeroes of the polynomial p(x) = 6x² − 5x + k such that α − β = 1/6, find the value of k.",
+   "answer": "For p(x) = 6x² − 5x + k, α + β = −(−5/6) = 5/6 ...(1) and αβ = k/6 ...(2). Given α − β = 1/6 ...(3). Solving (1) and (3) gives α = 1/2 and β = 1/3. Substituting in (2): k/6 = (1/2) × (1/3) = 1/6. Hence k = 1.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "91P",
+   "form": "long",
+   "marks": 5,
+   "page": 19,
+   "section_heading": "FIVE MARKS QUESTIONS | PRACTICE | Board Term-1 2013",
+   "stem": "If α and β are zeroes of the polynomial f(x) = x² − x − k, such that α − β = 9, find k.",
+   "answer": "α + β = 1 and α − β = 9 give α = 5 and β = −4. Then αβ = −20 = −k, so k = 20.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "PRACTICE box printed without its own number; numbered 91P from its position immediately after question 91. The printed key is 'Ans 20'; the working shown here was reconstructed."
+  },
+  {
+   "number": "92",
+   "form": "case_study",
+   "marks": 4,
+   "page": 19,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Box : For the box to satisfy certain requirements, its length must be three unit greater than the width, and its height must be two unit less than the width. (i) If width is taken as x, find the polynomial that represent volume of box. (ii) Find the polynomial that represent the area of paper sheet used to make box. (iii) If it must have a volume of 18 unit, what must be its length and height? (iv) If box is made of a paper sheet which cost is Rs 100 per square unit, what is the cost of paper?",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv"
+   ],
+   "answer": "(i) If x represents the width, the length is x + 3 and the height is x − 2. Volume V(x) = WLH = x(x + 3)(x − 2) = x(x² + x − 6) = x³ + x² − 6x. (ii) Surface area S(x) = 2(LW + WH + HL) = 2[x(x + 3) + (x + 3)(x − 2) + x(x − 2)] = 2[x² + 3x + x² + x − 6 + x² − 2x] = 2(3x² + 2x − 6) = 6x² + 4x − 12. (iii) 18 = x³ + x² − 6x ⟹ x³ + x² − 6x − 18 = 0. There is only one change of sign, so only one positive zero; substituting x = 3 gives 27 + 9 − 18 − 18 = 0, so the width is 3 unit, length = x + 3 = 6 unit and height = x − 2 = 1 unit. (iv) S(3) = 6(3)² + 4(3) − 12 = 54 square unit, so cost C = 100 × 54 = Rs 5400.",
+   "concept": "Linear, quadratic and cubic",
+   "ocr": "The printed volume line in part (iii) drops the x from −6x (prints V(x) = x³ + x² − 6); restored from part (i)."
+  },
+  {
+   "number": "93",
+   "form": "case_study",
+   "marks": 4,
+   "page": 20,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Cubic Coating : Frozen specimens are stored in a cubic metal box that is x inches on each side. The box is surrounded by a 2 inch thick layer of foam insulation. (i) Find a polynomial function V(x) that gives the total volume in cubic inches for the box and insulation. (ii) Find the total volume if x is 10 inches. (iii) Use the remainder theorem to find the total volume when x is 10 inches.",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii"
+   ],
+   "answer": "(i) Since 2 inches of foam is added all around the box, each side is now x + 4 inches. V(x) = (x + 4)³ = (x + 4)(x² + 8x + 16) = x³ + 12x² + 48x + 64. (ii) V(10) = 10³ + 12 × 10² + 48 × 10 + 64 = 1000 + 1200 + 480 + 64 = 2744 in³. (iii) Dividing V(x) = x³ + 12x² + 48x + 64 by x − 10 gives quotient x² + 22x + 268 and remainder 2744, so V(10) = 2744 in³.",
+   "concept": "Linear, quadratic and cubic",
+   "ocr": "Part (iii)'s long-division block appears further down the page, after question 94's working; matched back to this question by its dividend x³ + 12x² + 48x + 64."
+  },
+  {
+   "number": "94",
+   "form": "case_study",
+   "marks": 4,
+   "page": 20,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Swimming Pool : The volume of water in a rectangular, in-ground, swimming pool is given by V(x) = x³ + 11x² + 24x, where V(x) is the volume in cubic feet when the water is x ft high. (i) Find the dimension of base of pool. (ii) Use the remainder theorem to find the volume when x = 3 ft. (iii) If the volume is 100 ft³ of water, what is the height x? (iv) If the maximum capacity of the pool is 520 ft³, what is the maximum depth?",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv"
+   ],
+   "answer": "(i) V(x) = x³ + 11x² + 24x = x(x² + 11x + 24) = x(x + 3)(x + 8). If x represents the height, the base dimensions are (x + 3) and (x + 8). (ii) Dividing V(x) = x³ + 11x² + 24x by x − 3 gives quotient x² + 14x + 66 and remainder 198, so V(3) = 198 ft³. (iii) 100 = x³ + 11x² + 24x ⟹ x³ + 11x² + 24x − 100 = 0. There is one change of sign, so only one positive solution; x = 2 divides it exactly (quotient x² + 13x + 50). Thus the height is 2 ft. (iv) 520 = x³ + 11x² + 24x ⟹ x³ + 11x² + 24x − 520 = 0; x = 5 divides it exactly (quotient x² + 16x + 104). Thus the maximum depth is 5 ft.",
+   "concept": "Linear, quadratic and cubic",
+   "images": [
+    "50a1814c8140d2040ad928b965824f3c6c3b5b0ce7b1242b8a5fda1fd5db262a.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "Figure attached as printed context (the swimming pool illustration); the question is fully solvable from the given function, so figure_required is false."
+  },
+  {
+   "number": "95",
+   "form": "case_study",
+   "marks": 4,
+   "page": 21,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Overflow Pan : A metalworker makes an overflow pan by cutting equal squares with sides of length x from the corners of a 30 cm by 20 cm piece of aluminium, as shown in the figure. The sides are then folded up and the corners sealed. (i) Find a polynomial function V(x) that gives the volume of the pan. (ii) Find the volume of the pan if the height is 6 cm. Use remainder theorem.",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "answer": "(i) Since x is taken off both ends of each side, the base measures (20 − 2x) by (30 − 2x). V(x) = x(20 − 2x)(30 − 2x) = x(4x² − 100x + 600) = 4x³ − 100x² + 600x. (ii) Dividing V(x) = 4x³ − 100x² + 600x by x − 6 gives quotient 4x² − 76x + 144 and remainder 864. Hence the volume is 864 cm³ at x = 6 cm.",
+   "concept": "Linear, quadratic and cubic",
+   "images": [
+    "98c9da3c5cf7c6f51f128828c7595ad123f216e72a734baf471d764c73120ba4.jpg"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "96",
+   "form": "case_study",
+   "marks": 4,
+   "page": 21,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Square Pan : Suppose that the pan in the previous question is formed from a square piece of aluminium that is 30 cm on each side. (i) Find a polynomial function V(x) that gives the volume in cubic cm. (ii) The cost is Rs 5 per square cm of aluminium used in the finished pan. Find a polynomial function C(x) that gives the cost.",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "answer": "(i) Since x is taken off both ends of each side of the square, the base measures (30 − 2x) by (30 − 2x). V(x) = x(30 − 2x)(30 − 2x) = x(4x² − 120x + 900) = 4x³ − 120x² + 900x. (ii) The area of the bottom of the pan is (30 − 2x)(30 − 2x) = 4x² − 120x + 900 and the area of the 4 sides is 4(x)(30 − 2x) = 120x − 8x². Total area = −4x² + 900 square cm. Multiplying by Rs 5 per square cm, C(x) = −20x² + 4500, which gives the cost in rupees.",
+   "concept": "Linear, quadratic and cubic",
+   "ocr": "The printed text says 'the pan in previous example'; rendered as 'the previous question' since the reference is to question 95."
+  },
+  {
+   "number": "97",
+   "form": "case_study",
+   "marks": 4,
+   "page": 22,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Volume of a Bird Cage : A company makes rectangular shaped bird cages with height b inches and square bottoms. The volume of these cages is given by the function V = b³ − 6b² + 9b. (i) Find an expression for the length of each side of the square bottom. (ii) Use the function to find the volume of a cage with a height of 18 inches. (iii) Use the remainder theorem to find the volume of a cage with a height of 15 inches. (iv) Verify the result of (iii) using the function.",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv"
+   ],
+   "answer": "(i) V = b³ − 6b² + 9b = b(b² − 6b + 9) = b(b − 3)(b − 3). If b is the height, then (b − 3) is the length of each side of the square bottom. (ii) V(18) = 18(18 − 3)(18 − 3) = 18 × 15 × 15 = 4050 in³. (iii) Dividing b³ − 6b² + 9b by b − 15 gives quotient b² + 9b + 144 and remainder 2160, so V(15) = 2160 in³. (iv) V(15) = 15(15 − 3)(15 − 3) = 15 × 12 × 12 = 2160 in³, which verifies the result of (iii).",
+   "concept": "Splitting the middle term",
+   "images": [
+    "b6b0b0baae80c28f7adf75b4b4c734dd357aac601c39c12e9ef0b97e3757affc.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The printed answers write the volume units as in²; corrected to in³. Figure attached as printed context only."
+  },
+  {
+   "number": "98",
+   "form": "case_study",
+   "marks": 4,
+   "page": 22,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Propylene Storage Tank : R K Agrawal is designing a propylene tank in the shape of a cylinder with hemispherical ends. If the length of the cylinder is to be 20 unit larger than its radius and the volume is to be 3321π cubic unit, then what is the radius?",
+   "answer": "Let x be the radius of the cylindrical part and of the hemispheres, since both are common. The volume of a hemisphere of radius x is (1/2)(4/3)πx³ and the volume of the cylinder of radius x and height x + 20 is πx²(x + 20). The tank consists of 2 hemispheres and one cylinder with total volume 3321π, so (4/3)πx³ + πx²(x + 20) = 3321π ⟹ 4x³ + 3x²(x + 20) = 9963 ⟹ 7x³ + 60x² − 9963 = 0. There is only one change of sign, so only one positive zero; by trial x = 9 divides it exactly (quotient 7x² + 123x + 1107). The radius is 9 unit.",
+   "concept": "What a zero is",
+   "images": [
+    "6aad9a65a999cd535372400b052df7281cf1852b4cb10d20f2ecf0aedc6c83e1.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The printed question number was lost by OCR; inferred as 98 from its position between questions 97 and 99. Figure attached as printed context only."
+  },
+  {
+   "number": "99",
+   "form": "case_study",
+   "marks": 4,
+   "page": 23,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Cereal Box : An independent marketing research agency has determined that the best box for breakfast cereal has a height that is 6 inches larger than its thickness and a width that is 5 inches larger than its thickness. (i) If we let the thickness be x inches, find a polynomial function V(x) that gives the total volume. (ii) If such a box is to have a volume of 112 inches³, then what should the thickness be?",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "answer": "(i) If the thickness is x inches, the height is x + 6 inches and the width is x + 5 inches. V(x) = x(x + 6)(x + 5) = x(x² + 11x + 30) = x³ + 11x² + 30x. (ii) 112 = x³ + 11x² + 30x ⟹ x³ + 11x² + 30x − 112 = 0. There is only one change of sign, so only one positive zero; x = 2 divides it exactly (quotient x² + 13x + 56). Thus the thickness should be 2 inch.",
+   "concept": "Linear, quadratic and cubic",
+   "images": [
+    "0ca2ef2439bbe779707aff9287c4c9dd7a1496c142029c8806e36253030fa7c2.jpg"
+   ],
+   "figure_required": false
+  },
+  {
+   "number": "100",
+   "form": "case_study",
+   "marks": 4,
+   "page": 23,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "A bulk dog food storage bin with dimensions 2 feet by 3 feet by 4 feet needs to be increased in size to hold five times as much food as the current bin. Assume each dimension is increased by the same amount. (i) Let x be the amount by which dimension is increased. Write a function that represents the volume of the new bin. (ii) Find the dimensions of the new bin.",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "answer": "(i) If every dimension is increased by x, the new dimensions are x + 2, x + 3 and x + 4, so V(x) = (x + 2)(x + 3)(x + 4) = (x + 2)(x² + 7x + 12) = x³ + 9x² + 26x + 24. (ii) Original volume V = 2 × 3 × 4 = 24. The new volume must be 5 times this, so 24 × 5 = x³ + 9x² + 26x + 24 ⟹ x³ + 9x² + 26x − 96 = 0. There is only one change of sign, so only one positive solution; x = 2 divides it exactly (quotient x² + 11x + 48). Thus each dimension is increased by 2 feet and the new bin measures 4 feet, 5 feet and 6 feet.",
+   "concept": "Linear, quadratic and cubic",
+   "images": [
+    "2394eebb05bb7e8f7d4e7c793cf41c8ecf0cad2257990f8d6aa8474b79706a1a.jpg"
+   ],
+   "figure_required": false
+  },
+  {
+   "number": "101",
+   "form": "case_study",
+   "marks": 4,
+   "page": 24,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "The discharge rate of a river is a measure of the river's water flow as it empties into a lake, sea, or ocean. The rate depends on many factors, but is primarily influenced by the precipitation in the surrounding area and is often seasonal. Suppose the discharge rate of the Brahmaputra River was modelled by D(m) = −m⁴ + 22m³ − 147m² + 317m + 150, where D(m) represents the discharge rate in thousands of cubic meters of water per second in month m (m = 1 Jan, m = 2 Feb, ...). (i) What was the discharge rate in June (summer heat)? (ii) Is the discharge rate higher in June or October?",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "answer": "(i) To find the discharge rate in June we find D(6) by the remainder theorem, dividing −m⁴ + 22m³ − 147m² + 317m + 150 by m − 6. The quotient is −m³ + 16m² − 51m + 11 and the remainder is 216, so D(6) = 216 thousand cubic metres per second. (ii) Dividing the same polynomial by m − 10 gives quotient −m³ + 12m² − 27m + 47 and remainder 620, so D(10) = 620 thousand cubic metres per second. The discharge rate during the fall rains in October is much higher than in June.",
+   "concept": "Degree of a polynomial",
+   "images": [
+    "54332ab30785be38f66a0dbcb9776ca8899af68f70fed88e53f0c37ba764858e.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The printed text spells the river 'Brhamputra'; corrected to Brahmaputra. The second long division prints the dividend coefficient as −1447m²; restored to −147m² from the model."
+  },
+  {
+   "number": "102",
+   "form": "case_study",
+   "marks": 4,
+   "page": 25,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Cost of Production : The cost to produce bottled spring water is given by C(x) = 16x − 63, where x is the number of thousands of bottles. The total income (revenue) from the sale of these bottles is given by the function R(x) = −x² + 326x − 7463. (i) Since Profit = Revenue − Cost, find the profit function. (ii) How many bottles sold will produce the maximum profit? (iii) What is the maximum profit? (iv) Find the profit when 245 thousand bottles are sold. Use remainder theorem.",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv"
+   ],
+   "answer": "(i) P(x) = R(x) − C(x) = (−x² + 326x − 7463) − (16x − 63) = −x² + 310x − 7400. (ii) Completing the square, P(x) = −(x² − 310x + 155²) + 155² − 7400 = −(x − 155)² + 16625, so P(x) is maximum at x = 155; for maximum profit 155 thousand bottles must be sold. (iii) The maximum profit is Rs 16625. (iv) Dividing P(x) = −x² + 310x − 7400 by x − 245 gives quotient −x + 65 and remainder 8525, so when 245 thousand bottles are sold the profit is Rs 8525.",
+   "concept": "General form of a quadratic",
+   "images": [
+    "3a3acdd0d62d3b9f1fc11e308a5cb6da2dcc5578e62c8ebd6d769f9fd03a3181.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The printed working drops the bracket on the cost term ('= −x² + 326x − 7463 − 16x − 63'); the printed result −x² + 310x − 7400 confirms that (16x − 63) was subtracted as a whole. The printed sentence 'this minimum value is 16625' should read maximum."
+  },
+  {
+   "number": "103",
+   "form": "case_study",
+   "marks": 4,
+   "page": 25,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Selection of Bridesmaids : A bride-to-be has many girlfriends, but she has decided to have only five bridesmaids, including the maid of honour. The number of different ways n girlfriends can be chosen and assigned a position, such as maid of honour, first bridesmaid, second bridesmaid, and so on, is given by the polynomial function S(n) = n⁵ − 10n⁴ + 35n³ − 50n² + 8n. (i) Use the Remainder Theorem to determine the number of ways the bride can select her bridesmaids if she chooses from n = 5 girlfriends. (ii) Evaluate S(n) for n = 5 by substituting 5 for n. How does this result compare with the result obtained in (i)?",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "answer": "(i) Dividing S(n) = n⁵ − 10n⁴ + 35n³ − 50n² + 8n by n − 5 gives quotient n⁴ − 5n³ + 10n² + 8 and remainder 40, so S(5) = 40. The bride can select her bridesmaids in 40 ways. (ii) S(5) = 5⁵ − 10 × 5⁴ + 35 × 5³ − 50 × 5² + 8 × 5 = 3125 − 6250 + 4375 − 1250 + 40 = 40, the same result as obtained in (i) by the Remainder Theorem.",
+   "concept": "Degree of a polynomial",
+   "images": [
+    "8371035830e0da2e494c861d3a83c7788d1818d171cb562318a75b974c9db0a2.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The polynomial itself was dropped from the printed question block (only 'is given by the polynomial function' survived before the figure); restored as S(n) = n⁵ − 10n⁴ + 35n³ − 50n² + 8n from the worked solution, which uses it twice and yields the printed answer 40."
+  },
+  {
+   "number": "104",
+   "form": "case_study",
+   "marks": 4,
+   "page": 26,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Display of Soda Cans : The number of soda cans S needed to build a square pyramid display with n levels is given by the function L(n) = (1/3)n³ + (1/2)n² + (1/6)n. Use the Remainder Theorem to determine the number of soda cans needed to build a square pyramid display with n = 6 levels.",
+   "answer": "To find L(6) using the remainder theorem we divide L(n) = (1/3)n³ + (1/2)n² + (1/6)n by n − 6. The quotient is (1/3)n² + (5/2)n + 91/6 and the remainder is 91. Hence L(6) = 91, so 91 soda cans are needed.",
+   "concept": "Linear, quadratic and cubic",
+   "images": [
+    "00a00f415b49bfc29b0fa1199049556c8396cec90ae29e3c93c55c0b8f3cafa0.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The long-division block is heavily mangled (mixed numbers printed as stacked fractions); the quotient terms 2½n = 5/2 n and 15⅙ = 91/6 were restored, and the printed remainder 91 is retained."
+  },
+  {
+   "number": "105",
+   "form": "case_study",
+   "marks": 4,
+   "page": 26,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Volume of Solid : A cuboidal solid of base x by x + 1 is shown in the figure. Height of original solid is x + 2. A small cuboidal solid of base x − 2 by x − 2 and height 2 is cut from this solid as shown in the figure. (i) Find the polynomial for the volume of remaining solid. (ii) Use the remainder theorem to determine the volume of remaining solid at x = 8 inch. (iii) Use the polynomial to determine the volume at x = 8 inch and verify the result in (ii). (iv) Use the remainder theorem to determine the volume at x = 10 inch.",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv"
+   ],
+   "answer": "(i) Volume of the original solid Vo(x) = x(x + 1)(x + 2) = x(x² + 3x + 2) = x³ + 3x² + 2x. Volume of the solid cut away Vs(x) = 2(x − 2)(x − 2) = 2(x² − 4x + 4) = 2x² − 8x + 8. Volume of the remaining solid V(x) = Vo(x) − Vs(x) = x³ + 3x² + 2x − 2x² + 8x − 8 = x³ + x² + 10x − 8. (ii) Dividing V(x) = x³ + x² + 10x − 8 by x − 8 gives quotient x² + 9x + 82 and remainder 648, so V(8) = 648 cubic inch. (iii) V(8) = 8³ + 8² + 10 × 8 − 8 = 512 + 64 + 80 − 8 = 648 cubic inch, which verifies (ii). (iv) Dividing V(x) by x − 10 gives quotient x² + 11x + 120 and remainder 1192, so V(10) = 1192 cubic inch.",
+   "concept": "Linear, quadratic and cubic",
+   "images": [
+    "bd752ed62cab61aad0028f2955844c370bb5b55df23517a05a775fcc36f47313.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "The printed conclusion of part (iv) reads 'V(8) = 1192'; corrected to V(10) = 1192 from the division being by x − 10."
+  },
+  {
+   "number": "106",
+   "form": "case_study",
+   "marks": 4,
+   "page": 27,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "The Prime Minister's Citizen Assistance and Relief in Emergency Situations Fund was created on 28 March 2020, following the COVID-19 pandemic in India. The fund will be used for combating, and containment and relief efforts against the coronavirus outbreak and similar pandemic like situations in the future. The allotment officer is trying to come up with a method to calculate fair division of funds across various affected families so that the fund amount and amount received per family can be easily adjusted based on daily revised numbers. The total fund allotted for a village is x³ + 6x² + 20x + 9. The officer has divided the fund equally among families of the village and each family receives an amount of x² + 2x + 2. After distribution, some amount is left. (i) How many families are there in the village? (ii) If an amount of Rs 1911 is left after distribution, what is value of x? (iii) How much amount does each family receive? (iv) What is the amount of fund allocated? (v) How many families are there in the village?",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "answer": "(i) Dividing x³ + 6x² + 20x + 9 by x² + 2x + 2 gives quotient x + 4 and remainder 10x + 1. The number of families is (x + 4). (ii) Amount left = 10x + 1 = 1911 ⟹ x = 1910/10 = 191. (iii) Since x = 191, the amount received by each family is x² + 2x + 2 = 191² + 2(191) + 2 = 36865. (iv) Since x = 191, the allotted fund is x³ + 6x² + 20x + 9 = (x² + 2x + 2)(x + 4) + 10x + 1 = 36865(191 + 4) + 1911 = 71,90,586. (v) Number of families = x + 4 = 191 + 4 = 195.",
+   "concept": "Linear, quadratic and cubic",
+   "images": [
+    "e6b68f619e447a1c98ca52abc4d99522f67b3e6ad29d72178a2e172d93b8c2e4.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "Printed parts (i) and (v) ask the same question; kept as printed, with (i) answered as the polynomial (x + 4) and (v) numerically as 195. The rupee symbol in part (ii) OCRs as '¥1911 s eft'; restored to 'Rs 1911 is left'. The printed total for part (iv) reads 69,72,846, which is arithmetically wrong: both 36865 × 195 + 1911 and 191³ + 6(191)² + 20(191) + 9 give 71,90,586; corrected."
+  },
+  {
+   "number": "107",
+   "form": "case_study",
+   "marks": 4,
+   "page": 27,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Pyramid, in architecture, a monumental structure constructed of or faced with stone or brick and having a rectangular base and four sloping triangular sides meeting at an apex. Pyramids have been built at various times in Egypt, Sudan, Ethiopia, western Asia, Greece, Cyprus, Italy, India, Thailand, Mexico, South America, and on some islands of the Pacific Ocean. Those of Egypt and of Central and South America are the best known. The volume and surface area of a pyramid with a square base of area a² and height h is given by V = ha²/3 and S = a² + 2a√((a/2)² + h²). A pyramid has a square base and a volume of 3y³ + 18y² + 27y cubic units. (i) If its height is y, then what polynomial represents the length of a side of the square base? (ii) If area of base is 576 metre², what is the side of base? (iii) What is the height of pyramid at above area of base? (iv) What is the ratio of length of side to the height? (v) What is surface area of pyramid?",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "answer": "V(y) = 3y³ + 18y² + 27y = 3y(y² + 6y + 9) = 3y(y + 3)². (i) If y is the height, comparing with the standard volume ya²/3 = 3y(y + 3)² gives a² = 9(y + 3)², so a = 3(y + 3). (ii) a² = 576 ⟹ a = 24 unit. (iii) 24 = 3(y + 3) ⟹ 8 = y + 3 ⟹ y = 5 metre. (iv) a/y = 24/5. (v) S = a² + 2a√((a/2)² + h²) = 24² + 2 × 24√(12² + 5²) = 2 × 24(12 + 13) = 48 × 25 = 1200 m².",
+   "concept": "Splitting the middle term",
+   "images": [
+    "cb030b044bd9fc86d7b1d970f57db92e84c13469ec8420320634b691b9e69d7e.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The printed question number was lost by OCR; inferred as 107 from its position between questions 106 and 108. The first line of the solution OCRs as 'i₁ a²/3'; restored to y·a²/3."
+  },
+  {
+   "number": "108",
+   "form": "case_study",
+   "marks": 4,
+   "page": 28,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "SBL Fabricators has got an order for making a frame for machine of their client. For which, they are using AutoCAD software to create a constructible model that includes the relevant information such as dimensions of the frame and materials needed. The frame will have a solid base and will be cut out of a piece of steel. The final area of the frame should be 54 sq m. The diagram of frame is shown below. In order to input the right values in the AutoCAD software, the engineer needs to calculate some basic values. (i) What are the dimensions of the outer frame? (ii) A metal sheet of minimum area is used to make the frame. What should be the minimum area of metal sheet before cutting? (iii) What is the area of required final metal frame? (iv) If the area of the frame is 54 sq m, what is the value of x? (v) What is the perimeter of the frame?",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "answer": "(i) Length = (10 + x + x) = (10 + 2x) and breadth = (5 + x + x) = (5 + 2x). (ii) Area of the steel plate A = lb = (10 + 2x)(5 + 2x) = 50 + 10x + 20x + 4x² = 4x² + 30x + 50. (iii) Area of frame to be cut = 10 × 5 = 50 m², so area of frame left = 4x² + 30x + 50 − 50 = 4x² + 30x m². (iv) 4x² + 30x = 54 ⟹ 2x² + 15x − 27 = 0 ⟹ 2x² + 18x − 3x − 27 = 0 ⟹ (x + 9)(2x − 3) = 0 ⟹ x = 1.5 or x = −9; taking the positive value, x = 1.5 m. (v) Perimeter = perimeter of the outside rectangle = 2(10 + 2x + 5 + 2x) = 2(15 + 4x) = 2(15 + 4 × 1.5) = 42 m.",
+   "concept": "Splitting the middle term",
+   "images": [
+    "4e517643d4b10cbf8a472cbb00157697789345395191b41494787c4a3cc2f1d0.jpg",
+    "b26d080b3aafd4baf98c3ac206afac2114c8d211732f95772ada7ebda3fcfa39.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "The printed word 'digram' corrected to 'diagram'. Part (ii)'s working OCRs the breadth as 'b = ^5 + 2xh'; restored to (5 + 2x)."
+  },
+  {
+   "number": "109",
+   "form": "case_study",
+   "marks": 4,
+   "page": 29,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "A barrels manufacturer can produce up to 300 barrels per day. The profit made from the sale of these barrels can be modelled by the function P(x) = −10x² + 3500x − 66000, where P(x) is the profit in rupees and x is the number of barrels made and sold. Based on this model answer the following questions: (i) When no barrels are produced what is the profit/loss? (ii) What is the break even point? (Zero profit point is called break even) (iii) What is the profit/loss if 175 barrels are produced? (iv) What is the profit/loss if 400 barrels are produced? (v) What is the maximum profit which the manufacturer can earn?",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "answer": "(i) When no barrels are produced, x = 0, so P(0) = −66000, i.e. a loss of Rs 66000. (ii) At the break even point P(x) = 0, so x² − 350x + 6600 = 0 ⟹ x² − 330x − 20x + 6600 = 0 ⟹ x(x − 330) − 20(x − 330) = 0 ⟹ (x − 330)(x − 20) = 0, giving x = 20 or x = 330. (iii) P(175) = −10(175)² + 3500(175) − 66000 = 240250, a profit of Rs 240250. (iv) P(400) = −10(400)² + 3500(400) − 66000 = −266000, a loss of Rs 266000. (v) P(x) = −10(x² − 350x + 6600) = −10[(x − 175)² − 30625 + 6600] = −10(x − 175)² + 240250, so the maximum profit is Rs 240250.",
+   "concept": "General form of a quadratic",
+   "images": [
+    "b9d49828fe6ed5fd373c5b5d5ba2b9b13e4a0b4ddaf1a23b20db32980bbb674f.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The break-even working prints 'x² + 350x + 6600 = 0' and 'x(x − 330) − 20(x + 330) = 0'; both signs restored from the factorisation (x − 330)(x − 20) = 0 printed on the next line. The printed line for part (iii) also omits its '(iii)' label."
+  },
+  {
+   "number": "110",
+   "form": "case_study",
+   "marks": 4,
+   "page": 29,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Lavanya throws a ball upwards, from a rooftop, which is 20 m above from ground. It will reach a maximum height and then fall back to the ground. The height of the ball from the ground at time t is h, which is given by h = −4t² + 16t + 20. (i) What is the height reached by the ball after 1 second? (ii) What is the maximum height reached by the ball? (iii) How long will the ball take to hit the ground? (iv) What are the two possible times to reach the ball at the same height of 32 m? (v) Where is the ball after 5 seconds?",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "answer": "(i) At t = 1 second, h = −4(1)² + 16(1) + 20 = 32 m. (ii) Completing the square, h = −4(t² − 4t − 5) = −4[(t − 2)² − 9] = −4(t − 2)² + 36, so the height is maximum at t = 2 and h(max) = 36 m. (iii) When the ball hits the ground h = 0, so −4t² + 16t + 20 = 0 ⟹ t² − 4t − 5 = 0 ⟹ (t − 5)(t + 1) = 0, giving t = 5 or t = −1. Time cannot be negative, so t = 5 seconds. (iv) 32 = −4t² + 16t + 20 ⟹ t² − 4t + 3 = 0 ⟹ t² − 3t − t + 3 = 0 ⟹ (t − 1)(t − 3) = 0, so t = 1 s and t = 3 s. (v) From (iii), at t = 5 we have h = 0, so the ball hits the ground at 5 seconds and after that it rebounds.",
+   "concept": "What a zero is",
+   "images": [
+    "dcd2090f6a0dd8a9eb9f86076837821415aa6b415bcfa20179db5f46be5e8079.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The working for part (iv) prints 16t² in place of 16t; corrected from the model h = −4t² + 16t + 20 (the printed roots t = 1, 3 confirm the correction)."
+  },
+  {
+   "number": "111",
+   "form": "case_study",
+   "marks": 4,
+   "page": 30,
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "stem": "Underground water tank is very popular in India. It is usually used for large water tank storage and can be built cheaply using cement-like materials. Underground water tanks are typically chosen by people who want to save space. The water in the underground water tank is not affected by extreme weather conditions. The underground water tank maintains cool temperatures in both winter and summer. A builder wants to build a tank to store water in an apartment. The volume of the rectangular tank will be modelled by V(x) = x³ + x² − 4x − 4. (i) He planned in such a way that its base dimensions are (x + 1) and (x + 2). How much he has to dig? (ii) If x = 4 metre, what is the volume of the water tank? (iii) If x = 4 and the builder wants to paint the entire inner portion on the water tank, what is the total area to be painted? (iv) If the cost of paint is Rs 25 per square metre, what is the cost of painting? (v) What is the storage capacity of this water tank?",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "answer": "(i) V(x) = x³ + x² − 4x − 4 = x²(x + 1) − 4(x + 1) = (x + 1)(x² − 4) = (x + 1)(x − 2)(x + 2). If (x + 1) and (x + 2) are two dimensions, the third is (x − 2), so he has to dig (x − 2). (ii) V(4) = (4 + 1)(4 − 2)(4 + 2) = 5 × 2 × 6 = 60 m³. (iii) The three dimensions are x + 1 = 5, x + 2 = 6 and x − 2 = 2, so S = 2(5 × 2 + 2 × 6 + 6 × 5) = 2(10 + 12 + 30) = 2(52) = 104 m². (iv) Cost C = 104 × 25 = Rs 2600. (v) 1 m³ can store 1000 litre, so 60 m³ can store 60000 litre.",
+   "concept": "Linear, quadratic and cubic",
+   "images": [
+    "46acd3db86e732976875e17deeaea7c25dda310da6f3c1c1e690281467796b5f.jpg"
+   ],
+   "figure_required": false
+  }
+ ],
+ "qualified_numbers": 0
+}

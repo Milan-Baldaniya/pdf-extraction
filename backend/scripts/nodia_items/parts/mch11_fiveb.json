@@ -1,0 +1,183 @@
+{
+ "items": [
+  {
+   "number": "79",
+   "form": "case_study",
+   "marks": 4,
+   "page": 23,
+   "stem": "Swimming Pool : A swimming pool or simply pool is a structure designed to hold water to enable swimming or other leisure activities. Pools can be built into the ground (in-ground pools) or built above ground. In-ground pools are most commonly constructed from materials such as concrete, natural stone, metal, plastic, or fiberglass, and can be of a custom size and shape or built to a standardized size, the largest of which is the Olympic-size swimming pool.\nThe area of a circular pool is 616 square metre. The owner wants to replace the tiling at the edge of the pool.\n(i) The edging is 25 cm wide, so she plans to use 6-inch square tiles to form a continuous inner edge. How many tiles will she need to purchase?\n(ii) Once the square tiles are in place around the pool, there will be extra space between the tiles. What shape of tile will best fill this space? How many tiles of this shape should she purchase?",
+   "answer": "(i) Let r be the radius of the pool. From A = πr², 616 = (22/7)r², so r² = 616 × 7 ÷ 22 = 196 and r = 14 m.\nThe circumference of the pool is C = 2πr = 2 × (22/7) × 14 = 88 m.\nEach tile is 25 cm wide, so 4 tiles fit in one metre, and the inner edge takes 88 × 4 = 352 square tiles.\n(ii) The square tiles touch one another along the inner edge of the border, so a wedge-shaped gap is left between every neighbouring pair along the outer edge. Triangular tiles fill those gaps best, and there is one gap for each square tile, so 352 triangular tiles are needed.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "ocr": "The printed solution writes C = 2 × (22/7) × 14 = 176 m and then 176 × 4 = 704 tiles, but its own expression 2 × (22/7) × 14 evaluates to 88, not 176. Following the worked expression, the circumference is 88 m and the counts are 352 square tiles and 352 triangular tiles. Counted as a contradicted key. Also note the book mixes '6-inch square tiles' with a 25 cm tile width; the 25 cm figure is the one it computes with."
+  },
+  {
+   "number": "80",
+   "form": "case_study",
+   "marks": 4,
+   "page": 23,
+   "stem": "Bakery : A bakery is an establishment that produces and sells flour-based food baked in an oven such as bread, cookies, cakes, pastries, and pies. Some retail bakeries are also categorized as cafés, serving coffee and tea to customers who wish to consume the baked goods on the premises.\nTania runs a bakery shop and her bakery is very famous for tasty cake. She sells single-layer mini-cakes that are 3 inches in diameter for Rs 80 each. They also have a 9 inch cake for Rs 645. If both cakes are the same thickness, which option gives you more cake for the money, nine mini-cakes or one 9-inch cake? Explain.",
+   "answer": "Total area of nine 3-inch mini-cakes = 9 × π × 3² = 81π.\nArea of one 9-inch cake = π × 9² = 81π.\nSo nine mini-cakes together carry exactly the same amount of cake as one 9-inch cake.\nAlternatively, the scale factor from a mini-cake to the large cake is 9/3 = 3, so the ratio of their areas is 3² = 9, and nine mini-cakes match one large cake.\nNine mini-cakes cost 9 × 80 = Rs 720 while the 9-inch cake costs only Rs 645, so the 9-inch cake gives more cake for the money.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "ocr": "The book compares 9 × π(3)² with π(9)², i.e. it treats the quoted inch figures as radii in both cases; the comparison and the conclusion are unaffected because only the ratio matters."
+  },
+  {
+   "number": "81",
+   "form": "case_study",
+   "marks": 4,
+   "page": 24,
+   "stem": "FURNITURE : Varsha dining room table has hardwood around the outside. The outer dimension of table is 135 cm by 90 cm. Find the area of wood around the edge of the table. The table has wooden edge of 7 cm around it.",
+   "answer": "The wooden edge separates into four rectangles and four corner pieces; the four corners together form one full circle of radius equal to the edge width, 7 cm.\nA = 2l₁w + 2l₂w + 4 × ¼πw²\n= 2 × (90 − 14) × 7 + 2 × (135 − 14) × 7 + (22/7) × 7²\n= 2 × 7 × (76 + 121 + 11) = 14 × 208 = 2912 cm².\nThe area of wood around the edge of the table is 2912 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "82",
+   "form": "case_study",
+   "marks": 4,
+   "page": 24,
+   "stem": "Motion Detector : A motion sensor (or motion detector) is an electronic device that is designed to detect and measure movement. Motion sensors are used primarily in home and business security systems, but they can also be found in phones, paper towel dispensers, game consoles, and virtual reality systems.\nA motion detector can detect movement up to 24 m away through an angle of θ = 70°.\n(i) What area can the motion detector monitor?\n(ii) What angle is required to monitor 50% more area?\n(iii) For θ = 91° what range is required for the detector to monitor 30% more area?",
+   "answer": "(i) With r₁ = 24 m and θ₁ = 70°, the monitored region is a sector, so\nA₁ = πr₁² × θ₁/360° = (22/7) × 24² × 70°/360° = 22 × 24 × 24 × (1/36) = 352 m².\n(ii) The radius stays 24 m, so the area is proportional to the angle. A₂ = 1.5A₁ gives θ₂ = 1.5θ₁ = 1.5 × 70° = 105°.\n(iii) With A₃ = 1.3A₁ and θ = 91°, r₃² × 91° = 1.3 × 24² × 70°. Since 1.3 × 70° = 91°, r₃² = 24² and r₃ = 24 m, i.e. the same range of 24 m.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "83",
+   "form": "case_study",
+   "marks": 4,
+   "page": 25,
+   "stem": "Gear : Gears are mechanical parts with cut teeth designed to fit with teeth on another part so as to transmit or receive force and motion. Gears are also sometimes called toothed wheels or cogged wheels or cogs. The cut teeth are also sometimes called cogs.\nIn following figure AB = 21 cm. Find the perimeter of combined circles.",
+   "answer": "The perimeter of the given figure is the sum of the circumferences of the three circles, and the three diameters lie end to end along AB, so d₁ + d₂ + d₃ = AB = 21 cm.\nP = πd₁ + πd₂ + πd₃ = π(d₁ + d₂ + d₃) = (22/7) × 21 = 22 × 3 = 66 cm.\nThe perimeter of the combined circles is 66 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch11_q83.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "84",
+   "form": "case_study",
+   "marks": 4,
+   "page": 25,
+   "stem": "Laying New Sod : Sod, also known as turf, is grass. When harvested into rolls it is held together by its roots and a thin layer of soil. Sod is typically used for lawns, golf courses, and sports stadiums around the world.\nWhen new sod is laid, a heavy roller is used to press the sod down to ensure good contact with the ground beneath. The radius of the roller is 28 cm.\n(i) Through what angle has the roller turned after being pulled across 11 meter of yard?\n(ii) If it is turned through by 3 revolution and 45°, find the length, that the roller will press.",
+   "answer": "(i) The length pressed is the arc rolled out, P = 2πr × θ/360°. With P = 11 m = 1100 cm and r = 28 cm,\n1100 = 2 × (22/7) × 28 × θ/360°, so 100 = 4 × θ/90° and θ = 100 × 900/4 = 2250°.\nSince 2250° = 360° × 6 + 90°, the roller has turned 6 complete revolutions and a further 90°.\n(ii) Three revolutions and 45° is θ = 3 × 360° + 45° = 1125°, so\nP = 2 × (22/7) × 28 × 1125°/360° = 176 × (25/8) = 550 cm = 5.5 m.\nThe roller will press a length of 5.5 m.",
+   "concept": "Length of an arc",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "85",
+   "form": "case_study",
+   "marks": 4,
+   "page": 26,
+   "stem": "Windshield Wiper : Windshield wipers are a small part of your car, but they have a big impact on your driving and overall safety. They remove rain, snow, dirt, pollen, frost and other debris quickly and smoothly at the push of a button. The windshield wiper motor moves the windshield wiper arms across the windshield. The metal or hard plastic arms drag a thin rubber (or silicone) blade across the windshield to clear away water, giving you a better view of the road.\nThe armature for the rear windshield wiper has a length of 63 cm, with a rubber wiper blade that is 42 cm long. What area of my rear windshield is cleaned as the armature swings back-and-forth through an angle of 110°?",
+   "answer": "The cleaned region is the part of the 110° sector of radius 63 cm that lies outside the 110° sector of radius 42 cm — the blade covers the outer 42 cm of the 63 cm armature.\nA_clean = π × (110°/360°) × (63² − 42²) = (22/7) × (11/36) × (3969 − 1764)\n= (22/7) × (11/36) × 2205 = (22 × 11 × 35)/4 = 2117.5 cm².\nThe area of the rear windshield that is cleaned is 2117.5 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "86",
+   "form": "case_study",
+   "marks": 4,
+   "page": 26,
+   "stem": "Electric Hoist : It is an electrically powered appliance that is used to lift, lower and even move heavy or awkward objects. They are mainly used to alleviate potential strain and injury on any person who needs to lift a heavy object or where the object is just much too heavy for a human to lift unaided.\nAn electric hoist is being used to lift a beam (see figure). The diameter of the drum on the hoist is 42 cm, and the beam must be raised 22 cm. Find the number of degrees through which the drum must rotate.",
+   "answer": "The beam rises by the length of cable wound on the drum, which is the arc turned through.\nh = 2πr × θ/360° with r = 42/2 = 21 cm and h = 22 cm.\n22 = 2 × (22/7) × 21 × θ/360° = 132 × θ/360°, so 1 = θ/60°.\nThe drum must rotate through θ = 60°.",
+   "concept": "Length of an arc",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "87",
+   "form": "case_study",
+   "marks": 4,
+   "page": 26,
+   "stem": "Voltmeter : A voltmeter is an instrument used for measuring electric potential difference between two points in an electric circuit. When current carrying conductor placed in a magnetic field, a mechanical force acts on the conductor, if it is attached to a moving system, with the coil movement, the pointer moves over the scale.\nThe pointer on a voltmeter is 7 centimeters in length (see figure). Find the angle through which the pointer rotates when it moves 5.5 centimeters on the scale.",
+   "answer": "The tip of the pointer traces an arc of radius 7 cm, so 5.5 = 2πr × θ/360°.\n5.5 = 2 × (22/7) × 7 × θ/360°, so 11 = 4 × 22 × θ/360° and 1 = 2 × θ/90°.\nThe pointer rotates through θ = 90°/2 = 45°.",
+   "concept": "Length of an arc",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "88",
+   "form": "case_study",
+   "marks": 4,
+   "page": 27,
+   "stem": "Cable Winch: It is a device for hauling or lifting; made up of a rope, cable or chain wound around a horizontal rotating drum and turned by a crank or motor and typically mounted at the rear of a towing vehicle.\nA large winch with a radius of 30 cm winds in 99 cm of cable.\n(i) Through what angle has it turned?\n(ii) If it is turned through an angle of 126°, find the length, that the winch will wind.",
+   "answer": "(i) The cable wound in is the arc turned through, 99 = 2πr × θ₁/360° with r = 30 cm.\n99 = 2 × (22/7) × 30 × θ₁/360°, which reduces to 9 = (1/7) × θ₁/3, so θ₁ = 9 × 7 × 3 = 189°.\n(ii) For θ₂ = 126°, l = 2πr × θ₂/360° = 2 × (22/7) × 30 × 126°/360° = 2 × 22 × (3/2) = 66 cm.\nThe winch turns through 189° and winds 66 cm of cable in the second case.",
+   "concept": "Length of an arc",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "89",
+   "form": "case_study",
+   "marks": 4,
+   "page": 27,
+   "stem": "Sprinkler : An irrigation sprinkler (also known as a water sprinkler or simply a sprinkler) is a device used to irrigate agricultural crops, lawns, landscapes, golf courses, and other areas. Irrigation sprinklers can be used for residential, industrial, and agricultural usage. It is useful on uneven land where sufficient water is not available as well as on sandy soil.\nA water sprinkler is set to shoot a stream of water a distance of 21 m and rotate through an angle of 80°.\n(i) What is the area of the lawn it waters?\n(ii) For r = 28 m, what angle is required to water equal to previous area?",
+   "answer": "(i) The watered lawn is a sector with r₁ = 21 m and θ₁ = 80°.\nA₁ = πr₁² × θ₁/360° = (22/7) × 21² × 80°/360° = (22/7) × 21 × 21 × (2/9) = 308 m².\n(ii) For the same area with r₂ = 28 m, r₂²θ₂ = r₁²θ₁, so θ₂ = (r₁/r₂)²θ₁ = (21/28)² × 80° = (3/4)² × 80° = (9/16) × 80° = 45°.\nThe sprinkler waters 308 m², and a range of 28 m needs an angle of 45° to water the same area.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "90",
+   "form": "case_study",
+   "marks": 4,
+   "page": 28,
+   "stem": "Pulley : A pulley is a wheel with a groove along its edge for holding a rope or cable. It is a simple machine that helps change the direction and point of application of a pulling force. Pulleys are used singly or in combination to transmit energy and motion.\nA boy is moving a box upward through the use of a pulley 21 cm in radius. If the pulley is rotated counterclockwise through an angle of 102°, find the height, that the weight will rise.",
+   "answer": "The weight rises by the length of rope that passes over the rim, which is the arc turned through.\nh = 2πr × θ/360° = 2 × (22/7) × 21 × 102°/360° = 2 × 22 × 3 × (17/60) = (22 × 17)/10 = 37.4 cm.\nThe weight will rise 37.4 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "91",
+   "form": "case_study",
+   "marks": 4,
+   "page": 28,
+   "stem": "Barn : A barn is an agricultural building usually on farms and used for various purposes. A barn refers to structures that house livestock, including cattle and horses, as well as equipment and fodder, and often grain.\nRamkaran want to build a barn at his farm. He has made a design for it which is shown above. Here roof is arc of a circle of radius r at centre O.\n(i) What is the value of radius of arc?\n(ii) What is the curved width of roof?\n(iii) What is area of cross section of barn?\n(iv) If the length of the barn is 12 meters, what is the curved surface area of roof?\n(v) What is the storage capacity of barn?",
+   "answer": "Label the cross section AECD with the arc ABC on top, O the centre of that arc and F the midpoint of AC, so AF = 4 m and FO = 4 m.\n(i) In right triangle AFO, AO = √(AF² + FO²) = √(4² + 4²) = 4√2 m, which is the radius r of the arc.\n(ii) Triangle AFO is right-angled and isosceles, so ∠FAO = ∠FOA = 45° and likewise ∠FOC = 45°, giving ∠AOC = 90°. The curved width is the arc length 2πrθ/360° = 2π × 4√2 × 90°/360° = 2√2π m.\n(iii) Area of cross section = area of AECD + (area of sector ABCO − area of triangle ACO)\n= 8 × 8 + π(4√2)² × 90°/360° − ½ × 4 × 8 = 64 + 8π − 16 = 48 + 8π = 8(6 + π) m².\n(iv) Curved surface area of roof = curved width × length = 2√2π × 12 = 24√2π m².\n(v) Storage capacity = cross section area × length = 8(6 + π) × 12 = 96(6 + π) m³.",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch11_q91.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "92",
+   "form": "case_study",
+   "marks": 4,
+   "page": 29,
+   "stem": "Speed of a River Current : The paddle wheel in the river functions like a wheel rolling on a road. To approximate the speed of the current of a river, a circular paddle wheel with radius 1.75 meter is lowered into the water. If the current causes the wheel to rotate at a speed of 10 revolutions per minute, what is the speed of the current?",
+   "answer": "The water carries the wheel round, so in one minute the water travels the distance covered by 10 revolutions of the rim.\nDistance in one revolution = 2πr, so distance in 10 revolutions = 10 × 2 × (22/7) × 1.75 = 10 × 2 × (22/7) × (7/4) = 110 m.\nWater therefore flows 110 m in one minute, so in one hour it flows 110 × 60 = 6600 m = 6.6 km.\nThe speed of the current is 6.6 km/hour.",
+   "concept": "Length of an arc",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "93",
+   "form": "case_study",
+   "marks": 4,
+   "page": 29,
+   "stem": "Jawaharlal Nehru Stadium is a multi-purpose sports stadium and a very popular sports stadium of Delhi. The stadium is a part of the Jawaharlal Nehru sports complex in central Delhi, which also houses the headquarters of the Sports Authority of India, the field arm of the Ministry of Youth Affairs and Sports, and the Indian Olympic Association. It has a capacity to seat 60,000 people. It is the third largest multi-purpose stadium in India. In 2010, the Jawaharlal Nehru Stadium was the main stadium for XIX Commonwealth Games; a major sporting event.\nJawaharlal Nehru stadium is conducting the annual sports competition soon. The curator of the stadium is tasked to figuring out the dimensions for carving out some areas allotted for a hockey court and a shooting range, as shown in the figure below. The shapes of the hockey court and the shooting range are square and triangle respectively. Both of the courts have a common edge that touches the centre of stadium. The construction of the shooting range is such that the angle to centre is 90°. The radius of the stadium is 200 metres.\n(i) What is the area allotted to shooting range?\n(ii) What is the area allotted to hockey court?\n(iii) If the team of the curators managing the stadium, likes to allot space for some more sports, how much area is available to them?\n(iv) If the boundaries of the hockey court and shooting range are to be fenced, then what is the required length of the fence?\n(v) If the cost of fencing is Rs 6 per metre, what is the total cost of fencing?",
+   "answer": "(i) ΔAOB is right-angled at O with OA = OB = radius = 200 m, so its area is ½ × 200 × 200 = 20,000 m².\n(ii) OCDE is a square whose diagonal equals the radius. If a is its side, a² + a² = 200², so 2a² = 40,000 and a = 100√2 m. Its area is (100√2)² = 20,000 m², equal to the shooting range.\n(iii) Unoccupied area = πr² − (20,000 + 20,000) = 40,000π − 40,000 = 40,000(π − 1) = 40,000 × 2.14 = 85,600 m².\n(iv) For the triangle, AB = √(OA² + OB²) = √(200² + 200²) = 200√2 m, so its perimeter is 200 + 200 + 200√2 = 400 + 200√2 m. The square's perimeter is 4 × 100√2 = 400√2 m. Total fence = 400 + 200√2 + 400√2 = 400 + 600√2 = 200(2 + 3√2) m.\n(v) Cost = length × rate = 200(2 + 3√2) × 6 = Rs 1200(2 + 3√2).",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch11_q93.png"
+   ],
+   "figure_required": true,
+   "ocr": "In part (iii) the book evaluates π − 1 as 2.14, i.e. it takes π = 3.14 there even though π = 22/7 is used elsewhere in the chapter; the printed value 85,600 m² follows from that and has been kept."
+  },
+  {
+   "number": "94",
+   "form": "case_study",
+   "marks": 4,
+   "page": 30,
+   "stem": "Tunnel : The tunnels are defined as the underground passages that are used for the transportation purposes. These permit the transmission of passengers and freights, or it may be for the transportation of utilities like water, sewage or gas etc. The tunnel engineering is one of the most interesting disciplines in engineering. The work is complex and difficult throughout its course, even though it is interesting.\nEarth is excavated to make a road tunnel. The tunnel is a cylinder of radius 7 m and length 450 m.\nA level surface is laid inside the tunnel to make road. Figure shows the circular cross-section of the tunnel. The level surface is represented by AB, the centre of the circle is O and ∠AOB = 90°. The space below AB is filled with rubble (debris from the demolition buildings).\nSteel girders are erected above the tracks to strengthen the tunnel. The girders are erected at 6 m intervals along the length of the tunnel, with one at each end.\n(i) What is the cross section area of tunnel before filling debris on ground plane?\n(ii) What is the area of cross section of tunnel after filling debris on ground plane?\n(iii) What is the length of each girder?\n(iv) How many girders are erected?\n(v) If the weight of 1 meter girder is 25 kg, how much steel is required?",
+   "answer": "(i) Before filling, the cross section is the whole circle: πr² = (22/7) × 7 × 7 = 154 m².\n(ii) The rubble fills the minor segment AMBC cut off by AB. Triangle OAB is right-angled and isosceles, so its area is r²/2, and sector OACB subtends 90°, so its area is πr²/4. The segment is πr²/4 − r²/2, so\narea after filling = πr² − (πr²/4 − r²/2) = 3πr²/4 + r²/2 = (r²/4)(3π + 2) = (49/4)(3 × 22/7 + 2) = 140 m².\n(iii) Each girder follows the curved part of the cross section, the major arc of 360° − 90° = 270°:\nlength = 2πr(270°)/360° = 2 × (22/7) × 7 × (270/360) = 33 m.\n(iv) Girders stand every 6 m with one at each end, so 450/6 + 1 = 75 + 1 = 76 girders.\n(v) Total girder length = 76 × 33 = 2508 m, so the steel required is 2508 × 25 = 62,700 kg = 627 quintal.",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch11_q94.png"
+   ],
+   "figure_required": true
+  }
+ ]
+}

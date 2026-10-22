@@ -1,0 +1,992 @@
+{
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "stem": "The zeroes of a polynomial x² + px + q are twice the zeroes of the polynomial 4x² − 5x − 6. The value of p is",
+   "options": [
+    {
+     "label": "A",
+     "text": "−5/2"
+    },
+    {
+     "label": "B",
+     "text": "5/2"
+    },
+    {
+     "label": "C",
+     "text": "−5"
+    },
+    {
+     "label": "D",
+     "text": "10"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let α and β be the zeroes of 4x² − 5x − 6, so the zeroes of x² + px + q are 2α and 2β. For 4x² − 5x − 6: α + β = −b/a = −(−5)/4 = 5/4. For x² + px + q: 2α + 2β = −b/a = −p, i.e. 2(α + β) = −p. Substituting α + β = 5/4 gives 2 × 5/4 = −p ⇒ p = −5/2. Thus (a) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Options restored from the PDF's embedded text layer (pypdf), which survived where MinerU's OCR of the same page did not. The book prints (a) −5/2, (b) 5/2, (c) −5, (d) 10; OCR had flattened the fraction in (b) to '25' and dropped (c) to a bare '-'. Key (a) agrees with the worked solution, which derives p = −5/2."
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "stem": "If α, β are the zeroes of the polynomial 6x² − 5x − 4, then 1/α + 1/β is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "5/4"
+    },
+    {
+     "label": "B",
+     "text": "−5/4"
+    },
+    {
+     "label": "C",
+     "text": "4/5"
+    },
+    {
+     "label": "D",
+     "text": "5/24"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "We have p(x) = 6x² − 5x − 4, so α + β = −b/a = −(−5)/6 = 5/6 and αβ = c/a = −4/6. Then 1/α + 1/β = (α + β)/αβ = (5/6)/(−4/6) = −5/4. Thus (b) is the correct option.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "stem": "The number of quadratic polynomials having zeroes −5 and −3 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "more than 3"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Let α = −5 and β = −3. Any polynomial with these zeroes is p(x) = k[x² − (α + β)x + αβ] = k[x² + 8x + 15], where k is any real number. Since k can take any value, more than 3 quadratic polynomials have the zeroes −5 and −3. Thus (d) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "OCR collapsed the option block into an array and lost the text of option (a); it is restored as '1' because the surviving sequence (2, 3, more than 3) fixes it unambiguously."
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "stem": "If α and β are the zeroes of the polynomial x² − 1, then the value of (α + β) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "1"
+    },
+    {
+     "label": "C",
+     "text": "−1"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Comparing x² − 1 with ax² + bx + c gives b = 0. Therefore α + β = −b/a = 0. Thus (d) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Options restored from the PDF's embedded text layer (pypdf), which survived where MinerU's OCR of the same page did not. The book prints (a) 2, (b) 1, (c) −1, (d) 0. OCR lost (b) entirely, which left the surviving '−1' mislabelled as (b) when it is (c). Key (d) is unchanged and agrees with the worked solution (α + β = −b/a = 0)."
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "stem": "If the zeroes of the quadratic polynomial x² + (a + 1)x + b are 2 and −3, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "a = −7, b = −1"
+    },
+    {
+     "label": "B",
+     "text": "a = 5, b = −1"
+    },
+    {
+     "label": "C",
+     "text": "a = 2, b = −6"
+    },
+    {
+     "label": "D",
+     "text": "a = 0, b = −6"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A quadratic polynomial with zeroes 2 and −3 is p(x) = x² − (2 − 3)x + (2)(−3) = x² + x − 6. Comparing with x² + (a + 1)x + b gives a + 1 = 1 ⇒ a = 0 and b = −6. Thus (d) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Option labels (a) and (c) were lost when OCR rendered the option block as a LaTeX array; they are restored from the printed left/right column positions. The book reprints this identical question (same stem, same options, same key) as its Q23 on pages 4-5 with a second, simultaneous-equations worked solution; that reprint is deliberately not carried as a separate item, which is why the item numbers here skip 23."
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "stem": "If the sum of the zeroes of the quadratic polynomial kx² + 2x + 3k is equal to their product, then k equals",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/3"
+    },
+    {
+     "label": "B",
+     "text": "−1/3"
+    },
+    {
+     "label": "C",
+     "text": "2/3"
+    },
+    {
+     "label": "D",
+     "text": "−2/3"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "For p(x) = kx² + 2x + 3k we have a = k, b = 2, c = 3k. Sum of zeroes α + β = −b/a = −2/k and product αβ = c/a = 3k/k = 3. Given α + β = αβ, we get −2/k = 3 ⇒ k = −2/3. Thus (d) is the correct option.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "If α and β are the zeroes of the polynomial x² + 2x + 1, then 1/α + 1/β is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "−2"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "0"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Since α and β are the zeroes of x² + 2x + 1, sum of zeroes α + β = −2/1 = −2 and product of zeroes αβ = 1/1 = 1. Then 1/α + 1/β = (α + β)/αβ = −2/1 = −2. Thus (a) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The PDF's embedded text layer prints this question with three options only - (a) −2, (b) 2, (c) 0 - and no (d); the missing fourth option is the book's own omission, not OCR damage, so nothing is invented and the item is left at three options to be held by V-09. Key (a) agrees with the worked solution (1/α + 1/β = (α+β)/αβ = −2). Re-checked against the text layer: it prints (a) −2, (b) 2, (c) 0, and the stored item was in fact carrying only two options, so (c) 0 has now been added from the printed text; there is still no (d)."
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If α and β are the zeroes of the polynomial 2x² − 13x + 6, then α + β is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "−3"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "13/2"
+    },
+    {
+     "label": "D",
+     "text": "−13/2"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "For p(x) = 2x² − 13x + 6, comparing with ax² + bx + c gives a = 2, b = −13, c = 6. Sum of zeroes α + β = −b/a = −(−13)/2 = 13/2. Thus (c) is the correct option.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "If one zero of a quadratic polynomial (kx² + 3x + k) is 2, then the value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "5/6"
+    },
+    {
+     "label": "B",
+     "text": "−5/6"
+    },
+    {
+     "label": "C",
+     "text": "6/5"
+    },
+    {
+     "label": "D",
+     "text": "−6/5"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "p(x) = kx² + 3x + k. Since 2 is a zero, p(2) = 0 ⇒ k(2)² + 3(2) + k = 0 ⇒ 4k + 6 + k = 0 ⇒ 5k = −6 ⇒ k = −6/5. Thus (d) is the correct option.",
+   "concept": "What a zero is"
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "stem": "The maximum number of zeroes a cubic polynomial can have, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A cubic polynomial has degree 3, so it can have at most 3 zeroes. Thus (d) is the correct option.",
+   "concept": "Linear, quadratic and cubic"
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Standard",
+   "stem": "If one zero of the quadratic polynomial x² + 3x + k is 2, then the value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "−10"
+    },
+    {
+     "label": "C",
+     "text": "−7"
+    },
+    {
+     "label": "D",
+     "text": "−2"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "We have p(x) = x² + 3x + k. Since 2 is a zero of p(x), p(2) = 0 ⇒ (2)² + 3(2) + k = 0 ⇒ 4 + 6 + k = 0 ⇒ 10 + k = 0 ⇒ k = −10. Thus (b) is the correct option.",
+   "concept": "What a zero is",
+   "ocr": "OCR lost the text of option (c); it is restored as '2' from the ±10 / ±2 pattern fixed by the surviving options (10, −10, −2). Re-checked against the text layer, which prints (a) 10, (b) −10, (c) −7, (d) −2: option (c) is −7, not the '2' that had been guessed from the ±10/±2 pattern. Key (b) is unaffected."
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Standard",
+   "stem": "The quadratic polynomial, the sum of whose zeroes is −5 and their product is 6, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "x² + 5x + 6"
+    },
+    {
+     "label": "B",
+     "text": "x² − 5x + 6"
+    },
+    {
+     "label": "C",
+     "text": "x² − 5x − 6"
+    },
+    {
+     "label": "D",
+     "text": "−x² + 5x + 6"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let α and β be the zeroes, with α + β = −5 and αβ = 6. Then p(x) = x² − (α + β)x + αβ = x² − (−5)x + 6 = x² + 5x + 6. Thus (a) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Labels (a) and (c) were lost by OCR (the option block came through as a LaTeX array) and are restored from the printed left/right column order."
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "stem": "If one zero of the polynomial (3x² + 8x + k) is the reciprocal of the other, then value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "−3"
+    },
+    {
+     "label": "C",
+     "text": "1/3"
+    },
+    {
+     "label": "D",
+     "text": "−1/3"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let the zeroes be α and 1/α. Product of zeroes = constant term / coefficient of x² ⇒ α × (1/α) = k/3 ⇒ 1 = k/3 ⇒ k = 3. Thus (a) is the correct option.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Standard",
+   "stem": "The zeroes of the polynomial x² − 3x − m(m + 3) are",
+   "options": [
+    {
+     "label": "A",
+     "text": "m, m + 3"
+    },
+    {
+     "label": "B",
+     "text": "−m, m + 3"
+    },
+    {
+     "label": "C",
+     "text": "m, −(m + 3)"
+    },
+    {
+     "label": "D",
+     "text": "−m, −(m + 3)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let p(x) = x² − 3x − m(m + 3). Substituting x = −m: p(−m) = m² + 3m − m² − 3m = 0, so −m is a zero. Substituting x = m + 3: p(m + 3) = (m + 3)² − 3(m + 3) − m(m + 3) = (m + 3)[m + 3 − 3 − m] = 0, so m + 3 is also a zero. Hence the zeroes are −m and m + 3. Thus (b) is the correct option.",
+   "concept": "What a zero is",
+   "ocr": "Labels (a) and (c) were lost by OCR (option block extracted as a LaTeX array) and are restored from the printed column order."
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "The value of x for which the polynomials x² − 1 and x² − 2x + 1 vanish simultaneously, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "−2"
+    },
+    {
+     "label": "C",
+     "text": "−1"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "x² − 1 = (x − 1)(x + 1) and x² − 2x + 1 = (x − 1)(x − 1). Both expressions have 1 as a zero, so both vanish when x = 1. Thus (d) is the correct option.",
+   "concept": "What a zero is"
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If α and β are zeroes of the quadratic polynomial f(x) = x² − x − 4, then the value of 1/α + 1/β − αβ is",
+   "options": [
+    {
+     "label": "A",
+     "text": "15/4"
+    },
+    {
+     "label": "B",
+     "text": "−15/4"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "15"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "For f(x) = x² − x − 4, α + β = −(−1)/1 = 1 and αβ = −4/1 = −4. Then 1/α + 1/β − αβ = (α + β)/αβ − αβ = 1/(−4) + 4 = −1/4 + 4 = 15/4. Thus (a) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Option (b) was extracted as '-415'; restored to −15/4 (OCR scrambled the fraction digits of the negative counterpart of option (a))."
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "The value of the polynomial x⁸ − x⁵ + x² − x + 1 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "positive for all the real numbers"
+    },
+    {
+     "label": "B",
+     "text": "negative for all the real numbers"
+    },
+    {
+     "label": "C",
+     "text": "0"
+    },
+    {
+     "label": "D",
+     "text": "depends on value of x"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let f(x) = x⁸ − x⁵ + x² − x + 1. For x > 1, f(x) is positive. For x = 0 or x = 1, f(x) = 1 > 0. For x < 0 every term of f(x) is positive, so f(x) > 0. Hence f(x) is positive for all real x. Thus (a) is the correct option.",
+   "concept": "What a zero is",
+   "ocr": "The stem exponents were damaged by OCR ('x^s - x^s'); restored to x⁸ − x⁵ from the worked solution, which prints f(x) = x⁸ − x⁵ + x² − x + 1."
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Lowest value of x² + 4x + 2 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "−2"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "x² + 4x + 2 = (x² + 4x + 4) − 2 = (x + 2)² − 2. Here (x + 2)² is always non-negative and its lowest value is 0 (when x + 2 = 0, i.e. x = −2). Hence the lowest value of (x + 2)² − 2 is −2. Thus (b) is the correct option.",
+   "concept": "General form of a quadratic"
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If the sum of the zeroes of the polynomial f(x) = 2x³ − 3kx² + 4x − 5 is 6, then the value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "−2"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "−4"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "For f(x) = 2x³ − 3kx² + 4x − 5, the sum of the zeroes is 3k/2. Given 6 = 3k/2 ⇒ k = 12/3 = 4. Thus (c) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Labels (b) and (d) came through inside a LaTeX array; labels (a) and (c) restored from the printed column order."
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If the square of difference of the zeroes of the quadratic polynomial x² + px + 45 is equal to 144, then the value of p is",
+   "options": [
+    {
+     "label": "A",
+     "text": "±9"
+    },
+    {
+     "label": "B",
+     "text": "±12"
+    },
+    {
+     "label": "C",
+     "text": "±15"
+    },
+    {
+     "label": "D",
+     "text": "±18"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "For f(x) = x² + px + 45, α + β = −p and αβ = 45. Given (α − β)² = 144, i.e. (α + β)² − 4αβ = 144 ⇒ (−p)² − 4(45) = 144 ⇒ p² = 144 + 180 = 324 ⇒ p = ±18. Thus (d) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The printed 'Thus (…) is correct option' line is missing from this question in the extraction; correct_option D is taken from the worked solution, which ends at p = ±18."
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If one of the zeroes of the quadratic polynomial (k − 1)x² + kx + 1 is −3, then the value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "4/3"
+    },
+    {
+     "label": "B",
+     "text": "−4/3"
+    },
+    {
+     "label": "C",
+     "text": "2/3"
+    },
+    {
+     "label": "D",
+     "text": "−2/3"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "If a is a zero of f(x), then f(a) = 0. So f(−3) = (k − 1)(−3)² + (−3)k + 1 = 0 ⇒ 9(k − 1) − 3k + 1 = 0 ⇒ 9k − 9 − 3k + 1 = 0 ⇒ 6k − 8 = 0 ⇒ k = 8/6 = 4/3. Thus (a) is the correct option.",
+   "concept": "What a zero is"
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "A quadratic polynomial, whose zeroes are −3 and 4, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "x² − x + 12"
+    },
+    {
+     "label": "B",
+     "text": "x² + x + 12"
+    },
+    {
+     "label": "C",
+     "text": "x²/2 − x/2 − 6"
+    },
+    {
+     "label": "D",
+     "text": "2x² + 2x − 24"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Here α = −3 and β = 4, so the sum of zeroes α + β = −3 + 4 = 1 and the product αβ = −3 × 4 = −12. The quadratic polynomial is x² − (α + β)x + αβ = x² − x − 12, which is the same (up to the constant multiple ½) as x²/2 − x/2 − 6. Thus (c) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Labels (a) and (c) were lost by OCR (option block extracted as a LaTeX array) and are restored from the printed column order."
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "The zeroes of the quadratic polynomial x² + 99x + 127 are",
+   "options": [
+    {
+     "label": "A",
+     "text": "both positive"
+    },
+    {
+     "label": "B",
+     "text": "both negative"
+    },
+    {
+     "label": "C",
+     "text": "one positive and one negative"
+    },
+    {
+     "label": "D",
+     "text": "both equal"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let f(x) = x² + 99x + 127. Comparing with ax² + bx + c gives a = 1, b = 99, c = 127. Sum of zeroes α + β = −b/a = −99 and product of zeroes αβ = c/a = 127. The product is positive and the sum is negative, so both zeroes must be negative. (Check: D = √(99² − 4 × 1 × 127) = √9293 ≈ 96.4 < 99, so x = (−99 ± 96.4)/2 is negative for both signs.) Thus (b) is the correct option.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "25",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "The zeroes of the quadratic polynomial x² + kx + k where k ≠ 0,",
+   "options": [
+    {
+     "label": "A",
+     "text": "cannot both be positive"
+    },
+    {
+     "label": "B",
+     "text": "cannot both be negative"
+    },
+    {
+     "label": "C",
+     "text": "are always unequal"
+    },
+    {
+     "label": "D",
+     "text": "are always equal"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let f(x) = x² + kx + k with k ≠ 0, so α + β = −k and αβ = k. Case 1: if k is negative then αβ is negative, so α and β have opposite signs. Case 2: if k is positive then α + β is negative while αβ is positive, so both zeroes are negative. In neither case can both zeroes be positive. Thus (a) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "OCR dropped the labels of options (a) and (c) and rendered (b) as a bare 'b'; all four labels restored from the printed order."
+  },
+  {
+   "number": "26",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If the zeroes of the quadratic polynomial ax² + bx + c, where c ≠ 0, are equal, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "c and a have opposite signs"
+    },
+    {
+     "label": "B",
+     "text": "c and b have opposite signs"
+    },
+    {
+     "label": "C",
+     "text": "c and a have same sign"
+    },
+    {
+     "label": "D",
+     "text": "c and b have the same sign"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Let f(x) = ax² + bx + c with zeroes α and β, so α + β = −b/a and αβ = c/a. Since the zeroes are equal, α = β, so α and β have the same sign and αβ > 0 in every case. Hence c/a > 0, which means c and a have the same sign. Thus (c) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Option (c) was extracted with a damaged label ('C c and a have same sign'); restored to label C."
+  },
+  {
+   "number": "27",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If one of the zeroes of a quadratic polynomial of the form x² + ax + b is the negative of the other, then it",
+   "options": [
+    {
+     "label": "A",
+     "text": "has no linear term and the constant term is negative."
+    },
+    {
+     "label": "B",
+     "text": "has no linear term and the constant term is positive."
+    },
+    {
+     "label": "C",
+     "text": "can have a linear term but the constant term is negative."
+    },
+    {
+     "label": "D",
+     "text": "can have a linear term but the constant term is positive."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let f(x) = x² + ax + b have zeroes α and −α. Sum of zeroes = α + (−α) = 0 = −a, so a = 0 and the polynomial has no linear term. Product of zeroes = α(−α) = −α² = b, which is negative. Hence the polynomial has no linear term and its constant term is negative. Thus (a) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The label of option (c) was dropped by OCR and is restored from the printed order."
+  },
+  {
+   "number": "28",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Which of the following is not the graph of a quadratic polynomial? (Choose from the four graphs (a), (b), (c) and (d) shown in the figure.)",
+   "options": [
+    {
+     "label": "A",
+     "text": "Graph (a) in the figure"
+    },
+    {
+     "label": "B",
+     "text": "Graph (b) in the figure"
+    },
+    {
+     "label": "C",
+     "text": "Graph (c) in the figure"
+    },
+    {
+     "label": "D",
+     "text": "Graph (d) in the figure"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The graph of option (d) cuts the x-axis at three points, which means the polynomial has three zeroes. A quadratic polynomial can have at most two zeroes, so this graph does not represent a quadratic polynomial. Thus (d) is the correct option.",
+   "concept": "Zeroes on the graph",
+   "images": [
+    "6d311383d2364b013d3aa2b6b354c8fbdd2e2a0f6e85cee4b6427cd8fa01af70.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "The four printed options of this question are the four graphs inside the attached figure (page 6); there is no option text in the source. Option texts here are pointers to the labelled panels of that figure, not invented alternatives. The figure belongs to the question, not to the solution."
+  },
+  {
+   "number": "29",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "stem": "Assertion (A): If the graph of a polynomial touches x-axis at only one point, then the polynomial cannot be a quadratic polynomial. Reason (R): A polynomial of degree n (n > 1) can have at most n zeroes.",
+   "assertion": "If the graph of a polynomial touches x-axis at only one point, then the polynomial cannot be a quadratic polynomial.",
+   "reason": "A polynomial of degree n (n > 1) can have at most n zeroes.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both, Assertion (A) and Reason (R) are true and Reason (R) is correct explanation of Assertion (A)"
+    },
+    {
+     "label": "B",
+     "text": "Both, Assertion (A) and Reason (R) are true but Reason (R) is not correct explanation for Assertion (A)"
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false"
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A quadratic polynomial has at most two zeroes, not exactly two. When the graph of a polynomial touches the x-axis at only one point, the polynomial has two equal roots (discriminant = 0), so the graph can still represent a quadratic polynomial. Hence the Assertion is not true, while the Reason is a correct statement. Thus (d) is the correct option.",
+   "concept": "Zeroes on the graph"
+  },
+  {
+   "number": "30",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion (A): p(x) = 14x³ − 2x² + 8x⁴ + 7x − 8 is a polynomial of degree 3. Reason (R): The highest power of x in the polynomial p(x) is the degree of the polynomial.",
+   "assertion": "p(x) = 14x³ − 2x² + 8x⁴ + 7x − 8 is a polynomial of degree 3.",
+   "reason": "The highest power of x in the polynomial p(x) is the degree of the polynomial.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The highest power of x in p(x) = 14x³ − 2x² + 8x⁴ + 7x − 8 is 4, so the degree of p(x) is 4, not 3. Hence the Assertion is incorrect but the Reason is correct. Thus (d) is the correct option.",
+   "concept": "Degree of a polynomial"
+  },
+  {
+   "number": "31",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion (A): (2 − √3) is one zero of the quadratic polynomial then other zero will be (2 + √3). Reason (R): Irrational zeros (roots) always occurs in pairs.",
+   "assertion": "(2 − √3) is one zero of the quadratic polynomial then other zero will be (2 + √3).",
+   "reason": "Irrational zeros (roots) always occurs in pairs.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Irrational zeroes (roots) always occur in conjugate pairs. Therefore, when one zero is (2 − √3), the other zero is (2 + √3). Both A and R are correct and R is the correct explanation of A. Thus (a) is the correct option.",
+   "concept": "What a zero is"
+  },
+  {
+   "number": "32",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion (A): If one zero of polynomial p(x) = (k² + 4)x² + 13x + 4k is reciprocal of other, then k = 2. Reason (R): If (x − α) is a factor of p(x), then p(α) = 0 i.e. α is a zero of p(x).",
+   "assertion": "If one zero of polynomial p(x) = (k² + 4)x² + 13x + 4k is reciprocal of other, then k = 2.",
+   "reason": "If (x − α) is a factor of p(x), then p(α) = 0 i.e. α is a zero of p(x).",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let the zeroes of p(x) be α and 1/α. Then the product of the zeroes α × (1/α) = 4k/(k² + 4), so 1 = 4k/(k² + 4) ⇒ k² − 4k + 4 = 0 ⇒ (k − 2)² = 0 ⇒ k = 2. So the Assertion is true; the Reason is also a true statement but it is not the explanation used here. Thus (b) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The word 'polynomial' was printed/extracted as 'poly-nominal' (hyphenation artefact) and has been repaired in the stem and assertion."
+  },
+  {
+   "number": "33",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion (A): x³ + x has only one real zero. Reason (R): A polynomial of nth degree must have n real zeroes.",
+   "assertion": "x³ + x has only one real zero.",
+   "reason": "A polynomial of nth degree must have n real zeroes.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "A polynomial of nth degree can have at most n real zeroes, so the Reason is not true. Again, x³ + x = x(x² + 1), which has only one real zero (x = 0) because x² + 1 ≠ 0 for all x ∈ R. Hence the Assertion is true but the Reason is false. Thus (c) is the correct option.",
+   "concept": "Degree of a polynomial"
+  },
+  {
+   "number": "34",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion (A): If both zeros of the quadratic polynomial x² − 2kx + 2 are equal in magnitude but opposite in sign then value of k is ½. Reason (R): Sum of zeros of a quadratic polynomial ax² + bx + c is −b/a.",
+   "assertion": "If both zeros of the quadratic polynomial x² − 2kx + 2 are equal in magnitude but opposite in sign then value of k is ½.",
+   "reason": "Sum of zeros of a quadratic polynomial ax² + bx + c is −b/a.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "If the zeroes are equal in magnitude but opposite in sign, their sum must be zero. For x² − 2kx + 2, sum of zeroes = −(−2k)/1 = 2k, so 2k = 0 ⇒ k = 0, not ½. Hence the Assertion is false but the Reason is true. Thus (d) is the correct option.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The value in the printed assertion was extracted as a stray '%' symbol; read as ½ (the usual printed value). Either way the assertion is false, since the solution derives k = 0."
+  }
+ ]
+}

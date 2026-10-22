@@ -1,0 +1,304 @@
+{
+ "items": [
+  {
+   "number": "180",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "If cos α/cos β = m and cos α/sin β = n, show that (m² + n²)cos²β = n².",
+   "answer": "We have m = cos α/cos β and n = cos α/sin β, so m² = cos²α/cos²β and n² = cos²α/sin²β. Then (m² + n²)cos²β = [cos²α/cos²β + cos²α/sin²β]cos²β = cos²α[1/cos²β + 1/sin²β]cos²β = cos²α·(sin²β + cos²β)/(cos²β sin²β)·cos²β. Using sin²β + cos²β = 1 this becomes cos²α·(1/(cos²β sin²β))·cos²β = cos²α/sin²β = n². Hence (m² + n²)cos²β = n², as required.",
+   "concept": "sin squared plus cos squared",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2010",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Board tag printed as [Board Term-12010]; read as Board Term-1 2010."
+  },
+  {
+   "number": "181",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "If 7 cosec φ − 3 cot φ = 7, prove that 7 cot φ − 3 cosec φ = 3.",
+   "answer": "From 7 cosec φ − 3 cot φ = 7 we get 7 cosec φ − 7 = 3 cot φ, i.e. 7(cosec φ − 1) = 3 cot φ. Multiply both sides by (cosec φ + 1): 7(cosec φ − 1)(cosec φ + 1) = 3 cot φ(cosec φ + 1), so 7(cosec²φ − 1) = 3 cot φ(cosec φ + 1). Since cosec²φ − 1 = cot²φ, this gives 7 cot²φ = 3 cot φ(cosec φ + 1). Dividing by cot φ, 7 cot φ = 3(cosec φ + 1) = 3 cosec φ + 3. Hence 7 cot φ − 3 cosec φ = 3.",
+   "concept": "Dividing to get more identities",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 SQP 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "182",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "Prove that : (cos θ − sin θ + 1)/(cos θ + sin θ − 1) = cosec θ + cot θ.",
+   "answer": "Take LHS = (cos θ − sin θ + 1)/(cos θ + sin θ − 1) and multiply numerator and denominator by sin θ: LHS = sin θ(cos θ − sin θ + 1)/[sin θ(cos θ + sin θ − 1)] = (sin θ cos θ − sin²θ + sin θ)/[sin θ(cos θ + sin θ − 1)]. Writing sin²θ = 1 − cos²θ, the numerator becomes sin θ cos θ + sin θ − (1 − cos²θ) = sin θ(cos θ + 1) − (1 − cos θ)(1 + cos θ) = (1 + cos θ)(sin θ − 1 + cos θ). Hence LHS = (1 + cos θ)(sin θ + cos θ − 1)/[sin θ(cos θ + sin θ − 1)] = (1 + cos θ)/sin θ = 1/sin θ + cos θ/sin θ = cosec θ + cot θ = RHS. Hence proved.",
+   "concept": "sin squared plus cos squared",
+   "section_heading": "FIVE MARKS QUESTIONS | Board SQP 2018",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "183",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "Evaluate : tan²30° sin30° + cos60° sin²90° tan²60° − 2 tan45° cos²0° sin90°",
+   "answer": "Substitute the standard values: tan30° = 1/√3, sin30° = 1/2, cos60° = 1/2, sin90° = 1, tan60° = √3, tan45° = 1, cos0° = 1. The expression becomes (1/√3)² × 1/2 + 1/2 × 1² × (√3)² − 2 × 1 × 1² × 1 = 1/3 × 1/2 + 1/2 × 3 − 2 = 1/6 + 3/2 − 2 = (1 + 9 − 12)/6 = −2/6 = −1/3. The value is −1/3.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "184",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "Evaluate : sin²30° cos²45° + 4 tan²30° + ½ sin90° − 2 cos²90° + 1/24",
+   "answer": "Substitute sin30° = 1/2, cos45° = 1/√2, tan30° = 1/√3, sin90° = 1, cos90° = 0. The expression becomes (1/2)² × (1/√2)² + 4(1/√3)² + ½(1) − 2(0) + 1/24 = 1/4 × 1/2 + 4 × 1/3 + 1/2 + 1/24 = 1/8 + 4/3 + 1/2 + 1/24. Taking LCM 24, this is (3 + 32 + 12 + 1)/24 = 48/24 = 2. The value is 2.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "185",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "Evaluate : 4(sin⁴30° + cos⁴60°) − 3(cos²45° − sin²90°)",
+   "answer": "Substitute sin30° = 1/2, cos60° = 1/2, cos45° = 1/√2, sin90° = 1. Then 4[(1/2)⁴ + (1/2)⁴] − 3[(1/√2)² − 1²] = 4[1/16 + 1/16] − 3[1/2 − 1] = 4(2/16) − 3(−1/2) = 1/2 + 3/2 = 4/2 = 2. The value is 2.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints cos²45 and sin²90 without the degree sign on cos²45; read as cos²45°."
+  },
+  {
+   "number": "186",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "Evaluate the following : (2 cos²60° + 3 sec²30° − 2 tan²45°)/(sin²30° + cos²45°)",
+   "answer": "Substitute cos60° = 1/2, sec30° = 2/√3, tan45° = 1, sin30° = 1/2, cos45° = 1/√2. The expression becomes [2(1/2)² + 3(2/√3)² − 2(1)²]/[(1/2)² + (1/√2)²] = [2/4 + 3(4/3) − 2]/[1/4 + 1/2] = [1/2 + 4 − 2]/(3/4) = (5/2)/(3/4) = 10/3. The value is 10/3.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "187",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "stem": "In the given figure, if AD = 7√3 m, then find the value of BC.",
+   "answer": "Let BD = x and DC = y, where AD ⊥ BC and AD = 7√3 m. In right triangle ADB, tan30° = AD/BD, so 1/√3 = 7√3/x, giving x = 7√3 × √3 = 21 m. In right triangle ADC, tan60° = AD/DC, so √3 = 7√3/y, giving y = 7 m. Therefore BC = BD + DC = 21 + 7 = 28 m. The value of BC is 28 m.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2012",
+   "images": [
+    "ch08_q187.png"
+   ],
+   "figure_required": true,
+   "ocr": "The figure carries all the data (angles 30° at B, 60° at C, right angle at D, AD = 7√3 m), so it is attached."
+  },
+  {
+   "number": "188",
+   "form": "case_study",
+   "marks": 4,
+   "page": 31,
+   "stem": "Water Slide Design : Slide shown in the figure is part of a design for a water slide.\n(i) Find the length of flat part of slide.\n(ii) Find the total length of the slide.",
+   "answer": "The slide splits into three segments: the upper sloping part l₁ at 30° over a vertical drop of 6 m, the flat part l₂, and the lower sloping part l₃ at 45° over a vertical drop of 5 m; their horizontal projections d₁, d₂, d₃ add to 30 m.\nFor l₁: sin30° = 6/l₁, so ½ = 6/l₁ and l₁ = 12 m. For d₁: tan30° = 6/d₁, so d₁ = 6√3 = 10.392 m.\nFor l₃: sin45° = 5/l₃, so 1/√2 = 5/l₃ and l₃ = 5√2 = 7.07 m. For d₃: tan45° = 5/d₃, so d₃ = 5 m.\nSince l₂ = d₂ and d₁ + d₂ + d₃ = 30, we get d₂ = 30 − 10.392 − 5 = 14.608 m.\n(i) The flat part of the slide is l₂ = 14.608 m.\n(ii) The total length is l = l₁ + l₂ + l₃ = 12 + 14.608 + 7.07 = 33.678 m.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch08_q188.png"
+   ],
+   "figure_required": true,
+   "ocr": "Printed section is COMPETENCEY BASED QUESTIONS (the book's case-based block), not FIVE MARKS; mapped to case_study / 4 marks. The printed working has a slip: it writes '10.392 + l₂ + 5 = 30 m, l₂ = 16.608 m', but 30 − 10.392 − 5 = 14.608, and every later line of the same solution uses 14.608. Corrected to 14.608 m."
+  },
+  {
+   "number": "189",
+   "form": "case_study",
+   "marks": 4,
+   "page": 32,
+   "stem": "'Skysails' is that genre of engineering science that uses extensive utilization of wind energy to move a vessel in the sea water. The 'Skysails' technology allows the towing kite to gain a height of anything between 100 metres – 300 metres. The sailing kite is made in such a way that it can be raised to its proper elevation and then brought back with the help of a 'telescopic mast' that enables the kite to be raised properly and effectively.\nBased on the following figure related to sky sailing, answer the questions:\n(i) In the given figure, if sin θ = cos(3θ − 30°), where θ and 3θ − 30° are acute angles, then find the value of θ.\n(ii) What should be the length of the rope of the kite sail in order to pull the ship at the angle θ calculated above and be at a vertical height of 200 m?",
+   "answer": "(i) Write sin θ = cos(90° − θ). Then cos(90° − θ) = cos(3θ − 30°), and since both angles are acute we may compare them: 90° − θ = 3θ − 30°, so 90° + 30° = 3θ + θ, giving 4θ = 120° and θ = 30°.\n(ii) In right triangle ABC the rope is the hypotenuse AC, the vertical height is AB = 200 m and the angle at C is θ = 30°. Then sin θ = AB/AC, so sin30° = 200/AC, i.e. ½ = 200/AC, giving AC = 400 m. The rope must be 400 m long.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "COMPETENCEY BASED QUESTIONS | Board 2020 SQP Standard",
+   "images": [
+    "ch08_q189.png"
+   ],
+   "figure_required": true,
+   "ocr": "Printed section is COMPETENCEY BASED QUESTIONS; mapped to case_study / 4 marks. The book's last line reads 'Thus length of rope is 400 mm' — a unit typo; its own working gives AC = 400 m. Stem printed 'where θ and 3θ − 30° acute angles'; 'are' inserted for readability."
+  },
+  {
+   "number": "190",
+   "form": "case_study",
+   "marks": 4,
+   "page": 32,
+   "stem": "Tower cranes are a common fixture at any major construction site. They're pretty hard to miss — they often rise hundreds of feet into the air, and can reach out just as far. The construction crew uses the tower crane to lift steel, concrete, large tools like acetylene torches and generators, and a wide variety of other building materials.\nA crane stands on a level ground. It is represented by a tower AB, of height 24 m and a jib BR. The jib is of length 16 m and can rotate in a vertical plane about B. A vertical cable, RS, carries a load S. The diagram shows current position of the jib, cable and load.\n(i) What is the distance BS?\n(ii) What is the angle that the jib, BR, makes with the horizontal?\n(iii) What is the measure of the angle BRS?\n(iv) Now the jib BR has been rotated and the length RS is increased. The load is now on the ground at a point 8 m from A. What is the angle through which the jib has been rotated?\n(v) What is the length by which RS has been increased?",
+   "answer": "(i) BRS is right angled at S with BR = 16 m and RS = 8 m, so 16² = 8² + BS², giving BS = √(16² − 8²) = 8√3 m.\n(ii) Let the jib make angle θ with the horizontal. Then sin θ = RS/BR = 8/16 = ½ = sin30°, so θ = 30°.\n(iii) In triangle BRS, θ + 90° + ∠BRS = 180°, so ∠BRS = 180° − 30° − 90° = 60°.\n(iv) After rotation the load rests on the ground 8 m from A, so the horizontal distance BT = AS = 8 m while the jib still has length BR = 16 m. Then cos φ = 8/16 = ½ = cos60°, so φ = 60°. The jib has turned through φ − θ = 60° − 30° = 30°.\n(v) With φ = 60°, RT = √(16² − 8²) = 8√3 m, and the new cable is RS = RT + TS = RT + AB = 8√3 + 24 m. The original cable was 8 m, so the increase is 8√3 + 24 − 8 = 8√3 + 16 = 8(√3 + 2) m.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch08_q190.png"
+   ],
+   "figure_required": true,
+   "ocr": "Printed section is COMPETENCEY BASED QUESTIONS; mapped to case_study / 4 marks. In part (iii) the printed working labels the angle ∠BSR in one line while the question and the conclusion are about ∠BRS = 60°; the value 60° is the angle at R. In part (v) the book prints 'RT = 16² − 8² = 8√3', dropping the square-root sign; the value 8√3 is correct."
+  },
+  {
+   "number": "191",
+   "form": "case_study",
+   "marks": 4,
+   "page": 33,
+   "stem": "Area of a Triangle : Prove that the area A of the triangle given in the figure is A = ½ ab sin θ.",
+   "answer": "Drop the perpendicular h from the apex onto the side b, so h is the height of the triangle on base b. In the right triangle formed on the left, the side a is the hypotenuse and θ is the angle between a and b, so sin θ = h/a, giving h = a sin θ. The area of the triangle is A = ½ × base × height = ½ b h = ½ b(a sin θ). Hence A = ½ ab sin θ, as required.",
+   "concept": "Opposite, adjacent and hypotenuse",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch08_q191.png"
+   ],
+   "figure_required": true,
+   "ocr": "Printed section is COMPETENCEY BASED QUESTIONS; mapped to case_study / 4 marks. The question figure (sides a, b, c with angle θ between a and b) is attached; the solution's redrawn figure with the altitude h is the answer and is not attached."
+  },
+  {
+   "number": "192",
+   "form": "case_study",
+   "marks": 4,
+   "page": 34,
+   "stem": "Width of a Ramp : A skateboarder wishes to build a jump ramp that is inclined at a 30° angle and that has a maximum height of 2 meter. Find the horizontal width of the ramp.",
+   "answer": "Let x be the horizontal width of the ramp. The ramp, its height and its width form a right triangle in which the 2 m height is opposite the 30° angle and x is adjacent to it. So tan30° = 2/x, i.e. 1/√3 = 2/x, giving x = 2√3 = 2 × 1.732 = 3.464 m. The horizontal width of the ramp is 3.464 metre.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed section is COMPETENCEY BASED QUESTIONS; mapped to case_study / 4 marks. The printed picture only illustrates the 30° incline and 2 m height already stated in words, so no figure is attached."
+  },
+  {
+   "number": "193",
+   "form": "case_study",
+   "marks": 4,
+   "page": 34,
+   "stem": "Fire brigade : The fire brigade is an organization which has the job of putting out fires; used especially to refer to the people who actually fight the fires.\nA fire brigade ladder-truck arrives at a highrise apartment complex where a fire has broken out. The maximum length the ladder extends is 40 meter and the angle of inclination is 45°. Assume the ladder is mounted at the top a 3 meter high truck.\n(i) How high up the side of the building does the ladder reach?\n(ii) What is the length of base of truck?",
+   "answer": "Let h be the height the ladder reaches above the top of the truck, and l the horizontal distance from the foot of the ladder to the building. The ladder of length 40 m makes 45° with the horizontal.\nsin45° = h/40, so 1/√2 = h/40 and h = 40/√2 = 20√2 = 20 × 1.414 = 28.28 m.\ncos45° = l/40, so 1/√2 = l/40 and l = 40/√2 = 20√2 = 28.28 m.\n(i) The ladder is mounted 3 m above the ground on the truck, so it reaches 28.28 + 3 = 31.28 m up the side of the building.\n(ii) The horizontal distance, the length of the base, is 28.28 m.",
+   "concept": "Ratios of 45 degrees",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed section is COMPETENCEY BASED QUESTIONS; mapped to case_study / 4 marks. Only a photograph of a ladder-truck is printed with the question — all data (40 m, 45°, 3 m) is in the text, so no figure is attached."
+  },
+  {
+   "number": "194",
+   "form": "case_study",
+   "marks": 4,
+   "page": 35,
+   "stem": "Golf : This a game played in an open field where the golfer plays his golf ball into a hole by using different types of clubs (golf instruments). In golf, a golfer plays a number of holes in a given order. 18 holes played in an order controlled by the golf course design, normally make up a game.\nOn your approach shot to the ninth green, the Global Positioning System (GPS) your cart is equipped with tells you the pin is 120 meter away. The distance plate states the straight line distance to the hole is 60 meter. Relative to a straight line between the plate and the hole, at what acute angle should you hit the shot?",
+   "answer": "The 120 m GPS reading is the hypotenuse of the right triangle and the 60 m straight line distance is the side adjacent to the required angle θ. So cos θ = 60/120 = ½ = cos60°, giving θ = 60°. The shot should be hit at an acute angle of 60°.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed section is COMPETENCEY BASED QUESTIONS; mapped to case_study / 4 marks. Stem printed as 'Golf : This a game played...' (missing 'is'), kept as printed. The illustration only repeats the 120 m and 60 m already given in the text, so no figure is attached."
+  },
+  {
+   "number": "195",
+   "form": "case_study",
+   "marks": 4,
+   "page": 35,
+   "stem": "Truss : A truss is a structure that consists of members organised into connected triangles so that the overall assembly behaves as a single object. Trusses are most commonly used in bridges, roofs and towers.\nConsider the line diagram of truss shown below.\n(i) Find the length a.\n(ii) Find the length b.\n(iii) Find the length c.\n(iv) Find the length d.",
+   "answer": "(i) In the left end triangle the 10 unit span is adjacent to the 60° angle and a is the hypotenuse, so cos60° = 10/a, i.e. ½ = 10/a, giving a = 20 m.\n(ii) b is the vertical member opposite the 60° angle in that same triangle, so sin60° = b/a, i.e. √3/2 = b/20, giving b = 20√3/2 = 10√3 = 10 × 1.732 = 17.32 m.\n(iii) In the next triangle, b is opposite the 30° angle and c is adjacent, so tan30° = b/c, i.e. 1/√3 = 10√3/c, giving c = 10√3 × √3 = 30 m.\n(iv) d is the hypotenuse of that triangle, so sin30° = b/d, i.e. ½ = 10√3/d, giving d = 20√3 = 20 × 1.732 = 34.64 m.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch08_q195.png"
+   ],
+   "figure_required": true,
+   "ocr": "Printed section is COMPETENCEY BASED QUESTIONS; mapped to case_study / 4 marks. The line diagram of the truss is part of the question and carries a, b, c, d, the two 10 unit spans and the 60°/30°/60° angles, so it is attached."
+  },
+  {
+   "number": "196",
+   "form": "case_study",
+   "marks": 4,
+   "page": 36,
+   "stem": "Train Speed : While driving to their next gig, Sarthak and the boys get stuck in a line of cars at a railroad crossing as the gates go down. As the sleek, speedy express train approaches, Sarthak decides to pass the time estimating its speed.\nHe spots a large oak tree beside the track some distance away, and figures the angle of rotation from the crossing to the tree is about 60°. If their car is 40 meter from the crossing and it takes the train 3 sec to reach the tree, how fast is the train moving?",
+   "answer": "Let l be the distance along the track from the crossing to the tree, which the train covers in 3 s. The car is 40 m from the crossing, at right angles to the track, and the line of sight to the tree makes 60° with the line to the crossing. So tan60° = l/40, i.e. √3 = l/40, giving l = 40√3 = 40 × 1.732 = 69.28 m. The speed is s = l/t = 69.28/3 = 23.09 m/s, and 23.09 × 3600/1000 = 83.124 km/h. The train is moving at about 23.09 m/s, that is 83.124 km/hour.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed section is COMPETENCEY BASED QUESTIONS; mapped to case_study / 4 marks. The scenery illustration only repeats the 60° given in words, so no figure is attached."
+  },
+  {
+   "number": "197",
+   "form": "case_study",
+   "marks": 4,
+   "page": 36,
+   "stem": "Ramp : A heavy-duty ramp is used to winch heavy appliances from street level up to a warehouse loading dock. If the ramp is 2 meter high and the incline is 4 meter long,\n(i) What angle does the dock make with the street?\n(ii) How long is the base of the ramp?",
+   "answer": "Let θ be the angle the ramp makes with the street and l the horizontal base. The 4 m incline is the hypotenuse and the 2 m height is opposite θ.\n(i) sin θ = 2/4 = ½ = sin30°, so θ = 30°. The dock makes 30° with the street.\n(ii) tan θ = 2/l, so tan30° = 2/l, i.e. 1/√3 = 2/l, giving l = 2√3 = 2 × 1.732 = 3.464 m. The base of the ramp is 3.464 m long.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed section is COMPETENCEY BASED QUESTIONS; mapped to case_study / 4 marks. The printed working labels the answer 'Length of ramp, l = 2√3' although l is the base in its own diagram; the value 3.464 m is the base, as the book's own summary on the next page states. Only a photograph accompanies the question, so no figure is attached."
+  },
+  {
+   "number": "198",
+   "form": "case_study",
+   "marks": 4,
+   "page": 37,
+   "stem": "Placement of a Light : For best illumination of a piece of art, a lighting specialist for an art gallery recommends that a ceiling-mounted light be 3 meter from the piece of art and that the angle of depression of the light be 30°. How far from a wall should the light be placed so that the recommendations of the specialist are met? Notice that the art extends outward 10 cm from the wall.",
+   "answer": "Let d be the horizontal distance from the light to the art. The 3 m beam is the hypotenuse and it makes 30° with the horizontal ceiling line, so cos30° = d/3, i.e. √3/2 = d/3, giving d = 3√3/2 = (3 × 1.732)/2 = 5.196/2 = 2.598 ≈ 2.6 m. Since the art extends 10 cm = 0.1 m outward from the wall, the light must be 2.6 + 0.1 = 2.7 m from the wall.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed section is COMPETENCEY BASED QUESTIONS; mapped to case_study / 4 marks. Only a gallery photograph accompanies the question; all data is in the text, so no figure is attached."
+  },
+  {
+   "number": "199",
+   "form": "case_study",
+   "marks": 4,
+   "page": 37,
+   "stem": "Crop Duster's Speed : While standing near the edge of a farmer's field, Vikram watches a crop duster dust the farmer's field for insect control. Curious as to the plane's speed during each drop, Vikram attempts an estimate using the angle of rotation from one end of the field to the other, while standing 50 meter from one corner.\nUsing a stopwatch he finds the plane makes each pass in 4.33 sec. If the angle of rotation was 60°, how fast is the plane flying as it applies the insecticide?",
+   "answer": "Let l be the length of the field, the distance the plane covers in one pass. Vikram stands 50 m from the near corner, at right angles to the flight path, and the angle of rotation from one end of the field to the other is 60°. So tan60° = l/50, i.e. √3 = l/50, giving l = 50√3 = 50 × 1.732 = 86.6 m. The speed is s = distance/time = 86.6/4.33 = 20 m/sec. The plane is flying at 20 m/sec.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed section is COMPETENCEY BASED QUESTIONS; mapped to case_study / 4 marks. The illustration repeats the 50 m and 60° already stated in the text, so no figure is attached."
+  },
+  {
+   "number": "200",
+   "form": "case_study",
+   "marks": 4,
+   "page": 38,
+   "stem": "Astronomy : Venus rotates in a nearly circular orbit around the sun. The largest angle formed by Venus, Earth, and the sun is 45°. The distance from Earth to the sun is approximately 149 million kilometers. See the following figure. What is the orbital radius r of Venus? Round to the nearest million kilometres.",
+   "answer": "In the figure the triangle Earth–Venus–Sun is right angled at Venus, the angle at Earth is 45°, the Earth–Sun distance of 149 million km is the hypotenuse and the orbital radius r = Venus–Sun is the side opposite the 45° angle. So sin45° = r/149, i.e. 1/√2 = r/149, giving r = 149/√2 = (149/2) × √2 = (149 × 1.414)/2 ≈ 105. The orbital radius of Venus is about 105 million kilometres.",
+   "concept": "Ratios of 45 degrees",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch08_q200.png"
+   ],
+   "figure_required": true,
+   "ocr": "Printed section is COMPETENCEY BASED QUESTIONS; mapped to case_study / 4 marks. The stem says 'See the following figure' and only the figure shows the right angle at Venus and that the 45° is at Earth, so it is attached."
+  },
+  {
+   "number": "201",
+   "form": "case_study",
+   "marks": 4,
+   "page": 38,
+   "stem": "Cyclometer : Meteorologists find the height of a cloud using an instrument called a ceilometer. It consists of a light projector that directs a vertical light beam up to the cloud base and a light detector that scans the cloud to detect the light beam.\nOn July 2, 2021, at Midway Airport in Mumbai, a ceilometer was employed to find the height of the cloud cover. It was set up with its light detector 50 meter from its light projector. If the angle of elevation from the light detector to the base of the cloud was 60°, what was the height of the cloud cover?",
+   "answer": "Let h be the height of the cloud above the ground. The detector is 50 m from the projector along the ground, and the angle of elevation from the detector to the cloud base is 60°, so the horizontal side is 50 m and h is opposite the 60° angle. Then tan60° = h/50, i.e. √3 = h/50, giving h = 50√3 = 50 × 1.732 = 86.6 m. The cloud cover was about 86.6 m high.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed section is COMPETENCEY BASED QUESTIONS; mapped to case_study / 4 marks. KEY CONTRADICTS ITS OWN SOLUTION: the working reaches '√3 = h/50', which forces h = 50√3 = 86.6 m, but the book's next line reads 'h = 150 × √3 = 150 × 1.732 = 259.8 m'. The solution line wins, so the answer recorded is 86.6 m. The heading also prints 'Cyclometer' where the body says 'ceilometer'; kept as printed."
+  }
+ ]
+}

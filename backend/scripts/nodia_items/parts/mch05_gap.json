@@ -1,0 +1,59 @@
+{
+ "items": [
+  {
+   "number": "94",
+   "form": "very_short",
+   "marks": 2,
+   "page": 53,
+   "stem": "If the sum of first n terms of an AP is n², then find its 10th term.",
+   "answer": "Sₙ = n², so Sₙ₋₁ = (n − 1)². The nth term is aₙ = Sₙ − Sₙ₋₁ = n² − (n − 1)² = n² − (n² − 2n + 1) = 2n − 1. Hence a₁₀ = 2 × 10 − 1 = 19.",
+   "concept": "Formula for the sum",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2019 Delhi",
+   "ocr": "recovered by the gap pass: printed on page 53, which the page reorder could not place because it carries both question 1 and questions 94-98, so no anchor window fits it. It was appended at the end of the file, inside the FIVE MARKS reader's range, and that reader correctly left these TWO MARKS questions alone."
+  },
+  {
+   "number": "95",
+   "form": "very_short",
+   "marks": 2,
+   "page": 53,
+   "stem": "Is 184 a term of the sequence 3, 7, 11, …… ?",
+   "answer": "Here a = 3 and d = 7 − 3 = 11 − 7 = 4. Putting aₙ = 184 in aₙ = a + (n − 1)d gives 184 = 3 + (n − 1)4, so (n − 1) = 181/4 = 45.25 and n = 46.25. Since 46.25 is not a whole number, 184 is not a term of the given AP.",
+   "concept": "Formula for the nth term",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012",
+   "ocr": "recovered by the gap pass: printed on page 53, which the page reorder could not place because it carries both question 1 and questions 94-98, so no anchor window fits it. It was appended at the end of the file, inside the FIVE MARKS reader's range, and that reader correctly left these TWO MARKS questions alone."
+  },
+  {
+   "number": "96",
+   "form": "very_short",
+   "marks": 2,
+   "page": 53,
+   "stem": "Find, 100 is a term of the AP 25, 28, 31, …… or not.",
+   "answer": "Here a = 25 and d = 28 − 25 = 31 − 28 = 3. Putting aₙ = 100 in aₙ = a + (n − 1)d gives 100 = 25 + (n − 1) × 3, so 75 = (n − 1) × 3, n − 1 = 25 and n = 26. Since 26 is a whole number, 100 is a term of the given AP.",
+   "concept": "Formula for the nth term",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012",
+   "ocr": "recovered by the gap pass: printed on page 53, which the page reorder could not place because it carries both question 1 and questions 94-98, so no anchor window fits it. It was appended at the end of the file, inside the FIVE MARKS reader's range, and that reader correctly left these TWO MARKS questions alone."
+  },
+  {
+   "number": "97",
+   "form": "very_short",
+   "marks": 2,
+   "page": 53,
+   "stem": "Find the 7th term from the end of AP 7, 10, 13, …. 184.",
+   "answer": "Write the AP in reverse order: 184, ….. 13, 10, 7. For the reversed AP the first term is a = 184 and the common difference is d = 7 − 10 = −3. The 7th term from the original end is a₇ = a + 6d = 184 + 6(−3) = 184 − 18 = 166. Hence 166 is the 7th term from the end.",
+   "concept": "Formula for the nth term",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012",
+   "ocr": "recovered by the gap pass: printed on page 53, which the page reorder could not place because it carries both question 1 and questions 94-98, so no anchor window fits it. It was appended at the end of the file, inside the FIVE MARKS reader's range, and that reader correctly left these TWO MARKS questions alone."
+  },
+  {
+   "number": "98",
+   "form": "very_short",
+   "marks": 2,
+   "page": 53,
+   "stem": "In a certain AP 32nd term is twice the 12th term. Prove that 70th term is twice the 31st term.",
+   "answer": "Let the first term be a, the common difference d and the nth term aₙ. Given a₃₂ = 2a₁₂, so a + 31d = 2(a + 11d) = 2a + 22d, which gives a = 9d. Now a₇₀ = a + 69d = 9d + 69d = 78d, and a₃₁ = a + 30d = 9d + 30d = 39d. Since 78d = 2 × 39d, the 70th term is twice the 31st term. Hence proved.",
+   "concept": "Formula for the nth term",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2015, 2012",
+   "ocr": "recovered by the gap pass: printed on page 53, which the page reorder could not place because it carries both question 1 and questions 94-98, so no anchor window fits it. It was appended at the end of the file, inside the FIVE MARKS reader's range, and that reader correctly left these TWO MARKS questions alone. The printed solution runs past the foot of the page - it stops after a = 9d - so the remaining two lines are completed from that result."
+  }
+ ]
+}

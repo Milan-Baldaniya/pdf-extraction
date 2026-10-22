@@ -1,0 +1,2444 @@
+{
+ "chapter": 7,
+ "chapter_id": 23512,
+ "extraction_id": 396,
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If the distance between the points (3, −5) and (x, −5) is 15 units, then the values of x are:",
+   "options": [
+    {
+     "label": "A",
+     "text": "12, −18"
+    },
+    {
+     "label": "B",
+     "text": "−12, 18"
+    },
+    {
+     "label": "C",
+     "text": "18, 5"
+    },
+    {
+     "label": "D",
+     "text": "−9, −12"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Both points share the ordinate −5, so the distance reduces to the horizontal gap: 15² = (x − 3)², giving x − 3 = ±15. Hence x = 18 or x = −12, i.e. the values are −12 and 18.",
+   "concept": "The formula itself",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "AD is a median of ΔABC with vertices A(5, −6), B(6, 4) and C(0, 0). Length AD is equal to :",
+   "options": [
+    {
+     "label": "A",
+     "text": "√68 units"
+    },
+    {
+     "label": "B",
+     "text": "2√15 units"
+    },
+    {
+     "label": "C",
+     "text": "√101 units"
+    },
+    {
+     "label": "D",
+     "text": "10 units"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "A median runs to the mid-point of the opposite side, so D is the mid-point of BC: D = ((6 + 0)/2, (4 + 0)/2) = (3, 2). Then AD = √((3 − 5)² + (2 − (−6))²) = √(4 + 64) = √68 units.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The centre of a circle is at (2, 0). If one end of a diameter is at (6, 0), then the other end is at",
+   "options": [
+    {
+     "label": "A",
+     "text": "(0, 0)"
+    },
+    {
+     "label": "B",
+     "text": "(4, 0)"
+    },
+    {
+     "label": "C",
+     "text": "(−2, 0)"
+    },
+    {
+     "label": "D",
+     "text": "(−6, 0)"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The centre is the mid-point of a diameter. With the far end (x, y): (x + 6)/2 = 2 gives x = −2, and (y + 0)/2 = 0 gives y = 0. The other end is (−2, 0).",
+   "concept": "Mid-point as a special case",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The distance of the point (−6, 8) from x-axis is",
+   "options": [
+    {
+     "label": "A",
+     "text": "6 units"
+    },
+    {
+     "label": "B",
+     "text": "−6 units"
+    },
+    {
+     "label": "C",
+     "text": "8 units"
+    },
+    {
+     "label": "D",
+     "text": "10 units"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Distance from the x-axis is the absolute value of the ordinate. Here |y| = |8| = 8, so the point stands 8 units from the x-axis.",
+   "concept": "Abscissa and ordinate",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution mis-words itself - it says 'distance from the y-axis is the absolute value of its x-coordinate, which is 8', but |x| = 6, not 8. The number it reports (8) and the printed key (c) are both right for the question as asked (distance from the x-axis = |y| = 8), so the key is not contradicted; only the prose is wrong. Answer rewritten correctly."
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The point of intersection of the line represented by 3x − y = 3 and y-axis is given by",
+   "options": [
+    {
+     "label": "A",
+     "text": "(0, −3)"
+    },
+    {
+     "label": "B",
+     "text": "(0, 3)"
+    },
+    {
+     "label": "C",
+     "text": "(2, 0)"
+    },
+    {
+     "label": "D",
+     "text": "(−2, 0)"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Every point of the y-axis has x = 0. Substituting x = 0 into 3x − y = 3 gives −y = 3, so y = −3. The line meets the y-axis at (0, −3).",
+   "concept": "Points on the axes",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 40,
+   "stem": "The centroid of the triangle whose vertices are (3, −7), (−8, 6) and (5, 10) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "(0, 9)"
+    },
+    {
+     "label": "B",
+     "text": "(0, 3)"
+    },
+    {
+     "label": "C",
+     "text": "(1, 3)"
+    },
+    {
+     "label": "D",
+     "text": "(3, 5)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The centroid averages the three vertices: x = (3 − 8 + 5)/3 = 0/3 = 0 and y = (−7 + 6 + 10)/3 = 9/3 = 3. The centroid is (0, 3).",
+   "concept": "The section formula",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term 1 Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 40,
+   "stem": "The ratio in which the point (2, y) divides the join of (−4, 3) and (6, 3), hence the value of y is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2 : 3, y = 3"
+    },
+    {
+     "label": "B",
+     "text": "3 : 2, y = 4"
+    },
+    {
+     "label": "C",
+     "text": "3 : 2, y = 3"
+    },
+    {
+     "label": "D",
+     "text": "3 : 2, y = 2"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Take the ratio as k : 1. Then 2 = (6k − 4)/(k + 1), so 2k + 2 = 6k − 4 and k = 3/2, i.e. the ratio 3 : 2. Both given points have ordinate 3, and indeed y = (3·3 + 2·3)/(3 + 2) = 3. So the ratio is 3 : 2 with y = 3.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term 1 Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 40,
+   "stem": "The point P on x-axis equidistant from the points A(−1, 0) and B(5, 0) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "(2, 0)"
+    },
+    {
+     "label": "B",
+     "text": "(0, 2)"
+    },
+    {
+     "label": "C",
+     "text": "(3, 0)"
+    },
+    {
+     "label": "D",
+     "text": "(−3, 5)"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let P = (x, 0). Setting PA² = PB² gives (x + 1)² = (5 − x)², so x² + 2x + 1 = 25 − 10x + x², hence 12x = 24 and x = 2. Since A and B both lie on the x-axis, P is simply their mid-point, (2, 0).",
+   "concept": "Points on the axes",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 40,
+   "stem": "The co-ordinates of the point which is reflection of point (−3, 5) in x-axis are",
+   "options": [
+    {
+     "label": "A",
+     "text": "(3, 5)"
+    },
+    {
+     "label": "B",
+     "text": "(3, −5)"
+    },
+    {
+     "label": "C",
+     "text": "(−3, −5)"
+    },
+    {
+     "label": "D",
+     "text": "(−3, 5)"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Reflecting in the x-axis keeps the abscissa and reverses the sign of the ordinate. So (−3, 5) maps to (−3, −5).",
+   "concept": "Abscissa and ordinate",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints a graph beside the solution showing (−3, 5) and (−3, −5); it is a solution figure, not needed to read the question, so it is not attached."
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 40,
+   "stem": "If the point P (6, 2) divides the line segment joining A(6, 5) and B(4, y) in the ratio 3 : 1 then the value of y is",
+   "options": [
+    {
+     "label": "A",
+     "text": "4"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "By the section formula on the ordinates, 2 = (3y + 1·5)/(3 + 1) = (3y + 5)/4. So 3y + 5 = 8, giving 3y = 3 and y = 1.",
+   "concept": "The section formula",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 42,
+   "stem": "The distance between the points (a cos θ + b sin θ, 0), and (0, a sin θ − b cos θ) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "a² + b²"
+    },
+    {
+     "label": "B",
+     "text": "a² − b²"
+    },
+    {
+     "label": "C",
+     "text": "√(a² + b²)"
+    },
+    {
+     "label": "D",
+     "text": "√(a² − b²)"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "d² = (a cos θ + b sin θ)² + (a sin θ − b cos θ)². Expanding, the cross terms +2ab cos θ sin θ and −2ab sin θ cos θ cancel, leaving a²(cos²θ + sin²θ) + b²(sin²θ + cos²θ) = a² + b². Hence d = √(a² + b²).",
+   "concept": "The formula itself",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 42,
+   "stem": "If the point P(k, 0) divides the line segment joining the points A(2, −2) and B(−7, 4) in the ratio 1 : 2, then the value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "−2"
+    },
+    {
+     "label": "D",
+     "text": "−1"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "By the section formula, k = (1·(−7) + 2·2)/(1 + 2) = (−7 + 4)/3 = −3/3 = −1.",
+   "concept": "The section formula",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 42,
+   "stem": "The coordinates of a point A on y-axis, at a distance of 4 units from x-axis and below it are",
+   "options": [
+    {
+     "label": "A",
+     "text": "(4, 0)"
+    },
+    {
+     "label": "B",
+     "text": "(0, 4)"
+    },
+    {
+     "label": "C",
+     "text": "(−4, 0)"
+    },
+    {
+     "label": "D",
+     "text": "(0, −4)"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A point on the y-axis has abscissa 0. Being 4 units below the x-axis makes the ordinate −4. So A is (0, −4).",
+   "concept": "Points on the axes",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 42,
+   "stem": "The distance of the point (−12, 5) from the origin is",
+   "options": [
+    {
+     "label": "A",
+     "text": "12"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "13"
+    },
+    {
+     "label": "D",
+     "text": "169"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Distance from the origin is √(x² + y²) = √((−12)² + 5²) = √(144 + 25) = √169 = 13 units.",
+   "concept": "The formula itself",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No board/year tag is printed against this solution."
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 42,
+   "stem": "Distance of point P(3, 4) from x-axis is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3 units"
+    },
+    {
+     "label": "B",
+     "text": "4 units"
+    },
+    {
+     "label": "C",
+     "text": "5 units"
+    },
+    {
+     "label": "D",
+     "text": "1 units"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Distance from the x-axis equals the absolute value of the ordinate, |4| = 4 units. (Its distance from the y-axis would be |3| = 3 units.)",
+   "concept": "Abscissa and ordinate",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Option (d) is printed as '1 units'; kept as printed. The graph beside the solution is a solution figure, not attached."
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 42,
+   "stem": "The distance of the point P(−3, −4) from the x-axis (in units) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "−3"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "5"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Distance from the x-axis is |y| = |−4| = 4 units.",
+   "concept": "Abscissa and ordinate",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 SQP Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 42,
+   "stem": "If A(m/3, 5) is the mid-point of the line segment joining the points Q(−6, 7) and R(−2, 3), then the value of m is",
+   "options": [
+    {
+     "label": "A",
+     "text": "−12"
+    },
+    {
+     "label": "B",
+     "text": "−4"
+    },
+    {
+     "label": "C",
+     "text": "12"
+    },
+    {
+     "label": "D",
+     "text": "−6"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The mid-point of QR is ((−6 − 2)/2, (7 + 3)/2) = (−4, 5). Equating abscissae, m/3 = −4, so m = −12.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 SQP Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem is printed at the foot of book page 273 (image p042); its options and solution run over onto book page 274 (image p003)."
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The mid-point of the line-segment AB is P(0, 4), if the coordinates of B are (−2, 3) then the co-ordinates of A are",
+   "options": [
+    {
+     "label": "A",
+     "text": "(2, 5)"
+    },
+    {
+     "label": "B",
+     "text": "(−2, −5)"
+    },
+    {
+     "label": "C",
+     "text": "(2, 9)"
+    },
+    {
+     "label": "D",
+     "text": "(−2, 11)"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let A = (x, y). From the mid-point formula, (x − 2)/2 = 0 gives x = 2, and (y + 3)/2 = 4 gives y = 5. So A is (2, 5).",
+   "concept": "Mid-point as a special case",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "x-axis divides the line segment joining A(2, −3) and B(5, 6) in the ratio",
+   "options": [
+    {
+     "label": "A",
+     "text": "2 : 3"
+    },
+    {
+     "label": "B",
+     "text": "3 : 5"
+    },
+    {
+     "label": "C",
+     "text": "1 : 2"
+    },
+    {
+     "label": "D",
+     "text": "2 : 1"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "A point of the x-axis has ordinate 0. Writing the ratio as k : 1, 0 = (6k − 3)/(k + 1), so 6k = 3 and k = 1/2. The ratio is therefore 1 : 2.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The point which divides the line segment joining the points (8, −9) and (2, 3) in the ratio 1 : 2 internally lies in the",
+   "options": [
+    {
+     "label": "A",
+     "text": "I quadrant"
+    },
+    {
+     "label": "B",
+     "text": "II quadrant"
+    },
+    {
+     "label": "C",
+     "text": "III quadrant"
+    },
+    {
+     "label": "D",
+     "text": "IV quadrant"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "By the section formula, x = (1·2 + 2·8)/3 = 18/3 = 6 and y = (1·3 + 2·(−9))/3 = −15/3 = −5. The point (6, −5) has a positive abscissa and a negative ordinate, so it lies in the IV quadrant.",
+   "concept": "Dividing in a given ratio",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 SQP Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the centre of a circle is (3, 5) and end points of a diameter are (4, 7) and (2, y), then the value of y is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "−3"
+    },
+    {
+     "label": "C",
+     "text": "7"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The centre is the mid-point of the diameter, so 5 = (7 + y)/2. Hence 7 + y = 10 and y = 3.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the distance between the points A(4, p) and B(1, 0) is 5 units then the value(s) of p is(are)",
+   "options": [
+    {
+     "label": "A",
+     "text": "4 only"
+    },
+    {
+     "label": "B",
+     "text": "−4 only"
+    },
+    {
+     "label": "C",
+     "text": "±4"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "5 = √((1 − 4)² + (0 − p)²) gives 25 = 9 + p², so p² = 16 and p = ±4. Both signs satisfy the distance, so p = ±4.",
+   "concept": "The formula itself",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If the points A(4, 3) and B(x, 5) are on the circle with centre O(2, 3), then the value of x is",
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "1"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Both points lie on the circle, so OA = OB. Then √((4 − 2)² + 0²) = √((x − 2)² + (5 − 3)²) gives 4 = (x − 2)² + 4, so (x − 2)² = 0 and x = 2.",
+   "concept": "The formula itself",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The point on the x-axis which is equidistant from the points A(−2, 3) and B(5, 4) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "(0, 2)"
+    },
+    {
+     "label": "B",
+     "text": "(2, 0)"
+    },
+    {
+     "label": "C",
+     "text": "(3, 0)"
+    },
+    {
+     "label": "D",
+     "text": "(−2, 0)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let P = (x, 0) with AP = BP. Then (x + 2)² + 9 = (x − 5)² + 16, so x² + 4x + 13 = x² − 10x + 41, giving 14x = 28 and x = 2. The point is (2, 0).",
+   "concept": "Points on the axes",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "25",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "C is the mid-point of PQ, if P is (4, x), C is (y, −1) and Q is (−2, 4), then x and y respectively are",
+   "options": [
+    {
+     "label": "A",
+     "text": "−6 and 1"
+    },
+    {
+     "label": "B",
+     "text": "−6 and 2"
+    },
+    {
+     "label": "C",
+     "text": "6 and −1"
+    },
+    {
+     "label": "D",
+     "text": "6 and −2"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "From the mid-point formula on abscissae, y = (4 − 2)/2 = 1. On ordinates, (x + 4)/2 = −1 gives x + 4 = −2, so x = −6. Hence x = −6 and y = 1.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "26",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If x − 2y + k = 0 is a median of the triangle whose vertices are at points A(−1, 3), B(0, 4) and C(−5, 2), then the value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "8"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Every median passes through the centroid, which is G = ((−1 + 0 − 5)/3, (3 + 4 + 2)/3) = (−2, 3). Substituting into x − 2y + k = 0 gives −2 − 6 + k = 0, so k = 8.",
+   "concept": "The section formula",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed working shows the centroid's abscissa as (−1 + 0 − 5)/2 - a typo for /3; the value it then reports, (−2, 3), is the correct /3 result, and the key (d) follows from it."
+  },
+  {
+   "number": "27",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "In the given figure, the area of ΔABC (in sq units) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "15"
+    },
+    {
+     "label": "B",
+     "text": "10"
+    },
+    {
+     "label": "C",
+     "text": "7.5"
+    },
+    {
+     "label": "D",
+     "text": "2.5"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The figure gives A(1, 3), B(−1, 0) and C(4, 0). BC lies along the x-axis with length 4 − (−1) = 5, and the height from A is its ordinate 3. So the area is ½ × 5 × 3 = 7.5 sq units.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [
+    "ch07_q27.png"
+   ],
+   "figure_required": true,
+   "ocr": "The vertices are shown only on the printed graph, not stated in words, so the figure is required."
+  },
+  {
+   "number": "28",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The distance of the point P(2, 3) from the x-axis is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "5"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "For a point (x, y), the perpendicular distance from the x-axis is |y|. Here it is 3.",
+   "concept": "Abscissa and ordinate",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem and options are on book page 275 (image p004); the solution runs onto book page 276 (image p005), where the accompanying diagram is a solution figure and is not attached."
+  },
+  {
+   "number": "29",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The distance between the points A(0, 6) and B(0, −2) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "6"
+    },
+    {
+     "label": "B",
+     "text": "8"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Both points lie on the y-axis, so AB = √((0 − 0)² + (−2 − 6)²) = √64 = 8.",
+   "concept": "The formula itself",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "30",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The distance of the point P(−6, 8) from the origin is",
+   "options": [
+    {
+     "label": "A",
+     "text": "8"
+    },
+    {
+     "label": "B",
+     "text": "2√7"
+    },
+    {
+     "label": "C",
+     "text": "10"
+    },
+    {
+     "label": "D",
+     "text": "6"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Distance from the origin is √(x² + y²) = √(36 + 64) = √100 = 10.",
+   "concept": "The formula itself",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "31",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The distance between the points (0, 5) and (−5, 0) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "5√2"
+    },
+    {
+     "label": "C",
+     "text": "2√5"
+    },
+    {
+     "label": "D",
+     "text": "10"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "d = √((−5 − 0)² + (0 − 5)²) = √(25 + 25) = √50 = 5√2.",
+   "concept": "The formula itself",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "32",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "If AOBC is a rectangle whose three vertices are A(0, 3), O(0, 0) and B(5, 0), then the length of its diagonal is",
+   "options": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "√34"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "A diagonal joins A(0, 3) to B(5, 0), so its length is √((5 − 0)² + (0 − 3)²) = √(25 + 9) = √34.",
+   "concept": "The formula itself",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A sketch of the rectangle is printed with the question, but every vertex it needs is already given in words, so the figure is not required."
+  },
+  {
+   "number": "33",
+   "form": "mcq",
+   "marks": 1,
+   "page": 41,
+   "stem": "The perimeter of a triangle with vertices (0, 4), (0, 0) and (3, 0) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "12"
+    },
+    {
+     "label": "C",
+     "text": "11"
+    },
+    {
+     "label": "D",
+     "text": "7 + √5"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Call the vertices A(0, 4), O(0, 0) and B(3, 0). Then OA = 4, OB = 3 and AB = √(3² + 4²) = 5. The perimeter is 4 + 3 + 5 = 12.",
+   "concept": "The formula itself",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A sketch is printed between the stem and the options, but all three vertices are stated in the stem, so the figure is not required."
+  },
+  {
+   "number": "34",
+   "form": "mcq",
+   "marks": 1,
+   "page": 41,
+   "stem": "The point which lies on the perpendicular bisector of the line segment joining the points A(−2, −5) and B(2, 5) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "(0, 0)"
+    },
+    {
+     "label": "B",
+     "text": "(0, 2)"
+    },
+    {
+     "label": "C",
+     "text": "(2, 0)"
+    },
+    {
+     "label": "D",
+     "text": "(−2, 0)"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "A perpendicular bisector always passes through the mid-point of the segment. The mid-point of AB is ((−2 + 2)/2, (−5 + 5)/2) = (0, 0), so (0, 0) lies on it.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "35",
+   "form": "mcq",
+   "marks": 1,
+   "page": 41,
+   "stem": "If the point P(2, 1) lies on the line segment joining points A(4, 2) and B(8, 4), then",
+   "options": [
+    {
+     "label": "A",
+     "text": "AP = ⅓ AB"
+    },
+    {
+     "label": "B",
+     "text": "AP = PB"
+    },
+    {
+     "label": "C",
+     "text": "PB = ⅓ AB"
+    },
+    {
+     "label": "D",
+     "text": "AP = ½ AB"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The three points are collinear on y = x/2. Measuring along it, AP = √((4 − 2)² + (2 − 1)²) = √5 and AB = √((8 − 4)² + (4 − 2)²) = 2√5. Hence AP = ½ AB.",
+   "concept": "The section formula",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "As printed, P(2, 1) is not between A and B - it lies outside the segment AB on the same line. The printed solution treats A as the dividing point and reaches m : n = 1 : 2, from which AP = ½ AB; that result is what the distances confirm, so the key (d) stands."
+  },
+  {
+   "number": "36",
+   "form": "mcq",
+   "marks": 1,
+   "page": 41,
+   "stem": "If P(a/3, 4) is the mid-point of the line segment joining the points Q(−6, 5) and R(−2, 3), then the value of a is",
+   "options": [
+    {
+     "label": "A",
+     "text": "−4"
+    },
+    {
+     "label": "B",
+     "text": "−12"
+    },
+    {
+     "label": "C",
+     "text": "12"
+    },
+    {
+     "label": "D",
+     "text": "−6"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The mid-point of QR is ((−6 − 2)/2, (5 + 3)/2) = (−4, 4). Equating abscissae, a/3 = −4, so a = −12.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "37",
+   "form": "mcq",
+   "marks": 1,
+   "page": 41,
+   "stem": "The perpendicular bisector of the line segment joining the points A(1, 5) and B(4, 6) cuts the y-axis at",
+   "options": [
+    {
+     "label": "A",
+     "text": "(0, 13)"
+    },
+    {
+     "label": "B",
+     "text": "(0, −13)"
+    },
+    {
+     "label": "C",
+     "text": "(0, 12)"
+    },
+    {
+     "label": "D",
+     "text": "(13, 0)"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let P(0, b) be the point where it meets the y-axis. Any point of the perpendicular bisector is equidistant from A and B, so PA² = PB²: 1 + (b − 5)² = 16 + (b − 6)². Expanding, 1 + b² − 10b + 25 = 16 + b² − 12b + 36, so 2b = 26 and b = 13. The point is (0, 13).",
+   "concept": "Points on the axes",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem and options are on book page 277 (image p041); the working finishes on book page 278 (image p006), where a solution graph is printed - not attached."
+  },
+  {
+   "number": "38",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "stem": "Assertion : The value of y is 6, for which the distance between the points P(2, −3) and Q(10, y) is 10.\nReason : Distance between two given points A(x₁, y₁) and B(x₂, y₂) is given by AB = √((x₂ − x₁)² + (y₂ − y₁)²).",
+   "assertion": "The value of y is 6, for which the distance between the points P(2, −3) and Q(10, y) is 10.",
+   "reason": "Distance between two given points A(x₁, y₁) and B(x₂, y₂) is given by AB = √((x₂ − x₁)² + (y₂ − y₁)²).",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Apply the distance formula the reason states: PQ² = 100 gives (10 − 2)² + (y + 3)² = 100, so (y + 3)² = 36 and y + 3 = ±6, i.e. y = 3 or y = −9. Neither value is 6, so the assertion is false while the reason is a correct statement of the distance formula.",
+   "concept": "The formula itself",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed key reads 'Thus (s) is correct option' - there is no option (s). The worked solution ends 'Assertion (A) is false but reason (R) is true', which is option (d), so the solution decides it and the key is recorded as D."
+  },
+  {
+   "number": "39",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "stem": "Find a point P on x-axis equidistant from the points A(−1, 0) and B(5, 0).",
+   "answer": "Let P be (x, 0) on the x-axis. Equidistance gives PA² = PB², so (x + 1)² + 0² = (5 − x)² + 0². Expanding, x² + 2x + 1 = 25 − 10x + x², hence 12x = 24 and x = 2. (Both A and B lie on the x-axis, so P is simply their mid-point, x = (−1 + 5)/2 = 2.) The required point is P(2, 0).",
+   "concept": "Points on the axes",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "40",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "stem": "Find the point on y-axis which is equidistant from the points (5, −2) and (−3, 2).",
+   "answer": "Let C(0, a) be the point on the y-axis, with A(5, −2) and B(−3, 2). From AC = BC, √((0 − 5)² + (a + 2)²) = √((0 + 3)² + (a − 2)²), so 25 + a² + 4 + 4a = 9 + a² + 4 − 4a. This gives 8a = −16, a = −2. The required point on the y-axis is (0, −2).",
+   "concept": "Points on the axes",
+   "section_heading": "ONE MARK QUESTIONS | Board 2019 Delhi",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints the final answer as \"(0 − 2)\"; the comma is dropped in typesetting and the worked solution gives a = −2, i.e. (0, −2)."
+  },
+  {
+   "number": "41",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "Find the distance between the points (a cos θ + b sin θ, 0), and (0, a sin θ − b cos θ)?",
+   "answer": "Take x₁ = a cos θ + b sin θ, y₁ = 0, x₂ = 0, y₂ = a sin θ − b cos θ. Then d² = (x₂ − x₁)² + (y₂ − y₁)² = (a cos θ + b sin θ)² + (a sin θ − b cos θ)². Expanding, a²cos²θ + b²sin²θ + 2ab cos θ sin θ + a²sin²θ + b²cos²θ − 2ab sin θ cos θ = a²(sin²θ + cos²θ) + b²(sin²θ + cos²θ) = a² + b². Hence d = √(a² + b²).",
+   "concept": "The formula itself",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "42",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "Find the co-ordinates of the point which is reflection of point (−3, 5) in x-axis.",
+   "answer": "Reflecting in the x-axis keeps the abscissa and reverses the sign of the ordinate. So the reflection of (−3, 5) in the x-axis is (−3, −5).",
+   "concept": "Abscissa and ordinate",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "43",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "If A(4, −1), B(5, 3), C(2, y) and D(1, 1) are the vertices of a parallelogram ABCD, find y.",
+   "answer": "The diagonals of a parallelogram bisect each other, so the mid-points of AC and BD coincide. Mid-point of BD is ((5 + 1)/2, (3 + 1)/2) = (3, 2), and mid-point of AC is (3, (−1 + y)/2). Equating the ordinates, (−1 + y)/2 = 2, so −1 + y = 4 and y = 5.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2, 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "44",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "If the point P(6, 2) divides the line segment joining A(6, 5) and B(4, y) in the ratio 3 : 1 then what is the value of y?",
+   "answer": "With A(6, 5) as (x₁, y₁) and B(4, y) as (x₂, y₂) and m : n = 3 : 1, the section formula for the ordinate gives 2 = (3 × y + 1 × 5)/(3 + 1) = (3y + 5)/4. Hence 3y + 5 = 8, 3y = 3 and y = 1.",
+   "concept": "The section formula",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "45",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "Find the coordinates of a point A on y-axis, at a distance of 4 units from x-axis and below it.",
+   "answer": "A point on the y-axis has abscissa 0. Being 4 units below the x-axis, its ordinate is −4. Hence the coordinates of A are (0, −4).",
+   "concept": "Points on the axes",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "46",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "What is the distance of the point (−12, 5) from the origin?",
+   "answer": "The distance of (x, y) from the origin is √(x² + y²). Here d = √((−12 − 0)² + (5 − 0)²) = √(144 + 25) = √169 = 13 units.",
+   "concept": "The formula itself",
+   "section_heading": "ONE MARK QUESTIONS",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "47",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "Find the ratio in which x-axis divides the line segment joining A(2, −3) and B(5, 6).",
+   "answer": "Let P(x, 0) on the x-axis divide AB in the ratio k : 1. Using the section formula for the ordinate, 0 = (6k − 3)/(k + 1), so 6k = 3 and k = ½. The required ratio is therefore 1 : 2.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "48",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "What is the distance of point P(3, 4) from x-axis?",
+   "answer": "The distance of a point from the x-axis is the numerical value of its ordinate. For P(3, 4) that is 4 units (and it is 3 units from the y-axis).",
+   "concept": "Abscissa and ordinate",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "49",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "If A(m/3, 5) is the mid-point of the line segment joining the points Q(−6, 7) and R(−2, 3), then what is the value of m?",
+   "answer": "The mid-point of Q(−6, 7) and R(−2, 3) is ((−6 − 2)/2, (7 + 3)/2) = (−4, 5). Comparing with A(m/3, 5) gives m/3 = −4, so m = −12.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 SQP Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "50",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "The mid-point of the line-segment AB is P(0, 4), if the coordinates of B are (−2, 3) then find the co-ordinates of A.",
+   "answer": "Let A be (x, y). By the mid-point formula, (0, 4) = ((x − 2)/2, (y + 3)/2). From 0 = (x − 2)/2 we get x = 2, and from 4 = (y + 3)/2 we get y + 3 = 8, y = 5. Hence A is (2, 5).",
+   "concept": "Mid-point as a special case",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "51",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "If the centre of a circle is (3, 5) and end points of a diameter are (4, 7) and (2, y), what is the value of y?",
+   "answer": "The centre is the mid-point of a diameter, so (3, 5) = ((4 + 2)/2, (7 + y)/2). Comparing the ordinates, 5 = (7 + y)/2, hence 7 + y = 10 and y = 3.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "52",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "If the distance between the points A(4, p) and B(1, 0) is 5 units then what are the values of p?",
+   "answer": "By the distance formula, 5 = √((1 − 4)² + (0 − p)²), so 25 = 9 + p². Hence p² = 16 and p = ±4.",
+   "concept": "The formula itself",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "53",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "If the points A(4, 3) and B(x, 5) are on the circle with centre O(2, 3), then what is the value of x?",
+   "answer": "A and B lie on the same circle, so OA = OB. Now OA = √((4 − 2)² + (3 − 3)²) = 2, and OB = √((x − 2)² + (5 − 3)²) = √((x − 2)² + 4). Squaring, 4 = (x − 2)² + 4, so (x − 2)² = 0 and x = 2.",
+   "concept": "The formula itself",
+   "section_heading": "ONE MARK QUESTIONS",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "54",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "If three points (0, 0), (3, √3) and (3, λ) form an equilateral triangle, then what is the value of λ?",
+   "answer": "Let A(0, 0), B(3, √3) and C(3, λ). For an equilateral triangle AB = AC, so √((3 − 0)² + (√3 − 0)²) = √((3 − 0)² + (λ − 0)²), giving 9 + 3 = 9 + λ². Hence λ² = 3 and λ = ±√3.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "ONE MARK QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution concludes λ = ±√3; strictly λ = +√3 repeats the point B, so only λ = −√3 gives a genuine triangle. Reproduced as printed."
+  },
+  {
+   "number": "55",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "The co-ordinate of the point dividing the line segment joining the points A(1, 3) and B(4, 6) in the ratio 2 : 1 is ......... .",
+   "answer": "Let P(x, y) divide AB in the ratio 2 : 1. By the section formula, (x, y) = ((2 × 4 + 1 × 1)/(2 + 1), (2 × 6 + 1 × 3)/(2 + 1)) = ((8 + 1)/3, (12 + 3)/3) = (9/3, 15/3) = (3, 5).",
+   "concept": "The section formula",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "56",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "Find the distance of a point P(x, y) from the origin.",
+   "answer": "Apply the distance formula to the origin (0, 0) and P(x, y): d = √((x − 0)² + (y − 0)²) = √(x² + y²). So the distance of P from the origin is √(x² + y²).",
+   "concept": "Deriving the distance",
+   "section_heading": "ONE MARK QUESTIONS | Board 2018",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "57",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "If the mid-point of the line segment joining the points A(3, 4) and B(k, 6) is P(x, y) and x + y − 10 = 0, find the value of k.",
+   "answer": "Since P(x, y) is the mid-point of A(3, 4) and B(k, 6), x = (3 + k)/2 and y = (4 + 6)/2 = 5. Substituting in x + y − 10 = 0 gives (3 + k)/2 + 5 − 10 = 0, so (3 + k)/2 = 5 and 3 + k = 10. Hence k = 7.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "58",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "The ordinate of a point A on y-axis is 5 and B has co-ordinates (−3, 1). Find the length of AB.",
+   "answer": "A lies on the y-axis with ordinate 5, so A is (0, 5), and B is (−3, 1). Then AB = √((−3 − 0)² + (1 − 5)²) = √(9 + 16) = √25 = 5 units.",
+   "concept": "The formula itself",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "59",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "Find the coordinates of a point A, where AB is diameter of a circle whose centre is (2, −3) and B is the point (1, 4).",
+   "answer": "Since AB is a diameter, the centre C(2, −3) is the mid-point of AB. Let A be (x, y). From (x + 1)/2 = 2 we get x + 1 = 4, x = 3; from (y + 4)/2 = −3 we get y + 4 = −6, y = −10. Hence A is (3, −10).",
+   "concept": "Mid-point as a special case",
+   "section_heading": "ONE MARK QUESTIONS | Board 2019 Delhi",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "60",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Find the perpendicular distance of A(5, 12) from the y-axis.",
+   "answer": "The perpendicular from A(5, 12) meets the y-axis at (0, 12). The distance between (5, 12) and (0, 12) is √((0 − 5)² + (12 − 12)²) = √25 = 5 units. (Equivalently, it is the numerical value of the abscissa.)",
+   "concept": "Abscissa and ordinate",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2011",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "61",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "If the centre and radius of circle is (3, 4) and 7 units respectively, then what is the position of the point A(5, 8) with respect to circle?",
+   "answer": "Distance of A(5, 8) from the centre (3, 4) is d = √((5 − 3)² + (8 − 4)²) = √(4 + 16) = √20 = 2√5. Since 2√5 ≈ 4.47 is less than the radius 7, the point A lies inside the circle.",
+   "concept": "The formula itself",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed stem has typographical slips (\"respectively,,\" and \"what it the position\"); corrected to single comma and \"what is\"."
+  },
+  {
+   "number": "62",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Find the perimeter of a triangle with vertices (0, 4), (0, 0) and (3, 0).",
+   "answer": "With A(0, 4), B(0, 0) and C(3, 0): AB = √((0 − 0)² + (0 − 4)²) = 4, BC = √((3 − 0)² + (0 − 0)²) = 3, and CA = √((0 − 3)² + (4 − 0)²) = √(9 + 16) = √25 = 5. The perimeter is 4 + 3 + 5 = 12 units.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2, 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed AB line reads √((0 − 2)² + (0 − 4)²) = √16 = 4, a typo for (0 − 0)²; the value 4 it reports is correct, so the solution stands."
+  },
+  {
+   "number": "63",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Locate a point Q on line segment AB such that BQ = 5⁄7 × AB. What is the ratio of line segment in which AB is divided?",
+   "answer": "From BQ = (5/7)AB we get BQ/AB = 5/7, so AB/BQ = 7/5. Then (AB − BQ)/BQ = (7 − 5)/5, that is AQ/BQ = 2/5. Hence Q divides AB in the ratio AQ : BQ = 2 : 5.",
+   "concept": "Dividing in a given ratio",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2013",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "64",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Find the distance of the point (−4, −7) from the y-axis.",
+   "answer": "The perpendicular from A(−4, −7) meets the y-axis at (0, −7). The distance between (−4, −7) and (0, −7) is √((0 + 4)² + (−7 + 7)²) = √(16 + 0) = 4 units.",
+   "concept": "Abscissa and ordinate",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2013",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "65",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "If the distance between the points (4, k) and (1, 0) is 5, then what can be the possible values of k.",
+   "answer": "By the distance formula, √((4 − 1)² + (k − 0)²) = 5, so 3² + k² = 25. Hence k² = 25 − 9 = 16 and k = ±4.",
+   "concept": "The formula itself",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2017",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "66",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Find the coordinates of the point on y-axis which is nearest to the point (−2, 5).",
+   "answer": "The nearest point on the y-axis is the foot of the perpendicular from (−2, 5), which keeps the same ordinate and has abscissa 0. Hence the required point is (0, 5).",
+   "concept": "Points on the axes",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 SQP 2017",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "67",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "stem": "A line intersects y-axis and x-axis at point P and Q, respectively. If R(2,5) is the mid-point of line segment PQ, then find the coordinates of P and Q.",
+   "answer": "Let the line meet the y-axis at P(0,k) and the x-axis at Q(h,0). Since R(2,5) is the mid-point of PQ, (2,5) = ((0+h)/2, (k+0)/2) = (h/2, k/2). Comparing coordinates, h/2 = 2 gives h = 4 and k/2 = 5 gives k = 10. Hence P(0,10) and Q(4,0).",
+   "concept": "Mid-point as a special case",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "68",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "stem": "Find a relation between x and y such that the point P(x,y) is equidistant from the points A(−5,3) and B(7,2).",
+   "answer": "P is equidistant from A and B, so AP = BP and therefore AP² = BP²: (x+5)² + (y−3)² = (x−7)² + (y−2)². Expanding, x² + 10x + 25 + y² − 6y + 9 = x² − 14x + 49 + y² − 4y + 4, so 10x + 34 − 6y = −14x + 53 − 4y, giving 24x + 34 = 2y + 53. Hence the required relation is 24x − 2y − 19 = 0.",
+   "concept": "The formula itself",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 SQP 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "69",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "stem": "The x-coordinate of a point P is twice its y-coordinate. If P is equidistant from Q(2, −5) and R(−3, 6), find the co-ordinates of P.",
+   "answer": "Let P be (2y, y). Since PQ = PR, (2y−2)² + (y+5)² = (2y+3)² + (y−6)². Expanding, 4y² − 8y + 4 + y² + 10y + 25 = 4y² + 12y + 9 + y² − 12y + 36, so 2y + 29 = 45 and y = 8. Then x = 2y = 16. Hence the co-ordinates of P are (16, 8).",
+   "concept": "The formula itself",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "70",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "stem": "Find the ratio in which the point (−3,k) divides the line segment joining the points (−5,−4) and (−2,3). Also find the value of k.",
+   "answer": "Let the point divide the join of A(−5,−4) and B(−2,3) in the ratio n:1. Using the section formula for the x-coordinate, −3 = ((−2)n + 1(−5))/(n+1), so −3n − 3 = −2n − 5 and n = 2. The ratio is therefore 2:1. For the y-coordinate, k = (2(3) + 1(−4))/(2+1) = (6 − 4)/3 = 2/3. Hence the ratio is 2:1 and k = 2/3.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "71",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "stem": "If the point P(x,y) is equidistant from the points Q(a+b, b−a) and R(a−b, a+b), then prove that bx = ay.",
+   "answer": "Since P is equidistant from Q and R, PQ = PR, so [x − (a+b)]² + [y − (b−a)]² = [x − (a−b)]² + [y − (a+b)]². The terms x² and y² and the squares of the constants cancel, leaving −2x(a+b) − 2y(b−a) = −2x(a−b) − 2y(a+b). Rearranging, 2x(a+b − a+b) + 2y(b−a − a−b) = 0, that is 4bx − 4ay = 0. Hence bx = ay.",
+   "concept": "The formula itself",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2012, OD 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "72",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "stem": "Prove that the point (3,0), (6,4) and (−1,3) are the vertices of a right angled isosceles triangle.",
+   "answer": "Take A(3,0), B(6,4) and C(−1,3). Then AB² = (3−6)² + (0−4)² = 9 + 16 = 25, BC² = (6+1)² + (4−3)² = 49 + 1 = 50 and CA² = (−1−3)² + (3−0)² = 16 + 9 = 25. Since AB² = CA², AB = CA and the triangle is isosceles. Also AB² + CA² = 25 + 25 = 50 = BC², so by the converse of the Pythagoras theorem the angle at A is a right angle. Hence the triangle is a right angled isosceles triangle.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "73",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "stem": "If A(5,2), B(2,−2) and C(−2,t) are the vertices of a right angled triangle with ∠B = 90°, then find the value of t.",
+   "answer": "AB² = (2−5)² + (−2−2)² = 9 + 16 = 25. BC² = (−2−2)² + (t+2)² = 16 + (t+2)². AC² = (5+2)² + (2−t)² = 49 + (2−t)². Since ∠B = 90°, AC is the hypotenuse and AC² = AB² + BC², so 49 + (2−t)² = 25 + 16 + (t+2)². Expanding, 49 + 4 − 4t + t² = 41 + t² + 4t + 4, so 53 − 4t = 45 + 4t and 8t = 8. Hence t = 1.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2015",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "74",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "stem": "Find the ratio in which the point P(3/4, 5/12) divides the line segment joining the point A(1/2, 3/2) and (2,−5).",
+   "answer": "Let P divide AB in the ratio k:1, where A is (1/2, 3/2) and B is (2,−5). Using the section formula on the x-coordinate, (k(2) + 1(1/2))/(k+1) = 3/4. Cross-multiplying, 4(2k + 1/2) = 3(k+1), that is 8k + 2 = 3k + 3, so 5k = 1 and k = 1/5. Hence the required ratio is (1/5):1, that is 1:5.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2015",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "75",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "Show that the points (a,a), (−a,−a) and (−√3 a, √3 a) are the vertices of an equilateral triangle.",
+   "answer": "Let A(a,a), B(−a,−a) and C(−√3 a, √3 a). Then AB = √((a+a)² + (a+a)²) = √(4a² + 4a²) = 2√2 a. BC = √((−a + √3 a)² + (−a − √3 a)²) = √(a² − 2√3 a² + 3a² + a² + 2√3 a² + 3a²) = √(8a²) = 2√2 a. AC = √((a + √3 a)² + (a − √3 a)²) = √(a² + 2√3 a² + 3a² + a² − 2√3 a² + 3a²) = √(8a²) = 2√2 a. Since AB = BC = AC, triangle ABC is equilateral.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "76",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "If the mid-point of the line segment joining A[x/2, (y+1)/2] and B(x+1, y−3) is C(5,−2), find x, y.",
+   "answer": "Since C(5,−2) is the mid-point, the x-coordinate gives (x/2 + x + 1)/2 = 5, so 3x/2 + 1 = 10, 3x = 18 and x = 6. The y-coordinate gives ((y+1)/2 + y − 3)/2 = −2, so (y+1)/2 + y − 3 = −4, that is y + 1 + 2y − 6 = −8, giving 3y = −3 and y = −1. Hence x = 6 and y = −1.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 OD 2012, Delhi 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "77",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "Show that A(6,4), B(5,−2) and C(7,−2) are the vertices of an isosceles triangle.",
+   "answer": "AB = √((6−5)² + (4+2)²) = √(1 + 36) = √37. BC = √((5−7)² + (−2+2)²) = √(4 + 0) = 2. CA = √((7−6)² + (−2−4)²) = √(1 + 36) = √37. Since AB = CA = √37, two sides of the triangle are equal in length, so triangle ABC is isosceles.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book's concluding line prints \"AB = BC = √37\", but its own computed values give BC = 2 and CA = √37, so the equal pair is AB and CA. Solution values followed."
+  },
+  {
+   "number": "78",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "Show that A(−1,0), B(3,1), C(2,2) and D(−2,1) are the vertices of a parallelogram ABCD.",
+   "answer": "Mid-point of diagonal AC = ((−1+2)/2, (0+2)/2) = (1/2, 1). Mid-point of diagonal BD = ((3−2)/2, (1+1)/2) = (1/2, 1). The two diagonals have the same mid-point, so they bisect each other. A quadrilateral whose diagonals bisect each other is a parallelogram, hence ABCD is a parallelogram.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "79",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "If P(2,−1), Q(3,4), R(−2,3) and S(−3, −2) be four points in a plane, show that PQRS is a rhombus but not a square.",
+   "answer": "PQ = √(1² + 5²) = √26, QR = √(5² + 1²) = √26, RS = √(1² + 5²) = √26 and PS = √(5² + 1²) = √26. All four sides are equal, so PQRS is a rhombus. For the diagonal, PR = √(4² + 4²) = √32. Now PQ² + QR² = 26 + 26 = 52, which is not equal to PR² = 32, so triangle PQR is not right angled and the angle at Q is not 90°. Hence PQRS is a rhombus but not a square.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 OD 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The diagonal PR straddles the page break: page 13 prints \"PR = √(1²+5²) = √26\" and page 14 continues \"= √(4²+4²) = √32\". √32 is the value consistent with the coordinates and with the conclusion the book draws, so it is the one used."
+  },
+  {
+   "number": "80",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "If (3,2) and (−3,2) are two vertices of an equilateral triangle which contains the origin, find the third vertex.",
+   "answer": "Let A(3,2) and B(−3,2). The mid-point of AB is (0,2), which lies on the y-axis, and AB is horizontal, so the perpendicular bisector of AB is the y-axis and the third vertex C lies on it. Let C be (0,y). Then AB² = (3+3)² + (2−2)² = 36 and AC² = (0−3)² + (y−2)² = 9 + (y−2)². For an equilateral triangle AC² = AB², so 9 + (y−2)² = 36, giving (y−2)² = 27 and y − 2 = ±3√3, that is y = 2 ± 3√3. Since the triangle must contain the origin, C lies below the origin, so y = 2 − 3√3. Hence the third vertex is (0, 2 − 3√3).",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 OD 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "81",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "Find a so that (3,a) lies on the line represented by 2x − 3y − 5 = 0. Also, find the co-ordinates of the point where the line cuts the x-axis.",
+   "answer": "Since (3,a) lies on the line, it satisfies the equation: 2 × 3 − 3a − 5 = 0, so 6 − 3a − 5 = 0, giving 3a = 1 and a = 1/3. The line cuts the x-axis at a point of the form (x,0); putting y = 0 in 2x − 3y − 5 = 0 gives 2x − 5 = 0, so x = 5/2. Hence a = 1/3 and the line meets the x-axis at (5/2, 0).",
+   "concept": "Points on the axes",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "82",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "If (1, p/3) is the mid point of the line segment joining the points (2,0) and (0, 2/9), then show that the line 5x + 3y + 2 = 0 passes through the point (−1, 3p).",
+   "answer": "Comparing the y-coordinate of the mid-point, p/3 = (0 + 2/9)/2 = 1/9, so p = 1/3. Then 3p = 1 and the point (−1, 3p) is (−1, 1). Substituting into the left side of 5x + 3y + 2 = 0 gives 5(−1) + 3(1) + 2 = −5 + 3 + 2 = 0. The point satisfies the equation, so the line 5x + 3y + 2 = 0 passes through (−1, 3p).",
+   "concept": "Mid-point as a special case",
+   "section_heading": "TWO MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No board/year tag is printed for this question. The book's final line reads \"5(−5)+3(1)+2 = 0\"; with its own point (−1,1) the substitution is 5(−1)+3(1)+2 = 0, so the −5 is a typographical slip — the solution's logic is used."
+  },
+  {
+   "number": "83",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "If the vertices of ΔABC are A(5, −1), B(−3, −2), C(−1,8), find the length of median through A.",
+   "answer": "Let AD be the median through A, so D is the mid-point of BC. D = ((−3−1)/2, (−2+8)/2) = (−2, 3). Then AD = √((5+2)² + (−1−3)²) = √(7² + 4²) = √(49 + 16) = √65. Hence the length of the median through A is √65 units.",
+   "concept": "The formula itself",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "84",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "Find the mid-point of side BC of ΔABC, with A(1,−4) and the mid-points of the sides through A being (2,−1) and (0,−1).",
+   "answer": "Let B(x₁,y₁) and C(x₂,y₂). D(2,−1) is the mid-point of AB, so 2 = (1+x₁)/2 gives x₁ = 3 and −1 = (−4+y₁)/2 gives y₁ = 2; thus B(3,2). E(0,−1) is the mid-point of AC, so 0 = (1+x₂)/2 gives x₂ = −1 and −1 = (−4+y₂)/2 gives y₂ = 2; thus C(−1,2). Hence the mid-point of BC is ((3−1)/2, (2+2)/2) = (1, 2).",
+   "concept": "Mid-point as a special case",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "85",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "A line intersects the y-axis and x-axis at the points P and Q respectively. If (2, −5) is the mid-point of PQ, then find the coordinates of P and Q.",
+   "answer": "Let P, on the y-axis, be (0,y) and Q, on the x-axis, be (x,0). Since (2,−5) is the mid-point of PQ, (2,−5) = ((0+x)/2, (y+0)/2). Comparing, 2 = x/2 gives x = 4 and −5 = y/2 gives y = −10. Hence P is (0, −10) and Q is (4, 0).",
+   "concept": "Mid-point as a special case",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 OD 2017",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "86",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "If two adjacent vertices of a parallelogram are (3,2) and (−1,0) and the diagonals intersect at (2,−5) then find the co-ordinates of the other two vertices.",
+   "answer": "Let the parallelogram be ABCD with A(3,2), B(−1,0), C(x,y) and D(x′,y′), and let the diagonals meet at O(2,−5). Since the diagonals of a parallelogram bisect each other, O is the mid-point of AC: 2 = (x+3)/2 gives x = 1, and −5 = (2+y)/2 gives y = −12. O is also the mid-point of BD: 2 = (−1+x′)/2 gives x′ = 5, and −5 = (0+y′)/2 gives y′ = −10. Hence the other two vertices are C(1, −12) and D(5, −10).",
+   "concept": "Mid-point as a special case",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Foreign 2017",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "87",
+   "form": "very_short",
+   "marks": 2,
+   "page": 16,
+   "stem": "Prove that the points (2,−2), (−2,1) and (5,2) are the vertices of a right angled triangle. Also find the area of this triangle.",
+   "answer": "Let A(2,−2), B(−2,1) and C(5,2). By the distance formula, AB² = (2+2)² + (−2−1)² = 16 + 9 = 25, so AB = 5. BC² = (−2−5)² + (1−2)² = 49 + 1 = 50, so BC = 5√2. AC² = (2−5)² + (−2−2)² = 9 + 16 = 25, so AC = 5. Since AB² + AC² = 25 + 25 = 50 = BC², the converse of the Pythagoras theorem gives a right angle at A, so the triangle is right angled. Taking AB as base and AC as height, area = ½ × 5 × 5 = 25/2 sq units.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "88",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "Find the ratio in which the line segment joining the points A(6,3) and B(−2,−5) is divided by x-axis.",
+   "answer": "Let the x-axis cut AB at (x,0) in the ratio m:n. By the section formula the ordinate is (m(−5) + n(3))/(m+n), and this must be 0. So −5m + 3n = 0, giving 5m = 3n and m/n = 3/5. The x-axis divides AB in the ratio 3:5.",
+   "concept": "Dividing in a given ratio",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2023 OD Standard"
+  },
+  {
+   "number": "89",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "Find the ratio in which P(4,m) divides the segment joining the points A(2,3) and B(6,−3). Hence find m.",
+   "answer": "Let P divide AB in the ratio k:1. Using the x-coordinate, 4 = (6k + 2)/(k + 1), so 4k + 4 = 6k + 2, giving 2k = 2 and k = 1. Hence P divides AB in the ratio 1:1. Using the y-coordinate, m = (1×(−3) + 1×3)/(1 + 1) = 0/2 = 0. The ratio is 1:1 and m = 0.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2018"
+  },
+  {
+   "number": "90",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "If the point C(−1,2) divides internally the line segment joining A(2,5) and B(x,y) in the ratio 3:4 find the coordinates of B.",
+   "answer": "By the section formula with ratio 3:4, the abscissa gives −1 = (3x + 4×2)/(3 + 4), so 3x + 8 = −7, i.e. 3x = −15 and x = −5. The ordinate gives 2 = (3y + 4×5)/(3 + 4), so 3y + 20 = 14, i.e. 3y = −6 and y = −2. Hence B is (−5, −2).",
+   "concept": "The section formula",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi Standard"
+  },
+  {
+   "number": "91",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "Find the ratio in which the segment joining the points (1,−3) and (4,5) is divided by x-axis? Also find the coordinates of this point on x-axis.",
+   "answer": "Let the required ratio be k:1 and the point of division be P(x,0). Using the y-coordinate, 0 = (5k + 1×(−3))/(k + 1), so 5k − 3 = 0 and k = 3/5. The required ratio is 3:5. Using the x-coordinate, x = ((3/5)×4 + 1×1)/((3/5) + 1) = (17/5)/(8/5) = 17/8. The ratio is 3:5 and the point is (17/8, 0).",
+   "concept": "Ratio written as k:1",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2019 Delhi"
+  },
+  {
+   "number": "92",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "If the point C(−1,2) divides internally the line segment joining the points A(2,5) and B(x,y) in the ratio 3:4, find the value of x² + y².",
+   "answer": "Here AC:CB = 3:4. For the abscissa, −1 = (3x + 4×2)/(3 + 4), so 3x + 8 = −7 and x = −5. For the ordinate, 2 = (3y + 4×5)/(3 + 4), so 3y + 20 = 14 and y = −2. Thus (x,y) = (−5, −2) and x² + y² = (−5)² + (−2)² = 25 + 4 = 29.",
+   "concept": "The section formula",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2016"
+  },
+  {
+   "number": "93",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "If the co-ordinates of points A and B are (−2,−2) and (2,−4) respectively, find the co-ordinates of P such that AP = (3/7)AB, where P lies on the line segment AB.",
+   "answer": "AP = (3/7)AB means AP:PB = 3:4. By the section formula, x = (3×2 + 4×(−2))/(3 + 4) = (6 − 8)/7 = −2/7 and y = (3×(−4) + 4×(−2))/(3 + 4) = (−12 − 8)/7 = −20/7. Hence P is (−2/7, −20/7).",
+   "concept": "Dividing in a given ratio",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2017"
+  },
+  {
+   "number": "94",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "If the distance of P(x,y) from A(6,2) and B(−2,6) are equal, prove that y = 2x.",
+   "answer": "Since PA = PB, we have PA² = PB², so (x − 6)² + (y − 2)² = (x + 2)² + (y − 6)². Expanding, x² − 12x + 36 + y² − 4y + 4 = x² + 4x + 4 + y² − 12y + 36. Cancelling x², y² and the constants, −12x − 4y = 4x − 12y, so 12y − 4y = 4x + 12x, i.e. 8y = 16x. Hence y = 2x.",
+   "concept": "The formula itself",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2015"
+  },
+  {
+   "number": "95",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "The co-ordinates of the vertices of Δ ABC are A(7,2), B(9,10) and C(1,4). If E and F are the mid-points of AB and AC respectively, prove that EF = ½BC.",
+   "answer": "E, the mid-point of AB, is ((9 + 7)/2, (10 + 2)/2) = (8, 6). F, the mid-point of AC, is ((7 + 1)/2, (2 + 4)/2) = (4, 3). Then EF = √((8 − 4)² + (6 − 3)²) = √(16 + 9) = √25 = 5 units, and BC = √((9 − 1)² + (10 − 4)²) = √(64 + 36) = √100 = 10 units. Since 5 = ½ × 10, EF = ½BC.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2015"
+  },
+  {
+   "number": "96",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "Prove that the diagonals of a rectangle ABCD, with vertices A(2,−1), B(5,−1), C(5,6) and D(2,6) are equal and bisect each other.",
+   "answer": "AC = √((5 − 2)² + (6 + 1)²) = √(9 + 49) = √58 and BD = √((5 − 2)² + (−1 − 6)²) = √(9 + 49) = √58, so the diagonals are equal. The mid-point of AC is ((2 + 5)/2, (−1 + 6)/2) = (7/2, 5/2) and the mid-point of BD is ((5 + 2)/2, (6 − 1)/2) = (7/2, 5/2). The two mid-points coincide, so the diagonals bisect each other. Hence the diagonals are equal and bisect each other.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2014",
+   "ocr": "The printed working states the common mid-point once as (7/5, 5/2); both of its own computations give (7/2, 5/2), which is what is used."
+  },
+  {
+   "number": "97",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "The vertices of Δ ABC are A(6,−2), B(0,−6) and C(4,8). Find the co-ordinates of mid-points of AB, BC and AC.",
+   "answer": "Mid-point of AB: ((6 + 0)/2, (−2 − 6)/2) = (3, −4). Mid-point of BC: ((0 + 4)/2, (−6 + 8)/2) = (2, 1). Mid-point of AC: ((6 + 4)/2, (−2 + 8)/2) = (5, 3). So the mid-points of AB, BC and AC are D(3, −4), E(2, 1) and F(5, 3) respectively.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2014"
+  },
+  {
+   "number": "98",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "Find the ratio in which the point (−3,p) divides the line segment joining the points (−5,−4) and (−2,3). Hence find the value of p.",
+   "answer": "Let (−3,p) divide the join of A(−5,−4) and B(−2,3) in the ratio k:1. Then its coordinates are ((−2k − 5)/(k + 1), (3k − 4)/(k + 1)). Equating abscissae, (−2k − 5)/(k + 1) = −3, so −2k − 5 = −3k − 3, giving k = 2. The ratio is 2:1. Then p = (3×2 − 4)/(2 + 1) = 2/3. Hence the ratio is 2:1 and p = 2/3.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2012"
+  },
+  {
+   "number": "99",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "Find the co-ordinates of the points of trisection of the line segment joining the points A(1,−2) and B(−3,4).",
+   "answer": "Let P and Q trisect AB. P divides AB in the ratio 1:2, so x = (1×(−3) + 2×1)/(1 + 2) = (−3 + 2)/3 = −1/3 and y = (1×4 + 2×(−2))/(1 + 2) = (4 − 4)/3 = 0. Thus P is (−1/3, 0). Q is the mid-point of PB, so x = ((−1/3) + (−3))/2 = (−10/3)/2 = −5/3 and y = (0 + 4)/2 = 2. Thus Q is (−5/3, 2). The points of trisection are (−1/3, 0) and (−5/3, 2).",
+   "concept": "Dividing in a given ratio",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2012",
+   "ocr": "The printed final line states Q is (−5/2, 2), but its own working gives x₂ = −10/6 = −5/3; the solution wins, so Q = (−5/3, 2). The book also misprints the denominator of x₁ as 1+3 while using 3 in the arithmetic."
+  },
+  {
+   "number": "100",
+   "form": "short",
+   "marks": 3,
+   "page": 20,
+   "stem": "If (a,b) is the mid-point of the segment joining the points A(10,−6) and B(k,4) and a − 2b = 18, find the value of k and the distance AB.",
+   "answer": "Since (a,b) is the mid-point, a = (k + 10)/2 and b = (−6 + 4)/2 = −1. Substituting b = −1 into a − 2b = 18 gives a + 2 = 18, so a = 16. Then (k + 10)/2 = 16 gives k = 22, and so B is (22, 4). Finally AB = √((22 − 10)² + (4 + 6)²) = √(144 + 100) = √244 = 2√61 units. Hence k = 22 and AB = 2√61 units.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2012"
+  },
+  {
+   "number": "101",
+   "form": "short",
+   "marks": 3,
+   "page": 20,
+   "stem": "Find the ratio in which the line 2x + 3y − 5 = 0 divides the line segment joining the points (8,−9) and (2,1). Also find the co-ordinates of the point of division.",
+   "answer": "Let the line meet the segment at P(x,y) dividing it in the ratio k:1. Then x = (2k + 8)/(k + 1) and y = (k − 9)/(k + 1). Substituting into 2x + 3y − 5 = 0 gives 2(2k + 8) + 3(k − 9) − 5(k + 1) = 0, i.e. 4k + 16 + 3k − 27 − 5k − 5 = 0, so 2k − 16 = 0 and k = 8. The ratio is 8:1. Then x = (2×8 + 8)/(8 + 1) = 24/9 = 8/3 and y = (8 − 9)/(8 + 1) = −1/9. The point of division is (8/3, −1/9).",
+   "concept": "Ratio written as k:1",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2012"
+  },
+  {
+   "number": "102",
+   "form": "short",
+   "marks": 3,
+   "page": 20,
+   "stem": "Find the area of the rhombus of vertices (3,0), (4,5), (−1,4) and (−2,−1) taken in order.",
+   "answer": "Take A(3,0), B(4,5), C(−1,4), D(−2,−1). Diagonal AC = √((3 + 1)² + (0 − 4)²) = √(16 + 16) = √32 = 4√2. Diagonal BD = √((4 + 2)² + (5 + 1)²) = √(36 + 36) = √72 = 6√2. Area of a rhombus = ½ × d₁ × d₂ = ½ × 4√2 × 6√2 = ½ × 48 = 24 sq. units.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2012"
+  },
+  {
+   "number": "103",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "Find the ratio in which the line joining points (a + b, b + a) and (a − b, b − a) is divided by the point (a,b).",
+   "answer": "Let P(a,b) divide the join of A(a + b, b + a) and B(a − b, b − a) in the ratio k:1. Using the abscissa, a = (k(a − b) + 1(a + b))/(k + 1), so a(k + 1) = k(a − b) + a + b, i.e. ak + a = ak − bk + a + b. This gives bk = b, so k = 1. Hence (a,b) divides the segment internally in the ratio 1:1.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2013"
+  },
+  {
+   "number": "104",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "Find the co-ordinates of a point on the x-axis which is equidistant from the points A(2,−5) and B(−2,9).",
+   "answer": "Let the point on the x-axis be P(x,0). Since PA = PB, PA² = PB², so (x − 2)² + (0 + 5)² = (x + 2)² + (0 − 9)². Expanding, x² − 4x + 4 + 25 = x² + 4x + 4 + 81, so −4x + 29 = 4x + 85, giving −8x = 56 and x = −7. Hence the required point on the x-axis is (−7, 0).",
+   "concept": "Points on the axes",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi Compt. 2017"
+  },
+  {
+   "number": "105",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "Show that Δ ABC with vertices A(−2,0), B(0,2) and C(2,0) is similar to Δ DEF with vertices D(−4,0), F(4,0) and E(0,4).",
+   "answer": "Using the distance formula: AB = √((0 + 2)² + (2 − 0)²) = √8 = 2√2, BC = √((2 − 0)² + (0 − 2)²) = √8 = 2√2 and CA = √((−2 − 2)² + 0²) = √16 = 4. Also DE = √((0 + 4)² + (4 − 0)²) = √32 = 4√2, EF = √((4 − 0)² + (0 − 4)²) = √32 = 4√2 and FD = √((−4 − 4)² + 0²) = √64 = 8. Now AB/DE = 2√2/4√2 = ½, BC/EF = 2√2/4√2 = ½ and AC/DF = 4/8 = ½. All three ratios of corresponding sides are equal, so by SSS similarity Δ ABC ∼ Δ DEF.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2017, Foreign 2017"
+  },
+  {
+   "number": "106",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "In the given figure Δ ABC is an equilateral triangle of side 3 units. Find the co-ordinates of the other two vertices.",
+   "answer": "From the figure A is (2,0) and B lies on the x-axis 3 units to its right, so B = (2 + 3, 0) = (5, 0). Let C be (x,y). Since AC = BC, (x − 2)² + y² = (x − 5)² + y², so x² − 4x + 4 = x² − 10x + 25, giving 6x = 21 and x = 7/2. Using AC = 3, (x − 2)² + y² = 9, so (7/2 − 2)² + y² = 9, i.e. 9/4 + y² = 9 and y² = 27/4, giving y = 3√3/2. Hence B is (5, 0) and C is (7/2, 3√3/2).",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2017",
+   "images": [
+    "ch07_q106.png"
+   ],
+   "figure_required": true,
+   "ocr": "The printed working writes y² = 27/4 = 3√3/2, conflating y² with y; the value carried forward, y = 3√3/2, is correct. The question cannot be answered without the graph, so it is cropped and attached."
+  },
+  {
+   "number": "107",
+   "form": "short",
+   "marks": 3,
+   "page": 22,
+   "stem": "If the distances of P(x,y) from A(5,1) and B(−1,5) are equal, then prove that 3x = 2y.",
+   "answer": "Since PA = PB, PA² = PB², so (5 − x)² + (1 − y)² = (−1 − x)² + (5 − y)², that is (5 − x)² + (1 − y)² = (1 + x)² + (5 − y)². Expanding, 25 − 10x + x² + 1 − 2y + y² = 1 + 2x + x² + 25 − 10y + y². Cancelling x², y² and the constants, −10x − 2y = 2x − 10y, so 8y = 12x. Dividing by 4 gives 3x = 2y.",
+   "concept": "The formula itself",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2016"
+  },
+  {
+   "number": "108",
+   "page": 22,
+   "stem": "Find the ratio in which the point (8/5, y) divides the line segment joining the points (1, 2) and (2, 3). Also, find the value of y.",
+   "answer": "Let the point (8/5, y) divide the join of (1, 2) and (2, 3) in the ratio k : 1. Using the section formula on the x-coordinate, 8/5 = (2k + 1)/(k + 1), so 8k + 8 = 10k + 5, giving 2k = 3 and k = 3/2. Hence the required ratio is 3 : 2. For the y-coordinate, y = (3k + 2)/(k + 1) = ((3/2)(3) + 2)/((3/2) + 1) = (9/2 + 2)/(5/2) = (13/2)/(5/2) = 13/5. So the ratio is 3 : 2 and y = 13/5.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2024 OD Standard",
+   "ocr": "",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "109",
+   "page": 22,
+   "stem": "ABCD is a rectangle formed by the points A(−1, −1), B(−1, 6), C(3, 6) and D(3, −1). P, Q, R and S are mid-points of sides AB, BC, CD and DA respectively. Show that diagonals of the quadrilateral PQRS bisect each other.",
+   "answer": "By the mid-point formula, P (mid-point of AB) = ((−1 − 1)/2, (−1 + 6)/2) = (−1, 5/2); Q (mid-point of BC) = ((−1 + 3)/2, (6 + 6)/2) = (1, 6); R (mid-point of CD) = ((3 + 3)/2, (6 − 1)/2) = (3, 5/2); S (mid-point of DA) = ((3 − 1)/2, (−1 − 1)/2) = (1, −1). Mid-point of diagonal PR = ((−1 + 3)/2, (5/2 + 5/2)/2) = (1, 5/2). Mid-point of diagonal QS = ((1 + 1)/2, (6 − 1)/2) = (1, 5/2). The two diagonals have the same mid-point, so the diagonals of quadrilateral PQRS bisect each other.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2024 OD Standard",
+   "ocr": "The figure of rectangle ABCD with PQRS inscribed is printed inside the worked solution, not with the question, so it is not attached.",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "110",
+   "page": 23,
+   "stem": "To conduct Sports Day activities, in your rectangular school ground ABCD, lines have been drawn with chalk powder at a distance of 1 m each. 100 flower pots have been placed at a distance of 1 m from each other along AD, as shown in Figure. Niharika runs ¼th the distance AD on the 2nd line and posts a green flag. Preet runs 1/5th distance AD on the eighth line and posts a red flag.\n(i) What is the distance between the two flags?\n(ii) If Rashmi has to post a blue flag exactly half way between the line segment joining the two flags, where should she post the blue flag?",
+   "answer": "Take A as the origin (0, 0), AB as the x-axis and AD as the y-axis.\n(i) Niharika is on the 2nd line and runs ¼ × 100 = 25 m, so the green flag is at P(2, 25). Preet is on the 8th line and runs (1/5) × 100 = 20 m, so the red flag is at Q(8, 20). By the distance formula, PQ = √((8 − 2)² + (20 − 25)²) = √(6² + (−5)²) = √(36 + 25) = √61 m.\n(ii) The blue flag goes at the mid-point of PQ, which is ((2 + 8)/2, (25 + 20)/2) = (5, 45/2). So Rashmi should post the blue flag on the 5th line, at a distance of 45/2 = 22.5 m along the direction parallel to AD.",
+   "concept": "The formula itself",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "images": [
+    "ch07_q110.png"
+   ],
+   "figure_required": true,
+   "ocr": "The rectangular-ground figure is printed with the question, so it is attached.",
+   "form": "long",
+   "marks": 5
+  },
+  {
+   "number": "111",
+   "page": 23,
+   "stem": "Two friends Seema and Aditya work in the same office at Delhi. In the Christmas vacations, both decided to go to their hometown represented by Town A and Town B respectively in the figure given below. Town A and Town B are connected by trains from the same station C (in the given figure) in Delhi. Based on the given situation answer the following questions:\n(i) Who will travel more distance, Seema or Aditya, to reach to their hometown?\n(ii) Seema and Aditya planned to meet at a location D situated at a point D represented by the mid-point of the line joining the points represented by Town A and Town B. Find the coordinates of the point represented by the point D.",
+   "answer": "From the graph, A(1, 7), B(4, 2) and C(−4, 4).\n(i) Seema travels CA = √((−4 − 1)² + (4 − 7)²) = √((−5)² + (−3)²) = √(25 + 9) = √34 units. Aditya travels CB = √((4 + 4)² + (4 − 2)²) = √(8² + 2²) = √(64 + 4) = √68 units. Since √68 > √34, Aditya travels the greater distance.\n(ii) D is the mid-point of AB, so D = ((1 + 4)/2, (7 + 2)/2) = (5/2, 9/2).",
+   "concept": "The formula itself",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 SQP Standard",
+   "images": [
+    "ch07_q111.png"
+   ],
+   "figure_required": true,
+   "ocr": "The coordinate grid showing Towns A, B and C is printed with the question and supplies the coordinates, so it is attached.",
+   "form": "long",
+   "marks": 5
+  },
+  {
+   "number": "112",
+   "page": 24,
+   "stem": "In a classroom, 4 friends are seated at the points A, B, C, and D as shown in Figure. Champa and Chameli walk into the class and after observing for a few minutes Champa asks Chameli, Don’t you think ABCD is a square? Chameli disagrees. Using distance formula, find which of them is correct.",
+   "answer": "From the grid, A(3, 4), B(6, 7), C(9, 4) and D(6, 1). Using d = √((x₂ − x₁)² + (y₂ − y₁)²):\nAB = √((3 − 6)² + (4 − 7)²) = √(9 + 9) = 3√2 units,\nBC = √((6 − 9)² + (7 − 4)²) = √(9 + 9) = 3√2 units,\nCD = √((9 − 6)² + (4 − 1)²) = √(9 + 9) = 3√2 units,\nDA = √((6 − 3)² + (1 − 4)²) = √(9 + 9) = 3√2 units.\nThe diagonals are AC = √((3 − 9)² + (4 − 4)²) = √36 = 6 units and DB = √((6 − 6)² + (1 − 7)²) = √36 = 6 units.\nAll four sides are equal and both diagonals are equal, so ABCD is a square and Champa is right.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "images": [
+    "ch07_q112.png"
+   ],
+   "figure_required": true,
+   "ocr": "The seating grid is printed with the question and supplies the coordinates, so it is attached.",
+   "form": "long",
+   "marks": 5
+  },
+  {
+   "number": "113",
+   "page": 24,
+   "stem": "Point A lies on the line segment XY joining X(6, −6) and Y(−4, −1) in such a way that XA/XY = 2/5. If point A also lies on the line 3x + k(y + 1) = 0, find the value of k.",
+   "answer": "XA : XY = 2 : 5, so XA : AY = 2 : 3. Using the section formula with m₁ = 2, m₂ = 3, X(6, −6) and Y(−4, −1):\nx = (2(−4) + 3(6))/(2 + 3) = (−8 + 18)/5 = 10/5 = 2,\ny = (2(−1) + 3(−6))/(2 + 3) = (−2 − 18)/5 = −20/5 = −4.\nSo A = (2, −4). Since A lies on 3x + k(y + 1) = 0, we get 3(2) + k(−4 + 1) = 0, i.e. 6 − 3k = 0, so 3k = 6 and k = 2.",
+   "concept": "The section formula",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD",
+   "ocr": "",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "114",
+   "page": 24,
+   "stem": "Find the ratio in which the line x − 3y = 0 divides the line segment joining the points (−2, −5) and (6, 3). Find the coordinates of the point of intersection.",
+   "answer": "Let the line divide the join of A(−2, −5) and B(6, 3) at P(x, y) in the ratio k : 1. By the section formula,\nx = (6k − 2)/(k + 1) and y = (3k − 5)/(k + 1).\nP lies on x − 3y = 0, so (6k − 2)/(k + 1) − 3(3k − 5)/(k + 1) = 0, giving 6k − 2 − 9k + 15 = 0, i.e. −3k + 13 = 0 and k = 13/3. Hence the required ratio is 13 : 3.\nSubstituting k = 13/3: x = (6 × 13/3 − 2)/(13/3 + 1) = (26 − 2)/(16/3) = 24 × 3/16 = 9/2, and y = (3 × 13/3 − 5)/(13/3 + 1) = (13 − 5)/(16/3) = 8 × 3/16 = 3/2.\nSo the ratio is 13 : 3 and the point of intersection is (9/2, 3/2).",
+   "concept": "Ratio written as k:1",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD",
+   "ocr": "",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "115",
+   "page": 25,
+   "stem": "Find the ratio in which the y-axis divides the line segment joining the points (−1, −4) and (5, −6). Also find the coordinates of the point of intersection.",
+   "answer": "A point on the y-axis has the form P(0, y). Let P divide A(−1, −4) and B(5, −6) in the ratio k : 1. By the section formula on the x-coordinate,\n0 = (k(5) + 1(−1))/(k + 1), so 5k − 1 = 0 and k = 1/5. Hence the y-axis divides the segment in the ratio 1 : 5.\nFor the y-coordinate, y = (k(−6) + 1(−4))/(k + 1) = ((1/5)(−6) − 4)/((1/5) + 1) = (−26/5)/(6/5) = −26/6 = −13/3.\nSo the ratio is 1 : 5 and the point of intersection is (0, −13/3).",
+   "concept": "Ratio written as k:1",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD",
+   "ocr": "",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "116",
+   "page": 25,
+   "stem": "If A(−2, 1), B(a, 0), C(4, b) and D(1, 2) are the vertices of a parallelogram ABCD, find the values of a and b. Hence find the lengths of its sides.",
+   "answer": "In a parallelogram the diagonals AC and BD bisect each other, so the mid-point of BD equals the mid-point of AC:\n((a + 1)/2, (0 + 2)/2) = ((−2 + 4)/2, (1 + b)/2).\nFrom the x-coordinates, (a + 1)/2 = 1, so a = 1. From the y-coordinates, (b + 1)/2 = 1, so b = 1.\nThus B(1, 0) and C(4, 1). Now AB = √((1 + 2)² + (0 − 1)²) = √(9 + 1) = √10 units and BC = √((4 − 1)² + (1 − 0)²) = √(9 + 1) = √10 units. Since ABCD is a parallelogram, CD = AB = √10 units and AD = BC = √10 units.\nSo a = 1, b = 1 and every side is √10 units long.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2018",
+   "ocr": "The parallelogram sketch is drawn inside the worked solution, not with the question, so it is not attached.",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "117",
+   "page": 26,
+   "stem": "If P(9a − 2, −b) divides the line segment joining A(3a + 1, −3) and B(8a, 5) in the ratio 3 : 1, find the values of a and b.",
+   "answer": "By the section formula with the ratio 3 : 1:\n9a − 2 = (3(8a) + 1(3a + 1))/(3 + 1) = (24a + 3a + 1)/4,\n−b = (3(5) + 1(−3))/(3 + 1) = (15 − 3)/4 = 12/4 = 3, so b = −3.\nFrom the first equation, 4(9a − 2) = 27a + 1, i.e. 36a − 8 = 27a + 1, so 9a = 9 and a = 1.\nHence a = 1 and b = −3.",
+   "concept": "The section formula",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 SQP 2016",
+   "ocr": "",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "118",
+   "page": 26,
+   "stem": "The base BC of an equilateral triangle ABC lies on y-axis. The co-ordinates of point C are (0, 3). The origin is the mid-point of the base. Find the co-ordinates of the point A and B. Also find the co-ordinates of another point D such that BACD is a rhombus.",
+   "answer": "The base BC lies along the y-axis with the origin as its mid-point, and C = (0, 3), so B = (0, −3) and BC = 6 units.\nA lies on the x-axis, say A(x, 0). Then AB = √(x² + 9), and since the triangle is equilateral AB = BC, so x² + 9 = 36, giving x² = 27 and x = ±3√3. Take A = (3√3, 0).\nFor BACD to be a rhombus all four sides must be equal, so D is the reflection of A in the y-axis: D = (−3√3, 0).\nHence A = (3√3, 0), B = (0, −3) and D = (−3√3, 0).",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "ocr": "The stem names C(0, 3), but the printed solution and its diagram swap the two base labels — they mark B at (0, 3) and C at (0, −3), and the text states 'Co-ordinates of point B are (0,3)'. The geometry is the same either way (base 6 on the y-axis, apex at ±3√3 on the x-axis); the answer above keeps the stem's own labelling.",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "119",
+   "page": 26,
+   "stem": "The co-ordinates of vertices of Δ ABC are A(0, 0), B(0, 2) and C(2, 0). Prove that Δ ABC is an isosceles triangle. Also find its area.",
+   "answer": "Using d = √((x₂ − x₁)² + (y₂ − y₁)²):\nAB = √((0 − 0)² + (0 − 2)²) = √4 = 2,\nAC = √((0 − 2)² + (0 − 0)²) = √4 = 2,\nBC = √((0 − 2)² + (2 − 0)²) = √(4 + 4) = 2√2.\nSince AB = AC ≠ BC, Δ ABC is isosceles. Also AB² + AC² = 4 + 4 = 8 and BC² = (2√2)² = 8, so AB² + AC² = BC² and the triangle is right-angled at A.\nArea = ½ × base × height = ½ × 2 × 2 = 2 sq. units.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2014",
+   "ocr": "",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "120",
+   "page": 27,
+   "stem": "The base QR of an equilateral triangle PQR lies on x-axis. The co-ordinates of point Q are (−4, 0) and the origin is the mid-point of the base. Find the co-ordinates of the point P and R.",
+   "answer": "The base QR lies along the x-axis with the origin as its mid-point and Q = (−4, 0), so R = (4, 0) and QR = 8 units.\nP lies on the y-axis, say P(0, y). Since the triangle is equilateral, PQ = QR, so (−4 − 0)² + (0 − y)² = 64, i.e. 16 + y² = 64, giving y² = 48 and y = ±4√3.\nHence R = (4, 0) and P = (0, 4√3) or (0, −4√3).",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2017, Foreign 2015",
+   "ocr": "The axes sketch is drawn inside the worked solution, not with the question, so it is not attached.",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "121",
+   "page": 27,
+   "stem": "The line segment joining the points A(3, 2) and B(5, 1) is divided at the point P in the ratio 1 : 2 and P lies on the line 3x − 18y + k = 0. Find the value of k.",
+   "answer": "Let P(x₁, y₁) divide AB in the ratio 1 : 2. By the section formula,\nx₁ = (1 × 5 + 2 × 3)/(1 + 2) = (5 + 6)/3 = 11/3,\ny₁ = (1 × 1 + 2 × 2)/(1 + 2) = (1 + 4)/3 = 5/3.\nSince P lies on 3x − 18y + k = 0, its coordinates satisfy the line:\n3 × 11/3 − 18 × 5/3 + k = 0, i.e. 11 − 30 + k = 0, so k = 19.",
+   "concept": "Dividing in a given ratio",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2012",
+   "ocr": "The printed numerator for y is typeset as (1 × 2 + 2 × 2), which would give 2; with A(3, 2) and B(5, 1) the correct substitution is (1 × 1 + 2 × 2)/3 = 5/3, which is the value the book itself prints as the result and which yields k = 19.",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "122",
+   "page": 27,
+   "stem": "If R(x, y) is a point on the line segment joining the points P(a, b) and Q(b, a), then prove that x + y = a + b.",
+   "answer": "Let R(x, y) divide PQ in the ratio k : 1. By the section formula,\nx = (kb + a)/(k + 1) and y = (ka + b)/(k + 1).\nAdding, x + y = (kb + a + ka + b)/(k + 1) = (k(a + b) + (a + b))/(k + 1) = ((k + 1)(a + b))/(k + 1) = a + b.\nHence x + y = a + b for every point R on PQ.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2, OD 2012",
+   "ocr": "",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "123",
+   "page": 27,
+   "stem": "The vertices of quadrilateral ABCD are A(5, −1), B(8, 3), C(4, 0) and D(1, −4). Prove that ABCD is a rhombus.",
+   "answer": "Using the distance formula:\nAB = √((8 − 5)² + (3 + 1)²) = √(9 + 16) = 5 units,\nBC = √((8 − 4)² + (3 − 0)²) = √(16 + 9) = 5 units,\nCD = √((4 − 1)² + (0 + 4)²) = √(9 + 16) = 5 units,\nAD = √((5 − 1)² + (−1 + 4)²) = √(16 + 9) = 5 units.\nThe diagonals are AC = √((5 − 4)² + (−1 − 0)²) = √(1 + 1) = √2 units and BD = √((8 − 1)² + (3 + 4)²) = √(49 + 49) = 7√2 units.\nAll four sides are equal but the diagonals are unequal, so ABCD is not a square; it is a rhombus.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2015",
+   "ocr": "",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "124",
+   "page": 28,
+   "stem": "(i) Derive section formula.\n(ii) In what ratio does (−4, 6) divides the line segment joining the point A(−6, 4) and B(3, −8)?",
+   "answer": "(i) Let A(x₁, y₁) and B(x₂, y₂) be two points and let P(x, y) divide AB in the ratio m₁ : m₂. Drop perpendiculars AL, PM and BN to the x-axis, and let the horizontals through A and P meet PM and BN at R and S. Then AR = LM = OM − OL = x − x₁, PR = PM − RM = y − y₁, PS = ON − OM = x₂ − x and BS = BN − SN = y₂ − y. Since Δ APR ~ Δ PBS (AAA), AR/PS = PR/BS = AP/PB = m₁/m₂.\nFrom AR/PS = m₁/m₂: (x − x₁)/(x₂ − x) = m₁/m₂, so m₂x − m₂x₁ = m₁x₂ − m₁x, giving x = (m₁x₂ + m₂x₁)/(m₁ + m₂).\nFrom PR/BS = m₁/m₂: (y − y₁)/(y₂ − y) = m₁/m₂, giving y = (m₁y₂ + m₂y₁)/(m₁ + m₂).\nHence P = ((m₁x₂ + m₂x₁)/(m₁ + m₂), (m₁y₂ + m₂y₁)/(m₁ + m₂)).\n(ii) Let (−4, 6) divide A(−6, 4) and B(3, −8) in the ratio k : 1. Using the x-coordinate, −4 = (3k − 6)/(k + 1), so −4k − 4 = 3k − 6, giving 7k = 2 and k = 2/7. Hence the required ratio is 2 : 7.",
+   "concept": "The section formula",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2014",
+   "ocr": "The derivation diagram (A, P, B with feet L, M, N on the x-axis) belongs to the worked proof, so it is not attached.",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "125",
+   "page": 28,
+   "stem": "(1, −1), (0, 4) and (−5, 3) are vertices of a triangle. Check whether it is a scalene triangle, isosceles triangle or an equilateral triangle. Also, find the length of its median joining the vertex (1, −1) the mid-point of the opposite side.",
+   "answer": "Let A(1, −1), B(0, 4) and C(−5, 3). Using the distance formula:\nAB = √((1 − 0)² + (−1 − 4)²) = √(1 + 25) = √26,\nBC = √((−5 − 0)² + (3 − 4)²) = √(25 + 1) = √26,\nAC = √((−5 − 1)² + (3 + 1)²) = √(36 + 16) = 2√13.\nSince AB = BC ≠ AC, the triangle is isosceles.\nLet D be the mid-point of BC: D = ((−5 + 0)/2, (3 + 4)/2) = (−5/2, 7/2).\nMedian AD = √((−5/2 − 1)² + (7/2 + 1)²) = √((−7/2)² + (9/2)²) = √(49/4 + 81/4) = √(130/4) = √130/2.\nSo the triangle is isosceles and the median from (1, −1) is √130/2 units long.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2, 2015",
+   "ocr": "The book prints the median as '√130/2 square unit'; a median is a length, so the unit is 'units'. The triangle sketch appears only inside the solution, so it is not attached.",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "126",
+   "page": 29,
+   "stem": "Point (−1, y) and B(5, 7) lie on a circle with centre O(2, −3y). Find the values of y. Hence find the radius of the circle.",
+   "answer": "A(−1, y) and B(5, 7) lie on the circle, so OA = OB, both being radii.\n(−1 − 2)² + (y + 3y)² = (5 − 2)² + (7 + 3y)²\n9 + 16y² = 9 + 9y² + 42y + 49\n7y² − 42y − 49 = 0, i.e. y² − 6y − 7 = 0, so (y + 1)(y − 7) = 0 and y = −1 or y = 7.\nWhen y = −1 the centre is O(2, 3) and the radius OB = √((5 − 2)² + (7 − 3)²) = √(9 + 16) = 5 units.\nWhen y = 7 the centre is O(2, −21) and the radius OB = √((5 − 2)² + (7 + 21)²) = √(9 + 784) = √793 units.\nHence y = −1 or y = 7, with radius 5 units or √793 units respectively.",
+   "concept": "The formula itself",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2014",
+   "ocr": "",
+   "form": "long",
+   "marks": 5,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "127",
+   "form": "long",
+   "marks": 5,
+   "page": 29,
+   "stem": "BEST : The Brihanmumbai Electricity Supply and Transport (BEST) is a civic transport and electricity provider public body based in Mumbai. BEST operates one of India's largest fleets of buses. The bus transport service covers the entire city and also extends its operations outside city limits into neighbouring urban areas. In addition to buses, it also operates a ferry service in the northern reaches of the city.\nThere are two routes to travel from source A to destination B by using BEST bus service. First bus reaches at B via point C and second bus reaches from A to B directly. If coordinates of A, B and C are (−2, −3), (2, 3) and (3, 2) respectively, then by which bus do you want to travel from A to B using BEST services. (Assume that both buses have same speed).",
+   "answer": "Here the coordinates of A, B and C are (−2, −3), (2, 3) and (3, 2) respectively.\nUsing the distance formula,\nAB = √((−2 − 2)² + (−3 − 3)²) = √(16 + 36) = √52 = 2√13\nAC = √((−2 − 3)² + (−3 − 2)²) = √(25 + 25) = √50 = 5√2\nBC = √((2 − 3)² + (3 − 2)²) = √(1 + 1) = √2\nDistance travelled by the first bus (A → C → B) = AC + BC = 5√2 + √2 = 6√2 units.\nDistance travelled by the second bus (A → B directly) = AB = 2√13 units.\nSince 6√2 ≈ 8.49 and 2√13 ≈ 7.21, we have 6√2 > 2√13, so the direct route is shorter and, both buses having the same speed, it takes less time.\nHence, we would like to travel by the second bus.",
+   "concept": "The formula itself",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "mch07_q127.png"
+   ],
+   "figure_required": false,
+   "ocr": "recovered by the gap pass: printed under the COMPETENCEY BASED QUESTIONS heading, which fell mid-range and was skipped. Question and full solution both sit on p029; no board/year tag is printed against this item, so section_heading carries the heading alone. Form is long/5 rather than case_study/4 because the passage ends in a single question with no (i)/(ii)/(iii) sub-parts. The photograph of the BEST bus depot is context only - every coordinate needed is given in the text - so it is attached but figure_required is false."
+  },
+  {
+   "number": "128",
+   "form": "case_study",
+   "marks": 4,
+   "page": 30,
+   "stem": "Use of mobile screen for long hours makes your eye sight weak and give you headaches. Children who are addicted to play “PUBG” can get easily stressed out. To raise social awareness about ill effects of playing PUBG, a school decided to start ‘BAN PUBG’ campaign, in which students are asked to prepare campaign board in the shape of a rectangle. One such campaign board made by class X student of the school is shown in the figure.\nBased on the above information, answer the following questions :\n(i) Find the coordinates of the point of intersection of diagonals AC and BD.\n(ii) Find the length of the diagonal AC.\n(iii) Find the area of the campaign Board ABCD.\n(iv) Find the ratio of the length of side AB to the length of the diagonal AC.",
+   "answer": "From the figure the rectangle is A(1, 1), B(7, 1), C(7, 5), D(1, 5).\n(i) The diagonals of a rectangle bisect each other, so they meet at the mid-point of AC: ((7+1)/2, (1+5)/2) = (4, 3).\n(ii) AC = √((7 − 1)² + (5 − 1)²) = √(36 + 16) = √52 = 2√13 units.\n(iii) AB = 6 units and BC = 4 units, so area of ABCD = 6 × 4 = 24 sq. units.\n(iv) AB : AC = 6 : 2√13 = 3 : √13 = 3√13 : 13.",
+   "concept": "The formula itself",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q128.png"
+   ],
+   "figure_required": true,
+   "ocr": "Part (ii) of the printed solution writes √52 on one line and then “= √13 units” on the next; √52 = 2√13, so the worked expression is taken and the stated √13 treated as a misprint. Part (iv) is labelled “AC = AB/AC”, which should read AB : AC; its arithmetic 6/(2√13) = 3√13/13 is correct. The coordinates of A, B, C, D appear only in the figure, so the figure is attached."
+  },
+  {
+   "number": "129",
+   "form": "case_study",
+   "marks": 4,
+   "page": 30,
+   "stem": "Resident Welfare Association (RWA) of a Gulmohar Society in Delhi have installed three electric poles A, B and C in a society’s common park. Despite these three poles, some parts of the park are still in dark.\nSo, RWA decides to have one more electric pole D in the park.\nThe park can be modelled as a coordinate systems given below.\nOn the basis of the above information, answer any four of the following questions:\n(i) What is the position of the pole C?\n(ii) What is the distance of the pole B from the corner O of the park ?\n(iii) Find the position of the fourth pole D so that four points A, B C and D form a parallelogram .\n(iv) What is the distance between poles A and C ?\n(v) What is the distance between poles B and D ?",
+   "answer": "From the grid the poles stand at A(2, 7), B(6, 6) and C(5, 4), with the corner O at the origin.\n(i) The pole C is at (5, 4).\n(ii) OB = √((6 − 0)² + (6 − 0)²) = √(36 + 36) = √72 = 6√2 units.\n(iii) In a parallelogram ABCD the diagonals AC and BD bisect each other. Mid-point of AC = ((2+5)/2, (7+4)/2) = (3.5, 5.5). If D = (x, y), then (6 + x)/2 = 3.5 and (6 + y)/2 = 5.5, so x = 1 and y = 5; the fourth pole D is at (1, 5).\n(iv) AC = √((5 − 2)² + (4 − 7)²) = √(9 + 9) = √18 = 3√2 units.\n(v) BD = √((6 − 1)² + (6 − 5)²) = √(25 + 1) = √26 units.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q129.png"
+   ],
+   "figure_required": true,
+   "ocr": "Part (v) is printed as “What is the distance between poles B and ?” with the second pole missing; the worked solution computes the distance between B and D, so D is supplied. The positions of A, B and C are only on the grid, so the grid is attached."
+  },
+  {
+   "number": "130",
+   "form": "case_study",
+   "marks": 4,
+   "page": 31,
+   "stem": "Birla Science Museum is the first Science and Technology Museum of the country, established in 1954. It houses exhibits and displays on science and technology where visitors can interact with the exhibits to make the understanding of science and technology easy and entertaining.\nBirla Science Museum has set aside a children’s room having planets and stars painted on the ceiling. Suppose an imaginary coordinate system is placed on the ceiling in the room with the centre of the ceiling at (0, 0,). Three particular stars are located at S(−10, 5), T(3, −8) and R(−7, −4), where the coordinates represent the distance in feet from the center of the room.\n(i) Find the distance between each pair of stars.\n(ii) Which star is farthest from the center of the room?",
+   "answer": "(i) Using d = √((x₂ − x₁)² + (y₂ − y₁)²):\nST = √((3 − (−10))² + (−8 − 5)²) = √(169 + 169) = √338 = 13√2 feet.\nTR = √((−7 − 3)² + (−4 − (−8))²) = √(100 + 16) = √116 = 2√29 feet.\nSR = √((−7 − (−10))² + (−4 − 5)²) = √(9 + 81) = √90 = 3√10 feet.\n(ii) With O(0, 0), OS = √(100 + 25) = √125, OT = √(9 + 64) = √73 and OR = √(49 + 16) = √65. Since √125 is the largest, the star at S is farthest from the centre of the room.",
+   "concept": "The formula itself",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution writes TR = √116 = 4√29; √116 = 2√29 (4√29 would be √464), so the worked expression √116 is taken and the stated 4√29 treated as a misprint. The stem’s “(0, 0,)” carries the stray comma as printed. The museum photograph is decorative, so no figure is attached."
+  },
+  {
+   "number": "131",
+   "form": "case_study",
+   "marks": 4,
+   "page": 31,
+   "stem": "Old Age Home : An old age homes is a place where old people live and are cared for when they are too old to look after themselves. With advancing age, people often lose motor functions. Performing day to day activities becomes a daunting task. In an old age home, the association helps with daily activities. One of the factors that make old age homes attractive to elders is the companionship. The steady security in an old age home gives them protection from intruders and helps them live a safe and secure life.\nA school decides to take the students for school picnic to an amusement park. However, the students have to first visit an old age home and then move towards the park. If the point S, P and H represent the school, the park and the old age home respectively, find the additional distance covered by the students had they travelled directly from school to the park. ? (Note : All distance are in km)",
+   "answer": "From the graph S(2, 2), P(8, 10) and H(8, 2).\nSP = √((8 − 2)² + (10 − 2)²) = √(36 + 64) = √100 = 10 km.\nSH = √((8 − 2)² + (2 − 2)²) = √36 = 6 km and HP = √((8 − 8)² + (10 − 2)²) = √64 = 8 km.\nGoing by way of the old age home covers SH + HP = 6 + 8 = 14 km, while school to park directly is SP = 10 km.\nAdditional distance covered = 14 − 10 = 4 km.",
+   "concept": "The formula itself",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q131.png"
+   ],
+   "figure_required": true,
+   "ocr": "The coordinates of S, P and H are printed only in the graph, so the graph is attached. The stem’s stray “. ?” after “to the park” is as printed."
+  },
+  {
+   "number": "132",
+   "form": "case_study",
+   "marks": 4,
+   "page": 32,
+   "stem": "Ajay, Bhigu and Colin are fast friend since childhood. They always want to sit in a row in the classroom. But teacher doesn’t allow them and rotate the seats row-wise everyday. Bhigu is very good in maths and he does distance calculation everyday. He consider the centre of class as origin and marks their position on a paper in a co-ordinate system. One day Bhigu make the following diagram of their seating position.\n(i) What are the coordinates of point A?\n(ii) What is the distance of point A from origin ?\n(iii) What is the distance between A and B ?\n(iv) What is the distance between B and C ?\n(v) A point D lies on the line segment between points A and B such that AD : DB = 4 : 3. What are the coordinates of point D ?",
+   "answer": "From the diagram A(−2, 2), B(−1, −2) and C(3, 0).\n(i) A = (−2, 2).\n(ii) OA = √((0 + 2)² + (0 − 2)²) = √8 = 2√2 units.\n(iii) AB = √((−2 + 1)² + (2 + 2)²) = √(1 + 16) = √17 units.\n(iv) BC = √((−1 − 3)² + (−2 − 0)²) = √(16 + 4) = √20 = 2√5 units.\n(v) D divides AB in m : n = 4 : 3, so x = (4(−1) + 3(−2))/(4 + 3) = −10/7 and y = (4(−2) + 3(2))/(4 + 3) = −2/7. Hence D = (−10/7, −2/7).",
+   "concept": "The formula itself",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q132.png"
+   ],
+   "figure_required": true,
+   "ocr": "In parts (iii) and (iv) the printed solution repeats the words “coordinates of point A are (−1, −2)” and “coordinates of point A are (0, 3)”; from the diagram, and from the very computations that follow, these are B(−1, −2) and C(3, 0) — the BC line substitutes (3, 0), not (0, 3). The seating positions are only in the diagram, so the diagram is attached."
+  },
+  {
+   "number": "133",
+   "form": "case_study",
+   "marks": 4,
+   "page": 33,
+   "stem": "Satellite Images : Satellite images are images of Earth collected by imaging satellites operated by governments and businesses around the world. Satellite imaging companies sell images by licensing them to governments and businesses such as Apple Maps and Google Maps. It should not be confused for astronomy images collected by space telescope.\nBarun lives in Jaipur in Vaishali. Satellite image of his colony is shown in given figure. In this view, his house is pointed out by a flag, which is situated at the point of intersection of x and y - axes. If he goes 2 cm east and 3 cm north from the house, then he reaches to a grocery store, If he goes 4 cm west and 6 cm south from the house, then he reaches to his office. If he goes 6 cm east and 8 cm south from the house, then he reaches to a food court. If he goes 6 cm west and 8 cm north from the house, he reaches to a his kid’s school.\nBased on the above information, answer the following questions.\n(i) Find the distance between grocery store and food court.\n(ii) Find the distance of the school from the house.\n(iii) If the grocery store and office lie on a line, what is the ratio of distance of house from grocery store to that from office ?\n(iv) Find the ratio of distances of house from school to food court.\n(v) What shape is formed by the coordinates of positions of school, grocery store, food court and office?",
+   "answer": "Take the house at the origin (0, 0). Then the grocery store is (2, 3), the office (−4, −6), the food court (6, −8) and the school (−6, 8).\n(i) Distance between grocery store and food court = √((6 − 2)² + (−8 − 3)²) = √(16 + 121) = √137 cm.\n(ii) Distance of the school from the house = √((−6)² + 8²) = √(36 + 64) = √100 = 10 cm.\n(iii) Let the house O divide the join of the office E(−4, −6) and the grocery store G(2, 3) in the ratio k : 1. Then 0 = (2k − 4)/(k + 1), so 2k = 4 and k = 2; O divides EG in 2 : 1. Hence OG : OE = 1 : 2, i.e. the required ratio is 1 : 2.\n(iv) The house (0, 0) is the mid-point of the school (−6, 8) and the food court (6, −8), so the two lie at equal distances from the house and the ratio is 1 : 1.\n(v) The mid-point of school and food court is (0, 0), while the mid-point of grocery store and office is ((2 − 4)/2, (3 − 6)/2) = (−1, −3/2). The diagonals do not bisect each other, so the four positions form a quadrilateral, not a parallelogram.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "All four positions are given in words in the stem, so no figure is attached. The coordinate sketch printed beside the solution labels the school (−6, 9), while the stem’s “6 cm west and 8 cm north” and the solution’s own working both give (−6, 8). The satellite photograph is decorative."
+  },
+  {
+   "number": "134",
+   "form": "case_study",
+   "marks": 4,
+   "page": 34,
+   "stem": "Morning assembly is an integral part of the school’s schedule. Almost all the schools conduct morning assemblies which include prayers, information of latest happenings, inspiring thoughts, speech, national anthem, etc. A good school is always particular about their morning assembly schedule. Morning assembly is important for a child’s development. It is essential to understand that morning assembly is not just about standing in long queues and singing prayers or national anthem, but it’s something beyond just prayers. All the activities carried out in morning assembly by the school staff and students have a great influence in every point of life. The positive effects of attending school assemblies can be felt throughout life.\nHave you noticed that in school assembly you always stand in row and column and this make a coordinate system. Suppose a school have 100 students and they all assemble in prayer in 10 rows as given below.\nHere A, B, C and D are four friend Amar, Bharat, Colin and Dravid.\n(i) What is the distance between A and B ?\n(ii) What is the distance between C and D ?\n(iii) What is the distance between A and C ?\n(iv) What is the distance between D and B ?",
+   "answer": "From the grid A(3, 4), B(6, 7), C(9, 4) and D(6, 1).\n(i) AB = √((6 − 3)² + (7 − 4)²) = √(9 + 9) = √18 = 3√2 units.\n(ii) CD = √((9 − 6)² + (4 − 1)²) = √(9 + 9) = √18 = 3√2 units.\n(iii) AC = √((3 − 9)² + (4 − 4)²) = √36 = 6 units.\n(iv) BD = √((6 − 6)² + (7 − 1)²) = √36 = 6 units.",
+   "concept": "The formula itself",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q134.png"
+   ],
+   "figure_required": true,
+   "ocr": "The printed solution states AB = 2√3 and CD = 2√3, but the expressions it prints, √((6−3)² + (7−4)²) and √((9−6)² + (4−1)²), both equal √18 = 3√2; the worked expressions are taken and 2√3 treated as a misprint. Positions are only on the grid, so the grid is attached."
+  },
+  {
+   "number": "135",
+   "form": "case_study",
+   "marks": 4,
+   "page": 34,
+   "stem": "Carpooling : It is the sharing of car journeys so that more than one person travels in a car, and prevents the need for others to have to drive to a location themselves. By having more people using one vehicle, carpooling reduces each person’s travel costs such as: fuel costs, tolls, and the stress of driving. Carpooling is also a more environmentally friendly and sustainable way to travel as sharing journeys reduces air pollution, carbon emissions, traffic congestion on the roads, and the need for parking spaces.\nThree friends Amar, Bandhu and Chakradev lives in societies represented by the points A, B and C respectively. They all work in offices located in a same building represented by the point O. Since they all go to same building everyday, they decided to do carpooling to save money on petrol. Based on the above information, answer the following questions.\n(i) Which society is nearest to the office?\n(ii) What is the distance between A and C?\n(iii) Find the least distance between AB, OA and BC ?\n(iv) Find the best route to go to the office ?\n(v) If Bandhu and Chakradev planned to meet at a club situated at the mid-point of the line joining the points B and C, find the coordinates of this point.",
+   "answer": "From the graph A(2, 8), B(7, 7) and C(5, 3), and the office is at O(0, 0).\n(i) Reading the graph, society C is nearest to the office.\n(ii) AC = √((5 − 2)² + (3 − 8)²) = √(9 + 25) = √34 units.\n(iii) AB = √((7 − 2)² + (7 − 8)²) = √26 units, OA = √(2² + 8²) = √68 = 2√17 units and BC = √((7 − 5)² + (7 − 3)²) = √20 = 2√5 units. Since √20 < √26 < √68, the distance BC is the least.\n(iv) From the graph the route A → B → C → O (ABCO) is the best route to the office.\n(v) Mid-point of B(7, 7) and C(5, 3) = ((5 + 7)/2, (3 + 7)/2) = (6, 5).",
+   "concept": "The formula itself",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q135.png"
+   ],
+   "figure_required": true,
+   "ocr": "The word “Sol :” is printed twice — once above the list (i)–(v) and again above the worked answer; the parts (i)–(v) belong to the question. The coordinates of A, B and C are only in the graph, so the graph is attached."
+  },
+  {
+   "number": "136",
+   "form": "case_study",
+   "marks": 4,
+   "page": 35,
+   "stem": "To conduct sports day activities, in a rectangular shaped school ground ABCD, lines have been drawn with chalk powder at a distance of 1 m each. 100 flower pots have been placed at a distance of 1 m from each other along AB, as shown in figure. Nishtha runs ¼ th the distance AB on the 2nd line and posts a green flag. Suman runs ⅕ th the distance AB on the 8th line and posts a red flag.\n(i) What is the position of green flag ?\n(ii) What is the position of red flag ?\n(iii) What is the distance between both the flags?\n(iv) What is the distance of red flag from point A ?\n(v) If Rakhi has to post a blue flag exactly halfway between the line segment joining the two flags, where should she post her flag?",
+   "answer": "(i) One fourth of the 100 m side is 100/4 = 25 m, and the 2nd line is x = 2, so the green flag stands at (2, 25).\n(ii) One fifth of 100 m is 100/5 = 20 m, and the 8th line is x = 8, so the red flag stands at (8, 20).\n(iii) Distance between the flags = √((8 − 2)² + (20 − 25)²) = √(36 + 25) = √61 m.\n(iv) Distance of the red flag from A(0, 0) = √(8² + 20²) = √(64 + 400) = √464 = 4√29 m.\n(v) The blue flag goes at the mid-point of the two flags: ((2 + 8)/2, (25 + 20)/2) = (5, 22.5).",
+   "concept": "Mid-point as a special case",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q136.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem measures the runs along AB while the worked solution calls the same 100 m side AD; the figure’s axes are numbered only 1–10, the solution scaling that side to the 100 flower pots. The chalk lines and the lettering of the ground are only in the figure, so the figure is attached."
+  },
+  {
+   "number": "137",
+   "form": "case_study",
+   "marks": 4,
+   "page": 36,
+   "stem": "A garden is in the shape of rectangle. Gardener grew sapling of Ashoka tree on the boundary of garden at the distance of 1 meter from each other. He want to decorate the garden with rose plants. He choose triangular region inside the park to grow rose plants. On the above situation, gardener took help from the students of class 10th. They made a chart for it which looks as the above figure.\n(i) If A is taken as origin, What are the coordinates of triangle PQR ?\n(ii) If C is taken as origin, what is the co-ordinate of point P ?\n(iii) If B is taken as origin, what are the co-ordinate of P ?\n(iv) What is distance between P and Q if origin is taken A?\n(v) What is distance between P and Q if origin is taken B?",
+   "answer": "The saplings stand 1 m apart, so the chart is a 10 × 10 grid with A the bottom-left corner, B the top-left, C the top-right and D the bottom-right.\n(i) Taking A as origin, A(0, 0), B(0, 10), C(10, 10), D(10, 0) and the triangle is P(4, 6), Q(3, 2), R(6, 5).\n(ii) Taking C(10, 10) as origin shifts every point by (−10, −10), so P = (4 − 10, 6 − 10) = (−6, −4).\n(iii) Taking B(0, 10) as origin, P = (4 − 0, 6 − 10) = (4, −4).\n(iv) With A as origin, PQ = √((4 − 3)² + (6 − 2)²) = √(1 + 16) = √17 units.\n(v) A distance does not change with the choice of origin: with B as origin P(4, −4) and Q(3, −8), so PQ = √((4 − 3)² + (−4 + 8)²) = √17 units.",
+   "concept": "Abscissa and ordinate",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q137.png"
+   ],
+   "figure_required": true,
+   "ocr": "The page carrying the rest of the printed solution (PAGE 309) is not in the rendered page set; parts (i)–(iii) are read off the solution’s own labelled grids on this page (A as origin, then C, then B) and (iv), (v) are worked from them. The question’s own chart carries no axis numbers, so it is attached; the solution’s numbered grids are not."
+  }
+ ],
+ "qualified_numbers": 0
+}

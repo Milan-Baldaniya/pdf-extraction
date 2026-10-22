@@ -1,0 +1,1158 @@
+{
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "Two dice are rolled together. The probability of getting sum of numbers on the two dice as 2, 3 or 5, is:",
+   "options": [
+    {
+     "label": "A",
+     "text": "7/36"
+    },
+    {
+     "label": "B",
+     "text": "11/36"
+    },
+    {
+     "label": "C",
+     "text": "5/36"
+    },
+    {
+     "label": "D",
+     "text": "4/9"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Rolling two dice gives n(S) = 36 equally likely outcomes. The pairs whose sum is 2, 3 or 5 are (1, 1), (1, 2), (2, 1), (2, 3), (3, 2), (1, 4) and (4, 1), so n(E) = 7. Hence P(E) = 7/36.",
+   "concept": "Listing the outcomes",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed list of favourable outcomes reads (1, 1), (1, 2), (2, 1), (2, 3), (3, 1), (1, 4), (4, 1); (3, 1) is a misprint for (3, 2), since (3, 1) has sum 4. The count 7 and the key 7/36 are unaffected."
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "From the data 1, 4, 7, 9, 16, 21, 25, if all the even numbers are removed, then the probability of getting at random a prime number from the remaining is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2/5"
+    },
+    {
+     "label": "B",
+     "text": "1/5"
+    },
+    {
+     "label": "C",
+     "text": "1/7"
+    },
+    {
+     "label": "D",
+     "text": "2/7"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Removing the even numbers 4 and 16 leaves 1, 7, 9, 21, 25, so n(S) = 5. Among these only 7 is prime, so n(E) = 1. Hence P(E) = 1/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "One card is drawn at random from a well shuffled deck of 52 playing cards. The probability that it is a red ace card, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/13"
+    },
+    {
+     "label": "B",
+     "text": "1/26"
+    },
+    {
+     "label": "C",
+     "text": "1/52"
+    },
+    {
+     "label": "D",
+     "text": "1/2"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "A deck holds 52 cards, so n(S) = 52. There are 2 red aces (hearts and diamonds), so n(E) = 2. Hence P(E) = 2/52 = 1/26.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "A card is drawn at random from a well shuffled deck of 52 playing cards. The probability of getting a face card is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/2"
+    },
+    {
+     "label": "B",
+     "text": "3/13"
+    },
+    {
+     "label": "C",
+     "text": "4/13"
+    },
+    {
+     "label": "D",
+     "text": "1/13"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "There are 52 cards in all, so n(S) = 52, and 12 face cards (jack, queen, king in each of the four suits), so n(E) = 12. Hence P(E) = 12/52 = 3/13.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution writes n(E) = 13 but then divides 12 by 52; 12 is the correct count of face cards and the key 3/13 follows from it, so the 13 is a typo inside the solution, not a key conflict."
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "A bag contains 5 pink, 8 blue and 7 yellow balls. One ball is drawn at random from the bag. What is the probability of getting neither a blue nor a pink ball ?",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/4"
+    },
+    {
+     "label": "B",
+     "text": "2/5"
+    },
+    {
+     "label": "C",
+     "text": "7/20"
+    },
+    {
+     "label": "D",
+     "text": "13/20"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The bag holds 5 + 8 + 7 = 20 balls, so n(S) = 20. A ball that is neither blue nor pink must be yellow, and there are 7 yellow balls, so n(E) = 7. Hence P(E) = 7/20.",
+   "concept": "The event not E",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution line reads '7 yellow ball are neither a blue or nor a pink black balls are not red', which is garbled; the count 7 and the value 7/20 are clear."
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "An event is very unlikely to happen. Its probability is closest to",
+   "options": [
+    {
+     "label": "A",
+     "text": "0.0001"
+    },
+    {
+     "label": "B",
+     "text": "0.001"
+    },
+    {
+     "label": "C",
+     "text": "0.01"
+    },
+    {
+     "label": "D",
+     "text": "0.1"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The probability of an event that is very unlikely lies close to 0. Among the four values offered, 0.0001 is the nearest to zero. Hence the probability is closest to 0.0001.",
+   "concept": "Range of probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP STD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The P(A) denotes the probability of an event A, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "P(A) < 0"
+    },
+    {
+     "label": "B",
+     "text": "P(A) > 1"
+    },
+    {
+     "label": "C",
+     "text": "0 ≤ P(A) ≤ 1"
+    },
+    {
+     "label": "D",
+     "text": "−1 ≤ P(A) ≤ 1"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The probability of any event is a ratio of a count of favourable outcomes to a count of all outcomes, so it can never be negative and can never exceed 1. Hence 0 ≤ P(A) ≤ 1.",
+   "concept": "Range of probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If a card is selected from a deck of 52 cards, then the probability of its being a red face card is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3/26"
+    },
+    {
+     "label": "B",
+     "text": "3/13"
+    },
+    {
+     "label": "C",
+     "text": "2/13"
+    },
+    {
+     "label": "D",
+     "text": "1/2"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "There are 12 face cards in a deck, 6 red and 6 black, so n(S) = 52 and n(E) = 6. Hence P(E) = 6/52 = 3/26.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "A card is drawn from a deck of 52 cards. The event E is that card is not an ace of hearts. The number of outcomes favourable to E is",
+   "options": [
+    {
+     "label": "A",
+     "text": "4"
+    },
+    {
+     "label": "B",
+     "text": "13"
+    },
+    {
+     "label": "C",
+     "text": "48"
+    },
+    {
+     "label": "D",
+     "text": "51"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Exactly one card in the deck is the ace of hearts. Every other card is favourable to E, so n(E) = 52 − 1 = 51.",
+   "concept": "The event not E",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 STD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "When a die is thrown, the probability of getting an odd number less than 3 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/6"
+    },
+    {
+     "label": "B",
+     "text": "1/3"
+    },
+    {
+     "label": "C",
+     "text": "1/2"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "A die has 6 equally likely faces, so n(S) = 6. The only odd number less than 3 is 1, so n(E) = 1. Hence P(E) = 1/6.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 STD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The probability of getting a bad egg in a lot of 400 is 0.035. The number of bad eggs in the lot is",
+   "options": [
+    {
+     "label": "A",
+     "text": "7"
+    },
+    {
+     "label": "B",
+     "text": "14"
+    },
+    {
+     "label": "C",
+     "text": "21"
+    },
+    {
+     "label": "D",
+     "text": "28"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let x be the number of bad eggs. Then x/400 = 0.035, so x = 0.035 × 400 = 14. The lot contains 14 bad eggs.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "A girl calculates that the probability of her winning the first prize in a lottery is 0.08. If 6000 tickets are sold, then how many tickets has she bought?",
+   "options": [
+    {
+     "label": "A",
+     "text": "40"
+    },
+    {
+     "label": "B",
+     "text": "240"
+    },
+    {
+     "label": "C",
+     "text": "480"
+    },
+    {
+     "label": "D",
+     "text": "750"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Let x be the number of tickets she bought. Since 6000 tickets were sold, x/6000 = 0.08, so x = 0.08 × 6000 = 480. She bought 480 tickets.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Foreign 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The probability that a number selected at random from the numbers 1, 2, 3, ......, 15 is a multiple of 4 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "4/15"
+    },
+    {
+     "label": "B",
+     "text": "2/15"
+    },
+    {
+     "label": "C",
+     "text": "1/15"
+    },
+    {
+     "label": "D",
+     "text": "1/5"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "There are 15 numbers in all, so n(S) = 15. The multiples of 4 among them are 4, 8 and 12, so n(E) = 3. Hence P(E) = 3/15 = 1/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "Two coins are tossed simultaneously. The probability of getting at most one head is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/4"
+    },
+    {
+     "label": "B",
+     "text": "1/2"
+    },
+    {
+     "label": "C",
+     "text": "2/3"
+    },
+    {
+     "label": "D",
+     "text": "3/4"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Tossing two coins gives the outcomes HH, HT, TH, TT, so n(S) = 4. At most one head means HT, TH or TT, so n(E) = 3. Hence P(E) = 3/4.",
+   "concept": "An unbiased coin",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If an event cannot occur, then its probability is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "3/4"
+    },
+    {
+     "label": "C",
+     "text": "1/2"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "An event that cannot occur has no favourable outcome, so it is an impossible event and its probability is 0.",
+   "concept": "Impossible event",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "Which of the following cannot be the probability of an event?",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/3"
+    },
+    {
+     "label": "B",
+     "text": "0.1"
+    },
+    {
+     "label": "C",
+     "text": "3%"
+    },
+    {
+     "label": "D",
+     "text": "17/16"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A probability always lies between 0 and 1. The values 1/3, 0.1 and 3% all lie in that range, but 17/16 exceeds 1, so it cannot be the probability of an event.",
+   "concept": "Range of probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Foreign 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the probability of an event is p, then the probability of its complementary event will be",
+   "options": [
+    {
+     "label": "A",
+     "text": "p − 1"
+    },
+    {
+     "label": "B",
+     "text": "p"
+    },
+    {
+     "label": "C",
+     "text": "1 − p"
+    },
+    {
+     "label": "D",
+     "text": "1 − 1/p"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "For any event E, P(E) + P(Ē) = 1. With P(E) = p, the complementary event has probability P(Ē) = 1 − p.",
+   "concept": "P(E) plus P(not E)",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The probability expressed as a percentage of a particular occurrence can never be",
+   "options": [
+    {
+     "label": "A",
+     "text": "less than 100"
+    },
+    {
+     "label": "B",
+     "text": "less than 0"
+    },
+    {
+     "label": "C",
+     "text": "greater than 1"
+    },
+    {
+     "label": "D",
+     "text": "anything but a whole number"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "A probability written as a percentage always lies between 0% and 100%. It may well be less than 100, greater than 1 or a fraction, but it can never be less than 0.",
+   "concept": "Range of probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Foreign 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "One ticket is drawn at random from a bag containing tickets numbered 1 to 40. The probability that the selected ticket has a number which is a multiple of 5 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/5"
+    },
+    {
+     "label": "B",
+     "text": "3/5"
+    },
+    {
+     "label": "C",
+     "text": "4/5"
+    },
+    {
+     "label": "D",
+     "text": "1/3"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "There are 40 tickets, so n(S) = 40. The multiples of 5 among them are 5, 10, 15, 20, 25, 30, 35, 40, so n(E) = 8. Hence P(E) = 8/40 = 1/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Someone is asked to take a number from 1 to 100. The probability that it is a prime, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "8/25"
+    },
+    {
+     "label": "B",
+     "text": "1/4"
+    },
+    {
+     "label": "C",
+     "text": "3/4"
+    },
+    {
+     "label": "D",
+     "text": "13/50"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "There are 100 numbers to choose from, so n(S) = 100. The primes up to 100 are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 and 97, which is 25 numbers, so n(E) = 25. Hence P(E) = 25/100 = 1/4.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "KEY CONFLICT: the worked solution obtains 25/100 = 1/4, which is option (b), but the printed line reads 'Thus (c) is correct option' and (c) is 3/4. The solution wins, so the key is recorded as B."
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The probability of getting a number greater then 3 in throwing a die is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/3"
+    },
+    {
+     "label": "B",
+     "text": "1/4"
+    },
+    {
+     "label": "C",
+     "text": "3/4"
+    },
+    {
+     "label": "D",
+     "text": "2/3"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The book takes 4 of the 6 faces as favourable, giving P(E) = 4/6 = 2/3.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed question and its solution do not agree with each other. Strictly, the faces greater than 3 are 4, 5, 6, giving 3/6 = 1/2, which is not among the options; the solution first writes n(E) = 2 and then computes 4/6 = 2/3, matching key (d). The stem is most likely meant as 'greater than or equal to 3'. Key (d) matches the solution's final value, so it is not counted as a contradicted key."
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Out of one digit prime numbers, one number is selected at random. The probability of selecting an even number is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/3"
+    },
+    {
+     "label": "B",
+     "text": "1/4"
+    },
+    {
+     "label": "C",
+     "text": "3/4"
+    },
+    {
+     "label": "D",
+     "text": "2/3"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The one digit primes are 2, 3, 5, 7, so n(S) = 4. Only 2 is even, so n(E) = 1. Hence P(E) = 1/4.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 SQP 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "A bag contains 3 red and 2 blue marbles. If a marble is drawn at random, then the probability of drawing a blue marble is :",
+   "options": [
+    {
+     "label": "A",
+     "text": "2/5"
+    },
+    {
+     "label": "B",
+     "text": "1/4"
+    },
+    {
+     "label": "C",
+     "text": "3/5"
+    },
+    {
+     "label": "D",
+     "text": "2/3"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The bag holds 3 + 2 = 5 marbles, so n(S) = 5. Two of them are blue, so n(E) = 2. Hence P(E) = 2/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "KEY CONFLICT: the worked solution obtains 2/5, which is option (a), but the printed line reads 'Thus (b) is correct option' and (b) is 1/4. The solution wins, so the key is recorded as A."
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "A single letter is selected at random from the word PROBABILITY. The probability that the selected letter is a vowel is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2/11"
+    },
+    {
+     "label": "B",
+     "text": "3/11"
+    },
+    {
+     "label": "C",
+     "text": "4/11"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "PROBABILITY has 11 letters, so n(S) = 11. Its vowels are O, A, I and I, so n(E) = 4. Hence P(E) = 4/11.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "25",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "A fair die is thrown once. The probability of getting a composite number less than 5 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/3"
+    },
+    {
+     "label": "B",
+     "text": "1/6"
+    },
+    {
+     "label": "C",
+     "text": "2/3"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The outcomes are 1, 2, 3, 4, 5, 6, so n(S) = 6. The only composite number less than 5 is 4, so n(E) = 1. Hence P(E) = 1/6.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 SQP 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "26",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "If a letter is chosen at random from the letter of English alphabet, then the probability that it is a letter of the word DELHI is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/5"
+    },
+    {
+     "label": "B",
+     "text": "1/26"
+    },
+    {
+     "label": "C",
+     "text": "5/26"
+    },
+    {
+     "label": "D",
+     "text": "21/26"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The English alphabet has 26 letters, so n(S) = 26. The word DELHI uses 5 distinct letters, so n(E) = 5. Hence P(E) = 5/26.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "27",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The probability that a two digit number selected at random will be a multiple of 3 and not a multiple of 5 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2/15"
+    },
+    {
+     "label": "B",
+     "text": "4/15"
+    },
+    {
+     "label": "C",
+     "text": "1/15"
+    },
+    {
+     "label": "D",
+     "text": "4/90"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "There are 90 two digit numbers, so n(S) = 90. Of these, 24 are divisible by 3 but not by 5, so n(E) = 24. Hence P(E) = 24/90 = 4/15.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 SQP 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "28",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "If in a lottery, there are 5 prizes and 20 blanks, then the probability of getting a prize is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2/5"
+    },
+    {
+     "label": "B",
+     "text": "4/5"
+    },
+    {
+     "label": "C",
+     "text": "1/5"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The lottery has 20 + 5 = 25 tickets in all, so n(S) = 25, of which 5 carry a prize, so n(E) = 5. Hence P(E) = 5/25 = 1/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2010",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "29",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "If a number x is chosen at random from the numbers −2, −1, 0, 1, 2. Then, the probability that x² < 2 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2/5"
+    },
+    {
+     "label": "B",
+     "text": "4/5"
+    },
+    {
+     "label": "C",
+     "text": "1/5"
+    },
+    {
+     "label": "D",
+     "text": "3/5"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "There are 5 numbers to choose from, so n(S) = 5. Squaring each gives 4, 1, 0, 1, 4, so x² < 2 holds for x = −1, 0 and 1, giving n(E) = 3. Hence P(E) = 3/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "30",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Which of the following relationship is the correct?",
+   "options": [
+    {
+     "label": "A",
+     "text": "P(E) + P(Ē) = 1"
+    },
+    {
+     "label": "B",
+     "text": "P(Ē) − P(E) = 1"
+    },
+    {
+     "label": "C",
+     "text": "P(E) = 1 + P(Ē)"
+    },
+    {
+     "label": "D",
+     "text": "None of these"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "An event and its complement together cover every outcome exactly once, so their probabilities add to 1, that is P(E) + P(Ē) = 1.",
+   "concept": "P(E) plus P(not E)",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "31",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Two dice are thrown together. The probability that sum of the two numbers will be a multiple of 4, is:",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/2"
+    },
+    {
+     "label": "B",
+     "text": "1/3"
+    },
+    {
+     "label": "C",
+     "text": "1/8"
+    },
+    {
+     "label": "D",
+     "text": "1/4"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Throwing two dice gives n(S) = 36 outcomes. The pairs whose sum is 4, 8 or 12 are (1, 3), (2, 2), (3, 1), (2, 6), (3, 5), (4, 4), (5, 3), (6, 2) and (6, 6), so n(E) = 9. Hence P(E) = 9/36 = 1/4.",
+   "concept": "Listing the outcomes",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Comp. 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "32",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "A letter is chosen at random from the letters of the word ASSASSINATION, then the probability that the letter chosen is a vowel is in the form of 6/(2x + 1), then x is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "6"
+    },
+    {
+     "label": "C",
+     "text": "7"
+    },
+    {
+     "label": "D",
+     "text": "8"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "ASSASSINATION has 13 letters, so n(S) = 13, and 6 of them are vowels, so n(E) = 6, giving P(E) = 6/13. Setting 6/(2x + 1) = 6/13 gives 2x + 1 = 13, so x = 6.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "33",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "Ramesh buys a fish from a shop for his aquarium. The shopkeeper takes out one fish at random a tank containing 5 male fish and 9 female fish. Then, the probability that the fish taken out is a male fish, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "5/13"
+    },
+    {
+     "label": "B",
+     "text": "5/14"
+    },
+    {
+     "label": "C",
+     "text": "6/13"
+    },
+    {
+     "label": "D",
+     "text": "7/13"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The tank holds 5 + 9 = 14 fish, so n(S) = 14, of which 5 are male, so n(E) = 5. Hence P(E) = 5/14.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 SQP 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "34",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "A number x is selected from the numbers 1, 2, 3 and then a second number y is randomly selected from the numbers 1, 4, 9 then the probability that the product xy of the two numbers will be less than 9 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3/7"
+    },
+    {
+     "label": "B",
+     "text": "4/9"
+    },
+    {
+     "label": "C",
+     "text": "5/9"
+    },
+    {
+     "label": "D",
+     "text": "7/9"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "x can be picked in 3 ways and y in 3 ways, so n(S) = 9 pairs: (1, 1), (1, 4), (1, 9), (2, 1), (2, 4), (2, 9), (3, 1), (3, 4), (3, 9). The product is less than 9 for (1, 1), (1, 4), (2, 1), (2, 4) and (3, 1), so n(E) = 5. Hence P(E) = 5/9.",
+   "concept": "Listing the outcomes",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Foreign 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "35",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "There are 1000 sealed envelopes in a box. 10 of them contain a cash prize of ₹ 100 each, 100 of them contain a cash prize of ₹ 50 each and 200 of them contain a cash prize of ₹ 10 each and rest do not contain any cash prize. If they are well-shuffled and an envelope is picked up out, then the probability that is contains no cash prize is",
+   "options": [
+    {
+     "label": "A",
+     "text": "0.65"
+    },
+    {
+     "label": "B",
+     "text": "0.69"
+    },
+    {
+     "label": "C",
+     "text": "0.54"
+    },
+    {
+     "label": "D",
+     "text": "0.57"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Envelopes carrying a prize number 10 + 100 + 200 = 310, so those with no prize number 1000 − 310 = 690. With n(S) = 1000 and n(E) = 690, P(E) = 690/1000 = 0.69.",
+   "concept": "Using the complement",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "36",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "stem": "Assertion : A card is drawn at random from a well shuffled deck of 52 playing cards. The probability of getting a face card is 1.1.\nReason : Probability of an event always lies between 0 and 1.",
+   "assertion": "A card is drawn at random from a well shuffled deck of 52 playing cards. The probability of getting a face card is 1.1.",
+   "reason": "Probability of an event always lies between 0 and 1.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A probability can never exceed 1, so a value of 1.1 is impossible; in fact P(face card) = 12/52 = 3/13. The assertion is therefore false. The reason, that every probability lies between 0 and 1, is a true statement. Hence assertion (A) is false but reason (R) is true.",
+   "concept": "Range of probability",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No board/year tag is printed against this assertion-reason item."
+  }
+ ]
+}

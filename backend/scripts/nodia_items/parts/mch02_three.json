@@ -1,0 +1,229 @@
+{
+ "items": [
+  {
+   "number": "66",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi Standard",
+   "stem": "Find a quadratic polynomial whose zeroes are reciprocals of the zeroes of the polynomial f(x) = ax² + bx + c, a ≠ 0, c ≠ 0.",
+   "answer": "Let α and β be the zeroes of ax² + bx + c, so α + β = −b/a and αβ = c/a. Let 1/α and 1/β be the zeroes of the new polynomial. Sum of zeroes, s = 1/α + 1/β = (β + α)/(αβ) = (−b/a)/(c/a) = −b/c. Product of zeroes, p = 1/α × 1/β = 1/(αβ) = a/c. Required polynomial g(x) = x² − sx + p = x² + (b/c)x + a/c, i.e. c·g(x) = cx² + bx + a. Hence g(x) = cx² + bx + a.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "67",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "Verify whether 2, 3 and 1/2 are the zeroes of the polynomial p(x) = 2x³ − 11x² + 17x − 6.",
+   "answer": "If 2, 3 and 1/2 are zeroes of p(x) they must satisfy p(x) = 0. p(2) = 2(2)³ − 11(2)² + 17(2) − 6 = 16 − 44 + 34 − 6 = 50 − 50 = 0. p(3) = 2(3)³ − 11(3)² + 17(3) − 6 = 54 − 99 + 51 − 6 = 105 − 105 = 0. p(1/2) = 2(1/2)³ − 11(1/2)² + 17(1/2) − 6 = 1/4 − 11/4 + 17/2 − 6 = 0. Hence 2, 3 and 1/2 are the zeroes of p(x).",
+   "concept": "What a zero is",
+   "ocr": "MinerU reprinted the cubic inside the worked solution as 2x² − 11x² + 17x − 6; restored to 2x³ − 11x² + 17x − 6 from the question statement and from the substitution 2(2)³ that follows."
+  },
+  {
+   "number": "68",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "If the sum and product of the zeroes of the polynomial ax² − 5x + c are equal to 10 each, find the value of \"a\" and \"c\".",
+   "answer": "Let α and β be the zeroes of f(x) = ax² − 5x + c. Sum of zeroes α + β = −(−5)/a = 5/a and product of zeroes αβ = c/a. Given that both are equal to 10: 5/a = 10 …(1) and c/a = 10 …(2). Dividing (2) by (1), c/5 = 1 ⇒ c = 5. Substituting c = 5 in (2), a = 1/2. Hence a = 1/2 and c = 5.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "69",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "If one zero of the polynomial 3x² − 8x + 2k + 1 is seven times the other, find the value of k.",
+   "answer": "Let α and β be the zeroes of f(x) = 3x² − 8x + 2k + 1, with β = 7α. Sum of zeroes: α + 7α = 8/3 ⇒ 8α = 8/3 ⇒ α = 1/3. Product of zeroes: α · 7α = (2k + 1)/3 ⇒ 7(1/3)² = (2k + 1)/3 ⇒ 7/9 = (2k + 1)/3 ⇒ 2k + 1 = 7/3 ⇒ 4/3 = 2k ⇒ k = 2/3.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Printed stem read 'If one the zero of a polynomial'; corrected to 'If one zero of the polynomial'. The middle of the worked solution is destroyed by MinerU (long runs of \\quad filler); the algebra was reconstructed and lands exactly on the surviving printed final line 4/3 = 2k ⇒ k = 2/3."
+  },
+  {
+   "number": "70",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2015",
+   "stem": "Quadratic polynomial 2x² − 3x + 1 has zeroes as α and β. Now form a quadratic polynomial whose zeroes are 3α and 3β.",
+   "answer": "For f(x) = 2x² − 3x + 1, sum of zeroes α + β = −b/a = 3/2 and product of zeroes αβ = c/a = 1/2. The new polynomial is p(x) = x² − (3α + 3β)x + (3α)(3β) = x² − 3(α + β)x + 9αβ = x² − 3(3/2)x + 9(1/2) = x² − (9/2)x + 9/2 = ½(2x² − 9x + 9). Hence the required quadratic polynomial is ½(2x² − 9x + 9).",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "71",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "If α and β are the zeroes of the polynomial f(x) = x² − 4x − 5, then find the value of α² + β².",
+   "answer": "Comparing p(x) = x² − 4x − 5 with ax² + bx + c gives a = 1, b = −4, c = −5. Sum of zeroes α + β = −b/a = 4 and product of zeroes αβ = c/a = −5/1 = −5. Now α² + β² = (α + β)² − 2αβ = (4)² − 2(−5) = 16 + 10 = 26.",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "72",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Basic",
+   "stem": "Find the quadratic polynomial, the sum and product of whose zeroes are −3 and 2 respectively. Hence find the zeroes.",
+   "answer": "Sum of zeroes α + β = −3 and product of zeroes αβ = 2. Thus x² − (α + β)x + αβ = 0 ⇒ x² − (−3)x + 2 = 0 ⇒ x² + 3x + 2 = 0. Splitting the middle term: x² + 2x + x + 2 = 0 ⇒ x(x + 2) + (x + 2) = 0 ⇒ (x + 2)(x + 1) = 0. Hence the zeroes are −2 and −1.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The text layer shows the book does print a board tag for this question, [Board 2020 OD Basic]; MinerU lost it, and the section_heading has been corrected."
+  },
+  {
+   "number": "73",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "Find the zeroes of the quadratic polynomial 6x² − 3 − 7x and verify the relationship between the zeroes and the coefficients.",
+   "answer": "For zeroes, p(x) = 0: 6x² − 7x − 3 = 0 ⇒ 6x² − 9x + 2x − 3 = 0 ⇒ 3x(2x − 3) + 1(2x − 3) = 0 ⇒ (2x − 3)(3x + 1) = 0. Thus x = 3/2 and x = −1/3, so α = 3/2 and β = −1/3 are the zeroes. Verification: α + β = 3/2 + (−1/3) = 7/6 = −(coefficient of x)/(coefficient of x²) = −(−7)/6. Product αβ = (3/2)(−1/3) = −1/2 = (constant term)/(coefficient of x²) = −3/6.",
+   "concept": "Splitting the middle term"
+  },
+  {
+   "number": "73P",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board 2020 Delhi Basic",
+   "stem": "Find the zeroes of the quadratic polynomial x² + 7x + 10 and verify the relationship between the zeroes and the coefficients.",
+   "answer": "x² + 7x + 10 = x² + 5x + 2x + 10 = x(x + 5) + 2(x + 5) = (x + 5)(x + 2). Setting p(x) = 0 gives the zeroes −5 and −2. Verification: sum of zeroes = −5 + (−2) = −7 = −(coefficient of x)/(coefficient of x²) = −7/1. Product of zeroes = (−5)(−2) = 10 = (constant term)/(coefficient of x²) = 10/1. Hence verified.",
+   "concept": "Splitting the middle term",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q73; numbered '73P' from its position, following the 88P/91P convention used in mch02_five.json for this chapter. The printed key OCRs as 'Ans - and -5' — the first zero lost its digit; it is −2, confirmed by factorising x² + 7x + 10 = (x + 2)(x + 5)."
+  },
+  {
+   "number": "74",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "If the zeroes of the quadratic polynomial x² + (a + 1)x + b are 2 and −3, then find the value of a and b.",
+   "answer": "If a number is a zero of the polynomial, substituting it makes the polynomial zero. Here 2 and −3 are zeroes of x² + (a + 1)x + b, so f(2) = (2)² + (a + 1)(2) + b = 0 ⇒ 4 + 2a + 2 + b = 0 ⇒ 2a + b = −6 …(1), and f(−3) = (−3)² + (a + 1)(−3) + b = 0 ⇒ 9 − 3a − 3 + b = 0 ⇒ −3a + b = −6 ⇒ 3a − b = 6 …(2). Adding (1) and (2) gives 5a = 0 ⇒ a = 0. Substituting a = 0 in (1) gives b = −6. Hence a = 0 and b = −6.",
+   "concept": "What a zero is",
+   "ocr": "MinerU collapsed the two substitutions into a single corrupt line, 'f(2) = (2)² + (a + 1)(−3) + b = 0', and dropped equation (2) entirely. Both substitutions were restored. The text layer shows the book prints equation (2) as 3a − b = 6 and then adds (1) and (2) to reach 5a = 0, so the book is consistent and the earlier note about a subtraction step was wrong; the printed answers a = 0 and b = −6 are unchanged."
+  },
+  {
+   "number": "75",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "If α and β are the zeroes of the polynomial 6y² − 7y + 2, find a quadratic polynomial whose zeroes are 1/α and 1/β.",
+   "answer": "For p(y) = 6y² − 7y + 2: sum of zeroes α + β = −(−7/6) = 7/6 and product of zeroes αβ = 2/6 = 1/3. For the new polynomial g(y): sum of zeroes = 1/α + 1/β = (α + β)/(αβ) = (7/6)/(2/6) = 7/2, and product of zeroes = 1/α × 1/β = 1/(αβ) = 1/(1/3) = 3. Hence g(y) = y² − (7/2)y + 3 = ½(2y² − 7y + 6).",
+   "concept": "Sum and product of the zeroes"
+  },
+  {
+   "number": "76",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "Show that 1/2 and −3/2 are the zeroes of the polynomial 4x² + 4x − 3 and verify the relationship between zeroes and coefficients of the polynomial.",
+   "answer": "If 1/2 and −3/2 are zeroes of p(x) = 4x² + 4x − 3 they must satisfy p(x) = 0. p(1/2) = 4(1/4) + 4(1/2) − 3 = 1 + 2 − 3 = 0 and p(−3/2) = 4(9/4) + 4(−3/2) − 3 = 9 − 6 − 3 = 0. Thus 1/2 and −3/2 are the zeroes of 4x² + 4x − 3. Sum of zeroes = 1/2 − 3/2 = −1 = −4/4 = −(coefficient of x)/(coefficient of x²). Product of zeroes = (1/2)(−3/2) = −3/4 = (constant term)/(coefficient of x²). Verified.",
+   "concept": "What a zero is",
+   "ocr": "MinerU printed the substitution as 4(9/2) in p(−3/2); it must be 4(9/4) = 9, the value used by the very next printed line (9 − 6 − 3 = 0). The text layer shows the book itself prints 4(9/2) there, so that is the book's own misprint rather than an OCR error, and the correction stands. The text layer also shows the book does print a board tag here, [Board Term-1 2011], which MinerU lost; the section_heading has been corrected."
+  },
+  {
+   "number": "77",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Standard",
+   "stem": "A teacher asked 10 of his students to write a polynomial in one variable on a paper and then to hand over the paper. The following were the answers given by the students: 2x + 3, 3x² + 7x + 2, 4x³ + 3x² + 2, x³ + √(3x) + 7, 7x + √7, 5x³ − 7x + 2, 2x² + 3 − 5/x, 5x − 1/2, ax³ + bx² + cx + d, x + 1/x. Answer the following questions: (i) How many of the above ten are not polynomials? (ii) How many of the above ten are quadratic polynomials?",
+   "answer": "(i) Three of them are not polynomials: x³ + √(3x) + 7, 2x² + 3 − 5/x and x + 1/x. (ii) Only one of them, 3x² + 7x + 2, is a quadratic polynomial.",
+   "concept": "Linear, quadratic and cubic",
+   "sub_parts": [
+    "i",
+    "ii"
+   ]
+  },
+  {
+   "number": "78",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "Find the zeroes of the quadratic polynomial 5x² + 8x − 4 and verify the relationship between the zeroes and the coefficients of the polynomial.",
+   "answer": "p(x) = 5x² + 8x − 4 = 5x² + 10x − 2x − 4 = 5x(x + 2) − 2(x + 2) = (x + 2)(5x − 2). Substituting p(x) = 0 gives the zeroes −2 and 2/5. Verification: sum of zeroes = −2 + 2/5 = −8/5, and from the polynomial −b/a = −(coefficient of x)/(coefficient of x²) = −8/5. Product of zeroes = (−2)(2/5) = −4/5, and c/a = (constant term)/(coefficient of x²) = −4/5. Hence verified.",
+   "concept": "Splitting the middle term"
+  },
+  {
+   "number": "78P",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board Term-1 2015",
+   "stem": "Find the zeroes of the quadratic polynomial x² − 2√2x and verify the relationship between the zeroes and the coefficients of the polynomial.",
+   "answer": "x² − 2√2x = x(x − 2√2). Setting p(x) = 0 gives x = 0 and x = 2√2, so the zeroes are 0 and 2√2. Verification: sum of zeroes = 0 + 2√2 = 2√2 = −(coefficient of x)/(coefficient of x²) = −(−2√2)/1. Product of zeroes = 0 × 2√2 = 0 = (constant term)/(coefficient of x²) = 0/1. Hence verified.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q78; numbered '78P' from its position, following the 88P/91P convention used in mch02_five.json for this chapter. The printed key is 'Ans 0 and 2√2'; the working shown here is the standard route to that key. There is no middle term to split here — the factorisation is a common factor of x — so the concept is the relationship being verified."
+  },
+  {
+   "number": "79",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2009",
+   "stem": "If α and β are the zeroes of a quadratic polynomial such that α + β = 24 and α − β = 8, find the quadratic polynomial having α and β as its zeroes.",
+   "answer": "We have α + β = 24 …(1) and α − β = 8 …(2). Adding (1) and (2): 2α = 32 ⇒ α = 16. Subtracting (2) from (1): 2β = 16 ⇒ β = 8. Hence the quadratic polynomial is p(x) = x² − (α + β)x + αβ = x² − (16 + 8)x + (16)(8) = x² − 24x + 128.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "MinerU dropped equation (1), α + β = 24, from the worked solution (it survives only in the question statement) and truncated the product line at '(16'; completed as (16)(8) = 128, which matches the printed final polynomial x² − 24x + 128."
+  },
+  {
+   "number": "80",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2010",
+   "stem": "If α, β and γ are zeroes of the polynomial 6x³ + 3x² − 5x + 1, then find the value of α⁻¹ + β⁻¹ + γ⁻¹.",
+   "answer": "For p(x) = 6x³ + 3x² − 5x + 1: α + β + γ = −b/a = −3/6 = −1/2, αβ + βγ + γα = c/a = −5/6, and αβγ = −d/a = −1/6. Now 1/α + 1/β + 1/γ = (αβ + βγ + γα)/(αβγ) = (−5/6)/(−1/6) = (−5/6) × (6/−1) = 5. Hence α⁻¹ + β⁻¹ + γ⁻¹ = 5.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "MinerU printed the first relation as α + β + γ = −b/c; it is −b/a, as the value −3/6 shown on the same line confirms. The text layer shows the book itself prints α + β + γ = −b/c, so that slip is the book's own and not MinerU's; the value −3/6 on the same line still fixes it as −b/a."
+  },
+  {
+   "number": "81",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "When p(x) = x² + 7x + 9 is divided by g(x), we get (x + 2) and −1 as the quotient and remainder respectively, find g(x).",
+   "answer": "Here p(x) = x² + 7x + 9, q(x) = x + 2 and r(x) = −1. By the division algorithm p(x) = g(x)·q(x) + r(x), so x² + 7x + 9 = g(x)(x + 2) − 1. Hence g(x) = (x² + 7x + 10)/(x + 2) = (x + 2)(x + 5)/(x + 2) = x + 5. Thus g(x) = x + 5.",
+   "concept": "Splitting the middle term",
+   "ocr": "The printed question number was lost by MinerU; inferred as 81 from its position between questions 80 and 82. The printed wording 'is divisible by g(x)' was read as 'is divided by g(x)', since a non-zero remainder of −1 is given."
+  },
+  {
+   "number": "82",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term 2010",
+   "stem": "Find the value for k for which x⁴ + 10x³ + 25x² + 15x + k is exactly divisible by x + 7.",
+   "answer": "Let f(x) = x⁴ + 10x³ + 25x² + 15x + k. If x + 7 is a factor then −7 is a zero of f(x), so x = −7 satisfies f(x) = 0. Substituting x = −7: (−7)⁴ + 10(−7)³ + 25(−7)² + 15(−7) + k = 0 ⇒ 2401 − 3430 + 1225 − 105 + k = 0 ⇒ 3626 − 3535 + k = 0 ⇒ 91 + k = 0 ⇒ k = −91.",
+   "concept": "What a zero is"
+  },
+  {
+   "number": "83",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2009",
+   "stem": "On dividing the polynomial 4x⁴ − 5x³ − 39x² − 46x − 2 by the polynomial g(x) the quotient is x² − 3x − 5 and the remainder is −5x + 8. Find the polynomial g(x).",
+   "answer": "Dividend = (Divisor × Quotient) + Remainder, so 4x⁴ − 5x³ − 39x² − 46x − 2 = g(x)(x² − 3x − 5) + (−5x + 8). Therefore 4x⁴ − 5x³ − 39x² − 46x − 2 + 5x − 8 = g(x)(x² − 3x − 5), i.e. 4x⁴ − 5x³ − 39x² − 41x − 10 = g(x)(x² − 3x − 5). Hence g(x) = (4x⁴ − 5x³ − 39x² − 41x − 10)/(x² − 3x − 5) = 4x² + 7x + 2.",
+   "concept": "General form of a quadratic",
+   "ocr": "MinerU mangled the dividend each time it was reprinted inside the worked solution ('4x⁴ − 5x³ − 39x³ − 46x − 2' and '4x² − 5x³ − 39x² − 46x − 2'); restored to 4x⁴ − 5x³ − 39x² − 46x − 2 from the question statement."
+  },
+  {
+   "number": "84",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2008",
+   "stem": "If the squared difference of the zeroes of the quadratic polynomial f(x) = x² + px + 45 is equal to 144, find the value of p.",
+   "answer": "Let α and β be the zeroes of f(x) = x² + px + 45. Sum of zeroes α + β = −p and product of zeroes αβ = 45. Given (α − β)² = 144, i.e. (α + β)² − 4αβ = 144. Substituting the values: (−p)² − 4 × 45 = 144 ⇒ p² − 180 = 144 ⇒ p² = 144 + 180 = 324 ⇒ p = ±√324 = ±18. Hence the value of p is ±18.",
+   "concept": "Sum and product of the zeroes"
+  }
+ ]
+}

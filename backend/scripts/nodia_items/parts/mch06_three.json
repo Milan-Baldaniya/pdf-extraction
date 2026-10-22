@@ -1,0 +1,205 @@
+{
+ "items": [
+  {
+   "number": "44",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "Diagonals AC and BD of trapezium ABCD with AB ∥ DC intersect each other at point O. Show that OA/OC = OB/OD.",
+   "answer": "In Δ AOB and Δ COD we have AB ∥ CD, so the transversals AC and BD cut the parallel lines in equal alternate angles: ∠OAB = ∠DCO and ∠OBA = ∠ODC. By the AA similarity criterion Δ AOB ~ Δ COD. Corresponding sides of similar triangles are in the same ratio, so OA/OC = OB/OD. Hence proved.",
+   "concept": "AAA criterion",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints a trapezium diagram beside the question and redraws the same diagram inside the solution, but the stem names every element (trapezium ABCD, AB ∥ DC, diagonals meeting at O), so no figure is attached."
+  },
+  {
+   "number": "45",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "In the given figure, E is a point on the side CB produced of an isosceles triangle ABC with AB = AC. If AD ⊥ BC and EF ⊥ AC, then prove that Δ ABD ~ Δ ECF.",
+   "answer": "In Δ ABD and Δ ECF, AB = AC makes Δ ABC isosceles, so the base angles are equal: ∠ABC = ∠ACB. Since D lies on BC, ∠ABD is the same as ∠ABC, and since E lies on CB produced and F on AC, ∠ECF is the same as ∠ACB. Hence ∠ABD = ∠ECF. Also AD ⊥ BC and EF ⊥ AC give ∠ADB = ∠EFC = 90°. By the AA similarity criterion, Δ ABD ~ Δ ECF. Hence proved.",
+   "concept": "AAA criterion",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2023 OD Standard",
+   "images": [
+    "ch06_q45.png"
+   ],
+   "figure_required": true,
+   "ocr": "The book prints 'them prove that Δ ABD − Δ ECF'. 'them' is a misprint for 'then', and the dash is the similarity sign ∼ set badly; the worked solution concludes Δ ABD ~ Δ ECF, so the stem is written with 'then' and '~'."
+  },
+  {
+   "number": "46",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "Two right triangles ABC and DBC are drawn on the same hypotenuse BC and on the same side of BC. If AC and BD intersect at P, prove that AP × PC = BP × DP.",
+   "answer": "Let Δ ABC and Δ DBC be right angled at A and at D respectively, both standing on the hypotenuse BC. In Δ BAP and Δ CDP, ∠BAP = ∠CDP = 90°, and ∠BPA = ∠CPD because they are vertically opposite angles. By the AA similarity criterion Δ BAP ~ Δ CDP. Corresponding sides are therefore proportional: BP/PC = AP/PD. Cross multiplying gives AP × PC = BP × DP. Hence proved.",
+   "concept": "AAA criterion",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2019 OD",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The only diagram for this question is drawn inside the solution ('As per given information in question we have drawn the figure given below'), so it is a solution figure and is not attached."
+  },
+  {
+   "number": "47",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "In the given figure, if ∠ACB = ∠CDA, AC = 6 cm and AD = 3 cm, then find the length of AB.",
+   "answer": "In Δ ABC and Δ ACD we have ∠ACB = ∠CDA, which is given, and ∠CAB = ∠CAD, which is the angle common to both triangles. By the AA similarity criterion Δ ABC ~ Δ ACD, so AB/AC = BC/CD = AC/AD. Taking the first and last ratios, AB/AC = AC/AD gives AC² = AB × AD, i.e. 6² = AB × 3. Therefore AB = 36/3 = 12 cm.",
+   "concept": "AAA criterion",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 SQP Standard",
+   "images": [
+    "ch06_q47.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question stem is on the last printed line of page 12 and its solution runs on to page 13; both were read before the item was written."
+  },
+  {
+   "number": "48",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "stem": "If in Δ ABC, AD is median and AE ⊥ BC, then prove that AB² + AC² = 2AD² + ½ BC².",
+   "answer": "Draw Δ ABC with the median AD to BC and the altitude AE ⊥ BC, E lying between B and D. In right triangle ABE, Pythagoras gives AB² = AE² + BE² = (AD² − DE²) + (BD − DE)² = AD² − DE² + BD² + DE² − 2BD × DE = AD² + BD² − 2BD × DE …(1). In right triangle AEC, AC² = AE² + EC² = (AD² − ED²) + (ED + DC)² = AD² − ED² + ED² + DC² + 2ED × DC = AD² + DC² + 2DC × DE …(2). Adding (1) and (2), and using BD = DC because AD is a median, AB² + AC² = 2(AD² + BD²) = 2AD² + 2(½ BC)² = 2AD² + ½ BC². Hence proved.",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No concept is named: this item is proved entirely with the Pythagoras theorem and the median property, and none of chapter 6's listed concepts (which cover congruence, similarity of polygons, BPT and the AAA/SSS/SAS similarity criteria) describes it; citing the nearest one would file it wrongly. The diagram is drawn inside the solution, so no figure is attached."
+  },
+  {
+   "number": "49",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "stem": "In the given figure, P and Q are the points on the sides AB and AC respectively of Δ ABC, such that AP = 3.5 cm, PB = 7 cm, AQ = 3 cm and QC = 6 cm. If PQ = 4.5 cm, find BC.",
+   "answer": "AB = AP + PB = 3.5 + 7 = 10.5 cm, so AP/AB = 3.5/10.5 = 1/3. AC = AQ + QC = 3 + 6 = 9 cm, so AQ/AC = 3/9 = 1/3. In Δ APQ and Δ ABC the two pairs of sides about the common angle A are in the same ratio, AP/AB = AQ/AC, and ∠A is common, so by the SAS similarity criterion Δ APQ ~ Δ ABC. Corresponding sides are therefore proportional: AP/AB = PQ/BC, i.e. 1/3 = 4.5/BC. Hence BC = 13.5 cm.",
+   "concept": "SAS criterion",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "images": [
+    "ch06_q49.png"
+   ],
+   "figure_required": true,
+   "ocr": "The figure attached is the one printed with the question; the solution redraws the same triangle with the four lengths marked on it, and that redrawn copy was not used."
+  },
+  {
+   "number": "50",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "stem": "In given figure Δ ABC ~ Δ DEF. AP bisects ∠CAB and DQ bisects ∠FDE.\nProve that :\n(1) AP/DQ = AB/DE\n(2) Δ CAP ~ Δ FDQ.",
+   "answer": "(1) Since Δ ABC ~ Δ DEF, corresponding angles are equal, so ∠A = ∠D. AP and DQ bisect these angles, so twice the half angle at A equals twice the half angle at D and therefore ∠BAP = ∠EDQ. Also ∠B = ∠E, again as corresponding angles. By the AA similarity criterion Δ ABP ~ Δ DEQ, so their corresponding sides give AP/DQ = AB/DE. Hence proved.\n(2) Since Δ ABC ~ Δ DEF, ∠C = ∠F, and ∠A = ∠D gives, on halving, ∠CAP = ∠FDQ. With these two pairs of equal angles, the AA similarity criterion gives Δ CAP ~ Δ FDQ. Hence proved.",
+   "concept": "AAA criterion",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2016",
+   "images": [
+    "ch06_q50.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question is split across the page break: the number, the first sentence and the figure are at the foot of page 13 and the two parts to prove are at the top of page 14. Both were read and joined. The solution redraws the pair of triangles with the bisected angles numbered 1 to 4; the figure attached is the plain one printed with the question."
+  },
+  {
+   "number": "51",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "In the given figure, DB ⊥ BC, DE ⊥ AB and AC ⊥ BC. Prove that BE/DE = AC/BC.",
+   "answer": "We are given DB ⊥ BC, DE ⊥ AB and AC ⊥ BC. In Δ ABC, ∠C = 90°, so its other two angles satisfy ∠BAC + ∠ABC = 90°. Because DB ⊥ BC, the angles at B also satisfy ∠ABC + ∠DBE = 90°. Comparing the two, ∠BAC = ∠DBE. Now in Δ ABC and Δ BDE we have ∠BAC = ∠DBE and ∠ACB = ∠DEB = 90°, so by the AA similarity criterion Δ ABC ~ Δ BDE. Corresponding sides give AC/BE = BC/DE, that is BE/DE = AC/BC. Hence proved.",
+   "concept": "AAA criterion",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "images": [
+    "ch06_q51.png"
+   ],
+   "figure_required": true,
+   "ocr": "The solution redraws the same figure with the angles numbered 1, 2 and 3; the attached crop is the unnumbered figure printed with the question, so the numbering used in the printed working is spelled out in words in the answer instead."
+  },
+  {
+   "number": "52",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "In the given figure, two triangles ABC and DBC lie on the same side of BC such that PQ ∥ BA and PR ∥ BD. Prove that QR ∥ AD.",
+   "answer": "In Δ ABC we have PQ ∥ AB, so by the Basic Proportionality Theorem BP/PC = AQ/QC …(1). Again in Δ BCD we have PR ∥ BD, so by the Basic Proportionality Theorem BP/PC = DR/RC …(2). Comparing (1) and (2), AQ/QC = DR/RC. In Δ ACD the points Q and R divide the sides CA and CD in the same ratio, so by the converse of the Basic Proportionality Theorem QR ∥ AD. Hence proved.",
+   "concept": "Converse of the theorem",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "images": [
+    "ch06_q52.png"
+   ],
+   "figure_required": true,
+   "ocr": "CONTRADICTED KEY: the last line of the printed solution reads 'By converse of BPT, PR ∥ AD  Hence proved', but the working it follows derives AQ/QC = DR/RC, which by the converse of BPT gives QR ∥ AD - exactly what the question asks. PR ∥ BD is a given, not something proved. The solution's own steps win, so the answer concludes QR ∥ AD."
+  },
+  {
+   "number": "53",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "stem": "In the given figure, BC ∥ PQ and BC = 8 cm, PQ = 4 cm, BA = 6.5 cm, AP = 2.8 cm. Find CA and AQ.",
+   "answer": "In Δ ABC and Δ AQP we have AB = 6.5 cm, BC = 8 cm, PQ = 4 cm and AP = 2.8 cm, with BC ∥ PQ. The alternate angles made by the transversal BQ give ∠CBA = ∠AQP, and ∠BAC = ∠PAQ are vertically opposite. By the AA similarity criterion Δ ABC ~ Δ AQP, so AB/AQ = BC/QP = AC/AP. Since BC/QP = 8/4 = 2, we get 6.5/AQ = 2, so AQ = 6.5/2 = 3.25 cm, and AC/2.8 = 2, so AC = 2 × 2.8 = 5.6 cm. Hence CA = 5.6 cm and AQ = 3.25 cm.",
+   "concept": "AAA criterion",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2012",
+   "images": [
+    "ch06_q53.png"
+   ],
+   "figure_required": true,
+   "ocr": "The printed solution's last line reads 'AC = 2 × 2.5 = 5.6 cm'. 2.5 is a misprint for AP = 2.8; 2 × 2.8 = 5.6, so the printed result 5.6 cm is correct and only the middle factor is wrong. The answer states it as 2 × 2.8. The stem's punctuation was normalised ('BA = 6.5 cm AP = 2.8 cm Find CA and AQ' is printed without the commas and full stop)."
+  },
+  {
+   "number": "54",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "stem": "In the given figure, find the value of x in terms of a, b and c.",
+   "answer": "In the figure L and P lie so that LM = a, MN = b, NK = c, NP = x, and the marked angles at M and at N are each 50°. In triangles LMK and PNK, ∠K is common to both and ∠M = ∠N = 50°. By the AA similarity criterion Δ LMK ~ Δ PNK. Corresponding sides are therefore proportional: LM/PN = KM/KN, that is a/x = (b + c)/c. Cross multiplying gives x(b + c) = ac, so x = ac/(b + c).",
+   "concept": "AAA criterion",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2012",
+   "images": [
+    "ch06_q54.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem carries no data at all - a, b, c, x and the two 50° angles exist only on the printed diagram - so the figure is required and the answer restates the labelling before using it."
+  },
+  {
+   "number": "55",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "stem": "In the given figure, AB = AC. E is a point on CB produced. If AD is perpendicular to BC and EF perpendicular to AC, prove that Δ ABD is similar to Δ CEF.",
+   "answer": "In Δ ABD and Δ ECF we have AB = AC, so Δ ABC is isosceles and its base angles are equal: ∠ABC = ∠ACB. Since D lies on BC, ∠ABD is the same angle as ∠ABC, and since E lies on CB produced and F on AC, ∠ECF is the same angle as ∠ACB; hence ∠ABD = ∠ECF. Also AD ⊥ BC and EF ⊥ AC give ∠ADB = ∠EFC = 90°. By the AA similarity criterion Δ ABD ~ Δ ECF. Hence proved.",
+   "concept": "AAA criterion",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2012",
+   "images": [
+    "ch06_q55.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem names the second triangle as Δ CEF while the worked solution proves Δ ABD ~ Δ ECF. It is the same triangle; only the order of the vertices differs, and the solution's order is the one that matches the equal angles (A↔E, B↔C, D↔F), so the answer states the similarity as Δ ABD ~ Δ ECF. This is the same configuration as question 45 in this section, printed again with a different board tag."
+  },
+  {
+   "number": "56",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "stem": "In the given figure, DE ∥ AC and DF ∥ AE. Prove that BF/FE = BE/EC.",
+   "answer": "In Δ ABC we are given DE ∥ AC, so by the Basic Proportionality Theorem BD/DA = BE/EC …(1). In Δ ABE we are given DF ∥ AE, so by the Basic Proportionality Theorem BD/DA = BF/FE …(2). The left sides of (1) and (2) are the same, so BF/FE = BE/EC. Hence proved.",
+   "concept": "Basic Proportionality Theorem",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi STD, 2012",
+   "images": [
+    "ch06_q56.png"
+   ],
+   "figure_required": true,
+   "ocr": "CONTRADICTED KEY: the stem is printed as 'Prove that BE/FE = BE/EC', which is checked and confirmed at high zoom. The worked solution derives BD/DA = BE/EC and BD/DA = BF/FE and concludes BF/FE = BE/EC, so the first numerator in the printed stem is a misprint of BF. The solution wins and the stem is written with BF/FE. The stem is at the foot of page 15 and the solution at the top of page 16."
+  },
+  {
+   "number": "57",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "A 6 m high tree cast a 4 m long shadow. At the same time, a flag pole cast a shadow 50 m long. How long is the flag pole?",
+   "answer": "Let AB be the height of the tree and BC its shadow, so AB = 6 m and BC = 4 m. Let PQ be the height of the flag pole and QR its shadow, so QR = 50 m. Both shadows are cast at the same time, so the sun's angle of elevation is the same for the tree and for the pole, and both objects stand vertically on level ground. The two right triangles therefore have two pairs of equal angles, giving Δ ABC ~ Δ PQR. Corresponding sides are proportional: AB/BC = PQ/QR, that is 6/4 = PQ/50. Hence PQ = (50 × 6)/4 = 75 m. The flag pole is 75 m high.",
+   "concept": "Why similarity matters",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2009",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The two right triangles printed with this item are drawn inside the solution as part of the model working, not with the question, so no figure is attached. This is the last question of the THREE MARKS QUESTIONS section; FIVE MARKS QUESTIONS begins with question 58 on the same page."
+  }
+ ]
+}

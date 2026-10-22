@@ -1,0 +1,258 @@
+{
+ "items": [
+  {
+   "number": "58",
+   "form": "long",
+   "marks": 5,
+   "page": 16,
+   "stem": "In the given figure, AB is a diameter of the circle with centre O. AQ, BP and PQ are tangents to the circle. Prove that ∠POQ = 90°.",
+   "answer": "Let the tangent PQ touch the circle at M. AQ and QM are tangents drawn to the circle from the common external point Q, so AQ = QM. In ΔOAQ and ΔOMQ we then have AQ = QM, OQ = OQ (common) and OA = OM (radii), so by the SSS congruence criterion ΔOAQ ≅ ΔOMQ, and by CPCT ∠AOQ = ∠MOQ. ...(1)\nExactly the same argument on the other side (BP and PM are tangents from P) gives ∠BOP = ∠MOP. ...(2)\nAB is a diameter, so AOB is a straight line and the four angles at O add to a straight angle:\n∠AOQ + ∠MOQ + ∠BOP + ∠MOP = 180°.\nSubstituting (1) and (2), ∠MOQ + ∠MOQ + ∠MOP + ∠MOP = 180°, so 2∠MOP + 2∠MOQ = 180°, hence ∠MOP + ∠MOQ = 90°.\nSince ∠POQ = ∠MOP + ∠MOQ, we get ∠POQ = 90°. Hence proved.",
+   "concept": "SSS criterion",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch06_q58.png"
+   ],
+   "figure_required": true,
+   "ocr": "First question of the FIVE MARKS QUESTIONS section; the heading is printed in the right column of page 16. No board/year tag is printed against this item. The figure is required - the tangent configuration cannot be reconstructed from the text alone. The solution redraws the same figure with the point of contact M marked; I attached the QUESTION figure only."
+  },
+  {
+   "number": "59",
+   "form": "long",
+   "marks": 5,
+   "page": 17,
+   "stem": "A circle with centre O and radius 8 cm is inscribed in a quadrilateral ABCD in which P, Q, R, S are the points of contact as shown. If AD is perpendicular to DC, BC = 30 cm and BS = 24 cm, then find the length DC.",
+   "answer": "Tangents drawn to a circle from an external point are equal in length.\nFrom B: BR = BS = 24 cm. ...(1)\nNow BC = 30 cm, and BC = BR + CR, so 24 + CR = 30, giving CR = 6 cm. ...(2)\nFrom C: CQ = CR = 6 cm. ...(3)\nIn quadrilateral POQD, OP ⊥ AD and OQ ⊥ DC (a radius is perpendicular to the tangent at the point of contact), and ∠PDQ = 90° because AD ⊥ DC. By the angle sum property, ∠OPD + ∠PDQ + ∠DQO + ∠POQ = 360°, i.e. 90° + 90° + 90° + ∠POQ = 360°, so ∠POQ = 90°.\nSo POQD is a rectangle with two adjacent sides equal (OP = OQ = radius), i.e. a square. Hence DQ = OQ = 8 cm. ...(4)\nFrom (3) and (4), DC = DQ + CQ = 8 + 6 = 14 cm.",
+   "concept": "Congruence recalled",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2024 OD Standard",
+   "images": [
+    "ch06_q59.png"
+   ],
+   "figure_required": true,
+   "ocr": "Figure required - the positions of the four contact points P, Q, R, S round the quadrilateral are only given by the diagram. The concept list for this chapter has no tangent or Pythagoras entry; 'Congruence recalled' is the nearest listed name for the equal-tangent (congruent right triangle) argument."
+  },
+  {
+   "number": "60",
+   "form": "long",
+   "marks": 5,
+   "page": 17,
+   "stem": "If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then prove that the other two sides are divided in the same ratio.",
+   "answer": "This is the Basic Proportionality Theorem (Thales theorem).\nGiven: a triangle ABC in which a line DE parallel to BC meets AB at D and AC at E.\nTo prove: AD/DB = AE/EC.\nConstruction: join BE and CD. Draw EN ⊥ AB and DM ⊥ AC.\nProof: ar(ADE) = ½ × AD × EN and ar(BDE) = ½ × DB × EN, so\nar(ADE)/ar(BDE) = AD/DB. ...(1)\nAlso ar(ADE) = ½ × AE × DM and ar(DEC) = ½ × EC × DM, so\nar(ADE)/ar(DEC) = AE/EC. ...(2)\nTriangles BDE and DEC stand on the same base DE and lie between the same parallels DE and BC, so ar(BDE) = ar(DEC). ...(3)\nFrom (1), (2) and (3), AD/DB = AE/EC.\nHence the other two sides are divided in the same ratio. Hence proved.",
+   "concept": "Basic Proportionality Theorem",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No figure is printed with the question - the diagram appears only inside the worked solution, so nothing is attached. The book's own proof argues via AAA similarity of ΔAED and ΔACB; I have given the standard area proof, which is the accepted board answer and reaches the same result."
+  },
+  {
+   "number": "61",
+   "form": "long",
+   "marks": 5,
+   "page": 17,
+   "stem": "In the given figure PA, QB and RC are each perpendicular to AC. If AP = x, BQ = y and CR = z, then prove that 1/x + 1/z = 1/y.",
+   "answer": "Here PA ⊥ AC, QB ⊥ AC and CR ⊥ AC, with AP = x, BQ = y and CR = z.\nIn ΔPAC and ΔQBC: ∠PAC = ∠QBC = 90° and ∠PCA = ∠QCB (common). By the AA similarity criterion ΔPAC ~ ΔQBC, so\nBQ/AP = BC/AC, i.e. y/x = BC/AC. ...(1)\nSimilarly, in ΔACR and ΔABQ: ∠ACR = ∠ABQ = 90° and ∠CAR = ∠BAQ (common). By AA similarity ΔACR ~ ΔABQ, so\nBQ/CR = AB/AC, i.e. y/z = AB/AC. ...(2)\nAdding (1) and (2):\ny/x + y/z = BC/AC + AB/AC = (BC + AB)/AC = AC/AC = 1,\nso y(1/x + 1/z) = 1, and therefore\n1/x + 1/z = 1/y. Hence proved.",
+   "concept": "AAA criterion",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2024 OD Standard",
+   "images": [
+    "ch06_q61.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem begins at the foot of the right column of page 17 and its figure is printed at the top of the left column of page 18; I cropped the question figure from page 18. Figure required - which segment carries x, y, z is only shown in the diagram."
+  },
+  {
+   "number": "62",
+   "form": "long",
+   "marks": 5,
+   "page": 18,
+   "stem": "In the given figure, DEFG is a square and ∠BAC = 90°. Show that FG² = BG × FC.",
+   "answer": "In ΔADE and ΔGBD:\n∠DAE = ∠BGD (each 90°, since ∠BAC = 90° and DG ⊥ BC as DEFG is a square),\n∠ADE = ∠GDB (corresponding angles, DE ∥ BC).\nBy the AA similarity criterion, ΔADE ~ ΔGBD.\nNow in ΔADE and ΔFEC:\n∠EAD = ∠CFE (each 90°),\n∠AED = ∠FCE (corresponding angles).\nBy the AA similarity criterion, ΔADE ~ ΔFEC.\nSince ΔADE ~ ΔGBD and ΔADE ~ ΔFEC, we get ΔGBD ~ ΔFEC.\nHence the corresponding sides are proportional:\nGB/FE = GD/FC.\nDEFG is a square, so FE = GD = FG. Substituting,\nBG/FG = FG/FC,\nand therefore FG² = BG × FC. Hence proved.",
+   "concept": "AAA criterion",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 SQP Standard",
+   "images": [
+    "ch06_q62.png"
+   ],
+   "figure_required": true,
+   "ocr": "Figure required - the square DEFG sits with GF on BC and D, E on the two arms of the right angle, which only the diagram shows. The solution redraws the same figure with the 90° marked at A; I attached the question figure."
+  },
+  {
+   "number": "63",
+   "form": "long",
+   "marks": 5,
+   "page": 19,
+   "stem": "In Figure, if ΔABC ~ ΔDEF and their sides of lengths (in cm) are marked along them, then find the lengths of sides of each triangle.",
+   "answer": "From the figure, AB = 2x − 1, BC = 2x + 2, AC = 3x, DE = 18, EF = 3x + 9 and DF = 6x.\nSince ΔABC ~ ΔDEF, corresponding sides are proportional:\nAB/BC = DE/EF\n(2x − 1)/(2x + 2) = 18/(3x + 9)\n(2x − 1)(3x + 9) = 18(2x + 2)\n(2x − 1)(x + 3) = 6(2x + 2)\n2x² + 5x − 3 = 12x + 12\n2x² − 7x − 15 = 0\n2x² − 10x + 3x − 15 = 0\n2x(x − 5) + 3(x − 5) = 0\n(x − 5)(2x + 3) = 0, so x = 5 or x = −3/2.\nA length cannot be negative, so x = 5.\nIn ΔABC: AB = 2(5) − 1 = 9 cm, BC = 2(5) + 2 = 12 cm, AC = 3(5) = 15 cm.\nIn ΔDEF: DE = 18 cm, EF = 3(5) + 9 = 24 cm, DF = 6(5) = 30 cm.",
+   "concept": "When two polygons are similar",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 OD Standard",
+   "images": [
+    "ch06_q63.png"
+   ],
+   "figure_required": true,
+   "ocr": "Figure required - the side expressions 2x−1, 2x+2, 3x, 18, 3x+9, 6x are only given as labels on the two triangles. Printing slip in the worked solution: its last line reads 'DE = 6x = 30' although DE has already been given as 18; from the figure 6x is DF, so the line should read DF = 6x = 30. The value 30 is right, only the side name is mistyped."
+  },
+  {
+   "number": "64",
+   "form": "long",
+   "marks": 5,
+   "page": 19,
+   "stem": "In ΔABC, AD is a median and O is any point on AD. BO and CO on producing meet AC and AB at E and F respectively. Now AD is produced to X such that OD = DX as shown in figure.\nProve that :\n(1) EF ∥ BC\n(2) AO : AX = AF : AB",
+   "answer": "D is the mid-point of BC (AD is a median) and OD = DX, so the segments BC and OX bisect each other at D. A quadrilateral whose diagonals bisect each other is a parallelogram, so BXCO is a parallelogram. Hence BO ∥ XC (that is, BE ∥ XC) and CO ∥ BX (that is, CF ∥ BX).\n(1) In ΔABX, CF ∥ BX cuts AB at F and AX at O, so by the Basic Proportionality Theorem\nAF/FB = AO/OX. ...(1)\nIn ΔAXC, BE ∥ XC cuts AC at E and AX at O, so by the Basic Proportionality Theorem\nAE/EC = AO/OX. ...(2)\nFrom (1) and (2), AF/FB = AE/EC, and by the converse of the Basic Proportionality Theorem, EF ∥ BC.\n(2) Taking reciprocals in (1), OX/OA = FB/AF. Adding 1 to both sides,\n(OX + OA)/OA = (FB + AF)/AF, i.e. AX/OA = AB/AF.\nInverting, AO/AX = AF/AB, that is AO : AX = AF : AB. Hence proved.",
+   "concept": "Converse of the theorem",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2015",
+   "images": [
+    "ch06_q64.png"
+   ],
+   "figure_required": true,
+   "ocr": "Figure required - the stem says 'as shown in figure' and the configuration (O on AD, X below BC, the parallelogram BXCO) is carried by the diagram."
+  },
+  {
+   "number": "65",
+   "form": "long",
+   "marks": 5,
+   "page": 20,
+   "stem": "In the figure, ∠BED = ∠BDE and E is the mid-point of BC. Prove that AF/CF = AD/BE.",
+   "answer": "Construction: through C draw CG ∥ FD meeting AB at G.\nIn ΔBDE, ∠BED = ∠BDE, so the sides opposite them are equal: BD = BE.\nE is the mid-point of BC, so BE = EC.\nHence BD = BE = EC. ...(1)\nIn ΔBCG, DE ∥ GC, so by the Basic Proportionality Theorem\nBD/DG = BE/EC = 1 (using (1)),\nso DG = BD = BE = EC. ...(2)\nIn ΔADF, CG ∥ FD, so by the Basic Proportionality Theorem\nAG/GD = AC/CF.\nAdding 1 to both sides,\n(AG + GD)/GD = (AC + CF)/CF, i.e. AD/GD = AF/CF.\nUsing GD = BE from (2),\nAF/CF = AD/BE. Hence proved.",
+   "concept": "Basic Proportionality Theorem",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 Comp.",
+   "images": [
+    "ch06_q65.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem is printed at the foot of the right column of page 19 and its figure at the top of the left column of page 20; the crop is taken from page 20. Figure required - the position of F (on DE produced, beyond BC) is only shown in the diagram. The construction line CG appears only in the solution figure and is not attached."
+  },
+  {
+   "number": "66",
+   "form": "long",
+   "marks": 5,
+   "page": 20,
+   "stem": "In ΔABC, AD is the median to BC and in ΔPQR, PM is the median to QR. If AB/PQ = BC/QR = AD/PM. Prove that ΔABC ~ ΔPQR.",
+   "answer": "AD is the median of ΔABC, so D is the mid-point of BC and BC = 2BD.\nPM is the median of ΔPQR, so M is the mid-point of QR and QR = 2QM.\nWe are given AB/PQ = AD/PM = BC/QR, so\nAB/PQ = AD/PM = 2BD/2QM = BD/QM.\nIn ΔABD and ΔPQM the three pairs of sides are therefore proportional:\nAB/PQ = AD/PM = BD/QM,\nso by the SSS similarity criterion ΔABD ~ ΔPQM.\nCorresponding angles of similar triangles are equal, hence ∠B = ∠Q.\nNow in ΔABC and ΔPQR:\nAB/PQ = BC/QR (given) and the included angles ∠B = ∠Q.\nBy the SAS similarity criterion, ΔABC ~ ΔPQR. Hence proved.",
+   "concept": "SAS criterion",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2012, 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem starts at the foot of the left column of page 20 and the relation AB/PQ = BC/QR = AD/PM together with 'Prove that ΔABC ~ ΔPQR' completes at the top of the right column. No figure is printed with the question - the two triangles are drawn only inside the solution, so nothing is attached."
+  },
+  {
+   "number": "67",
+   "form": "long",
+   "marks": 5,
+   "page": 20,
+   "stem": "In the right triangle, B is a point on AC such that AB + AD = BC + CD. If AB = x, BC = h and CD = d, then find x (in term of h and d).",
+   "answer": "From the figure, ΔACD is right angled at C, with B a point on AC, AB = x, BC = h and CD = d. Hence AC = AB + BC = x + h.\nWe are given AB + AD = BC + CD, so\nAD = BC + CD − AB = h + d − x.\nApplying the Pythagoras theorem in right ΔACD,\nAD² = AC² + DC²\n(h + d − x)² = (x + h)² + d²\n(h + d − x)² − (x + h)² = d²\n(h + d − x − x − h)(h + d − x + x + h) = d²\n(d − 2x)(2h + d) = d²\n2hd + d² − 4hx − 2xd = d²\n2hd = 4hx + 2xd = 2(2h + d)x\nTherefore x = hd/(2h + d).",
+   "concept": "Why similarity matters",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2015",
+   "images": [
+    "ch06_q67.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem is at the foot of the right column of page 20 and its figure at the top of the left column of page 21; the crop is taken from page 21. Figure required - the stem says only 'In the right triangle' and never names it, so which vertex carries the right angle and where B lies is given only by the diagram (right angle at C, B on CA). The concept list holds no Pythagoras entry; 'Why similarity matters' is the nearest listed name, the chapter deriving the Pythagoras theorem from similarity."
+  },
+  {
+   "number": "68",
+   "form": "long",
+   "marks": 5,
+   "page": 21,
+   "stem": "Prove that in a right triangle, the square of the hypotenuse is equal to sum of squares of other two sides.\nor\nProve that in a right triangle, the square of the hypotenuse is equal to sum of squares of other two sides. Using the above result, prove that, in rhombus ABCD, 4AB² = AC² + BD².",
+   "answer": "(1) Let ΔABC be right angled at B, so AC is the hypotenuse. Draw BE ⊥ AC.\nIn ΔAEB and ΔABC, ∠A is common and ∠AEB = ∠ABC (each 90°), so by AA similarity ΔAEB ~ ΔABC. Hence\nAE/AB = AB/AC, giving AB² = AE × AC. ...(1)\nIn ΔCEB and ΔCBA, ∠C is common and ∠CEB = ∠CBA (each 90°), so by AA similarity ΔCEB ~ ΔCBA. Hence\nCE/BC = BC/AC, giving BC² = CE × AC. ...(2)\nAdding (1) and (2),\nAB² + BC² = AE × AC + CE × AC = AC(AE + CE) = AC × AC = AC².\nThus AB² + BC² = AC². Hence proved.\n(2) Let ABCD be a rhombus with diagonals AC and BD meeting at O. The diagonals of a rhombus bisect each other at right angles, so\nAO = OC = ½AC, BO = OD = ½BD and ∠AOB = 90°.\nApplying the result just proved in right ΔAOB,\nAB² = OA² + OB² = (AC/2)² + (BD/2)² = AC²/4 + BD²/4.\nMultiplying throughout by 4,\n4AB² = AC² + BD². Hence proved.",
+   "concept": "AAA criterion",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 Delhi Basic, 2019 Delhi, 2018; Board Term-2 SQP 2017, 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Two board tags are printed for this item: '[Board 2020 Delhi Basic, 2019 Delhi, 2018]' sits under the first version of the stem and '[Board Term -2 SQP 2017, 2015]' against the solution; both are kept in section_heading. Both figures (the right triangle with BE ⊥ AC, and the rhombus) are drawn only inside the solution, so nothing is attached. The solution runs from the right column of page 21 into the left column of page 22."
+  },
+  {
+   "number": "69",
+   "form": "long",
+   "marks": 5,
+   "page": 22,
+   "stem": "In a right triangle ABC, right angled at C. P and Q are points of the sides CA and CB respectively, which divide these sides in the ratio 2 : 1.\nProve that :  9AQ² = 9AC² + 4BC²\n9BP² = 9BC² + 4AC²\n9(AQ² + BP²) = 13AB²",
+   "answer": "P divides CA in the ratio 2 : 1, so CP = (2/3)AC; Q divides CB in the ratio 2 : 1, so QC = (2/3)BC.\nΔACQ is right angled at C, so by the Pythagoras theorem\nAQ² = QC² + AC² = (2BC/3)² + AC² = (4/9)BC² + AC².\nMultiplying by 9, 9AQ² = 4BC² + 9AC², i.e. 9AQ² = 9AC² + 4BC². ...(1)\nΔBCP is right angled at C, so in the same way\nBP² = CP² + BC² = (2AC/3)² + BC² = (4/9)AC² + BC²,\nand multiplying by 9, 9BP² = 4AC² + 9BC², i.e. 9BP² = 9BC² + 4AC². ...(2)\nAdding (1) and (2),\n9(AQ² + BP²) = 13AC² + 13BC² = 13(AC² + BC²).\nΔABC is right angled at C, so AC² + BC² = AB². Therefore\n9(AQ² + BP²) = 13AB². Hence proved.",
+   "concept": "Why similarity matters",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No board/year tag is printed against this item. No figure is printed with the question - the triangle is drawn only inside the solution, so nothing is attached. The concept list holds no Pythagoras entry; 'Why similarity matters' is the nearest listed name."
+  },
+  {
+   "number": "70",
+   "form": "long",
+   "marks": 5,
+   "page": 22,
+   "stem": "Sides AB and AC and median AD of a triangle ABC are respectively proportional to sides PQ and PR and median PM of another triangle PQR. Show that ΔABC ~ ΔPQR.",
+   "answer": "We are given AB/PQ = AD/PM = AC/PR, where AD and PM are medians.\nConstruction: produce AD to E so that AD = DE, and produce PM to N so that PM = MN. Join CE and RN.\nIn ΔABD and ΔEDC: AD = DE (construction), ∠ADB = ∠EDC (vertically opposite) and BD = DC (AD is a median). By SAS congruence ΔABD ≅ ΔEDC, so by CPCT AB = CE. In the same way PQ = RN.\nNow AE = 2AD and PN = 2PM, so from the given proportion\nCE/RN = AB/PQ = 2AD/2PM = AE/PN = AC/PR.\nThe three pairs of sides of ΔAEC and ΔPNR are therefore proportional, so by the SSS similarity criterion ΔAEC ~ ΔPNR.\nHence the corresponding angles are equal: ∠3 = ∠4, and from the congruent triangles ∠1 = ∠2. Adding, ∠1 + ∠3 = ∠2 + ∠4, that is ∠BAC = ∠QPR.\nFinally, in ΔABC and ΔPQR we have AB/PQ = AC/PR with the included angles ∠A = ∠P equal, so by the SAS similarity criterion\nΔABC ~ ΔPQR. Hence proved.",
+   "concept": "SSS criterion",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No figure is printed with the question; the pair of triangles with the constructions AD = DE and PM = MN appears only inside the solution, so nothing is attached. The angles numbered 1, 2, 3, 4 belong to that solution figure (1 and 3 the two parts of ∠A, 2 and 4 the two parts of ∠P). The solution runs from the right column of page 22 into the left column of page 23."
+  },
+  {
+   "number": "71",
+   "form": "long",
+   "marks": 5,
+   "page": 23,
+   "stem": "Find the length of the second diagonal of a rhombus, whose side is 5 cm and one of the diagonals is 6 cm.",
+   "answer": "Let ABCD be the rhombus with AB = BC = CD = AD = 5 cm and diagonal AC = 6 cm, the diagonals meeting at O.\nThe diagonals of a rhombus bisect each other, so\nAO = OC = ½ × 6 = 3 cm,\nand they bisect each other at right angles, so ΔAOB is right angled at O.\nBy the Pythagoras theorem in ΔAOB,\nOB² = AB² − AO² = 5² − 3² = 25 − 9 = 16, so OB = 4 cm.\nSince DO = OB, the second diagonal is\nBD = 2 × OB = 2 × 4 = 8 cm.",
+   "concept": "Why similarity matters",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2010",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No figure is printed with the question - the rhombus is drawn only inside the solution, so nothing is attached. The concept list holds no Pythagoras entry; 'Why similarity matters' is the nearest listed name."
+  },
+  {
+   "number": "72",
+   "form": "long",
+   "marks": 5,
+   "page": 23,
+   "stem": "In given figure ∠1 = ∠2 and ΔNSQ ≅ ΔMTR, then prove that ΔPTS ~ ΔPRQ.",
+   "answer": "Since ΔNSQ ≅ ΔMTR, by CPCT ∠SQN = ∠TRM, that is ∠PQR = ∠PRQ.\nApply the angle sum property to ΔPST and to ΔPQR, both of which contain the angle at P:\n∠P + ∠1 + ∠2 = ∠P + ∠PQR + ∠PRQ (each side is 180°),\nso ∠1 + ∠2 = ∠PQR + ∠PRQ.\nWe are given ∠1 = ∠2, and we have just shown ∠PQR = ∠PRQ, so\n2∠1 = 2∠PQR, giving ∠1 = ∠PQR.\nNow in ΔPTS and ΔPRQ:\n∠PST = ∠1 = ∠PQR,\n∠QPR is common to both triangles,\nand therefore the third pair of angles is equal as well.\nBy the AAA similarity criterion, ΔPTS ~ ΔPRQ. Hence proved.",
+   "concept": "AAA criterion",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 SQP 2017",
+   "images": [
+    "ch06_q72.png"
+   ],
+   "figure_required": true,
+   "ocr": "Two printing slips in the stem, both corrected from the worked solution (the solution wins). The stem prints 'ΔNSQ ~ ΔMTR' with the similarity tilde, but the solution opens 'We have ΔNSQ ≅ ΔMTR' and then applies CPCT, which needs congruence, so I transcribed ≅. The stem also ends 'prove that ΔPTS ~ ΔPRO'; the solution concludes 'ΔPTS ~ ΔPRQ' and the figure carries no point O on QR, so the O is a misprint for Q. Neither is a printed answer key contradicting its own solution, so neither is counted in contradicted_keys. Figure required - S, T on the arms of ΔPQR with M, N outside on line QR is only given by the diagram."
+  },
+  {
+   "number": "73",
+   "form": "case_study",
+   "marks": 4,
+   "page": 23,
+   "stem": "Two poles, 30 feet and 50 feet tall, are 40 feet apart and perpendicular to the ground. The poles are supported by wires attached from the top of each pole to the bottom of the other, as in the figure. A coupling is placed at C where the two wires cross.\n(i) What is the horizontal distance from C to the taller pole?\n(ii) How high above the ground is the coupling?\n(iii) How far down the wire from the smaller pole is the coupling?",
+   "answer": "The two poles are parallel line segments and the wires are transversals cutting through their ends, so the triangles formed are similar. Let A and B be the top and the foot of the 30 ft pole, D and E the top and the foot of the 50 ft pole, F the foot of the perpendicular from C to the ground, CF = a and FE = x, the horizontal distance from C to the taller pole.\n(i) ∠CFE is a right angle. By AA similarity ΔAEB ~ ΔCEF, so\nx/40 = a/30, giving 30x = 40a, i.e. a = (30/40)x.\nAlso by AA similarity ΔCBF ~ ΔDBE, so\na/50 = (40 − x)/40, giving 40a = 50(40 − x).\nSubstituting the value of a,\n40 × (30/40)x = 2000 − 50x\n30x = 2000 − 50x\n80x = 2000, so x = 25.\nThe horizontal distance from C to the taller pole is 25 feet.\n(ii) From x/a = 40/30 we get 30x = 40a, so 30(25) = 40a, i.e. 750 = 40a and a = 18.75.\nThe coupling is 18.75 feet above the ground.\n(iii) The wire from the top of the smaller pole runs to the foot of the taller pole; let y be its length. By the Pythagoras theorem, 30² + 40² = y², so y = 50 feet.\nLet z be the length of that wire from its top down to the coupling. The wire is cut in the same ratio as the ground beneath it, so\nz/(50 − z) = (40 − 25)/25 = 15/25\n25z = 15(50 − z)\n5z = 3(50 − z) = 150 − 3z\n8z = 150, so z = 150/8 = 18.75.\nThe coupling is 18.75 feet down the wire from the top of the smaller pole.",
+   "concept": "AAA criterion",
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "images": [
+    "ch06_q73.png"
+   ],
+   "figure_required": true,
+   "ocr": "This item opens the section the book heads 'COMPETENCEY BASED QUESTIONS' (the misspelling is the book's; normalised to COMPETENCY in section_heading). It sits on pages 23-24, inside my assigned page range but past the end of the FIVE MARKS section, which closes with question 72. Treated as CASE BASED (case_study, 4 marks) because it is one context carrying three numbered sub-parts. Figure required - the labelled distances x, a, 30 ft, 50 ft, 40 ft and the crossing point C are only in the diagram."
+  },
+  {
+   "number": "74",
+   "form": "case_study",
+   "marks": 4,
+   "page": 24,
+   "stem": "Aakesh wanted to determine the height of a tree on the corner of his block. He knew that a certain fence by the tree was 4 feet tall. At 3 PM, he measured the shadow of the fence to be 2.5 feet tall. Then he measured the tree's shadow to be 11.3 feet. What is the height of the tree?",
+   "answer": "At the same moment the rays of the sun make the same angle with the ground, so the fence with its shadow and the tree with its shadow form two similar right triangles. Let x be the height of the tree.\nSince the triangles are similar, the corresponding sides are proportional:\n(height of the tree)/(height of the fence) = (tree shadow length)/(fence shadow length)\nx/4 = 11.3/2.5\nx × 2.5 = 4 × 11.3\n2.5x = 45.2\nx = 18.08.\nThe height of the tree is 18.08 feet.",
+   "concept": "Figures of different sizes",
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The picture printed with this question is a decorative illustration of a tree and a fence carrying no measurement, and every number needed is in the text, so no figure is attached. The stem as printed reads 'measured the shadow of the fence to be 2.5 feet tall' - 'tall' for a shadow is the book's wording and is kept verbatim. Form taken from the printed COMPETENCY BASED heading (case_study, 4 marks) even though this item has no sub-parts."
+  },
+  {
+   "number": "75",
+   "form": "case_study",
+   "marks": 4,
+   "page": 24,
+   "stem": "Helicopter Patrolling : A helicopter is hovering over a crowd of people watching a police standoff in a parking garage across the street. Stewart notices the shadow of the helicopter is lagging approximately 57 m behind a point directly below the helicopter. If he is 160 cm tall and casts a shadow of 38 cm at this time, what is the altitude of the helicopter?",
+   "answer": "The rays of the sun reach Stewart and the helicopter at the same angle, so the two right triangles formed - Stewart with his shadow, and the helicopter with its shadow - are similar. Let y be the altitude of the helicopter.\nWorking in metres, Stewart is 1.6 m tall and his shadow is 0.38 m long.\n(height of the helicopter)/(height of Stewart) = (shadow of the helicopter)/(shadow of Stewart)\ny/1.6 = 57/0.38\ny = (57 × 1.6)/0.38 = (57 × 160)/38 = (3 × 160)/2 = 240.\nThe altitude of the helicopter is 240 m.",
+   "concept": "Figures of different sizes",
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem begins at the foot of the right column of page 24 and finishes at the top of the left column of page 25. The picture printed with it is a decorative cartoon of a helicopter over police cars carrying no measurement, so no figure is attached. Form taken from the printed COMPETENCY BASED heading (case_study, 4 marks) even though this item has no sub-parts."
+  }
+ ]
+}

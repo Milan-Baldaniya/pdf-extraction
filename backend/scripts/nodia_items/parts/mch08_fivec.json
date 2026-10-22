@@ -1,0 +1,53 @@
+{
+ "items": [
+  {
+   "number": "200",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "stem": "Astronomy : Venus rotates in a nearly circular orbit around the sun. The largest angle formed by Venus, Earth, and the sun is 45°. The distance from Earth to the sun is approximately 149 million kilometers. See the following figure. What is the orbital radius r of Venus? Round to the nearest million kilometres.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Because the angle subtended at the Earth is the largest possible, the line of sight from Earth just grazes the orbit of Venus, so the angle at Venus is 90°. In the right triangle Earth–Venus–Sun the hypotenuse is the Earth–Sun distance 149 million km, the angle at Earth is 45° and the side opposite it is the orbital radius r of Venus. Hence sin 45° = r/149, so 1/√2 = r/149 and r = 149/√2 = (149 × √2)/2 = (149 × 1.414)/2 ≈ 105.4. Rounded to the nearest million kilometres, the orbital radius of Venus is 105 million kilometres.",
+   "concept": "Ratios of 45 degrees",
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "images": [
+    "ch08_q200.png"
+   ],
+   "figure_required": true,
+   "ocr": "Read from the page image. The stem says \"See the following figure\", and the figure is what fixes the right angle at Venus and the 45° at Earth, so the printed diagram is attached. The book prints the heading as \"COMPETENCEY BASED QUESTIONS\" (its own spelling) on the page that opens this run of questions; recorded here as COMPETENCY BASED QUESTIONS. The harness handed this page range to me labelled FIVE MARKS QUESTIONS, but the printed heading governing questions 188-202 is the competency-based one; form/marks kept as long/5 per the assigned slice."
+  },
+  {
+   "number": "201",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "stem": "Cyclometer : Meteorologists find the height of a cloud using an instrument called a ceilometer. It consists of a light projector that directs a vertical light beam up to the cloud base and a light detector that scans the cloud to detect the light beam. On July 2, 2021, at Midway Airport in Mumbai, a ceilometer was employed to find the height of the cloud cover. It was set up with its light detector 50 meter from its light projector. If the angle of elevation from the light detector to the base of the cloud was 60°, what was the height of the cloud cover?",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let h be the height of the cloud base above the ground. The light detector and the light projector are 50 m apart on level ground, the projector's beam is vertical, and the angle of elevation from the detector to the cloud base is 60°. In that right triangle the side opposite the 60° angle is h and the side adjacent to it is 50 m, so tan 60° = h/50, that is √3 = h/50. Hence h = 50√3 = 50 × 1.732 = 86.6 m. The cloud cover was about 86.6 m high.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "CONTRADICTED KEY. The printed solution derives √3 = h/50 correctly and then writes h = 150 × √3 = 150 × 1.732 = 259.8 m. From its own line √3 = h/50 the value is h = 50√3 = 86.6 m; the book has substituted 150 for 50. The derivation wins, so the answer given here is 86.6 m, not the printed 259.8 m. No figure attached: the stem states the 50 m separation and the 60° elevation, so the printed picture is illustrative only."
+  },
+  {
+   "number": "202",
+   "form": "long",
+   "marks": 5,
+   "page": 39,
+   "stem": "Area of an Isosceles Triangle : Consider the following isosceles triangle. The length of each of the two equal sides of the triangle is a, and each of the base angles has a measure of θ. Verify that the area of the triangle is A = a² sin θ cos θ.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let the base of the isosceles triangle be b and drop the altitude h from the apex to the base. Because the triangle is isosceles the altitude bisects the base, so each half of the base is b/2, and it splits the triangle into two right triangles whose hypotenuse is a and whose base angle is θ. In one of these right triangles, cos θ = (b/2)/a, so b/2 = a cos θ and b = 2a cos θ. Also sin θ = h/a, so h = a sin θ. Therefore A = ½ × b × h = ½ × (2a cos θ) × (a sin θ) = a² sin θ cos θ, which is the required result.",
+   "concept": "The six ratios",
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "images": [
+    "ch08_q202.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem says \"Consider the following isosceles triangle\", so the labelled question diagram (sides a, a, base b, base angles θ) is attached; the second triangle on the page, which carries the altitude h and the b/2 marks, belongs to the worked solution and is deliberately not attached. Typo in the printed solution: it writes \"b/2 = cos θ, b = 2 cos θ\", dropping the factor a, yet uses the correct 2a cos θ in the final line, so the printed result A = a² sin θ cos θ stands and this is not a key contradiction. Last question of the chapter - the page closes with the end-of-chapter asterisks."
+  }
+ ]
+}

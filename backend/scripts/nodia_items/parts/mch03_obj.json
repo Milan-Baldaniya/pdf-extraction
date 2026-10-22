@@ -1,0 +1,761 @@
+{
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "stem": "In the given figure, graphs of two linear equations are shown. The pair of these linear equations is:",
+   "options": [
+    {
+     "label": "A",
+     "text": "consistent with unique solution."
+    },
+    {
+     "label": "B",
+     "text": "consistent with infinitely many solutions."
+    },
+    {
+     "label": "C",
+     "text": "inconsistent."
+    },
+    {
+     "label": "D",
+     "text": "inconsistent but can be made consistent by extending these lines."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "These two lines are not parallel and will cut at a point. Thus the pair of these linear equations is consistent with unique solution. Thus (a) is correct option.",
+   "concept": "Consistent and dependent pairs",
+   "images": [
+    "5b91d52f21a8746f14720d476b7cfb132729ef099e61c718083fb7e41b506e28.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "MinerU dropped the printed number 1 and the option label (c); both restored from the PDF text layer. Figure is the page-1 graph printed inside the question."
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "stem": "3 chairs and 1 table cost ₹900; whereas 5 chairs and 3 tables cost ₹2,100. If the cost of 1 chair is ₹x and the cost of 1 table is ₹y, then the situation can be represented algebraically as",
+   "options": [
+    {
+     "label": "A",
+     "text": "3x + y = 900, 3x + 5y = 2100"
+    },
+    {
+     "label": "B",
+     "text": "x + 3y = 900, 3x + 5y = 2100"
+    },
+    {
+     "label": "C",
+     "text": "3x + y = 900, 5x + 3y = 2100"
+    },
+    {
+     "label": "D",
+     "text": "x + 3y = 900, 5x + 3y = 2100"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Cost of one chair is ₹x and cost of one table is ₹y. 3 chairs and 1 table cost ₹900, thus 3x + y = 900. 5 chairs and 3 tables cost ₹2,100, thus 5x + 3y = 2100. Thus (c) is correct option.",
+   "concept": "Situations giving two equations",
+   "ocr": "MinerU printed the four options as one unlabelled LaTeX array and turned the rupee sign into a mathfrak-F artefact; labels and equations restored from the PDF text layer."
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP STD",
+   "stem": "The 2 digit number which becomes 5/6 th of itself when its digits are reversed. The difference in the digits of the number being 1, then the two digits number is",
+   "options": [
+    {
+     "label": "A",
+     "text": "45"
+    },
+    {
+     "label": "B",
+     "text": "54"
+    },
+    {
+     "label": "C",
+     "text": "36"
+    },
+    {
+     "label": "D",
+     "text": "None of these"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "If the two digits are x and y, then the number is 10x + y. Now (5/6)(10x + y) = 10y + x. Solving, we get 44x = 55y, so x/y = 5/4. Also x - y = 1. Solving them, we get x = 5 and y = 4. Therefore, the number is 54. Thus (b) is correct option.",
+   "concept": "Situations giving two equations",
+   "ocr": "MinerU rendered the solution step as '44x + 55y'; the PDF text layer shows the two sides of an equation, so it is written here as 44x = 55y."
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP Basic",
+   "stem": "In a number of two digits, unit's digit is twice the tens digit. If 36 be added to the number, the digits are reversed. The number is",
+   "options": [
+    {
+     "label": "A",
+     "text": "36"
+    },
+    {
+     "label": "B",
+     "text": "63"
+    },
+    {
+     "label": "C",
+     "text": "48"
+    },
+    {
+     "label": "D",
+     "text": "84"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Let x be the units digit and y the tens digit, then the number is 10y + x. Then x = 2y ...(1). If 36 is added the digits are reversed, i.e. the number becomes 10x + y, so 10y + x + 36 = 10x + y, giving 9x - 9y = 36, i.e. x - y = 4 ...(2). Solving (1) and (2) we have x = 8 and y = 4. Thus the number is 48. Thus (c) is correct option.",
+   "concept": "Situations giving two equations",
+   "ocr": "Printed number 4 was lost by MinerU; confirmed from the PDF text layer."
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 STD",
+   "stem": "If (3x + 4y) : (x + 2y) = 9 : 4, then (3x + 5y) : (3x - y) is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "4 : 1"
+    },
+    {
+     "label": "B",
+     "text": "1 : 4"
+    },
+    {
+     "label": "C",
+     "text": "7 : 1"
+    },
+    {
+     "label": "D",
+     "text": "1 : 7"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "(3x + 4y)/(x + 2y) = 9/4, hence 12x + 16y = 9x + 18y, or 3x = 2y, i.e. x = (2/3)y. Substituting x = (2/3)y in the required expression we have (3·(2/3)y + 5y)/(3·(2/3)y - y) = 7y/y = 7/1 = 7 : 1. Thus (c) is correct option.",
+   "concept": "Substitute and reduce",
+   "ocr": "Option block came through MinerU as a broken two-row array; the four ratios were read back from the PDF text layer."
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 Basic",
+   "stem": "The pair of equations 3^(x+y) = 81, 81^(x-y) = 3 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "no solution"
+    },
+    {
+     "label": "B",
+     "text": "unique solution"
+    },
+    {
+     "label": "C",
+     "text": "infinitely many solutions"
+    },
+    {
+     "label": "D",
+     "text": "x = 2 1/8, y = 1 7/8"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "3^(x+y) = 81 = 3^4, so x + y = 4 ...(1). Also 81^(x-y) = 3 gives 3^(4(x-y)) = 3^1, so 4(x - y) = 1, i.e. x - y = 1/4 ...(2). Adding (1) and (2): 2x = 4 + 1/4 = 17/4, so x = 17/8 = 2 1/8. From (1), y = 15/8 = 1 7/8. Thus (d) is correct option.",
+   "concept": "Add or subtract to eliminate",
+   "ocr": "Exponents were flattened by MinerU; the powers and the mixed numbers of option (d) were taken from the PDF text layer."
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 Basic",
+   "stem": "A fraction becomes 4 when 1 is added to both the numerator and denominator and it becomes 7 when 1 is subtracted from both the numerator and denominator. The numerator of the given fraction is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "5"
+    },
+    {
+     "label": "D",
+     "text": "15"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Let the fraction be x/y. Then (x + 1)/(y + 1) = 4 ⇒ x = 4y + 3 ...(1) and (x - 1)/(y - 1) = 7 ⇒ x = 7y - 6 ...(2). Solving (1) and (2), we have x = 15, y = 3. Thus (d) is correct option.",
+   "concept": "Express one variable",
+   "ocr": "Printed number 7 was lost by MinerU; confirmed from the PDF text layer, which also supplies the board tag [Board 2022 Term-1 Basic]."
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Delhi 2012",
+   "stem": "For which value(s) of p, will the lines represented by the following pair of linear equations be parallel: 3x - y - 5 = 0 and 6x - 2y - p = 0",
+   "options": [
+    {
+     "label": "A",
+     "text": "all real values except 10"
+    },
+    {
+     "label": "B",
+     "text": "10"
+    },
+    {
+     "label": "C",
+     "text": "5/2"
+    },
+    {
+     "label": "D",
+     "text": "1/2"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Here a₁ = 3, b₁ = -1, c₁ = -5 and a₂ = 6, b₂ = -2, c₂ = -p. Since the given lines are parallel, a₁/a₂ = b₁/b₂ ≠ c₁/c₂, so (-1)/(-2) ≠ (-5)/(-p), giving p ≠ 5 × 2, i.e. p ≠ 10. Hence p may take all real values except 10. Thus (a) is correct option.",
+   "concept": "Ratios of the coefficients",
+   "ocr": "MinerU dropped the two equations out of the stem (they sat on a display line); restored from the PDF text layer. The book prints no 'Thus (x) is correct option' line here - option (a) follows from its own solution p ≠ 10."
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 STD",
+   "stem": "x and y are 2 different digits. If the sum of the two digit numbers formed by using both the digits is a perfect square, then value of x + y is",
+   "options": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "11"
+    },
+    {
+     "label": "C",
+     "text": "12"
+    },
+    {
+     "label": "D",
+     "text": "13"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The numbers that can be formed are xy and yx. Hence (10x + y) + (10y + x) = 11(x + y). If this is a perfect square then x + y = 11. Thus (b) is correct option.",
+   "concept": "Situations giving two equations",
+   "ocr": "The book prints no 'Thus (x) is correct option' line for this question; the solution ends at x + y = 11, which is option (b)."
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Standard",
+   "stem": "The value of k for which the system of linear equations x + 2y = 3, 5x + ky + 7 = 0 is inconsistent is",
+   "options": [
+    {
+     "label": "A",
+     "text": "-14/3"
+    },
+    {
+     "label": "B",
+     "text": "2/5"
+    },
+    {
+     "label": "C",
+     "text": "5"
+    },
+    {
+     "label": "D",
+     "text": "10"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "We have x + 2y - 3 = 0 and 5x + ky + 7 = 0. If the system is inconsistent, then a₁/a₂ = b₁/b₂ ≠ c₁/c₂. From the first two ratios, 1/5 = 2/k ⇒ k = 10. Thus (d) is correct option.",
+   "concept": "Inconsistent pair",
+   "ocr": "A 'Click Here to Buy book on Amazon' advertisement and the page break sit between the stem and the solution; stripped. The fraction options were read from the PDF text layer."
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Standard",
+   "stem": "The value of k for which the system of equations x + y - 4 = 0 and 2x + ky = 3, has no solution, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "-2"
+    },
+    {
+     "label": "B",
+     "text": "≠ 2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "We have x + y - 4 = 0 and 2x + ky - 3 = 0. Here a₁/a₂ = 1/2, b₁/b₂ = 1/k and c₁/c₂ = (-4)/(-3) = 4/3. Since the system has no solution, a₁/a₂ = b₁/b₂ ≠ c₁/c₂, so 1/2 = 1/k ≠ 4/3, giving k = 2 and k ≠ 3/4. Thus (d) is correct option.",
+   "concept": "Inconsistent pair",
+   "ocr": "Option (b) really is printed as the odd value '≠ 2' in the book (the PDF text layer shows the same glyph); kept as printed."
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 SQP 2012",
+   "stem": "The pair of linear equations 2kx + 5y = 7, 6x - 5y = 11 has a unique solution, if",
+   "options": [
+    {
+     "label": "A",
+     "text": "k ≠ -3"
+    },
+    {
+     "label": "B",
+     "text": "k ≠ 2/3"
+    },
+    {
+     "label": "C",
+     "text": "k ≠ 5"
+    },
+    {
+     "label": "D",
+     "text": "k ≠ 2/9"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Comparing 2kx + 5y - 7 = 0 and 6x - 5y - 11 = 0 with a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0, we get a₁ = 2k, b₁ = 5, c₁ = -7 and a₂ = 6, b₂ = -5, c₂ = -11. For a unique solution a₁/a₂ ≠ b₁/b₂, so 2k/6 ≠ 5/(-5), i.e. k/3 ≠ -1, hence k ≠ -3. Thus (a) is correct option.",
+   "concept": "Ratios of the coefficients",
+   "ocr": "MinerU gave options (b) and (d) as 'k ! 32' and 'k ! 92'; the PDF text layer shows the not-equal sign with the stacked fractions 2/3 and 2/9."
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Foreign 2012",
+   "stem": "The pair of equations x + 2y + 5 = 0 and -3x - 6y + 1 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "a unique solution"
+    },
+    {
+     "label": "B",
+     "text": "exactly two solutions"
+    },
+    {
+     "label": "C",
+     "text": "infinitely many solutions"
+    },
+    {
+     "label": "D",
+     "text": "no solution"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Here a₁ = 1, b₁ = 2, c₁ = 5 and a₂ = -3, b₂ = -6, c₂ = 1. Now a₁/a₂ = -1/3, b₁/b₂ = -2/6 = -1/3 and c₁/c₂ = 5/1. We observe that a₁/a₂ = b₁/b₂ ≠ c₁/c₂, hence the pair of equations has no solution. Thus (d) is correct option.",
+   "concept": "Inconsistent pair",
+   "ocr": "MinerU wrote the second equation inside the solution as '3x - 6y + 1 = 0' (leading minus lost); the PDF text layer confirms -3x - 6y + 1 = 0."
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 OD 2013",
+   "stem": "If a pair of linear equations is consistent, then the lines will be",
+   "options": [
+    {
+     "label": "A",
+     "text": "parallel"
+    },
+    {
+     "label": "B",
+     "text": "always coincident"
+    },
+    {
+     "label": "C",
+     "text": "intersecting or coincident"
+    },
+    {
+     "label": "D",
+     "text": "always intersecting"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Condition for a consistent pair of linear equations: a₁/a₂ ≠ b₁/b₂ [intersecting lines having a unique solution] and a₁/a₂ = b₁/b₂ = c₁/c₂ [coincident or dependent lines]. So the lines are intersecting or coincident. Thus (c) is correct option.",
+   "concept": "Consistent and dependent pairs",
+   "ocr": "Printed number 14 was lost by MinerU; confirmed from the PDF text layer."
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 SQP 2017",
+   "stem": "The pair of equations y = 0 and y = -7 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "one solution"
+    },
+    {
+     "label": "B",
+     "text": "two solutions"
+    },
+    {
+     "label": "C",
+     "text": "infinitely many solutions"
+    },
+    {
+     "label": "D",
+     "text": "no solution"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Both equations are parallel to the x-axis and we know that parallel lines never intersect. So there is no solution of these lines. Thus (d) is correct option.",
+   "concept": "Inconsistent pair",
+   "ocr": "Option label (c) was eaten by MinerU; restored from the PDF text layer. The page break and a bare 'NODIA' watermark fall between the options and the solution; stripped."
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Foreign 2016",
+   "stem": "For what value of k, do the equations 3x - y + 8 = 0 and 6x - ky = -16 represent coincident lines?",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/2"
+    },
+    {
+     "label": "B",
+     "text": "-1/2"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "-2"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The equations are 3x - y + 8 = 0 and 6x - ky + 16 = 0. Condition for coincident lines is a₁/a₂ = b₁/b₂ = c₁/c₂. Here a₁ = 3, b₁ = -1, c₁ = 8 and a₂ = 6, b₂ = -k, c₂ = 16. So 3/6 = (-1)/(-k) = 8/16, giving 1/k = 1/2 [since 3/6 = 8/16 = 1/2], hence k = 2. Thus (c) is correct option.",
+   "concept": "Consistent and dependent pairs",
+   "ocr": "MinerU stacked the fraction options into one broken array; the four values were read from the PDF text layer."
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Foreign 2011",
+   "stem": "The pair of equations x = a and y = b graphically represents lines which are",
+   "options": [
+    {
+     "label": "A",
+     "text": "parallel"
+    },
+    {
+     "label": "B",
+     "text": "intersecting at (b, a)"
+    },
+    {
+     "label": "C",
+     "text": "coincident"
+    },
+    {
+     "label": "D",
+     "text": "intersecting at (a, b)"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The pair of equations x = a and y = b graphically represents lines which are intersecting at (a, b). Thus (d) is correct option.",
+   "concept": "Two ways to solve"
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 OD 2011",
+   "stem": "If the lines given by 3x + 2ky = 2 and 2x + 5y + 1 = 0 are parallel, then the value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "-5/4"
+    },
+    {
+     "label": "B",
+     "text": "2/5"
+    },
+    {
+     "label": "C",
+     "text": "15/4"
+    },
+    {
+     "label": "D",
+     "text": "3/2"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "We have 3x + 2ky - 2 = 0 and 2x + 5y + 1 = 0. Condition for parallel lines is a₁/a₂ = b₁/b₂ ≠ c₁/c₂ ...(i). Here a₁ = 3, b₁ = 2k, c₁ = -2 and a₂ = 2, b₂ = 5, c₂ = 1. From (i), 3/2 = 2k/5 ≠ -2/1. Considering 3/2 = 2k/5 [3/2 ≠ -2/1 in any case], k = 15/4. Thus (c) is correct option.",
+   "concept": "Ratios of the coefficients",
+   "ocr": "MinerU destroyed the option block (it produced '(c) 145' plus a stray dH artefact); options -5/4, 2/5, 15/4 and 3/2 recovered from the PDF text layer."
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 SQP 2014",
+   "stem": "The value of c for which the pair of equations cx - y = 2 and 6x - 2y = 3 will have infinitely many solutions is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "-3"
+    },
+    {
+     "label": "C",
+     "text": "-12"
+    },
+    {
+     "label": "D",
+     "text": "no value"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Condition for infinitely many solutions: a₁/a₂ = b₁/b₂ = c₁/c₂. Here a₁ = c, b₁ = -1, c₁ = -2 and a₂ = 6, b₂ = -2, c₂ = -3. So c/6 = (-1)/(-2) = (-2)/(-3). From c/6 = 1/2 we get c = 3, and from c/6 = 2/3 we get c = 4. Since c has different values, for no value of c will the pair of equations have infinitely many solutions. Thus (d) is correct option.",
+   "concept": "Consistent and dependent pairs",
+   "ocr": "The printed stem itself breaks off as 'will have is' - the words 'infinitely many solutions' are missing in the book and in the PDF text layer alike; supplied here from the worked solution. Option label (c) was damaged by MinerU to 'C -12'; restored."
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 OD 2013",
+   "stem": "One equation of a pair of dependent linear equations is -5x + 7y = 2. The second equation can be",
+   "options": [
+    {
+     "label": "A",
+     "text": "10x + 14y + 4 = 0"
+    },
+    {
+     "label": "B",
+     "text": "-10x - 14y + 4 = 0"
+    },
+    {
+     "label": "C",
+     "text": "-10x + 14y + 4 = 0"
+    },
+    {
+     "label": "D",
+     "text": "10x - 14y = -4"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "For dependent linear equations a₁/a₂ = b₁/b₂ = c₁/c₂. Option (a): -5/10 ≠ 7/14, rejected. Option (b): -5/(-10) ≠ 7/(-14), rejected. Option (c): -5/(-10) = 7/14 ≠ -2/4, rejected. Option (d): -5/10 = 7/(-14) = -2/4, so it is dependent. Thus (d) is correct option.",
+   "concept": "Consistent and dependent pairs",
+   "ocr": "MinerU printed the four options as an unlabelled array and dropped the word 'is' from the stem; labels and signs restored from the PDF text layer. A 'Downloaded from www.pdf.tube' footer and the page break between options and solution were stripped."
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 OD 2015",
+   "stem": "If x = a and y = b is the solution of the equations x - y = 2 and x + y = 4, then the values of a and b are, respectively",
+   "options": [
+    {
+     "label": "A",
+     "text": "3 and 5"
+    },
+    {
+     "label": "B",
+     "text": "5 and 3"
+    },
+    {
+     "label": "C",
+     "text": "3 and 1"
+    },
+    {
+     "label": "D",
+     "text": "-1 and -3"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Since x = a and y = b is the solution, these values satisfy both equations: a - b = 2 ...(1) and a + b = 4 ...(2). Adding (1) and (2), 2a = 6, so a = 3. Substituting a = 3 in (2), 3 + b = 4 ⇒ b = 1. Thus a = 3 and b = 1. Thus (c) is correct option.",
+   "concept": "Add or subtract to eliminate",
+   "ocr": "Option labels (a) and (c) were lost by MinerU inside a LaTeX array; restored from the PDF text layer."
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 OD 2016",
+   "stem": "Aruna has only ₹1 and ₹2 coins with her. If the total number of coins that she has is 50 and the amount of money with her is ₹75, then the number of ₹1 and ₹2 coins are, respectively",
+   "options": [
+    {
+     "label": "A",
+     "text": "35 and 15"
+    },
+    {
+     "label": "B",
+     "text": "35 and 20"
+    },
+    {
+     "label": "C",
+     "text": "15 and 35"
+    },
+    {
+     "label": "D",
+     "text": "25 and 25"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Let the number of ₹1 coins be x and the number of ₹2 coins be y. Then x + y = 50 ...(1) and x × 1 + y × 2 = 75, i.e. x + 2y = 75 ...(2). Subtracting (1) from (2): (x + 2y) - (x + y) = 75 - 50, so y = 25. From (2), x = 75 - 2(25) = 25. Thus there are 25 coins of each kind. Thus (d) is correct option.",
+   "concept": "Add or subtract to eliminate",
+   "ocr": "The rupee sign came through MinerU as a yen sign and as '<' in the text layer; written here as the rupee sign. Equation (1) x + y = 50 was dropped by MinerU and restored from the text layer."
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Delhi 2016",
+   "stem": "The father's age is six times his son's age. Four years hence, the age of the father will be four times his son's age. The present ages (in year) of the son and the father are, respectively",
+   "options": [
+    {
+     "label": "A",
+     "text": "4 and 24"
+    },
+    {
+     "label": "B",
+     "text": "5 and 30"
+    },
+    {
+     "label": "C",
+     "text": "6 and 36"
+    },
+    {
+     "label": "D",
+     "text": "3 and 24"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Let the present age of the father be x years and of the son be y years. Four years hence, (x + 4) = 4(y + 4), i.e. x - 4y = 12 ...(1). As the father's age is six times the son's age, x = 6y ...(2). Putting (2) in (1): 6y - 4y = 12, so 2y = 12, y = 6. Then x = 6 × 6 = 36. Hence the father is 36 years and the son is 6 years old. Thus (c) is correct option.",
+   "concept": "Substitute and reduce",
+   "ocr": "MinerU wrote the substitution step as '6x - 4y = 12'; the PDF text layer shows 6y - 4y = 12, corrected here."
+  },
+  {
+   "number": "24",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "OBJECTIVE QUESTIONS | Assertion - Reason",
+   "stem": "Assertion (A) and Reason (R) are given below. Choose the correct option out of the four given.",
+   "assertion": "Pair of linear equations 9x + 3y + 12 = 0, 18x + 6y + 24 = 0 have infinitely many solutions.",
+   "reason": "Pair of linear equations a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 have infinitely many solutions, if a₁/a₂ = b₁/b₂ = c₁/c₂.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "From the given equations, 9/18 = 3/6 = 12/24, i.e. each ratio equals 1/2, so a₁/a₂ = b₁/b₂ = c₁/c₂ and the pair has infinitely many solutions. Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A). Thus (a) is correct option.",
+   "concept": "Ratios of the coefficients",
+   "ocr": "Conflict: the printed assertion reads '8x + 6y + 24 = 0' (MinerU and the PDF text layer agree), but the worked solution computes 9/18 = 3/6 = 12/24 and the key says (a). The solution wins, so the second equation is given here as 18x + 6y + 24 = 0."
+  },
+  {
+   "number": "25",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "OBJECTIVE QUESTIONS | Assertion - Reason",
+   "stem": "Assertion (A) and Reason (R) are given below. Choose the correct option out of the four given.",
+   "assertion": "x + y - 4 = 0 and 2x + ky - 3 = 0 has no solution if k = 2.",
+   "reason": "a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 are consistent if a₁/a₂ ≠ k₁/k₂.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "For the assertion, the given equations have no solution if 1/2 = 1/k ≠ (-4)/(-3), i.e. ≠ 4/3. This gives k = 2 [since 1/2 ≠ 4/3 holds], so the assertion is true. Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A). Thus (b) is correct option.",
+   "concept": "Inconsistent pair",
+   "ocr": "The reason is printed with k₁/k₂ (the book's own slip for b₁/b₂); kept verbatim as printed."
+  }
+ ]
+}

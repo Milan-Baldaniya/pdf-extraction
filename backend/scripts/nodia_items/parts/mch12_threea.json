@@ -1,0 +1,245 @@
+{
+ "items": [
+  {
+   "number": "73",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "stem": "The inner and outer radii of a hollow cylinder surmounted on a hollow hemisphere of same radii are 3 cm and 4 cm respectively. If height of the cylinder is 14 cm, then find its total surface area (inner and outer).",
+   "answer": "The surface of the solid is the inner and outer curved surface of the cylinder together with the inner and outer curved surface of the hemisphere, so S = 2πrh + 2πRh + 2πr² + 2πR² = 2πh(r + R) + 2π(r² + R²). With r = 3 cm, R = 4 cm and h = 14 cm, S = 2 × (22/7) × 14 × (3 + 4) + 2 × (22/7) × (9 + 16) = 616 + 1100/7 = 5412/7 cm². Hence the total surface area is 5412/7 cm² ≈ 773.14 cm².",
+   "concept": "Adding the curved surface areas",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2024 OD Standard",
+   "ocr": "Figure printed with this item is drawn by the solution (“As per question we have made the figure below”), so it is not attached; the stem gives every dimension."
+  },
+  {
+   "number": "74",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "stem": "A solid is in the shape of a right-circular cone surmounted on a hemisphere, the radius of each of them being 7 cm and the height of the cone is equal to its diameter. Find the volume of the solid.",
+   "answer": "Radius r = 7 cm, and the height of the cone equals its diameter, so h = 14 cm. Volume of the solid = volume of hemisphere + volume of cone = (2/3)πr³ + (1/3)πr²h = (1/3)πr²(2r + h) = (1/3) × (22/7) × 7² × (14 + 14) = (1/3) × 22 × 7 × 28 = 4312/3 cm³. Hence the volume is 4312/3 cm³ ≈ 1437.33 cm³.",
+   "concept": "Volumes simply add",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2023 OD Standard",
+   "ocr": "The diagram beside this item is the solution's own figure, so it is not attached."
+  },
+  {
+   "number": "75",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "From a solid cylinder whose height is 15 cm and the diameter is 16 cm, a conical cavity of the same height and same diameter is hollowed out. Find the total surface area of remaining solid. (Give your answer in terms of π).",
+   "answer": "Here h = 15 cm and r = 16/2 = 8 cm, and the cone has the same height and radius. Slant height l = √(r² + h²) = √(64 + 225) = √289 = 17 cm. The exposed surface is the flat top of the cylinder, the curved surface of the cylinder and the curved surface of the conical cavity: TSA = πr² + 2πrh + πrl = πr(r + 2h + l) = π × 8 × (8 + 30 + 17) = π × 8 × 55 = 440π. Hence the total surface area of the remaining solid is 440π cm².",
+   "concept": "Only exposed surfaces are visible",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2010",
+   "ocr": "In the printed working the substitution reads π × 8(3 + 2 × 15 + 17); the 3 is a misprint for r = 8, since the next line uses 55 = 8 + 30 + 17 and the stated answer 440π follows from r = 8. Result unaffected."
+  },
+  {
+   "number": "76",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "A solid is in the shape of a cone mounted on a hemisphere of same base radius. If the curved surface areas of the hemispherical part and the conical part are equal, then find the ratio of the radius and the height of the conical part.",
+   "answer": "Let the common radius be r and the height of the cone be h. Curved surface of the hemisphere = (1/2)(4πr²) = 2πr², and curved surface of the cone = πrl = πr√(h² + r²). Equating them, 2πr² = πr√(h² + r²), so 2r = √(h² + r²). Squaring, 4r² = h² + r², hence 3r² = h² and r²/h² = 1/3. Therefore r : h = 1 : √3.",
+   "concept": "Adding the curved surface areas",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Standard",
+   "ocr": "Figure is the solution's construction, not needed to state the question."
+  },
+  {
+   "number": "77",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "stem": "From a solid right circular cylinder of height 14 cm and base radius 6 cm, a right circular cone of same height and same base is removed. Find the volume of the remaining solid.",
+   "answer": "Let h = 14 cm and r = 6 cm for both the cylinder and the cone. Volume remaining = volume of cylinder − volume of cone = πr²h − (1/3)πr²h = (2/3)πr²h = (2/3) × (22/7) × 6 × 6 × 14 = 1056 cm³. Hence the remaining solid has volume 1056 cm³.",
+   "concept": "Breaking a solid into known parts",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Standard"
+  },
+  {
+   "number": "78",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "stem": "A solid is in the shape of a hemisphere surmounted by a cone. If the radius of hemisphere and base radius of cone is 7 cm and height of cone is 3.5 cm, find the volume of the solid. (Take π = 22/7)",
+   "answer": "Here r = 7 cm and the cone's height h = 3.5 cm. Volume of the solid = volume of hemisphere + volume of cone = (2/3)πr³ + (1/3)πr²h = (2/3) × (22/7) × 343 + (1/3) × (22/7) × 49 × 3.5 = 2156/3 + 539/3 = 2695/3 = 898.33 cm³. Hence the volume of the solid is about 898.33 cm³.",
+   "concept": "Volumes simply add",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Standard",
+   "ocr": "Figure beside the item belongs to the solution and is not attached."
+  },
+  {
+   "number": "79",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "stem": "A hemispherical bowl of internal diameter 36 cm contains liquid which is filled into 72 cylindrical bottles of diameter 6 cm. Find the height of the each bottle, if 10% liquid is wasted in this transfer.",
+   "answer": "Internal radius of the bowl = 18 cm, so the liquid in it has volume (2/3)π(18)³. After 10% is wasted, the liquid transferred = (2/3)π(18)³ × 90/100. Each bottle has radius 3 cm and height h, so the 72 bottles hold π(3)²h × 72. Equating, 648πh = (2/3)π × 5832 × 0.9 = 3499.2π, giving h = 3499.2/648 = 5.4. Hence the height of each bottle is 5.4 cm.",
+   "concept": "The basic solids",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2015",
+   "ocr": "Two lines of the printed working show (18)² where (18)³ is meant; the stated answer 5.4 cm follows from (18)³, so the cube is the intended value."
+  },
+  {
+   "number": "80",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "stem": "A wooden article was made by scooping out a hemisphere from each end of a solid cylinder, as shown in Figure. If the height of the cylinder is 10 cm and its base is of radius 3.5 cm, find the total surface area of the article.",
+   "answer": "The visible surface is the curved surface of the cylinder plus the curved surfaces of the two hemispherical scoops; the two flat circular ends are gone. Curved surface of cylinder = 2πrh = 2 × (22/7) × 3.5 × 10 = 220 cm². Curved surface of two hemispheres = 2 × 2πr² = 4 × (22/7) × 3.5 × 3.5 = 154 cm². Total surface area = 220 + 154 = 374 cm².",
+   "concept": "Only exposed surfaces are visible",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2018",
+   "images": [
+    "ch12_q80.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem says “as shown in Figure”, so the printed diagram of the scooped cylinder is part of the question and is attached."
+  },
+  {
+   "number": "81",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "Water in a canal, 6 m wide and 1.5 m deep, is flowing with a speed of 10 km/hour. How much area will it irrigate in 30 minutes; if 8 cm standing water is needed?",
+   "answer": "The canal cross-section is a rectangle 6 m × 1.5 m. In 1 hour the water moves 10 km, so in 30 minutes it moves 5 km = 5000 m. Volume of water delivered = 5000 × 6 × 1.5 m³. This water stands 8 cm = 8/100 m deep over the irrigated area A, so A × 8/100 = 5000 × 6 × 1.5, giving A = (5000 × 6 × 1.5 × 100)/8 = 5.625 × 10⁵ m². Hence the area irrigated is 5.625 × 10⁵ m², that is 562500 m².",
+   "concept": "Why area and volume differ",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD STD, 2019 Delhi, Delhi 2014, 2012"
+  },
+  {
+   "number": "82",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "A solid right-circular cone of height 60 cm and radius 30 cm is dropped in a right-circular cylinder full of water of height 180 cm and radius 60 cm. Find the volume of water left in the cylinder in cubic metre. Use π = 22/7.",
+   "answer": "Volume of the cylinder, initially all water, = πr²h = π(60)² × 180 = 648000π cm³. The cone displaces water equal to its own volume = (1/3)π(30)² × 60 = 18000π cm³. Water left = 648000π − 18000π = 630000π = 630000 × 22/7 = 1980000 cm³. Since 1 m³ = 1000000 cm³, the water left is 1.98 m³.",
+   "concept": "Breaking a solid into known parts",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2015"
+  },
+  {
+   "number": "83",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "A tent is in the shape of cylinder surmounted by a conical top of same diameter. If the height and diameter of cylindrical part are 2.1 m and 3 m respectively and the slant height of conical part is 2.8 m, find the cost of canvas needed to make the tent if the canvas is available at the rate of Rs.500 per square meter. Use π = 22/7.",
+   "answer": "The canvas covers the curved surface of the cone and the curved surface of the cylinder only. Radius r = 3/2 m, slant height l = 2.8 m, cylinder height h = 2.1 m. Surface area = πrl + 2πrh = πr(l + 2h) = (22/7) × (3/2) × (2.8 + 4.2) = (33/7) × 7 = 33 m². Cost = 33 × 500 = Rs 16,500.",
+   "concept": "Applying it to a real shed",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "ocr": "A labelled diagram is printed with the stem, but every dimension in it (3 m, 2.1 m, 2.8 m) is already given in words, so no figure is attached."
+  },
+  {
+   "number": "84",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "A metallic cylinder has radius 3 cm and height 5 cm. To reduce its weights, a conical hole is drilled in the cylinder. The conical hole has a radius of 3/2 cm and its depth 8/9 cm. Calculate the ratio of the volume of metal left in the cylinder to the volume of metal taken out in conical shape.",
+   "answer": "Volume of the cylinder = πr²h = π(3)² × 5 = 45π cm³. Volume of the conical hole = (1/3)π(3/2)² × 8/9 = (1/3)π × (9/4) × (8/9) = (2/3)π cm³. Metal left = 45π − (2/3)π = (133/3)π cm³. Ratio of metal left to metal removed = (133/3)π ÷ (2/3)π = 133/2. Hence the required ratio is 133 : 2.",
+   "concept": "Breaking a solid into known parts",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2015"
+  },
+  {
+   "number": "85",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "The rain water from 22 m × 20 m roof drains into a cylindrical vessel of diameter 2 m and height 3.5 m. If the rain water collected from the roof fills 4/5th of the cylindrical vessel then find the rainfall in cm.",
+   "answer": "Let h be the rainfall in metres. Water collected in the vessel = (4/5)πr²H = (4/5) × (22/7) × 1² × (7/2) = 44/5 m³. Rain falling on the roof = 22 × 20 × h = 440h m³. Equating, 440h = 44/5, so h = 44/(5 × 440) = 1/50 m = (1/50) × 100 = 2 cm. Hence the rainfall is 2 cm.",
+   "concept": "Why area and volume differ",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "ocr": "The printed line h = (44/5) × 1/(22 × 20) = 1/50 carries the unit m³; it should read m, as the next line converts it to 2 cm."
+  },
+  {
+   "number": "86",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "A hollow cylindrical pipe is made up of copper. It is 21 dm long. The outer and inner diameters of the pipe are 10 cm and 6 cm respectively. Find the volume of copper used in making the pipe.",
+   "answer": "Length h = 21 dm = 210 cm. External radius R = 10/2 = 5 cm and internal radius r = 6/2 = 3 cm. Volume of copper = volume of the external cylinder − volume of the internal cylinder = πh(R² − r²) = (22/7) × 210 × (25 − 9) = (22/7) × 210 × 16 = 10560 cm³. Hence 10560 cm³ of copper is used.",
+   "concept": "Breaking a solid into known parts",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2015",
+   "ocr": "One printed line reads πh(R² − h²); the next line substitutes (5² − 3²), so it is a misprint for πh(R² − r²). Result unaffected."
+  },
+  {
+   "number": "87",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "A wooden toy was made by scooping out a hemisphere of same radius from each end of a solid cylinder. If the height of the cylinder is 10 cm, and its base is of radius 3.5 cm, find the volume of wood in the toy. Use π = 22/7",
+   "answer": "Radius of the toy = radius of the cylinder = 3.5 cm and h = 10 cm. Volume of wood = volume of cylinder − 2 × volume of hemisphere = πr²h − 2 × (2/3)πr³ = πr²(h − 4r/3) = (22/7) × (3.5)² × (10 − 14/3) = 38.5 × 16/3 = 616/3 = 205.33 cm³. Hence the volume of wood in the toy is 616/3 cm³ ≈ 205.33 cm³.",
+   "concept": "Breaking a solid into known parts",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2013",
+   "ocr": "Printed final answer is 204.05 cm³, but the book's own last expression (22/3) × 0.5 × 3.5 × 16 equals 616/3 = 205.33 cm³. The worked solution wins, so 205.33 cm³ is recorded. Counted as a contradicted key. The figure beside the item is the solution's own drawing."
+  },
+  {
+   "number": "88",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "The radii of two right circular cylinders are in the ratio of 2 : 3 and their heights are in the ratio of 5 : 4. Calculate the ratio of their curved surface areas and the ratio of their volumes.",
+   "answer": "Let the radii be 2r and 3r and the heights 5h and 4h. Ratio of curved surface areas = (2π × 2r × 5h)/(2π × 3r × 4h) = 10/12 = 5/6, so the curved surface areas are in the ratio 5 : 6. Ratio of volumes = (π(2r)² × 5h)/(π(3r)² × 4h) = (4 × 5)/(9 × 4) = 5/9, so the volumes are in the ratio 5 : 9.",
+   "concept": "Why area and volume differ",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2012",
+   "ocr": "The stem is printed as “radio of their volumes”, a misprint for “ratio”; corrected here. One denominator in the volume line is printed 2π × 3r × 4h instead of π(3r)² × 4h, but the stated ratio 5 : 9 is correct."
+  },
+  {
+   "number": "89",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "A vessel is in the form of a hemispherical bowl surmounted by a hollow cylinder of same diameter. The diameter of the hemispherical bowl is 14 cm and the total height of the vessel is 13 cm. Find the total surface area of the vessel. Use π = 22/7",
+   "answer": "Radius of the hemisphere r = 14/2 = 7 cm, so the cylinder's height h = 13 − 7 = 6 cm. The visible surface is the curved surface of the hemisphere plus the curved surface of the cylinder = 2πr² + 2πrh = 2πr(r + h) = 2 × (22/7) × 7 × (7 + 6) = 44 × 13 = 572 cm². Hence the total surface area of the vessel is 572 cm².",
+   "concept": "Adding the curved surface areas",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2013",
+   "ocr": "Figure printed after Sol is the solution's drawing, not attached."
+  },
+  {
+   "number": "90",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of same radius. If the total height of the toy is 15.5 cm, find the total surface area of the toy. Use π = 22/7",
+   "answer": "Radius r = 3.5 cm, so the hemisphere contributes 3.5 cm of height and the cone's height h = 15.5 − 3.5 = 12 cm. Slant height l = √(r² + h²) = √(3.5² + 12²) = √156.25 = 12.5 cm. Total surface area = curved surface of hemisphere + curved surface of cone = 2πr² + πrl = πr(2r + l) = (22/7) × 3.5 × (7 + 12.5) = 11 × 19.5 = 214.5 cm².",
+   "concept": "Adding the curved surface areas",
+   "section_heading": "THREE MARKS QUESTIONS | Board OD 2020 Basic",
+   "ocr": "The labelled figure appears after Sol and is the solution's own; the stem supplies radius and total height, so no figure attached."
+  },
+  {
+   "number": "91",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "A metallic solid sphere of radius 10.5 cm melted and recasted into smaller solid cones each of radius 3.5 cm and height 3 cm. How many cones will be made?",
+   "answer": "Volume of the sphere = (4/3)πR³ = (4/3)π(10.5)³. Volume of one cone = (1/3)πr²h = (1/3)π(3.5)² × 3 = π(3.5)². If n cones are made, nπ(3.5)² = (4/3)π(10.5)³, so n = (4/3) × (10.5)³/(3.5)² = (4/3) × 10.5 × (10.5/3.5)² = (4/3) × 10.5 × 9 = 126. Hence 126 cones can be made.",
+   "concept": "The basic solids",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2017",
+   "ocr": "Printed as “How may cones will be made”; read as “How many cones will be made”."
+  },
+  {
+   "number": "92",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "A solid sphere of diameter 6 cm is dropped in a right circular cylindrical vessel partly filled with water. The diameter of the cylindrical vessel is 12 cm. If the sphere is completely submerged into water, by how much will the level of water rise in the cylindrical vessel?",
+   "answer": "Radius of the sphere = 3 cm and radius of the cylinder = 12/2 = 6 cm. The water displaced equals the volume of the sphere, so π(6)²h = (4/3)π(3)³. Then 36h = (4/3) × 27 = 36, giving h = 1. Hence the water level rises by 1 cm.",
+   "concept": "The basic solids",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 SQP 2017"
+  },
+  {
+   "number": "93",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "A conical vessel, with base radius 5 cm and height 24 cm, is full of water. This water is emptied into a cylindrical vessel of base radius 10 cm. Find the height to which the water will rise in the cylindrical vessel. Use π = 22/7",
+   "answer": "Volume of water = volume of the cone = (1/3)πr²h = (1/3)π × 25 × 24 = 200π cm³. In the cylinder of radius 10 cm this stands to height h, so π(10)²h = 200π, giving 100h = 200 and h = 2. Hence the water rises to a height of 2 cm.",
+   "concept": "The basic solids",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "ocr": "The printed line shows (1/3)π × 2.5 × 24; it is a misprint for 25 = 5², since the following line uses 25 and the answer 2 cm follows from it."
+  },
+  {
+   "number": "94",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "A well of diameter 4 m is dug 14 m deep. The earth taken out is spread evenly all around the well to form a 40 cm high embankment. Find the width of the embankment.",
+   "answer": "Radius of the well r = 2 m and depth = 14 m, so the earth dug out = πr²h = (22/7) × 2² × 14 = 176 m³. Let the width of the embankment be r metres, so its outer radius is 2 + r. The embankment is a ring of height 0.4 m, and its volume equals the earth dug out: π[(2 + r)² − 2²] × 0.4 = 176. This gives (22/7)(r² + 4r) × 0.4 = 176, so r² + 4r = (176 × 7)/(0.4 × 22) = 140. Then r² + 4r − 140 = 0, that is (r + 14)(r − 10) = 0, so r = 10. Hence the width of the embankment is 10 m.",
+   "concept": "Breaking a solid into known parts",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2012",
+   "ocr": "The printed stem says a “40 m high embankment”, but the worked solution multiplies by 0.4 m throughout, so the intended height is 40 cm; the stem is recorded as 40 cm to match the solution. The printed data line also reads “Radius, r = 12 m” while the working uses r = 2 m (diameter 4 m); r = 2 m is correct. Solution continues on page 20."
+  }
+ ]
+}

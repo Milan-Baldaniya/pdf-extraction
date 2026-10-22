@@ -1,0 +1,491 @@
+{
+ "items": [
+  {
+   "number": "30",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "From an external point Q, the length of tangent to a circle is 12 cm and the distance of Q from the centre of circle is 13 cm. What is the radius of circle?",
+   "answer": "Let O be the centre and P the point of contact. The radius is perpendicular to the tangent at the point of contact, so OP ⊥ PQ and △OPQ is right angled at P. By Pythagoras, OP² + PQ² = OQ², so OP² = 13² − 12² = 169 − 144 = 25. Hence the radius OP = 5 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "31",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "QP is a tangent to a circle with centre O at a point P on the circle. If △OPQ is isosceles, then find ∠OQR ?",
+   "answer": "Since QP is a tangent at P, the radius OP is perpendicular to it, so ∠OPQ = 90°. In the isosceles triangle OPQ the two angles other than the right angle are equal, so ∠POQ = ∠OQP. Then ∠POQ + ∠OPQ + ∠OQP = 180° gives 2∠OQP + 90° = 180°, so ∠OQP = 45°.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed stem asks for ∠OQR, but no point R appears in this question or its figure; the worked solution finds ∠OQP = 45°. Read as ∠OQP."
+  },
+  {
+   "number": "32",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "A chord of a circle of radius 10 cm, subtends a right angle at its centre. What is the length of the chord?",
+   "answer": "Let BC be the chord and A the centre, so AB = AC = 10 cm and ∠BAC = 90°. By Pythagoras in △ABC, BC² = AB² + AC² = 10² + 10² = 100 + 100 = 200. Hence BC = 10√2 cm.",
+   "concept": "Secant of a circle",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "33",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "In figure, on a circle of radius 7 cm, tangent PT is drawn from a point P such that PT = 24 cm. If O is the centre of the circle, then what is the length of PR ?",
+   "answer": "The tangent at any point of a circle is perpendicular to the radius at the point of contact, so OT ⊥ PT. In right-angled △PTO, OP² = OT² + PT² = 7² + 24² = 49 + 576 = 625, so OP = 25 cm. Since OR = OT = 7 cm are radii, PR = OP + OR = 25 + 7 = 32 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Basic",
+   "images": [
+    "ch10_q33.png"
+   ],
+   "figure_required": true,
+   "ocr": "R is defined only by the printed figure (the far end of the line through O on ray PO), so the figure is attached."
+  },
+  {
+   "number": "34",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "In figure, O is the centre of circle. PQ is a chord and PT is tangent at P which makes an angle of 50° with PQ. Find the angle ∠POQ.",
+   "answer": "The radius is perpendicular to the tangent at the point of contact, so ∠OPT = 90°. Hence ∠OPQ = 90° − 50° = 40°. Since OP = OQ are radii, △OPQ is isosceles and ∠OQP = ∠OPQ = 40°. Therefore ∠POQ = 180° − 40° − 40° = 100°.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "35",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "In the adjoining figure, TP and TQ are the two tangents to a circle with centre O. If ∠POQ = 110°, then find the angle ∠PTQ.",
+   "answer": "Since OP ⊥ PT and OQ ⊥ QT, in the quadrilateral OPTQ we have ∠POQ + ∠OPT + ∠PTQ + ∠OQT = 360°. Substituting, 110° + 90° + ∠PTQ + 90° = 360°, so ∠PTQ = 70°.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Compt. 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "36",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "In figure, AP, AQ and BC are tangents of the circle with centre O. If AB = 5 cm, AC = 6 cm and BC = 4 cm, then what is the length of AP?",
+   "answer": "Let BC touch the circle at R. Tangents drawn from an external point are equal, so BP = BR, CR = CQ and AP = AQ. The perimeter of △ABC is AB + BC + AC = AB + BR + RC + AC = AB + BP + CQ + AC, that is 5 + 4 + 6 = AP + AQ, so 15 = 2AP. Hence AP = 15/2 = 7.5 cm.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Basic",
+   "images": [
+    "ch10_q36.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem does not say that B lies on AP and C on AQ; only the figure shows it, so the figure is attached. In the printed figure the point where BC touches the circle is an unlabelled dot, while the solution calls it R."
+  },
+  {
+   "number": "37",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "Two chords AB and CD of a circle intersect at E such that AE = 2.4 cm, BE = 3.2 cm and CE = 1.6 cm. What is the length of DE?",
+   "answer": "For two chords of a circle meeting at an interior point, AE × EB = CE × ED. So 2.4 × 3.2 = 1.6 × ED, giving ED = 7.68 ÷ 1.6 = 4.8 cm.",
+   "concept": "Secant of a circle",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 OD 2011",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "38",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "Two circles of radii 20 cm and 37 cm intersect in A and B. If O₁ and O₂ are their centres and AB = 24 cm, then find the distance O₁O₂.",
+   "answer": "The line of centres bisects the common chord AB at right angles at C, so AC = 12 cm. In the larger circle AO₁ = 37 cm, hence CO₁ = √(37² − 12²) = √(1369 − 144) = √1225 = 35 cm. In the smaller circle AO₂ = 20 cm, hence CO₂ = √(20² − 12²) = √(400 − 144) = √256 = 16 cm. Therefore O₁O₂ = 35 + 16 = 51 cm.",
+   "concept": "Secant of a circle",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "39",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "In the figure, QR is a common tangent to given circle which meet at T. Tangent at T meets QR at P. If QP = 3.8 cm, then find length of QR.",
+   "answer": "For the larger circle, P is an external point and PQ and PT are tangents, so QP = PT = 3.8 cm. For the smaller circle, P is again external and PR and PT are tangents, so PR = PT = 3.8 cm. Hence QR = QP + PR = 3.8 + 3.8 = 7.6 cm.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2012, 2014",
+   "images": [
+    "ch10_q39.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem says 'given circle' but two circles touching each other at T are meant; only the figure shows the arrangement, so it is attached."
+  },
+  {
+   "number": "40",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "Two concentric circles of radii a and b where a > b, Find the length of a chord of the larger circle which touches the other circle.",
+   "answer": "Let O be the common centre and BA the chord of the larger circle touching the smaller circle at L. Then OL ⊥ BA with OL = b and OA = a. In right-angled △OAL, OA² = OL² + AL², so a² = b² + AL², giving AL = √(a² − b²). The perpendicular from the centre bisects the chord, so the chord BA = 2AL = 2√(a² − b²).",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 OD 2015",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "41",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "If the angle between two radii of a circle is 130°, then what is the angle between the tangents at the end points of radii at their point of intersection ?",
+   "answer": "The angle between the two radii and the angle between the two tangents at their point of intersection are supplementary, because the angle at each point of contact is 90°. So the required angle = 180° − 130° = 50°.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "42",
+   "form": "very_short",
+   "marks": 1,
+   "page": 13,
+   "stem": "In the adjoining figure, PT is a tangent at point C of the circle. O is the circumference of △ABC. If ∠ACP = 118°, then find the angle ∠x?",
+   "answer": "Join OC. OC is a radius and PT is the tangent at C, so OC ⊥ PT and ∠OCP = 90°. Given ∠ACP = 118°, so ∠ACO = ∠ACP − ∠OCP = 118° − 90° = 28°. Since O is the circumcentre, OA = OC are radii, so △OAC is isosceles and ∠OAC = ∠ACO. The marked angle x is ∠OAC, hence x = 28°.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Foreign 2012",
+   "images": [
+    "ch10_q42.png"
+   ],
+   "figure_required": true,
+   "ocr": "The angle x is marked only on the figure, so the figure is attached. The stem prints 'O is the circumference of △ABC'; the solution treats O as the circumcentre, which is what is meant."
+  },
+  {
+   "number": "43",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "If a circle can be inscribed in a parallelogram how will the parallelogram change?",
+   "answer": "For a parallelogram circumscribing a circle the tangent lengths force each pair of adjacent sides to be equal, so all four sides become equal and the angles become right angles. The parallelogram therefore changes into a rectangle or a square.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2, 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed answer is the single line 'It changes into a rectangle or a square.'"
+  },
+  {
+   "number": "44",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "Two concentric circles are of radii 10 cm and 8 cm, then find the length of the chord of the larger circle which touches the smaller circle.",
+   "answer": "Let O be the common centre and AB the chord of the larger circle touching the smaller circle at P. Then OP ⊥ AB and AP = PB. In right-angled △OPA, OA² = OP² + AP², so 100 = 64 + AP², giving AP² = 36 and AP = 6 cm. Hence AB = 2AP = 12 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2011",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "45",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "In given figure, the length PB = ................... cm.",
+   "answer": "From the figure AO = 5 cm and OP = 3 cm. AB is a tangent to the inner circle at P and OP is its radius, so ∠APO = 90°. In right-angled △OPA, AP² = AO² − OP² = 5² − 3² = 25 − 9 = 16, so AP = 4 cm. AB is a chord of the outer circle and the perpendicular OP from the centre bisects it, so PB = AP = 4 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Standard",
+   "images": [
+    "ch10_q45.png"
+   ],
+   "figure_required": true,
+   "ocr": "A fill-in-the-blank whose entire data (the 5 cm and 3 cm lengths and the points A, P, B) sits in the figure, so the figure is attached."
+  },
+  {
+   "number": "46",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "In given figure, if ∠AOB = 125°, then find the angle ∠COD ?",
+   "answer": "A quadrilateral circumscribing a circle subtends supplementary angles at the centre for its opposite sides, so ∠AOB + ∠COD = 180°. Hence ∠COD = 180° − 125° = 55°.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi Compt. 2014",
+   "images": [
+    "ch10_q46.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem names A, B, C, D and O without describing the configuration; the quadrilateral ABCD circumscribing the circle appears only in the figure, so it is attached."
+  },
+  {
+   "number": "47",
+   "form": "very_short",
+   "marks": 1,
+   "page": 14,
+   "stem": "In the given figure, a circle touches all the four sides of quadrilateral ABCD with AB = 6 cm, BC = 7 cm and CD = 4 cm, then what is the length of AD ?",
+   "answer": "For a quadrilateral circumscribing a circle the sums of the two pairs of opposite sides are equal, so AB + CD = BC + AD. Substituting, 6 + 4 = 7 + AD, giving AD = 10 − 7 = 3 cm.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 OD 2017",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "48",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "To draw a pair of tangents to a circle which are inclined to each other at an angle of 30°, it is required to draw tangents at end points of two radii of the circle, what will be the angle between them ?",
+   "answer": "The angle between the two radii and the angle between the two tangents at their point of intersection add up to 180°. So the angle between the radii = 180° − 30° = 150°.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "49",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "In figure, AT is a tangent to the circle with centre O such that OT = 4 cm and ∠OTA = 30°. What is the length of AT?",
+   "answer": "Join OA. The tangent at any point of a circle is perpendicular to the radius through the point of contact, so ∠OAT = 90°. In right-angled △OAT, cos 30° = AT/OT, so AT/4 = √3/2 and AT = 2√3 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2013",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "50",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "What is the maximum number of parallel tangents a circle can have on a diameter?",
+   "answer": "A tangent touches a circle at exactly one point, and the only tangents perpendicular to a given diameter are the ones drawn at its two end points. Hence a circle can have at most two parallel tangents on a diameter.",
+   "concept": "Tangent as one common point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "51",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "In the given figure, AOB is a diameter of the circle with centre O and AC is a tangent to the circle at A. If ∠BOC = 130°, the find ∠ACO.",
+   "answer": "OA is a radius and AC is the tangent at A, so ∠OAC = 90°. In △OAC the angle ∠BOC is the exterior angle at O, so ∠BOC = ∠OAC + ∠ACO. Thus 130° = 90° + ∠ACO, giving ∠ACO = 40°.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "52",
+   "form": "very_short",
+   "marks": 1,
+   "page": 15,
+   "stem": "Two concentric circles are of radii 5 cm and 3 cm. Find the length of the chord of larger circle (in cm) which touches the smaller circle.",
+   "answer": "Let O be the common centre and AB the chord of the larger circle touching the smaller one at C. Then OC ⊥ AB, so △AOC is right angled with AO = 5 cm and OC = 3 cm. Hence AC = √(5² − 3²) = √(25 − 9) = √16 = 4 cm. The perpendicular from the centre bisects the chord, so AB = 2AC = 8 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Basic, Foreign 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "53",
+   "form": "very_short",
+   "marks": 1,
+   "page": 16,
+   "stem": "In figure, PA and PB are tangents to the circle with centre O such that ∠APB = 50º. Write the measure of ∠OAB.",
+   "answer": "Tangents from an external point are equal, so PA = PB and △PAB is isosceles. Hence ∠PAB = ∠PBA = (180° − 50°)/2 = 65°. OA is a radius and AP is the tangent at A, so ∠OAP = 90°. Therefore ∠OAB = ∠OAP − ∠PAB = 90° − 65° = 25°.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2015",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "54",
+   "form": "very_short",
+   "marks": 1,
+   "page": 16,
+   "stem": "If PQ and PR are two tangents to a circle with centre O. If ∠QPR = 46º then find ∠QOR.",
+   "answer": "The angle between the two tangents and the angle between the corresponding radii are supplementary, so ∠QOR + ∠QPR = 180°. Hence ∠QOR = 180° − 46° = 134°.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "55",
+   "form": "very_short",
+   "marks": 1,
+   "page": 16,
+   "stem": "If a line intersects a circle in two distinct points, what is it called ?",
+   "answer": "A line that meets a circle at two distinct points is called a secant of the circle.",
+   "concept": "Secant of a circle",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2, 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "56",
+   "form": "very_short",
+   "marks": 1,
+   "page": 16,
+   "stem": "In the given figure, PQ and PR are tangents to the circle with centre O such that ∠QPR = 50º, Then find ∠OQR.",
+   "answer": "Since ∠QOR and ∠QPR are supplementary, ∠QOR = 180° − 50° = 130°. In △OQR the sides OQ and OR are radii, so it is isosceles and ∠OQR = ∠ORQ = (180° − 130°)/2 = 50°/2 = 25°.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2012, 2015",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "57",
+   "form": "very_short",
+   "marks": 1,
+   "page": 16,
+   "stem": "In the figure, PA and PB are tangents to a circle with centre O. If ∠AOB = 120°, then find ∠OPA.",
+   "answer": "OA is a radius and AP the tangent at A, so ∠OAP = 90°. By symmetry OP bisects ∠AOB, so ∠AOP = 120°/2 = 60°. In right-angled △AOP, ∠APO + ∠OAP + ∠AOP = 180°, giving ∠APO = 180° − 90° − 60° = 30°. Hence ∠OPA = 30°.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2012, 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "58",
+   "form": "very_short",
+   "marks": 1,
+   "page": 17,
+   "stem": "What is the length of the tangent drawn from a point 8 cm away from the centre of a circle of radius 6 cm ?",
+   "answer": "The radius is perpendicular to the tangent at the point of contact, so the tangent length l, the radius r and the distance d from the centre satisfy l = √(d² − r²). Here l = √(8² − 6²) = √(64 − 36) = √28 = 2√7 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution reaches √28 correctly but then writes '= 2√3 cm'. √28 = 2√7, not 2√3, so the derivation wins and the answer is 2√7 cm. Counted as a contradicted key."
+  },
+  {
+   "number": "59",
+   "form": "very_short",
+   "marks": 1,
+   "page": 17,
+   "stem": "In figure, PA and PB are two tangents drawn from an external point P to a circle with centre C and radius 4 cm. If PA ⊥ PB, then find the length of each tangent.",
+   "answer": "CA ⊥ PA and CB ⊥ PB because a radius meets a tangent at right angles, and PA ⊥ PB is given, so all four angles of quadrilateral CAPB are right angles. With CA = CB = 4 cm it is a square, so CA = AP = PB = BC = 4 cm. Each tangent is 4 cm long.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2013",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "60",
+   "form": "very_short",
+   "marks": 1,
+   "page": 17,
+   "stem": "PA and PB are tangents from point P to the circle with centre O as shown in figure. At point M, a tangent is drawn cutting PA at K and PB at N. Prove that KN = AK + BN",
+   "answer": "Lengths of tangents drawn from an external point to a circle are equal, so from K we get KA = KM and from N we get NB = NM. Adding, KA + NB = KM + NM. Since M lies on the segment KN, KM + MN = KN. Hence AK + BN = KN. Hence proved.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2, 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "61",
+   "form": "very_short",
+   "marks": 1,
+   "page": 17,
+   "stem": "PQ is a tangent drawn from an external point P to a circle with centre O, QOR is the diameter of the circle. If ∠POR = 120°, What is the measure of ∠OPQ ?",
+   "answer": "PQ is a tangent at Q and OQ is a radius, so ∠OQP = 90° and △OQP is right angled. In △OQP the angle ∠POR is the exterior angle at O, so ∠POR = ∠OQP + ∠OPQ. Hence ∠OPQ = 120° − 90° = 30°.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Foreign 2017",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "62",
+   "form": "very_short",
+   "marks": 1,
+   "page": 17,
+   "stem": "Two tangents making an angle of 60° between them are drawn to a circle of radius √3 cm, then find the length of each tangent.",
+   "answer": "Let the tangents from P touch the circle at A and B, with centre O. The line OP bisects the 60° angle, so ∠APO = 30°, and OA ⊥ AP with OA = √3 cm. In right-angled △OAP, tan 30° = OA/AP, so 1/√3 = √3/AP, giving AP = √3 × √3 = 3 cm. Each tangent is 3 cm long.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board, Term-2, 2013",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "63",
+   "form": "very_short",
+   "marks": 1,
+   "page": 18,
+   "stem": "In the figure there are two concentric circles with centre O. PRT and PQS are tangents to the inner circle from a point P lying on the outer circle. If PR = 5 cm find the length of PS.",
+   "answer": "PQ and PR are tangents from P to the inner circle, so PQ = PR = 5 cm. PS is a chord of the outer circle, and the radius of the inner circle drawn to its point of contact Q is perpendicular to PS, so Q bisects PS. Hence PS = 2PQ = 2 × 5 = 10 cm.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi Compt. 2017",
+   "images": [
+    "ch10_q63.png"
+   ],
+   "figure_required": true,
+   "ocr": "Which of Q, R, S, T are the points of contact and which lie on the outer circle is shown only by the figure, so it is attached."
+  },
+  {
+   "number": "64",
+   "form": "very_short",
+   "marks": 1,
+   "page": 18,
+   "stem": "In the given figure, find ∠QSR.",
+   "answer": "From the figure PR and PQ are tangents from P with ∠RPQ = 60°. The angle between the radii and the angle between the tangents at their point of intersection are supplementary, so ∠ROQ = 180° − 60° = 120°. The angle subtended by an arc at the centre is twice the angle it subtends at a point on the remaining circumference, so ∠QSR = ½ × ∠ROQ = ½ × 120° = 60°.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [
+    "ch10_q64.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem carries no data at all; the tangents PR and PQ, the 60° angle and the point S are all in the figure, so it is attached."
+  },
+  {
+   "number": "65",
+   "form": "very_short",
+   "marks": 1,
+   "page": 18,
+   "stem": "In figure, AP and BP are tangents to a circle with centre O, such that AP = 5 cm and ∠APB = 60° . Find the length of chord AB.",
+   "answer": "Tangents drawn from an external point are equal, so PA = PB and △PAB is isosceles. Its base angles are ∠PAB = ∠PBA = (180° − 60°)/2 = 60°, so all three angles are 60° and △PAB is equilateral. Hence AB = PA = 5 cm.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "66",
+   "form": "very_short",
+   "marks": 1,
+   "page": 18,
+   "stem": "In given figure, if AT is a tangent to the circle with centre O, such that OT = 4 cm and ∠OTA = 30° , then find the length of AT .",
+   "answer": "AT is a tangent to the circle, so OA ⊥ AT and △OAT is right angled at A. Then cos 30° = AT/OT, so AT = OT cos 30° = 4 × √3/2 = 2√3 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2, 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Same question as number 49; the book prints it twice under different numbers with different board tags."
+  },
+  {
+   "number": "67",
+   "form": "very_short",
+   "marks": 1,
+   "page": 19,
+   "stem": "In figure, O is the centre of the circle, PQ is a chord and PT is tangent to the circle at P. Find ∠OPQ and ∠TPQ",
+   "answer": "OP and OQ are radii, so △OPQ is isosceles. With the central angle ∠POQ = 70° read from the figure, ∠OPQ = ∠OQP = (180° − 70°)/2 = 55°. PT is the tangent at P and OP the radius, so ∠OPT = 90°. Hence ∠TPQ = 90° − 55° = 35°.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 OD 2017",
+   "images": [
+    "ch10_q67.png"
+   ],
+   "figure_required": true,
+   "ocr": "The 70° central angle is printed only in the figure, so the figure is attached."
+  }
+ ]
+}

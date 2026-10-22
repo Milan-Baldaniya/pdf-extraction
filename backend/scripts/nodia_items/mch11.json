@@ -1,0 +1,1797 @@
+{
+ "chapter": 11,
+ "chapter_id": 23196,
+ "extraction_id": 400,
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The circumferences of two circles are in the ratio 4 : 5. What is the ratio of their radii ?",
+   "options": [
+    {
+     "label": "A",
+     "text": "16 : 25"
+    },
+    {
+     "label": "B",
+     "text": "25 : 16"
+    },
+    {
+     "label": "C",
+     "text": "2 : √5"
+    },
+    {
+     "label": "D",
+     "text": "4 : 5"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The circumference of a circle is 2πr, so 2πr₁ / 2πr₂ = r₁ / r₂ = 4/5. The 2π cancels, so the radii stand in the same ratio as the circumferences, 4 : 5.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The area of a circular ring formed by two concentric circles whose radii are 5.7 cm and 4.3 cm respectively is (Take π = 3.1416)",
+   "options": [
+    {
+     "label": "A",
+     "text": "44 sq. cm."
+    },
+    {
+     "label": "B",
+     "text": "66 sq. cm."
+    },
+    {
+     "label": "C",
+     "text": "22 sq. cm."
+    },
+    {
+     "label": "D",
+     "text": "33 sq. cm."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let r₁ = 5.7 cm and r₂ = 4.3 cm. Area of the ring = πr₁² − πr₂² = π(r₁ − r₂)(r₁ + r₂) = (22/7) × 1.4 × 10 = 44 sq. cm.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP STD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "In the adjoining figure, OABC is a square of side 7 cm. OAC is a quadrant of a circle with O as centre. The area of the shaded region is",
+   "options": [
+    {
+     "label": "A",
+     "text": "10.5 cm²"
+    },
+    {
+     "label": "B",
+     "text": "38.5 cm²"
+    },
+    {
+     "label": "C",
+     "text": "49 cm²"
+    },
+    {
+     "label": "D",
+     "text": "11.5 cm²"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The shaded region is what is left of the square after the quadrant is removed: r² − ¼ × πr² = 7² − ¼ × (22/7) × 7² = 49 − 38.5 = 10.5 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP STD, Board Term-2 2017",
+   "images": [
+    "ch11_q3.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "A sector is cut from a circular sheet of radius 100 cm, the angle of the sector being 240°. If another circle of the area same as the sector is formed, then radius of the new circle is",
+   "options": [
+    {
+     "label": "A",
+     "text": "79.5 cm"
+    },
+    {
+     "label": "B",
+     "text": "81.5 cm"
+    },
+    {
+     "label": "C",
+     "text": "83.4 cm"
+    },
+    {
+     "label": "D",
+     "text": "88.5 cm"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Area of the sector = (240°/360°) × π(100)² = 20933 cm². If r is the radius of the new circle then πr² = 20933, so r = √(20933/π) ≈ 81.6 cm, which is the choice 81.5 cm.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The worked solution ends at r = 81.6 cm while the nearest printed option is (b) 81.5 cm, which the book selects. This is rounding in the printed arithmetic, not a key that fights its own solution."
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If a circular grass lawn of 35 m in radius has a path 7 m wide running around it on the outside, then the area of the path is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1450 m²"
+    },
+    {
+     "label": "B",
+     "text": "1576 m²"
+    },
+    {
+     "label": "C",
+     "text": "1694 m²"
+    },
+    {
+     "label": "D",
+     "text": "3368 m²"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The outer concentric circle has radius 35 + 7 = 42 m. Area of the path = π(42² − 35²) = (22/7)(1764 − 1225) = (22/7) × 539 = 1694 m².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If the area of a semi-circular field is 15400 sq m, then perimeter of the field is",
+   "options": [
+    {
+     "label": "A",
+     "text": "160√2 m"
+    },
+    {
+     "label": "B",
+     "text": "260√2 m"
+    },
+    {
+     "label": "C",
+     "text": "360√2 m"
+    },
+    {
+     "label": "D",
+     "text": "460√2 m"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "From πr²/2 = 15400 we get r² = 15400 × 2 × 7/22 = 9800, so r = 70√2 m. The perimeter of a semicircular field is the arc plus the diameter: πr + 2r = (22/7)(70√2) + 2(70√2) = 220√2 + 140√2 = 360√2 m.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 STD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The area of the circle that can be inscribed in a square of side 6 cm is",
+   "options": [
+    {
+     "label": "A",
+     "text": "36π cm²"
+    },
+    {
+     "label": "B",
+     "text": "18π cm²"
+    },
+    {
+     "label": "C",
+     "text": "12π cm²"
+    },
+    {
+     "label": "D",
+     "text": "9π cm²"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A circle inscribed in a square touches all four sides, so its diameter equals the side of the square: d = 6 cm and r = 3 cm. Area = πr² = 9π cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 STD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The sum of the areas of two circle, which touch each other externally, is 153 π. If the sum of their radii is 15, then the ratio of the larger to the smaller radius is",
+   "options": [
+    {
+     "label": "A",
+     "text": "4 : 1"
+    },
+    {
+     "label": "B",
+     "text": "2 : 1"
+    },
+    {
+     "label": "C",
+     "text": "3 : 1"
+    },
+    {
+     "label": "D",
+     "text": "None of these"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let the radii be r₁ and r₂ with r₁ + r₂ = 15 and πr₁² + πr₂² = 153π, so r₁² + r₂² = 153. Substituting r₂ = 15 − r₁ gives 2r₁² − 30r₁ + 72 = 0, i.e. r₁² − 15r₁ + 36 = 0, whose roots are 12 and 3. The ratio of the larger to the smaller radius is 12 : 3 = 4 : 1.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "A race track is in the form of a ring whose inner and outer circumference are 437 m and 503 m respectively. The area of the track is",
+   "options": [
+    {
+     "label": "A",
+     "text": "66 sq. cm."
+    },
+    {
+     "label": "B",
+     "text": "4935 sq. cm."
+    },
+    {
+     "label": "C",
+     "text": "9870 sq. cm"
+    },
+    {
+     "label": "D",
+     "text": "None of these"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "From 2πr₁ = 503 and 2πr₂ = 437 we have r₁ = 503/2π and r₂ = 437/2π. Area of the ring = π(r₁² − r₂²) = π(r₁ + r₂)(r₁ − r₂) = (940/2) × (66/2) × (7/22) = 235 × 21 = 4935.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The circumferences are given in metres but the book prints the options in sq. cm; the options are reproduced exactly as printed."
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "In the given figure, OACB is a quadrant of a circle of radius 7 cm. The perimeter of the quadrant is",
+   "options": [
+    {
+     "label": "A",
+     "text": "11 cm"
+    },
+    {
+     "label": "B",
+     "text": "18 cm"
+    },
+    {
+     "label": "C",
+     "text": "25 cm"
+    },
+    {
+     "label": "D",
+     "text": "36 cm"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The boundary of a quadrant is a quarter of the circumference together with the two bounding radii: ¼ × 2πr + 2r = ½ × (22/7) × 7 + 2 × 7 = 11 + 14 = 25 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2017",
+   "images": [
+    "ch11_q10.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the circumference of a circle increases from 4π to 8π, then its area is",
+   "options": [
+    {
+     "label": "A",
+     "text": "halved"
+    },
+    {
+     "label": "B",
+     "text": "doubled"
+    },
+    {
+     "label": "C",
+     "text": "tripled"
+    },
+    {
+     "label": "D",
+     "text": "quadrupled"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "2πr = 4π gives r = 2 and area = π(2)² = 4π. 2πr = 8π gives r = 4 and area = 16π. Doubling the circumference doubles the radius and so multiplies the area by four: the area is quadrupled.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the radius of a circle is diminished by 10%, then its area is diminished by",
+   "options": [
+    {
+     "label": "A",
+     "text": "10%"
+    },
+    {
+     "label": "B",
+     "text": "19%"
+    },
+    {
+     "label": "C",
+     "text": "36%"
+    },
+    {
+     "label": "D",
+     "text": "20%"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The new radius is r − r/10 = 9r/10, so the new area is π(9r/10)² = (81/100)πr². The area falls to 81% of its original value, a diminution of (1 − 81/100) = 19%.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the perimeter of a semi-circular protractor is 36 cm, then its diameter is",
+   "options": [
+    {
+     "label": "A",
+     "text": "10 cm"
+    },
+    {
+     "label": "B",
+     "text": "14 cm"
+    },
+    {
+     "label": "C",
+     "text": "12 cm"
+    },
+    {
+     "label": "D",
+     "text": "16 cm"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The perimeter of a semicircle is the arc plus the diameter: 2πr/2 + 2r = πr + 2r = (π + 2)r = 36. With π = 22/7 this is (36/7)r = 36, so r = 7 cm and the diameter is 2r = 14 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed step reads (36/7) − r = 36; it is a misprint for (36/7) r = 36, as the very next line r = 7 cm confirms. The key (b) agrees with the corrected working."
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "In a circle of radius 14 cm, an arc subtends an angle of 45° at the centre, then the area of the sector is",
+   "options": [
+    {
+     "label": "A",
+     "text": "71 cm²"
+    },
+    {
+     "label": "B",
+     "text": "76 cm²"
+    },
+    {
+     "label": "C",
+     "text": "77 cm²"
+    },
+    {
+     "label": "D",
+     "text": "154 cm²"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Area of a sector = (θ/360°) × πr² = (45°/360°) × (22/7) × 14 × 14 = ⅛ × 22 × 2 × 14 = 77 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A circle diagram is printed inside the worked solution, not with the question stem; the question is fully answerable from its text, so no figure is attached."
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the sum of the areas of two circles with radii R₁ and R₂ is equal to the area of a circle of radius R, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "R₁ + R₂ = R"
+    },
+    {
+     "label": "B",
+     "text": "R₁² + R₂² = R²"
+    },
+    {
+     "label": "C",
+     "text": "R₁ + R₂ < R"
+    },
+    {
+     "label": "D",
+     "text": "R₁² + R₂² < R²"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The condition is πR² = πR₁² + πR₂². Dividing throughout by π gives R² = R₁² + R₂².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2009",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If the sum of the circumferences of two circles with radii R₁ and R₂ is equal to the circumference of a circle of radius R, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "R₁ + R₂ = R"
+    },
+    {
+     "label": "B",
+     "text": "R₁ + R₂ > R"
+    },
+    {
+     "label": "C",
+     "text": "R₁ + R₂ > R"
+    },
+    {
+     "label": "D",
+     "text": "R₁ + R₂ < R"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The condition is 2πR = 2πR₁ + 2πR₂. Dividing by 2π gives R = R₁ + R₂.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Options (b) and (c) are printed with identical text, R₁ + R₂ > R; both are reproduced exactly as printed. The key (a) agrees with the solution."
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If the circumference of a circle and the perimeter of a square are equal, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "Area of the circle = Area of the square"
+    },
+    {
+     "label": "B",
+     "text": "Area of the circle > Area of the square"
+    },
+    {
+     "label": "C",
+     "text": "Area of the circle < Area of the square"
+    },
+    {
+     "label": "D",
+     "text": "Nothing definite can be said about the relation between the areas of the circle and square"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let r be the radius and a the side. From 2πr = 4a with π = 22/7 we get 11r = 7a, so r = 7a/11. Then the circle's area is π(7a/11)² = 14a²/11 while the square's area is a². Since 14/11 > 1, the area of the circle is greater than the area of the square.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2008",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If the perimeter of a circle is equal to that of a square, then the ratio of their areas is",
+   "options": [
+    {
+     "label": "A",
+     "text": "22 : 7"
+    },
+    {
+     "label": "B",
+     "text": "14 : 11"
+    },
+    {
+     "label": "C",
+     "text": "7 : 22"
+    },
+    {
+     "label": "D",
+     "text": "11 : 14"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "From 2πr = 4a we get a = πr/2. The ratio of areas is πr²/a² = πr² ÷ (π²r²/4) = 4/π = 4 ÷ (22/7) = 28/22 = 14 : 11.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2010",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "It is proposed to build a single circular park equal in area to the sum of areas of two circular parks of diameters 16 m and 12 m in a locality. The radius of the new park would be",
+   "options": [
+    {
+     "label": "A",
+     "text": "10 m"
+    },
+    {
+     "label": "B",
+     "text": "15 m"
+    },
+    {
+     "label": "C",
+     "text": "20 m"
+    },
+    {
+     "label": "D",
+     "text": "24 m"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "πR² = πr₁² + πr₂² gives R² = (16/2)² + (12/2)² = 8² + 6² = 100, so R = √100 = 10 m.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The area of the square that can be inscribed in a circle of radius 8 cm is",
+   "options": [
+    {
+     "label": "A",
+     "text": "256 cm²"
+    },
+    {
+     "label": "B",
+     "text": "128 cm²"
+    },
+    {
+     "label": "C",
+     "text": "64√2 cm²"
+    },
+    {
+     "label": "D",
+     "text": "64 cm²"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The diagonal of an inscribed square is the diameter of the circle, 2 × 8 = 16 cm. With side x, x² + x² = 16² gives 2x² = 256, so the area x² = 128 cm². Equivalently, area = (diagonal)²/2 = 256/2 = 128 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The radius of a circle whose circumference is equal to the sum of the circumferences of the two circles of diameters 36 cm and 20 cm is",
+   "options": [
+    {
+     "label": "A",
+     "text": "56 cm"
+    },
+    {
+     "label": "B",
+     "text": "42 cm"
+    },
+    {
+     "label": "C",
+     "text": "28 cm"
+    },
+    {
+     "label": "D",
+     "text": "16 cm"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "2πr = 2πr₁ + 2πr₂ = πd₁ + πd₂, so 2r = d₁ + d₂ = 36 + 20 = 56 and r = 28 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2013, OD 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The diameter of a circle whose area is equal to the sum of the areas of the two circles of radii 24 cm and 7 cm is",
+   "options": [
+    {
+     "label": "A",
+     "text": "31 cm"
+    },
+    {
+     "label": "B",
+     "text": "25 cm"
+    },
+    {
+     "label": "C",
+     "text": "62 cm"
+    },
+    {
+     "label": "D",
+     "text": "50 cm"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "πR² = πr₁² + πr₂² gives R² = 24² + 7² = 576 + 49 = 625, so R = 25 cm and the diameter is 2R = 50 cm.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 2012, Foreign 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "23",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 5,
+   "stem": "Assertion : If a wire of length 22 cm is bent in the shape of a circle, then area of the circle so formed is 40 cm². Reason : Circumference of the circle = length of the wire.",
+   "assertion": "If a wire of length 22 cm is bent in the shape of a circle, then area of the circle so formed is 40 cm².",
+   "reason": "Circumference of the circle = length of the wire.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Bending the wire makes its length the circumference, so 2πr = 22 and r = 3.5 cm. The area is then (22/7) × 3.5 × 3.5 = 38.5 cm², not 40 cm². The assertion is therefore false while the reason is true.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "24",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 5,
+   "stem": "Assertion : If the circumference of a circle is 176 cm, then its radius is 28 cm. Reason : Circumference = 2π × radius",
+   "assertion": "If the circumference of a circle is 176 cm, then its radius is 28 cm.",
+   "reason": "Circumference = 2π × radius",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "C = 2 × (22/7) × r = 176 gives r = (176 × 7)/(2 × 22) = 28 cm, so the assertion is true. The reason states exactly the relation used to obtain it, so both are true and the reason correctly explains the assertion.",
+   "concept": "Length of an arc",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "25",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "stem": "Assertion : If the outer and inner diameter of a circular path is 10 m and 6 m then area of the path is 16π m². Reason : If R and r be the radius of outer and inner circular path, then area of path is π(R² − r²).",
+   "assertion": "If the outer and inner diameter of a circular path is 10 m and 6 m then area of the path is 16π m².",
+   "reason": "If R and r be the radius of outer and inner circular path, then area of path is π(R² − r²).",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The outer radius is 10/2 = 5 m and the inner radius 6/2 = 3 m, so the area of the path is π(5² − 3²) = π(25 − 9) = 16π m². Both statements are true and the reason is precisely the formula the assertion rests on, so it is the correct explanation.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "26",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "stem": "Assertion : In a circle of radius 6 cm, the angle of a sector 60°. Then the area of the sector is 18 6/7 cm². Reason : Area of the circle with radius r is πr².",
+   "assertion": "In a circle of radius 6 cm, the angle of a sector 60°. Then the area of the sector is 18 6/7 cm².",
+   "reason": "Area of the circle with radius r is πr².",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Area of the sector = (θ/360) × πr² = (60/360) × (22/7) × 6 × 6 = 132/7 = 18 6/7 cm², so the assertion is true. The reason is also true, but it gives only the area of the whole circle and omits the θ/360 fraction that the assertion depends on, so it is not the correct explanation.",
+   "concept": "Angle of the sector",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "27",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "stem": "The minute hand of a clock is 12 cm long. Find the area of the face of the clock described by the minute hand in 35 minutes.",
+   "answer": "The minute hand sweeps the whole 360° in 60 minutes, so in 1 minute it turns 6°. In 35 minutes the angle described is θ = 6° × 35 = 210°. The region swept is a sector of radius r = 12 cm, so its area is πr²θ/360° = (22/7) × 12 × 12 × 210°/360° = 22 × 12 = 264 cm². Hence the area described by the minute hand is 264 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A PRACTICE box with two unnumbered questions follows this item; not emitted."
+  },
+  {
+   "number": "28",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "stem": "The radius of a circle is 17.5 cm. find the area of the sector of the circle enclosed by two radii and an arc 44 cm in length.",
+   "answer": "Given arc length = 44 cm and radius r = 17.5 cm. The sector is the same fraction of the circle as its arc is of the whole circumference, so area of sector = (arc length / 2πr) × πr² = (arc length × r)/2 = (44 × 17.5)/2 = 22 × 17.5 = 385 cm². Hence the area of the sector is 385 sq. cm.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed exactly as shown, with the lower-case 'find' after the full stop."
+  },
+  {
+   "number": "29",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "Find the area of the sector of a circle of radius 6 cm whose central angle is 30°. (Take π = 3.14)",
+   "answer": "Radius r = 6 cm and central angle θ = 30°. Area of the sector = πr²θ/360° = (3.14 × 6 × 6 × 30°)/360° = 9.42 cm². Hence the area of the sector is 9.42 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "30",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "What is the perimeter of the sector with radius 10.5 cm and sector angle 60°.",
+   "answer": "The perimeter of a sector is the two bounding radii plus the arc between them: p = 2r + 2πrθ/360°. With r = 10.5 cm and θ = 60°, p = 2 × 10.5 + 2 × (22/7) × 10.5 × 60/360 = 21 + 11 = 32 cm. Hence the perimeter of the sector is 32 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book draws a sector diagram inside the solution ('As per question the digram is shown below'); that is a solution figure, so no image is attached. A PRACTICE box follows this item."
+  },
+  {
+   "number": "31",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "What is the name of a line which intersects a circle at two distinct points?",
+   "answer": "A line that meets a circle at two distinct points cuts across it, and the part of the line inside the circle is a chord. Such a line is called a secant.",
+   "concept": "What a segment is",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Pure terminology item; the concept list has no 'secant/chord terminology' entry, so the nearest listed concept (the chord-and-region vocabulary) was used."
+  },
+  {
+   "number": "32",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "In the given figure, AB is the diameter where AP = 12 cm and PB = 16 cm. Taking the value of π as 3, find the perimeter of the shaded region.",
+   "answer": "Angle APB stands on the diameter, so it is a right angle and by Pythagoras AB = √(12² + 16²) = √(256 + 144) = √400 = 20 cm. The radius of the circle is therefore 10 cm. The shaded region is bounded by the semicircular arc together with AP and PB, so its perimeter = πr + AP + PB = 3 × 10 + 12 + 16 = 58 cm. Hence the perimeter of the shaded region is 58 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [
+    "ch11_q32.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem says 'the given figure', so the printed diagram is required; it is a question figure, not a solution figure."
+  },
+  {
+   "number": "33",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "In given fig., O is the centre of a circle. If the area of the sector OAPB is 5/36 times the area of the circle, then find the value of x.",
+   "answer": "A sector of central angle x° has area πr² × x/360. Setting this equal to 5/36 of the area of the circle gives πr² × x/360 = (5/36)πr², so x/360 = 5/36 and x = 360 × 5/36 = 50. Hence x = 50°.",
+   "concept": "Angle of the sector",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [
+    "ch11_q33.png"
+   ],
+   "figure_required": true,
+   "ocr": "The figure is needed to see that x° is the central angle AOB of the shaded sector OAPB."
+  },
+  {
+   "number": "34",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "If the radius of the circle is 6 cm and the length of an arc 12 cm. Find the area of the sector.",
+   "answer": "Area of a sector = ½ × (length of the corresponding arc) × radius = ½ × l × r = ½ × 12 × 6 = 36 cm². Hence the area of the sector is 36 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "35",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "A chord of a circle of radius 10 cm subtends a right angle at the centre. Find area of minor segment. (π = 3.14)",
+   "answer": "Radius r = 10 cm and central angle θ = 90°. The minor segment is the sector minus the triangle, which gives area = ½r²[πθ/180° − sin θ] = ½ × 10² × [(3.14 × 90)/180 − sin 90°] = ½ × 100 × [1.57 − 1] = 50 × 0.57 = 28.5 cm². Hence the area of the minor segment is 28.5 cm².",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem printed at the foot of page 7; its worked solution runs over onto page 8, above the TWO MARKS QUESTIONS heading."
+  },
+  {
+   "number": "36",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "The perimeter of a sector of a circle with radius 6.5 cm is 31 cm, then find the area of the sector.",
+   "answer": "Let O be the centre and OACBO the sector of radius 6.5 cm. Its perimeter is OA + OB + arc ACB = 31 cm, so 6.5 + 6.5 + arc ACB = 31, giving arc ACB = 18 cm. Area of the sector = ½ × radius × arc length = ½ × 6.5 × 18 = 58.5 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A sector diagram is printed inside the worked solution only, so no figure is attached to the question. The PRACTICE box that follows (radius 5.2 cm, perimeter 16.4 cm, Ans 15.6 cm²) is not a numbered book question and was not emitted."
+  },
+  {
+   "number": "37",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "A piece of wire 22 cm long is bent into the form an arc of a circle subtending an angle of 60° at its centre. Find the radius of the circle. [Use π = 22/7]",
+   "answer": "The wire becomes an arc of length 22 cm subtending 60° at the centre. Length of arc = 2πrθ/360°, so 22 = (2 × 22 × r × 60°)/(7 × 360°) = 22r/21. Hence r = 21. The radius of the circle is 21 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The circle diagram beside the solution is drawn by the solution ('From the given information we have drawn the figure as below'), so it is a solution figure and is not attached."
+  },
+  {
+   "number": "38",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "In fig. arcs are drawn by taking vertices A, B and C of an equilateral triangle of side 10 cm, to intersect the side BC, CA and AB at their respective mid-points D, E and F. Find the area of the shaded region. (Use π = 3.14).",
+   "answer": "Each arc is drawn from a vertex of the equilateral triangle and passes through the mid-points of the two sides meeting there, so each sector has radius 10/2 = 5 cm. Every angle of an equilateral triangle is 60°, so each of the three shaded pieces is a sector of angle 60° and radius 5 cm. Area of one sector = (60°/360°) × π × 5² = 25π/6 cm². The three sectors are equal, so the shaded area = 3 × 25π/6 = 25π/2 = (25 × 3.14)/2 = 39.25 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2011",
+   "images": [
+    "ch11_q38.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question says 'In fig.' and the shaded region cannot be identified without the printed diagram, so the question figure (triangle ABC with the three arcs and mid-points D, E, F) is attached. The single-sector figure inside the solution is not attached."
+  },
+  {
+   "number": "39",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "Two circular pieces of equal radii and maximum areas, touching each other are cut out from a rectangular cardboard of dimensions 14 cm × 7 cm. find the area of the remaining cardboard. (Use π = 22/7)",
+   "answer": "Two equal circles of maximum size that touch each other fit across the 14 cm length, so each has diameter 7 cm, i.e. radius 7/2 cm. Area of the remaining cardboard = area of the rectangle − 2 × area of a circle = 14 × 7 − 2 × (22/7) × (7/2)² = 98 − (44/7) × (49/4) = 98 − 77 = 21. Hence the area of the remaining cardboard is 21 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The rectangle-with-two-circles diagram is drawn by the solution ('As per question the digram is shown below'), so it is not attached; the wording alone fixes the configuration."
+  },
+  {
+   "number": "40",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "A paper is in the form of a rectangle ABCD in which AB = 20 cm, BC = 14 cm. A semi-circular portion with BC as diameter is cut off. Find the area of the part. Use π = 22/7.",
+   "answer": "The semicircle has BC = 14 cm as diameter, so its radius is 7 cm. Area of the remaining part = area of the rectangle − area of the semicircle = 20 × 14 − ½ × (22/7) × 7² = 280 − 77 = 203. Hence the area of the remaining part is 203 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012, Foreign 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book's closing line prints the unit as '203 cm'; the quantity is an area, so it is 203 cm² — a unit typo in the printed text, not a key that conflicts with its solution. The rectangle diagram belongs to the solution and is not attached."
+  },
+  {
+   "number": "41",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "If the difference between the circumference and the radius of a circle is 37 cm, then using π = 22/7, find the circumference (in cm) of the circle.",
+   "answer": "Let r be the radius. Then 2πr − r = 37, so 2 × (22/7) × r − r = 37, i.e. r(44 − 7)/7 = 37, giving 37r/7 = 37 and r = 7 cm. Circumference = 2πr = 2 × (22/7) × 7 = 44 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "42",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "Find the area of the corresponding major sector of a circle of radius 28 cm and the central angle 45°.",
+   "answer": "The minor sector has central angle 45°, so the major sector is the remainder of the circle. Area of the major sector = area of the circle − area of the minor sector = πr²(1 − θ/360°) = (22/7) × 28 × 28 × (1 − 45°/360°) = (22/7) × 28 × 28 × 7/8 = 2156. Hence the major sector has area 2156 cm².",
+   "concept": "Minor and major",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The circle figure is drawn by the solution ('As per question statement figure is shown below'), so it is not attached."
+  },
+  {
+   "number": "43",
+   "form": "very_short",
+   "marks": 2,
+   "page": 10,
+   "stem": "Find the perimeter of the shaded region if ABCD is a square of side 21 cm and APB and CPD are semicircle. Use π = 22/7.",
+   "answer": "The boundary of the shaded region consists of the two sides AD and BC of the square together with the arcs of the two semicircles APB and CPD. Each semicircle has a side of the square, 21 cm, as its diameter, so its radius is 21/2 cm and its arc length is πr = (22/7) × (21/2) = 33 cm. Perimeter = AD + BC + 2 × 33 = 21 + 21 + 66 = 42 + 66 = 108 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 SQP 2016",
+   "images": [
+    "ch11_q43.png"
+   ],
+   "figure_required": true,
+   "ocr": "The diagram is printed with the question itself (not inside the solution) and the shaded region cannot be identified without it, so it is attached."
+  },
+  {
+   "number": "44",
+   "form": "very_short",
+   "marks": 2,
+   "page": 10,
+   "stem": "The diameters of the front and rear wheels of a tractor are 80 cm and 200 cm respectively. Find the number of revolutions of rear wheel to cover the distance which the front wheel covers in 800 revolutions.",
+   "answer": "Circumference of the front wheel = πd = (22/7) × 80 = 1760/7 cm, so in 800 revolutions it covers (1760/7) × 800 cm. Circumference of the rear wheel = (22/7) × 200 = 4400/7 cm. Number of revolutions of the rear wheel = [(1760/7) × 800] ÷ (4400/7) = (1760 × 800)/4400 = 320. Hence the rear wheel makes 320 revolutions.",
+   "concept": "Length of an arc",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "45",
+   "form": "short",
+   "marks": 3,
+   "page": 10,
+   "stem": "In a circle of radius 21 cm, an arc subtends an angle of 60° at the centre. Find the area of the sector formed by the arc. Also, find the length of the arc.",
+   "answer": "Here r = 21 cm and θ = 60°.\nArea of the sector APB = (θ/360°)πr² = (60°/360°) × (22/7) × 21 × 21 = (1/6) × 22 × 3 × 21 = 11 × 21 = 231 cm².\nLength of the arc APB = (θ/360°) × 2πr = (60°/360°) × 2 × (22/7) × 21 = (1/6) × 2 × 22 × 3 = 22 cm.\nHence the sector has area 231 cm² and the arc is 22 cm long.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Clean print. π taken as 22/7 in the printed solution though the stem does not state it."
+  },
+  {
+   "number": "46",
+   "form": "short",
+   "marks": 3,
+   "page": 10,
+   "stem": "A road which is 7 m wide surrounds a circular park whose circumference is 88 m. Find the area of the road.",
+   "answer": "Let w = 7 m be the width of the road.\nCircumference of the circular park: 2πr = 88 m, so r = 88/(2π) = (88 × 7)/(2 × 22) = 14 m.\nOuter radius including the road, R = r + w = 14 + 7 = 21 m.\nArea of the road = π(R² − r²) = π(R + r)(R − r) = (22/7)(21 + 14)(21 − 14) = (22/7) × 35 × 7 = 770 m².\nHence the area of the road is 770 m².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Clean print. The concept list has no circular-ring entry; the sector-area entry is the nearest available."
+  },
+  {
+   "number": "47",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "stem": "Three horses are tied each with 7 m long rope at three corners of a triangular field having sides 20 m, 34 m and 42 m. Find the area of the plot which can be grazed by the horses.",
+   "answer": "Let the angles of the triangular field be θ₁, θ₂ and θ₃. Each horse grazes a sector of radius r = 7 m at its own corner, so the grazed area is\n(πr²θ₁)/360° + (πr²θ₂)/360° + (πr²θ₃)/360° = (πr²/360°)(θ₁ + θ₂ + θ₃).\nBy the angle sum property θ₁ + θ₂ + θ₃ = 180°, so the total is (πr²/360°) × 180° = πr²/2 = (22/7) × (1/2) × 7 × 7 = 77 m².\nHence the horses can graze 77 m². The side lengths 20 m, 34 m and 42 m are not needed — only that the three angles add to 180°.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A figure is printed with the solution only; the stem is self-contained, so no figure is attached."
+  },
+  {
+   "number": "48",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "stem": "In Figure, PQ and AB are two arcs of concentric circles of radii 7 cm and 3.5 cm respectively, with centre O. If ∠POQ = 30°, then find the area of shaded region.",
+   "answer": "The shaded region ABQP is what is left of the 30° sector of the larger circle after removing the 30° sector of the smaller circle.\nArea = (θ/360°)π(R² − r²) = (30°/360°) × (22/7) × [7² − (3.5)²]\n= (22/7)(7 + 3.5)(7 − 3.5) × (1/12) = (22/7) × 10.5 × 3.5 × (1/12) = 9.625 cm².\nHence the shaded area is 9.625 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Basic",
+   "images": [
+    "ch11_q48.png"
+   ],
+   "figure_required": true,
+   "ocr": "Question figure cropped from the stem, not the redrawn solution figure."
+  },
+  {
+   "number": "49",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "stem": "A horse is tethered to one corner of a rectangular field of dimensions 70 m × 52 m, by a rope of length 21 m. How much area of the field can it graze?",
+   "answer": "At a corner of the rectangle the horse sweeps a quarter circle, because the corner angle is 90°, of radius r = 21 m; it fits inside the field since 21 < 52 and 21 < 70.\nArea of the quadrant = (1/4)πr² = (1/4) × (22/7) × 21 × 21 = 346.5 m².\nHence the horse can graze 346.5 m².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution says \"Length of the rope is 21 cm\" — a unit slip; it then correctly uses r = 21 m and answers in m². Stem is self-contained, so the solution figure is not attached."
+  },
+  {
+   "number": "50",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "The circumference of a circle exceeds the diameter by 16.8 cm. Find the radius of the circle. Use π = 22/7.",
+   "answer": "Let the radius be r. Then circumference = diameter + 16.8, so\n2πr = 2r + 16.8\n2 × (22/7) × r = 2r + 16.8\n(44/7)r = 2r + 16.8\n44r = 14r + 16.8 × 7 = 14r + 117.6\n30r = 117.6\nr = 117.6/30 = 3.92.\nHence the radius is 3.92 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution has a digit slip: it writes \"30r = 177.6\" but the very next line divides 117.6 by 30 to reach 3.92. Since 16.8 × 7 = 117.6, the 117.6 is right and the answer 3.92 cm stands; the solution above carries the corrected line. The concept list has no circumference entry; \"Length of an arc\" is the nearest."
+  },
+  {
+   "number": "51",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "Sides of a right triangular field are 25 m, 24 m and 7 m. At the three corners of the field, a cow, a buffalo and a horse are tied separately with ropes of 3.5 m each to graze in the field. Find the area of the field that cannot be grazed by these animals.",
+   "answer": "Each animal grazes a sector of radius r = 3.5 m at its corner, and the three corner angles add to 180°, so the grazed area is\n(πr²/360°)(θ₁ + θ₂ + θ₃) = (πr²/360°) × 180° = πr²/2 = (22/7) × (1/2) × (3.5)² = 19.25 m².\nThe triangle is right angled, since 7² + 24² = 49 + 576 = 625 = 25², with legs 24 m and 7 m, so\nArea of ΔABC = (1/2) × 24 × 7 = 84 m².\nArea that cannot be grazed = 84 − 19.25 = 64.75 m².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 SQP Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution drops a decimal point in its last line: \"84 − 1925 = 64.75\". The intended 84 − 19.25 = 64.75 m² matches both the stated result and the 19.25 m² computed just above, so 64.75 m² stands. Stem self-contained; solution figure not attached."
+  },
+  {
+   "number": "52",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "In the given figure, AOB is a sector of angle 60° of a circle with centre O and radius 17 cm. If AP ⊥ OB and AP = 15 cm, find the area of the shaded region.",
+   "answer": "Here OA = 17 cm and AP = 15 cm, and ΔOPA is right angled at P.\nBy Pythagoras' theorem, OP = √(17² − 15²) = √(289 − 225) = √64 = 8 cm.\nArea of the shaded region = area of sector OAB − area of ΔOPA\n= (60°/360°) × (22/7) × 17 × 17 − (1/2) × 8 × 15\n= 151.38 − 60 = 91.38 cm².\nHence the shaded area is about 91.38 cm².",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2016",
+   "images": [
+    "ch11_q52.png"
+   ],
+   "figure_required": true,
+   "ocr": "Clean print."
+  },
+  {
+   "number": "53",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "In the given figure, a chord AB of the circle with centre O and radius 10 cm, that subtends a right angle at the centre of the circle. Find the area of the minor segment AQBP. Hence find the area of major segment ALBQA. (Use π = 3.14)",
+   "answer": "The chord AB subtends 90° at the centre and r = 10 cm.\nArea of sector OAPB = (90/360)π(10)² = 25π = 25 × 3.14 = 78.5 cm².\nArea of ΔAOB = (1/2) × 10 × 10 = 50 cm², the two radii being perpendicular.\nArea of the minor segment AQBP = 78.5 − 50 = 28.5 cm².\nArea of the whole circle = π(10)² = 3.14 × 100 = 314 cm².\nArea of the major segment ALBQA = 314 − 28.5 = 285.5 cm².",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [
+    "ch11_q53.png"
+   ],
+   "figure_required": true,
+   "ocr": "Stem begins at the foot of page 12 and its figure is printed at the top of page 13; the figure was cropped from page 13."
+  },
+  {
+   "number": "54",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "stem": "Find the area of shaded region shown in the given figure where a circular arc of radius 6 cm has been drawn with vertex O of an equilateral triangle OAB of side 12 cm as centre.",
+   "answer": "Since OAB is equilateral, ∠AOB = 60°, so the arc cuts off a 60° minor sector at O and leaves a 300° major sector.\nArea of the shaded region = area of the major sector + (area of ΔAOB − area of the minor sector)\n= (300°/360°) × (22/7) × 6² + [(√3/4)(12)² − (60/360) × (22/7) × 6²]\n= 660/7 + 36√3 − 132/7\n= 36√3 + 528/7 cm², which is about 137.8 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign SQP 2016",
+   "images": [
+    "ch11_q54.png"
+   ],
+   "figure_required": true,
+   "ocr": "Solution runs on to page 14, where the final form 36√3 + 528/7 cm² is printed."
+  },
+  {
+   "number": "55",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "stem": "Find the area of minor segment of a circle of radius 14 cm, when its centre angle is 60°. Also find the area of corresponding major segment. Use π = 22/7.",
+   "answer": "Here r = 14 cm and θ = 60°.\nArea of the minor segment = πr²(θ/360°) − (1/2)r² sin θ\n= (22/7) × 14 × 14 × (60°/360°) − (1/2) × 14 × 14 × (√3/2)\n= 308/3 − 49√3 ≈ 102.67 − 84.87 = 17.9 cm² approximately.\nArea of the major segment = πr² − (308/3 − 49√3) = (22/7) × 14 × 14 − 308/3 + 49√3\n= 1540/3 + 49√3 ≈ 513.33 + 84.87 = 598.10\n≈ 598 cm² approximately.",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Clean print; the solution takes the chord-triangle area as (1/2)r² sin 60°."
+  },
+  {
+   "number": "56",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "stem": "In the given figure, find the area of the shaded region, enclosed between two concentric circles of radii 7 cm and 14 cm where ∠AOC = 40°. Use π = 22/7.",
+   "answer": "The concentric radii are r = 7 cm and R = 14 cm, and the unshaded wedge has central angle 40°, so the shaded ring-sector spans 360° − 40° = 320°.\nArea of the shaded region = (θ/360°)π(R² − r²) = (320°/360°) × (22/7) × (14² − 7²)\n= (8/9) × 22 × (14 × 2 − 7) = (8/9) × 22 × 21 = (8/3) × 22 × 7 = (8 × 154)/3\n= 1232/3 = 410.67 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "images": [
+    "ch11_q56.png"
+   ],
+   "figure_required": true,
+   "ocr": "The printed solution mislabels its second line, writing \"Angle ∠AOC = 360° − 40° = 320°\" straight after writing ∠AOC = 40°; 320° is the reflex angle. The arithmetic that follows uses 320° correctly and the result 410.67 cm² stands. Solution runs on to page 14."
+  },
+  {
+   "number": "57",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "In a circle of radius 21 cm, an arc subtends an angle of 60° at the centre. Find the area of sector formed by the arc.",
+   "answer": "Here r = 21 cm and θ = 60°.\nArea of the sector = (θ/360) × πr² = (60°/360°) × (22/7) × 21 × 21 = (1/6) × 22 × 3 × 21 = 11 × 21 = 231 cm².\nHence the area of the sector is 231 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi Compt. 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Genuine book reprint: this is the first half of question 45 of the same section, printed again under a different board tag. Kept because the book numbers it as a separate question."
+  },
+  {
+   "number": "58",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "In the given figure, ΔPQR is an equilateral triangle of side 8 cm and D, E, F are centres of circular arcs, each of radius 4 cm. Find the area of shaded region. (Use π = 3.14) and √3 = 1.732",
+   "answer": "Since ΔPQR is equilateral, ∠P = ∠Q = ∠R = 60°, and D, E, F are the midpoints of the sides, each arc having radius 4 cm.\nArea of one sector, say sector PDF = (θ/360°) × πr² = (60°/360°) × 3.14 × 4 × 4 = (1/6) × 3.14 × 16 = 8.373 cm².\nArea of the shaded region = area of ΔPQR − 3 × (area of one sector)\n= (√3/4)(8)² − 3 × 8.373 = 16√3 − 25.12 = 16 × 1.732 − 25.12 = 27.712 − 25.12 = 2.59 cm².\nHence the shaded area is about 2.59 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2012",
+   "images": [
+    "ch11_q58.png"
+   ],
+   "figure_required": true,
+   "ocr": "Two figures are printed: the undimensioned one in the stem and a dimensioned redraw inside the solution. Only the stem figure is attached."
+  },
+  {
+   "number": "59",
+   "form": "long",
+   "marks": 5,
+   "page": 14,
+   "stem": "In the given figure, diameters AC and BD of the circle intersect at O. If ∠AOB = 60° and OA = 10 cm, then:\n(i) find the length of the chord AB.\n(ii) find the area of shaded region. (Take π = 3.14 and √3 = 1.73)",
+   "options": [],
+   "correct_option": null,
+   "answer": "O is the centre, so OA and OB are radii and OA = OB. Hence ΔOAB is isosceles and ∠OAB = ∠OBA = (180° − 60°)/2 = 60°. All three angles are 60°, so ΔOAB is equilateral.\n(i) AB = OA = OB = 10 cm.\n(ii) The shaded region is the semicircle on diameter AC less the equilateral triangle OAB.\nArea of ΔOAB = (√3/4)(10)² = 25√3 cm².\nArea of the semicircle = π(10)²/2 = 50π cm².\nShaded area = 50π − 25√3 = 50(3.14) − 25(1.73) = 157 − 43.25 = 113.75 cm².\nSo AB = 10 cm and the shaded area is 113.75 cm².",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2024 OD Standard",
+   "images": [
+    "ch11_q59.png"
+   ],
+   "figure_required": true,
+   "ocr": "First question of the FIVE MARKS QUESTIONS section, which opens in the right column of page 14."
+  },
+  {
+   "number": "60",
+   "form": "long",
+   "marks": 5,
+   "page": 15,
+   "stem": "Four equal circles are described at the four corners of a square so that each touches two of the others. The shaded area enclosed between the circle is 24/7 cm². Find the radius of each circle.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let r be the radius of each circle. Since neighbouring circles touch, the side of the square joining two centres is 2r. At each corner the circle cuts off a quarter circle inside the square, so the region enclosed between the four circles is\narea of square − 4 × (area of a 90° sector)\n= (2r)² − 4(πr² × 90°/360°) = 4r² − πr².\nWith π = 22/7 this is 4r² − (22/7)r² = (28r² − 22r²)/7 = 6r²/7.\nSetting 6r²/7 = 24/7 gives 6r² = 24, so r² = 4 and r = 2 (the negative root is rejected).\nThe radius of each circle is 2 cm.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 SQP 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The figure of the four circles is printed inside the solution (\"As per question statement the figure is shown below\"), not with the question, so it is not attached."
+  },
+  {
+   "number": "61",
+   "form": "long",
+   "marks": 5,
+   "page": 15,
+   "stem": "Find the area of the shaded region in Figure, if ABCD is a rectangle with sides 8 cm and 6 cm and O is the centre of circle. (Take π = 3.14)",
+   "options": [],
+   "correct_option": null,
+   "answer": "In ΔABC, ∠B = 90°, so by Pythagoras theorem\nAC² = AB² + BC² = 8² + 6² = 64 + 36 = 100, giving AC = 10 cm.\nAC passes through the centre O, so AC is the diameter and the radius is r = 5 cm.\nThe shaded region is the part of the circle outside the rectangle, so\nshaded area = area of circle − area of rectangle\n= πr² − (AB × BC) = 3.14 × 5² − (8 × 6) = 78.5 − 48 = 30.5 cm².\nThe area of the shaded region is 30.5 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 Delhi",
+   "images": [
+    "ch11_q61.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "62",
+   "form": "long",
+   "marks": 5,
+   "page": 15,
+   "stem": "In Figure, a square OABC is inscribed in a quadrant OPBQ. If OA = 15 cm, find the area of the shaded region. (Use π = 3.14).",
+   "options": [],
+   "correct_option": null,
+   "answer": "OABC is a square of side 15 cm, and OB is a radius of the quadrant.\nIn right triangle BAO, OB² = OA² + AB² = 15² + 15² = 225 + 225 = 450, so OB = √450 = 15√2 cm.\nArea of the square OABC = (OA)² = 15² = 225 cm².\nArea of the quadrant OPBQ = πr²/4 = ¼ × 3.14 × (15√2)² = ¼ × 3.14 × 450 = 353.25 cm².\nShaded area = area of quadrant OPBQ − area of square OABC = 353.25 − 225 = 128.25 cm².\nThe area of the shaded region is 128.25 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD",
+   "images": [
+    "ch11_q62.png"
+   ],
+   "figure_required": true,
+   "ocr": "Number and stem begin at the foot of page 15; the sentence and the figure finish at the top of page 16."
+  },
+  {
+   "number": "63",
+   "form": "long",
+   "marks": 5,
+   "page": 16,
+   "stem": "Fig. depicts a racing track whose left and right ends are semi-circular. The distance between the two inner parallel line segments is 60 m and they are each 106 m long. If the track is 10 m wide everywhere, find the area of the track.",
+   "options": [],
+   "correct_option": null,
+   "answer": "The distance between the inner parallel segments is 60 m, so the inner semicircles have radius 60/2 = 30 m. The track is 10 m wide on both sides, so the outer width is 60 + 2(10) = 80 m and the outer semicircles have radius 80/2 = 40 m.\nThe two straight strips of the track are each 106 m long and 10 m wide:\narea of the two strips = 2 × 106 × 10 = 2120 m².\nThe two curved ends together form a complete circular ring of radii 40 m and 30 m:\narea of the ring = π(40² − 30²) = (22/7)(1600 − 900) = (22/7)(700) = 2200 m².\nArea of the track = 2120 + 2200 = 4320 m².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2011",
+   "images": [
+    "ch11_q63.png"
+   ],
+   "figure_required": true,
+   "ocr": "The printed solution is arithmetically wrong and ends at 3260 m². It writes \"Area of inner rectangle = 106 × 60 = 3180\" and \"Area of outer rectangle = 106 × 80 = 4240\" — both products are halved (they are really 6360 and 8480), which understates the two straight strips by 1060 m². Its semicircle areas, 19800/7 and 35200/7, are correct. Working the same method with the correct rectangle areas gives 8480 + 35200/7 − 6360 − 19800/7 = 2120 + 2200 = 4320 m², the standard NCERT value, so the answer above is the corrected one."
+  },
+  {
+   "number": "64",
+   "form": "long",
+   "marks": 5,
+   "page": 16,
+   "stem": "Find the area of the shaded region in Figure, APD, AQB, BRC and CSD, are semi-circles of diameter 14 cm, 3.5 cm, 7 cm and 3.5 cm respectively. Use π = 22/7.",
+   "options": [],
+   "correct_option": null,
+   "answer": "The largest semicircle APD has diameter 14 cm, so its radius is 7 cm. The shaded semicircle BRC has diameter 7 cm, so its radius is 3.5 cm = 7/2 cm. The two unshaded semicircles AQB and CSD have diameter 3.5 cm each, so each has radius 3.5/2 = 7/4 cm.\nArea of the shaded portion\n= area of the largest semicircle + area of the smaller shaded semicircle − area of the two unshaded semicircles\n= ½ × (22/7) × 7² + ½ × (22/7) × (7/2)² − 2 × ½ × (22/7) × (7/4)²\n= ½ × (22/7) × 7²[1 + ¼ − ⅛]\n= 11 × 7 × (9/8) = 693/8 = 86.625 cm².\nThe area of the shaded region is 86.625 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [
+    "ch11_q64.png"
+   ],
+   "figure_required": true,
+   "ocr": "The book prints the four names with arc bars over them (⌢APD, ⌢AQB, ⌢BRC, ⌢CSD); written here as plain letters."
+  },
+  {
+   "number": "65",
+   "form": "long",
+   "marks": 5,
+   "page": 17,
+   "stem": "In figure, PQRS is square lawn with side PQ = 42 metre. Two circular flower beds are there on the sides PS and QR with centre at O, the intersection of its diagonals. Find the total area of the two flower beds (shaded parts).",
+   "options": [],
+   "correct_option": null,
+   "answer": "The circle has centre O, the intersection of the diagonals, and radius OR.\nLet OR = x. The diagonals of the square are perpendicular at O, so in right triangle ROQ,\nx² + x² = (42)², giving x = 21√2 m.\nEach flower bed is the segment cut off by a side of the square, and the side subtends 90° at O.\nArea of the sector of angle 90° = (90°/360°) × (22/7) × (21√2)² = ¼ × (22/7) × 882 = 11 × 3 × 21 = 693 m².\nΔROQ is right angled at O with both legs equal to 21√2 m, so its area = ½ × (21√2)² = ½ × 882 = 441 m².\nArea of one flower bed = 693 − 441 = 252 m².\nArea of both flower beds = 2 × 252 = 504 m².",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2015",
+   "images": [
+    "ch11_q65.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "66",
+   "form": "long",
+   "marks": 5,
+   "page": 17,
+   "stem": "In fig., two circular flower beds have been shown on two sides of a square lawn ABCD of side 56 m. If the centre of each circular flower bed is the point of intersection O of the diagonals of the square lawn, find the sum of the areas of the lawn and flower beds.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Side of the square = 56 m, so its diagonal = 56√2 m and the radius of each circle is r = ½ × 56√2 = 28√2 m.\nThe required region is made up of sector OAB, sector ODC and the two triangles OAD and OBC. Each sector has centre angle 90°, and each triangle is a quarter of the square.\nTotal area = 2 × (22/7)(28√2)²(90°/360°) + 2 × (¼ × 56 × 56)\n= 2 × ¼ × (22/7) × 1568 + 2 × 784\n= 2 × 1232 + 1568\n= 2464 + 1568 = 4032 m².\nThe sum of the areas of the lawn and the flower beds is 4032 m².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2011",
+   "images": [
+    "ch11_q66.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question says the square lawn has side 56 m, but the figure labels the side \"56 cm\". The solution works in metres, so the stem's unit is the right one."
+  },
+  {
+   "number": "67",
+   "form": "long",
+   "marks": 5,
+   "page": 18,
+   "stem": "In fig., find the area of the shaded region. Use π = 22/7.",
+   "options": [],
+   "correct_option": null,
+   "answer": "The shaded figure is a square of side 14 cm with a circle of diameter 7 cm removed from it, a semicircle of diameter 14 cm added below it and two quarter circles of radius 3.5 cm added at the sides.\nArea of the square = (14)² = 196 cm².\nArea of the internal circle = (22/7) × (7/2)² = 77/2 = 38.5 cm².\nArea of the semicircle of diameter 14 cm = ½ × (22/7) × 7² = 77 cm².\nArea of the two quarter circles of radius 7/2 cm = 2 × ¼ × (22/7) × (7/2)² = 77/4 = 19.25 cm².\nShaded area = 196 − 38.5 + 77 + 19.25 = 292.25 − 38.5 = 253.75 cm².\nThe area of the shaded region is 253.75 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2011",
+   "images": [
+    "ch11_q67.png"
+   ],
+   "figure_required": true,
+   "ocr": "All the dimensions live only in the diagram, so the figure is essential."
+  },
+  {
+   "number": "68",
+   "form": "long",
+   "marks": 5,
+   "page": 18,
+   "stem": "The given figure shows a sector OAP of a circle with centre O, containing ∠θ. AB is perpendicular to the radius OA and meets OP produced at B. Prove that the perimeter of shaded region is r[tan θ + sec θ + πθ/180 − 1].",
+   "options": [],
+   "correct_option": null,
+   "answer": "OAP is a sector of the circle of centre O and radius r, with ∠POA = θ and OA ⊥ AB.\nThe shaded region is bounded by BP, AB and the arc AP, so\nperimeter = BP + AB + arc AP.\nIn right triangle OAB, tan θ = AB/OA, so AB = r tan θ.\nAlso sec θ = OB/OA, so OB = r sec θ, and since OP = r,\nBP = OB − OP = r sec θ − r.\nLength of arc AP = (θ/360°) × 2πr = πrθ/180.\nAdding the three pieces,\nperimeter = r tan θ + (r sec θ − r) + πrθ/180 = r[tan θ + sec θ + πθ/180 − 1].\nHence proved.",
+   "concept": "Length of an arc",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2015, 2016",
+   "images": [
+    "ch11_q68.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem is printed as \"r = [tan θ + sec θ + πθ/180 − 1]\"; the equals sign is a misprint — the solution proves the perimeter equals r[tan θ + sec θ + πθ/180 − 1], so the stem is written that way here."
+  },
+  {
+   "number": "69",
+   "form": "long",
+   "marks": 5,
+   "page": 18,
+   "stem": "In fig., AC = BD = 7 cm and AB = CD = 1.75 cm. Semi-circles are drawn as shown in the figure. Find the area of the shaded region. Use π = 22/7.",
+   "options": [],
+   "correct_option": null,
+   "answer": "The two large semicircles have diameter AC = BD = 7 cm, so each has radius 7/2 cm. The two small semicircles that are cut away have diameter AB = CD = 1.75 cm, so each has radius 7/8 cm.\nArea of the shaded region\n= 2(area of a semicircle of radius 7/2 cm) − 2(area of a semicircle of radius 7/8 cm)\n= 2[½ × (22/7) × (7/2)²] − 2[½ × (22/7) × (7/8)²]\n= 2 × ½ × (22/7) × (7/2)²[1 − (¼)²]\n= (77/2)[1 − 1/16] = (77/2) × (15/16) = 1155/32\n= 36.09 cm² (approximately).\nThe area of the shaded region is 1155/32 cm² ≈ 36.09 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2011",
+   "images": [
+    "ch11_q69.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "70",
+   "form": "long",
+   "marks": 5,
+   "page": 19,
+   "stem": "Two circles touch internally. The sum of their areas is 116π and the difference between their centres is 6 cm. Find the radii of the circles.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let the radius of the larger circle be x and that of the smaller circle be y. For circles touching internally the distance between the centres is the difference of the radii, so\nx − y = 6 … (1)\nThe sum of the areas is 116π, so\nπx² + πy² = 116π ⇒ x² + y² = 116 … (2)\nSubstituting y = x − 6 from (1) into (2),\nx² + (x − 6)² = 116\n2x² − 12x + 36 = 116\nx² − 6x − 40 = 0\nx² − 10x + 4x − 40 = 0\n(x − 10)(x + 4) = 0\nso x = 10 (the negative root is rejected) and y = 10 − 6 = 4.\nThe radii of the circles are 10 cm and 4 cm.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed factorisation reads \"x(x − 10) + 4(x + 10) = 0\"; it should be x(x − 10) + 4(x − 10) = 0, i.e. (x − 10)(x + 4) = 0. The roots the book then quotes, x = 10 and y = 4, are correct. The diagram is drawn inside the solution, so nothing is attached."
+  },
+  {
+   "number": "71",
+   "form": "long",
+   "marks": 5,
+   "page": 19,
+   "stem": "A square OABC is inscribed in a quadrant OPBQ of a circle. If OA = 20 cm, find the area of the shaded region. [Use π = 3.14]",
+   "options": [],
+   "correct_option": null,
+   "answer": "OB is a radius of the quadrant and is the diagonal of the square OABC, so\nOB = √(OA² + AB²) = √(20² + 20²) = √800 = 20√2 cm, giving r = 20√2 cm.\nArea of the shaded region = area of the quadrant OQBPO − area of the square OABC\n= πr²(90°/360°) − (20)²\n= 3.14 × (20√2)² × ¼ − 400\n= 3.14 × 200 − 400\n= 628 − 400 = 228 cm².\nThe required area is 228 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2014",
+   "images": [
+    "ch11_q71.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "72",
+   "form": "long",
+   "marks": 5,
+   "page": 19,
+   "stem": "In the given figure, ABCD is a rectangle of dimensions 21 cm × 14 cm. A semicircle is drawn with BC as diameter. Find the area and the perimeter of the shaded region in the figure.",
+   "options": [],
+   "correct_option": null,
+   "answer": "The semicircle has BC = 14 cm as diameter, so its radius is 7 cm.\nArea of the shaded region = area of rectangle ABCD − area of the semicircle\n= 21 × 14 − (π/2) × 7²\n= 294 − ½ × (22/7) × 7 × 7\n= 294 − 77 = 217 cm².\nThe boundary of the shaded region is AB, AD, CD and the arc CB, so\nperimeter = AB + AD + CD + arc CB\n= 21 + 14 + 21 + (22/7) × 7\n= 21 + 14 + 21 + 22 = 78 cm.\nHence the area of the shaded region is 217 cm² and its perimeter is 78 cm.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2017",
+   "images": [
+    "ch11_q72.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "73",
+   "form": "long",
+   "marks": 5,
+   "page": 20,
+   "stem": "The long and short hands of a clock are 6 cm and 4 cm long respectively. Find the sum of distances travelled by their tips in 24 hours. (Use π = 3.14)",
+   "options": [],
+   "correct_option": null,
+   "answer": "The long hand (minute hand) makes 24 complete rounds in 24 hours and the short hand (hour hand) makes 2 complete rounds. In one round the tip travels the circumference of its circle.\nFor the long hand, radius = 6 cm, so one round = 2π × 6 = 12π cm and 24 rounds = 24 × 12π = 288π cm.\nFor the short hand, radius = 4 cm, so one round = 2π × 4 = 8π cm and 2 rounds = 2 × 8π = 16π cm.\nSum of the distances = 288π + 16π = 304π = 304 × 3.14 = 954.56 cm.\nThe tips together travel 954.56 cm in 24 hours.",
+   "concept": "Length of an arc",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "74",
+   "form": "long",
+   "marks": 5,
+   "page": 20,
+   "stem": "In fig. ABCD is a square of side 14 cm. Semi-circle are drawn with each side of square as diameter. Find the area of the shaded region. Use π = 22/7.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let O be the centre of the square, where the four semicircles meet. The four petal-shaped white regions divide the square into four shaded parts, numbered 1, 2, 3 and 4.\nArea of the square = 14 × 14 = 196 cm².\nEach semicircle has radius 14/2 = 7 cm.\nArea of semicircle AOB + area of semicircle DOC = 2 × ½ × (22/7) × 7² = (22/7) × 7² = 154 cm².\nRemoving the two semicircles AOD and COB from the square leaves shaded parts 1 and 2, so\narea of those two shaded parts = 196 − 154 = 42 cm².\nBy symmetry the other two shaded parts have the same total area, so the area of all four shaded parts is 2 × 42 = 84 cm².\nThe area of the shaded region is 84 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2016, STD SQP 2021",
+   "images": [
+    "ch11_q74.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "75",
+   "form": "long",
+   "marks": 5,
+   "page": 20,
+   "stem": "In fig., ABCDEF is any regular hexagon with different vertices A, B, C, D, E and F as the centres of circle with same radius r are drawn. Find the area of the shaded portion.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let n be the number of sides. For a regular polygon,\nn × (each interior angle) = (n − 2) × 180°.\nFor the hexagon, 6 × (each angle) = 4 × 180°, so each interior angle = 120°.\nAt every vertex the shaded piece is the sector of the circle of radius r lying inside the hexagon, so its angle is 120° and\narea of one sector = πr² × (120°/360°) = πr²/3.\nThere are six such sectors, so\narea of the shaded portion = 6 × πr² × (120°/360°) = 2πr².\nThe shaded area is 2πr².",
+   "concept": "Angle of the sector",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2011",
+   "images": [
+    "ch11_q75.png"
+   ],
+   "figure_required": true,
+   "ocr": "Last question of the FIVE MARKS QUESTIONS section; the COMPETENCEY BASED QUESTIONS heading follows it on page 20."
+  },
+  {
+   "number": "76",
+   "form": "case_study",
+   "marks": 4,
+   "page": 20,
+   "stem": "Traditional Japanese Fans : Japanese fans are made of paper on a bamboo frame, usually with a design painted on them. A Japanese Fan symbolises friendship, respect and good wishes and are given on special occasions, as well as to help cool you down in hot weather. The fan is an immediately recognizable icon of Japanese culture. Today they remain an important artistic medium and stylish fashion accessory.\nLavanya hold a Japanease folding fan in her hand as shown in figure. It is shapded like a sector of a circle. The inner and outer raddi are 14 cm and 21 cm. The fan has three colour material.\n(i) If the region containing the pink colour makes an angle of θ₂ = 72° at the centre, then find the area of the region having pink colour.\n(ii) If the region containing the orange colour makes an angle of θ₁ = 54° at the centre, then find the area of the region having orange colour.\n(iii) If the region containing the red colour makes an angle of θ₃ = 45° at the centre, then find the perimeter of the region having red colour.\n(iv) Find the area of the region having radius 14 cm.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Here the inner radius is r₁ = 14 cm and the outer radius is r₂ = 21 cm. Each coloured region is the part of a sector lying between the two radii.\n(i) Pink, θ₂ = 72°:\nA_p = (πθ₂/360°)(r₂² − r₁²) = (22/7) × (72°/360°) × (21² − 14²) = (22/7) × ⅕ × (21 + 14)(21 − 14) = (22/7) × ⅕ × 35 × 7 = 154 cm².\n(ii) Orange, θ₁ = 54°:\nA_o = (πθ₁/360°)(r₂² − r₁²) = (22/7) × (54°/360°) × (21² − 14²) = (22/7) × (3/20) × 35 × 7 = 115.5 cm².\n(iii) Red, θ₃ = 45°. Its boundary is the two straight edges of length r₂ − r₁ together with the inner and outer arcs:\np_r = 2(r₂ − r₁) + 2πr₁(θ₃/360°) + 2πr₂(θ₃/360°) = 2(r₂ − r₁) + 2π(θ₃/360°)(r₁ + r₂)\n= 2(21 − 14) + 2 × (22/7) × (45°/360°) × (21 + 14) = 14 + 2 × (22/7) × ⅛ × 35 = 14 + 27.5 = 41.5 cm.\n(iv) The region of radius 14 cm is the sector of radius r₁ covering all three angles:\nA_s = πr₁²(θ₁ + θ₂ + θ₃)/360° = (22/7) × 14² × (54° + 72° + 45°)/360° = (22/7) × 196 × (171°/360°) = 292.6 cm².\nSo the pink area is 154 cm², the orange area is 115.5 cm², the perimeter of the red region is 41.5 cm and the area of the region of radius 14 cm is 292.6 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch11_q76.png"
+   ],
+   "figure_required": true,
+   "ocr": "Part (iii) is printed as \"θ₁ = 45°\", but θ₁ = 54° has already been used in part (ii) and the solution calls the 45° angle θ₃, so it is written θ₃ here. The book's spellings \"Japanease\", \"shapded\" and \"raddi\" are kept as printed. The decorative Japan illustration above the question is not attached; the labelled fan diagram is. The number and stem begin at the foot of page 20 and the sub-parts continue on page 21."
+  },
+  {
+   "number": "77",
+   "form": "case_study",
+   "marks": 4,
+   "page": 21,
+   "stem": "Pendulum Clock : It is a clock that uses a pendulum, a swinging weight, as its timekeeping element. From its invention in 1656 by Christiaan Huygens, the pendulum clock was the world's most precise timekeeper, accounting for its widespread use. Their greater accuracy allowed for the faster pace of life which was necessary for the Industrial Revolution. The home pendulum clock was replaced by less-expensive, synchronous, electric clocks in the 1930s and 40s. Pendulum clocks are now kept mostly for their decorative and antique value.\nDhriti bought a pendulum clock for her living room. the clock contains a small pendulam of lenght 45 cm. the minute hand and hour hand of the clock are 9 cm and 6 cm long respectively.\n(i) Find the area swept by the minute hand in 14 minutes.\n(ii) Find the angle described by hour hand in 10 minutes.\n(iii) Find the distance covered by the tip of hour hand in 3.5 hours.\n(iv) If the tip of pendulum covers a distance of 66 cm in complete oscillation, then find the angle described by pendulum at the centre.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let rₘ = 9 cm (minute hand), rₕ = 6 cm (hour hand) and r_p = 45 cm (pendulum).\n(i) The minute hand sweeps the whole circle πrₘ² in 60 minutes, so in 14 minutes it sweeps\nπrₘ² × (14/60) = (22/7) × 9 × 9 × (14/60) = 59.4 cm².\n(ii) The hour hand turns 360° in 12 hours, so in 10 minutes it turns\nθ = (360°/12) × (10/60) = 5°.\n(iii) The tip of the hour hand covers 2πrₕ in 12 hours, so in 3.5 hours it covers\n2πrₕ × (3.5/12) = 2 × (22/7) × 6 × (3.5/12) = 22/2 = 11 cm.\n(iv) A complete oscillation is 66 cm, so half an oscillation is an arc of 33 cm. If θ is the angle described at the point of suspension,\nl = 2πr_p × (θ/360°)\n33 = 2 × (22/7) × 45 × (θ/360°)\n3 = (4/7) × (θ/8)\nθ = (3 × 7 × 8)/4 = 42°.\nSo the minute hand sweeps 59.4 cm², the hour hand turns 5° in 10 minutes, its tip covers 11 cm in 3.5 hours, and the pendulum describes 42°.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution opens \"Let rₘ = 9 cm, rₕ = 9 cm and r_p = 45 cm\", but the hour hand is 6 cm, and part (iii) of the same solution correctly substitutes 6. Corrected here. The book's spellings \"pendulam\" and \"lenght\" are kept as printed. The photograph of the clock is decorative and adds no data, so no figure is attached. The number and stem begin in the right column of page 21 and the sub-parts and solution run on to page 22."
+  },
+  {
+   "number": "78",
+   "form": "case_study",
+   "marks": 4,
+   "page": 22,
+   "stem": "UPHOLSTERY : Upholstery is the physical act of stuffing seats and furniture with webbing, padding, springs, foam, or cushions to furniture and covering it with upholstery fabric. The word upholstery comes from the Middle English word upholder, which referred to an artisan who help up their goods. A person who works with upholstery is an upholsterer.\nEshika wants to cover the cushions of her papasan chair with a different fabric. If there are seven circular cushions that are the same size with a diameter of 32 cm, around a center cushion with a diameter of 46 cm, find the area of fabric that she will need to cover both sides of the cushions. Allow an extra 5 cm of fabric around each cushion.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Each small cushion has diameter 32 cm, so its radius is 16 cm; allowing 5 cm extra, the radius of the cloth circle is\nr_s = 16 + 5 = 21 cm, and its area A = πr_s² = (22/7) × 21² = 1386 cm².\nThe centre cushion has diameter 46 cm, so its radius is 23 cm; with the same allowance,\nr_l = 23 + 5 = 28 cm, and its area A = πr_l² = (22/7) × 28² = 2464 cm².\nThere are 7 small cushions and 1 large cushion, and the cloth is needed on both sides, so the total is doubled:\nTotal area = 2(7 × 1386 + 2464) = 2(9702 + 2464) = 2 × 12166 = 24332 cm².\nEshika needs 24332 cm² of fabric.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The photographs of the cushions are decorative and carry no measurements, so no figure is attached. The number and stem begin in the right column of page 22 and the solution finishes at the top of page 23."
+  },
+  {
+   "number": "79",
+   "form": "case_study",
+   "marks": 4,
+   "page": 23,
+   "stem": "Swimming Pool : A swimming pool or simply pool is a structure designed to hold water to enable swimming or other leisure activities. Pools can be built into the ground (in-ground pools) or built above ground. In-ground pools are most commonly constructed from materials such as concrete, natural stone, metal, plastic, or fiberglass, and can be of a custom size and shape or built to a standardized size, the largest of which is the Olympic-size swimming pool.\nThe area of a circular pool is 616 square metre. The owner wants to replace the tiling at the edge of the pool.\n(i) The edging is 25 cm wide, so she plans to use 6-inch square tiles to form a continuous inner edge. How many tiles will she need to purchase?\n(ii) Once the square tiles are in place around the pool, there will be extra space between the tiles. What shape of tile will best fill this space? How many tiles of this shape should she purchase?",
+   "answer": "(i) Let r be the radius of the pool. From A = πr², 616 = (22/7)r², so r² = 616 × 7 ÷ 22 = 196 and r = 14 m.\nThe circumference of the pool is C = 2πr = 2 × (22/7) × 14 = 88 m.\nEach tile is 25 cm wide, so 4 tiles fit in one metre, and the inner edge takes 88 × 4 = 352 square tiles.\n(ii) The square tiles touch one another along the inner edge of the border, so a wedge-shaped gap is left between every neighbouring pair along the outer edge. Triangular tiles fill those gaps best, and there is one gap for each square tile, so 352 triangular tiles are needed.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "ocr": "The printed solution writes C = 2 × (22/7) × 14 = 176 m and then 176 × 4 = 704 tiles, but its own expression 2 × (22/7) × 14 evaluates to 88, not 176. Following the worked expression, the circumference is 88 m and the counts are 352 square tiles and 352 triangular tiles. Counted as a contradicted key. Also note the book mixes '6-inch square tiles' with a 25 cm tile width; the 25 cm figure is the one it computes with."
+  },
+  {
+   "number": "80",
+   "form": "case_study",
+   "marks": 4,
+   "page": 23,
+   "stem": "Bakery : A bakery is an establishment that produces and sells flour-based food baked in an oven such as bread, cookies, cakes, pastries, and pies. Some retail bakeries are also categorized as cafés, serving coffee and tea to customers who wish to consume the baked goods on the premises.\nTania runs a bakery shop and her bakery is very famous for tasty cake. She sells single-layer mini-cakes that are 3 inches in diameter for Rs 80 each. They also have a 9 inch cake for Rs 645. If both cakes are the same thickness, which option gives you more cake for the money, nine mini-cakes or one 9-inch cake? Explain.",
+   "answer": "Total area of nine 3-inch mini-cakes = 9 × π × 3² = 81π.\nArea of one 9-inch cake = π × 9² = 81π.\nSo nine mini-cakes together carry exactly the same amount of cake as one 9-inch cake.\nAlternatively, the scale factor from a mini-cake to the large cake is 9/3 = 3, so the ratio of their areas is 3² = 9, and nine mini-cakes match one large cake.\nNine mini-cakes cost 9 × 80 = Rs 720 while the 9-inch cake costs only Rs 645, so the 9-inch cake gives more cake for the money.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "ocr": "The book compares 9 × π(3)² with π(9)², i.e. it treats the quoted inch figures as radii in both cases; the comparison and the conclusion are unaffected because only the ratio matters."
+  },
+  {
+   "number": "81",
+   "form": "case_study",
+   "marks": 4,
+   "page": 24,
+   "stem": "FURNITURE : Varsha dining room table has hardwood around the outside. The outer dimension of table is 135 cm by 90 cm. Find the area of wood around the edge of the table. The table has wooden edge of 7 cm around it.",
+   "answer": "The wooden edge separates into four rectangles and four corner pieces; the four corners together form one full circle of radius equal to the edge width, 7 cm.\nA = 2l₁w + 2l₂w + 4 × ¼πw²\n= 2 × (90 − 14) × 7 + 2 × (135 − 14) × 7 + (22/7) × 7²\n= 2 × 7 × (76 + 121 + 11) = 14 × 208 = 2912 cm².\nThe area of wood around the edge of the table is 2912 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "82",
+   "form": "case_study",
+   "marks": 4,
+   "page": 24,
+   "stem": "Motion Detector : A motion sensor (or motion detector) is an electronic device that is designed to detect and measure movement. Motion sensors are used primarily in home and business security systems, but they can also be found in phones, paper towel dispensers, game consoles, and virtual reality systems.\nA motion detector can detect movement up to 24 m away through an angle of θ = 70°.\n(i) What area can the motion detector monitor?\n(ii) What angle is required to monitor 50% more area?\n(iii) For θ = 91° what range is required for the detector to monitor 30% more area?",
+   "answer": "(i) With r₁ = 24 m and θ₁ = 70°, the monitored region is a sector, so\nA₁ = πr₁² × θ₁/360° = (22/7) × 24² × 70°/360° = 22 × 24 × 24 × (1/36) = 352 m².\n(ii) The radius stays 24 m, so the area is proportional to the angle. A₂ = 1.5A₁ gives θ₂ = 1.5θ₁ = 1.5 × 70° = 105°.\n(iii) With A₃ = 1.3A₁ and θ = 91°, r₃² × 91° = 1.3 × 24² × 70°. Since 1.3 × 70° = 91°, r₃² = 24² and r₃ = 24 m, i.e. the same range of 24 m.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "83",
+   "form": "case_study",
+   "marks": 4,
+   "page": 25,
+   "stem": "Gear : Gears are mechanical parts with cut teeth designed to fit with teeth on another part so as to transmit or receive force and motion. Gears are also sometimes called toothed wheels or cogged wheels or cogs. The cut teeth are also sometimes called cogs.\nIn following figure AB = 21 cm. Find the perimeter of combined circles.",
+   "answer": "The perimeter of the given figure is the sum of the circumferences of the three circles, and the three diameters lie end to end along AB, so d₁ + d₂ + d₃ = AB = 21 cm.\nP = πd₁ + πd₂ + πd₃ = π(d₁ + d₂ + d₃) = (22/7) × 21 = 22 × 3 = 66 cm.\nThe perimeter of the combined circles is 66 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch11_q83.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "84",
+   "form": "case_study",
+   "marks": 4,
+   "page": 25,
+   "stem": "Laying New Sod : Sod, also known as turf, is grass. When harvested into rolls it is held together by its roots and a thin layer of soil. Sod is typically used for lawns, golf courses, and sports stadiums around the world.\nWhen new sod is laid, a heavy roller is used to press the sod down to ensure good contact with the ground beneath. The radius of the roller is 28 cm.\n(i) Through what angle has the roller turned after being pulled across 11 meter of yard?\n(ii) If it is turned through by 3 revolution and 45°, find the length, that the roller will press.",
+   "answer": "(i) The length pressed is the arc rolled out, P = 2πr × θ/360°. With P = 11 m = 1100 cm and r = 28 cm,\n1100 = 2 × (22/7) × 28 × θ/360°, so 100 = 4 × θ/90° and θ = 100 × 900/4 = 2250°.\nSince 2250° = 360° × 6 + 90°, the roller has turned 6 complete revolutions and a further 90°.\n(ii) Three revolutions and 45° is θ = 3 × 360° + 45° = 1125°, so\nP = 2 × (22/7) × 28 × 1125°/360° = 176 × (25/8) = 550 cm = 5.5 m.\nThe roller will press a length of 5.5 m.",
+   "concept": "Length of an arc",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "85",
+   "form": "case_study",
+   "marks": 4,
+   "page": 26,
+   "stem": "Windshield Wiper : Windshield wipers are a small part of your car, but they have a big impact on your driving and overall safety. They remove rain, snow, dirt, pollen, frost and other debris quickly and smoothly at the push of a button. The windshield wiper motor moves the windshield wiper arms across the windshield. The metal or hard plastic arms drag a thin rubber (or silicone) blade across the windshield to clear away water, giving you a better view of the road.\nThe armature for the rear windshield wiper has a length of 63 cm, with a rubber wiper blade that is 42 cm long. What area of my rear windshield is cleaned as the armature swings back-and-forth through an angle of 110°?",
+   "answer": "The cleaned region is the part of the 110° sector of radius 63 cm that lies outside the 110° sector of radius 42 cm — the blade covers the outer 42 cm of the 63 cm armature.\nA_clean = π × (110°/360°) × (63² − 42²) = (22/7) × (11/36) × (3969 − 1764)\n= (22/7) × (11/36) × 2205 = (22 × 11 × 35)/4 = 2117.5 cm².\nThe area of the rear windshield that is cleaned is 2117.5 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "86",
+   "form": "case_study",
+   "marks": 4,
+   "page": 26,
+   "stem": "Electric Hoist : It is an electrically powered appliance that is used to lift, lower and even move heavy or awkward objects. They are mainly used to alleviate potential strain and injury on any person who needs to lift a heavy object or where the object is just much too heavy for a human to lift unaided.\nAn electric hoist is being used to lift a beam (see figure). The diameter of the drum on the hoist is 42 cm, and the beam must be raised 22 cm. Find the number of degrees through which the drum must rotate.",
+   "answer": "The beam rises by the length of cable wound on the drum, which is the arc turned through.\nh = 2πr × θ/360° with r = 42/2 = 21 cm and h = 22 cm.\n22 = 2 × (22/7) × 21 × θ/360° = 132 × θ/360°, so 1 = θ/60°.\nThe drum must rotate through θ = 60°.",
+   "concept": "Length of an arc",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "87",
+   "form": "case_study",
+   "marks": 4,
+   "page": 26,
+   "stem": "Voltmeter : A voltmeter is an instrument used for measuring electric potential difference between two points in an electric circuit. When current carrying conductor placed in a magnetic field, a mechanical force acts on the conductor, if it is attached to a moving system, with the coil movement, the pointer moves over the scale.\nThe pointer on a voltmeter is 7 centimeters in length (see figure). Find the angle through which the pointer rotates when it moves 5.5 centimeters on the scale.",
+   "answer": "The tip of the pointer traces an arc of radius 7 cm, so 5.5 = 2πr × θ/360°.\n5.5 = 2 × (22/7) × 7 × θ/360°, so 11 = 4 × 22 × θ/360° and 1 = 2 × θ/90°.\nThe pointer rotates through θ = 90°/2 = 45°.",
+   "concept": "Length of an arc",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "88",
+   "form": "case_study",
+   "marks": 4,
+   "page": 27,
+   "stem": "Cable Winch: It is a device for hauling or lifting; made up of a rope, cable or chain wound around a horizontal rotating drum and turned by a crank or motor and typically mounted at the rear of a towing vehicle.\nA large winch with a radius of 30 cm winds in 99 cm of cable.\n(i) Through what angle has it turned?\n(ii) If it is turned through an angle of 126°, find the length, that the winch will wind.",
+   "answer": "(i) The cable wound in is the arc turned through, 99 = 2πr × θ₁/360° with r = 30 cm.\n99 = 2 × (22/7) × 30 × θ₁/360°, which reduces to 9 = (1/7) × θ₁/3, so θ₁ = 9 × 7 × 3 = 189°.\n(ii) For θ₂ = 126°, l = 2πr × θ₂/360° = 2 × (22/7) × 30 × 126°/360° = 2 × 22 × (3/2) = 66 cm.\nThe winch turns through 189° and winds 66 cm of cable in the second case.",
+   "concept": "Length of an arc",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "89",
+   "form": "case_study",
+   "marks": 4,
+   "page": 27,
+   "stem": "Sprinkler : An irrigation sprinkler (also known as a water sprinkler or simply a sprinkler) is a device used to irrigate agricultural crops, lawns, landscapes, golf courses, and other areas. Irrigation sprinklers can be used for residential, industrial, and agricultural usage. It is useful on uneven land where sufficient water is not available as well as on sandy soil.\nA water sprinkler is set to shoot a stream of water a distance of 21 m and rotate through an angle of 80°.\n(i) What is the area of the lawn it waters?\n(ii) For r = 28 m, what angle is required to water equal to previous area?",
+   "answer": "(i) The watered lawn is a sector with r₁ = 21 m and θ₁ = 80°.\nA₁ = πr₁² × θ₁/360° = (22/7) × 21² × 80°/360° = (22/7) × 21 × 21 × (2/9) = 308 m².\n(ii) For the same area with r₂ = 28 m, r₂²θ₂ = r₁²θ₁, so θ₂ = (r₁/r₂)²θ₁ = (21/28)² × 80° = (3/4)² × 80° = (9/16) × 80° = 45°.\nThe sprinkler waters 308 m², and a range of 28 m needs an angle of 45° to water the same area.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "90",
+   "form": "case_study",
+   "marks": 4,
+   "page": 28,
+   "stem": "Pulley : A pulley is a wheel with a groove along its edge for holding a rope or cable. It is a simple machine that helps change the direction and point of application of a pulling force. Pulleys are used singly or in combination to transmit energy and motion.\nA boy is moving a box upward through the use of a pulley 21 cm in radius. If the pulley is rotated counterclockwise through an angle of 102°, find the height, that the weight will rise.",
+   "answer": "The weight rises by the length of rope that passes over the rim, which is the arc turned through.\nh = 2πr × θ/360° = 2 × (22/7) × 21 × 102°/360° = 2 × 22 × 3 × (17/60) = (22 × 17)/10 = 37.4 cm.\nThe weight will rise 37.4 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "91",
+   "form": "case_study",
+   "marks": 4,
+   "page": 28,
+   "stem": "Barn : A barn is an agricultural building usually on farms and used for various purposes. A barn refers to structures that house livestock, including cattle and horses, as well as equipment and fodder, and often grain.\nRamkaran want to build a barn at his farm. He has made a design for it which is shown above. Here roof is arc of a circle of radius r at centre O.\n(i) What is the value of radius of arc?\n(ii) What is the curved width of roof?\n(iii) What is area of cross section of barn?\n(iv) If the length of the barn is 12 meters, what is the curved surface area of roof?\n(v) What is the storage capacity of barn?",
+   "answer": "Label the cross section AECD with the arc ABC on top, O the centre of that arc and F the midpoint of AC, so AF = 4 m and FO = 4 m.\n(i) In right triangle AFO, AO = √(AF² + FO²) = √(4² + 4²) = 4√2 m, which is the radius r of the arc.\n(ii) Triangle AFO is right-angled and isosceles, so ∠FAO = ∠FOA = 45° and likewise ∠FOC = 45°, giving ∠AOC = 90°. The curved width is the arc length 2πrθ/360° = 2π × 4√2 × 90°/360° = 2√2π m.\n(iii) Area of cross section = area of AECD + (area of sector ABCO − area of triangle ACO)\n= 8 × 8 + π(4√2)² × 90°/360° − ½ × 4 × 8 = 64 + 8π − 16 = 48 + 8π = 8(6 + π) m².\n(iv) Curved surface area of roof = curved width × length = 2√2π × 12 = 24√2π m².\n(v) Storage capacity = cross section area × length = 8(6 + π) × 12 = 96(6 + π) m³.",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch11_q91.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "92",
+   "form": "case_study",
+   "marks": 4,
+   "page": 29,
+   "stem": "Speed of a River Current : The paddle wheel in the river functions like a wheel rolling on a road. To approximate the speed of the current of a river, a circular paddle wheel with radius 1.75 meter is lowered into the water. If the current causes the wheel to rotate at a speed of 10 revolutions per minute, what is the speed of the current?",
+   "answer": "The water carries the wheel round, so in one minute the water travels the distance covered by 10 revolutions of the rim.\nDistance in one revolution = 2πr, so distance in 10 revolutions = 10 × 2 × (22/7) × 1.75 = 10 × 2 × (22/7) × (7/4) = 110 m.\nWater therefore flows 110 m in one minute, so in one hour it flows 110 × 60 = 6600 m = 6.6 km.\nThe speed of the current is 6.6 km/hour.",
+   "concept": "Length of an arc",
+   "section_heading": "COMPETENCEY BASED QUESTIONS"
+  },
+  {
+   "number": "93",
+   "form": "case_study",
+   "marks": 4,
+   "page": 29,
+   "stem": "Jawaharlal Nehru Stadium is a multi-purpose sports stadium and a very popular sports stadium of Delhi. The stadium is a part of the Jawaharlal Nehru sports complex in central Delhi, which also houses the headquarters of the Sports Authority of India, the field arm of the Ministry of Youth Affairs and Sports, and the Indian Olympic Association. It has a capacity to seat 60,000 people. It is the third largest multi-purpose stadium in India. In 2010, the Jawaharlal Nehru Stadium was the main stadium for XIX Commonwealth Games; a major sporting event.\nJawaharlal Nehru stadium is conducting the annual sports competition soon. The curator of the stadium is tasked to figuring out the dimensions for carving out some areas allotted for a hockey court and a shooting range, as shown in the figure below. The shapes of the hockey court and the shooting range are square and triangle respectively. Both of the courts have a common edge that touches the centre of stadium. The construction of the shooting range is such that the angle to centre is 90°. The radius of the stadium is 200 metres.\n(i) What is the area allotted to shooting range?\n(ii) What is the area allotted to hockey court?\n(iii) If the team of the curators managing the stadium, likes to allot space for some more sports, how much area is available to them?\n(iv) If the boundaries of the hockey court and shooting range are to be fenced, then what is the required length of the fence?\n(v) If the cost of fencing is Rs 6 per metre, what is the total cost of fencing?",
+   "answer": "(i) ΔAOB is right-angled at O with OA = OB = radius = 200 m, so its area is ½ × 200 × 200 = 20,000 m².\n(ii) OCDE is a square whose diagonal equals the radius. If a is its side, a² + a² = 200², so 2a² = 40,000 and a = 100√2 m. Its area is (100√2)² = 20,000 m², equal to the shooting range.\n(iii) Unoccupied area = πr² − (20,000 + 20,000) = 40,000π − 40,000 = 40,000(π − 1) = 40,000 × 2.14 = 85,600 m².\n(iv) For the triangle, AB = √(OA² + OB²) = √(200² + 200²) = 200√2 m, so its perimeter is 200 + 200 + 200√2 = 400 + 200√2 m. The square's perimeter is 4 × 100√2 = 400√2 m. Total fence = 400 + 200√2 + 400√2 = 400 + 600√2 = 200(2 + 3√2) m.\n(v) Cost = length × rate = 200(2 + 3√2) × 6 = Rs 1200(2 + 3√2).",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch11_q93.png"
+   ],
+   "figure_required": true,
+   "ocr": "In part (iii) the book evaluates π − 1 as 2.14, i.e. it takes π = 3.14 there even though π = 22/7 is used elsewhere in the chapter; the printed value 85,600 m² follows from that and has been kept."
+  },
+  {
+   "number": "94",
+   "form": "case_study",
+   "marks": 4,
+   "page": 30,
+   "stem": "Tunnel : The tunnels are defined as the underground passages that are used for the transportation purposes. These permit the transmission of passengers and freights, or it may be for the transportation of utilities like water, sewage or gas etc. The tunnel engineering is one of the most interesting disciplines in engineering. The work is complex and difficult throughout its course, even though it is interesting.\nEarth is excavated to make a road tunnel. The tunnel is a cylinder of radius 7 m and length 450 m.\nA level surface is laid inside the tunnel to make road. Figure shows the circular cross-section of the tunnel. The level surface is represented by AB, the centre of the circle is O and ∠AOB = 90°. The space below AB is filled with rubble (debris from the demolition buildings).\nSteel girders are erected above the tracks to strengthen the tunnel. The girders are erected at 6 m intervals along the length of the tunnel, with one at each end.\n(i) What is the cross section area of tunnel before filling debris on ground plane?\n(ii) What is the area of cross section of tunnel after filling debris on ground plane?\n(iii) What is the length of each girder?\n(iv) How many girders are erected?\n(v) If the weight of 1 meter girder is 25 kg, how much steel is required?",
+   "answer": "(i) Before filling, the cross section is the whole circle: πr² = (22/7) × 7 × 7 = 154 m².\n(ii) The rubble fills the minor segment AMBC cut off by AB. Triangle OAB is right-angled and isosceles, so its area is r²/2, and sector OACB subtends 90°, so its area is πr²/4. The segment is πr²/4 − r²/2, so\narea after filling = πr² − (πr²/4 − r²/2) = 3πr²/4 + r²/2 = (r²/4)(3π + 2) = (49/4)(3 × 22/7 + 2) = 140 m².\n(iii) Each girder follows the curved part of the cross section, the major arc of 360° − 90° = 270°:\nlength = 2πr(270°)/360° = 2 × (22/7) × 7 × (270/360) = 33 m.\n(iv) Girders stand every 6 m with one at each end, so 450/6 + 1 = 75 + 1 = 76 girders.\n(v) Total girder length = 76 × 33 = 2508 m, so the steel required is 2508 × 25 = 62,700 kg = 627 quintal.",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch11_q94.png"
+   ],
+   "figure_required": true
+  }
+ ],
+ "qualified_numbers": 0
+}

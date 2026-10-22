@@ -1,0 +1,228 @@
+{
+ "items": [
+  {
+   "number": "136",
+   "form": "long",
+   "marks": 5,
+   "page": 25,
+   "stem": "What is the probability that a randomly taken leap year has 52 Sundays?",
+   "answer": "A leap year has 366 days, and 366 ÷ 7 = 52.28, so it is made of 52 complete weeks plus 2 extra days. Every leap year therefore certainly contains 52 Sundays, and what remains to be decided is only whether the 2 leftover days bring a 53rd. The possible pairings of those 2 days are Sunday–Monday, Monday–Tuesday, Tuesday–Wednesday, Wednesday–Thursday, Thursday–Friday, Friday–Saturday and Saturday–Sunday, so n(S) = 7. Of these 7 equally likely pairs, 2 contain a Sunday and the remaining 5 do not, so n(A) = 5. Hence the probability that a leap year has exactly 52 Sundays is P(A) = 5/7.",
+   "concept": "Listing the outcomes",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 OD Standard"
+  },
+  {
+   "number": "137",
+   "form": "long",
+   "marks": 5,
+   "page": 26,
+   "stem": "Jayanti throws a pair of dice and records the product of the numbers appearing on the dice. Pihu throws 1 dice and records the squares the number that appears on it. Who has the better chance of getting the number 36? Justify?",
+   "answer": "Jayanti throws two dice, so n(S) = 6² = 36. A product of 36 arises only from (6, 6), so n(E₁) = 1 and P(E₁) = 1/36. Pihu throws one die, so n(S) = 6. The only number whose square is 36 is 6, so n(E₂) = 1 and P(E₂) = 1/6. Since 1/6 > 1/36, P(E₂) > P(E₁). Hence Pihu has the better chance of getting the number 36.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 SQP Standard",
+   "ocr": "The printed solution labels Jayanti's line 'P(getting the numbers of product 25)' — a slip copied from the next question; every figure used is for 36 and the stated conclusion names Pihu."
+  },
+  {
+   "number": "138",
+   "form": "long",
+   "marks": 5,
+   "page": 26,
+   "stem": "Peter throws two different dice together and finds the product of the two numbers obtained. Rina throws a die and squares the number obtained. Who has the better chance to get the numbers 25.",
+   "answer": "Peter throws two dice, so n(S) = 6² = 36. The product 25 occurs only for (5, 5), so n(E₁) = 1 and P(E₁) = 1/36. Rina throws one die, so n(S) = 6. The only number whose square is 25 is 5, so n(E₂) = 1 and P(E₂) = 1/6. Since 1/6 > 1/36, P(E₂) > P(E₁). Hence Rina has the better chance of getting the number 25.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2017"
+  },
+  {
+   "number": "139",
+   "form": "long",
+   "marks": 5,
+   "page": 26,
+   "stem": "The probability of selecting a blue marble at random from a jar that contains only blue, black and green marbles is 1/5. The probability of selecting a black marble at random from the same jar is 1/4. If the jar contains 11 green marbles, find the total number of marbles in the jar.",
+   "answer": "Let x be the number of blue marbles and y the number of black marbles. With 11 green marbles the total is x + y + 11. From P(black) = 1/4 we get y/(x + y + 11) = 1/4, which rearranges to x = 3y − 11. …(1) From P(blue) = 1/5 we get x/(x + y + 11) = 1/5, so 5x = x + y + 11 and x = (y + 11)/4. …(2) Equating (1) and (2): 3y − 11 = (y + 11)/4 ⇒ 12y − 44 = y + 11 ⇒ 11y = 55 ⇒ y = 5. Then from (1), x = 3 × 5 − 11 = 4. Hence the total number of marbles in the jar is x + y + 11 = 4 + 5 + 11 = 20.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD"
+  },
+  {
+   "number": "140",
+   "form": "long",
+   "marks": 5,
+   "page": 26,
+   "stem": "Cards marked with numbers 3, 4, 5, .........50 are placed in a bag and mixed thoroughly. One card is drawn at random from the bag. Find the probability that number on the card drawn is :\n(i) Divisible by 7.\n(ii) A perfect square.\n(iii) A multiple of 6.",
+   "answer": "The bag holds the numbers 3 to 50, that is 48 cards, so n(S) = 48. (i) The multiples of 7 in this range are 7, 14, 21, 28, 35, 42 and 49, so n(E₁) = 7 and P(E₁) = 7/48. (ii) The perfect squares in this range are 4, 9, 16, 25, 36 and 49, so n(E₂) = 6 and P(E₂) = 6/48 = 1/8. (iii) The multiples of 6 in this range are 6, 12, 18, 24, 30, 36, 42 and 48, so n(E₃) = 8 and P(E₃) = 8/48 = 1/6.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 SQP 2016",
+   "ocr": "Two slips in the printed solution. The divisible-by-7 list prints 35 twice (the stated count 7 is still right). In part (iii) the printed line reads n(E₃) = 6 and the list omits 18, yet the final computation is 8/48 = 1/6. The worked result wins and is also mathematically correct — there are 8 multiples of 6 from 3 to 50 — so I recorded 1/6. Counted in contradicted_keys."
+  },
+  {
+   "number": "141",
+   "form": "long",
+   "marks": 5,
+   "page": 27,
+   "stem": "All the red face cards are removed from a pack of 52 playing cards. A card is drawn at random from the remaining cards, after reshuffling them. Find the probability that the drawn card is\n(i) of red colour\n(ii) a queen\n(iii) an ace\n(iv) a face card.",
+   "answer": "Removing the 6 red face cards leaves 52 − 6 = 46 cards, so n(S) = 46. (i) Red cards remaining = 26 − 6 = 20, so P(E₁) = 20/46 = 10/23. (ii) Queens remaining = 4 − 2 = 2, so P(E₂) = 2/46 = 1/23. (iii) No ace was removed, so there are 4 aces and P(E₃) = 4/46 = 2/23. (iv) Face cards remaining = 12 − 6 = 6, so P(E₄) = 6/46 = 3/23.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2015",
+   "ocr": "The printed solution's opening sentence says 'after removing black face cards' and then writes '48 possible outcomes' beside n(S) = 46. Both are slips: every computation uses 46 cards and the red face cards, matching the question."
+  },
+  {
+   "number": "142",
+   "form": "long",
+   "marks": 5,
+   "page": 27,
+   "stem": "A box contains 20 cards from 1 to 20. A card is drawn at random from the box. Find the probability that the number on the drawn card is\n(i) divisible by 2 or 3\n(ii) a prime number",
+   "answer": "There are 20 cards, so n(S) = 20. (i) The printed solution takes the numbers divisible by both 2 and 3, namely 6, 12 and 18, giving n(E₁) = 3 and P(E₁) = 3/20. (ii) The prime numbers from 1 to 20 are 2, 3, 5, 7, 11, 13, 17 and 19, that is 8 numbers, so n(E₂) = 8 and P(E₂) = 8/20 = 2/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2015",
+   "ocr": "Part (i) as printed is inconsistent with its own stem. The stem asks for 'divisible by 2 or 3' but the solution lists only 6, 12 and 18 (the multiples of 6) and answers 3/20. Read as an inclusive 'or' the count is 10 + 6 − 3 = 13, giving 13/20. Under rule 6 the worked solution wins, so I recorded 3/20 and flag the conflict. Counted in contradicted_keys."
+  },
+  {
+   "number": "143",
+   "form": "long",
+   "marks": 5,
+   "page": 28,
+   "stem": "A box contains cards bearing numbers from 6 to 70. If one card is drawn at random from the box, find the probability that it bears,\n(i) a one digit number.\n(ii) a number divisible by 5.\n(iii) an odd number less than 30.\n(iv) a composite number between 50 and 70.",
+   "answer": "The cards run from 6 to 70, so there are 70 − 5 = 65 cards and n(S) = 65. (i) The one digit numbers are 6, 7, 8 and 9, so n(E₁) = 4 and P(E₁) = 4/65. (ii) The numbers divisible by 5 are 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65 and 70, that is 13 numbers, so P(E₂) = 13/65 = 1/5. (iii) The odd numbers less than 30 are 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27 and 29, that is 12 numbers, so P(E₃) = 12/65. (iv) The composite numbers between 50 and 70 are 51, 52, 54, 55, 56, 57, 58, 60, 62, 63, 64, 65, 66, 68 and 69, that is 15 numbers, so P(E₄) = 15/65 = 3/13.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "ocr": "The printed list in part (iii) drops 21 and runs '19 23' together, but the stated count n(E₃) = 12 and the answer 12/65 are correct."
+  },
+  {
+   "number": "144",
+   "form": "long",
+   "marks": 5,
+   "page": 28,
+   "stem": "A card is drawn at random from a well-shuffled deck of playing cards. Find the probability that the card drawn is :\n(i) a card of spade or an ace.\n(ii) a black king.\n(iii) neither a jack nor a king.\n(iv) either a king or a queen.",
+   "answer": "A full deck gives n(S) = 52. (i) There are 13 spades and, outside them, 3 more aces, so n(E₁) = 13 + 3 = 16 and P(E₁) = 16/52 = 4/13. (ii) There are 2 black kings, so P(E₂) = 2/52 = 1/26. (iii) There are 4 jacks and 4 kings, that is 8 cards to exclude, so n(E₃) = 52 − 8 = 44 and P(E₃) = 44/52 = 11/13. (iv) There are 4 kings and 4 queens, so n(E₄) = 8 and P(E₄) = 8/52 = 2/13.",
+   "concept": "Using the complement",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2015"
+  },
+  {
+   "number": "145",
+   "form": "long",
+   "marks": 5,
+   "page": 28,
+   "stem": "A bag contains 15 balls of which x are blue and the remaining are red. If the number of red balls are increased by 5, the probability of drawing the red balls doubles. Find :\n(i) P(red ball)\n(ii) P(blue ball)\n(iii) P(blue ball if of 5 extra red balls are actually added)",
+   "answer": "With 15 balls in all, n(B) = x and n(R) = 15 − x, so P(R) = (15 − x)/15. When 5 red balls are added the total becomes n(S′) = 20 and the red count n(R′) = 20 − x, so P(R′) = (20 − x)/20. The condition P(R′) = 2P(R) gives (20 − x)/20 = 2(15 − x)/15, i.e. 1 − x/20 = 2 − 2x/15, so 2x/15 − x/20 = 1, (8x − 3x)/60 = 1, 5x = 60 and x = 12. (i) P(red ball) = (15 − 12)/15 = 3/15 = 1/5. (ii) P(blue ball) = 12/15 = 4/5. (iii) After the 5 extra red balls are added the printed solution computes (3 + 5)/(15 + 5) = 8/20 = 2/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2015",
+   "ocr": "Part (iii) asks for the blue-ball probability once 5 red balls are actually added, which is 12/20 = 3/5, but the printed solution computes (3 + 5)/(15 + 5) = 2/5 and labels it P′(R) — that is the RED-ball probability. Under rule 6 the worked solution wins, so I recorded 2/5 and flag the conflict. Counted in contradicted_keys."
+  },
+  {
+   "number": "146",
+   "form": "long",
+   "marks": 5,
+   "page": 29,
+   "stem": "Three digit number are made using the digits 4, 5, 9 (without repetition). If a number among them is selected at random, what is the probability that the number will :\n(i) be a multiple of 5 ?\n(ii) be a multiple of 9 ?\n(iii) will end with 9 ?",
+   "answer": "The three digit numbers formed from 4, 5 and 9 without repetition are 459, 495, 549, 594, 945 and 954, so n(S) = 6. (i) The multiples of 5 are those ending in 5, namely 495 and 945, so n(E₁) = 2 and P(E₁) = 2/6 = 1/3. (ii) The digit sum is 4 + 5 + 9 = 18 in every case, so all six numbers are multiples of 9, n(E₂) = 6 and P(E₂) = 6/6 = 1. (iii) The numbers ending with 9 are 459 and 549, so n(E₃) = 2 and P(E₃) = 2/6 = 1/3.",
+   "concept": "Listing the outcomes",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2014"
+  },
+  {
+   "number": "147",
+   "form": "long",
+   "marks": 5,
+   "page": 29,
+   "stem": "A number x is selected at random from the numbers 1, 2, 3 and 4. Another number y is selected at random from the numbers 1, 4, 9 and 16. Find the probability that product of x and y is less than 16.",
+   "answer": "Each of the 4 choices of x pairs with each of the 4 choices of y, so n(S) = 16. The 16 products are 1, 2, 3, 4; 4, 8, 12, 16; 9, 18, 27, 36; and 16, 32, 48, 64. Those less than 16 are 1, 2, 3, 4, 4, 8, 9 and 12, so n(E) = 8. Hence P(product of x and y is less than 16) = 8/16 = 1/2.",
+   "concept": "Listing the outcomes",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "ocr": "The printed solution shows the 4×4 product grid; the grid belongs to the working, not to the question, so it is not reproduced in the stem."
+  },
+  {
+   "number": "148",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "Two different dice are rolled together once. Find the probability of numbers coming on the tops whose product is a perfect square.",
+   "answer": "Rolling two dice gives n(S) = 36. The pairs whose product is a perfect square are (1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6), (1, 4) and (4, 1), so n(E) = 8. Hence P(product is a perfect square) = 8/36 = 2/9.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD Compt. 2017"
+  },
+  {
+   "number": "149",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "A box contains 90 discs which are numbered 1 to 90. If one disc is drawn at random from the box, find the probability that it bears\n(i) a two digit number,\n(ii) number divisible by 5.",
+   "answer": "There are 90 discs, so n(S) = 90. (i) The two digit numbers are 10, 11, …, 89, 90, that is 81 numbers, so n(E₁) = 81 and P(E₁) = 81/90 = 9/10. (ii) The numbers divisible by 5 are 5, 10, 15, …, 85, 90, that is 18 numbers, so n(E₂) = 18 and P(E₂) = 18/90 = 1/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2017"
+  },
+  {
+   "number": "150",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "Cards on which numbers 1, 2, 3 .......... 100 are written (one number on one card and no number is repeated), put in a bag and are mixed thoroughly. A card is drawn at random from the bag. Find the probability that card taken out has\n(i) an even number\n(ii) a number which is a multiple of 13.\n(iii) a perfect square number.\n(iv) a prime number less than 20.",
+   "answer": "There are 100 cards, so n(S) = 100. (i) The even numbers from 1 to 100 are 50 in number, so P(E₁) = 50/100 = 1/2. (ii) The multiples of 13 are 13, 26, 39, 52, 65, 78 and 91, that is 7 numbers, so P(E₂) = 7/100. (iii) The perfect squares are 1, 4, 9, 16, 25, 36, 49, 64, 81 and 100, that is 10 numbers, so P(E₃) = 10/100 = 1/10. (iv) The primes less than 20 are 2, 3, 5, 7, 11, 13, 17 and 19, that is 8 numbers, so P(E₄) = 8/100 = 2/25.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi Compt 2017"
+  },
+  {
+   "number": "151",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "Two different dice are thrown together. Find the probability that the numbers obtained have\n(i) even sum, and\n(ii) even product.",
+   "answer": "Rolling two dice gives n(S) = 36. (i) The sum is even when both numbers are odd or both are even; there are 3 × 3 = 9 pairs of each kind, so n(E₁) = 18 and P(even sum) = 18/36 = 1/2, or 0.5. (ii) The product is even unless both numbers are odd; the odd–odd pairs number 3 × 3 = 9, so n(E₂) = 36 − 9 = 27 and P(even product) = 27/36 = 3/4, or 0.75.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "ocr": "No board tag is printed for this question. The printed solution labels the second probability line 'P(have a product less than 16)' — a slip; the count 27 and the closing sentence both refer to an even product."
+  },
+  {
+   "number": "152",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "stem": "From a deck of 52 playing cards, Jacks and kings of red colour and Queen and Aces of black colour are removed. The remaining cards are mixed and a card is drown at random. Find the probability that the drawn card is\n(i) a black queen\n(ii) a card of red colour\n(iii) a Jack of black colour\n(iv) a face card",
+   "answer": "The cards removed are 2 red jacks, 2 red kings, 2 black queens and 2 black aces, so 52 − (2 + 2 + 2 + 2) = 44 cards remain and n(S) = 44. (i) Both black queens were removed, so n(E₁) = 0 and P(E₁) = 0/44 = 0; getting a black queen is an impossible event. (ii) The red cards lost are the 2 red jacks and 2 red kings, so n(E₂) = 26 − 4 = 22 and P(E₂) = 22/44 = 1/2. (iii) Both black jacks remain, so n(E₃) = 2 and P(E₃) = 2/44 = 1/22. (iv) The face cards lost are 2 red jacks, 2 red kings and 2 black queens, so n(E₄) = 12 − 6 = 6 and P(E₄) = 6/44 = 3/22.",
+   "concept": "Impossible event",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD Compt 2017"
+  },
+  {
+   "number": "153",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "stem": "A bag contains 20 balls out of which x balls are red.\n(i) If one ball is drawn at random from the bag, find the probability that it is not red.\n(ii) If 4 more red balls are out into the bag, the probability of drawing a red ball will be 5/4 times the probability of drawing a red ball in the first case. Find the value of x.",
+   "answer": "With n(S) = 20 and n(R) = x, P(R) = x/20, so P(R̄) = 1 − x/20 = (20 − x)/20. …(1) When 4 more red balls are put in, n′(S) = 24 and n′(R) = x + 4, so P′(R) = (x + 4)/24. The given condition P′(R) = (5/4) × P(R) gives (x + 4)/24 = (5/4) × (x/20) = x/16, hence 16x + 64 = 24x, 8x = 64 and x = 8. Substituting x = 8 in (1), the probability that the ball drawn in the first case is not red is (20 − 8)/20 = 12/20 = 3/5.",
+   "concept": "The event not E",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "ocr": "The printed stem reads '4 more red balls are out into the bag' (a typo for 'put into'), kept as printed. The solution's line '(ii) Now two more red balls are added' is another slip — every step that follows uses 4 added balls."
+  },
+  {
+   "number": "154",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "stem": "In Figure a disc on which a player spins an arrow twice. The fraction a/b is formed, where a is the number of sector on which arrow stops on the first spin and 'b' is the number of the sector in which the arrow stops on second spin, On each spin, each sector has equal chance of selection by the arrow.\nFind the probability that the fraction a/b > 1",
+   "answer": "Each spin lands on one of the six sectors, so the two spins give n(S) = 6 × 6 = 36 equally likely outcomes. The fraction a/b is greater than 1 exactly when b < a. For a = 1 there is no such b; for a = 2 there is 1 value (b = 1); for a = 3, 2 values (1, 2); for a = 4, 3 values (1, 2, 3); for a = 5, 4 values (1, 2, 3, 4); and for a = 6, 5 values (1, 2, 3, 4, 5). Hence n(E) = 0 + 1 + 2 + 3 + 4 + 5 = 15 and P(a/b > 1) = 15/36 = 5/12.",
+   "concept": "Listing the outcomes",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [
+    "ch14_q154.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "155",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "stem": "A bag contains 25 cards numbered from 1 to 25. A card is drawn at random from the bag. Find the probability that the number on the drawn card is :\n(i) divisible by 3 or 5\n(ii) a perfect square number.",
+   "answer": "There are 25 cards, so n(S) = 25. (i) The multiples of 3 are 3, 6, 9, 12, 15, 18, 21 and 24, and the multiples of 5 are 5, 10, 15, 20 and 25; 15 appears in both lists, so the count of numbers divisible by 3 or 5 is 8 + 5 − 1 = 12, giving n(E₁) = 12 and P(E₁) = 12/25. (ii) The perfect squares from 1 to 25 are 1, 4, 9, 16 and 25, so n(E₂) = 5 and P(E₂) = 5/25 = 1/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2015",
+   "ocr": "The printed list of multiples of 3 prints 16 in place of 18, but the stated count n(E₁) = 12 and the answer 12/25 are correct."
+  },
+  {
+   "number": "156",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "stem": "A dice is rolled twice. Find the probability that :\n(i) 5 will not come up either time.\n(ii) 5 will come up exactly one time.",
+   "answer": "Rolling a die twice gives n(S) = 6² = 36. (i) If 5 is to appear on neither roll, each roll has the 5 remaining faces available, so n(E₁) = 5 × 5 = 25 and P(E₁) = 25/36. (ii) Exactly one 5 occurs in (1, 5), (2, 5), (3, 5), (4, 5), (5, 1), (5, 2), (5, 3), (5, 4), (5, 6) and (6, 5), so n(E₂) = 10 and P(E₂) = 10/36 = 5/18.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2014"
+  }
+ ]
+}

@@ -29,11 +29,43 @@ PARTS = ROOT / "parts"
 # this keeps working as later chapters finish extracting. Hardcoding the ids
 # would mean editing this file every time a chapter lands, and a stale id here
 # would attach a chapter's questions to the wrong extraction row.
-def _chapter_map() -> dict[int, tuple[int, int]]:
+def _extraction_rows(chapter_ids: tuple[int, ...]) -> dict[int, int]:
+    """chapter_id -> newest extracted question-bank row for it."""
     from sqlalchemy import text
     from app.db.mariadb import SessionLocal, init_mariadb
-    from scripts.extract_sci10_qbank import CHAPTERS as PAGE_MAP, STANDARD_ID, SUBJECT_ID
 
+    if not init_mariadb() or SessionLocal is None:
+        raise SystemExit("Database not ready")
+    db = SessionLocal()
+    try:
+        rows = db.execute(text(
+            "SELECT chapter_id, MAX(id) FROM document_extractions "
+            " WHERE document_type = 'question_bank' "
+            "   AND extraction_status = 'extracted' "
+            "   AND chapter_id IN :ids GROUP BY chapter_id"),
+            {"ids": chapter_ids}).fetchall()
+    finally:
+        db.close()
+    return {int(c): int(e) for c, e in rows}
+
+
+def _chapter_map(book: str = "sci10") -> dict[int, tuple[int, int]]:
+    from sqlalchemy import text
+    from app.db.mariadb import SessionLocal, init_mariadb
+    from scripts import extract_sci10_qbank, extract_maths10_qbank
+
+    if book not in ("sci10", "maths10"):
+        # Books described in scripts.books carry their chapter list directly,
+        # and their chapters may span several subjects - so the map is built
+        # from chapter_id alone, never from a single book-wide SUBJECT_ID.
+        from scripts import books as _books
+        b = _books.get(book)
+        rows = _extraction_rows(tuple(c.chapter_id for c in b.chapters))
+        return {c.number: (c.chapter_id, rows[c.chapter_id])
+                for c in b.chapters if c.chapter_id in rows}
+
+    mod = {"sci10": extract_sci10_qbank, "maths10": extract_maths10_qbank}[book]
+    PAGE_MAP, STANDARD_ID, SUBJECT_ID = mod.CHAPTERS, mod.STANDARD_ID, mod.SUBJECT_ID
     by_chapter_id = {cid: num for num, cid, _ in PAGE_MAP.values() if cid}
     if not init_mariadb() or SessionLocal is None:
         raise SystemExit("Database not ready")
@@ -49,7 +81,11 @@ def _chapter_map() -> dict[int, tuple[int, int]]:
     return {by_chapter_id[c]: (int(c), int(e)) for c, e in rows if c in by_chapter_id}
 
 
-CHAPTERS = _chapter_map()
+# Set in main() once the book is known. Both books live in the same parts/
+# directory and are told apart by the file prefix, so a maths merge must never
+# see the science chapter map: chapter 1 exists in both and the ids differ.
+CHAPTERS: dict[int, tuple[int, int]] = {}
+PREFIX = "ch"
 
 
 def _norm_stem(value) -> str:
@@ -64,7 +100,7 @@ def _norm_stem(value) -> str:
 
 
 def parts_for(chapter: int) -> list[Path]:
-    return sorted(PARTS.glob(f"ch{chapter:02d}_*.json"))
+    return sorted(PARTS.glob(f"{PREFIX}{chapter:02d}_*.json"))
 
 
 def _restarts_numbering(chapter: int) -> bool:
@@ -97,12 +133,17 @@ def _restarts_numbering(chapter: int) -> bool:
 # Chapters whose item file contains readings made by hand, not by a section
 # reader. Those items exist in no part file, so rebuilding these from parts
 # would delete them. Every other chapter is reproducible from its parts.
-HAND_AUTHORED = {1, 6}
+#
+# Per book: the science chapters 1 and 6 were partly hand-read, but maths
+# chapter 1 was not, and sharing one set here silently refused --refresh for it
+# - which is exactly how a verify-pass correction goes missing.
+HAND_AUTHORED_BY_BOOK = {"sci10": {1, 6}, "maths10": set()}
+HAND_AUTHORED: set[int] = HAND_AUTHORED_BY_BOOK["sci10"]
 
 
 def merge(chapter: int, refresh: bool = False) -> dict:
     cid, eid = CHAPTERS[chapter]
-    target = ROOT / f"ch{chapter:02d}.json"
+    target = ROOT / f"{PREFIX}{chapter:02d}.json"
     if refresh and chapter not in HAND_AUTHORED and parts_for(chapter):
         # The verify pass edits the PART files after a chapter has already been
         # merged, and a plain merge keeps the copy it already has - so a fixed
@@ -176,11 +217,20 @@ def main() -> int:
     ap.add_argument("--refresh", action="store_true",
                     help="rebuild from parts so verify-pass corrections land "
                          "(skipped for hand-authored chapters)")
+    ap.add_argument("--book", default="sci10")
     a = ap.parse_args()
+
+    global CHAPTERS, PREFIX, HAND_AUTHORED
+    PREFIX = {"sci10": "ch", "maths10": "mch"}.get(a.book)
+    if PREFIX is None:
+        from scripts import books as _books
+        PREFIX = _books.get(a.book).prefix
+    HAND_AUTHORED = HAND_AUTHORED_BY_BOOK.get(a.book, set())
+    CHAPTERS = _chapter_map(a.book)
 
     if a.list or not (a.chapter or a.all):
         print(f"parts in {PARTS}:")
-        for p in sorted(PARTS.glob("ch*_*.json")):
+        for p in sorted(PARTS.glob(f"{PREFIX}*_*.json")):
             try:
                 n = len(json.load(io.open(p, encoding="utf-8")).get("items") or [])
             except Exception as exc:
@@ -193,7 +243,7 @@ def main() -> int:
         if ch not in CHAPTERS:
             print(f"  ch {ch}: not mapped, skipping")
             continue
-        if not parts_for(ch) and not (ROOT / f"ch{ch:02d}.json").exists():
+        if not parts_for(ch) and not (ROOT / f"{PREFIX}{ch:02d}.json").exists():
             continue
         r = merge(ch, refresh=a.refresh)
         print(f"  ch {r['chapter']:<3} parts={r['parts']:<3} added={r['added']:<5} "

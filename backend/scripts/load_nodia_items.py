@@ -48,6 +48,12 @@ logging.basicConfig(level=logging.WARNING, format="%(levelname)s %(message)s")
 ITEM_DIR = Path(__file__).resolve().parent / "nodia_items"
 PUBLISHER = "nodia"
 
+# Both books keep their chapter files in the same directory. Chapter 1 exists in
+# each of them with different ids, and load() selects by chapter NUMBER, so the
+# file prefix is the only thing keeping a maths run from picking up science
+# chapter 1. Set from --book before load() is called.
+PREFIX = "ch"
+
 
 def apply_read_concepts(chapter: dict) -> dict[str, int]:
     """Set concept_id from the `concept` name recorded while reading each item.
@@ -119,7 +125,7 @@ def apply_read_concepts(chapter: dict) -> dict[str, int]:
 
 def load(only: set[int] | None) -> list[dict]:
     chapters: list[dict] = []
-    for path in sorted(ITEM_DIR.glob("ch*.json")):
+    for path in sorted(ITEM_DIR.glob(f"{PREFIX}[0-9][0-9].json")):
         with path.open(encoding="utf-8") as handle:
             data = json.load(handle)
         data["_file"] = path.name
@@ -168,7 +174,14 @@ async def main() -> int:
     parser.add_argument("--apply", action="store_true", help="actually write")
     parser.add_argument("--only", help="comma-separated chapter numbers")
     parser.add_argument("--no-tag", action="store_true", help="skip concept tagging")
+    parser.add_argument("--book", default="sci10")
     args = parser.parse_args()
+
+    global PREFIX
+    PREFIX = {"sci10": "ch", "maths10": "mch"}.get(args.book)
+    if PREFIX is None:
+        from scripts import books as _books
+        PREFIX = _books.get(args.book).prefix
 
     only = {int(x) for x in args.only.split(",") if x.strip()} if args.only else None
     chapters = load(only)

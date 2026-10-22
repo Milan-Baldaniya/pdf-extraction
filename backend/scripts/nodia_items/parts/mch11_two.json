@@ -1,0 +1,125 @@
+{
+ "items": [
+  {
+   "number": "36",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "The perimeter of a sector of a circle with radius 6.5 cm is 31 cm, then find the area of the sector.",
+   "answer": "Let O be the centre and OACBO the sector of radius 6.5 cm. Its perimeter is OA + OB + arc ACB = 31 cm, so 6.5 + 6.5 + arc ACB = 31, giving arc ACB = 18 cm. Area of the sector = ½ × radius × arc length = ½ × 6.5 × 18 = 58.5 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A sector diagram is printed inside the worked solution only, so no figure is attached to the question. The PRACTICE box that follows (radius 5.2 cm, perimeter 16.4 cm, Ans 15.6 cm²) is not a numbered book question and was not emitted."
+  },
+  {
+   "number": "37",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "A piece of wire 22 cm long is bent into the form an arc of a circle subtending an angle of 60° at its centre. Find the radius of the circle. [Use π = 22/7]",
+   "answer": "The wire becomes an arc of length 22 cm subtending 60° at the centre. Length of arc = 2πrθ/360°, so 22 = (2 × 22 × r × 60°)/(7 × 360°) = 22r/21. Hence r = 21. The radius of the circle is 21 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The circle diagram beside the solution is drawn by the solution ('From the given information we have drawn the figure as below'), so it is a solution figure and is not attached."
+  },
+  {
+   "number": "38",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "In fig. arcs are drawn by taking vertices A, B and C of an equilateral triangle of side 10 cm, to intersect the side BC, CA and AB at their respective mid-points D, E and F. Find the area of the shaded region. (Use π = 3.14).",
+   "answer": "Each arc is drawn from a vertex of the equilateral triangle and passes through the mid-points of the two sides meeting there, so each sector has radius 10/2 = 5 cm. Every angle of an equilateral triangle is 60°, so each of the three shaded pieces is a sector of angle 60° and radius 5 cm. Area of one sector = (60°/360°) × π × 5² = 25π/6 cm². The three sectors are equal, so the shaded area = 3 × 25π/6 = 25π/2 = (25 × 3.14)/2 = 39.25 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2011",
+   "images": [
+    "ch11_q38.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question says 'In fig.' and the shaded region cannot be identified without the printed diagram, so the question figure (triangle ABC with the three arcs and mid-points D, E, F) is attached. The single-sector figure inside the solution is not attached."
+  },
+  {
+   "number": "39",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "Two circular pieces of equal radii and maximum areas, touching each other are cut out from a rectangular cardboard of dimensions 14 cm × 7 cm. find the area of the remaining cardboard. (Use π = 22/7)",
+   "answer": "Two equal circles of maximum size that touch each other fit across the 14 cm length, so each has diameter 7 cm, i.e. radius 7/2 cm. Area of the remaining cardboard = area of the rectangle − 2 × area of a circle = 14 × 7 − 2 × (22/7) × (7/2)² = 98 − (44/7) × (49/4) = 98 − 77 = 21. Hence the area of the remaining cardboard is 21 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The rectangle-with-two-circles diagram is drawn by the solution ('As per question the digram is shown below'), so it is not attached; the wording alone fixes the configuration."
+  },
+  {
+   "number": "40",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "A paper is in the form of a rectangle ABCD in which AB = 20 cm, BC = 14 cm. A semi-circular portion with BC as diameter is cut off. Find the area of the part. Use π = 22/7.",
+   "answer": "The semicircle has BC = 14 cm as diameter, so its radius is 7 cm. Area of the remaining part = area of the rectangle − area of the semicircle = 20 × 14 − ½ × (22/7) × 7² = 280 − 77 = 203. Hence the area of the remaining part is 203 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012, Foreign 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book's closing line prints the unit as '203 cm'; the quantity is an area, so it is 203 cm² — a unit typo in the printed text, not a key that conflicts with its solution. The rectangle diagram belongs to the solution and is not attached."
+  },
+  {
+   "number": "41",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "If the difference between the circumference and the radius of a circle is 37 cm, then using π = 22/7, find the circumference (in cm) of the circle.",
+   "answer": "Let r be the radius. Then 2πr − r = 37, so 2 × (22/7) × r − r = 37, i.e. r(44 − 7)/7 = 37, giving 37r/7 = 37 and r = 7 cm. Circumference = 2πr = 2 × (22/7) × 7 = 44 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "42",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "Find the area of the corresponding major sector of a circle of radius 28 cm and the central angle 45°.",
+   "answer": "The minor sector has central angle 45°, so the major sector is the remainder of the circle. Area of the major sector = area of the circle − area of the minor sector = πr²(1 − θ/360°) = (22/7) × 28 × 28 × (1 − 45°/360°) = (22/7) × 28 × 28 × 7/8 = 2156. Hence the major sector has area 2156 cm².",
+   "concept": "Minor and major",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The circle figure is drawn by the solution ('As per question statement figure is shown below'), so it is not attached."
+  },
+  {
+   "number": "43",
+   "form": "very_short",
+   "marks": 2,
+   "page": 10,
+   "stem": "Find the perimeter of the shaded region if ABCD is a square of side 21 cm and APB and CPD are semicircle. Use π = 22/7.",
+   "answer": "The boundary of the shaded region consists of the two sides AD and BC of the square together with the arcs of the two semicircles APB and CPD. Each semicircle has a side of the square, 21 cm, as its diameter, so its radius is 21/2 cm and its arc length is πr = (22/7) × (21/2) = 33 cm. Perimeter = AD + BC + 2 × 33 = 21 + 21 + 66 = 42 + 66 = 108 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 SQP 2016",
+   "images": [
+    "ch11_q43.png"
+   ],
+   "figure_required": true,
+   "ocr": "The diagram is printed with the question itself (not inside the solution) and the shaded region cannot be identified without it, so it is attached."
+  },
+  {
+   "number": "44",
+   "form": "very_short",
+   "marks": 2,
+   "page": 10,
+   "stem": "The diameters of the front and rear wheels of a tractor are 80 cm and 200 cm respectively. Find the number of revolutions of rear wheel to cover the distance which the front wheel covers in 800 revolutions.",
+   "answer": "Circumference of the front wheel = πd = (22/7) × 80 = 1760/7 cm, so in 800 revolutions it covers (1760/7) × 800 cm. Circumference of the rear wheel = (22/7) × 200 = 4400/7 cm. Number of revolutions of the rear wheel = [(1760/7) × 800] ÷ (4400/7) = (1760 × 800)/4400 = 320. Hence the rear wheel makes 320 revolutions.",
+   "concept": "Length of an arc",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  }
+ ]
+}

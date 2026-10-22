@@ -1,0 +1,358 @@
+{
+  "items": [
+    {
+      "number": "98",
+      "form": "long",
+      "marks": 5,
+      "page": 26,
+      "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 Delhi 2012",
+      "stem": "The area of a rectangle gets reduced by 9 square units, if its length is reduced by 5 units and the breadth is increased by 3 units. The area is increased by 67 square units if length is increased by 3 units and breadth is increased by 2 units. Find the perimeter of the rectangle.",
+      "answer": "Let the length of the given rectangle be x and its breadth be y, so the area of the rectangle is xy.\nAccording to the first condition: (x − 5)(y + 3) = xy − 9 ⇒ 3x − 5y = 6  ...(1)\nAccording to the second condition: (x + 3)(y + 2) = xy + 67 ⇒ 2x + 3y = 61  ...(2)\nMultiplying (1) by 3 and (2) by 5 and then adding:\n9x − 15y = 18\n10x + 15y = 305\n19x = 323 ⇒ x = 323/19 = 17.\nSubstituting x = 17 in (1): 3(17) − 5y = 6 ⇒ 5y = 51 − 6 = 45 ⇒ y = 9.\nHence, perimeter = 2(x + y) = 2(17 + 9) = 52 units.",
+      "concept": "Make coefficients equal",
+      "ocr": "This printed question sits at the head of this slice and was absent from the file; recovered from the PDF text layer. Two misprints in the book's own working are corrected here: the second condition is printed \"(x + 3)(y + 2) = xy − 67\" although the stem says the area is increased by 67, and equation (2) is printed \"2x + 5y = 61\" although the book's very next step multiplies it by 5 to get 10x + 15y = 305, i.e. (2) is 2x + 3y = 61. The corrected forms give the book's own answers x = 17, y = 9 and perimeter 52 units."
+    },
+    {
+      "number": "99",
+      "form": "long",
+      "marks": 5,
+      "page": 26,
+      "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2012",
+      "stem": "The students of a class are made to stand in rows. If 3 students are extra in a row, there would be 1 row less. If 3 students are less in a row, there would be 2 rows more. Find the number of students in the class.",
+      "answer": "Let the number of students in a row be x and the number of rows be y, so the total number of students is xy.\n(x + 3)(y − 1) = xy ⇒ xy + 3y − x − 3 = xy ⇒ −x + 3y − 3 = 0  ...(1)\n(x − 3)(y + 2) = xy ⇒ xy − 3y + 2x − 6 = xy ⇒ 2x − 3y − 6 = 0  ...(2)\nMultiplying (1) by 2: −2x + 6y − 6 = 0  ...(3)\nAdding (2) and (3): 3y − 12 = 0 ⇒ y = 4.\nSubstituting y = 4 in (1): −x + 12 − 3 = 0 ⇒ x = 9.\nTotal students = xy = 9 × 4 = 36.\nHence, there are 36 students in the class.",
+      "concept": "Add or subtract to eliminate"
+    },
+    {
+      "number": "100",
+      "form": "long",
+      "marks": 5,
+      "page": 26,
+      "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2012",
+      "stem": "The ages of two friends Ani and Biju differ by 3 years. Ani's father Dharam is twice as old as Ani and Biju is twice as old as his sister Cathy. The ages of Cathy and Dharam differ by 30 years. Find the ages of Ani and Biju.",
+      "answer": "Let the ages of Ani and Biju be x and y respectively.\nx − y = ±3  ...(1)\nAge of Ani's father Dharam = 2x years; age of Biju's sister Cathy = y/2 years.\n2x − y/2 = 30 ⇒ 4x − y = 60  ...(2)\nCase I : x − y = 3  ...(3)\nSubtracting (3) from (2): 3x = 57 ⇒ x = 19 years, and 19 − y = 3 ⇒ y = 16 years.\nCase II : x − y = −3  ...(4)\nSubtracting (4) from (2): 3x = 60 + 3 = 63 ⇒ x = 21 years, and 21 − y = −3 ⇒ y = 24 years.\nHence, Ani's age = 19 years or 21 years and Biju's age = 16 years or 24 years.",
+      "concept": "Add or subtract to eliminate",
+      "ocr": "The book prints the names in lower case in places (\"ani\"); capitalised here. MinerU dropped the line \"y = 16 years\" at the end of Case I; restored from the PDF text layer."
+    },
+    {
+      "number": "101",
+      "form": "long",
+      "marks": 5,
+      "page": 27,
+      "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2012",
+      "stem": "One says, “Give me a hundred, friend! I shall then become twice as rich as you.” The other replies, “If you give me ten, I shall be six times as rich as you.” Tell me what is the amount of their (respective) capital.",
+      "answer": "Let the amounts of their respective capitals be x and y.\nx + 100 = 2(y − 100) ⇒ x − 2y = −300  ...(1)\n6(x − 10) = y + 10 ⇒ 6x − y = 70  ...(2)\nMultiplying (2) by 2: 12x − 2y = 140  ...(3)\nSubtracting (1) from (3): 11x = 440 ⇒ x = 40.\nSubstituting x = 40 in (1): 40 − 2y = −300 ⇒ 2y = 340 ⇒ y = 170.\nHence, the amounts of their respective capitals are 40 and 170.",
+      "concept": "Make coefficients equal",
+      "ocr": "MinerU dropped the word \"I\" in \"I shall then become twice as rich as you\" and both closing quotation marks; restored from the PDF text layer."
+    },
+    {
+      "number": "102",
+      "form": "long",
+      "marks": 5,
+      "page": 27,
+      "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2015",
+      "stem": "At a certain time in a deer park, the number of heads and the number of legs of deer and human visitors were counted and it was found that there were 39 heads and 132 legs. Find the number of deer and human visitors in the park.",
+      "answer": "Let the number of deer be x and the number of humans be y.\nx + y = 39  ...(1)\n4x + 2y = 132  ...(2)\nMultiplying (1) by 2: 2x + 2y = 78  ...(3)\nSubtracting (3) from (2): 2x = 54 ⇒ x = 27.\nSubstituting in (1): 27 + y = 39 ⇒ y = 12.\nSo the number of deer = 27 and the number of human visitors = 12.",
+      "concept": "Add or subtract to eliminate",
+      "ocr": "The book prints \"At a certain time in a deer, the number of heads...\" - the word \"park\" is missing from the printed stem (the same omission is in the PDF text layer); supplied here because the next printed line says \"in the park\"."
+    },
+    {
+      "number": "103",
+      "form": "long",
+      "marks": 5,
+      "page": 27,
+      "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2012",
+      "stem": "The lengths of the sides of a triangle are 2x + y/2, 5x/3 + y + 1/2 and (2/3)x + 2y + 5/2. If the triangle is equilateral, find its perimeter.",
+      "answer": "For an equilateral triangle all three sides are equal.\n2x + y/2 = 5x/3 + y + 1/2 ⇒ (4x + y)/2 = (10x + 6y + 3)/6 ⇒ 12x + 3y = 10x + 6y + 3 ⇒ 2x − 3y = 3  ...(1)\n2x + y/2 = (2/3)x + 2y + 5/2 ⇒ (4x + y)/2 = (4x + 12y + 15)/6 ⇒ 12x + 3y = 4x + 12y + 15 ⇒ 8x − 9y = 15  ...(2)\nMultiplying (1) by 3: 6x − 9y = 9  ...(3)\nSubtracting (3) from (2): 2x = 6 ⇒ x = 3.\nSubstituting in (1): 6 − 3y = 3 ⇒ 3y = 3 ⇒ y = 1.\nSide = 2x + y/2 = 2 × 3 + 1/2 = 6.5\nPerimeter of the equilateral triangle = side × 3 = 6.5 × 3 = 19.5 cm.",
+      "concept": "Make coefficients equal",
+      "ocr": "MinerU mangled the three side expressions and the whole working block (stray \"x^2\", \"Nor - 5y = 15\", \"16x + 40x + 3\"); the side expressions and the equations 2x - 3y = 3 and 8x - 9y = 15 were recovered from the PDF text layer."
+    },
+    {
+      "number": "104",
+      "form": "long",
+      "marks": 5,
+      "page": 28,
+      "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2015",
+      "stem": "When 6 boys were admitted and 6 girls left, the percentage of boys increased from 60% to 75%. Find the original number of boys and girls in the class.",
+      "answer": "Let the number of boys be x and the number of girls be y, so the number of students = x + y.\nx/(x + y) = 60/100  ...(1)\n(x + 6)/[(x + 6) + (y − 6)] = 75/100  ...(2)\nFrom (1): 100x = 60x + 60y ⇒ 40x − 60y = 0 ⇒ 2x − 3y = 0 ⇒ 2x = 3y  ...(3)\nFrom (2): 100x + 600 = 75x + 75y ⇒ 25x − 75y = −600 ⇒ x − 3y = −24  ...(4)\nSubstituting 3y = 2x from (3) into (4): x − 2x = −24 ⇒ x = 24, and 3y = 24 × 2 ⇒ y = 16.\nHence, the number of boys is 24 and the number of girls is 16.",
+      "concept": "Substitute and reduce"
+    },
+    {
+      "number": "105",
+      "form": "long",
+      "marks": 5,
+      "page": 28,
+      "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2013",
+      "stem": "A cyclist, after riding a certain distance, stopped for half an hour to repair his bicycle, after which he completes the whole journey of 30 km at half speed in 5 hours. If the breakdown had occurred 10 km farther off, he would have done the whole journey in 4 hours. Find where the breakdown occurred and his original speed.",
+      "answer": "Let x be the distance of the place where the breakdown occurred and y be the original speed.\nx/y + (30 − x)/(y/2) = 5 ⇒ x/y + (60 − 2x)/y = 5 ⇒ x + 60 − 2x = 5y ⇒ x + 5y = 60  ...(1)\n(x + 10)/y + [30 − (x + 10)]/(y/2) = 4 ⇒ (x + 10)/y + [60 − 2(x + 10)]/y = 4 ⇒ x + 10 + 60 − 2x − 20 = 4y ⇒ −x + 50 = 4y ⇒ x + 4y = 50  ...(2)\nSubtracting (2) from (1): y = 10 km/hr.\nNow from (2): x + 40 = 50 ⇒ x = 10 km.\nThe breakdown occurred at 10 km and the original speed was 10 km/hr.",
+      "concept": "Add or subtract to eliminate"
+    },
+    {
+      "number": "106",
+      "form": "long",
+      "marks": 5,
+      "page": 28,
+      "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2012",
+      "stem": "The population of a village is 5000. If in a year, the number of males were to increase by 5% and that of females by 3% annually, the population would grow to 5202 at the end of the year. Find the number of males and females in the village.",
+      "answer": "Let the number of males be x and the number of females be y.\nx + y = 5000  ...(1)\nx + (5/100)x + y + (3y/100) = 5202 ⇒ (5x + 3y)/100 + 5000 = 5202 ⇒ 5x + 3y = (5202 − 5000) × 100 = 20200  ...(2)\nMultiplying (1) by 3: 3x + 3y = 15000  ...(3)\nSubtracting (3) from (2): 2x = 5200 ⇒ x = 2600.\nSubstituting the value of x in (1): 2600 + y = 5000 ⇒ y = 2400.\nThus the number of males is 2600 and the number of females is 2400.",
+      "concept": "Make coefficients equal",
+      "ocr": "The book itself prints the back-substitution line as \"2600 - y = 5000\" (a sign misprint, confirmed in the PDF text layer); the correct line 2600 + y = 5000 is used here and it gives the book's own answer y = 2400."
+    },
+    {
+      "number": "107",
+      "form": "long",
+      "marks": 5,
+      "page": 28,
+      "section_heading": "FIVE MARKS QUESTIONS | Board 2019 Delhi",
+      "stem": "A father's age is three times the sum of the ages of his two children. After 5 years his age will be two times the sum of their ages. Find the present age of the father.",
+      "answer": "Let x be the age of the father and y be the sum of the ages of his children.\nAfter 5 years, father's age = (x + 5) years and the sum of the ages of his children = (y + 10) years.\nx = 3y  ...(1)\nx + 5 = 2(y + 10) ⇒ x − 2y = 15  ...(2)\nSolving (1) and (2): 3y − 2y = 15 ⇒ y = 15.\nSubstituting in (1): x = 3 × 15 = 45.\nHence, the father's present age is 45 years.",
+      "concept": "Substitute and reduce",
+      "ocr": "MinerU scrambled this stem completely (\"07. A father's age is three times the sum of the ages tofwohits mtweso tchei sduremn.ofAtftherir5agyesa.rsFihnids tahge pwriellsebnet age of the father.\") and lost the leading \"1\" of the question number. Stem and number restored from the PDF text layer."
+    },
+    {
+      "number": "108",
+      "form": "long",
+      "marks": 5,
+      "page": 29,
+      "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD",
+      "stem": "Sumit is 3 times as old as his son. Five years later he shall be two and a half times as old as his son. How old is Sumit at present?",
+      "answer": "Let x be Sumit's present age and y be his son's present age.\nx = 3y  ...(1)\nAfter five years, Sumit's age = x + 5 and his son's age = y + 5.\nx + 5 = 2½(y + 5) ⇒ x + 5 = (5/2)(y + 5) ⇒ 2(x + 5) = 5(y + 5) ⇒ 2x + 10 = 5y + 25 ⇒ 2x = 5y + 15.\nUsing (1): 2(3y) = 5y + 15 ⇒ 6y = 5y + 15 ⇒ y = 15.\nFrom (1): x = 3y = 3 × 15 = 45.\nHence, Sumit's present age is 45 years.",
+      "concept": "Substitute and reduce"
+    },
+    {
+      "number": "109",
+      "form": "case_study",
+      "marks": 4,
+      "page": 29,
+      "section_heading": "COMPETENCEY BASED QUESTIONS | Board 2023 OD Standard",
+      "stem": "A coaching institute of Mathematics conducts classes in two batches I and II and fees for rich and poor children are different. In batch I, there are 20 poor and 5 rich children, whereas in batch II, there are 5 poor and 25 rich children. The total monthly collection of fees from batch I is ₹9000 and from batch II is ₹26,000. Assume that each poor child pays ₹x per month and each rich child pays ₹y per month.\nBased on the above information, answer the following questions:\n(i) Represent the information given above in terms of x and y.\n(ii) Find the monthly fee paid by a poor child.\n(iii) Find the difference in the monthly fee paid by a poor child and a rich child.\n(iv) If there are 10 poor and 20 rich children in batch II, what is the total monthly collection of fees from batch II?",
+      "answer": "(i) Monthly fee paid by each poor child = ₹x and by each rich child = ₹y.\nBatch I (20 poor, 5 rich): 20x + 5y = 9000  ...(1)\nBatch II (5 poor, 25 rich): 5x + 25y = 26000  ...(2)\n(ii) Multiplying (1) by 5: 100x + 25y = 45000  ...(3)\nSubtracting (2) from (3): 95x = 19000 ⇒ x = 19000/95 = 200. The monthly fee paid by a poor child is ₹200.\n(iii) Substituting x = 200 in (1): 20 × 200 + 5y = 9000 ⇒ 5y = 5000 ⇒ y = 1000. The monthly fee paid by a rich child is ₹1000, so the difference = 1000 − 200 = ₹800.\n(iv) Poor children = 10 and rich children = 20, so the total monthly collection from batch II = 10 × 200 + 20 × 1000 = 2000 + 20000 = ₹22000.",
+      "concept": "Make coefficients equal",
+      "images": [
+        "7a1ff0be8c720ca6957d71f7690926d56886c9c39d3778a7d69c6994d9bac569.jpg"
+      ],
+      "figure_required": false,
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii",
+        "iv"
+      ],
+      "ocr": "Part (iv) of the printed solution contradicts its own earlier working: it prints \"= 10 x 200 + 200 x 800 = 2000 + 16000 = 18000\". With its own values (200 per poor child, 1000 per rich child) the collection is 10 x 200 + 20 x 1000 = 22000, which is recorded here."
+    },
+    {
+      "number": "110",
+      "form": "case_study",
+      "marks": 4,
+      "page": 30,
+      "section_heading": "COMPETENCEY BASED QUESTIONS",
+      "stem": "Lawn Service : Nitin and his sons run a lawn service, which includes mowing, edging, trimming, and aerating a lawn. His fixed cost includes insurance, his salary, and monthly payments on equipment, and amounts to Rs 4000 per month. The variable costs include gas, oil, hourly wages for his employees, and miscellaneous expenses, which run about Rs 75 per lawn. The average charge for full service lawn care is Rs 115 per visit.\n(i) How many lawns Nitin must service each month to break even?\n(ii) What is the revenue required to break even?\n(iii) What is the revenue if they get 90 services?",
+      "answer": "Let x represent the number of services. The break even point occurs when cost is equal to revenue; let y represent both cost and revenue at break even, since they are equal.\n(i) Fixed cost = 4000 and variable cost for each service = 75, so the total cost for x services is y = 75x + 4000. The charge per visit is 115, so the total revenue for x services is y = 115x.\nAt break even, 115x = 75x + 4000 ⇒ 40x = 4000 ⇒ x = 100. Thus 100 lawns/month are required for break even.\n(ii) Revenue required to break even: y = 115 × 100 = 11500 Rs per month.\n(iii) Revenue for 90 services: y = 115x = 115 × 90 = 10350 Rs.",
+      "concept": "Situations giving two equations",
+      "images": [
+        "088ee138fc3bdb860b10d236f798a628ed0e7feef434251cb1972064a7167c23.jpg"
+      ],
+      "figure_required": false,
+      "sub_parts": [
+        "i",
+        "ii",
+        "iii"
+      ],
+      "ocr": "The book prints part (iii) as \"115 x 90 = 1015 Rs\" (confirmed in the PDF text layer) - an arithmetic misprint; the correct product 10350 is recorded here."
+    },
+    {
+      "number": "111",
+      "form": "case_study",
+      "marks": 4,
+      "page": 30,
+      "section_heading": "COMPETENCEY BASED QUESTIONS",
+      "stem": "Production of Frying Pan : Due to high market demand, a manufacturer decides to introduce a new line of frying pan. By using existing factory space and retraining some employees, fixed costs are estimated at Rs 84000/mo. The components to assemble and test each frying pan are expected to run Rs 450 per unit. If market research shows consumers are willing to pay at least Rs 690 for this product, find\n(i) How many units must be made and sold each month to break even?\n(ii) What is the revenue required to break even?",
+      "answer": "Let x represent the number of units made. The break even point occurs when cost is equal to revenue; let y represent both cost and revenue at break even, since they are equal.\n(i) Fixed cost = 84000 Rs and variable cost for each unit = 450 Rs, so the total cost for making x units is y = 450x + 84000. The projected revenue is y = 690x.\nAt break even, 450x + 84000 = 690x ⇒ 45x + 8400 = 69x ⇒ 8400 = 24x ⇒ x = 350. Thus 350 units/month are required for break even.\n(ii) Revenue required to break even: y = 690 × 350 = 241500 Rs per month.",
+      "concept": "Situations giving two equations",
+      "images": [
+        "f2ebe2f19fe958bf8fd404e3d31f422ad82696afd8eb5db02dd1806eaf991ee6.jpg"
+      ],
+      "figure_required": false,
+      "sub_parts": [
+        "i",
+        "ii"
+      ],
+      "ocr": "In the markdown the tail of Q112's solution (\"5a = 11590 ... 2318 adult and 1482 child tickets\") is spliced into the middle of Q111's solution; the PDF text layer shows the two solutions are separate, and that working has been returned to Q112."
+    },
+    {
+      "number": "112",
+      "form": "case_study",
+      "marks": 4,
+      "page": 31,
+      "section_heading": "COMPETENCEY BASED QUESTIONS",
+      "stem": "Theatre Productions : A play is a work of drama, usually consisting mostly of dialogue between characters and intended for theatrical performance rather than just reading. Comedies are plays which are designed to be humorous. Comedies are often filled with witty remarks, unusual characters, and strange circumstances. Certain comedies are geared toward different age groups.\nAt a recent production of a comedy drama, the Ravindra Rangmanch Theater brought in a total of Rs 304950 in revenue. If adult tickets were Rs 90 and children's tickets were Rs 65, how many tickets of each type were sold if 3800 tickets in all were sold?",
+      "answer": "Let a represent the number of adult tickets sold and c represent the number of child tickets sold.\nSince adult tickets were Rs 90, children's tickets were Rs 65 and the revenue was Rs 304950:\n90a + 65c = 304950 ⇒ 18a + 13c = 60990  ...(1)\nSince 3800 tickets in all were sold: a + c = 3800  ...(2)\nMultiplying (2) by 13: 13a + 13c = 49400  ...(3)\nSubtracting (3) from (1): 5a = 11590 ⇒ a = 11590/5 = 2318.\nSubstituting a = 2318 in (2): 2318 + c = 3800 ⇒ c = 3800 − 2318 = 1482.\nThus 2318 adult tickets and 1482 child tickets were sold.",
+      "concept": "Make coefficients equal",
+      "images": [
+        "7d4b5ae9780d8e9635b5597f2168350fd4d30dea3ca3b0ba08f49da694b82608.jpg"
+      ],
+      "figure_required": false,
+      "ocr": "The printed solution mislabels its own equation numbers (\"Multiply the equation (2) by 13\" and \"Subtracting (4) from (2)\" where the working actually multiplies the ticket-count equation) and writes \"a = 3800 - 2318\" where it means c; renumbered consistently here. The working itself was recovered from the PDF text layer because the markdown had spliced it into Q111."
+    },
+    {
+      "number": "113",
+      "form": "case_study",
+      "marks": 4,
+      "page": 31,
+      "section_heading": "COMPETENCEY BASED QUESTIONS",
+      "stem": "Alumni Contributions : Alumni can help college sustain through their donations and voluntary help. Alumni can also be helpful in providing valuable financial, intellectual and human resource. If a big chunk of money that institutes require comes from alumni, it will help those institutes remain competitive.\nAlumni association of NIT Kuruskhstra donated Rs 100,000 to his alma mater. The college used the funds to make a loan to a science student at 7% interest and a loan to a engineering student at 6% interest. That year the college earned Rs 6350 in interest.\n(i) How much was loaned to engineering student?\n(ii) How much was loaned to science student?",
+      "answer": "Let s represent the loan made to the science student and n represent the loan made to the engineering student.\nThe college earned Rs 6350 in interest, at 7% from the science student and 6% from the engineering student:\n(7/100)s + (6/100)n = 6350 ⇒ 0.07s + 0.06n = 6350  ...(1)\nSince the total amount was Rs 100,000: s + n = 100000  ...(2)\nSubstituting s = 100000 − n from (2) in (1):\n0.07(100000 − n) + 0.06n = 6350 ⇒ 7000 − 0.07n + 0.06n = 6350 ⇒ −0.01n = −650 ⇒ n = 65000.\nSubstituting n = 65000 in (2): s = 100000 − 65000 = 35000.\n(i) Rs 65000 was loaned to the engineering student.\n(ii) Rs 35000 was loaned to the science student.",
+      "concept": "Express one variable",
+      "images": [
+        "ee046e6247f281da24ed7feb1c163aa8922c8d479ca1a026bddbae7a1151fed5.jpg"
+      ],
+      "figure_required": false,
+      "sub_parts": [
+        "i",
+        "ii"
+      ],
+      "ocr": "\"NIT Kuruskhstra\" is the book's own spelling (confirmed in the PDF text layer) and is kept verbatim."
+    },
+    {
+      "number": "114",
+      "form": "case_study",
+      "marks": 4,
+      "page": 32,
+      "section_heading": "COMPETENCEY BASED QUESTIONS",
+      "stem": "Airport Walkways : A moving walkway, also known as an autowalk, is a slow-moving conveyor mechanism that transports people across a horizontal or inclined plane over a short to medium distance. Moving walkways can be used by standing or walking on them. They are often installed in pairs, one for each direction.\nAs part of an algebra field trip, Jenish takes his class to the airport to use their moving walkways for a demonstration. The class measures the longest walkway, which turns out to be 256 ft long. Using a stop watch, Jenish shows it takes him just 32 sec to complete the walk going in the same direction as the walkway. Walking in a direction opposite the walkway, it takes him 320 sec (10 times as long!). The next day in class, Jenish hands out a two question quiz:\n(i) What is my (Jenish's) normal walking speed?\n(ii) What was the speed of the walkway in feet per second?",
+      "answer": "Let w represent the speed of the walkway and j represent Jenish's walking speed.\n(i) In the direction of the walkway: 32(j + w) = 256 ⇒ j + w = 8  ...(1)\nIn the direction opposite the walkway: 320(j − w) = 256 ⇒ 10j − 10w = 8  ...(2)\nMultiplying (1) by 10: 10j + 10w = 80  ...(3)\nAdding (2) and (3): 20j = 88 ⇒ j = 88/20 = 4.4 ft/sec.\n(ii) Substituting j = 4.4 in (1): 4.4 + w = 8 ⇒ w = 8 − 4.4 = 3.6 ft/sec.",
+      "concept": "Add or subtract to eliminate",
+      "images": [
+        "240d2052147d33a3aa13b16a460c2a7d9a49241a91cb8aab3dad84284e591c8d.jpg"
+      ],
+      "figure_required": false,
+      "sub_parts": [
+        "i",
+        "ii"
+      ]
+    },
+    {
+      "number": "115",
+      "form": "case_study",
+      "marks": 4,
+      "page": 32,
+      "section_heading": "COMPETENCEY BASED QUESTIONS",
+      "stem": "Nutrition : Shalvi wants to use milk and orange juice to increase the amount of calcium and vitamin A in her daily diet. An ounce of milk contains 38 milligrams of calcium and 56 micrograms of vitamin A. An ounce of orange juice contains 5 milligrams of calcium and 60 micrograms of vitamin A. How many ounces of milk and orange juice should she drink each day to provide exactly 550 milligrams of calcium and 1,200 micrograms of vitamin A?",
+      "answer": "Let x represent the number of ounces of milk and y represent the number of ounces of orange juice. The given information is summarised in the table:\n<html><body><table><tr><td></td><td>Milk</td><td>Juice Orange</td><td>Total Needed</td></tr><tr><td>Calcium</td><td>38x</td><td>5y</td><td>550</td></tr><tr><td>Vitamin A</td><td>56x</td><td>60y</td><td>1,200</td></tr></table></body></html>\nFor calcium: 38x + 5y = 550  ...(1)\nFor vitamin A: 56x + 60y = 1200  ...(2)\nMultiplying (1) by 12: 456x + 60y = 6600  ...(3)\nSubtracting (2) from (3): 400x = 5400 ⇒ x = 5400/400 = 13.5.\nSubstituting x = 13.5 in (1): 38 × 13.5 + 5y = 550 ⇒ 513 + 5y = 550 ⇒ 5y = 37 ⇒ y = 37/5 = 7.4.\nThus Shalvi should drink 13.5 ounces of milk and 7.4 ounces of orange juice.",
+      "concept": "Make coefficients equal",
+      "images": [
+        "c101c742198d041c38f7fa92be145b6feb84d2190ab5e3ac6c2f84c9dcac7a05.jpg"
+      ],
+      "figure_required": false,
+      "ocr": "The book prints \"y = 37/5 = 7.2\" and concludes \"7.2 ounce of orange juices\" (confirmed in the PDF text layer); 37/5 = 7.4, so the corrected value is recorded. The solution table is kept verbatim."
+    },
+    {
+      "number": "116",
+      "form": "case_study",
+      "marks": 4,
+      "page": 33,
+      "section_heading": "COMPETENCEY BASED QUESTIONS",
+      "stem": "CHEMISTRY : When you mix two or more substances with different levels of concentration, the final solution does not simply equate to the combined concentration levels of the original ingredients. It depends on the concentration of each solution.\nRahman works as a chemist in Biolab Pvt Ltd at Jaipur. He has two solutions of hydrochloric acid in stock: a 50% solution and an 80% solution. He wants to make 100 millilitres of a 68% solution. How much of each should be used to obtain 100 millilitres of a 68% solution?",
+      "answer": "Let x represent the amount of the 50% solution and y represent the amount of the 80% solution.\nSince 100 millilitres are required: x + y = 100  ...(1)\nSince 68% of the 100 millilitres must be acid: 0.50x + 0.80y = 0.68(100) ⇒ 0.50x + 0.80y = 68  ...(2)\nMultiplying (2) by 2: x + 1.60y = 136  ...(3)\nSubtracting (1) from (3): 0.60y = 36 ⇒ y = 36/0.60 = 60 millilitres.\nSubstituting y = 60 in (1): x = 40 millilitres.\nThus the chemist must use 40 ml of the 50% solution and 60 ml of the 80% solution.",
+      "concept": "Make coefficients equal",
+      "images": [
+        "9480bf8b3bf7413f1442dd893e902cb2e9686ee2f71b1ddd2fd09a3e7c504eec.jpg"
+      ],
+      "figure_required": false
+    },
+    {
+      "number": "117",
+      "form": "case_study",
+      "marks": 4,
+      "page": 33,
+      "section_heading": "COMPETENCEY BASED QUESTIONS",
+      "stem": "Nutrition : Pathmeda village near Sanchore has Gopal Govardhan Gaushala, the largest Gaushala in India, spread over 200 acres. The gaushala takes care of more than 18,000 cattle.\nCows of Pathmeda gaushala in an experiment are to be kept on a strict diet. Each cow is to receive, among other things, 20 grams of protein and 6 grams of fat.\nThe laboratory technician is able to purchase two food mixes of the following compositions: Mix A has 10% protein and 6% fat, Mix B has 20% protein and 2% fat. How many grams of each mix should be used to obtain the right diet for a single cow?",
+      "answer": "Let x represent the number of grams of Mix A and y represent the number of grams of Mix B. The following table is prepared:\n<html><body><table><tr><td></td><td>Mix A</td><td>Mix B</td><td>Total Nutrition</td></tr><tr><td>Protein</td><td>0.10x</td><td>0.20y</td><td>20</td></tr><tr><td>Fat</td><td>0.06x</td><td>0.02y</td><td>6</td></tr></table></body></html>\nFor the protein requirement: 0.1x + 0.2y = 20 ⇒ x + 2y = 200  ...(1)\nFor the fat requirement: 0.06x + 0.02y = 6 ⇒ 6x + 2y = 600  ...(2)\nSubtracting (1) from (2): 5x = 400 ⇒ x = 80.\nSubstituting x = 80 in (1): 80 + 2y = 200 ⇒ 2y = 120 ⇒ y = 60.\nThus 80 grams of Mix A and 60 grams of Mix B should be used.",
+      "concept": "Add or subtract to eliminate",
+      "images": [
+        "cb818337dc3a8c80a6b269101d3b127174983e90a7740d64652a950419badd0e.jpg",
+        "1d8ab6bfd8c76a5675bf11aac9e3e6de70f29f779ed88a6aaf98960ad3b62259.jpg"
+      ],
+      "figure_required": false,
+      "ocr": "MinerU dropped the printed question number and the word \"Nutrition\" heading number; the PDF text layer shows the printed number is 117. The solution table is kept verbatim."
+    },
+    {
+      "number": "118",
+      "form": "case_study",
+      "marks": 4,
+      "page": 34,
+      "section_heading": "COMPETENCEY BASED QUESTIONS",
+      "stem": "Gold Mixing : A jeweller has two bars of gold alloy in stock, one of 12 carats and the other of 18 carats (24 carat gold is pure gold, 12 carat is 12/24 pure, 18 carat gold is 18/24 pure, and so on). How many grams of each alloy must be mixed to obtain 10 grams of 14 carat gold?",
+      "answer": "Let x represent the grams of 12 carat gold and y represent the grams of 18 carat gold.\nSince 10 grams of gold is required: x + y = 10  ...(1)\nSince the purity of the gold must be 14 carat: (12/24)x + (18/24)y = (14/24) × 10 ⇒ 12x + 18y = 140  ...(2)\nMultiplying (1) by 18 and subtracting (2) from it: 6x = 40 ⇒ x = 40/6 = 6⅔.\nSubstituting x = 6⅔ in (1): 6⅔ + y = 10 ⇒ y = 10 − 6⅔ = 3⅓.\nThus 6⅔ grams of 12 carat gold and 3⅓ grams of 18 carat gold are required to make 10 grams of 14 carat gold.",
+      "concept": "Make coefficients equal",
+      "images": [
+        "657d141b6199d3e7472d5ed22401a6891af1aa50388fa7c70fb1508b53ccd436.jpg"
+      ],
+      "figure_required": false
+    },
+    {
+      "number": "119",
+      "form": "case_study",
+      "marks": 4,
+      "page": 34,
+      "section_heading": "COMPETENCEY BASED QUESTIONS",
+      "stem": "BREAK-EVEN ANALYSIS : It costs a small recording company Rs 176,800 to prepare a compact disc. This is a one-time fixed cost that covers recording, package design, and so on. Variable costs, including such things as manufacturing, marketing, and royalties, are Rs 46 per CD.\n(i) If the CD is sold to music shops for Rs 80 each, how many must be sold for the company to break even?\n(ii) What is the break even revenue?",
+      "answer": "Let x represent the number of CDs made. The break even point occurs when cost is equal to revenue; let y represent both cost and revenue at break even, since they are equal.\nFixed cost = 176800 Rs and variable cost for each CD = 46 Rs, so the total cost for making x CDs is y = 46x + 176800. The projected revenue is y = 80x.\nAt break even, 46x + 176800 = 80x ⇒ 176800 = 34x ⇒ x = 176800/34 = 5200.\nSubstituting x = 5200 in y = 80x gives y = 416000.\n(i) 5200 CDs must be sold for the company to break even.\n(ii) The break even revenue is Rs 416000.",
+      "concept": "Situations giving two equations",
+      "images": [
+        "4dcef05d13eb1bf9f833b2ff10a2769b2d2bb399eb36989ab038d9d2fbbddffa.jpg"
+      ],
+      "figure_required": false,
+      "sub_parts": [
+        "i",
+        "ii"
+      ]
+    },
+    {
+      "number": "120",
+      "form": "case_study",
+      "marks": 4,
+      "page": 35,
+      "section_heading": "COMPETENCEY BASED QUESTIONS",
+      "stem": "Production : Ridhima Electronics Pvt. Ltd is main supplier for CASIO for electronics component. They manufactures keyboards and screens for graphing calculators at plants in Bangalore and Bhiwadi. The hourly production rates at each plant are given in the table. How many hours should each plant be operated to fill an order for exactly 4,000 keyboards and exactly 4,000 screens?\n<html><body><table><tr><td>Plant</td><td>Keyboards</td><td>Screens</td></tr><tr><td>Bangalore</td><td>40</td><td>32</td></tr><tr><td>Bhiwadi</td><td>20</td><td>32</td></tr></table></body></html>",
+      "answer": "Let x represent the number of hours the Bangalore plant is operated and y represent the number of hours the Bhiwadi plant is operated. The production is summarised as:\n<html><body><table><tr><td></td><td>Bangalore</td><td>Bhiwadi</td><td>Requirement</td></tr><tr><td>Keyboards</td><td>40x</td><td>20y</td><td>4000</td></tr><tr><td>Screens</td><td>32x</td><td>32y</td><td>4000</td></tr></table></body></html>\nSince 4000 keyboards are required: 40x + 20y = 4000 ⇒ 2x + y = 200  ...(1)\nSince 4000 screens are required: 32x + 32y = 4000 ⇒ x + y = 125  ...(2)\nSubtracting (2) from (1): x = 75 hours.\nSubstituting in (2): 75 + y = 125 ⇒ y = 125 − 75 = 50 hours.\nThus the Bangalore plant should be operated for 75 hours and the Bhiwadi plant for 50 hours.",
+      "concept": "Add or subtract to eliminate",
+      "images": [
+        "a81e6d2de93bda255e00586577542cbb0ad8dba589b68895f7d90d16cbc5fbd1.jpg"
+      ],
+      "figure_required": false,
+      "ocr": "MinerU collapsed the screens equation into \"32x + 32y / x + y = 4000\", losing the reduced right-hand side 125; recovered from the PDF text layer. The question table and the solution table are kept verbatim."
+    },
+    {
+      "number": "121",
+      "form": "case_study",
+      "marks": 4,
+      "page": 35,
+      "section_heading": "COMPETENCEY BASED QUESTIONS",
+      "stem": "NUTRITION : Orange trees thrive in warm, Mediterranean climates where there is no threat of frost. This full-sun plant produces the best fruit when provided with optimal moisture, light and nutrition, in the form of fertilization. Orange trees require fertilization three times per year. You need to increase fertilizer amounts as the tree ages and becomes established. Complete nutrition is essential for a healthy tree.\nA fruit grower can use two types of fertilizer in an orange grove, brand A and brand B. Each bag of brand A contains 8 pounds of nitrogen and 4 pounds of phosphoric acid. Each bag of brand B contains 7 pounds of nitrogen and 7 pounds of phosphoric acid. Tests indicate that the grove needs 720 pounds of nitrogen and 500 pounds of phosphoric acid.\n(i) How many bags of brand A should be used to provide the required amounts of nitrogen and phosphoric acid?\n(ii) How many bags of brand B should be used to provide the required amounts of nitrogen and phosphoric acid?",
+      "answer": "Let a represent the requirement of bags of brand A and b represent the requirement of bags of brand B. The requirement is summarised as:\n<html><body><table><tr><td></td><td>Brand A</td><td>Brand B</td><td>Requirement</td></tr><tr><td>Nitrogen</td><td>8a</td><td>7b</td><td>720</td></tr><tr><td>Phosphoric acid</td><td>4a</td><td>7b</td><td>500</td></tr></table></body></html>\n(i) Since the grove needs 720 pounds of nitrogen: 8a + 7b = 720  ...(1)\nSince the grove needs 500 pounds of phosphoric acid: 4a + 7b = 500  ...(2)\nSubtracting (2) from (1): 4a = 220 ⇒ a = 55. Thus 55 bags of brand A are required.\n(ii) Multiplying (2) by 2: 8a + 14b = 1000  ...(3)\nSubtracting (1) from (3): 7b = 280 ⇒ b = 280/7 = 40. Thus 40 bags of brand B are required.",
+      "concept": "Add or subtract to eliminate",
+      "images": [
+        "fb292c7e5c865cc95bd79bfea6a8d5e6b2da2d3ed1b0b6decadb197b5811a5fb.jpg"
+      ],
+      "figure_required": false,
+      "sub_parts": [
+        "i",
+        "ii"
+      ]
+    },
+    {
+      "number": "122",
+      "form": "case_study",
+      "marks": 4,
+      "page": 36,
+      "section_heading": "COMPETENCEY BASED QUESTIONS",
+      "stem": "Orbital Launches : In 2013 there was a total of 81 commercial and noncommercial orbital launches worldwide. In addition, the number of noncommercial orbital launches was twelve more than twice the number of commercial orbital launches. Determine the number of commercial and noncommercial orbital launches in 2013.",
+      "answer": "Let x and y be the number of commercial and non-commercial orbital launches.\nSince there were 81 launches in all in 2013: x + y = 81  ...(1)\nSince the number of noncommercial launches was twelve more than twice the number of commercial launches: y − 2x = 12  ...(2)\nSubtracting (2) from (1): x + y − y + 2x = 81 − 12 ⇒ 3x = 69 ⇒ x = 23.\nSubstituting x = 23 in (1): y = 81 − 23 = 58.\nSo the number of commercial and non-commercial orbital launches are 23 and 58 respectively.",
+      "concept": "Add or subtract to eliminate",
+      "images": [
+        "70892a77906b975e36d3c2978647d1af4bc733bbf5531720d97b996459735e93.jpg"
+      ],
+      "figure_required": false,
+      "ocr": "MinerU emptied the final back-substitution block (only \\phantom placeholders survived); the lines y = 81 - 23 = 58 were restored from the PDF text layer."
+    }
+  ]
+}

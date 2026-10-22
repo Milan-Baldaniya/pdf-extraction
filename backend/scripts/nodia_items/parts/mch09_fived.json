@@ -1,0 +1,144 @@
+{
+ "items": [
+  {
+   "number": "114",
+   "form": "case_study",
+   "marks": 4,
+   "page": 44,
+   "stem": "Height of a Door : From a point on the floor the angle of elevation to the top of a door is 30°, while the angle of elevation to the ceiling above the door is 60°. The ceiling is 6 metre above the floor.\n(i) What is the vertical dimension of the door ?\n(ii) Find the distance of the point from door.",
+   "answer": "Let h be the height of the door and d the distance of the point on the floor from the door.\nThe ceiling is 6 m above the floor and subtends 60° at the point, so tan 60° = 6/d, giving √3 = 6/d and d = 6/√3 = 2√3 = 3.464 m.\nThe top of the door subtends 30° at the same point, so tan 30° = h/d, giving 1/√3 = h/(2√3) and h = 2√3/√3 = 2 m.\n(i) The vertical dimension of the door is 2 metre.\n(ii) The point is 2√3 ≈ 3.464 metre from the door.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "CONFLICT: the printed solution writes d = 6/√3 = 2√3 m = 2 × 1.732 = 3.564 m and repeats 3.564 m in the key, but 2 × 1.732 = 3.464. The exact value 2√3 in the same solution wins, so the answer is given as 3.464 m. Counted in contradicted_keys."
+  },
+  {
+   "number": "115",
+   "form": "case_study",
+   "marks": 4,
+   "page": 44,
+   "stem": "Sonar : It is a machine that uses underwater sound waves to find other objects in the sea. A sonar can work by sending out sound and listening for echoes (active sonar), like a radar, or by listening for sound made by the object it is trying to find.\nThe sonar of a navy cruiser detects a sub marine that is 1234 meter from the cruiser. The angle between the water line and the submarine is 30°. How deep is the submarine?",
+   "answer": "Let d be the depth of the submarine below the surface. The slant line from the cruiser to the submarine is 1234 m long and makes 30° with the water line, so d is the side opposite that angle.\nsin 30° = d/1234\n1/2 = d/1234\nd = 1234/2 = 617 m.\nThe submarine is 617 m below the level of the sea.",
+   "concept": "Sight below the horizontal",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins at the foot of page 44 and its data (1234 m, 30°) continues on page 45; the illustration only repeats those two printed values, so no figure is attached."
+  },
+  {
+   "number": "116",
+   "form": "case_study",
+   "marks": 4,
+   "page": 45,
+   "stem": "Drawbridge : A drawbridge is a bridge that can be moved in order to stop or allow passage across it. Modern drawbridges are often built across large, busy waterways. They can be lifted to allow large ships to pass or lowered to allow land vehicles or pedestrians to cross.\nA drawbridge is 60 metre long when stretched across a river. As shown in the figure, the two sections of the bridge can be rotated upward through an angle of 30°.\n(i) If the water level is 5 metre below the closed bridge, find the height h between the end of a section and the water level when the bridge is fully open.\n(ii) How far apart are the ends of the two sections when the bridge is fully opened, as shown in the figure?",
+   "answer": "Each section of the bridge is 60/2 = 30 m long. Let y be the rise of the free end of a section above the closed roadway and x the horizontal reach of that section when it is open.\nsin 30° = y/30, so 1/2 = y/30 and y = 15 m. The roadway is 5 m above the water, so h = y + 5 = 15 + 5 = 20 m.\ncos 30° = x/30, so √3/2 = x/30 and x = 15√3 m.\nThe gap between the two free ends is d = 60 − x − x = 60 − 30√3 = 30(2 − √3) = 30 × 0.268 = 8.04 m.\n(i) When the bridge is fully open the end of a section is 20 metre above the water level.\n(ii) The ends of the two sections are 8.04 metre apart.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch09_q116.png"
+   ],
+   "figure_required": true,
+   "ocr": "Stem begins on page 45 and its numbered parts run onto page 46."
+  },
+  {
+   "number": "117",
+   "form": "case_study",
+   "marks": 4,
+   "page": 46,
+   "stem": "Water Tower : A water tower is a building that is used to hold and give out water. It is almost always built on a high place. It works because a pump gives water to the tower, and gravity makes the saved water go out to the places that need water. Those places are connected to the tower by pipes. A water tower is good when there is no power because it uses gravity to send out the water.\nA water tower is located 60 meter from a building (see the figure). From a window in the building, an observer notes that the angle of elevation to the top of the tower is 60° and that the angle of depression to the bottom of the tower is 30°.\n(i) How tall is the tower?\n(ii) How high is the window?",
+   "answer": "Let h₁ be the height of the top of the tower above the window and h₂ the height of the window above the ground. The horizontal distance from the window to the tower is 60 m.\nLooking up: tan 60° = h₁/60, so √3 = h₁/60 and h₁ = 60√3 = 60 × 1.732 = 103.92 m.\nLooking down: tan 30° = h₂/60, so 1/√3 = h₂/60 and h₂ = 60/√3 = 20√3 = 20 × 1.732 = 34.64 m.\nHeight of the tower = h₁ + h₂ = 103.92 + 34.64 = 138.56 m, that is 80√3 m.\n(i) The tower is 138.56 m tall.\n(ii) The window is h₂ = 20√3 ≈ 34.64 m above the ground.",
+   "concept": "Allowing for the observer's height",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "CONFLICT: the printed key says \"Height of the window is 103.56 meter\", but the solution defines h₂ as the height of the window and computes h₂ = 20√3 = 34.64 m; 103.56 is the mis-multiplied value of h₁ = 60√3, which the same solution then adds as 103.92 to reach the correct total 138.56 m. The solution wins, so the window height is 34.64 m. Counted in contradicted_keys. The question illustration also prints the upward angle as 45° where the text and the whole solution use 60°, so no figure is attached."
+  },
+  {
+   "number": "118",
+   "form": "case_study",
+   "marks": 4,
+   "page": 46,
+   "stem": "Clinometer : A clinometer is a tool that is used to measure the angle of elevation, or angle from the ground, in a right - angled triangle. We can use a clinometer to measure the height of tall things that you can't possibly reach to the top of, flag poles, buildings, trees.\nRavish got a clinometer from school lab and started the measuring elevation angle in surrounding. He saw a building on which society logo is painted on wall of building.\nFrom a point P on the ground level, the angle of elevation of the roof of the building is 45°. The angle of elevation of the centre of logo is 30° from same point. The point P is at a distance of 24 m from the base of the building.\n(i) What is the height of the building logo from ground ?\n(ii) What is the height of the building from ground ?\n(iii) What is the aerial distance of the point P from the top of the building ?\n(iv) If the point of observation P is moved 9 m towards the base of the building, then the angle of elevation θ of the logo on building is given by\n(a) tan θ = √3   (b) tan θ = 2/√3   (c) tan θ = 1/2   (d) tan θ = 8√3/15\n(v) In above case the angle of elevation φ of the top of building is given by\n(a) tan φ = 1.6   (b) tan φ = 1.5   (c) tan φ = 0.75   (d) tan φ = 0.8",
+   "answer": "Let A be the foot of the building, B the centre of the logo and C the top of the building, with PA = 24 m.\n(i) In triangle PAB, tan 30° = AB/PA, so 1/√3 = AB/24 and AB = 24/√3 = 8√3 m. The logo is 8√3 ≈ 13.86 m above the ground.\n(ii) In triangle APC, tan 45° = AC/AP, so 1 = AC/24 and AC = 24 m. The building is 24 m high.\n(iii) The aerial distance PC satisfies cos 45° = AP/PC, so 1/√2 = 24/PC and PC = 24√2 ≈ 33.94 m.\n(iv) Moving P 9 m nearer gives AP = 24 − 9 = 15 m, so tan θ = AB/AP = 8√3/15. Option (d) is correct.\n(v) With the same AP = 15 m, tan φ = AC/AP = 24/15 = 8/5 = 1.6. Option (a) is correct.",
+   "concept": "Angle of elevation",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Question begins on page 46 with the clinometer photograph and building picture and its parts continue on page 47; every measurement the parts need (24 m, 30°, 45°, 9 m) is printed in the text, so no figure is attached. Parts (iv) and (v) are printed as four-option multiple choice inside a multi-part competency question, so they are kept in the stem rather than made a separate mcq item. In the printed working for (iii) the line \"cos 45° = AP/AC\" is followed by \"1/√2 = 24/PC\"; the label slip does not change the result PC = 24√2 m."
+  },
+  {
+   "number": "119",
+   "form": "case_study",
+   "marks": 4,
+   "page": 47,
+   "stem": "A hot air balloon is a type of aircraft. It is lifted by heating the air inside the balloon, usually with fire. Hot air weighs less than the same volume of cold air (it is less dense), which means that hot air will rise up or float when there is cold air around it, just like a bubble of air in a pot of water. The greater the difference between the hot and the cold, the greater the difference in density, and the stronger the balloon will pull up.\nLakshman is riding on a hot air balloon. After reaching at height x at point P, he spots a lorry parked at B on the ground at an angle of depression of 30°. The balloon rises further by 50 metres at point Q and now he spots the same lorry at an angle of depression of 45° and a car parked at C at an angle of depression of 30°.\n(i) What is the relation between the height x of the balloon at point P and distance d between point A and B?\n(ii) When balloon rises further 50 metres, then what is the relation between new height y and d?\n(iii) What is the new height of the balloon at point Q?\n(iv) What is the distance AB on the ground?\n(v) What is the distance AC on the ground?",
+   "answer": "A is the point of the ground directly below the balloon, so AP = x, AQ = y and AB = d.\n(i) In triangle APB, tan 30° = AP/AB, so 1/√3 = x/d and d = √3 x (equivalently d² = 3x²).\n(ii) In triangle BAQ, tan 45° = AQ/AB, so AB = AQ, that is d = y.\n(iii) Since Q is 50 m above P, y = x + 50. With d = √3 x and d = y we get √3 x = x + 50, so x(√3 − 1) = 50 and x = 50/(√3 − 1) = 25(√3 + 1). Hence y = x + 50 = 25(√3 + 1) + 50 = 25√3 + 25 + 50 = 25(√3 + 3) metres.\n(iv) AB = d = √3 x = y = 25(√3 + 3) metres.\n(v) In triangle CAQ, tan 30° = AQ/AC, so 1/√3 = y/AC and AC = √3 y = 25√3(√3 + 3) = 25(3 + 3√3) = 75(1 + √3) metres.",
+   "concept": "Lowering the head to view",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch09_q119.png"
+   ],
+   "figure_required": true,
+   "ocr": "Stem begins on page 47 and its numbered parts run onto page 48. The point A is never named in the printed text, only in the question figure, so the figure is required."
+  },
+  {
+   "number": "120",
+   "form": "case_study",
+   "marks": 4,
+   "page": 48,
+   "stem": "Radio towers are used for transmitting a range of communication services including radio and television. The tower will either act as an antenna itself or support one or more antennas on its structure, including microwave dishes. They are among the tallest human-made structures. There are 2 main types: guyed and self-supporting structures.\nOn a similar concept, a radio station tower was built in two sections A and B. Tower is supported by wires from a point O. Distance between the base of the tower and point O is 36 m. From point O, the angle of elevation of the top of section B is 30° and the angle of elevation of the top of section A is 45°.\n(i) What is the height of the section B ?\n(ii) What is the height of the section A ?\n(iii) What is the length of the wire structure from the point O to the top of section A ?\n(iv) What is the length of the wire structure from the point O to the top of section B ?\n(v) What is the angle of depression from top of tower to point O ?",
+   "answer": "Let C be the foot of the tower, B the top of the lower section and A the top of the tower, with OC = 36 m.\n(i) In triangle BCO, tan 30° = BC/OC, so BC = 36 tan 30° = 36 × 1/√3 = 12√3 m. Section B is 12√3 ≈ 20.78 m high.\n(ii) In triangle ACO, tan 45° = AC/OC = 1, so AC = OC = 36 m. Section A is the part above B, so AB = AC − BC = 36 − 12√3 = 12(3 − √3) ≈ 15.22 m.\n(iii) In triangle ACO, cos 45° = OC/OA, so 1/√2 = 36/OA and OA = 36√2 ≈ 50.91 m.\n(iv) In triangle BCO, cos 30° = OC/OB, so √3/2 = 36/OB and OB = 72/√3 = 24√3 ≈ 41.57 m.\n(v) The angle of elevation from O to the top of the tower is 45°, and the angle of depression from the top of the tower to O is its alternate angle, so it is also 45°.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch09_q120.png"
+   ],
+   "figure_required": true,
+   "ocr": "The number, scenario and figure are printed at the foot of page 48 (printed page 400); the five numbered parts and the whole solution are on printed page 401, which is MISSING from the chapter split and from the page renders. Printed page 401 was recovered from the full book PDF (Maths Standard QB 2026, PDF page 446, where it is bound out of order inside Chapter 10) and read there. The figure is attached because only it shows that section A sits above section B."
+  },
+  {
+   "number": "121",
+   "form": "case_study",
+   "marks": 4,
+   "page": 49,
+   "stem": "Navy Officer : Mr. Colin is tasked with planning a coup on the enemy at a certain date. Currently he is inspecting the area standing on top of the cliff. Agent Dev is on a chopper in the sky. When Mr. Colin looks down below the cliff towards the sea, he has Bhawani and Amar in boats positioned to get a good vantage point. Bhawani boat is behind the Amar boat.\nFollowing angle have been measured :\nFrom Colin to Bhawani : 30°\nFrom Dev to Colin : 60°\nFrom Amar to Colin : 60°\n(i) Which of the following is a pair of angle of elevation?\n(a) (∠a, ∠e)   (b) (∠b, ∠e)   (c) (∠c, ∠d)   (d) (∠a, ∠f)\n(ii) Which of the following is a pair of angle of depression?\n(a) (∠a, ∠e)   (b) (∠b, ∠e)   (c) (∠c, ∠d)   (d) (∠a, ∠f)\n(iii) If angle of elevation of Amar to Colin is 60°, what is the distance of Amar boat from the base of hill ?\n(iv) If angle of depression of Colin to Bhawani is 30°, what is the distance of Amar boat from the Bhawani boat?\n(v) If angle of depression of Dev to Colin is 60°, what is the height of Dev from base of hill ?",
+   "answer": "Let O be the base of the cliff, C the top of the cliff where Colin stands and h = OC the height of the cliff. A is the Amar boat, B the Bhawani boat and D the chopper; CM is the horizontal through C.\n(i) An angle of elevation is measured at the observer, between the horizontal and an upward line of sight. Here ∠b (Colin up to Dev), ∠e (Amar up to Colin) and ∠f (Bhawani up to Colin) are angles of elevation, so the pair (∠b, ∠e) is correct — option (b).\n(ii) An angle of depression is measured between the horizontal and a downward line of sight: ∠a (Dev down to Colin), ∠c and ∠d (Colin down to Amar and to Bhawani). The pair (∠c, ∠d) is correct — option (c).\n(iii) ∠OAC = 60°, so h/OA = tan 60° = √3 and OA = h/√3. The Amar boat is h/√3 from the base of the hill.\n(iv) The angle of depression of Bhawani from Colin is 30°, so ∠OBC = ∠MCB = 30° and h/OB = tan 30° = 1/√3, giving OB = √3 h. Hence AB = OB − OA = √3 h − h/√3 = (3h − h)/√3 = 2h/√3, which is the distance between the Amar and Bhawani boats.\n(v) ∠DCM = 60°, so DM/CM = tan 60° = √3 and DM = √3 CM. Here CM = OB = √3 h, so DM = √3 × √3 h = 3h. The height of Dev above the base of the hill is DB = DM + MB = 3h + h = 4h.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch09_q121.png"
+   ],
+   "figure_required": true,
+   "ocr": "The number, stem, figure, all five parts and solution part (i) are printed on page 401, which is MISSING from the chapter split and from the page renders; the solution from \"Thus (b) is correct option\" onward is on the rendered page 49 (printed page 402). Printed page 401 was recovered from the full book PDF (Maths Standard QB 2026, PDF page 446, bound out of order inside Chapter 10) and read there; the figure was cropped from that page. The page field is set to 49, the nearest page that exists in the chapter split. The figure is required because the angles a to f are only labelled there. Note the printed prose for part (i) ends \"...clearly (∠b, ∠e, ∠f) are angle of depression\" where it plainly means elevation; the key (b) is nonetheless right, so this is a wording slip and not a key conflict. The stem spells the boat owner \"Bhawani\" while the figure labels her \"Bhavani\"."
+  },
+  {
+   "number": "122",
+   "form": "case_study",
+   "marks": 4,
+   "page": 49,
+   "stem": "When an eagle looks at a rat on the ground, eagle does not attack the rat at its initial position. It takes into account the speed of the rat and the direction in which rat is moving. After analysing the situation (how? it may be God's gift) eagle attacks the rat in such a way that it may successful in catching the rat.\nSuppose an eagle sitting on the tree of height 90 m, observe a rat with angle of depression 45°, and moving away from the tree with some speed. Eagle start flying with 30° downward and catch rat in 10 second.\n(i) What is the horizontal distance between tree and initial position of rat ?\n(ii) What is the distance travelled by rat in 10 seconds?\n(iii) What is the distance travelled by eagle to catch rat?\n(iv) What is the speed of rat ?\n(v) What is the speed of eagle ?",
+   "answer": "Let E be the eagle at the top of the tree, O the foot of the tree, R the initial position of the rat and S the point where the eagle catches it. OE = 90 m.\n(i) The angle of depression of R from E is 45°, so OE/OR = tan 45° = 1 and OR = OE = 90 m. The rat starts 90 m from the tree.\n(ii) The eagle dives at 30° below the horizontal, so in triangle EOS, ∠OES = 90° − 30° = 60° and OS/OE = tan 60° = √3, giving OS = 90√3 m. The rat runs RS = OS − OR = 90√3 − 90 = 90(√3 − 1) ≈ 65.88 m in 10 seconds.\n(iii) EO/ES = cos 60° = 1/2, so 90/ES = 1/2 and ES = 180 m: the eagle flies 180 m.\n(iv) Speed of the rat = RS/t = 90(√3 − 1)/10 = 9(√3 − 1) ≈ 6.59 m/sec.\n(v) Speed of the eagle = ES/t = 180/10 = 18 m/sec = 18 × 3600/1000 = 64.8 km/h.",
+   "concept": "Sight below the horizontal",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page 49 (printed page 402) and the solution continues on page 50 (printed page 403). Every measurement is in the text, so no figure is attached."
+  },
+  {
+   "number": "123",
+   "form": "case_study",
+   "marks": 4,
+   "page": 50,
+   "stem": "An air-to-surface missile (ASM) or air-to-ground missile (AGM or ATGM) is a missile designed to be launched from military aircraft and strike ground targets on land, at sea, or both. They are similar to guided glide bombs but to be deemed a missile,\nA military fighter plane is flying at an altitude of 600 metres with the speed of 200 km/h. The pilot spots enemy tanks at point R on ground. After getting the permission from command centre to hit the target at R, pilot fires a missile. Fighter plane was at point A at the time of fire of missile. Missile moves to target at enemy tanks stationed at R at an angle of 45° at a speed of 300 km/h.\n(i) What is the horizontal distance between fighter plane at A and tank at R ?\n(ii) How much time will missile take to hit the target R ?\n(iii) Another enemy tank at point S on ground moving with a speed of 90 km/h in straight line away from plane. Pilot fires another missile at an angle of 60° from its flight path position B at the instant when enemy's tank was at S and it hits this enemy tank at point T. How much time is taken by second missile to hit the enemy tank at point T ?\n(iv) What is the horizontal distance between fighter plane at B and tank at T ?\n(v) What is the distance of point T from S ?",
+   "answer": "Let P be the point on the ground directly below the plane at A, so PA = 600 m, and let Q be the point directly below the plane at B, so QB = 600 m.\n(i) The missile leaves A at 45° below the horizontal, so in right triangle APR, PR/PA = tan 45° = 1 and PR = PA = 600 m. The horizontal distance from A to R is 600 m.\n(ii) AP/AR = cos 45°, so AR = AP/cos 45° = 600 ÷ (1/√2) = 600√2 m. The missile's speed is 300 km/h = 300000/3600 = 500/6 m/sec, so the time taken is t = AR/s = 600√2 ÷ (500/6) = 36√2/5 ≈ 10.18 sec.\n(iii) The second missile leaves B at 60° to the horizontal flight path, so BT = QB/sin 60° = 600 ÷ (√3/2) = 1200/√3 = 400√3 m. At 500/6 m/sec the time is t = 400√3 ÷ (500/6) = 2400√3/500 = 4.8√3 ≈ 8.31 sec.\n(iv) The horizontal distance from B to T is QT = QB/tan 60° = 600/√3 = 200√3 ≈ 346.41 m.\n(v) The tank travels from S to T in that same time at 90 km/h = 25 m/sec, so ST = 25 × 4.8√3 = 120√3 ≈ 207.85 m.",
+   "concept": "Lowering the head to view",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch09_q123.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question and its five parts are printed in full on page 50 (printed page 403), which is the last chapter-9 page present in the source. The printed solution stops part way through part (iii) — the continuation page is absent from both the chapter split and the full book PDF — so parts (iii), (iv) and (v) of the answer are worked out here from the printed data (600 m altitude, 60° firing angle, 300 km/h missile, 90 km/h tank). Parts (i) and (ii) follow the printed working exactly."
+  }
+ ]
+}

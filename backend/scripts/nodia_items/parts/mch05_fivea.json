@@ -1,0 +1,355 @@
+{
+ "items": [
+  {
+   "number": "165",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "stem": "The ratio of the 11ᵗʰ term to the 18ᵗʰ term of an A.P. is 2 : 3. Find the ratio of the 5ᵗʰ term to the 21ˢᵗ term. Also, find the ratio of the sum of first 5 terms to the sum of first 21 terms.",
+   "answer": "Let a be the first term and d the common difference. From a₁₁/a₁₈ = 2/3 we get (a + 10d)/(a + 17d) = 2/3, so 3a + 30d = 2a + 34d, giving a = 4d. Then a₅/a₂₁ = (a + 4d)/(a + 20d) = (4d + 4d)/(4d + 20d) = 8d/24d = 1/3. For the sums, S₅/S₂₁ = [(5/2)(2a + 4d)]/[(21/2)(2a + 20d)] = 5(8d + 4d)/21(8d + 20d) = 60d/588d = 5/49. Hence a₅ : a₂₁ = 1 : 3 and S₅ : S₂₁ = 5 : 49.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board 2023 OD Standard]"
+  },
+  {
+   "number": "166",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "stem": "If the sum of first 6 terms of an A.P. is 36 and that of the first 16 terms is 256, find the sum of first 10 terms.",
+   "answer": "Using Sₙ = (n/2)[2a + (n − 1)d]: S₆ = 3(2a + 5d) = 36, so 2a + 5d = 12. Also S₁₆ = 8(2a + 15d) = 256, so 2a + 15d = 32. Subtracting the first from the second, 10d = 20, hence d = 2. Then 2a + 10 = 12, so a = 1. Therefore S₁₀ = (10/2)[2(1) + 9(2)] = 5(2 + 18) = 5 × 20 = 100.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board 2023 OD Standard]",
+   "ocr": "The printed working writes (16/2)[2a + (6 − 1)d] = 256 for S₁₆; '(6 − 1)' is a typographical slip for (16 − 1), and the very next printed line uses 2a + 15d = 32 correctly. Final answer unaffected."
+  },
+  {
+   "number": "167",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "stem": "The sum of first and eighth terms of an A.P. is 32 and their product is 60. Find the first term and common difference of the A.P. Hence, also find the sum of its first 20 terms.",
+   "answer": "Let the first term be a and the common difference d, so a₈ = a + 7d. Given a + a₈ = 32, i.e. 2a + 7d = 32, and a · a₈ = 60, i.e. a(32 − a) = 60. This gives a² − 32a + 60 = 0, so (a − 2)(a − 30) = 0 and a = 2 or a = 30. For a = 2, 7d = 32 − 4 = 28, so d = 4 and S₂₀ = (20/2)[2(2) + 19(4)] = 10(4 + 76) = 800. For a = 30, 7d = 32 − 60 = −28, so d = −4 and S₂₀ = (20/2)[2(30) + 19(−4)] = 10(60 − 76) = −160. Hence a = 2, d = 4, S₂₀ = 800, or a = 30, d = −4, S₂₀ = −160.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board 2024 OD Standard]"
+  },
+  {
+   "number": "168",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "stem": "In an A.P. of 40 terms, the sum of first 9 terms is 153 and the sum of last 6 terms is 687. Determine the first term and common difference of A.P. Also, find the sum of all the terms of the A.P.",
+   "answer": "Let the first term be a and the common difference d. From S₉ = (9/2)(2a + 8d) = 153 we get a + 4d = 17. The sum of the last 6 terms is S₄₀ − S₃₄ = 20(2a + 39d) − 17(2a + 33d) = 6a + 219d = 687. Substituting a = 17 − 4d gives 102 − 24d + 219d = 687, so 195d = 585 and d = 3; then a = 17 − 12 = 5. Finally S₄₀ = (40/2)[2(5) + 39(3)] = 20(10 + 117) = 20 × 127 = 2540. Hence a = 5, d = 3 and the sum of all 40 terms is 2540.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board 2024 OD Standard]"
+  },
+  {
+   "number": "169",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "stem": "If the sum of first four terms of an AP is 40 and that of first 14 terms is 280. Find the sum of its first n terms.",
+   "answer": "Let a be the first term and d the common difference. S₄ = (4/2)[2a + 3d] = 40 gives 2a + 3d = 20, and S₁₄ = (14/2)[2a + 13d] = 280 gives 2a + 13d = 40. Subtracting, 10d = 20 so d = 2, and then 2a = 20 − 6 = 14, so a = 7. Hence Sₙ = (n/2)[2(7) + (n − 1)2] = (n/2)(12 + 2n) = n² + 6n. The sum of the first n terms is 6n + n².",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board 2019 Delhi]"
+  },
+  {
+   "number": "170",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "stem": "The first term of an AP is 3, the last term is 83 and the sum of all its terms is 903. Find the number of terms and the common difference of the AP.",
+   "answer": "With a = 3, aₙ = 83 and Sₙ = 903, use Sₙ = (n/2)(a + aₙ): 903 = (n/2)(3 + 83) = 43n, so n = 903/43 = 21. Now use Sₙ = (n/2)[2a + (n − 1)d]: 903 = (21/2)[6 + 20d], so 1806 = 21(6 + 20d), giving 6 + 20d = 86 and 20d = 80, hence d = 4. The AP has 21 terms and common difference 4.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board 2019 Delhi]"
+  },
+  {
+   "number": "171",
+   "form": "long",
+   "marks": 5,
+   "page": 33,
+   "stem": "Find the common difference of the Arithmetic Progression (AP) 1/a, (3 − a)/3a, (3 − 2a)/3a, ... (a ≠ 0)",
+   "answer": "Here a₁ = 1/a, a₂ = (3 − a)/3a and a₃ = (3 − 2a)/3a. The common difference is d = a₂ − a₁ = (3 − a)/3a − 1/a = (3 − a − 3)/3a = −a/3a = −1/3. Checking, a₃ − a₂ = [(3 − 2a) − (3 − a)]/3a = −a/3a = −1/3 as well. Hence the common difference is −1/3.",
+   "concept": "Common difference",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board 2019 OD]"
+  },
+  {
+   "number": "172",
+   "form": "long",
+   "marks": 5,
+   "page": 33,
+   "stem": "Which term of the Arithmetic Progression −7, −12, −17, −22, ... will be −82? Is −100 any term of the AP? Given reason for your answer.",
+   "answer": "Here a₁ = −7 and d = −12 − (−7) = −5, so aₙ = −7 + (n − 1)(−5) = −5n − 2. Setting −5n − 2 = −82 gives 5n = 80, so n = 16: −82 is the 16ᵗʰ term. Setting −5n − 2 = −100 gives 5n = 98, so n = 98/5 = 19.6, which is not a whole number. Since n must be a positive integer, −100 is not a term of this AP.",
+   "concept": "Formula for the nth term",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board 2019 OD]",
+   "ocr": "The printed reason reads 'Since, these numbers are not factor of 5, hence −100 will not be a term', which is loosely worded; the actual reason is that 98/5 is not an integer. Result unchanged."
+  },
+  {
+   "number": "173",
+   "form": "long",
+   "marks": 5,
+   "page": 33,
+   "stem": "How many terms of the Arithmetic Progression 45, 39, 33, ... must be taken so that their sum is 180? Explain the double answer.",
+   "answer": "Here a = 45 and d = 39 − 45 = −6. From Sₙ = (n/2)[2a + (n − 1)d] = 180 we get 180 = (n/2)[90 − 6(n − 1)], so 360 = n(96 − 6n), i.e. 60 = n(16 − n) and n² − 16n + 60 = 0. Factorising, (n − 10)(n − 6) = 0, so n = 6 or n = 10. Check: S₆ = 3(90 − 30) = 180 and S₁₀ = 5(90 − 54) = 180. Both answers are valid because d is negative: the series is 45, 39, 33, 27, 21, 15, 9, 3, −3, −9, ... The first 6 terms already add to 180, and the next four terms 9 + 3 + (−3) + (−9) = 0, so the running total after 10 terms is again 180.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board 2019 OD]"
+  },
+  {
+   "number": "174",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "stem": "The sum of three numbers in AP is 12 and sum of their cubes is 288. Find the numbers.",
+   "answer": "Let the three numbers be a − d, a, a + d. Their sum is 3a = 12, so a = 4. Then (4 − d)³ + 4³ + (4 + d)³ = 288. Expanding, (64 − 48d + 12d² − d³) + 64 + (64 + 48d + 12d² + d³) = 288, which reduces to 24d² + 192 = 288, so 24d² = 96 and d² = 4, giving d = ±2. Hence the numbers are 2, 4, 6 (for d = 2) or 6, 4, 2 (for d = −2).",
+   "concept": "General form of an AP",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 Delhi 2016]"
+  },
+  {
+   "number": "175",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "stem": "Find the value of a, b and c such that the numbers a, 7, b, 23 and c are in AP.",
+   "answer": "Let the common difference be d. Since a, 7, b, 23, c are consecutive terms of an AP, a + d = 7 and a + 3d = 23. Subtracting, 2d = 16 so d = 8, and then a = 7 − 8 = −1. Hence b = a + 2d = −1 + 16 = 15 and c = a + 4d = −1 + 32 = 31. Thus a = −1, b = 15 and c = 31.",
+   "concept": "General form of an AP",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 2015]"
+  },
+  {
+   "number": "176",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "stem": "If Sₙ denotes the sum of first n terms of an AP, prove that, S₃₀ = 3(S₂₀ − S₁₀)",
+   "answer": "Let the first term be a and the common difference d. Then S₃₀ = (30/2)(2a + 29d) = 15(2a + 29d). Also S₂₀ = 10(2a + 19d) and S₁₀ = 5(2a + 9d), so 3(S₂₀ − S₁₀) = 3[10(2a + 19d) − 5(2a + 9d)] = 3[20a + 190d − 10a − 45d] = 3[10a + 145d] = 15[2a + 29d]. Since both sides equal 15(2a + 29d), S₃₀ = 3(S₂₀ − S₁₀), as required.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 Delhi 2015, Foreign 2014]"
+  },
+  {
+   "number": "177",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "stem": "The sum of first 20 terms of an AP is 400 and sum of first 40 terms is 1600. Find the sum of its first 10 terms.",
+   "answer": "Let the first term be a and the common difference d. S₂₀ = (20/2)(2a + 19d) = 400 gives 2a + 19d = 40, and S₄₀ = (40/2)(2a + 39d) = 1600 gives 2a + 39d = 80. Subtracting, 20d = 40 so d = 2, and then 2a = 40 − 38 = 2, so a = 1. Hence S₁₀ = (10/2)[2(1) + 9(2)] = 5(2 + 18) = 5 × 20 = 100.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 2015]"
+  },
+  {
+   "number": "178",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "stem": "Find (4 − 1/n) + (7 − 2/n) + (10 − 3/n) + ..... upto n terms.",
+   "answer": "Split the series into two parts: Sₙ = (4 + 7 + 10 + ... to n terms) − (1/n)(1 + 2 + 3 + ... + n). The first part is an AP with first term 4 and common difference 3, so its sum is (n/2)[8 + 3(n − 1)] = (n/2)(3n + 5). The second part is (1/n) × n(n + 1)/2 = (n + 1)/2. Therefore Sₙ = n(3n + 5)/2 − (n + 1)/2 = (3n² + 5n − n − 1)/2 = (3n² + 4n − 1)/2.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 2015]",
+   "ocr": "In the printed working the third bracket is mis-set once as (40 − 3/n); the question line and the rest of the solution use (10 − 3/n), which is what the algebra follows."
+  },
+  {
+   "number": "179",
+   "form": "long",
+   "marks": 5,
+   "page": 35,
+   "stem": "Find the 60ᵗʰ term of the AP 8, 10, 12, ...., if it has a total of 60 terms and hence find the sum of its last 10 terms.",
+   "answer": "Here a = 8 and d = 10 − 8 = 2, so a₆₀ = 8 + 59(2) = 8 + 118 = 126. The last 10 terms are the 51ˢᵗ to the 60ᵗʰ, and a₅₁ = 8 + 50(2) = 108. Their sum is S₅₁₋₆₀ = (10/2)(a₅₁ + a₆₀) = 5(108 + 126) = 5 × 234 = 1170. Hence the 60ᵗʰ term is 126 and the sum of the last 10 terms is 1170.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 OD 2015]"
+  },
+  {
+   "number": "180",
+   "form": "long",
+   "marks": 5,
+   "page": 35,
+   "stem": "An arithmetic progression 5, 12, 19, ..... has 50 terms. Find its last term. Hence find the sum of its last 15 terms.",
+   "answer": "Here a = 5, d = 12 − 5 = 7 and n = 50, so a₅₀ = 5 + 49(7) = 5 + 343 = 348. The last 15 terms run from the 36ᵗʰ to the 50ᵗʰ, and a₃₆ = 5 + 35(7) = 5 + 245 = 250. Their sum is S₃₆₋₅₀ = (15/2)(a₃₆ + a₅₀) = (15/2)(250 + 348) = (15/2) × 598 = 4485. Hence the last term is 348 and the sum of the last 15 terms is 4485.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 OD 2015]"
+  },
+  {
+   "number": "181",
+   "form": "long",
+   "marks": 5,
+   "page": 35,
+   "stem": "If the sum of first n term of an AP is given by Sₙ = 3n² + 4n. Determine the AP and the nᵗʰ term.",
+   "answer": "Since Sₙ = 3n² + 4n, the first term is a₁ = S₁ = 3(1)² + 4(1) = 7. Also S₂ = 3(2)² + 4(2) = 12 + 8 = 20, so a₂ = S₂ − S₁ = 20 − 7 = 13. Hence d = 13 − 7 = 6 and the AP is 7, 13, 19, 25, ... The nᵗʰ term is aₙ = 7 + (n − 1)(6) = 6n + 1.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 2014]"
+  },
+  {
+   "number": "182",
+   "form": "long",
+   "marks": 5,
+   "page": 35,
+   "stem": "The sum of the 3ʳᵈ and 7ᵗʰ terms of an AP is 6 and their product is 8. Find the sum of first 20 terms of the AP.",
+   "answer": "Let the first term be a and the common difference d. From a₃ + a₇ = 6, (a + 2d) + (a + 6d) = 6, so a + 4d = 3, i.e. a = 3 − 4d. From a₃ × a₇ = 8, (a + 2d)(a + 6d) = 8; substituting a = 3 − 4d gives (3 − 2d)(3 + 2d) = 8, so 9 − 4d² = 8 and d² = 1/4, giving d = ±1/2. Case 1: d = 1/2 gives a = 1 and S₂₀ = (20/2)[2 + 19(1/2)] = 10(2 + 19/2) = 115. Case 2: d = −1/2 gives a = 5 and S₂₀ = (20/2)[10 − 19/2] = 10(10 − 19/2) = 15. Hence the sum of the first 20 terms is 115 or 15.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 2012]"
+  },
+  {
+   "number": "183",
+   "form": "long",
+   "marks": 5,
+   "page": 36,
+   "stem": "If the sum of first m terms of an AP is same as the sum of its first n terms (m ≠ n), show that the sum of its first (m + n) terms is zero.",
+   "answer": "Let the first term be a and the common difference d. Given Sₘ = Sₙ, (m/2)[2a + (m − 1)d] = (n/2)[2a + (n − 1)d], so 2ma + m(m − 1)d = 2na + n(n − 1)d. Rearranging, 2a(m − n) + [(m² − n²) − (m − n)]d = 0, that is 2a(m − n) + (m − n)[(m + n) − 1]d = 0, so (m − n)[2a + (m + n − 1)d] = 0. Since m ≠ n, m − n ≠ 0, hence 2a + (m + n − 1)d = 0. Therefore Sₘ₊ₙ = ((m + n)/2)[2a + (m + n − 1)d] = ((m + n)/2) × 0 = 0, as required.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 2012]"
+  },
+  {
+   "number": "184",
+   "form": "long",
+   "marks": 5,
+   "page": 36,
+   "stem": "If 1 + 4 + 7 + 10 ..... + n = 287, find the value of n.",
+   "answer": "The series is an AP with first term 1 and common difference 3, and n is its last term. If the number of terms is k, then 287 = (k/2)[2(1) + (k − 1)3] = (k/2)(3k − 1), so 3k² − k − 574 = 0. Factorising, 3k² − 42k + 41k − 574 = 0, giving (k − 14)(3k + 41) = 0. A negative number of terms is impossible, so k = 14. The last term is then a₁₄ = 1 + 13(3) = 40. Hence n = 40.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board 2020 Std, Board Term-2 Foreign 2017]"
+  },
+  {
+   "number": "185",
+   "form": "long",
+   "marks": 5,
+   "page": 36,
+   "stem": "Find the number of terms of the AP −12, −9, −6, ........, 21. If 1 is added to each term of this AP, then find the sum of all the terms of the AP thus obtained.",
+   "answer": "Here a = −12 and d = −9 − (−12) = 3. From aₙ = 21, 21 = −12 + (n − 1)3, so 33 = 3(n − 1), giving n − 1 = 11 and n = 12; the AP has 12 terms. Adding 1 to each term gives a new AP −11, −8, −5, ..., 22 with the same common difference 3 and 12 terms. Its sum is S₁₂ = (12/2)(−11 + 22) = 6 × 11 = 66. Hence there are 12 terms and the new AP sums to 66.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 2013]"
+  },
+  {
+   "number": "186",
+   "form": "long",
+   "marks": 5,
+   "page": 36,
+   "stem": "If S₁, S₂, S₃ be the sum of n, 2n, 3n terms respectively of an AP, prove that S₃ = 3(S₂ − S₁).",
+   "answer": "Let the first term be a and the common difference d. Then S₁ = (n/2)[2a + (n − 1)d], S₂ = (2n/2)[2a + (2n − 1)d] and S₃ = (3n/2)[2a + (3n − 1)d]. Now 3(S₂ − S₁) = 3{n[2a + (2n − 1)d] − (n/2)[2a + (n − 1)d]} = 3(n/2){2[2a + (2n − 1)d] − [2a + (n − 1)d]} = 3(n/2)(4a + 4nd − 2d − 2a − nd + d) = 3(n/2)(2a + 3nd − d) = (3n/2)[2a + (3n − 1)d] = S₃. Hence S₃ = 3(S₂ − S₁).",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 2012]"
+  },
+  {
+   "number": "187",
+   "form": "long",
+   "marks": 5,
+   "page": 37,
+   "stem": "An AP consists of 37 terms. The sum of the three middle most terms is 225 and the sum of the past three terms is 429. Find the AP.",
+   "answer": "With 37 terms the middle term is the (37 + 1)/2 = 19ᵗʰ term. Let the three middle terms be x − d, x, x + d; their sum is 3x = 225, so x = 75, and x is the 19ᵗʰ term. The AP is therefore x − 18d, ..., x, ..., x + 18d. The last three terms are x + 16d, x + 17d, x + 18d, and their sum is 3x + 51d = 429, so 225 + 51d = 429, giving 51d = 204 and d = 4. The first term is a₁ = x − 18d = 75 − 72 = 3, and the last term is x + 18d = 75 + 72 = 147. Hence the AP is 3, 7, 11, ..., 147.",
+   "concept": "Formula for the nth term",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 SQP 2017]",
+   "ocr": "Printed as 'the sum of the past three terms'; from the working this means the last three terms."
+  },
+  {
+   "number": "188",
+   "form": "long",
+   "marks": 5,
+   "page": 37,
+   "stem": "The sum of four consecutive numbers in an AP is 32 and the ratio of the product of the first and the last term to the product of two middle terms is 7 : 15. Find the numbers.",
+   "answer": "Let the four consecutive terms be a − 3d, a − d, a + d, a + 3d. Their sum is 4a = 32, so a = 8. The given ratio gives [(a − 3d)(a + 3d)]/[(a − d)(a + d)] = 7/15, i.e. (a² − 9d²)/(a² − d²) = 7/15. With a = 8, 15(64 − 9d²) = 7(64 − d²), so 960 − 135d² = 448 − 7d², giving 128d² = 512 and d² = 4, hence d = ±2. For d = 2 the numbers are 2, 6, 10, 14; for d = −2 they are 14, 10, 6, 2.",
+   "concept": "General form of an AP",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board 2018]"
+  },
+  {
+   "number": "189",
+   "form": "long",
+   "marks": 5,
+   "page": 37,
+   "stem": "The digit of a positive number of three digits are in AP and their sum is 15. The number obtained by reversing the digits is 594 less then the original number. Find the number.",
+   "answer": "Let the three digits be a − d, a, a + d. Their sum is 3a = 15, so a = 5. The original number is 100(a − d) + 10a + (a + d) = 111a − 99d, and the number with the digits reversed is 100(a + d) + 10a + (a − d) = 111a + 99d. Since the reversed number is 594 less than the original, 111a + 99d = 111a − 99d − 594, so 198d = −594 and d = −3. The number is 111(5) − 99(−3) = 555 + 297 = 852. Check: its digits 8, 5, 2 are in AP and add to 15, and 852 − 258 = 594.",
+   "concept": "Using the formula in real problems",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 OD 2016]"
+  },
+  {
+   "number": "190",
+   "form": "long",
+   "marks": 5,
+   "page": 37,
+   "stem": "The minimum age of children to be eligible to participate in a painting competition is 8 years. It is observed that the age of youngest boy was 8 years and the ages of rest of participants are having a common difference of 4 months. If the sum of ages of all the participants is 168 years, find the age of eldest participant in the painting competition.",
+   "answer": "The ages form an AP with a = 8 years and d = 4 months = 1/3 year, and the total Sₙ = 168 years. From Sₙ = (n/2)[2a + (n − 1)d], 168 = (n/2)[16 + (n − 1)/3], so 1008 = n(48 + n − 1), i.e. n² + 47n − 1008 = 0. Factorising, (n − 16)(n + 63) = 0, and since n cannot be negative, n = 16. The eldest participant's age is a + 15d = 8 + 15(1/3) = 8 + 5 = 13 years.",
+   "concept": "Using the formula in real problems",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 SQP 2016]"
+  },
+  {
+   "number": "191",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "stem": "A thief runs with a uniform speed of 100 m/minute. After one minute a policeman runs after the thief to catch him. He goes with a speed of 100 m/minute in the first minute and increased his speed by 10 m/minute every succeeding minute. After how many minutes the policeman will catch the thief.",
+   "answer": "Let the policeman run for t minutes before catching the thief; by then the thief has been running for (t + 1) minutes and has covered 100(t + 1) metres. The policeman's distances in successive minutes form an AP 100, 110, 120, ..., so in t minutes he covers (t/2)[200 + (t − 1)10] = 95t + 5t² metres. Setting these equal, 100t + 100 = 95t + 5t², so 5t² − 5t − 100 = 0, i.e. t² − t − 20 = 0 and (t − 5)(t + 4) = 0. Rejecting the negative root, t = 5. The policeman catches the thief in 5 minutes, that is 6 minutes after the thief started running.",
+   "concept": "Using the formula in real problems",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 OD 2016]",
+   "ocr": "The printed working takes n as the total elapsed time, solves n² − 3n − 18 = 0 to get n = 6 and then states the answer as 5 minutes for the policeman; 5 minutes is the stated conclusion and is correct."
+  },
+  {
+   "number": "192",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "stem": "Find the middle term of the sequence formed by all three-digit numbers which leave a remainder 3, when divided by 4. Also find the sum of all numbers on both sides of the middle terms separately.",
+   "answer": "The three-digit numbers leaving remainder 3 on division by 4 are 103, 107, 111, ..., 999, an AP with a = 103, d = 4 and last term 999. From 999 = 103 + (n − 1)4 we get n − 1 = 224, so n = 225. The middle term is the (225 + 1)/2 = 113ᵗʰ term, a₁₁₃ = 103 + 112(4) = 551. Before it, a₁₁₂ = 547, so the sum of the first 112 terms is (112/2)(103 + 547) = 56 × 650 = 36400. After it, a₁₁₄ = 555, so the sum of the last 112 terms is (112/2)(555 + 999) = 56 × 1554 = 87024. Hence the middle term is 551, the numbers before it sum to 36400 and those after it sum to 87024.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 Foreign 2015]"
+  },
+  {
+   "number": "193",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "stem": "Find the middle term of the sequence formed all numbers between 9 and 95, which leave a remainder 1 when divided by 3. Also find the sum of the numbers on both sides of the middle term separately.",
+   "answer": "The numbers between 9 and 95 leaving remainder 1 on division by 3 are 10, 13, 16, ..., 94, an AP with a = 10 and d = 3. From 94 = 10 + (n − 1)3 we get n − 1 = 28, so n = 29. The middle term is the (29 + 1)/2 = 15ᵗʰ term, a₁₅ = 10 + 14(3) = 52. Also a₁₄ = 49 and a₁₆ = 55. The sum of the first 14 terms is (14/2)(10 + 49) = 7 × 59 = 413, and the sum of the last 14 terms is (14/2)(55 + 94) = 7 × 149 = 1043. Hence the middle term is 52, with 413 before it and 1043 after it.",
+   "concept": "Formula for the sum",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 Foreign 2015]"
+  },
+  {
+   "number": "194",
+   "form": "long",
+   "marks": 5,
+   "page": 39,
+   "stem": "A sum of Rs. 280 is to be used towards four prizes. If each prize after the first is Rs. 20 less than its preceding prize, find the value of each of the prizes.",
+   "answer": "Let the first prize be Rs. x. The prizes form an AP x, x − 20, x − 40, x − 60 with a = x, d = −20 and n = 4, and their total is Rs. 280. Using Sₙ = (n/2)[2a + (n − 1)d], 280 = (4/2)[2x + 3(−20)] = 2(2x − 60), so 140 = 2x − 60 and x = 100. Hence the four prizes are Rs. 100, Rs. 80, Rs. 60 and Rs. 40.",
+   "concept": "Using the formula in real problems",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 2012]"
+  },
+  {
+   "number": "195",
+   "form": "long",
+   "marks": 5,
+   "page": 39,
+   "stem": "In a garden bed, there are 23 rose plants in the first row, 21 are in the 2ⁿᵈ, 19 in 3ʳᵈ row and so on. There are 5 plants in the last row. How many rows are there of rose plants? Also find the total number of rose plants in the garden.",
+   "answer": "The numbers of plants per row form an AP with a = 23, d = −2 and last term 5. From 5 = 23 + (n − 1)(−2) we get −18 = −2(n − 1), so n − 1 = 9 and n = 10: there are 10 rows. The total number of plants is S₁₀ = (10/2)[2(23) + 9(−2)] = 5(46 − 18) = 5 × 28 = 140. Hence there are 10 rows holding 140 rose plants in all.",
+   "concept": "Using the formula in real problems",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 2012]",
+   "ocr": "The printed stem carries two typos, 'How many rows are there of rose plants>' and 'total number of roes plants'; transcribed here with a question mark and 'rose plants'."
+  },
+  {
+   "number": "196",
+   "form": "long",
+   "marks": 5,
+   "page": 39,
+   "stem": "A sum of Rs. 1890 is to be used to given seven cash prizes to students of a school for their overall academic performance. If each prize is Rs. 50 less than its preceding prize, find the value of each of the prizes.",
+   "answer": "Let the first prize be Rs. x. The prizes form an AP x, x − 50, x − 100, ... with a = x, d = −50 and n = 7, summing to Rs. 1890. Using Sₙ = (n/2)[2a + (n − 1)d], 1890 = (7/2)[2x + 6(−50)], so 270 = x − 150 and x = 420. Hence the seven prizes are Rs. 420, Rs. 370, Rs. 320, Rs. 270, Rs. 220, Rs. 170 and Rs. 120.",
+   "concept": "Using the formula in real problems",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 2012]"
+  },
+  {
+   "number": "197",
+   "form": "long",
+   "marks": 5,
+   "page": 39,
+   "stem": "A man repays a loan of Rs. 3250 by paying Rs. 20 in the first month and then increases the payment by Rs. 15 every month. How long will it take him to clear the loan?",
+   "answer": "The monthly payments form an AP with a = 20 and d = 15, and their total must be Rs. 3250. From Sₙ = (n/2)[2a + (n − 1)d], 3250 = (n/2)[40 + 15(n − 1)], so 6500 = n(25 + 15n) and 1300 = n(5 + 3n), i.e. 3n² + 5n − 1300 = 0. Factorising, (n − 20)(3n + 65) = 0, and since n = −65/3 is impossible, n = 20. The man will clear the loan in 20 months.",
+   "concept": "Using the formula in real problems",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 2012]"
+  },
+  {
+   "number": "198",
+   "form": "long",
+   "marks": 5,
+   "page": 39,
+   "stem": "A spiral is made up of successive semi-circles with centres alternately A and B starting with A, of radii 1 cm, 2 cm, 3 cm, ...... as shown in the figure. What is the total length of spiral made up of eleven consecutive semi-circles? (Use π = 3.14)",
+   "answer": "Let r₁, r₂, ... be the radii and l₁, l₂, ... the lengths of the successive semi-circles. The length of a semi-circle of radius r is πr, so l₁ = π(1) = π cm, l₂ = π(2) = 2π cm, l₃ = 3π cm, and so on up to l₁₁ = 11π cm. The total length is L = l₁ + l₂ + ... + l₁₁ = π(1 + 2 + 3 + ... + 11) = π × (11 × 12)/2 = 66π cm. Taking π = 3.14, L = 66 × 3.14 = 207.24 cm.",
+   "concept": "Using the formula in real problems",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 2012]",
+   "images": [
+    "ch05_q198.png"
+   ],
+   "figure_required": true,
+   "ocr": "The number and stem begin at the foot of page 39; the figure and the rest of the stem are printed at the top of page 40, and the figure was cropped from there."
+  }
+ ]
+}

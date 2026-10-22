@@ -1,0 +1,207 @@
+{
+ "items": [
+  {
+   "number": "159",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "stem": "A large water bottling plant can remain at full production as long as one of its two generators is functioning. Due to past experience and the age difference between the systems, the plant manager estimates the probability of the main generator failing is 0.05, the probability of the secondary generator failing is 0.01, and the probability of both failing is 0.007. What is the probability the plant remains in full production today?",
+   "answer": "The plant stops full production only when BOTH generators fail, so the event “plant remains in full production” is the complement of the event “both generators fail”. Hence P(full production) = 1 − P(both generators fail) = 1 − 0.007 = 0.993. There is a 99.3 % probability that the plant remains in full production today.",
+   "concept": "Using the complement",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The individual failure probabilities 0.05 and 0.01 are distractors; only P(both fail) = 0.007 is used. The photograph beside the question is decorative, so no figure is attached."
+  },
+  {
+   "number": "160",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "stem": "A hydrofoil is a lifting surface, or foil, that operates in water. They are similar in appearance and purpose to aerofoils used by aeroplanes. Boats that use hydrofoil technology are also simply termed hydrofoils. As a hydrofoil craft gains speed, the hydrofoils lift the boat’s hull out of the water, decreasing drag and allowing greater speeds.\nInter-Island Waterways has just opened hydrofoil service between several islands. The hydrofoil is powered by two engines, one forward and one aft, and will operate if either of its two engines is functioning. Due to testing and past experience, the company knows the probability of the aft engine failing is P(aft engine fails) = 0.05, the probability of the forward engine failing is P(forward engine fails) = 0.03, and the probability that both fail is P(both engines simultaneously fail) = 0.013. What is the probability the hydrofoil completes its next trip?",
+   "answer": "The trip fails only if BOTH engines fail, so “trip is completed” and “both engines simultaneously fail” are complementary events. P(trip is completed) = 1 − P(both engines simultaneously fail) = 1 − 0.013 = 0.987. There is a 98.7 % probability that the hydrofoil completes its next trip.",
+   "concept": "Using the complement",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Key contradicts its own working: the book computes 1 − 0.013 = 0.987 and then states “There is 99.7% probability the trip will be completed”. 0.987 is 98.7 %, so the worked computation wins and the answer is given as 0.987 (98.7 %). Photograph is decorative."
+  },
+  {
+   "number": "161",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "stem": "A fire station gets an emergency call from a shopping mall in the mid-afternoon. From a study of traffic patterns, Chief fire officer DK Jain knows the probability the most direct route is clogged with traffic is 0.11, while the probability of the secondary route being clogged is 0.13. The probability both are clogged is 0.03. What is the probability they can respond to the call unimpeded using one of these routes?",
+   "answer": "The response is impeded only when BOTH routes are clogged, so “they can respond unimpeded by one of the routes” is the complement of “both routes are clogged”. P(respond unimpeded) = 1 − P(both routes clogged) = 1 − 0.03 = 0.97. There is a 97 % probability that the fire station can respond to the call unimpeded using one of these routes.",
+   "concept": "Using the complement",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Key contradicts its own working: the book computes 1 − 0.03 = 0.97 and then states “There is 98 % probability”. 0.97 is 97 %, so the computation wins. The book also misprints “Resnose” for “Response”. Illustration is decorative."
+  },
+  {
+   "number": "162",
+   "form": "long",
+   "marks": 5,
+   "page": 35,
+   "stem": "Eight Ball : This is a game played on a pool table with 15 balls numbered 1 through 15 and a cue ball that is solid white. Of the 15 numbered balls, 8 are a solid (nonwhite) color and numbered 1 through 8, and seven are striped balls numbered 9 through 15.\nThe fifteen numbered pool balls (no cueball) are placed in a large bowl and mixed, then one is drawn out.\n(i) What is the probability of drawing the eight ball ?\n(ii) What is the probability of drawing a number greater than fifteen ?\n(iii) What is the probability of drawing an even number ?\n(iv) What is the probability of drawing a multiple of three ?\n(v) What is the probability of drawing a solid color and an even number ?",
+   "answer": "One ball is drawn from 15, so n(S) = 15 in every part.\n(i) Exactly one ball carries the number 8, so n(E₁) = 1 and P = 1/15.\n(ii) No ball carries a number greater than 15, so n(E₂) = 0 and P = 0/15 = 0 — an impossible event.\n(iii) The even numbers are 2, 4, 6, 8, 10, 12, 14, so n(E₃) = 7 and P = 7/15.\n(iv) The multiples of three are 3, 6, 9, 12, 15, so n(E₄) = 5 and P = 5/15 = 1/3.\n(v) Solid balls are numbered 1 to 8, and those that are even are 2, 4, 6, 8, so n(E₅) = 4 and P = 4/15.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Photograph of the pool table is decorative; the numbering needed is stated in the text, so no figure is attached."
+  },
+  {
+   "number": "163",
+   "form": "long",
+   "marks": 5,
+   "page": 36,
+   "stem": "Double-six Dominos : It is a game played with the 28 numbered tiles shown in the diagram.\nThe 28 dominos are placed in a bag, shuffled, and then one domino is randomly drawn. Give the following answer.\n(i) What is the probability the total number of dots on the domino is three or less ?\n(ii) What is the probability the total number of dots on the domino is greater than three ?\n(iii) What is the probability the total number of dots on the domino does not have a blank half ?\n(iv) What is the probability the total number of dots on the domino is not a “double” (both sides the same) ?",
+   "answer": "One tile is drawn from the 28 tiles of a double-six set, so n(S) = 28 in every part.\n(i) The tiles whose dots total three or less are 0–0, 0–1, 0–2, 0–3, 1–1 and 1–2 — six tiles. So P(total ≤ 3) = 6/28 = 3/14.\n(ii) “Total greater than three” is the complement of part (i): P = 1 − 3/14 = 11/14 (equivalently 22/28).\n(iii) Seven tiles have a blank half (0–0 to 0–6), so P(has a blank half) = 7/28 = 1/4 and P(does not have a blank half) = 1 − 1/4 = 3/4.\n(iv) The doubles are 0–0, 1–1, 2–2, 3–3, 4–4, 5–5, 6–6 — seven tiles, so P(double) = 7/28 = 1/4 and P(not a double) = 1 − 1/4 = 3/4.",
+   "concept": "Using the complement",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch14_q163.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question refers to “the 28 numbered tiles shown in the diagram”, so the printed line drawing of all 28 dominos is attached. In parts (iii) and (iv) the book writes the complement step as 1 − 1/3 = 3/4 — an arithmetic slip for 1 − 1/4; its stated results 3/4 are correct and are what is recorded here."
+  },
+  {
+   "number": "164",
+   "form": "long",
+   "marks": 5,
+   "page": 36,
+   "stem": "Family Structures : For a recent year, 51% of the families in the United States had no children under the age of 18; 20% had one child; 19% had two children; 7% had three children; and 3% had four or more children. If a family is selected at random, find the following probability.\n(i) Find the probability that the family has two or three children.\n(ii) Find the probability that the family has more than one child.\n(iii) Find the probability that the family has less than three children.\n(iv) Based on the answers to parts (i), (ii) and (iii) which is most likely to occur? Explain why.",
+   "answer": "Treat the percentages as frequencies out of 100 families, so n(S) = 100.\n(i) Two or three children: 19 + 7 = 26 families, so P = 26/100 = 0.26.\n(ii) More than one child means two, three, or four or more: 19 + 7 + 3 = 29 families, so P = 29/100 = 0.29.\n(iii) Less than three children means none, one or two: 51 + 20 + 19 = 90 families, so P = 90/100 = 0.90.\n(iv) The event in part (iii) — the family has less than three children — is most likely to occur, because its probability 0.90 is the largest of the three.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The frequency table the book prints appears inside the worked solution, not in the question, so it is not carried into the stem. Illustration is decorative."
+  },
+  {
+   "number": "165",
+   "form": "long",
+   "marks": 5,
+   "page": 37,
+   "stem": "Abhinav Bindra is retired sport shooter and currently India’s only individual Olympic gold medalist. His gold in the 10-meter air rifle event at the 2008 Summer Olympics was also India’s first Olympic gold medal since 1980. He is the first Indian to have held concurrently the world and Olympic titles for the men’s 10-meter air rifle event, having earned those honors at the 2008 Summer Olympics and the 2006 ISSF World Shooting Championships. Bindra has also won nine medals at the Commonwealth Games and three gold medals at the Asian Games.\nA circular dartboard has a total radius of 8 inch, with circular bands that are 2 inch wide, as shown in figure. Abhinav is still skilled enough to hit this board 100% of the time so he always score at least two points each time he throw a dart. Assume the probabilities are related to area, on the next dart that he throw.\n(i) What is the probability that he score at least 4 ?\n(ii) What is the probability that he score at least 6 ?\n(iii) What is the probability that he hit bull’s eye ?\n(iv) What is the probability that he score exactly 4 points ?",
+   "answer": "The dart always lands on the board, so the sample space is the whole board of radius 8 inch: n(S) = π × 8² in².\n(i) Scoring at least 4 means landing inside the circle of radius 6 inch, of area π × 6². So P = π6²/π8² = 36/64 = 9/16.\n(ii) Scoring at least 6 means landing inside the circle of radius 4 inch, of area π × 4². So P = π4²/π8² = 16/64 = 1/4.\n(iii) The bull’s eye is the central circle of radius 2 inch, of area π × 2². So P = π2²/π8² = 4/64 = 1/16.\n(iv) Scoring exactly 4 means landing in the band between radius 4 inch and radius 6 inch, of area π(6² − 4²). So P = π(6² − 4²)/π8² = 20/64 = 5/16.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch14_q165.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question says “as shown in figure” and the scores 2, 4, 6, 8 are only readable from the ring diagram, so the printed dartboard is attached. The portrait photograph is decorative."
+  },
+  {
+   "number": "166",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "stem": "Apurvi Singh Chandela is an Indian Shooting player who competes in the 10 metre air rifle event. She won the gold medal in the 2019 ISSF World Cup in New Delhi. She is the world champion and currently ranked number one in 10 metre air rifle shooting. She is a recipient of Arjuna award.\nApurvi is able to hit a 10 in. by 20 in. target 100% of the time at a range of 100 metre. Assuming the probability she hits a target is related to its area, what is the probability she hits the shaded portions shown?",
+   "answer": "Every shot lands on the 10 in. × 20 in. rectangle, so the sample space is its area: n(S) = 10 × 20 = 200 in².\n(i) Isosceles triangle on the 20 inch base with height 10 inch: area = ½ × 20 × 10 = 100 in², so P = 100/200 = 1/2.\n(ii) Right triangle on the 20 inch base with height 10 inch: area = ½ × 20 × 10 = 100 in², so P = 100/200 = 1/2.\n(iii) Equilateral triangle of side 10 inch: area = (√3/4) × 10² = 25√3 in², so P = 25√3/200 = √3/8.\n(iv) Isosceles trapezoid with the shorter parallel side b = B/2, that is parallel sides 20 inch and 10 inch and height 10 inch: area = ½ × 10 × (20 + 20/2) = 150 in², so P = 150/200 = 3/4.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch14_q166.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question asks only for “the shaded portions shown”, so the four printed diagrams (i)–(iv) are indispensable and are attached. The photograph of the shooter is decorative."
+  },
+  {
+   "number": "167",
+   "form": "long",
+   "marks": 5,
+   "page": 39,
+   "stem": "Blood Group : Blood type or blood group is a medical term. It describes the type of blood a person has. It is a classification of blood based on the presence or absence of inherited antigenic substances on the surface of red blood cells (RBCs). Blood types predict whether a serious reaction will occur in a blood transfusion.\nIn a sample of 50 people, 21 had type O blood, 22 had type A blood, 5 had type B blood, and 2 had type AB blood. Set up a frequency distribution and find the following probabilities.\n(i) What is the probability that a person has type O blood ?\n(ii) What is the probability that a person has type A or type B blood ?\n(iii) What is the probability that a person has neither type A nor type O blood ?\n(iv) What is the probability that a person does not have type AB blood ?",
+   "answer": "The frequency distribution is A : 22, B : 5, AB : 2, O : 21, total 50, so n(S) = 50.\n(i) Type O: n = 21, so P = 21/50 = 0.42.\n(ii) Type A or type B: n = 22 + 5 = 27, so P = 27/50 = 0.54.\n(iii) Neither type A nor type O means type B or type AB: n = 5 + 2 = 7, so P = 7/50 = 0.14.\n(iv) Use the complement. P(type AB) = 2/50 = 0.04, so P(not type AB) = 1 − 0.04 = 0.96.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "In part (iv) the book prints “2/50 = 0.02”, an arithmetic slip — 2/50 = 0.04, which is the value its own next line uses to reach the correct 0.96. The illustration is decorative."
+  },
+  {
+   "number": "168",
+   "form": "long",
+   "marks": 5,
+   "page": 40,
+   "stem": "Computers in Elementary Schools : Computer-based learning (CBL) refers to any teaching methodology that makes use of computers for information transmission or input. At an elementary school level, computer applications can be used to display multimedia lesson plans or students can input examination answers into a computer to facilitate grading and evaluation. Multimedia formats and applications that allow students to pause content are especially valuable in early childhood education especially since students are coming to school with different competencies, learning styles and speeds for absorbing information.\nTotal 1000 elementary and secondary schools of Rajasthan were classified by the number of computers they had.\n<table><tr><td>Computers</td><td>1–10</td><td>11–20</td><td>21–50</td><td>51–100</td><td>100 more</td></tr><tr><td>Schools</td><td>250</td><td>210</td><td>290</td><td>170</td><td>80</td></tr></table>\nChoose one school at random and find the following probability.\n(i) Find the probability that it has 50 or fewer computers.\n(ii) Find the probability that it has more than 100 computers.\n(iii) Find the probability that it has no more than 20 computers.\n(iv) Find the probability that it has more than 50 computers.",
+   "answer": "One school is chosen from 1000, so n(S) = 1000.\n(i) 50 or fewer computers covers the classes 1–10, 11–20 and 21–50: 250 + 210 + 290 = 750, so P = 750/1000 = 0.75.\n(ii) More than 100 computers is the last class alone: 80, so P = 80/1000 = 0.08.\n(iii) No more than 20 computers covers 1–10 and 11–20: 250 + 210 = 460, so P = 460/1000 = 0.46.\n(iv) More than 50 computers covers 51–100 and “100 more”: 170 + 80 = 250, so P = 250/1000 = 0.25.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The classification table is printed inside the question and is kept in the stem as HTML. The last class is printed as “100 more”. The classroom photograph is decorative."
+  },
+  {
+   "number": "169",
+   "form": "long",
+   "marks": 5,
+   "page": 41,
+   "stem": "Consider the 210 discrete points found in the first and second quadrants where −10 ≤ x ≤ 10, 1 ≤ y ≤ 10 and x and y are integers. The coordinates of each point is written on a slip of paper and placed in a box. One of the slips is then randomly drawn.\n(i) What is the probability the point (x, y) is on the graph of y = |x|\n(ii) What is the probability the point (x, y) is on the graph of y = 2|x|\n(iii) What is the probability the point (x, y) has coordinates (x ≤ 5, y > −2)",
+   "answer": "One slip is drawn from the 210 listed points, so n(S) = 210.\n(i) On y = |x| with 1 ≤ y ≤ 10 the points are (±1, 1), (±2, 2), …, (±10, 10) — 20 points in all, so P = 20/210 = 2/21.\n(ii) On y = 2|x| with 1 ≤ y ≤ 10 the points are (±1, 2), (±2, 4), (±3, 6), (±4, 8), (±5, 10) — 10 points in all, so P = 10/210 = 1/21.\n(iii) Every listed point already has y ≥ 1 > −2, so the condition is only x ≤ 5; that allows the 16 values x = −10, −9, …, 5 for each of the 10 values of y, giving 160 points. So P = 160/210 = 16/21.",
+   "concept": "Listing the outcomes",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book gives only the counts 20, 10 and 160; the outcome lists behind them are reconstructed here and agree with those counts."
+  },
+  {
+   "number": "170",
+   "form": "long",
+   "marks": 5,
+   "page": 41,
+   "stem": "Hospital Stays : Hospital records indicated that maternity patients stayed in the hospital for the number of days shown in the distribution.\n<table><tr><td>Number of days stayed</td><td>Frequency</td></tr><tr><td>3</td><td>13</td></tr><tr><td>4</td><td>22</td></tr><tr><td>5</td><td>45</td></tr><tr><td>6</td><td>14</td></tr><tr><td>7</td><td>6</td></tr><tr><td>Total</td><td>100</td></tr></table>\nFind these probabilities.\n(i) A patient stayed exactly 5 days.\n(ii) A patient stayed less than 6 days.\n(iii) A patient stayed at most 4 days.\n(iv) A patient stayed at least 5 days.",
+   "answer": "The total frequency is 100, so n(S) = 100.\n(i) Exactly 5 days: n = 45, so P = 45/100 = 0.45.\n(ii) Less than 6 days means 3, 4 or 5 days: n = 13 + 22 + 45 = 80, so P = 80/100 = 0.80.\n(iii) At most 4 days means 3 or 4 days: n = 13 + 22 = 35, so P = 35/100 = 0.35.\n(iv) At least 5 days means 5, 6 or 7 days: n = 45 + 14 + 6 = 65, so P = 65/100 = 0.65.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The distribution table is printed in the question and is kept in the stem; the book leaves the label of the total row blank, written here as “Total”. The solution opens “Total possible outcomes in all case is 1000 because frequency is 100” — a slip, since it then correctly sets n(S) = 100. The hospital photograph is decorative."
+  },
+  {
+   "number": "171",
+   "form": "long",
+   "marks": 5,
+   "page": 42,
+   "stem": "Cards on which numbers 1, 2, 3 .......... 100 are written (one number on one card and no number is repeated), put in a bag and are mixed thoroughly. A card is drawn at random from the bag. Find the following probability.\n(i) What is the probability that card taken out has a odd number ?\n(ii) What is the probability that card taken out has a two digit odd number ?\n(iii) What is the probability that card taken out has a odd number which is multiple of 11?\n(iv) What is the probability that card taken out has an odd number which is not less than 70?\n(v) What is the probability that card taken out has an odd number which is not multiple of 11 ?",
+   "answer": "There are 100 cards, so n(S) = 100 in every part.\n(i) The odd numbers from 1 to 100 are 50 in number, so P = 50/100 = 1/2 = 0.5.\n(ii) Of those 50 odd numbers, five (1, 3, 5, 7, 9) have one digit, so 45 are two-digit odd numbers and P = 45/100 = 0.45.\n(iii) The odd multiples of 11 up to 100 are 11, 33, 55, 77, 99 — five numbers, so P = 5/100 = 0.05.\n(iv) The odd numbers not less than 70 are 71, 73, 75, …, 99 — fifteen numbers, so P = 15/100 = 0.15.\n(v) Of the 50 odd numbers, 5 are multiples of 11, leaving 50 − 5 = 45 that are not, so P = 45/100 = 0.45.",
+   "concept": "Listing the outcomes",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book misprints a stray “Sol :” above the list of parts (i)–(v); the real solution follows the list. Part (ii) counts 100 as even, so the two-digit odd numbers are 45, which matches the printed key."
+  },
+  {
+   "number": "172",
+   "form": "long",
+   "marks": 5,
+   "page": 42,
+   "stem": "Insurance : An insurance company selected 1000 drivers at random in a particular city to determine a relationship between age and accidents. The data obtained are listed in following table.\n<table><tr><td>Age</td><td>0</td><td>1</td><td>2</td><td>3</td><td>Over 3</td></tr><tr><td>Under 20</td><td>50</td><td>62</td><td>53</td><td>35</td><td>20</td></tr><tr><td>20–29</td><td>64</td><td>93</td><td>67</td><td>40</td><td>36</td></tr><tr><td>30–39</td><td>82</td><td>68</td><td>32</td><td>14</td><td>4</td></tr><tr><td>40–49</td><td>38</td><td>32</td><td>20</td><td>7</td><td>3</td></tr><tr><td>Over 49</td><td>43</td><td>50</td><td>35</td><td>28</td><td>24</td></tr></table>\nCompute the probabilities of the following events for a driver chosen at random in the city:\n(i) E₁ : being under 20 years old and having exactly three accidents in 1 year\n(ii) E₂ : being 30–39 years old and having one or more accidents in 1 year\n(iii) E₃ : having no accidents in 1 year\n(iv) E₄ : being under 20 years old or having exactly three accidents in 1 year",
+   "answer": "There are 1000 drivers, so n(S) = 1000. Adding the columns gives the totals 277, 305, 207, 124 and 87 for 0, 1, 2, 3 and over 3 accidents.\n(i) Under 20 and exactly three accidents is the single cell 35, so P(E₁) = 35/1000 = 0.035.\n(ii) 30–39 with one or more accidents: 68 + 32 + 14 + 4 = 118, so P(E₂) = 118/1000 = 0.118.\n(iii) No accidents in 1 year is the whole “0” column: 50 + 64 + 82 + 38 + 43 = 277, so P(E₃) = 277/1000 = 0.277.\n(iv) Under 20 OR exactly three accidents counts the whole “under 20” row once and then the remaining cells of the “3” column: 50 + 62 + 53 + 35 + 20 + 40 + 14 + 7 + 28 = 309, so P(E₄) = 309/1000 = 0.309.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Key contradicts its own working in part (i): the book writes “35/1000 = 0.35”, but 35/1000 = 0.035, so the fraction wins and 0.035 is recorded. In part (iv) the book also mistypes the denominator as 1090 while dividing 309 by 1000 to get 0.309. The two-way table is kept in the stem as HTML; the “high-risk driver” graphic is decorative."
+  },
+  {
+   "number": "173",
+   "form": "long",
+   "marks": 5,
+   "page": 43,
+   "stem": "Deepika Kumari is an Indian athlete who competes in the event of archery, is currently ranked World No. 9, and is a former world number one. She won a gold medal in the 2010 Commonwealth games in the women’s individual recurve event. She also won a gold medal in the same competition in the women’s team recurve event along with Dola Banerjee and Bombayala Devi. Kumari qualified for the 2012 Summer Olympics in London, where she competed in the Women’s Individual and Women’s team events, finishing in eighth place in the latter.\nDeepika can hit the rectangular target shown 100% of the time at a range of 80 m. Assuming the probability the target is hit is related to its area, answer the following.\n(i) What is the probability the Deepika hits within the triangle ?\n(ii) What is the probability the Deepika hits within the circle ?\n(iii) What is the probability the Deepika hits within the circle but outside the triangle ?\n(iv) What is the probability the Deepika hits within the rectangle but outside the circle ?",
+   "answer": "Every arrow lands on the 90 cm × 70 cm rectangle, so the sample space is its area: n(S) = 90 × 70 = 6300 cm². The circle spans the 70 cm width, so its radius is 35 cm, and the shaded triangle stands on the 70 cm horizontal diameter with height 35 cm.\n(i) Area of the triangle = ½ × 70 × 35 = 1225 cm², so P = 1225/6300 = 7/36.\n(ii) Area of the circle = π × 35² = (22/7) × 35 × 35 = 3850 cm², so P = 3850/6300 = 11/18.\n(iii) Inside the circle but outside the triangle = 3850 − 1225 = 2625 cm², so P = 2625/6300 = 5/12.\n(iv) Inside the rectangle but outside the circle = 6300 − 3850 = 2450 cm², so P = 2450/6300 = 7/18. This also follows as the complement of part (ii): 1 − 11/18 = 7/18.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch14_q173.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question says “the rectangular target shown” and the 70 cm × 90 cm dimensions and the inscribed circle and triangle are only in the diagram, so the printed figure is attached. In part (iii) the book prints the subtraction as 3850 − 1225 = 2626, a slip — it then divides 2625 by 6300, so 2625 is correct. Part of the solution runs onto the next page. The photograph of the archer is decorative."
+  }
+ ]
+}

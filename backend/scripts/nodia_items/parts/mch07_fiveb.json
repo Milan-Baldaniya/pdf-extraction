@@ -1,0 +1,150 @@
+{
+ "items": [
+  {
+   "number": "128",
+   "form": "case_study",
+   "marks": 4,
+   "page": 30,
+   "stem": "Use of mobile screen for long hours makes your eye sight weak and give you headaches. Children who are addicted to play “PUBG” can get easily stressed out. To raise social awareness about ill effects of playing PUBG, a school decided to start ‘BAN PUBG’ campaign, in which students are asked to prepare campaign board in the shape of a rectangle. One such campaign board made by class X student of the school is shown in the figure.\nBased on the above information, answer the following questions :\n(i) Find the coordinates of the point of intersection of diagonals AC and BD.\n(ii) Find the length of the diagonal AC.\n(iii) Find the area of the campaign Board ABCD.\n(iv) Find the ratio of the length of side AB to the length of the diagonal AC.",
+   "answer": "From the figure the rectangle is A(1, 1), B(7, 1), C(7, 5), D(1, 5).\n(i) The diagonals of a rectangle bisect each other, so they meet at the mid-point of AC: ((7+1)/2, (1+5)/2) = (4, 3).\n(ii) AC = √((7 − 1)² + (5 − 1)²) = √(36 + 16) = √52 = 2√13 units.\n(iii) AB = 6 units and BC = 4 units, so area of ABCD = 6 × 4 = 24 sq. units.\n(iv) AB : AC = 6 : 2√13 = 3 : √13 = 3√13 : 13.",
+   "concept": "The formula itself",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q128.png"
+   ],
+   "figure_required": true,
+   "ocr": "Part (ii) of the printed solution writes √52 on one line and then “= √13 units” on the next; √52 = 2√13, so the worked expression is taken and the stated √13 treated as a misprint. Part (iv) is labelled “AC = AB/AC”, which should read AB : AC; its arithmetic 6/(2√13) = 3√13/13 is correct. The coordinates of A, B, C, D appear only in the figure, so the figure is attached."
+  },
+  {
+   "number": "129",
+   "form": "case_study",
+   "marks": 4,
+   "page": 30,
+   "stem": "Resident Welfare Association (RWA) of a Gulmohar Society in Delhi have installed three electric poles A, B and C in a society’s common park. Despite these three poles, some parts of the park are still in dark.\nSo, RWA decides to have one more electric pole D in the park.\nThe park can be modelled as a coordinate systems given below.\nOn the basis of the above information, answer any four of the following questions:\n(i) What is the position of the pole C?\n(ii) What is the distance of the pole B from the corner O of the park ?\n(iii) Find the position of the fourth pole D so that four points A, B C and D form a parallelogram .\n(iv) What is the distance between poles A and C ?\n(v) What is the distance between poles B and D ?",
+   "answer": "From the grid the poles stand at A(2, 7), B(6, 6) and C(5, 4), with the corner O at the origin.\n(i) The pole C is at (5, 4).\n(ii) OB = √((6 − 0)² + (6 − 0)²) = √(36 + 36) = √72 = 6√2 units.\n(iii) In a parallelogram ABCD the diagonals AC and BD bisect each other. Mid-point of AC = ((2+5)/2, (7+4)/2) = (3.5, 5.5). If D = (x, y), then (6 + x)/2 = 3.5 and (6 + y)/2 = 5.5, so x = 1 and y = 5; the fourth pole D is at (1, 5).\n(iv) AC = √((5 − 2)² + (4 − 7)²) = √(9 + 9) = √18 = 3√2 units.\n(v) BD = √((6 − 1)² + (6 − 5)²) = √(25 + 1) = √26 units.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q129.png"
+   ],
+   "figure_required": true,
+   "ocr": "Part (v) is printed as “What is the distance between poles B and ?” with the second pole missing; the worked solution computes the distance between B and D, so D is supplied. The positions of A, B and C are only on the grid, so the grid is attached."
+  },
+  {
+   "number": "130",
+   "form": "case_study",
+   "marks": 4,
+   "page": 31,
+   "stem": "Birla Science Museum is the first Science and Technology Museum of the country, established in 1954. It houses exhibits and displays on science and technology where visitors can interact with the exhibits to make the understanding of science and technology easy and entertaining.\nBirla Science Museum has set aside a children’s room having planets and stars painted on the ceiling. Suppose an imaginary coordinate system is placed on the ceiling in the room with the centre of the ceiling at (0, 0,). Three particular stars are located at S(−10, 5), T(3, −8) and R(−7, −4), where the coordinates represent the distance in feet from the center of the room.\n(i) Find the distance between each pair of stars.\n(ii) Which star is farthest from the center of the room?",
+   "answer": "(i) Using d = √((x₂ − x₁)² + (y₂ − y₁)²):\nST = √((3 − (−10))² + (−8 − 5)²) = √(169 + 169) = √338 = 13√2 feet.\nTR = √((−7 − 3)² + (−4 − (−8))²) = √(100 + 16) = √116 = 2√29 feet.\nSR = √((−7 − (−10))² + (−4 − 5)²) = √(9 + 81) = √90 = 3√10 feet.\n(ii) With O(0, 0), OS = √(100 + 25) = √125, OT = √(9 + 64) = √73 and OR = √(49 + 16) = √65. Since √125 is the largest, the star at S is farthest from the centre of the room.",
+   "concept": "The formula itself",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution writes TR = √116 = 4√29; √116 = 2√29 (4√29 would be √464), so the worked expression √116 is taken and the stated 4√29 treated as a misprint. The stem’s “(0, 0,)” carries the stray comma as printed. The museum photograph is decorative, so no figure is attached."
+  },
+  {
+   "number": "131",
+   "form": "case_study",
+   "marks": 4,
+   "page": 31,
+   "stem": "Old Age Home : An old age homes is a place where old people live and are cared for when they are too old to look after themselves. With advancing age, people often lose motor functions. Performing day to day activities becomes a daunting task. In an old age home, the association helps with daily activities. One of the factors that make old age homes attractive to elders is the companionship. The steady security in an old age home gives them protection from intruders and helps them live a safe and secure life.\nA school decides to take the students for school picnic to an amusement park. However, the students have to first visit an old age home and then move towards the park. If the point S, P and H represent the school, the park and the old age home respectively, find the additional distance covered by the students had they travelled directly from school to the park. ? (Note : All distance are in km)",
+   "answer": "From the graph S(2, 2), P(8, 10) and H(8, 2).\nSP = √((8 − 2)² + (10 − 2)²) = √(36 + 64) = √100 = 10 km.\nSH = √((8 − 2)² + (2 − 2)²) = √36 = 6 km and HP = √((8 − 8)² + (10 − 2)²) = √64 = 8 km.\nGoing by way of the old age home covers SH + HP = 6 + 8 = 14 km, while school to park directly is SP = 10 km.\nAdditional distance covered = 14 − 10 = 4 km.",
+   "concept": "The formula itself",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q131.png"
+   ],
+   "figure_required": true,
+   "ocr": "The coordinates of S, P and H are printed only in the graph, so the graph is attached. The stem’s stray “. ?” after “to the park” is as printed."
+  },
+  {
+   "number": "132",
+   "form": "case_study",
+   "marks": 4,
+   "page": 32,
+   "stem": "Ajay, Bhigu and Colin are fast friend since childhood. They always want to sit in a row in the classroom. But teacher doesn’t allow them and rotate the seats row-wise everyday. Bhigu is very good in maths and he does distance calculation everyday. He consider the centre of class as origin and marks their position on a paper in a co-ordinate system. One day Bhigu make the following diagram of their seating position.\n(i) What are the coordinates of point A?\n(ii) What is the distance of point A from origin ?\n(iii) What is the distance between A and B ?\n(iv) What is the distance between B and C ?\n(v) A point D lies on the line segment between points A and B such that AD : DB = 4 : 3. What are the coordinates of point D ?",
+   "answer": "From the diagram A(−2, 2), B(−1, −2) and C(3, 0).\n(i) A = (−2, 2).\n(ii) OA = √((0 + 2)² + (0 − 2)²) = √8 = 2√2 units.\n(iii) AB = √((−2 + 1)² + (2 + 2)²) = √(1 + 16) = √17 units.\n(iv) BC = √((−1 − 3)² + (−2 − 0)²) = √(16 + 4) = √20 = 2√5 units.\n(v) D divides AB in m : n = 4 : 3, so x = (4(−1) + 3(−2))/(4 + 3) = −10/7 and y = (4(−2) + 3(2))/(4 + 3) = −2/7. Hence D = (−10/7, −2/7).",
+   "concept": "The formula itself",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q132.png"
+   ],
+   "figure_required": true,
+   "ocr": "In parts (iii) and (iv) the printed solution repeats the words “coordinates of point A are (−1, −2)” and “coordinates of point A are (0, 3)”; from the diagram, and from the very computations that follow, these are B(−1, −2) and C(3, 0) — the BC line substitutes (3, 0), not (0, 3). The seating positions are only in the diagram, so the diagram is attached."
+  },
+  {
+   "number": "133",
+   "form": "case_study",
+   "marks": 4,
+   "page": 33,
+   "stem": "Satellite Images : Satellite images are images of Earth collected by imaging satellites operated by governments and businesses around the world. Satellite imaging companies sell images by licensing them to governments and businesses such as Apple Maps and Google Maps. It should not be confused for astronomy images collected by space telescope.\nBarun lives in Jaipur in Vaishali. Satellite image of his colony is shown in given figure. In this view, his house is pointed out by a flag, which is situated at the point of intersection of x and y - axes. If he goes 2 cm east and 3 cm north from the house, then he reaches to a grocery store, If he goes 4 cm west and 6 cm south from the house, then he reaches to his office. If he goes 6 cm east and 8 cm south from the house, then he reaches to a food court. If he goes 6 cm west and 8 cm north from the house, he reaches to a his kid’s school.\nBased on the above information, answer the following questions.\n(i) Find the distance between grocery store and food court.\n(ii) Find the distance of the school from the house.\n(iii) If the grocery store and office lie on a line, what is the ratio of distance of house from grocery store to that from office ?\n(iv) Find the ratio of distances of house from school to food court.\n(v) What shape is formed by the coordinates of positions of school, grocery store, food court and office?",
+   "answer": "Take the house at the origin (0, 0). Then the grocery store is (2, 3), the office (−4, −6), the food court (6, −8) and the school (−6, 8).\n(i) Distance between grocery store and food court = √((6 − 2)² + (−8 − 3)²) = √(16 + 121) = √137 cm.\n(ii) Distance of the school from the house = √((−6)² + 8²) = √(36 + 64) = √100 = 10 cm.\n(iii) Let the house O divide the join of the office E(−4, −6) and the grocery store G(2, 3) in the ratio k : 1. Then 0 = (2k − 4)/(k + 1), so 2k = 4 and k = 2; O divides EG in 2 : 1. Hence OG : OE = 1 : 2, i.e. the required ratio is 1 : 2.\n(iv) The house (0, 0) is the mid-point of the school (−6, 8) and the food court (6, −8), so the two lie at equal distances from the house and the ratio is 1 : 1.\n(v) The mid-point of school and food court is (0, 0), while the mid-point of grocery store and office is ((2 − 4)/2, (3 − 6)/2) = (−1, −3/2). The diagonals do not bisect each other, so the four positions form a quadrilateral, not a parallelogram.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "All four positions are given in words in the stem, so no figure is attached. The coordinate sketch printed beside the solution labels the school (−6, 9), while the stem’s “6 cm west and 8 cm north” and the solution’s own working both give (−6, 8). The satellite photograph is decorative."
+  },
+  {
+   "number": "134",
+   "form": "case_study",
+   "marks": 4,
+   "page": 34,
+   "stem": "Morning assembly is an integral part of the school’s schedule. Almost all the schools conduct morning assemblies which include prayers, information of latest happenings, inspiring thoughts, speech, national anthem, etc. A good school is always particular about their morning assembly schedule. Morning assembly is important for a child’s development. It is essential to understand that morning assembly is not just about standing in long queues and singing prayers or national anthem, but it’s something beyond just prayers. All the activities carried out in morning assembly by the school staff and students have a great influence in every point of life. The positive effects of attending school assemblies can be felt throughout life.\nHave you noticed that in school assembly you always stand in row and column and this make a coordinate system. Suppose a school have 100 students and they all assemble in prayer in 10 rows as given below.\nHere A, B, C and D are four friend Amar, Bharat, Colin and Dravid.\n(i) What is the distance between A and B ?\n(ii) What is the distance between C and D ?\n(iii) What is the distance between A and C ?\n(iv) What is the distance between D and B ?",
+   "answer": "From the grid A(3, 4), B(6, 7), C(9, 4) and D(6, 1).\n(i) AB = √((6 − 3)² + (7 − 4)²) = √(9 + 9) = √18 = 3√2 units.\n(ii) CD = √((9 − 6)² + (4 − 1)²) = √(9 + 9) = √18 = 3√2 units.\n(iii) AC = √((3 − 9)² + (4 − 4)²) = √36 = 6 units.\n(iv) BD = √((6 − 6)² + (7 − 1)²) = √36 = 6 units.",
+   "concept": "The formula itself",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q134.png"
+   ],
+   "figure_required": true,
+   "ocr": "The printed solution states AB = 2√3 and CD = 2√3, but the expressions it prints, √((6−3)² + (7−4)²) and √((9−6)² + (4−1)²), both equal √18 = 3√2; the worked expressions are taken and 2√3 treated as a misprint. Positions are only on the grid, so the grid is attached."
+  },
+  {
+   "number": "135",
+   "form": "case_study",
+   "marks": 4,
+   "page": 34,
+   "stem": "Carpooling : It is the sharing of car journeys so that more than one person travels in a car, and prevents the need for others to have to drive to a location themselves. By having more people using one vehicle, carpooling reduces each person’s travel costs such as: fuel costs, tolls, and the stress of driving. Carpooling is also a more environmentally friendly and sustainable way to travel as sharing journeys reduces air pollution, carbon emissions, traffic congestion on the roads, and the need for parking spaces.\nThree friends Amar, Bandhu and Chakradev lives in societies represented by the points A, B and C respectively. They all work in offices located in a same building represented by the point O. Since they all go to same building everyday, they decided to do carpooling to save money on petrol. Based on the above information, answer the following questions.\n(i) Which society is nearest to the office?\n(ii) What is the distance between A and C?\n(iii) Find the least distance between AB, OA and BC ?\n(iv) Find the best route to go to the office ?\n(v) If Bandhu and Chakradev planned to meet at a club situated at the mid-point of the line joining the points B and C, find the coordinates of this point.",
+   "answer": "From the graph A(2, 8), B(7, 7) and C(5, 3), and the office is at O(0, 0).\n(i) Reading the graph, society C is nearest to the office.\n(ii) AC = √((5 − 2)² + (3 − 8)²) = √(9 + 25) = √34 units.\n(iii) AB = √((7 − 2)² + (7 − 8)²) = √26 units, OA = √(2² + 8²) = √68 = 2√17 units and BC = √((7 − 5)² + (7 − 3)²) = √20 = 2√5 units. Since √20 < √26 < √68, the distance BC is the least.\n(iv) From the graph the route A → B → C → O (ABCO) is the best route to the office.\n(v) Mid-point of B(7, 7) and C(5, 3) = ((5 + 7)/2, (3 + 7)/2) = (6, 5).",
+   "concept": "The formula itself",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q135.png"
+   ],
+   "figure_required": true,
+   "ocr": "The word “Sol :” is printed twice — once above the list (i)–(v) and again above the worked answer; the parts (i)–(v) belong to the question. The coordinates of A, B and C are only in the graph, so the graph is attached."
+  },
+  {
+   "number": "136",
+   "form": "case_study",
+   "marks": 4,
+   "page": 35,
+   "stem": "To conduct sports day activities, in a rectangular shaped school ground ABCD, lines have been drawn with chalk powder at a distance of 1 m each. 100 flower pots have been placed at a distance of 1 m from each other along AB, as shown in figure. Nishtha runs ¼ th the distance AB on the 2nd line and posts a green flag. Suman runs ⅕ th the distance AB on the 8th line and posts a red flag.\n(i) What is the position of green flag ?\n(ii) What is the position of red flag ?\n(iii) What is the distance between both the flags?\n(iv) What is the distance of red flag from point A ?\n(v) If Rakhi has to post a blue flag exactly halfway between the line segment joining the two flags, where should she post her flag?",
+   "answer": "(i) One fourth of the 100 m side is 100/4 = 25 m, and the 2nd line is x = 2, so the green flag stands at (2, 25).\n(ii) One fifth of 100 m is 100/5 = 20 m, and the 8th line is x = 8, so the red flag stands at (8, 20).\n(iii) Distance between the flags = √((8 − 2)² + (20 − 25)²) = √(36 + 25) = √61 m.\n(iv) Distance of the red flag from A(0, 0) = √(8² + 20²) = √(64 + 400) = √464 = 4√29 m.\n(v) The blue flag goes at the mid-point of the two flags: ((2 + 8)/2, (25 + 20)/2) = (5, 22.5).",
+   "concept": "Mid-point as a special case",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q136.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem measures the runs along AB while the worked solution calls the same 100 m side AD; the figure’s axes are numbered only 1–10, the solution scaling that side to the 100 flower pots. The chalk lines and the lettering of the ground are only in the figure, so the figure is attached."
+  },
+  {
+   "number": "137",
+   "form": "case_study",
+   "marks": 4,
+   "page": 36,
+   "stem": "A garden is in the shape of rectangle. Gardener grew sapling of Ashoka tree on the boundary of garden at the distance of 1 meter from each other. He want to decorate the garden with rose plants. He choose triangular region inside the park to grow rose plants. On the above situation, gardener took help from the students of class 10th. They made a chart for it which looks as the above figure.\n(i) If A is taken as origin, What are the coordinates of triangle PQR ?\n(ii) If C is taken as origin, what is the co-ordinate of point P ?\n(iii) If B is taken as origin, what are the co-ordinate of P ?\n(iv) What is distance between P and Q if origin is taken A?\n(v) What is distance between P and Q if origin is taken B?",
+   "answer": "The saplings stand 1 m apart, so the chart is a 10 × 10 grid with A the bottom-left corner, B the top-left, C the top-right and D the bottom-right.\n(i) Taking A as origin, A(0, 0), B(0, 10), C(10, 10), D(10, 0) and the triangle is P(4, 6), Q(3, 2), R(6, 5).\n(ii) Taking C(10, 10) as origin shifts every point by (−10, −10), so P = (4 − 10, 6 − 10) = (−6, −4).\n(iii) Taking B(0, 10) as origin, P = (4 − 0, 6 − 10) = (4, −4).\n(iv) With A as origin, PQ = √((4 − 3)² + (6 − 2)²) = √(1 + 16) = √17 units.\n(v) A distance does not change with the choice of origin: with B as origin P(4, −4) and Q(3, −8), so PQ = √((4 − 3)² + (−4 + 8)²) = √17 units.",
+   "concept": "Abscissa and ordinate",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch07_q137.png"
+   ],
+   "figure_required": true,
+   "ocr": "The page carrying the rest of the printed solution (PAGE 309) is not in the rendered page set; parts (i)–(iii) are read off the solution’s own labelled grids on this page (A as origin, then C, then B) and (iv), (v) are worked from them. The question’s own chart carries no axis numbers, so it is attached; the solution’s numbered grids are not."
+  }
+ ]
+}

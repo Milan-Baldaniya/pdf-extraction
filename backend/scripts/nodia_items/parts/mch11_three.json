@@ -1,0 +1,198 @@
+{
+ "items": [
+  {
+   "number": "45",
+   "form": "short",
+   "marks": 3,
+   "page": 10,
+   "stem": "In a circle of radius 21 cm, an arc subtends an angle of 60° at the centre. Find the area of the sector formed by the arc. Also, find the length of the arc.",
+   "answer": "Here r = 21 cm and θ = 60°.\nArea of the sector APB = (θ/360°)πr² = (60°/360°) × (22/7) × 21 × 21 = (1/6) × 22 × 3 × 21 = 11 × 21 = 231 cm².\nLength of the arc APB = (θ/360°) × 2πr = (60°/360°) × 2 × (22/7) × 21 = (1/6) × 2 × 22 × 3 = 22 cm.\nHence the sector has area 231 cm² and the arc is 22 cm long.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Clean print. π taken as 22/7 in the printed solution though the stem does not state it."
+  },
+  {
+   "number": "46",
+   "form": "short",
+   "marks": 3,
+   "page": 10,
+   "stem": "A road which is 7 m wide surrounds a circular park whose circumference is 88 m. Find the area of the road.",
+   "answer": "Let w = 7 m be the width of the road.\nCircumference of the circular park: 2πr = 88 m, so r = 88/(2π) = (88 × 7)/(2 × 22) = 14 m.\nOuter radius including the road, R = r + w = 14 + 7 = 21 m.\nArea of the road = π(R² − r²) = π(R + r)(R − r) = (22/7)(21 + 14)(21 − 14) = (22/7) × 35 × 7 = 770 m².\nHence the area of the road is 770 m².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Clean print. The concept list has no circular-ring entry; the sector-area entry is the nearest available."
+  },
+  {
+   "number": "47",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "stem": "Three horses are tied each with 7 m long rope at three corners of a triangular field having sides 20 m, 34 m and 42 m. Find the area of the plot which can be grazed by the horses.",
+   "answer": "Let the angles of the triangular field be θ₁, θ₂ and θ₃. Each horse grazes a sector of radius r = 7 m at its own corner, so the grazed area is\n(πr²θ₁)/360° + (πr²θ₂)/360° + (πr²θ₃)/360° = (πr²/360°)(θ₁ + θ₂ + θ₃).\nBy the angle sum property θ₁ + θ₂ + θ₃ = 180°, so the total is (πr²/360°) × 180° = πr²/2 = (22/7) × (1/2) × 7 × 7 = 77 m².\nHence the horses can graze 77 m². The side lengths 20 m, 34 m and 42 m are not needed — only that the three angles add to 180°.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A figure is printed with the solution only; the stem is self-contained, so no figure is attached."
+  },
+  {
+   "number": "48",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "stem": "In Figure, PQ and AB are two arcs of concentric circles of radii 7 cm and 3.5 cm respectively, with centre O. If ∠POQ = 30°, then find the area of shaded region.",
+   "answer": "The shaded region ABQP is what is left of the 30° sector of the larger circle after removing the 30° sector of the smaller circle.\nArea = (θ/360°)π(R² − r²) = (30°/360°) × (22/7) × [7² − (3.5)²]\n= (22/7)(7 + 3.5)(7 − 3.5) × (1/12) = (22/7) × 10.5 × 3.5 × (1/12) = 9.625 cm².\nHence the shaded area is 9.625 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Basic",
+   "images": [
+    "ch11_q48.png"
+   ],
+   "figure_required": true,
+   "ocr": "Question figure cropped from the stem, not the redrawn solution figure."
+  },
+  {
+   "number": "49",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "stem": "A horse is tethered to one corner of a rectangular field of dimensions 70 m × 52 m, by a rope of length 21 m. How much area of the field can it graze?",
+   "answer": "At a corner of the rectangle the horse sweeps a quarter circle, because the corner angle is 90°, of radius r = 21 m; it fits inside the field since 21 < 52 and 21 < 70.\nArea of the quadrant = (1/4)πr² = (1/4) × (22/7) × 21 × 21 = 346.5 m².\nHence the horse can graze 346.5 m².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution says \"Length of the rope is 21 cm\" — a unit slip; it then correctly uses r = 21 m and answers in m². Stem is self-contained, so the solution figure is not attached."
+  },
+  {
+   "number": "50",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "The circumference of a circle exceeds the diameter by 16.8 cm. Find the radius of the circle. Use π = 22/7.",
+   "answer": "Let the radius be r. Then circumference = diameter + 16.8, so\n2πr = 2r + 16.8\n2 × (22/7) × r = 2r + 16.8\n(44/7)r = 2r + 16.8\n44r = 14r + 16.8 × 7 = 14r + 117.6\n30r = 117.6\nr = 117.6/30 = 3.92.\nHence the radius is 3.92 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution has a digit slip: it writes \"30r = 177.6\" but the very next line divides 117.6 by 30 to reach 3.92. Since 16.8 × 7 = 117.6, the 117.6 is right and the answer 3.92 cm stands; the solution above carries the corrected line. The concept list has no circumference entry; \"Length of an arc\" is the nearest."
+  },
+  {
+   "number": "51",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "Sides of a right triangular field are 25 m, 24 m and 7 m. At the three corners of the field, a cow, a buffalo and a horse are tied separately with ropes of 3.5 m each to graze in the field. Find the area of the field that cannot be grazed by these animals.",
+   "answer": "Each animal grazes a sector of radius r = 3.5 m at its corner, and the three corner angles add to 180°, so the grazed area is\n(πr²/360°)(θ₁ + θ₂ + θ₃) = (πr²/360°) × 180° = πr²/2 = (22/7) × (1/2) × (3.5)² = 19.25 m².\nThe triangle is right angled, since 7² + 24² = 49 + 576 = 625 = 25², with legs 24 m and 7 m, so\nArea of ΔABC = (1/2) × 24 × 7 = 84 m².\nArea that cannot be grazed = 84 − 19.25 = 64.75 m².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 SQP Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution drops a decimal point in its last line: \"84 − 1925 = 64.75\". The intended 84 − 19.25 = 64.75 m² matches both the stated result and the 19.25 m² computed just above, so 64.75 m² stands. Stem self-contained; solution figure not attached."
+  },
+  {
+   "number": "52",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "In the given figure, AOB is a sector of angle 60° of a circle with centre O and radius 17 cm. If AP ⊥ OB and AP = 15 cm, find the area of the shaded region.",
+   "answer": "Here OA = 17 cm and AP = 15 cm, and ΔOPA is right angled at P.\nBy Pythagoras' theorem, OP = √(17² − 15²) = √(289 − 225) = √64 = 8 cm.\nArea of the shaded region = area of sector OAB − area of ΔOPA\n= (60°/360°) × (22/7) × 17 × 17 − (1/2) × 8 × 15\n= 151.38 − 60 = 91.38 cm².\nHence the shaded area is about 91.38 cm².",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2016",
+   "images": [
+    "ch11_q52.png"
+   ],
+   "figure_required": true,
+   "ocr": "Clean print."
+  },
+  {
+   "number": "53",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "In the given figure, a chord AB of the circle with centre O and radius 10 cm, that subtends a right angle at the centre of the circle. Find the area of the minor segment AQBP. Hence find the area of major segment ALBQA. (Use π = 3.14)",
+   "answer": "The chord AB subtends 90° at the centre and r = 10 cm.\nArea of sector OAPB = (90/360)π(10)² = 25π = 25 × 3.14 = 78.5 cm².\nArea of ΔAOB = (1/2) × 10 × 10 = 50 cm², the two radii being perpendicular.\nArea of the minor segment AQBP = 78.5 − 50 = 28.5 cm².\nArea of the whole circle = π(10)² = 3.14 × 100 = 314 cm².\nArea of the major segment ALBQA = 314 − 28.5 = 285.5 cm².",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [
+    "ch11_q53.png"
+   ],
+   "figure_required": true,
+   "ocr": "Stem begins at the foot of page 12 and its figure is printed at the top of page 13; the figure was cropped from page 13."
+  },
+  {
+   "number": "54",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "stem": "Find the area of shaded region shown in the given figure where a circular arc of radius 6 cm has been drawn with vertex O of an equilateral triangle OAB of side 12 cm as centre.",
+   "answer": "Since OAB is equilateral, ∠AOB = 60°, so the arc cuts off a 60° minor sector at O and leaves a 300° major sector.\nArea of the shaded region = area of the major sector + (area of ΔAOB − area of the minor sector)\n= (300°/360°) × (22/7) × 6² + [(√3/4)(12)² − (60/360) × (22/7) × 6²]\n= 660/7 + 36√3 − 132/7\n= 36√3 + 528/7 cm², which is about 137.8 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign SQP 2016",
+   "images": [
+    "ch11_q54.png"
+   ],
+   "figure_required": true,
+   "ocr": "Solution runs on to page 14, where the final form 36√3 + 528/7 cm² is printed."
+  },
+  {
+   "number": "55",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "stem": "Find the area of minor segment of a circle of radius 14 cm, when its centre angle is 60°. Also find the area of corresponding major segment. Use π = 22/7.",
+   "answer": "Here r = 14 cm and θ = 60°.\nArea of the minor segment = πr²(θ/360°) − (1/2)r² sin θ\n= (22/7) × 14 × 14 × (60°/360°) − (1/2) × 14 × 14 × (√3/2)\n= 308/3 − 49√3 ≈ 102.67 − 84.87 = 17.9 cm² approximately.\nArea of the major segment = πr² − (308/3 − 49√3) = (22/7) × 14 × 14 − 308/3 + 49√3\n= 1540/3 + 49√3 ≈ 513.33 + 84.87 = 598.10\n≈ 598 cm² approximately.",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Clean print; the solution takes the chord-triangle area as (1/2)r² sin 60°."
+  },
+  {
+   "number": "56",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "stem": "In the given figure, find the area of the shaded region, enclosed between two concentric circles of radii 7 cm and 14 cm where ∠AOC = 40°. Use π = 22/7.",
+   "answer": "The concentric radii are r = 7 cm and R = 14 cm, and the unshaded wedge has central angle 40°, so the shaded ring-sector spans 360° − 40° = 320°.\nArea of the shaded region = (θ/360°)π(R² − r²) = (320°/360°) × (22/7) × (14² − 7²)\n= (8/9) × 22 × (14 × 2 − 7) = (8/9) × 22 × 21 = (8/3) × 22 × 7 = (8 × 154)/3\n= 1232/3 = 410.67 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "images": [
+    "ch11_q56.png"
+   ],
+   "figure_required": true,
+   "ocr": "The printed solution mislabels its second line, writing \"Angle ∠AOC = 360° − 40° = 320°\" straight after writing ∠AOC = 40°; 320° is the reflex angle. The arithmetic that follows uses 320° correctly and the result 410.67 cm² stands. Solution runs on to page 14."
+  },
+  {
+   "number": "57",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "In a circle of radius 21 cm, an arc subtends an angle of 60° at the centre. Find the area of sector formed by the arc.",
+   "answer": "Here r = 21 cm and θ = 60°.\nArea of the sector = (θ/360) × πr² = (60°/360°) × (22/7) × 21 × 21 = (1/6) × 22 × 3 × 21 = 11 × 21 = 231 cm².\nHence the area of the sector is 231 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi Compt. 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Genuine book reprint: this is the first half of question 45 of the same section, printed again under a different board tag. Kept because the book numbers it as a separate question."
+  },
+  {
+   "number": "58",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "In the given figure, ΔPQR is an equilateral triangle of side 8 cm and D, E, F are centres of circular arcs, each of radius 4 cm. Find the area of shaded region. (Use π = 3.14) and √3 = 1.732",
+   "answer": "Since ΔPQR is equilateral, ∠P = ∠Q = ∠R = 60°, and D, E, F are the midpoints of the sides, each arc having radius 4 cm.\nArea of one sector, say sector PDF = (θ/360°) × πr² = (60°/360°) × 3.14 × 4 × 4 = (1/6) × 3.14 × 16 = 8.373 cm².\nArea of the shaded region = area of ΔPQR − 3 × (area of one sector)\n= (√3/4)(8)² − 3 × 8.373 = 16√3 − 25.12 = 16 × 1.732 − 25.12 = 27.712 − 25.12 = 2.59 cm².\nHence the shaded area is about 2.59 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2012",
+   "images": [
+    "ch11_q58.png"
+   ],
+   "figure_required": true,
+   "ocr": "Two figures are printed: the undimensioned one in the stem and a dimensioned redraw inside the solution. Only the stem figure is attached."
+  }
+ ]
+}

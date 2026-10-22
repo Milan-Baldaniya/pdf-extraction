@@ -1,0 +1,211 @@
+{
+ "items": [
+  {
+   "number": "88",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "Find the ratio in which the line segment joining the points A(6,3) and B(−2,−5) is divided by x-axis.",
+   "answer": "Let the x-axis cut AB at (x,0) in the ratio m:n. By the section formula the ordinate is (m(−5) + n(3))/(m+n), and this must be 0. So −5m + 3n = 0, giving 5m = 3n and m/n = 3/5. The x-axis divides AB in the ratio 3:5.",
+   "concept": "Dividing in a given ratio",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2023 OD Standard"
+  },
+  {
+   "number": "89",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "Find the ratio in which P(4,m) divides the segment joining the points A(2,3) and B(6,−3). Hence find m.",
+   "answer": "Let P divide AB in the ratio k:1. Using the x-coordinate, 4 = (6k + 2)/(k + 1), so 4k + 4 = 6k + 2, giving 2k = 2 and k = 1. Hence P divides AB in the ratio 1:1. Using the y-coordinate, m = (1×(−3) + 1×3)/(1 + 1) = 0/2 = 0. The ratio is 1:1 and m = 0.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2018"
+  },
+  {
+   "number": "90",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "If the point C(−1,2) divides internally the line segment joining A(2,5) and B(x,y) in the ratio 3:4 find the coordinates of B.",
+   "answer": "By the section formula with ratio 3:4, the abscissa gives −1 = (3x + 4×2)/(3 + 4), so 3x + 8 = −7, i.e. 3x = −15 and x = −5. The ordinate gives 2 = (3y + 4×5)/(3 + 4), so 3y + 20 = 14, i.e. 3y = −6 and y = −2. Hence B is (−5, −2).",
+   "concept": "The section formula",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi Standard"
+  },
+  {
+   "number": "91",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "Find the ratio in which the segment joining the points (1,−3) and (4,5) is divided by x-axis? Also find the coordinates of this point on x-axis.",
+   "answer": "Let the required ratio be k:1 and the point of division be P(x,0). Using the y-coordinate, 0 = (5k + 1×(−3))/(k + 1), so 5k − 3 = 0 and k = 3/5. The required ratio is 3:5. Using the x-coordinate, x = ((3/5)×4 + 1×1)/((3/5) + 1) = (17/5)/(8/5) = 17/8. The ratio is 3:5 and the point is (17/8, 0).",
+   "concept": "Ratio written as k:1",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2019 Delhi"
+  },
+  {
+   "number": "92",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "If the point C(−1,2) divides internally the line segment joining the points A(2,5) and B(x,y) in the ratio 3:4, find the value of x² + y².",
+   "answer": "Here AC:CB = 3:4. For the abscissa, −1 = (3x + 4×2)/(3 + 4), so 3x + 8 = −7 and x = −5. For the ordinate, 2 = (3y + 4×5)/(3 + 4), so 3y + 20 = 14 and y = −2. Thus (x,y) = (−5, −2) and x² + y² = (−5)² + (−2)² = 25 + 4 = 29.",
+   "concept": "The section formula",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2016"
+  },
+  {
+   "number": "93",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "If the co-ordinates of points A and B are (−2,−2) and (2,−4) respectively, find the co-ordinates of P such that AP = (3/7)AB, where P lies on the line segment AB.",
+   "answer": "AP = (3/7)AB means AP:PB = 3:4. By the section formula, x = (3×2 + 4×(−2))/(3 + 4) = (6 − 8)/7 = −2/7 and y = (3×(−4) + 4×(−2))/(3 + 4) = (−12 − 8)/7 = −20/7. Hence P is (−2/7, −20/7).",
+   "concept": "Dividing in a given ratio",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2017"
+  },
+  {
+   "number": "94",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "If the distance of P(x,y) from A(6,2) and B(−2,6) are equal, prove that y = 2x.",
+   "answer": "Since PA = PB, we have PA² = PB², so (x − 6)² + (y − 2)² = (x + 2)² + (y − 6)². Expanding, x² − 12x + 36 + y² − 4y + 4 = x² + 4x + 4 + y² − 12y + 36. Cancelling x², y² and the constants, −12x − 4y = 4x − 12y, so 12y − 4y = 4x + 12x, i.e. 8y = 16x. Hence y = 2x.",
+   "concept": "The formula itself",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2015"
+  },
+  {
+   "number": "95",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "The co-ordinates of the vertices of Δ ABC are A(7,2), B(9,10) and C(1,4). If E and F are the mid-points of AB and AC respectively, prove that EF = ½BC.",
+   "answer": "E, the mid-point of AB, is ((9 + 7)/2, (10 + 2)/2) = (8, 6). F, the mid-point of AC, is ((7 + 1)/2, (2 + 4)/2) = (4, 3). Then EF = √((8 − 4)² + (6 − 3)²) = √(16 + 9) = √25 = 5 units, and BC = √((9 − 1)² + (10 − 4)²) = √(64 + 36) = √100 = 10 units. Since 5 = ½ × 10, EF = ½BC.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2015"
+  },
+  {
+   "number": "96",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "Prove that the diagonals of a rectangle ABCD, with vertices A(2,−1), B(5,−1), C(5,6) and D(2,6) are equal and bisect each other.",
+   "answer": "AC = √((5 − 2)² + (6 + 1)²) = √(9 + 49) = √58 and BD = √((5 − 2)² + (−1 − 6)²) = √(9 + 49) = √58, so the diagonals are equal. The mid-point of AC is ((2 + 5)/2, (−1 + 6)/2) = (7/2, 5/2) and the mid-point of BD is ((5 + 2)/2, (6 − 1)/2) = (7/2, 5/2). The two mid-points coincide, so the diagonals bisect each other. Hence the diagonals are equal and bisect each other.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2014",
+   "ocr": "The printed working states the common mid-point once as (7/5, 5/2); both of its own computations give (7/2, 5/2), which is what is used."
+  },
+  {
+   "number": "97",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "The vertices of Δ ABC are A(6,−2), B(0,−6) and C(4,8). Find the co-ordinates of mid-points of AB, BC and AC.",
+   "answer": "Mid-point of AB: ((6 + 0)/2, (−2 − 6)/2) = (3, −4). Mid-point of BC: ((0 + 4)/2, (−6 + 8)/2) = (2, 1). Mid-point of AC: ((6 + 4)/2, (−2 + 8)/2) = (5, 3). So the mid-points of AB, BC and AC are D(3, −4), E(2, 1) and F(5, 3) respectively.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2014"
+  },
+  {
+   "number": "98",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "Find the ratio in which the point (−3,p) divides the line segment joining the points (−5,−4) and (−2,3). Hence find the value of p.",
+   "answer": "Let (−3,p) divide the join of A(−5,−4) and B(−2,3) in the ratio k:1. Then its coordinates are ((−2k − 5)/(k + 1), (3k − 4)/(k + 1)). Equating abscissae, (−2k − 5)/(k + 1) = −3, so −2k − 5 = −3k − 3, giving k = 2. The ratio is 2:1. Then p = (3×2 − 4)/(2 + 1) = 2/3. Hence the ratio is 2:1 and p = 2/3.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2012"
+  },
+  {
+   "number": "99",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "Find the co-ordinates of the points of trisection of the line segment joining the points A(1,−2) and B(−3,4).",
+   "answer": "Let P and Q trisect AB. P divides AB in the ratio 1:2, so x = (1×(−3) + 2×1)/(1 + 2) = (−3 + 2)/3 = −1/3 and y = (1×4 + 2×(−2))/(1 + 2) = (4 − 4)/3 = 0. Thus P is (−1/3, 0). Q is the mid-point of PB, so x = ((−1/3) + (−3))/2 = (−10/3)/2 = −5/3 and y = (0 + 4)/2 = 2. Thus Q is (−5/3, 2). The points of trisection are (−1/3, 0) and (−5/3, 2).",
+   "concept": "Dividing in a given ratio",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2012",
+   "ocr": "The printed final line states Q is (−5/2, 2), but its own working gives x₂ = −10/6 = −5/3; the solution wins, so Q = (−5/3, 2). The book also misprints the denominator of x₁ as 1+3 while using 3 in the arithmetic."
+  },
+  {
+   "number": "100",
+   "form": "short",
+   "marks": 3,
+   "page": 20,
+   "stem": "If (a,b) is the mid-point of the segment joining the points A(10,−6) and B(k,4) and a − 2b = 18, find the value of k and the distance AB.",
+   "answer": "Since (a,b) is the mid-point, a = (k + 10)/2 and b = (−6 + 4)/2 = −1. Substituting b = −1 into a − 2b = 18 gives a + 2 = 18, so a = 16. Then (k + 10)/2 = 16 gives k = 22, and so B is (22, 4). Finally AB = √((22 − 10)² + (4 + 6)²) = √(144 + 100) = √244 = 2√61 units. Hence k = 22 and AB = 2√61 units.",
+   "concept": "Mid-point as a special case",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2012"
+  },
+  {
+   "number": "101",
+   "form": "short",
+   "marks": 3,
+   "page": 20,
+   "stem": "Find the ratio in which the line 2x + 3y − 5 = 0 divides the line segment joining the points (8,−9) and (2,1). Also find the co-ordinates of the point of division.",
+   "answer": "Let the line meet the segment at P(x,y) dividing it in the ratio k:1. Then x = (2k + 8)/(k + 1) and y = (k − 9)/(k + 1). Substituting into 2x + 3y − 5 = 0 gives 2(2k + 8) + 3(k − 9) − 5(k + 1) = 0, i.e. 4k + 16 + 3k − 27 − 5k − 5 = 0, so 2k − 16 = 0 and k = 8. The ratio is 8:1. Then x = (2×8 + 8)/(8 + 1) = 24/9 = 8/3 and y = (8 − 9)/(8 + 1) = −1/9. The point of division is (8/3, −1/9).",
+   "concept": "Ratio written as k:1",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2012"
+  },
+  {
+   "number": "102",
+   "form": "short",
+   "marks": 3,
+   "page": 20,
+   "stem": "Find the area of the rhombus of vertices (3,0), (4,5), (−1,4) and (−2,−1) taken in order.",
+   "answer": "Take A(3,0), B(4,5), C(−1,4), D(−2,−1). Diagonal AC = √((3 + 1)² + (0 − 4)²) = √(16 + 16) = √32 = 4√2. Diagonal BD = √((4 + 2)² + (5 + 1)²) = √(36 + 36) = √72 = 6√2. Area of a rhombus = ½ × d₁ × d₂ = ½ × 4√2 × 6√2 = ½ × 48 = 24 sq. units.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2012"
+  },
+  {
+   "number": "103",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "Find the ratio in which the line joining points (a + b, b + a) and (a − b, b − a) is divided by the point (a,b).",
+   "answer": "Let P(a,b) divide the join of A(a + b, b + a) and B(a − b, b − a) in the ratio k:1. Using the abscissa, a = (k(a − b) + 1(a + b))/(k + 1), so a(k + 1) = k(a − b) + a + b, i.e. ak + a = ak − bk + a + b. This gives bk = b, so k = 1. Hence (a,b) divides the segment internally in the ratio 1:1.",
+   "concept": "Ratio written as k:1",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2013"
+  },
+  {
+   "number": "104",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "Find the co-ordinates of a point on the x-axis which is equidistant from the points A(2,−5) and B(−2,9).",
+   "answer": "Let the point on the x-axis be P(x,0). Since PA = PB, PA² = PB², so (x − 2)² + (0 + 5)² = (x + 2)² + (0 − 9)². Expanding, x² − 4x + 4 + 25 = x² + 4x + 4 + 81, so −4x + 29 = 4x + 85, giving −8x = 56 and x = −7. Hence the required point on the x-axis is (−7, 0).",
+   "concept": "Points on the axes",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi Compt. 2017"
+  },
+  {
+   "number": "105",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "Show that Δ ABC with vertices A(−2,0), B(0,2) and C(2,0) is similar to Δ DEF with vertices D(−4,0), F(4,0) and E(0,4).",
+   "answer": "Using the distance formula: AB = √((0 + 2)² + (2 − 0)²) = √8 = 2√2, BC = √((2 − 0)² + (0 − 2)²) = √8 = 2√2 and CA = √((−2 − 2)² + 0²) = √16 = 4. Also DE = √((0 + 4)² + (4 − 0)²) = √32 = 4√2, EF = √((4 − 0)² + (0 − 4)²) = √32 = 4√2 and FD = √((−4 − 4)² + 0²) = √64 = 8. Now AB/DE = 2√2/4√2 = ½, BC/EF = 2√2/4√2 = ½ and AC/DF = 4/8 = ½. All three ratios of corresponding sides are equal, so by SSS similarity Δ ABC ∼ Δ DEF.",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2017, Foreign 2017"
+  },
+  {
+   "number": "106",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "In the given figure Δ ABC is an equilateral triangle of side 3 units. Find the co-ordinates of the other two vertices.",
+   "answer": "From the figure A is (2,0) and B lies on the x-axis 3 units to its right, so B = (2 + 3, 0) = (5, 0). Let C be (x,y). Since AC = BC, (x − 2)² + y² = (x − 5)² + y², so x² − 4x + 4 = x² − 10x + 25, giving 6x = 21 and x = 7/2. Using AC = 3, (x − 2)² + y² = 9, so (7/2 − 2)² + y² = 9, i.e. 9/4 + y² = 9 and y² = 27/4, giving y = 3√3/2. Hence B is (5, 0) and C is (7/2, 3√3/2).",
+   "concept": "Testing collinearity and shapes",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2017",
+   "images": [
+    "ch07_q106.png"
+   ],
+   "figure_required": true,
+   "ocr": "The printed working writes y² = 27/4 = 3√3/2, conflating y² with y; the value carried forward, y = 3√3/2, is correct. The question cannot be answered without the graph, so it is cropped and attached."
+  },
+  {
+   "number": "107",
+   "form": "short",
+   "marks": 3,
+   "page": 22,
+   "stem": "If the distances of P(x,y) from A(5,1) and B(−1,5) are equal, then prove that 3x = 2y.",
+   "answer": "Since PA = PB, PA² = PB², so (5 − x)² + (1 − y)² = (−1 − x)² + (5 − y)², that is (5 − x)² + (1 − y)² = (1 + x)² + (5 − y)². Expanding, 25 − 10x + x² + 1 − 2y + y² = 1 + 2x + x² + 25 − 10y + y². Cancelling x², y² and the constants, −10x − 2y = 2x − 10y, so 8y = 12x. Dividing by 4 gives 3x = 2y.",
+   "concept": "The formula itself",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2016"
+  }
+ ]
+}

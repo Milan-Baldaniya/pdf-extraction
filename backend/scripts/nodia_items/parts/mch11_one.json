@@ -1,0 +1,125 @@
+{
+ "items": [
+  {
+   "number": "27",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "stem": "The minute hand of a clock is 12 cm long. Find the area of the face of the clock described by the minute hand in 35 minutes.",
+   "answer": "The minute hand sweeps the whole 360° in 60 minutes, so in 1 minute it turns 6°. In 35 minutes the angle described is θ = 6° × 35 = 210°. The region swept is a sector of radius r = 12 cm, so its area is πr²θ/360° = (22/7) × 12 × 12 × 210°/360° = 22 × 12 = 264 cm². Hence the area described by the minute hand is 264 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A PRACTICE box with two unnumbered questions follows this item; not emitted."
+  },
+  {
+   "number": "28",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "stem": "The radius of a circle is 17.5 cm. find the area of the sector of the circle enclosed by two radii and an arc 44 cm in length.",
+   "answer": "Given arc length = 44 cm and radius r = 17.5 cm. The sector is the same fraction of the circle as its arc is of the whole circumference, so area of sector = (arc length / 2πr) × πr² = (arc length × r)/2 = (44 × 17.5)/2 = 22 × 17.5 = 385 cm². Hence the area of the sector is 385 sq. cm.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed exactly as shown, with the lower-case 'find' after the full stop."
+  },
+  {
+   "number": "29",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "Find the area of the sector of a circle of radius 6 cm whose central angle is 30°. (Take π = 3.14)",
+   "answer": "Radius r = 6 cm and central angle θ = 30°. Area of the sector = πr²θ/360° = (3.14 × 6 × 6 × 30°)/360° = 9.42 cm². Hence the area of the sector is 9.42 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "30",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "What is the perimeter of the sector with radius 10.5 cm and sector angle 60°.",
+   "answer": "The perimeter of a sector is the two bounding radii plus the arc between them: p = 2r + 2πrθ/360°. With r = 10.5 cm and θ = 60°, p = 2 × 10.5 + 2 × (22/7) × 10.5 × 60/360 = 21 + 11 = 32 cm. Hence the perimeter of the sector is 32 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book draws a sector diagram inside the solution ('As per question the digram is shown below'); that is a solution figure, so no image is attached. A PRACTICE box follows this item."
+  },
+  {
+   "number": "31",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "What is the name of a line which intersects a circle at two distinct points?",
+   "answer": "A line that meets a circle at two distinct points cuts across it, and the part of the line inside the circle is a chord. Such a line is called a secant.",
+   "concept": "What a segment is",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Pure terminology item; the concept list has no 'secant/chord terminology' entry, so the nearest listed concept (the chord-and-region vocabulary) was used."
+  },
+  {
+   "number": "32",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "In the given figure, AB is the diameter where AP = 12 cm and PB = 16 cm. Taking the value of π as 3, find the perimeter of the shaded region.",
+   "answer": "Angle APB stands on the diameter, so it is a right angle and by Pythagoras AB = √(12² + 16²) = √(256 + 144) = √400 = 20 cm. The radius of the circle is therefore 10 cm. The shaded region is bounded by the semicircular arc together with AP and PB, so its perimeter = πr + AP + PB = 3 × 10 + 12 + 16 = 58 cm. Hence the perimeter of the shaded region is 58 cm.",
+   "concept": "Length of an arc",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [
+    "ch11_q32.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem says 'the given figure', so the printed diagram is required; it is a question figure, not a solution figure."
+  },
+  {
+   "number": "33",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "In given fig., O is the centre of a circle. If the area of the sector OAPB is 5/36 times the area of the circle, then find the value of x.",
+   "answer": "A sector of central angle x° has area πr² × x/360. Setting this equal to 5/36 of the area of the circle gives πr² × x/360 = (5/36)πr², so x/360 = 5/36 and x = 360 × 5/36 = 50. Hence x = 50°.",
+   "concept": "Angle of the sector",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [
+    "ch11_q33.png"
+   ],
+   "figure_required": true,
+   "ocr": "The figure is needed to see that x° is the central angle AOB of the shaded sector OAPB."
+  },
+  {
+   "number": "34",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "If the radius of the circle is 6 cm and the length of an arc 12 cm. Find the area of the sector.",
+   "answer": "Area of a sector = ½ × (length of the corresponding arc) × radius = ½ × l × r = ½ × 12 × 6 = 36 cm². Hence the area of the sector is 36 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "35",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "A chord of a circle of radius 10 cm subtends a right angle at the centre. Find area of minor segment. (π = 3.14)",
+   "answer": "Radius r = 10 cm and central angle θ = 90°. The minor segment is the sector minus the triangle, which gives area = ½r²[πθ/180° − sin θ] = ½ × 10² × [(3.14 × 90)/180 − sin 90°] = ½ × 100 × [1.57 − 1] = 50 × 0.57 = 28.5 cm². Hence the area of the minor segment is 28.5 cm².",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem printed at the foot of page 7; its worked solution runs over onto page 8, above the TWO MARKS QUESTIONS heading."
+  }
+ ]
+}

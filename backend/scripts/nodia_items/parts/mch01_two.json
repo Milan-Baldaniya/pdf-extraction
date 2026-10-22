@@ -1,0 +1,282 @@
+{
+ "items": [
+  {
+   "number": "41",
+   "page": 6,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2024 OD Standard",
+   "stem": "Prove that 5 − 2√3 is an irrational number. It is given that √3 is an irrational number.",
+   "answer": "Assume that 5 − 2√3 is a rational number. Then it can be written as p/q where p and q are co-prime integers and q ≠ 0, so 5 − 2√3 = p/q. Rewriting, 2√3 = 5 − p/q, i.e. √3 = (5q − p)/(2q). Here (5q − p)/(2q) is rational because p and q are co-prime integers, so √3 would have to be a rational number. But √3 is irrational. This contradicts the given fact. Hence 5 − 2√3 is an irrational number.",
+   "concept": "Proof by contradiction for root 2",
+   "ocr": "LaTeX rewritten to Unicode; stray MinerU artefact \\mathit{\\Omega} after 5 − 2√3 dropped.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "42",
+   "page": 6,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2024 OD Standard",
+   "stem": "Show that the number 5 × 11 × 17 + 3 × 11 is a composite number.",
+   "answer": "5 × 11 × 17 + 3 × 11 = 11(5 × 17 + 3) = 11 × (85 + 3) = 11 × 88 = 11 × 8 × 11 = 2³ × 11². Since 5 × 11 × 17 + 3 × 11 can be factorised as 2³ × 11², it has factors other than 1 and itself. Thus it is a composite number.",
+   "concept": "Unique product of primes",
+   "ocr": "Text layer prints \"Sol : [Board 2024 OD Standard]\" for this question; the board attribution had been dropped from the section heading and is restored.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "43",
+   "page": 7,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2023 OD Standard",
+   "stem": "Show that 6ⁿ cannot end with digit 0 for any natural number n.",
+   "answer": "If the number 6ⁿ, for any n, were to end with the digit zero, then it would be divisible by 5, i.e. the prime factorisation of 6ⁿ would contain the prime 5. This is not possible because the only primes in the factorisation of 6ⁿ = (2 × 3)ⁿ are 2 and 3. The uniqueness of the Fundamental Theorem of Arithmetic guarantees that there are no other primes in the factorisation of 6ⁿ. Since there is no prime factor 5, 6ⁿ cannot end with the digit zero.",
+   "concept": "Unique product of primes",
+   "ocr": "Printed worked solution repeatedly reads \"end with the digit five\" although the question asks about digit 0 and the argument is the divisibility-by-5 one; restored to \"zero\" to match the question and the solution's own reasoning. OCR also damaged \"6^{\\pi}\" -> 6ⁿ and \"prime n the actorization\" -> \"prime in the factorisation\".",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "44",
+   "page": 7,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2023 OD Standard",
+   "stem": "Find the HCF and LCM of 72 and 120.",
+   "answer": "By prime factorisation, 72 = 2³ × 3² and 120 = 2³ × 3¹ × 5¹. HCF(72, 120) = 2³ × 3¹ = 8 × 3 = 24. LCM(72, 120) = 2³ × 3² × 5 = 8 × 9 × 5 = 360. Thus the HCF and LCM of 72 and 120 are 24 and 360 respectively.",
+   "concept": "HCF and LCM by prime factorisation",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "45",
+   "page": 7,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2023 OD Standard",
+   "stem": "Find the HCF and LCM of 26, 65 and 117, using prime factorisation.",
+   "answer": "Using prime factorisation, 26 = 2 × 13, 65 = 5 × 13 and 117 = 3² × 13. HCF(26, 65, 117) = 13. LCM(26, 65, 117) = 2 × 5 × 3² × 13 = 1170.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "OCR printed \"1 CF (26, 65, 117) = 13\"; restored to HCF.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "46",
+   "page": 7,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "stem": "Explain why (7 × 13 × 11) + 11 and (7 × 6 × 5 × 4 × 3 × 2 × 1) + 3 are composite numbers.",
+   "answer": "(7 × 13 × 11) + 11 = 11 × (7 × 13 + 1) = 11 × (91 + 1) = 11 × 92. And (7 × 6 × 5 × 4 × 3 × 2 × 1) + 3 = 3(7 × 6 × 5 × 4 × 2 × 1 + 1) = 3 × 1681 = 3 × 41 × 41. Since the given numbers have more than two prime factors, both numbers are composite.",
+   "concept": "Unique product of primes",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "47",
+   "page": 7,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2017",
+   "stem": "Explain whether 3 × 12 × 101 + 4 is a prime number or a composite number.",
+   "answer": "A prime number is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers; a natural number greater than 1 that is not prime is called a composite number. Every composite number can be written as the product of two or more (not necessarily distinct) primes. Here 3 × 12 × 101 + 4 = 4(3 × 3 × 101 + 1) = 4(909 + 1) = 4(910) = 2 × 2 × (10 × 7 × 13) = 2 × 2 × 2 × 5 × 7 × 13, which is a composite number.",
+   "concept": "Unique product of primes",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "48",
+   "page": 7,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "Given that HCF (306, 1314) = 18. Find LCM (306, 1314).",
+   "answer": "Let a = 306 and b = 1314. We know LCM(a, b) × HCF(a, b) = a × b. Substituting, LCM(a, b) × 18 = 306 × 1314, so LCM(a, b) = (306 × 1314)/18. Thus LCM(306, 1314) = 22,338.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Printed stem lost the comma: \"LCM (306 1314)\" -> LCM (306, 1314).",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "49",
+   "page": 8,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015, 2014",
+   "stem": "Complete the following factor tree and find the composite number x. (Factor tree: x branches into 2 and 3381; 3381 into 3 and y; y into 7 and 161; 161 into 7 and z.)",
+   "answer": "Completing the given factor tree by writing the variables y and z: z = 161/7 = 23, y = 7 × 161 = 1127, and the composite number x = 2 × 3381 = 6762.",
+   "concept": "Unique product of primes",
+   "images": [
+    "bba7ef905ab614bb6b7be0564d86335973f93c8fa1c5ea65a6c6f4079476c0c9.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "The second figure on page 8 (ca01169b....jpg) is the completed tree that belongs to the worked solution only, so it is not attached to the question. The bracketed reading of the attached factor tree was appended to the printed one-line stem: three of these questions are printed with identical wording and are told apart only by their figures.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "49a",
+   "page": 8,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2013 | PRACTICE",
+   "stem": "Complete the factor-tree and find the composite number M. (Factor tree: M branches into 2 and N; N into 2 and 8190; 8190 into 2 and 4095; 4095 into O and 1365; 1365 into 3 and 455; 455 into 5 and 91; 91 into P and Q.)",
+   "answer": "M = 32760, N = 16380, O = 3, P = 7 and Q = 13.",
+   "concept": "Unique product of primes",
+   "images": [
+    "918e5c9b9a72e9afba4b594e4e2b05b453ab73f144e6e970d98677e18590dac7.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "Unnumbered PRACTICE question printed after Q49; number inferred from position as 49a. Printed key OCR'd as \"4ns :\" -> \"Ans :\". The bracketed reading of the attached factor tree was appended to the printed one-line stem: three of these questions are printed with identical wording and are told apart only by their figures.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "49b",
+   "page": 8,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015 | PRACTICE",
+   "stem": "Complete the following factor tree and find the composite number x. (Factor tree: x branches into 3 and 195; 195 into 3 and y; y into 5 and 13.)",
+   "answer": "x = 585 and y = 65.",
+   "concept": "Unique product of primes",
+   "images": [
+    "13a5c129d2a5267a0ad3d1c48de5e0fc8118f48e44a02d6251f76c67b39a1110.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "Unnumbered PRACTICE question printed after Q49; number inferred from position as 49b. The bracketed reading of the attached factor tree was appended to the printed one-line stem: three of these questions are printed with identical wording and are told apart only by their figures.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "49c",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015 | PRACTICE",
+   "stem": "Complete the following factor tree and find the composite number x. (Factor tree: x branches into 2 and y; y into 3 and 1855; 1855 into 5 and 371; 371 into 7 and z.)",
+   "answer": "x = 11130, y = 5565 and z = 53.",
+   "concept": "Unique product of primes",
+   "images": [
+    "99f8a87d4b60db0419cf5e6d50f343e28dbe61071f6cb4df569da0a739a1efe5.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "Unnumbered PRACTICE question printed after Q49; number inferred from position as 49c. Stem sits at the foot of page 8 and its figure/answer run onto page 9; page recorded as 9 to match the figure. Page furniture \"Click Here to Buy book on Amazon\" stripped from the stem. The bracketed reading of the attached factor tree was appended to the printed one-line stem: three of these questions are printed with identical wording and are told apart only by their figures.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "49d",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012 | PRACTICE",
+   "stem": "Find the missing numbers a, b, c and d in the given factor tree. (Factor tree: 18018 branches into 2 and 9009; 9009 into a and 3003; 3003 into 3 and 1001; 1001 into b and 143; 143 into c and d.)",
+   "answer": "a = 3, b = 7, c = 13 and d = 11. From the tree, 9009 = a × 3003 gives a = 3, 1001 = b × 143 gives b = 7, and 143 = 11 × 13 gives the pair c, d.",
+   "concept": "Unique product of primes",
+   "images": [
+    "b34d20f0e9ce3facfe093fba43dd59843654fd3bf40375d704139d24b1f7cc73.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "Unnumbered PRACTICE question printed after Q49; number inferred from position as 49d. The printed key reads \"Ans c = 11, b = 7, c = 13 and d = 11\" - it names c twice and its first value contradicts the figure, since 9009 = 3 × 3003 forces a = 3, not 11. The figure wins: a = 3. b = 7 and the pair {c, d} = {11, 13} are kept as printed (c = 13, d = 11); their order is interchangeable because 143 = 11 × 13. The bracketed reading of the attached factor tree was appended to the printed one-line stem: three of these questions are printed with identical wording and are told apart only by their figures.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "50",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015",
+   "stem": "Check whether 4ⁿ can end with the digit 0 for any natural number n.",
+   "answer": "If the number 4ⁿ, for any n, were to end with the digit zero, then it would be divisible by 5 and 2, i.e. the prime factorisation of 4ⁿ would contain the primes 5 and 2. This is not possible because the only prime in the factorisation of 4ⁿ = 2²ⁿ is 2. The uniqueness of the Fundamental Theorem of Arithmetic guarantees that there are no other primes in the factorisation of 4ⁿ. So there is no natural number n for which 4ⁿ ends with the digit zero. Hence 4ⁿ cannot end with the digit zero.",
+   "concept": "Unique product of primes",
+   "ocr": "OCR damage repaired: \"4^{\\pi}\" -> 4ⁿ, \"prime actorization\" -> \"prime factorisation\".",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "50a",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012 | PRACTICE",
+   "stem": "Check whether (15)ⁿ can end with digit 0 for any n ∈ N.",
+   "answer": "No.",
+   "concept": "Unique product of primes",
+   "ocr": "Unnumbered PRACTICE question printed after Q50; number inferred from position as 50a. Book prints only \"Ans : No\".",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "50b",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012 | PRACTICE",
+   "stem": "Show that 7ⁿ cannot end with the digit zero, for any natural number n.",
+   "answer": "If 7ⁿ ended with the digit zero it would be divisible by 5 and by 2, so its prime factorisation would contain 5 and 2. But the only prime in the factorisation of 7ⁿ is 7, and by the uniqueness of the Fundamental Theorem of Arithmetic no other prime can appear. Hence 7ⁿ can never end with the digit zero.",
+   "concept": "Unique product of primes",
+   "ocr": "Unnumbered PRACTICE question printed after Q50; number inferred from position as 50b. The book prints only \"Ans : Proof\"; the proof given here follows the worked argument of Q50 in the same section.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "50c",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015 | PRACTICE",
+   "stem": "Show that numbers 8ⁿ can never end with digit 0 for any natural number n.",
+   "answer": "If 8ⁿ ended with the digit zero it would be divisible by 5 and by 2, so its prime factorisation would contain 5 and 2. But 8ⁿ = 2³ⁿ has 2 as its only prime factor, and by the uniqueness of the Fundamental Theorem of Arithmetic no other prime can appear. Hence 8ⁿ can never end with the digit zero.",
+   "concept": "Unique product of primes",
+   "ocr": "Unnumbered PRACTICE question printed after Q50; number inferred from position as 50c. Printed stem reads \"of any natural number n\" -> \"for any natural number n\". The book prints only \"Ans : Proof\"; the proof given here follows the worked argument of Q50.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "51",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015",
+   "stem": "Show that 5√6 is an irrational number.",
+   "answer": "Let 5√6 be a rational number, which can be expressed as a/b where b ≠ 0 and a, b are co-prime. Then 5√6 = a/b, so √6 = a/(5b), i.e. √6 = rational. But √6 is an irrational number. Thus our assumption is wrong. Hence 5√6 is an irrational number.",
+   "concept": "Proof by contradiction for root 2",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "52",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "Write a rational number between √2 and √3.",
+   "answer": "We need a rational number x such that (1/10)√200 < x < (1/10)√300. Choosing any perfect square such as 225 or 256 lying between 200 and 300: x = √(225/100) = 15/10 = 3/2. Similarly, choosing 256, x = √(256/100) = 16/10 = 8/5. So 3/2 (or 8/5) is a rational number between √2 and √3.",
+   "concept": "Definition of an irrational number",
+   "ocr": "The printed solution states \"15/10 = 5/3\", which contradicts its own arithmetic (15/10 = 3/2, and 5/3 is not obtainable from 225/100). The worked computation wins: recorded as 3/2.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "53",
+   "page": 10,
+   "section_heading": "TWO MARKS QUESTIONS",
+   "stem": "Show that 571 is a prime number.",
+   "answer": "Let x = 571, so √x = √571. Now 571 lies between the perfect squares (23)² = 529 and (24)² = 576. The prime numbers less than 24 are 2, 3, 5, 7, 11, 13, 17, 19 and 23. Since 571 is not divisible by any of these numbers, 571 is a prime number.",
+   "concept": "Divisibility and the division process",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "54",
+   "page": 10,
+   "section_heading": "TWO MARKS QUESTIONS | Sample Paper 2017",
+   "stem": "If two positive integers p and q are written as p = a²b³ and q = a³b, where a and b are prime numbers, then verify LCM(p, q) × HCF(p, q) = pq.",
+   "answer": "We have p = a²b³ = a × a × b × b × b and q = a³b = a × a × a × b. Now LCM(p, q) = a × a × a × b × b × b = a³b³ and HCF(p, q) = a × a × b = a²b. Therefore LCM(p, q) × HCF(p, q) = a³b³ × a²b = a⁵b⁴ = a²b³ × a³b = pq. Hence verified.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Printed stem reads \"HCF (q, q)\"; corrected to HCF(p, q), as the worked solution computes HCF(p, q).",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "55",
+   "page": 10,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2010",
+   "stem": "Prove that 3 + √5 is an irrational number.",
+   "answer": "Assume that 3 + √5 is a rational number. Then 3 + √5 = p/q with q ≠ 0, so √5 = p/q − 3 = (p − 3q)/q. Here √5 is irrational while (p − 3q)/q is rational, and a rational number cannot be equal to an irrational number. Hence 3 + √5 is an irrational number.",
+   "concept": "Proof by contradiction for root 2",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "56",
+   "page": 10,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2016",
+   "stem": "Show that any positive even integer can be written in the form 6q, 6q + 2 or 6q + 4, where q is an integer.",
+   "answer": "Let a be any positive integer. By Euclid's division algorithm a can be written as a = bq + r. Take b = 6; then 0 ≤ r < 6 because 0 ≤ r < b. Thus a = 6q, 6q + 1, 6q + 2, 6q + 3, 6q + 4 or 6q + 5. Here 6q, 6q + 2 and 6q + 4 are divisible by 2, so they are even positive integers. Hence a is always an even integer if a = 6q, 6q + 2 or 6q + 4.",
+   "concept": "Divisibility and the division process",
+   "ocr": "OCR mangled the division lemma to \"= -bq + r\"; restored to a = bq + r from the surrounding solution. Text layer prints \"Sol : [Board Term1, 2016]\" for this question; the missing board attribution is restored, normalised to the file's \"Board Term-1 2016\" style.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "56a",
+   "page": 10,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2019, 2017 | PRACTICE",
+   "stem": "Show that any positive odd integer is of the form 4q + 1 or 4q + 3, where q is some integer.",
+   "answer": "By Euclid's division algorithm, a = 4q + r with 0 ≤ r < 4, so a = 4q, 4q + 1, 4q + 2 or 4q + 3. Of these 4q and 4q + 2 are divisible by 2 and hence even, so every positive odd integer is of the form 4q + 1 or 4q + 3.",
+   "concept": "Divisibility and the division process",
+   "ocr": "Unnumbered PRACTICE question printed after Q56; number inferred from position as 56a. The book prints only \"Ans : Proof\"; the proof given here follows the worked argument of Q56.",
+   "form": "very_short",
+   "marks": 2
+  }
+ ]
+}

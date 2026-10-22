@@ -1,0 +1,180 @@
+{
+ "items": [
+  {
+   "number": "118",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "stem": "From a point T outside a circle of centre O, tangents TP and TQ are drawn to the circle. Prove that OT is the right bisector of line segment PQ.",
+   "answer": "Let OT cut the chord PQ at R.\nSince the lengths of tangents drawn from an external point to a circle are equal, TP = TQ, so ΔTPQ is isosceles and its base angles are equal: ∠TPR = ∠TQR.\nNow compare ΔPTR and ΔQTR:\nTP = TQ, TR = TR (common) and ∠TPR = ∠TQR.\nHence ΔPTR ≅ ΔQTR, and by CPCT PR = QR and ∠PRT = ∠QRT.\nBut PQ is a straight line, so ∠PRT + ∠QRT = 180°, which gives ∠PRT = ∠QRT = 90°.\nSo TR (that is, OT) both bisects PQ and is perpendicular to it. Therefore OT is the right bisector of PQ. Hence proved.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No figure is printed with the question; the figure in the book appears inside the worked solution, so none is attached."
+  },
+  {
+   "number": "119",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "stem": "In Figure, PQ and RS are two parallel tangents to a circle with centre O and another tangent AB with point of contact C intersecting PQ at A and RS at B. Prove that ∠AOB = 90°.",
+   "answer": "Let PQ touch the circle at D and RS touch it at E. Because PQ ∥ RS and both are tangents, D, O and E are collinear, so DOE is a straight line.\nIn ΔDOA and ΔCOA: DA = AC (tangents drawn from the common point A), OD = OC (radii), OA is common, and ∠ODA = ∠OCA = 90° because a tangent is perpendicular to the radius at the point of contact.\nSo ΔDOA ≅ ΔCOA, and by CPCT ∠DOA = ∠COA.  …(1)\nIn the same way ΔBOC ≅ ΔBOE gives ∠COB = ∠BOE.  …(2)\nThe angles at O along the straight line DOE add to 180°:\n∠DOA + ∠AOC + ∠COB + ∠BOE = 180°\nUsing (1) and (2), 2∠AOC + 2∠COB = 180°, so ∠AOC + ∠COB = 90°.\nThat sum is exactly ∠AOB. Therefore ∠AOB = 90°. Hence proved.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD STD, 2014, 2012",
+   "images": [
+    "ch10_q119.png"
+   ],
+   "figure_required": true,
+   "ocr": "The points of contact D (on PQ) and E (on RS) are named only in the printed figure, not in the question text, so the figure is required."
+  },
+  {
+   "number": "120",
+   "form": "long",
+   "marks": 5,
+   "page": 39,
+   "stem": "Prove that the parallelogram circumscribing a circle is a rhombus.",
+   "answer": "Let ABCD be a parallelogram circumscribing a circle, touching AB at P, BC at Q, CD at R and DA at S.\nSince ABCD is a parallelogram, AB = CD and AD = BC.  …(1)\nThe lengths of tangents drawn from an external point are equal, so\nat A: AP = AS,  at B: BP = BQ,  at C: CR = CQ,  at D: DR = DS.\nAdding these four equalities,\nAP + PB + CR + DR = AS + BQ + CQ + DS\nGrouping the pieces along each side gives AB + CD = AD + BC.\nUsing (1), 2AB = 2AD, so AB = AD.\nA parallelogram with two adjacent sides equal has all four sides equal. Therefore ABCD is a rhombus. Hence proved.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 Delhi STD, 2013, 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The figure in the book belongs to the worked solution ('Let ABCD be the parallelogram'), so no figure is attached to the question."
+  },
+  {
+   "number": "121",
+   "form": "long",
+   "marks": 5,
+   "page": 39,
+   "stem": "In given figure, PA and PB are tangents from a point P to the circle with centre O. At the point M, other tangent to the circle is drawn cutting PA and PB at K and N. Prove that the perimeter of ΔPNK = 2PB.",
+   "answer": "Tangents drawn to a circle from an external point are equal in length, so\nPA = PB (from P), KM = KA (from K) and MN = BN (from N).\nNow KN = KM + MN = KA + BN.\nThe perimeter of ΔPNK is\np = PN + KN + PK\n = PN + BN + KA + PK\n = (PN + NB) + (PK + KA)\n = PB + PA\n = 2PB, since PA = PB.\nTherefore the perimeter of ΔPNK = 2PB. Hence proved.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2, 2012",
+   "images": [
+    "ch10_q121.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question says 'In given figure' and the figure is printed with the question, above the 'Sol :' line."
+  },
+  {
+   "number": "122",
+   "form": "long",
+   "marks": 5,
+   "page": 39,
+   "stem": "In the figure, tangents PQ and PR are drawn from an external point P to a circle with centre O, such that ∠RPQ = 30°. A chord RS is drawn parallel to the tangent PQ. Find ∠RQS.",
+   "answer": "Tangents from an external point are equal, so PR = PQ and ΔPQR is isosceles.\nIts base angles are therefore equal:\n∠PRQ = ∠PQR = (180° − 30°)/2 = 150°/2 = 75°\nSince SR ∥ QP, the angles ∠SRQ and ∠RQP are alternate angles, so\n∠SRQ = ∠RQP = 75°\nIn ΔSQR this makes SQ = RQ, so the angles opposite them are equal:\n∠RSQ = ∠SRQ = 75°\nBy the angle sum of ΔSQR,\n∠SQR + 75° + 75° = 180°\n∠SQR = 180° − 150° = 30°\nTherefore ∠RQS = 30°.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2015",
+   "images": [
+    "ch10_q122.png"
+   ],
+   "figure_required": true,
+   "ocr": "The 30° angle is marked at P in the printed figure, which also fixes which side of the circle S lies on."
+  },
+  {
+   "number": "123",
+   "form": "long",
+   "marks": 5,
+   "page": 40,
+   "stem": "In the figure AB and CD are common tangents to two circles of unequal radii. Prove that AB = CD.",
+   "answer": "Extend AB and CD so that they meet at a point P; they do meet because the two circles have unequal radii.\nFrom the external point P, PA and PC are tangents to the larger circle, so\nPA = PC\nAlso from P, PB and PD are tangents to the smaller circle, so\nPB = PD\nSubtracting the second equality from the first,\nPA − PB = PC − PD\nBut PA − PB = AB and PC − PD = CD.\nTherefore AB = CD. Hence proved.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi Compt. 2017",
+   "images": [
+    "ch10_q123.png"
+   ],
+   "figure_required": true,
+   "ocr": "Which of A, B, C, D lie on which circle is shown only in the printed figure, so it is required."
+  },
+  {
+   "number": "124",
+   "form": "long",
+   "marks": 5,
+   "page": 40,
+   "stem": "In figure PQ is a tangent from an external point P to a circle with centre O and OP cuts the circle at T and ∠QOR is a diameter. If ∠POR = 130° and S is a point on the circle, find ∠1 + ∠2.",
+   "answer": "A radius is perpendicular to the tangent at the point of contact, so ∠OQP = 90°.\nT lies on OP, so the central angle standing on arc TR is ∠TOR = ∠POR = 130°.\nThe angle subtended at the centre is twice the angle subtended at the circumference by the same arc, so at S\n∠2 = ½ ∠TOR = ½ ∠POR = ½ × 130° = 65°\nQOR is a diameter, so ∠QOR = 180° and\n∠POQ = 180° − 130° = 50°\nIn ΔOQP the angles add to 180°:\n∠1 = 180° − ∠OQP − ∠POQ = 180° − 90° − 50° = 40°\nTherefore ∠1 + ∠2 = 65° + 40° = 105°.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch10_q124.png"
+   ],
+   "figure_required": true,
+   "ocr": "No board/year tag is printed for this question and its solution runs on without a 'Sol :' label. ∠1 (at P) and ∠2 (at S) are identified only by the marks in the figure, so the figure is required."
+  },
+  {
+   "number": "125",
+   "form": "long",
+   "marks": 5,
+   "page": 40,
+   "stem": "In the given figure, AD is a diameter of a circle with centre O and AB is a tangent at A. C is a point on the circle such that DC produced intersects the tangent at B and ∠ABC = 50°. Find ∠AOC.",
+   "answer": "A tangent drawn at any point of a circle is perpendicular to the radius through the point of contact, so at A\n∠A = ∠OAB = 90°\nIn ΔDAB the angles add to 180°:\n∠D + ∠A + ∠B = 180°\n∠D + 90° + 50° = 180°\n∠D = 40°\nThe angle subtended by an arc at the centre is twice the angle it subtends at the circumference, and ∠ADC = ∠D stands on arc AC. So\n∠AOC = 2∠ADC = 2 × 40° = 80°\nTherefore ∠AOC = 80°.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2015",
+   "images": [
+    "ch10_q125.png"
+   ],
+   "figure_required": true,
+   "ocr": "The 50° is marked at B in the printed figure and the position of B on the tangent is shown only there."
+  },
+  {
+   "number": "126",
+   "form": "long",
+   "marks": 5,
+   "page": 40,
+   "stem": "In the given figure, PA and PB are tangents to the circle from an external point P. CD is another tangent touching the circle at Q. If PA = 12 cm, QC = QD = 3 cm, then find PC + PD.",
+   "answer": "Tangents drawn from an external point to a circle are equal in length, so\nfrom C: CA = CQ = 3 cm\nfrom D: DQ = DB = 3 cm\nfrom P: PB = PA = 12 cm\nWriting each of PA and PB in two pieces,\nPA + PB = (PC + CA) + (PD + DB)\nso PC + PD = PA − CA + PB − DB\n = 12 − 3 + 12 − 3\n = 18 cm\nTherefore PC + PD = 18 cm.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi Compt. 2017",
+   "images": [
+    "ch10_q126.png"
+   ],
+   "figure_required": true,
+   "ocr": "Stem and figure are on page 40; the worked solution runs over to page 41."
+  },
+  {
+   "number": "127",
+   "form": "case_study",
+   "marks": 4,
+   "page": 41,
+   "stem": "A backyard is in the shape of a triangle ABC with right angle at B. AB = 7 m and BC = 15 m. A circular pit was dug inside it such that it touches the walls AC, BC and AB at P, Q and R respectively such that AP = x m.\nBased on the above information, answer the following questions:\n(i) Find the length of AR in terms of x.\n(ii) Write the type of quadrilateral BQOR.\n(iii) Find the length PC in terms of x and hence find the value of x.\n(iv) Find x and hence find the radius r of circle.",
+   "answer": "(i) Tangents from an external point are equal, so from A: AR = AP = x m.\n(ii) A radius is perpendicular to the tangent at the point of contact, so OR ⊥ AB and OQ ⊥ BC. Hence ∠ORB = ∠OQB = ∠RBQ = 90°, and by the angle sum of a quadrilateral ∠QOR = 360° − 90° − 90° − 90° = 90°. Also OR = OQ, both radii. So BQOR is a square.\n(iii) By Pythagoras, AC = √(AB² + BC²) = √(7² + 15²) = √274 units, so PC = AC − AP = (√274 − x) units.\nAlso AR = AP = x, so BR = BQ = 7 − x, and CQ = PC = 15 − (7 − x) = x + 8.\nHence AC = AP + PC = x + x + 8 = 2x + 8, giving √274 = 2x + 8.\n(iv) x = (√274 − 8)/2 m.\nSince BQOR is a square, r = BR = 7 − x = 7 − (√274 − 8)/2 = (22 − √274)/2 m.\nSo x = (√274 − 8)/2 m and the radius r = (22 − √274)/2 m.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "COMPETENCEY BASED QUESTIONS | Board 2024 OD Standard",
+   "images": [
+    "ch10_q127.png"
+   ],
+   "figure_required": true,
+   "ocr": "The section heading is printed 'COMPETENCEY BASED QUESTIONS' (the book's own spelling); it begins part-way down page 41, so this item and the two after it fall outside the FIVE MARKS section. Recorded as case_study because four sub-parts hang off one stem. The book also prints a decorative photograph of a real backyard pit beside the labelled diagram; only the labelled diagram is cropped, as the photograph carries no data."
+  },
+  {
+   "number": "128",
+   "form": "case_study",
+   "marks": 4,
+   "page": 42,
+   "stem": "The picture given below shows a circular mirror hanging on the wall with a cord. The diagram represents the mirror as a circle with centre O. AP and AQ are tangents to the circle at P and Q respectively such that AP = 30 cm and ∠PAQ = 60°.\nBased on the above information, answer the following questions :\n(i) Find the length PQ.\n(ii) Find m∠POQ.\n(iii) Find the length OA.\n(iv) Find the radius of the mirror.",
+   "answer": "Let M be the point where AO meets PQ. AO bisects ∠PAQ and is the perpendicular bisector of the chord PQ, so ∠PAM = 30° and ∠AMP = 90°.\n(i) In ΔPAM, sin 30° = PM/AP, so ½ = PM/30, giving PM = 15 cm and PQ = 2PM = 30 cm.\n(ii) In quadrilateral APOQ, ∠OPA = ∠OQA = 90° because a radius is perpendicular to the tangent, so\n∠POQ + ∠OQA + ∠QAP + ∠APO = 360°\n∠POQ + 90° + 60° + 90° = 360°\n∠POQ + 240° = 360°, so m∠POQ = 120°.\n(iii) In right ΔOAP, ∠OAP = 30° and cos 30° = AP/OA, so √3/2 = 30/OA, giving OA = 20√3 cm.\n(iv) The radius is OP. In right ΔOAP, tan 30° = OP/AP, so 1/√3 = OP/30, giving OP = 10√3 cm.\nSo PQ = 30 cm, m∠POQ = 120°, OA = 20√3 cm and the radius of the mirror is 10√3 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch10_q128.png"
+   ],
+   "figure_required": true,
+   "ocr": "No board/year tag is printed. The question diagram mislabels the circle: the right-hand point of contact is lettered 'O' and the point below it 'Q', while the text and the redrawn solution figure name the contacts P and Q and the centre O. The crop is left exactly as the book prints it. Recorded as case_study because four sub-parts hang off one stem."
+  },
+  {
+   "number": "129",
+   "form": "case_study",
+   "marks": 4,
+   "page": 42,
+   "stem": "A children's park is in the triangular shape as shown in Figure below. In the middle of the park, there is a circular region for younger children to play. It is fenced with three layers of wire. The radius of the circular region is 3 m.\nBased on the above, answer the following questions:\n(i) Find the perimeter (or circumference) of the circular region.\n(ii) What is the total length of wire used?\n(iii) What is the area of the circular region?\n(iv) If BD = 6 m, DC = 9 m and ar(ΔABC) = 54 m², then find the length of sides AB and AC, respectively.\n(v) Find the perimeter of ΔABC.",
+   "answer": "(i) Perimeter of the circular region = 2πr = 2π × 3 = 6π m.\n(ii) The fence has three layers, so the total wire = 3 × 6π = 18π m.\n(iii) Area of the circular region = πr² = π(3)² = 9π m².\n(iv) Let the circle touch AB at F, BC at D and CA at E. Tangents from a point are equal, so BF = BD = 6 m, CE = CD = 9 m; let AF = AE = x m. Then AB = x + 6, BC = 6 + 9 = 15 and AC = x + 9.\nSplitting ΔABC into ΔAOB, ΔBOC and ΔAOC, each of height r = 3 m,\n54 = ½ AB × OF + ½ BC × OD + ½ AC × OE\n54 = ½(6 + x)(3) + ½(6 + 9)(3) + ½(9 + x)(3)\n54 = (3/2)[6 + x + 15 + 9 + x]\n36 = 2x + 30, so x = 3.\nHence AB = x + 6 = 9 m and AC = x + 9 = 12 m.\n(v) Perimeter of ΔABC = AB + BC + AC = 9 + 15 + 12 = 36 m.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "COMPETENCEY BASED QUESTIONS | Board 2021 Comp. Basic",
+   "images": [
+    "ch10_q129.png"
+   ],
+   "figure_required": true,
+   "ocr": "Stem and figure are on page 42; sub-parts (ii)-(v) and the worked solution run over to page 43, where the chapter ends. Recorded as case_study because five sub-parts hang off one stem."
+  }
+ ]
+}

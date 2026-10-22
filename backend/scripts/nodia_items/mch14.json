@@ -1,0 +1,2952 @@
+{
+ "chapter": 14,
+ "chapter_id": 22906,
+ "extraction_id": 403,
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "Two dice are rolled together. The probability of getting sum of numbers on the two dice as 2, 3 or 5, is:",
+   "options": [
+    {
+     "label": "A",
+     "text": "7/36"
+    },
+    {
+     "label": "B",
+     "text": "11/36"
+    },
+    {
+     "label": "C",
+     "text": "5/36"
+    },
+    {
+     "label": "D",
+     "text": "4/9"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Rolling two dice gives n(S) = 36 equally likely outcomes. The pairs whose sum is 2, 3 or 5 are (1, 1), (1, 2), (2, 1), (2, 3), (3, 2), (1, 4) and (4, 1), so n(E) = 7. Hence P(E) = 7/36.",
+   "concept": "Listing the outcomes",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed list of favourable outcomes reads (1, 1), (1, 2), (2, 1), (2, 3), (3, 1), (1, 4), (4, 1); (3, 1) is a misprint for (3, 2), since (3, 1) has sum 4. The count 7 and the key 7/36 are unaffected."
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "From the data 1, 4, 7, 9, 16, 21, 25, if all the even numbers are removed, then the probability of getting at random a prime number from the remaining is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2/5"
+    },
+    {
+     "label": "B",
+     "text": "1/5"
+    },
+    {
+     "label": "C",
+     "text": "1/7"
+    },
+    {
+     "label": "D",
+     "text": "2/7"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Removing the even numbers 4 and 16 leaves 1, 7, 9, 21, 25, so n(S) = 5. Among these only 7 is prime, so n(E) = 1. Hence P(E) = 1/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "One card is drawn at random from a well shuffled deck of 52 playing cards. The probability that it is a red ace card, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/13"
+    },
+    {
+     "label": "B",
+     "text": "1/26"
+    },
+    {
+     "label": "C",
+     "text": "1/52"
+    },
+    {
+     "label": "D",
+     "text": "1/2"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "A deck holds 52 cards, so n(S) = 52. There are 2 red aces (hearts and diamonds), so n(E) = 2. Hence P(E) = 2/52 = 1/26.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "A card is drawn at random from a well shuffled deck of 52 playing cards. The probability of getting a face card is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/2"
+    },
+    {
+     "label": "B",
+     "text": "3/13"
+    },
+    {
+     "label": "C",
+     "text": "4/13"
+    },
+    {
+     "label": "D",
+     "text": "1/13"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "There are 52 cards in all, so n(S) = 52, and 12 face cards (jack, queen, king in each of the four suits), so n(E) = 12. Hence P(E) = 12/52 = 3/13.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution writes n(E) = 13 but then divides 12 by 52; 12 is the correct count of face cards and the key 3/13 follows from it, so the 13 is a typo inside the solution, not a key conflict."
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "A bag contains 5 pink, 8 blue and 7 yellow balls. One ball is drawn at random from the bag. What is the probability of getting neither a blue nor a pink ball ?",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/4"
+    },
+    {
+     "label": "B",
+     "text": "2/5"
+    },
+    {
+     "label": "C",
+     "text": "7/20"
+    },
+    {
+     "label": "D",
+     "text": "13/20"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The bag holds 5 + 8 + 7 = 20 balls, so n(S) = 20. A ball that is neither blue nor pink must be yellow, and there are 7 yellow balls, so n(E) = 7. Hence P(E) = 7/20.",
+   "concept": "The event not E",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution line reads '7 yellow ball are neither a blue or nor a pink black balls are not red', which is garbled; the count 7 and the value 7/20 are clear."
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "An event is very unlikely to happen. Its probability is closest to",
+   "options": [
+    {
+     "label": "A",
+     "text": "0.0001"
+    },
+    {
+     "label": "B",
+     "text": "0.001"
+    },
+    {
+     "label": "C",
+     "text": "0.01"
+    },
+    {
+     "label": "D",
+     "text": "0.1"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The probability of an event that is very unlikely lies close to 0. Among the four values offered, 0.0001 is the nearest to zero. Hence the probability is closest to 0.0001.",
+   "concept": "Range of probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP STD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The P(A) denotes the probability of an event A, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "P(A) < 0"
+    },
+    {
+     "label": "B",
+     "text": "P(A) > 1"
+    },
+    {
+     "label": "C",
+     "text": "0 ≤ P(A) ≤ 1"
+    },
+    {
+     "label": "D",
+     "text": "−1 ≤ P(A) ≤ 1"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The probability of any event is a ratio of a count of favourable outcomes to a count of all outcomes, so it can never be negative and can never exceed 1. Hence 0 ≤ P(A) ≤ 1.",
+   "concept": "Range of probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If a card is selected from a deck of 52 cards, then the probability of its being a red face card is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3/26"
+    },
+    {
+     "label": "B",
+     "text": "3/13"
+    },
+    {
+     "label": "C",
+     "text": "2/13"
+    },
+    {
+     "label": "D",
+     "text": "1/2"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "There are 12 face cards in a deck, 6 red and 6 black, so n(S) = 52 and n(E) = 6. Hence P(E) = 6/52 = 3/26.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "A card is drawn from a deck of 52 cards. The event E is that card is not an ace of hearts. The number of outcomes favourable to E is",
+   "options": [
+    {
+     "label": "A",
+     "text": "4"
+    },
+    {
+     "label": "B",
+     "text": "13"
+    },
+    {
+     "label": "C",
+     "text": "48"
+    },
+    {
+     "label": "D",
+     "text": "51"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Exactly one card in the deck is the ace of hearts. Every other card is favourable to E, so n(E) = 52 − 1 = 51.",
+   "concept": "The event not E",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 STD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "When a die is thrown, the probability of getting an odd number less than 3 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/6"
+    },
+    {
+     "label": "B",
+     "text": "1/3"
+    },
+    {
+     "label": "C",
+     "text": "1/2"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "A die has 6 equally likely faces, so n(S) = 6. The only odd number less than 3 is 1, so n(E) = 1. Hence P(E) = 1/6.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 STD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The probability of getting a bad egg in a lot of 400 is 0.035. The number of bad eggs in the lot is",
+   "options": [
+    {
+     "label": "A",
+     "text": "7"
+    },
+    {
+     "label": "B",
+     "text": "14"
+    },
+    {
+     "label": "C",
+     "text": "21"
+    },
+    {
+     "label": "D",
+     "text": "28"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let x be the number of bad eggs. Then x/400 = 0.035, so x = 0.035 × 400 = 14. The lot contains 14 bad eggs.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "A girl calculates that the probability of her winning the first prize in a lottery is 0.08. If 6000 tickets are sold, then how many tickets has she bought?",
+   "options": [
+    {
+     "label": "A",
+     "text": "40"
+    },
+    {
+     "label": "B",
+     "text": "240"
+    },
+    {
+     "label": "C",
+     "text": "480"
+    },
+    {
+     "label": "D",
+     "text": "750"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Let x be the number of tickets she bought. Since 6000 tickets were sold, x/6000 = 0.08, so x = 0.08 × 6000 = 480. She bought 480 tickets.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Foreign 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The probability that a number selected at random from the numbers 1, 2, 3, ......, 15 is a multiple of 4 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "4/15"
+    },
+    {
+     "label": "B",
+     "text": "2/15"
+    },
+    {
+     "label": "C",
+     "text": "1/15"
+    },
+    {
+     "label": "D",
+     "text": "1/5"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "There are 15 numbers in all, so n(S) = 15. The multiples of 4 among them are 4, 8 and 12, so n(E) = 3. Hence P(E) = 3/15 = 1/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "Two coins are tossed simultaneously. The probability of getting at most one head is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/4"
+    },
+    {
+     "label": "B",
+     "text": "1/2"
+    },
+    {
+     "label": "C",
+     "text": "2/3"
+    },
+    {
+     "label": "D",
+     "text": "3/4"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Tossing two coins gives the outcomes HH, HT, TH, TT, so n(S) = 4. At most one head means HT, TH or TT, so n(E) = 3. Hence P(E) = 3/4.",
+   "concept": "An unbiased coin",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If an event cannot occur, then its probability is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "3/4"
+    },
+    {
+     "label": "C",
+     "text": "1/2"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "An event that cannot occur has no favourable outcome, so it is an impossible event and its probability is 0.",
+   "concept": "Impossible event",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "Which of the following cannot be the probability of an event?",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/3"
+    },
+    {
+     "label": "B",
+     "text": "0.1"
+    },
+    {
+     "label": "C",
+     "text": "3%"
+    },
+    {
+     "label": "D",
+     "text": "17/16"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A probability always lies between 0 and 1. The values 1/3, 0.1 and 3% all lie in that range, but 17/16 exceeds 1, so it cannot be the probability of an event.",
+   "concept": "Range of probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Foreign 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the probability of an event is p, then the probability of its complementary event will be",
+   "options": [
+    {
+     "label": "A",
+     "text": "p − 1"
+    },
+    {
+     "label": "B",
+     "text": "p"
+    },
+    {
+     "label": "C",
+     "text": "1 − p"
+    },
+    {
+     "label": "D",
+     "text": "1 − 1/p"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "For any event E, P(E) + P(Ē) = 1. With P(E) = p, the complementary event has probability P(Ē) = 1 − p.",
+   "concept": "P(E) plus P(not E)",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The probability expressed as a percentage of a particular occurrence can never be",
+   "options": [
+    {
+     "label": "A",
+     "text": "less than 100"
+    },
+    {
+     "label": "B",
+     "text": "less than 0"
+    },
+    {
+     "label": "C",
+     "text": "greater than 1"
+    },
+    {
+     "label": "D",
+     "text": "anything but a whole number"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "A probability written as a percentage always lies between 0% and 100%. It may well be less than 100, greater than 1 or a fraction, but it can never be less than 0.",
+   "concept": "Range of probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Foreign 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "One ticket is drawn at random from a bag containing tickets numbered 1 to 40. The probability that the selected ticket has a number which is a multiple of 5 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/5"
+    },
+    {
+     "label": "B",
+     "text": "3/5"
+    },
+    {
+     "label": "C",
+     "text": "4/5"
+    },
+    {
+     "label": "D",
+     "text": "1/3"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "There are 40 tickets, so n(S) = 40. The multiples of 5 among them are 5, 10, 15, 20, 25, 30, 35, 40, so n(E) = 8. Hence P(E) = 8/40 = 1/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Someone is asked to take a number from 1 to 100. The probability that it is a prime, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "8/25"
+    },
+    {
+     "label": "B",
+     "text": "1/4"
+    },
+    {
+     "label": "C",
+     "text": "3/4"
+    },
+    {
+     "label": "D",
+     "text": "13/50"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "There are 100 numbers to choose from, so n(S) = 100. The primes up to 100 are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 and 97, which is 25 numbers, so n(E) = 25. Hence P(E) = 25/100 = 1/4.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "KEY CONFLICT: the worked solution obtains 25/100 = 1/4, which is option (b), but the printed line reads 'Thus (c) is correct option' and (c) is 3/4. The solution wins, so the key is recorded as B."
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The probability of getting a number greater then 3 in throwing a die is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/3"
+    },
+    {
+     "label": "B",
+     "text": "1/4"
+    },
+    {
+     "label": "C",
+     "text": "3/4"
+    },
+    {
+     "label": "D",
+     "text": "2/3"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The book takes 4 of the 6 faces as favourable, giving P(E) = 4/6 = 2/3.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed question and its solution do not agree with each other. Strictly, the faces greater than 3 are 4, 5, 6, giving 3/6 = 1/2, which is not among the options; the solution first writes n(E) = 2 and then computes 4/6 = 2/3, matching key (d). The stem is most likely meant as 'greater than or equal to 3'. Key (d) matches the solution's final value, so it is not counted as a contradicted key."
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Out of one digit prime numbers, one number is selected at random. The probability of selecting an even number is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/3"
+    },
+    {
+     "label": "B",
+     "text": "1/4"
+    },
+    {
+     "label": "C",
+     "text": "3/4"
+    },
+    {
+     "label": "D",
+     "text": "2/3"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The one digit primes are 2, 3, 5, 7, so n(S) = 4. Only 2 is even, so n(E) = 1. Hence P(E) = 1/4.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 SQP 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "A bag contains 3 red and 2 blue marbles. If a marble is drawn at random, then the probability of drawing a blue marble is :",
+   "options": [
+    {
+     "label": "A",
+     "text": "2/5"
+    },
+    {
+     "label": "B",
+     "text": "1/4"
+    },
+    {
+     "label": "C",
+     "text": "3/5"
+    },
+    {
+     "label": "D",
+     "text": "2/3"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The bag holds 3 + 2 = 5 marbles, so n(S) = 5. Two of them are blue, so n(E) = 2. Hence P(E) = 2/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "KEY CONFLICT: the worked solution obtains 2/5, which is option (a), but the printed line reads 'Thus (b) is correct option' and (b) is 1/4. The solution wins, so the key is recorded as A."
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "A single letter is selected at random from the word PROBABILITY. The probability that the selected letter is a vowel is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2/11"
+    },
+    {
+     "label": "B",
+     "text": "3/11"
+    },
+    {
+     "label": "C",
+     "text": "4/11"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "PROBABILITY has 11 letters, so n(S) = 11. Its vowels are O, A, I and I, so n(E) = 4. Hence P(E) = 4/11.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "25",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "A fair die is thrown once. The probability of getting a composite number less than 5 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/3"
+    },
+    {
+     "label": "B",
+     "text": "1/6"
+    },
+    {
+     "label": "C",
+     "text": "2/3"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The outcomes are 1, 2, 3, 4, 5, 6, so n(S) = 6. The only composite number less than 5 is 4, so n(E) = 1. Hence P(E) = 1/6.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 SQP 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "26",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "If a letter is chosen at random from the letter of English alphabet, then the probability that it is a letter of the word DELHI is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/5"
+    },
+    {
+     "label": "B",
+     "text": "1/26"
+    },
+    {
+     "label": "C",
+     "text": "5/26"
+    },
+    {
+     "label": "D",
+     "text": "21/26"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The English alphabet has 26 letters, so n(S) = 26. The word DELHI uses 5 distinct letters, so n(E) = 5. Hence P(E) = 5/26.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "27",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The probability that a two digit number selected at random will be a multiple of 3 and not a multiple of 5 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2/15"
+    },
+    {
+     "label": "B",
+     "text": "4/15"
+    },
+    {
+     "label": "C",
+     "text": "1/15"
+    },
+    {
+     "label": "D",
+     "text": "4/90"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "There are 90 two digit numbers, so n(S) = 90. Of these, 24 are divisible by 3 but not by 5, so n(E) = 24. Hence P(E) = 24/90 = 4/15.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 SQP 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "28",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "If in a lottery, there are 5 prizes and 20 blanks, then the probability of getting a prize is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2/5"
+    },
+    {
+     "label": "B",
+     "text": "4/5"
+    },
+    {
+     "label": "C",
+     "text": "1/5"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The lottery has 20 + 5 = 25 tickets in all, so n(S) = 25, of which 5 carry a prize, so n(E) = 5. Hence P(E) = 5/25 = 1/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2010",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "29",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "If a number x is chosen at random from the numbers −2, −1, 0, 1, 2. Then, the probability that x² < 2 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2/5"
+    },
+    {
+     "label": "B",
+     "text": "4/5"
+    },
+    {
+     "label": "C",
+     "text": "1/5"
+    },
+    {
+     "label": "D",
+     "text": "3/5"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "There are 5 numbers to choose from, so n(S) = 5. Squaring each gives 4, 1, 0, 1, 4, so x² < 2 holds for x = −1, 0 and 1, giving n(E) = 3. Hence P(E) = 3/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "30",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Which of the following relationship is the correct?",
+   "options": [
+    {
+     "label": "A",
+     "text": "P(E) + P(Ē) = 1"
+    },
+    {
+     "label": "B",
+     "text": "P(Ē) − P(E) = 1"
+    },
+    {
+     "label": "C",
+     "text": "P(E) = 1 + P(Ē)"
+    },
+    {
+     "label": "D",
+     "text": "None of these"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "An event and its complement together cover every outcome exactly once, so their probabilities add to 1, that is P(E) + P(Ē) = 1.",
+   "concept": "P(E) plus P(not E)",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "31",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Two dice are thrown together. The probability that sum of the two numbers will be a multiple of 4, is:",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/2"
+    },
+    {
+     "label": "B",
+     "text": "1/3"
+    },
+    {
+     "label": "C",
+     "text": "1/8"
+    },
+    {
+     "label": "D",
+     "text": "1/4"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Throwing two dice gives n(S) = 36 outcomes. The pairs whose sum is 4, 8 or 12 are (1, 3), (2, 2), (3, 1), (2, 6), (3, 5), (4, 4), (5, 3), (6, 2) and (6, 6), so n(E) = 9. Hence P(E) = 9/36 = 1/4.",
+   "concept": "Listing the outcomes",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Comp. 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "32",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "A letter is chosen at random from the letters of the word ASSASSINATION, then the probability that the letter chosen is a vowel is in the form of 6/(2x + 1), then x is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "6"
+    },
+    {
+     "label": "C",
+     "text": "7"
+    },
+    {
+     "label": "D",
+     "text": "8"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "ASSASSINATION has 13 letters, so n(S) = 13, and 6 of them are vowels, so n(E) = 6, giving P(E) = 6/13. Setting 6/(2x + 1) = 6/13 gives 2x + 1 = 13, so x = 6.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "33",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "Ramesh buys a fish from a shop for his aquarium. The shopkeeper takes out one fish at random a tank containing 5 male fish and 9 female fish. Then, the probability that the fish taken out is a male fish, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "5/13"
+    },
+    {
+     "label": "B",
+     "text": "5/14"
+    },
+    {
+     "label": "C",
+     "text": "6/13"
+    },
+    {
+     "label": "D",
+     "text": "7/13"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The tank holds 5 + 9 = 14 fish, so n(S) = 14, of which 5 are male, so n(E) = 5. Hence P(E) = 5/14.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 SQP 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "34",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "A number x is selected from the numbers 1, 2, 3 and then a second number y is randomly selected from the numbers 1, 4, 9 then the probability that the product xy of the two numbers will be less than 9 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3/7"
+    },
+    {
+     "label": "B",
+     "text": "4/9"
+    },
+    {
+     "label": "C",
+     "text": "5/9"
+    },
+    {
+     "label": "D",
+     "text": "7/9"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "x can be picked in 3 ways and y in 3 ways, so n(S) = 9 pairs: (1, 1), (1, 4), (1, 9), (2, 1), (2, 4), (2, 9), (3, 1), (3, 4), (3, 9). The product is less than 9 for (1, 1), (1, 4), (2, 1), (2, 4) and (3, 1), so n(E) = 5. Hence P(E) = 5/9.",
+   "concept": "Listing the outcomes",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Foreign 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "35",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "There are 1000 sealed envelopes in a box. 10 of them contain a cash prize of ₹ 100 each, 100 of them contain a cash prize of ₹ 50 each and 200 of them contain a cash prize of ₹ 10 each and rest do not contain any cash prize. If they are well-shuffled and an envelope is picked up out, then the probability that is contains no cash prize is",
+   "options": [
+    {
+     "label": "A",
+     "text": "0.65"
+    },
+    {
+     "label": "B",
+     "text": "0.69"
+    },
+    {
+     "label": "C",
+     "text": "0.54"
+    },
+    {
+     "label": "D",
+     "text": "0.57"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Envelopes carrying a prize number 10 + 100 + 200 = 310, so those with no prize number 1000 − 310 = 690. With n(S) = 1000 and n(E) = 690, P(E) = 690/1000 = 0.69.",
+   "concept": "Using the complement",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "36",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "stem": "Assertion : A card is drawn at random from a well shuffled deck of 52 playing cards. The probability of getting a face card is 1.1.\nReason : Probability of an event always lies between 0 and 1.",
+   "assertion": "A card is drawn at random from a well shuffled deck of 52 playing cards. The probability of getting a face card is 1.1.",
+   "reason": "Probability of an event always lies between 0 and 1.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A probability can never exceed 1, so a value of 1.1 is impossible; in fact P(face card) = 12/52 = 3/13. The assertion is therefore false. The reason, that every probability lies between 0 and 1, is a true statement. Hence assertion (A) is false but reason (R) is true.",
+   "concept": "Range of probability",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No board/year tag is printed against this assertion-reason item."
+  },
+  {
+   "number": "37",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "What is the probability that a number selected at random from the numbers 1, 2, 3, ......, 15 is a multiple of 4?",
+   "answer": "The sample space is the 15 numbers 1 to 15, so n(S) = 15. The multiples of 4 among them are 4, 8 and 12, so n(E) = 3. Hence P(E) = n(E)/n(S) = 3/15 = 1/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "38",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "Two coins are tossed simultaneously. What is the probability of getting at most one head?",
+   "answer": "Tossing two coins gives the outcomes {HH, HT, TH, TT}, so n(S) = 4. “At most one head” means zero or one head, i.e. {HT, TH, TT}, so n(E) = 3. Hence P(E) = 3/4.",
+   "concept": "An unbiased coin",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "39",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "A die is thrown once. What is the probability of getting a number less than 3?",
+   "answer": "A die has 6 equally likely outcomes, so n(S) = 6. The numbers less than 3 are 1 and 2, so n(E) = 2. Hence P(E) = 2/6 = 1/3.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "40",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "A number is chosen at random from the numbers −5, −4, −3, −2, −1, 0, 1, 2, 3, 4, 5. Then the probability that square of this number is less than or equal to 1 is .......... .",
+   "answer": "There are 11 numbers in the list, so n(S) = 11. Their squares are 25, 16, 9, 4, 1, 0, 1, 4, 9, 16, 25, and a square is ≤ 1 only for −1, 0 and 1, so n(E) = 3. Hence P(E) = 3/11.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 SQP Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "41",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "A card is drawn at random from a well-shuffled pack of 52 cards. Find the probability of getting a red king.",
+   "answer": "The pack has 52 cards, so n(S) = 52. The red kings are the king of hearts and the king of diamonds, so n(E) = 2. Hence P(E) = 2/52 = 1/26.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "42",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "If the probability of wining a game is 0.07, what is the probability of losing it?",
+   "answer": "Winning and losing are complementary events, so P(losing) = 1 − P(winning) = 1 − 0.07 = 0.93.",
+   "concept": "P(E) plus P(not E)",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "43",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "If a card is selected from a deck of 52 cards, then find the probability of its being a red face card?",
+   "answer": "A deck of 52 cards has 12 face cards — 6 red and 6 black — so n(S) = 52 and n(E) = 6. Hence P(E) = 6/52 = 3/26.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2011",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "44",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "A card is drawn from a deck of 52 cards. The event E is that card is not an ace of hearts. Find the number of outcomes favourable to E.",
+   "answer": "There are 13 hearts in the deck and exactly one of them is the ace of hearts. Every card except that one is favourable to E, so n(E) = 52 − 1 = 51 outcomes.",
+   "concept": "The event not E",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 OD 2017",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "45",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "When a die is thrown, what is the probability of getting an odd number less than 3?",
+   "answer": "A die has 6 equally likely outcomes, so n(S) = 6. The only odd number less than 3 is 1, so n(E) = 1. Hence P(E) = 1/6.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2013",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "46",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "The probability of getting a bad egg in a lot of 400 eggs is 0.035. Find the number of bad eggs in the lot.",
+   "answer": "Let x be the number of bad eggs, so n(E) = x and n(S) = 400. Then P(E) = x/400 = 0.035, giving x = 400 × 0.035 = 14. Thus there are 14 bad eggs in the lot.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "47",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "A girl calculates that the probability of her winning the first prize in a lottery is 0.08. If 6000 tickets are sold, then how many tickets has she bought?",
+   "answer": "Let x be the number of tickets she bought, so n(E) = x and n(S) = 6000. Then P(E) = x/6000 = 0.08, giving x = 0.08 × 6000 = 480. Hence she bought 480 tickets.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No board/year tag is printed beside this Sol."
+  },
+  {
+   "number": "48",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "Find the probability of an impossible event.",
+   "answer": "An impossible event has no favourable outcome, so n(E) = 0 and its probability is 0.",
+   "concept": "Impossible event",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "49",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "Someone is asked to take a number from 1 to 100. What is the probability that it is a prime?",
+   "answer": "There are 100 numbers to choose from, so n(S) = 100. The primes up to 100 are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 and 97 — 25 of them — so n(E) = 25. Hence P(E) = 25/100 = 1/4.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS | Board 2006",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "50",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "Out of one digit prime numbers, one number is selected at random. What is the probability of selecting an even number?",
+   "answer": "The one-digit primes are 2, 3, 5 and 7, so n(S) = 4. Of these only 2 is even, so n(E) = 1. Hence P(E) = 1/4.",
+   "concept": "Listing the outcomes",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 OD 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "51",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "A bag contains 3 red and 2 blue marbles. If a marble is drawn at random, then find the probability of drawing a blue marble.",
+   "answer": "The bag holds 3 + 2 = 5 marbles, so one marble can be drawn in 5 ways and n(S) = 5. There are 2 blue marbles, so n(E) = 2. Hence P(E) = 2/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2013",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "52",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "A single letter is selected at random from the word PROBABILITY. What is the probability that the selected letter is a vowel?",
+   "answer": "PROBABILITY has 11 letters, so n(S) = 11. The vowels in it are O, A, I and I — 4 letters — so n(E) = 4. Hence P(E) = 4/11.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS | Board 2007",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "53",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "A die is thrown once. Find the probability of getting “at most 2.”",
+   "answer": "The sample space is S = {1, 2, 3, 4, 5, 6}, so n(S) = 6. “At most 2” means the outcome is 1 or 2, i.e. E = {1, 2} and n(E) = 2. Hence P(E) = 2/6 = 1/3.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 OD Compt 2017",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "54",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "If E be an event such that P(E) = 3/7, what is P(not E) equal to?",
+   "answer": "An event and its complement have probabilities summing to 1, so P(not E) = 1 − P(E) = 1 − 3/7 = 4/7.",
+   "concept": "P(E) plus P(not E)",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "55",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "A bag contains lemon flavoured candies only. Shalini takes out one candy without looking into the bag. What is the probability that she takes out an orange flavoured candy?",
+   "answer": "The bag holds only lemon flavoured candies, so drawing an orange flavoured candy can never happen — it is an impossible event. Hence P(E) = 0.",
+   "concept": "Impossible event",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "56",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "Out of 200 bulbs in a box, 12 bulbs are defective. One bulb is taken out at random from the box. What is the probability that the drawn bulb is not defective?",
+   "answer": "The box has n(S) = 200 bulbs. Since 12 are defective, the non-defective ones number n(E) = 200 − 12 = 188. Hence P(E) = 188/200 = 47/50.",
+   "concept": "Using the complement",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 SQP 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "57",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "A card is drawn at random from a well shuffled pack of 52 cards. Find the probability of getting neither a red card nor a queen.",
+   "answer": "Of the 52 cards, 26 are red; the queens that are not already red are the 2 black queens. So the cards that are red or a queen number 26 + 2 = 28, leaving n(E) = 52 − 28 = 24 cards that are neither. Hence P(E) = 24/52 = 6/13.",
+   "concept": "Using the complement",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "58",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "A letter of English alphabet is chosen at random. Determine the probability that the chosen letter is a consonant.",
+   "answer": "The English alphabet has 26 letters, so n(S) = 26. Of these 5 are vowels and the remaining 21 are consonants, so n(E) = 21. Hence P(E) = 21/26.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2015, 2020 Delhi STD",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "59",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Cards marked with number 3, 4, 5, ..........., 50 are placed in a box and mixed thoroughly. A card is drawn at random from the box. Find the probability that the selected card bears a perfect square number.",
+   "answer": "The cards run from 3 to 50, so n(S) = 50 − 3 + 1 = 48. The perfect squares in that range are 4, 9, 16, 25, 36 and 49, so n(E) = 6. Hence P(E) = 6/48 = 1/8.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "60",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "20 tickets, on which numbers 1 to 20 are written, are mixed thoroughly and then a ticket is drawn at random out of them. Find the probability that the number on the drawn ticket is a multiple of 3 or 7.",
+   "answer": "There are n(S) = 20 tickets. The multiples of 3 are 3, 6, 9, 12, 15, 18 and the multiples of 7 are 7, 14, so E = {3, 6, 7, 9, 12, 14, 15, 18} and n(E) = 8. Hence P(E) = 8/20 = 2/5.",
+   "concept": "Listing the outcomes",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "61",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "What is the probability that a non-leap year has 53 Mondays?",
+   "answer": "A non-leap year has 365 days = 52 complete weeks + 1 extra day. The 52 weeks already give 52 Mondays, so a 53rd Monday depends only on that one leftover day, which can be any of the 7 weekdays. Thus n(S) = 7 and n(E) = 1, giving P(E) = 1/7.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "62",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Two different dice are tossed together. Find the probability that the product of the number on the top of the dice is 6.",
+   "answer": "Two dice give n(S) = 6 × 6 = 36 equally likely outcomes. The pairs whose product is 6 are (1, 6), (6, 1), (2, 3) and (3, 2), so n(E) = 4. Hence P(E) = 4/36 = 1/9.",
+   "concept": "Listing the outcomes",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 OD 2015",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "63",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "A game of chance consists of spinning an arrow which comes to rest pointing at one of the numbers 1, 2, 3, 4, 5, 6, 7, 8 and these are equally likely outcomes. Find the probability that the arrow will point at any factor of 8?",
+   "answer": "The arrow can rest on any of 8 equally likely numbers, so n(S) = 8. The factors of 8 in that list are 1, 2, 4 and 8, so n(E) = 4. Hence P(E) = 4/8 = 1/2.",
+   "concept": "Listing the outcomes",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Foreign 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed solution is internally inconsistent: it lists four favourable outcomes (1, 2, 4 and 8) but then prints n(E) = 3 and P(E) = 2/8 = 1/2. Only 4/8 = 1/2 is consistent with the listed outcomes and with the printed final answer, so the count is 4 and the result 1/2 stands. Counted as a contradicted key."
+  },
+  {
+   "number": "64",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "A bag contains cards numbered from 1 to 25. A card is drawn at random from the bag. Find the probability that number is divisible by both 2 and 3.",
+   "answer": "The bag holds n(S) = 25 cards. A number divisible by both 2 and 3 is divisible by 6; in 1 to 25 these are 6, 12, 18 and 24, so n(E) = 4. Hence P(E) = 4/25.",
+   "concept": "Listing the outcomes",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Foreign 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "65",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "A number is selected at random from 1 to 30. Find the probability that it is a prime number.",
+   "answer": "There are n(S) = 30 numbers. The primes among them are 2, 3, 5, 7, 11, 13, 17, 19, 23 and 29 — 10 numbers — so n(E) = 10. Hence P(E) = 10/30 = 1/3.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "66",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "A box contains 90 discs, numbered from 1 to 90. If one disc is drawn at random from box, find the probability that it bears a prime number less than 23.",
+   "answer": "There are n(S) = 90 discs. The primes less than 23 are 2, 3, 5, 7, 11, 13, 17 and 19, so n(E) = 8. Hence P(E) = 8/90 = 4/45.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "67",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "From the number 3, 5, 5, 7, 7, 7, 9, 9, 9, 9, one number is selected at random, what is the probability that the selected number is mean?",
+   "answer": "There are n(S) = 10 numbers. Their mean is M = (3 + 5 + 5 + 7 + 7 + 7 + 9 + 9 + 9 + 9)/10 = 70/10 = 7. The value 7 occurs three times in the list, so n(E) = 3. Hence P(E) = 3/10.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "68",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "A die is thrown once. Find the probability of getting a prime number.",
+   "answer": "A die has n(S) = 6 equally likely outcomes. The primes among 1 to 6 are 2, 3 and 5, so n(E) = 3. Hence P(E) = 3/6 = 1/2.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "69",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "In tossing a die, what is the probability of getting an odd number or number less than 4?",
+   "answer": "A die has n(S) = 6 outcomes. The odd numbers are 1, 3, 5 and the numbers less than 4 are 1, 2, 3; taken together the favourable outcomes are 1, 2, 3 and 5, so n(E) = 4. Hence P(E) = 4/6 = 2/3.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "70",
+   "form": "very_short",
+   "marks": 1,
+   "page": 11,
+   "stem": "Find the probability of getting a sum of 9, when two dice are thrown simultaneously.",
+   "answer": "Two dice give n(S) = 6 × 6 = 36 outcomes. The pairs summing to 9 are (3, 6), (6, 3), (4, 5) and (5, 4), so n(E) = 4. Hence P(E) = 4/36 = 1/9.",
+   "concept": "Listing the outcomes",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 OD 2011",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "71",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "Can 1.1 be probability of an event?",
+   "answer": "No. The probability of an event always lies between 0 and 1 inclusive, and 1.1 exceeds 1, so it cannot be a probability.",
+   "concept": "Range of probability",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "72",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "A bag contains 3 red and 5 black balls. A ball is drawn at random from the bag. What is the probability that the drawn ball is not red?",
+   "answer": "The bag holds 3 + 5 = 8 balls, so n(S) = 8. A ball that is not red is one of the 5 black balls, so n(E) = 5. Hence P(E) = 5/8.",
+   "concept": "The event not E",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2017",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "73",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "If three different coins are tossed together, then find the probability of getting two heads.",
+   "answer": "Three coins give the outcomes {HHH, THH, HTH, HHT, TTT, TTH, THT, HTT}, so n(S) = 8. Exactly two heads occurs in THH, HTH and HHT, so n(E) = 3. Hence P(E) = 3/8.",
+   "concept": "An unbiased coin",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 OD Compt. 2017",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "74",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "A number x is chosen from 25, 24, 23, −2, −1, 0, 1, 2, 3. Find the probability that |x| < 3.",
+   "answer": "There are n(S) = 9 numbers in the list. Those with absolute value less than 3 are −2, −1, 0, 1 and 2, so n(E) = 5. Hence P(|x| < 3) = 5/9.",
+   "concept": "Listing the outcomes",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The first three numbers are printed as 25, 24, 23 (they read like −5, −4, −3 in other editions). Transcribed exactly as printed; either reading gives the same n(S) = 9 and the same answer 5/9."
+  },
+  {
+   "number": "75",
+   "form": "very_short",
+   "marks": 1,
+   "page": 12,
+   "stem": "A die thrown once. What is the probability of getting an even prime number?",
+   "answer": "A die has n(S) = 6 possible outcomes. The only even prime is 2, so there is just one favourable outcome and n(E) = 1. Hence P(E) = 1/6.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "76",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "stem": "In a pack of 52 playing cards one card is lost. From the remaining cards, a card is drawn at random. Find the probability that the drawn card is queen of heart, if the lost card is a black card.",
+   "answer": "The lost card is a black card, so the queen of heart is still in the pack. The remaining cards give n(S) = 51 and there is exactly one queen of heart, so n(E) = 1. Hence P(queen of heart) = 1/51.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "77",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "stem": "A bag contains 5 red balls and some blue balls. If the probability of drawing a blue ball at random from the bag is three times that of a red ball, find the number of blue balls in the bag.",
+   "answer": "Let the bag hold x blue balls. Then n(S) = 5 + x, n(R) = 5 and n(B) = x, so P(red) = 5/(5 + x) and P(blue) = x/(5 + x). Since P(blue) = 3 × P(red), x/(5 + x) = 15/(5 + x), giving x = 15. The bag contains 15 blue balls.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "78",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "If a pair of dice is thrown once, then what is the probability of getting a sum of 8?",
+   "answer": "Throwing two dice gives n(S) = 6² = 36 equally likely outcomes. A sum of 8 comes from (2, 6), (3, 5), (4, 4), (5, 3) and (6, 2), so n(E) = 5. Hence P(sum is 8) = 5/36.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "79",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "In a lottery, there are 10 prizes and 25 blanks. What is the probability of getting a prize?",
+   "answer": "The total number of tickets is n(S) = 10 + 25 = 35, of which 10 carry a prize, so n(E) = 10. Hence P(prize) = 10/35 = 2/7.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "80",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "Two different coins are tossed simultaneously, What is the probability of getting at least one head?",
+   "answer": "The possible outcomes are {HH, HT, TH, TT}, so n(S) = 4. At least one head occurs in HH, HT and TH, so n(E) = 3. Hence P(at least one head) = 3/4.",
+   "concept": "An unbiased coin",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 Delhi OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem is reproduced with the printed comma after 'simultaneously'."
+  },
+  {
+   "number": "81",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "A pair of dice is thrown once. What is the probability of getting a doublet?",
+   "answer": "Two dice give n(S) = 6² = 36 outcomes. The doublets are (1, 1), (2, 2), (3, 3), (4, 4), (5, 5) and (6, 6), so n(E) = 6. Hence P(doublet) = 6/36 = 1/6.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "82",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "A die is thrown once. What is the probability of getting a prime number.",
+   "answer": "A die has six equally likely outcomes, so n(S) = 6. The prime numbers on a die are 2, 3 and 5, so n(E) = 3. Hence P(prime number) = 3/6 = 1/2.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed worked solution answers a different question: it takes the favourable outcomes as 1 and 2 and reports P(number less than 3) = 2/6 = 1/3. The stem asks for a prime number, whose favourable outcomes are 2, 3 and 5, giving 1/2. Stem kept as printed, answer corrected; counted as a contradicted key."
+  },
+  {
+   "number": "83",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "If a number x is chosen at random from the numbers −3, −2, −1, 0, 1, 2, 3, then find the probability of x² < 4.",
+   "answer": "There are seven numbers to choose from, so n(S) = 7. The condition x² < 4 means −2 < x < 2, which the listed numbers −1, 0 and 1 satisfy, so n(E) = 3. Hence P(x² < 4) = 3/7.",
+   "concept": "Listing the outcomes",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints the list as '−3, −2, −1. 0, 1, 2, 3' with a full stop where a comma belongs; the stray point is normalised to a comma."
+  },
+  {
+   "number": "84",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "A bag contains cards with numbers written on it from 1–80. A card is pulled out at random. Find the probability that the card shows a perfect square.",
+   "answer": "The sample space is S = {1, 2, …, 80}, so n(S) = 80. The perfect squares up to 80 are 1, 4, 9, 16, 25, 36, 49 and 64, so n(E) = 8. Hence P(perfect square) = 8/80 = 1/10.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "85",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "A bag contains 6 red and 5 blue balls. Find the probability that the ball drawn is not red.",
+   "answer": "The bag holds n(S) = 6 + 5 = 11 balls. A ball that is not red is one of the 5 blue balls, so n(E) = 5. Hence P(not red) = 5/11.",
+   "concept": "The event not E",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2014, 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "86",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "There are 30 cards of the same size in a bag in which the numbers 1 to 30 are written. One card is taken out of the bag at random. Find the probability that the number on the selected card is not divisible by 3.",
+   "answer": "Total cards give n(S) = 30. The numbers divisible by 3 are 3, 6, 9, 12, 15, 18, 21, 24, 27 and 30, i.e. 10 of them, so the numbers not divisible by 3 number n(E) = 30 − 10 = 20. Hence P(not divisible by 3) = 20/30 = 2/3.",
+   "concept": "The event not E",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Foreign 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "87",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "A bag contains cards bearing numbers from 11 to 30. A card is taken out from the bag at random. Find the probability that the selected card has multiple of 5 on it.",
+   "answer": "The cards 11 to 30 number n(S) = 20. The multiples of 5 among them are 15, 20, 25 and 30, so n(E) = 4. Hence P(multiple of 5) = 4/20 = 1/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2014, 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "88",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "Two different dice are tossed together. Find the probability :\n(i) that the number on each die is even.\n(ii) that the sum of numbers appearing on the two dice is 5.",
+   "answer": "In both parts n(S) = 36. (i) Each die shows an even number in (2, 2), (2, 4), (2, 6), (4, 2), (4, 4), (4, 6), (6, 2), (6, 4) and (6, 6), i.e. n(E₁) = 9, so P = 9/36 = 1/4. (ii) The sum is 5 in (1, 4), (2, 3), (3, 2) and (4, 1), i.e. n(E₂) = 4, so P = 4/36 = 1/9.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 OD 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The solution runs on to the next page, where P(E₂) = 4/36 = 1/9 is completed."
+  },
+  {
+   "number": "89",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "A letter of English alphabet is chosen at random, find the probability that the letter so chosen is :\n(i) a vowel,\n(ii) a consonant.",
+   "answer": "The English alphabet has 26 letters, of which 5 are vowels and 21 are consonants, so n(S) = 26 in both parts. (i) n(E₁) = 5, so P(vowel) = 5/26. (ii) n(E₂) = 21, so P(consonant) = 21/26.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "90",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "Harpreet tosses two different coins simultaneously. What is the probability that she gets :\n(i) at least one head ?\n(ii) one head and one tail ?",
+   "answer": "The possible outcomes are {HH, TT, TH, HT}, so n(S) = 4. (i) At least one head occurs in HH, TH and HT, so n(E₁) = 3 and P = 3/4. (ii) One head and one tail occurs in TH and HT, so n(E₂) = 2 and P = 2/4 = 1/2.",
+   "concept": "An unbiased coin",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Foreign 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "91",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "A bag contains 5 red, 8 green and 7 white balls. One ball is drawn at random from the bag, find the probability of getting :\n(i) not a white ball,\n(ii) neither a green nor a red ball.",
+   "answer": "The bag holds 5 + 8 + 7 = 20 balls, so n(S) = 20. (i) The balls that are not white are the 5 red and 8 green ones, n(E₁) = 13, so P(not white) = 13/20. (ii) A ball that is neither green nor red is one of the 7 white balls, n(E₂) = 7, so P = 7/20.",
+   "concept": "The event not E",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012, 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "92",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "A bag contains 3 red, 4 green and 5 white candles, one candle is drawn at random from the bag, find the probability that candle is not red.",
+   "answer": "The bag holds 3 + 4 + 5 = 12 candles, so n(S) = 12. The candles that are not red are the 4 green and 5 white ones, n(E) = 9. Hence P(candle is not red) = 9/12 = 3/4.",
+   "concept": "The event not E",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "93",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "In a family of two children find the probability of having at least one girl.",
+   "answer": "The possible outcomes are S = {GG, GB, BG, BB}, so n(S) = 4. At least one girl occurs in GG, GB and BG, so n(E) = 3. Hence P(at least one girl) = 3/4.",
+   "concept": "Listing the outcomes",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "94",
+   "form": "very_short",
+   "marks": 2,
+   "page": 16,
+   "stem": "Find the probability that a leap year has 53 Sundays",
+   "answer": "A leap year has 366 days = 52 complete weeks + 2 extra days. The 52 weeks already give 52 Sundays, so a 53rd Sunday needs one of the two extra days to be a Sunday. The two extra days can be MT, TW, WTh, ThF, FS, SS or SM, so n(S) = 7, and the favourable pairs SS and SM give n(E) = 2. Hence P(53 Sundays) = 2/7.",
+   "concept": "Listing the outcomes",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "95",
+   "form": "very_short",
+   "marks": 2,
+   "page": 16,
+   "stem": "Two coins are tossed together. Find the probability of getting both heads or both tails.",
+   "answer": "The possible outcomes are HH, HT, TH and TT, so n(S) = 4. Both heads or both tails means HH or TT, so n(E) = 2. Hence P(HH or TT) = 2/4 = 1/2.",
+   "concept": "An unbiased coin",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "96",
+   "form": "very_short",
+   "marks": 2,
+   "page": 16,
+   "stem": "One card is drawn from a well shuffled deck of 52 cards. Find the probability of getting :\n(i) a non face card,\n(ii) a black king.",
+   "answer": "The deck gives n(S) = 52. (i) There are 12 face cards, so 52 − 12 = 40 cards are non-face cards, n(E₁) = 40 and P(non-face) = 40/52 = 10/13. (ii) There are 2 black kings, n(E₂) = 2, so P(black king) = 2/52 = 1/26.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 OD 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "97",
+   "form": "very_short",
+   "marks": 2,
+   "page": 16,
+   "stem": "A lot consists of 144 ball pens of which 20 are defective and others are good. Nuri will buy a pen if it is good, but will not buy if it is defective. The shopkeeper draws one pen at random and gives it to her. What is the probability that :\n(i) she will buy it ?\n(ii) she will not buy it ?",
+   "answer": "The lot gives n(S) = 144, of which the good pens number 144 − 20 = 124. (i) P(she will buy it) = 124/144 = 31/36. (ii) She will not buy it exactly when the pen is defective, so P(she will not buy it) = 1 − 31/36 = 5/36, which agrees with 20/144 = 5/36.",
+   "concept": "P(E) plus P(not E)",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution contradicts itself: after P(E) = 31/36 it writes P(Ē) = 1 − P(E) = 1 − 5/36 = 31/36. The complement of 31/36 is 5/36, and 20 defective pens out of 144 is 5/36, so the answer for (ii) is 5/36. Counted as a contradicted key."
+  },
+  {
+   "number": "98",
+   "form": "very_short",
+   "marks": 2,
+   "page": 16,
+   "stem": "Two different dice are thrown together. Find the probability that the product of the number appeared is less than 18.",
+   "answer": "Two dice give n(S) = 6 × 6 = 36 outcomes. Counting by the first die: with 1 all 6 products are below 18; with 2 all 6 are below 18; with 3 only 3 × 6 = 18 fails, giving 5; with 4 the products below 18 need the second die at most 4, giving 4; with 5 the second die must be at most 3, giving 3; with 6 it must be at most 2, giving 2. So n(E) = 6 + 6 + 5 + 4 + 3 + 2 = 26 and P(product less than 18) = 26/36 = 13/18.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Foreign 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book's enumeration of favourable pairs prints (1, 1) and (5, 3) twice, so the printed list is not a clean listing, but the stated count n(E) = 26 and the answer 13/18 are correct, as the count by first die confirms."
+  },
+  {
+   "number": "99",
+   "form": "very_short",
+   "marks": 2,
+   "page": 16,
+   "stem": "A box contains cards numbered 11 to 123. A card is drawn at random from the box. Find the probability that the number of the drawn card is\n(i) A perfect square number\n(ii) A multiple of 7.",
+   "answer": "The cards 11 to 123 number n(S) = 113. (i) The perfect squares in this range are 16, 25, 36, 49, 64, 81, 100 and 121, so n(E₁) = 8 and P(perfect square) = 8/113. (ii) The multiples of 7 are 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98, 105, 112 and 119, so n(E₂) = 16 and P(multiple of 7) = 16/113.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 SQP 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The solution runs on to the next page, where the 16 multiples of 7 are completed and P(E₂) = 16/113."
+  },
+  {
+   "number": "100",
+   "form": "very_short",
+   "marks": 2,
+   "page": 17,
+   "stem": "A box contains 12 balls of which some are red in colour. If 6 more red balls are put in the box and a ball is drawn at random the probability of drawing a red ball doubles than what it was before. Find the number of red balls in the bag.",
+   "answer": "Let x be the number of red balls among the 12, so P(R) = x/12. After 6 more red balls the box holds 18 balls with x + 6 red, so P′(R) = (x + 6)/18. The condition P′(R) = 2 × P(R) gives (x + 6)/18 = 2x/12 = x/6, so 6(x + 6) = 18x, 6x + 36 = 18x and x = 3. The box contained 3 red balls; the check is 3/12 = 1/4 doubling to 9/18 = 1/2.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 SQP 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The worked solution derives x = 3 but its closing line reads 'Hence there were 8 red ball'. The derivation is right — 3/12 = 1/4 doubles to 9/18 = 1/2 — so the solution wins and the answer is 3. Counted as a contradicted key."
+  },
+  {
+   "number": "101",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "An integer is chosen between 70 and 100. Find the probability that it is\n(i) a prime number\n(ii) divisible by 7",
+   "answer": "The integers strictly between 70 and 100 are 71, 72, …, 99, so n(S) = 29. (i) The primes among them are 71, 73, 79, 83, 89 and 97, so n(E₁) = 6 and P(a prime number) = 6/29. (ii) The multiples of 7 among them are 77, 84, 91 and 98, so n(E₂) = 4 and P(divisible by 7) = 4/29.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 SQP Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "102",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "Find the probability that 5 Sundays occur in the month of November of a randomly selected year.",
+   "answer": "November has 30 days, which is 4 complete weeks and 2 extra days. The 4 weeks already give 4 Sundays, so a fifth Sunday occurs only if one of the two extra days is a Sunday. The possible pairs of extra days are (Sunday, Monday), (Monday, Tuesday), (Tuesday, Wednesday), (Wednesday, Thursday), (Thursday, Friday), (Friday, Saturday) and (Saturday, Sunday), so n(S) = 7. Two of these pairs contain a Sunday, so n(E) = 2 and P(5 Sundays in November) = 2/7.",
+   "concept": "Listing the outcomes",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "103",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "Two dice are tossed simultaneously. Find the probability of getting\n(i) an even number on both dice.\n(ii) the sum of two numbers more than 9.",
+   "answer": "Rolling two dice gives n(S) = 36 equally likely outcomes. (i) An even number on both dice happens for (2, 2), (2, 4), (2, 6), (4, 2), (4, 4), (4, 6), (6, 2), (6, 4) and (6, 6), so n(E₁) = 9 and P(even on both) = 9/36 = 1/4. (ii) A sum greater than 9 happens for (4, 6), (5, 5), (5, 6), (6, 4), (6, 5) and (6, 6), so n(E₂) = 6 and P(sum more than 9) = 6/36 = 1/6.",
+   "concept": "Listing the outcomes",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "104",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "In a family of three children, find the probability of having at least two boys.",
+   "answer": "For three children the possible outcomes are BBB, BBG, BGB, GBB, GGB, GBG, BGG and GGG, so n(S) = 2³ = 8. At least two boys means two boys or three boys, that is BBB, BBG, BGB and GBB, so n(E) = 4. Hence P(at least two boys) = 4/8 = 1/2.",
+   "concept": "Listing the outcomes",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "105",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "A child has a die whose six faces show the letters as shown below:\nA  A  B  C  C  C\nThe die is thrown once. What is the probability of getting (i) A, (ii) C?",
+   "answer": "The die has six equally likely faces, so n(S) = 6. (i) The letter A appears on 2 faces, so n(E₁) = 2 and P(A) = 2/6 = 1/3. (ii) The letter C appears on 3 faces, so n(E₂) = 3 and P(C) = 3/6 = 1/2.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution for (ii) states n(E₂) = 3 with n(S) = 6 but then prints P(E₂) = 1/6. Its own working gives 3/6 = 1/2, so 1/2 is used here; counted as a contradicted key. The six faces are printed as boxed letters A, A, B, C, C, C and are written out as text in the stem."
+  },
+  {
+   "number": "106",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "A game consists of tossing a coin 3 times and noting the outcome each time. If getting the same result in all the tosses is a success, find the probability of losing the game.",
+   "answer": "Tossing a coin three times gives the outcomes HHH, HHT, HTH, THH, TTH, THT, HTT and TTT, so n(S) = 2³ = 8. A success is HHH or TTT, that is 2 outcomes, so the game is lost in 8 − 2 = 6 outcomes. Hence P(losing the game) = 6/8 = 3/4.",
+   "concept": "An unbiased coin",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2019 Delhi",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "107",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "A die is thrown once. Find the probability of getting a number which (i) is a prime number (ii) lies between 2 and 6.",
+   "answer": "A die has six equally likely faces, so n(S) = 6. (i) The primes on a die are 2, 3 and 5, so n(E₁) = 3 and P(a prime number) = 3/6 = 1/2. (ii) The numbers lying between 2 and 6 are 3, 4 and 5, so n(E₂) = 3 and P(lies between 2 and 6) = 3/6 = 1/2.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2019 Delhi",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "108",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "A die is thrown twice. Find the probability that\n(i) 5 will come up at least once.\n(ii) 5 will not come up either time.",
+   "answer": "Throwing a die twice gives n(S) = 6 × 6 = 36 outcomes. (i) A 5 appears at least once in (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (1, 5), (2, 5), (3, 5), (4, 5) and (6, 5), that is n(E) = 11, so P(5 at least once) = 11/36. (ii) Not getting a 5 either time is the complement, so P(no 5) = 1 − 11/36 = 25/36.",
+   "concept": "Using the complement",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2019 OD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "109",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "Two different dice are tossed together. Find the probability:\n(i) of getting a doublet\n(ii) of getting a sum 10, of the numbers on the two dice.",
+   "answer": "Two dice give n(S) = 36 equally likely outcomes. (i) The doublets are (1, 1), (2, 2), (3, 3), (4, 4), (5, 5) and (6, 6), so n(E₁) = 6 and P(a doublet) = 6/36 = 1/6. (ii) A sum of 10 comes from (4, 6), (5, 5) and (6, 4), so n(E₂) = 3 and P(sum 10) = 3/36 = 1/12.",
+   "concept": "Listing the outcomes",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2018",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "110",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "An integer is chosen at random between 1 and 100. Find the probability that it is:\n(i) divisible by 8.\n(ii) not divisible by 8.",
+   "answer": "The integers strictly between 1 and 100 are 2, 3, …, 99, so n(S) = 100 − 2 = 98. (i) Those divisible by 8 are 8, 16, 24, …, 96, that is 12 numbers, so P(divisible by 8) = 12/98 = 6/49. (ii) Not divisible by 8 is the complement, so P(not divisible by 8) = 1 − 6/49 = 43/49.",
+   "concept": "Using the complement",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2018",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "111",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "From a pack of 52 playing cards, Jacks, Queens and Kings of red colour are removed. From the remaining, a card is drawn at random. Find the probability that drawn card is\n(i) a black king,\n(ii) a card of red colour,\n(iii) a card of black colour.",
+   "answer": "Six cards (the red jacks, queens and kings) are removed, so n(S) = 52 − 6 = 46. (i) There are 2 black kings, so P(a black king) = 2/46 = 1/23. (ii) The red cards left are 26 − 6 = 20, so P(a red card) = 20/46 = 10/23. (iii) All 26 black cards remain, so P(a black card) = 26/46 = 13/23.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "112",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "A bag contains cards numbered 1 to 49. Find the probability that the number on the drawn card is :\n(i) an odd number\n(ii) a multiple of 5\n(iii) Even prime",
+   "answer": "The bag holds 49 cards, so n(S) = 49. (i) The odd numbers 1, 3, 5, …, 49 are 25 in number, so P(an odd number) = 25/49. (ii) The multiples of 5 are 5, 10, 15, 20, 25, 30, 35, 40 and 45, that is 9 numbers, so P(a multiple of 5) = 9/49. (iii) The only even prime is 2, so P(even prime) = 1/49.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem and the start of the solution are on printed page 598 (image p019); the solution finishes on printed page 599, which is absent from the rendered page set for this chapter (the split PDF skips it) and was read from page 26 of C:\\Users\\MILAN\\Downloads\\maths10_split_originals\\maths10_ch14_probability.original.pdf. In part (ii) the book lists nine multiples of 5 but misprints n(E₂) = 5 before writing the correct fraction 9/49."
+  },
+  {
+   "number": "113",
+   "form": "short",
+   "marks": 3,
+   "page": 49,
+   "stem": "Two unbiased coins are tossed simultaneously. Find the probability of getting :\n(i) at least one head,\n(ii) almost one head,\n(iii) no head.",
+   "answer": "Two unbiased coins give the sample space S = {HH, HT, TH, TT}, so n(S) = 4.\n(i) At least one head occurs for {HH, HT, TH}, so n(E₁) = 3 and P(E₁) = 3/4.\n(ii) At most one head occurs for {HT, TH, TT}, so n(E₂) = 3 and P(E₂) = 3/4.\n(iii) No head occurs only for {TT}, so n(E₃) = 1 and P(E₃) = 1/4.",
+   "concept": "An unbiased coin",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2012, 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints \"almost one head\" where it means at most one head. Its worked solution then lists the favourable set for (ii) as {HT, TH, HH}, which is the set for (i); the correct set is {HT, TH, TT}. The count 3 and the printed value 3/4 are unaffected, so only the listing is corrected here. Page 49 is bound out of order at the very end of the chapter: its text runs on from page 19 (which ends at question 112) into page 20 (which opens mid-solution of question 115 and then prints question 116), so this question belongs to THREE MARKS QUESTIONS, not to the FIVE MARKS range this reader was assigned."
+  },
+  {
+   "number": "114",
+   "form": "short",
+   "marks": 3,
+   "page": 49,
+   "stem": "Three different coins are tossed together. Find the probability of getting\n(i) exactly two heads.\n(ii) at least two heads\n(iii) at least two tails.",
+   "answer": "Three coins give S = {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}, so n(S) = 8.\n(i) Exactly two heads: {HHT, HTH, THH}, so n(E₁) = 3 and P(E₁) = 3/8.\n(ii) At least two heads: {HHT, HTH, THH, HHH}, so n(E₂) = 4 and P(E₂) = 4/8 = 1/2.\n(iii) At least two tails: {TTH, THT, HTT, TTT}, so n(E₃) = 4 and P(E₃) = 4/8 = 1/2.",
+   "concept": "An unbiased coin",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "On page 49, a page bound out of order at the end of the chapter; by its running text it sits between pages 19 and 20 and is governed by the THREE MARKS QUESTIONS heading."
+  },
+  {
+   "number": "115",
+   "form": "short",
+   "marks": 3,
+   "page": 49,
+   "stem": "In a single throw of a pair of different dice, what is the probability of getting\n(i) a prime number on each dice ?\n(ii) a total of 9 or 11 ?",
+   "answer": "A pair of different dice gives n(S) = 6 × 6 = 36 equally likely outcomes.\n(i) A prime on each die means both show 2, 3 or 5: (2, 2), (2, 3), (2, 5), (3, 2), (3, 3), (3, 5), (5, 2), (5, 3), (5, 5) — 9 outcomes. So P(E₁) = 9/36 = 1/4.\n(ii) A total of 9 comes from (3, 6), (4, 5), (5, 4), (6, 3); a total of 11 from (5, 6), (6, 5) — 6 outcomes in all. So P(E₂) = 6/36 = 1/6.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Page 49 breaks off part-way through part (ii) of this solution, listing only (3, 6) (4, 5) (5, 4) (6, 3); the tail — (5, 6) and (6, 5), 6 outcomes, 6/36 = 1/6 — is completed from page 20, which is where this out-of-order page continues. The question belongs to THREE MARKS QUESTIONS."
+  },
+  {
+   "number": "116",
+   "form": "short",
+   "marks": 3,
+   "page": 20,
+   "stem": "A box consists of 100 shirts of which 88 are good, 8 have minor defects and 4 have major defects. Ramesh, a shopkeeper will buy only those shirts which are good but 'Kewal' another shopkeeper will not buy shirts with major defects. A shirt is taken out of the box at random. What is the probability that :\n(i) Ramesh will buy the selected shirt ?\n(ii) Kewal will buy the selected shirt ?",
+   "answer": "The box holds 100 shirts, so n(S) = 100. (i) Ramesh buys only the 88 good shirts, so P(Ramesh buys the shirt) = 88/100 = 22/25. (ii) Kewal refuses only the 4 with major defects, so he accepts 88 + 8 = 96 shirts and P(Kewal buys the shirt) = 96/100 = 24/25.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "117",
+   "form": "short",
+   "marks": 3,
+   "page": 20,
+   "stem": "A box contains 100 cards marked from 1 to 100. If one card is drawn at random from the box, find the probability that it bears :\n(i) a single digit number\n(ii) a number which is a perfect square\n(iii) a number which is divisible by 7",
+   "answer": "The box holds 100 cards, so n(S) = 100. (i) The single digit numbers are 1 to 9, so P(a single digit number) = 9/100. (ii) The perfect squares are 1, 4, 9, 16, 25, 36, 49, 64, 81 and 100, that is 10 numbers, so P(a perfect square) = 10/100 = 1/10. (iii) The multiples of 7 are 7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91 and 98, that is 14 numbers, so P(divisible by 7) = 14/100 = 7/50.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book leaves part (iii) as 14/100; it is reduced to 7/50 here."
+  },
+  {
+   "number": "118",
+   "form": "short",
+   "marks": 3,
+   "page": 20,
+   "stem": "There are 100 cards in a bag on which numbers from 1 to 100 are written. A card is taken out from the bag at random. Find the probability that the number on the selected card.\n(i) is divisible by 9 and is a perfect square.\n(ii) is a prime number greater than 80.",
+   "answer": "The bag holds 100 cards, so n(S) = 100. (i) The numbers that are both divisible by 9 and perfect squares are 9, 36 and 81, so n(E₁) = 3 and the probability is 3/100. (ii) The primes greater than 80 and not more than 100 are 83, 89 and 97, so n(E₂) = 3 and the probability is 3/100.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem and part (i) are on image p020 (printed page 600); part (ii) finishes at the top of image p021 (printed page 601)."
+  },
+  {
+   "number": "119",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "Cards numbered 2 to 101 are placed in a box. A card is selected at random from the box, find the probability that the card selected :\n(i) has a number which is a perfect square.\n(ii) has an odd number which is not less than 70.",
+   "answer": "The cards 2 to 101 are 100 in number, so n(S) = 100. (i) The perfect squares in this range are 4, 9, 16, 25, 36, 49, 64, 81 and 100, that is 9 numbers, so P(a perfect square) = 9/100. (ii) The odd numbers not less than 70 are 71, 73, 75, …, 101, an AP with 16 terms, so P(an odd number not less than 70) = 16/100 = 4/25.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "120",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "All red face cards are removed from a pack of playing cards. The remaining cards are well shuffled and then a card is drawn at random from them. Find the probability that the drawn card is :\n(i) a red card\n(ii) a face card\n(iii) a card of clubs",
+   "answer": "The six red face cards are removed, so n(S) = 52 − 6 = 46. (i) The red cards left are 26 − 6 = 20, so P(a red card) = 20/46 = 10/23. (ii) The face cards left are 12 − 6 = 6, so P(a face card) = 6/46 = 3/23. (iii) All 13 clubs remain, so P(a card of clubs) = 13/46.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "In part (i) the book writes 20/46 and then prints the reduced form as 10/26, which contradicts its own fraction; 20/46 = 10/23 is used here. Counted as a contradicted key."
+  },
+  {
+   "number": "121",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "The probability of selecting a red ball at random from a jar that contains only red, blue and orange balls is 1/4. The probability of selecting a blue ball at random from the same jar is 1/3. If the jar contains 10 orange balls, find the total number of ball in the jar.",
+   "answer": "The three colours exhaust the jar, so their probabilities add to 1. Hence P(orange) = 1 − (1/4 + 1/3) = 1 − 7/12 = 5/12. If n(S) is the total number of balls, then 10/n(S) = 5/12, so n(S) = 10 × 12 ÷ 5 = 24. The jar contains 24 balls.",
+   "concept": "Elementary probabilities sum to one",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution labels the probability of a blue ball 'n(B)' where it means P(B)."
+  },
+  {
+   "number": "122",
+   "form": "short",
+   "marks": 3,
+   "page": 22,
+   "stem": "Two different dice are thrown together. Find the probability of :\n(i) getting a number greater than 3 on each die.\n(ii) getting a total of 6 or 7 of the numbers on two dice.",
+   "answer": "Two dice give n(S) = 6 × 6 = 36 outcomes. (i) A number greater than 3 on each die means both show 4, 5 or 6: (4, 4), (4, 5), (4, 6), (5, 4), (5, 5), (5, 6), (6, 4), (6, 5) and (6, 6), so n(E₁) = 9 and the probability is 9/36 = 1/4. (ii) A total of 6 comes from (1, 5), (2, 4), (3, 3), (4, 2) and (5, 1), and a total of 7 from (1, 6), (2, 5), (3, 4), (4, 3), (5, 2) and (6, 1), giving n(E₂) = 11, so the probability is 11/36.",
+   "concept": "Listing the outcomes",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "123",
+   "form": "short",
+   "marks": 3,
+   "page": 22,
+   "stem": "One card is drawn from a well shuffled deck of 52 cards. Find the probability of getting\n(i) Non face card,\n(ii) Black king or a Red queen,\n(iii) Spade card.",
+   "answer": "A deck has n(S) = 52 cards. (i) There are 12 face cards, so the non-face cards number 52 − 12 = 40 and P(a non-face card) = 40/52 = 10/13. (ii) There are 2 black kings and 2 red queens, so n(E₂) = 4 and P(a black king or a red queen) = 4/52 = 1/13. (iii) There are 13 spades, so P(a spade card) = 13/52 = 1/4.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 SQP 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "124",
+   "form": "short",
+   "marks": 3,
+   "page": 22,
+   "stem": "Three coins are tossed simultaneously once. Find the probability of getting :\n(i) at least one tail,\n(ii) no tail.",
+   "answer": "The sample space for three coins is {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}, so n(S) = 2³ = 8. (i) Only HHH has no tail, so 7 outcomes carry at least one tail and P(at least one tail) = 7/8. (ii) No tail happens only for HHH, so P(no tail) = 1/8.",
+   "concept": "An unbiased coin",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "125",
+   "form": "short",
+   "marks": 3,
+   "page": 22,
+   "stem": "A game consists of tossing a one-rupee coin three times and noting its outcome each time. Find the probability of getting :\n(i) three heads,\n(ii) at least two tails.",
+   "answer": "Tossing the coin three times gives {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}, so n(S) = 2³ = 8. (i) Three heads is the single outcome HHH, so P(three heads) = 1/8. (ii) At least two tails occurs for TTT, TTH, THT and HTT, so n(E₂) = 4 and P(at least two tails) = 4/8 = 1/2.",
+   "concept": "An unbiased coin",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem and part (i) are on image p022 (printed page 602); part (ii) finishes at the top of image p023 (printed page 603)."
+  },
+  {
+   "number": "126",
+   "form": "short",
+   "marks": 3,
+   "page": 23,
+   "stem": "One card is drawn from a well-shuffled deck of 52 cards. Find the probability of getting :\n(i) a red face card,\n(ii) a spade,\n(iii) either a king or a black cards.",
+   "answer": "A deck has n(S) = 52 cards. (i) There are 6 red face cards, so P(a red face card) = 6/52 = 3/26. (ii) There are 13 spades, so P(a spade) = 13/52 = 1/4. (iii) There are 4 kings and 26 black cards, of which 2 kings are already black, so the count is 4 + (26 − 2) = 28 and P(a king or a black card) = 28/52 = 7/13.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2012, 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "In part (iii) the printed solution counts 4 kings and 26 − 2 = 24 black non-king cards for 28 favourable outcomes, which answers the question as asked, but it mislabels the line as 'P(a black king or a red queen)' — a leftover from question 123. The count 28/52 = 7/13 is correct."
+  },
+  {
+   "number": "127",
+   "form": "short",
+   "marks": 3,
+   "page": 23,
+   "stem": "Two dice are numbered 1, 2, 3, 4, 5, 6 and 1, 1, 2, 2, 3, 3 respectively. They are thrown and the sum of the numbers on them is noted. What is the probability of getting even sum :",
+   "answer": "Each die has six faces, so n(S) = 6 × 6 = 36. The sum is even when both numbers are odd or both are even. The first die shows an odd number in 3 ways (1, 3, 5) and the second in 4 ways (1, 1, 3, 3), giving 12 outcomes; the first die shows an even number in 3 ways (2, 4, 6) and the second in 2 ways (2, 2), giving 6 outcomes. Hence n(E) = 12 + 6 = 18 and P(even sum) = 18/36 = 1/2.",
+   "concept": "Listing the outcomes",
+   "section_heading": "THREE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No board/year tag is printed against this question."
+  },
+  {
+   "number": "128",
+   "form": "short",
+   "marks": 3,
+   "page": 23,
+   "stem": "Three unbiased coins are tossed together. Find the probability of getting :\n(i) at least two heads,\n(ii) almost two heads.",
+   "answer": "The sample space is {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}, so n(S) = 8. (i) At least two heads occurs for HHH, HHT, HTH and THH, so n(E₁) = 4 and P(at least two heads) = 4/8 = 1/2. (ii) At most two heads means every outcome except HHH, so n(E₂) = 7 and P(at most two heads) = 7/8.",
+   "concept": "An unbiased coin",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "'Almost two heads' is the book's wording for 'at most two heads'."
+  },
+  {
+   "number": "129",
+   "form": "short",
+   "marks": 3,
+   "page": 23,
+   "stem": "A bag contains 18 balls out of which x balls are red.\n(i) If one ball is drawn at random from the bag, what is the probability that it is not red ?\n(ii) If 2 more red balls are put in the bag, the probability of drawing a red ball will be 9/8 times the probability of drawing a red ball in the first case. Find the value of x.",
+   "answer": "(i) With 18 balls of which x are red, P(red) = x/18, so P(not red) = 1 − x/18 = (18 − x)/18. (ii) After adding 2 red balls the bag holds 20 balls with x + 2 red, so the new probability is (x + 2)/20. The condition gives (x + 2)/20 = (9/8) × (x/18), that is 180x = 144x + 288, so 36x = 288 and x = 8. With x = 8 the probability of drawing a ball that is not red is (18 − 8)/18 = 10/18 = 5/9.",
+   "concept": "The event not E",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem and the first half of the solution are on image p023 (printed page 603); the solution finishes at the top of image p024 (printed page 604)."
+  },
+  {
+   "number": "130",
+   "form": "short",
+   "marks": 3,
+   "page": 24,
+   "stem": "Cards numbered 1 to 30 are put in a bag. A card is drawn at random. Find the probability that the drawn card is\n(i) prime number > 7\n(ii) not a perfect square",
+   "answer": "The bag holds 30 cards, so n(S) = 30. (i) The primes greater than 7 and at most 30 are 11, 13, 17, 19, 23 and 29, so n(E₁) = 6 and P(a prime greater than 7) = 6/30 = 1/5. (ii) The perfect squares are 1, 4, 9, 16 and 25, that is 5 cards, so 30 − 5 = 25 cards are not perfect squares and P(not a perfect square) = 25/30 = 5/6.",
+   "concept": "Using the complement",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "In part (ii) the book heads the list 1, 4, 9, 16, 25 as 'favourable outcomes' when those are the perfect squares it subtracts; it then uses n(E₂) = 25 correctly."
+  },
+  {
+   "number": "131",
+   "form": "short",
+   "marks": 3,
+   "page": 24,
+   "stem": "Two dice are thrown at the same time. Find the probability of getting :\n(i) same number on both dice\n(ii) sum of two numbers appearing on both the dice is 8.",
+   "answer": "Two dice give n(S) = 36 outcomes. (i) The same number on both dice happens for (1, 1), (2, 2), (3, 3), (4, 4), (5, 5) and (6, 6), so n(E₁) = 6 and the probability is 6/36 = 1/6. (ii) A sum of 8 comes from (2, 6), (3, 5), (4, 4), (5, 3) and (6, 2), so n(E₂) = 5 and the probability is 5/36.",
+   "concept": "Listing the outcomes",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "132",
+   "form": "short",
+   "marks": 3,
+   "page": 24,
+   "stem": "Five cards, ten, Jack, Queen, King and Ace of diamonds are well shuffled. One card is picked up from them.\n(i) Find the probability that the drawn card is Queen.\n(ii) If Queen is put aside, then find the probability that the second card drawn is an ace.",
+   "answer": "(i) There are 5 cards, so n(S) = 5, and exactly one is the queen, giving P(queen) = 1/5. (ii) Once the queen is set aside only 4 cards remain, so n(S) = 4, and exactly one of them is the ace, giving P(the second card is an ace) = 1/4.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "133",
+   "form": "short",
+   "marks": 3,
+   "page": 24,
+   "stem": "From all the two digit numbers a number is chosen at random. Find the probability that the chosen number is a multiple of 7.",
+   "answer": "The two digit numbers are 10, 11, 12, …, 99, so n(S) = 90. The multiples of 7 among them are 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91 and 98, that is n(E) = 13. Hence P(a multiple of 7) = 13/90.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD Compt. 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem and the start of the solution are on image p024 (printed page 604); the final fraction is printed at the top of image p025 (printed page 605)."
+  },
+  {
+   "number": "134",
+   "form": "short",
+   "marks": 3,
+   "page": 25,
+   "stem": "A box contains cards, number 1 to 90. A card is drawn at random from the box. Find the probability that the selected card bears a :\n(i) Two digit number.\n(ii) Perfect square number",
+   "answer": "The box holds 90 cards, so n(S) = 90. (i) The one digit numbers are 1 to 9, so the two digit numbers number 90 − 9 = 81 and P(a two digit number) = 81/90 = 9/10. (ii) The perfect squares from 1 to 90 are 1, 4, 9, 16, 25, 36, 49, 64 and 81, that is 9 numbers, so P(a perfect square) = 9/90 = 1/10.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi Compt. 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "135",
+   "form": "short",
+   "marks": 3,
+   "page": 25,
+   "stem": "Two different dice are thrown together. Find the probability that the number obtained :\n(i) have a sum less than 7.\n(ii) have a product less than 16.\n(iii) is a doublet of odd numbers.",
+   "answer": "Two dice give n(S) = 36 outcomes. (i) A sum less than 7 means a sum of 2, 3, 4, 5 or 6, which happens in 1 + 2 + 3 + 4 + 5 = 15 ways, so P(sum less than 7) = 15/36 = 5/12. (ii) A product less than 16 occurs for every outcome with the first die 1 (6 outcomes) or 2 (6 outcomes), for (3, 1) to (3, 5), for (4, 1), (4, 2), (4, 3), for (5, 1), (5, 2), (5, 3) and for (6, 1), (6, 2), that is 6 + 6 + 5 + 3 + 3 + 2 = 25 outcomes, so P(product less than 16) = 25/36. (iii) The doublets of odd numbers are (1, 1), (3, 3) and (5, 5), so P(a doublet of odd numbers) = 3/36 = 1/12.",
+   "concept": "Listing the outcomes",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "In part (ii) the printed solution omits the outcome (1, 1) from its list, counts 24 favourable outcomes and prints 24/36 = 2/3. The product 1 × 1 = 1 is less than 16, so the correct count is 25 and the answer is 25/36; the book's arithmetic is self-consistent but its enumeration is incomplete, so this is a book error rather than a key-versus-solution conflict."
+  },
+  {
+   "number": "136",
+   "form": "long",
+   "marks": 5,
+   "page": 25,
+   "stem": "What is the probability that a randomly taken leap year has 52 Sundays?",
+   "answer": "A leap year has 366 days, and 366 ÷ 7 = 52.28, so it is made of 52 complete weeks plus 2 extra days. Every leap year therefore certainly contains 52 Sundays, and what remains to be decided is only whether the 2 leftover days bring a 53rd. The possible pairings of those 2 days are Sunday–Monday, Monday–Tuesday, Tuesday–Wednesday, Wednesday–Thursday, Thursday–Friday, Friday–Saturday and Saturday–Sunday, so n(S) = 7. Of these 7 equally likely pairs, 2 contain a Sunday and the remaining 5 do not, so n(A) = 5. Hence the probability that a leap year has exactly 52 Sundays is P(A) = 5/7.",
+   "concept": "Listing the outcomes",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 OD Standard"
+  },
+  {
+   "number": "137",
+   "form": "long",
+   "marks": 5,
+   "page": 26,
+   "stem": "Jayanti throws a pair of dice and records the product of the numbers appearing on the dice. Pihu throws 1 dice and records the squares the number that appears on it. Who has the better chance of getting the number 36? Justify?",
+   "answer": "Jayanti throws two dice, so n(S) = 6² = 36. A product of 36 arises only from (6, 6), so n(E₁) = 1 and P(E₁) = 1/36. Pihu throws one die, so n(S) = 6. The only number whose square is 36 is 6, so n(E₂) = 1 and P(E₂) = 1/6. Since 1/6 > 1/36, P(E₂) > P(E₁). Hence Pihu has the better chance of getting the number 36.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 SQP Standard",
+   "ocr": "The printed solution labels Jayanti's line 'P(getting the numbers of product 25)' — a slip copied from the next question; every figure used is for 36 and the stated conclusion names Pihu."
+  },
+  {
+   "number": "138",
+   "form": "long",
+   "marks": 5,
+   "page": 26,
+   "stem": "Peter throws two different dice together and finds the product of the two numbers obtained. Rina throws a die and squares the number obtained. Who has the better chance to get the numbers 25.",
+   "answer": "Peter throws two dice, so n(S) = 6² = 36. The product 25 occurs only for (5, 5), so n(E₁) = 1 and P(E₁) = 1/36. Rina throws one die, so n(S) = 6. The only number whose square is 25 is 5, so n(E₂) = 1 and P(E₂) = 1/6. Since 1/6 > 1/36, P(E₂) > P(E₁). Hence Rina has the better chance of getting the number 25.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2017"
+  },
+  {
+   "number": "139",
+   "form": "long",
+   "marks": 5,
+   "page": 26,
+   "stem": "The probability of selecting a blue marble at random from a jar that contains only blue, black and green marbles is 1/5. The probability of selecting a black marble at random from the same jar is 1/4. If the jar contains 11 green marbles, find the total number of marbles in the jar.",
+   "answer": "Let x be the number of blue marbles and y the number of black marbles. With 11 green marbles the total is x + y + 11. From P(black) = 1/4 we get y/(x + y + 11) = 1/4, which rearranges to x = 3y − 11. …(1) From P(blue) = 1/5 we get x/(x + y + 11) = 1/5, so 5x = x + y + 11 and x = (y + 11)/4. …(2) Equating (1) and (2): 3y − 11 = (y + 11)/4 ⇒ 12y − 44 = y + 11 ⇒ 11y = 55 ⇒ y = 5. Then from (1), x = 3 × 5 − 11 = 4. Hence the total number of marbles in the jar is x + y + 11 = 4 + 5 + 11 = 20.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD"
+  },
+  {
+   "number": "140",
+   "form": "long",
+   "marks": 5,
+   "page": 26,
+   "stem": "Cards marked with numbers 3, 4, 5, .........50 are placed in a bag and mixed thoroughly. One card is drawn at random from the bag. Find the probability that number on the card drawn is :\n(i) Divisible by 7.\n(ii) A perfect square.\n(iii) A multiple of 6.",
+   "answer": "The bag holds the numbers 3 to 50, that is 48 cards, so n(S) = 48. (i) The multiples of 7 in this range are 7, 14, 21, 28, 35, 42 and 49, so n(E₁) = 7 and P(E₁) = 7/48. (ii) The perfect squares in this range are 4, 9, 16, 25, 36 and 49, so n(E₂) = 6 and P(E₂) = 6/48 = 1/8. (iii) The multiples of 6 in this range are 6, 12, 18, 24, 30, 36, 42 and 48, so n(E₃) = 8 and P(E₃) = 8/48 = 1/6.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 SQP 2016",
+   "ocr": "Two slips in the printed solution. The divisible-by-7 list prints 35 twice (the stated count 7 is still right). In part (iii) the printed line reads n(E₃) = 6 and the list omits 18, yet the final computation is 8/48 = 1/6. The worked result wins and is also mathematically correct — there are 8 multiples of 6 from 3 to 50 — so I recorded 1/6. Counted in contradicted_keys."
+  },
+  {
+   "number": "141",
+   "form": "long",
+   "marks": 5,
+   "page": 27,
+   "stem": "All the red face cards are removed from a pack of 52 playing cards. A card is drawn at random from the remaining cards, after reshuffling them. Find the probability that the drawn card is\n(i) of red colour\n(ii) a queen\n(iii) an ace\n(iv) a face card.",
+   "answer": "Removing the 6 red face cards leaves 52 − 6 = 46 cards, so n(S) = 46. (i) Red cards remaining = 26 − 6 = 20, so P(E₁) = 20/46 = 10/23. (ii) Queens remaining = 4 − 2 = 2, so P(E₂) = 2/46 = 1/23. (iii) No ace was removed, so there are 4 aces and P(E₃) = 4/46 = 2/23. (iv) Face cards remaining = 12 − 6 = 6, so P(E₄) = 6/46 = 3/23.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2015",
+   "ocr": "The printed solution's opening sentence says 'after removing black face cards' and then writes '48 possible outcomes' beside n(S) = 46. Both are slips: every computation uses 46 cards and the red face cards, matching the question."
+  },
+  {
+   "number": "142",
+   "form": "long",
+   "marks": 5,
+   "page": 27,
+   "stem": "A box contains 20 cards from 1 to 20. A card is drawn at random from the box. Find the probability that the number on the drawn card is\n(i) divisible by 2 or 3\n(ii) a prime number",
+   "answer": "There are 20 cards, so n(S) = 20. (i) The printed solution takes the numbers divisible by both 2 and 3, namely 6, 12 and 18, giving n(E₁) = 3 and P(E₁) = 3/20. (ii) The prime numbers from 1 to 20 are 2, 3, 5, 7, 11, 13, 17 and 19, that is 8 numbers, so n(E₂) = 8 and P(E₂) = 8/20 = 2/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2015",
+   "ocr": "Part (i) as printed is inconsistent with its own stem. The stem asks for 'divisible by 2 or 3' but the solution lists only 6, 12 and 18 (the multiples of 6) and answers 3/20. Read as an inclusive 'or' the count is 10 + 6 − 3 = 13, giving 13/20. Under rule 6 the worked solution wins, so I recorded 3/20 and flag the conflict. Counted in contradicted_keys."
+  },
+  {
+   "number": "143",
+   "form": "long",
+   "marks": 5,
+   "page": 28,
+   "stem": "A box contains cards bearing numbers from 6 to 70. If one card is drawn at random from the box, find the probability that it bears,\n(i) a one digit number.\n(ii) a number divisible by 5.\n(iii) an odd number less than 30.\n(iv) a composite number between 50 and 70.",
+   "answer": "The cards run from 6 to 70, so there are 70 − 5 = 65 cards and n(S) = 65. (i) The one digit numbers are 6, 7, 8 and 9, so n(E₁) = 4 and P(E₁) = 4/65. (ii) The numbers divisible by 5 are 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65 and 70, that is 13 numbers, so P(E₂) = 13/65 = 1/5. (iii) The odd numbers less than 30 are 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27 and 29, that is 12 numbers, so P(E₃) = 12/65. (iv) The composite numbers between 50 and 70 are 51, 52, 54, 55, 56, 57, 58, 60, 62, 63, 64, 65, 66, 68 and 69, that is 15 numbers, so P(E₄) = 15/65 = 3/13.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "ocr": "The printed list in part (iii) drops 21 and runs '19 23' together, but the stated count n(E₃) = 12 and the answer 12/65 are correct."
+  },
+  {
+   "number": "144",
+   "form": "long",
+   "marks": 5,
+   "page": 28,
+   "stem": "A card is drawn at random from a well-shuffled deck of playing cards. Find the probability that the card drawn is :\n(i) a card of spade or an ace.\n(ii) a black king.\n(iii) neither a jack nor a king.\n(iv) either a king or a queen.",
+   "answer": "A full deck gives n(S) = 52. (i) There are 13 spades and, outside them, 3 more aces, so n(E₁) = 13 + 3 = 16 and P(E₁) = 16/52 = 4/13. (ii) There are 2 black kings, so P(E₂) = 2/52 = 1/26. (iii) There are 4 jacks and 4 kings, that is 8 cards to exclude, so n(E₃) = 52 − 8 = 44 and P(E₃) = 44/52 = 11/13. (iv) There are 4 kings and 4 queens, so n(E₄) = 8 and P(E₄) = 8/52 = 2/13.",
+   "concept": "Using the complement",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2015"
+  },
+  {
+   "number": "145",
+   "form": "long",
+   "marks": 5,
+   "page": 28,
+   "stem": "A bag contains 15 balls of which x are blue and the remaining are red. If the number of red balls are increased by 5, the probability of drawing the red balls doubles. Find :\n(i) P(red ball)\n(ii) P(blue ball)\n(iii) P(blue ball if of 5 extra red balls are actually added)",
+   "answer": "With 15 balls in all, n(B) = x and n(R) = 15 − x, so P(R) = (15 − x)/15. When 5 red balls are added the total becomes n(S′) = 20 and the red count n(R′) = 20 − x, so P(R′) = (20 − x)/20. The condition P(R′) = 2P(R) gives (20 − x)/20 = 2(15 − x)/15, i.e. 1 − x/20 = 2 − 2x/15, so 2x/15 − x/20 = 1, (8x − 3x)/60 = 1, 5x = 60 and x = 12. (i) P(red ball) = (15 − 12)/15 = 3/15 = 1/5. (ii) P(blue ball) = 12/15 = 4/5. (iii) After the 5 extra red balls are added the printed solution computes (3 + 5)/(15 + 5) = 8/20 = 2/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2015",
+   "ocr": "Part (iii) asks for the blue-ball probability once 5 red balls are actually added, which is 12/20 = 3/5, but the printed solution computes (3 + 5)/(15 + 5) = 2/5 and labels it P′(R) — that is the RED-ball probability. Under rule 6 the worked solution wins, so I recorded 2/5 and flag the conflict. Counted in contradicted_keys."
+  },
+  {
+   "number": "146",
+   "form": "long",
+   "marks": 5,
+   "page": 29,
+   "stem": "Three digit number are made using the digits 4, 5, 9 (without repetition). If a number among them is selected at random, what is the probability that the number will :\n(i) be a multiple of 5 ?\n(ii) be a multiple of 9 ?\n(iii) will end with 9 ?",
+   "answer": "The three digit numbers formed from 4, 5 and 9 without repetition are 459, 495, 549, 594, 945 and 954, so n(S) = 6. (i) The multiples of 5 are those ending in 5, namely 495 and 945, so n(E₁) = 2 and P(E₁) = 2/6 = 1/3. (ii) The digit sum is 4 + 5 + 9 = 18 in every case, so all six numbers are multiples of 9, n(E₂) = 6 and P(E₂) = 6/6 = 1. (iii) The numbers ending with 9 are 459 and 549, so n(E₃) = 2 and P(E₃) = 2/6 = 1/3.",
+   "concept": "Listing the outcomes",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2014"
+  },
+  {
+   "number": "147",
+   "form": "long",
+   "marks": 5,
+   "page": 29,
+   "stem": "A number x is selected at random from the numbers 1, 2, 3 and 4. Another number y is selected at random from the numbers 1, 4, 9 and 16. Find the probability that product of x and y is less than 16.",
+   "answer": "Each of the 4 choices of x pairs with each of the 4 choices of y, so n(S) = 16. The 16 products are 1, 2, 3, 4; 4, 8, 12, 16; 9, 18, 27, 36; and 16, 32, 48, 64. Those less than 16 are 1, 2, 3, 4, 4, 8, 9 and 12, so n(E) = 8. Hence P(product of x and y is less than 16) = 8/16 = 1/2.",
+   "concept": "Listing the outcomes",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "ocr": "The printed solution shows the 4×4 product grid; the grid belongs to the working, not to the question, so it is not reproduced in the stem."
+  },
+  {
+   "number": "148",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "Two different dice are rolled together once. Find the probability of numbers coming on the tops whose product is a perfect square.",
+   "answer": "Rolling two dice gives n(S) = 36. The pairs whose product is a perfect square are (1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6), (1, 4) and (4, 1), so n(E) = 8. Hence P(product is a perfect square) = 8/36 = 2/9.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD Compt. 2017"
+  },
+  {
+   "number": "149",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "A box contains 90 discs which are numbered 1 to 90. If one disc is drawn at random from the box, find the probability that it bears\n(i) a two digit number,\n(ii) number divisible by 5.",
+   "answer": "There are 90 discs, so n(S) = 90. (i) The two digit numbers are 10, 11, …, 89, 90, that is 81 numbers, so n(E₁) = 81 and P(E₁) = 81/90 = 9/10. (ii) The numbers divisible by 5 are 5, 10, 15, …, 85, 90, that is 18 numbers, so n(E₂) = 18 and P(E₂) = 18/90 = 1/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2017"
+  },
+  {
+   "number": "150",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "Cards on which numbers 1, 2, 3 .......... 100 are written (one number on one card and no number is repeated), put in a bag and are mixed thoroughly. A card is drawn at random from the bag. Find the probability that card taken out has\n(i) an even number\n(ii) a number which is a multiple of 13.\n(iii) a perfect square number.\n(iv) a prime number less than 20.",
+   "answer": "There are 100 cards, so n(S) = 100. (i) The even numbers from 1 to 100 are 50 in number, so P(E₁) = 50/100 = 1/2. (ii) The multiples of 13 are 13, 26, 39, 52, 65, 78 and 91, that is 7 numbers, so P(E₂) = 7/100. (iii) The perfect squares are 1, 4, 9, 16, 25, 36, 49, 64, 81 and 100, that is 10 numbers, so P(E₃) = 10/100 = 1/10. (iv) The primes less than 20 are 2, 3, 5, 7, 11, 13, 17 and 19, that is 8 numbers, so P(E₄) = 8/100 = 2/25.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi Compt 2017"
+  },
+  {
+   "number": "151",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "Two different dice are thrown together. Find the probability that the numbers obtained have\n(i) even sum, and\n(ii) even product.",
+   "answer": "Rolling two dice gives n(S) = 36. (i) The sum is even when both numbers are odd or both are even; there are 3 × 3 = 9 pairs of each kind, so n(E₁) = 18 and P(even sum) = 18/36 = 1/2, or 0.5. (ii) The product is even unless both numbers are odd; the odd–odd pairs number 3 × 3 = 9, so n(E₂) = 36 − 9 = 27 and P(even product) = 27/36 = 3/4, or 0.75.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "ocr": "No board tag is printed for this question. The printed solution labels the second probability line 'P(have a product less than 16)' — a slip; the count 27 and the closing sentence both refer to an even product."
+  },
+  {
+   "number": "152",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "stem": "From a deck of 52 playing cards, Jacks and kings of red colour and Queen and Aces of black colour are removed. The remaining cards are mixed and a card is drown at random. Find the probability that the drawn card is\n(i) a black queen\n(ii) a card of red colour\n(iii) a Jack of black colour\n(iv) a face card",
+   "answer": "The cards removed are 2 red jacks, 2 red kings, 2 black queens and 2 black aces, so 52 − (2 + 2 + 2 + 2) = 44 cards remain and n(S) = 44. (i) Both black queens were removed, so n(E₁) = 0 and P(E₁) = 0/44 = 0; getting a black queen is an impossible event. (ii) The red cards lost are the 2 red jacks and 2 red kings, so n(E₂) = 26 − 4 = 22 and P(E₂) = 22/44 = 1/2. (iii) Both black jacks remain, so n(E₃) = 2 and P(E₃) = 2/44 = 1/22. (iv) The face cards lost are 2 red jacks, 2 red kings and 2 black queens, so n(E₄) = 12 − 6 = 6 and P(E₄) = 6/44 = 3/22.",
+   "concept": "Impossible event",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD Compt 2017"
+  },
+  {
+   "number": "153",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "stem": "A bag contains 20 balls out of which x balls are red.\n(i) If one ball is drawn at random from the bag, find the probability that it is not red.\n(ii) If 4 more red balls are out into the bag, the probability of drawing a red ball will be 5/4 times the probability of drawing a red ball in the first case. Find the value of x.",
+   "answer": "With n(S) = 20 and n(R) = x, P(R) = x/20, so P(R̄) = 1 − x/20 = (20 − x)/20. …(1) When 4 more red balls are put in, n′(S) = 24 and n′(R) = x + 4, so P′(R) = (x + 4)/24. The given condition P′(R) = (5/4) × P(R) gives (x + 4)/24 = (5/4) × (x/20) = x/16, hence 16x + 64 = 24x, 8x = 64 and x = 8. Substituting x = 8 in (1), the probability that the ball drawn in the first case is not red is (20 − 8)/20 = 12/20 = 3/5.",
+   "concept": "The event not E",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "ocr": "The printed stem reads '4 more red balls are out into the bag' (a typo for 'put into'), kept as printed. The solution's line '(ii) Now two more red balls are added' is another slip — every step that follows uses 4 added balls."
+  },
+  {
+   "number": "154",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "stem": "In Figure a disc on which a player spins an arrow twice. The fraction a/b is formed, where a is the number of sector on which arrow stops on the first spin and 'b' is the number of the sector in which the arrow stops on second spin, On each spin, each sector has equal chance of selection by the arrow.\nFind the probability that the fraction a/b > 1",
+   "answer": "Each spin lands on one of the six sectors, so the two spins give n(S) = 6 × 6 = 36 equally likely outcomes. The fraction a/b is greater than 1 exactly when b < a. For a = 1 there is no such b; for a = 2 there is 1 value (b = 1); for a = 3, 2 values (1, 2); for a = 4, 3 values (1, 2, 3); for a = 5, 4 values (1, 2, 3, 4); and for a = 6, 5 values (1, 2, 3, 4, 5). Hence n(E) = 0 + 1 + 2 + 3 + 4 + 5 = 15 and P(a/b > 1) = 15/36 = 5/12.",
+   "concept": "Listing the outcomes",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [
+    "ch14_q154.png"
+   ],
+   "figure_required": true
+  },
+  {
+   "number": "155",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "stem": "A bag contains 25 cards numbered from 1 to 25. A card is drawn at random from the bag. Find the probability that the number on the drawn card is :\n(i) divisible by 3 or 5\n(ii) a perfect square number.",
+   "answer": "There are 25 cards, so n(S) = 25. (i) The multiples of 3 are 3, 6, 9, 12, 15, 18, 21 and 24, and the multiples of 5 are 5, 10, 15, 20 and 25; 15 appears in both lists, so the count of numbers divisible by 3 or 5 is 8 + 5 − 1 = 12, giving n(E₁) = 12 and P(E₁) = 12/25. (ii) The perfect squares from 1 to 25 are 1, 4, 9, 16 and 25, so n(E₂) = 5 and P(E₂) = 5/25 = 1/5.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2015",
+   "ocr": "The printed list of multiples of 3 prints 16 in place of 18, but the stated count n(E₁) = 12 and the answer 12/25 are correct."
+  },
+  {
+   "number": "156",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "stem": "A dice is rolled twice. Find the probability that :\n(i) 5 will not come up either time.\n(ii) 5 will come up exactly one time.",
+   "answer": "Rolling a die twice gives n(S) = 6² = 36. (i) If 5 is to appear on neither roll, each roll has the 5 remaining faces available, so n(E₁) = 5 × 5 = 25 and P(E₁) = 25/36. (ii) Exactly one 5 occurs in (1, 5), (2, 5), (3, 5), (4, 5), (5, 1), (5, 2), (5, 3), (5, 4), (5, 6) and (6, 5), so n(E₂) = 10 and P(E₂) = 10/36 = 5/18.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2014"
+  },
+  {
+   "number": "157",
+   "form": "case_study",
+   "marks": 4,
+   "page": 32,
+   "stem": "“Eight Ball” is a game played on a pool table with 15 balls numbered 1 to 15 and a “cue ball” that is solid and white. Of the 15 numbered balls, eight are solid (non-white) coloured and numbered 1 to 8 and seven are striped balls numbered 9 to 15.\nThe 15 numbered pool balls (no cue ball) are placed in a large bowl and mixed, then one ball is drawn out at random.\nBased on the above information, answer the following question :\n(i) What is the probability that the drawn ball bears number 8?\n(ii) What is probability that the drawn ball bears an even number?\n(iii) What is the probability that the drawn ball bears a number, which is a multiple of 3?\n(iv) What is the probability that the drawn ball is a solid coloured and bears an even number?",
+   "answer": "Total number of balls in the bowl is 15, so n(S) = 15.\n(i) Only one ball bears the number 8, so n(E) = 1 and P(drawing the ball numbered 8) = 1/15.\n(ii) The even-numbered balls are 2, 4, 6, 8, 10, 12 and 14, so n(E) = 7 and P(an even number) = 7/15.\n(iii) The multiples of 3 are 3, 6, 9, 12 and 15, so n(E) = 5 and P(a multiple of 3) = 5/15 = 1/3.\n(iv) The solid coloured balls are numbered 1 to 8, and among these the even ones are 2, 4, 6 and 8, so n(E) = 4 and P(a solid coloured ball bearing an even number) = 4/15.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "COMPETENCEY BASED QUESTIONS | Board 2023 OD Standard",
+   "images": [
+    "mch14_q157.png"
+   ],
+   "figure_required": false,
+   "ocr": "recovered by the gap pass: printed under the COMPETENCEY BASED QUESTIONS heading, which fell mid-range and was skipped. Question begins on p032 and the sub-parts and solution continue on p033. Form is case_study/4 - passage with sub-parts (i)-(iv); the board tag [Board 2023 OD Standard] printed on the Sol line is carried in section_heading. Two print slips repaired: the stem prints '15 balls numbered 1 to 151' where 15 is meant (the rest of the stem and the whole solution use 1 to 15), and sub-part (iv) prints 'bears an .even number' with a stray full stop. The pool-table photograph is scene-setting only - every number needed is stated in the text - so it is attached with figure_required false."
+  },
+  {
+   "number": "158",
+   "form": "case_study",
+   "marks": 4,
+   "page": 33,
+   "stem": "Political survey questions are questions asked to gather the opinions and attitudes of potential voters. Political survey questions help you identify supporters and understand what the public needs. Using such questions, a political candidate or an organization can formulate policies to gain support from these people.\nA survey of 100 voters was taken to gather information on critical issues and the demographic information collected is shown in the table. One out of the 100 voters is to be drawn at random to be interviewed on the India Today News on prime time.\n<table><tr><td></td><td>Women</td><td>Men</td><td>Totals</td></tr><tr><td>Republican</td><td>17</td><td>20</td><td>37</td></tr><tr><td>Democrat</td><td>22</td><td>17</td><td>39</td></tr><tr><td>Independent</td><td>8</td><td>7</td><td>15</td></tr><tr><td>Green Party</td><td>6</td><td>3</td><td>5</td></tr><tr><td>Totals</td><td>53</td><td>47</td><td>100</td></tr></table>\n(i) What is the probability the person is a woman or a Republican ?\n(ii) What is the probability the person is a Democrat ?\n(iii) What is the probability the person is a Independent men ?\n(iv) What is the probability the person is a Independent men or green party men ?\n(v) What is the probability the person is not a Independent Women or Republican men ?",
+   "answer": "Total possible outcomes in all cases is 100, because there are 100 persons in all and one of them is to be selected for the interview, so n(S) = 100.\n(i) Let E₁ be the event that the selected person is a woman or a Republican. There are 53 women, and the Republicans who are not women are the 20 Republican men, so n(E₁) = 53 + 20 = 73 and P(E₁) = 73/100 = 0.73.\n(ii) Let E₂ be the event that the person is a Democrat. n(E₂) = 39, so P(E₂) = 39/100 = 0.39.\n(iii) Let E₃ be the event that the person is an Independent man. n(E₃) = 7, so P(E₃) = 7/100 = 0.07.\n(iv) Let E₄ be the event that the person is an Independent man or a Green Party man. n(E₄) = 7 + 3 = 10, so P(E₄) = 10/100 = 0.1.\n(v) Let E₅ be the event that the person is not an Independent woman and not a Republican man. There are 8 Independent women and 20 Republican men, so n(E₅) = 100 − (8 + 20) = 72 and P(E₅) = 72/100 = 0.72.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "mch14_q158.png"
+   ],
+   "figure_required": false,
+   "ocr": "recovered by the gap pass: printed under the COMPETENCEY BASED QUESTIONS heading, which fell mid-range and was skipped. Question and table are on p033, the solution runs from p033 into p034. No board/year tag is printed. Form is case_study/4 - passage plus table with sub-parts (i)-(v). The printed table is kept verbatim although it is internally inconsistent: the Green Party row reads 6 women and 3 men but gives a row total of 5, and the Totals column then adds to 96 rather than the stated 100; with the correct Green Party total of 9 the column adds to 100. The worked solution uses n(S) = 100 and the individual cells, never the Green Party row total, so nothing in the answers depends on the misprint. The ballot illustration is decorative, so it is attached with figure_required false."
+  },
+  {
+   "number": "159",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "stem": "A large water bottling plant can remain at full production as long as one of its two generators is functioning. Due to past experience and the age difference between the systems, the plant manager estimates the probability of the main generator failing is 0.05, the probability of the secondary generator failing is 0.01, and the probability of both failing is 0.007. What is the probability the plant remains in full production today?",
+   "answer": "The plant stops full production only when BOTH generators fail, so the event “plant remains in full production” is the complement of the event “both generators fail”. Hence P(full production) = 1 − P(both generators fail) = 1 − 0.007 = 0.993. There is a 99.3 % probability that the plant remains in full production today.",
+   "concept": "Using the complement",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The individual failure probabilities 0.05 and 0.01 are distractors; only P(both fail) = 0.007 is used. The photograph beside the question is decorative, so no figure is attached."
+  },
+  {
+   "number": "160",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "stem": "A hydrofoil is a lifting surface, or foil, that operates in water. They are similar in appearance and purpose to aerofoils used by aeroplanes. Boats that use hydrofoil technology are also simply termed hydrofoils. As a hydrofoil craft gains speed, the hydrofoils lift the boat’s hull out of the water, decreasing drag and allowing greater speeds.\nInter-Island Waterways has just opened hydrofoil service between several islands. The hydrofoil is powered by two engines, one forward and one aft, and will operate if either of its two engines is functioning. Due to testing and past experience, the company knows the probability of the aft engine failing is P(aft engine fails) = 0.05, the probability of the forward engine failing is P(forward engine fails) = 0.03, and the probability that both fail is P(both engines simultaneously fail) = 0.013. What is the probability the hydrofoil completes its next trip?",
+   "answer": "The trip fails only if BOTH engines fail, so “trip is completed” and “both engines simultaneously fail” are complementary events. P(trip is completed) = 1 − P(both engines simultaneously fail) = 1 − 0.013 = 0.987. There is a 98.7 % probability that the hydrofoil completes its next trip.",
+   "concept": "Using the complement",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Key contradicts its own working: the book computes 1 − 0.013 = 0.987 and then states “There is 99.7% probability the trip will be completed”. 0.987 is 98.7 %, so the worked computation wins and the answer is given as 0.987 (98.7 %). Photograph is decorative."
+  },
+  {
+   "number": "161",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "stem": "A fire station gets an emergency call from a shopping mall in the mid-afternoon. From a study of traffic patterns, Chief fire officer DK Jain knows the probability the most direct route is clogged with traffic is 0.11, while the probability of the secondary route being clogged is 0.13. The probability both are clogged is 0.03. What is the probability they can respond to the call unimpeded using one of these routes?",
+   "answer": "The response is impeded only when BOTH routes are clogged, so “they can respond unimpeded by one of the routes” is the complement of “both routes are clogged”. P(respond unimpeded) = 1 − P(both routes clogged) = 1 − 0.03 = 0.97. There is a 97 % probability that the fire station can respond to the call unimpeded using one of these routes.",
+   "concept": "Using the complement",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Key contradicts its own working: the book computes 1 − 0.03 = 0.97 and then states “There is 98 % probability”. 0.97 is 97 %, so the computation wins. The book also misprints “Resnose” for “Response”. Illustration is decorative."
+  },
+  {
+   "number": "162",
+   "form": "long",
+   "marks": 5,
+   "page": 35,
+   "stem": "Eight Ball : This is a game played on a pool table with 15 balls numbered 1 through 15 and a cue ball that is solid white. Of the 15 numbered balls, 8 are a solid (nonwhite) color and numbered 1 through 8, and seven are striped balls numbered 9 through 15.\nThe fifteen numbered pool balls (no cueball) are placed in a large bowl and mixed, then one is drawn out.\n(i) What is the probability of drawing the eight ball ?\n(ii) What is the probability of drawing a number greater than fifteen ?\n(iii) What is the probability of drawing an even number ?\n(iv) What is the probability of drawing a multiple of three ?\n(v) What is the probability of drawing a solid color and an even number ?",
+   "answer": "One ball is drawn from 15, so n(S) = 15 in every part.\n(i) Exactly one ball carries the number 8, so n(E₁) = 1 and P = 1/15.\n(ii) No ball carries a number greater than 15, so n(E₂) = 0 and P = 0/15 = 0 — an impossible event.\n(iii) The even numbers are 2, 4, 6, 8, 10, 12, 14, so n(E₃) = 7 and P = 7/15.\n(iv) The multiples of three are 3, 6, 9, 12, 15, so n(E₄) = 5 and P = 5/15 = 1/3.\n(v) Solid balls are numbered 1 to 8, and those that are even are 2, 4, 6, 8, so n(E₅) = 4 and P = 4/15.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Photograph of the pool table is decorative; the numbering needed is stated in the text, so no figure is attached."
+  },
+  {
+   "number": "163",
+   "form": "long",
+   "marks": 5,
+   "page": 36,
+   "stem": "Double-six Dominos : It is a game played with the 28 numbered tiles shown in the diagram.\nThe 28 dominos are placed in a bag, shuffled, and then one domino is randomly drawn. Give the following answer.\n(i) What is the probability the total number of dots on the domino is three or less ?\n(ii) What is the probability the total number of dots on the domino is greater than three ?\n(iii) What is the probability the total number of dots on the domino does not have a blank half ?\n(iv) What is the probability the total number of dots on the domino is not a “double” (both sides the same) ?",
+   "answer": "One tile is drawn from the 28 tiles of a double-six set, so n(S) = 28 in every part.\n(i) The tiles whose dots total three or less are 0–0, 0–1, 0–2, 0–3, 1–1 and 1–2 — six tiles. So P(total ≤ 3) = 6/28 = 3/14.\n(ii) “Total greater than three” is the complement of part (i): P = 1 − 3/14 = 11/14 (equivalently 22/28).\n(iii) Seven tiles have a blank half (0–0 to 0–6), so P(has a blank half) = 7/28 = 1/4 and P(does not have a blank half) = 1 − 1/4 = 3/4.\n(iv) The doubles are 0–0, 1–1, 2–2, 3–3, 4–4, 5–5, 6–6 — seven tiles, so P(double) = 7/28 = 1/4 and P(not a double) = 1 − 1/4 = 3/4.",
+   "concept": "Using the complement",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch14_q163.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question refers to “the 28 numbered tiles shown in the diagram”, so the printed line drawing of all 28 dominos is attached. In parts (iii) and (iv) the book writes the complement step as 1 − 1/3 = 3/4 — an arithmetic slip for 1 − 1/4; its stated results 3/4 are correct and are what is recorded here."
+  },
+  {
+   "number": "164",
+   "form": "long",
+   "marks": 5,
+   "page": 36,
+   "stem": "Family Structures : For a recent year, 51% of the families in the United States had no children under the age of 18; 20% had one child; 19% had two children; 7% had three children; and 3% had four or more children. If a family is selected at random, find the following probability.\n(i) Find the probability that the family has two or three children.\n(ii) Find the probability that the family has more than one child.\n(iii) Find the probability that the family has less than three children.\n(iv) Based on the answers to parts (i), (ii) and (iii) which is most likely to occur? Explain why.",
+   "answer": "Treat the percentages as frequencies out of 100 families, so n(S) = 100.\n(i) Two or three children: 19 + 7 = 26 families, so P = 26/100 = 0.26.\n(ii) More than one child means two, three, or four or more: 19 + 7 + 3 = 29 families, so P = 29/100 = 0.29.\n(iii) Less than three children means none, one or two: 51 + 20 + 19 = 90 families, so P = 90/100 = 0.90.\n(iv) The event in part (iii) — the family has less than three children — is most likely to occur, because its probability 0.90 is the largest of the three.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The frequency table the book prints appears inside the worked solution, not in the question, so it is not carried into the stem. Illustration is decorative."
+  },
+  {
+   "number": "165",
+   "form": "long",
+   "marks": 5,
+   "page": 37,
+   "stem": "Abhinav Bindra is retired sport shooter and currently India’s only individual Olympic gold medalist. His gold in the 10-meter air rifle event at the 2008 Summer Olympics was also India’s first Olympic gold medal since 1980. He is the first Indian to have held concurrently the world and Olympic titles for the men’s 10-meter air rifle event, having earned those honors at the 2008 Summer Olympics and the 2006 ISSF World Shooting Championships. Bindra has also won nine medals at the Commonwealth Games and three gold medals at the Asian Games.\nA circular dartboard has a total radius of 8 inch, with circular bands that are 2 inch wide, as shown in figure. Abhinav is still skilled enough to hit this board 100% of the time so he always score at least two points each time he throw a dart. Assume the probabilities are related to area, on the next dart that he throw.\n(i) What is the probability that he score at least 4 ?\n(ii) What is the probability that he score at least 6 ?\n(iii) What is the probability that he hit bull’s eye ?\n(iv) What is the probability that he score exactly 4 points ?",
+   "answer": "The dart always lands on the board, so the sample space is the whole board of radius 8 inch: n(S) = π × 8² in².\n(i) Scoring at least 4 means landing inside the circle of radius 6 inch, of area π × 6². So P = π6²/π8² = 36/64 = 9/16.\n(ii) Scoring at least 6 means landing inside the circle of radius 4 inch, of area π × 4². So P = π4²/π8² = 16/64 = 1/4.\n(iii) The bull’s eye is the central circle of radius 2 inch, of area π × 2². So P = π2²/π8² = 4/64 = 1/16.\n(iv) Scoring exactly 4 means landing in the band between radius 4 inch and radius 6 inch, of area π(6² − 4²). So P = π(6² − 4²)/π8² = 20/64 = 5/16.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch14_q165.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question says “as shown in figure” and the scores 2, 4, 6, 8 are only readable from the ring diagram, so the printed dartboard is attached. The portrait photograph is decorative."
+  },
+  {
+   "number": "166",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "stem": "Apurvi Singh Chandela is an Indian Shooting player who competes in the 10 metre air rifle event. She won the gold medal in the 2019 ISSF World Cup in New Delhi. She is the world champion and currently ranked number one in 10 metre air rifle shooting. She is a recipient of Arjuna award.\nApurvi is able to hit a 10 in. by 20 in. target 100% of the time at a range of 100 metre. Assuming the probability she hits a target is related to its area, what is the probability she hits the shaded portions shown?",
+   "answer": "Every shot lands on the 10 in. × 20 in. rectangle, so the sample space is its area: n(S) = 10 × 20 = 200 in².\n(i) Isosceles triangle on the 20 inch base with height 10 inch: area = ½ × 20 × 10 = 100 in², so P = 100/200 = 1/2.\n(ii) Right triangle on the 20 inch base with height 10 inch: area = ½ × 20 × 10 = 100 in², so P = 100/200 = 1/2.\n(iii) Equilateral triangle of side 10 inch: area = (√3/4) × 10² = 25√3 in², so P = 25√3/200 = √3/8.\n(iv) Isosceles trapezoid with the shorter parallel side b = B/2, that is parallel sides 20 inch and 10 inch and height 10 inch: area = ½ × 10 × (20 + 20/2) = 150 in², so P = 150/200 = 3/4.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch14_q166.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question asks only for “the shaded portions shown”, so the four printed diagrams (i)–(iv) are indispensable and are attached. The photograph of the shooter is decorative."
+  },
+  {
+   "number": "167",
+   "form": "long",
+   "marks": 5,
+   "page": 39,
+   "stem": "Blood Group : Blood type or blood group is a medical term. It describes the type of blood a person has. It is a classification of blood based on the presence or absence of inherited antigenic substances on the surface of red blood cells (RBCs). Blood types predict whether a serious reaction will occur in a blood transfusion.\nIn a sample of 50 people, 21 had type O blood, 22 had type A blood, 5 had type B blood, and 2 had type AB blood. Set up a frequency distribution and find the following probabilities.\n(i) What is the probability that a person has type O blood ?\n(ii) What is the probability that a person has type A or type B blood ?\n(iii) What is the probability that a person has neither type A nor type O blood ?\n(iv) What is the probability that a person does not have type AB blood ?",
+   "answer": "The frequency distribution is A : 22, B : 5, AB : 2, O : 21, total 50, so n(S) = 50.\n(i) Type O: n = 21, so P = 21/50 = 0.42.\n(ii) Type A or type B: n = 22 + 5 = 27, so P = 27/50 = 0.54.\n(iii) Neither type A nor type O means type B or type AB: n = 5 + 2 = 7, so P = 7/50 = 0.14.\n(iv) Use the complement. P(type AB) = 2/50 = 0.04, so P(not type AB) = 1 − 0.04 = 0.96.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "In part (iv) the book prints “2/50 = 0.02”, an arithmetic slip — 2/50 = 0.04, which is the value its own next line uses to reach the correct 0.96. The illustration is decorative."
+  },
+  {
+   "number": "168",
+   "form": "long",
+   "marks": 5,
+   "page": 40,
+   "stem": "Computers in Elementary Schools : Computer-based learning (CBL) refers to any teaching methodology that makes use of computers for information transmission or input. At an elementary school level, computer applications can be used to display multimedia lesson plans or students can input examination answers into a computer to facilitate grading and evaluation. Multimedia formats and applications that allow students to pause content are especially valuable in early childhood education especially since students are coming to school with different competencies, learning styles and speeds for absorbing information.\nTotal 1000 elementary and secondary schools of Rajasthan were classified by the number of computers they had.\n<table><tr><td>Computers</td><td>1–10</td><td>11–20</td><td>21–50</td><td>51–100</td><td>100 more</td></tr><tr><td>Schools</td><td>250</td><td>210</td><td>290</td><td>170</td><td>80</td></tr></table>\nChoose one school at random and find the following probability.\n(i) Find the probability that it has 50 or fewer computers.\n(ii) Find the probability that it has more than 100 computers.\n(iii) Find the probability that it has no more than 20 computers.\n(iv) Find the probability that it has more than 50 computers.",
+   "answer": "One school is chosen from 1000, so n(S) = 1000.\n(i) 50 or fewer computers covers the classes 1–10, 11–20 and 21–50: 250 + 210 + 290 = 750, so P = 750/1000 = 0.75.\n(ii) More than 100 computers is the last class alone: 80, so P = 80/1000 = 0.08.\n(iii) No more than 20 computers covers 1–10 and 11–20: 250 + 210 = 460, so P = 460/1000 = 0.46.\n(iv) More than 50 computers covers 51–100 and “100 more”: 170 + 80 = 250, so P = 250/1000 = 0.25.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The classification table is printed inside the question and is kept in the stem as HTML. The last class is printed as “100 more”. The classroom photograph is decorative."
+  },
+  {
+   "number": "169",
+   "form": "long",
+   "marks": 5,
+   "page": 41,
+   "stem": "Consider the 210 discrete points found in the first and second quadrants where −10 ≤ x ≤ 10, 1 ≤ y ≤ 10 and x and y are integers. The coordinates of each point is written on a slip of paper and placed in a box. One of the slips is then randomly drawn.\n(i) What is the probability the point (x, y) is on the graph of y = |x|\n(ii) What is the probability the point (x, y) is on the graph of y = 2|x|\n(iii) What is the probability the point (x, y) has coordinates (x ≤ 5, y > −2)",
+   "answer": "One slip is drawn from the 210 listed points, so n(S) = 210.\n(i) On y = |x| with 1 ≤ y ≤ 10 the points are (±1, 1), (±2, 2), …, (±10, 10) — 20 points in all, so P = 20/210 = 2/21.\n(ii) On y = 2|x| with 1 ≤ y ≤ 10 the points are (±1, 2), (±2, 4), (±3, 6), (±4, 8), (±5, 10) — 10 points in all, so P = 10/210 = 1/21.\n(iii) Every listed point already has y ≥ 1 > −2, so the condition is only x ≤ 5; that allows the 16 values x = −10, −9, …, 5 for each of the 10 values of y, giving 160 points. So P = 160/210 = 16/21.",
+   "concept": "Listing the outcomes",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book gives only the counts 20, 10 and 160; the outcome lists behind them are reconstructed here and agree with those counts."
+  },
+  {
+   "number": "170",
+   "form": "long",
+   "marks": 5,
+   "page": 41,
+   "stem": "Hospital Stays : Hospital records indicated that maternity patients stayed in the hospital for the number of days shown in the distribution.\n<table><tr><td>Number of days stayed</td><td>Frequency</td></tr><tr><td>3</td><td>13</td></tr><tr><td>4</td><td>22</td></tr><tr><td>5</td><td>45</td></tr><tr><td>6</td><td>14</td></tr><tr><td>7</td><td>6</td></tr><tr><td>Total</td><td>100</td></tr></table>\nFind these probabilities.\n(i) A patient stayed exactly 5 days.\n(ii) A patient stayed less than 6 days.\n(iii) A patient stayed at most 4 days.\n(iv) A patient stayed at least 5 days.",
+   "answer": "The total frequency is 100, so n(S) = 100.\n(i) Exactly 5 days: n = 45, so P = 45/100 = 0.45.\n(ii) Less than 6 days means 3, 4 or 5 days: n = 13 + 22 + 45 = 80, so P = 80/100 = 0.80.\n(iii) At most 4 days means 3 or 4 days: n = 13 + 22 = 35, so P = 35/100 = 0.35.\n(iv) At least 5 days means 5, 6 or 7 days: n = 45 + 14 + 6 = 65, so P = 65/100 = 0.65.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The distribution table is printed in the question and is kept in the stem; the book leaves the label of the total row blank, written here as “Total”. The solution opens “Total possible outcomes in all case is 1000 because frequency is 100” — a slip, since it then correctly sets n(S) = 100. The hospital photograph is decorative."
+  },
+  {
+   "number": "171",
+   "form": "long",
+   "marks": 5,
+   "page": 42,
+   "stem": "Cards on which numbers 1, 2, 3 .......... 100 are written (one number on one card and no number is repeated), put in a bag and are mixed thoroughly. A card is drawn at random from the bag. Find the following probability.\n(i) What is the probability that card taken out has a odd number ?\n(ii) What is the probability that card taken out has a two digit odd number ?\n(iii) What is the probability that card taken out has a odd number which is multiple of 11?\n(iv) What is the probability that card taken out has an odd number which is not less than 70?\n(v) What is the probability that card taken out has an odd number which is not multiple of 11 ?",
+   "answer": "There are 100 cards, so n(S) = 100 in every part.\n(i) The odd numbers from 1 to 100 are 50 in number, so P = 50/100 = 1/2 = 0.5.\n(ii) Of those 50 odd numbers, five (1, 3, 5, 7, 9) have one digit, so 45 are two-digit odd numbers and P = 45/100 = 0.45.\n(iii) The odd multiples of 11 up to 100 are 11, 33, 55, 77, 99 — five numbers, so P = 5/100 = 0.05.\n(iv) The odd numbers not less than 70 are 71, 73, 75, …, 99 — fifteen numbers, so P = 15/100 = 0.15.\n(v) Of the 50 odd numbers, 5 are multiples of 11, leaving 50 − 5 = 45 that are not, so P = 45/100 = 0.45.",
+   "concept": "Listing the outcomes",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book misprints a stray “Sol :” above the list of parts (i)–(v); the real solution follows the list. Part (ii) counts 100 as even, so the two-digit odd numbers are 45, which matches the printed key."
+  },
+  {
+   "number": "172",
+   "form": "long",
+   "marks": 5,
+   "page": 42,
+   "stem": "Insurance : An insurance company selected 1000 drivers at random in a particular city to determine a relationship between age and accidents. The data obtained are listed in following table.\n<table><tr><td>Age</td><td>0</td><td>1</td><td>2</td><td>3</td><td>Over 3</td></tr><tr><td>Under 20</td><td>50</td><td>62</td><td>53</td><td>35</td><td>20</td></tr><tr><td>20–29</td><td>64</td><td>93</td><td>67</td><td>40</td><td>36</td></tr><tr><td>30–39</td><td>82</td><td>68</td><td>32</td><td>14</td><td>4</td></tr><tr><td>40–49</td><td>38</td><td>32</td><td>20</td><td>7</td><td>3</td></tr><tr><td>Over 49</td><td>43</td><td>50</td><td>35</td><td>28</td><td>24</td></tr></table>\nCompute the probabilities of the following events for a driver chosen at random in the city:\n(i) E₁ : being under 20 years old and having exactly three accidents in 1 year\n(ii) E₂ : being 30–39 years old and having one or more accidents in 1 year\n(iii) E₃ : having no accidents in 1 year\n(iv) E₄ : being under 20 years old or having exactly three accidents in 1 year",
+   "answer": "There are 1000 drivers, so n(S) = 1000. Adding the columns gives the totals 277, 305, 207, 124 and 87 for 0, 1, 2, 3 and over 3 accidents.\n(i) Under 20 and exactly three accidents is the single cell 35, so P(E₁) = 35/1000 = 0.035.\n(ii) 30–39 with one or more accidents: 68 + 32 + 14 + 4 = 118, so P(E₂) = 118/1000 = 0.118.\n(iii) No accidents in 1 year is the whole “0” column: 50 + 64 + 82 + 38 + 43 = 277, so P(E₃) = 277/1000 = 0.277.\n(iv) Under 20 OR exactly three accidents counts the whole “under 20” row once and then the remaining cells of the “3” column: 50 + 62 + 53 + 35 + 20 + 40 + 14 + 7 + 28 = 309, so P(E₄) = 309/1000 = 0.309.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Key contradicts its own working in part (i): the book writes “35/1000 = 0.35”, but 35/1000 = 0.035, so the fraction wins and 0.035 is recorded. In part (iv) the book also mistypes the denominator as 1090 while dividing 309 by 1000 to get 0.309. The two-way table is kept in the stem as HTML; the “high-risk driver” graphic is decorative."
+  },
+  {
+   "number": "173",
+   "form": "long",
+   "marks": 5,
+   "page": 43,
+   "stem": "Deepika Kumari is an Indian athlete who competes in the event of archery, is currently ranked World No. 9, and is a former world number one. She won a gold medal in the 2010 Commonwealth games in the women’s individual recurve event. She also won a gold medal in the same competition in the women’s team recurve event along with Dola Banerjee and Bombayala Devi. Kumari qualified for the 2012 Summer Olympics in London, where she competed in the Women’s Individual and Women’s team events, finishing in eighth place in the latter.\nDeepika can hit the rectangular target shown 100% of the time at a range of 80 m. Assuming the probability the target is hit is related to its area, answer the following.\n(i) What is the probability the Deepika hits within the triangle ?\n(ii) What is the probability the Deepika hits within the circle ?\n(iii) What is the probability the Deepika hits within the circle but outside the triangle ?\n(iv) What is the probability the Deepika hits within the rectangle but outside the circle ?",
+   "answer": "Every arrow lands on the 90 cm × 70 cm rectangle, so the sample space is its area: n(S) = 90 × 70 = 6300 cm². The circle spans the 70 cm width, so its radius is 35 cm, and the shaded triangle stands on the 70 cm horizontal diameter with height 35 cm.\n(i) Area of the triangle = ½ × 70 × 35 = 1225 cm², so P = 1225/6300 = 7/36.\n(ii) Area of the circle = π × 35² = (22/7) × 35 × 35 = 3850 cm², so P = 3850/6300 = 11/18.\n(iii) Inside the circle but outside the triangle = 3850 − 1225 = 2625 cm², so P = 2625/6300 = 5/12.\n(iv) Inside the rectangle but outside the circle = 6300 − 3850 = 2450 cm², so P = 2450/6300 = 7/18. This also follows as the complement of part (ii): 1 − 11/18 = 7/18.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch14_q173.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question says “the rectangular target shown” and the 70 cm × 90 cm dimensions and the inscribed circle and triangle are only in the diagram, so the printed figure is attached. In part (iii) the book prints the subtraction as 3850 − 1225 = 2626, a slip — it then divides 2625 by 6300, so 2625 is correct. Part of the solution runs onto the next page. The photograph of the archer is decorative."
+  },
+  {
+   "number": "174",
+   "form": "long",
+   "marks": 5,
+   "page": 44,
+   "stem": "Remdesivir was the first drug approved by the FDA for treating the SARS-CoV-2 virus. It is indicated for treatment of COVID-19 disease in hospitalized adults and children aged 12 years and older who weigh at least 40 kg.\nIn a medical experiment, a Remdesivir is found to help 2,400 out of 4,000 people. If a doctor prescribes the Remdesivir for a particular patient, what is the approximate empirical probability that the patient will be helped?",
+   "answer": "The trial covered 4000 people, so the sample space is n(S) = 4000. Let E be the event that Remdesivir helps the patient; it helped 2400 of them, so n(E) = 2400.\nP(E) = n(E)/n(S) = 2400/4000 = 6/10 = 0.6.\nThe approximate empirical probability that the patient will be helped is 0.6.",
+   "concept": "Why empirical probability is limited",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The photograph of a Remdesivir vial is decorative — every number the question needs is in the text — so no figure is attached. Stem begins in the left column of page 44 and completes in the right column. No board tag is printed."
+  },
+  {
+   "number": "175",
+   "form": "long",
+   "marks": 5,
+   "page": 44,
+   "stem": "Out of 460 times at bat, a baseball player gets 207 hits. What is the approximate empirical probability that the player will get a hit next time at bat?",
+   "answer": "The player went to bat 460 times, so n(S) = 460. Let E be the event that he gets a hit; he got 207, so n(E) = 207.\nP(E) = n(E)/n(S) = 207/460 = 0.45.\nThe approximate empirical probability that he gets a hit next time at bat is 0.45.",
+   "concept": "Why empirical probability is limited",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins at the foot of the right-hand column of page 44 and its worked solution runs on to page 45. The batter photograph is decorative, so no figure is attached. No board tag is printed."
+  },
+  {
+   "number": "176",
+   "form": "long",
+   "marks": 5,
+   "page": 45,
+   "stem": "In two dice game, the player take turns to roll both dice, they can roll as many times as they want in one turn. A player scores the sum of the two dice thrown and gradually reaches a higher score as they continue to roll. If a single number 1 is thrown on either die, the score for that whole turn is lost. Two dice are thrown simultaneously.\n(i) What is the probability of getting the sum as an even number ?\n(ii) What is the probability of getting the sum as a prime number ?\n(iii) What is the probability of getting the sum of atleast 10?\n(iv) What is the probability of getting a doublet of even number ?\n(v) What is the probability of getting a product of numbers greater than 16?",
+   "answer": "Two dice thrown together give n(S) = 6 × 6 = 36 equally likely ordered pairs.\n(i) An even sum (2, 4, 6, 8, 10 or 12) arises from 18 of the 36 pairs, so P(E₁) = 18/36 = 1/2.\n(ii) A prime sum (2, 3, 5, 7 or 11) arises from (1,1), (1,2), (2,1), (1,4), (4,1), (2,3), (3,2), (1,6), (6,1), (2,5), (5,2), (3,4), (4,3), (6,5), (5,6) — 15 pairs — so P(E₂) = 15/36 = 5/12.\n(iii) A sum of at least 10 arises from (4,6), (6,4), (5,5), (5,6), (6,5), (6,6) — 6 pairs — so P(E₃) = 6/36 = 1/6.\n(iv) A doublet of even numbers is (2,2), (4,4) or (6,6) — 3 pairs — so P(E₄) = 3/36 = 1/12.\n(v) A product greater than 16 arises from (3,6), (6,3), (4,5), (5,4), (4,6), (6,4), (5,5), (5,6), (6,5), (6,6) — 10 pairs — so P(E₅) = 10/36 = 5/18.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution mislabels two counters: part (ii) is written n(E₁) = 15 and part (iv) n(E₃) = 3, where the context requires n(E₂) and n(E₄). The counts and every final fraction are correct. Stem begins on page 45 and the solution runs on to page 46. The photograph of two dice is decorative, so no figure is attached. No board tag is printed."
+  },
+  {
+   "number": "177",
+   "form": "long",
+   "marks": 5,
+   "page": 46,
+   "stem": "A survey was taken at a high school, and the results were put in a circle graph. The students were asked to list their favourite colours. The measurement of each central angle is shown. If a person is chosen at random from the school, find the probability of each response.\n(i) What is the probability of favourite colour being red ?\n(ii) What is the probability of favourite colour being blue or green ?\n(iii) What is the probability of favourite colour not being red or blue?\n(iv) What is the probability of favourite colour not being orange or green ?\n(v) What is the probability of favourite colour being red or blue?",
+   "answer": "On a circle graph the probability of a response is the central angle of its sector divided by 360°. The printed angles are red 36°, blue 72°, green 36°, orange 144° and yellow 72°, which add to 360°.\n(i) P(red) = 36°/360° = 1/10 = 0.1.\n(ii) P(blue or green) = (72° + 36°)/360° = 108°/360° = 3/10 = 0.3.\n(iii) P(not red or blue) = 1 − (36° + 72°)/360° = 1 − 3/10 = 0.7.\n(iv) P(not orange or green) = 1 − (144° + 36°)/360° = 1 − 180°/360° = 1 − 1/2 = 0.5.\n(v) P(red or blue) = 1 − P(not red or blue) = 1 − 0.7 = 0.3.",
+   "concept": "Using the complement",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch14_q177.png"
+   ],
+   "figure_required": true,
+   "ocr": "Two printing faults in the worked solution, neither of which changes the arithmetic: part (ii) ends \"= 3/10 = 0\", a truncated 0.3, and part (iv) closes with the stray line \"Thus (d) is correct option.\" left over from a multiple-choice version of the same item. The five central angles appear only on the circle graph, which is printed in the question above the sub-parts, so it is attached. Stem begins on page 46 and the solution runs on to page 46–47. No board tag is printed."
+  },
+  {
+   "number": "178",
+   "form": "long",
+   "marks": 5,
+   "page": 46,
+   "stem": "A game at a stall in new year carnival involves spinning a wheel first as a first step to complete the game with certain rules. If the wheel stops at a particular number, then the player is allowed to roll a 6 faced unbiased dice.\nRules of Game:\n(i) If the wheel stops at a particular number, then the player is allowed to roll a unbiased dice.\n(ii) If the wheel stops at any other number, player get to try again and only one extra try allowed.\n(iii) If player reach the next stage and roll a dice, he may get a prize depending on the number on dice.\n(i) What is the probability of getting an even number on the wheel?\n(ii) If getting an odd number on the wheel allows a player to roll the die, then what is the probability of his rolling the die ?\n(iii) If the player is allowed to roll the dice and getting a number greater than 4 entitles him to get prize, what is the probability of his winning the prize?\n(iv) If getting a square number on the wheel allows a player to roll the dice, then what is the probability of his rolling the dice ?\n(v) If the player is allowed to roll the die and getting a prime number on die entitles him to get prize, then what is the probability of his winning the prize?",
+   "answer": "The wheel carries the eight numbers 2, 3, 4, 5, 6, 7, 8, 9, so one spin has n(S) = 8 equally likely outcomes; one roll of the six-faced die has n(S) = 6.\n(i) Even numbers on the wheel are {2, 4, 6, 8}, so n(E) = 4 and P(E) = 4/8 = 1/2.\n(ii) Odd numbers on the wheel are {3, 5, 7, 9}, so n(E) = 4 and the probability he gets to roll the die is 4/8 = 1/2.\n(iii) On the die, the numbers greater than 4 are {5, 6}, so n(E) = 2 and P(E) = 2/6 = 1/3.\n(iv) Square numbers on the wheel are {4, 9}, so n(E) = 2 and P(E) = 2/8 = 1/4.\n(v) The primes on the die are {2, 3, 5}, so n(E) = 3 and P(E) = 3/6 = 1/2.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch14_q178.png"
+   ],
+   "figure_required": true,
+   "ocr": "The book numbers the third \"Rules of Game\" bullet (ii) a second time; it is renumbered (iii) here, as the sequence plainly requires. The eight numbers on the wheel (2, 3, 4, 5, 6, 7, 8, 9) are given only by the picture — no line of text lists them — so the wheel is attached as a figure; it is printed in the question, above the sub-parts. Stem begins on page 46 and the sub-parts and solution run on to page 47. No board tag is printed."
+  },
+  {
+   "number": "179",
+   "form": "long",
+   "marks": 5,
+   "page": 47,
+   "stem": "Five friends and one of their mother are having a picnic. The mother deicide to play card game. 17 cards numbered 1, 2, 3 ... 17 are put in a box and mixed thoroughly. The mother asks each boy to draw a card and after each draw she shows some magic tricks based on card number.\n(i) What is the probability of drawing an odd number card in the first draw by the first boy?\n(ii) Now in second draw, card drawn in first draw is replaced. What is the probability of drawing a prime number card by the second boy?\n(iii) If in second draw, boy got number 2 and the card is not replaced, what is the probability of drawing a card bearing a multiple of 3 greater than 5 by the third boy?\n(iv) If the card is replaced after the third draw, what is the probability of drawing a card bearing a number greater than 17 by the fourth boy ?\n(v) If the card is replaced after the fourth draw, what is the probability of drawing a card bearing a multiple of 3 or 7 by the fifth boy?",
+   "answer": "(i) All 17 cards are in the box, so n(S) = 17. The odd cards are {1, 3, 5, 7, 9, 11, 13, 15, 17}, so n(E) = 9 and P(E) = 9/17.\n(ii) The first card is put back, so again n(S) = 17. The primes are {2, 3, 5, 7, 11, 13, 17}, so n(E) = 7 and P(E) = 7/17.\n(iii) Card 2 is not replaced, leaving n(S) = 16. The multiples of 3 greater than 5 are {6, 9, 12, 15}, so n(E) = 4 and P(E) = 4/16 = 1/4.\n(iv) No card in the box bears a number greater than 17, so this is an impossible event: n(E) = 0 and P(E) = 0.\n(v) Sixteen cards remain, since card 2 was never put back. Among them the multiples of 3 or 7 are {3, 6, 7, 9, 12, 14, 15}, so n(E) = 7 and P(E) = 7/16.",
+   "concept": "Listing the outcomes",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed part (iv) explains the answer as \"because there is no card having number 17\", but card 17 is in the box; what makes the event impossible is that no card is greater than 17. The printed answer 0 is right, only its reason is misstated. Parts (iv) and (v) are also inconsistent with each other: (iv) says the card is replaced after the third draw, yet the printed (v) works with 16 cards on the ground that card 2 was not replaced. Rule 6 applies — the solution wins — so the count of 16 is followed. The row of card pictures and the cartoon figures are decorative, since the stem already says the cards are numbered 1 to 17, so no figure is attached. Stem begins on page 47 and the solution runs on to page 48, where the chapter ends."
+  }
+ ],
+ "qualified_numbers": 0
+}

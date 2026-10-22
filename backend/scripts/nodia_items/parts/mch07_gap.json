@@ -1,0 +1,19 @@
+{
+ "items": [
+  {
+   "number": "127",
+   "form": "long",
+   "marks": 5,
+   "page": 29,
+   "stem": "BEST : The Brihanmumbai Electricity Supply and Transport (BEST) is a civic transport and electricity provider public body based in Mumbai. BEST operates one of India's largest fleets of buses. The bus transport service covers the entire city and also extends its operations outside city limits into neighbouring urban areas. In addition to buses, it also operates a ferry service in the northern reaches of the city.\nThere are two routes to travel from source A to destination B by using BEST bus service. First bus reaches at B via point C and second bus reaches from A to B directly. If coordinates of A, B and C are (−2, −3), (2, 3) and (3, 2) respectively, then by which bus do you want to travel from A to B using BEST services. (Assume that both buses have same speed).",
+   "answer": "Here the coordinates of A, B and C are (−2, −3), (2, 3) and (3, 2) respectively.\nUsing the distance formula,\nAB = √((−2 − 2)² + (−3 − 3)²) = √(16 + 36) = √52 = 2√13\nAC = √((−2 − 3)² + (−3 − 2)²) = √(25 + 25) = √50 = 5√2\nBC = √((2 − 3)² + (3 − 2)²) = √(1 + 1) = √2\nDistance travelled by the first bus (A → C → B) = AC + BC = 5√2 + √2 = 6√2 units.\nDistance travelled by the second bus (A → B directly) = AB = 2√13 units.\nSince 6√2 ≈ 8.49 and 2√13 ≈ 7.21, we have 6√2 > 2√13, so the direct route is shorter and, both buses having the same speed, it takes less time.\nHence, we would like to travel by the second bus.",
+   "concept": "The formula itself",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "mch07_q127.png"
+   ],
+   "figure_required": false,
+   "ocr": "recovered by the gap pass: printed under the COMPETENCEY BASED QUESTIONS heading, which fell mid-range and was skipped. Question and full solution both sit on p029; no board/year tag is printed against this item, so section_heading carries the heading alone. Form is long/5 rather than case_study/4 because the passage ends in a single question with no (i)/(ii)/(iii) sub-parts. The photograph of the BEST bus depot is context only - every coordinate needed is given in the text - so it is attached but figure_required is false."
+  }
+ ]
+}

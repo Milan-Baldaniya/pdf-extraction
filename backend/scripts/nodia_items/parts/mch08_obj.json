@@ -1,0 +1,898 @@
+{
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If sec θ − tan θ = m, then the value of sec θ + tan θ is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 − 1/m"
+    },
+    {
+     "label": "B",
+     "text": "m² − 1"
+    },
+    {
+     "label": "C",
+     "text": "1/m"
+    },
+    {
+     "label": "D",
+     "text": "− m"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Use the identity sec²θ − tan²θ = 1. Factorising the left side, (sec θ − tan θ)(sec θ + tan θ) = 1, so sec θ + tan θ = 1/(sec θ − tan θ) = 1/m.",
+   "concept": "Dividing to get more identities",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard"
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "For θ = 30°, the value of 2 sin θ cos θ is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "√3/2"
+    },
+    {
+     "label": "C",
+     "text": "√3/4"
+    },
+    {
+     "label": "D",
+     "text": "3/2"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "2 sin θ cos θ = 2 sin 30° cos 30° = 2 × (1/2) × (√3/2) = √3/2.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard"
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If θ is an acute angle of a right angled triangle, then which of the following equation is not true ?",
+   "options": [
+    {
+     "label": "A",
+     "text": "sin θ cot θ = cos θ"
+    },
+    {
+     "label": "B",
+     "text": "cos θ tan θ = sin θ"
+    },
+    {
+     "label": "C",
+     "text": "cosec²θ − cot²θ = 1"
+    },
+    {
+     "label": "D",
+     "text": "tan²θ − sec²θ = 1"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "For an acute angle θ, tan²θ + 1 = sec²θ, so sec²θ − tan²θ = 1 and therefore tan²θ − sec²θ = −1, not 1. The other three statements are standard and true, so option (d) is the one that is not true.",
+   "concept": "Dividing to get more identities",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard"
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "cos²θ/sin²θ − 1/sin²θ, in simplified form is :",
+   "options": [
+    {
+     "label": "A",
+     "text": "tan²θ"
+    },
+    {
+     "label": "B",
+     "text": "sec²θ"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "−1"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "cos²θ/sin²θ − 1/sin²θ = cot²θ − cosec²θ. Since cosec²θ = 1 + cot²θ, this equals cot²θ − 1 − cot²θ = −1.",
+   "concept": "Dividing to get more identities",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard"
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If sin θ − cos θ = 0, then the value of (sin⁴θ + cos⁴θ) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "3/4"
+    },
+    {
+     "label": "C",
+     "text": "1/2"
+    },
+    {
+     "label": "D",
+     "text": "1/4"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "sin θ − cos θ = 0 gives sin θ = cos θ = sin(90° − θ), so θ = 90° − θ and θ = 45°. Then sin⁴ 45° + cos⁴ 45° = (1/√2)⁴ + (1/√2)⁴ = 1/4 + 1/4 = 1/2.",
+   "concept": "Ratios of 45 degrees",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 Standard"
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "In the adjoining figure, the length of BC is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2√3 cm"
+    },
+    {
+     "label": "B",
+     "text": "3√3 cm"
+    },
+    {
+     "label": "C",
+     "text": "4√3 cm"
+    },
+    {
+     "label": "D",
+     "text": "3 cm"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "In △ABC, right angled at B, sin 30° = BC/AC. So 1/2 = BC/6, giving BC = 3 cm.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 Basic",
+   "images": [
+    "ch08_q6.png"
+   ],
+   "figure_required": true,
+   "ocr": "Stem and figure print on book page 310; the options and worked solution print on book page 311. Page 2 of the render folder is a Chapter 9 page mis-split into the chapter 8 PDF; the true book page 311 carrying this question sits at physical page 2 of maths10_ch07_coordinate_geometry.pdf and was rendered from there and read."
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If sin A = 1/2, then the value of cot A is",
+   "options": [
+    {
+     "label": "A",
+     "text": "√3"
+    },
+    {
+     "label": "B",
+     "text": "1/√3"
+    },
+    {
+     "label": "C",
+     "text": "√3/2"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "sin A = perpendicular/hypotenuse = 1/2, so taking perpendicular 1 and hypotenuse 2, the base is √(2² − 1²) = √3. Then cot A = base/perpendicular = √3/1 = √3.",
+   "concept": "One ratio determines the rest",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP Standard",
+   "ocr": "Page 2 of the render folder is a Chapter 9 page mis-split into the chapter 8 PDF; the true book page 311 carrying this question sits at physical page 2 of maths10_ch07_coordinate_geometry.pdf and was rendered from there and read."
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "Given that sin α = √3/2 and cos β = 0, then the value of β − α is",
+   "options": [
+    {
+     "label": "A",
+     "text": "0°"
+    },
+    {
+     "label": "B",
+     "text": "90°"
+    },
+    {
+     "label": "C",
+     "text": "60°"
+    },
+    {
+     "label": "D",
+     "text": "30°"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "sin α = √3/2 = sin 60°, so α = 60°. cos β = 0 = cos 90°, so β = 90°. Hence β − α = 90° − 60° = 30°.",
+   "concept": "Ratios of 0 and 90 degrees",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term-1 SQP Basic",
+   "ocr": "Page 2 of the render folder is a Chapter 9 page mis-split into the chapter 8 PDF; the true book page 311 carrying this question sits at physical page 2 of maths10_ch07_coordinate_geometry.pdf and was rendered from there and read."
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If △ABC is right angled at C, then the value of sec(A + B) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "1"
+    },
+    {
+     "label": "C",
+     "text": "2/√3"
+    },
+    {
+     "label": "D",
+     "text": "not defined"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The angles of a triangle add to 180° and ∠C = 90°, so A + B = 180° − 90° = 90°. Then sec(A + B) = sec 90° = 1/cos 90° = 1/0, which is not defined.",
+   "concept": "Ratios of 0 and 90 degrees",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 SQP Standard",
+   "ocr": "Page 2 of the render folder is a Chapter 9 page mis-split into the chapter 8 PDF; the true book page 311 carrying this question sits at physical page 2 of maths10_ch07_coordinate_geometry.pdf and was rendered from there and read."
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If sin θ + cos θ = √2 cos θ, (θ ≠ 90°) then the value of tan θ is",
+   "options": [
+    {
+     "label": "A",
+     "text": "√2 − 1"
+    },
+    {
+     "label": "B",
+     "text": "√2 + 1"
+    },
+    {
+     "label": "C",
+     "text": "√2"
+    },
+    {
+     "label": "D",
+     "text": "−√2"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Divide both sides by cos θ: sin θ/cos θ + 1 = √2, that is tan θ + 1 = √2. Hence tan θ = √2 − 1.",
+   "concept": "The six ratios",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 SQP Standard",
+   "ocr": "Page 2 of the render folder is a Chapter 9 page mis-split into the chapter 8 PDF; the true book page 311 carrying this question sits at physical page 2 of maths10_ch07_coordinate_geometry.pdf and was rendered from there and read."
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If cos A = 4/5, then the value of tan A is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3/5"
+    },
+    {
+     "label": "B",
+     "text": "3/4"
+    },
+    {
+     "label": "C",
+     "text": "4/3"
+    },
+    {
+     "label": "D",
+     "text": "5/3"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "cos A = base/hypotenuse = 4/5, so the perpendicular is √(5² − 4²) = √(25 − 16) = 3. Then tan A = perpendicular/base = 3/4.",
+   "concept": "One ratio determines the rest",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "Page 2 of the render folder is a Chapter 9 page mis-split into the chapter 8 PDF; the true book page 311 carrying this question sits at physical page 2 of maths10_ch07_coordinate_geometry.pdf and was rendered from there and read."
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The value of the expression cosec(75° + θ) − sec(15° − θ) − tan(55° + θ) + cot(35° − θ) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "−1"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "3/2"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Rewrite the first and last terms with complementary angles: cosec(75° + θ) = cosec[90° − (15° − θ)] = sec(15° − θ), and cot(35° − θ) = cot[90° − (55° + θ)] = tan(55° + θ). The expression becomes sec(15° − θ) − sec(15° − θ) − tan(55° + θ) + tan(55° + θ) = 0.",
+   "concept": "The six ratios",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "Stem, options and the start of the solution print on book page 311; the solution finishes on page 312 (render page 3) with the value 0. The book prints no 'Thus (x) is correct option' line for this item, so the key is taken from its own solution value 0, which is option (b). Page 2 of the render folder is a Chapter 9 page mis-split into the chapter 8 PDF; the true book page 311 carrying this question sits at physical page 2 of maths10_ch07_coordinate_geometry.pdf and was rendered from there and read."
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If sin θ = a/b, then cos θ is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "b/√(b² − a²)"
+    },
+    {
+     "label": "B",
+     "text": "b/a"
+    },
+    {
+     "label": "C",
+     "text": "√(b² − a²)/b"
+    },
+    {
+     "label": "D",
+     "text": "a/√(b² − a²)"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "sin θ = a/b = perpendicular/hypotenuse, so the base is √(b² − a²). Hence cos θ = base/hypotenuse = √(b² − a²)/b.",
+   "concept": "One ratio determines the rest",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If cos(α + β) = 0, then sin(α − β) can be reduced to",
+   "options": [
+    {
+     "label": "A",
+     "text": "cos β"
+    },
+    {
+     "label": "B",
+     "text": "cos 2β"
+    },
+    {
+     "label": "C",
+     "text": "sin α"
+    },
+    {
+     "label": "D",
+     "text": "sin 2α"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "cos(α + β) = 0 = cos 90°, so α + β = 90° and α = 90° − β. Then sin(α − β) = sin(90° − β − β) = sin(90° − 2β) = cos 2β.",
+   "concept": "The six ratios",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If cos 9α = sin α and 9α < 90°, then the value of tan 5α is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/√3"
+    },
+    {
+     "label": "B",
+     "text": "√3"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "cos 9α = sin α means sin(90° − 9α) = sin α, so 90° − 9α = α and 10α = 90°, giving α = 9°. Then tan 5α = tan 45° = 1.",
+   "concept": "Ratios of 45 degrees",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If △ABC is right angled at C, then the value of cos(A + B) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "1"
+    },
+    {
+     "label": "C",
+     "text": "1/2"
+    },
+    {
+     "label": "D",
+     "text": "√3/2"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "In △ABC, ∠A + ∠B + ∠C = 180°. Since ∠C = 90°, A + B = 90°. Hence cos(A + B) = cos 90° = 0.",
+   "concept": "Ratios of 0 and 90 degrees",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "A right-triangle diagram is printed inside the worked solution, not with the question, so no figure is attached."
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If sin α = 1/2 and cos β = 1/2, then the value of (α + β) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "0°"
+    },
+    {
+     "label": "B",
+     "text": "30°"
+    },
+    {
+     "label": "C",
+     "text": "60°"
+    },
+    {
+     "label": "D",
+     "text": "90°"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "sin α = 1/2 = sin 30°, so α = 30°. cos β = 1/2 = cos 60°, so β = 60°. Hence α + β = 30° + 60° = 90°.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If 4 tan θ = 3, then ((4 sin θ − cos θ)/(4 sin θ + cos θ)) is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "2/3"
+    },
+    {
+     "label": "B",
+     "text": "1/3"
+    },
+    {
+     "label": "C",
+     "text": "1/2"
+    },
+    {
+     "label": "D",
+     "text": "3/4"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "From 4 tan θ = 3, tan θ = 3/4. Dividing numerator and denominator by cos θ gives (4 tan θ − 1)/(4 tan θ + 1) = (4(3/4) − 1)/(4(3/4) + 1) = (3 − 1)/(3 + 1) = 2/4 = 1/2.",
+   "concept": "The six ratios",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "Stem and options print on book page 312; the solution finishes on page 313 (render page 4), where the key (c) is printed."
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If x = p sec θ and y = q tan θ, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "x² − y² = p²q²"
+    },
+    {
+     "label": "B",
+     "text": "x²q² − y²p² = pq"
+    },
+    {
+     "label": "C",
+     "text": "x²q² − y²p² = 1/(p²q²)"
+    },
+    {
+     "label": "D",
+     "text": "x²q² − y²p² = p²q²"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Since sec²θ − tan²θ = 1, substitute sec θ = x/p and tan θ = y/q to get (x/p)² − (y/q)² = 1. Multiplying through by p²q² gives x²q² − y²p² = p²q².",
+   "concept": "Dividing to get more identities",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If b tan θ = a, the value of (a sin θ − b cos θ)/(a sin θ + b cos θ) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "(a − b)/(a² + b²)"
+    },
+    {
+     "label": "B",
+     "text": "(a + b)/(a² + b²)"
+    },
+    {
+     "label": "C",
+     "text": "(a² + b²)/(a² − b²)"
+    },
+    {
+     "label": "D",
+     "text": "(a² − b²)/(a² + b²)"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "From b tan θ = a, tan θ = a/b. Divide numerator and denominator by cos θ: (a tan θ − b)/(a tan θ + b) = (a(a/b) − b)/(a(a/b) + b) = (a² − b²)/(a² + b²).",
+   "concept": "The six ratios",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "(cos⁴A − sin⁴A) is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 − 2 cos²A"
+    },
+    {
+     "label": "B",
+     "text": "2 sin²A − 1"
+    },
+    {
+     "label": "C",
+     "text": "sin²A − cos²A"
+    },
+    {
+     "label": "D",
+     "text": "2 cos²A − 1"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "cos⁴A − sin⁴A = (cos²A)² − (sin²A)² = (cos²A − sin²A)(cos²A + sin²A) = (cos²A − sin²A)(1) = cos²A − (1 − cos²A) = 2 cos²A − 1.",
+   "concept": "sin squared plus cos squared",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If sec 5A = cosec(A + 30°), where 5A is an acute angle, then the value of A is",
+   "options": [
+    {
+     "label": "A",
+     "text": "15°"
+    },
+    {
+     "label": "B",
+     "text": "5°"
+    },
+    {
+     "label": "C",
+     "text": "20°"
+    },
+    {
+     "label": "D",
+     "text": "10°"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "cosec(A + 30°) = sec[90° − (A + 30°)] = sec(60° − A). So sec 5A = sec(60° − A), giving 5A = 60° − A. Then 6A = 60° and A = 10°.",
+   "concept": "The six ratios",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "The printed solution writes the complementary step as sec[90° − (A − 30°)], a typo for sec[90° − (A + 30°)]; its own next line, sec(60° − A), and the key (d) 10° are both correct, so nothing is contradicted."
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If x sin³θ + y cos³θ = sin θ cos θ and x sin θ = y cos θ, than x² + y² is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "1/2"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "3/2"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Write the first equation as (x sin θ) sin²θ + (y cos θ) cos²θ = sin θ cos θ. Using x sin θ = y cos θ, this is x sin θ(sin²θ + cos²θ) = sin θ cos θ, so x sin θ = sin θ cos θ and x = cos θ. Then x sin θ = y cos θ gives cos θ sin θ = y cos θ, so y = sin θ. Hence x² + y² = cos²θ + sin²θ = 1.",
+   "concept": "sin squared plus cos squared",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "The book prints 'than' where 'then' is meant in the stem; kept as printed."
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If tan 2A = cot(A − 18°), where 2A is an acute angle, then the value of A is",
+   "options": [
+    {
+     "label": "A",
+     "text": "12°"
+    },
+    {
+     "label": "B",
+     "text": "18°"
+    },
+    {
+     "label": "C",
+     "text": "36°"
+    },
+    {
+     "label": "D",
+     "text": "48°"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "tan 2A = cot(90° − 2A), so cot(90° − 2A) = cot(A − 18°) and 90° − 2A = A − 18°. Then 90° + 18° = A + 2A, so 3A = 108° and A = 36°.",
+   "concept": "The six ratios",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "25",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "If tan θ + sin θ = m and tan θ − sin θ = n, then m² − n² is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "√(mn)"
+    },
+    {
+     "label": "B",
+     "text": "√(m/n)"
+    },
+    {
+     "label": "C",
+     "text": "4√(mn)"
+    },
+    {
+     "label": "D",
+     "text": "None of these"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "m² − n² = (tan θ + sin θ)² − (tan θ − sin θ)² = 4 tan θ sin θ = 4√(tan²θ sin²θ). Now tan²θ sin²θ = sin²θ(1 − cos²θ)/cos²θ = tan²θ − sin²θ = (tan θ + sin θ)(tan θ − sin θ) = mn, so the value is 4√(mn).",
+   "concept": "Dividing to get more identities",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "26",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "If f(x) = cos²x + sec²x, then f(x)",
+   "options": [
+    {
+     "label": "A",
+     "text": "≥ 1"
+    },
+    {
+     "label": "B",
+     "text": "≤ 1"
+    },
+    {
+     "label": "C",
+     "text": "≥ 2"
+    },
+    {
+     "label": "D",
+     "text": "≤ 2"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "f(x) = cos²x + sec²x = cos²x + sec²x − 2 + 2 = cos²x + sec²x − 2 cos x · sec x + 2, since cos x · sec x = 1. This is (cos x − sec x)² + 2, and a square is never negative, so f(x) ≥ 2.",
+   "concept": "The six ratios",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "27",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 5,
+   "stem": "Assertion : For 0 < θ ≤ 90°, cosec θ − cot θ and cosec θ + cot θ are reciprocal of each other. Reason : cosec²θ − cot²θ = 1",
+   "assertion": "For 0 < θ ≤ 90°, cosec θ − cot θ and cosec θ + cot θ are reciprocal of each other.",
+   "reason": "cosec²θ − cot²θ = 1",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "From the identity cosec²θ − cot²θ = 1, factorising gives (cosec θ + cot θ)(cosec θ − cot θ) = 1, so cosec θ − cot θ = 1/(cosec θ + cot θ) and the assertion is true. The reason is the very identity used to prove it, so it is true and is the correct explanation of the assertion.",
+   "concept": "Dividing to get more identities",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard"
+  },
+  {
+   "number": "28",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 5,
+   "stem": "Assertion : sin²67° + cos²67° = 1 Reason : For any value of θ, sin²θ + cos²θ = 1",
+   "assertion": "sin²67° + cos²67° = 1",
+   "reason": "For any value of θ, sin²θ + cos²θ = 1",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The identity sin²θ + cos²θ = 1 holds for every θ, so putting θ = 67° gives sin²67° + cos²67° = 1. Both statements are true and the reason is the correct explanation of the assertion.",
+   "concept": "sin squared plus cos squared",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  },
+  {
+   "number": "29",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 5,
+   "stem": "Assertion : The value of sin θ = 4/3 is not possible. Reason : Hypotenuse is the largest side in any right angled triangle.",
+   "assertion": "The value of sin θ = 4/3 is not possible.",
+   "reason": "Hypotenuse is the largest side in any right angled triangle.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "sin θ = perpendicular/hypotenuse, so sin θ = 4/3 would need a perpendicular of 4 against a hypotenuse of 3. The hypotenuse is the largest side of a right triangle, so the perpendicular can never exceed it and this value is impossible. Both statements are true and the reason explains the assertion.",
+   "concept": "Opposite, adjacent and hypotenuse",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "Stem and legend print on book page 314; the solution finishes on page 315 (render page 6) with 'Thus (a) is correct option'."
+  },
+  {
+   "number": "30",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "stem": "Assertion : The value of sec²10° − cot²80° is 1. Reason : The value of sin 30° = 1/2.",
+   "assertion": "The value of sec²10° − cot²80° is 1.",
+   "reason": "The value of sin 30° = 1/2.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "cot 80° = cot(90° − 10°) = tan 10°, so sec²10° − cot²80° = sec²10° − tan²10° = 1 and the assertion is true. It is also true that sin 30° = 1/2, so the reason is true. But sin 30° plays no part in proving the assertion, so the reason is not its correct explanation.",
+   "concept": "Dividing to get more identities",
+   "section_heading": "OBJECTIVE QUESTIONS"
+  }
+ ]
+}

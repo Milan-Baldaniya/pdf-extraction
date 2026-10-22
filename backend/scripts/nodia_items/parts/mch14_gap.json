@@ -1,0 +1,34 @@
+{
+ "items": [
+  {
+   "number": "157",
+   "form": "case_study",
+   "marks": 4,
+   "page": 32,
+   "stem": "“Eight Ball” is a game played on a pool table with 15 balls numbered 1 to 15 and a “cue ball” that is solid and white. Of the 15 numbered balls, eight are solid (non-white) coloured and numbered 1 to 8 and seven are striped balls numbered 9 to 15.\nThe 15 numbered pool balls (no cue ball) are placed in a large bowl and mixed, then one ball is drawn out at random.\nBased on the above information, answer the following question :\n(i) What is the probability that the drawn ball bears number 8?\n(ii) What is probability that the drawn ball bears an even number?\n(iii) What is the probability that the drawn ball bears a number, which is a multiple of 3?\n(iv) What is the probability that the drawn ball is a solid coloured and bears an even number?",
+   "answer": "Total number of balls in the bowl is 15, so n(S) = 15.\n(i) Only one ball bears the number 8, so n(E) = 1 and P(drawing the ball numbered 8) = 1/15.\n(ii) The even-numbered balls are 2, 4, 6, 8, 10, 12 and 14, so n(E) = 7 and P(an even number) = 7/15.\n(iii) The multiples of 3 are 3, 6, 9, 12 and 15, so n(E) = 5 and P(a multiple of 3) = 5/15 = 1/3.\n(iv) The solid coloured balls are numbered 1 to 8, and among these the even ones are 2, 4, 6 and 8, so n(E) = 4 and P(a solid coloured ball bearing an even number) = 4/15.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "COMPETENCEY BASED QUESTIONS | Board 2023 OD Standard",
+   "images": [
+    "mch14_q157.png"
+   ],
+   "figure_required": false,
+   "ocr": "recovered by the gap pass: printed under the COMPETENCEY BASED QUESTIONS heading, which fell mid-range and was skipped. Question begins on p032 and the sub-parts and solution continue on p033. Form is case_study/4 - passage with sub-parts (i)-(iv); the board tag [Board 2023 OD Standard] printed on the Sol line is carried in section_heading. Two print slips repaired: the stem prints '15 balls numbered 1 to 151' where 15 is meant (the rest of the stem and the whole solution use 1 to 15), and sub-part (iv) prints 'bears an .even number' with a stray full stop. The pool-table photograph is scene-setting only - every number needed is stated in the text - so it is attached with figure_required false."
+  },
+  {
+   "number": "158",
+   "form": "case_study",
+   "marks": 4,
+   "page": 33,
+   "stem": "Political survey questions are questions asked to gather the opinions and attitudes of potential voters. Political survey questions help you identify supporters and understand what the public needs. Using such questions, a political candidate or an organization can formulate policies to gain support from these people.\nA survey of 100 voters was taken to gather information on critical issues and the demographic information collected is shown in the table. One out of the 100 voters is to be drawn at random to be interviewed on the India Today News on prime time.\n<table><tr><td></td><td>Women</td><td>Men</td><td>Totals</td></tr><tr><td>Republican</td><td>17</td><td>20</td><td>37</td></tr><tr><td>Democrat</td><td>22</td><td>17</td><td>39</td></tr><tr><td>Independent</td><td>8</td><td>7</td><td>15</td></tr><tr><td>Green Party</td><td>6</td><td>3</td><td>5</td></tr><tr><td>Totals</td><td>53</td><td>47</td><td>100</td></tr></table>\n(i) What is the probability the person is a woman or a Republican ?\n(ii) What is the probability the person is a Democrat ?\n(iii) What is the probability the person is a Independent men ?\n(iv) What is the probability the person is a Independent men or green party men ?\n(v) What is the probability the person is not a Independent Women or Republican men ?",
+   "answer": "Total possible outcomes in all cases is 100, because there are 100 persons in all and one of them is to be selected for the interview, so n(S) = 100.\n(i) Let E₁ be the event that the selected person is a woman or a Republican. There are 53 women, and the Republicans who are not women are the 20 Republican men, so n(E₁) = 53 + 20 = 73 and P(E₁) = 73/100 = 0.73.\n(ii) Let E₂ be the event that the person is a Democrat. n(E₂) = 39, so P(E₂) = 39/100 = 0.39.\n(iii) Let E₃ be the event that the person is an Independent man. n(E₃) = 7, so P(E₃) = 7/100 = 0.07.\n(iv) Let E₄ be the event that the person is an Independent man or a Green Party man. n(E₄) = 7 + 3 = 10, so P(E₄) = 10/100 = 0.1.\n(v) Let E₅ be the event that the person is not an Independent woman and not a Republican man. There are 8 Independent women and 20 Republican men, so n(E₅) = 100 − (8 + 20) = 72 and P(E₅) = 72/100 = 0.72.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "mch14_q158.png"
+   ],
+   "figure_required": false,
+   "ocr": "recovered by the gap pass: printed under the COMPETENCEY BASED QUESTIONS heading, which fell mid-range and was skipped. Question and table are on p033, the solution runs from p033 into p034. No board/year tag is printed. Form is case_study/4 - passage plus table with sub-parts (i)-(v). The printed table is kept verbatim although it is internally inconsistent: the Green Party row reads 6 women and 3 men but gives a row total of 5, and the Totals column then adds to 96 rather than the stated 100; with the correct Green Party total of 9 the column adds to 100. The worked solution uses n(S) = 100 and the individual cells, never the Green Party row total, so nothing in the answers depends on the misprint. The ballot illustration is decorative, so it is attached with figure_required false."
+  }
+ ]
+}

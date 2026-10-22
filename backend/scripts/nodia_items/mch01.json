@@ -1,0 +1,1794 @@
+{
+ "chapter": 1,
+ "chapter_id": 22905,
+ "extraction_id": 375,
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "stem": "If two positive integers p and q can be expressed as p = 18a²b⁴ and q = 20a³b², where a and b are prime numbers, then LCM (p, q) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2a²b²"
+    },
+    {
+     "label": "B",
+     "text": "180a²b²"
+    },
+    {
+     "label": "C",
+     "text": "12a²b²"
+    },
+    {
+     "label": "D",
+     "text": "180a³b⁴"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "LCM is the product of the greatest power of each prime factor involved in the numbers.\np = 18a²b⁴ = 2 × 3 × 3 × a × a × b × b × b × b\nq = 20a³b² = 2 × 2 × 5 × a × a × a × b × b\nLCM(p, q) = 2 × 2 × 3 × 3 × 5 × a³ × b⁴ = 180a³b⁴\nThus (d) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Printed number was swallowed by the 'OBJECTIVE QUESTIONS' heading; inferred as 1 from position (question 2 follows). Options (b) and (d) were stacked in one LaTeX array and were split back out. The printed worked solution mis-expands q as 2×2×5×a×a×b×b (one factor of a short) and mis-states p as 18ab²; both corrected from the question statement, which the final answer 180a³b⁴ confirms. The embedded text layer shows the book does print the expansions in full, q = 2 × 2 × 5 × a × a × a × b × b and p = 2 × 3 × 3 × a × a × b × b × b × b, so the missing factor of a was MinerU's OCR loss, not a misprint."
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "stem": "If p² = 32/50, then p is a/an",
+   "options": [
+    {
+     "label": "A",
+     "text": "whole number"
+    },
+    {
+     "label": "B",
+     "text": "integer"
+    },
+    {
+     "label": "C",
+     "text": "rational number"
+    },
+    {
+     "label": "D",
+     "text": "irrational number"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "p² = 32/50 = 16/25, so p = √(16/25) = 4/5.\nSince p is of the form p/q with q ≠ 0, p is a rational number.\nThus (c) is the correct option.",
+   "concept": "Definition of an irrational number",
+   "ocr": "Stem came through as 'If p2 = 5302 t hen'; the fraction 32/50 collapsed into '5302' and the exponent lost its superscript. Restored as p² = 32/50 from the worked solution, which opens with p² = 32/50 = 16/25."
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term 1 Basic",
+   "stem": "The sum of exponents of prime factors in the prime-factorisation of 196 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "5"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "196 = 4 × 49 = 2² × 7².\nThe sum of the exponents of the prime factors is 2 + 2 = 4.\nThus (b) is the correct option.",
+   "concept": "Unique product of primes"
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term 1 Standard",
+   "stem": "The values of x and y in the given figure are",
+   "options": [
+    {
+     "label": "A",
+     "text": "7, 13"
+    },
+    {
+     "label": "B",
+     "text": "13, 7"
+    },
+    {
+     "label": "C",
+     "text": "9, 12"
+    },
+    {
+     "label": "D",
+     "text": "12, 9"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "From the factor tree, 1001 = x × 143 ⇒ x = 7, and 143 = y × 11 ⇒ y = 13.\nHence x = 7, y = 13.\nThus (a) is the correct option.",
+   "concept": "Unique product of primes",
+   "images": [
+    "892c33907be264792da72ad63a527c74fecc5a1904da09ba5dbb1cce42d7136e.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "Printed number was lost; inferred as 4 from position between questions 3 and 5. The markdown image ref sits directly under the stem on page 1, so the factor-tree figure is attached to the question, not to the solution. The embedded text layer prints the stem as 'The values of x and y in the given figure are', so 'factor tree' has been replaced by the book's word 'figure'."
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Standard",
+   "stem": "The total number of factors of a prime number is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Any prime number has only two factors: 1 and the number itself.\nThus (c) is the correct option.",
+   "concept": "Unique product of primes"
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Standard",
+   "stem": "The HCF and the LCM of 12, 21, 15 respectively are",
+   "options": [
+    {
+     "label": "A",
+     "text": "3, 140"
+    },
+    {
+     "label": "B",
+     "text": "12, 420"
+    },
+    {
+     "label": "C",
+     "text": "3, 420"
+    },
+    {
+     "label": "D",
+     "text": "420, 3"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "12 = 2 × 2 × 3, 21 = 3 × 7, 15 = 3 × 5.\nHCF(12, 21, 15) = 3\nLCM(12, 21, 15) = 2 × 2 × 3 × 5 × 7 = 420\nThus (c) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Printed number appeared as a bare '6' with the full stop lost; 'We have' in the solution came through as ': have '."
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 SQP Standard",
+   "stem": "The LCM of the smallest two digit composite number and the smallest composite number is",
+   "options": [
+    {
+     "label": "A",
+     "text": "12"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "20"
+    },
+    {
+     "label": "D",
+     "text": "44"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The smallest two digit composite number is 10 and the smallest composite number is 4.\nLCM(10, 4) = 20\nThus (c) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation"
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "stem": "HCF of two numbers is 27 and their LCM is 162. If one of the numbers is 54, then the other number is",
+   "options": [
+    {
+     "label": "A",
+     "text": "36"
+    },
+    {
+     "label": "B",
+     "text": "35"
+    },
+    {
+     "label": "C",
+     "text": "9"
+    },
+    {
+     "label": "D",
+     "text": "81"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Let y be the second number. The product of two numbers equals the product of their LCM and HCF.\n54 × y = LCM × HCF\n54 × y = 162 × 27\ny = (162 × 27)/54 = 81\nThus (d) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Answer key conflicts with its own worked solution: the book prints 'Thus (b) is correct option' but the solution derives y = 81, which is option (d) — option (b) is 35. The solution wins, so correct_option is D. The solution also prints 'LCM × HCM' for 'LCM × HCF'."
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "HCF of 144 and 198 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "9"
+    },
+    {
+     "label": "B",
+     "text": "18"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "12"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Using the prime factorisation method,\n144 = 2 × 2 × 2 × 2 × 3 × 3 = 2⁴ × 3²\n198 = 2 × 3 × 3 × 11 = 2 × 3² × 11\nHCF(144, 198) = 2 × 3² = 2 × 9 = 18\nThus (b) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation"
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "225 can be expressed as",
+   "options": [
+    {
+     "label": "A",
+     "text": "5 × 3²"
+    },
+    {
+     "label": "B",
+     "text": "5² × 3"
+    },
+    {
+     "label": "C",
+     "text": "5² × 3²"
+    },
+    {
+     "label": "D",
+     "text": "5³ × 3"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "By prime factorisation of 225,\n225 = 3 × 3 × 5 × 5 = 3² × 5², or 5² × 3².\nThus (c) is the correct option.",
+   "concept": "Unique product of primes",
+   "ocr": "Options (b) and (d) were stacked together in one LaTeX array; split back into separate labelled options."
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "stem": "2√3 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "an integer"
+    },
+    {
+     "label": "B",
+     "text": "a rational number"
+    },
+    {
+     "label": "C",
+     "text": "an irrational number"
+    },
+    {
+     "label": "D",
+     "text": "a whole number"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Let us assume that 2√3 is a rational number.\nThen 2√3 = r, where r is rational, so √3 = r/2.\nBut √3 is irrational, so r/2 would have to be irrational to make the equation true. This contradicts the assumption that r is rational.\nHence our assumption is wrong and 2√3 is an irrational number.\nThus (c) is the correct option.",
+   "concept": "Definition of an irrational number",
+   "ocr": "Option label (c) was OCR-damaged to a stray 'L' ('L an irrational number'); restored to option C. The opening line of the solution was extracted inside an 'Activity Prompt' blockquote and has been folded back into the solution text."
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "The product of a non-zero rational number and an irrational number is",
+   "options": [
+    {
+     "label": "A",
+     "text": "always irrational"
+    },
+    {
+     "label": "B",
+     "text": "always rational"
+    },
+    {
+     "label": "C",
+     "text": "rational or irrational"
+    },
+    {
+     "label": "D",
+     "text": "one"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The product of a non-zero rational number and an irrational number is always irrational. For example, (3/4) × √2 = 3√2/4, which is irrational.\nThus (a) is the correct option.",
+   "concept": "Definition of an irrational number",
+   "ocr": "Option label (c) was lost and its text ran on from option (b) and split across the page break ('rational or irrationa' / 'l'); rejoined and relabelled C."
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 2014, 2011",
+   "stem": "If two positive integers a and b are written as a = x³y² and b = xy³, where x, y are prime numbers, then HCF (a, b) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "xy"
+    },
+    {
+     "label": "B",
+     "text": "xy²"
+    },
+    {
+     "label": "C",
+     "text": "x³y³"
+    },
+    {
+     "label": "D",
+     "text": "x²y²"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "a = x³y² = x × x × x × y × y\nb = xy³ = x × y × y × y\nHCF is the product of the smallest power of each common prime factor.\nHCF(a, b) = x × y × y = xy²\nThus (b) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Options (b) and (d) were stacked in one LaTeX array; split back out. The solution line prints HCF(x³y³, xy³) where the question gives a = x³y²; the expansion used, x × x × x × y × y, matches x³y²."
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2010",
+   "stem": "If two positive integers p and q can be expressed as p = ab² and q = a³b, where a, b are prime numbers, then LCM (p, q) is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "ab"
+    },
+    {
+     "label": "B",
+     "text": "a²b²"
+    },
+    {
+     "label": "C",
+     "text": "a³b²"
+    },
+    {
+     "label": "D",
+     "text": "a³b³"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "p = ab² = a × b × b\nq = a³b = a × a × a × b\nLCM is the product of the greatest power of each prime factor involved.\nLCM(p, q) = a³ × b² = a³b²\nThus (c) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Options (b) and (d) were stacked in one LaTeX array; split back out."
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 2016, 2015",
+   "stem": "The least number that is divisible by all the numbers from 1 to 10 (both inclusive) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "100"
+    },
+    {
+     "label": "C",
+     "text": "504"
+    },
+    {
+     "label": "D",
+     "text": "2520"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Factorising 1 to 10: 1 = 1, 2 = 2, 3 = 3, 4 = 2 × 2, 5 = 5, 6 = 2 × 3, 7 = 7, 8 = 2 × 2 × 2, 9 = 3 × 3, 10 = 2 × 5.\nLCM(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) = 2 × 2 × 2 × 3 × 3 × 5 × 7 = 2520\nThus (d) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "The printed factor list drops the third 2 from 8 ('8 = 1 × 2 × 2 ×') and the LCM line shows only two 2s; restored to 2 × 2 × 2 × 3 × 3 × 5 × 7, which is the printed value 2520. The embedded text layer prints 8 = 1 × 2 × 2 × 2 with all three 2s, so only the LCM line (printed 1 × 2 × 2 × 3 × 3 × 5 × 7) is short a 2."
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If p₁ and p₂ are two odd prime numbers such that p₁ > p₂, then p₁² − p₂² is",
+   "options": [
+    {
+     "label": "A",
+     "text": "an even number"
+    },
+    {
+     "label": "B",
+     "text": "an odd number"
+    },
+    {
+     "label": "C",
+     "text": "an odd prime number"
+    },
+    {
+     "label": "D",
+     "text": "a prime number"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "p₁² − p₂² is an even number.\nTake p₁ = 5 and p₂ = 3. Then p₁² − p₂² = 25 − 9 = 16, which is an even number.\nThus (a) is the correct option.",
+   "concept": "Divisibility and the division process"
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "The number 3¹³ − 3¹⁰ is divisible by",
+   "options": [
+    {
+     "label": "A",
+     "text": "2 and 3"
+    },
+    {
+     "label": "B",
+     "text": "3 and 10"
+    },
+    {
+     "label": "C",
+     "text": "2, 3 and 10"
+    },
+    {
+     "label": "D",
+     "text": "2, 3 and 13"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "3¹³ − 3¹⁰ = 3¹⁰(3³ − 1) = 3¹⁰ × 26 = 2 × 13 × 3¹⁰\nHence 3¹³ − 3¹⁰ is divisible by 2, 3 and 13.\nThus (d) is the correct option.",
+   "concept": "Divisibility and the division process",
+   "ocr": "The middle step dropped the factor 26: printed as '3¹³ − 3¹⁰ = 3¹⁰(3³ − 1) = 3¹⁰'. Restored 3¹⁰ × 26 from the next line, 2 × 13 × 3¹⁰. The embedded text layer prints the middle step in full as 3¹⁰(3³ − 1) = 3¹⁰ × 26, so the factor 26 was lost by OCR, not by the book."
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 2013",
+   "stem": "1. The L.C.M. of x and 18 is 36. 2. The H.C.F. of x and 18 is 2. What is the number x?",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "LCM × HCF = first number × second number.\nSo the required number x = (36 × 2)/18 = 4.\nThus (d) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "ocr": "'second number' in the solution was broken across a line as 'second nur / mber'; rejoined."
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If a = 2³ × 3, b = 2 × 3 × 5, c = 3ⁿ × 5 and LCM (a, b, c) = 2³ × 3² × 5, then n is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The LCM takes the greatest power of each prime. The greatest power of 3 in the LCM is 3², but a and b each contribute only 3¹, so the 3² must come from c = 3ⁿ × 5. Hence n = 2.\nThus (b) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "The question sits on page 3 and its solution on page 4; the 'Downloaded from www.pdf.tube' watermark and the '## Page 4' marker between them were stripped. The printed solution is the bare line 'Value of n must be 2'; the reasoning has been written out."
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "The least number which is a perfect square and is divisible by each of 16, 20 and 24 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "240"
+    },
+    {
+     "label": "B",
+     "text": "1600"
+    },
+    {
+     "label": "C",
+     "text": "2400"
+    },
+    {
+     "label": "D",
+     "text": "3600"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The LCM of 16, 20 and 24 is 240. The least multiple of 240 that is a perfect square is 3600. Choices (a) 240 and (c) 2400 can be eliminated at once because they are not perfect squares, and 1600 is not a multiple of 240.\nThus (d) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation"
+  },
+  {
+   "number": "21",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion (A): The HCF of two numbers is 5 and their product is 150, then their LCM is 30. Reason (R): For any two positive integers a and b, HCF (a, b) + LCM (a, b) = a × b.",
+   "assertion": "The HCF of two numbers is 5 and their product is 150, then their LCM is 30.",
+   "reason": "For any two positive integers a and b, HCF (a, b) + LCM (a, b) = a × b.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The correct relation is LCM(a, b) × HCF(a, b) = a × b, not a sum, so the reason is false.\nChecking the assertion: LCM × 5 = 150, so LCM = 150/5 = 30. The assertion is true.\nAssertion (A) is true but reason (R) is false.\nThus (c) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "The printed Reason omits the colon after 'Reason'. The legend's four options were carried through verbatim. The embedded text layer prints both 'Assertion :' and 'Reason :' with colons, so the missing-colon note described the OCR, not the book."
+  },
+  {
+   "number": "22",
+   "form": "very_short",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Standard",
+   "stem": "What is the sum of exponents of prime factors in the prime-factorisation of 196?",
+   "answer": "196 = 4 × 49 = 2² × 7². The sum of the exponents of the prime factors is 2 + 2 = 4.",
+   "concept": "Unique product of primes",
+   "ocr": "LaTeX array block rewritten to Unicode: 196 = 4 × 49 = 2² × 7². The trailing unnumbered PRACTICE item (sum of exponents for 1764, Ans 6) was not made a separate item."
+  },
+  {
+   "number": "23",
+   "form": "very_short",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Standard",
+   "stem": "Find the HCF and the LCM of 12, 21 and 15.",
+   "answer": "12 = 2 × 2 × 3, 21 = 3 × 7 and 15 = 3 × 5. Therefore HCF(12, 21, 15) = 3 and LCM(12, 21, 15) = 2 × 2 × 3 × 5 × 7 = 420.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "OCR split the words 'We have' across the LaTeX block ('~ : ~ h a v e ~'); restored. Unnumbered PRACTICE item (36, 63, 90 — Ans 9 and 1260) not made a separate item."
+  },
+  {
+   "number": "24",
+   "form": "very_short",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2016",
+   "stem": "Explain why 13233343563715 is a composite number.",
+   "answer": "The number 13233343563715 ends in 5, hence it is a multiple of 5. Since it has a factor other than 1 and itself, it is a composite number.",
+   "concept": "Divisibility and the division process"
+  },
+  {
+   "number": "25",
+   "form": "very_short",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 SQP Standard",
+   "stem": "Find the LCM of the smallest two digit composite number and the smallest composite number.",
+   "answer": "The smallest two digit composite number is 10 and the smallest composite number is 4. LCM(10, 4) = 20.",
+   "concept": "HCF and LCM by prime factorisation"
+  },
+  {
+   "number": "26",
+   "form": "very_short",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "Express 225 in prime factorization.",
+   "answer": "By prime factorization, 225 = 3 × 3 × 5 × 5 = 3² × 5² (or 5² × 3²).",
+   "concept": "Unique product of primes",
+   "ocr": "Unnumbered PRACTICE item (express 420 — Ans 2² × 3 × 5 × 7) not made a separate item."
+  },
+  {
+   "number": "27",
+   "form": "very_short",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Basic",
+   "stem": "HCF of two numbers is 27 and their LCM is 162. If one of the numbers is 54, then what is the other number?",
+   "answer": "Let y be the second number. Since the product of two numbers equals the product of their LCM and HCF, 54 × y = LCM × HCF = 162 × 27, so y = (162 × 27)/54 = 81.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Question printed at the foot of page 4 with its solution carried over to page 5; page recorded as 4. The printed solution misspells HCF as 'HCM' — corrected. The unnumbered PRACTICE item that follows (LCM of x and 18 is 36, HCF of x and 18 is 2 — Ans 4) was mis-numbered '36. 2.' by the OCR and is not made a separate item."
+  },
+  {
+   "number": "28",
+   "form": "very_short",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2012",
+   "stem": "Find the HCF and LCM of 90 and 144 by the method of prime factorization.",
+   "answer": "90 = 9 × 10 = 9 × 2 × 5 = 2 × 3² × 5 and 144 = 16 × 9 = 2⁴ × 3². Therefore HCF = 2 × 3² = 18 and LCM = 2⁴ × 3² × 5 = 720.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Unnumbered PRACTICE item (HCF of 144 and 198 — Ans 18) not made a separate item."
+  },
+  {
+   "number": "29",
+   "form": "very_short",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2014",
+   "stem": "If two positive integers a and b are written as a = x³y² and b = xy³, where x and y are prime numbers, then find HCF(a, b).",
+   "answer": "a = x³y² = x × x × x × y × y and b = xy³ = x × y × y × y. The HCF is the product of the smallest power of each common prime factor, so HCF(a, b) = x × y × y = xy².",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "LaTeX exponents rewritten to Unicode superscripts. The PRACTICE item that follows (p = ab², q = a³b, find LCM — Ans a³b²) and a marginal note on the HCF rule were interleaved with question 30 by the OCR; neither is made a separate item."
+  },
+  {
+   "number": "30",
+   "form": "very_short",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2012",
+   "stem": "What are the values of x and y in the given figure?",
+   "answer": "From the factor tree, 1001 = x × 143 ⇒ x = 7, and 143 = y × 11 ⇒ y = 13. Hence x = 7 and y = 13.",
+   "concept": "Unique product of primes",
+   "images": [
+    "34c6f08192f75736c9bc1e70aae5cafe8c7845574a9be7a953c00732f4886e4d.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "The question, its factor-tree figure and its worked solution were separated in the extraction by an interleaved PRACTICE block and a marginal note; the solution ('1001 = x × 143 ⇒ x = 7; 143 = y × 11 ⇒ y = 13') was reattached to this question. The figure is needed to answer, so it is attached."
+  },
+  {
+   "number": "31",
+   "form": "very_short",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "ONE MARK QUESTIONS | Board 2019 OD",
+   "stem": "If HCF(336, 54) = 6, find LCM(336, 54).",
+   "answer": "HCF × LCM = product of the numbers, so 6 × LCM = 336 × 54, giving LCM = (336 × 54)/6 = 56 × 54 = 3024. Thus the LCM of 336 and 54 is 3024.",
+   "concept": "HCF and LCM by prime factorisation"
+  },
+  {
+   "number": "32",
+   "form": "very_short",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2014",
+   "stem": "a and b are two positive integers such that the least prime factor of a is 3 and the least prime factor of b is 5. Then calculate the least prime factor of (a + b).",
+   "answer": "Since the least prime factor of a is 3 and the least prime factor of b is 5, both a and b are odd. Their sum a + b is therefore even, so the least prime factor of (a + b) is 2.",
+   "concept": "Divisibility and the division process",
+   "ocr": "OCR damaged the stem: 'the least prime factor of \\textup{ j{s}} 5' was restored to 'the least prime factor of b is 5' using the worked solution, which restates the condition for b."
+  },
+  {
+   "number": "33",
+   "form": "very_short",
+   "marks": 1,
+   "page": 5,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 OD 2018",
+   "stem": "What is the HCF of the smallest composite number and the smallest prime number?",
+   "answer": "The smallest prime number is 2 and the smallest composite number is 4 = 2². Hence the required HCF is HCF(4, 2) = 2.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Printed solution writes 'required HCF is (2², 2) = 2'; expanded to HCF(4, 2) = 2. Page furniture 'Click Here to Buy book on Flipkart' stripped."
+  },
+  {
+   "number": "34",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "ONE MARK QUESTIONS | Board 2007",
+   "stem": "Calculate the HCF of 3³ × 5 and 3² × 5².",
+   "answer": "3³ × 5 = 3² × 5 × 3 and 3² × 5² = 3² × 5 × 5. Therefore HCF(3³ × 5, 3² × 5²) = 3² × 5 = 9 × 5 = 45.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "OCR rendered 'We have' as 'V e ~ h a v e' inside the LaTeX block; restored."
+  },
+  {
+   "number": "35",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "ONE MARK QUESTIONS",
+   "stem": "If HCF(a, b) = 12 and a × b = 1,800, then find LCM(a, b).",
+   "answer": "We know that HCF(a, b) × LCM(a, b) = a × b. Substituting the values, 12 × LCM(a, b) = 1800, so LCM(a, b) = 1800/12 = 150.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "No board/year tag is printed for this question. Its stem sits on page 6 and the worked solution runs across the page break."
+  },
+  {
+   "number": "36",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2016, 2015",
+   "stem": "Find the smallest natural number by which 1200 should be multiplied so that the square root of the product is a rational number.",
+   "answer": "1200 = 12 × 100 = 4 × 3 × 4 × 25 = 4² × 3 × 5². If we multiply by 3, the product becomes 4² × 3² × 5² and its square root is 4 × 3 × 5 = 60, which is a rational number. Thus the required smallest natural number is 3.",
+   "concept": "Unique product of primes",
+   "ocr": "The OCR also emitted a stray '36.' earlier on page 5 belonging to an unnumbered PRACTICE block under question 27; this item is the genuine printed question 36."
+  },
+  {
+   "number": "37",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2012",
+   "stem": "Can two numbers have 15 as their HCF and 175 as their LCM? Give reasons.",
+   "answer": "No. The LCM of two numbers is always exactly divisible by their HCF. Since 15 does not divide 175, two numbers cannot have their HCF as 15 and their LCM as 175.",
+   "concept": "HCF and LCM by prime factorisation"
+  },
+  {
+   "number": "38",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "ONE MARK QUESTIONS | Board 2010",
+   "stem": "Find the least number that is divisible by all numbers between 1 and 10 (both inclusive).",
+   "answer": "The required number is the LCM of 1, 2, 3, 4, 5, 6, 7, 8, 9 and 10. LCM = 2 × 2 × 3 × 2 × 3 × 5 × 7 = 2520.",
+   "concept": "HCF and LCM by prime factorisation"
+  },
+  {
+   "number": "39",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2015",
+   "stem": "Find the HCF of the numbers given below: k, 2k, 3k, 4k and 5k, where k is a positive integer.",
+   "answer": "k is a common factor of all of these numbers and it is the highest such factor. Thus the HCF of k, 2k, 3k, 4k and 5k is k.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "The text layer prints a board tag for this question — 'Sol : [Board Term-1 2015]' — so the earlier note that no board/year tag is printed was wrong; tag restored to the section heading."
+  },
+  {
+   "number": "40",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "section_heading": "ONE MARK QUESTIONS | Board Term-1 2015",
+   "stem": "Complete the following factor tree and find the composite number x.",
+   "answer": "From the factor tree, y = 5 × 13 = 65 and x = 3 × 195 = 585. Hence the composite number x is 585.",
+   "concept": "Unique product of primes",
+   "images": [
+    "cb8519d11f3596ae25ebae44aef635d031865111dd88503691a6f6e5c67065e5.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "The factor tree is part of the question (it must be completed to answer it), so the page 6 figure printed with the stem is attached."
+  },
+  {
+   "number": "41",
+   "page": 6,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2024 OD Standard",
+   "stem": "Prove that 5 − 2√3 is an irrational number. It is given that √3 is an irrational number.",
+   "answer": "Assume that 5 − 2√3 is a rational number. Then it can be written as p/q where p and q are co-prime integers and q ≠ 0, so 5 − 2√3 = p/q. Rewriting, 2√3 = 5 − p/q, i.e. √3 = (5q − p)/(2q). Here (5q − p)/(2q) is rational because p and q are co-prime integers, so √3 would have to be a rational number. But √3 is irrational. This contradicts the given fact. Hence 5 − 2√3 is an irrational number.",
+   "concept": "Proof by contradiction for root 2",
+   "ocr": "LaTeX rewritten to Unicode; stray MinerU artefact \\mathit{\\Omega} after 5 − 2√3 dropped.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "42",
+   "page": 6,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2024 OD Standard",
+   "stem": "Show that the number 5 × 11 × 17 + 3 × 11 is a composite number.",
+   "answer": "5 × 11 × 17 + 3 × 11 = 11(5 × 17 + 3) = 11 × (85 + 3) = 11 × 88 = 11 × 8 × 11 = 2³ × 11². Since 5 × 11 × 17 + 3 × 11 can be factorised as 2³ × 11², it has factors other than 1 and itself. Thus it is a composite number.",
+   "concept": "Unique product of primes",
+   "ocr": "Text layer prints \"Sol : [Board 2024 OD Standard]\" for this question; the board attribution had been dropped from the section heading and is restored.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "43",
+   "page": 7,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2023 OD Standard",
+   "stem": "Show that 6ⁿ cannot end with digit 0 for any natural number n.",
+   "answer": "If the number 6ⁿ, for any n, were to end with the digit zero, then it would be divisible by 5, i.e. the prime factorisation of 6ⁿ would contain the prime 5. This is not possible because the only primes in the factorisation of 6ⁿ = (2 × 3)ⁿ are 2 and 3. The uniqueness of the Fundamental Theorem of Arithmetic guarantees that there are no other primes in the factorisation of 6ⁿ. Since there is no prime factor 5, 6ⁿ cannot end with the digit zero.",
+   "concept": "Unique product of primes",
+   "ocr": "Printed worked solution repeatedly reads \"end with the digit five\" although the question asks about digit 0 and the argument is the divisibility-by-5 one; restored to \"zero\" to match the question and the solution's own reasoning. OCR also damaged \"6^{\\pi}\" -> 6ⁿ and \"prime n the actorization\" -> \"prime in the factorisation\".",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "44",
+   "page": 7,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2023 OD Standard",
+   "stem": "Find the HCF and LCM of 72 and 120.",
+   "answer": "By prime factorisation, 72 = 2³ × 3² and 120 = 2³ × 3¹ × 5¹. HCF(72, 120) = 2³ × 3¹ = 8 × 3 = 24. LCM(72, 120) = 2³ × 3² × 5 = 8 × 9 × 5 = 360. Thus the HCF and LCM of 72 and 120 are 24 and 360 respectively.",
+   "concept": "HCF and LCM by prime factorisation",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "45",
+   "page": 7,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2023 OD Standard",
+   "stem": "Find the HCF and LCM of 26, 65 and 117, using prime factorisation.",
+   "answer": "Using prime factorisation, 26 = 2 × 13, 65 = 5 × 13 and 117 = 3² × 13. HCF(26, 65, 117) = 13. LCM(26, 65, 117) = 2 × 5 × 3² × 13 = 1170.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "OCR printed \"1 CF (26, 65, 117) = 13\"; restored to HCF.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "46",
+   "page": 7,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "stem": "Explain why (7 × 13 × 11) + 11 and (7 × 6 × 5 × 4 × 3 × 2 × 1) + 3 are composite numbers.",
+   "answer": "(7 × 13 × 11) + 11 = 11 × (7 × 13 + 1) = 11 × (91 + 1) = 11 × 92. And (7 × 6 × 5 × 4 × 3 × 2 × 1) + 3 = 3(7 × 6 × 5 × 4 × 2 × 1 + 1) = 3 × 1681 = 3 × 41 × 41. Since the given numbers have more than two prime factors, both numbers are composite.",
+   "concept": "Unique product of primes",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "47",
+   "page": 7,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2017",
+   "stem": "Explain whether 3 × 12 × 101 + 4 is a prime number or a composite number.",
+   "answer": "A prime number is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers; a natural number greater than 1 that is not prime is called a composite number. Every composite number can be written as the product of two or more (not necessarily distinct) primes. Here 3 × 12 × 101 + 4 = 4(3 × 3 × 101 + 1) = 4(909 + 1) = 4(910) = 2 × 2 × (10 × 7 × 13) = 2 × 2 × 2 × 5 × 7 × 13, which is a composite number.",
+   "concept": "Unique product of primes",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "48",
+   "page": 7,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "Given that HCF (306, 1314) = 18. Find LCM (306, 1314).",
+   "answer": "Let a = 306 and b = 1314. We know LCM(a, b) × HCF(a, b) = a × b. Substituting, LCM(a, b) × 18 = 306 × 1314, so LCM(a, b) = (306 × 1314)/18. Thus LCM(306, 1314) = 22,338.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Printed stem lost the comma: \"LCM (306 1314)\" -> LCM (306, 1314).",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "49",
+   "page": 8,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015, 2014",
+   "stem": "Complete the following factor tree and find the composite number x. (Factor tree: x branches into 2 and 3381; 3381 into 3 and y; y into 7 and 161; 161 into 7 and z.)",
+   "answer": "Completing the given factor tree by writing the variables y and z: z = 161/7 = 23, y = 7 × 161 = 1127, and the composite number x = 2 × 3381 = 6762.",
+   "concept": "Unique product of primes",
+   "images": [
+    "bba7ef905ab614bb6b7be0564d86335973f93c8fa1c5ea65a6c6f4079476c0c9.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "The second figure on page 8 (ca01169b....jpg) is the completed tree that belongs to the worked solution only, so it is not attached to the question. The bracketed reading of the attached factor tree was appended to the printed one-line stem: three of these questions are printed with identical wording and are told apart only by their figures.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "49a",
+   "page": 8,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2013 | PRACTICE",
+   "stem": "Complete the factor-tree and find the composite number M. (Factor tree: M branches into 2 and N; N into 2 and 8190; 8190 into 2 and 4095; 4095 into O and 1365; 1365 into 3 and 455; 455 into 5 and 91; 91 into P and Q.)",
+   "answer": "M = 32760, N = 16380, O = 3, P = 7 and Q = 13.",
+   "concept": "Unique product of primes",
+   "images": [
+    "918e5c9b9a72e9afba4b594e4e2b05b453ab73f144e6e970d98677e18590dac7.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "Unnumbered PRACTICE question printed after Q49; number inferred from position as 49a. Printed key OCR'd as \"4ns :\" -> \"Ans :\". The bracketed reading of the attached factor tree was appended to the printed one-line stem: three of these questions are printed with identical wording and are told apart only by their figures.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "49b",
+   "page": 8,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015 | PRACTICE",
+   "stem": "Complete the following factor tree and find the composite number x. (Factor tree: x branches into 3 and 195; 195 into 3 and y; y into 5 and 13.)",
+   "answer": "x = 585 and y = 65.",
+   "concept": "Unique product of primes",
+   "images": [
+    "13a5c129d2a5267a0ad3d1c48de5e0fc8118f48e44a02d6251f76c67b39a1110.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "Unnumbered PRACTICE question printed after Q49; number inferred from position as 49b. The bracketed reading of the attached factor tree was appended to the printed one-line stem: three of these questions are printed with identical wording and are told apart only by their figures.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "49c",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015 | PRACTICE",
+   "stem": "Complete the following factor tree and find the composite number x. (Factor tree: x branches into 2 and y; y into 3 and 1855; 1855 into 5 and 371; 371 into 7 and z.)",
+   "answer": "x = 11130, y = 5565 and z = 53.",
+   "concept": "Unique product of primes",
+   "images": [
+    "99f8a87d4b60db0419cf5e6d50f343e28dbe61071f6cb4df569da0a739a1efe5.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "Unnumbered PRACTICE question printed after Q49; number inferred from position as 49c. Stem sits at the foot of page 8 and its figure/answer run onto page 9; page recorded as 9 to match the figure. Page furniture \"Click Here to Buy book on Amazon\" stripped from the stem. The bracketed reading of the attached factor tree was appended to the printed one-line stem: three of these questions are printed with identical wording and are told apart only by their figures.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "49d",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012 | PRACTICE",
+   "stem": "Find the missing numbers a, b, c and d in the given factor tree. (Factor tree: 18018 branches into 2 and 9009; 9009 into a and 3003; 3003 into 3 and 1001; 1001 into b and 143; 143 into c and d.)",
+   "answer": "a = 3, b = 7, c = 13 and d = 11. From the tree, 9009 = a × 3003 gives a = 3, 1001 = b × 143 gives b = 7, and 143 = 11 × 13 gives the pair c, d.",
+   "concept": "Unique product of primes",
+   "images": [
+    "b34d20f0e9ce3facfe093fba43dd59843654fd3bf40375d704139d24b1f7cc73.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "Unnumbered PRACTICE question printed after Q49; number inferred from position as 49d. The printed key reads \"Ans c = 11, b = 7, c = 13 and d = 11\" - it names c twice and its first value contradicts the figure, since 9009 = 3 × 3003 forces a = 3, not 11. The figure wins: a = 3. b = 7 and the pair {c, d} = {11, 13} are kept as printed (c = 13, d = 11); their order is interchangeable because 143 = 11 × 13. The bracketed reading of the attached factor tree was appended to the printed one-line stem: three of these questions are printed with identical wording and are told apart only by their figures.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "50",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015",
+   "stem": "Check whether 4ⁿ can end with the digit 0 for any natural number n.",
+   "answer": "If the number 4ⁿ, for any n, were to end with the digit zero, then it would be divisible by 5 and 2, i.e. the prime factorisation of 4ⁿ would contain the primes 5 and 2. This is not possible because the only prime in the factorisation of 4ⁿ = 2²ⁿ is 2. The uniqueness of the Fundamental Theorem of Arithmetic guarantees that there are no other primes in the factorisation of 4ⁿ. So there is no natural number n for which 4ⁿ ends with the digit zero. Hence 4ⁿ cannot end with the digit zero.",
+   "concept": "Unique product of primes",
+   "ocr": "OCR damage repaired: \"4^{\\pi}\" -> 4ⁿ, \"prime actorization\" -> \"prime factorisation\".",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "50a",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012 | PRACTICE",
+   "stem": "Check whether (15)ⁿ can end with digit 0 for any n ∈ N.",
+   "answer": "No.",
+   "concept": "Unique product of primes",
+   "ocr": "Unnumbered PRACTICE question printed after Q50; number inferred from position as 50a. Book prints only \"Ans : No\".",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "50b",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012 | PRACTICE",
+   "stem": "Show that 7ⁿ cannot end with the digit zero, for any natural number n.",
+   "answer": "If 7ⁿ ended with the digit zero it would be divisible by 5 and by 2, so its prime factorisation would contain 5 and 2. But the only prime in the factorisation of 7ⁿ is 7, and by the uniqueness of the Fundamental Theorem of Arithmetic no other prime can appear. Hence 7ⁿ can never end with the digit zero.",
+   "concept": "Unique product of primes",
+   "ocr": "Unnumbered PRACTICE question printed after Q50; number inferred from position as 50b. The book prints only \"Ans : Proof\"; the proof given here follows the worked argument of Q50 in the same section.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "50c",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015 | PRACTICE",
+   "stem": "Show that numbers 8ⁿ can never end with digit 0 for any natural number n.",
+   "answer": "If 8ⁿ ended with the digit zero it would be divisible by 5 and by 2, so its prime factorisation would contain 5 and 2. But 8ⁿ = 2³ⁿ has 2 as its only prime factor, and by the uniqueness of the Fundamental Theorem of Arithmetic no other prime can appear. Hence 8ⁿ can never end with the digit zero.",
+   "concept": "Unique product of primes",
+   "ocr": "Unnumbered PRACTICE question printed after Q50; number inferred from position as 50c. Printed stem reads \"of any natural number n\" -> \"for any natural number n\". The book prints only \"Ans : Proof\"; the proof given here follows the worked argument of Q50.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "51",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015",
+   "stem": "Show that 5√6 is an irrational number.",
+   "answer": "Let 5√6 be a rational number, which can be expressed as a/b where b ≠ 0 and a, b are co-prime. Then 5√6 = a/b, so √6 = a/(5b), i.e. √6 = rational. But √6 is an irrational number. Thus our assumption is wrong. Hence 5√6 is an irrational number.",
+   "concept": "Proof by contradiction for root 2",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "52",
+   "page": 9,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "Write a rational number between √2 and √3.",
+   "answer": "We need a rational number x such that (1/10)√200 < x < (1/10)√300. Choosing any perfect square such as 225 or 256 lying between 200 and 300: x = √(225/100) = 15/10 = 3/2. Similarly, choosing 256, x = √(256/100) = 16/10 = 8/5. So 3/2 (or 8/5) is a rational number between √2 and √3.",
+   "concept": "Definition of an irrational number",
+   "ocr": "The printed solution states \"15/10 = 5/3\", which contradicts its own arithmetic (15/10 = 3/2, and 5/3 is not obtainable from 225/100). The worked computation wins: recorded as 3/2.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "53",
+   "page": 10,
+   "section_heading": "TWO MARKS QUESTIONS",
+   "stem": "Show that 571 is a prime number.",
+   "answer": "Let x = 571, so √x = √571. Now 571 lies between the perfect squares (23)² = 529 and (24)² = 576. The prime numbers less than 24 are 2, 3, 5, 7, 11, 13, 17, 19 and 23. Since 571 is not divisible by any of these numbers, 571 is a prime number.",
+   "concept": "Divisibility and the division process",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "54",
+   "page": 10,
+   "section_heading": "TWO MARKS QUESTIONS | Sample Paper 2017",
+   "stem": "If two positive integers p and q are written as p = a²b³ and q = a³b, where a and b are prime numbers, then verify LCM(p, q) × HCF(p, q) = pq.",
+   "answer": "We have p = a²b³ = a × a × b × b × b and q = a³b = a × a × a × b. Now LCM(p, q) = a × a × a × b × b × b = a³b³ and HCF(p, q) = a × a × b = a²b. Therefore LCM(p, q) × HCF(p, q) = a³b³ × a²b = a⁵b⁴ = a²b³ × a³b = pq. Hence verified.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Printed stem reads \"HCF (q, q)\"; corrected to HCF(p, q), as the worked solution computes HCF(p, q).",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "55",
+   "page": 10,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2010",
+   "stem": "Prove that 3 + √5 is an irrational number.",
+   "answer": "Assume that 3 + √5 is a rational number. Then 3 + √5 = p/q with q ≠ 0, so √5 = p/q − 3 = (p − 3q)/q. Here √5 is irrational while (p − 3q)/q is rational, and a rational number cannot be equal to an irrational number. Hence 3 + √5 is an irrational number.",
+   "concept": "Proof by contradiction for root 2",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "56",
+   "page": 10,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2016",
+   "stem": "Show that any positive even integer can be written in the form 6q, 6q + 2 or 6q + 4, where q is an integer.",
+   "answer": "Let a be any positive integer. By Euclid's division algorithm a can be written as a = bq + r. Take b = 6; then 0 ≤ r < 6 because 0 ≤ r < b. Thus a = 6q, 6q + 1, 6q + 2, 6q + 3, 6q + 4 or 6q + 5. Here 6q, 6q + 2 and 6q + 4 are divisible by 2, so they are even positive integers. Hence a is always an even integer if a = 6q, 6q + 2 or 6q + 4.",
+   "concept": "Divisibility and the division process",
+   "ocr": "OCR mangled the division lemma to \"= -bq + r\"; restored to a = bq + r from the surrounding solution. Text layer prints \"Sol : [Board Term1, 2016]\" for this question; the missing board attribution is restored, normalised to the file's \"Board Term-1 2016\" style.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "56a",
+   "page": 10,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2019, 2017 | PRACTICE",
+   "stem": "Show that any positive odd integer is of the form 4q + 1 or 4q + 3, where q is some integer.",
+   "answer": "By Euclid's division algorithm, a = 4q + r with 0 ≤ r < 4, so a = 4q, 4q + 1, 4q + 2 or 4q + 3. Of these 4q and 4q + 2 are divisible by 2 and hence even, so every positive odd integer is of the form 4q + 1 or 4q + 3.",
+   "concept": "Divisibility and the division process",
+   "ocr": "Unnumbered PRACTICE question printed after Q56; number inferred from position as 56a. The book prints only \"Ans : Proof\"; the proof given here follows the worked argument of Q56.",
+   "form": "very_short",
+   "marks": 2
+  },
+  {
+   "number": "57",
+   "form": "short",
+   "marks": 3,
+   "page": 10,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2023 OD Standard",
+   "stem": "Prove that √2 is an irrational number.",
+   "answer": "Assume that √2 is a rational number. Then it can be written as √2 = p/q, where p and q are co-prime integers and q ≠ 0.\nSo p = q√2.\nSquaring both sides, p² = 2q².\nThus 2 is a factor of p², and hence 2 is a factor of p.\nLet p = 2c, where c is some integer. Then p² = 4c².\nSubstituting p² = 2q², we get 2q² = 4c², i.e. q² = 2c².\nThus 2 is a factor of q², and hence 2 is a factor of q.\nSo 2 is a common factor of p and q, which contradicts the fact that p and q are co-prime.\nHence our assumption is wrong, and √2 is an irrational number.",
+   "concept": "Proof by contradiction for root 2",
+   "ocr": "LaTeX rewritten to Unicode. The scan prints the substitution step as 'Substituting p = 2q²'; the printed algebra (p² = 4c² giving 2q² = 4c²) requires p² = 2q², so the line was restored."
+  },
+  {
+   "number": "58",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2024 OD Standard",
+   "stem": "In a teachers' workshop, the number of teachers teaching French, Hindi and English are 48, 80 and 144 respectively. Find the minimum number of rooms required if in each room the same number of teachers are seated and all of them are of the same subject.",
+   "answer": "The number of rooms will be minimum if every room has the maximum number of participants, so the number of teachers in each room must be the HCF of 48, 80 and 144.\n48 = 2⁴ × 3\n80 = 2⁴ × 5\n144 = 2⁴ × 3²\nHCF(48, 80, 144) = 2⁴ = 16, so 16 teachers can be seated in each room.\nMinimum number of rooms = (48 + 80 + 144)/16 = 272/16 = 17.\nThus the minimum number of rooms required is 17.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "LaTeX rewritten to Unicode."
+  },
+  {
+   "number": "59",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 SQP Standard",
+   "stem": "Given that √5 is irrational, prove that 2√5 − 3 is an irrational number.",
+   "answer": "Assume that 2√5 − 3 is a rational number. Then it can be written as 2√5 − 3 = p/q, where p and q are co-prime integers and q ≠ 0.\nRewriting, 2√5 = p/q + 3, so √5 = (p + 3q)/(2q).\nHere (p + 3q)/(2q) is rational because p and q are integers, so √5 would have to be a rational number.\nBut this contradicts the given fact that √5 is irrational.\nHence 2√5 − 3 is an irrational number.",
+   "concept": "Definition of an irrational number",
+   "ocr": "LaTeX rewritten to Unicode."
+  },
+  {
+   "number": "59a",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board 2008, 2015",
+   "stem": "Given that √3 is irrational, prove that 2√3 − 5 is an irrational number.",
+   "answer": "Assume that 2√3 − 5 is a rational number, so 2√3 − 5 = p/q where p and q are co-prime integers and q ≠ 0.\nThen 2√3 = p/q + 5, so √3 = (p + 5q)/(2q).\nThe right-hand side is rational, so √3 would be rational, which contradicts the given fact that √3 is irrational.\nHence 2√3 − 5 is an irrational number.",
+   "concept": "Definition of an irrational number",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q59; numbered '59a' from its position. The printed key gives only 'Ans Proof', so the proof is written out following the model solution of Q59."
+  },
+  {
+   "number": "60",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2018",
+   "stem": "Given that √2 is irrational, prove that (5 + 3√2) is an irrational number.",
+   "answer": "Assume that (5 + 3√2) is a rational number. Then it can be written as 5 + 3√2 = p/q, where p and q are co-prime integers and q ≠ 0.\nRewriting, 3√2 = p/q − 5, so √2 = (p − 5q)/(3q).\nHere (p − 5q)/(3q) is rational because p and q are integers, so √2 would have to be a rational number.\nBut this contradicts the given fact that √2 is irrational.\nHence (5 + 3√2) is an irrational number.",
+   "concept": "Definition of an irrational number",
+   "ocr": "The scan prints 'Given that √2 s irrational'; the dropped letter in 'is' was restored. LaTeX rewritten to Unicode."
+  },
+  {
+   "number": "60a",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board 2020 Delhi Basic",
+   "stem": "Given that √3 is irrational, prove that (5 + 2√3) is an irrational number.",
+   "answer": "Assume that (5 + 2√3) is a rational number, so 5 + 2√3 = p/q where p and q are co-prime integers and q ≠ 0.\nThen 2√3 = p/q − 5, so √3 = (p − 5q)/(2q).\nThe right-hand side is rational, so √3 would be rational, which contradicts the given fact that √3 is irrational.\nHence (5 + 2√3) is an irrational number.",
+   "concept": "Definition of an irrational number",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q60; numbered '60a' from its position. The printed key gives only 'Ans Proof', so the proof is written out following the model solution of Q60."
+  },
+  {
+   "number": "60b",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board 2019 OD",
+   "stem": "Prove that 2 + 5√3 is an irrational number, given that √3 is an irrational number.",
+   "answer": "Assume that 2 + 5√3 is a rational number, so 2 + 5√3 = p/q where p and q are co-prime integers and q ≠ 0.\nThen 5√3 = p/q − 2 = (p − 2q)/q, so √3 = (p − 2q)/(5q).\nThe right-hand side is rational, so √3 would be rational, which contradicts the given fact that √3 is irrational.\nHence 2 + 5√3 is an irrational number.",
+   "concept": "Definition of an irrational number",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q60; numbered '60b' from its position. The printed key gives only 'Ans Proof', so the proof is written out following the model solution of Q60."
+  },
+  {
+   "number": "60c",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board 2019 Delhi",
+   "stem": "Prove that (2 + √3)/5 is an irrational number, given that √3 is an irrational number.",
+   "answer": "Assume that (2 + √3)/5 is a rational number, so (2 + √3)/5 = p/q where p and q are co-prime integers and q ≠ 0.\nThen 2 + √3 = 5p/q, so √3 = 5p/q − 2 = (5p − 2q)/q.\nThe right-hand side is rational, so √3 would be rational, which contradicts the given fact that √3 is irrational.\nHence (2 + √3)/5 is an irrational number.",
+   "concept": "Definition of an irrational number",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q60; numbered '60c' from its position. The printed key gives only 'Ans Proof', so the proof is written out following the model solution of Q60."
+  },
+  {
+   "number": "61",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2019 OD",
+   "stem": "Write the smallest number which is divisible by both 306 and 657.",
+   "answer": "The smallest number that is divisible by two numbers is obtained by finding the LCM of those numbers.\n306 = 6 × 51 = 3 × 2 × 3 × 17 = 2 × 3² × 17\n657 = 9 × 73 = 3 × 3 × 73 = 3² × 73\nLCM(306, 657) = 2 × 3 × 3 × 17 × 73 = 22338\nHence the smallest number which is divisible by both 306 and 657 is 22338.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "LaTeX rewritten to Unicode."
+  },
+  {
+   "number": "62",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "144 cartons of Coke cans and 90 cartons of Pepsi cans are to be stacked in a canteen. If each stack is of the same height and if it is to contain cartons of the same drink, what would be the greatest number of cartons each stack would have?",
+   "answer": "The required answer is the HCF of 144 and 90.\n144 = 2⁴ × 3²\n90 = 2 × 3² × 5\nHCF(144, 90) = 2 × 3² = 18\nThus each stack would have 18 cartons.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "The prime-factorisation block collapsed in the scan: only '144 = 2⁴ × 3²' survived, followed by three blank rows where '90 = 2 × 3² × 5' and 'HCF(144, 90) = 2 × 3² = 18' should be; both were restored from the printed conclusion '18 cartons'. The stem's garbled 'if it equal contain cartons' was read as 'if it is to contain cartons'. The text layer prints the same ‘if it equal contain cartons’, so that wording is the book’s own typo and not OCR damage; the readable reading is kept in the stem. The text layer also confirms the two restored lines verbatim: 90 = 2 × 3² × 5 and HCF(144, 90) = 2 × 3² = 18."
+  },
+  {
+   "number": "63",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "Three bells toll at intervals of 9, 12, 15 minutes respectively. If they start tolling together, after what time will they next toll together?",
+   "answer": "The required answer is the LCM of 9, 12 and 15 minutes. Finding the prime factors of the given numbers,\n9 = 3 × 3 = 3²\n12 = 2 × 2 × 3 = 2² × 3\n15 = 3 × 5\nLCM(9, 12, 15) = 2² × 3² × 5 = 180 minutes\nThe bells will toll next together after 180 minutes, i.e. after 3 hours.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "The scan's LCM line reads '2² × 3² × 5 = 150 minutes', which is arithmetically wrong and contradicts the book's own conclusion 'The bells will toll next together after 180 minutes'. The solution wins, so 180 minutes is used."
+  },
+  {
+   "number": "64",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2009",
+   "stem": "Find HCF and LCM of 16 and 36 by prime factorization and check your answer.",
+   "answer": "Finding the prime factors of the given numbers,\n16 = 2 × 2 × 2 × 2 = 2⁴\n36 = 2 × 2 × 3 × 3 = 2² × 3²\nHCF(16, 36) = 2 × 2 = 4\nLCM(16, 36) = 2⁴ × 3² = 16 × 9 = 144\nCheck: HCF(a, b) × LCM(a, b) = a × b\n4 × 144 = 16 × 36\n576 = 576\nThus LHS = RHS.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "The closing line of the check is truncated to a bare ‘Thus’ in the scan; the text layer shows the book prints ‘Thus LHS = RHS’ and stops there, so the previously supplied closing sentence ‘Thus HCF = 4 and LCM = 144, and the answer is verified’ was replaced by the printed line. LaTeX rewritten to Unicode."
+  },
+  {
+   "number": "64a",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board Term-1 2011",
+   "stem": "Find the HCF and LCM of 510 and 92 and verify that HCF × LCM = Product of two given numbers.",
+   "answer": "510 = 2 × 3 × 5 × 17 and 92 = 2² × 23.\nHCF(510, 92) = 2\nLCM(510, 92) = 2² × 3 × 5 × 17 × 23 = 23460\nVerification: HCF × LCM = 2 × 23460 = 46920 and 510 × 92 = 46920, so HCF × LCM = product of the two numbers.\nHence HCF = 2 and LCM = 23460.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q64; numbered '64a' from its position. The printed key gives only 'Ans : 2, 23460'; the working shown here is the standard prime-factorisation route to that key."
+  },
+  {
+   "number": "64b",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board 2018",
+   "stem": "Find HCF and LCM of 404 and 96 and verify that HCF × LCM = Product of the two given numbers.",
+   "answer": "404 = 2² × 101 and 96 = 2⁵ × 3.\nHCF(404, 96) = 2² = 4\nLCM(404, 96) = 2⁵ × 3 × 101 = 9696\nVerification: HCF × LCM = 4 × 9696 = 38784 and 404 × 96 = 38784, so HCF × LCM = product of the two numbers.\nHence HCF = 4 and LCM = 9696.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q64; numbered '64b' from its position. The printed key gives only 'Ans 4, 9696'; the working shown here is the standard prime-factorisation route to that key."
+  },
+  {
+   "number": "65",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2016",
+   "stem": "The length, breadth and height of a room are 8 m 50 cm, 6 m 25 cm and 4 m 75 cm respectively. Find the length of the longest rod that can measure the dimensions of the room exactly.",
+   "answer": "Here we have to determine the HCF of all the lengths, since that is the largest measure which can measure every dimension exactly.\nLength l = 8 m 50 cm = 850 cm = 50 × 17 = 2 × 5² × 17\nBreadth b = 6 m 25 cm = 625 cm = 25 × 25 = 5⁴\nHeight h = 4 m 75 cm = 475 cm = 25 × 19 = 5² × 19\nHCF(l, b, h) = HCF(850, 625, 475) = HCF(2 × 5² × 17, 5⁴, 5² × 19) = 5² = 25 cm\nThus a rod of 25 cm can measure the dimensions of the room exactly, and it is the longest such rod.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Badly damaged formula block: the row labels read 'l.ength', 'Breadilh', 'Heighl'; the length row reads '8 m so co = 850 cm'; the HCF row reads 'HCF (550, 625, 475)' where 850 is required (the factorisation printed directly above it is 850 = 2 × 5² × 17); and the final line reads '= E² = 25 cm' for 5² = 25 cm. All restored from the arithmetic and from the printed conclusion '25 cm rod'."
+  },
+  {
+   "number": "66",
+   "form": "long",
+   "marks": 5,
+   "page": 12,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "If p is a prime number, then prove that √p is an irrational number.",
+   "answer": "Let p be a prime number and, if possible, let √p be rational. Then √p = m/n, where m and n are co-prime and n ≠ 0. Squaring both sides, p = m²/n², so m² = pn². Here p divides pn², so p divides m², and hence p divides m. Let m = pq for some integer q. Substituting m = pq in m² = pn² gives pn² = p²q², i.e. n² = pq². Here p divides pq², so p divides n², and hence p divides n. Thus p is a common factor of m and n, which contradicts the fact that m and n are co-prime. The contradiction arises from assuming that √p is rational. Hence √p is irrational.",
+   "concept": "If p divides a squared it divides a",
+   "figure_required": false,
+   "ocr": "LaTeX rewritten to Unicode (√p, m², n²). MinerU rendered the step 'p = m²/n²' inside an array environment; restored as m² = pn². The printed line 'this contradicts the fact that m and n are primes' is a misprint for 'co-prime' and has been corrected."
+  },
+  {
+   "number": "67",
+   "form": "long",
+   "marks": 5,
+   "page": 13,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 OD Basic",
+   "stem": "Prove that √3 is an irrational number.",
+   "answer": "Assume that √3 is a rational number. Then √3 = a/b, where a and b are co-prime integers and b ≠ 0. So a = b√3. Squaring both sides, a² = 3b². Thus 3 is a factor of a², and hence 3 is a factor of a. Let a = 3c, where c is some integer. Then a² = 9c². Substituting a² = 3b² gives 3b² = 9c², i.e. b² = 3c². Thus 3 is a factor of b², and hence 3 is a factor of b. So 3 is a common factor of a and b, which contradicts the fact that a and b are co-prime. Hence our assumption is wrong and √3 is irrational.",
+   "concept": "Proof by contradiction for root 2",
+   "figure_required": false,
+   "ocr": "LaTeX rewritten to Unicode. The printed line 'where a and b are co-prime integers and q ≠ 0' uses q for b; corrected to b ≠ 0."
+  },
+  {
+   "number": "67a",
+   "form": "long",
+   "marks": 5,
+   "page": 13,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 OD Standard",
+   "stem": "Prove that √5 is an irrational number.",
+   "answer": "Proof. The book prints only 'Ans : Proof' for this alternative question; the argument is the same proof by contradiction as for √3, with 3 replaced by 5: assume √5 = a/b with a, b co-prime, square to get a² = 5b², deduce 5 divides a and then 5 divides b, contradicting co-primality.",
+   "concept": "Proof by contradiction for root 2",
+   "figure_required": false,
+   "ocr": "Printed as an unnumbered alternative question immediately after Q67 with only 'Ans Proof'; number inferred from position and suffixed 'a' to stay unique."
+  },
+  {
+   "number": "67b",
+   "form": "long",
+   "marks": 5,
+   "page": 13,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "Prove that √2 is an irrational number.",
+   "answer": "Proof. The book prints only 'Ans : Proof' for this alternative question; the argument is the standard contradiction: assume √2 = a/b with a, b co-prime, square to get a² = 2b², deduce 2 divides a and then 2 divides b, contradicting co-primality.",
+   "concept": "Proof by contradiction for root 2",
+   "figure_required": false,
+   "ocr": "Printed as an unnumbered alternative question after Q67 with only 'Ans Proof'; number inferred from position and suffixed 'b' to stay unique."
+  },
+  {
+   "number": "68",
+   "form": "long",
+   "marks": 5,
+   "page": 13,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "Prove that √5 is an irrational number and hence show that 2 - √5 is also an irrational number.",
+   "answer": "Assume that √5 is rational. Then √5 = a/b, where a and b are co-prime and b ≠ 0, so a = b√5. Squaring, a² = 5b². Thus 5 is a factor of a², and hence 5 is a factor of a. Let a = 5c. Then a² = 25c², and substituting a² = 5b² gives 5b² = 25c², i.e. b² = 5c². Thus 5 is a factor of b², and hence of b. So 5 is a common factor of a and b, contradicting that a and b are co-prime. Hence √5 is irrational.\nNow let 2 - √5 be rational and equal to a. Then 2 - √5 = a, so 2 - a = √5. Since 2 - a is rational but √5 is irrational, and a rational number cannot equal an irrational number, we get a contradiction. Hence 2 - √5 is irrational.",
+   "concept": "Definition of an irrational number",
+   "figure_required": false,
+   "ocr": "LaTeX rewritten to Unicode. The second half of the worked solution was tagged by MinerU as an 'Activity Prompt' blockquote; it is part of the solution and has been merged back."
+  },
+  {
+   "number": "68a",
+   "form": "long",
+   "marks": 5,
+   "page": 13,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2012",
+   "stem": "Prove that √3 is an irrational number. Hence, show that 7 - 2√3 is also an irrational number.",
+   "answer": "Proof. The book prints only 'Ans : Proof' for this alternative question. Prove √3 irrational by contradiction; then, if 7 - 2√3 were rational and equal to a, we would get √3 = (7 - a)/2, a rational number, which is impossible. Hence 7 - 2√3 is irrational.",
+   "concept": "Definition of an irrational number",
+   "figure_required": false,
+   "ocr": "Printed as an unnumbered alternative question after Q68 with only 'Ans Proof'; number inferred from position and suffixed 'a' to stay unique. The printed stem reads '7 - 2√3 s also an irrational number' (missing 'i')."
+  },
+  {
+   "number": "69",
+   "form": "long",
+   "marks": 5,
+   "page": 13,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2009",
+   "stem": "Find HCF and LCM of 378, 180 and 420 by prime factorization method. Is HCF × LCM of these numbers equal to the product of the given three numbers?",
+   "answer": "Prime factorisation: 378 = 2 × 3³ × 7, 180 = 2² × 3² × 5, 420 = 2² × 3 × 7 × 5.\nHCF(378, 180, 420) = 2 × 3 = 6.\nLCM(378, 180, 420) = 2² × 3³ × 5 × 7 = 3780.\nHCF × LCM = 6 × 3780 = 22680.\nProduct of the given numbers = 378 × 180 × 420 = 28576800.\nHence HCF × LCM ≠ product of the three numbers.",
+   "concept": "HCF and LCM by prime factorisation",
+   "figure_required": false,
+   "ocr": "LaTeX arrays rewritten to Unicode with exponents."
+  },
+  {
+   "number": "70",
+   "form": "long",
+   "marks": 5,
+   "page": 14,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2016",
+   "stem": "State Fundamental theorem of Arithmetic. Find LCM of numbers 2520 and 10530 by prime factorization.",
+   "answer": "The Fundamental Theorem of Arithmetic (also called the unique factorization theorem) states that every integer greater than 1 either is prime itself or is the product of a unique combination of prime numbers. Equivalently, every composite number can be expressed as a product of powers of primes and this factorisation is unique.\nPrime factorisation: 2520 = 20 × 126 = 20 × 6 × 21 = 2³ × 3² × 5 × 7; 10530 = 30 × 351 = 30 × 9 × 39 = 30 × 9 × 3 × 13 = 2 × 3⁴ × 5 × 13.\nLCM(2520, 10530) = 2³ × 3⁴ × 5 × 7 × 13 = 294840.",
+   "concept": "Statement of the theorem",
+   "figure_required": false,
+   "ocr": "LaTeX arrays rewritten to Unicode with exponents."
+  },
+  {
+   "number": "71",
+   "form": "long",
+   "marks": 5,
+   "page": 14,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2015",
+   "stem": "Can the number 6ⁿ, n being a natural number, end with the digit 5? Give reasons.",
+   "answer": "If 6ⁿ for any n were to end with the digit five, then it would be divisible by 5, so the prime factorisation of 6ⁿ would contain the prime 5. This is not possible, because the only primes in the factorisation of 6ⁿ = (2 × 3)ⁿ are 2 and 3. The uniqueness of the Fundamental Theorem of Arithmetic guarantees that there are no other primes in the factorisation of 6ⁿ. Since there is no prime factor 5, 6ⁿ cannot end with the digit five.",
+   "concept": "Unique product of primes",
+   "figure_required": false,
+   "ocr": "MinerU rendered the exponent n as the Greek letter π throughout ('6^π'); restored to 6ⁿ. Also repaired 'the only prime n the actorization' to 'the only primes in the factorisation'."
+  },
+  {
+   "number": "72",
+   "form": "long",
+   "marks": 5,
+   "page": 14,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2015",
+   "stem": "State Fundamental theorem of Arithmetic. Is it possible that HCF and LCM of two numbers be 24 and 540 respectively? Justify your answer.",
+   "answer": "Fundamental Theorem of Arithmetic: every integer greater than one either is prime itself or is the product of prime numbers, and this product is unique up to the order of the factors.\nThe LCM of two numbers is always exactly divisible by their HCF, i.e. the LCM is always a multiple of the HCF. Here HCF = 24 and LCM = 540, and LCM/HCF = 540/24 = 22.5, which is not an integer. Since 24 does not divide 540, two numbers cannot have their HCF as 24 and LCM as 540.",
+   "concept": "Statement of the theorem",
+   "figure_required": false,
+   "ocr": "Repaired 'either is prime itself' from the printed 'ither is prime itself'."
+  },
+  {
+   "number": "73",
+   "form": "case_study",
+   "marks": 4,
+   "page": 14,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "You have a piece of construction paper that measures 32 cm by 48 cm. You want to cut it into squares of equal size.\n(i) What will be the dimensions of the largest possible square?\n(ii) How many squares will you have?",
+   "answer": "Here we have to find the HCF of 32 and 48.\n32 = 2 × 2 × 2 × 2 × 2, 48 = 2 × 2 × 2 × 2 × 3, so HCF(32, 48) = 2 × 2 × 2 × 2 = 16.\nArea of construction paper = 32 × 48 cm², area of one square = 16 × 16 cm².\nNumber of squares = (32 × 48)/(16 × 16) = 6.\n(i) The dimension of the largest possible square is 16 cm × 16 cm.\n(ii) 6 squares are possible from the construction paper.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "images": [
+    "6af016c19b84c90165c2eecc834eeb980432ab7c9295cd38f7207d6e004b260e.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The tail of this solution ('Number of square in construction paper = 32 × 48 / 16 × 16 = 6' and the two numbered answers) was displaced by MinerU to the end of Q77's solution on page 16; merged back here. The printed factorisation of 32 lists five 2s (= 32), correct."
+  },
+  {
+   "number": "74",
+   "form": "case_study",
+   "marks": 4,
+   "page": 15,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "When the marbles in a bag are divided evenly between two friends, there is one marble left over. When the same marbles are divided evenly among three friends, there is one marble left over. When the marbles are divided evenly among five friends, there is one marble left over.\n(i) What is the least possible number of marbles in the bag?\n(ii) What is another possible number of marbles in the bag?",
+   "answer": "(i) In all three cases one marble is left after division, so the total number of marbles is one more than the LCM of the numbers. LCM(2, 3, 5) = 2 × 3 × 5 = 30, so there are 31 marbles in the bag.\n(ii) Adding one to any multiple of 30 gives another possible number of marbles: 61, 91, 121, ...",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "images": [
+    "61c9db915ed14896cae27558e0e9fb7323d6966f3848d5dcf5347bb4bf44544d.jpg"
+   ],
+   "figure_required": false
+  },
+  {
+   "number": "75",
+   "form": "case_study",
+   "marks": 4,
+   "page": 15,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "An online shopping website sells 10 types of items which are packed into various sizes of cartons which are given below.\n<html><body><table><tr><td>Carton type</td><td>Inner Dimensions (L × W )cm2</td></tr><tr><td>Small</td><td>6 × 8</td></tr><tr><td>Medium</td><td>12 × 24</td></tr><tr><td>Large</td><td>24 × 36</td></tr><tr><td>Extra large</td><td>36 × 48</td></tr><tr><td>XXL</td><td>48 × 96</td></tr></table></body></html>\nThe company places supporting thermocol sheets inside every package along the edges. The company thought of procuring same sized sheets for all types of cartons.\n(i) What should be the maximum size of the sheet that fits into all type of cartons?\n(ii) How many such sheet sizes are possible?\n(iii) The company later introduced a new size of carton called semi large whose measurements are 14 × 15. Whether the existing maximum size sheet fits this shape?\n(iv) What should have been the size of the semi large carton (which is larger than medium carton but smaller than large carton) so that the maximum sized sheet remains same?",
+   "answer": "(i) To find the dimensions of the maximum size sheet that fits in all cartons we find the HCF of the lengths and the HCF of the widths: HCF(6, 12, 24, 36, 48) = 6 and HCF(8, 24, 36, 48, 96) = 4. Thus the maximum size of the sheet is 6 by 4.\n(ii) Because the HCF of given numbers is always unique, only one sheet size is possible.\n(iii) 14 is not a multiple of 6 and 15 is not a multiple of 4, so it is not possible to have a carton with dimensions 14 × 15.\n(iv) 18 is the only multiple of 6 between 12 and 24 for the length of the semi large carton, and the width can be 28 or 32, so the possible answers are 18 × 28 and 18 × 32.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv"
+   ],
+   "images": [
+    "a822fd4600f66278d8e8430bc83a1f9d3d7e2984ed670a21d4062e492cace5ab.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "HTML table kept verbatim from the extraction, including its 'cm2' spelling."
+  },
+  {
+   "number": "76",
+   "form": "case_study",
+   "marks": 4,
+   "page": 15,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Two oil tankers contain 825 litres and 675 litres of kerosene oil respectively.\n(i) Find the maximum capacity of a container which can measure the kerosene oil of both the tankers when used an exact number of times.\n(ii) How many times we have to use container for both tanker to fill?",
+   "answer": "The maximum capacity of the required container has to measure both tankers an exact number of times, so its capacity must exactly divide both quantities; we therefore find HCF(825, 675).\n675 = 3 × 3 × 3 × 5 × 5, 825 = 3 × 5 × 5 × 11, so HCF(675, 825) = 3 × 5 × 5 = 75.\n(i) The maximum capacity of the required container is 75 litres.\n(ii) The first tanker will require 825/75 = 11 fillings and the second tanker 675/75 = 9 fillings.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "images": [
+    "2d8ada6466308fbea564f7f53f8eba5cc762f383b9caa6ab85757d0ff07a4d2b.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The MinerU extraction of the factorisation of 675 ended with a trailing '×' and an empty cell ('675 = 3 × 3 × 3 × 5 ×'); restored to 3 × 3 × 3 × 5 × 5 = 675, which the HCF line confirms. The text layer shows the book itself prints '675 = 3 × 3 × 3 × 5 × 5' in full, so the truncation was an extraction artefact, not a misprint."
+  },
+  {
+   "number": "77",
+   "form": "case_study",
+   "marks": 4,
+   "page": 16,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Last year my grandmother was admitted to Fortis hospital due to a small accident. She was prescribed a pain medication to be given every 4 hr and an antibiotic to be given every 5 hr. Bandages applied to my grandmother's external injuries needed changing every 12 hr. The nurse changed the bandages and gave my grandmother both medications at 6:00 AM Monday morning.\n(i) How many hours will pass before the grandmother is given both medications and has her bandages changed at the same time?\n(ii) What day and time will this be?",
+   "answer": "Here we have to find the LCM of 4, 5 and 12. Prime factorisation: 4 = 2 × 2, 5 = 5, 12 = 2 × 2 × 3, so LCM(4, 5, 12) = 2 × 2 × 5 × 3 = 60.\n(i) The shortest time before all three are done together is 60 hours, i.e. 2 days 12 hours.\n(ii) 2 days 12 hours after 6:00 AM Monday is Wednesday at 6 PM.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "images": [
+    "246d43ed1e3a07f1212a6cedd1701289278b8edd56e0ee969e12f80995b947f0.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "MinerU appended the tail of Q73's solution after this solution; that text has been moved back to Q73 and is not part of this answer."
+  },
+  {
+   "number": "78",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Tina has 39 pairs of headphones and 13 music players. Tina wants to sell all of the headphones and music players in identical packages. What is the greatest number of packages Tina can make?",
+   "answer": "We need a number that is a factor of both 39 and 13 so that the 39 pairs of headphones and the 13 music players can be divided up evenly; that is, the HCF of 39 and 13. Prime factorisation: 13 = 13, 39 = 3 × 13, so HCF(13, 39) = 13. Tina can make 13 identical packages.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "d9b63ed8564329441ff52ecc86469bb35fb60b7622a15fa0601ddcc8b197ad2d.jpg"
+   ],
+   "figure_required": false
+  },
+  {
+   "number": "79",
+   "form": "case_study",
+   "marks": 4,
+   "page": 16,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Taniya has 54 football cards, 72 volleyball cards and 63 basketball cards and she wants to put them in a binder. Each page of the binder should have cards from a single sport, and there should be the same number of cards on each page.\n(i) What is the greatest number of cards Taniya can put on a page?\n(ii) How many pages will Taniya need for each sport?",
+   "answer": "Each page must hold cards from a single sport with the same number of cards on each page, so we find HCF(54, 63, 72).\n54 = 2 × 3 × 3 × 3, 63 = 3 × 3 × 7, 72 = 2 × 2 × 2 × 3 × 3, so HCF(54, 63, 72) = 3 × 3 = 9.\n(i) Taniya can put 9 cards on a page.\n(ii) For football 54/9 = 6 pages, for volleyball 72/9 = 8 pages and for basketball 63/9 = 7 pages are needed.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "images": [
+    "da6b8ec1f440d520c18e45e2705d9e04bbc42e28d7cffdf396850e665015f2bc.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The extracted factorisation block lost the label of the HCF line ('72) = 3 × 3 = 9' with 'HCF (54, 63,' after the block); reassembled as HCF(54, 63, 72) = 9. The text layer shows the book prints the line intact as 'HCF (54, 63, 72) = 3 × 3 = 9', so the split was an extraction artefact."
+  },
+  {
+   "number": "80",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "A tile floor is to be made from 10 inch, 12 inch and 15 inch square tiles. A design is made by alternating rows with different size tiles. The first row uses only 10 inch tiles, the second row uses only 12 inch tiles, and the third row uses only 15 inch tiles. Neglecting the grout seams, what is the shortest length of floor space that can be covered evenly by each row?",
+   "answer": "To know the shortest length of floor space that can be covered evenly by each row we find LCM(10, 12, 15). Prime factorisation: 10 = 2 × 5, 12 = 2 × 2 × 3, 15 = 3 × 5, so LCM(10, 12, 15) = 2 × 2 × 3 × 5 = 60. The shortest length of floor space is 60 inch.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "52d58d146e479b75a149c8d3de00e803a78ad029e846c296dc7e38f4fb69475a.jpg"
+   ],
+   "figure_required": false
+  },
+  {
+   "number": "81",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "In a morning walk, three persons step off together. Their steps measure 75 cm, 80 cm and 90 cm respectively. What is the minimum distance each should walk so that all can cover the same distance in complete steps?",
+   "answer": "The distance required by each of them is the same as well as minimum, so we find the least common multiple (LCM) of 75, 80 and 90. Prime factorisation: 75 = 3 × 5 × 5, 80 = 2 × 2 × 2 × 2 × 5, 90 = 2 × 3 × 3 × 5, so LCM(75, 80, 90) = 2⁴ × 3² × 5² = 3600. The required minimum distance is 3600 cm.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "e2f2e46513b6d83f821829983e61bb4743af28e5c77a60fd674b02807063ccda.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "MinerU emitted the whole factorisation block as an empty LaTeX array (only 'Now' survived); the prime factorisations of 75, 80 and 90 have been restored from the printed result 3600 cm."
+  },
+  {
+   "number": "82",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Four satellites revolve around the earth once every 6, 8, 10 and 15 hr respectively. If the satellites are initially lined up, how many hours must pass before they will again be lined up?",
+   "answer": "To know the minimum number of hours required for them to be aligned again we find LCM(6, 8, 10, 15). Prime factorisation: 6 = 2 × 3, 8 = 2 × 2 × 2, 10 = 2 × 5, 15 = 3 × 5, so LCM(6, 8, 10, 15) = 2 × 2 × 2 × 3 × 5 = 120 hours. It will take 120 hours, or 5 days, for the satellites to be aligned again.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "8a70a1ac5e5275d401b6c3a7dbaf5edd398a18c98a02a43d1505fe9c6664c42e.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "MinerU mangled the leading digits of the factorisation lines into Greek gammas ('γ_8 = 2 × 2 × 2'); the line for 6 = 2 × 3 was lost entirely and has been restored. Stripped the 'Click Here to Buy book on Amazon' banner."
+  },
+  {
+   "number": "83",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Mercury, Venus and Earth revolve around the Sun approximately once every 3 months, 7 months and 12 months respectively. If the planets begin lined up, what is the minimum number of months required for them to be aligned again? (Assume that the planets lie roughly in the same plane.)",
+   "answer": "To know the minimum number of months required for them to be aligned again we find LCM(3, 7, 12). Prime factorisation: 3 = 3, 7 = 7, 12 = 2 × 2 × 3, so LCM(3, 7, 12) = 3 × 7 × 2 × 2 = 84. It will take 84 months, or 7 years, for the planets to be aligned again.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "057cf59c1ffda7f345b5e130ec1e82137b55b9bd6ed764a8a88ef33d84b7c351.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "MinerU interleaved three solutions on pages 18-19: the text printed directly under this stem is actually Q84's traffic-light solution, and this question's own solution (the LCM(3, 7, 12) = 84 block) was displaced to after Q85's stem. Reassembled by content. The displaced block is also mislabelled 'LCM(2, 7, 12)' while its own factor list reads 3, 7, 12; corrected to LCM(3, 7, 12)."
+  },
+  {
+   "number": "84",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "The traffic lights at three different road crossings change after every 48 seconds, 72 seconds and 108 seconds respectively. If they change simultaneously at 7 AM, at what time will they change simultaneously again?",
+   "answer": "Because the lights change simultaneously, we find LCM(48, 72, 108). Prime factorisation: 48 = 2 × 2 × 2 × 2 × 3, 72 = 2 × 2 × 2 × 3 × 3, 108 = 2 × 2 × 3 × 3 × 3, so LCM(48, 72, 108) = 2 × 2 × 2 × 2 × 3 × 3 × 3 = 432 seconds. After 432 seconds, i.e. 7 minutes 12 seconds, all the traffic lights will change simultaneously again, that is at 7 minutes 12 seconds past 7 AM.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "787b96e1d4f8022717fe2608e10b37987eaee4927bfe97eaf86a9d95b53d97c2.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "This question's stem and solution were separated by MinerU: the solution appears on page 18 under Q83's stem, the stem itself on page 19 before Q85's solution. Reassembled by content. The extracted factorisation of 48 dropped one 2 ('48 = 2 × 2 × 2 × 3' = 24); restored to 2⁴ × 3 = 48, which the stated LCM of 432 confirms. The text layer shows the book prints '48 = 2 × 2 × 2 × 2 × 3' correctly, so the missing 2 was an extraction artefact."
+  },
+  {
+   "number": "85",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Lina is preparing dinner plates. She has 12 pieces of chicken and 16 rolls. If she wants to make all the plates identical without any food left over, what is the greatest number of plates Lina can prepare?",
+   "answer": "To make all the plates identical and find the greatest number of plates, we find the greatest number that divides both 12 and 16 evenly, i.e. their highest common factor. Prime factorisation: 12 = 2 × 2 × 3, 16 = 2 × 2 × 2 × 2, so HCF(12, 16) = 2 × 2 = 4. Hence Lina can prepare at most 4 plates.",
+   "concept": "HCF and LCM by prime factorisation",
+   "figure_required": false,
+   "ocr": "Stem and solution were separated in the extraction (the solution follows Q84's stem); reassembled by content. No figure is printed with this question."
+  },
+  {
+   "number": "86",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "At a train station, the blue line has a train leaving every 15 minutes, the green line has a train leaving every 24 minutes, and the red line every 10 minutes. If the first train on each line leaves at the same time, how often will there be trains on all three lines departing the train station at the same time?",
+   "answer": "To know how often trains on all three lines depart at the same time we find LCM(10, 15, 24). Prime factorisation: 10 = 2 × 5, 15 = 3 × 5, 24 = 2 × 2 × 2 × 3, so LCM(10, 15, 24) = 2 × 2 × 2 × 3 × 5 = 120. Trains will depart on all three lines at the same time every 120 minutes, i.e. every 2 hours.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "0ef74cab82bcc82292d22f3e6a906032629572a65a434ca4fb795971fc6a037f.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "MinerU emptied the factorisation array (only the bare numbers 10, 15, 24 and the label 'LCM(10, 15, 24)' survived); the prime factorisations have been restored from the printed result of 120 minutes. The printed lead-in says 'we need a number that is a factor of 10, 15 and 24' where it means a common multiple."
+  },
+  {
+   "number": "87",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Jasmin is completing an art project. She has two pieces of construction paper. The first piece is 44 centimeters wide and the second piece is 33 centimeters wide. Jasmin wants to cut the paper into strips that are equal in width and are as wide as possible. How wide should Jasmin cut each strip?",
+   "answer": "We need a number that is a factor of both 44 and 33 so that both pieces can be cut into equal strips; to find the greatest width we find HCF(44, 33). Prime factorisation: 33 = 3 × 11, 44 = 2 × 2 × 11, so HCF(33, 44) = 11. Jasmin should cut strips 11 cm wide.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "8188447a6c22ee4bf0d85cbe8cb70a8bab6526f914dbdedae0152b995b592029.jpg"
+   ],
+   "figure_required": false
+  },
+  {
+   "number": "88",
+   "form": "case_study",
+   "marks": 4,
+   "page": 19,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Shalvi is a tuition teacher and teaches mathematics to some kids at her home. She is very innovative and always plans new games to make her students learn concepts. Today, she has planned a prime number game. She announced the number 2 in her class and asked the first student to multiply it by a prime number and then pass it to the second student. The second student also multiplied it by a prime number and passed it to the third student. In this way, by multiplying by a prime number, the last student got 173250. He told this number to Shalvi in class. Now she asked some questions to the students as given below.\n(i) How many students are in the class?\n(ii) What is the highest prime number used by a student?\n(iii) What is the least prime number used by students?\n(iv) Which prime number has been used maximum times?\n(v) Which prime number has been used minimum times?",
+   "answer": "Prime factorisation of 173250 = 2 × 3 × 3 × 5 × 5 × 5 × 7 × 11.\n(i) It includes 8 factors. The number 2 was used by Shalvi, so the remaining 7 factors were used by 7 students; there are 7 students in the class.\n(ii) The highest prime factor in the factorisation of 173250 is 11.\n(iii) The least prime factor is 2, but 2 was used by Shalvi, so the least prime number used by a student is 3.\n(iv) The number 5 has been used 3 times, which is the maximum.\n(v) The numbers 7 and 11 are each used only once (the book names 7).",
+   "concept": "Unique product of primes",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "images": [
+    "3e22e81063459a23dd1a3a0b1dd912fc867ab5aeddd19c66c6ce2d0c2b41aad3.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "Repaired 'Shalvi s a tuition teacher' to 'Shalvi is a tuition teacher'. Stripped the 'Downloaded from www.pdf.tube' watermark that splits the stem. Part (v): the printed answer names only 7, although 11 is also used once; noted in the answer."
+  },
+  {
+   "number": "89",
+   "form": "case_study",
+   "marks": 4,
+   "page": 20,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Amar, Akbar and Anthony are playing a game. Amar climbs 5 stairs and gets down 2 stairs in one turn. Akbar goes up by 7 stairs and comes down by 2 stairs every time. Anthony goes 10 stairs up and 3 stairs down each time. Doing this they have to reach the nearest point to the 100th stair and they will stop once they find it impossible to go forward. They cannot cross the 100th stair in any way.\n(i) Who reaches the nearest point?\n(ii) How many times can they meet in between on the same stair?\n(iii) Who takes the least number of steps to reach near hundred?\n(iv) What is the first stair where any two out of three will meet together?\n(v) What is the second stair where any two out of three will meet together?",
+   "answer": "Each turn Amar nets 3 stairs, Akbar nets 5 stairs and Anthony nets 7 stairs.\n(i) Amar will reach up to the 93rd stair and then go 5 up and 2 down, covering 96 stairs; since the 100th stair is final he will not go further. Akbar will reach up to the 95th stair and Anthony up to the 91st stair. Thus Amar reaches the nearest point.\n(ii) We find LCM(3, 5, 7) = 105. Since there are only 100 stairs, they cannot all meet in between on the same stair.\n(iii) Amar takes 32 steps to reach the 96th stair (100/3 = 33.33), Akbar takes 19 steps to reach the 95th stair (100/5 = 20) and Anthony takes 13 steps to reach the 91st stair (100/7 = 14.28). So Anthony takes the least number of steps.\n(iv) LCM(3, 5) = 15, LCM(5, 7) = 35, LCM(3, 7) = 21. Since 15 is the smallest, Amar and Akbar meet for the first time on the 15th stair.\n(v) The next is LCM(3, 7) = 21, so the 21st stair.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "images": [
+    "9851ccb327fb21ba461d6946f9f4d98f83c08250e48a66ed3443d62cbeef3376.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "Printed part (iii) is garbled: it gives Akbar '19 steps to reach to 9th stairs' (read 95th) and does not name a winner; the counts themselves are reproduced as printed. Part (v) refers back to '(iii)' where it means (iv)."
+  },
+  {
+   "number": "90",
+   "form": "case_study",
+   "marks": 4,
+   "page": 20,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Lavanya wants to organize her birthday party. She is very happy on her birthday. She is very health conscious, thus she decided to serve fruits only in her birthday party. She has 36 apples and 60 bananas at home and decided to serve them. She wants to distribute fruits among guests. She does not want to discriminate among guests, so she decided to distribute fruits equally among all.\n(i) How many maximum guests can Lavanya invite?\n(ii) How many apples and bananas will each guest get?\n(iii) Lavanya decides to add 42 mangoes also. In this case how many maximum guests can Lavanya invite?\n(iv) How many total fruits will each guest get?\n(v) If Lavanya decides to add 3 more mangoes and remove 6 apples in total fruits, in this case how many maximum guests can Lavanya invite?",
+   "answer": "(i) Here we calculate HCF(36, 60) = 12. Thus the fruits will be equally distributed among 12 guests.\n(ii) Out of 36 apples each guest gets 36/12 = 3 apples, and out of 60 bananas each guest gets 60/12 = 5 bananas.\n(iii) Here we calculate HCF(36, 42, 60) = 6. Thus the fruits will be equally distributed among 6 guests.\n(iv) Out of 36 apples each guest gets 36/6 = 6 apples, out of 42 mangoes 42/6 = 7 mangoes and out of 60 bananas 60/6 = 10 bananas, so each guest gets 6 + 7 + 10 = 23 fruits.\n(v) Now Lavanya has 30 apples, 60 bananas and 45 mangoes. HCF(30, 45, 60) = 15, so Lavanya can invite 15 guests.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "images": [
+    "fe6cb2b9a35f7f8eca9f04acfb6dbef7125f018ff71cb62cb6c9f9fa407da699.jpg",
+    "aa03c5c142ee7cd40468139fa3485de14b1845d566fc539aa69fa2d417462753.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The printed question number is missing; inferred as 90 from its position between Q89 and Q91. The stem is split across pages 20-21 by an inserted photo; rejoined. The text layer shows part (ii) is printed correctly as 60/12 = 5 bananas, so the earlier reading of '60/5 = 12 bananas' was an OCR artefact of the stacked fraction. Part (iv) is genuinely inconsistent in print: after computing 60/6 = 10 bananas it totals '6 + 7 + 12 = 25'; the worked solution's own figures give 6 + 7 + 10 = 23, which is what the answer states."
+  },
+  {
+   "number": "91",
+   "form": "case_study",
+   "marks": 4,
+   "page": 21,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "The Republic Day parade, first held in 1950, has been a yearly ritual since. The parade marches from the Rashtrapati Bhawan along the Rajpath in New Delhi. Several regiments of the army, navy and air force, along with their bands, march to India Gate. The parade is presided over by the President of India, who is the Commander-in-Chief of the Indian Armed Forces. As he unfurls the tricolour, the national anthem is played. The regiments of the Armed Forces then start their march past. Prestigious awards like Kirti Chakra, Ashok Chakra, Paramvir Chakra and Vir Chakra are given out by the President. Nine to twelve different regiments of the Indian Army, in addition to the Navy and Air Force, march toward India Gate along with their bands. Contingents of paramilitary forces and other civil forces also participate in the parade.\nOn the 71st Republic Day parade, captain RS Meel is planning for a parade of the following two groups:\n(a) First group of Army troops of 624 members behind an army band of 32 members.\n(b) Second group of CRPF troops with 468 soldiers behind the 228 members of bikers.\nThese two groups are to march in the same number of columns. This sequence of soldiers is followed by different states' Jhanki which are showing the culture of the respective states.\n(i) What is the maximum number of columns in which the army troop can march?\n(ii) What is the maximum number of columns in which the CRPF troop can march?\n(iii) What is the maximum number of columns in which total army troop and CRPF troop together can march past?\n(iv) What should be subtracted from the number of CRPF soldiers and the number of bikers so that their maximum number of columns is equal to the maximum number of columns of the army troop?\n(v) What should be added to the number of CRPF soldiers and the number of bikers so that their maximum number of columns is equal to the maximum number of columns of the army troop?",
+   "answer": "(i) HCF(624, 32) = 16, so the army troop can march in a maximum of 16 columns.\n(ii) HCF(228, 468) = 12, so the CRPF troop can march in a maximum of 12 columns.\n(iii) HCF(624, 32, 228, 468) = 4; alternatively HCF(16, 12) = 4.\n(iv) The maximum number of columns of the army troop is 16, but 228 and 468 are not divisible by 16. If we subtract 4 from each, both 224 and 464 are divisible by 16.\n(v) Again the army troop marches in 16 columns. If we add 12 to each of 228 and 468, both 240 and 480 are divisible by 16.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "images": [
+    "1c86c9429a797285d11f5346c7a4c8cc86b84efa02ad4bf7737346733f2bc2ae.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "Stripped the 'Click Here to Buy book on Flipkart' banner splitting parts (iv) and (v). In the printed solution the labels (i)-(iii) are displaced across the LaTeX array; realigned so that HCF(624, 32) = 16 answers (i), HCF(228, 468) = 12 answers (ii) and HCF = 4 answers (iii). 'Commander-inChief' rejoined."
+  },
+  {
+   "number": "92",
+   "form": "case_study",
+   "marks": 4,
+   "page": 22,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Ashish supplies bread and jams to a hospital and a school. Bread and jam are supplied in equal number of pieces. Bread comes in a packet of 8 pieces and jam comes in a pack of 6 pieces. On a particular day, Ashish has supplied x packets of bread and y packets of jam to the school. On the same day, Ashish has supplied 3x packets of bread along with sufficient packets of jam to the hospital. It is known that the number of students in the school is between 500 and 550.\n(i) How many students are there in school?\n(ii) How many packets of bread are supplied in the school?\n(iii) How many packets of jams are supplied in the school?\n(iv) How many packets of bread are supplied in the hospital?\n(v) How many packets of jams are supplied in the hospital?",
+   "answer": "(i) First we find LCM(8, 6) = 24. The multiples of 24 between 500 and 550 are 504 and 528; taking 504, there are 504 students in the school.\n(ii) For equal distribution of bread among each student we need 504 pieces of bread, hence 504/8 = 63 packets of bread.\n(iii) For equal distribution of jam we need 504 pieces of jam, hence 504/6 = 84 packets of jam.\n(iv) For the hospital we need 3x packets of bread, i.e. 3 × 63 = 189 packets of bread.\n(v) The number of bread pieces is 189 × 8 = 1512, so we need the same number of jam pieces, hence 1512/6 = 252 packets of jam are distributed in the hospital.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "images": [
+    "a6ab54ff8d58c40bd098a4aa021c3df8a9504bb8bb6c28007c11ed8db0c72a0d.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The printed solution lists both 504 and 528 as multiples of 24 in the range and then asserts 504; reproduced as printed."
+  },
+  {
+   "number": "93",
+   "form": "case_study",
+   "marks": 4,
+   "page": 22,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Mahesh works as a manager in a hotel. He has to arrange chairs in a hall for a function. The hall has a certain number of chairs. Guests want to sit in different groups like in pairs, triplets, quadruplets, fives and sixes etc. Mahesh wants to arrange chairs in such a way that there are no chairs left after the arrangement. When Mahesh arranges chairs in such patterns like in 2's, 3's, 4's, 5's and 6's then 1, 2, 3, 4 and 5 chairs are left respectively. But when he arranges them in 11's, no chair will be left.\n(i) In the hall, how many chairs are available?\n(ii) If one chair is removed, which arrangement is possible now?\n(iii) If one chair is added to the total number of chairs, how many chairs will be left when arranged in 11's?\n(iv) How many chairs will be left in the original arrangement if the same number of chairs are arranged in 7's?\n(v) How many chairs will be left in the original arrangement if the same number of chairs are arranged in 9's?",
+   "answer": "(i) Dividing by 2, 3, 4, 5, 6 and 11, the number 539 is the only one that leaves remainders 1, 2, 3, 4, 5 and 0 respectively, so 539 chairs are available.\n(ii) After removing 1 chair we are left with 538 chairs. On arranging them in 3's, 4's, 5's, 6's and 11's, 1, 2, 3, 4 and 10 chairs are left, so only the arrangement in pairs of 2 is possible now.\n(iii) 539 chairs are already arranged in 11's; on adding 1 extra chair, that 1 chair will be left.\n(iv) 539 is divisible by 7 with remainder zero, so arranging the chairs in 7's leaves no chair.\n(v) Dividing 539 by 9 leaves remainder 8, so arranging the chairs in 9's leaves 8 chairs.",
+   "concept": "Divisibility and the division process",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "images": [
+    "1cac41133b9f9e1a57c3099ff4a721fc142b90c8845384aa42fe8586912b2038.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "Part (i) of the printed solution refers to 'all the options', a leftover from an MCQ version of this item; the value 539 is stated explicitly and has been kept."
+  }
+ ],
+ "qualified_numbers": 0
+}

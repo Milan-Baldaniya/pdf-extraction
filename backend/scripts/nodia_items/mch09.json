@@ -1,0 +1,1918 @@
+{
+ "chapter": 9,
+ "chapter_id": 23199,
+ "extraction_id": 398,
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If the angle of depression of an object from a 75 m high tower is 30°, then the distance of the object from the tower is",
+   "options": [
+    {
+     "label": "A",
+     "text": "25√3 m"
+    },
+    {
+     "label": "B",
+     "text": "50√3 m"
+    },
+    {
+     "label": "C",
+     "text": "75√3 m"
+    },
+    {
+     "label": "D",
+     "text": "150 m"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The tower AB = 75 m is the perpendicular and the object's distance OB from the foot is the base. The angle of depression at the top equals the angle of elevation at the object, so in the right triangle, tan30° = AB/OB. Then 1/√3 = 75/OB, so OB = 75√3 m.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Foreign 2015"
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If the height and length of the shadow of a man are equal, then the angle of elevation of the sun is,",
+   "options": [
+    {
+     "label": "A",
+     "text": "45°"
+    },
+    {
+     "label": "B",
+     "text": "60°"
+    },
+    {
+     "label": "C",
+     "text": "90°"
+    },
+    {
+     "label": "D",
+     "text": "120°"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let AB be the man's height and BC his shadow, with AB = BC. In right triangle ABC, tanθ = AB/BC = AB/AB = 1, so tanθ = tan45° and θ = 45°.",
+   "concept": "Angle of elevation",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2012"
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "A tree casts a shadow 15 m long on the level of ground, when the angle of elevation of the sun is 45°. The height of a tree is",
+   "options": [
+    {
+     "label": "A",
+     "text": "10 m"
+    },
+    {
+     "label": "B",
+     "text": "14 m"
+    },
+    {
+     "label": "C",
+     "text": "8 m"
+    },
+    {
+     "label": "D",
+     "text": "15 m"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Let BC be the tree and AB its shadow of 15 m, the right angle being at B. In triangle ABC, tan45° = BC/BA, so BC/15 = 1 and BC = 15 m. The tree is 15 m high.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2014"
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The ratio of the length of a rod and its shadow is 1 : √3 then the angle of elevation of the sun is",
+   "options": [
+    {
+     "label": "A",
+     "text": "90°"
+    },
+    {
+     "label": "B",
+     "text": "45°"
+    },
+    {
+     "label": "C",
+     "text": "30°"
+    },
+    {
+     "label": "D",
+     "text": "75°"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Let the rod be AB = h and its shadow BC = √3 h, with θ the sun's elevation. In right triangle ABC, tanθ = h/(√3 h) = 1/√3, so θ = 30°.",
+   "concept": "Angle of elevation",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2017",
+   "ocr": "Stem and options are printed on the chapter title page (book page 353, render p001); the worked solution finishes overleaf on book page 350, so the key is taken from there."
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 350,
+   "stem": "In the given figure, the positions of the observer and the object are mentioned, the angle of depression is",
+   "options": [
+    {
+     "label": "A",
+     "text": "30°"
+    },
+    {
+     "label": "B",
+     "text": "90°"
+    },
+    {
+     "label": "C",
+     "text": "60°"
+    },
+    {
+     "label": "D",
+     "text": "45°"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The angle of depression is measured from the observer's horizontal ray down to the line of sight. That horizontal is parallel to the ground, so the angle of depression ∠XCA equals the alternate angle ∠CAB = 60° marked at the object. The angle of depression is 60°.",
+   "concept": "Sight below the horizontal",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2018",
+   "images": [
+    "ch09_q5.png"
+   ],
+   "figure_required": true,
+   "ocr": "Not in the chapter 9 page render set. The book prints chapter 9's objective questions 5-15 on book pages 349-352, which sit BEFORE the chapter 9 title page (book page 353) and so fell into the chapter 8 split file. Read from a render of book page 350 of 'Maths Standard  QB 2026 (1)_removed.pdf'. The \"page\" field here is the printed book page, not a p0NN.png index. The question cannot be answered without the printed figure, so it is cropped and attached; the crop carries only the question's own diagram."
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 350,
+   "stem": "A tree is broken by the wind. The top struck the ground at an angle of 30° and at distance of 10 m from its root. The whole height of the tree is (√3 = 1.732)",
+   "options": [
+    {
+     "label": "A",
+     "text": "10√3 m"
+    },
+    {
+     "label": "B",
+     "text": "3√10 m"
+    },
+    {
+     "label": "C",
+     "text": "20√3 m"
+    },
+    {
+     "label": "D",
+     "text": "3√20 m"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let CB be the part still standing and CD the broken part that fell, so the fallen piece AC = CD. In right triangle CDB, ∠CDB = 30° and DB = 10 m. From tan30° = CB/DB, CB = 10/√3; from cos30° = DB/DC, DC = 20/√3 = AC. The whole tree is AC + CB = 20/√3 + 10/√3 = 30/√3 = 10√3 m.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2010",
+   "ocr": "Not in the chapter 9 page render set. The book prints chapter 9's objective questions 5-15 on book pages 349-352, which sit BEFORE the chapter 9 title page (book page 353) and so fell into the chapter 8 split file. Read from a render of book page 350 of 'Maths Standard  QB 2026 (1)_removed.pdf'. The \"page\" field here is the printed book page, not a p0NN.png index."
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 350,
+   "stem": "A circle artist is climbing a 20 m long rope, which is tightly stretched and tied from the top of a vertical pole to the ground, then the height of pole, if the angle made by the rope with the ground level is 30°, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "5 m"
+    },
+    {
+     "label": "B",
+     "text": "10 m"
+    },
+    {
+     "label": "C",
+     "text": "15 m"
+    },
+    {
+     "label": "D",
+     "text": "20 m"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let AB be the pole and CA the 20 m rope, meeting the ground at 30°. In right triangle ABC, sin30° = AB/AC, so 1/2 = AB/20 and AB = 10 m. The pole is 10 m high.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2019 OD",
+   "ocr": "Not in the chapter 9 page render set. The book prints chapter 9's objective questions 5-15 on book pages 349-352, which sit BEFORE the chapter 9 title page (book page 353) and so fell into the chapter 8 split file. Read from a render of book page 350 of 'Maths Standard  QB 2026 (1)_removed.pdf'. The \"page\" field here is the printed book page, not a p0NN.png index. The stem begins on book page 350 and its solution finishes on book page 349, the page that follows it in reading order."
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 349,
+   "stem": "The length of a string between a kite and a point on the ground is 85 m. If the string makes an angle θ with level ground such that tanθ = 15/8, then the height of kite is",
+   "options": [
+    {
+     "label": "A",
+     "text": "75 m"
+    },
+    {
+     "label": "B",
+     "text": "78.05 m"
+    },
+    {
+     "label": "C",
+     "text": "226 m"
+    },
+    {
+     "label": "D",
+     "text": "None of these"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "From tanθ = 15/8, cotθ = 8/15 and cosec²θ = 1 + 64/225 = 289/225, so cosecθ = 17/15 and sinθ = 15/17. With the string AB = 85 m as the hypotenuse, sinθ = BC/AB gives 15/17 = BC/85, so BC = 75 m. The kite is 75 m high.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2019 Delhi",
+   "ocr": "Not in the chapter 9 page render set. The book prints chapter 9's objective questions 5-15 on book pages 349-352, which sit BEFORE the chapter 9 title page (book page 353) and so fell into the chapter 8 split file. Read from a render of book page 349 of 'Maths Standard  QB 2026 (1)_removed.pdf'. The \"page\" field here is the printed book page, not a p0NN.png index."
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 349,
+   "stem": "The top of two poles of height 20 m and 14 m are connected by a wire. If the wire makes an angle of 30° with the horizontal, then the length of the wire is",
+   "options": [
+    {
+     "label": "A",
+     "text": "12 m"
+    },
+    {
+     "label": "B",
+     "text": "10 m"
+    },
+    {
+     "label": "C",
+     "text": "8 m"
+    },
+    {
+     "label": "D",
+     "text": "6 m"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let CD = 20 m be the taller pole and AB = 14 m the shorter one, with BE drawn horizontal so that CE = AB = 14 m. Then DE = CD − CE = 20 − 14 = 6 m. In right triangle BDE, sin30° = DE/BD, so 1/2 = 6/BD and BD = 12 m. The wire is 12 m long.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2018",
+   "ocr": "Not in the chapter 9 page render set. The book prints chapter 9's objective questions 5-15 on book pages 349-352, which sit BEFORE the chapter 9 title page (book page 353) and so fell into the chapter 8 split file. Read from a render of book page 349 of 'Maths Standard  QB 2026 (1)_removed.pdf'. The \"page\" field here is the printed book page, not a p0NN.png index."
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 349,
+   "stem": "An observer, 1.5 m tall is 20.5 away from a tower 22 m high, then the angle of elevation of the top of the tower from the eye of observer is",
+   "options": [
+    {
+     "label": "A",
+     "text": "30°"
+    },
+    {
+     "label": "B",
+     "text": "45°"
+    },
+    {
+     "label": "C",
+     "text": "60°"
+    },
+    {
+     "label": "D",
+     "text": "90°"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let BE = 22 m be the tower and AD = 1.5 m the observer, D being the eye, and draw DC parallel to AB. Then DC = AB = 20.5 m and EC = BE − BC = 22 − 1.5 = 20.5 m. In right triangle DCE, tanθ = CE/DC = 20.5/20.5 = 1, so θ = 45°.",
+   "concept": "Allowing for the observer's height",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "Not in the chapter 9 page render set. The book prints chapter 9's objective questions 5-15 on book pages 349-352, which sit BEFORE the chapter 9 title page (book page 353) and so fell into the chapter 8 split file. Read from a render of book page 349 of 'Maths Standard  QB 2026 (1)_removed.pdf'. The \"page\" field here is the printed book page, not a p0NN.png index. The stem prints the distance as \"20.5 away\" with the unit omitted; the solution uses 20.5 m. Stem and options are on book page 349, the solution on book page 352."
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 352,
+   "stem": "A 6 m high tree cast a 4 m long shadow. At the same time, a flag pole cast a shadow 50 m long. How long is the flag pole?",
+   "options": [
+    {
+     "label": "A",
+     "text": "75 m"
+    },
+    {
+     "label": "B",
+     "text": "100 m"
+    },
+    {
+     "label": "C",
+     "text": "150 m"
+    },
+    {
+     "label": "D",
+     "text": "50 m"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The sun's elevation is the same for both, so triangle ABC ~ triangle PQR and AB/BC = PQ/QR. Then 6/4 = PQ/50, giving PQ = 50 × 6 ÷ 4 = 75 m. The flag pole is 75 m long.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "Not in the chapter 9 page render set. The book prints chapter 9's objective questions 5-15 on book pages 349-352, which sit BEFORE the chapter 9 title page (book page 353) and so fell into the chapter 8 split file. Read from a render of book page 352 of 'Maths Standard  QB 2026 (1)_removed.pdf'. The \"page\" field here is the printed book page, not a p0NN.png index. The book prints an inline key \"Sol : (a) 75 m\" ahead of the working, and it agrees with the working."
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 352,
+   "stem": "From the top of a 7 m high building the angle of elevation of the top of a cable tower is 60° and the angle of depression of its foot is 45°, then the height of the tower is",
+   "options": [
+    {
+     "label": "A",
+     "text": "14.124 m"
+    },
+    {
+     "label": "B",
+     "text": "17.124 m"
+    },
+    {
+     "label": "C",
+     "text": "19.124 m"
+    },
+    {
+     "label": "D",
+     "text": "15.124 m"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Let AB = 7 m be the building and CD the tower, with BE ⊥ CD so that CE = AB = 7 m. The depression of the foot gives ∠ACB = ∠CBE = 45°, and cot45° = AC/AB in triangle ACB gives AC = 7 m, hence BE = AC = 7 m. In triangle EBD with ∠EBD = 60°, tan60° = DE/BE gives DE = 7√3 m. The tower is CE + DE = 7 + 7√3 = 7(√3 + 1) = 7 × 2.732 = 19.124 m.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "Not in the chapter 9 page render set. The book prints chapter 9's objective questions 5-15 on book pages 349-352, which sit BEFORE the chapter 9 title page (book page 353) and so fell into the chapter 8 split file. Read from a render of book page 352 of 'Maths Standard  QB 2026 (1)_removed.pdf'. The \"page\" field here is the printed book page, not a p0NN.png index. Stem and options are on book page 352; the solution finishes on book page 351."
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 351,
+   "stem": "The angles of elevation of the top of a tower from the points P and Q at distance of a and b respectively from the base and in the same straight line with it, are complementary. The height of the tower is",
+   "options": [
+    {
+     "label": "A",
+     "text": "ab"
+    },
+    {
+     "label": "B",
+     "text": "√(ab)"
+    },
+    {
+     "label": "C",
+     "text": "√(a/b)"
+    },
+    {
+     "label": "D",
+     "text": "√(b/a)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let the tower be AB = h and let the two points lie at distances a and b from its base. If the elevation from one is θ, the other is 90° − θ, so tanθ = h/a and tan(90° − θ) = cotθ = h/b. Multiplying, tanθ × cotθ = h²/(ab), so 1 = h²/(ab) and h = √(ab).",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "Not in the chapter 9 page render set. The book prints chapter 9's objective questions 5-15 on book pages 349-352, which sit BEFORE the chapter 9 title page (book page 353) and so fell into the chapter 8 split file. Read from a render of book page 351 of 'Maths Standard  QB 2026 (1)_removed.pdf'. The \"page\" field here is the printed book page, not a p0NN.png index. The options print as bare surds; brackets are added here so the radicand is unambiguous."
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 351,
+   "stem": "From a point on the ground, the angles of elevation of the bottom and the top of a transmission tower fixed at the top of a 20 m high building are 45° and 60° respectively, then the height of the tower is",
+   "options": [
+    {
+     "label": "A",
+     "text": "14.64 m"
+    },
+    {
+     "label": "B",
+     "text": "28.64 m"
+    },
+    {
+     "label": "C",
+     "text": "38.64 m"
+    },
+    {
+     "label": "D",
+     "text": "19.64 m"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let BC = 20 m be the building, CD = x the tower and A the point at distance y from the foot. The 45° elevation of the building's top gives tan45° = BC/AB, so 20/y = 1 and AB = y = 20 m. The 60° elevation of the tower's top gives tan60° = BD/AB, so (20 + x)/20 = √3 and 20 + x = 20√3. Hence x = 20√3 − 20 = 20 × 0.732 = 14.64 m.",
+   "concept": "Angle of elevation",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "ocr": "Not in the chapter 9 page render set. The book prints chapter 9's objective questions 5-15 on book pages 349-352, which sit BEFORE the chapter 9 title page (book page 353) and so fell into the chapter 8 split file. Read from a render of book page 351 of 'Maths Standard  QB 2026 (1)_removed.pdf'. The \"page\" field here is the printed book page, not a p0NN.png index."
+  },
+  {
+   "number": "15",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 351,
+   "stem": "Assertion : In the figure, if BC = 20 m, then height AB is 11.56 m.\nReason : tanθ = AB/BC = perpendicular/base where θ is the angle ∠ACB.",
+   "assertion": "In the figure, if BC = 20 m, then height AB is 11.56 m.",
+   "reason": "tanθ = AB/BC = perpendicular/base where θ is the angle ∠ACB.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "In the figure the right angle is at B and ∠ACB = 30°, so tan30° = AB/BC = AB/20. Then AB = 20/√3 = 20/1.73 = 11.56 m, and the assertion is true. The reason states exactly the ratio used, tanθ = perpendicular/base for θ = ∠ACB, so it is true and is the correct explanation of the assertion. Thus (a) is the correct option.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [
+    "ch09_q15.png"
+   ],
+   "figure_required": true,
+   "ocr": "The assertion and its figure are printed on book page 351 (same stranding as items 5-14: chapter 9's objective questions 5-15 sit on book pages 349-352, ahead of the chapter title page, and so landed in the chapter 8 split file). The reason, the four legend options and the solution are on book page 354, render p002. The assertion refers to the figure and cannot be judged without it, so the figure is attached; the crop holds only the labelled triangle and its 30° angle, not the answer."
+  },
+  {
+   "number": "16",
+   "form": "very_short",
+   "marks": 1,
+   "page": 2,
+   "stem": "A tree casts a shadow 15 m long on the level of ground, when the angle of elevation of the sun is 45°. Find the height of a tree.",
+   "answer": "Let BC be the tree of height h and AB its shadow, with AB = 15 m and ∠BAC = 45°. In right triangle ABC, BC/AB = tan 45° = 1, so BC = AB = 15 m. The height of the tree is 15 m.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "ONE MARK QUESTIONS | Board 2022 Term-2 Delhi",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Fill-in of the printed answer; the solution's figure is a solution figure, not attached."
+  },
+  {
+   "number": "17",
+   "form": "very_short",
+   "marks": 1,
+   "page": 2,
+   "stem": "In Figure, the angles of depressions from the observing positions O₁ and O₂ respectively of the object A are .................. .",
+   "answer": "Draw O₁X parallel to AC. Since ∠O₁AC = 60° is marked at O₁ in the right triangle O₁BC... taking the horizontal through O₁, the angle of depression of A from O₁ is ∠AO₁X = 90° − 60° = 30°. Taking the horizontal through O₂, the angle of depression of A from O₂ equals the alternate angle ∠BAO₂ = 45°. Hence the angles of depression are 30° and 45°.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Standard",
+   "images": [
+    "ch09_q17.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question figure (A, B, C, O₁, O₂ with 45° at A and 60° at O₁) is attached; the second copy of it on the page, carrying the construction line O₁X, belongs to the solution and is not attached."
+  },
+  {
+   "number": "18",
+   "form": "very_short",
+   "marks": 1,
+   "page": 2,
+   "stem": "The .......... is the line drawn from the eye of an observer to the point in the object viewed by the observer.",
+   "answer": "The line joining the observer's eye to the point being viewed is called the line of sight.",
+   "concept": "Line of sight",
+   "section_heading": "ONE MARK QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No board tag printed for this item."
+  },
+  {
+   "number": "19",
+   "form": "very_short",
+   "marks": 1,
+   "page": 2,
+   "stem": "The .......... of an object viewed, is the angle formed by the line of sight with the horizontal when it is above the horizontal level, i.e., the case when we raise our head to look at the object.",
+   "answer": "When the object lies above the horizontal and the head is raised to view it, the angle between the line of sight and the horizontal is called the angle of elevation.",
+   "concept": "Raising the head to view",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Foreign 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "20",
+   "form": "very_short",
+   "marks": 1,
+   "page": 2,
+   "stem": "The .......... of an object viewed, is the angle formed by the line of sight with the horizontal when it is below the horizontal level, i.e., the case when we lower our head to look at the object.",
+   "answer": "When the object lies below the horizontal and the head is lowered to view it, the angle between the line of sight and the horizontal is called the angle of depression.",
+   "concept": "Lowering the head to view",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Foreign 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "21",
+   "form": "very_short",
+   "marks": 1,
+   "page": 2,
+   "stem": "A ladder, leaning against a wall, makes an angle of 60° with the horizontal. If the foot of the ladder is 2.5 m away from the wall, find the length of the ladder.",
+   "answer": "Let AC be the ladder, C its foot and CB = 2.5 m the distance from the wall, with ∠C = 60°. In right triangle ACB, cos 60° = CB/AC, so 1/2 = 2.5/AC, giving AC = 2 × 2.5 = 5 m. The ladder is 5 m long.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem is on page 2, solution runs onto page 3."
+  },
+  {
+   "number": "22",
+   "form": "very_short",
+   "marks": 1,
+   "page": 3,
+   "stem": "In the adjoining figure, the positions of observer and object are marked. The angle of depression is ..........",
+   "answer": "The observer is at O and the object at P. The angle of depression is the angle the line of sight OP makes with the horizontal at the observer, which by alternate angles equals the 30° marked at P between PO and the horizontal. Hence the angle of depression is 30°.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "ONE MARK QUESTIONS | Board 2008",
+   "images": [
+    "ch09_q22.png"
+   ],
+   "figure_required": true,
+   "ocr": "Figure is part of the question ('In the adjoining figure') and is printed above the Sol, so it is attached."
+  },
+  {
+   "number": "23",
+   "form": "very_short",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the angle of depression of an object from a 75 m high tower is 30°, then what is the distance of the object from the tower?",
+   "answer": "Let AB = 75 m be the tower and O the object on the ground, with the angle of depression 30°. By alternate angles the angle of elevation at O is also 30°. In right triangle ABO, tan 30° = AB/OB, so 1/√3 = 75/OB, giving OB = 75√3 m. The object is 75√3 m from the tower.",
+   "concept": "Sight below the horizontal",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 OD 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "24",
+   "form": "very_short",
+   "marks": 1,
+   "page": 3,
+   "stem": "The top of two poles of height 20 m and 14 m are connected by a wire. If the wire makes an angle of 30° with the horizontal, then find the length of the wire.",
+   "answer": "Let CD = 20 m be the taller pole and AB = 14 m the shorter one, and let E be the point on CD level with B. Then DE = CD − CE = 20 − 14 = 6 m, and BD is the wire. In right triangle BDE, sin 30° = DE/BD, so 1/2 = 6/BD, giving BD = 12 m. The wire is 12 m long.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Foreign 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "25",
+   "form": "very_short",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the height and length of the shadow of a man are equal, then find the angle of elevation of the sun.",
+   "answer": "Let AB be the man's height and BC his shadow, with AB = BC. In right triangle ABC, tan θ = AB/BC = AB/AB = 1, so θ = 45°. The sun's angle of elevation is 45°.",
+   "concept": "Angle of elevation",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "26",
+   "form": "very_short",
+   "marks": 1,
+   "page": 4,
+   "stem": "In the given figure, the positions of the observer and the object are mentioned, find the angle of depression?",
+   "answer": "Let C be the observer, A the object and CX the horizontal through C. The line of sight CA makes 60° with the horizontal at A, and by alternate angles ∠XCA = ∠CAB = 60°. Hence the angle of depression is 60°.",
+   "concept": "Sight below the horizontal",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 OD 2015",
+   "images": [
+    "ch09_q26.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question figure (Observer at top with 30°, Object at bottom with 60°) is attached; the relabelled triangle XCAB below the Sol is the solution figure and is not attached."
+  },
+  {
+   "number": "27",
+   "form": "very_short",
+   "marks": 1,
+   "page": 4,
+   "stem": "A circus artist is climbing a 20 m long rope, which is tightly stretched and tied from the top of a vertical pole to the ground. If the angle made by the rope with the ground level is 30°, then what is the height of pole?",
+   "answer": "Let AB be the vertical pole and CA the 20 m rope, with ∠C = 30°. In right triangle ABC, sin 30° = AB/AC, so 1/2 = AB/20, giving AB = 10 m. The pole is 10 m high.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "28",
+   "form": "very_short",
+   "marks": 1,
+   "page": 4,
+   "stem": "The ratio of the length of a rod and its shadow is 1 : √3 then what is the angle of elevation of the sun ?",
+   "answer": "Let the rod AB have length h, so its shadow BC has length √3 h, and let θ be the sun's elevation. In right triangle ABC, tan θ = h/(√3 h) = 1/√3, so θ = 30°. The sun's angle of elevation is 30°.",
+   "concept": "Angle of elevation",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The PRACTICE box that follows (tower : shadow = √3 : 1, Ans 60°) is not a numbered book question and is not emitted."
+  },
+  {
+   "number": "29",
+   "form": "very_short",
+   "marks": 1,
+   "page": 4,
+   "stem": "A ladder 15 m long leans against a wall making an angle of 60° with the wall. Find the height of the point where the ladder touches the wall.",
+   "answer": "Let AB = h be the height on the wall and CA = 15 m the ladder, the ladder making 60° with the wall at A. Then h/15 = cos 60° = 1/2, so h = 15 × 1/2 = 7.5 m. The ladder touches the wall 7.5 m above the ground.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem is on page 4, solution runs onto page 5. Note the 60° is measured from the WALL, not the ground, so the cosine is used."
+  },
+  {
+   "number": "30",
+   "form": "very_short",
+   "marks": 1,
+   "page": 5,
+   "stem": "A pole casts a shadow of length 2√3 m on the ground, when the Sun's elevation is 60°. Find the height of the pole.",
+   "answer": "Let AB = h be the pole and BC = 2√3 m its shadow, with the elevation at C equal to 60°. Then h/(2√3) = tan 60° = √3, so h = 2√3 × √3 = 6 m. The pole is 6 m high.",
+   "concept": "Angle of elevation",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Foreign 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "31",
+   "form": "very_short",
+   "marks": 1,
+   "page": 5,
+   "stem": "If the length of the ladder placed against a wall is twice the distance between the foot of the ladder and the wall. Find the angle made by the ladder with the horizontal.",
+   "answer": "Let the distance from the foot of the ladder to the wall be x, so the ladder has length 2x. In right triangle ABC with ∠B = 90°, cos A = x/(2x) = 1/2 = cos 60°. Hence A = 60°, so the ladder makes 60° with the horizontal.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "32",
+   "form": "very_short",
+   "marks": 1,
+   "page": 5,
+   "stem": "An observer, 1.7 m tall, is 20√3 m away from a tower. The angle of elevation from the eye of observer to the top of tower is 30°. Find the height of tower.",
+   "answer": "Let the tower AB have height h. The observer's eye is at D, 1.7 m above the ground, and DE = 20√3 m is the horizontal distance, with AE = h − 1.7. In right triangle ADE, tan 30° = (h − 1.7)/(20√3), so 1/√3 = (h − 1.7)/(20√3), giving h − 1.7 = 20. Hence h = 20 + 1.7 = 21.7 m.",
+   "concept": "Allowing for the observer's height",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "33",
+   "form": "very_short",
+   "marks": 1,
+   "page": 5,
+   "stem": "In the given figure, AB is a 6 m high pole and DC is a ladder inclined at an angle of 60° to the horizontal and reaches up to point D of pole. If AD = 2.54 m, find the length of ladder. ( use √3 = 1.73)",
+   "answer": "AB = 6 m and AD = 2.54 m, so the ladder meets the pole at a height DB = 6 − 2.54 = 3.46 m. In right triangle BCD with ∠B = 90° and ∠C = 60°, sin 60° = BD/DC, so √3/2 = 3.46/DC, giving DC = (3.46 × 2)/√3 = 6.92/1.73 = 4. The ladder is 4 m long.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 Delhi 2016",
+   "images": [
+    "ch09_q33.png"
+   ],
+   "figure_required": true,
+   "ocr": "Stem on page 5, figure and solution on page 6; the figure is referenced by the stem so it is attached. The printed middle step reads '(3.46 × 2)/√3 = 3.46/1.73 = 4', which is a typo (3.46/1.73 = 2); the arithmetic 6.92/1.73 = 4 and the stated answer 4 m are correct, so the result is unchanged."
+  },
+  {
+   "number": "34",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "stem": "An observer 1.5 m tall is 28.5 m away from a tower 30 m high. Find the angle of elevation of the top of the tower from his eye.",
+   "answer": "The observer's eye A is 1.5 m above the ground and the horizontal distance AC = 28.5 m. The tower is 30 m high, so the part above eye level is BC = 30 − 1.5 = 28.5 m. In right triangle BAC, tan θ = BC/AC = 28.5/28.5 = 1 = tan 45°, so θ = 45°. The angle of elevation is 45°.",
+   "concept": "Allowing for the observer's height",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The PRACTICE box that follows (observer 1.5 m, 20.5 away, tower 22 m, Ans 45°) is not a numbered book question and is not emitted."
+  },
+  {
+   "number": "35",
+   "form": "very_short",
+   "marks": 1,
+   "page": 6,
+   "stem": "If the angles of elevation of the top of a tower from two points distant a and b (a > b) from its foot and in the same straight line from it are respectively 30° and 60°, then find the height of the tower.",
+   "answer": "Let the tower AB have height h, with B its foot, D at distance a and C at distance b. From triangle ABD, h/a = tan 30° = 1/√3, so a = √3 h. From triangle ABC, h/b = tan 60° = √3, so b = h/√3. Multiplying, ab = √3 h × h/√3 = h², hence h = √(ab). The height of the tower is √(ab).",
+   "concept": "Drawing the right triangle",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem and figure on page 6, last line of the solution completes on page 7."
+  },
+  {
+   "number": "36",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "The angle of depression of a car parked on the road from the top of a 150 m high tower is 30°. Find the distance of the car from the tower (in m).",
+   "answer": "Let AB = 150 m be the tower and C the car, with d = CB the distance sought. The horizontal AX at the top gives, by alternate angles, ∠ACB = ∠CAX = 30°. In right triangle ABC, tan 30° = 150/d, so 1/√3 = 150/d, giving d = 150√3 m. The car is 150√3 m from the tower.",
+   "concept": "Sight below the horizontal",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2, 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "37",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "A pole 6 m high casts a shadow 2√3 m long on the ground, then find the Sun's elevation.",
+   "answer": "Let the Sun's elevation be θ. The pole AB = 6 m and its shadow BC = 2√3 m. In right triangle ABC, tan θ = AB/BC = 6/(2√3) = 3/√3 = √3 = tan 60°, so θ = 60°. The Sun's elevation is 60°.",
+   "concept": "Angle of elevation",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The two PRACTICE items that follow (30 m tower with 10√3 shadow, Ans 60°; tower AB 20 m with 20√3 shadow, Ans 30°) are not numbered book questions and are not emitted."
+  },
+  {
+   "number": "38",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "If the altitude of the sun is 60°, what is the height of a tower which casts a shadow of length 30 m ?",
+   "answer": "Let the tower AB have height h and shadow BC = 30 m, with the altitude at C equal to 60°. In right triangle ABC, AB/BC = tan 60°, so h/30 = √3, giving h = 30√3 m. The tower is 30√3 m high.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "39",
+   "form": "very_short",
+   "marks": 1,
+   "page": 7,
+   "stem": "Find the angle of elevation of the top of the tower from the point on the ground which is 30 m away from the foot of the tower of height 10√3 m.",
+   "answer": "Let θ be the angle of elevation, AB = 10√3 m the tower and BC = 30 m the distance on the ground. In right triangle ABC, tan θ = AB/BC = 10√3/30 = 1/√3 = tan 30°, so θ = 30°. The angle of elevation is 30°.",
+   "concept": "Angle of elevation",
+   "section_heading": "ONE MARK QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem on page 7, figure and solution complete on page 8, immediately before the TWO MARKS QUESTIONS heading."
+  },
+  {
+   "number": "40",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "From the top of light house, 40 m above the water, the angle of depression of a small boat is 60°. Find how far the boat is from the base of the light house.",
+   "answer": "Let AB be the light house of height 40 m and C the position of the boat, with CB = x the required distance. The horizontal PA through the top is parallel to CB, so the angle of depression ∠PAC = 60° gives ∠ACB = 60° as alternate angles. In right triangle ABC, tan 60° = AB/BC, so √3 = 40/x, giving x = 40/√3 = 40√3/3 m. Hence the boat is 40√3/3 m ≈ 23.09 m from the foot of the light house.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Diagram is drawn inside the worked solution, not with the question, so no figure attached."
+  },
+  {
+   "number": "41",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "A kite is flying at a height of 90 m above the ground. The string attached to the kite is temporarily tied to a point on the ground. The inclination of the string with the ground is 60°. Find the length of the string assuming that there is no slack in the string.",
+   "answer": "Let AB = 90 m be the height of the kite above the ground and let AC = x be the length of the string, inclined at 60° to the ground at C. In right triangle ABC, sin 60° = AB/AC, so √3/2 = 90/x. Then x = (90 × 2)/√3 = 180/√3 = 60√3 = 60 × 1.732. Hence the length of the string is 60√3 m ≈ 103.92 m.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2011, 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A PRACTICE box (kite at 100 m, elevation 60°) follows this solution; not emitted as an item per rule 10."
+  },
+  {
+   "number": "42",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "A tree breaks due to storm and the broken part bends so that the top of the tree touches the ground making an angle 30° with it. The distance between the foot of the tree to the point where the top touches the ground is 8 m. Find the height of the tree.",
+   "answer": "Let the tree AC stand on the ground at B and break at C, the broken part CD reaching the ground at D with BD = 8 m and ∠CDB = 30°. In right triangle CBD, cos 30° = BD/CD, so √3/2 = 8/CD, giving CD = 16/√3. Also tan 30° = BC/BD, so 1/√3 = BC/8, giving BC = 8/√3. The height of the tree is the standing part plus the broken part: BC + CD = 8/√3 + 16/√3 = 24/√3 = 8√3. Hence the height of the tree is 8√3 m.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page 8 and its solution continues onto page 9; figure belongs to the solution, so not attached."
+  },
+  {
+   "number": "43",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "A player sitting on the top of a tower of height 20 m observes the angle of depression of a ball lying on the ground as 60°. Find the distance between the foot of the tower and the ball. Take √3 = 1.732",
+   "answer": "Let AB be the tower of height 20 m with the player at A, and let C be the ball on the ground with BC = x. The horizontal XA at the top is parallel to BC, so the angle of depression ∠XAC = 60° equals ∠ACB = 60° as alternate angles. In right triangle ABC, tan 60° = AB/BC, so √3 = 20/x, giving x = 20/√3 = 20√3/3 = 20 × 1.732/3. Hence the ball is 20√3/3 m ≈ 11.55 m from the foot of the tower.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book's last line rounds 20(√3/3) to 11.53 m; the exact value 20 × 1.732/3 is 11.547 ≈ 11.55 m, so the printed decimal is a rounding slip inside the solution, not a key-vs-solution contradiction."
+  },
+  {
+   "number": "44",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "If the shadow of a tower is 30 m long, when the Sun's elevation is 30°. What is the length of the shadow, when Sun's elevation is 60° ?",
+   "answer": "Let AB be the tower, BC = 30 m the shadow when the elevation is 30°, and BD the shadow when the elevation is 60°. In right triangle ABC, AB/BC = tan 30°, so AB/30 = 1/√3, giving AB = 30/√3 = 10√3 m. In right triangle ABD, AB/BD = tan 60°, so 10√3/BD = √3, giving BD = 10. Hence the length of the shadow when the Sun's elevation is 60° is 10 m.",
+   "concept": "Angle of elevation",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Question is self-contained in words; the two-shadow diagram appears only in the solution."
+  },
+  {
+   "number": "45",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "From a point P on the ground the angle of elevation of the top of a 10 m tall building is 30°. A flag is hoisted at the top the of the building and the angle of elevation of the length of the flagstaff from P is 45°. Find the length of the flagstaff and distance of building from point P. [Take √3 = 1.732]",
+   "answer": "Let AB = 10 m be the building standing at A, BD = x the flagstaff on top of it, and P the point on the ground with AP the required distance. In right triangle ABP, tan 30° = AB/AP, so 1/√3 = 10/AP, giving AP = 10√3 = 10 × 1.732 = 17.32 m, the distance of the building from P. In right triangle ADP, tan 45° = AD/AP, so 1 = (10 + x)/17.32, giving 10 + x = 17.32 and x = 17.32 − 10.00 = 7.32. Hence the length of the flagstaff is 7.32 m and the building stands 17.32 m from P.",
+   "concept": "Angle of elevation",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2011, Delhi 2012, 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed exactly as shown, including the book's wording slips 'the angle of elevation of the length of the flagstaff' (meaning its top) and 'at the top the of the building'. Stem starts on page 9 and the bracketed [Take √3 = 1.732] carries over to the top of page 10."
+  },
+  {
+   "number": "46",
+   "form": "short",
+   "marks": 3,
+   "page": 10,
+   "stem": "Find the length of the shadow on the ground of a pole of height 18 m when angle of elevation θ of the sun is such that tan θ = 6/7.",
+   "answer": "Let AB be the pole and BC its shadow, so that the sun's rays make the angle θ at C. In right triangle ABC, tan θ = AB/BC. Substituting tan θ = 6/7 and AB = 18 m gives 6/7 = 18/BC, so BC = (18 × 7)/6 = 21 m. Hence the length of the shadow on the ground is 21 m.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "47",
+   "form": "short",
+   "marks": 3,
+   "page": 10,
+   "stem": "The angle of elevation of the top of a building from the foot of a tower is 30° and the angle of elevation of the top of a tower from the foot of the building is 60°. If the tower is 50 m high, then find the height of the building.",
+   "answer": "Let AB be the tower of height 50 m standing at B, and CD the building of height h standing at D, with BD the horizontal distance between their feet. In right triangle ABD, tan 60° = AB/BD, so √3 = 50/BD and BD = 50/√3. In right triangle BDC, tan 30° = CD/BD, so 1/√3 = h ÷ (50/√3) = h√3/50, which gives 3h = 50 and h = 50/3 = 16.67. Hence the height of the building is 16.67 m.",
+   "concept": "Angle of elevation",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "48",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "stem": "The top of two poles of height 16 m and 10 m are connected by a length l meter. If wire makes an angle of 30° with the horizontal, then find l.",
+   "answer": "Let AB = 10 m and CD = 16 m be the two poles and let AC = l be the wire. Draw AE horizontal from the top of the shorter pole to meet the taller pole at E, so DE = AB = 10 m and CE = CD − DE = 16 − 10 = 6 m. In right triangle AEC the wire makes 30° with the horizontal AE, so sin 30° = CE/l, that is 1/2 = 6/l. Therefore l = 2 × 6 = 12 m.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2, 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution's line reads \"CE = CD − CE = CD − AB\"; the second term is a misprint for DE (= AB), and the arithmetic that follows, 16 − 10 = 6, is correct."
+  },
+  {
+   "number": "49",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "stem": "An electric pole is 10 m high. A steel wire tied to top of the pole is affixed at a point on the ground to keep the pole up right. If the wire makes an angle of 45° with the horizontal through the foot of the pole, find the length of the wire. [Use √2 = 1.414]",
+   "answer": "Let OA be the pole with AB = 10 m its height and let C be the point on the ground where the wire AC is fixed, so that angle ACB = 45°. In right triangle ABC, sin 45° = AB/AC, that is 1/√2 = 10/AC. Hence AC = 10√2 = 10 × 1.414 = 14.14 m, so the length of the wire is 14.14 m.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "50",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "stem": "The angles of depression of the top and bottom of a 50 m high building from the top of a tower are 45° and 60° respectively. Find the height of the tower and the horizontal distance between the tower and the building. (Use √3 = 1.73)",
+   "answer": "Let AB be the tower of height h and CD the building of height 50 m, with x the horizontal distance BD between them. Draw EC horizontal from the top C of the building to the tower, so BE = 50 m and EA = h − 50. The depression of the top of the building is 45°, so in triangle AEC, tan 45° = (h − 50)/x, giving x = h − 50. The depression of the bottom is 60°, so in triangle ABD, tan 60° = h/x, giving x = h/√3. Equating, h − 50 = h/√3, so √3h − 50√3 = h and h(√3 − 1) = 50√3. Then h = 50√3/(√3 − 1) = 50√3(√3 + 1)/2 = 25(3 + √3) = 75 + 25√3 = 118.25. Hence the tower is 118.25 m high and the horizontal distance is x = h − 50 = 68.25 m.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution stops at h = 118.25 m and does not state the horizontal distance the question also asks for; x = h − 50 = 68.25 m follows from its own equation (1)."
+  },
+  {
+   "number": "51",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "An aeroplane, when flying at a height of 4000 m from the ground passes vertically above another aeroplane at an instant when the angles of elevation of the two planes from the same point on the ground are 60° and 45° respectively. Find the vertical distance between the aeroplanes at that instant. (Use √3 = 1.73)",
+   "answer": "Let D be the point of observation on the ground and B the point on the ground vertically below both planes, with BD = y. Let AB = 4000 m be the height of the upper plane, seen at 60°, and CB = x the height of the lower plane, seen at 45°. In triangle CBD, x/y = tan 45° = 1, so x = y. In triangle ABD, 4000/y = tan 60° = √3, so y = 4000/√3 = 4000√3/3 = 2306.67 m. The lower plane is therefore at 2306.67 m, and the vertical distance between the two planes is 4000 − 2306.67 = 1693.33 m.",
+   "concept": "Angle of elevation",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "52",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "A boy, flying a kite with a string of 90 m long, which is making an angle θ with the ground. Find the height of the kite. (Given tan θ = 45/8)",
+   "answer": "Take tan θ = 15/8, as the worked solution does. Let A be the kite, B the boy and C the foot of the vertical from the kite, so AB = 90 m is the string and AC the height. Since tan θ = AC/BC = 15/8, put AC = 15k and BC = 8k; then AB = √((15k)² + (8k)²) = √(289k²) = 17k. In right triangle ACB, AC/AB = sin θ = 15/17, so AC/90 = 15/17 and AC = (15 × 90)/17 = 79.41. Hence the height of the kite is 79.41 m.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem/solution conflict: the question line prints \"tan θ = 45/8\" (confirmed on a crop of the page), but the worked solution uses tan θ = 15/8 throughout (sides 15k, 8k, hypotenuse 17k) and answers 79.41 m. Solution wins; the stem is kept exactly as printed. With 45/8 the height would be 90 × 45/√(45² + 8²) = 88.6 m, not 79.41 m."
+  },
+  {
+   "number": "53",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "stem": "A 7 m long flagstaff is fixed on the top of a tower standing on the horizontal plane. From point on the ground, the angles of elevation of the top and bottom of the flagstaff are 60° and 45° respectively. Find the height of the tower correct to one place of decimal. (Use √3 = 1.73)",
+   "answer": "Let BC = x be the tower, AB = 7 m the flagstaff on top of it, and D the point on the ground with CD = y. The bottom B of the flagstaff is seen at 45°, so x/y = tan 45° = 1 and x = y. The top A is seen at 60°, so (x + 7)/y = tan 60° = √3; replacing y by x gives (x + 7)/x = √3, so 7 = (√3 − 1)x. Then x = 7/(√3 − 1) = 7(√3 + 1)/2 = 7(2.73)/2 = 9.6. Hence the height of the tower is 9.6 m.",
+   "concept": "Angle of elevation",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "54",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "stem": "Two men on either side of a 75 m high building and in line with base of building observe the angles of elevation of the top of the building as 30° and 60°. Find the distance between the two men. (Use √3 = 1.73)",
+   "answer": "Let AB be the building of height 75 m with foot B, and let the men stand at P and Q on opposite sides, with elevations 30° at P and 60° at Q. In triangle ABP, tan 30° = AB/BP, so 1/√3 = 75/BP and BP = 75√3 m. In triangle ABQ, tan 60° = AB/BQ, so √3 = 75/BQ and BQ = 75/√3 = 25√3 m. The distance between the men is PQ = BP + BQ = 75√3 + 25√3 = 100√3 = 100 × 1.73 = 173 m.",
+   "concept": "Angle of elevation",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "55",
+   "form": "short",
+   "marks": 3,
+   "page": 13,
+   "stem": "A man standing on the deck of a ship, which is 10 m above water level, observes the angle of elevation of the top of a hill as 60° and the angle of depression of the base of hill as 30°. Find the distance of the hill from the ship and the height of the hill.",
+   "answer": "Let E be the man's eye on the deck, with ED = 10 m the height of the deck above the water, and let AC be the hill with base C at water level; EB is the horizontal through E meeting the hill at B. In triangle BCE, BC = EC' = 10 m (the deck height) and the depression of the base gives angle BEC = 30°, so tan 30° = BC/BE, that is 1/√3 = 10/BE and BE = 10√3. Since BE = DC, the distance of the hill from the ship is DC = 10√3 = 10 × 1.732 = 17.32 m. For the height, in triangle ABE the elevation is angle AEB = 60°, so tan 60° = AB/BE, that is √3 = AB/(10√3) and AB = 10√3 × √3 = 30 m. The hill stands AB above the horizontal line plus the 10 m deck height, so its height is AB + 10 = 30 + 10 = 40 m. Hence the hill is 17.32 m from the ship and 40 m high.",
+   "concept": "Allowing for the observer's height",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "56",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "Two ships are approaching a light house from opposite directions. The angle of depression of two ships from top of the light house are 30° and 45°. If the distance between two ships is 100 m, Find the height of light-house.",
+   "answer": "Let AD be the lighthouse of height h with foot D, and let B and C be the ships on opposite sides with BC = 100 m. Put DC = x, so BD = 100 − x. The depressions give the elevations at the ships: in triangle ADC, tan 45° = h/x, so h = x. In triangle ABD, tan 30° = h/(100 − x), so 1/√3 = h/(100 − x) and 100 − x = h√3. Replacing x by h, 100 − h = h√3, so 100 = h(1 + √3) and h = 100/(1 + √3). Rationalising, h = 100(√3 − 1)/((√3)² − 1) = 100(√3 − 1)/2 = 50(√3 − 1) = 50(1.732 − 1) = 50 × 0.732 = 36.60. Hence the height of the lighthouse is 36.60 m.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "57",
+   "form": "short",
+   "marks": 3,
+   "page": 14,
+   "stem": "The horizontal distance between two poles is 15 m. The angle of depression of the top of first pole as seen from the top of second pole is 30°. If the height of the first of the pole is 24 m, find the height of the second pole. [ Use √3 = 1.732]",
+   "answer": "Let RS be the first pole of height 24 m and PQ the second pole, with QS = 15 m the horizontal distance. Draw TR horizontal from the top R of the first pole to meet the second pole at T, so TR = 15 m and TQ = RS = 24 m. The angle of depression of R from P is 30°, so angle TPR = 30° in right triangle PTR, giving tan 30° = PT/TR, that is 1/√3 = PT/15. Hence PT = 15/√3 = 5√3 = 5 × 1.732 = 8.66 m. The height of the second pole is PQ = PT + TQ = 8.66 + 24 = 32.66 m.",
+   "concept": "Sight below the horizontal",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "58",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "stem": "The angle of elevation of the top of a tower from a point A on the ground is 30°. On moving a distance of 20 metre towards the foot of the tower to a point B the angle of elevation increase to 60°. Find the height of the tower and the distance of the tower from the point A.",
+   "answer": "Let CD be the tower of height h with foot C, and let BC = x so that AC = x + 20. In right triangle DBC, h/x = tan 60° = √3, so h = √3x. In right triangle ADC, h/(x + 20) = tan 30° = 1/√3, so √3h = x + 20. Substituting h = √3x gives 3x = x + 20, so x = 10 m. Then AC = 20 + 10 = 30 m and h = √3 × 10 = 10√3 = 10 × 1.732 = 17.32 m. Hence the tower is 17.32 m high and stands 30 m from the point A.",
+   "concept": "Angle of elevation",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "59",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "stem": "The shadow of a tower at a time is three times as long as its shadow when the angle of elevation of the sun is 60°. Find the angle of elevation of the sun at the of the longer shadow.",
+   "answer": "Let AB be the tower of height h. When the elevation is 60° the shadow is AC = x, and in right triangle BAC, AB/AC = tan 60°, so h/x = √3 and h = x√3. The longer shadow is AD = 3x and the elevation then is θ, so in right triangle BAD, AB/AD = tan θ, that is h/3x = tan θ. Substituting h = x√3 gives tan θ = x√3/3x = √3/3 = 1/√3 = tan 30°. Hence the angle of elevation of the sun at the time of the longer shadow is 30°.",
+   "concept": "Angle of elevation",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem is printed with a dropped word: \"at the of the longer shadow\" is kept as printed and means \"at the time of the longer shadow\"."
+  },
+  {
+   "number": "60",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "stem": "A statue 1.6 m tall stands on the top of a pedestal. From a point on the ground the angle of elevation of the top of the statue is 60° and from the same point the angle of elevation of the top of the pedestal is 45°. Find the height of the pedestal.",
+   "answer": "Let BC = h be the pedestal, CD = 1.6 m the statue on top of it, and A the point on the ground with AB the horizontal distance. In right triangle ABD, cot 60° = AB/BD, that is 1/√3 = AB/(h + 1.6), so AB = (h + 1.6)/√3. In right triangle ABC, AB/BC = cot 45° = 1, so AB = h. Equating the two, h = (h + 1.6)/√3, so h√3 = h + 1.6 and h(√3 − 1) = 1.6. Then h = 1.6/(1.732 − 1) = 1.6/0.732 = 2.185. Hence the height of the pedestal is about 2.2 m.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "61",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "On a straight line passing through the foot of a tower, two C and D are at distance of 4 m and 16 m from the foot respectively. If the angles of elevation from C and D of the top of the tower are complementary, then find the height of the tower.",
+   "answer": "Let AB be the tower of height h with foot B, and let C and D lie on a line through B with BC = 4 m and BD = 16 m. Since the two elevations are complementary, take angle ACB = θ, so angle ADB = 90° − θ. In right triangle ABC, tan θ = AB/BC = h/4. In right triangle ABD, tan(90° − θ) = AB/BD = h/16, that is cot θ = h/16, so tan θ = 16/h. Equating the two expressions, h/4 = 16/h, so h² = 4 × 16 = 64 and h = 8. Hence the height of the tower is 8 m.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem is printed with a dropped word: \"two C and D\" means \"two points C and D\"; kept as printed."
+  },
+  {
+   "number": "62",
+   "form": "long",
+   "marks": 5,
+   "page": 16,
+   "stem": "From the top of a 15 m high building, the angle of elevation of the top of a tower is found to be 30°. From the bottom of the same building, the angle of elevation of the top of the tower is found to be 60°. Find the height of the tower and the distance between tower and the building.",
+   "answer": "Let the tower be AB of height h and let d be the horizontal distance between the tower and the 15 m building. Seen from the foot of the building, tan 60° = h/d, so h = √3 d. Seen from the top of the building the tower rises only (h − 15) above eye level, so tan 30° = (h − 15)/d, that is d = √3 (h − 15). Substituting d, h = √3 × √3 (h − 15) = 3h − 45, hence 2h = 45 and h = 22.5 m. Then d = 22.5/√3 = 45/(2√3) = 15√3/2 ≈ 12.99 m. The tower is 22.5 m high and stands about 12.99 m from the building.",
+   "concept": "Angle of elevation",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "63",
+   "form": "long",
+   "marks": 5,
+   "page": 17,
+   "stem": "The angles of depression of the top and bottom of an 8 m tall building from top of a multi-storeyed building are 30° and 45°, respectively. Find the height of multi-storey building and distance between two buildings.",
+   "answer": "Let the multi-storeyed building AB have height h and let x be the distance between the two buildings. The foot of the 8 m building is seen at a depression of 45°, so tan 45° = h/x, giving x = h. The top of the 8 m building is seen at a depression of 30°, and it lies (h − 8) below the top of the tall building, so tan 30° = (h − 8)/x, giving x = √3 (h − 8). Equating, h = √3 h − 8√3, so h(√3 − 1) = 8√3 and h = 8√3/(√3 − 1) = 4√3(√3 + 1) = (12 + 4√3) m = 4(3 + √3) m ≈ 18.93 m. Since x = h, the distance between the buildings is also 4(3 + √3) m. Hence the multi-storeyed building is 4(3 + √3) m high and the buildings are 4(3 + √3) m apart.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "64",
+   "form": "long",
+   "marks": 5,
+   "page": 18,
+   "stem": "The angle of elevation of an aeroplane from a point on the ground is 60°. After a flight of 30 seconds the angle of elevation becomes 30°. If the aeroplane is flying at a constant height of 3000√3 m, find the speed of the aeroplane.",
+   "answer": "Let E be the point of observation and let the plane fly from A to B at the constant height AD = BC = 3000√3 m. In right triangle AED, tan 60° = AD/DE, so √3 = 3000√3/DE and DE = 3000 m. In right triangle BEC, tan 30° = BC/EC, so 1/√3 = 3000√3/(DE + DC), giving DE + DC = 3000√3 × √3 = 9000 m. Hence DC = 9000 − 3000 = 6000 m, and this is the distance flown in 30 seconds. Speed = 6000/30 = 200 m/s = 200 × 18/5 = 720 km/h. The aeroplane is flying at 720 km/h.",
+   "concept": "Angle of elevation",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 SQP Standard, 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "65",
+   "form": "long",
+   "marks": 5,
+   "page": 18,
+   "stem": "The person standing on the bank of river observes that the angle of elevation of the top of a tree standing on opposite bank is 60°. When he moves 30 m away from the bank, he finds the angle of elevation to be 30°. Find the height of tree and width of the river.",
+   "answer": "Let CD be the tree of height h, let B be the point on the bank with BC = x the width of the river, and let A be the position 30 m behind B. In right triangle DBC, tan 60° = h/x, so h = √3 x. In right triangle DAC, tan 30° = h/(x + 30), so √3 h = x + 30. Substituting h = √3 x gives 3x = x + 30, hence x = 15 m. Then h = 15√3 = 15 × 1.732 ≈ 25.98 m. The tree is about 25.98 m high and the river is 15 m wide.",
+   "concept": "Angle of elevation",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "66",
+   "form": "long",
+   "marks": 5,
+   "page": 19,
+   "stem": "A vertical tower stands on horizontal plane and is surmounted by a vertical flag-staff of height 6 m. At a point on the ground, angle of elevation of the bottom and top of the flag-staff are 30° and 45° respectively. Find the height of the tower. (Take √3 = 1.73)",
+   "answer": "Let BD be the tower of height h and DA the flag-staff of height 6 m, observed from the point C on the ground with BC the horizontal distance. The top A is seen at 45°, so tan 45° = AB/BC, that is 1 = (h + 6)/BC, hence BC = h + 6. The bottom D is seen at 30°, so tan 30° = DB/BC, that is 1/√3 = h/(h + 6). Cross-multiplying, h√3 = h + 6, so h(√3 − 1) = 6 and h = 6/(√3 − 1) = 6(√3 + 1)/2 = 3(√3 + 1) = 3(1.73 + 1) = 3 × 2.73 = 8.19 m. The tower is 8.19 m high.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "67",
+   "form": "long",
+   "marks": 5,
+   "page": 19,
+   "stem": "From a point on the ground, the angles of elevation of the bottom and the top of a tower fixed at the top of a 20 m high building are 45° and 60° respectively. Find the height of the tower.",
+   "answer": "Let AB be the 20 m building and BD the tower standing on it, observed from the point P on the ground. The bottom B is seen at 45°, so tan 45° = AB/AP, that is 1 = 20/AP and AP = 20 m. The top D is seen at 60°, so tan 60° = AD/AP = (20 + BD)/20, giving √3 = (20 + BD)/20, hence 20 + BD = 20√3 and BD = 20√3 − 20 = 20(√3 − 1) = 20(1.732 − 1) = 20 × 0.732 = 14.64 m. The tower is 14.64 m high.",
+   "concept": "Angle of elevation",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed working writes the result as '14.64 cm.' one line before concluding '14.64 m'; the unit in the last line (metres) is the correct one."
+  },
+  {
+   "number": "68",
+   "form": "long",
+   "marks": 5,
+   "page": 20,
+   "stem": "From the top of a 7 m high building the angle of elevation of the top of a tower is 60° and the angle of depression of its foot is 45°. Determine the height of the tower.",
+   "answer": "Let AB be the 7 m building and CD the tower, with x the horizontal distance between them. Draw AE horizontal from the top A of the building to meet the tower at E, so AE = BD = x and ED = AB = 7 m. The foot D is seen at a depression of 45°, so tan 45° = AB/BD, that is 1 = 7/x and x = 7 m. The top C is seen at an elevation of 60°, so tan 60° = CE/AE, that is √3 = CE/x, giving CE = 7√3 m. Hence CD = CE + ED = 7√3 + 7 = 7(1 + √3) = 7 × 2.732 ≈ 19.12 m. The tower is about 19.12 m high.",
+   "concept": "Allowing for the observer's height",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed working writes 'x = 7 cm'; from the figure and the rest of the solution this is a typo for 7 m."
+  },
+  {
+   "number": "69",
+   "form": "long",
+   "marks": 5,
+   "page": 20,
+   "stem": "Two poles of equal heights are standing opposite to each other on either side of the road which is 80 m wide. From a point P between them on the road, the angle of elevation of the top of a pole is 60° and the angle of depression from the top of the other pole of point P is 30°. Find the heights of the poles and the distance of the point P from the poles.",
+   "answer": "Let both poles have height h, let AB be the pole whose top is seen from P at 30° (the depression of P from that top is 30°, so the elevation of that top from P is also 30°), and let CD be the pole whose top is seen at 60°. Put PB = x, so PC = 80 − x. In right triangle ABP, tan 30° = h/x, so h = x/√3. In right triangle CDP, tan 60° = h/(80 − x), so h = √3(80 − x). Equating, x/√3 = √3(80 − x), that is x = 3(80 − x), so 4x = 240 and x = 60 m. Then h = 60/√3 = 20√3 = 34.64 m. Each pole is 34.64 m high; P is 60 m from the pole seen at 30° and 80 − 60 = 20 m from the pole seen at 60°.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed closing lines read 'Distance of point P from pole AB is 20 m. Distance of point P from pole CD is 60 m', which contradicts the same solution's own x = PB = 60 m for the pole AB subtending 30°. Following the worked solution: P is 60 m from the 30° pole (AB) and 20 m from the 60° pole (CD)."
+  },
+  {
+   "number": "70",
+   "form": "long",
+   "marks": 5,
+   "page": 21,
+   "stem": "Two poles of equal heights are standing opposite to each other on either side of a road, which is 80 m wide. From a point between them on the road, angles of elevation of their top are 30° and 60°. Find the height of the poles and distance of point from poles.",
+   "answer": "Let both poles have height h and let E be the point on the road, with BE = x the distance to the pole AB seen at 30°, so ED = 80 − x is the distance to the pole CD seen at 60°. In right triangle ABE, tan 30° = h/x, so h = x/√3. In right triangle CDE, tan 60° = h/(80 − x), so h = √3(80 − x) = 80√3 − x√3. Equating, x/√3 = 80√3 − x√3, that is x = 240 − 3x, so 4x = 240 and x = 60 m. Then h = 60/√3 = 20√3 ≈ 34.64 m. Each pole is about 34.64 m high, and the point is 60 m from the pole seen at 30° and 20 m from the pole seen at 60°.",
+   "concept": "Angle of elevation",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 Delhi, OD 2011",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "71",
+   "form": "long",
+   "marks": 5,
+   "page": 21,
+   "stem": "Amit, standing on a horizontal plane, find a bird flying at a distance of 200 m from him at an elevation of 30°. Deepak standing on the roof of a 50 m high building, find the angle of elevation of the same bird to be 45°. Amit and Deepak are on opposite sides of the bird. Find the distance of the bird from Deepak.",
+   "answer": "Let O be the bird, A be Amit on the ground with OA = 200 m at an elevation of 30°, and let D be Deepak on the roof of the 50 m building FD. Drop OL perpendicular to the ground and let M be the foot of the perpendicular from O to the horizontal line through D. In right triangle OLA, sin 30° = OL/OA, so 1/2 = OL/200 and OL = 100 m: the bird flies 100 m above the ground. Since LM = FD = 50 m, OM = OL − LM = 100 − 50 = 50 m. In right triangle OMD, sin 45° = OM/OD, so 1/√2 = 50/OD and OD = 50√2 = 50 × 1.414 ≈ 70.7 m. The bird is about 70.7 m from Deepak.",
+   "concept": "Allowing for the observer's height",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "72",
+   "form": "long",
+   "marks": 5,
+   "page": 22,
+   "stem": "As observed from the top of a 100 m high light house from the sea-level, the angles of depression of two ships are 30° and 45°. If one ship is exactly behind the other on the same side of the light house, find the distance between the two ships. [Use √3 = 1.732]",
+   "answer": "Let AB be the light house of height 100 m with B at sea level, and let C and D be the ships, C the nearer one seen at 45° and D the farther one seen at 30°. In right triangle ABC, tan 45° = AB/AC — taking BC as the horizontal distance of the nearer ship, 1 = AB/BC gives BC = AB = 100 m. In right triangle ABD, tan 30° = AB/BD, so 1/√3 = AB/(BC + CD), giving BC + CD = √3 AB. Hence CD = √3 AB − AB = AB(√3 − 1) = 100(1.732 − 1) = 100 × 0.732 = 73.2 m. The two ships are 73.2 m apart.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2018",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "73",
+   "form": "long",
+   "marks": 5,
+   "page": 22,
+   "stem": "From the top of tower, 100 m high, a man observes two cars on the opposite sides of the tower with the angles of depression 30° and 45° respectively. Find the distance between the cars. (Use √3 = 1.73)",
+   "answer": "Let DC be the tower of height CD = 100 m with D its foot, and let A and B be the cars on opposite sides, A seen at a depression of 30° and B at 45°. Put AD = x and DB = y. In right triangle ADC, tan 30° = CD/AD, so 1/√3 = 100/x and x = 100√3. In right triangle BDC, tan 45° = CD/DB, so 1 = 100/y and y = 100 m. Since the cars are on opposite sides, the distance between them is AB = AD + DB = 100√3 + 100 = 100 × 1.73 + 100 = 173 + 100 = 273 m. The cars are 273 m apart.",
+   "concept": "Sight below the horizontal",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 SQP 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "74",
+   "form": "long",
+   "marks": 5,
+   "page": 23,
+   "stem": "The angle of elevation of the top B of a tower AB from a point X on the ground is 60°. At point Y, 40 m vertically above X, the angle of elevation of the top is 45°. Find the height of the tower AB and the distance XB.",
+   "answer": "Let AB be the tower with A at its foot on the ground, X the point on the ground and Y the point 40 m vertically above X. Draw YC horizontal to meet the tower at C, so YC = XA and CA = XY = 40 m; let BC = x, so AB = x + 40. In right triangle YCB, tan 45° = BC/YC, so 1 = x/YC and YC = x = XA. In right triangle XAB, tan 60° = AB/XA, so √3 = (x + 40)/x, giving √3 x − x = 40 and x = 40/(√3 − 1) = 20(√3 + 1) = 20√3 + 20. Hence AB = x + 40 = 20√3 + 60 = 20(√3 + 3) ≈ 94.64 m. For XB, in right triangle XAB, sin 60° = AB/BX, so √3/2 = AB/BX and BX = 2AB/√3 = 2 × 20(√3 + 3)/√3 = 40(1 + √3) = 40 × 2.73 ≈ 109.20 m. The tower is 20(√3 + 3) ≈ 94.64 m high and XB ≈ 109.20 m.",
+   "concept": "Allowing for the observer's height",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "75",
+   "form": "long",
+   "marks": 5,
+   "page": 24,
+   "stem": "A vertical tower stands on a horizontal plane and is surmounted by a flagstaff of height 5 m. From a point on the ground the angles of elevation of top and bottom of the flagstaff are 60° and 30° respectively. Find the height of the tower and the distance of the point from the tower. (take √3 = 1.732)",
+   "answer": "Let AB be the tower of height x with B at its foot, AC the flagstaff of height 5 m, and P the point on the ground with BP = y. The bottom A of the flagstaff is seen at 30°, so in right triangle ABP, AB/BP = tan 30°, that is x/y = 1/√3, giving y = √3 x. The top C is seen at 60°, so in right triangle CBP, (x + 5)/y = tan 60° = √3. Substituting y = √3 x gives (x + 5)/(√3 x) = √3, so x + 5 = 3x and x = 2.5 m. Then y = √3 × 2.5 = 2.5 × 1.732 = 4.33 m. The tower is 2.5 m high and the point is 4.33 m from its foot.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "76",
+   "form": "long",
+   "marks": 5,
+   "page": 24,
+   "stem": "Two post are k metre apart and the height of one is double that of the other. If from the mid-point of the line segment joining their feet, an observer finds the angles of elevation of their tops to be complementary, then find the height of the shorted post.",
+   "answer": "Let CD = h be the shorter post and AB = 2h the taller one, with their feet C and A a distance CA = k apart, and let M be the mid-point of CA, so CM = MA = k/2. Let the elevation of D from M be θ; since the two elevations are complementary, the elevation of B from M is 90° − θ. In right triangle AMB, AB/AM = tan(90° − θ) = cot θ, so 2h/(k/2) = 4h/k = cot θ. In right triangle CMD, CD/CM = tan θ, so h/(k/2) = 2h/k = tan θ. Multiplying the two results, (4h/k)(2h/k) = cot θ × tan θ = 1, so 8h²/k² = 1 and h² = k²/8. Hence h = k/(2√2) = k√2/4. The shorter post is k√2/4 metres high.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "77",
+   "form": "long",
+   "marks": 5,
+   "page": 24,
+   "stem": "A man on the top of a vertical tower observes a car moving at a uniform speed towards him. If it takes 12 min. for the angle of depression to change from 30° to 45°, how soon after this, the car will reach the tower?",
+   "answer": "Let AB be the tower of height h with B its foot, and let the car move from P (depression 30°) to Q (depression 45°). In right triangle ABQ, tan 45° = AB/BQ, so 1 = h/BQ and BQ = h. In right triangle APB, tan 30° = AB/PB, so 1/√3 = h/(x + h) where PQ = x, giving x + h = h√3 and x = h(√3 − 1). The car covers PQ = h(√3 − 1) in 12 minutes, so its speed is h(√3 − 1)/12 m/min. The distance still to be covered is BQ = h, so the time needed is t = h ÷ [h(√3 − 1)/12] = 12/(√3 − 1) = 12(√3 + 1)/2 = 6(√3 + 1) = 6 × 2.73 = 16.38 minutes. The car reaches the tower about 16.38 minutes after the second observation.",
+   "concept": "Lowering the head to view",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "78",
+   "form": "long",
+   "marks": 5,
+   "page": 25,
+   "stem": "As observed from the top of a light house, 100 m high above sea level, the angles of depression of a ship, sailing directly towards it, changes from 30° to 60°. Find the distance travelled by the ship during the period of observation. (Use √3 = 1.73)",
+   "answer": "Let AB be the light house, AB = 100 m, and let C and D be the two positions of the ship, at elevations 60° and 30° respectively. In right triangle ABC, AB/BC = tan 60°, so 100/y = √3 and y = 100/√3. In right triangle ABD, AB/BD = tan 30°, so 100/x = 1/√3 and x = 100√3. The distance sailed is CD = x − y = 100√3 − 100/√3 = 100(3 − 1)/√3 = 200/√3 = 200√3/3 = (200 × 1.73)/3 = 346/3. Hence the ship travels 115.33 m.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "ocr": "The printed working shows '200 × 1.73/3 = 3.46/3'; 200 × 1.73 = 346, a dropped-digit misprint. The final printed value 115.33 m is correct.",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "79",
+   "form": "long",
+   "marks": 5,
+   "page": 25,
+   "stem": "A straight highway leads to the foot of a tower. A man standing on its top observes a car at an angle of depression of 30°, which is approaching the foot of the tower with a uniform speed. 6 seconds later, the angle of depression of the car becomes 60°. Find the time taken by the car to reach the foot of tower from this point.",
+   "answer": "Let AB be the tower of height h, with the car first at D (depression 30°) and then at C (depression 60°). If the speed of the car is x, then in 6 seconds it covers DC = 6x, and let the remaining distance CA take t seconds, so CA = tx. In right triangle ADB, tan 30° = h/(6x + tx), giving h/x = (6 + t)/√3. In right triangle ACB, tan 60° = h/(tx), giving √3 t = h/x. Equating, √3 t = (6 + t)/√3, so 3t = 6 + t and 2t = 6. Hence the car takes t = 3 seconds to reach the foot of the tower.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi Compt. 2017",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "80",
+   "form": "long",
+   "marks": 5,
+   "page": 26,
+   "stem": "Two points A and B are on the same side of a tower and in the same straight line with its base. The angle of depression of these points from the top of the tower are 60° and 45° respectively. If the height of the tower is 15 m, then find the distance between these points.",
+   "answer": "Let CD be the tower with D at the top and CD = 15 m, and let A and B lie on the same side of it with CA = x and AB = y. In right triangle DCA, DC/CA = tan 60°, so 15/x = √3 and x = 15/√3 = 5√3. In right triangle DCB, DC/CB = tan 45°, so 15/(x + y) = 1 and x + y = 15. Therefore y = 15 − 5√3 = 5(3 − √3). Hence the distance between the two points is 5(3 − √3) m, about 6.34 m.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2017",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "81",
+   "form": "long",
+   "marks": 5,
+   "page": 26,
+   "stem": "From the top of a hill, the angle of depression of two consecutive kilometre stones due east are found to be 45° and 30° respectively. Find the height of the hill. [Use √3 = 1.73]",
+   "answer": "Let AB be the hill of height h, with C the nearer stone (depression 45°) and D the farther one (depression 30°), so CD = 1 km = 1000 m. In right triangle ABC, AB/AC = tan 45° = 1, so h = x where x = AC. In right triangle ABD, AB/(AC + CD) = tan 30°, so h/(x + 1000) = 1/√3, giving h√3 = h + 1000 and h(√3 − 1) = 1000. Then h = 1000/(√3 − 1) = 1000(√3 + 1)/2 = 500(√3 + 1) = 500 × 2.73. Hence the height of the hill is 1365 m.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "82",
+   "form": "long",
+   "marks": 5,
+   "page": 27,
+   "stem": "The angle of depression of two ships from an aeroplane flying at the height of 7500 m are 30° and 45°. if both the ships are in the same that one ship is exactly behind the other, find the distance between the ships.",
+   "answer": "Let A be the aeroplane, B the point directly below it, and C, D the two ships with depressions 45° and 30° respectively. Let BC = y and CD = x, and AB = 7500 m. In right triangle ABC, AB/BC = tan 45° = 1, so y = 7500. In right triangle ABD, AB/BD = tan 30°, so 7500/(x + y) = 1/√3 and x + y = 7500√3. Substituting y = 7500 gives x = 7500√3 − 7500 = 7500(√3 − 1) = 7500 × 0.73. Hence the distance between the two ships is 5475 m.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2017",
+   "ocr": "The printed stem is garbled — 'if both the ships are in the same that one ship is exactly behind the other' is missing a word (intended: 'in the same line such that'). Transcribed exactly as printed.",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "83",
+   "form": "long",
+   "marks": 5,
+   "page": 27,
+   "stem": "An aeroplane is flying at a height of 300 m above the ground. Flying at this height the angle of depression from the aeroplane of two points on both banks of a respectively. Find the width of the river. River in opposite direction are 45° and 60°.",
+   "answer": "Let A be the aeroplane at height 300 m above the point O on the ground, and let B and C be the two banks of the river, with depression 60° towards B and 45° towards C. Let BO = x and OC = y. In right triangle AOC, AO/OC = tan 45° = 1, so y = 300. In right triangle AOB, AO/BO = tan 60° = √3, so 300 = x√3 and x = 300/√3 = 100√3. The width of the river is BC = y + x = 300 + 100√3 = 300 + 100 × 1.732 = 300 + 173.2. Hence the river is 473.2 m wide.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2017",
+   "ocr": "The printed stem is badly scrambled — the clause 'two points on both banks of a respectively' and the trailing sentence 'River in opposite direction are 45° and 60°' appear in that order in the book. Transcribed exactly as printed; the solution reads it as depressions of 60° and 45° to the two banks.",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "84",
+   "form": "long",
+   "marks": 5,
+   "page": 27,
+   "stem": "The angle of elevation of a cloud from a point 120 m above a lake is 30° and the angle of depression of its reflection in the lake is 60°. Find the height of the cloud.",
+   "answer": "Let O be the observation point, 120 m above the lake surface, and let the cloud A be at height H above the lake, with A′ its reflection, so A′ lies H below the surface. Taking OP horizontal, PA = H − 120 and PA′ = H + 120. In right triangle AOP, tan 30° = PA/OP, so 1/√3 = (H − 120)/OP and OP = (H − 120)√3. In right triangle OPA′, tan 60° = PA′/OP, so √3 = (H + 120)/OP and OP = (H + 120)/√3. Equating the two, (H + 120)/√3 = √3(H − 120), so H + 120 = 3(H − 120) = 3H − 360, giving 2H = 480. Hence the height of the cloud above the lake is 240 m.",
+   "concept": "Allowing for the observer's height",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2012",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "85",
+   "form": "long",
+   "marks": 5,
+   "page": 28,
+   "stem": "The tops of two towers of height x and y, standing on level ground, subtend angles of 30° and 60° respectively at the centre of the line joining their feet, then find x : y.",
+   "answer": "Let AB be the tower of height x with foot B, and CD the tower of height y with foot D, and let M be the centre of BD, so BM = MD = z. In right triangle ABM, x/z = tan 30° = 1/√3, so x = z/√3. In right triangle CDM, y/z = tan 60° = √3, so y = z√3. Dividing, x/y = (z/√3)/(z√3) = 1/3. Hence x : y = 1 : 3.",
+   "concept": "Angle of elevation",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2015",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "86",
+   "form": "long",
+   "marks": 5,
+   "page": 28,
+   "stem": "The angle of elevation of a jet fighter point A on ground is 60°. After flying 10 seconds, the angle changes to 30°. If the jet is flying at a speed of 648 km/hour, find the constant height at which the jet is flying.",
+   "answer": "In 3600 seconds the jet covers 648000 m, so in 10 seconds it covers 648000 × 10/3600 = 1800 m. Let the jet be at C above B at first and at D above E later, with AB = x and BE = 1800, and let the constant height be h. In right triangle ABC, h/x = tan 60° = √3, so h = x√3. In right triangle ADE, h/(x + 1800) = tan 30° = 1/√3, so h = (x + 1800)/√3. Equating, x√3 = (x + 1800)/√3, so 3x = x + 1800 and x = 900 m. Then h = 900√3 = 900 × 1.732. Hence the jet is flying at a constant height of 1558.8 m.",
+   "concept": "Angle of elevation",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2012",
+   "ocr": "The book writes 'h = x√3 = 900 × 1.732 = 1558.5 m' and then concludes '1558.8 m'. 900 × 1.732 = 1558.8, so the concluding figure is the correct one and 1558.5 is the misprint.",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "87",
+   "form": "long",
+   "marks": 5,
+   "page": 29,
+   "stem": "From the top of a tower of height 50 m, the angles of depression of the top and bottom of a pole are 30° and 45° respectively. Find :\n(1) How far the pole is from the bottom of the tower,\n(2) The height of the pole. (Use √3 = 1.732)",
+   "answer": "Let AB be the tower with A at the top and AB = 50 m, and let CD be the pole standing at distance x from the foot B, with M the point on AB level with the top C of the pole. In right triangle ABD, tan 45° = AB/BD = 1, so 50/x = 1 and x = 50 m — the pole stands 50 m from the foot of the tower. In triangle AMC, tan 30° = AM/MC = AM/x, so AM = 50/√3 = 28.87 m. The height of the pole is CD = BM = AB − AM = 50 − 28.87 = 21.13 m. Hence the pole is 50 m away and 21.13 m tall.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "88",
+   "form": "long",
+   "marks": 5,
+   "page": 29,
+   "stem": "The shadow of a tower standing on a level ground is found to be 40 m longer when the Sun's altitude is 30°, then when it is 60°. Find the height of the tower.",
+   "answer": "Let AB be the tower of height h, with BC the shadow when the Sun's altitude is 60° and BD the longer shadow when it is 30°, so BD = BC + 40. Let BC = x. In right triangle ABC, tan 60° = h/x = √3, so h = √3 x. In right triangle ABD, tan 30° = h/(x + 40), so 1/√3 = h/(x + 40) and x + 40 = √3 h = √3 × √3 x = 3x. Therefore 40 = 2x and x = 20 m, giving h = √3 × 20. Hence the height of the tower is 20√3 m, about 34.64 m.",
+   "concept": "Angle of elevation",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2011",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "89",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "A man in a boat rowing away from a light house 100 m high takes 2 minutes to change the angle of elevation of the top of the light house from 60° to 30°. Find the speed of the boat in metres per minute. [Use √3 = 1.732]",
+   "answer": "Let BC be the light house with BC = 100 m, D the first position of the boat (elevation 60°) and A its position after 2 minutes (elevation 30°). In right triangle DBC, tan 60° = BC/BD, so √3 = 100/BD and BD = 100/√3. In right triangle ABC, tan 30° = BC/AB, so 1/√3 = 100/AB and AB = 100√3. The distance rowed is AD = AB − DB = 100√3 − 100/√3 = 173.2 − 57.73 = 115.47 m, covered in 2 minutes. Hence the boat moves away from the light house at 115.47/2 = 57.74 m/min.",
+   "concept": "Angle of elevation",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 Delhi",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "90",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "A bird sitting on the top of a 80 m high tree. From a point on the ground, the angle of elevation of the bird is 45°. The bird flies away horizontally in such a way that it remained at a constant height from the ground. After 2 seconds, the angle of elevation of the bird from the same point is 30°. Find the speed of flying of the bird. (Take √3 = 1.732)",
+   "answer": "Let CD be the tree of height 80 m with the bird first at D, and O the observation point on the ground. Writing OA = y for the horizontal distance at the first sighting and x for the distance the bird flies to B, in right triangle AOB, tan 45° = 80/y = 1, so y = 80. In right triangle DOC, tan 30° = 80/(x + y), so 1/√3 = 80/(x + y) and x + y = 80√3. Therefore x = 80√3 − 80 = 80(√3 − 1) = 80 × 0.73 = 58.4 m, covered in 2 seconds. Hence the bird flies at 58.4/2 = 29.2 m per second.",
+   "concept": "Angle of elevation",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2016",
+   "ocr": "The book's last line reads 'speed of bird = 58.4/2 = 29.2 m', omitting the time unit; the speed is 29.2 m per second.",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "91",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "stem": "If the angles of elevation of the top of the candle from two coins distant a cm and b cm (a > b) from its base and in the same straight line from it are 30° and 60°, then find the height of the candle.",
+   "answer": "Let AB be the candle of height h, with C and D the two coins at distances b cm and a cm from the base B, so BC = b and BD = a. The nearer coin C sees the top at 60° and the farther coin D at 30°. In triangle ABC, tan 60° = AB/BC, so √3 = h/b and h = √3 b. In triangle ABD, tan 30° = AB/BD, so 1/√3 = h/a and h = a/√3. Multiplying the two expressions, h² = √3 b × a/√3 = ab. Hence the height of the candle is √(ab) cm.",
+   "concept": "Angle of elevation",
+   "section_heading": "FIVE MARKS QUESTIONS | Board SQP Standard 2021",
+   "ocr": "The book prints this question twice on the page — once beside a decorative candle-and-coins illustration and again immediately above the solution. Emitted once. The illustration carries no data the text lacks, so no figure is attached.",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "92",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "stem": "A 1.2 m tall girl spots a balloon moving with the wind in a horizontal line at a height 88.2 m from the ground. The angle of elevation of the balloon from the eyes of the girl at any instant is 60° .After sometime, the angle of elevation reduces 30°.Find the distance travelled by the balloon during the interval.",
+   "answer": "The girl's eyes are 1.2 m above the ground, so the balloon is 88.2 − 1.2 = 87 m above eye level. Let A be the eye position, E the first position of the balloon with G directly below it at eye level, and F the second position with C below it at eye level. In right triangle EAG, tan 60° = EG/AG, so AG = 87/√3 = 29√3. In right triangle FAC, tan 30° = FC/AC with FC = EG = 87, so 1/√3 = 87/AC and AC = 87√3. The balloon travels GC = AC − AG = 87√3 − 29√3 = √3(87 − 29). Hence the distance travelled by the balloon is 58√3 m, about 100.46 m.",
+   "concept": "Allowing for the observer's height",
+   "section_heading": "FIVE MARKS QUESTIONS | Board SQP Basic 2021",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "93",
+   "form": "case_study",
+   "marks": 4,
+   "page": 32,
+   "stem": "Radio towers are used for transmitting a range of communication services including radio and television. The tower will either act as an antenna itself or support one or more antennas on its structure. On a similar concept, a radio station tower was built in two sections A and B. Tower is supported by wires from a point O.\nDistance between the base of the tower and point O is 36 cm. From point O, the angle of elevation of the top of the section B is 30° and the angle of elevation of the top of section A is 45°.\nBased on the above information, answer the following questions:\n(i) Find the length of the wire from the point O to the top of section B.\n(ii) Find the distance AB.\n(iii) Find the area of Δ OPB.\n(iv) Find the height of the section A from the base of the tower.",
+   "answer": "Let P be the base of the tower, B the top of the lower section and A the top of the upper section, with OP = 36.\n(i) In Δ BPO, cos 30° = OP/OB, so √3/2 = 36/OB and OB = 72/√3 = 24√3. The wire from O to the top of section B is 24√3 cm long.\n(ii) In Δ BPO, tan 30° = BP/OP, so BP = 36/√3 = 12√3. In Δ APO, tan 45° = AP/PO = 1, so AP = 36. Then AB = AP − BP = 36 − 12√3 = 36 − 20.78 = 15.22 cm.\n(iii) Area of Δ OPB = ½ × base × height = ½ × 36 × 12√3 = 216√3 = 374.12 cm².\n(iv) The height of section A above the base of the tower is AP = 36 tan 45° = 36 cm.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "COMPETENCY BASED QUESTIONS | Board 2023 OD Standard",
+   "images": [
+    "ch09_q93.png"
+   ],
+   "figure_required": true,
+   "ocr": "Section heading is printed 'COMPETENCEY BASED QUESTIONS' (the book's own spelling); normalised to COMPETENCY. Units are inconsistent in the book: the text says the base-to-O distance is 36 cm while the figure labels it 36 m; kept as printed and cm carried through as the solution does. Emitted as a 4-mark case_study because the competency-based section is case-study shaped and is not one of the marks-labelled sections. Figure attached because the sub-questions name points P and O, which only the diagram defines.",
+   "options": null,
+   "correct_option": null
+  },
+  {
+   "number": "94",
+   "form": "case_study",
+   "marks": 4,
+   "page": 33,
+   "stem": "From his hotel room window on the fourth floor, Ranjan notices some window washers high above him on the hotel across the street.\nCurious as to their height above ground, he quickly estimates the buildings are 60 m apart, the angle of elevation to the workers is about 60°, and the angle of depression to the base of the hotel is about 30°.\n(i) How high above ground is the window of Ranjan's hotel room?\n(ii) How high above ground are the workers?",
+   "answer": "Let h₁ be the height of Ranjan's window above the ground and h₂ the height of the washers above his window; the two buildings stand 60 m apart.\nLooking down at the base of the other hotel, tan 30° = h₁/60, so h₁ = 60/√3 = 20√3 = 20 × 1.732 = 34.64 m.\nLooking up at the workers, tan 60° = h₂/60, so h₂ = 60√3 = 60 × 1.732 = 103.92 m.\n(i) Ranjan's window is 34.64 m above the ground.\n(ii) The workers are h₁ + h₂ = 34.64 + 103.92 = 138.56 m above the ground.",
+   "concept": "Allowing for the observer's height",
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "ocr": "The printed answer (ii) states '138.64 meter above the ground', but its own working two lines earlier gives h₁ + h₂ = 34.64 + 103.92 = 138.56 m. The solution wins: 138.56 m. No board tag is printed for this question. Emitted as a 4-mark case_study (competency based section).",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "95",
+   "form": "case_study",
+   "marks": 4,
+   "page": 33,
+   "stem": "Statue of Unity : It is a colossal statue of Indian statesman and independence activist Sardar Vallabh bhai Patel, who was the first Deputy Prime Minister and Home minister of independent India.\nPatel was highly respected for his leadership in uniting the 562 princely states of India to form the single Union of India. It is located in the state of Gujarat and it is the world's tallest statue.\n(i) For a person standing 240 m from the center of the base of the statue, the angle of elevation to the top of the statue is 45°. How tall is the statue?\n(ii) A cop in helicopter near the top of the statue, notices a car wreck some distance from the statue. If the angle of depression from the cop's eyes to the wreck is 60°, how far away is the accident from the centre of base of the statue?",
+   "answer": "(i) Let h be the height of the statue. The observer stands 240 m from the centre of the base and sees the top at 45°, so tan 45° = h/240 and 1 = h/240. Hence the statue is 240 m tall.\n(ii) Let d be the horizontal distance of the wreck from the centre of the base. From a point 240 m up, the depression to the wreck is 60°, so d = 240/tan 60° = 240/√3 = 80√3 = 80 × 1.732. Hence the accident is 138.56 m from the centre of the base of the statue.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "ocr": "The book writes the second part as 'tan 30° = d/h' with 1/√3 = d/240; that is the complementary form of the same right triangle (the depression being 60°) and gives the same d = 80√3 = 138.56 m. No board tag is printed. Emitted as a 4-mark case_study (competency based section). The statue photograph is decorative and carries no data, so no figure is attached.",
+   "options": null,
+   "correct_option": null,
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "96",
+   "form": "case_study",
+   "marks": 4,
+   "page": 34,
+   "stem": "Eiffel Tower : The Eiffel Tower is a landmark and an early example of wrought-iron construction on a gigantic scale. The lower section consists of four immense arched legs set on masonry piers. The legs curve inward until they unite in a single tapered tower. Platforms, each with an observation deck, are at three levels; on the first is also a restaurant.\nThe tower, constructed of about 7000 tons of iron, has stairs and elevators. A meteorological station, a radio communications station, and a television transmission antenna, as well as a suite of rooms that were used by Eiffel are located near the top of the tower.\n(i) For a person standing 324 m from the center of the base of the Eiffel Tower, the angle of elevation to the top of the tower is 45°. How tall is the Eiffel Tower?\n(ii) A car is moving at uniform speed towards the Eiffel tower. It takes 15 minutes for the angle of depression from the top of tower to the car to change from 30° to 60°. After how much time after this, the car will reach the base of the tower?",
+   "answer": "(i) Let h be the height of the tower. From the person's position, tan 45° = h/324, so 1 = h/324 and h = 324 m.\n(ii) Let d be the car's distance from the foot of the tower when the depression is 30°. Then tan 30° = 324/d, so d = 324√3 m. When the depression has grown to 60°, the remaining distance d₂ satisfies tan 60° = 324/d₂, so d₂ = 324/√3 = 108√3 m. The car therefore covered d₁ = 324√3 − 108√3 = 216√3 m in 15 minutes, and 216√3 = 2 × 108√3, so the remaining 108√3 m is exactly half that journey. At the same uniform speed it takes 15 ÷ 2 = 7.5 minutes. The Eiffel Tower is 324 m tall and the car reaches its base 7.5 minutes after the second sighting.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A photograph of the Eiffel Tower is printed with the question; it is decorative and carries no measurement, so it is not attached."
+  },
+  {
+   "number": "97",
+   "form": "case_study",
+   "marks": 4,
+   "page": 35,
+   "stem": "From the observation deck of a seaside building 200 m high, Jignesh sees two fishing boats in the distance. The angle of depression to the nearer boat is 60° while for the boat farther away the angle is 45°.\n(i) How far out to sea is the nearer boat?\n(ii) How far apart are the two boats?",
+   "answer": "Let d₁ be the distance of the nearer boat from the foot of the building and d₂ the further gap out to the second boat. The deck is 200 m above sea level.\n(i) For the nearer boat, tan 60° = 200/d₁, so d₁ = 200/√3 = 200√3/3 ≈ 115.47 m. The nearer boat is about 115.47 m out to sea.\n(ii) For the farther boat, tan 45° = 200/(d₁ + d₂), so d₁ + d₂ = 200 m. Hence d₂ = 200 − 115.47 = 84.53 m. The two boats are about 84.53 m apart.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Key contradicted. The stem and the solution's own diagram both give the deck height as 200 m, but the printed algebra substitutes 150 (tan 60° = 150/d₁) and so reports 86.6 m and 63.4 m. Recomputed from the printed 200 m: 115.47 m and 84.53 m. A drawing of the lighthouse and the two boats is printed between question and solution; it repeats only the 60° and 45° already in the stem, so it is not attached."
+  },
+  {
+   "number": "98",
+   "form": "case_study",
+   "marks": 4,
+   "page": 35,
+   "stem": "While doing some night fishing, Sarthak round a peninsula and a tall light house comes into view. Taking a sighting, Sarthak find the angle of elevation to the top of the lighthouse is 30°. If the lighthouse is known to be 25 m tall, how far from the lighthouse is Sarthak ?",
+   "answer": "Let d be the horizontal distance between Sarthak and the foot of the lighthouse. The lighthouse is 25 m tall and is seen at an elevation of 30°, so tan 30° = 25/d, that is 1/√3 = 25/d. Hence d = 25√3 = 25 × 1.732 = 43.3 m. Sarthak is about 43.3 metre away from the lighthouse.",
+   "concept": "Angle of elevation",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A night scene of the lighthouse and boat is printed with the question; it carries no measurement and is not attached."
+  },
+  {
+   "number": "99",
+   "form": "case_study",
+   "marks": 4,
+   "page": 36,
+   "stem": "On a warm and lazy Saturday, Rishi is watching a county maintenance crew mow the park across the street. He notices the mower takes 16 sec to pass through 60° of rotation from one end of the park to the other. If the corner of the park is 40 meter directly across the street from his house,\n(i) How wide is the park?\n(ii) How fast (in kmph) does the mower travel as it cuts the grass?",
+   "answer": "(i) Rishi's line to the near corner of the park is 40 m long and is perpendicular to the width of the park, and the mower sweeps 60° from that line to the far corner. So tan 60° = w/40, giving w = 40√3 = 40 × 1.732 = 69.28 m. The park is about 69.28 metre wide.\n(ii) The mower covers that width in 16 seconds, so its speed is s = 69.28/16 = 4.33 m/sec. Converting, 4.33 × 3.6 = 15.6 km/h. The mower travels at about 15.6 kmph.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "An illustration of the street and park is printed inside the question; it only repeats the 60° given in the text, so it is not attached."
+  },
+  {
+   "number": "100",
+   "form": "case_study",
+   "marks": 4,
+   "page": 36,
+   "stem": "Speed Limit Enforcement : Rajendra works in traffic police and manage traffic on highway. His van is having radar detection equipment. He takes up a hidden position 50 meter from the highway. Using a sighting device he finds the angle between his position and a road sign in the distance is 60°. He then uses a stop watch to determine how long it takes a vehicle to pass her location and reach the road sign. In quick succession—an 18-wheeler, a truck, and a car pass her position, with the time each takes to travel this distance noted. Find the speed of each vehicle in miles per hour if\n(i) the 18-wheeler takes 8 sec,\n(ii) the truck takes 6 sec,\n(iii) the car takes 4 sec.",
+   "answer": "Let d be the length of road between the point opposite the van and the road sign. The van sits 50 m off the highway and sights the sign at 60° from that perpendicular, so tan 60° = d/50 and d = 50√3 = 50 × 1.732 = 86.6 m.\n(i) 18-wheeler: s₁ = 86.6/8 = 10.825 m/sec = 10.825 × 3.6 = 38.97 km/h.\n(ii) Truck: s₂ = 86.6/6 = 14.43 m/sec = 14.43 × 3.6 = 51.96 km/h.\n(iii) Car: s₃ = 86.6/4 = 21.65 m/sec = 21.65 × 3.6 = 77.94 km/h.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem asks for speeds 'in miles per hour' but every quantity in the question and the whole printed solution are metric; the answers are given in km/h as the solution does. A highway illustration repeating the printed 50 m and 60° is not attached."
+  },
+  {
+   "number": "101",
+   "form": "case_study",
+   "marks": 4,
+   "page": 37,
+   "stem": "Rainbow: While visiting the Mount Abu in Rajasthan, Taniya and Lavanya see a spectacularly vivid rainbow arching over the lake. Taniya speculates the rainbow is 250 m away, while Lavanya estimates the angle of elevation to the highest point of the rainbow is about 60°. What was the approximate height of the rainbow?",
+   "answer": "Let h be the height of the highest point of the rainbow above the girls' level. The horizontal distance to that point is 250 m and it is seen at an elevation of 60°, so tan 60° = h/250, that is √3 = h/250. Hence h = 250√3 = 250 × 1.732 ≈ 433 m. The rainbow rises to about 433 metre.",
+   "concept": "Angle of elevation",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed working writes '250 × 1.173' — a misprint for 1.732 — and rounds to 432.5 m; 250√3 is 433.01, so 433 m is given here. A photograph of a rainbow is printed with the question and is not attached."
+  },
+  {
+   "number": "102",
+   "form": "case_study",
+   "marks": 4,
+   "page": 37,
+   "stem": "CN Tower : The tallest free-standing tower in the world is the CN Tower in Toronto, Canada. The tower includes a rotating restaurant high above the ground. From a distance of 208 meter the angle of elevation to the pinnacle of the tower is 60°. The angle of elevation to the restaurant from the same vantage point is 45°.\n(i) How tall is the CN Tower?\n(ii) How far below the pinnacle of the tower is the restaurant located?",
+   "answer": "Let h₁ be the height of the pinnacle and h₂ the height of the restaurant, both measured from the vantage point's level, which is 208 m from the foot of the tower.\n(i) tan 60° = h₁/208, so h₁ = 208√3 = 208 × 1.73 ≈ 360 m. The CN Tower is about 360 metre tall.\n(ii) tan 45° = h₂/208, so h₂ = 208 m. The restaurant therefore lies 360 − 208 = 152 m below the pinnacle.",
+   "concept": "Angle of elevation",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A photograph of the CN Tower is printed with the question; it carries no measurement and is not attached."
+  },
+  {
+   "number": "103",
+   "form": "case_study",
+   "marks": 4,
+   "page": 38,
+   "stem": "Height of Cloud Cover : To measure the height of the cloud cover at an airport, a worker shines a spotlight upward at an angle 45° from the horizontal. An observer 600 m away measures the angle of elevation to the spot of light to be 30°. Find the height of the cloud cover.",
+   "answer": "Let h be the height of the lit spot on the cloud above the ground, let d₁ be the observer's horizontal distance from the point below the spot and d₂ the spotlight's. From the observer, tan 30° = h/d₁, so d₁ = √3 h. From the spotlight, tan 45° = h/d₂, so d₂ = h. The spotlight and the observer are 600 m apart, so d₁ + d₂ = 600, giving √3 h + h = 600 and (√3 + 1)h = 600. Hence h = 600/(√3 + 1) = 600(√3 − 1)/2 = 300(1.732 − 1) = 300 × 0.732 = 219.6 m. The cloud cover is about 219.6 metre high.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A grey photograph of the spotlight scene is printed with the question; its labels are illegible and it carries no data beyond the stem, so it is not attached."
+  },
+  {
+   "number": "104",
+   "form": "case_study",
+   "marks": 4,
+   "page": 38,
+   "stem": "Use the diagram given to derive a formula for the height h of the taller building in terms of the height x of the shorter building and the ratios for tan θ and tan φ.",
+   "answer": "In the diagram, d is the distance between the two buildings, φ is the angle of elevation of the top of the taller building measured from the foot of the shorter one, and θ is its angle of elevation measured from the top of the shorter building, whose height is x.\nFrom the foot of the shorter building, tan φ = h/d, so d = h/tan φ.\nFrom the top of the shorter building the taller one rises only h − x above eye level, so tan θ = (h − x)/d. Substituting d gives tan θ = (h − x) tan φ / h, hence h tan θ = h tan φ − x tan φ.\nCollecting the h terms, h tan φ − h tan θ = x tan φ, so h(tan φ − tan θ) = x tan φ and therefore\nh = x tan φ / (tan φ − tan θ).",
+   "concept": "Drawing the right triangle",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch09_q104.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question is unanswerable without the printed diagram, which is where θ, φ, d, x and h are defined; it is attached."
+  },
+  {
+   "number": "105",
+   "form": "case_study",
+   "marks": 4,
+   "page": 39,
+   "stem": "Distance Measuring Equipment : DME is standard avionic equipment on a commercial airplane. This equipment measures the distance from a plane to a radar station. If the distance from a plane to a radar station is 200 km and the angle of depression is 30°, find the ground distance from a point directly below the plane to the radar station.",
+   "answer": "Let d be the ground distance from the point directly below the plane to the radar station. The slant line from the plane to the station is 200 km long and makes 30° with the horizontal, so the horizontal leg is the adjacent side: cos 30° = d/200, that is √3/2 = d/200. Hence d = 100√3 = 100 × 1.732 = 173.2 km. The ground distance is about 173.2 kilometre.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The closing line of the printed solution says '173.2 meter' although every datum is in kilometres; km is used here. The illustration beside the question labels the depression 60°, contradicting the 30° stated in the text; the text's 30° is used and the illustration is not attached."
+  },
+  {
+   "number": "106",
+   "form": "case_study",
+   "marks": 4,
+   "page": 39,
+   "stem": "Height of a Climber : Himalayan Trekking Club has just hiked to the south rim of a large canyon, when they spot a climber attempting to scale the taller northern face. Knowing the distance between the sheer walls of the northern and southern faces of the canyon is approximately 150 meter, they attempt to compute the distance remaining for the climbers to reach the top of the northern rim. Using a homemade transit, they sight an angle of depression of 60° to the bottom of the north face, and angles of elevation of 30° and 45° to the climbers and top of the northern rim respectively.\n(i) How high is the southern rim of the canyon?\n(ii) How high is the northern rim?\n(iii) How much farther until the climber reaches the top?",
+   "answer": "The trekkers stand on the south rim, 150 m horizontally from the north face. Let h₁ be the height of the south rim above the canyon floor, h₂ the height of the north rim above the trekkers' eye level, and h₃ the height of the climber above that same level.\n(i) Looking down at the bottom of the north face, tan 60° = h₁/150, so h₁ = 150√3 = 150 × 1.732 = 259.8 m. The southern rim is about 259.8 metre high.\n(ii) Looking up at the top of the north face, tan 45° = h₂/150, so h₂ = 150 m. The northern rim therefore stands h₁ + h₂ = 259.8 + 150 = 409.8 m above the canyon floor.\n(iii) Looking up at the climber, tan 30° = h₃/150, so h₃ = 150/√3 = 50√3 = 50 × 1.732 = 86.6 m. The climber still has h₂ − h₃ = 150 − 86.6 = 63.4 m to go.",
+   "concept": "Sight below the horizontal",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A drawing of the canyon is printed inside the question; it only repeats the 30°, 45° and 60° already stated, so it is not attached."
+  },
+  {
+   "number": "107",
+   "form": "case_study",
+   "marks": 4,
+   "page": 40,
+   "stem": "An observer notes that the angle of elevation from point A to the top of a space shuttle is 45°. From a point 20 meters further from the space shuttle, the angle of elevation is 30°.\n(i) Find the height of the space shuttle.\n(ii) Find the distance of point A from space shuttle.",
+   "answer": "Let h be the height of the space shuttle and d the ground distance of A from its base; the second point B is 20 m beyond A on the same line.\nFrom A, tan 45° = h/d, so 1 = h/d and h = d.\nFrom B, tan 30° = h/(d + 20), so 1/√3 = h/(h + 20) after putting d = h. Cross-multiplying, h + 20 = √3 h, so 20 = h(√3 − 1) and h = 20/(√3 − 1) = 20(√3 + 1)/2 = 10(1.732 + 1) = 10 × 2.732 = 27.32 m.\n(i) The space shuttle is 27.32 m high.\n(ii) Since d = h, point A is also 27.32 m from the space shuttle.",
+   "concept": "Angle of elevation",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "An illustration of the shuttle repeating the printed 45° and 30° is not attached."
+  },
+  {
+   "number": "108",
+   "form": "case_study",
+   "marks": 4,
+   "page": 41,
+   "stem": "Height of a Building : A surveyor determines that the angle of elevation from a transit to the top of a building is 30°. The transit is positioned 2 meter above ground level and 30 meter from the building. Find the height of the building.",
+   "answer": "Let h be the height of the building measured from the level of the transit. The transit is 30 m from the building and sights the top at 30°, so tan 30° = h/30, that is 1/√3 = h/30. Hence h = 30/√3 = 10√3 = 10 × 1.732 = 17.32 m. The transit itself stands 2 m above the ground, so the building's height from the ground is 17.32 + 2 = 19.32 m.",
+   "concept": "Allowing for the observer's height",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A drawing of the surveyor and building repeating the printed 30° is not attached."
+  },
+  {
+   "number": "109",
+   "form": "case_study",
+   "marks": 4,
+   "page": 41,
+   "stem": "Width of a Lake : The angle of depression to one side of a lake, measured from a balloon 300 meter above the lake as shown in the accompanying figure, is 45°. The angle of depression to the opposite side of the lake is 30°.\n(i) Find the width of the lake.\n(ii) Find the ground distance of balloon from sides of lake.",
+   "answer": "Let d₁ and d₂ be the horizontal distances from the point directly below the balloon to the nearer and the farther side of the lake; the balloon floats 300 m above the water.\nFor the nearer side, tan 45° = 300/d₁, so 1 = 300/d₁ and d₁ = 300 m.\nFor the farther side, tan 30° = 300/d₂, so 1/√3 = 300/d₂ and d₂ = 300√3 = 300 × 1.732 = 519.6 m.\n(i) The width of the lake is w = d₁ + d₂ = 300 + 519.6 = 819.6 m.\n(ii) The ground distances of the balloon from the two sides are 300 metre and 519.6 metre.",
+   "concept": "Lowering the head to view",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem says 'as shown in the accompanying figure', but the printed picture only repeats the 300 m, 45° and 30° already given in words, so it is not attached."
+  },
+  {
+   "number": "110",
+   "form": "case_study",
+   "marks": 4,
+   "page": 42,
+   "stem": "Height of a Pyramid : The angle of elevation to the top of the Egyptian pyramid of Cheops is 30° measured from a point 50 meter from the base of the pyramid. The angle of elevation from the base of a face of the pyramid is 60°.\n(i) Find the height of the Cheops pyramid.\n(ii) Find the side of base of pyramid.",
+   "answer": "Let h be the height of the pyramid above the centre of its square base and let 2a be the side of that base, so that a is the horizontal distance from the centre to the middle of a face.\nFrom the foot of the face, tan 60° = h/a, so a = h/√3.\nFrom the point 50 m further out, tan 30° = h/(a + 50), so 1/√3 = h/(a + 50) and a + 50 = √3 h.\nSubstituting a = h/√3 gives h/√3 + 50 = √3 h. Multiplying by √3, h + 50√3 = 3h, so 2h = 50√3 and h = 25√3 = 25 × 1.732 = 43.3 m.\n(i) The Cheops pyramid is about 43.3 metre high.\n(ii) a = h/√3 = 25√3/√3 = 25 m, so the side of the base is 2a = 2 × 25 = 50 m.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed working labels the line 'h/√3 = 25 m' as 2a when it is in fact a; the book's own stated answer, side = 50 m, follows from a = 25 m, so the labelling is the slip and the answer stands. The pyramid illustration repeats the printed 30° and 60° and is not attached."
+  },
+  {
+   "number": "111",
+   "form": "case_study",
+   "marks": 4,
+   "page": 42,
+   "stem": "Washington Monument : The Washington Monument is a large, tall, white obelisk near the west part of the National Mall in Washington, D.C. It was built to remember George Washington, who was the first President of the United States. It is the tallest stone structure in the world. From a point A on a line from the base of the Washington Monument, the angle of elevation to the top of the monument is 45°. From a point 125 m away from A and on the same line, the angle to the top is 30°. Find the height of the Washington Monument.",
+   "answer": "Let h be the height of the monument and d the ground distance of A from its base; the second point B lies 125 m further along the same line.\nFrom A, tan 45° = h/d, so d = h.\nFrom B, tan 30° = h/(d + 125), so 1/√3 = h/(d + 125) and d + 125 = √3 h. Putting d = h gives h + 125 = √3 h, so 125 = h(√3 − 1) and h = 125/(√3 − 1) = 125(√3 + 1)/2 = 125 × 2.732/2 = 170.75 m. The Washington Monument is about 170.75 metre high.",
+   "concept": "Angle of elevation",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "A photograph of the monument is printed with the question; it carries no measurement and is not attached."
+  },
+  {
+   "number": "112",
+   "form": "case_study",
+   "marks": 4,
+   "page": 43,
+   "stem": "Fire towers : Two fire towers are 4 kilometres apart, where tower is due west of tower. A fire is spotted from the towers, and the angle of fire sight from tower is shown below. Find the distance of the fire from the line segment.",
+   "answer": "Let d be the perpendicular distance of the fire from the line joining the two towers, and let the foot of that perpendicular divide the 4 km into d₁ on the west side and d₂ on the east side. From the figure the fire is sighted at 30° from the western tower and 45° from the eastern tower.\nFrom the western tower, tan 30° = d/d₁, so d₁ = √3 d.\nFrom the eastern tower, tan 45° = d/d₂, so d₂ = d.\nSince d₁ + d₂ = 4 km, √3 d + d = 4, that is (√3 + 1)d = 4. Hence d = 4/(√3 + 1) = 4(√3 − 1)/2 = 2(√3 − 1) = 2 × 0.732 = 1.46 km. The fire is about 1.46 kilometre from the line joining the towers.",
+   "concept": "Drawing the right triangle",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch09_q112.png"
+   ],
+   "figure_required": true,
+   "ocr": "Key contradicted. Both the question's illustration and the solution's own redrawn diagram mark the eastern angle 45°, but the printed algebra substitutes tan 60° (d₂ = d/√3) and so reports d = √3 = 1.732 km. Worked from the 45° that is actually printed, d = 2(√3 − 1) ≈ 1.46 km. The stem is transcribed as printed: the book omits the tower labels in 'tower is due west of tower' and 'the angle of fire sight from tower'. The figure carries the only statement of the two angles, so it is attached."
+  },
+  {
+   "number": "113",
+   "form": "case_study",
+   "marks": 4,
+   "page": 43,
+   "stem": "Flag Pole : Figure given below is a diagram that shows how Varsha estimates the height of a flagpole. She can't measure the distance between herself and the flagpole directly because there is a fence in the way. So she stands at point A facing the pole and finds the angle of elevation from point A to the top of the pole to be 30°. Then she turns 90° and walks 15 metre to point B, where she measures the angle between her path and a line from B to the base of the pole. She finds that angle is 60°. Find the height of the pole.",
+   "answer": "Let C be the foot of the pole, D its top, h the height CD, and d the ground distance CA.\nVarsha turns through 90° at A, so triangle ABC has its right angle at A, with AB = 15 m and the angle at B equal to 60°. Here AC is opposite that angle, so tan 60° = d/15, giving √3 = d/15 and d = 15√3 m.\nNow in right triangle ACD, the pole is seen from A at 30°, so tan 30° = h/d, that is 1/√3 = h/(15√3). Hence h = 15√3/√3 = 15 m. The flagpole is 15 metre high.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch09_q113.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem itself says 'Figure given below', and the labels A, B, C, D and the right angle at C come only from the diagram, so it is attached. The question begins on page 43 and its solution runs onto page 44."
+  },
+  {
+   "number": "114",
+   "form": "case_study",
+   "marks": 4,
+   "page": 44,
+   "stem": "Height of a Door : From a point on the floor the angle of elevation to the top of a door is 30°, while the angle of elevation to the ceiling above the door is 60°. The ceiling is 6 metre above the floor.\n(i) What is the vertical dimension of the door ?\n(ii) Find the distance of the point from door.",
+   "answer": "Let h be the height of the door and d the distance of the point on the floor from the door.\nThe ceiling is 6 m above the floor and subtends 60° at the point, so tan 60° = 6/d, giving √3 = 6/d and d = 6/√3 = 2√3 = 3.464 m.\nThe top of the door subtends 30° at the same point, so tan 30° = h/d, giving 1/√3 = h/(2√3) and h = 2√3/√3 = 2 m.\n(i) The vertical dimension of the door is 2 metre.\n(ii) The point is 2√3 ≈ 3.464 metre from the door.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "CONFLICT: the printed solution writes d = 6/√3 = 2√3 m = 2 × 1.732 = 3.564 m and repeats 3.564 m in the key, but 2 × 1.732 = 3.464. The exact value 2√3 in the same solution wins, so the answer is given as 3.464 m. Counted in contradicted_keys."
+  },
+  {
+   "number": "115",
+   "form": "case_study",
+   "marks": 4,
+   "page": 44,
+   "stem": "Sonar : It is a machine that uses underwater sound waves to find other objects in the sea. A sonar can work by sending out sound and listening for echoes (active sonar), like a radar, or by listening for sound made by the object it is trying to find.\nThe sonar of a navy cruiser detects a sub marine that is 1234 meter from the cruiser. The angle between the water line and the submarine is 30°. How deep is the submarine?",
+   "answer": "Let d be the depth of the submarine below the surface. The slant line from the cruiser to the submarine is 1234 m long and makes 30° with the water line, so d is the side opposite that angle.\nsin 30° = d/1234\n1/2 = d/1234\nd = 1234/2 = 617 m.\nThe submarine is 617 m below the level of the sea.",
+   "concept": "Sight below the horizontal",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins at the foot of page 44 and its data (1234 m, 30°) continues on page 45; the illustration only repeats those two printed values, so no figure is attached."
+  },
+  {
+   "number": "116",
+   "form": "case_study",
+   "marks": 4,
+   "page": 45,
+   "stem": "Drawbridge : A drawbridge is a bridge that can be moved in order to stop or allow passage across it. Modern drawbridges are often built across large, busy waterways. They can be lifted to allow large ships to pass or lowered to allow land vehicles or pedestrians to cross.\nA drawbridge is 60 metre long when stretched across a river. As shown in the figure, the two sections of the bridge can be rotated upward through an angle of 30°.\n(i) If the water level is 5 metre below the closed bridge, find the height h between the end of a section and the water level when the bridge is fully open.\n(ii) How far apart are the ends of the two sections when the bridge is fully opened, as shown in the figure?",
+   "answer": "Each section of the bridge is 60/2 = 30 m long. Let y be the rise of the free end of a section above the closed roadway and x the horizontal reach of that section when it is open.\nsin 30° = y/30, so 1/2 = y/30 and y = 15 m. The roadway is 5 m above the water, so h = y + 5 = 15 + 5 = 20 m.\ncos 30° = x/30, so √3/2 = x/30 and x = 15√3 m.\nThe gap between the two free ends is d = 60 − x − x = 60 − 30√3 = 30(2 − √3) = 30 × 0.268 = 8.04 m.\n(i) When the bridge is fully open the end of a section is 20 metre above the water level.\n(ii) The ends of the two sections are 8.04 metre apart.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch09_q116.png"
+   ],
+   "figure_required": true,
+   "ocr": "Stem begins on page 45 and its numbered parts run onto page 46."
+  },
+  {
+   "number": "117",
+   "form": "case_study",
+   "marks": 4,
+   "page": 46,
+   "stem": "Water Tower : A water tower is a building that is used to hold and give out water. It is almost always built on a high place. It works because a pump gives water to the tower, and gravity makes the saved water go out to the places that need water. Those places are connected to the tower by pipes. A water tower is good when there is no power because it uses gravity to send out the water.\nA water tower is located 60 meter from a building (see the figure). From a window in the building, an observer notes that the angle of elevation to the top of the tower is 60° and that the angle of depression to the bottom of the tower is 30°.\n(i) How tall is the tower?\n(ii) How high is the window?",
+   "answer": "Let h₁ be the height of the top of the tower above the window and h₂ the height of the window above the ground. The horizontal distance from the window to the tower is 60 m.\nLooking up: tan 60° = h₁/60, so √3 = h₁/60 and h₁ = 60√3 = 60 × 1.732 = 103.92 m.\nLooking down: tan 30° = h₂/60, so 1/√3 = h₂/60 and h₂ = 60/√3 = 20√3 = 20 × 1.732 = 34.64 m.\nHeight of the tower = h₁ + h₂ = 103.92 + 34.64 = 138.56 m, that is 80√3 m.\n(i) The tower is 138.56 m tall.\n(ii) The window is h₂ = 20√3 ≈ 34.64 m above the ground.",
+   "concept": "Allowing for the observer's height",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "CONFLICT: the printed key says \"Height of the window is 103.56 meter\", but the solution defines h₂ as the height of the window and computes h₂ = 20√3 = 34.64 m; 103.56 is the mis-multiplied value of h₁ = 60√3, which the same solution then adds as 103.92 to reach the correct total 138.56 m. The solution wins, so the window height is 34.64 m. Counted in contradicted_keys. The question illustration also prints the upward angle as 45° where the text and the whole solution use 60°, so no figure is attached."
+  },
+  {
+   "number": "118",
+   "form": "case_study",
+   "marks": 4,
+   "page": 46,
+   "stem": "Clinometer : A clinometer is a tool that is used to measure the angle of elevation, or angle from the ground, in a right - angled triangle. We can use a clinometer to measure the height of tall things that you can't possibly reach to the top of, flag poles, buildings, trees.\nRavish got a clinometer from school lab and started the measuring elevation angle in surrounding. He saw a building on which society logo is painted on wall of building.\nFrom a point P on the ground level, the angle of elevation of the roof of the building is 45°. The angle of elevation of the centre of logo is 30° from same point. The point P is at a distance of 24 m from the base of the building.\n(i) What is the height of the building logo from ground ?\n(ii) What is the height of the building from ground ?\n(iii) What is the aerial distance of the point P from the top of the building ?\n(iv) If the point of observation P is moved 9 m towards the base of the building, then the angle of elevation θ of the logo on building is given by\n(a) tan θ = √3   (b) tan θ = 2/√3   (c) tan θ = 1/2   (d) tan θ = 8√3/15\n(v) In above case the angle of elevation φ of the top of building is given by\n(a) tan φ = 1.6   (b) tan φ = 1.5   (c) tan φ = 0.75   (d) tan φ = 0.8",
+   "answer": "Let A be the foot of the building, B the centre of the logo and C the top of the building, with PA = 24 m.\n(i) In triangle PAB, tan 30° = AB/PA, so 1/√3 = AB/24 and AB = 24/√3 = 8√3 m. The logo is 8√3 ≈ 13.86 m above the ground.\n(ii) In triangle APC, tan 45° = AC/AP, so 1 = AC/24 and AC = 24 m. The building is 24 m high.\n(iii) The aerial distance PC satisfies cos 45° = AP/PC, so 1/√2 = 24/PC and PC = 24√2 ≈ 33.94 m.\n(iv) Moving P 9 m nearer gives AP = 24 − 9 = 15 m, so tan θ = AB/AP = 8√3/15. Option (d) is correct.\n(v) With the same AP = 15 m, tan φ = AC/AP = 24/15 = 8/5 = 1.6. Option (a) is correct.",
+   "concept": "Angle of elevation",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Question begins on page 46 with the clinometer photograph and building picture and its parts continue on page 47; every measurement the parts need (24 m, 30°, 45°, 9 m) is printed in the text, so no figure is attached. Parts (iv) and (v) are printed as four-option multiple choice inside a multi-part competency question, so they are kept in the stem rather than made a separate mcq item. In the printed working for (iii) the line \"cos 45° = AP/AC\" is followed by \"1/√2 = 24/PC\"; the label slip does not change the result PC = 24√2 m."
+  },
+  {
+   "number": "119",
+   "form": "case_study",
+   "marks": 4,
+   "page": 47,
+   "stem": "A hot air balloon is a type of aircraft. It is lifted by heating the air inside the balloon, usually with fire. Hot air weighs less than the same volume of cold air (it is less dense), which means that hot air will rise up or float when there is cold air around it, just like a bubble of air in a pot of water. The greater the difference between the hot and the cold, the greater the difference in density, and the stronger the balloon will pull up.\nLakshman is riding on a hot air balloon. After reaching at height x at point P, he spots a lorry parked at B on the ground at an angle of depression of 30°. The balloon rises further by 50 metres at point Q and now he spots the same lorry at an angle of depression of 45° and a car parked at C at an angle of depression of 30°.\n(i) What is the relation between the height x of the balloon at point P and distance d between point A and B?\n(ii) When balloon rises further 50 metres, then what is the relation between new height y and d?\n(iii) What is the new height of the balloon at point Q?\n(iv) What is the distance AB on the ground?\n(v) What is the distance AC on the ground?",
+   "answer": "A is the point of the ground directly below the balloon, so AP = x, AQ = y and AB = d.\n(i) In triangle APB, tan 30° = AP/AB, so 1/√3 = x/d and d = √3 x (equivalently d² = 3x²).\n(ii) In triangle BAQ, tan 45° = AQ/AB, so AB = AQ, that is d = y.\n(iii) Since Q is 50 m above P, y = x + 50. With d = √3 x and d = y we get √3 x = x + 50, so x(√3 − 1) = 50 and x = 50/(√3 − 1) = 25(√3 + 1). Hence y = x + 50 = 25(√3 + 1) + 50 = 25√3 + 25 + 50 = 25(√3 + 3) metres.\n(iv) AB = d = √3 x = y = 25(√3 + 3) metres.\n(v) In triangle CAQ, tan 30° = AQ/AC, so 1/√3 = y/AC and AC = √3 y = 25√3(√3 + 3) = 25(3 + 3√3) = 75(1 + √3) metres.",
+   "concept": "Lowering the head to view",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch09_q119.png"
+   ],
+   "figure_required": true,
+   "ocr": "Stem begins on page 47 and its numbered parts run onto page 48. The point A is never named in the printed text, only in the question figure, so the figure is required."
+  },
+  {
+   "number": "120",
+   "form": "case_study",
+   "marks": 4,
+   "page": 48,
+   "stem": "Radio towers are used for transmitting a range of communication services including radio and television. The tower will either act as an antenna itself or support one or more antennas on its structure, including microwave dishes. They are among the tallest human-made structures. There are 2 main types: guyed and self-supporting structures.\nOn a similar concept, a radio station tower was built in two sections A and B. Tower is supported by wires from a point O. Distance between the base of the tower and point O is 36 m. From point O, the angle of elevation of the top of section B is 30° and the angle of elevation of the top of section A is 45°.\n(i) What is the height of the section B ?\n(ii) What is the height of the section A ?\n(iii) What is the length of the wire structure from the point O to the top of section A ?\n(iv) What is the length of the wire structure from the point O to the top of section B ?\n(v) What is the angle of depression from top of tower to point O ?",
+   "answer": "Let C be the foot of the tower, B the top of the lower section and A the top of the tower, with OC = 36 m.\n(i) In triangle BCO, tan 30° = BC/OC, so BC = 36 tan 30° = 36 × 1/√3 = 12√3 m. Section B is 12√3 ≈ 20.78 m high.\n(ii) In triangle ACO, tan 45° = AC/OC = 1, so AC = OC = 36 m. Section A is the part above B, so AB = AC − BC = 36 − 12√3 = 12(3 − √3) ≈ 15.22 m.\n(iii) In triangle ACO, cos 45° = OC/OA, so 1/√2 = 36/OA and OA = 36√2 ≈ 50.91 m.\n(iv) In triangle BCO, cos 30° = OC/OB, so √3/2 = 36/OB and OB = 72/√3 = 24√3 ≈ 41.57 m.\n(v) The angle of elevation from O to the top of the tower is 45°, and the angle of depression from the top of the tower to O is its alternate angle, so it is also 45°.",
+   "concept": "Choosing the trigonometric ratio",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch09_q120.png"
+   ],
+   "figure_required": true,
+   "ocr": "The number, scenario and figure are printed at the foot of page 48 (printed page 400); the five numbered parts and the whole solution are on printed page 401, which is MISSING from the chapter split and from the page renders. Printed page 401 was recovered from the full book PDF (Maths Standard QB 2026, PDF page 446, where it is bound out of order inside Chapter 10) and read there. The figure is attached because only it shows that section A sits above section B."
+  },
+  {
+   "number": "121",
+   "form": "case_study",
+   "marks": 4,
+   "page": 49,
+   "stem": "Navy Officer : Mr. Colin is tasked with planning a coup on the enemy at a certain date. Currently he is inspecting the area standing on top of the cliff. Agent Dev is on a chopper in the sky. When Mr. Colin looks down below the cliff towards the sea, he has Bhawani and Amar in boats positioned to get a good vantage point. Bhawani boat is behind the Amar boat.\nFollowing angle have been measured :\nFrom Colin to Bhawani : 30°\nFrom Dev to Colin : 60°\nFrom Amar to Colin : 60°\n(i) Which of the following is a pair of angle of elevation?\n(a) (∠a, ∠e)   (b) (∠b, ∠e)   (c) (∠c, ∠d)   (d) (∠a, ∠f)\n(ii) Which of the following is a pair of angle of depression?\n(a) (∠a, ∠e)   (b) (∠b, ∠e)   (c) (∠c, ∠d)   (d) (∠a, ∠f)\n(iii) If angle of elevation of Amar to Colin is 60°, what is the distance of Amar boat from the base of hill ?\n(iv) If angle of depression of Colin to Bhawani is 30°, what is the distance of Amar boat from the Bhawani boat?\n(v) If angle of depression of Dev to Colin is 60°, what is the height of Dev from base of hill ?",
+   "answer": "Let O be the base of the cliff, C the top of the cliff where Colin stands and h = OC the height of the cliff. A is the Amar boat, B the Bhawani boat and D the chopper; CM is the horizontal through C.\n(i) An angle of elevation is measured at the observer, between the horizontal and an upward line of sight. Here ∠b (Colin up to Dev), ∠e (Amar up to Colin) and ∠f (Bhawani up to Colin) are angles of elevation, so the pair (∠b, ∠e) is correct — option (b).\n(ii) An angle of depression is measured between the horizontal and a downward line of sight: ∠a (Dev down to Colin), ∠c and ∠d (Colin down to Amar and to Bhawani). The pair (∠c, ∠d) is correct — option (c).\n(iii) ∠OAC = 60°, so h/OA = tan 60° = √3 and OA = h/√3. The Amar boat is h/√3 from the base of the hill.\n(iv) The angle of depression of Bhawani from Colin is 30°, so ∠OBC = ∠MCB = 30° and h/OB = tan 30° = 1/√3, giving OB = √3 h. Hence AB = OB − OA = √3 h − h/√3 = (3h − h)/√3 = 2h/√3, which is the distance between the Amar and Bhawani boats.\n(v) ∠DCM = 60°, so DM/CM = tan 60° = √3 and DM = √3 CM. Here CM = OB = √3 h, so DM = √3 × √3 h = 3h. The height of Dev above the base of the hill is DB = DM + MB = 3h + h = 4h.",
+   "concept": "Defining the angle of depression",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch09_q121.png"
+   ],
+   "figure_required": true,
+   "ocr": "The number, stem, figure, all five parts and solution part (i) are printed on page 401, which is MISSING from the chapter split and from the page renders; the solution from \"Thus (b) is correct option\" onward is on the rendered page 49 (printed page 402). Printed page 401 was recovered from the full book PDF (Maths Standard QB 2026, PDF page 446, bound out of order inside Chapter 10) and read there; the figure was cropped from that page. The page field is set to 49, the nearest page that exists in the chapter split. The figure is required because the angles a to f are only labelled there. Note the printed prose for part (i) ends \"...clearly (∠b, ∠e, ∠f) are angle of depression\" where it plainly means elevation; the key (b) is nonetheless right, so this is a wording slip and not a key conflict. The stem spells the boat owner \"Bhawani\" while the figure labels her \"Bhavani\"."
+  },
+  {
+   "number": "122",
+   "form": "case_study",
+   "marks": 4,
+   "page": 49,
+   "stem": "When an eagle looks at a rat on the ground, eagle does not attack the rat at its initial position. It takes into account the speed of the rat and the direction in which rat is moving. After analysing the situation (how? it may be God's gift) eagle attacks the rat in such a way that it may successful in catching the rat.\nSuppose an eagle sitting on the tree of height 90 m, observe a rat with angle of depression 45°, and moving away from the tree with some speed. Eagle start flying with 30° downward and catch rat in 10 second.\n(i) What is the horizontal distance between tree and initial position of rat ?\n(ii) What is the distance travelled by rat in 10 seconds?\n(iii) What is the distance travelled by eagle to catch rat?\n(iv) What is the speed of rat ?\n(v) What is the speed of eagle ?",
+   "answer": "Let E be the eagle at the top of the tree, O the foot of the tree, R the initial position of the rat and S the point where the eagle catches it. OE = 90 m.\n(i) The angle of depression of R from E is 45°, so OE/OR = tan 45° = 1 and OR = OE = 90 m. The rat starts 90 m from the tree.\n(ii) The eagle dives at 30° below the horizontal, so in triangle EOS, ∠OES = 90° − 30° = 60° and OS/OE = tan 60° = √3, giving OS = 90√3 m. The rat runs RS = OS − OR = 90√3 − 90 = 90(√3 − 1) ≈ 65.88 m in 10 seconds.\n(iii) EO/ES = cos 60° = 1/2, so 90/ES = 1/2 and ES = 180 m: the eagle flies 180 m.\n(iv) Speed of the rat = RS/t = 90(√3 − 1)/10 = 9(√3 − 1) ≈ 6.59 m/sec.\n(v) Speed of the eagle = ES/t = 180/10 = 18 m/sec = 18 × 3600/1000 = 64.8 km/h.",
+   "concept": "Sight below the horizontal",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page 49 (printed page 402) and the solution continues on page 50 (printed page 403). Every measurement is in the text, so no figure is attached."
+  },
+  {
+   "number": "123",
+   "form": "case_study",
+   "marks": 4,
+   "page": 50,
+   "stem": "An air-to-surface missile (ASM) or air-to-ground missile (AGM or ATGM) is a missile designed to be launched from military aircraft and strike ground targets on land, at sea, or both. They are similar to guided glide bombs but to be deemed a missile,\nA military fighter plane is flying at an altitude of 600 metres with the speed of 200 km/h. The pilot spots enemy tanks at point R on ground. After getting the permission from command centre to hit the target at R, pilot fires a missile. Fighter plane was at point A at the time of fire of missile. Missile moves to target at enemy tanks stationed at R at an angle of 45° at a speed of 300 km/h.\n(i) What is the horizontal distance between fighter plane at A and tank at R ?\n(ii) How much time will missile take to hit the target R ?\n(iii) Another enemy tank at point S on ground moving with a speed of 90 km/h in straight line away from plane. Pilot fires another missile at an angle of 60° from its flight path position B at the instant when enemy's tank was at S and it hits this enemy tank at point T. How much time is taken by second missile to hit the enemy tank at point T ?\n(iv) What is the horizontal distance between fighter plane at B and tank at T ?\n(v) What is the distance of point T from S ?",
+   "answer": "Let P be the point on the ground directly below the plane at A, so PA = 600 m, and let Q be the point directly below the plane at B, so QB = 600 m.\n(i) The missile leaves A at 45° below the horizontal, so in right triangle APR, PR/PA = tan 45° = 1 and PR = PA = 600 m. The horizontal distance from A to R is 600 m.\n(ii) AP/AR = cos 45°, so AR = AP/cos 45° = 600 ÷ (1/√2) = 600√2 m. The missile's speed is 300 km/h = 300000/3600 = 500/6 m/sec, so the time taken is t = AR/s = 600√2 ÷ (500/6) = 36√2/5 ≈ 10.18 sec.\n(iii) The second missile leaves B at 60° to the horizontal flight path, so BT = QB/sin 60° = 600 ÷ (√3/2) = 1200/√3 = 400√3 m. At 500/6 m/sec the time is t = 400√3 ÷ (500/6) = 2400√3/500 = 4.8√3 ≈ 8.31 sec.\n(iv) The horizontal distance from B to T is QT = QB/tan 60° = 600/√3 = 200√3 ≈ 346.41 m.\n(v) The tank travels from S to T in that same time at 90 km/h = 25 m/sec, so ST = 25 × 4.8√3 = 120√3 ≈ 207.85 m.",
+   "concept": "Lowering the head to view",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch09_q123.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question and its five parts are printed in full on page 50 (printed page 403), which is the last chapter-9 page present in the source. The printed solution stops part way through part (iii) — the continuation page is absent from both the chapter split and the full book PDF — so parts (iii), (iv) and (v) of the answer are worked out here from the printed data (600 m altitude, 60° firing angle, 300 km/h missile, 90 km/h tank). Parts (i) and (ii) follow the printed working exactly."
+  }
+ ],
+ "qualified_numbers": 0
+}

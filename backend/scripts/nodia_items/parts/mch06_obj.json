@@ -1,0 +1,398 @@
+{
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If ΔPQR ~ ΔABC; PQ = 6 cm, AB = 8 cm and the perimeter of ΔABC is 36 cm, then the perimeter of ΔPQR is",
+   "options": [
+    {
+     "label": "A",
+     "text": "20.25 cm"
+    },
+    {
+     "label": "B",
+     "text": "27 cm"
+    },
+    {
+     "label": "C",
+     "text": "48 cm"
+    },
+    {
+     "label": "D",
+     "text": "64 cm"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Similar triangles have their perimeters in the same ratio as their corresponding sides, and PQ corresponds to AB. So perimeter(ΔABC)/perimeter(ΔPQR) = AB/PQ = 8/6. Writing x for the perimeter of ΔPQR, 36/x = 8/6, so x = 36 × 6 ÷ 8 = 27. The perimeter of ΔPQR is 27 cm.",
+   "concept": "When two polygons are similar",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "In the given figure, DE ∥ BC. If AD = 3 cm, AB = 7 cm and EC = 3 cm, then the length of AE is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2 cm"
+    },
+    {
+     "label": "B",
+     "text": "2.25 cm"
+    },
+    {
+     "label": "C",
+     "text": "3.5 cm"
+    },
+    {
+     "label": "D",
+     "text": "4 cm"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Since DE ∥ BC, the basic proportionality theorem gives AD/DB = AE/EC. Here DB = AB − AD = 7 − 3 = 4 cm, so 3/4 = AE/3 and AE = 9/4 = 2.25 cm.",
+   "concept": "Basic Proportionality Theorem",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "images": [
+    "ch06_q2.png"
+   ],
+   "figure_required": true,
+   "ocr": "Figure attached because the stem says “in the given figure”; the three lengths are also printed in the text."
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "In the given figure, DE ∥ BC. The value of EC is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1.5 cm"
+    },
+    {
+     "label": "B",
+     "text": "3 cm"
+    },
+    {
+     "label": "C",
+     "text": "2 cm"
+    },
+    {
+     "label": "D",
+     "text": "1 cm"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "DE ∥ BC, so AD/DB = AE/EC. The figure marks AD = 1.5 cm, DB = 3 cm and AE = 1 cm, so 1.5/3 = 1/EC and EC = 2 cm.",
+   "concept": "Basic Proportionality Theorem",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [
+    "ch06_q3.png"
+   ],
+   "figure_required": true,
+   "ocr": "Every length in this question is printed only on the diagram, so the figure is mandatory."
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 51,
+   "stem": "In the given figure, x is",
+   "options": [
+    {
+     "label": "A",
+     "text": "ab/(a + b)"
+    },
+    {
+     "label": "B",
+     "text": "ac/(b + c)"
+    },
+    {
+     "label": "C",
+     "text": "bc/(b + c)"
+    },
+    {
+     "label": "D",
+     "text": "ac/(a + c)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "In ΔKPN and ΔKLM, ∠K is common and ∠KNP = ∠KML = 46°, so by the AA criterion ΔKNP ~ ΔKLM. Hence KN/KM = NP/ML, that is c/(b + c) = x/a, which gives x = ac/(b + c).",
+   "concept": "AAA criterion",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [
+    "ch06_q4.png"
+   ],
+   "figure_required": true,
+   "ocr": "Printed on book PAGE 240, which the chapter split filed into the chapter 5 PDF; read from qbank_pages/maths10_ch05/p051.png, hence page 51. Options are printed as stacked fractions and are written inline here."
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 51,
+   "stem": "ΔABC is an equilateral triangle with each side of length 2p. If AD ⊥ BC then the value of AD is",
+   "options": [
+    {
+     "label": "A",
+     "text": "√3"
+    },
+    {
+     "label": "B",
+     "text": "√3 p"
+    },
+    {
+     "label": "C",
+     "text": "2p"
+    },
+    {
+     "label": "D",
+     "text": "4p"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Each side is 2p and AD ⊥ BC, so D is the mid-point of BC and BD = p. In right triangle ADB, AB² = AD² + BD², that is (2p)² = AD² + p², so AD² = 4p² − p² = 3p² and AD = √3 p.",
+   "concept": "A triangle is a polygon",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Read from qbank_pages/maths10_ch05/p051.png (book PAGE 240). The printed solution's last line reads “AD² = √3 p”, a typesetting slip for AD = √3 p; the key (b) is right either way."
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 51,
+   "stem": "Which of the following statement is false?",
+   "options": [
+    {
+     "label": "A",
+     "text": "All isosceles triangles are similar."
+    },
+    {
+     "label": "B",
+     "text": "All quadrilateral are similar."
+    },
+    {
+     "label": "C",
+     "text": "All circles are similar."
+    },
+    {
+     "label": "D",
+     "text": "None of the above"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "An isosceles triangle only has two equal sides; its angles are not fixed, so two isosceles triangles need not have the same shape and need not be similar. All circles, by contrast, have the same shape and are always similar. So statement (a) is the false one.",
+   "concept": "Figures of different sizes",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Read from qbank_pages/maths10_ch05/p051.png (book PAGE 240). Option (b) as printed is also a false statement, so the question really has two false options; the book's worked solution argues for (a) and its key says (a), so key and solution agree and (a) is kept."
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 51,
+   "stem": "Two poles of height 6 m and 11 m stand vertically upright on a plane ground. If the distance between their foot is 12 m, then distance between their tops is",
+   "options": [
+    {
+     "label": "A",
+     "text": "12 m"
+    },
+    {
+     "label": "B",
+     "text": "14 m"
+    },
+    {
+     "label": "C",
+     "text": "13 m"
+    },
+    {
+     "label": "D",
+     "text": "11 m"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Let AB = 6 m and CD = 11 m be the poles with AC = 12 m between their feet. Draw BE parallel to the ground, so BE = 12 m and DE = CD − CE = 11 − 6 = 5 m. In right triangle BED, BD² = BE² + DE² = 12² + 5² = 169, so BD = 13 m. The tops are 13 m apart.",
+   "concept": "A triangle is a polygon",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Read from qbank_pages/maths10_ch05/p051.png (book PAGE 240). The diagram is printed inside the solution, so it is not attached."
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "In a right angled ΔABC right angled at B, if P and Q are points on the sides AB and BC respectively, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "AQ² + CP² = 2(AC² + PQ²)"
+    },
+    {
+     "label": "B",
+     "text": "2(AQ² + CP²) = AC² + PQ²"
+    },
+    {
+     "label": "C",
+     "text": "AQ² + CP² = AC² + PQ²"
+    },
+    {
+     "label": "D",
+     "text": "AQ + CP = ½(AC + PQ)"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "ΔABQ and ΔCPB are right angled at B, so AQ² = AB² + BQ² and CP² = CB² + BP². Adding, CP² + AQ² = CB² + BP² + AB² + BQ² = (CB² + AB²) + (BP² + BQ²). ΔABC and ΔPBQ are also right angled at B, so those two brackets are AC² and PQ². Hence AQ² + CP² = AC² + PQ².",
+   "concept": "A triangle is a polygon",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The figure is printed below “Sol :”, inside the worked solution, so it is not attached."
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "It is given that, ΔABC ~ ΔEDF such that AB = 5 cm, AC = 7 cm, DF = 15 cm and DE = 12 cm then the sum of the remaining sides of the triangles is",
+   "options": [
+    {
+     "label": "A",
+     "text": "23.05 cm"
+    },
+    {
+     "label": "B",
+     "text": "16.8 cm"
+    },
+    {
+     "label": "C",
+     "text": "6.25 cm"
+    },
+    {
+     "label": "D",
+     "text": "24 cm"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "ΔABC ~ ΔEDF gives AB/ED = AC/EF = BC/DF, that is 5/12 = 7/EF = BC/15. From 5/12 = 7/EF, EF = 7 × 12 ÷ 5 = 16.8 cm. From 5/12 = BC/15, BC = 5 × 15 ÷ 12 = 6.25 cm. The remaining sides are EF and BC, and their sum is 16.8 + 6.25 = 23.05 cm.",
+   "concept": "When two polygons are similar",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The two triangles are drawn inside the solution, not beside the question, so no figure is attached."
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The area of a right angled triangle is 40 sq cm and its perimeter is 40 cm. The length of its hypotenuse is",
+   "options": [
+    {
+     "label": "A",
+     "text": "16 cm"
+    },
+    {
+     "label": "B",
+     "text": "18 cm"
+    },
+    {
+     "label": "C",
+     "text": "17 cm"
+    },
+    {
+     "label": "D",
+     "text": "data insufficient"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let c be the hypotenuse and a, b the other two sides. Then a + b + c = 40 and ½ab = 40, so ab = 80 and c = 40 − (a + b). Squaring, c² = 1600 − 80(a + b) + (a + b)². Since c² = a² + b², this becomes a² + b² = 1600 − 80(a + b) + a² + 2ab + b², so 0 = 1600 − 80(a + b) + 160. Dividing by 80 gives a + b = 22, and c = 40 − 22 = 18 cm.",
+   "concept": "A triangle is a polygon",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints a small answer hint “(b) 18 cm” beside “Sol :”; it agrees with the worked solution."
+  },
+  {
+   "number": "11",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 2,
+   "stem": "Assertion : In the ΔABC, AB = 24 cm, BC = 10 cm and AC = 26 cm, then ΔABC is a right angle triangle.\nReason : If in two triangles, their corresponding angles are equal, then the triangles are similar.",
+   "assertion": "In the ΔABC, AB = 24 cm, BC = 10 cm and AC = 26 cm, then ΔABC is a right angle triangle.",
+   "reason": "If in two triangles, their corresponding angles are equal, then the triangles are similar.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "AB² + BC² = 24² + 10² = 576 + 100 = 676, and AC² = 26² = 676. Since AB² + BC² = AC², the converse of Pythagoras theorem makes ΔABC right angled, so the assertion is true. The reason — that equal corresponding angles make two triangles similar — is a true statement in its own right, but similarity plays no part in showing ΔABC is right angled, so it does not explain the assertion. Hence (b).",
+   "concept": "AAA criterion",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The question starts on render page 2 and its solution finishes on render page 4 (book PAGE 242)."
+  },
+  {
+   "number": "12",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 4,
+   "stem": "Assertion : ABC and DEF are two similar triangles such that BC = 4 cm, EF = 5 cm and area of ΔABC = 64 cm², then area of ΔDEF = 100 cm².\nReason : The areas of two similar triangles are in the ratio of the squares of the corresponding altitudes.",
+   "assertion": "ABC and DEF are two similar triangles such that BC = 4 cm, EF = 5 cm and area of ΔABC = 64 cm², then area of ΔDEF = 100 cm².",
+   "reason": "The areas of two similar triangles are in the ratio of the squares of the corresponding altitudes.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The reason is a standard true result. For the assertion, ΔABC ~ ΔDEF gives area(ΔABC)/area(ΔDEF) = BC²/EF² = 4²/5² = 16/25, so 64/area(ΔDEF) = 16/25 and area(ΔDEF) = 64 × 25 ÷ 16 = 100 cm². The assertion is therefore true, but the reason is stated in terms of corresponding altitudes while the working uses corresponding sides, so it is not the correct explanation. Hence (b).",
+   "concept": "When two polygons are similar",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Last item of the OBJECTIVE QUESTIONS section; ONE MARK QUESTIONS begins immediately below it on book PAGE 242."
+  }
+ ]
+}

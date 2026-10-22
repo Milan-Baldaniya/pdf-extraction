@@ -1,0 +1,3209 @@
+{
+ "chapter": 4,
+ "chapter_id": 23126,
+ "extraction_id": 389,
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If the roots of equation ax² + bx + c = 0, a ≠ 0 are real and equal, then which of the following relation is true?",
+   "options": [
+    {
+     "label": "A",
+     "text": "a = b²/c"
+    },
+    {
+     "label": "B",
+     "text": "b² = ac"
+    },
+    {
+     "label": "C",
+     "text": "ac = b²/4"
+    },
+    {
+     "label": "D",
+     "text": "c = b²/a"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Real and equal roots force the discriminant to vanish, so D = b² − 4ac = 0, giving b² = 4ac. Dividing by 4, ac = b²/4.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | OD 2024",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If the quadratic equation ax² + bx + c = 0 has two real and equal roots, then c is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "−b/2a"
+    },
+    {
+     "label": "B",
+     "text": "b/2a"
+    },
+    {
+     "label": "C",
+     "text": "−b²/4a"
+    },
+    {
+     "label": "D",
+     "text": "b²/4a"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "For real and equal roots D = b² − 4ac = 0, so b² = 4ac. Solving for c gives c = b²/4a.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | OD 2023",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The sum and product of the zeroes of a quadratic polynomial are 3 and −10 respectively. The quadratic polynomial is",
+   "options": [
+    {
+     "label": "A",
+     "text": "x² − 3x + 10"
+    },
+    {
+     "label": "B",
+     "text": "x² + 3x − 10"
+    },
+    {
+     "label": "C",
+     "text": "x² − 3x − 10"
+    },
+    {
+     "label": "D",
+     "text": "x² + 3x + 10"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "A quadratic with zeroes summing to 3 and multiplying to −10 is p(x) = x² − (α + β)x + αβ = x² − 3x − 10.",
+   "concept": "From polynomial to equation",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If the sum of the zeroes of the quadratic polynomial kx² + 2x + 3k is equal to their product, then k equals",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/3"
+    },
+    {
+     "label": "B",
+     "text": "−1/3"
+    },
+    {
+     "label": "C",
+     "text": "2/3"
+    },
+    {
+     "label": "D",
+     "text": "−2/3"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Here a = k, b = 2, c = 3k, so α + β = −2/k and αβ = 3k/k = 3. Setting the sum equal to the product gives −2/k = 3, hence k = −2/3.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If α and β are the zeroes of the polynomial x² + 2x + 1, then 1/α + 1/β is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "−2"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "0"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "For x² + 2x + 1 the sum of zeroes is −2 and the product is 1. Then 1/α + 1/β = (α + β)/αβ = −2/1 = −2.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If α and β are the zeroes of the polynomial 2x² − 13x + 6, then α + β is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "−3"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "13/2"
+    },
+    {
+     "label": "D",
+     "text": "−13/2"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "With a = 2, b = −13, the sum of zeroes is −b/a = 13/2.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The roots of the quadratic equation x² − 0.04 = 0 are",
+   "options": [
+    {
+     "label": "A",
+     "text": "±0.2"
+    },
+    {
+     "label": "B",
+     "text": "±0.02"
+    },
+    {
+     "label": "C",
+     "text": "0.4"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "From x² = 0.04 we get x = ±√0.04 = ±0.2.",
+   "concept": "What a root is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If ½ is a root of the equation x² + kx − 5/4 = 0, then the value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "−2"
+    },
+    {
+     "label": "C",
+     "text": "1/4"
+    },
+    {
+     "label": "D",
+     "text": "1/2"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Substituting x = ½ gives ¼ + k/2 − 5/4 = 0, so (1 + 2k − 5)/4 = 0, hence 2k − 4 = 0 and k = 2.",
+   "concept": "Checking a root by substitution",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "Each root of x² − bx + c = 0 is decreased by 2. The resulting equation is x² − 2x + 1 = 0, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "b = 6, c = 9"
+    },
+    {
+     "label": "B",
+     "text": "b = 3, c = 5"
+    },
+    {
+     "label": "C",
+     "text": "b = 2, c = −1"
+    },
+    {
+     "label": "D",
+     "text": "b = −4, c = 3"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "For the original equation α + β = b and αβ = c. The shifted roots give (α − 2) + (β − 2) = b − 4 and (α − 2)(β − 2) = c − 2b + 4. Matching x² − 2x + 1 = 0: b − 4 = 2 so b = 6, and c − 2(6) + 4 = 1 so c = 9.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 SQP 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "Value(s) of k for which the quadratic equation 2x² − kx + k = 0 has equal roots is/are",
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "8"
+    },
+    {
+     "label": "D",
+     "text": "0, 8"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Equal roots need b² − 4ac = 0, i.e. (−k)² − 4(2)k = 0, so k² − 8k = 0 and k(k − 8) = 0. Hence k = 0 or k = 8.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Comt. 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If the equation (m² + n²)x² − 2(mp + nq)x + p² + q² = 0 has equal roots, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "mp = nq"
+    },
+    {
+     "label": "B",
+     "text": "mq = np"
+    },
+    {
+     "label": "C",
+     "text": "mn = pq"
+    },
+    {
+     "label": "D",
+     "text": "mq = √(np)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Equal roots require b² = 4ac, i.e. 4(mp + nq)² = 4(m² + n²)(p² + q²). Expanding and cancelling leaves m²q² + n²p² − 2mnpq = 0, that is (mq − np)² = 0, so mq = np.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Foreign 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The linear factors of the quadratic equation x² + kx + 1 = 0 are",
+   "options": [
+    {
+     "label": "A",
+     "text": "k ≥ 2"
+    },
+    {
+     "label": "B",
+     "text": "k ≤ 2"
+    },
+    {
+     "label": "C",
+     "text": "k ≥ −2"
+    },
+    {
+     "label": "D",
+     "text": "2 ≤ k ≤ −2"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Linear (real) factors exist when b² − 4ac ≥ 0, so k² − 4 ≥ 0, i.e. (k − 2)(k + 2) ≥ 0. Hence k ≥ 2 or k ≤ −2.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 SQP 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Option (d) is printed as '2 ≤ k ≤ −2', an impossible chain as written; the worked solution reads it as k ≥ 2 and k ≤ −2, and the printed key (d) agrees with that reading. Kept verbatim."
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If one root of the quadratic equation ax² + bx + c = 0 is the reciprocal of the other, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "b = c"
+    },
+    {
+     "label": "B",
+     "text": "a = b"
+    },
+    {
+     "label": "C",
+     "text": "ac = 1"
+    },
+    {
+     "label": "D",
+     "text": "a = c"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "If the roots are α and 1/α, their product is 1. Since the product equals c/a, we get c/a = 1, so a = c.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Comt. 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The quadratic equation 2x² − √5 x + 1 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Here a = 2, b = −√5, c = 1, so D = 5 − 8 = −3 < 0. A negative discriminant means the equation has no real roots.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The real roots of the equation x^(2/3) + x^(1/3) − 2 = 0 are",
+   "options": [
+    {
+     "label": "A",
+     "text": "1, 8"
+    },
+    {
+     "label": "B",
+     "text": "−1, −8"
+    },
+    {
+     "label": "C",
+     "text": "−1, 8"
+    },
+    {
+     "label": "D",
+     "text": "1, −8"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Put y = x^(1/3); then y² + y − 2 = 0, so (y − 1)(y + 2) = 0 and y = 1 or y = −2. Cubing, x = 1 or x = −8.",
+   "concept": "What a root is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Comt. 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "(x² + 1)² − x² = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "four real roots"
+    },
+    {
+     "label": "B",
+     "text": "two real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "one real root"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Expanding gives x⁴ + x² + 1 = 0. With y = x², y² + y + 1 = 0 whose discriminant is 1 − 4 = −3 < 0, so there is no real y and hence no real x.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Comt. 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The equation 2x² + 2(p + 1)x + p = 0, where p is real, always has roots that are",
+   "options": [
+    {
+     "label": "A",
+     "text": "Equal"
+    },
+    {
+     "label": "B",
+     "text": "Equal in magnitude but opposite in sign"
+    },
+    {
+     "label": "C",
+     "text": "Irrational"
+    },
+    {
+     "label": "D",
+     "text": "Real"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Here D = [2(p + 1)]² − 4(2)(p) = 4(p + 1)² − 8p = 4p² + 4 = 4(p² + 1), which is positive for every real p. A positive discriminant means the roots are always real.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Foreign 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The condition for one root of the quadratic equation ax² + bx + c = 0 to be twice the other, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "b² = 4ac"
+    },
+    {
+     "label": "B",
+     "text": "2b² = 9ac"
+    },
+    {
+     "label": "C",
+     "text": "c² = 4a + b²"
+    },
+    {
+     "label": "D",
+     "text": "c² = 9a − b²"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let the roots be α and 2α. Their sum 3α = −b/a gives α = −b/3a, and their product 2α² = c/a gives 2b²/9a² = c/a. Clearing denominators, 2b² = 9ac.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 SQP 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If x² + y² = 25, xy = 12, then x is",
+   "options": [
+    {
+     "label": "A",
+     "text": "(3, 4)"
+    },
+    {
+     "label": "B",
+     "text": "(3, −3)"
+    },
+    {
+     "label": "C",
+     "text": "(3, 4, −3, −4)"
+    },
+    {
+     "label": "D",
+     "text": "(3, −3)"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Substituting y = 12/x into x² + y² = 25 gives x⁴ − 25x² + 144 = 0, i.e. (x² − 16)(x² − 9) = 0. So x² = 16 or x² = 9, giving x = ±4 and x = ±3.",
+   "concept": "What a root is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Foreign 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Options (b) and (d) are printed identically as (3, −3); reproduced as printed."
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The quadratic equation 2x² − 3√2 x + 9/4 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "With a = 2, b = −3√2, c = 9/4, D = 18 − 4 × 2 × 9/4 = 18 − 18 = 0. A zero discriminant means two equal real roots.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 SQP 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The quadratic equation x² + x − 5 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Here a = 1, b = 1, c = −5, so D = 1 + 20 = 21 > 0. A positive discriminant means two distinct real roots.",
+   "concept": "Two distinct real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Foreign 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The quadratic equation x² + 3x + 2√2 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Here a = 1, b = 3, c = 2√2, so D = 9 − 8√2 ≈ 9 − 11.31 < 0. A negative discriminant means the roots are not real.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2019 OD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The quadratic equation 5x² − 3x + 1 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "With a = 5, b = −3, c = 1, D = 9 − 20 = −11 < 0, so the equation has no real roots.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2019 Delhi",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The quadratic equation x² − 4x + 3√2 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Here a = 1, b = −4, c = 3√2, so D = 16 − 12√2 ≈ 16 − 16.97 < 0. Hence the equation has no real roots.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS | Board SQP 2018",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "25",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The quadratic equation x² + 4x − 3√2 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Here a = 1, b = 4, c = −3√2, so D = 16 + 12√2 > 0. A positive discriminant gives two distinct real roots.",
+   "concept": "Two distinct real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 SQP 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "26",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The quadratic equation x² − 4x − 3√2 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Here a = 1, b = −4, c = −3√2, so D = 16 + 12√2 > 0, and the equation has two distinct real roots.",
+   "concept": "Two distinct real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2018",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "27",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The quadratic equation 3x² + 4√3 x + 4 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "With a = 3, b = 4√3, c = 4, D = (4√3)² − 4(3)(4) = 48 − 48 = 0, so the equation has real and equal roots.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem is printed without '= 0' after 4; the worked solution supplies it as 3x² + 4√3 x + 4 = 0. Stem kept as printed."
+  },
+  {
+   "number": "28",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "Which of the following equations has 2 as a root?",
+   "options": [
+    {
+     "label": "A",
+     "text": "x² − 4x + 5 = 0"
+    },
+    {
+     "label": "B",
+     "text": "x² + 3x − 12 = 0"
+    },
+    {
+     "label": "C",
+     "text": "2x² − 7x + 6 = 0"
+    },
+    {
+     "label": "D",
+     "text": "3x² − 6x − 2 = 0"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Substituting x = 2: option (a) gives 4 − 8 + 5 = 1 ≠ 0; option (b) gives 4 + 6 − 12 = −2 ≠ 0; option (c) gives 8 − 14 + 6 = 0; option (d) gives 12 − 12 − 2 = −2 ≠ 0. So 2 is a root of 2x² − 7x + 6 = 0.",
+   "concept": "Checking a root by substitution",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 SQP 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "29",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "Which of the following equations has the sum of its roots as 3?",
+   "options": [
+    {
+     "label": "A",
+     "text": "2x² − 3x + 6 = 0"
+    },
+    {
+     "label": "B",
+     "text": "−x² + 3x − 3 = 0"
+    },
+    {
+     "label": "C",
+     "text": "√2 x² − (3/√2)x + 1 = 0"
+    },
+    {
+     "label": "D",
+     "text": "3x² − 3x + 3 = 0"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The sum of the roots is −b/a. Option (a) gives 3/2, option (b) gives −(3/−1) = 3, option (c) gives 3/2, option (d) gives 1. Only option (b) has sum 3.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Foreign 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "30",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "stem": "Assertion (A): If 5 + √7 is a root of a quadratic equation with rational coefficients, then its other root is 5 − √7. Reason (R): Surd roots of quadratic equation with rational coefficients occur in conjugate pairs.",
+   "assertion": "If 5 + √7 is a root of a quadratic equation with rational coefficients, then its other root is 5 − √7.",
+   "reason": "Surd roots of quadratic equation with rational coefficients occur in conjugate pairs.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "In a quadratic equation with rational coefficients, irrational (surd) roots always occur in conjugate pairs, so the partner of 5 + √7 is 5 − √7. Both statements are true and the reason explains the assertion.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | OD 2023",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "31",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "stem": "Assertion (A): The values of x are −a/2, a for a quadratic equation 2x² + ax − a² = 0. Reason (R): For quadratic equation ax² + bx + c = 0, x = (−b ± √(b² − 4ac))/2a",
+   "assertion": "The values of x are −a/2, a for a quadratic equation 2x² + ax − a² = 0.",
+   "reason": "For quadratic equation ax² + bx + c = 0, x = (−b ± √(b² − 4ac))/2a",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Applying the formula to 2x² + ax − a² = 0 gives x = (−a ± √(a² + 8a²))/4 = (−a ± 3a)/4, i.e. x = a/2 or x = −a. The assertion states −a/2 and a, which is wrong, while the quadratic formula quoted in the reason is correct.",
+   "concept": "What a root is",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "32",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "stem": "Assertion (A): 4x² − 12x + 9 = 0 has repeated roots. Reason (R): The quadratic equation ax² + bx + c = 0 have repeated roots if discriminant D > 0.",
+   "assertion": "4x² − 12x + 9 = 0 has repeated roots.",
+   "reason": "The quadratic equation ax² + bx + c = 0 have repeated roots if discriminant D > 0.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "For 4x² − 12x + 9 = 0, D = 144 − 144 = 0, so the roots are indeed repeated and the assertion is true. The reason is false: repeated roots occur when D = 0, not D > 0.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "33",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "stem": "Assertion (A): The roots of the quadratic equation x² + 2x + 2 = 0 are imaginary. Reason (R): If discriminant D = b² − 4ac < 0 then the roots of quadratic equation ax² + bx + c = 0 are imaginary.",
+   "assertion": "The roots of the quadratic equation x² + 2x + 2 = 0 are imaginary.",
+   "reason": "If discriminant D = b² − 4ac < 0 then the roots of quadratic equation ax² + bx + c = 0 are imaginary.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "For x² + 2x + 2 = 0, D = 4 − 8 = −4 < 0, so the roots are imaginary. Both statements are true and the reason is the correct explanation.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "34",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "stem": "Assertion (A): The equation x² + 3x + 1 = (x − 2)² is a quadratic equation. Reason (R): Any equation of the form ax² + bx + c = 0 where a ≠ 0, is called a quadratic equation.",
+   "assertion": "The equation x² + 3x + 1 = (x − 2)² is a quadratic equation.",
+   "reason": "Any equation of the form ax² + bx + c = 0 where a ≠ 0, is called a quadratic equation.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Expanding the right side gives x² + 3x + 1 = x² − 4x + 4, and the x² terms cancel to leave 7x − 3 = 0, a linear equation. So the assertion is false, while the definition given in the reason is true.",
+   "concept": "Recognising a quadratic equation",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "35",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "stem": "Assertion (A): The equation 8x² + 3kx + 2 = 0 has equal roots then the value of k is ±8/3. Reason (R): The equation ax² + bx + c = 0 has equal roots if D = b² − 4ac = 0",
+   "assertion": "The equation 8x² + 3kx + 2 = 0 has equal roots then the value of k is ±8/3.",
+   "reason": "The equation ax² + bx + c = 0 has equal roots if D = b² − 4ac = 0",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "For equal roots D = (3k)² − 4(8)(2) = 9k² − 64 = 0, so k² = 64/9 and k = ±8/3. Both statements are true and the reason explains the assertion.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "36",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "If α and β are the roots of ax² − bx + c = 0 (a ≠ 0), then calculate α + β.",
+   "answer": "The sum of the roots of a quadratic equation equals −(coefficient of x)/(coefficient of x²). Here the coefficient of x is −b and the coefficient of x² is a, so α + β = −(−b/a) = b/a.",
+   "concept": "Zeroes and roots",
+   "section_heading": "ONE MARK QUESTIONS | [Board Term-1 2014]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "37",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "If one root of the equation (k − 1)x² − 10x + 3 = 0 is the reciprocal of the other then the value of k is ………",
+   "answer": "Let one root be α; the other is then 1/α. The product of the roots is c/a, so α × (1/α) = 3/(k − 1), i.e. 1 = 3/(k − 1). Hence k − 1 = 3 and k = 4.",
+   "concept": "Zeroes and roots",
+   "section_heading": "ONE MARK QUESTIONS | [Board 2020 SQP Standard]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "38",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "Find the roots of the quadratic equation x² − 0.04 = 0",
+   "answer": "From x² − 0.04 = 0 we get x² = 0.04, so x = ±√0.04 = ±0.2. The roots are 0.2 and −0.2.",
+   "concept": "What a root is",
+   "section_heading": "ONE MARK QUESTIONS | [Board 2020 OD Standard]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "39",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "Find the nature of roots of the quadratic equation 2x² − √5 x + 1 = 0.",
+   "answer": "Comparing with ax² + bx + c = 0 gives a = 2, b = −√5, c = 1. Then b² − 4ac = (−√5)² − 4 × 2 × 1 = 5 − 8 = −3 < 0. Since the discriminant is negative, the equation has no real roots; the roots are imaginary.",
+   "concept": "The discriminant",
+   "section_heading": "ONE MARK QUESTIONS | [Board Term-2 2017]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "40",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "If ½ is a root of the equation x² + kx − 5/4 = 0, then what is the value of k?",
+   "answer": "Since ½ is a root it must satisfy the equation: (½)² + k(½) − 5/4 = 0, i.e. ¼ + k/2 − 5/4 = 0. Multiplying by 4 gives 1 + 2k − 5 = 0, so 2k − 4 = 0 and k = 2.",
+   "concept": "Checking a root by substitution",
+   "section_heading": "ONE MARK QUESTIONS | [Board 2009]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "41",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "If quadratic equation 3x² − 4x + k = 0 has equal roots, then the value of k is ……… .",
+   "answer": "Comparing with ax² + bx + c = 0 gives a = 3, b = −4, c = k. Equal roots require b² − 4ac = 0, so (−4)² − 4(3)(k) = 0, i.e. 16 − 12k = 0. Hence k = 16/12 = 4/3.",
+   "concept": "Two equal real roots",
+   "section_heading": "ONE MARK QUESTIONS | [Board 2020 Delhi Basic]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "42",
+   "form": "very_short",
+   "marks": 1,
+   "page": 8,
+   "stem": "Find the nature of roots of the quadratic equation x² + x − 5 = 0.",
+   "answer": "Here a = 1, b = 1, c = −5, so D = b² − 4ac = (1)² − 4 × 1 × (−5) = 1 + 20 = 21 > 0. Since the discriminant is positive, x² + x − 5 = 0 has two distinct real roots.",
+   "concept": "Two distinct real roots",
+   "section_heading": "ONE MARK QUESTIONS | [Board Term-2 2015]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem is on page 8; the worked solution runs over to the top of page 9. The book prints the discriminant line as '(1)² − 4 × 1 × (−5) = 21', which is the correct value."
+  },
+  {
+   "number": "43",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "Find the value of k for which the roots of the equations 3x² − 10x + k = 0 are reciprocal of each other.",
+   "answer": "Comparing with ax² + bx + c = 0 gives a = 3, b = −10, c = k. If one root is α, the other is 1/α, so the product of the roots is α × (1/α) = c/a, i.e. 1 = k/3. Hence k = 3.",
+   "concept": "Zeroes and roots",
+   "section_heading": "ONE MARK QUESTIONS | [Board 2019 Delhi]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "44",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "What are the real roots of the equation x^(2/3) + x^(1/3) − 2 = 0?",
+   "answer": "Put x^(1/3) = y, so the equation becomes y² + y − 2 = 0, i.e. (y − 1)(y + 2) = 0, giving y = 1 or y = −2. Then x^(1/3) = 1 gives x = 1³ = 1, and x^(1/3) = −2 gives x = (−2)³ = −8. The real roots are 1 and −8.",
+   "concept": "Splitting the middle term",
+   "section_heading": "ONE MARK QUESTIONS | [Board Term-2 2012]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed exponents are typeset as x^{2/3} and x^{1/3}; written here with caret notation since superscript fractions have no plain Unicode form."
+  },
+  {
+   "number": "45",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "If x² + y² = 25, xy = 12, then what is the value of x?",
+   "answer": "From xy = 12 we get y = 12/x. Substituting into x² + y² = 25 gives x² + (12/x)² = 25, i.e. x⁴ + 144 − 25x² = 0. Factorising, (x² − 16)(x² − 9) = 0, so x² = 16 giving x = ±4, or x² = 9 giving x = ±3. Hence x = ±4 and ±3.",
+   "concept": "Splitting the middle term",
+   "section_heading": "ONE MARK QUESTIONS | [Board Term-2 2016]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "46",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "Find the nature of the roots of the quadratic equation 4x² + 4√3 x + 3 = 0.",
+   "answer": "Comparing with ax² + bx + c = 0 gives a = 4, b = 4√3, c = 3. Then D = b² − 4ac = (4√3)² − 4 × 4 × 3 = 48 − 48 = 0. Since the discriminant is zero, the roots of the given equation are real and equal.",
+   "concept": "Two equal real roots",
+   "section_heading": "ONE MARK QUESTIONS | [Board 2019 OD]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem prints the middle term as 4√(3x) with the bar drawn over 3x, but the solution takes b = 4√3, which is the standard form of this question; read as 4√3 x."
+  },
+  {
+   "number": "47",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "Find the nature of roots of the quadratic equation 2x² − 4x + 3 = 0.",
+   "answer": "Comparing with ax² + bx + c = 0 gives a = 2, b = −4, c = 3. Then D = b² − 4ac = (−4)² − 4(2)(3) = 16 − 24 = −8 < 0. Since the discriminant is negative, the given equation has no real roots.",
+   "concept": "The discriminant",
+   "section_heading": "ONE MARK QUESTIONS | [Board 2019 OD]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "48",
+   "form": "very_short",
+   "marks": 1,
+   "page": 9,
+   "stem": "Find the nature of roots of the quadratic equation x² − 4x + 3√2 = 0.",
+   "answer": "Here a = 1, b = −4 and c = 3√2. Then D = b² − 4ac = (−4)² − 4(1)(3√2) = 16 − 12√2 ≈ 16 − 16.92 = −0.92, so D < 0. Since the discriminant is negative, the given equation has no real roots.",
+   "concept": "The discriminant",
+   "section_heading": "ONE MARK QUESTIONS | [Board Term-2 2011]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem on page 9; the solution continues at the top of page 10. The book approximates √2 as 1.41."
+  },
+  {
+   "number": "49",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Find the nature of roots of the quadratic equation x² + 4x − 3√2 = 0.",
+   "answer": "Here a = 1, b = 4 and c = −3√2. Then D = b² − 4ac = (4)² − 4(1)(−3√2) = 16 + 12√2 > 0. Since the discriminant is positive, the given equation has two distinct real roots.",
+   "concept": "Two distinct real roots",
+   "section_heading": "ONE MARK QUESTIONS | [Board Term-2 2016]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "50",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Find the nature of roots of the quadratic equation 3x² + 4√3 x + 4.",
+   "answer": "Writing the equation as 3x² + 4√3 x + 4 = 0, we have a = 3, b = 4√3 and c = 4. Then D = b² − 4ac = (4√3)² − 4(3)(4) = 48 − 48 = 0. Since the discriminant is zero, the equation has real and equal roots.",
+   "concept": "Two equal real roots",
+   "section_heading": "ONE MARK QUESTIONS | [Board Term-2 Delhi 2014]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem as printed omits '= 0' after 3x² + 4√3 x + 4; kept verbatim, and the solution supplies the '= 0'."
+  },
+  {
+   "number": "51",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Value of the roots of the quadratic equation, x² − x − 6 = 0 are ……… .",
+   "answer": "Split the middle term: x² − 3x + 2x − 6 = 0, so x(x − 3) + 2(x − 3) = 0 and (x − 3)(x + 2) = 0. Hence x = 3 and x = −2.",
+   "concept": "Splitting the middle term",
+   "section_heading": "ONE MARK QUESTIONS | [Board 2020 OD Basic]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "52",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Find the positive root of √(3x² + 6) = 9.",
+   "answer": "Squaring both sides gives 3x² + 6 = 81, so 3x² = 75 and x² = 25. Thus x = ±5, and the positive root is 5.",
+   "concept": "What a root is",
+   "section_heading": "ONE MARK QUESTIONS | [Board Term-2 2015]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "53",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "If one root of the quadratic equation 6x² − x − k = 0 is ⅔, then find the value of k.",
+   "answer": "Substituting x = ⅔ into 6x² − x − k = 0 gives 6(⅔)² − ⅔ − k = 0, i.e. 6 × 4/9 − ⅔ − k = 0, so 8/3 − 2/3 − k = 0. That is (8 − 2)/3 − k = 0, giving 2 − k = 0. Hence k = 2.",
+   "concept": "Checking a root by substitution",
+   "section_heading": "ONE MARK QUESTIONS | [Board Term-2 Foreign 2017]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "54",
+   "form": "very_short",
+   "marks": 1,
+   "page": 10,
+   "stem": "Find the value(s) of k if the quadratic equation 3x² − k√3 x + 4 = 0 has real roots.",
+   "answer": "Roots are real when the discriminant D = b² − 4ac ≥ 0. Comparing with ax² + bx + c = 0 gives a = 3, b = −k√3, c = 4. So (−k√3)² − 4 × 3 × 4 ≥ 0, i.e. 3k² − 48 ≥ 0, hence k² − 16 ≥ 0 and (k − 4)(k + 4) ≥ 0. Therefore k ≤ −4 or k ≥ 4.",
+   "concept": "The discriminant",
+   "section_heading": "ONE MARK QUESTIONS | [Board SQP 2017]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed last line reads 'Thus k ≤ −4 and k ≥ 4'; the two ranges are alternatives, so the conclusion is stated with 'or' in the answer. The mathematics is unchanged."
+  },
+  {
+   "number": "55",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "stem": "For what values of k, the roots of the equation x² + 4x + k = 0 are real?",
+   "answer": "Compare x² + 4x + k = 0 with ax² + bx + c = 0, so a = 1, b = 4, c = k. Real roots need D ≥ 0, that is b² − 4ac ≥ 0, so 4² − 4 × 1 × k ≥ 0, giving 16 − 4k ≥ 0, i.e. 4k ≤ 16. Hence k ≤ 4.",
+   "concept": "The discriminant",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2019 Delhi",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "56",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "stem": "Find the roots of the quadratic equation 6x² − x − 2 = 0.",
+   "answer": "Split the middle term using 3 × (−4) = (−2) × 6: 6x² + 3x − 4x − 2 = 0, so 3x(2x + 1) − 2(2x + 1) = 0, giving (2x + 1)(3x − 2) = 0. Therefore 3x − 2 = 0 or 2x + 1 = 0. Hence the roots are x = 2/3 and x = −1/2.",
+   "concept": "Splitting the middle term",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "57",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "stem": "Solve for x : 2x² + 6√3 x − 60 = 0",
+   "answer": "Divide throughout by 2 to get x² + 3√3 x − 30 = 0. Split the middle term: x² + 5√3 x − 2√3 x − 30 = 0, so x(x + 5√3) − 2√3(x + 5√3) = 0, giving (x + 5√3)(x − 2√3) = 0. Hence x = −5√3 or x = 2√3.",
+   "concept": "Splitting the middle term",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 OD 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "58",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "stem": "Solve the following quadratic equation for x : 4√3 x² + 5x − 2√3 = 0",
+   "answer": "Split the middle term: 4√3 x² + 8x − 3x − 2√3 = 0, so 4x(√3 x + 2) − √3(√3 x + 2) = 0, giving (√3 x + 2)(4x − √3) = 0. Hence x = −2/√3 or x = √3/4.",
+   "concept": "Splitting the middle term",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2013, 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "59",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "stem": "Find the roots of the quadratic equation √2 x² + 7x + 5√2 = 0",
+   "answer": "Split the middle term: √2 x² + 2x + 5x + 5√2 = 0, so √2 x(x + √2) + 5(x + √2) = 0, giving (x + √2)(√2 x + 5) = 0. Hence x = −√2 or x = −5/√2.",
+   "concept": "Splitting the middle term",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 OD 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "60",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "stem": "Solve for x : √3 x² − 2√2 x − 2√3 = 0",
+   "answer": "Write the middle term as −[3√2 − √2]x, so √3 x² − 3√2 x + √2 x − 2√3 = 0. Then √3 x(x − √3·√2) + √2(x − √2·√3) = 0, i.e. √3 x(x − √6) + √2(x − √6) = 0, giving (x − √6)(√3 x + √2) = 0. Hence x = √6 or x = −√2/√3 = −√(2/3).",
+   "concept": "Splitting the middle term",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 OD 2015, Foreign 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book's last line prints 'Thus x = √6 = −√(2/3)'; the '=' between the two roots is a misprint for 'and' — the factorisation clearly gives the two roots √6 and −√(2/3)."
+  },
+  {
+   "number": "61",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "stem": "Solve for x : x² − (√3 + 1)x + √3 = 0",
+   "answer": "Expand the middle term: x² − √3 x − 1x + √3 = 0, so x(x − √3) − 1(x − √3) = 0, giving (x − √3)(x − 1) = 0. Hence x = √3 or x = 1.",
+   "concept": "Splitting the middle term",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "62",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "stem": "Find the roots of the following quadratic equation: (x + 3)(x − 1) = 3(x − 1/3)",
+   "answer": "Expand both sides: x² + 3x − x − 3 = 3x − 1, so x² − x − 2 = 0. Split the middle term: x² − 2x + x − 2 = 0, so x(x − 2) + 1(x − 2) = 0, giving (x − 2)(x + 1) = 0. Hence x = 2 or x = −1.",
+   "concept": "Standard form",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "63",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "stem": "Find the roots of the following quadratic equation: (2/5)x² − x − 3/5 = 0",
+   "answer": "Clear the fractions: (2x² − 5x − 3)/5 = 0, so 2x² − 5x − 3 = 0. Split the middle term: 2x² − 6x + x − 3 = 0, so 2x(x − 3) + 1(x − 3) = 0, giving (2x + 1)(x − 3) = 0. Hence x = −1/2 or x = 3.",
+   "concept": "Standard form",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "64",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "stem": "Solve the following quadratic equation for x : 4x² − 4a²x + (a⁴ − b⁴) = 0",
+   "answer": "Compare with Ax² + Bx + C = 0: A = 4, B = −4a², C = a⁴ − b⁴. By the quadratic formula, x = [4a² ± √((−4a²)² − 4 × 4(a⁴ − b⁴))]/(2 × 4) = [4a² ± √(16a⁴ − 16a⁴ + 16b⁴)]/8 = (4a² ± 4b²)/8 = (a² ± b²)/2. Hence x = (a² + b²)/2 or x = (a² − b²)/2.",
+   "concept": "The discriminant",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed discriminant line reads √(16a² − 16a⁴ + 16b⁴); the first term is a misprint for 16a⁴, as the next line (√(16b⁴)) confirms."
+  },
+  {
+   "number": "65",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "stem": "Solve the following quadratic equation for x : x² − 2ax − (4b² − a²) = 0",
+   "answer": "Rewrite as x² − 2ax + a² − 4b² = 0, i.e. (x − a)² − (2b)² = 0. Using the difference of two squares, (x − a + 2b)(x − a − 2b) = 0. Hence x = a − 2b or x = a + 2b.",
+   "concept": "Splitting the middle term",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "66",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "stem": "Solve the quadratic equation, 2x² + ax − a² = 0 for x.",
+   "answer": "Compare with Ax² + Bx + C = 0: A = 2, B = a, C = −a². By the quadratic formula, x = [−a ± √(a² − 4 × 2 × (−a²))]/(2 × 2) = [−a ± √(a² + 8a²)]/4 = [−a ± √(9a²)]/4 = (−a ± 3a)/4. So x = (−a + 3a)/4 = a/2 or x = (−a − 3a)/4 = −a. Hence x = a/2 and x = −a.",
+   "concept": "The discriminant",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "67",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "Find the roots of the quadratic equation 4x² − 4px + (p² − q²) = 0",
+   "answer": "Here a = 4, b = −4p, c = p² − q². By the quadratic formula, x = [4p ± √(16p² − 4 × 4(p² − q²))]/(2 × 4) = [4p ± √(16p² − 16p² + 16q²)]/8 = (4p ± 4q)/8. Hence the roots are x = (p + q)/2 and x = (p − q)/2. Alternatively, 4x² − 4px + p² − q² = (2x − p)² − q² = (2x − p + q)(2x − p − q) = 0, which gives the same two roots.",
+   "concept": "The discriminant",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "68",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "Solve for x (in terms of a and b) : a/(x − b) + b/(x − a) = 2, x ≠ a, b",
+   "answer": "Combine the fractions: [a(x − a) + b(x − b)]/[(x − b)(x − a)] = 2, so a(x − a) + b(x − b) = 2[x² − (a + b)x + ab], i.e. ax − a² + bx − b² = 2x² − 2(a + b)x + 2ab. Bringing all terms to one side gives 2x² − 3(a + b)x + (a + b)² = 0, which factorises as [2x − (a + b)][x − (a + b)] = 0. Hence x = a + b or x = (a + b)/2.",
+   "concept": "Standard form",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed splitting line shows 2x² − 2(a + b)x − (a − b)x + (a + b)² = 0; '(a − b)' is a misprint for '(a + b)', since the factorisation on the next line, [2x − (a + b)][x − (a + b)], is correct."
+  },
+  {
+   "number": "69",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "If x = 2/3 and x = −3 are roots of the quadratic equation ax² + 7x + b = 0, find the values of a and b.",
+   "answer": "Each root must satisfy ax² + 7x + b = 0. Substituting x = 2/3: (4/9)a + 14/3 + b = 0, so 4a + 42 + 9b = 0, i.e. 4a + 9b = −42. Substituting x = −3: 9a − 21 + b = 0, i.e. 9a + b = 21. Solving these two equations gives a = 3 and b = −6.",
+   "concept": "Checking a root by substitution",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "70",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "Solve for x : √(6x + 7) − (2x − 7) = 0",
+   "answer": "Write the equation as √(6x + 7) = 2x − 7 and square both sides: 6x + 7 = 4x² − 28x + 49, so 4x² − 34x + 42 = 0, i.e. 2x² − 17x + 21 = 0. Splitting the middle term, 2x² − 14x − 3x + 21 = 0, so 2x(x − 7) − 3(x − 7) = 0, giving (x − 7)(2x − 3) = 0. Hence x = 7 and x = 3/2; substituting back, only x = 7 satisfies the original equation.",
+   "concept": "Standard form",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The worked solution factorises to (x − 7)(2x − 3) = 0, whose roots are 7 and 3/2, but the printed final line states 'Thus x = 7 and x = 2/3'. Taking the solution as authoritative, the second root is 3/2. Note also that only x = 7 satisfies the original equation; x = 3/2 (like 2/3) is extraneous because 2x − 7 is then negative. Counted as a key contradicted by its solution."
+  },
+  {
+   "number": "71",
+   "form": "very_short",
+   "marks": 2,
+   "page": 13,
+   "stem": "Find the value of k for which the roots of the quadratic equation 2x² + kx + 8 = 0 will have the equal roots?",
+   "answer": "Comparing with ax² + bx + c = 0 gives a = 2, b = k, c = 8. Equal roots require D = 0, so b² − 4ac = 0, i.e. k² − 4 × 2 × 8 = 0, giving k² = 64 and k = ±√64. Hence k = ±8.",
+   "concept": "Two equal real roots",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 OD Compt., 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem printed on page 13 (PAGE 148); its worked solution runs over onto page 14."
+  },
+  {
+   "number": "72",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "Find k so that the quadratic equation (k + 1)x² − 2(k + 1)x + 1 = 0 has equal roots.",
+   "answer": "Comparing with Ax² + Bx + C = 0 gives A = k + 1, B = −2(k + 1), C = 1. Equal roots require D = 0, i.e. B² = 4AC, so 4(k + 1)² = 4(k + 1), giving k² + 2k + 1 = k + 1, i.e. k² + k = 0, so k(k + 1) = 0 and k = 0 or k = −1. But k = −1 makes the coefficient of x² zero, so the equation is no longer quadratic. Hence k = 0.",
+   "concept": "Two equal real roots",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "73",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "If 2 is a root of the equation x² + kx + 12 = 0 and the equation x² + kx + q = 0 has equal roots, find the value of q.",
+   "answer": "Since 2 is a root of x² + kx + 12 = 0, it satisfies the equation: (2)² + 2k + 12 = 0, so 2k + 16 = 0 and k = −8. Substituting k = −8 in x² + kx + q = 0 gives x² − 8x + q = 0. For equal roots the discriminant is zero: (−8)² − 4(1)q = 0, so 64 − 4q = 0 and 4q = 64. Hence q = 16.",
+   "concept": "Checking a root by substitution",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term 2 SQP 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "74",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "Find the values of k for which the quadratic equation x² + 2√(2k) x + 18 = 0 has equal roots.",
+   "answer": "The worked solution reads the equation as x² + 2√2 kx + 18 = 0, so a = 1, b = 2√2 k and c = 18. Equal roots require b² − 4ac = 0, so (2√2 k)² − 4 × 1 × 18 = 0, i.e. 8k² − 72 = 0, giving 8k² = 72 and k² = 9. Hence k = ±3.",
+   "concept": "Two equal real roots",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 SQP Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem prints the radical over '2k' (x² + 2√(2k) x + 18 = 0), but the worked solution treats the coefficient as 2√2·k and computes (2√2 k)² = 8k², giving k = ±3. On the stem as printed the discriminant would be 8k = 72, i.e. k = 9. Following the solution, the answer is k = ±3. Counted as a key contradicted by its solution."
+  },
+  {
+   "number": "75",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "Find the positive value of k for which x² − 8x + k = 0, will have real roots.",
+   "answer": "Comparing with Ax² + Bx + C = 0 gives A = 1, B = −8, C = k. Real roots require B² − 4AC ≥ 0, so (−8)² − 4(1)(k) ≥ 0, i.e. 64 − 4k ≥ 0, giving 16 − k ≥ 0, i.e. 16 ≥ k. Hence k ≤ 16, so the positive values are 0 < k ≤ 16.",
+   "concept": "The discriminant",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The text line says 'B² − 4AC > 0' but the very next step correctly uses ≥ 0 for real roots. Stem printed on page 14 (PAGE 149); the last steps of the solution run onto page 15."
+  },
+  {
+   "number": "76",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "Find the nature of the roots of the quadratic equation : 13√3 x² + 10x + √3 = 0",
+   "answer": "Comparing with ax² + bx + c = 0 gives a = 13√3, b = 10, c = √3. Then b² − 4ac = (10)² − 4(13√3)(√3) = 100 − 156 = −56. Since D < 0, the equation has no real roots.",
+   "concept": "The discriminant",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "77",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "For what value of k, the roots of the quadratic equation kx(x − 2√5) + 10 = 0 are equal ?",
+   "answer": "Expanding gives kx² − 2√5 kx + 10 = 0, so a = k, b = −2√5 k and c = 10. Equal roots require D = b² − 4ac = 0, so (−2√5 k)² − 4 × k × 10 = 0, i.e. 20k² − 40k = 0, giving 20k(k − 2) = 0, so k(k − 2) = 0. Since k ≠ 0 (otherwise the equation is not quadratic), k = 2.",
+   "concept": "Two equal real roots",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 Delhi 2014, 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "78",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "Find the nature of the roots of the following quadratic equation. If the real roots exist, find them : 3x² − 4√3 x + 4 = 0",
+   "answer": "Comparing with ax² + bx + c = 0 gives a = 3, b = −4√3, c = 4. Then b² − 4ac = (−4√3)² − 4(3)(4) = 48 − 48 = 0, so the roots are real and equal. Each root is −b/2a = 4√3/6 = 2√3/3. Hence the roots are 2√3/3 and 2√3/3.",
+   "concept": "Two equal real roots",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "79",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "Find the value of k, for which one root of the quadratic equation kx² − 14x + 8 = 0 is six times the other.",
+   "answer": "Let the roots be α and 6α. Sum of roots: α + 6α = 14/k, so 7α = 14/k and α = 2/k. Product of roots: α(6α) = 8/k, so 6α² = 8/k. Substituting α = 2/k gives 6(2/k)² = 8/k, i.e. 24/k² = 8/k, so 3/k² = 1/k, giving 3k = k², i.e. k(3 − k) = 0, so k = 0 or k = 3. Since k = 0 is not possible (the equation would not be quadratic), k = 3.",
+   "concept": "Zeroes and roots",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "80",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "Solve the quadratic equation (x − 1)² − 5(x − 1) − 6 = 0",
+   "answer": "Expand: x² − 2x + 1 − 5x + 5 − 6 = 0, so x² − 7x + 6 − 6 = 0, i.e. x² − 7x = 0. Factorising, x(x − 7) = 0. Hence x = 0 or x = 7.",
+   "concept": "Standard form",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "81",
+   "form": "short",
+   "marks": 3,
+   "page": 15,
+   "stem": "The sum of two numbers is 15. If the sum of their reciprocals is 3/10, find the two numbers.",
+   "answer": "Let the first number be x, so the other is 15 − x. Then 1/x + 1/(15 − x) = 3/10, i.e. 15/(x(15 − x)) = 3/10, so 5/(x(15 − x)) = 1/10 and x(15 − x) = 50. This gives 50 = 15x − x², i.e. x² − 15x + 50 = 0. Splitting the middle term, x² − 10x − 5x + 50 = 0, so x(x − 10) − 5(x − 10) = 0 and (x − 10)(x − 5) = 0, giving x = 10 or x = 5. If the first number is 10 the other is 5, and if the first is 5 the other is 10. The two numbers are 5 and 10.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The question number is printed behind the vertical NODIA watermark on the page; it is 81, following question 80 and preceding 82."
+  },
+  {
+   "number": "82",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "If α and β are roots of the quadratic equation x² − 7x + 10 = 0, find the quadratic equation whose roots are α² and β².",
+   "answer": "Factorise x² − 7x + 10 = 0 as x² − 5x − 2x + 10 = 0, i.e. x(x − 5) − 2(x − 5) = 0, so (x − 5)(x − 2) = 0. Hence α = 5 and β = 2, so α² = 25 and β² = 4. Then α² + β² = 29 and α²β² = 100. The equation with roots α² and β² is x² − (α² + β²)x + α²β² = 0, that is x² − 29x + 100 = 0.",
+   "concept": "Zeroes and roots",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "83",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "Solve the following equation: 1/x − 1/(x − 2) = 3, x ≠ 0, 2",
+   "answer": "Combining the left side, (x − 2 − x)/(x(x − 2)) = 3, i.e. −2/(x(x − 2)) = 3, so 3x(x − 2) = −2 and 3x² − 6x + 2 = 0. Comparing with ax² + bx + c = 0 gives a = 3, b = −6, c = 2, so x = (6 ± √(36 − 24))/6 = (6 ± √12)/6 = (6 ± 2√3)/6. Hence x = (3 + √3)/3 and x = (3 − √3)/3.",
+   "concept": "Standard form",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 SQP Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Question and its first working lines are on page 16; the solution finishes in the right-hand column of the same page."
+  },
+  {
+   "number": "84",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "Solve for x : 1/x + 2/(2x − 3) = 1/(x − 2), x ≠ 0, 3/2, 2.",
+   "answer": "Combining the left side, (2x − 3 + 2x)/(x(2x − 3)) = 1/(x − 2), i.e. (4x − 3)/(x(2x − 3)) = 1/(x − 2). Cross-multiplying, (x − 2)(4x − 3) = 2x² − 3x, so 4x² − 11x + 6 = 2x² − 3x, giving 2x² − 8x + 6 = 0 and x² − 4x + 3 = 0. Splitting the middle term, (x − 1)(x − 3) = 0. Hence x = 1 and x = 3.",
+   "concept": "Splitting the middle term",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "85",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "stem": "Solve for x : 1/(x + 4) − 1/(x + 7) = 11/30, x ≠ −4, −7.",
+   "answer": "The left side is (x + 7 − x − 4)/((x + 4)(x + 7)) = 3/(x² + 11x + 28). Setting this equal to 11/30 and cross-multiplying gives 11x² + 121x + 308 = 90, i.e. 11x² + 121x + 218 = 0. With a = 11, b = 121, c = 218, x = (−121 ± √(14641 − 9592))/22 = (−121 ± √5049)/22 ≈ (−121 ± 71.06)/22. Hence x ≈ −2.27 and x ≈ −8.73.",
+   "concept": "Standard form",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem and solution agree, but the roots are irrational; the book itself rounds to x = −2.27, −8.73. Solution continues at the top of page 17."
+  },
+  {
+   "number": "86",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "Solve for x : (x + 1)/(x − 1) + (x − 2)/(x + 2) = 4 − (2x + 3)/(x − 2); x ≠ 1, −2, 2",
+   "answer": "The left side becomes (x² + 3x + 2 + x² − 3x + 2)/(x² + x − 2) = (2x² + 4)/(x² + x − 2), and the right side becomes (4x − 8 − 2x − 3)/(x − 2) = (2x − 11)/(x − 2). Cross-multiplying, (2x² + 4)(x − 2) = (2x − 11)(x² + x − 2), which reduces to 5x² + 19x − 30 = 0. Factorising, (5x − 6)(x + 5) = 0. Hence x = 6/5 and x = −5.",
+   "concept": "Splitting the middle term",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "87",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "Solve for x : 2x/(x − 3) + 1/(2x + 3) + (3x + 9)/((x − 3)(2x + 3)) = 0, x ≠ 3, −3/2",
+   "answer": "Multiply throughout by (x − 3)(2x + 3): 2x(2x + 3) + (x − 3) + (3x + 9) = 0, i.e. 4x² + 6x + x − 3 + 3x + 9 = 0, so 4x² + 10x + 6 = 0 and 2x² + 5x + 3 = 0. Splitting the middle term, (x + 1)(2x + 3) = 0. Hence x = −1 and x = −3/2.",
+   "concept": "Splitting the middle term",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem excludes x = −3/2 yet the printed solution reports x = −3/2 as a root; both roots are recorded exactly as the book prints them."
+  },
+  {
+   "number": "88",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "Solve the following quadratic equation for x : x² + (a/(a + b) + (a + b)/a)x + 1 = 0",
+   "answer": "Split the middle term into its two printed parts: x² + (a/(a + b))x + ((a + b)/a)x + 1 = 0. Grouping, x(x + a/(a + b)) + ((a + b)/a)(x + a/(a + b)) = 0, since (a/(a + b))·((a + b)/a) = 1. Hence (x + a/(a + b))(x + (a + b)/a) = 0, so x = −a/(a + b) and x = −(a + b)/a.",
+   "concept": "Splitting the middle term",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "89",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "Solve for x : 1/((x − 1)(x − 2)) + 1/((x − 2)(x − 3)) = 2/3; x ≠ 1, 2, 3",
+   "answer": "Over the common denominator (x − 1)(x − 2)(x − 3) the left side is (x − 3 + x − 1)/((x − 1)(x − 2)(x − 3)) = (2x − 4)/((x − 1)(x − 2)(x − 3)) = 2(x − 2)/((x − 1)(x − 2)(x − 3)) = 2/((x − 1)(x − 3)). So 2/((x − 1)(x − 3)) = 2/3, giving (x − 1)(x − 3) = 3, i.e. x² − 4x + 3 = 3 and x² − 4x = 0. Thus x(x − 4) = 0, so x = 0 or x = 4.",
+   "concept": "Standard form",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "90",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "stem": "Solve for x : x² + 5x − (a² + a − 6) = 0",
+   "answer": "By the quadratic formula, x = (−5 ± √(25 + 4(a² + a − 6)))/2 = (−5 ± √(4a² + 4a + 1))/2 = (−5 ± (2a + 1))/2, since 4a² + 4a + 1 = (2a + 1)². This gives x = (2a − 4)/2 = a − 2 and x = (−2a − 6)/2 = −(a + 3). Equivalently a² + a − 6 = (a + 3)(a − 2), so the equation factorises as [x + (a + 3)][x − (a − 2)] = 0. Hence x = a − 2 and x = −(a + 3).",
+   "concept": "Splitting the middle term",
+   "section_heading": "THREE MARKS QUESTIONS | Board 2019 OD, Foreign 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The first line of the printed solution mistypes the equation as x³ + 5x − (a² + a − 6) = 0; every later line, and the alternative method, treat it as the quadratic x² + 5x − (a² + a − 6) = 0 given in the stem. Solution completes on page 18."
+  },
+  {
+   "number": "91",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "Solve for x : x² − (2b − 1)x + (b² − b − 20) = 0",
+   "answer": "With A = 1, B = −(2b − 1) and C = b² − b − 20, x = ((2b − 1) ± √((2b − 1)² − 4(b² − b − 20)))/2 = ((2b − 1) ± √(4b² − 4b + 1 − 4b² + 4b + 80))/2 = ((2b − 1) ± √81)/2 = ((2b − 1) ± 9)/2. Hence x = (2b + 8)/2 = b + 4 and x = (2b − 10)/2 = b − 5.",
+   "concept": "Standard form",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "92",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "Solve the equation for x : 4/x − 3 = 5/(2x + 3); x ≠ 0, −3/2",
+   "answer": "Rearranging, 4/x − 5/(2x + 3) = 3, so (4(2x + 3) − 5x)/(x(2x + 3)) = 3 and 8x + 12 − 5x = 3x(2x + 3). Thus 3x + 12 = 6x² + 9x, giving 6x² + 6x − 12 = 0 and x² + x − 2 = 0. Splitting, x² + 2x − x − 2 = 0, so x(x + 2) − (x + 2) = 0 and (x + 2)(x − 1) = 0. Hence x = 1 and x = −2.",
+   "concept": "Splitting the middle term",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "93",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "Find the roots of the equation 2x² + x − 4 = 0, by the method of completing the squares.",
+   "answer": "Divide by 2: x² + x/2 − 2 = 0, i.e. x² + 2x(1/4) − 2 = 0. Add and subtract (1/4)²: x² + 2x(1/4) + (1/4)² − (1/4)² − 2 = 0, so (x + 1/4)² − (1/16 + 2) = 0, that is (x + 1/4)² − 33/16 = 0. Hence (x + 1/4)² = 33/16 and x + 1/4 = ±√33/4. The roots are x = (−1 + √33)/4 and x = (−1 − √33)/4.",
+   "concept": "Zeroes and roots",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "94",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "stem": "Solve for x : 9x² − 6ax + (a² − b²) = 0",
+   "answer": "With A = 9, B = −6a and C = a² − b², x = (6a ± √(36a² − 36(a² − b²)))/18 = (6a ± √(36a² − 36a² + 36b²))/18 = (6a ± √(36b²))/18 = (6a ± 6b)/18 = (a ± b)/3. Hence x = (a + b)/3 and x = (a − b)/3.",
+   "concept": "Standard form",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Inside the discriminant the book prints '4 × 9k(a² − b²)'; the stray k is a misprint and the very next line correctly uses 36a² − 36a² + 36b². Solution finishes at the top of page 19."
+  },
+  {
+   "number": "95",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "Solve the equation 1/(x + 4) − 1/(x − 7) = 11/30, x ≠ −4, 7 for x.",
+   "answer": "The left side is (x − 7 − x − 4)/((x + 4)(x − 7)) = −11/((x + 4)(x − 7)). Setting this equal to 11/30 gives −1/((x + 4)(x − 7)) = 1/30, so (x + 4)(x − 7) = −30, i.e. x² − 3x − 28 = −30 and x² − 3x + 2 = 0. Splitting, x² − 2x − x + 2 = 0, so (x − 1)(x − 2) = 0. Hence x = 1 and x = 2.",
+   "concept": "Splitting the middle term",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "96",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "Find the roots of the quadratic equation : a²b²x² + b²x − a²x − 1 = 0",
+   "answer": "Group the terms: b²x(a²x + 1) − 1(a²x + 1) = 0, so (b²x − 1)(a²x + 1) = 0. Hence b²x − 1 = 0 gives x = 1/b², and a²x + 1 = 0 gives x = −1/a². The roots are 1/b² and −1/a².",
+   "concept": "Zeroes and roots",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "97",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "If (x² + y²)(a² + b²) = (ax + by)², prove that x/a = y/b",
+   "answer": "Expanding both sides, x²a² + x²b² + y²a² + y²b² = a²x² + b²y² + 2abxy. Cancelling a²x² and b²y², x²b² + y²a² − 2abxy = 0, which is the perfect square (xb − ya)² = 0. Hence xb − ya = 0, so xb = ya and therefore x/a = y/b. Proved.",
+   "concept": "Two equal real roots",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "98",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "Solve the following quadratic equation for x : p²x² + (p² − q²)x − q² = 0",
+   "answer": "Here a = p², b = p² − q² and c = −q². The discriminant is (p² − q²)² + 4p²q² = p⁴ + q⁴ − 2p²q² + 4p²q² = p⁴ + q⁴ + 2p²q² = (p² + q²)². So x = (−(p² − q²) ± (p² + q²))/(2p²). Taking the plus sign, x = 2q²/(2p²) = q²/p²; taking the minus sign, x = −2p²/(2p²) = −1. Hence the roots are q²/p² and −1.",
+   "concept": "Standard form",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "99",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "stem": "Solve the following quadratic equation for x : 9x² − 9(a + b)x + 2a² + 5ab + 2b² = 0",
+   "answer": "First factorise the constant: 2a² + 5ab + 2b² = 2a² + 4ab + ab + 2b² = 2a(a + 2b) + b(a + 2b) = (a + 2b)(2a + b). Also 9(a + b) = 3[3a + 3b] = 3[(a + 2b) + (2a + b)]. So the equation becomes 9x² − 3(a + 2b)x − 3(2a + b)x + (a + 2b)(2a + b) = 0, i.e. 3x[3x − (a + 2b)] − (2a + b)[3x − (a + 2b)] = 0, so [3x − (a + 2b)][3x − (2a + b)] = 0. Hence x = (a + 2b)/3 and x = (2a + b)/3.",
+   "concept": "Splitting the middle term",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Solution runs over onto the top of page 20, where the two roots are restated."
+  },
+  {
+   "number": "100",
+   "form": "short",
+   "marks": 3,
+   "page": 20,
+   "stem": "If the roots of the equation (a² + b²)x² − 2(ac + bd)x + (c² + d²) = 0 are equal, prove that a/b = c/d.",
+   "answer": "With A = a² + b², B = −2(ac + bd) and C = c² + d², equal roots require D = B² − 4AC = 0, i.e. B² = 4AC. So [−2(ac + bd)]² = 4(a² + b²)(c² + d²), which gives a²c² + 2abcd + b²d² = a²c² + a²d² + b²c² + b²d². Cancelling, 2abcd = a²d² + b²c², so a²d² − 2abcd + b²c² = 0, that is (ad − bc)² = 0. Hence ad = bc, and dividing by bd gives a/b = c/d. Proved.",
+   "concept": "Two equal real roots",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "101",
+   "form": "short",
+   "marks": 3,
+   "page": 20,
+   "stem": "Determine the positive value of k for which the equation x² + kx + 64 = 0 and x² − 8x + k = 0 will both have real and equal roots.",
+   "answer": "For x² + kx + 64 = 0 with a = 1, b = k, c = 64, equal roots need b² − 4ac = 0, so k² − 256 = 0 and k = ±16. For x² − 8x + k = 0, equal roots need (−8)² − 4(1)k = 0, so 64 = 4k and k = 16. The value satisfying both conditions is k = 16, which is also the positive one. Hence k = 16.",
+   "concept": "Two equal real roots",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2012, 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The working for the second equation is completed at the top of the right-hand column of page 20."
+  },
+  {
+   "number": "102",
+   "form": "short",
+   "marks": 3,
+   "page": 20,
+   "stem": "Find that non-zero value of k, for which the quadratic equation kx² + 1 − 2(k − 1)x + x² = 0 has equal roots. Hence find the roots of the equation.",
+   "answer": "Collect terms: (k + 1)x² − 2(k − 1)x + 1 = 0, so a = k + 1, b = −2(k − 1), c = 1. Equal roots need b² − 4ac = 0: 4(k − 1)² − 4(k + 1) = 0, i.e. 4k² − 8k + 4 − 4k − 4 = 0, so 4k² − 12k = 0 and 4k(k − 3) = 0. Since k cannot be zero, k = 3. Putting k = 3 the equation is 4x² − 4x + 1 = 0, i.e. (2x − 1)² = 0, so the equal roots are x = 1/2 and x = 1/2.",
+   "concept": "Two equal real roots",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution stops at k = 3 and never carries out the 'hence find the roots' part asked in the stem; the roots x = 1/2, 1/2 follow by substituting k = 3."
+  },
+  {
+   "number": "103",
+   "form": "short",
+   "marks": 3,
+   "page": 20,
+   "stem": "Find the value of k for which the quadratic equation (k − 2)x² + 2(2k − 3)x + (5k − 6) = 0 has equal roots.",
+   "answer": "With a = k − 2, b = 2(2k − 3) and c = 5k − 6, equal roots need b² − 4ac = 0: {2(2k − 3)}² − 4(k − 2)(5k − 6) = 0, i.e. 4(4k² − 12k + 9) − 4(k − 2)(5k − 6) = 0. Dividing by 4 and expanding, 4k² − 12k + 9 − 5k² + 6k + 10k − 12 = 0, which is −k² + 4k − 3 = 0, i.e. k² − 4k + 3 = 0. Splitting, k(k − 3) − 1(k − 3) = 0, so (k − 3)(k − 1) = 0. Hence k = 1 or k = 3.",
+   "concept": "Two equal real roots",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "104",
+   "form": "short",
+   "marks": 3,
+   "page": 20,
+   "stem": "If the roots of the quadratic equation (a − b)x² + (b − c)x + (c − a) = 0 are equal, prove that 2a = b + c.",
+   "answer": "Here a-coefficient = (a − b), b-coefficient = (b − c) and constant = (c − a). Equal roots require (b − c)² − 4(a − b)(c − a) = 0, so b² + c² − 2bc − 4(ac − a² − bc + ab) = 0, i.e. b² + c² − 2bc − 4ac + 4a² + 4bc − 4ab = 0, which is 4a² + b² + c² + 2bc − 4ab − 4ac = 0. Using a² + b² + c² + 2ab + 2bc + 2ca = (a + b + c)², this is (−2a + b + c)² = 0, so −2a + b + c = 0. Hence b + c = 2a. Proved.",
+   "concept": "Two equal real roots",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Question starts at the foot of page 20 and the working runs across to the top of page 21."
+  },
+  {
+   "number": "105",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "If ad ≠ bc, then prove that the equation (a² + b²)x² + 2(ac + bd)x + (c² + d²) = 0 has no real roots.",
+   "answer": "With A = a² + b², B = 2(ac + bd) and C = c² + d², D = B² − 4AC = [2(ac + bd)]² − 4(a² + b²)(c² + d²) = 4[a²c² + 2abcd + b²d²] − 4[a²c² + a²d² + b²c² + b²d²] = −4[a²d² + b²c² − 2abcd] = −4(ad − bc)². Since ad ≠ bc, (ad − bc)² > 0, so D is strictly negative. A negative discriminant means the equation has no real roots. Proved.",
+   "concept": "The discriminant",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "106",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "Find the value of c for which the quadratic equation 4x² − 2(c + 1)x + (c + 1) = 0 has equal roots.",
+   "answer": "With A = 4, B = −2(c + 1) and C = c + 1, equal roots need B² − 4AC = 0: [2(c + 1)]² − 4 × 4(c + 1) = 0, i.e. 4(c² + 2c + 1) − 4(4c + 4) = 0, so 4(c² + 2c + 1 − 4c − 4) = 0 and c² − 2c − 3 = 0. Splitting, c² − 3c + c − 3 = 0, so c(c − 3) + 1(c − 3) = 0 and (c − 3)(c + 1) = 0. Hence c = 3 or c = −1.",
+   "concept": "Two equal real roots",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The first line of the printed solution mistypes the constant term as (x + 1); the stem and all the remaining working use (c + 1). Solution finishes at the top of the right-hand column of page 21."
+  },
+  {
+   "number": "107",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "Solve 1/(a + b + x) = 1/a + 1/b + 1/x, a + b ≠ 0.",
+   "answer": "Bring 1/x to the left: 1/(a + b + x) − 1/x = 1/a + 1/b, so (x − (a + b + x))/(x(a + b + x)) = (a + b)/(ab), i.e. −(a + b)/(x(a + b + x)) = (a + b)/(ab). Since a + b ≠ 0 we may cancel it, giving x(a + b + x) = −ab, that is x² + (a + b)x + ab = 0. Splitting, (x + a)(x + b) = 0. Hence x = −a or x = −b.",
+   "concept": "Splitting the middle term",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 SQP 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "108",
+   "form": "short",
+   "marks": 3,
+   "page": 21,
+   "stem": "If (−5) is a root of the quadratic equation 2x² + px + 15 = 0 and the quadratic equation p(x² + x) + k = 0 has equal roots, then find the values of p and k.",
+   "answer": "The worked solution takes the first equation as 2x² + px − 15 = 0. Since x = −5 is a root it must satisfy it: 2(−5)² + p(−5) − 15 = 0, so 50 − 5p − 15 = 0, giving 5p = 35 and p = 7. Next, p(x² + x) + k = 0 becomes 7x² + 7x + k = 0. Equal roots need b² − 4ac = 0, so 7² − 4 × 7 × k = 0, i.e. 7 − 4k = 0 and k = 7/4. Hence p = 7 and k = 7/4.",
+   "concept": "Checking a root by substitution",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Conflict: the stem prints 2x² + px + 15 = 0 but the worked solution writes 2x² + px − 15 = 0 and substitutes to get 50 − 5p − 15 = 0. Following the solution gives p = 7 and k = 7/4; the stem as printed would give p = 13. Solution wins. This is the last THREE MARKS question — question 109 on page 22 opens FIVE MARKS QUESTIONS."
+  },
+  {
+   "number": "109",
+   "form": "long",
+   "marks": 5,
+   "page": 22,
+   "stem": "Solve for x : (2x/(x − 5))² + (2x/(x − 5)) − 24 = 0, x ≠ 5",
+   "options": [],
+   "correct_option": null,
+   "answer": "Put y = 2x/(x − 5). The printed working treats the equation as y² + 5y − 24 = 0, which factorises as (y + 8)(y − 3) = 0, so y = 3 or y = −8. Taking y = 3 gives 2x = 3x − 15, so x = 15. Taking y = −8 gives 2x = −8x + 40, i.e. 10x = 40, so x = 4. Hence x = 15 and x = 4.",
+   "concept": "Splitting the middle term",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 2016]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed stem shows the middle term as (2x/(x−5)) with no coefficient, but the worked solution uses 5(2x/(x−5)) and factorises y² + 5y − 24. Stem transcribed exactly as printed; the solution (coefficient 5, roots 15 and 4) was followed for the answer."
+  },
+  {
+   "number": "110",
+   "form": "long",
+   "marks": 5,
+   "page": 22,
+   "stem": "Solve for x : 1/(x + 1) + 2/(x + 2) = 4/(x + 4), x ≠ −1, −2, −4",
+   "options": [],
+   "correct_option": null,
+   "answer": "Combining the left side, (x + 2 + 2(x + 1))/((x + 1)(x + 2)) = 4/(x + 4), i.e. (3x + 4)/(x² + 3x + 2) = 4/(x + 4). Cross-multiplying, (3x + 4)(x + 4) = 4(x² + 3x + 2), so 3x² + 16x + 16 = 4x² + 12x + 8, giving x² − 4x − 8 = 0. By the quadratic formula x = (4 ± √(16 + 32))/2 = (4 ± 4√3)/2 = 2 ± 2√3. Hence x = 2 + 2√3 and x = 2 − 2√3.",
+   "concept": "Two distinct real roots",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 OD 2016]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "111",
+   "form": "long",
+   "marks": 5,
+   "page": 22,
+   "stem": "Find x in terms of a, b and c : a/(x − a) + b/(x − b) = 2c/(x − c), x ≠ a, b, c",
+   "options": [],
+   "correct_option": null,
+   "answer": "Clearing denominators, a(x − b)(x − c) + b(x − a)(x − c) = 2c(x − a)(x − b). Expanding both sides gives ax² − abx − acx + abc + bx² − bax − bcx + abc = 2cx² − 2cxb − 2cxa + 2abc. Collecting terms, x²(a + b − 2c) + x(−2ab + ac + bc) = 0, so x[x(a + b − 2c) + (ac + bc − 2ab)] = 0. Rejecting the trivial factor, x = −((ac + bc − 2ab)/(a + b − 2c)).",
+   "concept": "Standard form",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 Delhi 2016]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "112",
+   "form": "long",
+   "marks": 5,
+   "page": 22,
+   "stem": "Solve for x : (x − 1)/(2x + 1) + (2x + 1)/(x − 1) = 2 where x ≠ −1/2, 1",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let y = (x − 1)/(2x + 1), so that (2x + 1)/(x − 1) = 1/y. The equation becomes y + 1/y = 2, i.e. y² + 1 = 2y, so y² − 2y + 1 = 0, that is (y − 1)² = 0 and y = 1. Substituting back, (x − 1)/(2x + 1) = 1, so x − 1 = 2x + 1. Hence x = −2.",
+   "concept": "Two equal real roots",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 OD 2015]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page 22 and the solution finishes at the top of page 23."
+  },
+  {
+   "number": "113",
+   "form": "long",
+   "marks": 5,
+   "page": 23,
+   "stem": "Find for x : 1/(x − 2) + 2/(x − 1) = 6/x ; x ≠ 0, 1, 2",
+   "options": [],
+   "correct_option": null,
+   "answer": "Combining the left side, (x − 1 + 2x − 4)/((x − 2)(x − 1)) = 6/x, i.e. (3x − 5)/((x − 2)(x − 1)) = 6/x. Cross-multiplying, 3x² − 5x = 6x² − 18x + 12, so 3x² − 13x + 12 = 0. Splitting the middle term, 3x² − 4x − 9x + 12 = 0, x(3x − 4) − 3(3x − 4) = 0, (3x − 4)(x − 3) = 0. Hence x = 3 and x = 4/3.",
+   "concept": "Splitting the middle term",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 OD 2017]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "114",
+   "form": "long",
+   "marks": 5,
+   "page": 23,
+   "stem": "Solve, for x : √3 x² + 10x + 7√3 = 0",
+   "options": [],
+   "correct_option": null,
+   "answer": "Split the middle term: √3 x² + 3x + 7x + 7√3 = 0. Since 3 = √3·√3, this is √3 x(x + √3) + 7(x + √3) = 0, i.e. (x + √3)(√3 x + 7) = 0. Hence x = −√3 and x = −7/√3.",
+   "concept": "Splitting the middle term",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 Foreign 2017]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "115",
+   "form": "long",
+   "marks": 5,
+   "page": 23,
+   "stem": "Solve for x : (x + 3)/(x − 2) − (1 − x)/x = 17/4 ; x ≠ 0, 2",
+   "options": [],
+   "correct_option": null,
+   "answer": "Combining the left side over x(x − 2): (x(x + 3) − (1 − x)(x − 2))/(x(x − 2)) = 17/4, i.e. ((x² + 3x) − (−x² + 3x − 2))/(x² − 2x) = 17/4, which simplifies to (2x² + 2)/(x² − 2x) = 17/4. Cross-multiplying, 8x² + 8 = 17x² − 34x, so 9x² − 34x − 8 = 0. Splitting the middle term, 9x² − 36x + 2x − 8 = 0, 9x(x − 4) + 2(x − 4) = 0, (x − 4)(9x + 2) = 0. Hence x = 4 or x = −2/9.",
+   "concept": "Splitting the middle term",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term -2 Delhi Compt. 2017]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "116",
+   "form": "long",
+   "marks": 5,
+   "page": 23,
+   "stem": "Solve for x : 4x² + 4bx − (a² − b²) = 0",
+   "options": [],
+   "correct_option": null,
+   "answer": "Comparing with Ax² + Bx + C = 0 gives A = 4, B = 4b and C = b² − a². Then x = (−B ± √(B² − 4AC))/(2A) = (−4b ± √(16b² − 16(b² − a²)))/8 = (−4b ± √(16a²))/8 = (−4b ± 4a)/8. Hence the roots are −(a + b)/2 and (a − b)/2.",
+   "concept": "Two distinct real roots",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 Foreign 2017]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "117",
+   "form": "long",
+   "marks": 5,
+   "page": 23,
+   "stem": "Write all the values of p for which the quadratic equation x² + px + 16 = 0 has equal roots. Find the roots of the equation so obtained.",
+   "options": [],
+   "correct_option": null,
+   "answer": "For equal roots the discriminant must vanish: b² − 4ac = 0 with a = 1, b = p and c = 16. So p² − 4 × 1 × 16 = 0, giving p² = 64 and p = ±8. When p = 8 the equation is x² + 8x + 16 = 0, i.e. (x + 4)² = 0, so the roots are −4 and −4. When p = −8 the equation is x² − 8x + 16 = 0, i.e. (x − 4)² = 0, so the roots are 4 and 4. Hence p = ±8, and the roots are either −4, −4 or 4, 4.",
+   "concept": "Two equal real roots",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board 2019 OD]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "118",
+   "form": "long",
+   "marks": 5,
+   "page": 24,
+   "stem": "Find the positive values of k for which quadratic equations x² + kx + 64 = 0 and x² − 8x + k = 0 both will have the real roots.",
+   "options": [],
+   "correct_option": null,
+   "answer": "For x² + kx + 64 = 0 to have real roots, k² − 256 ≥ 0, so k² ≥ 256, which for positive k means k ≥ 16. For x² − 8x + k = 0 to have real roots, 64 − 4k ≥ 0, so 16 − k ≥ 0, i.e. k ≤ 16. Both conditions hold together only when k = 16.",
+   "concept": "The discriminant",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 Foreign 2016]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints the first condition as 'k ≥ 16 or k < −16'; the strict inequality is a misprint for k ≤ −16, and in any case only positive k is wanted, so the conclusion k = 16 is unaffected. The second condition is printed as '16 ≥ k'."
+  },
+  {
+   "number": "119",
+   "form": "long",
+   "marks": 5,
+   "page": 24,
+   "stem": "Find the values of k for which the equation (3k + 1)x² + 2(k + 1)x + 1 has equal roots. Also find the roots.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Comparing with Ax² + Bx + C = 0 gives A = 3k + 1, B = 2(k + 1) and C = 1. Equal roots require B² − 4AC = 0, so [2(k + 1)]² − 4(3k + 1)(1) = 0, i.e. 4(k² + 2k + 1) − (12k + 4) = 0, giving 4k² + 8k + 4 − 12k − 4 = 0, i.e. 4k² − 4k = 0 and 4k(k − 1) = 0. Hence k = 0 or k = 1. Substituting k = 0 gives x² + 2x + 1 = 0, i.e. (x + 1)² = 0, so x = −1. Substituting k = 1 gives 4x² + 4x + 1 = 0, i.e. (2x + 1)² = 0, so x = −1/2. Hence k = 0, 1 and the roots are −1 and −1/2.",
+   "concept": "Two equal real roots",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 2014]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "120",
+   "form": "long",
+   "marks": 5,
+   "page": 24,
+   "stem": "If x = −2 is a root of the equation 3x² + 7x + p = 0, find the value of k so that the roots of the equation x² + k(4x + k − 1) + p = 0 are equal.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Since x = −2 satisfies 3x² + 7x + p = 0, we get 3(−2)² + 7(−2) + p = 0, i.e. 12 − 14 + p = 0, so p = 2. The second equation then becomes x² + 4kx + k² − k + 2 = 0. For equal roots its discriminant vanishes: 16k² − 4(k² − k + 2) = 0, i.e. 16k² − 4k² + 4k − 8 = 0, so 12k² + 4k − 8 = 0, i.e. 3k² + k − 2 = 0, which factorises as (3k − 2)(k + 1) = 0. Hence k = 2/3 or k = −1.",
+   "concept": "Checking a root by substitution",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 Foreign 2015]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book's closing line reads 'Hence, roots = 2/3, −1'; those two values are the required values of k, not roots of the equation, as the working itself shows."
+  },
+  {
+   "number": "121",
+   "form": "long",
+   "marks": 5,
+   "page": 24,
+   "stem": "Find the value of p for which the quadratic equation (p + 1)x² − 6(p + 1)x + 3(p + 9) = 0, p ≠ −1 has equal roots. Hence find the roots of the equation.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Here a = p + 1, b = −6(p + 1) and c = 3(p + 9). Equal roots require b² − 4ac = 0, so 36(p + 1)² − 12(p + 1)(p + 9) = 0, i.e. 3(p² + 2p + 1) − (p + 1)(p + 9) = 0, giving 3p² + 6p + 3 − (p² + 10p + 9) = 0, i.e. 2p² − 4p − 6 = 0, or p² − 2p − 3 = 0, which factorises as (p − 3)(p + 1) = 0. Since p ≠ −1, we take p = 3. The equation then becomes 4x² − 24x + 36 = 0, i.e. x² − 6x + 9 = 0, i.e. (x − 3)² = 0. Hence p = 3 and the roots are 3 and 3.",
+   "concept": "Two equal real roots",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 2015]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page 24 and the solution finishes at the top of page 25."
+  },
+  {
+   "number": "122",
+   "form": "long",
+   "marks": 5,
+   "page": 25,
+   "stem": "If the equation (1 + m²)x² + 2mcx + (c² − a²) = 0 has equal roots, prove that c² = a²(1 + m²)",
+   "options": [],
+   "correct_option": null,
+   "answer": "Comparing with Ax² + Bx + C = 0 gives A = 1 + m², B = 2mc and C = c² − a². Equal roots require B² − 4AC = 0, so (2mc)² − 4(1 + m²)(c² − a²) = 0, i.e. 4m²c² − 4(1 + m²)(c² − a²) = 0. Dividing by 4 and expanding, m²c² − (c² − a² + m²c² − m²a²) = 0, i.e. m²c² − c² + a² − m²c² + m²a² = 0, which leaves −c² + a² + m²a² = 0. Hence c² = a²(1 + m²), as required.",
+   "concept": "Two equal real roots",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 Delhi 2015]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "123",
+   "form": "long",
+   "marks": 5,
+   "page": 25,
+   "stem": "If the roots of the quadratic equation (x − a)(x − b) + (x − b)(x − c) + (x − c)(x − a) = 0 are equal. Then show that a = b = c.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Expanding, x² − ax − bx + ab + x² − bx − cx + bc + x² − cx − ax + ac = 0, i.e. 3x² − 2(a + b + c)x + (ab + bc + ca) = 0. Equal roots require B² − 4AC = 0, so [−2(a + b + c)]² − 4 × 3(ab + bc + ca) = 0, i.e. 4(a + b + c)² − 12(ab + bc + ca) = 0, which gives a² + b² + c² − (ab + bc + ca) = 0. Multiplying by 2 and regrouping, (a − b)² + (b − c)² + (c − a)² = 0. A sum of squares vanishes only when each square is zero, so a = b, b = c and c = a. Hence a = b = c.",
+   "concept": "Two equal real roots",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 Delhi 2015]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "124",
+   "form": "long",
+   "marks": 5,
+   "page": 25,
+   "stem": "If the roots of the quadratic equation (c² − ab)x² − 2(a² − bc)x + b² − ac = 0 in x are equal then show that either a = 0 or a³ + b³ + c³ = 3abc",
+   "options": [],
+   "correct_option": null,
+   "answer": "Here A = c² − ab, B = −2(a² − bc) and C = b² − ac. Equal roots require B² − 4AC = 0, so [2(a² − bc)]² − 4(c² − ab)(b² − ac) = 0, i.e. 4[a⁴ + b²c² − 2a²bc] − 4[b²c² − c³a − ab³ + a²bc] = 0. Simplifying inside the bracket, a⁴ + b²c² − 2a²bc − b²c² + c³a + ab³ − a²bc = a⁴ + ac³ + ab³ − 3a²bc. Hence 4a(a³ + b³ + c³ − 3abc) = 0, so either a = 0 or a³ + b³ + c³ = 3abc.",
+   "concept": "Two equal real roots",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 OD 2017]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "125",
+   "form": "long",
+   "marks": 5,
+   "page": 25,
+   "stem": "Solve for x : 1/(a + b + x) = 1/a + 1/b + 1/x where a + b + x ≠ 0 and a, b, x ≠ 0",
+   "options": [],
+   "correct_option": null,
+   "answer": "Rearranging, 1/(a + b + x) − 1/x = 1/a + 1/b, i.e. (x − a − b − x)/(x(a + b + x)) = (b + a)/(ab), so −(a + b)/(x² + (a + b)x) = (a + b)/(ab). Cancelling the common factor (a + b) and cross-multiplying gives −ab = x² + (a + b)x, i.e. x² + (a + b)x + ab = 0, which factorises as (x + a)(x + b) = 0. Hence x = −a and x = −b.",
+   "concept": "Splitting the middle term",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 Foreign 2017]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page 25 and the solution finishes at the top of page 26."
+  },
+  {
+   "number": "126",
+   "form": "long",
+   "marks": 5,
+   "page": 26,
+   "stem": "Check whether the equation 5x² − 6x − 2 = 0 has real roots if it has, find them by the method of completing the square. Also verify that roots obtained satisfy the given equation.",
+   "options": [],
+   "correct_option": null,
+   "answer": "With a = 5, b = −6 and c = −2, the discriminant is b² − 4ac = 36 + 40 = 76 > 0, so the equation has two distinct real roots. Writing 5x² − 6x = 2 and dividing by 5 gives x² − (6/5)x = 2/5, i.e. x² − 2x(3/5) = 2/5. Adding the square of half the coefficient of x, x² − 2x(3/5) + 9/25 = 2/5 + 9/25, so (x − 3/5)² = 19/25 and x − 3/5 = ±√19/5. Hence x = (3 + √19)/5 or x = (3 − √19)/5. Substituting either value back into 5x² − 6x − 2 reduces it to 0, so both roots satisfy the equation.",
+   "concept": "The discriminant",
+   "section_heading": "FIVE MARKS QUESTIONS | [Board Term-2 SQP 2017]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "127",
+   "form": "long",
+   "marks": 5,
+   "page": 26,
+   "stem": "Sum of the areas of two squares is 468 m². If the difference of their perimeter is 24 m, find the sides of the squares.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let the sides be x (larger) and y (smaller). The perimeters differ by 24, so 4x − 4y = 24, i.e. x − y = 6. The areas add to 468, so x² + y² = 468. Substituting x = y + 6 gives (y + 6)² + y² = 468, i.e. 2y² + 12y + 36 = 468, so 2y² + 12y − 432 = 0 and y² + 6y − 216 = 0, which factorises as (y + 18)(y − 12) = 0. A side cannot be negative, so y = 12 and x = 12 + 6 = 18. Hence the larger square has side 18 m and the smaller square has side 12 m.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 2012, 2011]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed stem shows the unit as 'm2'; transcribed as m²."
+  },
+  {
+   "number": "128",
+   "form": "long",
+   "marks": 5,
+   "page": 26,
+   "stem": "A two digit number is four times the sum of the digits. It also equal to 3 times the product of digits. Find the number.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let the units digit be x and the tens digit be y, so the number is 10y + x. Being four times the digit sum, 10y + x = 4(y + x), which gives 6y = 3x, i.e. x = 2y. Being three times the digit product, 10y + x = 3xy. Substituting x = 2y gives 10y + 2y = 3(2y)y, i.e. 12y = 6y², so 6y(y − 2) = 0 and y = 0 or y = 2. The number cannot be zero, so y = 2 and x = 2y = 4. Hence the required number is 24.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 Foreign 2016]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page 26 and the solution finishes at the top of page 27."
+  },
+  {
+   "number": "129",
+   "form": "long",
+   "marks": 5,
+   "page": 27,
+   "stem": "The difference of two natural numbers is 5 and the difference of their reciprocals is 1/10. Find the numbers.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let the numbers be x and x + 5. Their reciprocals differ by 1/10, so 1/x − 1/(x + 5) = 1/10, i.e. (x + 5 − x)/(x(x + 5)) = 1/10, giving 5/(x² + 5x) = 1/10 and x² + 5x − 50 = 0. Splitting the middle term, x² + 10x − 5x − 50 = 0, so (x + 10)(x − 5) = 0 and x = 5 or x = −10. Since the numbers are natural, x = 5. Hence the numbers are 5 and 10.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board 2020 Delhi Basic]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "130",
+   "form": "long",
+   "marks": 5,
+   "page": 27,
+   "stem": "Three consecutive positive integers are such that the sum of the square of the first and product of the other two is 46. Find the integers.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let the integers be x, x + 1 and x + 2. Then x² + (x + 1)(x + 2) = 46, i.e. x² + x² + 3x + 2 = 46, so 2x² + 3x − 44 = 0. Splitting the middle term, 2x² + 11x − 8x − 44 = 0, x(2x + 11) − 4(2x + 11) = 0, (2x + 11)(x − 4) = 0, so x = −11/2 or x = 4. As x must be a positive integer, x = 4. Hence the integers are 4, 5 and 6.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board 2020 OD Basic]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "131",
+   "form": "long",
+   "marks": 5,
+   "page": 27,
+   "stem": "The product of two consecutive positive integers is 306. Find the integers.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let the integers be x and x + 1. Then x(x + 1) = 306, i.e. x² + x − 306 = 0. Splitting the middle term, x² + 18x − 17x − 306 = 0, x(x + 18) − 17(x + 18) = 0, (x + 18)(x − 17) = 0, so x = −18 or x = 17. Neglecting the negative value, x = 17. Hence the integers are 17 and 18.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No board/year tag is printed against this question."
+  },
+  {
+   "number": "132",
+   "form": "long",
+   "marks": 5,
+   "page": 27,
+   "stem": "A two digit number is such that product of its digits is 14. If 45 is added to the number, the digits interchange their places. Find the number.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let x be the tens digit and y the ones digit, so the number is 10x + y. The digit product gives xy = 14. Adding 45 reverses the digits, so 10x + y + 45 = 10y + x, i.e. 9x − 9y + 45 = 0, which reduces to x − y + 5 = 0. Substituting y = 14/x gives x − 14/x + 5 = 0, i.e. x² + 5x − 14 = 0. Splitting the middle term, x² + 7x − 2x − 14 = 0, (x + 7)(x − 2) = 0, so x = −7 or x = 2. A digit cannot be negative, so x = 2 and y = 14/2 = 7. Hence the number is 10x + y = 27.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board 2020 Delhi Basic]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page 27 and the solution finishes at the top of page 28."
+  },
+  {
+   "number": "133",
+   "form": "long",
+   "marks": 5,
+   "page": 28,
+   "stem": "The sum of the squares of two consecutive naturals is 421. Find the numbers.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let the first natural number be x, so the next is x + 1. Then x² + (x + 1)² = 421, i.e. 2x² + 2x + 1 = 421, so x² + x − 210 = 0. Splitting the middle term, x² + 15x − 14x − 210 = 0, x(x + 15) − 14(x + 15) = 0, (x + 15)(x − 14) = 0, so x = −15 or x = 14. Rejecting the negative value, x = 14. Hence the numbers are 14 and 15.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 2012]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "134",
+   "form": "long",
+   "marks": 5,
+   "page": 28,
+   "stem": "The denominator of a fraction is one more than twice its numerator. If the sum of the fraction and its reciprocal is 2 16/21, find the fraction.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let the numerator be x, so the fraction is x/(2x + 1). Then x/(2x + 1) + (2x + 1)/x = 58/21. Clearing denominators, 21[x² + (2x + 1)²] = 58(2x² + x), i.e. 21(5x² + 4x + 1) = 116x² + 58x, which gives 105x² + 84x + 21 − 116x² − 58x = 0, i.e. 11x² − 26x − 21 = 0. Its roots are x = (26 ± 40)/22, that is x = 3 or x = −7/11. Rejecting the negative value, x = 3 and the fraction is 3/(2×3 + 1) = 3/7.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 Foreign 2016]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Two misprints in the printed working: the split line reads '11x² − 33x + 7x − 20 = 0' (the constant should be 21), and the rejected root is first printed as −7/11 and then quoted as −7/3. The accepted root x = 3 and the answer 3/7 are consistent throughout."
+  },
+  {
+   "number": "135",
+   "form": "long",
+   "marks": 5,
+   "page": 28,
+   "stem": "The numerator of a fraction is 3 less than its denominator. If 2 is added to both the numerator and the denominator, then the sum of the new fraction and original fraction is 29/20. Find the original fraction.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let the denominator be x, so the numerator is x − 3 and the fraction is (x − 3)/x. Adding 2 to both parts gives the new fraction (x − 1)/(x + 2). Then (x − 3)/x + (x − 1)/(x + 2) = 29/20. Clearing denominators, 20[(x − 3)(x + 2) + x(x − 1)] = 29(x² + 2x), i.e. 20(2x² − 2x − 6) = 29x² + 58x, so 40x² − 40x − 120 = 29x² + 58x, giving 11x² − 98x − 120 = 0. Splitting the middle term, 11x² − 110x + 12x − 120 = 0, (11x + 20)(x − 10) = 0, so x = 10 (the negative value is rejected). Hence the original fraction is (10 − 3)/10 = 7/10.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 Delhi 2015]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "136",
+   "form": "long",
+   "marks": 5,
+   "page": 29,
+   "stem": "The difference of two numbers is 5 and the difference of their reciprocals is 1/10. Find the numbers.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let the first number be x, so the second is x + 5. Then 1/x − 1/(x + 5) = 1/10, i.e. (x + 5 − x)/(x(x + 5)) = 1/10, so 50 = x² + 5x, i.e. x² + 5x − 50 = 0. Splitting the middle term, x² + 10x − 5x − 50 = 0, x(x + 10) − 5(x + 10) = 0, (x + 10)(x − 5) = 0, so x = 5 or x = −10. Rejecting the negative value, the numbers are 5 and 10.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 2014, Delhi]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "After finishing this solution the page carries a stray block of working for a different problem (two consecutive odd numbers whose squares sum to 394, answer 13 and 15). It does not belong to question 136 and is not part of this answer."
+  },
+  {
+   "number": "137",
+   "form": "long",
+   "marks": 5,
+   "page": 29,
+   "stem": "In a cricket match, Harbhajan took three wickets less than twice the number of wickets taken by Zahir. The Product of the number of wickets taken by these two is 20. Represent the above situation in the form of quadratic equation.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let Zahir take x wickets. Then Harbhajan takes 2x − 3 wickets. Their product is 20, so x(2x − 3) = 20, i.e. 2x² − 3x = 20. Hence the required quadratic equation is 2x² − 3x − 20 = 0.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 2015]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "138",
+   "form": "long",
+   "marks": 5,
+   "page": 29,
+   "stem": "A train covers a distance of 360 km at a uniform speed. Had the speed been 5 km/h more, it would have taken 48 min less for the journey. Find the original speed of the train.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let x km/h be the original speed. The time at that speed is t₁ = 360/x hours, and at the increased speed it is t₂ = 360/(x + 5) hours. The saving is 48 min = 48/60 = 4/5 hour, so 360/x − 360/(x + 5) = 4/5. Then 360 × 5/(x(x + 5)) = 4/5, i.e. 1800 × 5 = 4x(x + 5), giving x² + 5x − 2250 = 0. Splitting the middle term, x² + 50x − 45x − 2250 = 0, x(x + 50) − 45(x + 50) = 0, (x + 50)(x − 45) = 0, so x = 45 (x = −50 is rejected). Hence the original speed of the train is 45 km/h.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board 2020 SQP Standard]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed working says 'the time to cover 300 km is reduced by 48 min'; the distance is 360 km throughout the rest of the solution, so 300 is a misprint."
+  },
+  {
+   "number": "139",
+   "form": "long",
+   "marks": 5,
+   "page": 29,
+   "stem": "If the price of a book is reduced by Rs 5, a person can by 4 more books for Rs 600. Find the original price of the book.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let Rs x be the original price. At that price Rs 600 buys n₁ = 600/x books; at the reduced price it buys n₂ = 600/(x − 5) books, and n₂ = n₁ + 4. So 600/(x − 5) − 600/x = 4, i.e. 600 × 5/(x(x − 5)) = 4, giving 3000/(x² − 5x) = 4 and x² − 5x = 750, i.e. x² − 5x − 750 = 0. Splitting the middle term, x² − 30x + 25x − 750 = 0, x(x − 30) + 25(x − 30) = 0, (x − 30)(x + 25) = 0, so x = 30 or x = −25. A price cannot be negative, so the original price of the book is Rs 30.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board 2020 OD Basic]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page 29 and the solution finishes at the top of page 30. 'can by 4 more books' is printed as such (for 'buy')."
+  },
+  {
+   "number": "140",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "A person on tour has Rs 4200 for his expenses. If he extends his tour for 3 days, he has to cut down his daily expenses by Rs 70. Find the original duration of the tour.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let x be the original duration in days, so the daily expense is R₁ = 4200/x. After extending the tour by 3 days the daily expense is R₂ = 4200/(x + 3), and R₁ − R₂ = 70. Hence 4200(1/x − 1/(x + 3)) = 70, i.e. 4200 × 3/(x(x + 3)) = 70, which gives 180 = x² + 3x, i.e. x² + 3x − 180 = 0. Splitting the middle term, x² + 15x − 12x − 180 = 0, x(x + 15) − 12(x + 15) = 0, (x + 15)(x − 12) = 0, so x = 12 (x = −15 is rejected). Hence the original duration of the tour is 12 days.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board 2020 Delhi Basic]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "141",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "The sum of ages (in years) of a son and his father is 35 years and product of their ages is 150 years, find their ages.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let the father's age be x years and the son's age be y years. Then x + y = 35 and xy = 150. Substituting y = 35 − x gives x(35 − x) = 150, i.e. x² − 35x + 150 = 0, which factorises as (x − 30)(x − 5) = 0, so x = 30 or x = 5. The father cannot be 5 years old, so x = 30 and y = 5. Hence the father is 30 years old and the son is 5 years old.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 2014, 2012]",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "142",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "stem": "One fourth of a herd of camels was seen in forest. Twice of square root of the herd had gone to mountain and remaining 15 camels were seen on the bank of a river, find the total number of camels.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let x be the total number of camels. Then x/4 + 2√x + 15 = x, which rearranges to 3x − 8√x − 60 = 0. Putting y = √x gives 3y² − 8y − 60 = 0. Splitting the middle term, 3y² − 18y + 10y − 60 = 0, 3y(y − 6) + 10(y − 6) = 0, (3y + 10)(y − 6) = 0, so y = 6 or y = −10/3. A square root cannot be negative, so y = 6 and x = y² = 36. Hence the herd has 36 camels.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS | WORD PROBLEMS | [Board Term-2 2012]",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page 30; the solution is completed from page 31."
+  },
+  {
+   "number": "143",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD",
+   "stem": "In a class test, the sum of Arun's marks in Hindi and English is 30. Had he got 2 marks more in Hindi and 3 marks less in English, the product of the marks would have been 210. Find his marks in the two subjects.",
+   "answer": "Let the marks in Hindi be x and the marks in English be y.\nx + y = 30  ...(1)\n(x + 2)(y − 3) = 210. Using y = 30 − x, (x + 2)(27 − x) = 210.\n27x − x² + 54 − 2x = 210 ⇒ x² − 25x + 156 = 0.\nx² − 13x − 12x + 156 = 0 ⇒ (x − 12)(x − 13) = 0 ⇒ x = 12 or x = 13.\nIf x = 12 then y = 18; if x = 13 then y = 17.\nHence, his marks are 12 in Hindi and 18 in English (or 13 in Hindi and 17 in English).",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "144",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2012",
+   "stem": "A shopkeeper buys a number of books for Rs. 1200. If he had bought 10 more books for the same amount, each book would have cost him Rs. 20 less. How many books did he buy?",
+   "answer": "Let the number of books bought be x, so the cost of one book is 1200/x.\nWith 10 more books the cost per book is 1200/(x + 10), which is Rs 20 less.\n1200/x − 1200/(x + 10) = 20 ⇒ 1200 × 10 = 20x(x + 10)\nx² + 10x − 600 = 0 ⇒ (x + 30)(x − 20) = 0 ⇒ x = −30 or x = 20.\nThe number of books cannot be negative, so x = 20.\nHence, he bought 20 books.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "145",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 OD Standard",
+   "stem": "A fast train takes 3 hours less than a slow train for a journey of 60 km. If the speed of the slow train is 10 km/h less than that of the fast train, find the speed of each train.",
+   "answer": "Let the speed of the fast train be x km/h, so the speed of the slow train is (x − 10) km/h. The worked solution takes the journey as 600 km.\nTime by fast train = 600/x, time by slow train = 600/(x − 10), and the slow train takes 3 hours more.\n600/(x − 10) − 600/x = 3 ⇒ 6000 = 3(x² − 10x)\nx² − 10x − 2000 = 0 ⇒ x² − 50x + 40x − 2000 = 0 ⇒ (x − 50)(x + 40) = 0 ⇒ x = 50 or x = −40.\nSpeed cannot be negative, so x = 50.\nHence, the fast train runs at 50 km/h and the slow train at 40 km/h.",
+   "concept": "Framing an equation from a word problem",
+   "ocr": "Stem prints the journey as 60 km but the worked solution uses 600 km throughout (600/x, 600/(x−10)); with 60 km the answer would not be 50 and 40 km/h. Followed the solution and said so in the answer."
+  },
+  {
+   "number": "146",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi Compt 2017",
+   "stem": "A car covers a distance of 2592 km with a uniform speed. The number of hours taken for journey is one half the number representing the speed in km/hour. Find the time taken to cover the distance.",
+   "answer": "Let the speed of the car be x km/h. Then the time taken is x/2 hours.\nSpeed = distance / time ⇒ x = 2592 ÷ (x/2)\nx² = 2592 × 2 = 5184 ⇒ x = √5184 = 72 km/h.\nTime taken = x/2 = 72/2 = 36 hours.\nHence, the car takes 36 hours to cover the distance.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "147",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2017",
+   "stem": "Speed of a boat in still water is 15 km/hour. It goes 30 km up stream and returns back at the same point in 4 hours 30 minutes. Find the speed of the stream.",
+   "answer": "Let the speed of the stream be x km/h.\nUpstream speed = (15 − x) km/h, downstream speed = (15 + x) km/h, and the total time is 4½ hours.\n30/(15 − x) + 30/(15 + x) = 9/2\n[30(15 + x) + 30(15 − x)] / (225 − x²) = 9/2 ⇒ 900/(225 − x²) = 9/2\n1800 = 9(225 − x²) ⇒ 200 = 225 − x² ⇒ x² = 25 ⇒ x = ±5.\nA speed cannot be negative, so x = 5.\nHence, the speed of the stream is 5 km/h.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "148",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 Delhi",
+   "stem": "Two water taps together can fill a tank in 1⁷⁄₈ hours. The tap with longer diameter takes 2 hours less than the tap with smaller one to fill the tank separately. Find the time in which each tap can fill the tank separately.",
+   "answer": "Let the smaller tap alone take t hours; the larger tap then takes (t − 2) hours.\nTogether they take 1⁷⁄₈ = 15/8 hours, so in one hour they fill 8/15 of the tank.\n1/t + 1/(t − 2) = 8/15 ⇒ 15(2t − 2) = 8t(t − 2)\n30t − 30 = 8t² − 16t ⇒ 8t² − 46t + 30 = 0 ⇒ 4t² − 23t + 15 = 0\n4t² − 20t − 3t + 15 = 0 ⇒ (4t − 3)(t − 5) = 0 ⇒ t = 3/4 or t = 5.\nIf t = 3/4 then t − 2 is negative, which is impossible, so t = 5 and t − 2 = 3.\nHence, the smaller tap fills the tank in 5 hours and the larger tap in 3 hours.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "149",
+   "form": "long",
+   "marks": 5,
+   "page": 33,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2017",
+   "stem": "Two taps running together can fill a tank in 3¹⁄₁₃ hours. If one tap takes 3 hours more than the other to fill the tank, then how much time will each tap take to fill the tank?",
+   "answer": "Together the taps take 3¹⁄₁₃ = 40/13 hours, so in one hour they fill 13/40 of the tank.\nLet the first tap alone take x hours; the second then takes (x + 3) hours.\n1/x + 1/(x + 3) = 13/40 ⇒ 40(2x + 3) = 13x(x + 3)\n80x + 120 = 13x² + 39x ⇒ 13x² − 41x − 120 = 0\n13x² − 65x + 24x − 120 = 0 ⇒ (x − 5)(13x + 24) = 0 ⇒ x = 5 or x = −24/13.\nTime cannot be negative, so x = 5 and x + 3 = 8.\nHence, the first tap takes 5 hours and the second tap takes 8 hours.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "150",
+   "form": "long",
+   "marks": 5,
+   "page": 33,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi Compt. 2017, OD 2017",
+   "stem": "Ram takes 6 days less than Bhagat to finish a place of work. If both of them together can finish the work in 4 days, in how many days Bhagat alone can finish the work ?",
+   "answer": "Let Bhagat alone finish the work in x days; Ram then takes (x − 6) days.\nWorking together they finish it in 4 days, so in one day they do 1/4 of the work.\n1/x + 1/(x − 6) = 1/4 ⇒ 4(2x − 6) = x(x − 6)\n8x − 24 = x² − 6x ⇒ x² − 14x + 24 = 0\nx² − 12x − 2x + 24 = 0 ⇒ (x − 12)(x − 2) = 0 ⇒ x = 12 or x = 2.\nIf x = 2 then Ram would take 2 − 6 = −4 days, which is impossible, so x = 12.\nHence, Bhagat alone can finish the work in 12 days.",
+   "concept": "Framing an equation from a word problem",
+   "ocr": "The printed factorisation reads (x − 12)(x − 12) = 0 but the same line gives the roots x = 12, x = 2; the correct factorisation of x² − 14x + 24 is (x − 12)(x − 2). Typo in the book, roots and final answer are consistent."
+  },
+  {
+   "number": "151",
+   "form": "long",
+   "marks": 5,
+   "page": 33,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 Delhi, OD STD",
+   "stem": "In a flight of 600 km, an aircraft was slowed down due to bad weather. The average speed of the trip was reduced by 200 km/hr and the time of flight increased by 30 minutes. Find the duration of flight.",
+   "answer": "Let the original speed of the flight be x km/h, so the original duration is 600/x hours.\nWith the reduced speed (x − 200) km/h the duration is 600/(x − 200) hours, which is ½ hour more.\n600/(x − 200) − 600/x = 1/2 ⇒ 600 × 200 / (x² − 200x) = 1/2\nx² − 200x = 240000 ⇒ x² − 200x − 240000 = 0\nx² − 600x + 400x − 240000 = 0 ⇒ (x − 600)(x + 400) = 0 ⇒ x = 600 or x = −400.\nSpeed cannot be negative, so the original speed is 600 km/h.\nDuration = 600 km ÷ 600 km/h = 1 hour.\nHence, the original duration of the flight is 1 hour.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "152",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2018",
+   "stem": "A plane left 30 minutes late than its scheduled time and in order to reach destination 1500 km away in time, it had to increase its speed by 100 km/h from the usual speed. Find its usual speed.",
+   "answer": "Let the usual speed of the plane be x km/h.\nTime at usual speed = 1500/x hours, time at the increased speed = 1500/(x + 100) hours, and the difference is 30 minutes = ½ hour.\n1500/x − 1500/(x + 100) = 1/2 ⇒ 1500 × 100 / [x(x + 100)] = 1/2\nx² + 100x = 300000 ⇒ x² + 100x − 300000 = 0\nx² + 600x − 500x − 300000 = 0 ⇒ (x + 600)(x − 500) = 0 ⇒ x = −600 or x = 500.\nSpeed cannot be negative, so x = 500.\nHence, the usual speed of the plane is 500 km/h.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "153",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2016",
+   "stem": "The time taken by a person to cover 150 km was 2½ hours more than the time taken in the return journey. If he returned at a speed of 10 km/hour more than the speed while going, find the speed per hour in each direction.",
+   "answer": "Let the speed while going be x km/h; the return speed is (x + 10) km/h.\n150/x − 150/(x + 10) = 5/2\n[150(x + 10) − 150x] / [x(x + 10)] = 5/2 ⇒ 1500/[x(x + 10)] = 5/2\n3000 = 5x² + 50x ⇒ x² + 10x − 600 = 0 ⇒ (x + 30)(x − 20) = 0 ⇒ x = −30 or x = 20.\nRejecting the negative value, x = 20.\nHence, the speed while going is 20 km/h and the speed while returning is 30 km/h.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "154",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2015",
+   "stem": "A train travels at a certain average speed for a distance of 54 km and then travels a distance of 63 km at an average speed of 6 km/h more than the first speed. If it takes 3 hours to complete the total journey, what is its first speed ?",
+   "answer": "Let the first speed be x km/h; for the next 63 km the speed is (x + 6) km/h.\n54/x + 63/(x + 6) = 3\n54(x + 6) + 63x = 3x(x + 6) ⇒ 117x + 324 = 3x² + 18x\n3x² − 99x − 324 = 0 ⇒ x² − 33x − 108 = 0\nx² − 36x + 3x − 108 = 0 ⇒ (x − 36)(x + 3) = 0 ⇒ x = 36 or x = −3.\nThe negative value is rejected.\nHence, the first speed of the train is 36 km/h.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "155",
+   "form": "long",
+   "marks": 5,
+   "page": 35,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 SQP 2017",
+   "stem": "A train travelling at a uniform speed for 360 km have taken 48 minutes less to travel the same distance if its speed were 5 km/hour more. Find the original speed of the train.",
+   "answer": "Let the original speed of the train be x km/h.\nTime taken = 360/x hours; at the increased speed it is 360/(x + 5) hours, which is 48 minutes = 4/5 hour less.\n360/x − 360/(x + 5) = 4/5 ⇒ 1800/(x² + 5x) = 4/5\n9000 = 4x² + 20x ⇒ x² + 5x − 2250 = 0\nx² + 50x − 45x − 2250 = 0 ⇒ (x + 50)(x − 45) = 0 ⇒ x = −50 or x = 45.\nSpeed cannot be negative, so x = 45.\nHence, the original speed of the train is 45 km/h.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "156",
+   "form": "long",
+   "marks": 5,
+   "page": 35,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2018",
+   "stem": "A motor boat whose speed is 18 km/hr in still water takes 1 hr more to go 24 km upstream than to return downstream to the same spot. Find the speed of the stream.",
+   "answer": "Let the speed of the stream be x km/h.\nUpstream speed = (18 − x) km/h and downstream speed = (18 + x) km/h.\nTime upstream − time downstream = 1 hour:\n24/(18 − x) − 24/(18 + x) = 1 ⇒ 24 × 2x / (324 − x²) = 1\n48x = 324 − x² ⇒ x² + 48x − 324 = 0\nx² + 54x − 6x − 324 = 0 ⇒ (x + 54)(x − 6) = 0 ⇒ x = 6 or x = −54.\nSpeed cannot be negative, so x = 6.\nHence, the speed of the stream is 6 km/h.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "157",
+   "form": "long",
+   "marks": 5,
+   "page": 36,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD",
+   "stem": "The total cost of a certain length of a piece of cloth is ₹200. If the piece was 5 m longer and each metre of cloth costs ₹2 less, the cost of the piece would have remained unchanged. How long is the piece and what is its original rate per metre?",
+   "answer": "Let the length of the cloth be x metres and its rate be ₹y per metre.\nxy = 200, so y = 200/x  ...(1)\nIf the piece were 5 m longer and each metre cost ₹2 less, the cost is unchanged:\n(x + 5)(y − 2) = 200 ⇒ xy − 2x + 5y − 10 = 200 ⇒ −2x + 5y = 10.\nSubstituting y = 200/x: 1000/x − 2x = 10 ⇒ 1000 − 2x² = 10x\nx² + 5x − 500 = 0 ⇒ x² + 25x − 20x − 500 = 0 ⇒ (x + 25)(x − 20) = 0 ⇒ x = −25 or x = 20.\nLength cannot be negative, so x = 20 and y = 200/20 = 10.\nHence, the piece is 20 m long and its original rate is ₹10 per metre.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "158",
+   "form": "long",
+   "marks": 5,
+   "page": 36,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "stem": "A pole has to erected at a point on the boundary of a circular park of diameter 17 m in such a way that the differences of its distances from two diametrically opposite fixed gates A and B on the boundary is 7 meters. Find the distances from the two gates where the pole is to be erected.",
+   "answer": "Let the pole stand at P on the boundary with BP = x m; then AP = (x + 7) m.\nAB = 17 m is a diameter, and the angle in a semicircle is a right angle, so ∠APB = 90°.\nBy Pythagoras, x² + (x + 7)² = 17²\n2x² + 14x + 49 = 289 ⇒ 2x² + 14x − 240 = 0 ⇒ x² + 7x − 120 = 0\nx = [−7 ± √(49 + 480)]/2 = (−7 ± 23)/2 = 8 or −15.\nA distance cannot be negative, so x = 8 and x + 7 = 15.\nHence, the pole is 8 m from one gate and 15 m from the other.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "159",
+   "form": "long",
+   "marks": 5,
+   "page": 36,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2012",
+   "stem": "The product of Tanay's age (in years) five years ago and his age ten years later is 16. Determine Tanay's present age.",
+   "answer": "Let Tanay's present age be x years.\nHis age five years ago was (x − 5) years and ten years later it will be (x + 10) years.\n(x − 5)(x + 10) = 16 ⇒ x² + 5x − 50 = 16 ⇒ x² + 5x − 66 = 0\nx² + 11x − 6x − 66 = 0 ⇒ (x + 11)(x − 6) = 0 ⇒ x = −11 or x = 6.\nAge cannot be negative, so x = 6.\nHence, Tanay's present age is 6 years.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "160",
+   "form": "long",
+   "marks": 5,
+   "page": 37,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD Compt. 2017",
+   "stem": "The difference between the radii of the smaller circle and the larger circle is 7 cm and the difference between their areas of the two circles is 1078 sq. cm. Find the radius of the smaller circle.",
+   "answer": "Let the radii be r₁ (smaller) and r₂ (larger), with r₂ − r₁ = 7 cm  ...(1)\nπ(r₂² − r₁²) = 1078 ⇒ π(r₂ − r₁)(r₂ + r₁) = 1078\n(22/7) × 7 × (r₂ + r₁) = 1078 ⇒ r₂ + r₁ = 1078/22 = 49  ...(2)\nAdding (1) and (2): 2r₂ = 56 ⇒ r₂ = 28 cm, and then r₁ = 49 − 28 = 21 cm.\nHence, the radius of the smaller circle is 21 cm (the larger one is 28 cm).",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "161",
+   "form": "long",
+   "marks": 5,
+   "page": 37,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2012",
+   "stem": "The perimeter of a rectangular field is 82 m and its area is 400 square metre. Find the length and breadth of the rectangle.",
+   "answer": "Let the length be x m and the breadth be (41 − x) m, since the perimeter 2(l + b) = 82 gives l + b = 41 m.\nArea = x(41 − x) = 400 ⇒ 41x − x² = 400 ⇒ x² − 41x + 400 = 0\n(x − 16)(x − 25) = 0 ⇒ x = 16 or x = 25.\nIf x = 16 the other side is 25, and if x = 25 the other side is 16.\nHence, the rectangle is 25 m long and 16 m broad.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "162",
+   "form": "long",
+   "marks": 5,
+   "page": 37,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2012",
+   "stem": "The length of the sides forming right angle of a right triangle are 5x cm and (3x − 1) cm. If the area of the triangle is 60 cm², find its hypotenuse.",
+   "answer": "Area of a right triangle = ½ × base × height, so\n60 = ½ × 5x × (3x − 1) ⇒ 15x² − 5x = 120 ⇒ 3x² − x − 24 = 0\n3x² − 9x + 8x − 24 = 0 ⇒ 3x(x − 3) + 8(x − 3) = 0 ⇒ (x − 3)(3x + 8) = 0 ⇒ x = 3 or x = −8/3.\nA length cannot be negative, so x = 3.\nThe legs are 5x = 15 cm and 3x − 1 = 8 cm.\nHypotenuse = √(15² + 8²) = √(225 + 64) = √289 = 17 cm.\nHence, the hypotenuse is 17 cm.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "163",
+   "form": "long",
+   "marks": 5,
+   "page": 37,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2012",
+   "stem": "The length of the hypotenuse of a right triangle exceeds the length of its base by 2 cm and exceeds twice the length of altitude by 1 cm. Find the length of each side of the triangle.",
+   "answer": "Let the altitude be x cm. Then the hypotenuse is (2x + 1) cm and the base is (2x + 1) − 2 = (2x − 1) cm.\nBy Pythagoras, (2x + 1)² = x² + (2x − 1)²\n4x² + 4x + 1 = x² + 4x² − 4x + 1 ⇒ x² − 8x = 0 ⇒ x(x − 8) = 0.\nRejecting x = 0, we get x = 8.\nAltitude = 8 cm, hypotenuse = 2 × 8 + 1 = 17 cm, base = 2 × 8 − 1 = 15 cm.\nHence, the sides of the triangle are 8 cm, 15 cm and 17 cm.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "164",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2016",
+   "stem": "The perimeter of a right triangle is 60 cm. Its hypotenuse is 25 cm. Find the area of the triangle.",
+   "answer": "Let the legs be a and b, with hypotenuse c = 25 cm.\na + b + c = 60 ⇒ a + b = 60 − 25 = 35 cm.\nBy Pythagoras, a² + b² = 25² = 625.\n(a + b)² = a² + b² + 2ab ⇒ 35² = 625 + 2ab ⇒ 1225 − 625 = 2ab ⇒ ab = 300.\nArea = ½ab = ½ × 300 = 150 cm².\nHence, the area of the triangle is 150 cm².",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "165",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2015",
+   "stem": "The diagonal of a rectangular field is 16 metre more than the shorter side. If the longer side is 14 metre more than shorter side, then find the length of the of the field.",
+   "answer": "Let the shorter side be x m. Then the diagonal is (x + 16) m and the longer side is (x + 14) m.\nBy Pythagoras, x² + (x + 14)² = (x + 16)²\nx² + x² + 28x + 196 = x² + 32x + 256 ⇒ x² − 4x − 60 = 0\nx² + 6x − 10x − 60 = 0 ⇒ (x + 6)(x − 10) = 0 ⇒ x = −6 or x = 10.\nA length cannot be negative, so x = 10.\nHence, the sides of the field are 10 m and 10 + 14 = 24 m, so the length of the field is 24 m.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "166",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 SQP 2016",
+   "stem": "P and Q are centres of circles of radii 9 cm and 2 cm respectively. PQ = 17 cm. R is the centre of the circle of radius x cm which touch given circles externally. Given that angle PRQ is 90°. Write an equation in x and solve it.",
+   "answer": "The circle of radius x touches the other two externally, so\nPR = (x + 9) cm and RQ = (x + 2) cm, while PQ = 17 cm.\nSince ∠PRQ = 90°, in right triangle PQR: PQ² = PR² + RQ²\n17² = (x + 9)² + (x + 2)² ⇒ 289 = x² + 18x + 81 + x² + 4x + 4\n289 = 2x² + 22x + 85 ⇒ 2x² + 22x − 204 = 0 ⇒ x² + 11x − 102 = 0\nx² + 17x − 6x − 102 = 0 ⇒ (x − 6)(x + 17) = 0 ⇒ x = 6 or x = −17.\nA radius cannot be negative, so x = 6.\nHence, the equation is x² + 11x − 102 = 0 and the radius is x = 6 cm.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "167",
+   "form": "long",
+   "marks": 5,
+   "page": 39,
+   "stem": "In a rectangular part of dimension 50 m × 40 m a rectangular pond is constructed so that the area of grass strip of uniform breadth surrounding the pond would be 1184 m². Find the length and breadth of the pond.",
+   "answer": "Let the uniform breadth of the grass strip be x metre. Then the pond measures (50 − 2x) m by (40 − 2x) m. Area of park − area of pond = area of grass strip, so (50 × 40) − (50 − 2x)(40 − 2x) = 1184. Expanding, 2000 − (2000 − 180x + 4x²) = 1184, i.e. 180x − 4x² = 1184, which reduces to x² − 45x + 296 = 0. Splitting the middle term, x² − 37x − 8x + 296 = 0, so x(x − 37) − 8(x − 37) = 0 and (x − 37)(x − 8) = 0, giving x = 37 or x = 8. x = 37 is impossible, so x = 8. Length of pond = 50 − 2 × 8 = 34 m and breadth = 40 − 2 × 8 = 24 m.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed “rectangular part” is a misprint for “rectangular park” (the solution calls it the park); kept verbatim. The small “Pond / Grass Strips” schematic carries no data not already in the stem, so it is not attached."
+  },
+  {
+   "number": "168",
+   "form": "case_study",
+   "marks": 4,
+   "page": 39,
+   "stem": "A rectangular floor area can be completely tiled with 200 square tiles. If the side length of each tile is increased by 1 unit, it would take only 128 tiles to cover the floor.\n(i) Assuming the original length of each side of a tile be x units, make a quadratic equation from the above information.\n(ii) Write the corresponding quadratic equation in standard form.\n(iii) Find the value of x, the length of side of a tile by factorisation.\n(iv) Solve the quadratic equation for x, using quadratic formula.",
+   "answer": "(i) Area of the floor = number of tiles × area of one tile. With the original tile of side x the floor is 200x², and with tiles of side (x + 1) it is 128(x + 1)². Hence 200x² = 128(x + 1)².\n(ii) Expanding, 200x² = 128(x² + 2x + 1), so 72x² − 256x − 128 = 0; dividing by 8 gives the standard form 9x² − 32x − 16 = 0.\n(iii) By factorisation, 9x² − 36x + 4x − 16 = 0, so 9x(x − 4) + 4(x − 4) = 0 and (x − 4)(9x + 4) = 0, giving x = 4 or x = −4/9. A side length cannot be negative, so x = 4 units.\n(iv) By the quadratic formula, x = [32 ± √(1024 − 4(9)(−16))]/18 = [32 ± √1600]/18 = (32 ± 40)/18, so x = 4 or x = −4/9. The side of a tile is 4 units.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "COMPETENCEY BASED QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The photograph of a tiled floor is decorative; the stem is self-contained, so no figure is attached."
+  },
+  {
+   "number": "169",
+   "form": "case_study",
+   "marks": 4,
+   "page": 40,
+   "stem": "Maximum Profit : An automobile manufacturer can produce up to 300 cars per day. The profit made from the sale of these vehicles can be modelled by the function P(x) = −x² + 350x − 6600 where P(x) is the profit in thousand Rupees and x is the number of automobiles made and sold. Answer the following questions based on this model:\n(i) When no cars are produce what is a profit/loss?\n(ii) What is the break even point ? (Zero profit point is called break even) ?\n(iii) What is the profit/loss if 175 cars are produced ?\n(iv) What is the profit if 400 cars are produced ?",
+   "answer": "(i) With x = 0, P(0) = −6600, so when no car is produced there is a loss of Rs 6600 thousand.\n(ii) Break-even means P(x) = 0, so −x² + 350x − 6600 = 0, i.e. x² − 350x + 6600 = 0. Splitting the middle term, x² − 330x − 20x + 6600 = 0, so x(x − 330) − 20(x − 330) = 0 and (x − 330)(x − 20) = 0. Break even occurs when 20 or 330 cars are produced.\n(iii) P(175) = −(175)² + 350(175) − 6600 = −30625 + 61250 − 6600 = 24025, a profit of Rs 24025 thousand.\n(iv) P(400) = −(400)² + 350(400) − 6600 = −160000 + 140000 − 6600 = −26600, i.e. a loss of Rs 26600 thousand.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "In part (ii) the book prints “x² + 350x + 6600 = 0” and “x(x − 330) − 20(x + 330) = 0”; both are sign misprints — only x² − 350x + 6600 = 0 yields the printed roots 20 and 330, so the corrected working is given. The factory illustration is decorative and is not attached. Note also that 400 cars exceeds the stated 300-car capacity, but the book still evaluates the model there."
+  },
+  {
+   "number": "170",
+   "form": "case_study",
+   "marks": 4,
+   "page": 40,
+   "stem": "Model Rocketry : A model rocket is a small rocket designed to reach low altitudes and be recovered by a variety of means. Flying model rockets is a relatively safe and inexpensive way for person to learn the basics of forces and the response of a vehicle to external forces. Like an airplane, a model rocket is subjected to the forces of weight, thrust, and aerodynamics during its flight.\nShalvi is a member of first rocket club of India named STAR Club. She launches her latest rocket from a large field. At the moment its fuel is exhausted, the rocket has a velocity of 240 ft/sec and an altitude of 544 ft. After t sec, its height h(t) above the ground is given by the function h(t) = −16t² + 240t + 544.\n(i) How high is the rocket 5 sec after the fuel is exhausted?\n(ii) How high is the rocket 10 sec after the fuel is exhausted?\n(iii) How could the rocket be at the same height at t = 5 and at t = 10?\n(iv) What is the maximum height attained by the rocket?\n(v) How many seconds was the rocket airborne after its fuel was exhausted?",
+   "answer": "(i) h(5) = −16(5)² + 240(5) + 544 = −400 + 1200 + 544 = 1344 feet.\n(ii) h(10) = −16(10)² + 240(10) + 544 = −1600 + 2400 + 544 = 1344 feet.\n(iii) Completing the square, h(t) = −16(t² − 15t) + 544 = −16(t − 7.5)² + 16(7.5)² + 544 = −16(t − 7.5)² + 1444. The graph is a parabola symmetric about t = 7.5 s, and t = 5 and t = 10 lie the same distance (2.5 s) on either side of 7.5; the rocket is still rising at t = 5 and already falling at t = 10, so the two heights are equal.\n(iv) From h(t) = −16(t − 7.5)² + 1444, the greatest height is 1444 feet, reached at t = 7.5 s.\n(v) The rocket lands when h = 0: −16t² + 240t + 544 = 0, i.e. t² − 15t − 34 = 0, so (t − 17)(t + 2) = 0 and t = 17 (rejecting t = −2). The rocket is airborne for 17 seconds after its fuel is exhausted.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book’s reply to (iii) (“the particle is at initial position at t = 0, after 11 second it is again at ground”) belongs to a different projectile question; the symmetry argument given here follows from the book’s own completed square h(t) = −16(t − 7.5)² + 1444. The photograph of model rockets is decorative and is not attached."
+  },
+  {
+   "number": "171",
+   "form": "case_study",
+   "marks": 4,
+   "page": 41,
+   "stem": "Maximum Profit : A kitchen utensils manufacturer can produce up to 200 utensils per day. The profit made from the sale of these utensils can be modelled by the function P(x) = −0.5x + 175x − 330, where P(x) is the profit in Rupees, and x is the number of utensils made and sold. Based on this model,\n(i) Find the y-intercept and explain what it means in this context.\n(ii) Find the x-intercepts and explain what they mean in this context.\n(iii) How many utensils should be sold to maximize profit?\n(iv) What is the maximum profit?",
+   "answer": "The model is P(x) = −0.5x² + 175x − 3300.\n(i) P(0) = −3300, so the y-intercept is (0, −3300): if no utensils are sold there is a loss of Rs 3300.\n(ii) P(x) = 0 gives −0.5(x² − 350x + 6600) = 0, so (x − 20)(x − 330) = 0 and x = 20 or x = 330. The x-intercepts (20, 0) and (330, 0) are the break-even levels: fewer than 20 or more than 330 utensils sold yields no profit.\n(iii) Completing the square, P(x) = −0.5(x − 175)² + 12012.5, so the profit is greatest when x = 175 utensils are made and sold.\n(iv) The maximum profit is Rs 12012.5.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "CONTRADICTION: the printed stem gives P(x) = −0.5x + 175x − 330, which is not quadratic; the worked solution uses P(x) = −0.5x² + 175x − 3300 from its first line onward. The solution wins and the stem is left verbatim. The photograph of utensils is decorative and is not attached."
+  },
+  {
+   "number": "172",
+   "form": "case_study",
+   "marks": 4,
+   "page": 41,
+   "stem": "Height of a Projectile : A projectile is thrown upward with an initial velocity of 176 ft/sec. After t sec, its height h(t) above the ground is given by the function h(t) = −16t² + 176t.\n(i) What is the projectile's height above the ground after 2 sec.\n(ii) How many seconds after it is thrown will the projectile strike the ground?\n(iii) What is the meaning of two value of t in (ii)?",
+   "answer": "(i) h(2) = −16 × 2² + 176 × 2 = −64 + 352 = 288 feet.\n(ii) At the ground h(t) = 0, so −16t² + 176t = 0, i.e. −16t(t − 11) = 0, giving t = 0 or t = 11. The projectile strikes the ground 11 seconds after it is thrown.\n(iii) The two roots are the two instants when the projectile is at ground level: t = 0 is the moment it is thrown from the ground, and t = 11 is the moment it lands. Only t = 11 answers the question asked.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The cartoon of a ball’s flight is decorative and is not attached. The book leaves part (iii) unanswered; the meaning of the two roots is supplied here."
+  },
+  {
+   "number": "173",
+   "form": "case_study",
+   "marks": 4,
+   "page": 42,
+   "stem": "Fencing a Backyard : Tina and Shriya have just purchased a purebred German Shepherd, and need to fence in their backyard so the dog can run.\n(i) What is the maximum rectangular area they can enclose with 200 ft of fencing, if they use fencing material along all four sides? What are the dimensions of the rectangle?\n(ii) What is the maximum area if they use the house as one of the sides? What are the dimensions of this rectangle?",
+   "answer": "(i) With all four sides fenced, 2(length + width) = 200, so if the width is x the length is 100 − x. The area is A(x) = x(100 − x) = 100x − x² = −(x − 50)² + 2500. The maximum area is 2500 ft², attained at x = 50, and the length is 100 − 50 = 50. The rectangle is a 50 ft × 50 ft square.\n(ii) With the house as one side, only two widths and one length are fenced, so the length is 200 − 2x. The area is A(x) = x(200 − 2x) = −2(x − 50)² + 5000. The maximum area is 5000 ft², attained at x = 50, with length 200 − 100 = 100. The rectangle is 50 ft × 100 ft.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The last line of the book’s part (ii) prints “= −2(x − 50) + 5000”, dropping the square; the line above it shows the correct −2(x² − 100x + 50²) + 5000. The house illustration is decorative and is not attached."
+  },
+  {
+   "number": "174",
+   "form": "case_study",
+   "marks": 4,
+   "page": 42,
+   "stem": "Building Sheep Pens : Darsh and Darpan are fencing off a large rectangular area to build some temporary holding pens. To prep the males, females, and kids, they are separated into three smaller and equal-size pens partitioned within the large rectangle.\n(i) If 384 ft of fencing is available and the maximum area is desired, what will be the dimensions of the larger, outer rectangle?\n(ii) What will be the dimensions of the smaller holding pens?",
+   "answer": "Let x be the width of the outer rectangle. Three equal pens side by side need four fences across the width (the two outer sides and two partitions), so the fencing gives 4x + 2L = 384 and L = (384 − 4x)/2 = 192 − 2x. The area is A(x) = x(192 − 2x) = −2(x² − 96x) = −2(x − 48)² + 4608, which is greatest when x = 48, giving a maximum area of 4608 ft². Then L = 192 − 2 × 48 = 96.\n(i) The larger outer rectangle is 48 ft by 96 ft.\n(ii) Each of the three holding pens is 48 ft by 96/3 = 32 ft.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book writes “smaller holding pan” for “pen” in its answer. The sheep-pen illustration is decorative; the partition arrangement is already fixed by the algebra L = (384 − 4x)/2, so no figure is attached."
+  },
+  {
+   "number": "175",
+   "form": "long",
+   "marks": 5,
+   "page": 43,
+   "stem": "Changing Area : Advik's flower bed is rectangular in shape with a length of 14 meter and a width of 4 meter. He wants to increase the length and width by the same amount to obtain a flower bed with an area of 200 square meter. What should the amount of increase be?",
+   "answer": "Let x metre be the amount of increase. The new flower bed measures (x + 14) m by (x + 4) m, and its area is to be 200 m², so (x + 14)(x + 4) = 200, i.e. x² + 18x + 56 = 200 and x² + 18x − 144 = 0. By the quadratic formula, x = [−18 ± √(18² − 4(1)(−144))]/2 = [−18 ± √(324 + 576)]/2 = (−18 ± 30)/2, so x = 6 or x = −24. An increase must be positive, so the amount of increase is 6 metre (the new bed is 20 m × 10 m).",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The labelled sketch beside this question repeats the 14 m, 4 m and x already stated in the stem, so no figure is attached."
+  },
+  {
+   "number": "176",
+   "form": "long",
+   "marks": 5,
+   "page": 43,
+   "stem": "Cycling : It is a healthy, low-impact exercise that can be enjoyed by people of all ages, from young children to older adults. It is also fun, cheap and good for the environment. Cycling increases stamina, strength and aerobic fitness. Unlike some other sports, cycling does not require high levels of physical skill. Most people know how to ride a bike and, once you learn, you don't forget.\nSanya was traveling across the desert on her bicycle. Before lunch she travelled 60 km; after lunch she travelled 48 km. She put in 1 hour more after lunch than before lunch, but her speed was 4 kmph slower than before. What was her speed before lunch and after lunch?",
+   "answer": "Let x kmph be her speed before lunch, so her speed after lunch is (x − 4) kmph. Since time = distance ÷ speed, her time before lunch is 60/x hours and after lunch 48/(x − 4) hours. She rode one hour more after lunch, so 48/(x − 4) − 1 = 60/x. Then (48 − x + 4)/(x − 4) = 60/x, i.e. (52 − x)/(x − 4) = 60/x, giving 52x − x² = 60x − 240 and x² + 8x − 240 = 0. By the quadratic formula, x = [−8 ± √(64 + 960)]/2 = (−8 ± 32)/2, so x = 12 or x = −20. Speed cannot be negative, so her speed before lunch was 12 kmph and after lunch 12 − 4 = 8 kmph.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book’s solution refers to Sanya as “he”. The cycling photograph is decorative and is not attached."
+  },
+  {
+   "number": "177",
+   "form": "long",
+   "marks": 5,
+   "page": 44,
+   "stem": "Extreme Hardship : Chaitanya starts to walk 4 km to school at 7:30 AM. with a temperature of 0°F. Her brother Ekansh starts at 8:15 AM. on his bicycle, traveling 12 kmph faster than Chaitanya. If they get to school at the same time, then how fast is each one traveling?",
+   "answer": "Let x kmph be Chaitanya's speed, so Ekansh's speed is (x + 12) kmph. Their times for the 4 km are 4/x hours and 4/(x + 12) hours. Chaitanya leaves 45 minutes = 3/4 hour earlier and they arrive together, so her time is 3/4 hour longer: 4/x = 4/(x + 12) + 3/4. Combining the right side, 4/x = (16 + 3x + 36)/[4(x + 12)] = (52 + 3x)/[4(x + 12)], so 16x + 192 = 52x + 3x², i.e. 3x² + 36x − 192 = 0 and x² + 12x − 64 = 0. Splitting the middle term, x² + 16x − 4x − 64 = 0, so (x + 16)(x − 4) = 0 and x = 4 or x = −16. Rejecting the negative value, Chaitanya walks at 4 kmph and Ekansh cycles at 16 kmph.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints the line “−3x² − 36x + 192 = 0”, whose signs are flipped relative to 16x + 192 = 52x + 3x²; dividing the correct 3x² + 36x − 192 = 0 by 3 gives the book’s next line x² + 12x − 64 = 0. The school illustration is decorative and is not attached."
+  },
+  {
+   "number": "178",
+   "form": "long",
+   "marks": 5,
+   "page": 44,
+   "stem": "Open-top Box : Jihan is going to make an open-top box by cutting equal squares from the four corners of an 20 cm by 30 cm sheet of cardboard and folding up the sides. If the area of the base of box is to be 336 square cm, then what size square should be cut from each corner?",
+   "answer": "Let x cm be the side of each square cut from the corners. After folding, the base measures (30 − 2x) cm by (20 − 2x) cm, and this base area is 336 cm², so (30 − 2x)(20 − 2x) = 336. Expanding, 600 − 60x − 40x + 4x² = 336, i.e. 4x² − 100x + 264 = 0 and x² − 25x + 66 = 0. Splitting the middle term, x² − 22x − 3x + 66 = 0, so (x − 3)(x − 22) = 0 and x = 3 or x = 22. x = 22 is impossible, since it is more than half of the 20 cm side. Hence a square of side 3 cm must be cut from each corner.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The flat-sheet and folded-box pictures are generic illustrations; every dimension is stated in the stem, so no figure is attached."
+  },
+  {
+   "number": "179",
+   "form": "long",
+   "marks": 5,
+   "page": 44,
+   "stem": "Swimming Pool Design : Nihal has designed a motel pool within a rectangular area that is fenced on three sides as shown in the figure. If he uses 60 metres of fencing to enclose an area of 352 square metres, then what are the dimensions marked L and W in the figure? Assume L is greater than W.",
+   "answer": "Only three sides are fenced — the two lengths and one width — so 2L + W = 60 and W = 60 − 2L. The enclosed area is 352 m², so LW = 352, giving L(60 − 2L) = 352, i.e. −2L² + 60L − 352 = 0 and L² − 30L + 176 = 0. Factorising, (L − 22)(L − 8) = 0, so L = 22 with W = 60 − 44 = 16, or L = 8 with W = 60 − 16 = 44. Since L must be greater than W, L = 22 metre and W = 16 metre.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch04_q179.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem says the dimensions are “marked L and W in the figure”, so the figure is attached; in the printed drawing the fence runs along three sides with the motel building closing the fourth, but the letters L and W are not actually lettered on it."
+  },
+  {
+   "number": "180",
+   "form": "long",
+   "marks": 5,
+   "page": 45,
+   "stem": "Reyansh used 70 meters of fencing to enclose a rectangular region. To be sure that the region was a rectangle, he measured the diagonals and found that they were 25 meters each. (If the opposite sides of a quadrilateral are equal and the diagonals are equal, then the quadrilateral is a rectangle.) What are the length and width of the rectangle?",
+   "answer": "The perimeter is P = 2L + 2W = 70, so one length plus one width is L + W = 35. Let x be the width; then the length is 35 − x. A diagonal of a rectangle, with the length and width, forms a right triangle, so by Pythagoras x² + (35 − x)² = 25². Expanding, x² + 1225 − 70x + x² = 625, i.e. 2x² − 70x + 600 = 0 and x² − 35x + 300 = 0. Factorising, (x − 20)(x − 15) = 0, so x = 20 or x = 15, with the other side 15 or 20 respectively. Both roots describe the same rectangle, so the rectangle is 15 metres by 20 metres.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The fenced-house illustration is decorative and is not attached."
+  },
+  {
+   "number": "181",
+   "form": "case_study",
+   "marks": 4,
+   "page": 45,
+   "stem": "Supreme Court : The “Conference handshake” has been a tradition since the late 19th century. When the Justices of the Supreme Court assemble to go on the Bench each day, each Justice shakes hands with each of the other Justices for a total of 36 handshakes. The total number of handshakes h possible for n people is given by h = ½(n² − n).\n(i) Write an equation which represent above situation\n(ii) Solve above equation to determine the number of Justices on the Supreme Court.",
+   "answer": "(i) Here the total number of handshakes is h = 36, so 36 = ½(n² − n). Multiplying by 2, 72 = n² − n, that is n² − n − 72 = 0, which represents the given situation.\n(ii) Splitting the middle term, n² − 9n + 8n − 72 = 0, so n(n − 9) + 8(n − 9) = 0 and (n − 9)(n + 8) = 0, giving n = 9 or n = −8. The number of people cannot be negative, so there are 9 Justices on the Supreme Court.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "CONTRADICTION: the solution opens “Since, h = 32 we have” but the very next line substitutes 36, as the question states; h = 36 is used, following the working. The illustration of the Justices is decorative and is not attached."
+  },
+  {
+   "number": "182",
+   "form": "case_study",
+   "marks": 4,
+   "page": 45,
+   "stem": "A tour bus in Jaipur serves 400 customers a day. The charge is Rs 50 per person. The owner of the bus service estimates that the company would lose 10 passengers a day for each Rs 5 fare increase.\n(i) How much should the fare be in order to maximize the income for the company?\n(ii) What is the maximum income the company can expect to make?",
+   "answer": "Let n be the number of Rs 5 increases in the fare. Then the fare is Rs (50 + 5n) and the number of passengers is (400 − 10n), so the daily income is I(n) = (50 + 5n)(400 − 10n) = 20000 + 1500n − 50n². Completing the square, I(n) = −50(n² − 30n) + 20000 = −50(n − 15)² + 11250 + 20000 = −50(n − 15)² + 31250, which is greatest when n = 15.\n(i) The fare should be 50 + 5 × 15 = Rs 125 per person (the bus then carries 400 − 150 = 250 passengers).\n(ii) The maximum income is Rs 31250 per day.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book’s worked solution for this question falls on printed page 181, which is absent from the source PDF (page images jump from printed page 180 to 182), so the solution above was worked out independently. The photograph inside the bus is decorative and is not attached."
+  },
+  {
+   "number": "183",
+   "form": "long",
+   "marks": 5,
+   "page": 51,
+   "stem": "Drama Ticket : Last year, 300 people attended the Ravindra Manch Drama Club's winter play. The ticket price was Rs 70. The advisor estimates that 20 fewer people would attend for each Rs 10 increase in ticket price.\n(i) What ticket price would give the most income for the Drama Club?\n(ii) If the Drama Club raised its tickets to this price, how much income should it expect to bring in?",
+   "answer": "Let x be the number of Rs 10 fare increases. The price per ticket is then (70 + 10x) and the number of people attending is (300 − 20x). Income is I(x) = (300 − 20x)(70 + 10x) = 20(15 − x)·10(7 + x) = 200(105 + 8x − x²) = −200(x² − 8x − 105). Completing the square, x² − 8x − 105 = (x − 4)² − 121, so I(x) = −200(x − 4)² + 24200. Since −200(x − 4)² ≤ 0, the income is greatest at x = 4 and the greatest income is Rs 24200. Hence the club should make 4 increases of Rs 10, i.e. charge 70 + 4 × 10 = Rs 110 per ticket, and can expect an income of Rs 24200.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem printed on the page file p051 (book PAGE 181, which the renderer placed out of order after p050); the worked solution is in the right column of the same page. The theatre illustration is decorative, so no figure is attached."
+  },
+  {
+   "number": "184",
+   "form": "long",
+   "marks": 5,
+   "page": 51,
+   "stem": "A biologist predicts that the deer population, P(n), in a certain national park can be modelled by P(n) = 8n² − 112n + 570, where n is the number of years since 1999.\n(i) According to this model, how many deer were in the park in 1999?\n(ii) In which year was the deer population a minimum?\n(iii) How many deer were in the park when their population was a minimum?\n(iv) Will the deer population ever reach zero, according to this model?",
+   "answer": "(i) The year 1999 corresponds to n = 0, so P(0) = 0 − 0 + 570 = 570 deer.\n(ii) Complete the square: P(n) = 8(n² − 14n) + 570 = 8(n² − 14n + 49) − 8 × 49 + 570 = 8(n − 7)² + 178. The square term is least when n = 7, so the population was a minimum 7 years after 1999, that is in 1999 + 7 = 2006.\n(iii) The minimum value of P(n) is 178, so 178 deer.\n(iv) Since 8(n − 7)² ≥ 0, P(n) ≥ 178 > 0 for every n, so the population never reaches zero under this model.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem on page file p051 (book PAGE 181); the solution runs over onto page file p046 (book PAGE 182). The deer photograph is decorative."
+  },
+  {
+   "number": "185",
+   "form": "long",
+   "marks": 5,
+   "page": 46,
+   "stem": "A piece of wire is 120 cm long. The wire is cut into two pieces and then each piece is bent into a square. Find the length of each piece if the sum of the areas of these squares is to be 500 square cm.",
+   "answer": "Let one piece be x cm long, so the other is (120 − x) cm. Bent into squares their sides are x/4 and (120 − x)/4, so the sum of the areas is (x/4)² + ((120 − x)/4)² = 500, i.e. x² + (120 − x)² = 8000. Expanding, x² + 14400 + x² − 240x = 8000, so 2x² − 240x + 6400 = 0, i.e. x² − 120x + 3200 = 0. Splitting the middle term, x² − 80x − 40x + 3200 = 0, x(x − 80) − 40(x − 80) = 0, (x − 40)(x − 80) = 0, so x = 40 or x = 80. If x = 40 cm the other piece is 80 cm, and if x = 80 cm the other piece is 40 cm — the same pair either way. Hence the two pieces are 40 cm and 80 cm.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed sketch of the two squares and the 120 cm wire only illustrates wording already in the stem, so it is not attached."
+  },
+  {
+   "number": "186",
+   "form": "long",
+   "marks": 5,
+   "page": 46,
+   "stem": "TRANSPORTATION : Amazon delivery truck leaves main Delhi Amazon warehouse and travels south to warehouse A. From warehouse A the truck travels west to warehouse B and then returns directly to the main Delhi warehouse (It makes right triangle.).\nThe driver recorded the truck's odometer reading at the warehouse at both the beginning and the end of the trip and also at warehouse B, but forgot to record it at warehouse A (odometer reading given).\nThe driver does recall that it was farther from the main Delhi warehouse to warehouse A than it was from warehouse A to warehouse B. Because delivery charges are based on distance from the warehouse, the driver needs to know how far warehouse A is from the main Delhi warehouse. Find this distance.",
+   "answer": "Let x km be the distance from the main warehouse to warehouse A. From the odometer, the distance from the main warehouse to warehouse B via warehouse A is 652937 − 652846 = 91 km, so the distance from A to B is (91 − x) km. The return leg B to the main warehouse is 653002 − 652937 = 65 km, and it is the hypotenuse of the right triangle. By Pythagoras, x² + (91 − x)² = 65², so x² + 8281 + x² − 182x = 4225, giving 2x² − 182x + 4056 = 0, i.e. x² − 91x + 2028 = 0. Splitting the middle term, x² − 52x − 39x + 2028 = 0, x(x − 52) − 39(x − 52) = 0, (x − 52)(x − 39) = 0, so x = 52 or x = 39. Since the main warehouse to A is farther than A to B, we need x > 91 − x, so x = 52. The distance from the main Delhi warehouse to warehouse A is 52 km.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch04_q186.png"
+   ],
+   "figure_required": true,
+   "ocr": "The odometer panel is attached because the four readings (MAIN 0652846, A unreadable, B 0652937, MAIN 0653002) are printed only in that picture and the question cannot be done without them. The right triangle labelled Main/A/B further down the page belongs to the worked solution, so it is deliberately not attached."
+  },
+  {
+   "number": "187",
+   "form": "long",
+   "marks": 5,
+   "page": 47,
+   "stem": "Braking Distance : The distance that a car travels between the time the driver makes the decision to hit the brakes and the time the car actually stops is called the braking distance. For a certain car traveling v, the braking distance d is given by d = v + (1/20)v².\n(i) Find the braking distance when v is 50 km/h.\n(ii) If a driver decides to brake 120 metre from a stop sign, how fast can the car be going and still stop by the time it reaches the sign?",
+   "answer": "(i) Substituting v = 50 in d = v + (1/20)v² gives d = 50 + (1/20) × 50² = 50 + 125 = 175 m.\n(ii) Now put d = 120 and solve for v: 120 = v + (1/20)v², so 2400 = 20v + v², i.e. v² + 20v − 2400 = 0. Splitting the middle term, v² + 60v − 40v − 2400 = 0, v(v + 60) − 40(v + 60) = 0, (v + 60)(v − 40) = 0, so v = 40 or v = −60. A speed cannot be negative, so v = 40 km/h. The car can be travelling at 40 km/h and still stop in 120 m.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed factorisation line reads 'v(v + 60) − 40(v − 60) = 0'; the second bracket is a misprint for (v + 60), and the book's own next line (v + 60)(v − 40) = 0 and its roots 40, −60 are correct, so the solution is reproduced with the sign corrected. Not counted as a key contradiction because the printed answer and the solution agree. The photograph of the braking car is decorative."
+  },
+  {
+   "number": "188",
+   "form": "long",
+   "marks": 5,
+   "page": 47,
+   "stem": "Quantity Discount : Peter Paris Co. sells running trousers to dealers for Rs 400 per trouser if less than 50 trousers are ordered. If 50 or more trousers are ordered (up to 400), the price per trouser is reduced at a rate of Rs 0.4 times the number ordered. How many trousers can a dealer purchase for Rs 84000?",
+   "answer": "Let the dealer buy x trousers, with 50 ≤ x ≤ 400. The price of one trouser is then (400 − 0.4x), so the bill is x(400 − 0.4x) = 84000. Expanding, 400x − 0.4x² = 84000, i.e. 0.4x² − 400x + 84000 = 0, and dividing by 0.4, x² − 1000x + 210000 = 0. Splitting the middle term, x² − 300x − 700x + 210000 = 0, x(x − 300) − 700(x − 300) = 0, (x − 300)(x − 700) = 0, so x = 300 or x = 700. The discount holds only up to 400 trousers, so x = 700 is rejected. The dealer can purchase 300 trousers.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem on page file p047, solution finishing on p048. The workshop photograph is decorative."
+  },
+  {
+   "number": "189",
+   "form": "long",
+   "marks": 5,
+   "page": 48,
+   "stem": "Riya has a lawn with a flowerbed and grass land. The grass land is in the shape of rectangle while flowerbed is in the shape of square. The length of the grassland is found to be 3 m more than twice the length of the flowerbed. Total area of the whole lawn is 1260 m².\n(i) If the length of the flowerbed is x m then what is the total length of the lawn ?\n(ii) What will be the perimeter of the whole field?\n(iii) What is the value of x if the area of total lawn is 1260 m² ?\n(iv) What is the area of grassland ?\n(v) What is the ratio of area of flowerbed to area of grassland ?",
+   "answer": "(i) The flowerbed is a square of side x, and the grassland is 3 m more than twice that, i.e. 2x + 3 m long. Laid side by side, the total length of the lawn is (2x + 3) + x = (3x + 3) m, while the common breadth is x m.\n(ii) Perimeter = 2[(3x + 3) + x] = 2(4x + 3) = (8x + 6) m.\n(iii) Area = (3x + 3)x = 1260, so 3x² + 3x = 1260, x² + x = 420, x² + x − 420 = 0, (x + 21)(x − 20) = 0. A length cannot be negative, so x = 20 m.\n(iv) Area of grassland = (2x + 3)x = (2 × 20 + 3)(20) = 43 × 20 = 860 m².\n(v) Area of flowerbed = x² = 20² = 400 m², so the required ratio is 400 : 860 = 20 : 43.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The picture of grass beside a flowerbed only repeats the wording of the stem, so no figure is attached. Solution part (v) runs over onto page file p048's right column top."
+  },
+  {
+   "number": "190",
+   "form": "long",
+   "marks": 5,
+   "page": 48,
+   "stem": "John and Priya went for a small picnic. After having their lunch Priya insisted to travel in a motor boat. The speed of the motor boat was 20 km/hr. Priya being a Mathematics student wanted to know the speed of the current. So she noted the time for upstream and downstream.\nShe found that for covering the distance of 15 km the boat took 1 hour more for upstream than downstream.\n(i) Let speed of the current be x km/hr. then speed of the motorboat in upstream will be\n(ii) What is the relation between speed distance and time?\n(iii) Write the correct quadratic equation for the speed of the current ?\n(iv) What is the speed of current ?\n(v) How much time boat took in downstream ?",
+   "answer": "(i) Going upstream the current opposes the boat, so the upstream speed is (20 − x) km/hr (and downstream it is (20 + x) km/hr).\n(ii) Distance = speed × time, so time = distance ÷ speed.\n(iii) The upstream time exceeds the downstream time by 1 hour: 15/(20 − x) = 15/(20 + x) + 1. Multiplying by (20 − x)(20 + x): 15(20 + x) = 15(20 − x) + (400 − x²), so 300 + 15x = 300 − 15x + 400 − x², giving 30x = 400 − x², i.e. x² + 30x − 400 = 0.\n(iv) x² + 40x − 10x − 400 = 0, x(x + 40) − 10(x + 40) = 0, (x + 40)(x − 10) = 0, so x = 10 or x = −40. A speed cannot be negative, so the current flows at 10 km/hr.\n(v) Downstream speed = 20 + 10 = 30 km/hr, so the 15 km downstream takes 15/30 = 1/2 hour, i.e. 30 minutes.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book's part (ii) is printed as 'distance = (speed )/time', a misprint for distance = speed × time; the rest of its own working uses time = distance/speed, so the correct relation is given here. Not counted as a key contradiction. Stem and parts (i)-(iii) on page file p048, solution finishing on p049. The cartoon of the motor boat is decorative."
+  },
+  {
+   "number": "191",
+   "form": "long",
+   "marks": 5,
+   "page": 49,
+   "stem": "Nidhi and Ria are very close friends. Nidhi's parents own a Maruti Alto. Ria's parents own a Toyota Liva. Both the families decide to go for a picnic to Somnath temple in Gujrat by their own cars.\nNidhi's car travels x km/h while Ria's car travels 5 km/h more than Nidhi's car. Nidhi's car took 4 hrs more than Ria's car in covering 400 km.\n(i) What will be the distance covered by Ria's car in two hour?\n(ii) Write the quadratic equation that describe the speed of Nidhi's car?\n(iii) What is the the speed of Nidhi's car?\n(iv) How much time did Ria take to travel 400 km?\n(iv) How much time did Nidhi take to travel 400 km?",
+   "answer": "(i) Ria's car travels at (x + 5) km/h, so in two hours it covers 2(x + 5) km; once x is found to be 20, that is 2 × 25 = 50 km.\n(ii) Nidhi's time for 400 km is 400/x hours and Ria's is 400/(x + 5) hours, and Nidhi takes 4 hours longer: 400/x = 400/(x + 5) + 4. Multiplying by x(x + 5), 400(x + 5) = 400x + 4x(x + 5), so 2000 = 4x² + 20x, i.e. 500 = x² + 5x, giving x² + 5x − 500 = 0.\n(iii) x² + 25x − 20x − 500 = 0, x(x + 25) − 20(x + 25) = 0, (x + 25)(x − 20) = 0, so x = 20 or x = −25. A speed cannot be negative, so Nidhi's car travels at 20 km/h.\n(iv) Ria's speed is 20 + 5 = 25 km/h, so she takes 400/25 = 16 hours.\n(v) Nidhi takes 4 hours more, i.e. 16 + 4 = 20 hours.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints the label '(iv)' twice — on the fourth and fifth sub-parts; kept exactly as printed in the stem, and answered as (iv) and (v). The road photograph is decorative."
+  },
+  {
+   "number": "192",
+   "form": "long",
+   "marks": 5,
+   "page": 49,
+   "stem": "Optimal Pricing Strategy : The director of the National School of Drama must decide what to charge for a ticket to the comedy drama. If the price is set too low, the theatre will lose money; and if the price is too high, people won't come. From past experience she estimates that the profit P from sales (in hundreds) can be approximated by P(x) = −x² + 22x − 40 where x is the cost of a ticket and 0 ≤ x ≤ 25 hundred rupees.\n(i) What is the lowest cost of a ticket that would allow the theatre to break even?\n(ii) What is the highest cost that the theatre can charge to break even?\n(iii) If theatre charge Rs 4 hundred for each ticket, what is the profit/loss ?\n(iv) If theatre charge Rs 25 hundred for each ticket, what is the profit/loss ?\n(v) What is the maximum profit which can be earned by theatre ?",
+   "answer": "Break even means P(x) = 0: −x² + 22x − 40 = 0, i.e. x² − 22x + 40 = 0, (x − 2)(x − 20) = 0, so x = 2 or x = 20.\n(i) The lowest break-even ticket cost is Rs 2 hundred.\n(ii) The highest break-even ticket cost is Rs 20 hundred.\n(iii) At x = 4, P(4) = −(4)² + 22 × 4 − 40 = −16 + 88 − 40 = 32, a profit of 32 hundred.\n(iv) At x = 25, P(25) = −(25)² + 22 × 25 − 40 = −625 + 550 − 40 = −115, that is a loss of 115 hundred.\n(v) Completing the square, P(x) = −(x² − 22x + 121 − 81) = −(x − 11)² + 81, so the profit is greatest when x = 11 and the maximum profit is 81 hundred.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book labels the substitutions wrongly — it writes 'P(2)' for the value at x = 4 and 'P(5)' for the value at x = 25 — but the arithmetic it performs is at x = 4 and x = 25 and the results 32 and −115 are right, so the labels are corrected here. Not counted as a key contradiction. Stem on page file p049, solution finishing on p050. The stage photograph is decorative."
+  },
+  {
+   "number": "193",
+   "form": "long",
+   "marks": 5,
+   "page": 50,
+   "stem": "Auditorium, the part of a public building where an audience sits, as distinct from the stage, the area on which the performance or other object of the audience's attention is presented. In a large theatre an auditorium includes a number of floor levels frequently designed as stalls, private boxes, dress circle, balcony or upper circle, and gallery. A sloping floor allows the seats to be arranged to give a clear view of the stage. The walls and ceiling usually contain concealed light and sound equipment and air extracts or inlets and may be highly decorated.\nIn an auditorium, seats are arranged in rows and columns. The number of rows are equal to the number of seats in each row. When the number of rows are doubled and the number of seats in each row is reduced by 10, the total number of seats increases by 300.\n(i) If x is taken as number of row in original arrangement, write the quadratic equation that describes the situation ?\n(ii) How many number of rows are there in the original arrangement?\n(iii) How many number of seats are there in the auditorium in original arrangement ?\n(iv) How many number of seats are there in the auditorium after re-arrangement.\n(v) How many number of columns are there in the auditorium after re-arrangement?",
+   "answer": "(i) Originally the number of rows equals the number of seats in a row, so with x rows the total is x² seats. After the change there are 2x rows with (x − 10) seats each, giving 2x(x − 10) seats, and this is 300 more than before: 2x(x − 10) = x² + 300, so 2x² − 20x = x² + 300, i.e. x² − 20x − 300 = 0.\n(ii) x² − 30x + 10x − 300 = 0, x(x − 30) + 10(x − 30) = 0, (x − 30)(x + 10) = 0, so x = 30 or x = −10. A count cannot be negative, so there are 30 rows originally.\n(iii) Original number of seats = x² = 30² = 900.\n(iv) After re-arrangement the seats are 900 + 300 = 1200.\n(v) The rows are now 2 × 30 = 60, so the number of columns is 1200 ÷ 60 = 20.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The auditorium photograph is decorative."
+  },
+  {
+   "number": "194",
+   "form": "long",
+   "marks": 5,
+   "page": 50,
+   "stem": "Raju and his classmates planned a picnic in zoo. The total budget for picnic was Rs 2000 but 5 students failed to attend the picnic and thus the contribution for each student was increased by Rs 20.\nThe expanse of different item was as follows.\n<table><tr><th>S. No.</th><th>Article</th><th>Cost per student</th></tr><tr><td>1</td><td>Entry ticket</td><td>Rs 5</td></tr><tr><td>2</td><td>Coffee</td><td>Rs 10</td></tr><tr><td>3</td><td>Food</td><td>Rs 25</td></tr><tr><td>4</td><td>Travelling cost</td><td>Rs 50</td></tr><tr><td>5</td><td>Ice-cream</td><td>Rs 15</td></tr></table>\n(i) If x is the number of students planned for picnic, find the quadratic equation that describe the situation.\n(ii) What is the number of students planned for picnic ?\n(iii) What is the number of students who attended the picnic?\n(iv) What is the total expanse for this picnic ?\n(v) How much money they spent for travelling ?",
+   "answer": "(i) With x students planned, each would pay 2000/x; with (x − 5) students actually going each pays 2000/(x − 5), which is Rs 20 more: 2000/x + 20 = 2000/(x − 5). Multiplying by x(x − 5), 2000(x − 5) + 20x(x − 5) = 2000x, so 20x² − 100x − 10000 = 0, and dividing by 20, x² − 5x − 500 = 0.\n(ii) x² − 25x + 20x − 500 = 0, x(x − 25) + 20(x − 25) = 0, (x − 25)(x + 20) = 0, so x = 25 or x = −20. A count cannot be negative, so 25 students were planned.\n(iii) Five failed to attend, so 25 − 5 = 20 students attended.\n(iv) Expense per student = 5 + 10 + 25 + 50 + 15 = Rs 105, so the total expense = 105 × 20 = Rs 2100.\n(v) Travelling cost = 50 × 20 = Rs 1000.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page file p050 (book PAGE 186); the cost table, the sub-parts (i)-(v) and the whole solution are on page file p052 (book PAGE 187). The table is reproduced as HTML. The zoo photograph is decorative."
+  }
+ ],
+ "qualified_numbers": 0
+}

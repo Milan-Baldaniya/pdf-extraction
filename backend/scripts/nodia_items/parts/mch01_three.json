@@ -1,0 +1,169 @@
+{
+ "items": [
+  {
+   "number": "57",
+   "form": "short",
+   "marks": 3,
+   "page": 10,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2023 OD Standard",
+   "stem": "Prove that √2 is an irrational number.",
+   "answer": "Assume that √2 is a rational number. Then it can be written as √2 = p/q, where p and q are co-prime integers and q ≠ 0.\nSo p = q√2.\nSquaring both sides, p² = 2q².\nThus 2 is a factor of p², and hence 2 is a factor of p.\nLet p = 2c, where c is some integer. Then p² = 4c².\nSubstituting p² = 2q², we get 2q² = 4c², i.e. q² = 2c².\nThus 2 is a factor of q², and hence 2 is a factor of q.\nSo 2 is a common factor of p and q, which contradicts the fact that p and q are co-prime.\nHence our assumption is wrong, and √2 is an irrational number.",
+   "concept": "Proof by contradiction for root 2",
+   "ocr": "LaTeX rewritten to Unicode. The scan prints the substitution step as 'Substituting p = 2q²'; the printed algebra (p² = 4c² giving 2q² = 4c²) requires p² = 2q², so the line was restored."
+  },
+  {
+   "number": "58",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2024 OD Standard",
+   "stem": "In a teachers' workshop, the number of teachers teaching French, Hindi and English are 48, 80 and 144 respectively. Find the minimum number of rooms required if in each room the same number of teachers are seated and all of them are of the same subject.",
+   "answer": "The number of rooms will be minimum if every room has the maximum number of participants, so the number of teachers in each room must be the HCF of 48, 80 and 144.\n48 = 2⁴ × 3\n80 = 2⁴ × 5\n144 = 2⁴ × 3²\nHCF(48, 80, 144) = 2⁴ = 16, so 16 teachers can be seated in each room.\nMinimum number of rooms = (48 + 80 + 144)/16 = 272/16 = 17.\nThus the minimum number of rooms required is 17.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "LaTeX rewritten to Unicode."
+  },
+  {
+   "number": "59",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2020 SQP Standard",
+   "stem": "Given that √5 is irrational, prove that 2√5 − 3 is an irrational number.",
+   "answer": "Assume that 2√5 − 3 is a rational number. Then it can be written as 2√5 − 3 = p/q, where p and q are co-prime integers and q ≠ 0.\nRewriting, 2√5 = p/q + 3, so √5 = (p + 3q)/(2q).\nHere (p + 3q)/(2q) is rational because p and q are integers, so √5 would have to be a rational number.\nBut this contradicts the given fact that √5 is irrational.\nHence 2√5 − 3 is an irrational number.",
+   "concept": "Definition of an irrational number",
+   "ocr": "LaTeX rewritten to Unicode."
+  },
+  {
+   "number": "59a",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board 2008, 2015",
+   "stem": "Given that √3 is irrational, prove that 2√3 − 5 is an irrational number.",
+   "answer": "Assume that 2√3 − 5 is a rational number, so 2√3 − 5 = p/q where p and q are co-prime integers and q ≠ 0.\nThen 2√3 = p/q + 5, so √3 = (p + 5q)/(2q).\nThe right-hand side is rational, so √3 would be rational, which contradicts the given fact that √3 is irrational.\nHence 2√3 − 5 is an irrational number.",
+   "concept": "Definition of an irrational number",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q59; numbered '59a' from its position. The printed key gives only 'Ans Proof', so the proof is written out following the model solution of Q59."
+  },
+  {
+   "number": "60",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2018",
+   "stem": "Given that √2 is irrational, prove that (5 + 3√2) is an irrational number.",
+   "answer": "Assume that (5 + 3√2) is a rational number. Then it can be written as 5 + 3√2 = p/q, where p and q are co-prime integers and q ≠ 0.\nRewriting, 3√2 = p/q − 5, so √2 = (p − 5q)/(3q).\nHere (p − 5q)/(3q) is rational because p and q are integers, so √2 would have to be a rational number.\nBut this contradicts the given fact that √2 is irrational.\nHence (5 + 3√2) is an irrational number.",
+   "concept": "Definition of an irrational number",
+   "ocr": "The scan prints 'Given that √2 s irrational'; the dropped letter in 'is' was restored. LaTeX rewritten to Unicode."
+  },
+  {
+   "number": "60a",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board 2020 Delhi Basic",
+   "stem": "Given that √3 is irrational, prove that (5 + 2√3) is an irrational number.",
+   "answer": "Assume that (5 + 2√3) is a rational number, so 5 + 2√3 = p/q where p and q are co-prime integers and q ≠ 0.\nThen 2√3 = p/q − 5, so √3 = (p − 5q)/(2q).\nThe right-hand side is rational, so √3 would be rational, which contradicts the given fact that √3 is irrational.\nHence (5 + 2√3) is an irrational number.",
+   "concept": "Definition of an irrational number",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q60; numbered '60a' from its position. The printed key gives only 'Ans Proof', so the proof is written out following the model solution of Q60."
+  },
+  {
+   "number": "60b",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board 2019 OD",
+   "stem": "Prove that 2 + 5√3 is an irrational number, given that √3 is an irrational number.",
+   "answer": "Assume that 2 + 5√3 is a rational number, so 2 + 5√3 = p/q where p and q are co-prime integers and q ≠ 0.\nThen 5√3 = p/q − 2 = (p − 2q)/q, so √3 = (p − 2q)/(5q).\nThe right-hand side is rational, so √3 would be rational, which contradicts the given fact that √3 is irrational.\nHence 2 + 5√3 is an irrational number.",
+   "concept": "Definition of an irrational number",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q60; numbered '60b' from its position. The printed key gives only 'Ans Proof', so the proof is written out following the model solution of Q60."
+  },
+  {
+   "number": "60c",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board 2019 Delhi",
+   "stem": "Prove that (2 + √3)/5 is an irrational number, given that √3 is an irrational number.",
+   "answer": "Assume that (2 + √3)/5 is a rational number, so (2 + √3)/5 = p/q where p and q are co-prime integers and q ≠ 0.\nThen 2 + √3 = 5p/q, so √3 = 5p/q − 2 = (5p − 2q)/q.\nThe right-hand side is rational, so √3 would be rational, which contradicts the given fact that √3 is irrational.\nHence (2 + √3)/5 is an irrational number.",
+   "concept": "Definition of an irrational number",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q60; numbered '60c' from its position. The printed key gives only 'Ans Proof', so the proof is written out following the model solution of Q60."
+  },
+  {
+   "number": "61",
+   "form": "short",
+   "marks": 3,
+   "page": 11,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2019 OD",
+   "stem": "Write the smallest number which is divisible by both 306 and 657.",
+   "answer": "The smallest number that is divisible by two numbers is obtained by finding the LCM of those numbers.\n306 = 6 × 51 = 3 × 2 × 3 × 17 = 2 × 3² × 17\n657 = 9 × 73 = 3 × 3 × 73 = 3² × 73\nLCM(306, 657) = 2 × 3 × 3 × 17 × 73 = 22338\nHence the smallest number which is divisible by both 306 and 657 is 22338.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "LaTeX rewritten to Unicode."
+  },
+  {
+   "number": "62",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "144 cartons of Coke cans and 90 cartons of Pepsi cans are to be stacked in a canteen. If each stack is of the same height and if it is to contain cartons of the same drink, what would be the greatest number of cartons each stack would have?",
+   "answer": "The required answer is the HCF of 144 and 90.\n144 = 2⁴ × 3²\n90 = 2 × 3² × 5\nHCF(144, 90) = 2 × 3² = 18\nThus each stack would have 18 cartons.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "The prime-factorisation block collapsed in the scan: only '144 = 2⁴ × 3²' survived, followed by three blank rows where '90 = 2 × 3² × 5' and 'HCF(144, 90) = 2 × 3² = 18' should be; both were restored from the printed conclusion '18 cartons'. The stem's garbled 'if it equal contain cartons' was read as 'if it is to contain cartons'. The text layer prints the same ‘if it equal contain cartons’, so that wording is the book’s own typo and not OCR damage; the readable reading is kept in the stem. The text layer also confirms the two restored lines verbatim: 90 = 2 × 3² × 5 and HCF(144, 90) = 2 × 3² = 18."
+  },
+  {
+   "number": "63",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "Three bells toll at intervals of 9, 12, 15 minutes respectively. If they start tolling together, after what time will they next toll together?",
+   "answer": "The required answer is the LCM of 9, 12 and 15 minutes. Finding the prime factors of the given numbers,\n9 = 3 × 3 = 3²\n12 = 2 × 2 × 3 = 2² × 3\n15 = 3 × 5\nLCM(9, 12, 15) = 2² × 3² × 5 = 180 minutes\nThe bells will toll next together after 180 minutes, i.e. after 3 hours.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "The scan's LCM line reads '2² × 3² × 5 = 150 minutes', which is arithmetically wrong and contradicts the book's own conclusion 'The bells will toll next together after 180 minutes'. The solution wins, so 180 minutes is used."
+  },
+  {
+   "number": "64",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "section_heading": "THREE MARKS QUESTIONS | Board 2009",
+   "stem": "Find HCF and LCM of 16 and 36 by prime factorization and check your answer.",
+   "answer": "Finding the prime factors of the given numbers,\n16 = 2 × 2 × 2 × 2 = 2⁴\n36 = 2 × 2 × 3 × 3 = 2² × 3²\nHCF(16, 36) = 2 × 2 = 4\nLCM(16, 36) = 2⁴ × 3² = 16 × 9 = 144\nCheck: HCF(a, b) × LCM(a, b) = a × b\n4 × 144 = 16 × 36\n576 = 576\nThus LHS = RHS.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "The closing line of the check is truncated to a bare ‘Thus’ in the scan; the text layer shows the book prints ‘Thus LHS = RHS’ and stops there, so the previously supplied closing sentence ‘Thus HCF = 4 and LCM = 144, and the answer is verified’ was replaced by the printed line. LaTeX rewritten to Unicode."
+  },
+  {
+   "number": "64a",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board Term-1 2011",
+   "stem": "Find the HCF and LCM of 510 and 92 and verify that HCF × LCM = Product of two given numbers.",
+   "answer": "510 = 2 × 3 × 5 × 17 and 92 = 2² × 23.\nHCF(510, 92) = 2\nLCM(510, 92) = 2² × 3 × 5 × 17 × 23 = 23460\nVerification: HCF × LCM = 2 × 23460 = 46920 and 510 × 92 = 46920, so HCF × LCM = product of the two numbers.\nHence HCF = 2 and LCM = 23460.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q64; numbered '64a' from its position. The printed key gives only 'Ans : 2, 23460'; the working shown here is the standard prime-factorisation route to that key."
+  },
+  {
+   "number": "64b",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board 2018",
+   "stem": "Find HCF and LCM of 404 and 96 and verify that HCF × LCM = Product of the two given numbers.",
+   "answer": "404 = 2² × 101 and 96 = 2⁵ × 3.\nHCF(404, 96) = 2² = 4\nLCM(404, 96) = 2⁵ × 3 × 101 = 9696\nVerification: HCF × LCM = 4 × 9696 = 38784 and 404 × 96 = 38784, so HCF × LCM = product of the two numbers.\nHence HCF = 4 and LCM = 9696.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Unnumbered question from the PRACTICE box printed after Q64; numbered '64b' from its position. The printed key gives only 'Ans 4, 9696'; the working shown here is the standard prime-factorisation route to that key."
+  },
+  {
+   "number": "65",
+   "form": "short",
+   "marks": 3,
+   "page": 12,
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2016",
+   "stem": "The length, breadth and height of a room are 8 m 50 cm, 6 m 25 cm and 4 m 75 cm respectively. Find the length of the longest rod that can measure the dimensions of the room exactly.",
+   "answer": "Here we have to determine the HCF of all the lengths, since that is the largest measure which can measure every dimension exactly.\nLength l = 8 m 50 cm = 850 cm = 50 × 17 = 2 × 5² × 17\nBreadth b = 6 m 25 cm = 625 cm = 25 × 25 = 5⁴\nHeight h = 4 m 75 cm = 475 cm = 25 × 19 = 5² × 19\nHCF(l, b, h) = HCF(850, 625, 475) = HCF(2 × 5² × 17, 5⁴, 5² × 19) = 5² = 25 cm\nThus a rod of 25 cm can measure the dimensions of the room exactly, and it is the longest such rod.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Badly damaged formula block: the row labels read 'l.ength', 'Breadilh', 'Heighl'; the length row reads '8 m so co = 850 cm'; the HCF row reads 'HCF (550, 625, 475)' where 850 is required (the factorisation printed directly above it is 850 = 2 × 5² × 17); and the final line reads '= E² = 25 cm' for 5² = 25 cm. All restored from the arithmetic and from the printed conclusion '25 cm rod'."
+  }
+ ]
+}

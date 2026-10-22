@@ -1,0 +1,34 @@
+{
+ "items": [
+  {
+   "number": "122",
+   "form": "case_study",
+   "marks": 4,
+   "page": 29,
+   "stem": "Well Embankment : Well embankment is a raised wall that is built around the well. These are often constructed using soils obtained from a digging well. It provide protection to person from felling into the well.\nA well of diameter 6 m is dug 14 m deep. 1/15 of the earth taken out is spread evenly all around the well to form a embankment.\n(i) Find the volume of the earth taken out.\n(ii) If the height of embankment is 1.2 m, what is the width of the embankment ?",
+   "answer": "(i) The well is a cylinder of depth h = 14 m and radius r = 6/2 = 3 m.\nVolume of earth taken out = πr²h = (22/7) × 3² × 14 = 396 m³.\n(ii) Let w be the width of the embankment. The embankment is a hollow cylinder of height 1.2 m whose inner radius is 3 m and outer radius is 3 + w.\nArea of its upper surface = π[(3 + w)² − 3²].\nIts volume is 1/15 of the earth dug out, so\nπ[(3 + w)² − 3²] × 1.2 = (1/15) × 396\n(22/7)(9 + w² + 6w − 9) × 1.2 = 396/15\nw² + 6w = (396 × 7)/(15 × 1.2 × 22) = 7\nw² + 6w − 7 = 0\n(w + 7)(w − 1) = 0 ⇒ w = 1 (rejecting w = −7).\nHence the width of the embankment is 1 m.",
+   "concept": "Volumes simply add",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "mch12_q122.png"
+   ],
+   "figure_required": false,
+   "ocr": "recovered by the gap pass: printed under the COMPETENCEY BASED QUESTIONS heading, which fell mid-range and was skipped. Question and solution both on p029. No board/year tag is printed. Form is case_study/4 because the passage carries sub-parts (i) and (ii). The printed solution writes 'Depth of well, d = 14 m' - it labels the depth with the letter d although d is the diameter in the stem; the arithmetic is right (r = 3, h = 14), so the solution is reproduced with the depth called h. The photograph of the well is context only, so it is attached with figure_required false."
+  },
+  {
+   "number": "123",
+   "form": "case_study",
+   "marks": 4,
+   "page": 29,
+   "stem": "Irrigation Canals : Irrigation canals are the main waterways that bring irrigation water from a water source to the areas to be irrigated. The water is taken either from the river, tank or reservoirs. The canals can be constructed either by means of concrete, stone, brick or any sort of flexible membrane which solves the durability issues like seepage and erosion.\nOne such canal shown above is of width 5.4 m wide and depth 1.8 m deep through which water is flowing with a speed of 25 km/hour.\n(i) How much water is flowing through the canal in 1 hour.\n(ii) How much area can it irrigate in 40 minutes, if 10 cm of standing water is required for irrigation ?\n(iii) At some distance from canal, a framer is having a large cylindrical tank the radius of whose base is 2 m. Suppose the farmer connects this tank to canal by a circular pipe of internal diameter of 4 cm for irrigation his field. If water is flowing at 7 m/s through a circular pipe, find the increase in water level in 30 minutes.",
+   "answer": "(i) In one hour the water column that passes any cross-section is 25 km = 25000 m long, and the cross-section is 5.4 m × 1.8 m.\nWater flowing in 1 hour = 5.4 × 1.8 × 25000 = 54 × 18 × 250 = 243000 m³.\n(ii) Water flowing in 40 minutes = 243000 × 40/60 = 162000 m³.\nLet A be the irrigated area. The standing water is 10 cm = 0.1 m deep, so A × 0.1 = 162000, giving A = 1620000 m².\n(iii) Water flows through the pipe at 7 m/s, so in 1 second a column 7 m = 700 cm long passes through. The pipe has internal diameter 4 cm, so its radius is 4/2 = 2 cm.\nVolume of water delivered in 1 second = π × 2² × 700 cm³, so in 30 minutes the volume is π × 2² × 700 × 60 × 30 cm³.\nTaking the tank's base as 2 m across, its radius is 1 m = 100 cm. If h is the rise in water level,\nπ × 100² × h = π × 4 × 700 × 60 × 30\nh = (700 × 60 × 30 × 4)/(100 × 100) = 504 cm.\nHence the water level increases by 504 cm, that is 5.04 m.",
+   "concept": "Volumes simply add",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "mch12_q123.png"
+   ],
+   "figure_required": false,
+   "ocr": "recovered by the gap pass: printed under the COMPETENCEY BASED QUESTIONS heading, which fell mid-range and was skipped. Question is on p029, the solution runs from p029 into p030. No board/year tag is printed. Form is case_study/4 - passage with sub-parts (i)-(iii). Two printed slips corrected against the worked solution, which wins: in (ii) the book prints 'A = 1620000 m³' for an area, written here as m²; in (iii) the stem says the tank's base has radius 2 m but the solution takes 'base of tank is 2 m, radius of tank is 1 m i.e. 100 cm' and gets 504 cm, so 2 m is treated as the diameter and the answer follows the solution. The canal photograph is context only, so it is attached with figure_required false."
+  }
+ ]
+}

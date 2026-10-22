@@ -1,0 +1,257 @@
+{
+  "items": [
+    {
+      "number": "26",
+      "form": "very_short",
+      "marks": 1,
+      "page": 6,
+      "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Standard",
+      "stem": "Find the value of k for which the system of linear equations x + 2y = 3, 5x + ky + 7 = 0 is inconsistent.",
+      "answer": "Write the equations as x + 2y − 3 = 0 and 5x + ky + 7 = 0. For an inconsistent pair, a₁/a₂ = b₁/b₂ ≠ c₁/c₂. From the first two ratios, 1/5 = 2/k ⇒ k = 10.",
+      "concept": "Inconsistent pair",
+      "ocr": "The section heading 'ONE MARK QUESTIONS' is missing from the MinerU markdown; recovered from the PDF text layer, which prints it immediately before question 26. LaTeX array/frac markup rewritten to Unicode."
+    },
+    {
+      "number": "27",
+      "form": "very_short",
+      "marks": 1,
+      "page": 6,
+      "section_heading": "ONE MARK QUESTIONS | Board 2020 Delhi Standard",
+      "stem": "Find the value of k for which the system of equations x + y − 4 = 0 and 2x + ky = 3 has no solution.",
+      "answer": "Write the equations as x + y − 4 = 0 and 2x + ky − 3 = 0. Here a₁/a₂ = 1/2, b₁/b₂ = 1/k and c₁/c₂ = (−4)/(−3) = 4/3. Since the system has no solution, a₁/a₂ = b₁/b₂ ≠ c₁/c₂, so 1/2 = 1/k ≠ 4/3, giving k = 2 (and k ≠ 3/4). Hence k = 2.",
+      "concept": "Inconsistent pair",
+      "ocr": "Markdown printed the first ratio as a₁/a₁; the book prints a₁/a₂. Confirmed against the PDF text layer."
+    },
+    {
+      "number": "28",
+      "form": "very_short",
+      "marks": 1,
+      "page": 6,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 OD 2017",
+      "stem": "For which value(s) of p, will the lines represented by the following pair of linear equations be parallel?\n3x − y − 5 = 0, 6x − 2y − p = 0",
+      "answer": "Here a₁ = 3, b₁ = −1, c₁ = −5 and a₂ = 6, b₂ = −2, c₂ = −p. Lines are parallel when a₁/a₂ = b₁/b₂ ≠ c₁/c₂. Since 3/6 = (−1)/(−2) = 1/2, we need (−5)/(−p) ≠ 1/2, i.e. p ≠ 5 × 2, so p ≠ 10. The lines are parallel for every value of p except 10.",
+      "concept": "Inconsistent pair",
+      "ocr": "Markdown dropped the 'We have' lines and lost a₁/a₂ from the parallel-condition display; restored from the PDF text layer. Page furniture 'Click Here to Buy book on Flipkart' and '## Page 7' stripped."
+    },
+    {
+      "number": "29",
+      "form": "very_short",
+      "marks": 1,
+      "page": 7,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 Delhi 2011",
+      "stem": "The 2 digit number which becomes 5/6 th of itself when its digits are reversed. If the difference in the digits of the number being 1, what is the two digit number?",
+      "answer": "Let the two digits be x and y, so the number is 10x + y. Then (5/6)(10x + y) = 10y + x, which gives 44x = 55y, i.e. x/y = 5/4. Also x − y = 1. Solving these, x = 5 and y = 4. Therefore the number is 54.",
+      "concept": "Situations giving two equations",
+      "ocr": "Markdown printed the reduced equation as '44x + 55y'; it is 44x = 55y (the equals sign was lost). The PDF text layer shows the same broken glyph run, and the next printed line x/y = 5/4 forces the reading."
+    },
+    {
+      "number": "30",
+      "form": "very_short",
+      "marks": 1,
+      "page": 7,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 Delhi 2016",
+      "stem": "In a number of two digits, unit's digit is twice the tens digit. If 36 be added to the number, the digits are reversed. What is the number?",
+      "answer": "Let x be the units digit and y the tens digit, so the number is 10y + x. Given x = 2y …(1). Adding 36 reverses the digits: 10y + x + 36 = 10x + y ⇒ 9x − 9y = 36 ⇒ x − y = 4 …(2). Solving (1) and (2) gives x = 8 and y = 4. Thus the number is 48.",
+      "concept": "Situations giving two equations"
+    },
+    {
+      "number": "31",
+      "form": "very_short",
+      "marks": 1,
+      "page": 7,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 Foreign 2012",
+      "stem": "If 3x + 4y : x + 2y = 9 : 4, then find the value of 3x + 5y : 3x − y.",
+      "answer": "We have (3x + 4y)/(x + 2y) = 9/4, hence 12x + 16y = 9x + 18y, or 3x = 2y, i.e. x = (2/3)y. Substituting x = (2/3)y in the required expression, (3·(2/3)y + 5y)/(3·(2/3)y − y) = (2y + 5y)/(2y − y) = 7y/y = 7/1. Hence 3x + 5y : 3x − y = 7 : 1.",
+      "concept": "Express one variable",
+      "ocr": "MinerU mangled the substitution step into fragments such as '3x₃²y + 5y'; the working was rebuilt from the PDF text layer and from x = 2y/3."
+    },
+    {
+      "number": "32",
+      "form": "very_short",
+      "marks": 1,
+      "page": 7,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 Foreign 2016",
+      "stem": "A fraction becomes 4 when 1 is added to both the numerator and denominator and it becomes 7 when 1 is subtracted from both the numerator and denominator. What is the numerator of the given fraction?",
+      "answer": "Let the fraction be x/y. Then (x + 1)/(y + 1) = 4 ⇒ x = 4y + 3 …(1) and (x − 1)/(y − 1) = 7 ⇒ x = 7y − 6 …(2). Solving (1) and (2) gives x = 15 and y = 3. Hence the numerator of the fraction is 15.",
+      "concept": "Situations giving two equations"
+    },
+    {
+      "number": "33",
+      "form": "very_short",
+      "marks": 1,
+      "page": 7,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 OD 2013",
+      "stem": "x and y are 2 different digits. If the sum of the two digit numbers formed by using both the digits is a perfect square, then what is the value of x + y?",
+      "answer": "The numbers that can be formed are xy and yx, so their sum is (10x + y) + (10y + x) = 11(x + y). For 11(x + y) to be a perfect square, x + y must be 11. Hence x + y = 11.",
+      "concept": "Situations giving two equations"
+    },
+    {
+      "number": "34",
+      "form": "very_short",
+      "marks": 1,
+      "page": 7,
+      "section_heading": "ONE MARK QUESTIONS | Board 2008",
+      "stem": "If a pair of linear equations is consistent, then the lines will be intersecting or coincident. Justify.",
+      "answer": "Condition for a consistent pair of linear equations: either a₁/a₂ ≠ b₁/b₂ — intersecting lines having a unique solution — or a₁/a₂ = b₁/b₂ = c₁/c₂ — coincident (dependent) lines having infinitely many solutions. So a consistent pair is always either intersecting or coincident.",
+      "concept": "Ratios of the coefficients",
+      "ocr": "The printed number 34 was dropped by MinerU (the question runs on from question 33's solution); recovered from the PDF text layer, which prints '34.', and confirmed by its position between 33 and 35."
+    },
+    {
+      "number": "35",
+      "form": "very_short",
+      "marks": 1,
+      "page": 7,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 Foreign 2014",
+      "stem": "The pair of equations y = 0 and y = −7 has no solution. Justify.",
+      "answer": "The given pair of equations are y = 0 and y = −7. Both are lines parallel to the x-axis, and parallel lines never intersect. So there is no solution of these lines.",
+      "concept": "Inconsistent pair"
+    },
+    {
+      "number": "36",
+      "form": "very_short",
+      "marks": 1,
+      "page": 7,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 2011",
+      "stem": "If the equations kx − 2y = 3 and 3x + y = 5 represent two intersecting lines at unique point, then the value of k is ........... .",
+      "answer": "For a unique solution, a₁/a₂ ≠ b₁/b₂. Here a₁ = k, b₁ = −2, a₂ = 3 and b₂ = 1. So k/3 ≠ −2/1, i.e. k ≠ −6.",
+      "concept": "Ratios of the coefficients",
+      "ocr": "The value b₂ = 1 was cut across the page break in the markdown (it ends 'b₂ =' just before '## Page 8'); restored from the PDF text layer."
+    },
+    {
+      "number": "37",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 OD 2011",
+      "stem": "Find whether the pair of linear equations y = 0 and y = −5 has no solution, unique solution or infinitely many solutions.",
+      "answer": "The given variable y is assigned two different values, so the two lines are parallel to the x-axis and never meet. Therefore the pair of equations y = 0 and y = −5 has no solution.",
+      "concept": "Inconsistent pair"
+    },
+    {
+      "number": "38",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 OD 2015",
+      "stem": "If am = bl, then find whether the pair of linear equations ax + by = c and lx + my = n has no solution, unique solution or infinitely many solutions.",
+      "answer": "Since am = bl, we have a/l = b/m ≠ c/n, which is the condition for parallel lines. Thus ax + by = c and lx + my = n has no solution.",
+      "concept": "Ratios of the coefficients",
+      "ocr": "Both the markdown and the PDF text layer render the first ratio as 'a/1' because the book's letter l is read as the digit 1; the coefficient is l, from lx + my = n, so the ratio is a/l."
+    },
+    {
+      "number": "39",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 Delhi 2015",
+      "stem": "If ad ≠ bc, then find whether the pair of linear equations ax + by = p and cx + dy = q has no solution, unique solution or infinitely many solutions.",
+      "answer": "Since ad ≠ bc, we have a/c ≠ b/d, which is the condition for intersecting lines. Hence the pair of given linear equations has a unique solution.",
+      "concept": "Ratios of the coefficients"
+    },
+    {
+      "number": "40",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Board 2007",
+      "stem": "Two lines are given to be parallel. The equation of one of the lines is 4x + 3y = 14, then find the equation of the second line.",
+      "answer": "The equation of one line is 4x + 3y = 14. If two lines a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 are parallel, then a₁/a₂ = b₁/b₂ ≠ c₁/c₂. So 4/a₂ = 3/b₂ ⇒ a₂/b₂ = 4/3 = 12/9. Hence one of the possible second parallel lines is 12x + 9y = 5.",
+      "concept": "Ratios of the coefficients"
+    },
+    {
+      "number": "41",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 Delhi 2016",
+      "stem": "Find whether the lines represented by 2x + y = 3 and 4x + 2y = 6 are parallel, coincident or intersecting.",
+      "answer": "Here a₁ = 2, b₁ = 1, c₁ = −3 and a₂ = 4, b₂ = 2, c₂ = −6. Clearly 2/4 = 1/2 = 3/6, so a₁/a₂ = b₁/b₂ = c₁/c₂. Hence the lines are coincident.",
+      "concept": "Ratios of the coefficients",
+      "ocr": "Markdown printed 'a₁ = 4' for the second equation (it is a₂ = 4) and labelled the equal-ratio condition a₁/a₂ = b₁/b₂ = c₁/c₂ as 'parallel'. That condition is the coincident case and the book's own conclusion is 'Hence lines are coincident', so the solution wins. The board tag [Board Term-1 Delhi 2016] was dropped by MinerU and taken from the PDF text layer."
+    },
+    {
+      "number": "42",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 2016",
+      "stem": "Given the linear equation 3x + 4y = 9. Write another linear equation in these two variables such that the geometrical representation of the pair so formed is:\n(1) intersecting lines\n(2) coincident lines.",
+      "answer": "(1) For intersecting lines a₁/a₂ ≠ b₁/b₂, so one of the possible equations is 3x − 5y = 10.\n(2) For coincident lines a₁/a₂ = b₁/b₂ = c₁/c₂, so one of the possible equations is 6x + 8y = 18.",
+      "concept": "Ratios of the coefficients",
+      "sub_parts": ["1", "2"]
+    },
+    {
+      "number": "43",
+      "form": "very_short",
+      "marks": 1,
+      "page": 8,
+      "section_heading": "ONE MARK QUESTIONS | Board 2019 OD",
+      "stem": "Find the value(s) of k so that the pair of equations x + 2y = 5 and 3x + ky + 15 = 0 has a unique solution.",
+      "answer": "Write x + 2y − 5 = 0 …(1) and 3x + ky + 15 = 0 …(2). Comparing with a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 gives a₁ = 1, a₂ = 3, b₁ = 2, b₂ = k, c₁ = −5 and c₂ = 15. For a unique solution a₁/a₂ ≠ b₁/b₂, i.e. 1/3 ≠ 2/k, so k ≠ 6. Hence for all values of k except 6 the given pair of equations has a unique solution.",
+      "concept": "Ratios of the coefficients"
+    },
+    {
+      "number": "44",
+      "form": "very_short",
+      "marks": 1,
+      "page": 9,
+      "section_heading": "ONE MARK QUESTIONS | Board 2020 OD Standard",
+      "stem": "If 2x + y = 23 and 4x − y = 19, find the value of (5y − 2x) and (y/x − 2).",
+      "answer": "We have 2x + y = 23 …(1) and 4x − y = 19 …(2). Adding (1) and (2), 6x = 42 ⇒ x = 7. Substituting in (1), 14 + y = 23 ⇒ y = 9. Hence 5y − 2x = 5 × 9 − 2 × 7 = 45 − 14 = 31, and y/x − 2 = 9/7 − 2 = (9 − 14)/7 = −5/7.",
+      "concept": "Add or subtract to eliminate"
+    },
+    {
+      "number": "45",
+      "form": "very_short",
+      "marks": 1,
+      "page": 9,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 2016",
+      "stem": "Find whether the following pair of linear equation is consistent or inconsistent:\n3x + 2y = 8, 6x − 4y = 9",
+      "answer": "We have 3/6 ≠ 2/(−4), i.e. a₁/a₂ ≠ b₁/b₂. Hence the pair of linear equations is consistent (the lines intersect at a unique point).",
+      "concept": "Ratios of the coefficients"
+    },
+    {
+      "number": "46",
+      "form": "very_short",
+      "marks": 1,
+      "page": 9,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 2012",
+      "stem": "Is the system of linear equations 2x + 3y − 9 = 0 and 4x + 6y − 18 = 0 consistent? Justify your answer.",
+      "answer": "For 2x + 3y − 9 = 0 we have a₁ = 2, b₁ = 3 and c₁ = −9; for 4x + 6y − 18 = 0 we have a₂ = 4, b₂ = 6 and c₂ = −18. Here a₁/a₂ = 2/4 = 1/2, b₁/b₂ = 3/6 = 1/2 and c₁/c₂ = (−9)/(−18) = 1/2. Thus a₁/a₂ = b₁/b₂ = c₁/c₂, so the system is consistent and dependent, with infinitely many solutions.",
+      "concept": "Consistent and dependent pairs",
+      "ocr": "Markdown printed 'a₂ = 2' for the first equation (it is a₁ = 2) and the concluding condition as 'c₁/c₂ = b₁/b₂ = c₁/c₂'; the intended line is a₁/a₂ = b₁/b₂ = c₁/c₂. Restored from the PDF text layer."
+    },
+    {
+      "number": "47",
+      "form": "very_short",
+      "marks": 1,
+      "page": 9,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 2012",
+      "stem": "For what value of k, the pair of linear equations kx − 4y = 3, 6x − 12y = 9 has an infinite number of solutions?",
+      "answer": "Write kx − 4y − 3 = 0 and 6x − 12y − 9 = 0, so a₁ = k, b₁ = −4, c₁ = −3 and a₂ = 6, b₂ = −12, c₂ = −9. The condition for infinitely many solutions is a₁/a₂ = b₁/b₂ = c₁/c₂, i.e. k/6 = (−4)/(−12) = (−3)/(−9) = 1/3. Hence k = 2.",
+      "concept": "Consistent and dependent pairs",
+      "ocr": "MinerU shredded the coefficient block ('~ \\ f ~ h a v e', 'b₁ = 4', 'c₂ − 9'); the coefficients b₁ = −4 and c₂ = −9 follow from the printed equations and were confirmed against the PDF text layer."
+    },
+    {
+      "number": "48",
+      "form": "very_short",
+      "marks": 1,
+      "page": 9,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 2015",
+      "stem": "Solve the following pair of linear equations by substitution method:\n3x + 2y − 7 = 0, 4x + y − 6 = 0",
+      "answer": "We have 3x + 2y − 7 = 0 …(1) and 4x + y − 6 = 0 …(2). From (2), y = 6 − 4x …(3). Putting this value of y in (1): 3x + 2(6 − 4x) − 7 = 0 ⇒ 3x + 12 − 8x − 7 = 0 ⇒ 5 − 5x = 0 ⇒ 5x = 5 ⇒ x = 1. Substituting x = 1 in (3), y = 6 − 4 × 1 = 2. Hence the values of x and y are 1 and 2 respectively.",
+      "concept": "Substitute and reduce"
+    },
+    {
+      "number": "49",
+      "form": "very_short",
+      "marks": 1,
+      "page": 10,
+      "section_heading": "ONE MARK QUESTIONS | Board Term-1 2012",
+      "stem": "Solve: 99x + 101y = 499, 101x + 99y = 501",
+      "answer": "We have 99x + 101y = 499 …(1) and 101x + 99y = 501 …(2). Adding (1) and (2): 200x + 200y = 1000 ⇒ x + y = 5 …(3). Subtracting (2) from (1): −2x + 2y = −2 ⇒ x − y = 1 …(4). Adding (3) and (4): 2x = 6 ⇒ x = 3. Substituting in (3): 3 + y = 5 ⇒ y = 2. Hence x = 3 and y = 2.",
+      "concept": "Add or subtract to eliminate",
+      "ocr": "The printed number 49 came through MinerU as a LaTeX artefact ('${\\mathfrak{a}}{\\mathfrak{g}}.$ Solve'); recovered as 49 from the PDF text layer and from its position between 48 and 50. Page furniture 'Downloaded from www.pdf.tube' and '## Page 10' stripped."
+    }
+  ]
+}

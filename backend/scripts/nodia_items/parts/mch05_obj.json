@@ -1,0 +1,1422 @@
+{
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "In an A.P., if the first term a = −16 and the common difference d = −2, then the sum of first 10 terms is",
+   "options": [
+    {
+     "label": "A",
+     "text": "−200"
+    },
+    {
+     "label": "B",
+     "text": "−70"
+    },
+    {
+     "label": "C",
+     "text": "−250"
+    },
+    {
+     "label": "D",
+     "text": "250"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "With a = −16 and d = −2, Sₙ = (n/2){2a + (n−1)d}, so S₁₀ = (10/2)[2(−16) + (10−1)(−2)] = 5[−32 − 18] = 5(−50) = −250. The sum of the first 10 terms is −250.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If the sum of the first n terms of an A.P. be 3n² + n and its common difference is 6, then its first term is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Here Sₙ = 3n² + n and d = 6. Using Sₙ = (n/2)[2a + (n−1)d], we get 3n² + n = (n/2)[2a + 6n − 6], so 6n² + 2n = 2an + 6n² − 6n, hence 8n = 2an and a = 4. The first term is 4.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The nᵗʰ term of the AP a, 3a, 5a, ... is",
+   "options": [
+    {
+     "label": "A",
+     "text": "na"
+    },
+    {
+     "label": "B",
+     "text": "(2n − 1)a"
+    },
+    {
+     "label": "C",
+     "text": "(2n + 1)a"
+    },
+    {
+     "label": "D",
+     "text": "2na"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The first term is a and d = 3a − a = 2a. Then aₙ = a + (n − 1)d = a + (n − 1)2a = a + 2na − 2a = 2na − a = (2n − 1)a.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The common difference of the AP 1/p, (1 − p)/p, (1 − 2p)/p, ... is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "1/p"
+    },
+    {
+     "label": "C",
+     "text": "−1"
+    },
+    {
+     "label": "D",
+     "text": "−1/p"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The common difference is d = (1 − p)/p − 1/p = (1 − p − 1)/p = −p/p = −1.",
+   "concept": "Common difference",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The value of x for which 2x, (x + 10) and (3x + 2) are the three consecutive terms of an AP, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "6"
+    },
+    {
+     "label": "B",
+     "text": "−6"
+    },
+    {
+     "label": "C",
+     "text": "18"
+    },
+    {
+     "label": "D",
+     "text": "−18"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "For three terms in AP the differences are equal: (x + 10) − 2x = (3x + 2) − (x + 10), so −x + 10 = 2x − 8, giving −3x = −18 and x = 6.",
+   "concept": "Common difference",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem and options are printed on page 1; the solution finishes at the top of page 2."
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The first term of AP is p and the common difference is q, then its 10th term is",
+   "options": [
+    {
+     "label": "A",
+     "text": "q + 9p"
+    },
+    {
+     "label": "B",
+     "text": "p − 9q"
+    },
+    {
+     "label": "C",
+     "text": "p + 9q"
+    },
+    {
+     "label": "D",
+     "text": "2p + 9q"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "With a = p and d = q, a₁₀ = a + (10 − 1)d = p + 9q.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "In an AP, if d = −4, n = 7 and aₙ = 4, then a is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "6"
+    },
+    {
+     "label": "B",
+     "text": "7"
+    },
+    {
+     "label": "C",
+     "text": "20"
+    },
+    {
+     "label": "D",
+     "text": "28"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Using aₙ = a + (n − 1)d: 4 = a + (7 − 1)(−4) = a − 24, so a = 4 + 24 = 28.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "In an AP, if a = 3.5, d = 0 and n = 101, then aₙ will be",
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "3.5"
+    },
+    {
+     "label": "C",
+     "text": "103.5"
+    },
+    {
+     "label": "D",
+     "text": "104.5"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Since d = 0 every term equals the first term, so aₙ = 3.5. Formally aₙ = 3.5 + (101 − 1) × 0 = 3.5.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "This question is reprinted verbatim later in the same section as question 10."
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The 11th term of an AP −5, −5/2, 0, 5/2, ....., is",
+   "options": [
+    {
+     "label": "A",
+     "text": "−20"
+    },
+    {
+     "label": "B",
+     "text": "20"
+    },
+    {
+     "label": "C",
+     "text": "−30"
+    },
+    {
+     "label": "D",
+     "text": "30"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Here a = −5 and d = −5/2 − (−5) = 5/2. So a₁₁ = −5 + (11 − 1)(5/2) = −5 + 25 = 20.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "In an AP, if a = 3.5, d = 0 and n = 101, then aₙ will be",
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "3.5"
+    },
+    {
+     "label": "C",
+     "text": "103.5"
+    },
+    {
+     "label": "D",
+     "text": "104.5"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "With d = 0 the AP is constant, so aₙ = a + (n − 1)d = 3.5 + (101 − 1) × 0 = 3.5.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Duplicate of question 8; the book prints both with the same options and the same key (b)."
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "Which term of an AP, 21, 42, 63, 84, ... is 210?",
+   "options": [
+    {
+     "label": "A",
+     "text": "9th"
+    },
+    {
+     "label": "B",
+     "text": "10th"
+    },
+    {
+     "label": "C",
+     "text": "11th"
+    },
+    {
+     "label": "D",
+     "text": "12th"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Here a = 21 and d = 42 − 21 = 21. Setting aₙ = 210 gives 210 = 21 + (n − 1)21 = 21n, so n = 10. The 10th term is 210.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If the common difference of an AP is 5, then what is a₁₈ − a₁₃?",
+   "options": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "20"
+    },
+    {
+     "label": "C",
+     "text": "25"
+    },
+    {
+     "label": "D",
+     "text": "30"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "a₁₈ − a₁₃ = [a + 17d] − [a + 12d] = 5d = 5 × 5 = 25.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "This question is reprinted verbatim later in the same section as question 21."
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "What is the common difference of an AP in which a₁₈ − a₁₄ = 32?",
+   "options": [
+    {
+     "label": "A",
+     "text": "8"
+    },
+    {
+     "label": "B",
+     "text": "−8"
+    },
+    {
+     "label": "C",
+     "text": "−4"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "a₁₈ − a₁₄ = [a + 17d] − [a + 13d] = 4d. So 4d = 32 and d = 8.",
+   "concept": "Common difference",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The 4th term from the end of an AP −11, −8, −5, ....., 49 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "37"
+    },
+    {
+     "label": "B",
+     "text": "40"
+    },
+    {
+     "label": "C",
+     "text": "43"
+    },
+    {
+     "label": "D",
+     "text": "58"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The common difference is d = −8 − (−11) = 3 and the last term is l = 49. Counting from the end, aₙ = l − (n − 1)d, so the 4th term from the end is 49 − 3 × 3 = 49 − 9 = 40.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The famous mathematician associated with finding the sum of the first 100 natural numbers is",
+   "options": [
+    {
+     "label": "A",
+     "text": "Pythagoras"
+    },
+    {
+     "label": "B",
+     "text": "Newton"
+    },
+    {
+     "label": "C",
+     "text": "Gauss"
+    },
+    {
+     "label": "D",
+     "text": "Euclid"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Gauss is the mathematician associated with summing the first 100 natural numbers, 1 + 2 + 3 + ... + 100 = 5050.",
+   "concept": "The Gauss problem",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the first term of an AP is −5 and the common difference is 2, then the sum of the first 6 terms is",
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "15"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "With a = −5 and d = 2, S₆ = (6/2)[2(−5) + (6 − 1)(2)] = 3(−10 + 10) = 0.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The sum of first 16 terms of the AP 10, 6, 2, ..... is",
+   "options": [
+    {
+     "label": "A",
+     "text": "−320"
+    },
+    {
+     "label": "B",
+     "text": "320"
+    },
+    {
+     "label": "C",
+     "text": "−352"
+    },
+    {
+     "label": "D",
+     "text": "−400"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Here a = 10 and d = 6 − 10 = −4. So S₁₆ = (16/2)[2 × 10 + 15(−4)] = 8(20 − 60) = 8(−40) = −320.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "In an AP, if a = 1, aₙ = 20 and Sₙ = 399, then n is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "19"
+    },
+    {
+     "label": "B",
+     "text": "21"
+    },
+    {
+     "label": "C",
+     "text": "38"
+    },
+    {
+     "label": "D",
+     "text": "42"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Using Sₙ = (n/2)(a + aₙ): 399 = (n/2)(1 + 20) = 21n/2, so n = (399 × 2)/21 = 38.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The sum of first five multiples of 3 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "45"
+    },
+    {
+     "label": "B",
+     "text": "55"
+    },
+    {
+     "label": "C",
+     "text": "65"
+    },
+    {
+     "label": "D",
+     "text": "75"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The first five multiples of 3 are 3, 6, 9, 12, 15, so a = 3, d = 3 and n = 5. S₅ = (5/2)[2 × 3 + 4 × 3] = (5/2)(6 + 12) = (5/2) × 18 = 45.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem and options on page 3; the worked solution continues at the top of page 4."
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If the sum of the series 2 + 5 + 8 + 11 .......... is 60100, then the number of terms are",
+   "options": [
+    {
+     "label": "A",
+     "text": "100"
+    },
+    {
+     "label": "B",
+     "text": "200"
+    },
+    {
+     "label": "C",
+     "text": "150"
+    },
+    {
+     "label": "D",
+     "text": "250"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Here a = 2 and d = 3. From (n/2)[4 + (n − 1)3] = 60100 we get n(3n + 1) = 120200, i.e. 3n² + n − 120200 = 0, which factors as (n − 200)(3n + 601) = 0. Since n cannot be a fraction, n = 200.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If the common difference of an AP is 5, then what is a₁₈ − a₁₃?",
+   "options": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "20"
+    },
+    {
+     "label": "C",
+     "text": "25"
+    },
+    {
+     "label": "D",
+     "text": "30"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "a₁₈ − a₁₃ = [a + (18 − 1)d] − [a + (13 − 1)d] = 17 × 5 − 12 × 5 = 85 − 60 = 25.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Duplicate of question 12; printed again with the same options and key (c)."
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "There are 60 terms is an AP of which the first term is 8 and the last term is 185. The 31ˢᵗ term is",
+   "options": [
+    {
+     "label": "A",
+     "text": "56"
+    },
+    {
+     "label": "B",
+     "text": "94"
+    },
+    {
+     "label": "C",
+     "text": "85"
+    },
+    {
+     "label": "D",
+     "text": "98"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The 60th term gives 185 = 8 + 59d, so 59d = 177 and d = 3. Then a₃₁ = 8 + 30 × 3 = 98.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints \"There are 60 terms is an AP\"; kept verbatim."
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The first and last term of an AP are a and ℓ respectively. If S is the sum of all the terms of the AP and the common difference is (ℓ² − a²)/(k − (ℓ + a)), then k is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "S"
+    },
+    {
+     "label": "B",
+     "text": "2S"
+    },
+    {
+     "label": "C",
+     "text": "3S"
+    },
+    {
+     "label": "D",
+     "text": "None of these"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "From S = (n/2)(a + ℓ) we get n = 2S/(a + ℓ). Also ℓ = a + (n − 1)d, so d = (ℓ − a)/(n − 1) = (ℓ − a)/[2S/(a + ℓ) − 1] = (ℓ² − a²)/(2S − (ℓ + a)). Comparing with the given expression, k = 2S.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If the nth term of an AP is given by aₙ = 5n − 3, then the sum of first 10 terms if",
+   "options": [
+    {
+     "label": "A",
+     "text": "225"
+    },
+    {
+     "label": "B",
+     "text": "245"
+    },
+    {
+     "label": "C",
+     "text": "255"
+    },
+    {
+     "label": "D",
+     "text": "270"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Substituting n = 1 and n = 10 in aₙ = 5n − 3 gives a = 2 and a₁₀ = 47. Then S₁₀ = (10/2)(2 + 47) = 5 × 49 = 245.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints \"the sum of first 10 terms if\" (for \"is\"); kept verbatim."
+  },
+  {
+   "number": "25",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Two APs have the same common difference. The first term of one of these is −1 and that of the other is −8. Then the difference between their 4th terms is",
+   "options": [
+    {
+     "label": "A",
+     "text": "−1"
+    },
+    {
+     "label": "B",
+     "text": "−8"
+    },
+    {
+     "label": "C",
+     "text": "7"
+    },
+    {
+     "label": "D",
+     "text": "−9"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The 4th terms are −1 + 3d and −8 + 3d. Their difference is (−1 + 3d) − (−8 + 3d) = 7.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem begins at the foot of page 4; options and solution are on page 5."
+  },
+  {
+   "number": "26",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "An AP starts with a positive fraction and every alternate term is an integer. If the sum of the first 11 terms is 33, then the fourth term is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "5"
+    },
+    {
+     "label": "D",
+     "text": "6"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "From S₁₁ = 33 we get (11/2)[2a + 10d] = 33, so a + 5d = 3, i.e. a₆ = 3. Since alternate terms are integers, the terms step by 1 between alternate positions, giving a₄ = 2.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "27",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "If the sum of the first 2n terms of 2, 5, 8, .......... is equal to the sum of the first n terms of 57, 59, 61, .........., then n is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "12"
+    },
+    {
+     "label": "C",
+     "text": "11"
+    },
+    {
+     "label": "D",
+     "text": "13"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Equating the two sums: (2n/2){2 × 2 + (2n − 1)3} = (n/2){2 × 57 + (n − 1)2}, which reduces to 2(6n + 1) = 112 + 2n, so 10n = 110 and n = 11.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "28",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "In an AP, if d = −4, n = 7 and aₙ = 4, then a is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "6"
+    },
+    {
+     "label": "B",
+     "text": "7"
+    },
+    {
+     "label": "C",
+     "text": "20"
+    },
+    {
+     "label": "D",
+     "text": "28"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "From aₙ = a + (n − 1)d we get 4 = a + 6(−4) = a − 24, so a = 28.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Duplicate of question 7; printed again with the same options and key (d)."
+  },
+  {
+   "number": "29",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The first four terms of an AP whose first term is −2 and the common difference is −2 are",
+   "options": [
+    {
+     "label": "A",
+     "text": "−2, 0, 2, 4"
+    },
+    {
+     "label": "B",
+     "text": "−2, 4, −8, 16"
+    },
+    {
+     "label": "C",
+     "text": "−2, −4, −6, −8"
+    },
+    {
+     "label": "D",
+     "text": "−2, −4, −8, −16"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Starting at a = −2 and adding d = −2 each time gives −2, −4, −6, −8.",
+   "concept": "General form of an AP",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "30",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The 21ᵗʰ term of an AP whose first two terms are −3 and 4, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "17"
+    },
+    {
+     "label": "B",
+     "text": "137"
+    },
+    {
+     "label": "C",
+     "text": "143"
+    },
+    {
+     "label": "D",
+     "text": "−143"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Here a = −3 and a + d = 4, so d = 7. Then a₂₁ = −3 + 20 × 7 = −3 + 140 = 137.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints \"21ᵗʰ term\"; kept verbatim."
+  },
+  {
+   "number": "31",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The number of two digit numbers which are divisible by 3 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "33"
+    },
+    {
+     "label": "B",
+     "text": "31"
+    },
+    {
+     "label": "C",
+     "text": "30"
+    },
+    {
+     "label": "D",
+     "text": "29"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The two digit multiples of 3 are 12, 15, 18, ..., 99, an AP with a = 12, d = 3 and last term 99. From 99 = 12 + (n − 1)3 we get 90 = 3n, so n = 30.",
+   "concept": "Using the formula in real problems",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem and options on page 5; the worked solution finishes at the top of page 6."
+  },
+  {
+   "number": "32",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "The list of numbers −10, −6, −2, 2, ..... is",
+   "options": [
+    {
+     "label": "A",
+     "text": "an AP with d = −16"
+    },
+    {
+     "label": "B",
+     "text": "an AP with d = 4"
+    },
+    {
+     "label": "C",
+     "text": "an AP with d = −4"
+    },
+    {
+     "label": "D",
+     "text": "not an AP"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Successive differences are −6 − (−10) = 4, −2 − (−6) = 4 and 2 − (−2) = 4. The differences are equal, so the list is an AP with common difference 4.",
+   "concept": "Common difference",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution writes \"a₁ = 10\" where the list gives a₁ = −10; a typo that does not affect the working or the answer."
+  },
+  {
+   "number": "33",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "If the nth term of an AP is 4n + 1, then the common difference is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "5"
+    },
+    {
+     "label": "D",
+     "text": "6"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Substituting n = 1 and n = 2 gives a₁ = 5 and a₂ = 9, so d = a₂ − a₁ = 9 − 5 = 4.",
+   "concept": "Common difference",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "34",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "If a, b, c, d, e, f are in AP, then e − c is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "2(c − a)"
+    },
+    {
+     "label": "B",
+     "text": "2(d − c)"
+    },
+    {
+     "label": "C",
+     "text": "2(f − d)"
+    },
+    {
+     "label": "D",
+     "text": "(d − c)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let x be the common difference. Then e = a + 4x and c = a + 2x, so e − c = 2x. Also d − c = x, hence e − c = 2(d − c).",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "35",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "If 7 times the 7th term of an AP is equal to 11 times its 11th term, then its term will be",
+   "options": [
+    {
+     "label": "A",
+     "text": "7"
+    },
+    {
+     "label": "B",
+     "text": "11"
+    },
+    {
+     "label": "C",
+     "text": "18"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "From 7a₇ = 11a₁₁ we get 7(a + 6d) = 11(a + 10d), so 7a + 42d = 11a + 110d, giving 4a + 68d = 0 and a + 17d = 0. Since a₁₈ = a + 17d, the 18th term is 0.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed stem reads \"then its term will be\"; the solution shows the term meant is the 18th term. Kept verbatim."
+  },
+  {
+   "number": "36",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "What is the common difference of four terms in AP such that the ratio of the product of the first and fourth term to that of the second and third term is 2 : 3 and the sum of all four terms is 20?",
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "1"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Take the four terms as a − 3x, a − x, a + x, a + 3x. Their sum is 4a = 20, so a = 5. The ratio gives (a − 3x)(a + 3x)/[(a − x)(a + x)] = 2/3, i.e. 3(a² − 9x²) = 2(a² − x²), so a² = 25x² and a = 5x, giving x = 1. The common difference is 2x = 2.",
+   "concept": "General form of an AP",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem and options on page 6; the worked solution finishes at the top of page 7."
+  },
+  {
+   "number": "37",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "stem": "The sum of 11 terms of an AP whose middle term is 30, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "320"
+    },
+    {
+     "label": "B",
+     "text": "330"
+    },
+    {
+     "label": "C",
+     "text": "340"
+    },
+    {
+     "label": "D",
+     "text": "350"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The middle term of 11 terms is the (11+1)/2 = 6th term, so a + 5d = 30 and a = 30 − 5d. Then S₁₁ = (11/2)(2a + 10d) = (11/2)[2(30 − 5d) + 10d] = (11/2)(60) = 330.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "38",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "stem": "Five distinct positive integers are in a arithmetic progression with a positive common difference. If their sum is 10020, then the smallest possible value of the last term is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2002"
+    },
+    {
+     "label": "B",
+     "text": "2004"
+    },
+    {
+     "label": "C",
+     "text": "2006"
+    },
+    {
+     "label": "D",
+     "text": "2007"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Write the five integers as a − 2d, a − d, a, a + d, a + 2d. Their sum is 5a = 10020, so a = 2004. The last term is a + 2d and the smallest positive integral d is 1, giving 2004 + 2 = 2006.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "39",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "stem": "If the 2nd term of an AP is 13 and 5th term is 25, what is its 7th term?",
+   "options": [
+    {
+     "label": "A",
+     "text": "30"
+    },
+    {
+     "label": "B",
+     "text": "33"
+    },
+    {
+     "label": "C",
+     "text": "37"
+    },
+    {
+     "label": "D",
+     "text": "38"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "From a + d = 13 and a + 4d = 25, subtracting gives 3d = 12, so d = 4 and a = 9. Then a₇ = 9 + 6 × 4 = 33.",
+   "concept": "Formula for the nth term",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "40",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "stem": "Assertion : If nᵗʰ term of an AP is 7 − 4n, then its common differences is −4. Reason : Common difference of an AP is given by d = aₙ₊₁ − aₙ.",
+   "assertion": "If nᵗʰ term of an AP is 7 − 4n, then its common differences is −4.",
+   "reason": "Common difference of an AP is given by d = aₙ₊₁ − aₙ.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "With aₙ = 7 − 4n, d = aₙ₊₁ − aₙ = [7 − 4(n + 1)] − (7 − 4n) = 7 − 4n − 4 − 7 + 4n = −4. Both the assertion and the reason are true, and the reason is exactly the rule used to obtain the assertion, so it is the correct explanation.",
+   "concept": "Common difference",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Assertion text is on page 7; the solution finishes at the top of page 8. The book prints \"common differences\" (plural); kept verbatim."
+  },
+  {
+   "number": "41",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 8,
+   "stem": "Assertion : Common difference of the AP −5, −1, 3, 7, .......... is 4. Reason : Common difference of the AP a, a + d, a + 2d, .......... is given by d = a₂ − a₁.",
+   "assertion": "Common difference of the AP −5, −1, 3, 7, .......... is 4.",
+   "reason": "Common difference of the AP a, a + d, a + 2d, .......... is given by d = a₂ − a₁.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The common difference is d = −1 − (−5) = 4, so the assertion is true, and it was obtained by exactly the rule stated in the reason, which is therefore true and is the correct explanation. The answer is option (a).",
+   "concept": "Common difference",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "KEY CONFLICT: the printed solution states \"So, both A and R are correct and R explains A\" — which is option (a) — but then prints \"Thus (c) is correct option.\" The worked solution wins, so the key recorded here is (a)."
+  },
+  {
+   "number": "42",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 8,
+   "stem": "Assertion : If sum of the first n terms of an AP is given by Sₙ = 3n² − 4n. Then its nᵗʰ term is aₙ = 6n − 7. Reason : nᵗʰ term of an AP, whose sum to n terms is Sₙ, is given by aₙ = Sₙ − Sₙ₋₁.",
+   "assertion": "If sum of the first n terms of an AP is given by Sₙ = 3n² − 4n. Then its nᵗʰ term is aₙ = 6n − 7.",
+   "reason": "nᵗʰ term of an AP, whose sum to n terms is Sₙ, is given by aₙ = Sₙ − Sₙ₋₁.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Using aₙ = Sₙ − Sₙ₋₁ = 3n² − 4n − 3(n − 1)² + 4(n − 1) = 6n − 7. Both the assertion and the reason are true, and the reason is the rule that produces the assertion, so it is the correct explanation.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "43",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 8,
+   "stem": "Assertion : Sum of first 10 terms of the arithmetic progression −0.5, −1.0, −1.5, .......... is 31. Reason : Sum of n terms of an AP is given as Sₙ = (n/2)[2a + (n − 1)d] where a is first term and d common difference.",
+   "assertion": "Sum of first 10 terms of the arithmetic progression −0.5, −1.0, −1.5, .......... is 31.",
+   "reason": "Sum of n terms of an AP is given as Sₙ = (n/2)[2a + (n − 1)d] where a is first term and d common difference.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Here a = −0.5 and d = −0.5, so S₁₀ = (10/2)[2(−0.5) + 9(−0.5)] = 5(−1 − 4.5) = 5(−5.5) = −27.5, not 31. The assertion is false while the reason states the correct sum formula and is true.",
+   "concept": "Formula for the sum",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed working writes \"= 5(−5.5) = 27.5\", dropping the minus sign; the value is −27.5. Either way the assertion (31) is false, so the key (d) stands."
+  },
+  {
+   "number": "44",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 8,
+   "stem": "Assertion : aₙ − aₙ₋₁ is not independent of n then the given sequence is an AP. Reason : Common difference d = aₙ − aₙ₋₁ is constant or independent of n.",
+   "assertion": "aₙ − aₙ₋₁ is not independent of n then the given sequence is an AP.",
+   "reason": "Common difference d = aₙ − aₙ₋₁ is constant or independent of n.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "For an AP the difference aₙ − aₙ₋₁ must be constant, i.e. independent of n, so the assertion — which requires it to depend on n — is false. The reason states the correct definition of the common difference and is true.",
+   "concept": "Common difference",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution's prose line reads \"So, A is correct but R is incorrect\" (option c) while the same solution's reasoning and its key both give (d). The reasoning (\"d = aₙ − aₙ₋₁ is independent of n or constant\") makes the assertion false and the reason true, which is (d); the stray prose line is a misprint."
+  }
+ ]
+}

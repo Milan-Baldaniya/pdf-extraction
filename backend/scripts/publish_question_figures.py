@@ -51,6 +51,30 @@ CDN_HOST = "https://s3-triz.fra1.cdn.digitaloceanspaces.com"
 UNREACHABLE = re.compile(r"^\s*$|127\.0\.0\.1|localhost|^/|^file:", re.IGNORECASE)
 
 
+def _cdn_object(sha: str) -> str | None:
+    """Is this figure already on the CDN under its content hash?
+
+    The object key is the asset's sha256, so a figure uploaded once stays
+    uploaded even if its row later loses source_path - which is exactly what a
+    reload does when the asset manifest omits `relative_path`. Without this,
+    89 already-published figures were reported as "local file NOT found" and
+    would have been left pointing at 127.0.0.1.
+    """
+    import urllib.error
+    import urllib.request
+
+    for ext in (".jpg", ".png", ".jpeg"):
+        url = f"{CDN_HOST}/{KEY_PREFIX}/{sha}{ext}"
+        request = urllib.request.Request(url, method="HEAD")
+        try:
+            with urllib.request.urlopen(request, timeout=15) as response:
+                if response.status == 200:
+                    return url
+        except Exception:
+            continue
+    return None
+
+
 def laravel_env() -> dict[str, str]:
     if not LARAVEL_ENV.exists():
         raise SystemExit(f"cannot read credentials: {LARAVEL_ENV} not found")
@@ -119,23 +143,43 @@ def main() -> int:
     finally:
         db.close()
 
-    todo, already, missing = [], 0, []
+    todo, already, missing, repoint = [], 0, [], []
     for asset_id, sha, src, url, mime in rows:
         if url and not UNREACHABLE.search(url):
             already += 1
             continue
         path = local_file(src or "")
         if path is None:
-            missing.append((asset_id, src))
+            # Re-uploading is impossible without the file, but the figure may
+            # already BE on the CDN under its content hash. Ask before calling
+            # it unpublishable.
+            found = _cdn_object(sha) if sha else None
+            if found:
+                repoint.append((asset_id, found))
+            else:
+                missing.append((asset_id, src))
             continue
         todo.append((asset_id, sha, path, mime))
 
     print(f"figures for standard {args.standard} / subject {args.subject}: {len(rows)}")
     print(f"  already on a reachable host : {already}")
     print(f"  to upload                   : {len(todo)}")
+    print(f"  already on the CDN, repoint : {len(repoint)}")
     print(f"  local file NOT found        : {len(missing)}")
     for a, s in missing[:5]:
         print(f"      asset {a}: {s}")
+
+    if repoint and not args.dry:
+        db = SessionLocal()
+        try:
+            for asset_id, url in repoint:
+                db.execute(
+                    text("UPDATE lms_question_asset SET stored_url = :u WHERE id = :i"),
+                    {"u": url, "i": asset_id})
+            db.commit()
+        finally:
+            db.close()
+        print(f"  repointed to the CDN        : {len(repoint)}")
 
     if not todo:
         return 0
@@ -149,7 +193,15 @@ def main() -> int:
     env = laravel_env()
     s3, bucket = client(env)
     db = SessionLocal()
-    uploaded = failed = 0
+    # Fail fast on a locked row instead of waiting out the server's default 50
+    # seconds. With 47 rows behind somebody else's open transaction that
+    # default turns a two-minute job into forty minutes.
+    try:
+        db.execute(text("SET SESSION innodb_lock_wait_timeout = 3"))
+        db.commit()
+    except Exception:
+        pass
+    uploaded = failed = deferred = 0
     try:
         for asset_id, sha, path, mime in todo:
             key = f"{KEY_PREFIX}/{sha}{path.suffix.lower()}"
@@ -165,15 +217,26 @@ def main() -> int:
                 failed += 1
                 print(f"   upload failed for asset {asset_id}: {type(exc).__name__}: {exc}")
                 continue
-            db.execute(
-                text("UPDATE lms_question_asset SET stored_url = :u WHERE id = :i"),
-                {"u": f"{CDN_HOST}/{key}", "i": asset_id},
-            )
-            uploaded += 1
-            if uploaded % 25 == 0:
+            # Commit each row on its own. A single row locked by somebody
+            # else's open transaction used to abort the whole run with "Lock
+            # wait timeout exceeded", losing the other 46 uploads with it - the
+            # file is already in the bucket by then, so the work was wasted.
+            try:
+                db.execute(
+                    text("UPDATE lms_question_asset SET stored_url = :u WHERE id = :i"),
+                    {"u": f"{CDN_HOST}/{key}", "i": asset_id},
+                )
                 db.commit()
+                uploaded += 1
+            except Exception as exc:
+                db.rollback()
+                deferred += 1
+                if deferred <= 3:
+                    print(f"   asset {asset_id} row is locked, left for a later run "
+                          f"({type(exc).__name__}); the image is uploaded")
+                continue
+            if uploaded % 25 == 0:
                 print(f"   {uploaded}/{len(todo)} …", flush=True)
-        db.commit()
     finally:
         db.close()
 

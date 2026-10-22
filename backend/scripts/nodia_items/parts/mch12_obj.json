@@ -1,0 +1,746 @@
+{
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The volume of the largest right circular cone that can be carved out from a solid cube of edge 2 cm is",
+   "options": [
+    {
+     "label": "A",
+     "text": "4π/3 cu cm"
+    },
+    {
+     "label": "B",
+     "text": "5π/3 cu cm"
+    },
+    {
+     "label": "C",
+     "text": "8π/3 cu cm"
+    },
+    {
+     "label": "D",
+     "text": "2π/3 cu cm"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The largest right circular cone that can be cut from a cube of edge 2 cm has base diameter equal to the edge, 2 cm, so radius r = 1 cm, and height h = 2 cm. Volume V = (1/3)πr²h = (1/3) × π × 1² × 2 = 2π/3 cu cm.",
+   "concept": "The basic solids",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Options printed as stacked fractions; rendered inline as 4π/3 etc."
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "A solid sphere is cut into two hemispheres. The ratio of the surface areas of sphere to that of two hemispheres taken together, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 : 1"
+    },
+    {
+     "label": "B",
+     "text": "1 : 4"
+    },
+    {
+     "label": "C",
+     "text": "2 : 3"
+    },
+    {
+     "label": "D",
+     "text": "3 : 2"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Surface area of the solid sphere is S₁ = 4πr². Each solid hemisphere has a curved part and a flat circular face, so S₂ = 2πr² + πr² = 3πr², and two of them give 2S₂ = 6πr². Hence S₁ : 2S₂ = 4πr² : 6πr² = 2 : 3.",
+   "concept": "Only exposed surfaces are visible",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The volume of a right circular cone whose area of the base is 156 cm² and the vertical height is 8 cm, is:",
+   "options": [
+    {
+     "label": "A",
+     "text": "2496 cm³"
+    },
+    {
+     "label": "B",
+     "text": "1248 cm³"
+    },
+    {
+     "label": "C",
+     "text": "1664 cm³"
+    },
+    {
+     "label": "D",
+     "text": "416 cm³"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The base area is πr² = 156 cm². Volume of the cone V = (1/3)πr²h = (1/3) × 156 × 8 = 416 cm³.",
+   "concept": "The basic solids",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If the radius of the sphere is increased by 100%, the volume of the corresponding sphere is increased by",
+   "options": [
+    {
+     "label": "A",
+     "text": "200%"
+    },
+    {
+     "label": "B",
+     "text": "500%"
+    },
+    {
+     "label": "C",
+     "text": "700%"
+    },
+    {
+     "label": "D",
+     "text": "800%"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Let the original radius be r, so V = (4/3)πr³. Increasing the radius by 100% makes it 2r, and the new volume is (4/3)π(2r)³ = 8 × (4/3)πr³, that is 8 times the original. The new volume is 800% of the original, so the increase is 700%.",
+   "concept": "The basic solids",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Solution spans pages 1–2; the printed step '(4/3)π × 8r²' is a typo for 8r³, harmless to the stated result."
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "A sphere is melted and half of the melted liquid is used to form 11 identical cubes, whereas the remaining half is used to form 7 identical smaller spheres. The ratio of the side of the cube to the radius of the new small sphere is",
+   "options": [
+    {
+     "label": "A",
+     "text": "(4/3)^(1/3)"
+    },
+    {
+     "label": "B",
+     "text": "(8/3)^(1/3)"
+    },
+    {
+     "label": "C",
+     "text": "3^(1/3)"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Each half of the melted sphere has the same volume, so the 11 cubes and the 7 small spheres are equal in total volume: 11a³ = 7 × (4/3) × (22/7) × r³ = (88/3)r³. Hence a³/r³ = 88/33 = 8/3, and a/r = (8/3)^(1/3).",
+   "concept": "Volumes simply add",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Cube-root options printed as ( )^(1/3); question carries the book's 'melting question' light mark."
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The base radii of a cone and a cylinder are equal. If their curved surface areas are also equal, then the ratio of the slant height of the cone to the height of the cylinder is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2 : 1"
+    },
+    {
+     "label": "B",
+     "text": "1 : 2"
+    },
+    {
+     "label": "C",
+     "text": "1 : 3"
+    },
+    {
+     "label": "D",
+     "text": "3 : 1"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Equating the curved surface areas with a common radius r gives πrl = 2πrh, so l/h = 2/1. The ratio of the slant height of the cone to the height of the cylinder is 2 : 1.",
+   "concept": "Adding the curved surface areas",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If the perimeter of one face of a cube is 20 cm, then its surface area is",
+   "options": [
+    {
+     "label": "A",
+     "text": "120 cm²"
+    },
+    {
+     "label": "B",
+     "text": "150 cm²"
+    },
+    {
+     "label": "C",
+     "text": "125 cm²"
+    },
+    {
+     "label": "D",
+     "text": "400 cm²"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "A face of a cube is a square, so the edge is a = 20/4 = 5 cm. The total surface area is 6a² = 6 × 5² = 150 cm².",
+   "concept": "The basic solids",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Foreign 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "Ratio of lateral surface areas of two cylinders with equal height is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1 : 2"
+    },
+    {
+     "label": "B",
+     "text": "H : h"
+    },
+    {
+     "label": "C",
+     "text": "R : r"
+    },
+    {
+     "label": "D",
+     "text": "None of these"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "With the same height h, the lateral surface areas are 2πRh and 2πrh, so their ratio is 2πRh : 2πrh = R : r.",
+   "concept": "Adding the curved surface areas",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Options printed one per line rather than in two columns."
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "Volume of a spherical shell is given by",
+   "options": [
+    {
+     "label": "A",
+     "text": "4π(R² − r²)"
+    },
+    {
+     "label": "B",
+     "text": "π(R³ − r³)"
+    },
+    {
+     "label": "C",
+     "text": "4π(R³ − r³)"
+    },
+    {
+     "label": "D",
+     "text": "(4/3)π(R³ − r³)"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A spherical shell is the outer solid sphere with the inner sphere removed, so its volume is (4/3)πR³ − (4/3)πr³ = (4/3)π(R³ − r³).",
+   "concept": "Breaking a solid into known parts",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No board/year tag printed for this question."
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "Ratio of volumes of two cylinders with equal height is",
+   "options": [
+    {
+     "label": "A",
+     "text": "H : h"
+    },
+    {
+     "label": "B",
+     "text": "R : r"
+    },
+    {
+     "label": "C",
+     "text": "R² : r²"
+    },
+    {
+     "label": "D",
+     "text": "None of these"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "With the same height h, the volumes are πR²h and πr²h, so their ratio is πR²h : πr²h = R² : r².",
+   "concept": "The basic solids",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Foreign 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "Ratio of volumes of two cones with same radii is",
+   "options": [
+    {
+     "label": "A",
+     "text": "h₁ : h₂"
+    },
+    {
+     "label": "B",
+     "text": "s₁ : s₂"
+    },
+    {
+     "label": "C",
+     "text": "r₁ : r₂"
+    },
+    {
+     "label": "D",
+     "text": "None of these"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The volumes are (1/3)πr₁²h₁ and (1/3)πr₂²h₂. Since the radii are the same, r₁ = r₂, the r² factors cancel and the ratio reduces to h₁ : h₂.",
+   "concept": "The basic solids",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No board/year tag printed for this question."
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The diameter of a sphere is 6 cm. It is melted and drawn into a wire of diameter 2 mm. The length of the wire is",
+   "options": [
+    {
+     "label": "A",
+     "text": "12 m"
+    },
+    {
+     "label": "B",
+     "text": "18 m"
+    },
+    {
+     "label": "C",
+     "text": "36 m"
+    },
+    {
+     "label": "D",
+     "text": "66 m"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Melting conserves volume, so the cylindrical wire has the volume of the sphere: πr²l = (4/3)πR³ with R = 3 cm and wire radius r = 1 mm = 1/10 cm. Then π × (1/100) × l = (4/3)π × 27, giving l/100 = 36, so l = 3600 cm = 36 m.",
+   "concept": "Volumes simply add",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Foreign 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Solution spans pages 2–3; the book's light mark (melting question) is printed on this item."
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "From a solid circular cylinder with height 10 cm and radius of the base 6 cm, a right circular cone of the same height and same base is removed, then the volume of remaining solid is",
+   "options": [
+    {
+     "label": "A",
+     "text": "280 π cm³"
+    },
+    {
+     "label": "B",
+     "text": "330 π cm³"
+    },
+    {
+     "label": "C",
+     "text": "240 π cm³"
+    },
+    {
+     "label": "D",
+     "text": "440 π cm³"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Volume of the remaining solid = volume of the cylinder − volume of the cone = π × 6² × 10 − (1/3) × π × 6² × 10 = 360π − 120π = 240π cm³.",
+   "concept": "Breaking a solid into known parts",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 SQP 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If two solid hemispheres of same base radius r are joined together along their bases, then curved surface area of this new solid is",
+   "options": [
+    {
+     "label": "A",
+     "text": "4πr²"
+    },
+    {
+     "label": "B",
+     "text": "6πr²"
+    },
+    {
+     "label": "C",
+     "text": "3πr²"
+    },
+    {
+     "label": "D",
+     "text": "8πr²"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Joining the two hemispheres along their flat faces makes a solid sphere, and those flat faces are no longer exposed. The curved surface area is 2πr² + 2πr² = 4πr².",
+   "concept": "Adding the curved surface areas",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "A right circular cylinder of radius r and height h (where, h > 2r) just encloses a sphere of diameter",
+   "options": [
+    {
+     "label": "A",
+     "text": "r"
+    },
+    {
+     "label": "B",
+     "text": "2r"
+    },
+    {
+     "label": "C",
+     "text": "h"
+    },
+    {
+     "label": "D",
+     "text": "2h"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The sphere is enclosed by the cylinder, so the widest it can be is the width of the cylinder. Its diameter therefore equals the diameter of the cylinder, which is 2r.",
+   "concept": "Recognising the parts",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "During conversion of a solid from one shape to another, the volume of the new shape will",
+   "options": [
+    {
+     "label": "A",
+     "text": "increase"
+    },
+    {
+     "label": "B",
+     "text": "decrease"
+    },
+    {
+     "label": "C",
+     "text": "remain unaltered"
+    },
+    {
+     "label": "D",
+     "text": "be doubled"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Recasting a solid only rearranges the same material, so no matter is added or lost. The volume of the new shape remains unaltered.",
+   "concept": "Volumes simply add",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 SQP 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Solution runs into the right column of page 3."
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "A solid piece of iron in the form of a cuboid of dimensions 49 cm × 33 cm × 24 cm, is moulded to form a solid sphere. The radius of the sphere is",
+   "options": [
+    {
+     "label": "A",
+     "text": "21 cm"
+    },
+    {
+     "label": "B",
+     "text": "23 cm"
+    },
+    {
+     "label": "C",
+     "text": "25 cm"
+    },
+    {
+     "label": "D",
+     "text": "19 cm"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Moulding conserves volume, so (4/3)πr³ = 49 × 33 × 24 = 38808 cm³. Then 4 × (22/7) × r³ = 38808 × 3, giving r³ = (38808 × 3 × 7)/(4 × 22) = 441 × 21 = 21 × 21 × 21. Hence r = 21 cm.",
+   "concept": "Volumes simply add",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Item carries the book's light mark for melting questions."
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "Twelve solid spheres of the same size are made by melting a solid metallic cylinder of base diameter 2 cm and height 16 cm. The diameter of each sphere is",
+   "options": [
+    {
+     "label": "A",
+     "text": "4 cm"
+    },
+    {
+     "label": "B",
+     "text": "3 cm"
+    },
+    {
+     "label": "C",
+     "text": "2 cm"
+    },
+    {
+     "label": "D",
+     "text": "6 cm"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The twelve spheres together hold the cylinder's volume: 12 × (4/3)πr³ = π × 1² × 16, so 16πr³ = 16π and r³ = 1, giving r = 1 cm. The diameter of each sphere is d = 2r = 2 cm.",
+   "concept": "Volumes simply add",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 Delhi 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Item carries the book's light mark for melting questions."
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "In a right circular cone, the cross-section made by a plane parallel to the base is a",
+   "options": [
+    {
+     "label": "A",
+     "text": "circle"
+    },
+    {
+     "label": "B",
+     "text": "frustum of a cone"
+    },
+    {
+     "label": "C",
+     "text": "sphere"
+    },
+    {
+     "label": "D",
+     "text": "hemisphere"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "A cut parallel to the base of a right circular cone meets the cone in a shape similar to the base. The base is a circle, so the cross-section is a circle.",
+   "concept": "Recognising the parts",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed question number sits under the red NODIA side watermark on page 3; read as 19 from the run 18 → 20. No board/year tag printed. Options printed one per line; solution continues on page 4."
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Volumes of two spheres are in the ratio 64 : 27. The the ratio of their surface areas is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3 : 4"
+    },
+    {
+     "label": "B",
+     "text": "4 : 3"
+    },
+    {
+     "label": "C",
+     "text": "9 : 16"
+    },
+    {
+     "label": "D",
+     "text": "16 : 9"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "From V₁/V₂ = r₁³/r₂³ = 64/27 we get r₁/r₂ = 4/3. Surface areas go as the square of the radius, so S₁/S₂ = (r₁/r₂)² = (4/3)² = 16/9, that is 16 : 9.",
+   "concept": "Why area and volume differ",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-2 OD 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem printed with a duplicated word: 'The the ratio' — kept as printed."
+  },
+  {
+   "number": "21",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 4,
+   "stem": "Assertion : The slant height of the frustum of a cone is 5 cm and the difference between the radii of its two circular ends is 4 cm. Then the height of the frustum is 3 cm.\nReason : Slant height of the frustum of the cone is given by l = √((R − r)² + h²).",
+   "assertion": "The slant height of the frustum of a cone is 5 cm and the difference between the radii of its two circular ends is 4 cm. Then the height of the frustum is 3 cm.",
+   "reason": "Slant height of the frustum of the cone is given by l = √((R − r)² + h²).",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The reason states the standard relation l = √((R − r)² + h²), which is correct. Putting l = 5 cm and R − r = 4 cm gives 5 = √(4² + h²), so 16 + h² = 25, h² = 9 and h = 3 cm. The assertion is true and the reason is exactly the relation that produces it, so both are true and the reason explains the assertion.",
+   "concept": "Recognising the parts",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Solution continues at the top of the right column of page 4. No board/year tag printed."
+  },
+  {
+   "number": "22",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 4,
+   "stem": "Assertion : Total surface area of the cylinder having radius of the base 14 cm and height 30 cm is 3872 cm²\nReason : If r be the radius and h be the height of the cylinder, then total surface area = (2πrh + 2πr²).",
+   "assertion": "Total surface area of the cylinder having radius of the base 14 cm and height 30 cm is 3872 cm².",
+   "reason": "If r be the radius and h be the height of the cylinder, then total surface area = (2πrh + 2πr²).",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The reason gives the correct formula. Using it, 2πrh + 2πr² = 2πr(h + r) = 2 × (22/7) × 14 × (30 + 14) = 88 × 44 = 3872 cm². The assertion is true and the reason is the formula that yields it, so both are true and the reason explains the assertion.",
+   "concept": "The basic solids",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "No board/year tag printed."
+  },
+  {
+   "number": "23",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 4,
+   "stem": "Assertion : If the height of a cone is 24 cm and diameter of the base is 14 cm, then the slant height of the cone is 15 cm.\nReason : If r be the radius and h be the slant height of the cone, then slant height = √(h² + r²).",
+   "assertion": "If the height of a cone is 24 cm and diameter of the base is 14 cm, then the slant height of the cone is 15 cm.",
+   "reason": "If r be the radius and h be the slant height of the cone, then slant height = √(h² + r²).",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "With diameter 14 cm the radius is 7 cm, so the slant height is l = √(7² + 24²) = √(49 + 576) = √625 = 25 cm, not 15 cm. The assertion is false. The relation l = √(h² + r²) quoted in the reason is the correct one, so the reason is true.",
+   "concept": "The basic solids",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The reason misnames h as the 'slant height' where it is the vertical height; the formula itself is correct and the book treats the reason as true. Solution completes at the top of page 5. No board/year tag printed."
+  }
+ ]
+}

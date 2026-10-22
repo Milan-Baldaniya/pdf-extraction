@@ -1,0 +1,276 @@
+{
+ "items": [
+  {
+   "number": "140",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "A person on tour has Rs 4200 for his expenses. If he extends his tour for 3 days, he has to cut down his daily expenses by Rs 70. Find the original duration of the tour.",
+   "answer": "Let the original duration of the tour be x days, so the daily expense is 4200/x.\nIf the tour is extended by 3 days the daily expense becomes 4200/(x + 3), and it falls by Rs 70.\n4200/x − 4200/(x + 3) = 70\n4200 × 3 = 70x(x + 3) ⇒ 180 = x² + 3x\nx² + 3x − 180 = 0 ⇒ (x + 15)(x − 12) = 0 ⇒ x = −15 or x = 12.\nA duration cannot be negative, so x = 12.\nHence, the original duration of the tour is 12 days.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "141",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2014, 2012",
+   "stem": "The sum of ages (in years) of a son and his father is 35 years and product of their ages is 150 years, find their ages.",
+   "answer": "Let the father's age be x years and the son's age be y years.\nx + y = 35  ...(1)\nxy = 150  ...(2)\nFrom (1), y = 35 − x. Substituting in (2): x(35 − x) = 150 ⇒ x² − 35x + 150 = 0.\n(x − 30)(x − 5) = 0 ⇒ x = 30 or x = 5.\nThe father cannot be 5 years old, so x = 30 and y = 35 − 30 = 5.\nHence, the father is 30 years old and the son is 5 years old.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "142",
+   "form": "long",
+   "marks": 5,
+   "page": 30,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2012",
+   "stem": "One fourth of a herd of camels was seen in forest. Twice of square root of the herd had gone to mountain and remaining 15 camels were seen on the bank of a river, find the total number of camels.",
+   "answer": "Let the total number of camels be x.\nx/4 + 2√x + 15 = x ⇒ 3x − 8√x − 60 = 0.\nPut √x = y, so x = y²: 3y² − 8y − 60 = 0.\n3y² − 18y + 10y − 60 = 0 ⇒ 3y(y − 6) + 10(y − 6) = 0 ⇒ (3y + 10)(y − 6) = 0.\ny = 6 or y = −10/3; a square root cannot be negative, so y = 6.\nThen x = y² = 36.\nHence, the herd has 36 camels.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "143",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD",
+   "stem": "In a class test, the sum of Arun's marks in Hindi and English is 30. Had he got 2 marks more in Hindi and 3 marks less in English, the product of the marks would have been 210. Find his marks in the two subjects.",
+   "answer": "Let the marks in Hindi be x and the marks in English be y.\nx + y = 30  ...(1)\n(x + 2)(y − 3) = 210. Using y = 30 − x, (x + 2)(27 − x) = 210.\n27x − x² + 54 − 2x = 210 ⇒ x² − 25x + 156 = 0.\nx² − 13x − 12x + 156 = 0 ⇒ (x − 12)(x − 13) = 0 ⇒ x = 12 or x = 13.\nIf x = 12 then y = 18; if x = 13 then y = 17.\nHence, his marks are 12 in Hindi and 18 in English (or 13 in Hindi and 17 in English).",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "144",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2012",
+   "stem": "A shopkeeper buys a number of books for Rs. 1200. If he had bought 10 more books for the same amount, each book would have cost him Rs. 20 less. How many books did he buy?",
+   "answer": "Let the number of books bought be x, so the cost of one book is 1200/x.\nWith 10 more books the cost per book is 1200/(x + 10), which is Rs 20 less.\n1200/x − 1200/(x + 10) = 20 ⇒ 1200 × 10 = 20x(x + 10)\nx² + 10x − 600 = 0 ⇒ (x + 30)(x − 20) = 0 ⇒ x = −30 or x = 20.\nThe number of books cannot be negative, so x = 20.\nHence, he bought 20 books.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "145",
+   "form": "long",
+   "marks": 5,
+   "page": 31,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 OD Standard",
+   "stem": "A fast train takes 3 hours less than a slow train for a journey of 60 km. If the speed of the slow train is 10 km/h less than that of the fast train, find the speed of each train.",
+   "answer": "Let the speed of the fast train be x km/h, so the speed of the slow train is (x − 10) km/h. The worked solution takes the journey as 600 km.\nTime by fast train = 600/x, time by slow train = 600/(x − 10), and the slow train takes 3 hours more.\n600/(x − 10) − 600/x = 3 ⇒ 6000 = 3(x² − 10x)\nx² − 10x − 2000 = 0 ⇒ x² − 50x + 40x − 2000 = 0 ⇒ (x − 50)(x + 40) = 0 ⇒ x = 50 or x = −40.\nSpeed cannot be negative, so x = 50.\nHence, the fast train runs at 50 km/h and the slow train at 40 km/h.",
+   "concept": "Framing an equation from a word problem",
+   "ocr": "Stem prints the journey as 60 km but the worked solution uses 600 km throughout (600/x, 600/(x−10)); with 60 km the answer would not be 50 and 40 km/h. Followed the solution and said so in the answer."
+  },
+  {
+   "number": "146",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi Compt 2017",
+   "stem": "A car covers a distance of 2592 km with a uniform speed. The number of hours taken for journey is one half the number representing the speed in km/hour. Find the time taken to cover the distance.",
+   "answer": "Let the speed of the car be x km/h. Then the time taken is x/2 hours.\nSpeed = distance / time ⇒ x = 2592 ÷ (x/2)\nx² = 2592 × 2 = 5184 ⇒ x = √5184 = 72 km/h.\nTime taken = x/2 = 72/2 = 36 hours.\nHence, the car takes 36 hours to cover the distance.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "147",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2017",
+   "stem": "Speed of a boat in still water is 15 km/hour. It goes 30 km up stream and returns back at the same point in 4 hours 30 minutes. Find the speed of the stream.",
+   "answer": "Let the speed of the stream be x km/h.\nUpstream speed = (15 − x) km/h, downstream speed = (15 + x) km/h, and the total time is 4½ hours.\n30/(15 − x) + 30/(15 + x) = 9/2\n[30(15 + x) + 30(15 − x)] / (225 − x²) = 9/2 ⇒ 900/(225 − x²) = 9/2\n1800 = 9(225 − x²) ⇒ 200 = 225 − x² ⇒ x² = 25 ⇒ x = ±5.\nA speed cannot be negative, so x = 5.\nHence, the speed of the stream is 5 km/h.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "148",
+   "form": "long",
+   "marks": 5,
+   "page": 32,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 Delhi",
+   "stem": "Two water taps together can fill a tank in 1⁷⁄₈ hours. The tap with longer diameter takes 2 hours less than the tap with smaller one to fill the tank separately. Find the time in which each tap can fill the tank separately.",
+   "answer": "Let the smaller tap alone take t hours; the larger tap then takes (t − 2) hours.\nTogether they take 1⁷⁄₈ = 15/8 hours, so in one hour they fill 8/15 of the tank.\n1/t + 1/(t − 2) = 8/15 ⇒ 15(2t − 2) = 8t(t − 2)\n30t − 30 = 8t² − 16t ⇒ 8t² − 46t + 30 = 0 ⇒ 4t² − 23t + 15 = 0\n4t² − 20t − 3t + 15 = 0 ⇒ (4t − 3)(t − 5) = 0 ⇒ t = 3/4 or t = 5.\nIf t = 3/4 then t − 2 is negative, which is impossible, so t = 5 and t − 2 = 3.\nHence, the smaller tap fills the tank in 5 hours and the larger tap in 3 hours.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "149",
+   "form": "long",
+   "marks": 5,
+   "page": 33,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2017",
+   "stem": "Two taps running together can fill a tank in 3¹⁄₁₃ hours. If one tap takes 3 hours more than the other to fill the tank, then how much time will each tap take to fill the tank?",
+   "answer": "Together the taps take 3¹⁄₁₃ = 40/13 hours, so in one hour they fill 13/40 of the tank.\nLet the first tap alone take x hours; the second then takes (x + 3) hours.\n1/x + 1/(x + 3) = 13/40 ⇒ 40(2x + 3) = 13x(x + 3)\n80x + 120 = 13x² + 39x ⇒ 13x² − 41x − 120 = 0\n13x² − 65x + 24x − 120 = 0 ⇒ (x − 5)(13x + 24) = 0 ⇒ x = 5 or x = −24/13.\nTime cannot be negative, so x = 5 and x + 3 = 8.\nHence, the first tap takes 5 hours and the second tap takes 8 hours.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "150",
+   "form": "long",
+   "marks": 5,
+   "page": 33,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi Compt. 2017, OD 2017",
+   "stem": "Ram takes 6 days less than Bhagat to finish a place of work. If both of them together can finish the work in 4 days, in how many days Bhagat alone can finish the work ?",
+   "answer": "Let Bhagat alone finish the work in x days; Ram then takes (x − 6) days.\nWorking together they finish it in 4 days, so in one day they do 1/4 of the work.\n1/x + 1/(x − 6) = 1/4 ⇒ 4(2x − 6) = x(x − 6)\n8x − 24 = x² − 6x ⇒ x² − 14x + 24 = 0\nx² − 12x − 2x + 24 = 0 ⇒ (x − 12)(x − 2) = 0 ⇒ x = 12 or x = 2.\nIf x = 2 then Ram would take 2 − 6 = −4 days, which is impossible, so x = 12.\nHence, Bhagat alone can finish the work in 12 days.",
+   "concept": "Framing an equation from a word problem",
+   "ocr": "The printed factorisation reads (x − 12)(x − 12) = 0 but the same line gives the roots x = 12, x = 2; the correct factorisation of x² − 14x + 24 is (x − 12)(x − 2). Typo in the book, roots and final answer are consistent."
+  },
+  {
+   "number": "151",
+   "form": "long",
+   "marks": 5,
+   "page": 33,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 Delhi, OD STD",
+   "stem": "In a flight of 600 km, an aircraft was slowed down due to bad weather. The average speed of the trip was reduced by 200 km/hr and the time of flight increased by 30 minutes. Find the duration of flight.",
+   "answer": "Let the original speed of the flight be x km/h, so the original duration is 600/x hours.\nWith the reduced speed (x − 200) km/h the duration is 600/(x − 200) hours, which is ½ hour more.\n600/(x − 200) − 600/x = 1/2 ⇒ 600 × 200 / (x² − 200x) = 1/2\nx² − 200x = 240000 ⇒ x² − 200x − 240000 = 0\nx² − 600x + 400x − 240000 = 0 ⇒ (x − 600)(x + 400) = 0 ⇒ x = 600 or x = −400.\nSpeed cannot be negative, so the original speed is 600 km/h.\nDuration = 600 km ÷ 600 km/h = 1 hour.\nHence, the original duration of the flight is 1 hour.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "152",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2018",
+   "stem": "A plane left 30 minutes late than its scheduled time and in order to reach destination 1500 km away in time, it had to increase its speed by 100 km/h from the usual speed. Find its usual speed.",
+   "answer": "Let the usual speed of the plane be x km/h.\nTime at usual speed = 1500/x hours, time at the increased speed = 1500/(x + 100) hours, and the difference is 30 minutes = ½ hour.\n1500/x − 1500/(x + 100) = 1/2 ⇒ 1500 × 100 / [x(x + 100)] = 1/2\nx² + 100x = 300000 ⇒ x² + 100x − 300000 = 0\nx² + 600x − 500x − 300000 = 0 ⇒ (x + 600)(x − 500) = 0 ⇒ x = −600 or x = 500.\nSpeed cannot be negative, so x = 500.\nHence, the usual speed of the plane is 500 km/h.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "153",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2016",
+   "stem": "The time taken by a person to cover 150 km was 2½ hours more than the time taken in the return journey. If he returned at a speed of 10 km/hour more than the speed while going, find the speed per hour in each direction.",
+   "answer": "Let the speed while going be x km/h; the return speed is (x + 10) km/h.\n150/x − 150/(x + 10) = 5/2\n[150(x + 10) − 150x] / [x(x + 10)] = 5/2 ⇒ 1500/[x(x + 10)] = 5/2\n3000 = 5x² + 50x ⇒ x² + 10x − 600 = 0 ⇒ (x + 30)(x − 20) = 0 ⇒ x = −30 or x = 20.\nRejecting the negative value, x = 20.\nHence, the speed while going is 20 km/h and the speed while returning is 30 km/h.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "154",
+   "form": "long",
+   "marks": 5,
+   "page": 34,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2015",
+   "stem": "A train travels at a certain average speed for a distance of 54 km and then travels a distance of 63 km at an average speed of 6 km/h more than the first speed. If it takes 3 hours to complete the total journey, what is its first speed ?",
+   "answer": "Let the first speed be x km/h; for the next 63 km the speed is (x + 6) km/h.\n54/x + 63/(x + 6) = 3\n54(x + 6) + 63x = 3x(x + 6) ⇒ 117x + 324 = 3x² + 18x\n3x² − 99x − 324 = 0 ⇒ x² − 33x − 108 = 0\nx² − 36x + 3x − 108 = 0 ⇒ (x − 36)(x + 3) = 0 ⇒ x = 36 or x = −3.\nThe negative value is rejected.\nHence, the first speed of the train is 36 km/h.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "155",
+   "form": "long",
+   "marks": 5,
+   "page": 35,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 SQP 2017",
+   "stem": "A train travelling at a uniform speed for 360 km have taken 48 minutes less to travel the same distance if its speed were 5 km/hour more. Find the original speed of the train.",
+   "answer": "Let the original speed of the train be x km/h.\nTime taken = 360/x hours; at the increased speed it is 360/(x + 5) hours, which is 48 minutes = 4/5 hour less.\n360/x − 360/(x + 5) = 4/5 ⇒ 1800/(x² + 5x) = 4/5\n9000 = 4x² + 20x ⇒ x² + 5x − 2250 = 0\nx² + 50x − 45x − 2250 = 0 ⇒ (x + 50)(x − 45) = 0 ⇒ x = −50 or x = 45.\nSpeed cannot be negative, so x = 45.\nHence, the original speed of the train is 45 km/h.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "156",
+   "form": "long",
+   "marks": 5,
+   "page": 35,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2018",
+   "stem": "A motor boat whose speed is 18 km/hr in still water takes 1 hr more to go 24 km upstream than to return downstream to the same spot. Find the speed of the stream.",
+   "answer": "Let the speed of the stream be x km/h.\nUpstream speed = (18 − x) km/h and downstream speed = (18 + x) km/h.\nTime upstream − time downstream = 1 hour:\n24/(18 − x) − 24/(18 + x) = 1 ⇒ 24 × 2x / (324 − x²) = 1\n48x = 324 − x² ⇒ x² + 48x − 324 = 0\nx² + 54x − 6x − 324 = 0 ⇒ (x + 54)(x − 6) = 0 ⇒ x = 6 or x = −54.\nSpeed cannot be negative, so x = 6.\nHence, the speed of the stream is 6 km/h.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "157",
+   "form": "long",
+   "marks": 5,
+   "page": 36,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD",
+   "stem": "The total cost of a certain length of a piece of cloth is ₹200. If the piece was 5 m longer and each metre of cloth costs ₹2 less, the cost of the piece would have remained unchanged. How long is the piece and what is its original rate per metre?",
+   "answer": "Let the length of the cloth be x metres and its rate be ₹y per metre.\nxy = 200, so y = 200/x  ...(1)\nIf the piece were 5 m longer and each metre cost ₹2 less, the cost is unchanged:\n(x + 5)(y − 2) = 200 ⇒ xy − 2x + 5y − 10 = 200 ⇒ −2x + 5y = 10.\nSubstituting y = 200/x: 1000/x − 2x = 10 ⇒ 1000 − 2x² = 10x\nx² + 5x − 500 = 0 ⇒ x² + 25x − 20x − 500 = 0 ⇒ (x + 25)(x − 20) = 0 ⇒ x = −25 or x = 20.\nLength cannot be negative, so x = 20 and y = 200/20 = 10.\nHence, the piece is 20 m long and its original rate is ₹10 per metre.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "158",
+   "form": "long",
+   "marks": 5,
+   "page": 36,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "stem": "A pole has to erected at a point on the boundary of a circular park of diameter 17 m in such a way that the differences of its distances from two diametrically opposite fixed gates A and B on the boundary is 7 meters. Find the distances from the two gates where the pole is to be erected.",
+   "answer": "Let the pole stand at P on the boundary with BP = x m; then AP = (x + 7) m.\nAB = 17 m is a diameter, and the angle in a semicircle is a right angle, so ∠APB = 90°.\nBy Pythagoras, x² + (x + 7)² = 17²\n2x² + 14x + 49 = 289 ⇒ 2x² + 14x − 240 = 0 ⇒ x² + 7x − 120 = 0\nx = [−7 ± √(49 + 480)]/2 = (−7 ± 23)/2 = 8 or −15.\nA distance cannot be negative, so x = 8 and x + 7 = 15.\nHence, the pole is 8 m from one gate and 15 m from the other.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "159",
+   "form": "long",
+   "marks": 5,
+   "page": 36,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2012",
+   "stem": "The product of Tanay's age (in years) five years ago and his age ten years later is 16. Determine Tanay's present age.",
+   "answer": "Let Tanay's present age be x years.\nHis age five years ago was (x − 5) years and ten years later it will be (x + 10) years.\n(x − 5)(x + 10) = 16 ⇒ x² + 5x − 50 = 16 ⇒ x² + 5x − 66 = 0\nx² + 11x − 6x − 66 = 0 ⇒ (x + 11)(x − 6) = 0 ⇒ x = −11 or x = 6.\nAge cannot be negative, so x = 6.\nHence, Tanay's present age is 6 years.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "160",
+   "form": "long",
+   "marks": 5,
+   "page": 37,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD Compt. 2017",
+   "stem": "The difference between the radii of the smaller circle and the larger circle is 7 cm and the difference between their areas of the two circles is 1078 sq. cm. Find the radius of the smaller circle.",
+   "answer": "Let the radii be r₁ (smaller) and r₂ (larger), with r₂ − r₁ = 7 cm  ...(1)\nπ(r₂² − r₁²) = 1078 ⇒ π(r₂ − r₁)(r₂ + r₁) = 1078\n(22/7) × 7 × (r₂ + r₁) = 1078 ⇒ r₂ + r₁ = 1078/22 = 49  ...(2)\nAdding (1) and (2): 2r₂ = 56 ⇒ r₂ = 28 cm, and then r₁ = 49 − 28 = 21 cm.\nHence, the radius of the smaller circle is 21 cm (the larger one is 28 cm).",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "161",
+   "form": "long",
+   "marks": 5,
+   "page": 37,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2012",
+   "stem": "The perimeter of a rectangular field is 82 m and its area is 400 square metre. Find the length and breadth of the rectangle.",
+   "answer": "Let the length be x m and the breadth be (41 − x) m, since the perimeter 2(l + b) = 82 gives l + b = 41 m.\nArea = x(41 − x) = 400 ⇒ 41x − x² = 400 ⇒ x² − 41x + 400 = 0\n(x − 16)(x − 25) = 0 ⇒ x = 16 or x = 25.\nIf x = 16 the other side is 25, and if x = 25 the other side is 16.\nHence, the rectangle is 25 m long and 16 m broad.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "162",
+   "form": "long",
+   "marks": 5,
+   "page": 37,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2012",
+   "stem": "The length of the sides forming right angle of a right triangle are 5x cm and (3x − 1) cm. If the area of the triangle is 60 cm², find its hypotenuse.",
+   "answer": "Area of a right triangle = ½ × base × height, so\n60 = ½ × 5x × (3x − 1) ⇒ 15x² − 5x = 120 ⇒ 3x² − x − 24 = 0\n3x² − 9x + 8x − 24 = 0 ⇒ 3x(x − 3) + 8(x − 3) = 0 ⇒ (x − 3)(3x + 8) = 0 ⇒ x = 3 or x = −8/3.\nA length cannot be negative, so x = 3.\nThe legs are 5x = 15 cm and 3x − 1 = 8 cm.\nHypotenuse = √(15² + 8²) = √(225 + 64) = √289 = 17 cm.\nHence, the hypotenuse is 17 cm.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "163",
+   "form": "long",
+   "marks": 5,
+   "page": 37,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2012",
+   "stem": "The length of the hypotenuse of a right triangle exceeds the length of its base by 2 cm and exceeds twice the length of altitude by 1 cm. Find the length of each side of the triangle.",
+   "answer": "Let the altitude be x cm. Then the hypotenuse is (2x + 1) cm and the base is (2x + 1) − 2 = (2x − 1) cm.\nBy Pythagoras, (2x + 1)² = x² + (2x − 1)²\n4x² + 4x + 1 = x² + 4x² − 4x + 1 ⇒ x² − 8x = 0 ⇒ x(x − 8) = 0.\nRejecting x = 0, we get x = 8.\nAltitude = 8 cm, hypotenuse = 2 × 8 + 1 = 17 cm, base = 2 × 8 − 1 = 15 cm.\nHence, the sides of the triangle are 8 cm, 15 cm and 17 cm.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "164",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2016",
+   "stem": "The perimeter of a right triangle is 60 cm. Its hypotenuse is 25 cm. Find the area of the triangle.",
+   "answer": "Let the legs be a and b, with hypotenuse c = 25 cm.\na + b + c = 60 ⇒ a + b = 60 − 25 = 35 cm.\nBy Pythagoras, a² + b² = 25² = 625.\n(a + b)² = a² + b² + 2ab ⇒ 35² = 625 + 2ab ⇒ 1225 − 625 = 2ab ⇒ ab = 300.\nArea = ½ab = ½ × 300 = 150 cm².\nHence, the area of the triangle is 150 cm².",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "165",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2015",
+   "stem": "The diagonal of a rectangular field is 16 metre more than the shorter side. If the longer side is 14 metre more than shorter side, then find the length of the of the field.",
+   "answer": "Let the shorter side be x m. Then the diagonal is (x + 16) m and the longer side is (x + 14) m.\nBy Pythagoras, x² + (x + 14)² = (x + 16)²\nx² + x² + 28x + 196 = x² + 32x + 256 ⇒ x² − 4x − 60 = 0\nx² + 6x − 10x − 60 = 0 ⇒ (x + 6)(x − 10) = 0 ⇒ x = −6 or x = 10.\nA length cannot be negative, so x = 10.\nHence, the sides of the field are 10 m and 10 + 14 = 24 m, so the length of the field is 24 m.",
+   "concept": "Framing an equation from a word problem"
+  },
+  {
+   "number": "166",
+   "form": "long",
+   "marks": 5,
+   "page": 38,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 SQP 2016",
+   "stem": "P and Q are centres of circles of radii 9 cm and 2 cm respectively. PQ = 17 cm. R is the centre of the circle of radius x cm which touch given circles externally. Given that angle PRQ is 90°. Write an equation in x and solve it.",
+   "answer": "The circle of radius x touches the other two externally, so\nPR = (x + 9) cm and RQ = (x + 2) cm, while PQ = 17 cm.\nSince ∠PRQ = 90°, in right triangle PQR: PQ² = PR² + RQ²\n17² = (x + 9)² + (x + 2)² ⇒ 289 = x² + 18x + 81 + x² + 4x + 4\n289 = 2x² + 22x + 85 ⇒ 2x² + 22x − 204 = 0 ⇒ x² + 11x − 102 = 0\nx² + 17x − 6x − 102 = 0 ⇒ (x − 6)(x + 17) = 0 ⇒ x = 6 or x = −17.\nA radius cannot be negative, so x = 6.\nHence, the equation is x² + 11x − 102 = 0 and the radius is x = 6 cm.",
+   "concept": "Framing an equation from a word problem"
+  }
+ ]
+}

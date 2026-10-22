@@ -1,0 +1,196 @@
+{
+  "items": [
+    {
+      "number": "50",
+      "form": "short",
+      "marks": 3,
+      "page": 10,
+      "section_heading": "THREE MARKS QUESTIONS | Board 2024 OD Standard",
+      "stem": "Solve the following system of linear equations algebraically:\n2x + 5y = -4 ;  4x - 3y = 5",
+      "answer": "We have 2x + 5y = -4 ...(1) and 4x - 3y = 5 ...(2).\nMultiplying equation (1) by 2: 4x + 10y = -8 ...(3).\nSubtracting (2) from (3): 10y + 3y = -13, i.e. 13y = -13, so y = -1.\nSubstituting y = -1 in equation (1): 2x + 5(-1) = -4 → 2x = 1 → x = 1/2.\nHence x = 1/2 and y = -1.",
+      "concept": "Make coefficients equal",
+      "ocr": "Stem and solution rebuilt from the embedded text layer (python -m scripts.textlayer --chapter 3 --question 50); MinerU had rendered the equations as LaTeX array artefacts ('xy25 4+ =-'). Rewritten to Unicode/plain maths."
+    },
+    {
+      "number": "51",
+      "form": "short",
+      "marks": 3,
+      "page": 10,
+      "section_heading": "THREE MARKS QUESTIONS | Board 2024 OD Standard",
+      "stem": "The sum of the digits of a 2-digit number is 14. The number obtained by interchanging its digits exceeds the given number by 18. Find the number.",
+      "answer": "Let the tens digit be x and the ones digit be y, so the number is 10x + y.\nSum of the digits: x + y = 14 ...(1)\nInterchanging the digits exceeds the number by 18: 10y + x = 10x + y + 18 → 9y = 9x + 18 → y = x + 2 ...(2)\nSubstituting (2) in (1): x + (x + 2) = 14 → 2x = 12 → x = 6.\nThen y = 6 + 2 = 8.\nRequired number = 10x + y = 10(6) + 8 = 68.",
+      "concept": "Situations giving two equations",
+      "ocr": "Board tag [Board 2024 OD Standard] recovered from the text layer; the markdown had dropped it."
+    },
+    {
+      "number": "52",
+      "form": "short",
+      "marks": 3,
+      "page": 10,
+      "section_heading": "THREE MARKS QUESTIONS | Board 2020 OD Basic",
+      "stem": "Solve graphically: 2x - 3y + 13 = 0 ;  3x - 2y + 12 = 0",
+      "answer": "We have 2x - 3y = -13, i.e. y = (2x + 13)/3\n  x :  0    -6.5   1\n  y :  4.3   0     5\nand 3x - 2y = -12, i.e. y = (3x + 12)/2\n  x :  0    -4    -2\n  y :  6     0     3\nPlotting these points and joining them, the two lines intersect each other at the point (-2, 3).\nHence x = -2 and y = 3.",
+      "concept": "Two ways to solve",
+      "figure_required": false,
+      "ocr": "MinerU's two HTML value tables were badly damaged (first table lost the third x-value, second table lost both x-entries). Both tables restored from the embedded text layer and written as plain value rows. The graph image on page 11 belongs to the worked solution only, so no image is attached."
+    },
+    {
+      "number": "52P",
+      "form": "short",
+      "marks": 3,
+      "page": 11,
+      "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board Term-1 2014",
+      "stem": "Solve the pair of equations graphically:\n4x - y = 4  and  3x + 2y = 14",
+      "answer": "We have 4x - y = 4, i.e. y = 4x - 4\n  x :  0    1    2\n  y : -4    0    4\nand 3x + 2y = 14, i.e. y = (14 - 3x)/2\n  x :  0    2    4\n  y :  7    4    1\nPlotting these points and joining them, the two lines intersect at the point (2, 4).\nHence x = 2 and y = 4.",
+      "concept": "Two ways to solve",
+      "figure_required": false,
+      "ocr": "Unnumbered question from the PRACTICE box printed after Q52; numbered '52P' from its position, following the 73P convention used in mch02_three.json. The printed key gives only 'Ans : x = 2 and y = 4', so the table of values and the graphical reasoning are worked here. The graph is drawn by the student, so no image is attached."
+    },
+    {
+      "number": "53",
+      "form": "short",
+      "marks": 3,
+      "page": 11,
+      "section_heading": "THREE MARKS QUESTIONS | Board 2020 Delhi Basic",
+      "stem": "Solve graphically: 2x + 3y = 2, x - 2y = 8",
+      "answer": "We have 2x + 3y = 2 ...(1) and x - 2y = 8 ...(2).\nFrom (1), y = (2 - 2x)/3\n  x :  1     4    -2\n  y :  0    -2     2\nFrom (2), y = (x - 8)/2\n  x :  0     8     4\n  y : -4     0    -2\nPlotting the above points and drawing the lines joining them, the two lines intersect at P(4, -2).\nHence the solution is x = 4, y = -2.",
+      "concept": "Two ways to solve",
+      "figure_required": false,
+      "ocr": "Both value tables came through MinerU with empty/garbled cells; restored verbatim from the embedded text layer."
+    },
+    {
+      "number": "54",
+      "form": "short",
+      "marks": 3,
+      "page": 11,
+      "section_heading": "THREE MARKS QUESTIONS | Board 2019 Delhi",
+      "stem": "A fraction becomes 1/3 when 2 is subtracted from the numerator and it becomes 1/2 when 1 is subtracted from the denominator. Find the fraction.",
+      "answer": "Let the fraction be x/y.\nFirst condition: (x - 2)/y = 1/3 → 3x - 6 = y → y = 3x - 6 ...(1)\nSecond condition: x/(y - 1) = 1/2 → 2x = y - 1 → y = 2x + 1 ...(2)\nFrom (1) and (2): 3x - 6 = 2x + 1 ⇒ x = 7.\nSubstituting in (1): y = 3(7) - 6 = 21 - 6 = 15.\nHence the fraction is 7/15.",
+      "concept": "Situations giving two equations",
+      "ocr": "Board tag [Board 2019 Delhi] taken from the text layer; the markdown had dropped it. MinerU rendered the fraction x/y as a script-L artefact; corrected."
+    },
+    {
+      "number": "55",
+      "form": "short",
+      "marks": 3,
+      "page": 11,
+      "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+      "stem": "Represent the following pair of linear equations graphically and hence comment on the condition of consistency of this pair.\nx - 5y = 6  and  2x - 10y = 12",
+      "answer": "We have x - 5y = 6, or x = 5y + 6\n  x :  6     1    -4\n  y :  0    -1    -2\nand 2x - 10y = 12, or x = 5y + 6\n  x :  6     1    -4\n  y :  0    -1    -2\nPlotting the above points and drawing the lines joining them gives the graph.\nSince the two lines are coincident, the system of linear equations is consistent with infinitely many solutions.",
+      "concept": "Consistent and dependent pairs",
+      "figure_required": false,
+      "ocr": "MinerU dropped the two printed equations from the stem entirely (only the value tables survived, and they were placed before the solution). The equations x - 5y = 6 and 2x - 10y = 12 and the table values were recovered from the embedded text layer."
+    },
+    {
+      "number": "56",
+      "form": "short",
+      "marks": 3,
+      "page": 11,
+      "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2013",
+      "stem": "Determine the values of m and n so that the following system of linear equations has an infinite number of solutions:\n(2m - 1)x + 3y - 5 = 0\n3x + (n - 1)y - 2 = 0",
+      "answer": "For (2m - 1)x + 3y - 5 = 0 ...(1): a₁ = 2m - 1, b₁ = 3, c₁ = -5.\nFor 3x + (n - 1)y - 2 = 0 ...(2): a₂ = 3, b₂ = n - 1, c₂ = -2.\nFor infinitely many solutions, a₁/a₂ = b₁/b₂ = c₁/c₂:\n(2m - 1)/3 = 3/(n - 1) = 5/2\nSo 2(2m - 1) = 15 and 5(n - 1) = 6.\nHence m = 17/4 and n = 11/5.",
+      "concept": "Ratios of the coefficients",
+      "ocr": "Final answer line was broken across the 'Click Here to Buy book on Amazon' page-break furniture in the markdown ('m_a = 17/4'); read cleanly from the text layer as m = 17/4, n = 11/5. Page furniture stripped."
+    },
+    {
+      "number": "56P",
+      "form": "short",
+      "marks": 3,
+      "page": 12,
+      "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board Term-1 2011",
+      "stem": "Find the values of α and β for which the following pair of linear equations has an infinite number of solutions:\n2x + 3y = 7 ;  2αx + (α + β)y = 28",
+      "answer": "Write the equations as 2x + 3y - 7 = 0 ...(1) and 2αx + (α + β)y - 28 = 0 ...(2).\nHere a₁ = 2, b₁ = 3, c₁ = -7 and a₂ = 2α, b₂ = α + β, c₂ = -28.\nFor infinitely many solutions, a₁/a₂ = b₁/b₂ = c₁/c₂:\n2/(2α) = 3/(α + β) = -7/-28 = 1/4\nFrom 2/(2α) = 1/4: 1/α = 1/4 ⇒ α = 4.\nFrom 3/(α + β) = 1/4: α + β = 12 ⇒ β = 12 - 4 = 8.\nHence α = 4 and β = 8.",
+      "concept": "Ratios of the coefficients",
+      "ocr": "Unnumbered question from the PRACTICE box printed after Q56; numbered '56P' from its position, following the 73P convention used in mch02_three.json. MinerU mangled the stem ('Findthevaluesof ... orwhichthe ollowing'); the stem is taken from the embedded text layer. The printed key gives only 'Ans : α = 4, and β = 8', so the working is written out here."
+    },
+    {
+      "number": "57",
+      "form": "short",
+      "marks": 3,
+      "page": 12,
+      "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+      "stem": "For what value of p will the following system of equations have no solution?\n(2p - 1)x + (p - 1)y = 2p + 1 ;  y + 3x - 1 = 0",
+      "answer": "Write the equations as (2p - 1)x + (p - 1)y - (2p + 1) = 0, so a₁ = 2p - 1, b₁ = p - 1, c₁ = -(2p + 1); and 3x + y - 1 = 0, so a₂ = 3, b₂ = 1, c₂ = -1.\nThe condition for no solution is a₁/a₂ = b₁/b₂ ≠ c₁/c₂:\n(2p - 1)/3 = (p - 1)/1 ≠ (2p + 1)/1\nFrom (2p - 1)/3 = (p - 1)/1: 3p - 3 = 2p - 1 → p = 2.\nFrom (p - 1)/1 ≠ (2p + 1)/1: p ≠ -2.\nFrom (2p - 1)/3 ≠ (2p + 1)/1: 2p - 1 ≠ 6p + 3 → 4p ≠ -4 → p ≠ -1.\nHence the system has no solution when p = 2.",
+      "concept": "Inconsistent pair",
+      "ocr": "Book's own working prints '3p - 3 = 2p - 1' then '3p - 2p = 3 - 1'; kept as printed since both lead to p = 2. Equations rewritten from LaTeX artefacts to plain maths."
+    },
+    {
+      "number": "57P",
+      "form": "short",
+      "marks": 3,
+      "page": 12,
+      "section_heading": "THREE MARKS QUESTIONS | PRACTICE | Board Term-1 2011",
+      "stem": "Find the value of k for which the following pair of equations has no solution:\nx + 2y = 3 ;  (k - 1)x + (k + 1)y = (k + 2)",
+      "answer": "Write the equations as x + 2y - 3 = 0 ...(1) and (k - 1)x + (k + 1)y - (k + 2) = 0 ...(2).\nHere a₁ = 1, b₁ = 2, c₁ = -3 and a₂ = k - 1, b₂ = k + 1, c₂ = -(k + 2).\nThe condition for no solution is a₁/a₂ = b₁/b₂ ≠ c₁/c₂.\nFrom 1/(k - 1) = 2/(k + 1): k + 1 = 2(k - 1) = 2k - 2 ⇒ k = 3.\nChecking with k = 3: a₁/a₂ = 1/2 = b₁/b₂ = 2/4, while c₁/c₂ = -3/-5 = 3/5 ≠ 1/2, so the pair is indeed inconsistent.\nHence the system has no solution when k = 3.",
+      "concept": "Inconsistent pair",
+      "ocr": "Unnumbered question from the PRACTICE box printed after Q57; numbered '57P' from its position, following the 73P convention used in mch02_three.json. The printed key gives only 'Ans : k = 3', so the working is written out here."
+    },
+    {
+      "number": "58",
+      "form": "short",
+      "marks": 3,
+      "page": 12,
+      "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2015",
+      "stem": "Solve for x and y:\nx/2 + 2y/3 = -1  and  x - y/3 = 3",
+      "answer": "We have x/2 + 2y/3 = -1 → 3x + 4y = -6 ...(1)\nand x/1 - y/3 = 3 → 3x - y = 9 ...(2)\nSubtracting (2) from (1): 5y = -15 ⇒ y = -3.\nSubstituting y = -3 in (1): 3x + 4(-3) = -6 → 3x - 12 = -6 → 3x = 12 - 6 = 6 ⇒ x = 2.\nHence x = 2 and y = -3.",
+      "concept": "Add or subtract to eliminate",
+      "ocr": "The printed number was lost in the markdown (the stem runs straight on from question 57's PRACTICE box); recovered as 58 from the text layer and from position. The book's own solution misprints '5y = -15 ⇒ y = -1' and then immediately substitutes y = -3; the solution wins, so y = -3 is recorded."
+    },
+    {
+      "number": "59",
+      "form": "short",
+      "marks": 3,
+      "page": 12,
+      "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2015",
+      "stem": "Solve the following pair of linear equations:\n8x + 5y = 9,  3x + 2y = 4",
+      "answer": "From 3x + 2y = 4 ...(2): 3x = 4 - 2y, so x = (4 - 2y)/3 ...(3).\nSubstituting (3) in 8x + 5y = 9 ...(1):\n8[(4 - 2y)/3] + 5y = 9\n32 - 16y + 15y = 27\n-y = 27 - 32 ⇒ y = 5\nSubstituting y = 5 in (3): x = (4 - 2(5))/3 = (4 - 10)/3 = -2.\nHence x = -2 and y = 5.",
+      "concept": "Substitute and reduce",
+      "ocr": "Page furniture ('NODIA', page break to Page 13) stripped from the middle of the solution."
+    },
+    {
+      "number": "60",
+      "form": "short",
+      "marks": 3,
+      "page": 13,
+      "section_heading": "THREE MARKS QUESTIONS | Board Term-1 Delhi 2011",
+      "stem": "Solve for x and y:\n(x + 1)/2 + (y - 1)/3 = 9 ;  (x - 1)/3 + (y + 1)/2 = 8",
+      "answer": "From (x + 1)/2 + (y - 1)/3 = 9: 3(x + 1) + 2(y - 1) = 54 → 3x + 3 + 2y - 2 = 54 → 3x + 2y = 53 ...(1)\nFrom (x - 1)/3 + (y + 1)/2 = 8: 2(x - 1) + 3(y + 1) = 48 → 2x - 2 + 3y + 3 = 48 → 2x + 3y = 47 ...(2)\nMultiplying (1) by 3: 9x + 6y = 159 ...(3)\nMultiplying (2) by 2: 4x + 6y = 94 ...(4)\nSubtracting (4) from (3): 5x = 65 ⇒ x = 13.\nSubstituting in (2): 2(13) + 3y = 47 → 3y = 47 - 26 = 21 ⇒ y = 7.\nHence x = 13 and y = 7.",
+      "concept": "Make coefficients equal",
+      "ocr": "MinerU dropped the simplified first equation (3x + 2y = 53) and mangled equation (4) as '4x + 6y _ 94'; both restored from the embedded text layer."
+    },
+    {
+      "number": "61",
+      "form": "short",
+      "marks": 3,
+      "page": 13,
+      "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2014",
+      "stem": "Given the linear equation 2x + 3y - 8 = 0, write another linear equation in two variables such that the geometrical representation of the pair so formed is:\n(a) intersecting lines\n(b) parallel lines\n(c) coincident lines.",
+      "answer": "Given linear equation: 2x + 3y - 8 = 0 ...(1)\n(a) For intersecting lines, a₁/a₂ ≠ b₁/b₂. One possible equation is 5x + 2y - 9 = 0.\n(b) For parallel lines, a₁/a₂ = b₁/b₂ ≠ c₁/c₂. One possible equation is 6x + 9y + 7 = 0.\n(c) For coincident lines, a₁/a₂ = b₁/b₂ = c₁/c₂. One possible equation is 4x + 6y - 16 = 0.",
+      "concept": "Ratios of the coefficients",
+      "sub_parts": ["a", "b", "c"],
+      "ocr": "The book itself misprints the lead-in of part (a) as 'To get its parallel line...' under the intersecting-lines condition; the stated condition and the equation given (5x + 2y - 9 = 0, which is indeed intersecting) win, so part (a) is recorded as the intersecting line."
+    },
+    {
+      "number": "62",
+      "form": "short",
+      "marks": 3,
+      "page": 13,
+      "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2011",
+      "stem": "Solve for x and y:\nax + by = (a + b)/2  and  3x + 5y = 4",
+      "answer": "We have ax + by = (a + b)/2, or 2ax + 2by = a + b ...(1)\nand 3x + 5y = 4 ...(2)\nMultiplying (1) by 5: 10ax + 10by = 5a + 5b ...(3)\nMultiplying (2) by 2b: 6bx + 10by = 8b ...(4)\nSubtracting (4) from (3): (10a - 6b)x = 5a - 3b\nSo x = (5a - 3b)/(10a - 6b) = 1/2.\nSubstituting x = 1/2 in (2): 3 × 1/2 + 5y = 4 → 5y = 4 - 3/2 = 5/2 ⇒ y = 5/(2 × 5) = 1/2.\nHence x = 1/2 and y = 1/2.",
+      "concept": "Make coefficients equal",
+      "ocr": "Equation (4) came through MinerU as '6bx + 10by _ 8b' (equals sign lost) and the stem carried empty LaTeX array rows; both repaired against the embedded text layer."
+    },
+    {
+      "number": "63",
+      "form": "short",
+      "marks": 3,
+      "page": 13,
+      "section_heading": "THREE MARKS QUESTIONS | Board Term-1 2017",
+      "stem": "Find whether the following pair of linear equations has a unique solution. If yes, find the solution.\n7x - 4y = 49,  5x - 6y = 57",
+      "answer": "We have 7x - 4y = 49 ...(1) and 5x - 6y = 57 ...(2).\nComparing with a₁x + b₁y = c₁: a₁ = 7, b₁ = -4, c₁ = 49 and a₂ = 5, b₂ = -6, c₂ = 57.\nSince a₁/a₂ = 7/5 and b₁/b₂ = 4/6, we have a₁/a₂ ≠ b₁/b₂, so the system has a unique solution.\nMultiplying (1) by 5: 35x - 20y = 245 ...(3)\nMultiplying (2) by 7: 35x - 42y = 399 ...(4)\nSubtracting (4) from (3): 22y = -154 ⇒ y = -7.\nPutting y = -7 in (2): 5x - 6(-7) = 57 → 5x = 57 - 42 = 15 ⇒ x = 3.\nHence x = 3 and y = -7.",
+      "concept": "Ratios of the coefficients",
+      "ocr": "'Downloaded from www.pdf.tube' and the Page 14 header were stripped from the middle of the solution. The book labels the step 'Subtracting (4) by (3)' while actually computing (3) - (4); kept the printed result 22y = -154, y = -7, which matches the final answer."
+    }
+  ]
+}

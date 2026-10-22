@@ -1,0 +1,267 @@
+{
+ "items": [
+  {
+   "number": "25",
+   "form": "very_short",
+   "marks": 2,
+   "page": 6,
+   "stem": "In ΔABC altitudes AD and BE are drawn. If AD = 7 cm, BE = 9 cm and EC = 12 cm then, find the length of CD.",
+   "answer": "AD and BE are altitudes, so ∠ADC = ∠BEC = 90°, and ∠ACD = ∠BCE is common to both triangles. By the AA similarity criterion ΔADC ~ ΔBEC, so AD/BE = CD/EC. Substituting, 7/9 = CD/12, giving CD = (7 × 12)/9 = 28/3 cm.",
+   "concept": "AAA criterion",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Figure of ΔABC with altitudes AD and BE is printed with the question, but the stem states the whole configuration, so no crop was attached."
+  },
+  {
+   "number": "26",
+   "form": "very_short",
+   "marks": 2,
+   "page": 6,
+   "stem": "In the given figure, ABC is a triangle in which DE ∥ BC. If AD = x, DB = x − 2, AE = x + 2 and EC = x − 1, then find the value of x.",
+   "answer": "Since DE ∥ BC, the Basic Proportionality Theorem gives AD/DB = AE/EC, so x/(x − 2) = (x + 2)/(x − 1). Cross-multiplying, x(x − 1) = (x + 2)(x − 2), that is x² − x = x² − 4, so −x = −4. Hence x = 4.",
+   "concept": "Basic Proportionality Theorem",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2023 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Every length is given in the stem, so the printed figure adds nothing; the second copy of the figure sits inside the solution ('We have redrawn the figure below')."
+  },
+  {
+   "number": "27",
+   "form": "very_short",
+   "marks": 2,
+   "page": 7,
+   "stem": "In Figure ∠D = ∠E and AD/DB = AE/EC, prove that ΔBAC is an isosceles triangle.",
+   "answer": "Because AD/DB = AE/EC, the converse of the Basic Proportionality Theorem gives DE ∥ BC. Then the corresponding angles satisfy ∠ADE = ∠ABC and ∠AED = ∠ACB. It is given that ∠ADE = ∠AED, so ∠ABC = ∠ACB. A triangle with two equal angles has the opposite sides equal, so AB = AC and ΔBAC is isosceles.",
+   "concept": "Converse of the theorem",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 Delhi Standard",
+   "images": [
+    "ch06_q27.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem never says where D and E lie; only the figure shows D on AB and E on AC, so the figure is needed."
+  },
+  {
+   "number": "28",
+   "form": "very_short",
+   "marks": 2,
+   "page": 7,
+   "stem": "In the given figure, G is the mid-point of the side PQ of ΔPQR and GH ∥ QR. Prove that H is the mid-point of the side PR or the triangle PQR.",
+   "answer": "G is the mid-point of PQ, so PG = GQ and therefore PG/GQ = 1. Since GH ∥ QR, the Basic Proportionality Theorem applied to ΔPQR gives PG/GQ = PH/HR. Hence PH/HR = 1, so PH = HR and H is the mid-point of PR.",
+   "concept": "Basic Proportionality Theorem",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem fully describes the configuration (G on PQ, GH ∥ QR), so the printed figure is not required. The printed wording 'or the triangle PQR' is a book typo for 'of the triangle PQR'."
+  },
+  {
+   "number": "29",
+   "form": "very_short",
+   "marks": 2,
+   "page": 7,
+   "stem": "In the figure of ΔABC, the points D and E are on the sides CA, CB respectively such that DE ∥ AB, AD = 2x, DC = x + 3, BE = 2x − 1 and CE = x. Then, find x.",
+   "answer": "Since DE ∥ AB in ΔCAB, the Basic Proportionality Theorem gives CD/AD = CE/BE, so (x + 3)/2x = x/(2x − 1). Cross-multiplying, (x + 3)(2x − 1) = 2x², that is 2x² + 5x − 3 = 2x², so 5x = 3. Hence x = 3/5.",
+   "concept": "Basic Proportionality Theorem",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015, 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints an OR alternative with the same data ('In the figure of ΔABC, DE ∥ AB. If AD = 2x, DC = x + 3, BE = 2x − 1 and CE = x, then find the value of x') and one shared solution; kept as a single item. All lengths are in the stem, so no figure was attached."
+  },
+  {
+   "number": "30",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "In the given figure, ΔABC ~ ΔPQR. Find the value of y + z.",
+   "answer": "Since ΔABC ~ ΔPQR, corresponding sides are proportional: AB/PQ = BC/QR = AC/PR, that is z/3 = 8/6 = 4√3/y. From z/3 = 8/6 we get z = (8 × 3)/6 = 4. From 8/6 = 4√3/y we get y = (4√3 × 6)/8 = 3√3. Hence y + z = 3√3 + 4.",
+   "concept": "When two polygons are similar",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2010",
+   "images": [
+    "ch06_q30.png"
+   ],
+   "figure_required": true,
+   "ocr": "All the data (3, 6, 30°, y and z, 8, 4√3, 30°) is printed only inside the two triangles, so the figure is essential."
+  },
+  {
+   "number": "31",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "In ΔABC, AD ⊥ BC, such that AD² = BD × CD. Prove that ΔABC is right angled at A.",
+   "answer": "From AD² = BD × CD we get AD/CD = BD/AD, and the included angles ∠ADC and ∠ADB are each 90°. By the SAS similarity criterion ΔADC ~ ΔBDA, so ∠BAD = ∠ACD and ∠DAC = ∠DBA. In ΔABC the four angles satisfy ∠BAD + ∠ACD + ∠DAC + ∠DBA = 180°, which becomes 2∠BAD + 2∠DAC = 180°, so ∠BAD + ∠DAC = 90°. That sum is ∠A, hence ∠A = 90° and ΔABC is right angled at A.",
+   "concept": "SAS criterion",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The figure printed here belongs to the solution ('As per given condition we have drawn the figure below'), so it was not attached."
+  },
+  {
+   "number": "32",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "In an equilateral triangle of side 24 cm, find the length of the altitude.",
+   "answer": "Let ΔABC be equilateral with side 24 cm and let AD be the altitude from A, which in an equilateral triangle also bisects BC. Then BD = BC/2 = 24/2 = 12 cm and AB = 24 cm. In right ΔABD, AD = √(AB² − BD²) = √(24² − 12²) = √(576 − 144) = √432 = 12√3. Hence the altitude is 12√3 cm.",
+   "concept": "A triangle is a polygon",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The figure is drawn inside the solution, so it was not attached."
+  },
+  {
+   "number": "33",
+   "form": "very_short",
+   "marks": 2,
+   "page": 8,
+   "stem": "In the figure, PQRS is a trapezium in which PQ ∥ RS. On PQ and RS, there are points E and F respectively such that EF intersects SQ at G. Prove that EQ × GS = GQ × FS.",
+   "answer": "In ΔGEQ and ΔGFS, ∠EGQ = ∠FGS because they are vertically opposite angles, and ∠EQG = ∠FSG because they are alternate angles for PQ ∥ RS cut by the transversal SQ. By the AA similarity criterion ΔGEQ ~ ΔGFS, so the corresponding sides give EQ/FS = GQ/GS. Cross-multiplying, EQ × GS = GQ × FS.",
+   "concept": "AAA criterion",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page 8 and its figure is printed at the top of page 9; the configuration is fully stated in words, so no crop was attached."
+  },
+  {
+   "number": "34",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "In the given figure, ∠A = ∠B and AD = BE. Show that DE ∥ AB.",
+   "answer": "In ΔCAB we are given ∠A = ∠B, so by the isosceles triangle property the opposite sides are equal: AC = CB. We are also given AD = BE. Dividing AC = CB by AD = BE termwise gives CD/AD = CE/BE, because CD = AC − AD and CE = CB − BE. Since D and E divide CA and CB in the same ratio, the converse of the Basic Proportionality Theorem gives DE ∥ AB.",
+   "concept": "Converse of the theorem",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "images": [
+    "ch06_q34.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem does not say that D lies on CA and E on CB; only the figure does, so it is needed. The printed figure carries arrow marks on DE and AB."
+  },
+  {
+   "number": "35",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "In the given figure, OA × OB = OC × OD, show that ∠A = ∠C and ∠B = ∠D.",
+   "answer": "From OA × OB = OC × OD we get OA/OD = OC/OB. The angles ∠AOD and ∠COB are vertically opposite, so they are equal. With two pairs of proportional sides and the included angles equal, the SAS similarity criterion gives ΔAOD ~ ΔCOB. Corresponding angles of similar triangles are equal, hence ∠A = ∠C and ∠B = ∠D.",
+   "concept": "SAS criterion",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "images": [
+    "ch06_q35.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem never states how A, B, C, D and O lie; only the figure shows AB and CD crossing at O, so it is needed."
+  },
+  {
+   "number": "36",
+   "form": "very_short",
+   "marks": 2,
+   "page": 9,
+   "stem": "In the given figure, if ABCD is a trapezium in which AB ∥ CD ∥ EF, then prove that AE/ED = BF/FC.",
+   "answer": "Join AC so that it meets EF at G. In ΔCAB the line GF ∥ AB, so by the Basic Proportionality Theorem AG/CG = BF/FC. In ΔADC the line EG ∥ DC, so by the same theorem AE/ED = AG/CG. Comparing the two results, AE/ED = BF/FC.",
+   "concept": "Basic Proportionality Theorem",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "images": [
+    "ch06_q36.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem does not say that E lies on AD and F on BC; only the figure does. The crop is the question figure, not the solution figure with AC drawn in."
+  },
+  {
+   "number": "37",
+   "form": "very_short",
+   "marks": 2,
+   "page": 10,
+   "stem": "In the given figure, CB ∥ QR and CA ∥ PR. If AQ = 12 cm, AR = 20 cm, PB = CQ = 15 cm, calculate PC and BR.",
+   "answer": "In ΔPQR, CA ∥ PR, so by the Basic Proportionality Theorem PC/CQ = RA/AQ. Substituting, PC/15 = 20/12, so PC = (15 × 20)/12 = 25 cm. Again in ΔPQR, CB ∥ QR, so PC/CQ = PR/BR. Substituting, 25/15 = 15/BR, so BR = (15 × 15)/25 = 9 cm. Hence PC = 25 cm and BR = 9 cm.",
+   "concept": "Basic Proportionality Theorem",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "images": [
+    "ch06_q37.png"
+   ],
+   "figure_required": true,
+   "ocr": "The positions of A, B, C on the sides of ΔPQR and the marked lengths appear only in the figure, so it is needed."
+  },
+  {
+   "number": "38",
+   "form": "very_short",
+   "marks": 2,
+   "page": 10,
+   "stem": "ABCD is a trapezium in which AB ∥ CD and its diagonals intersect each other at the point O. Show that AO/BO = CO/DO.",
+   "answer": "In ΔAOB and ΔCOD, AB ∥ CD, so the alternate angles give ∠OAB = ∠DCO and ∠OBA = ∠ODC. By the AA similarity criterion ΔAOB ~ ΔCOD. Corresponding sides of similar triangles are proportional, so AO/CO = BO/DO, which rearranges to AO/BO = CO/DO.",
+   "concept": "AAA criterion",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The figure is drawn inside the solution ('As per given condition we have drawn the figure below'), so it was not attached."
+  },
+  {
+   "number": "39",
+   "form": "very_short",
+   "marks": 2,
+   "page": 10,
+   "stem": "In the given figure, PQR is a triangle right angled at Q and XY ∥ QR. If PQ = 6 cm, PY = 4 cm and PX : XQ = 1 : 2, calculate the length of PR and QR.",
+   "answer": "Since XY ∥ QR, the Basic Proportionality Theorem in ΔPQR gives PX/XQ = PY/YR. So 1/2 = 4/(PR − 4), because YR = PR − PY. Cross-multiplying, PR − 4 = 8, so PR = 12 cm. In right ΔPQR the right angle is at Q, so QR² = PR² − PQ² = 12² − 6² = 144 − 36 = 108. Hence QR = √108 = 6√3 cm.",
+   "concept": "Basic Proportionality Theorem",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution opens 'Since XY ∥ OR' — a book typo for QR; the working itself uses QR correctly. Configuration is fully stated in the stem, so no crop was attached."
+  },
+  {
+   "number": "40",
+   "form": "very_short",
+   "marks": 2,
+   "page": 10,
+   "stem": "In the given figure, if AB ∥ DC, find the value of x.",
+   "answer": "The diagonals of a trapezium cut each other proportionally, so OA/OC = BO/OD. Reading the lengths from the figure, (x + 5)/(x + 3) = (x − 1)/(x − 2). Cross-multiplying, (x + 5)(x − 2) = (x − 1)(x + 3), that is x² + 3x − 10 = x² + 2x − 3. Hence 3x − 2x = 10 − 3, so x = 7.",
+   "concept": "Basic Proportionality Theorem",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "images": [
+    "ch06_q40.png"
+   ],
+   "figure_required": true,
+   "ocr": "The four segment lengths x − 2, x + 3, x + 5 and x − 1 are printed only along the diagonals in the figure, so the question is unanswerable without it."
+  },
+  {
+   "number": "41",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "stem": "In the given figures, find the measure of ∠X.",
+   "answer": "Compare the two triangles side by side: PQ/ZY = 4.2/8.4 = 1/2, PR/ZX = 3√3/6√3 = 1/2 and QR/YX = 7/14 = 1/2. All three ratios are equal, so by the SSS similarity criterion ΔPQR ~ ΔZYX. Corresponding angles are therefore equal, and ∠X corresponds to ∠R. In ΔPQR, ∠R = 180° − (60° + 70°) = 50°. Hence ∠X = 50°.",
+   "concept": "SSS criterion",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "images": [
+    "ch06_q41.png"
+   ],
+   "figure_required": true,
+   "ocr": "Both triangles and all their measurements are printed only in the figures, so the crop holds both."
+  },
+  {
+   "number": "42",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "stem": "In a rectangle ABCD, E is a point on AB such that AE = ⅔ AB. If AB = 6 km and AD = 3 km, then find DE.",
+   "answer": "First, AE = (2/3) × AB = (2/3) × 6 = 4 km. In rectangle ABCD the angle at A is a right angle, so ΔADE is right angled at A with AD = 3 km and AE = 4 km. By Pythagoras, DE² = 3² + 4² = 9 + 16 = 25. Hence DE = 5 km.",
+   "concept": "A triangle is a polygon",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The rectangle is drawn inside the solution, so it was not attached. The book prints the fraction as 2/3."
+  },
+  {
+   "number": "43",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "stem": "ABC is a right triangle right angled at C. Let BC = a, CA = b, AB = c and p be the length of perpendicular from C to AB. Prove that cp = ab.",
+   "answer": "Let CD be the perpendicular from C to AB, so CD = p and CD ⊥ AB. Taking AB as the base, the area of ΔABC is ½ × AB × CD = ½cp. Taking the legs of the right angle instead, the area of ΔABC is ½ × BC × AC = ½ab. The two expressions describe the same area, so ½cp = ½ab. Hence cp = ab.",
+   "concept": "A triangle is a polygon",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed stem carries a corrupt fragment — 'AB = c PQR, ST ∥ QR and p be the length of perpendicular...' — where 'PQR, ST ∥ QR' is stray text from another question; it was dropped from the stem. The figure printed above the solution shows the construction CD = p and is not needed to state the question."
+  }
+ ]
+}

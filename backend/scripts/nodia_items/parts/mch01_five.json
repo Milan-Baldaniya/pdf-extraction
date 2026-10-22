@@ -1,0 +1,501 @@
+{
+ "items": [
+  {
+   "number": "66",
+   "form": "long",
+   "marks": 5,
+   "page": 12,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "If p is a prime number, then prove that √p is an irrational number.",
+   "answer": "Let p be a prime number and, if possible, let √p be rational. Then √p = m/n, where m and n are co-prime and n ≠ 0. Squaring both sides, p = m²/n², so m² = pn². Here p divides pn², so p divides m², and hence p divides m. Let m = pq for some integer q. Substituting m = pq in m² = pn² gives pn² = p²q², i.e. n² = pq². Here p divides pq², so p divides n², and hence p divides n. Thus p is a common factor of m and n, which contradicts the fact that m and n are co-prime. The contradiction arises from assuming that √p is rational. Hence √p is irrational.",
+   "concept": "If p divides a squared it divides a",
+   "figure_required": false,
+   "ocr": "LaTeX rewritten to Unicode (√p, m², n²). MinerU rendered the step 'p = m²/n²' inside an array environment; restored as m² = pn². The printed line 'this contradicts the fact that m and n are primes' is a misprint for 'co-prime' and has been corrected."
+  },
+  {
+   "number": "67",
+   "form": "long",
+   "marks": 5,
+   "page": 13,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 OD Basic",
+   "stem": "Prove that √3 is an irrational number.",
+   "answer": "Assume that √3 is a rational number. Then √3 = a/b, where a and b are co-prime integers and b ≠ 0. So a = b√3. Squaring both sides, a² = 3b². Thus 3 is a factor of a², and hence 3 is a factor of a. Let a = 3c, where c is some integer. Then a² = 9c². Substituting a² = 3b² gives 3b² = 9c², i.e. b² = 3c². Thus 3 is a factor of b², and hence 3 is a factor of b. So 3 is a common factor of a and b, which contradicts the fact that a and b are co-prime. Hence our assumption is wrong and √3 is irrational.",
+   "concept": "Proof by contradiction for root 2",
+   "figure_required": false,
+   "ocr": "LaTeX rewritten to Unicode. The printed line 'where a and b are co-prime integers and q ≠ 0' uses q for b; corrected to b ≠ 0."
+  },
+  {
+   "number": "67a",
+   "form": "long",
+   "marks": 5,
+   "page": 13,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2020 OD Standard",
+   "stem": "Prove that √5 is an irrational number.",
+   "answer": "Proof. The book prints only 'Ans : Proof' for this alternative question; the argument is the same proof by contradiction as for √3, with 3 replaced by 5: assume √5 = a/b with a, b co-prime, square to get a² = 5b², deduce 5 divides a and then 5 divides b, contradicting co-primality.",
+   "concept": "Proof by contradiction for root 2",
+   "figure_required": false,
+   "ocr": "Printed as an unnumbered alternative question immediately after Q67 with only 'Ans Proof'; number inferred from position and suffixed 'a' to stay unique."
+  },
+  {
+   "number": "67b",
+   "form": "long",
+   "marks": 5,
+   "page": 13,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "Prove that √2 is an irrational number.",
+   "answer": "Proof. The book prints only 'Ans : Proof' for this alternative question; the argument is the standard contradiction: assume √2 = a/b with a, b co-prime, square to get a² = 2b², deduce 2 divides a and then 2 divides b, contradicting co-primality.",
+   "concept": "Proof by contradiction for root 2",
+   "figure_required": false,
+   "ocr": "Printed as an unnumbered alternative question after Q67 with only 'Ans Proof'; number inferred from position and suffixed 'b' to stay unique."
+  },
+  {
+   "number": "68",
+   "form": "long",
+   "marks": 5,
+   "page": 13,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2011",
+   "stem": "Prove that √5 is an irrational number and hence show that 2 - √5 is also an irrational number.",
+   "answer": "Assume that √5 is rational. Then √5 = a/b, where a and b are co-prime and b ≠ 0, so a = b√5. Squaring, a² = 5b². Thus 5 is a factor of a², and hence 5 is a factor of a. Let a = 5c. Then a² = 25c², and substituting a² = 5b² gives 5b² = 25c², i.e. b² = 5c². Thus 5 is a factor of b², and hence of b. So 5 is a common factor of a and b, contradicting that a and b are co-prime. Hence √5 is irrational.\nNow let 2 - √5 be rational and equal to a. Then 2 - √5 = a, so 2 - a = √5. Since 2 - a is rational but √5 is irrational, and a rational number cannot equal an irrational number, we get a contradiction. Hence 2 - √5 is irrational.",
+   "concept": "Definition of an irrational number",
+   "figure_required": false,
+   "ocr": "LaTeX rewritten to Unicode. The second half of the worked solution was tagged by MinerU as an 'Activity Prompt' blockquote; it is part of the solution and has been merged back."
+  },
+  {
+   "number": "68a",
+   "form": "long",
+   "marks": 5,
+   "page": 13,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2012",
+   "stem": "Prove that √3 is an irrational number. Hence, show that 7 - 2√3 is also an irrational number.",
+   "answer": "Proof. The book prints only 'Ans : Proof' for this alternative question. Prove √3 irrational by contradiction; then, if 7 - 2√3 were rational and equal to a, we would get √3 = (7 - a)/2, a rational number, which is impossible. Hence 7 - 2√3 is irrational.",
+   "concept": "Definition of an irrational number",
+   "figure_required": false,
+   "ocr": "Printed as an unnumbered alternative question after Q68 with only 'Ans Proof'; number inferred from position and suffixed 'a' to stay unique. The printed stem reads '7 - 2√3 s also an irrational number' (missing 'i')."
+  },
+  {
+   "number": "69",
+   "form": "long",
+   "marks": 5,
+   "page": 13,
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2009",
+   "stem": "Find HCF and LCM of 378, 180 and 420 by prime factorization method. Is HCF × LCM of these numbers equal to the product of the given three numbers?",
+   "answer": "Prime factorisation: 378 = 2 × 3³ × 7, 180 = 2² × 3² × 5, 420 = 2² × 3 × 7 × 5.\nHCF(378, 180, 420) = 2 × 3 = 6.\nLCM(378, 180, 420) = 2² × 3³ × 5 × 7 = 3780.\nHCF × LCM = 6 × 3780 = 22680.\nProduct of the given numbers = 378 × 180 × 420 = 28576800.\nHence HCF × LCM ≠ product of the three numbers.",
+   "concept": "HCF and LCM by prime factorisation",
+   "figure_required": false,
+   "ocr": "LaTeX arrays rewritten to Unicode with exponents."
+  },
+  {
+   "number": "70",
+   "form": "long",
+   "marks": 5,
+   "page": 14,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2016",
+   "stem": "State Fundamental theorem of Arithmetic. Find LCM of numbers 2520 and 10530 by prime factorization.",
+   "answer": "The Fundamental Theorem of Arithmetic (also called the unique factorization theorem) states that every integer greater than 1 either is prime itself or is the product of a unique combination of prime numbers. Equivalently, every composite number can be expressed as a product of powers of primes and this factorisation is unique.\nPrime factorisation: 2520 = 20 × 126 = 20 × 6 × 21 = 2³ × 3² × 5 × 7; 10530 = 30 × 351 = 30 × 9 × 39 = 30 × 9 × 3 × 13 = 2 × 3⁴ × 5 × 13.\nLCM(2520, 10530) = 2³ × 3⁴ × 5 × 7 × 13 = 294840.",
+   "concept": "Statement of the theorem",
+   "figure_required": false,
+   "ocr": "LaTeX arrays rewritten to Unicode with exponents."
+  },
+  {
+   "number": "71",
+   "form": "long",
+   "marks": 5,
+   "page": 14,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2015",
+   "stem": "Can the number 6ⁿ, n being a natural number, end with the digit 5? Give reasons.",
+   "answer": "If 6ⁿ for any n were to end with the digit five, then it would be divisible by 5, so the prime factorisation of 6ⁿ would contain the prime 5. This is not possible, because the only primes in the factorisation of 6ⁿ = (2 × 3)ⁿ are 2 and 3. The uniqueness of the Fundamental Theorem of Arithmetic guarantees that there are no other primes in the factorisation of 6ⁿ. Since there is no prime factor 5, 6ⁿ cannot end with the digit five.",
+   "concept": "Unique product of primes",
+   "figure_required": false,
+   "ocr": "MinerU rendered the exponent n as the Greek letter π throughout ('6^π'); restored to 6ⁿ. Also repaired 'the only prime n the actorization' to 'the only primes in the factorisation'."
+  },
+  {
+   "number": "72",
+   "form": "long",
+   "marks": 5,
+   "page": 14,
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-1 2015",
+   "stem": "State Fundamental theorem of Arithmetic. Is it possible that HCF and LCM of two numbers be 24 and 540 respectively? Justify your answer.",
+   "answer": "Fundamental Theorem of Arithmetic: every integer greater than one either is prime itself or is the product of prime numbers, and this product is unique up to the order of the factors.\nThe LCM of two numbers is always exactly divisible by their HCF, i.e. the LCM is always a multiple of the HCF. Here HCF = 24 and LCM = 540, and LCM/HCF = 540/24 = 22.5, which is not an integer. Since 24 does not divide 540, two numbers cannot have their HCF as 24 and LCM as 540.",
+   "concept": "Statement of the theorem",
+   "figure_required": false,
+   "ocr": "Repaired 'either is prime itself' from the printed 'ither is prime itself'."
+  },
+  {
+   "number": "73",
+   "form": "case_study",
+   "marks": 4,
+   "page": 14,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "You have a piece of construction paper that measures 32 cm by 48 cm. You want to cut it into squares of equal size.\n(i) What will be the dimensions of the largest possible square?\n(ii) How many squares will you have?",
+   "answer": "Here we have to find the HCF of 32 and 48.\n32 = 2 × 2 × 2 × 2 × 2, 48 = 2 × 2 × 2 × 2 × 3, so HCF(32, 48) = 2 × 2 × 2 × 2 = 16.\nArea of construction paper = 32 × 48 cm², area of one square = 16 × 16 cm².\nNumber of squares = (32 × 48)/(16 × 16) = 6.\n(i) The dimension of the largest possible square is 16 cm × 16 cm.\n(ii) 6 squares are possible from the construction paper.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "images": [
+    "6af016c19b84c90165c2eecc834eeb980432ab7c9295cd38f7207d6e004b260e.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The tail of this solution ('Number of square in construction paper = 32 × 48 / 16 × 16 = 6' and the two numbered answers) was displaced by MinerU to the end of Q77's solution on page 16; merged back here. The printed factorisation of 32 lists five 2s (= 32), correct."
+  },
+  {
+   "number": "74",
+   "form": "case_study",
+   "marks": 4,
+   "page": 15,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "When the marbles in a bag are divided evenly between two friends, there is one marble left over. When the same marbles are divided evenly among three friends, there is one marble left over. When the marbles are divided evenly among five friends, there is one marble left over.\n(i) What is the least possible number of marbles in the bag?\n(ii) What is another possible number of marbles in the bag?",
+   "answer": "(i) In all three cases one marble is left after division, so the total number of marbles is one more than the LCM of the numbers. LCM(2, 3, 5) = 2 × 3 × 5 = 30, so there are 31 marbles in the bag.\n(ii) Adding one to any multiple of 30 gives another possible number of marbles: 61, 91, 121, ...",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "images": [
+    "61c9db915ed14896cae27558e0e9fb7323d6966f3848d5dcf5347bb4bf44544d.jpg"
+   ],
+   "figure_required": false
+  },
+  {
+   "number": "75",
+   "form": "case_study",
+   "marks": 4,
+   "page": 15,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "An online shopping website sells 10 types of items which are packed into various sizes of cartons which are given below.\n<html><body><table><tr><td>Carton type</td><td>Inner Dimensions (L × W )cm2</td></tr><tr><td>Small</td><td>6 × 8</td></tr><tr><td>Medium</td><td>12 × 24</td></tr><tr><td>Large</td><td>24 × 36</td></tr><tr><td>Extra large</td><td>36 × 48</td></tr><tr><td>XXL</td><td>48 × 96</td></tr></table></body></html>\nThe company places supporting thermocol sheets inside every package along the edges. The company thought of procuring same sized sheets for all types of cartons.\n(i) What should be the maximum size of the sheet that fits into all type of cartons?\n(ii) How many such sheet sizes are possible?\n(iii) The company later introduced a new size of carton called semi large whose measurements are 14 × 15. Whether the existing maximum size sheet fits this shape?\n(iv) What should have been the size of the semi large carton (which is larger than medium carton but smaller than large carton) so that the maximum sized sheet remains same?",
+   "answer": "(i) To find the dimensions of the maximum size sheet that fits in all cartons we find the HCF of the lengths and the HCF of the widths: HCF(6, 12, 24, 36, 48) = 6 and HCF(8, 24, 36, 48, 96) = 4. Thus the maximum size of the sheet is 6 by 4.\n(ii) Because the HCF of given numbers is always unique, only one sheet size is possible.\n(iii) 14 is not a multiple of 6 and 15 is not a multiple of 4, so it is not possible to have a carton with dimensions 14 × 15.\n(iv) 18 is the only multiple of 6 between 12 and 24 for the length of the semi large carton, and the width can be 28 or 32, so the possible answers are 18 × 28 and 18 × 32.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv"
+   ],
+   "images": [
+    "a822fd4600f66278d8e8430bc83a1f9d3d7e2984ed670a21d4062e492cace5ab.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "HTML table kept verbatim from the extraction, including its 'cm2' spelling."
+  },
+  {
+   "number": "76",
+   "form": "case_study",
+   "marks": 4,
+   "page": 15,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Two oil tankers contain 825 litres and 675 litres of kerosene oil respectively.\n(i) Find the maximum capacity of a container which can measure the kerosene oil of both the tankers when used an exact number of times.\n(ii) How many times we have to use container for both tanker to fill?",
+   "answer": "The maximum capacity of the required container has to measure both tankers an exact number of times, so its capacity must exactly divide both quantities; we therefore find HCF(825, 675).\n675 = 3 × 3 × 3 × 5 × 5, 825 = 3 × 5 × 5 × 11, so HCF(675, 825) = 3 × 5 × 5 = 75.\n(i) The maximum capacity of the required container is 75 litres.\n(ii) The first tanker will require 825/75 = 11 fillings and the second tanker 675/75 = 9 fillings.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "images": [
+    "2d8ada6466308fbea564f7f53f8eba5cc762f383b9caa6ab85757d0ff07a4d2b.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The MinerU extraction of the factorisation of 675 ended with a trailing '×' and an empty cell ('675 = 3 × 3 × 3 × 5 ×'); restored to 3 × 3 × 3 × 5 × 5 = 675, which the HCF line confirms. The text layer shows the book itself prints '675 = 3 × 3 × 3 × 5 × 5' in full, so the truncation was an extraction artefact, not a misprint."
+  },
+  {
+   "number": "77",
+   "form": "case_study",
+   "marks": 4,
+   "page": 16,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Last year my grandmother was admitted to Fortis hospital due to a small accident. She was prescribed a pain medication to be given every 4 hr and an antibiotic to be given every 5 hr. Bandages applied to my grandmother's external injuries needed changing every 12 hr. The nurse changed the bandages and gave my grandmother both medications at 6:00 AM Monday morning.\n(i) How many hours will pass before the grandmother is given both medications and has her bandages changed at the same time?\n(ii) What day and time will this be?",
+   "answer": "Here we have to find the LCM of 4, 5 and 12. Prime factorisation: 4 = 2 × 2, 5 = 5, 12 = 2 × 2 × 3, so LCM(4, 5, 12) = 2 × 2 × 5 × 3 = 60.\n(i) The shortest time before all three are done together is 60 hours, i.e. 2 days 12 hours.\n(ii) 2 days 12 hours after 6:00 AM Monday is Wednesday at 6 PM.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "images": [
+    "246d43ed1e3a07f1212a6cedd1701289278b8edd56e0ee969e12f80995b947f0.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "MinerU appended the tail of Q73's solution after this solution; that text has been moved back to Q73 and is not part of this answer."
+  },
+  {
+   "number": "78",
+   "form": "short",
+   "marks": 3,
+   "page": 16,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Tina has 39 pairs of headphones and 13 music players. Tina wants to sell all of the headphones and music players in identical packages. What is the greatest number of packages Tina can make?",
+   "answer": "We need a number that is a factor of both 39 and 13 so that the 39 pairs of headphones and the 13 music players can be divided up evenly; that is, the HCF of 39 and 13. Prime factorisation: 13 = 13, 39 = 3 × 13, so HCF(13, 39) = 13. Tina can make 13 identical packages.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "d9b63ed8564329441ff52ecc86469bb35fb60b7622a15fa0601ddcc8b197ad2d.jpg"
+   ],
+   "figure_required": false
+  },
+  {
+   "number": "79",
+   "form": "case_study",
+   "marks": 4,
+   "page": 16,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Taniya has 54 football cards, 72 volleyball cards and 63 basketball cards and she wants to put them in a binder. Each page of the binder should have cards from a single sport, and there should be the same number of cards on each page.\n(i) What is the greatest number of cards Taniya can put on a page?\n(ii) How many pages will Taniya need for each sport?",
+   "answer": "Each page must hold cards from a single sport with the same number of cards on each page, so we find HCF(54, 63, 72).\n54 = 2 × 3 × 3 × 3, 63 = 3 × 3 × 7, 72 = 2 × 2 × 2 × 3 × 3, so HCF(54, 63, 72) = 3 × 3 = 9.\n(i) Taniya can put 9 cards on a page.\n(ii) For football 54/9 = 6 pages, for volleyball 72/9 = 8 pages and for basketball 63/9 = 7 pages are needed.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "images": [
+    "da6b8ec1f440d520c18e45e2705d9e04bbc42e28d7cffdf396850e665015f2bc.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The extracted factorisation block lost the label of the HCF line ('72) = 3 × 3 = 9' with 'HCF (54, 63,' after the block); reassembled as HCF(54, 63, 72) = 9. The text layer shows the book prints the line intact as 'HCF (54, 63, 72) = 3 × 3 = 9', so the split was an extraction artefact."
+  },
+  {
+   "number": "80",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "A tile floor is to be made from 10 inch, 12 inch and 15 inch square tiles. A design is made by alternating rows with different size tiles. The first row uses only 10 inch tiles, the second row uses only 12 inch tiles, and the third row uses only 15 inch tiles. Neglecting the grout seams, what is the shortest length of floor space that can be covered evenly by each row?",
+   "answer": "To know the shortest length of floor space that can be covered evenly by each row we find LCM(10, 12, 15). Prime factorisation: 10 = 2 × 5, 12 = 2 × 2 × 3, 15 = 3 × 5, so LCM(10, 12, 15) = 2 × 2 × 3 × 5 = 60. The shortest length of floor space is 60 inch.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "52d58d146e479b75a149c8d3de00e803a78ad029e846c296dc7e38f4fb69475a.jpg"
+   ],
+   "figure_required": false
+  },
+  {
+   "number": "81",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "In a morning walk, three persons step off together. Their steps measure 75 cm, 80 cm and 90 cm respectively. What is the minimum distance each should walk so that all can cover the same distance in complete steps?",
+   "answer": "The distance required by each of them is the same as well as minimum, so we find the least common multiple (LCM) of 75, 80 and 90. Prime factorisation: 75 = 3 × 5 × 5, 80 = 2 × 2 × 2 × 2 × 5, 90 = 2 × 3 × 3 × 5, so LCM(75, 80, 90) = 2⁴ × 3² × 5² = 3600. The required minimum distance is 3600 cm.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "e2f2e46513b6d83f821829983e61bb4743af28e5c77a60fd674b02807063ccda.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "MinerU emitted the whole factorisation block as an empty LaTeX array (only 'Now' survived); the prime factorisations of 75, 80 and 90 have been restored from the printed result 3600 cm."
+  },
+  {
+   "number": "82",
+   "form": "short",
+   "marks": 3,
+   "page": 17,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Four satellites revolve around the earth once every 6, 8, 10 and 15 hr respectively. If the satellites are initially lined up, how many hours must pass before they will again be lined up?",
+   "answer": "To know the minimum number of hours required for them to be aligned again we find LCM(6, 8, 10, 15). Prime factorisation: 6 = 2 × 3, 8 = 2 × 2 × 2, 10 = 2 × 5, 15 = 3 × 5, so LCM(6, 8, 10, 15) = 2 × 2 × 2 × 3 × 5 = 120 hours. It will take 120 hours, or 5 days, for the satellites to be aligned again.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "8a70a1ac5e5275d401b6c3a7dbaf5edd398a18c98a02a43d1505fe9c6664c42e.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "MinerU mangled the leading digits of the factorisation lines into Greek gammas ('γ_8 = 2 × 2 × 2'); the line for 6 = 2 × 3 was lost entirely and has been restored. Stripped the 'Click Here to Buy book on Amazon' banner."
+  },
+  {
+   "number": "83",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Mercury, Venus and Earth revolve around the Sun approximately once every 3 months, 7 months and 12 months respectively. If the planets begin lined up, what is the minimum number of months required for them to be aligned again? (Assume that the planets lie roughly in the same plane.)",
+   "answer": "To know the minimum number of months required for them to be aligned again we find LCM(3, 7, 12). Prime factorisation: 3 = 3, 7 = 7, 12 = 2 × 2 × 3, so LCM(3, 7, 12) = 3 × 7 × 2 × 2 = 84. It will take 84 months, or 7 years, for the planets to be aligned again.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "057cf59c1ffda7f345b5e130ec1e82137b55b9bd6ed764a8a88ef33d84b7c351.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "MinerU interleaved three solutions on pages 18-19: the text printed directly under this stem is actually Q84's traffic-light solution, and this question's own solution (the LCM(3, 7, 12) = 84 block) was displaced to after Q85's stem. Reassembled by content. The displaced block is also mislabelled 'LCM(2, 7, 12)' while its own factor list reads 3, 7, 12; corrected to LCM(3, 7, 12)."
+  },
+  {
+   "number": "84",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "The traffic lights at three different road crossings change after every 48 seconds, 72 seconds and 108 seconds respectively. If they change simultaneously at 7 AM, at what time will they change simultaneously again?",
+   "answer": "Because the lights change simultaneously, we find LCM(48, 72, 108). Prime factorisation: 48 = 2 × 2 × 2 × 2 × 3, 72 = 2 × 2 × 2 × 3 × 3, 108 = 2 × 2 × 3 × 3 × 3, so LCM(48, 72, 108) = 2 × 2 × 2 × 2 × 3 × 3 × 3 = 432 seconds. After 432 seconds, i.e. 7 minutes 12 seconds, all the traffic lights will change simultaneously again, that is at 7 minutes 12 seconds past 7 AM.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "787b96e1d4f8022717fe2608e10b37987eaee4927bfe97eaf86a9d95b53d97c2.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "This question's stem and solution were separated by MinerU: the solution appears on page 18 under Q83's stem, the stem itself on page 19 before Q85's solution. Reassembled by content. The extracted factorisation of 48 dropped one 2 ('48 = 2 × 2 × 2 × 3' = 24); restored to 2⁴ × 3 = 48, which the stated LCM of 432 confirms. The text layer shows the book prints '48 = 2 × 2 × 2 × 2 × 3' correctly, so the missing 2 was an extraction artefact."
+  },
+  {
+   "number": "85",
+   "form": "short",
+   "marks": 3,
+   "page": 18,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Lina is preparing dinner plates. She has 12 pieces of chicken and 16 rolls. If she wants to make all the plates identical without any food left over, what is the greatest number of plates Lina can prepare?",
+   "answer": "To make all the plates identical and find the greatest number of plates, we find the greatest number that divides both 12 and 16 evenly, i.e. their highest common factor. Prime factorisation: 12 = 2 × 2 × 3, 16 = 2 × 2 × 2 × 2, so HCF(12, 16) = 2 × 2 = 4. Hence Lina can prepare at most 4 plates.",
+   "concept": "HCF and LCM by prime factorisation",
+   "figure_required": false,
+   "ocr": "Stem and solution were separated in the extraction (the solution follows Q84's stem); reassembled by content. No figure is printed with this question."
+  },
+  {
+   "number": "86",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "At a train station, the blue line has a train leaving every 15 minutes, the green line has a train leaving every 24 minutes, and the red line every 10 minutes. If the first train on each line leaves at the same time, how often will there be trains on all three lines departing the train station at the same time?",
+   "answer": "To know how often trains on all three lines depart at the same time we find LCM(10, 15, 24). Prime factorisation: 10 = 2 × 5, 15 = 3 × 5, 24 = 2 × 2 × 2 × 3, so LCM(10, 15, 24) = 2 × 2 × 2 × 3 × 5 = 120. Trains will depart on all three lines at the same time every 120 minutes, i.e. every 2 hours.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "0ef74cab82bcc82292d22f3e6a906032629572a65a434ca4fb795971fc6a037f.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "MinerU emptied the factorisation array (only the bare numbers 10, 15, 24 and the label 'LCM(10, 15, 24)' survived); the prime factorisations have been restored from the printed result of 120 minutes. The printed lead-in says 'we need a number that is a factor of 10, 15 and 24' where it means a common multiple."
+  },
+  {
+   "number": "87",
+   "form": "short",
+   "marks": 3,
+   "page": 19,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Jasmin is completing an art project. She has two pieces of construction paper. The first piece is 44 centimeters wide and the second piece is 33 centimeters wide. Jasmin wants to cut the paper into strips that are equal in width and are as wide as possible. How wide should Jasmin cut each strip?",
+   "answer": "We need a number that is a factor of both 44 and 33 so that both pieces can be cut into equal strips; to find the greatest width we find HCF(44, 33). Prime factorisation: 33 = 3 × 11, 44 = 2 × 2 × 11, so HCF(33, 44) = 11. Jasmin should cut strips 11 cm wide.",
+   "concept": "HCF and LCM by prime factorisation",
+   "images": [
+    "8188447a6c22ee4bf0d85cbe8cb70a8bab6526f914dbdedae0152b995b592029.jpg"
+   ],
+   "figure_required": false
+  },
+  {
+   "number": "88",
+   "form": "case_study",
+   "marks": 4,
+   "page": 19,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Shalvi is a tuition teacher and teaches mathematics to some kids at her home. She is very innovative and always plans new games to make her students learn concepts. Today, she has planned a prime number game. She announced the number 2 in her class and asked the first student to multiply it by a prime number and then pass it to the second student. The second student also multiplied it by a prime number and passed it to the third student. In this way, by multiplying by a prime number, the last student got 173250. He told this number to Shalvi in class. Now she asked some questions to the students as given below.\n(i) How many students are in the class?\n(ii) What is the highest prime number used by a student?\n(iii) What is the least prime number used by students?\n(iv) Which prime number has been used maximum times?\n(v) Which prime number has been used minimum times?",
+   "answer": "Prime factorisation of 173250 = 2 × 3 × 3 × 5 × 5 × 5 × 7 × 11.\n(i) It includes 8 factors. The number 2 was used by Shalvi, so the remaining 7 factors were used by 7 students; there are 7 students in the class.\n(ii) The highest prime factor in the factorisation of 173250 is 11.\n(iii) The least prime factor is 2, but 2 was used by Shalvi, so the least prime number used by a student is 3.\n(iv) The number 5 has been used 3 times, which is the maximum.\n(v) The numbers 7 and 11 are each used only once (the book names 7).",
+   "concept": "Unique product of primes",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "images": [
+    "3e22e81063459a23dd1a3a0b1dd912fc867ab5aeddd19c66c6ce2d0c2b41aad3.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "Repaired 'Shalvi s a tuition teacher' to 'Shalvi is a tuition teacher'. Stripped the 'Downloaded from www.pdf.tube' watermark that splits the stem. Part (v): the printed answer names only 7, although 11 is also used once; noted in the answer."
+  },
+  {
+   "number": "89",
+   "form": "case_study",
+   "marks": 4,
+   "page": 20,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Amar, Akbar and Anthony are playing a game. Amar climbs 5 stairs and gets down 2 stairs in one turn. Akbar goes up by 7 stairs and comes down by 2 stairs every time. Anthony goes 10 stairs up and 3 stairs down each time. Doing this they have to reach the nearest point to the 100th stair and they will stop once they find it impossible to go forward. They cannot cross the 100th stair in any way.\n(i) Who reaches the nearest point?\n(ii) How many times can they meet in between on the same stair?\n(iii) Who takes the least number of steps to reach near hundred?\n(iv) What is the first stair where any two out of three will meet together?\n(v) What is the second stair where any two out of three will meet together?",
+   "answer": "Each turn Amar nets 3 stairs, Akbar nets 5 stairs and Anthony nets 7 stairs.\n(i) Amar will reach up to the 93rd stair and then go 5 up and 2 down, covering 96 stairs; since the 100th stair is final he will not go further. Akbar will reach up to the 95th stair and Anthony up to the 91st stair. Thus Amar reaches the nearest point.\n(ii) We find LCM(3, 5, 7) = 105. Since there are only 100 stairs, they cannot all meet in between on the same stair.\n(iii) Amar takes 32 steps to reach the 96th stair (100/3 = 33.33), Akbar takes 19 steps to reach the 95th stair (100/5 = 20) and Anthony takes 13 steps to reach the 91st stair (100/7 = 14.28). So Anthony takes the least number of steps.\n(iv) LCM(3, 5) = 15, LCM(5, 7) = 35, LCM(3, 7) = 21. Since 15 is the smallest, Amar and Akbar meet for the first time on the 15th stair.\n(v) The next is LCM(3, 7) = 21, so the 21st stair.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "images": [
+    "9851ccb327fb21ba461d6946f9f4d98f83c08250e48a66ed3443d62cbeef3376.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "Printed part (iii) is garbled: it gives Akbar '19 steps to reach to 9th stairs' (read 95th) and does not name a winner; the counts themselves are reproduced as printed. Part (v) refers back to '(iii)' where it means (iv)."
+  },
+  {
+   "number": "90",
+   "form": "case_study",
+   "marks": 4,
+   "page": 20,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Lavanya wants to organize her birthday party. She is very happy on her birthday. She is very health conscious, thus she decided to serve fruits only in her birthday party. She has 36 apples and 60 bananas at home and decided to serve them. She wants to distribute fruits among guests. She does not want to discriminate among guests, so she decided to distribute fruits equally among all.\n(i) How many maximum guests can Lavanya invite?\n(ii) How many apples and bananas will each guest get?\n(iii) Lavanya decides to add 42 mangoes also. In this case how many maximum guests can Lavanya invite?\n(iv) How many total fruits will each guest get?\n(v) If Lavanya decides to add 3 more mangoes and remove 6 apples in total fruits, in this case how many maximum guests can Lavanya invite?",
+   "answer": "(i) Here we calculate HCF(36, 60) = 12. Thus the fruits will be equally distributed among 12 guests.\n(ii) Out of 36 apples each guest gets 36/12 = 3 apples, and out of 60 bananas each guest gets 60/12 = 5 bananas.\n(iii) Here we calculate HCF(36, 42, 60) = 6. Thus the fruits will be equally distributed among 6 guests.\n(iv) Out of 36 apples each guest gets 36/6 = 6 apples, out of 42 mangoes 42/6 = 7 mangoes and out of 60 bananas 60/6 = 10 bananas, so each guest gets 6 + 7 + 10 = 23 fruits.\n(v) Now Lavanya has 30 apples, 60 bananas and 45 mangoes. HCF(30, 45, 60) = 15, so Lavanya can invite 15 guests.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "images": [
+    "fe6cb2b9a35f7f8eca9f04acfb6dbef7125f018ff71cb62cb6c9f9fa407da699.jpg",
+    "aa03c5c142ee7cd40468139fa3485de14b1845d566fc539aa69fa2d417462753.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The printed question number is missing; inferred as 90 from its position between Q89 and Q91. The stem is split across pages 20-21 by an inserted photo; rejoined. The text layer shows part (ii) is printed correctly as 60/12 = 5 bananas, so the earlier reading of '60/5 = 12 bananas' was an OCR artefact of the stacked fraction. Part (iv) is genuinely inconsistent in print: after computing 60/6 = 10 bananas it totals '6 + 7 + 12 = 25'; the worked solution's own figures give 6 + 7 + 10 = 23, which is what the answer states."
+  },
+  {
+   "number": "91",
+   "form": "case_study",
+   "marks": 4,
+   "page": 21,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "The Republic Day parade, first held in 1950, has been a yearly ritual since. The parade marches from the Rashtrapati Bhawan along the Rajpath in New Delhi. Several regiments of the army, navy and air force, along with their bands, march to India Gate. The parade is presided over by the President of India, who is the Commander-in-Chief of the Indian Armed Forces. As he unfurls the tricolour, the national anthem is played. The regiments of the Armed Forces then start their march past. Prestigious awards like Kirti Chakra, Ashok Chakra, Paramvir Chakra and Vir Chakra are given out by the President. Nine to twelve different regiments of the Indian Army, in addition to the Navy and Air Force, march toward India Gate along with their bands. Contingents of paramilitary forces and other civil forces also participate in the parade.\nOn the 71st Republic Day parade, captain RS Meel is planning for a parade of the following two groups:\n(a) First group of Army troops of 624 members behind an army band of 32 members.\n(b) Second group of CRPF troops with 468 soldiers behind the 228 members of bikers.\nThese two groups are to march in the same number of columns. This sequence of soldiers is followed by different states' Jhanki which are showing the culture of the respective states.\n(i) What is the maximum number of columns in which the army troop can march?\n(ii) What is the maximum number of columns in which the CRPF troop can march?\n(iii) What is the maximum number of columns in which total army troop and CRPF troop together can march past?\n(iv) What should be subtracted from the number of CRPF soldiers and the number of bikers so that their maximum number of columns is equal to the maximum number of columns of the army troop?\n(v) What should be added to the number of CRPF soldiers and the number of bikers so that their maximum number of columns is equal to the maximum number of columns of the army troop?",
+   "answer": "(i) HCF(624, 32) = 16, so the army troop can march in a maximum of 16 columns.\n(ii) HCF(228, 468) = 12, so the CRPF troop can march in a maximum of 12 columns.\n(iii) HCF(624, 32, 228, 468) = 4; alternatively HCF(16, 12) = 4.\n(iv) The maximum number of columns of the army troop is 16, but 228 and 468 are not divisible by 16. If we subtract 4 from each, both 224 and 464 are divisible by 16.\n(v) Again the army troop marches in 16 columns. If we add 12 to each of 228 and 468, both 240 and 480 are divisible by 16.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "images": [
+    "1c86c9429a797285d11f5346c7a4c8cc86b84efa02ad4bf7737346733f2bc2ae.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "Stripped the 'Click Here to Buy book on Flipkart' banner splitting parts (iv) and (v). In the printed solution the labels (i)-(iii) are displaced across the LaTeX array; realigned so that HCF(624, 32) = 16 answers (i), HCF(228, 468) = 12 answers (ii) and HCF = 4 answers (iii). 'Commander-inChief' rejoined."
+  },
+  {
+   "number": "92",
+   "form": "case_study",
+   "marks": 4,
+   "page": 22,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Ashish supplies bread and jams to a hospital and a school. Bread and jam are supplied in equal number of pieces. Bread comes in a packet of 8 pieces and jam comes in a pack of 6 pieces. On a particular day, Ashish has supplied x packets of bread and y packets of jam to the school. On the same day, Ashish has supplied 3x packets of bread along with sufficient packets of jam to the hospital. It is known that the number of students in the school is between 500 and 550.\n(i) How many students are there in school?\n(ii) How many packets of bread are supplied in the school?\n(iii) How many packets of jams are supplied in the school?\n(iv) How many packets of bread are supplied in the hospital?\n(v) How many packets of jams are supplied in the hospital?",
+   "answer": "(i) First we find LCM(8, 6) = 24. The multiples of 24 between 500 and 550 are 504 and 528; taking 504, there are 504 students in the school.\n(ii) For equal distribution of bread among each student we need 504 pieces of bread, hence 504/8 = 63 packets of bread.\n(iii) For equal distribution of jam we need 504 pieces of jam, hence 504/6 = 84 packets of jam.\n(iv) For the hospital we need 3x packets of bread, i.e. 3 × 63 = 189 packets of bread.\n(v) The number of bread pieces is 189 × 8 = 1512, so we need the same number of jam pieces, hence 1512/6 = 252 packets of jam are distributed in the hospital.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "images": [
+    "a6ab54ff8d58c40bd098a4aa021c3df8a9504bb8bb6c28007c11ed8db0c72a0d.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "The printed solution lists both 504 and 528 as multiples of 24 in the range and then asserts 504; reproduced as printed."
+  },
+  {
+   "number": "93",
+   "form": "case_study",
+   "marks": 4,
+   "page": 22,
+   "section_heading": "COMPETENCY BASED QUESTIONS",
+   "stem": "Mahesh works as a manager in a hotel. He has to arrange chairs in a hall for a function. The hall has a certain number of chairs. Guests want to sit in different groups like in pairs, triplets, quadruplets, fives and sixes etc. Mahesh wants to arrange chairs in such a way that there are no chairs left after the arrangement. When Mahesh arranges chairs in such patterns like in 2's, 3's, 4's, 5's and 6's then 1, 2, 3, 4 and 5 chairs are left respectively. But when he arranges them in 11's, no chair will be left.\n(i) In the hall, how many chairs are available?\n(ii) If one chair is removed, which arrangement is possible now?\n(iii) If one chair is added to the total number of chairs, how many chairs will be left when arranged in 11's?\n(iv) How many chairs will be left in the original arrangement if the same number of chairs are arranged in 7's?\n(v) How many chairs will be left in the original arrangement if the same number of chairs are arranged in 9's?",
+   "answer": "(i) Dividing by 2, 3, 4, 5, 6 and 11, the number 539 is the only one that leaves remainders 1, 2, 3, 4, 5 and 0 respectively, so 539 chairs are available.\n(ii) After removing 1 chair we are left with 538 chairs. On arranging them in 3's, 4's, 5's, 6's and 11's, 1, 2, 3, 4 and 10 chairs are left, so only the arrangement in pairs of 2 is possible now.\n(iii) 539 chairs are already arranged in 11's; on adding 1 extra chair, that 1 chair will be left.\n(iv) 539 is divisible by 7 with remainder zero, so arranging the chairs in 7's leaves no chair.\n(v) Dividing 539 by 9 leaves remainder 8, so arranging the chairs in 9's leaves 8 chairs.",
+   "concept": "Divisibility and the division process",
+   "sub_parts": [
+    "i",
+    "ii",
+    "iii",
+    "iv",
+    "v"
+   ],
+   "images": [
+    "1cac41133b9f9e1a57c3099ff4a721fc142b90c8845384aa42fe8586912b2038.jpg"
+   ],
+   "figure_required": false,
+   "ocr": "Part (i) of the printed solution refers to 'all the options', a leftover from an MCQ version of this item; the value 539 is stated explicitly and has been kept."
+  }
+ ]
+}

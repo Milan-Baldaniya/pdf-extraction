@@ -1,0 +1,334 @@
+{
+ "items": [
+  {
+   "number": "59",
+   "form": "long",
+   "marks": 5,
+   "page": 14,
+   "stem": "In the given figure, diameters AC and BD of the circle intersect at O. If ∠AOB = 60° and OA = 10 cm, then:\n(i) find the length of the chord AB.\n(ii) find the area of shaded region. (Take π = 3.14 and √3 = 1.73)",
+   "options": [],
+   "correct_option": null,
+   "answer": "O is the centre, so OA and OB are radii and OA = OB. Hence ΔOAB is isosceles and ∠OAB = ∠OBA = (180° − 60°)/2 = 60°. All three angles are 60°, so ΔOAB is equilateral.\n(i) AB = OA = OB = 10 cm.\n(ii) The shaded region is the semicircle on diameter AC less the equilateral triangle OAB.\nArea of ΔOAB = (√3/4)(10)² = 25√3 cm².\nArea of the semicircle = π(10)²/2 = 50π cm².\nShaded area = 50π − 25√3 = 50(3.14) − 25(1.73) = 157 − 43.25 = 113.75 cm².\nSo AB = 10 cm and the shaded area is 113.75 cm².",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2024 OD Standard",
+   "images": [
+    "ch11_q59.png"
+   ],
+   "figure_required": true,
+   "ocr": "First question of the FIVE MARKS QUESTIONS section, which opens in the right column of page 14."
+  },
+  {
+   "number": "60",
+   "form": "long",
+   "marks": 5,
+   "page": 15,
+   "stem": "Four equal circles are described at the four corners of a square so that each touches two of the others. The shaded area enclosed between the circle is 24/7 cm². Find the radius of each circle.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let r be the radius of each circle. Since neighbouring circles touch, the side of the square joining two centres is 2r. At each corner the circle cuts off a quarter circle inside the square, so the region enclosed between the four circles is\narea of square − 4 × (area of a 90° sector)\n= (2r)² − 4(πr² × 90°/360°) = 4r² − πr².\nWith π = 22/7 this is 4r² − (22/7)r² = (28r² − 22r²)/7 = 6r²/7.\nSetting 6r²/7 = 24/7 gives 6r² = 24, so r² = 4 and r = 2 (the negative root is rejected).\nThe radius of each circle is 2 cm.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 SQP 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The figure of the four circles is printed inside the solution (\"As per question statement the figure is shown below\"), not with the question, so it is not attached."
+  },
+  {
+   "number": "61",
+   "form": "long",
+   "marks": 5,
+   "page": 15,
+   "stem": "Find the area of the shaded region in Figure, if ABCD is a rectangle with sides 8 cm and 6 cm and O is the centre of circle. (Take π = 3.14)",
+   "options": [],
+   "correct_option": null,
+   "answer": "In ΔABC, ∠B = 90°, so by Pythagoras theorem\nAC² = AB² + BC² = 8² + 6² = 64 + 36 = 100, giving AC = 10 cm.\nAC passes through the centre O, so AC is the diameter and the radius is r = 5 cm.\nThe shaded region is the part of the circle outside the rectangle, so\nshaded area = area of circle − area of rectangle\n= πr² − (AB × BC) = 3.14 × 5² − (8 × 6) = 78.5 − 48 = 30.5 cm².\nThe area of the shaded region is 30.5 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 Delhi",
+   "images": [
+    "ch11_q61.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "62",
+   "form": "long",
+   "marks": 5,
+   "page": 15,
+   "stem": "In Figure, a square OABC is inscribed in a quadrant OPBQ. If OA = 15 cm, find the area of the shaded region. (Use π = 3.14).",
+   "options": [],
+   "correct_option": null,
+   "answer": "OABC is a square of side 15 cm, and OB is a radius of the quadrant.\nIn right triangle BAO, OB² = OA² + AB² = 15² + 15² = 225 + 225 = 450, so OB = √450 = 15√2 cm.\nArea of the square OABC = (OA)² = 15² = 225 cm².\nArea of the quadrant OPBQ = πr²/4 = ¼ × 3.14 × (15√2)² = ¼ × 3.14 × 450 = 353.25 cm².\nShaded area = area of quadrant OPBQ − area of square OABC = 353.25 − 225 = 128.25 cm².\nThe area of the shaded region is 128.25 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board 2019 OD",
+   "images": [
+    "ch11_q62.png"
+   ],
+   "figure_required": true,
+   "ocr": "Number and stem begin at the foot of page 15; the sentence and the figure finish at the top of page 16."
+  },
+  {
+   "number": "63",
+   "form": "long",
+   "marks": 5,
+   "page": 16,
+   "stem": "Fig. depicts a racing track whose left and right ends are semi-circular. The distance between the two inner parallel line segments is 60 m and they are each 106 m long. If the track is 10 m wide everywhere, find the area of the track.",
+   "options": [],
+   "correct_option": null,
+   "answer": "The distance between the inner parallel segments is 60 m, so the inner semicircles have radius 60/2 = 30 m. The track is 10 m wide on both sides, so the outer width is 60 + 2(10) = 80 m and the outer semicircles have radius 80/2 = 40 m.\nThe two straight strips of the track are each 106 m long and 10 m wide:\narea of the two strips = 2 × 106 × 10 = 2120 m².\nThe two curved ends together form a complete circular ring of radii 40 m and 30 m:\narea of the ring = π(40² − 30²) = (22/7)(1600 − 900) = (22/7)(700) = 2200 m².\nArea of the track = 2120 + 2200 = 4320 m².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2011",
+   "images": [
+    "ch11_q63.png"
+   ],
+   "figure_required": true,
+   "ocr": "The printed solution is arithmetically wrong and ends at 3260 m². It writes \"Area of inner rectangle = 106 × 60 = 3180\" and \"Area of outer rectangle = 106 × 80 = 4240\" — both products are halved (they are really 6360 and 8480), which understates the two straight strips by 1060 m². Its semicircle areas, 19800/7 and 35200/7, are correct. Working the same method with the correct rectangle areas gives 8480 + 35200/7 − 6360 − 19800/7 = 2120 + 2200 = 4320 m², the standard NCERT value, so the answer above is the corrected one."
+  },
+  {
+   "number": "64",
+   "form": "long",
+   "marks": 5,
+   "page": 16,
+   "stem": "Find the area of the shaded region in Figure, APD, AQB, BRC and CSD, are semi-circles of diameter 14 cm, 3.5 cm, 7 cm and 3.5 cm respectively. Use π = 22/7.",
+   "options": [],
+   "correct_option": null,
+   "answer": "The largest semicircle APD has diameter 14 cm, so its radius is 7 cm. The shaded semicircle BRC has diameter 7 cm, so its radius is 3.5 cm = 7/2 cm. The two unshaded semicircles AQB and CSD have diameter 3.5 cm each, so each has radius 3.5/2 = 7/4 cm.\nArea of the shaded portion\n= area of the largest semicircle + area of the smaller shaded semicircle − area of the two unshaded semicircles\n= ½ × (22/7) × 7² + ½ × (22/7) × (7/2)² − 2 × ½ × (22/7) × (7/4)²\n= ½ × (22/7) × 7²[1 + ¼ − ⅛]\n= 11 × 7 × (9/8) = 693/8 = 86.625 cm².\nThe area of the shaded region is 86.625 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2016",
+   "images": [
+    "ch11_q64.png"
+   ],
+   "figure_required": true,
+   "ocr": "The book prints the four names with arc bars over them (⌢APD, ⌢AQB, ⌢BRC, ⌢CSD); written here as plain letters."
+  },
+  {
+   "number": "65",
+   "form": "long",
+   "marks": 5,
+   "page": 17,
+   "stem": "In figure, PQRS is square lawn with side PQ = 42 metre. Two circular flower beds are there on the sides PS and QR with centre at O, the intersection of its diagonals. Find the total area of the two flower beds (shaded parts).",
+   "options": [],
+   "correct_option": null,
+   "answer": "The circle has centre O, the intersection of the diagonals, and radius OR.\nLet OR = x. The diagonals of the square are perpendicular at O, so in right triangle ROQ,\nx² + x² = (42)², giving x = 21√2 m.\nEach flower bed is the segment cut off by a side of the square, and the side subtends 90° at O.\nArea of the sector of angle 90° = (90°/360°) × (22/7) × (21√2)² = ¼ × (22/7) × 882 = 11 × 3 × 21 = 693 m².\nΔROQ is right angled at O with both legs equal to 21√2 m, so its area = ½ × (21√2)² = ½ × 882 = 441 m².\nArea of one flower bed = 693 − 441 = 252 m².\nArea of both flower beds = 2 × 252 = 504 m².",
+   "concept": "Segment equals sector minus triangle",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2015",
+   "images": [
+    "ch11_q65.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "66",
+   "form": "long",
+   "marks": 5,
+   "page": 17,
+   "stem": "In fig., two circular flower beds have been shown on two sides of a square lawn ABCD of side 56 m. If the centre of each circular flower bed is the point of intersection O of the diagonals of the square lawn, find the sum of the areas of the lawn and flower beds.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Side of the square = 56 m, so its diagonal = 56√2 m and the radius of each circle is r = ½ × 56√2 = 28√2 m.\nThe required region is made up of sector OAB, sector ODC and the two triangles OAD and OBC. Each sector has centre angle 90°, and each triangle is a quarter of the square.\nTotal area = 2 × (22/7)(28√2)²(90°/360°) + 2 × (¼ × 56 × 56)\n= 2 × ¼ × (22/7) × 1568 + 2 × 784\n= 2 × 1232 + 1568\n= 2464 + 1568 = 4032 m².\nThe sum of the areas of the lawn and the flower beds is 4032 m².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2011",
+   "images": [
+    "ch11_q66.png"
+   ],
+   "figure_required": true,
+   "ocr": "The question says the square lawn has side 56 m, but the figure labels the side \"56 cm\". The solution works in metres, so the stem's unit is the right one."
+  },
+  {
+   "number": "67",
+   "form": "long",
+   "marks": 5,
+   "page": 18,
+   "stem": "In fig., find the area of the shaded region. Use π = 22/7.",
+   "options": [],
+   "correct_option": null,
+   "answer": "The shaded figure is a square of side 14 cm with a circle of diameter 7 cm removed from it, a semicircle of diameter 14 cm added below it and two quarter circles of radius 3.5 cm added at the sides.\nArea of the square = (14)² = 196 cm².\nArea of the internal circle = (22/7) × (7/2)² = 77/2 = 38.5 cm².\nArea of the semicircle of diameter 14 cm = ½ × (22/7) × 7² = 77 cm².\nArea of the two quarter circles of radius 7/2 cm = 2 × ¼ × (22/7) × (7/2)² = 77/4 = 19.25 cm².\nShaded area = 196 − 38.5 + 77 + 19.25 = 292.25 − 38.5 = 253.75 cm².\nThe area of the shaded region is 253.75 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2011",
+   "images": [
+    "ch11_q67.png"
+   ],
+   "figure_required": true,
+   "ocr": "All the dimensions live only in the diagram, so the figure is essential."
+  },
+  {
+   "number": "68",
+   "form": "long",
+   "marks": 5,
+   "page": 18,
+   "stem": "The given figure shows a sector OAP of a circle with centre O, containing ∠θ. AB is perpendicular to the radius OA and meets OP produced at B. Prove that the perimeter of shaded region is r[tan θ + sec θ + πθ/180 − 1].",
+   "options": [],
+   "correct_option": null,
+   "answer": "OAP is a sector of the circle of centre O and radius r, with ∠POA = θ and OA ⊥ AB.\nThe shaded region is bounded by BP, AB and the arc AP, so\nperimeter = BP + AB + arc AP.\nIn right triangle OAB, tan θ = AB/OA, so AB = r tan θ.\nAlso sec θ = OB/OA, so OB = r sec θ, and since OP = r,\nBP = OB − OP = r sec θ − r.\nLength of arc AP = (θ/360°) × 2πr = πrθ/180.\nAdding the three pieces,\nperimeter = r tan θ + (r sec θ − r) + πrθ/180 = r[tan θ + sec θ + πθ/180 − 1].\nHence proved.",
+   "concept": "Length of an arc",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2015, 2016",
+   "images": [
+    "ch11_q68.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem is printed as \"r = [tan θ + sec θ + πθ/180 − 1]\"; the equals sign is a misprint — the solution proves the perimeter equals r[tan θ + sec θ + πθ/180 − 1], so the stem is written that way here."
+  },
+  {
+   "number": "69",
+   "form": "long",
+   "marks": 5,
+   "page": 18,
+   "stem": "In fig., AC = BD = 7 cm and AB = CD = 1.75 cm. Semi-circles are drawn as shown in the figure. Find the area of the shaded region. Use π = 22/7.",
+   "options": [],
+   "correct_option": null,
+   "answer": "The two large semicircles have diameter AC = BD = 7 cm, so each has radius 7/2 cm. The two small semicircles that are cut away have diameter AB = CD = 1.75 cm, so each has radius 7/8 cm.\nArea of the shaded region\n= 2(area of a semicircle of radius 7/2 cm) − 2(area of a semicircle of radius 7/8 cm)\n= 2[½ × (22/7) × (7/2)²] − 2[½ × (22/7) × (7/8)²]\n= 2 × ½ × (22/7) × (7/2)²[1 − (¼)²]\n= (77/2)[1 − 1/16] = (77/2) × (15/16) = 1155/32\n= 36.09 cm² (approximately).\nThe area of the shaded region is 1155/32 cm² ≈ 36.09 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2011",
+   "images": [
+    "ch11_q69.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "70",
+   "form": "long",
+   "marks": 5,
+   "page": 19,
+   "stem": "Two circles touch internally. The sum of their areas is 116π and the difference between their centres is 6 cm. Find the radii of the circles.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let the radius of the larger circle be x and that of the smaller circle be y. For circles touching internally the distance between the centres is the difference of the radii, so\nx − y = 6 … (1)\nThe sum of the areas is 116π, so\nπx² + πy² = 116π ⇒ x² + y² = 116 … (2)\nSubstituting y = x − 6 from (1) into (2),\nx² + (x − 6)² = 116\n2x² − 12x + 36 = 116\nx² − 6x − 40 = 0\nx² − 10x + 4x − 40 = 0\n(x − 10)(x + 4) = 0\nso x = 10 (the negative root is rejected) and y = 10 − 6 = 4.\nThe radii of the circles are 10 cm and 4 cm.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed factorisation reads \"x(x − 10) + 4(x + 10) = 0\"; it should be x(x − 10) + 4(x − 10) = 0, i.e. (x − 10)(x + 4) = 0. The roots the book then quotes, x = 10 and y = 4, are correct. The diagram is drawn inside the solution, so nothing is attached."
+  },
+  {
+   "number": "71",
+   "form": "long",
+   "marks": 5,
+   "page": 19,
+   "stem": "A square OABC is inscribed in a quadrant OPBQ of a circle. If OA = 20 cm, find the area of the shaded region. [Use π = 3.14]",
+   "options": [],
+   "correct_option": null,
+   "answer": "OB is a radius of the quadrant and is the diagonal of the square OABC, so\nOB = √(OA² + AB²) = √(20² + 20²) = √800 = 20√2 cm, giving r = 20√2 cm.\nArea of the shaded region = area of the quadrant OQBPO − area of the square OABC\n= πr²(90°/360°) − (20)²\n= 3.14 × (20√2)² × ¼ − 400\n= 3.14 × 200 − 400\n= 628 − 400 = 228 cm².\nThe required area is 228 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2014",
+   "images": [
+    "ch11_q71.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "72",
+   "form": "long",
+   "marks": 5,
+   "page": 19,
+   "stem": "In the given figure, ABCD is a rectangle of dimensions 21 cm × 14 cm. A semicircle is drawn with BC as diameter. Find the area and the perimeter of the shaded region in the figure.",
+   "options": [],
+   "correct_option": null,
+   "answer": "The semicircle has BC = 14 cm as diameter, so its radius is 7 cm.\nArea of the shaded region = area of rectangle ABCD − area of the semicircle\n= 21 × 14 − (π/2) × 7²\n= 294 − ½ × (22/7) × 7 × 7\n= 294 − 77 = 217 cm².\nThe boundary of the shaded region is AB, AD, CD and the arc CB, so\nperimeter = AB + AD + CD + arc CB\n= 21 + 14 + 21 + (22/7) × 7\n= 21 + 14 + 21 + 22 = 78 cm.\nHence the area of the shaded region is 217 cm² and its perimeter is 78 cm.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 OD 2017",
+   "images": [
+    "ch11_q72.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "73",
+   "form": "long",
+   "marks": 5,
+   "page": 20,
+   "stem": "The long and short hands of a clock are 6 cm and 4 cm long respectively. Find the sum of distances travelled by their tips in 24 hours. (Use π = 3.14)",
+   "options": [],
+   "correct_option": null,
+   "answer": "The long hand (minute hand) makes 24 complete rounds in 24 hours and the short hand (hour hand) makes 2 complete rounds. In one round the tip travels the circumference of its circle.\nFor the long hand, radius = 6 cm, so one round = 2π × 6 = 12π cm and 24 rounds = 24 × 12π = 288π cm.\nFor the short hand, radius = 4 cm, so one round = 2π × 4 = 8π cm and 2 rounds = 2 × 8π = 16π cm.\nSum of the distances = 288π + 16π = 304π = 304 × 3.14 = 954.56 cm.\nThe tips together travel 954.56 cm in 24 hours.",
+   "concept": "Length of an arc",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Foreign 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "74",
+   "form": "long",
+   "marks": 5,
+   "page": 20,
+   "stem": "In fig. ABCD is a square of side 14 cm. Semi-circle are drawn with each side of square as diameter. Find the area of the shaded region. Use π = 22/7.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let O be the centre of the square, where the four semicircles meet. The four petal-shaped white regions divide the square into four shaded parts, numbered 1, 2, 3 and 4.\nArea of the square = 14 × 14 = 196 cm².\nEach semicircle has radius 14/2 = 7 cm.\nArea of semicircle AOB + area of semicircle DOC = 2 × ½ × (22/7) × 7² = (22/7) × 7² = 154 cm².\nRemoving the two semicircles AOD and COB from the square leaves shaded parts 1 and 2, so\narea of those two shaded parts = 196 − 154 = 42 cm².\nBy symmetry the other two shaded parts have the same total area, so the area of all four shaded parts is 2 × 42 = 84 cm².\nThe area of the shaded region is 84 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 Delhi 2016, STD SQP 2021",
+   "images": [
+    "ch11_q74.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "75",
+   "form": "long",
+   "marks": 5,
+   "page": 20,
+   "stem": "In fig., ABCDEF is any regular hexagon with different vertices A, B, C, D, E and F as the centres of circle with same radius r are drawn. Find the area of the shaded portion.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let n be the number of sides. For a regular polygon,\nn × (each interior angle) = (n − 2) × 180°.\nFor the hexagon, 6 × (each angle) = 4 × 180°, so each interior angle = 120°.\nAt every vertex the shaded piece is the sector of the circle of radius r lying inside the hexagon, so its angle is 120° and\narea of one sector = πr² × (120°/360°) = πr²/3.\nThere are six such sectors, so\narea of the shaded portion = 6 × πr² × (120°/360°) = 2πr².\nThe shaded area is 2πr².",
+   "concept": "Angle of the sector",
+   "section_heading": "FIVE MARKS QUESTIONS | Board Term-2 2011",
+   "images": [
+    "ch11_q75.png"
+   ],
+   "figure_required": true,
+   "ocr": "Last question of the FIVE MARKS QUESTIONS section; the COMPETENCEY BASED QUESTIONS heading follows it on page 20."
+  },
+  {
+   "number": "76",
+   "form": "case_study",
+   "marks": 4,
+   "page": 20,
+   "stem": "Traditional Japanese Fans : Japanese fans are made of paper on a bamboo frame, usually with a design painted on them. A Japanese Fan symbolises friendship, respect and good wishes and are given on special occasions, as well as to help cool you down in hot weather. The fan is an immediately recognizable icon of Japanese culture. Today they remain an important artistic medium and stylish fashion accessory.\nLavanya hold a Japanease folding fan in her hand as shown in figure. It is shapded like a sector of a circle. The inner and outer raddi are 14 cm and 21 cm. The fan has three colour material.\n(i) If the region containing the pink colour makes an angle of θ₂ = 72° at the centre, then find the area of the region having pink colour.\n(ii) If the region containing the orange colour makes an angle of θ₁ = 54° at the centre, then find the area of the region having orange colour.\n(iii) If the region containing the red colour makes an angle of θ₃ = 45° at the centre, then find the perimeter of the region having red colour.\n(iv) Find the area of the region having radius 14 cm.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Here the inner radius is r₁ = 14 cm and the outer radius is r₂ = 21 cm. Each coloured region is the part of a sector lying between the two radii.\n(i) Pink, θ₂ = 72°:\nA_p = (πθ₂/360°)(r₂² − r₁²) = (22/7) × (72°/360°) × (21² − 14²) = (22/7) × ⅕ × (21 + 14)(21 − 14) = (22/7) × ⅕ × 35 × 7 = 154 cm².\n(ii) Orange, θ₁ = 54°:\nA_o = (πθ₁/360°)(r₂² − r₁²) = (22/7) × (54°/360°) × (21² − 14²) = (22/7) × (3/20) × 35 × 7 = 115.5 cm².\n(iii) Red, θ₃ = 45°. Its boundary is the two straight edges of length r₂ − r₁ together with the inner and outer arcs:\np_r = 2(r₂ − r₁) + 2πr₁(θ₃/360°) + 2πr₂(θ₃/360°) = 2(r₂ − r₁) + 2π(θ₃/360°)(r₁ + r₂)\n= 2(21 − 14) + 2 × (22/7) × (45°/360°) × (21 + 14) = 14 + 2 × (22/7) × ⅛ × 35 = 14 + 27.5 = 41.5 cm.\n(iv) The region of radius 14 cm is the sector of radius r₁ covering all three angles:\nA_s = πr₁²(θ₁ + θ₂ + θ₃)/360° = (22/7) × 14² × (54° + 72° + 45°)/360° = (22/7) × 196 × (171°/360°) = 292.6 cm².\nSo the pink area is 154 cm², the orange area is 115.5 cm², the perimeter of the red region is 41.5 cm and the area of the region of radius 14 cm is 292.6 cm².",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch11_q76.png"
+   ],
+   "figure_required": true,
+   "ocr": "Part (iii) is printed as \"θ₁ = 45°\", but θ₁ = 54° has already been used in part (ii) and the solution calls the 45° angle θ₃, so it is written θ₃ here. The book's spellings \"Japanease\", \"shapded\" and \"raddi\" are kept as printed. The decorative Japan illustration above the question is not attached; the labelled fan diagram is. The number and stem begin at the foot of page 20 and the sub-parts continue on page 21."
+  },
+  {
+   "number": "77",
+   "form": "case_study",
+   "marks": 4,
+   "page": 21,
+   "stem": "Pendulum Clock : It is a clock that uses a pendulum, a swinging weight, as its timekeeping element. From its invention in 1656 by Christiaan Huygens, the pendulum clock was the world's most precise timekeeper, accounting for its widespread use. Their greater accuracy allowed for the faster pace of life which was necessary for the Industrial Revolution. The home pendulum clock was replaced by less-expensive, synchronous, electric clocks in the 1930s and 40s. Pendulum clocks are now kept mostly for their decorative and antique value.\nDhriti bought a pendulum clock for her living room. the clock contains a small pendulam of lenght 45 cm. the minute hand and hour hand of the clock are 9 cm and 6 cm long respectively.\n(i) Find the area swept by the minute hand in 14 minutes.\n(ii) Find the angle described by hour hand in 10 minutes.\n(iii) Find the distance covered by the tip of hour hand in 3.5 hours.\n(iv) If the tip of pendulum covers a distance of 66 cm in complete oscillation, then find the angle described by pendulum at the centre.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Let rₘ = 9 cm (minute hand), rₕ = 6 cm (hour hand) and r_p = 45 cm (pendulum).\n(i) The minute hand sweeps the whole circle πrₘ² in 60 minutes, so in 14 minutes it sweeps\nπrₘ² × (14/60) = (22/7) × 9 × 9 × (14/60) = 59.4 cm².\n(ii) The hour hand turns 360° in 12 hours, so in 10 minutes it turns\nθ = (360°/12) × (10/60) = 5°.\n(iii) The tip of the hour hand covers 2πrₕ in 12 hours, so in 3.5 hours it covers\n2πrₕ × (3.5/12) = 2 × (22/7) × 6 × (3.5/12) = 22/2 = 11 cm.\n(iv) A complete oscillation is 66 cm, so half an oscillation is an arc of 33 cm. If θ is the angle described at the point of suspension,\nl = 2πr_p × (θ/360°)\n33 = 2 × (22/7) × 45 × (θ/360°)\n3 = (4/7) × (θ/8)\nθ = (3 × 7 × 8)/4 = 42°.\nSo the minute hand sweeps 59.4 cm², the hour hand turns 5° in 10 minutes, its tip covers 11 cm in 3.5 hours, and the pendulum describes 42°.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution opens \"Let rₘ = 9 cm, rₕ = 9 cm and r_p = 45 cm\", but the hour hand is 6 cm, and part (iii) of the same solution correctly substitutes 6. Corrected here. The book's spellings \"pendulam\" and \"lenght\" are kept as printed. The photograph of the clock is decorative and adds no data, so no figure is attached. The number and stem begin in the right column of page 21 and the sub-parts and solution run on to page 22."
+  },
+  {
+   "number": "78",
+   "form": "case_study",
+   "marks": 4,
+   "page": 22,
+   "stem": "UPHOLSTERY : Upholstery is the physical act of stuffing seats and furniture with webbing, padding, springs, foam, or cushions to furniture and covering it with upholstery fabric. The word upholstery comes from the Middle English word upholder, which referred to an artisan who help up their goods. A person who works with upholstery is an upholsterer.\nEshika wants to cover the cushions of her papasan chair with a different fabric. If there are seven circular cushions that are the same size with a diameter of 32 cm, around a center cushion with a diameter of 46 cm, find the area of fabric that she will need to cover both sides of the cushions. Allow an extra 5 cm of fabric around each cushion.",
+   "options": [],
+   "correct_option": null,
+   "answer": "Each small cushion has diameter 32 cm, so its radius is 16 cm; allowing 5 cm extra, the radius of the cloth circle is\nr_s = 16 + 5 = 21 cm, and its area A = πr_s² = (22/7) × 21² = 1386 cm².\nThe centre cushion has diameter 46 cm, so its radius is 23 cm; with the same allowance,\nr_l = 23 + 5 = 28 cm, and its area A = πr_l² = (22/7) × 28² = 2464 cm².\nThere are 7 small cushions and 1 large cushion, and the cloth is needed on both sides, so the total is doubled:\nTotal area = 2(7 × 1386 + 2464) = 2(9702 + 2464) = 2 × 12166 = 24332 cm².\nEshika needs 24332 cm² of fabric.",
+   "concept": "Area of a sector by unitary method",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The photographs of the cushions are decorative and carry no measurements, so no figure is attached. The number and stem begin in the right column of page 22 and the solution finishes at the top of page 23."
+  }
+ ]
+}

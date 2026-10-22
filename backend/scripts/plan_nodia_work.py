@@ -19,7 +19,13 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from sqlalchemy import text  # noqa: E402
 from app.db.mariadb import SessionLocal, init_mariadb  # noqa: E402
-from scripts.extract_sci10_qbank import CHAPTERS as PAGE_MAP, STANDARD_ID, SUBJECT_ID  # noqa: E402
+# The chapter map and subject differ per book, so they are chosen at run time
+# rather than imported once. Adding a subject means adding a line here, not
+# copying this file.
+from scripts import extract_sci10_qbank as _sci10  # noqa: E402
+from scripts import extract_maths10_qbank as _maths10  # noqa: E402
+
+BOOKS = {"sci10": _sci10, "maths10": _maths10}
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -50,6 +56,123 @@ def slug_for(heading: str) -> str:
     return "case" if heading.startswith("CASE") else re.sub(r"[^a-z]", "", heading.lower())[:6]
 
 
+def _textlayer_sections(book: str, chapter: int) -> list[tuple[int, str]]:
+    """Section headings as the BOOK prints them, from the PDF's own text layer."""
+    try:
+        from scripts.textlayer import text_of
+        body = text_of(book, chapter)
+    except Exception:
+        return []
+    out, seen = [], set()
+    for m in HEAD.finditer(body):
+        h = m.group(1).strip()
+        if h not in seen:
+            seen.add(h)
+            out.append((m.start(), h, body[m.end():m.end() + 260]))
+    out.sort()
+    return out
+
+
+def _locate(md: str, probe: str, after: int = 0) -> int:
+    """Find where `probe` (text-layer wording) starts inside MinerU's markdown.
+
+    The two texts never agree character for character - MinerU wraps formulas in
+    LaTeX and drops words - so this matches the probe's first few real words in
+    order, tolerating arbitrary junk between them.
+    """
+    words = [w for w in re.findall(r"[A-Za-z]{4,}", probe)][:5]
+    if len(words) < 3:
+        return -1
+    for take in (5, 4, 3):
+        if len(words) < take:
+            continue
+        pat = re.compile(r".{0,120}?".join(re.escape(w) for w in words[:take]),
+                         re.IGNORECASE | re.DOTALL)
+        m = pat.search(md, after)
+        if m:
+            return m.start()
+    return -1
+
+
+def _recover_missing_sections(md: str, secs: list[tuple[int, str]], book: str,
+                              chapter: int) -> list[str]:
+    """Insert sections the book prints but MinerU's OCR lost.
+
+    Chapter 3 is why this exists: the book prints OBJECTIVE, ONE MARK, THREE
+    MARKS and FIVE MARKS, but "ONE MARK QUESTIONS" never made it into the
+    markdown. Planning from the markdown alone put 49 questions into one
+    "OBJECTIVE" slice, which would have stored a whole section of one-mark
+    questions as MCQs - or left them unread, the way chapter 5 and 7 of the
+    science bank lost their bleed blocks.
+    """
+    printed = _textlayer_sections(book, chapter)
+    if not printed:
+        return []
+    have = {h for _, h in secs}
+    notes = []
+    for _, heading, following in printed:
+        if heading in have:
+            continue
+        pos = _locate(md, following)
+        if pos < 0:
+            notes.append(f"        !! the book prints {heading!r} but it is absent "
+                         f"from the markdown AND could not be located - read by hand")
+            continue
+        secs.append((pos, heading))
+        notes.append(f"        recovered {heading!r} at {pos:,} from the PDF text "
+                     f"layer (MinerU lost the heading)")
+    secs.sort()
+    return notes
+
+
+def _split_points(md: str, start: int, end: int, book: str, chapter: int,
+                  max_chars: int) -> list[int]:
+    """Cut an oversized section into reader-sized pieces at question boundaries.
+
+    A 116,000-character slice is three times anything a single reader has
+    handled well, and the failure mode is silent - the reader thins out rather
+    than stopping. Cutting mid-question is worse than a big slice, so the cuts
+    are made at printed question numbers: the text layer lists them cleanly at
+    line starts, and each chosen question's own wording is then located in the
+    markdown.
+    """
+    span = end - start
+    if span <= max_chars:
+        return []
+    pieces = -(-span // max_chars)                       # ceil
+    try:
+        from scripts.textlayer import text_of
+        body = text_of(book, chapter)
+    except Exception:
+        return []
+
+    # Printed question numbers, in order, with the words that follow each.
+    anchors = [(m.start(), int(m.group(1)), body[m.end():m.end() + 200])
+               for m in re.finditer(r"(?m)^(\d{1,3})\.\s", body)]
+    if len(anchors) < pieces * 2:
+        return []
+
+    # Keep only the anchors that fall inside this section of the MARKDOWN.
+    inside = []
+    for _, number, following in anchors:
+        pos = _locate(md, following, start)
+        if start < pos < end:
+            inside.append((pos, number))
+    inside.sort()
+    if len(inside) < pieces * 2:
+        return []
+
+    cuts = []
+    for k in range(1, pieces):
+        want = start + (span * k) // pieces
+        pos, _ = min(inside, key=lambda t: abs(t[0] - want))
+        if cuts and pos <= cuts[-1]:
+            continue
+        if start < pos < end:
+            cuts.append(pos)
+    return cuts
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--json", action="store_true")
@@ -57,8 +180,15 @@ def main() -> int:
                     help="limit to these chapter numbers (repeatable)")
     ap.add_argument("--include-read", action="store_true",
                     help="include chapters whose part files already exist")
+    ap.add_argument("--max-chars", type=int, default=45000,
+                    help="split a section larger than this across several readers")
+    ap.add_argument("--book", choices=sorted(BOOKS), default="sci10",
+                    help="which question bank to plan (default sci10)")
     a = ap.parse_args()
 
+    book = BOOKS[a.book]
+    PAGE_MAP, STANDARD_ID, SUBJECT_ID = book.CHAPTERS, book.STANDARD_ID, book.SUBJECT_ID
+    prefix = "ch" if a.book == "sci10" else "mch"
     by_chapter_id = {cid: (num, name) for num, cid, name in PAGE_MAP.values() if cid}
     if not init_mariadb() or SessionLocal is None:
         raise SystemExit("Database not ready")
@@ -76,7 +206,7 @@ def main() -> int:
             num, name = by_chapter_id[chapter_id]
             if a.chapter and num not in a.chapter:
                 continue
-            done = sorted(PARTS.glob(f"ch{num:02d}_*.json"))
+            done = sorted(PARTS.glob(f"{prefix}{num:02d}_*.json"))
             if done and not a.include_read:
                 report.append(f"  ch {num:<3} {name[:34]:<36} already read ({len(done)} part file(s))")
                 continue
@@ -91,6 +221,8 @@ def main() -> int:
                 seen.add(h)
                 secs.append((m.start(), h))
             secs.sort()
+            for note in _recover_missing_sections(md, secs, a.book, num):
+                report.append(note)
             if not secs:
                 report.append(f"  ch {num:<3} {name[:34]:<36} NO SECTION HEADINGS FOUND - needs a look")
                 continue
@@ -109,17 +241,26 @@ def main() -> int:
                              "extraction_id": int(eid), "name": name,
                              "section": "PRE-HEADING (questions printed before the first section heading)",
                              "slug": "pre", "start": 0, "end": secs[0][0],
-                             "out": f"ch{num:02d}_pre.json"})
+                             "out": f"{prefix}{num:02d}_pre.json"})
                 report.append(f"        {'PRE-HEADING':<24} {0:>7}-{secs[0][0]:<7} "
                               f"({secs[0][0]:,}, {head_answers} answer markers)")
             for i, (pos, h) in enumerate(secs):
                 end = secs[i + 1][0] if i + 1 < len(secs) else len(md)
                 slug = slug_for(h)
-                work.append({"chapter": num, "chapter_id": int(chapter_id),
-                             "extraction_id": int(eid), "name": name, "section": h,
-                             "slug": slug, "start": pos, "end": end,
-                             "out": f"ch{num:02d}_{slug}.json"})
-                report.append(f"        {h:<24} {pos:>7}-{end:<7} ({end - pos:,})")
+                cuts = _split_points(md, pos, end, a.book, num, a.max_chars)
+                bounds = [pos, *cuts, end]
+                for k in range(len(bounds) - 1):
+                    lo, hi = bounds[k], bounds[k + 1]
+                    part = slug if len(bounds) == 2 else f"{slug}{chr(ord('a') + k)}"
+                    work.append({"chapter": num, "chapter_id": int(chapter_id),
+                                 "extraction_id": int(eid), "name": name, "section": h,
+                                 "slug": part, "start": lo, "end": hi,
+                                 "out": f"{prefix}{num:02d}_{part}.json"})
+                    label = h if len(bounds) == 2 else f"{h} ({k + 1}/{len(bounds) - 1})"
+                    report.append(f"        {label:<30} {lo:>7}-{hi:<7} ({hi - lo:,})")
+                if cuts:
+                    report.append(f"        ^ split into {len(cuts) + 1} at printed "
+                                  f"question boundaries (over {a.max_chars:,} chars)")
     finally:
         db.close()
 

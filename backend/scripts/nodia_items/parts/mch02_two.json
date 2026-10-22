@@ -1,0 +1,114 @@
+{
+ "items": [
+  {
+   "number": "56",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "Find the zeroes of the quadratic polynomial √3x² − 8x + 4√3.",
+   "answer": "We have p(x) = √3x² − 8x + 4√3 = √3x² − 6x − 2x + 4√3 = √3x(x − 2√3) − 2(x − 2√3) = (√3x − 2)(x − 2√3). Substituting p(x) = 0, (√3x − 2)(x − 2√3) = 0. Solving we get x = 2/√3, 2√3. Hence the zeroes are 2/√3 and 2√3.",
+   "concept": "Splitting the middle term",
+   "ocr": "LaTeX array of the worked solution rewritten into Unicode (√, superscript 2, minus signs). MinerU spliced a stray 'p(x)' into the factorised line '(√3x − 2)(x − 2√3) ~ p(x) = 0'; read as 'Substituting p(x) = 0'. The text layer shows 'Solving we get x = 2/√3, 2√3' is a genuine printed line of the solution, not the column-bleed fragment 'Solvin' it was earlier taken for, so that step was restored."
+  },
+  {
+   "number": "57",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2016",
+   "stem": "Find a quadratic polynomial, the sum and product of whose zeroes are 6 and 9 respectively. Hence find the zeroes.",
+   "answer": "Sum of zeroes, α + β = 6; product of zeroes, αβ = 9. Now p(x) = x² − (α + β)x + αβ = x² − 6x + 9. Thus the quadratic polynomial is x² − 6x + 9. Now p(x) = x² − 6x + 9 = (x − 3)(x − 3). Substituting p(x) = 0 we get x = 3, 3. Hence the zeroes are 3 and 3.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "OCR text 'w Δ p e get x = 3,3' repaired to 'we get x = 3, 3'. LaTeX arrays rewritten to Unicode."
+  },
+  {
+   "number": "58",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "stem": "Form a quadratic polynomial p(x) with 3 and −2/5 as sum and product of its zeroes, respectively.",
+   "answer": "Sum of zeroes, α + β = 3; product of zeroes, αβ = −2/5. Now p(x) = x² − (α + β)x + αβ = x² − 3x − 2/5 = (1/5)(5x² − 15x − 2). The required quadratic polynomial is (1/5)(5x² − 15x − 2).",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "MinerU rendered α as the proportional sign '∝' throughout this solution; restored to α. The PRACTICE drill that follows (sum 21/8, product 5/16, Ans (1/16)(16x² − 42x + 5)) is an unnumbered practice item, not a numbered printed question, so it was not stored."
+  },
+  {
+   "number": "59",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2020 OD Basic",
+   "stem": "If α and β are the zeroes of the polynomial f(x) = 5x² − 7x + 1, then find the value of (α/β + β/α).",
+   "answer": "Since α and β are the zeroes of the quadratic polynomial f(x) = 5x² − 7x + 1: sum of zeroes, α + β = −(−7/5) = 7/5; product of zeroes, αβ = 1/5. Now α/β + β/α = (α² + β²)/αβ = [(α + β)² − 2αβ]/αβ = [(7/5)² − 2 × (1/5)] ÷ (1/5) = (49 − 2 × 5)/5 = 39/5.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "OCR printed the product of zeroes as '∝ ℵ = 1/5'; restored to αβ = 1/5. '(τ/5)²' restored to (7/5)². The two PRACTICE drills that follow (3x² + 11x − 4 and 2x² − 7x + 3) are unnumbered practice items and were not stored."
+  },
+  {
+   "number": "60",
+   "form": "very_short",
+   "marks": 2,
+   "page": 11,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2015",
+   "stem": "If α and β are the zeroes of a polynomial x² − 4√3x + 3, then find the value of α + β − αβ.",
+   "answer": "We have p(x) = x² − 4√3x + 3. Sum of zeroes, α + β = −b/a = −(−4√3)/1, so α + β = 4√3. Product of zeroes, αβ = c/a = 3/1, so αβ = 3. Now α + β − αβ = 4√3 − 3.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The product line printed as 'α^β = c/a'; read as αβ = c/a from the line that follows it. LaTeX array rewritten to Unicode."
+  },
+  {
+   "number": "61",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "stem": "If one of the zeroes of the quadratic polynomial f(x) = 14x² − 42k²x − 9 is negative of the other, find the value of k.",
+   "answer": "We have f(x) = 14x² − 42k²x − 9. Let one zero be α, then the other zero is −α. Sum of zeroes = α + (−α) = 0, so the sum of the zeroes is 0. Sum of zeroes = −(coefficient of x)/(coefficient of x²), so 0 = −(−42k²)/14 = 3k². Hence k² = 0 and k = 0.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The stem's closing phrase came through as garbled OCR ('find the value of ·k· τ'); restored to 'find the value of k'. The printed solution drops the sign of the coefficient of x, writing '0 = −42k²/14 = −3k²'; since the coefficient is −42k² the ratio is +3k². Either way k = 0, which is the printed answer."
+  },
+  {
+   "number": "62",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "stem": "If one zero of the polynomial 2x² + 3x + λ is 1/2, find the value of λ and the other zero.",
+   "answer": "Let the zeroes of 2x² + 3x + λ be 1/2 and β. Product of zeroes = c/a: (1/2)β = λ/2, so β = λ. Sum of zeroes = −b/a: 1/2 + β = −3/2, so β = −3/2 − 1/2 = −2. Hence λ = β = −2, and the other zero is −2.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "This question straddles a dump boundary — its board tag was split as 'Bo' / 'ard Term-1 2012' across two reads; reassembled from both. LaTeX rewritten to Unicode."
+  },
+  {
+   "number": "63",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "section_heading": "TWO MARKS QUESTIONS | Board 2019 Delhi",
+   "stem": "Find the value of k such that the polynomial x² − (k + 6)x + 2(2k + 1) has sum of its zeroes equal to half of their product.",
+   "answer": "Let α and β be the roots of x² − (k + 6)x + 2(2k + 1) = 0. Sum of roots, α + β = −[−(k + 6)]/1 = k + 6. Product of roots, αβ = 2(2k + 1)/1 = 2(2k + 1). According to the given condition α + β = ½αβ, so k + 6 = ½[2(2k + 1)] = 2k + 1, which gives k = 5. Hence the value of k is 5.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "'∝ + β' restored to 'α + β'. LaTeX arrays rewritten to Unicode."
+  },
+  {
+   "number": "64",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "stem": "If the zeroes of the polynomial x² + px + q are double in value to the zeroes of 2x² − 5x − 3, find the value of p and q.",
+   "answer": "We have f(x) = 2x² − 5x − 3. Let its zeroes be α and β, then sum of zeroes α + β = 5/2 and product of zeroes αβ = −3/2. According to the question the zeroes of x² + px + q are 2α and 2β. Sum of zeroes: 2α + 2β = −p/1, so 2(α + β) = −p. Substituting α + β = 5/2: 2 × 5/2 = −p, so p = −5. Product of zeroes: (2α)(2β) = q/1, so 4αβ = q. Substituting αβ = −3/2: 4 × (−3/2) = q, so q = −6. Thus p = −5 and q = −6.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "OCR mangled the substitution line for the product into '{\\alpha\\mathrm{\\alpha}}) \\alpha = -3/2'; restored to αβ = −3/2 from the surrounding working. '∝' restored to α throughout."
+  },
+  {
+   "number": "65",
+   "form": "very_short",
+   "marks": 2,
+   "page": 12,
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2013",
+   "stem": "If α and β are zeroes of x² − (k − 6)x + 2(2k − 1), find the value of k if α + β = ½αβ.",
+   "answer": "We have p(x) = x² − (k − 6)x + 2(2k − 1). Since α and β are the zeroes of p(x): α + β = −[−(k − 6)] = k − 6 and αβ = 2(2k − 1). Now applying α + β = ½αβ: k − 6 = 2(2k − 1)/2 = 2k − 1, so k = −5. Hence the value of k is −5.",
+   "concept": "Sum and product of the zeroes",
+   "ocr": "The condition in the stem was destroyed by OCR into a long nest of '\\mathrm{\\alpha\\beta\\Omega}' braces; restored as α + β = ½αβ from the worked solution, which applies exactly that relation. The printed solution also carries a typo, writing 'k + 6 = 2(2k − 1)/2' on one line and 'k − 6 = 2k − 1' on the next; the second is consistent with α + β = k − 6 and yields the printed answer k = −5, so the solution wins. The trailing PRACTICE drill (x² − 6x + k, Ans −2) is unnumbered and was not stored."
+  }
+ ]
+}

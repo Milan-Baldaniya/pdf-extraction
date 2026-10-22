@@ -1,0 +1,1133 @@
+{
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The middle most observation of every data arranged in order is called",
+   "options": [
+    {
+     "label": "A",
+     "text": "mode"
+    },
+    {
+     "label": "B",
+     "text": "median"
+    },
+    {
+     "label": "C",
+     "text": "mean"
+    },
+    {
+     "label": "D",
+     "text": "deviation"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "When all the observations are arranged in ascending or descending order, the observation lying in the middle is the median. Hence the middle most observation is called the median.",
+   "concept": "What the median is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "For some data x₁, x₂, ...............xₙ with respective frequencies f₁, f₂, ......fₙ, the value of Σ₁ⁿ fᵢ(xᵢ − x̄) is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "n x̄"
+    },
+    {
+     "label": "B",
+     "text": "1"
+    },
+    {
+     "label": "C",
+     "text": "Σfᵢ"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Σfᵢ(xᵢ − x̄) = Σfᵢxᵢ − x̄Σfᵢ. Since x̄ = Σfᵢxᵢ / Σfᵢ, we have x̄Σfᵢ = Σfᵢxᵢ, so the difference is 0. Hence Σfᵢ(xᵢ − x̄) = 0.",
+   "concept": "Direct method for the mean",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The median and mode respectively of a frequency distribution are 26 and 29, Then its mean is",
+   "options": [
+    {
+     "label": "A",
+     "text": "27.5"
+    },
+    {
+     "label": "B",
+     "text": "24.5"
+    },
+    {
+     "label": "C",
+     "text": "28.4"
+    },
+    {
+     "label": "D",
+     "text": "25.8"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "By the empirical relation Mₒ = 3M_d − 2M, with Mₒ = 29 and M_d = 26: 29 = 3 × 26 − 2M, so 2M = 78 − 29 = 49 and M = 49/2 = 24.5. The mean is 24.5.",
+   "concept": "Empirical relation of the three measures",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The cumulative frequency table is useful in determining",
+   "options": [
+    {
+     "label": "A",
+     "text": "Mean"
+    },
+    {
+     "label": "B",
+     "text": "Median"
+    },
+    {
+     "label": "C",
+     "text": "Mode"
+    },
+    {
+     "label": "D",
+     "text": "All of these"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A cumulative frequency table is a running total of the frequencies. From it the mean, the median and the mode of the distribution can all be found, so it is useful in determining all of these.",
+   "concept": "Cumulative frequency and ogives",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "In a frequency distribution, the mid value of a class is 10 and the width of the class is 6. The lower limit of the class is",
+   "options": [
+    {
+     "label": "A",
+     "text": "6"
+    },
+    {
+     "label": "B",
+     "text": "7"
+    },
+    {
+     "label": "C",
+     "text": "8"
+    },
+    {
+     "label": "D",
+     "text": "12"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let x be the upper limit and y the lower limit. The mid value gives (x + y)/2 = 10, i.e. x + y = 20. The width gives x − y = 6. Solving the two equations, y = 7. The lower limit of the class is 7.",
+   "concept": "Class mark represents a class",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "Consider the following frequency distribution of the heights of 60 students of a class<table><tr><td>Height (in cm)</td><td>150-155</td><td>155-160</td><td>160-165</td><td>165-170</td><td>170-175</td><td>175-180</td></tr><tr><td>Number of students</td><td>15</td><td>13</td><td>10</td><td>8</td><td>9</td><td>5</td></tr></table>The upper limit of the median class in the given data is",
+   "options": [
+    {
+     "label": "A",
+     "text": "165"
+    },
+    {
+     "label": "B",
+     "text": "155"
+    },
+    {
+     "label": "C",
+     "text": "160"
+    },
+    {
+     "label": "D",
+     "text": "170"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The cumulative frequencies are 15, 28, 38, 46, 55, 60. Here N = 60, so N/2 = 30. The first cumulative frequency greater than 30 is 38, which belongs to the class 160-165, so that is the median class and its upper limit is 165.",
+   "concept": "What the median is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 SQP Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution tabulates the last two frequencies as 09 and 08, giving N = 63 and N/2 = 31.5, while the question's own table prints 9 and 5 with a stated total of 60 students. Either way the cumulative frequency first exceeding N/2 is 38 and the median class is 160-165, so the key 165 stands."
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "For finding the popular size of readymade garments, which central tendency is used?",
+   "options": [
+    {
+     "label": "A",
+     "text": "Mean"
+    },
+    {
+     "label": "B",
+     "text": "Median"
+    },
+    {
+     "label": "C",
+     "text": "Mode"
+    },
+    {
+     "label": "D",
+     "text": "Both Mean and Mode"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The popular size is the size that occurs most often, and the measure of central tendency that picks the most frequent value is the mode. Hence mode is used.",
+   "concept": "What the mode is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Delhi 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the difference of mode and median of a data is 24, then the difference of median and mean is",
+   "options": [
+    {
+     "label": "A",
+     "text": "12"
+    },
+    {
+     "label": "B",
+     "text": "24"
+    },
+    {
+     "label": "C",
+     "text": "08"
+    },
+    {
+     "label": "D",
+     "text": "36"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Given Mₒ − M_d = 24. Using Mₒ = 3M_d − 2M, Mₒ − M_d = 2M_d − 2M = 2(M_d − M). So 24 = 2(M_d − M) and M_d − M = 12. The difference of median and mean is 12.",
+   "concept": "Empirical relation of the three measures",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 OD 2011",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the mean of the numbers 27 + x, 31 + x, 89 + x, 107 + x, 156 + x is 82, then the mean of 130 + x, 126 + x, 68 + x, 50 + x, and 1 + x is",
+   "options": [
+    {
+     "label": "A",
+     "text": "75"
+    },
+    {
+     "label": "B",
+     "text": "157"
+    },
+    {
+     "label": "C",
+     "text": "82"
+    },
+    {
+     "label": "D",
+     "text": "80"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "From the first set, 82 = (410 + 5x)/5, so 410 + 5x = 410 and x = 0. The second set then sums to 130 + 126 + 68 + 50 + 1 + 5x = 375, and its mean is 375/5 = 75.",
+   "concept": "Direct method for the mean",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 SQP 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The median of a set of 9 distinct observations is 20.5. If each of the largest 4 observation of the set is increased by 2, then the median of the new set",
+   "options": [
+    {
+     "label": "A",
+     "text": "Is increased by 2"
+    },
+    {
+     "label": "B",
+     "text": "Is decreased by 2"
+    },
+    {
+     "label": "C",
+     "text": "Is two times the original median"
+    },
+    {
+     "label": "D",
+     "text": "Remains the same as that of the original set"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "With n = 9 the median is the ((9 + 1)/2)th = 5th observation. Increasing only the largest four observations does not disturb the first five in order, so the 5th observation is unchanged. The median remains the same as that of the original set.",
+   "concept": "What the median is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Foreign 2017",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If the coordinates of the point of intersection of less than ogive and more than ogive is (13.5,20), then the value of median is",
+   "options": [
+    {
+     "label": "A",
+     "text": "13.5"
+    },
+    {
+     "label": "B",
+     "text": "20"
+    },
+    {
+     "label": "C",
+     "text": "33.5"
+    },
+    {
+     "label": "D",
+     "text": "7.5"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The two ogives meet at the point whose abscissa is the median of the data. The abscissa of (13.5, 20) is 13.5, so the median is 13.5.",
+   "concept": "Cumulative frequency and ogives",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Delhi 2013",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 43,
+   "stem": "A set of numbers consists of three 4's, five 5's, six 6's, eight 8's and seven 10's. The mode of this set of numbers is",
+   "options": [
+    {
+     "label": "A",
+     "text": "6"
+    },
+    {
+     "label": "B",
+     "text": "7"
+    },
+    {
+     "label": "C",
+     "text": "8"
+    },
+    {
+     "label": "D",
+     "text": "10"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The mode is the value with the highest frequency. Here 8 occurs eight times, more often than 4 (three times), 5 (five), 6 (six) or 10 (seven). Hence the mode is 8.",
+   "concept": "What the mode is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 SQP 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Book page 523. It is absent from the chapter 13 split; the page sits at the end of the chapter 12 PDF and was read from qbank_pages/maths10_ch12/p043.png. The \"page\": 43 here refers to that file, not to ch13 p043."
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 43,
+   "stem": "If the mean of the observation x, x + 3, x + 5, x + 7 and x + 10 is 9, the mean of the last three observation is",
+   "options": [
+    {
+     "label": "A",
+     "text": "10⅓"
+    },
+    {
+     "label": "B",
+     "text": "10⅔"
+    },
+    {
+     "label": "C",
+     "text": "11⅓"
+    },
+    {
+     "label": "D",
+     "text": "11⅔"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The five observations sum to 5x + 25, so 9 = (5x + 25)/5, giving x = 4. The last three observations are x + 5, x + 7 and x + 10, summing to 3x + 22 = 34. Their mean is 34/3 = 11⅓.",
+   "concept": "Direct method for the mean",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 SQP 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Book page 523. It is absent from the chapter 13 split; the page sits at the end of the chapter 12 PDF and was read from qbank_pages/maths10_ch12/p043.png. The \"page\": 43 here refers to that file, not to ch13 p043."
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 43,
+   "stem": "The mean and median of the data a, b and c are 50 and 35 respectively, where a < b < c. If c − a = 55, then (b − a) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "8"
+    },
+    {
+     "label": "B",
+     "text": "7"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "5"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "As a < b < c, the median is the middle value b, so b = 35. The mean gives a + b + c = 150, hence a + c = 115. With c − a = 55, subtracting gives 2a = 60, so a = 30. Therefore b − a = 35 − 30 = 5.",
+   "concept": "What the median is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Delhi 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Book page 523. It is absent from the chapter 13 split; the page sits at the end of the chapter 12 PDF and was read from qbank_pages/maths10_ch12/p043.png. The \"page\": 43 here refers to that file, not to ch13 p043."
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 43,
+   "stem": "Observations of some data are x/5, x, x/3, 2x/3, x/4, 2x/5 and 3x/4 where x > 0. If the median of the data is 4, then the value of x is",
+   "options": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "15"
+    },
+    {
+     "label": "C",
+     "text": "9"
+    },
+    {
+     "label": "D",
+     "text": "10"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "In ascending order the seven observations are x/5, x/4, x/3, 2x/5, 2x/3, 3x/4, x. With n = 7 the median is the 4th observation, which is 2x/5. So 2x/5 = 4, giving x = 20/2 = 10.",
+   "concept": "What the median is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Foreign 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Book page 523. It is absent from the chapter 13 split; the page sits at the end of the chapter 12 PDF and was read from qbank_pages/maths10_ch12/p043.png. The \"page\": 43 here refers to that file, not to ch13 p043."
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 43,
+   "stem": "If the mean of the squares of first n natural numbers is 105, then the first n natural numbers is",
+   "options": [
+    {
+     "label": "A",
+     "text": "8"
+    },
+    {
+     "label": "B",
+     "text": "9"
+    },
+    {
+     "label": "C",
+     "text": "10"
+    },
+    {
+     "label": "D",
+     "text": "11"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The sum of the squares of the first n natural numbers is n(n + 1)(2n + 1)/6, so the mean of the squares is (n + 1)(2n + 1)/6 = 105. This gives 2n² + 3n − 629 = 0, i.e. (2n + 37)(n − 17) = 0, so n = 17. Since 17 is odd, the median of the first 17 natural numbers is the ((17 + 1)/2)th = 9th observation, which is 9.",
+   "concept": "What the median is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 OD 2010",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Book page 523. It is absent from the chapter 13 split; the page sits at the end of the chapter 12 PDF and was read from qbank_pages/maths10_ch12/p043.png. The \"page\": 43 here refers to that file, not to ch13 p043. The printed stem reads \"then the first n natural numbers is\"; the worked solution finds n = 17 and then takes the 9th observation, so the stem is missing the words \"median of\". The key (b) 9 agrees with the solution."
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Mode of the following grouped frequency distribution is<table><tr><td>Class</td><td>Frequency</td></tr><tr><td>3-6</td><td>2</td></tr><tr><td>6-9</td><td>5</td></tr><tr><td>9-12</td><td>10</td></tr><tr><td>12-15</td><td>23</td></tr><tr><td>15-18</td><td>21</td></tr><tr><td>18-21</td><td>12</td></tr><tr><td>21-24</td><td>03</td></tr></table>",
+   "options": [
+    {
+     "label": "A",
+     "text": "13.6"
+    },
+    {
+     "label": "B",
+     "text": "15.6"
+    },
+    {
+     "label": "C",
+     "text": "14.6"
+    },
+    {
+     "label": "D",
+     "text": "16.6"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The maximum frequency 23 belongs to 12-15, so the modal class is 12-15 with l = 12, h = 3, f₁ = 23, f₀ = 10 and f₂ = 21. Then Mₒ = 12 + (23 − 10)/(46 − 10 − 21) × 3 = 12 + 13/15 × 3 = 12 + 13/5 = 14.6.",
+   "concept": "Formula for the mode",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2010",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "While computing the mean of grouped data, we assume that the frequencies are",
+   "options": [
+    {
+     "label": "A",
+     "text": "evenly distributed over all the classes"
+    },
+    {
+     "label": "B",
+     "text": "centred at the class marks of the classes"
+    },
+    {
+     "label": "C",
+     "text": "centred at the upper limits of the classes"
+    },
+    {
+     "label": "D",
+     "text": "centred at the lower limits of the classes"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "In the grouped mean each class is represented by its class mark, which amounts to assuming that the whole frequency of a class is concentrated at its class mark. Hence the frequencies are taken as centred at the class marks of the classes.",
+   "concept": "Class mark represents a class",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Delhi 2013",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If median is 137 and mean is 137.05, then the value of mode is",
+   "options": [
+    {
+     "label": "A",
+     "text": "156.90"
+    },
+    {
+     "label": "B",
+     "text": "136.90"
+    },
+    {
+     "label": "C",
+     "text": "186.90"
+    },
+    {
+     "label": "D",
+     "text": "206.90"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "By the empirical relation Mₒ = 3M_d − 2M = 3(137) − 2(137.05) = 411 − 274.10 = 136.90. The mode is 136.90.",
+   "concept": "Empirical relation of the three measures",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2009",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The following data gives the distribution of total household expenditure (in Rs) of manual workers in a city.<table><tr><td>Expenditure (in Rs)</td><td>Frequency</td></tr><tr><td>1000-1500</td><td>24</td></tr><tr><td>1500-2000</td><td>40</td></tr><tr><td>2000-2500</td><td>33</td></tr><tr><td>2500-3000</td><td>28</td></tr><tr><td>3000-3500</td><td>30</td></tr><tr><td>3500-4000</td><td>22</td></tr><tr><td>4000-4500</td><td>16</td></tr><tr><td>4500-5000</td><td>07</td></tr></table>Then, find the average expenditure which is done by the maximum number of manual workers.",
+   "options": [
+    {
+     "label": "A",
+     "text": "1747.26"
+    },
+    {
+     "label": "B",
+     "text": "1847.26"
+    },
+    {
+     "label": "C",
+     "text": "1947.26"
+    },
+    {
+     "label": "D",
+     "text": "2047.26"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The expenditure of the greatest number of workers is the mode. The maximum frequency 40 belongs to 1500-2000, so l = 1500, h = 500, f₁ = 40, f₀ = 24 and f₂ = 33. Then Mₒ = 1500 + (40 − 24)/(80 − 24 − 33) × 500 = 1500 + 16/23 × 500 = 1847.26.",
+   "concept": "Formula for the mode",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Delhi 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution writes \"f₂ = 23\" but then substitutes 80 − 24 − 33 in the formula; 33 is the frequency of the class following the modal class in the printed table, so \"f₂ = 23\" is a misprint for f₂ = 33. The arithmetic (16/23) and the key are unaffected."
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "For the following distribution<table><tr><td>Marks</td><td>Number of Students</td><td>Marks</td><td>Number of students</td></tr><tr><td>Below 10</td><td>3</td><td>Below 40</td><td>57</td></tr><tr><td>Below 20</td><td>12</td><td>Below 50</td><td>75</td></tr><tr><td>Below 30</td><td>28</td><td>Below 60</td><td>80</td></tr></table>The modal class is",
+   "options": [
+    {
+     "label": "A",
+     "text": "0-20"
+    },
+    {
+     "label": "B",
+     "text": "20-30"
+    },
+    {
+     "label": "C",
+     "text": "30-40"
+    },
+    {
+     "label": "D",
+     "text": "50-60"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Converting the less-than table to ordinary class frequencies gives 0-10: 3, 10-20: 9, 20-30: 16, 30-40: 29, 40-50: 18, 50-60: 5. The greatest frequency is 29, so the modal class is 30-40.",
+   "concept": "The modal class",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Foreign 2015",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "If X, M and Z are denoting mean, median and mode of a data and X:M = 9:8, then the ratio M:Z is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3 : 4"
+    },
+    {
+     "label": "B",
+     "text": "4 : 9"
+    },
+    {
+     "label": "C",
+     "text": "4 : 3"
+    },
+    {
+     "label": "D",
+     "text": "2 : 5"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The empirical relation gives Z = 3M − 2X. From X:M = 9:8, X = 9M/8. Hence Z = 3M − 2(9M/8) = 3M − 9M/4 = 3M/4, so M/Z = 4/3, i.e. M : Z = 4 : 3.",
+   "concept": "Empirical relation of the three measures",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 SQP 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "A student noted the number of cars passing through a spot on a road for 100 periods each of 3 min and summarised in the table give below.<table><tr><td>Number of cars</td><td>Frequency</td></tr><tr><td>0-10</td><td>7</td></tr><tr><td>10-20</td><td>14</td></tr><tr><td>20-30</td><td>13</td></tr><tr><td>30-40</td><td>12</td></tr><tr><td>40-50</td><td>20</td></tr><tr><td>50-60</td><td>11</td></tr><tr><td>60-70</td><td>15</td></tr><tr><td>70-80</td><td>08</td></tr></table>Then, the mode of the data is",
+   "options": [
+    {
+     "label": "A",
+     "text": "34.7"
+    },
+    {
+     "label": "B",
+     "text": "44.7"
+    },
+    {
+     "label": "C",
+     "text": "54.7"
+    },
+    {
+     "label": "D",
+     "text": "64.7"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The maximum frequency 20 belongs to 40-50, so the modal class is 40-50 with l = 40, f₁ = 20, f₀ = 12, f₂ = 11 and h = 10. Then Mₒ = 40 + (20 − 12)/(40 − 12 − 11) × 10 = 40 + 80/17 = 40 + 4.7 = 44.7 cars.",
+   "concept": "Formula for the mode",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Delhi 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "If the mean of a, b, c is M and ab + bc + ca = 0, the mean of a², b² and c² is KM², then K is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "9"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "From the mean, a + b + c = 3M, and (a + b + c)² = a² + b² + c² + 2(ab + bc + ca) = a² + b² + c² since ab + bc + ca = 0. So a² + b² + c² = 9M². The mean of the squares is 9M²/3 = 3M², and comparing with KM² gives K = 3.",
+   "concept": "Direct method for the mean",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 OD 2016",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "25",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "In the formula x̄ = a + (Σfᵢdᵢ)/(Σfᵢ), for finding the mean of grouped data dᵢ's are deviation from a of",
+   "options": [
+    {
+     "label": "A",
+     "text": "lower limits of the classes"
+    },
+    {
+     "label": "B",
+     "text": "upper limits of the classes"
+    },
+    {
+     "label": "C",
+     "text": "mid-points of the classes"
+    },
+    {
+     "label": "D",
+     "text": "frequencies of the class marks"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "In the assumed-mean method each class is represented by its class mark xᵢ = (upper limit + lower limit)/2, and dᵢ = xᵢ − a. So the deviations are taken from a of the mid-points of the classes.",
+   "concept": "Assumed mean and step-deviation",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 OD 2014",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "26",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "While computing mean of grouped data, we assume that the frequencies are",
+   "options": [
+    {
+     "label": "A",
+     "text": "evenly distributed over all the classes"
+    },
+    {
+     "label": "B",
+     "text": "centred at the class marks of the classes"
+    },
+    {
+     "label": "C",
+     "text": "centred at the upper limits of the classes"
+    },
+    {
+     "label": "D",
+     "text": "centred at the lower limits of the classes"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Each class in a grouped distribution is represented by its class mark, so the frequency of a class is taken to be concentrated there. The frequencies are centred at the class marks of the classes.",
+   "concept": "Class mark represents a class",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints this question again as number 18 on page 524 with the same options and the same key; both are transcribed as printed. No board tag is printed here, and the key is given inline as \"Sol : (b) centred at the class marks of the classes\"."
+  },
+  {
+   "number": "27",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "If xᵢ's are the mid-points of the class intervals of grouped data, fᵢ's are the corresponding frequencies and x̄ is the mean, then Σ(fᵢxᵢ − x̄) is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "−1"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Σ(fᵢxᵢ − x̄) = Σfᵢxᵢ − nx̄. Since x̄ = (Σfᵢxᵢ)/n, we get nx̄ = Σfᵢxᵢ, so the expression equals Σfᵢxᵢ − Σfᵢxᵢ = 0.",
+   "concept": "Direct method for the mean",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Foreign 2017",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "28",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "In the formula x̄ = a + h((Σfᵢuᵢ)/(Σfᵢ)), for finding the mean of grouped frequency distribution, uᵢ is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "(xᵢ + a)/h"
+    },
+    {
+     "label": "B",
+     "text": "h(xᵢ − a)"
+    },
+    {
+     "label": "C",
+     "text": "(xᵢ − a)/h"
+    },
+    {
+     "label": "D",
+     "text": "(a − xᵢ)/h"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "In the step-deviation method the deviation of the class mark from the assumed mean is divided by the class size, so uᵢ = (xᵢ − a)/h.",
+   "concept": "Assumed mean and step-deviation",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2008",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "29",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "For the following distribution.<table><tr><td>Class</td><td>0-5</td><td>5-10</td><td>10-15</td><td>15-20</td><td>20-25</td></tr><tr><td>Frequency</td><td>10</td><td>15</td><td>12</td><td>20</td><td>9</td></tr></table>the sum of lower limits of the median class and modal class is",
+   "options": [
+    {
+     "label": "A",
+     "text": "15"
+    },
+    {
+     "label": "B",
+     "text": "25"
+    },
+    {
+     "label": "C",
+     "text": "30"
+    },
+    {
+     "label": "D",
+     "text": "35"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The cumulative frequencies are 10, 25, 37, 57, 66, so N = 66 and N/2 = 33, which is first exceeded at 37, i.e. in the class 10-15; the lower limit of the median class is 10. The highest frequency 20 belongs to 15-20, so the lower limit of the modal class is 15. The required sum is 10 + 15 = 25.",
+   "concept": "The modal class",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Comp 2018",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution writes \"N/2 = 33/2 = 33\"; the total frequency is 66 and the value used throughout is N/2 = 33, so the \"33/2\" is a typesetting slip that does not affect the result."
+  },
+  {
+   "number": "30",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "Consider the following frequency distribution<table><tr><td>Class</td><td>0-5</td><td>6-11</td><td>12-17</td><td>18-23</td><td>24-29</td></tr><tr><td>Frequency</td><td>13</td><td>10</td><td>15</td><td>8</td><td>11</td></tr></table>The upper limit of the median class is",
+   "options": [
+    {
+     "label": "A",
+     "text": "17"
+    },
+    {
+     "label": "B",
+     "text": "17.5"
+    },
+    {
+     "label": "C",
+     "text": "18"
+    },
+    {
+     "label": "D",
+     "text": "18.5"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The classes are not continuous, so subtract 0.5 from each lower limit and add 0.5 to each upper limit: −0.5-5.5, 5.5-11.5, 11.5-17.5, 17.5-23.5, 23.5-29.5, with cumulative frequencies 13, 23, 38, 46, 57. Here N/2 = 57/2 = 28.5, which first falls in 11.5-17.5, so the upper limit of the median class is 17.5.",
+   "concept": "What the median is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2007",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "31",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "stem": "For the following distribution:<table><tr><td>Marks</td><td>Number of students</td></tr><tr><td>Below 10</td><td>3</td></tr><tr><td>Below 20</td><td>12</td></tr><tr><td>Below 30</td><td>27</td></tr><tr><td>Below 40</td><td>57</td></tr><tr><td>Below 50</td><td>75</td></tr><tr><td>Below 60</td><td>80</td></tr></table>The modal class is",
+   "options": [
+    {
+     "label": "A",
+     "text": "10-20"
+    },
+    {
+     "label": "B",
+     "text": "20-30"
+    },
+    {
+     "label": "C",
+     "text": "30-40"
+    },
+    {
+     "label": "D",
+     "text": "50-60"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Differencing the less-than table gives the class frequencies 0-10: 3, 10-20: 9, 20-30: 15, 30-40: 30, 40-50: 18, 50-60: 5. The maximum frequency 30 belongs to 30-40, so that is the modal class.",
+   "concept": "The modal class",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Comp 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": "This repeats question 21 with one figure changed (Below 30 is 27 here, 28 in question 21); both are transcribed as printed, and both give the modal class 30-40."
+  },
+  {
+   "number": "32",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "stem": "Consider the data:<table><tr><td>Class</td><td>65-85</td><td>85-105</td><td>105-125</td><td>125-145</td><td>145-165</td><td>165-185</td><td>185-205</td></tr><tr><td>Frequency</td><td>4</td><td>5</td><td>13</td><td>20</td><td>14</td><td>7</td><td>4</td></tr></table>The difference of the upper limit of the median class and the lower limit of the modal class is",
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "19"
+    },
+    {
+     "label": "C",
+     "text": "20"
+    },
+    {
+     "label": "D",
+     "text": "38"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The cumulative frequencies are 4, 9, 22, 42, 56, 63, 67, so N = 67 and N/2 = 33.5, first exceeded at 42, i.e. in 125-145; the upper limit of the median class is 145. The greatest frequency 20 also belongs to 125-145, so the lower limit of the modal class is 125. The difference is 145 − 125 = 20.",
+   "concept": "The modal class",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Foreign 2013",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution's cumulative-frequency column prints 7 against the first class of frequency 4, but every later entry (9, 22, 42, 56, 63, 67) is the correct running total and the answer 20 follows from them."
+  },
+  {
+   "number": "33",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "stem": "The times, in seconds, taken by 150 athletes to run a 110 m hurdle race are tabulated below<table><tr><td>Class</td><td>Frequency</td></tr><tr><td>13.8-14</td><td>2</td></tr><tr><td>14-14.2</td><td>4</td></tr><tr><td>14.2-14.4</td><td>5</td></tr><tr><td>14.4-14.6</td><td>71</td></tr><tr><td>14.6-14.8</td><td>48</td></tr><tr><td>14.8-15</td><td>20</td></tr></table>The number of athletes who completed the race in less than 14.6 second is :",
+   "options": [
+    {
+     "label": "A",
+     "text": "11"
+    },
+    {
+     "label": "B",
+     "text": "71"
+    },
+    {
+     "label": "C",
+     "text": "82"
+    },
+    {
+     "label": "D",
+     "text": "130"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Athletes finishing in under 14.6 seconds are those in the first four classes, so the count is the cumulative frequency up to 14.4-14.6: 2 + 4 + 5 + 71 = 82.",
+   "concept": "Cumulative frequency and ogives",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Delhi 2011",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "34",
+   "form": "mcq",
+   "marks": 1,
+   "page": 8,
+   "stem": "Consider the following distribution :<table><tr><td>Marks obtained</td><td>Number of students</td></tr><tr><td>More than or equal to 0</td><td>63</td></tr><tr><td>More than or equal to 10</td><td>58</td></tr><tr><td>More than or equal to 20</td><td>55</td></tr><tr><td>More than or equal to 30</td><td>51</td></tr><tr><td>More than or equal to 40</td><td>48</td></tr><tr><td>More than or equal to 50</td><td>42</td></tr></table>the frequency of the class 30-40 is :",
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "48"
+    },
+    {
+     "label": "D",
+     "text": "51"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "In a more-than table the frequency of a class is the difference of two consecutive entries. For 30-40 it is 51 − 48 = 3.",
+   "concept": "Cumulative frequency and ogives",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Delhi 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "35",
+   "form": "mcq",
+   "marks": 1,
+   "page": 8,
+   "stem": "The mean weight of 9 students is 25 kg. If one more student is joined in the group the mean is unaltered, then the weight of the 10ᵗʰ student is",
+   "options": [
+    {
+     "label": "A",
+     "text": "25 kg"
+    },
+    {
+     "label": "B",
+     "text": "24 kg"
+    },
+    {
+     "label": "C",
+     "text": "26 kg"
+    },
+    {
+     "label": "D",
+     "text": "23 kg"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The nine students weigh 25 × 9 = 225 kg in all. If the mean is still 25 kg for ten students, the new total is 25 × 10 = 250 kg, so the tenth student weighs 250 − 225 = 25 kg. Adding a value equal to the mean never changes the mean.",
+   "concept": "Direct method for the mean",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 Foreign 2012",
+   "images": [],
+   "figure_required": false
+  },
+  {
+   "number": "36",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 8,
+   "stem": "Assertion : If the number of runs scored by 11 players of a cricket team of India are 5, 19, 42, 11, 50, 30, 21, 0, 52, 36, 27 then median is 30.\nReason : Median = ((n + 1)/2)ᵗʰ value, if n is odd.",
+   "assertion": "If the number of runs scored by 11 players of a cricket team of India are 5, 19, 42, 11, 50, 30, 21, 0, 52, 36, 27 then median is 30.",
+   "reason": "Median = ((n + 1)/2)ᵗʰ value, if n is odd.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Arranging the runs in ascending order gives 0, 5, 11, 19, 21, 27, 30, 36, 42, 50, 52. With n = 11 (odd) the median is the ((11 + 1)/2)ᵗʰ = 6ᵗʰ value, which is 27, not 30. So the assertion is false, while the reason states the correct rule and is true.",
+   "concept": "What the median is",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false
+  }
+ ]
+}

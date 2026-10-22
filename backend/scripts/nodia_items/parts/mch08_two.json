@@ -1,0 +1,95 @@
+{
+ "items": [
+  {
+   "number": "98",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "If A = 60° and B = 30°, verify that : sin(A + B) = sin A cos B + cos A sin B",
+   "answer": "LHS = sin(A + B) = sin(60° + 30°) = sin 90° = 1.\nRHS = sin A cos B + cos A sin B = sin 60° cos 30° + cos 60° sin 30° = (√3/2) × (√3/2) + (1/2) × (1/2) = 3/4 + 1/4 = 4/4 = 1.\nSince LHS = RHS = 1, the relation is verified.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "99",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "If tan 2A = cot(A − 18°), where 2A is an acute angle, find the value of A.",
+   "answer": "Write the left side as a cotangent of the complementary angle: tan 2A = cot(90° − 2A).\nSo cot(90° − 2A) = cot(A − 18°), and since both angles are acute, 90° − 2A = A − 18°.\nThen 3A = 90° + 18° = 108°, so A = 36°.",
+   "concept": "The six ratios",
+   "section_heading": "TWO MARKS QUESTIONS | Board 2018",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Concept list has no complementary-angle entry; mapped to 'The six ratios' as the nearest listed concept."
+  },
+  {
+   "number": "100",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "Evaluate : (3 tan²30° + tan²60° + cosec 30° − tan 45°) ⁄ cot²45°",
+   "answer": "Substitute the standard values: tan 30° = 1/√3, tan 60° = √3, cosec 30° = 2, tan 45° = 1 and cot 45° = 1.\nNumerator = 3 × (1/√3)² + (√3)² + 2 − 1 = 3 × (1/3) + 3 + 2 − 1 = 1 + 3 + 2 − 1 = 5.\nDenominator = (1)² = 1.\nHence the value of the expression is 5.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "101",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "Find the value of cos 2θ, if 2 sin 2θ = √3.",
+   "answer": "From 2 sin 2θ = √3 we get sin 2θ = √3/2 = sin 60°.\nTherefore 2θ = 60°.\nHence cos 2θ = cos 60° = 1/2.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "102",
+   "form": "very_short",
+   "marks": 2,
+   "page": 14,
+   "stem": "Find the value of sin 30° cos 60° + cos 30° sin 60°; is it equal to sin 90° or cos 90° ?",
+   "answer": "sin 30° cos 60° + cos 30° sin 60° = (1/2) × (1/2) + (√3/2) × (√3/2) = 1/4 + 3/4 = 4/4 = 1.\nNow sin 90° = 1 and cos 90° = 0.\nSo the expression equals 1, which is sin 90°, and it is not equal to cos 90°.",
+   "concept": "Ratios of 0 and 90 degrees",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page 14; the worked solution finishes at the top of page 15."
+  },
+  {
+   "number": "103",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "If √3 sin θ − cos θ = 0 and 0° < θ < 90°, find the value of θ.",
+   "answer": "From √3 sin θ − cos θ = 0 we get √3 sin θ = cos θ, so sin θ / cos θ = 1/√3.\nThat is tan θ = 1/√3 = tan 30°.\nSince 0° < θ < 90°, θ = 30°.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Board tag printed as 'Boar Term-1, 2012' (missing 'd'); normalised to Board Term-1 2012."
+  },
+  {
+   "number": "104",
+   "form": "very_short",
+   "marks": 2,
+   "page": 15,
+   "stem": "Evaluate : cos 45° ⁄ sec 30° + 1 ⁄ sec 60°",
+   "answer": "Use cos 45° = 1/√2, sec 30° = 2/√3 and sec 60° = 2.\ncos 45°/sec 30° = (1/√2) ÷ (2/√3) = (1/√2) × (√3/2) = √3/(2√2) = √6/4.\nAlso 1/sec 60° = 1/2.\nAdding, √6/4 + 1/2 = (√6 + 2)/4.",
+   "concept": "Ratios of 30 and 60 degrees",
+   "section_heading": "TWO MARKS QUESTIONS | Board Term-1 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  }
+ ]
+}

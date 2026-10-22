@@ -1,0 +1,110 @@
+{
+ "items": [
+  {
+   "number": "185",
+   "form": "case_study",
+   "marks": 4,
+   "page": 52,
+   "stem": "An inspector in an enforcement squad of electricity department visit to a locality of 100 families and record their monthly consumption of electricity, on the basis of family members, electronic items in the house and wastage of electricity, which is summarise in the following table.\n<table><tr><th>Monthly Consumption (in kwh)</th><th>Number of families</th></tr><tr><td>0-100</td><td>2</td></tr><tr><td>100-200</td><td>5</td></tr><tr><td>200-300</td><td>x</td></tr><tr><td>300-400</td><td>12</td></tr><tr><td>400-500</td><td>17</td></tr><tr><td>500-600</td><td>20</td></tr><tr><td>600-700</td><td>y</td></tr><tr><td>700-800</td><td>9</td></tr><tr><td>800-900</td><td>7</td></tr><tr><td>900-1000</td><td>4</td></tr></table>\nInspector calculated that median of the above data is 525 and after that he lost two data which is given as x and y in table.\nBased on the above information, answer the following questions.\n(i) What is the value of lost data x ?\n(ii) What is the value of lost data y ?\n(iii) What will be the upper limit of the modal class?",
+   "answer": "Add the frequencies: 2 + 5 + x + 12 + 17 + 20 + y + 9 + 7 + 4 = 76 + x + y, and this must equal the total 100, so x + y = 24.\n(i) The median is 525, which lies in the class 500−600, so 500−600 is the median class. Here l = 500, N⁄2 = 50, F = 36 + x (the cumulative frequency up to 400−500), f = 20 and h = 100. Then 525 = 500 + ((50 − 36 − x)/20) × 100, so 25 = (14 − x) × 5, i.e. 25 = 70 − 5x and x = 45⁄5 = 9. Hence x = 9.\n(ii) y = 24 − x = 24 − 9 = 15.\n(iii) With x = 9 the frequencies are 2, 5, 9, 12, 17, 20, 15, 9, 7, 4; the largest is 20, belonging to the class 500−600, so the modal class is 500−600 and its upper limit is 600.",
+   "concept": "What the median is",
+   "section_heading": "CASE BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Question and its table are on the right column of p052; the worked solution runs onto p053. The book's photograph of the inspector is decorative and is not needed to answer. The printed solution for part (iii) stops at naming the modal class 500-600; the upper limit 600 is stated here because that is what the question asks."
+  },
+  {
+   "number": "186",
+   "form": "case_study",
+   "marks": 4,
+   "page": 53,
+   "stem": "Life insurance is a contract between an insurance policy holder and an insurer or assurer, where the insurer promises to pay a designated beneficiary a sum of money upon the death of an insured person (often the policy holder). Depending on the contract, other events such as terminal illness or critical illness can also trigger payment. The policy holder typically pays a premium, either regularly or as one lump sum.\nSBI life insurance agent found the following data for distribution of ages of 100 policy holders. Calculate the median age, if policies are given only to persons having age 18 years onwards but less than 60 years.\n<table><tr><th>Age (in years)</th><th>Number of policy holders</th></tr><tr><td>Below 20</td><td>2</td></tr><tr><td>Below 25</td><td>6</td></tr><tr><td>Below 30</td><td>24</td></tr><tr><td>Below 35</td><td>45</td></tr><tr><td>Below 40</td><td>78</td></tr><tr><td>Below 45</td><td>89</td></tr><tr><td>Below 50</td><td>92</td></tr><tr><td>Below 55</td><td>98</td></tr><tr><td>Below 60</td><td>100</td></tr></table>\n(i) What is the median value of age ?\n(ii) What will be the upper limit of the modal class?\n(iii) What is the mode value of age ?\n(iv) Find the mean value of age using empirical relation.",
+   "answer": "The table is a cumulative (less-than) distribution, so differencing successive entries gives the ordinary frequencies: 15−20 → 2, 20−25 → 4, 25−30 → 18, 30−35 → 21, 35−40 → 33, 40−45 → 11, 45−50 → 3, 50−55 → 6, 55−60 → 2. Here N = 100.\n(i) N⁄2 = 50, and the first cumulative frequency exceeding 50 is 78, so the median class is 35−40. With l = 35, F = 45, f = 33 and h = 5, median = 35 + ((50 − 45)/33) × 5 = 35 + 25⁄33 = 35 + 0.76 = 35.76 years.\n(ii) The largest frequency is 33, in the class 35−40, so that is the modal class and its upper limit is 40.\n(iii) With l = 35, f₁ = 33, f₀ = 21, f₂ = 11 and h = 5, mode = 35 + ((33 − 21)/(66 − 21 − 11)) × 5 = 35 + (12⁄33) × 5 = 35 + 20⁄11 = 35 + 1.82 = 36.82 years.\n(iv) By the empirical relation 3Md = Mo + 2M: 3 × 35.76 = 36.82 + 2M, so 107.28 − 36.82 = 2M, 2M = 70.46 and M = 35.23 years.",
+   "concept": "Empirical relation of the three measures",
+   "section_heading": "CASE BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins in the left column of p053 and the solution continues on p054. The book's photograph is decorative. Part (ii) of the printed solution reads 'Class 35-40 has the maximum frequency 78' - 78 is the cumulative frequency; the actual frequency of 35-40 is 33, which is indeed the largest, so the modal class 35-40 and the upper limit 40 are unaffected. The printed solution's class table starts at 15-20 even though the question wording says ages 18 onwards; the book's own table is followed here."
+  },
+  {
+   "number": "187",
+   "form": "case_study",
+   "marks": 4,
+   "page": 54,
+   "stem": "The Kendriya Vidyalaya Sangathan is a system of premier central government schools in India that are instituted under the aegis of the Ministry of Education (MHRD), Government of India. As of October 2020, it has a total of 1239 schools. It is one of the world's largest chains of schools. The system came into being in 1963 under the name 'Central Schools'. Later, the name was changed to Kendriya Vidyalaya. Its schools are all affiliated to the Central Board of Secondary Education (CBSE). The objective of KVS is to cater to the educational needs of the children of transferable Central Government employees including Defence and Para-Military personnel by providing a common programme of education.\nCommissioner of Regional office Jaipur prepare a table of the marks obtained of 100 students which is given below\n<table><tr><th>Marks obtained</th><td>0-20</td><td>20-40</td><td>40-60</td><td>60-80</td><td>80-100</td></tr><tr><th>Number of students</th><td>15</td><td>18</td><td>21</td><td>29</td><td>p</td></tr></table>\nHe was told that mean marks of a student is 53.\n(i) How many students got marks between 80-100?\n(ii) What is the lower limit of modal class ?\n(iii) What is the value of modal marks ?\n(iv) What is the value of median marks ?\n(v) What is the upper limit of median class ?",
+   "answer": "(i) The total is 100, so 15 + 18 + 21 + 29 + p = 100, i.e. 83 + p = 100 and p = 17. Seventeen students scored between 80 and 100.\n(ii) The largest frequency is 29, belonging to the class 60−80, so the modal class is 60−80 and its lower limit is 60.\n(iii) With l = 60, f₁ = 29, f₀ = 21, f₂ = 17 and h = 20, mode = 60 + ((29 − 21)/(2 × 29 − 21 − 17)) × 20 = 60 + (8⁄20) × 20 = 60 + 8 = 68.\n(iv) Using the empirical relation 3Md = Mo + 2M with Mo = 68 and M = 53: 3Md = 68 + 106 = 174, so the median is 174⁄3 = 58 marks.\n(v) The median 58 lies in the class 40−60, so the median class is 40−60 and its upper limit is 60.",
+   "concept": "Empirical relation of the three measures",
+   "section_heading": "CASE BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem starts in the left column of p054 with the data table in the right column; the solution finishes on p055. The photograph of the Kendriya Vidyalaya building is decorative."
+  },
+  {
+   "number": "188",
+   "form": "case_study",
+   "marks": 4,
+   "page": 55,
+   "stem": "Student-teacher ratio expresses the relationship between the number of students enrolled in a school and the number teachers employed by the school. Student-teacher ratio is important for a number of reasons. It can be used as a tool to measure teacher workload as well as the allocation of resources. A low student-teacher ratio indicates the burden on a single teacher of teaching multiple students as well as the lack of time that each student gets.\nA survey was conducted in the 100 secondary school of Rajasthan and following frequency distribution table was prepared :\n<table><tr><th>Students per teacher</th><th>Number of School</th></tr><tr><td>20-25</td><td>5</td></tr><tr><td>25-30</td><td>15</td></tr><tr><td>30-35</td><td>25</td></tr><tr><td>35-40</td><td>30</td></tr><tr><td>40-45</td><td>15</td></tr><tr><td>45-50</td><td>10</td></tr></table>\n(i) What is the upper limit of median class ?\n(ii) What is the median value of students per teacher?\n(iii) What is the lower limit of modal class ?\n(iv) What is the modal value of students per teacher ?\n(v) What is the mean value of students per teacher ?",
+   "answer": "The cumulative frequencies are 5, 20, 45, 75, 90, 100, so N = 100 and N⁄2 = 50.\n(i) The first cumulative frequency greater than 50 is 75, for the class 35−40, so the median class is 35−40 and its upper limit is 40.\n(ii) With l = 35, F = 45, f = 30 and h = 5, median = 35 + ((50 − 45)/30) × 5 = 35 + 5⁄6 = 215⁄6 = 35.83 students per teacher.\n(iii) The largest frequency is 30, for the class 35−40, so the modal class is 35−40 and its lower limit is 35.\n(iv) With l = 35, f₁ = 30, f₀ = 25, f₂ = 15 and h = 5, mode = 35 + ((30 − 25)/(60 − 25 − 15)) × 5 = 35 + (5⁄20) × 5 = 35 + 1.25 = 36.25 students per teacher.\n(v) By the empirical relation 3Md = Mo + 2M: 3 × (215⁄6) = 36.25 + 2M, so 430 = 145 + 8M, 8M = 285 and M = 285⁄8 = 35.625 students per teacher.",
+   "concept": "Empirical relation of the three measures",
+   "section_heading": "CASE BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Whole question and solution sit on p055. The 'How is the student-teacher ratio a problem?' graphic is decorative, not data."
+  },
+  {
+   "number": "189",
+   "form": "case_study",
+   "marks": 4,
+   "page": 55,
+   "stem": "A TV reporter was given a task to prepare a report on the rainfall of the city Dispur of Indian in a particular year. After collecting the data, he analysed the data and prepared a report on the rainfall of the city, Using this report, he drew the following graph of a particular time period of 66 days\nBased on the above graph, answer the following questions :\n(i) Identify less than type ogive and more than type ogive from the given graph.\n(ii) Find the median rainfall of Dispur.\n(iii) Obtain the Mode of the data if mean rainfall is 23.4 cm",
+   "answer": "(i) Curve-1, the rising dashed curve, is the less than type ogive; Curve-2, the falling solid curve, is the more than type ogive.\n(ii) The two ogives cross at one point, and the abscissa of that intersection is the median. Reading the crossing point off the graph gives a median rainfall of 21 cm.\n(iii) Using the empirical relation in the form Mo = 3Md − 2M with Md = 21 cm and M = 23.4 cm: Mo = 3 × 21 − 2 × 23.4 = 63 − 46.8 = 16.2 cm. The mode of the data is 16.2 cm.",
+   "concept": "Cumulative frequency and ogives",
+   "section_heading": "CASE BASED QUESTIONS | Board 2020 SQP Standard",
+   "images": [
+    "ch13_q189.png"
+   ],
+   "figure_required": true,
+   "ocr": "Stem begins at the foot of the right column of p055; the graph it refers to is printed at the top of the left column of p056, so the figure is cropped from p056. The graph is part of the question - the median must be read off it - so it is attached. The board tag [Board 2020 SQP Standard] is printed beside the 'Sol :' line."
+  },
+  {
+   "number": "190",
+   "form": "case_study",
+   "marks": 4,
+   "page": 56,
+   "stem": "Amul, is an Indian dairy cooperative society, based at Anand in the Gujarat. Formed in 1946, it is a cooperative brand managed by a cooperative body, the Gujarat Co-operative Milk Marketing Federation Ltd. (GCMMF), which today is jointly owned by 36 lakh (3.6 million) milk producers in Gujarat. Amul spurred India's White Revolution, which made the country the world's largest producer of milk and milk products.\nSurvey manager of Amul dairy has recorded monthly expenditures on milk in 100 families of a housing society. This is given in the following frequency distribution :\n<table><tr><th>Monthly expenditure (in Rs.)</th><th>Number of families</th></tr><tr><td>0-175</td><td>10</td></tr><tr><td>175-350</td><td>14</td></tr><tr><td>350-525</td><td>15</td></tr><tr><td>525-700</td><td>x</td></tr><tr><td>700-875</td><td>28</td></tr><tr><td>875-1050</td><td>7</td></tr><tr><td>1050-1225</td><td>5</td></tr></table>\n(i) How many families spend between Rs 350-700 on milk ?\n(ii) What is the upper limit of median class ?\n(iii) What is the median expenditure on milk?\n(iv) What is the lower limit of modal class ?\n(v) What is the modal expenditure on milk?",
+   "answer": "(i) The frequencies must total 100: 10 + 14 + 15 + x + 28 + 7 + 5 = 100, i.e. 79 + x = 100, so x = 21. Families spending between Rs 350 and Rs 700 number 15 + 21 = 36.\n(ii) The cumulative frequencies are 10, 24, 39, 60, 88, 95, 100, and N⁄2 = 50. The first cumulative frequency above 50 is 60, for the class 525−700, so the median class is 525−700 and its upper limit is 700.\n(iii) With l = 525, F = 39, f = 21 and h = 175, median = 525 + ((50 − 39)/21) × 175 = 525 + (11⁄21) × 175 = 525 + 91.6 = Rs 616.6.\n(iv) The largest frequency is 28, for the class 700−875, so the modal class is 700−875 and its lower limit is 700.\n(v) With l = 700, f₁ = 28, f₀ = 21, f₂ = 7 and h = 175, mode = 700 + ((28 − 21)/(2 × 28 − 21 − 7)) × 175 = 700 + (7⁄28) × 175 = 700 + 43.75 = Rs 743.75.",
+   "concept": "What the median is",
+   "section_heading": "CASE BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins in the left column of p056; the solution runs onto p057. The photograph of the dairy plant is decorative. In the book's cumulative-frequency table the second class is misprinted as '157-350' - it is 175-350, as in the question's own table, and the cumulative figures printed there (24, 39, ...) confirm it."
+  },
+  {
+   "number": "191",
+   "form": "case_study",
+   "marks": 4,
+   "page": 57,
+   "stem": "Formula one Portugese Grand Prix technical team at the Algarve International Circuit are analysing last year data of drivers' performance to provide valuable inferences to commentators on how the drivers can improve this year.\nThe length of time taken by 80 drivers to complete a journey is given in the table below:\n<table><tr><th>Times (in minutes)</th><td>70-80</td><td>80-90</td><td>90-100</td><td>100-110</td><td>110-120</td><td>120-130</td></tr><tr><th>Number of drivers</th><td>4</td><td>10</td><td>14</td><td>20</td><td>24</td><td>8</td></tr></table>\n(i) What is the estimate of the mean time taken to complete the journey ?\n(ii) In which interval does the median of the distribution lie?\n(iii) In which interval does the mode of the distribution lie?\n(iv) What is the modal time taken to complete journey ?\n(v) What is the median time taken to complete journey ?",
+   "answer": "Take the class marks xᵢ = 75, 85, 95, 105, 115, 125 against the frequencies 4, 10, 14, 20, 24, 8. Then fᵢxᵢ = 300, 850, 1330, 2100, 2760, 1000, so Σfᵢ = 80 and Σfᵢxᵢ = 8340.\n(i) Mean = 8340⁄80 = 104.25 minutes.\n(ii) The cumulative frequencies are 4, 14, 28, 48, 72, 80 and N⁄2 = 40. The first cumulative frequency above 40 is 48, so the median lies in the interval 100−110.\n(iii) The largest frequency is 24, so the mode lies in the interval 110−120.\n(iv) With l = 110, f₁ = 24, f₀ = 20, f₂ = 8 and h = 10, mode = 110 + ((24 − 20)/(2 × 24 − 20 − 8)) × 10 = 110 + (4⁄20) × 10 = 110 + 2 = 112 minutes.\n(v) By the empirical relation 3Md = Mo + 2M = 112 + 2 × 104.25 = 320.5, so the median is 320.5⁄3 = 106.83 minutes.",
+   "concept": "Empirical relation of the three measures",
+   "section_heading": "CASE BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins in the left column of p057 with the data table in the right column; the solution finishes at the top of p058. The photograph of racing cars is decorative. The printed mean line reads '8390/80 = 104.25' while the table above it totals Sum(f*x) = 8340; 8340/80 = 104.25, so 8390 is a slip of the pen and the printed result 104.25 is correct - no contradiction in the answer."
+  },
+  {
+   "number": "192",
+   "form": "case_study",
+   "marks": 4,
+   "page": 58,
+   "stem": "Apples are most widely planted and are commercially the most important fruit crop in Jammu and Kashmir. The cultivation of apple crop in Jammu and Kashmir shows particular interest for a number of reasons. In terms of both area and production, apple is very beneficial fruit crop. This provides a major source of income and employment in Jammu and Kashmir.\nHorticultural department has tasked their statistical officer to create a model for farmers to be able to predict their produce output based on various factors.\nA box containing 250 apples was opened and each apple was weighed. The distribution of the weight of the apples is given in the following table :\n<table><tr><th>Weight (in grams)</th><th>No. of Apples (fᵢ)</th></tr><tr><td>80-100</td><td>20</td></tr><tr><td>100-120</td><td>60</td></tr><tr><td>120-140</td><td>70</td></tr><tr><td>140-160</td><td>x</td></tr><tr><td>160-180</td><td>60</td></tr></table>\n(i) How many apples are in the range 140-160 grams?\n(ii) What is the mean weight of the apples?\n(iii) What is the upper limit of the median class?\n(iv) What is the modal mass of the apples?\n(v) What is the median mass of the apples?",
+   "answer": "(i) The box holds 250 apples, so 20 + 60 + 70 + x + 60 = 250, i.e. 210 + x = 250 and x = 40. Forty apples weigh between 140 and 160 grams.\n(ii) Using class marks 90, 110, 130, 150, 170 against frequencies 20, 60, 70, 40, 60 gives fᵢxᵢ = 1800, 6600, 9100, 6000, 10200, so Σfᵢxᵢ = 33700 and Σfᵢ = 250. Mean = 33700⁄250 = 134.8 grams.\n(iii) The cumulative frequencies are 20, 80, 150, 190, 250, and N⁄2 = 125. The first cumulative frequency above 125 is 150, for the class 120−140, so the median class is 120−140 and its upper limit is 140.\n(iv) The largest frequency is 70, in the class 120−140. With l = 120, f₁ = 70, f₀ = 60, f₂ = 40 and h = 20, mode = 120 + ((70 − 60)/(2 × 70 − 60 − 40)) × 20 = 120 + (10⁄40) × 20 = 120 + 5 = 125 grams.\n(v) By the empirical relation 3Md = Mo + 2M ≈ 125 + 2 × 135 = 395, so the median mass is 395⁄3 = 131.67 grams.",
+   "concept": "Empirical relation of the three measures",
+   "section_heading": "CASE BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Last question of the chapter - the closing asterisk row follows it on p058. The photograph of the apple orchard is decorative. The book prints 40 in the 140-160 row of the question table even though part (i) asks for that number and the solution derives it as x; the row is restored to x here so the question is answerable. In the printed mode line f2 is listed as 60 but 40 is substituted in the formula - 40 is the frequency of 140-160 and gives the printed answer 125, so the listing is the slip. Part (v) uses the mean rounded to 135 rather than 134.8, as printed."
+  }
+ ]
+}

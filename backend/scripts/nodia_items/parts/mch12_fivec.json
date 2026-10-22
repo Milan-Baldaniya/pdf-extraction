@@ -1,0 +1,105 @@
+{
+ "items": [
+  {
+   "number": "135",
+   "form": "case_study",
+   "marks": 4,
+   "page": 37,
+   "stem": "In a toys manufacturing company, wooden parts are assembled and painted to prepare a toy. For the wood processing activity center, the wood is taken out of storage to be sawed, after which it undergoes rough polishing, then is cut, drilled and has holes punched in it. It is then fine polished using sandpaper. For the retail packaging and delivery activity center, the polished wood sub-parts are assembled together, then decorated using paint.\n\nOne specific toy is in the shape of a cone mounted on a cylinder. The total height of the toy is 110 mm and the height of its conical part is 77 mm. The diameters of the base of the conical part is 72 mm and that of the cylindrical part is 40 mm.\n(i) If its cylindrical part is to be painted red, what is the surface area need to be painted ?\n(ii) If its conical part is to be painted blue, what is the surface area need to be painted ?\n(iii) How much of the wood have been used in making the toy ?\n(iv) If the cost of painting the toy is 2 paise for 8π mm², then what is the cost of painting of a box of 100 toys?\n(v) If the toy manufacturer company charge 3 paise for 32π mm³ of wood, what is the price of a box of 100 toys?",
+   "answer": "(i) Radius of the cylindrical part r_cy = 40 ÷ 2 = 20 mm and its height h_cy = 110 − 77 = 33 mm. The red area is the curved surface plus the base circle, 2πr_cy h_cy + πr_cy² = πr_cy(2h_cy + r_cy) = 20π(66 + 20) = 1720π mm².\n(ii) Radius of the conical part r_co = 72 ÷ 2 = 36 mm and its slant height l = √(77² + 36²) = √(5929 + 1296) = √7225 = 85 mm. The blue area is the curved surface of the cone plus the ring of the cone base left uncovered by the cylinder, πr_co l + π(r_co² − r_cy²) = π(36 × 85 + 1296 − 400) = π(3060 + 896) = 3956π mm².\n(iii) Wood used = volume of cone + volume of cylinder = ⅓πr_co²h_co + πr_cy²h_cy = π(⅓ × 36 × 36 × 77 + 20 × 20 × 33) = π(33264 + 13200) = 46464π mm³.\n(iv) Total painted surface = 3956π + 1720π = 5676π mm². At 2 paise per 8π mm², the cost of one toy is (2 ÷ 8π) × 5676π = 1419 paise, so a box of 100 toys costs 141900 paise = ₹1419.\n(v) At 3 paise per 32π mm³, the wood in one toy costs (3 ÷ 32π) × 46464π = 4356 paise, so a box of 100 toys is priced at 435600 paise = ₹4356.",
+   "concept": "Only exposed surfaces are visible",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Every dimension the question needs (110 mm, 77 mm, 72 mm, 40 mm) is stated in the text, so the printed line drawing of the toy is not attached. The printed solution writes the cylinder painted area as 2πr_cy h_cy + πr_cy², i.e. curved surface plus base — the top of the cylinder is hidden under the cone — and the cone painted area as πr_co l + π(r_co² − r_cy²), the ring of the cone base that overhangs the cylinder; both are reproduced as printed."
+  },
+  {
+   "number": "136",
+   "form": "case_study",
+   "marks": 4,
+   "page": 38,
+   "stem": "Underground water tank is popular in India. It is usually used for large water tank storage and can be built cheaply using cement-like materials. Underground water tanks are typically chosen by people who want to save space. The water in the underground tank is not affected by extreme weather conditions. The underground tanks maintain cool temperatures in both winter and summer. Electric pump is used to move water from the underground tank to overhead tank.\n\nRamesh has build recently his house and installed a underground tank and overhead tank. Dimensions of tanks are as follows :\nUnderground Tank : Base 2 m × 2 m and Height 1.1 m.\nOverhead tank : Radius 50 cm and Height 175 cm\n(i) What is the capacity of the underground tank?\n(ii) What is the ratio of the capacity of the underground tank to the capacity of the overhead tank?\n(iii) If curved part of overhead tank need to be painted to save it from corrosion, how much area need to be painted?\n(iv) If water is filled in the overhead tank at the rate of 11 litre per minute, the tank will be completely filled in how much time?\n(v) If the amount of water in the underground tank, at an instant, is 2400 litres, find then the water level in the underground tank at that instant.",
+   "answer": "(i) The underground tank is a cuboid, so its capacity is lbh = 2 × 2 × 1.1 = 4.4 m³. Since 1 m³ = 1000 litres, that is 4400 litres.\n(ii) The overhead tank is a cylinder of radius 50 cm = ½ m and height 175 cm = 7/4 m, so its capacity is πr²h = (22/7) × ½ × ½ × 7/4 = 11/8 m³. The ratio of the two capacities is 4.4 ÷ (11/8) = 4.4 × 8/11 = 3.2, that is 16 : 5.\n(iii) The curved surface of the overhead tank is 2πrh = 2 × (22/7) × ½ × 7/4 = 5.5 m².\n(iv) The overhead tank holds 11/8 m³ = (11/8) × 1000 = 1375 litres. At 11 litres per minute it fills in 1375 ÷ 11 = 125 minutes.\n(v) 2400 litres = 2.4 m³. With the base 2 m × 2 m, 2 × 2 × h₁ = 2.4, so h₁ = 2.4 ÷ 4 = 0.6 m = 60 cm.",
+   "concept": "Why area and volume differ",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The picture printed with this question is a photograph of a pump-and-tank installation; it carries no dimensions, all of which are given in the text, so no figure is attached."
+  },
+  {
+   "number": "137",
+   "form": "case_study",
+   "marks": 4,
+   "page": 38,
+   "stem": "Atal Tunnel : Atal Tunnel (also known as Rohtang Tunnel) is a highway tunnel built under the Rohtang Pass in the eastern Pir Panjal range of the Himalayas on the Leh-Manali Highway in Himachal Pradesh. At a length of 9.02 km, it is the longest tunnel above 10,000 feet (3,048 m) in the world and is named after former Prime Minister of India, Atal Bihari Vajpayee. The tunnel reduces the travel time and overall distance between Manali and Keylong on the way to Leh. Moreover, the tunnel bypasses most of the sites that were prone to road blockades, avalanches, and traffic snarls.\n\nEarth is excavated to make a railway tunnel. The tunnel is a cylinder of radius 7 m and length 450 m. A level surface is laid inside the tunnel to carry the railway lines. Figure given below shows the circular cross-section of the tunnel. The level surface is represented by AB, the centre of the circle is O and ∠AOB = 90°. The space below AB is filled with rubble (debris from the demolition buildings).\n(i) How much volume of earth is removed to make the tunnel ?\n(ii) If the cost of excavation of 1 cubic meter is Rs 250, what is the total cost of excavation?\n(iii) A coating is to be done on the surface of inner curved part of tunnel. What is the area of tunnel to be being coated ?\n(iv) Costing of coating is Rs 30 per m². What is the total cost of coating ?\n(v) How much volume of debris is required to fill the ground surface of tunnel ?",
+   "answer": "(i) The excavated earth fills the whole cylinder, πr²l = (22/7) × 7 × 7 × 450 = 69300 m³.\n(ii) Cost of excavation = 69300 × 250 = ₹17,32,500.\n(iii) Only the major arc above AB is coated. Since ∠AOB = 90°, that arc subtends 360° − 90° = 270°, so its length is 2πr × 270°/360° = 2 × (22/7) × 7 × ¾ = 33 m. Multiplying by the tunnel length, the coated area is 33 × 450 = 14850 m².\n(iv) Cost of coating = 14850 × 30 = ₹4,45,500.\n(v) The cross-section of the debris is the minor segment below AB, that is the quadrant OACB less the right triangle OAB: πr²/4 − r²/2 = (22/7 × 49)/4 − 49/2 = 38.5 − 24.5 = 14 m². Over the 450 m length the debris needed is 14 × 450 = 6300 m³.",
+   "concept": "Breaking a solid into known parts",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch12_q137.png"
+   ],
+   "figure_required": true,
+   "ocr": "The circular cross-section with O, A, B and the shaded segment is printed with the question (not inside the solution), so it is attached; the decorative photograph of a tunnel beside it is excluded from the crop. ARITHMETIC SLIP IN THE BOOK: part (v) is printed as 'Volume of debris required = 14 × 500 = 7000 m³', but the tunnel length given in the stem and used in parts (i) and (iii) is 450 m, not 500 m. The answer above uses 450 m and gives 6300 m³; the book 7000 m³ cannot be reconciled with its own stem."
+  },
+  {
+   "number": "138",
+   "form": "case_study",
+   "marks": 4,
+   "page": 39,
+   "stem": "A bakery is an establishment that produces and sells flour-based food baked in an oven such as bread, cookies, cakes, pastries, and pies. Some retail bakeries are also categorized as cafés, serving coffee and tea to customers who wish to consume the baked goods on the premises.\n\nTania runs a bakery shop and her bakery is very famous for tasty biscuits. The amount of mixture required to make one biscuit is 18 cu cm. Before it is cooked, the mixture is rolled into a sphere. After the biscuit is cooked, the biscuit becomes a cylinder of radius 3 cm and height 0.7 cm. The increase in volume is due to air being trapped in the biscuit. Biscuits are packed in a cylindrical card box of height 14 cm. The arrangement of biscuits is shown below.\n(i) What is the volume of the biscuits after it is cooked ?\n(ii) What is the volume of air trapped, while cooking the biscuit ?\n(iii) How many biscuits will be there in a box ?\n(iv) How much space is vacant in box after biscuits are packed ?\n(v) If weight of 7 biscuits is 50 grams, what will be the weight of box of biscuits?",
+   "answer": "(i) A cooked biscuit is a cylinder of radius 3 cm and height 0.7 cm, so its volume is πr²h = (22/7) × 3² × 0.7 = 19.8 cm³.\n(ii) The mixture rolled into a sphere had volume 18 cm³, so the air trapped is 19.8 − 18 = 1.8 cm³.\n(iii) From the arrangement, one layer holds 7 biscuits and each layer is 0.7 cm high. The 14 cm box therefore holds 14 ÷ 0.7 = 20 layers, giving 20 × 7 = 140 biscuits.\n(iv) The arrangement also shows the box radius is 3 times a biscuit radius, R = 3 × 3 = 9 cm, so the box volume is πR²H = (22/7) × 9 × 9 × 14 = 3564 cm³. The biscuits occupy 19.8 × 140 = 2772 cm³, so the vacant space is 3564 − 2772 = 792 cm³.\n(v) If 7 biscuits weigh 50 grams, 140 biscuits weigh (50/7) × 140 = 1000 grams = 1 kg.",
+   "concept": "Volumes simply add",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch12_q138.png"
+   ],
+   "figure_required": true,
+   "ocr": "The figure is required, not decorative: parts (iii) and (iv) cannot be answered without it. Neither the number of biscuits per layer (7) nor the box radius is stated in the text — the printed solution itself says 'From figure it is clear that radius of box is 3 times of biscuit radius'. The crop holds the top view of the seven-biscuit layer and the card box, both printed with the question."
+  },
+  {
+   "number": "139",
+   "form": "case_study",
+   "marks": 4,
+   "page": 40,
+   "stem": "Conical Tank : The advantages of cone bottom tanks are found in nearly every industry, especially where getting every last drop from the tank is important. This type of tank has excellent geometry for draining, especially with high solids content slurries as these cone tanks provide a better full-drain solution. The conical tank eliminates many of the problems that flat base tanks have as the base of the tank is sloped towards the centre giving the greatest possible full-drain system in vertical tank design.\n\nRajesh has been given the task of designing a conical bottom tank for his client. Height of conical part is equal to its radius. Length of cylindrical part is the 3 times of its radius. Tank is closed from top. The cross section of conical tank is given below.\n(i) If radius of cylindrical part is taken as 3 meter, what is the volume of above conical tank ?\n(ii) What is the area of metal sheet used to make this conical tank ? Assume that tank is covered from top.\n(iii) What is the ratio of volume of cylindrical part to the volume of conical part?\n(iv) The cost of metal sheet is Rs 2000 per square meter and fabrication cost is 1000 per square meter. What is the total cost of tank ?\n(v) A oil is to be filled in the tank. The density of oil is 1050 kg per cubic meter. What is the weight of oil filled in tank ?",
+   "answer": "Let r be the common radius. The conical part then has height r and the cylindrical part length 3r.\n(i) Volume = πr²(3r) + ⅓πr²(r) = 3πr³ + ⅓πr³ = (10/3)πr³. With r = 3 m this is (10/3)π(27) = 90π m³.\n(ii) The sheet covers the flat top, the curved cylinder and the curved cone. The cone slant height is √(r² + r²) = √2 r, so the area is πr² + 2πr(3r) + πr(√2 r) = (1 + 6 + √2)πr² = (7 + √2)πr², which at r = 3 m is 9(7 + √2)π m².\n(iii) Cylindrical volume : conical volume = 3πr³ : ⅓πr³ = 9 : 1.\n(iv) Sheet and fabrication together cost 2000 + 1000 = ₹3000 per square meter, so the tank costs 9(7 + √2)π × 3000 = 27000(7 + √2)π rupees.\n(v) The oil fills the tank 90π m³. Taking π = 22/7, its weight is 90π × 1050 = 90 × (22/7) × 1050 = 90 × 22 × 150 = 297000 kg = 297 tonnes.",
+   "concept": "Solids in daily life are combinations",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch12_q139.png"
+   ],
+   "figure_required": true,
+   "ocr": "The cross-section labelled r and 3r is printed with the question ('The cross section of conical tank is given below') and shows that the cone points downward and the cylinder is closed at the top; the photograph of an industrial tank above it is excluded from the crop."
+  },
+  {
+   "number": "140",
+   "form": "case_study",
+   "marks": 4,
+   "page": 41,
+   "stem": "Boiler : The boiler is essentially a closed vessel inside which water is stored. Fuel is burnt in a furnace and hot gasses are produced. These hot gasses come in contact with water vessel where the heat of these hot gases transfer to the water and consequently steam is produced in the boiler. Then this steam is piped to the turbine of thermal power plant.\n\nRajesh has been given the task of designing a boiler for NTPC. Boiler consist of a cylindrical part in middle and two hemispherical part at its both end. The cross section of boiler is given below. Length of cylindrical part is the 3 times of radius of hemispherical part.\n(i) Which of the following is correct expression for the surface area of cylindrical part of boiler?\n(ii) Which of the following is correct expression for the total surface area of boiler?\n(iii) Which of the following is correct expression for the volume of boiler?\n(iv) What is the ratio of volume to the surface area?\n(v) If r = 3 m, what is the volume of boiler?",
+   "answer": "Let r be the radius of each hemispherical end; the cylindrical part then has length l = 3r.\n(i) Curved surface of the cylindrical part = 2πrl = 2πr(3r) = 6πr².\n(ii) The two hemispheres contribute 2 × 2πr² = 4πr² and the flat cylinder ends are not exposed, so the total surface area is 6πr² + 4πr² = 10πr².\n(iii) Volume = πr²l + 2(⅔πr³) = 3πr³ + (4/3)πr³ = (13/3)πr³.\n(iv) Ratio of volume to surface area = (13/3)πr³ ÷ 10πr² = 13r/30.\n(v) At r = 3 m the volume is (13/3)π(3)³ = 13 × π × 9 = 117π m³ (about 367.7 m³).",
+   "concept": "Adding the curved surface areas",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch12_q140.png"
+   ],
+   "figure_required": true,
+   "ocr": "Parts (i)-(iii) are worded 'Which of the following is correct expression...' but NO option lists are printed anywhere on the page for them — the book gives only the worked expressions, so the item is kept as the case-study it is printed as and nothing was invented. The subparts (i)-(v) and the solution sit on BOOK PAGE 519, which is absent from the chapter split (see notes); they were recovered from source PDF page 522. The cross-section labelled r and 3r is printed with the question on rendered page 41."
+  },
+  {
+   "number": "141",
+   "form": "case_study",
+   "marks": 4,
+   "page": 42,
+   "stem": "Kumbh Mela is a major pilgrimage and festival in Hinduism. It is celebrated in a cycle of approximately 12 years at four river-bank pilgrimage sites: the Prayagraj (Ganges-Yamuna Sarasvati rivers confluence), Haridwar (Ganges), Nashik (Godavari), and Ujjain (Shipra). The festival is marked by a ritual dip in the waters. The seekers believe that bathing in these rivers is a means to prayascitta for past mistakes, and that it cleanses them of their sins.\n\nGovernment of UP is planing to procure tent for the pilgrims during Kumbh Mela. The specification of tent is given below.\n(1) Lower cylindrical part must have a white colored thick fabric whose cost is ₹ 60 per square meter.\n(2) Top conical part must have PVC coated blue fabric whose cost is ₹ 70 per square meter.\nThe front view of tent is given below with dimension.\n(i) How much blue PVC coated fabric is required?\n(ii) How much white fabric is required ?\n(iii) If labour charge for the construction of tent is ₹ 15 per sq. meter what is the total cost of tent ?\n(iv) If space requirement of a pilgrims is 6 sq. meter, how many pilgrims can be accommodate in a tent?\n(v) If total 50000 pilgrims are expected to visit fair, how many tents are required ?",
+   "answer": "From the front view the base diameter is 42 m, so the common radius is r = 21 m; the cylindrical part is 5 m high and the conical top is 20 m high.\n(i) The cone slant height is l = √(21² + 20²) = √(441 + 400) = √841 = 29 m, so the blue PVC fabric is the curved surface of the cone, πrl = (22/7) × 21 × 29 = 1914 sq. meter.\n(ii) The white fabric is the curved surface of the cylinder, 2πrh = 2 × (22/7) × 21 × 5 = 660 sq. meter.\n(iii) Labour adds ₹15 per sq. meter to each fabric. White fabric costs (60 + 15) × 660 = 75 × 660 = ₹49500 and blue fabric costs (70 + 15) × 1914 = 85 × 1914 = ₹162690, so the total is ₹2,12,190.\n(iv) The floor of the tent is a circle of radius 21 m, area πr² = (22/7) × 21 × 21 = 1386 sq. meter. At 6 sq. meter per pilgrim, one tent takes 1386 ÷ 6 = 231 pilgrims.\n(v) 50000 ÷ 231 = 216.45, so 217 tents are required.",
+   "concept": "Applying it to a real shed",
+   "section_heading": "COMPETENCEY BASED QUESTIONS",
+   "images": [
+    "ch12_q141.png"
+   ],
+   "figure_required": true,
+   "ocr": "Figure is required: the three dimensions (42 m base, 5 m cylinder, 20 m cone) appear ONLY in the printed front view, nowhere in the text. The number, the scenario and that figure sit on BOOK PAGE 519, which the chapter split omits (see notes); they were recovered from source PDF page 522, while the subparts and solution are on rendered page 42 (book page 520). TWO ERRORS IN THE PRINTED SOLUTION. First, the prose says 'Height of conical part is equal to its radius 21 m' and then computes √(21² + 20²) — the 20 m from the figure is what it actually uses and what gives its own l = 29 m, so the '21 m' phrase is a slip. Second, the cost line is printed as (60 + 15) × 1914 + (70 + 15) × 660 = ₹199650, which applies the WHITE rate of ₹60 to the 1914 m² of blue conical fabric and the BLUE rate of ₹70 to the 660 m² of white cylindrical fabric — the two rates are swapped relative to the specification in the stem. Applying the rates as specified gives 85 × 1914 + 75 × 660 = ₹2,12,190, which is the value recorded in the answer."
+  }
+ ]
+}

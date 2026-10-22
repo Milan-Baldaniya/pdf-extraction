@@ -1,0 +1,1136 @@
+{
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If the roots of equation ax² + bx + c = 0, a ≠ 0 are real and equal, then which of the following relation is true?",
+   "options": [
+    {
+     "label": "A",
+     "text": "a = b²/c"
+    },
+    {
+     "label": "B",
+     "text": "b² = ac"
+    },
+    {
+     "label": "C",
+     "text": "ac = b²/4"
+    },
+    {
+     "label": "D",
+     "text": "c = b²/a"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Real and equal roots force the discriminant to vanish, so D = b² − 4ac = 0, giving b² = 4ac. Dividing by 4, ac = b²/4.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | OD 2024",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If the quadratic equation ax² + bx + c = 0 has two real and equal roots, then c is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "−b/2a"
+    },
+    {
+     "label": "B",
+     "text": "b/2a"
+    },
+    {
+     "label": "C",
+     "text": "−b²/4a"
+    },
+    {
+     "label": "D",
+     "text": "b²/4a"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "For real and equal roots D = b² − 4ac = 0, so b² = 4ac. Solving for c gives c = b²/4a.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | OD 2023",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "The sum and product of the zeroes of a quadratic polynomial are 3 and −10 respectively. The quadratic polynomial is",
+   "options": [
+    {
+     "label": "A",
+     "text": "x² − 3x + 10"
+    },
+    {
+     "label": "B",
+     "text": "x² + 3x − 10"
+    },
+    {
+     "label": "C",
+     "text": "x² − 3x − 10"
+    },
+    {
+     "label": "D",
+     "text": "x² + 3x + 10"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "A quadratic with zeroes summing to 3 and multiplying to −10 is p(x) = x² − (α + β)x + αβ = x² − 3x − 10.",
+   "concept": "From polynomial to equation",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If the sum of the zeroes of the quadratic polynomial kx² + 2x + 3k is equal to their product, then k equals",
+   "options": [
+    {
+     "label": "A",
+     "text": "1/3"
+    },
+    {
+     "label": "B",
+     "text": "−1/3"
+    },
+    {
+     "label": "C",
+     "text": "2/3"
+    },
+    {
+     "label": "D",
+     "text": "−2/3"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Here a = k, b = 2, c = 3k, so α + β = −2/k and αβ = 3k/k = 3. Setting the sum equal to the product gives −2/k = 3, hence k = −2/3.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "stem": "If α and β are the zeroes of the polynomial x² + 2x + 1, then 1/α + 1/β is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "−2"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "0"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "For x² + 2x + 1 the sum of zeroes is −2 and the product is 1. Then 1/α + 1/β = (α + β)/αβ = −2/1 = −2.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If α and β are the zeroes of the polynomial 2x² − 13x + 6, then α + β is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "−3"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "13/2"
+    },
+    {
+     "label": "D",
+     "text": "−13/2"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "With a = 2, b = −13, the sum of zeroes is −b/a = 13/2.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "The roots of the quadratic equation x² − 0.04 = 0 are",
+   "options": [
+    {
+     "label": "A",
+     "text": "±0.2"
+    },
+    {
+     "label": "B",
+     "text": "±0.02"
+    },
+    {
+     "label": "C",
+     "text": "0.4"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "From x² = 0.04 we get x = ±√0.04 = ±0.2.",
+   "concept": "What a root is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If ½ is a root of the equation x² + kx − 5/4 = 0, then the value of k is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "−2"
+    },
+    {
+     "label": "C",
+     "text": "1/4"
+    },
+    {
+     "label": "D",
+     "text": "1/2"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Substituting x = ½ gives ¼ + k/2 − 5/4 = 0, so (1 + 2k − 5)/4 = 0, hence 2k − 4 = 0 and k = 2.",
+   "concept": "Checking a root by substitution",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "Each root of x² − bx + c = 0 is decreased by 2. The resulting equation is x² − 2x + 1 = 0, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "b = 6, c = 9"
+    },
+    {
+     "label": "B",
+     "text": "b = 3, c = 5"
+    },
+    {
+     "label": "C",
+     "text": "b = 2, c = −1"
+    },
+    {
+     "label": "D",
+     "text": "b = −4, c = 3"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "For the original equation α + β = b and αβ = c. The shifted roots give (α − 2) + (β − 2) = b − 4 and (α − 2)(β − 2) = c − 2b + 4. Matching x² − 2x + 1 = 0: b − 4 = 2 so b = 6, and c − 2(6) + 4 = 1 so c = 9.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 SQP 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "Value(s) of k for which the quadratic equation 2x² − kx + k = 0 has equal roots is/are",
+   "options": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "8"
+    },
+    {
+     "label": "D",
+     "text": "0, 8"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Equal roots need b² − 4ac = 0, i.e. (−k)² − 4(2)k = 0, so k² − 8k = 0 and k(k − 8) = 0. Hence k = 0 or k = 8.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Comt. 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "If the equation (m² + n²)x² − 2(mp + nq)x + p² + q² = 0 has equal roots, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "mp = nq"
+    },
+    {
+     "label": "B",
+     "text": "mq = np"
+    },
+    {
+     "label": "C",
+     "text": "mn = pq"
+    },
+    {
+     "label": "D",
+     "text": "mq = √(np)"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Equal roots require b² = 4ac, i.e. 4(mp + nq)² = 4(m² + n²)(p² + q²). Expanding and cancelling leaves m²q² + n²p² − 2mnpq = 0, that is (mq − np)² = 0, so mq = np.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Foreign 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The linear factors of the quadratic equation x² + kx + 1 = 0 are",
+   "options": [
+    {
+     "label": "A",
+     "text": "k ≥ 2"
+    },
+    {
+     "label": "B",
+     "text": "k ≤ 2"
+    },
+    {
+     "label": "C",
+     "text": "k ≥ −2"
+    },
+    {
+     "label": "D",
+     "text": "2 ≤ k ≤ −2"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Linear (real) factors exist when b² − 4ac ≥ 0, so k² − 4 ≥ 0, i.e. (k − 2)(k + 2) ≥ 0. Hence k ≥ 2 or k ≤ −2.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 SQP 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Option (d) is printed as '2 ≤ k ≤ −2', an impossible chain as written; the worked solution reads it as k ≥ 2 and k ≤ −2, and the printed key (d) agrees with that reading. Kept verbatim."
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "If one root of the quadratic equation ax² + bx + c = 0 is the reciprocal of the other, then",
+   "options": [
+    {
+     "label": "A",
+     "text": "b = c"
+    },
+    {
+     "label": "B",
+     "text": "a = b"
+    },
+    {
+     "label": "C",
+     "text": "ac = 1"
+    },
+    {
+     "label": "D",
+     "text": "a = c"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "If the roots are α and 1/α, their product is 1. Since the product equals c/a, we get c/a = 1, so a = c.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Comt. 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The quadratic equation 2x² − √5 x + 1 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Here a = 2, b = −√5, c = 1, so D = 5 − 8 = −3 < 0. A negative discriminant means the equation has no real roots.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The real roots of the equation x^(2/3) + x^(1/3) − 2 = 0 are",
+   "options": [
+    {
+     "label": "A",
+     "text": "1, 8"
+    },
+    {
+     "label": "B",
+     "text": "−1, −8"
+    },
+    {
+     "label": "C",
+     "text": "−1, 8"
+    },
+    {
+     "label": "D",
+     "text": "1, −8"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Put y = x^(1/3); then y² + y − 2 = 0, so (y − 1)(y + 2) = 0 and y = 1 or y = −2. Cubing, x = 1 or x = −8.",
+   "concept": "What a root is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Comt. 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "(x² + 1)² − x² = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "four real roots"
+    },
+    {
+     "label": "B",
+     "text": "two real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "one real root"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Expanding gives x⁴ + x² + 1 = 0. With y = x², y² + y + 1 = 0 whose discriminant is 1 − 4 = −3 < 0, so there is no real y and hence no real x.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Comt. 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "The equation 2x² + 2(p + 1)x + p = 0, where p is real, always has roots that are",
+   "options": [
+    {
+     "label": "A",
+     "text": "Equal"
+    },
+    {
+     "label": "B",
+     "text": "Equal in magnitude but opposite in sign"
+    },
+    {
+     "label": "C",
+     "text": "Irrational"
+    },
+    {
+     "label": "D",
+     "text": "Real"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Here D = [2(p + 1)]² − 4(2)(p) = 4(p + 1)² − 8p = 4p² + 4 = 4(p² + 1), which is positive for every real p. A positive discriminant means the roots are always real.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Foreign 2011",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The condition for one root of the quadratic equation ax² + bx + c = 0 to be twice the other, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "b² = 4ac"
+    },
+    {
+     "label": "B",
+     "text": "2b² = 9ac"
+    },
+    {
+     "label": "C",
+     "text": "c² = 4a + b²"
+    },
+    {
+     "label": "D",
+     "text": "c² = 9a − b²"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let the roots be α and 2α. Their sum 3α = −b/a gives α = −b/3a, and their product 2α² = c/a gives 2b²/9a² = c/a. Clearing denominators, 2b² = 9ac.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 SQP 2017",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If x² + y² = 25, xy = 12, then x is",
+   "options": [
+    {
+     "label": "A",
+     "text": "(3, 4)"
+    },
+    {
+     "label": "B",
+     "text": "(3, −3)"
+    },
+    {
+     "label": "C",
+     "text": "(3, 4, −3, −4)"
+    },
+    {
+     "label": "D",
+     "text": "(3, −3)"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Substituting y = 12/x into x² + y² = 25 gives x⁴ − 25x² + 144 = 0, i.e. (x² − 16)(x² − 9) = 0. So x² = 16 or x² = 9, giving x = ±4 and x = ±3.",
+   "concept": "What a root is",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Foreign 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Options (b) and (d) are printed identically as (3, −3); reproduced as printed."
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The quadratic equation 2x² − 3√2 x + 9/4 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "With a = 2, b = −3√2, c = 9/4, D = 18 − 4 × 2 × 9/4 = 18 − 18 = 0. A zero discriminant means two equal real roots.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 SQP 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The quadratic equation x² + x − 5 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Here a = 1, b = 1, c = −5, so D = 1 + 20 = 21 > 0. A positive discriminant means two distinct real roots.",
+   "concept": "Two distinct real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Foreign 2012",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "The quadratic equation x² + 3x + 2√2 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Here a = 1, b = 3, c = 2√2, so D = 9 − 8√2 ≈ 9 − 11.31 < 0. A negative discriminant means the roots are not real.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2019 OD",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The quadratic equation 5x² − 3x + 1 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "With a = 5, b = −3, c = 1, D = 9 − 20 = −11 < 0, so the equation has no real roots.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2019 Delhi",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "24",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The quadratic equation x² − 4x + 3√2 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Here a = 1, b = −4, c = 3√2, so D = 16 − 12√2 ≈ 16 − 16.97 < 0. Hence the equation has no real roots.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS | Board SQP 2018",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "25",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The quadratic equation x² + 4x − 3√2 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Here a = 1, b = 4, c = −3√2, so D = 16 + 12√2 > 0. A positive discriminant gives two distinct real roots.",
+   "concept": "Two distinct real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 SQP 2015",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "26",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The quadratic equation x² − 4x − 3√2 = 0 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Here a = 1, b = −4, c = −3√2, so D = 16 + 12√2 > 0, and the equation has two distinct real roots.",
+   "concept": "Two distinct real roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2018",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "27",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "The quadratic equation 3x² + 4√3 x + 4 has",
+   "options": [
+    {
+     "label": "A",
+     "text": "two distinct real roots"
+    },
+    {
+     "label": "B",
+     "text": "two equal real roots"
+    },
+    {
+     "label": "C",
+     "text": "no real roots"
+    },
+    {
+     "label": "D",
+     "text": "more than 2 real roots"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "With a = 3, b = 4√3, c = 4, D = (4√3)² − 4(3)(4) = 48 − 48 = 0, so the equation has real and equal roots.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem is printed without '= 0' after 4; the worked solution supplies it as 3x² + 4√3 x + 4 = 0. Stem kept as printed."
+  },
+  {
+   "number": "28",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "Which of the following equations has 2 as a root?",
+   "options": [
+    {
+     "label": "A",
+     "text": "x² − 4x + 5 = 0"
+    },
+    {
+     "label": "B",
+     "text": "x² + 3x − 12 = 0"
+    },
+    {
+     "label": "C",
+     "text": "2x² − 7x + 6 = 0"
+    },
+    {
+     "label": "D",
+     "text": "3x² − 6x − 2 = 0"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Substituting x = 2: option (a) gives 4 − 8 + 5 = 1 ≠ 0; option (b) gives 4 + 6 − 12 = −2 ≠ 0; option (c) gives 8 − 14 + 6 = 0; option (d) gives 12 − 12 − 2 = −2 ≠ 0. So 2 is a root of 2x² − 7x + 6 = 0.",
+   "concept": "Checking a root by substitution",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 SQP 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "29",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "Which of the following equations has the sum of its roots as 3?",
+   "options": [
+    {
+     "label": "A",
+     "text": "2x² − 3x + 6 = 0"
+    },
+    {
+     "label": "B",
+     "text": "−x² + 3x − 3 = 0"
+    },
+    {
+     "label": "C",
+     "text": "√2 x² − (3/√2)x + 1 = 0"
+    },
+    {
+     "label": "D",
+     "text": "3x² − 3x + 3 = 0"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The sum of the roots is −b/a. Option (a) gives 3/2, option (b) gives −(3/−1) = 3, option (c) gives 3/2, option (d) gives 1. Only option (b) has sum 3.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term - 2 Foreign 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "30",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "stem": "Assertion (A): If 5 + √7 is a root of a quadratic equation with rational coefficients, then its other root is 5 − √7. Reason (R): Surd roots of quadratic equation with rational coefficients occur in conjugate pairs.",
+   "assertion": "If 5 + √7 is a root of a quadratic equation with rational coefficients, then its other root is 5 − √7.",
+   "reason": "Surd roots of quadratic equation with rational coefficients occur in conjugate pairs.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "In a quadratic equation with rational coefficients, irrational (surd) roots always occur in conjugate pairs, so the partner of 5 + √7 is 5 − √7. Both statements are true and the reason explains the assertion.",
+   "concept": "Zeroes and roots",
+   "section_heading": "OBJECTIVE QUESTIONS | OD 2023",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "31",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 6,
+   "stem": "Assertion (A): The values of x are −a/2, a for a quadratic equation 2x² + ax − a² = 0. Reason (R): For quadratic equation ax² + bx + c = 0, x = (−b ± √(b² − 4ac))/2a",
+   "assertion": "The values of x are −a/2, a for a quadratic equation 2x² + ax − a² = 0.",
+   "reason": "For quadratic equation ax² + bx + c = 0, x = (−b ± √(b² − 4ac))/2a",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Applying the formula to 2x² + ax − a² = 0 gives x = (−a ± √(a² + 8a²))/4 = (−a ± 3a)/4, i.e. x = a/2 or x = −a. The assertion states −a/2 and a, which is wrong, while the quadratic formula quoted in the reason is correct.",
+   "concept": "What a root is",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "32",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "stem": "Assertion (A): 4x² − 12x + 9 = 0 has repeated roots. Reason (R): The quadratic equation ax² + bx + c = 0 have repeated roots if discriminant D > 0.",
+   "assertion": "4x² − 12x + 9 = 0 has repeated roots.",
+   "reason": "The quadratic equation ax² + bx + c = 0 have repeated roots if discriminant D > 0.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "For 4x² − 12x + 9 = 0, D = 144 − 144 = 0, so the roots are indeed repeated and the assertion is true. The reason is false: repeated roots occur when D = 0, not D > 0.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "33",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "stem": "Assertion (A): The roots of the quadratic equation x² + 2x + 2 = 0 are imaginary. Reason (R): If discriminant D = b² − 4ac < 0 then the roots of quadratic equation ax² + bx + c = 0 are imaginary.",
+   "assertion": "The roots of the quadratic equation x² + 2x + 2 = 0 are imaginary.",
+   "reason": "If discriminant D = b² − 4ac < 0 then the roots of quadratic equation ax² + bx + c = 0 are imaginary.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "For x² + 2x + 2 = 0, D = 4 − 8 = −4 < 0, so the roots are imaginary. Both statements are true and the reason is the correct explanation.",
+   "concept": "The discriminant",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "34",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "stem": "Assertion (A): The equation x² + 3x + 1 = (x − 2)² is a quadratic equation. Reason (R): Any equation of the form ax² + bx + c = 0 where a ≠ 0, is called a quadratic equation.",
+   "assertion": "The equation x² + 3x + 1 = (x − 2)² is a quadratic equation.",
+   "reason": "Any equation of the form ax² + bx + c = 0 where a ≠ 0, is called a quadratic equation.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Expanding the right side gives x² + 3x + 1 = x² − 4x + 4, and the x² terms cancel to leave 7x − 3 = 0, a linear equation. So the assertion is false, while the definition given in the reason is true.",
+   "concept": "Recognising a quadratic equation",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "35",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 7,
+   "stem": "Assertion (A): The equation 8x² + 3kx + 2 = 0 has equal roots then the value of k is ±8/3. Reason (R): The equation ax² + bx + c = 0 has equal roots if D = b² − 4ac = 0",
+   "assertion": "The equation 8x² + 3kx + 2 = 0 has equal roots then the value of k is ±8/3.",
+   "reason": "The equation ax² + bx + c = 0 has equal roots if D = b² − 4ac = 0",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "For equal roots D = (3k)² − 4(8)(2) = 9k² − 64 = 0, so k² = 64/9 and k = ±8/3. Both statements are true and the reason explains the assertion.",
+   "concept": "Two equal real roots",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  }
+ ]
+}

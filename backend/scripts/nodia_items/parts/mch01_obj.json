@@ -1,0 +1,638 @@
+{
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "stem": "If two positive integers p and q can be expressed as p = 18a²b⁴ and q = 20a³b², where a and b are prime numbers, then LCM (p, q) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "2a²b²"
+    },
+    {
+     "label": "B",
+     "text": "180a²b²"
+    },
+    {
+     "label": "C",
+     "text": "12a²b²"
+    },
+    {
+     "label": "D",
+     "text": "180a³b⁴"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "LCM is the product of the greatest power of each prime factor involved in the numbers.\np = 18a²b⁴ = 2 × 3 × 3 × a × a × b × b × b × b\nq = 20a³b² = 2 × 2 × 5 × a × a × a × b × b\nLCM(p, q) = 2 × 2 × 3 × 3 × 5 × a³ × b⁴ = 180a³b⁴\nThus (d) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Printed number was swallowed by the 'OBJECTIVE QUESTIONS' heading; inferred as 1 from position (question 2 follows). Options (b) and (d) were stacked in one LaTeX array and were split back out. The printed worked solution mis-expands q as 2×2×5×a×a×b×b (one factor of a short) and mis-states p as 18ab²; both corrected from the question statement, which the final answer 180a³b⁴ confirms. The embedded text layer shows the book does print the expansions in full, q = 2 × 2 × 5 × a × a × a × b × b and p = 2 × 3 × 3 × a × a × b × b × b × b, so the missing factor of a was MinerU's OCR loss, not a misprint."
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "stem": "If p² = 32/50, then p is a/an",
+   "options": [
+    {
+     "label": "A",
+     "text": "whole number"
+    },
+    {
+     "label": "B",
+     "text": "integer"
+    },
+    {
+     "label": "C",
+     "text": "rational number"
+    },
+    {
+     "label": "D",
+     "text": "irrational number"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "p² = 32/50 = 16/25, so p = √(16/25) = 4/5.\nSince p is of the form p/q with q ≠ 0, p is a rational number.\nThus (c) is the correct option.",
+   "concept": "Definition of an irrational number",
+   "ocr": "Stem came through as 'If p2 = 5302 t hen'; the fraction 32/50 collapsed into '5302' and the exponent lost its superscript. Restored as p² = 32/50 from the worked solution, which opens with p² = 32/50 = 16/25."
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term 1 Basic",
+   "stem": "The sum of exponents of prime factors in the prime-factorisation of 196 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "5"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "196 = 4 × 49 = 2² × 7².\nThe sum of the exponents of the prime factors is 2 + 2 = 4.\nThus (b) is the correct option.",
+   "concept": "Unique product of primes"
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2022 Term 1 Standard",
+   "stem": "The values of x and y in the given figure are",
+   "options": [
+    {
+     "label": "A",
+     "text": "7, 13"
+    },
+    {
+     "label": "B",
+     "text": "13, 7"
+    },
+    {
+     "label": "C",
+     "text": "9, 12"
+    },
+    {
+     "label": "D",
+     "text": "12, 9"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "From the factor tree, 1001 = x × 143 ⇒ x = 7, and 143 = y × 11 ⇒ y = 13.\nHence x = 7, y = 13.\nThus (a) is the correct option.",
+   "concept": "Unique product of primes",
+   "images": [
+    "892c33907be264792da72ad63a527c74fecc5a1904da09ba5dbb1cce42d7136e.jpg"
+   ],
+   "figure_required": true,
+   "ocr": "Printed number was lost; inferred as 4 from position between questions 3 and 5. The markdown image ref sits directly under the stem on page 1, so the factor-tree figure is attached to the question, not to the solution. The embedded text layer prints the stem as 'The values of x and y in the given figure are', so 'factor tree' has been replaced by the book's word 'figure'."
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 1,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Standard",
+   "stem": "The total number of factors of a prime number is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Any prime number has only two factors: 1 and the number itself.\nThus (c) is the correct option.",
+   "concept": "Unique product of primes"
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Standard",
+   "stem": "The HCF and the LCM of 12, 21, 15 respectively are",
+   "options": [
+    {
+     "label": "A",
+     "text": "3, 140"
+    },
+    {
+     "label": "B",
+     "text": "12, 420"
+    },
+    {
+     "label": "C",
+     "text": "3, 420"
+    },
+    {
+     "label": "D",
+     "text": "420, 3"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "12 = 2 × 2 × 3, 21 = 3 × 7, 15 = 3 × 5.\nHCF(12, 21, 15) = 3\nLCM(12, 21, 15) = 2 × 2 × 3 × 5 × 7 = 420\nThus (c) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Printed number appeared as a bare '6' with the full stop lost; 'We have' in the solution came through as ': have '."
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 SQP Standard",
+   "stem": "The LCM of the smallest two digit composite number and the smallest composite number is",
+   "options": [
+    {
+     "label": "A",
+     "text": "12"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "20"
+    },
+    {
+     "label": "D",
+     "text": "44"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The smallest two digit composite number is 10 and the smallest composite number is 4.\nLCM(10, 4) = 20\nThus (c) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation"
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "stem": "HCF of two numbers is 27 and their LCM is 162. If one of the numbers is 54, then the other number is",
+   "options": [
+    {
+     "label": "A",
+     "text": "36"
+    },
+    {
+     "label": "B",
+     "text": "35"
+    },
+    {
+     "label": "C",
+     "text": "9"
+    },
+    {
+     "label": "D",
+     "text": "81"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Let y be the second number. The product of two numbers equals the product of their LCM and HCF.\n54 × y = LCM × HCF\n54 × y = 162 × 27\ny = (162 × 27)/54 = 81\nThus (d) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Answer key conflicts with its own worked solution: the book prints 'Thus (b) is correct option' but the solution derives y = 81, which is option (d) — option (b) is 35. The solution wins, so correct_option is D. The solution also prints 'LCM × HCM' for 'LCM × HCF'."
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "HCF of 144 and 198 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "9"
+    },
+    {
+     "label": "B",
+     "text": "18"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "12"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Using the prime factorisation method,\n144 = 2 × 2 × 2 × 2 × 3 × 3 = 2⁴ × 3²\n198 = 2 × 3 × 3 × 11 = 2 × 3² × 11\nHCF(144, 198) = 2 × 3² = 2 × 9 = 18\nThus (b) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation"
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "stem": "225 can be expressed as",
+   "options": [
+    {
+     "label": "A",
+     "text": "5 × 3²"
+    },
+    {
+     "label": "B",
+     "text": "5² × 3"
+    },
+    {
+     "label": "C",
+     "text": "5² × 3²"
+    },
+    {
+     "label": "D",
+     "text": "5³ × 3"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "By prime factorisation of 225,\n225 = 3 × 3 × 5 × 5 = 3² × 5², or 5² × 3².\nThus (c) is the correct option.",
+   "concept": "Unique product of primes",
+   "ocr": "Options (b) and (d) were stacked together in one LaTeX array; split back into separate labelled options."
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "stem": "2√3 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "an integer"
+    },
+    {
+     "label": "B",
+     "text": "a rational number"
+    },
+    {
+     "label": "C",
+     "text": "an irrational number"
+    },
+    {
+     "label": "D",
+     "text": "a whole number"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Let us assume that 2√3 is a rational number.\nThen 2√3 = r, where r is rational, so √3 = r/2.\nBut √3 is irrational, so r/2 would have to be irrational to make the equation true. This contradicts the assumption that r is rational.\nHence our assumption is wrong and 2√3 is an irrational number.\nThus (c) is the correct option.",
+   "concept": "Definition of an irrational number",
+   "ocr": "Option label (c) was OCR-damaged to a stray 'L' ('L an irrational number'); restored to option C. The opening line of the solution was extracted inside an 'Activity Prompt' blockquote and has been folded back into the solution text."
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "The product of a non-zero rational number and an irrational number is",
+   "options": [
+    {
+     "label": "A",
+     "text": "always irrational"
+    },
+    {
+     "label": "B",
+     "text": "always rational"
+    },
+    {
+     "label": "C",
+     "text": "rational or irrational"
+    },
+    {
+     "label": "D",
+     "text": "one"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The product of a non-zero rational number and an irrational number is always irrational. For example, (3/4) × √2 = 3√2/4, which is irrational.\nThus (a) is the correct option.",
+   "concept": "Definition of an irrational number",
+   "ocr": "Option label (c) was lost and its text ran on from option (b) and split across the page break ('rational or irrationa' / 'l'); rejoined and relabelled C."
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 2014, 2011",
+   "stem": "If two positive integers a and b are written as a = x³y² and b = xy³, where x, y are prime numbers, then HCF (a, b) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "xy"
+    },
+    {
+     "label": "B",
+     "text": "xy²"
+    },
+    {
+     "label": "C",
+     "text": "x³y³"
+    },
+    {
+     "label": "D",
+     "text": "x²y²"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "a = x³y² = x × x × x × y × y\nb = xy³ = x × y × y × y\nHCF is the product of the smallest power of each common prime factor.\nHCF(a, b) = x × y × y = xy²\nThus (b) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Options (b) and (d) were stacked in one LaTeX array; split back out. The solution line prints HCF(x³y³, xy³) where the question gives a = x³y²; the expansion used, x × x × x × y × y, matches x³y²."
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2010",
+   "stem": "If two positive integers p and q can be expressed as p = ab² and q = a³b, where a, b are prime numbers, then LCM (p, q) is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "ab"
+    },
+    {
+     "label": "B",
+     "text": "a²b²"
+    },
+    {
+     "label": "C",
+     "text": "a³b²"
+    },
+    {
+     "label": "D",
+     "text": "a³b³"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "p = ab² = a × b × b\nq = a³b = a × a × a × b\nLCM is the product of the greatest power of each prime factor involved.\nLCM(p, q) = a³ × b² = a³b²\nThus (c) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "Options (b) and (d) were stacked in one LaTeX array; split back out."
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 2016, 2015",
+   "stem": "The least number that is divisible by all the numbers from 1 to 10 (both inclusive) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "100"
+    },
+    {
+     "label": "C",
+     "text": "504"
+    },
+    {
+     "label": "D",
+     "text": "2520"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Factorising 1 to 10: 1 = 1, 2 = 2, 3 = 3, 4 = 2 × 2, 5 = 5, 6 = 2 × 3, 7 = 7, 8 = 2 × 2 × 2, 9 = 3 × 3, 10 = 2 × 5.\nLCM(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) = 2 × 2 × 2 × 3 × 3 × 5 × 7 = 2520\nThus (d) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "The printed factor list drops the third 2 from 8 ('8 = 1 × 2 × 2 ×') and the LCM line shows only two 2s; restored to 2 × 2 × 2 × 3 × 3 × 5 × 7, which is the printed value 2520. The embedded text layer prints 8 = 1 × 2 × 2 × 2 with all three 2s, so only the LCM line (printed 1 × 2 × 2 × 3 × 3 × 5 × 7) is short a 2."
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If p₁ and p₂ are two odd prime numbers such that p₁ > p₂, then p₁² − p₂² is",
+   "options": [
+    {
+     "label": "A",
+     "text": "an even number"
+    },
+    {
+     "label": "B",
+     "text": "an odd number"
+    },
+    {
+     "label": "C",
+     "text": "an odd prime number"
+    },
+    {
+     "label": "D",
+     "text": "a prime number"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "p₁² − p₂² is an even number.\nTake p₁ = 5 and p₂ = 3. Then p₁² − p₂² = 25 − 9 = 16, which is an even number.\nThus (a) is the correct option.",
+   "concept": "Divisibility and the division process"
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "The number 3¹³ − 3¹⁰ is divisible by",
+   "options": [
+    {
+     "label": "A",
+     "text": "2 and 3"
+    },
+    {
+     "label": "B",
+     "text": "3 and 10"
+    },
+    {
+     "label": "C",
+     "text": "2, 3 and 10"
+    },
+    {
+     "label": "D",
+     "text": "2, 3 and 13"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "3¹³ − 3¹⁰ = 3¹⁰(3³ − 1) = 3¹⁰ × 26 = 2 × 13 × 3¹⁰\nHence 3¹³ − 3¹⁰ is divisible by 2, 3 and 13.\nThus (d) is the correct option.",
+   "concept": "Divisibility and the division process",
+   "ocr": "The middle step dropped the factor 26: printed as '3¹³ − 3¹⁰ = 3¹⁰(3³ − 1) = 3¹⁰'. Restored 3¹⁰ × 26 from the next line, 2 × 13 × 3¹⁰. The embedded text layer prints the middle step in full as 3¹⁰(3³ − 1) = 3¹⁰ × 26, so the factor 26 was lost by OCR, not by the book."
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS | Board Term-1 2013",
+   "stem": "1. The L.C.M. of x and 18 is 36. 2. The H.C.F. of x and 18 is 2. What is the number x?",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "LCM × HCF = first number × second number.\nSo the required number x = (36 × 2)/18 = 4.\nThus (d) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "sub_parts": [
+    "i",
+    "ii"
+   ],
+   "ocr": "'second number' in the solution was broken across a line as 'second nur / mber'; rejoined."
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "If a = 2³ × 3, b = 2 × 3 × 5, c = 3ⁿ × 5 and LCM (a, b, c) = 2³ × 3² × 5, then n is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The LCM takes the greatest power of each prime. The greatest power of 3 in the LCM is 3², but a and b each contribute only 3¹, so the 3² must come from c = 3ⁿ × 5. Hence n = 2.\nThus (b) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "The question sits on page 3 and its solution on page 4; the 'Downloaded from www.pdf.tube' watermark and the '## Page 4' marker between them were stripped. The printed solution is the bare line 'Value of n must be 2'; the reasoning has been written out."
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "The least number which is a perfect square and is divisible by each of 16, 20 and 24 is",
+   "options": [
+    {
+     "label": "A",
+     "text": "240"
+    },
+    {
+     "label": "B",
+     "text": "1600"
+    },
+    {
+     "label": "C",
+     "text": "2400"
+    },
+    {
+     "label": "D",
+     "text": "3600"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The LCM of 16, 20 and 24 is 240. The least multiple of 240 that is a perfect square is 3600. Choices (a) 240 and (c) 2400 can be eliminated at once because they are not perfect squares, and 1600 is not a multiple of 240.\nThus (d) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation"
+  },
+  {
+   "number": "21",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 4,
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "stem": "Assertion (A): The HCF of two numbers is 5 and their product is 150, then their LCM is 30. Reason (R): For any two positive integers a and b, HCF (a, b) + LCM (a, b) = a × b.",
+   "assertion": "The HCF of two numbers is 5 and their product is 150, then their LCM is 30.",
+   "reason": "For any two positive integers a and b, HCF (a, b) + LCM (a, b) = a × b.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The correct relation is LCM(a, b) × HCF(a, b) = a × b, not a sum, so the reason is false.\nChecking the assertion: LCM × 5 = 150, so LCM = 150/5 = 30. The assertion is true.\nAssertion (A) is true but reason (R) is false.\nThus (c) is the correct option.",
+   "concept": "HCF and LCM by prime factorisation",
+   "ocr": "The printed Reason omits the colon after 'Reason'. The legend's four options were carried through verbatim. The embedded text layer prints both 'Assertion :' and 'Reason :' with colons, so the missing-colon note described the OCR, not the book."
+  }
+ ]
+}

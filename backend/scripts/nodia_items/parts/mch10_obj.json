@@ -1,0 +1,968 @@
+{
+ "items": [
+  {
+   "number": "1",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "In the given figure, PA and PB are tangents from external point P to a circle with centre C and Q is any point on the circle. Then the measure of ∠AQB is",
+   "options": [
+    {
+     "label": "A",
+     "text": "62½°"
+    },
+    {
+     "label": "B",
+     "text": "125°"
+    },
+    {
+     "label": "C",
+     "text": "55°"
+    },
+    {
+     "label": "D",
+     "text": "90°"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The radii CA and CB are perpendicular to the tangents PA and PB, so in quadrilateral PACB the angle at the centre and the angle at P are supplementary: ∠ACB + ∠APB = 180°, giving ∠ACB = 180° − 55° = 125°. The angle subtended by the chord AB at the centre is twice the angle it subtends at any point Q on the remaining arc, so ∠AQB = ½ × 125° = 62½°.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2023 OD Standard",
+   "images": [
+    "ch10_q1.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "2",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "From an external point Q, the length of tangent to a circle is 12 cm and the distance of Q from the centre of circle is 13 cm. The radius of circle (in cm) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "12"
+    },
+    {
+     "label": "D",
+     "text": "7"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The radius OP is perpendicular to the tangent PQ at the point of contact, so triangle OPQ is right angled at P. By Pythagoras, OP² = OQ² − PQ² = 13² − 12² = 169 − 144 = 25, hence OP = 5 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "3",
+   "form": "mcq",
+   "marks": 1,
+   "page": 2,
+   "stem": "QP is a tangent to a circle with centre O at a point P on the circle. If ΔOPQ is isosceles, then ∠OQR equals.",
+   "options": [
+    {
+     "label": "A",
+     "text": "30°"
+    },
+    {
+     "label": "B",
+     "text": "45°"
+    },
+    {
+     "label": "C",
+     "text": "60°"
+    },
+    {
+     "label": "D",
+     "text": "90°"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The radius OP is perpendicular to the tangent QP at P, so ∠OPQ = 90°. Since ΔOPQ is isosceles, the two angles other than the right angle are equal, so ∠POQ = ∠OQP. From the angle sum, 2∠OQP + 90° = 180°, giving ∠OQP = 45°.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem as printed asks for ∠OQR, but no point R appears in the question or in the printed figure; the worked solution finds ∠OQP = 45°, which matches key (b). Treated as a misprint for ∠OQP."
+  },
+  {
+   "number": "4",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "A chord of a circle of radius 10 cm, subtends a right angle at its centre. The length of the chord (in cm) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "5/√2"
+    },
+    {
+     "label": "B",
+     "text": "5√2"
+    },
+    {
+     "label": "C",
+     "text": "10√2"
+    },
+    {
+     "label": "D",
+     "text": "10√3"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Let the chord be BC and the centre A, so AB = AC = 10 cm and ∠BAC = 90°. By Pythagoras, BC² = AB² + AC² = 10² + 10² = 200, hence BC = 10√2 cm.",
+   "concept": "Secant of a circle",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "5",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "Two chords AB and CD of a circle intersect at E such that AE = 2.4 cm, BE = 3.2 cm and CE = 1.6 cm. The length of DE is",
+   "options": [
+    {
+     "label": "A",
+     "text": "1.6 cm"
+    },
+    {
+     "label": "B",
+     "text": "3.2 cm"
+    },
+    {
+     "label": "C",
+     "text": "4.8 cm"
+    },
+    {
+     "label": "D",
+     "text": "6.4 cm"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "For two chords intersecting inside a circle, AE × EB = CE × ED. Substituting, 2.4 × 3.2 = 1.6 × ED, so ED = 7.68 ÷ 1.6 = 4.8 cm.",
+   "concept": "Secant of a circle",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "6",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "In figure, O is the centre of circle. PQ is a chord and PT is tangent at P which makes an angle of 50° with PQ. ∠POQ is",
+   "options": [
+    {
+     "label": "A",
+     "text": "130°"
+    },
+    {
+     "label": "B",
+     "text": "90°"
+    },
+    {
+     "label": "C",
+     "text": "100°"
+    },
+    {
+     "label": "D",
+     "text": "75°"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The radius OP is perpendicular to the tangent PT, so ∠OPT = 90°. Hence ∠OPQ = 90° − 50° = 40°. Since OP = OQ are radii, triangle OPQ is isosceles and ∠OQP = ∠OPQ = 40°. Therefore ∠POQ = 180° − 40° − 40° = 100°.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 OD Basic",
+   "images": [
+    "ch10_q6.png"
+   ],
+   "figure_required": true,
+   "ocr": "The printed question number is overlaid by the vertical NODIA watermark; it is 6, fixed by the run 5, 6, 7 on the page."
+  },
+  {
+   "number": "7",
+   "form": "mcq",
+   "marks": 1,
+   "page": 3,
+   "stem": "In figure, AP, AQ and BC are tangents of the circle with centre O. If AB = 5 cm, AC = 6 cm and BC = 4 cm, then the length of AP (in cm) is",
+   "options": [
+    {
+     "label": "A",
+     "text": "15"
+    },
+    {
+     "label": "B",
+     "text": "10"
+    },
+    {
+     "label": "C",
+     "text": "9"
+    },
+    {
+     "label": "D",
+     "text": "7.5"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Tangents drawn from an external point are equal, so BP = BR, CR = CQ and AP = AQ, where R is the point at which BC touches the circle. The perimeter of ΔABC is AB + BC + AC = AB + BR + RC + AC = AB + BP + CQ + AC = AP + AQ = 2AP. Hence 5 + 4 + 6 = 2AP, so AP = 15/2 = 7.5 cm.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [
+    "ch10_q7.png"
+   ],
+   "figure_required": true,
+   "ocr": "Stem and figure are on page 3; the four options and the solution run over onto page 4."
+  },
+  {
+   "number": "8",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "If a regular hexagon is inscribed in a circle of radius r, then its perimeter is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3r"
+    },
+    {
+     "label": "B",
+     "text": "6r"
+    },
+    {
+     "label": "C",
+     "text": "9r"
+    },
+    {
+     "label": "D",
+     "text": "12r"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "A regular hexagon inscribed in a circle splits into six equilateral triangles with the centre, so each side equals the radius r. The perimeter is therefore 6 × r = 6r.",
+   "concept": "Secant of a circle",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "9",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "In figure, on a circle of radius 7 cm, tangent PT is drawn from a point P such that PT = 24 cm. If O is the centre of the circle, then the length of PR is",
+   "options": [
+    {
+     "label": "A",
+     "text": "30 cm"
+    },
+    {
+     "label": "B",
+     "text": "28 cm"
+    },
+    {
+     "label": "C",
+     "text": "32 cm"
+    },
+    {
+     "label": "D",
+     "text": "25 cm"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "The tangent PT is perpendicular to the radius OT, so in right triangle PTO, OP² = OT² + PT² = 7² + 24² = 49 + 576 = 625, giving OP = 25 cm. Since OR is a radius, OR = 7 cm, and PR = OP + OR = 25 + 7 = 32 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2020 Delhi Basic",
+   "images": [
+    "ch10_q9.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "10",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "Two circles of radii 20 cm and 37 cm intersect in A and B. If O₁ and O₂ are their centres and AB = 24 cm, then the distance O₁O₂ is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "44 cm"
+    },
+    {
+     "label": "B",
+     "text": "51 cm"
+    },
+    {
+     "label": "C",
+     "text": "40.5 cm"
+    },
+    {
+     "label": "D",
+     "text": "45 cm"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The line of centres bisects the common chord AB at right angles at C, so AC = 12 cm. In the right triangles, CO₁ = √(37² − 12²) = √(1369 − 144) = 35 cm and CO₂ = √(20² − 12²) = √(400 − 144) = 16 cm. Hence O₁O₂ = 35 + 16 = 51 cm.",
+   "concept": "Secant of a circle",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "11",
+   "form": "mcq",
+   "marks": 1,
+   "page": 4,
+   "stem": "In the adjoining figure, TP and TQ are the two tangents to a circle with centre O. If ∠POQ = 110°, then ∠PTQ is",
+   "options": [
+    {
+     "label": "A",
+     "text": "60°"
+    },
+    {
+     "label": "B",
+     "text": "70°"
+    },
+    {
+     "label": "C",
+     "text": "80°"
+    },
+    {
+     "label": "D",
+     "text": "90°"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "The radii OP and OQ are perpendicular to the tangents TP and TQ, so ∠OPT = ∠OQT = 90°. In quadrilateral OPTQ the four angles sum to 360°, so 110° + 90° + ∠PTQ + 90° = 360°, giving ∠PTQ = 70°.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [
+    "ch10_q11.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "12",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "AB and CD are two common tangents to circles which touch each other at a point C. If D lies on AB such that CD = 4 cm then AB is",
+   "options": [
+    {
+     "label": "A",
+     "text": "12 cm"
+    },
+    {
+     "label": "B",
+     "text": "8 cm"
+    },
+    {
+     "label": "C",
+     "text": "4 cm"
+    },
+    {
+     "label": "D",
+     "text": "6 cm"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "D is the external point from which DA and DC are tangents to the first circle, so AD = CD; likewise DB and DC are tangents to the second circle, so BD = CD. Hence AB = AD + BD = 2CD = 2 × 4 = 8 cm.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "13",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "In the adjoining figure, PT is a tangent at point C of the circle. O is the circumference of ΔABC. If ∠ACP = 118°, then the measure of ∠x is",
+   "options": [
+    {
+     "label": "A",
+     "text": "28°"
+    },
+    {
+     "label": "B",
+     "text": "32°"
+    },
+    {
+     "label": "C",
+     "text": "42°"
+    },
+    {
+     "label": "D",
+     "text": "38°"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Join OC. Since OC is a radius and PT is the tangent at C, ∠OCP = 90°. Given ∠ACP = 118°, so ∠ACO = 118° − 90° = 28°. As O is the circumcentre, OA = OC, making triangle OAC isosceles, so ∠OAC = ∠ACO. Hence x = 28°.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [
+    "ch10_q13.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem prints 'O is the circumference of ΔABC'; the solution and the figure both treat O as the circumcentre. Printed wording kept."
+  },
+  {
+   "number": "14",
+   "form": "mcq",
+   "marks": 1,
+   "page": 5,
+   "stem": "Two concentric circles of radii a and b where a > b, The length of a chord of the larger circle which touches the other circle is",
+   "options": [
+    {
+     "label": "A",
+     "text": "√(a² + b²)"
+    },
+    {
+     "label": "B",
+     "text": "2√(a² + b²)"
+    },
+    {
+     "label": "C",
+     "text": "√(a² − b²)"
+    },
+    {
+     "label": "D",
+     "text": "2√(a² − b²)"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "Let the chord AB of the larger circle touch the smaller circle at L. Then OL ⊥ AB with OL = b and OA = a. In right triangle OAL, AL = √(a² − b²). The perpendicular from the centre bisects the chord, so AB = 2AL = 2√(a² − b²).",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "15",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "In the given figure, a circle touches all the four sides of quadrilateral ABCD with AB = 6 cm, BC = 7 cm and CD = 4 cm, then length of AD is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3 cm"
+    },
+    {
+     "label": "B",
+     "text": "4 cm"
+    },
+    {
+     "label": "C",
+     "text": "5 cm"
+    },
+    {
+     "label": "D",
+     "text": "6 cm"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "For a quadrilateral whose four sides are tangent to a circle, the sums of opposite sides are equal: AB + CD = BC + AD. Substituting, 6 + 4 = 7 + AD, so AD = 10 − 7 = 3 cm.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [
+    "ch10_q15.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "16",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "Two concentric circles are of radii 10 cm and 8 cm, then the length of the chord of the larger circle which touches the smaller circle is",
+   "options": [
+    {
+     "label": "A",
+     "text": "6 cm"
+    },
+    {
+     "label": "B",
+     "text": "12 cm"
+    },
+    {
+     "label": "C",
+     "text": "18 cm"
+    },
+    {
+     "label": "D",
+     "text": "9 cm"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let the chord AB of the larger circle touch the smaller circle at P. Then OP ⊥ AB and P is the midpoint of AB, with OP = 8 cm and OA = 10 cm. By Pythagoras, AP² = 100 − 64 = 36, so AP = 6 cm and AB = 2AP = 12 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "17",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "In the given figure, PA is a tangent from an external point P to a circle with centre O. If ∠POB = 115°, then perimeter of ∠APO is",
+   "options": [
+    {
+     "label": "A",
+     "text": "25°"
+    },
+    {
+     "label": "B",
+     "text": "20°"
+    },
+    {
+     "label": "C",
+     "text": "30°"
+    },
+    {
+     "label": "D",
+     "text": "65°"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The tangent PA is perpendicular to the radius OA, so ∠OAP = 90°. Since AOB is a straight line, ∠AOP = 180° − 115° = 65°. In triangle AOP the angles sum to 180°, so ∠APO = 180° − 90° − 65° = 25°.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [
+    "ch10_q17.png"
+   ],
+   "figure_required": true,
+   "ocr": "The stem prints 'perimeter of ∠APO'; the options are angles and the solution finds ∠APO = 25°, so this is a misprint for 'measure of ∠APO'. Printed wording kept."
+  },
+  {
+   "number": "18",
+   "form": "mcq",
+   "marks": 1,
+   "page": 6,
+   "stem": "From an external point P, tangents PA and PB are drawn to a circle with centre O. If CD is the tangent to the circle at a point E and PA = 14 cm. The perimeter of ΔPCD is",
+   "options": [
+    {
+     "label": "A",
+     "text": "14 cm"
+    },
+    {
+     "label": "B",
+     "text": "21 cm"
+    },
+    {
+     "label": "C",
+     "text": "28 cm"
+    },
+    {
+     "label": "D",
+     "text": "35 cm"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Tangents from an external point are equal, so PA = PB = 14 cm, CA = CE from C and DB = DE from D. The perimeter of ΔPCD is PC + CD + PD = PC + CE + ED + PD = PC + CA + PD + DB = PA + PB = 14 + 14 = 28 cm.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "19",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "stem": "In the given figure, two tangents AB and AC are drawn to a circle with centre O such that ∠BAC = 120°, then OA is equal to that",
+   "options": [
+    {
+     "label": "A",
+     "text": "2AB"
+    },
+    {
+     "label": "B",
+     "text": "3AB"
+    },
+    {
+     "label": "C",
+     "text": "4AB"
+    },
+    {
+     "label": "D",
+     "text": "5AB"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "In triangles OAB and OAC, ∠OBA = ∠OCA = 90° because a radius meets a tangent at right angles, OA is common and OB = OC are radii, so the triangles are congruent by RHS. Hence OA bisects ∠BAC, giving ∠OAB = ½ × 120° = 60°. In right triangle OBA, cos 60° = AB/OA, so ½ = AB/OA and OA = 2AB.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [
+    "ch10_q19.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "20",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "stem": "In the given figure, three circles with centres P, Q and R are drawn, such that the circles with centres Q and R touch each other externally and they touch the circle with centre P, internally. If PQ = 10 cm, PR = 8 cm and QR = 12 cm, then the diameter of the largest circle is:",
+   "options": [
+    {
+     "label": "A",
+     "text": "30 cm"
+    },
+    {
+     "label": "B",
+     "text": "20 cm"
+    },
+    {
+     "label": "C",
+     "text": "10 cm"
+    },
+    {
+     "label": "D",
+     "text": "None of these"
+    }
+   ],
+   "correct_option": "A",
+   "answer": "Let the radii be p, q and r. Internal contact gives PQ = p − q = 10 and PR = p − r = 8; external contact gives QR = q + r = 12. Adding the second and third, p + q = 20. Adding this to the first, 2p = 30, so the diameter of the largest circle is 2p = 30 cm.",
+   "concept": "Tangent as one common point",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [
+    "ch10_q20.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "21",
+   "form": "mcq",
+   "marks": 1,
+   "page": 7,
+   "stem": "If radii of two concentric circles are 4 cm and 5 cm, then the length of each of one circle which is tangent to the other circle, is",
+   "options": [
+    {
+     "label": "A",
+     "text": "3 cm"
+    },
+    {
+     "label": "B",
+     "text": "6 cm"
+    },
+    {
+     "label": "C",
+     "text": "9 cm"
+    },
+    {
+     "label": "D",
+     "text": "1 cm"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Let C be the common centre, with r₁ = 4 cm and r₂ = 5 cm, and let AB be the chord of the larger circle touching the smaller circle at P. Then CP ⊥ AB, so in right triangle PAC, AP² = AC² − PC² = 5² − 4² = 25 − 16 = 9, giving AP = 3 cm. The chord AB = 2AP = 6 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The stem as printed reads 'the length of each of one circle', with the word 'chord' dropped; the solution finds the length of the chord of the larger circle. Printed wording kept."
+  },
+  {
+   "number": "22",
+   "form": "mcq",
+   "marks": 1,
+   "page": 8,
+   "stem": "In figure, if ∠AOB = 125°, then ∠COD is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "62.5°"
+    },
+    {
+     "label": "B",
+     "text": "45°"
+    },
+    {
+     "label": "C",
+     "text": "35°"
+    },
+    {
+     "label": "D",
+     "text": "55°"
+    }
+   ],
+   "correct_option": "D",
+   "answer": "A quadrilateral circumscribing a circle subtends supplementary angles at the centre for opposite sides, so ∠AOB + ∠COD = 180°. Hence ∠COD = 180° − 125° = 55°.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [
+    "ch10_q22.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "23",
+   "form": "mcq",
+   "marks": 1,
+   "page": 8,
+   "stem": "In figure, AT is a tangent to the circle with centre O such that OT = 4 cm and ∠OTA = 30°. Then, AT is equal to",
+   "options": [
+    {
+     "label": "A",
+     "text": "4 cm"
+    },
+    {
+     "label": "B",
+     "text": "2 cm"
+    },
+    {
+     "label": "C",
+     "text": "2√3 cm"
+    },
+    {
+     "label": "D",
+     "text": "4√3 cm"
+    }
+   ],
+   "correct_option": "C",
+   "answer": "Join OA. The tangent AT is perpendicular to the radius OA, so ∠OAT = 90°. In right triangle OAT, cos 30° = AT/OT, so AT/4 = √3/2 and AT = 2√3 cm.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [
+    "ch10_q23.png"
+   ],
+   "figure_required": true,
+   "ocr": ""
+  },
+  {
+   "number": "24",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 8,
+   "stem": "Assertion (A): The tangents drawn at the end points of a diameter of a circle, are parallel. Reason (R): Diameter of a circle is the longest chord.",
+   "assertion": "The tangents drawn at the end points of a diameter of a circle, are parallel.",
+   "reason": "Diameter of a circle is the longest chord.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both, Assertion (A) and Reason (R) are true and Reason (R) is correct explanation of Assertion (A)"
+    },
+    {
+     "label": "B",
+     "text": "Both, Assertion (A) and Reason (R) are true but Reason (R) is not correct explanation for Assertion (A)"
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but Reason (R) is false"
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but Reason (R) is true"
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Both statements are true: the tangents at the two ends of a diameter are each perpendicular to that diameter, so they are parallel to one another, and the diameter is indeed the longest chord. But the length of the chord has nothing to do with why the tangents are parallel, so the reason is not the correct explanation of the assertion.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS | Board 2024 OD Standard",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "25",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "stem": "Assertion (A): If in a circle, the radius of the circle is 3 cm and distance of a point from the centre of a circle is 5 cm, then length of the tangent will be 4 cm. Reason (R): (hypotenuse)² = (base)² + (height)²",
+   "assertion": "If in a circle, the radius of the circle is 3 cm and distance of a point from the centre of a circle is 5 cm, then length of the tangent will be 4 cm.",
+   "reason": "(hypotenuse)² = (base)² + (height)²",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The radius meets the tangent at right angles, so OA² = AB² + OB², i.e. 5² = AB² + 3², giving AB = √(25 − 9) = 4 cm. The assertion is true, and the Pythagoras relation stated in the reason is exactly the step that produces it, so the reason is the correct explanation.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "26",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "stem": "Assertion (A): PA and PB are two tangents to a circle with centre O. Such that ∠AOB = 110°, then ∠APB = 90°. Reason (R): The length of two tangents drawn from an external point are equal.",
+   "assertion": "PA and PB are two tangents to a circle with centre O. Such that ∠AOB = 110°, then ∠APB = 90°.",
+   "reason": "The length of two tangents drawn from an external point are equal.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "D",
+   "answer": "The radii OA and OB are perpendicular to the tangents, so in quadrilateral OAPB, 90° + ∠APB + 90° + 110° = 360°, giving ∠APB = 70°, not 90°. The assertion is therefore false. The reason, that two tangents from an external point are equal in length, is a true statement.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "27",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 9,
+   "stem": "Assertion (A): The two tangents are drawn to a circle from an external point, then they subtend equal angles at the centre. Reason (R): A parallelogram circumscribing a circle is a rhombus.",
+   "assertion": "The two tangents are drawn to a circle from an external point, then they subtend equal angles at the centre.",
+   "reason": "A parallelogram circumscribing a circle is a rhombus.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Two tangents from an external point do subtend equal angles at the centre, so the assertion is true. It is also true that a parallelogram circumscribing a circle must be a rhombus. The two statements are independent of one another, so the reason does not explain the assertion.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": ""
+  },
+  {
+   "number": "28",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 10,
+   "stem": "Assertion (A): If in a circle, the radius of the circle is 3 cm and distance of a point from the centre of a circle is 5 cm, then length of the tangent will be 4 cm. Reason (R): (hypotenuse)² = (base)² + (height)²",
+   "assertion": "If in a circle, the radius of the circle is 3 cm and distance of a point from the centre of a circle is 5 cm, then length of the tangent will be 4 cm.",
+   "reason": "(hypotenuse)² = (base)² + (height)²",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "A",
+   "answer": "The tangent is perpendicular to the radius at the point of contact, so OA² = AB² + OB², i.e. 5² = AB² + 3², giving AB = √(25 − 9) = 4 cm. The assertion is true and the Pythagoras relation in the reason is the step that establishes it, so the reason is the correct explanation.",
+   "concept": "Tangent is perpendicular to the radius",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Verbatim reprint of question 25 - same assertion, reason and key; the book prints it twice under different numbers."
+  },
+  {
+   "number": "29",
+   "form": "assertion_reason",
+   "marks": 1,
+   "page": 10,
+   "stem": "Assertion (A): The two tangents are drawn to a circle from an external point, then they subtend equal angles at the centre. Reason (R): A parallelogram circumscribing a circle is a rhombus.",
+   "assertion": "The two tangents are drawn to a circle from an external point, then they subtend equal angles at the centre.",
+   "reason": "A parallelogram circumscribing a circle is a rhombus.",
+   "options": [
+    {
+     "label": "A",
+     "text": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)."
+    },
+    {
+     "label": "B",
+     "text": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)."
+    },
+    {
+     "label": "C",
+     "text": "Assertion (A) is true but reason (R) is false."
+    },
+    {
+     "label": "D",
+     "text": "Assertion (A) is false but reason (R) is true."
+    }
+   ],
+   "correct_option": "B",
+   "answer": "Two tangents drawn from an external point subtend equal angles at the centre, so the assertion is true. A parallelogram that circumscribes a circle is a rhombus, so the reason is also true. Neither statement follows from the other, so the reason is not the correct explanation of the assertion.",
+   "concept": "Two equal tangents from an exterior point",
+   "section_heading": "OBJECTIVE QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Verbatim reprint of question 27 - same assertion, reason and key; the book prints it twice under different numbers."
+  }
+ ]
+}

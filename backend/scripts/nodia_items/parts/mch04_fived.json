@@ -1,0 +1,162 @@
+{
+ "items": [
+  {
+   "number": "183",
+   "form": "long",
+   "marks": 5,
+   "page": 51,
+   "stem": "Drama Ticket : Last year, 300 people attended the Ravindra Manch Drama Club's winter play. The ticket price was Rs 70. The advisor estimates that 20 fewer people would attend for each Rs 10 increase in ticket price.\n(i) What ticket price would give the most income for the Drama Club?\n(ii) If the Drama Club raised its tickets to this price, how much income should it expect to bring in?",
+   "answer": "Let x be the number of Rs 10 fare increases. The price per ticket is then (70 + 10x) and the number of people attending is (300 − 20x). Income is I(x) = (300 − 20x)(70 + 10x) = 20(15 − x)·10(7 + x) = 200(105 + 8x − x²) = −200(x² − 8x − 105). Completing the square, x² − 8x − 105 = (x − 4)² − 121, so I(x) = −200(x − 4)² + 24200. Since −200(x − 4)² ≤ 0, the income is greatest at x = 4 and the greatest income is Rs 24200. Hence the club should make 4 increases of Rs 10, i.e. charge 70 + 4 × 10 = Rs 110 per ticket, and can expect an income of Rs 24200.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem printed on the page file p051 (book PAGE 181, which the renderer placed out of order after p050); the worked solution is in the right column of the same page. The theatre illustration is decorative, so no figure is attached."
+  },
+  {
+   "number": "184",
+   "form": "long",
+   "marks": 5,
+   "page": 51,
+   "stem": "A biologist predicts that the deer population, P(n), in a certain national park can be modelled by P(n) = 8n² − 112n + 570, where n is the number of years since 1999.\n(i) According to this model, how many deer were in the park in 1999?\n(ii) In which year was the deer population a minimum?\n(iii) How many deer were in the park when their population was a minimum?\n(iv) Will the deer population ever reach zero, according to this model?",
+   "answer": "(i) The year 1999 corresponds to n = 0, so P(0) = 0 − 0 + 570 = 570 deer.\n(ii) Complete the square: P(n) = 8(n² − 14n) + 570 = 8(n² − 14n + 49) − 8 × 49 + 570 = 8(n − 7)² + 178. The square term is least when n = 7, so the population was a minimum 7 years after 1999, that is in 1999 + 7 = 2006.\n(iii) The minimum value of P(n) is 178, so 178 deer.\n(iv) Since 8(n − 7)² ≥ 0, P(n) ≥ 178 > 0 for every n, so the population never reaches zero under this model.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem on page file p051 (book PAGE 181); the solution runs over onto page file p046 (book PAGE 182). The deer photograph is decorative."
+  },
+  {
+   "number": "185",
+   "form": "long",
+   "marks": 5,
+   "page": 46,
+   "stem": "A piece of wire is 120 cm long. The wire is cut into two pieces and then each piece is bent into a square. Find the length of each piece if the sum of the areas of these squares is to be 500 square cm.",
+   "answer": "Let one piece be x cm long, so the other is (120 − x) cm. Bent into squares their sides are x/4 and (120 − x)/4, so the sum of the areas is (x/4)² + ((120 − x)/4)² = 500, i.e. x² + (120 − x)² = 8000. Expanding, x² + 14400 + x² − 240x = 8000, so 2x² − 240x + 6400 = 0, i.e. x² − 120x + 3200 = 0. Splitting the middle term, x² − 80x − 40x + 3200 = 0, x(x − 80) − 40(x − 80) = 0, (x − 40)(x − 80) = 0, so x = 40 or x = 80. If x = 40 cm the other piece is 80 cm, and if x = 80 cm the other piece is 40 cm — the same pair either way. Hence the two pieces are 40 cm and 80 cm.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed sketch of the two squares and the 120 cm wire only illustrates wording already in the stem, so it is not attached."
+  },
+  {
+   "number": "186",
+   "form": "long",
+   "marks": 5,
+   "page": 46,
+   "stem": "TRANSPORTATION : Amazon delivery truck leaves main Delhi Amazon warehouse and travels south to warehouse A. From warehouse A the truck travels west to warehouse B and then returns directly to the main Delhi warehouse (It makes right triangle.).\nThe driver recorded the truck's odometer reading at the warehouse at both the beginning and the end of the trip and also at warehouse B, but forgot to record it at warehouse A (odometer reading given).\nThe driver does recall that it was farther from the main Delhi warehouse to warehouse A than it was from warehouse A to warehouse B. Because delivery charges are based on distance from the warehouse, the driver needs to know how far warehouse A is from the main Delhi warehouse. Find this distance.",
+   "answer": "Let x km be the distance from the main warehouse to warehouse A. From the odometer, the distance from the main warehouse to warehouse B via warehouse A is 652937 − 652846 = 91 km, so the distance from A to B is (91 − x) km. The return leg B to the main warehouse is 653002 − 652937 = 65 km, and it is the hypotenuse of the right triangle. By Pythagoras, x² + (91 − x)² = 65², so x² + 8281 + x² − 182x = 4225, giving 2x² − 182x + 4056 = 0, i.e. x² − 91x + 2028 = 0. Splitting the middle term, x² − 52x − 39x + 2028 = 0, x(x − 52) − 39(x − 52) = 0, (x − 52)(x − 39) = 0, so x = 52 or x = 39. Since the main warehouse to A is farther than A to B, we need x > 91 − x, so x = 52. The distance from the main Delhi warehouse to warehouse A is 52 km.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch04_q186.png"
+   ],
+   "figure_required": true,
+   "ocr": "The odometer panel is attached because the four readings (MAIN 0652846, A unreadable, B 0652937, MAIN 0653002) are printed only in that picture and the question cannot be done without them. The right triangle labelled Main/A/B further down the page belongs to the worked solution, so it is deliberately not attached."
+  },
+  {
+   "number": "187",
+   "form": "long",
+   "marks": 5,
+   "page": 47,
+   "stem": "Braking Distance : The distance that a car travels between the time the driver makes the decision to hit the brakes and the time the car actually stops is called the braking distance. For a certain car traveling v, the braking distance d is given by d = v + (1/20)v².\n(i) Find the braking distance when v is 50 km/h.\n(ii) If a driver decides to brake 120 metre from a stop sign, how fast can the car be going and still stop by the time it reaches the sign?",
+   "answer": "(i) Substituting v = 50 in d = v + (1/20)v² gives d = 50 + (1/20) × 50² = 50 + 125 = 175 m.\n(ii) Now put d = 120 and solve for v: 120 = v + (1/20)v², so 2400 = 20v + v², i.e. v² + 20v − 2400 = 0. Splitting the middle term, v² + 60v − 40v − 2400 = 0, v(v + 60) − 40(v + 60) = 0, (v + 60)(v − 40) = 0, so v = 40 or v = −60. A speed cannot be negative, so v = 40 km/h. The car can be travelling at 40 km/h and still stop in 120 m.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed factorisation line reads 'v(v + 60) − 40(v − 60) = 0'; the second bracket is a misprint for (v + 60), and the book's own next line (v + 60)(v − 40) = 0 and its roots 40, −60 are correct, so the solution is reproduced with the sign corrected. Not counted as a key contradiction because the printed answer and the solution agree. The photograph of the braking car is decorative."
+  },
+  {
+   "number": "188",
+   "form": "long",
+   "marks": 5,
+   "page": 47,
+   "stem": "Quantity Discount : Peter Paris Co. sells running trousers to dealers for Rs 400 per trouser if less than 50 trousers are ordered. If 50 or more trousers are ordered (up to 400), the price per trouser is reduced at a rate of Rs 0.4 times the number ordered. How many trousers can a dealer purchase for Rs 84000?",
+   "answer": "Let the dealer buy x trousers, with 50 ≤ x ≤ 400. The price of one trouser is then (400 − 0.4x), so the bill is x(400 − 0.4x) = 84000. Expanding, 400x − 0.4x² = 84000, i.e. 0.4x² − 400x + 84000 = 0, and dividing by 0.4, x² − 1000x + 210000 = 0. Splitting the middle term, x² − 300x − 700x + 210000 = 0, x(x − 300) − 700(x − 300) = 0, (x − 300)(x − 700) = 0, so x = 300 or x = 700. The discount holds only up to 400 trousers, so x = 700 is rejected. The dealer can purchase 300 trousers.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem on page file p047, solution finishing on p048. The workshop photograph is decorative."
+  },
+  {
+   "number": "189",
+   "form": "long",
+   "marks": 5,
+   "page": 48,
+   "stem": "Riya has a lawn with a flowerbed and grass land. The grass land is in the shape of rectangle while flowerbed is in the shape of square. The length of the grassland is found to be 3 m more than twice the length of the flowerbed. Total area of the whole lawn is 1260 m².\n(i) If the length of the flowerbed is x m then what is the total length of the lawn ?\n(ii) What will be the perimeter of the whole field?\n(iii) What is the value of x if the area of total lawn is 1260 m² ?\n(iv) What is the area of grassland ?\n(v) What is the ratio of area of flowerbed to area of grassland ?",
+   "answer": "(i) The flowerbed is a square of side x, and the grassland is 3 m more than twice that, i.e. 2x + 3 m long. Laid side by side, the total length of the lawn is (2x + 3) + x = (3x + 3) m, while the common breadth is x m.\n(ii) Perimeter = 2[(3x + 3) + x] = 2(4x + 3) = (8x + 6) m.\n(iii) Area = (3x + 3)x = 1260, so 3x² + 3x = 1260, x² + x = 420, x² + x − 420 = 0, (x + 21)(x − 20) = 0. A length cannot be negative, so x = 20 m.\n(iv) Area of grassland = (2x + 3)x = (2 × 20 + 3)(20) = 43 × 20 = 860 m².\n(v) Area of flowerbed = x² = 20² = 400 m², so the required ratio is 400 : 860 = 20 : 43.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The picture of grass beside a flowerbed only repeats the wording of the stem, so no figure is attached. Solution part (v) runs over onto page file p048's right column top."
+  },
+  {
+   "number": "190",
+   "form": "long",
+   "marks": 5,
+   "page": 48,
+   "stem": "John and Priya went for a small picnic. After having their lunch Priya insisted to travel in a motor boat. The speed of the motor boat was 20 km/hr. Priya being a Mathematics student wanted to know the speed of the current. So she noted the time for upstream and downstream.\nShe found that for covering the distance of 15 km the boat took 1 hour more for upstream than downstream.\n(i) Let speed of the current be x km/hr. then speed of the motorboat in upstream will be\n(ii) What is the relation between speed distance and time?\n(iii) Write the correct quadratic equation for the speed of the current ?\n(iv) What is the speed of current ?\n(v) How much time boat took in downstream ?",
+   "answer": "(i) Going upstream the current opposes the boat, so the upstream speed is (20 − x) km/hr (and downstream it is (20 + x) km/hr).\n(ii) Distance = speed × time, so time = distance ÷ speed.\n(iii) The upstream time exceeds the downstream time by 1 hour: 15/(20 − x) = 15/(20 + x) + 1. Multiplying by (20 − x)(20 + x): 15(20 + x) = 15(20 − x) + (400 − x²), so 300 + 15x = 300 − 15x + 400 − x², giving 30x = 400 − x², i.e. x² + 30x − 400 = 0.\n(iv) x² + 40x − 10x − 400 = 0, x(x + 40) − 10(x + 40) = 0, (x + 40)(x − 10) = 0, so x = 10 or x = −40. A speed cannot be negative, so the current flows at 10 km/hr.\n(v) Downstream speed = 20 + 10 = 30 km/hr, so the 15 km downstream takes 15/30 = 1/2 hour, i.e. 30 minutes.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book's part (ii) is printed as 'distance = (speed )/time', a misprint for distance = speed × time; the rest of its own working uses time = distance/speed, so the correct relation is given here. Not counted as a key contradiction. Stem and parts (i)-(iii) on page file p048, solution finishing on p049. The cartoon of the motor boat is decorative."
+  },
+  {
+   "number": "191",
+   "form": "long",
+   "marks": 5,
+   "page": 49,
+   "stem": "Nidhi and Ria are very close friends. Nidhi's parents own a Maruti Alto. Ria's parents own a Toyota Liva. Both the families decide to go for a picnic to Somnath temple in Gujrat by their own cars.\nNidhi's car travels x km/h while Ria's car travels 5 km/h more than Nidhi's car. Nidhi's car took 4 hrs more than Ria's car in covering 400 km.\n(i) What will be the distance covered by Ria's car in two hour?\n(ii) Write the quadratic equation that describe the speed of Nidhi's car?\n(iii) What is the the speed of Nidhi's car?\n(iv) How much time did Ria take to travel 400 km?\n(iv) How much time did Nidhi take to travel 400 km?",
+   "answer": "(i) Ria's car travels at (x + 5) km/h, so in two hours it covers 2(x + 5) km; once x is found to be 20, that is 2 × 25 = 50 km.\n(ii) Nidhi's time for 400 km is 400/x hours and Ria's is 400/(x + 5) hours, and Nidhi takes 4 hours longer: 400/x = 400/(x + 5) + 4. Multiplying by x(x + 5), 400(x + 5) = 400x + 4x(x + 5), so 2000 = 4x² + 20x, i.e. 500 = x² + 5x, giving x² + 5x − 500 = 0.\n(iii) x² + 25x − 20x − 500 = 0, x(x + 25) − 20(x + 25) = 0, (x + 25)(x − 20) = 0, so x = 20 or x = −25. A speed cannot be negative, so Nidhi's car travels at 20 km/h.\n(iv) Ria's speed is 20 + 5 = 25 km/h, so she takes 400/25 = 16 hours.\n(v) Nidhi takes 4 hours more, i.e. 16 + 4 = 20 hours.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints the label '(iv)' twice — on the fourth and fifth sub-parts; kept exactly as printed in the stem, and answered as (iv) and (v). The road photograph is decorative."
+  },
+  {
+   "number": "192",
+   "form": "long",
+   "marks": 5,
+   "page": 49,
+   "stem": "Optimal Pricing Strategy : The director of the National School of Drama must decide what to charge for a ticket to the comedy drama. If the price is set too low, the theatre will lose money; and if the price is too high, people won't come. From past experience she estimates that the profit P from sales (in hundreds) can be approximated by P(x) = −x² + 22x − 40 where x is the cost of a ticket and 0 ≤ x ≤ 25 hundred rupees.\n(i) What is the lowest cost of a ticket that would allow the theatre to break even?\n(ii) What is the highest cost that the theatre can charge to break even?\n(iii) If theatre charge Rs 4 hundred for each ticket, what is the profit/loss ?\n(iv) If theatre charge Rs 25 hundred for each ticket, what is the profit/loss ?\n(v) What is the maximum profit which can be earned by theatre ?",
+   "answer": "Break even means P(x) = 0: −x² + 22x − 40 = 0, i.e. x² − 22x + 40 = 0, (x − 2)(x − 20) = 0, so x = 2 or x = 20.\n(i) The lowest break-even ticket cost is Rs 2 hundred.\n(ii) The highest break-even ticket cost is Rs 20 hundred.\n(iii) At x = 4, P(4) = −(4)² + 22 × 4 − 40 = −16 + 88 − 40 = 32, a profit of 32 hundred.\n(iv) At x = 25, P(25) = −(25)² + 22 × 25 − 40 = −625 + 550 − 40 = −115, that is a loss of 115 hundred.\n(v) Completing the square, P(x) = −(x² − 22x + 121 − 81) = −(x − 11)² + 81, so the profit is greatest when x = 11 and the maximum profit is 81 hundred.",
+   "concept": "Quadratics in daily life",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book labels the substitutions wrongly — it writes 'P(2)' for the value at x = 4 and 'P(5)' for the value at x = 25 — but the arithmetic it performs is at x = 4 and x = 25 and the results 32 and −115 are right, so the labels are corrected here. Not counted as a key contradiction. Stem on page file p049, solution finishing on p050. The stage photograph is decorative."
+  },
+  {
+   "number": "193",
+   "form": "long",
+   "marks": 5,
+   "page": 50,
+   "stem": "Auditorium, the part of a public building where an audience sits, as distinct from the stage, the area on which the performance or other object of the audience's attention is presented. In a large theatre an auditorium includes a number of floor levels frequently designed as stalls, private boxes, dress circle, balcony or upper circle, and gallery. A sloping floor allows the seats to be arranged to give a clear view of the stage. The walls and ceiling usually contain concealed light and sound equipment and air extracts or inlets and may be highly decorated.\nIn an auditorium, seats are arranged in rows and columns. The number of rows are equal to the number of seats in each row. When the number of rows are doubled and the number of seats in each row is reduced by 10, the total number of seats increases by 300.\n(i) If x is taken as number of row in original arrangement, write the quadratic equation that describes the situation ?\n(ii) How many number of rows are there in the original arrangement?\n(iii) How many number of seats are there in the auditorium in original arrangement ?\n(iv) How many number of seats are there in the auditorium after re-arrangement.\n(v) How many number of columns are there in the auditorium after re-arrangement?",
+   "answer": "(i) Originally the number of rows equals the number of seats in a row, so with x rows the total is x² seats. After the change there are 2x rows with (x − 10) seats each, giving 2x(x − 10) seats, and this is 300 more than before: 2x(x − 10) = x² + 300, so 2x² − 20x = x² + 300, i.e. x² − 20x − 300 = 0.\n(ii) x² − 30x + 10x − 300 = 0, x(x − 30) + 10(x − 30) = 0, (x − 30)(x + 10) = 0, so x = 30 or x = −10. A count cannot be negative, so there are 30 rows originally.\n(iii) Original number of seats = x² = 30² = 900.\n(iv) After re-arrangement the seats are 900 + 300 = 1200.\n(v) The rows are now 2 × 30 = 60, so the number of columns is 1200 ÷ 60 = 20.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The auditorium photograph is decorative."
+  },
+  {
+   "number": "194",
+   "form": "long",
+   "marks": 5,
+   "page": 50,
+   "stem": "Raju and his classmates planned a picnic in zoo. The total budget for picnic was Rs 2000 but 5 students failed to attend the picnic and thus the contribution for each student was increased by Rs 20.\nThe expanse of different item was as follows.\n<table><tr><th>S. No.</th><th>Article</th><th>Cost per student</th></tr><tr><td>1</td><td>Entry ticket</td><td>Rs 5</td></tr><tr><td>2</td><td>Coffee</td><td>Rs 10</td></tr><tr><td>3</td><td>Food</td><td>Rs 25</td></tr><tr><td>4</td><td>Travelling cost</td><td>Rs 50</td></tr><tr><td>5</td><td>Ice-cream</td><td>Rs 15</td></tr></table>\n(i) If x is the number of students planned for picnic, find the quadratic equation that describe the situation.\n(ii) What is the number of students planned for picnic ?\n(iii) What is the number of students who attended the picnic?\n(iv) What is the total expanse for this picnic ?\n(v) How much money they spent for travelling ?",
+   "answer": "(i) With x students planned, each would pay 2000/x; with (x − 5) students actually going each pays 2000/(x − 5), which is Rs 20 more: 2000/x + 20 = 2000/(x − 5). Multiplying by x(x − 5), 2000(x − 5) + 20x(x − 5) = 2000x, so 20x² − 100x − 10000 = 0, and dividing by 20, x² − 5x − 500 = 0.\n(ii) x² − 25x + 20x − 500 = 0, x(x − 25) + 20(x − 25) = 0, (x − 25)(x + 20) = 0, so x = 25 or x = −20. A count cannot be negative, so 25 students were planned.\n(iii) Five failed to attend, so 25 − 5 = 20 students attended.\n(iv) Expense per student = 5 + 10 + 25 + 50 + 15 = Rs 105, so the total expense = 105 × 20 = Rs 2100.\n(v) Travelling cost = 50 × 20 = Rs 1000.",
+   "concept": "Framing an equation from a word problem",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins on page file p050 (book PAGE 186); the cost table, the sub-parts (i)-(v) and the whole solution are on page file p052 (book PAGE 187). The table is reproduced as HTML. The zoo photograph is decorative."
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "items": [
+  {
+   "number": "113",
+   "form": "short",
+   "marks": 3,
+   "page": 49,
+   "stem": "Two unbiased coins are tossed simultaneously. Find the probability of getting :\n(i) at least one head,\n(ii) almost one head,\n(iii) no head.",
+   "answer": "Two unbiased coins give the sample space S = {HH, HT, TH, TT}, so n(S) = 4.\n(i) At least one head occurs for {HH, HT, TH}, so n(E₁) = 3 and P(E₁) = 3/4.\n(ii) At most one head occurs for {HT, TH, TT}, so n(E₂) = 3 and P(E₂) = 3/4.\n(iii) No head occurs only for {TT}, so n(E₃) = 1 and P(E₃) = 1/4.",
+   "concept": "An unbiased coin",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 2012, 2014",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The book prints \"almost one head\" where it means at most one head. Its worked solution then lists the favourable set for (ii) as {HT, TH, HH}, which is the set for (i); the correct set is {HT, TH, TT}. The count 3 and the printed value 3/4 are unaffected, so only the listing is corrected here. Page 49 is bound out of order at the very end of the chapter: its text runs on from page 19 (which ends at question 112) into page 20 (which opens mid-solution of question 115 and then prints question 116), so this question belongs to THREE MARKS QUESTIONS, not to the FIVE MARKS range this reader was assigned."
+  },
+  {
+   "number": "114",
+   "form": "short",
+   "marks": 3,
+   "page": 49,
+   "stem": "Three different coins are tossed together. Find the probability of getting\n(i) exactly two heads.\n(ii) at least two heads\n(iii) at least two tails.",
+   "answer": "Three coins give S = {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}, so n(S) = 8.\n(i) Exactly two heads: {HHT, HTH, THH}, so n(E₁) = 3 and P(E₁) = 3/8.\n(ii) At least two heads: {HHT, HTH, THH, HHH}, so n(E₂) = 4 and P(E₂) = 4/8 = 1/2.\n(iii) At least two tails: {TTH, THT, HTT, TTT}, so n(E₃) = 4 and P(E₃) = 4/8 = 1/2.",
+   "concept": "An unbiased coin",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 OD 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "On page 49, a page bound out of order at the end of the chapter; by its running text it sits between pages 19 and 20 and is governed by the THREE MARKS QUESTIONS heading."
+  },
+  {
+   "number": "115",
+   "form": "short",
+   "marks": 3,
+   "page": 49,
+   "stem": "In a single throw of a pair of different dice, what is the probability of getting\n(i) a prime number on each dice ?\n(ii) a total of 9 or 11 ?",
+   "answer": "A pair of different dice gives n(S) = 6 × 6 = 36 equally likely outcomes.\n(i) A prime on each die means both show 2, 3 or 5: (2, 2), (2, 3), (2, 5), (3, 2), (3, 3), (3, 5), (5, 2), (5, 3), (5, 5) — 9 outcomes. So P(E₁) = 9/36 = 1/4.\n(ii) A total of 9 comes from (3, 6), (4, 5), (5, 4), (6, 3); a total of 11 from (5, 6), (6, 5) — 6 outcomes in all. So P(E₂) = 6/36 = 1/6.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "THREE MARKS QUESTIONS | Board Term-2 Delhi 2016",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Page 49 breaks off part-way through part (ii) of this solution, listing only (3, 6) (4, 5) (5, 4) (6, 3); the tail — (5, 6) and (6, 5), 6 outcomes, 6/36 = 1/6 — is completed from page 20, which is where this out-of-order page continues. The question belongs to THREE MARKS QUESTIONS."
+  },
+  {
+   "number": "173",
+   "form": "long",
+   "marks": 5,
+   "page": 43,
+   "stem": "Deepika Kumari is an Indian athlete who competes in the event of archery, is currently ranked World No. 9, and is a former world number one. She won a gold medal in the 2010 Commonwealth games in the women's individual recurve event. She also won a gold medal in the same competition in the women's team recurve event along with Dola Banerjee and Bombayala Devi. Kumari qualified for the 2012 Summer Olympics in London, where she competed in the Women's Individual and Women's team events, finishing in eighth place in the latter.\nDeepika can hit the rectangular target shown 100% of the time at a range of 80 m. Assuming the probability the target is hit is related to its area, answer the following.\n(i) What is the probability the Deepika hits within the triangle ?\n(ii) What is the probability the Deepika hits within the circle ?\n(iii) What is the probability the Deepika hits within the circle but outside the triangle ?\n(iv) What is the probability the Deepika hits within the rectangle but outside the circle ?",
+   "answer": "Deepika hits the rectangular target every time, so the rectangle is the sample space: n(S) = 90 × 70 = 6300 cm².\n(i) The shaded triangle has base 70 cm and height 35 cm, so its area is ½ × 70 × 35 = 1225 cm². P(E₁) = 1225/6300 = 7/36.\n(ii) The circle has radius 35 cm, so its area is π × 35² = (22/7) × 35 × 35 = 3850 cm². P(E₂) = 3850/6300 = 11/18.\n(iii) Inside the circle but outside the triangle is 3850 − 1225 = 2625 cm². P(E₃) = 2625/6300 = 5/12.\n(iv) Inside the rectangle but outside the circle is 6300 − 3850 = 2450 cm². P(E₄) = 2450/6300 = 7/18 — which is also 1 − P(E₂) = 1 − 11/18, since this event is the complement of (ii).\nSo the four probabilities are 7/36, 11/18, 5/12 and 7/18.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch14_q173.png"
+   ],
+   "figure_required": true,
+   "ocr": "The printed solution slips once in part (iii): it writes 3850 − 1225 = 2626 cm² and then substitutes 2625 on the very next line, where 2625/6300 = 5/12. 2625 is the correct difference and is what the printed fraction uses, so the solution's own value is followed. No board tag is printed. The dimensions 90 cm and 70 cm and the inscribed circle and triangle are given only by the diagram, which is printed above the Sol: line, in the question — so it is attached. The question is printed under the FIVE MARKS QUESTIONS heading even though it reads like a case study; this chapter prints no separate case-based heading anywhere."
+  },
+  {
+   "number": "174",
+   "form": "long",
+   "marks": 5,
+   "page": 44,
+   "stem": "Remdesivir was the first drug approved by the FDA for treating the SARS-CoV-2 virus. It is indicated for treatment of COVID-19 disease in hospitalized adults and children aged 12 years and older who weigh at least 40 kg.\nIn a medical experiment, a Remdesivir is found to help 2,400 out of 4,000 people. If a doctor prescribes the Remdesivir for a particular patient, what is the approximate empirical probability that the patient will be helped?",
+   "answer": "The trial covered 4000 people, so the sample space is n(S) = 4000. Let E be the event that Remdesivir helps the patient; it helped 2400 of them, so n(E) = 2400.\nP(E) = n(E)/n(S) = 2400/4000 = 6/10 = 0.6.\nThe approximate empirical probability that the patient will be helped is 0.6.",
+   "concept": "Why empirical probability is limited",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The photograph of a Remdesivir vial is decorative — every number the question needs is in the text — so no figure is attached. Stem begins in the left column of page 44 and completes in the right column. No board tag is printed."
+  },
+  {
+   "number": "175",
+   "form": "long",
+   "marks": 5,
+   "page": 44,
+   "stem": "Out of 460 times at bat, a baseball player gets 207 hits. What is the approximate empirical probability that the player will get a hit next time at bat?",
+   "answer": "The player went to bat 460 times, so n(S) = 460. Let E be the event that he gets a hit; he got 207, so n(E) = 207.\nP(E) = n(E)/n(S) = 207/460 = 0.45.\nThe approximate empirical probability that he gets a hit next time at bat is 0.45.",
+   "concept": "Why empirical probability is limited",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Stem begins at the foot of the right-hand column of page 44 and its worked solution runs on to page 45. The batter photograph is decorative, so no figure is attached. No board tag is printed."
+  },
+  {
+   "number": "176",
+   "form": "long",
+   "marks": 5,
+   "page": 45,
+   "stem": "In two dice game, the player take turns to roll both dice, they can roll as many times as they want in one turn. A player scores the sum of the two dice thrown and gradually reaches a higher score as they continue to roll. If a single number 1 is thrown on either die, the score for that whole turn is lost. Two dice are thrown simultaneously.\n(i) What is the probability of getting the sum as an even number ?\n(ii) What is the probability of getting the sum as a prime number ?\n(iii) What is the probability of getting the sum of atleast 10?\n(iv) What is the probability of getting a doublet of even number ?\n(v) What is the probability of getting a product of numbers greater than 16?",
+   "answer": "Two dice thrown together give n(S) = 6 × 6 = 36 equally likely ordered pairs.\n(i) An even sum (2, 4, 6, 8, 10 or 12) arises from 18 of the 36 pairs, so P(E₁) = 18/36 = 1/2.\n(ii) A prime sum (2, 3, 5, 7 or 11) arises from (1,1), (1,2), (2,1), (1,4), (4,1), (2,3), (3,2), (1,6), (6,1), (2,5), (5,2), (3,4), (4,3), (6,5), (5,6) — 15 pairs — so P(E₂) = 15/36 = 5/12.\n(iii) A sum of at least 10 arises from (4,6), (6,4), (5,5), (5,6), (6,5), (6,6) — 6 pairs — so P(E₃) = 6/36 = 1/6.\n(iv) A doublet of even numbers is (2,2), (4,4) or (6,6) — 3 pairs — so P(E₄) = 3/36 = 1/12.\n(v) A product greater than 16 arises from (3,6), (6,3), (4,5), (5,4), (4,6), (6,4), (5,5), (5,6), (6,5), (6,6) — 10 pairs — so P(E₅) = 10/36 = 5/18.",
+   "concept": "Equally likely outcomes of a die",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "The printed solution mislabels two counters: part (ii) is written n(E₁) = 15 and part (iv) n(E₃) = 3, where the context requires n(E₂) and n(E₄). The counts and every final fraction are correct. Stem begins on page 45 and the solution runs on to page 46. The photograph of two dice is decorative, so no figure is attached. No board tag is printed."
+  },
+  {
+   "number": "177",
+   "form": "long",
+   "marks": 5,
+   "page": 46,
+   "stem": "A survey was taken at a high school, and the results were put in a circle graph. The students were asked to list their favourite colours. The measurement of each central angle is shown. If a person is chosen at random from the school, find the probability of each response.\n(i) What is the probability of favourite colour being red ?\n(ii) What is the probability of favourite colour being blue or green ?\n(iii) What is the probability of favourite colour not being red or blue?\n(iv) What is the probability of favourite colour not being orange or green ?\n(v) What is the probability of favourite colour being red or blue?",
+   "answer": "On a circle graph the probability of a response is the central angle of its sector divided by 360°. The printed angles are red 36°, blue 72°, green 36°, orange 144° and yellow 72°, which add to 360°.\n(i) P(red) = 36°/360° = 1/10 = 0.1.\n(ii) P(blue or green) = (72° + 36°)/360° = 108°/360° = 3/10 = 0.3.\n(iii) P(not red or blue) = 1 − (36° + 72°)/360° = 1 − 3/10 = 0.7.\n(iv) P(not orange or green) = 1 − (144° + 36°)/360° = 1 − 180°/360° = 1 − 1/2 = 0.5.\n(v) P(red or blue) = 1 − P(not red or blue) = 1 − 0.7 = 0.3.",
+   "concept": "Using the complement",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch14_q177.png"
+   ],
+   "figure_required": true,
+   "ocr": "Two printing faults in the worked solution, neither of which changes the arithmetic: part (ii) ends \"= 3/10 = 0\", a truncated 0.3, and part (iv) closes with the stray line \"Thus (d) is correct option.\" left over from a multiple-choice version of the same item. The five central angles appear only on the circle graph, which is printed in the question above the sub-parts, so it is attached. Stem begins on page 46 and the solution runs on to page 46–47. No board tag is printed."
+  },
+  {
+   "number": "178",
+   "form": "long",
+   "marks": 5,
+   "page": 46,
+   "stem": "A game at a stall in new year carnival involves spinning a wheel first as a first step to complete the game with certain rules. If the wheel stops at a particular number, then the player is allowed to roll a 6 faced unbiased dice.\nRules of Game:\n(i) If the wheel stops at a particular number, then the player is allowed to roll a unbiased dice.\n(ii) If the wheel stops at any other number, player get to try again and only one extra try allowed.\n(iii) If player reach the next stage and roll a dice, he may get a prize depending on the number on dice.\n(i) What is the probability of getting an even number on the wheel?\n(ii) If getting an odd number on the wheel allows a player to roll the die, then what is the probability of his rolling the die ?\n(iii) If the player is allowed to roll the dice and getting a number greater than 4 entitles him to get prize, what is the probability of his winning the prize?\n(iv) If getting a square number on the wheel allows a player to roll the dice, then what is the probability of his rolling the dice ?\n(v) If the player is allowed to roll the die and getting a prime number on die entitles him to get prize, then what is the probability of his winning the prize?",
+   "answer": "The wheel carries the eight numbers 2, 3, 4, 5, 6, 7, 8, 9, so one spin has n(S) = 8 equally likely outcomes; one roll of the six-faced die has n(S) = 6.\n(i) Even numbers on the wheel are {2, 4, 6, 8}, so n(E) = 4 and P(E) = 4/8 = 1/2.\n(ii) Odd numbers on the wheel are {3, 5, 7, 9}, so n(E) = 4 and the probability he gets to roll the die is 4/8 = 1/2.\n(iii) On the die, the numbers greater than 4 are {5, 6}, so n(E) = 2 and P(E) = 2/6 = 1/3.\n(iv) Square numbers on the wheel are {4, 9}, so n(E) = 2 and P(E) = 2/8 = 1/4.\n(v) The primes on the die are {2, 3, 5}, so n(E) = 3 and P(E) = 3/6 = 1/2.",
+   "concept": "Definition of theoretical probability",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [
+    "ch14_q178.png"
+   ],
+   "figure_required": true,
+   "ocr": "The book numbers the third \"Rules of Game\" bullet (ii) a second time; it is renumbered (iii) here, as the sequence plainly requires. The eight numbers on the wheel (2, 3, 4, 5, 6, 7, 8, 9) are given only by the picture — no line of text lists them — so the wheel is attached as a figure; it is printed in the question, above the sub-parts. Stem begins on page 46 and the sub-parts and solution run on to page 47. No board tag is printed."
+  },
+  {
+   "number": "179",
+   "form": "long",
+   "marks": 5,
+   "page": 47,
+   "stem": "Five friends and one of their mother are having a picnic. The mother deicide to play card game. 17 cards numbered 1, 2, 3 ... 17 are put in a box and mixed thoroughly. The mother asks each boy to draw a card and after each draw she shows some magic tricks based on card number.\n(i) What is the probability of drawing an odd number card in the first draw by the first boy?\n(ii) Now in second draw, card drawn in first draw is replaced. What is the probability of drawing a prime number card by the second boy?\n(iii) If in second draw, boy got number 2 and the card is not replaced, what is the probability of drawing a card bearing a multiple of 3 greater than 5 by the third boy?\n(iv) If the card is replaced after the third draw, what is the probability of drawing a card bearing a number greater than 17 by the fourth boy ?\n(v) If the card is replaced after the fourth draw, what is the probability of drawing a card bearing a multiple of 3 or 7 by the fifth boy?",
+   "answer": "(i) All 17 cards are in the box, so n(S) = 17. The odd cards are {1, 3, 5, 7, 9, 11, 13, 15, 17}, so n(E) = 9 and P(E) = 9/17.\n(ii) The first card is put back, so again n(S) = 17. The primes are {2, 3, 5, 7, 11, 13, 17}, so n(E) = 7 and P(E) = 7/17.\n(iii) Card 2 is not replaced, leaving n(S) = 16. The multiples of 3 greater than 5 are {6, 9, 12, 15}, so n(E) = 4 and P(E) = 4/16 = 1/4.\n(iv) No card in the box bears a number greater than 17, so this is an impossible event: n(E) = 0 and P(E) = 0.\n(v) Sixteen cards remain, since card 2 was never put back. Among them the multiples of 3 or 7 are {3, 6, 7, 9, 12, 14, 15}, so n(E) = 7 and P(E) = 7/16.",
+   "concept": "Listing the outcomes",
+   "section_heading": "FIVE MARKS QUESTIONS",
+   "images": [],
+   "figure_required": false,
+   "ocr": "Printed part (iv) explains the answer as \"because there is no card having number 17\", but card 17 is in the box; what makes the event impossible is that no card is greater than 17. The printed answer 0 is right, only its reason is misstated. Parts (iv) and (v) are also inconsistent with each other: (iv) says the card is replaced after the third draw, yet the printed (v) works with 16 cards on the ground that card 2 was not replaced. Rule 6 applies — the solution wins — so the count of 16 is followed. The row of card pictures and the cartoon figures are decorative, since the stem already says the cards are numbered 1 to 17, so no figure is attached. Stem begins on page 47 and the solution runs on to page 48, where the chapter ends."
+  }
+ ]
+}
